@@ -52,11 +52,31 @@ def _add_page(t: Table, pt: PageTable) -> None:
         if sig in t._sigs:
             ids = dict(zip((c.id for c in data_cols), t._sigs[sig]))
         else:
-            base = max(t.columns, default=1)
             if t.columns and any(sig):
-                ids = {c.id: base + k + 1 for k, c in enumerate(data_cols)}
+                ids = {}
+                for c in data_cols:
+                    t._next_id += 1  # same counter as the remapped printed numbers, so the two never collide
+                    ids[c.id] = t._next_id
             t._sigs[sig] = [ids[c.id] for c in data_cols]
         t.inferred_pages += 1
+    # --- which existing row, if any, does each row of this page continue?
+    matches: list[tuple[tuple, tuple, TableRow | None]] = []
+    seen: dict[tuple, int] = {}
+    seen_label: dict[str, int] = {}
+    for r in pt.rows:
+        base_key = (r.serial, norm_label(r.label))
+        occ = seen.get(base_key, 0)
+        seen[base_key] = occ + 1
+        label_key = (base_key[1], seen_label.get(base_key[1], 0))
+        seen_label[base_key[1]] = label_key[1] + 1
+        existing = t._index.get((*base_key, occ))
+        if existing is None:
+            # the serial number is missing on some pages: fall back to the label when it is unambiguous
+            same = t._labels.get(label_key, [])
+            if len(same) == 1 and (not r.serial or not same[0].serial):
+                existing = same[0]
+        matches.append(((*base_key, occ), label_key, existing))
+
     if not pt.anchor_inferred and not pt.unlabelled:
         # A printed column number reused for a different column (NCRB repeats e.g. '(3) No. of cases'
         # in each block of a wide table) must not overwrite the earlier one.
@@ -65,16 +85,12 @@ def _add_page(t: Table, pt: PageTable) -> None:
             ids.update(t._remap)
         else:
             t._remap_sig, t._remap = sig, {}
-            keys = [(r.serial, norm_label(r.label)) for r in pt.rows]
-            known = sum(1 for k in keys if (*k, 0) in t._index)
-            if pt.rows and known >= 0.5 * len(keys):  # same rows again: this page adds columns
+            pairs = [(r, m[2]) for r, m in zip(pt.rows, matches) if m[2] is not None]
+            if pt.rows and len(pairs) >= 0.5 * len(pt.rows):  # same rows again: this page adds columns
                 for c in data_cols:
-                    if c.id in t.columns:
-                        vals_old = [t._index[(*k, 0)].cells.get(c.id) for k in keys if (*k, 0) in t._index]
-                        vals_new = [r.cells.get(c.id) for r, k in zip(pt.rows, keys) if (*k, 0) in t._index]
-                        if vals_old != vals_new:
-                            t._next_id += 1
-                            t._remap[c.id] = t._next_id
+                    if c.id in t.columns and any(old.cells.get(c.id) not in (None, r.cells.get(c.id)) for r, old in pairs):
+                        t._next_id += 1
+                        t._remap[c.id] = t._next_id
                 ids.update(t._remap)
     for c in data_cols:
         t.columns.setdefault(ids[c.id], list(c.header))
@@ -95,27 +111,18 @@ def _add_page(t: Table, pt: PageTable) -> None:
                 t.rows.append(TableRow(b.section, "", f"[unmatched row, page {pt.page}]", {ids[cid]: v for cid, v in b.cells.items() if cid in ids}, b.page))
         return
     first_new = len(t.rows)
-    seen: dict[tuple, int] = {}
-    for r in pt.rows:
-        base_key = (r.serial, norm_label(r.label))
-        occ = seen.get(base_key, 0)
-        seen[base_key] = occ + 1
-        key = (*base_key, occ)
+    for r, (key, label_key, existing) in zip(pt.rows, matches):
         cells = {ids[cid]: v for cid, v in r.cells.items() if cid in ids}
-        existing = t._index.get(key)
-        if existing is None:
-            # the serial number is missing on some pages: fall back to the label when it is unambiguous
-            same = t._labels.get((base_key[1], occ), [])
-            if len(same) == 1 and (not r.serial or not same[0].serial):
-                existing = same[0]
-        if existing is not None and not (set(cells) & set(existing.cells)):
+        if existing is not None and not any(existing.cells.get(k, v) != v for k, v in cells.items()):
             existing.cells.update(cells)
+            if r.serial and not existing.serial:
+                existing.serial = r.serial
         else:
             row = TableRow(r.section, r.serial, r.label, cells, r.page)
             t.rows.append(row)
             # later pages with the same label and new columns merge into the newest such row
             t._index[key] = row
-            t._labels.setdefault((base_key[1], occ), []).append(row)
+            t._labels.setdefault(label_key, []).append(row)
     t._last_rows = t.rows[first_new:] or t._last_rows
     for n in pt.notes:
         n = n.replace("", "•").strip()
