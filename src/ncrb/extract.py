@@ -113,10 +113,10 @@ def process_file(job: dict) -> tuple[dict, list[dict]]:
     summary = {k: job.get(k, "") for k in ("publication", "year", "listing")} | {"source_file": job["path"]}
     rows: list[dict] = []
     try:
-        pages, no_text = extract_pdf_pages(str(src))
-        tables = assemble(pages)
-        summary |= {"pages": len(pages), "pages_without_text": no_text, "pages_with_table": sum(p is not None for p in pages), "tables": len(tables)}
-        summary["status"] = "ok" if tables else ("scanned" if no_text >= 0.8 * max(1, len(pages)) else "no_table")
+        segments, n_pages, no_text = extract_pdf_pages(str(src))
+        tables = assemble(segments)
+        summary |= {"pages": n_pages, "pages_without_text": no_text, "pages_with_table": len({s.page for s in segments}), "tables": len(tables)}
+        summary["status"] = "ok" if tables else ("scanned" if no_text >= 0.8 * max(1, n_pages) else "no_table")
         stem = slug(Path(job["path"]).stem, 60)
         prefix = slug(job.get("serial", ""), 12)
         seen: dict[str, int] = {}

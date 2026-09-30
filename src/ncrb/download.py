@@ -18,7 +18,9 @@ import argparse
 import csv
 import hashlib
 import re
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -135,6 +137,7 @@ def main() -> None:
     ap.add_argument("--year", type=int)
     ap.add_argument("--retry-failed", action="store_true")
     ap.add_argument("--limit", type=int)
+    ap.add_argument("--workers", type=int, default=3)
     args = ap.parse_args()
 
     state = load_state()
@@ -155,20 +158,27 @@ def main() -> None:
         todo = todo[: args.limit]
     print(f"{len(todo)} files to download", flush=True)
 
-    session = requests.Session()
-    session.headers["User-Agent"] = UA
-    for i, row in enumerate(todo, 1):
-        result = fetch(session, row["url"], ROOT / row["path"])
-        state[row["url"]] = {**row, **result}
-        if i % 25 == 0 or i == len(todo):
-            save_state(state)
-            ok = sum(1 for r in state.values() if r["status"] == "ok")
-            print(f"[{i}/{len(todo)}] ok={ok} last={row['path']} {result['status']}", flush=True)
-        elif result["status"] != "ok":
-            print(f"  {result['status']}: {row['url']} {result.get('error', '')}", flush=True)
-        time.sleep(DELAY)
-    save_state(state)
+    local = threading.local()
 
+    def work(row: dict) -> dict:
+        if not hasattr(local, "session"):
+            local.session = requests.Session()
+            local.session.headers["User-Agent"] = UA
+        result = fetch(local.session, row["url"], ROOT / row["path"])
+        time.sleep(DELAY)
+        return {**row, **result}
+
+    # a few connections only: this is a small public server
+    with ThreadPoolExecutor(max_workers=args.workers) as ex:
+        for i, rec in enumerate(ex.map(work, todo), 1):
+            state[rec["url"]] = rec
+            if rec["status"] != "ok":
+                print(f"  {rec['status']}: {rec['url']} {rec.get('error', '')}", flush=True)
+            if i % 50 == 0 or i == len(todo):
+                save_state(state)
+                ok = sum(1 for r in state.values() if r["status"] == "ok")
+                print(f"[{i}/{len(todo)}] ok={ok} last={rec['path']}", flush=True)
+    save_state(state)
 
 if __name__ == "__main__":
     main()

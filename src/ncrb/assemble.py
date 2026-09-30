@@ -84,7 +84,7 @@ def assemble(pages: list[PageTable | None]) -> list[Table]:
         if pt is None:
             continue
         new = cur is None
-        if cur is not None:
+        if cur is not None and not pt.carried:
             if pt.table_no and cur.table_no and pt.table_no != cur.table_no:
                 new = True
             elif pt.table_no and not cur.table_no:
