@@ -16,7 +16,11 @@ wrong:
   borders or shading give exact spans.
 - a wrapped row label split into two rows or joined to its neighbour;
 - a row that appears twice because its label was printed differently on a
-  continuation page (the extra row then holds only that page's columns).
+  continuation page (the extra row then holds only that page's columns);
+- two figures in one cell (about 0.1–0.2% of cells), when two printed values
+  fell into the same column, or a page number printed level with the last row
+  was picked up. `raw` then shows both (`288 554`) and `value` is left empty
+  rather than guessing.
 
 **Scanned PDFs (`pdf_ocr`, `pdf_mixed`)**: roughly before 2000, i.e. all of
 Crime in India 1953–1999, ADSI 1967–1999 and the first Prison Statistics

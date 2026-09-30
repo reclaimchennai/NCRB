@@ -108,7 +108,10 @@ def is_cell(t: str) -> bool:
 
 def parse_number(raw: str) -> float | None:
     """Numeric value of a raw cell, or None for placeholders / non-numbers."""
-    t = raw.strip().replace("−", "-").replace("–", "-").replace(" ", "")
+    t = raw.strip().replace("−", "-").replace("–", "-")
+    if re.search(r"\d\s+[-(]?\d", t):
+        return None  # two figures in one cell ('288 554'): not a number, and joining them would invent one
+    t = t.replace(" ", "")
     t = re.sub(r"[*@#$^]+$", "", t)
     if not t or PLACEHOLDER_RE.match(t):
         return None

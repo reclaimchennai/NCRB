@@ -254,7 +254,11 @@ def main() -> None:
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--no-ocr", action="store_true", help="skip scanned pages instead of running OCR")
     ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--revalue", action="store_true", help="only recompute `value` from `raw` in existing long files")
     args = ap.parse_args()
+    if args.revalue:
+        revalue()
+        return
 
     table_rows = _load(INDEX, "source_file")
     file_rows = _load(FILE_INDEX, "source_file")
@@ -273,6 +277,30 @@ def main() -> None:
     _save(INDEX, INDEX_FIELDS, table_rows)
     _save(FILE_INDEX, FILE_FIELDS, file_rows)
     prune({r["csv"] for rows in table_rows.values() for r in rows})
+
+
+def revalue() -> None:
+    """Recompute the `value` column of every long file from `raw` with the current number parser."""
+    n = changed = 0
+    for path in OUT.rglob("*.long.csv"):
+        rows = list(csv.reader(path.open(encoding="utf-8")))
+        if not rows:
+            continue
+        head = rows[0]
+        vi, ri = head.index("value"), head.index("raw")
+        dirty = False
+        for row in rows[1:]:
+            v = parse_number(row[ri])
+            new = "" if v is None else (f"{v:g}" if v != int(v) else str(int(v)))
+            if new != row[vi]:
+                row[vi] = new
+                dirty = True
+                changed += 1
+        if dirty:
+            with path.open("w", newline="", encoding="utf-8") as f:
+                csv.writer(f).writerows(rows)
+        n += 1
+    print(f"revalued {n} long files, {changed} cells changed")
 
 
 def prune(keep: set[str]) -> None:
