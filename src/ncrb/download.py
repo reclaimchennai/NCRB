@@ -91,41 +91,56 @@ def save_state(state: dict[str, dict], path: Path = FILES) -> None:
 
 
 def fetch(session: requests.Session, url: str, dest: Path) -> dict:
+    """Download one file, resuming a partial download when the connection drops."""
     last = ""
-    for attempt in range(4):
+    tmp = dest.with_name(dest.name + ".part")
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    for attempt in range(6):
+        have = tmp.stat().st_size if tmp.exists() else 0
         try:
-            with session.get(url, timeout=(30, 300), stream=True) as r:
+            headers = {"Range": f"bytes={have}-"} if have else {}
+            with session.get(url, timeout=(30, 300), stream=True, headers=headers) as r:
                 if r.status_code == 404:
                     return {"status": "missing", "error": "HTTP 404"}
-                if r.status_code != 200:
+                if r.status_code == 416 and have:  # nothing left to fetch
+                    pass
+                elif r.status_code not in (200, 206):
                     last = f"HTTP {r.status_code}"
                     raise requests.RequestException(last)
+                else:
+                    if r.status_code == 200 and have:
+                        have = 0  # server ignored the range: start again
+                    with tmp.open("ab" if have else "wb") as f:
+                        for chunk in r.iter_content(1 << 16):
+                            f.write(chunk)
                 ctype = r.headers.get("Content-Type", "")
-                h = hashlib.sha256()
-                size = 0
-                head = b""
-                tmp = dest.with_name(dest.name + ".part")
-                dest.parent.mkdir(parents=True, exist_ok=True)
-                with tmp.open("wb") as f:
-                    for chunk in r.iter_content(1 << 16):
-                        if not head:
-                            head = chunk[:8]
-                        f.write(chunk)
-                        h.update(chunk)
-                        size += len(chunk)
-                expected = r.headers.get("Content-Length")
-                if expected and int(expected) != size:
-                    tmp.unlink(missing_ok=True)
-                    last = f"truncated {size}/{expected}"
-                    raise requests.RequestException(last)
-                magic = MAGIC.get(dest.suffix.lower())
-                if magic and not head.lstrip().startswith(magic):
+                total = None
+                if r.status_code == 206 and "/" in r.headers.get("Content-Range", ""):
+                    total = int(r.headers["Content-Range"].rsplit("/", 1)[1])
+                elif r.status_code == 200 and r.headers.get("Content-Length"):
+                    total = int(r.headers["Content-Length"])
+            size = tmp.stat().st_size
+            if total is not None and size < total:
+                last = f"truncated {size}/{total}"
+                raise requests.RequestException(last)
+            h = hashlib.sha256()
+            with tmp.open("rb") as f:
+                head = f.read(8)
+                h.update(head)
+                for chunk in iter(lambda: f.read(1 << 20), b""):
+                    h.update(chunk)
+            magic = MAGIC.get(dest.suffix.lower())
+            if magic and not head.lstrip().startswith(magic):
+                if head.startswith(b"%PDF"):
+                    # a PDF published under another extension: keep it, named for what it is
+                    dest = dest.with_name(dest.name + ".pdf")
+                else:
                     # the server answers some dead links with an HTML page
                     tmp.unlink(missing_ok=True)
                     return {"status": "not_a_file", "content_type": ctype, "error": f"bad magic {head!r}"}
-                tmp.replace(dest)
-                return {"status": "ok", "bytes": size, "sha256": h.hexdigest(), "content_type": ctype}
-        except requests.RequestException as e:
+            tmp.replace(dest)
+            return {"status": "ok", "bytes": size, "sha256": h.hexdigest(), "content_type": ctype, "path": str(dest.relative_to(ROOT))}
+        except (requests.RequestException, OSError) as e:
             last = last or repr(e)
             time.sleep(5 * (attempt + 1))
     return {"status": "failed", "error": last[:300]}
