@@ -64,8 +64,14 @@ def _kind(row: list[str]) -> str:
         return "anchor"
     nums = [v for _, v in cells if is_cell(v)]
     texts = [v for _, v in cells if not is_cell(v)]
-    if len(set(texts)) <= 1 and not nums:
+    # a title repeated over each block of a wide table ('TABLE 3B.2', 'TABLE 3B.2 (Contd.)') is still one title
+    distinct = {re.sub(r"\s+", " ", CONTD_RE.sub(" ", v)).strip(" -–.").lower() for v in texts}
+    if len(distinct) <= 1 and not nums:
         return "single"  # title, section heading or note
+    if texts and len(nums) >= 3 and all(re.fullmatch(r"(19|20)\d\d(-\d\d)?", v) for v in nums):
+        return "header"  # a heading row of years: 'Sl | Crime | 2001 | 2002 | ...'
+    if len(nums) >= 2 and len(nums) >= 0.5 * len(cells):
+        return "data"  # label cells may repeat when a wide table is laid out in blocks side by side
     if len(nums) >= 1 and len(nums) >= 0.5 * len(cells) - 1 and len(texts) <= 3:
         return "data"
     return "header" if len(texts) >= 2 else "data"
@@ -135,8 +141,8 @@ def tables_from_grid(grid: list[list[str]], merged: list[tuple[int, int, int, in
                 if nxt != "data":
                     break
                 i += 1
-            elif k == "empty" and i + 1 < n and kinds[i + 1] == "data":
-                i += 1
+            elif k == "empty" and next((kinds[m] for m in range(i + 1, min(n, i + 4)) if kinds[m] != "empty"), "") == "data":
+                i += 1  # blank rows inside the table
             else:
                 break
         body_rows = [r for r in range(b0, i) if kinds[r] != "empty"]
@@ -176,6 +182,11 @@ def tables_from_grid(grid: list[list[str]], merged: list[tuple[int, int, int, in
         if not label_cols:
             label_cols = [used[0]]
         data_cols = [j for j in used if j not in label_cols and j in ids]
+        # a wide table laid out in blocks repeats its label columns; those copies are not data
+        for j in list(data_cols):
+            vals = [grid[r][j] for r in data_rows]
+            if any(vals == [grid[r][l] for r in data_rows] for l in label_cols):
+                data_cols.remove(j)
 
         title = " ".join(titles)
         m = TABLE_RE.match(title)
