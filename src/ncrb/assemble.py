@@ -16,6 +16,7 @@ class TableRow:
     cells: dict[int, str]
     page: int
     conf: dict[int, float] = field(default_factory=dict)
+    y: float = 0.0  # vertical position on its page, used to pair the halves of a two-page table
 
 
 @dataclass
@@ -112,14 +113,49 @@ def _add_page(t: Table, pt: PageTable) -> None:
     if pt.unlabelled:
         # the right-hand page of a spread carries no row labels; its rows follow the left page in order
         left = t._last_rows
+        pairs: list[tuple[TableRow | None, object]] = []
         if len(left) == len(pt.rows):
-            for a, b in zip(left, pt.rows):
-                a.cells.update({ids[cid]: v for cid, v in b.cells.items() if cid in ids})
-                a.conf.update({ids[cid]: v for cid, v in b.conf.items() if cid in ids})
-        else:
-            t.warnings.append(f"page {pt.page}: {len(pt.rows)} unlabelled rows could not be matched to {len(left)} rows of the facing page")
+            pairs = list(zip(left, pt.rows))
+        elif left and pt.rows:
+            # OCR lost a row on one side: pair the rows by height on the page instead. The two pages of a
+            # spread share their line spacing, so one vertical offset brings them into register.
+            ys = sorted(r.y for r in left)
+            gaps = sorted(b - a for a, b in zip(ys, ys[1:]) if b - a > 1)
+            pitch = gaps[len(gaps) // 2] if gaps else 10.0
+            left_ys = [r.y for r in left]
+
+            def score(d: float) -> tuple[int, float]:
+                """Rows brought into register by offset d, and how tightly (negated mean miss)."""
+                hits, miss = 0, 0.0
+                for b in pt.rows:
+                    e = min(abs(b.y - d - y) for y in left_ys)
+                    if e <= 0.3 * pitch:
+                        hits += 1
+                        miss += e
+                return hits, -miss / max(1, hits)
+
+            # every pairing of a right-hand row with a left-hand row proposes an offset; the blank lines
+            # between the States / UTs / Cities blocks make the true one fit far more rows than its neighbours
+            offset = max({round(b.y - a.y, 1) for b in pt.rows[:: max(1, len(pt.rows) // 12)] for a in left}, key=score)
+            free = set(range(len(left)))
             for b in pt.rows:
-                t.rows.append(TableRow(b.section, "", f"[unmatched row, page {pt.page}]", {ids[cid]: v for cid, v in b.cells.items() if cid in ids}, b.page))
+                best = min(free, key=lambda i: abs(b.y - offset - left[i].y), default=None)
+                if best is not None and abs(b.y - offset - left[best].y) <= 0.45 * pitch:
+                    free.discard(best)
+                    pairs.append((left[best], b))
+                else:
+                    pairs.append((None, b))
+            lost = sum(1 for a, _ in pairs if a is None)
+            if lost:
+                t.warnings.append(f"page {pt.page}: {lost} of {len(pt.rows)} rows of the right-hand page could not be placed against the left-hand page")
+        for a, b in pairs:
+            cells = {ids[cid]: v for cid, v in b.cells.items() if cid in ids}
+            conf = {ids[cid]: v for cid, v in b.conf.items() if cid in ids}
+            if a is None:
+                t.rows.append(TableRow(b.section, "", f"[unmatched row, page {pt.page}]", cells, b.page, conf, b.y))
+            else:
+                a.cells.update(cells)
+                a.conf.update(conf)
         return
     first_new = len(t.rows)
     for r, (key, label_key, existing) in zip(pt.rows, matches):
@@ -133,7 +169,7 @@ def _add_page(t: Table, pt: PageTable) -> None:
             if r.serial and not existing.serial:
                 existing.serial = r.serial
         else:
-            row = TableRow(r.section, r.serial, r.label, cells, r.page, conf)
+            row = TableRow(r.section, r.serial, r.label, cells, r.page, conf, r.y)
             t.rows.append(row)
             # later pages with the same label and new columns merge into the newest such row
             t._index[key] = row
