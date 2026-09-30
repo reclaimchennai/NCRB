@@ -81,6 +81,9 @@ def load_long(path) -> pd.DataFrame:
 def main() -> None:
     tables = list(csv.DictReader(INDEX.open(encoding="utf-8")))
     COMBINED.mkdir(parents=True, exist_ok=True)
+    # Whole volumes and chapters repeat the individually published tables; they feed the
+    # series only for years in which NCRB published no individual tables.
+    individual = {(t["publication"], t["year"]) for t in tables if t["listing"] in ("table_content", "additional_table")}
     writers: dict[str, pq.ParquetWriter] = {}
     groups: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
     n_cells = 0
@@ -101,7 +104,8 @@ def main() -> None:
         writers[pub].write_table(pa.Table.from_pandas(df[[f.name for f in SCHEMA]], schema=SCHEMA, preserve_index=False))
         n_cells += len(df)
         key, geo = series_key(t["title"] or t["pdf_title"])
-        if key:
+        in_series = t["listing"] in ("table_content", "additional_table") or (pub, t["year"]) not in individual
+        if key and in_series:
             groups[(pub, key, geo)].append(t)
         if i % 1000 == 0:
             print(f"[{i}/{len(tables)}] {n_cells:,} cells", flush=True)
