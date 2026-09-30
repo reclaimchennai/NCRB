@@ -192,7 +192,12 @@ def ocr_page_words(page: fitz.Page, engine: str | None = None) -> tuple[list[Wor
     if engine in ("vision", "both"):
         zoom = TARGET_PX / max(w, h)
         pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), colorspace=fitz.csGRAY, alpha=False)
-        vis = _recognise(pix.tobytes("png"))
+        try:
+            vis = _recognise(pix.tobytes("png"))
+        except RuntimeError:
+            if engine == "vision":
+                raise
+            vis = []  # Vision is only a supplement here; it is unavailable e.g. while the screen is locked
         if engine == "vision":
             boxes = vis
         else:
