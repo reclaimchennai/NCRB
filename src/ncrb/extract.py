@@ -78,7 +78,7 @@ def write_table(t: Table, meta: dict, base: Path) -> dict:
     n_cells = 0
     with Path(str(base) + ".long.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["row", "section", "sl_no", "name", "is_total", "col_no", "column", *[f"h{i + 1}" for i in range(MAX_LEVELS)], "value", "raw", "page"])
+        w.writerow(["row", "section", "sl_no", "name", "is_total", "col_no", "column", *[f"h{i + 1}" for i in range(MAX_LEVELS)], "value", "raw", "page", "ocr_conf"])
         for i, r in enumerate(t.rows, 1):
             total = int(bool(TOTAL_RE.search(r.label)))
             for cid, name in zip(col_ids, names):
@@ -89,7 +89,7 @@ def write_table(t: Table, meta: dict, base: Path) -> dict:
                 path = (t.columns[cid] + [""] * MAX_LEVELS)[:MAX_LEVELS]
                 if len(t.columns[cid]) > MAX_LEVELS:
                     path[-1] = " | ".join(t.columns[cid][MAX_LEVELS - 1 :])
-                w.writerow([i, r.section, r.serial, r.label, total, cid, name, *path, "" if v is None else f"{v:g}" if v != int(v) else int(v), raw, r.page])
+                w.writerow([i, r.section, r.serial, r.label, total, cid, name, *path, "" if v is None else f"{v:g}" if v != int(v) else int(v), raw, r.page, f"{r.conf[cid]:.2f}" if cid in r.conf else ""])
                 n_cells += 1
 
     checks = check_totals(t)

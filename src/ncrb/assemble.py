@@ -15,6 +15,7 @@ class TableRow:
     label: str
     cells: dict[int, str]
     page: int
+    conf: dict[int, float] = field(default_factory=dict)
 
 
 @dataclass
@@ -105,6 +106,7 @@ def _add_page(t: Table, pt: PageTable) -> None:
         if len(left) == len(pt.rows):
             for a, b in zip(left, pt.rows):
                 a.cells.update({ids[cid]: v for cid, v in b.cells.items() if cid in ids})
+                a.conf.update({ids[cid]: v for cid, v in b.conf.items() if cid in ids})
         else:
             t.warnings.append(f"page {pt.page}: {len(pt.rows)} unlabelled rows could not be matched to {len(left)} rows of the facing page")
             for b in pt.rows:
@@ -113,12 +115,14 @@ def _add_page(t: Table, pt: PageTable) -> None:
     first_new = len(t.rows)
     for r, (key, label_key, existing) in zip(pt.rows, matches):
         cells = {ids[cid]: v for cid, v in r.cells.items() if cid in ids}
+        conf = {ids[cid]: v for cid, v in r.conf.items() if cid in ids}
         if existing is not None and not any(existing.cells.get(k, v) != v for k, v in cells.items()):
             existing.cells.update(cells)
+            existing.conf.update(conf)
             if r.serial and not existing.serial:
                 existing.serial = r.serial
         else:
-            row = TableRow(r.section, r.serial, r.label, cells, r.page)
+            row = TableRow(r.section, r.serial, r.label, cells, r.page, conf)
             t.rows.append(row)
             # later pages with the same label and new columns merge into the newest such row
             t._index[key] = row

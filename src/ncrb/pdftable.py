@@ -77,6 +77,7 @@ class Row:
     cells: dict[int, str]  # column id -> raw text
     page: int
     y: float
+    conf: dict[int, float] = field(default_factory=dict)  # column id -> OCR confidence (scanned pages only)
 
 
 @dataclass
@@ -602,7 +603,7 @@ def _set_bounds(columns: list[Column], rules: Rules, y: float, page_w: float) ->
 
 
 FOOTER_RES = [
-    re.compile(r"^(accidental deaths|crime in india|prison statistics).{0,40}\b(19|20)\d\d\b.{0,12}$", re.I),
+    re.compile(r"^(accidental deaths|crime in india|prison statistics).{0,40}\b(19|20)\d\d\b.{0,30}$", re.I),
     re.compile(r"^[\[(]?\s*\d{1,4}\s*[\])]?$"),
     re.compile(r"^page\s*:?\s*\d+", re.I),
     re.compile(r"^[-–]?\s*\d{1,4}\s*[-–]?$"),
@@ -786,6 +787,7 @@ def _segment(
         consumed = i + 1
         label_words = [w for cid in label_cols for w in by_col.get(cid, [])]
         cells: dict[int, str] = {}
+        confs: dict[int, float] = {}
         spill: list[Word] = []
         for cid in data_cols:
             ws = by_col.get(cid, [])
@@ -804,7 +806,8 @@ def _segment(
             if vals:
                 cells[cid] = " ".join(w.text for w in vals) if len(vals) > 1 else vals[0].text
                 if ocr:
-                    low = min(low, *(w.conf for w in vals))
+                    confs[cid] = min(w.conf for w in vals)
+                    low = min(low, confs[cid])
         serial = ""
         if serial_col is not None:
             sw = [w for w in by_col.get(serial_col, []) if serial_re.fullmatch(w.text)]
@@ -821,7 +824,7 @@ def _segment(
         if ocr:
             label = re.sub(r"\bT[oO0][tTrR][aA][lLnNI1]\b", "TOTAL", label)  # small capitals defeat the recogniser
         if cells and _has_data(by_col, data_cols):
-            row = Row(label, serial, section, cells, page_no, y)
+            row = Row(label, serial, section, cells, page_no, y, confs)
             if not label and not pending and rows and y - rows[-1].y <= 1.2 * pitch:
                 # a second line of figures under a row (e.g. rates printed beneath counts)
                 base = re.sub(r" \[line \d+\]$", "", rows[-1].label)
@@ -928,7 +931,14 @@ def _clone_columns(prev: PageTable, inferred: list[Column]) -> list[Column] | No
 
 def fix_ocr_number(t: str) -> str:
     """Undo the usual misreadings of digits in a numeric column ('ll' for 11, 'O' for 0, '20°' for 20)."""
-    u = t.strip("°'\"`:;*^")
+    u = t.strip("'\"`:;*^|!")
+    if u in ("°", "o", "O", "Q", "D", "()", "QO"):
+        return "0"  # a lone zero is the digit OCR most often turns into something else
+    u = u.strip("°")
+    if u.endswith(")") and "(" not in u:
+        u = u[:-1]
+    if u.startswith("(") and ")" not in u:
+        u = u[1:]
     if len(u) > 1 and u.endswith(".") and u[:-1].replace(",", "").isdigit():
         u = u[:-1]
     if re.fullmatch(r"[lI|!\]\[1]+", u):

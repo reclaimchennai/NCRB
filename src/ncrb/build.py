@@ -52,7 +52,7 @@ SCHEMA = pa.schema(
         ("name_std", pa.string()), ("entity_type", pa.string()), ("is_total", pa.int8()),
         ("col_no", pa.int32()), ("column", pa.string()),
         ("h1", pa.string()), ("h2", pa.string()), ("h3", pa.string()), ("h4", pa.string()), ("h5", pa.string()),
-        ("value", pa.float64()), ("raw", pa.string()), ("page", pa.int32()),
+        ("value", pa.float64()), ("raw", pa.string()), ("page", pa.int32()), ("ocr_conf", pa.float32()),
     ]
 )
 
@@ -71,6 +71,7 @@ def load_long(path) -> pd.DataFrame:
     for c in ("row", "col_no", "page", "is_total"):
         df[c] = pd.to_numeric(df[c], errors="coerce").fillna(0).astype("int32")
     df["value"] = pd.to_numeric(df["value"], errors="coerce")
+    df["ocr_conf"] = pd.to_numeric(df["ocr_conf"], errors="coerce").astype("float32")
     std = {n: standardise(n) for n in df["name"].unique()}
     df["name_std"] = df["name"].map(lambda n: std[n][0])
     df["entity_type"] = df["name"].map(lambda n: std[n][1])
@@ -126,7 +127,7 @@ def main() -> None:
             frames.append(df)
         out = SERIES / pub / f"{sid}.csv"
         out.parent.mkdir(parents=True, exist_ok=True)
-        cols = ["year", "table_id", "section", "sl_no", "name", "name_std", "entity_type", "is_total", "col_no", "column", "h1", "h2", "h3", "h4", "h5", "value", "raw"]
+        cols = ["year", "table_id", "section", "sl_no", "name", "name_std", "entity_type", "is_total", "col_no", "column", "h1", "h2", "h3", "h4", "h5", "value", "raw", "ocr_conf"]
         pd.concat(frames)[cols].to_csv(out, index=False)
         methods = sorted({m["method"] for m in members})
         index_rows.append({
