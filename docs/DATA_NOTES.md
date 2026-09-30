@@ -24,10 +24,11 @@ volumes. These are photographs of printed books, some at low resolution, read
 by OCR. Expect wrong digits (3/8, 5/6, 1/7), dropped digits, missing cells and
 garbled headings. `ocr_conf` on each cell is the recogniser's own confidence;
 low values are worth checking first, but a high value is not a guarantee. The
-totals check passes for well under half of the checked cells in this tier,
-and one wrong digit anywhere in a column fails that column's check, so the
-per-cell error rate is much lower than that figure suggests, but it is not
-negligible. **Treat every OCR figure as unverified until compared with the PDF.**
+totals check passes for roughly 35–55% of the checked cells in this tier
+(per publication and year in [COVERAGE.md](COVERAGE.md)). One wrong or missing
+digit anywhere in a column fails that column's check, so the per-cell error
+rate is much lower than that figure suggests, but it is not negligible.
+**Treat every OCR figure as unverified until compared with the PDF.**
 
 Particular weaknesses of the scanned tier:
 

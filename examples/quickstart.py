@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = Path(__file__).resolve().parent
 
 # --- 1. one table -----------------------------------------------------------
-idx = pd.read_csv(ROOT / "data" / "tables_index.csv")
+idx = pd.read_csv(ROOT / "data" / "tables_index.csv", low_memory=False)
 hits = idx[
     (idx.publication == "adsi")
     & (idx.year == 2020)

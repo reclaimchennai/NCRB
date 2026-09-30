@@ -97,9 +97,12 @@ Pages without a text layer are rendered at 300 dpi and recognised:
 1. Ruling lines are erased from the image first. Figures touching a cell
    border are otherwise dropped or misread; on the gridded 1990s tables this
    step is what makes whole columns readable at all.
-2. Tesseract (`--psm 6`) supplies words with boxes and confidences. On macOS,
-   Apple Vision is run as well and fills in tokens Tesseract missed or read
-   with low confidence, notably the row of column numbers.
+2. Tesseract 5 (`--psm 6`) supplies words with boxes and confidences. Apple
+   Vision can be added (`NCRB_OCR_ENGINE=both`, macOS only) to fill in tokens
+   Tesseract missed, notably rows of column numbers; it is off by default
+   because it refuses to run in worker processes while the screen is locked,
+   which would make results depend on the session. The published data was
+   produced with Tesseract alone.
 3. Coordinates are deskewed using Tesseract's line grouping.
 4. The words go through the same table logic as text PDFs, with repairs
    specific to OCR: column numbers such as `14)` for `(4)`; `ll` for 11; a lone

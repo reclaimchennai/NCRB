@@ -10,8 +10,18 @@ into CSV, JSON and Parquet.
 | `adsi` | Accidental Deaths & Suicides in India | 1967 – 2024 |
 | `psi` | Prison Statistics India | 1995 – 2024 |
 
-Current counts of files, tables and cells per year, and how well each year
-extracted, are in [docs/COVERAGE.md](docs/COVERAGE.md).
+At a glance (details per year in [docs/COVERAGE.md](docs/COVERAGE.md)):
+
+| | Crime in India | ADSI | Prison Statistics | All |
+|---|---:|---:|---:|---:|
+| Files downloaded | 9,579 | 1,460 | 2,480 | 13,519 |
+| Tables extracted | 27,971 | 3,383 | 4,778 | 36,132 |
+| Cells | 21.2 M | 4.0 M | 1.7 M | 26.9 M |
+| Totals check, text PDFs & Excel | 99.4% | 99.7% | 99.3% | |
+| Totals check, OCR (pre-2000 scans) | 53% | 51% | 37% | |
+
+107 files listed on the site could not be downloaded (dead links on NCRB's
+side); they are listed at the end of COVERAGE.md.
 
 ## How much to trust the numbers
 
@@ -70,7 +80,7 @@ Find a table, then load it:
 ```python
 import pandas as pd
 
-idx = pd.read_csv("data/tables_index.csv")
+idx = pd.read_csv("data/tables_index.csv", low_memory=False)
 hits = idx[(idx.publication == "adsi") & (idx.year == 2020) & idx.title.str.contains("Profession", case=False)]
 print(hits[["table_id", "title", "n_rows", "n_cols", "checks_passed", "checks_total"]])
 
@@ -113,8 +123,7 @@ Column-by-column descriptions of every file are in
 ## Rebuilding
 
 Requires [uv](https://docs.astral.sh/uv/). OCR of the scanned years needs
-`tesseract` on the PATH (`brew install tesseract`); on macOS Apple's Vision
-framework is used alongside it.
+`tesseract` on the PATH (`brew install tesseract`).
 
 ```bash
 uv sync

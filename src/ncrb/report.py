@@ -50,6 +50,9 @@ def main() -> None:
         s["tables_" + r["method"]] += 1
         s["checks_total"] += int(r["checks_total"] or 0)
         s["checks_passed"] += int(r["checks_passed"] or 0)
+        tier = "ocr" if r["method"] in ("pdf_ocr", "pdf_mixed") else "text"
+        s[f"checks_total_{tier}"] += int(r["checks_total"] or 0)
+        s[f"checks_passed_{tier}"] += int(r["checks_passed"] or 0)
         if int(r["checks_total"] or 0):
             s["tables_checked"] += 1
             s["tables_all_pass"] += r["checks_total"] == r["checks_passed"]
@@ -58,6 +61,7 @@ def main() -> None:
         "publication", "year", "files_listed", "files_downloaded", "files_missing", "files_with_tables", "pages", "pages_ocr",
         "tables", "tables_pdf_text", "tables_excel", "tables_pdf_ocr", "tables_pdf_mixed", "cells",
         "checks_total", "checks_passed", "check_pass_rate", "tables_checked", "tables_all_pass",
+        "checks_total_text", "checks_passed_text", "checks_total_ocr", "checks_passed_ocr",
     ]
     rows = []
     for (pub, year), s in sorted(stats.items()):
@@ -81,20 +85,25 @@ def main() -> None:
             continue
         tot = lambda f: sum(int(r[f]) for r in sel)  # noqa: E731
         md += [f"## {name} (`{pub}`)", ""]
+        pct = lambda a, b: f"{a / b:.1%}" if b else "–"  # noqa: E731
         md += [
-            f"{tot('files_downloaded'):,} files downloaded ({tot('files_missing')} unavailable), {tot('tables'):,} tables, "
-            f"{tot('cells'):,} cells; totals check: {tot('checks_passed'):,} of {tot('checks_total'):,} "
-            f"({tot('checks_passed') / max(1, tot('checks_total')):.1%}).",
+            f"{tot('files_downloaded'):,} files downloaded ({tot('files_missing')} listed but unavailable), "
+            f"{tot('tables'):,} tables, {tot('cells'):,} cells.",
             "",
-            "| Year | Files | Tables | Text | Excel | OCR | Cells | Checks | Pass |",
-            "|---|---:|---:|---:|---:|---:|---:|---:|---:|",
+            f"- Text-layer PDFs and Excel: {tot('checks_passed_text'):,} of {tot('checks_total_text'):,} checked total cells match "
+            f"({pct(tot('checks_passed_text'), tot('checks_total_text'))}).",
+            f"- OCR of scanned pages: {tot('checks_passed_ocr'):,} of {tot('checks_total_ocr'):,} "
+            f"({pct(tot('checks_passed_ocr'), tot('checks_total_ocr'))}).",
+            "",
+            "| Year | Files | Tables | Text | Excel | OCR | Cells | Checks (text) | Pass | Checks (OCR) | Pass |",
+            "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|",
         ]
         for r in sel:
             ocr = int(r["tables_pdf_ocr"]) + int(r["tables_pdf_mixed"])
-            rate = f"{float(r['check_pass_rate']):.1%}" if r["check_pass_rate"] else "–"
+            ct, pt_, co, po = (int(r[k]) for k in ("checks_total_text", "checks_passed_text", "checks_total_ocr", "checks_passed_ocr"))
             md.append(
                 f"| {r['year']} | {r['files_downloaded']} | {r['tables']} | {r['tables_pdf_text']} | {r['tables_excel']} | {ocr} | "
-                f"{int(r['cells']):,} | {int(r['checks_total']):,} | {rate} |"
+                f"{int(r['cells']):,} | {ct:,} | {pct(pt_, ct)} | {co:,} | {pct(po, co)} |"
             )
         md.append("")
     bad = [r for r in files if r["status"] != "ok"]

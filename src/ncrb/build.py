@@ -40,7 +40,7 @@ YEAR_RE = re.compile(
     re.I,
 )
 GEO = [
-    (re.compile(r"state\s*/?\s*(&|and)?\s*u\.?t\.?s?\s*(&|and|/|,)\s*cit(y|ies)", re.I), "state-ut-city"),
+    (re.compile(r"state\s*[/,&]?\s*(and\s*)?u\.?t\.?s?\s*[,/&]?\s*(and\s*)?cit(y|ies)", re.I), "state-ut-city"),
     (re.compile(r"metropolitan|mega\s*cit|cit(y|ies)\s*-?\s*wise|\bcities\b", re.I), "city"),
     (re.compile(r"state\s*/?\s*(&|and)?\s*u\.?t\.?s?|state\s*-?\s*wise|states\b", re.I), "state-ut"),
     (re.compile(r"all[\s-]*india", re.I), "all-india"),
@@ -70,6 +70,8 @@ def collections_mode(values: list[str]) -> str:
 def series_key(title: str) -> tuple[str, str]:
     """(normalised title without years, geography tag)."""
     t = re.sub(r"\((?:contd|concld|concluded|continued)[^)]*\)", " ", title, flags=re.I)
+    # leading table / list / figure numbers: '2.1 --', 'LIST–2.1', 'Table 3A.2'
+    t = re.sub(r"^\W*(?:(?:table|list|figure|statement|appendix)\W*)?[0-9]+[A-Z]?(?:\.[0-9]+[A-Z]?)*\W+", "", t, flags=re.I)
     geo = next((tag for rx, tag in GEO if rx.search(t)), "")
     t = YEAR_RE.sub(" ", t)
     t = re.sub(r"\(\s*\)", " ", t)
@@ -80,7 +82,7 @@ def load_long(path) -> pd.DataFrame:
     df = pd.read_csv(path, dtype=str, keep_default_na=False)
     for c in ("row", "page", "is_total"):
         df[c] = pd.to_numeric(df[c], errors="coerce").fillna(0).astype("int32")
-    df["value"] = pd.to_numeric(df["value"], errors="coerce")
+    df["value"] = pd.to_numeric(df["value"], errors="coerce").astype("float64")
     df["ocr_conf"] = pd.to_numeric(df["ocr_conf"], errors="coerce").astype("float32")
     std = {n: standardise(n) for n in df["name"].unique()}
     df["name_std"] = df["name"].map(lambda n: std[n][0])
