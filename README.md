@@ -52,6 +52,7 @@ data/
   combined/<pub>_cells.parquet   every cell of a publication in one tidy file
   series/<pub>/*.csv     the same table stacked across years (time series)
   series_index.csv       one line per series: title, years covered
+  topics_index.csv       one line per topic (NCRB chapter): years covered, number of tables
   quality_by_year.csv    coverage and check results per publication and year
 docs/                    documentation (see below)
 src/ncrb/                the pipeline

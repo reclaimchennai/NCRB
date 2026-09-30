@@ -25,11 +25,12 @@ import pyarrow.parquet as pq
 
 from .crawl import ROOT
 from .entities import standardise
-from .extract import INDEX, slug
+from .extract import INDEX, INDEX_FIELDS, slug, topic_of
 
 COMBINED = ROOT / "data" / "combined"
 SERIES = ROOT / "data" / "series"
 SERIES_INDEX = ROOT / "data" / "series_index.csv"
+TOPICS_INDEX = ROOT / "data" / "topics_index.csv"
 
 YEAR = r"(?:19|20)\d\d"
 YEAR_RE = re.compile(
@@ -57,6 +58,15 @@ SCHEMA = pa.schema(
 )
 
 
+def collections_mode(values: list[str]) -> str:
+    """Most frequent non-empty value."""
+    counts: dict[str, int] = defaultdict(int)
+    for v in values:
+        if v:
+            counts[v] += 1
+    return max(counts, key=counts.get) if counts else ""
+
+
 def series_key(title: str) -> tuple[str, str]:
     """(normalised title without years, geography tag)."""
     t = re.sub(r"\((?:contd|concld|concluded|continued)[^)]*\)", " ", title, flags=re.I)
@@ -80,6 +90,22 @@ def load_long(path) -> pd.DataFrame:
 
 def main() -> None:
     tables = list(csv.DictReader(INDEX.open(encoding="utf-8")))
+    for t in tables:
+        t["topic"] = topic_of(t["section"], t["listing"])
+    with INDEX.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=INDEX_FIELDS, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(tables)
+    topics: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for t in tables:
+        if t["topic"]:
+            topics[(t["publication"], t["topic"].lower())].append(t)
+    with TOPICS_INDEX.open("w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["publication", "topic", "first_year", "last_year", "n_years", "n_tables", "n_cells"])
+        for (pub, _), members in sorted(topics.items()):
+            years = sorted({int(m["year"]) for m in members})
+            w.writerow([pub, members[0]["topic"], years[0], years[-1], len(years), len(members), sum(int(m["n_cells"] or 0) for m in members)])
     COMBINED.mkdir(parents=True, exist_ok=True)
     # Whole volumes and chapters repeat the individually published tables; they feed the
     # series only for years in which NCRB published no individual tables.
@@ -137,6 +163,7 @@ def main() -> None:
         index_rows.append({
             "series_id": f"{pub}/{sid}",
             "publication": pub,
+            "topic": collections_mode([m["topic"] for m in members]),
             "geography": geo,
             "title": max((m["title"] for m in members), key=len),
             "first_year": years[0],

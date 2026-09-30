@@ -37,7 +37,7 @@ FILE_INDEX = ROOT / "data" / "files_index.csv"
 MAX_LEVELS = 5
 
 INDEX_FIELDS = [
-    "table_id", "publication", "year", "listing", "section", "serial", "table_no", "title", "pdf_title",
+    "table_id", "publication", "year", "listing", "topic", "section", "serial", "table_no", "title", "pdf_title",
     "method", "n_rows", "n_cols", "n_cells", "pages", "checks_total", "checks_passed", "inferred_pages", "warnings",
     "csv", "source_file", "source_url",
 ]
@@ -51,6 +51,19 @@ EXTS = (".pdf", ".xlsx", ".xls")
 def slug(s: str, n: int = 70) -> str:
     s = re.sub(r"[^A-Za-z0-9]+", "-", s).strip("-").lower()
     return s[:n].rstrip("-")
+
+
+def topic_of(section: str, listing: str) -> str:
+    """NCRB's chapter heading for a file, cleaned: 'Chapter - 2 -- SUICIDES IN INDIA' -> 'Suicides in India'."""
+    if listing == "year_wise":
+        return ""  # volumes and front matter are listed under the report's name, not a topic
+    t = re.sub(r"^\s*chapter\s*[-–]?\s*[0-9A-Za-z]*\s*[-–]+\s*", "", section, flags=re.I)
+    t = re.sub(r"\s+", " ", t).strip()
+    if t.isupper():
+        small = {"In", "Of", "And", "By", "With", "The", "To", "For", "Under", "On"}
+        words = [w if w.upper() in ("IPC", "SLL", "SC", "ST", "SCS", "STS", "UT", "UTS", "ADSI", "BNS") or "/" in w else w.capitalize() for w in t.split()]
+        t = " ".join(w.lower() if i and w in small else w for i, w in enumerate(words))
+    return t
 
 
 def header_name(path: list[str]) -> str:
@@ -161,6 +174,7 @@ def process_file(job: dict) -> tuple[dict, list[dict]]:
                 "publication": job["publication"],
                 "year": int(job["year"]),
                 "listing": job["listing"],
+                "topic": topic_of(job.get("section", ""), job["listing"]),
                 "section": job.get("section", ""),
                 "serial": job.get("serial", ""),
                 "title": title,

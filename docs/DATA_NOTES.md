@@ -89,9 +89,11 @@ The data is what NCRB printed for each year. It is not harmonised.
   one UT from 2020. `name_std` gives one spelling per name, it does not
   reconstruct territories: "Andhra Pradesh" before and after 2014 is the same
   `name_std` but not the same area.
-- **The set of cities changed**: 23 then 35 "mega cities" up to 2013, 53 cities
-  from 2014, 19 metropolitan cities from 2016, 34 in recent ADSI volumes.
-  `TOTAL (CITIES)` is not comparable across those changes.
+- **The set of cities changed** several times: the city tables cover 23
+  cities in the 1990s, 35 in the 2000s and 53 later, and Crime in India moved
+  to a shorter list of metropolitan cities (19, and 34 in the online tables)
+  from 2016. `TOTAL (CITIES)` is not comparable across those changes; check
+  how many city rows a table has before comparing.
 - **Definitions and classifications changed**: crime heads were regrouped in
   2014 and again in 2017; suicides by profession was reclassified in 2014
   (farming sector separated); "Transgender" columns appear from 2014; the

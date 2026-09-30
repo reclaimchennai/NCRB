@@ -21,7 +21,8 @@ repository root.
 | `table_id` | see above |
 | `publication`, `year` | see above |
 | `listing` | NCRB listing the source file came from: `table_content`, `additional_table`, `table_chapter`, `year_wise` |
-| `section` | heading the file is listed under on ncrb.gov.in (chapter name) |
+| `topic` | NCRB's chapter heading for the table, cleaned (`Suicides in India`, `Crime Against Women (States/UTs)`); empty for volumes and front matter |
+| `section` | the heading exactly as shown on ncrb.gov.in (`Chapter - 2 -- SUICIDES IN INDIA`) |
 | `serial` | NCRB's serial number for the file in that listing (e.g. `2.7`) |
 | `table_no` | table number printed in the document itself (e.g. `2.7`, `1B.4`, `VII`), if found |
 | `title` | table title. For single-table files this is NCRB's listing title (clean); for tables cut out of multi-table files it is the title read from the page |
@@ -133,13 +134,21 @@ Series file columns: `year`, `table_id`, then the long-format columns
 (`section`, `sl_no`, `name`, `name_std`, `entity_type`, `is_total`, `col_no`,
 `column`, `h1`–`h5`, `value`, `raw`, `ocr_conf`).
 
-`series_index.csv`: `series_id`, `publication`, `geography`, `title`,
+`series_index.csv`: `series_id`, `publication`, `topic`, `geography`, `title`,
 `first_year`, `last_year`, `n_years`, `years`, `n_tables`, `methods`, `csv`.
 
 Grouping is by title only. NCRB changes wording, column sets and definitions
 over time, so a series can break where the title changed (you will find two
 series) and columns within a series are not guaranteed to mean the same thing
 in every year. Compare the `column` values across years before plotting.
+
+## `data/topics_index.csv`
+
+One line per publication and topic: `publication`, `topic`, `first_year`,
+`last_year`, `n_years`, `n_tables`, `n_cells`. Topics are NCRB's own chapter
+headings, so they change when NCRB reorganises a report (Crime in India was
+restructured in 2016, Prison Statistics in 2016); the same subject can appear
+under two headings in different periods.
 
 ## `catalog/catalog.csv` and `catalog/files.csv`
 
