@@ -152,6 +152,24 @@ def page_words(page: fitz.Page) -> list[Word]:
         else:
             w.size = y1 - y0
         out.append(w)
+    return _join_touching(out)
+
+
+def _join_touching(words: list[Word]) -> list[Word]:
+    """Rejoin tokens that the PDF splits mid-word ('3' + '2' for 32, 'CHHA' + 'TTISGARH').
+
+    Some producers position glyph runs separately; text extraction then sees a
+    word break where there is no space at all. Two tokens on one baseline whose
+    boxes touch are one token.
+    """
+    words.sort(key=lambda w: (round(w.y1), w.x0))
+    out: list[Word] = []
+    for w in words:
+        p = out[-1] if out else None
+        if p is not None and abs(p.y1 - w.y1) < 1.0 and -1.5 <= w.x0 - p.x1 <= 0.12 * (w.size or 8):
+            out[-1] = Word(p.x0, min(p.y0, w.y0), w.x1, max(p.y1, w.y1), p.text + w.text, p.size, p.bold)
+        else:
+            out.append(w)
     return out
 
 

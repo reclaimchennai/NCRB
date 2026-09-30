@@ -183,6 +183,10 @@ RATE_RE = re.compile(r"rate|percent|%|share|ratio|per\s+lakh|variation|rank|dens
 GRAND_RE = re.compile(r"all[\s-]*india|grand|\(\s*all\s*\)|states?\s*(\+|&|and)\s*uts?", re.I)
 
 
+RATE_TABLE_RE = re.compile(
+    r"^\W*(percentage|rate|ratio)\b|\b(conviction|charge-?sheeting|pendency|occupancy|recidivism)\s+(rate|percentage)|\bper\s+(staff|case|inmate|lakh)\b",
+    re.I,
+)
 GEO_TOTAL_RE = re.compile(r"total.*(state|u\.?\s*t|union|cit(y|ies)|district|all[\s-]*india)|all[\s-]*india|^\s*india\s*$", re.I)
 SUBITEM_RE = re.compile(r"^\(?([ivxlc]{1,5}|[a-z])\)$|^\([ivxlc]{1,5}$|^\([a-z]$", re.I)
 
@@ -199,6 +203,8 @@ def check_totals(t: Table) -> dict:
     """
     checked = passed = other_checked = other_passed = 0
     failures: list[str] = []
+    if RATE_TABLE_RE.search(t.title):  # a table of rates or percentages has no additive totals
+        return {"cells_checked": 0, "cells_passed": 0, "failures": [], "other_totals_checked": 0, "other_totals_passed": 0}
     # rates, shares and averages do not add up; they are recognised by their heading or by carrying decimals
     decimal = {cid for r in t.rows for cid, raw in r.cells.items() if "." in raw and any(ch.isdigit() for ch in raw)}
     cols = [cid for cid, hdr in t.columns.items() if cid not in decimal and not RATE_RE.search(" ".join(hdr))]
