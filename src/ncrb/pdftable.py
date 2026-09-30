@@ -233,11 +233,14 @@ def find_anchors(lines: list[list[Word]]) -> list[tuple[int, list[Column], list[
     for i, line in enumerate(lines):
         nums, others = _split_colnums(line)
         bare = False
-        digits = [w for w in line if re.fullmatch(r"\d{1,2}\.?", w.text)]
+        digits = [w for w in line if re.fullmatch(r"\d{1,3}\.?", w.text)]
         if len(nums) < 2 and len(digits) >= 4 and all(len(w.text) <= 2 and w.conf < 0.9 for w in line if w not in digits) and len(digits) >= 0.7 * len(line):
             # older volumes number the columns without brackets: '1 2 3 4 5'
             vals = [int(w.text.rstrip(".")) for w in digits]
-            if all(0 < b - a <= 2 for a, b in zip(vals, vals[1:])) and i + 1 < len(lines):
+            steps = [b - a for a, b in zip(vals, vals[1:])]
+            # consecutive, except for the jump after the row-label columns on continuation pages ('1 2 12 13 14')
+            jumps = [k for k, st in enumerate(steps) if st > 1]
+            if all(st > 0 for st in steps) and (not jumps or (jumps == [1] and vals[:2] == [1, 2]) or jumps == [0]) and i + 1 < len(lines):
                 nums, others, bare = [(v, w.x0, w.x1) for v, w in zip(vals, digits)], [], True
                 line = digits
         if len(nums) < 2 or len(nums) < 0.6 * len(line):
@@ -765,8 +768,9 @@ def _segment(
     notes: list[str] = []
     section = carry.rows[-1].section if carry is not None and carry.rows else ""
     pending: list[tuple[float, str]] = []  # label-only lines waiting for an owner
-    pitches = [b[0] - a[0] for a, b in zip(body, body[1:]) if 0 < b[0] - a[0] < 60]
-    pitch = statistics.median(pitches) if pitches else 12.0
+    data_ys = [y for y, bc in body if _has_data(bc, data_cols)]
+    pitches = [b - a for a, b in zip(data_ys, data_ys[1:]) if 0 < b - a < 60]
+    pitch = statistics.median(pitches) if pitches else 12.0  # distance between rows of figures
     last_data_idx = max((i for i, (_, bc) in enumerate(body) if _has_data(bc, data_cols)), default=-1)
     serial_col = label_cols[0] if len(label_cols) > 1 else None
     serial_re = re.compile(r"\d{1,4}[.)]?|\(?[ivxlc]+\)|[A-Za-z][.)]")

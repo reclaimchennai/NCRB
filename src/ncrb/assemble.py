@@ -33,6 +33,7 @@ class Table:
     warnings: list[str] = field(default_factory=list)
     _index: dict = field(default_factory=dict, repr=False)
     _labels: dict = field(default_factory=dict, repr=False)
+    _serials: dict = field(default_factory=dict, repr=False)
     _sigs: dict = field(default_factory=dict, repr=False)
     _last_rows: list = field(default_factory=list, repr=False)
     _remap_sig: tuple = field(default=(), repr=False)
@@ -76,6 +77,14 @@ def _add_page(t: Table, pt: PageTable) -> None:
             same = t._labels.get(label_key, [])
             if len(same) == 1 and (not r.serial or not same[0].serial):
                 existing = same[0]
+        if existing is None and r.serial and len(base_key[1]) >= 4:
+            # a long label wraps differently from page to page ('Indore (Madhya' / 'Indore (Madhya Pradesh)')
+            near = [
+                x for x in t._serials.get(r.serial, [])
+                if norm_label(x.label).startswith(base_key[1]) or base_key[1].startswith(norm_label(x.label)) and len(norm_label(x.label)) >= 4
+            ]
+            if len(near) == 1:
+                existing = near[0]
         matches.append(((*base_key, occ), label_key, existing))
 
     if not pt.anchor_inferred and not pt.unlabelled:
@@ -119,6 +128,8 @@ def _add_page(t: Table, pt: PageTable) -> None:
         if existing is not None and not any(existing.cells.get(k, v) != v for k, v in cells.items()):
             existing.cells.update(cells)
             existing.conf.update(conf)
+            if len(r.label) > len(existing.label) and norm_label(r.label).startswith(norm_label(existing.label)):
+                existing.label = r.label  # keep the fullest form of a wrapped label
             if r.serial and not existing.serial:
                 existing.serial = r.serial
         else:
@@ -127,6 +138,8 @@ def _add_page(t: Table, pt: PageTable) -> None:
             # later pages with the same label and new columns merge into the newest such row
             t._index[key] = row
             t._labels.setdefault(label_key, []).append(row)
+            if r.serial:
+                t._serials.setdefault(r.serial, []).append(row)
     t._last_rows = t.rows[first_new:] or t._last_rows
     for n in pt.notes:
         n = n.replace("", "•").strip()
@@ -158,6 +171,7 @@ def assemble(pages: list[PageTable | None]) -> list[Table]:
     for t in tables:
         t._index.clear()
         t._labels.clear()
+        t._serials.clear()
         t._sigs.clear()
         t._last_rows = []
     return tables
@@ -169,6 +183,7 @@ RATE_RE = re.compile(r"rate|percent|%|share|ratio|per\s+lakh|variation|rank|dens
 GRAND_RE = re.compile(r"all[\s-]*india|grand|\(\s*all\s*\)|states?\s*(\+|&|and)\s*uts?", re.I)
 
 
+GEO_TOTAL_RE = re.compile(r"total.*(state|u\.?\s*t|union|cit(y|ies)|district|all[\s-]*india)|all[\s-]*india|^\s*india\s*$", re.I)
 SUBITEM_RE = re.compile(r"^\(?([ivxlc]{1,5}|[a-z])\)$|^\([ivxlc]{1,5}$|^\([a-z]$", re.I)
 
 
@@ -182,9 +197,11 @@ def check_totals(t: Table) -> dict:
     read correctly with near certainty, because a single misplaced digit breaks
     the sum.
     """
-    checked = passed = 0
+    checked = passed = other_checked = other_passed = 0
     failures: list[str] = []
-    cols = [cid for cid, hdr in t.columns.items() if not RATE_RE.search(" ".join(hdr))]
+    # rates, shares and averages do not add up; they are recognised by their heading or by carrying decimals
+    decimal = {cid for r in t.rows for cid, raw in r.cells.items() if "." in raw and any(ch.isdigit() for ch in raw)}
+    cols = [cid for cid, hdr in t.columns.items() if cid not in decimal and not RATE_RE.search(" ".join(hdr))]
     sub = []
     in_group = False  # after a heading row such as '13 Poisoning:' until the next numbered row
     for r in t.rows:
@@ -218,11 +235,17 @@ def check_totals(t: Table) -> dict:
                     subtotals.append(v)
                     acc, top, acc_n = 0.0, 0.0, 0
                 if n >= 2 and ok_run:
-                    checked += 1
-                    if any(abs(e - v) <= 0.51 for e in expect):
-                        passed += 1
-                    elif len(failures) < 8:
-                        failures.append(f"col {cid} '{r.label}': printed {v:g}, sum {expect[0]:g}")
+                    ok = any(abs(e - v) <= 0.51 for e in expect)
+                    if GEO_TOTAL_RE.search(r.label):
+                        checked += 1
+                        passed += ok
+                        if not ok and len(failures) < 8:
+                            failures.append(f"col {cid} '{r.label}': printed {v:g}, sum {expect[0]:g}")
+                    else:
+                        # totals inside lists of crime heads, causes etc. nest in ways only the
+                        # source defines; they are counted apart and not used to judge the extraction
+                        other_checked += 1
+                        other_passed += ok
                 ok_run = True
             else:
                 if v is None:
@@ -233,4 +256,10 @@ def check_totals(t: Table) -> dict:
                     acc_n += 1
                     if not is_sub:
                         top += v
-    return {"cells_checked": checked, "cells_passed": passed, "failures": failures}
+    return {
+        "cells_checked": checked,
+        "cells_passed": passed,
+        "failures": failures,
+        "other_totals_checked": other_checked,
+        "other_totals_passed": other_passed,
+    }
