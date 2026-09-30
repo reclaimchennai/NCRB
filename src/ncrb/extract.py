@@ -29,6 +29,7 @@ from .assemble import Table, assemble, check_totals
 from .crawl import CATALOG, ROOT
 from .download import FILES
 from .pdftable import TOTAL_RE, extract_pdf_pages, parse_number
+from .xlstable import extract_workbook
 
 OUT = ROOT / "data" / "tables"
 INDEX = ROOT / "data" / "tables_index.csv"
@@ -37,10 +38,14 @@ MAX_LEVELS = 5
 
 INDEX_FIELDS = [
     "table_id", "publication", "year", "listing", "section", "serial", "table_no", "title", "pdf_title",
-    "n_rows", "n_cols", "n_cells", "pages", "checks_total", "checks_passed", "inferred_pages", "warnings",
+    "method", "n_rows", "n_cols", "n_cells", "pages", "checks_total", "checks_passed", "inferred_pages", "warnings",
     "csv", "source_file", "source_url",
 ]
-FILE_FIELDS = ["source_file", "publication", "year", "listing", "pages", "pages_without_text", "pages_with_table", "tables", "status", "error"]
+FILE_FIELDS = [
+    "source_file", "publication", "year", "listing", "pages", "pages_without_text", "pages_ocr", "ocr_conf",
+    "pages_with_table", "tables", "status", "error",
+]
+EXTS = (".pdf", ".xlsx", ".xls")
 
 
 def slug(s: str, n: int = 70) -> str:
@@ -101,6 +106,7 @@ def write_table(t: Table, meta: dict, base: Path) -> dict:
         "notes": t.notes,
         "checks": checks,
         "inferred_pages": t.inferred_pages,
+        "ocr_pages": t.ocr_pages,
         "warnings": t.warnings,
     }
     base.with_suffix(".json").write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -108,28 +114,48 @@ def write_table(t: Table, meta: dict, base: Path) -> dict:
 
 
 def process_file(job: dict) -> tuple[dict, list[dict]]:
-    """Extract one PDF. Returns (file summary, table index rows)."""
+    """Extract one source file. Returns (file summary, table index rows)."""
     src = ROOT / job["path"]
     summary = {k: job.get(k, "") for k in ("publication", "year", "listing")} | {"source_file": job["path"]}
     rows: list[dict] = []
     try:
-        segments, n_pages, no_text = extract_pdf_pages(str(src))
-        tables = assemble(segments)
-        summary |= {"pages": n_pages, "pages_without_text": no_text, "pages_with_table": len({s.page for s in segments}), "tables": len(tables)}
-        summary["status"] = "ok" if tables else ("scanned" if no_text >= 0.8 * max(1, n_pages) else "no_table")
+        ext = src.suffix.lower()
+        if ext in (".xlsx", ".xls"):
+            found = extract_workbook(str(src))
+            tables = [t for _, t in found]
+            for sheet, t in found:
+                t.sheet = sheet
+            summary |= {"pages": len({s for s, _ in found}), "pages_without_text": 0, "pages_ocr": 0, "pages_with_table": len({s for s, _ in found})}
+            method = "excel"
+        else:
+            segments, st = extract_pdf_pages(str(src), use_ocr=job.get("ocr", True))
+            tables = assemble(segments)
+            summary |= {k: st[k] for k in ("pages", "pages_without_text", "pages_ocr", "ocr_conf")}
+            summary["pages_with_table"] = len({s.page for s in segments})
+            method = "pdf_text"
+        tables = [t for t in tables if t.rows and t.columns]
+        summary["tables"] = len(tables)
+        if tables:
+            summary["status"] = "ok"
+        elif ext == ".pdf" and summary["pages_without_text"] >= 0.8 * max(1, summary["pages"]) and not summary["pages_ocr"]:
+            summary["status"] = "scanned_not_ocred"
+        else:
+            summary["status"] = "no_table"
         stem = slug(Path(job["path"]).stem, 60)
         prefix = slug(job.get("serial", ""), 12)
         seen: dict[str, int] = {}
-        for t in tables:
-            if len(t.rows) < 1 or not t.columns:
-                continue
+        for k, t in enumerate(tables, 1):
             tid = "_".join(x for x in (prefix, stem) if x)
             if len(tables) > 1:
-                tid += "_t" + (slug(t.table_no) or str(len(seen) + 1))
+                tid += "_t" + (slug(t.table_no) or str(k))
             seen[tid] = seen.get(tid, 0) + 1
             if seen[tid] > 1:
                 tid += f"_{seen[tid]}"
             title = job.get("title", "") if len(tables) == 1 else (t.title or job.get("title", ""))
+            if method == "pdf_text" and t.ocr_pages:
+                m = "pdf_ocr" if t.ocr_pages == len(t.pages) else "pdf_mixed"
+            else:
+                m = method
             meta = {
                 "table_id": f"{job['publication']}/{job['year']}/{tid}",
                 "publication": job["publication"],
@@ -138,6 +164,9 @@ def process_file(job: dict) -> tuple[dict, list[dict]]:
                 "section": job.get("section", ""),
                 "serial": job.get("serial", ""),
                 "title": title,
+                "listing_title": job.get("title", ""),
+                "method": m,
+                "sheet": t.sheet,
                 "source_url": job["url"],
                 "source_file": job["path"],
                 "source_sha256": job.get("sha256", ""),
@@ -163,7 +192,7 @@ def jobs(args) -> list[dict]:
     out, seen = [], set()
     for r in csv.DictReader(CATALOG.open(encoding="utf-8")):
         f = files.get(r["url"])
-        if f is None or r["url"] in seen or not f["path"].lower().endswith(".pdf"):
+        if f is None or r["url"] in seen or not f["path"].lower().endswith(EXTS):
             continue
         if (r["publication"], r["year"], r["listing"]) != (f["publication"], f["year"], f["listing"]):
             continue  # use the catalog row that the file was stored under
@@ -174,7 +203,7 @@ def jobs(args) -> list[dict]:
         if args.listing and r["listing"] != args.listing:
             continue
         seen.add(r["url"])
-        out.append({**r, "path": f["path"], "sha256": f["sha256"]})
+        out.append({**r, "path": f["path"], "sha256": f["sha256"], "ocr": not args.no_ocr})
     return out
 
 
@@ -202,13 +231,14 @@ def main() -> None:
     ap.add_argument("--year", type=int)
     ap.add_argument("--listing")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--no-ocr", action="store_true", help="skip scanned pages instead of running OCR")
     ap.add_argument("--workers", type=int, default=6)
     args = ap.parse_args()
 
     table_rows = _load(INDEX, "source_file")
     file_rows = _load(FILE_INDEX, "source_file")
     todo = [j for j in jobs(args) if args.force or j["path"] not in file_rows]
-    print(f"{len(todo)} PDFs to extract", flush=True)
+    print(f"{len(todo)} files to extract", flush=True)
     with ProcessPoolExecutor(max_workers=args.workers) as ex:
         futures = {ex.submit(process_file, j): j for j in todo}
         for n, fut in enumerate(as_completed(futures), 1):

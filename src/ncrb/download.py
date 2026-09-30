@@ -74,20 +74,20 @@ def plan() -> list[dict]:
     return list(seen.values())
 
 
-def load_state() -> dict[str, dict]:
-    if not FILES.exists():
+def load_state(path: Path = FILES) -> dict[str, dict]:
+    if not path.exists():
         return {}
-    return {r["url"]: r for r in csv.DictReader(FILES.open(encoding="utf-8"))}
+    return {r["url"]: r for r in csv.DictReader(path.open(encoding="utf-8"))}
 
 
-def save_state(state: dict[str, dict]) -> None:
-    tmp = FILES.with_suffix(".tmp")
+def save_state(state: dict[str, dict], path: Path = FILES) -> None:
+    tmp = path.with_suffix(".tmp")
     with tmp.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS)
         w.writeheader()
         for url in sorted(state, key=lambda u: state[u]["path"]):
             w.writerow({k: state[url].get(k, "") for k in FIELDS})
-    tmp.replace(FILES)
+    tmp.replace(path)
 
 
 def fetch(session: requests.Session, url: str, dest: Path) -> dict:
@@ -138,9 +138,18 @@ def main() -> None:
     ap.add_argument("--retry-failed", action="store_true")
     ap.add_argument("--limit", type=int)
     ap.add_argument("--workers", type=int, default=3)
+    ap.add_argument("--state", type=Path, default=FILES, help="state file; use a separate one per concurrent run, then --merge")
+    ap.add_argument("--merge", type=Path, nargs="+", help="merge these state files into catalog/files.csv and exit")
     args = ap.parse_args()
 
-    state = load_state()
+    if args.merge:
+        state = load_state()
+        for p in args.merge:
+            state.update(load_state(p))
+        save_state(state)
+        print(f"{len(state)} files recorded in {FILES.relative_to(ROOT)}")
+        return
+    state = load_state(args.state)
     todo = []
     for row in plan():
         if args.pub and row["publication"] != args.pub:
@@ -175,10 +184,10 @@ def main() -> None:
             if rec["status"] != "ok":
                 print(f"  {rec['status']}: {rec['url']} {rec.get('error', '')}", flush=True)
             if i % 50 == 0 or i == len(todo):
-                save_state(state)
+                save_state(state, args.state)
                 ok = sum(1 for r in state.values() if r["status"] == "ok")
                 print(f"[{i}/{len(todo)}] ok={ok} last={rec['path']}", flush=True)
-    save_state(state)
+    save_state(state, args.state)
 
 if __name__ == "__main__":
     main()

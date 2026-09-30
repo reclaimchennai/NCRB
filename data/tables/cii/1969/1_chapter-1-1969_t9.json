@@ -1,0 +1,58 @@
+{
+ "table_id": "cii/1969/1_chapter-1-1969_t9",
+ "publication": "cii",
+ "year": 1969,
+ "listing": "table_chapter",
+ "section": "",
+ "serial": "1",
+ "title": "STATEMENT OF PERSONS ARRESTED IN COGNIZABLE I.P.C. CRIME",
+ "listing_title": "Survey of Crime",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-1969.pdf",
+ "source_file": "raw/cii/1969/table_chapter/chapter-1-1969.pdf",
+ "source_sha256": "0ff48e33b2e6a42442dee162f14193b5f416febd9614542bf051a975e042d61a",
+ "table_no": "9",
+ "pdf_title": "STATEMENT OF PERSONS ARRESTED IN COGNIZABLE I.P.C. CRIME",
+ "row_label": "SI. No. / States/U. Ts./ Cities",
+ "pages": [
+  13
+ ],
+ "n_rows": 30,
+ "n_cols": 3,
+ "n_cells": 90,
+ "columns": [
+  {
+   "col_no": 3,
+   "name": "Years 1968",
+   "header": [
+    "Years 1968"
+   ]
+  },
+  {
+   "col_no": 4,
+   "name": "1969",
+   "header": [
+    "1969"
+   ]
+  },
+  {
+   "col_no": 5,
+   "name": "Variations over 1968",
+   "header": [
+    "Variations over 1968"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 4,
+  "failures": [
+   "col 4 'TOTAL:': printed 22898, sum 22798"
+  ]
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

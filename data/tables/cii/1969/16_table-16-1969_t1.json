@@ -1,0 +1,51 @@
+{
+ "table_id": "cii/1969/16_table-16-1969_t1",
+ "publication": "cii",
+ "year": 1969,
+ "listing": "table_content",
+ "section": "Crime Survey",
+ "serial": "16",
+ "title": "TABLE JUVENILES APPREHENDED IN INDIA",
+ "listing_title": "Juveniles Apprehended in India During 1969 by Age-Group and Sex",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-16-1969.pdf",
+ "source_file": "raw/cii/1969/table_content/table-16-1969.pdf",
+ "source_sha256": "6896d768cc8720abb5b792ef8b070de36c993d61408a57025f57427b1dba58e4",
+ "table_no": "",
+ "pdf_title": "TABLE JUVENILES APPREHENDED IN INDIA",
+ "row_label": "SI. No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 9,
+ "n_cols": 2,
+ "n_cells": 12,
+ "columns": [
+  {
+   "col_no": 2,
+   "name": "Head of Crime Boys •",
+   "header": [
+    "Head of Crime Boys •"
+   ]
+  },
+  {
+   "col_no": 3,
+   "name": "Between 7-12 years Grils",
+   "header": [
+    "Between 7-12 years Grils"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL': printed 7160, sum 5211"
+  ]
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -245,7 +245,18 @@ def find_anchors(lines: list[list[Word]]) -> list[tuple[int, list[Column], list[
             continue  # too weak to trust
         if bare and out:
             continue  # only the first bare row on a page can be a column-number row
-        out.append((i, [Column(n, (a + b) / 2) for n, a, b in nums], others))
+        cols = [Column(n, (a + b) / 2) for n, a, b in nums]
+        # a single number missing from the row (dropped by OCR, or never printed) leaves a double-width gap
+        gaps = [b.xc - a.xc for a, b in zip(cols, cols[1:]) if b.id - a.id == 1 and a.id >= 2]
+        if len(gaps) >= 2:
+            step = statistics.median(gaps)
+            filled = [cols[0]]
+            for c in cols[1:]:
+                if c.id - filled[-1].id == 2 and c.xc - filled[-1].xc > 1.6 * step:
+                    filled.append(Column(c.id - 1, c.xc - step))
+                filled.append(c)
+            cols = filled
+        out.append((i, cols, others))
     return out
 
 
@@ -707,6 +718,9 @@ def clean_ocr_words(words: list[Word]) -> list[Word]:
     for w in words:
         t = w.text.strip("|_¦")
         t = re.sub(r"(?<=\d)[|](?=\d)", " ", t)
+        # a raised decimal point in old typesetting is read as '-', ':' or a bullet: '(148-9)' is 148.9
+        t = re.sub(r"^[(\[]?(\d{1,4})[-·•:](\d{1,2})[)\]]?$", r"(\1.\2)", t) if re.match(r"^[(\[]", t) or re.search(r"[)\]]$", t) else t
+        t = t.replace("•", ".") if re.fullmatch(r"[(\d][\d,]*•\d+\)?", t) else t
         if not t or re.fullmatch(r"[|_\-—~=.:;'`]+", t) and t not in ("-", "--", ".."):
             continue
         parts = t.split()
