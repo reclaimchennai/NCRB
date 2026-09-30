@@ -104,9 +104,14 @@ def tables_from_grid(grid: list[list[str]], merged: list[tuple[int, int, int, in
             break
         # --- header rows, optional anchor
         h0 = i
-        while i < n and kinds[i] == "header":
-            i += 1
-        header_rows = list(range(h0, i))
+        while i < n:
+            if kinds[i] == "header":
+                i += 1
+            elif kinds[i] == "empty" and next((kinds[m] for m in range(i + 1, min(n, i + 4)) if kinds[m] != "empty"), "") in ("header", "anchor"):
+                i += 1  # a blank row inside a tall merged heading
+            else:
+                break
+        header_rows = [r for r in range(h0, i) if kinds[r] == "header"]
         ids: dict[int, int] = {}
         if i < n and kinds[i] == "anchor":
             for j, v in enumerate(grid[i]):
@@ -235,9 +240,45 @@ def tables_from_grid(grid: list[list[str]], merged: list[tuple[int, int, int, in
     return tables
 
 
+def split_side_by_side(grid: list[list[str]], merged: list[tuple[int, int, int, int]]):
+    """Cut a sheet into vertical strips when different tables sit next to each other.
+
+    NCRB's exported sheets put 'TABLE 3B.2 (i)' and 'TABLE 3B.2 (ii)' side by
+    side, each heading repeated over the blocks of its table. The first row
+    tells where one table ends and the next begins.
+    """
+    top = next((r for r in grid if any(r)), None)
+    if top is None:
+        return [(grid, merged)]
+    starts: list[int] = []
+    last = None
+    for j, v in enumerate(top):
+        if not v:
+            continue
+        m = TABLE_RE.match(v)
+        if not m:
+            return [(grid, merged)]
+        key = re.sub(r"\s+", "", m.group(0)).lower()
+        if key != last:
+            starts.append(j)
+            last = key
+    if len(starts) < 2:
+        return [(grid, merged)]
+    width = max(len(r) for r in grid)
+    bounds = list(zip(starts, starts[1:] + [width]))
+    bounds[0] = (0, bounds[0][1])
+    out = []
+    for a, b in bounds:
+        sub = [r[a:b] for r in grid]
+        sub_merged = [(r0, r1, max(c0, a) - a, min(c1, b) - a) for r0, r1, c0, c1 in merged if c0 < b and c1 > a]
+        out.append((sub, sub_merged))
+    return out
+
+
 def extract_workbook(path: str) -> list[tuple[str, Table]]:
     out = []
     for name, grid, merged in load_grids(path):
-        for t in tables_from_grid(grid, merged):
-            out.append((name, t))
+        for sub, sub_merged in split_side_by_side(grid, merged):
+            for t in tables_from_grid(sub, sub_merged):
+                out.append((name, t))
     return out
