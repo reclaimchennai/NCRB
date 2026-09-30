@@ -51,7 +51,7 @@ SCHEMA = pa.schema(
         ("publication", pa.string()), ("year", pa.int16()), ("table_id", pa.string()), ("method", pa.string()),
         ("row", pa.int32()), ("section", pa.string()), ("sl_no", pa.string()), ("name", pa.string()),
         ("name_std", pa.string()), ("entity_type", pa.string()), ("is_total", pa.int8()),
-        ("col_no", pa.int32()), ("column", pa.string()),
+        ("col_no", pa.string()), ("column", pa.string()),
         ("h1", pa.string()), ("h2", pa.string()), ("h3", pa.string()), ("h4", pa.string()), ("h5", pa.string()),
         ("value", pa.float64()), ("raw", pa.string()), ("page", pa.int32()), ("ocr_conf", pa.float32()),
     ]
@@ -78,7 +78,7 @@ def series_key(title: str) -> tuple[str, str]:
 
 def load_long(path) -> pd.DataFrame:
     df = pd.read_csv(path, dtype=str, keep_default_na=False)
-    for c in ("row", "col_no", "page", "is_total"):
+    for c in ("row", "page", "is_total"):
         df[c] = pd.to_numeric(df[c], errors="coerce").fillna(0).astype("int32")
     df["value"] = pd.to_numeric(df["value"], errors="coerce")
     df["ocr_conf"] = pd.to_numeric(df["ocr_conf"], errors="coerce").astype("float32")

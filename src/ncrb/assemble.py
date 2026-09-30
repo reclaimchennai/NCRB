@@ -187,7 +187,11 @@ RATE_TABLE_RE = re.compile(
     r"^\W*(percentage|rate|ratio)\b|\b(conviction|charge-?sheeting|pendency|occupancy|recidivism)\s+(rate|percentage)|\bper\s+(staff|case|inmate|lakh)\b",
     re.I,
 )
-GEO_TOTAL_RE = re.compile(r"total.*(state|u\.?\s*t|union|cit(y|ies)|district|all[\s-]*india)|all[\s-]*india|^\s*india\s*$", re.I)
+GEO_TOTAL_RE = re.compile(
+    r"total\W*(\(|of\s+)?\s*(all\s+)?(states?\b|state\(s\)|u\.?\s*t\.?\s*s?\b|ut\(s\)|union\b|cit(y|ies)\b|districts?\b|all[\s-]*india)"
+    r"|all[\s-]*india|^\s*india\s*$",
+    re.I,
+)
 SUBITEM_RE = re.compile(r"^\(?([ivxlc]{1,5}|[a-z])\)$|^\([ivxlc]{1,5}$|^\([a-z]$", re.I)
 
 

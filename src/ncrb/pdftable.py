@@ -209,17 +209,38 @@ def line_text(line: list[Word]) -> str:
 # --------------------------------------------------------------------------- anchor
 
 
+LETTERED = 1_000_000  # ids above this encode a lettered column number: '9a' -> 1_000_901
+
+
+def col_id(base: str, suffix: str = "") -> int:
+    """Integer id for a printed column number; sub-columns such as '9a', '9b' get ids of their own."""
+    if not suffix:
+        return int(base)
+    return LETTERED + int(base) * 100 + (ord(suffix.lower()) - 96)
+
+
+def col_label(cid: int) -> str:
+    """The column number as printed ('9a'), from its integer id."""
+    if cid > LETTERED:
+        n = cid - LETTERED
+        return f"{n // 100}{chr(96 + n % 100)}"
+    return str(cid)
+
+
+COLNUM_PART = r"[(\[]?(\d{1,3})([A-Za-z]?)[)\]]"
+
+
 def _split_colnums(line: list[Word]) -> tuple[list[tuple[int, float, float]], list[Word]]:
     """Column numbers on a line as (id, x0, x1), plus the words that are not column numbers.
 
-    Handles numbers run together as '(3)(4)'.
+    Handles numbers run together as '(3)(4)', square brackets, and lettered sub-columns '(9a)'.
     """
     out, others = [], []
     for w in line:
-        parts = re.findall(r"[(\[]?(\d{1,3})[)\]]", w.text)
-        if parts and not re.sub(r"[(\[]?\d{1,3}[)\]]", "", w.text).strip():
+        parts = re.findall(COLNUM_PART, w.text)
+        if parts and not re.sub(COLNUM_PART, "", w.text).strip():
             width = (w.x1 - w.x0) / len(parts)
-            out += [(int(p), w.x0 + i * width, w.x0 + (i + 1) * width) for i, p in enumerate(parts)]
+            out += [(col_id(n, sfx), w.x0 + i * width, w.x0 + (i + 1) * width) for i, (n, sfx) in enumerate(parts)]
         else:
             others.append(w)
     return out, others
@@ -252,19 +273,22 @@ def find_anchors(lines: list[list[Word]]) -> list[tuple[int, list[Column], list[
         nums, others = _split_colnums(line)
         bare = False
         digits = [w for w in line if re.fullmatch(r"\d{1,3}\.?", w.text)]
-        if len(nums) < 2 and len(digits) >= 4 and all(len(w.text) <= 2 and w.conf < 0.9 for w in line if w not in digits) and len(digits) >= 0.7 * len(line):
+        lettered = [w for w in line if re.fullmatch(r"\d{1,3}[a-z]", w.text)]  # sub-columns: '9a 10a 11a'
+        junk = [w for w in line if w not in digits and w not in lettered]
+        if len(nums) < 2 and len(digits) + len(lettered) >= 4 and len(digits) >= 2 and all(len(w.text) <= 2 and w.conf < 0.9 for w in junk) and len(digits) + len(lettered) >= 0.7 * len(line):
             # older volumes number the columns without brackets: '1 2 3 4 5'
             vals = [int(w.text.rstrip(".")) for w in digits]
             steps = [b - a for a, b in zip(vals, vals[1:])]
             # consecutive, except for the jump after the row-label columns on continuation pages ('1 2 12 13 14')
             jumps = [k for k, st in enumerate(steps) if st > 1]
             if all(st > 0 for st in steps) and (not jumps or (jumps == [1] and vals[:2] == [1, 2]) or jumps == [0]) and i + 1 < len(lines):
-                nums, others, bare = [(v, w.x0, w.x1) for v, w in zip(vals, digits)], [], True
-                line = digits
+                toks = sorted(digits + lettered, key=lambda w: w.x0)
+                nums = [(col_id(w.text.rstrip(".")[:-1], w.text[-1]) if w in lettered else int(w.text.rstrip(".")), w.x0, w.x1) for w in toks]
+                others, bare, line = [], True, toks
         if len(nums) < 2 or len(nums) < 0.6 * len(line):
             continue
-        ids = [n[0] for n in nums]
-        if ids != sorted(ids) or len(set(ids)) != len(ids):
+        ids = [n[0] for n in nums if n[0] < LETTERED]  # lettered sub-columns sit outside the running order
+        if len(ids) < 2 or ids != sorted(ids) or len({n[0] for n in nums}) != len(nums):
             continue
         # must be (nearly) consecutive; '(1) (2)' for the label columns may precede a jump on contd pages
         steps = [b - a for a, b in zip(ids, ids[1:])]
@@ -277,7 +301,7 @@ def find_anchors(lines: list[list[Word]]) -> list[tuple[int, list[Column], list[
         cols = [Column(n, (a + b) / 2) for n, a, b in nums]
         # a single number missing from the row (dropped by OCR, or never printed) leaves a double-width gap
         gaps = [b.xc - a.xc for a, b in zip(cols, cols[1:]) if b.id - a.id == 1 and a.id >= 2]
-        if len(gaps) >= 2:
+        if len(gaps) >= 2 and not any(c.id > LETTERED for c in cols):
             step = statistics.median(gaps)
             filled = [cols[0]]
             for c in cols[1:]:
@@ -776,7 +800,7 @@ def _segment(
         if not body:
             # header only (its rows are overleaf): the label columns are the ones before the numbering jumps
             ids = [c.id for c in columns]
-            jump = next((k for k in range(1, len(ids)) if ids[k] - ids[k - 1] > 1), None)
+            jump = next((k for k in range(1, len(ids)) if ids[k] - ids[k - 1] > 1 and ids[k] < LETTERED), None)
             label_cols = ids[:jump] if jump else ids[: 2 if ids[:2] == [1, 2] and len(ids) > 2 else 1]
     data_cols = [c.id for c in columns if c.id not in label_cols]
     if not data_cols:
@@ -933,6 +957,31 @@ def _realign(body: list[tuple[float, dict[int, list[Word]]]], columns: list[Colu
                     bc.setdefault(hit[0], []).append(w)
 
 
+def _add_label_columns(columns: list[Column], body: list[list[Word]]) -> list[Column]:
+    """Give a continuation page its row-label columns when the column-number row omits them.
+
+    Some volumes number only the data columns on '(Contd.)' pages ('12 13 14 ...') although the
+    serial number and State/UT name are printed again. Without columns of their own those labels
+    would be swallowed by the first data column.
+    """
+    if columns[0].id <= 2 or len(columns) < 2:
+        return columns
+    pitch = columns[1].xc - columns[0].xc
+    edge = columns[0].xc - 0.6 * pitch
+    rows = [ln for ln in body if sum(is_cell(w.text) for w in ln if w.x0 >= edge) >= 2]
+    labelled = [ln for ln in rows if any(w.x1 < edge and re.search(r"[A-Za-z]{2}", w.text) for w in ln)]
+    if len(rows) < 2 or len(labelled) < 0.5 * len(rows):
+        return columns
+    text_x = statistics.median([min(w.x0 for w in ln if w.x1 < edge and re.search(r"[A-Za-z]{2}", w.text)) for ln in labelled])
+    serial = [w for ln in labelled for w in ln if w.x1 <= text_x and re.fullmatch(r"\d{1,3}[.)]?", w.text)]
+    out = []
+    if len(serial) >= 0.5 * len(labelled):
+        out.append(Column(1, statistics.median([w.xc for w in serial])))
+    text_right = statistics.median([max(w.x1 for w in ln if w.x1 < edge) for ln in labelled])
+    out.append(Column(2, max((text_x + text_right) / 2, out[0].xc + 8 if out else 0)))
+    return out + columns
+
+
 def _clone_columns(prev: PageTable, inferred: list[Column]) -> list[Column] | None:
     """Columns of a headerless continuation page: previous ids/headers at this page's x positions."""
     prev_data = [c for c in prev.columns if c.id not in prev.label_cols]
@@ -1079,6 +1128,8 @@ def extract_page(
             continue
         end = anchors[k + 1][0] if k + 1 < len(anchors) else len(lines)
         above = lines[start:ai] + ([stray] if stray else [])
+        if not ocr:  # scanned right-hand pages really have no labels; OCR noise must not invent them
+            columns = _add_label_columns(columns, lines[ai + 1 : end])
         pt, used = _segment(page, page_no, above, columns, _line_y(lines[ai]), lines[ai + 1 : end], False, more_below=k + 1 < len(anchors), ocr=ocr)
         if pt is None:
             start = ai + 1

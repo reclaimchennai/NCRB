@@ -28,7 +28,7 @@ from pathlib import Path
 from .assemble import Table, assemble, check_totals
 from .crawl import CATALOG, ROOT
 from .download import FILES
-from .pdftable import TOTAL_RE, extract_pdf_pages, parse_number
+from .pdftable import TOTAL_RE, col_label, extract_pdf_pages, parse_number
 from .xlstable import extract_workbook
 
 OUT = ROOT / "data" / "tables"
@@ -79,7 +79,7 @@ def write_table(t: Table, meta: dict, base: Path) -> dict:
         used[name] = used.get(name, 0) + 1
         names.append(name)
     # duplicated headings are disambiguated with the printed column number
-    names = [f"{n} ({cid})" if used[n] > 1 else n for n, cid in zip(names, col_ids)]
+    names = [f"{n} ({col_label(cid)})" if used[n] > 1 else n for n, cid in zip(names, col_ids)]
     label_name = t.label_header.split(" / ")[-1] if t.label_header else "name"
 
     with base.with_suffix(".csv").open("w", newline="", encoding="utf-8") as f:
@@ -102,7 +102,7 @@ def write_table(t: Table, meta: dict, base: Path) -> dict:
                 path = (t.columns[cid] + [""] * MAX_LEVELS)[:MAX_LEVELS]
                 if len(t.columns[cid]) > MAX_LEVELS:
                     path[-1] = " | ".join(t.columns[cid][MAX_LEVELS - 1 :])
-                w.writerow([i, r.section, r.serial, r.label, total, cid, name, *path, "" if v is None else f"{v:g}" if v != int(v) else int(v), raw, r.page, f"{r.conf[cid]:.2f}" if cid in r.conf else ""])
+                w.writerow([i, r.section, r.serial, r.label, total, col_label(cid), name, *path, "" if v is None else f"{v:g}" if v != int(v) else int(v), raw, r.page, f"{r.conf[cid]:.2f}" if cid in r.conf else ""])
                 n_cells += 1
 
     checks = check_totals(t)
@@ -115,7 +115,7 @@ def write_table(t: Table, meta: dict, base: Path) -> dict:
         "n_rows": len(t.rows),
         "n_cols": len(col_ids),
         "n_cells": n_cells,
-        "columns": [{"col_no": cid, "name": n, "header": t.columns[cid]} for cid, n in zip(col_ids, names)],
+        "columns": [{"col_no": col_label(cid), "name": n, "header": t.columns[cid]} for cid, n in zip(col_ids, names)],
         "notes": t.notes,
         "checks": checks,
         "inferred_pages": t.inferred_pages,
@@ -218,6 +218,8 @@ def jobs(args) -> list[dict]:
             continue
         if args.listing and r["listing"] != args.listing:
             continue
+        if args.kind and (f["path"].lower().endswith(".pdf")) != (args.kind == "pdf"):
+            continue
         seen.add(r["url"])
         out.append({**r, "path": f["path"], "sha256": f["sha256"], "ocr": not args.no_ocr})
     return out
@@ -246,6 +248,7 @@ def main() -> None:
     ap.add_argument("--pub", choices=["cii", "psi", "adsi"])
     ap.add_argument("--year", type=int)
     ap.add_argument("--listing")
+    ap.add_argument("--kind", choices=["pdf", "excel"], help="only this kind of source file")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--no-ocr", action="store_true", help="skip scanned pages instead of running OCR")
     ap.add_argument("--workers", type=int, default=6)
@@ -267,6 +270,19 @@ def main() -> None:
                 print(f"[{n}/{len(todo)}] tables so far: {sum(len(v) for v in table_rows.values())}", flush=True)
     _save(INDEX, INDEX_FIELDS, table_rows)
     _save(FILE_INDEX, FILE_FIELDS, file_rows)
+    prune({r["csv"] for rows in table_rows.values() for r in rows})
+
+
+def prune(keep: set[str]) -> None:
+    """Delete table files left behind by earlier runs that split a source file differently."""
+    removed = 0
+    for path in OUT.rglob("*.json"):
+        if str(path.with_suffix(".csv").relative_to(ROOT)) not in keep:
+            for p in (path, path.with_suffix(".csv"), Path(str(path.with_suffix("")) + ".long.csv")):
+                p.unlink(missing_ok=True)
+            removed += 1
+    if removed:
+        print(f"removed {removed} stale tables", flush=True)
 
 
 if __name__ == "__main__":
