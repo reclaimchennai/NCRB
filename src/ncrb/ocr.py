@@ -16,6 +16,7 @@ import shutil
 import subprocess
 import tempfile
 
+import numpy as np
 import pymupdf as fitz
 
 from .pdftable import Word
@@ -85,6 +86,53 @@ def _tesseract(png: bytes, psm: int = 6) -> list[tuple[str, float, float, float,
     return out
 
 
+def remove_rules(pix: fitz.Pixmap, min_len_frac: float = 0.04) -> bytes:
+    """PNG of the page with long straight rules whitened.
+
+    Table grids are the main cause of digits being dropped or misread: a figure
+    touching a cell border is segmented together with the line. Runs of dark
+    pixels much longer than any character are lines, so they are erased.
+    """
+    img = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height, pix.width).copy()
+    dark = img < 200  # scanned rules are often grey and broken
+    for axis in (1, 0):
+        n = dark.shape[axis]
+        # horizontal runs must be longer and denser than vertical ones: a line of bold text is
+        # itself a fairly dense horizontal band, but nothing in text makes a tall vertical run
+        k = max(40, int((1.5 if axis == 1 else 1.0) * min_len_frac * n))
+        need = 0.88 if axis == 1 else 0.8
+        c = np.cumsum(dark, axis=axis, dtype=np.int32)
+        pad = [(0, 0), (0, 0)]
+        pad[axis] = (1, 0)
+        c = np.pad(c, pad)
+        # window sums of length k: positions where a full run of k dark pixels starts
+        if axis == 1:
+            full = (c[:, k:] - c[:, :-k]) >= need * k
+            starts = np.zeros_like(dark)
+            starts[:, : full.shape[1]] = full
+            d = np.cumsum(starts, axis=1, dtype=np.int32)
+            d = np.pad(d, ((0, 0), (k, 0)))
+            line = (d[:, k:] - d[:, :-k]) > 0  # dilate the run starts back to full runs
+        else:
+            full = (c[k:, :] - c[:-k, :]) >= need * k
+            starts = np.zeros_like(dark)
+            starts[: full.shape[0], :] = full
+            d = np.cumsum(starts, axis=0, dtype=np.int32)
+            d = np.pad(d, ((k, 0), (0, 0)))
+            line = (d[k:, :] - d[:-k, :]) > 0
+        # thicken by a pixel each side so the anti-aliased edge of the rule goes too
+        grow = line.copy()
+        if axis == 1:
+            grow[1:, :] |= line[:-1, :]
+            grow[:-1, :] |= line[1:, :]
+        else:
+            grow[:, 1:] |= line[:, :-1]
+            grow[:, :-1] |= line[:, 1:]
+        img[grow] = 255
+    out = fitz.Pixmap(fitz.csGRAY, pix.width, pix.height, img.tobytes(), False)
+    return out.tobytes("png")
+
+
 def _skew(words: list[tuple]) -> float:
     """Slope (dy/dx) of the text lines, from tesseract's own line grouping."""
     lines: dict[tuple, list[tuple]] = {}
@@ -138,7 +186,7 @@ def ocr_page_words(page: fitz.Page, engine: str | None = None) -> tuple[list[Wor
     if engine in ("tesseract", "both"):
         zoom = min(300 / 72, 5000 / max(w, h))
         pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), colorspace=fitz.csGRAY, alpha=False)
-        raw = _tesseract(pix.tobytes("png"))
+        raw = _tesseract(remove_rules(pix))
         slope = _skew(raw) * pix.width / pix.height  # to unit coordinates
         boxes = [(t, c, x0 / pix.width, y0 / pix.height, x1 / pix.width, y1 / pix.height) for t, c, x0, y0, x1, y1, _ in raw]
     if engine in ("vision", "both"):
