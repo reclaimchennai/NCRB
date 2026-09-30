@@ -46,6 +46,7 @@ class Word:
     text: str
     size: float = 0.0
     bold: bool = False
+    conf: float = 1.0  # OCR confidence; 1.0 for words from a text layer
 
     @property
     def xc(self) -> float:
@@ -88,6 +89,8 @@ class PageTable:
     anchor_inferred: bool
     headless: bool = False  # header found but its rows are on the next page
     carried: bool = False  # rows that inherited their columns from the previous segment
+    ocr: bool = False
+    min_conf: float = 1.0
 
 
 def is_num(t: str) -> bool:
@@ -198,11 +201,37 @@ def _split_colnums(line: list[Word]) -> tuple[list[tuple[int, float, float]], li
     return out, others
 
 
+OCR_COLNUM_RE = re.compile(r"^[(\[{|]?\s*([0-9IlOo]{1,4})\s*[)\]}|]$|^[(\[{]\s*([0-9IlOo]{1,3})$")
+
+
+def repair_ocr_anchor(line: list[Word]) -> None:
+    """Rewrite an OCR'd column-number row such as '11) 12) (3) 14)' to '(1) (2) (3) (4)' in place."""
+    hits = [(w, OCR_COLNUM_RE.match(w.text)) for w in line]
+    good = [(w, m) for w, m in hits if m]
+    if len(good) < 3 or len(good) < 0.7 * len(line):
+        return
+    prev = 0
+    for w, m in good:
+        digits = (m.group(1) or m.group(2)).replace("I", "1").replace("l", "1").replace("O", "0").replace("o", "0")
+        cands = [int(digits)]
+        if not w.text.startswith(("(", "[", "{")) and digits.startswith("1") and len(digits) >= 2:
+            cands.append(int(digits[1:]))  # '(' misread as '1'
+        n = prev + 1 if prev + 1 in cands else min(cands, key=lambda c: abs(c - prev - 1))
+        w.text = f"({n})"
+        prev = n
+
+
 def find_anchors(lines: list[list[Word]]) -> list[tuple[int, list[Column], list[Word]]]:
     """Every column-number line on the page: (line index, columns, header words sharing the line)."""
     out = []
     for i, line in enumerate(lines):
         nums, others = _split_colnums(line)
+        bare = False
+        if len(nums) < 2 and len(line) >= 4 and all(re.fullmatch(r"\d{1,2}\.?", w.text) for w in line):
+            # older volumes number the columns without brackets: '1 2 3 4 5'
+            vals = [int(w.text.rstrip(".")) for w in line]
+            if vals[0] <= 3 and all(0 < b - a <= 2 for a, b in zip(vals, vals[1:])) and i + 1 < len(lines):
+                nums, others, bare = [(v, w.x0, w.x1) for v, w in zip(vals, line)], [], True
         if len(nums) < 2 or len(nums) < 0.6 * len(line):
             continue
         ids = [n[0] for n in nums]
@@ -214,6 +243,8 @@ def find_anchors(lines: list[list[Word]]) -> list[tuple[int, list[Column], list[
             continue
         if len(nums) == 2 and (ids != [1, 2] or others):
             continue  # too weak to trust
+        if bare and out:
+            continue  # only the first bare row on a page can be a column-number row
         out.append((i, [Column(n, (a + b) / 2) for n, a, b in nums], others))
     return out
 
@@ -488,6 +519,7 @@ def _segment(
     inferred: bool,
     carry: PageTable | None = None,
     more_below: bool = False,
+    ocr: bool = False,
 ) -> tuple[PageTable | None, int]:
     """Build one table segment. Returns it and the number of ``below`` lines it consumed (data + notes)."""
     ref = [w.size for ln in below[:10] for w in ln] or [8]
@@ -560,6 +592,7 @@ def _segment(
     serial_col = label_cols[0] if len(label_cols) > 1 else None
     serial_re = re.compile(r"\d{1,4}[.)]?|\(?[ivxlc]+\)|[A-Za-z][.)]")
     consumed = 0
+    low = 1.0  # lowest OCR confidence among the cells read
 
     for i, (y, by_col) in enumerate(body):
         line_words = sorted((w for ws in by_col.values() for w in ws), key=lambda w: w.x0)
@@ -579,9 +612,16 @@ def _segment(
         for cid in data_cols:
             ws = by_col.get(cid, [])
             vals = [w for w in ws if is_cell(w.text)]
-            spill += [w for w in ws if not is_cell(w.text)]
+            junk = [w for w in ws if not is_cell(w.text)]
+            if ocr and junk and cid != data_cols[0] and len(junk) <= 2:
+                # a misread number stays in its cell as raw text instead of leaking into the row label
+                vals = ws
+            else:
+                spill += junk
             if vals:
                 cells[cid] = " ".join(w.text for w in vals) if len(vals) > 1 else vals[0].text
+                if ocr:
+                    low = min(low, *(w.conf for w in vals))
         serial = ""
         if serial_col is not None:
             sw = [w for w in by_col.get(serial_col, []) if serial_re.fullmatch(w.text)]
@@ -594,6 +634,11 @@ def _segment(
         label = " ".join(w.text for w in sorted(label_words + spill, key=lambda w: w.x0)).strip()
         if cells and _has_data(by_col, data_cols):
             row = Row(label, serial, section, cells, page_no, y)
+            if not label and not pending and rows and y - rows[-1].y <= 1.2 * pitch:
+                # a second line of figures under a row (e.g. rates printed beneath counts)
+                base = re.sub(r" \[line \d+\]$", "", rows[-1].label)
+                k = int(m.group(1)) + 1 if (m := re.search(r" \[line (\d+)\]$", rows[-1].label)) else 2
+                row.label = f"{base} [line {k}]"
             # wrapped label: text lines just above belong to a row whose own line has no label
             if pending and (not label or pending[-1][0] > y - 0.8 * pitch):
                 limit = 1.6 * pitch if not label else 0.8 * pitch
@@ -633,6 +678,8 @@ def _segment(
     pt = PageTable(page_no, table_no, title, contd, columns, label_cols, rows, notes, inferred)
     pt.headless = not rows
     pt.carried = carry is not None
+    pt.ocr = ocr
+    pt.min_conf = low
     return pt, consumed
 
 
@@ -654,7 +701,31 @@ def _clone_columns(prev: PageTable, inferred: list[Column]) -> list[Column] | No
     return cols
 
 
-def extract_page(page: fitz.Page, page_no: int, words: list[Word] | None = None, prev: PageTable | None = None) -> list[PageTable]:
+def clean_ocr_words(words: list[Word]) -> list[Word]:
+    """Drop ruling-line artefacts ('|', '_') that OCR reads as characters."""
+    out = []
+    for w in words:
+        t = w.text.strip("|_¦")
+        t = re.sub(r"(?<=\d)[|](?=\d)", " ", t)
+        if not t or re.fullmatch(r"[|_\-—~=.:;'`]+", t) and t not in ("-", "--", ".."):
+            continue
+        parts = t.split()
+        if len(parts) > 1:
+            width = (w.x1 - w.x0) / len(t)
+            pos = 0
+            for part in parts:
+                k = t.index(part, pos)
+                out.append(Word(w.x0 + k * width, w.y0, w.x0 + (k + len(part)) * width, w.y1, part, w.size, w.bold, w.conf))
+                pos = k + len(part)
+        else:
+            w.text = t
+            out.append(w)
+    return out
+
+
+def extract_page(
+    page: fitz.Page, page_no: int, words: list[Word] | None = None, prev: PageTable | None = None, ocr: bool = False
+) -> list[PageTable]:
     """All table segments on a page, in reading order.
 
     ``prev`` is the last segment of the previous page; a page (or the top of a
@@ -662,9 +733,14 @@ def extract_page(page: fitz.Page, page_no: int, words: list[Word] | None = None,
     columns.
     """
     words = page_words(page) if words is None else words
+    if ocr:
+        words = clean_ocr_words(words)
     lines = [ln for ln in group_lines(words) if not is_page_furniture(line_text(ln))]
     if not lines:
         return []
+    if ocr:
+        for ln in lines:
+            repair_ocr_anchor(ln)
     anchors = find_anchors(lines)
     out: list[PageTable] = []
     start = 0
@@ -685,14 +761,14 @@ def extract_page(page: fitz.Page, page_no: int, words: list[Word] | None = None,
             cloned = _clone_columns(prev, cols)
             if cloned is not None:
                 # label-only lines directly above the first numbers (section headings) stay with the body
-                pt, used = _segment(page, page_no, [], cloned, None, region, False, carry=prev)
+                pt, used = _segment(page, page_no, [], cloned, None, region, False, carry=prev, ocr=ocr)
                 if pt is not None and pt.rows:
                     out.append(pt)
                     prev = pt
                     start += used
                 return
         if not anchors:
-            pt, used = _segment(page, page_no, region[:first], cols, None, region[first:], True)
+            pt, used = _segment(page, page_no, region[:first], cols, None, region[first:], True, ocr=ocr)
             if pt is not None and pt.rows:
                 out.append(pt)
                 prev = pt
@@ -704,7 +780,7 @@ def extract_page(page: fitz.Page, page_no: int, words: list[Word] | None = None,
             continue
         end = anchors[k + 1][0] if k + 1 < len(anchors) else len(lines)
         above = lines[start:ai] + ([stray] if stray else [])
-        pt, used = _segment(page, page_no, above, columns, _line_y(lines[ai]), lines[ai + 1 : end], False, more_below=k + 1 < len(anchors))
+        pt, used = _segment(page, page_no, above, columns, _line_y(lines[ai]), lines[ai + 1 : end], False, more_below=k + 1 < len(anchors), ocr=ocr)
         if pt is None:
             start = ai + 1
             continue
@@ -715,21 +791,34 @@ def extract_page(page: fitz.Page, page_no: int, words: list[Word] | None = None,
     return out
 
 
-def extract_pdf_pages(path: str) -> tuple[list[PageTable], int, int]:
-    """Table segments of a PDF in order, the page count, and the number of pages with no text layer."""
+def extract_pdf_pages(path: str, use_ocr: bool = True) -> tuple[list[PageTable], dict]:
+    """Table segments of a PDF in order, plus page statistics.
+
+    Pages without a text layer are read with OCR when ``use_ocr`` is set.
+    """
     doc = fitz.open(path)
     out: list[PageTable] = []
-    no_text = 0
+    stats = {"pages": len(doc), "pages_without_text": 0, "pages_ocr": 0, "ocr_conf": []}
     prev: PageTable | None = None
     for i, page in enumerate(doc):
         words = page_words(page)
+        ocr = False
         if len(words) < 5:
-            no_text += 1
-            continue
-        segs = extract_page(page, i + 1, words, prev)
+            stats["pages_without_text"] += 1
+            if not use_ocr:
+                continue
+            from .ocr import ocr_page_words
+
+            words, conf = ocr_page_words(page)
+            if len(words) < 5:
+                continue
+            stats["pages_ocr"] += 1
+            stats["ocr_conf"].append(conf)
+            ocr = True
+        segs = extract_page(page, i + 1, words, prev, ocr=ocr)
         if segs:
             prev = segs[-1]
         out.extend(segs)
-    n = len(doc)
     doc.close()
-    return out, n, no_text
+    stats["ocr_conf"] = round(sum(stats["ocr_conf"]) / len(stats["ocr_conf"]), 3) if stats["ocr_conf"] else ""
+    return out, stats

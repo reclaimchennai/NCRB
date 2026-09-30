@@ -27,6 +27,8 @@ class Table:
     notes: list[str] = field(default_factory=list)
     pages: list[int] = field(default_factory=list)
     inferred_pages: int = 0
+    ocr_pages: int = 0
+    sheet: str = ""
     warnings: list[str] = field(default_factory=list)
     _index: dict = field(default_factory=dict, repr=False)
     _sigs: dict = field(default_factory=dict, repr=False)
@@ -56,6 +58,7 @@ def _add_page(t: Table, pt: PageTable) -> None:
         labels = [c for c in pt.columns if c.id in pt.label_cols]
         t.label_header = " / ".join(" ".join(c.header) for c in labels if c.header)
     t.pages.append(pt.page)
+    t.ocr_pages += int(pt.ocr)
     seen: dict[tuple, int] = {}
     for r in pt.rows:
         base_key = (r.serial, norm_label(r.label))
