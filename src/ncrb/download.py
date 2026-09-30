@@ -1,0 +1,174 @@
+"""Download every file in ``catalog/catalog.csv`` into ``raw/``.
+
+Files are stored as ``raw/<publication>/<year>/<listing>/<original filename>``.
+A file that is linked from several listings is downloaded once and recorded
+under the first listing that references it. The result of every attempt is
+written to ``catalog/files.csv`` (one row per unique URL) with size and
+SHA-256 so the raw corpus can be verified or rebuilt later.
+
+Usage:
+    uv run python -m ncrb.download                 # everything not yet on disk
+    uv run python -m ncrb.download --pub adsi      # one publication
+    uv run python -m ncrb.download --retry-failed  # retry rows marked failed
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import hashlib
+import re
+import time
+from pathlib import Path
+from urllib.parse import unquote, urlsplit
+
+import requests
+
+from .crawl import CATALOG, ROOT, UA
+
+RAW = ROOT / "raw"
+FILES = ROOT / "catalog" / "files.csv"
+DELAY = 0.5
+FIELDS = ["url", "publication", "year", "listing", "path", "status", "bytes", "sha256", "content_type", "error"]
+# listings are preferred in this order when one URL appears under several
+LISTING_ORDER = {"table_content": 0, "additional_table": 1, "table_chapter": 2, "year_wise": 3}
+MAGIC = {
+    ".pdf": b"%PDF",
+    ".xlsx": b"PK",
+    ".zip": b"PK",
+    ".docx": b"PK",
+    ".xls": b"\xd0\xcf\x11\xe0",
+    ".doc": b"\xd0\xcf\x11\xe0",
+}
+
+
+def safe_name(url: str) -> str:
+    name = unquote(urlsplit(url).path.rsplit("/", 1)[-1])
+    return re.sub(r"[^A-Za-z0-9._()\-+&, ]", "_", name).strip() or "file"
+
+
+def plan() -> list[dict]:
+    """One row per unique URL, with a unique local path."""
+    rows = list(csv.DictReader(CATALOG.open(encoding="utf-8")))
+    rows.sort(key=lambda r: (r["publication"], int(r["year"]), LISTING_ORDER.get(r["listing"], 9)))
+    seen: dict[str, dict] = {}
+    used: set[str] = set()
+    for r in rows:
+        if r["url"] in seen:
+            continue
+        rel = Path(r["publication"]) / r["year"] / r["listing"] / safe_name(r["url"])
+        n = 1
+        while str(rel).lower() in used:  # macOS filesystems are case-insensitive
+            n += 1
+            rel = rel.with_name(f"{rel.stem}__{n}{rel.suffix}")
+        used.add(str(rel).lower())
+        seen[r["url"]] = {
+            "url": r["url"],
+            "publication": r["publication"],
+            "year": r["year"],
+            "listing": r["listing"],
+            "path": str(Path("raw") / rel),
+        }
+    return list(seen.values())
+
+
+def load_state() -> dict[str, dict]:
+    if not FILES.exists():
+        return {}
+    return {r["url"]: r for r in csv.DictReader(FILES.open(encoding="utf-8"))}
+
+
+def save_state(state: dict[str, dict]) -> None:
+    tmp = FILES.with_suffix(".tmp")
+    with tmp.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=FIELDS)
+        w.writeheader()
+        for url in sorted(state, key=lambda u: state[u]["path"]):
+            w.writerow({k: state[url].get(k, "") for k in FIELDS})
+    tmp.replace(FILES)
+
+
+def fetch(session: requests.Session, url: str, dest: Path) -> dict:
+    last = ""
+    for attempt in range(4):
+        try:
+            with session.get(url, timeout=(30, 300), stream=True) as r:
+                if r.status_code == 404:
+                    return {"status": "missing", "error": "HTTP 404"}
+                if r.status_code != 200:
+                    last = f"HTTP {r.status_code}"
+                    raise requests.RequestException(last)
+                ctype = r.headers.get("Content-Type", "")
+                h = hashlib.sha256()
+                size = 0
+                head = b""
+                tmp = dest.with_name(dest.name + ".part")
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                with tmp.open("wb") as f:
+                    for chunk in r.iter_content(1 << 16):
+                        if not head:
+                            head = chunk[:8]
+                        f.write(chunk)
+                        h.update(chunk)
+                        size += len(chunk)
+                expected = r.headers.get("Content-Length")
+                if expected and int(expected) != size:
+                    tmp.unlink(missing_ok=True)
+                    last = f"truncated {size}/{expected}"
+                    raise requests.RequestException(last)
+                magic = MAGIC.get(dest.suffix.lower())
+                if magic and not head.lstrip().startswith(magic):
+                    # the server answers some dead links with an HTML page
+                    tmp.unlink(missing_ok=True)
+                    return {"status": "not_a_file", "content_type": ctype, "error": f"bad magic {head!r}"}
+                tmp.replace(dest)
+                return {"status": "ok", "bytes": size, "sha256": h.hexdigest(), "content_type": ctype}
+        except requests.RequestException as e:
+            last = last or repr(e)
+            time.sleep(5 * (attempt + 1))
+    return {"status": "failed", "error": last[:300]}
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("--pub", choices=["cii", "psi", "adsi"])
+    ap.add_argument("--year", type=int)
+    ap.add_argument("--retry-failed", action="store_true")
+    ap.add_argument("--limit", type=int)
+    args = ap.parse_args()
+
+    state = load_state()
+    todo = []
+    for row in plan():
+        if args.pub and row["publication"] != args.pub:
+            continue
+        if args.year and int(row["year"]) != args.year:
+            continue
+        prev = state.get(row["url"])
+        if prev:
+            if prev["status"] == "ok" and (ROOT / prev["path"]).exists():
+                continue
+            if prev["status"] in ("missing", "not_a_file", "failed") and not args.retry_failed:
+                continue
+        todo.append(row)
+    if args.limit:
+        todo = todo[: args.limit]
+    print(f"{len(todo)} files to download", flush=True)
+
+    session = requests.Session()
+    session.headers["User-Agent"] = UA
+    for i, row in enumerate(todo, 1):
+        result = fetch(session, row["url"], ROOT / row["path"])
+        state[row["url"]] = {**row, **result}
+        if i % 25 == 0 or i == len(todo):
+            save_state(state)
+            ok = sum(1 for r in state.values() if r["status"] == "ok")
+            print(f"[{i}/{len(todo)}] ok={ok} last={row['path']} {result['status']}", flush=True)
+        elif result["status"] != "ok":
+            print(f"  {result['status']}: {row['url']} {result.get('error', '')}", flush=True)
+        time.sleep(DELAY)
+    save_state(state)
+
+
+if __name__ == "__main__":
+    main()
