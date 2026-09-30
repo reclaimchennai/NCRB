@@ -144,6 +144,8 @@ def process_file(job: dict) -> tuple[dict, list[dict]]:
             segments, st = extract_pdf_pages(str(src), use_ocr=job.get("ocr", True))
             tables = assemble(segments)
             summary |= {k: st[k] for k in ("pages", "pages_without_text", "pages_ocr", "ocr_conf")}
+            if st["vision_failed"]:
+                summary["error"] = f"Apple Vision unavailable on {st['vision_failed']} of {st['pages_ocr']} OCR pages; Tesseract used alone"
             summary["pages_with_table"] = len({s.page for s in segments})
             method = "pdf_text"
         tables = [t for t in tables if t.rows and t.columns]

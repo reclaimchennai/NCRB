@@ -31,6 +31,7 @@ except Exception:  # pragma: no cover
     AVAILABLE = False
 
 TARGET_PX = 3000  # long edge of the rendered page handed to Vision
+VISION_FAILURES = 0  # pages on which Vision could not be run and Tesseract was used alone
 
 
 def _recognise(png: bytes) -> list[tuple[str, float, float, float, float, float]]:
@@ -198,6 +199,8 @@ def ocr_page_words(page: fitz.Page, engine: str | None = None) -> tuple[list[Wor
             if engine == "vision":
                 raise
             vis = []  # Vision is only a supplement here; it is unavailable e.g. while the screen is locked
+            global VISION_FAILURES
+            VISION_FAILURES += 1
         if engine == "vision":
             boxes = vis
         else:

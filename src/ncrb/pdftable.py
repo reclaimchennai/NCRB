@@ -1168,7 +1168,7 @@ def extract_pdf_pages(path: str, use_ocr: bool = True) -> tuple[list[PageTable],
     """
     doc = fitz.open(path)
     out: list[PageTable] = []
-    stats = {"pages": len(doc), "pages_without_text": 0, "pages_ocr": 0, "ocr_conf": []}
+    stats = {"pages": len(doc), "pages_without_text": 0, "pages_ocr": 0, "ocr_conf": [], "vision_failed": 0}
     prev: PageTable | None = None
     for i, page in enumerate(doc):
         words = page_words(page)
@@ -1177,9 +1177,11 @@ def extract_pdf_pages(path: str, use_ocr: bool = True) -> tuple[list[PageTable],
             stats["pages_without_text"] += 1
             if not use_ocr:
                 continue
-            from .ocr import ocr_page_words
+            from . import ocr as ocr_mod
 
-            words, conf = ocr_page_words(page)
+            before = ocr_mod.VISION_FAILURES
+            words, conf = ocr_mod.ocr_page_words(page)
+            stats["vision_failed"] += ocr_mod.VISION_FAILURES - before
             if len(words) < 5:
                 continue
             stats["pages_ocr"] += 1
