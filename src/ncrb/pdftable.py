@@ -32,7 +32,10 @@ COLNUM_RE = re.compile(r"^\(?(\d{1,3})\)$|^\((\d{1,3})\)?$")
 # a cell value: number with optional sign/commas/decimals/percent, or a dash / NA style placeholder
 NUM_RE = re.compile(r"^[-+−–]?\(?[-+−–]?\d[\d,]*(\.\d+)?\)?%?[*@#$^+]*$|^[-+−–]?\.\d+$")
 PLACEHOLDER_RE = re.compile(r"^(-+|–|—|\.\.+|NA|N\.A\.?|NR|N\.R\.?|Nil|NIL|@|\*+|#|\$|&)$")
-TABLE_RE = re.compile(r"^\s*(TABLE|Table)\s*[-–:]?\s*([0-9]+[A-Z]?(?:\s*[.\-]\s*[0-9]+[A-Z]?)*(?:\s*\((?:[A-Za-z]|[ivx]{1,4}|\d{1,2})\))?(?:\s*[A-Z](?![A-Za-z]))?)")
+TABLE_RE = re.compile(
+    r"^\s*(?:Additional\s+|ADDITIONAL\s+)?(TABLE|Table)\s*[-–:]?\s*"
+    r"([0-9]+[A-Z]?(?:\s*[.\-]\s*[0-9]+[A-Z]?)*(?:\s*\((?:[A-Za-z]|[ivx]{1,4}|\d{1,2})\))?(?:\s*[A-Z](?![A-Za-z]))?|[IVXL]{1,6}\b)"
+)
 CONTD_RE = re.compile(r"\(?\s*(contd|continued|concld|concluded)\.?[\s.…]*\)?", re.I)
 TOTAL_RE = re.compile(r"^\s*(grand\s+)?total\b|\btotal\s*\(|\ball[\s-]*india\b", re.I)
 
@@ -118,10 +121,11 @@ def parse_number(raw: str) -> float | None:
     t = t.rstrip("%+").replace(",", "")
     if t.startswith("+"):
         t = t[1:]
-    try:
-        v = float(t)
-    except ValueError:
-        return None
+    if t.startswith("-"):
+        neg, t = not neg, t[1:]
+    if not re.fullmatch(r"\d+\.?\d*|\.\d+", t):
+        return None  # also keeps out 'nan' and 'inf', which float() would accept
+    v = float(t)
     return -v if neg else v
 
 
@@ -299,7 +303,20 @@ def infer_columns(lines: list[list[Word]]) -> list[Column] | None:
     label_x = min(w.x0 for ln in rows for w in ln)
     cols = [Column(1, (label_x + data[0][0]) / 2)]
     cols += [Column(k + 2, (g[0] + g[1]) / 2) for k, g in enumerate(data)]
+    cols[0].right = data[0][0] - 1  # where the figures begin
     return cols
+
+
+def body_line(line: list[Word], edge: float, need_label: bool = False) -> bool:
+    """A row of figures (as opposed to a heading line that happens to contain numbers)."""
+    data = [w for w in line if w.x0 >= edge - 1]
+    cells = sum(is_cell(w.text) for w in data)
+    if cells < 1 or len(data) - cells > max(1, 0.15 * len(data)):
+        return False
+    if need_label:
+        label = [w for w in line if w.x0 < edge - 1 and re.search(r"[A-Za-z]", w.text)]
+        return bool(label) and any(is_num(w.text) for w in data)
+    return True
 
 
 # --------------------------------------------------------------------------- header
@@ -618,7 +635,7 @@ def _has_data(by_col: dict[int, list[Word]], data_cols: list[int]) -> bool:
     return len(words) - cells <= max(3, cells)
 
 
-def _split_title(above: list[list[Word]], ref_size: float) -> tuple[str, str, bool, list[list[Word]]]:
+def _split_title(above: list[list[Word]], ref_size: float, grid_top=None) -> tuple[str, str, bool, list[list[Word]]]:
     """Separate title lines from header lines. Returns (table_no, title, contd, header lines)."""
     title_lines: list[str] = []
     header_lines: list[list[Word]] = []
@@ -632,6 +649,8 @@ def _split_title(above: list[list[Word]], ref_size: float) -> tuple[str, str, bo
         size = statistics.median([w.size for w in ln])
         blocks = word_blocks(ln)
         multi = len(blocks) > 1 and max(b[0].x0 - a[-1].x1 for a, b in zip(blocks, blocks[1:])) > 12
+        if not in_header and grid_top is not None and not TABLE_RE.match(text) and grid_top(ln):
+            in_header = True
         if not in_header:
             bigger = size > ref_size + 0.75
             if TABLE_RE.match(text) or bigger or (not multi and not header_lines and (not title_lines or len(ln) >= 4)):
@@ -641,7 +660,7 @@ def _split_title(above: list[list[Word]], ref_size: float) -> tuple[str, str, bo
         header_lines.append(ln)
     title = " ".join(title_lines)
     # keep only the last table heading if stray text precedes it
-    starts = [m.start() for m in re.finditer(r"\b(TABLE|Table)\s*[-–:]?\s*\d", title)]
+    starts = [m.start() for m in re.finditer(r"\b(?:Additional\s+)?(TABLE|Table)\s*[-–:]?\s*(\d|[IVXL]+\b)", title)]
     if starts and starts[-1] > 0:
         title = title[starts[-1] :]
     m = TABLE_RE.match(title)
@@ -666,13 +685,26 @@ def _segment(
 ) -> tuple[PageTable | None, int]:
     """Build one table segment. Returns it and the number of ``below`` lines it consumed (data + notes)."""
     ref = [w.size for ln in below[:10] for w in ln] or [8]
-    table_no, title, contd, header_lines = _split_title(above, statistics.median(ref))
     rules = Rules()
+    grid_top = None
+    y_anchor = anchor_y if anchor_y is not None else (below[0][0].y0 if below else 0)
+    if carry is None and above and not ocr:
+        rules = Rules.from_page(page, min(w.y0 for ln in above for w in ln) - 3, y_anchor + 6)
+        if len({round(x) for x, _, _ in rules.vert}) >= 3:
+            first_x = columns[0].xc
+
+            def grid_top(ln: list[Word]) -> bool:
+                """True for a line in a ruled cell that spans the figures but not the row-label column: a spanning heading."""
+                y = _line_y(ln)
+                left = [x for x, a, b in rules.vert if x <= ln[0].x0 + 2 and a - 2 <= y <= b + 2]
+                return bool(left) and max(left) > first_x + 1
+
+    table_no, title, contd, header_lines = _split_title(above, statistics.median(ref), grid_top)
     if carry is None:
-        y_anchor = anchor_y if anchor_y is not None else (below[0][0].y0 if below else 0)
         if header_lines:
             y0 = min(w.y0 for ln in header_lines for w in ln) - 3
-            rules = Rules.from_page(page, y0, y_anchor + 6)
+            rules.vert = [v for v in rules.vert if v[2] >= y0]
+            rules.horiz = [h for h in rules.horiz if h[0] >= y0]
         _set_bounds(columns, rules, y_anchor, page.rect.width)
         if header_lines:
             assign_headers(columns, header_lines, rules)
@@ -973,33 +1005,41 @@ def extract_page(
     start = 0
 
     def headless(upto: int) -> None:
-        """Rows before the first heading on the page, continuing the previous table."""
+        """Rows with no column-number row above them: a continuation of the previous table, or an unnumbered table."""
         nonlocal start, prev
-        region = lines[start:upto]
-        cut = next((k for k, ln in enumerate(region) if TABLE_RE.match(line_text(ln))), len(region))
-        region = region[:cut]
-        if sum(numeric_line(ln) for ln in region) < 2:
-            return
-        cols = infer_columns(region)
-        if cols is None:
-            return
-        first = next(k for k, ln in enumerate(region) if numeric_line(ln))
-        if prev is not None and prev.columns:
-            cloned = _clone_columns(prev, cols)
-            if cloned is not None:
-                # label-only lines directly above the first numbers (section headings) stay with the body
-                pt, used = _segment(page, page_no, [], cloned, None, region, False, carry=prev, ocr=ocr)
-                if pt is not None and pt.rows:
-                    out.append(pt)
-                    prev = pt
-                    start += used
-                return
-        if not anchors:
-            pt, used = _segment(page, page_no, region[:first], cols, None, region[first:], True, ocr=ocr)
+        pos = start
+        while pos < upto:
+            region = lines[pos:upto]
+            # a table heading that is not the first line ends this stretch
+            cut = next((k for k, ln in enumerate(region) if k > 0 and TABLE_RE.match(line_text(ln))), len(region))
+            region = region[:cut]
+            pos += len(region)
+            if sum(numeric_line(ln) for ln in region) < 2:
+                continue
+            cols = infer_columns(region)
+            if cols is None:
+                continue
+            edge = cols[0].right
+            first = next((k for k, ln in enumerate(region) if body_line(ln, edge, need_label=True)), None)
+            if first is None:
+                first = next((k for k, ln in enumerate(region) if body_line(ln, edge)), None)
+            if first is None:
+                continue
+            cols = infer_columns(region[first:]) or cols
+            head = region[:first]
+            # a lone short line above the figures is a section heading ('CITIES:'), not a column header
+            has_header = len(head) > 1 or any(len(word_blocks(ln)) > 1 or TABLE_RE.match(line_text(ln)) for ln in head)
+            pt = None
+            if prev is not None and prev.columns and not has_header:
+                cloned = _clone_columns(prev, cols)
+                if cloned is not None:
+                    pt, _ = _segment(page, page_no, [], cloned, None, region, False, carry=prev, ocr=ocr)
+            elif not anchors:
+                pt, _ = _segment(page, page_no, head, cols, None, region[first:], True, ocr=ocr)
             if pt is not None and pt.rows:
                 out.append(pt)
                 prev = pt
-                start += first + used
+                start = pos  # only lines actually turned into rows are consumed
 
     headless(anchors[0][0] if anchors else len(lines))
     for k, (ai, columns, stray) in enumerate(anchors):

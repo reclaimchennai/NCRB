@@ -239,7 +239,7 @@ def main() -> None:
 
     table_rows = _load(INDEX, "source_file")
     file_rows = _load(FILE_INDEX, "source_file")
-    todo = [j for j in jobs(args) if args.force or j["path"] not in file_rows]
+    todo = [j for j in jobs(args) if args.force or j["path"] not in file_rows or file_rows[j["path"]][0]["status"] == "error"]
     print(f"{len(todo)} files to extract", flush=True)
     with ProcessPoolExecutor(max_workers=args.workers) as ex:
         futures = {ex.submit(process_file, j): j for j in todo}

@@ -178,7 +178,11 @@ def check_totals(t: Table) -> dict:
     in_group = False  # after a heading row such as '13 Poisoning:' until the next numbered row
     for r in t.rows:
         numbered = bool(re.fullmatch(r"\d{1,3}", r.serial))
-        is_sub = bool(SUBITEM_RE.match(r.serial)) or bool(re.match(r"^\(([ivxlc]{1,5}|[a-z])\)", r.label, re.I))
+        is_sub = (
+            bool(SUBITEM_RE.match(r.serial))
+            or bool(re.match(r"^\(([ivxlc]{1,5}|[a-z])\)|^\d{1,2}\.\d{1,2}\b", r.label, re.I))
+            or bool(re.fullmatch(r"\d{1,2}\.\d{1,2}", r.serial))
+        )
         if numbered or TOTAL_RE.search(r.label):
             in_group = False
         sub.append(is_sub or in_group)
