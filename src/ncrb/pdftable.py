@@ -91,6 +91,7 @@ class PageTable:
     carried: bool = False  # rows that inherited their columns from the previous segment
     ocr: bool = False
     min_conf: float = 1.0
+    unlabelled: bool = False  # right-hand half of a two-page table: figures only, rows follow the left page
 
 
 def is_num(t: str) -> bool:
@@ -227,11 +228,13 @@ def find_anchors(lines: list[list[Word]]) -> list[tuple[int, list[Column], list[
     for i, line in enumerate(lines):
         nums, others = _split_colnums(line)
         bare = False
-        if len(nums) < 2 and len(line) >= 4 and all(re.fullmatch(r"\d{1,2}\.?", w.text) for w in line):
+        digits = [w for w in line if re.fullmatch(r"\d{1,2}\.?", w.text)]
+        if len(nums) < 2 and len(digits) >= 4 and all(len(w.text) <= 2 and w.conf < 0.9 for w in line if w not in digits) and len(digits) >= 0.7 * len(line):
             # older volumes number the columns without brackets: '1 2 3 4 5'
-            vals = [int(w.text.rstrip(".")) for w in line]
-            if vals[0] <= 3 and all(0 < b - a <= 2 for a, b in zip(vals, vals[1:])) and i + 1 < len(lines):
-                nums, others, bare = [(v, w.x0, w.x1) for v, w in zip(vals, line)], [], True
+            vals = [int(w.text.rstrip(".")) for w in digits]
+            if all(0 < b - a <= 2 for a, b in zip(vals, vals[1:])) and i + 1 < len(lines):
+                nums, others, bare = [(v, w.x0, w.x1) for v, w in zip(vals, digits)], [], True
+                line = digits
         if len(nums) < 2 or len(nums) < 0.6 * len(line):
             continue
         ids = [n[0] for n in nums]
@@ -582,7 +585,8 @@ def _segment(
                 label_cols.append(c.id)
             else:
                 break
-        if not label_cols:
+        unlabelled = not label_cols and columns[0].id > 2 and len(numeric) >= 0.8 * len(columns)
+        if not label_cols and not unlabelled:
             label_cols = [columns[0].id]
         if not body:
             # header only (its rows are overleaf): the label columns are the ones before the numbering jumps
@@ -622,6 +626,11 @@ def _segment(
         spill: list[Word] = []
         for cid in data_cols:
             ws = by_col.get(cid, [])
+            if ocr:
+                for w in ws:
+                    w.text = fix_ocr_number(w.text)
+                if len(ws) > 1 and any(is_num(w.text) for w in ws):
+                    ws = [w for w in ws if w.text != "-"]  # specks beside a figure
             vals = [w for w in ws if is_cell(w.text)]
             junk = [w for w in ws if not is_cell(w.text)]
             if ocr and junk and cid != data_cols[0] and len(junk) <= 2:
@@ -642,7 +651,12 @@ def _segment(
         elif label_words and re.fullmatch(r"\d{1,3}[.)]?", label_words[0].text) and len(label_words) > 1:
             serial = label_words[0].text.rstrip(".)")
             label_words = label_words[1:]
+        if ocr:
+            label_words = strip_leader_junk(sorted(label_words + spill, key=lambda w: w.x0))
+            spill = []
         label = " ".join(w.text for w in sorted(label_words + spill, key=lambda w: w.x0)).strip()
+        if ocr:
+            label = re.sub(r"\bT[oO0][tTrR][aA][lLnNI1]\b", "TOTAL", label)  # small capitals defeat the recogniser
         if cells and _has_data(by_col, data_cols):
             row = Row(label, serial, section, cells, page_no, y)
             if not label and not pending and rows and y - rows[-1].y <= 1.2 * pitch:
@@ -691,6 +705,7 @@ def _segment(
     pt.carried = carry is not None
     pt.ocr = ocr
     pt.min_conf = low
+    pt.unlabelled = not label_cols
     return pt, consumed
 
 
@@ -712,11 +727,42 @@ def _clone_columns(prev: PageTable, inferred: list[Column]) -> list[Column] | No
     return cols
 
 
+def fix_ocr_number(t: str) -> str:
+    """Undo the usual misreadings of digits in a numeric column ('ll' for 11, 'O' for 0, '20°' for 20)."""
+    u = t.strip("°'\"`:;*^")
+    if len(u) > 1 and u.endswith(".") and u[:-1].replace(",", "").isdigit():
+        u = u[:-1]
+    if re.fullmatch(r"[lI|!\]\[1]+", u):
+        return "1" * len(u)
+    if re.fullmatch(r"[0-9lIOoSsB,.()%\-]+", u) and re.search(r"\d", u):
+        u = u.translate(str.maketrans("lIOoSsB", "1100558"))
+    return u if is_cell(u) else t
+
+
+def strip_leader_junk(words: list[Word]) -> list[Word]:
+    """Drop what OCR makes of the dot leaders between a row label and its first figure."""
+    for i in range(1, len(words)):
+        tail = words[i:]
+        gap = words[i].x0 - words[i - 1].x1
+        leader = re.fullmatch(r"[.…·•,:;'`\"_\-]+", words[i].text) is not None
+        if (leader or gap > 0.9 * (words[i].size or 8)) and not any(re.search(r"[A-Za-z]{4}", w.text) and w.conf >= 0.8 for w in tail):
+            words = words[:i]
+            break
+    if words:
+        words[-1].text = re.sub(r"[.…·•]{2,}$", "", words[-1].text) or words[-1].text
+    return words
+
+
 def clean_ocr_words(words: list[Word]) -> list[Word]:
     """Drop ruling-line artefacts ('|', '_') that OCR reads as characters."""
     out = []
     for w in words:
-        t = w.text.strip("|_¦")
+        if w.conf < 0.3 and not re.search(r"\d", w.text) and not re.fullmatch(r"[-—–_=~]{1,4}", w.text):
+            continue
+        t = w.text.strip("|¦")
+        if re.fullmatch(r"[-—–_=~]{1,4}", t):
+            t = "-"  # nil entries are printed as dashes of every length
+        t = t.strip("_")
         t = re.sub(r"(?<=\d)[|](?=\d)", " ", t)
         # a raised decimal point in old typesetting is read as '-', ':' or a bullet: '(148-9)' is 148.9
         t = re.sub(r"^[(\[]?(\d{1,4})[-·•:](\d{1,2})[)\]]?$", r"(\1.\2)", t) if re.match(r"^[(\[]", t) or re.search(r"[)\]]$", t) else t

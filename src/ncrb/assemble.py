@@ -32,6 +32,7 @@ class Table:
     warnings: list[str] = field(default_factory=list)
     _index: dict = field(default_factory=dict, repr=False)
     _sigs: dict = field(default_factory=dict, repr=False)
+    _last_rows: list = field(default_factory=list, repr=False)
 
 
 def norm_label(s: str) -> str:
@@ -59,6 +60,18 @@ def _add_page(t: Table, pt: PageTable) -> None:
         t.label_header = " / ".join(" ".join(c.header) for c in labels if c.header)
     t.pages.append(pt.page)
     t.ocr_pages += int(pt.ocr)
+    if pt.unlabelled:
+        # the right-hand page of a spread carries no row labels; its rows follow the left page in order
+        left = t._last_rows
+        if len(left) == len(pt.rows):
+            for a, b in zip(left, pt.rows):
+                a.cells.update({ids[cid]: v for cid, v in b.cells.items() if cid in ids})
+        else:
+            t.warnings.append(f"page {pt.page}: {len(pt.rows)} unlabelled rows could not be matched to {len(left)} rows of the facing page")
+            for b in pt.rows:
+                t.rows.append(TableRow(b.section, "", f"[unmatched row, page {pt.page}]", {ids[cid]: v for cid, v in b.cells.items() if cid in ids}, b.page))
+        return
+    first_new = len(t.rows)
     seen: dict[tuple, int] = {}
     for r in pt.rows:
         base_key = (r.serial, norm_label(r.label))
@@ -74,6 +87,7 @@ def _add_page(t: Table, pt: PageTable) -> None:
             t.rows.append(row)
             # later pages with the same label and new columns merge into the newest such row
             t._index[key] = row
+    t._last_rows = t.rows[first_new:] or t._last_rows
     for n in pt.notes:
         n = n.replace("", "•").strip()
         if n and n not in t.notes:
@@ -87,7 +101,7 @@ def assemble(pages: list[PageTable | None]) -> list[Table]:
         if pt is None:
             continue
         new = cur is None
-        if cur is not None and not pt.carried:
+        if cur is not None and not pt.carried and not pt.unlabelled:
             if pt.table_no and cur.table_no and pt.table_no != cur.table_no:
                 new = True
             elif pt.table_no and not cur.table_no:
@@ -104,6 +118,7 @@ def assemble(pages: list[PageTable | None]) -> list[Table]:
     for t in tables:
         t._index.clear()
         t._sigs.clear()
+        t._last_rows = []
     return tables
 
 

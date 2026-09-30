@@ -1,17 +1,20 @@
-"""OCR for scanned pages using Apple's Vision framework (macOS only).
+"""OCR for scanned pages (Tesseract, with Apple Vision as a fallback).
 
 Older NCRB volumes (roughly pre-2000) were scanned as images with no text
-layer. Vision's text recogniser is run on a rendering of the page and its
-output is converted to the same ``Word`` objects the text-layer path produces,
-in PDF point coordinates, so the table logic in ``pdftable`` is shared.
+layer. The page is rendered and recognised, and the output is converted to the
+same ``Word`` objects the text-layer path produces, in PDF point coordinates,
+so the table logic in ``pdftable`` is shared.
 
-Every OCR word carries Vision's confidence; nothing read this way should be
-treated as exact without checking it against the source scan.
+Every OCR word carries the engine's confidence; nothing read this way should
+be treated as exact without checking it against the source scan.
 """
 
 from __future__ import annotations
 
 import re
+import shutil
+import subprocess
+import tempfile
 
 import pymupdf as fitz
 
@@ -61,19 +64,108 @@ def _recognise(png: bytes) -> list[tuple[str, float, float, float, float, float]
     return out
 
 
-def ocr_page_words(page: fitz.Page) -> tuple[list[Word], float]:
-    """Words of a scanned page in PDF points, and the mean recognition confidence."""
-    if not AVAILABLE:
-        raise RuntimeError("Apple Vision is not available; OCR needs macOS with pyobjc-framework-Vision")
+def _tesseract(png: bytes, psm: int = 6) -> list[tuple[str, float, float, float, float, float, tuple]]:
+    """(text, confidence 0..1, x0, y0, x1, y1 in pixels, line key) per word, via the tesseract CLI."""
+    with tempfile.NamedTemporaryFile(suffix=".png") as f:
+        f.write(png)
+        f.flush()
+        res = subprocess.run(
+            ["tesseract", f.name, "stdout", "--psm", str(psm), "-l", "eng", "-c", "preserve_interword_spaces=1", "tsv"],
+            capture_output=True, text=True, timeout=300,
+        )
+    if res.returncode != 0:
+        raise RuntimeError(f"tesseract failed: {res.stderr[:200]}")
+    out = []
+    for line in res.stdout.splitlines()[1:]:
+        f = line.split("\t")
+        if len(f) < 12 or f[0] != "5" or not f[11].strip():
+            continue
+        x, y, w, h, conf = int(f[6]), int(f[7]), int(f[8]), int(f[9]), float(f[10])
+        out.append((f[11].strip(), max(conf, 0) / 100, x, y, x + w, y + h, (f[2], f[3], f[4])))
+    return out
+
+
+def _skew(words: list[tuple]) -> float:
+    """Slope (dy/dx) of the text lines, from tesseract's own line grouping."""
+    lines: dict[tuple, list[tuple]] = {}
+    for w in words:
+        lines.setdefault(w[6], []).append(w)
+    if not words:
+        return 0.0
+    width = max(w[4] for w in words) - min(w[2] for w in words)
+    slopes = []
+    for ws in lines.values():
+        ws = [w for w in ws if re.search(r"[A-Za-z0-9]", w[0]) and w[5] - w[3] > 0]
+        if len(ws) < 4:
+            continue
+        xs = [(w[2] + w[4]) / 2 for w in ws]
+        ys = [w[5] for w in ws]  # bottoms sit on the baseline
+        if max(xs) - min(xs) < 0.4 * width:
+            continue
+        mx, my = sum(xs) / len(xs), sum(ys) / len(ys)
+        den = sum((x - mx) ** 2 for x in xs)
+        if den:
+            slopes.append(sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / den)
+    if len(slopes) < 3:
+        return 0.0
+    slopes.sort()
+    return slopes[len(slopes) // 2]
+
+
+def _overlap(a, b) -> float:
+    """Share of box a (x0, y0, x1, y1) covered by box b."""
+    w = min(a[2], b[2]) - max(a[0], b[0])
+    h = min(a[3], b[3]) - max(a[1], b[1])
+    area = (a[2] - a[0]) * (a[3] - a[1])
+    return (w * h) / area if w > 0 and h > 0 and area > 0 else 0.0
+
+
+def ocr_page_words(page: fitz.Page, engine: str | None = None) -> tuple[list[Word], float]:
+    """Words of a scanned page in PDF points (deskewed), and the mean recognition confidence.
+
+    Tesseract is the base engine: on these dense number tables it finds isolated
+    digits and dashes that Vision's detector skips. Where both are available
+    (``engine="both"``, the default on macOS) Vision fills in what tesseract
+    read with low confidence or missed, notably the row of column numbers.
+    """
+    has_t = bool(shutil.which("tesseract"))
+    engine = engine or ("both" if has_t and AVAILABLE else "tesseract" if has_t else "vision")
+    if engine == "vision" and not AVAILABLE or engine != "vision" and not has_t:
+        raise RuntimeError("no OCR engine: install tesseract, or use macOS with pyobjc-framework-Vision")
     w, h = page.rect.width, page.rect.height
-    zoom = TARGET_PX / max(w, h)
-    pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), colorspace=fitz.csGRAY, alpha=False)
-    raw = _recognise(pix.tobytes("png"))
+    boxes: list[tuple[str, float, float, float, float, float]] = []  # unit coordinates
+    slope = 0.0
+    if engine in ("tesseract", "both"):
+        zoom = min(300 / 72, 5000 / max(w, h))
+        pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), colorspace=fitz.csGRAY, alpha=False)
+        raw = _tesseract(pix.tobytes("png"))
+        slope = _skew(raw) * pix.width / pix.height  # to unit coordinates
+        boxes = [(t, c, x0 / pix.width, y0 / pix.height, x1 / pix.width, y1 / pix.height) for t, c, x0, y0, x1, y1, _ in raw]
+    if engine in ("vision", "both"):
+        zoom = TARGET_PX / max(w, h)
+        pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), colorspace=fitz.csGRAY, alpha=False)
+        vis = _recognise(pix.tobytes("png"))
+        if engine == "vision":
+            boxes = vis
+        else:
+            keep = list(boxes)
+            for v in vis:
+                hits = [b for b in keep if _overlap(v[2:], b[2:]) > 0.3 or _overlap(b[2:], v[2:]) > 0.3]
+                if not hits:
+                    boxes.append(v)  # tesseract saw nothing here
+                elif all(b[1] < 0.5 for b in hits) and len(hits) == 1 and re.fullmatch(r"[\d,.()\-]+", v[0]):
+                    boxes.remove(hits[0])  # a doubtful tesseract token that Vision reads as a clean number
+                    keep.remove(hits[0])
+                    boxes.append(v)
     words = []
-    for text, conf, x0, y0, x1, y1 in raw:
-        wd = Word(x0 * w, y0 * h, x1 * w, y1 * h, text)
-        wd.size = (y1 - y0) * h
+    heights = sorted((b[5] - b[3]) * h for b in boxes if re.search(r"[A-Za-z0-9]{2}", b[0]))
+    # one nominal font size for the page: box heights of dashes and dots say nothing about the line they sit on
+    size = 1.6 * heights[len(heights) // 2] if heights else 8.0
+    for text, conf, x0, y0, x1, y1 in boxes:
+        dy = slope * (((x0 + x1) / 2) - 0.5)
+        wd = Word(x0 * w, (y0 - dy) * h, x1 * w, (y1 - dy) * h, text)
+        wd.size = size
         wd.conf = conf
         words.append(wd)
-    mean = sum(c for _, c, *_ in raw) / len(raw) if raw else 0.0
+    mean = sum(b[1] for b in boxes) / len(boxes) if boxes else 0.0
     return words, mean
