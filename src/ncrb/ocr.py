@@ -11,6 +11,7 @@ be treated as exact without checking it against the source scan.
 
 from __future__ import annotations
 
+import os
 import re
 import shutil
 import subprocess
@@ -172,13 +173,15 @@ def _overlap(a, b) -> float:
 def ocr_page_words(page: fitz.Page, engine: str | None = None) -> tuple[list[Word], float]:
     """Words of a scanned page in PDF points (deskewed), and the mean recognition confidence.
 
-    Tesseract is the base engine: on these dense number tables it finds isolated
-    digits and dashes that Vision's detector skips. Where both are available
-    (``engine="both"``, the default on macOS) Vision fills in what tesseract
-    read with low confidence or missed, notably the row of column numbers.
+    Tesseract is the engine: on these dense number tables it finds isolated
+    digits and dashes that Vision's detector skips. With ``engine="both"``
+    (or ``NCRB_OCR_ENGINE=both``) Apple Vision also runs and fills in what
+    Tesseract read with low confidence or missed, notably rows of column numbers.
     """
     has_t = bool(shutil.which("tesseract"))
-    engine = engine or ("both" if has_t and AVAILABLE else "tesseract" if has_t else "vision")
+    # Tesseract alone is the default so that results do not depend on the session: Apple Vision refuses
+    # to run in worker processes while the screen is locked. NCRB_OCR_ENGINE=both adds it back.
+    engine = engine or os.environ.get("NCRB_OCR_ENGINE") or ("tesseract" if has_t else "vision")
     if engine == "vision" and not AVAILABLE or engine != "vision" and not has_t:
         raise RuntimeError("no OCR engine: install tesseract, or use macOS with pyobjc-framework-Vision")
     w, h = page.rect.width, page.rect.height
