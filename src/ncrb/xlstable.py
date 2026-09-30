@@ -42,7 +42,11 @@ def load_grids(path: str) -> list[tuple[str, list[list[str]], list[tuple[int, in
     else:
         import xlrd
 
-        wb = xlrd.open_workbook(path, formatting_info=True)
+        try:
+            wb = xlrd.open_workbook(path, formatting_info=True)
+        except Exception:
+            # some workbooks on the site have a damaged container; the cell data is usually still readable
+            wb = xlrd.open_workbook(path, ignore_workbook_corruption=True)
         for sh in wb.sheets():
             if getattr(sh, "visibility", 0):
                 continue
@@ -104,6 +108,13 @@ def tables_from_grid(grid: list[list[str]], merged: list[tuple[int, int, int, in
                 if m:
                     ids[j] = int(m.group(1))
             i += 1
+        if not ids and i < n and kinds[i] == "data":
+            # column numbers written without brackets: a row of consecutive integers under the header
+            vals = [(j, v) for j, v in enumerate(grid[i]) if v]
+            nums = [int(v) for _, v in vals if re.fullmatch(r"\d{1,3}", v)]
+            if len(nums) == len(vals) >= 3 and nums[0] <= 3 and all(b - a == 1 for a, b in zip(nums, nums[1:])):
+                ids = {j: int(v) for j, v in vals}
+                i += 1
         if not header_rows and not ids:
             # data with no heading: attach to the previous table if it has the same shape
             if not tables:

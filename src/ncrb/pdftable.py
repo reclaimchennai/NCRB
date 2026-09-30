@@ -216,8 +216,8 @@ def _split_colnums(line: list[Word]) -> tuple[list[tuple[int, float, float]], li
     """
     out, others = [], []
     for w in line:
-        parts = re.findall(r"\(?(\d{1,3})\)", w.text)
-        if parts and not re.sub(r"\(?\d{1,3}\)", "", w.text).strip():
+        parts = re.findall(r"[(\[]?(\d{1,3})[)\]]", w.text)
+        if parts and not re.sub(r"[(\[]?\d{1,3}[)\]]", "", w.text).strip():
             width = (w.x1 - w.x0) / len(parts)
             out += [(int(p), w.x0 + i * width, w.x0 + (i + 1) * width) for i, p in enumerate(parts)]
         else:
