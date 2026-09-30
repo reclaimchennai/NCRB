@@ -558,6 +558,20 @@ def assign_headers(columns: list[Column], header_lines: list[list[Word]], rules:
             last = max(last, idx[-1])
             b.idx = tuple(idx)
 
+    # --- a long spanner's text can overhang a neighbouring tall cell: a column whose own heading
+    # starts on the spanner's line or above it is not under the spanner
+    for li, row in enumerate(lines):
+        own = {o.idx[0] for r2 in lines[: li + 1] for o in r2 if len(o.idx) == 1}
+        for b in row:
+            if b.ext is not None or len(b.idx) < 2:
+                continue
+            idx = list(b.idx)
+            while len(idx) > 1 and idx[0] in own:
+                idx.pop(0)
+            while len(idx) > 1 and idx[-1] in own:
+                idx.pop()
+            b.idx = tuple(idx)
+
     # --- a centred spanner is narrower than its span: widen the topmost headings symmetrically
     n = len(columns)
     gaps = sorted(b.xc - a.xc for a, b in zip(columns, columns[1:]))
