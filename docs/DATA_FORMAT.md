@@ -59,7 +59,7 @@ One line per non-empty cell.
 | `row` | row order within the table, from 1 |
 | `section`, `sl_no`, `name` | as in the wide file |
 | `is_total` | 1 if the row is a total / all-India row, else 0 |
-| `col_no` | the column number printed under the header, `(3)`, `(4)` ... Tables without printed numbers get 2, 3, ... per position; numbers from 10001 up are assigned by the extractor when the document reuses a printed number or has an unnumbered block |
+| `col_no` | the column number printed under the header: `3`, `4`, ... or a lettered sub-column such as `9a`. Tables without printed numbers get `2`, `3`, ... by position. Numbers from `10001` up are assigned by the extractor when the document reuses a printed number for a different column, or for a block of the table that has no numbers |
 | `column` | full column name, same as in the wide file |
 | `h1` ... `h5` | the header path split into levels, outermost first (`h1` = spanning heading, last non-empty level = leaf such as `Male`) |
 | `value` | the cell as a number; empty when the cell is not numeric (`-`, `NA`, or unreadable) |

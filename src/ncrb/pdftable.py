@@ -908,6 +908,12 @@ def _segment(
                 and _has_data(nxt[1], data_cols)
                 and not any(not re.fullmatch(r"\d{1,4}[.)]?", w.text) for cid in label_cols for w in nxt[1].get(cid, []))
             )
+            # a label line between two rows of figures belongs to the nearer one: it is either the
+            # overflow of the row above or the first line of the row below
+            if nxt is not None and prev is not None and _has_data(nxt[1], data_cols):
+                d_prev, d_next = y - prev.y, nxt[0] - y
+                if d_next < d_prev - 1.0 and d_next <= 0.8 * pitch:
+                    feeds_next = True
             if prev is not None and y - prev.y <= 0.8 * pitch and not pending and not feeds_next:
                 prev.label = (prev.label + " " + ltext).strip()  # continuation below the numbers
                 if serial and not prev.serial:
