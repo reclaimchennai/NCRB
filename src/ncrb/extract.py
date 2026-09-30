@@ -59,7 +59,7 @@ def header_name(path: list[str]) -> str:
 
 def write_table(t: Table, meta: dict, base: Path) -> dict:
     base.parent.mkdir(parents=True, exist_ok=True)
-    col_ids = sorted(t.columns)
+    col_ids = list(t.columns)  # insertion order = order of appearance in the document
     names, used = [], {}
     for cid in col_ids:
         name = header_name(t.columns[cid]) or f"col_{cid}"
@@ -188,7 +188,9 @@ def process_file(job: dict) -> tuple[dict, list[dict]]:
 
 
 def jobs(args) -> list[dict]:
-    files = {r["url"]: r for r in csv.DictReader(FILES.open(encoding="utf-8")) if r["status"] == "ok"}
+    files = {}
+    for state in sorted(FILES.parent.glob("files*.csv")):  # per-run state files of downloads still in progress
+        files |= {r["url"]: r for r in csv.DictReader(state.open(encoding="utf-8")) if r["status"] == "ok"}
     out, seen = [], set()
     for r in csv.DictReader(CATALOG.open(encoding="utf-8")):
         f = files.get(r["url"])

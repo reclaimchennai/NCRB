@@ -165,7 +165,7 @@ def group_lines(words: list[Word]) -> list[list[Word]]:
     """Cluster words into visual lines by vertical centre."""
     lines: list[list[Word]] = []
     for w in sorted(words, key=lambda w: (w.yc, w.x0)):
-        tol = max(2.0, 0.35 * (w.size or 8))
+        tol = max(2.0, 0.45 * (w.size or 8))
         if lines and abs(lines[-1][-1].yc - w.yc) <= tol and abs(_line_y(lines[-1]) - w.yc) <= tol:
             lines[-1].append(w)
         else:
@@ -311,6 +311,7 @@ class Rules:
 
     vert: list[tuple[float, float, float]] = field(default_factory=list)  # x, y0, y1
     horiz: list[tuple[float, float, float]] = field(default_factory=list)  # y, x0, x1
+    last_source: str = ""  # which kind of rule answered the last cell() query
 
     @classmethod
     def from_page(cls, page: fitz.Page, y_top: float, y_bottom: float) -> "Rules":
@@ -336,6 +337,14 @@ class Rules:
                     elif rc.width >= 6 and rc.height >= 3:  # a shaded or boxed cell
                         r._v(rc.x0, rc.y0, rc.y1, y_top, y_bottom)
                         r._v(rc.x1, rc.y0, rc.y1, y_top, y_bottom)
+        # a rule is often drawn in pieces; only the joined-up line says what it spans
+        merged: list[list[float]] = []
+        for y, a, b in sorted(r.horiz, key=lambda h: (round(h[0]), h[1])):
+            if merged and abs(merged[-1][0] - y) < 0.8 and a <= merged[-1][2] + 1.5:
+                merged[-1][2] = max(merged[-1][2], b)
+            else:
+                merged.append([y, a, b])
+        r.horiz = [tuple(m) for m in merged]
         return r
 
     def _v(self, x, y0, y1, top, bottom):
@@ -358,19 +367,25 @@ class Rules:
                 cands.append((L, R))
         # a rule under the text (spanner underline or the cell's bottom border)
         span = full[1] - full[0]
-        below = [(hy, a, b) for hy, a, b in self.horiz if hy > y and a - 3 <= xc <= b + 3 and (b - a) < 0.95 * span]
+        below = [(hy, a, b) for hy, a, b in self.horiz if 0 < hy - y <= 22 and a - 3 <= xc <= b + 3 and (b - a) < 0.95 * span]
         if below:
             y0 = min(h[0] for h in below)
             near = [h for h in below if h[0] - y0 <= 1.5]
             holds = [h for h in near if h[1] - 4 <= x0 and x1 <= h[2] + 4]
             _, a, b = min(holds, key=lambda h: h[2] - h[1]) if holds else max(near, key=lambda h: h[2] - h[1])
-            cands.append((a, b))
+            # a spanner's underline is centred on its text; a longer rule that merely passes below is not its cell
+            if abs((a + b) / 2 - xc) <= 0.1 * (b - a) + 3:
+                cands.append((a, b))
         if not cands:
             return None
         # vertical rules are exact for the text's own row; fall back to the underline only
         # when they merely give the outline of the whole table
         if len(cands) == 2 and cands[0][1] - cands[0][0] >= 0.95 * span:
+            self.last_source = "h"
             return cands[1]
+        self.last_source = "v" if left and right and cands[0] == (max(left), min(right)) else "h"
+        if self.last_source == "v" and cands[0][1] - cands[0][0] >= 0.95 * span:
+            return None  # just the frame around the table
         return cands[0]
 
 
@@ -386,29 +401,142 @@ def word_blocks(line: list[Word]) -> list[list[Word]]:
     return blocks
 
 
+@dataclass
+class _Block:
+    line: int
+    y: float
+    x0: float
+    x1: float
+    text: str
+    size: float
+    ext: tuple[float, float] | None = None  # cell extent from ruling lines
+    idx: tuple[int, ...] = ()
+    parts: list = field(default_factory=list)
+    from_underline: bool = False
+
+    @property
+    def xc(self) -> float:
+        return (self.x0 + self.x1) / 2
+
+
+def _slots(columns: list[Column]) -> list[tuple[float, float]]:
+    """x range owned by each column: midpoints between neighbouring column centres."""
+    mids = [(a.xc + b.xc) / 2 for a, b in zip(columns, columns[1:])]
+    out = []
+    for i, c in enumerate(columns):
+        left = mids[i - 1] if i else c.xc - (mids[0] - c.xc if mids else 30)
+        right = mids[i] if i < len(mids) else c.xc + (c.xc - mids[-1] if mids else 30)
+        out.append((left, right))
+    return out
+
+
 def assign_headers(columns: list[Column], header_lines: list[list[Word]], rules: Rules) -> None:
-    """Fill ``Column.header`` with the header path (outermost group first)."""
-    cells: dict[tuple[int, ...], list[tuple[float, float, str]]] = {}
+    """Fill ``Column.header`` with the header path (outermost group first).
+
+    Where ruling lines box the header cells they decide which columns a heading
+    spans. Otherwise the layout is read geometrically: a heading belongs to the
+    columns it lies over, a heading line continued on the next line is joined,
+    and a spanning heading is widened to take in the whole of any group beneath
+    it that it partly covers (spanners are centred, so their text is narrower
+    than their span).
+    """
     full = (min(c.xc for c in columns), max(c.xc for c in columns))
-    for line in header_lines:
-        last = -1  # index of the last column used on this line; blocks on a line map left to right
-        for block in word_blocks(line):
-            x0, x1 = block[0].x0, block[-1].x1
-            xc, y = (x0 + x1) / 2, _line_y(block)
-            text = " ".join(w.text for w in block)
-            ext = rules.cell(x0, x1, y, full)
+    slots = _slots(columns)
+    lines: list[list[_Block]] = []
+    for li, line in enumerate(header_lines):
+        row = []
+        for ws in word_blocks(line):
+            b = _Block(li, _line_y(ws), ws[0].x0, ws[-1].x1, " ".join(w.text for w in ws), ws[0].size or 8)
+            b.parts = [(b.y, b.x0, b.text)]
+            b.ext = rules.cell(b.x0, b.x1, b.y, full)
+            b.from_underline = b.ext is not None and rules.last_source == "h"
+            row.append(b)
+        # an underline running beneath several headings of a line is not a cell boundary for any of them
+        for b in row:
+            if b.from_underline and any(o is not b and b.ext[0] <= o.xc <= b.ext[1] for o in row):
+                b.ext = None
+        lines.append(row)
+
+    # --- join a heading's continuation line to it (no rules to tell us)
+    for li in range(1, len(lines)):
+        for parent in [b for b in lines[li - 1] if b.ext is None]:
+            under = [b for b in lines[li] if parent.x0 - 2 <= b.xc <= parent.x1 + 2]
+            if len(under) != 1:
+                continue
+            child = under[0]
+            if child.ext is not None or child.y - parent.parts[-1][0] > 1.6 * parent.size:
+                continue
+            if abs(child.xc - parent.xc) > 0.15 * (parent.x1 - parent.x0) + 3 or child.x1 - child.x0 > (parent.x1 - parent.x0) + 12:
+                continue
+            parent.parts += child.parts
+            parent.x0, parent.x1 = min(parent.x0, child.x0), max(parent.x1, child.x1)
+            lines[li].remove(child)
+            lines[li].append(parent)  # so a third line can chain on
+            lines[li - 1].remove(parent)
+        lines[li].sort(key=lambda b: b.x0)
+
+    # --- columns covered by each heading
+    for row in lines:
+        last = -1
+        for b in row:
             idx: list[int] = []
-            if ext is not None:
-                idx = [i for i, c in enumerate(columns) if ext[0] - 1 <= c.xc <= ext[1] + 1]
+            if b.ext is not None:
+                idx = [i for i, c in enumerate(columns) if b.ext[0] - 1 <= c.xc <= b.ext[1] + 1]
             if not idx:
-                # no usable rule: the columns the text physically covers, else the one it sits in
-                idx = [i for i, c in enumerate(columns) if x0 - 2 <= c.xc <= x1 + 2]
+                b.ext = None
+                for i, (l, r) in enumerate(slots):
+                    ov = min(b.x1, r) - max(b.x0, l)
+                    if ov >= 0.3 * (r - l) or (l <= b.x0 and b.x1 <= r):
+                        idx.append(i)
                 if not idx:
-                    idx = [min(range(len(columns)), key=lambda i: (not columns[i].left <= xc < columns[i].right, abs(columns[i].xc - xc)))]
-                if ext is None and idx[0] <= last and idx[-1] + 1 < len(columns) and len(idx) == 1:
-                    idx = [last + 1] if last + 1 < len(columns) else idx
+                    idx = [max(range(len(slots)), key=lambda i: min(b.x1, slots[i][1]) - max(b.x0, slots[i][0]))]
+                if len(idx) == 1 and idx[0] <= last and last + 1 < len(columns):
+                    idx = [last + 1]  # headings on one line map left to right
             last = max(last, idx[-1])
-            cells.setdefault(tuple(idx), []).append((y, x0, text))
+            b.idx = tuple(idx)
+
+    # --- a centred spanner is narrower than its span: widen the topmost headings symmetrically
+    n = len(columns)
+    gaps = sorted(b.xc - a.xc for a, b in zip(columns, columns[1:]))
+    pitch = gaps[len(gaps) // 2] if gaps else 40.0
+    for li, row in enumerate(lines):
+        above = {i for r2 in lines[:li] for o in r2 for i in o.idx}
+        lower = {i for r2 in lines[li + 1 :] for o in r2 for i in o.idx}
+        for b in row:
+            if b.ext is not None or not set(b.idx) <= lower:
+                continue
+            others = {i for o in row if o is not b for i in o.idx}
+            lo, hi = b.idx[0], b.idx[-1]
+            best = None
+            for i in range(lo, -1, -1):
+                if i in others or i in above or i not in lower:
+                    break
+                for j in range(hi, n):
+                    if j in others or j in above or j not in lower:
+                        break
+                    if (i, j) == (lo, hi) or abs((columns[i].xc + columns[j].xc) / 2 - b.xc) > 0.35 * pitch:
+                        continue
+                    if best is None or j - i > best[1] - best[0]:
+                        best = (i, j)
+            if best:
+                b.idx = tuple(range(best[0], best[1] + 1))
+
+    # --- widen ruleless spanners over the groups beneath them
+    groups: list[tuple[int, ...]] = []
+    for row in reversed(lines):
+        for b in row:
+            if b.ext is None and len(b.idx) > 1:
+                cover = set(b.idx)
+                for g in groups:
+                    if len(g) > 1 and cover & set(g):
+                        cover |= set(g)
+                b.idx = tuple(range(min(cover), max(cover) + 1))
+        groups += [b.idx for b in row]
+
+    cells: dict[tuple[int, ...], list[tuple[float, float, str]]] = {}
+    for row in lines:
+        for b in row:
+            cells.setdefault(b.idx, []).extend(b.parts)
     # widest span first = outermost header level
     for idx, parts in sorted(cells.items(), key=lambda kv: (-len(kv[0]), min(p[0] for p in kv[1]))):
         text = _join_header(t for _, _, t in sorted(parts))
@@ -458,7 +586,7 @@ def _set_bounds(columns: list[Column], rules: Rules, y: float, page_w: float) ->
 
 FOOTER_RES = [
     re.compile(r"^(accidental deaths|crime in india|prison statistics).{0,40}\b(19|20)\d\d\b.{0,12}$", re.I),
-    re.compile(r"^\[?\s*\d{1,4}\s*\]?$"),
+    re.compile(r"^[\[(]?\s*\d{1,4}\s*[\])]?$"),
     re.compile(r"^page\s*:?\s*\d+", re.I),
     re.compile(r"^[-–]?\s*\d{1,4}\s*[-–]?$"),
     re.compile(r"^table\b.*\bpage\b", re.I),  # 'TABLE 3.3 - Page 1 of 3'
@@ -474,6 +602,7 @@ def is_page_furniture(text: str) -> bool:
     return any(r.match(t) for r in FOOTER_RES)
 
 
+SECTION_PREFIX_RE = re.compile(r"^\s*((?:STATES?|UNION\s+TERRITOR(?:Y|IES)|UTS?|CITIES|CITY)\s*:)\s*", re.I)
 NOTE_START_RE = re.compile(r"^\s*(note|source|foot\s*note|n\.?b\.?)\b|^\s*[•\uf0b7*@#$+]", re.I)
 
 
@@ -563,6 +692,8 @@ def _segment(
             by_col.setdefault(col.id, []).append(w)
         body.append((_line_y(ln), by_col))
 
+    _realign(body, columns)
+
     if carry is not None:
         label_cols = list(carry.label_cols)
     else:
@@ -646,7 +777,7 @@ def _segment(
         if serial_col is not None:
             sw = [w for w in by_col.get(serial_col, []) if serial_re.fullmatch(w.text)]
             if sw:
-                serial = sw[0].text.rstrip(".)")
+                serial = sw[0].text.rstrip(".") if sw[0].text.startswith("(") else sw[0].text.rstrip(".)")
                 label_words = [w for w in label_words if w is not sw[0]]
         elif label_words and re.fullmatch(r"\d{1,3}[.)]?", label_words[0].text) and len(label_words) > 1:
             serial = label_words[0].text.rstrip(".)")
@@ -665,8 +796,8 @@ def _segment(
                 k = int(m.group(1)) + 1 if (m := re.search(r" \[line (\d+)\]$", rows[-1].label)) else 2
                 row.label = f"{base} [line {k}]"
             # wrapped label: text lines just above belong to a row whose own line has no label
-            if pending and (not label or pending[-1][0] > y - 0.8 * pitch):
-                limit = 1.6 * pitch if not label else 0.8 * pitch
+            if pending and pending[-1][0] > y - 0.8 * pitch:
+                limit = 0.8 * pitch
                 take = [t for py, t in pending if y - py <= limit]
                 for py, t in pending:
                     if y - py > limit:
@@ -675,6 +806,11 @@ def _segment(
             else:
                 for _, t in pending:
                     section = t
+            m = SECTION_PREFIX_RE.match(row.label)
+            if m and m.end() < len(row.label):
+                section, row.label = m.group(1).strip(), row.label[m.end():].strip()
+            if not row.serial and (m := re.match(r"^(\d{1,3})[.)]?\s+(?=[A-Za-z])", row.label)) and serial_col is not None:
+                row.serial, row.label = m.group(1), row.label[m.end():]
             row.section = section
             pending = []
             rows.append(row)
@@ -707,6 +843,37 @@ def _segment(
     pt.min_conf = low
     pt.unlabelled = not label_cols
     return pt, consumed
+
+
+def _realign(body: list[tuple[float, dict[int, list[Word]]]], columns: list[Column]) -> None:
+    """Move figures that landed in a neighbouring column because the column is right-aligned.
+
+    Column positions come from the centred column numbers, but the figures are
+    usually right-aligned, so a short number near a boundary can sit closer to
+    the next column's centre. Where a column's figures share a right edge, that
+    edge decides.
+    """
+    edges: dict[int, float] = {}
+    for c in columns:
+        x1 = sorted(w.x1 for _, bc in body for w in bc.get(c.id, []) if is_cell(w.text))
+        if len(x1) < 4:
+            continue
+        med = x1[len(x1) // 2]
+        if sum(abs(v - med) <= 1.5 for v in x1) >= 0.7 * len(x1):
+            edges[c.id] = med
+    if len(edges) < 2:
+        return
+    for _, bc in body:
+        for cid in list(bc):
+            for w in list(bc[cid]):
+                if not is_cell(w.text) or (cid in edges and abs(w.x1 - edges[cid]) <= 2.0):
+                    continue
+                hit = [k for k, e in edges.items() if abs(w.x1 - e) <= 2.0]
+                if len(hit) == 1 and hit[0] != cid:
+                    bc[cid].remove(w)
+                    if not bc[cid]:
+                        del bc[cid]
+                    bc.setdefault(hit[0], []).append(w)
 
 
 def _clone_columns(prev: PageTable, inferred: list[Column]) -> list[Column] | None:
