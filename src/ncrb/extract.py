@@ -243,11 +243,32 @@ def process_file(job: dict) -> tuple[dict, list[dict]]:
     return summary, rows
 
 
+def vlm_ready(path: Path) -> bool:
+    """True when the VLM page cache holds every scanned page of this file."""
+    import pymupdf
+
+    from .vlm import DEFAULT_MODEL
+    from .vlm_tables import cache_path, file_sha, scanned_pages
+
+    if path.suffix.lower() != ".pdf":
+        return False
+    doc = pymupdf.open(path)
+    pages = scanned_pages(doc)
+    doc.close()
+    if not pages:
+        return False
+    sha = file_sha(path)
+    return all(cache_path(DEFAULT_MODEL, sha, p).exists() for p in pages)
+
+
 def jobs(args) -> list[dict]:
     files = {}
     for state in sorted(FILES.parent.glob("files*.csv")):  # per-run state files of downloads still in progress
         files |= {r["url"]: r for r in csv.DictReader(state.open(encoding="utf-8")) if r["status"] == "ok"}
     out, seen = [], set()
+    scanned = set()
+    if args.scanned and FILE_INDEX.exists():
+        scanned = {r["source_file"] for r in csv.DictReader(FILE_INDEX.open(encoding="utf-8")) if int(r["pages_ocr"] or 0) > 0}
     for r in csv.DictReader(CATALOG.open(encoding="utf-8")):
         f = files.get(r["url"])
         if f is None or r["url"] in seen or not f["path"].lower().endswith(EXTS):
@@ -261,6 +282,10 @@ def jobs(args) -> list[dict]:
         if args.listing and r["listing"] != args.listing:
             continue
         if args.kind and (f["path"].lower().endswith(".pdf")) != (args.kind == "pdf"):
+            continue
+        if args.scanned and f["path"] not in scanned:
+            continue
+        if args.vlm_ready and not vlm_ready(ROOT / f["path"]):
             continue
         seen.add(r["url"])
         out.append({**r, "path": f["path"], "sha256": f["sha256"], "ocr": not args.no_ocr})
@@ -291,6 +316,8 @@ def main() -> None:
     ap.add_argument("--year", type=int)
     ap.add_argument("--listing")
     ap.add_argument("--kind", choices=["pdf", "excel"], help="only this kind of source file")
+    ap.add_argument("--scanned", action="store_true", help="only files with scanned pages")
+    ap.add_argument("--vlm-ready", action="store_true", help="only scanned files whose every page the OCR model has read")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--no-ocr", action="store_true", help="skip scanned pages instead of running OCR")
     ap.add_argument("--workers", type=int, default=6)
