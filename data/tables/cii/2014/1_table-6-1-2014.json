@@ -1,0 +1,70 @@
+{
+ "table_id": "cii/2014/1_table-6-1-2014",
+ "publication": "cii",
+ "year": 2014,
+ "listing": "table_content",
+ "topic": "Crime Against Children",
+ "section": "Crime Against Children",
+ "serial": "1",
+ "title": "Incidence & Rate of Crimes Committed Against Children During 2014 (State/UT-Wis e)",
+ "listing_title": "Incidence & Rate of Crimes Committed Against Children During 2014 (State/UT-Wis e)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-6-1_2014.pdf",
+ "source_file": "raw/cii/2014/table_content/table-6-1_2014.pdf",
+ "source_sha256": "e201afde6484896d11249985af3f4c4ef2b49c89bff46169074a3633faa11779",
+ "table_no": "6.1",
+ "pdf_title": "Incidence & Rate of Crime Committed Against Children During 2014",
+ "row_label": "S.No / State/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 40,
+ "n_cols": 4,
+ "n_cells": 157,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Incidence",
+   "header": [
+    "Incidence"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage Contribution To All-India Total",
+   "header": [
+    "Percentage Contribution To All-India Total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Estimated Children Population (In Lakhs)#",
+   "header": [
+    "Estimated Children Population (In Lakhs)#"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of Total Cognizable Crimes",
+   "header": [
+    "Rate of Total Cognizable Crimes"
+   ]
+  }
+ ],
+ "notes": [
+  "‘#’ Estimated Mid-year population of children(up to 18 years of age)",
+  "Rate of Total Cognizable Crime = (Total Incidences of Crime against Children/Children Population) x 100000 i.e., Incidence of crime per one lakh of children",
+  "population"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

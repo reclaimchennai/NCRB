@@ -1,0 +1,70 @@
+{
+ "table_id": "adsi/1987/2_accidental-deaths-87_tiv",
+ "publication": "adsi",
+ "year": 1987,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1987",
+ "serial": "2",
+ "title": "TABLE—IV",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/accidental-deaths-87.pdf",
+ "source_file": "raw/adsi/1987/year_wise/accidental-deaths-87.pdf",
+ "source_sha256": "65d70f704f19ff191754facb24075e63bfc6fdb5cdacef283185c9b47d494b80",
+ "table_no": "IV",
+ "pdf_title": "TABLE—IV",
+ "row_label": "TABLE—IV Sl. No. / TABLE—IV Of States/UTs/Cities",
+ "pages": [
+  12,
+  13
+ ],
+ "n_rows": 48,
+ "n_cols": 3,
+ "n_cells": 144,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "TABLE—IV | Of And Cities During The Year 1986 & Number of 1986",
+   "header": [
+    "TABLE—IV",
+    "Of And Cities During The Year 1986 & Number of 1986"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TABLE—IV | Deaths In States, UTs. | 1987 Neaths 1987",
+   "header": [
+    "TABLE—IV",
+    "Deaths In States, UTs.",
+    "1987 Neaths 1987"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TABLE—IV | Deaths In States, UTs. | % Variation From 1986 to 1987",
+   "header": [
+    "TABLE—IV",
+    "Deaths In States, UTs.",
+    "% Variation From 1986 to 1987"
+   ]
+  }
+ ],
+ "notes": [
+  "Note Figures of erstwhile UT of Goa, Daman & Diu for the year 1986 have been proportionately",
+  "divided into Goa State and UT of Daman & Diu on the basis of 1987 figures received separately."
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 1,
+  "failures": [
+   "col 4 'TOTAL (Cities)': printed 17611, sum 16611"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

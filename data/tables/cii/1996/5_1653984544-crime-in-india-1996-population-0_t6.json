@@ -1,0 +1,169 @@
+{
+ "table_id": "cii/1996/5_1653984544-crime-in-india-1996-population-0_t6",
+ "publication": "cii",
+ "year": 1996,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 1996",
+ "serial": "5",
+ "title": "Set-up of Police in States & UTs as on 1.1.97",
+ "listing_title": "Excerpts",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653984544_CRIME IN INDIA 1996 POPULATION_0.pdf",
+ "source_file": "raw/cii/1996/year_wise/1653984544_CRIME IN INDIA 1996 POPULATION_0.pdf",
+ "source_sha256": "e8de235f3ba689350622fd57acfb0de2bb73baa103c139cf0208aa02973065db",
+ "table_no": "",
+ "pdf_title": "Set-up of Police in States & UTs as on 1.1.97",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  9,
+  10,
+  11,
+  12
+ ],
+ "n_rows": 62,
+ "n_cols": 14,
+ "n_cells": 512,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Range",
+   "header": [
+    "Range"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Distt.",
+   "header": [
+    "Distt."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Sub-Div.",
+   "header": [
+    "Sub-Div."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Circle",
+   "header": [
+    "Circle"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Police Station",
+   "header": [
+    "Police Station"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Rural/Urban | (State & UT-wise) Rural",
+   "header": [
+    "Rural/Urban",
+    "(State & UT-wise) Rural"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "of Police Urban",
+   "header": [
+    "of Police Urban"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "% of Urban Police Stations",
+   "header": [
+    "% of Urban Police Stations"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "(Civil) Killed on oy in States | During 1992 to 199 1992",
+   "header": [
+    "(Civil) Killed on oy in States",
+    "During 1992 to 199 1992"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "(Civil) Killed on oy in States | 1993",
+   "header": [
+    "(Civil) Killed on oy in States",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "(Civil) Killed on oy in States | 1994",
+   "header": [
+    "(Civil) Killed on oy in States",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "CRIME IN INDIA - 1996 | & UTs 1995",
+   "header": [
+    "CRIME IN INDIA - 1996",
+    "& UTs 1995"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "CRIME IN INDIA - 1996 | 1996",
+   "header": [
+    "CRIME IN INDIA - 1996",
+    "1996"
+   ]
+  }
+ ],
+ "notes": [
+  "Source: ‘Data on Police Organisatio1s in India’ - BPR&D.",
+  "* Figures are as on 1.1.96 as the states have not supplied the figures as on 1.1.97",
+  "@ No. of police circles decreased in Tamil Nadu from 301 to 246 as the Inspector manned police stations are",
+  "increased",
+  "jource: ‘Data on Police Organisations in India’ - Bureau «if Police Research & Development.",
+  "Note: N.A. indicates not available.",
+  "4 Figures for Bihar & Kerala states are as on 1.1.96 as the states have not supplied figures as on 1.1.97",
+  "1649 NCRB 98-34",
+  "‘i",
+  "Source: 1. ‘Crime in India’ (For Civil Police).",
+  "2. Bureau of Police Research & Development Publication (For C.P.Os.).",
+  "Note: 1. Information on Civil Police relates to calender year while for C.P.Os. the period is of",
+  "previous year to August.",
+  "2. # Upto 31-05-1995"
+ ],
+ "checks": {
+  "cells_checked": 35,
+  "cells_passed": 23,
+  "failures": [
+   "col 5 'TOTAL (States)': printed 1389, sum 1386",
+   "col 10001 'TOTAL (UTs)': printed 37, sum 28",
+   "col 10004 'TOTAL (States)': printed 11663, sum 6728",
+   "col 10005 'TOTAL (States)': printed 798, sum 659",
+   "col 10005 'TOTAL (UTs)': printed 10, sum 9",
+   "col 10006 'TOTAL (States)': printed 605, sum 460",
+   "col 10006 'TOTAL (UTs)': printed 12, sum 10",
+   "col 10007 'TOTAL (States)': printed 559, sum 419"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 4,
+ "warnings": []
+}

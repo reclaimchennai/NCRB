@@ -1,0 +1,112 @@
+{
+ "table_id": "adsi/1998/4_table-9-1998",
+ "publication": "adsi",
+ "year": 1998,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "4",
+ "title": "Incidence of Traffic Accidents during various Quarters of 1998 (State, UT & City-wise)",
+ "listing_title": "Incidence of Traffic Accidents during various Quarters of 1998 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-9_1998.pdf",
+ "source_file": "raw/adsi/1998/table_content/table-9_1998.pdf",
+ "source_sha256": "c65c73e7cb5299803ee7502e170ea7a4b36f6a9e8cea6f57ecc9787eca9e5d03",
+ "table_no": "9",
+ "pdf_title": "Incidence of Traffic Accidents During Various Quarters of 1998 (State , UT & City-wise)",
+ "row_label": "State/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 51,
+ "n_cols": 10,
+ "n_cells": 463,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "-",
+   "header": [
+    "-"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Ist Qtr.",
+   "header": [
+    "Ist Qtr."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "%share (5)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Ind Qtr",
+   "header": [
+    "Ind Qtr"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "%share (7)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Qtr.",
+   "header": [
+    "Qtr."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "%share (9)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Vth Qtr.",
+   "header": [
+    "Vth Qtr."
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "%share (11)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "%share Total",
+   "header": [
+    "%share Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 74714, sum 223841",
+   "col 3 '‘TOTAL (UTs) 0': printed 2983, sum 944",
+   "col 3 '‘TOTAL (Cities)': printed 42753, sum 9013"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

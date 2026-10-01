@@ -1,0 +1,108 @@
+{
+ "table_id": "cii/2007/5_table1-5-2007",
+ "publication": "cii",
+ "year": 2007,
+ "listing": "table_content",
+ "topic": "Executive Summary",
+ "section": "Executive Summary",
+ "serial": "5",
+ "title": "Incidence of Total Cognizable Crimes (IPC) during 2002-2007 alongwith percentage changes",
+ "listing_title": "Incidence of Total Cognizable Crimes (IPC) during 2002-2007 alongwith percentage changes",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/Table1.5_2007.pdf",
+ "source_file": "raw/cii/2007/table_content/Table1.5_2007.pdf",
+ "source_sha256": "372ecd1b7a7f18bec70e1fe572156bd37f9d0c303a4b053945208ef4de72ab53",
+ "table_no": "1.5",
+ "pdf_title": "Incidence Of Total Cognizable Crimes (IPC) in States, UTs And Cities During (2002-2006) Alongwith Percentage Changes During 2007",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 74,
+ "n_cols": 9,
+ "n_cells": 666,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "2002",
+   "header": [
+    "2002"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2003",
+   "header": [
+    "2003"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2004",
+   "header": [
+    "2004"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "2005",
+   "header": [
+    "2005"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "2006",
+   "header": [
+    "2006"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "QUINQUE -NNIAL AVERAG E (2002- (Q.A.)@",
+   "header": [
+    "QUINQUE -NNIAL AVERAG E (2002- (Q.A.)@"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "2007",
+   "header": [
+    "2007"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PERCENTAGE CHANGE IN 2007 [(+) INCREASE (-) DECREASE] OVER | QA",
+   "header": [
+    "PERCENTAGE CHANGE IN 2007 [(+) INCREASE (-) DECREASE] OVER",
+    "QA"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PERCENTAGE CHANGE IN 2007 [(+) INCREASE (-) DECREASE] OVER | 2006",
+   "header": [
+    "PERCENTAGE CHANGE IN 2007 [(+) INCREASE (-) DECREASE] OVER",
+    "2006"
+   ]
+  }
+ ],
+ "notes": [
+  "@ FIGURES ARE ROUNDED OFF"
+ ],
+ "checks": {
+  "cells_checked": 28,
+  "cells_passed": 27,
+  "failures": [
+   "col 8 'TOTAL (STATES)': printed 1.74394e+06, sum 1.74395e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

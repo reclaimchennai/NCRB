@@ -1,0 +1,88 @@
+{
+ "table_id": "cii/2001/6_table-death-6-2001_t2",
+ "publication": "cii",
+ "year": 2001,
+ "listing": "table_content",
+ "topic": "Custodial Crimes (in Police custody)",
+ "section": "Custodial Crimes (in Police custody)",
+ "serial": "6",
+ "title": "10 JAMMU & KASHMIR",
+ "listing_title": "Custodial Rape cases and their disposal by Police and courts (State & UT-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-death-6-2001.pdf",
+ "source_file": "raw/cii/2001/table_content/table-death-6-2001.pdf",
+ "source_sha256": "b58120feedb5dac5bf89b65d7426f4f7939a6fce3927f3e490f888b2aacdccc0",
+ "table_no": "",
+ "pdf_title": "10 JAMMU & KASHMIR",
+ "row_label": "",
+ "pages": [
+  2
+ ],
+ "n_rows": 28,
+ "n_cols": 9,
+ "n_cells": 252,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "8",
+   "name": "col_8",
+   "header": []
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "col_10",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 27,
+  "cells_passed": 23,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 3, sum 2",
+   "col 5 'TOTAL (STATES)': printed 6, sum 5",
+   "col 7 'TOTAL (STATES)': printed 2, sum 1",
+   "col 9 'TOTAL (STATES)': printed 2, sum 1"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,78 @@
+{
+ "table_id": "cii/1985/42_tables42-1985",
+ "publication": "cii",
+ "year": 1985,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "42",
+ "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under IPC During 1985",
+ "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under IPC During 1985",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables42-1985.pdf",
+ "source_file": "raw/cii/1985/table_content/tables42-1985.pdf",
+ "source_sha256": "45964c07429193cf275f38c72b4022c7137c7735c5d8621b8e22f3eaba67876f",
+ "table_no": "42",
+ "pdf_title": "Juveniles Apprehended (By Age Group) For Committing Crimes Under IPC",
+ "row_label": "States/U.Ts/Cities Sl. No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 235,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "During | 7 Years",
+   "header": [
+    "During",
+    "7 Years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "During | 16 to Years",
+   "header": [
+    "During",
+    "16 to Years"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1985 to 18 12 16 Years",
+   "header": [
+    "1985 to 18 12 16 Years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "21 to 18 12 Years",
+   "header": [
+    "21 to 18 12 Years"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total to",
+   "header": [
+    "Total to"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 8,
+  "failures": [
+   "col 3 'TOTAL (CITIES)': printed 140, sum 80",
+   "col 4 'TOTAL (STATES)': printed 6480, sum 6420"
+  ],
+  "other_totals_checked": 10,
+  "other_totals_passed": 10
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

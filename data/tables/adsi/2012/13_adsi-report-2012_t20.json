@@ -1,0 +1,78 @@
+{
+ "table_id": "adsi/2012/13_adsi-report-2012_t20",
+ "publication": "adsi",
+ "year": 2012,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2012",
+ "serial": "13",
+ "title": "Table — 1 (J) Incidence and rate of deaths due to road accidents during 2012 (State/UT wise)",
+ "listing_title": "Download full report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/adsi-report-2012.pdf",
+ "source_file": "raw/adsi/2012/year_wise/adsi-report-2012.pdf",
+ "source_sha256": "a9efe33beaa2ef9e3bdf8344b3bcfcdd24caf5600e85210beff3863f99fa1dff",
+ "table_no": "",
+ "pdf_title": "Table — 1 (J) Incidence and rate of deaths due to road accidents during 2012 (State/UT wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  42
+ ],
+ "n_rows": 38,
+ "n_cols": 5,
+ "n_cells": 190,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "No. of cases of road accidents",
+   "header": [
+    "No. of cases of road accidents"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Total registered motor vehicles as on 31.03.2011 (in 000’)",
+   "header": [
+    "Total registered motor vehicles as on 31.03.2011 (in 000’)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Rate of | No. of deaths due to road accidents in 2012",
+   "header": [
+    "Rate of",
+    "No. of deaths due to road accidents in 2012"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of | accidental deaths per 000’ vehicles (Col.5 / Col.4)",
+   "header": [
+    "Rate of",
+    "accidental deaths per 000’ vehicles (Col.5 / Col.4)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rate of | Rate of deaths (Col.5/Col.3) ×100",
+   "header": [
+    "Rate of",
+    "Rate of deaths (Col.5/Col.3) ×100"
+   ]
+  }
+ ],
+ "notes": [
+  "Source: for column 4 - ‘Road Transport Year Book’ of Transport Research Wing, Ministry of Road Transport & Highways, Govt. of India."
+ ],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 6,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

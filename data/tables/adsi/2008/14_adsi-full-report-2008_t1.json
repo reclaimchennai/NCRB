@@ -1,0 +1,57 @@
+{
+ "table_id": "adsi/2008/14_adsi-full-report-2008_t1",
+ "publication": "adsi",
+ "year": 2008,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2008",
+ "serial": "14",
+ "title": "MONTH/YEAR OF PUBLICATION OF ACCIDENTAL DEATHS & SUICIDES IN INDIA OVER THE YEAR",
+ "listing_title": "Download full report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/adsi-full-report-2008.pdf",
+ "source_file": "raw/adsi/2008/year_wise/adsi-full-report-2008.pdf",
+ "source_sha256": "45ba15b7d611b8f115d0dd1191407caac17de16fc492754417b2b4518519bca0",
+ "table_no": "",
+ "pdf_title": "MONTH/YEAR OF PUBLICATION OF ACCIDENTAL DEATHS & SUICIDES IN INDIA OVER THE YEAR",
+ "row_label": "TABLE CONTENTS",
+ "pages": [
+  10,
+  12
+ ],
+ "n_rows": 55,
+ "n_cols": 2,
+ "n_cells": 97,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "2",
+   "name": "YEAR OF THE REPORT",
+   "header": [
+    "YEAR OF THE REPORT"
+   ]
+  }
+ ],
+ "notes": [
+  "(State, UT & City-wise)",
+  "(ii)",
+  "(iv)"
+ ],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'Age and Sex-wise Distribution of Accidental Deaths by Un-Natural Causes 1.7 (All-India)': printed 30, sum 92"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 0,
+ "warnings": []
+}

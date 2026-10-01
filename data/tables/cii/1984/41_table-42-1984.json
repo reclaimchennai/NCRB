@@ -1,0 +1,77 @@
+{
+ "table_id": "cii/1984/41_table-42-1984",
+ "publication": "cii",
+ "year": 1984,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "41",
+ "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During 1984",
+ "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During 1984",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-42-1984.pdf",
+ "source_file": "raw/cii/1984/table_content/table-42-1984.pdf",
+ "source_sha256": "0639234a2c5eea69446340fc913926fff93d33dc0ea3d4b49ba0664ac1e8a9eb",
+ "table_no": "42",
+ "pdf_title": "Juveniles Annr=h==2=2 (By Age Group) For Committing Crimes Under Indian Penal Code During 1984",
+ "row_label": "sl NO / STATES/UTs/CITIES",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 235,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "7-12 YEARS",
+   "header": [
+    "7-12 YEARS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "12-16 YEARS",
+   "header": [
+    "12-16 YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "16-18 YEARS",
+   "header": [
+    "16-18 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "18-21 YEARS",
+   "header": [
+    "18-21 YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 14,
+  "cells_passed": 11,
+  "failures": [
+   "col 5 'TOTAL (UTs)': printed 466, sum 406",
+   "col 6 'TOTAL (States)': printed 50089, sum 50389",
+   "col 7 'TOTAL (States)': printed 71977, sum 71917"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

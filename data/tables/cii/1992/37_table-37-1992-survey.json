@@ -1,0 +1,131 @@
+{
+ "table_id": "cii/1992/37_table-37-1992-survey",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "37",
+ "title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1992 (State, UT & City-wise)",
+ "listing_title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1992 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-37-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-37-1992-survey.pdf",
+ "source_sha256": "0f6b61aac5017e711eeaf644f604b660d8253cd5e5f3020b27e255438805c64b",
+ "table_no": "37",
+ "pdf_title": "",
+ "row_label": "SL. STATE/UT NO. / JUVENILE (2)-",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 96,
+ "n_cols": 12,
+ "n_cells": 536,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "DELINQUENCY MURDER",
+   "header": [
+    "DELINQUENCY MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(IPC) ATTEMPT TO COMMIT MURDER",
+   "header": [
+    "(IPC) ATTEMPT TO COMMIT MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "UNDER (STATE,UT C.H.NOT - Ing MURDER",
+   "header": [
+    "UNDER (STATE,UT C.H.NOT - Ing MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "CRIME CITY-WISE) & RAPE TO",
+   "header": [
+    "CRIME CITY-WISE) & RAPE TO"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "HEADS OF TOTAL &",
+   "header": [
+    "HEADS OF TOTAL &"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "DURING KIDNAPPING WOMEN GIRLS",
+   "header": [
+    "DURING KIDNAPPING WOMEN GIRLS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1992 ABDUCTION & ee OF OTHERS",
+   "header": [
+    "1992 ABDUCTION & ee OF OTHERS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "ROBBERY AND or TRUST",
+   "header": [
+    "ROBBERY AND or TRUST"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "(CBYMTwar =720ra2v COUNTERBREACE",
+   "header": [
+    "(CBYMTwar =720ra2v COUNTERBREACE"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "THEFT OTHER CRIMES",
+   "header": [
+    "THEFT OTHER CRIMES"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "RIOTS TOTAL STATE/UT coo. CRIMES UNDER rrc",
+   "header": [
+    "RIOTS TOTAL STATE/UT coo. CRIMES UNDER rrc"
+   ]
+  }
+ ],
+ "notes": [
+  "27—-526 NCRB/94."
+ ],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 11,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 281, sum 274",
+   "col 4 'TOTAL (ALL-INDIA)': printed 277, sum 177",
+   "col 6 'TOTAL (STATES)': printed 156, sum 154",
+   "col 9 'TOTAL (STATES)': printed 17, sum 19"
+  ],
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 3,
+ "warnings": []
+}

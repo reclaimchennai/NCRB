@@ -1,0 +1,73 @@
+{
+ "table_id": "cii/1983/10_chapter-10-1983",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_chapter",
+ "topic": "",
+ "section": "",
+ "serial": "10",
+ "title": "Victims of Rape",
+ "listing_title": "Victims of Rape",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-10-1983.pdf",
+ "source_file": "raw/cii/1983/table_chapter/chapter-10-1983.pdf",
+ "source_sha256": "5456de172426411968f08a38de707de93ec7fa89cf8a17cd70ffe3617ec40475",
+ "table_no": "55",
+ "pdf_title": "Statement showing the number of victims under different Age Groups for the Crime Head ‘Rape’ in different States{ Union Territories{",
+ "row_label": "Cities during 1983 sl. No. STATES",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 4,
+ "n_cells": 180,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Cities during 1983 | No. of cases reported",
+   "header": [
+    "Cities during 1983",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cities during 1983 | Below 16 years",
+   "header": [
+    "Cities during 1983",
+    "Below 16 years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Between 16 to 30 years",
+   "header": [
+    "Between 16 to 30 years"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Above 30 years",
+   "header": [
+    "Above 30 years"
+   ]
+  }
+ ],
+ "notes": [
+  "*Kerala :-—Victims of Rape are too more than the total cases reported."
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL (U.Ts.)': printed 152, sum 169",
+   "col 4 '‘TOTAL (Cities).': printed 210, sum 211"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

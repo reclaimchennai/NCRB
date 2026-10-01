@@ -1,0 +1,68 @@
+{
+ "table_id": "psi/2023/1_table81",
+ "publication": "psi",
+ "year": 2023,
+ "listing": "table_content",
+ "topic": "Deaths and Illness in Prisons",
+ "section": "Deaths and Illness in Prisons",
+ "serial": "1",
+ "title": "8.1 Deaths of inmates in Prisons",
+ "listing_title": "8.1 Deaths of inmates in Prisons",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/Table81.pdf",
+ "source_file": "raw/psi/2023/table_content/Table81.pdf",
+ "source_sha256": "ae4b9878c0ffb8823651a55197a35607cdcbb6c697d84488cf703b3aa3cb19df",
+ "table_no": "8.1",
+ "pdf_title": "Deaths of inmates in Prisons during the year 2023",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 39,
+ "n_cols": 4,
+ "n_cells": 156,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Natural Deaths",
+   "header": [
+    "Natural Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Un-Natural Deaths",
+   "header": [
+    "Un-Natural Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cause Not Known",
+   "header": [
+    "Cause Not Known"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total Deaths (Col.3 + Col.4 + Col. 5)",
+   "header": [
+    "Total Deaths (Col.3 + Col.4 + Col. 5)"
+   ]
+  }
+ ],
+ "notes": [
+  "As per data provided by States/UTs."
+ ],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

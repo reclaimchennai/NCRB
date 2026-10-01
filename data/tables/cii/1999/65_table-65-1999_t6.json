@@ -1,0 +1,80 @@
+{
+ "table_id": "cii/1999/65_table-65-1999_t6",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "65",
+ "title": "§ (Cantinued_\\",
+ "listing_title": "Persons Arrested Under Different IPC Crimes By Sex in States, UTs & Cities During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-65-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-65-1999.pdf",
+ "source_sha256": "e707ddfc7421bfbd2f4f85c69ae895109f4c2844b8957650aac57f1abb8b5305",
+ "table_no": "6",
+ "pdf_title": "§ (Cantinued_\\",
+ "row_label": "SL.NO. MALE a)",
+ "pages": [
+  5
+ ],
+ "n_rows": 60,
+ "n_cols": 5,
+ "n_cells": 270,
+ "columns": [
+  {
+   "col_no": "31",
+   "name": "ROBBERY @)",
+   "header": [
+    "ROBBERY @)"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "FEMALE TOTAL (32)",
+   "header": [
+    "FEMALE TOTAL"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "MALE",
+   "header": [
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "FEMALE TOTAL (35)",
+   "header": [
+    "FEMALE TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 2,
+  "failures": [
+   "col 31 'TOTAL (CITIES)': printed 26, sum 13",
+   "col 32 'TOTAL STATES': printed 28535, sum 28530",
+   "col 33 'TOTAL (UTs)': printed 1.18023e+07, sum 2277",
+   "col 33 '\"TOTAL (ALL-INDIA) -': printed 69200, sum 1.18692e+07",
+   "col 33 'TOTAL (CITIES)': printed 9725, sum 9649",
+   "col 34 'TOTAL STATES': printed 960, sum 949"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

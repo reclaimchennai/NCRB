@@ -1,0 +1,85 @@
+{
+ "table_id": "cii/2015/2_table-22-1-2015",
+ "publication": "cii",
+ "year": 2015,
+ "listing": "table_content",
+ "topic": "Environment Related Offences",
+ "section": "Environment Related Offences",
+ "serial": "2",
+ "title": "Cases Reported of Environment Related Offences During 2015 (State/UT-Wise)",
+ "listing_title": "Cases Reported of Environment Related Offences During 2015 (State/UT-Wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22.1_2015.pdf",
+ "source_file": "raw/cii/2015/table_content/table-22.1_2015.pdf",
+ "source_sha256": "77c88d061d00563772cc90dcd17d95b6b432f0056147056500bbda4349188971",
+ "table_no": "22.1",
+ "pdf_title": "Incidents of Environment Related Offences During 2015",
+ "row_label": "S. No. / State/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 39,
+ "n_cols": 6,
+ "n_cells": 234,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Forest Act, 1927",
+   "header": [
+    "Forest Act, 1927"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Wildlife Protection Act, 1972",
+   "header": [
+    "Wildlife Protection Act, 1972"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Environmental (Protection) Act, 1986",
+   "header": [
+    "Environmental (Protection) Act, 1986"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Air (Prevention & Control of Pollution) Act, 1981",
+   "header": [
+    "Air (Prevention & Control of Pollution) Act, 1981"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Water (Prevention & Control of Pollution) Act,",
+   "header": [
+    "Water (Prevention & Control of Pollution) Act,"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total Environment Related Offences",
+   "header": [
+    "Total Environment Related Offences"
+   ]
+  }
+ ],
+ "notes": [
+  "Incidence refer to Cases reported"
+ ],
+ "checks": {
+  "cells_checked": 18,
+  "cells_passed": 16,
+  "failures": [
+   "col 8 'TOTAL STATE(S)': printed 5104, sum 5107",
+   "col 8 'TOTAL UT(S)': printed 52, sum 53"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

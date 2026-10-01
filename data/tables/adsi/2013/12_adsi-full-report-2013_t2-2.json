@@ -1,0 +1,69 @@
+{
+ "table_id": "adsi/2013/12_adsi-full-report-2013_t2-2",
+ "publication": "adsi",
+ "year": 2013,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2013",
+ "serial": "12",
+ "title": "Incidence and rate of suicides – 2013 (State, UT & City–wise)",
+ "listing_title": "Download full report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/adsi-full-report-2013.pdf",
+ "source_file": "raw/adsi/2013/year_wise/adsi-full-report-2013.pdf",
+ "source_sha256": "1ebf7727961305a578617e7d1a9246a8127ed54daef99f7bf6962eeaa45f8f76",
+ "table_no": "2.2",
+ "pdf_title": "Incidence and rate of suicides – 2013 (State, UT & City–wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  221,
+  222
+ ],
+ "n_rows": 92,
+ "n_cols": 4,
+ "n_cells": 368,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of suicides",
+   "header": [
+    "Number of suicides"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage share in total suicides",
+   "header": [
+    "Percentage share in total suicides"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Projected mid–year population * (in lakh)",
+   "header": [
+    "Projected mid–year population * (in lakh)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of suicides (Col.3/Col.5)",
+   "header": [
+    "Rate of suicides (Col.3/Col.5)"
+   ]
+  }
+ ],
+ "notes": [
+  "‘#’ Projected population of Census of India. Source: The Registrar General of India."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 4,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

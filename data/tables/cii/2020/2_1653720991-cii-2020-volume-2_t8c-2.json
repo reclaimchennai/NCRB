@@ -1,0 +1,87 @@
+{
+ "table_id": "cii/2020/2_1653720991-cii-2020-volume-2_t8c-2",
+ "publication": "cii",
+ "year": 2020,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 2020",
+ "serial": "2",
+ "title": "Prevention of Corruption Act, 1988 (PC Act) ‐ Cases Registered by Anti‐Corruption Bureau, Vigilance and Lokayukta",
+ "listing_title": "Volume-II",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653720991_CII 2020 Volume 2.pdf",
+ "source_file": "raw/cii/2020/year_wise/1653720991_CII 2020 Volume 2.pdf",
+ "source_sha256": "8fb5adbb659e424b68989f750f4a4f573d66620ca74817ff6cb8b6e8db7f4bb6",
+ "table_no": "8C.2",
+ "pdf_title": "Prevention of Corruption Act, 1988 (PC Act) ‐ Cases Registered by Anti‐Corruption Bureau, Vigilance and Lokayukta",
+ "row_label": "(State/UT‐wise) ‐ 2020 SL / (State/UT‐wise) ‐ 2020 State/UT",
+ "pages": [
+  330
+ ],
+ "n_rows": 37,
+ "n_cols": 5,
+ "n_cells": 185,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(State/UT‐wise) ‐ 2020 | Trap Cases",
+   "header": [
+    "(State/UT‐wise) ‐ 2020",
+    "Trap Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(State/UT‐wise) ‐ 2020 | Disproportionat e Assets",
+   "header": [
+    "(State/UT‐wise) ‐ 2020",
+    "Disproportionat e Assets"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(State/UT‐wise) ‐ 2020 | Criminal Misconduct",
+   "header": [
+    "(State/UT‐wise) ‐ 2020",
+    "Criminal Misconduct"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(State/UT‐wise) ‐ 2020 | Others",
+   "header": [
+    "(State/UT‐wise) ‐ 2020",
+    "Others"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(State/UT‐wise) ‐ 2020 | Total",
+   "header": [
+    "(State/UT‐wise) ‐ 2020",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  "● As per data provided by States/UTs TABLE 8C.2 Page 1 of 1",
+  "●States/UTs may not be compared purely on the basis of crime ﬁgures"
+ ],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 10,
+  "failures": [
+   "col 3 'TOTAL STATE(S)': printed 2000, sum 1975",
+   "col 4 'TOTAL STATE(S)': printed 292, sum 278",
+   "col 5 'TOTAL STATE(S)': printed 438, sum 380",
+   "col 6 'TOTAL STATE(S)': printed 278, sum 266",
+   "col 7 'TOTAL STATE(S)': printed 3008, sum 2899"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

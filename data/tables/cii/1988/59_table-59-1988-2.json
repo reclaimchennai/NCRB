@@ -1,0 +1,76 @@
+{
+ "table_id": "cii/1988/59_table-59-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "59",
+ "title": "Victims of Rape under Different Age Groups During 1988 (State, UT & City-wise)",
+ "listing_title": "Victims of Rape under Different Age Groups During 1988 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-59-1988-2.pdf",
+ "source_sha256": "57edc71461cb0a9f45138ed4529bb1cd660329b10cfae663ab722bf56599e159",
+ "table_no": "59",
+ "pdf_title": "",
+ "row_label": "VICTIMS STATE/UT/CITY SL NO",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 226,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "OF NO. CASES nerunminv",
+   "header": [
+    "OF NO. CASES nerunminv"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RAPE & OF BELOW 10",
+   "header": [
+    "RAPE & OF BELOW 10"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "UNDER CITY-WISE) NUMBER OF YEARS (",
+   "header": [
+    "UNDER CITY-WISE) NUMBER OF YEARS ("
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "AGE VICTIMS 10-16 YEARS",
+   "header": [
+    "AGE VICTIMS 10-16 YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "DURING 1988 GROUPS - - YEARS 30 16-30 AND YEARS ABOVE",
+   "header": [
+    "DURING 1988 GROUPS - - YEARS 30 16-30 AND YEARS ABOVE"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 10,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 8957, sum 8412",
+   "col 7 'TOTAL (STATES)': printed 1148, sum 1143"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,114 @@
+{
+ "table_id": "cii/1990/63_64table-64-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "63",
+ "title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1990 (Men + Women)",
+ "listing_title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1990 (Men + Women)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/64table-64-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/64table-64-1990-.pdf",
+ "source_sha256": "fbe0405110c9f5536b3ffb8a4e52cbee7f0a40c6c5a02cdbc749b73251e5df02",
+ "table_no": "64",
+ "pdf_title": "AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
+ "row_label": "AS ON STATE/UT/CITY SL. NO. a)",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 8,
+ "n_cells": 370,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "AS ON | DG/1G/DIG/SP SANCTIONED",
+   "header": [
+    "AS ON",
+    "DG/1G/DIG/SP SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "AS ON | (MEN ACTUAL",
+   "header": [
+    "AS ON",
+    "(MEN ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "AS ON | + ASP & SANCTIONED",
+   "header": [
+    "AS ON",
+    "+ ASP & SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "AS ON | 31.12.1990 WOMEN) DSP ACTUAL",
+   "header": [
+    "AS ON",
+    "31.12.1990 WOMEN) DSP ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "AS ON | INSPECTOR, A.S8.1. SANCTIONED",
+   "header": [
+    "AS ON",
+    "INSPECTOR, A.S8.1. SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "SI ACTUAL",
+   "header": [
+    "SI ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "& SANCTIONED",
+   "header": [
+    "& SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "410",
+   "name": "GRAND TOTAL OFFICERS RFI Ow A.8.1I. ACTUAL, SANCACTUAL TIONED m2) ay",
+   "header": [
+    "GRAND TOTAL OFFICERS RFI Ow A.8.1I. ACTUAL, SANCACTUAL TIONED m2) ay"
+   ]
+  }
+ ],
+ "notes": [
+  "Note’ 1. Since ‘Actual' Police strength was not available for Haryana,Madhya Pradesh and Maharashtra,",
+  "it is taken equal to ‘Sanctioned’ Police strength.",
+  "2. Though ‘Actual’ Police strength is more than Police strength for some ranks",
+  "of civil Police in Karnataka combined ‘Actual’ strength of Civil and Armed Police for those",
+  "ranks does not exceed combined strength for them."
+ ],
+ "checks": {
+  "cells_checked": 19,
+  "cells_passed": 10,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 2616, sum 2404",
+   "col 3 'TOTAL (UTs)': printed 64, sum 44",
+   "col 6 'TOTAL (STATES)': printed 4474, sum 4357",
+   "col 6 'TOTAL (UTs)': printed 17, sum 171",
+   "col 6 'TOTAL (ALL-INDIA)': printed 4645, sum 4491",
+   "col 7 'TOTAL (UTs)': printed 8974, sum 8855",
+   "col 8 'TOTAL (STATES)': printed 98104, sum 97195",
+   "col 9 'TOTAL (UTs)': printed 36920, sum 36910"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

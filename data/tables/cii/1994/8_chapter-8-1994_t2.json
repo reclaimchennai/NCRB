@@ -1,0 +1,115 @@
+{
+ "table_id": "cii/1994/8_chapter-8-1994_t2",
+ "publication": "cii",
+ "year": 1994,
+ "listing": "table_chapter",
+ "topic": "",
+ "section": "",
+ "serial": "8",
+ "title": "No",
+ "listing_title": "Crime Against Children",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-8-1994.pdf",
+ "source_file": "raw/cii/1994/table_chapter/chapter-8-1994.pdf",
+ "source_sha256": "5c736f84d041618ef12ff231e6bc62b61315c0e7cf130805e97dc28c80607157",
+ "table_no": "",
+ "pdf_title": "No",
+ "row_label": "qi)",
+ "pages": [
+  3,
+  9
+ ],
+ "n_rows": 29,
+ "n_cols": 10,
+ "n_cells": 170,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "M (3)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "F (4)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "M (5)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "F (6)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "M (7)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "F (8)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "M (9)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "F (10)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "M (11)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "F (12)",
+   "header": [
+    "F"
+   ]
+  }
+ ],
+ "notes": [
+  "Census of India [981, Occiisional No. 4 1988, R:port of thi: Expert the",
+  "Population projections."
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'All-India': printed 140321, sum 122521",
+   "col 5 'All-India': printed 148151, sum 142451"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

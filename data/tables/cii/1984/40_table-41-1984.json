@@ -1,0 +1,62 @@
+{
+ "table_id": "cii/1984/40_table-41-1984",
+ "publication": "cii",
+ "year": 1984,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "40",
+ "title": "Juvenile Apprehended (by Sex) for Committing Crimes under Local and Special Laws During 1984",
+ "listing_title": "Juvenile Apprehended (by Sex) for Committing Crimes under Local and Special Laws During 1984",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1984.pdf",
+ "source_file": "raw/cii/1984/table_content/table-41-1984.pdf",
+ "source_sha256": "3f89e0dfa9689f500bb130ecd3d48525df3c3d72e11014d82f81e853f3ab438d",
+ "table_no": "41",
+ "pdf_title": "Juveniles Annrehended (By Sex) For Committing Crime Under Local And Snecial Laws During 1984",
+ "row_label": "STATES/UTs/CITIES SL. NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 45,
+ "n_cols": 3,
+ "n_cells": 135,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "BOYS",
+   "header": [
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "GIRLS",
+   "header": [
+    "GIRLS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 7,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 75994, sum 75934",
+   "col 3 'TOTAL (Cities)': printed 25600, sum 25591"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

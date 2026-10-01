@@ -1,0 +1,83 @@
+{
+ "table_id": "cii/2010/2_table-18-2-2010",
+ "publication": "cii",
+ "year": 2010,
+ "listing": "table_content",
+ "topic": "Cyber Crimes",
+ "section": "Cyber Crimes",
+ "serial": "2",
+ "title": "Persons Arrested under I.T. Act by Age-group (State & UT-wise)",
+ "listing_title": "Persons Arrested under I.T. Act by Age-group (State & UT-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-18.2_2010.pdf",
+ "source_file": "raw/cii/2010/table_content/table-18.2_2010.pdf",
+ "source_sha256": "c62dcae5d50a56d55775717edc34d27f492ea32ab663516b8d368a5e3cef7444",
+ "table_no": "18.2",
+ "pdf_title": "Person Arrested Under IT Act By Age Group During 2010 (States & UTs)",
+ "row_label": "Sl.No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 74,
+ "n_cols": 6,
+ "n_cells": 444,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Below 18 years",
+   "header": [
+    "Below 18 years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Between 18 – 30 years",
+   "header": [
+    "Between 18 – 30 years"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Between 30 – 45 years",
+   "header": [
+    "Between 30 – 45 years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Between 45 – 60 years",
+   "header": [
+    "Between 45 – 60 years"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Above 60 years",
+   "header": [
+    "Above 60 years"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 23,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 414, sum 418"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,63 @@
+{
+ "table_id": "adsi/1988/2_accidental-deaths-1988_t5",
+ "publication": "adsi",
+ "year": 1988,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1988",
+ "serial": "2",
+ "title": "TABLE—IV Statement Of Incidence Of Accidental Neathe [n States, UTs And Cities During The Year 1987 & 1988",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1988.pdf",
+ "source_file": "raw/adsi/1988/year_wise/accidental-deaths-1988.pdf",
+ "source_sha256": "11f848adfeee55b1446a5d0c736ac84cfaa8f117caff5a86de074b588e2a28c2",
+ "table_no": "",
+ "pdf_title": "TABLE—IV Statement Of Incidence Of Accidental Neathe [n States, UTs And Cities During The Year 1987 & 1988",
+ "row_label": "States/UTs/ Sl. No. / States/UTs/ Cities",
+ "pages": [
+  12
+ ],
+ "n_rows": 35,
+ "n_cols": 3,
+ "n_cells": 105,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number Of Accidental Deaths | 1987",
+   "header": [
+    "Number Of Accidental Deaths",
+    "1987"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number Of Accidental Deaths | 1988",
+   "header": [
+    "Number Of Accidental Deaths",
+    "1988"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "% Variation From 1987 To 1988",
+   "header": [
+    "% Variation From 1987 To 1988"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 5,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 147960, sum 147860"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

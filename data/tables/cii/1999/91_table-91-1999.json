@@ -1,0 +1,123 @@
+{
+ "table_id": "cii/1999/91_table-91-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "91",
+ "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1999 (Women only) (State, UT, & City-Wise)",
+ "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1999 (Women only) (State, UT, & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-91-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-91-1999.pdf",
+ "source_sha256": "4ca568208da03156b1b493080bcd2e1f143bd549ce8bed61f322cbf3b108a248",
+ "table_no": "91",
+ "pdf_title": "SANUI1UNEY AND ACTUAL si kENGIN UF ARMED POLICE AS ON 31.12.1999 (WOMEN ONLY) (STATE, UT & UCrry-wisn)",
+ "row_label": "Reann SL. NO. (2) STA’ ES:",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 10,
+ "n_cells": 571,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Reann | SANCTIONED @)",
+   "header": [
+    "Reann",
+    "SANCTIONED @)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Reann | DY ACTUAL",
+   "header": [
+    "Reann",
+    "DY ACTUAL"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Reann | SANCTIONED ®",
+   "header": [
+    "Reann",
+    "SANCTIONED ®"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "unormeaum,S51& AJLL | COMDT. ACTUAL ©",
+   "header": [
+    "unormeaum,S51& AJLL",
+    "COMDT. ACTUAL ©"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "unormeaum,S51& AJLL | SANCTIONED m",
+   "header": [
+    "unormeaum,S51& AJLL",
+    "SANCTIONED m"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "unormeaum,S51& AJLL | ACTUAL @)",
+   "header": [
+    "unormeaum,S51& AJLL",
+    "ACTUAL @)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "unormeaum,S51& AJLL | SANCTIONED ®",
+   "header": [
+    "unormeaum,S51& AJLL",
+    "SANCTIONED ®"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "GRAND TOTAL | ACTUAL (10)",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL (10)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "GRAND TOTAL | SANCTIONED (i)",
+   "header": [
+    "GRAND TOTAL",
+    "SANCTIONED (i)"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | ACTUAL (12)",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL (12)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 22,
+  "cells_passed": 18,
+  "failures": [
+   "col 5 'TOTAL STATES': printed 1, sum 0",
+   "col 6 'TOTAL STATES': printed 4, sum 41",
+   "col 6 'TOTAL (ALL-INDIA)': printed 42, sum 5",
+   "col 7 'TOTAL STATES': printed 57, sum 23"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

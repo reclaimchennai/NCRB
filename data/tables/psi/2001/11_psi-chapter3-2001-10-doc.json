@@ -1,0 +1,170 @@
+{
+ "table_id": "psi/2001/11_psi-chapter3-2001-10-doc",
+ "publication": "psi",
+ "year": 2001,
+ "listing": "table_content",
+ "topic": "Types of Prison Inmates",
+ "section": "Types of Prison Inmates",
+ "serial": "11",
+ "title": "Distribution of Foreigner Convicts by age group",
+ "listing_title": "Distribution of Foreigner Convicts by age group",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-chapter3_2001_10.doc",
+ "source_file": "raw/psi/2001/table_content/psi-chapter3_2001_10.doc.pdf",
+ "source_sha256": "22f88e1c3a5f0b2e7470371359401d598c5a22c53716191864fc324ea01c0666",
+ "table_no": "3.10",
+ "pdf_title": "DISTRIBUTION OF FOREIGNER CONVICTS IN JAILS BY AGE GROUPS AT THE END OF 2001",
+ "row_label": "SL. NO / STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 47,
+ "n_cols": 16,
+ "n_cells": 571,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "16 –18 YEARS | MALE",
+   "header": [
+    "16 –18 YEARS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "16 –18 YEARS | FEMALE",
+   "header": [
+    "16 –18 YEARS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "16 –18 YEARS | TOTAL",
+   "header": [
+    "16 –18 YEARS",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "18 – 30 YEARS | MALE",
+   "header": [
+    "18 – 30 YEARS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "18 – 30 YEARS | FEMALE",
+   "header": [
+    "18 – 30 YEARS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "18 – 30 YEARS | TOTAL",
+   "header": [
+    "18 – 30 YEARS",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
+   "col_no": "9",
+   "name": "M (9)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "F (10)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "T (11)",
+   "header": [
+    "T"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "M (12)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "F (13)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "T (14)",
+   "header": [
+    "T"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "(ALL AGE GROUPS) | M",
+   "header": [
+    "(ALL AGE GROUPS)",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "(ALL AGE GROUPS) | F",
+   "header": [
+    "(ALL AGE GROUPS)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "(ALL AGE GROUPS) | T",
+   "header": [
+    "(ALL AGE GROUPS)",
+    "T"
+   ]
+  }
+ ],
+ "notes": [
+  "INDIA)",
+  "* Jails donot exist"
+ ],
+ "checks": {
+  "cells_checked": 34,
+  "cells_passed": 26,
+  "failures": [
+   "col 10 'TOTAL(STATES)': printed 250, sum 202",
+   "col 11 'TOTAL(STATES)': printed 31, sum 21",
+   "col 12 'TOTAL(STATES)': printed 281, sum 223",
+   "col 13 'TOTAL(STATES)': printed 24, sum 20",
+   "col 15 'TOTAL(STATES)': printed 26, sum 22",
+   "col 16 'TOTAL(STATES)': printed 467, sum 381",
+   "col 17 'TOTAL(STATES)': printed 53520, sum 24357",
+   "col 17 'TOTAL(UTs)': printed 3192, sum 492"
+  ],
+  "other_totals_checked": 7,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

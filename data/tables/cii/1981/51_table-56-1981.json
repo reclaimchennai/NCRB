@@ -1,0 +1,124 @@
+{
+ "table_id": "cii/1981/51_table-56-1981",
+ "publication": "cii",
+ "year": 1981,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "51",
+ "title": "Number of Police Personnel Killed or Injured on Duty During 1981",
+ "listing_title": "Number of Police Personnel Killed or Injured on Duty During 1981",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-56-1981.pdf",
+ "source_file": "raw/cii/1981/table_content/table-56-1981.pdf",
+ "source_sha256": "37558534c4b8a8522edb1c9daa4b05ec4ded025208d9ecd09fa0cae8ad47eccd",
+ "table_no": "",
+ "pdf_title": "TABLE—56 NUMBER OF POLICE PERSONNET. K1t.1.D OR INJURED ON DUTY DURING 1981",
+ "row_label": "Sl. States/U.Ts./Cities No. I. AndhraPradesh / Killed Indacoityoperation or other raids -",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 55,
+ "n_cols": 10,
+ "n_cells": 290,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Killed | By Riotous mobs é",
+   "header": [
+    "Killed",
+    "By Riotous mobs é"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Killed | Byothercriminals *",
+   "header": [
+    "Killed",
+    "Byothercriminals *"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Killed | duties Z.",
+   "header": [
+    "Killed",
+    "duties Z."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Killed | nts 2 ‘ws",
+   "header": [
+    "Killed",
+    "nts 2 ‘ws"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Killed | Total 4 aa",
+   "header": [
+    "Killed",
+    "Total 4 aa"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Injured | By riotous mob 99",
+   "header": [
+    "Injured",
+    "By riotous mob 99"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Injured | By othercriminals 40",
+   "header": [
+    "Injured",
+    "By othercriminals 40"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Injured | On border duties che",
+   "header": [
+    "Injured",
+    "On border duties che"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Injured | In 8",
+   "header": [
+    "Injured",
+    "In 8"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "er Total 147",
+   "header": [
+    "er Total 147"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 257, sum 253",
+   "col 10001 'TOTAL (States)': printed 3076, sum 1905",
+   "col 10001 'TOTAL(U.Ts)': printed 145, sum 1226",
+   "col 10002 'TOTAL (States)': printed 152, sum 451",
+   "col 10004 'TOTAL (States)': printed 120, sum 63"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

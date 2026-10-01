@@ -1,0 +1,72 @@
+{
+ "table_id": "cii/1980/19_table-44-1980-0_t440",
+ "publication": "cii",
+ "year": 1980,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "19",
+ "title": "Pure",
+ "listing_title": "Disposal of Juveniles Sent to Court",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1980_0.pdf",
+ "source_file": "raw/cii/1980/table_content/table-44-1980_0.pdf",
+ "source_sha256": "3cfebfc57ca44342c5c0aee215c2ff3ab7e1c6b028f225f8d80355a0fdd1f9fe",
+ "table_no": "440",
+ "pdf_title": "Pure",
+ "row_label": "Sl, No. 10, 11. 12, 13, 14, 15. 16, 17. 18, 19, 20. / f 1. 2 2. Assam - 3, Bihar , 4. Gujarat 3. Haryana 6, Himachal Pradesh 7. Jammu & Kashmir 8. 9. Kerala Madhya Pradesh , Punjab , i ftalacthon 2, Sikkim Tamil Nadu Tripura / Of School Tastitu= tions 18 2. - - - 7 - • - - 1 ‘ 7 ‘ 58 4 - 7 ‘ 20 ‘ 55 a - ‘ a 6 ‘ 4 - ‘ 7",
+ "pages": [
+  2
+ ],
+ "n_rows": 22,
+ "n_cols": 4,
+ "n_cells": 82,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "sent to Court | Sent to Adult tons ‘ - \" - » ‘ + +. 4 1",
+   "header": [
+    "sent to Court",
+    "Sent to Adult tons ‘ - \" - » ‘ + +. 4 1"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "sent to Court | ned a 289 oo 5,473 S21 TW - 207 1,414 12 3,033 b20 71 a7 95 353 a2 a",
+   "header": [
+    "sent to Court",
+    "ned a 289 oo 5,473 S21 TW - 207 1,414 12 3,033 b20 71 a7 95 353 a2 a"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "wine dis. of 474 1,470 5 10,717 208 108 162 297 425 4,835 2,883 - 2 §1 325 31 - - 8,067 3M 795 -",
+   "header": [
+    "wine dis. of 474 1,470 5 10,717 208 108 162 297 425 4,835 2,883 - 2 §1 325 31 - - 8,067 3M 795 -"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "‘Pendi disposal 347 O30 - - 1,342 z 11,614 - 2,437 - - 141 13 1,307 432 i S28 12,763 - 316 - Si 92 - - 141 as - - 4,728 io 160 3,181 - 101",
+   "header": [
+    "‘Pendi disposal 347 O30 - - 1,342 z 11,614 - 2,437 - - 141 13 1,307 432 i S28 12,763 - 316 - Si 92 - - 141 as - - 4,728 io 160 3,181 - 101"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 5 'TOTAL (States)': printed 14600, sum 149",
+   "col 6 'TOTAL (States)': printed 33576, sum 819",
+   "col 7 'TOTAL (States)': printed 55864, sum 1490"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

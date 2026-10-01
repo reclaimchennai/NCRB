@@ -1,0 +1,73 @@
+{
+ "table_id": "cii/1986/57_tabl59-1986",
+ "publication": "cii",
+ "year": 1986,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "57",
+ "title": "Table Presenting Strength of Armed Police as on 31.12.1986",
+ "listing_title": "Table Presenting Strength of Armed Police as on 31.12.1986",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl59-1986.pdf",
+ "source_file": "raw/cii/1986/table_content/tabl59-1986.pdf",
+ "source_sha256": "536b289ad5e9006105df30406f4c65eaeb913175a3b9d9aec5454d5d6ea8eaec",
+ "table_no": "59",
+ "pdf_title": "Strength Of Armed Police As On 31.12.86",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 230,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Numver of DGAG/DIG/SP",
+   "header": [
+    "Numver of DGAG/DIG/SP"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "UL ASP/DSP",
+   "header": [
+    "UL ASP/DSP"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "Numer OF officers below S.1.",
+   "header": [
+    "Numer OF officers below S.1."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 4,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 8165, sum 8121"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

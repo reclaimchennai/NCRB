@@ -1,0 +1,113 @@
+{
+ "table_id": "cii/1984/43_table-44-1984",
+ "publication": "cii",
+ "year": 1984,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "43",
+ "title": "Disposal of Juveniles Sent to Courts During 1984",
+ "listing_title": "Disposal of Juveniles Sent to Courts During 1984",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1984.pdf",
+ "source_file": "raw/cii/1984/table_content/table-44-1984.pdf",
+ "source_sha256": "f74bfbaef634c272156ee0ad92f69493522d980b75be82e770ee9c2052255817",
+ "table_no": "44",
+ "pdf_title": "Disposal Of Juveniles Sent To Court During 1984",
+ "row_label": "sl NO / STATES/U. Ts/CITIES",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 49,
+ "n_cols": 9,
+ "n_cells": 420,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "JUVENILES TO",
+   "header": [
+    "JUVENILES TO"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "SENT COURTS",
+   "header": [
+    "SENT COURTS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "KESTURED TO GUARDIAN",
+   "header": [
+    "KESTURED TO GUARDIAN"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ON SENT TO REFFORMATORIES AND BORSTALS",
+   "header": [
+    "ON SENT TO REFFORMATORIES AND BORSTALS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PROBATION SENT TO SCHOOLS AND INSTITUTIONS",
+   "header": [
+    "PROBATION SENT TO SCHOOLS AND INSTITUTIONS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "SENT TO ADULT j",
+   "header": [
+    "SENT TO ADULT j"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "IMPRISONED",
+   "header": [
+    "IMPRISONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OR | ACQUITTED OTHERWISE DISPOSED",
+   "header": [
+    "OR",
+    "ACQUITTED OTHERWISE DISPOSED"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "OR | PENDING DISPOSAL OF",
+   "header": [
+    "OR",
+    "PENDING DISPOSAL OF"
+   ]
+  }
+ ],
+ "notes": [
+  "a ca a a ae Sa a RNS OD, DG ED SD WD ee"
+ ],
+ "checks": {
+  "cells_checked": 19,
+  "cells_passed": 13,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 5989, sum 5818",
+   "col 4 'TOTAL (States)': printed 11522, sum 11519",
+   "col 4 'TOTAL (Cities)': printed 4721, sum 5361",
+   "col 8 'TOTAL (States)': printed 296, sum 289",
+   "col 9 'TOTAL (Cities)': printed 12973, sum 14666",
+   "col 11 'TOTAL (Cities)': printed 13488, sum 16689"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

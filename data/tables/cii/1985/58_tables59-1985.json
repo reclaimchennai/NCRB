@@ -1,0 +1,79 @@
+{
+ "table_id": "cii/1985/58_tables59-1985",
+ "publication": "cii",
+ "year": 1985,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "58",
+ "title": "Table Presenting Strength of Armed Police as on 31.12.1985",
+ "listing_title": "Table Presenting Strength of Armed Police as on 31.12.1985",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables59-1985.pdf",
+ "source_file": "raw/cii/1985/table_content/tables59-1985.pdf",
+ "source_sha256": "7f3f31de2b9819703774d37eaffd6fee2cd953434d24965fa85960c20b0e2f73",
+ "table_no": "59",
+ "pdf_title": "Table Presenting Strength Of Armed Police",
+ "row_label": "$l. No. / States/U.Ts/Cities",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 209,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "As NUMBER OF DG/IG/SP",
+   "header": [
+    "As NUMBER OF DG/IG/SP"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "On NUMBER ASP",
+   "header": [
+    "On NUMBER ASP"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "31-12-1985 NUMBER & & SUB-INSPECTOR",
+   "header": [
+    "31-12-1985 NUMBER & & SUB-INSPECTOR"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF OF OFFICERS BELOW DSP SUB- INSPECTOR ‘6:",
+   "header": [
+    "NUMBER OF OF OFFICERS BELOW DSP SUB- INSPECTOR ‘6:"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "OF TOTAL INSPECTOR",
+   "header": [
+    "OF TOTAL INSPECTOR"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (U.Ts. i': printed 11, sum 640",
+   "col 4 'TOTAL (U.Ts. i': printed 41, sum 2919",
+   "col 4 'TOTAL (CITIES)': printed 13, sum 1773",
+   "col 5 'TOTAL (U.Ts. i': printed 479, sum 15927",
+   "col 5 'TOTAL (CITIES)': printed 861, sum 725"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,61 @@
+{
+ "table_id": "cii/1991/40_table-24-1991-24_t24_2",
+ "publication": "cii",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "40",
+ "title": "Persons Arrested under Different IPC Crimes by Sex in States, UTs & Cities During 1991",
+ "listing_title": "Persons Arrested under Different IPC Crimes by Sex in States, UTs & Cities During 1991",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1991-24.pdf",
+ "source_file": "raw/cii/1991/table_content/table-24-1991-24.pdf",
+ "source_sha256": "293dd841677197e6f68b07a30b3e210637fa9fbbee8cba81ef62a5d647ca0125",
+ "table_no": "24",
+ "pdf_title": "",
+ "row_label": "SL. wo.",
+ "pages": [
+  9
+ ],
+ "n_rows": 47,
+ "n_cols": 3,
+ "n_cells": 128,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "TOTAL MALE",
+   "header": [
+    "TOTAL MALE"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "IPC FEMALE",
+   "header": [
+    "IPC FEMALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CRIMES",
+   "header": [
+    "CRIMES"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 2.40817e+06, sum 1.19557e+06"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

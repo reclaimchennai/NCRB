@@ -1,0 +1,97 @@
+{
+ "table_id": "cii/1992/50_table-50-1992-survey",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "50",
+ "title": "Incidence of Crimes Committed Against Women During 1991 (State & UT-wise)",
+ "listing_title": "Incidence of Crimes Committed Against Women During 1991 (State & UT-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-50-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-50-1992-survey.pdf",
+ "source_sha256": "f5f98266041fc481159b9ed2b2bee614bfc050ba5aa1c29583c8dd72be376d29",
+ "table_no": "50",
+ "pdf_title": "",
+ "row_label": "BL. MO. / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 7,
+ "n_cells": 234,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "OF | RAPE",
+   "header": [
+    "OF",
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "OF | ( KIDNAPPING &",
+   "header": [
+    "OF",
+    "( KIDNAPPING &"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CRIMES STATE/UT-WIsE DOWRY DEATHS",
+   "header": [
+    "CRIMES STATE/UT-WIsE DOWRY DEATHS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "AGAINST ) CRUZLTY BY AND RELATIVES",
+   "header": [
+    "AGAINST ) CRUZLTY BY AND RELATIVES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "WOMEN MOLESTAHUSBAND TION HIB",
+   "header": [
+    "WOMEN MOLESTAHUSBAND TION HIB"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "DURING EVETEASING",
+   "header": [
+    "DURING EVETEASING"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1991 TOTAL",
+   "header": [
+    "1991 TOTAL"
+   ]
+  }
+ ],
+ "notes": [
+  "FIGURES ARE BASED ON WONTHLE CRIME STATISTICS AMD MAY BE TARATED AS S=5=5\". -",
+  "32—526 NCRB/94."
+ ],
+ "checks": {
+  "cells_checked": 20,
+  "cells_passed": 16,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 9606, sum 9542",
+   "col 4 'TOTAL (STATES)': printed 11624, sum 11625",
+   "col 7 'TOTAL (ALL-INDIA)': printed 20641, sum 20611",
+   "col 8 'TOTAL (STATES)': printed 7171, sum 7175"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

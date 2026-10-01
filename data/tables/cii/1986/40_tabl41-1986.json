@@ -1,0 +1,61 @@
+{
+ "table_id": "cii/1986/40_tabl41-1986",
+ "publication": "cii",
+ "year": 1986,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "40",
+ "title": "Juvenile Apprehended (by Sex) for Committing Crimes Under Local & Special Laws During 1986",
+ "listing_title": "Juvenile Apprehended (by Sex) for Committing Crimes Under Local & Special Laws During 1986",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl41-1986.pdf",
+ "source_file": "raw/cii/1986/table_content/tabl41-1986.pdf",
+ "source_sha256": "c791d2122a41c20fefaa52e7b0a8868b746c242f2abd6b64ab3638beb80269c1",
+ "table_no": "41",
+ "pdf_title": "Juveniles Apprehended (By Sex) For Committing Crime Under Local And Special Laws During 1986",
+ "row_label": "States/U.Ts/Cities Sl. No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 3,
+ "n_cells": 139,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Boys",
+   "header": [
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Girls",
+   "header": [
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 5 'TOTAL (CITIES)': printed 30038, sum 122496"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,152 @@
+{
+ "table_id": "cii/1992/42_table-42-1992-survey",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "42",
+ "title": "Juveniles Apprehended under Different IPC Crimes During 1992 (State, UT & City-wise)",
+ "listing_title": "Juveniles Apprehended under Different IPC Crimes During 1992 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-42-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-42-1992-survey.pdf",
+ "source_sha256": "fc4e389c60908e4aee40624ef77e05c38a8d32193f3b707c142e7052e31e84fb",
+ "table_no": "42",
+ "pdf_title": "JUVENILES APPREHENDED UNDER DIFFERENT IPC CRIMES DURING 1992",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "n_rows": 105,
+ "n_cols": 15,
+ "n_cells": 560,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(STATE,UT | ATTEMPT TO COMMIT MURDER",
+   "header": [
+    "(STATE,UT",
+    "ATTEMPT TO COMMIT MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(STATE,UT | C.H.NOT AMOUNT - ING MURDER",
+   "header": [
+    "(STATE,UT",
+    "C.H.NOT AMOUNT - ING MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "& RAPE TO",
+   "header": [
+    "& RAPE TO"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "CITY-WISE) TOTAL",
+   "header": [
+    "CITY-WISE) TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KIDNAPPING OF &",
+   "header": [
+    "KIDNAPPING OF &"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "& WOMEN GIRLS",
+   "header": [
+    "& WOMEN GIRLS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "ABDUCTION DACOITY oF OTHERS",
+   "header": [
+    "ABDUCTION DACOITY oF OTHERS"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "ROBBERY AND or rRust",
+   "header": [
+    "ROBBERY AND or rRust"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "S0RGLaeyY BREACH",
+   "header": [
+    "S0RGLaeyY BREACH"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "THEFT COUNTEROTHER FEITING IPC CRIMES",
+   "header": [
+    "THEFT COUNTEROTHER FEITING IPC CRIMES"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "RIOTS TOTAL STATE/UT coc. UNDER",
+   "header": [
+    "RIOTS TOTAL STATE/UT coc. UNDER"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "COUNTERRIOTS PRITING",
+   "header": [
+    "COUNTERRIOTS PRITING"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Cormrwar. OTHER IPC CRIMES",
+   "header": [
+    "Cormrwar. OTHER IPC CRIMES"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "TOTAL crtTY CRIMES UNDER",
+   "header": [
+    "TOTAL crtTY CRIMES UNDER"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: MR data not received."
+ ],
+ "checks": {
+  "cells_checked": 13,
+  "cells_passed": 12,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 367, sum 358"
+  ],
+  "other_totals_checked": 8,
+  "other_totals_passed": 8
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 4,
+ "warnings": []
+}

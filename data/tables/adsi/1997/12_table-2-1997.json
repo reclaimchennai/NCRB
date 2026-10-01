@@ -1,0 +1,81 @@
+{
+ "table_id": "adsi/1997/12_table-2-1997",
+ "publication": "adsi",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "12",
+ "title": "Incidence and Rate of Accidental Deaths during 1997 (State, UT & City-wise)",
+ "listing_title": "Incidence and Rate of Accidental Deaths during 1997 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-2_1997.pdf",
+ "source_file": "raw/adsi/1997/table_content/table-2_1997.pdf",
+ "source_sha256": "7e2211d4c5cd982b5de16ad185ea63c633b64b1f88bfc7681a58a49e1049817b",
+ "table_no": "2",
+ "pdf_title": "Incidence And Rate of Acciaenial Deaths During 1997 (State, UT & City-wise)",
+ "row_label": "Number of SI. No / Number of State/UT/City",
+ "pages": [
+  1
+ ],
+ "n_rows": 40,
+ "n_cols": 5,
+ "n_cells": 172,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of | Accidental Deaths",
+   "header": [
+    "Number of",
+    "Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of | in Total Deaths",
+   "header": [
+    "Number of",
+    "in Total Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of | Yeer {in Lakh)",
+   "header": [
+    "Number of",
+    "Yeer {in Lakh)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of Accidental Deaths",
+   "header": [
+    "Rate of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rank",
+   "header": [
+    "Rank"
+   ]
+  }
+ ],
+ "notes": [
+  "* Rank on the basis of Rate of ‘Accidental Deaths (Col.6) in States/UTs and Cities."
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 226717, sum 193539",
+   "col 3 'TOTAL (Cities)': printed 29474, sum 25634"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

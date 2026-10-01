@@ -1,0 +1,72 @@
+{
+ "table_id": "cii/2015/1_table-6-1-2015",
+ "publication": "cii",
+ "year": 2015,
+ "listing": "table_content",
+ "topic": "Crime Against Children",
+ "section": "Crime Against Children",
+ "serial": "1",
+ "title": "Cases Reported & Rate of Crimes Committed Against Children During 2015 (State/UT-Wise)",
+ "listing_title": "Cases Reported & Rate of Crimes Committed Against Children During 2015 (State/UT-Wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-6-1_2015.pdf",
+ "source_file": "raw/cii/2015/table_content/table-6-1_2015.pdf",
+ "source_sha256": "62041591b4d6ebf4cbe7a018075b1d433f258acd861c5d76c2f70ea351b176ca",
+ "table_no": "6.1",
+ "pdf_title": "Cases Reported & Rate of Crime Committed Against Children During 2015",
+ "row_label": "S. No. / State/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 39,
+ "n_cols": 4,
+ "n_cells": 156,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Cases Reported",
+   "header": [
+    "Cases Reported"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage Contribution to All India Total",
+   "header": [
+    "Percentage Contribution to All India Total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Estimated Mid-Year Children Population+ (in Lakhs)",
+   "header": [
+    "Estimated Mid-Year Children Population+ (in Lakhs)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of Total Cognizable Crimes",
+   "header": [
+    "Rate of Total Cognizable Crimes"
+   ]
+  }
+ ],
+ "notes": [
+  "‘*’ Adjusted Estimated Mid-year Population of Children (Below 18 Years) for newly created States Andhra Pradesh and Telangana, as",
+  "estimated population for these States were not available.",
+  "‘+’ Estimated Mid-year population of children(Below 18 years of age) of the year 2014 due to non-availability of such figures for the year 2015",
+  "Rate of Total Cognizable Crime = (Total Incidences of Crime against Children/Children Population) x 100000 i.e., Incidence of crime per 1,00,000",
+  "of children population"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

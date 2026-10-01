@@ -1,0 +1,71 @@
+{
+ "table_id": "cii/1989/5_table-5-1989-1",
+ "publication": "cii",
+ "year": 1989,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "5",
+ "title": "Incidence & Volume of Total Cognizable Crimes (IPC) in States and UTs During 1989",
+ "listing_title": "Incidence & Volume of Total Cognizable Crimes (IPC) in States and UTs During 1989",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1989-1.pdf",
+ "source_file": "raw/cii/1989/table_content/table-5-1989-1.pdf",
+ "source_sha256": "948726054466cfd2c1eed3382e69f2f3e36296508e6c31eb1f0a7669b5a4c106",
+ "table_no": "5",
+ "pdf_title": "",
+ "row_label": "SL. NO. / INCIDENCE STATE/U.T.",
+ "pages": [
+  1
+ ],
+ "n_rows": 36,
+ "n_cols": 4,
+ "n_cells": 138,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "& IN DURING OF TOTAL COG. CRIMES",
+   "header": [
+    "& IN DURING OF TOTAL COG. CRIMES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "OF TOTAL COGNTZARIE STATES 1989 CONTE IBUT LOM TO TOTAL",
+   "header": [
+    "OF TOTAL COGNTZARIE STATES 1989 CONTE IBUT LOM TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CRIMES ( IFC) AND VOLUME OF TOTAL ALL-INDI/,",
+   "header": [
+    "CRIMES ( IFC) AND VOLUME OF TOTAL ALL-INDI/,"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "UTs RANK OF* COG. CRIMES",
+   "header": [
+    "UTs RANK OF* COG. CRIMES"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 1. * Rank on the basis of volume of total cognizable crimes in the States & UTs. (Col. 5)",
+  "2. Percentage less than 0.05 is also shown as 0.0"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 1.49264e+06, sum 1.49255e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

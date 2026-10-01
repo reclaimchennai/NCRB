@@ -1,0 +1,76 @@
+{
+ "table_id": "cii/1997/64_table-44-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "64",
+ "title": "Value of Cultural Property (including Antiques) Stolen and Recovered During 1997 (State & UT-Wise)",
+ "listing_title": "Value of Cultural Property (including Antiques) Stolen and Recovered During 1997 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-44-1996-crime-survey.pdf",
+ "source_sha256": "9058b3ef250e7416f5ad8b19972cf73faeedf23f9b8a9781c38906e215d461a4",
+ "table_no": "44",
+ "pdf_title": "",
+ "row_label": "SL. STATE/UT NO. / VALUE OF CULTURAL",
+ "pages": [
+  1
+ ],
+ "n_rows": 39,
+ "n_cols": 4,
+ "n_cells": 132,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "AND RECOVERED DURING 1997 | (INCLUDING ANTIQUES) STOLEN (STATE & UT-WISE) | NUMBER OF CASES PROPERTY WAS STOLEN STOLEN",
+   "header": [
+    "AND RECOVERED DURING 1997",
+    "(INCLUDING ANTIQUES) STOLEN (STATE & UT-WISE)",
+    "NUMBER OF CASES PROPERTY WAS STOLEN STOLEN"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "AND RECOVERED DURING 1997 | (INCLUDING ANTIQUES) STOLEN (STATE & UT-WISE) | IN WHICH RECOVERED",
+   "header": [
+    "AND RECOVERED DURING 1997",
+    "(INCLUDING ANTIQUES) STOLEN (STATE & UT-WISE)",
+    "IN WHICH RECOVERED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "AND RECOVERED DURING 1997 | VALUE OF PROPERTY (RS. IN LAKHS) STOLEN",
+   "header": [
+    "AND RECOVERED DURING 1997",
+    "VALUE OF PROPERTY (RS. IN LAKHS) STOLEN"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "AND RECOVERED DURING 1997 | RECOVERED",
+   "header": [
+    "AND RECOVERED DURING 1997",
+    "RECOVERED"
+   ]
+  }
+ ],
+ "notes": [
+  "1161 NCRB/Q9-~16A"
+ ],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 '‘TOTAL (STATES)': printed 483, sum 481"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

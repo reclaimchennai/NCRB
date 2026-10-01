@@ -1,0 +1,62 @@
+{
+ "table_id": "cii/1999/2_chapter2-1999_t2-4",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_chapter",
+ "topic": "",
+ "section": "",
+ "serial": "2",
+ "title": "Incidence of crimes revorted under (PC during 1999",
+ "listing_title": "Crimes in Mega Cities",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter2-1999.pdf",
+ "source_file": "raw/cii/1999/table_chapter/chapter2-1999.pdf",
+ "source_sha256": "ba69ec7ceb64bc0a6b91994598eef2edfe62d951432d05059774d5f8519485e7",
+ "table_no": "2.4",
+ "pdf_title": "Incidence of crimes revorted under (PC during 1999",
+ "row_label": "Sl. Crime Head No.",
+ "pages": [
+  4
+ ],
+ "n_rows": 27,
+ "n_cols": 3,
+ "n_cells": 81,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "All-India",
+   "header": [
+    "All-India"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cities",
+   "header": [
+    "Cities"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Share of Cities to All- India",
+   "header": [
+    "Share of Cities to All- India"
+   ]
+  }
+ ],
+ "notes": [
+  "Note Total Theft cases do not match with the sum of ‘Auto Theft’ cases arid ‘other Theft’ cases due .0",
+  "Sikkim data."
+ ],
+ "checks": {
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

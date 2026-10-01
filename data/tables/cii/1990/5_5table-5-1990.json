@@ -1,0 +1,71 @@
+{
+ "table_id": "cii/1990/5_5table-5-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "5",
+ "title": "Incidence & Volume of Total Cognizable Crimes (IPC) in States and UTs During 1990",
+ "listing_title": "Incidence & Volume of Total Cognizable Crimes (IPC) in States and UTs During 1990",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/5table-5-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/5table-5-1990-.pdf",
+ "source_sha256": "4a23fee45751994982f686ab43b626095c99369dd86973491db076d19cc017cb",
+ "table_no": "5",
+ "pdf_title": "& VOLUME OF TOTAL COGNTZARLE CRIMES(IPC) IN STATES AND UTs DURING 1990",
+ "row_label": "SL. NO. ¢2) / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 4,
+ "n_cells": 135,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Incipencs: TOTAL CRIMES",
+   "header": [
+    "Incipencs: TOTAL CRIMES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "OF COG. TO TOTAL",
+   "header": [
+    "OF COG. TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "OF COG. LON ALL-INDIA",
+   "header": [
+    "OF COG. LON ALL-INDIA"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "VOLUME OF* RANK TOTAL CRIMINALITY CRIMES",
+   "header": [
+    "VOLUME OF* RANK TOTAL CRIMINALITY CRIMES"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 1 * Rank on the basis of volume of total cognizable crimes (Col. 5) in the States & UTs.",
+  "2 Percentage less than 0.05 is also shown as 0.0"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 1.56603e+06, sum 1.38149e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

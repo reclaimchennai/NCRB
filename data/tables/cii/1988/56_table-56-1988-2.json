@@ -1,0 +1,101 @@
+{
+ "table_id": "cii/1988/56_table-56-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "56",
+ "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1988 (State, UT & City-wise) Theft",
+ "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1988 (State, UT & City-wise) Theft",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-56-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-56-1988-2.pdf",
+ "source_sha256": "514bf80ad03514b52926eca479fb423b4f4c7e640323017383965cb6a1187694",
+ "table_no": "56",
+ "pdf_title": "",
+ "row_label": "8L. No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 8,
+ "n_cells": 371,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "OP woes NUMBER",
+   "header": [
+    "OP woes NUMBER"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "CARES AL VALUE",
+   "header": [
+    "CARES AL VALUE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "AND | HIGHWAYS NUMBER",
+   "header": [
+    "AND",
+    "HIGHWAYS NUMBER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "AND | VALUE OF (STATE, VALUE",
+   "header": [
+    "AND",
+    "VALUE OF (STATE, VALUE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "roren:x UT & THEFT RIVER & NUMBER",
+   "header": [
+    "roren:x UT & THEFT RIVER & NUMBER"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BY CITY-WISE) SEAS VALUE",
+   "header": [
+    "BY CITY-WISE) SEAS VALUE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PLACE (Rs. NUMBER",
+   "header": [
+    "PLACE (Rs. NUMBER"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OF lakh) in RATIWAYR VALUE",
+   "header": [
+    "OF lakh) in RATIWAYR VALUE"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Value less than 0.05 is also shown as .0"
+ ],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 6,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 113661, sum 114304",
+   "col 6 'TOTAL (STATES)': printed 495, sum 566"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

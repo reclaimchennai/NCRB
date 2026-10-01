@@ -1,0 +1,90 @@
+{
+ "table_id": "adsi/1981/3_suicides-1981_tvii",
+ "publication": "adsi",
+ "year": 1981,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1981",
+ "serial": "3",
+ "title": "Suicidal Deaths in India",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1981.pdf",
+ "source_file": "raw/adsi/1981/year_wise/suicides-1981.pdf",
+ "source_sha256": "c098fcbf0ce8c32dc43db7ee3c5b25ce783d635c09885bfb2cde9c6469f19645",
+ "table_no": "VII",
+ "pdf_title": "",
+ "row_label": "Suicides Classified Sl. No. 4 States 1. Andhra Pradesh 2.",
+ "pages": [
+  15,
+  16,
+  17
+ ],
+ "n_rows": 44,
+ "n_cols": 6,
+ "n_cells": 217,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "to Sex and by States, Union | Name of States/U.Ts./ Cities 2",
+   "header": [
+    "to Sex and by States, Union",
+    "Name of States/U.Ts./ Cities 2"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "to Sex and by States, Union | Cities 3 1,584 1,455",
+   "header": [
+    "to Sex and by States, Union",
+    "Cities 3 1,584 1,455"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "to Sex and by States, Union | During %of Male to total 4 54-3 75-0",
+   "header": [
+    "to Sex and by States, Union",
+    "During %of Male to total 4 54-3 75-0"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "to Sex and by States, Union | 1981 Female 5 1,331 486",
+   "header": [
+    "to Sex and by States, Union",
+    "1981 Female 5 1,331 486"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "to Sex and by States, Union | %of Female to total 6 45-7 25-0",
+   "header": [
+    "to Sex and by States, Union",
+    "%of Female to total 6 45-7 25-0"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "and ‘Total 7 2,915 1,941",
+   "header": [
+    "and ‘Total 7 2,915 1,941"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 5 'TOTAL(U.Ts.)': printed 337, sum 30608",
+   "col 7 'TOTAL(U.Ts.)': printed 815, sum 75069"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 3,
+ "warnings": []
+}

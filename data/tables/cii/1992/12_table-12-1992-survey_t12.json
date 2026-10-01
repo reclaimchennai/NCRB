@@ -1,0 +1,160 @@
+{
+ "table_id": "cii/1992/12_table-12-1992-survey_t12",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "12",
+ "title": "IMNCIDENCR(I) & RATE (R) OF COGNIZABLE UNDER DIFYEXSHT CRIME HEADS IN STATES, UTs & CITIES DURING 1992",
+ "listing_title": "Incidence & Rate of Cognizable Crimes (LSL) under Different Crime Heads in States, UTs & Cities During 1992",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-12-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-12-1992-survey.pdf",
+ "source_sha256": "829d487a2550808df9b7ea88372484d8f83482662b4fe8889fdbb4c4c4668bff",
+ "table_no": "12",
+ "pdf_title": "IMNCIDENCR(I) & RATE (R) OF COGNIZABLE UNDER DIFYEXSHT CRIME HEADS IN STATES, UTs & CITIES DURING 1992",
+ "row_label": "sL.",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 75,
+ "n_cols": 16,
+ "n_cells": 720,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ARMS I",
+   "header": [
+    "ARMS I"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ACT R (4)",
+   "header": [
+    "ACT R"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NARCOTIC & SUBSTANCES I",
+   "header": [
+    "NARCOTIC & SUBSTANCES I"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "DRUGS PSYCHOTROPIC ACT R",
+   "header": [
+    "DRUGS PSYCHOTROPIC ACT R"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "GAMBLING I",
+   "header": [
+    "GAMBLING I"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ACT R (8)",
+   "header": [
+    "ACT R"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "BXCISE I",
+   "header": [
+    "BXCISE I"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "ACT R (10)",
+   "header": [
+    "ACT R"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PROHIBITION I",
+   "header": [
+    "PROHIBITION I"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "ACT R (12)",
+   "header": [
+    "ACT R"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "EXPLOSIVES EXPLOSIVE SUBSTANCES I",
+   "header": [
+    "EXPLOSIVES EXPLOSIVE SUBSTANCES I"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "& R",
+   "header": [
+    "& R"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "IMMORAL ACT -",
+   "header": [
+    "IMMORAL ACT -"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "TRAFFIC (PREVENTION) ACT R",
+   "header": [
+    "TRAFFIC (PREVENTION) ACT R"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "INDIAN ACT I",
+   "header": [
+    "INDIAN ACT I"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "RAILWAYS R",
+   "header": [
+    "RAILWAYS R"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 8,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 60452, sum 60152",
+   "col 9 'TOTAL (STATES)': printed 90613, sum 90611",
+   "col 11 'TOTAL (STATES)': printed 627357, sum 348600",
+   "col 13 'TOTAL (STATES)': printed 8870, sum 3893",
+   "col 15 'TOTAL (STATES)': printed 12285, sum 8817",
+   "col 17 'TOTAL (STATES)': printed 26475, sum 3737",
+   "col 17 'TOTAL (ALL - INDIA)': printed 274548, sum 26548"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

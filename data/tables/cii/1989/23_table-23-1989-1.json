@@ -1,0 +1,70 @@
+{
+ "table_id": "cii/1989/23_table-23-1989-1",
+ "publication": "cii",
+ "year": 1989,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "23",
+ "title": "Persons Arrested under IPC Crimes During 1989 and Percentage Variation in 1989 over 1988 (State, UT & City-Wise)",
+ "listing_title": "Persons Arrested under IPC Crimes During 1989 and Percentage Variation in 1989 over 1988 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-23-1989-1.pdf",
+ "source_file": "raw/cii/1989/table_content/table-23-1989-1.pdf",
+ "source_sha256": "c37bdc75f2c7d0df8dedae1667a941575b681e2ece52e3a40444d90b4b258837",
+ "table_no": "23",
+ "pdf_title": "",
+ "row_label": "PERSONS SL. STATE/UT/CITY NO. ql)",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 4,
+ "n_cells": 187,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ARRESTED 1989 DURING AND (STATE, UT & 1988",
+   "header": [
+    "ARRESTED 1989 DURING AND (STATE, UT & 1988"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "UNDER CITY-WISE) 1989",
+   "header": [
+    "UNDER CITY-WISE) 1989"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "IPC VARIATION PERCENTAGE VARIATION IN 1989 OVER",
+   "header": [
+    "IPC VARIATION PERCENTAGE VARIATION IN 1989 OVER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "IN 1989 1988 OVER CRIMES CONTRIBUTION. ALL-INDIA TO 1988 DURING 1989",
+   "header": [
+    "IN 1989 1988 OVER CRIMES CONTRIBUTION. ALL-INDIA TO 1988 DURING 1989"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Percentage variation or contribution less than 0.05 is shown as 0.0"
+ ],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 5,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 30616, sum 30596"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

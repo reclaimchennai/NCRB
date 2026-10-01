@@ -1,0 +1,117 @@
+{
+ "table_id": "cii/1999/5_table-5-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "5",
+ "title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States, UTs & Cities During 1999",
+ "listing_title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States, UTs & Cities During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-5-1999.pdf",
+ "source_sha256": "5b0c0767981cc1822187a9a5ebd18762ef41cb7dda1b7cb3bc8d62c1117bd7b8",
+ "table_no": "5",
+ "pdf_title": "TABLE SA INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (SLL)",
+ "row_label": "SL. NO. a",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 71,
+ "n_cols": 9,
+ "n_cells": 517,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "CRIMES (IPC) | INCIDENCE & RAT)? OF TOTAL IN STATIS, UTs & | INCIDENCE OF TOTAL COGNIZABLE CRIMES",
+   "header": [
+    "CRIMES (IPC)",
+    "INCIDENCE & RAT)? OF TOTAL IN STATIS, UTs &",
+    "INCIDENCE OF TOTAL COGNIZABLE CRIMES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CRIMES (IPC) | INCIDENCE & RAT)? OF TOTAL IN STATIS, UTs & | PERCENTAGE TO ALL-INDIA TOTAL",
+   "header": [
+    "CRIMES (IPC)",
+    "INCIDENCE & RAT)? OF TOTAL IN STATIS, UTs &",
+    "PERCENTAGE TO ALL-INDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CRIMES (IPC) | DIJKING 1999 ESTIMATED MID-YEAR POPULATION (IN LAKHS) (S)",
+   "header": [
+    "CRIMES (IPC)",
+    "DIJKING 1999 ESTIMATED MID-YEAR POPULATION (IN LAKHS) (S)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "CRIMES (IPC) | RATE OF TOTAL COGNIZABLE CRIMES",
+   "header": [
+    "CRIMES (IPC)",
+    "RATE OF TOTAL COGNIZABLE CRIMES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "CRIMES (IPC) | RANK OF * CRIMINALITY",
+   "header": [
+    "CRIMES (IPC)",
+    "RANK OF * CRIMINALITY"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "IN STATES, UTs & CITIES DURING 1999 | OF CUNTKIBULIUN TO ALL-INDIA TOTAL Q)",
+   "header": [
+    "IN STATES, UTs & CITIES DURING 1999",
+    "OF CUNTKIBULIUN TO ALL-INDIA TOTAL Q)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "IN STATES, UTs & CITIES DURING 1999 | ESTIMATED PERCENTAGE MID-YEAR POPULATION (IN LAKHS)",
+   "header": [
+    "IN STATES, UTs & CITIES DURING 1999",
+    "ESTIMATED PERCENTAGE MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "RATE OF TOTAL COGNIZABLE CRIMES",
+   "header": [
+    "RATE OF TOTAL COGNIZABLE CRIMES"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "RANK OF * CRIMINALITY",
+   "header": [
+    "RANK OF * CRIMINALITY"
+   ]
+  }
+ ],
+ "notes": [
+  "1,0 += than 0.05 aise snown as 0.0.",
+  "1, * Rank on the basis of Rate of -—=-+-=\"+- --*-—- (Col6.).",
+  "2. - than 0.05 is also shown as 0.0."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 3,
+  "failures": [
+   "col 3 'TOTAL (CITIES)': printed 254499, sum 201768"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

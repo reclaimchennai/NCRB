@@ -1,0 +1,147 @@
+{
+ "table_id": "adsi/2015/13_table-1a-1-2015",
+ "publication": "adsi",
+ "year": 2015,
+ "listing": "table_content",
+ "topic": "Traffic Accidents",
+ "section": "TRAFFIC ACCIDENTS",
+ "serial": "13",
+ "title": "Cases Reported and Percentage Change in Traffic Accidents during 2015 over 2014 (State/UT & City-wise)",
+ "listing_title": "Cases Reported and Percentage Change in Traffic Accidents during 2015 over 2014 (State/UT & City-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-1A.1_2015.pdf",
+ "source_file": "raw/adsi/2015/table_content/table-1A.1_2015.pdf",
+ "source_sha256": "da4d8f903d6c0c7eeb4fe243779079f8a348ff28bf38f37e0c7009a0f2f20437",
+ "table_no": "1A.1",
+ "pdf_title": "Cases Reported and Percentage Change in Traffic Accidents during 2015 Over 2014 (State/UT - wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 93,
+ "n_cols": 13,
+ "n_cells": 1204,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Road Accidents | 2014",
+   "header": [
+    "Road Accidents",
+    "2014"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Road Accidents | 2015",
+   "header": [
+    "Road Accidents",
+    "2015"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Road Accidents | % Var.",
+   "header": [
+    "Road Accidents",
+    "% Var."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Railway Accidents | 2014",
+   "header": [
+    "Railway Accidents",
+    "2014"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Railway Accidents | 2015",
+   "header": [
+    "Railway Accidents",
+    "2015"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Railway Accidents | % Var.",
+   "header": [
+    "Railway Accidents",
+    "% Var."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Railway Crossing Accidents | 2014",
+   "header": [
+    "Railway Crossing Accidents",
+    "2014"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Railway Crossing Accidents | 2015",
+   "header": [
+    "Railway Crossing Accidents",
+    "2015"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Railway Crossing Accidents | % Var.",
+   "header": [
+    "Railway Crossing Accidents",
+    "% Var."
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Total Traffic Accidents | 2014",
+   "header": [
+    "Total Traffic Accidents",
+    "2014"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Total Traffic Accidents | 2015",
+   "header": [
+    "Total Traffic Accidents",
+    "2015"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Total Traffic Accidents | % Var.",
+   "header": [
+    "Total Traffic Accidents",
+    "% Var."
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "% Share",
+   "header": [
+    "% Share"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 32,
+  "cells_passed": 28,
+  "failures": [
+   "col 12 'TOTAL (STATES)': printed 471184, sum 471050",
+   "col 12 'TOTAL (UTs)': printed 10621, sum 10494",
+   "col 13 'TOTAL (STATES)': printed 485365, sum 498765",
+   "col 13 'TOTAL (UTs)': printed 11397, sum 24007"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

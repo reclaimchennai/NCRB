@@ -1,0 +1,54 @@
+{
+ "table_id": "cii/1983/23_table-41-1983",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "23",
+ "title": "Juveniles Apprehended (by Sex) for committing Crimes under Local & Special Laws",
+ "listing_title": "Juveniles Apprehended (by Sex) for committing Crimes under Local & Special Laws",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-41-1983.pdf",
+ "source_sha256": "f8b815e2f8c4fc0142a4d1a216ebb78c5c1ef5501b0214a5d90bb90b63de24ee",
+ "table_no": "",
+ "pdf_title": "Juveniles Apprehended (By Sex) for Committing crimes under Local & Special Laws",
+ "row_label": "States/U.Ts. [Cities NI. No. STATES Andhra Pradeshs 1 2 / States/U.Ts. [Cities » % “Assam @ 8 4 « / Boys 1,566 444 som",
+ "pages": [
+  1
+ ],
+ "n_rows": 40,
+ "n_cols": 2,
+ "n_cells": 69,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "Girls 345 - 4 «",
+   "header": [
+    "Girls 345 - 4 «"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total 1,911 « 448 6",
+   "header": [
+    "Total 1,911 « 448 6"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 6703, sum 6354"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,107 @@
+{
+ "table_id": "cii/1992/60_table-60-1992-survey",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "60",
+ "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992 (State, UT & City-wise) Dacoity",
+ "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992 (State, UT & City-wise) Dacoity",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-60-1992-survey.pdf",
+ "source_sha256": "7c27c3f338c62898c5ecf3ea89d3944265f96657b0ad5fe141bcdd53798f6bfe",
+ "table_no": "60",
+ "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1992 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO. / DACOITY STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 58,
+ "n_cols": 8,
+ "n_cells": 438,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "DACOITY | RESIDENTIAL PREMISES | NUMBER",
+   "header": [
+    "DACOITY",
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DACOITY | RESIDENTIAL PREMISES | VALUE",
+   "header": [
+    "DACOITY",
+    "RESIDENTIAL PREMISES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "DACOITY | HIGHWAYS NUMBER",
+   "header": [
+    "DACOITY",
+    "HIGHWAYS NUMBER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "DACOITY | VALUE",
+   "header": [
+    "DACOITY",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "DACOITY | RIVER NUMBER",
+   "header": [
+    "DACOITY",
+    "RIVER NUMBER"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "DACOITY | & VALUE",
+   "header": [
+    "DACOITY",
+    "& VALUE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "(Rs. SEA NUMBER",
+   "header": [
+    "(Rs. SEA NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "in lakh) RAILWAYS VALUE",
+   "header": [
+    "in lakh) RAILWAYS VALUE"
+   ]
+  }
+ ],
+ "notes": [
+  "36—526 NCRB/94."
+ ],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 7,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 6510, sum 6512"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

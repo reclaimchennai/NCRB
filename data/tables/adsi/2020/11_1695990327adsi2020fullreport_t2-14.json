@@ -1,0 +1,75 @@
+{
+ "table_id": "adsi/2020/11_1695990327adsi2020fullreport_t2-14",
+ "publication": "adsi",
+ "year": 2020,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2020",
+ "serial": "11",
+ "title": "Distribution of Mass/Family Suicides during 2020 (State/UT-wise)",
+ "listing_title": "Download full report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1695990327ADSI2020FullReport.pdf",
+ "source_file": "raw/adsi/2020/year_wise/1695990327ADSI2020FullReport.pdf",
+ "source_sha256": "fec65de4b83f2cbdcbfcfa82d29b1f8ee8e1d9fa38e9347f23092a1663aeb24c",
+ "table_no": "2.14",
+ "pdf_title": "Distribution of Mass/Family Suicides during 2020 (State/UT-wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  291,
+  292
+ ],
+ "n_rows": 93,
+ "n_cols": 4,
+ "n_cells": 372,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Cases",
+   "header": [
+    "Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Married",
+   "header": [
+    "Married"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Un-Married",
+   "header": [
+    "Un-Married"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  "Col. 6 = Col. 4 + Col. 5",
+  "• As per data provided by States/UTs."
+ ],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 0, sum 242",
+   "col 4 'TOTAL (UTs)': printed 0, sum 296",
+   "col 5 'TOTAL (UTs)': printed 0, sum 248",
+   "col 6 'TOTAL (UTs)': printed 0, sum 544"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

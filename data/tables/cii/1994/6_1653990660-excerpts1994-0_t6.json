@@ -1,0 +1,93 @@
+{
+ "table_id": "cii/1994/6_1653990660-excerpts1994-0_t6",
+ "publication": "cii",
+ "year": 1994,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 1994",
+ "serial": "6",
+ "title": "~~\" Set-up of Police in States & UTs as on 1.1.95",
+ "listing_title": "Excerpts",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653990660_EXCERPTS1994_0.pdf",
+ "source_file": "raw/cii/1994/year_wise/1653990660_EXCERPTS1994_0.pdf",
+ "source_sha256": "526e80236fd3d4712301c767fae1a5d49cecd5e61c8f805acb80187e903918e3",
+ "table_no": "",
+ "pdf_title": "~~\" Set-up of Police in States & UTs as on 1.1.95",
+ "row_label": "Sl. State/UT No. Qa)",
+ "pages": [
+  11,
+  12
+ ],
+ "n_rows": 44,
+ "n_cols": 6,
+ "n_cells": 209,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "Range Q)",
+   "header": [
+    "Range Q)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Distt.",
+   "header": [
+    "Distt."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Sub-Div.",
+   "header": [
+    "Sub-Div."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Police Circle Station",
+   "header": [
+    "Police Circle Station"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "of Police Stations Rural",
+   "header": [
+    "of Police Stations Rural"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Total Urban",
+   "header": [
+    "Total Urban"
+   ]
+  }
+ ],
+ "notes": [
+  "Source: ‘Data on Police Grsanisaiior s in India’ - of Pol ce Research & Devetoumen",
+  "Note: Figures for Tamil Nadu and West Bengal States are as on 1.1.94.",
+  "Source: ‘Data on Police Gryanisaitons in India’ - Bureau of Police Research &",
+  "Note: 1. Figures for Tamil Nadu and West Rengal Statee are as on 1.1.94.",
+  "2..N.A. indicates Rural/Urhas available."
+ ],
+ "checks": {
+  "cells_checked": 18,
+  "cells_passed": 13,
+  "failures": [
+   "col 4 'TOTAL (States)': printed 545, sum 542",
+   "col 10001 'TOTAL (States)': printed 3114, sum 2421",
+   "col 10001 'TOTAL (UTs)': printed 137, sum 111",
+   "col 10002 'TOTAL (States)': printed 11444, sum 7908",
+   "col 10002 'TOTAL (UTs)': printed 175, sum 125"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

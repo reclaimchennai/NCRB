@@ -1,0 +1,76 @@
+{
+ "table_id": "adsi/2022/2-5_1702020334table214state-ut-city",
+ "publication": "adsi",
+ "year": 2022,
+ "listing": "table_content",
+ "topic": "Suicides in India",
+ "section": "Chapter - 2 -- Suicides in India",
+ "serial": "2.5",
+ "title": "Cause – wise Distribution of Suicides during 2022 (All India)",
+ "listing_title": "Cause – wise Distribution of Suicides during 2022 (All India)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702020334Table214state-ut-city.pdf",
+ "source_file": "raw/adsi/2022/table_content/1702020334Table214state-ut-city.pdf",
+ "source_sha256": "82b4060e57632d02b3a1d7e82d0c419cf64ba7c343809e1ad3fdc2fa1e488c9b",
+ "table_no": "2.14",
+ "pdf_title": "Distribution of Mass/Family Suicides during 2022 (State/UT-wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 93,
+ "n_cols": 4,
+ "n_cells": 372,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Cases",
+   "header": [
+    "Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Married",
+   "header": [
+    "Married"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Un-Married",
+   "header": [
+    "Un-Married"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  "Col. 6 = Col. 4 + Col. 5",
+  "• As per data provided by States/UTs.",
+  "‘+’ Earlier ALLAHABAD"
+ ],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 0, sum 300",
+   "col 4 'TOTAL (UTs)': printed 0, sum 444",
+   "col 5 'TOTAL (UTs)': printed 0, sum 206",
+   "col 6 'TOTAL (UTs)': printed 0, sum 650"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+ "table_id": "cii/1999/78_table-78-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "78",
+ "title": "Disposal of Persons Arrested Under SLL Crimes by Courts During 1999 (State & UT-Wise)",
+ "listing_title": "Disposal of Persons Arrested Under SLL Crimes by Courts During 1999 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-78-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-78-1999.pdf",
+ "source_sha256": "094c9d27ad217137861ca7da405ec32427073cfdc1f447517d6d5d1580b3270b",
+ "table_no": "78",
+ "pdf_title": "DISPOSAL OF PEKSONS AKKENTED UNDER SLL CRIMES BY COURTS DURING 1999 (STATE & UT - WISE)",
+ "row_label": "SL.NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 5,
+ "n_cells": 163,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "STATE/UT TOTALNO, DRAWN FROM PREVIOUS YEAR",
+   "header": [
+    "STATE/UT TOTALNO, DRAWN FROM PREVIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "NUMBER",
+   "header": [
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": ") WHOSE",
+   "header": [
+    ") WHOSE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF",
+   "header": [
+    "NO. OF"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  }
+ ],
+ "notes": [
+  "Te: 7 885 wis 3s 0.0.",
+  "1655 NCRB/2001—27A"
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 2,
+  "failures": [
+   "col 2 'TOTAL (UTs)': printed 80170, sum 80159",
+   "col 4 'TOTAL (UTs)': printed 10672, sum 8949"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

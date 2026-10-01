@@ -1,0 +1,91 @@
+{
+ "table_id": "cii/2001/4_table85-3-2001",
+ "publication": "cii",
+ "year": 2001,
+ "listing": "table_content",
+ "topic": "Police Casualties",
+ "section": "Police Casualties",
+ "serial": "4",
+ "title": "Age-group-wise natural deaths of police personnel and suicides committed by them (State, UT & City-wise)",
+ "listing_title": "Age-group-wise natural deaths of police personnel and suicides committed by them (State, UT & City-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table85-3-2001.pdf",
+ "source_file": "raw/cii/2001/table_content/table85-3-2001.pdf",
+ "source_sha256": "4cbf380e880a5d251bdf4a899a83a11e75d0cc13efc0e3c14d6f03248d10fc93",
+ "table_no": "85B",
+ "pdf_title": "Age-Group-Wise Natural Deaths Of Police Personnel And Suicides Committed By Them During 2001",
+ "row_label": "SL. STATE/UT NO.",
+ "pages": [
+  1,
+  1,
+  2
+ ],
+ "n_rows": 74,
+ "n_cols": 6,
+ "n_cells": 444,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE | 18-25 YEARS 25-35 YEARS 35-45 YEARS (3)",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE",
+    "18-25 YEARS 25-35 YEARS 35-45 YEARS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE | 18-25 YEARS 25-35 YEARS 35-45 YEARS (4)",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE",
+    "18-25 YEARS 25-35 YEARS 35-45 YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE | 18-25 YEARS 25-35 YEARS 35-45 YEARS (5)",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE",
+    "18-25 YEARS 25-35 YEARS 35-45 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE | 45-55 YEARS",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE",
+    "45-55 YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE | ABOVE 55 YEARS",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE",
+    "ABOVE 55 YEARS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE | TOTAL (COL.3 TO 7)",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED DUE TO NATURAL DEATH WHILE IN SERVICE",
+    "TOTAL (COL.3 TO 7)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 36,
+  "cells_passed": 34,
+  "failures": [
+   "col 7 'TOTAL (UTs)': printed 1, sum 0",
+   "col 8 'TOTAL (UTs)': printed 6, sum 5"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

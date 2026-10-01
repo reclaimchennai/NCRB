@@ -1,0 +1,82 @@
+{
+ "table_id": "cii/1992/66_table-66-1992-survey",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "66",
+ "title": "Persons Killed or Injured under Police Firing During 1992 (State, UT & City-wise)",
+ "listing_title": "Persons Killed or Injured under Police Firing During 1992 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-66-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-66-1992-survey.pdf",
+ "source_sha256": "00d5a9d9d87377b1cea07a4671852b691f94c03a7f77ea40bab4a6e23210cbb9",
+ "table_no": "66",
+ "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1992",
+ "row_label": "SL. No. / STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 58,
+ "n_cols": 5,
+ "n_cells": 263,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(STATE,UT NO. OCCASIONS OF FIRING",
+   "header": [
+    "(STATE,UT NO. OCCASIONS OF FIRING"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "& OF POLICE",
+   "header": [
+    "& OF POLICE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CITY-WISE) CIVILIANS KILLED",
+   "header": [
+    "CITY-WISE) CIVILIANS KILLED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "POLICEMEN | INJURED",
+   "header": [
+    "POLICEMEN",
+    "INJURED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POLICEMEN | KILLED INJURED",
+   "header": [
+    "POLICEMEN",
+    "KILLED INJURED"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: NR stands for data not received."
+ ],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 4232, sum 4181",
+   "col 5 'TOTAL (STATES)': printed 3488, sum 3482",
+   "col 6 'TOTAL (STATES)': printed 309, sum 312"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

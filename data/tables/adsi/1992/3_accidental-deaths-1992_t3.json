@@ -1,0 +1,131 @@
+{
+ "table_id": "adsi/1992/3_accidental-deaths-1992_t3",
+ "publication": "adsi",
+ "year": 1992,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1992",
+ "serial": "3",
+ "title": "COMPARISON OF DEATH RATES AND ACCIDENTAL DEATH RATES",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1992.pdf",
+ "source_file": "raw/adsi/1992/year_wise/accidental-deaths-1992.pdf",
+ "source_sha256": "438d373cb515809dfb05c6a5b51014e3e668719cbd1596e8d1d8051d583e280c",
+ "table_no": "3",
+ "pdf_title": "COMPARISON OF DEATH RATES AND ACCIDENTAL DEATH RATES",
+ "row_label": "Si. No. - / Of Causes of Accidental Deaths",
+ "pages": [
+  13,
+  15,
+  17,
+  18,
+  22
+ ],
+ "n_rows": 105,
+ "n_cols": 10,
+ "n_cells": 462,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Deaths By Causes During 1992 Number of Accidental Deaths",
+   "header": [
+    "Deaths By Causes During 1992 Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Share of Each Cause",
+   "header": [
+    "Share of Each Cause"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Deaths Due to During 1991 and 1992 (State & UT- wise) Total Registered Motor Vehicie» as on 31.3.92*",
+   "header": [
+    "Deaths Due to During 1991 and 1992 (State & UT- wise) Total Registered Motor Vehicie» as on 31.3.92*"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "*2SSt=-t= | No. of deaths due to M.V. Accidents in 1992",
+   "header": [
+    "*2SSt=-t=",
+    "No. of deaths due to M.V. Accidents in 1992"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "*2SSt=-t= | Rate** of Accidental Deaths in 1991",
+   "header": [
+    "*2SSt=-t=",
+    "Rate** of Accidental Deaths in 1991"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "N.C.R.B.- 35 Rate** of Deaths in 1992",
+   "header": [
+    "N.C.R.B.- 35 Rate** of Deaths in 1992"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "ACCICENTAI. DEATHS & SUICIDES IN INDIA - 1992 | TABLE - 4 (State & UT-wise) Incidence 1991",
+   "header": [
+    "ACCICENTAI. DEATHS & SUICIDES IN INDIA - 1992",
+    "TABLE - 4 (State & UT-wise) Incidence 1991"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Of Acciventa: Deaths During 1991 And 1992 1992",
+   "header": [
+    "Of Acciventa: Deaths During 1991 And 1992 1992"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "N.C.R.B.- 17 Percentage Variation in 1992 over",
+   "header": [
+    "N.C.R.B.- 17 Percentage Variation in 1992 over"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "DURING 1985-1992 (ALL-INDIA) | Year",
+   "header": [
+    "DURING 1985-1992 (ALL-INDIA)",
+    "Year"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Percentage less than 0.05 is also shown as 0.0",
+  "* - Source: Transport Research Division, Ministry of Surface Transport, New Delhi.",
+  "** - Rate No. of Deaths per thousand of Motor Vehicles - >5:=7=2.",
+  "R - Figures of 1991 repeated for 1992 on account of non-availability of data.",
+  "* - Data Compilation started from 1°50 22% tly.",
+  "NR - Data not received.",
+  "* Source: Registrar General of India, Ministry of Home Affairs, New Delhi.",
+  "# Excluding Jammu & Kashmir.",
+  "(P) Provisional Figures."
+ ],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 3,
+  "failures": [
+   "col 10001 'TOTAL (States)': printed 181784, sum 152947",
+   "col 10001 'TOTAL (UTs)': printed 6219, sum 339",
+   "col 10002 'TOTAL (States)': printed 188802, sum 130736",
+   "col 10002 'TOTAL (UTs)': printed 6108, sum 307"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 5,
+ "warnings": []
+}

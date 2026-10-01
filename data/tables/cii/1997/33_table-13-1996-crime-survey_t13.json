@@ -1,0 +1,158 @@
+{
+ "table_id": "cii/1997/33_table-13-1996-crime-survey_t13",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "33",
+ "title": "INCIDENCE AND RATE OF VIOLENT CRIMES DURING 1997",
+ "listing_title": "Incidence and Rate of Violent Crimes During 1997",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-13-1996-crime-survey.pdf",
+ "source_sha256": "0f960ec8701075bc8331a6be0258daabb11675bd86e978124d23bf78b92b9ab8",
+ "table_no": "13",
+ "pdf_title": "INCIDENCE AND RATE OF VIOLENT CRIMES DURING 1997",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 48,
+ "n_cols": 15,
+ "n_cells": 512,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ATTEMPT TO COMMIT MURDER",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "C.H. NOT AMOUNTING TO MURDER",
+   "header": [
+    "C.H. NOT AMOUNTING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING AND ABDUCTION",
+   "header": [
+    "KIDNAPPING AND ABDUCTION"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOITY",
+   "header": [
+    "PREPARATION AND ASSEMBLY FOR DACOITY"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "ROBBERY (2)",
+   "header": [
+    "ROBBERY (2)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "RIOTS (10)",
+   "header": [
+    "RIOTS (10)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "ARSON (11)",
+   "header": [
+    "ARSON (11)"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "PERCENT | DOWRY DEATHS (12)",
+   "header": [
+    "PERCENT",
+    "DOWRY DEATHS (12)"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "PERCENT | TOTAL VIOLENT CRIMES (13)",
+   "header": [
+    "PERCENT",
+    "TOTAL VIOLENT CRIMES (13)"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "PERCENT | AGE SHARE TO ALL INDIA CRIMES (14)",
+   "header": [
+    "PERCENT",
+    "AGE SHARE TO ALL INDIA CRIMES (14)"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "PERCENT | CRIME RATE OF VIOLENT (15)",
+   "header": [
+    "PERCENT",
+    "CRIME RATE OF VIOLENT (15)"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "PERCENT | PERCENT AGE TO TOTAL CRIMES UNDER Ipc (16) 17),",
+   "header": [
+    "PERCENT",
+    "PERCENT AGE TO TOTAL CRIMES UNDER Ipc (16) 17),"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 19,
+  "cells_passed": 9,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 36892, sum 36887",
+   "col 4 'TOTAL (STATES)': printed 28748, sum 28738",
+   "col 6 'TOTAL (UTs)': printed 569, sum 15330",
+   "col 8 'TOTAL (STATES)': printed 7814, sum 7777",
+   "col 10001 'TOTAL (STATES)': printed 21499, sum 17289",
+   "col 10001 'TOTAL (UTs)': printed 642, sum 10",
+   "col 10002 'TOTAL (STATES)': printed 91401, sum 62882",
+   "col 10002 'TOTAL (UTs)': printed 411, sum 125"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

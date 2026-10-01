@@ -1,0 +1,108 @@
+{
+ "table_id": "cii/1983/35_table-59-1983",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "35",
+ "title": "Strength of Armed Police as on 31.12.1983",
+ "listing_title": "Strength of Armed Police as on 31.12.1983",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-59-1983.pdf",
+ "source_sha256": "992e0b58d2305b1774a72ffde17e21143e268508a3259dfca072bb7835a5bf46",
+ "table_no": "",
+ "pdf_title": "Taste 59—conid",
+ "row_label": "Sl. States/U.Ts. /Cities No. STATES",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 69,
+ "n_cols": 10,
+ "n_cells": 436,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "10001",
+   "name": "No. of | No. of pra L.G.P./D.L.G./ SP.",
+   "header": [
+    "No. of",
+    "No. of pra L.G.P./D.L.G./ SP."
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "No. of | No. of A.8S.P./ Dy. 8.P.",
+   "header": [
+    "No. of",
+    "No. of A.8S.P./ Dy. 8.P."
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "No. of | A.",
+   "header": [
+    "No. of",
+    "A."
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "No. of | No. of officers below 8.1.",
+   "header": [
+    "No. of",
+    "No. of officers below 8.1."
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 0,
+  "failures": [
+   "col 10001 'TOTAL (U.Ts)': printed 83, sum 28",
+   "col 10003 'TOTAL (U.Ts)': printed 3531, sum 584",
+   "col 10004 'TOTAL (U.Ts)': printed 38187, sum 10075",
+   "col 10005 'TOTAL (U.Ts)': printed 41982, sum 10732"
+  ],
+  "other_totals_checked": 9,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

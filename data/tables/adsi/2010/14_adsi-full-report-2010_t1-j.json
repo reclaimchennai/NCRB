@@ -1,0 +1,81 @@
+{
+ "table_id": "adsi/2010/14_adsi-full-report-2010_t1-j",
+ "publication": "adsi",
+ "year": 2010,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2010",
+ "serial": "14",
+ "title": "Incidence and Rate of Deaths due to Road Accidents during 2009 (State/UT wise)",
+ "listing_title": "Download full report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/adsi-full-report-2010.pdf",
+ "source_file": "raw/adsi/2010/year_wise/adsi-full-report-2010.pdf",
+ "source_sha256": "18ea02d071ef9d07f540d92c1a0e7d12b38f5f7e3a5b0b78c9647bdee7a482fa",
+ "table_no": "1(J)",
+ "pdf_title": "Incidence and Rate of Deaths due to Road Accidents during 2009 (State/UT wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  314
+ ],
+ "n_rows": 38,
+ "n_cols": 5,
+ "n_cells": 190,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "No. of cases of Road Accidents",
+   "header": [
+    "No. of cases of Road Accidents"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Total Registered Motor Vehicles 31.03.2008# as on (in 000’)",
+   "header": [
+    "Total Registered Motor Vehicles 31.03.2008# as on (in 000’)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Rate of | No. of deaths due to Road Accidents in 2009",
+   "header": [
+    "Rate of",
+    "No. of deaths due to Road Accidents in 2009"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of | Accidental Deaths per 000’ vehicles (Col.5 / Col.4)",
+   "header": [
+    "Rate of",
+    "Accidental Deaths per 000’ vehicles (Col.5 / Col.4)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rate of | Rate of Deaths (Col.5/Col.3) ×100",
+   "header": [
+    "Rate of",
+    "Rate of Deaths (Col.5/Col.3) ×100"
+   ]
+  }
+ ],
+ "notes": [
+  "#",
+  "Source: for column 4 -‘Motor Transport Statistics of India’ report of Transport Research wing, Ministry of Road Transport &",
+  "Highways, New Delhi.",
+  "Note: For Column No.4, data of 2008 is repeated due to non-availability of 2009 data."
+ ],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 6,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

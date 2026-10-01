@@ -1,0 +1,88 @@
+{
+ "table_id": "adsi/1981/2_accidental-deaths-1981_tv",
+ "publication": "adsi",
+ "year": 1981,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1981",
+ "serial": "2",
+ "title": "Accidental Deaths in India",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1981.pdf",
+ "source_file": "raw/adsi/1981/year_wise/accidental-deaths-1981.pdf",
+ "source_sha256": "3adf7820dea238fb5be78546bb3a2a4f6ebc6c61fce692282a359f479e2af8a4",
+ "table_no": "V",
+ "pdf_title": "",
+ "row_label": "wise SI. No. / wise States/U.Ts./ Cities",
+ "pages": [
+  14,
+  15
+ ],
+ "n_rows": 49,
+ "n_cols": 5,
+ "n_cells": 201,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "oF Males iavolyid",
+   "header": [
+    "oF Males iavolyid"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Deaths by Sex During 1981 | %of Males to total",
+   "header": [
+    "Deaths by Sex During 1981",
+    "%of Males to total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Deaths by Sex During 1981 | Females involved",
+   "header": [
+    "Deaths by Sex During 1981",
+    "Females involved"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Deaths by Sex During 1981 | © to total",
+   "header": [
+    "Deaths by Sex During 1981",
+    "© to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total %of females",
+   "header": [
+    "Total %of females"
+   ]
+  }
+ ],
+ "notes": [
+  "Percent. While 23-9 percent of the total accidental deaths occuiied",
+  "in the age-group below 18 years, 13 -6 percent deaths were recorded in",
+  "the age group of above 50 years.",
+  "The disiribniion of accidental deaths according to age group in",
+  "the States as a whole.did not vary much from the all-India figures and",
+  "the distribution followed the same pattern in the Union Ter-",
+  "ritories and the Nictiopuiiian cities also."
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 79353, sum 79276",
+   "col 5 'TOTAL (States)': printed 38886, sum 38881"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

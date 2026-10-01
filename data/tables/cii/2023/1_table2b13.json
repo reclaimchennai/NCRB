@@ -1,0 +1,85 @@
+{
+ "table_id": "cii/2023/1_table2b13",
+ "publication": "cii",
+ "year": 2023,
+ "listing": "additional_table",
+ "topic": "Murder (34 Metropolitan Cities)",
+ "section": "Murder (34 Metropolitan Cities)",
+ "serial": "1",
+ "title": "2B.1 Murder Cases (City-wise) - 2021-2023",
+ "listing_title": "2B.1 Murder Cases (City-wise) - 2021-2023",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/TABLE2B13.pdf",
+ "source_file": "raw/cii/2023/additional_table/TABLE2B13.pdf",
+ "source_sha256": "1a28c5487e210b2cd45cbf62b187093de596717a5dc49d3fa92137e4310842ae",
+ "table_no": "2B.1",
+ "pdf_title": "Murder Cases in Metropolitan Cities - 2021-2023",
+ "row_label": "SL / City",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 210,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "2021",
+   "header": [
+    "2021"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2022",
+   "header": [
+    "2022"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2023",
+   "header": [
+    "2023"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Actual Population (in Lakhs) (2011)+",
+   "header": [
+    "Actual Population (in Lakhs) (2011)+"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rate of Murder (2023)",
+   "header": [
+    "Rate of Murder (2023)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Chargesheeti ng Rate (2023)",
+   "header": [
+    "Chargesheeti ng Rate (2023)"
+   ]
+  }
+ ],
+ "notes": [
+  "‘+' Crime Rate is calculated as per one lakh of population TABLE 2B.1 Page 1 of 1",
+  "● Population Source : Registrar General of India Actual Population based on 2011 Census.",
+  "● As per data provided by States/UTs",
+  "● States/UTs/Cities may not be compared purely on the basis of crime figures"
+ ],
+ "checks": {
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

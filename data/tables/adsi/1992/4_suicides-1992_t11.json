@@ -1,0 +1,223 @@
+{
+ "table_id": "adsi/1992/4_suicides-1992_t11",
+ "publication": "adsi",
+ "year": 1992,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1992",
+ "serial": "4",
+ "title": "Df Suicides Ry Sex And 45=-%-=== During 1992",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1992.pdf",
+ "source_file": "raw/adsi/1992/year_wise/suicides-1992.pdf",
+ "source_sha256": "558adfcc59560ec2cc427e8d060f06e2340c68d0482225d634e726b709eedb70",
+ "table_no": "11",
+ "pdf_title": "Df Suicides Ry Sex And 45=-%-=== During 1992",
+ "row_label": "(State & UT-wise) Si. No. / (State & UT-wise) State/UT",
+ "pages": [
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "n_rows": 74,
+ "n_cols": 21,
+ "n_cells": 1092,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(State & UT-wise) | Male (3)",
+   "header": [
+    "(State & UT-wise)",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(State & UT-wise) | Below 18 )'ears | Female",
+   "header": [
+    "(State & UT-wise)",
+    "Below 18 )'ears",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(State & UT-wise) | Below 18 )'ears | Total",
+   "header": [
+    "(State & UT-wise)",
+    "Below 18 )'ears",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(State & UT-wise) | To Total Suicides",
+   "header": [
+    "(State & UT-wise)",
+    "To Total Suicides"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(State & UT-wise) | Male (7)",
+   "header": [
+    "(State & UT-wise)",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "(State & UT-wise) | 18 - 30 Years Female",
+   "header": [
+    "(State & UT-wise)",
+    "18 - 30 Years Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "(State & UT-wise) | Total",
+   "header": [
+    "(State & UT-wise)",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "(State & UT-wise) | Forcemage To Total Suicides",
+   "header": [
+    "(State & UT-wise)",
+    "Forcemage To Total Suicides"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "30 - 50 Years | Male",
+   "header": [
+    "30 - 50 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "30 - 50 Years | Female",
+   "header": [
+    "30 - 50 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "30 - 50 Years | Total",
+   "header": [
+    "30 - 50 Years",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "30 - 50 Years | Percentage To Total Suicides",
+   "header": [
+    "30 - 50 Years",
+    "Percentage To Total Suicides"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "50 years Ani Above | Male",
+   "header": [
+    "50 years Ani Above",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "50 years Ani Above | Female",
+   "header": [
+    "50 years Ani Above",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "50 years Ani Above | Total",
+   "header": [
+    "50 years Ani Above",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "50 years Ani Above | Percentage To Total Suicides",
+   "header": [
+    "50 years Ani Above",
+    "Percentage To Total Suicides"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Total S jicides | Male",
+   "header": [
+    "Total S jicides",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Total S jicides | Female",
+   "header": [
+    "Total S jicides",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Total S jicides | Total",
+   "header": [
+    "Total S jicides",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Total S jicides | Percentage of Male",
+   "header": [
+    "Total S jicides",
+    "Percentage of Male"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Percentage of Female",
+   "header": [
+    "Percentage of Female"
+   ]
+  }
+ ],
+ "notes": [
+  "Note 1. 18-30 year means 18 years and above but below 30 years of age etc.",
+  "2. NR - Data not received."
+ ],
+ "checks": {
+  "cells_checked": 31,
+  "cells_passed": 23,
+  "failures": [
+   "col 11 'TOTAL (States)': printed 16747, sum 12855",
+   "col 11 'TOTAL (UTs)': printed 385, sum 199",
+   "col 12 'TOTAL (UTs)': printed 136, sum 88",
+   "col 13 'TOTAL (States)': printed 25034, sum 27153",
+   "col 19 'TOTAL (States)': printed 46500, sum 41809",
+   "col 19 'TOTAL (UTs)': printed 981, sum 547",
+   "col 20 'TOTAL (States)': printed 32061, sum 28661",
+   "col 21 'TOTAL (States)': printed 78561, sum 70470"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 5,
+ "warnings": []
+}

@@ -1,0 +1,103 @@
+{
+ "table_id": "cii/1986/43_tabl44-1986",
+ "publication": "cii",
+ "year": 1986,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "43",
+ "title": "Disposal of Juveniles Sent to Courts During 1986",
+ "listing_title": "Disposal of Juveniles Sent to Courts During 1986",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl44-1986.pdf",
+ "source_file": "raw/cii/1986/table_content/tabl44-1986.pdf",
+ "source_sha256": "96a30091e57b2e037ae5e63ea6062390dea51bd35557d60a6dc4dc080f115d2d",
+ "table_no": "44",
+ "pdf_title": "Disposal Of Juveniles Sent To Courts During 1986",
+ "row_label": "SI. States/U.Ts./Cities No. / SI. States/U.Ts./Cities",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 59,
+ "n_cols": 8,
+ "n_cells": 363,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Juveniles sentto courts",
+   "header": [
+    "Juveniles sentto courts"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Restoredto guardians",
+   "header": [
+    "Restoredto guardians"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "On Probation",
+   "header": [
+    "On Probation"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Sentto Reformato-",
+   "header": [
+    "Sentto Reformato-"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Sentto Schools & Institutions",
+   "header": [
+    "Sentto Schools & Institutions"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Sent to Adult Institutions",
+   "header": [
+    "Sent to Adult Institutions"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Imprisoned",
+   "header": [
+    "Imprisoned"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Pending Acquitted or disposal otherwise disposed off",
+   "header": [
+    "Pending Acquitted or disposal otherwise disposed off"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 17,
+  "cells_passed": 10,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 146987, sum 146435",
+   "col 3 'TOTAL (CITIES)': printed 39917, sum 39887",
+   "col 8 'TOTAL (STATES)': printed 4039, sum 692",
+   "col 8 'TOTAL (CITIES)': printed 3385, sum 3381",
+   "col 9 'TOTAL (STATES)': printed 22577, sum 14211",
+   "col 9 'TOTAL (CITIES)': printed 12699, sum 11095",
+   "col 10 'TOTAL (CITIES)': printed 2.45318e+08, sum 9.27355e+06"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

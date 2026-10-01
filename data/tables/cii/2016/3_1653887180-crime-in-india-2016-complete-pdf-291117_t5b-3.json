@@ -1,0 +1,135 @@
+{
+ "table_id": "cii/2016/3_1653887180-crime-in-india-2016-complete-pdf-291117_t5b-3",
+ "publication": "cii",
+ "year": 2016,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 2016",
+ "serial": "3",
+ "title": "SLL Crimes - Juvenile In Conflict With Law in Metropolitan Cities - 2016",
+ "listing_title": "Message - Director General BPR&D",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653887180_Crime in India - 2016 Complete PDF 291117.pdf",
+ "source_file": "raw/cii/2016/year_wise/1653887180_Crime in India - 2016 Complete PDF 291117.pdf",
+ "source_sha256": "e23f9c0c06c3fe11a453714b3a5880bb673ab3d31c5e10568a93a0496346ee31",
+ "table_no": "5B.3",
+ "pdf_title": "SLL Crimes - Juvenile In Conflict With Law in Metropolitan Cities - 2016",
+ "row_label": "S. City No",
+ "pages": [
+  299
+ ],
+ "n_rows": 22,
+ "n_cols": 12,
+ "n_cells": 255,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Juvenile Justice (Care And Prot.of Chil-dren)",
+   "header": [
+    "Juvenile Justice (Care And Prot.of Chil-dren)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Narcotic Drugs & Psychotropic Substanc es Act,",
+   "header": [
+    "Narcotic Drugs & Psychotropic Substanc es Act,"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Gambling Act, 1867",
+   "header": [
+    "Gambling Act, 1867"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Arms Act, 1959",
+   "header": [
+    "Arms Act, 1959"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Excise Act, 1944",
+   "header": [
+    "Excise Act, 1944"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Prohibition Act (State)",
+   "header": [
+    "Prohibition Act (State)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Information Technology Act,",
+   "header": [
+    "Information Technology Act,"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Prevention of Damage to Public Property",
+   "header": [
+    "Prevention of Damage to Public Property"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "SC/ST (POA) Act, 1989",
+   "header": [
+    "SC/ST (POA) Act, 1989"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Other SLL Crimes *",
+   "header": [
+    "Other SLL Crimes *"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Total Cognizable SLL Crimes",
+   "header": [
+    "Total Cognizable SLL Crimes"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Total Crimes (IPC+ SLL)",
+   "header": [
+    "Total Crimes (IPC+ SLL)"
+   ]
+  }
+ ],
+ "notes": [
+  "Note : i) No cases registered under Explosives & Explosive Substances Act, 1884 & 1908, TABLE 5B.3 Page 1 of 1",
+  "Indian Railways Act,1989",
+  "* ii) Other SLL may includes cases under MV Act (FIR Registered Cases), POCSO Act and Local Police Act etc."
+ ],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL CITIES': printed 7, sum 2010",
+   "col 3 'TOTAL CITIES': printed 63, sum 71",
+   "col 4 'TOTAL CITIES': printed 39, sum 45",
+   "col 5 'TOTAL CITIES': printed 38, sum 42",
+   "col 6 'TOTAL CITIES': printed 24, sum 29",
+   "col 7 'TOTAL CITIES': printed 12, sum 19",
+   "col 8 'TOTAL CITIES': printed 5, sum 2014",
+   "col 9 'TOTAL CITIES': printed 1, sum 1995"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 0,
+ "warnings": []
+}

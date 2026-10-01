@@ -1,0 +1,100 @@
+{
+ "table_id": "cii/2016/2_1653887079-crime-in-india-2016-complete-pdf-291117_t10-2",
+ "publication": "cii",
+ "year": 2016,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 2016",
+ "serial": "2",
+ "title": "Offences against the State (IPC & SLL) - 2016",
+ "listing_title": "Message - Home Secretary",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653887079_Crime in India - 2016 Complete PDF 291117.pdf",
+ "source_file": "raw/cii/2016/year_wise/1653887079_Crime in India - 2016 Complete PDF 291117.pdf",
+ "source_sha256": "e23f9c0c06c3fe11a453714b3a5880bb673ab3d31c5e10568a93a0496346ee31",
+ "table_no": "10.2",
+ "pdf_title": "Offences against the State (IPC & SLL) - 2016",
+ "row_label": "S. No / State/UT",
+ "pages": [
+  507
+ ],
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 274,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "IPC | Offences Against State (Section 121, 121A, 122, 123, 124-A IPC)",
+   "header": [
+    "IPC",
+    "Offences Against State (Section 121, 121A, 122, 123, 124-A IPC)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "IPC | Imputation, Assertions Prejudicial To National Integration (Section 153B IPC)",
+   "header": [
+    "IPC",
+    "Imputation, Assertions Prejudicial To National Integration (Section 153B IPC)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "IPC | Total IPC Offences against State (Col.3+ Col.4)",
+   "header": [
+    "IPC",
+    "Total IPC Offences against State (Col.3+ Col.4)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "SLL | Prevention of Damage to Public Property",
+   "header": [
+    "SLL",
+    "Prevention of Damage to Public Property"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "SLL | Unlawful Activities (Prevention) Act, 1967",
+   "header": [
+    "SLL",
+    "Unlawful Activities (Prevention) Act, 1967"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "SLL | Official Secrets Act, 1923",
+   "header": [
+    "SLL",
+    "Official Secrets Act, 1923"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "SLL | Total Total SLL* Offences Offences Against the against State State (IPC+SLL) (Col.6+Col.7 +Col.8) 10=(Col.5+",
+   "header": [
+    "SLL",
+    "Total Total SLL* Offences Offences Against the against State State (IPC+SLL) (Col.6+Col.7 +Col.8) 10=(Col.5+"
+   ]
+  }
+ ],
+ "notes": [
+  "Note : * Cases under National Security Act, 1980 have been excluded as no FIRs are registered (Only Preventive Detention). Table 10.2 Page 1 of 1"
+ ],
+ "checks": {
+  "cells_checked": 18,
+  "cells_passed": 15,
+  "failures": [
+   "col 9 'TOTAL STATE(S)': printed 6.74069e+07, sum 4.67728e+07",
+   "col 9 'TOTAL UT(S)': printed 3739, sum 2209",
+   "col 9 'TOTAL (ALL INDIA)': printed 6.7777e+07, sum 6.74107e+07"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,192 @@
+{
+ "table_id": "cii/2016/5_district-wise-crimes-committed-against-women-2016_t1",
+ "publication": "cii",
+ "year": 2016,
+ "listing": "additional_table",
+ "topic": "District Wise Reports",
+ "section": "District Wise Reports",
+ "serial": "5",
+ "title": "District-wise Crimes committed against Women",
+ "listing_title": "District-wise Crimes committed against Women_2016",
+ "method": "excel",
+ "sheet": "District Data Report",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/District-wise-Crimes-committed-against-Women_2016.xlsx",
+ "source_file": "raw/cii/2016/additional_table/District-wise-Crimes-committed-against-Women_2016.xlsx",
+ "source_sha256": "15ac23feaa891c86486c5d4423796079c2e8ef93e4bd5d970f26e619ea887c00",
+ "table_no": "",
+ "pdf_title": "District-wise Crimes committed against Women",
+ "row_label": "SL / District",
+ "pages": [],
+ "n_rows": 21,
+ "n_cols": 22,
+ "n_cells": 441,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "YEAR",
+   "header": [
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Rape",
+   "header": [
+    "Rape"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Attempt to commit Rape",
+   "header": [
+    "Attempt to commit Rape"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Kidnapping & Abduction_Total",
+   "header": [
+    "Kidnapping & Abduction_Total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Dowry Deaths",
+   "header": [
+    "Dowry Deaths"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Assault on Women with intent to outrage her Modesty_Total",
+   "header": [
+    "Assault on Women with intent to outrage her Modesty_Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Insult to the Modesty of Women_Total",
+   "header": [
+    "Insult to the Modesty of Women_Total"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Cruelty by Husband or his Relatives",
+   "header": [
+    "Cruelty by Husband or his Relatives"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Importation of Girls from Foreign Country",
+   "header": [
+    "Importation of Girls from Foreign Country"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Abetment of Suicides of Women",
+   "header": [
+    "Abetment of Suicides of Women"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Dowry Prohibition Act, 1961",
+   "header": [
+    "Dowry Prohibition Act, 1961"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Indecent Representation of Women (P) Act, 1986",
+   "header": [
+    "Indecent Representation of Women (P) Act, 1986"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Protection of Women from Domestic Violence Act, 2005",
+   "header": [
+    "Protection of Women from Domestic Violence Act, 2005"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Immoral Traffic Prevention Act",
+   "header": [
+    "Immoral Traffic Prevention Act"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Acid attack",
+   "header": [
+    "Acid attack"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Attempt to Acid Attack",
+   "header": [
+    "Attempt to Acid Attack"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Deaths caused with intent to cause miscarriage",
+   "header": [
+    "Deaths caused with intent to cause miscarriage"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Causing miscarriage without consent of women",
+   "header": [
+    "Causing miscarriage without consent of women"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "HumanTrafficking",
+   "header": [
+    "HumanTrafficking"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "UnNatural Offences",
+   "header": [
+    "UnNatural Offences"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Cyber Crimes against Women (Section 67A IT Act)",
+   "header": [
+    "Cyber Crimes against Women (Section 67A IT Act)"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "Total Crimes against Women",
+   "header": [
+    "Total Crimes against Women"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 20,
+  "cells_passed": 19,
+  "failures": [
+   "col 24 'Total District(s)': printed 16362, sum 16355"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

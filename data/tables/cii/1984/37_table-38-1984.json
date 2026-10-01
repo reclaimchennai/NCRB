@@ -1,0 +1,141 @@
+{
+ "table_id": "cii/1984/37_table-38-1984",
+ "publication": "cii",
+ "year": 1984,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "37",
+ "title": "Juveniles Apprehended under Important IPC Heads During 1984",
+ "listing_title": "Juveniles Apprehended under Important IPC Heads During 1984",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-38-1984.pdf",
+ "source_file": "raw/cii/1984/table_content/table-38-1984.pdf",
+ "source_sha256": "10f91f28e02ab2c89a373630f61f3bea5c880d6eed3f4d8c9c6ebb53eb52101c",
+ "table_no": "38",
+ "pdf_title": "Juveniles Assr=h=n2=2 Under Important IPC Heads During 1984",
+ "row_label": "STATES/UTs/CITIES SL. NO. «1)",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 69,
+ "n_cols": 13,
+ "n_cells": 607,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CULPARLE HOMICIDE NOT UNTING TO",
+   "header": [
+    "CULPARLE HOMICIDE NOT UNTING TO"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RAPE AMOMURDER",
+   "header": [
+    "RAPE AMOMURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "KIDNAPPING AND ABDUCTION",
+   "header": [
+    "KIDNAPPING AND ABDUCTION"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "col_8",
+   "header": []
+  },
+  {
+   "col_no": "9",
+   "name": "-",
+   "header": [
+    "-"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "THEFT",
+   "header": [
+    "THEFT"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "RIOTS",
+   "header": [
+    "RIOTS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "CHEATING | CRIMINAL BREACH OF",
+   "header": [
+    "CHEATING",
+    "CRIMINAL BREACH OF"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "CHEATING | TRUST",
+   "header": [
+    "CHEATING",
+    "TRUST"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "CHEATING | CUUNTERFELTING",
+   "header": [
+    "CHEATING",
+    "CUUNTERFELTING"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "TOTAL COGNT ZABLE CRIME IPC UNDER",
+   "header": [
+    "TOTAL COGNT ZABLE CRIME IPC UNDER"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 25,
+  "cells_passed": 9,
+  "failures": [
+   "col 7 'TOTAL (States)': printed 790, sum 472",
+   "col 7 'TOTAL (Cities)': printed 34, sum 25",
+   "col 8 'TOTAL (Cities)': printed 276, sum 284",
+   "col 9 'TOTAL (Cities)': printed 662, sum 750",
+   "col 10 'TOTAL (States)': printed 13751, sum 8520",
+   "col 10 'TOTAL (Cities)': printed 2499, sum 2463",
+   "col 41 'TOTAL (Cities)': printed 1589, sum 1078",
+   "col 12 'TOTAL (States)': printed 220, sum 90"
+  ],
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

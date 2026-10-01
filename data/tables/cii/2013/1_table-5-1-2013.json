@@ -1,0 +1,73 @@
+{
+ "table_id": "cii/2013/1_table-5-1-2013",
+ "publication": "cii",
+ "year": 2013,
+ "listing": "table_content",
+ "topic": "Crime Against Women",
+ "section": "Crime Against Women",
+ "serial": "1",
+ "title": "Incidence & Rate of Crime Committed Against Women (State, UT & City-wise)",
+ "listing_title": "Incidence & Rate of Crime Committed Against Women (State, UT & City-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/Table-5.1_2013.pdf",
+ "source_file": "raw/cii/2013/table_content/Table-5.1_2013.pdf",
+ "source_sha256": "4e5357a3bd5d61ceaf81db3166fce8179321ceb0994c90aa7fb8535d63578fe4",
+ "table_no": "5.1",
+ "pdf_title": "Incidence & Rate Of Crime Committed Against Women In States, UTs and Cities During 2013",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 92,
+ "n_cols": 4,
+ "n_cells": 368,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Incidence",
+   "header": [
+    "Incidence"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage Contribution To All-India Total",
+   "header": [
+    "Percentage Contribution To All-India Total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Female Population* (in lakh)",
+   "header": [
+    "Female Population* (in lakh)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate Of Total Cognizable Crimes (Col. 3/Col.5)",
+   "header": [
+    "Rate Of Total Cognizable Crimes (Col. 3/Col.5)"
+   ]
+  }
+ ],
+ "notes": [
+  "* Projected Mid-year Population of Female for the year 2013 is used (Source: RGI, MHA)",
+  "Rate of total cognizable crimes = (Incidence of crimes against women / population of women) x1,00,000 i.e. incidence of crime per one lakh",
+  "female population.",
+  "Female population figure of the population Census 2011 have been used due to non availability of mid year projected population of women for the year 2013",
+  "for those cities."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 4,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

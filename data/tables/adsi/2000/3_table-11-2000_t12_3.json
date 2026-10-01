@@ -1,0 +1,104 @@
+{
+ "table_id": "adsi/2000/3_table-11-2000_t12_3",
+ "publication": "adsi",
+ "year": 2000,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "3",
+ "title": "/Cantinuad__.)",
+ "listing_title": "Number of Persons Injured and Killed by Un-natural causes during 2000 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-11_2000.pdf",
+ "source_file": "raw/adsi/2000/table_content/table-11_2000.pdf",
+ "source_sha256": "72c871e3dc434aa01dcc8258a6b6e73414157636988a15518881a73d58a15c7f",
+ "table_no": "12",
+ "pdf_title": "/Cantinuad__.)",
+ "row_label": "Si. State/UT/City No. (1) States:",
+ "pages": [
+  45
+ ],
+ "n_rows": 56,
+ "n_cols": 8,
+ "n_cells": 397,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "No. of Cases (2)",
+   "header": [
+    "No. of Cases (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Not Known | No.iit (3)",
+   "header": [
+    "Not Known",
+    "No.iit (3)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Not Known | ‘Male (256)",
+   "header": [
+    "Not Known",
+    "‘Male (256)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Not Known | (257)",
+   "header": [
+    "Not Known",
+    "(257)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Not Known | No. of Total (258)",
+   "header": [
+    "Not Known",
+    "No. of Total (258)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Not Known | Male (289)",
+   "header": [
+    "Not Known",
+    "Male (289)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Not Known | tied Female (260)",
+   "header": [
+    "Not Known",
+    "tied Female (260)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Not Known | %Share to Total Deaths Total (261) (262)",
+   "header": [
+    "Not Known",
+    "%Share to Total Deaths Total (261) (262)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 2,
+  "failures": [
+   "col 2 'TOTAL (UTs)': printed 381, sum 30009",
+   "col 8 'TOTAL (UTs)': printed 385, sum 29705"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

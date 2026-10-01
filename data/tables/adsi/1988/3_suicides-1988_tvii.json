@@ -1,0 +1,88 @@
+{
+ "table_id": "adsi/1988/3_suicides-1988_tvii",
+ "publication": "adsi",
+ "year": 1988,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1988",
+ "serial": "3",
+ "title": "2.7.3. Appendices I & II relating to Accidental Deaths and III to VI relating to Suicides in India are also added in the end of the report",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1988.pdf",
+ "source_file": "raw/adsi/1988/year_wise/suicides-1988.pdf",
+ "source_sha256": "7ae2909a7369d00fab7afea8f5cce915689a30a254bb2e6da3089a281568e85a",
+ "table_no": "VII",
+ "pdf_title": "2.7.3. Appendices I & II relating to Accidental Deaths and III to VI relating to Suicides in India are also added in the end of the report",
+ "row_label": "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And Sl. No. / TABLE—VII Suicides Classified According To Sex And By States, Union Territories And Metropolitan Cities During The Year States/UTs/Cities",
+ "pages": [
+  14,
+  15
+ ],
+ "n_rows": 48,
+ "n_cols": 5,
+ "n_cells": 237,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And | Metropolitan Cities During The Year | Male",
+   "header": [
+    "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And",
+    "Metropolitan Cities During The Year",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And | Metropolitan Cities During The Year | % to total",
+   "header": [
+    "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And",
+    "Metropolitan Cities During The Year",
+    "% to total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And | Metropolitan Cities During The Year | Female",
+   "header": [
+    "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And",
+    "Metropolitan Cities During The Year",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And | 1988 % of Female to total",
+   "header": [
+    "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And",
+    "1988 % of Female to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And | Total",
+   "header": [
+    "TABLE—VII Suicides Classified According To Sex And By States, Union Territories And",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 687, sum 69729",
+   "col 3 'TOTAL (CITIES)': printed 2132, sum 1621",
+   "col 5 'TOTAL (UTs)': printed 555, sum 52454",
+   "col 5 'TOTAL (CITIES)': printed 2035, sum 2065",
+   "col 7 'TOTAL (UTs)': printed 1212, sum 216228"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

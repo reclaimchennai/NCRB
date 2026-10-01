@@ -1,0 +1,80 @@
+{
+ "table_id": "cii/1980/28_table-58-1980-0",
+ "publication": "cii",
+ "year": 1980,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "28",
+ "title": "Civil Police including District Armed Police During the Year 1980",
+ "listing_title": "Civil Police including District Armed Police During the Year 1980",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1980_0.pdf",
+ "source_file": "raw/cii/1980/table_content/table-58-1980_0.pdf",
+ "source_sha256": "cef7411470ca2627200198bc368a8321c97b9cfd2f3a63cd74f11f60ac891862",
+ "table_no": "38",
+ "pdf_title": "",
+ "row_label": "Civil police “eo STATES",
+ "pages": [
+  1
+ ],
+ "n_rows": 41,
+ "n_cols": 5,
+ "n_cells": 190,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "district armed",
+   "header": [
+    "district armed"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "district armed | oe 193",
+   "header": [
+    "district armed",
+    "oe 193"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "during the year 1980 | 1414",
+   "header": [
+    "during the year 1980",
+    "1414"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "during the year 1980 | \"7 3 T7058",
+   "header": [
+    "during the year 1980",
+    "\"7 3 T7058"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "aA Pa]",
+   "header": [
+    "aA Pa]"
+   ]
+  }
+ ],
+ "notes": [
+  "- gMota, are for dhe year 1979,"
+ ],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL (States)': printed 1610, sum 874"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

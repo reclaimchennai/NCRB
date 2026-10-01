@@ -1,0 +1,60 @@
+{
+ "table_id": "cii/1982/7_table-43-1982",
+ "publication": "cii",
+ "year": 1982,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "7",
+ "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local and Special Laws During the Year - 1982",
+ "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local and Special Laws During the Year - 1982",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-43-1982.pdf",
+ "source_file": "raw/cii/1982/table_content/table-43-1982.pdf",
+ "source_sha256": "e05dd745d5a67ddaea977cf118363c27b1ca6051998d5bf541808fd3fa16d5ec",
+ "table_no": "43",
+ "pdf_title": "JUVENILES APPREHENDED (BY AGE GROUP) FOR COMMITTING CRIMES UNDER LOCAL AND SPECTAT. LAWS DURING",
+ "row_label": "",
+ "pages": [
+  1
+ ],
+ "n_rows": 43,
+ "n_cols": 4,
+ "n_cells": 163,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 7066, sum 8282"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

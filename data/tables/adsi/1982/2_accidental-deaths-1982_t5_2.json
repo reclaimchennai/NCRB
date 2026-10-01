@@ -1,0 +1,94 @@
+{
+ "table_id": "adsi/1982/2_accidental-deaths-1982_t5_2",
+ "publication": "adsi",
+ "year": 1982,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1982",
+ "serial": "2",
+ "title": "Rezid1-Wise Distribution of 4+-=*2=-t=! Deaths by Sex During",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1982.pdf",
+ "source_file": "raw/adsi/1982/year_wise/accidental-deaths-1982.pdf",
+ "source_sha256": "06f2d35c927f9298e6cb1be97a48b679dfb9d55c17c7908c8d3862678d05b7c6",
+ "table_no": "5",
+ "pdf_title": "Rezid1-Wise Distribution of 4+-=*2=-t=! Deaths by Sex During",
+ "row_label": "Sl. States/UTs/Cities No. 1 States 1. Andhra Pradesh 2. Assam. 3. Bihar",
+ "pages": [
+  14,
+  15
+ ],
+ "n_rows": 44,
+ "n_cols": 6,
+ "n_cells": 151,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Males involved 2 6,369 1,590 2,728",
+   "header": [
+    "Males involved 2 6,369 1,590 2,728"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "%of Males to total 3 67°1 71-6 65°5",
+   "header": [
+    "%of Males to total 3 67°1 71-6 65°5"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Females involved 4 3,131 630 1,439",
+   "header": [
+    "Females involved 4 3,131 630 1,439"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "%of Females to total 6 32-9 28-4 34-5",
+   "header": [
+    "%of Females to total 6 32-9 28-4 34-5"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total 7 9,500 2,220 4,167",
+   "header": [
+    "Total 7 9,500 2,220 4,167"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Tetal",
+   "header": [
+    "Tetal"
+   ]
+  }
+ ],
+ "notes": [
+  "per cent of the total accidental deaths. While 21 -5 per cent of the total",
+  "accidental deaths occurred in the age group below 18 years, 13-6 per",
+  "cent deaths were recorded in the age group of above 50 years.",
+  "The distribution of accidentaldeaths according of age groups in",
+  "the States as a whole did not very much from the all India figures and",
+  "the distribution followed generally the same patterninthe Union",
+  "tories and the Metropolitan cities also.",
+  "The detailed statistics are given in Table—VI."
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL (STATEs)': printed 79723, sum 69036",
+   "col 4 'TOTAL (STATEs)': printed 41847, sum 36647",
+   "col 6 'TOTAL (STATEs)': printed 121570, sum 99574"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

@@ -1,0 +1,93 @@
+{
+ "table_id": "cii/1999/72_table-72-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "72",
+ "title": "Disposal of Persons Arrested Under IPC Crime by Police During 1999 (State & UT-Wise)",
+ "listing_title": "Disposal of Persons Arrested Under IPC Crime by Police During 1999 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-72-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-72-1999.pdf",
+ "source_sha256": "570a9f3237d70cb25c48fc6b79e1a3020ce8f333e72dbfff941e191aeac59959",
+ "table_no": "72",
+ "pdf_title": "",
+ "row_label": "DISPOSAL OF PEKSUNS SL.NO. STATES:",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 206,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "UNDEK IPC CRIMES RY POLICE DURING 1999 | (STATE & UT - WISE) | STATE/UT YEAR @",
+   "header": [
+    "UNDEK IPC CRIMES RY POLICE DURING 1999",
+    "(STATE & UT - WISE)",
+    "STATE/UT YEAR @"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "UNDEK IPC CRIMES RY POLICE DURING 1999 | (STATE & UT - WISE) | TOTAL NO.",
+   "header": [
+    "UNDEK IPC CRIMES RY POLICE DURING 1999",
+    "(STATE & UT - WISE)",
+    "TOTAL NO."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "UNDEK IPC CRIMES RY POLICE DURING 1999 | OF",
+   "header": [
+    "UNDEK IPC CRIMES RY POLICE DURING 1999",
+    "OF"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "UNDEK IPC CRIMES RY POLICE DURING 1999 | PERSONS END OF THE YEAR ©",
+   "header": [
+    "UNDEK IPC CRIMES RY POLICE DURING 1999",
+    "PERSONS END OF THE YEAR ©"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "UNDEK IPC CRIMES RY POLICE DURING 1999 | res",
+   "header": [
+    "UNDEK IPC CRIMES RY POLICE DURING 1999",
+    "res"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "afk ®",
+   "header": [
+    "afk ®"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 1. CUSTUDY UK ON BAIL.",
+  "2. es NN THEY 9.08 IS AL Re AS 0.0."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 2,
+  "failures": [
+   "col 2 'TOTAL (UTs)': printed 69340, sum 64264",
+   "col 3 'TOTAL (UTs)': printed 4654, sum 4648"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

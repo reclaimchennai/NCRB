@@ -1,0 +1,111 @@
+{
+ "table_id": "psi/1999/6_psi-full-report-1999_t24",
+ "publication": "psi",
+ "year": 1999,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1999",
+ "serial": "6",
+ "title": "DEMOGRAPHIC PARTICULARS OF CONVICTS AT THE END OF 1999",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
+ "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
+ "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
+ "table_no": "24",
+ "pdf_title": "DEMOGRAPHIC PARTICULARS OF CONVICTS AT THE END OF 1999",
+ "row_label": "als ILLITERATE (1) / STATE/UT & aoe 1 (2) (3) (6) / EDUCATIONAL STANDARD HOLDING GRADUATE /DIPLOMA (3) (8) (a",
+ "pages": [
+  114,
+  115,
+  116
+ ],
+ "n_rows": 66,
+ "n_cols": 9,
+ "n_cells": 210,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "TOTAL (4) (9)",
+   "header": [
+    "TOTAL (4) (9)"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "RELIGION | @",
+   "header": [
+    "RELIGION",
+    "@"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "RELIGION | (10)",
+   "header": [
+    "RELIGION",
+    "(10)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "RELIGION | MUS ah",
+   "header": [
+    "RELIGION",
+    "MUS ah"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "RELIGION | st SC «TOTAL OTHERS src (15) (6 aD (14) (2)",
+   "header": [
+    "RELIGION",
+    "st SC «TOTAL OTHERS src (15) (6 aD (14) (2)"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "CASTE OTHERS - TOTAL OBC CHRIS ag) (20) a9) (3)",
+   "header": [
+    "CASTE OTHERS - TOTAL OBC CHRIS ag) (20) a9) (3)"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "BELONGS TO STATE",
+   "header": [
+    "BELONGS TO STATE"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "DOMICILE",
+   "header": [
+    "DOMICILE"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL @3)",
+   "header": [
+    "TOTAL @3)"
+   ]
+  }
+ ],
+ "notes": [
+  "NA -DAT.S NOT AVAILABLE."
+ ],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 21 'TOTAL (UTS)': printed 176, sum 129490"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 3,
+ "warnings": []
+}

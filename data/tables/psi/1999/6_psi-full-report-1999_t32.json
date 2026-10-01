@@ -1,0 +1,95 @@
+{
+ "table_id": "psi/1999/6_psi-full-report-1999_t32",
+ "publication": "psi",
+ "year": 1999,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1999",
+ "serial": "6",
+ "title": "DETAILS OF INMATES DISCHARGED AT THE END OF 1999",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
+ "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
+ "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
+ "table_no": "32",
+ "pdf_title": "DETAILS OF INMATES DISCHARGED AT THE END OF 1999",
+ "row_label": "SN. (1)",
+ "pages": [
+  132
+ ],
+ "n_rows": 32,
+ "n_cols": 7,
+ "n_cells": 163,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "STATEUT PREMATURE LEASE @®",
+   "header": [
+    "STATEUT PREMATURE LEASE @®"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "anger APTER RELEA- SEDON - SEDON RELEACONVICT] ON APPEAL PERIOD QB)",
+   "header": [
+    "anger APTER RELEA- SEDON - SEDON RELEACONVICT] ON APPEAL PERIOD QB)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PARDBAIL (4)",
+   "header": [
+    "PARDBAIL (4)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "EXTRA- | (3)",
+   "header": [
+    "EXTRA-",
+    "(3)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EXTRA- | (6) (9)",
+   "header": [
+    "EXTRA-",
+    "(6) (9)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "EXTRA- | , OTHER RELEASES (10) (7)",
+   "header": [
+    "EXTRA-",
+    ", OTHER RELEASES (10) (7)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "TRANS: FERRED TO TOTAL OTHER STATES (11) (8)",
+   "header": [
+    "TRANS: FERRED TO TOTAL OTHER STATES (11) (8)"
+   ]
+  }
+ ],
+ "notes": [
+  "NA -DATA NOT AVAILABLE,"
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 90815, sum 90157",
+   "col 8 'TOTAL (STATES)': printed 755969, sum 755287"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,154 @@
+{
+ "table_id": "psi/2000/7_psi-table-07a-2000",
+ "publication": "psi",
+ "year": 2000,
+ "listing": "table_content",
+ "topic": "Miscellaneous",
+ "section": "Miscellaneous",
+ "serial": "7",
+ "title": "Jail wise Capacity and Population of Inmates at the end of 2000",
+ "listing_title": "Jail wise Capacity and Population of Inmates at the end of 2000",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-07a_2000.pdf",
+ "source_file": "raw/psi/2000/table_content/psi-table-07a_2000.pdf",
+ "source_sha256": "0533ead4d2ad2e69edf2faadf9703a4c9d067d58be0c4d597fa615f9a96cda12",
+ "table_no": "7A",
+ "pdf_title": "JAIL WISE CAPICITY AND POPULATION OF INMATES AT THE END OF 2000",
+ "row_label": "a I STATE/UT 1 121",
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  7
+ ],
+ "n_rows": 141,
+ "n_cols": 14,
+ "n_cells": 671,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "TOTAL CAPACITY OF INMATES | MALE .14)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "MALE .14)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE (5)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "TOTAL CAPACITY OF INMATES | [",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "["
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TOTAL (7)",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "MALE (8)",
+   "header": [
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "INMATES POPULATION TOTAL FEMALE",
+   "header": [
+    "INMATES POPULATION TOTAL FEMALE"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "TABLE-7A (Contd...) | - JAI",
+   "header": [
+    "TABLE-7A (Contd...)",
+    "- JAI"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "col_10001",
+   "header": []
+  },
+  {
+   "col_no": "10002",
+   "name": "TOTAL CAPACITY OF INMATES | MALE",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE (10003)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "MALE (10005)",
+   "header": [
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "INMATES POPULATION FEMALE",
+   "header": [
+    "INMATES POPULATION FEMALE"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "TOTAL (10007)",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'TOTAL (ALL INDIA)': printed 93539, sum 102876",
+   "col 5 'TOTAL (STATES)': printed 2474, sum 2230",
+   "col 8 'TOTAL (STATES)': printed 2276, sum 2306",
+   "col 3 '(ALL INDIA)': printed 635, sum 1745",
+   "col 10001 'TOTAL (ALL INDIA)': printed 20, sum 21",
+   "col 10001 'TOTAL (UTs) [line 2]': printed 12, sum 49",
+   "col 10002 'TOTAL (ALL INDIA)': printed 4455, sum 15"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 6,
+ "warnings": []
+}

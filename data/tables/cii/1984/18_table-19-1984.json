@@ -1,0 +1,61 @@
+{
+ "table_id": "cii/1984/18_table-19-1984",
+ "publication": "cii",
+ "year": 1984,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "18",
+ "title": "Persons Arrested for committing Cognizable Crimes under IPC During 1983 & 1984 and the Percentage Variation in 1984 over 1983",
+ "listing_title": "Persons Arrested for committing Cognizable Crimes under IPC During 1983 & 1984 and the Percentage Variation in 1984 over 1983",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-19-1984.pdf",
+ "source_file": "raw/cii/1984/table_content/table-19-1984.pdf",
+ "source_sha256": "d40e4917b7c2da33496f0b8029e2266dff34e5f45082b200812d8c82372517c3",
+ "table_no": "19",
+ "pdf_title": "Persons Arrested For Committing Cognizable Crimes Under IPC During 1983 & 1984 And The Percentage Variation In 1984 Over 1983",
+ "row_label": "SL. NO. / STATES/UTs/CITIES",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 3,
+ "n_cells": 141,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "1983",
+   "header": [
+    "1983"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1984",
+   "header": [
+    "1984"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "VARIATION 1983 OVER 1984 IN",
+   "header": [
+    "VARIATION 1983 OVER 1984 IN"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 4 'TOTAL (States)': printed 2.04241e+06, sum 2.04331e+06"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

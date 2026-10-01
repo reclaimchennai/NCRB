@@ -1,0 +1,63 @@
+{
+ "table_id": "adsi/1990/4_suicides-1990_t10",
+ "publication": "adsi",
+ "year": 1990,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1990",
+ "serial": "4",
+ "title": "Comparative Statement Of Incidence Of Suicides During 1989 And 1990 (State, UT & City-wise)",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1990.pdf",
+ "source_file": "raw/adsi/1990/year_wise/suicides-1990.pdf",
+ "source_sha256": "06925d8d2818e7f92965ed004275342a1482e0ab1fd58e157dc1aa88817357f6",
+ "table_no": "10",
+ "pdf_title": "Comparative Statement Of Incidence Of Suicides During 1989 And 1990 (State, UT & City-wise)",
+ "row_label": "Sl. No.",
+ "pages": [
+  13
+ ],
+ "n_rows": 47,
+ "n_cols": 3,
+ "n_cells": 139,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Incidence | 1989",
+   "header": [
+    "Incidence",
+    "1989"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Incidence | 1990",
+   "header": [
+    "Incidence",
+    "1990"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Percentage Variation In 1990 Over",
+   "header": [
+    "Percentage Variation In 1990 Over"
+   ]
+  }
+ ],
+ "notes": [
+  "@ Indicates Infinite variation."
+ ],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 6,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

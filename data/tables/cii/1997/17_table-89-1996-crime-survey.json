@@ -1,0 +1,130 @@
+{
+ "table_id": "cii/1997/17_table-89-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "17",
+ "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1997 (Men + Women)",
+ "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1997 (Men + Women)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-89-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-89-1996-crime-survey.pdf",
+ "source_sha256": "16bf9a47b4ea846ec6c1c3e7c6a29cfea51db872fa464e729a3784486b086687",
+ "table_no": "89",
+ "pdf_title": "",
+ "row_label": "$y (1)",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 10,
+ "n_cells": 451,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "SANCTIONED AND ACTUAL | DG/IG/DIG/SP (2)",
+   "header": [
+    "SANCTIONED AND ACTUAL",
+    "DG/IG/DIG/SP (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "OF ARMED POLICE | SANCTIONED AND ACTUAL | AS ON 31.12.1997 (MEN | ACTUAL SANCTIONED (3)",
+   "header": [
+    "OF ARMED POLICE",
+    "SANCTIONED AND ACTUAL",
+    "AS ON 31.12.1997 (MEN",
+    "ACTUAL SANCTIONED (3)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "OF ARMED POLICE | SANCTIONED AND ACTUAL | AS ON 31.12.1997 (MEN | ASP & DSP (4)",
+   "header": [
+    "OF ARMED POLICE",
+    "SANCTIONED AND ACTUAL",
+    "AS ON 31.12.1997 (MEN",
+    "ASP & DSP (4)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "OF ARMED POLICE | SANCTIONED AND ACTUAL | AS ON 31.12.1997 (MEN | SANCACTUAL TIONED (5)",
+   "header": [
+    "OF ARMED POLICE",
+    "SANCTIONED AND ACTUAL",
+    "AS ON 31.12.1997 (MEN",
+    "SANCACTUAL TIONED (5)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "OF ARMED POLICE | + WOMEN) SANCTIONED (6)",
+   "header": [
+    "OF ARMED POLICE",
+    "+ WOMEN) SANCTIONED (6)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "OF ARMED POLICE | ACTUAL (7)",
+   "header": [
+    "OF ARMED POLICE",
+    "ACTUAL (7)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OF ARMED POLICE | SANCTIONED (8)",
+   "header": [
+    "OF ARMED POLICE",
+    "SANCTIONED (8)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": ", ACTUAL (9)",
+   "header": [
+    ", ACTUAL (9)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "ATL. | SANCTIONED (10)",
+   "header": [
+    "ATL.",
+    "SANCTIONED (10)"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "ATL. | ACTUAL (1) (12)",
+   "header": [
+    "ATL.",
+    "ACTUAL (1) (12)"
+   ]
+  }
+ ],
+ "notes": [
+  "55 VISHAKHAPATNAM fe] 0 ie} ie) fe] 0",
+  "Nc te: Though ‘Actual’ police strength is more than police strength for some ranks of Armed Police in soine combined ‘Actual’",
+  "strength of Civil and Armed Police for those ranks does not exceed combined strength them."
+ ],
+ "checks": {
+  "cells_checked": 23,
+  "cells_passed": 21,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 587, sum 577",
+   "col 7 'TOTAL (STATES)': printed 13326, sum 20826"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,74 @@
+{
+ "table_id": "adsi/2023/1_1adsipublication-2023_t2-2",
+ "publication": "adsi",
+ "year": 2023,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2023",
+ "serial": "1",
+ "title": "Incidence and Rate of Suicides – 2023 (State/UT - wise)",
+ "listing_title": "Accidental Deaths & Suicides in India 2023 Report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/1ADSIPublication-2023.pdf",
+ "source_file": "raw/adsi/2023/year_wise/1ADSIPublication-2023.pdf",
+ "source_sha256": "b41d956d80b2e8e46ee70e7b81eb6e39d8e9a156d3455a1e7fe8d50508db2bdb",
+ "table_no": "2.2",
+ "pdf_title": "Incidence and Rate of Suicides – 2023 (State/UT - wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  237,
+  238
+ ],
+ "n_rows": 94,
+ "n_cols": 4,
+ "n_cells": 372,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Suicides",
+   "header": [
+    "Number of Suicides"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage Share in Total Suicides",
+   "header": [
+    "Percentage Share in Total Suicides"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Projected Mid–Year Population # (in Lakh)",
+   "header": [
+    "Projected Mid–Year Population # (in Lakh)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of Suicides (Col.3/Col.5)",
+   "header": [
+    "Rate of Suicides (Col.3/Col.5)"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: # – Report of the Technical Group on Population Projections (July, 2020), National Commission on Population,",
+  "Ministry of Health & Family Welfare.",
+  "Incidence – refers to number of suicides",
+  "• As per data provided by States/UTs.",
+  "Note: $ Actual Population for year 2011 from the Population Census 2011, as Mid-Year Population Projection for cities is not available.",
+  "Source: Registrar General of India."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 4,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

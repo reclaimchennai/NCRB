@@ -1,0 +1,71 @@
+{
+ "table_id": "psi/2000/5_psi-full-report-2000_t22",
+ "publication": "psi",
+ "year": 2000,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 2000",
+ "serial": "5",
+ "title": "Download Full Report",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2000.pdf",
+ "source_file": "raw/psi/2000/year_wise/psi-full-report-2000.pdf",
+ "source_sha256": "171376686bd1e431ac947c0d86c5141722a1e13fb54bb5c1347bbf9500133c70",
+ "table_no": "22",
+ "pdf_title": "",
+ "row_label": "a5 @ / sare BURGLARY (11)",
+ "pages": [
+  112
+ ],
+ "n_rows": 28,
+ "n_cols": 4,
+ "n_cells": 88,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "THEFTS (12)",
+   "header": [
+    "THEFTS (12)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RIOT (3)",
+   "header": [
+    "RIOT (3)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CHEATING BREACH OF RUST tidy (16)",
+   "header": [
+    "CHEATING BREACH OF RUST tidy (16)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "pc cae (18) (14) ayy",
+   "header": [
+    "pc cae (18) (14) ayy"
+   ]
+  }
+ ],
+ "notes": [
+  "NA -DATA NOT AVAILABLE.",
+  "102."
+ ],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (UTS)': printed 217, sum 799"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

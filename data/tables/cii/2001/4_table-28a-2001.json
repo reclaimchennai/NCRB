@@ -1,0 +1,84 @@
+{
+ "table_id": "cii/2001/4_table-28a-2001",
+ "publication": "cii",
+ "year": 2001,
+ "listing": "table_content",
+ "topic": "Crime Against Women",
+ "section": "Crime Against Women",
+ "serial": "4",
+ "title": "Offenders Relation & Nearness Rape victims (State, UT & City-wise)",
+ "listing_title": "Offenders Relation & Nearness Rape victims (State, UT & City-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/TABLE-28A-2001.pdf",
+ "source_file": "raw/cii/2001/table_content/TABLE-28A-2001.pdf",
+ "source_sha256": "e9c3cd60dd167b41e47ab1405792a42010bbb3d394e26d674065b11a72c97150",
+ "table_no": "28A",
+ "pdf_title": "Offenders Relation And Nearness To Rape Victims During 2001",
+ "row_label": "SL.NO.STATE/UT",
+ "pages": [
+  1,
+  1,
+  2
+ ],
+ "n_rows": 74,
+ "n_cols": 5,
+ "n_cells": 367,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NO. OF CASES IN WHICH OFFENDERS WERE KNOWN TO THE VICTIMS",
+   "header": [
+    "NO. OF CASES IN WHICH OFFENDERS WERE KNOWN TO THE VICTIMS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF CASES IN WHICH OFFENDERS WERE | PARENTS/CLOSE FAMILY MEMBERS",
+   "header": [
+    "NO. OF CASES IN WHICH OFFENDERS WERE",
+    "PARENTS/CLOSE FAMILY MEMBERS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF CASES IN WHICH OFFENDERS WERE | RELATIVES",
+   "header": [
+    "NO. OF CASES IN WHICH OFFENDERS WERE",
+    "RELATIVES"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF CASES IN WHICH OFFENDERS WERE | NEIGHBOURS",
+   "header": [
+    "NO. OF CASES IN WHICH OFFENDERS WERE",
+    "NEIGHBOURS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF CASES IN WHICH OFFENDERS WERE | OTHER KNOWN PERSONS",
+   "header": [
+    "NO. OF CASES IN WHICH OFFENDERS WERE",
+    "OTHER KNOWN PERSONS"
+   ]
+  }
+ ],
+ "notes": [
+  "@ Only Kolkata figures are given in the absence of West Bengal data"
+ ],
+ "checks": {
+  "cells_checked": 20,
+  "cells_passed": 18,
+  "failures": [
+   "col 4 'TOTAL (CITIES)': printed 30, sum 27",
+   "col 5 'TOTAL (CITIES)': printed 63, sum 273"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

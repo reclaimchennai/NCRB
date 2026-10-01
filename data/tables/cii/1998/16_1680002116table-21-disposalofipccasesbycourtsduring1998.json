@@ -1,0 +1,113 @@
+{
+ "table_id": "cii/1998/16_1680002116table-21-disposalofipccasesbycourtsduring1998",
+ "publication": "cii",
+ "year": 1998,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "16",
+ "title": "Disposal of IPC Cases by Courts During 1998 (State & UT-Wise)",
+ "listing_title": "Disposal of IPC Cases by Courts During 1998 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680002116TABLE-21-DISPOSALOFIPCCASESBYCOURTSDURING1998.pdf",
+ "source_file": "raw/cii/1998/table_content/1680002116TABLE-21-DISPOSALOFIPCCASESBYCOURTSDURING1998.pdf",
+ "source_sha256": "19577472c432f51e09eaca45ac08c6f24d40e8fd904770738ec936217c7e8206",
+ "table_no": "21",
+ "pdf_title": "DISPOSAL OF IPC CASES BY COURTS DURING 1998",
+ "row_label": "SL. STATE/UT NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 36,
+ "n_cols": 9,
+ "n_cells": 317,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(STATE & UT-WISE) | TOTAL NO, OF CASES FOR TRIAL INCLUDING PENDING CASES INCLUDING PENDING CASES",
+   "header": [
+    "(STATE & UT-WISE)",
+    "TOTAL NO, OF CASES FOR TRIAL INCLUDING PENDING CASES INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(STATE & UT-WISE) | COMPOUNDED WITHDRAWN",
+   "header": [
+    "(STATE & UT-WISE)",
+    "COMPOUNDED WITHDRAWN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(STATE & UT-WISE) | OR CONVICTED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "OR CONVICTED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(STATE & UT-WISE) | NO. OF CASES ACQUITTED OR CHARGED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO. OF CASES ACQUITTED OR CHARGED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED DIS-",
+   "header": [
+    "(STATE & UT-WISE)",
+    "IN WHICH TRIALS WERE COMPLETED DIS-"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "(STATE & UT-WISE) | PENDING TRIAL TOTAL {(5) +(6)}",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PENDING TRIAL TOTAL {(5) +(6)}"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "(STATE & UT-WISE) | PENDENCY PERCENTAGE",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "CONVICTION RATE {(5)/(7)} X 100",
+   "header": [
+    "CONVICTION RATE {(5)/(7)} X 100"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 199796, sum 199795",
+   "col 5 'TOTAL (STATES)': printed 321064, sum 321054",
+   "col 6 'TOTAL (STATES)': printed 538857, sum 548957",
+   "col 8 'TOTAL (STATES)': printed 4.42165e+06, sum 4.42165e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

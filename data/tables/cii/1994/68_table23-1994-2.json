@@ -1,0 +1,124 @@
+{
+ "table_id": "cii/1994/68_table23-1994-2",
+ "publication": "cii",
+ "year": 1994,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "68",
+ "title": "Disposal of SLL Crime Cases by Courts During 1994 (State & UT–Wise)",
+ "listing_title": "Disposal of SLL Crime Cases by Courts During 1994 (State & UT–Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table23-1994_2.pdf",
+ "source_file": "raw/cii/1994/table_content/table23-1994_2.pdf",
+ "source_sha256": "ea3afaa7d912a6d64296125112677188c50c30cf1d54c161c46edc8fe0e7a52e",
+ "table_no": "23",
+ "pdf_title": "DISPOSAL OF SLL CRIME CASES BY COURTS DURING 1994",
+ "row_label": "(STATE & UT-WISE) SL. NO. / (STATE & UT-WISE) STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 245,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(STATE & UT-WISE) | TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
+   "header": [
+    "(STATE & UT-WISE)",
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(STATE & UT-WISE) | COMPOUNDED cn WITHDRAWN",
+   "header": [
+    "(STATE & UT-WISE)",
+    "COMPOUNDED cn WITHDRAWN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(STATE & UT-WISE) | NO. OF CASES IN WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH TRIALS WERE COMPLETED",
+    "CONVICTED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(STATE & UT-WISE) | NO. OF CASES IN WHICH TRIALS WERE COMPLETED | ACQUITTED OR DISCHARGED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH TRIALS WERE COMPLETED",
+    "ACQUITTED OR DISCHARGED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(STATE & UT-WISE) | NO. OF CASES IN WHICH TRIALS WERE COMPLETED | TOTAL {(5) + (6)}",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH TRIALS WERE COMPLETED",
+    "TOTAL {(5) + (6)}"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "(STATE & UT-WISE) | PENDING TRIAL",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PENDING TRIAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "(STATE & UT-WISE) | PENDENCY PERCENTAGE",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "(STATE & UT-WISE) | PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "(STATE & UT-WISE) | CONVICTION RATE",
+   "header": [
+    "(STATE & UT-WISE)",
+    "CONVICTION RATE"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Percentage less than 0.05 is also shown as 0.0. 134"
+ ],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 7,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 6.37463e+06, sum 6.37458e+06",
+   "col 3 'TOTAL (UTs)': printed 74183, sum 74180",
+   "col 5 'TOTAL (STATES)': printed 3.08694e+06, sum 1.79959e+06",
+   "col 5 'TOTAL (UTs)': printed 33428, sum 33356",
+   "col 6 'TOTAL (STATES)': printed 426289, sum 325531",
+   "col 7 'TOTAL (STATES)': printed 3.51322e+06, sum 2.19777e+06",
+   "col 8 'TOTAL (STATES)': printed 2.7543e+06, sum 779163",
+   "col 8 'TOTAL (UTs)': printed 37567, sum 37566"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+ "table_id": "adsi/2011/14_adsi-full-report-2011_t1-2",
+ "publication": "adsi",
+ "year": 2011,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2011",
+ "serial": "14",
+ "title": "Incidence and Rate of Accidental Deaths – 2011 (State, UT & City–wise)",
+ "listing_title": "Download full report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/adsi-full-report-2011.pdf",
+ "source_file": "raw/adsi/2011/year_wise/adsi-full-report-2011.pdf",
+ "source_sha256": "16ad80e47e68743abe5ffc0927fc7c24f1018367bae5559d437825d8c7719af1",
+ "table_no": "1.2",
+ "pdf_title": "Incidence and Rate of Accidental Deaths – 2011 (State, UT & City–wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  49,
+  50
+ ],
+ "n_rows": 92,
+ "n_cols": 5,
+ "n_cells": 456,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Accidental Deaths",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage Share in Total Deaths",
+   "header": [
+    "Percentage Share in Total Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Population * (Provisional) (in Lakhs)",
+   "header": [
+    "Population * (Provisional) (in Lakhs)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of Accidental Deaths",
+   "header": [
+    "Rate of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rank**",
+   "header": [
+    "Rank**"
+   ]
+  }
+ ],
+ "notes": [
+  "** Rank on the basis of Rate of Accidental Deaths (Col.6) in States/UTs and Cities.",
+  "* — Source: The Registrar General of India."
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

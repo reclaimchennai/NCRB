@@ -1,0 +1,111 @@
+{
+ "table_id": "cii/1995/8_chapter8-1995_t2",
+ "publication": "cii",
+ "year": 1995,
+ "listing": "table_chapter",
+ "topic": "",
+ "section": "",
+ "serial": "8",
+ "title": "No",
+ "listing_title": "Crime Against Children",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter8-1995.pdf",
+ "source_file": "raw/cii/1995/table_chapter/chapter8-1995.pdf",
+ "source_sha256": "f75918d388410ce96263364ec37fece9b3feec71e92c9e370b9017575830d8d3",
+ "table_no": "",
+ "pdf_title": "No",
+ "row_label": "M dq)",
+ "pages": [
+  3
+ ],
+ "n_rows": 16,
+ "n_cols": 9,
+ "n_cells": 144,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "F @)",
+   "header": [
+    "F @)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "M (5)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "F (6)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "M (7)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "F (8)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "M (9)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "F (10)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "M (11)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "F (12)",
+   "header": [
+    "F"
+   ]
+  }
+ ],
+ "notes": [
+  "source: Census of India 1981, Occisional papzrs No. 4 uf 1988, R-port of the: Expert Committee cn the Population projections."
+ ],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'All-India': printed 131679, sum 127166",
+   "col 5 'All-India': printed 148151, sum 142451",
+   "col 6 'All-India': printed 140415, sum 135077",
+   "col 7 'All-India': printed 152784, sum 145988",
+   "col 8 'All-India': printed 144965, sum 138370",
+   "col 11 'All-India': printed 157606, sum 151775",
+   "col 12 'All-India': printed 149556, sum 144505"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

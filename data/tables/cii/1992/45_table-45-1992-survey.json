@@ -1,0 +1,100 @@
+{
+ "table_id": "cii/1992/45_table-45-1992-survey",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "45",
+ "title": "Juveniles Apprehended under Different LSL Crimes by Age Group & Sex During 1992 (State, UT & City-wise)",
+ "listing_title": "Juveniles Apprehended under Different LSL Crimes by Age Group & Sex During 1992 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-45-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-45-1992-survey.pdf",
+ "source_sha256": "9c363c6291911bf63835bc8c04a347ff75458e5a9f12e4599b43d47b88155340",
+ "table_no": "45",
+ "pdf_title": "JUVENILES APPKSHENUED UNDER DIFFERENT LSL CRIMES BY AGE GROUPS & SEX DURING 1992 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 58,
+ "n_cols": 8,
+ "n_cells": 415,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "7 ae Boys",
+   "header": [
+    "7 ae Boys"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "12 GIRLS",
+   "header": [
+    "12 GIRLS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "YBARS Boys",
+   "header": [
+    "YBARS Boys"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "12-16 - GIRLS",
+   "header": [
+    "12-16 - GIRLS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "YEARS ys GIRLS ONLY",
+   "header": [
+    "YEARS ys GIRLS ONLY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "16-18 OVERALL GROUP BoYSs",
+   "header": [
+    "16-18 OVERALL GROUP BoYSs"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "YEARS GIRLS",
+   "header": [
+    "YEARS GIRLS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "AGE TOTAL (BOYS + §«6GIRLS)",
+   "header": [
+    "AGE TOTAL (BOYS + §«6GIRLS)"
+   ]
+  }
+ ],
+ "notes": [
+  "Notes:1. 7-12 years means 7 years and above but below 12 years of age etc.",
+  "2. NR stands for data not received."
+ ],
+ "checks": {
+  "cells_checked": 23,
+  "cells_passed": 22,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 1943, sum 1952"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

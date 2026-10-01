@@ -1,0 +1,98 @@
+{
+ "table_id": "adsi/1992/3_accidental-deaths-1992_t7",
+ "publication": "adsi",
+ "year": 1992,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1992",
+ "serial": "3",
+ "title": "TABLE - § (Cantinuad ,)",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1992.pdf",
+ "source_file": "raw/adsi/1992/year_wise/accidental-deaths-1992.pdf",
+ "source_sha256": "438d373cb515809dfb05c6a5b51014e3e668719cbd1596e8d1d8051d583e280c",
+ "table_no": "",
+ "pdf_title": "TABLE - § (Cantinuad ,)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  24
+ ],
+ "n_rows": 35,
+ "n_cols": 7,
+ "n_cells": 240,
+ "columns": [
+  {
+   "col_no": "12",
+   "name": "30 - 50 Male {11)",
+   "header": [
+    "30 - 50 Male {11)"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Femaie -",
+   "header": [
+    "Femaie -"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "50 Years And Above | Total Psiceniage To Total Deaths -",
+   "header": [
+    "50 Years And Above",
+    "Total Psiceniage To Total Deaths -"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "50 Years And Above | Male 4s”",
+   "header": [
+    "50 Years And Above",
+    "Male 4s”"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "50 Years And Above | Female",
+   "header": [
+    "50 Years And Above",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "50 Years And Above | Total \\",
+   "header": [
+    "50 Years And Above",
+    "Total \\"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "50 Years And Above | Percentage To Total Deaths",
+   "header": [
+    "50 Years And Above",
+    "Percentage To Total Deaths"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 11,
+  "cells_passed": 6,
+  "failures": [
+   "col 12 'TOTAL (States) ©': printed 4.64262e+09, sum 4.67269e+08",
+   "col 12 'TOTAL {UTs)': printed 1.66938e+06, sum 1.4878e+06",
+   "col 12 'TOTAL (All-India)': printed 4.80952e+09, sum 4.64429e+09",
+   "col 13 'TOTAL {UTs)': printed 2051, sum 1551",
+   "col 17 'TOTAL {UTs)': printed 931, sum 904"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

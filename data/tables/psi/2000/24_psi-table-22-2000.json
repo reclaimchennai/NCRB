@@ -1,0 +1,145 @@
+{
+ "table_id": "psi/2000/24_psi-table-22-2000",
+ "publication": "psi",
+ "year": 2000,
+ "listing": "table_content",
+ "topic": "Miscellaneous",
+ "section": "Miscellaneous",
+ "serial": "24",
+ "title": "Number of Undertrials by Type of IPC Offences at the end of 2000",
+ "listing_title": "Number of Undertrials by Type of IPC Offences at the end of 2000",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-22_2000.pdf",
+ "source_file": "raw/psi/2000/table_content/psi-table-22_2000.pdf",
+ "source_sha256": "507e5792b55540607bf2c51a4a59c7697674a09f88e64d683ed59ef6ba0b703a",
+ "table_no": "22",
+ "pdf_title": "NUMBER OF UNDERTRIALS BY TYPE OF IPC OFFENCES AT THE END OF 1999",
+ "row_label": "MURDER ay",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 44,
+ "n_cols": 15,
+ "n_cells": 259,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "ATTEMPT TO MURDER @",
+   "header": [
+    "ATTEMPT TO MURDER @"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "C.H.NOT AMOUNT -ING TO MURDER",
+   "header": [
+    "C.H.NOT AMOUNT -ING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPP -ING & ABDUCTION",
+   "header": [
+    "KIDNAPP -ING & ABDUCTION"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "pacorry",
+   "header": [
+    "pacorry"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "sare BURGLARY",
+   "header": [
+    "sare BURGLARY"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "THEFTS",
+   "header": [
+    "THEFTS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "RIOT",
+   "header": [
+    "RIOT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BREACH OF RUST",
+   "header": [
+    "BREACH OF RUST"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "CHEATING",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "col_16",
+   "header": []
+  },
+  {
+   "col_no": "17",
+   "name": "pc cae ayy",
+   "header": [
+    "pc cae ayy"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "col_18",
+   "header": []
+  }
+ ],
+ "notes": [
+  "NA -DATA NOT AVAILABLE.",
+  "102."
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 11 'TOTAL (UTS)': printed 114, sum 6",
+   "col 12 'TOTAL (UTS)': printed 1483, sum 41",
+   "col 18 'TOTAL (UTS)': printed 7038, sum 275"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

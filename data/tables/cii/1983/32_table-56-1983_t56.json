@@ -1,0 +1,53 @@
+{
+ "table_id": "cii/1983/32_table-56-1983_t56",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "32",
+ "title": "Number of Police Personnel killed or injured on Duty during 1983",
+ "listing_title": "Number of Police Personnel Killed or Injured on Duty During 1983",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-56-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-56-1983.pdf",
+ "source_sha256": "2b8c7e21f9bed45ad5650279146918bd9c3e7d4dbb74460539a1f960798e93f9",
+ "table_no": "56",
+ "pdf_title": "Number of Police Personnel killed or injured on Duty during 1983",
+ "row_label": "Sl. No. / States/U.Ts. /Cities / Indacoity operation or other raids / Killed mobs / Killed Byother criminals / Killed Onborder duties",
+ "pages": [
+  1
+ ],
+ "n_rows": 28,
+ "n_cols": 2,
+ "n_cells": 51,
+ "columns": [
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "8",
+   "name": "Ss • Total",
+   "header": [
+    "Ss • Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 95, sum 92",
+   "col 8 'TOTAL (STATES)': printed 253, sum 243"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

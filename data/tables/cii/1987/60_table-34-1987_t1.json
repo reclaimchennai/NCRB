@@ -1,0 +1,76 @@
+{
+ "table_id": "cii/1987/60_table-34-1987_t1",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "60",
+ "title": "E-33 Juvenile Delinquency For Important Heads Of Crime Under IPC",
+ "listing_title": "Juvenile Delinquency under Important Heads of Local & Special Laws During 1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_34-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_34-1987.pdf",
+ "source_sha256": "d7608d6aac97d7a12f33a23f8c03dcaa522736de2cddeb64e4dd4eb53ebadea1",
+ "table_no": "",
+ "pdf_title": "E-33 Juvenile Delinquency For Important Heads Of Crime Under IPC",
+ "row_label": "SL. STATES/UTs/CITIES NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 5,
+ "n_cells": 239,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "During MURDER",
+   "header": [
+    "During MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1987 C.H AMOUNTING TO",
+   "header": [
+    "1987 C.H AMOUNTING TO"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NOT MURDER",
+   "header": [
+    "NOT MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE AND ABDUCTION",
+   "header": [
+    "RAPE AND ABDUCTION"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING DACOITY",
+   "header": [
+    "KIDNAPPING DACOITY"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 11,
+  "cells_passed": 9,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 1218, sum 1858",
+   "col 3 'TOTAL (Cities)': printed 125, sum 132"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

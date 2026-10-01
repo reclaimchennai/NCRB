@@ -1,0 +1,208 @@
+{
+ "table_id": "adsi/1991/3_appendix-1-1991",
+ "publication": "adsi",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "3",
+ "title": "Distribution of Accidental Deaths by Natural Causes and Sex during 1991 (State, UT & City-wise)",
+ "listing_title": "Distribution of Accidental Deaths by Natural Causes and Sex during 1991 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-1_1991.pdf",
+ "source_file": "raw/adsi/1991/table_content/appendix-1_1991.pdf",
+ "source_sha256": "31d9b8f8f4fa07ddbbcae79fdfe0147597d810d042b146183db4537eea6fe200",
+ "table_no": "",
+ "pdf_title": "APPENDIX",
+ "row_label": "SI. No. / State/UT/City",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 52,
+ "n_cols": 21,
+ "n_cells": 850,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Of Male",
+   "header": [
+    "Of Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Deaths by Natural Caueae and Sex during 1991 | (State, UT & City-wise) | Lignusng Female",
+   "header": [
+    "Deaths by Natural Caueae and Sex during 1991",
+    "(State, UT & City-wise)",
+    "Lignusng Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Deaths by Natural Caueae and Sex during 1991 | (State, UT & City-wise) | Total",
+   "header": [
+    "Deaths by Natural Caueae and Sex during 1991",
+    "(State, UT & City-wise)",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Deaths by Natural Caueae and Sex during 1991 | Male",
+   "header": [
+    "Deaths by Natural Caueae and Sex during 1991",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Deaths by Natural Caueae and Sex during 1991 | Heat Stroke Female",
+   "header": [
+    "Deaths by Natural Caueae and Sex during 1991",
+    "Heat Stroke Female"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - | Male",
+   "header": [
+    "ACCIDENTAL DEATHS & SUICIDES IN INDIA -",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - | Flood Female",
+   "header": [
+    "ACCIDENTAL DEATHS & SUICIDES IN INDIA -",
+    "Flood Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "7991 Total",
+   "header": [
+    "7991 Total"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "APPENDIX andelido Female",
+   "header": [
+    "APPENDIX andelido Female"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "N.C.R.B. - 37 (Continued..) Total",
+   "header": [
+    "N.C.R.B. - 37 (Continued..) Total"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Ex »osure to Cold | Male",
+   "header": [
+    "Ex »osure to Cold",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Ex »osure to Cold | Female",
+   "header": [
+    "Ex »osure to Cold",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Ex »osure to Cold | Total",
+   "header": [
+    "Ex »osure to Cold",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Cyclone | Male",
+   "header": [
+    "Cyclone",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Cyclone | Female",
+   "header": [
+    "Cyclone",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Cyclone | Total",
+   "header": [
+    "Cyclone",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Grand Total | Male",
+   "header": [
+    "Grand Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Grand Total | Female",
+   "header": [
+    "Grand Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Grand Total | Total",
+   "header": [
+    "Grand Total",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 31,
+  "cells_passed": 28,
+  "failures": [
+   "col 9 'TOTAL! (States)': printed 439, sum 428",
+   "col 15 'TOTAL! (States)': printed 363, sum 351",
+   "col 21 'TOTAL! (States)': printed 2944, sum 2688"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

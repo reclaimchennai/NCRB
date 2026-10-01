@@ -1,0 +1,90 @@
+{
+ "table_id": "cii/1999/98_table-98-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "98",
+ "title": "Organisational Setup During 1999",
+ "listing_title": "Organisational Setup During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-98-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-98-1999.pdf",
+ "source_sha256": "f2cc17faeed11d28e596a6b1eec3bcb523f7465578b15877e8573efa86ed7eea",
+ "table_no": "98",
+ "pdf_title": "ORGANISATIONAL SETUP DURING 1999",
+ "row_label": "STATE/UT SL. NO. Q)",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 208,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "STATE/UT | ZONES @)",
+   "header": [
+    "STATE/UT",
+    "ZONES @)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBE t OF | RANGES POLICE DISTKICIS",
+   "header": [
+    "NUMBE t OF",
+    "RANGES POLICE DISTKICIS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBE t OF | SUB DIVISIONS ©",
+   "header": [
+    "NUMBE t OF",
+    "SUB DIVISIONS ©"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NUMBE t OF | CIRCLES RURAL POLICE STATIONS",
+   "header": [
+    "NUMBE t OF",
+    "CIRCLES RURAL POLICE STATIONS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NUMBE t OF | URBAN POLICE STATIONS",
+   "header": [
+    "NUMBE t OF",
+    "URBAN POLICE STATIONS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "WOMEN POLICE STATIONS",
+   "header": [
+    "WOMEN POLICE STATIONS"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 13,
+  "cells_passed": 9,
+  "failures": [
+   "col 4 'TOTAL (UTs)': printed 40, sum 14",
+   "col 4 'TOTAL (ALL-INDIA)': printed 102177, sum 101213",
+   "col 6 'TOTAL STATES': printed 621, sum 611",
+   "col 7 'TOTAL (ALL-INDIA)': printed 1.71628e+07, sum 1.66579e+07"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

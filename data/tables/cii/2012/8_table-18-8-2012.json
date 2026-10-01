@@ -1,0 +1,175 @@
+{
+ "table_id": "cii/2012/8_table-18-8-2012",
+ "publication": "cii",
+ "year": 2012,
+ "listing": "table_content",
+ "topic": "Cyber Crimes",
+ "section": "Cyber Crimes",
+ "serial": "8",
+ "title": "Cases Registered Under Cyber Crimes By Motives and Suspects (States & UTs)",
+ "listing_title": "Cases Registered Under Cyber Crimes By Motives and Suspects (States & UTs)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-18.8_2012.pdf",
+ "source_file": "raw/cii/2012/table_content/table-18.8_2012.pdf",
+ "source_sha256": "ebf7bcb5f55694e992ede407ac1fba843a8ab2bf02b8e72497194c99cb0ebdb2",
+ "table_no": "18.8",
+ "pdf_title": "Cases Registered Under Cyber Crimes Categorized By Motives and Suspects During 2013 (States & UTs)",
+ "row_label": "No. / Sl. State/UT",
+ "pages": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "n_rows": 93,
+ "n_cols": 16,
+ "n_cells": 1472,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Motives | Revenge / Settling scores",
+   "header": [
+    "Motives",
+    "Revenge / Settling scores"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Motives | Greed/ Money",
+   "header": [
+    "Motives",
+    "Greed/ Money"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Motives | Extortion",
+   "header": [
+    "Motives",
+    "Extortion"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Motives | Cause Disrepute",
+   "header": [
+    "Motives",
+    "Cause Disrepute"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Motives | Prank/ Satisfaction of Gaining Control",
+   "header": [
+    "Motives",
+    "Prank/ Satisfaction of Gaining Control"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Motives | Fraud / Illegal Gain",
+   "header": [
+    "Motives",
+    "Fraud / Illegal Gain"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Motives | Eve Teasing / Harassment",
+   "header": [
+    "Motives",
+    "Eve Teasing / Harassment"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Motives | Others",
+   "header": [
+    "Motives",
+    "Others"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Motives | Total",
+   "header": [
+    "Motives",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Suspects | Foreign National /Group",
+   "header": [
+    "Suspects",
+    "Foreign National /Group"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Suspects | Disgrunted Employee / Employee",
+   "header": [
+    "Suspects",
+    "Disgrunted Employee / Employee"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Suspects | Cracker / Student / Professional learners",
+   "header": [
+    "Suspects",
+    "Cracker / Student / Professional learners"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Suspects | Business Competitor",
+   "header": [
+    "Suspects",
+    "Business Competitor"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Suspects | Neighbours / Friends & Relatives",
+   "header": [
+    "Suspects",
+    "Neighbours / Friends & Relatives"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Suspects | Others",
+   "header": [
+    "Suspects",
+    "Others"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "Suspects | Total",
+   "header": [
+    "Suspects",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 60,
+  "cells_passed": 55,
+  "failures": [
+   "col 10001 'TOTAL (STATES)': printed 77, sum 76",
+   "col 10003 'TOTAL (STATES)': printed 397, sum 374",
+   "col 10005 'TOTAL (STATES)': printed 726, sum 722",
+   "col 10006 'TOTAL (STATES)': printed 4056, sum 3980",
+   "col 10007 'TOTAL (STATES)': printed 5508, sum 5404"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

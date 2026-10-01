@@ -1,0 +1,80 @@
+{
+ "table_id": "cii/1992/52_table-52-1992-survey",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "52",
+ "title": "Victims of Rape under Different Age Groups During 1992 (State, UT & City-wise)",
+ "listing_title": "Victims of Rape under Different Age Groups During 1992 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-52-1992-survey.pdf",
+ "source_sha256": "262afd8dbe41563d2ee93e21b2b52c757d821195443a4fdb3cc221d1d9b34568",
+ "table_no": "52",
+ "pdf_title": "VICTIMS OF RAPE UNDER DIFFERENT AGE GROUPS DURING 1992",
+ "row_label": "SL NO / STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 58,
+ "n_cols": 5,
+ "n_cells": 280,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(STATE,UT NO. CASES REPORTED",
+   "header": [
+    "(STATE,UT NO. CASES REPORTED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "& OF BELOW 10",
+   "header": [
+    "& OF BELOW 10"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CITY-WISE) NUMBER 10-16 YEARS",
+   "header": [
+    "CITY-WISE) NUMBER 10-16 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "OT 16-30 YEARS",
+   "header": [
+    "OT 16-30 YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "VICTIMS 30 YEARS AND YEARS ABOVE",
+   "header": [
+    "VICTIMS 30 YEARS AND YEARS ABOVE"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 1. * Victims were more than the cases reported.",
+  "2. @ Age group-wise break-up of Victims of Rape is not"
+ ],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 7,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 481, sum 454",
+   "col 6 'TOTAL (STATES)': printed 6887, sum 6881"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

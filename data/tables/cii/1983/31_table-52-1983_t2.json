@@ -1,0 +1,86 @@
+{
+ "table_id": "cii/1983/31_table-52-1983_t2",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "31",
+ "title": "TaBLEe 52—Conid",
+ "listing_title": "Statement Indicating Motives of Murder and Culpable Homicide not Amounting to Murder in Different States/U.T.s/Cities During 1",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-52-1983.pdf",
+ "source_sha256": "07c710d9bd45880612cd6668a3155fa55355187ec49031a94e4f65e9ee6adc6c",
+ "table_no": "",
+ "pdf_title": "TaBLEe 52—Conid",
+ "row_label": "S|. States/Union Territories/Cities No. STATES",
+ "pages": [
+  3
+ ],
+ "n_rows": 41,
+ "n_cols": 6,
+ "n_cells": 206,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Sexual causes - | Murder",
+   "header": [
+    "Sexual causes -",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Sexual causes - | C.H. not amonnting to murder",
+   "header": [
+    "Sexual causes -",
+    "C.H. not amonnting to murder"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "- Mudrer",
+   "header": [
+    "- Mudrer"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Sudden Provocation * C.H. not amonnting to murder",
+   "header": [
+    "Sudden Provocation * C.H. not amonnting to murder"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Lunacy - | Murder",
+   "header": [
+    "Lunacy -",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Lunacy - | C.H. not amounting © to murder",
+   "header": [
+    "Lunacy -",
+    "C.H. not amounting © to murder"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 1,
+  "failures": [
+   "col 2 'TOTAL (U.Ts.)': printed 24, sum 49"
+  ],
+  "other_totals_checked": 8,
+  "other_totals_passed": 6
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,92 @@
+{
+ "table_id": "cii/1982/42_table-33-1982",
+ "publication": "cii",
+ "year": 1982,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "42",
+ "title": "Juvenile Delinquency for Important Heads of Crime under I.P.C. During the Year - 1982",
+ "listing_title": "Juvenile Delinquency for Important Heads of Crime under I.P.C. During the Year - 1982",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-33-1982.pdf",
+ "source_file": "raw/cii/1982/table_content/table-33-1982.pdf",
+ "source_sha256": "716ef882a87fbe9eab828a6082c5a7c7c9798fef1118c7ee908b408f26939062",
+ "table_no": "33",
+ "pdf_title": "",
+ "row_label": "States/U.Ts,/Cities STATES",
+ "pages": [
+  2
+ ],
+ "n_rows": 42,
+ "n_cols": 6,
+ "n_cells": 217,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "IPC Cognivzable Offences reported | Thefts",
+   "header": [
+    "IPC Cognivzable Offences reported",
+    "Thefts"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "IPC Cognivzable Offences reported | Ridts",
+   "header": [
+    "IPC Cognivzable Offences reported",
+    "Ridts"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "IPC Cognivzable Offences reported | Criminal Breach of trust",
+   "header": [
+    "IPC Cognivzable Offences reported",
+    "Criminal Breach of trust"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "IPC Cognivzable Offences reported | Cheating",
+   "header": [
+    "IPC Cognivzable Offences reported",
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "IPC Cognivzable Offences reported | Counterfeiting",
+   "header": [
+    "IPC Cognivzable Offences reported",
+    "Counterfeiting"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "IPC Cognivzable Offences reported | - Total-cog. crime under IPC",
+   "header": [
+    "IPC Cognivzable Offences reported",
+    "- Total-cog. crime under IPC"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 10766, sum 10764",
+   "col 4 'TOTAL (STATES)': printed 217, sum 752",
+   "col 4 'TOTAL(CITIES).': printed 39, sum 265",
+   "col 5 'TOTAL (STATES)': printed 325, sum 331",
+   "col 7 'TOTAL(CITIES).': printed 6173, sum 63733"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

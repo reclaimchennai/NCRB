@@ -1,0 +1,83 @@
+{
+ "table_id": "psi/2011/13_psi-full-report-2011_t10-1",
+ "publication": "psi",
+ "year": 2011,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 2011",
+ "serial": "13",
+ "title": "STATE/UT-WISE NUMBER OF JAIL INSPECTIONS BY DIFFERENT VISITORS DURING 2011",
+ "listing_title": "Download Full Report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2011.pdf",
+ "source_file": "raw/psi/2011/year_wise/psi-full-report-2011.pdf",
+ "source_sha256": "557c345e483c212cf75166876e17b8db5b1d8b702f5bd0d0389286dcab642553",
+ "table_no": "10.1",
+ "pdf_title": "STATE/UT-WISE NUMBER OF JAIL INSPECTIONS BY DIFFERENT VISITORS DURING 2011",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  170
+ ],
+ "n_rows": 38,
+ "n_cols": 5,
+ "n_cells": 190,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "JAIL INSPECTIONS | MEDICAL",
+   "header": [
+    "JAIL INSPECTIONS",
+    "MEDICAL"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "JAIL INSPECTIONS | EXECUTIVE",
+   "header": [
+    "JAIL INSPECTIONS",
+    "EXECUTIVE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "JAIL INSPECTIONS | JUDICIAL",
+   "header": [
+    "JAIL INSPECTIONS",
+    "JUDICIAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "JAIL INSPECTIONS | OTHERS",
+   "header": [
+    "JAIL INSPECTIONS",
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "JAIL INSPECTIONS | TOTAL (3+4+5+6)",
+   "header": [
+    "JAIL INSPECTIONS",
+    "TOTAL (3+4+5+6)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 11,
+  "failures": [
+   "col 6 'TOTAL (UTs)': printed 0, sum 335",
+   "col 6 'TOTAL (ALL-INDIA)': printed 4867, sum 4532",
+   "col 7 'TOTAL (UTs)': printed 0, sum 1136",
+   "col 7 'TOTAL (ALL-INDIA)': printed 31815, sum 30679"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

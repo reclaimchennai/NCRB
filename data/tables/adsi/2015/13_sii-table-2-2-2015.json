@@ -1,0 +1,74 @@
+{
+ "table_id": "adsi/2015/13_sii-table-2-2-2015",
+ "publication": "adsi",
+ "year": 2015,
+ "listing": "table_content",
+ "topic": "Suicides in India",
+ "section": "SUICIDES IN INDIA",
+ "serial": "13",
+ "title": "Incidence and Rate of Suicides – 2015 (State/UT & City-wise)",
+ "listing_title": "Incidence and Rate of Suicides – 2015 (State/UT & City-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/sii-table-2.2_2015.pdf",
+ "source_file": "raw/adsi/2015/table_content/sii-table-2.2_2015.pdf",
+ "source_sha256": "46fdb745879471a45de1ff492408089ff8e06fc74965007b75344a1da6edc5dd",
+ "table_no": "2.2",
+ "pdf_title": "Incidence and Rate of Suicides during 2015 (State/UT - wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 93,
+ "n_cols": 4,
+ "n_cells": 372,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Suicides",
+   "header": [
+    "Number of Suicides"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage Share in Total Suicides",
+   "header": [
+    "Percentage Share in Total Suicides"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Projected Mid–Year Population # (in lakh)",
+   "header": [
+    "Projected Mid–Year Population # (in lakh)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of Suicides (Col.3/Col.5)",
+   "header": [
+    "Rate of Suicides (Col.3/Col.5)"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: ‘#’ – Projected Mid-Year Population for the year 2015. Source: Population Census & Registrar General of India, MHA",
+  "‘*’Adjusted Mid-year projected population for the year 2015 due to absence of population figures of newly created States namely Andhra",
+  "Pradesh and Telangana carved out from erstwhile ‘Andhra Pradesh.",
+  "‘Incidence’ – refers to number of suicides",
+  "Note: ‘$’ Actual Population for year 2011 from The Population Census 2011, as Mid Year Population Projection for cities for the year 2015 is",
+  "not available. Source: Population Census & Registrar General of India, MHA"
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 4,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

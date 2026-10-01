@@ -1,0 +1,79 @@
+{
+ "table_id": "cii/1997/25_table-5-1996-crime-survey_t5",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "25",
+ "title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES, UTs & CITY WISE DURING 1997",
+ "listing_title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States, UTs & City Wise During 1997",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-5-1996-crime-survey.pdf",
+ "source_sha256": "2975fd35102a746cbf81256e31ec6b969e9d2db1fb7cbc6ade1e1dcddcf8d297",
+ "table_no": "5",
+ "pdf_title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES, UTs & CITY WISE DURING 1997",
+ "row_label": "SL. STATE/UT/CITY NO. (4) STATIS:",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 5,
+ "n_cells": 280,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "INCIDENCE OF TOTAL COG. CRIMES (2)",
+   "header": [
+    "INCIDENCE OF TOTAL COG. CRIMES (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL (3)",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL (3)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS) (4)",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS) (4)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RATE OF TOTAL COG. CRIMES (5)",
+   "header": [
+    "RATE OF TOTAL COG. CRIMES (5)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RANK OF* CRIMINALITY (6) (7)",
+   "header": [
+    "RANK OF* CRIMINALITY (6) (7)"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 1 * Rank on the basis of Rate of total cognizable crimes (Col.6) in cities.",
+  "2 Percentage less than 0.05 is also shown as 0.0."
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 '- TOTAL (UTs)': printed 66711, sum 3.27993e+06",
+   "col 2 '‘TOTAL (CITIES)': printed 264947, sum 229122"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

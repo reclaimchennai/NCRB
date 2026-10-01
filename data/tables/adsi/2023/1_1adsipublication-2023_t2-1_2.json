@@ -1,0 +1,69 @@
+{
+ "table_id": "adsi/2023/1_1adsipublication-2023_t2-1_2",
+ "publication": "adsi",
+ "year": 2023,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2023",
+ "serial": "1",
+ "title": "Incidence and Rate of Suicides during 2013 to 2023 (All India)",
+ "listing_title": "Accidental Deaths & Suicides in India 2023 Report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/1ADSIPublication-2023.pdf",
+ "source_file": "raw/adsi/2023/year_wise/1ADSIPublication-2023.pdf",
+ "source_sha256": "b41d956d80b2e8e46ee70e7b81eb6e39d8e9a156d3455a1e7fe8d50508db2bdb",
+ "table_no": "2.1",
+ "pdf_title": "Incidence and Rate of Suicides during 2013 to 2023 (All India)",
+ "row_label": "Sl. No. / Year",
+ "pages": [
+  236
+ ],
+ "n_rows": 11,
+ "n_cols": 3,
+ "n_cells": 33,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Total Number of Suicides",
+   "header": [
+    "Total Number of Suicides"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Projected Mid– Year Population* (In Lakh)+",
+   "header": [
+    "Projected Mid– Year Population* (In Lakh)+"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Rate of Suicides (Col.3/Col.4)",
+   "header": [
+    "Rate of Suicides (Col.3/Col.4)"
+   ]
+  }
+ ],
+ "notes": [
+  "* Source: The Registrar General of India.",
+  "@ Source: Report of the Technical Group on Population Projections (November, 2019),",
+  "National Commission on Population, Ministry of Health & Family Welfare.",
+  "$ Source: Report of the Technical Group on Population Projections (July, 2020),",
+  "National Commission on Population, Ministry of Health & Family Welfare",
+  "+ One Lakh = 0.1 Million = 100,000",
+  "Rate of Suicides refers to number of suicides per one lakh of population.",
+  "’Incidence’ – refers to number",
+  "As per data provided by States/UTs"
+ ],
+ "checks": {
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,98 @@
+{
+ "table_id": "cii/1990/54_55table-55-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "54",
+ "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990 (State, UT & City-Wise) Burglary",
+ "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990 (State, UT & City-Wise) Burglary",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/55table-55-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/55table-55-1990-.pdf",
+ "source_sha256": "519cbb0a4f5d8e5e65f8a17759a4530a8c5d8377d9f712f85e30776bb1c542b5",
+ "table_no": "56",
+ "pdf_title": "",
+ "row_label": "NUMBER STATE/UT/CITY SL, NO. «>",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 8,
+ "n_cells": 360,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "OF NUMBER",
+   "header": [
+    "OF NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CASES (STATE, RES IVENTIAL PIEMIDED VALUE",
+   "header": [
+    "CASES (STATE, RES IVENTIAL PIEMIDED VALUE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "meruninu UT THEFT NUMBER",
+   "header": [
+    "meruninu UT THEFT NUMBER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "BY AND & CITY-WISE) HIGHWAYS VALUE",
+   "header": [
+    "BY AND & CITY-WISE) HIGHWAYS VALUE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "VALUE OF PLACE RIVER & NUMBER",
+   "header": [
+    "VALUE OF PLACE RIVER & NUMBER"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OF SEA VALUE",
+   "header": [
+    "OF SEA VALUE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "rrvrenix DURING RAILWAYS NUMBER",
+   "header": [
+    "rrvrenix DURING RAILWAYS NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "STOLEN 1990 VALUE",
+   "header": [
+    "STOLEN 1990 VALUE"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Value less than 0.05 is also shown as 0.0"
+ ],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 11,
+  "failures": [
+   "col 9 'TOTAL (STATES)': printed 14758, sum 21158"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

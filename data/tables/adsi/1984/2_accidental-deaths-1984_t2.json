@@ -1,0 +1,77 @@
+{
+ "table_id": "adsi/1984/2_accidental-deaths-1984_t2",
+ "publication": "adsi",
+ "year": 1984,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1984",
+ "serial": "2",
+ "title": "VOLUME OF ACCIDENTAL DEATHS PER ONE EAKH OF POPULATION",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1984.pdf",
+ "source_file": "raw/adsi/1984/year_wise/accidental-deaths-1984.pdf",
+ "source_sha256": "86567bccf4de10a9848a0f9475d7a32e28eb821f2c03e372591db7ecd18e5cb1",
+ "table_no": "",
+ "pdf_title": "VOLUME OF ACCIDENTAL DEATHS PER ONE EAKH OF POPULATION",
+ "row_label": "of Accidental Deaths, Lakh of Poputation and Sl. No. / of Accidental Deaths, States/U. Ts./ Cities",
+ "pages": [
+  5,
+  7
+ ],
+ "n_rows": 42,
+ "n_cols": 5,
+ "n_cells": 161,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
+   "col_no": "3",
+   "name": "of Accidental Deaths, | dAndia Total uuimy No.of Accidental Death",
+   "header": [
+    "of Accidental Deaths,",
+    "dAndia Total uuimy No.of Accidental Death"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Volume of Of 4-<%'=nts! Year 1984} Incidence tototal",
+   "header": [
+    "Volume of Of 4-<%'=nts! Year 1984} Incidence tototal"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Deaths per | Deaths To Alltionin (000)",
+   "header": [
+    "Deaths per",
+    "Deaths To Alltionin (000)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Deaths per | Popula- Volume of Accidental Deaths per lakh of population",
+   "header": [
+    "Deaths per",
+    "Popula- Volume of Accidental Deaths per lakh of population"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 1,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 129770, sum 129970"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

@@ -1,0 +1,96 @@
+{
+ "table_id": "cii/1999/4_table-4-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "4",
+ "title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs & Cites During (1994-1999) Alongwith Percentage Changes During 1999",
+ "listing_title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs & Cites During (1994-1999) Alongwith Percentage Changes During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-4-1999.pdf",
+ "source_sha256": "6b1dc38b2458bd3371717a76222fb981e10d6db13845c063d90d1a49c4a87c19",
+ "table_no": "4",
+ "pdf_title": "",
+ "row_label": "STATE/UTTCITY SL. NO. «@) STATIS",
+ "pages": [
+  1
+ ],
+ "n_rows": 59,
+ "n_cols": 6,
+ "n_cells": 350,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "(IPC) IN STATES, UTs AND CITIES | INCIDENCE OF TOTAL DURING (194-1998) | 1994 @)",
+   "header": [
+    "(IPC) IN STATES, UTs AND CITIES",
+    "INCIDENCE OF TOTAL DURING (194-1998)",
+    "1994 @)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "(IPC) IN STATES, UTs AND CITIES | AL! INGWITH ?EKUENTA GE CHANGES DURING 1'199 | INCIDENCE OF TOTAL DURING (194-1998) | 1995 Q)",
+   "header": [
+    "(IPC) IN STATES, UTs AND CITIES",
+    "AL! INGWITH ?EKUENTA GE CHANGES DURING 1'199",
+    "INCIDENCE OF TOTAL DURING (194-1998)",
+    "1995 Q)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(IPC) IN STATES, UTs AND CITIES | AL! INGWITH ?EKUENTA GE CHANGES DURING 1'199 | 1996 (4)",
+   "header": [
+    "(IPC) IN STATES, UTs AND CITIES",
+    "AL! INGWITH ?EKUENTA GE CHANGES DURING 1'199",
+    "1996 (4)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(IPC) IN STATES, UTs AND CITIES | AL! INGWITH ?EKUENTA GE CHANGES DURING 1'199 | 1997 (5)",
+   "header": [
+    "(IPC) IN STATES, UTs AND CITIES",
+    "AL! INGWITH ?EKUENTA GE CHANGES DURING 1'199",
+    "1997 (5)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(IPC) IN STATES, UTs AND CITIES | AL! INGWITH ?EKUENTA GE CHANGES DURING 1'199 | 1999 1998 NIAL aA 6 (9) (10)",
+   "header": [
+    "(IPC) IN STATES, UTs AND CITIES",
+    "AL! INGWITH ?EKUENTA GE CHANGES DURING 1'199",
+    "1999 1998 NIAL aA 6 (9) (10)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(IPC) IN STATES, UTs AND CITIES | PERCENTAGE CHANGE QUINQUENIN 1998{(+) INCREASE AVERAGE () DECREASE! OVER (1993-1997) an (Q.A.) (8) a)",
+   "header": [
+    "(IPC) IN STATES, UTs AND CITIES",
+    "PERCENTAGE CHANGE QUINQUENIN 1998{(+) INCREASE AVERAGE () DECREASE! OVER (1993-1997) an (Q.A.) (8) a)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 1,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 1.59078e+06, sum 1.47852e+06",
+   "col 2 'TOTAL (CITIES)': printed 230469, sum 312583",
+   "col 3 'TOTAL (STATES)': printed 1.64236e+06, sum 1.65496e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

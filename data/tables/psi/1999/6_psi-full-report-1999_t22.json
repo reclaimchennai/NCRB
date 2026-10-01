@@ -1,0 +1,144 @@
+{
+ "table_id": "psi/1999/6_psi-full-report-1999_t22",
+ "publication": "psi",
+ "year": 1999,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1999",
+ "serial": "6",
+ "title": "NUMBER OF UNDERTRIALS BY TYPE OF IPC OFFENCES AT THE END OF 1999",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
+ "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
+ "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
+ "table_no": "22",
+ "pdf_title": "NUMBER OF UNDERTRIALS BY TYPE OF IPC OFFENCES AT THE END OF 1999",
+ "row_label": "T @)",
+ "pages": [
+  110,
+  111
+ ],
+ "n_rows": 55,
+ "n_cols": 13,
+ "n_cells": 238,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ATTEMPT | MURDER (3)",
+   "header": [
+    "ATTEMPT",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ATTEMPT | MURDER (4)",
+   "header": [
+    "ATTEMPT",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ATTEMPT | C.H.NOT AMOUNT -ING TO MURDER",
+   "header": [
+    "ATTEMPT",
+    "C.H.NOT AMOUNT -ING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPP NG & ABDUCTI ON",
+   "header": [
+    "KIDNAPP NG & ABDUCTI ON"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "pacoity",
+   "header": [
+    "pacoity"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "- | 7OR pacouty",
+   "header": [
+    "-",
+    "7OR pacouty"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "- | ¥",
+   "header": [
+    "-",
+    "¥"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "BURGLARY Q)",
+   "header": [
+    "BURGLARY Q)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "THEFTS (tH)",
+   "header": [
+    "THEFTS (tH)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "RIOT as) (By",
+   "header": [
+    "RIOT as) (By"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "OTHER: CHEATING ypc crme (17) (16) (3)",
+   "header": [
+    "OTHER: CHEATING ypc crme (17) (16) (3)"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "CRIMINAL UNDER BREACH COUNTER: - OF RUST TEA (18) (14)",
+   "header": [
+    "CRIMINAL UNDER BREACH COUNTER: - OF RUST TEA (18) (14)"
+   ]
+  }
+ ],
+ "notes": [
+  "NA-DATA NOT AVAILABLE."
+ ],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (UTS)': printed 1703, sum 108031",
+   "col 10001 'TOTAL (UTS)': printed 692089, sum 5.67978e+06",
+   "col 10003 'TOTAL (UTS)': printed 255, sum 1542",
+   "col 10004 'TOTAL (UTS)': printed 330, sum 48222",
+   "col 10005 'TOTAL (UTS)': printed 7220, sum 88594",
+   "col 10005 'TOTAL (UTS) [line 2]': printed 161679, sum 227544"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

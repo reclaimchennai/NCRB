@@ -1,0 +1,107 @@
+{
+ "table_id": "cii/1999/60_table-60-1999_t60",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "60",
+ "title": "‘S22?",
+ "listing_title": "Classification of Juveniles Arrested (Under IPC & SLL) by Attributes During 1999 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-60-1999.pdf",
+ "source_sha256": "11f16b98e2cf1339768e3edd34c059c1d1e25839eca950eacc18e9b7ddb3be1e",
+ "table_no": "60",
+ "pdf_title": "‘S22?",
+ "row_label": "SL. NO. a STATES: 1",
+ "pages": [
+  2
+ ],
+ "n_rows": 59,
+ "n_cols": 8,
+ "n_cells": 448,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "ANNUAL INCOME (UPTO Rs.25,000) @ ANDHRA PRADESH",
+   "header": [
+    "ANNUAL INCOME (UPTO Rs.25,000) @ ANDHRA PRADESH"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "ANNUAL INCOME 25,001to 50,000) (12) 889",
+   "header": [
+    "ANNUAL INCOME 25,001to 50,000) (12) 889"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BY 2 (13) 147",
+   "header": [
+    "BY 2 (13) 147"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "SETUP | MIDDLE MIDDLE INCOME INCOME (from (from $0,001 to 1,00,000) (14) $7",
+   "header": [
+    "SETUP",
+    "MIDDLE MIDDLE INCOME INCOME (from (from $0,001 to 1,00,000) (14) $7"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "SETUP | § —2,00,000) as) I",
+   "header": [
+    "SETUP",
+    "§ —2,00,000) as) I"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "UPPER MIDDLE INCOME 1,00,001 to (fram 2.00 001 De 2.90 anm to 3,00,000) a6 0",
+   "header": [
+    "UPPER MIDDLE INCOME 1,00,001 to (fram 2.00 001 De 2.90 anm to 3,00,000) a6 0"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "BY | UPPER TOTAL NEW DELIN- OLD DELIN. INCOME QUENT (above a) (7) 0) 927",
+   "header": [
+    "BY",
+    "UPPER TOTAL NEW DELIN- OLD DELIN. INCOME QUENT (above a) (7) 0) 927"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "BY | TOTAL (21) (18) (20) 167 1094 1094",
+   "header": [
+    "BY",
+    "TOTAL (21) (18) (20) 167 1094 1094"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 20,
+  "cells_passed": 12,
+  "failures": [
+   "col 2 'TOTAL STATES': printed 14091, sum 13191",
+   "col 2 'TOTAL (CITIES)': printed 2445, sum 2185",
+   "col 4 'TOTAL (UTs)': printed 1, sum 71",
+   "col 4 'TOTAL (ALL-INDIA)': printed 947, sum 877",
+   "col 5 'TOTAL STATES': printed 158, sum 164",
+   "col 8 'TOTAL (UTs)': printed 415397, sum 415",
+   "col 8 'TOTAL (ALL-INDIA)': printed 1.84602e+09, sum 1.80493e+09",
+   "col 8 'TOTAL (CITIES)': printed 3.19728e+07, sum 2937"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

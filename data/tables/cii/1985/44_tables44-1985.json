@@ -1,0 +1,109 @@
+{
+ "table_id": "cii/1985/44_tables44-1985",
+ "publication": "cii",
+ "year": 1985,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "44",
+ "title": "Disposal of Juveniles Sent to Courts During 1985",
+ "listing_title": "Disposal of Juveniles Sent to Courts During 1985",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables44-1985.pdf",
+ "source_file": "raw/cii/1985/table_content/tables44-1985.pdf",
+ "source_sha256": "b7951f731ddf4a604b5bea55da15fb4091088d052c909d7969639bf4fd2d7bb0",
+ "table_no": "44",
+ "pdf_title": "Of Juveniles Sent To Courts During 1985",
+ "row_label": "States/U.Ts/Cities Sl. No. q1)",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 73,
+ "n_cols": 9,
+ "n_cells": 417,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "SENT TO COURTS",
+   "header": [
+    "SENT TO COURTS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TO",
+   "header": [
+    "TO"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ON PROBATION",
+   "header": [
+    "ON PROBATION"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1U - TORIES OR",
+   "header": [
+    "1U - TORIES OR"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "SENT TO OR IONS",
+   "header": [
+    "SENT TO OR IONS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "TO SENT ADULT ION",
+   "header": [
+    "TO SENT ADULT ION"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "OR OTHER DIsrUsSED WISE OF",
+   "header": [
+    "OR OTHER DIsrUsSED WISE OF"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PENDING DISPOSAL",
+   "header": [
+    "PENDING DISPOSAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 18,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 'TOTAL (U.Ts. )': printed 6273, sum 6153",
+   "col 3 'TOTAL (CITIES)': printed 36902, sum 36302",
+   "col 8 'TOTAL (U.Ts. )': printed 8, sum 430",
+   "col 8 'TOTAL (STATES)': printed 905, sum 476",
+   "col 9 'TOTAL (U.Ts. )': printed 2128, sum 7938",
+   "col 9 'TOTAL (CITIES)': printed 9338, sum 4669",
+   "col 9 'TOTAL (STATES)': printed 17847, sum 10443",
+   "col 10 'TOTAL (CITIES)': printed 5615, sum 4888"
+  ],
+  "other_totals_checked": 10,
+  "other_totals_passed": 9
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

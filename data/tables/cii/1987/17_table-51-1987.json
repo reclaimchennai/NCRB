@@ -1,0 +1,121 @@
+{
+ "table_id": "cii/1987/17_table-51-1987",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "17",
+ "title": "Number of Cases Reported and Value of Property Stolen under Robbery by Place of Occurrence During 1987",
+ "listing_title": "Number of Cases Reported and Value of Property Stolen under Robbery by Place of Occurrence During 1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_51-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_51-1987.pdf",
+ "source_sha256": "26825d715b00d9c643fa541bcbed04cd1febb22a5c8f2242fd5998358dce4c64",
+ "table_no": "51",
+ "pdf_title": "Number Of Cases Reported And Value Of Property Stolen Under Robbery By Place Of Occurrence During 1987. «Value in Rs. Lakhs)",
+ "row_label": "Sl STATES/U. Ts/CITIES NO a)",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 77,
+ "n_cols": 10,
+ "n_cells": 476,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "RESIDENTIAL OF NUMBER CASES",
+   "header": [
+    "RESIDENTIAL OF NUMBER CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PREMISES VALUE STOLEN",
+   "header": [
+    "PREMISES VALUE STOLEN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "HIGHWAYS | OF OF CASES neruninv",
+   "header": [
+    "HIGHWAYS",
+    "OF OF CASES neruninv"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "HIGHWAYS | VALUE OF NO. PROPENIX STOLEN",
+   "header": [
+    "HIGHWAYS",
+    "VALUE OF NO. PROPENIX STOLEN"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "RIVER AND SEA | NUMBER OF",
+   "header": [
+    "RIVER AND SEA",
+    "NUMBER OF"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "RIVER AND SEA | VALUE OF",
+   "header": [
+    "RIVER AND SEA",
+    "VALUE OF"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "RAILWAYS | NO.",
+   "header": [
+    "RAILWAYS",
+    "NO."
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RAILWAYS | OF VALUE OF",
+   "header": [
+    "RAILWAYS",
+    "OF VALUE OF"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BANKS OF OF NUMBER OF NO. CASES CASES REPORTED NEPURIED ql1)",
+   "header": [
+    "BANKS OF OF NUMBER OF NO. CASES CASES REPORTED NEPURIED ql1)"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "COMMERCIAL ESTBLS. VALUE VALUE OF PROPERTY PROPERTY STOLEN STOLEN #12)",
+   "header": [
+    "COMMERCIAL ESTBLS. VALUE VALUE OF PROPERTY PROPERTY STOLEN STOLEN #12)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 1,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 6616, sum 6617",
+   "col 7 'TOTAL (States)': printed 10, sum 6",
+   "col 7 'TOTAL (Cities)': printed 1, sum 5",
+   "col 9 'TOTAL (States)': printed 386, sum 229"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

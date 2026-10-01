@@ -1,0 +1,118 @@
+{
+ "table_id": "cii/2001/15_table-34e-2001",
+ "publication": "cii",
+ "year": 2001,
+ "listing": "table_content",
+ "topic": "Crime Against Weaker Sections of Society (SCs/STs)",
+ "section": "Crime Against Weaker Sections of Society (SCs/STs)",
+ "serial": "15",
+ "title": "Disposal of cases for crimes committed against STs by Courts (State/UT wise)",
+ "listing_title": "Disposal of cases for crimes committed against STs by Courts (State/UT wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/TABLE-34E-2001.pdf",
+ "source_file": "raw/cii/2001/table_content/TABLE-34E-2001.pdf",
+ "source_sha256": "efd8ad163c275c232fdc69dbfb5bc6b555b87db8a1454f763ef1170bd11ecab2",
+ "table_no": "34E",
+ "pdf_title": "Disposal Of Cases For Crimes Committed Against Scheduled Tribes By Courts During 2001",
+ "row_label": "CRIME HEAD SL. NO. / CRIME HEAD",
+ "pages": [
+  1
+ ],
+ "n_rows": 38,
+ "n_cols": 10,
+ "n_cells": 345,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
+   "header": [
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CASES WITHDRAWN BY GOVT.",
+   "header": [
+    "CASES WITHDRAWN BY GOVT."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF CASES | COMPOUNDED OR WITHDRAWN",
+   "header": [
+    "NO. OF CASES",
+    "COMPOUNDED OR WITHDRAWN"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVIC TED",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "CONVIC TED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUITTED OR DIS CHARGED",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "ACQUITTED OR DIS CHARGED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL {(6) + (7))",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "TOTAL {(6) + (7))"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF CASES | PENDING TRIAL",
+   "header": [
+    "NO. OF CASES",
+    "PENDING TRIAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PENDENCY %AGE",
+   "header": [
+    "PENDENCY %AGE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "%AGE OF PENDENCY TO ALL INDIA TOTAL",
+   "header": [
+    "%AGE OF PENDENCY TO ALL INDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "CONVICTION RATE ((COL6) / (COL8) * 100)",
+   "header": [
+    "CONVICTION RATE ((COL6) / (COL8) * 100)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 18,
+  "cells_passed": 17,
+  "failures": [
+   "col 6 'TOTAL (STATES)': printed 860, sum 105010"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

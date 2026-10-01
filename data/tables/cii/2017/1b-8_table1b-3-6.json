@@ -1,0 +1,87 @@
+{
+ "table_id": "cii/2017/1b-8_table1b-3-6",
+ "publication": "cii",
+ "year": 2017,
+ "listing": "additional_table",
+ "topic": "Summary (34 Metropolitan Cities)",
+ "section": "Chapter - 1B -- Summary (34 Metropolitan Cities)",
+ "serial": "1B.8",
+ "title": "Total IPC & SLL Crimes in Metropolitan Cities - 2015-2017",
+ "listing_title": "Total IPC & SLL Crimes in Metropolitan Cities - 2015-2017",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/Table1B.3_6.pdf",
+ "source_file": "raw/cii/2017/additional_table/Table1B.3_6.pdf",
+ "source_sha256": "b090f90732cb413a8b39496bdc218be753570e6125c23ed68775c934b63b22ff",
+ "table_no": "1B.3",
+ "pdf_title": "Total IPC & SLL Crimes in Metropolitan Cities - 2016-2018",
+ "row_label": "S. No / City",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 210,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "IPC + SLL Cognizable Crimes | 2016",
+   "header": [
+    "IPC + SLL Cognizable Crimes",
+    "2016"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "IPC + SLL Cognizable Crimes | 2017",
+   "header": [
+    "IPC + SLL Cognizable Crimes",
+    "2017"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "IPC + SLL Cognizable Crimes | 2018",
+   "header": [
+    "IPC + SLL Cognizable Crimes",
+    "2018"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage Share of State (2018)",
+   "header": [
+    "Percentage Share of State (2018)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Actual Population (in Lakhs) (2011)+",
+   "header": [
+    "Actual Population (in Lakhs) (2011)+"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Rate of Cognizable Crimes (IPC+SLL) (2018)++",
+   "header": [
+    "Rate of Cognizable Crimes (IPC+SLL) (2018)++"
+   ]
+  }
+ ],
+ "notes": [
+  "Note : i) '++ Crime Rate is calculated as Crime per one lakh of population. TABLE 1B.3 Page 1 of 1",
+  "ii) '+ Population Source: Registrar General of India Actual Population based on 2011 Census.",
+  "iii) As per data provided by States/UTs"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

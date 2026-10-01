@@ -1,0 +1,224 @@
+{
+ "table_id": "adsi/1994/7_accidental-deaths-1994_t5",
+ "publication": "adsi",
+ "year": 1994,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1994",
+ "serial": "7",
+ "title": "Of Acciuenta: Deaths By Sex And Age-Groups During 1994",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1994.pdf",
+ "source_file": "raw/adsi/1994/year_wise/accidental-deaths-1994.pdf",
+ "source_sha256": "6ccee761c6f40bf3060f2134e781f1ee69f2bad9f14e7e9b405ebb26af808c5e",
+ "table_no": "5",
+ "pdf_title": "Of Acciuenta: Deaths By Sex And Age-Groups During 1994",
+ "row_label": "(State & UT-wise) SI. State/UT No. (1) States:",
+ "pages": [
+  30,
+  31,
+  32,
+  33,
+  34,
+  35
+ ],
+ "n_rows": 73,
+ "n_cols": 22,
+ "n_cells": 1213,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "(State & UT-wise) | Male (2)",
+   "header": [
+    "(State & UT-wise)",
+    "Male (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "(State & UT-wise) | Below Female (3)",
+   "header": [
+    "(State & UT-wise)",
+    "Below Female (3)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(State & UT-wise) | 8 Years Total (4)",
+   "header": [
+    "(State & UT-wise)",
+    "8 Years Total (4)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(State & UT-wise) | To Total Deaths (6)",
+   "header": [
+    "(State & UT-wise)",
+    "To Total Deaths (6)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(State & UT-wise) | Male (6)",
+   "header": [
+    "(State & UT-wise)",
+    "Male (6)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(State & UT-wise) | Female (7)",
+   "header": [
+    "(State & UT-wise)",
+    "Female (7)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "(State & UT-wise) | 18 - 30 Years Total (8)",
+   "header": [
+    "(State & UT-wise)",
+    "18 - 30 Years Total (8)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "To Total Deaths (9) (10)",
+   "header": [
+    "To Total Deaths (9) (10)"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "ASCINENTAL DEATHS & | Male",
+   "header": [
+    "ASCINENTAL DEATHS &",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "IN INDIA - 1994 | 30 - 50 Female",
+   "header": [
+    "IN INDIA - 1994",
+    "30 - 50 Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "IN INDIA - 1994 | TABLE - 5 Total",
+   "header": [
+    "IN INDIA - 1994",
+    "TABLE - 5 Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "To Total Deaths",
+   "header": [
+    "To Total Deaths"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Male (15)",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "N.C.R.B. - 46 | 50 Years And Above | Female",
+   "header": [
+    "N.C.R.B. - 46",
+    "50 Years And Above",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "N.C.R.B. - 46 | 50 Years And Above | Total",
+   "header": [
+    "N.C.R.B. - 46",
+    "50 Years And Above",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "N.C.R.B. - 46 | To Total Deaths",
+   "header": [
+    "N.C.R.B. - 46",
+    "To Total Deaths"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Male (19)",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Tota Female",
+   "header": [
+    "Tota Female"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Deaths Total",
+   "header": [
+    "Deaths Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Percentage of Male",
+   "header": [
+    "Percentage of Male"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Percentage of Female",
+   "header": [
+    "Percentage of Female"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Percentage To Total Deaths",
+   "header": [
+    "Percentage To Total Deaths"
+   ]
+  }
+ ],
+ "notes": [
+  "Note 18-30 years means 18 years and above but below 30 years of age etc.",
+  "1DA—-619 NCRB/9S."
+ ],
+ "checks": {
+  "cells_checked": 19,
+  "cells_passed": 5,
+  "failures": [
+   "col 11 'TOTAL (States)': printed 45576, sum 35499",
+   "col 11 'TOTAL (UTs)': printed 2518, sum 12595",
+   "col 12 'TOTAL (States)': printed 15248, sum 12234",
+   "col 15 'TOTAL (States)': printed 20795, sum 16046",
+   "col 15 'TOTAL (UTs)': printed 1000, sum 5749",
+   "col 16 'TOTAL (UTs)': printed 199, sum 1896",
+   "col 17 'TOTAL (States)': printed 28473, sum 22027",
+   "col 17 'TOTAL (UTs)': printed 1199, sum 7645"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 6,
+ "warnings": []
+}

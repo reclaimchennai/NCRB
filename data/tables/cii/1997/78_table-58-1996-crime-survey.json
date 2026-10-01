@@ -1,0 +1,117 @@
+{
+ "table_id": "cii/1997/78_table-58-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "78",
+ "title": "Juveniles Apprehended Under SLL Crimes by Age Group & Sex During 1997 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Apprehended Under SLL Crimes by Age Group & Sex During 1997 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-58-1996-crime-survey.pdf",
+ "source_sha256": "17df4243820a383312ef955ce5fb7d02d9813dc402cdc6c066eea218a134034b",
+ "table_no": "58",
+ "pdf_title": "",
+ "row_label": "JUVENILES STATERITICHY",
+ "pages": [
+  1
+ ],
+ "n_rows": 57,
+ "n_cols": 8,
+ "n_cells": 303,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "JUVENILES | BOYS",
+   "header": [
+    "JUVENILES",
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1997 | JUVENILES | UNDER SLL CRIMES BY AGE GROUP & SEX DURING UT & CITY-WISE) | 7 7-12 YEARS GIRLS",
+   "header": [
+    "1997",
+    "JUVENILES",
+    "UNDER SLL CRIMES BY AGE GROUP & SEX DURING UT & CITY-WISE)",
+    "7 7-12 YEARS GIRLS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1997 | JUVENILES | UNDER SLL CRIMES BY AGE GROUP & SEX DURING UT & CITY-WISE) | 12-16 YEARS | BOYS",
+   "header": [
+    "1997",
+    "JUVENILES",
+    "UNDER SLL CRIMES BY AGE GROUP & SEX DURING UT & CITY-WISE)",
+    "12-16 YEARS",
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1997 | JUVENILES | UNDER SLL CRIMES BY AGE GROUP & SEX DURING UT & CITY-WISE) | 12-16 YEARS | GIRLS",
+   "header": [
+    "1997",
+    "JUVENILES",
+    "UNDER SLL CRIMES BY AGE GROUP & SEX DURING UT & CITY-WISE)",
+    "12-16 YEARS",
+    "GIRLS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1997 | JUVENILES | UNDER SLL CRIMES BY AGE GROUP & SEX DURING UT & CITY-WISE) | 16-18 YEARS GIRLS",
+   "header": [
+    "1997",
+    "JUVENILES",
+    "UNDER SLL CRIMES BY AGE GROUP & SEX DURING UT & CITY-WISE)",
+    "16-18 YEARS GIRLS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "1997 | ONLY BOYS",
+   "header": [
+    "1997",
+    "ONLY BOYS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1997 | OVERALL AGE GIRLS",
+   "header": [
+    "1997",
+    "OVERALL AGE GIRLS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "1997 | ear GIRLS)",
+   "header": [
+    "1997",
+    "ear GIRLS)"
+   ]
+  }
+ ],
+ "notes": [
+  "Noe: 7-12 years means 7 years and above but below 12 years of age etc."
+ ],
+ "checks": {
+  "cells_checked": 11,
+  "cells_passed": 9,
+  "failures": [
+   "col 9 'TOTAL (ALL-INDIA)': printed 9.31466e+06, sum 9.23466e+06",
+   "col 10 'TOTAL (ALL-INDIA)': printed 5589, sum 6389"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

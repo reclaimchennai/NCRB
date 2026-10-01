@@ -1,0 +1,173 @@
+{
+ "table_id": "adsi/1999/5_table-9-1999_t9",
+ "publication": "adsi",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "5",
+ "title": "Incidence of Read A==:=:2= During Various Quarters of 1999 (State , UT & City-wise)",
+ "listing_title": "Incidence of Road Accidents during various Quarters of 1999 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-9_1999.pdf",
+ "source_file": "raw/adsi/1999/table_content/table-9_1999.pdf",
+ "source_sha256": "065e3049b18515c7f65da13e999d679856ac2a270bcb0128d13c58f8b6af247b",
+ "table_no": "9",
+ "pdf_title": "Incidence of Read A==:=:2= During Various Quarters of 1999 (State , UT & City-wise)",
+ "row_label": "a / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 70,
+ "n_cols": 19,
+ "n_cells": 997,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "%share (4)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "tind Qtr",
+   "header": [
+    "tind Qtr"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "%share (6)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "- (7)",
+   "header": [
+    "-"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Hird Qtr.",
+   "header": [
+    "Hird Qtr."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "- (9)",
+   "header": [
+    "-"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Qtr. (10)",
+   "header": [
+    "Qtr."
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "«= - %share Total",
+   "header": [
+    "«= - %share Total"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "- (12)",
+   "header": [
+    "-"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "col_10001",
+   "header": []
+  },
+  {
+   "col_no": "10002",
+   "name": "Iind Qtr",
+   "header": [
+    "Iind Qtr"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "%share (10003)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Qtr. (10004)",
+   "header": [
+    "Qtr."
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "%share (10005)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "col_10006",
+   "header": []
+  },
+  {
+   "col_no": "10007",
+   "name": "%ahare (10007)",
+   "header": [
+    "%ahare"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "%ahare (10009)",
+   "header": [
+    "%ahare"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 2977, sum 151619",
+   "col 3 '- TOTAL (Cities)': printed 42489, sum 19826",
+   "col 5 'TOTAL (UTs)': printed 2721, sum 157173",
+   "col 7 'TOTAL (UTs)': printed 2842, sum 130488",
+   "col 7 '- TOTAL (Cities)': printed 12155, sum 12164",
+   "col 10002 'TOTAL (States)': printed 865, sum 63"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

@@ -1,0 +1,79 @@
+{
+ "table_id": "cii/1986/41_tabl42-1986",
+ "publication": "cii",
+ "year": 1986,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "41",
+ "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under IPC During 1986",
+ "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under IPC During 1986",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl42-1986.pdf",
+ "source_file": "raw/cii/1986/table_content/tabl42-1986.pdf",
+ "source_sha256": "2a6d43f9c693937623b620c3257f2171855dba83789805cfcf241215da9d04d2",
+ "table_no": "",
+ "pdf_title": "TABLe 42",
+ "row_label": "Juveniles Apprehénded (By Age States/U.Ts/Cities Si. No. 1 STATES",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 231,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Juveniles Apprehénded (By Age | 7t0 12 years 2",
+   "header": [
+    "Juveniles Apprehénded (By Age",
+    "7t0 12 years 2"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "For Committing Crimes 12to 16 years 3",
+   "header": [
+    "For Committing Crimes 12to 16 years 3"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Under IPC During 1986 | 16to 18 years a",
+   "header": [
+    "Under IPC During 1986",
+    "16to 18 years a"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Under IPC During 1986 | 18to 21 years 5",
+   "header": [
+    "Under IPC During 1986",
+    "18to 21 years 5"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total 6 7",
+   "header": [
+    "Total 6 7"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 6,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 1451, sum 1398",
+   "col 2 'TOTAL (CITIES)': printed 167, sum 170"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,102 @@
+{
+ "table_id": "psi/2021/9-3_1670499955-table-9-3-2021",
+ "publication": "psi",
+ "year": 2021,
+ "listing": "table_content",
+ "topic": "Jail Breaks, Escapes & Clashes/Group Clashes in Prisons",
+ "section": "Chapter - 9 -- Jail Breaks, Escapes & Clashes/Group Clashes in Prisons",
+ "serial": "9. 3",
+ "title": "Clashes/Group Clashes (with/without use of Firearm) incidences, injuries and deaths",
+ "listing_title": "Clashes/Group Clashes (with/without use of Firearm) incidences, injuries and deaths",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1670499955_TABLE 9.3 - 2021.pdf",
+ "source_file": "raw/psi/2021/table_content/1670499955_TABLE 9.3 - 2021.pdf",
+ "source_sha256": "61e00bc1c681c0c44f601e119b6e276dfeed83ec93df3b4f543c9e4e4a92a0aa",
+ "table_no": "9.3",
+ "pdf_title": "Clashes/Group Clashes (with use of Firearm) - incidences, injuries and deaths during the year 2021",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 53,
+ "n_cols": 7,
+ "n_cells": 371,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of incidences",
+   "header": [
+    "Number of incidences"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of persons injured/killed | Injured Jail Inmates Total Personnel (4)",
+   "header": [
+    "Number of persons injured/killed",
+    "Injured Jail Inmates Total Personnel"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of persons injured/killed | Injured Jail Inmates Total Personnel (5)",
+   "header": [
+    "Number of persons injured/killed",
+    "Injured Jail Inmates Total Personnel"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Number of persons injured/killed | Injured Jail Inmates Total Personnel (6)",
+   "header": [
+    "Number of persons injured/killed",
+    "Injured Jail Inmates Total Personnel"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Number of persons injured/killed | Killed Jail Inmates Total Personnel (7)",
+   "header": [
+    "Number of persons injured/killed",
+    "Killed Jail Inmates Total Personnel"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Number of persons injured/killed | Killed Jail Inmates Total Personnel (8)",
+   "header": [
+    "Number of persons injured/killed",
+    "Killed Jail Inmates Total Personnel"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Number of persons injured/killed | Killed Jail Inmates Total Personnel (9)",
+   "header": [
+    "Number of persons injured/killed",
+    "Killed Jail Inmates Total Personnel"
+   ]
+  }
+ ],
+ "notes": [
+  "• As per data provided by States/UTs."
+ ],
+ "checks": {
+  "cells_checked": 49,
+  "cells_passed": 45,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 53, sum 13",
+   "col 4 'TOTAL (STATES)': printed 48, sum 14",
+   "col 5 'TOTAL (STATES)': printed 3, sum 1",
+   "col 6 'TOTAL (STATES)': printed 51, sum 15"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

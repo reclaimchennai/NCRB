@@ -1,0 +1,71 @@
+{
+ "table_id": "adsi/2012/12_table-1-2-2012",
+ "publication": "adsi",
+ "year": 2012,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "12",
+ "title": "Incidence and Rate of Accidental Deaths during 2012 (State, UT & City-wise)",
+ "listing_title": "Incidence and Rate of Accidental Deaths during 2012 (State, UT & City-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-1.2_2012.pdf",
+ "source_file": "raw/adsi/2012/table_content/table-1.2_2012.pdf",
+ "source_sha256": "5574bcc7b2c03f108e94b996bfe2b6f950ebf9108bc7a34251844e2a4c263135",
+ "table_no": "1.2",
+ "pdf_title": "Incidence and rate of accidental deaths – 2012 (State, UT & City–wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 92,
+ "n_cols": 4,
+ "n_cells": 368,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of accidental deaths",
+   "header": [
+    "Number of accidental deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage share in total deaths",
+   "header": [
+    "Percentage share in total deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Projected mid- year population * (Provisional) (in Lakhs)",
+   "header": [
+    "Projected mid- year population * (Provisional) (in Lakhs)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of accidental deaths",
+   "header": [
+    "Rate of accidental deaths"
+   ]
+  }
+ ],
+ "notes": [
+  "* Source: The Registrar General of India",
+  "Note: Percentage value less than 0.05 is treated as zero.",
+  "* Source: Population Census of India 2011 (Provisional), the Registrar General of India."
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

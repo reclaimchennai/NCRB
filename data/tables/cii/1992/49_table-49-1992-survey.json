@@ -1,0 +1,91 @@
+{
+ "table_id": "cii/1992/49_table-49-1992-survey",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "49",
+ "title": "Incidence of Crimes Committed Against Women During 1990 (State & UT-wise)",
+ "listing_title": "Incidence of Crimes Committed Against Women During 1990 (State & UT-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-49-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-49-1992-survey.pdf",
+ "source_sha256": "8070bc73e88c8633694d8d233c7b201640627dcfa400152baa2115680a084521",
+ "table_no": "49",
+ "pdf_title": "",
+ "row_label": "SL. No. / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 7,
+ "n_cells": 241,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "INCIDBNCE RAPE",
+   "header": [
+    "INCIDBNCE RAPE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "OF KIDRAPPING &",
+   "header": [
+    "OF KIDRAPPING &"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CRIMES (STATE ABDUCTION",
+   "header": [
+    "CRIMES (STATE ABDUCTION"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "WOMEN & CRUELTY BY DEATHS AMD RELATIVES",
+   "header": [
+    "WOMEN & CRUELTY BY DEATHS AMD RELATIVES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "DURING AGAINST UT-WISE) MOLES - HUSBAND TATION HIS",
+   "header": [
+    "DURING AGAINST UT-WISE) MOLES - HUSBAND TATION HIS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "195 EVETEASING",
+   "header": [
+    "195 EVETEASING"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [
+  "NOTE: FIGURES ARE BASED ON MONTHLY CRIME STATISTICS AND MAY BE TREATED AS PROVISIONAL."
+ ],
+ "checks": {
+  "cells_checked": 14,
+  "cells_passed": 13,
+  "failures": [
+   "col 6 'TOTAL (STATES)': printed 13325, sum 15116"
+  ],
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

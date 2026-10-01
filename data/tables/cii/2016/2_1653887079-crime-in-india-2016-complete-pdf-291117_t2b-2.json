@@ -1,0 +1,188 @@
+{
+ "table_id": "cii/2016/2_1653887079-crime-in-india-2016-complete-pdf-291117_t2b-2",
+ "publication": "cii",
+ "year": 2016,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 2016",
+ "serial": "2",
+ "title": "Motives of Murder in Metropolitan Cities - 2016",
+ "listing_title": "Message - Home Secretary",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653887079_Crime in India - 2016 Complete PDF 291117.pdf",
+ "source_file": "raw/cii/2016/year_wise/1653887079_Crime in India - 2016 Complete PDF 291117.pdf",
+ "source_sha256": "e23f9c0c06c3fe11a453714b3a5880bb673ab3d31c5e10568a93a0496346ee31",
+ "table_no": "2B.2",
+ "pdf_title": "Motives of Murder in Metropolitan Cities - 2016",
+ "row_label": "S. No. / State/UT",
+ "pages": [
+  148,
+  149,
+  150
+ ],
+ "n_rows": 56,
+ "n_cols": 20,
+ "n_cells": 406,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Personal Vendetta Or Enmity",
+   "header": [
+    "Personal Vendetta Or Enmity"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Property Dispute",
+   "header": [
+    "Property Dispute"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Gain",
+   "header": [
+    "Gain"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Illicit Relationship",
+   "header": [
+    "Illicit Relationship"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Love Affairs",
+   "header": [
+    "Love Affairs"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Dowry",
+   "header": [
+    "Dowry"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Water or Money Dispute",
+   "header": [
+    "Water or Money Dispute"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Extremism/ City Naxalism",
+   "header": [
+    "Extremism/ City Naxalism"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Casteism",
+   "header": [
+    "Casteism"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Robbery/ Extortion",
+   "header": [
+    "Robbery/ Extortion"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Rape",
+   "header": [
+    "Rape"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Class Conflict",
+   "header": [
+    "Class Conflict"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Witch Craft",
+   "header": [
+    "Witch Craft"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Political Reasons",
+   "header": [
+    "Political Reasons"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Lunacy",
+   "header": [
+    "Lunacy"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Honour Killing",
+   "header": [
+    "Honour Killing"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Communalism",
+   "header": [
+    "Communalism"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Child/ Human Sacrifice",
+   "header": [
+    "Child/ Human Sacrifice"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Other Causes*",
+   "header": [
+    "Other Causes*"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Total Motives",
+   "header": [
+    "Total Motives"
+   ]
+  }
+ ],
+ "notes": [
+  "Note : * Other causes also includes Domestic Dispute and Causes not known TABLE 2B.2 - Page: 3 of 3"
+ ],
+ "checks": {
+  "cells_checked": 20,
+  "cells_passed": 15,
+  "failures": [
+   "col 10001 'TOTAL CITIES': printed 2, sum 0",
+   "col 10002 'TOTAL CITIES': printed 3, sum 2",
+   "col 10004 'TOTAL CITIES': printed 2, sum 1",
+   "col 10005 'TOTAL CITIES': printed 1006, sum 438",
+   "col 10006 'TOTAL CITIES': printed 2194, sum 576"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 0,
+ "warnings": []
+}

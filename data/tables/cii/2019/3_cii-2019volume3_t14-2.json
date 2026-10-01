@@ -1,0 +1,116 @@
+{
+ "table_id": "cii/2019/3_cii-2019volume3_t14-2",
+ "publication": "cii",
+ "year": 2019,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 2019",
+ "serial": "3",
+ "title": "Victims Trafficked - 2019",
+ "listing_title": "Volume-III",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+ "source_file": "raw/cii/2019/year_wise/CII-2019Volume3.pdf",
+ "source_sha256": "48d38070fcb81ba008a41c9279352d81ba478ff11dca34ad45a22cf4ecb7b422",
+ "table_no": "14.2",
+ "pdf_title": "Victims Trafficked - 2019",
+ "row_label": "S. No. / State/UT",
+ "pages": [
+  88
+ ],
+ "n_rows": 39,
+ "n_cols": 9,
+ "n_cells": 351,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Below 18 Yrs | Male",
+   "header": [
+    "Below 18 Yrs",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Below 18 Yrs | Female",
+   "header": [
+    "Below 18 Yrs",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Below 18 Yrs | Total",
+   "header": [
+    "Below 18 Yrs",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Above 18 Yrs | Male",
+   "header": [
+    "Above 18 Yrs",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Above 18 Yrs | Female",
+   "header": [
+    "Above 18 Yrs",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Above 18 Yrs | Total",
+   "header": [
+    "Above 18 Yrs",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Total | Male",
+   "header": [
+    "Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Total | Female",
+   "header": [
+    "Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Total | Total",
+   "header": [
+    "Total",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  "●As Per data provided by States/UTs",
+  "●Due to non-receipt of data from West Bengal in time for 2019, Data furnished for 2018 has been used."
+ ],
+ "checks": {
+  "cells_checked": 27,
+  "cells_passed": 25,
+  "failures": [
+   "col 10 'TOTAL UT(S)': printed 111, sum 104",
+   "col 11 'TOTAL UT(S)': printed 615, sum 608"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

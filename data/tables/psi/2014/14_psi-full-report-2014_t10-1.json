@@ -1,0 +1,78 @@
+{
+ "table_id": "psi/2014/14_psi-full-report-2014_t10-1",
+ "publication": "psi",
+ "year": 2014,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 2014",
+ "serial": "14",
+ "title": "State/UT-wise Number of Jail Inspections by Different Visitors during 2014 Sl. State/UT Jail Inspections No. Total",
+ "listing_title": "Download Full Report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2014.pdf",
+ "source_file": "raw/psi/2014/year_wise/psi-full-report-2014.pdf",
+ "source_sha256": "8b7caff9bb6a9f8694c52c5cca6422f2c0c06e66034dd1d95a1b3707efc438b1",
+ "table_no": "10.1",
+ "pdf_title": "State/UT-wise Number of Jail Inspections by Different Visitors during 2014 Sl. State/UT Jail Inspections No. Total",
+ "row_label": "",
+ "pages": [
+  170
+ ],
+ "n_rows": 39,
+ "n_cols": 5,
+ "n_cells": 195,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Medical",
+   "header": [
+    "Medical"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Executive",
+   "header": [
+    "Executive"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Judicial",
+   "header": [
+    "Judicial"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Others",
+   "header": [
+    "Others"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(3+4+5+6)",
+   "header": [
+    "(3+4+5+6)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 11,
+  "failures": [
+   "col 6 'TOTAL (UTs)': printed 0, sum 175",
+   "col 6 'TOTAL (ALL-INDIA)': printed 5531, sum 5356",
+   "col 7 'TOTAL (UTs)': printed 0, sum 793",
+   "col 7 'TOTAL (ALL-INDIA)': printed 38420, sum 37627"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

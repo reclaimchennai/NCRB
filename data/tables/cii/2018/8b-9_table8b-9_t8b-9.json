@@ -1,0 +1,165 @@
+{
+ "table_id": "cii/2018/8b-9_table8b-9_t8b-9",
+ "publication": "cii",
+ "year": 2018,
+ "listing": "additional_table",
+ "topic": "Economic Offences (34 Metropolitan Cities)",
+ "section": "Chapter - 8B -- Economic Offences (34 Metropolitan Cities)",
+ "serial": "8B.9",
+ "title": "Disposal of Persons Arrested under Economic Offences in Metropolitan Cities- 2018",
+ "listing_title": "Disposal of Persons Arrested under Economic Offences (City wise) – 2018",
+ "method": "excel",
+ "sheet": "Sheet1",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/TABLE8B.9.xlsx",
+ "source_file": "raw/cii/2018/additional_table/TABLE8B.9.xlsx",
+ "source_sha256": "c0321422f67d797e5d96fe03302869c8049485c22ae5b7633cc177c714049a81",
+ "table_no": "8B.9",
+ "pdf_title": "Disposal of Persons Arrested under Economic Offences in Metropolitan Cities- 2018",
+ "row_label": "S. No. / City",
+ "pages": [],
+ "n_rows": 36,
+ "n_cols": 15,
+ "n_cells": 540,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Persons Arrested | Male",
+   "header": [
+    "Persons Arrested",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Persons Arrested | Female",
+   "header": [
+    "Persons Arrested",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Persons Arrested | Total",
+   "header": [
+    "Persons Arrested",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Persons Chargesheeted | Male",
+   "header": [
+    "Persons Chargesheeted",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Persons Chargesheeted | Female",
+   "header": [
+    "Persons Chargesheeted",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Persons Chargesheeted | Total",
+   "header": [
+    "Persons Chargesheeted",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Persons Convicted | Male",
+   "header": [
+    "Persons Convicted",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Persons Convicted | Female",
+   "header": [
+    "Persons Convicted",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Persons Convicted | Total",
+   "header": [
+    "Persons Convicted",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Persons Discharged | Male",
+   "header": [
+    "Persons Discharged",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Persons Discharged | Female",
+   "header": [
+    "Persons Discharged",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Persons Discharged | Total",
+   "header": [
+    "Persons Discharged",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Persons Acquitted | Male",
+   "header": [
+    "Persons Acquitted",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Persons Acquitted | Female",
+   "header": [
+    "Persons Acquitted",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Persons Acquitted | Total",
+   "header": [
+    "Persons Acquitted",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'Total Cities': printed 11800, sum 11803",
+   "col 4 'Total Cities': printed 542, sum 546",
+   "col 5 'Total Cities': printed 12342, sum 12347",
+   "col 6 'Total Cities': printed 11172, sum 11178",
+   "col 7 'Total Cities': printed 420, sum 427",
+   "col 8 'Total Cities': printed 11592, sum 11600",
+   "col 11 'Total Cities': printed 957, sum 966",
+   "col 12 'Total Cities': printed 34, sum 44"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,134 @@
+{
+ "table_id": "cii/1992/68_table-68-1992-survey",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "68",
+ "title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1992 (Men + Women)",
+ "listing_title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1992 (Men + Women)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-68-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-68-1992-survey.pdf",
+ "source_sha256": "bc49a3a1ad1ddd9ae77fc35b23b88349948fa14647bcb998c350c64cc5d30bd7",
+ "table_no": "68",
+ "pdf_title": "",
+ "row_label": "SL. STATE/UT no. (a)",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 58,
+ "n_cols": 11,
+ "n_cells": 507,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "SANCTIONED SANCTIONED",
+   "header": [
+    "SANCTIONED SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "AND DG/IG/DIG/sP ACTUAL",
+   "header": [
+    "AND DG/IG/DIG/sP ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "OF ACTUAL AS ASP SANCTIONED",
+   "header": [
+    "OF ACTUAL AS ASP SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "STRENGTH ON (MEN & ACTUAL",
+   "header": [
+    "STRENGTH ON (MEN & ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POLICE 31.12.1992 + DSP INSPECTOR, a.8.1I. SANCTIONED",
+   "header": [
+    "POLICE 31.12.1992 + DSP INSPECTOR, a.8.1I. SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INCLUDING WOMEN) SI ACTUAL",
+   "header": [
+    "INCLUDING WOMEN) SI ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "DISTRICT & A.S.I. SaNnc-",
+   "header": [
+    "DISTRICT & A.S.I. SaNnc-"
+   ]
+  },
+  {
+   "col_no": "107",
+   "name": "ARMED POLICE TOTAL BELOW OFFICERS GRAND RCTUARACTUAL TIONED (x2) $227",
+   "header": [
+    "ARMED POLICE TOTAL BELOW OFFICERS GRAND RCTUARACTUAL TIONED (x2) $227"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS A.8.I. ACTUAL",
+   "header": [
+    "OFFICERS A.8.I. ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "BELOW SANCTIONED",
+   "header": [
+    "BELOW SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL * ACTUAL",
+   "header": [
+    "GRAND TOTAL * ACTUAL"
+   ]
+  }
+ ],
+ "notes": [
+  "40—526 NCRB/94.",
+  "Note: 1. Since ‘Actual’ Police strength was not available for Madhya Pradesh and Bhopal City,",
+  "it is taken equal to ‘Sanctioned’ Police strength.",
+  "2. Though ‘Actual’ Police strength is more than ‘Sanctioned’ Police strength for some ranks",
+  "of civil Police in Gujarat,Jammu & Kashmir,Punjab,UT of Chandigarh,Indore and Ludhiana City,",
+  "combined ‘Actual’ strength of Civil and Armed Police for those ranks does not exceed",
+  "combined ‘Sanctioned’ strength for them.",
+  "3. NR stands for data not"
+ ],
+ "checks": {
+  "cells_checked": 18,
+  "cells_passed": 9,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 28390, sum 2884",
+   "col 3 'TOTAL (UTs)': printed 65, sum 61",
+   "col 3 'TOTAL (ALL-INDIA)': printed 2955, sum 28455",
+   "col 4 'TOTAL (STATES)': printed 2801, sum 2799",
+   "col 6 'TOTAL (UTs)': printed 170, sum 164",
+   "col 8 'TOTAL (UTs)': printed 6123, sum 8123",
+   "col 8 'TOTAL (ALL-INDIA)': printed 111902, sum 109902",
+   "col 107 'TOTAL (UTs)': printed 3.41195e+14, sum 2.86518e+14"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

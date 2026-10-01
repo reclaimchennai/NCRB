@@ -1,0 +1,136 @@
+{
+ "table_id": "cii/1984/55_table-56-1984",
+ "publication": "cii",
+ "year": 1984,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "55",
+ "title": "Number of Police Personnel Killed or Injured on Duty During 1984",
+ "listing_title": "Number of Police Personnel Killed or Injured on Duty During 1984",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-56-1984.pdf",
+ "source_file": "raw/cii/1984/table_content/table-56-1984.pdf",
+ "source_sha256": "9aeb242352608bba205423621ab4d7389ae3ed86eea224264dc1c418da83a2ad",
+ "table_no": "56",
+ "pdf_title": "Number Of Police F=======1 Killed Or Injured On Duty",
+ "row_label": "sl",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 60,
+ "n_cols": 12,
+ "n_cells": 541,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "STATES/U. Ts/CITIES IN DACOITY OPERATION OR OTHER RAIDS",
+   "header": [
+    "STATES/U. Ts/CITIES IN DACOITY OPERATION OR OTHER RAIDS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "During BY RIOTOUS MOB",
+   "header": [
+    "During BY RIOTOUS MOB"
+   ]
+  },
+  {
+   "col_no": "5s",
+   "name": "1984 KILLED BY OTHER CRIMINALS",
+   "header": [
+    "1984 KILLED BY OTHER CRIMINALS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ON DUTIES",
+   "header": [
+    "ON DUTIES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BORDER",
+   "header": [
+    "BORDER"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "TOTAL IN ACUIVENID",
+   "header": [
+    "TOTAL IN ACUIVENID"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "STATES/U.Ts/CITIES IN DACOITY vrenariun OR QTHER RAIDS (2)",
+   "header": [
+    "STATES/U.Ts/CITIES IN DACOITY vrenariun OR QTHER RAIDS (2)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "INJURED | BY RIOTOUS MOB (9) - - - $5",
+   "header": [
+    "INJURED",
+    "BY RIOTOUS MOB (9) - - - $5"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "INJURED | BY OTHER CRIMINATS «10>",
+   "header": [
+    "INJURED",
+    "BY OTHER CRIMINATS «10>"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "INJURED | ON DUNVER DUTIES q1l) aes - 3 - 5s",
+   "header": [
+    "INJURED",
+    "ON DUNVER DUTIES q1l) aes - 3 - 5s"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "INJURED | IN a03: (12) - -",
+   "header": [
+    "INJURED",
+    "IN a03: (12) - -"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "TOTAL «13> (14)",
+   "header": [
+    "TOTAL «13> (14)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 22,
+  "cells_passed": 2,
+  "failures": [
+   "col 4 'TOTAL (States)': printed 24, sum 13",
+   "col 4 'TOTAL (Cities)': printed 5, sum 23",
+   "col 1000519 'TOTAL (Cities)': printed 6, sum 9",
+   "col 7 'TOTAL (Cities)': printed 10, sum 34",
+   "col 10001 'TOTAL (States)': printed 219, sum 193",
+   "col 10001 'TOTAL (Cities)': printed 10, sum 6",
+   "col 10002 'TOTAL (States)': printed 2975, sum 1408",
+   "col 10002 'TOTAL (Cities)': printed 425, sum 520"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

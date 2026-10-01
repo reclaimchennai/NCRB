@@ -1,0 +1,129 @@
+{
+ "table_id": "cii/1995/14_table-14-1995-crime-survey",
+ "publication": "cii",
+ "year": 1995,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "14",
+ "title": "Disposal of IPC Crime Cases by Police During 1995 (State & UT-Wise)",
+ "listing_title": "Disposal of IPC Crime Cases by Police During 1995 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-14-1995-crime-survey.pdf",
+ "source_file": "raw/cii/1995/table_content/table-14-1995-crime-survey.pdf",
+ "source_sha256": "68ce1d1426f6f45dc497fef1ea66810e6c15dd70b9ed9385f217690d44471dc7",
+ "table_no": "14",
+ "pdf_title": "DISPOSAL OF IPC CRIME CASES BY POLICE DURING 1995",
+ "row_label": "SL. STATE/UT NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 10,
+ "n_cells": 292,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(STATE & UT-WISE) | TOTAL NO. OF CASES TION ING PENDING CASES",
+   "header": [
+    "(STATE & UT-WISE)",
+    "TOTAL NO. OF CASES TION ING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(STATE & UT-WISE) | INVEST WAS REFUSED k",
+   "header": [
+    "(STATE & UT-WISE)",
+    "INVEST WAS REFUSED k"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(STATE & UT-WISE) | NO. OF CASES IN WHICH | CHARGE FOUND FALSE) OF FACT OR OF LAW ETC.",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH",
+    "CHARGE FOUND FALSE) OF FACT OR OF LAW ETC."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(STATE & UT-WISE) | NO. OF CASES IN WHICH | FINAL REPORT TRUE TTED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH",
+    "FINAL REPORT TRUE TTED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(STATE & UT-WISE) | WAS COMPLETED | CHARGE WERE LAID",
+   "header": [
+    "(STATE & UT-WISE)",
+    "WAS COMPLETED",
+    "CHARGE WERE LAID"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "(STATE & UT-WISE) | WAS COMPLETED | TOTAL {(5)+(6) +(7)}",
+   "header": [
+    "(STATE & UT-WISE)",
+    "WAS COMPLETED",
+    "TOTAL {(5)+(6) +(7)}"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "(STATE & UT-WISE) | NO.OF CASES PENDING",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO.OF CASES PENDING"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PERCEN- | PENDENCY PERCENTAGE",
+   "header": [
+    "PERCEN-",
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PERCEN- | PENDENCY TOTAL",
+   "header": [
+    "PERCEN-",
+    "PENDENCY TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "PERCEN- | CHARGE SHEETING RATE",
+   "header": [
+    "PERCEN-",
+    "CHARGE SHEETING RATE"
+   ]
+  }
+ ],
+ "notes": [
+  "Percentage less than 0.05 is also shown as 0.0."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 ':TOTAL (UTs)': printed 79819, sum 3.99793e+06",
+   "col 6 ':TOTAL (UTs)': printed 11125, sum 753413",
+   "col 8 ':TOTAL (UTs)': printed 36432, sum 2.60837e+06",
+   "col 9 ':TOTAL (UTs)': printed 43371, sum 816512"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

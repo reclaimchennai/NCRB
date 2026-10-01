@@ -1,0 +1,62 @@
+{
+ "table_id": "cii/1987/47_table-20-1987",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "47",
+ "title": "Persons Arrested under the IPC Crime Heads",
+ "listing_title": "Persons Arrested under the IPC Crime Heads",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_20-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_20-1987.pdf",
+ "source_sha256": "c9102021359472bda3aa2929a3328b08763e9688a5ab209a96e63a8fc5c1189d",
+ "table_no": "19",
+ "pdf_title": "Persons Arrested for Committing Comizable Crimes Under IPC During 1986 & 1987 And The F===2==t=2= Variation In 1987 Over 1986",
+ "row_label": "8l. STATES/UTS/CITIES No. q@>",
+ "pages": [
+  1
+ ],
+ "n_rows": 49,
+ "n_cols": 2,
+ "n_cells": 97,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "1986 «3)",
+   "header": [
+    "1986 «3)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1987 IN VARIATION OVER 1987",
+   "header": [
+    "1987 IN VARIATION OVER 1987"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 1) Goa attained the Statehood jin the year 1987 but Daman",
+  "& Diu cantinued to remain as U.T.",
+  "2) Figures in respect of Goa, Daman & Diu for 1986 have",
+  "been bifurcated between Goa and Daman & Diu on the",
+  "basis of 1987 “igures."
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'TOTAL (States)': printed 2.17402e+13, sum 1.74678e+12",
+   "col 4 'TOTAL (UTS)': printed 3.10883e+09, sum 2.50656e+09",
+   "col 4 'TOTAL (Cities)': printed 1.56259e+11, sum 1.37964e+10"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

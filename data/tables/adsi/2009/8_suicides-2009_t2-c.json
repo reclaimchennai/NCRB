@@ -1,0 +1,88 @@
+{
+ "table_id": "adsi/2009/8_suicides-2009_t2-c",
+ "publication": "adsi",
+ "year": 2009,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2009",
+ "serial": "8",
+ "title": "State/UT/City wise Distribution of Family Suicides during 2009",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-2009.pdf",
+ "source_file": "raw/adsi/2009/year_wise/suicides-2009.pdf",
+ "source_sha256": "31587e1831706e0550e0fc3af74aea6e09b93123de83e6bae5f366bb8e3242be",
+ "table_no": "2(C)",
+ "pdf_title": "State/UT/City wise Distribution of Family Suicides during 2009",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  6,
+  7
+ ],
+ "n_rows": 75,
+ "n_cols": 6,
+ "n_cells": 450,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "No. Of Cases",
+   "header": [
+    "No. Of Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Adults | Male",
+   "header": [
+    "Adults",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Adults | Female",
+   "header": [
+    "Adults",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Minor* | Male",
+   "header": [
+    "Minor*",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Minor* | Female",
+   "header": [
+    "Minor*",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total Victims",
+   "header": [
+    "Total Victims"
+   ]
+  }
+ ],
+ "notes": [
+  "Note : NA stand for data not available.",
+  "* Below 18 years of age."
+ ],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

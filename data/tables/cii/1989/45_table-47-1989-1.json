@@ -1,0 +1,172 @@
+{
+ "table_id": "cii/1989/45_table-47-1989-1",
+ "publication": "cii",
+ "year": 1989,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "45",
+ "title": "Classification of Juveniles Arrested (under IPC & LSL) by Attributes During 1989 (State, UT & City-Wise)",
+ "listing_title": "Classification of Juveniles Arrested (under IPC & LSL) by Attributes During 1989 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-47-1989-1.pdf",
+ "source_file": "raw/cii/1989/table_content/table-47-1989-1.pdf",
+ "source_sha256": "2714b3d0be2c35d22b20a389b2669e40467b24f9c651d20e647b419caed4cb16",
+ "table_no": "47",
+ "pdf_title": "",
+ "row_label": "STATE/UT/CITY SL. NO. a)",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 47,
+ "n_cols": 17,
+ "n_cells": 764,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ILLITERATE",
+   "header": [
+    "ILLITERATE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BY EDUCATION | PRIMARY .ABOVE",
+   "header": [
+    "BY EDUCATION",
+    "PRIMARY .ABOVE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BY EDUCATION | nn PRIMARY BUT MATRIC/ H. ()",
+   "header": [
+    "BY EDUCATION",
+    "nn PRIMARY BUT MATRIC/ H. ()"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "CLASSIFICATION OF | MATRIC/ BELOW SEC.",
+   "header": [
+    "CLASSIFICATION OF",
+    "MATRIC/ BELOW SEC."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "CLASSIFICATION OF | nnn TOTAL H, &",
+   "header": [
+    "CLASSIFICATION OF",
+    "nnn TOTAL H, &"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "JUVENILES (STATE, SEC. ABOVE",
+   "header": [
+    "JUVENILES (STATE, SEC. ABOVE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "UT BY FAMILY nnn nnn nnn ne LIVING LIVING WITH WITH GUARDPARENTS IANS",
+   "header": [
+    "UT BY FAMILY nnn nnn nnn ne LIVING LIVING WITH WITH GUARDPARENTS IANS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "LSL) & IPC CITY-WISE) & 2-2 - nn TOTAL HOMELESS",
+   "header": [
+    "LSL) & IPC CITY-WISE) & 2-2 - nn TOTAL HOMELESS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "BY LOWER INCOME RS. UPTO 500",
+   "header": [
+    "BY LOWER INCOME RS. UPTO 500"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "DURING | BY LOW/MID INCOME RS (FROM 501 PM 1000",
+   "header": [
+    "DURING",
+    "BY LOW/MID INCOME RS (FROM 501 PM 1000"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "DURING | Sm MIDDLE INCOME (RS.1001 2000 TO PM)",
+   "header": [
+    "DURING",
+    "Sm MIDDLE INCOME (RS.1001 2000 TO PM)"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "1989 ECONOMIC-SETUP UPP/MID INCOME TO PM)",
+   "header": [
+    "1989 ECONOMIC-SETUP UPP/MID INCOME TO PM)"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "(STATE, UPPER INCOME (ABOVE (FROM RS.3000 2001 3000",
+   "header": [
+    "(STATE, UPPER INCOME (ABOVE (FROM RS.3000 2001 3000"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CITY-WISE) UT CS TOTAL RS TO PM)",
+   "header": [
+    "CITY-WISE) UT CS TOTAL RS TO PM)"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "& NEW DELINQUENTS PM)",
+   "header": [
+    "& NEW DELINQUENTS PM)"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TABLE-47 RECIDIVISM OLD DELINQUENTS",
+   "header": [
+    "TABLE-47 RECIDIVISM OLD DELINQUENTS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "(concld) SL, NO; ee TOTAL ql)",
+   "header": [
+    "(concld) SL, NO; ee TOTAL ql)"
+   ]
+  }
+ ],
+ "notes": [
+  "* As classification was not available, all the juveniles arrested are put in the most likely class."
+ ],
+ "checks": {
+  "cells_checked": 29,
+  "cells_passed": 24,
+  "failures": [
+   "col 8 'TOTAL (STATES)': printed 25538, sum 25478",
+   "col 10 'TOTAL (UTs)': printed 4171, sum 571",
+   "col 17 'TOTAL (STATES)': printed 36221, sum 36157",
+   "col 20 'TOTAL (STATES)': printed 36221, sum 2.64326e+06",
+   "col 20 'TOTAL (UTs)': printed 171, sum 17303"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

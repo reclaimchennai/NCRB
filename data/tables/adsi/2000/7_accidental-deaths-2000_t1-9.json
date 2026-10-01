@@ -1,0 +1,80 @@
+{
+ "table_id": "adsi/2000/7_accidental-deaths-2000_t1-9",
+ "publication": "adsi",
+ "year": 2000,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2000",
+ "serial": "7",
+ "title": "Tacitence and Rate of Deaths Due to Road Accidents During 2000 (State, UT & City-wise)",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-2000.pdf",
+ "source_file": "raw/adsi/2000/year_wise/accidental-deaths-2000.pdf",
+ "source_sha256": "83cb23c507963c368f255fc0c608f330afbd704e1e695884f63392cdab6f2166",
+ "table_no": "1.9",
+ "pdf_title": "Tacitence and Rate of Deaths Due to Road Accidents During 2000 (State, UT & City-wise)",
+ "row_label": "Sl. No. (i)",
+ "pages": [
+  12,
+  13
+ ],
+ "n_rows": 64,
+ "n_cols": 5,
+ "n_cells": 304,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "No. of cases of Road State/UT/City Accidents @)",
+   "header": [
+    "No. of cases of Road State/UT/City Accidents @)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Motor Vehicles sean 31.03.2000 (in *000\")",
+   "header": [
+    "Motor Vehicles sean 31.03.2000 (in *000\")"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "No. of deaths due - tg Baad Accidente in 2000",
+   "header": [
+    "No. of deaths due - tg Baad Accidente in 2000"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of Accidental Deaths (Col.5 / Col.4)",
+   "header": [
+    "Rate of Accidental Deaths (Col.5 / Col.4)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rate of Deaths per 100 cases (Col.5/Co}.3) x 100",
+   "header": [
+    "Rate of Deaths per 100 cases (Col.5/Co}.3) x 100"
+   ]
+  }
+ ],
+ "notes": [
+  "Source: For column 4, ‘ Motor Trancnori Statictice of India 19992000’ report of wing, Minist of Road Transport & Highways, New Delhi.",
+  "Source: For Columns 2, ‘Motor Tranenart Statictice 9)’ India-1999-2000\" report of Re e2arch Wing, Ministry of Road Transport & Highways, lew Dethi.",
+  "Note :* In thousands"
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 3,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 296183, sum 265672"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

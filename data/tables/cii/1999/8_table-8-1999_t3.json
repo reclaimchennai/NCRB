@@ -1,0 +1,71 @@
+{
+ "table_id": "cii/1999/8_table-8-1999_t3",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "8",
+ "title": "TABLES (721.2)",
+ "listing_title": "District-Wise Incidence of Cognizable Crimes (IPC) During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-8-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-8-1999.pdf",
+ "source_sha256": "aa3e6c1db2d1f572c5fdda76f0c4c5b6b6d8f000548fe37fe4e1780e35e75976",
+ "table_no": "",
+ "pdf_title": "TABLES (721.2)",
+ "row_label": "@)",
+ "pages": [
+  24
+ ],
+ "n_rows": 40,
+ "n_cols": 4,
+ "n_cells": 159,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "an",
+   "header": [
+    "an"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "a) av a» eo a»",
+   "header": [
+    "a) av a» eo a»"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "a» @5 eo em em",
+   "header": [
+    "a» @5 eo em em"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "@ om",
+   "header": [
+    "@ om"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL (ALL-INDIA)': printed 8.08382e+09, sum 4.60189e+09",
+   "col 3 'TOTAL (ALL-INDIA)': printed 4.14031e+31, sum 4.70248e+14",
+   "col 4 'TOTAL (ALL-INDIA)': printed 438231, sum 170389",
+   "col 5 'TOTAL (ALL-INDIA)': printed 7.63835e+12, sum 2.52997e+09"
+  ],
+  "other_totals_checked": 8,
+  "other_totals_passed": 1
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

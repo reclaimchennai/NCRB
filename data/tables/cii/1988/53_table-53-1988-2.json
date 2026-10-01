@@ -1,0 +1,129 @@
+{
+ "table_id": "cii/1988/53_table-53-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "53",
+ "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1988 (State, UT & City-wise) Dacoity",
+ "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1988 (State, UT & City-wise) Dacoity",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-53-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-53-1988-2.pdf",
+ "source_sha256": "eb6fe95d88c95cd596a87583c7949995d8fbdd04bd5bbf30bb744489df1e2e01",
+ "table_no": "53",
+ "pdf_title": "",
+ "row_label": "STATE/UT/CITY SL, NO. a)",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 95,
+ "n_cols": 12,
+ "n_cells": 554,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NUMBER NUMBER",
+   "header": [
+    "NUMBER NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "OF RESIDENTIAL PEREMISES VALUE",
+   "header": [
+    "OF RESIDENTIAL PEREMISES VALUE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CASES NUMBER",
+   "header": [
+    "CASES NUMBER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "AND VALUE (STATE, HIGHWAYS VALUE",
+   "header": [
+    "AND VALUE (STATE, HIGHWAYS VALUE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "OF UT DACOITY RIVER NUMBER",
+   "header": [
+    "OF UT DACOITY RIVER NUMBER"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "rrorenry CITY-WISE) & & VALUE",
+   "header": [
+    "rrorenry CITY-WISE) & & VALUE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "STOLEN OF PLACE (Rs. SEAS NUMBER",
+   "header": [
+    "STOLEN OF PLACE (Rs. SEAS NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OCCURANCE BY lakh) in RAILWAYS VALUE",
+   "header": [
+    "OCCURANCE BY lakh) in RAILWAYS VALUE"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "- AT. VALUE",
+   "header": [
+    "- AT. VALUE"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "OTHER VALUE NUMBER",
+   "header": [
+    "OTHER VALUE NUMBER"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "PLACES NUMBER VALUE",
+   "header": [
+    "PLACES NUMBER VALUE"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "TOTAL VALUE NUMBER",
+   "header": [
+    "TOTAL VALUE NUMBER"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Value less than 0.05 is also shown as .0O"
+ ],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 5969, sum 5978",
+   "col 3 'TOTAL ‘UTs),': printed 4, sum 13",
+   "col 9 'TOTAL (STATES)': printed 142, sum 135"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

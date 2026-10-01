@@ -1,0 +1,70 @@
+{
+ "table_id": "adsi/2019/12_1695470833adsi2019fullreportnew_t2-14",
+ "publication": "adsi",
+ "year": 2019,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2019",
+ "serial": "12",
+ "title": "Distribution of Mass/Family Suicides during 2019 (State/UT-wise)",
+ "listing_title": "Download full report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1695470833ADSI2019FULLREPORTNew.pdf",
+ "source_file": "raw/adsi/2019/year_wise/1695470833ADSI2019FULLREPORTNew.pdf",
+ "source_sha256": "d70b7ba8bdd1677678fc29b773947d0a34dd1a58310fb1146eb16d2ae37eb8ff",
+ "table_no": "2.14",
+ "pdf_title": "Distribution of Mass/Family Suicides during 2019 (State/UT-wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  289,
+  290
+ ],
+ "n_rows": 93,
+ "n_cols": 4,
+ "n_cells": 372,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Cases",
+   "header": [
+    "Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Married",
+   "header": [
+    "Married"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Un-Married",
+   "header": [
+    "Un-Married"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  "Col. 6 = Col. 4 + Col. 5",
+  "• As per data provided by States/UTs."
+ ],
+ "checks": {
+  "cells_checked": 16,
+  "cells_passed": 16,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

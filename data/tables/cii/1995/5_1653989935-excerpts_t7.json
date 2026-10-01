@@ -1,0 +1,77 @@
+{
+ "table_id": "cii/1995/5_1653989935-excerpts_t7",
+ "publication": "cii",
+ "year": 1995,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 1995",
+ "serial": "5",
+ "title": "Greanisational Set-up of Police in States & UTs as on 1.1.96",
+ "listing_title": "Excerpts",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653989935_EXCERPTS.pdf",
+ "source_file": "raw/cii/1995/year_wise/1653989935_EXCERPTS.pdf",
+ "source_sha256": "bf234d43c68165c0291091bd62edb8c3c14d495538750da7de4995f30503f15c",
+ "table_no": "",
+ "pdf_title": "Greanisational Set-up of Police in States & UTs as on 1.1.96",
+ "row_label": "Sl. State/UT No. States:",
+ "pages": [
+  11
+ ],
+ "n_rows": 35,
+ "n_cols": 5,
+ "n_cells": 173,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Range (3)",
+   "header": [
+    "Range (3)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Distt. (4)",
+   "header": [
+    "Distt. (4)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Sub-Div. (5)",
+   "header": [
+    "Sub-Div. (5)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Circle (6)",
+   "header": [
+    "Circle (6)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Police Station (1)",
+   "header": [
+    "Police Station (1)"
+   ]
+  }
+ ],
+ "notes": [
+  "Source: ‘Data on Police Organisatio1s in India’ - Bureau of Police Research «& Development."
+ ],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 11,
+  "failures": [
+   "col 6 'TOTAL (UTs)': printed 175, sum 775"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

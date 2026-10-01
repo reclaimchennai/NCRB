@@ -1,0 +1,131 @@
+{
+ "table_id": "psi/1999/6_psi-full-report-1999_t27",
+ "publication": "psi",
+ "year": 1999,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1999",
+ "serial": "6",
+ "title": "DEMOGRAPHIC PARTICULARS OF OTHERS AT THE END OF 1999",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
+ "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
+ "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
+ "table_no": "27",
+ "pdf_title": "DEMOGRAPHIC PARTICULARS OF OTHERS AT THE END OF 1999",
+ "row_label": "SL. NG. (2) () 1 Sr - / STATEUT ANDHRA PRADESH e7\" T7",
+ "pages": [
+  123,
+  124,
+  125
+ ],
+ "n_rows": 47,
+ "n_cols": 12,
+ "n_cells": 124,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "murerare (3) 13 32 12 777",
+   "header": [
+    "murerare (3) 13 32 12 777"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(4) 1 i a",
+   "header": [
+    "(4) 1 i a"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "EDUCATIONAL STANDARD HOLDING TOTAL GRADUATE gp CRADUATE i (8) (3) (6) ()) (9) 24 6 0 0 1 - ar ae rT 36 a - 19 poo ier. eg a ARIS ef DO",
+   "header": [
+    "EDUCATIONAL STANDARD HOLDING TOTAL GRADUATE gp CRADUATE i (8) (3) (6) ()) (9) 24 6 0 0 1 - ar ae rT 36 a - 19 poo ier. eg a ARIS ef DO"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "col_10001",
+   "header": []
+  },
+  {
+   "col_no": "10002",
+   "name": "RELIGION | MUSLIM",
+   "header": [
+    "RELIGION",
+    "MUSLIM"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "RELIGION | CHRIS’",
+   "header": [
+    "RELIGION",
+    "CHRIS’"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "CASTE oruers OTHERS opc st",
+   "header": [
+    "CASTE oruers OTHERS opc st"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "TOTAL - TOTAL",
+   "header": [
+    "TOTAL - TOTAL"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "BELONGS TO STATE",
+   "header": [
+    "BELONGS TO STATE"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "BELONGS - OTHER ee OTHER",
+   "header": [
+    "BELONGS - OTHER ee OTHER"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "wee",
+   "header": [
+    "wee"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [
+  "NA -DATA NOT AVAILABLE."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (UTS)': printed 0, sum 868",
+   "col 21 'TOTAL (UTS) ‘TOTAL (ALL INDIA)': printed 843, sum 794",
+   "col 22 'TOTAL (UTS) ‘TOTAL (ALL INDIA)': printed 21, sum 0",
+   "col 23 'TOTAL (UTS) ‘TOTAL (ALL INDIA)': printed 0, sum 6"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 3,
+ "warnings": []
+}

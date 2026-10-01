@@ -1,0 +1,212 @@
+{
+ "table_id": "psi/2001/3_chapterpsi-4-2001-0-doc_t2-2_2",
+ "publication": "psi",
+ "year": 2001,
+ "listing": "table_content",
+ "topic": "Inmate Population and overcrowding in Prisons",
+ "section": "Inmate Population and overcrowding in Prisons",
+ "serial": "3",
+ "title": "Jail-wise Capacity and Population of inmates",
+ "listing_title": "Jail-wise Capacity and Population of inmates",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/chapterpsi-4_2001_0.doc",
+ "source_file": "raw/psi/2001/table_content/chapterpsi-4_2001_0.doc.pdf",
+ "source_sha256": "b23ae0c9576fd94f993de28a67153552f2eded23b80d59d469dbc9a1b4e357eb",
+ "table_no": "2.2",
+ "pdf_title": "",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  3,
+  4,
+  4,
+  5,
+  5,
+  6,
+  7
+ ],
+ "n_rows": 74,
+ "n_cols": 20,
+ "n_cells": 995,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NUMBER OF JAILS",
+   "header": [
+    "NUMBER OF JAILS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TOTAL CAPACITY OF INMATES | MALE (4)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE (5)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL (6)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INMATES POPULATION | MALE (7)",
+   "header": [
+    "INMATES POPULATION",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INMATES POPULATION | FEMALE (8)",
+   "header": [
+    "INMATES POPULATION",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "INMATES POPULATION | TOTAL (9)",
+   "header": [
+    "INMATES POPULATION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "TOTAL CAPACITY OF INMATES | MALE (10001)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE (10002)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL (10003)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "INMATES POPULATION | MALE (10004)",
+   "header": [
+    "INMATES POPULATION",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "INMATES POPULATION | FEMALE (10005)",
+   "header": [
+    "INMATES POPULATION",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "INMATES POPULATION | TOTAL (10006)",
+   "header": [
+    "INMATES POPULATION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "TOTAL CAPACITY OF INMATES | NUMBER OF JAILS",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "NUMBER OF JAILS"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "TOTAL CAPACITY OF INMATES | MALE (10008)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE (10009)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "10010",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL (10010)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "INMATES POPULATION | MALE (10011)",
+   "header": [
+    "INMATES POPULATION",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10012",
+   "name": "INMATES POPULATION | FEMALE (10012)",
+   "header": [
+    "INMATES POPULATION",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "10013",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [
+  "* Jails do not exist"
+ ],
+ "checks": {
+  "cells_checked": 36,
+  "cells_passed": 29,
+  "failures": [
+   "col 10002 'TOTAL(STATES)': printed 4592, sum 4323",
+   "col 10003 'TOTAL(STATES)': printed 299, sum 0",
+   "col 10007 'TOTAL(STATES)': printed 5, sum 6",
+   "col 10008 'TOTAL(STATES)': printed 394, sum 1089",
+   "col 10009 'TOTAL(STATES)': printed 8, sum 50",
+   "col 10010 'TOTAL(STATES)': printed 402, sum 1139",
+   "col 10013 'TOTAL(STATES)': printed 247, sum 538"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

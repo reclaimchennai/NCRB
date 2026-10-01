@@ -1,0 +1,125 @@
+{
+ "table_id": "cii/1989/55_table-58-1989-1",
+ "publication": "cii",
+ "year": 1989,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "55",
+ "title": "Recidivism amongst Persons Arrested under IPC Crimes During 1989 (State, UT & City-Wise)",
+ "listing_title": "Recidivism amongst Persons Arrested under IPC Crimes During 1989 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1989-1.pdf",
+ "source_file": "raw/cii/1989/table_content/table-58-1989-1.pdf",
+ "source_sha256": "717129df2ec61273c860bdc2dfeba78670e28baf4d7d56f7dbfa7b223bf90df0",
+ "table_no": "58",
+ "pdf_title": "",
+ "row_label": "SL STATE/UT/CITY NO qa) STATES",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 10,
+ "n_cells": 462,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "TOTAL NO. PERSONS ARRESTED (2) 3",
+   "header": [
+    "TOTAL NO. PERSONS ARRESTED (2) 3"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "PERSONS | New OF NO. (3)",
+   "header": [
+    "PERSONS",
+    "New OF NO. (3)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERSONS | (STATE, OF & CITY-WISE) | PEACENTAGE TO TOTAL (4)",
+   "header": [
+    "PERSONS",
+    "(STATE, OF & CITY-WISE)",
+    "PEACENTAGE TO TOTAL (4)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERSONS | (STATE, OF & CITY-WISE) | Oly ONCE NO. 3)",
+   "header": [
+    "PERSONS",
+    "(STATE, OF & CITY-WISE)",
+    "Oly ONCE NO. 3)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PERSONS | (STATE, OF & CITY-WISE) | pee TO TOTAL (6)",
+   "header": [
+    "PERSONS",
+    "(STATE, OF & CITY-WISE)",
+    "pee TO TOTAL (6)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "IPC TWICE NO. «T)",
+   "header": [
+    "IPC TWICE NO. «T)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "1989 | IN THE PAST TO TOTAL (8)",
+   "header": [
+    "1989",
+    "IN THE PAST TO TOTAL (8)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1989 | 555555 5 - NO. (9)",
+   "header": [
+    "1989",
+    "555555 5 - NO. (9)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "1989 | THRICE OB MORIE .. ramaninve TO TOTAL qo)",
+   "header": [
+    "1989",
+    "THRICE OB MORIE .. ramaninve TO TOTAL qo)"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PERCENTAGE OF RECIDIVISTS((7)+ (@)+C11)) (12) ay",
+   "header": [
+    "PERCENTAGE OF RECIDIVISTS((7)+ (@)+C11)) (12) ay"
+   ]
+  }
+ ],
+ "notes": [
+  "* Due to non-availability of data, all the persons arrested are taken as new offenders."
+ ],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 3,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 2.26675e+06, sum 2.26729e+06",
+   "col 3 'TOTAL (STATES)': printed 2.05179e+06, sum 2.06928e+06",
+   "col 5 'TOTAL (ALL-INDIA)': printed 151765, sum 181765",
+   "col 9 'TOTAL (STATES)': printed 25013, sum 50729"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

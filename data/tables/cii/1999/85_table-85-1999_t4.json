@@ -1,0 +1,93 @@
+{
+ "table_id": "cii/1999/85_table-85-1999_t4",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "85",
+ "title": "TARLE 258 AGE-GROUP-WISE NATURAL DEATHS OF POLICE PEKSONNEL AND SUICIDES COMMITTED BY THEM DURING 1999",
+ "listing_title": "Police Personnel Killed or Injured On Duty During 1999 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-85-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-85-1999.pdf",
+ "source_sha256": "b7101ce77a65b15f5d28d5d3330c03d0b513c0ddbe9e3b11197841f51e6febd1",
+ "table_no": "",
+ "pdf_title": "TARLE 258 AGE-GROUP-WISE NATURAL DEATHS OF POLICE PEKSONNEL AND SUICIDES COMMITTED BY THEM DURING 1999",
+ "row_label": "SL. NO. (a)",
+ "pages": [
+  4
+ ],
+ "n_rows": 62,
+ "n_cols": 6,
+ "n_cells": 325,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE | 18-25 YEARS (2)",
+   "header": [
+    "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE",
+    "18-25 YEARS (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE | 26-35 YEARS I",
+   "header": [
+    "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE",
+    "26-35 YEARS I"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE | 36-45 YEARS (4)",
+   "header": [
+    "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE",
+    "36-45 YEARS (4)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE | 46-55 YEARS (s)",
+   "header": [
+    "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE",
+    "46-55 YEARS (s)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE | ABOVE 5S YEARS (6)",
+   "header": [
+    "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE",
+    "ABOVE 5S YEARS (6)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE | TOTAL (COL.3 TO 7) 3)",
+   "header": [
+    "NO. OF POLICE Fz KSUNNEL DIED NA [URAL DEATHS 1VHILE IN SERVICE",
+    "TOTAL (COL.3 TO 7) 3)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 16,
+  "cells_passed": 10,
+  "failures": [
+   "col 2 'TOTAL STATES': printed 3, sum 25",
+   "col 2 'TOTAL (ALL-INDIA)': printed 36, sum 8",
+   "col 4 'TOTAL (CITIES)': printed 144, sum 201",
+   "col 5 'TOTAL (CITIES)': printed 131, sum 125",
+   "col 6 'TOTAL STATES': printed 141, sum 111",
+   "col 6 'TOTAL (CITIES)': printed 36, sum 15"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

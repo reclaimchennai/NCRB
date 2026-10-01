@@ -1,0 +1,125 @@
+{
+ "table_id": "cii/2001/2_table-89-2001",
+ "publication": "cii",
+ "year": 2001,
+ "listing": "table_content",
+ "topic": "Police Strength, Expenditure & Infrastructure",
+ "section": "Police Strength, Expenditure & Infrastructure",
+ "serial": "2",
+ "title": "Sanctioned and Actual Strength Armed Police as on 31st December (Men + Women) (State, UT & City-wise)",
+ "listing_title": "Sanctioned and Actual Strength Armed Police as on 31st December (Men + Women) (State, UT & City-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/TABLE-89-2001.pdf",
+ "source_file": "raw/cii/2001/table_content/TABLE-89-2001.pdf",
+ "source_sha256": "de184476a592aaf4f1a67bfdfeb8e025006defcbec8088bc8060a4483d0d7b8e",
+ "table_no": "89",
+ "pdf_title": "Sanctioned And Actual Strength Of Armed Police As On 31.12.2001(Men + Women) (State & UT-Wise)",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 38,
+ "n_cols": 10,
+ "n_cells": 380,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "DG/ADDL.DG/IG/DIG | SANCTIONED",
+   "header": [
+    "DG/ADDL.DG/IG/DIG",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DG/ADDL.DG/IG/DIG | ACTUAL",
+   "header": [
+    "DG/ADDL.DG/IG/DIG",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "INSPECTOR, SI & | SSP/SP/ADDL.SP/ ASP/DY.SP | SANCTIONED",
+   "header": [
+    "INSPECTOR, SI &",
+    "SSP/SP/ADDL.SP/ ASP/DY.SP",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "INSPECTOR, SI & | SSP/SP/ADDL.SP/ ASP/DY.SP | ACTUAL",
+   "header": [
+    "INSPECTOR, SI &",
+    "SSP/SP/ADDL.SP/ ASP/DY.SP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INSPECTOR, SI & | A.S.I. SANCTIONED",
+   "header": [
+    "INSPECTOR, SI &",
+    "A.S.I. SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR, SI & | ACTUAL (8)",
+   "header": [
+    "INSPECTOR, SI &",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "INSPECTOR, SI & | OFFICERS BELOW A.S.I. SANCTIONED",
+   "header": [
+    "INSPECTOR, SI &",
+    "OFFICERS BELOW A.S.I. SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "INSPECTOR, SI & | ACTUAL (10)",
+   "header": [
+    "INSPECTOR, SI &",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | SANCTIONED",
+   "header": [
+    "GRAND TOTAL",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
+   ]
+  }
+ ],
+ "notes": [
+  "@ previous year figures repeated in absence of current year data.",
+  "NR – Stands for data not available"
+ ],
+ "checks": {
+  "cells_checked": 30,
+  "cells_passed": 29,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 17915, sum 16943"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

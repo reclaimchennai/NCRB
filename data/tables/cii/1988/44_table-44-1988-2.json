@@ -1,0 +1,105 @@
+{
+ "table_id": "cii/1988/44_table-44-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "44",
+ "title": "Juveniles Apprehended under IPC Crimes by Age Group & Sex During 1988 (State, UT & City-wise)",
+ "listing_title": "Juveniles Apprehended under IPC Crimes by Age Group & Sex During 1988 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-44-1988-2.pdf",
+ "source_sha256": "3fce6ddba8b914b2f16a74e96d68f75bbee100d73df780ec5a0d2596a7f3ad6b",
+ "table_no": "44",
+ "pdf_title": "",
+ "row_label": "STATE /UT/C1TY SL. NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 8,
+ "n_cells": 363,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "JUVENILE | 7 BOYS",
+   "header": [
+    "JUVENILE",
+    "7 BOYS"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "JUVENILE | AGE - GIRLS",
+   "header": [
+    "JUVENILE",
+    "AGE - GIRLS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "JUVENILE | GROUP (STATE, 12 - BOYS",
+   "header": [
+    "JUVENILE",
+    "GROUP (STATE, 12 - BOYS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "IPC UNDER DURING & UT YEARS - GIRLS",
+   "header": [
+    "IPC UNDER DURING & UT YEARS - GIRLS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "CRIMES 1988 SEX & 12-16 GIRLS ONLY",
+   "header": [
+    "CRIMES 1988 SEX & 12-16 GIRLS ONLY"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BY CITY-WISE) OVERALL YEAR GROUPS BOYS",
+   "header": [
+    "BY CITY-WISE) OVERALL YEAR GROUPS BOYS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "AGE 16-18 GIRLS",
+   "header": [
+    "AGE 16-18 GIRLS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "TOTAL YEARS «BOYS + GIRLS)",
+   "header": [
+    "TOTAL YEARS «BOYS + GIRLS)"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 7-12 years means 7 years and above but below 12 years of age etc."
+ ],
+ "checks": {
+  "cells_checked": 11,
+  "cells_passed": 6,
+  "failures": [
+   "col 2 'TOTAL «(STATES)': printed 1544, sum 1506",
+   "col 4 'TOTAL «(STATES)': printed 18468, sum 22368",
+   "col 7 'TOTAL «(STATES)': printed 20012, sum 20020",
+   "col 8 'TOTAL «(STATES)': printed 2451, sum 2460",
+   "col 9 'TOTAL «(STATES)': printed 22463, sum 22473"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

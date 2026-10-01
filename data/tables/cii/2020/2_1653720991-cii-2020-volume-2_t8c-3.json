@@ -1,0 +1,104 @@
+{
+ "table_id": "cii/2020/2_1653720991-cii-2020-volume-2_t8c-3",
+ "publication": "cii",
+ "year": 2020,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 2020",
+ "serial": "2",
+ "title": "Police Disposal of Cases by Anti‐Corruption Bureau, Vigilance and Lokayukta under Prevention of Corruption Act, 1988 and Related Sections of IPC (State/UT‐wise) ‐ 2020",
+ "listing_title": "Volume-II",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653720991_CII 2020 Volume 2.pdf",
+ "source_file": "raw/cii/2020/year_wise/1653720991_CII 2020 Volume 2.pdf",
+ "source_sha256": "8fb5adbb659e424b68989f750f4a4f573d66620ca74817ff6cb8b6e8db7f4bb6",
+ "table_no": "8C.3",
+ "pdf_title": "Police Disposal of Cases by Anti‐Corruption Bureau, Vigilance and Lokayukta under Prevention of Corruption Act, 1988 and Related Sections of IPC (State/UT‐wise) ‐ 2020",
+ "row_label": "SL / State/UT",
+ "pages": [
+  331
+ ],
+ "n_rows": 37,
+ "n_cols": 8,
+ "n_cells": 296,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Cases Pending Investigati on from Previous Year",
+   "header": [
+    "Cases Pending Investigati on from Previous Year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases Reported during the year",
+   "header": [
+    "Cases Reported during the year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases ReOpened for Investigati on",
+   "header": [
+    "Cases ReOpened for Investigati on"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases Transferre d to other State or Agency",
+   "header": [
+    "Cases Transferre d to other State or Agency"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases With drawn by the Govt",
+   "header": [
+    "Cases With drawn by the Govt"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Cases in Which Final Reports Submitted",
+   "header": [
+    "Cases in Which Final Reports Submitted"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Cases Charge‐ sheeted",
+   "header": [
+    "Cases Charge‐ sheeted"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Cases Pending Investigati on at End of the Year",
+   "header": [
+    "Cases Pending Investigati on at End of the Year"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Col.10 = (Col.3+Col.4+Col.5) ‐ (Col.6+Col.7+Col.8+Col.9) TABLE 8C.3 Page 1 of 1",
+  "● As per data provided by States/UTs",
+  "●States/UTs may not be compared purely on the basis of crime ﬁgures"
+ ],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 19,
+  "failures": [
+   "col 3 'TOTAL STATE(S)': printed 10327, sum 9297",
+   "col 4 'TOTAL STATE(S)': printed 3008, sum 2899",
+   "col 8 'TOTAL STATE(S)': printed 430, sum 281",
+   "col 9 'TOTAL STATE(S)': printed 1966, sum 1840",
+   "col 10 'TOTAL STATE(S)': printed 10925, sum 10061"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,112 @@
+{
+ "table_id": "cii/1987/10_table-44-1987",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "10",
+ "title": "Disposal of Juveniles Sent to Courts During 1987",
+ "listing_title": "Disposal of Juveniles Sent to Courts During 1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_44-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_44-1987.pdf",
+ "source_sha256": "3fba1ab02ace67efe870411d5930a2c30263ed6669b70fea3a92f00108474f22",
+ "table_no": "44",
+ "pdf_title": "Disposal Of Juveniles Sent To Courts During 1987",
+ "row_label": "sl NO / STATES/U. Ts/CITIES",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 54,
+ "n_cols": 9,
+ "n_cells": 426,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "JUVENILES TO",
+   "header": [
+    "JUVENILES TO"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "SENT COURTS",
+   "header": [
+    "SENT COURTS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ON RESTORED TO PROBATION GUARDIAN",
+   "header": [
+    "ON RESTORED TO PROBATION GUARDIAN"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "REFFORSENT TO AND MATORTES RARSTALS",
+   "header": [
+    "REFFORSENT TO AND MATORTES RARSTALS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "SENT TO SCHOOLS INSTLTUTLONS",
+   "header": [
+    "SENT TO SCHOOLS INSTLTUTLONS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "SENT TO AND ADULT INSTILUriuNS",
+   "header": [
+    "SENT TO AND ADULT INSTILUriuNS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "IMPRISONED",
+   "header": [
+    "IMPRISONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "ACQUITTED DISPOSED",
+   "header": [
+    "ACQUITTED DISPOSED"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "OR PENDING DISPOSAL OF",
+   "header": [
+    "OR PENDING DISPOSAL OF"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 22,
+  "cells_passed": 11,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 5946, sum 5939",
+   "col 6 'TOTAL (States)': printed 955, sum 344",
+   "col 7 'TOTAL (States)': printed 755, sum 429",
+   "col 7 'TOTAL (Cities)': printed 323, sum 291",
+   "col 8 'TOTAL (States)': printed 2683, sum 2553",
+   "col 9 'TOTAL (States)': printed 21208, sum 21148",
+   "col 9 'TOTAL (Cities)': printed 9041, sum 8949",
+   "col 10 'TOTAL (Cities)': printed 11894, sum 11693"
+  ],
+  "other_totals_checked": 8,
+  "other_totals_passed": 8
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

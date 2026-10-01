@@ -1,0 +1,70 @@
+{
+ "table_id": "psi/2004/9_table-m16-2004-psi",
+ "publication": "psi",
+ "year": 2004,
+ "listing": "table_content",
+ "topic": "Miscellaneous",
+ "section": "Miscellaneous",
+ "serial": "9",
+ "title": "Details of Electronic equipments used in prisons",
+ "listing_title": "Details of Electronic equipments used in prisons",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/table-m16_2004-psi.pdf",
+ "source_file": "raw/psi/2004/table_content/table-m16_2004-psi.pdf",
+ "source_sha256": "ec998577d147bc526da0a5c006e3474c12df3e0e8d47783d2844dea21651318d",
+ "table_no": "",
+ "pdf_title": "TABLE – M.16 DETAILS OF ELECTRONIC EQUIPMENTS USED IN PRISONS AS ON 31ST DECEMBER, 2004",
+ "row_label": "STATE/UT SL. NO. / STATE/UT TELEX",
+ "pages": [
+  1
+ ],
+ "n_rows": 38,
+ "n_cols": 3,
+ "n_cells": 114,
+ "columns": [
+  {
+   "col_no": "6",
+   "name": "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE | ELECVHF TRONIC WALKIE FAX TYPETALKIE SET WRITER",
+   "header": [
+    "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE",
+    "ELECVHF TRONIC WALKIE FAX TYPETALKIE SET WRITER"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE | NONMETAL COMCCTV PUTER TOR PHONE",
+   "header": [
+    "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE",
+    "NONMETAL COMCCTV PUTER TOR PHONE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE | EXCHDETEC OTHERS ANGE",
+   "header": [
+    "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE",
+    "EXCHDETEC OTHERS ANGE"
+   ]
+  }
+ ],
+ "notes": [
+  "NA -DATA NOT AVAILABLE."
+ ],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 2,
+  "failures": [
+   "col 6 'TOTAL(UTs) 0 4': printed 1.48573e+08, sum 5.38851e+06",
+   "col 6 'TOTAL (ALL-INDIA) 31 317': printed 4.77305e+14, sum 4.66824e+14",
+   "col 7 'TOTAL(STATES) 31 313': printed 219954, sum 69564",
+   "col 7 'TOTAL(UTs) 0 4': printed 1230, sum 1050",
+   "col 7 'TOTAL (ALL-INDIA) 31 317': printed 231984, sum 221184"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

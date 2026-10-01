@@ -1,0 +1,112 @@
+{
+ "table_id": "adsi/1997/5_table-9-1997",
+ "publication": "adsi",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "5",
+ "title": "Incidence of Traffic Accidents during various Quarters of 1997 (State, UT & City-wise)",
+ "listing_title": "Incidence of Traffic Accidents during various Quarters of 1997 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-9_1997.pdf",
+ "source_file": "raw/adsi/1997/table_content/table-9_1997.pdf",
+ "source_sha256": "01d3d56a59995aa2a1050e1bf56496b68cddb8cc6a5b2194fef6b35fcb251ca8",
+ "table_no": "9",
+ "pdf_title": "Incidence of Traffic Accidents During Various Quarters of 1997 (Sta‘e , UT &",
+ "row_label": "State/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 54,
+ "n_cols": 10,
+ "n_cells": 432,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Ist Qtr.",
+   "header": [
+    "Ist Qtr."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "%share (4)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "lind Qtr - %share (5)",
+   "header": [
+    "lind Qtr - %share"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "lind Qtr - %share (6)",
+   "header": [
+    "lind Qtr - %share"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "—illrd Qtr.",
+   "header": [
+    "—illrd Qtr."
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "+ %share",
+   "header": [
+    "+ %share"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Vth Qtr.",
+   "header": [
+    "Vth Qtr."
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "%share (10)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  },
+  {
+   "col_no": "12",
+   "name": "«= share",
+   "header": [
+    "«= share"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (All-india)': printed 76673, sum 56633",
+   "col 3 'TOTAL (Cities)': printed 13699, sum 5477",
+   "col 9 'TOTAL (All-india)': printed 75013, sum 76275",
+   "col 9 'TOTAL (Cities)': printed 13207, sum 11030",
+   "col 11 'TOTAL (All-india)': printed 308173, sum 315741"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

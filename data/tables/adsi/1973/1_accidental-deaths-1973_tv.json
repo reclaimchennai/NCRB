@@ -1,0 +1,81 @@
+{
+ "table_id": "adsi/1973/1_accidental-deaths-1973_tv",
+ "publication": "adsi",
+ "year": 1973,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1973",
+ "serial": "1",
+ "title": "Accidental Deaths in India",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1973.pdf",
+ "source_file": "raw/adsi/1973/year_wise/accidental-deaths-1973.pdf",
+ "source_sha256": "43fe94ed0581a435a3aabd9fa6fedd970050780297575883a429d3bc62c0bb80",
+ "table_no": "V",
+ "pdf_title": "",
+ "row_label": "Statewise Sl. Names of states/U.Ts. /Cities",
+ "pages": [
+  9
+ ],
+ "n_rows": 33,
+ "n_cols": 5,
+ "n_cells": 165,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "of +-==2t==:=: | No. Males involved",
+   "header": [
+    "of +-==2t==:=:",
+    "No. Males involved"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "of +-==2t==:=: | % Males to total",
+   "header": [
+    "of +-==2t==:=:",
+    "% Males to total"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "by Sex, 1973 | of Female involved -",
+   "header": [
+    "by Sex, 1973",
+    "of Female involved -"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "by Sex, 1973 | % Females to",
+   "header": [
+    "by Sex, 1973",
+    "% Females to"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total of total -",
+   "header": [
+    "Total of total -"
+   ]
+  }
+ ],
+ "notes": [
+  "- 3—1298BPR&D/76"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 36071, sum 36066"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

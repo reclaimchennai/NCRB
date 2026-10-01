@@ -1,0 +1,77 @@
+{
+ "table_id": "psi/2009/14_table-psi-3-14-2009",
+ "publication": "psi",
+ "year": 2009,
+ "listing": "table_content",
+ "topic": "Types of Prison Inmates",
+ "section": "Types of Prison Inmates",
+ "serial": "14",
+ "title": "State/UT wise Percentage distribution of Convicts to Total Convicts by Age-group",
+ "listing_title": "State/UT wise Percentage distribution of Convicts to Total Convicts by Age-group",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/table-psi-3.14_2009.pdf",
+ "source_file": "raw/psi/2009/table_content/table-psi-3.14_2009.pdf",
+ "source_sha256": "b7bff1b6538af77b35aa677b5faad1f36c20f212465547369e31d26fdf71d861",
+ "table_no": "3.14",
+ "pdf_title": "STATE/UT-WISE PERCENTAGE DISTRIBUTION OF CONVICTS TO TOTAL CONVICTS BY AGE-GROUPS AT THE END OF 2009",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 38,
+ "n_cols": 5,
+ "n_cells": 190,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "16 – 18 YEARS",
+   "header": [
+    "16 – 18 YEARS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "18 – 30 YEARS",
+   "header": [
+    "18 – 30 YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "30 – 50 YEARS",
+   "header": [
+    "30 – 50 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ABOVE 50 YEARS",
+   "header": [
+    "ABOVE 50 YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 3,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 100, sum 2800",
+   "col 7 'TOTAL (UTs)': printed 100, sum 700",
+   "col 7 'TOTAL (ALL-INDIA)': printed 100, sum 200"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

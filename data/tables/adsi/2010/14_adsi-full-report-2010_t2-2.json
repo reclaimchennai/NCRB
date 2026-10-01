@@ -1,0 +1,76 @@
+{
+ "table_id": "adsi/2010/14_adsi-full-report-2010_t2-2",
+ "publication": "adsi",
+ "year": 2010,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2010",
+ "serial": "14",
+ "title": "Incidence and Rate of Suicides – 2010 (State, UT & City–wise)",
+ "listing_title": "Download full report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/adsi-full-report-2010.pdf",
+ "source_file": "raw/adsi/2010/year_wise/adsi-full-report-2010.pdf",
+ "source_sha256": "18ea02d071ef9d07f540d92c1a0e7d12b38f5f7e3a5b0b78c9647bdee7a482fa",
+ "table_no": "2.2",
+ "pdf_title": "Incidence and Rate of Suicides – 2010 (State, UT & City–wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  221,
+  222
+ ],
+ "n_rows": 74,
+ "n_cols": 5,
+ "n_cells": 366,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Suicides",
+   "header": [
+    "Number of Suicides"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage Share in Total Suicides",
+   "header": [
+    "Percentage Share in Total Suicides"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Estimated Mid–Year Population (in Lakh)",
+   "header": [
+    "Estimated Mid–Year Population (in Lakh)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of Suicides (Col.3/Col.5)",
+   "header": [
+    "Rate of Suicides (Col.3/Col.5)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rank*",
+   "header": [
+    "Rank*"
+   ]
+  }
+ ],
+ "notes": [
+  "* Rank on the basis of Rate of Suicides (Col.6) in States, Cities and UTs."
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

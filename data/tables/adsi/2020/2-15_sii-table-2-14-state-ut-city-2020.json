@@ -1,0 +1,75 @@
+{
+ "table_id": "adsi/2020/2-15_sii-table-2-14-state-ut-city-2020",
+ "publication": "adsi",
+ "year": 2020,
+ "listing": "table_content",
+ "topic": "Suicides in India",
+ "section": "Chapter - 2 -- SUICIDES IN INDIA",
+ "serial": "2.15",
+ "title": "Distribution of Mass/Family Suicides during 2020 (State/UT & City-wise)",
+ "listing_title": "Distribution of Mass/Family Suicides during 2020 (State/UT & City-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/sii-table-2.14-state-ut-city_2020.pdf",
+ "source_file": "raw/adsi/2020/table_content/sii-table-2.14-state-ut-city_2020.pdf",
+ "source_sha256": "9a429aef0cf381b08096990ce46c87bb3e024c44d2663d19b38297d82bdd316e",
+ "table_no": "2.14",
+ "pdf_title": "Distribution of Mass/Family Suicides during 2020 (State/UT-wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 93,
+ "n_cols": 4,
+ "n_cells": 372,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Cases",
+   "header": [
+    "Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Married",
+   "header": [
+    "Married"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Un-Married",
+   "header": [
+    "Un-Married"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  "Col. 6 = Col. 4 + Col. 5",
+  "• As per data provided by States/UTs."
+ ],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 0, sum 242",
+   "col 4 'TOTAL (UTs)': printed 0, sum 296",
+   "col 5 'TOTAL (UTs)': printed 0, sum 248",
+   "col 6 'TOTAL (UTs)': printed 0, sum 544"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,95 @@
+{
+ "table_id": "cii/1999/76_table-76-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "76",
+ "title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1999 (State & UT-Wise)",
+ "listing_title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1999 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-76-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-76-1999.pdf",
+ "source_sha256": "bfe6d87e26d93cb9db745e244a00b0e283f87ed6da59a814820204885bf7a987",
+ "table_no": "76",
+ "pdf_title": "",
+ "row_label": "DISPOSAL UF PEKSUNS SL.NO. (i) STATES:",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 208,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "UNDER SLI CRIMES BY POLICE DURING 1999 | (STATE & UT - WISE) | TOTAL NO. STATE/UT OF (2)",
+   "header": [
+    "UNDER SLI CRIMES BY POLICE DURING 1999",
+    "(STATE & UT - WISE)",
+    "TOTAL NO. STATE/UT OF (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "UNDER SLI CRIMES BY POLICE DURING 1999 | (STATE & UT - WISE) | (PERSONS - TRIAL FROM PREvious YEAR @)",
+   "header": [
+    "UNDER SLI CRIMES BY POLICE DURING 1999",
+    "(STATE & UT - WISE)",
+    "(PERSONS - TRIAL FROM PREvious YEAR @)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "UNDER SLI CRIMES BY POLICE DURING 1999 | NUMBER OF PERSONS 4",
+   "header": [
+    "UNDER SLI CRIMES BY POLICE DURING 1999",
+    "NUMBER OF PERSONS 4"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "UNDER SLI CRIMES BY POLICE DURING 1999 | PERSONS GATION END THE YEAR Ss",
+   "header": [
+    "UNDER SLI CRIMES BY POLICE DURING 1999",
+    "PERSONS GATION END THE YEAR Ss"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "UNDER SLI CRIMES BY POLICE DURING 1999 | nes ari OF ©",
+   "header": [
+    "UNDER SLI CRIMES BY POLICE DURING 1999",
+    "nes ari OF ©"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "se: - (8)",
+   "header": [
+    "se: - (8)"
+   ]
+  }
+ ],
+ "notes": [
+  "1. * IN CUSTODY OK ON BAIL.",
+  "2. LESS THEN 0.05 IS ALsu AS 0.0."
+ ],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 5,
+  "failures": [
+   "col 2 'TOTAL (UTs)': printed 26974, sum 26940",
+   "col 4 'TOTAL STATES': printed 3.51179e+06, sum 3.50873e+06",
+   "col 4 'TOTAL (UTs)': printed 19808, sum 19788",
+   "col 5 'TOTAL (UTs)': printed 6493, sum 6423"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

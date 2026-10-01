@@ -1,0 +1,99 @@
+{
+ "table_id": "cii/1990/53_54table-54-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "53",
+ "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990 (State, UT & City-Wise) Robbery",
+ "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990 (State, UT & City-Wise) Robbery",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/54table-54-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/54table-54-1990-.pdf",
+ "source_sha256": "3b49175e2ac8301d33532377ba87baca49f4614c333302bb246584830f73c61a",
+ "table_no": "55",
+ "pdf_title": "",
+ "row_label": "NUMBER STATE/UT/CITY SL. NO. qa)",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 8,
+ "n_cells": 359,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "OF RES NUMBER",
+   "header": [
+    "OF RES NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CASES (STATE, PREMISES VALUE",
+   "header": [
+    "CASES (STATE, PREMISES VALUE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "neruninu UT RURCLARY ‘NUMBER",
+   "header": [
+    "neruninu UT RURCLARY ‘NUMBER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "AND CITY-WISE) & HIGHWAYS VALUE",
+   "header": [
+    "AND CITY-WISE) & HIGHWAYS VALUE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PLACE VALUE RIVER & NUMBER",
+   "header": [
+    "PLACE VALUE RIVER & NUMBER"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OF OF SEA VALUE",
+   "header": [
+    "OF OF SEA VALUE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "STOLEN DURING RAILWAYS NUMBER",
+   "header": [
+    "STOLEN DURING RAILWAYS NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "BY 1990 VALUE",
+   "header": [
+    "BY 1990 VALUE"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Value less than 0.05 is also shown as 0.0"
+ ],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 6,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 411, sum 420",
+   "col 9 'TOTAL (STATES)': printed 126, sum 123"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,81 @@
+{
+ "table_id": "cii/1986/56_tabl58-1986",
+ "publication": "cii",
+ "year": 1986,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "56",
+ "title": "Table Presenting Strength of Civil Police including District Armed Police as on 31.12.1986",
+ "listing_title": "Table Presenting Strength of Civil Police including District Armed Police as on 31.12.1986",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl58-1986.pdf",
+ "source_file": "raw/cii/1986/table_content/tabl58-1986.pdf",
+ "source_sha256": "b4090b9f2bba4df3059c799b481c62c21a162bfbd52ab1fc9786e51ba963543a",
+ "table_no": "58",
+ "pdf_title": "Table Prescning Strength Of Civil Police Including District Armed Police As On 31.12.1986",
+ "row_label": "Sl. No. / States/U.Ts/Cities",
+ "pages": [
+  1
+ ],
+ "n_rows": 46,
+ "n_cols": 5,
+ "n_cells": 229,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "oT DG/IG/DIG/SP",
+   "header": [
+    "oT DG/IG/DIG/SP"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Nuweuer UL ASP & DSP &",
+   "header": [
+    "Nuweuer UL ASP & DSP &"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "UL",
+   "header": [
+    "UL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "or officers below S.I1.",
+   "header": [
+    "or officers below S.I1."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 2056, sum 2032",
+   "col 3 'TOTAL(U.Ts.)': printed 49, sum 46",
+   "col 4 'TOTAL(U.Ts.)': printed 135, sum 125",
+   "col 5 'TOTAL(U.Ts.)': printed 3187, sum 3109",
+   "col 6 'TOTAL(U.Ts.)': printed 27335, sum 26428",
+   "col 7 'TOTAL (STATES)': printed 762685, sum 762715",
+   "col 7 'TOTAL(U.Ts.)': printed 30706, sum 29708"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

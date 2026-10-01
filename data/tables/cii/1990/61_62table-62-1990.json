@@ -1,0 +1,79 @@
+{
+ "table_id": "cii/1990/61_62table-62-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "61",
+ "title": "Persons Killed or Injured under Police Firing During 1990 (State, UT & City-Wise)",
+ "listing_title": "Persons Killed or Injured under Police Firing During 1990 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/62table-62-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/62table-62-1990-.pdf",
+ "source_sha256": "e9bf630e7c120405e1d83a7406c15be2bbe30269ad629963f433e1ae18b7d54c",
+ "table_no": "62",
+ "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1990 (STATE, UT & CITY-WISE)",
+ "row_label": "STATE/UT/CITY SL. NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 214,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NO. OCCARIONR OF FIRING",
+   "header": [
+    "NO. OCCARIONR OF FIRING"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "OF -2 POLICE",
+   "header": [
+    "OF -2 POLICE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CIVILIANS KILLED",
+   "header": [
+    "CIVILIANS KILLED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "POL.TCREMEN | nnn INJURED (6).",
+   "header": [
+    "POL.TCREMEN",
+    "nnn INJURED (6)."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POL.TCREMEN | INJURED KILLED",
+   "header": [
+    "POL.TCREMEN",
+    "INJURED KILLED"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 5,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 1991, sum 1936",
+   "col 4 'TOTAL (STATES)': printed 1170, sum 1110",
+   "col 7 'TOTAL (STATES)': printed 2029, sum 1969"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

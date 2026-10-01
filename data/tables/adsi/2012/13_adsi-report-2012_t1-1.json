@@ -1,0 +1,71 @@
+{
+ "table_id": "adsi/2012/13_adsi-report-2012_t1-1",
+ "publication": "adsi",
+ "year": 2012,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2012",
+ "serial": "13",
+ "title": "Incidence and rate of accidental deaths during 2002 to 2012",
+ "listing_title": "Download full report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/adsi-report-2012.pdf",
+ "source_file": "raw/adsi/2012/year_wise/adsi-report-2012.pdf",
+ "source_sha256": "a9efe33beaa2ef9e3bdf8344b3bcfcdd24caf5600e85210beff3863f99fa1dff",
+ "table_no": "1.1",
+ "pdf_title": "Incidence and rate of accidental deaths during 2002 to 2012",
+ "row_label": "Sl. No.",
+ "pages": [
+  48
+ ],
+ "n_rows": 13,
+ "n_cols": 4,
+ "n_cells": 49,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Year",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Total number of accidental deaths",
+   "header": [
+    "Total number of accidental deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Estimated mid–year population* (In Lakhs+)",
+   "header": [
+    "Estimated mid–year population* (In Lakhs+)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Rate of accidental deaths (Col.3 / Col.4)",
+   "header": [
+    "Rate of accidental deaths (Col.3 / Col.4)"
+   ]
+  }
+ ],
+ "notes": [
+  "* — Source: The Registrar General of India",
+  "** — Figures revised due to change in data of Haryana State",
+  "# — Population as per Census of India 2011*(Provisional)",
+  "+ — One Lakh = 0.1 Million = 100,000"
+ ],
+ "checks": {
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

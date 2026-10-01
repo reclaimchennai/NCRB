@@ -1,0 +1,122 @@
+{
+ "table_id": "cii/1989/63_table-66-1989-1",
+ "publication": "cii",
+ "year": 1989,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "63",
+ "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1989 (Men + Women)",
+ "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1989 (Men + Women)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-66-1989-1.pdf",
+ "source_file": "raw/cii/1989/table_content/table-66-1989-1.pdf",
+ "source_sha256": "0915e4102d71234d61d712b993e9a7573cfbc95bb7b81e046d257e22773bb7ea",
+ "table_no": "66",
+ "pdf_title": "SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE",
+ "row_label": "STATE/UT/CITY SL. NO. am) STATES:",
+ "pages": [
+  1
+ ],
+ "n_rows": 45,
+ "n_cols": 10,
+ "n_cells": 435,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "AS | DG/IG/DIG/SP SANCTIONED (2)",
+   "header": [
+    "AS",
+    "DG/IG/DIG/SP SANCTIONED (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "AS | ON (MEN ACTUAL (3)",
+   "header": [
+    "AS",
+    "ON (MEN ACTUAL (3)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "31.12.1989 + ASP SANCTIONED (4)",
+   "header": [
+    "31.12.1989 + ASP SANCTIONED (4)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "WOMEN) & ACTUAL (3)",
+   "header": [
+    "WOMEN) & ACTUAL (3)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "DSP INSPECTOR, A.S.1. SANCTIONED (8)",
+   "header": [
+    "DSP INSPECTOR, A.S.1. SANCTIONED (8)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "SI ACTUAL cT)",
+   "header": [
+    "SI ACTUAL cT)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "& SANCTIONED (a)",
+   "header": [
+    "& SANCTIONED (a)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS ACTUAL (9)",
+   "header": [
+    "OFFICERS ACTUAL (9)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "BELOW SANCTIONED ao)",
+   "header": [
+    "BELOW SANCTIONED ao)"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL GRAND ACTUAL (12)",
+   "header": [
+    "TOTAL GRAND ACTUAL (12)"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 1. Since ‘Actual’ Police strength was not available for Madhya Pradesh",
+  "and Maharashtra, it is taken equal to ‘Sanctioned’ Police strength.",
+  "2. Though ‘Actual’ Police strength is more than ‘Sanctioned' Police strength",
+  "for some ranks of Armed Police in Tami] Nadu, Tripura and Bombay city, combined ‘Actual’ strength of",
+  "Civil and Armed Police for those ranks does not exceed combined ‘Sanctioned' strength for them."
+ ],
+ "checks": {
+  "cells_checked": 17,
+  "cells_passed": 12,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 415, sum 405",
+   "col 2 'TOTAL (UTS)': printed 12, sum 21",
+   "col 8 'TOTAL (STATES)': printed 219825, sum 264825",
+   "col 9 'TOTAL (STATES)': printed 206797, sum 200797",
+   "col 10 'TOTAL (STATES)': printed 234078, sum 231601"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

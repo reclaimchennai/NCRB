@@ -1,0 +1,144 @@
+{
+ "table_id": "cii/1984/38_table-39-1984",
+ "publication": "cii",
+ "year": 1984,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "38",
+ "title": "Juveniles Apprehended under Important Heads of Local and Special Laws During 1984",
+ "listing_title": "Juveniles Apprehended under Important Heads of Local and Special Laws During 1984",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-39-1984.pdf",
+ "source_file": "raw/cii/1984/table_content/table-39-1984.pdf",
+ "source_sha256": "8d16710037993f5a5e4531167fe31656b85163f289100b6ad75a8bb507c81902",
+ "table_no": "39",
+ "pdf_title": "Juveniles Apprehended Under Important Heads Of Local And Special Laws During 1984",
+ "row_label": "SL. NO. / STATES/UTs/CITIES",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 59,
+ "n_cols": 13,
+ "n_cells": 606,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ARMS ACT",
+   "header": [
+    "ARMS ACT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "GAMBLING | OPIUM ACT",
+   "header": [
+    "GAMBLING",
+    "OPIUM ACT"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "GAMBLING | ACT",
+   "header": [
+    "GAMBLING",
+    "ACT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "GAMBLING | EXCISE ACT",
+   "header": [
+    "GAMBLING",
+    "EXCISE ACT"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PROHIBITION",
+   "header": [
+    "PROHIBITION"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "EXPLOSIVES ACT EXPLOSIVE & SUBSTANCES ACT",
+   "header": [
+    "EXPLOSIVES ACT EXPLOSIVE & SUBSTANCES ACT"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "S.1I.T. ACT (2)",
+   "header": [
+    "S.1I.T. ACT (2)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "MOTOR VEHTCIFS ACT (2)",
+   "header": [
+    "MOTOR VEHTCIFS ACT (2)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "PREVENLLON QF UPTION ACT (10)",
+   "header": [
+    "PREVENLLON QF UPTION ACT (10)"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Cusroms | CORR- (11)",
+   "header": [
+    "Cusroms",
+    "CORR- (11)"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Cusroms | ACT ACT (12)",
+   "header": [
+    "Cusroms",
+    "ACT ACT (12)"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "INDIAN OTHER RAILWAYS urrences UNDER L&SL (13)",
+   "header": [
+    "INDIAN OTHER RAILWAYS urrences UNDER L&SL (13)"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "TOTAL OF L&SL (14) (15)",
+   "header": [
+    "TOTAL OF L&SL (14) (15)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 21,
+  "cells_passed": 7,
+  "failures": [
+   "col 4 'TOTAL (States)': printed 131, sum 78",
+   "col 10001 'TOTAL (States)': printed 1982, sum 1976",
+   "col 10001 'TOTAL (UTs)': printed 30, sum 22",
+   "col 10001 'TOTAL (Cities)': printed 133, sum 147",
+   "col 10002 'TOTAL (States)': printed 1448, sum 1317",
+   "col 10002 'TOTAL (Cities)': printed 795, sum 1101",
+   "col 10005 'TOTAL (States)': printed 4385, sum 2939",
+   "col 10005 'TOTAL (Cities)': printed 48, sum 1494"
+  ],
+  "other_totals_checked": 11,
+  "other_totals_passed": 11
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

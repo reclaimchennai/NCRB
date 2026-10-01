@@ -1,0 +1,81 @@
+{
+ "table_id": "adsi/2007/4_accident-2007_t10",
+ "publication": "adsi",
+ "year": 2007,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2007",
+ "serial": "4",
+ "title": "Table — 1 (J) Incidence and Rate of Deaths due to Road Accidents During 2007 (State/UT wise)",
+ "listing_title": "Accidents & Suicides Clock",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accident-2007.pdf",
+ "source_file": "raw/adsi/2007/year_wise/accident-2007.pdf",
+ "source_sha256": "b8386aab3ba9d1ec5496baa0340d7d1b6d2899406396b9798ab52a276d619864",
+ "table_no": "",
+ "pdf_title": "Table — 1 (J) Incidence and Rate of Deaths due to Road Accidents During 2007 (State/UT wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  12
+ ],
+ "n_rows": 38,
+ "n_cols": 5,
+ "n_cells": 190,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Total Registered | No. of cases of Road Accidents",
+   "header": [
+    "Total Registered",
+    "No. of cases of Road Accidents"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Total Registered | Motor Vehicles as on 31.03.2007# (in 000’)",
+   "header": [
+    "Total Registered",
+    "Motor Vehicles as on 31.03.2007# (in 000’)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total Registered | No. of deaths due to Road Accidents in",
+   "header": [
+    "Total Registered",
+    "No. of deaths due to Road Accidents in"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of Accidental Deaths per 000’ vehicles (Col.5 / Col.4)",
+   "header": [
+    "Rate of Accidental Deaths per 000’ vehicles (Col.5 / Col.4)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rate of Deaths (Col.5/Col.3) ×100",
+   "header": [
+    "Rate of Deaths (Col.5/Col.3) ×100"
+   ]
+  }
+ ],
+ "notes": [
+  "Source : # For column 4 -‘Motor Transport Statistics of India 2004-2005’ report of Transport Research wing, Ministry of Road Transport &",
+  "Highways, New Delhi.",
+  "Note : * – Data relates to 1996-97; + – Data relates to 2001-02;",
+  "^ – Data relates to the year 2002-03."
+ ],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 9,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

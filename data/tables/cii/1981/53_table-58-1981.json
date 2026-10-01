@@ -1,0 +1,67 @@
+{
+ "table_id": "cii/1981/53_table-58-1981",
+ "publication": "cii",
+ "year": 1981,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "53",
+ "title": "Strength of Civil Police including District Armed Police as on 31.12.1981",
+ "listing_title": "Strength of Civil Police including District Armed Police as on 31.12.1981",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1981.pdf",
+ "source_file": "raw/cii/1981/table_content/table-58-1981.pdf",
+ "source_sha256": "05c6c5b69e2e5df28ddf9359d42df96f06c401095fdb3b2b117eaa7261448d7a",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "",
+ "pages": [
+  1
+ ],
+ "n_rows": 46,
+ "n_cols": 4,
+ "n_cells": 181,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  }
+ ],
+ "notes": [
+  "tur Punjab & U.P; are for the year 1980,"
+ ],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'TOTAL(U.Ts.).': printed 145, sum 7303",
+   "col 4 'TOTAL (Cities)': printed 323, sum 4142",
+   "col 5 'TOTAL(U.Ts.).': printed 2795, sum 114713",
+   "col 5 'TOTAL (Cities)': printed 9603, sum 68357",
+   "col 7 'TOTAL(U.Ts.).': printed 27531, sum 1.35674e+06",
+   "col 7 'TOTAL (Cities)': printed 96269, sum 788401"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

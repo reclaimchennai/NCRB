@@ -1,0 +1,212 @@
+{
+ "table_id": "cii/1988/57_table-57-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "57",
+ "title": "Motives of Murder and Culpable Homicide not Amounting to Murder (C.H.) During 1988 (State, UT & City-wise)",
+ "listing_title": "Motives of Murder and Culpable Homicide not Amounting to Murder (C.H.) During 1988 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-57-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-57-1988-2.pdf",
+ "source_sha256": "0ff7e731db9e38b4e1cce3b5cb15e78ac4193b81e3407fc76506f976fa473c60",
+ "table_no": "57",
+ "pdf_title": "MOTIVES OF MURDER AND CULPABLE HOMOCIDE NOT AMOUNTING TO MURDER (C.H.) DURING 1988 (STATE, UT & CITY-WISE>",
+ "row_label": "SL. NO. / STATE/UT/CITY",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 89,
+ "n_cols": 22,
+ "n_cells": 878,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "GAIN | MURDER",
+   "header": [
+    "GAIN",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "GAIN | C.H.",
+   "header": [
+    "GAIN",
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "DISPUTE | MURDER",
+   "header": [
+    "DISPUTE",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "DISPUTE | C.H.",
+   "header": [
+    "DISPUTE",
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERSONAL VENDETTA ENMITY MURDER",
+   "header": [
+    "PERSONAL VENDETTA ENMITY MURDER"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "LOVE | OR C.H.",
+   "header": [
+    "LOVE",
+    "OR C.H."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "LOVE | SEXUAL CAUSES MURDER",
+   "header": [
+    "LOVE",
+    "SEXUAL CAUSES MURDER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "AFFAIRS/ C.H.",
+   "header": [
+    "AFFAIRS/ C.H."
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "DOWRY | MURDER",
+   "header": [
+    "DOWRY",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "DOWRY | C.H.",
+   "header": [
+    "DOWRY",
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "LUNACY | C.H.",
+   "header": [
+    "LUNACY",
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "C.H.",
+   "header": [
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CASTEISM | MURDER",
+   "header": [
+    "CASTEISM",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "CASTEISM | C.H.",
+   "header": [
+    "CASTEISM",
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "CLASS | MURDER",
+   "header": [
+    "CLASS",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "CLASS | CONFLICT C.H.",
+   "header": [
+    "CLASS",
+    "CONFLICT C.H."
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "OTHER MOTIVES | MURDER",
+   "header": [
+    "OTHER MOTIVES",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "OTHER MOTIVES | C.H.",
+   "header": [
+    "OTHER MOTIVES",
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "TOTAL | MURDER",
+   "header": [
+    "TOTAL",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL | C.H.",
+   "header": [
+    "TOTAL",
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "42",
+   "name": "col_42",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 21,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 3807, sum 4447",
+   "col 7 'TOTAL (STATES)': printed 4845, sum 4840",
+   "col 11 'TOTAL (STATES)': printed 866, sum 875"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

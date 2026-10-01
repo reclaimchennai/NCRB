@@ -1,0 +1,87 @@
+{
+ "table_id": "adsi/2011/8_suicides-2011_t2-c",
+ "publication": "adsi",
+ "year": 2011,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2011",
+ "serial": "8",
+ "title": "State/UT/City wise Distribution of Family Suicides during 2011",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-2011.pdf",
+ "source_file": "raw/adsi/2011/year_wise/suicides-2011.pdf",
+ "source_sha256": "205c093b17e6aa4b5b8feaf31ffa5c4669e640e6b424f87f97dcd54d9dfae77a",
+ "table_no": "2(C)",
+ "pdf_title": "State/UT/City wise Distribution of Family Suicides during 2011",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  6,
+  7
+ ],
+ "n_rows": 92,
+ "n_cols": 6,
+ "n_cells": 552,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "No. Of Cases",
+   "header": [
+    "No. Of Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Adults | Male",
+   "header": [
+    "Adults",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Adults | Female",
+   "header": [
+    "Adults",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Minor* | Male",
+   "header": [
+    "Minor*",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Minor* | Female",
+   "header": [
+    "Minor*",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total Victims",
+   "header": [
+    "Total Victims"
+   ]
+  }
+ ],
+ "notes": [
+  "Note : NA stand for data not available. * Below 18 years of age."
+ ],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

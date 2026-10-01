@@ -1,0 +1,101 @@
+{
+ "table_id": "psi/1998/5_psi-full-report-1998_t6_2",
+ "publication": "psi",
+ "year": 1998,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1998",
+ "serial": "5",
+ "title": "NUMBER OF JAILS BY TYPE OF JAILS IN THE COUNTRY AT THE END OF 1998",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
+ "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
+ "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
+ "table_no": "6",
+ "pdf_title": "NUMBER OF JAILS BY TYPE OF JAILS IN THE COUNTRY AT THE END OF 1998",
+ "row_label": "aa / STATE/UT",
+ "pages": [
+  74
+ ],
+ "n_rows": 31,
+ "n_cols": 9,
+ "n_cells": 131,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "hae on (3)",
+   "header": [
+    "hae on"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "hae on (4)",
+   "header": [
+    "hae on"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "SUB JAIL",
+   "header": [
+    "SUB JAIL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "a",
+   "header": [
+    "a"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "8",
+   "name": "OPEN JAIL",
+   "header": [
+    "OPEN JAIL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "OTHERS",
+   "header": [
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [
+  "® do not exist"
+ ],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 264, sum 227"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,130 @@
+{
+ "table_id": "cii/1999/42_table-42-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "42",
+ "title": "Number of Burglary Cases Reported and Value of Property Stolen by Place of Occurrence During 1999 (State, UT & City-Wise)",
+ "listing_title": "Number of Burglary Cases Reported and Value of Property Stolen by Place of Occurrence During 1999 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-42-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-42-1999.pdf",
+ "source_sha256": "20f328a39653c3d06b310c24a9ecd50ffcbfc5f1bf5a71b27859ba37589c669e",
+ "table_no": "42",
+ "pdf_title": "NUMBER OF BURGLARY CASES KEPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE",
+ "row_label": "DURING 1999 STATE/UI/CITY SL. NO. 2)",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 83,
+ "n_cols": 11,
+ "n_cells": 588,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "DURING 1999 | (STATE, UT & CITY-WISE) KESIDENTIAL PREMISES VALUE NUMBER 8",
+   "header": [
+    "DURING 1999",
+    "(STATE, UT & CITY-WISE) KESIDENTIAL PREMISES VALUE NUMBER 8"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "DURING 1999 | HIGHWAYS NUMBER NUMBER ©",
+   "header": [
+    "DURING 1999",
+    "HIGHWAYS NUMBER NUMBER ©"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DURING 1999 | RIVER & SEA VALUE - NUMBER om ©",
+   "header": [
+    "DURING 1999",
+    "RIVER & SEA VALUE - NUMBER om ©"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "DURING 1999 | (Value Rs. in lakh) RAILWAYS VALUE VALUE ®& «ao",
+   "header": [
+    "DURING 1999",
+    "(Value Rs. in lakh) RAILWAYS VALUE VALUE ®& «ao"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "BANKS | @)",
+   "header": [
+    "BANKS",
+    "@)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "BANKS | NUMBER am",
+   "header": [
+    "BANKS",
+    "NUMBER am"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "COMM tt",
+   "header": [
+    "COMM tt"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "VALUE az",
+   "header": [
+    "VALUE az"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "OTHER PLACES NUMRER VALUE a6 (13)",
+   "header": [
+    "OTHER PLACES NUMRER VALUE a6 (13)"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "TOTAL | VALUE NUMBER 1 (14) ay",
+   "header": [
+    "TOTAL",
+    "VALUE NUMBER 1 (14) ay"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "TOTAL | NUMBER VALUE ay a8)",
+   "header": [
+    "TOTAL",
+    "NUMBER VALUE ay a8)"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Value less than 0.05 is aiso suown as 0.0.",
+  "a"
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 10001 'TOTAL (UTs)': printed 1, sum 79",
+   "col 10001 'TOTAL STATES': printed 276, sum 167"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

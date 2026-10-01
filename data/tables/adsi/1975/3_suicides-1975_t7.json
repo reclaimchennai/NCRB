@@ -1,0 +1,88 @@
+{
+ "table_id": "adsi/1975/3_suicides-1975_t7",
+ "publication": "adsi",
+ "year": 1975,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1975",
+ "serial": "3",
+ "title": "Suicidal Deaths in India",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1975.pdf",
+ "source_file": "raw/adsi/1975/year_wise/suicides-1975.pdf",
+ "source_sha256": "2edf54e153b79551e9fde4168e375cf5fb69438935d3c8227cd1f21070e875c9",
+ "table_no": "7",
+ "pdf_title": "",
+ "row_label": "Suicides classified s-z5rding to sex and by States, Union Sl. No. / Suicides classified s-z5rding to sex and by States, Union Names of States/ U.T.s/Cities 1 States 1. Andhra Pradesh 2. Assam. 3. Bihar. 4. Gujarat 5. Haryana.",
+ "pages": [
+  14,
+  15
+ ],
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 178,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Suicides classified s-z5rding to sex and by States, Union | Male 2 5 6. Himachal Pradesh 7. Jammu & Kahmir 8. Karnataka",
+   "header": [
+    "Suicides classified s-z5rding to sex and by States, Union",
+    "Male 2 5 6. Himachal Pradesh 7. Jammu & Kahmir 8. Karnataka"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Suicides classified s-z5rding to sex and by States, Union | Cities 3 1934 905 354 693 298 65 2 2778",
+   "header": [
+    "Suicides classified s-z5rding to sex and by States, Union",
+    "Cities 3 1934 905 354 693 298 65 2 2778"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Suicides classified s-z5rding to sex and by States, Union | during %Male over total 4 57:0 74°5 61-0 51°5 53-7 71°4 100-0 58-7",
+   "header": [
+    "Suicides classified s-z5rding to sex and by States, Union",
+    "during %Male over total 4 57:0 74°5 61-0 51°5 53-7 71°4 100-0 58-7"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Suicides classified s-z5rding to sex and by States, Union | 1975. Female 5 1457 310 226 653 257 26 - 195f",
+   "header": [
+    "Suicides classified s-z5rding to sex and by States, Union",
+    "1975. Female 5 1457 310 226 653 257 26 - 195f"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Suicides classified s-z5rding to sex and by States, Union | %Female over total 6 43-0 25 °5 39-0 48-5 46-3 28 -6- 0-0 41-3",
+   "header": [
+    "Suicides classified s-z5rding to sex and by States, Union",
+    "%Female over total 6 43-0 25 °5 39-0 48-5 46-3 28 -6- 0-0 41-3"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "and Totat T 3391 1215 580 1346 555 91 2 4729:",
+   "header": [
+    "and Totat T 3391 1215 580 1346 555 91 2 4729:"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 25684, sum 18655"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

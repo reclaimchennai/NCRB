@@ -1,0 +1,95 @@
+{
+ "table_id": "cii/1999/95_table-95-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "95",
+ "title": "No. of Equipments and Transport Support During 1999",
+ "listing_title": "No. of Equipments and Transport Support During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-95-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-95-1999.pdf",
+ "source_sha256": "01695bdd6b5abfda553fd321a56ee80f9099e855282e990750a5d51a664d629e",
+ "table_no": "95",
+ "pdf_title": "NO. OF EQULPMENTS AND TRANSPORT SUPPORT DURING 1999",
+ "row_label": "SL.NO. a) STATES:",
+ "pages": [
+  1
+ ],
+ "n_rows": 37,
+ "n_cols": 7,
+ "n_cells": 242,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "STATE/UT @)",
+   "header": [
+    "STATE/UT @)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "MOTOR CYCLE MOTOR VEHICLES @)",
+   "header": [
+    "MOTOR CYCLE MOTOR VEHICLES @)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CAR @",
+   "header": [
+    "CAR @"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "JEEP )",
+   "header": [
+    "JEEP )"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ONE ©",
+   "header": [
+    "ONE ©"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "OTHERS | THREE TONNER TONNER ™ (8)",
+   "header": [
+    "OTHERS",
+    "THREE TONNER TONNER ™ (8)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OTHERS | (9) 1",
+   "header": [
+    "OTHERS",
+    "(9) 1"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 4,
+  "failures": [
+   "col 2 'TOTAL (UTs)': printed 115, sum 96700",
+   "col 3 'TOTAL STATES': printed 11453, sum 10364",
+   "col 3 'TOTAL (ALL-INDIA)': printed 13490, sum 11453",
+   "col 5 'TOTAL STATES': printed 20120, sum 16575",
+   "col 7 'TOTAL STATES': printed 4044, sum 2602"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

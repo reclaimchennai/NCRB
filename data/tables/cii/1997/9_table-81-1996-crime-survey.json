@@ -1,0 +1,137 @@
+{
+ "table_id": "cii/1997/9_table-81-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "9",
+ "title": "Reported Custodial Rape Cases and Their Disposal by Police and Courts During 1997",
+ "listing_title": "Reported Custodial Rape Cases and Their Disposal by Police and Courts During 1997",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-81-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-81-1996-crime-survey.pdf",
+ "source_sha256": "db486eb31c35f6d073f7c072b1c52fb566627ce7e520e98881e5e4d6513a6520",
+ "table_no": "81",
+ "pdf_title": "REPORTED CUSTODIAL RAPE CASES AND THEIR DISPOSAL BY POLICE AND COURTS DURING 1997",
+ "row_label": "2 a) / STATE/UT CASES PENDING GATION FROM PREVIOUS YEAR / INVESTIGATION STAGE CASES REPORTED DURING THE YEAR",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 58,
+ "n_cols": 12,
+ "n_cells": 299,
+ "columns": [
+  {
+   "col_no": "5",
+   "name": "INVESTIGATION STAGE | CASES NOT INVESTIGESTIGATION WAS REFUSED",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES NOT INVESTIGESTIGATION WAS REFUSED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "INVESTIGATION STAGE | CASES DECLARED FALSEON ACCOUNT OF MISTAKE OF FACT OR LAW",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES DECLARED FALSEON ACCOUNT OF MISTAKE OF FACT OR LAW"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INVESTIGATION STAGE | CASES IN SHEETS WERE LAID",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES IN SHEETS WERE LAID"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INVESTIGATION STAGE | CASESIN WHICH CHARGESHEETS WERE NOT LAID BUT FINAL REPORT SUBMITTED DURING THE YEAR",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASESIN WHICH CHARGESHEETS WERE NOT LAID BUT FINAL REPORT SUBMITTED DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "INVESTIGATION STAGE | TOTAL CASES (COL. 7 +8)",
+   "header": [
+    "INVESTIGATION STAGE",
+    "TOTAL CASES (COL. 7 +8)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "CASES - PENDING INVESTIGATHE END OF THE YEAR",
+   "header": [
+    "CASES - PENDING INVESTIGATHE END OF THE YEAR"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "TRIAL STAGE | CASES SENTFOR TRIAL DURING THE YEAR (12)",
+   "header": [
+    "TRIAL STAGE",
+    "CASES SENTFOR TRIAL DURING THE YEAR (12)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "TRIAL STAGE | TOTAL CASESFOR TRIAL. DURING THE YEAR (13)",
+   "header": [
+    "TRIAL STAGE",
+    "TOTAL CASESFOR TRIAL. DURING THE YEAR (13)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "TRIAL STAGE | CASES NDED OR DRAWN (14)",
+   "header": [
+    "TRIAL STAGE",
+    "CASES NDED OR DRAWN (14)"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "TRIAL STAGE | CASES CASES iNWHICH CONVICTED TRIALS WERE COMPLETED (15)",
+   "header": [
+    "TRIAL STAGE",
+    "CASES CASES iNWHICH CONVICTED TRIALS WERE COMPLETED (15)"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "TRIAL STAGE | CASES - TTED OR CISCHARG EQ (16)",
+   "header": [
+    "TRIAL STAGE",
+    "CASES - TTED OR CISCHARG EQ (16)"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "TRIAL STAGE | CASES PENDING TRIAL AT THE END OF THE* YEAR (18) (17)",
+   "header": [
+    "TRIAL STAGE",
+    "CASES PENDING TRIAL AT THE END OF THE* YEAR (18) (17)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 3,
+  "failures": [
+   "col 10 '\"TOTAL (UTs)': printed 0, sum 4",
+   "col 10001 '\"TOTAL (STATES)': printed 4, sum 2"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

@@ -1,0 +1,83 @@
+{
+ "table_id": "cii/1994/10_1653990842-excerpts1994_t7",
+ "publication": "cii",
+ "year": 1994,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 1994",
+ "serial": "10",
+ "title": "Police rersonnei Killed on Duty in States & UTs During 1990 to 1994",
+ "listing_title": "Excerpts",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653990842_EXCERPTS1994.pdf",
+ "source_file": "raw/cii/1994/year_wise/1653990842_EXCERPTS1994.pdf",
+ "source_sha256": "526e80236fd3d4712301c767fae1a5d49cecd5e61c8f805acb80187e903918e3",
+ "table_no": "",
+ "pdf_title": "Police rersonnei Killed on Duty in States & UTs During 1990 to 1994",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  13,
+  14,
+  15
+ ],
+ "n_rows": 54,
+ "n_cols": 5,
+ "n_cells": 232,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "1990",
+   "header": [
+    "1990"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1991",
+   "header": [
+    "1991"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1992",
+   "header": [
+    "1992"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1993",
+   "header": [
+    "1993"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1994",
+   "header": [
+    "1994"
+   ]
+  }
+ ],
+ "notes": [
+  "Source: ‘Data on Police Organisations in India’ - Bureau of Police Research & Deveiopment.",
+  "Note: # Other Central Police Organisations.",
+  "iource: “Data on Police - India’ - Bureau of Police Research & 7",
+  "‘16"
+ ],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 13,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 17, sum 10",
+   "col 6 'TOTAL (States)': printed 605, sum 627"
+  ],
+  "other_totals_checked": 6,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

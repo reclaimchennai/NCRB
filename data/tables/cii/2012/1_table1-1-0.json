@@ -1,0 +1,103 @@
+{
+ "table_id": "cii/2012/1_table1-1-0",
+ "publication": "cii",
+ "year": 2012,
+ "listing": "table_content",
+ "topic": "Executive Summary",
+ "section": "Executive Summary",
+ "serial": "1",
+ "title": "Number of complaints received by the police and the cases registered under IPC and SLL (State/UT-wise)",
+ "listing_title": "Number of complaints received by the police and the cases registered under IPC and SLL (State/UT-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/Table1.1_0.pdf",
+ "source_file": "raw/cii/2012/table_content/Table1.1_0.pdf",
+ "source_sha256": "6ab20084bdebc2a321ce8bf0baf4e4fb3b845913a2efc6eaa852b07440d91d8c",
+ "table_no": "1.1",
+ "pdf_title": "Number of Complaints Received By Police & Cases Registered Under IPC & SLL During 2012",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 38,
+ "n_cols": 8,
+ "n_cells": 304,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Category of Complaints Received | Oral",
+   "header": [
+    "Category of Complaints Received",
+    "Oral"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Category of Complaints Received | Written",
+   "header": [
+    "Category of Complaints Received",
+    "Written"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Category of Complaints Received | Distress call over Phone/ Dial 100",
+   "header": [
+    "Category of Complaints Received",
+    "Distress call over Phone/ Dial 100"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Category of Complaints Received | Complaints Initiated Suomoto by Police",
+   "header": [
+    "Category of Complaints Received",
+    "Complaints Initiated Suomoto by Police"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Category of Complaints Received | Total Complaints (Col.3 to 6)",
+   "header": [
+    "Category of Complaints Received",
+    "Total Complaints (Col.3 to 6)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "No. of Cases Registered Under | IPC",
+   "header": [
+    "No. of Cases Registered Under",
+    "IPC"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "No. of Cases Registered Under | SLL",
+   "header": [
+    "No. of Cases Registered Under",
+    "SLL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Total (col 8 + col 9)",
+   "header": [
+    "Total (col 8 + col 9)"
+   ]
+  }
+ ],
+ "notes": [
+  "*In some States/UTs only the Oral Complaints/Distress Call/Dial 100 which are converted into FIR are shown in column 3 and 5"
+ ],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

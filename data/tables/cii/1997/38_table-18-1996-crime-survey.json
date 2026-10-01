@@ -1,0 +1,128 @@
+{
+ "table_id": "cii/1997/38_table-18-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "38",
+ "title": "Disposal of SLL Crime Cases by Police During 1997 (State & UT-Wise)",
+ "listing_title": "Disposal of SLL Crime Cases by Police During 1997 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-18-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-18-1996-crime-survey.pdf",
+ "source_sha256": "8fbc6866aa30bee55c71a62191c3c44c17770344ee7579730f8fb73e63fb69b4",
+ "table_no": "18",
+ "pdf_title": "DISPOSAL OF SLL CRIME CASES BY POLICE DURING 1997",
+ "row_label": "(STATE & UT-WISE) SL. NO. L / (STATE & UT-WISE) STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 10,
+ "n_cells": 328,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(STATE & UT-WISE) | TOTAL NO. OF CASES FOR INVE- - STIGATION INCLUDING PENDING CASES",
+   "header": [
+    "(STATE & UT-WISE)",
+    "TOTAL NO. OF CASES FOR INVE- - STIGATION INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(STATE & UT-WISE) | INVESTIGATION WAS REFUSED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "INVESTIGATION WAS REFUSED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(STATE & UT-WISE) | NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ MISTAKE OF FACT OR OF LAW ETC.",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR OF LAW ETC."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(STATE & UT-WISE) | NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE - SUBMITTED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE - SUBMITTED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(STATE & UT-WISE) | NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED | CHARGE) SHEETS WERE LAID",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED",
+    "CHARGE) SHEETS WERE LAID"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "(STATE & UT-WISE) | TOTAL {(5)+(6) +(7)}",
+   "header": [
+    "(STATE & UT-WISE)",
+    "TOTAL {(5)+(6) +(7)}"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "(STATE & UT-WISE) | NO.OF CASES PENDING INVESTIGATION",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NO.OF CASES PENDING INVESTIGATION"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "(STATE & UT-WISE) | PENDENCY",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PENDENCY"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "(STATE & UT-WISE) | PERCENTAGE PENDENCY TO ALLINDIA TOTAL a)",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PERCENTAGE PENDENCY TO ALLINDIA TOTAL a)"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "(STATE & UT-WISE) | CHARGE TAGE OF SHEETING RATE",
+   "header": [
+    "(STATE & UT-WISE)",
+    "CHARGE TAGE OF SHEETING RATE"
+   ]
+  }
+ ],
+ "notes": [
+  "N than 0.05 's also shown as 0.0."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 '(ALL-INDIA)': printed 5.30615e+06, sum 1.16123e+07",
+   "col 5 '(ALL-INDIA)': printed 48523, sum 48526",
+   "col 7 '(ALL-INDIA)': printed 4.49168e+06, sum 8.97195e+06",
+   "col 9 '(ALL-INDIA)': printed 673298, sum 1.33389e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

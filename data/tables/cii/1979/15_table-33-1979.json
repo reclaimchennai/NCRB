@@ -1,0 +1,108 @@
+{
+ "table_id": "cii/1979/15_table-33-1979",
+ "publication": "cii",
+ "year": 1979,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "15",
+ "title": "Juvenile Delinquency for Important Heads of Crime under IPC During the Year 1979",
+ "listing_title": "Juvenile Delinquency for Important Heads of Crime under IPC During the Year 1979",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-33-1979.pdf",
+ "source_file": "raw/cii/1979/table_content/table-33-1979.pdf",
+ "source_sha256": "462920b6dc31ecb1497d1c2a933f37be667eb53c22b544b092859a5360b6c36c",
+ "table_no": "33",
+ "pdf_title": "—",
+ "row_label": "Name of the Ststes/U.Ts./ SI. No. STATES / Name of the Ststes/U.Ts./ Cities",
+ "pages": [
+  2,
+  3
+ ],
+ "n_rows": 61,
+ "n_cols": 9,
+ "n_cells": 359,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "IPC | Dacoity",
+   "header": [
+    "IPC",
+    "Dacoity"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "IPC | Robbery",
+   "header": [
+    "IPC",
+    "Robbery"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "reporied Burglary",
+   "header": [
+    "reporied Burglary"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Thefts",
+   "header": [
+    "Thefts"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Cities",
+   "header": [
+    "Cities"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Criminal Breach Riots of Trust",
+   "header": [
+    "Criminal Breach Riots of Trust"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Cheating",
+   "header": [
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Counterfeiting",
+   "header": [
+    "Counterfeiting"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Total cognizable Crime",
+   "header": [
+    "Total cognizable Crime"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 10001 'TOTAL (States)': printed 6055, sum 4698",
+   "col 10001 'TOTAL (U.Ts.)': printed 140, sum 72",
+   "col 10002 'TOTAL (U.Ts.)': printed 24, sum 16"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 3
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

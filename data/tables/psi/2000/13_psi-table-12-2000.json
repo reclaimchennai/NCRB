@@ -1,0 +1,95 @@
+{
+ "table_id": "psi/2000/13_psi-table-12-2000",
+ "publication": "psi",
+ "year": 2000,
+ "listing": "table_content",
+ "topic": "Miscellaneous",
+ "section": "Miscellaneous",
+ "serial": "13",
+ "title": "Distribution of Convicts in Jails by Age Groups at the end of 2000",
+ "listing_title": "Distribution of Convicts in Jails by Age Groups at the end of 2000",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-12_2000.pdf",
+ "source_file": "raw/psi/2000/table_content/psi-table-12_2000.pdf",
+ "source_sha256": "9ae26632feee279745632c4c1501432c748f972e8f9602820a355c01bed6986e",
+ "table_no": "12",
+ "pdf_title": "",
+ "row_label": "STATE/UT NO. M wo / 30 - 50 F @",
+ "pages": [
+  2
+ ],
+ "n_rows": 15,
+ "n_cols": 7,
+ "n_cells": 67,
+ "columns": [
+  {
+   "col_no": "14",
+   "name": "7",
+   "header": [
+    "7"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "M",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "50 YEARS & ABOVE F",
+   "header": [
+    "50 YEARS & ABOVE F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "T",
+   "header": [
+    "T"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL (ALL AGE '3ROUPS) | M",
+   "header": [
+    "TOTAL (ALL AGE '3ROUPS)",
+    "M"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TOTAL (ALL AGE '3ROUPS) | F",
+   "header": [
+    "TOTAL (ALL AGE '3ROUPS)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "TOTAL (ALL AGE '3ROUPS) | T",
+   "header": [
+    "TOTAL (ALL AGE '3ROUPS)",
+    "T"
+   ]
+  }
+ ],
+ "notes": [
+  "YA -DATA NOT AVAILABLE."
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 14 '(ALL INDIA)': printed 30908, sum 42093",
+   "col 17 '(ALL INDIA)': printed 9562, sum 2600"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+ "table_id": "psi/2012/12_table-psi-3-18-2012",
+ "publication": "psi",
+ "year": 2012,
+ "listing": "table_content",
+ "topic": "Types of Prison Inmates",
+ "section": "Types of Prison Inmates",
+ "serial": "12",
+ "title": "State/UT wise percentage distribution of Foreigner Convicts to Total Foreigners Convicted by Age-Groups",
+ "listing_title": "State/UT wise percentage distribution of Foreigner Convicts to Total Foreigners Convicted by Age-Groups",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/table-psi-3.18_2012.pdf",
+ "source_file": "raw/psi/2012/table_content/table-psi-3.18_2012.pdf",
+ "source_sha256": "1648deb5ae8b733ca3feb192e431c72b0b906907112e8f7e6bf087a02ca13607",
+ "table_no": "3.18",
+ "pdf_title": "State/UT-wise percentage distribution of Foreigner Convicts to Total Foreigners convicted by age-groups at the end of 2012 Sl. State/UT 16 – 18 18 – 30 30 – 50 50 Years &",
+ "row_label": "No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 38,
+ "n_cols": 5,
+ "n_cells": 190,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Years (3)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Years (4)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Years (5)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Above",
+   "header": [
+    "Above"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 100, sum 2300",
+   "col 7 'TOTAL (UTs)': printed 100, sum 300",
+   "col 7 'TOTAL (ALL-INDIA)': printed 100, sum 200"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

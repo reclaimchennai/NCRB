@@ -1,0 +1,89 @@
+{
+ "table_id": "cii/1998/8_table-13-incidence-and-rate-of-violent-crimes-during-1998-19_t13",
+ "publication": "cii",
+ "year": 1998,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "8",
+ "title": "AND RATE OF VIOLENT Chimes DURING 1998",
+ "listing_title": "Incidence and Rate of Violent Crimes During 1998",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13--incidence-and-rate-of-violent-crimes-during-1998-1998.pdf",
+ "source_file": "raw/cii/1998/table_content/table-13--incidence-and-rate-of-violent-crimes-during-1998-1998.pdf",
+ "source_sha256": "7960cef77ba0a69ba578b94d40c6475cf45860f50aeaadc370db11c6b8e0dd0e",
+ "table_no": "13",
+ "pdf_title": "AND RATE OF VIOLENT Chimes DURING 1998",
+ "row_label": ".STATE/UT SL NO / .STATE/UT ((2)",
+ "pages": [
+  1
+ ],
+ "n_rows": 36,
+ "n_cols": 7,
+ "n_cells": 239,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "- ATTEMPT TO COMMIT MURDER",
+   "header": [
+    "- ATTEMPT TO COMMIT MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "C.H.NOT AMOUNTING - TO MURDER",
+   "header": [
+    "C.H.NOT AMOUNTING - TO MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING AND ABDUCTION",
+   "header": [
+    "KIDNAPPING AND ABDUCTION"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "- DACOITY",
+   "header": [
+    "- DACOITY"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOITY",
+   "header": [
+    "PREPARATION AND ASSEMBLY FOR DACOITY"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 7,
+  "failures": [
+   "col 6 'TOTAL (UTs)': printed 461, sum 451"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

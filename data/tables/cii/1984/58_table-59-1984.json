@@ -1,0 +1,76 @@
+{
+ "table_id": "cii/1984/58_table-59-1984",
+ "publication": "cii",
+ "year": 1984,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "58",
+ "title": "Strength of Armed Police as on 31.12.1984",
+ "listing_title": "Strength of Armed Police as on 31.12.1984",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1984.pdf",
+ "source_file": "raw/cii/1984/table_content/table-59-1984.pdf",
+ "source_sha256": "820cedac9e1cbe868c23bdd53c883ddf40efc6f6505df90e37f35aa4bfa3e23a",
+ "table_no": "59",
+ "pdf_title": "Strencth Of Armed Police As On 31-12-1984",
+ "row_label": "sl NO / STATES/U. Ts/ CITIES",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 231,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NUMBER OF IG/DIG SP",
+   "header": [
+    "NUMBER OF IG/DIG SP"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF DG/ DY -",
+   "header": [
+    "NUMBER OF DG/ DY -"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF ASP/ SP s.I.",
+   "header": [
+    "NUMBER OF ASP/ SP s.I."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER INS- 1LUERS BELOW PECTOR/ s.I.",
+   "header": [
+    "NUMBER INS- 1LUERS BELOW PECTOR/ s.I."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TOTAL OF",
+   "header": [
+    "TOTAL OF"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 10,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 290, sum 248",
+   "col 6 'TOTAL (States)': printed 219167, sum 220967"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

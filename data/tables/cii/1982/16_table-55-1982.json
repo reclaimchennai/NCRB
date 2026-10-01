@@ -1,0 +1,72 @@
+{
+ "table_id": "cii/1982/16_table-55-1982",
+ "publication": "cii",
+ "year": 1982,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "16",
+ "title": "Statement Showing the Number of Victims under Different Age Groups for the Crime Head 'Rape' in Different States / Union Territories / Cities During 1982",
+ "listing_title": "Statement Showing the Number of Victims under Different Age Groups for the Crime Head 'Rape' in Different States / Union Territories / Cities During 1982",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-55-1982.pdf",
+ "source_file": "raw/cii/1982/table_content/table-55-1982.pdf",
+ "source_sha256": "ef0757da19a3a42cf9b3f165da5fb6f7f24650963098d076f57fde960f792b1e",
+ "table_no": "55",
+ "pdf_title": "",
+ "row_label": "S1.No. / SHOWING THE NUMBER OF VICTIMS UNDER IN States/U.Ts./Cities",
+ "pages": [
+  1
+ ],
+ "n_rows": 44,
+ "n_cols": 4,
+ "n_cells": 174,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "AGE GROUPS FOR THE CRIME HEAN | STATES/UNION No. ofcases reported",
+   "header": [
+    "AGE GROUPS FOR THE CRIME HEAN",
+    "STATES/UNION No. ofcases reported"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "AGE GROUPS FOR THE CRIME HEAN | DURING Below16 years",
+   "header": [
+    "AGE GROUPS FOR THE CRIME HEAN",
+    "DURING Below16 years"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "AGE GROUPS FOR THE CRIME HEAN | 1982 to 30 years",
+   "header": [
+    "AGE GROUPS FOR THE CRIME HEAN",
+    "1982 to 30 years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "‘RAPE’ 16 Above 30 years",
+   "header": [
+    "‘RAPE’ 16 Above 30 years"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (U.Ts.)': printed 128, sum 16714",
+   "col 5 'TOTAL (U.Ts.)': printed 84, sum 6889"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

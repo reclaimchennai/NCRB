@@ -1,0 +1,110 @@
+{
+ "table_id": "cii/1990/67_68table-68-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "67",
+ "title": "Actual Police Strength in Relation to Area, Population & IPC Crimes During 1990",
+ "listing_title": "Actual Police Strength in Relation to Area, Population & IPC Crimes During 1990",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/68table-68-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/68table-68-1990-.pdf",
+ "source_sha256": "fe91edb8a021a1512ba6610c6ed95a7286d122a1cce44a6548e6e04b06539f73",
+ "table_no": "68",
+ "pdf_title": "",
+ "row_label": "ACTUAL SL. STATE/UT NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 36,
+ "n_cols": 10,
+ "n_cells": 358,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "POLIce AREA (in kms.)",
+   "header": [
+    "POLIce AREA (in kms.)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "IN DURING MID-YEAR Sqr. POPULATION (in",
+   "header": [
+    "IN DURING MID-YEAR Sqr. POPULATION (in"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RELATION TO 1990 TOTAL 000)",
+   "header": [
+    "RELATION TO 1990 TOTAL 000)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "AREA, nnn nnn nen NIZABLE CIVIL CRIMES (IPC)",
+   "header": [
+    "AREA, nnn nnn nen NIZABLE CIVIL CRIMES (IPC)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "POPULATION & ACTUAL POLIce ARMED",
+   "header": [
+    "POPULATION & ACTUAL POLIce ARMED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "IPC TOTAL",
+   "header": [
+    "IPC TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "CRIMES PERCENTAGE OF CIVIL POLICE POLICE",
+   "header": [
+    "CRIMES PERCENTAGE OF CIVIL POLICE POLICE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. POLICEMEN 100 TO POTAL KMS. AREA",
+   "header": [
+    "NO. POLICEMEN 100 TO POTAL KMS. AREA"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OF OF POLICEMEN PER 1,000 PER POPSQR. ULATION",
+   "header": [
+    "OF OF POLICEMEN PER 1,000 PER POPSQR. ULATION"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "NO. OF NO. IPC PER CASES OF CIVIL POLICEMAN",
+   "header": [
+    "NO. OF NO. IPC PER CASES OF CIVIL POLICEMAN"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 7,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 3.27629e+06, sum 3.13061e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

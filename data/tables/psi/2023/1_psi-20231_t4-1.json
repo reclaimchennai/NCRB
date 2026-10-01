@@ -1,0 +1,236 @@
+{
+ "table_id": "psi/2023/1_psi-20231_t4-1",
+ "publication": "psi",
+ "year": 2023,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 2023",
+ "serial": "1",
+ "title": ")",
+ "listing_title": "Prison Statistics India 2023 Report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/PSI-20231.pdf",
+ "source_file": "raw/psi/2023/year_wise/PSI-20231.pdf",
+ "source_sha256": "d9bf975c473fb47798a2dbda1caf3452edbfca43246cdf9fc6660081ff229e3b",
+ "table_no": "4.1",
+ "pdf_title": ")",
+ "row_label": "Sl. No. / Category / 18 – 30 Years / % Share / 30 – 50 Years",
+ "pages": [
+  149,
+  151,
+  152,
+  153
+ ],
+ "n_rows": 68,
+ "n_cols": 26,
+ "n_cells": 881,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "% Share (6)",
+   "header": [
+    "% Share"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "50 Years & above",
+   "header": [
+    "50 Years & above"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "% Share (8)",
+   "header": [
+    "% Share"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Total (9)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "increased by 34.9% during 2018-2023 | Convicts, Others 6,956 by on by",
+   "header": [
+    "increased by 34.9% during 2018-2023",
+    "Convicts, Others 6,956 by on by"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "increased by 34.9% during 2018-2023 | (status respective inmates, Foreign 28.4%, 31st 93.7%",
+   "header": [
+    "increased by 34.9% during 2018-2023",
+    "(status respective inmates, Foreign 28.4%, 31st 93.7%"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "increased by 34.9% during 2018-2023 | 31st as years). number 41.9% December as 31st",
+   "header": [
+    "increased by 34.9% during 2018-2023",
+    "31st as years). number 41.9% December as 31st"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "increased by 34.9% during 2018-2023 | on December of Among these of Convicts, Detenues and Others have decreased and 24.7% respectively and Undertrials increased of on December of",
+   "header": [
+    "increased by 34.9% during 2018-2023",
+    "on December of Among these of Convicts, Detenues and Others have decreased and 24.7% respectively and Undertrials increased of on December of"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "M (10005)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "F (10006)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Tr. (5)",
+   "header": [
+    "Tr."
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Total (10)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "M (11)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "F (12)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Tr. (13)",
+   "header": [
+    "Tr."
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Total (14)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "M (15)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "F (16)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Tr. (17)",
+   "header": [
+    "Tr."
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Total (18)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "M (19)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "F (20)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Tr. (21)",
+   "header": [
+    "Tr."
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Total (22)",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  "Chart 4.7",
+  "  ",
+  "As per data provided by States/UTs."
+ ],
+ "checks": {
+  "cells_checked": 54,
+  "cells_passed": 33,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 3453, sum 255",
+   "col 7 'TOTAL (UTs)': printed 699, sum 0",
+   "col 7 'TOTAL (ALL-INDIA)': printed 4152, sum 4694",
+   "col 9 'TOTAL (STATES)': printed 10, sum 30",
+   "col 9 'TOTAL (ALL-INDIA)': printed 10, sum 6966",
+   "col 10005 'TOTAL (STATES)': printed 1023, sum 1210",
+   "col 10005 'TOTAL (UTs)': printed 188, sum 1",
+   "col 10006 'TOTAL (STATES)': printed 274, sum 276"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 0,
+ "warnings": []
+}

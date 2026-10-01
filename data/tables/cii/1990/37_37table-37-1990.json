@@ -1,0 +1,160 @@
+{
+ "table_id": "cii/1990/37_37table-37-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "37",
+ "title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1990 (State, UT & City-Wise)",
+ "listing_title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1990 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/37table-37-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/37table-37-1990-.pdf",
+ "source_sha256": "ab37f4c86f302e54d6cd2c7a26df06f3c5681d140817e4cd6e5952cdb4324aa9",
+ "table_no": "37",
+ "pdf_title": "",
+ "row_label": "JUVENILE STATE/UT/CITY SL. NO. qh)",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 93,
+ "n_cols": 16,
+ "n_cells": 664,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(IPC) | MURDER",
+   "header": [
+    "(IPC)",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(IPC) | ATTEMPT To COMMIT MURDER",
+   "header": [
+    "(IPC)",
+    "ATTEMPT To COMMIT MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(IPC) | UNDER & C.H.NOT AMOUNT - ING TO MURDER",
+   "header": [
+    "(IPC)",
+    "UNDER & C.H.NOT AMOUNT - ING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "CRIME | CITY-WISE) RAPE",
+   "header": [
+    "CRIME",
+    "CITY-WISE) RAPE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "CRIME | TOTAL",
+   "header": [
+    "CRIME",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "HEADS KIDNAPPING & nnn nn OF &",
+   "header": [
+    "HEADS KIDNAPPING & nnn nn OF &"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "DURING - - WOMEN OF GIRLS",
+   "header": [
+    "DURING - - WOMEN OF GIRLS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "> 1990 =6DACOITY OTHERS",
+   "header": [
+    "> 1990 =6DACOITY OTHERS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ROBBERY AND",
+   "header": [
+    "ROBBERY AND"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "THEFT",
+   "header": [
+    "THEFT"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "RIOTS as)",
+   "header": [
+    "RIOTS as)"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "CRIMINAL CHEATING | BREACH or TRUST",
+   "header": [
+    "CRIMINAL CHEATING",
+    "BREACH or TRUST"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CRIMINAL CHEATING",
+   "header": [
+    "CRIMINAL CHEATING"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "COUNTERFEITING",
+   "header": [
+    "COUNTERFEITING"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "OTHER IPC CRIMES",
+   "header": [
+    "OTHER IPC CRIMES"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "TOTAL coG. CRIMES UNDER IPC",
+   "header": [
+    "TOTAL coG. CRIMES UNDER IPC"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 13,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 216, sum 209",
+   "col 10 'TOTAL (STATES)': printed 116, sum 115"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

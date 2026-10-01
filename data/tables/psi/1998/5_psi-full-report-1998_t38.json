@@ -1,0 +1,75 @@
+{
+ "table_id": "psi/1998/5_psi-full-report-1998_t38",
+ "publication": "psi",
+ "year": 1998,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1998",
+ "serial": "5",
+ "title": "MOVEMENT OF INMATES OUTSIDE THE JAIL PREMISES DURING 1998",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
+ "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
+ "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
+ "table_no": "38",
+ "pdf_title": "MOVEMENT OF INMATES OUTSIDE THE JAIL PREMISES DURING 1998",
+ "row_label": "NO. / STATE/UT",
+ "pages": [
+  125
+ ],
+ "n_rows": 33,
+ "n_cols": 4,
+ "n_cells": 102,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NUMBER OF INMATES TAKEN | TO COURTS",
+   "header": [
+    "NUMBER OF INMATES TAKEN",
+    "TO COURTS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF INMATES TAKEN | FOR MEDICAL ATTENDANCE",
+   "header": [
+    "NUMBER OF INMATES TAKEN",
+    "FOR MEDICAL ATTENDANCE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF INMATES TAKEN | ON REMAND & FOR OTHER PURPOSES",
+   "header": [
+    "NUMBER OF INMATES TAKEN",
+    "ON REMAND & FOR OTHER PURPOSES"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF INMATES TAKEN | TOTAL",
+   "header": [
+    "NUMBER OF INMATES TAKEN",
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [
+  "VA -DATA NOT AVAILABLE."
+ ],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 10,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 567855, sum 280000",
+   "col 5 'TOTAL (STATES)': printed 51226, sum 17289"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

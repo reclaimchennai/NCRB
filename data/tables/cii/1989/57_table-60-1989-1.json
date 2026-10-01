@@ -1,0 +1,82 @@
+{
+ "table_id": "cii/1989/57_table-60-1989-1",
+ "publication": "cii",
+ "year": 1989,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "57",
+ "title": "Police Personnel Killed or Injured on Duty During 1989 (State, UT & City-Wise)",
+ "listing_title": "Police Personnel Killed or Injured on Duty During 1989 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1989-1.pdf",
+ "source_file": "raw/cii/1989/table_content/table-60-1989-1.pdf",
+ "source_sha256": "79509717ad7c29efee6c5d065e07272668ab6d84b73d4045f7b61da41d0ea25b",
+ "table_no": "60",
+ "pdf_title": "POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1988 (STATE, UT & CITY-WISE)",
+ "row_label": "STATE/UT/CITY SL NO qa) / KILLED ewe IN DACOITY OPERATION OR OTHER RAIDS",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 187,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "KILLED | nw wwe wee BY RIOTOUS MOBS",
+   "header": [
+    "KILLED",
+    "nw wwe wee BY RIOTOUS MOBS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "KILLED | we een BY OTHER CRIMINALS",
+   "header": [
+    "KILLED",
+    "we een BY OTHER CRIMINALS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "KILLED | ON BORDER DUTIES",
+   "header": [
+    "KILLED",
+    "ON BORDER DUTIES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KILLED | nee IN ACCIDENTS",
+   "header": [
+    "KILLED",
+    "nee IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KILLED | TOTAL",
+   "header": [
+    "KILLED",
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 5,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 17, sum 13",
+   "col 7 'TOTAL (UTs)': printed 4, sum 288",
+   "col 8 'TOTAL (UTs)': printed 8, sum 17"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

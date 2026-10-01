@@ -1,0 +1,80 @@
+{
+ "table_id": "cii/2005/2_chap2-2005",
+ "publication": "cii",
+ "year": 2005,
+ "listing": "table_chapter",
+ "topic": "",
+ "section": "",
+ "serial": "2",
+ "title": "Crimes in Mega Cities",
+ "listing_title": "Crimes in Mega Cities",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chap2_2005.pdf",
+ "source_file": "raw/cii/2005/table_chapter/chap2_2005.pdf",
+ "source_sha256": "adcef25e862b34d1f2e458b38b27fe491d7f6e37e48135576a62c7c996b9ea8b",
+ "table_no": "2(B)",
+ "pdf_title": "IPC crime rate Incidence & Rate of IPC crimes (mega cities) Mega Cities Vs Domain State",
+ "row_label": "Sl.",
+ "pages": [
+  2
+ ],
+ "n_rows": 30,
+ "n_cols": 5,
+ "n_cells": 79,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Rate of Crime (IPC) | City",
+   "header": [
+    "Rate of Crime (IPC)",
+    "City"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Rate of Crime (IPC)",
+   "header": [
+    "Rate of Crime (IPC)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Year",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Incidence",
+   "header": [
+    "Incidence"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate",
+   "header": [
+    "Rate"
+   ]
+  }
+ ],
+ "notes": [
+  "* Excluding 3 cities - Asansol, Dhanbad & Jamshedpur.",
+  "Trend analysis – IPC crimes"
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'Total (Cities/All India) [line 2]': printed 2005, sum 18060",
+   "col 5 'Total (Cities/All India) [line 2]': printed 766619, sum 8.32987e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 0,
+ "warnings": []
+}

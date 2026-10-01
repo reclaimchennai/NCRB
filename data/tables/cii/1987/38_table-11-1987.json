@@ -1,0 +1,242 @@
+{
+ "table_id": "cii/1987/38_table-11-1987",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "38",
+ "title": "Disposal of Crime Cases Under the IPC by the Police During 1987",
+ "listing_title": "Disposal of Crime Cases Under the IPC by the Police During 1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_11-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_11-1987.pdf",
+ "source_sha256": "7bc47638e9bea05460f2c976d164e25bef0e7ebd14dc83d3e6fcf3f17720011a",
+ "table_no": "10",
+ "pdf_title": "Cases Reported Under Local & Special Laws During The Year 1987",
+ "row_label": "SL. NO. / STATES/UTs/CITIES",
+ "pages": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "n_rows": 72,
+ "n_cols": 26,
+ "n_cells": 1243,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ARMS",
+   "header": [
+    "ARMS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ACT Vv (4)",
+   "header": [
+    "ACT Vv"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NDPS 1 (Ss)",
+   "header": [
+    "NDPS 1 (Ss)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ACT Vv (6)",
+   "header": [
+    "ACT Vv"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "GAMBLING I",
+   "header": [
+    "GAMBLING I"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ACT Vv (8)",
+   "header": [
+    "ACT Vv"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "EXCISE 1",
+   "header": [
+    "EXCISE 1"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "ACT Vv (10)",
+   "header": [
+    "ACT Vv"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PROHIBITION | I",
+   "header": [
+    "PROHIBITION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "PROHIBITION | v",
+   "header": [
+    "PROHIBITION",
+    "v"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ACT STANCES I",
+   "header": [
+    "ACT STANCES I"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "EXPLOSIVES & SUBEXPLOSIVE ACT Vv",
+   "header": [
+    "EXPLOSIVES & SUBEXPLOSIVE ACT Vv"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "IMMORAL TRAFFIC ACT I",
+   "header": [
+    "IMMORAL TRAFFIC ACT I"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "MOTOR | LUN) Vv",
+   "header": [
+    "MOTOR",
+    "LUN) Vv"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "MOTOR | ACT I",
+   "header": [
+    "MOTOR",
+    "ACT I"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "MOTOR | VEHICLES ¥",
+   "header": [
+    "MOTOR",
+    "VEHICLES ¥"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "MOTOR | CUNNUPTIUN ACT 1",
+   "header": [
+    "MOTOR",
+    "CUNNUPTIUN ACT 1"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "OF Vv",
+   "header": [
+    "OF Vv"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "CUSTOMS ACT | I",
+   "header": [
+    "CUSTOMS ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "CUSTOMS ACT | Vv",
+   "header": [
+    "CUSTOMS ACT",
+    "Vv"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "INDIAN I",
+   "header": [
+    "INDIAN I"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "RAILWAYS ACT Vv",
+   "header": [
+    "RAILWAYS ACT Vv"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "OTHER | I",
+   "header": [
+    "OTHER",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "OTHER | OFFENCES Vv",
+   "header": [
+    "OTHER",
+    "OFFENCES Vv"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "TOTAL OF SPECIAL I",
+   "header": [
+    "TOTAL OF SPECIAL I"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "LOCAL & LAWS v",
+   "header": [
+    "LOCAL & LAWS v"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 31,
+  "cells_passed": 9,
+  "failures": [
+   "col 7 'TOTAL (UTs)': printed 956, sum 940",
+   "col 9 'TOTAL (States)': printed 88992, sum 85559",
+   "col 9 'TOTAL (Cities)': printed 8596, sum 4401",
+   "col 11 'TOTAL (States)': printed 553046, sum 553043",
+   "col 11 'TOTAL (Cities)': printed 58324, sum 41388",
+   "col 13 'TOTAL (States)': printed 3265, sum 2963",
+   "col 13 'TOTAL (UTs)': printed 39, sum 37",
+   "col 13 'TOTAL (Cities)': printed 280, sum 265"
+  ],
+  "other_totals_checked": 11,
+  "other_totals_passed": 9
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 4,
+ "warnings": []
+}

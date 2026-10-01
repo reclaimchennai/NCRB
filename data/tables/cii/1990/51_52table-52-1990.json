@@ -1,0 +1,123 @@
+{
+ "table_id": "cii/1990/51_52table-52-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "51",
+ "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990",
+ "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/52table-52-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/52table-52-1990-.pdf",
+ "source_sha256": "40a53e44b1e3f49c3dc251c8421b9cdd6a85c44371ba3557fb7996711a7ff29f",
+ "table_no": "53",
+ "pdf_title": "",
+ "row_label": "STATE/UT/CITY SL. NO.",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 95,
+ "n_cols": 11,
+ "n_cells": 492,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "RES LVDENTIAL PREMISES | NUMBER",
+   "header": [
+    "RES LVDENTIAL PREMISES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RES LVDENTIAL PREMISES | VALUE",
+   "header": [
+    "RES LVDENTIAL PREMISES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER",
+   "header": [
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "OF VALUE",
+   "header": [
+    "OF VALUE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "nerunrev CASES RIVER NUMBER",
+   "header": [
+    "nerunrev CASES RIVER NUMBER"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "AND (STATE, & VALUE",
+   "header": [
+    "AND (STATE, & VALUE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "VALUE UT DACOITY SEA NUMBER",
+   "header": [
+    "VALUE UT DACOITY SEA NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OF STOLEN CITY-WISE) & RAILWAYS VALUE",
+   "header": [
+    "OF STOLEN CITY-WISE) & RAILWAYS VALUE"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "PLACE 1 AT. VALUE NUMBER VALUE",
+   "header": [
+    "PLACE 1 AT. VALUE NUMBER VALUE"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "OF iRs. OTHER TOTAL NUMBER NUMBER",
+   "header": [
+    "OF iRs. OTHER TOTAL NUMBER NUMBER"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "TABLE 53 - - (Concld) in lakh) STATE/UT/CIT Y¥ PLACES VALUE VALUE",
+   "header": [
+    "TABLE 53 - - (Concld) in lakh) STATE/UT/CIT Y¥ PLACES VALUE VALUE"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Value less than 0.05 is also shown as 0.0",
+  "24—750 NCRB/91"
+ ],
+ "checks": {
+  "cells_checked": 11,
+  "cells_passed": 10,
+  "failures": [
+   "col 5 'TOTAL (UTs)': printed 2, sum 8"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

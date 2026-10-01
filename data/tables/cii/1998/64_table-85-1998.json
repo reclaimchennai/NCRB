@@ -1,0 +1,59 @@
+{
+ "table_id": "cii/1998/64_table-85-1998",
+ "publication": "cii",
+ "year": 1998,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "64",
+ "title": "Police Personnel Killed or Injured on Duty During 1998 (State, UT & City-Wise)",
+ "listing_title": "Police Personnel Killed or Injured on Duty During 1998 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-85-1998.pdf",
+ "source_file": "raw/cii/1998/table_content/table-85-1998.pdf",
+ "source_sha256": "cb8834c4fde6ccdd8d8486c2834c317f427b764f9824d3274ed946e94a25e086",
+ "table_no": "85",
+ "pdf_title": "POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1998 (STATE, UT & CITY-WISE)",
+ "row_label": "SL STATE/UT/CITY NO / IN DACOITY OPERATION OR OTHER RAIDS / KILLED BY RIOTOUS MOBS / KILLED NUMBER OF BY OTHER CRIMINALS / KILLED ON BORDER DUTIES",
+ "pages": [
+  1
+ ],
+ "n_rows": 27,
+ "n_cols": 2,
+ "n_cells": 43,
+ "columns": [
+  {
+   "col_no": "7",
+   "name": "KILLED | IN ACCIDENTS",
+   "header": [
+    "KILLED",
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KILLED | TOTAL",
+   "header": [
+    "KILLED",
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [
+  "55 VISHAKHAPATNAM { ° i ° 9 a"
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 7 '[WEST BENGAL - [TOTAL (STATES)': printed 3770, sum 105",
+   "col 7 '“TOTAL (ALL-INDIA)': printed 390, sum 27900"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

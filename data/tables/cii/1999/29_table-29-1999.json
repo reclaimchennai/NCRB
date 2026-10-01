@@ -1,0 +1,85 @@
+{
+ "table_id": "cii/1999/29_table-29-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "29",
+ "title": "Incidence & Rate of Crimes Committed Against Children in States and UTs During 1999",
+ "listing_title": "Incidence & Rate of Crimes Committed Against Children in States and UTs During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-29-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-29-1999.pdf",
+ "source_sha256": "e57cbfe8089652e9dfb051b744d2b753ecc345ff50904fda20a810480fa6a0a9",
+ "table_no": "29",
+ "pdf_title": "INCIDENCE & RATE OF CRIMES COMMITTED AGAINST CHTLDREN IN STATES AND UTs DURING 1999",
+ "row_label": "SL. STATE/UT NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 33,
+ "n_cols": 6,
+ "n_cells": 154,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "INCIDENCE Q)",
+   "header": [
+    "INCIDENCE Q)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TO ALL-INDIA TOTAL",
+   "header": [
+    "TO ALL-INDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RATE OF CRIMES",
+   "header": [
+    "RATE OF CRIMES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "RANK *",
+   "header": [
+    "RANK *"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "** RANK",
+   "header": [
+    "** RANK"
+   ]
+  }
+ ],
+ "notes": [
+  "\\Note: 1 * Rank on the basis of Rate of tots: -25:2-tt= <st:<5 (Col.6).",
+  "2 ** Rank on the basis of ==8re (Col.4)."
+ ],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 445, sum 7928"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

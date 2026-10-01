@@ -1,0 +1,142 @@
+{
+ "table_id": "cii/1986/54_tabl56-1986",
+ "publication": "cii",
+ "year": 1986,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "54",
+ "title": "Number of Police Personnel Killed or Injured on Duty During 1986",
+ "listing_title": "Number of Police Personnel Killed or Injured on Duty During 1986",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl56-1986.pdf",
+ "source_file": "raw/cii/1986/table_content/tabl56-1986.pdf",
+ "source_sha256": "34c3a72425a1a5e17673bb942068c7bd7962c568425cd2b5dc19660adec67eac",
+ "table_no": "56",
+ "pdf_title": "",
+ "row_label": "Sl. Statee/1_Ts/Cities No. / Sl. Statee/1_Ts/Cities",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 65,
+ "n_cols": 12,
+ "n_cells": 512,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number Of Police raids",
+   "header": [
+    "Number Of Police raids"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Injured Or. Duty During 1986 | BY riotous",
+   "header": [
+    "Injured Or. Duty During 1986",
+    "BY riotous"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Injured Or. Duty During 1986 | By other",
+   "header": [
+    "Injured Or. Duty During 1986",
+    "By other"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Injured Or. Duty During 1986 | On border",
+   "header": [
+    "Injured Or. Duty During 1986",
+    "On border"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Injured Or. Duty During 1986 | In aes",
+   "header": [
+    "Injured Or. Duty During 1986",
+    "In aes"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Injured Or. Duty During 1986 | Total",
+   "header": [
+    "Injured Or. Duty During 1986",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Injured | orother raids 2",
+   "header": [
+    "Injured",
+    "orother raids 2"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Injured | riotous mobs 9",
+   "header": [
+    "Injured",
+    "riotous mobs 9"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Injured | other criminals 10",
+   "header": [
+    "Injured",
+    "other criminals 10"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Injured | border duties ll",
+   "header": [
+    "Injured",
+    "border duties ll"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Injured | accidents 12",
+   "header": [
+    "Injured",
+    "accidents 12"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "14 13",
+   "header": [
+    "14 13"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 1,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 42, sum 40",
+   "col 8 'TOTAL (STATES)': printed 287, sum 285",
+   "col 10001 'TOTAL (STATES)': printed 267, sum 75",
+   "col 10001 'TOTAL(U. Ts.)': printed 1, sum 152",
+   "col 10002 'TOTAL (STATES)': printed 2659, sum 874",
+   "col 10002 'TOTAL(U. Ts.)': printed 231, sum 1446",
+   "col 10003 'TOTAL (STATES)': printed 565, sum 172",
+   "col 10005 'TOTAL (STATES)': printed 341, sum 131"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

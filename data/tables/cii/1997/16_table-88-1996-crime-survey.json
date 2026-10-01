@@ -1,0 +1,84 @@
+{
+ "table_id": "cii/1997/16_table-88-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "16",
+ "title": "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.1997 (Men + Women)",
+ "listing_title": "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.1997 (Men + Women)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-88-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-88-1996-crime-survey.pdf",
+ "source_sha256": "e8064f84322c2ea13b8239dac69eb2cbb2b17cdd8bf5e2504001e75656b28321",
+ "table_no": "88",
+ "pdf_title": "",
+ "row_label": "SANCTIONED AND ACTUAL (4) 1 2 ,ARUPACHAL PRADESH / SANCTIONED AND ACTUAL SANSACTUAL tioned (2) PRADESH 182, z5'",
+ "pages": [
+  1
+ ],
+ "n_rows": 57,
+ "n_cols": 5,
+ "n_cells": 278,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE | AS ON 31.12.1997 ASP & DSP SANC- (4) 172 i 19",
+   "header": [
+    "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
+    "AS ON 31.12.1997 ASP & DSP SANC- (4) 172 i 19"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE | (MEN SANC- (5) 300) 37",
+   "header": [
+    "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
+    "(MEN SANC- (5) 300) 37"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE | + WOMEN) ACTUAL (8) 285) 19",
+   "header": [
+    "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
+    "+ WOMEN) ACTUAL (8) 285) 19"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE | OFFICERS BELOW SANC- “7) (70) 5837 60331 57163: 46S 2588 2417",
+   "header": [
+    "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
+    "OFFICERS BELOW SANC- “7) (70) 5837 60331 57163: 46S 2588 2417"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "GRAND TOTAL SANC-) ACTUAL 6 ACTUAL ronro (11)! (9) £12) 5429 66650 6305S 467! 3109 2922",
+   "header": [
+    "GRAND TOTAL SANC-) ACTUAL 6 ACTUAL ronro (11)! (9) £12) 5429 66650 6305S 467! 3109 2922"
+   ]
+  }
+ ],
+ "notes": [
+  "Though ‘Actual’ Pclice strength is more than ‘Sanctioned’ Police strength for come ranks of Civil Police in some States/UTs.combined",
+  "actual strength of Civil and Armed for those ranks does not exceed combined sanctioned strength for them"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 '- TOTAL(STATES)': printed 6.02353e+07, sum 9.05422e+08",
+   "col 5 '- TOTAL(STATES)': printed 1.14799e+11, sum 2.75954e+10",
+   "col 6 '- TOTAL(STATES)': printed 819138, sum 7.52399e+10"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

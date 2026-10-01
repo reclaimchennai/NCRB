@@ -1,0 +1,88 @@
+{
+ "table_id": "cii/1990/59_60table-60-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "59",
+ "title": "Police Personnel Killed or Injured on Duty During 1990 (State, UT & City-Wise)",
+ "listing_title": "Police Personnel Killed or Injured on Duty During 1990 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/60table-60-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/60table-60-1990-.pdf",
+ "source_sha256": "189a6c873217a5cf2f529ff4216ebf73b52df3aac883b60cfdf49179194227a4",
+ "table_no": "60",
+ "pdf_title": "POLICE rensunneL KILLED OR INJURED ON DUTY DURING 1990 (STATE, UT & CITY-WISE)",
+ "row_label": "SL STATE/UT/CITY NO. ql)",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 6,
+ "n_cells": 246,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "KILLED | IN DACOITY OPERATION OR RAIDS",
+   "header": [
+    "KILLED",
+    "IN DACOITY OPERATION OR RAIDS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "KILLED | BY RIOTOUS MOBS OTHER",
+   "header": [
+    "KILLED",
+    "BY RIOTOUS MOBS OTHER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "KILLED | BY OTHER CRIMINALS",
+   "header": [
+    "KILLED",
+    "BY OTHER CRIMINALS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "KILLED | ON BORDER DUTIES",
+   "header": [
+    "KILLED",
+    "ON BORDER DUTIES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KILLED | IN ACCIDENTS",
+   "header": [
+    "KILLED",
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KILLED | TOTAL",
+   "header": [
+    "KILLED",
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 8,
+  "failures": [
+   "col 8 'TOTAL (ALL-INDIA)': printed 779, sum 7179"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

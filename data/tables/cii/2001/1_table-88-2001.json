@@ -1,0 +1,124 @@
+{
+ "table_id": "cii/2001/1_table-88-2001",
+ "publication": "cii",
+ "year": 2001,
+ "listing": "table_content",
+ "topic": "Police Strength, Expenditure & Infrastructure",
+ "section": "Police Strength, Expenditure & Infrastructure",
+ "serial": "1",
+ "title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31st December (Men + Women) (State, UT &",
+ "listing_title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31st December (Men + Women) (State, UT &",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/TABLE-88-2001.pdf",
+ "source_file": "raw/cii/2001/table_content/TABLE-88-2001.pdf",
+ "source_sha256": "28c8db21f9d15742c9b3756247a0f3581ea402f991216e732ddc6fe8c2b70d5d",
+ "table_no": "88",
+ "pdf_title": "Sanctioned And Actual Strength Of Civil Police Including District Armed Police As On 31.12.2001(Men + Women) (State & UT-Wise)",
+ "row_label": "SL. STATE/UT NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 38,
+ "n_cols": 10,
+ "n_cells": 380,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "DG/ADDL.DG/ IG/DIG | SANCTIONED",
+   "header": [
+    "DG/ADDL.DG/ IG/DIG",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DG/ADDL.DG/ IG/DIG | ACTUAL",
+   "header": [
+    "DG/ADDL.DG/ IG/DIG",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "SSP/SP/ADDL.SP/ASP/ DY.SP | SANCTIONED",
+   "header": [
+    "SSP/SP/ADDL.SP/ASP/ DY.SP",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "SSP/SP/ADDL.SP/ASP/ DY.SP | ACTUAL",
+   "header": [
+    "SSP/SP/ADDL.SP/ASP/ DY.SP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INSPECTOR, SI & A.S.I. | SANCTIONED",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS BELOW A.S.I. | SANCTIONED",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | SANCTIONED",
+   "header": [
+    "GRAND TOTAL",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
+   ]
+  }
+ ],
+ "notes": [
+  "* Bihar figures does not include Addl.IG/DIG",
+  "@ previous year figures repeated in absence of current year data.",
+  "NR – Stands for data not available"
+ ],
+ "checks": {
+  "cells_checked": 30,
+  "cells_passed": 29,
+  "failures": [
+   "col 10 'TOTAL (STATES)': printed 870421, sum 835317"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,127 @@
+{
+ "table_id": "cii/1985/39_tables39-1985",
+ "publication": "cii",
+ "year": 1985,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "39",
+ "title": "Juveniles Apprehended under Important Heads of Local & Special Laws During 1985",
+ "listing_title": "Juveniles Apprehended under Important Heads of Local & Special Laws During 1985",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables39-1985.pdf",
+ "source_file": "raw/cii/1985/table_content/tables39-1985.pdf",
+ "source_sha256": "9d0348ad8f10ad7432ad10432561d9bbe28060763426565970671c773f427b6c",
+ "table_no": "39",
+ "pdf_title": "Juveniles Apprehended Under Important Heads Of Local & Special",
+ "row_label": "SL. STATES/UTS/CITIES NO.",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 52,
+ "n_cols": 12,
+ "n_cells": 559,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ARMS ACT",
+   "header": [
+    "ARMS ACT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Laws OPIUM ACT",
+   "header": [
+    "Laws OPIUM ACT"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "During ACT",
+   "header": [
+    "During ACT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1985 EXCISE ACT",
+   "header": [
+    "1985 EXCISE ACT"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PROHIBITION ACT",
+   "header": [
+    "PROHIBITION ACT"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "EXPLOSIVES & EXPLOSIVE STANCES",
+   "header": [
+    "EXPLOSIVES & EXPLOSIVE STANCES"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OF SUPPRESSION SUBIMMORAL ACT TRAFFIC ACT",
+   "header": [
+    "OF SUPPRESSION SUBIMMORAL ACT TRAFFIC ACT"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "MOTOR VEHICLES ACT",
+   "header": [
+    "MOTOR VEHICLES ACT"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "OF PREVENTION CORRUPTION ACT «11>",
+   "header": [
+    "OF PREVENTION CORRUPTION ACT «11>"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "CUSTOMS ACT",
+   "header": [
+    "CUSTOMS ACT"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "INDIAN RAILWAYS ACT",
+   "header": [
+    "INDIAN RAILWAYS ACT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "TOTAL COGNI ZABLE OTHER CRIME OFFENCES UNDER L& SL +15)",
+   "header": [
+    "TOTAL COGNI ZABLE OTHER CRIME OFFENCES UNDER L& SL +15)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 23,
+  "cells_passed": 20,
+  "failures": [
+   "col 7 'TOTAL (U.Ts. )': printed 2, sum 9",
+   "col 10 'TOTAL (CITIES)': printed 2419, sum 2061",
+   "col 14 'TOTAL (U.Ts. )': printed 1.06525e+07, sum 2.44544e+06"
+  ],
+  "other_totals_checked": 10,
+  "other_totals_passed": 9
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

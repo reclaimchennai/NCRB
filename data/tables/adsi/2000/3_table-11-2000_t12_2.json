@@ -1,0 +1,103 @@
+{
+ "table_id": "adsi/2000/3_table-11-2000_t12_2",
+ "publication": "adsi",
+ "year": 2000,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "3",
+ "title": "/fantinued )",
+ "listing_title": "Number of Persons Injured and Killed by Un-natural causes during 2000 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-11_2000.pdf",
+ "source_file": "raw/adsi/2000/table_content/table-11_2000.pdf",
+ "source_sha256": "72c871e3dc434aa01dcc8258a6b6e73414157636988a15518881a73d58a15c7f",
+ "table_no": "12",
+ "pdf_title": "/fantinued )",
+ "row_label": "Si. No. / State/UT/City",
+ "pages": [
+  36
+ ],
+ "n_rows": 46,
+ "n_cols": 8,
+ "n_cells": 340,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "No. of Cases",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "207",
+   "name": "Foss - {Dther) | Male",
+   "header": [
+    "Foss - {Dther)",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "208",
+   "name": "Foss - {Dther) | Female",
+   "header": [
+    "Foss - {Dther)",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "209",
+   "name": "Foss - {Dther) | test Total",
+   "header": [
+    "Foss - {Dther)",
+    "test Total"
+   ]
+  },
+  {
+   "col_no": "210",
+   "name": "Foss - {Dther) | No. ot Male",
+   "header": [
+    "Foss - {Dther)",
+    "No. ot Male"
+   ]
+  },
+  {
+   "col_no": "211",
+   "name": "Foss - {Dther) | - Female -",
+   "header": [
+    "Foss - {Dther)",
+    "- Female -"
+   ]
+  },
+  {
+   "col_no": "212",
+   "name": "Foss - {Dther) | Total",
+   "header": [
+    "Foss - {Dther)",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "213",
+   "name": "%Shareto Total Deaths ard",
+   "header": [
+    "%Shareto Total Deaths ard"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 1,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 98, sum 14492",
+   "col 210 'TOTAL (UTs)': printed 63, sum 9271"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

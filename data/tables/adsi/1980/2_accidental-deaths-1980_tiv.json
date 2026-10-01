@@ -1,0 +1,82 @@
+{
+ "table_id": "adsi/1980/2_accidental-deaths-1980_tiv",
+ "publication": "adsi",
+ "year": 1980,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1980",
+ "serial": "2",
+ "title": "Comparative Statement of jacidence of Acridental Deaths in",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1980.pdf",
+ "source_file": "raw/adsi/1980/year_wise/accidental-deaths-1980.pdf",
+ "source_sha256": "8294f99cd6ad7cf68af0a944716a636f6d25f24844a4baa44c30dd3c4a27d604",
+ "table_no": "IV",
+ "pdf_title": "Comparative Statement of jacidence of Acridental Deaths in",
+ "row_label": "4 / 2",
+ "pages": [
+  11,
+  12
+ ],
+ "n_rows": 46,
+ "n_cols": 7,
+ "n_cells": 143,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "10001",
+   "name": "col_10001",
+   "header": []
+  },
+  {
+   "col_no": "10002",
+   "name": "3",
+   "header": [
+    "3"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "4",
+   "header": [
+    "4"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "5",
+   "header": [
+    "5"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 10002 ''TOTAL (STATES).': printed 106022, sum 61254"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

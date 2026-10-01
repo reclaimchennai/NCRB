@@ -1,0 +1,79 @@
+{
+ "table_id": "cii/1997/18_table-90-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "18",
+ "title": "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.1997 (Women only)",
+ "listing_title": "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.1997 (Women only)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-90-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-90-1996-crime-survey.pdf",
+ "source_sha256": "6c924f6f6957f77274ed624a0261a32ea2fbdec7d6d83fdb546c1f9320a1bf11",
+ "table_no": "90",
+ "pdf_title": "SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE AS ON 31.12.1997 (WOMEN ONLY)",
+ "row_label": "SL. - / s TATE/UT/CITY /UTICIT / SI & DGNGIDIG/SP SANCTICNED / SI & DGNGIDIG/SP ACTUAL / SI & AS? & OSP SANCTIONED / SI & - SANCACTUAL TIONED 7”)",
+ "pages": [
+  1
+ ],
+ "n_rows": 59,
+ "n_cols": 4,
+ "n_cells": 223,
+ "columns": [
+  {
+   "col_no": "9",
+   "name": "SI & | ACTUAL i8)",
+   "header": [
+    "SI &",
+    "ACTUAL i8)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "SI & | - SANCTIONED",
+   "header": [
+    "SI &",
+    "- SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "SI & | GRAND TOTAL | ACTUAL",
+   "header": [
+    "SI &",
+    "GRAND TOTAL",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "SI & | GRAND TOTAL | SANCTIONED ACTUAL",
+   "header": [
+    "SI &",
+    "GRAND TOTAL",
+    "SANCTIONED ACTUAL"
+   ]
+  }
+ ],
+ "notes": [
+  "Noth: Actual Police strength ofwomsn police is more tian their ‘sanctioned’ police strength for sone ranks.",
+  "This is because women police are appointed against male vacancies of the same rank or higher rank as per Govt. instructions."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 1,
+  "failures": [
+   "col 9 '.. - TOTAL (STATES)': printed 1.44316e+08, sum 6.27213e+06",
+   "col 9 '‘TOTAL (UTs)': printed 3.92114e+06, sum 364553",
+   "col 9 ''TOTAL (ALL-INDIA)': printed 1.83517e+08, sum 1.48237e+08"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

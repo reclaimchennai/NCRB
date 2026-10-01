@@ -1,0 +1,88 @@
+{
+ "table_id": "adsi/1991/4_1680614497appendix-31991_t2",
+ "publication": "adsi",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Suicides in India",
+ "section": "SUICIDES IN INDIA",
+ "serial": "4",
+ "title": "APPENDIX - Ill",
+ "listing_title": "Distribution of Suicides by Causes and Sex during 1991 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680614497appendix-31991.pdf",
+ "source_file": "raw/adsi/1991/table_content/1680614497appendix-31991.pdf",
+ "source_sha256": "fc64f123adcbb995bba6fc3d60032d20d472a7f550546442b562567399542d13",
+ "table_no": "",
+ "pdf_title": "APPENDIX - Ill",
+ "row_label": "Sl. No. / State/UT/City",
+ "pages": [
+  6
+ ],
+ "n_rows": 47,
+ "n_cols": 6,
+ "n_cells": 281,
+ "columns": [
+  {
+   "col_no": "48",
+   "name": "Other Cause: | Male",
+   "header": [
+    "Other Cause:",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "49",
+   "name": "Other Cause: | Female",
+   "header": [
+    "Other Cause:",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "50",
+   "name": "Other Cause: | Total",
+   "header": [
+    "Other Cause:",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "51",
+   "name": "Grand Total | Male",
+   "header": [
+    "Grand Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "52",
+   "name": "Grand Total | Female",
+   "header": [
+    "Grand Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "53",
+   "name": "Grand Total | Total",
+   "header": [
+    "Grand Total",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 14,
+  "failures": [
+   "col 48 'TOTAL (States)': printed 18026, sum 17946"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

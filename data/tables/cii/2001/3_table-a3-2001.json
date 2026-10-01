@@ -1,0 +1,101 @@
+{
+ "table_id": "cii/2001/3_table-a3-2001",
+ "publication": "cii",
+ "year": 2001,
+ "listing": "table_content",
+ "topic": "Arrests and Trials",
+ "section": "Arrests and Trials",
+ "serial": "3",
+ "title": "Persons arrested under IPC Crimes and percentage variation over previous year (State, UT & City wise)",
+ "listing_title": "Persons arrested under IPC Crimes and percentage variation over previous year (State, UT & City wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-a3-2001.pdf",
+ "source_file": "raw/cii/2001/table_content/table-a3-2001.pdf",
+ "source_sha256": "c5693391fc9bf7e8404a17d93619e23b185d345bd424083eb7302138aa5bcfd8",
+ "table_no": "64",
+ "pdf_title": "Persons Arrested Under IPC Crimes During 2001 And Percentage Variation In 2001 Over 2000 (State/UT/City-Wise)",
+ "row_label": "SL. STATE/UT NO.",
+ "pages": [
+  1,
+  1,
+  2
+ ],
+ "n_rows": 73,
+ "n_cols": 8,
+ "n_cells": 292,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "2000",
+   "header": [
+    "2000"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2001",
+   "header": [
+    "2001"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERCENTAGE VARIATION IN 2001 OVER 2000",
+   "header": [
+    "PERCENTAGE VARIATION IN 2001 OVER 2000"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING 2001",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING 2001"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "ASANSOL",
+   "header": [
+    "ASANSOL"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "NR (10002)",
+   "header": [
+    "NR"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "NR (10003)",
+   "header": [
+    "NR"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "- -",
+   "header": [
+    "- -"
+   ]
+  }
+ ],
+ "notes": [
+  "NR – DATA NOT RECEIVED"
+ ],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 6,
+  "failures": [
+   "col 10001 'TOTAL (CITIES)': printed 248653, sum 232272",
+   "col 10002 'TOTAL (CITIES)': printed 322598, sum 290485"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,73 @@
+{
+ "table_id": "adsi/2006/6_suicides-2006_t2-a",
+ "publication": "adsi",
+ "year": 2006,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2006",
+ "serial": "6",
+ "title": "Incidence of Suicides, Growth of Population and Rate of Suicides During 2002 to 2006",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-2006.pdf",
+ "source_file": "raw/adsi/2006/year_wise/suicides-2006.pdf",
+ "source_sha256": "71cae8d924ecc7d7e6b9b79435e0c41e138b0abca074f689350392abadc58d9e",
+ "table_no": "2(A)",
+ "pdf_title": "Incidence of Suicides, Growth of Population and Rate of Suicides During 2002 to 2006",
+ "row_label": "Sl. No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 5,
+ "n_cols": 4,
+ "n_cells": 20,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Sl. | Year",
+   "header": [
+    "Sl.",
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Estimated Mid-Year | Total number of Suicides",
+   "header": [
+    "Estimated Mid-Year",
+    "Total number of Suicides"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Estimated Mid-Year | Population* (in Lakhs)**",
+   "header": [
+    "Estimated Mid-Year",
+    "Population* (in Lakhs)**"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Estimated Mid-Year | Rate of Suicides (Col.3/Col.4)",
+   "header": [
+    "Estimated Mid-Year",
+    "Rate of Suicides (Col.3/Col.4)"
+   ]
+  }
+ ],
+ "notes": [
+  "* – Source: The Registrar General of India",
+  "** – One Lakh = 0.1 Million"
+ ],
+ "checks": {
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

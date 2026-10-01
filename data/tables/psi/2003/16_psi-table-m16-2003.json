@@ -1,0 +1,70 @@
+{
+ "table_id": "psi/2003/16_psi-table-m16-2003",
+ "publication": "psi",
+ "year": 2003,
+ "listing": "table_content",
+ "topic": "Miscellaneous",
+ "section": "Miscellaneous",
+ "serial": "16",
+ "title": "Details of Electronic equipments used in prisons",
+ "listing_title": "Details of Electronic equipments used in prisons",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-m16-2003.pdf",
+ "source_file": "raw/psi/2003/table_content/psi-table-m16-2003.pdf",
+ "source_sha256": "0a8accefd7e704432bd57997a94d9782a7e10a8516c55d3a57d0dd4b2370a520",
+ "table_no": "",
+ "pdf_title": "TABLE – M.16 DETAILS OF ELECTRONIC EQUIPMENTS USED IN PRISONS AS ON 31ST DECEMBER, 2003",
+ "row_label": "STATE/UT SL. NO. / STATE/UT TELEX",
+ "pages": [
+  1
+ ],
+ "n_rows": 38,
+ "n_cols": 3,
+ "n_cells": 114,
+ "columns": [
+  {
+   "col_no": "6",
+   "name": "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE | ELECVHF TRONIC WALKIE FAX TYPETALKIE SET WRITER",
+   "header": [
+    "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE",
+    "ELECVHF TRONIC WALKIE FAX TYPETALKIE SET WRITER"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE | NONMETAL COMCCTV PUTER TOR PHONE",
+   "header": [
+    "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE",
+    "NONMETAL COMCCTV PUTER TOR PHONE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE | EXCHDETEC OTHERS ANGE",
+   "header": [
+    "NUMBER OF ELECTRONIC EQUIPMENTS AVAILABLE",
+    "EXCHDETEC OTHERS ANGE"
+   ]
+  }
+ ],
+ "notes": [
+  "NA -DATA NOT AVAILABLE."
+ ],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 2,
+  "failures": [
+   "col 6 'TOTAL(UTs) 0 4': printed 2.46343e+08, sum 2.41655e+07",
+   "col 6 'TOTAL (ALL-INDIA) 31 267': printed 3.94574e+14, sum 3.74114e+14",
+   "col 7 'TOTAL(STATES) 31 263': printed 337821, sum 69981",
+   "col 7 'TOTAL(UTs) 0 4': printed 1316, sum 146",
+   "col 7 'TOTAL (ALL-INDIA) 31 267': printed 350837, sum 339137"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

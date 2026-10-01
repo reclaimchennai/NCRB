@@ -1,0 +1,77 @@
+{
+ "table_id": "psi/2013/20_tablepsi-3-20-2013",
+ "publication": "psi",
+ "year": 2013,
+ "listing": "table_content",
+ "topic": "Types of Prison Inmates",
+ "section": "Types of Prison Inmates",
+ "serial": "20",
+ "title": "State/UT wise percentage distribution of Foreigner Undertrials to Total Foreigner Undertrials by Age-Groups",
+ "listing_title": "State/UT wise percentage distribution of Foreigner Undertrials to Total Foreigner Undertrials by Age-Groups",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/tablepsi-3.20_2013.pdf",
+ "source_file": "raw/psi/2013/table_content/tablepsi-3.20_2013.pdf",
+ "source_sha256": "59f895a039757a188c847a2763ec6477eab2c6079babde59bfb15bf08ba3d737",
+ "table_no": "3.20",
+ "pdf_title": "State/UT-wise percentage distribution of Foreigner Undertrials to Total Foreigners Undertrials by age-groups at the end of 2013 Sl. State/UT 16 – 18 18 – 30 30 – 50 50 Years &",
+ "row_label": "No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 38,
+ "n_cols": 5,
+ "n_cells": 190,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Years (3)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Years (4)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Years (5)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Above",
+   "header": [
+    "Above"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 100, sum 2300",
+   "col 7 'TOTAL (UTs)': printed 100, sum 300",
+   "col 7 'TOTAL (ALL-INDIA)': printed 100, sum 200"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

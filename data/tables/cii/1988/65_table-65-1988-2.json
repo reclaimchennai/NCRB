@@ -1,0 +1,113 @@
+{
+ "table_id": "cii/1988/65_table-65-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "65",
+ "title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1988 (Women only)",
+ "listing_title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1988 (Women only)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-65-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-65-1988-2.pdf",
+ "source_sha256": "5c7d17ac96be8d3586dab54590f68245d2bc958f7f929c57cfc1c699f13e1524",
+ "table_no": "65",
+ "pdf_title": "",
+ "row_label": "SL. STATE/UT/CITY No. ql) / AND SANCTIONED",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 9,
+ "n_cells": 397,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "ACTUAL AS (WOMEN DG/1G/DIG/SP ACTUAL",
+   "header": [
+    "ACTUAL AS (WOMEN DG/1G/DIG/SP ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "OF ON ONLY) ASP SANCTIONED",
+   "header": [
+    "OF ON ONLY) ASP SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "CIVIL 31.12.1988 & ACTUAL",
+   "header": [
+    "CIVIL 31.12.1988 & ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POLICE DSP INDSrECTUN, A.S.1, SANCTIONED",
+   "header": [
+    "POLICE DSP INDSrECTUN, A.S.1, SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INCLUDING SI ACTUAL (B)",
+   "header": [
+    "INCLUDING SI ACTUAL (B)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "DISTRICT & Av8. 3: SANCTIONED",
+   "header": [
+    "DISTRICT & Av8. 3: SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "ARMED OFFICERS ACTUAL",
+   "header": [
+    "ARMED OFFICERS ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "POLICE BELOW SANCTIONED",
+   "header": [
+    "POLICE BELOW SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL ACTUAL",
+   "header": [
+    "GRAND TOTAL ACTUAL"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 1. 1987 data was repeated for J&K and 1986 data was repeated for",
+  "West Bengal. Seperate data for women police was not collected",
+  "then.",
+  "2. Since ‘Sanctioned' police strength was not available for",
+  "Madhya Pradesh and Sikkim,it is taken equal to police",
+  "strength."
+ ],
+ "checks": {
+  "cells_checked": 23,
+  "cells_passed": 19,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 23, sum 32",
+   "col 7 'TOTAL (STATES)': printed 5782, sum 5783",
+   "col 9 'TOTAL (UTs)': printed 884, sum 877",
+   "col 11 'TOTAL (ALL-INDIA)': printed 32582, sum 52582"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

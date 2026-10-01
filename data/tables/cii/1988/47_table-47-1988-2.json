@@ -1,0 +1,164 @@
+{
+ "table_id": "cii/1988/47_table-47-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "47",
+ "title": "Classification of Juveniles Arrested (under IPC & LSL), by Attributes During 1988 (State, UT & City-wise)",
+ "listing_title": "Classification of Juveniles Arrested (under IPC & LSL), by Attributes During 1988 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-47-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-47-1988-2.pdf",
+ "source_sha256": "becf9291833eb8b1546b4306f56b67bd596953ede28e3c152ad6426d468cb02d",
+ "table_no": "47",
+ "pdf_title": "",
+ "row_label": "SL. STATE/UT/CITY NO. q1)",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 47,
+ "n_cols": 16,
+ "n_cells": 713,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ILLITERATE",
+   "header": [
+    "ILLITERATE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BY",
+   "header": [
+    "BY"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PRIMARY ABOVE PRIMARY BUT MATRIC/ H.",
+   "header": [
+    "PRIMARY ABOVE PRIMARY BUT MATRIC/ H."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "CLASSIFICATION OF | nnn MATRIC/ BELOW SEC.",
+   "header": [
+    "CLASSIFICATION OF",
+    "nnn MATRIC/ BELOW SEC."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "CLASSIFICATION OF | TOTAL H. &",
+   "header": [
+    "CLASSIFICATION OF",
+    "TOTAL H. &"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "JUVENILES | SEC. ABOVE",
+   "header": [
+    "JUVENILES",
+    "SEC. ABOVE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "JUVENILES | BY LIVING LIVING WITH WITH PARENTS GUARDTANS",
+   "header": [
+    "JUVENILES",
+    "BY LIVING LIVING WITH WITH PARENTS GUARDTANS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "LSL) IPC & FAMILY - TOTAL HOMELESS «11)",
+   "header": [
+    "LSL) IPC & FAMILY - TOTAL HOMELESS «11)"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BY BY LOWER INCOME UPTO RS. (FROM 500 501 1000 «12)",
+   "header": [
+    "BY BY LOWER INCOME UPTO RS. (FROM 500 501 1000 «12)"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "DURING LOW/MID MIDDLE INCOME INCOME (RS.1001 RS PM TO PM)",
+   "header": [
+    "DURING LOW/MID MIDDLE INCOME INCOME (RS.1001 RS PM TO PM)"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "1988 1<--SETUP UPP/MID INCOME TO 2000 PM)",
+   "header": [
+    "1988 1<--SETUP UPP/MID INCOME TO 2000 PM)"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "(STATE, UPPER INCOME (FROM (ABOVE 3000 2001 3000",
+   "header": [
+    "(STATE, UPPER INCOME (FROM (ABOVE 3000 2001 3000"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "UT CITY-WISE) TOTAL TO I'M)",
+   "header": [
+    "UT CITY-WISE) TOTAL TO I'M)"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "& NEW DELINQUENTS PM)",
+   "header": [
+    "& NEW DELINQUENTS PM)"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "RECIDIVISM OLD DELINQUENTS",
+   "header": [
+    "RECIDIVISM OLD DELINQUENTS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "SL. TOTAL NO. ql)",
+   "header": [
+    "SL. TOTAL NO. ql)"
+   ]
+  }
+ ],
+ "notes": [
+  "* As was not available, all the juveniles arrested are put in the most likely class."
+ ],
+ "checks": {
+  "cells_checked": 37,
+  "cells_passed": 31,
+  "failures": [
+   "col 13 'TOTAL (STATES)': printed 2.14251e+09, sum 1.48876e+08",
+   "col 13 'TOTAL (UTs)': printed 39043, sum 3774",
+   "col 13 'TOTAL (ALL-INDIA)': printed 2.18151e+09, sum 2.14255e+09",
+   "col 14 'TOTAL (STATES)': printed 3427, sum 3423",
+   "col 16 'TOTAL (STATES)': printed 688, sum 1328",
+   "col 20 'TOTAL (UTs)': printed 449, sum 45103"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

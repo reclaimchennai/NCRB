@@ -1,0 +1,90 @@
+{
+ "table_id": "psi/2000/5_psi-full-report-2000_t10",
+ "publication": "psi",
+ "year": 2000,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 2000",
+ "serial": "5",
+ "title": "DISTRIBUTION OF UNDERTRIALS IN JAILS - STATE/UT-WISE AT THE END OF 2000",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2000.pdf",
+ "source_file": "raw/psi/2000/year_wise/psi-full-report-2000.pdf",
+ "source_sha256": "171376686bd1e431ac947c0d86c5141722a1e13fb54bb5c1347bbf9500133c70",
+ "table_no": "",
+ "pdf_title": "DISTRIBUTION OF UNDERTRIALS IN JAILS - STATE/UT-WISE AT THE END OF 2000",
+ "row_label": "SL. NO. @)",
+ "pages": [
+  75
+ ],
+ "n_rows": 3,
+ "n_cols": 7,
+ "n_cells": 17,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "CENTRAL JAIL",
+   "header": [
+    "CENTRAL JAIL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "SUB DISTRICT JAIL JAIL G)",
+   "header": [
+    "SUB DISTRICT JAIL JAIL G)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "WOMEN JAIL",
+   "header": [
+    "WOMEN JAIL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BORSTAL SCHOOL C2)",
+   "header": [
+    "BORSTAL SCHOOL C2)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OPEN JAIL",
+   "header": [
+    "OPEN JAIL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "SPECIAL JAIL",
+   "header": [
+    "SPECIAL JAIL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OTHERS TOTAL dil)",
+   "header": [
+    "OTHERS TOTAL dil)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'TOTAL (ALLINDIA)': printed 97784, sum 3257",
+   "col 5 'TOTAL (ALLINDIA)': printed 35804, sum 5690"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

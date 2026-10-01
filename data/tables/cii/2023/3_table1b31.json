@@ -1,0 +1,85 @@
+{
+ "table_id": "cii/2023/3_table1b31",
+ "publication": "cii",
+ "year": 2023,
+ "listing": "table_content",
+ "topic": "Summary (Metropolitan Cities)",
+ "section": "Summary (Metropolitan Cities)",
+ "serial": "3",
+ "title": "1B.3 IPC & SLL Crimes (City-wise) - 2021-2023",
+ "listing_title": "1B.3 IPC & SLL Crimes (City-wise) - 2021-2023",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/TABLE1B31.pdf",
+ "source_file": "raw/cii/2023/table_content/TABLE1B31.pdf",
+ "source_sha256": "255b8d3c5d8e31c361fa67d4dd4e7ad0eeb63ea7547a89559669ad29b196354f",
+ "table_no": "1B.3",
+ "pdf_title": "Total IPC & SLL Crimes in Metropolitan Cities - 2021-2023",
+ "row_label": "SL / City",
+ "pages": [
+  1
+ ],
+ "n_rows": 20,
+ "n_cols": 6,
+ "n_cells": 120,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "2021",
+   "header": [
+    "2021"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2022",
+   "header": [
+    "2022"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2023",
+   "header": [
+    "2023"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Actual Population (in Lakhs) (2011)+",
+   "header": [
+    "Actual Population (in Lakhs) (2011)+"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rate of Cognizable Crimes (IPC+SLL)",
+   "header": [
+    "Rate of Cognizable Crimes (IPC+SLL)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Chargesheeting Rate (2023)",
+   "header": [
+    "Chargesheeting Rate (2023)"
+   ]
+  }
+ ],
+ "notes": [
+  "'+' Crime Rate is calculated as Crime per one lakh of population. TABLE 1B.3 Page 1 of 1",
+  "● Population Source: Registrar General of India Actual Population based on 2011 Census.",
+  "● As per data provided by States/UTs",
+  "● States/UTs/Cities may not be compared purely on the basis of crime figures"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

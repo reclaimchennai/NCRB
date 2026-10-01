@@ -1,0 +1,92 @@
+{
+ "table_id": "cii/1997/92_table-72-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "92",
+ "title": "Disposal of Persons Arrested Under IPC Crimes by Police During 1997 (State & UT-Wise)",
+ "listing_title": "Disposal of Persons Arrested Under IPC Crimes by Police During 1997 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-72-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-72-1996-crime-survey.pdf",
+ "source_sha256": "65e600f5d5f78f989ec8c2786ba45849373865b5be220fbba463da4c8d94b9eb",
+ "table_no": "72",
+ "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY POLICE DURING 1997",
+ "row_label": "(STATE & UT-WISE) STATE/UT a)",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 209,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(STATE & UT-WISE) | TOTAL No, PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR",
+   "header": [
+    "(STATE & UT-WISE)",
+    "TOTAL No, PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(STATE & UT-WISE) | PERSONS RELEASED BEFORE TRIAL",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PERSONS RELEASED BEFORE TRIAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(STATE & UT-WISE) | ee PERSONS CHARGE SHEETED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "ee PERSONS CHARGE SHEETED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(STATE & UT-WISE) | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(STATE & UT-WISE) | PENDENCY",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PENDENCY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "(STATE & UT-WISE) | PERCENTO ALLINDIA TOTAL",
+   "header": [
+    "(STATE & UT-WISE)",
+    "PERCENTO ALLINDIA TOTAL"
+   ]
+  }
+ ],
+ "notes": [
+  "NOT 1.* N CUSTODY OR ON BAIL.",
+  "2. PERCENTAGE LESS THAN 0.05 IS ALSO SHOWN AS 0.0."
+ ],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 10,
+  "failures": [
+   "col 4 'TOTAL (UTs)': printed 1270, sum 1280",
+   "col 6 'TOTAL (STATES)': printed 589732, sum 582960"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

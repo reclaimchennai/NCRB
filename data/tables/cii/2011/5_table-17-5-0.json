@@ -1,0 +1,183 @@
+{
+ "table_id": "cii/2011/5_table-17-5-0",
+ "publication": "cii",
+ "year": 2011,
+ "listing": "table_content",
+ "topic": "Police Strength, Expenditure & Infrastructure",
+ "section": "Police Strength, Expenditure & Infrastructure",
+ "serial": "5",
+ "title": "Actual Police Strength in relation to Area, Population, Cognizable Crimes and Per Capita Expenditure on Policemen (State & UT-wise)",
+ "listing_title": "Actual Police Strength in relation to Area, Population, Cognizable Crimes and Per Capita Expenditure on Policemen (State & UT-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/Table-17.5_0.pdf",
+ "source_file": "raw/cii/2011/table_content/Table-17.5_0.pdf",
+ "source_sha256": "02f3cb91682607e65b8c851f7b04aceeed3864c2267e0cbb7ebd53f0e4d6b1b5",
+ "table_no": "17.5",
+ "pdf_title": "Actual Police Strength In Relation To Area, Population, Cognizable Crimes And Per Capita Expenditure On Policemen During 2011",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 44,
+ "n_cols": 18,
+ "n_cells": 646,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Area (In Sqr. Kms.)",
+   "header": [
+    "Area (In Sqr. Kms.)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Estimated Mid-Year Population (In Thousands)",
+   "header": [
+    "Estimated Mid-Year Population (In Thousands)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total Cases For Investigation (Including Pending Cases From Previous Year) | IPC",
+   "header": [
+    "Total Cases For Investigation (Including Pending Cases From Previous Year)",
+    "IPC"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total Cases For Investigation (Including Pending Cases From Previous Year) | SLL",
+   "header": [
+    "Total Cases For Investigation (Including Pending Cases From Previous Year)",
+    "SLL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total Cases For Investigation (Including Pending Cases From Previous Year) | Total",
+   "header": [
+    "Total Cases For Investigation (Including Pending Cases From Previous Year)",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Actual Police Strength | Civil",
+   "header": [
+    "Actual Police Strength",
+    "Civil"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Actual Police Strength | Armed",
+   "header": [
+    "Actual Police Strength",
+    "Armed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Actual Police Strength | Total",
+   "header": [
+    "Actual Police Strength",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Percentage Of Civil Police To Total Police",
+   "header": [
+    "Percentage Of Civil Police To Total Police"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Actual Police Strength (Of Ranks) | D.G. To A.S.I.",
+   "header": [
+    "Actual Police Strength (Of Ranks)",
+    "D.G. To A.S.I."
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Actual Police Strength (Of Ranks) | Head Constables To Constables",
+   "header": [
+    "Actual Police Strength (Of Ranks)",
+    "Head Constables To Constables"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Actual Police Strength (Of Ranks) | Teeth To Tail Ratio",
+   "header": [
+    "Actual Police Strength (Of Ranks)",
+    "Teeth To Tail Ratio"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Actual Police Strength Of I.Os. (Insp.+ SI+ ASI Of Civ. Pol.)",
+   "header": [
+    "Actual Police Strength Of I.Os. (Insp.+ SI+ ASI Of Civ. Pol.)"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "No. Of Policemen Per 100 Sqr. Kms. Of Area",
+   "header": [
+    "No. Of Policemen Per 100 Sqr. Kms. Of Area"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "No. Of Policemen Per 1,00,000 Of Population",
+   "header": [
+    "No. Of Policemen Per 1,00,000 Of Population"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "No. Of IPC Cases Per Civil Police Man",
+   "header": [
+    "No. Of IPC Cases Per Civil Police Man"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Total Police Expenditure (Rs. In Crores) @@",
+   "header": [
+    "Total Police Expenditure (Rs. In Crores) @@"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Unit Cost Per Policemen (Per Annum)",
+   "header": [
+    "Unit Cost Per Policemen (Per Annum)"
+   ]
+  }
+ ],
+ "notes": [
+  "* Karnataka has stated that variation in police strength is due to merger of women police with general police. Hence, variation over 2010.",
+  "Note : 1. Mumbai City has clarified that variation in armed police is due to merger of armed police with civil police in 2011.",
+  "2. Nasik City has stated that all civil police personnel are merged with armed police. Hence, variation in 2011.",
+  "@@ - BPR&D Data On Police Organisation (the data of 2010 has been used due to non-availability of 2011 data)"
+ ],
+ "checks": {
+  "cells_checked": 25,
+  "cells_passed": 22,
+  "failures": [
+   "col 15 'TOTAL (STATES) 1:07': printed 164067, sum 177723",
+   "col 20 'TOTAL (STATES) 1:07': printed 292602, sum 1.07168e+07",
+   "col 20 'TOTAL (ALL-INDIA) 1:07': printed 298625, sum 697966"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,120 @@
+{
+ "table_id": "cii/1987/49_table-22-1987_t22",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "49",
+ "title": "Persons Arrested By Sex Under IPC During 1987",
+ "listing_title": "Persons Arrested by Sex under IPC During 1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_22-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_22-1987.pdf",
+ "source_sha256": "70b3546fa7c162ab623aaf65d38ba0762206ac26477631fca3a8bd4306dbbfae",
+ "table_no": "22",
+ "pdf_title": "Persons Arrested By Sex Under IPC During 1987",
+ "row_label": "STATES/UTs/CITIES SL. NO. ql)",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 69,
+ "n_cols": 9,
+ "n_cells": 428,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER | MALE",
+   "header": [
+    "MURDER",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "MURDER | FEMALE",
+   "header": [
+    "MURDER",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "MURDER | TOTAL",
+   "header": [
+    "MURDER",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "C.H. MALE",
+   "header": [
+    "C.H. MALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NOT Amuunrinu TO MURDER | FEMALE",
+   "header": [
+    "NOT Amuunrinu TO MURDER",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NOT Amuunrinu TO MURDER | TOTAL",
+   "header": [
+    "NOT Amuunrinu TO MURDER",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "RAPE | MALE",
+   "header": [
+    "RAPE",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RAPE | FEMALE",
+   "header": [
+    "RAPE",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "RAPE | TOTAL",
+   "header": [
+    "RAPE",
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 23,
+  "cells_passed": 8,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 61886, sum 81686",
+   "col 3 'TOTAL (Cities)': printed 2721, sum 3621",
+   "col 4 'TOTAL (Cities)': printed 112, sum 106",
+   "col 6 'TOTAL (States)': printed 7805, sum 7558",
+   "col 6 'TOTAL (Cities)': printed 739, sum 415",
+   "col 7 'TOTAL (States)': printed 171, sum 112",
+   "col 8 'TOTAL (States)': printed 7976, sum 7677",
+   "col 8 'TOTAL (Cities)': printed 752, sum 428"
+  ],
+  "other_totals_checked": 8,
+  "other_totals_passed": 8
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

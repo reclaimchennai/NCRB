@@ -1,0 +1,119 @@
+{
+ "table_id": "cii/1999/93_table-93-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "93",
+ "title": "Information On Police Housing During 1999",
+ "listing_title": "Information On Police Housing During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-93-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-93-1999.pdf",
+ "source_sha256": "17f4e21ad57d2c5f72b8619c4226d82ac775b2a7219e167ced8d994cdb201b73",
+ "table_no": "93",
+ "pdf_title": "",
+ "row_label": "SL. NO. () (ES:",
+ "pages": [
+  1
+ ],
+ "n_rows": 59,
+ "n_cols": 9,
+ "n_cells": 508,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "INFORMATION ON POLICE | SANCTIONED Q)",
+   "header": [
+    "INFORMATION ON POLICE",
+    "SANCTIONED Q)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "INFORMATION ON POLICE | EUR UFFIUFAD BUILT-IN HOUSES) BY GOVERNMENT 8)",
+   "header": [
+    "INFORMATION ON POLICE",
+    "EUR UFFIUFAD BUILT-IN HOUSES) BY GOVERNMENT 8)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "INFORMATION ON POLICE | HOUSES ONTRASE RENT/ GENFRAr. POOL BY @",
+   "header": [
+    "INFORMATION ON POLICE",
+    "HOUSES ONTRASE RENT/ GENFRAr. POOL BY @"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "INFORMATION ON POLICE | DURING 1999 | ues - See | SANCTIONED ©",
+   "header": [
+    "INFORMATION ON POLICE",
+    "DURING 1999",
+    "ues - See",
+    "SANCTIONED ©"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "INFORMATION ON POLICE | DURING 1999 | ues - See | BUILT-IN HOUSES) BY GOVERNMENT m",
+   "header": [
+    "INFORMATION ON POLICE",
+    "DURING 1999",
+    "ues - See",
+    "BUILT-IN HOUSES) BY GOVERNMENT m"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "DURING 1999 | ee HOUSES RENT/ POOL BY ®",
+   "header": [
+    "DURING 1999",
+    "ee HOUSES RENT/ POOL BY ®"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Low) - | SANCTIONED ”",
+   "header": [
+    "Low) -",
+    "SANCTIONED ”"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Low) - | BUILT-IN BY GOVERNMENT (10)",
+   "header": [
+    "Low) -",
+    "BUILT-IN BY GOVERNMENT (10)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "HOUSES ON LEASE RENT/ GENFRAI. POOL BY (a",
+   "header": [
+    "HOUSES ON LEASE RENT/ GENFRAI. POOL BY (a"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 16,
+  "cells_passed": 11,
+  "failures": [
+   "col 2 'TOTAL STATES': printed 11521, sum 12077",
+   "col 2 'TOTAL (CITIES)': printed 23, sum 1137",
+   "col 6 'TOTAL (UTs)': printed 4156, sum 3816",
+   "col 8 'TOTAL (UTs)': printed 55437, sum 56437",
+   "col 9 'TOTAL (CITIES)': printed 58563, sum 57003"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

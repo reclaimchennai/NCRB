@@ -1,0 +1,212 @@
+{
+ "table_id": "adsi/1994/3_appendix-1-1994_t3",
+ "publication": "adsi",
+ "year": 1994,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "3",
+ "title": "APPENDIA-!",
+ "listing_title": "Distribution of Accidental Deaths by Natural Causes and Sex during 1994 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-1_1994.pdf",
+ "source_file": "raw/adsi/1994/table_content/appendix-1_1994.pdf",
+ "source_sha256": "2b389f46d65cebf019c4cc14f3a09d6e5fa5fbc5f1f1f17a95079a87a484a564",
+ "table_no": "",
+ "pdf_title": "APPENDIA-!",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "n_rows": 56,
+ "n_cols": 21,
+ "n_cells": 503,
+ "columns": [
+  {
+   "col_no": "15",
+   "name": "Cold & Expos re | Male",
+   "header": [
+    "Cold & Expos re",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Cold & Expos re | Female",
+   "header": [
+    "Cold & Expos re",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Cold & Expos re | Total",
+   "header": [
+    "Cold & Expos re",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Cyclone | Male",
+   "header": [
+    "Cyclone",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Cyclone | Female",
+   "header": [
+    "Cyclone",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Cyclone | Total",
+   "header": [
+    "Cyclone",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Grand Tota | Male",
+   "header": [
+    "Grand Tota",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Grand Tota | Female",
+   "header": [
+    "Grand Tota",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Grand Tota | Total",
+   "header": [
+    "Grand Tota",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "(City-wise) | Male",
+   "header": [
+    "(City-wise)",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(City-wise) | Lightning Female",
+   "header": [
+    "(City-wise)",
+    "Lightning Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(City-wise) | Total",
+   "header": [
+    "(City-wise)",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Heat Stroke | Male",
+   "header": [
+    "Heat Stroke",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Heat Stroke | Female",
+   "header": [
+    "Heat Stroke",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Heat Stroke | Total",
+   "header": [
+    "Heat Stroke",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Flood | Male",
+   "header": [
+    "Flood",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Flood | Female",
+   "header": [
+    "Flood",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Flood | Total",
+   "header": [
+    "Flood",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Landslide | Male",
+   "header": [
+    "Landslide",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Landslide | Female",
+   "header": [
+    "Landslide",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Landslide | Total",
+   "header": [
+    "Landslide",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 3,
+  "failures": [
+   "col 21 'TOTAL (States)': printed 3059, sum 3058",
+   "col 22 'TOTAL (UTs)': printed 10, sum 19",
+   "col 23 'TOTAL (States)': printed 4341, sum 4340"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

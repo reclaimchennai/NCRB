@@ -1,0 +1,73 @@
+{
+ "table_id": "cii/1999/20_table-20-1999_t3",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "20",
+ "title": "TARLE 29A (Cantinned 1",
+ "listing_title": "Disposal of IPC Crime Cases by Courts During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-20-1999.pdf",
+ "source_sha256": "49d494c0b0a8dc4d0d431c082d5e0821d81255e86e21e2bd1769067b5c0b83d3",
+ "table_no": "",
+ "pdf_title": "TARLE 29A (Cantinned 1",
+ "row_label": "SL.NO. / STATE/UT",
+ "pages": [
+  5
+ ],
+ "n_rows": 35,
+ "n_cols": 4,
+ "n_cells": 137,
+ "columns": [
+  {
+   "col_no": "24",
+   "name": "DISPOSAL OF | cF",
+   "header": [
+    "DISPOSAL OF",
+    "cF"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "DISPOSAL OF | DACOITY tT",
+   "header": [
+    "DISPOSAL OF",
+    "DACOITY tT"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "DISPOSAL OF | TL cr an",
+   "header": [
+    "DISPOSAL OF",
+    "TL cr an"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "DISPOSAL OF | PREPARATION #& 4¢cr=snrv FOR DACOITY TT TL 1 @)",
+   "header": [
+    "DISPOSAL OF",
+    "PREPARATION #& 4¢cr=snrv FOR DACOITY TT TL 1 @)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 1,
+  "failures": [
+   "col 24 'TOTAL (UTs)': printed 28, sum 79",
+   "col 26 'TOTAL (UTs)': printed 1156, sum 11356"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

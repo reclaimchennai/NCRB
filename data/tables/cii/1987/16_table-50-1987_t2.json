@@ -1,0 +1,96 @@
+{
+ "table_id": "cii/1987/16_table-50-1987_t2",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "16",
+ "title": "TABLE LE - SO (Cantinued)",
+ "listing_title": "Number of Cases and Value of Property Stolen under Dacoity by Place of Occurrence During 1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_50-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_50-1987.pdf",
+ "source_sha256": "83d788faa206a31c02a4c61046012ba230801454472105f152cbb2346391fa7e",
+ "table_no": "",
+ "pdf_title": "TABLE LE - SO (Cantinued)",
+ "row_label": "$l STATES/U. Ts/CITIES NO q1)",
+ "pages": [
+  3,
+  4
+ ],
+ "n_rows": 62,
+ "n_cols": 7,
+ "n_cells": 332,
+ "columns": [
+  {
+   "col_no": "12",
+   "name": "BANKS we NUMBER OF VALUE rrwreniz CASES STOLEN q11)",
+   "header": [
+    "BANKS we NUMBER OF VALUE rrwreniz CASES STOLEN q11)"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "eee OF OF CASES",
+   "header": [
+    "eee OF OF CASES"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "ESTBLS, VALUE OF NO, STOLEN",
+   "header": [
+    "ESTBLS, VALUE OF NO, STOLEN"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "OTHER NUMBER OF CASES",
+   "header": [
+    "OTHER NUMBER OF CASES"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "PLACES VALUE rrvrenir STOLEN",
+   "header": [
+    "PLACES VALUE rrvrenir STOLEN"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "TOTAL | OF OF CASES",
+   "header": [
+    "TOTAL",
+    "OF OF CASES"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NO. VALUE OF STOLEN",
+   "header": [
+    "TOTAL",
+    "NO. VALUE OF STOLEN"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 1,
+  "failures": [
+   "col 13 'TOTAL (States)': printed 170, sum 171",
+   "col 15 'TOTAL (UTs)': printed 4, sum 2497",
+   "col 15 'TOTAL (Cities)': printed 138, sum 131",
+   "col 17 'TOTAL (UTs)': printed 37, sum 8658",
+   "col 17 'TOTAL (Cities)': printed 271, sum 250"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

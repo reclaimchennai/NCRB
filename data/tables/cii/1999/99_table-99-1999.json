@@ -1,0 +1,80 @@
+{
+ "table_id": "cii/1999/99_table-99-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "99",
+ "title": "Representation of SCs/STs and Muslims in Police Force During 1999",
+ "listing_title": "Representation of SCs/STs and Muslims in Police Force During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-99-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-99-1999.pdf",
+ "source_sha256": "227aa52c530156a47dbcadd1c3264f93f812ecfebbf148c3d75d29fa8e2e67a9",
+ "table_no": "99",
+ "pdf_title": "KEPRKENENTATION OF SCs/STs AND MUSLIMS IN POLICE FORCE DURING 1999",
+ "row_label": "STATE/UT SL. NO. Q) a STATES.",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 5,
+ "n_cells": 174,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "sc I I",
+   "header": [
+    "sc I I"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "NUMIER ST (4)",
+   "header": [
+    "NUMIER ST (4)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "OF MUSLIM rey",
+   "header": [
+    "OF MUSLIM rey"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "scorns. OTHERS ©",
+   "header": [
+    "scorns. OTHERS ©"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "[ TOTAL I m",
+   "header": [
+    "[ TOTAL I m"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 14,
+  "cells_passed": 8,
+  "failures": [
+   "col 2 'TOTAL STATES': printed 154122, sum 147116",
+   "col 2 'TOTAL (UTs)': printed 16, sum 10873",
+   "col 2 'TOTAL (ALL-INDIA)': printed 164995, sum 154138",
+   "col 3 'TOTAL (UTs)': printed 0, sum 3175",
+   "col 3 'TOTAL (ALL-INDIA)': printed 99403, sum 96228",
+   "col 4 'TOTAL STATES': printed 87895, sum 87875"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

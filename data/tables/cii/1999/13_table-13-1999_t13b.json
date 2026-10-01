@@ -1,0 +1,134 @@
+{
+ "table_id": "cii/1999/13_table-13-1999_t13b",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "13",
+ "title": "AGE GROUP WISE VICTIMS OF MURDER DURING 1999",
+ "listing_title": "Incidence and Rate of Violent Crimes During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-13-1999.pdf",
+ "source_sha256": "8913cf01781d41f9a13cd948e4978f17a09f7103e8814c838fa651a627c83f97",
+ "table_no": "13B",
+ "pdf_title": "AGE GROUP WISE VICTIMS OF MURDER DURING 1999",
+ "row_label": "SL. NO. 1) STATES:",
+ "pages": [
+  6,
+  7
+ ],
+ "n_rows": 86,
+ "n_cols": 11,
+ "n_cells": 590,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "NUMBER OF VICTIMS 11-15 YEARS | M (2)",
+   "header": [
+    "NUMBER OF VICTIMS 11-15 YEARS",
+    "M (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "NUMBER OF VICTIMS 11-15 YEARS | UPTO 10 YEARS F @",
+   "header": [
+    "NUMBER OF VICTIMS 11-15 YEARS",
+    "UPTO 10 YEARS F @"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF VICTIMS 11-15 YEARS | T ®",
+   "header": [
+    "NUMBER OF VICTIMS 11-15 YEARS",
+    "T ®"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF VICTIMS 11-15 YEARS | M o",
+   "header": [
+    "NUMBER OF VICTIMS 11-15 YEARS",
+    "M o"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF VICTIMS 11-15 YEARS | F @m",
+   "header": [
+    "NUMBER OF VICTIMS 11-15 YEARS",
+    "F @m"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF VICTIMS 11-15 YEARS | T &",
+   "header": [
+    "NUMBER OF VICTIMS 11-15 YEARS",
+    "T &"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NUMBER OF VICTIMS 11-15 YEARS | 16-18 YEARS M F T o ao an",
+   "header": [
+    "NUMBER OF VICTIMS 11-15 YEARS",
+    "16-18 YEARS M F T o ao an"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "O}' VICTIMS | M az",
+   "header": [
+    "O}' VICTIMS",
+    "M az"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "O}' VICTIMS | 19-30 YEARS 31-50 F F ax (6)",
+   "header": [
+    "O}' VICTIMS",
+    "19-30 YEARS 31-50 F F ax (6)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "O}' VICTIMS | ABOVE 50 YEARS T T M F a4 as) a9 (17)",
+   "header": [
+    "O}' VICTIMS",
+    "ABOVE 50 YEARS T T M F a4 as) a9 (17)"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "O}' VICTIMS | - TOTAL OF ALL AGE GROUPS M T M T F as) (20 21) @2 @3",
+   "header": [
+    "O}' VICTIMS",
+    "- TOTAL OF ALL AGE GROUPS M T M T F as) (20 21) @2 @3"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL STATES': printed 556, sum 391",
+   "col 2 '- TOTAL (CITIES)': printed 52, sum 49",
+   "col 6 'TOTAL STATES': printed 741, sum 705",
+   "col 10001 '- TOTAL (CITIES)': printed 9.94939e+10, sum 2.72849e+08",
+   "col 10001 'TOTAL (UTs)': printed 2.70116e+08, sum 1.05832e+10",
+   "col 10002 '- TOTAL (CITIES)': printed 851188, sum 40345"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

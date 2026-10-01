@@ -1,0 +1,133 @@
+{
+ "table_id": "cii/1998/26_table-32-incidence-of-crimes-committed-against-scheduled-cas_t2",
+ "publication": "cii",
+ "year": 1998,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "26",
+ "title": "TARLE.29",
+ "listing_title": "Incidence of Crime Committed against Scheduled Castes During 1998",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-32--incidence-of-crimes-committed-against-scheduled-castes-during-1998.pdf",
+ "source_file": "raw/cii/1998/table_content/table-32--incidence-of-crimes-committed-against-scheduled-castes-during-1998.pdf",
+ "source_sha256": "bdad9979979d88ed27df840506e98188cfec7374e129a6e83a4743e7d73a9359",
+ "table_no": "",
+ "pdf_title": "TARLE.29",
+ "row_label": "hod",
+ "pages": [
+  3
+ ],
+ "n_rows": 35,
+ "n_cols": 12,
+ "n_cells": 372,
+ "columns": [
+  {
+   "col_no": "25",
+   "name": "PROT.OF | 1",
+   "header": [
+    "PROT.OF",
+    "1"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "PROT.OF | R -",
+   "header": [
+    "PROT.OF",
+    "R -"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "P -",
+   "header": [
+    "P -"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "SC &ST ae of Aaron)",
+   "header": [
+    "SC &ST ae of Aaron)"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "SC &ST ae of Aaron) | R",
+   "header": [
+    "SC &ST ae of Aaron)",
+    "R"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "SC &ST ae of Aaron) | P -",
+   "header": [
+    "SC &ST ae of Aaron)",
+    "P -"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "OTHER OFFENCES",
+   "header": [
+    "OTHER OFFENCES"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "OTHER OFFENCES | R",
+   "header": [
+    "OTHER OFFENCES",
+    "R"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "OTHER OFFENCES | P",
+   "header": [
+    "OTHER OFFENCES",
+    "P"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "TOTAL | 1",
+   "header": [
+    "TOTAL",
+    "1"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
+    "P"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 4,
+  "failures": [
+   "col 34 'TOTAL (STATES)': printed 26617, sum 25617"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

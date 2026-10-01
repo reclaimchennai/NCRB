@@ -1,0 +1,63 @@
+{
+ "table_id": "adsi/1989/3_accidental-deaths-1989_t4",
+ "publication": "adsi",
+ "year": 1989,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1989",
+ "serial": "3",
+ "title": "Comparative Statement Of Incidence Of Accidental Deaths During 1988 And 1989 (State, UT & City-wise)",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1989.pdf",
+ "source_file": "raw/adsi/1989/year_wise/accidental-deaths-1989.pdf",
+ "source_sha256": "ef023832411882661083b90d3ed0896b863bb9ead5a37926c1a021b2ccb48f3c",
+ "table_no": "4",
+ "pdf_title": "Comparative Statement Of Incidence Of Accidental Deaths During 1988 And 1989 (State, UT & City-wise)",
+ "row_label": "Sl. No. / State/UT/City",
+ "pages": [
+  14
+ ],
+ "n_rows": 47,
+ "n_cols": 3,
+ "n_cells": 139,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Incidence | 1988",
+   "header": [
+    "Incidence",
+    "1988"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Incidence | 4989",
+   "header": [
+    "Incidence",
+    "4989"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Percentage Variation In 1989 Over",
+   "header": [
+    "Percentage Variation In 1989 Over"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 5,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 158696, sum 217711"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

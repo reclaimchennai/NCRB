@@ -1,0 +1,124 @@
+{
+ "table_id": "cii/1989/64_table-67-1989-1",
+ "publication": "cii",
+ "year": 1989,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "64",
+ "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1989 (Women only)",
+ "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1989 (Women only)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-67-1989-1.pdf",
+ "source_file": "raw/cii/1989/table_content/table-67-1989-1.pdf",
+ "source_sha256": "8f776d2ad9f2684e1308cea1fac7c6aa255635b08be2da324afe82d141815f37",
+ "table_no": "67",
+ "pdf_title": "SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE",
+ "row_label": "AS STATE/UT/CITY SL. NO. a) STATES: 1",
+ "pages": [
+  1
+ ],
+ "n_rows": 43,
+ "n_cols": 10,
+ "n_cells": 320,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "AS | DG/IG/DIG/SP SANCTIONED (2) ANDHRA",
+   "header": [
+    "AS",
+    "DG/IG/DIG/SP SANCTIONED (2) ANDHRA"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "AS | ACTUAL (3) PRADESH",
+   "header": [
+    "AS",
+    "ACTUAL (3) PRADESH"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "AS | ON 31.12.1989 (WOMEN ONLY) ASP & DSP SANCTIONED (a) Le}",
+   "header": [
+    "AS",
+    "ON 31.12.1989 (WOMEN ONLY) ASP & DSP SANCTIONED (a) Le}"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "AS | ACTUAL (5) Le]",
+   "header": [
+    "AS",
+    "ACTUAL (5) Le]"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "AS | INSPECTOR, A.S.I. SANCTIONED (8) te]",
+   "header": [
+    "AS",
+    "INSPECTOR, A.S.I. SANCTIONED (8) te]"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "SI ACTUAL «T) 0",
+   "header": [
+    "SI ACTUAL «T) 0"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "& A.S.T. SANCTIONED (8) 0",
+   "header": [
+    "& A.S.T. SANCTIONED (8) 0"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS ACTUAL (9) 0",
+   "header": [
+    "OFFICERS ACTUAL (9) 0"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "BELOW SANCTIONED a0) 0",
+   "header": [
+    "BELOW SANCTIONED a0) 0"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAI!, (12) ql fe)",
+   "header": [
+    "GRAND TOTAI!, (12) ql fe)"
+   ]
+  }
+ ],
+ "notes": [
+  "43 NAGPUR 0 0 0 Lo} Q ie) 0 te] Qo",
+  "44 PUNE fe) 0 oO fo) fe) 0 oO",
+  "Note: ‘Actual' Police strength of Women Police is more than their ‘Sanctioned’",
+  "Police strength for some ranks in Manipur, UT of Delhi and Delhi city. This is because Women",
+  "Police are appointed against Male vacancies of same rank or higher rank, as per Govt. instructions."
+ ],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 6,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 0, sum 37",
+   "col 3 'TOTAL (ALL-INDIA)': printed 1, sum 7",
+   "col 6 'TOTAL (ALL-INDIA)': printed 16, sum 6",
+   "col 8 'TOTAL (UTs)': printed 16, sum 25"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,128 @@
+{
+ "table_id": "cii/1999/13_table-13-1999_t13",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "13",
+ "title": "INCIDENCE AND RATE OF VIOLENT CRIMES DURING 1999",
+ "listing_title": "Incidence and Rate of Violent Crimes During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-13-1999.pdf",
+ "source_sha256": "8913cf01781d41f9a13cd948e4978f17a09f7103e8814c838fa651a627c83f97",
+ "table_no": "13",
+ "pdf_title": "INCIDENCE AND RATE OF VIOLENT CRIMES DURING 1999",
+ "row_label": "SL. STATE/UTICITY NO.",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 92,
+ "n_cols": 12,
+ "n_cells": 601,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "C.H. NOT | ATTEMPT TO COMMIT MURDER",
+   "header": [
+    "C.H. NOT",
+    "ATTEMPT TO COMMIT MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "C.H. NOT | - AMOUNTING TO MURDER",
+   "header": [
+    "C.H. NOT",
+    "- AMOUNTING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "KIDNAPPING AND ABDUCTION",
+   "header": [
+    "KIDNAPPING AND ABDUCTION"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "—DACOITY",
+   "header": [
+    "—DACOITY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOITY",
+   "header": [
+    "PREPARATION AND ASSEMBLY FOR DACOITY"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "ROBBERY (10)",
+   "header": [
+    "ROBBERY (10)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "TOTAL DOWRY RIOTS DEATH VIOLENT CRIMES ay",
+   "header": [
+    "TOTAL DOWRY RIOTS DEATH VIOLENT CRIMES ay"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "PERCENARSON TAGE SHARE TO ALL-INDIA CRIMES us) (22)",
+   "header": [
+    "PERCENARSON TAGE SHARE TO ALL-INDIA CRIMES us) (22)"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "CRIME RATE OF VIOLENT CRIME (13) 6",
+   "header": [
+    "CRIME RATE OF VIOLENT CRIME (13) 6"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "PERCENTAGE TO TOTAL COG. CRIMES UNDER IPC as an",
+   "header": [
+    "PERCENTAGE TO TOTAL COG. CRIMES UNDER IPC as an"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 '\"TOTAL (UTs)': printed 7, sum 89646",
+   "col 10001 'TOTAL (CITIES)': printed 3.55953e+10, sum 2.06415e+14"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

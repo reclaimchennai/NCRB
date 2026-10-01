@@ -1,0 +1,155 @@
+{
+ "table_id": "adsi/1999/3_table-11-1999_t11_2",
+ "publication": "adsi",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "3",
+ "title": "/Cantinued_.)",
+ "listing_title": "Number of Persons Injured and Killed by Un-natural causes during 1999 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-11_1999.pdf",
+ "source_file": "raw/adsi/1999/table_content/table-11_1999.pdf",
+ "source_sha256": "ccc8dcc1114da1e801a8a0b706a9b260920aa03c8bc14e5cd746d5397b7039d5",
+ "table_no": "11",
+ "pdf_title": "/Cantinued_.)",
+ "row_label": "St. No. / State/UT/City / No. of Cases / Nowf Male / Calla nee of Stricture (Building) fp Female / Calla nee of Stricture (Building) - ‘Total",
+ "pages": [
+  3,
+  4,
+  5,
+  6
+ ],
+ "n_rows": 95,
+ "n_cols": 14,
+ "n_cells": 604,
+ "columns": [
+  {
+   "col_no": "21",
+   "name": "Calla nee of Stricture (Building) | +",
+   "header": [
+    "Calla nee of Stricture (Building)",
+    "+"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Calla nee of Stricture (Building) | No. of Persons - Female Male",
+   "header": [
+    "Calla nee of Stricture (Building)",
+    "No. of Persons - Female Male"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "col_23",
+   "header": []
+  },
+  {
+   "col_no": "24",
+   "name": "%Share to Total Deaths * (24)",
+   "header": [
+    "%Share to Total Deaths *"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "%Share to Total Deaths * (31)",
+   "header": [
+    "%Share to Total Deaths *"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "%Share to Total Deaths (Col.37/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.37/268)* 100"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "No. of Cases",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "Col apse of St ucture (Other) | Male",
+   "header": [
+    "Col apse of St ucture (Other)",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "Col apse of St ucture (Other) | Parsee Hy Female",
+   "header": [
+    "Col apse of St ucture (Other)",
+    "Parsee Hy Female"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "Col apse of St ucture (Other) | Total",
+   "header": [
+    "Col apse of St ucture (Other)",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "42",
+   "name": "Col apse of St ucture (Other) | No. of Persons X illed | Male.",
+   "header": [
+    "Col apse of St ucture (Other)",
+    "No. of Persons X illed",
+    "Male."
+   ]
+  },
+  {
+   "col_no": "43",
+   "name": "Col apse of St ucture (Other) | No. of Persons X illed | -",
+   "header": [
+    "Col apse of St ucture (Other)",
+    "No. of Persons X illed",
+    "-"
+   ]
+  },
+  {
+   "col_no": "44",
+   "name": "Col apse of St ucture (Other) | No. of Persons X illed | Female.",
+   "header": [
+    "Col apse of St ucture (Other)",
+    "No. of Persons X illed",
+    "Female."
+   ]
+  },
+  {
+   "col_no": "45",
+   "name": "%Share to Total Deaths 44/268)\" =Total.",
+   "header": [
+    "%Share to Total Deaths 44/268)\" =Total."
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 0,
+  "failures": [
+   "col 21 'TOTAL{All-india)': printed 163, sum 417",
+   "col 21 '- TOTAL (Cities)': printed 32, sum 10",
+   "col 3 'TOTAL (UTs)': printed 15, sum 826",
+   "col 3 '- TOTAL (Cities)': printed 111, sum 56",
+   "col 3 'TOTAL (UTs) [line 2]': printed 1023, sum 1252",
+   "col 39 '- TOTAL (Cities)': printed 26, sum 21"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 4,
+ "warnings": []
+}

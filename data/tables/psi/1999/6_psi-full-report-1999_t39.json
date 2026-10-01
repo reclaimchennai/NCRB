@@ -1,0 +1,73 @@
+{
+ "table_id": "psi/1999/6_psi-full-report-1999_t39",
+ "publication": "psi",
+ "year": 1999,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1999",
+ "serial": "6",
+ "title": "INCIDENCE OF RECIDIVISM AT THE END OF 1999",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
+ "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
+ "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
+ "table_no": "39",
+ "pdf_title": "INCIDENCE OF RECIDIVISM AT THE END OF 1999",
+ "row_label": "STATE/UT SL NO () / NUMBER OF NEW OFFENDERS / NUMBER OF OFFENDERS CONVICTED IN THE PAST ONCE",
+ "pages": [
+  139
+ ],
+ "n_rows": 32,
+ "n_cols": 4,
+ "n_cells": 95,
+ "columns": [
+  {
+   "col_no": "5",
+   "name": "NUMBER OF OFFENDERS CONVICTED IN THE PAST | TWICE",
+   "header": [
+    "NUMBER OF OFFENDERS CONVICTED IN THE PAST",
+    "TWICE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE",
+   "header": [
+    "NUMBER OF OFFENDERS CONVICTED IN THE PAST",
+    "THRICE OR MORE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF OFFENDERS CONVICTED IN THE PAST | TOTAL (COL.4,5,6)",
+   "header": [
+    "NUMBER OF OFFENDERS CONVICTED IN THE PAST",
+    "TOTAL (COL.4,5,6)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "TOTAL (COL.3 +7)",
+   "header": [
+    "TOTAL (COL.3 +7)"
+   ]
+  }
+ ],
+ "notes": [
+  "-DATA NOT AVAILABLE,"
+ ],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 5 'tie TOTAL (STATES)': printed 6433, sum 5804"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

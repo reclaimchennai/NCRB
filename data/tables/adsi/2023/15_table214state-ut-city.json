@@ -1,0 +1,70 @@
+{
+ "table_id": "adsi/2023/15_table214state-ut-city",
+ "publication": "adsi",
+ "year": 2023,
+ "listing": "table_content",
+ "topic": "Suicides in India",
+ "section": "SUICIDES IN INDIA",
+ "serial": "15",
+ "title": "Distribution of Mass/Family Suicides during 2023 (State UT & City wise)",
+ "listing_title": "Distribution of Mass/Family Suicides during 2023 (State UT & City wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/Table214state-ut-city.pdf",
+ "source_file": "raw/adsi/2023/table_content/Table214state-ut-city.pdf",
+ "source_sha256": "bd5afb40a7b02fe68a8cd5b098a76bc41e081e6c1fb2480d3ea99245786e238b",
+ "table_no": "2.14",
+ "pdf_title": "Distribution of Mass/Family Suicides during 2023 (State/UT-wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 93,
+ "n_cols": 4,
+ "n_cells": 372,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Cases",
+   "header": [
+    "Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Married",
+   "header": [
+    "Married"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Un-Married",
+   "header": [
+    "Un-Married"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  "Col. 6 = Col. 4 + Col. 5",
+  "• As per data provided by States/UTs."
+ ],
+ "checks": {
+  "cells_checked": 16,
+  "cells_passed": 16,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

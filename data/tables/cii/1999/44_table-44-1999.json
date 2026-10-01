@@ -1,0 +1,64 @@
+{
+ "table_id": "cii/1999/44_table-44-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "44",
+ "title": "Value of Cultural Property (including Antiques) Stolen and Recovered During 1999 (State & UT-Wise)",
+ "listing_title": "Value of Cultural Property (including Antiques) Stolen and Recovered During 1999 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-44-1999.pdf",
+ "source_sha256": "71f7c72e3a9d30bf88b1797553ea24297b452dff440b6313067b9f6e59061a0b",
+ "table_no": "44",
+ "pdf_title": "VALUE OF CULTURAL PROPERTY (INCLUDING ANTIQUES) STOLEN AND RECOVERED DURING 1999",
+ "row_label": "(STATE & UT-WISE) STATE/UT SL. No. Q)",
+ "pages": [
+  1
+ ],
+ "n_rows": 43,
+ "n_cols": 3,
+ "n_cells": 110,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "(STATE & UT-WISE) | NUMBER OF CASES IN STOLEN RECOVERED @)",
+   "header": [
+    "(STATE & UT-WISE)",
+    "NUMBER OF CASES IN STOLEN RECOVERED @)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(STATE & UT-WISE) | WAS STOLEN",
+   "header": [
+    "(STATE & UT-WISE)",
+    "WAS STOLEN"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(STATE & UT-WISE) | - VALUE OF (RS.IN LAKHS) RECOVERED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "- VALUE OF (RS.IN LAKHS) RECOVERED"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'TOTAL (ALLINDIA)': printed 1.46037e+06, sum 1.56366e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

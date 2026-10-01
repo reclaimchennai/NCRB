@@ -1,0 +1,78 @@
+{
+ "table_id": "cii/1987/24_table-58-1987",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "24",
+ "title": "Statement Presenting Strength of Civil Police including District Armed Police as on 31.12.1987",
+ "listing_title": "Statement Presenting Strength of Civil Police including District Armed Police as on 31.12.1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_58-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_58-1987.pdf",
+ "source_sha256": "67576a4c28c6fe1257ef3fa997ae1685f6b4925449125419d7be7e94d6c59d15",
+ "table_no": "58",
+ "pdf_title": "Statement Presenting Strength Of Civil Police Including District Armed Police As On 31-12-1987",
+ "row_label": "sl STATES/U. Ts/ NO ql)",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 5,
+ "n_cells": 239,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NUMBER CITIES /DIG",
+   "header": [
+    "NUMBER CITIES /DIG"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER DG/IG OF SP",
+   "header": [
+    "NUMBER DG/IG OF SP"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER insreviun OF S.I. &",
+   "header": [
+    "NUMBER insreviun OF S.I. &"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "OF OF ASP BELOW DSP",
+   "header": [
+    "OF OF ASP BELOW DSP"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER TOTAL OFFRS &",
+   "header": [
+    "NUMBER TOTAL OFFRS &"
+   ]
+  }
+ ],
+ "notes": [
+  "Note 1) * 1986 data repeated for Maharashtra.",
+  "2) @ 1986 data repeated for Bombay City."
+ ],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 11,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 58, sum 447"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

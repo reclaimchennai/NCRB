@@ -1,0 +1,84 @@
+{
+ "table_id": "cii/1991/40_table-24-1991-24_t3",
+ "publication": "cii",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "40",
+ "title": "TABLE=24",
+ "listing_title": "Persons Arrested under Different IPC Crimes by Sex in States, UTs & Cities During 1991",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1991-24.pdf",
+ "source_file": "raw/cii/1991/table_content/table-24-1991-24.pdf",
+ "source_sha256": "293dd841677197e6f68b07a30b3e210637fa9fbbee8cba81ef62a5d647ca0125",
+ "table_no": "",
+ "pdf_title": "TABLE=24",
+ "row_label": "SL. STATE/UT/CITY HO.",
+ "pages": [
+  8
+ ],
+ "n_rows": 48,
+ "n_cols": 6,
+ "n_cells": 243,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "ee HALE",
+   "header": [
+    "ee HALE"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "re COUNTERFEITIO’ FEMALE",
+   "header": [
+    "re COUNTERFEITIO’ FEMALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TTL | TOTAL",
+   "header": [
+    "TTL",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TTL | OTHER HALE",
+   "header": [
+    "TTL",
+    "OTHER HALE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "IPC CRIMES FEMALE",
+   "header": [
+    "IPC CRIMES FEMALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 1207, sum 1200"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

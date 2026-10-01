@@ -1,0 +1,133 @@
+{
+ "table_id": "cii/1999/68_table-68-1999_t48",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "68",
+ "title": "(Cantinnod \\",
+ "listing_title": "Persons Arrested Under Different SLL Crimes by Sex in States, UTs & Cities During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-68-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-68-1999.pdf",
+ "source_sha256": "5fa3256998fbb255238c584274fc2f69bc3baa19dae85d2311c88c12190f666c",
+ "table_no": "48",
+ "pdf_title": "(Cantinnod \\",
+ "row_label": "SL.NO.",
+ "pages": [
+  9,
+  10
+ ],
+ "n_rows": 75,
+ "n_cols": 11,
+ "n_cells": 637,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "STAIWUT/UILY MALE",
+   "header": [
+    "STAIWUT/UILY MALE"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "- - 1 4,7UI¥ OF WOMEN (P) ACT | FEMALE",
+   "header": [
+    "- - 1 4,7UI¥ OF WOMEN (P) ACT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "- - 1 4,7UI¥ OF WOMEN (P) ACT | TOTAL",
+   "header": [
+    "- - 1 4,7UI¥ OF WOMEN (P) ACT",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ACT | MALE",
+   "header": [
+    "ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ACT | FEMALE",
+   "header": [
+    "ACT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "ACT | TOTAL",
+   "header": [
+    "ACT",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "58",
+   "name": "SATI MALE FEMALE sy",
+   "header": [
+    "SATI MALE FEMALE sy"
+   ]
+  },
+  {
+   "col_no": "59",
+   "name": "ACT TOTAL",
+   "header": [
+    "ACT TOTAL"
+   ]
+  },
+  {
+   "col_no": "60",
+   "name": "(PRE V. OF ArKUt [1ES) ACT | MALE",
+   "header": [
+    "(PRE V. OF ArKUt [1ES) ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "61",
+   "name": "(PRE V. OF ArKUt [1ES) ACT | FEMALE",
+   "header": [
+    "(PRE V. OF ArKUt [1ES) ACT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "62",
+   "name": "(PRE V. OF ArKUt [1ES) ACT | TOTAL",
+   "header": [
+    "(PRE V. OF ArKUt [1ES) ACT",
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 32,
+  "cells_passed": 17,
+  "failures": [
+   "col 2 'TOTAL STATES': printed 120, sum 171",
+   "col 3 'TOTAL STATES': printed 159, sum 211",
+   "col 5 'TOTAL (CITIES)': printed 1183, sum 1087",
+   "col 6 'TOTAL (CITIES)': printed 951, sum 6",
+   "col 60 'TOTAL STATES': printed 23840, sum 22318",
+   "col 60 'TOTAL (UTs)': printed 18, sum 0",
+   "col 60 'TOTAL (CITIES)': printed 618, sum 538",
+   "col 60 'TOTAL (ALL-INDIA)': printed 23858, sum 24476"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

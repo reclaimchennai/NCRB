@@ -1,0 +1,133 @@
+{
+ "table_id": "psi/1999/6_psi-full-report-1999_t14_2",
+ "publication": "psi",
+ "year": 1999,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1999",
+ "serial": "6",
+ "title": "DISTRIBUTION OF UNDERTRAILS IN JAILS BY AGE GROUPS AT THE END OF 1999",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
+ "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
+ "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
+ "table_no": "14",
+ "pdf_title": "DISTRIBUTION OF UNDERTRAILS IN JAILS BY AGE GROUPS AT THE END OF 1999",
+ "row_label": "a SL. (1) 7 (2) / STATE/UT mM (8) / BELOW 16 YEARS T (4) / 6-18 YEARS M (5)",
+ "pages": [
+  97,
+  98
+ ],
+ "n_rows": 53,
+ "n_cols": 11,
+ "n_cells": 287,
+ "columns": [
+  {
+   "col_no": "5",
+   "name": "18 - 30 YEARS | T (0) (6)",
+   "header": [
+    "18 - 30 YEARS",
+    "T (0) (6)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "18 - 30 YEARS | M (10) (7)",
+   "header": [
+    "18 - 30 YEARS",
+    "M (10) (7)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "18 - 30 YEARS | T (ty (8)",
+   "header": [
+    "18 - 30 YEARS",
+    "T (ty (8)"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "(2)",
+   "header": [
+    "(2)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "M (12)",
+   "header": [
+    "M (12)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "30 - 50 YEARS F (13)",
+   "header": [
+    "30 - 50 YEARS F (13)"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "ABOVE 50 YEARS F 7 (16) (14)",
+   "header": [
+    "ABOVE 50 YEARS F 7 (16) (14)"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "M (15)",
+   "header": [
+    "M (15)"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "(ALL AGE GROUPS) () | T (7)",
+   "header": [
+    "(ALL AGE GROUPS) ()",
+    "T (7)"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "(ALL AGE GROUPS) () | M (18)",
+   "header": [
+    "(ALL AGE GROUPS) ()",
+    "M (18)"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "(ALL AGE GROUPS) () | (20)",
+   "header": [
+    "(ALL AGE GROUPS) ()",
+    "(20)"
+   ]
+  }
+ ],
+ "notes": [
+  "NA -DATA NOT AVAILABLE."
+ ],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 0,
+  "failures": [
+   "col 5 'TOTAL (UTS)': printed 5602, sum 123212",
+   "col 7 'TOTAL (UTS)': printed 5784, sum 149062",
+   "col 10001 'TOTAL (UTS)': printed 2.31717e+06, sum 3.58575e+06",
+   "col 10002 'TOTAL (UTS)': printed 2490, sum 11221",
+   "col 10003 'TOTAL (UTS)': printed 336, sum 1763",
+   "col 10004 'TOTAL (UTS)': printed 38, sum 125",
+   "col 10005 'TOTAL (UTS)': printed 374, sum 1894",
+   "col 10006 'TOTAL (UTS)': printed 9082, sum 17789"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

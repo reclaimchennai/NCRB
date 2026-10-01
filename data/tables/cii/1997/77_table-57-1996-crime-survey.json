@@ -1,0 +1,110 @@
+{
+ "table_id": "cii/1997/77_table-57-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "77",
+ "title": "Juveniles Apprehended Under IPC Crime by Age Group & Sex During 1997 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Apprehended Under IPC Crime by Age Group & Sex During 1997 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-57-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-57-1996-crime-survey.pdf",
+ "source_sha256": "5b82648b6233c213f7de447cd748b698e85de25867407a0df4b375904ac5f7f1",
+ "table_no": "57",
+ "pdf_title": "",
+ "row_label": "",
+ "pages": [
+  1
+ ],
+ "n_rows": 53,
+ "n_cols": 8,
+ "n_cells": 381,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "JUVENILES 7 - 12 YEARS BOYS",
+   "header": [
+    "JUVENILES 7 - 12 YEARS BOYS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "UNDER IPC CRIMES BY AGE GROUP & SEX DURING | (STATE, GIRLS",
+   "header": [
+    "UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
+    "(STATE, GIRLS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "UNDER IPC CRIMES BY AGE GROUP & SEX DURING | UT & CITY-WISE) | 12-16 YEARS BOYS",
+   "header": [
+    "UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
+    "UT & CITY-WISE)",
+    "12-16 YEARS BOYS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "UNDER IPC CRIMES BY AGE GROUP & SEX DURING | UT & CITY-WISE) | 16-18 YEARS | GIRLS",
+   "header": [
+    "UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
+    "UT & CITY-WISE)",
+    "16-18 YEARS",
+    "GIRLS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "UNDER IPC CRIMES BY AGE GROUP & SEX DURING | UT & CITY-WISE) | 16-18 YEARS | GIRLS ONLY",
+   "header": [
+    "UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
+    "UT & CITY-WISE)",
+    "16-18 YEARS",
+    "GIRLS ONLY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "UNDER IPC CRIMES BY AGE GROUP & SEX DURING | OVERALL AGE - BoYs (8)]",
+   "header": [
+    "UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
+    "OVERALL AGE - BoYs (8)]"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1997 GIRLS",
+   "header": [
+    "1997 GIRLS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "TOTAL Be",
+   "header": [
+    "TOTAL Be"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 7-12 years means 7 years aid above but bilow 12 years cf age etc."
+ ],
+ "checks": {
+  "cells_checked": 14,
+  "cells_passed": 11,
+  "failures": [
+   "col 5 'TOTAL (UTs)': printed 510, sum 508",
+   "col 8 'TOTAL (UTs)': printed 589, sum 587",
+   "col 10 'TOTAL (UTs)': printed 658, sum 656"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

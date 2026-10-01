@@ -1,0 +1,76 @@
+{
+ "table_id": "cii/1987/9_table-43-1987",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "9",
+ "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local and Special Laws During 1987",
+ "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local and Special Laws During 1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_43-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_43-1987.pdf",
+ "source_sha256": "c9bbd77c760ef4a1f87bc7f0671e52d8820683a1b85f97f6ae17926404bd91e4",
+ "table_no": "43",
+ "pdf_title": "Juvenile Apprehended (By Age Group) For Committing Crimes Under Local And Special Laws During 1987",
+ "row_label": "sl NO / STATES/U. Ts. /CITIES",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 5,
+ "n_cells": 239,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "7-12 YEARS",
+   "header": [
+    "7-12 YEARS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "12-16 YEARS",
+   "header": [
+    "12-16 YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "16-18 YEARS",
+   "header": [
+    "16-18 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "18-21 YEARS",
+   "header": [
+    "18-21 YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 14,
+  "cells_passed": 12,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 3797, sum 3897",
+   "col 4 'TOTAL (UTs)': printed 11, sum 18"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

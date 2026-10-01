@@ -1,0 +1,131 @@
+{
+ "table_id": "psi/1998/5_psi-full-report-1998_t10_2",
+ "publication": "psi",
+ "year": 1998,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1998",
+ "serial": "5",
+ "title": "POPULATION OF DIFFERENT TYPES OF INMATES IN JAILS AT THE END OF1998",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
+ "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
+ "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
+ "table_no": "10",
+ "pdf_title": "POPULATION OF DIFFERENT TYPES OF INMATES IN JAILS AT THE END OF1998",
+ "row_label": "SL. NO. / STATE/UT / MENTALLY iLL M / MENTALLY iLL Fo",
+ "pages": [
+  78,
+  79
+ ],
+ "n_rows": 61,
+ "n_cols": 13,
+ "n_cells": 332,
+ "columns": [
+  {
+   "col_no": "5",
+   "name": "MENTALLY iLL | OT",
+   "header": [
+    "MENTALLY iLL",
+    "OT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "MENTALLY iLL | M",
+   "header": [
+    "MENTALLY iLL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "CONVICTS F",
+   "header": [
+    "CONVICTS F"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "- | T",
+   "header": [
+    "-",
+    "T"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "- | M -",
+   "header": [
+    "-",
+    "M -"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "- | F T ay",
+   "header": [
+    "-",
+    "F T ay"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "M",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
+  },
+  {
+   "col_no": "14",
+   "name": "col_14",
+   "header": []
+  },
+  {
+   "col_no": "15",
+   "name": "Mo",
+   "header": [
+    "Mo"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHERS oF",
+   "header": [
+    "OTHERS oF"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "col_17",
+   "header": []
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 12 'TOTAL (UTs)': printed 30, sum 14316"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

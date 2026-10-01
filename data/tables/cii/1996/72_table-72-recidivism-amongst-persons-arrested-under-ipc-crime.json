@@ -1,0 +1,120 @@
+{
+ "table_id": "cii/1996/72_table-72-recidivism-amongst-persons-arrested-under-ipc-crime",
+ "publication": "cii",
+ "year": 1996,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "72",
+ "title": "Recidivism Amongst Persons Arrested Under IPC Crimes During 1996 (State, UT & City-Wise)",
+ "listing_title": "Recidivism Amongst Persons Arrested Under IPC Crimes During 1996 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-72--recidivism-amongst-persons-arrested-under-ipc-crimes-during-1996-1996.pdf",
+ "source_file": "raw/cii/1996/table_content/table-72--recidivism-amongst-persons-arrested-under-ipc-crimes-during-1996-1996.pdf",
+ "source_sha256": "3e685a38ec23037428ccab28b1efce9c938959d45e9ce811957323afbdd73587",
+ "table_no": "72",
+ "pdf_title": "RECIDIVISM AMONGST PERSONS ARRESTED UNDER IPC CRIMES DURING 1996 (STATE, UT & CITY-WISE)",
+ "row_label": "SL STATE/UT/CITY NO a) / TOTAL NO. ur PERSONS ARRESTED",
+ "pages": [
+  1
+ ],
+ "n_rows": 43,
+ "n_cols": 9,
+ "n_cells": 139,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | NEW O!'FENDERS NO, PERCEN:",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "NEW O!'FENDERS NO, PERCEN:"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | NEW O!'FENDERS NO, PERCEN: | TAGE TO TOTAL",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "NEW O!'FENDERS NO, PERCEN:",
+    "TAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE NO,",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "ONCE NO,"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | PERCEN. TAGE TO TOTAL",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "PERCEN. TAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "TWICE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | NO, PERCENTAGE TO TOTAL",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "NO, PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | NO, PERCEN",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "THRICE OR MORE",
+    "NO, PERCEN"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | PERCENTAGE OF RECIDIVISTS((7) + (9) +(11)) | NO, PERCEN | -TAGE TO TOTAL",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "THRICE OR MORE",
+    "PERCENTAGE OF RECIDIVISTS((7) + (9) +(11))",
+    "NO, PERCEN",
+    "-TAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | PERCENTAGE OF RECIDIVISTS((7) + (9) +(11))",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "THRICE OR MORE",
+    "PERCENTAGE OF RECIDIVISTS((7) + (9) +(11))"
+   ]
+  }
+ ],
+ "notes": [
+  "Due to non-availability of data, all the persons arrested are taken"
+ ],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 '*TOTAL(STATES)': printed 2.52792e+14, sum 1.00391e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,103 @@
+{
+ "table_id": "adsi/1999/3_table-11-1999_t12",
+ "publication": "adsi",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "3",
+ "title": "/Cantinuad",
+ "listing_title": "Number of Persons Injured and Killed by Un-natural causes during 1999 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-11_1999.pdf",
+ "source_file": "raw/adsi/1999/table_content/table-11_1999.pdf",
+ "source_sha256": "ccc8dcc1114da1e801a8a0b706a9b260920aa03c8bc14e5cd746d5397b7039d5",
+ "table_no": "12",
+ "pdf_title": "/Cantinuad",
+ "row_label": "Sl. No. / State/UT/City",
+ "pages": [
+  2
+ ],
+ "n_rows": 52,
+ "n_cols": 8,
+ "n_cells": 311,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "No. of Cases",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Female",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "No. of | Coll nee =! Su - - Total",
+   "header": [
+    "No. of",
+    "Coll nee =! Su - - Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "No. of | Male",
+   "header": [
+    "No. of",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "No. of | Female",
+   "header": [
+    "No. of",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "niwou Total",
+   "header": [
+    "niwou Total"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "%Share to Tota (cor.rei268)",
+   "header": [
+    "%Share to Tota (cor.rei268)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 '- TOTAL(States)': printed 886, sum 839",
+   "col 3 'TOTAL (Cities)': printed 11, sum 1662",
+   "col 13 '- TOTAL(States)': printed 239, sum 242",
+   "col 14 '- TOTAL(States)': printed 624, sum 614",
+   "col 15 'TOTAL (Cities)': printed 38, sum 48"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

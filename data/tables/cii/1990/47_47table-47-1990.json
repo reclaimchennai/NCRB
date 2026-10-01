@@ -1,0 +1,141 @@
+{
+ "table_id": "cii/1990/47_47table-47-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "47",
+ "title": "Classification of Juveniles Arrested (under IPC & LSL), by Attributes During 1990 (State, UT & City-Wise)",
+ "listing_title": "Classification of Juveniles Arrested (under IPC & LSL), by Attributes During 1990 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/47table-47-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/47table-47-1990-.pdf",
+ "source_sha256": "d54b3796e26909e2e14f95c66c0ccb2ebd10241b1bf39c45a26ef980d4637d49",
+ "table_no": "47",
+ "pdf_title": "‘",
+ "row_label": "CLASSIFICATION SL. STATE/UT/CITY NO. (2) STATES:",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 95,
+ "n_cols": 13,
+ "n_cells": 600,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "OF JUVENILES (STATE, ILLITERATE (2)",
+   "header": [
+    "OF JUVENILES (STATE, ILLITERATE (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "(UNDER UT BY PRIMARY BUT H. (3)",
+   "header": [
+    "(UNDER UT BY PRIMARY BUT H. (3)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "IPC & CITY-WISE) EDUCATION nn ABOVE PRIMARY BELOW MATRIC/ SEC. (4)",
+   "header": [
+    "IPC & CITY-WISE) EDUCATION nn ABOVE PRIMARY BELOW MATRIC/ SEC. (4)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "& MATRIC/ H. & (6)",
+   "header": [
+    "& MATRIC/ H. & (6)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "LSL) TOTAL SEC. ABOVE (7)",
+   "header": [
+    "LSL) TOTAL SEC. ABOVE (7)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BY BY wenn LIVING WITH PARENTS (8)",
+   "header": [
+    "BY BY wenn LIVING WITH PARENTS (8)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "DURING FAMILY LIVING WITH GUARDTANS (9)",
+   "header": [
+    "DURING FAMILY LIVING WITH GUARDTANS (9)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1990 B8ACKGROLND HOME - LESS (10)",
+   "header": [
+    "1990 B8ACKGROLND HOME - LESS (10)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "TOTAL (11)",
+   "header": [
+    "TOTAL (11)"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "1C-SETUP TOTAL LOW/MID INCOME RS TO PM PM) PM)",
+   "header": [
+    "1C-SETUP TOTAL LOW/MID INCOME RS TO PM PM) PM)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "RECIDIVISM | NEW UPP/MID MIDDLE INCOME INCOME (RS.1001 2000 TO PM)",
+   "header": [
+    "RECIDIVISM",
+    "NEW UPP/MID MIDDLE INCOME INCOME (RS.1001 2000 TO PM)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "RECIDIVISM | OLD UPPER DELININCOME (ABOVE QUENTS (FROM RS.3000 2001 3000",
+   "header": [
+    "RECIDIVISM",
+    "OLD UPPER DELININCOME (ABOVE QUENTS (FROM RS.3000 2001 3000"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "RECIDIVISM | STATE/UT/CITY TOTAL DELINQUENTS RS TO PM)",
+   "header": [
+    "RECIDIVISM",
+    "STATE/UT/CITY TOTAL DELINQUENTS RS TO PM)"
+   ]
+  }
+ ],
+ "notes": [
+  "* As classification was not available, all the juveniles arrested are put in the most likely class."
+ ],
+ "checks": {
+  "cells_checked": 20,
+  "cells_passed": 15,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 6736, sum 6136",
+   "col 5 'TOTAL (STATES)': printed 1339, sum 1279",
+   "col 7 'TOTAL (STATES)': printed 19083, sum 19023",
+   "col 8 'TOTAL (STATES)': printed 7202, sum 7292",
+   "col 8 'TOTAL (ALL-INDIA)': printed 7334, sum 7244"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

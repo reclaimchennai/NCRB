@@ -1,0 +1,137 @@
+{
+ "table_id": "cii/1993/8_table-8-1993-crime",
+ "publication": "cii",
+ "year": 1993,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "8",
+ "title": "District-Wise Incidence of Cognizable Crimes (IPC) During 1993",
+ "listing_title": "District-Wise Incidence of Cognizable Crimes (IPC) During 1993",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-8-1993-crime.pdf",
+ "source_file": "raw/cii/1993/table_content/table-8-1993-crime.pdf",
+ "source_sha256": "4d8901daaa259954a3050c7ef8158b8ce8f3ee37fd59710a83826e84dea6cfd5",
+ "table_no": "8",
+ "pdf_title": "DISTRICT-WISE INCIDENCE OF COGNIZABLE CRIMES (IPC) DURING 1993",
+ "row_label": "NO. / STATEITEE DISTRICT",
+ "pages": [
+  1,
+  3,
+  5,
+  6,
+  7,
+  9,
+  11,
+  13,
+  15,
+  16,
+  17,
+  19,
+  21,
+  23
+ ],
+ "n_rows": 691,
+ "n_cols": 11,
+ "n_cells": 4797,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ATTEMPT COMMIT MURDER",
+   "header": [
+    "ATTEMPT COMMIT MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "C.H.NOT AMOUNTING TO MURDER i5)",
+   "header": [
+    "C.H.NOT AMOUNTING TO MURDER i5)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIONAPPING & ABOUCTION | TOTAL",
+   "header": [
+    "KIONAPPING & ABOUCTION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KIONAPPING & ABOUCTION | OF WOMEN & GIRLS",
+   "header": [
+    "KIONAPPING & ABOUCTION",
+    "OF WOMEN & GIRLS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "KIONAPPING & ABOUCTION | OF OTHERS",
+   "header": [
+    "KIONAPPING & ABOUCTION",
+    "OF OTHERS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "(18) (19) (17) (12)",
+   "header": [
+    "(18) (19) (17) (12)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "(2) (20) (13) BIHAR: (Contd..)",
+   "header": [
+    "(2) (20) (13) BIHAR: (Contd..)"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  }
+ ],
+ "notes": [
+  "!13A—177 NCRB/95."
+ ],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'rorat (ALL-INDIA)': printed 38240, sum 34706",
+   "col 4 'rorat (ALL-INDIA)': printed 29725, sum 27340",
+   "col 5 'rorat (ALL-INDIA)': printed 3890, sum 3990",
+   "col 6 'rorat (ALL-INDIA)': printed 12218, sum 11202",
+   "col 10 'rorat (ALL-INDIA)': printed 9357, sum 8457"
+  ],
+  "other_totals_checked": 101,
+  "other_totals_passed": 65
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 14,
+ "warnings": []
+}

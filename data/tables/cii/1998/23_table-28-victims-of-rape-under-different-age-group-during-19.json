@@ -1,0 +1,81 @@
+{
+ "table_id": "cii/1998/23_table-28-victims-of-rape-under-different-age-group-during-19",
+ "publication": "cii",
+ "year": 1998,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "23",
+ "title": "Victims of Rape Under Different Age Groups During 1998",
+ "listing_title": "Victims of Rape Under Different Age Groups During 1998",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-28--victims-of-rape-under-different-age-group-during-1998.pdf",
+ "source_file": "raw/cii/1998/table_content/table-28--victims-of-rape-under-different-age-group-during-1998.pdf",
+ "source_sha256": "cda9c259f634703e3b753d13a2d2cf61bca92ee87ac722feb4c42fdf9acea761",
+ "table_no": "28",
+ "pdf_title": "",
+ "row_label": "STATE/UT/CITY SL NO / STATE/UT/CITY y",
+ "pages": [
+  1
+ ],
+ "n_rows": 49,
+ "n_cols": 5,
+ "n_cells": 179,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "VICTIMS OF RAPE UNDER NO. OF CASES REPORTED",
+   "header": [
+    "VICTIMS OF RAPE UNDER NO. OF CASES REPORTED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "AGE GROUPS DURING | BELOW 10 YEARS",
+   "header": [
+    "AGE GROUPS DURING",
+    "BELOW 10 YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "AGE GROUPS DURING | NUMBER OF VICTIMS 10-16 YEARS",
+   "header": [
+    "AGE GROUPS DURING",
+    "NUMBER OF VICTIMS 10-16 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1998 16-30 YEARS",
+   "header": [
+    "1998 16-30 YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "30 YEARS ANC ABOVE",
+   "header": [
+    "30 YEARS ANC ABOVE"
+   ]
+  }
+ ],
+ "notes": [
+  "Note:* Victims were more than the cases reported.",
+  "185 NCRB/2000—13A"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 1,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 14570, sum 9022",
+   "col 3 'TOTAL (UTs)': printed 461, sum 446"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

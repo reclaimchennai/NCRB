@@ -1,0 +1,75 @@
+{
+ "table_id": "psi/1999/6_psi-full-report-1999_t12_2",
+ "publication": "psi",
+ "year": 1999,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1999",
+ "serial": "6",
+ "title": "DISTRIBUTION OF CONVICTS IN JAILS BY AGE GROUPS AT THE END OF 1999",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
+ "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
+ "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
+ "table_no": "12",
+ "pdf_title": "DISTRIBUTION OF CONVICTS IN JAILS BY AGE GROUPS AT THE END OF 1999",
+ "row_label": "STATE/UT SL. NO. Qa / 15-18 F ® ©) ©) / 18 - 30 YEARS T (8) 8)",
+ "pages": [
+  94,
+  95
+ ],
+ "n_rows": 54,
+ "n_cols": 4,
+ "n_cells": 115,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "18 - 30 YEARS | BELOW 16 YEARS M FO (10) (9) 4)",
+   "header": [
+    "18 - 30 YEARS",
+    "BELOW 16 YEARS M FO (10) (9) 4)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "18 - 30 YEARS | FOOT OT ay (5)",
+   "header": [
+    "18 - 30 YEARS",
+    "FOOT OT ay (5)"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "TF M",
+   "header": [
+    "TF M"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "TOTAL (ALL AGE GROUPS) 50 YEARS & AEOVE 30 - 50 YEARS ! EF M T FP M",
+   "header": [
+    "TOTAL (ALL AGE GROUPS) 50 YEARS & AEOVE 30 - 50 YEARS ! EF M T FP M"
+   ]
+  }
+ ],
+ "notes": [
+  "YA -DATA NOT AVAILABLE."
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 10001 'TOTAL (UTS)': printed 8.17439e+07, sum 7.03388e+07",
+   "col 10001 'TOTAL (ALL INDIA)': printed 3.19889e+12, sum 3.11727e+12",
+   "col 10002 'TOTAL (ALL INDIA)': printed 7.75823e+24, sum 7.61369e+19"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

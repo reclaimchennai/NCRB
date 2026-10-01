@@ -1,0 +1,141 @@
+{
+ "table_id": "cii/1987/4_table-38-1987",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "4",
+ "title": "Juveniles Apprehended under Important IPC Heads During 1987",
+ "listing_title": "Juveniles Apprehended under Important IPC Heads During 1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_38-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_38-1987.pdf",
+ "source_sha256": "bf0365b5b031373aaf2edaf661fe146e35489b9df7586e5d44e55f9d04545f00",
+ "table_no": "38",
+ "pdf_title": "TABLE E - 38",
+ "row_label": "SL. NO. / Juveniles STATES/UTs/CITIES",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 68,
+ "n_cols": 13,
+ "n_cells": 619,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Under MURDER",
+   "header": [
+    "Under MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Important cin PARLE HOMICIDE NOT AMOUNTING TO",
+   "header": [
+    "Important cin PARLE HOMICIDE NOT AMOUNTING TO"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "IPC Heads RAPE MURDER",
+   "header": [
+    "IPC Heads RAPE MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1987 During KIDNAPPING AND ABDUCTION",
+   "header": [
+    "1987 During KIDNAPPING AND ABDUCTION"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "THEFT",
+   "header": [
+    "THEFT"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "RIOTS",
+   "header": [
+    "RIOTS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "CHEATING | CRIMINAL BREACH OF",
+   "header": [
+    "CHEATING",
+    "CRIMINAL BREACH OF"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "CHEATING | TRUST",
+   "header": [
+    "CHEATING",
+    "TRUST"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "CHEATING | COUNTERFEITING",
+   "header": [
+    "CHEATING",
+    "COUNTERFEITING"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC",
+   "header": [
+    "TOTAL COGNIZABLE CRIME UNDER IPC"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 25,
+  "cells_passed": 5,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 1913, sum 1793",
+   "col 3 'TOTAL (UTs)': printed 81, sum 21",
+   "col 7 'TOTAL (States)': printed 777, sum 408",
+   "col 7 'TOTAL (Cities)': printed 79, sum 447",
+   "col 8 'TOTAL (States)': printed 1082, sum 555",
+   "col 8 'TOTAL (UTs)': printed 72, sum 70",
+   "col 8 'TOTAL (Cities)': printed 219, sum 748",
+   "col 9 'TOTAL (States)': printed 6785, sum 4215"
+  ],
+  "other_totals_checked": 9,
+  "other_totals_passed": 9
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

@@ -1,0 +1,79 @@
+{
+ "table_id": "cii/1988/62_table-62-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "62",
+ "title": "Persons Killed or Injured under Police Firing During 1988 (State, UT & City-wise)",
+ "listing_title": "Persons Killed or Injured under Police Firing During 1988 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-62-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-62-1988-2.pdf",
+ "source_sha256": "d8755830321cb3155e5b1af1dd053306ab390e6ef8db3c8228727cc5e7b05339",
+ "table_no": "62",
+ "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURINU 1988",
+ "row_label": "STATE/UT/CITY SL. NO. {l)>",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 212,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "& | NO. OCCASIOUS OF FIRING",
+   "header": [
+    "&",
+    "NO. OCCASIOUS OF FIRING"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "& | OF POLICE",
+   "header": [
+    "&",
+    "OF POLICE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CITY-WISE) CIVILIANS -+<<<-------00ee5 KILLED",
+   "header": [
+    "CITY-WISE) CIVILIANS -+<<<-------00ee5 KILLED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "POLICEMEN | INJURED",
+   "header": [
+    "POLICEMEN",
+    "INJURED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POLICEMEN | INJURED KILLED",
+   "header": [
+    "POLICEMEN",
+    "INJURED KILLED"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 11,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 1105, sum 1104"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

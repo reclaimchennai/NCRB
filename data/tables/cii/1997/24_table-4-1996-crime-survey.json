@@ -1,0 +1,110 @@
+{
+ "table_id": "cii/1997/24_table-4-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "24",
+ "title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs & Cities During (1992-1996) Alongwith Percentage Changes During 1997",
+ "listing_title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs & Cities During (1992-1996) Alongwith Percentage Changes During 1997",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-4-1996-crime-survey.pdf",
+ "source_sha256": "22b8efec73b003197bfab3933cd255238cd0619993000b40d424e73ddb508173",
+ "table_no": "4",
+ "pdf_title": "INCIDENCE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES. UTs AND CITIES DURING (1992-1996) ALONGWITH PERCENTAGE CHANGES DURING 1997",
+ "row_label": "SL. STATE/UT/CITY NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 9,
+ "n_cells": 455,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "1992",
+   "header": [
+    "1992"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1993",
+   "header": [
+    "1993"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1994",
+   "header": [
+    "1994"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1995",
+   "header": [
+    "1995"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1996 QUINQUEN-",
+   "header": [
+    "1996 QUINQUEN-"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "1996 QUINQUEN- | NIAL AVG. (1992- 1996) (0.A.)",
+   "header": [
+    "1996 QUINQUEN-",
+    "NIAL AVG. (1992- 1996) (0.A.)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1997 PERCENTAGE CHANGE (-) IN 1997 | DECREASE",
+   "header": [
+    "1997 PERCENTAGE CHANGE (-) IN 1997",
+    "DECREASE"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "1997 PERCENTAGE CHANGE (-) IN 1997 | (+)INCREASE (-)DECRE4SE OVER | 0A.",
+   "header": [
+    "1997 PERCENTAGE CHANGE (-) IN 1997",
+    "(+)INCREASE (-)DECRE4SE OVER",
+    "0A."
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "1997 PERCENTAGE CHANGE (-) IN 1997 | (+)INCREASE (-)DECRE4SE OVER | 1996",
+   "header": [
+    "1997 PERCENTAGE CHANGE (-) IN 1997",
+    "(+)INCREASE (-)DECRE4SE OVER",
+    "1996"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 '- TOTAL (UTs)': printed 43105, sum 1.26927e+08",
+   "col 3 'TOTAL (CITIES)': printed 260267, sum 2.28508e+08"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

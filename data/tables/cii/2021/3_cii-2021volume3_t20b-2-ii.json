@@ -1,0 +1,220 @@
+{
+ "table_id": "cii/2021/3_cii-2021volume3_t20b-2-ii",
+ "publication": "cii",
+ "year": 2021,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 2021",
+ "serial": "3",
+ "title": "Seizure of Fake Indian Currency - 2021",
+ "listing_title": "Volume-III",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2021Volume3.pdf",
+ "source_file": "raw/cii/2021/year_wise/CII-2021Volume3.pdf",
+ "source_sha256": "6872a77783bb967324d3a2885c6e447f39cb30246c19bf50f219d7977268ab19",
+ "table_no": "20B.2(ii)",
+ "pdf_title": "Seizure of Fake Indian Currency - 2021",
+ "row_label": "STATES: SL State/UT",
+ "pages": [
+  446,
+  447,
+  448
+ ],
+ "n_rows": 42,
+ "n_cols": 20,
+ "n_cells": 839,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "STATES: | I 2000 | Notes",
+   "header": [
+    "STATES:",
+    "I 2000",
+    "Notes"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "STATES: | I 2000 | Value",
+   "header": [
+    "STATES:",
+    "I 2000",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "I 1000 (Discontinued) | Notes",
+   "header": [
+    "I 1000 (Discontinued)",
+    "Notes"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "I 1000 (Discontinued) | Value",
+   "header": [
+    "I 1000 (Discontinued)",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "I 500 (may include discontinued notes) | Notes",
+   "header": [
+    "I 500 (may include discontinued notes)",
+    "Notes"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "I 500 (may include discontinued notes) | Value",
+   "header": [
+    "I 500 (may include discontinued notes)",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "I 200 | Notes",
+   "header": [
+    "I 200",
+    "Notes"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "I 200 | Value",
+   "header": [
+    "I 200",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "I 100 | Notes",
+   "header": [
+    "I 100",
+    "Notes"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "I 100 | Value",
+   "header": [
+    "I 100",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "I 50 | Notes",
+   "header": [
+    "I 50",
+    "Notes"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "I 50 | Value",
+   "header": [
+    "I 50",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "I 20 | Notes",
+   "header": [
+    "I 20",
+    "Notes"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "I 20 | Value",
+   "header": [
+    "I 20",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "I 10 | Notes",
+   "header": [
+    "I 10",
+    "Notes"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "I 10 | Value",
+   "header": [
+    "I 10",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "Others (Including Coins) | Notes",
+   "header": [
+    "Others (Including Coins)",
+    "Notes"
+   ]
+  },
+  {
+   "col_no": "10010",
+   "name": "Others (Including Coins) | Value",
+   "header": [
+    "Others (Including Coins)",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "Total Fake IndianCurrency Seized | Notes",
+   "header": [
+    "Total Fake IndianCurrency Seized",
+    "Notes"
+   ]
+  },
+  {
+   "col_no": "10012",
+   "name": "Total Fake IndianCurrency Seized | Value",
+   "header": [
+    "Total Fake IndianCurrency Seized",
+    "Value"
+   ]
+  }
+ ],
+ "notes": [
+  "NIA+CBI)",
+  "Note: Fake Currency Seized under UAPA Act and Other Seizures (Other than Case Properties) TABLE 20B.2 (ii) Page 1 of 3",
+  "●As per data provided by States/UTs/National Investigation Agency(NIA)/Central Bureau of Investigation(CBI)",
+  "●States/UTs may not be compared purely on the basis of crime figures",
+  "+NIA+CBI)",
+  "● States/UTs may not be compared purely on the basis of crime figures TABLE 20B.2 (ii) Page 2 of 3",
+  "● As per data provided by States/UTs/National Investigation Agency(NIA)/Central Bureau of Investigation(CBI)",
+  "●States/UTs may not be compared purely on the basis of crime figures TABLE 20B.2 (ii) Page 3 of 3"
+ ],
+ "checks": {
+  "cells_checked": 80,
+  "cells_passed": 62,
+  "failures": [
+   "col 2 'TOTAL(STATEs+UTs+': printed 60915, sum 0",
+   "col 3 'TOTAL(STATEs+UTs+': printed 1.2183e+08, sum 0",
+   "col 4 'TOTAL(STATEs+UTs+': printed 2990, sum 0",
+   "col 5 'TOTAL(STATEs+UTs+': printed 2.99e+06, sum 0",
+   "col 6 'TOTAL(STATEs+UTs+': printed 132060, sum 3",
+   "col 7 'TOTAL(STATEs+UTs+': printed 6.603e+07, sum 1500",
+   "col 8 'TOTAL(STATEs+UTs+': printed 22791, sum 0",
+   "col 9 'TOTAL(STATEs+UTs+': printed 4.5582e+06, sum 0"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 3,
+ "ocr_pages": 0,
+ "warnings": []
+}

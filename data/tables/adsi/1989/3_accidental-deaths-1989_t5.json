@@ -1,0 +1,201 @@
+{
+ "table_id": "adsi/1989/3_accidental-deaths-1989_t5",
+ "publication": "adsi",
+ "year": 1989,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1989",
+ "serial": "3",
+ "title": "Distribution Of Accidental Deaths By Sex And Age-Groups",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1989.pdf",
+ "source_file": "raw/adsi/1989/year_wise/accidental-deaths-1989.pdf",
+ "source_sha256": "ef023832411882661083b90d3ed0896b863bb9ead5a37926c1a021b2ccb48f3c",
+ "table_no": "5",
+ "pdf_title": "Distribution Of Accidental Deaths By Sex And Age-Groups",
+ "row_label": "Sl. No. / State/UT/City",
+ "pages": [
+  15,
+  16,
+  17
+ ],
+ "n_rows": 54,
+ "n_cols": 20,
+ "n_cells": 936,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "1989 | Male",
+   "header": [
+    "1989",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1989 | (State, Below Female",
+   "header": [
+    "1989",
+    "(State, Below Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1989 | During UT 18 Total",
+   "header": [
+    "1989",
+    "During UT 18 Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1989 | & City-wise) Years Percentage To Deaths",
+   "header": [
+    "1989",
+    "& City-wise) Years Percentage To Deaths"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1989 | Male Total",
+   "header": [
+    "1989",
+    "Male Total"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "1989 | 18 30 Female",
+   "header": [
+    "1989",
+    "18 30 Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "- Years Total Percentage Total To Deaths (10).",
+   "header": [
+    "- Years Total Percentage Total To Deaths (10)."
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "30 | Male",
+   "header": [
+    "30",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "30 | Female",
+   "header": [
+    "30",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "- Total",
+   "header": [
+    "- Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "50 Percentage To Deaths",
+   "header": [
+    "50 Percentage To Deaths"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Years Male Total",
+   "header": [
+    "Years Male Total"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "50 Female",
+   "header": [
+    "50 Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Above Years Total",
+   "header": [
+    "Above Years Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "And Percentage Total To Deaths",
+   "header": [
+    "And Percentage Total To Deaths"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "wee reece Male",
+   "header": [
+    "wee reece Male"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Total | Female",
+   "header": [
+    "Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Total | Total",
+   "header": [
+    "Total",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Deaths Percentage of",
+   "header": [
+    "Deaths Percentage of"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Percentage of Male Female",
+   "header": [
+    "Percentage of Male Female"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 18 - 30 years means 18 years and above but below 30 years of age etc."
+ ],
+ "checks": {
+  "cells_checked": 34,
+  "cells_passed": 16,
+  "failures": [
+   "col 4 'TOTAL (States)': printed 11148, sum 9456",
+   "col 11 'TOTAL (States)': printed 37639, sum 33482",
+   "col 11 'TOTAL (UTs)': printed 1375, sum 197",
+   "col 12 'TOTAL (States)': printed 13586, sum 12373",
+   "col 12 'TOTAL (UTs)': printed 305, sum 56",
+   "col 13 'TOTAL (States)': printed 51225, sum 45855",
+   "col 13 'TOTAL (UTs)': printed 1680, sum 253",
+   "col 15 'TOTAL (States)': printed 18768, sum 17087"
+  ],
+  "other_totals_checked": 6,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

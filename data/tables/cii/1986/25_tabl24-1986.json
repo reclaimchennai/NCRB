@@ -1,0 +1,137 @@
+{
+ "table_id": "cii/1986/25_tabl24-1986",
+ "publication": "cii",
+ "year": 1986,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "25",
+ "title": "Persons Arrested under Local and Special Laws During 1986",
+ "listing_title": "Persons Arrested under Local and Special Laws During 1986",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl24-1986.pdf",
+ "source_file": "raw/cii/1986/table_content/tabl24-1986.pdf",
+ "source_sha256": "4edbcf90e25f9d4773d61a18af552e008dd109c7fab995d9d666b46bbf3dff5f",
+ "table_no": "24",
+ "pdf_title": "Persons Arrested Under Local And Special Laws During 1986",
+ "row_label": "SI. States/U.Ts/Cities No. / SI. States/U.Ts/Cities",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 88,
+ "n_cols": 12,
+ "n_cells": 545,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Arms Act Aud",
+   "header": [
+    "Arms Act Aud"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Narcotic Drugs Act",
+   "header": [
+    "Narcotic Drugs Act"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Excise Act Gamblino Act.",
+   "header": [
+    "Excise Act Gamblino Act."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Explosives | Prohibition Act",
+   "header": [
+    "Explosives",
+    "Prohibition Act"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Explosives | a Act",
+   "header": [
+    "Explosives",
+    "a Act"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Explosives | Traffic Act",
+   "header": [
+    "Explosives",
+    "Traffic Act"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Vehicles Act",
+   "header": [
+    "Vehicles Act"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "of Corruption Act",
+   "header": [
+    "of Corruption Act"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Customs Act",
+   "header": [
+    "Customs Act"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Indian Railways Act",
+   "header": [
+    "Indian Railways Act"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Other Offences",
+   "header": [
+    "Other Offences"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  "*indicates non-cognizable."
+ ],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 10362, sum 8475",
+   "col 7 'TOTAL(U.Ts.)': printed 1, sum 537247",
+   "col 8 'TOTAL(U.Ts.)': printed 33, sum 6680",
+   "col 11 'TOTAL(U.Ts.)': printed 4, sum 5",
+   "col 13 'TOTAL(U.Ts.)': printed 481, sum 496",
+   "col 14 'TOTAL(U.Ts.)': printed 15876, sum 911580",
+   "col 15 'TOTAL(U.Ts.)': printed 36070, sum 1.57852e+06"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

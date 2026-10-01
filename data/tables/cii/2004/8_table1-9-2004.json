@@ -1,0 +1,121 @@
+{
+ "table_id": "cii/2004/8_table1-9-2004",
+ "publication": "cii",
+ "year": 2004,
+ "listing": "table_content",
+ "topic": "Executive Summary",
+ "section": "Executive Summary",
+ "serial": "8",
+ "title": "Incidence of IPC Crimes Against Body",
+ "listing_title": "Incidence of IPC Crimes Against Body",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/Table1.9-2004.pdf",
+ "source_file": "raw/cii/2004/table_content/Table1.9-2004.pdf",
+ "source_sha256": "d09cae98d2f12cb636ca3dbadb0103f773f76dacb9e71fa33d8a99889d1c33d9",
+ "table_no": "1.9",
+ "pdf_title": "Incidence of IPC Crimes against Body during 2004",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 38,
+ "n_cols": 10,
+ "n_cells": 380,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Murder",
+   "header": [
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Attempt to Commit Murder",
+   "header": [
+    "Attempt to Commit Murder"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "C.H. Not Amounting to murder",
+   "header": [
+    "C.H. Not Amounting to murder"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Kidnapping & Abduction",
+   "header": [
+    "Kidnapping & Abduction"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Hurt",
+   "header": [
+    "Hurt"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total IPC Percentage | Causing Death by Negligence",
+   "header": [
+    "Total IPC Percentage",
+    "Causing Death by Negligence"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Total IPC Percentage | Crimes Against Body",
+   "header": [
+    "Total IPC Percentage",
+    "Crimes Against Body"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Total IPC Percentage | share",
+   "header": [
+    "Total IPC Percentage",
+    "share"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Total IPC Percentage | Crime Rate",
+   "header": [
+    "Total IPC Percentage",
+    "Crime Rate"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Percentage To Total IPC Cog. Crimes",
+   "header": [
+    "Percentage To Total IPC Cog. Crimes"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 5,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 2579, sum 33051",
+   "col 3 'TOTAL (ALL-INDIA)': printed 33608, sum 3136",
+   "col 4 'TOTAL (STATES)': printed 1908, sum 27328",
+   "col 4 'TOTAL (ALL-INDIA)': printed 27890, sum 2470",
+   "col 5 'TOTAL (STATES)': printed 163, sum 3829",
+   "col 5 'TOTAL (ALL-INDIA)': printed 3935, sum 269",
+   "col 6 'TOTAL (STATES)': printed 1526, sum 22037",
+   "col 6 'TOTAL (ALL-INDIA)': printed 23327, sum 2816"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

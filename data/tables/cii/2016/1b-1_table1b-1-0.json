@@ -1,0 +1,100 @@
+{
+ "table_id": "cii/2016/1b-1_table1b-1-0",
+ "publication": "cii",
+ "year": 2016,
+ "listing": "additional_table",
+ "topic": "Executive Summary (34 Metropolitan Cities)",
+ "section": "Chapter - 1B -- Executive Summary (34 Metropolitan Cities)",
+ "serial": "1B.1",
+ "title": "IPC Crimes (City-wise) Incidence & Crime Rate - 2014-2016",
+ "listing_title": "IPC Crimes (City-wise) Incidence & Crime Rate - 2014-2016",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/Table1B.1_0.pdf",
+ "source_file": "raw/cii/2016/additional_table/Table1B.1_0.pdf",
+ "source_sha256": "19026f8bf4e35c46884aa52c5f78a73aee28c71c9d2330ae65500c31052686b7",
+ "table_no": "1B.1",
+ "pdf_title": "IPC Crimes in Metropolitan Cities - 2014-2016",
+ "row_label": "S. No. / City",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 8,
+ "n_cells": 278,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "2014",
+   "header": [
+    "2014"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2015",
+   "header": [
+    "2015"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2016",
+   "header": [
+    "2016"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage Share of City (2016)",
+   "header": [
+    "Percentage Share of City (2016)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rank Based on Incidence/ % share (2016)",
+   "header": [
+    "Rank Based on Incidence/ % share (2016)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Actual Population (In Lakhs)+",
+   "header": [
+    "Actual Population (In Lakhs)+"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Rate of Cognizable Crimes (IPC)++",
+   "header": [
+    "Rate of Cognizable Crimes (IPC)++"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Rank Based on Crime Rate (2016)",
+   "header": [
+    "Rank Based on Crime Rate (2016)"
+   ]
+  }
+ ],
+ "notes": [
+  "Note i) + Population Source: Registrar General of India Actual Population Census 2011. TABLE 1B.1 - PAGE 1 OF 1",
+  "ii) ++ Crime Rate is calculated as Crime per one lakh of population.",
+  "iii) 34 Metropolitan Cities which have population less than 2 Million have been covered.",
+  "(% Share Calculated on Total of 34 Metropolitan Cities)",
+  "v) Rank is based on Incidence (Col.7) as well as on the Crime Rate (Col.10). Both should be considered simultaneously."
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

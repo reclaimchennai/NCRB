@@ -1,0 +1,108 @@
+{
+ "table_id": "cii/2019/3_cii-2019volume3_t19c-2",
+ "publication": "cii",
+ "year": 2019,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 2019",
+ "serial": "3",
+ "title": "Recidivism amongst Persons Arrested under SLL - 2019",
+ "listing_title": "Volume-III",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/CII-2019Volume3.pdf",
+ "source_file": "raw/cii/2019/year_wise/CII-2019Volume3.pdf",
+ "source_sha256": "48d38070fcb81ba008a41c9279352d81ba478ff11dca34ad45a22cf4ecb7b422",
+ "table_no": "19C.2",
+ "pdf_title": "Recidivism amongst Persons Arrested under SLL - 2019",
+ "row_label": "S. No / State/UT",
+ "pages": [
+  386
+ ],
+ "n_rows": 39,
+ "n_cols": 8,
+ "n_cells": 312,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Persons Arrested",
+   "header": [
+    "Persons Arrested"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Juveniles | Apprehend ed for First Time",
+   "header": [
+    "Juveniles",
+    "Apprehend ed for First Time"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Juveniles | Apprehend Apprehend | ed but Not Convicted in Past",
+   "header": [
+    "Juveniles",
+    "Apprehend Apprehend",
+    "ed but Not Convicted in Past"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Juveniles | Apprehend Apprehend | ed were Convicted in Past",
+   "header": [
+    "Juveniles",
+    "Apprehend Apprehend",
+    "ed were Convicted in Past"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Adults | Persons Arrested for First Time",
+   "header": [
+    "Adults",
+    "Persons Arrested for First Time"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Adults | Persons Arrested but Not Convicted in Past",
+   "header": [
+    "Adults",
+    "Persons Arrested but Not Convicted in Past"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Adults | Persons Arrested were Convicted in Past",
+   "header": [
+    "Adults",
+    "Persons Arrested were Convicted in Past"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "% of Recidivism ((Col. 5+6+8+9)/ 3) * 100",
+   "header": [
+    "% of Recidivism ((Col. 5+6+8+9)/ 3) * 100"
+   ]
+  }
+ ],
+ "notes": [
+  "●As per data provided by States/UTs TABLE 19C.1 Page 2 of 2",
+  "●Due to non-receipt of data from West Bengal in time for 2019, Data furnished for 2018 has been used"
+ ],
+ "checks": {
+  "cells_checked": 21,
+  "cells_passed": 19,
+  "failures": [
+   "col 4 'TOTAL UT(S)': printed 665, sum 141",
+   "col 7 'TOTAL UT(S)': printed 25739, sum 26263"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

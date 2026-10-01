@@ -1,0 +1,210 @@
+{
+ "table_id": "adsi/1991/3_accidental-deaths-1991_t5",
+ "publication": "adsi",
+ "year": 1991,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1991",
+ "serial": "3",
+ "title": "of Accidental Deaths by Sex and Age-Groups during 1991",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1991.pdf",
+ "source_file": "raw/adsi/1991/year_wise/accidental-deaths-1991.pdf",
+ "source_sha256": "296689a95a729073182255131f384f4c87d19a27196946716c79d15f348c3a09",
+ "table_no": "5",
+ "pdf_title": "of Accidental Deaths by Sex and Age-Groups during 1991",
+ "row_label": "S}. No. / State/UT/City",
+ "pages": [
+  15,
+  16,
+  17
+ ],
+ "n_rows": 70,
+ "n_cols": 20,
+ "n_cells": 938,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Age | Male (3)",
+   "header": [
+    "Age",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Age | Below Female",
+   "header": [
+    "Age",
+    "Below Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Age | {State, UT & City-wise) 18 Years Total",
+   "header": [
+    "Age",
+    "{State, UT & City-wise) 18 Years Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Age | Percentage to Total Deaths",
+   "header": [
+    "Age",
+    "Percentage to Total Deaths"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Age | Male (7)",
+   "header": [
+    "Age",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Age | 18 - 30 Years* | Female",
+   "header": [
+    "Age",
+    "18 - 30 Years*",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Age | 18 - 30 Years* | Total",
+   "header": [
+    "Age",
+    "18 - 30 Years*",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Age | Porcomage to Total Deaths",
+   "header": [
+    "Age",
+    "Porcomage to Total Deaths"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - | i 2 -",
+   "header": [
+    "ACCIDENTAL DEATHS & SUICIDES IN INDIA -",
+    "i 2 -"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - | TABLE (Continued..) - 5 30 - 50 Years Male (11)",
+   "header": [
+    "ACCIDENTAL DEATHS & SUICIDES IN INDIA -",
+    "TABLE (Continued..) - 5 30 - 50 Years Male (11)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "19917 Female Percentage to Total Deaths oa",
+   "header": [
+    "19917 Female Percentage to Total Deaths oa"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Total [oa",
+   "header": [
+    "Total [oa"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "60 Years and Above | Male (14)",
+   "header": [
+    "60 Years and Above",
+    "Male (14)"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "60 Years and Above | Female ae (17)",
+   "header": [
+    "60 Years and Above",
+    "Female ae (17)"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "N.C.R.B. 16 - Total Percentage to Total Deaths (16) aa",
+   "header": [
+    "N.C.R.B. 16 - Total Percentage to Total Deaths (16) aa"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Total Deaths | - Male -",
+   "header": [
+    "Total Deaths",
+    "- Male -"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Total Deaths | 7 Female ee jt.",
+   "header": [
+    "Total Deaths",
+    "7 Female ee jt."
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Total Deaths | Total",
+   "header": [
+    "Total Deaths",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Total Deaths | Percentage of Male",
+   "header": [
+    "Total Deaths",
+    "Percentage of Male"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Total Deaths | Percentage of Female -",
+   "header": [
+    "Total Deaths",
+    "Percentage of Female -"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 18 -30 Years means 18 years and above but below 30 years of age etc."
+ ],
+ "checks": {
+  "cells_checked": 23,
+  "cells_passed": 14,
+  "failures": [
+   "col 10001 'TOTAL (States)': printed 4.53315e+08, sum 1.75866e+08",
+   "col 10002 'TOTAL (States)': printed 58920, sum 34199",
+   "col 10004 'TOTAL (States)': printed 20104, sum 11263",
+   "col 10005 'TOTAL (States)': printed 7366, sum 4194",
+   "col 10006 'TOTAL (States)': printed 27470, sum 15721",
+   "col 19 'TOTAL (States)': printed 124170, sum 110770",
+   "col 19 'TOTAL (UTs)': printed 4972, sum 4873",
+   "col 20 'TOTAL (States)': printed 57614, sum 53339"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 3,
+ "warnings": []
+}

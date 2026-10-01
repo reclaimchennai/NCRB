@@ -1,0 +1,73 @@
+{
+ "table_id": "adsi/1999/7_accidental-deaths-1999_t1-9",
+ "publication": "adsi",
+ "year": 1999,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1999",
+ "serial": "7",
+ "title": "Incidence and Rate of Deaths Due to Road Accidents During 1999",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1999.pdf",
+ "source_file": "raw/adsi/1999/year_wise/accidental-deaths-1999.pdf",
+ "source_sha256": "f8ba1aa6922ce93abe828eea3124b9a25f3c544c0b82bdeb3004cbe6db64455c",
+ "table_no": "1.9",
+ "pdf_title": "Incidence and Rate of Deaths Due to Road Accidents During 1999",
+ "row_label": "1 Ne (2",
+ "pages": [
+  12,
+  13
+ ],
+ "n_rows": 59,
+ "n_cols": 4,
+ "n_cells": 206,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "(Stale, No. 10. of cases cases of fe)",
+   "header": [
+    "(Stale, No. 10. of cases cases of fe)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "UT & Reghtered Vehicies as on 31.03.98 (in 000\") @",
+   "header": [
+    "UT & Reghtered Vehicies as on 31.03.98 (in 000\") @"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "\"due ue to Accidents in 1999 (6",
+   "header": [
+    "\"due ue to Accidents in 1999 (6"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Read cases (CoLS/COL3) Deaths (Col) Col.4) *100",
+   "header": [
+    "Read cases (CoLS/COL3) Deaths (Col) Col.4) *100"
+   ]
+  }
+ ],
+ "notes": [
+  "Source For Col.4, ‘Motor Transport Statistics of India-1998’ report of Transport Research Wing, Ministry of Surface Transport, New Delhi.",
+  "Source For Columns 2, ‘Motor Tra#=22=% of India-1998’ report of Transport Research Wing, Ministry of Surface Transport, New Delhi.",
+  "Note * In thancands"
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 1,
+  "failures": [
+   "col 2 'TOTAL (Cities)': printed 48735, sum 32635"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

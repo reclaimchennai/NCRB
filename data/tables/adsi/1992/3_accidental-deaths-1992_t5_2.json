@@ -1,0 +1,79 @@
+{
+ "table_id": "adsi/1992/3_accidental-deaths-1992_t5_2",
+ "publication": "adsi",
+ "year": 1992,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1992",
+ "serial": "3",
+ "title": "(Coniinued..)",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1992.pdf",
+ "source_file": "raw/adsi/1992/year_wise/accidental-deaths-1992.pdf",
+ "source_sha256": "438d373cb515809dfb05c6a5b51014e3e668719cbd1596e8d1d8051d583e280c",
+ "table_no": "5",
+ "pdf_title": "(Coniinued..)",
+ "row_label": "St. No. / State/UT",
+ "pages": [
+  25
+ ],
+ "n_rows": 35,
+ "n_cols": 5,
+ "n_cells": 175,
+ "columns": [
+  {
+   "col_no": "19",
+   "name": "Total Deaths | Male",
+   "header": [
+    "Total Deaths",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Total Deaths | Female",
+   "header": [
+    "Total Deaths",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Total Deaths | Total",
+   "header": [
+    "Total Deaths",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Total Deaths | Percentage of Male",
+   "header": [
+    "Total Deaths",
+    "Percentage of Male"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Percentage of Female",
+   "header": [
+    "Percentage of Female"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 19 'TOTAL (States)': printed 129403, sum 128897"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

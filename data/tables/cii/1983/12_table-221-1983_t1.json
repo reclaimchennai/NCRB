@@ -1,0 +1,104 @@
+{
+ "table_id": "cii/1983/12_table-221-1983_t1",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "12",
+ "title": "TaBLe 22 under IPO Crimes by Sex during 1983",
+ "listing_title": "Persons Arrested under IPC Crimes by Sex During 1983",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-221-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-221-1983.pdf",
+ "source_sha256": "8bd70f86db09e3798182fc6907e2008b82f182241c0780745c8aa4d4d3a50995",
+ "table_no": "",
+ "pdf_title": "TaBLe 22 under IPO Crimes by Sex during 1983",
+ "row_label": "Sl. States/U.Ts. /Cities No. STATES",
+ "pages": [
+  1
+ ],
+ "n_rows": 46,
+ "n_cols": 8,
+ "n_cells": 343,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "“Male",
+   "header": [
+    "“Male"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Murder",
+   "header": [
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Rape | Male",
+   "header": [
+    "Rape",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Rape | not amannting to murder",
+   "header": [
+    "Rape",
+    "not amannting to murder"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rape | © ‘Female © Male",
+   "header": [
+    "Rape",
+    "© ‘Female © Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rape | -",
+   "header": [
+    "Rape",
+    "-"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Rape | Kidnanning and Abduetion | Female",
+   "header": [
+    "Rape",
+    "Kidnanning and Abduetion",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Rape | Kidnanning and Abduetion | “ Malo",
+   "header": [
+    "Rape",
+    "Kidnanning and Abduetion",
+    "“ Malo"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 1,
+  "failures": [
+   "col 6 'TOTAL (U.Ts.)': printed 180, sum 179"
+  ],
+  "other_totals_checked": 9,
+  "other_totals_passed": 7
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

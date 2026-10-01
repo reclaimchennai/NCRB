@@ -1,0 +1,120 @@
+{
+ "table_id": "cii/1988/67_table-67-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "67",
+ "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1988 (Women only)",
+ "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1988 (Women only)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-67-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-67-1988-2.pdf",
+ "source_sha256": "14d9ad3bc9b319453e4d0eac2ad602bc4eaeb608bf2c593768e3e38f3ecdd673",
+ "table_no": "67",
+ "pdf_title": "",
+ "row_label": "AND ne ec STATE/UT/CITY SL. NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 10,
+ "n_cells": 376,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "ACTUAL SANC-~- TIONED",
+   "header": [
+    "ACTUAL SANC-~- TIONED"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "OF (WOMEN DG/1G/DIG/SP ACTUAL",
+   "header": [
+    "OF (WOMEN DG/1G/DIG/SP ACTUAL"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ARMED POLICE ONLY) ASP & SANC - TIONED",
+   "header": [
+    "ARMED POLICE ONLY) ASP & SANC - TIONED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "AS ON DSP ACTUAL",
+   "header": [
+    "AS ON DSP ACTUAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "31.12.1988 SANCTIONED",
+   "header": [
+    "31.12.1988 SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "SI ACTUAL",
+   "header": [
+    "SI ACTUAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "& ae SANCTIONED",
+   "header": [
+    "& ae SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS ACTUAL",
+   "header": [
+    "OFFICERS ACTUAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "BELOW SANCTIONED",
+   "header": [
+    "BELOW SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL ACTUAL",
+   "header": [
+    "GRAND TOTAL ACTUAL"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 1. 1987 data was repeated for J&K and 1986 data was repeated for",
+  "West Bengal. Seperate data for women police was not collected",
+  "then."
+ ],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 2,
+  "failures": [
+   "col 2 'TOTAL (STATES:': printed 3, sum 6",
+   "col 2 'TOTAL (UTs)': printed 0, sum 9",
+   "col 4 'TOTAL (STATES:': printed 13, sum 18",
+   "col 5 'TOTAL (STATES:': printed 1, sum 7",
+   "col 8 'TOTAL (UTs)': printed 16, sum 18",
+   "col 10 'TOTAL (STATES:': printed 10739, sum 10989",
+   "col 11 'TOTAL (STATES:': printed 5318, sum 5330"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

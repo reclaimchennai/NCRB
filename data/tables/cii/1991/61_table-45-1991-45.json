@@ -1,0 +1,93 @@
+{
+ "table_id": "cii/1991/61_table-45-1991-45",
+ "publication": "cii",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "61",
+ "title": "Juveniles Apprehended under Different LSL Crimes by Age Group & Sex During 1991 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Apprehended under Different LSL Crimes by Age Group & Sex During 1991 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-45-1991-45.pdf",
+ "source_file": "raw/cii/1991/table_content/table-45-1991-45.pdf",
+ "source_sha256": "98a936780f3644fed6d96b0ac6503e85c9c1ddffecda400d8a8d3e3c3d8b7b2d",
+ "table_no": "",
+ "pdf_title": "TARLE-45 APPREHENDED UNDER LSL CRIMES BT AGE GROUP EB SEX DURING 1991",
+ "row_label": "wo. / 7 sors",
+ "pages": [
+  1
+ ],
+ "n_rows": 46,
+ "n_cols": 7,
+ "n_cells": 261,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(STATE, 12 TEARS",
+   "header": [
+    "(STATE, 12 TEARS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "UT BOTS",
+   "header": [
+    "UT BOTS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "& 12-16 YEARS GIRLS",
+   "header": [
+    "& 12-16 YEARS GIRLS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "16-18 YEARS ORLY",
+   "header": [
+    "16-18 YEARS ORLY"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "OWERALL Bors",
+   "header": [
+    "OWERALL Bors"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "AGE GIRLS",
+   "header": [
+    "AGE GIRLS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "TOTAL (mors 6GIRLE)",
+   "header": [
+    "TOTAL (mors 6GIRLE)"
+   ]
+  }
+ ],
+ "notes": [
+  "64 PUNE a a a o o 13] o 0",
+  "Hote: 7-12 years meana 7 yeara and above but below 12 years of age etc."
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 1,
+  "failures": [
+   "col 3 'TOTAL (UTS)': printed 3, sum 315",
+   "col 9 'TOTAL (UTS)': printed 49, sum 51"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

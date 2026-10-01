@@ -1,0 +1,206 @@
+{
+ "table_id": "adsi/1990/3_accidental-deaths-1990_t5",
+ "publication": "adsi",
+ "year": 1990,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1990",
+ "serial": "3",
+ "title": "Distribution Of Accidental Deaths By Sex And Age-Groups",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1990.pdf",
+ "source_file": "raw/adsi/1990/year_wise/accidental-deaths-1990.pdf",
+ "source_sha256": "531e5a941225967411ce6d7de699c435aa2e807290544afb112873d44f469711",
+ "table_no": "5",
+ "pdf_title": "Distribution Of Accidental Deaths By Sex And Age-Groups",
+ "row_label": "Sl. No. / State/UT/City",
+ "pages": [
+  13,
+  14,
+  15
+ ],
+ "n_rows": 53,
+ "n_cols": 21,
+ "n_cells": 987,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Male (3)",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(State, Below Female",
+   "header": [
+    "(State, Below Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "During UT 18 Total To",
+   "header": [
+    "During UT 18 Total To"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1990 & Years - Percentage Total Deaths",
+   "header": [
+    "1990 & Years - Percentage Total Deaths"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "City-wise) Male",
+   "header": [
+    "City-wise) Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "18 Female",
+   "header": [
+    "18 Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "- Years* Total To",
+   "header": [
+    "- Years* Total To"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "30 Percentage Total Deaths",
+   "header": [
+    "30 Percentage Total Deaths"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Male (11)",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "30 - Female",
+   "header": [
+    "30 - Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "50 Total",
+   "header": [
+    "50 Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Years Percentage To Total Deaths",
+   "header": [
+    "Years Percentage To Total Deaths"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "50 Years And Above | Male",
+   "header": [
+    "50 Years And Above",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "50 Years And Above | Female",
+   "header": [
+    "50 Years And Above",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "50 Years And Above | Total",
+   "header": [
+    "50 Years And Above",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "50 Years And Above | Percentage To Total Deaths",
+   "header": [
+    "50 Years And Above",
+    "Percentage To Total Deaths"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Total | SSS Male",
+   "header": [
+    "Total",
+    "SSS Male"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Total | asics GS Female",
+   "header": [
+    "Total",
+    "asics GS Female"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Total | Deaths Ss SS Total",
+   "header": [
+    "Total",
+    "Deaths Ss SS Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Total | Se Percentage of",
+   "header": [
+    "Total",
+    "Se Percentage of"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "SS Sis Sie Percentage Male of Female",
+   "header": [
+    "SS Sis Sie Percentage Male of Female"
+   ]
+  }
+ ],
+ "notes": [
+  "* 18 - 30 years means 18 years and above but below 30 years of age etc."
+ ],
+ "checks": {
+  "cells_checked": 43,
+  "cells_passed": 29,
+  "failures": [
+   "col 11 'TOTAL (States)': printed 39529, sum 39508",
+   "col 11 'TOTAL (UTs)': printed 1572, sum 253",
+   "col 12 'TOTAL (States)': printed 13776, sum 13771",
+   "col 13 'TOTAL (States)': printed 53305, sum 53279",
+   "col 13 'TOTAL (UTs)': printed 1885, sum 313",
+   "col 15 'TOTAL (States)': printed 17628, sum 17619",
+   "col 15 'TOTAL (UTs)': printed 740, sum 185",
+   "col 16 'TOTAL (States)': printed 6876, sum 6872"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

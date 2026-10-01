@@ -1,0 +1,78 @@
+{
+ "table_id": "cii/1987/25_table-59-1987",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "25",
+ "title": "Table Presenting Strength of Armed Police as on 31.12.1987",
+ "listing_title": "Table Presenting Strength of Armed Police as on 31.12.1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_59-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_59-1987.pdf",
+ "source_sha256": "b91194bb3482132c9b97b2495a93c1abc314bc95128f3a143b1f13485305976a",
+ "table_no": "",
+ "pdf_title": "TABLE - $9 Table Presenting Strength Of Armed Police As On 31-12-1987",
+ "row_label": "sl STATES/U. Ts/ NO ql)",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 5,
+ "n_cells": 240,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NUMBER OF CITIES /DIG",
+   "header": [
+    "NUMBER OF CITIES /DIG"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER DG/IG OF SP",
+   "header": [
+    "NUMBER DG/IG OF SP"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "OF ASP/ DSP",
+   "header": [
+    "OF ASP/ DSP"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF insrevciun 78.1.",
+   "header": [
+    "NUMBER OF insrevciun 78.1."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OFFICERS BELOW S.1.",
+   "header": [
+    "NUMBER OFFICERS BELOW S.1."
+   ]
+  }
+ ],
+ "notes": [
+  "NOTE: 1) * 1986 data repeated for Maharachtra,",
+  "2) @ 1986 data repeated for Bombay City."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 3,
+  "failures": [
+   "col 4 'TOTAL (States)': printed 1168, sum 1108"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

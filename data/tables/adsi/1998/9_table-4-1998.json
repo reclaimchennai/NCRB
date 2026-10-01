@@ -1,0 +1,231 @@
+{
+ "table_id": "adsi/1998/9_table-4-1998",
+ "publication": "adsi",
+ "year": 1998,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "9",
+ "title": "Distribution of Accidental Deaths (Natural causes & Un-natural causes) by Sex & Age Group during 1998 (State, UT & City-wise)",
+ "listing_title": "Distribution of Accidental Deaths (Natural causes & Un-natural causes) by Sex & Age Group during 1998 (State, UT & City-wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-4_1998.pdf",
+ "source_file": "raw/adsi/1998/table_content/table-4_1998.pdf",
+ "source_sha256": "e7528840b33e247d99a5eb6627220aa5562355ac62ec6189b6a7a6c83c843e06",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. No. / State/UT/City",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 114,
+ "n_cols": 24,
+ "n_cells": 1404,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Upto 14 Years | Male",
+   "header": [
+    "Upto 14 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Upto 14 Years | Female",
+   "header": [
+    "Upto 14 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Upto 14 Years | Total",
+   "header": [
+    "Upto 14 Years",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "15-29 Years | Male",
+   "header": [
+    "15-29 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "15-29 Years | Female",
+   "header": [
+    "15-29 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "15-29 Years | Total",
+   "header": [
+    "15-29 Years",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "30-44 Years | Male",
+   "header": [
+    "30-44 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "30-44 Years | Female",
+   "header": [
+    "30-44 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "30-44 Years | Total",
+   "header": [
+    "30-44 Years",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "col_12",
+   "header": []
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
+  },
+  {
+   "col_no": "14",
+   "name": "col_14",
+   "header": []
+  },
+  {
+   "col_no": "15",
+   "name": "45-59 Years | Male",
+   "header": [
+    "45-59 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "45-59 Years | Female",
+   "header": [
+    "45-59 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "45-59 Years | Total",
+   "header": [
+    "45-59 Years",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "45-59 Years | % to Total (Col.17/Col.25) *100",
+   "header": [
+    "45-59 Years",
+    "% to Total (Col.17/Col.25) *100"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "60 Years & above | Male",
+   "header": [
+    "60 Years & above",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "60 Years & above | Female",
+   "header": [
+    "60 Years & above",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "60 Years & above | Total",
+   "header": [
+    "60 Years & above",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "60 Years & above | % to Total (Col.21/Col.25) *100",
+   "header": [
+    "60 Years & above",
+    "% to Total (Col.21/Col.25) *100"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Total | Male",
+   "header": [
+    "Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "Total | Female",
+   "header": [
+    "Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "Total | Total",
+   "header": [
+    "Total",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "Total | % to Total (Col.23/Col.25) *100",
+   "header": [
+    "Total",
+    "% to Total (Col.23/Col.25) *100"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 27,
+  "cells_passed": 17,
+  "failures": [
+   "col 3 'total (UTs)': printed 290, sum 14576",
+   "col 4 'total (UTs)': printed 153, sum 7911",
+   "col 5 'total (UTs)': printed 443, sum 22487",
+   "col 7 'total (UTs)': printed 1861, sum 50451",
+   "col 7 'total (Cities)': printed 6455, sum 6445",
+   "col 8 'total (UTs)': printed 652, sum 26271",
+   "col 9 'total (UTs)': printed 2513, sum 76722",
+   "col 11 'total (UTs)': printed 2257, sum 62757"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

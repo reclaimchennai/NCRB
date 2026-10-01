@@ -1,0 +1,99 @@
+{
+ "table_id": "adsi/2001/6_suicidal-part-2001_t2-c",
+ "publication": "adsi",
+ "year": 2001,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2001",
+ "serial": "6",
+ "title": "Distribution of Family Suicides During 2001",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicidal-part-2001.pdf",
+ "source_file": "raw/adsi/2001/year_wise/suicidal-part-2001.pdf",
+ "source_sha256": "5abf613ff322a7dd9fe812120b2bc1055cdeaa7999c08a52c856bd9e448adf4b",
+ "table_no": "2(C)",
+ "pdf_title": "Distribution of Family Suicides During 2001",
+ "row_label": "State/UT",
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "n_rows": 73,
+ "n_cols": 7,
+ "n_cells": 438,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "No. Of Cases",
+   "header": [
+    "No. Of Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Adults | Male",
+   "header": [
+    "Adults",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Adults | Female",
+   "header": [
+    "Adults",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Minor | Male",
+   "header": [
+    "Minor",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Minor | Female",
+   "header": [
+    "Minor",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  }
+ ],
+ "notes": [
+  "Note : – (Dash) Stand for Not Available"
+ ],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 19,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 59, sum 60",
+   "col 6 'TOTAL (STATES)': printed 94, sum 92",
+   "col 7 'TOTAL (STATES)': printed 478, sum 476",
+   "col 8 'TOTAL (CITIES)': printed 50, sum 54",
+   "col 2 'TOTAL (STATES)': printed 128, sum 127"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 0,
+ "warnings": []
+}

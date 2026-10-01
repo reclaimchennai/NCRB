@@ -1,0 +1,213 @@
+{
+ "table_id": "cii/1997/54_table-34-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "54",
+ "title": "Incidence of Crimes Committed Against Scheduled Tribes During 1997",
+ "listing_title": "Incidence of Crimes Committed Against Scheduled Tribes During 1997",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-34-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-34-1996-crime-survey.pdf",
+ "source_sha256": "fa8f2d339f210ab66bd54097d7ac910e4ad26a10e12725f9fd4636b3d92f3803",
+ "table_no": "34",
+ "pdf_title": "INCIDENCE OF CRIMES COMMITTED AGAINST SCHEDULED TRIBES DURING 1897",
+ "row_label": "POPULATION",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 47,
+ "n_cols": 22,
+ "n_cells": 759,
+ "columns": [
+  {
+   "col_no": "6",
+   "name": "HURT | R 3",
+   "header": [
+    "HURT",
+    "R 3"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "HURT | @",
+   "header": [
+    "HURT",
+    "@"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "HURT | R &",
+   "header": [
+    "HURT",
+    "R &"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "HURT | P",
+   "header": [
+    "HURT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "HURT | \\ Mo",
+   "header": [
+    "HURT",
+    "\\ Mo"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "RAPE R",
+   "header": [
+    "RAPE R"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "P",
+   "header": [
+    "P"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
+  },
+  {
+   "col_no": "14",
+   "name": "R",
+   "header": [
+    "R"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "p",
+   "header": [
+    "p"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "DACOITY | -",
+   "header": [
+    "DACOITY",
+    "-"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "DACOITY | R",
+   "header": [
+    "DACOITY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "DACOITY | P",
+   "header": [
+    "DACOITY",
+    "P"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "col_19",
+   "header": []
+  },
+  {
+   "col_no": "20",
+   "name": "ROBBERY R",
+   "header": [
+    "ROBBERY R"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "ARSON | P (21)",
+   "header": [
+    "ARSON",
+    "P"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "ARSON | \\",
+   "header": [
+    "ARSON",
+    "\\"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "ARSON | R",
+   "header": [
+    "ARSON",
+    "R"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "ARSON | P (24)",
+   "header": [
+    "ARSON",
+    "P"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "PROT. OF CIVIL R.ACT | \\",
+   "header": [
+    "PROT. OF CIVIL R.ACT",
+    "\\"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "PROT. OF CIVIL R.ACT | R",
+   "header": [
+    "PROT. OF CIVIL R.ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "PROT. OF CIVIL R.ACT | P",
+   "header": [
+    "PROT. OF CIVIL R.ACT",
+    "P"
+   ]
+  }
+ ],
+ "notes": [
+  "SOURCE: “MONTHLY CRIME STATISTICS’.",
+  "1161 NCRB/99—14A"
+ ],
+ "checks": {
+  "cells_checked": 14,
+  "cells_passed": 9,
+  "failures": [
+   "col 7 '‘TOTAL (STATES)': printed 706, sum 1540",
+   "col 10 'TOTAL (ALL-INDIA)': printed 3158, sum 315",
+   "col 16 '‘TOTAL (STATES)': printed 3, sum 2",
+   "col 19 '‘TOTAL (STATES)': printed 8, sum 7",
+   "col 25 '‘TOTAL (STATES)': printed 88, sum 82"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

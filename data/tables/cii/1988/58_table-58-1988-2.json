@@ -1,0 +1,114 @@
+{
+ "table_id": "cii/1988/58_table-58-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "58",
+ "title": "Recidivism amongst Persons Arrested under IPC Crimes During 1988 (State, UT & City-wise)",
+ "listing_title": "Recidivism amongst Persons Arrested under IPC Crimes During 1988 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-58-1988-2.pdf",
+ "source_sha256": "611a975c2d4ae71aa4075d7d4571a4beb2ceeb3f6676a8b92a4c151d70d9d8a9",
+ "table_no": "58",
+ "pdf_title": "RECIDIVISM AMONGST PERSONS a=re:xte1: UNDER IPC CRIMES DURING 1988 (STATE, UT & CITY-WISE)",
+ "row_label": "STATE/UT/CITY SL No",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 10,
+ "n_cells": 473,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "TOTAL NO. PERSONS",
+   "header": [
+    "TOTAL NO. PERSONS"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "NEW OF NO.",
+   "header": [
+    "NEW OF NO."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE TO TOTAL",
+   "header": [
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "OLD ONCE NO.",
+   "header": [
+    "OLD ONCE NO."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "urrenvens TO",
+   "header": [
+    "urrenvens TO"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "CUNVICIED TWICE NO. TOTAL",
+   "header": [
+    "CUNVICIED TWICE NO. TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "IN PERCENTAG TO",
+   "header": [
+    "IN PERCENTAG TO"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "THE TRRICE NO. TOTAL",
+   "header": [
+    "THE TRRICE NO. TOTAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PAST OR TO",
+   "header": [
+    "PAST OR TO"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PERCENTAGE MORE RECIDIOF VISTS((7)+ (11)) TOTAL",
+   "header": [
+    "PERCENTAGE MORE RECIDIOF VISTS((7)+ (11)) TOTAL"
+   ]
+  }
+ ],
+ "notes": [
+  "* Due to non-availability of data. all the persons arrested are taken as new offenders",
+  "24—610 NCRB/90."
+ ],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 8,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 2.38789e+06, sum 2.37816e+06",
+   "col 3 'TOTAL (STATES)': printed 2.21762e+06, sum 2.21762e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,73 @@
+{
+ "table_id": "adsi/1993/3_accidental-deaths-1993_t2",
+ "publication": "adsi",
+ "year": 1993,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1993",
+ "serial": "3",
+ "title": "inciaence And Rate Of Accidental Deaths During 1993",
+ "listing_title": "Accidents & Suicides Clock",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1993.pdf",
+ "source_file": "raw/adsi/1993/year_wise/accidental-deaths-1993.pdf",
+ "source_sha256": "79958267bb3ddbd8d4a110054b8e148483e5c03e02710eb82811b2b96879a31b",
+ "table_no": "2",
+ "pdf_title": "inciaence And Rate Of Accidental Deaths During 1993",
+ "row_label": "(State & UT-wise) SI. (Noo / (State & UT-wise) State/UT es",
+ "pages": [
+  7,
+  8
+ ],
+ "n_rows": 58,
+ "n_cols": 4,
+ "n_cells": 229,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(State & UT-wise) | Number of «== Deaths ee",
+   "header": [
+    "(State & UT-wise)",
+    "Number of «== Deaths ee"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(State & UT-wise) | Percentage Deaths si",
+   "header": [
+    "(State & UT-wise)",
+    "Percentage Deaths si"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(State & UT-wise) | Estimated",
+   "header": [
+    "(State & UT-wise)",
+    "Estimated"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(State & UT-wise) | Rate (Accidental «= Mid-Year - Deaths Per Lakh of 2",
+   "header": [
+    "(State & UT-wise)",
+    "Rate (Accidental «= Mid-Year - Deaths Per Lakh of 2"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 6252, sum 192357"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

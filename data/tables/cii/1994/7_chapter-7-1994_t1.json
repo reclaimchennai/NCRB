@@ -1,0 +1,94 @@
+{
+ "table_id": "cii/1994/7_chapter-7-1994_t1",
+ "publication": "cii",
+ "year": 1994,
+ "listing": "table_chapter",
+ "topic": "",
+ "section": "",
+ "serial": "7",
+ "title": "Sex Ratio (Females per 1,000 Males) During 1951 - 1991 And Percentage Change in 1991 Over 1951",
+ "listing_title": "Crime Against Women",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-7-1994.pdf",
+ "source_file": "raw/cii/1994/table_chapter/chapter-7-1994.pdf",
+ "source_sha256": "9b5b7953bdece3079480b98866c98ad248a872f430c5adf31e21016219a70334",
+ "table_no": "",
+ "pdf_title": "Sex Ratio (Females per 1,000 Males) During 1951 - 1991 And Percentage Change in 1991 Over 1951",
+ "row_label": "(State & UT-Wise) SI. No. / (State & UT-Wise) State/UT",
+ "pages": [
+  3
+ ],
+ "n_rows": 34,
+ "n_cols": 6,
+ "n_cells": 199,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(State & UT-Wise) | 1951",
+   "header": [
+    "(State & UT-Wise)",
+    "1951"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(State & UT-Wise) | 1961",
+   "header": [
+    "(State & UT-Wise)",
+    "1961"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(State & UT-Wise) | 1971",
+   "header": [
+    "(State & UT-Wise)",
+    "1971"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(State & UT-Wise) | 1981",
+   "header": [
+    "(State & UT-Wise)",
+    "1981"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(State & UT-Wise) | 1991",
+   "header": [
+    "(State & UT-Wise)",
+    "1991"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "(State & UT-Wise) | - Percentage change in 1991 over",
+   "header": [
+    "(State & UT-Wise)",
+    "- Percentage change in 1991 over"
+   ]
+  }
+ ],
+ "notes": [
+  "7.3.1 The crime-head-wise incidence, reported percentage variation in 1994 over 1990 and 1993 is",
+  "during the years 1990 to 1994 alongwith the presented below."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'All-India': printed 94, sum 29789",
+   "col 5 'All-India': printed 930, sum 29474",
+   "col 6 'All-India': printed 934, sum 29591",
+   "col 7 'All-India': printed 927, sum 29545"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

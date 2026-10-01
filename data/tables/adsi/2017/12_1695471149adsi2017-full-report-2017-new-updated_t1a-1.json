@@ -1,0 +1,151 @@
+{
+ "table_id": "adsi/2017/12_1695471149adsi2017-full-report-2017-new-updated_t1a-1",
+ "publication": "adsi",
+ "year": 2017,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2017",
+ "serial": "12",
+ "title": "Cases Reported and Percentage Change in Traffic Accidents during 2017 Over 2016 (State/UT-wise)",
+ "listing_title": "ADSI 2017 – Full Publication",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1695471149ADSI2017-FULL-REPORT-2017-new-updated.pdf",
+ "source_file": "raw/adsi/2017/year_wise/1695471149ADSI2017-FULL-REPORT-2017-new-updated.pdf",
+ "source_sha256": "4f864e3b650fa6ff58ead7c0b3fa78255277cf96ef63900d825d3747b8b30d10",
+ "table_no": "1A.1",
+ "pdf_title": "Cases Reported and Percentage Change in Traffic Accidents during 2017 Over 2016 (State/UT-wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  152,
+  153
+ ],
+ "n_rows": 93,
+ "n_cols": 13,
+ "n_cells": 1181,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Road Accidents | 2016",
+   "header": [
+    "Road Accidents",
+    "2016"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Road Accidents | 2017",
+   "header": [
+    "Road Accidents",
+    "2017"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Road Accidents | % Var.",
+   "header": [
+    "Road Accidents",
+    "% Var."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Railway Accidents | 2016",
+   "header": [
+    "Railway Accidents",
+    "2016"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Railway Accidents | 2017",
+   "header": [
+    "Railway Accidents",
+    "2017"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Railway Accidents | % Var.",
+   "header": [
+    "Railway Accidents",
+    "% Var."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Railway Crossing Accidents | 2016",
+   "header": [
+    "Railway Crossing Accidents",
+    "2016"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Railway Crossing Accidents | 2017",
+   "header": [
+    "Railway Crossing Accidents",
+    "2017"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Railway Crossing Accidents | % Var.",
+   "header": [
+    "Railway Crossing Accidents",
+    "% Var."
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Total Traffic Accidents | 2016",
+   "header": [
+    "Total Traffic Accidents",
+    "2016"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Total Traffic Accidents | 2017",
+   "header": [
+    "Total Traffic Accidents",
+    "2017"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Total Traffic Accidents | % Var.",
+   "header": [
+    "Total Traffic Accidents",
+    "% Var."
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "% Share",
+   "header": [
+    "% Share"
+   ]
+  }
+ ],
+ "notes": [
+  "• As per data provided by States/UTs."
+ ],
+ "checks": {
+  "cells_checked": 30,
+  "cells_passed": 24,
+  "failures": [
+   "col 9 'TOTAL (STATES)': printed 2933, sum 2917",
+   "col 10 'TOTAL (STATES)': printed 1573, sum 1567",
+   "col 10 'TOTAL (ALL INDIA)': printed 1588, sum 2188",
+   "col 12 'TOTAL (STATES)': printed 491241, sum 89309",
+   "col 12 'TOTAL (UTs)': printed 10859, sum 5772",
+   "col 13 'TOTAL (UTs)': printed 9944, sum 9954"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

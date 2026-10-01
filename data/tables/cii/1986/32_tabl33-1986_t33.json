@@ -1,0 +1,104 @@
+{
+ "table_id": "cii/1986/32_tabl33-1986_t33",
+ "publication": "cii",
+ "year": 1986,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "32",
+ "title": "(Continned )",
+ "listing_title": "Juvenile Delinquency for Important Heads of Crime under IPC During 1986",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl33-1986.pdf",
+ "source_file": "raw/cii/1986/table_content/tabl33-1986.pdf",
+ "source_sha256": "5e07b7133c457504eea0275e24020ddfb3e85ba5ebe198b7317982253bce9147",
+ "table_no": "33",
+ "pdf_title": "(Continned )",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
+ "pages": [
+  2,
+  3
+ ],
+ "n_rows": 60,
+ "n_cols": 8,
+ "n_cells": 359,
+ "columns": [
+  {
+   "col_no": "8",
+   "name": "IPC 22-5525 =*-5 - | Robbery",
+   "header": [
+    "IPC 22-5525 =*-5 -",
+    "Robbery"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "IPC 22-5525 =*-5 - | A Burglary",
+   "header": [
+    "IPC 22-5525 =*-5 -",
+    "A Burglary"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "enter Theft",
+   "header": [
+    "enter Theft"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Riot",
+   "header": [
+    "Riot"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "[PC © -",
+   "header": [
+    "[PC © -"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "- - Criminal Breach of trust",
+   "header": [
+    "- - Criminal Breach of trust"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "- Cheating",
+   "header": [
+    "- Cheating"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Total *",
+   "header": [
+    "Total *"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 0,
+  "failures": [
+   "col 8 'TOTAL (STATES)': printed 710, sum 424",
+   "col 9 'TOTAL (STATES)': printed 4832, sum 3608",
+   "col 10 'TOTAL (STATES)': printed 10931, sum 7741",
+   "col 11 'TOTAL (STATES)': printed 6073, sum 4762",
+   "col 12 'TOTAL (STATES)': printed 204, sum 97",
+   "col 15 'TOTAL (STATES)': printed 52079, sum 20498"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

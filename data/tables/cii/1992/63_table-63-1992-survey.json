@@ -1,0 +1,121 @@
+{
+ "table_id": "cii/1992/63_table-63-1992-survey",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "63",
+ "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992 (State, UT & City-wise) Theft",
+ "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992 (State, UT & City-wise) Theft",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-63-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-63-1992-survey.pdf",
+ "source_sha256": "69f95ce15132c9adb7d17041043760b0edba367bd39e7cc85a5473dd48363440",
+ "table_no": "63",
+ "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCUKKSNCE DURING 1992 (STATE, UT & CITY-WISE)",
+ "row_label": "sL. No. / THEFT STATE/UT",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 92,
+ "n_cols": 10,
+ "n_cells": 517,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "THEFT | RESIDENTIAL PREMISES | NUMBER",
+   "header": [
+    "THEFT",
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "THEFT | RESIDENTIAL PREMISES | VALUE",
+   "header": [
+    "THEFT",
+    "RESIDENTIAL PREMISES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "THEFT | HIGHWAYS NUMBER",
+   "header": [
+    "THEFT",
+    "HIGHWAYS NUMBER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "THEFT | VALUE",
+   "header": [
+    "THEFT",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "THEFT | RIVER NUMBER",
+   "header": [
+    "THEFT",
+    "RIVER NUMBER"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "THEFT | & VALUE",
+   "header": [
+    "THEFT",
+    "& VALUE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "(Re. SEA NUMBER",
+   "header": [
+    "(Re. SEA NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "in lakh) RAILWAYS VALUE",
+   "header": [
+    "in lakh) RAILWAYS VALUE"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "(Re. PoTAL PLACES COMMERCIAL NUMBER VALUE VALUE (16) (417) (12) USS 19769 410.5 0.0",
+   "header": [
+    "(Re. PoTAL PLACES COMMERCIAL NUMBER VALUE VALUE (16) (417) (12) USS 19769 410.5 0.0"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "if STATE/UT OTHER VALUE NUMBER (18) (14) (2) ee STATES: ANDHRA’ 1092.9 PRADESH 1624",
+   "header": [
+    "if STATE/UT OTHER VALUE NUMBER (18) (14) (2) ee STATES: ANDHRA’ 1092.9 PRADESH 1624"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 6,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 8625, sum 8525",
+   "col 7 'TOTAL (STATES)': printed 447, sum 436"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 3,
+ "warnings": []
+}

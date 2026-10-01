@@ -1,0 +1,123 @@
+{
+ "table_id": "cii/1988/66_table-66-1988-2",
+ "publication": "cii",
+ "year": 1988,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "66",
+ "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1988 (Men + Women)",
+ "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1988 (Men + Women)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-66-1988-2.pdf",
+ "source_file": "raw/cii/1988/table_content/table-66-1988-2.pdf",
+ "source_sha256": "68292e5fd6f9ee87db4c4da1e63656946d9ae411ba84f019ca59704fffbb9a82",
+ "table_no": "66",
+ "pdf_title": "",
+ "row_label": "STATE/UT/CITY SL. NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 10,
+ "n_cells": 455,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "AND SANCTIONED",
+   "header": [
+    "AND SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "ACTUAL DG/1G/D1G/8P ACTUAL",
+   "header": [
+    "ACTUAL DG/1G/D1G/8P ACTUAL"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(MEN ABP SANCTIONED",
+   "header": [
+    "(MEN ABP SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "POLICE OF + & ACTUAL",
+   "header": [
+    "POLICE OF + & ACTUAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "AS ARMED WOMEN) DSP A.S.1. SANCTIONED",
+   "header": [
+    "AS ARMED WOMEN) DSP A.S.1. SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "ON SI ACTUAL",
+   "header": [
+    "ON SI ACTUAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "31.12.1988 & A.8.1. SANCTIONED",
+   "header": [
+    "31.12.1988 & A.8.1. SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Urrivens ACTUAL",
+   "header": [
+    "Urrivens ACTUAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "BELOW SANCTIONED",
+   "header": [
+    "BELOW SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL ACTUAL",
+   "header": [
+    "GRAND TOTAL ACTUAL"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 1. 1987 dmta repeated for J & K.",
+  "2. 1986 data repeated for west",
+  "3. Since ‘Sanctioned’ police strength was not available for",
+  "Andhra Pradesh, JaK, Madhya Pradesh and West Sengal, it",
+  "is taken equal to ‘Actual' police strength."
+ ],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 7,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 378, sum 358",
+   "col 2 'TOTAL (UTs)': printed 12, sum 11",
+   "col 4 'TOTAL (STATES)': printed 1232, sum 1177",
+   "col 5 'TOTAL (STATES)': printed 1118, sum 1124",
+   "col 6 'TOTAL (STATES)': printed 11321, sum 11328",
+   "col 7 'TOTAL (STATES)': printed 10391, sum 10399",
+   "col 8 'TOTAL (STATES)': printed 229605, sum 229614",
+   "col 11 'TOTAL (STATES)': printed 228257, sum 228269"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

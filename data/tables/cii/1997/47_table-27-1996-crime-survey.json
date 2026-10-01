@@ -1,0 +1,184 @@
+{
+ "table_id": "cii/1997/47_table-27-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "47",
+ "title": "Incidence of Crimes Committed Against Women During 1997",
+ "listing_title": "Incidence of Crimes Committed Against Women During 1997",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-27-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-27-1996-crime-survey.pdf",
+ "source_sha256": "867d632f684bfee9ccf9412baaf6840c92a3c8e20732d273f44e3db4afec9ef6",
+ "table_no": "27",
+ "pdf_title": "INCIDENCE OF CRIMES COMMITTED AGAINST WOMEN DURING 1997",
+ "row_label": "RAPE (2) STAVES: 1 2 3. 4",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 43,
+ "n_cols": 18,
+ "n_cells": 570,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "RAPE | err POP. PRADESH ‘10.9 ASSAM BIHAR",
+   "header": [
+    "RAPE",
+    "err POP. PRADESH ‘10.9 ASSAM BIHAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "RAPE | (3) 7336 43 2528 952.4",
+   "header": [
+    "RAPE",
+    "(3) 7336 43 2528 952.4"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RAPE | R (4) 947 39 717 1457",
+   "header": [
+    "RAPE",
+    "R (4) 947 39 717 1457"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RAPE | P (5) #4113 03 28 15",
+   "header": [
+    "RAPE",
+    "P (5) #4113 03 28 15"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE | (6) #2462 47 95",
+   "header": [
+    "RAPE",
+    "(6) #2462 47 95"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "RAPE | R (7) £4730 «1113 968",
+   "header": [
+    "RAPE",
+    "R (7) £4730 «1113 968"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "RAPE | P (8) «210 2300«2O «#444 10",
+   "header": [
+    "RAPE",
+    "P (8) «210 2300«2O «#444 10"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "DO'VRY | (9) «247 0 - £462",
+   "header": [
+    "DO'VRY",
+    "(9) «247 0 - £462"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DO'VRY | R - (0), «4520 00 °«74 £761",
+   "header": [
+    "DO'VRY",
+    "R - (0), «4520 00 °«74 £761"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "P (4) O07 00 22 #4208",
+   "header": [
+    "P (4) O07 00 22 #4208"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "TORTURE | «87 1 0.1 4775s 12.7",
+   "header": [
+    "TORTURE",
+    "«87 1 0.1 4775s 12.7"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "TORTURE | R P 3870 53 106 01 00 si 4974 #2110 °&«227",
+   "header": [
+    "TORTURE",
+    "R P 3870 53 106 01 00 si 4974 #2110 °&«227"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "EVE-TEASING P",
+   "header": [
+    "EVE-TEASING P"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "IMMPORT.OF GIRLS a",
+   "header": [
+    "IMMPORT.OF GIRLS a"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "P",
+   "header": [
+    "P"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "ACT | R",
+   "header": [
+    "ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "ACT | P",
+   "header": [
+    "ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "ACT | R P",
+   "header": [
+    "ACT",
+    "R P"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 3,
+  "failures": [
+   "col 3 'TOTAL {STATES)': printed 14761, sum 12470",
+   "col 6 'TOTAL (UTs)': printed 4957, sum 934",
+   "col 6 'TOTAL (ALL-INDIA)': printed 15617, sum 19617",
+   "col 9 'TOTAL (UTs)': printed 156, sum 158"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 2,
+ "ocr_pages": 2,
+ "warnings": []
+}

@@ -1,0 +1,144 @@
+{
+ "table_id": "cii/1987/50_table-24-1987",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "50",
+ "title": "Persons Arrested under Local & Special Laws During 1987",
+ "listing_title": "Persons Arrested under Local & Special Laws During 1987",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_24-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_24-1987.pdf",
+ "source_sha256": "2f586e23857faee61798a8c736f1185a3b24aae88bfc3245381055ec14312db4",
+ "table_no": "24",
+ "pdf_title": "Persons Arrested Under Local & Special Laws During 1987",
+ "row_label": "SL. NO. / STATES/UTs/CITIES",
+ "pages": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "n_rows": 74,
+ "n_cols": 13,
+ "n_cells": 617,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ARMS ACT",
+   "header": [
+    "ARMS ACT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "N.D.& SUB.",
+   "header": [
+    "N.D.& SUB."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PSY ACT",
+   "header": [
+    "PSY ACT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EXCISE GAMRILTNG ACT ACT",
+   "header": [
+    "EXCISE GAMRILTNG ACT ACT"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PROHIBITION ACT",
+   "header": [
+    "PROHIBITION ACT"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "EXLOSTVES AND EXPLOSIVE SUB.",
+   "header": [
+    "EXLOSTVES AND EXPLOSIVE SUB."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "IMMORAL TRAFFIC (FNS VENT LUN) ACT ACT",
+   "header": [
+    "IMMORAL TRAFFIC (FNS VENT LUN) ACT ACT"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "MOTOR VEHICLE ACT",
+   "header": [
+    "MOTOR VEHICLE ACT"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "CUSTOMS | OF CORRUPTION ACT",
+   "header": [
+    "CUSTOMS",
+    "OF CORRUPTION ACT"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "CUSTOMS | ACT",
+   "header": [
+    "CUSTOMS",
+    "ACT"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "CUSTOMS | INDIAN RAILWAYS ACT",
+   "header": [
+    "CUSTOMS",
+    "INDIAN RAILWAYS ACT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "OTHER",
+   "header": [
+    "OTHER"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 29,
+  "cells_passed": 10,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 55119, sum 55759",
+   "col 7 'TOTAL (States)': printed 501425, sum 343053",
+   "col 7 'TOTAL (Cities)': printed 48400, sum 35007",
+   "col 8 'TOTAL (States)': printed 3779, sum 3512",
+   "col 8 'TOTAL (Cities)': printed 271, sum 279",
+   "col 9 'TOTAL (States)': printed 15960, sum 14500",
+   "col 9 'TOTAL (Cities)': printed 5055, sum 4506",
+   "col 10 'TOTAL (States)': printed 1.4427e+06, sum 1.33135e+06"
+  ],
+  "other_totals_checked": 10,
+  "other_totals_passed": 7
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 4,
+ "warnings": []
+}

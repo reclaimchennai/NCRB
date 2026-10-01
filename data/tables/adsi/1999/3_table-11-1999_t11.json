@@ -1,0 +1,102 @@
+{
+ "table_id": "adsi/1999/3_table-11-1999_t11",
+ "publication": "adsi",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "3",
+ "title": "Number of Persons Injured & Killed by Un-Natural Causes During 1999 (State, UT & City-wise)",
+ "listing_title": "Number of Persons Injured and Killed by Un-natural causes during 1999 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-11_1999.pdf",
+ "source_file": "raw/adsi/1999/table_content/table-11_1999.pdf",
+ "source_sha256": "ccc8dcc1114da1e801a8a0b706a9b260920aa03c8bc14e5cd746d5397b7039d5",
+ "table_no": "11",
+ "pdf_title": "Number of Persons Injured & Killed by Un-Natural Causes During 1999 (State, UT & City-wise)",
+ "row_label": "SI. No. / State/UT/City",
+ "pages": [
+  1
+ ],
+ "n_rows": 3,
+ "n_cols": 8,
+ "n_cells": 17,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "No. of Cases",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Air-Crash | Male (4)",
+   "header": [
+    "Air-Crash",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Air-Crash | Parsons Female",
+   "header": [
+    "Air-Crash",
+    "Parsons Female"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Air-Crash | Total",
+   "header": [
+    "Air-Crash",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Air-Crash | Male (7)",
+   "header": [
+    "Air-Crash",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Air-Crash | No. of Persons Killed Female (8)",
+   "header": [
+    "Air-Crash",
+    "No. of Persons Killed Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Air-Crash | No. of Persons Killed Female (9)",
+   "header": [
+    "Air-Crash",
+    "No. of Persons Killed Female"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "%Share to Total Deaths Total",
+   "header": [
+    "%Share to Total Deaths Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 9 'TOTAL (Cities)': printed 0, sum 15"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

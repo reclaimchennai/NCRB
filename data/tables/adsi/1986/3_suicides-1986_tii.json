@@ -1,0 +1,65 @@
+{
+ "table_id": "adsi/1986/3_suicides-1986_tii",
+ "publication": "adsi",
+ "year": 1986,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1986",
+ "serial": "3",
+ "title": "Suicidal Deaths in India",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1986.pdf",
+ "source_file": "raw/adsi/1986/year_wise/suicides-1986.pdf",
+ "source_sha256": "301b8dfc1921ea787077c0ba8426ed4353d4439423c3eccba0db451570857b22",
+ "table_no": "II",
+ "pdf_title": "",
+ "row_label": "",
+ "pages": [
+  6
+ ],
+ "n_rows": 35,
+ "n_cols": 4,
+ "n_cells": 135,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  }
+ ],
+ "notes": [
+  "The total number of suicide cases repoitca during 1986 has been claccified",
+  "under dittcren: heads and jin Table-III the last category ‘Other Causes’ covers",
+  "the causes of suicides sharing 38.5% of the total suicides and"
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 53128, sum 23596",
+   "col 3 'TOTAL (U. Ts.)': printed 1229, sum 853"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

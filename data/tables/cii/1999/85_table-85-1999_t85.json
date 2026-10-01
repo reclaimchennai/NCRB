@@ -1,0 +1,56 @@
+{
+ "table_id": "cii/1999/85_table-85-1999_t85",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "85",
+ "title": "Police Personnel Killed or Injured On Duty During 1999 (State, UT & City-Wise)",
+ "listing_title": "Police Personnel Killed or Injured On Duty During 1999 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-85-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-85-1999.pdf",
+ "source_sha256": "b7101ce77a65b15f5d28d5d3330c03d0b513c0ddbe9e3b11197841f51e6febd1",
+ "table_no": "85",
+ "pdf_title": "",
+ "row_label": "POLICE ransui=\"1. (STATE, UT & CITY-WISE) SL. NUMBIR UF NO. INDACOITY MOBS UFERALIUN OR OTHER RAIDS i)",
+ "pages": [
+  1
+ ],
+ "n_rows": 59,
+ "n_cols": 2,
+ "n_cells": 114,
+ "columns": [
+  {
+   "col_no": "6",
+   "name": "OR INJURED ON DUTY DURING 1999 we CRIMI-NALS @)",
+   "header": [
+    "OR INJURED ON DUTY DURING 1999 we CRIMI-NALS @)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "2 - sy - TOTAL - DUTIES",
+   "header": [
+    "2 - sy - TOTAL - DUTIES"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 2,
+  "failures": [
+   "col 6 'TOTAL STATES': printed 176, sum 164",
+   "col 6 'TOTAL (CITIES)': printed 7, sum 6",
+   "col 8 'TOTAL (CITIES)': printed 786, sum 6160"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

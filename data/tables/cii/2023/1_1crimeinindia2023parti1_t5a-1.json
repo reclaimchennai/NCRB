@@ -1,0 +1,77 @@
+{
+ "table_id": "cii/2023/1_1crimeinindia2023parti1_t5a-1",
+ "publication": "cii",
+ "year": 2023,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 2023",
+ "serial": "1",
+ "title": "Crime Committed by Juveniles (IPC+SLL) - 2021-2023",
+ "listing_title": "Volume I",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/1CrimeinIndia2023PartI1.pdf",
+ "source_file": "raw/cii/2023/year_wise/1CrimeinIndia2023PartI1.pdf",
+ "source_sha256": "e7331959b62406cb6a569e5c9735421c6a0215277b0443f6c5b52d9c266cb7f9",
+ "table_no": "5A.1",
+ "pdf_title": "Crime Committed by Juveniles (IPC+SLL) - 2021-2023",
+ "row_label": "SL / State/UT",
+ "pages": [
+  479
+ ],
+ "n_rows": 39,
+ "n_cols": 5,
+ "n_cells": 195,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "2021",
+   "header": [
+    "2021"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2022",
+   "header": [
+    "2022"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2023",
+   "header": [
+    "2023"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Actual Children Population (in Lakhs) (2011)",
+   "header": [
+    "Actual Children Population (in Lakhs) (2011)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rate of Total Crime by Juveniles (2023)",
+   "header": [
+    "Rate of Total Crime by Juveniles (2023)"
+   ]
+  }
+ ],
+ "notes": [
+  "● Actual Population of Children as per the Population Census 2011 (RGI). TABLE 5A.1 Page 1 of 1",
+  "‘++' Crime Rate is calculated as Crime Incidence per one lakh of population",
+  "● As per data provided by States/UTs ● States/UTs may not be compared purely on the basis of crime figures"
+ ],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 9,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

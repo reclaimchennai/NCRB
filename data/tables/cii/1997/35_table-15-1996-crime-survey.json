@@ -1,0 +1,126 @@
+{
+ "table_id": "cii/1997/35_table-15-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "35",
+ "title": "Disposal of IPC Crime Cases by Police During 1997 (State & UT-Wise)",
+ "listing_title": "Disposal of IPC Crime Cases by Police During 1997 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-15-1996-crime-survey.pdf",
+ "source_sha256": "4dbe0e43ad4c40bab38903d0266086156c60f27bb98e4d3535ed650f26215da9",
+ "table_no": "15",
+ "pdf_title": "DISPOSAL OF IPC CRIME CASES BY POLICE DURING 1997",
+ "row_label": "",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 10,
+ "n_cells": 342,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "(STATE & UT-WISE) | FOR INVESTIGATION INCLUDING PENDING CASES",
+   "header": [
+    "(STATE & UT-WISE)",
+    "FOR INVESTIGATION INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(STATE & UT-WISE) | INVESTIGATION Was REFUSED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "INVESTIGATION Was REFUSED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "(STATE & UT-WISE) | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC.",
+   "header": [
+    "(STATE & UT-WISE)",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "(STATE & UT-WISE) | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
+   "header": [
+    "(STATE & UT-WISE)",
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMITTED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "(STATE & UT-WISE) | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
+   "header": [
+    "(STATE & UT-WISE)",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERE LAID"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "(STATE & UT-WISE) | INVESTIGATION WAS COMPLETED | TOTAL {(5) + (6) +(7))",
+   "header": [
+    "(STATE & UT-WISE)",
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL {(5) + (6) +(7))"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "(STATE & UT-WISE) | INVESTIGATION",
+   "header": [
+    "(STATE & UT-WISE)",
+    "INVESTIGATION"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "TAGE PENDENCY",
+   "header": [
+    "TAGE PENDENCY"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TAGE PENDENCY | TOALLINDIA TOTAL",
+   "header": [
+    "TAGE PENDENCY",
+    "TOALLINDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "RATE {(COL.7)/ (COL.6+7 X 100}",
+   "header": [
+    "RATE {(COL.7)/ (COL.6+7 X 100}"
+   ]
+  }
+ ],
+ "notes": [
+  "dis: srcemtage tess than 0.05 is aiso snow as 0.0."
+ ],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 7,
+  "failures": [
+   "col 7 'TOTAL (UTs)': printed 31509, sum 31499",
+   "col 9 'TOTAL (STATES)': printed 441048, sum 1.34105e+06",
+   "col 9 'TOTAL (UTs)': printed 82414, sum 82424"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

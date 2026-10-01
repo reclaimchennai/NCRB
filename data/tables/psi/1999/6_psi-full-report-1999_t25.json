@@ -1,0 +1,158 @@
+{
+ "table_id": "psi/1999/6_psi-full-report-1999_t25",
+ "publication": "psi",
+ "year": 1999,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1999",
+ "serial": "6",
+ "title": "DEMOGRAPHIC PARTICULARS OF UNDERTRIALS AT THE END OF 1999",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
+ "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
+ "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
+ "table_no": "25",
+ "pdf_title": "DEMOGRAPHIC PARTICULARS OF UNDERTRIALS AT THE END OF 1999",
+ "row_label": "NO. / ia",
+ "pages": [
+  117,
+  118
+ ],
+ "n_rows": 60,
+ "n_cols": 16,
+ "n_cells": 421,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "EDUCATIONAL STANDARD | & GRADUATE",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "& GRADUATE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EDUCATIONAL STANDARD | GRADUATE -",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "GRADUATE -"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "EDUCATIONAL STANDARD | ORADUAT - E ©",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "ORADUAT - E ©"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "DEGREE /DIPLOM i",
+   "header": [
+    "DEGREE /DIPLOM i"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "RELIGION | HINDU 6483",
+   "header": [
+    "RELIGION",
+    "HINDU 6483"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "RELIGION | MUSLIM",
+   "header": [
+    "RELIGION",
+    "MUSLIM"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "RELIGION | sikH",
+   "header": [
+    "RELIGION",
+    "sikH"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "RELIGION | 100435596",
+   "header": [
+    "RELIGION",
+    "100435596"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "RELIGION | «SC I 439",
+   "header": [
+    "RELIGION",
+    "«SC I 439"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "ST 8557",
+   "header": [
+    "ST 8557"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "CASTE OBC 2246",
+   "header": [
+    "CASTE OBC 2246"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "OTHERS 1995 1097",
+   "header": [
+    "OTHERS 1995 1097"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "- TOTAL 8557 3219",
+   "header": [
+    "- TOTAL 8557 3219"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (UTS)': printed 288, sum 199332",
+   "col 10001 'TOTAL (STATES)': printed 20457, sum 93273"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

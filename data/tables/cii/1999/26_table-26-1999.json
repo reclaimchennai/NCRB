@@ -1,0 +1,84 @@
+{
+ "table_id": "cii/1999/26_table-26-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "26",
+ "title": "Incidence & Rate of Crimes Committed Against Women in States, UTs and Cities During 1999",
+ "listing_title": "Incidence & Rate of Crimes Committed Against Women in States, UTs and Cities During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-26-1999.pdf",
+ "source_sha256": "67d02514fa45be69fbc08565d976eaed1a82ffa2bc9fd16f636dcbb3e1c49ab5",
+ "table_no": "26",
+ "pdf_title": "INCIDENCE & RATE OF CRIMES COMMITTED AGAINST WOMEN IN STATES, UTs AND CITIES DURING 1999",
+ "row_label": "INCIDENCE SL. NO. a)",
+ "pages": [
+  1
+ ],
+ "n_rows": 59,
+ "n_cols": 6,
+ "n_cells": 325,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "INCIDENCE | ()",
+   "header": [
+    "INCIDENCE",
+    "()"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "INCIDENCE | PERCENTAGE OF CONTRI- BUTION TO ALL-INDIA TOTAL",
+   "header": [
+    "INCIDENCE",
+    "PERCENTAGE OF CONTRI- BUTION TO ALL-INDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RATE OF TOTAL COGNIZABLE CRIMES",
+   "header": [
+    "RATE OF TOTAL COGNIZABLE CRIMES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "RANK*",
+   "header": [
+    "RANK*"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "RANK **",
+   "header": [
+    "RANK **"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL STATES': printed 132997, sum 131846"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

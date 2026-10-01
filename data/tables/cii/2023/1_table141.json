@@ -1,0 +1,83 @@
+{
+ "table_id": "cii/2023/1_table141",
+ "publication": "cii",
+ "year": 2023,
+ "listing": "table_content",
+ "topic": "Human Trafficking",
+ "section": "Human Trafficking",
+ "serial": "1",
+ "title": "14.1 Human Trafficking Cases - 2023",
+ "listing_title": "14.1 Human Trafficking Cases - 2023",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/Table141.pdf",
+ "source_file": "raw/cii/2023/table_content/Table141.pdf",
+ "source_sha256": "2117172b20abbc5e674f1ac7a9124629c912a6834e2042cf72d446c23df3c9d0",
+ "table_no": "14.1",
+ "pdf_title": "Human Trafficking Cases (IPC) - 2023",
+ "row_label": "S. No. / State/UT / State/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 39,
+ "n_cols": 5,
+ "n_cells": 195,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "Cases Reported | 2021",
+   "header": [
+    "Cases Reported",
+    "2021"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases Reported | 2022",
+   "header": [
+    "Cases Reported",
+    "2022"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Mid-Year Projected Population 2023 (In Lakhs)",
+   "header": [
+    "Mid-Year Projected Population 2023 (In Lakhs)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rate of Cognizable Crimes (IPC)++",
+   "header": [
+    "Rate of Cognizable Crimes (IPC)++"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Chargesheeting Rate",
+   "header": [
+    "Chargesheeting Rate"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Human Trafficking data published is based on annual data as provided by States/UTs from their Anti Human Trafficking Units",
+  "''++\" Rate refers to Cases Reported per 1 lakh population",
+  "• Population Source : Report of Technical group on Population Projections (July, 2020) National Commission on Population, MoHFW"
+ ],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 3,
+  "failures": [
+   "col 5 'TOTAL STATE(S)': printed 2.1122e+07, sum 1.68042e+06",
+   "col 5 'TOTAL UT(S)': printed 138146, sum 109256",
+   "col 5 'TOTAL (ALL INDIA)': printed 2.25022e+07, sum 2.12602e+07"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

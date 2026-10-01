@@ -1,0 +1,103 @@
+{
+ "table_id": "cii/1995/54_table-54-1995-crime-survey",
+ "publication": "cii",
+ "year": 1995,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "54",
+ "title": "Disposal of Juveniles Arrested (under IPC and SLL Crimes) and Sent to Courts During 1995 (State, UT & City-Wise)",
+ "listing_title": "Disposal of Juveniles Arrested (under IPC and SLL Crimes) and Sent to Courts During 1995 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-54-1995-crime-survey.pdf",
+ "source_file": "raw/cii/1995/table_content/table-54-1995-crime-survey.pdf",
+ "source_sha256": "8bb1d30c0cdad6d08c17ed920cd033a280da6d45b8e7bed4f1bc651be5e898b8",
+ "table_no": "54",
+ "pdf_title": "DISPOSAL OF JUVENILES ARRESTED (UNDER IPC AND SLL CRIMES) AND SENT TO COURTS",
+ "row_label": "SL. NO. / STATE/UT/CITY",
+ "pages": [
+  1
+ ],
+ "n_rows": 41,
+ "n_cols": 8,
+ "n_cells": 90,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ARRESTED & SENT TO",
+   "header": [
+    "ARRESTED & SENT TO"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DURING | (STATE,UT & CITY-WISE) SENT TO HOME OR ADMONITION",
+   "header": [
+    "DURING",
+    "(STATE,UT & CITY-WISE) SENT TO HOME OR ADMONITION"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "DURING | RELEASED ON PARENTS/ GUARDIANS",
+   "header": [
+    "DURING",
+    "RELEASED ON PARENTS/ GUARDIANS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1995 PROBATION AND PLACED UNDER CARE OF FIT INSTT.",
+   "header": [
+    "1995 PROBATION AND PLACED UNDER CARE OF FIT INSTT."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "ACQUITTED | SENT TO SPECIAL HOMES",
+   "header": [
+    "ACQUITTED",
+    "SENT TO SPECIAL HOMES"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ACQUITTED | DEALT WITH FINE",
+   "header": [
+    "ACQUITTED",
+    "DEALT WITH FINE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "ACQUITTED | OR OTHERDISPOSED OF",
+   "header": [
+    "ACQUITTED",
+    "OR OTHERDISPOSED OF"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "ACQUITTED | PENDING DISPOSAL",
+   "header": [
+    "ACQUITTED",
+    "PENDING DISPOSAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (STATES) ÜNION TERRITORIES:': printed 18383, sum 17351",
+   "col 3 'PONDICHERRY \"TOTAL (UTS)': printed 410, sum 383"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

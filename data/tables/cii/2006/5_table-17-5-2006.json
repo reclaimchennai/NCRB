@@ -1,0 +1,181 @@
+{
+ "table_id": "cii/2006/5_table-17-5-2006",
+ "publication": "cii",
+ "year": 2006,
+ "listing": "table_content",
+ "topic": "Police Strength, Expenditure & Infrastructure",
+ "section": "Police Strength, Expenditure & Infrastructure",
+ "serial": "5",
+ "title": "Actual Police Strength in relation to Area, Population, Cognizable Crimes and Per Capita Expenditure on Policemen (State & UT-w",
+ "listing_title": "Actual Police Strength in relation to Area, Population, Cognizable Crimes and Per Capita Expenditure on Policemen (State & UT-w",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/Table-17.5_2006.pdf",
+ "source_file": "raw/cii/2006/table_content/Table-17.5_2006.pdf",
+ "source_sha256": "a9045f8212a487b861a104d7d269378a0188bef6543e2b41f9517c80e96849f1",
+ "table_no": "17.5",
+ "pdf_title": "Actual Police Strength In Relation To Area, Population, Cognizable Crimes And Per Capita Expenditure On Policemen During 2006",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 44,
+ "n_cols": 18,
+ "n_cells": 646,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Area (In Sqr. Kms.)",
+   "header": [
+    "Area (In Sqr. Kms.)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Estimated Mid-Year Population (In Tthousands)",
+   "header": [
+    "Estimated Mid-Year Population (In Tthousands)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total Cases For Investigation (Including Pending Cases From Previous Year) | IPC",
+   "header": [
+    "Total Cases For Investigation (Including Pending Cases From Previous Year)",
+    "IPC"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total Cases For Investigation (Including Pending Cases From Previous Year) | SLL",
+   "header": [
+    "Total Cases For Investigation (Including Pending Cases From Previous Year)",
+    "SLL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total Cases For Investigation (Including Pending Cases From Previous Year) | Total",
+   "header": [
+    "Total Cases For Investigation (Including Pending Cases From Previous Year)",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Actual Police Strength | Civil",
+   "header": [
+    "Actual Police Strength",
+    "Civil"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Actual Police Strength | Armed",
+   "header": [
+    "Actual Police Strength",
+    "Armed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Actual Police Strength | Total",
+   "header": [
+    "Actual Police Strength",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Percentage Of Civil Police To Total Police",
+   "header": [
+    "Percentage Of Civil Police To Total Police"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Actual Police Strength (Of Ranks) | D.G. To A.S.I.",
+   "header": [
+    "Actual Police Strength (Of Ranks)",
+    "D.G. To A.S.I."
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Actual Police Strength (Of Ranks) | Head Constables To Constables",
+   "header": [
+    "Actual Police Strength (Of Ranks)",
+    "Head Constables To Constables"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Actual Police Strength (Of Ranks) | Teeth To Tail Ratio",
+   "header": [
+    "Actual Police Strength (Of Ranks)",
+    "Teeth To Tail Ratio"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Actual Police Strength Of I.Os. (Insp.+ SI+ ASI Of Civ. Pol.)",
+   "header": [
+    "Actual Police Strength Of I.Os. (Insp.+ SI+ ASI Of Civ. Pol.)"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "No. Of Policemen Per 100 Sqr. Kms. Of Area",
+   "header": [
+    "No. Of Policemen Per 100 Sqr. Kms. Of Area"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "No. Of Policemen Per 1,00,000 Of Population",
+   "header": [
+    "No. Of Policemen Per 1,00,000 Of Population"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "No. Of IPC Cases Per Civil Police Man",
+   "header": [
+    "No. Of IPC Cases Per Civil Police Man"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Total Police Expenditure (Rs. In Crores) @@",
+   "header": [
+    "Total Police Expenditure (Rs. In Crores) @@"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Unit Cost Per Policemen (Per Annum)",
+   "header": [
+    "Unit Cost Per Policemen (Per Annum)"
+   ]
+  }
+ ],
+ "notes": [
+  "Only The Operational Area For J&K Has Been Considered (Total Area Of State: 222236 Kms.)",
+  "@@ - BPR&D Data On Police Organisation"
+ ],
+ "checks": {
+  "cells_checked": 25,
+  "cells_passed": 22,
+  "failures": [
+   "col 15 'TOTAL (STATES) 1:7': printed 144847, sum 155170",
+   "col 20 'TOTAL (STATES) 1:7': printed 145518, sum 5.72534e+06",
+   "col 20 'TOTAL (ALL-INDIA) 1:7': printed 149860, sum 383396"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

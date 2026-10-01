@@ -1,0 +1,97 @@
+{
+ "table_id": "cii/1997/2_table-74-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "2",
+ "title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1997 (State & UT-Wise)",
+ "listing_title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1997 (State & UT-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-74-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-74-1996-crime-survey.pdf",
+ "source_sha256": "5e862587004f76332e5d2cffbb5d3e967f08fce5521522febfa9e8cf330dbb74",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "(M_H.A.) STATE/UT a)",
+ "pages": [
+  1
+ ],
+ "n_rows": 37,
+ "n_cols": 7,
+ "n_cells": 207,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE) | SL. NO. PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
+   "header": [
+    "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE)",
+    "SL. NO. PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE) | OF CASES COMPOUNDED OR WITH DRAWN",
+   "header": [
+    "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE)",
+    "OF CASES COMPOUNDED OR WITH DRAWN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE) | TRIAL COMPLETED",
+   "header": [
+    "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE)",
+    "TRIAL COMPLETED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE) | NO. OF PERSONS WHOSE - REMAINED PENDING",
+   "header": [
+    "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE)",
+    "NO. OF PERSONS WHOSE - REMAINED PENDING"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE) | TRIAL",
+   "header": [
+    "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE)",
+    "TRIAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "CRIME iN INDIA - 1997 | 1997 NO.OF PERSONS —-PERCEN CONVICTED",
+   "header": [
+    "CRIME iN INDIA - 1997",
+    "1997 NO.OF PERSONS —-PERCEN CONVICTED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "CRIME iN INDIA - 1997 | PENDENC.] PERCENTAGE OF PENDENCY TU ALLINDIA TOTAL",
+   "header": [
+    "CRIME iN INDIA - 1997",
+    "PENDENC.] PERCENTAGE OF PENDENCY TU ALLINDIA TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 3,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 1.14091e+07, sum 3.0462e+07",
+   "col 3 'TOTAL (UTs}': printed 245313, sum 241771"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,98 @@
+{
+ "table_id": "cii/1999/85_table-85-1999_t86",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "85",
+ "title": "#5°--— 2",
+ "listing_title": "Police Personnel Killed or Injured On Duty During 1999 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-85-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-85-1999.pdf",
+ "source_sha256": "b7101ce77a65b15f5d28d5d3330c03d0b513c0ddbe9e3b11197841f51e6febd1",
+ "table_no": "86",
+ "pdf_title": "#5°--— 2",
+ "row_label": "NUM) BK UF VICE! SL. NO.",
+ "pages": [
+  2
+ ],
+ "n_rows": 61,
+ "n_cols": 7,
+ "n_cells": 407,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "NUM) BK UF VICE! | Ie",
+   "header": [
+    "NUM) BK UF VICE!",
+    "Ie"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "NUM) BK UF VICE! | INDACOITY OR",
+   "header": [
+    "NUM) BK UF VICE!",
+    "INDACOITY OR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUM) BK UF VICE! | MOBS",
+   "header": [
+    "NUM) BK UF VICE!",
+    "MOBS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUM) BK UF VICE! | BYOTHER CRIMI-",
+   "header": [
+    "NUM) BK UF VICE!",
+    "BYOTHER CRIMI-"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUM) BK UF VICE! | ON BORDER",
+   "header": [
+    "NUM) BK UF VICE!",
+    "ON BORDER"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUM) BK UF VICE! | - INACUWENIS",
+   "header": [
+    "NUM) BK UF VICE!",
+    "- INACUWENIS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NUM) BK UF VICE! | TUTAL",
+   "header": [
+    "NUM) BK UF VICE!",
+    "TUTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 17,
+  "cells_passed": 14,
+  "failures": [
+   "col 2 'TOTAL STATES': printed 281, sum 230",
+   "col 4 'TOTAL STATES': printed 1513, sum 1518",
+   "col 7 'TOTAL (CITIES)': printed 221, sum 700"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

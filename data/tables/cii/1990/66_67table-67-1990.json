@@ -1,0 +1,77 @@
+{
+ "table_id": "cii/1990/66_67table-67-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "66",
+ "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1990 (Women only)",
+ "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1990 (Women only)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/67table-67-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/67table-67-1990-.pdf",
+ "source_sha256": "c20d07d5a16973a38fadb089600676fab4e435d7b586626b00795aa0f7bfbc60",
+ "table_no": "67",
+ "pdf_title": "",
+ "row_label": "AS ON 31.12.1990 (WOMEN ONLY) SL. STATS/UI/C1ITX NO. a) / AS ON 31.12.1990 (WOMEN ONLY) DG/IG/DIG/SP SANC~ TIONED / AS ON 31.12.1990 (WOMEN ONLY) DG/IG/DIG/SP ACTUAL / AS ON 31.12.1990 (WOMEN ONLY) ASP & DSP SANCTIONED / AS ON 31.12.1990 (WOMEN ONLY) ASP & DSP ACTUAL",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 4,
+ "n_cells": 137,
+ "columns": [
+  {
+   "col_no": "7",
+   "name": "AS ON 31.12.1990 (WOMEN ONLY) | A.8.1. SANCTIONED",
+   "header": [
+    "AS ON 31.12.1990 (WOMEN ONLY)",
+    "A.8.1. SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "AS ON 31.12.1990 (WOMEN ONLY) | SI ACTUAL",
+   "header": [
+    "AS ON 31.12.1990 (WOMEN ONLY)",
+    "SI ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "AS ON 31.12.1990 (WOMEN ONLY) | & SANCTIONED",
+   "header": [
+    "AS ON 31.12.1990 (WOMEN ONLY)",
+    "& SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "GRAND TOTAL OFFICERS Rr ow A.S.1. SANCACTUAL ACTUAL, TIONED a2) qa",
+   "header": [
+    "GRAND TOTAL OFFICERS Rr ow A.S.1. SANCACTUAL ACTUAL, TIONED a2) qa"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: ‘Actual' Police strength of Women Police is more than their ‘Sanctioned’",
+  "Police strength for some ranks in UT of Delhi and Delhi city. This is because Women",
+  "Police are appointed against Male vacancies of same rank or higher rank, as per Govt. instructions"
+ ],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 9,
+  "failures": [
+   "col 10 'TOTAL (STATES)': printed 3.23537e+08, sum 3.23537e+08",
+   "col 10 'TOTAL (UTs)': printed 71718, sum 171718",
+   "col 10 'TOTAL (ALL-INDIA)': printed 3.40554e+08, sum 3.23609e+08"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

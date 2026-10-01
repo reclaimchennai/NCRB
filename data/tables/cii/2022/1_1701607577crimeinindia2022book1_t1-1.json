@@ -1,0 +1,63 @@
+{
+ "table_id": "cii/2022/1_1701607577crimeinindia2022book1_t1-1",
+ "publication": "cii",
+ "year": 2022,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Crime in India 2022",
+ "serial": "1",
+ "title": "Total Complaints Received and Cases Registered under IPC and SLL - 2022",
+ "listing_title": "Volume 1",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1701607577CrimeinIndia2022Book1.pdf",
+ "source_file": "raw/cii/2022/year_wise/1701607577CrimeinIndia2022Book1.pdf",
+ "source_sha256": "7c5ee3128b0b6bc7c068f986961eaf40bb383d9f241ff75ad3a38e4ab3c23e8d",
+ "table_no": "1.1",
+ "pdf_title": "Total Complaints Received and Cases Registered under IPC and SLL - 2022",
+ "row_label": "SL / Type of Complaint",
+ "pages": [
+  33
+ ],
+ "n_rows": 23,
+ "n_cols": 3,
+ "n_cells": 63,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Complaints",
+   "header": [
+    "Number of Complaints"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of FIRs Registered",
+   "header": [
+    "Number of FIRs Registered"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of Online/ eFIR Registered",
+   "header": [
+    "Number of Online/ eFIR Registered"
+   ]
+  }
+ ],
+ "notes": [
+  "‘++' Crime Rate is calculated as Crime Incidence per one lakh of population",
+  "● Population Source: Report of Technical group on Population Projections(July, 2020) National Commission on Population, MoHFW",
+  "● As per data provided by States/UTs # Clarifications are pending from Nagaland"
+ ],
+ "checks": {
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

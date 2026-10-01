@@ -1,0 +1,78 @@
+{
+ "table_id": "cii/1990/58_59table-59-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "58",
+ "title": "Victims of Rape under Different Age Groups During 1990 (State, UT & City-Wise)",
+ "listing_title": "Victims of Rape under Different Age Groups During 1990 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/59table-59-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/59table-59-1990-.pdf",
+ "source_sha256": "4de61c6d578f5ee6d488a1bdbcb4c389fecba50813c797735c8df199a3200c7d",
+ "table_no": "59",
+ "pdf_title": "",
+ "row_label": "VICTIMS STATE/UT/CITY SL NO",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 5,
+ "n_cells": 230,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "OF NO. CASES",
+   "header": [
+    "OF NO. CASES"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "RAPE & OF BELOW 10",
+   "header": [
+    "RAPE & OF BELOW 10"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "UNDER CITY-WISE) NUMBER YEARS",
+   "header": [
+    "UNDER CITY-WISE) NUMBER YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "AGE DURING 10-16 YEARS",
+   "header": [
+    "AGE DURING 10-16 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "GROUPS 1990 OT VICTIMS nnn nnn nnn YEARS 30 16-30 AND YEARS ABOVE",
+   "header": [
+    "GROUPS 1990 OT VICTIMS nnn nnn nnn YEARS 30 16-30 AND YEARS ABOVE"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 13,
+  "cells_passed": 9,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 9863, sum 9847",
+   "col 2 'TOTAL (UTs)': printed 205, sum 201",
+   "col 4 'TOTAL (STATES)': printed 2090, sum 2393",
+   "col 5 'TOTAL (STATES)': printed 5937, sum 5943"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,104 @@
+{
+ "table_id": "cii/2001/5_table4-2001_t2",
+ "publication": "cii",
+ "year": 2001,
+ "listing": "table_content",
+ "topic": "Executive Summary",
+ "section": "Executive Summary",
+ "serial": "5",
+ "title": "CITIES",
+ "listing_title": "Incidence of Total Cognizable Crimes (IPC) during 1996-2001 alongwith percentage changes",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/TABLE4-2001.pdf",
+ "source_file": "raw/cii/2001/table_content/TABLE4-2001.pdf",
+ "source_sha256": "1245cacdf24a810ea10a2269dc02853874a64409eaafb94a83853e8954c61fed",
+ "table_no": "",
+ "pdf_title": "CITIES",
+ "row_label": "36",
+ "pages": [
+  2
+ ],
+ "n_rows": 24,
+ "n_cols": 9,
+ "n_cells": 216,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "AGRA",
+   "header": [
+    "AGRA"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "NE (3)",
+   "header": [
+    "NE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NE (4)",
+   "header": [
+    "NE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NE (5)",
+   "header": [
+    "NE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NE (6)",
+   "header": [
+    "NE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NE (7)",
+   "header": [
+    "NE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "-",
+   "header": [
+    "-"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "6661",
+   "header": [
+    "6661"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "- -",
+   "header": [
+    "- -"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 5,
+  "failures": [
+   "col 7 'TOTAL (CITIES)': printed 258876, sum 258874",
+   "col 8 'TOTAL (CITIES)': printed 289775, sum 254295"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 0,
+ "warnings": []
+}

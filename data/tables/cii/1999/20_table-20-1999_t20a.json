@@ -1,0 +1,89 @@
+{
+ "table_id": "cii/1999/20_table-20-1999_t20a",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "20",
+ "title": "(Cancindea\\",
+ "listing_title": "Disposal of IPC Crime Cases by Courts During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-20-1999.pdf",
+ "source_sha256": "49d494c0b0a8dc4d0d431c082d5e0821d81255e86e21e2bd1769067b5c0b83d3",
+ "table_no": "20A",
+ "pdf_title": "(Cancindea\\",
+ "row_label": "SL.NO. (2) (1) STATE):",
+ "pages": [
+  7
+ ],
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 209,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "STATE/UT cr (39)",
+   "header": [
+    "STATE/UT cr (39)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "OF CASES UNDER | DOWRY DEA1H TR @",
+   "header": [
+    "OF CASES UNDER",
+    "DOWRY DEA1H TR @"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "OF CASES UNDER | @D",
+   "header": [
+    "OF CASES UNDER",
+    "@D"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "OF CASES UNDER | cr @",
+   "header": [
+    "OF CASES UNDER",
+    "cr @"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "OF CASES UNDER | TOTAL TT (43)",
+   "header": [
+    "OF CASES UNDER",
+    "TOTAL TT (43)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "OF CASES UNDER | TL @",
+   "header": [
+    "OF CASES UNDER",
+    "TL @"
+   ]
+  }
+ ],
+ "notes": [
+  "1655 NCRB/2001—16A"
+ ],
+ "checks": {
+  "cells_checked": 14,
+  "cells_passed": 13,
+  "failures": [
+   "col 2 'TOTAL STATES': printed 11, sum 7"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

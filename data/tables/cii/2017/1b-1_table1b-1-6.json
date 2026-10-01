@@ -1,0 +1,84 @@
+{
+ "table_id": "cii/2017/1b-1_table1b-1-6",
+ "publication": "cii",
+ "year": 2017,
+ "listing": "additional_table",
+ "topic": "Summary (34 Metropolitan Cities)",
+ "section": "Chapter - 1B -- Summary (34 Metropolitan Cities)",
+ "serial": "1B.1",
+ "title": "IPC Crimes (City-wise) - 2015-2017",
+ "listing_title": "IPC Crimes (City-wise) - 2015-2017",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/Table1B.1_6.pdf",
+ "source_file": "raw/cii/2017/additional_table/Table1B.1_6.pdf",
+ "source_sha256": "f6705ed73767fa392232b11b07892b04e6603b44dfe865a6cf00836187db0d1b",
+ "table_no": "1B.1",
+ "pdf_title": "IPC Crimes in Metropolitan Cities - 2015-2017",
+ "row_label": "S. No / City",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 210,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "2015",
+   "header": [
+    "2015"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2016",
+   "header": [
+    "2016"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2017",
+   "header": [
+    "2017"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage Share of State/UT (2017)",
+   "header": [
+    "Percentage Share of State/UT (2017)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Actual Population (in Lakhs) (2011) +",
+   "header": [
+    "Actual Population (in Lakhs) (2011) +"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Rate of Cognizable Crime (IPC) (2017)++",
+   "header": [
+    "Rate of Cognizable Crime (IPC) (2017)++"
+   ]
+  }
+ ],
+ "notes": [
+  "Note : i) '++ Crime Rate is calculated as Crime per one lakh of population. TABLE 1B.1 Page 1 of 1",
+  "ii) '+ Population Source: Registrar General of India Actual Population based on 2011 Census.",
+  "iii) As per data provided by States/UTs"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

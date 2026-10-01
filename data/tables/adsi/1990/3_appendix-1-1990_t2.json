@@ -1,0 +1,164 @@
+{
+ "table_id": "adsi/1990/3_appendix-1-1990_t2",
+ "publication": "adsi",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "3",
+ "title": "APPENDIX - I",
+ "listing_title": "Distribution of Accidental Deaths due to Natural Causes and Sex during 1990 (State, UT & City-wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-1_1990.pdf",
+ "source_file": "raw/adsi/1990/table_content/appendix-1_1990.pdf",
+ "source_sha256": "eaee6e32843b71b5b787d420d16d9d272bb8c31924c63e43f20095c50d190360",
+ "table_no": "",
+ "pdf_title": "APPENDIX - I",
+ "row_label": "St. No. / State/Ut/City",
+ "pages": [
+  2,
+  3
+ ],
+ "n_rows": 50,
+ "n_cols": 15,
+ "n_cells": 703,
+ "columns": [
+  {
+   "col_no": "9",
+   "name": "Flood | Male",
+   "header": [
+    "Flood",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Flood | Female",
+   "header": [
+    "Flood",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Flood | «= Total",
+   "header": [
+    "Flood",
+    "«= Total"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Landslide | Male",
+   "header": [
+    "Landslide",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Landslide | Female",
+   "header": [
+    "Landslide",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Landslide | Total",
+   "header": [
+    "Landslide",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Cold we Male",
+   "header": [
+    "Cold we Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "& Female",
+   "header": [
+    "& Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Exposure Total",
+   "header": [
+    "Exposure Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Cyclone | Male",
+   "header": [
+    "Cyclone",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Cyclone | Female",
+   "header": [
+    "Cyclone",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Cyclone | Total",
+   "header": [
+    "Cyclone",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Grand | Male",
+   "header": [
+    "Grand",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Grand | Female",
+   "header": [
+    "Grand",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Total Total",
+   "header": [
+    "Total Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 43,
+  "cells_passed": 35,
+  "failures": [
+   "col 15 'TOTAL (States)': printed 354, sum 352",
+   "col 16 'TOTAL (States)': printed 101, sum 100",
+   "col 17 'TOTAL (States)': printed 455, sum 452",
+   "col 18 'TOTAL (States)': printed 203, sum 202",
+   "col 20 'TOTAL (States)': printed 280, sum 279",
+   "col 21 'TOTAL (States)': printed 3050, sum 3030",
+   "col 22 'TOTAL (States)': printed 1372, sum 1368",
+   "col 23 'TOTAL (States)': printed 4422, sum 4398"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

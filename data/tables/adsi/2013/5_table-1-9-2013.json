@@ -1,0 +1,124 @@
+{
+ "table_id": "adsi/2013/5_table-1-9-2013",
+ "publication": "adsi",
+ "year": 2013,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "5",
+ "title": "Incidence of Traffic Accidents during various quarters of the year (State, UT & City-wise)",
+ "listing_title": "Incidence of Traffic Accidents during various quarters of the year (State, UT & City-wise)",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-1.9_2013.pdf",
+ "source_file": "raw/adsi/2013/table_content/table-1.9_2013.pdf",
+ "source_sha256": "ed05e638e22f34754f71a78b4a02c0ae4f15fdb9041da8e0e0d77ed5c434ce51",
+ "table_no": "1.9",
+ "pdf_title": "Number and share of road accidents during various quarters of 2013 (State, UT & City–wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "n_rows": 332,
+ "n_cols": 10,
+ "n_cells": 3320,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "1st Qtr.",
+   "header": [
+    "1st Qtr."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "%share w.r.t. All India (4)",
+   "header": [
+    "%share w.r.t. All India"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2nd Qtr. w.r.t. All",
+   "header": [
+    "2nd Qtr. w.r.t. All"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "%share India",
+   "header": [
+    "%share India"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "3rd Qtr.",
+   "header": [
+    "3rd Qtr."
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "%share w.r.t. All India (8)",
+   "header": [
+    "%share w.r.t. All India"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "4th Qtr.",
+   "header": [
+    "4th Qtr."
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "%share w.r.t. All India (10)",
+   "header": [
+    "%share w.r.t. All India"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "%share w.r.t. All India (12)",
+   "header": [
+    "%share w.r.t. All India"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 80,
+  "cells_passed": 65,
+  "failures": [
+   "col 3 'TOTAL (ALL INDIA)': printed 374, sum 20765",
+   "col 3 'TOTAL (ALL INDIA)': printed 7432, sum 7477",
+   "col 3 'TOTAL (ALL INDIA)': printed 121671, sum 122190",
+   "col 5 'TOTAL (ALL INDIA)': printed 356, sum 20289",
+   "col 5 'TOTAL (ALL INDIA)': printed 8131, sum 8167",
+   "col 5 'TOTAL (ALL INDIA)': printed 126582, sum 127145",
+   "col 7 'TOTAL (ALL INDIA)': printed 336, sum 19013",
+   "col 7 'TOTAL (ALL INDIA)': printed 7866, sum 7907"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

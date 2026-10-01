@@ -1,0 +1,206 @@
+{
+ "table_id": "adsi/1989/4_suicides-1989_t11",
+ "publication": "adsi",
+ "year": 1989,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1989",
+ "serial": "4",
+ "title": "Distribution Of Suicides By Sex And Age-Groups",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1989.pdf",
+ "source_file": "raw/adsi/1989/year_wise/suicides-1989.pdf",
+ "source_sha256": "dac08e88e6ab8208f1a2e7178532abc4a95d91678e6af855a32c169bbe5aed08",
+ "table_no": "11",
+ "pdf_title": "Distribution Of Suicides By Sex And Age-Groups",
+ "row_label": "Sh State/UT/City No. Ch)",
+ "pages": [
+  17,
+  18,
+  19
+ ],
+ "n_rows": 57,
+ "n_cols": 21,
+ "n_cells": 973,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "During | (State, Below Female",
+   "header": [
+    "During",
+    "(State, Below Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "During | UT 18 mie Segre Total To",
+   "header": [
+    "During",
+    "UT 18 mie Segre Total To"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1989 & City-wise) Years se Percentage Total Suicides",
+   "header": [
+    "1989 & City-wise) Years se Percentage Total Suicides"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "18 | Male",
+   "header": [
+    "18",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "18 | Female",
+   "header": [
+    "18",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "- Years Total To",
+   "header": [
+    "- Years Total To"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "30 Percentage Total Suicides",
+   "header": [
+    "30 Percentage Total Suicides"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "30 | Male",
+   "header": [
+    "30",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "30 | Female",
+   "header": [
+    "30",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "- Total",
+   "header": [
+    "- Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "50 Percentage To Suicides",
+   "header": [
+    "50 Percentage To Suicides"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Years Male Total",
+   "header": [
+    "Years Male Total"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "50 Female",
+   "header": [
+    "50 Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Above Years Total",
+   "header": [
+    "Above Years Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "And Percentage Total To Suicides",
+   "header": [
+    "And Percentage Total To Suicides"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "wa Male",
+   "header": [
+    "wa Male"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Total | Female",
+   "header": [
+    "Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Total | Total",
+   "header": [
+    "Total",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Suicides Percentage of",
+   "header": [
+    "Suicides Percentage of"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Percentage of Male Female",
+   "header": [
+    "Percentage of Male Female"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 18 - 30 years means 18 years and above but below 30 years of age etc."
+ ],
+ "checks": {
+  "cells_checked": 37,
+  "cells_passed": 20,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 4040, sum 4042",
+   "col 3 'TOTAL (UTs)': printed 55, sum 58",
+   "col 4 'TOTAL (States)': printed 4642, sum 4644",
+   "col 7 'TOTAL (States)': printed 15959, sum 16102",
+   "col 8 'TOTAL (States)': printed 13958, sum 13941",
+   "col 11 'TOTAL (States)': printed 13822, sum 9728",
+   "col 12 'TOTAL (States)': printed 6660, sum 4654",
+   "col 13 'TOTAL (States)': printed 20482, sum 14412"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

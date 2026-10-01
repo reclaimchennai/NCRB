@@ -1,0 +1,59 @@
+{
+ "table_id": "psi/1998/5_psi-full-report-1998_t33",
+ "publication": "psi",
+ "year": 1998,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1998",
+ "serial": "5",
+ "title": "Download Full Report",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
+ "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
+ "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
+ "table_no": "33",
+ "pdf_title": "",
+ "row_label": "DETAILS OF INMATES DISCHARGED AT THE END STATE/UT SL. NO. wy",
+ "pages": [
+  120
+ ],
+ "n_rows": 18,
+ "n_cols": 2,
+ "n_cells": 24,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "DETAILS OF INMATES DISCHARGED AT THE END | ESCAPEE",
+   "header": [
+    "DETAILS OF INMATES DISCHARGED AT THE END",
+    "ESCAPEE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1998 RE-ARRESTED ESCAPEE",
+   "header": [
+    "1998 RE-ARRESTED ESCAPEE"
+   ]
+  }
+ ],
+ "notes": [
+  "NA -DATA NOT AVAILABLE"
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 1,
+  "failures": [
+   "col 3 'TOTAL (UTS)': printed 26, sum 406",
+   "col 4 'TOTAL (STATES)': printed 220, sum 175",
+   "col 4 'TOTAL (UTS)': printed 3, sum 1"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

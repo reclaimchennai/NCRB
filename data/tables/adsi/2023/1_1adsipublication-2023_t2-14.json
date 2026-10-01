@@ -1,0 +1,70 @@
+{
+ "table_id": "adsi/2023/1_1adsipublication-2023_t2-14",
+ "publication": "adsi",
+ "year": 2023,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 2023",
+ "serial": "1",
+ "title": "Distribution of Mass/Family Suicides during 2023 (State/UT-wise)",
+ "listing_title": "Accidental Deaths & Suicides in India 2023 Report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/1ADSIPublication-2023.pdf",
+ "source_file": "raw/adsi/2023/year_wise/1ADSIPublication-2023.pdf",
+ "source_sha256": "b41d956d80b2e8e46ee70e7b81eb6e39d8e9a156d3455a1e7fe8d50508db2bdb",
+ "table_no": "2.14",
+ "pdf_title": "Distribution of Mass/Family Suicides during 2023 (State/UT-wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  291,
+  292
+ ],
+ "n_rows": 93,
+ "n_cols": 4,
+ "n_cells": 372,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Cases",
+   "header": [
+    "Cases"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Married",
+   "header": [
+    "Married"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Un-Married",
+   "header": [
+    "Un-Married"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  "Col. 6 = Col. 4 + Col. 5",
+  "• As per data provided by States/UTs."
+ ],
+ "checks": {
+  "cells_checked": 16,
+  "cells_passed": 16,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

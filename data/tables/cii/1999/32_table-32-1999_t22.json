@@ -1,0 +1,132 @@
+{
+ "table_id": "cii/1999/32_table-32-1999_t22",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "32",
+ "title": "/7=*!==— 1",
+ "listing_title": "Incidence of Crime Committed Against Scheduled Castes During 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-32-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-32-1999.pdf",
+ "source_sha256": "9d297f5a80ea205310d5cab8c8a434d040f9580f08f53dc55e207256cf334c86",
+ "table_no": "22",
+ "pdf_title": "/7=*!==— 1",
+ "row_label": "SL. STATE/UT NO. i) STATES:",
+ "pages": [
+  2
+ ],
+ "n_rows": 36,
+ "n_cols": 12,
+ "n_cells": 417,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Kil @)",
+   "header": [
+    "Kil @)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "& | 1 ay",
+   "header": [
+    "&",
+    "1 ay"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "& | R ay",
+   "header": [
+    "&",
+    "R ay"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "& | P 1 ay",
+   "header": [
+    "&",
+    "P 1 ay"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "DACOITY rR aol",
+   "header": [
+    "DACOITY rR aol"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "an!",
+   "header": [
+    "an!"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "P as)»",
+   "header": [
+    "P as)»"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1 ay",
+   "header": [
+    "1 ay"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "ARSON | ae em",
+   "header": [
+    "ARSON",
+    "ae em"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "ARSON | P 1 en",
+   "header": [
+    "ARSON",
+    "P 1 en"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "ARSON | R",
+   "header": [
+    "ARSON",
+    "R"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ARSON | P",
+   "header": [
+    "ARSON",
+    "P"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 8,
+  "failures": [
+   "col 2 'TOTAL STATES': printed 228, sum 213",
+   "col 5 '“TOTAL (ALL-INDIA)': printed 6, sum 3"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

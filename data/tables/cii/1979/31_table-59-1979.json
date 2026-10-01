@@ -1,0 +1,75 @@
+{
+ "table_id": "cii/1979/31_table-59-1979",
+ "publication": "cii",
+ "year": 1979,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "31",
+ "title": "Strength of Armed Police as on 31.12.1979",
+ "listing_title": "Strength of Armed Police as on 31.12.1979",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1979.pdf",
+ "source_file": "raw/cii/1979/table_content/table-59-1979.pdf",
+ "source_sha256": "4222e8f6a8245db27abc3912d374286977d8cbb9d489d2b3aa0b6cba46d28c17",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. Name of the States/No. U.Ts./Cities",
+ "pages": [
+  1
+ ],
+ "n_rows": 43,
+ "n_cols": 5,
+ "n_cells": 215,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "No. of I.G. D.Is.G. & Ss.P.",
+   "header": [
+    "No. of I.G. D.Is.G. & Ss.P."
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "No. of A.Ss.P./Dy. S.P.",
+   "header": [
+    "No. of A.Ss.P./Dy. S.P."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "No. of Inspectors & Sub-Inspectors",
+   "header": [
+    "No. of Inspectors & Sub-Inspectors"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "No. of officers below the rank of Sub-Inspectors",
+   "header": [
+    "No. of officers below the rank of Sub-Inspectors"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 11,
+  "failures": [
+   "col 4 'TOTAL(States)': printed 5596, sum 6196"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

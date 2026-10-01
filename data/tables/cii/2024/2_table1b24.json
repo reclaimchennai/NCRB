@@ -1,0 +1,85 @@
+{
+ "table_id": "cii/2024/2_table1b24",
+ "publication": "cii",
+ "year": 2024,
+ "listing": "table_content",
+ "topic": "Summary (Metropolitan Cities)",
+ "section": "Summary (Metropolitan Cities)",
+ "serial": "2",
+ "title": "1B.2 SLL Crimes (City-wise) - 2022-2024",
+ "listing_title": "1B.2 SLL Crimes (City-wise) - 2022-2024",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/TABLE1B24.pdf",
+ "source_file": "raw/cii/2024/table_content/TABLE1B24.pdf",
+ "source_sha256": "ce9ff15d5938cb642ef408097dc55cbd517268cac677a9fd117d2f342bf1466f",
+ "table_no": "1B.2",
+ "pdf_title": "SLL Crimes in Metropolitan Cities - 2022-2024",
+ "row_label": "SL / City",
+ "pages": [
+  1
+ ],
+ "n_rows": 20,
+ "n_cols": 6,
+ "n_cells": 120,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "2022",
+   "header": [
+    "2022"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2023",
+   "header": [
+    "2023"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2024",
+   "header": [
+    "2024"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Actual Population (in Lakhs) (2011)+",
+   "header": [
+    "Actual Population (in Lakhs) (2011)+"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rate of Cognizable Crimes (SLL) (2024)",
+   "header": [
+    "Rate of Cognizable Crimes (SLL) (2024)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Chargesheeti ng Rate",
+   "header": [
+    "Chargesheeti ng Rate"
+   ]
+  }
+ ],
+ "notes": [
+  "'+' Crime Rate is calculated as Crime per one lakh of population. TABLE 1B.2 Page 1 of 1",
+  "● Population Source: Registrar General of India Actual Population based on 2011 Census.",
+  "● As per data provided by States/UTs",
+  "● States/UTs/Cities may not be compared purely on the basis of crime figures"
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

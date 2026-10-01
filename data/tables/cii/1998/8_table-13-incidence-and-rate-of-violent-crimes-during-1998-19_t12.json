@@ -1,0 +1,91 @@
+{
+ "table_id": "cii/1998/8_table-13-incidence-and-rate-of-violent-crimes-during-1998-19_t12",
+ "publication": "cii",
+ "year": 1998,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "8",
+ "title": "!==-!--4=4!",
+ "listing_title": "Incidence and Rate of Violent Crimes During 1998",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13--incidence-and-rate-of-violent-crimes-during-1998-1998.pdf",
+ "source_file": "raw/cii/1998/table_content/table-13--incidence-and-rate-of-violent-crimes-during-1998-1998.pdf",
+ "source_sha256": "7960cef77ba0a69ba578b94d40c6475cf45860f50aeaadc370db11c6b8e0dd0e",
+ "table_no": "12",
+ "pdf_title": "!==-!--4=4!",
+ "row_label": "SL. .STATE/UT NO. / SL. .STATE/UT",
+ "pages": [
+  2
+ ],
+ "n_rows": 35,
+ "n_cols": 7,
+ "n_cells": 238,
+ "columns": [
+  {
+   "col_no": "10",
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "RIOTS",
+   "header": [
+    "RIOTS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "ARSON",
+   "header": [
+    "ARSON"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "DOWRY DEATHS",
+   "header": [
+    "DOWRY DEATHS"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "TOTAL VIOLENT CRIMES",
+   "header": [
+    "TOTAL VIOLENT CRIMES"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "PERCENTAGE SHARE TO ALL-INDIA CRIMES",
+   "header": [
+    "PERCENTAGE SHARE TO ALL-INDIA CRIMES"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "CRIME RATE PERCENTAGE OF VIOLENT TO TOTAL COG. CRIMES CRIME UNDER IPC a7)",
+   "header": [
+    "CRIME RATE PERCENTAGE OF VIOLENT TO TOTAL COG. CRIMES CRIME UNDER IPC a7)"
+   ]
+  }
+ ],
+ "notes": [
+  "All) Meee"
+ ],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 8,
+  "failures": [
+   "col 10 'TOTAL (UTs)': printed 867, sum 857"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

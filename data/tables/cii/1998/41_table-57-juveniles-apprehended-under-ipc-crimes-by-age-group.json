@@ -1,0 +1,102 @@
+{
+ "table_id": "cii/1998/41_table-57-juveniles-apprehended-under-ipc-crimes-by-age-group",
+ "publication": "cii",
+ "year": 1998,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "41",
+ "title": "Juveniles Apprehended Under IPC Crimes By Age Group & Sex During 1998 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Apprehended Under IPC Crimes By Age Group & Sex During 1998 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-57--juveniles-apprehended-under-ipc-crimes-by-age-group-&-sex-during-1998.pdf",
+ "source_file": "raw/cii/1998/table_content/table-57--juveniles-apprehended-under-ipc-crimes-by-age-group-&-sex-during-1998.pdf",
+ "source_sha256": "247bc020b9bea3040aa4874c1f96d1292bb9fd510a1b4c1e41baf82af065e900",
+ "table_no": "57",
+ "pdf_title": "",
+ "row_label": "bo",
+ "pages": [
+  1
+ ],
+ "n_rows": 57,
+ "n_cols": 8,
+ "n_cells": 423,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "JUVENILES .. BOYS",
+   "header": [
+    "JUVENILES .. BOYS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "- - 7-12 YEARS GIRLS",
+   "header": [
+    "- - 7-12 YEARS GIRLS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "- UNDER irc Crimes sy AGE GROUP & SEX DUHING | (STATE, ‘BOYS",
+   "header": [
+    "- UNDER irc Crimes sy AGE GROUP & SEX DUHING",
+    "(STATE, ‘BOYS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "- UNDER irc Crimes sy AGE GROUP & SEX DUHING | UT & CITY-WISE) 12-16 YEARS GIRLS.",
+   "header": [
+    "- UNDER irc Crimes sy AGE GROUP & SEX DUHING",
+    "UT & CITY-WISE) 12-16 YEARS GIRLS."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "- UNDER irc Crimes sy AGE GROUP & SEX DUHING | 16-18 YEARS - ONLY",
+   "header": [
+    "- UNDER irc Crimes sy AGE GROUP & SEX DUHING",
+    "16-18 YEARS - ONLY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "- UNDER irc Crimes sy AGE GROUP & SEX DUHING | OVERALL AGE GROUP sovs",
+   "header": [
+    "- UNDER irc Crimes sy AGE GROUP & SEX DUHING",
+    "OVERALL AGE GROUP sovs"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1998",
+   "header": [
+    "1998"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "TOTAL (BOYS + GIRLS)",
+   "header": [
+    "TOTAL (BOYS + GIRLS)"
+   ]
+  }
+ ],
+ "notes": [
+  "7-12 years means 7 years and above but below 12 years of age etc."
+ ],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 14,
+  "failures": [
+   "col 9 'TOTAL (STATES)': printed 3090, sum 3790"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

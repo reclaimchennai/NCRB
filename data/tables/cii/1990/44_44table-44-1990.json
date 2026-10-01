@@ -1,0 +1,101 @@
+{
+ "table_id": "cii/1990/44_44table-44-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "44",
+ "title": "Juveniles Apprehended under IPC Crimes by Age Group & Sex During 1990 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Apprehended under IPC Crimes by Age Group & Sex During 1990 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/44table-44-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/44table-44-1990-.pdf",
+ "source_sha256": "cc24ac41c379769e8f42a5bca25db8bb05c189e3a3f3ee69909eb9e583421966",
+ "table_no": "44",
+ "pdf_title": "JUVENILES arrss:2ru=:: UNDER IPC CRIMES BY AGE GROUP & SEX DURING 1990 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. STATE/UT/CITY NO. qi)",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 8,
+ "n_cells": 344,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "7 BOYS",
+   "header": [
+    "7 BOYS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "- GIRLS",
+   "header": [
+    "- GIRLS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "12 BOYS (Ss)",
+   "header": [
+    "12 BOYS (Ss)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "YEARS GIRLS",
+   "header": [
+    "YEARS GIRLS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "12-16 GIRLS ONLY",
+   "header": [
+    "12-16 GIRLS ONLY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OVERALL YEARS GROUP BOYS",
+   "header": [
+    "OVERALL YEARS GROUP BOYS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "AGE 16-18 GIRLS",
+   "header": [
+    "AGE 16-18 GIRLS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "YEARS TOTAL (BOYS + GIRLS)",
+   "header": [
+    "YEARS TOTAL (BOYS + GIRLS)"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: 7-12 years means 7 years and above but below 12 years of age etc."
+ ],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 20,
+  "failures": [
+   "col 5 'TOTAL (UTs)': printed 142, sum 151",
+   "col 6 'TOTAL (UTs)': printed 6, sum 5",
+   "col 8 'TOTAL (STATES)': printed 14155, sum 24325",
+   "col 9 'TOTAL (STATES)': printed 2484, sum 3064"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

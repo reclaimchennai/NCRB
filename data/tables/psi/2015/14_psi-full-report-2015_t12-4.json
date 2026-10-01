@@ -1,0 +1,117 @@
+{
+ "table_id": "psi/2015/14_psi-full-report-2015_t12-4",
+ "publication": "psi",
+ "year": 2015,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 2015",
+ "serial": "14",
+ "title": "Details of Electronic Equipments Used in Prisons as on 31st December, 2015",
+ "listing_title": "Download Full Report",
+ "method": "pdf_text",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2015.pdf",
+ "source_file": "raw/psi/2015/year_wise/psi-full-report-2015.pdf",
+ "source_sha256": "76e8971e19cce86c7c2d5ca674b6f262964b2c70503f99029d6ca36ff0408b8c",
+ "table_no": "12.4",
+ "pdf_title": "Details of Electronic Equipments Used in Prisons as on 31st December, 2015",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  198
+ ],
+ "n_rows": 39,
+ "n_cols": 10,
+ "n_cells": 388,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Telex",
+   "header": [
+    "Telex"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Fax",
+   "header": [
+    "Fax"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of Electronic Equipments Available | Electronic Typewriter",
+   "header": [
+    "Number of Electronic Equipments Available",
+    "Electronic Typewriter"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Number of Electronic Equipments Available | Computer",
+   "header": [
+    "Number of Electronic Equipments Available",
+    "Computer"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Number of Electronic Equipments Available | Nonexchange Phone",
+   "header": [
+    "Number of Electronic Equipments Available",
+    "Nonexchange Phone"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Number of Electronic Equipments Available | VHF Set",
+   "header": [
+    "Number of Electronic Equipments Available",
+    "VHF Set"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Number of Electronic Equipments Available | Walkie Talkie",
+   "header": [
+    "Number of Electronic Equipments Available",
+    "Walkie Talkie"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Number of Electronic Equipments Available | CCTV",
+   "header": [
+    "Number of Electronic Equipments Available",
+    "CCTV"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Metal Detector",
+   "header": [
+    "Metal Detector"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Others",
+   "header": [
+    "Others"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 30,
+  "cells_passed": 28,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 782, sum 680",
+   "col 10 'TOTAL (STATES)': printed 6796, sum 4943"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

@@ -1,0 +1,183 @@
+{
+ "table_id": "psi/1998/5_psi-full-report-1998_t45",
+ "publication": "psi",
+ "year": 1998,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1998",
+ "serial": "5",
+ "title": "SANCTIONED AND ACTUAL STRENGTH WOMEN JAIL OFFICIALS AS ON 315\" DECEMBER 1998",
+ "listing_title": "Download Full Report",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
+ "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
+ "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
+ "table_no": "45",
+ "pdf_title": "SANCTIONED AND ACTUAL STRENGTH WOMEN JAIL OFFICIALS AS ON 315\" DECEMBER 1998",
+ "row_label": "STATE/UT SL. NO. a / DG/G/DIG/SUPDT. / DG/G/DIG/SUPDT. ACTUAL / DYSP/JAILOR/ D.JAILOR/A.JAILOR/ A. SUPDT. / DYSP/JAILOR/ D.JAILOR/A.JAILOR/ A. SUPDT. ACTUAL / OFFICERS ACTUAL",
+ "pages": [
+  134,
+  135,
+  136
+ ],
+ "n_rows": 64,
+ "n_cols": 18,
+ "n_cells": 226,
+ "columns": [
+  {
+   "col_no": "9",
+   "name": "HEAD | WARDERS/HEAD MATRON",
+   "header": [
+    "HEAD",
+    "WARDERS/HEAD MATRON"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "HEAD | ACTUAL",
+   "header": [
+    "HEAD",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "WARDER / MATRON ACTUAL (11).",
+   "header": [
+    "WARDER / MATRON ACTUAL (11)."
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "OTHER JAIL CADRE STAFF | SOND",
+   "header": [
+    "OTHER JAIL CADRE STAFF",
+    "SOND"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "OTHER JAIL CADRE STAFF | ACTUAL",
+   "header": [
+    "OTHER JAIL CADRE STAFF",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "PROBATION OFF'CER",
+   "header": [
+    "PROBATION OFF'CER"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "PROBATION OFF'CER | ACTUAL",
+   "header": [
+    "PROBATION OFF'CER",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER CORR. STAFE",
+   "header": [
+    "OTHER CORR. STAFE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "OTHER CORR. STAFE | ACTUAL",
+   "header": [
+    "OTHER CORR. STAFE",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "RMO/MO",
+   "header": [
+    "RMO/MO"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "RMO/MO | ACTUAL",
+   "header": [
+    "RMO/MO",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "(2)",
+   "header": [
+    "(2)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "- 1211",
+   "header": [
+    "- 1211"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "OTHERWEDICAL | (22)",
+   "header": [
+    "OTHERWEDICAL",
+    "(22)"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "OTHERWEDICAL | (23) (27)",
+   "header": [
+    "OTHERWEDICAL",
+    "(23) (27)"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "- (24) (28)",
+   "header": [
+    "- (24) (28)"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "TOTAL | (25) (29)",
+   "header": [
+    "TOTAL",
+    "(25) (29)"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "TOTAL | ACTUAL (26) (30)",
+   "header": [
+    "TOTAL",
+    "ACTUAL (26) (30)"
+   ]
+  }
+ ],
+ "notes": [
+  "NA -DATA NOT AVAILABLE."
+ ],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 10 '“ TOTAL (STATES)': printed 107116, sum 62",
+   "col 10001 'TOTAL (UTS)': printed 0, sum 24",
+   "col 10007 'TOTAL (UTS)': printed 113, sum 2424"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 3,
+ "warnings": []
+}

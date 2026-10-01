@@ -1,0 +1,116 @@
+{
+ "table_id": "cii/1999/58_table-58-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "58",
+ "title": "Juveniles Apprehended Under SLL Crimes by Age Group & Sex During 1999 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Apprehended Under SLL Crimes by Age Group & Sex During 1999 (State, UT & City-Wise)",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-58-1999.pdf",
+ "source_sha256": "0539448406c327a0b1868662f4c00f68e28afdb8b6bc4fae877318fb5f56ce10",
+ "table_no": "58",
+ "pdf_title": "",
+ "row_label": "JUVENILES SL. NO. (1) STAT ES:",
+ "pages": [
+  1
+ ],
+ "n_rows": 59,
+ "n_cols": 8,
+ "n_cells": 449,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999 | (STATE, UT & CITY-WISE) | 7-12 YEARS | (2)",
+   "header": [
+    "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999",
+    "(STATE, UT & CITY-WISE)",
+    "7-12 YEARS",
+    "(2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999 | (STATE, UT & CITY-WISE) | 7-12 YEARS | BOYS eo",
+   "header": [
+    "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999",
+    "(STATE, UT & CITY-WISE)",
+    "7-12 YEARS",
+    "BOYS eo"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999 | (STATE, UT & CITY-WISE) | 12-16 YEARS | GIRLS @",
+   "header": [
+    "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999",
+    "(STATE, UT & CITY-WISE)",
+    "12-16 YEARS",
+    "GIRLS @"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999 | (STATE, UT & CITY-WISE) | 12-16 YEARS | BOYS ©",
+   "header": [
+    "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999",
+    "(STATE, UT & CITY-WISE)",
+    "12-16 YEARS",
+    "BOYS ©"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999 | 16-18 GIRLS ©",
+   "header": [
+    "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999",
+    "16-18 GIRLS ©"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999 | OVFRALI AGF GROUP | GIRLSONLY BOYS m",
+   "header": [
+    "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999",
+    "OVFRALI AGF GROUP",
+    "GIRLSONLY BOYS m"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999 | OVFRALI AGF GROUP | GIRLS",
+   "header": [
+    "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999",
+    "OVFRALI AGF GROUP",
+    "GIRLS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999 | TOTAL (BOYS + GIRLS) (10)",
+   "header": [
+    "UNDER SLI. CRIMES RY AGE GROUP & SEX DURING 1999",
+    "TOTAL (BOYS + GIRLS) (10)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 22,
+  "cells_passed": 19,
+  "failures": [
+   "col 2 'TOTAL (CITIES)': printed 111, sum 110",
+   "col 7 'TOTAL (CITIES)': printed 492, sum 192",
+   "col 8 '- TOTAL (STATES)': printed 2392, sum 1744"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}

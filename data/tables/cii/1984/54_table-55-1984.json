@@ -1,0 +1,72 @@
+{
+ "table_id": "cii/1984/54_table-55-1984",
+ "publication": "cii",
+ "year": 1984,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "54",
+ "title": "The Number of Victims under Different Age Groups for the Crime Head 'Rape' in Different States/U.T.s/Cities During 1984",
+ "listing_title": "The Number of Victims under Different Age Groups for the Crime Head 'Rape' in Different States/U.T.s/Cities During 1984",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-55-1984.pdf",
+ "source_file": "raw/cii/1984/table_content/table-55-1984.pdf",
+ "source_sha256": "b5448d8d0cc19c4b7ac82f54a95b099987403c8df60e062e77adb2d2e7d6769b",
+ "table_no": "55",
+ "pdf_title": "The Number Of Victims Under Different Age groups For The Crime Head ‘Rape' In Different States/U.Ts/Cities During 1984",
+ "row_label": "sl NO / STATES/U. Ts/CITIES",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 4,
+ "n_cells": 186,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NUMBER OF CASES was",
+   "header": [
+    "NUMBER OF CASES was"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BELOW 16 YEARS",
+   "header": [
+    "BELOW 16 YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BETWEEN TO YEARS",
+   "header": [
+    "BETWEEN TO YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "16 30 ABOVE 30 YEARS",
+   "header": [
+    "16 30 ABOVE 30 YEARS"
+   ]
+  }
+ ],
+ "notes": [
+  "NOTE :-“ * “ Victims of Rape are more than the Total Cases Reported."
+ ],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 165, sum 164",
+   "col 5 'TOTAL (States)': printed 4299, sum 3719",
+   "col 6 'TOTAL (UTs)': printed 20, sum 23"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

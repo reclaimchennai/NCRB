@@ -1,0 +1,141 @@
+{
+ "table_id": "cii/1990/52_53table-53-1990",
+ "publication": "cii",
+ "year": 1990,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "52",
+ "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990 (State, UT & City-Wise) Dacoity",
+ "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990 (State, UT & City-Wise) Dacoity",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/53table-53-1990-.pdf",
+ "source_file": "raw/cii/1990/table_content/53table-53-1990-.pdf",
+ "source_sha256": "79581c54a083fdcf5faebe46f65765c64d9138f2820a215f7663101afa04eab8",
+ "table_no": "54",
+ "pdf_title": "LT TABLE - $4 ‘ ;",
+ "row_label": "STATE/UT/CITY SL, NO.",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 96,
+ "n_cols": 13,
+ "n_cells": 586,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NUMBER | RESIDENTIAL PREMISES | NUMBER",
+   "header": [
+    "NUMBER",
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER | RESIDENTIAL PREMISES | VALUE",
+   "header": [
+    "NUMBER",
+    "RESIDENTIAL PREMISES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER | NUMBER",
+   "header": [
+    "NUMBER",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "OF HIGHWAYS VALUE",
+   "header": [
+    "OF HIGHWAYS VALUE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "CASES REPORTED RIVER NUMBER",
+   "header": [
+    "CASES REPORTED RIVER NUMBER"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "AND (STATE, & VALUE",
+   "header": [
+    "AND (STATE, & VALUE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "VALUE UT ROBBERY SEA NUMBER «9)",
+   "header": [
+    "VALUE UT ROBBERY SEA NUMBER «9)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OF STOLEN & CITY-WISE) RATLWAYS VALUE",
+   "header": [
+    "OF STOLEN & CITY-WISE) RATLWAYS VALUE"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "COMMERCIAL t ASTARI.ISHMENTS",
+   "header": [
+    "COMMERCIAL t ASTARI.ISHMENTS"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "OTHER",
+   "header": [
+    "OTHER"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "(Rs. | PLACES",
+   "header": [
+    "(Rs.",
+    "PLACES"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "(Rs. | TOTAL",
+   "header": [
+    "(Rs.",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "lakh) in STATE/UT/CITY",
+   "header": [
+    "lakh) in STATE/UT/CITY"
+   ]
+  }
+ ],
+ "notes": [
+  "Note: Value less than 0.05 is also shown as 0.0"
+ ],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 9769, sum 9582"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

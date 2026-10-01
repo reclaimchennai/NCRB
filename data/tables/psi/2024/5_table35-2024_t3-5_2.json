@@ -1,0 +1,144 @@
+{
+ "table_id": "psi/2024/5_table35-2024_t3-5_2",
+ "publication": "psi",
+ "year": 2024,
+ "listing": "table_content",
+ "topic": "Indian Prisoners",
+ "section": "Indian Prisoners",
+ "serial": "5",
+ "title": "Other Indian Prisoners in Jails by Gender and Age-groups as on 31st December, 2024",
+ "listing_title": "3.5 Other Indian Prisoners in Jails by Gender and Age-groups",
+ "method": "excel",
+ "sheet": "Table 3.5 page 2 of 2",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/TABLE35-2024.xlsx",
+ "source_file": "raw/psi/2024/table_content/TABLE35-2024.xlsx",
+ "source_sha256": "71252d78958484b42f56f0545b3f8d7e8b18d73400db2a035b6fe9ff25b40709",
+ "table_no": "3.5",
+ "pdf_title": "Other Indian Prisoners in Jails by Gender and Age-groups as on 31st December, 2024",
+ "row_label": "Sl. No / State/UT",
+ "pages": [],
+ "n_rows": 40,
+ "n_cols": 12,
+ "n_cells": 480,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "30 – 50 Years | M",
+   "header": [
+    "30 – 50 Years",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "30 – 50 Years | F",
+   "header": [
+    "30 – 50 Years",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "30 – 50 Years | Tr.",
+   "header": [
+    "30 – 50 Years",
+    "Tr."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "30 – 50 Years | Total",
+   "header": [
+    "30 – 50 Years",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "50 Years & Above | M",
+   "header": [
+    "50 Years & Above",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "50 Years & Above | F",
+   "header": [
+    "50 Years & Above",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "50 Years & Above | Tr.",
+   "header": [
+    "50 Years & Above",
+    "Tr."
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "50 Years & Above | Total",
+   "header": [
+    "50 Years & Above",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Total (All Age Groups) | M",
+   "header": [
+    "Total (All Age Groups)",
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Total (All Age Groups) | F",
+   "header": [
+    "Total (All Age Groups)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Total (All Age Groups) | Tr.",
+   "header": [
+    "Total (All Age Groups)",
+    "Tr."
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Total (All Age Groups) | Total",
+   "header": [
+    "Total (All Age Groups)",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [
+  " As per data provided by States/UTs.",
+  "Table 3.5 – Page 2 of 2"
+ ],
+ "checks": {
+  "cells_checked": 36,
+  "cells_passed": 24,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 296, sum 285",
+   "col 4 'TOTAL (STATES)': printed 3, sum -9",
+   "col 5 'TOTAL (STATES)': printed 0, sum -13",
+   "col 6 'TOTAL (STATES)': printed 299, sum 285",
+   "col 7 'TOTAL (STATES)': printed 71, sum 56",
+   "col 8 'TOTAL (STATES)': printed 2, sum -14",
+   "col 9 'TOTAL (STATES)': printed 0, sum -17",
+   "col 10 'TOTAL (STATES)': printed 73, sum 55"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 0,
+ "warnings": []
+}

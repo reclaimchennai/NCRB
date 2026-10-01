@@ -1,0 +1,102 @@
+{
+ "table_id": "cii/1983/12_table-221-1983_t22",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "12",
+ "title": "—conid",
+ "listing_title": "Persons Arrested under IPC Crimes by Sex During 1983",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-221-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-221-1983.pdf",
+ "source_sha256": "8bd70f86db09e3798182fc6907e2008b82f182241c0780745c8aa4d4d3a50995",
+ "table_no": "22",
+ "pdf_title": "—conid",
+ "row_label": "sl. States/U.Ts. /Cities ram STATES",
+ "pages": [
+  2
+ ],
+ "n_rows": 48,
+ "n_cols": 8,
+ "n_cells": 342,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Dacoity | - Male",
+   "header": [
+    "Dacoity",
+    "- Male"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Dacoity | Female",
+   "header": [
+    "Dacoity",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Dacoity | -",
+   "header": [
+    "Dacoity",
+    "-"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Robbery Male",
+   "header": [
+    "Robbery Male"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Burglary | Female (6)",
+   "header": [
+    "Burglary",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Burglary | - Male",
+   "header": [
+    "Burglary",
+    "- Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Burglary | Female (8)",
+   "header": [
+    "Burglary",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Thefts - - Male Female",
+   "header": [
+    "Thefts - - Male Female"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'TOTAL (U.Ts.)': printed 328, sum 53150"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 1
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 1,
+ "warnings": []
+}
