@@ -30,6 +30,16 @@ from .vlm_tables import cache_path, file_sha, read_page, scanned_pages
 LISTING_ORDER = {"table_content": 0, "additional_table": 0, "table_chapter": 1, "year_wise": 2}
 
 
+_scanned: dict[str, list[int]] = {}
+
+
+def scanned_pages_cached(doc, path) -> list[int]:
+    key = str(path)
+    if key not in _scanned:
+        _scanned[key] = scanned_pages(doc)
+    return _scanned[key]
+
+
 def priority_files(pub: str | None) -> list[str]:
     """Scanned source files, the ones whose current tables fail the totals check first."""
     files = [r for r in csv.DictReader(FILE_INDEX.open(encoding="utf-8")) if int(r["pages_ocr"] or 0) > 0]
@@ -53,11 +63,29 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--files", help="JSON list of {source_file} to do, instead of the priority order")
+    ap.add_argument("--pages", help="JSON list of {source_file, pages: [first, last]}: only those pages")
     ap.add_argument("--pub", choices=["cii", "psi", "adsi"])
     ap.add_argument("--listing", help="only files from this listing")
     ap.add_argument("--limit", type=int, help="stop after this many pages")
     args = ap.parse_args()
 
+    if args.pages:
+        # specific pages: [{"source_file": ..., "pages": [first, last]}, ...]
+        done = 0
+        for item in json.load(open(args.pages)):
+            path = ROOT / item["source_file"]
+            doc = fitz.open(path)
+            sha = file_sha(path)
+            first, last = item.get("pages", [1, len(doc)])
+            for p in range(first, min(last, len(doc)) + 1):
+                if p not in scanned_pages_cached(doc, path) or cache_path(args.model, sha, p).exists():
+                    continue
+                t = time.time()
+                read_page(doc, p, sha, args.model)
+                done += 1
+                print(f"[{done}] {item['source_file']} p{p} {time.time() - t:.0f}s", flush=True)
+            doc.close()
+        return
     if args.files:
         todo = list(dict.fromkeys(x["source_file"] for x in json.load(open(args.files))))
     else:

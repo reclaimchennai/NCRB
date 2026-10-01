@@ -24,6 +24,7 @@ Counts and quality for every publication and year: [docs/COVERAGE.md](docs/COVER
 - [How the data was collected and extracted](#how-the-data-was-collected-and-extracted)
 - [Using the data](#using-the-data)
 - [Rebuilding everything](#rebuilding-everything)
+- [Chennai over time: traffic accidents and suicides](#chennai-over-time-traffic-accidents-and-suicides)
 - [Documentation](#documentation) · [Source and terms](#source-and-terms)
 
 ## What is where
@@ -196,6 +197,23 @@ uv run python -m ncrb.webdata     # -> dashboard database
 Every step is incremental. `--pub cii|adsi|psi`, `--year N` and `--listing`
 narrow `download` and `extract`.
 
+## Chennai over time: traffic accidents and suicides
+
+[`analysis/`](analysis/README.md) follows single tables across every year they
+were printed and joins them into tidy series, with charts and a report
+(`analysis/output/report.html`):
+
+- traffic accidents in Chennai by time of day (1996–2024, polar chart) and by month (1997, 2000–2024)
+- persons killed in traffic accidents in Tamil Nadu by time and month (2021–2024)
+- suicides in Tamil Nadu by means and by profession (2004–2024; by age 2021–2024)
+- suicides by sex and age group in Tamil Nadu, Chennai and every big city (2004–2015, Tamil Nadu also 2021–2024)
+- suicide rates for every State, UT and city (1976, 1988–1992, 2004–2024)
+- every figure printed for Chennai/Madras in any table (`chennai_all_figures.csv.gz`)
+
+```bash
+uv run --extra analysis --extra vlm python -m analysis.run
+```
+
 ## Documentation
 
 - [docs/DATA_FORMAT.md](docs/DATA_FORMAT.md): every file and column
@@ -204,6 +222,7 @@ narrow `download` and `extract`.
 - [docs/SOURCES.md](docs/SOURCES.md): the NCRB pages the data comes from
 - [docs/COVERAGE.md](docs/COVERAGE.md): counts and check results per year; files NCRB lists but does not serve
 - [ARCHITECTURE.md](ARCHITECTURE.md): how the dashboard is deployed
+- [analysis/README.md](analysis/README.md): the Chennai time series, how years are joined and checked
 
 ## Source and terms
 

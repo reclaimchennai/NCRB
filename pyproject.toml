@@ -25,6 +25,9 @@ dependencies = [
 vlm = [
     "mlx-vlm>=0.7.4",
 ]
+analysis = [
+    "plotly>=7.1.0",
+]
 
 [build-system]
 requires = ["hatchling"]
