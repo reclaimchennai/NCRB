@@ -5,7 +5,7 @@ annual statistical reports, taken out of the PDFs and spreadsheets on
 [ncrb.gov.in](https://www.ncrb.gov.in) and turned into CSV, JSON and Parquet,
 with the source files, the code that did it, and a check on every table.
 
-**Explore it in the browser:** <https://cpi.reclaimchennai.city/ncrb/>
+**Explore it in the browser:** <https://ncrb.reclaimchennai.city/>
 (search, read a table as printed, chart and map it, follow it across years).
 
 | Code | Publication | Years | Files | Tables | Figures |
@@ -199,9 +199,9 @@ narrow `download` and `extract`.
 
 ## Trends dashboard and the Chennai report
 
-**<https://cpi.reclaimchennai.city/ncrb/trends/>**: traffic accidents and
+**<https://ncrb.reclaimchennai.city/trends/>**: traffic accidents and
 suicides for every State, UT and big city, every year, with play, snapshot
-and video recording. **<https://cpi.reclaimchennai.city/ncrb/chennai/>**: the
+and video recording. **<https://ncrb.reclaimchennai.city/chennai/>**: the
 same charts arranged as the story of Chennai and Tamil Nadu.
 
 | Dataset | Years | Places |
@@ -210,14 +210,18 @@ same charts arranged as the story of Chennai and Tamil Nadu.
 | Traffic accidents by month | 1996–2024 | same |
 | Persons killed in traffic accidents by time of day / month | 2021–2024 | States and UTs (not printed city-wise) |
 | Suicides by means, profession, cause, education (by sex; by age 2001–2012 and 2021–) | 2001–2024 | States and UTs; cities 2004–2015 (causes to 2024) |
-| Suicides by age group and sex | 2001–2015, 2021–2024 | States and UTs; cities 2004–2015 (NCRB printed only all-India figures in 2016–2020) |
-| Suicides, population and rate | 1976, 1988–1992, 2001–2024 (rate from 2004) | States, UTs, cities |
+| Suicides by age group and sex | 2001–2015, 2021–2024 | States and UTs; cities 2004–2015 and 2019 (NCRB printed only all-India figures in 2016–2020) |
+| Suicides, population and rate | 1976, 1988–1992, 1998–2024 | States, UTs, cities |
 
 2001–2003, and the age breakdown of every suicide table up to 2012, come from
 *Suicides in India 2001–2012*, the State-wise dataset NCRB contributed to
 data.gov.in ([data/ogd/](data/ogd/README.md)); NCRB's site carries no
-State-wise suicide tables for 2001–2003. Everything else is NCRB's published
-tables, read and checked as described above.
+State-wise suicide tables for 2001–2003. Suicide rates for 1998–2003 and the
+2019 city table of suicides by sex and age come from copies of ADSI tables in
+Reclaim Chennai's OpenDataChennai repository (also in `data/ogd/`). Everything
+else is NCRB's published tables, read and checked as described above. Every
+picture or video saved from a chart names the tables and sources behind the
+years it shows.
 
 ```bash
 uv run --extra analysis --extra vlm python -m analysis.export   # web/data/trends/ and analysis/output/trends_*.csv.gz

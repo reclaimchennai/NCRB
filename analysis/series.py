@@ -442,6 +442,11 @@ def suicide_rates() -> tuple[pd.DataFrame, pd.DataFrame]:
     from .lib import col_order
 
     picked = tables_for("suicide_rate")
+    try:
+        from .engine import PROV
+        PROV["suicide_rate"] = picked[["year", "title", "source_url", "method"]].copy()
+    except ImportError:
+        pass
     marks = ",".join("?" for _ in picked.table_id)
     cells = q(
         f'SELECT table_id, year, "row", section, name, col_no, "column", value FROM cells WHERE table_id IN ({marks})',

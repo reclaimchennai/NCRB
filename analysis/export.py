@@ -36,6 +36,8 @@ def clean(d: pd.DataFrame) -> pd.DataFrame:
     """Records that passed their checks; numbers as plain ints where they are counts."""
     d = d[d["check"].isin(OK) | (d["check"] == "no total")].copy()
     d = d[d["value"].notna()]
+    # where the figure comes from, for the credit line: NCRB's own tables however they were read, or the two others
+    d["source"] = d["source"].where(d["source"].isin(["ogd", "odc"]), "ncrb")
     d["year"] = d["year"].astype(int)
     for c in ("group", "cat", "sex", "age"):
         d[c] = d[c].fillna("").astype(str)
@@ -73,8 +75,21 @@ def write(name: str, spec: dict, d: pd.DataFrame) -> dict:
         for cat, x in head.groupby("cat"):
             series[cats.index(cat)] = {int(y): num(v) for y, v in zip(x.year, x.value)}
         places.append({"key": key, "name": place, "type": ptype, "years": sorted(int(y) for y in g.year.unique()), "head": series})
+    from .engine import PROV
+
+    tables = {}
+    for t in spec.get("topics", []):
+        pv = PROV.get(t)
+        if pv is None:
+            continue
+        for r in pv.itertuples():
+            lst = tables.setdefault(str(int(r.year)), [])
+            if not any(x["title"] == r.title for x in lst):
+                lst.append({"title": re.sub(r"\s+", " ", str(r.title)).strip()[:200], "url": r.source_url})
     meta = {
         "id": name, "title": spec["title"], "unit": spec["unit"],
+        "tables": tables,
+        "year_sources": {str(y): sorted(set(x.source)) for y, x in d.groupby("year")},
         "cats": cats, "groups": groups, "sexes": sexes, "ages": ages,
         "years": sorted(int(y) for y in d.year.unique()),
         "sources": sorted(set(d.source)),

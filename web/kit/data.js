@@ -1,7 +1,7 @@
 /* Reading web/data/trends/: one dataset's index and one place's breakdown,
  * with lookups by label rather than by index. */
 
-import { getJSON } from './util.js?v=bbe340d7cd';
+import { getJSON } from './util.js?v=7ce592264a';
 
 const BASE = new URL('../data/trends/', import.meta.url).href;
 const cache = new Map();
@@ -37,7 +37,7 @@ export async function place(ds, key) {
     for (const c of cats) { const v = get(c, opts)[y]; if (v != null) { s += v; any = true; } }
     return any ? s : null;
   };
-  return { meta, name: p.place, type: p.type, years, get, total, cats };
+  return { meta, name: p.place, type: p.type, years, get, total, cats, sources: p.sources };
 }
 
 /** Years that have at least one value under opts. */

@@ -6,11 +6,11 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=bbe340d7cd';
-import { lineChart, barRows, stackRows, heatmap, clocks, emptyChart } from '../kit/grapher.js?v=bbe340d7cd';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=bbe340d7cd';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=bbe340d7cd';
-import { footerHtml, SOURCE_LINE } from '../kit/footer.js?v=bbe340d7cd';
+import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=7ce592264a';
+import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=7ce592264a';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=7ce592264a';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=7ce592264a';
+import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=7ce592264a';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];
@@ -37,7 +37,7 @@ function yearCard(parent, { id, kicker, years, render, meta, name, start = 'last
   if (start === 'first') tl.set(0, true);
   c.toolbar.after(tl.root);
   tl.on(pos => render(pos));
-  bindCapture(c, { meta: () => ({ kicker, title: $('h2', c.el).textContent, subtitle: $('.titles p', c.el).textContent, year: tl.year, source: meta?.() || SOURCE_LINE }), record: { timeline: tl, render }, name });
+  bindCapture(c, { meta: () => ({ kicker, title: $('h2', c.el).textContent, subtitle: $('.titles p', c.el).textContent, year: tl.year, source: meta ? meta(tl.year) : SOURCE_LINE }), record: { timeline: tl, render }, name });
   redraws.push(() => render(tl.pos));
   return { c, tl };
 }
@@ -69,7 +69,7 @@ async function trafficTime() {
   const mx = { count: 0, share: 0 };
   for (const y of ys) for (const s of SLOTS) { const v = P.get(s, { group: 'Road' })[y] || 0; mx.count = Math.max(mx.count, v); mx.share = Math.max(mx.share, (100 * v) / tot[y]); }
   const { c, tl } = yearCard(root(), {
-    id: 'chn-clock', kicker: 'Chennai · road accidents by time of day', years: ys, name: 'chennai-clock',
+    id: 'chn-clock', kicker: 'Chennai · road accidents by time of day', years: ys, name: 'chennai-clock', meta: y => creditLine(P.meta, [y], P.sources),
     render: pos => {
       const y = ys[Math.round(pos)];
       const vals = Object.fromEntries(SLOTS.map(s => [s, at(P.get(s, { group: 'Road' }), ys, pos) ?? 0]));
@@ -86,9 +86,20 @@ async function trafficTime() {
   const gaps = []; for (let y = ys[0]; y <= last; y++) if (!ys.includes(y)) gaps.push(y);
   c.set({ note: gaps.length ? `No reliable figures for ${span(gaps)}.` : '' });
 
+  const H = {};
+  H.card = yearCard(root(), {
+    id: 'chn-hour-lines', kicker: 'Chennai · road accidents by time of day', years: ys, name: 'chennai-hour-lines', meta: () => creditLine(P.meta, ys, P.sources),
+    render: pos => {
+      const tl = H.card?.tl;
+      const rev = !!(tl && (tl.playing || tl.recording));
+      seasonChart(H.card.c.svg, { cats: SLOTS, years: ys, get: (y, sl) => P.get(sl, { group: 'Road' })[y] ?? null, pos, reveal: rev, xLabel: sl => `${sl.slice(0, 2)}–${sl.slice(3)} h` });
+      H.card.c.set({ title: `Road accidents in Chennai, hour by hour: ${ys[rev ? Math.floor(pos) : Math.round(pos)]} against every other year`, sub: 'number of road accidents in each three-hour slot · each grey line is one year' });
+    },
+  });
+  H.card.c.setLegend([{ label: 'the year on the timeline', color: 'var(--critical)', line: true }, { label: 'every other year', color: 'var(--axis)', line: true }]);
   const xs = []; for (let y = ys[0]; y <= last; y++) xs.push(y);
   const c2 = plainCard(root(), {
-    id: 'chn-daynight', kicker: 'Chennai · road accidents', name: 'chennai-day-night',
+    id: 'chn-daynight', kicker: 'Chennai · road accidents', name: 'chennai-day-night', meta: () => creditLine(P.meta, ys, P.sources),
     render: () => {
       lineChart(c2.svg, { xs, series: [{ key: 'n', label: 'Night (6 pm – 6 am)', color: 'var(--night)', values: night }, { key: 'd', label: 'Day (6 am – 6 pm)', color: 'var(--day)', values: day }], fmt: fmt1, unit: '%', yFmt: v => `${v}%` });
     },
@@ -96,7 +107,7 @@ async function trafficTime() {
   c2.set({ title: 'Day and night: share of Chennai\'s road accidents', sub: '% of each year\'s road accidents' });
   c2.setLegend([{ label: 'Night', color: 'var(--night)', line: true }, { label: 'Day', color: 'var(--day)', line: true }]);
   const c3 = plainCard(root(), {
-    id: 'chn-total', kicker: 'Chennai · road accidents', name: 'chennai-road-accidents',
+    id: 'chn-total', kicker: 'Chennai · road accidents', name: 'chennai-road-accidents', meta: () => creditLine(P.meta, ys, P.sources),
     render: () => lineChart(c3.svg, { xs, series: [{ key: 't', label: 'Road accidents', color: 'var(--critical)', values: tot }], height: 260 }),
   });
   c3.set({ title: 'Road accidents in Chennai, every year', sub: 'number of road accidents' });
@@ -111,8 +122,20 @@ async function trafficMonth() {
   const avg = Object.fromEntries(MONTHS.map(m => [m, share[m].reduce((a, b) => a + b, 0) / (share[m].length || 1)]));
   const hi = MONTHS.reduce((a, b) => (avg[b] > avg[a] ? b : a)), lo = MONTHS.reduce((a, b) => (avg[b] < avg[a] ? b : a));
   section('Month by month', `<p>Month tables for Chennai cover ${span(ys)}. On average ${hi} has had the largest share of the year's road accidents (${fmtPct(avg[hi])}) and ${lo} the smallest (${fmtPct(avg[lo])}); an even spread would be 8.3% a month. Each cell carries the number and its share of the year.</p>`);
+  const S = {};
+  S.card = yearCard(root(), {
+    id: 'chn-month-lines', kicker: 'Chennai · road accidents by month', years: ys, name: 'chennai-month-lines', meta: () => creditLine(P.meta, ys, P.sources),
+    render: pos => {
+      const tl = S.card?.tl;
+      seasonChart(S.card.c.svg, { cats: MONTHS, years: ys, get: (y, m) => P.get(m, { group: 'Road' })[y] ?? null, pos, reveal: !!(tl && (tl.playing || tl.recording)) });
+      const y = ys[tl && (tl.playing || tl.recording) ? Math.floor(pos) : Math.round(pos)];
+      S.card.c.set({ title: `Road accidents in Chennai, month by month: ${y} against every other year`, sub: 'number of road accidents · each grey line is one year' });
+    },
+  });
+  S.card.c.setLegend([{ label: 'the year on the timeline', color: 'var(--critical)', line: true }, { label: 'every other year', color: 'var(--axis)', line: true }]);
+  S.card.c.set({ note: 'Drag the timeline to pick out a year. Play, or record a video, to watch the years arrive one by one: each year draws itself in red, then joins the others in grey.' });
   const c = plainCard(root(), {
-    id: 'chn-month', kicker: 'Chennai · road accidents by month', name: 'chennai-month',
+    id: 'chn-month', kicker: 'Chennai · road accidents by month', name: 'chennai-month', meta: () => creditLine(P.meta, ys, P.sources),
     render: () => {
       let max = 0; for (const m of MONTHS) for (const y of ys) max = Math.max(max, P.get(m, { group: 'Road' })[y] || 0);
       const tots = Object.fromEntries(ys.map(y => [y, P.total(y, { group: 'Road' })]));
@@ -131,7 +154,7 @@ async function roadDeaths() {
   const tot = Object.fromEntries(ys.map(y => [y, P.total(y, { group: 'Road' })]));
   let mx = 0; for (const y of ys) for (const s of SLOTS) mx = Math.max(mx, P.get(s, { group: 'Road' })[y] || 0);
   const { c } = yearCard(root(), {
-    id: 'tn-deaths', kicker: 'Tamil Nadu · persons killed in road accidents', years: ys, name: 'tn-road-deaths-clock',
+    id: 'tn-deaths', kicker: 'Tamil Nadu · persons killed in road accidents', years: ys, name: 'tn-road-deaths-clock', meta: y => creditLine(P.meta, [y], P.sources),
     render: pos => {
       const y = ys[Math.round(pos)];
       clocks(c.svg, { values: Object.fromEntries(SLOTS.map(s => [s, at(P.get(s, { group: 'Road' }), ys, pos) ?? 0])), max: mx, year: y });
@@ -152,13 +175,13 @@ async function means() {
   section('Suicides in Tamil Nadu by means', `<p>Hanging was ${fmtPct(h[first], 0)} of suicides in ${first} and ${fmtPct(h[last], 0)} in ${last}. NCRB's names for the means change between editions; they are mapped to one list here.</p>`);
   const xs = []; for (let y = ys[0]; y <= last; y++) xs.push(y);
   const c1 = plainCard(root(), {
-    id: 'tn-means-lines', kicker: 'Tamil Nadu · suicides by means', name: 'tn-means-share',
+    id: 'tn-means-lines', kicker: 'Tamil Nadu · suicides by means', name: 'tn-means-share', meta: () => creditLine(P.meta, ys, P.sources),
     render: () => lineChart(c1.svg, { xs, series: top.map((c, i) => ({ key: c, label: c, color: SERIES(i), values: shares(c) })), fmt: fmt1, unit: '%', yFmt: v => `${v}%` }),
   });
   c1.set({ title: 'Means adopted, share of all suicides in Tamil Nadu', sub: '% of each year\'s suicides, both sexes' });
   c1.setLegend(top.map((c, i) => ({ label: c, color: SERIES(i), line: true })));
   const { c } = yearCard(root(), {
-    id: 'tn-means-year', kicker: 'Tamil Nadu · suicides by means', years: ys, name: 'tn-means-year',
+    id: 'tn-means-year', kicker: 'Tamil Nadu · suicides by means', years: ys, name: 'tn-means-year', meta: y => creditLine(P.meta, [y], P.sources),
     render: pos => {
       const y = ys[Math.round(pos)];
       const i0 = Math.floor(pos), i1 = Math.min(ys.length - 1, i0 + 1), f = pos - i0;
@@ -182,7 +205,7 @@ async function profession() {
   section('Suicides in Tamil Nadu by profession', `<p>Profession tables run ${span(ys)}. Tables by profession, sex <i>and</i> age exist for ${span(ay)}: up to 2012 from the dataset NCRB gave data.gov.in, from 2021 in NCRB's own State-wise tables. In 2014 NCRB split the 'others' group into new professions (daily wage earners, agricultural labourers…), which is why 'Other / not known' shrinks that year.</p>`);
   let sex = 'Total';
   const c = plainCard(root(), {
-    id: 'tn-prof-heat', kicker: 'Tamil Nadu · suicides by profession', name: 'tn-profession-years',
+    id: 'tn-prof-heat', kicker: 'Tamil Nadu · suicides by profession', name: 'tn-profession-years', meta: () => creditLine(P.meta, ys, P.sources),
     render: () => {
       let max = 0; for (const cc of order) for (const y of ys) max = Math.max(max, P.get(cc, { sex })[y] || 0);
       const tots = Object.fromEntries(ys.map(y => [y, P.total(y, { sex })]));
@@ -197,7 +220,7 @@ async function profession() {
   // profession x sex x age, the breakdown in the reader's own 2001-2012 chart
   let sex2 = 'Female', mode = 'count';
   const { c: c2 } = yearCard(root(), {
-    id: 'tn-prof-age', kicker: 'Tamil Nadu · suicides by profession, sex and age group', years: ay, name: 'tn-profession-age',
+    id: 'tn-prof-age', kicker: 'Tamil Nadu · suicides by profession, sex and age group', years: ay, name: 'tn-profession-age', meta: y => creditLine(P.meta, [y], P.sources),
     render: pos => {
       const y = ay[Math.round(pos)];
       const present = ages.filter(a => order.some(cc => P.get(cc, { sex: sex2, age: a })[y] != null));
@@ -229,7 +252,7 @@ async function ageSex() {
   const ys = [...new Set([...tys, ...cys])].sort((a, b) => a - b);
   let mode = 'share';
   const { c } = yearCard(root(), {
-    id: 'age-profile', kicker: 'Tamil Nadu and Chennai · suicides by age group', years: ys, name: 'tn-chennai-age-profile', start: 'first',
+    id: 'age-profile', kicker: 'Tamil Nadu and Chennai · suicides by age group', years: ys, name: 'tn-chennai-age-profile', start: 'first', meta: y => creditLine(meta, [y]),
     render: pos => {
       const y = ys[Math.round(pos)];
       const present = ageOrder.filter(a => [TN, CH].some(P => ['Male', 'Female'].some(s => P.get(a, { sex: s })[y] != null)));
@@ -253,7 +276,7 @@ async function ageSex() {
   const cities = meta.places.filter(p => p.type === 'city' && METROS.includes(p.name));
   const mys = [...new Set(cities.flatMap(p => p.years))].sort((a, b) => a - b);
   const { c: c2 } = yearCard(root(), {
-    id: 'metros-age', kicker: 'The metros · suicides by age group', years: mys, name: 'metros-age-profile', start: 'first',
+    id: 'metros-age', kicker: 'The metros · suicides by age group', years: mys, name: 'metros-age-profile', start: 'first', meta: y => creditLine(meta, [y]),
     render: pos => {
       const y = mys[Math.round(pos)];
       const present = ageOrder.filter(a => cities.some(p => p.head[meta.cats.indexOf(a)]?.[y] != null));
@@ -281,7 +304,7 @@ async function rates() {
   section('Suicide rate', `<p>Rates are suicides per lakh people, as NCRB printed them, for ${span(ys)}. In ${last} Tamil Nadu's rate was <b>${fmt1(tn.head[ri][last])}</b> against ${fmt1(india.head[ri][last])} for India, ${k}${['th', 'st', 'nd', 'rd'][k % 10 > 3 || [11, 12, 13].includes(k % 100) ? 0 : k % 10]} of ${rank.length} States and UTs. Chennai's was ${fmt1(ch.head[ri][last])}.</p>`);
   const xs = []; for (let y = ys[0]; y <= last; y++) xs.push(y);
   const c = plainCard(root(), {
-    id: 'rates-lines', kicker: 'Suicide rate', name: 'suicide-rate-chennai-tn-india',
+    id: 'rates-lines', kicker: 'Suicide rate', name: 'suicide-rate-chennai-tn-india', meta: () => creditLine(meta, ys),
     render: () => lineChart(c.svg, { xs, series: [
       { key: 'c', label: 'Chennai', color: 'var(--critical)', values: ch.head[ri] || {} },
       { key: 't', label: 'Tamil Nadu', color: 'var(--series-2)', values: tn.head[ri] || {} },
@@ -296,7 +319,7 @@ async function rates() {
   const rys = [...new Set(states.flatMap(p => Object.keys(p.head[ri] || {}).map(Number)))].filter(y => states.filter(p => p.head[ri]?.[y] != null).length >= 15).sort((a, b) => a - b);
   let gmax = 0; for (const p of states) for (const y of rys) gmax = Math.max(gmax, p.head[ri]?.[y] || 0);
   const { c: c2 } = yearCard(root(), {
-    id: 'rates-rank', kicker: 'Suicide rate · States and UTs', years: rys, name: 'suicide-rate-states', start: 'first',
+    id: 'rates-rank', kicker: 'Suicide rate · States and UTs', years: rys, name: 'suicide-rate-states', start: 'first', meta: y => creditLine(meta, [y]),
     render: pos => {
       const y = rys[Math.round(pos)];
       const i0 = Math.floor(pos), i1 = Math.min(rys.length - 1, i0 + 1), f = pos - i0;
@@ -312,6 +335,26 @@ async function rates() {
       c2.set({ title: `Suicide rate by State and UT, ${y}`, sub: 'suicides per lakh people · Tamil Nadu highlighted' });
     },
   });
+}
+
+async function rateMap() {
+  const meta = await loadIndex('suicide_rate');
+  const [geo, outline] = await Promise.all([getJSON('../geo/india-states.geojson'), getJSON('../geo/india-outline.geojson')]);
+  const ri = meta.cats.indexOf('Rate');
+  const states = meta.places.filter(p => p.type === 'state' || p.type === 'ut');
+  const ys = [...new Set(states.flatMap(p => Object.keys(p.head[ri] || {}).map(Number)))].filter(y => states.filter(p => p.head[ri]?.[y] != null).length >= 15).sort((a, b) => a - b);
+  let gmax = 0; for (const p of states) for (const y of ys) gmax = Math.max(gmax, p.head[ri]?.[y] || 0);
+  const { c } = yearCard(root(), {
+    id: 'rates-map', kicker: 'Suicide rate · India', years: ys, name: 'suicide-rate-map', start: 'first', meta: y => creditLine(meta, [y]),
+    render: pos => {
+      const y = ys[Math.round(pos)];
+      const values = {};
+      for (const p of states) { const v = at(p.head[ri], ys, pos); if (v != null) values[p.name] = v; }
+      choropleth(c.svg, { geo, outline, values, max: gmax, year: y, fmt: fmt1, hl: 'Tamil Nadu', label: 'Suicides per lakh people' });
+      c.set({ title: `Suicide rate by State and UT, ${y}`, sub: `suicides per lakh people · colour scale fixed across ${ys[0]}–${ys.at(-1)} · Tamil Nadu outlined` });
+    },
+  });
+  c.set({ note: 'Boundaries: datameet (pre-2019 lines). Ladakh is drawn with Jammu & Kashmir; before 2014 Telangana is shaded with Andhra Pradesh, of which it was part.' });
 }
 
 /* ================================================================== boot */
@@ -337,7 +380,7 @@ async function boot() {
   initTheme(redrawAll);
   $('#foot').innerHTML = footerHtml();
   await tiles();
-  for (const f of [trafficTime, trafficMonth, roadDeaths, means, profession, ageSex, rates]) {
+  for (const f of [trafficTime, trafficMonth, roadDeaths, means, profession, ageSex, rates, rateMap]) {
     try { await f(); } catch (e) { console.error(e); root().append(el('div', { class: 'card' }, `<div class="empty">Could not draw this section: ${esc(e.message)}</div>`)); }
   }
   redrawAll();

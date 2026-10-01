@@ -10,15 +10,18 @@
  * the source of the figures, and @reclaimchennai as its author.
  */
 
-import { fixWebmDuration } from './webm.js?v=bbe340d7cd';
-import { cssVar } from './util.js?v=bbe340d7cd';
+import { fixWebmDuration } from './webm.js?v=7ce592264a';
+import { cssVar } from './util.js?v=7ce592264a';
 
 const OUT_FPS = 30;
 const CODECS = ['avc1.640028', 'avc1.4d0028', 'avc1.42003c', 'avc1.42E01E'];
 const MAX_SECONDS = 30;
-const W = 1080;
+const MIN_W = 1080;          // logical width of a saved frame, at least
+const CHART_SCALE = 1.5;     // chart drawn 1.5x its on-screen size: 11px labels become ~17px
+const MAX_SNAP_PX = 4096;    // snapshot: the longest side in real pixels
+const MAX_VIDEO_W = 1920;    // video: H.264 at 1080p width or less plays everywhere
 const PAD = 48;
-const SITE = 'cpi.reclaimchennai.city/ncrb';
+const SITE = 'ncrb.reclaimchennai.city';
 const AUTHOR = '@reclaimchennai';
 
 const INLINE_PROPS = [
@@ -46,7 +49,7 @@ function inlineStyles(src, clone) {
   }
 }
 
-function rasterise(svgEl) {
+function rasterise(svgEl, px = 1) {
   const vb = svgEl.viewBox.baseVal;
   const clone = svgEl.cloneNode(true);
   inlineStyles(svgEl, clone);
@@ -55,8 +58,9 @@ function rasterise(svgEl) {
   live.forEach((n, i) => { if (n.classList?.contains('big-year') || n.classList?.contains('hit') || n.classList?.contains('crosshair')) copy[i].setAttribute('data-drop', '1'); });
   clone.querySelectorAll('[data-drop]').forEach(n => n.remove());
   clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-  clone.setAttribute('width', vb.width);
-  clone.setAttribute('height', vb.height);
+  // rasterised at the size it will be drawn, so the vector stays sharp instead of being scaled up
+  clone.setAttribute('width', Math.round(vb.width * px));
+  clone.setAttribute('height', Math.round(vb.height * px));
   const xml = new XMLSerializer().serializeToString(clone);
   const img = new Image();
   img.src = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(xml)}`;
@@ -79,22 +83,34 @@ const FONT = 'system-ui, -apple-system, "Segoe UI", Roboto, sans-serif';
 
 export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
   const out = document.createElement('canvas');
-  let locked = null;
+  let locked = null;          // {W, H}, fixed for a whole recording
+  let lastSize = null;
   let recording = null;
 
-  async function drawFrame() {
+  /**
+   * One finished frame. The frame is as wide as the chart needs at CHART_SCALE
+   * (a wide heatmap gets a wide picture rather than shrunken numbers), and a
+   * snapshot is drawn at 2-3x pixel density so it stays sharp when zoomed or
+   * printed. A video frame stays at 1x and at most 1920 wide.
+   */
+  async function drawFrame({ video = false } = {}) {
     const info = meta();
-    const shots = await Promise.all(getSvgs().filter(Boolean).map(rasterise));
-    const ctx = out.getContext('2d');
+    const svgs = getSvgs().filter(Boolean);
+    const widest = Math.max(...svgs.map(s => s.viewBox.baseVal.width), 600);
+    let W = locked?.W ?? Math.max(MIN_W, Math.round(widest * CHART_SCALE + PAD * 2));
+    if (video) W = Math.min(W, MAX_VIDEO_W);
+    W += W % 2;
     const inner = W - PAD * 2;
+    const ctx = out.getContext('2d');
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
     // measure the header first: wrapped title and subtitle decide where the chart starts
     ctx.font = `700 40px ${FONT}`;
     const titleLines = wrap(ctx, info.title, inner - (info.year ? 190 : 0));
     ctx.font = `400 22px ${FONT}`;
     const subLines = wrap(ctx, info.subtitle, inner);
     const headH = 46 + titleLines.length * 48 + subLines.length * 30 + 18;
-    const charts = shots.map(s => ({ ...s, scale: Math.min(2.2, inner / s.w) }));
-    const chartH = charts.reduce((a, c) => a + c.h * c.scale + 14, 0);
+    const scales = svgs.map(s => Math.min(2.2, inner / s.viewBox.baseVal.width));
+    const chartH = svgs.reduce((a, s, i) => a + s.viewBox.baseVal.height * scales[i] + 14, 0);
     ctx.font = `500 19px ${FONT}`;
     let legendRows = 0;
     if (info.legend?.length) {
@@ -109,10 +125,15 @@ export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
     ctx.font = `400 17px ${FONT}`;
     const srcLines = wrap(ctx, info.source, inner);
     const footH = 34 + 32 + srcLines.length * 24 + 26;
-    let H = Math.round(headH + chartH + legendH + footH);
-    if (H % 2) H += 1;
-    if (locked) H = locked;
-    if (out.width !== W || out.height !== H) { out.width = W; out.height = H; }
+    let H = locked?.H ?? Math.round(headH + chartH + legendH + footH);
+    H += H % 2;
+    const dpr = video ? 1 : Math.max(1, Math.min(3, Math.floor(MAX_SNAP_PX / Math.max(W, H))));
+    const shots = await Promise.all(svgs.map((s, i) => rasterise(s, scales[i] * dpr)));
+    const charts = shots.map((s, i) => ({ ...s, scale: scales[i] }));
+    if (out.width !== W * dpr || out.height !== H * dpr) { out.width = W * dpr; out.height = H * dpr; }
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.imageSmoothingQuality = 'high';
+    lastSize = { W, H };
 
     ctx.fillStyle = cssVar('--surface') || '#fff';
     ctx.fillRect(0, 0, W, H);
@@ -197,8 +218,8 @@ export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
   async function recordMp4({ frames, onFrame, onProgress }) {
     if (typeof VideoEncoder === 'undefined' || typeof VideoFrame === 'undefined' || typeof Mp4Muxer === 'undefined') return null;
     await onFrame(0);
-    const first = await drawFrame();
-    locked = first.height;
+    const first = await drawFrame({ video: true });
+    locked = lastSize;
     const config = await pickCodec(first.width, first.height);
     if (!config) return null;
     const target = new Mp4Muxer.ArrayBufferTarget();
@@ -208,7 +229,7 @@ export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
     enc.configure(config);
     for (let i = 0; i < frames && !recording.stop && !failure; i++) {
       if (i) await onFrame(i);
-      const c = await drawFrame();
+      const c = await drawFrame({ video: true });
       const f = new VideoFrame(c, { timestamp: Math.round((i * 1e6) / OUT_FPS), duration: Math.round(1e6 / OUT_FPS) });
       enc.encode(f, { keyFrame: i % (OUT_FPS * 2) === 0 });
       f.close(); n++;
@@ -224,8 +245,8 @@ export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
   async function recordMediaRecorder({ frames, onFrame, onProgress }) {
     if (typeof MediaRecorder === 'undefined') throw new Error('this browser cannot record video');
     await onFrame(0);
-    const first = await drawFrame();
-    locked = first.height;
+    const first = await drawFrame({ video: true });
+    locked = lastSize;
     const surface = document.createElement('canvas');
     surface.width = first.width; surface.height = first.height;
     const sctx = surface.getContext('2d');
@@ -240,7 +261,7 @@ export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
     const t0 = performance.now();
     for (let i = 0; i < frames && !recording.stop; i++) {
       if (i) await onFrame(i);
-      await drawFrame();
+      await drawFrame({ video: true });
       sctx.drawImage(out, 0, 0);
       onProgress?.(i / frames);
       const wait = t0 + ((i + 1) * 1000) / OUT_FPS - performance.now();

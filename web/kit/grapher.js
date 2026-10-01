@@ -14,7 +14,7 @@
  *   clocks      two 12-hour dials, day (06-18) and night (18-06), one wedge per 3 hours
  */
 
-import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=bbe340d7cd';
+import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=7ce592264a';
 
 /* ------------------------------------------------------------------ utils */
 
@@ -384,3 +384,164 @@ export function clocks(el, { values, ghost = null, ghostLabel = '', max, mode = 
 }
 
 export const SLOT_LABELS = SLOT_NAME;
+
+/* ======================================================================
+   seasonChart: one line per year across the months (or the hours)
+   ====================================================================== */
+
+/**
+ * cats: x labels in order (months, or time slots). years: the years, oldest
+ * first. get(year, cat) -> value. pos: fractional index into years.
+ *
+ * Scrubbing (reveal = false): every year is a thin grey line and the year at
+ * `pos` is drawn on top in red, with its values. Playing or recording
+ * (reveal = true): the years arrive one by one. The current year draws itself
+ * across the x axis in red; as the next one starts, it fades to grey and stays
+ * in the background, so by the last year every year is there, the latest on top.
+ */
+export function seasonChart(el, { cats, years, get, pos = 0, reveal = false, fmt = fmtN, unit = '', xLabel = c => c, height }) {
+  const { w, narrow } = size(el);
+  const all = years.flatMap(y => cats.map(c => get(y, c)).filter(v => v != null));
+  if (!all.length) return emptyChart(el);
+  const h = height || (narrow ? 300 : 380);
+  const m = { top: 22, right: narrow ? 46 : 60, bottom: 30, left: 50 };
+  frame(el, w, h);
+  const hi = Math.max(...all) * 1.08 || 1;
+  const x = i => m.left + (i * (w - m.left - m.right)) / Math.max(1, cats.length - 1);
+  const y = scaleLinear([0, hi], [h - m.bottom, m.top]);
+  for (const t of ticks(0, hi, 5)) {
+    el.append(svg('line', { x1: m.left, x2: w - m.right, y1: y(t), y2: y(t), class: 'grid-line' }));
+    el.append(svg('text', { x: m.left - 7, y: y(t) + 3.5, class: 'tick', 'text-anchor': 'end' }, fmtShort(t)));
+  }
+  el.append(svg('line', { x1: m.left, x2: w - m.right, y1: h - m.bottom, y2: h - m.bottom, class: 'axis-line' }));
+  cats.forEach((c, i) => el.append(svg('text', { x: x(i), y: h - m.bottom + 17, class: 'tick', 'text-anchor': 'middle' }, xLabel(c))));
+  const k = Math.max(0, Math.min(years.length - 1, Math.floor(pos)));
+  const f = pos - k;
+  const cur = reveal ? k : Math.round(pos);
+  const pathOf = (yr, upto = cats.length - 1) => {
+    let d = '', pen = false;
+    const whole = Math.floor(upto);
+    for (let i = 0; i <= whole; i++) {
+      const v = get(yr, cats[i]);
+      if (v == null) { pen = false; continue; }
+      d += `${pen ? 'L' : 'M'}${x(i).toFixed(1)} ${y(v).toFixed(1)}`; pen = true;
+    }
+    const frac = upto - whole;
+    if (frac > 0 && whole + 1 < cats.length) {
+      const a = get(yr, cats[whole]), b = get(yr, cats[whole + 1]);
+      if (a != null && b != null) d += `L${lerp(x(whole), x(whole + 1), frac).toFixed(1)} ${y(lerp(a, b, frac)).toFixed(1)}`;
+    }
+    return d;
+  };
+  // the background: every year before the current one (all of them while scrubbing)
+  years.forEach((yr, i) => {
+    if (i === cur) return;
+    if (reveal && i > cur) return;
+    // in a recording the year just finished keeps a red tint while the next draws
+    const fresh = reveal && i === cur - 1 ? Math.max(0, 1 - f * 1.6) : 0;
+    el.append(svg('path', { d: pathOf(yr), fill: 'none', stroke: fresh > 0 ? 'var(--critical)' : 'var(--axis)', 'stroke-width': fresh > 0 ? 1.2 + fresh : 1.1, opacity: fresh > 0 ? .35 + .5 * fresh : .75, 'stroke-linejoin': 'round' }));
+  });
+  // the current year, on top
+  const yr = years[cur];
+  // the last year has no successor to hand over to: at the end of a recording it is drawn whole
+  const done = !reveal || (k === years.length - 1 && f === 0);
+  const upto = done ? cats.length - 1 : Math.min(cats.length - 1, f * (cats.length - 1) * 1.25);
+  el.append(svg('path', { d: pathOf(yr, upto), fill: 'none', stroke: 'var(--critical)', 'stroke-width': 2.6, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
+  const pts = cats.map((c, i) => ({ i, v: get(yr, c) })).filter(p => p.v != null && p.i <= upto + 1e-6);
+  pts.forEach(p => {
+    el.append(svg('circle', { cx: x(p.i), cy: y(p.v), r: 3.4, fill: 'var(--critical)', class: 'dot' }));
+    if (!narrow || p.i % 2 === 0) el.append(svg('text', { x: x(p.i), y: y(p.v) - 8, class: 'val-label', 'text-anchor': 'middle' }, fmtShort(p.v)));
+  });
+  const lastPt = pts[pts.length - 1];
+  if (lastPt) el.append(svg('text', { x: x(lastPt.i) + 8, y: y(lastPt.v) + 4, class: 'year-tag', style: 'fill: var(--critical)' }, String(yr)));
+  // hover: the value of the highlighted year and the range across all years, per month
+  cats.forEach((c, i) => {
+    const vals = years.map(yy => get(yy, c)).filter(v => v != null);
+    const band = svg('rect', { x: x(i) - (w - m.left - m.right) / (2 * Math.max(1, cats.length - 1)), y: m.top, width: (w - m.left - m.right) / Math.max(1, cats.length - 1), height: h - m.top - m.bottom, class: 'hit' });
+    hover(band, () => `<div class="t">${esc(xLabel(c))}</div><dl><dt>${yr}</dt><dd>${fmt(get(yr, c))}${unit}</dd><dt>Lowest year</dt><dd>${fmt(Math.min(...vals))}</dd><dt>Highest year</dt><dd>${fmt(Math.max(...vals))}</dd></dl>`);
+    el.append(band);
+  });
+}
+
+/* ======================================================================
+   choropleth: the States and UTs, coloured on the red ramp
+   ====================================================================== */
+
+/* The boundary file is datameet's pre-2019 one (cpi's copy): Jammu & Kashmir
+ * undivided with Ladakh, Telangana separate, Dadra & Nagar Haveli and Daman &
+ * Diu separate. Names are mapped to NCRB's here. */
+const GEO_NAME = {
+  'Andaman and Nicobar': 'Andaman & Nicobar Islands', 'Orissa': 'Odisha', 'Uttaranchal': 'Uttarakhand',
+  'Jammu and Kashmir': 'Jammu & Kashmir', 'Dadra and Nagar Haveli': 'Dadra & Nagar Haveli', 'Daman and Diu': 'Daman & Diu',
+};
+const projCache = new WeakMap();
+
+function projector(geo, outline, w, h, pad = 8) {
+  let cached = projCache.get(geo);
+  if (cached && cached.w === w && cached.h === h) return cached;
+  const pts = [];
+  const walk = c => (typeof c[0] === 'number' ? pts.push(c) : c.forEach(walk));
+  (outline || geo).features.forEach(f => walk(f.geometry.coordinates));
+  const lat0 = 22 * Math.PI / 180, kx = Math.cos(lat0);
+  let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+  for (const [lon, lat] of pts) { x0 = Math.min(x0, lon * kx); x1 = Math.max(x1, lon * kx); y0 = Math.min(y0, lat); y1 = Math.max(y1, lat); }
+  const s = Math.min((w - 2 * pad) / (x1 - x0), (h - 2 * pad) / (y1 - y0));
+  const ox = (w - (x1 - x0) * s) / 2, oy = (h - (y1 - y0) * s) / 2;
+  const P = ([lon, lat]) => `${(ox + (lon * kx - x0) * s).toFixed(1)},${(oy + (y1 - lat) * s).toFixed(1)}`;
+  const path = g => {
+    const polys = g.type === 'Polygon' ? [g.coordinates] : g.coordinates;
+    return polys.map(poly => poly.map(ring => `M${ring.map(P).join('L')}Z`).join('')).join('');
+  };
+  cached = {
+    w, h,
+    states: geo.features.map(f => ({ name: GEO_NAME[f.properties.NAME_1] || f.properties.NAME_1, d: path(f.geometry) })),
+    outline: outline ? outline.features.map(f => path(f.geometry)).join('') : null,
+  };
+  projCache.set(geo, cached);
+  return cached;
+}
+
+/**
+ * values: {NCRB state name: v} for one (possibly interpolated) year; max: the
+ * top of the colour scale, held across years; hl: a state to outline;
+ * year: for Andhra Pradesh before 2014, which also coloured Telangana.
+ */
+export function choropleth(el, { geo, outline = null, values, max, fmt = fmtN, unit = '', hl = null, year = null, label = 'Value' }) {
+  const { w, narrow } = size(el);
+  const h = Math.round(Math.min(narrow ? w * 1.12 : w * 0.95, 720));
+  frame(el, w, h);
+  const legendW = narrow ? 0 : 150;
+  const P = projector(geo, outline, w - legendW, h);
+  if (P.outline) el.append(svg('path', { d: P.outline, fill: 'var(--heat-0)', stroke: 'var(--axis)', 'stroke-width': .8 }));
+  const val = name => {
+    if (values[name] != null) return values[name];
+    if (name === 'Telangana' && year != null && year < 2014) return values['Andhra Pradesh'];
+    if ((name === 'Dadra & Nagar Haveli' || name === 'Daman & Diu')) return values['Dadra & Nagar Haveli and Daman & Diu'];
+    return null;
+  };
+  for (const st of P.states) {
+    const v = val(st.name);
+    const fill = v == null ? 'var(--heat-0)' : `var(--heat-${heatStep(v, max)})`;
+    const p = svg('path', { d: st.d, fill, stroke: 'var(--surface)', 'stroke-width': .7, 'stroke-linejoin': 'round' });
+    el.append(p);
+    hover(p, () => `<div class="t">${esc(st.name)}${st.name === 'Telangana' && year < 2014 ? ' (part of Andhra Pradesh)' : ''}</div><dl><dt>${esc(label)}</dt><dd>${v == null ? 'not printed' : fmt(v) + unit}</dd></dl>`);
+  }
+  if (hl) {
+    const st = P.states.find(s => s.name === hl);
+    if (st) el.append(svg('path', { d: st.d, fill: 'none', stroke: 'var(--ink)', 'stroke-width': 1.8, 'pointer-events': 'none' }));
+  }
+  // legend: the ramp's seven steps with the values they start at
+  const lx = narrow ? 12 : w - legendW + 18, ly = narrow ? h - 34 : h - 210;
+  for (let k = 1; k <= 7; k++) {
+    const lo = max * ((k - 1) / 7) ** 2;
+    if (narrow) {
+      const bw = (w - 24) / 7;
+      el.append(svg('rect', { x: lx + (k - 1) * bw, y: ly, width: bw - 2, height: 10, rx: 2, fill: `var(--heat-${k})` }));
+      if (k % 2 === 1) el.append(svg('text', { x: lx + (k - 1) * bw, y: ly + 24, class: 'tick' }, fmtShort(lo)));
+    } else {
+      el.append(svg('rect', { x: lx, y: ly + (k - 1) * 24, width: 18, height: 18, rx: 3, fill: `var(--heat-${k})` }));
+      el.append(svg('text', { x: lx + 26, y: ly + (k - 1) * 24 + 13, class: 'tick' }, `${fmtShort(lo)}${k === 7 ? ` – ${fmtShort(max)}` : '+'}`));
+    }
+  }
+  if (!narrow) el.append(svg('text', { x: lx, y: ly - 10, class: 'tick' }, 'not printed: grey'));
+}

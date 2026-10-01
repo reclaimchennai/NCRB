@@ -10,10 +10,10 @@ Data and pipeline: <https://github.com/reclaimchennai/NCRB> (see README.md and d
 
 | | |
 |---|---|
-| Live | <https://cpi.reclaimchennai.city/ncrb/> (nested under cpi until DNS exists); <https://ncrb.reclaimchennai.city> once a DNS record is added (Caddy block already in place) |
+| Live | <https://ncrb.reclaimchennai.city> (the old <https://ncrb.reclaimchennai.city/> paths 308-redirect to the same path here) |
 | Code | laptop repo `~/Desktop/projects/ncrb` (git, pushed to GitHub); on `raw` at `~/projects/ncrb` holds only `api/`, `web/`, `deploy/` and `data/web/ncrb.duckdb` |
 | Process | `ncrb.service`, systemd `--user`, `uvicorn api.site:app`, 2 workers, `0.0.0.0:5072`, `MemoryMax=2G` |
-| Ingress | Caddy: `handle_path /ncrb/*` inside the `cpi.reclaimchennai.city` block, and a `ncrb.reclaimchennai.city` block, both `reverse_proxy host.docker.internal:5072` |
+| Ingress | Caddy: the `ncrb.reclaimchennai.city` block, `reverse_proxy host.docker.internal:5072`; `handle_path /ncrb/*` in the `cpi.reclaimchennai.city` block redirects to it |
 | Firewall | `ufw allow from 172.16.0.0/12 to any port 5072 proto tcp` (the host.docker.internal double fix) |
 | Health | `GET /healthz` counts tables in the database |
 

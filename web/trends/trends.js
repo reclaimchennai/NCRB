@@ -7,10 +7,10 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=bbe340d7cd';
-import { lineChart, barRows, stackRows, heatmap, clocks, emptyChart } from '../kit/grapher.js?v=bbe340d7cd';
-import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=bbe340d7cd';
-import { footerHtml, SOURCE_LINE } from '../kit/footer.js?v=bbe340d7cd';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=7ce592264a';
+import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=7ce592264a';
+import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=7ce592264a';
+import { footerHtml, creditLine } from '../kit/footer.js?v=7ce592264a';
 
 const DATA = '../data/trends';
 const GROUPS = [
@@ -92,13 +92,14 @@ function selectionText({ year = false } = {}) {
   if (year) bits.push(String(tl.year));
   return bits.join(', ');
 }
-function captureMeta(c, withYear) {
+/** What a saved frame says about itself; the credit names the tables and sources behind exactly what it shows. */
+function captureMeta(c, withYear, scope = 'place') {
   return () => ({
-    kicker: `${placeName()} · ${S.meta.title}`,
+    kicker: `${scope === 'place' ? `${placeName()} · ` : ''}${S.meta.title}`,
     title: c.el.querySelector('h2').textContent,
     subtitle: c.el.querySelector('.titles p').textContent,
     year: withYear ? tl.year : null,
-    source: `${SOURCE_LINE} Years shown: ${placeYears()[0]}–${placeYears().at(-1)}.`,
+    source: creditLine(S.meta, withYear ? [tl.year] : placeYears(), scope === 'place' ? S.place.sources : null),
   });
 }
 
@@ -170,8 +171,8 @@ async function loadPlace(key, keepYear = true) {
 
 function buildCards() {
   const root = $('#cards');
-  C.trend = card(root, { id: 'c-trend', kicker: 'Over the years', snap: true });
-  bindCapture(C.trend, { meta: captureMeta(C.trend, false), name: 'ncrb-trend' });
+  C.trend = card(root, { id: 'c-trend', kicker: 'Over the years', snap: true, rec: true });
+  bindCapture(C.trend, { meta: () => captureMeta(C.trend, kind() === 'month' && (tl.playing || tl.recording))(), record: { timeline: tl, render: p => markTrend(p) }, name: 'ncrb-trend' });
 
   const g = el('div', { class: 'grid2' });
   root.append(g);
@@ -182,13 +183,17 @@ function buildCards() {
   C.year.toolbar.append(C.ghost);
 
   C.rank = card(g, { id: 'c-rank', kicker: 'Compare places', rec: true });
-  bindCapture(C.rank, { meta: captureMeta(C.rank, true), record: { timeline: tl, render: p => drawRank(p) }, name: 'ncrb-compare' });
+  bindCapture(C.rank, { meta: captureMeta(C.rank, true, 'all'), record: { timeline: tl, render: p => drawRank(p) }, name: 'ncrb-compare' });
   C.rankType = segmented({ label: 'Places', value: S.rankType, options: [{ value: 'state', label: 'States & UTs', icon: 'map-pin' }, { value: 'city', label: 'Cities', icon: 'building' }], onChange: v => { S.rankType = v; drawRank(tl.pos); } });
   C.rankCat = select({ label: 'Category', small: 'SHOW', options: [], onChange: v => { S.rankCat = v; drawRank(tl.pos); } });
   C.rank.toolbar.append(C.rankType.el, C.rankCat.el);
 
+  C.map = card(root, { id: 'c-map', kicker: 'India', rec: true });
+  bindCapture(C.map, { meta: captureMeta(C.map, true, 'all'), record: { timeline: tl, render: p => drawMap(p) }, name: 'ncrb-map' });
+  C.map.set({ note: 'The category and the number/share choice follow Compare places. Boundaries: datameet (pre-2019 lines; Ladakh is drawn with Jammu & Kashmir, Telangana is shaded with Andhra Pradesh before 2014).' });
+
   C.age = card(root, { id: 'c-age', kicker: 'By age group', rec: true });
-  bindCapture(C.age, { meta: captureMeta(C.age, true), record: { timeline: tl, render: p => drawAge(p) }, name: 'ncrb-age' });
+  bindCapture(C.age, { meta: () => captureMeta(C.age, true, kind() === 'sexage' ? 'all' : 'place')(), record: { timeline: tl, render: p => drawAge(p) }, name: 'ncrb-age' });
 
   C.heat = card(root, { id: 'c-heat', kicker: 'Every year, every category' });
   bindCapture(C.heat, { meta: captureMeta(C.heat, false), name: 'ncrb-table' });
@@ -243,9 +248,13 @@ function drawTrend() {
     if (cities && metaPlace(S.key)?.type === 'city') list.push({ key: 'ci', label: 'All big cities', color: 'var(--series-3)', values: cities.head[0] || {} });
     c.set({ title: `Suicide rate: ${placeName()}`, sub: 'suicides per lakh people, as NCRB printed them' });
   } else if (k === 'month') {
-    const tot = {}; for (const y of ys) tot[y] = yearTotal(y);
-    list.push({ key: 't', label: `All ${unit()}`, color: 'var(--critical)', values: tot });
-    c.set({ title: `${S.meta.title.replace(/ by month$/, '')} in ${placeName()}, per year`, sub: selectionText() || 'every year published' });
+    // one line per year across the months; the year on the timeline in red
+    trendArgs = { season: true, ys };
+    c.setLegend([{ label: 'the year on the timeline', color: 'var(--critical)', line: true }, { label: 'every other year', color: 'var(--axis)', line: true }]);
+    markTrend(tl.pos);
+    const gaps = xs.filter(y => !ys.includes(y));
+    c.set({ note: gaps.length ? `No figures for ${compact(gaps)}: ${gapReason(gaps)}` : 'Drag the timeline to pick out a year; play or record to watch the years arrive one by one.' });
+    return;
   } else {
     const ord = ordered();
     const share = S.mode === 'share';
@@ -268,6 +277,16 @@ function drawTrend() {
 }
 function markTrend(pos) {
   if (!trendArgs) return;
+  if (trendArgs.season) {
+    const ys = trendArgs.ys, share = S.mode === 'share';
+    const tot = Object.fromEntries(ys.map(y => [y, yearTotal(y)]));
+    const byLabel = Object.fromEntries(cats().map(c => [c.label, c.ci]));
+    const get = (y, m) => { const v = series(byLabel[m])[y]; return v == null ? null : share ? (tot[y] ? (100 * v) / tot[y] : null) : v; };
+    seasonChart(C.trend.svg, { cats: cats().map(c => c.label), years: ys, get, pos, reveal: tl.playing || tl.recording, fmt: share ? fmt1 : fmtN, unit: share ? '%' : '' });
+    const y = ys[tl.playing || tl.recording ? Math.floor(pos) : Math.round(pos)];
+    C.trend.set({ title: `${S.meta.title} in ${placeName()}: each year, month by month`, sub: `${share ? "share of each year's total, %" : unit()}${selectionText() ? ` · ${selectionText()}` : ''} · ${y} in red` });
+    return;
+  }
   const ys = placeYears(), xs = trendArgs.xs;
   const yr = lerp(ys[Math.floor(pos)] ?? xs[0], ys[Math.min(ys.length - 1, Math.floor(pos) + 1)] ?? xs[0], pos - Math.floor(pos));
   lineChart(C.trend.svg, { ...trendArgs, pos: xs.indexOf(Math.floor(yr)) + (yr - Math.floor(yr)) });
@@ -339,6 +358,20 @@ function drawYear(pos) {
   c.setLegend([]);
 }
 
+/** A place's headline value in a year for the category chosen under Compare places (and its share, in Share mode). */
+function headValue(p, yy) {
+  const k = kind(), m = S.meta, head = p.head || {};
+  const share = S.mode === 'share' && k !== 'rate' && S.rankCat !== 'all';
+  if (k === 'rate') return head[S.rankCat]?.[yy] ?? null;
+  const sum = () => { let s = 0, any = false; for (const [ci, ser] of Object.entries(head)) { if (k === 'sexage' && m.cats[ci] === 'all ages') continue; const v = ser[yy]; if (v != null) { s += v; any = true; } } return any ? s : null; };
+  if (S.rankCat === 'all') return k === 'sexage' ? (head[m.cats.indexOf('all ages')]?.[yy] ?? sum()) : sum();
+  const v = head[S.rankCat]?.[yy];
+  if (v == null) return null;
+  if (!share) return v;
+  const t = k === 'sexage' ? head[m.cats.indexOf('all ages')]?.[yy] : sum();
+  return t ? (100 * v) / t : null;
+}
+
 /* 3. compare places */
 function drawRank(pos) {
   const c = C.rank, k = kind(), m = S.meta;
@@ -356,17 +389,7 @@ function drawRank(pos) {
   const types = S.rankType === 'city' ? ['city'] : ['state', 'ut'];
   const places = m.places.filter(p => types.includes(p.type));
   const share = S.mode === 'share' && k !== 'rate' && S.rankCat !== 'all';
-  const valueAt = (p, yy) => {
-    const head = p.head || {};
-    if (k === 'rate') return head[S.rankCat]?.[yy] ?? null;
-    const sum = () => { let s = 0, any = false; for (const [ci, ser] of Object.entries(head)) { if (k === 'sexage' && m.cats[ci] === 'all ages') continue; const v = ser[yy]; if (v != null) { s += v; any = true; } } return any ? s : null; };
-    if (S.rankCat === 'all') return k === 'sexage' ? (head[m.cats.indexOf('all ages')]?.[yy] ?? sum()) : sum();
-    const v = head[S.rankCat]?.[yy];
-    if (v == null) return null;
-    if (!share) return v;
-    const t = k === 'sexage' ? head[m.cats.indexOf('all ages')]?.[yy] : sum();
-    return t ? (100 * v) / t : null;
-  };
+  const valueAt = headValue;
   const vals = places.map(p => ({ p, a: valueAt(p, y0), b: valueAt(p, y1) }));
   const order = key => {
     const arr = vals.filter(v => v[key] != null).sort((x, z) => z[key] - x[key]);
@@ -385,10 +408,41 @@ function drawRank(pos) {
   // the scale is held across the whole history so bars grow and shrink as the years play
   let gmax = 0;
   for (const p of places) for (const yy of ys) gmax = Math.max(gmax, valueAt(p, yy) || 0);
+  drawMap(pos);
   barRows(c.svg, { rows, max: Math.max(max, gmax), fmt: k === 'rate' && S.rankCat === '0' ? fmt1 : share ? fmt1 : fmtN, unit: share ? '%' : '', bigYear: y });
   const what = catOpts.find(o => o.value === S.rankCat)?.label || '';
   c.set({ title: `${what}: ${S.rankType === 'city' ? 'the big cities' : 'States and UTs'}, ${y}`, sub: `${share ? `share of each place's ${unit()}` : k === 'rate' && S.rankCat === '0' ? 'per lakh people' : unit()}${k === 'cats' || k === 'sexage' ? ' · both sexes, all ages' : ''}${m.groups.length > 1 ? ` · ${m.groups[0].toLowerCase()} accidents` : ''} · ${placeName()} highlighted` });
   c.set({ note: rows.length < 3 ? 'Few or no places have this figure for the year.' : '' });
+}
+
+/* 3b. India map */
+let GEO = null;
+async function loadGeo() {
+  if (!GEO) GEO = Promise.all([getJSON('../geo/india-states.geojson'), getJSON('../geo/india-outline.geojson')]);
+  return GEO;
+}
+let geoData = null;
+function drawMap(pos) {
+  const c = C.map, k = kind(), m = S.meta;
+  if (!geoData) { loadGeo().then(g => { geoData = g; drawMap(tl.pos); }); return; }
+  const places = m.places.filter(p => p.type === 'state' || p.type === 'ut');
+  const ys = placeYears();
+  if (!places.length || !ys.length) { c.el.hidden = true; return; }
+  c.el.hidden = false;
+  const y = ys[Math.round(pos)];
+  const values = {};
+  for (const p of places) {
+    const v = at(Object.fromEntries(ys.map(yy => [yy, headValue(p, yy)]).filter(([, v2]) => v2 != null)), ys, pos);
+    if (v != null) values[p.name] = v;
+  }
+  let gmax = 0;
+  for (const p of places) for (const yy of ys) gmax = Math.max(gmax, headValue(p, yy) || 0);
+  const share = S.mode === 'share' && k !== 'rate' && S.rankCat !== 'all';
+  const isRate = k === 'rate' && S.rankCat === '0';
+  const mp = metaPlace(S.key);
+  choropleth(c.svg, { geo: geoData[0], outline: geoData[1], values, max: gmax, year: y, fmt: isRate || share ? fmt1 : fmtN, unit: share ? '%' : '', hl: mp && mp.type !== 'city' ? mp.name : null, label: C.rankCat.select.selectedOptions[0]?.textContent || '' });
+  const what = C.rankCat.select.selectedOptions[0]?.textContent || '';
+  c.set({ title: `${what} by State and UT, ${y}`, sub: `${share ? `share of each State's ${unit()}` : isRate ? 'suicides per lakh people' : unit()} · colour scale fixed across ${ys[0]}–${ys.at(-1)}` });
 }
 
 /* 4. by age group */
@@ -426,7 +480,8 @@ function drawAge(pos) {
     .filter(r => r.values.some(v => v > 0));
   if (!rows.length) emptyChart(c.svg, `No age breakdown for ${y}: it is printed for ${compact(ays)}.`);
   else stackRows(c.svg, { rows, parts, mode: S.mode === 'share' ? 'share' : 'count', bigYear: y });
-  c.set({ kicker: 'By age group', title: `${S.meta.title} and age group, ${placeName()}, ${y}`, sub: `${S.mode === 'share' ? 'share of each category by age' : 'number by age group'}${S.meta.sexes.length > 1 ? ` · ${SEX_LABEL[S.meta.sexes[S.sex]].toLowerCase()}` : ''}`, note: has ? `Age groups are printed for ${compact(ays)}.` : `No age breakdown for ${y}; play or pick one of ${compact(ays)}.` });
+  const why = 'State-wise age breakdowns exist for 2001–2012 (NCRB\'s dataset on data.gov.in) and from 2021; NCRB printed none for States in 2013–2020.';
+  c.set({ kicker: 'By age group', title: `${S.meta.title} and age group, ${placeName()}, ${y}`, sub: `${S.mode === 'share' ? 'share of each category by age' : 'number by age group'}${S.meta.sexes.length > 1 ? ` · ${SEX_LABEL[S.meta.sexes[S.sex]].toLowerCase()}` : ''}`, note: has ? `Age groups are printed for ${compact(ays)}. ${why}` : `No age breakdown for ${y}. ${why}` });
   c.setLegend(parts.filter((p, i) => rows.some(r => r.values[i] > 0)));
 }
 

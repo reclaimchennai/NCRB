@@ -2,8 +2,8 @@
  * buttons, labelled dropdowns, switches, the year timeline (play, scrub,
  * smooth transitions), and a chart card with snapshot and record buttons. */
 
-import { el, $, icon, ease } from './util.js?v=bbe340d7cd';
-import { createCapture } from './capture.js?v=bbe340d7cd';
+import { el, $, icon, ease } from './util.js?v=7ce592264a';
+import { createCapture } from './capture.js?v=7ce592264a';
 
 /* --------------------------------------------------------------- controls */
 
@@ -143,7 +143,7 @@ export class Timeline {
     this.btn.setAttribute('aria-pressed', 'false');
     this.btn.setAttribute('aria-label', 'Play through the years');
     this.btn.querySelector('use').setAttribute('href', '#i-play');
-    this.set(Math.round(this.pos));
+    this.set(Math.floor(this.pos + 0.5));
   }
 }
 
@@ -233,6 +233,7 @@ export function bindCapture(c, { meta, record = null, name }) {
     const perYear = Math.max(6, Math.min(24, Math.floor((cap.maxSeconds * cap.fps - 45) / span)));
     const frames = span * perYear + 45;           // a 1.5 s hold on the last year
     const pos0 = tl.pos;
+    tl.recording = true;          // charts that animate differently in a recording read this
     btn.setAttribute('aria-pressed', 'true');
     btn.querySelector('use').setAttribute('href', '#i-stop');
     c.toast(`Recording ${tl.years[from]}–${tl.years[tl.years.length - 1]}…`);
@@ -246,6 +247,7 @@ export function bindCapture(c, { meta, record = null, name }) {
       c.toast(how === 'shared' ? 'Video shared.' : 'Video saved to your downloads.');
     } catch (e) { c.toast(`Could not record: ${e.message}`); }
     finally {
+      tl.recording = false;
       btn.setAttribute('aria-pressed', 'false');
       btn.querySelector('use').setAttribute('href', '#i-video');
       tl.set(Math.round(pos0));

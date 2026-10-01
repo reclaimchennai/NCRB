@@ -37,6 +37,9 @@ from .topics import TOPICS, tables_for
 SEXES = ["Male", "Female", "Transgender"]
 OK = {"ok", "ok (vs grand total)", "derived (sum of sexes)", "derived"}
 OGD_FILE = ROOT / "data" / "ogd" / "suicides-in-india-2001-2012.csv.gz"  # data.gov.in, via github.com/elseasama/Indian-cities-births-and-deaths
+# Reclaim Chennai's own compilations from the ADSI reports, github.com/elseasama/OpenDataChennai
+ODC_RATES = ROOT / "data" / "ogd" / "opendatachennai-suicide-rate-state-city-1998-2020.csv"
+ODC_CITY_AGE = ROOT / "data" / "ogd" / "opendatachennai-suicides-major-cities-sex-age-2019.csv"
 
 # --------------------------------------------------------------------------- places
 
@@ -207,7 +210,12 @@ def all_readings(topic: str) -> tuple[pd.DataFrame, dict[int, dict[tuple[str, st
                 break
     if extra:
         picked = pd.concat([picked, pd.DataFrame(extra).drop(columns="Index", errors="ignore")], ignore_index=True)
+    PROV[topic] = picked[["year", "title", "source_url", "method"]].copy()
     return picked, out
+
+
+# the table read for each topic and year, for the credit line under every chart
+PROV: dict[str, pd.DataFrame] = {}
 
 
 # --------------------------------------------------------------------------- readers
@@ -415,6 +423,42 @@ def rates() -> pd.DataFrame:
             if v == v and v is not None:
                 recs.append((x.year, x.name_std, x.entity_type, "", cat, "Total", "all ages", v, "ok", "ncrb"))
     d = frame(recs)
+    # OpenDataChennai's compilation of the ADSI State/UT/city rate tables: 1998-2003, which NCRB's site lacks
+    if ODC_RATES.exists():
+        from ncrb.entities import standardise
+
+        o = pd.read_csv(ODC_RATES, dtype=str)
+        num = lambda v: pd.to_numeric(str(v).replace(" ", "."), errors="coerce")
+        have = set(zip(d.year, d.place))
+        add = []
+        for r in o.itertuples():
+            y = int(r.Year)
+            if y > 2003:
+                continue      # NCRB's own tables from 2004 (the compilation matches them there)
+            if r.Category == "City":
+                hit = difflib.get_close_matches(clean_city(r[2]), known_cities(), n=1, cutoff=0.8)
+                if not hit:
+                    continue
+                place, ptype = hit[0], "city"
+            else:
+                place, ptype = standardise(r[2])
+                if ptype not in ("state", "ut"):
+                    continue
+            if (y, place) in have:
+                continue
+            n, pop, rate = num(r[3]), num(r[5]), num(r[6])
+            if not (n == n and pop == pop and rate == rate and pop > 0 and abs(n / pop - rate) <= 0.15 + 0.02 * rate):
+                continue
+            add += [(y, place, ptype, "", "Rate", "Total", "all ages", rate, "ok", "odc"),
+                    (y, place, ptype, "", "Suicides", "Total", "all ages", n, "ok", "odc"),
+                    (y, place, ptype, "", "Population (lakh)", "Total", "all ages", pop, "ok", "odc")]
+        a = frame(add)
+        # a row whose rate is far from the place's own 2004-2010 level was mis-copied (e.g. Chennai 1998: 1.8)
+        ref = d[(d.cat == "Rate") & d.year.between(2004, 2010)].groupby("place").value.median()
+        rr = a[a.cat == "Rate"].set_index(["year", "place"]).value
+        bad = {k for k, v in rr.items() if k[1] in ref and not (ref[k[1]] / 3 <= v <= ref[k[1]] * 3)}
+        a = a[[(y, p) not in bad for y, p in zip(a.year, a.place)]]
+        d = pd.concat([d, a], ignore_index=True)
     # data.gov.in counts fill the suicide totals for 2001-2003 (no population or rate is published with them)
     o = ogd()
     if not o.empty:
@@ -498,6 +542,25 @@ def suicide_sex_age() -> pd.DataFrame:
         g = pd.concat([g, alla], ignore_index=True).assign(group="", age="all ages", check="ok", source="ogd")
         have = set(zip(d.year, d.place, d.ptype))
         d = pd.concat([d, g[[(y, p, t) not in have for y, p, t in zip(g.year, g.place, g.ptype)]][COLS]], ignore_index=True)
+    # 2019, the big cities: the city table by sex and age that OpenDataChennai copied from ADSI 2019
+    if ODC_CITY_AGE.exists():
+        raw = pd.read_csv(ODC_CITY_AGE, header=[0, 1])
+        add = []
+        for _, row in raw.iterrows():
+            name = str(row.iloc[0])
+            hit = difflib.get_close_matches(clean_city(name), known_cities(), n=1, cutoff=0.8)
+            if not hit:
+                continue
+            for (sex, age), v in row.iloc[2:].items():
+                sex = re.sub(r"\..*$", "", str(sex)).strip()
+                if sex in SEXES and str(v).strip() not in ("", "nan"):
+                    add.append((2019, hit[0], "city", "", age_band(str(age)), sex, "all ages", float(v), "ok", "odc"))
+        a = frame(add)
+        if not a.empty:
+            alla = a.groupby(["year", "place", "ptype", "sex"], as_index=False).value.sum().assign(group="", cat="all ages", age="all ages", check="ok", source="odc")
+            a = pd.concat([a, alla[COLS]], ignore_index=True)
+            have = set(zip(d.year, d.place, d.ptype))
+            d = pd.concat([d, a[[(y, p, t) not in have for y, p, t in zip(a.year, a.place, a.ptype)]]], ignore_index=True)
     d = d.drop_duplicates(["year", "place", "ptype", "cat", "sex"])
     keys = ["year", "place", "ptype", "group", "cat", "age"]
     have = d[d.sex == "Total"][keys].drop_duplicates()
@@ -508,19 +571,19 @@ def suicide_sex_age() -> pd.DataFrame:
 
 
 DATASETS = {
-    "traffic_time": dict(build=traffic_time, title="Traffic accidents by time of day", unit="accidents", cats=SLOTS,
+    "traffic_time": dict(build=traffic_time, topics=["traffic_time_chennai"], title="Traffic accidents by time of day", unit="accidents", cats=SLOTS,
                          groups=["Road", "Railway crossing", "Railway", "Total traffic"]),
-    "traffic_month": dict(build=traffic_month, title="Traffic accidents by month", unit="accidents", cats=MONTHS,
+    "traffic_month": dict(build=traffic_month, topics=["traffic_month_chennai"], title="Traffic accidents by month", unit="accidents", cats=MONTHS,
                           groups=["Road", "Railway crossing", "Railway", "Total traffic"]),
-    "road_deaths_time": dict(build=road_deaths_time, title="Persons killed in traffic accidents by time of day", unit="deaths", cats=SLOTS,
+    "road_deaths_time": dict(build=road_deaths_time, topics=["traffic_time_deaths_tn"], title="Persons killed in traffic accidents by time of day", unit="deaths", cats=SLOTS,
                              groups=["Road", "Railway crossing", "Railway", "Total traffic"]),
-    "road_deaths_month": dict(build=road_deaths_month, title="Persons killed in traffic accidents by month", unit="deaths", cats=MONTHS,
+    "road_deaths_month": dict(build=road_deaths_month, topics=["traffic_month_deaths_tn"], title="Persons killed in traffic accidents by month", unit="deaths", cats=MONTHS,
                               groups=["Road", "Railway crossing", "Railway", "Total traffic"]),
-    "suicide_means": dict(build=suicide_means, title="Suicides by means adopted", unit="suicides"),
-    "suicide_profession": dict(build=suicide_profession, title="Suicides by profession", unit="suicides"),
-    "suicide_causes": dict(build=suicide_causes, title="Suicides by cause", unit="suicides"),
-    "suicide_education": dict(build=suicide_education, title="Suicides by educational status", unit="suicides"),
-    "suicide_sex_age": dict(build=suicide_sex_age, title="Suicides by age group and sex", unit="suicides",
+    "suicide_means": dict(build=suicide_means, topics=["suicide_means_tn", "suicide_means_city", "suicide_means_age_tn"], title="Suicides by means adopted", unit="suicides"),
+    "suicide_profession": dict(build=suicide_profession, topics=["suicide_profession_tn", "suicide_profession_city", "suicide_profession_age_tn"], title="Suicides by profession", unit="suicides"),
+    "suicide_causes": dict(build=suicide_causes, topics=["suicide_causes_tn", "suicide_causes_city"], title="Suicides by cause", unit="suicides"),
+    "suicide_education": dict(build=suicide_education, topics=["suicide_education_tn", "suicide_education_city"], title="Suicides by educational status", unit="suicides"),
+    "suicide_sex_age": dict(build=suicide_sex_age, topics=["suicide_sex_age_tn", "suicide_sex_age_chennai", "suicide_means_age_tn"], title="Suicides by age group and sex", unit="suicides",
                             cats=["0-14", "0-17", "14-17", "15-29", "18-29", "30-44", "45-59", "60+"]),
-    "suicide_rate": dict(build=rates, title="Suicides, population and rate", unit="per lakh people", cats=["Rate", "Suicides", "Population (lakh)"]),
+    "suicide_rate": dict(build=rates, topics=["suicide_rate"], title="Suicides, population and rate", unit="per lakh people", cats=["Rate", "Suicides", "Population (lakh)"]),
 }
