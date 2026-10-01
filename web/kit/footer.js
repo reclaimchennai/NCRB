@@ -19,7 +19,8 @@ export function footerHtml({ extra = '' } = {}) {
     <li>Age groups changed in 2014: up to 2013 they were up to 14, 15–29, 30–44, 45–59 and 60+; from 2014 below 14, 14–17, 18–29, 30–44, 45–59 and 60+. 30–44, 45–59 and 60+ run unbroken.</li>
     <li>In 2014 NCRB split the 'others' professions into new groups (daily wage earners, agricultural labourers…), so shares before and after 2014 are not comparable for those groups.</li>
     <li>City-wise tables of suicides by means, profession and education stop in 2015, and by age and sex in 2015 (State-wise age and sex is printed again from 2021). Traffic accidents are counted by time and month for every State and big city; deaths by time and month are printed only State-wise, from 2021.</li>
-    <li>Rates are suicides per lakh people as NCRB printed them. City rates use a fixed census population (2001 census up to 2010, 2011 census from 2011), so a change in a city's rate is a change in its count. 1993–2000 rates are being read from the scanned reports.</li>
+    <li>Rates are suicides per lakh people as NCRB printed them. City rates use a fixed census population (2001 census up to 2010, 2011 census from 2011), so a change in a city's rate is a change in its count.</li>
+    <li>For 1993–2000 NCRB's website carries only the accident tables; its suicide chapters for those years hold the text and summary tables, not the State and city tables, so State-wise suicide figures for 1993–2000 are not available from NCRB online. 2001–2003 come from the data.gov.in dataset; the rate itself (which needs the population) is printed from 2004.</li>
     <li>Places are named as they are today (Madras is Chennai, Bombay is Mumbai, Allahabad is Prayagraj). A State's figures before and after a split (Andhra Pradesh and Telangana, 2014) cover different areas.</li>
     ${extra}
   </ul>

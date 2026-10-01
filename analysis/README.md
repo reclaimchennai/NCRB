@@ -30,9 +30,11 @@ Datasets: `traffic_time`, `traffic_month`, `road_deaths_time`, `road_deaths_mont
 means and professions (`harmonise.CAUSES`, `harmonise.EDUCATION`).
 
 **Why there are gaps, and which are NCRB's own.** NCRB's site carries no
-State-wise suicide tables for 1993–2003 except inside the scanned report
-chapters (1993–2000, being read now with the AI model) and none at all for
-2001–2003; those years come from the data.gov.in dataset in `data/ogd/`. Real
+State-wise suicide tables for 1993–2003: for 1993–2000 it publishes only the
+accident tables, and the suicide chapters of those reports hold text and
+summary tables (all read with the AI model; only 1993 has a State table, and
+its State names did not survive the scan). 2001–2003 come from the data.gov.in
+dataset in `data/ogd/`. Real
 gaps in the source: suicides by age and sex were printed only for all India in
 2016–2020; city-wise tables of suicides by means, profession, education, age
 and sex stop after 2015; deaths in traffic accidents by hour and month are

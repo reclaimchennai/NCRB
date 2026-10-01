@@ -6,114 +6,141 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1993",
  "serial": "4",
- "title": "And Rate Of Suicides During 1993",
+ "title": "TABLE-7 Incidence And Rate Of Suicides During 1993 (State & UT-wise)",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1993.pdf",
  "source_file": "raw/adsi/1993/year_wise/suicides-1993.pdf",
  "source_sha256": "af4c4c3424ce1ff27a75fda39a8bce24540df1b5bc134dd15a4c61841efefe54",
  "table_no": "7",
- "pdf_title": "And Rate Of Suicides During 1993",
- "row_label": "Sh",
+ "pdf_title": "TABLE-7 Incidence And Rate Of Suicides During 1993 (State & UT-wise)",
+ "row_label": "SI. No.",
  "pages": [
   4,
-  5,
-  9,
-  10
+  8,
+  10,
+  11,
+  13,
+  13,
+  14,
+  17,
+  17
  ],
- "n_rows": 79,
- "n_cols": 11,
- "n_cells": 393,
+ "n_rows": 123,
+ "n_cols": 14,
+ "n_cells": 546,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Number of Suicides",
+   "header": [
+    "Number of Suicides"
+   ]
   },
   {
    "col_no": "4",
-   "name": "(State & UT-wise)",
+   "name": "Percentage Share in Total Suicides",
    "header": [
-    "(State & UT-wise)"
+    "Percentage Share in Total Suicides"
    ]
   },
   {
    "col_no": "5",
-   "name": "ee -",
+   "name": "Estimated Mid-Year Population (In Lakh)",
    "header": [
-    "ee -"
+    "Estimated Mid-Year Population (In Lakh)"
    ]
   },
   {
    "col_no": "6",
-   "name": "Rate ot",
+   "name": "Rate of Suicides [Col.3/Col.5]",
    "header": [
-    "Rate ot"
+    "Rate of Suicides [Col.3/Col.5]"
    ]
   },
   {
-   "col_no": "7",
-   "name": "N.C.R.B.- 44 identified and per number of suicides, no It tell no tales’ being the accepted maxim. was the most important cause accounting for 14.2 per cent ‘Suicides’ (more than one-fourth of the suicides for which Quarrel with either Parents-in-Law or Spouse’ accounted for 11.3 per ‘Suicides’ due to above 3 causes together constitute half of the The ‘Bankruptcy’ or ‘Sudden Change in Economic Status’ a lk ee en yeni years vente Male",
+   "col_no": "2",
+   "name": "HIGH RISK | RATE",
    "header": [
-    "N.C.R.B.- 44 identified and per number of suicides, no It tell no tales’ being the accepted maxim. was the most important cause accounting for 14.2 per cent ‘Suicides’ (more than one-fourth of the suicides for which Quarrel with either Parents-in-Law or Spouse’ accounted for 11.3 per ‘Suicides’ due to above 3 causes together constitute half of the The ‘Bankruptcy’ or ‘Sudden Change in Economic Status’ a lk ee en yeni years vente Male"
+    "HIGH RISK",
+    "RATE"
    ]
   },
   {
    "col_no": "8",
-   "name": "DEATHS & 34325025 IN INDIA - 1993 | Age who a",
+   "name": "Female | Below 18 years",
    "header": [
-    "DEATHS & 34325025 IN INDIA - 1993",
-    "Age who a"
+    "Female",
+    "Below 18 years"
    ]
   },
   {
    "col_no": "9",
-   "name": "at sam ates",
+   "name": "Female | 18-30 years",
    "header": [
-    "at sam ates"
+    "Female",
+    "18-30 years"
    ]
   },
   {
    "col_no": "10",
-   "name": "ty ee RG",
+   "name": "Female | 30-50 years",
    "header": [
-    "ty ee RG"
+    "Female",
+    "30-50 years"
    ]
   },
   {
    "col_no": "11",
-   "name": "Duwing 1993 eee",
+   "name": "Female | Above 50 years",
    "header": [
-    "Duwing 1993 eee"
+    "Female",
+    "Above 50 years"
    ]
   },
   {
    "col_no": "12",
-   "name": "female",
+   "name": "Female | Total female",
    "header": [
-    "female"
+    "Female",
+    "Total female"
    ]
   },
   {
    "col_no": "13",
-   "name": "N.C.R.B.- 45 ee ees",
+   "name": "Total (Male + Female)",
    "header": [
-    "N.C.R.B.- 45 ee ees"
+    "Total (Male + Female)"
    ]
+  },
+  {
+   "col_no": "7",
+   "name": "Incidence",
+   "header": [
+    "Incidence"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "col_10001",
+   "header": []
+  },
+  {
+   "col_no": "10002",
+   "name": "col_10002",
+   "header": []
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 9,
+  "other_totals_passed": 8
  },
  "inferred_pages": 0,
- "ocr_pages": 4,
+ "ocr_pages": 9,
  "warnings": []
 }

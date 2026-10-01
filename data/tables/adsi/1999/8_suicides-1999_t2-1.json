@@ -6,47 +6,95 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1999",
  "serial": "8",
- "title": "Suicidal Deaths in India",
+ "title": "2.1.1 The number of suicides reported in the country during 1999 was 1,10,587 as against 1,04,713 suicides in 1998 and 95,829 in 1997. There has been a significant increase of 5.6 percent in the Suicides in the country in 1999 as compared to 1998. During the decade, 1989-1999, the incidence of suicides rose at a compound growth rate of 4.3 percent as against the population, which had a compound growth rate of only 1.97 percent (Table-14). 2.1.2 The decadal incidence (change in 1999 over 1989) recorded an increase of 60.9 percent (from 68,744 suicides in 1989 to 110,587 suicides in 1999). Infact, the increase in incidence of Suicide was reported each year during the decade except years 1995 and 1996. During the decade 1989-1999, the population grew by 21.5 percent and the rate of suicide increased by 32.5 percent. The rate of suicide during 1999 was 11.2 as against 10.8 in 1998 and 8.5 in 1989. Table-2.1",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1999.pdf",
  "source_file": "raw/adsi/1999/year_wise/suicides-1999.pdf",
  "source_sha256": "5e22f0238929dea9ae60fdb3e720b0c92bcb89b55eebd63ee9982113541186f9",
  "table_no": "2.1",
- "pdf_title": "",
- "row_label": "Incidence of Suicides. Growth of Total number of SL. No. Suicides / and Rate of Suicides During 1995 to 1999 Year * (In Lakhs)** / and Rate of Suicides During 1995 to 1999 Rate of Suicides Fetimated Mid-Year (Col.3/Col.4)",
+ "pdf_title": "2.1.1 The number of suicides reported in the country during 1999 was 1,10,587 as against 1,04,713 suicides in 1998 and 95,829 in 1997. There has been a significant increase of 5.6 percent in the Suicides in the country in 1999 as compared to 1998. During the decade, 1989-1999, the incidence of suicides rose at a compound growth rate of 4.3 percent as against the population, which had a compound growth rate of only 1.97 percent (Table-14). 2.1.2 The decadal incidence (change in 1999 over 1989) recorded an increase of 60.9 percent (from 68,744 suicides in 1989 to 110,587 suicides in 1999). Infact, the increase in incidence of Suicide was reported each year during the decade except years 1995 and 1996. During the decade 1989-1999, the population grew by 21.5 percent and the rate of suicide increased by 32.5 percent. The rate of suicide during 1999 was 11.2 as against 10.8 in 1998 and 8.5 in 1989. Table-2.1",
+ "row_label": "Sl. No.",
  "pages": [
-  1
+  1,
+  4,
+  8
  ],
- "n_rows": 4,
- "n_cols": 1,
- "n_cells": 4,
+ "n_rows": 92,
+ "n_cols": 8,
+ "n_cells": 570,
  "columns": [
   {
-   "col_no": "4",
-   "name": "and Rate of Suicides During 1995 to 1999",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "and Rate of Suicides During 1995 to 1999"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Total number of Suicides",
+   "header": [
+    "Total number of Suicides"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Estimated Mid-Year Population * (In Lakhs)**",
+   "header": [
+    "Estimated Mid-Year Population * (In Lakhs)**"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Rate of Suicides (Col.3/Col.4)",
+   "header": [
+    "Rate of Suicides (Col.3/Col.4)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Minor | Female",
+   "header": [
+    "Minor",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Minor | Male",
+   "header": [
+    "Minor",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "% Variation 1999 Over 1998",
+   "header": [
+    "% Variation 1999 Over 1998"
    ]
   }
  ],
- "notes": [
-  "YEAR YEAR",
-  "11.5",
-  "11.0",
-  "roam we ee",
-  "1995 1996 1997 1998 1999",
-  "YEAR"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 8,
+  "cells_passed": 7,
+  "failures": [
+   "col 3 'Total (States)': printed 154, sum 488702"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

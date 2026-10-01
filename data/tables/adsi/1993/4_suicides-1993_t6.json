@@ -6,54 +6,53 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1993",
  "serial": "4",
- "title": "And Rate Of Suicides During 1983 To 1993",
+ "title": "TABLE-6 Incidence And Rate Of Suicides During 1983 To 1993 * Source: The Registrar General of India",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1993.pdf",
  "source_file": "raw/adsi/1993/year_wise/suicides-1993.pdf",
  "source_sha256": "af4c4c3424ce1ff27a75fda39a8bce24540df1b5bc134dd15a4c61841efefe54",
  "table_no": "6",
- "pdf_title": "And Rate Of Suicides During 1983 To 1993",
- "row_label": "ee ttt eee a)",
+ "pdf_title": "TABLE-6 Incidence And Rate Of Suicides During 1983 To 1993 * Source: The Registrar General of India",
+ "row_label": "Sl. No.",
  "pages": [
   2
  ],
- "n_rows": 6,
- "n_cols": 3,
- "n_cells": 18,
+ "n_rows": 13,
+ "n_cols": 4,
+ "n_cells": 52,
  "columns": [
   {
-   "col_no": "3",
-   "name": "ee ttt | eee (3)",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "ee ttt",
-    "eee"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Total Number of Suicides",
+   "header": [
+    "Total Number of Suicides"
    ]
   },
   {
    "col_no": "4",
-   "name": "ee ttt | eee (4)",
+   "name": "Estimated Mid-Year Population* (In Lakh**)",
    "header": [
-    "ee ttt",
-    "eee"
+    "Estimated Mid-Year Population* (In Lakh**)"
    ]
   },
   {
    "col_no": "5",
-   "name": "ee ttt | ee",
+   "name": "Rate of Suicides [Col.3/Col.4]",
    "header": [
-    "ee ttt",
-    "ee"
+    "Rate of Suicides [Col.3/Col.4]"
    ]
   }
  ],
- "notes": [
-  "1993 Over",
-  "Per Annum",
-  "Source: The Registrar General of India",
-  "** One lakh - 0.1 million."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
