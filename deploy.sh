@@ -26,6 +26,8 @@ stamp_import web/js/app.js charts "$H_CHARTS"
 stamp_html js/app.js "$(hash_of web/js/app.js)"
 stamp_html css/app.css "$(hash_of web/css/app.css)"
 echo "assets stamped"
+python3 scripts/inline_sprite.py
+python3 scripts/stamp_kit.py
 
 $SSH $HOST "mkdir -p $DEST/data/web"
 rsync -az --delete --timeout=60 -e "$SSH" --exclude __pycache__ api web deploy ARCHITECTURE.md "$HOST:$DEST/"

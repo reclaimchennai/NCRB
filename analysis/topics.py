@@ -48,6 +48,26 @@ TOPICS = {
         pub="adsi", title=r"suicid.*(sex|gender).*age|suicid.*age.*(sex|gender)|(sex|gender).*age.*suicid|age.*(sex|gender).*suicid",
         exclude=r"all.?india|profession|means|cause|education|marital|social|economic|farmer|cultivator|mass|family|accident", place="chennai",
     ),
+    # The same tables for the cities, where NCRB printed them separately (2014-2015 'City wise')
+    "suicide_means_city": dict(
+        pub="adsi", title=r"suicid.*means|means.*suicid", exclude=r"all.?india|percentage share|age wise details|age.?group", place="chennai",
+    ),
+    "suicide_profession_city": dict(
+        pub="adsi", title=r"profession", exclude=r"all.?india|age wise details", place="chennai",
+    ),
+    # Suicides by causes, and by educational status
+    "suicide_causes_tn": dict(
+        pub="adsi", title=r"suicid.*cause|cause.*suicid", exclude=r"all.?india|age|farm|cultivat|labour|share|student|female|cities and", place="tamil_nadu",
+    ),
+    "suicide_causes_city": dict(
+        pub="adsi", title=r"suicid.*cause|cause.*suicid", exclude=r"all.?india|age|farm|cultivat|labour|share|student|female|cities and", place="chennai",
+    ),
+    "suicide_education_tn": dict(
+        pub="adsi", title=r"education", exclude=r"all.?india|percentage|social, economic", place="tamil_nadu",
+    ),
+    "suicide_education_city": dict(
+        pub="adsi", title=r"education", exclude=r"all.?india|percentage|social, economic", place="chennai",
+    ),
     # Incidence and rate of suicides (the State/UT & city table), every State, UT and city
     "suicide_rate": dict(
         pub="adsi", title=r"(incidence|volume).*(suicid)|suicid.*(rate|volume)",

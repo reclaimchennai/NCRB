@@ -8,6 +8,39 @@ uv run --extra analysis --extra vlm python -m analysis.run
 
 The run takes about 30 seconds. It reads `data/web/ncrb.duckdb`, which holds every extracted cell and is built with `python -m ncrb.webdata`, and it writes everything to `analysis/output/`. Open **`analysis/output/report.html`** to see all the charts, each with a short note computed from the data. Each chart is also saved on its own in `analysis/output/charts/`.
 
+## Every State, UT and city: `engine.py` and `export.py`
+
+`engine.py` reads every row of the same tables (not just Chennai's and Tamil
+Nadu's), works out which State, UT or city each row is (`resolve`: NCRB's
+spellings, old names such as Madras and Bombay, and OCR'd names snapped to the
+53 cities NCRB prints), and returns one tidy record per place, year, category,
+sex and age group. `export.py` writes them for the website:
+
+```bash
+uv run --extra analysis --extra vlm python -m analysis.export          # all datasets, ~6 min
+uv run --extra analysis --extra vlm python -m analysis.export traffic_time suicide_rate
+```
+
+- `web/data/trends/catalog.json`, and per dataset `index.json` (places, categories, sexes, ages, and every place's headline series) plus one `<type>-<place>.json` per place with rows `[year, group, cat, sex, age, value]` (indexes into the lists in `index.json`).
+- `analysis/output/trends_<dataset>.csv.gz`: every record with its source (`ncrb` or `ogd`) and check.
+
+Datasets: `traffic_time`, `traffic_month`, `road_deaths_time`, `road_deaths_month`,
+`suicide_means`, `suicide_profession`, `suicide_causes`, `suicide_education`,
+`suicide_sex_age`, `suicide_rate`. Causes and education are harmonised like
+means and professions (`harmonise.CAUSES`, `harmonise.EDUCATION`).
+
+**Why there are gaps, and which are NCRB's own.** NCRB's site carries no
+State-wise suicide tables for 1993–2003 except inside the scanned report
+chapters (1993–2000, being read now with the AI model) and none at all for
+2001–2003; those years come from the data.gov.in dataset in `data/ogd/`. Real
+gaps in the source: suicides by age and sex were printed only for all India in
+2016–2020; city-wise tables of suicides by means, profession, education, age
+and sex stop after 2015; deaths in traffic accidents by hour and month are
+printed only State-wise and only from 2021. A scanned year whose figures do
+not add up to the totals printed with them is left out.
+
+## The Chennai-only series (`run.py`)
+
 ## What is covered
 
 | Question | Output | Years | Notes |

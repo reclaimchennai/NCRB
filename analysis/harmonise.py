@@ -88,3 +88,38 @@ def age_band(label: str) -> str:
         if re.search(rx, t):
             return name
     return t or "all ages"
+
+
+CAUSES = [
+    (r"^\W*(grand\s+)?total\W*$|^\W*grand\b|\(total\)", None),
+    (r"other family|family problem", "Family problems"),
+    (r"insanity|mental", "Illness: mental"),
+    (r"illness|cancer|paralysis|aids|std|prolonged", "Illness: physical"),
+    (r"dowry|divorc|marriage|marital", "Marriage related"),
+    (r"love affair", "Love affairs"),
+    (r"bankrupt|indebted|economic status|^status$", "Bankruptcy or debt"),
+    (r"unemploy", "Unemployment"),
+    (r"poverty", "Poverty"),
+    (r"examination", "Failure in examination"),
+    (r"professional|career", "Professional or career problem"),
+    (r"property", "Property dispute"),
+    (r"drug|alcohol|addiction", "Drug abuse or alcohol"),
+    (r"death of dear", "Death of a dear person"),
+    (r"social reputation", "Fall in social reputation"),
+    (r"children|barren|impoten|infertil", "Infertility"),
+    (r"physical abuse|rape|illicit|illegitimate|ideolog|hero", "Other specified causes"),
+    (r"not known|unknown", "Causes not known"),
+    (r"other", "Other causes"),
+]
+
+EDUCATION = [
+    (r"^\W*(grand\s+)?total\W*$|^\W*grand\b", None),
+    (r"no education|illiterate", "No education"),
+    (r"primary", "Primary"),
+    (r"middle", "Middle"),
+    (r"hr\.?\s*secondary|higher secondary|intermediate|pre.?univ", "Higher secondary"),
+    (r"matric|secondary|class.?10", "Secondary"),
+    (r"diploma|iti|certificate", "Diploma or ITI"),
+    (r"graduate|professionals|mba|post", "Graduate and above"),
+    (r"not known", "Not known"),
+]

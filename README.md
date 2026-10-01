@@ -24,7 +24,7 @@ Counts and quality for every publication and year: [docs/COVERAGE.md](docs/COVER
 - [How the data was collected and extracted](#how-the-data-was-collected-and-extracted)
 - [Using the data](#using-the-data)
 - [Rebuilding everything](#rebuilding-everything)
-- [Chennai over time: traffic accidents and suicides](#chennai-over-time-traffic-accidents-and-suicides)
+- [Trends dashboard and the Chennai report](#trends-dashboard-and-the-chennai-report)
 - [Documentation](#documentation) · [Source and terms](#source-and-terms)
 
 ## What is where
@@ -197,22 +197,34 @@ uv run python -m ncrb.webdata     # -> dashboard database
 Every step is incremental. `--pub cii|adsi|psi`, `--year N` and `--listing`
 narrow `download` and `extract`.
 
-## Chennai over time: traffic accidents and suicides
+## Trends dashboard and the Chennai report
 
-[`analysis/`](analysis/README.md) follows single tables across every year they
-were printed and joins them into tidy series, with charts and a report
-(`analysis/output/report.html`):
+**<https://cpi.reclaimchennai.city/ncrb/trends/>**: traffic accidents and
+suicides for every State, UT and big city, every year, with play, snapshot
+and video recording. **<https://cpi.reclaimchennai.city/ncrb/chennai/>**: the
+same charts arranged as the story of Chennai and Tamil Nadu.
 
-- traffic accidents in Chennai by time of day (1996–2024, polar chart) and by month (1997, 2000–2024)
-- persons killed in traffic accidents in Tamil Nadu by time and month (2021–2024)
-- suicides in Tamil Nadu by means and by profession (2004–2024; by age 2021–2024)
-- suicides by sex and age group in Tamil Nadu, Chennai and every big city (2004–2015, Tamil Nadu also 2021–2024)
-- suicide rates for every State, UT and city (1976, 1988–1992, 2004–2024)
-- every figure printed for Chennai/Madras in any table (`chennai_all_figures.csv.gz`)
+| Dataset | Years | Places |
+|---|---|---|
+| Traffic accidents by time of day | 1995–2024 | States, UTs, 23 cities (1995–2000), 35 (2001–2010), 53 (2011–) |
+| Traffic accidents by month | 1996–2024 | same |
+| Persons killed in traffic accidents by time of day / month | 2021–2024 | States and UTs (not printed city-wise) |
+| Suicides by means, profession, cause, education (by sex; by age 2001–2012 and 2021–) | 2001–2024 | States and UTs; cities 2004–2015 (causes to 2024) |
+| Suicides by age group and sex | 2001–2015, 2021–2024 | States and UTs; cities 2004–2015 (NCRB printed only all-India figures in 2016–2020) |
+| Suicides, population and rate | 1976, 1988–1992, 2001–2024 (rate from 2004) | States, UTs, cities |
+
+2001–2003, and the age breakdown of every suicide table up to 2012, come from
+*Suicides in India 2001–2012*, the State-wise dataset NCRB contributed to
+data.gov.in ([data/ogd/](data/ogd/README.md)); NCRB's site carries no
+State-wise suicide tables for 2001–2003. Everything else is NCRB's published
+tables, read and checked as described above.
 
 ```bash
-uv run --extra analysis --extra vlm python -m analysis.run
+uv run --extra analysis --extra vlm python -m analysis.export   # web/data/trends/ and analysis/output/trends_*.csv.gz
 ```
+
+How each series is joined across the years, and the Chennai-only CSVs and
+plotly report from the earlier analysis: [analysis/README.md](analysis/README.md).
 
 ## Documentation
 

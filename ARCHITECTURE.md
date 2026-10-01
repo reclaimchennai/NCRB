@@ -34,7 +34,35 @@ raw/ PDFs + Excel (8 GB, laptop / GitHub release)
 browser -> Caddy -> uvicorn: api/main.py (FastAPI over DuckDB) + web/ (static, served by the same app)
 ```
 
-The frontend is vanilla ES modules with hand-drawn SVG charts and no external
+Three pages share the one app:
+
+| Page | Path | What |
+|---|---|---|
+| Tables | `/` (`web/index.html`, `web/js/`) | search, read, chart and map any extracted table (API-backed) |
+| Trends | `/trends/` (`web/trends/`) | dashboard: one dataset, any State, UT or city, every year; play, snapshot, record |
+| Chennai | `/chennai/` (`web/chennai/`) | the Chennai and Tamil Nadu story, same charts |
+
+Trends and Chennai are static: they read `web/data/trends/` (catalog, one
+`index.json` per dataset, one JSON per place), written on the laptop by
+`python -m analysis.export` from `analysis/engine.py`. They share `web/kit/`:
+
+| File | What |
+|---|---|
+| `kit.css` | cpi's tokens and controls (pill fields, segmented, switch, timeline, card, capture buttons) plus a red heat ramp and day/night colours |
+| `util.js` | DOM, formatting, scales, theme, tooltip (after cpi's util.js) |
+| `grapher.js` | hand-rolled SVG charts: lines, bar rows, stacked rows, heatmap (number and % per cell), day/night clocks |
+| `cards.js` | controls, the `Timeline` (fractional year position, smooth transitions, play) and the card with camera and video buttons |
+| `capture.js` | PNG snapshot and MP4 recording (WebCodecs + vendored mp4-muxer, MediaRecorder fallback), every frame credited `@reclaimchennai` with its source (after cpi's capture.js) |
+| `data.js`, `footer.js` | loading the trends JSON; sources and caveats |
+| `sprite.svg` | Lucide/Tabler icons, inlined into both pages by `scripts/inline_sprite.py` |
+
+Charts are pure functions of their inputs; animation is done by passing values
+interpolated between two years on every frame, so play, scrubbing and video
+recording are one code path and every recorded frame is what the screen showed.
+`deploy.sh` runs `scripts/inline_sprite.py` and `scripts/stamp_kit.py` (one
+content hash written as `?v=` into every kit import and asset link).
+
+The Tables frontend is vanilla ES modules with hand-drawn SVG charts and no external
 requests, in cpi's design language (same tokens, same validated palette). State
 boundaries in `web/geo/` are cpi's copies of the datameet files (pre-2019 lines:
 Jammu & Kashmir undivided, Ladakh not separate).

@@ -404,7 +404,9 @@ def category_series(topic: str) -> tuple[pd.DataFrame, pd.DataFrame]:
 CITY_NAMES = {"Madras": "Chennai", "Bombay": "Mumbai", "Greater Mumbai": "Mumbai", "Calcutta": "Kolkata", "Bangalore": "Bengaluru",
               "Poona": "Pune", "Baroda": "Vadodara", "Trivandrum": "Thiruvananthapuram", "Cochin": "Kochi", "Delhi City": "Delhi",
               "Benares": "Varanasi", "Calicut": "Kozhikode", "Cawnpore": "Kanpur", "Kanpur Nagar": "Kanpur",
-              "Delhi": "Delhi", "Chandigarh": "Chandigarh"}  # also UTs: in the cities block they are the city
+              "Delhi": "Delhi", "Chandigarh": "Chandigarh", "Allahabad": "Prayagraj", "Aurangabad": "Chhatrapati Sambhajinagar",
+              "Nasik": "Nashik", "Vishakhapatnam": "Visakhapatnam", "Vizag": "Visakhapatnam", "Durg Bhilainagar": "Durg-Bhilainagar",
+              "Trichy": "Tiruchirappalli", "Tiruchchirappalli": "Tiruchirappalli"}  # also UTs: in the cities block they are the city
 
 
 def _rate_columns(cols: list[tuple[str, str]]) -> dict[str, str]:
