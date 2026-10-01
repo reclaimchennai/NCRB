@@ -8,112 +8,90 @@
  "serial": "3",
  "title": "State wise distribution of Suicides by Means Adopted during 1975",
  "listing_title": "State wise distribution of Suicides by Means Adopted during 1975",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680155732appendix-41975.pdf",
  "source_file": "raw/adsi/1975/table_content/1680155732appendix-41975.pdf",
  "source_sha256": "006a2b6188f82a37c92f42ec4faf1777ca93da6a7f95529f6044dff5108e6014",
  "table_no": "",
- "pdf_title": "APPENDIX IV",
- "row_label": "Statewise Sl. No. / Statewise Names of States/U.Ts./ Cities",
+ "pdf_title": "",
+ "row_label": "Sl. No.",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 126,
- "n_cols": 20,
- "n_cells": 819,
+ "n_rows": 109,
+ "n_cols": 16,
+ "n_cells": 920,
  "columns": [
   {
    "col_no": "3",
-   "name": "of Suicides by Means Adopted Dusing | By Railways | M",
+   "name": "By Railways | M",
    "header": [
-    "of Suicides by Means Adopted Dusing",
     "By Railways",
     "M"
    ]
   },
   {
    "col_no": "4",
-   "name": "of Suicides by Means Adopted Dusing | By Railways | F",
+   "name": "By Railways | F",
    "header": [
-    "of Suicides by Means Adopted Dusing",
     "By Railways",
     "F"
    ]
   },
   {
    "col_no": "5",
-   "name": "of Suicides by Means Adopted Dusing | By Machine © | M",
+   "name": "By Machine | M",
    "header": [
-    "of Suicides by Means Adopted Dusing",
-    "By Machine ©",
+    "By Machine",
     "M"
    ]
   },
   {
    "col_no": "6",
-   "name": "of Suicides by Means Adopted Dusing | By Machine © | F",
+   "name": "By Machine | F",
    "header": [
-    "of Suicides by Means Adopted Dusing",
-    "By Machine ©",
+    "By Machine",
+    "F"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "By Fire Arms | F",
+   "header": [
+    "By Fire Arms",
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "By Fire | M",
+   "header": [
+    "By Fire",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By Fire | F",
+   "header": [
+    "By Fire",
     "F"
    ]
   },
   {
    "col_no": "10001",
-   "name": "By Fire Arms | M",
+   "name": "By Drowning | F",
    "header": [
-    "By Fire Arms",
-    "M"
+    "By Drowning",
+    "F"
    ]
   },
   {
    "col_no": "10002",
-   "name": "- By Weapons F",
-   "header": [
-    "- By Weapons F"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Poison By F M",
-   "header": [
-    "Poison By F M"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "By M oF",
-   "header": [
-    "By M oF"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "F M",
-   "header": [
-    "F M"
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "States/U.Ts./ M",
-   "header": [
-    "States/U.Ts./ M"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "By Drowning F",
-   "header": [
-    "By Drowning F"
-   ]
-  },
-  {
-   "col_no": "17",
    "name": "By Hanging | M",
    "header": [
     "By Hanging",
@@ -121,7 +99,7 @@
    ]
   },
   {
-   "col_no": "18",
+   "col_no": "10003",
    "name": "By Hanging | F",
    "header": [
     "By Hanging",
@@ -129,15 +107,7 @@
    ]
   },
   {
-   "col_no": "19",
-   "name": "By Jumping | M",
-   "header": [
-    "By Jumping",
-    "M"
-   ]
-  },
-  {
-   "col_no": "20",
+   "col_no": "10004",
    "name": "By Jumping | F",
    "header": [
     "By Jumping",
@@ -145,7 +115,7 @@
    ]
   },
   {
-   "col_no": "21",
+   "col_no": "10005",
    "name": "By Other causes | M",
    "header": [
     "By Other causes",
@@ -153,7 +123,7 @@
    ]
   },
   {
-   "col_no": "22",
+   "col_no": "10006",
    "name": "By Other causes | F",
    "header": [
     "By Other causes",
@@ -161,7 +131,7 @@
    ]
   },
   {
-   "col_no": "23",
+   "col_no": "10007",
    "name": "Total | M",
    "header": [
     "Total",
@@ -169,7 +139,7 @@
    ]
   },
   {
-   "col_no": "24",
+   "col_no": "10008",
    "name": "Total | F",
    "header": [
     "Total",
@@ -177,34 +147,24 @@
    ]
   },
   {
-   "col_no": "25",
-   "name": "aa Tota (Male & Female)",
+   "col_no": "10009",
+   "name": "Grand Total (Male & Female)",
    "header": [
-    "aa Tota (Male & Female)"
+    "Grand Total (Male & Female)"
    ]
   }
  ],
- "notes": [
-  "-"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 7,
-  "cells_passed": 0,
+  "cells_checked": 20,
+  "cells_passed": 19,
   "failures": [
-   "col 5 'TOTAL (U. Ts.)': printed 7, sum 315",
-   "col 16 'TOTAL (STATES)': printed 3293, sum 2187",
-   "col 18 'TOTAL (STATES)': printed 2746, sum 1021",
-   "col 19 'TOTAL (STATES)': printed 410, sum 77",
-   "col 22 'TOTAL (STATES)': printed 2558, sum 991",
-   "col 23 'TOTAL (STATES)': printed 25684, sum 9480",
-   "col 25 'TOTAL (STATES)': printed 42236, sum 15843"
+   "col 10003 'TOTAL (STATES)': printed 2746, sum 2646"
   ],
-  "other_totals_checked": 3,
-  "other_totals_passed": 0
+  "other_totals_checked": 8,
+  "other_totals_passed": 8
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 4,
- "warnings": [
-  "page 4: 27 of 44 rows of the right-hand page could not be placed against the left-hand page"
- ]
+ "warnings": []
 }

@@ -65,7 +65,7 @@ def style(fig: go.Figure, title: str, subtitle: str = "", height: int = 520) -> 
 
 
 def good(d: pd.DataFrame) -> pd.DataFrame:
-    return d[d["check"].isin(["ok", "derived (sum of sexes)"])]
+    return d[d["check"].isin(["ok", "ok (vs grand total)", "derived (sum of sexes)"])]
 
 
 # --------------------------------------------------------------------------- traffic

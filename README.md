@@ -11,9 +11,9 @@ with the source files, the code that did it, and a check on every table.
 | Code | Publication | Years | Files | Tables | Figures |
 |---|---|---|---:|---:|---:|
 | `cii` | Crime in India | 1953–2024 | 9,579 | 27,971 | 21.2 M |
-| `adsi` | Accidental Deaths & Suicides in India | 1967–2024 | 1,460 | 3,383 | 4.0 M |
+| `adsi` | Accidental Deaths & Suicides in India | 1967–2024 | 1,460 | 3,382 | 4.0 M |
 | `psi` | Prison Statistics India | 1995–2024 | 2,480 | 4,778 | 1.7 M |
-| | **All** | | **13,519** | **36,132** | **26.9 M** |
+| | **All** | | **13,519** | **36,131** | **26.9 M** |
 
 Counts and quality for every publication and year: [docs/COVERAGE.md](docs/COVERAGE.md).
 
@@ -86,7 +86,7 @@ read correctly. Results per table are `checks_total` / `checks_passed`.
 | | Crime in India | ADSI | Prison Statistics |
 |---|---:|---:|---:|
 | Text PDFs & Excel: share of checked totals that match | 99.4% | 99.7% | 99.3% |
-| Scanned volumes (OCR): share that match | 53% | 51% | 37% |
+| Scanned volumes (OCR): share that match | 54% | 64% | 56% |
 
 Failures in the text tier are mostly NCRB's own totals not adding up, or a
 heading put on the wrong column; in the scanned tier they are misread digits.

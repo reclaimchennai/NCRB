@@ -8,314 +8,327 @@
  "serial": "1",
  "title": "Number of Traffic Accidents by Time of occurrence during 1998 (State, UT & City-wise)",
  "listing_title": "Number of Traffic Accidents by Time of occurrence during 1998 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-13_1998.pdf",
  "source_file": "raw/adsi/1998/table_content/table-13_1998.pdf",
  "source_sha256": "88bec9ed3dcd29289d27a17dbf968837e061cb1d36a98e403f5e5d67d6fa907a",
- "table_no": "13",
- "pdf_title": "(Continues",
- "row_label": "St, State/UT/City No. a1) States:",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "St. No. / State/UT/City",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 152,
+ "n_rows": 116,
  "n_cols": 36,
- "n_cells": 1769,
+ "n_cells": 2124,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Number of Traffic Accidents By Time of Ccciirrence during | 0000 hrs to 0300 hes. (Night) (2)",
-   "header": [
-    "Number of Traffic Accidents By Time of Ccciirrence during",
-    "0000 hrs to 0300 hes. (Night) (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Number of Traffic Accidents By Time of Ccciirrence during | 0300 hrs to 0600 hrs. (Night) (3)",
+   "name": "Road Accidents | 0000 hrs to 0300 hrs. (Night)",
    "header": [
-    "Number of Traffic Accidents By Time of Ccciirrence during",
-    "0300 hrs to 0600 hrs. (Night) (3)"
+    "Road Accidents",
+    "0000 hrs to 0300 hrs. (Night)"
    ]
   },
   {
    "col_no": "4",
-   "name": "Number of Traffic Accidents By Time of Ccciirrence during | (State, UT & 0600 hs to 0900 hrs (Day? (a)",
+   "name": "Road Accidents | 0300 hrs to 0800 hrs. (Night)",
    "header": [
-    "Number of Traffic Accidents By Time of Ccciirrence during",
-    "(State, UT & 0600 hs to 0900 hrs (Day? (a)"
+    "Road Accidents",
+    "0300 hrs to 0800 hrs. (Night)"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number of Traffic Accidents By Time of Ccciirrence during | City-wise) 0900 hrs to 1200 hrs (Day) (5)",
+   "name": "Road Accidents | 0600 hrs to 0900 hrs. (Day)",
    "header": [
-    "Number of Traffic Accidents By Time of Ccciirrence during",
-    "City-wise) 0900 hrs to 1200 hrs (Day) (5)"
+    "Road Accidents",
+    "0600 hrs to 0900 hrs. (Day)"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number of Traffic Accidents By Time of Ccciirrence during | 1200 hrs to 1600 hrs (Day) (6)",
+   "name": "Road Accidents | 0900 hrs to 1200 hrs. (Day)",
    "header": [
-    "Number of Traffic Accidents By Time of Ccciirrence during",
-    "1200 hrs to 1600 hrs (Day) (6)"
+    "Road Accidents",
+    "0900 hrs to 1200 hrs. (Day)"
    ]
   },
   {
    "col_no": "7",
-   "name": "1998 1500 brs to 1800 hrs (Day) (8)",
+   "name": "Road Accidents | 1200 hrs to 1500 hrs. (Day)",
    "header": [
-    "1998 1500 brs to 1800 hrs (Day) (8)"
+    "Road Accidents",
+    "1200 hrs to 1500 hrs. (Day)"
    ]
   },
   {
    "col_no": "8",
-   "name": "1800 hrs to 2100 hrs (Night) (9)",
+   "name": "Road Accidents | 1500 hrs to 1800 hrs. (Day)",
    "header": [
-    "1800 hrs to 2100 hrs (Night) (9)"
+    "Road Accidents",
+    "1500 hrs to 1800 hrs. (Day)"
    ]
   },
   {
    "col_no": "9",
-   "name": "Totel | 2100 hrs. to 2400 hrs (Night) (410)",
+   "name": "Road Accidents | 1800 hrs to 2100 hrs. (Night)",
    "header": [
-    "Totel",
-    "2100 hrs. to 2400 hrs (Night) (410)"
+    "Road Accidents",
+    "1800 hrs to 2100 hrs. (Night)"
    ]
   },
   {
    "col_no": "10",
-   "name": "Totel | wn",
+   "name": "Road Accidents | 2100 hrs. to 2400 hrs. (Night)",
    "header": [
-    "Totel",
-    "wn"
+    "Road Accidents",
+    "2100 hrs. to 2400 hrs. (Night)"
    ]
   },
   {
-   "col_no": "12",
-   "name": "0000 hrs to 0300",
-   "header": [
-    "0000 hrs to 0300"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "0300 hrs to 0600 tws.{Night)",
-   "header": [
-    "0300 hrs to 0600 tws.{Night)"
-   ]
-  },
-  {
-   "col_no": "14",
-   "name": "0600 hrs to 0900 hrs (Dey}'",
-   "header": [
-    "0600 hrs to 0900 hrs (Dey}'"
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "0800 fs to 1200 ts (Dey)",
-   "header": [
-    "0800 fs to 1200 ts (Dey)"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "1200 hes to 1500 hrs (Day)",
-   "header": [
-    "1200 hes to 1500 hrs (Day)"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "1500 hrs to 1800 hes (Day)",
-   "header": [
-    "1500 hrs to 1800 hes (Day)"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "1800 hrs to 2100 hrs (Night!",
-   "header": [
-    "1800 hrs to 2100 hrs (Night!"
-   ]
-  },
-  {
-   "col_no": "19",
-   "name": "2100 hrs. to 2400 hres (Night)",
-   "header": [
-    "2100 hrs. to 2400 hres (Night)"
-   ]
-  },
-  {
-   "col_no": "20",
-   "name": "Total",
+   "col_no": "11",
+   "name": "Total (11)",
    "header": [
     "Total"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "0000 0300 hrs. (Night) (21)",
+   "col_no": "12",
+   "name": "Rail-Road Accidents | 0000 hrs to 0300 hrs.(Night)",
    "header": [
-    "0000 0300 hrs. (Night) (21)"
+    "Rail-Road Accidents",
+    "0000 hrs to 0300 hrs.(Night)"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "«=—«-s«0300 0600 hrs. (Night) (22)",
+   "col_no": "13",
+   "name": "Rail-Road Accidents | 0300 hrs to 0600 hrs.(Night)",
    "header": [
-    "«=—«-s«0300 0600 hrs. (Night) (22)"
+    "Rail-Road Accidents",
+    "0300 hrs to 0600 hrs.(Night)"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "§=—s«0600 0900 hrs (Dev) (23)",
+   "col_no": "14",
+   "name": "Rail-Road Accidents | 0600 hrs to 0900 hrs.(Day¹)",
    "header": [
-    "§=—s«0600 0900 hrs (Dev) (23)"
+    "Rail-Road Accidents",
+    "0600 hrs to 0900 hrs.(Day¹)"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "«0900 1200 hrs (Day) (24)",
+   "col_no": "15",
+   "name": "Rail-Road Accidents | 0800 hrs to 1200 hrs(Day)",
    "header": [
-    "«0900 1200 hrs (Day) (24)"
+    "Rail-Road Accidents",
+    "0800 hrs to 1200 hrs(Day)"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "1500 | §=—s«*1200 ws to 1600 hrs (Dey! (26)",
+   "col_no": "16",
+   "name": "Rail-Road Accidents | 1200 hrs to 1500 hrs(Day)",
    "header": [
-    "1500",
-    "§=—s«*1200 ws to 1600 hrs (Dey! (26)"
+    "Rail-Road Accidents",
+    "1200 hrs to 1500 hrs(Day)"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "1500 | 1800 hws (Day) (20)",
+   "col_no": "17",
+   "name": "Rail-Road Accidents | 1500 hrs to 1800 hrs(Day)",
    "header": [
-    "1500",
-    "1800 hws (Day) (20)"
+    "Rail-Road Accidents",
+    "1500 hrs to 1800 hrs(Day)"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "1500 | §=9»s 1800 hrsto 2100 hes (Night) (27)",
+   "col_no": "18",
+   "name": "Rail-Road Accidents | 1800 hrs to 2100 hrs(Night)",
    "header": [
-    "1500",
-    "§=9»s 1800 hrsto 2100 hes (Night) (27)"
+    "Rail-Road Accidents",
+    "1800 hrs to 2100 hrs(Night)"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "21000 hrs. to 2400 hs (Night) (28)",
+   "col_no": "19",
+   "name": "Rail-Road Accidents | 2100 hrs to 2400 hrs(Night)",
    "header": [
-    "21000 hrs. to 2400 hs (Night) (28)"
+    "Rail-Road Accidents",
+    "2100 hrs to 2400 hrs(Night)"
    ]
   },
   {
-   "col_no": "10009",
+   "col_no": "20",
+   "name": "Total (20)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Other Railway Accidents | 0000 hrs to 0300 hrs. (Night)",
+   "header": [
+    "Other Railway Accidents",
+    "0000 hrs to 0300 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Other Railway Accidents | 0300 hrs to 0600 hrs. (Night)",
+   "header": [
+    "Other Railway Accidents",
+    "0300 hrs to 0600 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Other Railway Accidents | 0600 hrs to 0900 hrs. (Day)",
+   "header": [
+    "Other Railway Accidents",
+    "0600 hrs to 0900 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "Other Railway Accidents | 0900 hrs to 1200 hrs. (Day)",
+   "header": [
+    "Other Railway Accidents",
+    "0900 hrs to 1200 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "Other Railway Accidents | 1200 hrs to 1500 hrs. (Day)",
+   "header": [
+    "Other Railway Accidents",
+    "1200 hrs to 1500 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "Other Railway Accidents | 1500 hrs to 1800 hrs. (Day)",
+   "header": [
+    "Other Railway Accidents",
+    "1500 hrs to 1800 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "Other Railway Accidents | 1800 hrs to 2100 hrs. (Night)",
+   "header": [
+    "Other Railway Accidents",
+    "1800 hrs to 2100 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "Other Railway Accidents | 2100 hrs. to 2400 hrs. (Night)",
+   "header": [
+    "Other Railway Accidents",
+    "2100 hrs. to 2400 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "29",
    "name": "Total (29)",
    "header": [
-    "Total (29)"
+    "Total"
    ]
   },
   {
    "col_no": "30",
-   "name": "Totad | 0000 hrs to 0300 hrs.",
+   "name": "Total (Traffic Accidents) | 0000 hrs to 0300 hrs. (Night)",
    "header": [
-    "Totad",
-    "0000 hrs to 0300 hrs."
+    "Total (Traffic Accidents)",
+    "0000 hrs to 0300 hrs. (Night)"
    ]
   },
   {
    "col_no": "31",
-   "name": "Totad | 0300 ts to 0600 hrs. (Night)",
+   "name": "Total (Traffic Accidents) | 0300 hrs to 0600 hrs. (Night)",
    "header": [
-    "Totad",
-    "0300 ts to 0600 hrs. (Night)"
+    "Total (Traffic Accidents)",
+    "0300 hrs to 0600 hrs. (Night)"
    ]
   },
   {
    "col_no": "32",
-   "name": "Totad | 0600 0900 tvs (Day)",
+   "name": "Total (Traffic Accidents) | 0600 hrs to 0900 hrs. (Day)",
    "header": [
-    "Totad",
-    "0600 0900 tvs (Day)"
+    "Total (Traffic Accidents)",
+    "0600 hrs to 0900 hrs. (Day)"
    ]
   },
   {
    "col_no": "33",
-   "name": "Totad | 0900 hes to fs to 1200 hes {Day}",
+   "name": "Total (Traffic Accidents) | 0900 hrs to 1200 hrs. (Day)",
    "header": [
-    "Totad",
-    "0900 hes to fs to 1200 hes {Day}"
+    "Total (Traffic Accidents)",
+    "0900 hrs to 1200 hrs. (Day)"
    ]
   },
   {
    "col_no": "34",
-   "name": "Totad | 1200 hrs to 1500 hrs (Day)",
+   "name": "Total (Traffic Accidents) | 1200 hrs to 1500 hrs. (Day)",
    "header": [
-    "Totad",
-    "1200 hrs to 1500 hrs (Day)"
+    "Total (Traffic Accidents)",
+    "1200 hrs to 1500 hrs. (Day)"
    ]
   },
   {
    "col_no": "35",
-   "name": "Totad | 1500 hrs to 1800 hes (Day)",
+   "name": "Total (Traffic Accidents) | 1500 hrs to 1800 hrs. (Day)",
    "header": [
-    "Totad",
-    "1500 hrs to 1800 hes (Day)"
+    "Total (Traffic Accidents)",
+    "1500 hrs to 1800 hrs. (Day)"
    ]
   },
   {
    "col_no": "36",
-   "name": "Totad | 1800 hrs to 2100 hrs (Night)",
+   "name": "Total (Traffic Accidents) | 1800 hrs to 2100 hrs. (Night)",
    "header": [
-    "Totad",
-    "1800 hrs to 2100 hrs (Night)"
+    "Total (Traffic Accidents)",
+    "1800 hrs to 2100 hrs. (Night)"
    ]
   },
   {
    "col_no": "37",
-   "name": "Totad | 2100 hrs. to 2400 hrs (Night)",
+   "name": "Total (Traffic Accidents) | 2100 hrs. to 2400 hrs. (Night)",
    "header": [
-    "Totad",
-    "2100 hrs. to 2400 hrs (Night)"
+    "Total (Traffic Accidents)",
+    "2100 hrs. to 2400 hrs. (Night)"
    ]
   },
   {
    "col_no": "38",
-   "name": "Totad | Total",
+   "name": "Total (38)",
    "header": [
-    "Totad",
     "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 68,
-  "cells_passed": 5,
+  "cells_checked": 117,
+  "cells_passed": 106,
   "failures": [
-   "col 2 'TOTAL (Cities)': printed 2415, sum 26420",
-   "col 3 'TOTAL (Cities)': printed 2749, sum 32520",
-   "col 4 'TOTAL (Cities)': printed 5571, sum 47739",
-   "col 5 'TOTAL (States)': printed 46131, sum 46121",
-   "col 5 'TOTAL (Cities)': printed 8532, sum 60033",
-   "col 6 'TOTAL (States)': printed 40659, sum 40649",
-   "col 7 'TOTAL (Cities)': printed 8506, sum 58175",
-   "col 8 'TOTAL (Cities)': printed 7706, sum 53590"
+   "col 30 'total (States)': printed 23194, sum 23004",
+   "col 31 'total (States)': printed 29575, sum 29203",
+   "col 31 'Total (Cities)': printed 2856, sum 2836",
+   "col 32 'total (States)': printed 41303, sum 40692",
+   "col 33 'total (States)': printed 49240, sum 48019",
+   "col 34 'total (States)': printed 42890, sum 42035",
+   "col 34 'Total (Cities)': printed 7887, sum 7867",
+   "col 35 'total (States)': printed 46700, sum 46113"
   ],
-  "other_totals_checked": 4,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 4,
  "warnings": []
 }

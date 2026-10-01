@@ -84,8 +84,8 @@ def build(res: dict) -> None:
                           "accidents", dashed_before=first_text)
     sections.append(("Chennai road accidents by time of day", "".join([
         p(f"NCRB's city tables count <b>accidents</b>, not deaths, by time of day; Chennai (Madras until 1996) is printed every year from "
-          f"{int(road.year.min())}. Missing: {span(set(range(int(road.year.min()), last + 1)) - set(road.year))} (no readable table yet, or "
-          "figures that do not add up to the printed total)."),
+          f"{int(tr['time'].year.min())}. Left out because their figures do not add up to the printed total or disagree with the month table: "
+          f"{span(set(range(int(tr['time'].year.min()), last + 1)) - set(road.year))}."),
         p(f"The busiest three hours were {peak.mode().iloc[0]} h in {(peak == peak.mode().iloc[0]).sum()} of {len(peak)} years "
           f"(in {last}: {peak.loc[last]} h). The evening and night (18–06 h) held {night.loc[first_text]:.0f}% of road accidents in {first_text} "
           f"and {night.loc[last]:.0f}% in {last}. Use the buttons to switch between counts and each year's share of the day, and the "
@@ -141,13 +141,20 @@ def build(res: dict) -> None:
     figs = [f_means, f_means_l]
     if res.get("means_age") is not None and not res["means_age"].empty:
         figs.append(C.heat_cat_age(res["means_age"], "means", "Means adopted by age group, Tamil Nadu", "both sexes · 2021 onwards (state-wise age tables)"))
+    old = ""
+    early = sorted(y for y in mn.year.unique() if y < y0)
+    if early:
+        e = int(early[0])
+        both = mn[(mn.year == e) & mn.sex.isin(["Male", "Female", "Transgender"])].groupby("means").value.sum()
+        both = (both / both.sum() * 100).sort_values(ascending=False)
+        old = (f" The oldest means table that adds up is {e}'s: " + ", ".join(f"{k.lower()} {v:.0f}%" for k, v in both.head(4).items())
+               + " (read from the scan with the AI model; not drawn, being far from the unbroken run).")
     sections.append(("Suicides in Tamil Nadu by means", "".join([
         p(f"Hanging was {msh.loc[y0, 'Hanging']:.0f}% of suicides in {y0} and {msh.loc[y1, 'Hanging']:.0f}% in {y1}; "
           f"poisoning (insecticides and other poison together) went from {msh.loc[y0, [c for c in msh if c.startswith('Poison')]].sum():.0f}% "
           f"to {msh.loc[y1, [c for c in msh if c.startswith('Poison')]].sum():.0f}%. NCRB's wording of the means changes between editions; "
           "they are mapped to one list (analysis/harmonise.py) and the printed label is kept in the CSV. "
-          + (f"Earlier years read from scans ({span(y for y in mt.index if y < y0)}) are in the CSV but not drawn: the scanned means tables are "
-             "being re-read with the AI model." if mt.index.min() < y0 else "")),
+          + old),
     ]), figs))
     C.save_fig(f_means, "tn_suicides_means_share")
     C.save_fig(figs[-1] if len(figs) > 2 else None, "tn_suicides_means_age")

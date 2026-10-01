@@ -8,49 +8,223 @@
  "serial": "3",
  "title": "Statement of Number of Suicides in States/UTs./Cities - 1972 (By Means Adopted)",
  "listing_title": "Statement of Number of Suicides in States/UTs./Cities - 1972 (By Means Adopted)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680154568appendix-61972.pdf",
  "source_file": "raw/adsi/1972/table_content/1680154568appendix-61972.pdf",
  "source_sha256": "8a9ca9bf35e1f760f30ef9c8d25024b9dae5db3f5a3330430a7a42edd26e959e",
  "table_no": "",
  "pdf_title": "",
- "row_label": "“= momne sie / an on ::2 “oe S13 / Ss © 59 a wn -",
+ "row_label": "Sl. No.",
  "pages": [
-  4
+  1,
+  3,
+  5
  ],
- "n_rows": 14,
- "n_cols": 2,
- "n_cells": 16,
+ "n_rows": 23,
+ "n_cols": 24,
+ "n_cells": 522,
  "columns": [
   {
-   "col_no": "4",
-   "name": "on “gr -",
+   "col_no": "3",
+   "name": "By Railway | Male",
    "header": [
-    "on “gr -"
+    "By Railway",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "By Railway | Female",
+   "header": [
+    "By Railway",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "87 met g x -",
+   "name": "By Machine | Male",
    "header": [
-    "87 met g x -"
+    "By Machine",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "By Machine | Female",
+   "header": [
+    "By Machine",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "By Fire-arms | Male",
+   "header": [
+    "By Fire-arms",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By Fire-arms | Female",
+   "header": [
+    "By Fire-arms",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "By Weapons | Male",
+   "header": [
+    "By Weapons",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "By Weapons | Female",
+   "header": [
+    "By Weapons",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Name of States/U. Ts./Cities",
+   "header": [
+    "Name of States/U. Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "By Poison | Male",
+   "header": [
+    "By Poison",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "By Poison | Female",
+   "header": [
+    "By Poison",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "By Fire | Male",
+   "header": [
+    "By Fire",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "By Fire | Female",
+   "header": [
+    "By Fire",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "By Drowning | Male",
+   "header": [
+    "By Drowning",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "By Drowning | Female",
+   "header": [
+    "By Drowning",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "By Hanging | Male",
+   "header": [
+    "By Hanging",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "By Hanging | Female",
+   "header": [
+    "By Hanging",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "By Jumping | Male",
+   "header": [
+    "By Jumping",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10010",
+   "name": "By Jumping | Female",
+   "header": [
+    "By Jumping",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "By Other causes | Male",
+   "header": [
+    "By Other causes",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10012",
+   "name": "By Other causes | Female",
+   "header": [
+    "By Other causes",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10013",
+   "name": "Total | Male",
+   "header": [
+    "Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10014",
+   "name": "Total | Female",
+   "header": [
+    "Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Grand Total Male & Female",
+   "header": [
+    "Grand Total Male & Female"
    ]
   }
  ],
- "notes": [
-  "3 et D.& V2 & & 4 Es 5:",
-  "A.",
-  "1. 3. ite 8. Z 5"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 23,
+  "cells_passed": 23,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

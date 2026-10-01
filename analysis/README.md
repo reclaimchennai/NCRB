@@ -12,10 +12,10 @@ The run takes about 30 seconds. It reads `data/web/ncrb.duckdb`, which holds eve
 
 | Question | Output | Years | Notes |
 |---|---|---|---|
-| Traffic accidents in Chennai by time of day (polar chart) | `chennai_traffic_by_time.csv` | 1996–1998 (AI OCR), 2001–2024 | Road, railway-crossing, railway and total. NCRB's city tables count **accidents** by time of day, not deaths. |
-| Traffic accidents in Chennai by month | `chennai_traffic_by_month.csv` | 1997, 2000–2024 | Same four groups. |
+| Traffic accidents in Chennai by time of day (polar chart) | `chennai_traffic_by_time.csv` | 1996–1999 (AI OCR), 2001–2024 | Road, railway-crossing, railway and total. NCRB's city tables count **accidents** by time of day, not deaths. |
+| Traffic accidents in Chennai by month | `chennai_traffic_by_month.csv` | 1997–1998 (AI OCR), 2000–2024 | Same four groups. |
 | Persons killed or injured in traffic accidents by time and month | `tn_traffic_persons_by_time.csv`, `tn_traffic_persons_by_month.csv` | 2021–2024 | Printed only state-wise. These are the only tables that count deaths by time of day. |
-| Suicides in Tamil Nadu by means | `tn_suicides_by_means.csv` | 2004–2024 (+ scanned 1975, 1989–91) | Means names harmonised (`harmonise.py`), printed label kept. |
+| Suicides in Tamil Nadu by means | `tn_suicides_by_means.csv` | 1972 (AI OCR), 2004–2024 | Means names harmonised (`harmonise.py`), printed label kept. |
 | … by means, sex and age group | `tn_suicides_by_means_age.csv` | 2021–2024 | |
 | Suicides in Tamil Nadu by profession and sex | `tn_suicides_by_profession.csv` | 2004–2024 | In 2014 NCRB split "others" into daily wage earners, agricultural labourers and other groups. |
 | … by profession, sex and age group | `tn_suicides_by_profession_age.csv` | 2021–2024 | |
@@ -47,6 +47,7 @@ Each CSV has a `*_sources.csv` file next to it. It lists the table used for each
 5. **Extra checks.**
    - Chennai's time-of-day and month tables are two cuts of the same accidents, so their totals must agree. 2000 fails this test and is left out.
    - A suicide rate is kept only where suicides ÷ population matches the printed rate.
+   - In a scanned means table, the categories added together must also match Tamil Nadu's total for the year, from the table's grand-total row or the rates table. A single category can pass its own check by chance on a misread page.
    - Rates above 100 per lakh are treated as misreads and blanked.
 
 ## Things to know when reading the charts
@@ -55,7 +56,7 @@ Each CSV has a `*_sources.csv` file next to it. It lists the table used for each
 - **City rates use a fixed census population.** Chennai's is 64.3 lakh up to 2010 and 87 lakh from 2011, so a change in Chennai's rate is a change in the count. The count fell from 2,699 in 2021 to 1,581 in 2022.
 - **2018 and 2020 time-of-day figures.** In both years Chennai's 00–03 h count is unusually large. That is how NCRB printed it, and the same figures appear in the state/city table and in the full report.
 - **Gaps:**
-  - Chennai traffic tables for 1995 and 1999 have not been read yet.
+  - Chennai's 1995 time-of-day table is read, but its road figures are 3% off the printed total, so it is left out.
   - The 1993–2003 suicide-rate tables are not on NCRB's site as separate tables.
   - The scanned suicide tables from before 1993 are noisy. They are being re-read with the AI model; see below.
 

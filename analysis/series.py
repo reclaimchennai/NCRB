@@ -19,7 +19,7 @@ import re
 
 import pandas as pd
 
-from .lib import PLACES, SCANNED, q, rows_for
+from .lib import LISTING_RANK, PLACES, SCANNED, q, rows_for
 from .topics import tables_for
 
 SLOTS = ["00-03", "03-06", "06-09", "09-12", "12-15", "15-18", "18-21", "21-24"]
@@ -108,6 +108,22 @@ def candidates(topic: str) -> tuple[pd.DataFrame, dict[int, list[pd.DataFrame]]]
             if not v.empty:
                 readings.append(v)
         out[int(t.year)] = readings
+    # scanned years where no extracted table shows the place (OCR lost the row or its name):
+    # try the AI OCR reading of each scanned table with the right title
+    t = TOPICS[topic]
+    from .lib import find_tables
+
+    allc = find_tables(t["pub"], t["title"], exclude=t.get("exclude"))
+    extra = []
+    for y, g in allc[allc.method.isin(SCANNED) & ~allc.year.isin(out.keys())].groupby("year"):
+        for c in g.sort_values("listing", key=lambda s: s.map(LISTING_RANK).fillna(9)).itertuples():
+            v = vlm_cells(c.table_id, place)
+            if not v.empty:
+                out[int(y)] = [v]
+                extra.append(c)
+                break
+    if extra:
+        picked = pd.concat([picked, pd.DataFrame(extra).drop(columns="Index", errors="ignore")], ignore_index=True).sort_values("year")
     return picked, out
 
 

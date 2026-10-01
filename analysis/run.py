@@ -87,9 +87,37 @@ def with_age(d: pd.DataFrame) -> pd.DataFrame:
     return d
 
 
-def means() -> tuple[pd.DataFrame, pd.DataFrame]:
+def check_vs_grand_total(d: pd.DataFrame) -> pd.DataFrame:
+    """Old editions print no 'both sexes' column; check instead that every means, both sexes, adds up to the grand-total row."""
+    d = d.copy()
+    for y, g in d[d.check == "no total"].groupby("year"):
+        grand = g[g.category.str.match(r"^\W*grand|^\W*total\W*$", case=False)]
+        parts = g[g.means.notna() & g.sex.isin(SEXES)]
+        if grand.empty or parts.empty:
+            continue
+        gt = grand.value.max()
+        if gt and abs(parts.value.sum() - gt) <= max(2, 0.01 * gt):
+            d.loc[g.index, "check"] = "ok (vs grand total)"
+    return d
+
+
+def whole_year_check(d: pd.DataFrame, cat: str, tn_total: pd.Series) -> pd.DataFrame:
+    """Scanned years: per-category checks can pass by chance on a misread table, so the categories
+    together (both sexes) must also match Tamil Nadu's total for the year, from the grand-total row or the rates table."""
+    d = d.copy()
+    for y, g in d[d.source != "text"].groupby("year"):
+        parts = g[g[cat].notna() & g.sex.isin(SEXES)].value.sum()
+        grand = g[g.category.str.match(r"^\W*grand|^\W*total\W*$", case=False)].value.max()
+        target = [x for x in (grand, tn_total.get(y)) if x == x and x]
+        if not any(abs(parts - t) <= 0.02 * t for t in target):
+            d.loc[g.index, "check"] = d.loc[g.index, "check"].map(lambda c: c if not str(c).startswith("ok") else "categories do not add up to the year's total")
+    return d
+
+
+def means(tn_total: pd.Series) -> tuple[pd.DataFrame, pd.DataFrame]:
     d, p = category_series("suicide_means_tn")
     d["means"] = d.category.map(lambda c: standard(c, MEANS))
+    d = whole_year_check(check_vs_grand_total(d), "means", tn_total)
     d = d[d.means.notna()].rename(columns={"category": "means_as_printed"}).drop(columns="age")
     note(d, "tn_suicides_by_means", p)
     a, pa = category_series("suicide_means_age_tn")
@@ -265,10 +293,12 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     print("building series")
     res = {"traffic": traffic_series()}
-    res["means"], res["means_age"] = means()
+    res["rates"] = rates()
+    r = res["rates"]
+    tn_total = r[(r.name_std == "Tamil Nadu") & (r.rate_check == "ok")].set_index("year").suicides
+    res["means"], res["means_age"] = means(tn_total)
     res["profession"], res["profession_age"] = professions()
     res["sex_age"] = sex_age()
-    res["rates"] = rates()
     res["cities_sex_age"] = cities_sex_age(res["rates"])
     res["chennai_summary"] = chennai_summary(res["traffic"], res["sex_age"], res["rates"])
     chennai_all()

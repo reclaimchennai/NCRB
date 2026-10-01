@@ -8,408 +8,445 @@
  "serial": "2",
  "title": "Number of Traffic Accidents by Month of occurrence during 1998 (State, UT & City-wise)",
  "listing_title": "Number of Traffic Accidents by Month of occurrence during 1998 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-12_1998.pdf",
  "source_file": "raw/adsi/1998/table_content/table-12_1998.pdf",
  "source_sha256": "5a83b8117065bdcf7b1b03ee4ee298accb16d87337416eb8d87f3b2b6d28ab83",
- "table_no": "12",
+ "table_no": "",
  "pdf_title": "",
- "row_label": "Sl. No. (1) States:",
+ "row_label": "Sl. No. / State/UT/City / Road Accidents Aug.",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 87,
- "n_cols": 46,
- "n_cells": 2226,
+ "n_rows": 61,
+ "n_cols": 51,
+ "n_cells": 3007,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Number of Traffic Accidents By Month of Occurrence During | (2)",
-   "header": [
-    "Number of Traffic Accidents By Month of Occurrence During",
-    "(2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Number of Traffic Accidents By Month of Occurrence During | Feb. Jan. 3a",
+   "name": "Road Accidents | Jan.",
    "header": [
-    "Number of Traffic Accidents By Month of Occurrence During",
-    "Feb. Jan. 3a"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "Number of Traffic Accidents By Month of Occurrence During | Mar. &",
-   "header": [
-    "Number of Traffic Accidents By Month of Occurrence During",
-    "Mar. &"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "Number of Traffic Accidents By Month of Occurrence During | (State, Apr.",
-   "header": [
-    "Number of Traffic Accidents By Month of Occurrence During",
-    "(State, Apr."
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Number of Traffic Accidents By Month of Occurrence During | UT and City-wise) | May m",
-   "header": [
-    "Number of Traffic Accidents By Month of Occurrence During",
-    "UT and City-wise)",
-    "May m"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Number of Traffic Accidents By Month of Occurrence During | UT and City-wise) | Jun. @&",
-   "header": [
-    "Number of Traffic Accidents By Month of Occurrence During",
-    "UT and City-wise)",
-    "Jun. @&"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Number of Traffic Accidents By Month of Occurrence During | UT and City-wise) | Road Accide vte Jul.",
-   "header": [
-    "Number of Traffic Accidents By Month of Occurrence During",
-    "UT and City-wise)",
-    "Road Accide vte Jul."
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Number of Traffic Accidents By Month of Occurrence During | op",
-   "header": [
-    "Number of Traffic Accidents By Month of Occurrence During",
-    "op"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Number of Traffic Accidents By Month of Occurrence During | 6]",
-   "header": [
-    "Number of Traffic Accidents By Month of Occurrence During",
-    "6]"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "1998 Sep. tt)",
-   "header": [
-    "1998 Sep. tt)"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Oct. 2)",
-   "header": [
-    "Oct. 2)"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Nov. Dec. 3 aa",
-   "header": [
-    "Nov. Dec. 3 aa"
-   ]
-  },
-  {
-   "col_no": "14",
-   "name": "Total J (15)",
-   "header": [
-    "Total J (15)"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Rail-Fload | (2)",
-   "header": [
-    "Rail-Fload",
-    "(2)"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Rail-Fload | Jan. ae)",
-   "header": [
-    "Rail-Fload",
-    "Jan. ae)"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Rail-Fload | J",
-   "header": [
-    "Rail-Fload",
-    "J"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Rail-Fload | Feb. Apr. a7",
-   "header": [
-    "Rail-Fload",
-    "Feb. Apr. a7"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "Rail-Fload | Jun. Mar. may",
-   "header": [
-    "Rail-Fload",
-    "Jun. Mar. may"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "Rail-Fload | May coy",
-   "header": [
-    "Rail-Fload",
-    "May coy"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "Rail-Fload | Jul. 22)",
-   "header": [
-    "Rail-Fload",
-    "Jul. 22)"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "Rail-Fload | Aug. (23)",
-   "header": [
-    "Rail-Fload",
-    "Aug. (23)"
-   ]
-  },
-  {
-   "col_no": "10009",
-   "name": "Rail-Fload | Sep. Nov. (26) (24)",
-   "header": [
-    "Rail-Fload",
-    "Sep. Nov. (26) (24)"
-   ]
-  },
-  {
-   "col_no": "10010",
-   "name": "Rail-Fload | Total Oct. Dec. t27) (25) a",
-   "header": [
-    "Rail-Fload",
-    "Total Oct. Dec. t27) (25) a"
-   ]
-  },
-  {
-   "col_no": "29",
-   "name": "Other F atway Accidents | Jan.",
-   "header": [
-    "Other F atway Accidents",
+    "Road Accidents",
     "Jan."
    ]
   },
   {
-   "col_no": "30",
-   "name": "Other F atway Accidents | Feb.",
+   "col_no": "4",
+   "name": "Road Accidents | Feb.",
    "header": [
-    "Other F atway Accidents",
+    "Road Accidents",
     "Feb."
    ]
   },
   {
-   "col_no": "31",
-   "name": "Other F atway Accidents | Mar.",
+   "col_no": "5",
+   "name": "Road Accidents | Mar.",
    "header": [
-    "Other F atway Accidents",
+    "Road Accidents",
     "Mar."
    ]
   },
   {
-   "col_no": "32",
-   "name": "Other F atway Accidents | Apr.",
+   "col_no": "6",
+   "name": "Road Accidents | Apr.",
    "header": [
-    "Other F atway Accidents",
+    "Road Accidents",
     "Apr."
    ]
   },
   {
-   "col_no": "33",
-   "name": "Other F atway Accidents | May",
+   "col_no": "7",
+   "name": "Road Accidents | May",
    "header": [
-    "Other F atway Accidents",
+    "Road Accidents",
     "May"
    ]
   },
   {
-   "col_no": "34",
-   "name": "Other F atway Accidents | Jun,",
+   "col_no": "8",
+   "name": "Road Accidents | Jun.",
    "header": [
-    "Other F atway Accidents",
-    "Jun,"
+    "Road Accidents",
+    "Jun."
    ]
   },
   {
-   "col_no": "35",
-   "name": "Other F atway Accidents | Jul.",
+   "col_no": "9",
+   "name": "Road Accidents | Jul.",
    "header": [
-    "Other F atway Accidents",
+    "Road Accidents",
     "Jul."
    ]
   },
   {
-   "col_no": "36",
-   "name": "Other F atway Accidents | Aug.",
+   "col_no": "11",
+   "name": "Road Accidents | Sep.",
    "header": [
-    "Other F atway Accidents",
-    "Aug."
-   ]
-  },
-  {
-   "col_no": "37",
-   "name": "Other F atway Accidents | Sep.",
-   "header": [
-    "Other F atway Accidents",
+    "Road Accidents",
     "Sep."
    ]
   },
   {
-   "col_no": "38",
-   "name": "Other F atway Accidents | Oct.",
+   "col_no": "12",
+   "name": "Road Accidents | Oct.",
    "header": [
-    "Other F atway Accidents",
+    "Road Accidents",
     "Oct."
    ]
   },
   {
-   "col_no": "39",
-   "name": "Other F atway Accidents | Nov.",
+   "col_no": "13",
+   "name": "Road Accidents | Nov.",
    "header": [
-    "Other F atway Accidents",
+    "Road Accidents",
     "Nov."
    ]
   },
   {
-   "col_no": "40",
-   "name": "Other F atway Accidents | Dec.",
+   "col_no": "14",
+   "name": "Dec.",
    "header": [
-    "Other F atway Accidents",
     "Dec."
    ]
   },
   {
-   "col_no": "41",
-   "name": "Other F atway Accidents | Total",
+   "col_no": "15",
+   "name": "Total (15)",
    "header": [
-    "Other F atway Accidents",
     "Total"
    ]
   },
   {
-   "col_no": "10011",
-   "name": "ity (2)",
+   "col_no": "16",
+   "name": "Rail-Road Accidents | Jan.",
    "header": [
-    "ity (2)"
+    "Rail-Road Accidents",
+    "Jan."
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Rail-Road Accidents | Feb.",
+   "header": [
+    "Rail-Road Accidents",
+    "Feb."
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Rail-Road Accidents | Mar.",
+   "header": [
+    "Rail-Road Accidents",
+    "Mar."
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Rail-Road Accidents | Apr.",
+   "header": [
+    "Rail-Road Accidents",
+    "Apr."
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Rail-Road Accidents | May",
+   "header": [
+    "Rail-Road Accidents",
+    "May"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Rail-Road Accidents | Jun.",
+   "header": [
+    "Rail-Road Accidents",
+    "Jun."
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Rail-Road Accidents | Jul.",
+   "header": [
+    "Rail-Road Accidents",
+    "Jul."
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Rail-Road Accidents | Aug.",
+   "header": [
+    "Rail-Road Accidents",
+    "Aug."
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "Rail-Road Accidents | Sep.",
+   "header": [
+    "Rail-Road Accidents",
+    "Sep."
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "Rail-Road Accidents | Oct.",
+   "header": [
+    "Rail-Road Accidents",
+    "Oct."
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "Rail-Road Accidents | Nov.",
+   "header": [
+    "Rail-Road Accidents",
+    "Nov."
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "Rail-Road Accidents | Dec.",
+   "header": [
+    "Rail-Road Accidents",
+    "Dec."
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "Total (28)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Other Railway Accidents | Jan. (29)",
+   "header": [
+    "Other Railway Accidents",
+    "Jan. (29)"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Other Railway Accidents | Feb. (30)",
+   "header": [
+    "Other Railway Accidents",
+    "Feb. (30)"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Other Railway Accidents | Mar. (31)",
+   "header": [
+    "Other Railway Accidents",
+    "Mar. (31)"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Other Railway Accidents | Apr. (32)",
+   "header": [
+    "Other Railway Accidents",
+    "Apr. (32)"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Other Railway Accidents | May (33)",
+   "header": [
+    "Other Railway Accidents",
+    "May (33)"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Other Railway Accidents | Jun. (34)",
+   "header": [
+    "Other Railway Accidents",
+    "Jun. (34)"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "Other Railway Accidents | Jul. (35)",
+   "header": [
+    "Other Railway Accidents",
+    "Jul. (35)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Other Railway Accidents | Aug. (36)",
+   "header": [
+    "Other Railway Accidents",
+    "Aug. (36)"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "Other Railway Accidents | Sep. (37)",
+   "header": [
+    "Other Railway Accidents",
+    "Sep. (37)"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "Other Railway Accidents | Oct. (38)",
+   "header": [
+    "Other Railway Accidents",
+    "Oct. (38)"
+   ]
+  },
+  {
+   "col_no": "10010",
+   "name": "Other Railway Accidents | Nov. (39)",
+   "header": [
+    "Other Railway Accidents",
+    "Nov. (39)"
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "Dec. (40)",
+   "header": [
+    "Dec. (40)"
    ]
   },
   {
    "col_no": "10012",
-   "name": "- Jan. (42)",
+   "name": "Total (41)",
    "header": [
-    "- Jan. (42)"
+    "Total (41)"
    ]
   },
   {
-   "col_no": "10013",
-   "name": "Feb. 43)",
+   "col_no": "42",
+   "name": "Total | Jan.",
    "header": [
-    "Feb. 43)"
+    "Total",
+    "Jan."
    ]
   },
   {
-   "col_no": "10014",
-   "name": "Mar. aay",
+   "col_no": "43",
+   "name": "Total | Feb.",
    "header": [
-    "Mar. aay"
+    "Total",
+    "Feb."
    ]
   },
   {
-   "col_no": "10015",
-   "name": "Apr. 45)",
+   "col_no": "44",
+   "name": "Total | Mar.",
    "header": [
-    "Apr. 45)"
+    "Total",
+    "Mar."
    ]
   },
   {
-   "col_no": "10016",
-   "name": "May cae)",
+   "col_no": "45",
+   "name": "Total | Apr.",
    "header": [
-    "May cae)"
+    "Total",
+    "Apr."
    ]
   },
   {
-   "col_no": "10017",
-   "name": "Oct. Jun. 1 (47)",
+   "col_no": "46",
+   "name": "Total | May",
    "header": [
-    "Oct. Jun. 1 (47)"
+    "Total",
+    "May"
    ]
   },
   {
-   "col_no": "10018",
-   "name": "rote Nov. Jul. 2 ca)",
+   "col_no": "47",
+   "name": "Total | Jun.",
    "header": [
-    "rote Nov. Jul. 2 ca)"
+    "Total",
+    "Jun."
    ]
   },
   {
-   "col_no": "10019",
-   "name": "Dec. Aug. 3 «9",
+   "col_no": "48",
+   "name": "Total | Jul.",
    "header": [
-    "Dec. Aug. 3 «9"
+    "Total",
+    "Jul."
    ]
   },
   {
-   "col_no": "10020",
-   "name": "Total Sep. (54) wo",
+   "col_no": "49",
+   "name": "Total | Aug.",
    "header": [
-    "Total Sep. (54) wo"
+    "Total",
+    "Aug."
+   ]
+  },
+  {
+   "col_no": "50",
+   "name": "Total | Sep.",
+   "header": [
+    "Total",
+    "Sep."
+   ]
+  },
+  {
+   "col_no": "51",
+   "name": "Total | Oct.",
+   "header": [
+    "Total",
+    "Oct."
+   ]
+  },
+  {
+   "col_no": "52",
+   "name": "Total | Nov.",
+   "header": [
+    "Total",
+    "Nov."
+   ]
+  },
+  {
+   "col_no": "53",
+   "name": "Total | Dec.",
+   "header": [
+    "Total",
+    "Dec."
+   ]
+  },
+  {
+   "col_no": "54",
+   "name": "Total (54)",
+   "header": [
+    "Total"
    ]
   }
  ],
- "notes": [
-  "50 PATNA",
-  "51 PUNE",
-  "52 SURAT Gor",
-  "53 VADODARA 1ololooo",
-  "54 VARANASI",
-  "55 VISHAKHAPATNAM - tO 010 oO; of OF ©",
-  "a a"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 55,
-  "cells_passed": 20,
+  "cells_checked": 204,
+  "cells_passed": 181,
   "failures": [
-   "col 2 'TOTAL (States)': printed 23906, sum 22576",
-   "col 5 'TOTAL (Cities)': printed 4059, sum 4053",
-   "col 7 'TOTAL (Cities)': printed 4069, sum 3155",
-   "col 8 'TOTAL (Cities)': printed 4149, sum 4659",
-   "col 13 'TOTAL (Cities)': printed 4005, sum 3456",
-   "col 10001 'TOTAL (States)': printed 221, sum 9876",
-   "col 10002 'TOTAL (States)': printed 258, sum 225",
-   "col 29 'TOTAL (States)': printed 1248, sum 1258"
+   "col 13 'Total (Cities)': printed 3880, sum 3871",
+   "col 14 'Total (Cities)': printed 4005, sum 4171",
+   "col 15 'Total (Cities)': printed 49202, sum 49028",
+   "col 20 'Total (States)': printed 248, sum 249",
+   "col 21 'Total (States)': printed 247, sum 246",
+   "col 24 'Total (States)': printed 205, sum 206",
+   "col 25 'Total (States)': printed 208, sum 207",
+   "col 27 'Total (States)': printed 136, sum 139"
   ],
-  "other_totals_checked": 7,
-  "other_totals_passed": 4
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 3,
+ "inferred_pages": 0,
  "ocr_pages": 4,
  "warnings": []
 }

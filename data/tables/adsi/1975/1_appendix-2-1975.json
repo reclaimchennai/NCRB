@@ -22,9 +22,9 @@
   3,
   4
  ],
- "n_rows": 87,
- "n_cols": 31,
- "n_cells": 1246,
+ "n_rows": 86,
+ "n_cols": 32,
+ "n_cells": 1296,
  "columns": [
   {
    "col_no": "3",
@@ -158,44 +158,54 @@
   },
   {
    "col_no": "10001",
-   "name": "By Fire | In Air Crashes 2",
+   "name": "By Fire | In Air Crashes | 2",
    "header": [
     "By Fire",
-    "In Air Crashes 2"
+    "In Air Crashes",
+    "2"
    ]
   },
   {
    "col_no": "10002",
-   "name": "By Fire | M 19",
+   "name": "By Fire | In Air Crashes | M 19",
    "header": [
     "By Fire",
+    "In Air Crashes",
     "M 19"
    ]
   },
   {
    "col_no": "10003",
-   "name": "By Fire | By Drowning M F 20 23",
+   "name": "By Fire | F 20",
    "header": [
     "By Fire",
-    "By Drowning M F 20 23"
+    "F 20"
    ]
   },
   {
    "col_no": "10004",
-   "name": "By Fire | By Poisoning | M F M 2 21 2",
+   "name": "By Fire | By Drowning M 21",
    "header": [
     "By Fire",
-    "By Poisoning",
-    "M F M 2 21 2"
+    "By Drowning M 21"
    ]
   },
   {
    "col_no": "10005",
-   "name": "By Fire | By Poisoning | F F 2 22",
+   "name": "By Fire | By Poisoning | M F F 2 22 2",
    "header": [
     "By Fire",
     "By Poisoning",
-    "F F 2 22"
+    "M F F 2 22 2"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "By Fire | By Poisoning | M F 2 23",
+   "header": [
+    "By Fire",
+    "By Poisoning",
+    "M F 2 23"
    ]
   },
   {
@@ -295,21 +305,21 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 1,
+  "cells_checked": 7,
+  "cells_passed": 2,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 1085, sum 1065",
+   "col 3 'TOTAL (STATES)': printed 1085, sum 1074",
    "col 6 'TOTAL (STATES)': printed 56, sum 75",
    "col 8 'TOTAL (STATES)': printed 531, sum 510",
+   "col 10 'TOTAL (STATES)': printed 2521, sum 2532",
    "col 15 'TOTAL (STATES)': printed 526, sum 507"
   ],
-  "other_totals_checked": 8,
+  "other_totals_checked": 10,
   "other_totals_passed": 0
  },
  "inferred_pages": 1,
  "ocr_pages": 4,
  "warnings": [
-  "page 2: 2 of 42 rows of the right-hand page could not be placed against the left-hand page",
-  "page 4: 9 of 44 rows of the right-hand page could not be placed against the left-hand page"
+  "page 4: 12 of 44 rows of the right-hand page could not be placed against the left-hand page"
  ]
 }

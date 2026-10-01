@@ -8,176 +8,327 @@
  "serial": "1",
  "title": "Number of Traffic Accidents by Time of occurrence during 1999 (State, UT & City-wise)",
  "listing_title": "Number of Traffic Accidents by Time of occurrence during 1999 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-13_1999.pdf",
  "source_file": "raw/adsi/1999/table_content/table-13_1999.pdf",
  "source_sha256": "96b9fe2e9a78a0ed8b103a3f65d64fcb15eca46f6021c9a58978086c4e92a289",
- "table_no": "13",
- "pdf_title": "Number of Traffic Accidents By Time of Occurrence during 1999 (State, UT & City-wise)",
- "row_label": "No Si mo",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
+  2,
   3,
   4
  ],
- "n_rows": 128,
- "n_cols": 19,
- "n_cells": 920,
+ "n_rows": 65,
+ "n_cols": 36,
+ "n_cells": 2124,
  "columns": [
   {
-   "col_no": "2",
-   "name": "0000 brs State/UTICity to 0300 hus (Night? (33",
-   "header": [
-    "0000 brs State/UTICity to 0300 hus (Night? (33"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "0600 0300 hrs to 0900 hes 0600 hs (Night) ‘Day? “1",
+   "name": "Road Accidents | 0000 hrs to 0300 hrs (Night)",
    "header": [
-    "0600 0300 hrs to 0900 hes 0600 hs (Night) ‘Day? “1"
+    "Road Accidents",
+    "0000 hrs to 0300 hrs (Night)"
    ]
   },
   {
    "col_no": "4",
-   "name": "0900 hrs to to 1200 tus (Dey) (6)",
+   "name": "Road Accidents | 0300 hrs to 0600 hrs (Night)",
    "header": [
-    "0900 hrs to to 1200 tus (Dey) (6)"
+    "Road Accidents",
+    "0300 hrs to 0600 hrs (Night)"
    ]
   },
   {
    "col_no": "5",
-   "name": "Roed Accidents 1200 hrs to 1800 hs to 2100 tue 1500 hrs (Dey) (Night) ” 9)",
+   "name": "Road Accidents | 0600 hrs to 0900 hrs (Day)",
    "header": [
-    "Roed Accidents 1200 hrs to 1800 hs to 2100 tue 1500 hrs (Dey) (Night) ” 9)"
+    "Road Accidents",
+    "0600 hrs to 0900 hrs (Day)"
    ]
   },
   {
    "col_no": "6",
-   "name": "=! 2700 hrs. to 1500 hrs to Teta 1800 nes 2400 hrs (Oey) (Night) 18) Gor (11)",
+   "name": "Road Accidents | 0900 hrs to 1200 hrs (Day)",
    "header": [
-    "=! 2700 hrs. to 1500 hrs to Teta 1800 nes 2400 hrs (Oey) (Night) 18) Gor (11)"
+    "Road Accidents",
+    "0900 hrs to 1200 hrs (Day)"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "«0300 ws to ©0600 | 0600 (21)",
+   "col_no": "7",
+   "name": "Road Accidents | 1200 hrs to 1500 hrs (Day)",
    "header": [
-    "«0300 ws to ©0600",
-    "0600 (21)"
+    "Road Accidents",
+    "1200 hrs to 1500 hrs (Day)"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "«0300 ws to ©0600 | (22)",
+   "col_no": "8",
+   "name": "Road Accidents | 1500 hrs to 1800 hrs (Day)",
    "header": [
-    "«0300 ws to ©0600",
-    "(22)"
+    "Road Accidents",
+    "1500 hrs to 1800 hrs (Day)"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "«= 0300 hes (ev! (23)",
+   "col_no": "9",
+   "name": "Road Accidents | 1800 hrs to 2100 hrs (Night)",
    "header": [
-    "«= 0300 hes (ev! (23)"
+    "Road Accidents",
+    "1800 hrs to 2100 hrs (Night)"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "Other Railwey Accidents 0800 - 1200 ws 1500 bes 1200 bes (Dev) (Oey) (25) (24)",
+   "col_no": "10",
+   "name": "Road Accidents | 2100 hrs to 2400 hrs (Night)",
    "header": [
-    "Other Railwey Accidents 0800 - 1200 ws 1500 bes 1200 bes (Dev) (Oey) (25) (24)"
+    "Road Accidents",
+    "2100 hrs to 2400 hrs (Night)"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "«1500 hrs 1800 hes (Dev) (261)",
+   "col_no": "11",
+   "name": "Total (11)",
    "header": [
-    "«1500 hrs 1800 hes (Dev) (261)"
+    "Total"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "2100 | ©1800 ws to 2100 hes (Nghe) an",
+   "col_no": "12",
+   "name": "Rail-Road Accidents | 0000 hrs to 0300 hrs.(Night)",
    "header": [
-    "2100",
-    "©1800 ws to 2100 hes (Nghe) an"
+    "Rail-Road Accidents",
+    "0000 hrs to 0300 hrs.(Night)"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "2100 | 2400 hes (Night) (28)",
+   "col_no": "13",
+   "name": "Rail-Road Accidents | 0300 hrs to 0600 hrs.(Night)",
    "header": [
-    "2100",
-    "2400 hes (Night) (28)"
+    "Rail-Road Accidents",
+    "0300 hrs to 0600 hrs.(Night)"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "to Total (29)",
+   "col_no": "14",
+   "name": "Rail-Road Accidents | 0600 hrs to 0900 hrs(Day)",
    "header": [
-    "to Total (29)"
+    "Rail-Road Accidents",
+    "0600 hrs to 0900 hrs(Day)"
    ]
   },
   {
-   "col_no": "10009",
-   "name": "Toth *8> * | (23) 2634 15 1 69 899 38",
+   "col_no": "15",
+   "name": "Rail-Road Accidents | 0900 hrs to 1200 hrs(Day)",
    "header": [
-    "Toth *8> *",
-    "(23) 2634 15 1 69 899 38"
+    "Rail-Road Accidents",
+    "0900 hrs to 1200 hrs(Day)"
    ]
   },
   {
-   "col_no": "10010",
-   "name": "Toth *8> * | 0000 Iva to 0300 hrs. (Nght) (30) 3957 17 125 - 38",
+   "col_no": "16",
+   "name": "Rail-Road Accidents | 1200 hrs to 1500 hrs(Day)",
    "header": [
-    "Toth *8> *",
-    "0000 Iva to 0300 hrs. (Nght) (30) 3957 17 125 - 38"
+    "Rail-Road Accidents",
+    "1200 hrs to 1500 hrs(Day)"
    ]
   },
   {
-   "col_no": "10011",
-   "name": "Toth *8> * | 1200 hws to 0200 hrs to 1500 brs 0600 his. (tight) au 2966 27 29 161 penn 1217 >",
+   "col_no": "17",
+   "name": "Rail-Road Accidents | 1500 hrs to 1800 hrs(Day)",
    "header": [
-    "Toth *8> *",
-    "1200 hws to 0200 hrs to 1500 brs 0600 his. (tight) au 2966 27 29 161 penn 1217 >"
+    "Rail-Road Accidents",
+    "1500 hrs to 1800 hrs(Day)"
    ]
   },
   {
-   "col_no": "10012",
-   "name": "Toth *8> * | 0600 hrs to 1600 hre to 0900 hes 1800 hes Oey) (Oey) (32) (35) 3421 2919 7 ! 27 232 193 1190 279",
+   "col_no": "18",
+   "name": "Rail-Road Accidents | 1800 hrs to 2100 hrs(Night)",
    "header": [
-    "Toth *8> *",
-    "0600 hrs to 1600 hre to 0900 hes 1800 hes Oey) (Oey) (32) (35) 3421 2919 7 ! 27 232 193 1190 279"
+    "Rail-Road Accidents",
+    "1800 hrs to 2100 hrs(Night)"
    ]
   },
   {
-   "col_no": "10013",
-   "name": "Toth *8> * | 0906 hes to 1809 1200 hes 2100 tvs (Dey? (night) (36) (33) 3499 25 154 959 239",
+   "col_no": "19",
+   "name": "Rail-Road Accidents | 2100 hrs to 2400 hrs(Night)",
    "header": [
-    "Toth *8> *",
-    "0906 hes to 1809 1200 hes 2100 tvs (Dey? (night) (36) (33) 3499 25 154 959 239"
+    "Rail-Road Accidents",
+    "2100 hrs to 2400 hrs(Night)"
    ]
   },
   {
-   "col_no": "10014",
-   "name": "Toth *8> * | to - 2100 Ine. to 2400 tes Total (ight) Ba an (38) 25400 2561 '88 24 1246 64 8513 744 1321 128",
+   "col_no": "20",
+   "name": "Total (20)",
    "header": [
-    "Toth *8> *",
-    "to - 2100 Ine. to 2400 tes Total (ight) Ba an (38) 25400 2561 '88 24 1246 64 8513 744 1321 128"
+    "Total"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Other Railway Accidents | 0000 hrs to 0300 hrs. (Night)",
+   "header": [
+    "Other Railway Accidents",
+    "0000 hrs to 0300 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Other Railway Accidents | 0300 hrs to 0600 hrs. (Night)",
+   "header": [
+    "Other Railway Accidents",
+    "0300 hrs to 0600 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Other Railway Accidents | 0600 hrs to 0900 hrs. (Day)",
+   "header": [
+    "Other Railway Accidents",
+    "0600 hrs to 0900 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "Other Railway Accidents | 0900 hrs to 1200 hrs. (Day)",
+   "header": [
+    "Other Railway Accidents",
+    "0900 hrs to 1200 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "Other Railway Accidents | 1200 hrs to 1500 hrs. (Day)",
+   "header": [
+    "Other Railway Accidents",
+    "1200 hrs to 1500 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "Other Railway Accidents | 1500 hrs to 1800 hrs. (Day)",
+   "header": [
+    "Other Railway Accidents",
+    "1500 hrs to 1800 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "Other Railway Accidents | 1800 hrs to 2100 hrs. (Night)",
+   "header": [
+    "Other Railway Accidents",
+    "1800 hrs to 2100 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "Other Railway Accidents | 2100 hrs. to 2400 hrs. (Night)",
+   "header": [
+    "Other Railway Accidents",
+    "2100 hrs. to 2400 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "Total (29)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "Total (Traffic Accidents) | 0000 hrs to 0300 hrs. (Night)",
+   "header": [
+    "Total (Traffic Accidents)",
+    "0000 hrs to 0300 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "Total (Traffic Accidents) | 0300 hrs to 0600 hrs. (Night)",
+   "header": [
+    "Total (Traffic Accidents)",
+    "0300 hrs to 0600 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "Total (Traffic Accidents) | 0600 hrs to 0900 hrs. (Day)",
+   "header": [
+    "Total (Traffic Accidents)",
+    "0600 hrs to 0900 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "Total (Traffic Accidents) | 0900 hrs to 1200 hrs. (Day)",
+   "header": [
+    "Total (Traffic Accidents)",
+    "0900 hrs to 1200 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "Total (Traffic Accidents) | 1200 hrs to 1500 hrs. (Day)",
+   "header": [
+    "Total (Traffic Accidents)",
+    "1200 hrs to 1500 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "Total (Traffic Accidents) | 1500 hrs to 1800 hrs. (Day)",
+   "header": [
+    "Total (Traffic Accidents)",
+    "1500 hrs to 1800 hrs. (Day)"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "Total (Traffic Accidents) | 1800 hrs to 2100 hrs. (Night)",
+   "header": [
+    "Total (Traffic Accidents)",
+    "1800 hrs to 2100 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "Total (Traffic Accidents) | 2100 hrs to 2400 hrs. (Night)",
+   "header": [
+    "Total (Traffic Accidents)",
+    "2100 hrs to 2400 hrs. (Night)"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "Total (38)",
+   "header": [
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 1,
+  "cells_checked": 144,
+  "cells_passed": 99,
+  "failures": [
+   "col 6 'Total (States)': printed 45677, sum 46177",
+   "col 7 'Total (Uts)': printed 1680, sum 1670",
+   "col 8 'Total (States)': printed 44605, sum 44606",
+   "col 8 'Total (All-India)': printed 46566, sum 46565",
+   "col 9 'Total (States)': printed 40988, sum 41038",
+   "col 9 'Total (Uts)': printed 2078, sum 2072",
+   "col 9 'Total (Cities)': printed 7645, sum 7445",
+   "col 10 'Total (States)': printed 28505, sum 28503"
+  ],
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 3,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

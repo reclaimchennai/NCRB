@@ -12,7 +12,7 @@ from __future__ import annotations
 import re
 
 MEANS = [
-    (r"^\W*(grand\s+)?total\W*$|^total\b(?!.*poison)", None),
+    (r"^\W*(grand\s+)?total\W*$|^total\b(?!.*poison)|^\W*grand\b", None),
     (r"\(total\)|\btotal\)", None),  # parent rows such as 'By Poison (Total)'
     (r"insecticid", "Poison: insecticides"),
     (r"poison", "Poison: other"),
@@ -31,7 +31,7 @@ MEANS = [
 ]
 
 PROFESSION = [
-    (r"^\W*(grand\s+)?total\W*$", None),
+    (r"^\W*(grand\s+)?total\W*$|^\W*grand\b", None),
     (r"\(total\)|\btotal\)|\btotal\]", None),
     (r"house\s*wife", "House wife"),
     (r"student", "Student"),
