@@ -41,9 +41,10 @@ def priority_files(pub: str | None) -> list[str]:
         score[t["source_file"]] = (a + int(t["checks_passed"] or 0), b + int(t["checks_total"] or 0))
 
     def key(r):
+        # most failed totals per page first: the biggest gain for the model's time
         passed, total = score.get(r["source_file"], (0, 0))
-        failing = total - passed
-        return (LISTING_ORDER.get(r["listing"], 3), -failing, -int(r["year"]))
+        failing = (total - passed) / max(1, int(r["pages_ocr"] or 1))
+        return (LISTING_ORDER.get(r["listing"], 3), -failing, int(r["pages_ocr"] or 0), -int(r["year"]))
 
     return [r["source_file"] for r in sorted(files, key=key)]
 
