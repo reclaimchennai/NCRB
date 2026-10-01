@@ -1,6 +1,6 @@
 /* Hand-drawn SVG charts: ranked bars, lines over years, a State/UT map, quality dots. */
 
-import { svg, el, clear, fmt, fmtCompact, niceTicks, showTip, moveTip, hideTip, tipRow, seriesColor, seq, css } from './util.js';
+import { svg, el, clear, fmt, fmtCompact, niceTicks, showTip, moveTip, hideTip, tipRow, seriesColor, seq, css } from './util.js?v=9f23c9d7d8';
 
 const width = node => Math.max(300, node.clientWidth || 640);
 

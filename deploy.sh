@@ -28,7 +28,7 @@ stamp_html css/app.css "$(hash_of web/css/app.css)"
 echo "assets stamped"
 
 $SSH $HOST "mkdir -p $DEST/data/web"
-rsync -az --delete --timeout=60 -e "$SSH" --exclude __pycache__ api web deploy "$HOST:$DEST/"
+rsync -az --delete --timeout=60 -e "$SSH" --exclude __pycache__ api web deploy ARCHITECTURE.md "$HOST:$DEST/"
 if [[ "${1:-}" != "--code" ]]; then
   rsync -az --timeout=120 --partial -e "$SSH" data/web/ncrb.duckdb "$HOST:$DEST/data/web/ncrb.duckdb.new"
   $SSH $HOST "mv $DEST/data/web/ncrb.duckdb.new $DEST/data/web/ncrb.duckdb"
