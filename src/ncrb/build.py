@@ -31,6 +31,7 @@ COMBINED = ROOT / "data" / "combined"
 SERIES = ROOT / "data" / "series"
 SERIES_INDEX = ROOT / "data" / "series_index.csv"
 TOPICS_INDEX = ROOT / "data" / "topics_index.csv"
+SERIES_MEMBERS = ROOT / "data" / "series_members.csv"
 
 YEAR = r"(?:19|20)\d\d"
 YEAR_RE = re.compile(
@@ -146,6 +147,7 @@ def main() -> None:
         for f in SERIES.rglob("*.csv"):
             f.unlink()
     index_rows = []
+    member_rows = []
     for (pub, key, geo), members in sorted(groups.items()):
         years = sorted({int(m["year"]) for m in members})
         if len(years) < 2:
@@ -162,12 +164,15 @@ def main() -> None:
         cols = ["year", "table_id", "section", "sl_no", "name", "name_std", "entity_type", "is_total", "col_no", "column", "h1", "h2", "h3", "h4", "h5", "value", "raw", "ocr_conf"]
         pd.concat(frames)[cols].to_csv(out, index=False)
         methods = sorted({m["method"] for m in members})
+        member_rows += [{"series_id": f"{pub}/{sid}", "table_id": m["table_id"], "year": m["year"]} for m in members]
         index_rows.append({
             "series_id": f"{pub}/{sid}",
             "publication": pub,
             "topic": collections_mode([m["topic"] for m in members]),
             "geography": geo,
-            "title": max((m["title"] for m in members), key=len),
+            # the newest edition's wording; titles are cleaned of a leading table number
+            "title": re.sub(r"^\W*(?:(?:table|list|figure)\W*)?[0-9]+[A-Z]?(?:\.[0-9]+[A-Z]?)*\s*[-–—]*\s*", "",
+                            max(members, key=lambda m: (int(m["year"]), m["listing"] == "table_content"))["title"], flags=re.I),
             "first_year": years[0],
             "last_year": years[-1],
             "n_years": len(years),
@@ -180,6 +185,10 @@ def main() -> None:
         w = csv.DictWriter(f, fieldnames=list(index_rows[0]) if index_rows else ["series_id"])
         w.writeheader()
         w.writerows(index_rows)
+    with SERIES_MEMBERS.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["series_id", "table_id", "year"])
+        w.writeheader()
+        w.writerows(member_rows)
     print(f"series: {len(index_rows)} written")
 
 

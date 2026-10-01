@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NCRB data explorer | Reclaim Chennai</title>
+  <meta name="description" content="Every table the National Crime Records Bureau has published since 1953, Crime in India, Accidental Deaths & Suicides and Prison Statistics, searchable, charted and downloadable.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b0b0b'/%3E%3Ctext x='16' y='21' font-family='system-ui' font-size='11' font-weight='800' fill='%23fff' text-anchor='middle'%3ENCRB%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="./"><span class="mark">NCRB</span><span><b>NCRB data explorer</b><small>Crime · Accidents & suicides · Prisons, 1953–2024</small></span></a>
+      <nav>
+        <a href="#find">Tables</a>
+        <a href="#quality">Reliability</a>
+        <a href="https://github.com/reclaimchennai/NCRB" target="_blank" rel="noopener">Data</a>
+        <button class="icon-btn" id="theme" type="button" aria-label="Switch light or dark theme">◐</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Seventy years of India’s crime, prison, accident and suicide statistics, table by table.</h1>
+      <p>Every table the National Crime Records Bureau has published in <em>Crime in India</em> (from 1953), <em>Accidental Deaths &amp; Suicides in India</em> (from 1967) and <em>Prison Statistics India</em> (from 1995), read out of its PDFs and spreadsheets. Search a table, read it as printed, map it by State, and follow it across the years. Every figure links back to its source page.</p>
+      <div class="kpis" id="kpis"></div>
+    </section>
+
+    <section class="card" id="find">
+      <h2>Find a table</h2>
+      <p class="lede">Filter by report, year and NCRB’s own chapter, or search words in the title.</p>
+      <div class="filters">
+        <div class="segmented" id="pub-seg" role="group" aria-label="Report"></div>
+        <select id="year" aria-label="Year"></select>
+        <select id="topic" aria-label="Topic"></select>
+        <input id="q" type="search" placeholder="Search titles: suicides farmers, rape, undertrial…" aria-label="Search titles">
+        <label class="check"><input type="checkbox" id="volumes"> include tables cut from whole volumes</label>
+      </div>
+      <p class="count" id="result-count"></p>
+      <ul class="results" id="results"></ul>
+      <button class="btn" id="more" type="button" hidden>Show more</button>
+    </section>
+
+    <section class="card" id="table-panel" hidden>
+      <p class="kicker" id="t-kicker"></p>
+      <h2 id="t-title"></h2>
+      <div class="chips" id="t-chips"></div>
+      <p class="note" id="t-note" hidden></p>
+      <div id="t-series"></div>
+      <div class="toolbar">
+        <select id="t-column" aria-label="Column to chart"></select>
+        <div class="segmented" id="view-seg" role="group" aria-label="Chart type">
+          <button type="button" data-view="bars" aria-pressed="true">Bars</button>
+          <button type="button" data-view="map" id="view-map">Map</button>
+        </div>
+        <label class="check"><input type="checkbox" id="totals-toggle"> include total rows</label>
+      </div>
+      <p class="chart-cap" id="t-chart-cap"></p>
+      <div class="chart-box" id="t-chart"></div>
+      <div class="legend" id="t-legend"></div>
+      <div class="grid-wrap" id="t-grid"></div>
+      <details class="more" id="t-notes-wrap"><summary>Notes printed under the table</summary><ul id="t-notes"></ul></details>
+      <details class="more" id="t-failures-wrap" hidden><summary>Totals that did not add up</summary><ul id="t-failures"></ul>
+        <p class="muted">Either a figure was misread, or NCRB’s printed total differs from the sum of its rows. Check against the source PDF.</p></details>
+    </section>
+
+    <section class="card" id="series-panel" hidden>
+      <p class="kicker" id="s-kicker"></p>
+      <h2 id="s-title"></h2>
+      <p class="lede">The same table in every edition that printed it under this title. Column wording and definitions can change between years; check the column list before comparing.</p>
+      <div class="toolbar"><select id="s-column" aria-label="Column"></select></div>
+      <div class="names" id="s-names"></div>
+      <div class="chart-box" id="s-chart"></div>
+      <p class="note" id="s-ocr-note" hidden>Shaded years come from scanned volumes read by OCR. Treat them as unverified.</p>
+      <ul class="members" id="s-members"></ul>
+    </section>
+
+    <section class="card" id="quality">
+      <h2>How reliable is each year?</h2>
+      <p class="lede">Wherever NCRB prints a State, UT, city or all-India total, the rows above it are added up and compared. Each dot is one year: the share of those totals that match. Text PDFs and spreadsheets (since about 2000) are copied digit for digit; older volumes are scanned books read by OCR.</p>
+      <div class="chart-box" id="q-chart"></div>
+      <div class="qlegend"><span><i style="background:var(--good)"></i>98% or more match</span><span><i style="background:var(--warning)"></i>80–98%</span><span><i style="background:var(--critical)"></i>under 80%</span><span>dot size: number of totals checked</span></div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>Source: National Crime Records Bureau, Ministry of Home Affairs, <a href="https://www.ncrb.gov.in" target="_blank" rel="noopener">ncrb.gov.in</a>. This explorer reformats NCRB’s published tables; it is not an official NCRB product. Cite NCRB and the specific report and table, and check figures against the source PDF.</p>
+    <p>Data, code and method: <a href="https://github.com/reclaimchennai/NCRB" target="_blank" rel="noopener">github.com/reclaimchennai/NCRB</a> · API: <a href="api/docs">api/docs</a></p>
+  </footer>
+  <div id="tip" role="tooltip"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

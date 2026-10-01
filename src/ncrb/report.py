@@ -50,7 +50,7 @@ def main() -> None:
         s["tables_" + r["method"]] += 1
         s["checks_total"] += int(r["checks_total"] or 0)
         s["checks_passed"] += int(r["checks_passed"] or 0)
-        tier = "ocr" if r["method"] in ("pdf_ocr", "pdf_mixed") else "text"
+        tier = "ocr" if r["method"] in ("pdf_ocr", "pdf_mixed", "pdf_vlm") else "text"
         s[f"checks_total_{tier}"] += int(r["checks_total"] or 0)
         s[f"checks_passed_{tier}"] += int(r["checks_passed"] or 0)
         if int(r["checks_total"] or 0):
@@ -59,7 +59,7 @@ def main() -> None:
 
     fields = [
         "publication", "year", "files_listed", "files_downloaded", "files_missing", "files_with_tables", "pages", "pages_ocr",
-        "tables", "tables_pdf_text", "tables_excel", "tables_pdf_ocr", "tables_pdf_mixed", "cells",
+        "tables", "tables_pdf_text", "tables_excel", "tables_pdf_ocr", "tables_pdf_mixed", "tables_pdf_vlm", "cells",
         "checks_total", "checks_passed", "check_pass_rate", "tables_checked", "tables_all_pass",
         "checks_total_text", "checks_passed_text", "checks_total_ocr", "checks_passed_ocr",
     ]
@@ -99,7 +99,7 @@ def main() -> None:
             "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|",
         ]
         for r in sel:
-            ocr = int(r["tables_pdf_ocr"]) + int(r["tables_pdf_mixed"])
+            ocr = int(r["tables_pdf_ocr"]) + int(r["tables_pdf_mixed"]) + int(r["tables_pdf_vlm"])
             ct, pt_, co, po = (int(r[k]) for k in ("checks_total_text", "checks_passed_text", "checks_total_ocr", "checks_passed_ocr"))
             md.append(
                 f"| {r['year']} | {r['files_downloaded']} | {r['tables']} | {r['tables_pdf_text']} | {r['tables_excel']} | {ocr} | "

@@ -126,6 +126,38 @@ def write_table(t: Table, meta: dict, base: Path) -> dict:
     return doc
 
 
+def _score(tables) -> tuple[int, int, int]:
+    passed = total = 0
+    for t in tables:
+        c = check_totals(t)
+        passed += c["cells_passed"]
+        total += c["cells_checked"]
+    return passed, total, passed - 2 * (total - passed)
+
+
+def choose_vlm(src: Path, ocr_tables: list):
+    """The VLM reading of a scanned file, when it is in the page cache and checks out better.
+
+    Both readings are scored by the totals check (a failed total costs twice
+    what a matched one earns). The VLM tables replace the Tesseract ones only
+    when they score higher, so no file whose totals could be checked gets
+    worse. Files with nothing to check keep the Tesseract reading.
+    """
+    try:
+        from .vlm import DEFAULT_MODEL
+        from .vlm_tables import vlm_tables
+    except ImportError:
+        return None
+    vt, st = vlm_tables(src, DEFAULT_MODEL, run_model=False)
+    if not vt or st["pages_missing"]:
+        return None
+    vp, vtot, vscore = _score(vt)
+    tp, ttot, tscore = _score(ocr_tables)
+    if vtot == 0 or vscore <= tscore:
+        return None
+    return vt, f"VLM reading used: totals {vp}/{vtot} against Tesseract {tp}/{ttot}"
+
+
 def process_file(job: dict) -> tuple[dict, list[dict]]:
     """Extract one source file. Returns (file summary, table index rows)."""
     src = ROOT / job["path"]
@@ -148,6 +180,12 @@ def process_file(job: dict) -> tuple[dict, list[dict]]:
                 summary["error"] = f"Apple Vision unavailable on {st['vision_failed']} of {st['pages_ocr']} OCR pages; Tesseract used alone"
             summary["pages_with_table"] = len({s.page for s in segments})
             method = "pdf_text"
+            if st["pages_ocr"]:
+                choice = choose_vlm(src, [t for t in tables if t.rows and t.columns])
+                if choice is not None:
+                    tables, note = choice
+                    method = "pdf_vlm"
+                    summary["error"] = note
         tables = [t for t in tables if t.rows and t.columns]
         summary["tables"] = len(tables)
         if tables:
@@ -167,7 +205,9 @@ def process_file(job: dict) -> tuple[dict, list[dict]]:
             if seen[tid] > 1:
                 tid += f"_{seen[tid]}"
             title = job.get("title", "") if len(tables) == 1 else (t.title or job.get("title", ""))
-            if method == "pdf_text" and t.ocr_pages:
+            if method == "pdf_vlm":
+                m = "pdf_vlm"
+            elif method == "pdf_text" and t.ocr_pages:
                 m = "pdf_ocr" if t.ocr_pages == len(t.pages) else "pdf_mixed"
             else:
                 m = method
