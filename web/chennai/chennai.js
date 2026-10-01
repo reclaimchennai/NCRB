@@ -6,11 +6,11 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=178d455447';
-import { lineChart, barRows, stackRows, heatmap, clocks, emptyChart } from '../kit/grapher.js?v=178d455447';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=178d455447';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=178d455447';
-import { footerHtml, SOURCE_LINE } from '../kit/footer.js?v=178d455447';
+import { $, el, icon, esc, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=bbe340d7cd';
+import { lineChart, barRows, stackRows, heatmap, clocks, emptyChart } from '../kit/grapher.js?v=bbe340d7cd';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=bbe340d7cd';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=bbe340d7cd';
+import { footerHtml, SOURCE_LINE } from '../kit/footer.js?v=bbe340d7cd';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];

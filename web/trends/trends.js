@@ -7,10 +7,10 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=178d455447';
-import { lineChart, barRows, stackRows, heatmap, clocks, emptyChart } from '../kit/grapher.js?v=178d455447';
-import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=178d455447';
-import { footerHtml, SOURCE_LINE } from '../kit/footer.js?v=178d455447';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=bbe340d7cd';
+import { lineChart, barRows, stackRows, heatmap, clocks, emptyChart } from '../kit/grapher.js?v=bbe340d7cd';
+import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=bbe340d7cd';
+import { footerHtml, SOURCE_LINE } from '../kit/footer.js?v=bbe340d7cd';
 
 const DATA = '../data/trends';
 const GROUPS = [

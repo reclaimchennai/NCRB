@@ -2,8 +2,8 @@
  * buttons, labelled dropdowns, switches, the year timeline (play, scrub,
  * smooth transitions), and a chart card with snapshot and record buttons. */
 
-import { el, $, icon, ease } from './util.js?v=178d455447';
-import { createCapture } from './capture.js?v=178d455447';
+import { el, $, icon, ease } from './util.js?v=bbe340d7cd';
+import { createCapture } from './capture.js?v=bbe340d7cd';
 
 /* --------------------------------------------------------------- controls */
 
