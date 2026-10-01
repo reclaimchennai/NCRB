@@ -22,6 +22,13 @@ wrong:
   was picked up. `raw` then shows both (`288 554`) and `value` is left empty
   rather than guessing.
 
+**Scanned PDFs read by the document AI model (`pdf_vlm`)**: used for a scanned
+file only where its tables match more printed totals than the Tesseract
+reading (see PIPELINE.md). Much better than Tesseract on gridded and clean
+scans, but it can still misread a digit, skip a row, or (rarely) write a
+plausible figure that is not on the page; the totals check guards the rows it
+covers, not every cell. Treat it like the OCR tier below: check before quoting.
+
 **Scanned PDFs (`pdf_ocr`, `pdf_mixed`)**: roughly before 2000, i.e. all of
 Crime in India 1953–1999, ADSI 1967–1999 and the first Prison Statistics
 volumes. These are photographs of printed books, some at low resolution, read

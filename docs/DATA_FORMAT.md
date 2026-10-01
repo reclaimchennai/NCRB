@@ -27,7 +27,7 @@ repository root.
 | `table_no` | table number printed in the document itself (e.g. `2.7`, `1B.4`, `VII`), if found |
 | `title` | table title. For single-table files this is NCRB's listing title (clean); for tables cut out of multi-table files it is the title read from the page |
 | `pdf_title` | title as read from the page, always |
-| `method` | `pdf_text`, `excel`, `pdf_ocr` (all pages scanned), `pdf_mixed` (some pages scanned) |
+| `method` | `pdf_text`, `excel`, `pdf_vlm` (scanned, read by the document AI model), `pdf_ocr` (scanned, read by Tesseract), `pdf_mixed` (some pages scanned) |
 | `n_rows`, `n_cols`, `n_cells` | size; `n_cols` counts data columns, `n_cells` non-empty cells |
 | `pages` | first-last page of the table in the source PDF |
 | `checks_total`, `checks_passed` | cells of printed geographic TOTAL rows compared with the sum of the rows they cover, and how many matched |
@@ -65,7 +65,7 @@ One line per non-empty cell.
 | `value` | the cell as a number; empty when the cell is not numeric (`-`, `NA`, or unreadable) |
 | `raw` | the cell text as printed |
 | `page` | page of the source PDF (0 for Excel) |
-| `ocr_conf` | OCR confidence of the cell, 0–1, for scanned pages; empty for text-layer and Excel sources |
+| `ocr_conf` | Tesseract's confidence for the cell, 0–1, on scanned pages; empty for text-layer, Excel and AI-read (`pdf_vlm`) sources |
 
 Number parsing: thousands separators are removed; a trailing `%` and footnote
 marks (`*`, `@`, `#`) are dropped; a value in parentheses is read as the number

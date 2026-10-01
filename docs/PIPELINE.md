@@ -114,6 +114,56 @@ Pages without a text layer are rendered at 300 dpi and recognised:
 
 Each OCR cell keeps its confidence (`ocr_conf`).
 
+### Scanned pages, second reading: a document AI model (`vlm.py`, `vlm_tables.py`, `vlm_run.py`)
+
+Character OCR leaves the table structure to be rebuilt from word positions,
+which is where most errors on the old scans come from. A document
+vision-language model reads the page image and writes the whole table as HTML,
+merged header cells included. The model is **GLM-OCR** (Z.ai), run locally
+through `mlx-vlm` on Apple Silicon with the prompt `Table Recognition:` on a
+rendering of the page at 1,600 px on its long edge.
+
+Five recent document models were tried on the same pages (GLM-OCR,
+PaddleOCR-VL 1.5, dots.ocr, DeepSeek-OCR-2, Qwen3-VL-8B); GLM-OCR was the
+fastest of the accurate ones and reproduced a gridded 1997 table cell for
+cell. On the benchmark in `bench/pages.json` (20 scanned files across the
+three publications, 1971–2000) its tables matched 365 of 433 checked totals
+(84.3%) against 300 of 431 (69.6%) for the Tesseract path.
+
+The model's HTML is parsed into a grid (rowspan/colspan become merged ranges)
+and goes through the Excel reader. Three mistakes the model makes are repaired
+first:
+
+- a heading cell that covers both label columns is written one column wide,
+  shifting every heading to its right; the headings are realigned to the width
+  of the data rows;
+- the row of column numbers is written a cell or two off; the trailing numbers
+  are given to the columns that hold figures;
+- a total's label is written on its own row above its figures; the rows are
+  joined.
+
+Occasionally the model writes plain lines instead of a table; those are
+rebuilt row by row, keeping only rows with the full number of figures.
+
+Raw model output is cached per page in `data/ocr_cache/<model>/<file
+hash>/<page>.txt` (published in the `data-*` release), so readings survive
+restarts and can be re-parsed without re-running the model. `vlm_run.py` works
+through the scanned files in priority order: individual tables before chapters
+and volumes, and within those the files whose current tables fail the most
+totals first.
+
+**Choosing between the two readings.** For each scanned file both readings are
+scored on the totals check: matched totals minus twice the failed ones. The AI
+reading replaces the Tesseract one only if it scores higher; such files are
+marked `method = pdf_vlm` and `files_index.csv` records both scores. Files
+with no totals to check keep the Tesseract reading. So the switch can only
+improve the files whose correctness can be measured.
+
+At about 50 seconds a page on the laptop used (its GPU shared with other
+work), the 11,656 scanned pages are a multi-day job; the published data
+includes the pages read so far, and `files_index.csv` shows which files use
+the AI reading.
+
 ### Validation
 
 For every table, each printed geographic total (`TOTAL (STATES)`,
