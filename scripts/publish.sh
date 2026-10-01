@@ -50,12 +50,12 @@ data)
 
 Quality per year: docs/COVERAGE.md."
   for pub in cii adsi psi; do
-    find data/tables/$pub -name '*.long.csv' -print0 | tar --null -cf - -T - | zstd -q -T0 -19 --long=27 -f -o "$DIST/ncrb-tables-long-$pub.tar.zst"
+    find data/tables/$pub -name '*.long.csv' -print0 | tar --null -cf - -T - | zstd -q -T0 -12 --long=27 -f -o "$DIST/ncrb-tables-long-$pub.tar.zst"
     cp data/combined/${pub}_cells.parquet "$DIST/ncrb-cells-$pub.parquet"
-    tar -cf - data/series/$pub | zstd -q -T0 -19 --long=27 -f -o "$DIST/ncrb-series-$pub.tar.zst"
+    tar -cf - data/series/$pub | zstd -q -T0 -12 --long=27 -f -o "$DIST/ncrb-series-$pub.tar.zst"
   done
   zstd -q -T0 -10 -f data/web/ncrb.duckdb -o "$DIST/ncrb-dashboard.duckdb.zst"
-  [[ -d data/ocr_cache ]] && tar -cf - data/ocr_cache | zstd -q -T0 -19 -f -o "$DIST/ncrb-ocr-cache.tar.zst"
+  [[ -d data/ocr_cache ]] && tar -cf - data/ocr_cache | zstd -q -T0 -12 -f -o "$DIST/ncrb-ocr-cache.tar.zst"
   gh release upload "$tag" -R "$REPO" --clobber \
     "$DIST"/ncrb-tables-long-*.tar.zst "$DIST"/ncrb-cells-*.parquet "$DIST"/ncrb-series-*.tar.zst \
     "$DIST"/ncrb-dashboard.duckdb.zst $( [[ -f $DIST/ncrb-ocr-cache.tar.zst ]] && echo "$DIST/ncrb-ocr-cache.tar.zst" )
