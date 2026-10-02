@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Chennai: traffic accidents and suicides over time | Reclaim Chennai</title>
-<meta name="description" content="How traffic accidents and suicides in Chennai and Tamil Nadu have changed, year by year, from the oldest NCRB records to 2024: time of day, month, means, profession, age, sex and rate.">
+<title>Every NCRB table, year by year | Reclaim Chennai</title>
+<meta name="description" content="Every table that Crime in India, Accidental Deaths &amp; Suicides in India and Prison Statistics India have printed in more than two editions, joined across the years: chart it for any State, UT or city, compare places, map it and play it through time.">
 <meta name="color-scheme" content="light dark">
-<link rel="canonical" href="https://ncrb.reclaimchennai.city/chennai/">
-<meta property="og:url" content="https://ncrb.reclaimchennai.city/chennai/">
+<link rel="canonical" href="https://ncrb.reclaimchennai.city/explore/">
+<meta property="og:url" content="https://ncrb.reclaimchennai.city/explore/">
 <meta property="og:site_name" content="ncrb.reclaimchennai.city">
 <meta name="theme-color" content="#0c0c0c" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#f9f9f7" media="(prefers-color-scheme: light)">
@@ -65,34 +65,49 @@
 
 <header class="topbar">
   <a class="brand" href="../">
-    <span class="brand-mark" aria-hidden="true"><svg><use href="#i-activity"></use></svg></span>
-    <span class="brand-text"><strong>Chennai over time</strong><small>Traffic accidents and suicides · NCRB</small></span>
+    <span class="brand-mark" aria-hidden="true"><svg><use href="#i-compass"></use></svg></span>
+    <span class="brand-text"><strong>Every NCRB table, year by year</strong><small>Crime · Crashes &amp; suicides · Prisons</small></span>
   </a>
   <span class="spacer"></span>
   <nav class="topnav" aria-label="Sections">
     <a href="../"><svg aria-hidden="true"><use href="#i-database"></use></svg><span>Tables</span></a>
     <a href="../trends/"><svg aria-hidden="true"><use href="#i-line"></use></svg><span>Trends</span></a>
-    <a href="../explore/"><svg aria-hidden="true"><use href="#i-compass"></use></svg><span>Explore</span></a>
-    <a href="./" aria-current="page"><svg aria-hidden="true"><use href="#i-book"></use></svg><span>Chennai</span></a>
+    <a href="./" aria-current="page"><svg aria-hidden="true"><use href="#i-compass"></use></svg><span>Explore</span></a>
+    <a href="../chennai/"><svg aria-hidden="true"><use href="#i-book"></use></svg><span>Chennai</span></a>
   </nav>
+  <button class="icon-btn" id="search-open" type="button" aria-label="Find a table"><svg aria-hidden="true"><use href="#i-search"></use></svg></button>
   <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme">
     <svg class="ic-dark" aria-hidden="true"><use href="#i-moon"></use></svg>
     <svg class="ic-light" aria-hidden="true"><use href="#i-sun"></use></svg>
   </button>
 </header>
 
+<div class="overlay" id="search-overlay" hidden>
+  <div class="overlay-panel" role="dialog" aria-modal="true" aria-label="Find a table">
+    <div class="overlay-head">
+      <svg class="ic-lead" aria-hidden="true"><use href="#i-search"></use></svg>
+      <input id="search" type="search" placeholder="Search tables, e.g. murder, undertrial, drowning" autocomplete="off" spellcheck="false">
+      <button class="icon-btn" id="search-close" type="button" aria-label="Close"><svg aria-hidden="true"><use href="#i-close"></use></svg></button>
+    </div>
+    <div class="results" id="search-results" role="listbox"></div>
+  </div>
+</div>
+
 <main class="shell">
   <section class="hero">
-    <h1>Chennai: traffic accidents and suicides, from the oldest records to 2024.</h1>
-    <p>How the numbers changed, year by year, for Chennai (Madras until 1996), Tamil Nadu and India. Each chart joins one NCRB table across every edition that printed it. Press play on any chart to watch the years go by; the camera saves a picture and the video button records the years, both credited and sourced.</p>
+    <h1>Every table NCRB keeps printing, followed across the years.</h1>
+    <p>Crime in India since 1953, Accidental Deaths &amp; Suicides since 1967, Prison Statistics since 1995: every table printed in three or more editions, joined year to year even where NCRB reworded it. Pick a report, a topic and a table, then any column and any State, UT or city.</p>
     <div class="tiles" id="tiles"></div>
   </section>
-  <div id="report"></div>
+
+  <div class="controlbar" id="controls" aria-label="What to show"></div>
+  <div id="cards"></div>
+
   <footer class="foot" id="foot"></footer>
 </main>
 
 <div class="tip" id="tip" role="status" aria-live="polite"></div>
 <script src="../vendor/mp4-muxer.js?v=fff293a896"></script>
-<script type="module" src="chennai.js?v=fff293a896"></script>
+<script type="module" src="explore.js?v=fff293a896"></script>
 </body>
 </html>

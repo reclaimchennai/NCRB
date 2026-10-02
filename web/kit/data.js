@@ -1,7 +1,7 @@
 /* Reading web/data/trends/: one dataset's index and one place's breakdown,
  * with lookups by label rather than by index. */
 
-import { getJSON } from './util.js?v=7ce592264a';
+import { getJSON } from './util.js?v=fff293a896';
 
 const BASE = new URL('../data/trends/', import.meta.url).href;
 const cache = new Map();

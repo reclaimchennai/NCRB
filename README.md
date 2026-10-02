@@ -24,6 +24,7 @@ Counts and quality for every publication and year: [docs/COVERAGE.md](docs/COVER
 - [How the data was collected and extracted](#how-the-data-was-collected-and-extracted)
 - [Using the data](#using-the-data)
 - [Rebuilding everything](#rebuilding-everything)
+- [Explore: every recurring table](#explore-every-recurring-table-year-by-year)
 - [Trends dashboard and the Chennai report](#trends-dashboard-and-the-chennai-report)
 - [Documentation](#documentation) · [Source and terms](#source-and-terms)
 
@@ -196,6 +197,18 @@ uv run python -m ncrb.webdata     # -> dashboard database
 
 Every step is incremental. `--pub cii|adsi|psi`, `--year N` and `--listing`
 narrow `download` and `extract`.
+
+## Explore: every recurring table, year by year
+
+**<https://ncrb.reclaimchennai.city/explore/>** follows every table that
+Crime in India, ADSI and Prison Statistics printed in three or more editions
+(1,059 tables: 841 Crime in India, 66 ADSI, 152 Prison Statistics) across the
+years, even where NCRB reworded the title. Pick a report, a topic, a table, a
+column and a State, UT, city or row: a trend line, a ranking and an India map
+that play through the years, and a heatmap of every column in every year.
+District-wise tables are left out (they are on the Tables page). Built by
+`python -m analysis.families` into `web/data/explore/` (not in git; deployed
+with the site and in the data release).
 
 ## Trends dashboard and the Chennai report
 

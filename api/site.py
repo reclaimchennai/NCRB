@@ -23,7 +23,7 @@ class CacheHeaders(BaseHTTPMiddleware):
         p = request.url.path
         if "v=" in request.url.query and p.endswith((".js", ".css")):
             resp.headers["Cache-Control"] = "public, max-age=31536000, immutable"
-        elif p.endswith((".js", ".css", ".html")) or p.endswith("/"):
+        elif p.endswith((".js", ".css", ".html", ".json")) or p.endswith("/"):
             resp.headers.setdefault("Cache-Control", "no-cache")
         elif "/geo/" in p:
             resp.headers["Cache-Control"] = "public, max-age=2592000"

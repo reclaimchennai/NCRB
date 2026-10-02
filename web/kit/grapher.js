@@ -14,7 +14,7 @@
  *   clocks      two 12-hour dials, day (06-18) and night (18-06), one wedge per 3 hours
  */
 
-import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=7ce592264a';
+import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=fff293a896';
 
 /* ------------------------------------------------------------------ utils */
 
@@ -63,6 +63,58 @@ function fitText(node, full, maxW) {
   node.textContent = `${full.slice(0, lo).trimEnd()}…`;
 }
 
+/** Rendered width of a label in this chart's type, measured rather than guessed. */
+function measure(el, text, cls = 'row-label') {
+  const t = svg('text', { class: cls, x: -9999, y: -9999 }, text);
+  el.append(t);
+  const w = t.getComputedTextLength();
+  t.remove();
+  return w;
+}
+
+/** Split a label into at most two lines that each fit maxW; the second is ellipsised only as a last resort. */
+function twoLines(el, text, maxW, cls) {
+  if (measure(el, text, cls) <= maxW) return [text];
+  const words = String(text).split(/\s+/);
+  let best = null;
+  for (let k = 1; k < words.length; k++) {
+    const a = words.slice(0, k).join(' '), b = words.slice(k).join(' ');
+    const wa = measure(el, a, cls), wb = measure(el, b, cls);
+    if (wa <= maxW && wb <= maxW) { const score = Math.abs(wa - wb); if (!best || score < best.s) best = { l: [a, b], s: score }; }
+  }
+  if (best) return best.l;
+  return null;
+}
+
+/**
+ * The left margin a set of row labels needs: wide enough for every label on
+ * one line, or on two, within maxFrac of the chart; nothing is cut off unless
+ * a label cannot fit even on two lines.
+ */
+function labelMargin(el, labels, w, { cls = 'row-label', minW = 70, maxFrac = .42 } = {}) {
+  const cap = Math.max(minW, w * maxFrac);
+  const one = Math.max(minW, ...labels.map(l => measure(el, l, cls)));
+  if (one + 14 <= cap) return Math.ceil(one + 14);
+  // two lines: find the narrowest width at which every label still fits on two
+  let lo = minW, hi = cap - 14;
+  if (labels.some(l => !twoLines(el, l, hi, cls))) return cap;
+  while (hi - lo > 4) { const mid = (lo + hi) / 2; if (labels.every(l => twoLines(el, l, mid, cls))) hi = mid; else lo = mid; }
+  return Math.ceil(hi + 14);
+}
+
+/** A right-aligned row label on one or two lines, centred on yMid. */
+function rowLabel(el, x, yMid, text, maxW, cls = 'row-label') {
+  const lines = twoLines(el, text, maxW, cls);
+  const t = svg('text', { x, y: yMid + 4, class: cls, 'text-anchor': 'end' });
+  el.append(t);
+  if (!lines) { fitText(t, text, maxW); t.append(svg('title', {}, text)); return t; }
+  if (lines.length === 1) { t.textContent = lines[0]; return t; }
+  t.setAttribute('y', yMid - 2);
+  t.append(svg('tspan', { x, dy: 0 }, lines[0]));
+  t.append(svg('tspan', { x, dy: 12 }, lines[1]));
+  return t;
+}
+
 /** A bar rounded only on its outward (right) end, as cpi's capsuleBar does vertically. */
 function hbar(x, y, w, h, roundRight = true) {
   const r = Math.max(0, Math.min(h / 2, w / 2, 5));
@@ -83,7 +135,7 @@ export function lineChart(el, { xs, series, pos = null, fmt = fmtN, yFmt = fmtSh
   const all = series.flatMap(s => xs.map(x => s.values[x]).filter(v => v != null && Number.isFinite(v)));
   if (!all.length) return emptyChart(el);
   const h = height || (narrow ? 280 : 340);
-  const labelW = narrow ? 92 : 150;
+  const labelW = Math.min(w * (narrow ? .34 : .26), Math.max(60, ...series.map(s2 => measure(el, s2.label, 'end-label'))) + 4);
   const m = { top: 18, right: labelW + 10, bottom: 28, left: 46 };
   frame(el, w, h);
   const lo = zeroBase ? 0 : Math.min(...all), hi = Math.max(...all) * 1.06 || 1;
@@ -175,25 +227,25 @@ export function lineChart(el, { xs, series, pos = null, fmt = fmtN, yFmt = fmtSh
 export function barRows(el, { rows, max, total = null, fmt = fmtN, label = r => r.label, rowH: rh, bigYear = null, unit = '' }) {
   const { w, narrow, tight } = size(el);
   if (!rows.length) return emptyChart(el);
-  const rowH = rh || (narrow ? 26 : 28);
+  const rowH = rh || (narrow ? 28 : 30);
   const n = rows.length;
-  const left = tight ? 104 : narrow ? 132 : 190;
-  const valW = total ? 98 : 64;
+  frame(el, w, 10);
+  const left = labelMargin(el, rows.map(r => label(r)), w, { maxFrac: tight ? .46 : .4 });
+  const valW = total ? 104 : 70;
   const m = { top: 6, right: valW + 6, bottom: 6, left };
   const h = m.top + n * rowH + m.bottom;
   frame(el, w, h);
   const mx = max || Math.max(...rows.map(r => r.value || 0), 1);
   const x = scaleLinear([0, mx], [m.left, w - m.right]);
-  if (bigYear != null) el.append(svg('text', { x: w - m.right, y: h - 14, class: 'big-year', 'text-anchor': 'end' }, String(bigYear)));
+  // the year as a watermark only where there is room for it clear of the bars
+  if (bigYear != null && !narrow) el.append(svg('text', { x: w - m.right, y: h - 14, class: 'big-year', 'text-anchor': 'end' }, String(bigYear)));
   rows.forEach((r, i) => {
     const k = r.rank ?? i;
     if (k > n + 1) return;
     const y0 = m.top + k * rowH;
     const g = svg('g', { transform: `translate(0 ${y0.toFixed(2)})` });
-    const t = svg('text', { x: m.left - 8, y: rowH / 2 + 4, class: `row-label${r.hl ? ' hl' : ''}`, 'text-anchor': 'end' });
-    g.append(t);
     el.append(g);
-    fitText(t, label(r), m.left - 12);
+    rowLabel(g, m.left - 8, rowH / 2, label(r), m.left - 12, `row-label${r.hl ? ' hl' : ''}`);
     const bw = Math.max(0, x(r.value || 0) - m.left);
     const bar = svg('path', { d: hbar(m.left, 4, bw, rowH - 8), fill: r.color || 'var(--series-1)', opacity: r.dim ? .35 : 1 });
     g.append(bar);
@@ -215,7 +267,8 @@ export function stackRows(el, { rows, parts, mode = 'share', fmt = fmtN, rowH: r
   const { w, narrow, tight } = size(el);
   if (!rows.length) return emptyChart(el);
   const rowH = rh || (narrow ? 34 : 40);
-  const left = tight ? 92 : narrow ? 112 : 150;
+  frame(el, w, 10);
+  const left = labelMargin(el, rows.map(r => r.label), w, { maxFrac: tight ? .4 : .32 });
   const m = { top: 8, right: mode === 'count' ? 64 : 14, bottom: 26, left };
   const h = m.top + rows.length * rowH + m.bottom;
   frame(el, w, h);
@@ -228,9 +281,7 @@ export function stackRows(el, { rows, parts, mode = 'share', fmt = fmtN, rowH: r
   }
   rows.forEach((r, i) => {
     const y0 = m.top + (r.rank ?? i) * rowH;
-    const t = svg('text', { x: m.left - 8, y: y0 + rowH / 2 + 4, class: `row-label${r.hl ? ' hl' : ''}`, 'text-anchor': 'end' });
-    el.append(t);
-    fitText(t, r.label, m.left - 12);
+    rowLabel(el, m.left - 8, y0 + rowH / 2, r.label, m.left - 12, `row-label${r.hl ? ' hl' : ''}`);
     const tot = totals[i] || 1;
     let acc = 0;
     r.values.forEach((v, k) => {
@@ -259,10 +310,11 @@ export function stackRows(el, { rows, parts, mode = 'share', fmt = fmtN, rowH: r
  * rows: category labels; cols: years; get(r, c) -> {v, p} (p = share of the
  * column total, %) or null. hlCol: index of the year to outline.
  */
-export function heatmap(el, { rows, cols, get, max, hlCol = null, fmt = fmtN, showPct = true, colLabel = String, onCol = null }) {
+export function heatmap(el, { rows, cols, get, max, rowMax = null, hlCol = null, fmt = fmtN, showPct = true, colLabel = String, onCol = null }) {
   const { w, narrow, tight } = size(el);
   if (!rows.length || !cols.length) return emptyChart(el);
-  const left = tight ? 104 : narrow ? 130 : 180;
+  frame(el, w, 10);
+  const left = labelMargin(el, rows, w, { maxFrac: tight ? .4 : .3 });
   const cellW = Math.max(narrow ? 40 : 46, (w - left - 8) / cols.length);
   const cellH = showPct ? 34 : 26;
   const width = Math.max(w, left + cellW * cols.length + 8);
@@ -277,13 +329,11 @@ export function heatmap(el, { rows, cols, get, max, hlCol = null, fmt = fmtN, sh
   });
   rows.forEach((r, i) => {
     const y0 = m.top + i * cellH;
-    const t = svg('text', { x: m.left - 8, y: y0 + cellH / 2 + 4, class: 'row-label', 'text-anchor': 'end' });
-    el.append(t);
-    fitText(t, r, m.left - 12);
+    rowLabel(el, m.left - 8, y0 + cellH / 2, r, m.left - 12);
     cols.forEach((c, j) => {
       const cell = get(i, j);
       const x0 = m.left + j * cellW;
-      const step = heatStep(cell?.v, max);
+      const step = heatStep(cell?.v, rowMax ? rowMax[i] : max);
       const fill = `var(--heat-${step})`;
       const rect = svg('rect', { x: x0 + 1, y: y0 + 1, width: cellW - 2, height: cellH - 2, rx: 3, fill });
       el.append(rect);
@@ -333,10 +383,50 @@ function wedge(cx, cy, r0, r1, h0, h1) {
  * values: {slot: v}; ghost: {slot: v} drawn as a dashed outline (a reference year);
  * max: the value a full-radius wedge stands for (shared across years so play shows change).
  */
+/* A watercolour sun or moon behind each dial: soft radial washes pushed
+ * through turbulence so the edges bleed like paint on paper. Drawn under the
+ * wedges at low opacity, so they set the scene without competing with data. */
+let wcSeq = 0;
+function paintSky(el, kind, cx, cy, R) {
+  const id = `wc${++wcSeq}`;
+  const defs = svg('defs');
+  defs.innerHTML = `
+    <filter id="${id}f" x="-30%" y="-30%" width="160%" height="160%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" seed="${wcSeq * 7}" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="${R * 0.09}" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="${R * 0.012}"/>
+    </filter>
+    <radialGradient id="${id}s" cx="45%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#ffe28a"/><stop offset=".55" stop-color="#f7b733"/><stop offset="1" stop-color="#f08c1a" stop-opacity=".2"/>
+    </radialGradient>
+    <radialGradient id="${id}m" cx="40%" cy="38%" r="65%">
+      <stop offset="0" stop-color="#eef0ff"/><stop offset=".6" stop-color="#b9bdf2"/><stop offset="1" stop-color="#7f86d8" stop-opacity=".25"/>
+    </radialGradient>
+    <mask id="${id}k"><rect x="${cx - R}" y="${cy - R}" width="${2 * R}" height="${2 * R}" fill="#fff"/>
+      <circle cx="${cx + R * 0.24}" cy="${cy - R * 0.16}" r="${R * 0.5}" fill="#000"/></mask>`;
+  el.append(defs);
+  const g = svg('g', { filter: `url(#${id}f)`, opacity: kind === 'day' ? .42 : .5, 'pointer-events': 'none' });
+  if (kind === 'day') {
+    for (let k = 0; k < 12; k++) {
+      const a = (k / 12) * 2 * Math.PI + 0.13, b = 0.11;
+      const p = (r, t) => `${cx + r * Math.cos(t)},${cy + r * Math.sin(t)}`;
+      g.append(svg('path', { d: `M${p(R * 0.62, a - b)}L${p(R * 0.97, a)}L${p(R * 0.62, a + b)}Z`, fill: '#f6ad2b', opacity: .7 }));
+    }
+    g.append(svg('circle', { cx, cy, r: R * 0.6, fill: `url(#${id}s)` }));
+  } else {
+    g.append(svg('circle', { cx: cx - R * 0.06, cy: cy + R * 0.04, r: R * 0.62, fill: `url(#${id}m)`, mask: `url(#${id}k)` }));
+    for (const [dx, dy, r] of [[.55, -.55, .045], [.7, .1, .03], [.35, .62, .035], [-.6, -.62, .03], [.15, -.82, .025]]) {
+      g.append(svg('circle', { cx: cx + dx * R, cy: cy + dy * R, r: r * R, fill: '#c9ccff' }));
+    }
+  }
+  el.append(g);
+}
+
 export function clocks(el, { values, ghost = null, ghostLabel = '', max, mode = 'count', fmt = fmtN, unit = '', year = null }) {
   const { w, narrow } = size(el);
   const stacked = w < 560;
-  const R = stacked ? Math.min(w / 2 - 26, 170) : Math.min((w - 60) / 4, 190);
+  // numerals sit at R + 27, so each dial needs R + 40 either side of its centre
+  const R = stacked ? Math.min(w / 2 - 44, 170) : Math.min(w / 4 - 44, 190);
   const h = stacked ? (R * 2 + 92) * 2 : R * 2 + 100;
   frame(el, w, h);
   const total = Object.values(values).reduce((a, b) => a + (b || 0), 0) || 1;
@@ -349,6 +439,7 @@ export function clocks(el, { values, ghost = null, ghostLabel = '', max, mode = 
     const cx = stacked ? w / 2 : w / 4 + (di ? w / 2 : 0);
     const cy = stacked ? 40 + R + di * (R * 2 + 92) : 44 + R;
     el.append(svg('circle', { cx, cy, r: R + 14, class: 'dial' }));
+    paintSky(el, D.key, cx, cy, R + 8);
     for (let hr = 0; hr < 12; hr++) {
       const [x1, y1] = polar(cx, cy, R + 14, hr), [x2, y2] = polar(cx, cy, R + 7, hr);
       el.append(svg('line', { x1, y1, x2, y2, class: 'dial-tick' }));

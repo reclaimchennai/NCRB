@@ -41,6 +41,7 @@ Three pages share the one app:
 | Tables | `/` (`web/index.html`, `web/js/`) | search, read, chart and map any extracted table (API-backed) |
 | Trends | `/trends/` (`web/trends/`) | dashboard: one dataset, any State, UT or city, every year; play, snapshot, record |
 | Chennai | `/chennai/` (`web/chennai/`) | the Chennai and Tamil Nadu story, same charts |
+| Explore | `/explore/` (`web/explore/`) | every table printed in 3+ editions, joined across years (`python -m analysis.families` -> `web/data/explore/`, gitignored, rsynced by deploy.sh) |
 
 Trends and Chennai are static: they read `web/data/trends/` (catalog, one
 `index.json` per dataset, one JSON per place), written on the laptop by

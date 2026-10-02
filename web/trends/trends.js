@@ -7,15 +7,15 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=7ce592264a';
-import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=7ce592264a';
-import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=7ce592264a';
-import { footerHtml, creditLine } from '../kit/footer.js?v=7ce592264a';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=fff293a896';
+import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=fff293a896';
+import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=fff293a896';
+import { footerHtml, creditLine } from '../kit/footer.js?v=fff293a896';
 
 const DATA = '../data/trends';
 const GROUPS = [
-  { group: 'Traffic accidents', ids: ['traffic_time', 'traffic_month'] },
-  { group: 'Persons killed in traffic accidents', ids: ['road_deaths_time', 'road_deaths_month'] },
+  { group: 'Traffic crashes', ids: ['traffic_time', 'traffic_month'] },
+  { group: 'Persons killed in traffic crashes', ids: ['road_deaths_time', 'road_deaths_month'] },
   { group: 'Suicides', ids: ['suicide_means', 'suicide_profession', 'suicide_causes', 'suicide_education', 'suicide_sex_age', 'suicide_rate'] },
 ];
 const SEX_LABEL = { Total: 'Both sexes', Male: 'Male', Female: 'Female', Transgender: 'Transgender', '': '' };
@@ -86,7 +86,7 @@ function placeYears() {
 const placeName = () => (S.place ? S.place.place : '');
 function selectionText({ year = false } = {}) {
   const bits = [];
-  if (S.meta.groups.length > 1 && S.meta.groups[S.group]) bits.push(S.meta.groups[S.group] === 'Total traffic' ? 'all traffic' : `${S.meta.groups[S.group].toLowerCase()} accidents`);
+  if (S.meta.groups.length > 1 && S.meta.groups[S.group]) bits.push(S.meta.groups[S.group] === 'Total traffic' ? 'all traffic' : `${S.meta.groups[S.group].toLowerCase()} crashes`);
   if (S.meta.sexes.length > 1) bits.push(SEX_LABEL[S.meta.sexes[S.sex]].toLowerCase());
   if (S.meta.ages.length > 1 && S.meta.ages[S.age] !== 'all ages') bits.push(`aged ${S.meta.ages[S.age]}`);
   if (year) bits.push(String(tl.year));
@@ -110,13 +110,13 @@ function buildControls() {
   const byId = Object.fromEntries(S.catalog.datasets.map(d => [d.id, d]));
   ui.ds = select({
     label: 'Dataset', lead: 'layers',
-    options: GROUPS.map(g => ({ group: g.group, options: g.ids.filter(id => byId[id]).map(id => ({ value: id, label: `${byId[id].title.replace(/^Persons killed in traffic accidents/, 'Deaths')} (${byId[id].years.join('–')})` })) })),
+    options: GROUPS.map(g => ({ group: g.group, options: g.ids.filter(id => byId[id]).map(id => ({ value: id, label: `${byId[id].title.replace(/^Persons killed in traffic crashes/, 'Deaths')} (${byId[id].years.join('–')})` })) })),
     value: S.ds, onChange: v => loadDataset(v),
   });
   ui.place = select({ label: 'Place', lead: 'map-pin', options: [], onChange: v => loadPlace(v) });
   ui.sex = segmented({ label: 'Sex', options: [], onChange: v => { S.sex = Number(v); refresh(); } });
   ui.age = select({ label: 'Age group', small: 'AGE', options: [], onChange: v => { S.age = Number(v); refresh(); } });
-  ui.group = segmented({ label: 'Kind of accident', options: [], onChange: v => { S.group = Number(v); refresh(); } });
+  ui.group = segmented({ label: 'Kind of crash', options: [], onChange: v => { S.group = Number(v); refresh(); } });
   ui.mode = segmented({
     label: 'Number or share', value: S.mode,
     options: [{ value: 'count', label: 'Number', icon: 'hash' }, { value: 'share', label: 'Share', icon: 'percent' }],
@@ -174,21 +174,21 @@ function buildCards() {
   C.trend = card(root, { id: 'c-trend', kicker: 'Over the years', snap: true, rec: true });
   bindCapture(C.trend, { meta: () => captureMeta(C.trend, kind() === 'month' && (tl.playing || tl.recording))(), record: { timeline: tl, render: p => markTrend(p) }, name: 'ncrb-trend' });
 
-  const g = el('div', { class: 'grid2' });
-  root.append(g);
-  C.year = card(g, { id: 'c-year', kicker: 'One year', rec: true });
+  C.year = card(root, { id: 'c-year', kicker: 'One year', rec: true });
   bindCapture(C.year, { meta: captureMeta(C.year, true), record: { timeline: tl, render: p => drawYear(p) }, name: 'ncrb-year' });
   C.ghost = el('button', { type: 'button', class: 'switch', role: 'switch', 'aria-checked': 'false' }, `<span class="knob"></span><span>Outline the first year</span>`);
   C.ghost.addEventListener('click', () => { S.ghost = !S.ghost; C.ghost.setAttribute('aria-checked', String(S.ghost)); drawYear(tl.pos); });
   C.year.toolbar.append(C.ghost);
 
+  const g = el('div', { class: 'grid2' });
+  root.append(g);
   C.rank = card(g, { id: 'c-rank', kicker: 'Compare places', rec: true });
   bindCapture(C.rank, { meta: captureMeta(C.rank, true, 'all'), record: { timeline: tl, render: p => drawRank(p) }, name: 'ncrb-compare' });
   C.rankType = segmented({ label: 'Places', value: S.rankType, options: [{ value: 'state', label: 'States & UTs', icon: 'map-pin' }, { value: 'city', label: 'Cities', icon: 'building' }], onChange: v => { S.rankType = v; drawRank(tl.pos); } });
   C.rankCat = select({ label: 'Category', small: 'SHOW', options: [], onChange: v => { S.rankCat = v; drawRank(tl.pos); } });
   C.rank.toolbar.append(C.rankType.el, C.rankCat.el);
 
-  C.map = card(root, { id: 'c-map', kicker: 'India', rec: true });
+  C.map = card(g, { id: 'c-map', kicker: 'India', rec: true });
   bindCapture(C.map, { meta: captureMeta(C.map, true, 'all'), record: { timeline: tl, render: p => drawMap(p) }, name: 'ncrb-map' });
   C.map.set({ note: 'The category and the number/share choice follow Compare places. Boundaries: datameet (pre-2019 lines; Ladakh is drawn with Jammu & Kashmir, Telangana is shaded with Andhra Pradesh before 2014).' });
 
@@ -411,7 +411,7 @@ function drawRank(pos) {
   drawMap(pos);
   barRows(c.svg, { rows, max: Math.max(max, gmax), fmt: k === 'rate' && S.rankCat === '0' ? fmt1 : share ? fmt1 : fmtN, unit: share ? '%' : '', bigYear: y });
   const what = catOpts.find(o => o.value === S.rankCat)?.label || '';
-  c.set({ title: `${what}: ${S.rankType === 'city' ? 'the big cities' : 'States and UTs'}, ${y}`, sub: `${share ? `share of each place's ${unit()}` : k === 'rate' && S.rankCat === '0' ? 'per lakh people' : unit()}${k === 'cats' || k === 'sexage' ? ' · both sexes, all ages' : ''}${m.groups.length > 1 ? ` · ${m.groups[0].toLowerCase()} accidents` : ''} · ${placeName()} highlighted` });
+  c.set({ title: `${what}: ${S.rankType === 'city' ? 'the big cities' : 'States and UTs'}, ${y}`, sub: `${share ? `share of each place's ${unit()}` : k === 'rate' && S.rankCat === '0' ? 'per lakh people' : unit()}${k === 'cats' || k === 'sexage' ? ' · both sexes, all ages' : ''}${m.groups.length > 1 ? ` · ${m.groups[0].toLowerCase()} crashes` : ''} · ${placeName()} highlighted` });
   c.set({ note: rows.length < 3 ? 'Few or no places have this figure for the year.' : '' });
 }
 

@@ -10,8 +10,8 @@
  * the source of the figures, and @reclaimchennai as its author.
  */
 
-import { fixWebmDuration } from './webm.js?v=7ce592264a';
-import { cssVar } from './util.js?v=7ce592264a';
+import { fixWebmDuration } from './webm.js?v=fff293a896';
+import { cssVar } from './util.js?v=fff293a896';
 
 const OUT_FPS = 30;
 const CODECS = ['avc1.640028', 'avc1.4d0028', 'avc1.42003c', 'avc1.42E01E'];
@@ -173,7 +173,7 @@ export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
     const fy = H - footH + 12;
     ctx.strokeStyle = cssVar('--ring-2') || '#ccc'; ctx.lineWidth = 1.5;
     ctx.beginPath(); ctx.moveTo(PAD, fy); ctx.lineTo(W - PAD, fy); ctx.stroke();
-    ctx.fillStyle = ink; ctx.font = `760 26px ${FONT}`;
+    ctx.fillStyle = muted; ctx.font = `600 19px ${FONT}`;
     ctx.fillText(AUTHOR, PAD, fy + 40);
     ctx.textAlign = 'right'; ctx.fillStyle = muted; ctx.font = `550 19px ${FONT}`;
     ctx.fillText(SITE, W - PAD, fy + 40);

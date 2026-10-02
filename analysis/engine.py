@@ -571,13 +571,13 @@ def suicide_sex_age() -> pd.DataFrame:
 
 
 DATASETS = {
-    "traffic_time": dict(build=traffic_time, topics=["traffic_time_chennai"], title="Traffic accidents by time of day", unit="accidents", cats=SLOTS,
+    "traffic_time": dict(build=traffic_time, topics=["traffic_time_chennai"], title="Traffic crashes by time of day", unit="crashes", cats=SLOTS,
                          groups=["Road", "Railway crossing", "Railway", "Total traffic"]),
-    "traffic_month": dict(build=traffic_month, topics=["traffic_month_chennai"], title="Traffic accidents by month", unit="accidents", cats=MONTHS,
+    "traffic_month": dict(build=traffic_month, topics=["traffic_month_chennai"], title="Traffic crashes by month", unit="crashes", cats=MONTHS,
                           groups=["Road", "Railway crossing", "Railway", "Total traffic"]),
-    "road_deaths_time": dict(build=road_deaths_time, topics=["traffic_time_deaths_tn"], title="Persons killed in traffic accidents by time of day", unit="deaths", cats=SLOTS,
+    "road_deaths_time": dict(build=road_deaths_time, topics=["traffic_time_deaths_tn"], title="Persons killed in traffic crashes by time of day", unit="deaths", cats=SLOTS,
                              groups=["Road", "Railway crossing", "Railway", "Total traffic"]),
-    "road_deaths_month": dict(build=road_deaths_month, topics=["traffic_month_deaths_tn"], title="Persons killed in traffic accidents by month", unit="deaths", cats=MONTHS,
+    "road_deaths_month": dict(build=road_deaths_month, topics=["traffic_month_deaths_tn"], title="Persons killed in traffic crashes by month", unit="deaths", cats=MONTHS,
                               groups=["Road", "Railway crossing", "Railway", "Total traffic"]),
     "suicide_means": dict(build=suicide_means, topics=["suicide_means_tn", "suicide_means_city", "suicide_means_age_tn"], title="Suicides by means adopted", unit="suicides"),
     "suicide_profession": dict(build=suicide_profession, topics=["suicide_profession_tn", "suicide_profession_city", "suicide_profession_age_tn"], title="Suicides by profession", unit="suicides"),

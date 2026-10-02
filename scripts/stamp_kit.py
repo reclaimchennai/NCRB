@@ -11,9 +11,9 @@ import re
 from pathlib import Path
 
 WEB = Path(__file__).resolve().parents[1] / "web"
-JS = sorted((WEB / "kit").glob("*.js")) + [WEB / "trends" / "trends.js", WEB / "chennai" / "chennai.js"]
+JS = sorted((WEB / "kit").glob("*.js")) + [WEB / "trends" / "trends.js", WEB / "chennai" / "chennai.js", WEB / "explore" / "explore.js"]
 CSS = [WEB / "kit" / "kit.css"]
-HTML = [WEB / "trends" / "index.html", WEB / "chennai" / "index.html"]
+HTML = [WEB / "trends" / "index.html", WEB / "chennai" / "index.html", WEB / "explore" / "index.html"]
 V = re.compile(r"\?v=[0-9a-f]+")
 
 h = hashlib.sha256()

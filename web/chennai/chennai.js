@@ -6,11 +6,11 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=7ce592264a';
-import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=7ce592264a';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=7ce592264a';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=7ce592264a';
-import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=7ce592264a';
+import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=fff293a896';
+import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=fff293a896';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=fff293a896';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=fff293a896';
+import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=fff293a896';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];
@@ -62,20 +62,20 @@ async function trafficTime() {
   }
   const peak = ys.reduce((a, b) => (tot[b] > tot[a] ? b : a), ys[0]);
   const last = ys.at(-1);
-  section('Road accidents in Chennai, by the clock',
-    `<p>NCRB counts Chennai's road accidents in eight three-hour slots, every year since ${ys[0]}. Split the way NCRB labels them, day (6 am to 6 pm) and night (6 pm to 6 am) each fill one ordinary clock face. The area of each wedge is the number of accidents in those three hours.</p>
-     <p>Road accidents peaked at <b>${fmtN(tot[peak])}</b> in ${peak} and were <b>${fmtN(tot[last])}</b> in ${last}. The night's share was ${fmtPct(night[ys[0]], 0)} in ${ys[0]} and ${fmtPct(night[last], 0)} in ${last}.</p>`);
+  section('Road crashes in Chennai, by the clock',
+    `<p>NCRB counts Chennai's road crashes in eight three-hour slots, every year since ${ys[0]}. Split the way NCRB labels them, day (6 am to 6 pm) and night (6 pm to 6 am) each fill one ordinary clock face. The area of each wedge is the number of crashes in those three hours.</p>
+     <p>Road crashes peaked at <b>${fmtN(tot[peak])}</b> in ${peak} and were <b>${fmtN(tot[last])}</b> in ${last}. The night's share was ${fmtPct(night[ys[0]], 0)} in ${ys[0]} and ${fmtPct(night[last], 0)} in ${last}.</p>`);
   let mode = 'count', ghost = false;
   const mx = { count: 0, share: 0 };
   for (const y of ys) for (const s of SLOTS) { const v = P.get(s, { group: 'Road' })[y] || 0; mx.count = Math.max(mx.count, v); mx.share = Math.max(mx.share, (100 * v) / tot[y]); }
   const { c, tl } = yearCard(root(), {
-    id: 'chn-clock', kicker: 'Chennai · road accidents by time of day', years: ys, name: 'chennai-clock', meta: y => creditLine(P.meta, [y], P.sources),
+    id: 'chn-clock', kicker: 'Chennai · road crashes by time of day', years: ys, name: 'chennai-clock', meta: y => creditLine(P.meta, [y], P.sources),
     render: pos => {
       const y = ys[Math.round(pos)];
       const vals = Object.fromEntries(SLOTS.map(s => [s, at(P.get(s, { group: 'Road' }), ys, pos) ?? 0]));
       const g = ghost ? Object.fromEntries(SLOTS.map(s => [s, P.get(s, { group: 'Road' })[ys[0]] ?? 0])) : null;
       clocks(c.svg, { values: vals, ghost: g, ghostLabel: `In ${ys[0]}`, max: mx[mode], mode, year: y });
-      c.set({ title: `Road accidents in Chennai by time of day, ${y}`, sub: `wedge area shows ${mode === 'share' ? "share of the day's accidents" : 'number of accidents'}${ghost ? ` · dashed outline: ${ys[0]}` : ''}` });
+      c.set({ title: `Road crashes in Chennai by time of day, ${y}`, sub: `wedge area shows ${mode === 'share' ? "share of the day's crashes" : 'number of crashes'}${ghost ? ` · dashed outline: ${ys[0]}` : ''}` });
     },
   });
   const seg = segmented({ label: 'Number or share', value: mode, options: [{ value: 'count', label: 'Number', icon: 'hash' }, { value: 'share', label: 'Share of the day', icon: 'percent' }], onChange: v => { mode = v; tl.emit(); } });
@@ -88,29 +88,29 @@ async function trafficTime() {
 
   const H = {};
   H.card = yearCard(root(), {
-    id: 'chn-hour-lines', kicker: 'Chennai · road accidents by time of day', years: ys, name: 'chennai-hour-lines', meta: () => creditLine(P.meta, ys, P.sources),
+    id: 'chn-hour-lines', kicker: 'Chennai · road crashes by time of day', years: ys, name: 'chennai-hour-lines', meta: () => creditLine(P.meta, ys, P.sources),
     render: pos => {
       const tl = H.card?.tl;
       const rev = !!(tl && (tl.playing || tl.recording));
       seasonChart(H.card.c.svg, { cats: SLOTS, years: ys, get: (y, sl) => P.get(sl, { group: 'Road' })[y] ?? null, pos, reveal: rev, xLabel: sl => `${sl.slice(0, 2)}–${sl.slice(3)} h` });
-      H.card.c.set({ title: `Road accidents in Chennai, hour by hour: ${ys[rev ? Math.floor(pos) : Math.round(pos)]} against every other year`, sub: 'number of road accidents in each three-hour slot · each grey line is one year' });
+      H.card.c.set({ title: `Road crashes in Chennai, hour by hour: ${ys[rev ? Math.floor(pos) : Math.round(pos)]} against every other year`, sub: 'number of road crashes in each three-hour slot · each grey line is one year' });
     },
   });
   H.card.c.setLegend([{ label: 'the year on the timeline', color: 'var(--critical)', line: true }, { label: 'every other year', color: 'var(--axis)', line: true }]);
   const xs = []; for (let y = ys[0]; y <= last; y++) xs.push(y);
   const c2 = plainCard(root(), {
-    id: 'chn-daynight', kicker: 'Chennai · road accidents', name: 'chennai-day-night', meta: () => creditLine(P.meta, ys, P.sources),
+    id: 'chn-daynight', kicker: 'Chennai · road crashes', name: 'chennai-day-night', meta: () => creditLine(P.meta, ys, P.sources),
     render: () => {
       lineChart(c2.svg, { xs, series: [{ key: 'n', label: 'Night (6 pm – 6 am)', color: 'var(--night)', values: night }, { key: 'd', label: 'Day (6 am – 6 pm)', color: 'var(--day)', values: day }], fmt: fmt1, unit: '%', yFmt: v => `${v}%` });
     },
   });
-  c2.set({ title: 'Day and night: share of Chennai\'s road accidents', sub: '% of each year\'s road accidents' });
+  c2.set({ title: 'Day and night: share of Chennai\'s road crashes', sub: '% of each year\'s road crashes' });
   c2.setLegend([{ label: 'Night', color: 'var(--night)', line: true }, { label: 'Day', color: 'var(--day)', line: true }]);
   const c3 = plainCard(root(), {
-    id: 'chn-total', kicker: 'Chennai · road accidents', name: 'chennai-road-accidents', meta: () => creditLine(P.meta, ys, P.sources),
-    render: () => lineChart(c3.svg, { xs, series: [{ key: 't', label: 'Road accidents', color: 'var(--critical)', values: tot }], height: 260 }),
+    id: 'chn-total', kicker: 'Chennai · road crashes', name: 'chennai-road-crashes', meta: () => creditLine(P.meta, ys, P.sources),
+    render: () => lineChart(c3.svg, { xs, series: [{ key: 't', label: 'Road crashes', color: 'var(--critical)', values: tot }], height: 260 }),
   });
-  c3.set({ title: 'Road accidents in Chennai, every year', sub: 'number of road accidents' });
+  c3.set({ title: 'Road crashes in Chennai, every year', sub: 'number of road crashes' });
 }
 
 async function trafficMonth() {
@@ -121,21 +121,21 @@ async function trafficMonth() {
   for (const y of ys) { const t = P.total(y, { group: 'Road' }); for (const m of MONTHS) { const v = P.get(m, { group: 'Road' })[y]; if (v != null && t) share[m].push((100 * v) / t); } }
   const avg = Object.fromEntries(MONTHS.map(m => [m, share[m].reduce((a, b) => a + b, 0) / (share[m].length || 1)]));
   const hi = MONTHS.reduce((a, b) => (avg[b] > avg[a] ? b : a)), lo = MONTHS.reduce((a, b) => (avg[b] < avg[a] ? b : a));
-  section('Month by month', `<p>Month tables for Chennai cover ${span(ys)}. On average ${hi} has had the largest share of the year's road accidents (${fmtPct(avg[hi])}) and ${lo} the smallest (${fmtPct(avg[lo])}); an even spread would be 8.3% a month. Each cell carries the number and its share of the year.</p>`);
+  section('Month by month', `<p>Month tables for Chennai cover ${span(ys)}. On average ${hi} has had the largest share of the year's road crashes (${fmtPct(avg[hi])}) and ${lo} the smallest (${fmtPct(avg[lo])}); an even spread would be 8.3% a month. Each cell carries the number and its share of the year.</p>`);
   const S = {};
   S.card = yearCard(root(), {
-    id: 'chn-month-lines', kicker: 'Chennai · road accidents by month', years: ys, name: 'chennai-month-lines', meta: () => creditLine(P.meta, ys, P.sources),
+    id: 'chn-month-lines', kicker: 'Chennai · road crashes by month', years: ys, name: 'chennai-month-lines', meta: () => creditLine(P.meta, ys, P.sources),
     render: pos => {
       const tl = S.card?.tl;
       seasonChart(S.card.c.svg, { cats: MONTHS, years: ys, get: (y, m) => P.get(m, { group: 'Road' })[y] ?? null, pos, reveal: !!(tl && (tl.playing || tl.recording)) });
       const y = ys[tl && (tl.playing || tl.recording) ? Math.floor(pos) : Math.round(pos)];
-      S.card.c.set({ title: `Road accidents in Chennai, month by month: ${y} against every other year`, sub: 'number of road accidents · each grey line is one year' });
+      S.card.c.set({ title: `Road crashes in Chennai, month by month: ${y} against every other year`, sub: 'number of road crashes · each grey line is one year' });
     },
   });
   S.card.c.setLegend([{ label: 'the year on the timeline', color: 'var(--critical)', line: true }, { label: 'every other year', color: 'var(--axis)', line: true }]);
   S.card.c.set({ note: 'Drag the timeline to pick out a year. Play, or record a video, to watch the years arrive one by one: each year draws itself in red, then joins the others in grey.' });
   const c = plainCard(root(), {
-    id: 'chn-month', kicker: 'Chennai · road accidents by month', name: 'chennai-month', meta: () => creditLine(P.meta, ys, P.sources),
+    id: 'chn-month', kicker: 'Chennai · road crashes by month', name: 'chennai-month', meta: () => creditLine(P.meta, ys, P.sources),
     render: () => {
       let max = 0; for (const m of MONTHS) for (const y of ys) max = Math.max(max, P.get(m, { group: 'Road' })[y] || 0);
       const tots = Object.fromEntries(ys.map(y => [y, P.total(y, { group: 'Road' })]));
@@ -143,22 +143,22 @@ async function trafficMonth() {
       heatmap(c.svg, { rows: ys.map(String), cols: MONTHS, max, get: (i, j) => { const v = P.get(MONTHS[j], { group: 'Road' })[ys[i]]; return v == null ? null : { v, p: (100 * v) / tots[ys[i]] }; } });
     },
   });
-  c.set({ title: 'Road accidents in Chennai by month', sub: 'number of road accidents, and % of the year' });
+  c.set({ title: 'Road crashes in Chennai by month', sub: 'number of road crashes, and % of the year' });
   c.setLegend([{ label: 'fewer', color: 'var(--heat-1)' }, { label: 'more', color: 'var(--heat-7)' }]);
 }
 
 async function roadDeaths() {
   const P = await place('road_deaths_time', 'state-tamil-nadu');
   const ys = yearsWith(P, { group: 'Road' });
-  section('Road deaths in Tamil Nadu by time of day', `<p>Deaths by time of day are printed only State-wise, and only from ${ys[0]}; for Chennai NCRB gives the number of accidents by hour and, separately, a yearly count of persons killed.</p>`);
+  section('Road deaths in Tamil Nadu by time of day', `<p>Deaths by time of day are printed only State-wise, and only from ${ys[0]}; for Chennai NCRB gives the number of crashes by hour and, separately, a yearly count of persons killed.</p>`);
   const tot = Object.fromEntries(ys.map(y => [y, P.total(y, { group: 'Road' })]));
   let mx = 0; for (const y of ys) for (const s of SLOTS) mx = Math.max(mx, P.get(s, { group: 'Road' })[y] || 0);
   const { c } = yearCard(root(), {
-    id: 'tn-deaths', kicker: 'Tamil Nadu · persons killed in road accidents', years: ys, name: 'tn-road-deaths-clock', meta: y => creditLine(P.meta, [y], P.sources),
+    id: 'tn-deaths', kicker: 'Tamil Nadu · persons killed in road crashes', years: ys, name: 'tn-road-deaths-clock', meta: y => creditLine(P.meta, [y], P.sources),
     render: pos => {
       const y = ys[Math.round(pos)];
       clocks(c.svg, { values: Object.fromEntries(SLOTS.map(s => [s, at(P.get(s, { group: 'Road' }), ys, pos) ?? 0])), max: mx, year: y });
-      c.set({ title: `Persons killed in road accidents in Tamil Nadu by time of day, ${y}`, sub: `${fmtN(tot[y])} deaths · wedge area shows deaths` });
+      c.set({ title: `Persons killed in road crashes in Tamil Nadu by time of day, ${y}`, sub: `${fmtN(tot[y])} deaths · wedge area shows deaths` });
     },
   });
   c.setLegend([{ label: 'Day, 6 am – 6 pm', color: 'var(--day)' }, { label: 'Night, 6 pm – 6 am', color: 'var(--night)' }]);
@@ -368,7 +368,7 @@ async function tiles() {
   const ch = R.places.find(p => p.name === 'Chennai' && p.type === 'city'), tn = R.places.find(p => p.name === 'Tamil Nadu');
   const ry = Math.max(...Object.keys(ch.head[ri]).map(Number));
   const items = [
-    { k: 'Chennai road accidents', i: 'car', v: fmtN(T.total(ty, { group: 'Road' })), d: `${ty}` },
+    { k: 'Chennai road crashes', i: 'car', v: fmtN(T.total(ty, { group: 'Road' })), d: `${ty}` },
     { k: 'Chennai suicides', i: 'heart', v: fmtN(ch.head[si]?.[ry]), d: `${ry} · rate ${fmt1(ch.head[ri][ry])} per lakh` },
     { k: 'Tamil Nadu suicides', i: 'users', v: fmtN(tn.head[si]?.[ry]), d: `${ry} · rate ${fmt1(tn.head[ri][ry])} per lakh` },
     { k: 'Oldest record here', i: 'calendar', v: '1967', d: 'first ADSI edition; series start where tables survive' },
