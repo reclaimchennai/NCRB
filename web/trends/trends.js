@@ -7,10 +7,11 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=f301aa3130';
-import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=f301aa3130';
-import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f301aa3130';
-import { footerHtml, creditLine } from '../kit/footer.js?v=f301aa3130';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=69a57e683b';
+import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=69a57e683b';
+import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=69a57e683b';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=69a57e683b';
+import { footerHtml, creditLine } from '../kit/footer.js?v=69a57e683b';
 
 const DATA = '../data/trends';
 const GROUPS = [
@@ -415,21 +416,16 @@ function drawRank(pos) {
   c.set({ note: rows.length < 3 ? 'Few or no places have this figure for the year.' : '' });
 }
 
-/* 3b. India map */
-let GEO = null;
-async function loadGeo() {
-  if (!GEO) GEO = Promise.all([getJSON('../geo/india-states.geojson'), getJSON('../geo/india-outline.geojson')]);
-  return GEO;
-}
-let geoData = null;
+/* 3b. India map: the State boundaries of the year shown */
 function drawMap(pos) {
   const c = C.map, k = kind(), m = S.meta;
-  if (!geoData) { loadGeo().then(g => { geoData = g; drawMap(tl.pos); }); return; }
   const places = m.places.filter(p => p.type === 'state' || p.type === 'ut');
   const ys = placeYears();
   if (!places.length || !ys.length) { c.el.hidden = true; return; }
   c.el.hidden = false;
   const y = ys[Math.round(pos)];
+  const geo = mapFor(y, () => drawMap(tl.pos)), outline = outlineMap(() => drawMap(tl.pos));
+  if (!geo || !outline) return;
   const values = {};
   for (const p of places) {
     const v = at(Object.fromEntries(ys.map(yy => [yy, headValue(p, yy)]).filter(([, v2]) => v2 != null)), ys, pos);
@@ -440,9 +436,9 @@ function drawMap(pos) {
   const share = S.mode === 'share' && k !== 'rate' && S.rankCat !== 'all';
   const isRate = k === 'rate' && S.rankCat === '0';
   const mp = metaPlace(S.key);
-  choropleth(c.svg, { geo: geoData[0], outline: geoData[1], values, max: gmax, year: y, fmt: isRate || share ? fmt1 : fmtN, unit: share ? '%' : '', hl: mp && mp.type !== 'city' ? mp.name : null, label: C.rankCat.select.selectedOptions[0]?.textContent || '' });
+  choropleth(c.svg, { geo, outline, values, max: gmax, year: y, fmt: isRate || share ? fmt1 : fmtN, unit: share ? '%' : '', hl: mp && mp.type !== 'city' ? mp.name : null, label: C.rankCat.select.selectedOptions[0]?.textContent || '' });
   const what = C.rankCat.select.selectedOptions[0]?.textContent || '';
-  c.set({ title: `${what} by State and UT, ${y}`, sub: `${share ? `share of each State's ${unit()}` : isRate ? 'suicides per lakh people' : unit()} · colour scale fixed across ${ys[0]}–${ys.at(-1)}` });
+  c.set({ title: `${what} by State and UT, ${y}`, sub: `${share ? `share of each State's ${unit()}` : isRate ? 'suicides per lakh people' : unit()} · colour scale fixed across ${ys[0]}–${ys.at(-1)}`, note: boundaryNote(y) });
 }
 
 /* 4. by age group */

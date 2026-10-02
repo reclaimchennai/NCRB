@@ -169,11 +169,11 @@ def split_col(label: str) -> tuple[str, str]:
 
 
 @lru_cache(maxsize=200_000)
-def place_of(name: str, section: str, scanned: bool):
+def place_of(name: str, section: str, scanned: bool, year: int | None = None):
     from .engine import resolve
 
     try:
-        return resolve(name, section, scanned)
+        return resolve(name, section, scanned, year)
     except Exception:
         return None
 
@@ -460,7 +460,7 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
         return None
     # rows: places, or the table's own row labels
     names = c.drop_duplicates(["table_id", "row"])
-    res = [place_of(str(n), str(s or ""), m in SCANNED) for n, s, m in zip(names.name, names.section, names.method)]
+    res = [place_of(str(n), str(s or ""), m in SCANNED, int(y)) for n, s, m, y in zip(names.name, names.section, names.method, names.year)]
     share_places = sum(r is not None for r in res) / max(1, len(res))
     mode = "places" if share_places >= 0.6 else "categories"
     years_all = sorted(c.year.unique())

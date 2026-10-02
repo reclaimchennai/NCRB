@@ -127,35 +127,36 @@ def write_table(t: Table, meta: dict, base: Path) -> dict:
 
 
 def _score(tables) -> tuple[int, int, int]:
-    passed = total = 0
-    for t in tables:
-        c = check_totals(t)
-        passed += c["cells_passed"]
-        total += c["cells_checked"]
-    return passed, total, passed - 2 * (total - passed)
+    from .vlm_tables import score_tables
+
+    return score_tables(tables)
 
 
 def choose_vlm(src: Path, ocr_tables: list):
-    """The VLM reading of a scanned file, when it is in the page cache and checks out better.
+    """The best VLM reading of a scanned file, when one is in the page cache and checks out better.
 
-    Both readings are scored by the totals check (a failed total costs twice
-    what a matched one earns). The VLM tables replace the Tesseract ones only
-    when they score higher, so no file whose totals could be checked gets
-    worse. Files with nothing to check keep the Tesseract reading.
+    Every model that has read all the file's scanned pages (on this laptop or
+    on a cloud GPU, see colab/) is scored by the totals check, as is the
+    Tesseract reading; a failed total costs twice what a matched one earns.
+    The best-scoring VLM reading replaces Tesseract only when it scores
+    higher, so no file whose totals could be checked gets worse. Files with
+    nothing to check keep the Tesseract reading.
     """
     try:
-        from .vlm import DEFAULT_MODEL
+        from .vlm import VLM_MODELS
         from .vlm_tables import vlm_tables
     except ImportError:
         return None
-    vt, st = vlm_tables(src, DEFAULT_MODEL, run_model=False)
-    if not vt or st["pages_missing"]:
-        return None
-    vp, vtot, vscore = _score(vt)
     tp, ttot, tscore = _score(ocr_tables)
-    if vtot == 0 or vscore <= tscore:
-        return None
-    return vt, f"VLM reading used: totals {vp}/{vtot} against Tesseract {tp}/{ttot}"
+    best = None
+    for model in VLM_MODELS:
+        vt, st = vlm_tables(src, model, run_model=False)
+        if not vt or st["pages_missing"]:
+            continue
+        vp, vtot, vscore = _score(vt)
+        if vtot and vscore > tscore and (best is None or vscore > best[0]):
+            best = (vscore, vt, f"VLM reading used ({model.split('/')[-1]}): totals {vp}/{vtot} against Tesseract {tp}/{ttot}")
+    return (best[1], best[2]) if best else None
 
 
 def process_file(job: dict) -> tuple[dict, list[dict]]:
@@ -247,7 +248,7 @@ def vlm_ready(path: Path) -> bool:
     """True when the VLM page cache holds every scanned page of this file."""
     import pymupdf
 
-    from .vlm import DEFAULT_MODEL
+    from .vlm import VLM_MODELS
     from .vlm_tables import cache_path, file_sha, scanned_pages
 
     if path.suffix.lower() != ".pdf":
@@ -258,7 +259,7 @@ def vlm_ready(path: Path) -> bool:
     if not pages:
         return False
     sha = file_sha(path)
-    return all(cache_path(DEFAULT_MODEL, sha, p).exists() for p in pages)
+    return any(all(cache_path(m, sha, p).exists() for p in pages) for m in VLM_MODELS)
 
 
 def jobs(args) -> list[dict]:
@@ -317,7 +318,7 @@ def main() -> None:
     ap.add_argument("--listing")
     ap.add_argument("--kind", choices=["pdf", "excel"], help="only this kind of source file")
     ap.add_argument("--scanned", action="store_true", help="only files with scanned pages")
-    ap.add_argument("--vlm-ready", action="store_true", help="only scanned files whose every page the OCR model has read")
+    ap.add_argument("--vlm-ready", action="store_true", help="only scanned files whose every page an OCR model has read")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--no-ocr", action="store_true", help="skip scanned pages instead of running OCR")
     ap.add_argument("--workers", type=int, default=6)

@@ -6,11 +6,12 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=f301aa3130';
-import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=f301aa3130';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f301aa3130';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=f301aa3130';
-import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=f301aa3130';
+import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=69a57e683b';
+import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=69a57e683b';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=69a57e683b';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=69a57e683b';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=69a57e683b';
+import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=69a57e683b';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];
@@ -339,7 +340,6 @@ async function rates() {
 
 async function rateMap() {
   const meta = await loadIndex('suicide_rate');
-  const [geo, outline] = await Promise.all([getJSON('../geo/india-states.geojson'), getJSON('../geo/india-outline.geojson')]);
   const ri = meta.cats.indexOf('Rate');
   const states = meta.places.filter(p => p.type === 'state' || p.type === 'ut');
   const ys = [...new Set(states.flatMap(p => Object.keys(p.head[ri] || {}).map(Number)))].filter(y => states.filter(p => p.head[ri]?.[y] != null).length >= 15).sort((a, b) => a - b);
@@ -350,11 +350,12 @@ async function rateMap() {
       const y = ys[Math.round(pos)];
       const values = {};
       for (const p of states) { const v = at(p.head[ri], ys, pos); if (v != null) values[p.name] = v; }
+      const again = () => redraws.forEach(f => f()), geo = mapFor(y, again), outline = outlineMap(again);
+      if (!geo || !outline) return;
       choropleth(c.svg, { geo, outline, values, max: gmax, year: y, fmt: fmt1, hl: 'Tamil Nadu', label: 'Suicides per lakh people' });
-      c.set({ title: `Suicide rate by State and UT, ${y}`, sub: `suicides per lakh people · colour scale fixed across ${ys[0]}–${ys.at(-1)} · Tamil Nadu outlined` });
+      c.set({ title: `Suicide rate by State and UT, ${y}`, sub: `suicides per lakh people · colour scale fixed across ${ys[0]}–${ys.at(-1)} · Tamil Nadu outlined`, note: boundaryNote(y) });
     },
   });
-  c.set({ note: 'Boundaries: datameet (pre-2019 lines). Ladakh is drawn with Jammu & Kashmir; before 2014 Telangana is shaded with Andhra Pradesh, of which it was part.' });
 }
 
 /* ================================================================== boot */

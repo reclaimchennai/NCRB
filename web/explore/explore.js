@@ -7,11 +7,12 @@
  * subtotals are flagged, shown last and kept off the colour scales.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=f301aa3130';
-import { lineChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=f301aa3130';
-import { segmented, select, toggle, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f301aa3130';
-import { footerHtml, creditLine } from '../kit/footer.js?v=f301aa3130';
-import { explain, explainAll } from '../kit/legal.js?v=f301aa3130';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=69a57e683b';
+import { lineChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=69a57e683b';
+import { segmented, select, toggle, Timeline, at, card, bindCapture } from '../kit/cards.js?v=69a57e683b';
+import { footerHtml, creditLine } from '../kit/footer.js?v=69a57e683b';
+import { explain, explainAll } from '../kit/legal.js?v=69a57e683b';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=69a57e683b';
 
 const DATA = '../data/explore';
 const TYPE_LABEL = { total: 'India', state: 'States', ut: 'Union Territories', city: 'Cities', row: 'Rows' };
@@ -307,18 +308,17 @@ function drawRank(pos) {
   c.set({ title: `${measure()}, ${y}`, sub: `${who}${pool.length > limit ? `, largest ${limit}` : ''} · ${S.fam.title}` });
 }
 
-/* 3. map */
-let GEO = null;
+/* 3. map: the State boundaries of the year shown */
 function drawMap(pos) {
   const c = C.map;
   const st = rowsOfType(['state', 'ut']);
   if (!places() || st.length < 10) { c.el.hidden = true; return; }
   c.el.hidden = false;
-  if (!GEO) { GEO = Promise.all([getJSON('../geo/india-states.geojson'), getJSON('../geo/india-outline.geojson')]).then(g => { GEO = g; drawMap(tl.pos); }); return; }
-  if (GEO instanceof Promise) return;
   const ys = tl.years;
   if (!ys.length) return;
   const y = ys[Math.round(pos)];
+  const geo = mapFor(y, () => drawMap(tl.pos)), outline = outlineMap(() => drawMap(tl.pos));
+  if (!geo || !outline) return;
   const values = {};
   let gmax = 0;
   for (const r of st) {
@@ -328,8 +328,8 @@ function drawMap(pos) {
     for (const yy of ys) gmax = Math.max(gmax, s[yy] || 0);
   }
   const hl = ['state', 'ut'].includes(S.fam.rows[S.row]?.type) ? rowName(S.row) : null;
-  choropleth(c.svg, { geo: GEO[0], outline: GEO[1], values, max: gmax, year: y, fmt: fmtV, hl, label: measure() });
-  c.set({ title: `${measure()} by State and UT, ${y}`, sub: `${S.fam.title} · colour scale fixed across ${ys[0]}–${ys.at(-1)}`, note: 'Boundaries: datameet (pre-2019 lines; Ladakh drawn with Jammu & Kashmir; Telangana shaded with Andhra Pradesh before 2014).' });
+  choropleth(c.svg, { geo, outline, values, max: gmax, year: y, fmt: fmtV, hl, label: measure() });
+  c.set({ title: `${measure()} by State and UT, ${y}`, sub: `${S.fam.title} · colour scale fixed across ${ys[0]}–${ys.at(-1)}`, note: boundaryNote(y) });
 }
 
 /* 4. every category, every year (for the chosen breakdown) */

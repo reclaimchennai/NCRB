@@ -41,6 +41,16 @@ MODELS = {
 }
 DEFAULT_MODEL = "mlx-community/GLM-OCR-bf16"
 
+# Models run on a cloud GPU with vLLM (colab/ocr_pages.py); their output lands in the same page cache.
+# Same prompts as the model cards; the table comes back as OTSL or HTML, both parsed below.
+MODELS |= {
+    "XingChen-AGI/TeleOCR": ("output the table in OTSL format.", 8192),
+    "PaddlePaddle/PaddleOCR-VL-1.6": ("Table Recognition:", 8192),
+    "zai-org/GLM-OCR": ("Table Recognition:", 8192),
+}
+# every model whose cached reading of a file is weighed against the others by the totals check
+VLM_MODELS = [DEFAULT_MODEL, "XingChen-AGI/TeleOCR", "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
+
 
 @lru_cache(maxsize=2)
 def _load(model_id: str):
@@ -176,13 +186,18 @@ def _markdown_tables(text: str) -> list[Grid]:
     return out
 
 
-OTSL = re.compile(r"<(fcel|ecel|lcel|ucel|xcel|nl)>")
+OTSL = re.compile(r"<(fcel|ecel|lcel|ucel|xcel|nl|ched|rhed|srow)>")
+OTSL_SPAN = re.compile(r"<otsl>.*?(</otsl>|$)|<(?:fcel|ecel|ched|rhed|srow)>.*(?:<nl>|</otsl>)", re.S)
 
 
 def _otsl_tables(text: str) -> list[Grid]:
-    """OTSL (the token table format some document models emit) to grids."""
-    if "<fcel>" not in text and "<ecel>" not in text:
+    """OTSL (the token table format some document models emit) to grids.
+
+    Header tokens (<ched> column header, <rhed> row header, <srow> section row), which TeleOCR and
+    Docling-style models write, are filled cells like <fcel>."""
+    if not re.search(r"<(fcel|ecel|ched)>", text):
         return []
+    text = re.sub(r"</?otsl>|<loc_\d+>", "", text)
     rows: list[list[str]] = [[]]
     merged = []
     pos = 0
@@ -193,7 +208,7 @@ def _otsl_tables(text: str) -> list[Grid]:
         if kind == "nl":
             rows.append([])
             continue
-        rows[-1].append(content.strip() if kind == "fcel" else "")
+        rows[-1].append(content.strip() if kind in ("fcel", "ched", "rhed", "srow") else "")
         if kind in ("lcel", "xcel"):
             merged.append((len(rows) - 1, len(rows), len(rows[-1]) - 2, len(rows[-1])))
         elif kind == "ucel" and len(rows) > 1:
@@ -250,6 +265,7 @@ def parse_output(text: str) -> tuple[list[str], list[Grid]]:
     if not grids:
         grids = _otsl_tables(text) or _markdown_tables(text) or _text_table(text)
     outside = re.sub(r"<table.*?</table>", "\n", text, flags=re.S | re.I)
+    outside = OTSL_SPAN.sub("\n", outside)
     outside = re.sub(r"<[^>]+>", " ", outside)
     lines = [htmllib.unescape(re.sub(r"\s+", " ", ln)).strip() for ln in outside.splitlines()]
     lines = [ln for ln in lines if ln and not ln.startswith("|")]

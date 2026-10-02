@@ -76,14 +76,16 @@ def clean_city(name: str) -> str:
     return CITY_NAMES.get(n, n)
 
 
-def resolve(name: str, section: str, scanned: bool) -> tuple[str, str] | None:
-    """(standard name, type) for a printed row label, or None for rows that are not places."""
+def resolve(name: str, section: str, scanned: bool, year: int | None = None) -> tuple[str, str] | None:
+    """(standard name, type) for a printed row label, or None for rows that are not places. ``year`` (the table's)
+    tells Bombay State (to 1959) or Hyderabad State (to 1956) from the city."""
     from ncrb.entities import standardise
 
     raw = re.sub(r"^[\W\d]+[.,]?\s*", "", str(name or "")).strip()
+    raw = re.sub(r"\s*\[line \d+\]\s*$", "", raw, flags=re.I)
     if not raw or len(raw) < 2:
         return None
-    std, kind = standardise(raw)
+    std, kind = standardise(raw, None if re.search(r"cit", str(section or ""), re.I) else year)
     in_city = bool(re.search(r"cit", str(section or ""), re.I)) or bool(re.search(r"\bcity\b", raw, re.I))
     c = clean_city(raw)
     if kind == "total":

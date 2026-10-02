@@ -14,7 +14,7 @@
  *   clocks      two 12-hour dials, day (06-18) and night (18-06), one wedge per 3 hours
  */
 
-import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=f301aa3130';
+import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=69a57e683b';
 
 /* ------------------------------------------------------------------ utils */
 
@@ -595,7 +595,12 @@ function projector(geo, outline, w, h, pad = 8) {
   };
   cached = {
     w, h,
-    states: geo.features.map(f => ({ name: GEO_NAME[f.properties.NAME_1] || f.properties.NAME_1, d: path(f.geometry) })),
+    // era maps (web/geo/states-YYYY.geojson) carry `std` (the data's name) and `name` (as named then)
+    states: geo.features.map(f => {
+      const p = f.properties, era = p.std != null;
+      const name = era ? p.std : GEO_NAME[p.NAME_1] || p.NAME_1;
+      return { name, label: era ? p.name : name, era, d: path(f.geometry) };
+    }),
     outline: outline ? outline.features.map(f => path(f.geometry)).join('') : null,
   };
   projCache.set(geo, cached);
@@ -614,18 +619,21 @@ export function choropleth(el, { geo, outline = null, values, max, fmt = fmtN, u
   const legendW = narrow ? 0 : 150;
   const P = projector(geo, outline, w - legendW, h);
   if (P.outline) el.append(svg('path', { d: P.outline, fill: 'var(--heat-0)', stroke: 'var(--axis)', 'stroke-width': .8 }));
-  const val = name => {
-    if (values[name] != null) return values[name];
-    if (name === 'Telangana' && year != null && year < 2014) return values['Andhra Pradesh'];
-    if ((name === 'Dadra & Nagar Haveli' || name === 'Daman & Diu')) return values['Dadra & Nagar Haveli and Daman & Diu'];
+  const val = st => {
+    if (values[st.name] != null) return values[st.name];
+    if (st.era) return null;                       // an era map already has that year's States
+    if (st.name === 'Telangana' && year != null && year < 2014) return values['Andhra Pradesh'];
+    if ((st.name === 'Dadra & Nagar Haveli' || st.name === 'Daman & Diu')) return values['Dadra & Nagar Haveli and Daman & Diu'];
     return null;
   };
   for (const st of P.states) {
-    const v = val(st.name);
+    const v = val(st);
     const fill = v == null ? 'var(--heat-0)' : `var(--heat-${heatStep(v, max)})`;
     const p = svg('path', { d: st.d, fill, stroke: 'var(--surface)', 'stroke-width': .7, 'stroke-linejoin': 'round' });
     el.append(p);
-    hover(p, () => `<div class="t">${esc(st.name)}${st.name === 'Telangana' && year < 2014 ? ' (part of Andhra Pradesh)' : ''}</div><dl><dt>${esc(label)}</dt><dd>${v == null ? 'not printed' : fmt(v) + unit}</dd></dl>`);
+    const then = st.era && st.label !== st.name && !/&|and/.test(st.label + st.name) ? ` (now ${st.name})` : '';
+    const ap = !st.era && st.name === 'Telangana' && year < 2014 ? ' (part of Andhra Pradesh)' : '';
+    hover(p, () => `<div class="t">${esc(st.label)}${esc(then)}${ap}${year ? `, ${year}` : ''}</div><dl><dt>${esc(label)}</dt><dd>${v == null ? 'not printed' : fmt(v) + unit}</dd></dl>`);
   }
   if (hl) {
     const st = P.states.find(s => s.name === hl);

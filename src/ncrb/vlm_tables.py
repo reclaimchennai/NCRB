@@ -185,6 +185,26 @@ def page_segments(text: str, page_no: int) -> list[PageTable]:
     return out
 
 
+def tables_from_texts(texts: dict[int, str]) -> list[Table]:
+    """Tables from cached model output alone ({page number: text}); no PDF needed, so it also runs on Colab."""
+    segs: list[PageTable] = []
+    for p in sorted(texts):
+        segs.extend(page_segments(texts[p], p))
+    return [t for t in assemble(segs) if t.rows and t.columns]
+
+
+def score_tables(tables: list[Table]) -> tuple[int, int, int]:
+    """(totals matched, totals checked, score): a failed total costs twice what a matched one earns."""
+    from .assemble import check_totals
+
+    passed = total = 0
+    for t in tables:
+        c = check_totals(t)
+        passed += c["cells_passed"]
+        total += c["cells_checked"]
+    return passed, total, passed - 2 * (total - passed)
+
+
 def vlm_tables(path: Path, model_id: str, run_model: bool = True) -> tuple[list[Table], dict]:
     """Tables of a scanned PDF read by the VLM, and how many pages were read / missing."""
     doc = fitz.open(path)

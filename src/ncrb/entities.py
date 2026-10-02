@@ -63,7 +63,32 @@ ALIASES = {
     "LACCADIVE MINICOY AND AMINDIVI ISLANDS": "Lakshadweep",
     "MYSORE": "Karnataka",
     "MADRAS": "Tamil Nadu",
+    # OCR forms of the old scans
+    "TAMIL MADU": "Tamil Nadu", "TAMIL NADN": "Tamil Nadu", "TAMIL NEDU": "Tamil Nadu", "TAMILNEDU": "Tamil Nadu", "TAMIL NADU T": "Tamil Nadu",
+    "W BENGAL": "West Bengal", "M PRADESH": "Madhya Pradesh", "U PRADESH": "Uttar Pradesh", "H PRADESH": "Himachal Pradesh",
+    "A PRADESH": "Andhra Pradesh", "EAST PUNJAB": "Punjab",
+    # names of the 1950s-70s that continue as one of today's (same territory, renamed)
+    "LACCADIVES": "Lakshadweep", "LACCADIVE MINICOY AMINDIVI ISLANDS": "Lakshadweep", "L M A ISLANDS": "Lakshadweep",
+    "L M AND A ISLANDS": "Lakshadweep", "LM AND A ISLANDS": "Lakshadweep", "LMA ISLANDS": "Lakshadweep",
+    "NAGA HILLS": "Nagaland", "NAGA HILLS TUENSANG AREA": "Nagaland", "NAGA HILLS TUENSANG": "Nagaland",
+    # States that were split or merged away: kept under their own names, never folded into a successor
+    "MADHYA BHARAT": "Madhya Bharat", "PEPSU": "PEPSU", "P E P S U": "PEPSU", "PATIALA AND EAST PUNJAB STATES UNION": "PEPSU",
+    "PATIALA EAST PUNJAB STATES UNION": "PEPSU", "SAURASHTRA": "Saurashtra", "TRAVANCORE COCHIN": "Travancore-Cochin",
+    "TRAVANCORE AND COCHIN": "Travancore-Cochin", "VINDHYA PRADESH": "Vindhya Pradesh", "COORG": "Coorg", "KUTCH": "Kutch",
+    "BOMBAY STATE": "Bombay State", "HYDERABAD STATE": "Hyderabad State", "BHOPAL STATE": "Bhopal State", "AJMER STATE": "Ajmer State",
+    "BILASPUR STATE": "Bilaspur State", "ANDHRA STATE": "Andhra State", "NEFA": "NEFA", "N E F A": "NEFA",
+    "NORTH EAST FRONTIER AGENCY": "NEFA", "NORTH EAST FRONTIER TRACT": "NEFA",
+    "GOA DAMAN DIU": "Goa, Daman & Diu", "GOA DAMAN AND DIU": "Goa, Daman & Diu",
 }
+# States and UTs of the past, with their kind
+HISTORIC = {
+    "Bombay State": "state", "Hyderabad State": "state", "Madhya Bharat": "state", "PEPSU": "state", "Saurashtra": "state",
+    "Travancore-Cochin": "state", "Vindhya Pradesh": "state", "Bhopal State": "state", "Ajmer State": "state", "Coorg": "state",
+    "Kutch": "state", "Bilaspur State": "state", "Andhra State": "state", "NEFA": "ut", "Goa, Daman & Diu": "ut",
+}
+# printed names that were a State until a year and a city (or today's State's name) after it: only the table's year can tell
+BY_YEAR = {"BOMBAY": (1959, "Bombay State"), "HYDERABAD": (1956, "Hyderabad State"), "BHOPAL": (1956, "Bhopal State"),
+           "AJMER": (1956, "Ajmer State"), "BILASPUR": (1954, "Bilaspur State"), "ANDHRA": (1956, "Andhra State")}
 for _n in STATES + UTS:
     ALIASES.setdefault(re.sub(r"[^A-Z0-9]+", " ", _n.upper().replace("&", " ")).strip(), _n)
 
@@ -78,16 +103,23 @@ TOTALS = [
 def key(label: str) -> str:
     s = label.upper().replace("&", " ")
     s = re.sub(r"\(.*?\)", " ", s) if not re.search(r"TOTAL", s) else s
+    s = re.sub(r"\[LINE \d+\]", " ", s)                    # '[line 2]' left by a wrapped OCR row label
     s = re.sub(r"[@#*$+^]+", " ", s)
     return re.sub(r"[^A-Z0-9]+", " ", s).strip()
 
 
-def standardise(label: str) -> tuple[str, str]:
+def kind_of(name: str) -> str:
+    return "state" if name in STATES else HISTORIC.get(name, "ut")
+
+
+def standardise(label: str, year: int | None = None) -> tuple[str, str]:
     """(standard name, entity type) for a printed row label.
 
     Entity type is one of ``state``, ``ut``, ``total`` or ``other``. Labels that
     are not a recognised State/UT or total row (cities, crime heads, years...)
-    are returned cleaned but otherwise unchanged with type ``other``.
+    are returned cleaned but otherwise unchanged with type ``other``. ``year``
+    (the table's year) settles names that were a State only until then
+    (Bombay to 1959, Hyderabad, Bhopal, Ajmer and Andhra to 1956).
     """
     raw = re.sub(r"\s+", " ", label).strip()
     up = raw.upper()
@@ -97,7 +129,10 @@ def standardise(label: str) -> tuple[str, str]:
     if re.match(r"^\s*(SUB[\s-]*)?TOTAL\b", up):
         return raw, "total"
     k = key(raw)
+    if year and k in BY_YEAR and year <= BY_YEAR[k][0]:
+        name = BY_YEAR[k][1]
+        return name, kind_of(name)
     name = ALIASES.get(k)
     if name:
-        return name, "state" if name in STATES else "ut"
+        return name, kind_of(name)
     return raw, "other"

@@ -24,7 +24,7 @@ Counts and quality for every publication and year: [docs/COVERAGE.md](docs/COVER
 - [How the data was collected and extracted](#how-the-data-was-collected-and-extracted)
 - [Using the data](#using-the-data)
 - [Rebuilding everything](#rebuilding-everything)
-- [Explore: every recurring table](#explore-every-recurring-table-year-by-year)
+- [Explore: every recurring table](#explore-every-recurring-table-year-by-year) · [long series since 1953](#long-series-since-1953) · [boundaries as they were](#boundaries-as-they-were) · [cloud OCR](colab/README.md)
 - [Trends dashboard and the Chennai report](#trends-dashboard-and-the-chennai-report)
 - [Documentation](#documentation) · [Source and terms](#source-and-terms)
 
@@ -236,6 +236,43 @@ How tables are joined, and why gaps remain:
   (about 410 Crime in India tables stop at 2013; 170 now run across the 2014 redesign), some editions print a
   category in one year only, and scanned pages whose figures do not add up
   to their own totals are left out instead of guessed.
+
+### Long series since 1953
+
+The core Crime in India figures, cases registered under each main IPC crime
+head (murder, dacoity, robbery, burglary, theft, riots, kidnapping, cheating,
+rape, dowry deaths ... and total IPC crime) for every State, UT and big city,
+were printed in every edition but in tables of a different shape in each era.
+[analysis/longseries.py](analysis/longseries.py) collects every printed figure
+for a place, head and year from whichever table holds it, including the
+previous-year columns comparative tables reprint, and keeps the best-supported
+reading:
+
+- a text-layer figure (2001 on) is taken as printed;
+- before that, a figure printed alike in two or more tables wins;
+- otherwise the reading that makes the most consistent series is chosen
+  (a table's first column preferred, as it is the cases column), and it is
+  kept only if it is within a factor of 2 of its neighbouring years.
+
+Every figure's source table and how it was chosen is in
+`web/data/explore/cii/long-series-provenance.csv`. The scanned decades
+(1970s–1990s especially) still have gaps where Tesseract garbled the
+headings; the cloud OCR run in [colab/](colab/README.md) is meant to close them.
+
+### Boundaries as they were
+
+Maps draw the States and UTs of the year shown: 22 boundary eras from 1951
+(Part A/B/C States) through the 1956 reorganisation, Maharashtra and Gujarat
+(1960), Punjab and Haryana (1966), the North-East (1972), Sikkim (1975), the
+2000 States, Telangana (2014), Ladakh (2019) and the 2020 merger of Dadra &
+Nagar Haveli with Daman & Diu, built from 2011 census districts
+([web/geo/README.md](web/geo/README.md) lists every approximation). Renamed
+States continue under today's name (Madras is Tamil Nadu, Mysore is
+Karnataka); States that were split or merged away keep their own (Bombay
+State to 1959, Hyderabad State, PEPSU, Travancore-Cochin, Madhya Bharat,
+Saurashtra ...), so no modern State's series silently includes another's
+territory. Madras State still included Malabar until 1956 and the Andhra
+districts until 1953, so Tamil Nadu's figures for 1953–1956 cover more ground.
 
 ## Trends dashboard and the Chennai report
 
