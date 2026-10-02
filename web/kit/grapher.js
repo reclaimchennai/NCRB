@@ -14,7 +14,7 @@
  *   clocks      two 12-hour dials, day (06-18) and night (18-06), one wedge per 3 hours
  */
 
-import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=fff293a896';
+import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=f301aa3130';
 
 /* ------------------------------------------------------------------ utils */
 
@@ -136,9 +136,13 @@ export function lineChart(el, { xs, series, pos = null, fmt = fmtN, yFmt = fmtSh
   if (!all.length) return emptyChart(el);
   const h = height || (narrow ? 280 : 340);
   const labelW = Math.min(w * (narrow ? .34 : .26), Math.max(60, ...series.map(s2 => measure(el, s2.label, 'end-label'))) + 4);
-  const m = { top: 18, right: labelW + 10, bottom: 28, left: 46 };
-  frame(el, w, h);
   const lo = zeroBase ? 0 : Math.min(...all), hi = Math.max(...all) * 1.06 || 1;
+  // the left margin fits the widest tick label, so large numbers are never cut off
+  const tickW = Math.max(...ticks(lo, hi, 5).map(t => measure(el, yFmt(t), 'tick')), 20);
+  const m = { top: unit ? 30 : 18, right: labelW + 10, bottom: 28, left: Math.ceil(tickW + 14) };
+  frame(el, w, h);
+  // what the y axis counts, above it ('persons', '% of total', 'per lakh population')
+  if (unit) el.append(svg('text', { x: 2, y: 11, class: 'tick axis-unit', 'text-anchor': 'start' }, unit));
   const x = scaleLinear([xs[0], xs[xs.length - 1]], [m.left, w - m.right]);
   const y = scaleLinear([lo, hi], [h - m.bottom, m.top]);
   for (const t of ticks(lo, hi, 5)) {
@@ -310,7 +314,7 @@ export function stackRows(el, { rows, parts, mode = 'share', fmt = fmtN, rowH: r
  * rows: category labels; cols: years; get(r, c) -> {v, p} (p = share of the
  * column total, %) or null. hlCol: index of the year to outline.
  */
-export function heatmap(el, { rows, cols, get, max, rowMax = null, hlCol = null, fmt = fmtN, showPct = true, colLabel = String, onCol = null }) {
+export function heatmap(el, { rows, cols, get, max, rowMax = null, totalRows = null, hlCol = null, fmt = fmtN, showPct = true, colLabel = String, onCol = null }) {
   const { w, narrow, tight } = size(el);
   if (!rows.length || !cols.length) return emptyChart(el);
   frame(el, w, 10);
@@ -333,8 +337,10 @@ export function heatmap(el, { rows, cols, get, max, rowMax = null, hlCol = null,
     cols.forEach((c, j) => {
       const cell = get(i, j);
       const x0 = m.left + j * cellW;
-      const step = heatStep(cell?.v, rowMax ? rowMax[i] : max);
-      const fill = `var(--heat-${step})`;
+      // totals are shown but kept off the colour scale, which they would otherwise flatten
+      const isTot = totalRows?.has(i);
+      const step = isTot ? 0 : heatStep(cell?.v, rowMax ? rowMax[i] : max);
+      const fill = isTot ? (cell?.v != null ? 'var(--surface-3)' : 'var(--heat-0)') : `var(--heat-${step})`;
       const rect = svg('rect', { x: x0 + 1, y: y0 + 1, width: cellW - 2, height: cellH - 2, rx: 3, fill });
       el.append(rect);
       if (cell && cell.v != null) {
@@ -345,6 +351,10 @@ export function heatmap(el, { rows, cols, get, max, rowMax = null, hlCol = null,
       }
     });
   });
+  if (totalRows?.size) {
+    const first = Math.min(...totalRows);
+    el.append(svg('line', { x1: 6, x2: m.left + cols.length * cellW, y1: m.top + first * cellH - .5, y2: m.top + first * cellH - .5, stroke: 'var(--axis)', 'stroke-width': 1, 'stroke-dasharray': '3 3' }));
+  }
   if (hlCol != null) {
     el.append(svg('rect', { x: m.left + hlCol * cellW + .5, y: m.top - 2, width: cellW - 1, height: rows.length * cellH + 3, rx: 4, fill: 'none', stroke: 'var(--ink)', 'stroke-width': 1.6 }));
   }

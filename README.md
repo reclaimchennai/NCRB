@@ -202,13 +202,40 @@ narrow `download` and `extract`.
 
 **<https://ncrb.reclaimchennai.city/explore/>** follows every table that
 Crime in India, ADSI and Prison Statistics printed in three or more editions
-(1,059 tables: 841 Crime in India, 66 ADSI, 152 Prison Statistics) across the
-years, even where NCRB reworded the title. Pick a report, a topic, a table, a
-column and a State, UT, city or row: a trend line, a ranking and an India map
-that play through the years, and a heatmap of every column in every year.
+(1,157 tables: 891 Crime in India, 101 ADSI, 165 Prison Statistics) across the years, even where NCRB reworded the title. Pick a
+report, a topic, a table, a category, a breakdown (all / male / female / ...)
+and a State, UT, city or row: a trend line, a ranking and an India map that
+play through the years, and a heatmap of every category in every year. Every
+chart title and snapshot names the category, breakdown and place shown.
 District-wise tables are left out (they are on the Tables page). Built by
 `python -m analysis.families` into `web/data/explore/` (not in git; deployed
 with the site and in the data release).
+
+How tables are joined, and why gaps remain:
+
+- **Topics** come from [analysis/taxonomy.py](analysis/taxonomy.py): one list of
+  topics per report, matched on the table title first and NCRB's chapter
+  second. Geography (States/UTs, cities, all India) is a separate property, so
+  "Cyber Crimes (States/UTs)" and "Cyber Crimes (Metropolitan Cities)" are one
+  topic. Titles lose numbering, years, "(Contd.)", Roman-numeral part labels and
+  any running text a chapter PDF carried along.
+- **Columns** are split into a category and a breakdown (Total / Male /
+  Female / Transgender / Boys / Girls). Categories that cite a section are
+  matched by section number, so "Sec. 66" stays one series when its wording
+  changes. Totals and subtotals are flagged, listed last and kept off the
+  heatmap colour scale. Legal sections and Acts get a plain-language note
+  ([web/kit/legal.js](web/kit/legal.js)).
+- **Editions** are joined by title words and shared categories. A second pass
+  bridges NCRB's 2014 redesign (most Crime in India tables were renamed), and
+  one-off titles are attached to the family whose columns they share.
+  Figures that later editions reprint for earlier years (the "2014 | 2015 |
+  2016" columns) fill years whose own edition has no matching table.
+- Tables printed only in the year-wise or chapter PDFs are kept; reprints of an
+  individual table are dropped.
+- **Gaps that remain are real:** NCRB dropped, split or merged many tables
+  (about 410 Crime in India tables stop at 2013; 170 now run across the 2014 redesign), some editions print a
+  category in one year only, and scanned pages whose figures do not add up
+  to their own totals are left out instead of guessed.
 
 ## Trends dashboard and the Chennai report
 

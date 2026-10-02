@@ -7,10 +7,10 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=fff293a896';
-import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=fff293a896';
-import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=fff293a896';
-import { footerHtml, creditLine } from '../kit/footer.js?v=fff293a896';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=f301aa3130';
+import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=f301aa3130';
+import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f301aa3130';
+import { footerHtml, creditLine } from '../kit/footer.js?v=f301aa3130';
 
 const DATA = '../data/trends';
 const GROUPS = [
@@ -502,7 +502,7 @@ function drawHeat() {
   });
   c.set({ title: `${S.meta.title} in ${placeName()}, every year`, sub: `each cell: the number, and its share of that year's total${selectionText() ? ` · ${selectionText()}` : ''}` });
   c.setLegend([{ label: 'fewer', color: 'var(--heat-1)' }, { label: 'more', color: 'var(--heat-7)' }]);
-  c.set({ note: 'Darker red is a larger number. Click a year to move the timeline there.' });
+  c.set({ note: 'Stronger red is a larger number (darker on a light page, brighter on a dark one). Click a year to move the timeline there.' });
 }
 tl.on((pos, settled) => { if (settled) drawHeat(); });
 
