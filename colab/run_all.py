@@ -100,13 +100,15 @@ class Job:
         man = b / "manifest.json"
         if not man.exists():
             urllib.request.urlretrieve(f"{REL}/manifest.json", man)
-        parts = json.loads(man.read_text())["parts"]
-        for part in parts:
-            if (b / f"{part}.done").exists():
-                continue
-            self.save(phase="download", part=part)
-            subprocess.run(f"curl -sSfL --retry 5 {REL}/{part} | tar -x -C {b}", shell=True, check=True)
-            (b / f"{part}.done").touch()
+        parts = [x for x in json.loads(man.read_text())["parts"] if not (b / f"{x}.done").exists()]
+        if parts:
+            self.save(phase="download", part=", ".join(parts))
+            # the three archives in parallel: GitHub serves one stream slowly (6 MB/s) but several together faster
+            procs = [(x, subprocess.Popen(f"curl -sSfL --retry 5 {REL}/{x} | tar -x -C {b}", shell=True)) for x in parts]
+            for x, pr in procs:
+                if pr.wait() != 0:
+                    raise RuntimeError(f"download of {x} failed")
+                (b / f"{x}.done").touch()
         self.files = json.loads(man.read_text())["files"]
 
     # ------------------------------------------------------------- runs
