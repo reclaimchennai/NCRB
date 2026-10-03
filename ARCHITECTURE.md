@@ -31,6 +31,8 @@ raw/ PDFs + Excel (8 GB, laptop / GitHub release)
   -> python -m ncrb.build     data/combined/*.parquet, series          (laptop)
   -> python -m ncrb.webdata   data/web/ncrb.duckdb (~1 GB, read-only)  (laptop)
   -> ./deploy.sh              rsync to raw, restart ncrb.service
+     (scripts/ship.sh: the same without rsync, in retried chunks, for flaky links;
+      --code / --db for one half)
 browser -> Caddy -> uvicorn: api/main.py (FastAPI over DuckDB) + web/ (static, served by the same app)
 ```
 
