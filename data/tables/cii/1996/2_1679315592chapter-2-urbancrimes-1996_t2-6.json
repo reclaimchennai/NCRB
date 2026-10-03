@@ -6,63 +6,56 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "Incidence of cases under SLL during 1995 & 1996",
+ "title": "N.C.R.B. (M.H.A.) CRIME IN INDIA · 1996 Table-2.6",
  "listing_title": "Urban Crimes",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1679315592CHAPTER-2-URBANCRIMES-1996.pdf",
  "source_file": "raw/cii/1996/table_chapter/1679315592CHAPTER-2-URBANCRIMES-1996.pdf",
  "source_sha256": "0d60cd0cb2bd2d9d19ab140ab3331db9ecfda3f23f1f6b6fd7f5834d85d44136",
  "table_no": "2.6",
- "pdf_title": "Incidence of cases under SLL during 1995 & 1996",
- "row_label": "Sl. Crime Head No. qd) / Incidence 1995",
+ "pdf_title": "N.C.R.B. (M.H.A.) CRIME IN INDIA · 1996 Table-2.6",
+ "row_label": "Incidence",
  "pages": [
+  11,
   11
  ],
- "n_rows": 23,
- "n_cols": 3,
- "n_cells": 68,
+ "n_rows": 24,
+ "n_cols": 4,
+ "n_cells": 92,
  "columns": [
   {
    "col_no": "4",
-   "name": "Percentage | share 1996",
+   "name": "Incidence",
    "header": [
-    "Percentage",
-    "share 1996"
+    "Incidence"
    ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "Percentage | 1996",
-   "header": [
-    "Percentage",
-    "1996"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "Percentage | Percentage variaticn in 1996 over",
-   "header": [
-    "Percentage",
-    "Percentage variaticn in 1996 over"
-   ]
+   "name": "col_6",
+   "header": []
   }
  ],
- "notes": [
-  "2.8.3 It is seen that 95.1 per cent of all cases registered in the cities were categorised under ‘Other SLL",
-  "Crimes’, comparatively this per cent at national level was lower at 76.9 per cent, signifying higher registration",
-  "of cases under Local Laws of the State than under Special Laws under study.",
-  "2.8.4 The crime head-wise share of each crime under SLL in the urban centres to the reporting of these",
-  "crimes at national level is given below:"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

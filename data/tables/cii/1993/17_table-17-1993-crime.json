@@ -8,77 +8,100 @@
  "serial": "17",
  "title": "Disposal of L&SL Crime Cases by Police During 1993 (State & UT-Wise)",
  "listing_title": "Disposal of L&SL Crime Cases by Police During 1993 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-17-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-17-1993-crime.pdf",
  "source_sha256": "7c9fadafe0b20058b2ee43adb4c0b6b9aba6a6cd9f475962ffda34ad752d83df",
- "table_no": "17",
- "pdf_title": "DISPOSAL OF L&SL CRIME CASES BY POLICE DURING 1993",
- "row_label": "",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
- "n_cols": 8,
- "n_cells": 268,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
+   "header": [
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
+   ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) (5)",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKES OF FACT OR LAW ETC.",
    "header": [
-    "(STATE & UT-WISE)"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/MISTAKES OF FACT OR LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) (6)",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "(STATE & UT-WISE)"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERE LAID"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL (15)+(17)",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL (15)+(17)"
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "NO. OF CASES PENDING INVESTIGATION",
+   "header": [
+    "NO. OF CASES PENDING INVESTIGATION"
+   ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "PENDE NICY PERCENTAGE",
+   "header": [
+    "PENDE NICY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PERCENTAGE OF PENDING NICY TO ALL INDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDING NICY TO ALL INDIA TOTAL"
+   ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 17,
-  "cells_passed": 13,
+  "cells_checked": 21,
+  "cells_passed": 20,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 4.01155e+06, sum 4.01115e+06",
-   "col 3 'TOTAL (UTs)': printed 56633, sum 56666",
-   "col 6 'TOTAL (STATES)': printed 46534, sum 45885",
-   "col 7 'TOTAL (UTs)': printed 49748, sum 49753"
+   "col 7 'TOTAL (UTS)': printed 49748, sum 49753"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

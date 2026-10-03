@@ -8,89 +8,154 @@
  "serial": "71",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1993 (State, UT & City-Wise) Burglary",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1993 (State, UT & City-Wise) Burglary",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-71-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-71-1993-crime.pdf",
  "source_sha256": "a4c85f80ac2db68eb75fcec4cde65f0bc12e3ab4cf11d70bf1c6d1442a2b8028",
  "table_no": "71",
- "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN 8Y PLACE OF OCCURRENCE DURING (STATE. UT & CITY-WISE)",
- "row_label": "Ge Hise / Ge STATEIUT oe ee",
+ "pdf_title": "301 TABLE-71 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING (STATE, UT & CITY-WISE)",
+ "row_label": "BL NO / STATE/UT",
  "pages": [
   1,
-  2
+  2,
+  3,
+  4
  ],
- "n_rows": 58,
- "n_cols": 8,
- "n_cells": 398,
+ "n_rows": 116,
+ "n_cols": 15,
+ "n_cells": 870,
  "columns": [
   {
    "col_no": "3",
-   "name": "Ge | aul 6",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "Ge",
-    "aul 6"
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "Ge | REBIDENTIAL (Bao PREMISES",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "Ge",
-    "REBIDENTIAL (Bao PREMISES"
+    "RESIDENTIAL PREMISES",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "BURGLARY oe RMS",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "BURGLARY oe RMS"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "HIGHWAYS | VALUE",
+   "header": [
+    "HIGHWAYS",
+    "VALUE"
+   ]
   },
   {
    "col_no": "7",
-   "name": "Ce",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "Ce"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "Ce | SS",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "Ce",
-    "SS"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "RAILWAYS | NUMBER",
+   "header": [
+    "RAILWAYS",
+    "NUMBER"
+   ]
   },
   {
    "col_no": "10",
-   "name": "om fy",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "om fy"
+    "RAILWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BANKS | VALUE",
+   "header": [
+    "BANKS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
- "notes": [
-  "oo"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 4,
+  "cells_passed": 4,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

@@ -8,133 +8,110 @@
  "serial": "33",
  "title": "Juvenile Delinquency for Important Heads of Local & Special Laws During 1986",
  "listing_title": "Juvenile Delinquency for Important Heads of Local & Special Laws During 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl34-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl34-1986.pdf",
  "source_sha256": "4087b3b32b01d5211691e93e9db7c85b35ac945cd377deb8f9af2dbb958c4e6e",
  "table_no": "34",
- "pdf_title": "(Cantinued \\",
- "row_label": "SI. No. / Junevile States/U.Ts./Cities",
+ "pdf_title": "72 TABLE 34 Juneville Delinquency Under Important Heads Of Local And Special Laws During 1986",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
  "pages": [
   1,
   2,
   3
  ],
  "n_rows": 93,
- "n_cols": 13,
- "n_cells": 585,
+ "n_cols": 9,
+ "n_cells": 604,
  "columns": [
   {
    "col_no": "3",
-   "name": "Under i-::;---2=::: Heads Of Local And Special Laws During 1986 | Cases",
+   "name": "Cases reported under Local & Special Laws against Juveniles | Arms Act",
    "header": [
-    "Under i-::;---2=::: Heads Of Local And Special Laws During 1986",
-    "Cases"
+    "Cases reported under Local & Special Laws against Juveniles",
+    "Arms Act"
    ]
   },
   {
    "col_no": "4",
-   "name": "Under i-::;---2=::: Heads Of Local And Special Laws During 1986 | Local & Snecial I - A Drugs &",
+   "name": "Cases reported under Local & Special Laws against Juveniles | Narcotic Drugs & Psychotropic Substances Act",
    "header": [
-    "Under i-::;---2=::: Heads Of Local And Special Laws During 1986",
-    "Local & Snecial I - A Drugs &"
+    "Cases reported under Local & Special Laws against Juveniles",
+    "Narcotic Drugs & Psychotropic Substances Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "Inveniles",
+   "name": "Cases reported under Local & Special Laws against Juveniles | Gambling Act",
    "header": [
-    "Inveniles"
+    "Cases reported under Local & Special Laws against Juveniles",
+    "Gambling Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
-  },
-  {
-   "col_no": "7",
-   "name": "under Local and Snecial Laws against juvenile | Aet -",
+   "name": "Cases reported under Local & Special Laws against Juveniles | Excise Act",
    "header": [
-    "under Local and Snecial Laws against juvenile",
-    "Aet -"
+    "Cases reported under Local & Special Laws against Juveniles",
+    "Excise Act"
    ]
   },
   {
-   "col_no": "8",
-   "name": "under Local and Snecial Laws against juvenile | -",
+   "col_no": "2",
+   "name": "Cases reported under Local And Special Laws against Juveniles. | Prevention of corruption Act",
    "header": [
-    "under Local and Snecial Laws against juvenile",
-    "-"
+    "Cases reported under Local And Special Laws against Juveniles.",
+    "Prevention of corruption Act"
    ]
   },
   {
-   "col_no": "9",
-   "name": "Immoral Traffic Act",
+   "col_no": "10001",
+   "name": "Cases reported under Local And Special Laws against Juveniles. | Customs Act",
    "header": [
-    "Immoral Traffic Act"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Motor Vehicles Act",
-   "header": [
-    "Motor Vehicles Act"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Cases reported under Local And Special Laws against Juveniles. - | Act",
-   "header": [
-    "Cases reported under Local And Special Laws against Juveniles. -",
-    "Act"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Cases reported under Local And Special Laws against Juveniles. - | Customs Act",
-   "header": [
-    "Cases reported under Local And Special Laws against Juveniles. -",
+    "Cases reported under Local And Special Laws against Juveniles.",
     "Customs Act"
    ]
   },
   {
-   "col_no": "13",
-   "name": "Cases reported under Local And Special Laws against Juveniles. - | Indian Railways Act",
+   "col_no": "10002",
+   "name": "Cases reported under Local And Special Laws against Juveniles. | Indian Railways Act",
    "header": [
-    "Cases reported under Local And Special Laws against Juveniles. -",
+    "Cases reported under Local And Special Laws against Juveniles.",
     "Indian Railways Act"
    ]
   },
   {
-   "col_no": "14",
-   "name": "Cases reported under Local And Special Laws against Juveniles. - | Other Offences",
+   "col_no": "10003",
+   "name": "Cases reported under Local And Special Laws against Juveniles. | Other Offences",
    "header": [
-    "Cases reported under Local And Special Laws against Juveniles. -",
+    "Cases reported under Local And Special Laws against Juveniles.",
     "Other Offences"
    ]
   },
   {
-   "col_no": "15",
-   "name": "Cases reported under Local And Special Laws against Juveniles. - | Total",
+   "col_no": "10004",
+   "name": "Cases reported under Local And Special Laws against Juveniles. | Total",
    "header": [
-    "Cases reported under Local And Special Laws against Juveniles. -",
+    "Cases reported under Local And Special Laws against Juveniles.",
     "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 1,
+  "cells_checked": 32,
+  "cells_passed": 26,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 735, sum 631",
-   "col 7 'TOTAL (STATES)': printed 15387, sum 6331",
-   "col 10 'TOTAL (STATES)': printed 8868, sum 351"
+   "col 3 'TOTAL(STATES)': printed 15387, sum 15394",
+   "col 4 'TOTAL(STATES)': printed 37, sum 45",
+   "col 5 'TOTAL(STATES)': printed 1071, sum 1080",
+   "col 6 'TOTAL(STATES)': printed 8868, sum 8878",
+   "col 10003 'TOTAL(U. Ts.)': printed 1194, sum 259",
+   "col 10004 'TOTAL(U. Ts.)': printed 2659, sum 1633"
   ],
-  "other_totals_checked": 3,
-  "other_totals_passed": 0
+  "other_totals_checked": 11,
+  "other_totals_passed": 7
  },
  "inferred_pages": 0,
  "ocr_pages": 3,

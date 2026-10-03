@@ -6,61 +6,85 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "Disposal Of Cases Under Local And Special Laws By Courts During 1986",
+ "title": "46 TABLE 17 Disposal Of Cases Under Local And Special Laws By Courts During 1986",
  "listing_title": "Disposal of Crimes",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-2-1986.pdf",
  "source_file": "raw/cii/1986/table_chapter/chapter-2-1986.pdf",
  "source_sha256": "fc39a525799cbeffe920abb336ac08392667e7a5bf2d7ecfcebdc8bd632bf346",
  "table_no": "17",
- "pdf_title": "Disposal Of Cases Under Local And Special Laws By Courts During 1986",
+ "pdf_title": "46 TABLE 17 Disposal Of Cases Under Local And Special Laws By Courts During 1986",
  "row_label": "Sl. No. / Heads of Crime",
  "pages": [
+  9,
   9
  ],
- "n_rows": 13,
- "n_cols": 5,
- "n_cells": 65,
+ "n_rows": 14,
+ "n_cols": 9,
+ "n_cells": 117,
  "columns": [
   {
    "col_no": "3",
-   "name": "Cases | Total casesfor trial during the year",
+   "name": "Total cases for trial during the year",
    "header": [
-    "Cases",
-    "Total casesfor trial during the year"
+    "Total cases for trial during the year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases | Of",
+   "name": "Cases compounded or withdrawn",
    "header": [
-    "Cases",
-    "Of"
+    "Cases compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases | Cases in which trials Were commetea",
+   "name": "Cases in which trials were completed",
    "header": [
-    "Cases",
-    "Cases in which trials Were commetea"
+    "Cases in which trials were completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases | convicted",
+   "name": "Cases convicted",
    "header": [
-    "Cases",
-    "convicted"
+    "Cases convicted"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases | Cases Pending trail at the end of the year",
+   "name": "Cases Pending trail at the end of the year",
    "header": [
-    "Cases",
     "Cases Pending trail at the end of the year"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Percentage of cases compounded or withdrawn to total cases for trial during the year",
+   "header": [
+    "Percentage of cases compounded or withdrawn to total cases for trial during the year"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Percentage of cases in which trials were completed to total cases for trial during the year",
+   "header": [
+    "Percentage of cases in which trials were completed to total cases for trial during the year"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Percentage of cases pending trial at the end of the year to total cases for trial",
+   "header": [
+    "Percentage of cases pending trial at the end of the year to total cases for trial"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Percentage of cases convicted to cases in which trials were completed",
+   "header": [
+    "Percentage of cases convicted to cases in which trials were completed"
    ]
   }
  ],
@@ -69,10 +93,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

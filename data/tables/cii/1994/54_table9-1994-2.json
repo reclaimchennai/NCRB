@@ -8,130 +8,193 @@
  "serial": "54",
  "title": "City-Wise Incidence of Cognizable Crimes (IPC) During 1994",
  "listing_title": "City-Wise Incidence of Cognizable Crimes (IPC) During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table9-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table9-1994_2.pdf",
  "source_sha256": "a91f2483341d8a53252d8524ece83dc4241d1cee2552eb6ec9947e2bdc73aff0",
  "table_no": "9",
- "pdf_title": "CITY-WISE INCIDENCE OF COGNIZABLE CRIMES(IPC) DURING 1994",
- "row_label": "SL. NO. / STATE/CITY / MURDER / ATTEMPT TO pa / AMOUNT- / RAPE / KIDNAPPING & ABDUCTION TOTAL / KIDNAPPING & ABDUCTION OF WOMEN & GIRLS / OF OTHERS",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-9",
+ "row_label": "SL.NO.",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 94,
- "n_cols": 16,
- "n_cells": 288,
+ "n_rows": 102,
+ "n_cols": 26,
+ "n_cells": 1037,
  "columns": [
   {
-   "col_no": "10",
-   "name": "DACOITY +",
+   "col_no": "3",
+   "name": "MURDER",
    "header": [
-    "DACOITY +"
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ATTEMPT TO COMMIT MURDER",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "C.H.NOT AMOUNTING TO MURDER",
+   "header": [
+    "C.H.NOT AMOUNTING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "THEFT",
+   "header": [
+    "THEFT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "RIOTS",
+   "header": [
+    "RIOTS"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CRIMINAL BREACH OF TRUST",
+   "header": [
+    "CRIMINAL BREACH OF TRUST"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "CHEATING",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "COUNTER-FEITING",
+   "header": [
+    "COUNTER-FEITING"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "OTHER IPC CRIMES",
+   "header": [
+    "OTHER IPC CRIMES"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL COG. CRIMES UNDER IPC",
+   "header": [
+    "TOTAL COG. CRIMES UNDER IPC"
    ]
   },
   {
    "col_no": "10001",
-   "name": "TOTAL STATE/CITY OTHER THEFT coG. FEITING IPC CRIMES CRIMES OF UNDER TRUST Ipc (19) (2) (20) (18) (12) ANDHRA 9856(HYDERABAD 4063 12 1327 291T(VIJAYAWADA 1491 12 251 1636 3436 347",
-   "header": [
-    "TOTAL STATE/CITY OTHER THEFT coG. FEITING IPC CRIMES CRIMES OF UNDER TRUST Ipc (19) (2) (20) (18) (12) ANDHRA 9856(HYDERABAD 4063 12 1327 291T(VIJAYAWADA 1491 12 251 1636 3436 347"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "col_3",
-   "header": []
-  },
-  {
-   "col_no": "4",
-   "name": "col_4",
-   "header": []
-  },
-  {
-   "col_no": "5",
-   "name": "col_5",
-   "header": []
-  },
-  {
-   "col_no": "6",
-   "name": "col_6",
-   "header": []
-  },
-  {
-   "col_no": "7",
-   "name": "col_7",
-   "header": []
-  },
-  {
-   "col_no": "8",
-   "name": "col_8",
-   "header": []
-  },
-  {
-   "col_no": "9",
-   "name": "col_9",
+   "name": "col_10001",
    "header": []
   },
   {
    "col_no": "10002",
-   "name": "(13)] 88 1777 155 225 270 388 2489 531 734 366",
-   "header": [
-    "(13)] 88 1777 155 225 270 388 2489 531 734 366"
-   ]
+   "name": "col_10002",
+   "header": []
   },
   {
    "col_no": "10003",
-   "name": "(14)] ig 0; 132 132 139 1216 232 258 180 ee",
-   "header": [
-    "(14)] ig 0; 132 132 139 1216 232 258 180 ee"
-   ]
+   "name": "col_10003",
+   "header": []
   },
   {
    "col_no": "10004",
-   "name": "(15) 137 4 2 9 164 36 a7: + 16",
-   "header": [
-    "(15) 137 4 2 9 164 36 a7: + 16"
-   ]
+   "name": "col_10004",
+   "header": []
   },
   {
    "col_no": "10005",
-   "name": "(16) 303 13 SSCA - 163 46 133 810 236 204 107 ee eee",
-   "header": [
-    "(16) 303 13 SSCA - 163 46 133 810 236 204 107 ee eee"
-   ]
+   "name": "col_10005",
+   "header": []
   },
   {
    "col_no": "10006",
-   "name": "(17)) - 118: 19 - - - =====8=-==========-eeeed 0: 10",
-   "header": [
-    "(17)) - 118: 19 - - - =====8=-==========-eeeed 0: 10"
-   ]
+   "name": "col_10006",
+   "header": []
   },
   {
    "col_no": "10007",
-   "name": "(18) 5; - 2: 934 533 2292 1551 2167: 888 eee",
-   "header": [
-    "(18) 5; - 2: 934 533 2292 1551 2167: 888 eee"
-   ]
+   "name": "col_10007",
+   "header": []
   },
   {
    "col_no": "10008",
-   "name": "(20)(2) (19)] PUNJAB 422 AMRITSAR 204 ct 706 {JALANDHAR 3107 398 851 BA 1AcTuAM 1682 AJMER - - =s==5== 1108 - 3363 =2 2555555 - - 4906! 2552555 ==005==----=-=-#=====5 10808 ee 3020 SJOD4PUR 5 252555525 - 4290 :KOTA - - 1822 Manu",
-   "header": [
-    "(20)(2) (19)] PUNJAB 422 AMRITSAR 204 ct 706 {JALANDHAR 3107 398 851 BA 1AcTuAM 1682 AJMER - - =s==5== 1108 - 3363 =2 2555555 - - 4906! 2552555 ==005==----=-=-#=====5 10808 ee 3020 SJOD4PUR 5 252555525 - 4290 :KOTA - - 1822 Manu"
-   ]
+   "name": "col_10008",
+   "header": []
+  },
+  {
+   "col_no": "10009",
+   "name": "col_10009",
+   "header": []
   }
  ],
- "notes": [
-  "WEST BENGAL***",
-  "1 {CALCUTTA 77 124: 22: 436: £90: #71: 419: 36",
-  "DELAI U.T.:",
-  "1 396: 393: 62; 282: 916: 619; 27: 911",
-  "8A."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -139,7 +202,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 4,
  "warnings": []
 }

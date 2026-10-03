@@ -8,93 +8,79 @@
  "serial": "59",
  "title": "Disposal of Persons Arrested Under SLL Crimes by Courts During 1998 (State, UT-Wise)",
  "listing_title": "Disposal of Persons Arrested Under SLL Crimes by Courts During 1998 (State, UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680002520TABLE-78-1998.pdf",
  "source_file": "raw/cii/1998/table_content/1680002520TABLE-78-1998.pdf",
  "source_sha256": "b1d295bb0e3e32246a9b9fcffb07cd188b1a2d46250b3b5f62c2f255441a1a8e",
  "table_no": "78",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING 1998",
- "row_label": "(STATE & UT-WISE) SL. NO. / (STATE & UT-WISE) STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-78",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 7,
- "n_cells": 215,
+ "n_cells": 245,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | TOTAL NO. OF TRIAL INCLUDING THOSE FROM PREvious YEAR",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "(STATE & UT-WISE)",
-    "TOTAL NO. OF TRIAL INCLUDING THOSE FROM PREvious YEAR"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | NO. OF PERSONS WHOSE | CASES COMPOUNDED OR WITH ORAWN",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH DRAWN",
    "header": [
-    "(STATE & UT-WISE)",
     "NO. OF PERSONS WHOSE",
-    "CASES COMPOUNDED OR WITH ORAWN"
+    "CASES COMPO-UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | NO. OF PERSONS WHOSE | TRIAL COMPLETED",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
    "header": [
-    "(STATE & UT-WISE)",
     "NO. OF PERSONS WHOSE",
-    "TRIAL COMPLETED"
+    "TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "(STATE & UT-WISE)",
     "NO. OF PERSONS WHOSE",
     "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | NO. OF PERSONS CONVICTED",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "(STATE & UT-WISE)",
     "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | PENDENCY PERCENTAGE",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "(STATE & UT-WISE)",
     "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | PERCENTAGE OF INDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "PERCENTAGE OF INDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "Note; Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 10,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 620515, sum 620492",
-   "col 5 '(TOTAL (UTs)\"': printed 17717, sum 17708",
-   "col 6 'TOTAL (STATES)': printed 4.33335e+06, sum 2.96856e+06",
-   "col 7 'TOTAL (STATES)': printed 3.16044e+06, sum 2.81864e+06"
-  ],
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -8,65 +8,109 @@
  "serial": "2",
  "title": "Incidence & Rate of Cognizable Crimes Under Different Crime Heads and Percentage Changes During 1999",
  "listing_title": "Incidence & Rate of Cognizable Crimes Under Different Crime Heads and Percentage Changes During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-2-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-2-1999.pdf",
  "source_sha256": "5b057194c96cb2f46d1c20f7699cea0570ebf91f7bd9366608728702514b7955",
  "table_no": "2",
- "pdf_title": "(Cancludod\\",
- "row_label": "CRIME HEAD SL. NO. Q)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 2",
+ "row_label": "YEARS",
  "pages": [
+  1,
+  1,
+  1,
+  2,
   2
  ],
- "n_rows": 57,
- "n_cols": 5,
- "n_cells": 156,
+ "n_rows": 30,
+ "n_cols": 11,
+ "n_cells": 106,
  "columns": [
   {
-   "col_no": "9",
-   "name": "QUINQUENIAL AVG.(1994-1998) (Q.A)",
+   "col_no": "4",
+   "name": "YEARS (4)",
    "header": [
-    "QUINQUENIAL AVG.(1994-1998) (Q.A)"
+    "YEARS"
    ]
   },
   {
-   "col_no": "10",
-   "name": "1999",
+   "col_no": "5",
+   "name": "YEARS (5)",
    "header": [
-    "1999"
+    "YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "YEARS (6)",
+   "header": [
+    "YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "YEARS (7)",
+   "header": [
+    "YEARS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "YEARS (8)",
+   "header": [
+    "YEARS"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "31222(3.8) | 23748(2.9) | 4100(0.5) | 9752(1.2) | 17318(2.1) | 14169(1.7) | 3149(0.4) | 9896(1.2) | 1015(0.1) | 22480(2.8) | 129020(15.9) | 341240(42.0)",
+   "header": [
+    "31222(3.8)",
+    "23748(2.9)",
+    "4100(0.5)",
+    "9752(1.2)",
+    "17318(2.1)",
+    "14169(1.7)",
+    "3149(0.4)",
+    "9896(1.2)",
+    "1015(0.1)",
+    "22480(2.8)",
+    "129020(15.9)",
+    "341240(42.0)"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "PERCENTAGE CHANGE IN 1999 [(+) INCREASE/(-)DECREASE] OVER (10001)",
+   "header": [
+    "PERCENTAGE CHANGE IN 1999 [(+) INCREASE/(-)DECREASE] OVER"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "PERCENTAGE CHANGE IN 1999 [(+) INCREASE/(-)DECREASE] OVER (10002)",
+   "header": [
+    "PERCENTAGE CHANGE IN 1999 [(+) INCREASE/(-)DECREASE] OVER"
    ]
   },
   {
    "col_no": "11",
-   "name": "PERCENTAGE CHANGE IN 1999 | [(+) 1989",
-   "header": [
-    "PERCENTAGE CHANGE IN 1999",
-    "[(+) 1989"
-   ]
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "PERCENTAGE CHANGE IN 1999 | OVER QA",
-   "header": [
-    "PERCENTAGE CHANGE IN 1999",
-    "OVER QA"
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "PERCENTAGE CHANGE IN 1999 | 1998",
-   "header": [
-    "PERCENTAGE CHANGE IN 1999",
-    "1998"
-   ]
+   "name": "col_13",
+   "header": []
   }
  ],
- "notes": [
-  "1, Figures in brackets indicate rate of crime per lakh of",
-  "2. *indicates that the Crime Head was not inirouuced till that year.",
-  "3. ** Total of Theft cases does not sum upto ‘Auto Theft’ and ‘Other Theft’ Cases due to non-availability of Sikkim state data in the revised schedule."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -75,6 +119,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 5,
  "warnings": []
 }

@@ -8,14 +8,14 @@
  "serial": "42",
  "title": "Disposal of Crime under the Local & Special Laws by Police During 1987",
  "listing_title": "Disposal of Crime under the Local & Special Laws by Police During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_15-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_15-1987.pdf",
  "source_sha256": "355b566e0260560da08b9660f7f92781bcfd3a56e153b309dd953257f8f6b688",
- "table_no": "",
- "pdf_title": "‘TAEBLE-15 Disposal Of Crime Under The Local & Special Laws By Police During 1987",
- "row_label": "Heads of Crime S31. No. a",
+ "table_no": "15",
+ "pdf_title": "68 TABLE-15 Disposal Of Crime Under The Local & Special Laws By Police During 1987",
+ "row_label": "Sl. Heads of Crime No.",
  "pages": [
   1
  ],
@@ -24,60 +24,57 @@
  "n_cells": 78,
  "columns": [
   {
-   "col_no": "2",
-   "name": "number of Total cases during the year ineludine enese carried over fice previous year (2)",
-   "header": [
-    "number of Total cases during the year ineludine enese carried over fice previous year (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Number of cases for was 8 or mistake &f facts or nizable «3)",
+   "name": "Total number of cases for investigation during the year including cases carried over from previous year",
    "header": [
-    "Number of cases for was 8 or mistake &f facts or nizable «3)"
+    "Total number of cases for investigation during the year including cases carried over from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Number of cases in which in 9 in colum 4 which investiceiuswu or false gation was completed law or (4)",
+   "name": "Number of cases in which investigation was refused or declared false or mistake of facts or law or found non-cognizable",
    "header": [
-    "Number of cases in which in 9 in colum 4 which investiceiuswu or false gation was completed law or (4)"
+    "Number of cases in which investigation was refused or declared false or mistake of facts or law or found non-cognizable"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number of cases other then sheem in which charge (Ss)",
+   "name": "Number of cases other than shown in column 4 in which investigation was completed",
    "header": [
-    "Number of cases other then sheem in which charge (Ss)"
+    "Number of cases other than shown in column 4 in which investigation was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number of cases which could not laid be sent for trial of evidence (6)",
+   "name": "Number of cases in which charge sheets were laid",
    "header": [
-    "Number of cases which could not laid be sent for trial of evidence (6)"
+    "Number of cases in which charge sheets were laid"
    ]
   },
   {
    "col_no": "7",
-   "name": "Number of cases investimending the gation at end of for want the year (8) (1)",
+   "name": "Number of cases which could not be sent for trial for want of evidence",
    "header": [
-    "Number of cases investimending the gation at end of for want the year (8) (1)"
+    "Number of cases which could not be sent for trial for want of evidence"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Number of cases pending investigation at the end of the year",
+   "header": [
+    "Number of cases pending investigation at the end of the year"
    ]
   }
  ],
- "notes": [
-  "Crime Gnuer",
-  "Local and Snerial Laws"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 6,
-  "other_totals_passed": 3
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,93 +8,83 @@
  "serial": "46",
  "title": "Disposal of Juveniles Arrested (under IPC & LSL Crimes) and Sent to Courts During 1990 (State, UT & City-Wise)",
  "listing_title": "Disposal of Juveniles Arrested (under IPC & LSL Crimes) and Sent to Courts During 1990 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/46table-46-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/46table-46-1990-.pdf",
  "source_sha256": "0d3c22eea2400f5d8d192a747f71843d7839789ba73423e79cbec7281481b3c7",
  "table_no": "46",
- "pdf_title": "DISPOSAL OF JUVENILES “=s:75s; (UNDER IPC & LSL CRIMES) AND SENT TO COURTS DURING 1990 (STATE, UT & CITY-WISE)",
- "row_label": "SL. STATE/UT/CITY NO.",
+ "pdf_title": "161 TABLE-46 DISPOSAL OF JUVENILES ARRESTED (UNDER IPC & LSL CRIMES) AND SENT TO COURTS DURING 1990 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 8,
- "n_cells": 356,
+ "n_cells": 376,
  "columns": [
   {
    "col_no": "3",
-   "name": "ON | SENT & TO",
+   "name": "STATE/UT/CITY",
    "header": [
-    "ON",
-    "SENT & TO"
+    "STATE/UT/CITY"
    ]
   },
   {
    "col_no": "4",
-   "name": "ON | SENT TO HOME COURTS AFTER ADVICE OR ONITION",
+   "name": "ARRESTED & SENT TO COURTS",
    "header": [
-    "ON",
-    "SENT TO HOME COURTS AFTER ADVICE OR ONITION"
+    "ARRESTED & SENT TO COURTS"
    ]
   },
   {
    "col_no": "5",
-   "name": "ON | PIUBATION PLACED CARE PARENTS/ ADMGHARNTANS",
+   "name": "SENT TO HOME AFTER ADVICE OR ADM- ONITION",
    "header": [
-    "ON",
-    "PIUBATION PLACED CARE PARENTS/ ADMGHARNTANS"
+    "SENT TO HOME AFTER ADVICE OR ADM- ONITION"
    ]
   },
   {
    "col_no": "6",
-   "name": "ON | AND UNDER OF FIT JNSTT.",
+   "name": "RELEASED ON PROBATION AND PLACED UNDER CARE OF PARENTS/ FIT GUARDIANS INSTT.",
    "header": [
-    "ON",
-    "AND UNDER OF FIT JNSTT."
+    "RELEASED ON PROBATION AND PLACED UNDER CARE OF PARENTS/ FIT GUARDIANS INSTT."
    ]
   },
   {
    "col_no": "7",
-   "name": "ON | SENT TO SPECIAL HOMES",
+   "name": "SENT TO SPECIAL HOMES",
    "header": [
-    "ON",
     "SENT TO SPECIAL HOMES"
    ]
   },
   {
    "col_no": "8",
-   "name": "ON | DEALT WITH FINE",
+   "name": "DEALT WITH FINE",
    "header": [
-    "ON",
     "DEALT WITH FINE"
    ]
   },
   {
    "col_no": "9",
-   "name": "ON | OR OTHERWISE DISPUSED OF",
+   "name": "ACQUITTED OR OTHER-WISE DISPOSED OF",
    "header": [
-    "ON",
-    "OR OTHERWISE DISPUSED OF"
+    "ACQUITTED OR OTHER-WISE DISPOSED OF"
    ]
   },
   {
    "col_no": "10",
-   "name": "PENDING DISPOSAL",
+   "name": "PENDING DISPO-SAL",
    "header": [
-    "PENDING DISPOSAL"
+    "PENDING DISPO-SAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 23,
-  "cells_passed": 21,
-  "failures": [
-   "col 8 'TOTAL (STATES)': printed 4349, sum 4352",
-   "col 8 'TOTAL (UTs)': printed 2, sum 3"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

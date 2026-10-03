@@ -8,14 +8,14 @@
  "serial": "21",
  "title": "Persons Arrested under IPC Crimes During 1992 and Percentage Variation in 1992 over 1991 (Crime-Head Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1992 and Percentage Variation in 1992 over 1991 (Crime-Head Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-21-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-21-1992-survey.pdf",
  "source_sha256": "84236f9e1d742f3e8161ee9456afe149a74251035cc4ef1adb41a2809dd21297",
  "table_no": "21",
- "pdf_title": "PERSONS ARRESTED UNDER IPC CRIMES DURING 1992 AND PERCENTAGE VARIATION IM 1992 OVER 1991",
- "row_label": "SL. mo. / CRIME",
+ "pdf_title": "132 TABLE-21 PERSONS ARRESTED UNDER IPC CRIMES DURING 1992",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,23 +25,23 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(CRIME-HEAD HEAD",
+   "name": "1991",
    "header": [
-    "(CRIME-HEAD HEAD"
+    "1991"
    ]
   },
   {
    "col_no": "4",
-   "name": "WISE) 1991",
+   "name": "1992",
    "header": [
-    "WISE) 1991"
+    "1992"
    ]
   },
   {
    "col_no": "5",
-   "name": "1992 PEKUCENTAGE VARIATION In 1992 OVER",
+   "name": "PERCENTAGE VARIATION IN 1992 OVER 1991",
    "header": [
-    "1992 PEKUCENTAGE VARIATION In 1992 OVER"
+    "PERCENTAGE VARIATION IN 1992 OVER 1991"
    ]
   },
   {
@@ -52,9 +52,7 @@
    ]
   }
  ],
- "notes": [
-  "Note: Percentage share less than 0.05 is shown as 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

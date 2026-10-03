@@ -8,64 +8,327 @@
  "serial": "4",
  "title": "State wise distribution of Suicides by Causes during 1988",
  "listing_title": "State wise distribution of Suicides by Causes during 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680163886appendix-31988.pdf",
  "source_file": "raw/adsi/1988/table_content/1680163886appendix-31988.pdf",
  "source_sha256": "5f3710ea13da9da1515161d20d50431b4e5fd7c6e6ff79e8aded68846fa35684",
  "table_no": "",
- "pdf_title": "",
- "row_label": "- 1: £6 - - fhe C Q@= 5 7a rT: ‘3 “ 12 Ly £ - 1 Ht i a H",
+ "pdf_title": "42 Statewise Distribution Of Sudden By Causes During 1988 APPENDIX-III",
+ "row_label": "Sl. No. / State/UTs/Cities",
  "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
   7,
   8
  ],
- "n_rows": 8,
- "n_cols": 4,
- "n_cells": 8,
+ "n_rows": 50,
+ "n_cols": 35,
+ "n_cells": 1676,
  "columns": [
   {
-   "col_no": "2",
-   "name": "& 5° $2 (36) wo - 8 fc & - - 8 8 - - ane - S ot “il He om & g ow Beta Bihar x",
-   "header": [
-    "& 5° $2 (36) wo - 8 fc & - - 8 8 - - ane - S ot “il He om & g ow Beta Bihar x"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "2309 9868 § - Nn 9 Ia a” Nn RTS al 8\"Se-ge t~.1 le - - N - - a od - a nN ” 196 ith ho Ud pS Sg see gad Bo Karnataka eas gt wou gale Wt aR Bae Mia ahha",
+   "name": "Failure In Examination | M",
    "header": [
-    "2309 9868 § - Nn 9 Ia a” Nn RTS al 8\"Se-ge t~.1 le - - N - - a od - a nN ” 196 ith ho Ud pS Sg see gad Bo Karnataka eas gt wou gale Wt aR Bae Mia ahha"
+    "Failure In Examination",
+    "M"
    ]
   },
   {
    "col_no": "4",
-   "name": "g - 834 5001 no Nn 2} an THe a8 ao 2 a B an - & ” an 3 nN a F im E 1 oS i SP ee 2",
+   "name": "Failure In Examination | F",
    "header": [
-    "g - 834 5001 no Nn 2} an THe a8 ao 2 a B an - & ” an 3 nN a F im E 1 oS i SP ee 2"
+    "Failure In Examination",
+    "F"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "> val 8",
+   "col_no": "5",
+   "name": "Quarrel With Parents-in-Law | M",
    "header": [
-    "> val 8"
+    "Quarrel With Parents-in-Law",
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Quarrel With Parents-in-Law | F",
+   "header": [
+    "Quarrel With Parents-in-Law",
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Quarrel with Spouse | M",
+   "header": [
+    "Quarrel with Spouse",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Quarrel with Spouse | F",
+   "header": [
+    "Quarrel with Spouse",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Poverty | M",
+   "header": [
+    "Poverty",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Poverty | F",
+   "header": [
+    "Poverty",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Love Affairs | M",
+   "header": [
+    "Love Affairs",
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Love Affairs | F",
+   "header": [
+    "Love Affairs",
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Insanity | M",
+   "header": [
+    "Insanity",
+    "M"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Insanity | F",
+   "header": [
+    "Insanity",
+    "F"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Dispute Over Property | M",
+   "header": [
+    "Dispute Over Property",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Dispute Over Property | F",
+   "header": [
+    "Dispute Over Property",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Dreadful Diseases | M",
+   "header": [
+    "Dreadful Diseases",
+    "M"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Dreadful Diseases | F",
+   "header": [
+    "Dreadful Diseases",
+    "F"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Unemployment | M",
+   "header": [
+    "Unemployment",
+    "M"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Unemployment | F",
+   "header": [
+    "Unemployment",
+    "F"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Bankruptcy Or Sudden Change In Economic Position | M",
+   "header": [
+    "Bankruptcy Or Sudden Change In Economic Position",
+    "M"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Bankruptcy Or Sudden Change In Economic Position | F",
+   "header": [
+    "Bankruptcy Or Sudden Change In Economic Position",
+    "F"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Death of Dear Persons | M",
+   "header": [
+    "Death of Dear Persons",
+    "M"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "Death of Dear Persons | F",
+   "header": [
+    "Death of Dear Persons",
+    "F"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "Fall In Social Reputation | M",
+   "header": [
+    "Fall In Social Reputation",
+    "M"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "Fall In Social Reputation | F",
+   "header": [
+    "Fall In Social Reputation",
+    "F"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "Dowry Dispute | M",
+   "header": [
+    "Dowry Dispute",
+    "M"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "Dowry Dispute | F",
+   "header": [
+    "Dowry Dispute",
+    "F"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "Illegitimate Pregnancy | M",
+   "header": [
+    "Illegitimate Pregnancy",
+    "M"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "Illegitimate Pregnancy | F",
+   "header": [
+    "Illegitimate Pregnancy",
+    "F"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "Causes Not Known | M",
+   "header": [
+    "Causes Not Known",
+    "M"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "Causes Not Known | F",
+   "header": [
+    "Causes Not Known",
+    "F"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "Other Causes | M",
+   "header": [
+    "Other Causes",
+    "M"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "Other Causes | F",
+   "header": [
+    "Other Causes",
+    "F"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "Total | M",
+   "header": [
+    "Total",
+    "M"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "Total | F",
+   "header": [
+    "Total",
+    "F"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "Grand Total | M+F",
+   "header": [
+    "Grand Total",
+    "M+F"
    ]
   }
  ],
- "notes": [
-  "GE 25.",
-  "i \"OS - EG Ose vce wee Ug be",
-  "S J 29. 31. 32. Mm a 2. 8 2 ww 8 sk tw 11. 12."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 126,
+  "cells_passed": 98,
+  "failures": [
+   "col 13 'TOTAL (STATES):': printed 1381, sum 1288",
+   "col 14 'TOTAL (STATES):': printed 785, sum 716",
+   "col 14 'TOTAL (UTs)': printed 18, sum 14",
+   "col 14 'TOTAL (ALL INDIA)': printed 1399, sum 803",
+   "col 15 'TOTAL (STATES):': printed 884, sum 813",
+   "col 15 'TOTAL (UTs)': printed 14, sum 27",
+   "col 15 'TOTAL (ALL INDIA)': printed 799, sum 898",
+   "col 15 'TOTAL (CITIES)': printed 53, sum 15"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 8,
  "warnings": []
 }

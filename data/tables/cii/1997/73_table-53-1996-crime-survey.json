@@ -8,95 +8,93 @@
  "serial": "73",
  "title": "Juveniles Apprehended Under IPC & SLL Crime by Age Groups (1987-97)",
  "listing_title": "Juveniles Apprehended Under IPC & SLL Crime by Age Groups (1987-97)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-53-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-53-1996-crime-survey.pdf",
  "source_sha256": "5eb903fd2738624ff23021207f4e8f919d1e6d11aade338833e4763bfd483e7a",
  "table_no": "53",
- "pdf_title": "JUVENILES Arrinc:cre0ED UNDER IPC AND SLL CRIMES BY AGE GROUPS",
- "row_label": "(1987.97) SL. YEAR NO. a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-53",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 14,
- "n_cols": 8,
- "n_cells": 98,
+ "n_rows": 13,
+ "n_cols": 10,
+ "n_cells": 120,
  "columns": [
   {
-   "col_no": "3",
-   "name": "(1987.97) | 7-12 YEARS",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "(1987.97)",
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "7-12 YEARS",
+   "header": [
     "7-12 YEARS"
    ]
   },
   {
    "col_no": "4",
-   "name": "(1987.97) | PERCENTAGE TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL (4)",
    "header": [
-    "(1987.97)",
     "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "(1987.97) | 12-16 PERCENTAGE YEARS",
+   "name": "12-16 YEARS",
    "header": [
-    "(1987.97)",
-    "12-16 PERCENTAGE YEARS"
+    "12-16 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "(1987.97) | TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL (6)",
    "header": [
-    "(1987.97)",
-    "TO TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "(1987.97) | PERCENTAGE | 16-18 YEARS",
+   "name": "16-18 YEARS",
    "header": [
-    "(1987.97)",
-    "PERCENTAGE",
     "16-18 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "(1987.97) | PERCENTAGE | TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL (8)",
    "header": [
-    "(1987.97)",
-    "PERCENTAGE",
-    "TO TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "(1987.97) | 18-21 PERCENTAGE YEARS",
+   "name": "18-21 YEARS",
    "header": [
-    "(1987.97)",
-    "18-21 PERCENTAGE YEARS"
+    "18-21 YEARS"
    ]
   },
   {
    "col_no": "10",
-   "name": "(1987.97) | OVERALL TO AGE TOTAL GROUP a1)",
+   "name": "PERCENTAGE TO TOTAL (10)",
    "header": [
-    "(1987.97)",
-    "OVERALL TO AGE TOTAL GROUP a1)"
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "OVERALL AGE GROUP",
+   "header": [
+    "OVERALL AGE GROUP"
    ]
   }
  ],
- "notes": [
-  "1997 OVER",
-  "inte: 1. 7-12 years means 7 and above but below 12 yairs",
-  "2. In 1988 and onwards as per new definition of juveniles 16-°8 years age group and 18-21 years age group",
-  "is not at all considered as juveniles. For 16-18 years age group. percentage change in 1993 over 1933 is not worked",
-  "out due to non-comparability of data."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

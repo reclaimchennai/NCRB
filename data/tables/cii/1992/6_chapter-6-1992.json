@@ -8,22 +8,43 @@
  "serial": "6",
  "title": "Crime Against Women",
  "listing_title": "Crime Against Women",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-6-1992.pdf",
  "source_file": "raw/cii/1992/table_chapter/chapter-6-1992.pdf",
  "source_sha256": "5306781741bccb960ca1b928ef9c9337a27ce1afb8e864c55810ae9afe8150ca",
  "table_no": "",
- "pdf_title": "@",
- "row_label": "SI. No. / Year / Total IPC crimes / Crime Against Women",
+ "pdf_title": "230 6.3.1 The crime-head-wise incidence, reported during the years 1990 to 1992 alongwith the percentage variation over the previous years is presented below.",
+ "row_label": "Sl. No.",
  "pages": [
   4,
   4
  ],
- "n_rows": 12,
- "n_cols": 4,
- "n_cells": 37,
+ "n_rows": 10,
+ "n_cols": 6,
+ "n_cells": 50,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "Year",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Total IPC crimes",
+   "header": [
+    "Total IPC crimes"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Crime Against Women",
+   "header": [
+    "Crime Against Women"
+   ]
+  },
   {
    "col_no": "5",
    "name": "Percentage increase",
@@ -39,14 +60,12 @@
    ]
   },
   {
-   "col_no": "3",
-   "name": "col_3",
-   "header": []
-  },
-  {
-   "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "col_no": "7",
+   "name": "Percentage Variation in | 1992 over 1991",
+   "header": [
+    "Percentage Variation in",
+    "1992 over 1991"
+   ]
   }
  ],
  "notes": [],
@@ -55,7 +74,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

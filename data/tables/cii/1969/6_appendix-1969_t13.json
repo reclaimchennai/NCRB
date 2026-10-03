@@ -6,50 +6,80 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "Vil",
+ "title": "96 APPENDIX RIOTS—",
  "listing_title": "Annexures",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1969.pdf",
  "source_file": "raw/cii/1969/table_chapter/appendix-1969.pdf",
  "source_sha256": "a75b83a19ff606bf46a76a58309508479227b481a4bef1e967c9a9a899a65179",
  "table_no": "",
- "pdf_title": "Vil",
- "row_label": "Cases —CASES Cases Cases Total in true not which cases trials ed",
+ "pdf_title": "96 APPENDIX RIOTS—",
+ "row_label": "Sl. No.",
  "pages": [
-  15
+  18
  ],
  "n_rows": 39,
- "n_cols": 2,
- "n_cells": 77,
+ "n_cols": 7,
+ "n_cells": 269,
  "columns": [
   {
    "col_no": "2",
-   "name": "Cases | Cases Percen- Cases in contage victed of which or cases discharge-",
-   "header": [
-    "Cases",
-    "Cases Percen- Cases in contage victed of which or cases discharge-"
-   ]
+   "name": "col_2",
+   "header": []
   },
   {
    "col_no": "3",
-   "name": "Percen- Volume Cases of comtage of crimeted poun dedor - cases per",
+   "name": "States/U. Ts./Cities",
    "header": [
-    "Percen- Volume Cases of comtage of crimeted poun dedor - cases per"
+    "States/U. Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending investigation from previous year.",
+   "header": [
+    "Cases pending investigation from previous year."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases pending disposal in courts",
+   "header": [
+    "Cases pending disposal in courts"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases reported during the year.",
+   "header": [
+    "Cases reported during the year."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases not investigated (+) declared false (+) mistake of fact or law (+) non-cognizable.",
+   "header": [
+    "Cases not investigated (+) declared false (+) mistake of fact or law (+) non-cognizable."
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Cases pending investigation at the end of the year.",
+   "header": [
+    "Cases pending investigation at the end of the year."
    ]
   }
  ],
- "notes": [
-  "M12HA/70—7"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 20,
+  "other_totals_passed": 10
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

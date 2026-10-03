@@ -8,14 +8,14 @@
  "serial": "29",
  "title": "Persons Arrested under Different L&SL Crimes During 1993 and Percentage Variation in 1993 over 1992 (Crime-Head Wise)",
  "listing_title": "Persons Arrested under Different L&SL Crimes During 1993 and Percentage Variation in 1993 over 1992 (Crime-Head Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-29-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-29-1993-crime.pdf",
  "source_sha256": "c4b1a0ee065f74576dc0dbf614add4889535377e7724fc6547f7e154a7ae4c6e",
  "table_no": "29",
- "pdf_title": "PERSONS ARRESTED UNDER DiFrFEHENT L&SL CRIMES DURING 1993 AND PERCENTAGE VARIATION IN 1993 OVER 1992",
- "row_label": "",
+ "pdf_title": "175 TABLE-29 PERSONS ARRESTED UNDER DIFFERENT L&SL CRIMES DURING 1993 AND PERCENTAGE VARIATION IN 1993 OVER 1992 (CRIME-HEAD WISE)",
+ "row_label": "SL NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,30 +25,34 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(CRIME-HEAD WISE)",
+   "name": "1992",
    "header": [
-    "(CRIME-HEAD WISE)"
+    "1992"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "1993",
+   "header": [
+    "1993"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "PERCENTAGE VARIATION IN 1993 OVER 1992",
+   "header": [
+    "PERCENTAGE VARIATION IN 1993 OVER 1992"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "PERCENTAGE SHARE OF CRIME DURING 1993",
+   "header": [
+    "PERCENTAGE SHARE OF CRIME DURING 1993"
+   ]
   }
  ],
- "notes": [
-  "Note: Percentage share less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -8,81 +8,110 @@
  "serial": "8",
  "title": "Annexure-VIII: Cases of Tranquility Disturbances/Violent Incidents During 1996",
  "listing_title": "Annexure-VIII: Cases of Tranquility Disturbances/Violent Incidents During 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/annexures-8_1996.pdf",
  "source_file": "raw/psi/1996/table_content/annexures-8_1996.pdf",
  "source_sha256": "ebc0ab1cefe503aeaec7f6d9b7ef19383f98239c8846272dddbbf26cbf1b985f",
  "table_no": "",
- "pdf_title": "ANNEXURE-ViIII CASES OF TRANQUILITY DISTURBANCES/VIOLENT INCIDENTS DURING 1996",
- "row_label": "SL. NO. / STATE/UT / INCIDENTS / NUMBER OF PERSONS INJURED INMATES / NUMBER OF PERSONS JAIL PERSONNEL",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1996 ANNEXURE-VIII",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 27,
- "n_cols": 7,
- "n_cells": 56,
+ "n_rows": 60,
+ "n_cols": 10,
+ "n_cells": 450,
  "columns": [
   {
-   "col_no": "6",
-   "name": "NUMBER OF PERSONS | KIL_-ED INMATES",
-   "header": [
-    "NUMBER OF PERSONS",
-    "KIL_-ED INMATES"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "JAIL PERSONNEL",
-   "header": [
-    "JAIL PERSONNEL"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "INCIDENTS",
+   "col_no": "3",
+   "name": "INCIDENTS (3)",
    "header": [
     "INCIDENTS"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "NUMBER OF PERSONS | INJURED INMATES",
+   "col_no": "4",
+   "name": "NUMBER OF PERSONS | INJURED | INMATES (4)",
    "header": [
     "NUMBER OF PERSONS",
-    "INJURED INMATES"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "NUMBER OF PERSONS | JAIL PERSONNEL (10003)",
-   "header": [
-    "NUMBER OF PERSONS",
-    "JAIL PERSONNEL"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "NUMBER OF PERSONS | INMATES",
-   "header": [
-    "NUMBER OF PERSONS",
+    "INJURED",
     "INMATES"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "NUMBER OF PERSONS | JAIL PERSONNEL (10005)",
+   "col_no": "5",
+   "name": "NUMBER OF PERSONS | INJURED | JAIL PERSONNEL (5)",
    "header": [
     "NUMBER OF PERSONS",
+    "INJURED",
+    "JAIL PERSONNEL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF PERSONS | KILLEI | INMATES",
+   "header": [
+    "NUMBER OF PERSONS",
+    "KILLEI",
+    "INMATES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF PERSONS | KILLEI | JAIL PERSONNEL",
+   "header": [
+    "NUMBER OF PERSONS",
+    "KILLEI",
+    "JAIL PERSONNEL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INCIDENTS (8)",
+   "header": [
+    "INCIDENTS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NUMBER OF PERSONS | INJURED | INMATES (9)",
+   "header": [
+    "NUMBER OF PERSONS",
+    "INJURED",
+    "INMATES"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "NUMBER OF PERSONS | INJURED | JAIL PERSONNEL (10)",
+   "header": [
+    "NUMBER OF PERSONS",
+    "INJURED",
+    "JAIL PERSONNEL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "NUMBER OF PERSONS | KILLED | INMATES",
+   "header": [
+    "NUMBER OF PERSONS",
+    "KILLED",
+    "INMATES"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "NUMBER OF PERSONS | KILLED | JAIL PERSONNEL",
+   "header": [
+    "NUMBER OF PERSONS",
+    "KILLED",
     "JAIL PERSONNEL"
    ]
   }
  ],
- "notes": [
-  "\"30 PONDICHERRY ) Ce)",
-  "NA Stands for Not Available"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -90,7 +119,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

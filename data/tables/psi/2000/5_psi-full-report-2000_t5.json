@@ -6,100 +6,52 @@
  "topic": "",
  "section": "PSI Year Wise 2000",
  "serial": "5",
- "title": "DISTRIBUTION OF FEMALE INMATES IN THE COUNTRY BY AGE GROUP AND PERCENTAGE SHARE AT THE END OF 2000",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 Authorised Capacity of Inmates in District Jails in States/UTs during 2000",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2000.pdf",
  "source_file": "raw/psi/2000/year_wise/psi-full-report-2000.pdf",
  "source_sha256": "171376686bd1e431ac947c0d86c5141722a1e13fb54bb5c1347bbf9500133c70",
- "table_no": "5",
- "pdf_title": "DISTRIBUTION OF FEMALE INMATES IN THE COUNTRY BY AGE GROUP AND PERCENTAGE SHARE AT THE END OF 2000",
- "row_label": "sk. () INDIAN",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 Authorised Capacity of Inmates in District Jails in States/UTs during 2000",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  63
+  15
  ],
- "n_rows": 7,
- "n_cols": 11,
- "n_cells": 76,
+ "n_rows": 32,
+ "n_cols": 4,
+ "n_cells": 128,
  "columns": [
   {
-   "col_no": "2",
-   "name": "BELOW16% | (2)",
-   "header": [
-    "BELOW16%",
-    "(2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "BELOW16% | 4)",
+   "name": "NUMBER OF DISTRICT JAILS",
    "header": [
-    "BELOW16%",
-    "4)"
+    "NUMBER OF DISTRICT JAILS"
    ]
   },
   {
    "col_no": "4",
-   "name": "16-18 (5)",
+   "name": "TOTAL CAPACITY OF INMATES | MALE",
    "header": [
-    "16-18 (5)"
+    "TOTAL CAPACITY OF INMATES",
+    "MALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "(6)",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE",
    "header": [
-    "(6)"
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
    ]
   },
   {
    "col_no": "6",
-   "name": "18 - 30 Jo45¢ fo)",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL",
    "header": [
-    "18 - 30 Jo45¢ fo)"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "SSHARE (8)",
-   "header": [
-    "SSHARE (8)"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "30 - 50 9)",
-   "header": [
-    "30 - 50 9)"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "(10)",
-   "header": [
-    "(10)"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "ABOVE 50 at",
-   "header": [
-    "ABOVE 50 at"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "SHARE (2).",
-   "header": [
-    "SHARE (2)."
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "TOTAL 3)",
-   "header": [
-    "TOTAL 3)"
+    "TOTAL CAPACITY OF INMATES",
+    "TOTAL"
    ]
   }
  ],
@@ -108,10 +60,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 5,
-  "other_totals_passed": 2
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

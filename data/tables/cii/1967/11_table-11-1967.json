@@ -8,67 +8,59 @@
  "serial": "11",
  "title": "Property Stolen and Recovered by Nature of Property Stolen and Recovered",
  "listing_title": "Property Stolen and Recovered by Nature of Property Stolen and Recovered",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-11-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-11-1967.pdf",
  "source_sha256": "efbabcc360363c8c6f18a6bcd1b3f90f97988227ef11129121450b9ba693027f",
- "table_no": "",
- "pdf_title": "",
- "row_label": "Wi oF ‘Nature of Thefts i “2 i / PROPERTY.STOLEN AND RECOVERED BY NATURE OF PROPERTY STOLEN AND RECOVERED 7“ - a",
+ "table_no": "XI",
+ "pdf_title": "53 TABLE XI PROPERTY, STOLEN AND RECOVERED BY NATURE OF PROPERTY",
+ "row_label": "Nature of Thefts",
  "pages": [
   1
  ],
- "n_rows": 10,
+ "n_rows": 8,
  "n_cols": 4,
- "n_cells": 26,
+ "n_cells": 32,
  "columns": [
   {
-   "col_no": "3",
-   "name": "PROPERTY.STOLEN AND RECOVERED BY NATURE OF PROPERTY STOLEN AND RECOVERED | \"No.of ‘which property ~stolen",
+   "col_no": "2",
+   "name": "No. of cases in which property stolen",
    "header": [
-    "PROPERTY.STOLEN AND RECOVERED BY NATURE OF PROPERTY STOLEN AND RECOVERED",
-    "\"No.of ‘which property ~stolen"
+    "No. of cases in which property stolen"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Amount of property stolen (in lacs)",
+   "header": [
+    "Amount of property stolen (in lacs)"
    ]
   },
   {
    "col_no": "4",
-   "name": "PROPERTY.STOLEN AND RECOVERED BY NATURE OF PROPERTY STOLEN AND RECOVERED | ini -, property “(in lacs)",
+   "name": "Amount of property recovered (in lacs)",
    "header": [
-    "PROPERTY.STOLEN AND RECOVERED BY NATURE OF PROPERTY STOLEN AND RECOVERED",
-    "ini -, property “(in lacs)"
+    "Amount of property recovered (in lacs)"
    ]
   },
   {
    "col_no": "5",
-   "name": "PROPERTY.STOLEN AND RECOVERED BY NATURE OF PROPERTY STOLEN AND RECOVERED | -",
+   "name": "Percentage of value of property recovered to value of property stolen",
    "header": [
-    "PROPERTY.STOLEN AND RECOVERED BY NATURE OF PROPERTY STOLEN AND RECOVERED",
-    "-"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "‘ ay Percentage Amountof © of value of ‘property - property - tovalue recovered of property » stolen.",
-   "header": [
-    "‘ ay Percentage Amountof © of value of ‘property - property - tovalue recovered of property » stolen."
+    "Percentage of value of property recovered to value of property stolen"
    ]
   }
  ],
- "notes": [
-  "as",
-  "* I",
-  "i",
-  "\\ a"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

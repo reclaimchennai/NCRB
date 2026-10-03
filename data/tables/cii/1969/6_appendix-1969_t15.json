@@ -6,37 +6,84 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "—CASES",
+ "title": "99 APPENDIX—X",
  "listing_title": "Annexures",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1969.pdf",
  "source_file": "raw/cii/1969/table_chapter/appendix-1969.pdf",
  "source_sha256": "a75b83a19ff606bf46a76a58309508479227b481a4bef1e967c9a9a899a65179",
  "table_no": "",
- "pdf_title": "—CASES",
- "row_label": "Percen- Percen- Cases Cases Total in true not detect- Cases which ed trials",
+ "pdf_title": "99 APPENDIX—X",
+ "row_label": "Total true cases",
  "pages": [
-  17
+  21
  ],
- "n_rows": 42,
- "n_cols": 2,
- "n_cells": 82,
+ "n_rows": 40,
+ "n_cols": 9,
+ "n_cells": 360,
  "columns": [
   {
    "col_no": "2",
-   "name": "Percen- Percen- | Cases Cases Cases in acquitcontage tage which victed of of dischargecases cases",
+   "name": "Cases not detected",
    "header": [
-    "Percen- Percen-",
-    "Cases Cases Cases in acquitcontage tage which victed of of dischargecases cases"
+    "Cases not detected"
    ]
   },
   {
    "col_no": "3",
-   "name": "Percen- Percen- | Cases Volume of comcrime pounddedor per",
+   "name": "Cases in which * charge sheets were laid",
    "header": [
-    "Percen- Percen-",
-    "Cases Volume of comcrime pounddedor per"
+    "Cases in which * charge sheets were laid"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases compounded or withdrawn",
+   "header": [
+    "Cases compounded or withdrawn"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases in which trials were completed",
+   "header": [
+    "Cases in which trials were completed"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases convicted",
+   "header": [
+    "Cases convicted"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases acquitted or discharged",
+   "header": [
+    "Cases acquitted or discharged"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of cases convicted to true cases investigated",
+   "header": [
+    "Percentage of cases convicted to true cases investigated"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Percentage of cases convicted to cases in which trials were completed",
+   "header": [
+    "Percentage of cases convicted to cases in which trials were completed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Volume of crime per 1,00,00 of population",
+   "header": [
+    "Volume of crime per 1,00,00 of population"
    ]
   }
  ],
@@ -48,7 +95,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

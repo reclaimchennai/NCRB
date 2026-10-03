@@ -8,135 +8,157 @@
  "serial": "70",
  "title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Scheduled Tribes During 1995 (State & UT–Wi",
  "listing_title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Scheduled Tribes During 1995 (State & UT–Wi",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-70-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-70-1995-crime-survey.pdf",
  "source_sha256": "6c2f1062fd5ddafcc2c489a38f89d9c88e84ca76050f7cd1b5ddb181a58ba58a",
  "table_no": "70",
- "pdf_title": "INCIDENCE (I), RATE (R) AND PERCENTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES COMMITTED AGAINST SCHEDULED TRIBES DURING 1995",
- "row_label": "(STATE & UT-WISE) SL. NO. / (STATE & UT-WISE) STATE/UT",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-70",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 96,
- "n_cols": 26,
- "n_cells": 637,
+ "n_rows": 72,
+ "n_cols": 33,
+ "n_cells": 1155,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | ESTIMATED MIDYEAR A. TION (IN LAKHS)",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "(STATE & UT-WISE)",
-    "ESTIMATED MIDYEAR A. TION (IN LAKHS)"
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | 1 (4)",
+   "name": "MURDER | I",
    "header": [
-    "(STATE & UT-WISE)",
-    "1"
+    "MURDER",
+    "I"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | MURDER | oR",
+   "name": "MURDER | R",
    "header": [
-    "(STATE & UT-WISE)",
     "MURDER",
-    "oR"
+    "R"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | MURDER | P",
+   "name": "MURDER | P",
    "header": [
-    "(STATE & UT-WISE)",
     "MURDER",
     "P"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | 1 (7)",
+   "name": "HURT | I",
    "header": [
-    "(STATE & UT-WISE)",
-    "1"
+    "HURT",
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | HURT oR",
+   "name": "HURT | R",
    "header": [
-    "(STATE & UT-WISE)",
-    "HURT oR"
+    "HURT",
+    "R"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | P",
+   "name": "HURT | P",
    "header": [
-    "(STATE & UT-WISE)",
+    "HURT",
     "P"
    ]
   },
   {
    "col_no": "10",
-   "name": "(STATE & UT-WISE) | 1 (10)",
+   "name": "RAPE | I",
    "header": [
-    "(STATE & UT-WISE)",
-    "1"
+    "RAPE",
+    "I"
    ]
   },
   {
    "col_no": "11",
-   "name": "(STATE & UT-WISE) | OR",
+   "name": "RAPE | R",
    "header": [
-    "(STATE & UT-WISE)",
-    "OR"
+    "RAPE",
+    "R"
    ]
   },
   {
    "col_no": "12",
-   "name": "(STATE & UT-WISE) | RAPE P",
+   "name": "RAPE | P",
    "header": [
-    "(STATE & UT-WISE)",
-    "RAPE P"
+    "RAPE",
+    "P"
    ]
   },
   {
    "col_no": "13",
-   "name": "(STATE & UT-WISE) | KIDNAPPING & ABDUCTION",
+   "name": "KIDNAPPING & ABDUCTION | I",
    "header": [
-    "(STATE & UT-WISE)",
-    "KIDNAPPING & ABDUCTION"
+    "KIDNAPPING & ABDUCTION",
+    "I"
    ]
   },
   {
    "col_no": "14",
-   "name": "(STATE & UT-WISE) | KIDNAPPING & ABDUCTION | (14),",
+   "name": "KIDNAPPING & ABDUCTION | R",
    "header": [
-    "(STATE & UT-WISE)",
     "KIDNAPPING & ABDUCTION",
-    "(14),"
+    "R"
    ]
   },
   {
    "col_no": "15",
-   "name": "(STATE & UT-WISE) | KIDNAPPING & ABDUCTION | P",
+   "name": "KIDNAPPING & ABDUCTION | P",
    "header": [
-    "(STATE & UT-WISE)",
     "KIDNAPPING & ABDUCTION",
     "P"
    ]
   },
   {
+   "col_no": "16",
+   "name": "DACOITY | I",
+   "header": [
+    "DACOITY",
+    "I"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "DACOITY | R",
+   "header": [
+    "DACOITY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "DACOITY | P",
+   "header": [
+    "DACOITY",
+    "P"
+   ]
+  },
+  {
    "col_no": "19",
-   "name": "col_19",
-   "header": []
+   "name": "ROBBERY | I",
+   "header": [
+    "ROBBERY",
+    "I"
+   ]
   },
   {
    "col_no": "20",
@@ -156,50 +178,78 @@
   },
   {
    "col_no": "22",
-   "name": "col_22",
-   "header": []
+   "name": "ARSON | I",
+   "header": [
+    "ARSON",
+    "I"
+   ]
   },
   {
    "col_no": "23",
-   "name": "ARSON R",
+   "name": "ARSON | R",
    "header": [
-    "ARSON R"
+    "ARSON",
+    "R"
    ]
   },
   {
    "col_no": "24",
-   "name": "PROTECTION OF CIVIL RIGHTS ACT | P (24)",
+   "name": "ARSON | P",
    "header": [
-    "PROTECTION OF CIVIL RIGHTS ACT",
+    "ARSON",
     "P"
    ]
   },
   {
    "col_no": "25",
-   "name": "PROTECTION OF CIVIL RIGHTS ACT | 1",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | I",
    "header": [
     "PROTECTION OF CIVIL RIGHTS ACT",
-    "1"
+    "I"
    ]
   },
   {
    "col_no": "26",
-   "name": "PROTECTION OF CIVIL RIGHTS ACT | OR",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | R",
    "header": [
     "PROTECTION OF CIVIL RIGHTS ACT",
-    "OR"
+    "R"
    ]
   },
   {
    "col_no": "27",
-   "name": "PROTECTION OF CIVIL RIGHTS ACT | P (27)",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | P",
    "header": [
     "PROTECTION OF CIVIL RIGHTS ACT",
     "P"
    ]
   },
   {
-   "col_no": "10001",
+   "col_no": "30",
+   "name": "SC/ST (PREVENTION OF ATROCITIES) ACT | R",
+   "header": [
+    "SC/ST (PREVENTION OF ATROCITIES) ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "SC/ST (PREVENTION OF ATROCITIES) ACT | P",
+   "header": [
+    "SC/ST (PREVENTION OF ATROCITIES) ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "OTHER OFFENCES | I",
+   "header": [
+    "OTHER OFFENCES",
+    "I"
+   ]
+  },
+  {
+   "col_no": "33",
    "name": "OTHER OFFENCES | R",
    "header": [
     "OTHER OFFENCES",
@@ -207,7 +257,7 @@
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "34",
    "name": "OTHER OFFENCES | P",
    "header": [
     "OTHER OFFENCES",
@@ -215,38 +265,41 @@
    ]
   },
   {
-   "col_no": "10003",
-   "name": "TOTAL 1",
+   "col_no": "35",
+   "name": "TOTAL | I",
    "header": [
-    "TOTAL 1"
+    "TOTAL",
+    "I"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "STATE/UT R P",
+   "col_no": "36",
+   "name": "TOTAL | R",
    "header": [
-    "STATE/UT R P"
+    "TOTAL",
+    "R"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
+    "P"
    ]
   }
  ],
- "notes": [
-  "Source: ‘Monthly Crime Statistics’.",
-  "Note:1. Percentage less than 0.05 is also shown as 0.0",
-  "2. Figures are provisional.",
-  "1480; 0.2: 100.0: 2656: 0.3: 100.0: 5498: 0.6; 100.0 TOTAL (ALL-INDIA)"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 0,
+  "cells_checked": 24,
+  "cells_passed": 23,
   "failures": [
-   "col 4 'TOTAL (STATES)': printed 75, sum 14",
-   "col 7 'TOTAL (STATES)': printed 688, sum 137",
-   "col 10 'TOTAL (STATES)': printed 368, sum 61"
+   "col 25 'TOTAL (STATES)': printed 71, sum 46"
   ],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 3,
  "warnings": []
 }

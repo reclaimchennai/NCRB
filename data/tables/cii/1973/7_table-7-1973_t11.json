@@ -6,45 +6,61 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "4l",
+ "title": "40 TABLE Statement showing Districtwise Incidence of",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "4l",
- "row_label": "T—coned. during the year Robbery 13 13 / Crimes reponied during the Fear—|9T3 Burglary as 164 / Crimes reponied during the Fear—|9T3 Theles bo 1,407 2 / Crimes reponied during the Fear—|9T3 Riots il 62 Gr 1z / Cheating Criminal, beeach of brit 12 61 w Fe]",
+ "pdf_title": "40 TABLE Statement showing Districtwise Incidence of",
+ "row_label": "SL No. / Name of District",
  "pages": [
-  12
+  11
  ],
- "n_rows": 38,
- "n_cols": 3,
- "n_cells": 94,
+ "n_rows": 43,
+ "n_cols": 5,
+ "n_cells": 215,
  "columns": [
   {
-   "col_no": "6",
-   "name": "Cheating | 13",
+   "col_no": "3",
+   "name": "Number of cases reported | Murder",
    "header": [
-    "Cheating",
-    "13"
+    "Number of cases reported",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of cases reported | Culpable Homicide not amounting to murder",
+   "header": [
+    "Number of cases reported",
+    "Culpable Homicide not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of cases reported | Rape",
+   "header": [
+    "Number of cases reported",
+    "Rape"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Number of cases reported | Kidnapping and Abduction",
+   "header": [
+    "Number of cases reported",
+    "Kidnapping and Abduction"
    ]
   },
   {
    "col_no": "7",
-   "name": "Total | feiting - -",
+   "name": "Number of cases reported | Daccity",
    "header": [
-    "Total",
-    "feiting - -"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Total | under TPC Is 2,43 4,82 1,802",
-   "header": [
-    "Total",
-    "under TPC Is 2,43 4,82 1,802"
+    "Number of cases reported",
+    "Daccity"
    ]
   }
  ],
@@ -56,7 +72,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,14 +8,14 @@
  "serial": "14",
  "title": "Percentage of IPC Crime Cases Disposed of by Police During 1988",
  "listing_title": "Percentage of IPC Crime Cases Disposed of by Police During 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-14-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-14-1988-2.pdf",
  "source_sha256": "594fdef37c9a917d29a9467d69f97bfdf4baa25946f509c073aa3b2db8b41f7c",
- "table_no": "1",
- "pdf_title": "4 OF IPC CRIME CASES DISPOSED OF BY POLICE DURING 1988",
- "row_label": "SL. CRIME NO. «1",
+ "table_no": "14",
+ "pdf_title": "74 TABLE-14 PERCENTAGE OF IPC CRIME CASES DISPOSED OF BY POLICE DURING 1988",
+ "row_label": "SL. NO. / SL. NO.",
  "pages": [
   1
  ],
@@ -25,44 +25,51 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "HEAD INVESTI~ GATION WAS REFUSED",
+   "name": "CRIME HEAD",
    "header": [
-    "HEAD INVESTI~ GATION WAS REFUSED"
+    "CRIME HEAD"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF CHARGE FOUND FALSE/ MISTAKE LAW OF ETC.",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED | CHARGE FOUND FALSE/MISTAKE OF LAW ETC.",
    "header": [
-    "OF CHARGE FOUND FALSE/ MISTAKE LAW OF ETC."
+    "PERCENTAGE OF CASES TO TOTAL CASES INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS REFUSED",
+    "CHARGE FOUND FALSE/MISTAKE OF LAW ETC."
    ]
   },
   {
    "col_no": "5",
-   "name": "CASES INVESTIGATION INVEST'IGATION FINAL REPORT TRUE SUBMITTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMIT-TED",
    "header": [
-    "CASES INVESTIGATION INVEST'IGATION FINAL REPORT TRUE SUBMITTED"
+    "PERCENTAGE OF CASES TO TOTAL CASES INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMIT-TED"
    ]
   },
   {
    "col_no": "6",
-   "name": "TO IN WAS ne CHARGE SHEETS WERE LAID",
+   "name": "FOR | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
    "header": [
-    "TO IN WAS ne CHARGE SHEETS WERE LAID"
+    "FOR",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL FOR WHICH TOTAL ((4)+(5) +(6))",
+   "name": "FOR | TOTAL ((4)+(5)+(6))",
    "header": [
-    "TOTAL FOR WHICH TOTAL ((4)+(5) +(6))"
+    "FOR",
+    "TOTAL ((4)+(5)+(6))"
    ]
   },
   {
    "col_no": "8",
-   "name": "CASES pen soa CASES OF PENDING INVESTIGATION",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION",
    "header": [
-    "CASES pen soa CASES OF PENDING INVESTIGATION"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION"
    ]
   }
  ],

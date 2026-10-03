@@ -6,44 +6,63 @@
  "topic": "",
  "section": "Crime in India 1961",
  "serial": "2",
- "title": "HOUSE BREAKING—",
+ "title": "26 KIDNAPPING AND",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689771827appendicesall0.pdf",
  "source_file": "raw/cii/1961/year_wise/1689771827appendicesall0.pdf",
  "source_sha256": "603ed9164c3beb2f70cc0e25c10c65c762a1069515ff8205289c1a052246f1bb",
  "table_no": "",
- "pdf_title": "HOUSE BREAKING—",
- "row_label": "Si. No. / State / Persons in custody pending Persons in custody pending investigation oron bail during the stage of investigation",
+ "pdf_title": "26 KIDNAPPING AND",
+ "row_label": "Sl. No. / State",
  "pages": [
-  23
+  9
  ],
- "n_rows": 33,
- "n_cols": 3,
- "n_cells": 96,
+ "n_rows": 34,
+ "n_cols": 6,
+ "n_cells": 204,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Persons in custody pending | - trial or on bail during the stage of trial",
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Persons in custody pending",
-    "- trial or on bail during the stage of trial"
+    "Cases pending investigation from previous year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending disposal in court",
+   "header": [
+    "Cases pending disposal in court"
    ]
   },
   {
    "col_no": "5",
-   "name": "Persons in custody pending | Persons arrested during the year",
+   "name": "Cases reported during the year",
    "header": [
-    "Persons in custody pending",
-    "Persons arrested during the year"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Persons released, by the Police or Magistrate’ before trial",
+   "name": "Cases not investigated, declared false or mistake of fact or law or non-cognizable and pending investigation or trial",
    "header": [
-    "Persons released, by the Police or Magistrate’ before trial"
+    "Cases not investigated, declared false or mistake of fact or law or non-cognizable and pending investigation or trial"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total true cases",
+   "header": [
+    "Total true cases"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Cases not detected",
+   "header": [
+    "Cases not detected"
    ]
   }
  ],
@@ -52,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_checked": 24,
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

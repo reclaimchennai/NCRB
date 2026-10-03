@@ -8,21 +8,22 @@
  "serial": "48",
  "title": "Juvenile Delinquency (IPC) Under Different Crime Heads & Percentage Changes in 1999 over 1989, QA and 1998",
  "listing_title": "Juvenile Delinquency (IPC) Under Different Crime Heads & Percentage Changes in 1999 over 1989, QA and 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-48-1999.pdf",
  "source_sha256": "f5db48e6d9d6ff27439a15f736de6ead7023718cdf5597410d9451cb4f5a1efc",
  "table_no": "48",
- "pdf_title": "JUVENILE. DELINQUENCY (IPC) UNDEK 01KKEKENT CRIME HEADS & PERCENTAGE CHANGES IN 1999 OVER 1989, QA AND 1998",
- "row_label": "CRIME HEAD SL. NO. a)",
+ "pdf_title": "N. C. R. B., (M. H. A.) CRIME IN INDIA - 1999 TABLE 48",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1,
+  2,
   2
  ],
- "n_rows": 48,
+ "n_rows": 28,
  "n_cols": 11,
- "n_cells": 255,
+ "n_cells": 299,
  "columns": [
   {
    "col_no": "3",
@@ -40,9 +41,9 @@
   },
   {
    "col_no": "5",
-   "name": "1995 (S)",
+   "name": "1995",
    "header": [
-    "1995 (S)"
+    "1995"
    ]
   },
   {
@@ -68,55 +69,39 @@
   },
   {
    "col_no": "9",
-   "name": "QUINQUENNIAL AVG. (1994-1998) (Q.A)",
-   "header": [
-    "QUINQUENNIAL AVG. (1994-1998) (Q.A)"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "1999",
-   "header": [
-    "1999"
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "PERCENTAGE C'HANGE IN 1999 [(+) INCREASE/(-) NECREASF! OVEF | 1989 (ly",
-   "header": [
-    "PERCENTAGE C'HANGE IN 1999 [(+) INCREASE/(-) NECREASF! OVEF",
-    "1989 (ly"
-   ]
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "PERCENTAGE C'HANGE IN 1999 [(+) INCREASE/(-) NECREASF! OVEF | QA",
-   "header": [
-    "PERCENTAGE C'HANGE IN 1999 [(+) INCREASE/(-) NECREASF! OVEF",
-    "QA"
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "PERCENTAGE C'HANGE IN 1999 [(+) INCREASE/(-) NECREASF! OVEF | 1998",
-   "header": [
-    "PERCENTAGE C'HANGE IN 1999 [(+) INCREASE/(-) NECREASF! OVEF",
-    "1998"
-   ]
+   "name": "col_13",
+   "header": []
   }
  ],
- "notes": [
-  "NOTE; *5::22==:== hat the Crime Head was till that year.",
-  "# indicates that the crime head was not available in 1994, hence QA could not be"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

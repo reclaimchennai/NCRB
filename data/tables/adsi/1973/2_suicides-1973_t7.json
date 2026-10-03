@@ -6,71 +6,84 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1973",
  "serial": "2",
- "title": "of Suicides by sex during 1973",
+ "title": "Distribution of Suicides by Sex. On an average 61·8 per cent of the persons who committed suicide were males. The percentage of male involvement was high in eleven states and higher than the all India average. The percentage of male involvement in the union territories and metropolitan cities",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1973.pdf",
  "source_file": "raw/adsi/1973/year_wise/suicides-1973.pdf",
  "source_sha256": "91605f351a48828127de6d1af2a4deacb109bb840b177d3bb31de3bd18cea036",
- "table_no": "7",
- "pdf_title": "of Suicides by sex during 1973",
- "row_label": "Male ‘SI. No. Name of States / U.Ts./ Cities 20 1. Andhra Pradesh",
+ "table_no": "",
+ "pdf_title": "Distribution of Suicides by Sex. On an average 61·8 per cent of the persons who committed suicide were males. The percentage of male involvement was high in eleven states and higher than the all India average. The percentage of male involvement in the union territories and metropolitan cities",
+ "row_label": "15. Orissa 16. Punjab 17. Rajasthan 18. Tamil Nadu 19. Tripura 20. Uttar Pradesh 21. West Bengal",
  "pages": [
-  11,
-  12
+  10,
+  10
  ],
- "n_rows": 41,
- "n_cols": 5,
- "n_cells": 183,
+ "n_rows": 23,
+ "n_cols": 9,
+ "n_cells": 207,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Male | 3 1939",
-   "header": [
-    "Male",
-    "3 1939"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Male | %Male over total 4 57°3",
-   "header": [
-    "Male",
-    "%Male over total 4 57°3"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "Female 5 1447",
-   "header": [
-    "Female 5 1447"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "§ %Female over total 6 42:7",
-   "header": [
-    "§ %Female over total 6 42:7"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "Total 7 - 3386",
-   "header": [
-    "Total 7 - 3386"
-   ]
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "8",
+   "name": "col_8",
+   "header": []
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "col_10",
+   "header": []
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 13,
+  "cells_passed": 9,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 18181, sum 12",
+   "col 7 'TOTAL (STATES)': printed 12015, sum 8",
+   "col 11 'TOTAL (STATES)': printed 40241, sum 21",
+   "col 11 'TOTAL (CITIES)': printed 1214, sum 1514"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

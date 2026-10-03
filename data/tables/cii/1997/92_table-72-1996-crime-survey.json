@@ -8,81 +8,72 @@
  "serial": "92",
  "title": "Disposal of Persons Arrested Under IPC Crimes by Police During 1997 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested Under IPC Crimes by Police During 1997 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-72-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-72-1996-crime-survey.pdf",
  "source_sha256": "65e600f5d5f78f989ec8c2786ba45849373865b5be220fbba463da4c8d94b9eb",
  "table_no": "72",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY POLICE DURING 1997",
- "row_label": "(STATE & UT-WISE) STATE/UT a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-72",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 6,
- "n_cells": 209,
+ "n_cells": 210,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | TOTAL No, PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR",
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "(STATE & UT-WISE)",
-    "TOTAL No, PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR"
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | PERSONS RELEASED BEFORE TRIAL",
+   "name": "NUMBER OF | PERSONS RELEASED BEFORE TRIAL",
    "header": [
-    "(STATE & UT-WISE)",
+    "NUMBER OF",
     "PERSONS RELEASED BEFORE TRIAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | ee PERSONS CHARGE SHEETED",
+   "name": "NUMBER OF | PERSONS CHARGE SHEETED",
    "header": [
-    "(STATE & UT-WISE)",
-    "ee PERSONS CHARGE SHEETED"
+    "NUMBER OF",
+    "PERSONS CHARGE SHEETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+   "name": "NUMBER OF | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
    "header": [
-    "(STATE & UT-WISE)",
+    "NUMBER OF",
     "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | PENDENCY",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "(STATE & UT-WISE)",
-    "PENDENCY"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | PERCENTO ALLINDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "PERCENTO ALLINDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "NOT 1.* N CUSTODY OR ON BAIL.",
-  "2. PERCENTAGE LESS THAN 0.05 IS ALSO SHOWN AS 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 12,
-  "cells_passed": 10,
-  "failures": [
-   "col 4 'TOTAL (UTs)': printed 1270, sum 1280",
-   "col 6 'TOTAL (STATES)': printed 589732, sum 582960"
-  ],
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

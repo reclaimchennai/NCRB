@@ -6,77 +6,54 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1980",
  "serial": "2",
- "title": "Comparative Statement of jacidence of Acridental Deaths in",
+ "title": "10 ## Union Territories : The incidence of accidental deaths went up to 1.5 percent in 1980 over 1979 in the Union Territories as a whole while a decline of 3.6 percent was recorded in 1979 over 1978. The Union Territories which registered a decline in the total number of accidental deaths in 1980 over 1979 were, Mizoram (30.4%), Pondicherry (1.8%), and Goa, Daman & Diu (1.7%) and the Union Territories which registered an increase were Arunachal Pradesh (34.5%), Chandigarh (29.0%), Dadra & Nagar Haveli (28.6%), Andaman & Nicobar Islands (9.7%) and Delhi (1.3%). In Lakshadweep 5 cases of accidental deaths were reported in year 1980 as against nil in 1979.",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1980.pdf",
  "source_file": "raw/adsi/1980/year_wise/accidental-deaths-1980.pdf",
  "source_sha256": "8294f99cd6ad7cf68af0a944716a636f6d25f24844a4baa44c30dd3c4a27d604",
  "table_no": "IV",
- "pdf_title": "Comparative Statement of jacidence of Acridental Deaths in",
- "row_label": "4 / 2",
+ "pdf_title": "10 ## Union Territories : The incidence of accidental deaths went up to 1.5 percent in 1980 over 1979 in the Union Territories as a whole while a decline of 3.6 percent was recorded in 1979 over 1978. The Union Territories which registered a decline in the total number of accidental deaths in 1980 over 1979 were, Mizoram (30.4%), Pondicherry (1.8%), and Goa, Daman & Diu (1.7%) and the Union Territories which registered an increase were Arunachal Pradesh (34.5%), Chandigarh (29.0%), Dadra & Nagar Haveli (28.6%), Andaman & Nicobar Islands (9.7%) and Delhi (1.3%). In Lakshadweep 5 cases of accidental deaths were reported in year 1980 as against nil in 1979.",
+ "row_label": "Serial No. / Names of States/U.Ts./Cities",
  "pages": [
-  11,
-  12
+  11
  ],
- "n_rows": 46,
- "n_cols": 7,
- "n_cells": 143,
+ "n_rows": 12,
+ "n_cols": 3,
+ "n_cells": 35,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Number of Accidental Deaths (3)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
-  },
-  {
-   "col_no": "10001",
-   "name": "col_10001",
-   "header": []
-  },
-  {
-   "col_no": "10002",
-   "name": "3",
+   "name": "Number of Accidental Deaths (4)",
    "header": [
-    "3"
+    "Number of Accidental Deaths"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "4",
+   "col_no": "5",
+   "name": "%age variation from 1979 to 1980",
    "header": [
-    "4"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "5",
-   "header": [
-    "5"
+    "%age variation from 1979 to 1980"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 2,
-  "failures": [
-   "col 10002 ''TOTAL (STATES).': printed 106022, sum 61254"
-  ],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

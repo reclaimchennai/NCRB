@@ -8,164 +8,180 @@
  "serial": "9",
  "title": "Distribution of Accidental Deaths by Natural causes in India during 2000 (all India)",
  "listing_title": "Distribution of Accidental Deaths by Natural causes in India during 2000 (all India)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-5_2000.pdf",
  "source_file": "raw/adsi/2000/table_content/table-5_2000.pdf",
  "source_sha256": "4791118c88b8936f13c91dd2a18f7a931f3c9300a2f30c1f8d58def9f257b7fc",
  "table_no": "5",
- "pdf_title": "of Accidental Deaths by Natural Causes in India during 2000",
- "row_label": "(All India) SI. No. / (All India) Causes",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA – 2000 N.C.R.B., (M.H.A.) TABLE - 5",
+ "row_label": "Sl. No. / Causes",
  "pages": [
   1,
   2
  ],
- "n_rows": 16,
+ "n_rows": 13,
  "n_cols": 19,
- "n_cells": 242,
+ "n_cells": 247,
  "columns": [
   {
    "col_no": "3",
-   "name": "(All India) | Male",
+   "name": "Number of Accidental Deaths | Upto 14 years | Male",
    "header": [
-    "(All India)",
+    "Number of Accidental Deaths",
+    "Upto 14 years",
     "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "(All India) | Upto 14 years Female",
+   "name": "Number of Accidental Deaths | Upto 14 years | Female",
    "header": [
-    "(All India)",
-    "Upto 14 years Female"
+    "Number of Accidental Deaths",
+    "Upto 14 years",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "(All India) | Number | Total",
+   "name": "Number of Accidental Deaths | Upto 14 years | Total",
    "header": [
-    "(All India)",
-    "Number",
+    "Number of Accidental Deaths",
+    "Upto 14 years",
     "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "(All India) | Number | Male",
+   "name": "Number of Accidental Deaths | 15-29 years | Male",
    "header": [
-    "(All India)",
-    "Number",
+    "Number of Accidental Deaths",
+    "15-29 years",
     "Male"
    ]
   },
   {
    "col_no": "7",
-   "name": "(All India) | of 15-29 years Female",
+   "name": "Number of Accidental Deaths | 15-29 years | Female",
    "header": [
-    "(All India)",
-    "of 15-29 years Female"
+    "Number of Accidental Deaths",
+    "15-29 years",
+    "Female"
    ]
   },
   {
    "col_no": "8",
-   "name": "(All India) | Accidental Total",
+   "name": "Number of Accidental Deaths | 15-29 years | Total",
    "header": [
-    "(All India)",
-    "Accidental Total"
+    "Number of Accidental Deaths",
+    "15-29 years",
+    "Total"
    ]
   },
   {
    "col_no": "9",
-   "name": "(All India) | Deaths Male",
+   "name": "Number of Accidental Deaths | 30-44 years | Male",
    "header": [
-    "(All India)",
-    "Deaths Male"
+    "Number of Accidental Deaths",
+    "30-44 years",
+    "Male"
    ]
   },
   {
    "col_no": "10",
-   "name": "(All India) | 30-44 years Female",
+   "name": "Number of Accidental Deaths | 30-44 years | Female",
    "header": [
-    "(All India)",
-    "30-44 years Female"
+    "Number of Accidental Deaths",
+    "30-44 years",
+    "Female"
    ]
   },
   {
-   "col_no": "14",
-   "name": "(All India) | Total",
+   "col_no": "11",
+   "name": "Number of Accidental Deaths | 30-44 years | Total",
    "header": [
-    "(All India)",
+    "Number of Accidental Deaths",
+    "30-44 years",
     "Total"
    ]
   },
   {
    "col_no": "12",
-   "name": "Upto 45-59 years | Male",
+   "name": "Number of Accidental Deaths | Upto 45-59 years | Male",
    "header": [
+    "Number of Accidental Deaths",
     "Upto 45-59 years",
     "Male"
    ]
   },
   {
    "col_no": "13",
-   "name": "Upto 45-59 years | Female",
+   "name": "Number of Accidental Deaths | Upto 45-59 years | Female",
    "header": [
+    "Number of Accidental Deaths",
     "Upto 45-59 years",
     "Female"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Upto 45-59 years | Total",
+   "col_no": "14",
+   "name": "Number of Accidental Deaths | Upto 45-59 years | Total",
    "header": [
+    "Number of Accidental Deaths",
     "Upto 45-59 years",
     "Total"
    ]
   },
   {
    "col_no": "15",
-   "name": "60 years & above | Male",
+   "name": "Number of Accidental Deaths | 60 years & above | Male",
    "header": [
+    "Number of Accidental Deaths",
     "60 years & above",
     "Male"
    ]
   },
   {
    "col_no": "16",
-   "name": "60 years & above | Female",
+   "name": "Number of Accidental Deaths | 60 years & above | Female",
    "header": [
+    "Number of Accidental Deaths",
     "60 years & above",
     "Female"
    ]
   },
   {
    "col_no": "17",
-   "name": "60 years & above | Total",
+   "name": "Number of Accidental Deaths | 60 years & above | Total",
    "header": [
+    "Number of Accidental Deaths",
     "60 years & above",
     "Total"
    ]
   },
   {
    "col_no": "18",
-   "name": "Total | Maile",
+   "name": "Number of Accidental Deaths | Total | Male",
    "header": [
+    "Number of Accidental Deaths",
     "Total",
-    "Maile"
+    "Male"
    ]
   },
   {
    "col_no": "19",
-   "name": "Total | Female",
+   "name": "Number of Accidental Deaths | Total | Female",
    "header": [
+    "Number of Accidental Deaths",
     "Total",
     "Female"
    ]
   },
   {
    "col_no": "20",
-   "name": "Total | Total",
+   "name": "Number of Accidental Deaths | Total | Total",
    "header": [
+    "Number of Accidental Deaths",
     "Total",
     "Total"
    ]
@@ -183,8 +199,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 11,
-  "other_totals_passed": 6
+  "other_totals_checked": 18,
+  "other_totals_passed": 17
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

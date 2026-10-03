@@ -8,40 +8,30 @@
  "serial": "6",
  "title": "Publication over the years",
  "listing_title": "Publication over the years",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/publication-year_13_1993.pdf",
  "source_file": "raw/adsi/1993/year_wise/publication-year_13_1993.pdf",
  "source_sha256": "375b5bab3ca79ddb4d67d260c4e9db3d9aff6b74f9017358187ad4f972e36f56",
  "table_no": "",
- "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA",
- "row_label": "SL. YEAROF WH NO",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA (iii)",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 19,
- "n_cols": 2,
- "n_cells": 32,
+ "n_rows": 27,
+ "n_cols": 1,
+ "n_cells": 27,
  "columns": [
   {
-   "col_no": "2",
-   "name": "SL. YEAROF WH | REPORT",
-   "header": [
-    "SL. YEAROF WH",
-    "REPORT"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "00 IN",
+   "name": "YEAR OF THE REPORT",
    "header": [
-    "00 IN"
+    "YEAR OF THE REPORT"
    ]
   }
  ],
- "notes": [
-  "(iii)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

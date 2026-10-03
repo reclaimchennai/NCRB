@@ -6,60 +6,46 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1994",
  "serial": "7",
- "title": "PERCENTAGE GROWTH IN INCIDENCE, POPULATION AND RATE",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 19 PERCENTAGE GROWTH IN INCIDENCE, POPULATION AND RATE OF ACCIDENTAL DEATHS DURING 1990 TO 1994",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1994.pdf",
  "source_file": "raw/adsi/1994/year_wise/accidental-deaths-1994.pdf",
  "source_sha256": "6ccee761c6f40bf3060f2134e781f1ee69f2bad9f14e7e9b405ebb26af808c5e",
  "table_no": "",
- "pdf_title": "PERCENTAGE GROWTH IN INCIDENCE, POPULATION AND RATE",
- "row_label": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 19 PERCENTAGE GROWTH IN INCIDENCE, POPULATION AND RATE OF ACCIDENTAL DEATHS DURING 1990 TO 1994",
+ "row_label": "YEAR",
  "pages": [
   4
  ],
- "n_rows": 7,
- "n_cols": 4,
- "n_cells": 26,
+ "n_rows": 5,
+ "n_cols": 3,
+ "n_cells": 15,
  "columns": [
   {
    "col_no": "2",
-   "name": "OF ACCIDENTAL DEATHS DURING 1990 TO 1994 | YEAR",
+   "name": "INCIDENCE",
    "header": [
-    "OF ACCIDENTAL DEATHS DURING 1990 TO 1994",
-    "YEAR"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "OF ACCIDENTAL DEATHS DURING 1990 TO 1994 | INCIDENCE",
-   "header": [
-    "OF ACCIDENTAL DEATHS DURING 1990 TO 1994",
     "INCIDENCE"
    ]
   },
   {
-   "col_no": "4",
-   "name": "OF ACCIDENTAL DEATHS DURING 1990 TO 1994 | POPULATION",
+   "col_no": "3",
+   "name": "POPULATION",
    "header": [
-    "OF ACCIDENTAL DEATHS DURING 1990 TO 1994",
     "POPULATION"
    ]
   },
   {
-   "col_no": "5",
-   "name": "OF ACCIDENTAL DEATHS DURING 1990 TO 1994 | RATE",
+   "col_no": "4",
+   "name": "RATE",
    "header": [
-    "OF ACCIDENTAL DEATHS DURING 1990 TO 1994",
     "RATE"
    ]
   }
  ],
- "notes": [
-  "YEAR",
-  "HWRATE"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -67,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

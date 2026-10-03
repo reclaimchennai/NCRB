@@ -6,54 +6,56 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "Female inmates Capacity, Population & Occupancy rate duriny: 1999",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 Authorised Capacity of Inmates in Borstal Schools in States/UTs during 1999",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "",
- "pdf_title": "Female inmates Capacity, Population & Occupancy rate duriny: 1999",
- "row_label": "SL. STATE/UT NO. ay",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 Authorised Capacity of Inmates in Borstal Schools in States/UTs during 1999",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  26
+  20
  ],
- "n_rows": 31,
- "n_cols": 3,
- "n_cells": 88,
+ "n_rows": 32,
+ "n_cols": 4,
+ "n_cells": 128,
  "columns": [
   {
    "col_no": "3",
-   "name": "AVAILABLE CAPACITY",
+   "name": "NUMBER OF BORSTAL SCHOOL",
    "header": [
-    "AVAILABLE CAPACITY"
+    "NUMBER OF BORSTAL SCHOOL"
    ]
   },
   {
    "col_no": "4",
-   "name": "FEMALE INMATES POPULATION",
+   "name": "TOTAL CAPACITY | MALE",
    "header": [
-    "FEMALE INMATES POPULATION"
+    "TOTAL CAPACITY",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL CAPACITY | FEMALE",
+   "header": [
+    "TOTAL CAPACITY",
+    "FEMALE"
    ]
   },
   {
    "col_no": "6",
-   "name": "OCCUPANCY RATE *",
+   "name": "TOTAL CAPACITY | TOTAL",
    "header": [
-    "OCCUPANCY RATE *"
+    "TOTAL CAPACITY",
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "* population",
-  "Tota! Capacity",
-  "From the table, it is evident that against the available capacity for the female",
-  "inmates, occupancy rate of such prisoners during the period under consideration was very",
-  "high in the state of Haryana (716%) followed by Delhi (365.8%), Bihar (157.2%), Punjab",
-  "(153%) and Maharashtra (115.8%). In the remaining States/UTs, the female inmates",
-  "lodged in jails were less than capacity available for them."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

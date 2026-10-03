@@ -8,70 +8,61 @@
  "serial": "11",
  "title": "Incidence and Rate of Accidental Deaths during 1998 (State, UT & City-wise)",
  "listing_title": "Incidence and Rate of Accidental Deaths during 1998 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-2_1998.pdf",
  "source_file": "raw/adsi/1998/table_content/table-2_1998.pdf",
  "source_sha256": "06a3c8acd80c6f32393b50d5cdb7ca6dc0c215c90afb51e186eddef1b03e27cb",
  "table_no": "2",
- "pdf_title": "",
- "row_label": "State/UT/City",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) TABLE-2",
+ "row_label": "Sl. No. . / State/UT/City",
  "pages": [
   1
  ],
- "n_rows": 62,
+ "n_rows": 59,
  "n_cols": 5,
- "n_cells": 293,
+ "n_cells": 291,
  "columns": [
   {
    "col_no": "3",
-   "name": "1998 | Incidence And Rate of Accidental Deaths During (State, UT & City-wise) | -",
+   "name": "Number of Accidental Deaths",
    "header": [
-    "1998",
-    "Incidence And Rate of Accidental Deaths During (State, UT & City-wise)",
-    "-"
+    "Number of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "1998 | Incidence And Rate of Accidental Deaths During (State, UT & City-wise) | rercemage Share in Total Deaths",
+   "name": "Percentage Share in Total Deaths",
    "header": [
-    "1998",
-    "Incidence And Rate of Accidental Deaths During (State, UT & City-wise)",
-    "rercemage Share in Total Deaths"
+    "Percentage Share in Total Deaths"
    ]
   },
   {
    "col_no": "5",
-   "name": "1998 | Estimated Mid- Vear Population {in Lakh)",
+   "name": "Estimated Mid-Year Population (in Lakh)",
    "header": [
-    "1998",
-    "Estimated Mid- Vear Population {in Lakh)"
+    "Estimated Mid-Year Population (in Lakh)"
    ]
   },
   {
    "col_no": "6",
-   "name": "1998 | ‘ 7",
+   "name": "Rate of Accidental Deaths",
    "header": [
-    "1998",
-    "‘ 7"
+    "Rate of Accidental Deaths"
    ]
   },
   {
    "col_no": "7",
-   "name": "1998 | Rank*",
+   "name": "Rank*",
    "header": [
-    "1998",
     "Rank*"
    ]
   }
  ],
- "notes": [
-  "* Rank on the basis of Rate of ‘Accidental Deaths (Col.6) in States/UTs and Cities."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 4,
+  "cells_passed": 4,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

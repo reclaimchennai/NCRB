@@ -8,54 +8,58 @@
  "serial": "8",
  "title": "Police Strength in States- 1965",
  "listing_title": "Police Strength in States- 1965",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680079050TABLE-8-1965.pdf",
  "source_file": "raw/cii/1965/table_content/1680079050TABLE-8-1965.pdf",
  "source_sha256": "ca9b36d6cc8c84ad4c08ba9b8f2ff0af06fe6b0cad9f56e0618c8a5c2be54d1c",
  "table_no": "",
- "pdf_title": "‘L2L8 No. VIU POLICE SfRENGT IN STAVES—1965",
- "row_label": "No. - / States / tion in",
+ "pdf_title": "30 Table No. VIII POLICE STRENGTH IN STATES—1965",
+ "row_label": "Sl. No. / States",
  "pages": [
   1
  ],
  "n_rows": 16,
- "n_cols": 4,
- "n_cells": 61,
+ "n_cols": 5,
+ "n_cells": 80,
  "columns": [
   {
-   "col_no": "4",
-   "name": "abie",
+   "col_no": "3",
+   "name": "Estimated Population in thousands (1965)",
    "header": [
-    "abie"
+    "Estimated Population in thousands (1965)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Total Cogniz-able Crime",
+   "header": [
+    "Total Cogniz-able Crime"
    ]
   },
   {
    "col_no": "5",
-   "name": "of",
+   "name": "Actual Strength of Police force",
    "header": [
-    "of"
+    "Actual Strength of Police force"
    ]
   },
   {
    "col_no": "6",
-   "name": "Crime - Policr- (6)",
+   "name": "Volume of Crime per 10,000 of population",
    "header": [
-    "Crime - Policr-"
+    "Volume of Crime per 10,000 of population"
    ]
   },
   {
    "col_no": "7",
-   "name": "Crime - Policr- (7)",
+   "name": "Number of Police-men per 10,000 of population",
    "header": [
-    "Crime - Policr-"
+    "Number of Police-men per 10,000 of population"
    ]
   }
  ],
- "notes": [
-  "5 (9) - the yeas 1964,",
-  "(+4) for we 1963."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

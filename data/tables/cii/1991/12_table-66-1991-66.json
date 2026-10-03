@@ -1,0 +1,125 @@
+{
+ "table_id": "cii/1991/12_table-66-1991-66",
+ "publication": "cii",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "12",
+ "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1991 (Men + Women)",
+ "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1991 (Men + Women)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-66-1991-66.pdf",
+ "source_file": "raw/cii/1991/table_content/table-66-1991-66.pdf",
+ "source_sha256": "b87966fa03f1f54466d0d5fa1c7795a695aa24060779634441587d8117757cd0",
+ "table_no": "66",
+ "pdf_title": "198 TABLE-66 SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE",
+ "row_label": "SL. STATE/UT/CITY NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 10,
+ "n_cells": 470,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "DE/10/DIS/SP | SANC- TIioned",
+   "header": [
+    "DE/10/DIS/SP",
+    "SANC- TIioned"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DE/10/DIS/SP | ACTUAL",
+   "header": [
+    "DE/10/DIS/SP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ASP & DEP | SANC- TIioned",
+   "header": [
+    "ASP & DEP",
+    "SANC- TIioned"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ASP & DEP | ACTUAL",
+   "header": [
+    "ASP & DEP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INSPECTOR, SI & A.S.I. | SANC- TIioned",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "SANC- TIioned"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS BELOW A.S.I. | SANC- TIioned",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "SANC- TIioned"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | SANC- TIioned",
+   "header": [
+    "GRAND TOTAL",
+    "SANC- TIioned"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 20,
+  "cells_passed": 14,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 12609, sum 12629",
+   "col 9 'TOTAL (STATES)': printed 257673, sum 237683",
+   "col 9 'TOTAL (ALL-INDIA)': printed 250467, sum 270467",
+   "col 11 'TOTAL (STATES)': printed 251995, sum 249997",
+   "col 12 'TOTAL (STATES)': printed 235667, sum 235927",
+   "col 12 'TOTAL (ALL-INDIA)': printed 248737, sum 248537"
+  ],
+  "other_totals_checked": 10,
+  "other_totals_passed": 10
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -6,58 +6,63 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "APPENDIX",
+ "title": "88 APPENDIX ROBBERY—",
  "listing_title": "Annexures",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1969.pdf",
  "source_file": "raw/cii/1969/table_chapter/appendix-1969.pdf",
  "source_sha256": "a75b83a19ff606bf46a76a58309508479227b481a4bef1e967c9a9a899a65179",
  "table_no": "",
- "pdf_title": "APPENDIX",
- "row_label": "Si. No. / States/U. Ts./Cities / Cases investigation from previous year.",
+ "pdf_title": "88 APPENDIX ROBBERY—",
+ "row_label": "Sl. No",
  "pages": [
-  8
+  10
  ],
  "n_rows": 39,
- "n_cols": 5,
- "n_cells": 189,
+ "n_cols": 6,
+ "n_cells": 234,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Cases nending pending disposalin courts",
+   "col_no": "3",
+   "name": "States/U. Ts./Cities",
    "header": [
-    "Cases nending pending disposalin courts"
+    "States/U. Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending investigation from previous year.",
+   "header": [
+    "Cases pending investigation from previous year."
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases reported during the year",
+   "name": "Cases pending disposal in courts",
    "header": [
-    "Cases reported during the year"
+    "Cases pending disposal in courts"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases not investi declared false (+) mistake of fact or law (+) noncogniza able",
+   "name": "Cases reported during the year.",
    "header": [
-    "Cases not investi declared false (+) mistake of fact or law (+) noncogniza able"
+    "Cases reported during the year."
    ]
   },
   {
    "col_no": "7",
-   "name": "DACOITY— | Cases investigated(-+ gation atthe endof the year",
+   "name": "Cases investigated (+) declared false (+) mistake of fact or law (+) non-cognizable",
    "header": [
-    "DACOITY—",
-    "Cases investigated(-+ gation atthe endof the year"
+    "Cases investigated (+) declared false (+) mistake of fact or law (+) non-cognizable"
    ]
   },
   {
    "col_no": "8",
-   "name": "DACOITY— | Cases pending pending trial atthe end of the year",
+   "name": "Cases pending investigation at the end of the year",
    "header": [
-    "DACOITY—",
-    "Cases pending pending trial atthe end of the year"
+    "Cases pending investigation at the end of the year"
    ]
   }
  ],
@@ -66,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 1
+  "other_totals_checked": 23,
+  "other_totals_passed": 23
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

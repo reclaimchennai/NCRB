@@ -8,20 +8,20 @@
  "serial": "35",
  "title": "Table 35: Incidence of deaths of Female Inmates in Prisons during 1998",
  "listing_title": "Table 35: Incidence of deaths of Female Inmates in Prisons during 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-35_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-35_1998.pdf",
  "source_sha256": "352e40c65ac8c7537ffa392ab19bc92ae3fbebac1792f886dc1bb28125218fef",
  "table_no": "35",
- "pdf_title": "INCIDENCE OF DEATHS OF FEMALE INMATES IN PRISONS DURING 1998",
- "row_label": "STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-35",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 1,
+ "n_rows": 35,
  "n_cols": 9,
- "n_cells": 8,
+ "n_cells": 315,
  "columns": [
   {
    "col_no": "3",
@@ -32,74 +32,73 @@
   },
   {
    "col_no": "4",
-   "name": "SUICIDE",
+   "name": "UN-NATURAL DEATH | SUICIDE",
    "header": [
+    "UN-NATURAL DEATH",
     "SUICIDE"
    ]
   },
   {
    "col_no": "5",
-   "name": "DEATH | TION",
+   "name": "UN-NATURAL DEATH | EXECUTION",
    "header": [
-    "DEATH",
-    "TION"
+    "UN-NATURAL DEATH",
+    "EXECUTION"
    ]
   },
   {
    "col_no": "6",
-   "name": "DEATH | MURDER BY INMATES",
+   "name": "UN-NATURAL DEATH | MURDER BY INMATES",
    "header": [
-    "DEATH",
+    "UN-NATURAL DEATH",
     "MURDER BY INMATES"
    ]
   },
   {
    "col_no": "7",
-   "name": "DEATH | DEATH DUE FIRING",
+   "name": "UN-NATURAL DEATH | DEATH DUE FIRING",
    "header": [
-    "DEATH",
+    "UN-NATURAL DEATH",
     "DEATH DUE FIRING"
    ]
   },
   {
    "col_no": "8",
-   "name": "DEATH | DEATH DUE TO To EXCESS",
+   "name": "UN-NATURAL DEATH | DEATH DUE TO EXCESS",
    "header": [
-    "DEATH",
-    "DEATH DUE TO To EXCESS"
+    "UN-NATURAL DEATH",
+    "DEATH DUE TO EXCESS"
    ]
   },
   {
    "col_no": "9",
-   "name": "DEATH | OTHERS NEGLIGENCE/ BY JAIL",
+   "name": "UN-NATURAL DEATH | OTHERS NEGLIGENCE/ BY JAIL",
    "header": [
-    "DEATH",
+    "UN-NATURAL DEATH",
     "OTHERS NEGLIGENCE/ BY JAIL"
    ]
   },
   {
    "col_no": "10",
-   "name": "DEATH | TOTAL COL.4 TO PERSON NEL",
+   "name": "UN-NATURAL DEATH | TOTAL COL.4 TO PERSON NEL",
    "header": [
-    "DEATH",
+    "UN-NATURAL DEATH",
     "TOTAL COL.4 TO PERSON NEL"
    ]
   },
   {
    "col_no": "11",
-   "name": "DEATH | TOTAL DEATHS (COL.3 + COL.10)",
+   "name": "UN-NATURAL DEATH | TOTAL DEATHS (COL.3 + COL.10)",
    "header": [
-    "DEATH",
+    "UN-NATURAL DEATH",
     "TOTAL DEATHS (COL.3 + COL.10)"
    ]
   }
  ],
- "notes": [
-  "NA DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 27,
+  "cells_passed": 27,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

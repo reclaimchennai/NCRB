@@ -8,45 +8,52 @@
  "serial": "61",
  "title": "Disposal of SLL Crime Cases by Police During 1994",
  "listing_title": "Disposal of SLL Crime Cases by Police During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table16-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table16-1994_2.pdf",
  "source_sha256": "2093e70c28bbe321b44c69f9774af17ab4f19621d7257629d47e143097caa409",
  "table_no": "16",
- "pdf_title": "DISPOSAL OF SLL CRIME CASES BY POLICE DURING 1994",
- "row_label": "CRIME HEAD SL. NO. a) / NO. OF CASES IN WHICH TOTAL NO. OF CASES FOR INVESTIGATION - INCLUDING PENDING CASES",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-16",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 6,
- "n_cells": 93,
+ "n_cols": 7,
+ "n_cells": 119,
  "columns": [
   {
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
+   "header": [
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "NO. OF CASES IN WHICH | WAS REFUSED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
     "NO. OF CASES IN WHICH",
-    "WAS REFUSED"
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ MISTAKE OF FACT OR OF LAW ETC.",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC.",
    "header": [
     "NO. OF CASES IN WHICH",
     "INVESTIGATION WAS COMPLETED",
-    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR OF LAW ETC."
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE - SUBMITTED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
     "NO. OF CASES IN WHICH",
     "INVESTIGATION WAS COMPLETED",
-    "FINAL REPORT TRUE - SUBMITTED"
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
@@ -60,17 +67,17 @@
   },
   {
    "col_no": "8",
-   "name": "NO. OF CASES IN WHICH | TOTAL —{(5) + (6) +(7))",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL ((5) + (6) + (7))",
    "header": [
     "NO. OF CASES IN WHICH",
-    "TOTAL —{(5) + (6) +(7))"
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL ((5) + (6) + (7))"
    ]
   },
   {
    "col_no": "9",
-   "name": "NO. OF CASES IN WHICH | NO. OF CASES PENDING INVESTIGATION",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
    "header": [
-    "NO. OF CASES IN WHICH",
     "NO. OF CASES PENDING INVESTIGATION"
    ]
   }
@@ -80,8 +87,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

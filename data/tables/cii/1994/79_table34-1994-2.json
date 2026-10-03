@@ -8,48 +8,55 @@
  "serial": "79",
  "title": "Disposal of Persons Arrested under IPC Crimes by Police During 1994",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes by Police During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table34-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table34-1994_2.pdf",
  "source_sha256": "c30ec9b9707baae5a7c8128cd6524a1989b51a1cab8b1a23d03ccf1a444f3833",
  "table_no": "34",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY POLICE DURING 1994",
- "row_label": "CRIME HEAD SL. NO. a) / TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREvious YEAR",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-34",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 18,
- "n_cols": 6,
- "n_cells": 106,
+ "n_cols": 7,
+ "n_cells": 126,
  "columns": [
   {
-   "col_no": "4",
-   "name": "PERSONS CHARGE SHEETED | PERSONS RELEASED BEFORE TRIAL NO.",
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "PERSONS CHARGE SHEETED",
-    "PERSONS RELEASED BEFORE TRIAL NO."
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERSONS RELEASED BEFORE TRIAL | NO.",
+   "header": [
+    "PERSONS RELEASED BEFORE TRIAL",
+    "NO."
    ]
   },
   {
    "col_no": "5",
-   "name": "PERSONS CHARGE SHEETED | PERCENTAGE TO TOTAL (5)",
+   "name": "PERSONS RELEASED BEFORE TRIAL | PERCENTAGE TO TOTAL",
    "header": [
-    "PERSONS CHARGE SHEETED",
+    "PERSONS RELEASED BEFORE TRIAL",
     "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERSONS CHARGE SHEETED | NO,",
+   "name": "PERSONS CHARGE SHEETED | NO.",
    "header": [
     "PERSONS CHARGE SHEETED",
-    "NO,"
+    "NO."
    ]
   },
   {
    "col_no": "7",
-   "name": "PERSONS CHARGE SHEETED | PERCENTAGE TO TOTAL (7)",
+   "name": "PERSONS CHARGE SHEETED | PERCENTAGE TO TOTAL",
    "header": [
     "PERSONS CHARGE SHEETED",
     "PERCENTAGE TO TOTAL"
@@ -57,32 +64,28 @@
   },
   {
    "col_no": "8",
-   "name": "PERSONS CHARGE SHEETED | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | NO.",
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | NO.",
    "header": [
-    "PERSONS CHARGE SHEETED",
     "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
     "NO."
    ]
   },
   {
    "col_no": "9",
-   "name": "PERSONS CHARGE SHEETED | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | PERCENTAGE TO TOTAL",
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | PERCENTAGE TO TOTAL",
    "header": [
-    "PERSONS CHARGE SHEETED",
     "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
     "PERCENTAGE TO TOTAL"
    ]
   }
  ],
- "notes": [
-  "* IN CUSTODY OR ON BAIL"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

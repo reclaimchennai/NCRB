@@ -8,26 +8,26 @@
  "serial": "53",
  "title": "The Number of Victims under Different Age Group for the Crime Head 'Rape' in Different States/U.T.s/Cities During 1986",
  "listing_title": "The Number of Victims under Different Age Group for the Crime Head 'Rape' in Different States/U.T.s/Cities During 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl55-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl55-1986.pdf",
  "source_sha256": "f982709e831978d73e2ddb6a39af8ac5bc70eeacc6aad6ae1bea03b96b779f09",
  "table_no": "55",
- "pdf_title": "TheNumberofVictims Under DifferentAgeGroupsfortheC: rime Head' Rape’ indifferentStates/ 1), Te/Citieedurine 1986",
- "row_label": "Sl. No. / States/U.Ts/Cities",
+ "pdf_title": "115 TABLE 55 The Number of Victims Under Different Age Groups for the Crime Head 'Rape' in different States/U. Ts/Cities during 1986",
+ "row_label": "Sl. No. / States/U. Ts/Cities",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 4,
- "n_cells": 182,
+ "n_cells": 188,
  "columns": [
   {
    "col_no": "3",
-   "name": "Number of",
+   "name": "Number of cases reported",
    "header": [
-    "Number of"
+    "Number of cases reported"
    ]
   },
   {
@@ -39,9 +39,9 @@
   },
   {
    "col_no": "5",
-   "name": "Between 16to 30 years",
+   "name": "Between 16 to 30 years",
    "header": [
-    "Between 16to 30 years"
+    "Between 16 to 30 years"
    ]
   },
   {
@@ -54,13 +54,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 7,
-  "cells_passed": 6,
-  "failures": [
-   "col 4 'TOTAL(U.Ts.)': printed 41, sum 42"
-  ],
-  "other_totals_checked": 7,
-  "other_totals_passed": 7
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

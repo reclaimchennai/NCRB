@@ -6,30 +6,23 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "PERCENTAGE SHARE OF DIFFERENT TYPES OF INMATES TO TOTAL INMATES AT THE END OF 1999",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 TABLE-11",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "11",
- "pdf_title": "PERCENTAGE SHARE OF DIFFERENT TYPES OF INMATES TO TOTAL INMATES AT THE END OF 1999",
- "row_label": "SL.",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 TABLE-11",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   93
  ],
- "n_rows": 37,
+ "n_rows": 35,
  "n_cols": 6,
- "n_cells": 195,
+ "n_cells": 210,
  "columns": [
-  {
-   "col_no": "2",
-   "name": "STATE/UT",
-   "header": [
-    "STATE/UT"
-   ]
-  },
   {
    "col_no": "3",
    "name": "LUNATIC",
@@ -60,9 +53,16 @@
   },
   {
    "col_no": "7",
-   "name": "TOTAL OTHERS",
+   "name": "OTHERS",
    "header": [
-    "TOTAL OTHERS"
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
@@ -74,7 +74,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

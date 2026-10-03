@@ -8,49 +8,37 @@
  "serial": "59",
  "title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Women During 1993 (State & UT-Wise)",
  "listing_title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Women During 1993 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-59-1993-crime.pdf",
  "source_sha256": "11d05d8d0cc76afe60754aed8532d77bfd0825ba34f1a18a6c5c4f268aba9688",
  "table_no": "59",
- "pdf_title": "INCIDENCE RATE (R) AND PERCENTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES COMMITTED AGAINST WOMEN DURING 1993 (STATE & UT WISE)",
- "row_label": "(1) STATE;",
+ "pdf_title": "262 TABLE-59 INCIDENCE (I), RATE (R) AND PERCENTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES COMMITTED AGAINST WOMEN DURING 1993",
+ "row_label": "TORTURE (CURRENCY BY HUBBAND AND HES RELATIVE)",
  "pages": [
   1,
+  2,
   2
  ],
- "n_rows": 36,
+ "n_rows": 39,
  "n_cols": 22,
- "n_cells": 652,
+ "n_cells": 778,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(a)",
-   "header": [
-    "(a)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "(3)",
-   "header": [
-    "(3)"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "(4)",
-   "header": [
-    "(4)"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "(uy",
-   "header": [
-    "(uy"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
@@ -59,48 +47,47 @@
   },
   {
    "col_no": "7",
-   "name": "(0)",
-   "header": [
-    "(0)"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "(9)",
-   "header": [
-    "(9)"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "(10)",
-   "header": [
-    "(10)"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "(11)",
-   "header": [
-    "(11)"
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "414!)",
-   "header": [
-    "414!)"
-   ]
+   "name": "col_11",
+   "header": []
+  },
+  {
+   "col_no": "12",
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "col_13",
-   "header": []
+   "name": "TOTAL (13)",
+   "header": [
+    "TOTAL"
+   ]
   },
   {
    "col_no": "14",
-   "name": "col_14",
-   "header": []
+   "name": "TOTAL (14)",
+   "header": [
+    "TOTAL"
+   ]
   },
   {
    "col_no": "15",
@@ -153,18 +140,20 @@
    "header": []
   }
  ],
- "notes": [
-  "Note: 1, than 0.05 is also shown as 0.0",
-  "2. Figures are provisrona:."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 13,
+  "cells_passed": 9,
+  "failures": [
+   "col 13 'TOTAL (STATE)': printed 21314, sum 22066",
+   "col 16 'TOTAL (STATE)': printed 20644, sum 20985",
+   "col 19 'TOTAL (STATE)': printed 1203, sum 12009",
+   "col 22 'TOTAL (STATE)': printed 18776, sum 158974"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

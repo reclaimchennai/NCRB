@@ -8,88 +8,76 @@
  "serial": "76",
  "title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1999 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1999 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-76-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-76-1999.pdf",
  "source_sha256": "bfe6d87e26d93cb9db745e244a00b0e283f87ed6da59a814820204885bf7a987",
  "table_no": "76",
- "pdf_title": "",
- "row_label": "DISPOSAL UF PEKSUNS SL.NO. (i) STATES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 76",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 6,
- "n_cells": 208,
+ "n_cells": 210,
  "columns": [
   {
-   "col_no": "2",
-   "name": "UNDER SLI CRIMES BY POLICE DURING 1999 | (STATE & UT - WISE) | TOTAL NO. STATE/UT OF (2)",
-   "header": [
-    "UNDER SLI CRIMES BY POLICE DURING 1999",
-    "(STATE & UT - WISE)",
-    "TOTAL NO. STATE/UT OF (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "UNDER SLI CRIMES BY POLICE DURING 1999 | (STATE & UT - WISE) | (PERSONS - TRIAL FROM PREvious YEAR @)",
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "UNDER SLI CRIMES BY POLICE DURING 1999",
-    "(STATE & UT - WISE)",
-    "(PERSONS - TRIAL FROM PREvious YEAR @)"
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER SLI CRIMES BY POLICE DURING 1999 | NUMBER OF PERSONS 4",
+   "name": "NUMBER OF | PERSONS RELEASED BEFORE TRIAL",
    "header": [
-    "UNDER SLI CRIMES BY POLICE DURING 1999",
-    "NUMBER OF PERSONS 4"
+    "NUMBER OF",
+    "PERSONS RELEASED BEFORE TRIAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER SLI CRIMES BY POLICE DURING 1999 | PERSONS GATION END THE YEAR Ss",
+   "name": "NUMBER OF | PERSONS CHARGE SHEETED",
    "header": [
-    "UNDER SLI CRIMES BY POLICE DURING 1999",
-    "PERSONS GATION END THE YEAR Ss"
+    "NUMBER OF",
+    "PERSONS CHARGE SHEETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER SLI CRIMES BY POLICE DURING 1999 | nes ari OF ©",
+   "name": "NUMBER OF | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
    "header": [
-    "UNDER SLI CRIMES BY POLICE DURING 1999",
-    "nes ari OF ©"
+    "NUMBER OF",
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "se: - (8)",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "se: - (8)"
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "1. * IN CUSTODY OK ON BAIL.",
-  "2. LESS THEN 0.05 IS ALsu AS 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 5,
-  "failures": [
-   "col 2 'TOTAL (UTs)': printed 26974, sum 26940",
-   "col 4 'TOTAL STATES': printed 3.51179e+06, sum 3.50873e+06",
-   "col 4 'TOTAL (UTs)': printed 19808, sum 19788",
-   "col 5 'TOTAL (UTs)': printed 6493, sum 6423"
-  ],
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

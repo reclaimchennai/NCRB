@@ -6,43 +6,53 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "PERCENTAGE CHANGE IN POPULATION & CRIMES OVIER 1969 & CRIME RATE",
+ "title": "## CHAPTER 1 ## SURVEY OF CRIME ##### 1.1 I.P.C. Crime",
  "listing_title": "Survey of Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-1979.pdf",
  "source_file": "raw/cii/1979/table_chapter/chapter-1-1979.pdf",
  "source_sha256": "d53e7aa1bcbad1caa175c54385a5b79f0fe86ad2cf8ca6b2fe2fe450cab728a3",
- "table_no": "",
- "pdf_title": "PERCENTAGE CHANGE IN POPULATION & CRIMES OVIER 1969 & CRIME RATE",
- "row_label": "5 5c. 40. 30 25. 1S 6 - / a aa!",
+ "table_no": "1",
+ "pdf_title": "## CHAPTER 1 ## SURVEY OF CRIME ##### 1.1 I.P.C. Crime",
+ "row_label": "Sl. No.",
  "pages": [
-  2
+  1
  ],
- "n_rows": 1,
- "n_cols": 2,
- "n_cells": 2,
+ "n_rows": 12,
+ "n_cols": 4,
+ "n_cells": 47,
  "columns": [
   {
-   "col_no": "3",
-   "name": "/ fer it ee",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "/ fer it ee"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Estimated population in millions (mid-year)",
+   "header": [
+    "Estimated population in millions (mid-year)"
    ]
   },
   {
    "col_no": "4",
-   "name": "UP 58. - - UP 26.8 3 26.6f =! -",
+   "name": "Total cognizable crime under the Indian Penal Code",
    "header": [
-    "UP 58. - - UP 26.8 3 26.6f =! -"
+    "Total cognizable crime under the Indian Penal Code"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Rate of crime per one lakh of population",
+   "header": [
+    "Rate of crime per one lakh of population"
    ]
   }
  ],
- "notes": [
-  "POPULATI ON",
-  "CRIMES ----77777",
-  "CRIME"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -50,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

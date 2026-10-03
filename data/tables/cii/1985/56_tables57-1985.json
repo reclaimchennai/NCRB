@@ -8,32 +8,34 @@
  "serial": "56",
  "title": "Police Personnel Killed or Injured by Various Ranks in India During 1985",
  "listing_title": "Police Personnel Killed or Injured by Various Ranks in India During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables57-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables57-1985.pdf",
  "source_sha256": "15404c244aa8f25df4200156e7cc5938535de768bfc0c36d5c798db3b580a970",
  "table_no": "57",
- "pdf_title": "Police Personnel Killed Or Injured By Various Ranks In India",
- "row_label": "During NO.",
+ "pdf_title": "121 TABLE - 57 Police Personnel Killed Or Injured By Various Ranks In India During 1985",
+ "row_label": "SL. NO. / RANKS",
  "pages": [
   1
  ],
- "n_rows": 5,
+ "n_rows": 7,
  "n_cols": 2,
- "n_cells": 10,
+ "n_cells": 14,
  "columns": [
   {
-   "col_no": "2",
-   "name": "1985",
+   "col_no": "3",
+   "name": "KILLED",
    "header": [
-    "1985"
+    "KILLED"
    ]
   },
   {
-   "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "col_no": "4",
+   "name": "INJURED",
+   "header": [
+    "INJURED"
+   ]
   }
  ],
  "notes": [],
@@ -41,10 +43,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

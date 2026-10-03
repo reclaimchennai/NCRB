@@ -8,61 +8,72 @@
  "serial": "36",
  "title": "Juvenile Delinquency (LSL) under Different Crime Heads During 1987 & 1988",
  "listing_title": "Juvenile Delinquency (LSL) under Different Crime Heads During 1987 & 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-36-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-36-1988-2.pdf",
  "source_sha256": "52fbde2407b90bb1da6a1f31675071959d8c3599e6337896fd8626f0889ee47a",
  "table_no": "33",
- "pdf_title": "DISPOSAL OF FERSUNS “=~ r=: UNDER LSL BY COURTS DURING THE YEAR 1988",
- "row_label": "CRIME SL. NO. ql) / HEADS OF UNDER TRIAL THOSE FROM VIOUS",
+ "pdf_title": "120 TABLE-33 DISPOSAL OF PERSONS ARRESTED UNDER LSL BY COURTS DURING THE YEAR 1988",
+ "row_label": "SL. NO. / CRIME HEADS",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 6,
- "n_cells": 102,
+ "n_cols": 7,
+ "n_cells": 119,
  "columns": [
   {
-   "col_no": "4",
-   "name": "TOTAL CASE COMPOUNDED OR WITH PREDRAWN YEAR",
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "TOTAL CASE COMPOUNDED OR WITH PREDRAWN YEAR"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF PERSONS WHOSE | CASE COMPO- UNDED OR WITH DRAWN",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "CASE COMPO- UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. TRIAL COMPLETED",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL- ETED",
    "header": [
-    "NO. TRIAL COMPLETED"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPL- ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. TRIAL RFMATNEN PENDING",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "NO. TRIAL RFMATNEN PENDING"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF NO. OF PERSONS",
+   "name": "PERCENTAGE OF PERSONS | TRIAL REMAINED PENDING",
    "header": [
-    "OF NO. OF PERSONS"
+    "PERCENTAGE OF PERSONS",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "8",
-   "name": "PEKSUNS PERSONS WHOSE TRAILS PENDING COL. (6)x100/ (3)",
+   "name": "PERCENTAGE OF PERSONS | WHOSE TRAILS REMAINED PENDING COL. (6)x100/ (3)",
    "header": [
-    "PEKSUNS PERSONS WHOSE TRAILS PENDING COL. (6)x100/ (3)"
+    "PERCENTAGE OF PERSONS",
+    "WHOSE TRAILS REMAINED PENDING COL. (6)x100/ (3)"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF WHOSE CONVICTED TO TRIALS COL. (7)x100/ (5)",
+   "name": "CONVICTED TO TRIALS COMPLETED COL. (7)x100/ (5)",
    "header": [
-    "OF WHOSE CONVICTED TO TRIALS COL. (7)x100/ (5)"
+    "CONVICTED TO TRIALS COMPLETED COL. (7)x100/ (5)"
    ]
   }
  ],
@@ -72,7 +83,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 4,
-  "other_totals_passed": 3
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -6,91 +6,103 @@
  "topic": "",
  "section": "PSI Year Wise 2000",
  "serial": "5",
- "title": "NUMBER OF PRISON INMATES TRAINED UNDER DIFFERENT VOCATIONAL TRAINING",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-42",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2000.pdf",
  "source_file": "raw/psi/2000/year_wise/psi-full-report-2000.pdf",
  "source_sha256": "171376686bd1e431ac947c0d86c5141722a1e13fb54bb5c1347bbf9500133c70",
  "table_no": "42",
- "pdf_title": "NUMBER OF PRISON INMATES TRAINED UNDER DIFFERENT VOCATIONAL TRAINING",
- "row_label": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-42",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   144
  ],
- "n_rows": 2,
- "n_cols": 9,
- "n_cells": 18,
+ "n_rows": 35,
+ "n_cols": 10,
+ "n_cells": 350,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
    "col_no": "3",
-   "name": "STATE/UT-WISE DURING 2000 (3)",
+   "name": "AGRI-CULTURE",
    "header": [
-    "STATE/UT-WISE DURING 2000"
+    "AGRI-CULTURE"
    ]
   },
   {
    "col_no": "4",
-   "name": "STATE/UT-WISE DURING 2000 | 3",
+   "name": "CARP-ENTRY",
    "header": [
-    "STATE/UT-WISE DURING 2000",
-    "3"
+    "CARP-ENTRY"
    ]
   },
   {
    "col_no": "5",
-   "name": "STATE/UT-WISE DURING 2000 (5)",
+   "name": "CAN-NING",
    "header": [
-    "STATE/UT-WISE DURING 2000"
+    "CAN-NING"
    ]
   },
   {
    "col_no": "6",
-   "name": "STATE/UT-WISE DURING 2000 (6)",
+   "name": "TAILO-RING",
    "header": [
-    "STATE/UT-WISE DURING 2000"
+    "TAILO-RING"
    ]
   },
   {
    "col_no": "7",
-   "name": "SOAP",
+   "name": "BLACK-SMITHY",
    "header": [
-    "SOAP"
+    "BLACK-SMITHY"
    ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "WEAV-ING",
+   "header": [
+    "WEAV-ING"
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "SOAP & PHENYL E",
+   "header": [
+    "SOAP & PHENYL E"
+   ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "HAND-LOOM",
+   "header": [
+    "HAND-LOOM"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "OTHERS",
+   "header": [
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
   }
  ],
- "notes": [
-  "NA -LIATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 30,
+  "cells_passed": 30,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,105 +8,102 @@
  "serial": "26",
  "title": "Table Presenting Area, Estimated Mid-Year Population, Total Cognizable Crime under IPC and Actual Police Strength During 1987",
  "listing_title": "Table Presenting Area, Estimated Mid-Year Population, Total Cognizable Crime under IPC and Actual Police Strength During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_60-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_60-1987.pdf",
  "source_sha256": "e3a8806195bcf55549382141a2863bd71de194c6c27142a1ff67db3a83788e68",
  "table_no": "60",
- "pdf_title": "Table Presenting Area, Estimated Mid Year Population, Total Crime Under IPC And Actual Police Strenght During 1987",
- "row_label": "STATES/U.Ts/ SL NO (5) States",
+ "pdf_title": "158 TABLE - 60 Table Presenting Area, Estimated Mid Year Population, Total Cognizable Crime Under IPC And Actual Police Strenght During 1987",
+ "row_label": "SL NO / STATES/U.Ts/ CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 46,
- "n_cols": 9,
- "n_cells": 316,
+ "n_rows": 37,
+ "n_cols": 10,
+ "n_cells": 350,
  "columns": [
   {
-   "col_no": "2",
-   "name": "IN AREA SQUARE CITIES Kms. (2)",
-   "header": [
-    "IN AREA SQUARE CITIES Kms. (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "TOTAL | ESTIMATED MID-YEAR POPULATION «in (3)",
+   "name": "AREA IN SQUARE KMS.",
    "header": [
-    "TOTAL",
-    "ESTIMATED MID-YEAR POPULATION «in (3)"
+    "AREA IN SQUARE KMS."
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL | '000> (4)",
+   "name": "ESTIMATED MID-YEAR POPULATION (in '000)",
    "header": [
-    "TOTAL",
-    "'000> (4)"
+    "ESTIMATED MID-YEAR POPULATION (in '000)"
    ]
   },
   {
    "col_no": "5",
-   "name": "ACTUAL POLICE -~--24----------------- | CRIME UNDER CIVIL IPC (5)",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC",
    "header": [
-    "ACTUAL POLICE -~--24-----------------",
-    "CRIME UNDER CIVIL IPC (5)"
+    "TOTAL COGNIZABLE CRIME UNDER IPC"
    ]
   },
   {
    "col_no": "6",
-   "name": "ACTUAL POLICE -~--24----------------- | ARMED (6)",
+   "name": "ACTUAL CIVIL",
    "header": [
-    "ACTUAL POLICE -~--24-----------------",
-    "ARMED (6)"
+    "ACTUAL CIVIL"
    ]
   },
   {
    "col_no": "7",
-   "name": "ACTUAL POLICE -~--24----------------- | TOTAL (7) (8)",
+   "name": "POLICE ARMED",
    "header": [
-    "ACTUAL POLICE -~--24-----------------",
-    "TOTAL (7) (8)"
+    "POLICE ARMED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "STRENGTH TOTAL",
+   "header": [
+    "STRENGTH TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "NUMBER OF NUMBER OF POL.TCEMEN 100 SQ KM AREA",
+   "name": "NUMBER OF POLICEMEN PER 100 SQ KM AREA",
    "header": [
-    "NUMBER OF NUMBER OF POL.TCEMEN 100 SQ KM AREA"
+    "NUMBER OF POLICEMEN PER 100 SQ KM AREA"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "NUMBER OF POLICEMEN PER 1000 OF POLU-LATION",
+   "header": [
+    "NUMBER OF POLICEMEN PER 1000 OF POLU-LATION"
    ]
   },
   {
    "col_no": "11",
-   "name": "NUMBER OF PER CASES PER 1000 OF POLULATION «10)",
+   "name": "NUMBER OF IPC CASES PER CIVIL POLICE MAN",
    "header": [
-    "NUMBER OF PER CASES PER 1000 OF POLULATION «10)"
+    "NUMBER OF IPC CASES PER CIVIL POLICE MAN"
    ]
   },
   {
    "col_no": "12",
-   "name": "rencenraGe OF IPC POLICE CIVIL POL.TCEMEN PER TO TOTAL CIVIL POLICE POLICE MAN",
+   "name": "PERCENTAGE OF CIVIL POLICE TO TOTAL POLICE",
    "header": [
-    "rencenraGe OF IPC POLICE CIVIL POL.TCEMEN PER TO TOTAL CIVIL POLICE POLICE MAN"
+    "PERCENTAGE OF CIVIL POLICE TO TOTAL POLICE"
    ]
   }
  ],
- "notes": [
-  "Note * 1986 data repeated for"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 3,
-  "failures": [
-   "col 5 'TOTAL (States)': printed 7.186e+06, sum 786004",
-   "col 6 'TOTAL (States)': printed 233168, sum 232568"
-  ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 10,
+  "cells_passed": 10,
+  "failures": [],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

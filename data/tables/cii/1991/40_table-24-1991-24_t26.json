@@ -1,0 +1,123 @@
+{
+ "table_id": "cii/1991/40_table-24-1991-24_t26",
+ "publication": "cii",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "40",
+ "title": "105 TABLE-26 (Cont inund.)",
+ "listing_title": "Persons Arrested under Different IPC Crimes by Sex in States, UTs & Cities During 1991",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1991-24.pdf",
+ "source_file": "raw/cii/1991/table_content/table-24-1991-24.pdf",
+ "source_sha256": "293dd841677197e6f68b07a30b3e210637fa9fbbee8cba81ef62a5d647ca0125",
+ "table_no": "26",
+ "pdf_title": "105 TABLE-26 (Cont inund.)",
+ "row_label": "SL.NO. / STATE/UT/CITY",
+ "pages": [
+  3
+ ],
+ "n_rows": 47,
+ "n_cols": 9,
+ "n_cells": 423,
+ "columns": [
+  {
+   "col_no": "15",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL | MALE",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL | FEMALE",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL | TOTAL",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | MALE",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | FEMALE",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | TOTAL",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | MALE",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | FEMALE",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | TOTAL",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS",
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 27,
+  "cells_passed": 24,
+  "failures": [
+   "col 17 'TOTAL (STATES)': printed 27993, sum 27973",
+   "col 20 'TOTAL (ALL - INDIA)': printed 18955, sum 18935",
+   "col 21 'TOTAL (ALL - INDIA)': printed 9297, sum 9397"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

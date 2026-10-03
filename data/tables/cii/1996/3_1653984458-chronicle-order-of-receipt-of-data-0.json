@@ -8,20 +8,22 @@
  "serial": "3",
  "title": "Receipt of data",
  "listing_title": "Receipt of data",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653984458_CHRONICLE ORDER OF RECEIPT OF DATA_0.pdf",
  "source_file": "raw/cii/1996/year_wise/1653984458_CHRONICLE ORDER OF RECEIPT OF DATA_0.pdf",
  "source_sha256": "232f094f1ec9e77efa0cea2f439999964d3720d5ca1fba055f77ecc40034c2a0",
  "table_no": "",
- "pdf_title": "Chronicie Order of Receint of Data",
- "row_label": "YEAR / MONTH / STATE / UNION TERRITORY / CITY",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 Chronicle Order of Receipt of Data",
+ "row_label": "YEAR",
  "pages": [
+  1,
+  1,
   1
  ],
- "n_rows": 16,
- "n_cols": 1,
- "n_cells": 16,
+ "n_rows": 13,
+ "n_cols": 6,
+ "n_cells": 32,
  "columns": [
   {
    "col_no": "6",
@@ -29,20 +31,52 @@
    "header": [
     "CUMULATIVE TOTAL"
    ]
+  },
+  {
+   "col_no": "2",
+   "name": "September",
+   "header": [
+    "September"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Gujarat Jammu & Kashmir Maharashtra West Bengal",
+   "header": [
+    "Gujarat Jammu & Kashmir Maharashtra West Bengal"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Visakhapatnam",
+   "header": [
+    "Visakhapatnam"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "34",
+   "header": [
+    "34"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Delhi, D & N Haveli Daman & Diu",
+   "header": [
+    "Delhi, D & N Haveli Daman & Diu"
+   ]
   }
  ],
- "notes": [
-  "Centres",
-  "D4"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

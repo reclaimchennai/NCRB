@@ -6,77 +6,79 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "22",
- "title": "Su",
+ "title": "56 TABLE— Persons arrested",
  "listing_title": "Persons Arrested under IPC Crime by Sex",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-22-1974_0.pdf",
  "source_sha256": "0c5f5bb75cc5806e8fa0dead75da5792274730b600ea7d7132c1f54a3634ca1d",
  "table_no": "",
- "pdf_title": "Su",
- "row_label": "Fi -",
+ "pdf_title": "56 TABLE— Persons arrested",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   2
  ],
- "n_rows": 42,
+ "n_rows": 22,
  "n_cols": 6,
- "n_cells": 201,
+ "n_cells": 132,
  "columns": [
   {
    "col_no": "3",
-   "name": "Suntealt3-Tu No, Malo",
+   "name": "Total Cognizable Crime | Male",
    "header": [
-    "Suntealt3-Tu No, Malo"
+    "Total Cognizable Crime",
+    "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "a aa a8 *",
+   "name": "Total Cognizable Crime | Female",
    "header": [
-    "a aa a8 *"
+    "Total Cognizable Crime",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "- 7 Mile",
+   "name": "Murder | Male",
    "header": [
-    "- 7 Mile"
+    "Murder",
+    "Male"
    ]
   },
   {
    "col_no": "6",
-   "name": "7 ,",
+   "name": "Murder | Female",
    "header": [
-    "7 ,"
+    "Murder",
+    "Female"
    ]
   },
   {
    "col_no": "7",
-   "name": "Peruotr arrested | - a 2 Male",
+   "name": "Culpable Homicide not amounting to Murder | Male",
    "header": [
-    "Peruotr arrested",
-    "- a 2 Male"
+    "Culpable Homicide not amounting to Murder",
+    "Male"
    ]
   },
   {
    "col_no": "8",
-   "name": "Peruotr arrested | a Female",
+   "name": "Culpable Homicide not amounting to Murder | Female",
    "header": [
-    "Peruotr arrested",
-    "a Female"
+    "Culpable Homicide not amounting to Murder",
+    "Female"
    ]
   }
  ],
- "notes": [
-  "oy"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

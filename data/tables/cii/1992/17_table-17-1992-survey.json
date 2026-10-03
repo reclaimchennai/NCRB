@@ -8,61 +8,75 @@
  "serial": "17",
  "title": "Disposal of LSL Crime Cases by Police During 1992",
  "listing_title": "Disposal of LSL Crime Cases by Police During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-17-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-17-1992-survey.pdf",
  "source_sha256": "a9ef3e5b7cd866145d5ee6bb4f033ae6779ca8fb1ccea9b840fa4737d31cadf1",
  "table_no": "17",
- "pdf_title": "DISPOSAL OF LSL CRIME CASES BY POLICE DURING 1992",
- "row_label": "SL. No. / CRIME / HEAD OF FOR STIGATION INCLUDING PENDING CASES",
+ "pdf_title": "125 TABLE-17 DISPOSAL OF LSL CRIME CASES BY POLICE DURING 1992",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 6,
- "n_cells": 100,
+ "n_cols": 7,
+ "n_cells": 119,
  "columns": [
   {
-   "col_no": "4",
-   "name": "TOTAL CASES INVEGATION WAS REFUSED",
+   "col_no": "3",
+   "name": "TOTAL NO. | OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
    "header": [
-    "TOTAL CASES INVEGATION WAS REFUSED"
+    "TOTAL NO.",
+    "OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TOTAL NO. | INVSETI-GATION WAS REFUSED",
+   "header": [
+    "TOTAL NO.",
+    "INVSETI-GATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. INVSETICHARGE FOUND FALSE/ MISTAKE OF ETC.",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION CHARGE FOUND FALSE/MISTAKE OF LAW ETC.",
    "header": [
-    "NO. INVSETICHARGE FOUND FALSE/ MISTAKE OF ETC."
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION CHARGE FOUND FALSE/MISTAKE OF LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. WHICH 2-22-25 INVESTIGATION FINAL REPORT TRUE SUBMILAW",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION FINAL REPORT TRUE SUBMI-TTED",
    "header": [
-    "NO. WHICH 2-22-25 INVESTIGATION FINAL REPORT TRUE SUBMILAW"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION FINAL REPORT TRUE SUBMI-TTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF WAS CHARGE SHEBTS WERE LAID TTED",
+   "name": "NO. OF CASES IN WHICH | WAS COMPLETED CHARGE WERE LAID",
    "header": [
-    "OF WAS CHARGE SHEBTS WERE LAID TTED"
+    "NO. OF CASES IN WHICH",
+    "WAS COMPLETED CHARGE WERE LAID"
    ]
   },
   {
    "col_no": "8",
-   "name": "CASES COMPLETED TOTAL {(5)+(6) +(7)}",
+   "name": "NO. OF CASES IN WHICH | TOTAL {(5)+(6) + (7)}",
    "header": [
-    "CASES COMPLETED TOTAL {(5)+(6) +(7)}"
+    "NO. OF CASES IN WHICH",
+    "TOTAL {(5)+(6) + (7)}"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF IN NO. CASES PENDING INVESTI GATION",
+   "name": "NO. OF CASES | PENDING INVESTI GATION",
    "header": [
-    "OF IN NO. CASES PENDING INVESTI GATION"
+    "NO. OF CASES",
+    "PENDING INVESTI GATION"
    ]
   }
  ],
@@ -71,8 +85,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 6,
-  "other_totals_passed": 2
+  "other_totals_checked": 7,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

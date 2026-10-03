@@ -8,71 +8,69 @@
  "serial": "46",
  "title": "Strength of Armed Police as on 31.12.1977",
  "listing_title": "Strength of Armed Police as on 31.12.1977",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1977.pdf",
  "source_file": "raw/cii/1977/table_content/table-59-1977.pdf",
  "source_sha256": "a615657c4ee8dff2fdffcc3fec64dfd32dcdeaf559894875bdfb1a16877844dc",
  "table_no": "59",
- "pdf_title": "OF ARMED POLICE Ak ON 3-12-77",
- "row_label": "States/ULTs./ - 2 STATES",
+ "pdf_title": "129 TABLE 59 STRENGTH OF ARMED POLICE AS ON 31-12-77",
+ "row_label": "Sl. No. / States/U.Ts./ Cities",
  "pages": [
+  1,
   1
  ],
- "n_rows": 40,
+ "n_rows": 43,
  "n_cols": 5,
- "n_cells": 184,
+ "n_cells": 215,
  "columns": [
   {
-   "col_no": "2",
-   "name": "tors | No. of - DisG & SP 3",
-   "header": [
-    "tors",
-    "No. of - DisG & SP 3"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "tors | IP. 4",
+   "name": "No. of IG, DisG & SsP",
    "header": [
-    "tors",
-    "IP. 4"
+    "No. of IG, DisG & SsP"
    ]
   },
   {
    "col_no": "4",
-   "name": "tors | and Sub, Ors",
+   "name": "No. of ASs.p./ Dy. S. P.",
    "header": [
-    "tors",
-    "and Sub, Ors"
+    "No. of ASs.p./ Dy. S. P."
    ]
   },
   {
    "col_no": "5",
-   "name": "tors | “No. of below the rank of Sub. tors 6",
+   "name": "No. of Inspectors and Sub. Inspectors",
    "header": [
-    "tors",
-    "“No. of below the rank of Sub. tors 6"
+    "No. of Inspectors and Sub. Inspectors"
    ]
   },
   {
    "col_no": "6",
-   "name": "tors | Cols. J4+44 5+6 7",
+   "name": "No. of officers below the rank of Sub-Inspectors",
    "header": [
-    "tors",
-    "Cols. J4+44 5+6 7"
+    "No. of officers below the rank of Sub-Inspectors"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total of Cols. 3+4+5+6",
+   "header": [
+    "Total of Cols. 3+4+5+6"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "*TIES"
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 16,
+  "other_totals_passed": 16
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

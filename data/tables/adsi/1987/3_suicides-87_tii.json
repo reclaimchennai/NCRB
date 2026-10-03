@@ -6,54 +6,62 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1987",
  "serial": "3",
- "title": "Incidence Of Suicides, Population and Volume Of Suicides Per 1 - Population During The Year—1987",
+ "title": "18 TABLE-II Incidence Of Suicides, Population and Volume Of Suicides Per Lakh Of Population During The Year—1987",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/files/suicides-87.pdf",
  "source_file": "raw/adsi/1987/year_wise/suicides-87.pdf",
  "source_sha256": "e42a02cbf0d8fe369e8a13c55b79d88a38abac2a6a47dc6b064fb6c33019f2fc",
  "table_no": "II",
- "pdf_title": "Incidence Of Suicides, Population and Volume Of Suicides Per 1 - Population During The Year—1987",
- "row_label": "Sl. No. / States/UTs./ Cities",
+ "pdf_title": "18 TABLE-II Incidence Of Suicides, Population and Volume Of Suicides Per Lakh Of Population During The Year—1987",
+ "row_label": "Sl. No. / States/UTs./Cities",
  "pages": [
-  4
+  4,
+  6
  ],
- "n_rows": 27,
- "n_cols": 3,
- "n_cells": 79,
+ "n_rows": 48,
+ "n_cols": 4,
+ "n_cells": 192,
  "columns": [
   {
    "col_no": "3",
-   "name": "Numberof Suicides",
+   "name": "Number of Suicides",
    "header": [
-    "Numberof Suicides"
+    "Number of Suicides"
    ]
   },
   {
    "col_no": "4",
-   "name": "- Percentage tototal Suicides",
+   "name": "Percentage to total Suicides",
    "header": [
-    "- Percentage tototal Suicides"
+    "Percentage to total Suicides"
    ]
   },
   {
    "col_no": "5",
-   "name": "- Vor population in (000)",
+   "name": "population in (000)",
    "header": [
-    "- Vor population in (000)"
+    "population in (000)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Voloume of Suicides Per lakh of population",
+   "header": [
+    "Voloume of Suicides Per lakh of population"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 1,
+  "cells_checked": 0,
+  "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

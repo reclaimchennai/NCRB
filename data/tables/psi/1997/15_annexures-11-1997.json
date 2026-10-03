@@ -8,99 +8,200 @@
  "serial": "15",
  "title": "Annexure-XI: Sanctioned and Actual Strength (Men + Women) of Jail Officials",
  "listing_title": "Annexure-XI: Sanctioned and Actual Strength (Men + Women) of Jail Officials",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/annexures-11_1997.pdf",
  "source_file": "raw/psi/1997/table_content/annexures-11_1997.pdf",
  "source_sha256": "39c91e5d1f8d3932982b1a235d3d9880f9c6b4a2322f1b80906e2e4342500c58",
  "table_no": "",
- "pdf_title": "",
- "row_label": "SANCTIONED AND ACTUAL STRENGTH (MEN St No / SANCTIONED AND ACTUAL STRENGTH (MEN STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1997 ANNEXURE-XI",
+ "row_label": "Sl No / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 26,
- "n_cols": 9,
- "n_cells": 108,
+ "n_rows": 30,
+ "n_cols": 22,
+ "n_cells": 660,
  "columns": [
   {
    "col_no": "3",
-   "name": "SANCTIONED AND ACTUAL STRENGTH (MEN | Sanctioned",
+   "name": "DG/G/DIG/Supdt. | Sanctioned",
    "header": [
-    "SANCTIONED AND ACTUAL STRENGTH (MEN",
+    "DG/G/DIG/Supdt.",
     "Sanctioned"
    ]
   },
   {
    "col_no": "4",
-   "name": "SANCTIONED AND ACTUAL STRENGTH (MEN | DG/IG/DIG/ Supdt. Actual",
+   "name": "DG/G/DIG/Supdt. | Actual",
    "header": [
-    "SANCTIONED AND ACTUAL STRENGTH (MEN",
-    "DG/IG/DIG/ Supdt. Actual"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "SANCTIONED AND ACTUAL STRENGTH (MEN | Dy.SP/Jailor/ Dy. Jailor/Asst. Jailor/Asst.Supat. | Sanctioned",
-   "header": [
-    "SANCTIONED AND ACTUAL STRENGTH (MEN",
-    "Dy.SP/Jailor/ Dy. Jailor/Asst. Jailor/Asst.Supat.",
-    "Sanctioned"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "SANCTIONED AND ACTUAL STRENGTH (MEN | Dy.SP/Jailor/ Dy. Jailor/Asst. Jailor/Asst.Supat. | Actual Sanctioned",
-   "header": [
-    "SANCTIONED AND ACTUAL STRENGTH (MEN",
-    "Dy.SP/Jailor/ Dy. Jailor/Asst. Jailor/Asst.Supat.",
-    "Actual Sanctioned"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "SANCTIONED AND ACTUAL STRENGTH (MEN | Head Wardens/ Head Matron Actual",
-   "header": [
-    "SANCTIONED AND ACTUAL STRENGTH (MEN",
-    "Head Wardens/ Head Matron Actual"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "OF JAIL OFFICIALS Warden/Matron | Sanctjoned",
-   "header": [
-    "OF JAIL OFFICIALS Warden/Matron",
-    "Sanctjoned"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "OF JAIL OFFICIALS Warden/Matron | Actual",
-   "header": [
-    "OF JAIL OFFICIALS Warden/Matron",
+    "DG/G/DIG/Supdt.",
     "Actual"
    ]
   },
   {
-   "col_no": "42",
-   "name": "ANNEXURE-XI Probation Officer Actual Sanctioned a),",
+   "col_no": "5",
+   "name": "Dy.SP/Jailor/Dy.Jailor/Asst.Jailor/Asst.Supdt. | Sanctioned",
    "header": [
-    "ANNEXURE-XI Probation Officer Actual Sanctioned a),"
+    "Dy.SP/Jailor/Dy.Jailor/Asst.Jailor/Asst.Supdt.",
+    "Sanctioned"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "PRISON STATISTICS - 1997 ANNEXURE-XI (Concluded) | Actual Actual (20) (24)",
+   "col_no": "6",
+   "name": "Dy.SP/Jailor/Dy.Jailor/Asst.Jailor/Asst.Supdt. | Actual",
    "header": [
-    "PRISON STATISTICS - 1997 ANNEXURE-XI (Concluded)",
-    "Actual Actual (20) (24)"
+    "Dy.SP/Jailor/Dy.Jailor/Asst.Jailor/Asst.Supdt.",
+    "Actual"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Head Wardens/Head Matron | Sanctioned",
+   "header": [
+    "Head Wardens/Head Matron",
+    "Sanctioned"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Head Wardens/Head Matron | Actual",
+   "header": [
+    "Head Wardens/Head Matron",
+    "Actual"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Warden/Matron | Sanctioned",
+   "header": [
+    "Warden/Matron",
+    "Sanctioned"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Warden/Matron | Actual",
+   "header": [
+    "Warden/Matron",
+    "Actual"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Probation Officer | Sanctioned",
+   "header": [
+    "Probation Officer",
+    "Sanctioned"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Probation Officer | Actual",
+   "header": [
+    "Probation Officer",
+    "Actual"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Other Correctional Staff | Sanct-ioned",
+   "header": [
+    "Other Correctional Staff",
+    "Sanct-ioned"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Other Correctional Staff | Actual",
+   "header": [
+    "Other Correctional Staff",
+    "Actual"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Resident Medical Officer / Medical Officer | Sanct-ioned",
+   "header": [
+    "Resident Medical Officer / Medical Officer",
+    "Sanct-ioned"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Resident Medical Officer / Medical Officer | Actual",
+   "header": [
+    "Resident Medical Officer / Medical Officer",
+    "Actual"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Pharmacists | Sanct-ioned",
+   "header": [
+    "Pharmacists",
+    "Sanct-ioned"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Pharmacists | Actual",
+   "header": [
+    "Pharmacists",
+    "Actual"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Lab Technician / Lab Assistant | Sanct-ioned",
+   "header": [
+    "Lab Technician / Lab Assistant",
+    "Sanct-ioned"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Lab Technician / Lab Assistant | Actual",
+   "header": [
+    "Lab Technician / Lab Assistant",
+    "Actual"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Others | Sanct-ioned",
+   "header": [
+    "Others",
+    "Sanct-ioned"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Others | Actual",
+   "header": [
+    "Others",
+    "Actual"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Total | Sanct-ioned",
+   "header": [
+    "Total",
+    "Sanct-ioned"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "Total | Actual",
+   "header": [
+    "Total",
+    "Actual"
    ]
   }
  ],
- "notes": [
-  "NOTE NA stands for Not Available"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -108,7 +209,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

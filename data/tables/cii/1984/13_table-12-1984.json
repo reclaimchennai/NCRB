@@ -8,14 +8,14 @@
  "serial": "13",
  "title": "Percentage of Cases Disposed of by the Police During 1984 under IPC",
  "listing_title": "Percentage of Cases Disposed of by the Police During 1984 under IPC",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-12-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-12-1984.pdf",
  "source_sha256": "12a1ede9c1cc25e373e7cb9bd36d3c258c7901d087838809d33ce723a6a5ff98",
  "table_no": "12",
- "pdf_title": "Percentage Of Cases Disposed Of By The Police During 1984 Under IPC",
- "row_label": "No. a)",
+ "pdf_title": "58 TABLE-12 Percentage Of Cases Disposed Of By The Police During 1984 Under IPC",
+ "row_label": "SL. No. / HEADS OF CRIME",
  "pages": [
   1
  ],
@@ -25,36 +25,34 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "NOT MISTAKE OF LAW, FOR TO TOTAL CASES INVESTIGATION",
+   "name": "PERCENTAGE OF CASES NOT INVESTIGATED MISTAKE OF FACT OR LAW, NON COGNIZABLE TO TOTAL CASES FOR INVESTIGATION",
    "header": [
-    "NOT MISTAKE OF LAW, FOR TO TOTAL CASES INVESTIGATION"
+    "PERCENTAGE OF CASES NOT INVESTIGATED MISTAKE OF FACT OR LAW, NON COGNIZABLE TO TOTAL CASES FOR INVESTIGATION"
    ]
   },
   {
    "col_no": "4",
-   "name": "INVESTIGATED FACT OR TO TOTAL CASES FOR NON COGNTZARLE INVESTIGATION",
+   "name": "PERCENTAGE OF CASES IN WHICH INVESTIGATION WAS COMPLETED TO TOTAL CASES FOR INVESTIGATION",
    "header": [
-    "INVESTIGATED FACT OR TO TOTAL CASES FOR NON COGNTZARLE INVESTIGATION"
+    "PERCENTAGE OF CASES IN WHICH INVESTIGATION WAS COMPLETED TO TOTAL CASES FOR INVESTIGATION"
    ]
   },
   {
    "col_no": "5",
-   "name": "IN WHICH PENDING INVESTIGATION AT TION THE END THE YEAR TO TOTAL CASES FOR TION",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION AT THE END OF THE YEAR TO TOTAL CASES FOR INVESTIGATION",
    "header": [
-    "IN WHICH PENDING INVESTIGATION AT TION THE END THE YEAR TO TOTAL CASES FOR TION"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION AT THE END OF THE YEAR TO TOTAL CASES FOR INVESTIGATION"
    ]
   },
   {
    "col_no": "6",
-   "name": "INVESTIGACHARGE-SHEETED TO WAS COMPLETED IN OF TOTAL CASES WHICH ;INVESTIGATION WAS INVESTIGA~ COMPLETED",
+   "name": "PERCENTAGE OF CASES CHARGE-SHEETED TO TOTAL CASES IN WHICH INVESTIGATION WAS COMPLETED",
    "header": [
-    "INVESTIGACHARGE-SHEETED TO WAS COMPLETED IN OF TOTAL CASES WHICH ;INVESTIGATION WAS INVESTIGA~ COMPLETED"
+    "PERCENTAGE OF CASES CHARGE-SHEETED TO TOTAL CASES IN WHICH INVESTIGATION WAS COMPLETED"
    ]
   }
  ],
- "notes": [
-  "UNDER IPC"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

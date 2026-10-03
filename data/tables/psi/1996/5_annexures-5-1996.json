@@ -8,21 +8,21 @@
  "serial": "5",
  "title": "Annexure-V: Period of Detention of Undertrials During 1996",
  "listing_title": "Annexure-V: Period of Detention of Undertrials During 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/annexures-5_1996.pdf",
  "source_file": "raw/psi/1996/table_content/annexures-5_1996.pdf",
  "source_sha256": "d02ccab8e2c8baade5476e2b1fd7ef3b8722b2eb2ee7e755ebcb95f3264270dc",
  "table_no": "",
- "pdf_title": "ANNEXURE-V PERIOD OF DETENTION OF UNDER TRIALS DURING 1996",
- "row_label": "STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1996 ANNEXURE-V",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 51,
- "n_cols": 20,
- "n_cells": 261,
+ "n_rows": 30,
+ "n_cols": 24,
+ "n_cells": 720,
  "columns": [
   {
    "col_no": "3",
@@ -50,31 +50,31 @@
   },
   {
    "col_no": "6",
-   "name": "6 - 12 MONTHS | MALE (6)",
+   "name": "3 - 6 MONTHS | MALE",
    "header": [
-    "6 - 12 MONTHS",
+    "3 - 6 MONTHS",
     "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "6 - 12 MONTHS | 3-6MONTHS FEMALE",
+   "name": "3 - 6 MONTHS | FEMALE",
    "header": [
-    "6 - 12 MONTHS",
-    "3-6MONTHS FEMALE"
+    "3 - 6 MONTHS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "6 - 12 MONTHS | TOTAL (8)",
+   "name": "3 - 6 MONTHS | TOTAL",
    "header": [
-    "6 - 12 MONTHS",
+    "3 - 6 MONTHS",
     "TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "6 - 12 MONTHS | MALE (9)",
+   "name": "6 - 12 MONTHS | MALE",
    "header": [
     "6 - 12 MONTHS",
     "MALE"
@@ -90,7 +90,7 @@
   },
   {
    "col_no": "11",
-   "name": "6 - 12 MONTHS | TOTAL (11)",
+   "name": "6 - 12 MONTHS | TOTAL",
    "header": [
     "6 - 12 MONTHS",
     "TOTAL"
@@ -98,96 +98,126 @@
   },
   {
    "col_no": "12",
-   "name": "6 - 12 MONTHS | MALE (12)",
+   "name": "1 - 2 YEARS | MALE",
    "header": [
-    "6 - 12 MONTHS",
+    "1 - 2 YEARS",
     "MALE"
    ]
   },
   {
    "col_no": "13",
-   "name": "6 - 12 MONTHS | 1-2 YEARS FEMALE",
+   "name": "1 - 2 YEARS | FEMALE",
    "header": [
-    "6 - 12 MONTHS",
-    "1-2 YEARS FEMALE"
+    "1 - 2 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "14",
-   "name": "6 - 12 MONTHS | TOTAL (14)",
+   "name": "1 - 2 YEARS | TOTAL",
    "header": [
-    "6 - 12 MONTHS",
+    "1 - 2 YEARS",
     "TOTAL"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "3-5 YEARS | MALE FEMALE TOTAL (17) 75",
+   "col_no": "15",
+   "name": "2 - 3 YEARS | MALE",
    "header": [
-    "3-5 YEARS",
-    "MALE FEMALE TOTAL (17) 75"
+    "2 - 3 YEARS",
+    "MALE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "3-5 YEARS | (18) 78",
+   "col_no": "16",
+   "name": "2 - 3 YEARS | FEMALE",
    "header": [
-    "3-5 YEARS",
-    "(18) 78"
+    "2 - 3 YEARS",
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "3-5 YEARS | (19) 1",
+   "col_no": "17",
+   "name": "2 - 3 YEARS | TOTAL",
    "header": [
-    "3-5 YEARS",
-    "(19) 1"
+    "2 - 3 YEARS",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "ABOVE § YEARS | TOTAL (20) 79",
+   "col_no": "18",
+   "name": "3 - 5 YEARS | MALE",
    "header": [
-    "ABOVE § YEARS",
-    "TOTAL (20) 79"
+    "3 - 5 YEARS",
+    "MALE"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "ABOVE § YEARS | MALE (21) i]",
+   "col_no": "19",
+   "name": "3 - 5 YEARS | FEMALE",
    "header": [
-    "ABOVE § YEARS",
-    "MALE (21) i]"
+    "3 - 5 YEARS",
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "FEMALE (22) 0",
+   "col_no": "20",
+   "name": "3 - 5 YEARS | TOTAL",
    "header": [
-    "FEMALE (22) 0"
+    "3 - 5 YEARS",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "TOTAL TOTAL FEMALE (23) (25) 520 ie)",
+   "col_no": "21",
+   "name": "ABOVE 5 YEARS | MALE",
    "header": [
-    "TOTAL TOTAL FEMALE (23) (25) 520 ie)"
+    "ABOVE 5 YEARS",
+    "MALE"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "TOTAL MALE (24) (26) 9187 8667",
+   "col_no": "22",
+   "name": "ABOVE 5 YEARS | FEMALE",
    "header": [
-    "TOTAL MALE (24) (26) 9187 8667"
+    "ABOVE 5 YEARS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "ABOVE 5 YEARS | TOTAL",
+   "header": [
+    "ABOVE 5 YEARS",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL | MALE",
+   "header": [
+    "TOTAL",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "TOTAL | FEMALE",
+   "header": [
+    "TOTAL",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "TOTAL | TOTAL",
+   "header": [
+    "TOTAL",
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NOTE: 1, In case of Gujarat, Jammu & Kashmir and Punjab, group 3-5 years includes all inmates of age 3 years and above.",
-  "2. 3-6 months means 3 months & above but below 6 months, 6-12 means 6 months & above but below 12 months,",
-  "1-2 years means 1 year & above but below 2 years, 3-5 years means 3 years & above but below 5 years.",
-  "3, NA stands for Not Available"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -195,7 +225,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

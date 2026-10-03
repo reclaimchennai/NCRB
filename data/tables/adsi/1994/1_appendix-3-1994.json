@@ -8,14 +8,14 @@
  "serial": "1",
  "title": "Percentage distribution of Accidental Deaths by various Causes during 1994 (State, UT & City-wise)",
  "listing_title": "Percentage distribution of Accidental Deaths by various Causes during 1994 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-3_1994.pdf",
  "source_file": "raw/adsi/1994/table_content/appendix-3_1994.pdf",
  "source_sha256": "f90839df0108c617c80f603f442798cefb245a0a53b7ffe09a79a0db1b40890e",
  "table_no": "",
- "pdf_title": "APPENDIX-III",
- "row_label": "Sl. No. / Fercomeays Ciumuuun Of State/UT",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B.-111 APPENDIX-III",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
   1,
   2,
@@ -26,328 +26,259 @@
   7,
   8
  ],
- "n_rows": 66,
- "n_cols": 39,
- "n_cells": 1790,
+ "n_rows": 58,
+ "n_cols": 31,
+ "n_cells": 1798,
  "columns": [
   {
    "col_no": "3",
-   "name": "Fercomeays Ciumuuun Of | Lightning",
+   "name": "Natural Causes | Lightning",
    "header": [
-    "Fercomeays Ciumuuun Of",
+    "Natural Causes",
     "Lightning"
    ]
   },
   {
    "col_no": "4",
-   "name": "Fercomeays Ciumuuun Of | Deaths By Various Causes During 1994 | (State & UT-wise) | Heat Stroke",
+   "name": "Natural Causes | Heat Stroke",
    "header": [
-    "Fercomeays Ciumuuun Of",
-    "Deaths By Various Causes During 1994",
-    "(State & UT-wise)",
+    "Natural Causes",
     "Heat Stroke"
    ]
   },
   {
    "col_no": "5",
-   "name": "Fercomeays Ciumuuun Of | Deaths By Various Causes During 1994 | (State & UT-wise) | Flood",
+   "name": "Natural Causes | Flood",
    "header": [
-    "Fercomeays Ciumuuun Of",
-    "Deaths By Various Causes During 1994",
-    "(State & UT-wise)",
+    "Natural Causes",
     "Flood"
    ]
   },
   {
    "col_no": "6",
-   "name": "Deaths By Various Causes During 1994 | Natural Causes Landslide",
+   "name": "Natural Causes | Landslide",
    "header": [
-    "Deaths By Various Causes During 1994",
-    "Natural Causes Landslide"
+    "Natural Causes",
+    "Landslide"
    ]
   },
   {
    "col_no": "7",
-   "name": "Deaths By Various Causes During 1994 | Cold & Exposure",
+   "name": "Natural Causes | Cold & Exposure",
    "header": [
-    "Deaths By Various Causes During 1994",
+    "Natural Causes",
     "Cold & Exposure"
    ]
   },
   {
    "col_no": "8",
-   "name": "Cyclone",
+   "name": "Natural Causes | Cyclone",
    "header": [
+    "Natural Causes",
     "Cyclone"
    ]
   },
   {
    "col_no": "9",
-   "name": "Total (A)",
+   "name": "Natural Causes | Total (A)",
    "header": [
+    "Natural Causes",
     "Total (A)"
    ]
   },
   {
    "col_no": "10",
-   "name": "Un-nati ral Causes | By Firearm",
+   "name": "Un-natural Causes | By Firearm",
    "header": [
-    "Un-nati ral Causes",
+    "Un-natural Causes",
     "By Firearm"
    ]
   },
   {
    "col_no": "11",
-   "name": "Un-nati ral Causes | By Explosion",
+   "name": "Un-natural Causes | By Explosion",
    "header": [
-    "Un-nati ral Causes",
+    "Un-natural Causes",
     "By Explosion"
    ]
   },
   {
    "col_no": "12",
-   "name": "Un-nati ral Causes | By House collapse",
+   "name": "Un-natural Causes | By House collapse",
    "header": [
-    "Un-nati ral Causes",
+    "Un-natural Causes",
     "By House collapse"
    ]
   },
   {
    "col_no": "13",
-   "name": "Un-nati ral Causes | Total Road Accident",
+   "name": "Un-natural Causes | Total Road Accident",
    "header": [
-    "Un-nati ral Causes",
+    "Un-natural Causes",
     "Total Road Accident"
    ]
   },
   {
    "col_no": "14",
-   "name": "Un-nati ral Causes | Motor Vehicle Accident",
+   "name": "Un-natural Causes | Motor Vehicle Accident",
    "header": [
-    "Un-nati ral Causes",
+    "Un-natural Causes",
     "Motor Vehicle Accident"
    ]
   },
   {
    "col_no": "15",
-   "name": "Un-nati ral Causes | Other Road Accident",
+   "name": "Un-natural Causes | Other Road Accident",
    "header": [
-    "Un-nati ral Causes",
+    "Un-natural Causes",
     "Other Road Accident"
    ]
   },
   {
    "col_no": "16",
-   "name": "Un-nati ral Causes | Factory Accident",
+   "name": "Un-natural Causes | Factory Accident",
    "header": [
-    "Un-nati ral Causes",
+    "Un-natural Causes",
     "Factory Accident"
    ]
   },
   {
    "col_no": "17",
-   "name": "Un-nati ral Causes | Railway Accident",
+   "name": "Un-natural Causes | Railway Accident",
    "header": [
-    "Un-nati ral Causes",
+    "Un-natural Causes",
     "Railway Accident"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "- - - INDIA - 1994 | Air- Crash (2)",
+   "col_no": "18",
+   "name": "Un-natural Causes | Air-Crash",
    "header": [
-    "- - - INDIA - 1994",
-    "Air- Crash (2)"
+    "Un-natural Causes",
+    "Air-Crash"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "- - - INDIA - 1994 | By Fire (18)",
+   "col_no": "19",
+   "name": "Un-natural Causes | By Fire",
    "header": [
-    "- - - INDIA - 1994",
-    "By Fire (18)"
+    "Un-natural Causes",
+    "By Fire"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "Un-nati ral Causes | By Drowning (19)",
+   "col_no": "20",
+   "name": "Un-natural Causes | By Drowning",
    "header": [
-    "Un-nati ral Causes",
-    "By Drowning (19)"
+    "Un-natural Causes",
+    "By Drowning"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "Un-nati ral Causes | By Poisoning (20)",
+   "col_no": "21",
+   "name": "Un-natural Causes | By Poisoning",
    "header": [
-    "Un-nati ral Causes",
-    "By Poisoning (20)"
+    "Un-natural Causes",
+    "By Poisoning"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "Un-nati ral Causes | By Snake Bite (21)",
+   "col_no": "22",
+   "name": "Un-natural Causes | By Snake Bite",
    "header": [
-    "Un-nati ral Causes",
-    "By Snake Bite (21)"
+    "Un-natural Causes",
+    "By Snake Bite"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "Un-nati ral Causes | Killed By Animals (22)",
+   "col_no": "23",
+   "name": "Un-natural Causes | Killed By Animals",
    "header": [
-    "Un-nati ral Causes",
-    "Killed By Animals (22)"
+    "Un-natural Causes",
+    "Killed By Animals"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "N.C.R.B.-113 | APPENDIX-1} Boat Capsize (23)",
+   "col_no": "24",
+   "name": "Un-natural Causes | Boat Capsize",
    "header": [
-    "N.C.R.B.-113",
-    "APPENDIX-1} Boat Capsize (23)"
+    "Un-natural Causes",
+    "Boat Capsize"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "N.C.R.B.-113 | ) Mine Or Quarry Disaster (25) (24)",
+   "col_no": "25",
+   "name": "Un-natural Causes | Mine Or Quarry Disaster",
    "header": [
-    "N.C.R.B.-113",
-    ") Mine Or Quarry Disaster (25) (24)"
+    "Un-natural Causes",
+    "Mine Or Quarry Disaster"
    ]
   },
   {
    "col_no": "26",
-   "name": "DEATHS & SUICIDES IN INDIA - 1994 | Accidental Electrocution",
+   "name": "Un-natural Causes | Accidental Electro-cution",
    "header": [
-    "DEATHS & SUICIDES IN INDIA - 1994",
-    "Accidental Electrocution"
+    "Un-natural Causes",
+    "Accidental Electro-cution"
    ]
   },
   {
    "col_no": "27",
-   "name": "DEATHS & SUICIDES IN INDIA - 1994 | Accidental Fall from Height",
+   "name": "Un-natural Causes | Accidental Fall from Height",
    "header": [
-    "DEATHS & SUICIDES IN INDIA - 1994",
+    "Un-natural Causes",
     "Accidental Fall from Height"
    ]
   },
   {
    "col_no": "28",
-   "name": "DEATHS & SUICIDES IN INDIA - 1994 | Un-natural Causes | © Consuming Spurious Liquor",
+   "name": "Un-natural Causes | Consuming Spurious Liquor",
    "header": [
-    "DEATHS & SUICIDES IN INDIA - 1994",
     "Un-natural Causes",
-    "© Consuming Spurious Liquor"
+    "Consuming Spurious Liquor"
    ]
   },
   {
    "col_no": "29",
-   "name": "DEATHS & SUICIDES IN INDIA - 1994 | Un-natural Causes | Suffocation Due to Smoke Etc.",
+   "name": "Un-natural Causes | Suffocation Due to Smoke Etc.",
    "header": [
-    "DEATHS & SUICIDES IN INDIA - 1994",
     "Un-natural Causes",
     "Suffocation Due to Smoke Etc."
    ]
   },
   {
    "col_no": "30",
-   "name": "Abortion",
+   "name": "Un-natural Causes | Abortion",
    "header": [
+    "Un-natural Causes",
     "Abortion"
    ]
   },
   {
    "col_no": "31",
-   "name": "Unspecified *(31)",
+   "name": "Un-natural Causes | Unspeci-fied",
    "header": [
-    "Unspecified *(31)"
+    "Un-natural Causes",
+    "Unspeci-fied"
    ]
   },
   {
    "col_no": "32",
-   "name": "N.C.R.B.-114 | (B)",
+   "name": "Un-natural Causes | Total (B)",
    "header": [
-    "N.C.R.B.-114",
-    "(B)"
+    "Un-natural Causes",
+    "Total (B)"
    ]
   },
   {
    "col_no": "33",
-   "name": "N.C.R.B.-114 | ) Grand Total ((A) +(B)]",
+   "name": "Grand Total [(A) + (B)]",
    "header": [
-    "N.C.R.B.-114",
-    ") Grand Total ((A) +(B)]"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "ral Causes | Air- Crash",
-   "header": [
-    "ral Causes",
-    "Air- Crash"
-   ]
-  },
-  {
-   "col_no": "19",
-   "name": "ral Causes | By Fire",
-   "header": [
-    "ral Causes",
-    "By Fire"
-   ]
-  },
-  {
-   "col_no": "20",
-   "name": "ral Causes | By Drowning",
-   "header": [
-    "ral Causes",
-    "By Drowning"
-   ]
-  },
-  {
-   "col_no": "21",
-   "name": "ral Causes | By Poisoning",
-   "header": [
-    "ral Causes",
-    "By Poisoning"
-   ]
-  },
-  {
-   "col_no": "22",
-   "name": "ral Causes | By Snake* Bite",
-   "header": [
-    "ral Causes",
-    "By Snake* Bite"
-   ]
-  },
-  {
-   "col_no": "23",
-   "name": "ral Causes | Killed By Animals",
-   "header": [
-    "ral Causes",
-    "Killed By Animals"
-   ]
-  },
-  {
-   "col_no": "24",
-   "name": "ral Causes | Boat Capsize",
-   "header": [
-    "ral Causes",
-    "Boat Capsize"
-   ]
-  },
-  {
-   "col_no": "25",
-   "name": "ral Causes | Mine Or Quarry Disaster",
-   "header": [
-    "ral Causes",
-    "Mine Or Quarry Disaster"
+    "Grand Total [(A) + (B)]"
    ]
   }
  ],
- "notes": [
-  "18A—619 NCRB/9S."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -355,7 +286,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 8,
  "warnings": []
 }

@@ -8,70 +8,64 @@
  "serial": "57",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1997 (Crime Head–Wise)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1997 (Crime Head–Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-37-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-37-1996-crime-survey.pdf",
  "source_sha256": "32da4a92aa28b6d6adc9ff62b76b670eb2ac66d8f2c06c980e0452803fe1eb44",
  "table_no": "37",
- "pdf_title": "VALUE OF PROPERTY STOLEN & RECOVERED AND rencenw1AGE RECOVERY DURING 1997",
- "row_label": "(CRIME HEAD-WISE) SL CRIME HEAD NO ((1)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-37",
+ "row_label": "SL NO / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 7,
  "n_cols": 6,
- "n_cells": 35,
+ "n_cells": 42,
  "columns": [
   {
    "col_no": "3",
-   "name": "(CRIME HEAD-WISE) | STOLEN",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | STOLEN",
    "header": [
-    "(CRIME HEAD-WISE)",
+    "NUMBER OF CASES IN WHICH PROPERTY WAS",
     "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "(CRIME HEAD-WISE) | (Rs. in lakh) | NUMBER OF CASES IN WHICH PROPERTY WAS RECOVERED",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | RECOVERED",
    "header": [
-    "(CRIME HEAD-WISE)",
-    "(Rs. in lakh)",
-    "NUMBER OF CASES IN WHICH PROPERTY WAS RECOVERED"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "(CRIME HEAD-WISE) | (Rs. in lakh) | PERCENTAGE OF CASES OF RECOVERY",
+   "name": "PERCENTAGE OF CASES OF RECOVERY",
    "header": [
-    "(CRIME HEAD-WISE)",
-    "(Rs. in lakh)",
     "PERCENTAGE OF CASES OF RECOVERY"
    ]
   },
   {
    "col_no": "6",
-   "name": "(CRIME HEAD-WISE) | VALUE OF PROPERTY (Rs. in lakh) | STOLEN",
+   "name": "VALUE OF PROPERTY (Rs. in lakh) | STOLEN",
    "header": [
-    "(CRIME HEAD-WISE)",
     "VALUE OF PROPERTY (Rs. in lakh)",
     "STOLEN"
    ]
   },
   {
    "col_no": "7",
-   "name": "(CRIME HEAD-WISE) | VALUE OF PROPERTY (Rs. in lakh) | RECOVERED",
+   "name": "VALUE OF PROPERTY (Rs. in lakh) | RECOVERED",
    "header": [
-    "(CRIME HEAD-WISE)",
     "VALUE OF PROPERTY (Rs. in lakh)",
     "RECOVERED"
    ]
   },
   {
    "col_no": "8",
-   "name": "(CRIME HEAD-WISE) | PERCENTAGE RECOVERY",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "(CRIME HEAD-WISE)",
     "PERCENTAGE RECOVERY"
    ]
   }
@@ -81,8 +75,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

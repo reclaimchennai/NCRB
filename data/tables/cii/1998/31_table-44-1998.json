@@ -8,57 +8,58 @@
  "serial": "31",
  "title": "Value of Cultural Property (Including Antiques) Stolen and Recovered During 1998 (State & UT-Wise)",
  "listing_title": "Value of Cultural Property (Including Antiques) Stolen and Recovered During 1998 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-44-1998.pdf",
  "source_sha256": "163f76675fa9e87bf555605465a72d5af6baa6218eb23e27be88b3df56a03837",
- "table_no": "",
- "pdf_title": "",
- "row_label": "(MILA) SL. NO. / (MILA) VALUE OF CULTURAL STATE/UT",
+ "table_no": "44",
+ "pdf_title": "N.C.R.B., (M.I.A) CRIME IN INDIA - 1998 TABLE-44",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 37,
+ "n_rows": 35,
  "n_cols": 4,
- "n_cells": 132,
+ "n_cells": 140,
  "columns": [
   {
    "col_no": "3",
-   "name": "TABLE-44 (INCLUDING ANTIQUES) STOLEN AND RECOVERED DURING 1998 | NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN | STOLEN",
    "header": [
-    "TABLE-44 (INCLUDING ANTIQUES) STOLEN AND RECOVERED DURING 1998",
-    "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "TABLE-44 (INCLUDING ANTIQUES) STOLEN AND RECOVERED DURING 1998 | (STATE & UT-WISE) TOLEN RECOVERED",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN | RECOVERED",
    "header": [
-    "TABLE-44 (INCLUDING ANTIQUES) STOLEN AND RECOVERED DURING 1998",
-    "(STATE & UT-WISE) TOLEN RECOVERED"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "TABLE-44 (INCLUDING ANTIQUES) STOLEN AND RECOVERED DURING 1998 | VALUE OF PROPERTY (RS. IN LAKHS) STOLEN",
+   "name": "VALUE OF PROPERTY (RS. IN LAKHS) | STOLEN",
    "header": [
-    "TABLE-44 (INCLUDING ANTIQUES) STOLEN AND RECOVERED DURING 1998",
-    "VALUE OF PROPERTY (RS. IN LAKHS) STOLEN"
+    "VALUE OF PROPERTY (RS. IN LAKHS)",
+    "STOLEN"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIME IN INDIA - 1998 RECOVERED",
+   "name": "VALUE OF PROPERTY (RS. IN LAKHS) | RECOVERED",
    "header": [
-    "CRIME IN INDIA - 1998 RECOVERED"
+    "VALUE OF PROPERTY (RS. IN LAKHS)",
+    "RECOVERED"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 1,
+  "cells_checked": 6,
+  "cells_passed": 6,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

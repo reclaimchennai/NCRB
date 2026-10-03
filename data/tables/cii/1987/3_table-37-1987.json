@@ -8,21 +8,21 @@
  "serial": "3",
  "title": "Juveniles Apprehended by Age Group",
  "listing_title": "Juveniles Apprehended by Age Group",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_37-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_37-1987.pdf",
  "source_sha256": "55237629170f4308b1d7783bc1d9ba01e4f0143f36eb21276500e6b1206ddfb4",
  "table_no": "37",
- "pdf_title": "TABLE LE - 37",
+ "pdf_title": "112 TABLE - 37 Juveniles Apprehended By Age Group",
  "row_label": "S1 NO",
  "pages": [
   1,
   2
  ],
- "n_rows": 28,
+ "n_rows": 13,
  "n_cols": 10,
- "n_cells": 122,
+ "n_cells": 120,
  "columns": [
   {
    "col_no": "2",
@@ -33,48 +33,44 @@
   },
   {
    "col_no": "3",
-   "name": "Juveniles | 7 - 12 YEARS",
+   "name": "7 - 12 YEARS",
    "header": [
-    "Juveniles",
     "7 - 12 YEARS"
    ]
   },
   {
    "col_no": "4",
-   "name": "Juveniles | Apprehended | %AGE TO TOTAL",
+   "name": "%AGE TO TOTAL (4)",
    "header": [
-    "Juveniles",
-    "Apprehended",
     "%AGE TO TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "Apprehended | 12-16 YEARS",
+   "name": "12-16 YEARS",
    "header": [
-    "Apprehended",
     "12-16 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "By %AGE TO TOTAL",
+   "name": "%AGE TO TOTAL (6)",
    "header": [
-    "By %AGE TO TOTAL"
+    "%AGE TO TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "Age 16-18 YEARS",
+   "name": "16-18 YEARS",
    "header": [
-    "Age 16-18 YEARS"
+    "16-18 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "Group %AGE TO TOTAL",
+   "name": "%AGE TO TOTAL (8)",
    "header": [
-    "Group %AGE TO TOTAL"
+    "%AGE TO TOTAL"
    ]
   },
   {
@@ -86,23 +82,20 @@
   },
   {
    "col_no": "10",
-   "name": "%AGE TO TOTAL",
+   "name": "%AGE TO TOTAL (10)",
    "header": [
     "%AGE TO TOTAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "OVER ALL",
+   "name": "OVER ALL AGEGROUP",
    "header": [
-    "OVER ALL"
+    "OVER ALL AGEGROUP"
    ]
   }
  ],
- "notes": [
-  "in",
-  "1987 over 1986"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

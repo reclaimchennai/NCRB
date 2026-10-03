@@ -8,74 +8,263 @@
  "serial": "46",
  "title": "Sanctioned and Actual Strength (Men + Women) of Jail Officials as on 31st December 2000",
  "listing_title": "Sanctioned and Actual Strength (Men + Women) of Jail Officials as on 31st December 2000",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-44_2000.pdf",
  "source_file": "raw/psi/2000/table_content/psi-table-44_2000.pdf",
  "source_sha256": "cc164f007cbb191a3e9fe7c45b8373fa83583e6669ec7cb6eff7f13b59d6806f",
  "table_no": "44",
- "pdf_title": "SANCTIONED AND ACTUAL STRENGTH (MEN+ WOMEN) OF JAIL OFFICIALS AS ON 315\" DECEMBER 2000",
- "row_label": "SL. NO. ad) / STATE/UT / ACTUAL",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-44",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  1
+  1,
+  2,
+  3
  ],
- "n_rows": 8,
- "n_cols": 6,
- "n_cells": 17,
+ "n_rows": 36,
+ "n_cols": 28,
+ "n_cells": 980,
  "columns": [
   {
-   "col_no": "5",
-   "name": "DJAILOR/AJAILOR/ DYSP/JAILOR/ A. SUPDT.",
+   "col_no": "3",
+   "name": "DG/IG/DIG/SUPDT. | SANCT- IONED",
    "header": [
-    "DJAILOR/AJAILOR/ DYSP/JAILOR/ A. SUPDT."
+    "DG/IG/DIG/SUPDT.",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DG/IG/DIG/SUPDT. | ACTUAL",
+   "header": [
+    "DG/IG/DIG/SUPDT.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "DYSP/JAILOR/ D.JAILOR/A.JAILOR/ A. SUPDT. | SANCT- IONED",
+   "header": [
+    "DYSP/JAILOR/ D.JAILOR/A.JAILOR/ A. SUPDT.",
+    "SANCT- IONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "DJAILOR/AJAILOR/ DYSP/JAILOR/ A. SUPDT. | ACTUAL -",
+   "name": "DYSP/JAILOR/ D.JAILOR/A.JAILOR/ A. SUPDT. | ACTUAL",
    "header": [
-    "DJAILOR/AJAILOR/ DYSP/JAILOR/ A. SUPDT.",
-    "ACTUAL -"
+    "DYSP/JAILOR/ D.JAILOR/A.JAILOR/ A. SUPDT.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "OTHER OFFICERS | SANCT- IONED",
+   "header": [
+    "OTHER OFFICERS",
+    "SANCT- IONED"
+   ]
   },
   {
    "col_no": "8",
-   "name": "OFFICERS",
+   "name": "OTHER OFFICERS | ACTUAL",
    "header": [
-    "OFFICERS"
+    "OTHER OFFICERS",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "WARDERS/HEAD HEAD | «SANE",
+   "name": "HEAD WARDERS/HEAD MATRON | SANCT- IONED",
    "header": [
-    "WARDERS/HEAD HEAD",
-    "«SANE"
+    "HEAD WARDERS/HEAD MATRON",
+    "SANCT- IONED"
    ]
   },
   {
    "col_no": "10",
-   "name": "WARDERS/HEAD HEAD | MATRON ACTUAL",
+   "name": "HEAD WARDERS/HEAD MATRON | ACTUAL",
    "header": [
-    "WARDERS/HEAD HEAD",
-    "MATRON ACTUAL"
+    "HEAD WARDERS/HEAD MATRON",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "WARDER / MATRON | SANCT-IONED",
+   "header": [
+    "WARDER / MATRON",
+    "SANCT-IONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "WARDER / MATRON | ACTUAL",
+   "header": [
+    "WARDER / MATRON",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "OTHER JAIL CADRE STAFF | SANCT-IONED",
+   "header": [
+    "OTHER JAIL CADRE STAFF",
+    "SANCT-IONED"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "OTHER JAIL CADRE STAFF | ACTUAL",
+   "header": [
+    "OTHER JAIL CADRE STAFF",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "PROBATION OFFICER | SANCT-IONED",
+   "header": [
+    "PROBATION OFFICER",
+    "SANCT-IONED"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "PROBATION OFFICER | ACTUAL",
+   "header": [
+    "PROBATION OFFICER",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER CORR. STAFF | SANCT-IONED",
+   "header": [
+    "OTHER CORR. STAFF",
+    "SANCT-IONED"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "OTHER CORR. STAFF | ACTUAL",
+   "header": [
+    "OTHER CORR. STAFF",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "RMO/MO | SANCT-IONED",
+   "header": [
+    "RMO/MO",
+    "SANCT-IONED"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "RMO/MO | ACTUAL",
+   "header": [
+    "RMO/MO",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "PHARMACISTS | SANCT- IONED",
+   "header": [
+    "PHARMACISTS",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "PHARMACISTS | ACTUAL",
+   "header": [
+    "PHARMACISTS",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "LAB TECH. / LAB ASSISTANT | SANCT- IONED",
+   "header": [
+    "LAB TECH. / LAB ASSISTANT",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "LAB TECH. / LAB ASSISTANT | ACTUAL",
+   "header": [
+    "LAB TECH. / LAB ASSISTANT",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "OTHER MEDICAL STAFF | SANCT- IONED",
+   "header": [
+    "OTHER MEDICAL STAFF",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "OTHER MEDICAL STAFF | ACTUAL",
+   "header": [
+    "OTHER MEDICAL STAFF",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "OTHERS | SANCT- IONED",
+   "header": [
+    "OTHERS",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "OTHERS | ACTUAL",
+   "header": [
+    "OTHERS",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "TOTAL | SANCT- IONED",
+   "header": [
+    "TOTAL",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "TOTAL | ACTUAL",
+   "header": [
+    "TOTAL",
+    "ACTUAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 1,
+  "cells_checked": 84,
+  "cells_passed": 79,
+  "failures": [
+   "col 23 'TOTAL (STATES)': printed 166, sum 165",
+   "col 27 'TOTAL (STATES)': printed 4101, sum 3359",
+   "col 28 'TOTAL (STATES)': printed 3470, sum 2902",
+   "col 29 'TOTAL (STATES)': printed 45824, sum 42008",
+   "col 30 'TOTAL (STATES)': printed 40364, sum 37071"
+  ],
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

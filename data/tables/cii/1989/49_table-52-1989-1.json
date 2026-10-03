@@ -8,14 +8,14 @@
  "serial": "49",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1989",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1989",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-52-1989-1.pdf",
  "source_sha256": "6e6751fbcdf30cbeaad57023bb4a0d523fd0e3d7c1b978132578ce4bf61a5e10",
  "table_no": "52",
- "pdf_title": "",
- "row_label": "SL. NG. / NUMBER PLACE",
+ "pdf_title": "171 TABLE-52 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1989",
+ "row_label": "SL. NO. / PLACE OF OCCURRENCE",
  "pages": [
   1
  ],
@@ -25,58 +25,66 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "OF OF NUMBER",
+   "name": "DACOITY | NUMBER",
    "header": [
-    "OF OF NUMBER"
+    "DACOITY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "CASES DACOITY seen VALUE",
+   "name": "DACOITY | VALUE",
    "header": [
-    "CASES DACOITY seen VALUE"
+    "DACOITY",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "merunicu DURING ROBBERY NUMBER",
+   "name": "ROBBERY | NUMBER",
    "header": [
-    "merunicu DURING ROBBERY NUMBER"
+    "ROBBERY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "AND 1989 VALUE",
+   "name": "ROBBERY | VALUE",
    "header": [
-    "AND 1989 VALUE"
+    "ROBBERY",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "VALUE PLACE OF BURGLARY NUMBER",
+   "name": "BURGLARY | NUMBER",
    "header": [
-    "VALUE PLACE OF BURGLARY NUMBER"
+    "BURGLARY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "OF VALUE",
+   "name": "BURGLARY | VALUE",
    "header": [
-    "OF VALUE"
+    "BURGLARY",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "STOLEN Lakh) (Rs. NUMBEF:",
+   "name": "THEFT | NUMBER",
    "header": [
-    "STOLEN Lakh) (Rs. NUMBEF:"
+    "THEFT",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "BY in THEFT VALUE",
+   "name": "THEFT | VALUE",
    "header": [
-    "BY in THEFT VALUE"
+    "THEFT",
+    "VALUE"
    ]
   }
  ],
@@ -85,7 +93,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
+  "other_totals_checked": 4,
   "other_totals_passed": 2
  },
  "inferred_pages": 0,

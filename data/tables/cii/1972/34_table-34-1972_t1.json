@@ -6,55 +6,73 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "34",
- "title": "oO",
+ "title": "90 TABLE Juvenile Delinquency under important heads of Crime under",
  "listing_title": "Juvenile Delinquency under Important Heads of Crime under Local and Special Laws During the Year 1972",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-34-1972.pdf",
  "source_file": "raw/cii/1972/table_content/table-34-1972.pdf",
  "source_sha256": "afaa2de5e68191b85911c08a3d1515ffae28cdf9902b166f486948bf821420ca",
  "table_no": "",
- "pdf_title": "oO",
- "row_label": "No, / Juvenile / -",
+ "pdf_title": "90 TABLE Juvenile Delinquency under important heads of Crime under",
+ "row_label": "Sl. No. / States/Union Territories/Cities",
  "pages": [
   1
  ],
- "n_rows": 25,
- "n_cols": 3,
- "n_cells": 57,
+ "n_rows": 40,
+ "n_cols": 6,
+ "n_cells": 235,
  "columns": [
   {
-   "col_no": "5",
-   "name": "important heads of Crime under (5)",
+   "col_no": "3",
+   "name": "Arms Act",
    "header": [
-    "important heads of Crime under"
+    "Arms Act"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Opium Act",
+   "header": [
+    "Opium Act"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Gambling Act",
+   "header": [
+    "Gambling Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "important heads of Crime under (6)",
+   "name": "Excise Act",
    "header": [
-    "important heads of Crime under"
+    "Excise Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "important heads of Crime under | Act Hin Act",
+   "name": "Prohibition Act",
    "header": [
-    "important heads of Crime under",
-    "Act Hin Act"
+    "Prohibition Act"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Explosive Act",
+   "header": [
+    "Explosive Act"
    ]
   }
  ],
- "notes": [
-  "7 7"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 15,
+  "other_totals_passed": 15
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

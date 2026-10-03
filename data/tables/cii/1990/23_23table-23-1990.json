@@ -8,57 +8,54 @@
  "serial": "23",
  "title": "Persons Arrested under IPC Crimes During 1990 and Percentage Variation in 1990 over 1989 (State, UT & City-Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1990 and Percentage Variation in 1990 over 1989 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/23table-23-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/23table-23-1990-.pdf",
  "source_sha256": "7a48e57b1404385c6bc4cc9b761c26b4628e31a77fdf470fdfe3dc5db16cce19",
  "table_no": "23",
- "pdf_title": "",
- "row_label": "UNDER PERSONS AND STATE/UT/CITY SL. NO.",
+ "pdf_title": "101 TABLE-23 PERSONS ARRESTED UNDER IPC CRIMES DURING 1990",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 4,
- "n_cells": 187,
+ "n_cells": 188,
  "columns": [
   {
    "col_no": "3",
-   "name": "UNDER | IN VARIATION & 1989",
+   "name": "1989",
    "header": [
-    "UNDER",
-    "IN VARIATION & 1989"
+    "1989"
    ]
   },
   {
    "col_no": "4",
-   "name": "IPC 1990 CITY-WISE) 1990",
+   "name": "1990",
    "header": [
-    "IPC 1990 CITY-WISE) 1990"
+    "1990"
    ]
   },
   {
    "col_no": "5",
-   "name": "DURING CRIMES OVER Pe 1990 IN OVER",
+   "name": "PERCENTAGE VARIATION IN 1990 OVER 1989",
    "header": [
-    "DURING CRIMES OVER Pe 1990 IN OVER"
+    "PERCENTAGE VARIATION IN 1990 OVER 1989"
    ]
   },
   {
    "col_no": "6",
-   "name": "1990 1989 Pere CUNTNIBUTION ALL-INDIA TO 1990 DURING 1989",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING 1990",
    "header": [
-    "1990 1989 Pere CUNTNIBUTION ALL-INDIA TO 1990 DURING 1989"
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING 1990"
    ]
   }
  ],
- "notes": [
-  "Note Percentage variation or contribution less than 0.05 is shown as 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 3,
+  "cells_checked": 6,
+  "cells_passed": 6,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

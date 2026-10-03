@@ -6,72 +6,114 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "49",
- "title": "‘TABLE",
+ "title": "96 TABLE Statement indicating number of cases reported and value of",
  "listing_title": "Statement Indicating Number of Cases Reported and Value of Property Stolen under Dacoity by Place of Occurrence",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-50-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-50-1974_0.pdf",
  "source_sha256": "20346775d9b3272ae3897ca63462bd6a37a553dbb2ed7dafff77bf4ee5070d2f",
  "table_no": "",
- "pdf_title": "‘TABLE",
- "row_label": "SI.No, 1 le Ageia 2, 3, Bihar. 4. / hal States! reported 3 a7 5, - 30 ‘ 2,522 1 103 / - Cities 4 3-67 - 7-74. 4 20-51 ‘ 11-30",
+ "pdf_title": "96 TABLE Statement indicating number of cases reported and value of",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
+  1,
+  1,
+  1,
+  1,
   1
  ],
- "n_rows": 36,
- "n_cols": 6,
- "n_cells": 177,
+ "n_rows": 25,
+ "n_cols": 11,
+ "n_cells": 200,
  "columns": [
   {
-   "col_no": "4",
-   "name": "- | \"No.of Valugof \"No, of cits 5 26 a 4 184 a 5",
+   "col_no": "3",
+   "name": "Residential premises | No. of cases reported",
    "header": [
-    "-",
-    "\"No.of Valugof \"No, of cits 5 26 a 4 184 a 5"
+    "Residential premises",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Residential premises | Value of property stolen",
+   "header": [
+    "Residential premises",
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "5",
-   "name": "- | Valuo of - properly é 0-67 O34 1-58",
+   "name": "Highways | No. of cases reported",
    "header": [
-    "-",
-    "Valuo of - properly é 0-67 O34 1-58"
+    "Highways",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "6",
-   "name": "- | Railways No, of - 7 HT - 2 -",
+   "name": "Highways | Value of property stolen",
    "header": [
-    "-",
-    "Railways No, of - 7 HT - 2 -"
+    "Highways",
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "7",
-   "name": "of 4 6=— Property + o-79 -",
+   "name": "Railways | No. of cases reported",
    "header": [
-    "of 4 6=— Property + o-79 -"
+    "Railways",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "8",
-   "name": "8 —* No. of - reported - - - 1 -",
+   "name": "Railways | Value of property stolen",
    "header": [
-    "8 —* No. of - reported - - - 1 -"
+    "Railways",
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "9",
-   "name": "of (Value in River andsen Value of proper math 10 - - Oe -",
+   "name": "River and sea | No. of cases reported",
    "header": [
-    "of (Value in River andsen Value of proper math 10 - - Oe -"
+    "River and sea",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "River and sea | Value of property stolen",
+   "header": [
+    "River and sea",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "- (11)",
+   "header": [
+    "-"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "- (12)",
+   "header": [
+    "-"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "- (13)",
+   "header": [
+    "-"
    ]
   }
  ],
- "notes": [
-  "bess 0-80 1 a i om"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -79,7 +121,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 5,
  "warnings": []
 }

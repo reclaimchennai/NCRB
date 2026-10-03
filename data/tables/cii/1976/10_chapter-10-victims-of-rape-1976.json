@@ -8,59 +8,49 @@
  "serial": "10",
  "title": "Victims of Rape",
  "listing_title": "Victims of Rape",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-10-victims-of-rape-1976.pdf",
  "source_file": "raw/cii/1976/table_chapter/chapter-10-victims-of-rape-1976.pdf",
  "source_sha256": "e6f3d041179b2f921975de86944ee6eb32ce1b089d957b13db11d5ab7bb1b726",
- "table_no": "",
- "pdf_title": "CHAPTER X&",
- "row_label": "",
+ "table_no": "55",
+ "pdf_title": "CHAPTER X VICTIMS OF RAPE The data on \"Victims of Rape\" was collected under three age-groups viz., below 16 years, between 16 to 30 years and above 30 years. The percentage of Victims of Rape was the highest (66.2) in the age group 16 to 30, while Victims below 16 years accounted for 17.8 percent and Victims of above 30 years of age accounted for 16.0 per cent.",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
+  1,
   1
  ],
- "n_rows": 24,
- "n_cols": 7,
- "n_cells": 104,
+ "n_rows": 23,
+ "n_cols": 4,
+ "n_cells": 91,
  "columns": [
   {
    "col_no": "3",
-   "name": "VICTIimMs OF RAPE (3)",
+   "name": "No. of cases reported",
    "header": [
-    "VICTIimMs OF RAPE"
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "4",
-   "name": "VICTIimMs OF RAPE (4)",
+   "name": "Below 16 Years",
    "header": [
-    "VICTIimMs OF RAPE"
+    "Below 16 Years"
    ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Between 16 to 30 Years",
+   "header": [
+    "Between 16 to 30 Years"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
-  },
-  {
-   "col_no": "7",
-   "name": "col_7",
-   "header": []
-  },
-  {
-   "col_no": "8",
-   "name": "col_8",
-   "header": []
-  },
-  {
-   "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "Above 30 years",
+   "header": [
+    "Above 30 years"
+   ]
   }
  ],
  "notes": [],
@@ -68,10 +58,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

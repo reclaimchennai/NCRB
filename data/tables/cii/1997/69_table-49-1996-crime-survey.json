@@ -8,47 +8,49 @@
  "serial": "69",
  "title": "Juvenile Delinquency (SLL) Under Different Crime Heads & Percentage Variation During 1997 and Percentage Variation Over 1996",
  "listing_title": "Juvenile Delinquency (SLL) Under Different Crime Heads & Percentage Variation During 1997 and Percentage Variation Over 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-49-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-49-1996-crime-survey.pdf",
  "source_sha256": "5b2977c7ea8a57407db95be567a504c559349d554d696e82417ce160871cb2b1",
  "table_no": "49",
- "pdf_title": "JUVENILE DELINQUENCY (SLL) UNDER DiFFEKENT CRIME HEADS & PERCENTAGE VARIATION DURING 1997 AND PERCENTAGE VARIATION OVER 1996",
- "row_label": "CRIME HEAD aq a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-49",
+ "row_label": "NUMBER OF CASES REPORTED DURING",
  "pages": [
+  1,
   1
  ],
- "n_rows": 23,
- "n_cols": 2,
- "n_cells": 45,
+ "n_rows": 24,
+ "n_cols": 3,
+ "n_cells": 66,
  "columns": [
   {
    "col_no": "4",
-   "name": "NUMBER OF CASES REPORTE!? DURING 1996",
+   "name": "NUMBER OF CASES REPORTED DURING",
    "header": [
-    "NUMBER OF CASES REPORTE!? DURING 1996"
+    "NUMBER OF CASES REPORTED DURING"
    ]
   },
   {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
    "col_no": "5",
-   "name": "OVER 1997",
-   "header": [
-    "OVER 1997"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
- "notes": [
-  "1161 NCRB/99—17A"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 2,
   "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

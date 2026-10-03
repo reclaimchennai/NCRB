@@ -8,48 +8,55 @@
  "serial": "37",
  "title": "Juvenile Apprehended (by Sex) for Committing Crime under IPC",
  "listing_title": "Juvenile Apprehended (by Sex) for Committing Crime under IPC",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1981.pdf",
  "source_file": "raw/cii/1981/table_content/table-40-1981.pdf",
  "source_sha256": "7c52b7e7b6018185b04679d1fa0138e60c7ff5ba4dbaefc1103e1f2608096983",
- "table_no": "",
- "pdf_title": "TABLE +40",
- "row_label": "JUVENILE STATES 1. Andhra / (BY SEX) FOR COMMITTING CRIME TINDER IPC Boys 7a 2",
+ "table_no": "40",
+ "pdf_title": "96 TABLE 40 JUVENILE APPREHENDED (BY SEX) FOR COMMITTING CRIME UNDER IPC",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 31,
- "n_cols": 2,
- "n_cells": 49,
+ "n_rows": 47,
+ "n_cols": 3,
+ "n_cells": 141,
  "columns": [
   {
    "col_no": "3",
-   "name": "(BY SEX) FOR COMMITTING CRIME TINDER IPC | Girk ‘",
+   "name": "Boys",
    "header": [
-    "(BY SEX) FOR COMMITTING CRIME TINDER IPC",
-    "Girk ‘"
+    "Boys"
    ]
   },
   {
    "col_no": "4",
-   "name": "S14 a",
+   "name": "Girls",
    "header": [
-    "S14 a"
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   }
  ],
- "notes": [
-  "-"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 9,
+  "cells_passed": 7,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 76603, sum 76401",
+   "col 5 'TOTAL (STATES)': printed 79582, sum 79630"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

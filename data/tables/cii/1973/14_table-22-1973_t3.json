@@ -6,42 +6,76 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "14",
- "title": "Persong",
+ "title": "78 TABLE Persons Arrested",
  "listing_title": "Persons Arrested under IPC Crime by Sex.",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-22-1973.pdf",
  "source_sha256": "532eb0928e02e99da3a5a0063b0b76009d2b63bf3249e9f43451571780d90bd4",
  "table_no": "",
- "pdf_title": "Persong",
- "row_label": "il. Ts. (Cities No, / Burglary > ‘Male",
+ "pdf_title": "78 TABLE Persons Arrested",
+ "row_label": "Sl. No.",
  "pages": [
-  3
+  3,
+  4
  ],
- "n_rows": 34,
- "n_cols": 3,
- "n_cells": 92,
+ "n_rows": 82,
+ "n_cols": 7,
+ "n_cells": 450,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Burglary > | Female",
+   "col_no": "2",
+   "name": "States/U. Ts. /Cities",
    "header": [
-    "Burglary >",
-    "Female"
+    "States/U. Ts. /Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Burglary | Male",
+   "header": [
+    "Burglary",
+    "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "-",
+   "name": "Burglary | Female",
    "header": [
-    "-"
+    "Burglary",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "Female",
+   "name": "Thefts | Male",
    "header": [
+    "Thefts",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Thefts | Female",
+   "header": [
+    "Thefts",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Counterfeiting | Male",
+   "header": [
+    "Counterfeiting",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Counterfeiting | Female",
+   "header": [
+    "Counterfeiting",
     "Female"
    ]
   }
@@ -51,10 +85,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 8,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

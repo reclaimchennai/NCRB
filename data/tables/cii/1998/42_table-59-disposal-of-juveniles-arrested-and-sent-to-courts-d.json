@@ -8,95 +8,85 @@
  "serial": "42",
  "title": "Disposal of Juveniles Arrested (Under IPC and SLL Crimes) and Sent to Courts During 1998 (State, UT & City-Wise)",
  "listing_title": "Disposal of Juveniles Arrested (Under IPC and SLL Crimes) and Sent to Courts During 1998 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59--disposal-of-juveniles-arrested-and-sent-to-courts-during-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-59--disposal-of-juveniles-arrested-and-sent-to-courts-during-1998.pdf",
  "source_sha256": "037994d6b8b0092bd304204de5a29a5d05195fa92828c3542afc7349cf33b97b",
  "table_no": "59",
- "pdf_title": "",
- "row_label": "DISPOSAL OF JUVENILES STATE/UT/CITY NO. a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-59",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 58,
  "n_cols": 8,
- "n_cells": 396,
+ "n_cells": 464,
  "columns": [
   {
    "col_no": "3",
-   "name": "DISPOSAL OF JUVENILES | ARRESTED & SENT",
+   "name": "ARRESTED & SENT TO COURTS",
    "header": [
-    "DISPOSAL OF JUVENILES",
-    "ARRESTED & SENT"
+    "ARRESTED & SENT TO COURTS"
    ]
   },
   {
    "col_no": "4",
-   "name": "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998 | SENT TO HOME AFTER ADVICE",
+   "name": "SENT TO HOME AFTER ADVICE OR ADM-ONITION",
    "header": [
-    "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998",
-    "SENT TO HOME AFTER ADVICE"
+    "SENT TO HOME AFTER ADVICE OR ADM-ONITION"
    ]
   },
   {
    "col_no": "5",
-   "name": "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998 | UT & CITY-WISE) | PLACED UNDER CARE OF PARENTS/ GUARDIANS",
+   "name": "RELEASED ON PROBATION AND PLACED UNDER CARE OF | PARENTS/ GUARDIANS",
    "header": [
-    "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998",
-    "UT & CITY-WISE)",
-    "PLACED UNDER CARE OF PARENTS/ GUARDIANS"
+    "RELEASED ON PROBATION AND PLACED UNDER CARE OF",
+    "PARENTS/ GUARDIANS"
    ]
   },
   {
    "col_no": "6",
-   "name": "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998 | UT & CITY-WISE) | en ae FIT INSTT.",
+   "name": "RELEASED ON PROBATION AND PLACED UNDER CARE OF | FIT INSTT.",
    "header": [
-    "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998",
-    "UT & CITY-WISE)",
-    "en ae FIT INSTT."
+    "RELEASED ON PROBATION AND PLACED UNDER CARE OF",
+    "FIT INSTT."
    ]
   },
   {
    "col_no": "7",
-   "name": "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998 | SENT TO SPECIA! HOMES",
+   "name": "SENT TO SPECIAL HOMES",
    "header": [
-    "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998",
-    "SENT TO SPECIA! HOMES"
+    "SENT TO SPECIAL HOMES"
    ]
   },
   {
    "col_no": "8",
-   "name": "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998 | DEALT WITH FINE",
+   "name": "DEALT WITH FINE",
    "header": [
-    "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998",
     "DEALT WITH FINE"
    ]
   },
   {
    "col_no": "9",
-   "name": "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998 | ACQUITTED oR OTHERWISE DISPOSED OF",
+   "name": "ACQUITTED OR OTHER-WISE DISPOSED OF",
    "header": [
-    "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998",
-    "ACQUITTED oR OTHERWISE DISPOSED OF"
+    "ACQUITTED OR OTHER-WISE DISPOSED OF"
    ]
   },
   {
    "col_no": "10",
-   "name": "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998 | - PENDING DISPOSAL",
+   "name": "PENDING DISPO-SAL",
    "header": [
-    "(UNDER IPC AND SLL CRIMES) AND SENT TO COURTS DURING 1998",
-    "- PENDING DISPOSAL"
+    "PENDING DISPO-SAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 13,
-  "failures": [
-   "col 10 'TOTAL (UTs)': printed 158, sum 458"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

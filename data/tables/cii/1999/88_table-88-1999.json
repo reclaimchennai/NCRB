@@ -8,64 +8,115 @@
  "serial": "88",
  "title": "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.1999 (Men + Women) (State, UT & City-",
  "listing_title": "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.1999 (Men + Women) (State, UT & City-",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-88-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-88-1999.pdf",
  "source_sha256": "ceca3f75de73e85c90a11d25243364347d5521e2e44806d439ab3d0198669dba",
  "table_no": "88",
- "pdf_title": "",
- "row_label": "SANCTIONED AND ACTUAL S1RENGTH OF CIVIL POLICE INCLUDING SL.NO. (2) STATES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 88",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 58,
- "n_cols": 4,
- "n_cells": 223,
+ "n_cols": 10,
+ "n_cells": 580,
  "columns": [
   {
-   "col_no": "2",
-   "name": "SANCTIONED AND ACTUAL S1RENGTH OF CIVIL POLICE INCLUDING | STATE/UTICITY SANC TIONED (4)",
-   "header": [
-    "SANCTIONED AND ACTUAL S1RENGTH OF CIVIL POLICE INCLUDING",
-    "STATE/UTICITY SANC TIONED (4)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "SANCTIONED AND ACTUAL S1RENGTH OF CIVIL POLICE INCLUDING | AS ON SSP/SP/ANN|.SP/ASP/ ACTUAL SaNCTioNED",
+   "name": "DG/ADDL.DG/ IG/DIG | SANC TIONED",
    "header": [
-    "SANCTIONED AND ACTUAL S1RENGTH OF CIVIL POLICE INCLUDING",
-    "AS ON SSP/SP/ANN|.SP/ASP/ ACTUAL SaNCTioNED"
+    "DG/ADDL.DG/ IG/DIG",
+    "SANC TIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "SANCTIONED AND ACTUAL S1RENGTH OF CIVIL POLICE INCLUDING | 31.12.1999 (MEN + ‘WOMEN! (STATE, UT & CITY-WISE INSPECTOR S1& COMDT. ACTUAL (8) (6)",
+   "name": "DG/ADDL.DG/ IG/DIG | ACTUAL",
    "header": [
-    "SANCTIONED AND ACTUAL S1RENGTH OF CIVIL POLICE INCLUDING",
-    "31.12.1999 (MEN + ‘WOMEN! (STATE, UT & CITY-WISE INSPECTOR S1& COMDT. ACTUAL (8) (6)"
+    "DG/ADDL.DG/ IG/DIG",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "ARMED POLICE GRAND TOTAL - SANC: SANC- - ACTUAL TIONED TIONED TIONED (10) m (12) ay (9)",
+   "name": "SSP/SP/ADDL.SP/ASP/DY.SP/ASSTT. COMDT. | SANCTIONED",
    "header": [
-    "ARMED POLICE GRAND TOTAL - SANC: SANC- - ACTUAL TIONED TIONED TIONED (10) m (12) ay (9)"
+    "SSP/SP/ADDL.SP/ASP/DY.SP/ASSTT. COMDT.",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "SSP/SP/ADDL.SP/ASP/DY.SP/ASSTT. COMDT. | ACTUAL",
+   "header": [
+    "SSP/SP/ADDL.SP/ASP/DY.SP/ASSTT. COMDT.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INSPECTOR.SH & A.S.I. | SANC- TIONED",
+   "header": [
+    "INSPECTOR.SH & A.S.I.",
+    "SANC- TIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR.SH & A.S.I. | ACTUAL",
+   "header": [
+    "INSPECTOR.SH & A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS BELOW A.S.I. | SANC- TIONED",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "SANC- TIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | SANC- TIONED",
+   "header": [
+    "GRAND TOTAL",
+    "SANC- TIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
+  "cells_checked": 30,
+  "cells_passed": 27,
   "failures": [
-   "col 2 'TOTAL (UTS)': printed 28, sum 939243"
+   "col 7 'TOTAL STATES': printed 141375, sum 141455",
+   "col 8 'TOTAL STATES': printed 124742, sum 124692",
+   "col 10 'TOTAL STATES': printed 850637, sum 840637"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -1,0 +1,100 @@
+{
+ "table_id": "cii/1994/6_table54-1994-2",
+ "publication": "cii",
+ "year": 1994,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "6",
+ "title": "Disposal of Juveniles Arrested (under IPC and SLL Crimes) and Sent to Courts During 1994 (State, UT & City-Wise)",
+ "listing_title": "Disposal of Juveniles Arrested (under IPC and SLL Crimes) and Sent to Courts During 1994 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table54-1994_2.pdf",
+ "source_file": "raw/cii/1994/table_content/table54-1994_2.pdf",
+ "source_sha256": "097f6edf6f28e933cce81c5234734aed9088dcb2a192c06b042f4240aae7bf55",
+ "table_no": "54",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-54",
+ "row_label": "SL. NO. / STATE/UT/CITY",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 8,
+ "n_cells": 464,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ARRESTED & SENT TO COURTS",
+   "header": [
+    "ARRESTED & SENT TO COURTS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "SENT TO HOME AFTER ADVICE OR ADM-ONITION",
+   "header": [
+    "SENT TO HOME AFTER ADVICE OR ADM-ONITION"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RELEASED ON PROBATION AND PLACED UNDER CARE OF | PARENTS/GUARDIANS",
+   "header": [
+    "RELEASED ON PROBATION AND PLACED UNDER CARE OF",
+    "PARENTS/GUARDIANS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RELEASED ON PROBATION AND PLACED UNDER CARE OF | FIT INSTT.",
+   "header": [
+    "RELEASED ON PROBATION AND PLACED UNDER CARE OF",
+    "FIT INSTT."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "SENT TO SPECIAL HOMES",
+   "header": [
+    "SENT TO SPECIAL HOMES"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "DEALT WITH FINE",
+   "header": [
+    "DEALT WITH FINE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "ACQUITTED OR OTHER-WISE DISPOSED OF",
+   "header": [
+    "ACQUITTED OR OTHER-WISE DISPOSED OF"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PENDING DISPO-SAL",
+   "header": [
+    "PENDING DISPO-SAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 21,
+  "failures": [
+   "col 6 'TOTAL (STATES)': printed 700, sum 703",
+   "col 10 'TOTAL (STATES)': printed 6458, sum 6498",
+   "col 10 'TOTAL (ALL-INDIA)': printed 6599, sum 6559"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

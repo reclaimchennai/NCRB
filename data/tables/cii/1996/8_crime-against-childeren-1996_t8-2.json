@@ -6,16 +6,16 @@
  "topic": "",
  "section": "",
  "serial": "8",
- "title": "Victi ns of Child Rape ( 1992 - 1996)",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 Chart-8.1",
  "listing_title": "Crime Against Children",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/crime-against-childeren-1996.pdf",
  "source_file": "raw/cii/1996/table_chapter/crime-against-childeren-1996.pdf",
  "source_sha256": "0e3ddbcce5517ae28ad9e179b79885c00fb70036b97e9abdf7f67f4c575bf6b1",
  "table_no": "8.2",
- "pdf_title": "Victi ns of Child Rape ( 1992 - 1996)",
- "row_label": "Year Sl. No. (1) / Year (2)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 Chart-8.1",
+ "row_label": "Sl. No.",
  "pages": [
   3
  ],
@@ -24,32 +24,29 @@
  "n_cells": 19,
  "columns": [
   {
+   "col_no": "2",
+   "name": "Year",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Age Group | 10 - 16 years",
+   "header": [
+    "Age Group",
+    "10 - 16 years"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "Age Group | Below 10 years (3)",
+   "name": "% share of child rape victims to total rape victims",
    "header": [
-    "Age Group",
-    "Below 10 years (3)"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "Age Group | 10 - 16 years (3)",
-   "header": [
-    "Age Group",
-    "10 - 16 years (3)"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "% share of child rape victims to total rape victims (4)",
-   "header": [
-    "% share of child rape victims to total rape victims (4)"
+    "% share of child rape victims to total rape victims"
    ]
   }
  ],
- "notes": [
-  "over 1992"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -57,7 +54,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -1,0 +1,194 @@
+{
+ "table_id": "psi/2000/5_psi-full-report-2000_t23_2",
+ "publication": "psi",
+ "year": 2000,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 2000",
+ "serial": "5",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-23",
+ "listing_title": "Download Full Report",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2000.pdf",
+ "source_file": "raw/psi/2000/year_wise/psi-full-report-2000.pdf",
+ "source_sha256": "171376686bd1e431ac947c0d86c5141722a1e13fb54bb5c1347bbf9500133c70",
+ "table_no": "23",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-23",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  113,
+  114
+ ],
+ "n_rows": 36,
+ "n_cols": 21,
+ "n_cells": 735,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ARMS ACT",
+   "header": [
+    "ARMS ACT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NDPS ACT",
+   "header": [
+    "NDPS ACT"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "GAMB-LING ACT",
+   "header": [
+    "GAMB-LING ACT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EXCISE ACT",
+   "header": [
+    "EXCISE ACT"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PROH-BITION ACT",
+   "header": [
+    "PROH-BITION ACT"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "EXP. & EXP. SUB. ACT",
+   "header": [
+    "EXP. & EXP. SUB. ACT"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "ITP ACT",
+   "header": [
+    "ITP ACT"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "INDIAN RAIL-WAYS ACT",
+   "header": [
+    "INDIAN RAIL-WAYS ACT"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "REG. OF FOR. ACT",
+   "header": [
+    "REG. OF FOR. ACT"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "PCR ACT",
+   "header": [
+    "PCR ACT"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "INDIAN PASS-PORT ACT",
+   "header": [
+    "INDIAN PASS-PORT ACT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "ESSEN-TIAL COMMO-DITIES ACT",
+   "header": [
+    "ESSEN-TIAL COMMO-DITIES ACT"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "ANTI-QUITY & ART TREAS-URE ACT",
+   "header": [
+    "ANTI-QUITY & ART TREAS-URE ACT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "DOWRY PROHIBI-TON ACT",
+   "header": [
+    "DOWRY PROHIBI-TON ACT"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "FERA",
+   "header": [
+    "FERA"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "OFFI-CIAL SEC-RETS ACTS",
+   "header": [
+    "OFFI-CIAL SEC-RETS ACTS"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "PREV. OF CORR. ACT",
+   "header": [
+    "PREV. OF CORR. ACT"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "CFEP OSA ACT",
+   "header": [
+    "CFEP OSA ACT"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "NATI-ONAL SECU-RITY ACT",
+   "header": [
+    "NATI-ONAL SECU-RITY ACT"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "OTHER SLL CRIMES",
+   "header": [
+    "OTHER SLL CRIMES"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "TOTAL UNDER-TRIALS (SLL)",
+   "header": [
+    "TOTAL UNDER-TRIALS (SLL)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 63,
+  "cells_passed": 56,
+  "failures": [
+   "col 14 'TOTAL (STATES)': printed 266, sum 259",
+   "col 16 'TOTAL (STATES)': printed 2949, sum 2882",
+   "col 18 'TOTAL (STATES)': printed 77, sum 61",
+   "col 19 'TOTAL (STATES)': printed 200, sum 197",
+   "col 21 'TOTAL (STATES)': printed 178, sum 175",
+   "col 22 'TOTAL (STATES)': printed 6709, sum 6440",
+   "col 23 'TOTAL (STATES)': printed 35908, sum 34394"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

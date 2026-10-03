@@ -6,63 +6,64 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "24",
- "title": "Persons Arrested",
+ "title": "62 TABLE Persons Arrested",
  "listing_title": "Persons Arrested under Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-24-1974_0.pdf",
  "source_sha256": "121cffa92a1a583c5c32ef123489c85dd969725a41dfcabf266f9d1588c4c165",
  "table_no": "",
- "pdf_title": "Persons Arrested",
- "row_label": "Ty 8, i Staves l. / 2 Andhra Pradesh",
+ "pdf_title": "62 TABLE Persons Arrested",
+ "row_label": "Sl. No. / States/U. Ts./Cities",
  "pages": [
   2
  ],
- "n_rows": 40,
+ "n_rows": 42,
  "n_cols": 6,
- "n_cells": 213,
+ "n_cells": 252,
  "columns": [
   {
    "col_no": "3",
-   "name": "Anms Act ‘ 1‘",
+   "name": "Arms Act",
    "header": [
-    "Anms Act ‘ 1‘"
+    "Arms Act"
    ]
   },
   {
    "col_no": "4",
-   "name": "Opium Act a 158",
+   "name": "Opium Act",
    "header": [
-    "Opium Act a 158"
+    "Opium Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "Gambling Act 5 il",
+   "name": "Gambling Act",
    "header": [
-    "Gambling Act 5 il"
+    "Gambling Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "Excise Ast 6 475",
+   "name": "Excise Act",
    "header": [
-    "Excise Ast 6 475"
+    "Excise Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "Explosive Act & Exp. subs. Act. 7 7,197",
+   "name": "Explosive Act & Exp. subs. Act.",
    "header": [
-    "Explosive Act & Exp. subs. Act. 7 7,197"
+    "Explosive Act & Exp. subs. Act."
    ]
   },
   {
    "col_no": "8",
-   "name": "1. T. Act a 148",
+   "name": "C R I M E | S. I. T. Act",
    "header": [
-    "1. T. Act a 148"
+    "C R I M E",
+    "S. I. T. Act"
    ]
   }
  ],
@@ -71,10 +72,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 20,
+  "other_totals_passed": 16
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -1,0 +1,104 @@
+{
+ "table_id": "cii/1991/20_table-4-1991-4_t4",
+ "publication": "cii",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "20",
+ "title": "30 TABLE - 4 NOTE: 1. Arunachal Pradesh, Goa and Mizoram attained statehood in the year 1986, 1987 and 1986 respectively. Daman & Diu portion of UT of Goa, Daman & Diu to remain as a U.T.",
+ "listing_title": "Incidence of Total Cognizable Crimes (IPC)in States, UTs & Cites During 1986-1991 alongwith Percentage Changes During 1991",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1991-4.pdf",
+ "source_file": "raw/cii/1991/table_content/table-4-1991-4.pdf",
+ "source_sha256": "c51539f2ca63e8235512e1d0c8a6b34c18ba2ac990cd83188ac929d3e55177b6",
+ "table_no": "4",
+ "pdf_title": "30 TABLE - 4 NOTE: 1. Arunachal Pradesh, Goa and Mizoram attained statehood in the year 1986, 1987 and 1986 respectively. Daman & Diu portion of UT of Goa, Daman & Diu to remain as a U.T.",
+ "row_label": "SL.NO. / STATE/UT/CITY",
+ "pages": [
+  2
+ ],
+ "n_rows": 21,
+ "n_cols": 9,
+ "n_cells": 189,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "1986",
+   "header": [
+    "1986"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1987",
+   "header": [
+    "1987"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1988",
+   "header": [
+    "1988"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1989",
+   "header": [
+    "1989"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1990",
+   "header": [
+    "1990"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "QUINQUEN-GIAL AVG.1986-1990(Q.A.)",
+   "header": [
+    "QUINQUEN-GIAL AVG.1986-1990(Q.A.)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1991",
+   "header": [
+    "1991"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PERCENTAGE CHANGE IN 1991(+ ) INCREASE(- ) DECREASE OVER",
+   "header": [
+    "PERCENTAGE CHANGE IN 1991(+ ) INCREASE(- ) DECREASE OVER"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Q.A.",
+   "header": [
+    "Q.A."
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 5,
+  "failures": [
+   "col 8 'TOTAL (UTs)': printed 35199, sum 35200",
+   "col 9 'TOTAL (UTs)': printed 42821, sum 40821"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -6,76 +6,134 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1973",
  "serial": "1",
- "title": "Accidental Deaths in India",
+ "title": "The all India average recorded 65·5 per cent deaths among males and this ratio is almost maintained by most of the states except for a few where male involvement was still more. The male involvement was cent per cent in the case of Lakshadweep and Mizoram. The percentage of male involvement in the accidental deaths in the Metropolitan cities was 69·4 per cent and this did not vary much from the all India average. The details are given in Table V. TABLE V Statewise distribution of Accidental Deaths by Sex, 1973",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1973.pdf",
  "source_file": "raw/adsi/1973/year_wise/accidental-deaths-1973.pdf",
  "source_sha256": "43fe94ed0581a435a3aabd9fa6fedd970050780297575883a429d3bc62c0bb80",
  "table_no": "V",
- "pdf_title": "",
- "row_label": "Statewise Sl. Names of states/U.Ts. /Cities",
+ "pdf_title": "The all India average recorded 65·5 per cent deaths among males and this ratio is almost maintained by most of the states except for a few where male involvement was still more. The male involvement was cent per cent in the case of Lakshadweep and Mizoram. The percentage of male involvement in the accidental deaths in the Metropolitan cities was 69·4 per cent and this did not vary much from the all India average. The details are given in Table V. TABLE V Statewise distribution of Accidental Deaths by Sex, 1973",
+ "row_label": "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. / Andhra Pradesh Assam . . Bihar . . Gujrat . . Haryana . Himachal Pradesh Jammu &Kashmir . Karnataka . Kerala . . Madhya Pradesh Maharashtra . Manipur . Meghalaya .",
  "pages": [
+  9,
+  9,
+  9,
   9
  ],
- "n_rows": 33,
+ "n_rows": 6,
  "n_cols": 5,
- "n_cells": 165,
+ "n_cells": 30,
  "columns": [
   {
-   "col_no": "2",
-   "name": "of +-==2t==:=: | No. Males involved",
-   "header": [
-    "of +-==2t==:=:",
-    "No. Males involved"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "of +-==2t==:=: | % Males to total",
+   "name": "4412 | 1794 | 3517 | 3457 | 989 | 300 | 459 | 4251 | 1915 | 8606 | 15317 | 24 | 91",
    "header": [
-    "of +-==2t==:=:",
-    "% Males to total"
+    "4412",
+    "1794",
+    "3517",
+    "3457",
+    "989",
+    "300",
+    "459",
+    "4251",
+    "1915",
+    "8606",
+    "15317",
+    "24",
+    "91"
    ]
   },
   {
    "col_no": "4",
-   "name": "by Sex, 1973 | of Female involved -",
+   "name": "63·9 | 71·1 | 62·0 | 59·4 | 69·5 | 76·7 | 77·9 | 64·3 | 73·7 | 61·9 | 64·9 | 82·8 | 87·5",
    "header": [
-    "by Sex, 1973",
-    "of Female involved -"
+    "63·9",
+    "71·1",
+    "62·0",
+    "59·4",
+    "69·5",
+    "76·7",
+    "77·9",
+    "64·3",
+    "73·7",
+    "61·9",
+    "64·9",
+    "82·8",
+    "87·5"
    ]
   },
   {
    "col_no": "5",
-   "name": "by Sex, 1973 | % Females to",
+   "name": "2495 | 729 | 2158 | 2362 | 435 | 91 | 130 | 2356 | 683 | 5295 | 8284 | 5 | 13",
    "header": [
-    "by Sex, 1973",
-    "% Females to"
+    "2495",
+    "729",
+    "2158",
+    "2362",
+    "435",
+    "91",
+    "130",
+    "2356",
+    "683",
+    "5295",
+    "8284",
+    "5",
+    "13"
    ]
   },
   {
    "col_no": "6",
-   "name": "Total of total -",
+   "name": "36·1 | 28·9 | 38·0 | 40·6 | 30·5 | 23·3 | 22·1 | 35·7 | 26·3 | 38·1 | 35·1 | 17·2 | 12·5",
    "header": [
-    "Total of total -"
+    "36·1",
+    "28·9",
+    "38·0",
+    "40·6",
+    "30·5",
+    "23·3",
+    "22·1",
+    "35·7",
+    "26·3",
+    "38·1",
+    "35·1",
+    "17·2",
+    "12·5"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "6907 | 2523 | 5675 | 5819 | 1424 | 391 | 589 | 6607 | 2598 | 13901 | 23601 | 29 | 104",
+   "header": [
+    "6907",
+    "2523",
+    "5675",
+    "5819",
+    "1424",
+    "391",
+    "589",
+    "6607",
+    "2598",
+    "13901",
+    "23601",
+    "29",
+    "104"
    ]
   }
  ],
- "notes": [
-  "- 3—1298BPR&D/76"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 2,
+  "cells_checked": 2,
+  "cells_passed": 0,
   "failures": [
-   "col 4 'TOTAL (STATES)': printed 36071, sum 36066"
+   "col 3 'TOTAL (U. Ts.)': printed 1964, sum 21",
+   "col 7 'TOTAL (U. Ts.)': printed 2634, sum 21"
   ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

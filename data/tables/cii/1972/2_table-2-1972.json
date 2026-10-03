@@ -8,56 +8,55 @@
  "serial": "2",
  "title": "Incidence of Crime, Volume of Crime per one Lakh of Population and Percentage Variation During 1972 over 1962, over Quinquennial Average of 1967 to 1971 and over 1971",
  "listing_title": "Incidence of Crime, Volume of Crime per one Lakh of Population and Percentage Variation During 1972 over 1962, over Quinquennial Average of 1967 to 1971 and over 1971",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-2-1972.pdf",
  "source_file": "raw/cii/1972/table_content/table-2-1972.pdf",
  "source_sha256": "cb0cafebd4d2bf4eee2f5d62a28808dad7c8d20971abfcac28ccc4fd3f402dd8",
  "table_no": "",
- "pdf_title": "TAGLE",
- "row_label": "of",
+ "pdf_title": "3 2 during 1972 over 1962, over quinquennial average of 1967 to 1971 and over 1971.",
+ "row_label": "1971",
  "pages": [
-  1
+  2,
+  2
  ],
- "n_rows": 20,
+ "n_rows": 2,
  "n_cols": 5,
- "n_cells": 80,
+ "n_cells": 10,
  "columns": [
   {
    "col_no": "2",
-   "name": "Cpe, Volume of Crime per One Lakh af -",
+   "name": "Quinquennial Average 1967-1971 (Q.A.)",
    "header": [
-    "Cpe, Volume of Crime per One Lakh af -"
+    "Quinquennial Average 1967-1971 (Q.A.)"
    ]
   },
   {
    "col_no": "3",
-   "name": "Cpe, Volume of Crime per One Lakh af - | Log?",
+   "name": "1972",
    "header": [
-    "Cpe, Volume of Crime per One Lakh af -",
-    "Log?"
+    "1972"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cpe, Volume of Crime per One Lakh af - | 1968",
+   "name": "Over 1962",
    "header": [
-    "Cpe, Volume of Crime per One Lakh af -",
-    "1968"
+    "Over 1962"
    ]
   },
   {
    "col_no": "5",
-   "name": "aad",
+   "name": "Over Q.A.",
    "header": [
-    "aad"
+    "Over Q.A."
    ]
   },
   {
    "col_no": "6",
-   "name": "i370",
+   "name": "Over 1971",
    "header": [
-    "i370"
+    "Over 1971"
    ]
   }
  ],
@@ -69,7 +68,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

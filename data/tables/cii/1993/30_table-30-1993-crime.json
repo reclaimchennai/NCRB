@@ -8,14 +8,14 @@
  "serial": "30",
  "title": "Persons Arrested under Local Acts and Special Laws (L&SL) During 1993 (Crime-Head & Sex-Wise)",
  "listing_title": "Persons Arrested under Local Acts and Special Laws (L&SL) During 1993 (Crime-Head & Sex-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-30-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-30-1993-crime.pdf",
  "source_sha256": "5754bc42f10f76f2ecd0f8aa2556e12120b063a4fae0cf8044a081626fb0ebf9",
  "table_no": "30",
- "pdf_title": "PERSONS ARRESTED UNDER LOCAL ACTS AND SPECIAL LAWS (L&SL) DURING 1993",
- "row_label": "",
+ "pdf_title": "176 TABLE-30 PERSONS ARRESTED UNDER LOCAL ACTS AND SPECIAL LAWS (L&SL) DURING 1993 (CRIME-HEAD & SEX-WISE)",
+ "row_label": "SL NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,43 +25,49 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(CRIME-HEAD & SEX-WISE) (3)",
+   "name": "MALE",
    "header": [
-    "(CRIME-HEAD & SEX-WISE)"
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "(CRIME-HEAD & SEX-WISE) (4)",
+   "name": "FEMALE",
    "header": [
-    "(CRIME-HEAD & SEX-WISE)"
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "PERCENTAGE TO TOTAL | MALE",
+   "header": [
+    "PERCENTAGE TO TOTAL",
+    "MALE"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "PERCENTAGE TO TOTAL | FEMALE",
+   "header": [
+    "PERCENTAGE TO TOTAL",
+    "FEMALE"
+   ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -6,51 +6,47 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1998",
  "serial": "6",
- "title": "Accidental Deaths in India",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A) Table-1.3",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1998.pdf",
  "source_file": "raw/adsi/1998/year_wise/accidental-deaths-1998.pdf",
  "source_sha256": "1bc70ad1cb5ef355bdb1c9c3b7dd1d266fc8ba2ade5fa50992013cd4b6921337",
  "table_no": "1.3",
- "pdf_title": "",
- "row_label": "More Acrident Prone SI.No. Maharashira D & N Haveli Zs Daman & Diu 3. Goa 4. 5.",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A) Table-1.3",
+ "row_label": "Less Accident Prone Sl.No 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. / Less Accident Prone State/UTs Andhra Pradesh Haryana Himachal Pradesh Kerala Arunachal Pradesh Orissa Punjab West Bengal Jammu & Kashmir Uttar Pradesh Bihar Mizoram Assam Manipur",
  "pages": [
   5
  ],
- "n_rows": 16,
- "n_cols": 3,
- "n_cells": 39,
+ "n_rows": 4,
+ "n_cols": 1,
+ "n_cells": 4,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Less Accident Prone | State Rate 65.7 63.3 58.3 54.7 524",
+   "col_no": "6",
+   "name": "Less Accident Prone | Rate | 23.8 | 22.0 | 21.4 | 21.0 | 20.7 | 18.1 | 18.0 | 17.7 | 17.4 | 13.9 | 10.6 | 8.7 | 8.2 | 7.8",
    "header": [
     "Less Accident Prone",
-    "State Rate 65.7 63.3 58.3 54.7 524"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "Less Accident Prone | State/UTs Le Andhra Pradesh 2. Haryana Himachal Pradesh 4. 4. Kerala 5.",
-   "header": [
-    "Less Accident Prone",
-    "State/UTs Le Andhra Pradesh 2. Haryana Himachal Pradesh 4. 4. Kerala 5."
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "Less Accident Prone | Rate 23.8 22.0 21.4 21.0 Arunachal 20.7",
-   "header": [
-    "Less Accident Prone",
-    "Rate 23.8 22.0 21.4 21.0 Arunachal 20.7"
+    "Rate",
+    "23.8",
+    "22.0",
+    "21.4",
+    "21.0",
+    "20.7",
+    "18.1",
+    "18.0",
+    "17.7",
+    "17.4",
+    "13.9",
+    "10.6",
+    "8.7",
+    "8.2",
+    "7.8"
    ]
   }
  ],
- "notes": [
-  "RATE"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -58,7 +54,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

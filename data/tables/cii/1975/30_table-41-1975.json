@@ -8,52 +8,40 @@
  "serial": "30",
  "title": "Juveniles Apprehended (by Sex) Committing Crime under Local and Special Laws",
  "listing_title": "Juveniles Apprehended (by Sex) Committing Crime under Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-41-1975.pdf",
  "source_sha256": "490a91cb14675455712a954c7bb9a51048438b2274d4755ec168c3a3f60c80fc",
- "table_no": "",
- "pdf_title": "Git",
- "row_label": "a “2 / FA thy J",
+ "table_no": "41",
+ "pdf_title": "91 TABLE 41 Juvenile apprehended (by Sex) committing Crime under Local and Special Laws",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 42,
- "n_cols": 5,
- "n_cells": 137,
+ "n_rows": 43,
+ "n_cols": 3,
+ "n_cells": 129,
  "columns": [
   {
+   "col_no": "3",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Boys",
+   "header": [
+    "Boys"
+   ]
   },
   {
    "col_no": "5",
-   "name": "mee Penna a 3",
+   "name": "Girls",
    "header": [
-    "mee Penna a 3"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Fame Boys 3",
-   "header": [
-    "Fame Boys 3"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "4",
-   "header": [
-    "4"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "‘Toul 5",
-   "header": [
-    "‘Toul 5"
+    "Girls"
    ]
   }
  ],
@@ -62,10 +50,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 11
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

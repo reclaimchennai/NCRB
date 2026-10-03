@@ -6,75 +6,76 @@
  "topic": "",
  "section": "Crime in India 1953",
  "serial": "3",
- "title": "APPENDIX VIII",
+ "title": "16 APPEN *Figures are not",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686379941APPENDIX-ALL-TOTALCONGNIZABLECRIME.pdf",
  "source_file": "raw/cii/1953/year_wise/1686379941APPENDIX-ALL-TOTALCONGNIZABLECRIME.pdf",
  "source_sha256": "013e8bc42920c426bf04d5e904a477084a08b3958ded581eb760385afebd25a6",
  "table_no": "",
- "pdf_title": "APPENDIX VIII",
- "row_label": "RIOTING Si. No. Part ‘A’ STATES",
+ "pdf_title": "16 APPEN *Figures are not",
+ "row_label": "State",
  "pages": [
-  10
+  8,
+  8
  ],
- "n_rows": 30,
- "n_cols": 5,
- "n_cells": 149,
+ "n_rows": 33,
+ "n_cols": 6,
+ "n_cells": 187,
  "columns": [
   {
-   "col_no": "2",
-   "name": "RIOTING | Number pending State from previous year",
-   "header": [
-    "RIOTING",
-    "Number pending State from previous year"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "RIOTING | Number in e year",
+   "name": "Number pending from previous year",
    "header": [
-    "RIOTING",
-    "Number in e year"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "RIOTING | Convicted",
-   "header": [
-    "RIOTING",
-    "Convicted"
+    "Number pending from previous year"
    ]
   },
   {
    "col_no": "5",
-   "name": "RIOTING | Dischargedoracquitted",
+   "name": "Number reported in the year",
    "header": [
-    "RIOTING",
-    "Dischargedoracquitted"
+    "Number reported in the year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Convicted",
+   "header": [
+    "Convicted"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Ordinary (4)",
+   "header": [
+    "Ordinary"
    ]
   },
   {
    "col_no": "6",
-   "name": "RIOTING | Not detecof-crime tedorapreported per 1,00,000 nannilation",
+   "name": "Ordinary (6)",
    "header": [
-    "RIOTING",
-    "Not detecof-crime tedorapreported per 1,00,000 nannilation"
+    "Ordinary"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Ordinary (8)",
+   "header": [
+    "Ordinary"
    ]
   }
  ],
- "notes": [
-  "*Figures are not for calendar year."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 24,
+  "other_totals_passed": 15
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

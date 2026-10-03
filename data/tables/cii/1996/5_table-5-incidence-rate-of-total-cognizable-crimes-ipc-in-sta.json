@@ -8,26 +8,26 @@
  "serial": "5",
  "title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States & UTs During 1996",
  "listing_title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States & UTs During 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5--incidence-&-rate-of-total-cognizable-crimes-(ipc)-in-states-and-uts-during-1996-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-5--incidence-&-rate-of-total-cognizable-crimes-(ipc)-in-states-and-uts-during-1996-1996.pdf",
  "source_sha256": "446527f9a066cfd1a31d0051e7b053d861c11aea22d08f6b6b8fc9871c2d82df",
  "table_no": "5",
- "pdf_title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES AND UTs DURING 1996",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE - 5",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 5,
- "n_cells": 164,
+ "n_cells": 172,
  "columns": [
   {
    "col_no": "3",
-   "name": "INCIDENCE OF TOTAL COG, CRIMES",
+   "name": "INCIDENCE OF TOTAL COG. CRIMES",
    "header": [
-    "INCIDENCE OF TOTAL COG, CRIMES"
+    "INCIDENCE OF TOTAL COG. CRIMES"
    ]
   },
   {
@@ -39,18 +39,16 @@
   },
   {
    "col_no": "5",
-   "name": "RATE OF | ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "RATE OF",
     "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
    ]
   },
   {
    "col_no": "6",
-   "name": "RATE OF | TOTAL COG. CRIMES",
+   "name": "RATE OF TOTAL COG. CRIMES",
    "header": [
-    "RATE OF",
-    "TOTAL COG. CRIMES"
+    "RATE OF TOTAL COG. CRIMES"
    ]
   },
   {
@@ -61,16 +59,11 @@
    ]
   }
  ],
- "notes": [
-  "Note: 1 * Rank on the basis of Rate of total cognizable crimes (Col.6) in the States & UTs.",
-  "2 Percentage less than 0.05 is also shown as 0.0. 1649 NCRB/98—12B"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 1.6441e+06, sum 2.45139e+06"
-  ],
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

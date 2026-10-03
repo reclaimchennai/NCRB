@@ -8,14 +8,14 @@
  "serial": "15",
  "title": "Disposal of IPC Crime Cases by Courts During 1992",
  "listing_title": "Disposal of IPC Crime Cases by Courts During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-15-1992-survey.pdf",
  "source_sha256": "c2af5b0780fd84cca628a94fef83c9d5b93fd324e1cc8a9e02eb0b31947ff0ee",
  "table_no": "15",
- "pdf_title": "DISPOSAL OF IPC CRIME CASES BY COURTS DURING 1992",
- "row_label": "SL. NO. / CRIME",
+ "pdf_title": "123 TABLE-15 DISPOSAL OF IPC CRIME CASES BY COURTS DURING 1992",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,44 +25,50 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "HEAD NO, CASES FOR TRIAL INCLUDING PENDING CASES",
+   "name": "TOTAL | NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "HEAD NO, CASES FOR TRIAL INCLUDING PENDING CASES"
+    "TOTAL",
+    "NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL OF IN COMPOUNDED OR WITHDRAWN",
+   "name": "TOTAL | COMP- OUN- DED OR WITH- DRAWN",
    "header": [
-    "TOTAL OF IN COMPOUNDED OR WITHDRAWN"
+    "TOTAL",
+    "COMP- OUN- DED OR WITH- DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. WHICH CONVICTED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE CONVICTED",
    "header": [
-    "NO. WHICH CONVICTED"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE CONVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF - TRIALS ACQUITTED OR DIs- CHARGED",
+   "name": "NO. OF CASES | ACQUIT- TED OR DIS- CHARGED",
    "header": [
-    "OF - TRIALS ACQUITTED OR DIs- CHARGED"
+    "NO. OF CASES",
+    "ACQUIT- TED OR DIS- CHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "CASES WERE TOTAL {(5)+ (6)}",
+   "name": "NO. OF CASES | COMPLETED TOTAL {(5) + (6)}",
    "header": [
-    "CASES WERE TOTAL {(5)+ (6)}"
+    "NO. OF CASES",
+    "COMPLETED TOTAL {(5) + (6)}"
    ]
   },
   {
    "col_no": "8",
-   "name": "- - COMPLETED PENDING TRIAL",
+   "name": "NO. OF CASES | PENDING TRIAL",
    "header": [
-    "- - COMPLETED PENDING TRIAL"
+    "NO. OF CASES",
+    "PENDING TRIAL"
    ]
   }
  ],

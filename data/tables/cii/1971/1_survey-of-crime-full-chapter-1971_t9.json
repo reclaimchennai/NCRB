@@ -6,33 +6,47 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING -197!",
+ "title": "31 Out of 3,01,869 cases in which trials were completed, 62% ended in conviction. The highest percentage of conviction out of the cases in which trials were completed was noticed in thefts (73.6%) and it was the lowest for Riots (30.4%) while for all other crimes it varied approximately from 30% to 68%. Relevant statistics are presented in Table 9. TABLE 9",
  "listing_title": "Survey of Crime; Disposal of Crime; Persons Arrested; Juvenile Delinquency; Property Stolen and Recovered; Premises of Dacoity and Robbery; Motive of Murder and Culpable Homicide not Amounting to Murder; Recidivism; Victims of Rape; Police Personnel Kille",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/survey-of-crime-full-chapter-1971.pdf",
  "source_file": "raw/cii/1971/table_chapter/survey-of-crime-full-chapter-1971.pdf",
  "source_sha256": "a61b3cbac2069368106142fc6e39a4c10f9f3675004ee8b093b5ac0baf1307a6",
- "table_no": "",
- "pdf_title": "POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING -197!",
- "row_label": "KILLED / INJURED",
+ "table_no": "9",
+ "pdf_title": "31 Out of 3,01,869 cases in which trials were completed, 62% ended in conviction. The highest percentage of conviction out of the cases in which trials were completed was noticed in thefts (73.6%) and it was the lowest for Riots (30.4%) while for all other crimes it varied approximately from 30% to 68%. Relevant statistics are presented in Table 9. TABLE 9",
+ "row_label": "Sl. No. / IPC Crime Head",
  "pages": [
-  48
+  24,
+  24
  ],
- "n_rows": 5,
- "n_cols": 1,
- "n_cells": 5,
+ "n_rows": 26,
+ "n_cols": 3,
+ "n_cells": 78,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Percentage of cases compounded or withdrawn to total cases for trial during the year",
+   "header": [
+    "Percentage of cases compounded or withdrawn to total cases for trial during the year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage of cases in which trials were completed to total cases under trial during the year",
+   "header": [
+    "Percentage of cases in which trials were completed to total cases under trial during the year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Percentage of cases convicted to cases in which trials were completed",
+   "header": [
+    "Percentage of cases convicted to cases in which trials were completed"
+   ]
   }
  ],
- "notes": [
-  "NIL OTHER UNION 330",
-  "TERRTORIES"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -40,7 +54,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

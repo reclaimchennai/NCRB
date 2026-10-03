@@ -8,14 +8,14 @@
  "serial": "8",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During 1987",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_42-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_42-1987.pdf",
  "source_sha256": "cec8661e492114ce329150f275bf34c5d0f0d574880942b9e132771dd12d1c17",
  "table_no": "42",
- "pdf_title": "(By Age Group) For Committing Crime Under Indian Penal Code During 1987",
- "row_label": "$l STATES/U. Ts. /CITIES NO (a>",
+ "pdf_title": "122 TABLE - 42 Juveniles Apprehended (By Age Group) For Committing Crime Under Indian Penal Code During 1987.",
+ "row_label": "Sl NO / STATES/U. Ts. /CITIES",
  "pages": [
   1
  ],
@@ -61,13 +61,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 13,
-  "cells_passed": 9,
+  "cells_checked": 14,
+  "cells_passed": 12,
   "failures": [
-   "col 3 'TOTAL (States)': printed 1416, sum 1417",
-   "col 6 'TOTAL (States)': printed 56936, sum 120336",
-   "col 6 'TOTAL (UTs)': printed 2652, sum 2592",
-   "col 7 'TOTAL (States)': printed 76621, sum 83021"
+   "col 3 'Total(States)': printed 1416, sum 1417",
+   "col 7 'Total(States)': printed 76621, sum 76626"
   ],
   "other_totals_checked": 5,
   "other_totals_passed": 5

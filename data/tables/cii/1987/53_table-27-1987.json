@@ -8,76 +8,72 @@
  "serial": "53",
  "title": "Disposal of Persons Arrested under IPC Crimes under Trial in Courts During the Year 1987",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes under Trial in Courts During the Year 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_27-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_27-1987.pdf",
  "source_sha256": "2123298848208b68b219c787c87c4193ac710e55ca0696ff1c39d4f083cf7393",
  "table_no": "27",
- "pdf_title": "Disposal Of Persons Arrested Under IPC Crimes Under Tria] In Courts",
- "row_label": "81 Crime Heads No",
+ "pdf_title": "95 TABLE - 27 Disposal Of Persons Arrested Under IPC Crimes Under Trial In Courts During 1987",
+ "row_label": "Sl No / Crime Heads",
  "pages": [
   1
  ],
- "n_rows": 14,
+ "n_rows": 13,
  "n_cols": 7,
- "n_cells": 97,
+ "n_cells": 91,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Total trial year petsons over previous year",
-   "header": [
-    "Total trial year petsons over previous year"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "During | of number weer inst whoa during the including) cases carried froa",
+   "name": "Total number of persons under trial during the year including persons carried over from previous year",
    "header": [
-    "During",
-    "of number weer inst whoa during the including) cases carried froa"
+    "Total number of persons under trial during the year including persons carried over from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "During | Number Persons 0 trials were completed withdrawn",
+   "name": "Number of persons against whom cases were compounded or withdrawn",
    "header": [
-    "During",
-    "Number Persons 0 trials were completed withdrawn"
+    "Number of persons against whom cases were compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "1987 of Persons custody or at -",
+   "name": "Persons in whose cases trials were completed",
    "header": [
-    "1987 of Persons custody or at -"
+    "Persons in whose cases trials were completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number in persons convicted on bail the end of during the the year",
+   "name": "Persons in custody or on bail at the end of the year",
    "header": [
-    "Number in persons convicted on bail the end of during the the year"
+    "Persons in custody or on bail at the end of the year"
    ]
   },
   {
    "col_no": "7",
-   "name": "of in ‘tage persons custody pento number year persons under",
+   "name": "Number of persons convicted during the year",
    "header": [
-    "of in ‘tage persons custody pento number year persons under"
+    "Number of persons convicted during the year"
    ]
   },
   {
    "col_no": "8",
-   "name": "of of persons in total convicted to in whose persons trials were cases of completed during the year trial",
+   "name": "Stage of persons in custody pending trial to number of persons under trial",
    "header": [
-    "of of persons in total convicted to in whose persons trials were cases of completed during the year trial"
+    "Stage of persons in custody pending trial to number of persons under trial"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Stage of persons convicted to total persons in whose cases trials were completed during the year",
+   "header": [
+    "Stage of persons convicted to total persons in whose cases trials were completed during the year"
    ]
   }
  ],
- "notes": [
-  "under IPC."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -85,7 +81,7 @@
   "other_totals_checked": 5,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

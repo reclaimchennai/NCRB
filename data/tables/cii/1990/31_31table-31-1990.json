@@ -8,14 +8,14 @@
  "serial": "31",
  "title": "Disposal of Persons Arrested under IPC Crimes by Courts During 1990",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes by Courts During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/31table-31-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/31table-31-1990-.pdf",
  "source_sha256": "e7dc9dd6fb2af06b7d0b5b1acc44bd6315a76509624a04ac809361f240df5a8a",
  "table_no": "31",
- "pdf_title": "DISPOSAL OF PERSONS **u:s1sa: UNDER IPC CRIMES BY COURTS DURING 1990",
- "row_label": "CRIME SL. NO. ql)",
+ "pdf_title": "129 TABLE-31 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURTS DURING 1990",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,51 +25,56 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "HEAD OF PERSONS UNDER TRIAL INCLIMING THOSE FROM VIOUS",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "HEAD OF PERSONS UNDER TRIAL INCLIMING THOSE FROM VIOUS"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL CASES COMPOUNDED OR WITH PREDRAWN YEAR",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO- UNDED OR WITH DRAWN",
    "header": [
-    "TOTAL CASES COMPOUNDED OR WITH PREDRAWN YEAR"
+    "NO. OF PERSONS WHOSE",
+    "CASES COMPO- UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. TRIAL COMPLETED",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL- ETED",
    "header": [
-    "NO. TRIAL COMPLETED"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPL- ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. TRIAL REMATNED PENDING",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "NO. TRIAL REMATNED PENDING"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF NO. OF PERSONS UCUNVIUIBUD (3)",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "OF NO. OF PERSONS UCUNVIUIBUD (3)"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERSONS PERSONS --<9--se WHOSE TO TRAILS REMATNED PENDING COL. (6)x100/ (5)",
+   "name": "PERCENTAGE OF PERSONS | WHOSE TRAILS REMAINED PENDING COL. (6)x100/ (3)",
    "header": [
-    "PERSONS PERSONS --<9--se WHOSE TO TRAILS REMATNED PENDING COL. (6)x100/ (5)"
+    "PERCENTAGE OF PERSONS",
+    "WHOSE TRAILS REMAINED PENDING COL. (6)x100/ (3)"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF WHOSE CONV LCTED TRIALS COL. (7)x100/",
+   "name": "PERCENTAGE OF PERSONS | CONVICTED TO TRIALS COMPLETED COL. (7)x100/ (5)",
    "header": [
-    "OF WHOSE CONV LCTED TRIALS COL. (7)x100/"
+    "PERCENTAGE OF PERSONS",
+    "CONVICTED TO TRIALS COMPLETED COL. (7)x100/ (5)"
    ]
   }
  ],
@@ -79,7 +84,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 5,
-  "other_totals_passed": 0
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

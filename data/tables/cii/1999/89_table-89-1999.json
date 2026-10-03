@@ -8,54 +8,111 @@
  "serial": "89",
  "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1999 (Men + Women) (State, UT & City-Wise)",
  "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1999 (Men + Women) (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-89-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-89-1999.pdf",
  "source_sha256": "08aaa048d1aebe5084df8d4e0d4c1a908a55147383d25c96c79d192c9cb203f6",
  "table_no": "89",
- "pdf_title": "SANCTIONED AND ACTUAL STKENG IH OF ARMED POLICE AS ON 31,12.1999 (MEN + WOMEN) (STATE, UT & CITY-WISE)",
- "row_label": "L a) STATE 5:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 89",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 59,
- "n_cols": 3,
- "n_cells": 171,
+ "n_rows": 58,
+ "n_cols": 10,
+ "n_cells": 580,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(2)",
-   "header": [
-    "(2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "xe ASP/DY.SP/,.. EOMDT. ACTUAL SANCSANCSANCTIONED TIONED @)",
+   "name": "DG/ADDL.DG/G/DIG | SANC-TIONED",
    "header": [
-    "xe ASP/DY.SP/,.. EOMDT. ACTUAL SANCSANCSANCTIONED TIONED @)"
+    "DG/ADDL.DG/G/DIG",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "OFFICERS - GRAND TOTAL BELOW A.S.L - ACTUAL ACTUAL SANCSANCACTUAL TIONED TIONED TIONED @) - (10) 9) (41),",
+   "name": "DG/ADDL.DG/G/DIG | ACTUAL",
    "header": [
-    "OFFICERS - GRAND TOTAL BELOW A.S.L - ACTUAL ACTUAL SANCSANCACTUAL TIONED TIONED TIONED @) - (10) 9) (41),"
+    "DG/ADDL.DG/G/DIG",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "SSP/SP/ADDL.SP/ASP/DY.SP/ASSTT.COMDT. | SANC-TIONED",
+   "header": [
+    "SSP/SP/ADDL.SP/ASP/DY.SP/ASSTT.COMDT.",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "SSP/SP/ADDL.SP/ASP/DY.SP/ASSTT.COMDT. | ACTUAL",
+   "header": [
+    "SSP/SP/ADDL.SP/ASP/DY.SP/ASSTT.COMDT.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INSPECTOR, SI & A.S.I. | SANC-TIONED",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS BELOW A.S.I. | SANC-TIONED",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | SANC-TIONED",
+   "header": [
+    "GRAND TOTAL",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
-  "failures": [
-   "col 2 'TOTAL (ALL-INDIA)': printed 70, sum 58"
-  ],
+  "cells_checked": 30,
+  "cells_passed": 30,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

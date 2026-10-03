@@ -8,94 +8,120 @@
  "serial": "1",
  "title": "Annexure-I: Capacity and Population in Jails During 1996",
  "listing_title": "Annexure-I: Capacity and Population in Jails During 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/annexures-1_1996.pdf",
  "source_file": "raw/psi/1996/table_content/annexures-1_1996.pdf",
  "source_sha256": "81b6d7a3e044d3dcc2690185f19f11220604e4cea4976cd87dc8b632f17447c6",
  "table_no": "",
- "pdf_title": "CAPACITY AND POPULATION IN JAILS DURING 1996",
- "row_label": "SL. STATE/UT NO. / SL. STATE/UT / NUMBER OF JAILS",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1996 ANNEXURE-I",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1,
   2,
+  3,
+  4,
   5
  ],
- "n_rows": 101,
- "n_cols": 27,
- "n_cells": 588,
+ "n_rows": 63,
+ "n_cols": 50,
+ "n_cells": 2700,
  "columns": [
   {
-   "col_no": "4",
-   "name": "oF | MALE",
+   "col_no": "3",
+   "name": "NUMBER OF JAILS (3)",
    "header": [
-    "oF",
+    "NUMBER OF JAILS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TOTAL CAPACITY OF INMATES | MALE (4)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
     "MALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "oF | FEMALE",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE (5)",
    "header": [
-    "oF",
+    "TOTAL CAPACITY OF INMATES",
     "FEMALE"
    ]
   },
   {
    "col_no": "6",
-   "name": "oF | TOTAL",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL (6)",
    "header": [
-    "oF",
+    "TOTAL CAPACITY OF INMATES",
     "TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "oF | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | MALE (7)",
    "header": [
-    "oF",
     "POPULATION OF INMATES",
-    "AT THE BEGINNING OF THE PERIOD"
+    "AT THE BEGINNING OF THE PERIOD",
+    "MALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "oF | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | FEMALE]",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | FEMALE (8)",
    "header": [
-    "oF",
     "POPULATION OF INMATES",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE]"
+    "FEMALE"
    ]
   },
   {
    "col_no": "9",
-   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | TOTAL (10)]",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | TOTAL (9)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | MALE (10)",
    "header": [
     "POPULATION OF INMATES",
     "AT THE END OF THE PERIOD",
-    "TOTAL (10)]"
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | FEMALE (11)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "12",
-   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | TOTAL MALE FEMALE (yf",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | TOTAL (12)",
    "header": [
     "POPULATION OF INMATES",
     "AT THE END OF THE PERIOD",
-    "TOTAL MALE FEMALE (yf"
+    "TOTAL"
    ]
   },
   {
    "col_no": "13",
-   "name": "NUMBER OF JAILS",
+   "name": "NUMBER OF JAILS (13)",
    "header": [
     "NUMBER OF JAILS"
    ]
   },
   {
    "col_no": "14",
-   "name": "TOTAL CAPACITY OF INMATES | MALE",
+   "name": "TOTAL CAPACITY OF INMATES | MALE (14)",
    "header": [
     "TOTAL CAPACITY OF INMATES",
     "MALE"
@@ -103,7 +129,7 @@
   },
   {
    "col_no": "15",
-   "name": "TOTAL CAPACITY OF INMATES | FEMALE",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE (15)",
    "header": [
     "TOTAL CAPACITY OF INMATES",
     "FEMALE"
@@ -111,141 +137,318 @@
   },
   {
    "col_no": "16",
-   "name": "POPULATION OF INMATES | TOTAL",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL (16)",
    "header": [
-    "POPULATION OF INMATES",
+    "TOTAL CAPACITY OF INMATES",
     "TOTAL"
    ]
   },
   {
    "col_no": "17",
-   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE | MALE (17).",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | MALE (17)",
    "header": [
     "POPULATION OF INMATES",
-    "AT THE BEGINNING OF THE",
-    "MALE (17)."
+    "AT THE BEGINNING OF THE PERIOD",
+    "MALE"
    ]
   },
   {
    "col_no": "18",
-   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE | FEMALE",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | FEMALE (18)",
    "header": [
     "POPULATION OF INMATES",
-    "AT THE BEGINNING OF THE",
+    "AT THE BEGINNING OF THE PERIOD",
     "FEMALE"
    ]
   },
   {
    "col_no": "19",
-   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE | PERIOD TOTAL",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | TOTAL (19)",
    "header": [
     "POPULATION OF INMATES",
-    "AT THE BEGINNING OF THE",
-    "PERIOD TOTAL"
+    "AT THE BEGINNING OF THE PERIOD",
+    "TOTAL"
    ]
   },
   {
    "col_no": "20",
-   "name": "POPULATION OF INMATES | - AT THE END OF THE PERIOD | MALE",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | MALE (20)",
    "header": [
     "POPULATION OF INMATES",
-    "- AT THE END OF THE PERIOD",
+    "AT THE END OF THE PERIOD",
     "MALE"
    ]
   },
   {
    "col_no": "21",
-   "name": "POPULATION OF INMATES | - AT THE END OF THE PERIOD | FEMALE",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | FEMALE (21)",
    "header": [
     "POPULATION OF INMATES",
-    "- AT THE END OF THE PERIOD",
+    "AT THE END OF THE PERIOD",
     "FEMALE"
    ]
   },
   {
    "col_no": "22",
-   "name": "POPULATION OF INMATES | - AT THE END OF THE PERIOD | TOTAL",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | TOTAL (22)",
    "header": [
     "POPULATION OF INMATES",
-    "- AT THE END OF THE PERIOD",
+    "AT THE END OF THE PERIOD",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "NUMBER OF JAILS (23)",
+   "header": [
+    "NUMBER OF JAILS"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL CAPACITY OF INMATES | MALE (24)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE (25)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL (26)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | MALE (27)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | FEMALE (28)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | TOTAL (29)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | MALE (30)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | FEMALE (31)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | TOTAL (32)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "NUMBER OF JAILS (33)",
+   "header": [
+    "NUMBER OF JAILS"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "TOTAL CAPACITY OF INMATES | MALE (34)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE (35)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL (36)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | MALE (37)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | FEMALE (38)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | TOTAL (39)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | MALE (40)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | FEMALE (41)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "42",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | TOTAL (42)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
     "TOTAL"
    ]
   },
   {
    "col_no": "43",
-   "name": "OF NUMBER JAILS TOTAL CAPACITY OF INMATES",
+   "name": "NUMBER OF JAILS (43)",
    "header": [
-    "OF NUMBER JAILS TOTAL CAPACITY OF INMATES"
+    "NUMBER OF JAILS"
    ]
   },
   {
    "col_no": "44",
-   "name": "OF NUMBER JAILS TOTAL CAPACITY OF INMATES | MALE FEMALE] (44)",
+   "name": "TOTAL CAPACITY OF INMATES | MALE (44)",
    "header": [
-    "OF NUMBER JAILS TOTAL CAPACITY OF INMATES",
-    "MALE FEMALE]"
+    "TOTAL CAPACITY OF INMATES",
+    "MALE"
    ]
   },
   {
    "col_no": "45",
-   "name": "OF NUMBER JAILS TOTAL CAPACITY OF INMATES | MALE FEMALE] (45)",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE (45)",
    "header": [
-    "OF NUMBER JAILS TOTAL CAPACITY OF INMATES",
-    "MALE FEMALE]"
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
    ]
   },
   {
    "col_no": "46",
-   "name": "OF NUMBER JAILS TOTAL CAPACITY OF INMATES | TOTAL",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL (46)",
    "header": [
-    "OF NUMBER JAILS TOTAL CAPACITY OF INMATES",
+    "TOTAL CAPACITY OF INMATES",
     "TOTAL"
    ]
   },
   {
    "col_no": "47",
-   "name": "AT THE BEGINNING OF THE | MALE TEMALE (47)",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | MALE (47)",
    "header": [
-    "AT THE BEGINNING OF THE",
-    "MALE TEMALE"
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD",
+    "MALE"
    ]
   },
   {
    "col_no": "48",
-   "name": "AT THE BEGINNING OF THE | MALE TEMALE (48)",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | FEMALE (48)",
    "header": [
-    "AT THE BEGINNING OF THE",
-    "MALE TEMALE"
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "49",
-   "name": "AT THE BEGINNING OF THE | TOTAL",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | TOTAL (49)",
    "header": [
-    "AT THE BEGINNING OF THE",
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD",
     "TOTAL"
    ]
   },
   {
    "col_no": "50",
-   "name": "- OF AT INMATES THE END OF THE PERIOD",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | MALE (50)",
    "header": [
-    "- OF AT INMATES THE END OF THE PERIOD"
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
+    "MALE"
    ]
   },
   {
    "col_no": "51",
-   "name": "- OF AT INMATES THE END OF THE PERIOD | FEVIALE (51)]",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | FEMALE (51)",
    "header": [
-    "- OF AT INMATES THE END OF THE PERIOD",
-    "FEVIALE (51)]"
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "52",
-   "name": "- OF AT INMATES THE END OF THE PERIOD | TOTAL",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | TOTAL (52)",
    "header": [
-    "- OF AT INMATES THE END OF THE PERIOD",
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
     "TOTAL"
    ]
   }
@@ -259,6 +462,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 5,
  "warnings": []
 }

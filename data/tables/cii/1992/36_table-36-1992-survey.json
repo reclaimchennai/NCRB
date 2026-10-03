@@ -8,41 +8,40 @@
  "serial": "36",
  "title": "Juvenile Delinquency of (LSL) under Different Crime Heads During 1991-92",
  "listing_title": "Juvenile Delinquency of (LSL) under Different Crime Heads During 1991-92",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-36-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-36-1992-survey.pdf",
  "source_sha256": "8255c320d437ba3422265c6c29ac4931fe43284dd58bcd55c43d62779b27d907",
  "table_no": "36",
- "pdf_title": "",
- "row_label": "JUVENILE DURING NO.",
+ "pdf_title": "196 TABLE-36 JUVENILE DELINQUENCY (LSL) UNDER DIFFERENT CRIME HEADS",
+ "row_label": "NUMBER OF CASES REPORTED DURING",
  "pages": [
+  1,
   1
  ],
- "n_rows": 17,
+ "n_rows": 18,
  "n_cols": 3,
- "n_cells": 50,
+ "n_cells": 53,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(LSL) 1991-1992 REPORTED 1991",
+   "col_no": "4",
+   "name": "NUMBER OF CASES REPORTED DURING",
    "header": [
-    "(LSL) 1991-1992 REPORTED 1991"
+    "NUMBER OF CASES REPORTED DURING"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERCENTAGE CHANGE IN 1992",
+   "header": [
+    "PERCENTAGE CHANGE IN 1992"
    ]
   },
   {
    "col_no": "3",
-   "name": "UNDER CRIME HEADS DURING 1992",
-   "header": [
-    "UNDER CRIME HEADS DURING 1992"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "DIFFERENT CHANGE IN OVER",
-   "header": [
-    "DIFFERENT CHANGE IN OVER"
-   ]
+   "name": "col_3",
+   "header": []
   }
  ],
  "notes": [],
@@ -51,9 +50,9 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

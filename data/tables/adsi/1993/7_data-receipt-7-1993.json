@@ -8,38 +8,60 @@
  "serial": "7",
  "title": "Receipt of Data",
  "listing_title": "Receipt of Data",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/data-receipt_7_1993.pdf",
  "source_file": "raw/adsi/1993/year_wise/data-receipt_7_1993.pdf",
  "source_sha256": "3ecca9322cceb448ed24ea541a9e26c0ec8f4a49d06dbee02aee155cb443974d",
  "table_no": "",
- "pdf_title": "CHRONICAL ORDER OF RECEIPT OF DATA FROM STATES, UTs & CITIES",
- "row_label": "",
+ "pdf_title": "CHRONICAL ORDER OF RECEIPT OF DATA FROM STATES, UTs & CITIES (iv)",
+ "row_label": "MONTHS",
  "pages": [
+  1,
   1
  ],
- "n_rows": 12,
- "n_cols": 1,
- "n_cells": 12,
+ "n_rows": 9,
+ "n_cols": 4,
+ "n_cells": 30,
  "columns": [
   {
+   "col_no": "2",
+   "name": "STATES",
+   "header": [
+    "STATES"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "UTs",
+   "header": [
+    "UTs"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CITIES",
+   "header": [
+    "CITIES"
+   ]
+  },
+  {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "CUMULATIVE TOTAL",
+   "header": [
+    "CUMULATIVE TOTAL"
+   ]
   }
  ],
- "notes": [
-  "(iv)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

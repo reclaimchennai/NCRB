@@ -8,24 +8,32 @@
  "serial": "44",
  "title": "Juvenile Delinquency (L&SL) under Different Crime Heads During 1992-1993",
  "listing_title": "Juvenile Delinquency (L&SL) under Different Crime Heads During 1992-1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-44-1993-crime.pdf",
  "source_sha256": "21fc0cc9b2349fe19666e0b6ce61bf76076d25c8f468063d9d0b2dee02b4969b",
  "table_no": "44",
- "pdf_title": "JUVENILE DELINQUENCY (L&SL) UNDER DIFFERENT CRIME HEADS",
- "row_label": "DURING 1992-1993",
+ "pdf_title": "218 TABLE-44 JUVENILE DELINQUENCY (L&SL) UNDER DIFFERENT CRIME HEADS DURING 1992-1993",
+ "row_label": "NUMBER OF CASES REPORTED DURING",
  "pages": [
+  1,
   1
  ],
- "n_rows": 17,
- "n_cols": 2,
- "n_cells": 32,
+ "n_rows": 18,
+ "n_cols": 3,
+ "n_cells": 52,
  "columns": [
   {
    "col_no": "4",
-   "name": "col_4",
+   "name": "NUMBER OF CASES REPORTED DURING",
+   "header": [
+    "NUMBER OF CASES REPORTED DURING"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
    "header": []
   },
   {
@@ -34,17 +42,15 @@
    "header": []
   }
  ],
- "notes": [
-  "NOTE: @ INDICATES INFINITE VARIATION"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 2,
   "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

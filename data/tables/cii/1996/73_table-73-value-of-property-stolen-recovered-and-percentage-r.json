@@ -8,40 +8,49 @@
  "serial": "73",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1986-96",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1986-96",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-73--value-of-property-stolen-&-recovered-and-percentage-recovery-during-1986-96-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-73--value-of-property-stolen-&-recovered-and-percentage-recovery-during-1986-96-1996.pdf",
  "source_sha256": "7b002191f5c4dc382eae8d50466a0fdc8827d2a5c41c9d635dfb6e0a1cb3d063",
  "table_no": "73",
- "pdf_title": "VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
- "row_label": "YEAR SL NO a)",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-73",
+ "row_label": "SL NO",
  "pages": [
   1
  ],
  "n_rows": 12,
- "n_cols": 3,
- "n_cells": 36,
+ "n_cols": 4,
+ "n_cells": 48,
  "columns": [
   {
-   "col_no": "3",
-   "name": "DURING TOTAL VALUE OF PROPERTY STOLEN",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "DURING TOTAL VALUE OF PROPERTY STOLEN"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
+   "header": [
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "1986-96 RECOVERED",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
    "header": [
-    "1986-96 RECOVERED"
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "(Rs. in lakhs) PERCENTAGE RECOVERY",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "(Rs. in lakhs) PERCENTAGE RECOVERY"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],

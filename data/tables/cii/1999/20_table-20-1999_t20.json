@@ -6,140 +6,95 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "20",
- "title": "DISPOSAL OF IPC CRIMF CASES BY COURTS DURING 1999",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 20",
  "listing_title": "Disposal of IPC Crime Cases by Courts During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-20-1999.pdf",
  "source_sha256": "49d494c0b0a8dc4d0d431c082d5e0821d81255e86e21e2bd1769067b5c0b83d3",
  "table_no": "20",
- "pdf_title": "DISPOSAL OF IPC CRIMF CASES BY COURTS DURING 1999",
- "row_label": "TOTAL CRIMF HRAD SL. NO. OF NO. CASES INCLUDING PENDING CASES a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 20",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1,
   2
  ],
  "n_rows": 62,
- "n_cols": 12,
- "n_cells": 370,
+ "n_cols": 7,
+ "n_cells": 399,
  "columns": [
   {
-   "col_no": "4",
-   "name": "CASES WITH- - DRAWN Q)",
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "CASES WITH- - DRAWN Q)"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CASES WITH-DRAWN BY GOVT.",
+   "header": [
+    "CASES WITH-DRAWN BY GOVT."
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. OF CASES | COMPOUNDED",
+   "name": "NO. OF CASES | COMPOUNDED OR WITH-DRAWN",
    "header": [
     "NO. OF CASES",
-    "COMPOUNDED"
+    "COMPOUNDED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES | WHICH 1 KIALS WERECOMPLETED | CUNVICIED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED CONVICTED",
    "header": [
     "NO. OF CASES",
-    "WHICH 1 KIALS WERECOMPLETED",
-    "CUNVICIED"
+    "IN WHICH TRIALS WERE COMPLETED CONVICTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. OF CASES | WHICH 1 KIALS WERECOMPLETED | mM",
+   "name": "NO. OF CASES | ACQUITTED OR DISCHARGED",
    "header": [
     "NO. OF CASES",
-    "WHICH 1 KIALS WERECOMPLETED",
-    "mM"
+    "ACQUITTED OR DISCHARGED"
    ]
   },
   {
    "col_no": "8",
-   "name": "NO. OF CASES | WHICH 1 KIALS WERECOMPLETED | TOTAL {(6) + (7))",
+   "name": "NO. OF CASES | TOTAL {(6) + (7)}",
    "header": [
     "NO. OF CASES",
-    "WHICH 1 KIALS WERECOMPLETED",
-    "TOTAL {(6) + (7))"
+    "TOTAL {(6) + (7)}"
    ]
   },
   {
    "col_no": "9",
-   "name": "NO. OF CASES | - PENDING TRIAL",
+   "name": "NO. OF CASES | PENDING TRIAL",
    "header": [
     "NO. OF CASES",
-    "- PENDING TRIAL"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "STATE/UT Q)",
-   "header": [
-    "STATE/UT Q)"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "DISPOSAL OF CASES UNDER | cr (3)",
-   "header": [
-    "DISPOSAL OF CASES UNDER",
-    "cr (3)"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "DISPOSAL OF CASES UNDER | !",
-   "header": [
-    "DISPOSAL OF CASES UNDER",
-    "!"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "DISPOSAL OF CASES UNDER | A1iEmri 1U COMMIT MURDER | MURDER TR (4)",
-   "header": [
-    "DISPOSAL OF CASES UNDER",
-    "A1iEmri 1U COMMIT MURDER",
-    "MURDER TR (4)"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "DISPOSAL OF CASES UNDER | A1iEmri 1U COMMIT MURDER | TL ™ It ®",
-   "header": [
-    "DISPOSAL OF CASES UNDER",
-    "A1iEmri 1U COMMIT MURDER",
-    "TL ™ It ®"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "DISPOSAL OF CASES UNDER | A1iEmri 1U COMMIT MURDER | cF TL & (6)",
-   "header": [
-    "DISPOSAL OF CASES UNDER",
-    "A1iEmri 1U COMMIT MURDER",
-    "cF TL & (6)"
+    "PENDING TRIAL"
    ]
   }
  ],
- "notes": [
-  "- by TR - by trial; TL - -—* by Courts."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 11,
+  "cells_checked": 18,
+  "cells_passed": 12,
   "failures": [
-   "col 10001 'TOTAL STATES': printed 241, sum 240",
-   "col 10002 'TOTAL STATES': printed 22406, sum 22376",
-   "col 10006 'TOTAL STATES': printed 19847, sum 19676"
+   "col 3 'TOTAL (ALL-INDIA)': printed 538, sum 5.89128e+06",
+   "col 4 'TOTAL (ALL-INDIA)': printed 22895, sum 23226",
+   "col 5 'TOTAL (ALL-INDIA)': printed 23433, sum 208232",
+   "col 6 'TOTAL (ALL-INDIA)': printed 335, sum 369340",
+   "col 7 'TOTAL (ALL-INDIA)': printed 20272, sum 581996",
+   "col 8 'TOTAL (ALL-INDIA)': printed 20607, sum 951336"
   ],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

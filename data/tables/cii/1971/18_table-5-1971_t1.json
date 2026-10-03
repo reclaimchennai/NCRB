@@ -6,93 +6,93 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "18",
- "title": "TABLE INCIDENCE OF CRIME UNDER DIFFERENT HEADS",
+ "title": "10 TABLE INCIDENCE OF CRIME UNDER DIFFERENT HEADS",
  "listing_title": "Incidence of Crime under Different Heads During 1970 & 1971 Showing Percentage Variation",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1971.pdf",
  "source_file": "raw/cii/1971/table_content/table-5-1971.pdf",
  "source_sha256": "ec76be6316a6ed45fdf3cb6225e0baa2f64f3e1062924105c1bca280180658db",
  "table_no": "",
- "pdf_title": "TABLE INCIDENCE OF CRIME UNDER DIFFERENT HEADS",
- "row_label": "Sl. Name of the States, No. Union Territories and Cities 1 1. AndhraPradesh 2. 3 3,",
+ "pdf_title": "10 TABLE INCIDENCE OF CRIME UNDER DIFFERENT HEADS",
+ "row_label": "Sl. No. / Name of the States, Union Territories and Cities",
  "pages": [
   1
  ],
- "n_rows": 36,
+ "n_rows": 40,
  "n_cols": 9,
- "n_cells": 324,
+ "n_cells": 357,
  "columns": [
   {
-   "col_no": "2",
-   "name": "KIDNAPPING & ABDUCTION | 1970 2 Assam ‘ Bihar",
-   "header": [
-    "KIDNAPPING & ABDUCTION",
-    "1970 2 Assam ‘ Bihar"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "KIDNAPPING & ABDUCTION | MURDER 1971 3 5 -",
+   "name": "MURDER | 1970",
    "header": [
-    "KIDNAPPING & ABDUCTION",
-    "MURDER 1971 3 5 -"
+    "MURDER",
+    "1970"
    ]
   },
   {
    "col_no": "4",
-   "name": "KIDNAPPING & ABDUCTION | percenben vatiation 5 500 1,523",
+   "name": "MURDER | 1971",
    "header": [
-    "KIDNAPPING & ABDUCTION",
-    "percenben vatiation 5 500 1,523"
+    "MURDER",
+    "1971"
    ]
   },
   {
    "col_no": "5",
-   "name": "KIDNAPPING & ABDUCTION | 1970 6 1,uzu0 494 1,423",
+   "name": "MURDER | percent-age variation",
    "header": [
-    "KIDNAPPING & ABDUCTION",
-    "1970 6 1,uzu0 494 1,423"
+    "MURDER",
+    "percent-age variation"
    ]
   },
   {
    "col_no": "6",
-   "name": "KIDNAPPING & ABDUCTION | 1971 7 —6.6 —1.2 —6.6",
+   "name": "KIDNAPPING & ABDUCTION | 1970",
    "header": [
     "KIDNAPPING & ABDUCTION",
-    "1971 7 —6.6 —1.2 —6.6"
+    "1970"
    ]
   },
   {
    "col_no": "7",
-   "name": "KIDNAPPING & ABDUCTION | percentage variation 8 511 581",
+   "name": "KIDNAPPING & ABDUCTION | 1971",
    "header": [
     "KIDNAPPING & ABDUCTION",
-    "percentage variation 8 511 581"
+    "1971"
    ]
   },
   {
    "col_no": "8",
-   "name": "KIDNAPPING & ABDUCTION | 1970 9 160 424 559",
+   "name": "KIDNAPPING & ABDUCTION | percent-age variation",
    "header": [
     "KIDNAPPING & ABDUCTION",
-    "1970 9 160 424 559"
+    "percent-age variation"
    ]
   },
   {
    "col_no": "9",
-   "name": "KIDNAPPING & ABDUCTION | DACOITY 1971 10 +7.4 147 —17.0 189 —3.8 2,015",
+   "name": "DACOITY | 1970",
    "header": [
-    "KIDNAPPING & ABDUCTION",
-    "DACOITY 1971 10 +7.4 147 —17.0 189 —3.8 2,015"
+    "DACOITY",
+    "1970"
    ]
   },
   {
    "col_no": "10",
-   "name": "KIDNAPPING & ABDUCTION | percentage variation 11 137 +7.3 —3.1 195 1,626 +23.9",
+   "name": "DACOITY | 1971",
    "header": [
-    "KIDNAPPING & ABDUCTION",
-    "percentage variation 11 137 +7.3 —3.1 195 1,626 +23.9"
+    "DACOITY",
+    "1971"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "DACOITY | percent-age variation",
+   "header": [
+    "DACOITY",
+    "percent-age variation"
    ]
   }
  ],
@@ -101,10 +101,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 23,
-  "other_totals_passed": 16
+  "other_totals_checked": 24,
+  "other_totals_passed": 17
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

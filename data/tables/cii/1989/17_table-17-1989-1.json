@@ -8,77 +8,73 @@
  "serial": "17",
  "title": "Disposal of LSL Crime Cases by Police During 1989",
  "listing_title": "Disposal of LSL Crime Cases by Police During 1989",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-17-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-17-1989-1.pdf",
  "source_sha256": "d5aded5cd3ca30f01bb6576919ea01e15be048581fe18f01c0c197ddf23268c7",
- "table_no": "",
- "pdf_title": "8&7",
- "row_label": "TABLE~17 BISPOSAL OF LSL SL. ARAD No wee SS",
+ "table_no": "17",
+ "pdf_title": "87 TABLE-17 DISPOSAL OF LSL CRIME CASES BY POLICE DURING 1988",
+ "row_label": "SL.NO / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 17,
  "n_cols": 7,
- "n_cells": 112,
+ "n_cells": 119,
  "columns": [
   {
-   "col_no": "2",
-   "name": "TABLE~17 | TOTAL NO, OF CASES FOR PENDING CASES, -",
-   "header": [
-    "TABLE~17",
-    "TOTAL NO, OF CASES FOR PENDING CASES, -"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "TABLE~17 | CASES BY POLICE DURING 1989 | - INVSETT< GATION WAS, REFUSED eee",
+   "name": "TOTAL NO.OF CASESFOR INVE-STIGATION INCLUDING PENDING CASES",
    "header": [
-    "TABLE~17",
-    "CASES BY POLICE DURING 1989",
-    "- INVSETT< GATION WAS, REFUSED eee"
+    "TOTAL NO.OF CASESFOR INVE-STIGATION INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "TABLE~17 | CASES BY POLICE DURING 1989 | NO. - CHARGE FOUND FALSEY MISTAKE OF LAW ETC. oe",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "TABLE~17",
-    "CASES BY POLICE DURING 1989",
-    "NO. - CHARGE FOUND FALSEY MISTAKE OF LAW ETC. oe"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "TABLE~17 | CASES BY POLICE DURING 1989 | OF CASES IN WHICH FINAL” REPORT TRUE SUBMT- =6TTED -",
+   "name": "NO. OF CASES IN WHICH | CHARGE FOUND FALSE/MISTAKE OF LAW ETC.",
    "header": [
-    "TABLE~17",
-    "CASES BY POLICE DURING 1989",
-    "OF CASES IN WHICH FINAL” REPORT TRUE SUBMT- =6TTED -"
+    "NO. OF CASES IN WHICH",
+    "CHARGE FOUND FALSE/MISTAKE OF LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "Ss | Wa CHARGE SHEETS WERE LAID ee",
+   "name": "NO. OF CASES IN WHICH | FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "Ss",
-    "Wa CHARGE SHEETS WERE LAID ee"
+    "NO. OF CASES IN WHICH",
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "Ss | TOTAL ( (574.6% 7))",
+   "name": "NO. OF CASES IN WHICH | CHARGE SHEETS WERE LAID",
    "header": [
-    "Ss",
-    "TOTAL ( (574.6% 7))"
+    "NO. OF CASES IN WHICH",
+    "CHARGE SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "8",
-   "name": "- GASES PREDI NG GATION",
+   "name": "NO. OF CASES IN WHICH | TOTAL (+17)",
    "header": [
-    "- GASES PREDI NG GATION"
+    "NO. OF CASES IN WHICH",
+    "TOTAL (+17)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF CASESPERD IN INVESTIGATION",
+   "header": [
+    "NO. OF CASESPERD IN INVESTIGATION"
    ]
   }
  ],
@@ -87,10 +83,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

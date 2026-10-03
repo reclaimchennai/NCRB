@@ -8,24 +8,38 @@
  "serial": "1",
  "title": "Incidence & Rate of Total Cognizable Crimes under Indian Penal Code (IPC) and Special and Local Laws (SLL) 1985-95",
  "listing_title": "Incidence & Rate of Total Cognizable Crimes under Indian Penal Code (IPC) and Special and Local Laws (SLL) 1985-95",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-1-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-1-1995-crime-survey.pdf",
  "source_sha256": "8f6c5d5c7a8e98fbd96405e1ac424f62b7818ae6138b3d82df09777af5b18ac4",
  "table_no": "1",
- "pdf_title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES UNDER INDIAN PENAL CODE (IPC) AND SPECIAL AND LOCAL LAWS (SLL) 1985-95",
- "row_label": "SL. YEAR NO. a) / INCIDENCE ESTIMATED MID-YEAR POPULATION* (IN LAKHS) **",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-1",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 11,
- "n_cols": 7,
- "n_cells": 77,
+ "n_rows": 13,
+ "n_cols": 9,
+ "n_cells": 117,
  "columns": [
   {
+   "col_no": "2",
+   "name": "YEAR",
+   "header": [
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION* (IN LAKHS)**",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION* (IN LAKHS)**"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "INCIDENCE | IPC (4)",
+   "name": "INCIDENCE | IPC",
    "header": [
     "INCIDENCE",
     "IPC"
@@ -49,23 +63,25 @@
   },
   {
    "col_no": "7",
-   "name": "INCIDENCE | IPC (7)",
+   "name": "RATE | IPC",
    "header": [
-    "INCIDENCE",
+    "RATE",
     "IPC"
    ]
   },
   {
    "col_no": "8",
-   "name": "RATE SLL.",
+   "name": "RATE | SLL",
    "header": [
-    "RATE SLL."
+    "RATE",
+    "SLL"
    ]
   },
   {
    "col_no": "9",
-   "name": "TOTAL",
+   "name": "RATE | TOTAL",
    "header": [
+    "RATE",
     "TOTAL"
    ]
   },
@@ -77,18 +93,7 @@
    ]
   }
  ],
- "notes": [
-  "12 PERCENTAGE ! 22.0; 225: + 388: 337: o4: i138: 96: 8.4",
-  "CHANGE IN i i H H",
-  "1995 OVER: i i i i i i",
-  "1985 i i i i i",
-  "13 } 2.0 2.3 2.4} 24: 02: 0.4 03: 0.1",
-  "i i i i i i",
-  "RATE PER",
-  "ANNUM i i i i i i",
-  "* SOURCE: THE REGISTRAR GENERAL OF INDIA",
-  "** ONE LAKH - 0.1 MILLION"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

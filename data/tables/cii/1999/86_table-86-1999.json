@@ -8,120 +8,76 @@
  "serial": "86",
  "title": "Police Personnel Killed or Injured On Duty During 1999 (Rank-Wise)",
  "listing_title": "Police Personnel Killed or Injured On Duty During 1999 (Rank-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-86-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-86-1999.pdf",
  "source_sha256": "3aec14dd1a1f4d8ea490d1d7078a942764323a42fd15ef9c055b9760beb29ef7",
  "table_no": "86",
- "pdf_title": "",
- "row_label": "“RANK SL. NO. a",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 86",
+ "row_label": "SL. NO. / RANK",
  "pages": [
   1,
   2
  ],
- "n_rows": 9,
- "n_cols": 13,
- "n_cells": 87,
+ "n_rows": 14,
+ "n_cols": 7,
+ "n_cells": 98,
  "columns": [
   {
-   "col_no": "2",
-   "name": "POLICE PERSONNFI. IN UFERATIUNS @)",
-   "header": [
-    "POLICE PERSONNFI. IN UFERATIUNS @)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "FD OR INJURED ON DUTY DURING 1999 | (RANK-WISE) - DACOITY OK UTHER RAIDS @",
+   "name": "NUMBER OF VICTIMS KILLED | IN TERRORIST/ EXTREMISTS OPERATIONS",
    "header": [
-    "FD OR INJURED ON DUTY DURING 1999",
-    "(RANK-WISE) - DACOITY OK UTHER RAIDS @"
+    "NUMBER OF VICTIMS KILLED",
+    "IN TERRORIST/ EXTREMISTS OPERATIONS"
    ]
   },
   {
    "col_no": "4",
-   "name": "FD OR INJURED ON DUTY DURING 1999 | NUMRER Gr IN RIOTOUS MOBS @",
+   "name": "NUMBER OF VICTIMS KILLED | IN DACOITY OPERATIONS OR OTHER RAIDS",
    "header": [
-    "FD OR INJURED ON DUTY DURING 1999",
-    "NUMRER Gr IN RIOTOUS MOBS @"
+    "NUMBER OF VICTIMS KILLED",
+    "IN DACOITY OPERATIONS OR OTHER RAIDS"
    ]
   },
   {
    "col_no": "5",
-   "name": "FD OR INJURED ON DUTY DURING 1999 | LED BY OTHER CRIMINALS ©",
+   "name": "NUMBER OF VICTIMS KILLED | BY RIOTOUS MOBS",
    "header": [
-    "FD OR INJURED ON DUTY DURING 1999",
-    "LED BY OTHER CRIMINALS ©"
+    "NUMBER OF VICTIMS KILLED",
+    "BY RIOTOUS MOBS"
    ]
   },
   {
    "col_no": "6",
-   "name": "BY BORDER - DUTIES 6)",
+   "name": "NUMBER OF VICTIMS KILLED | BY OTHER CRIMINALS",
    "header": [
-    "BY BORDER - DUTIES 6)"
+    "NUMBER OF VICTIMS KILLED",
+    "BY OTHER CRIMINALS"
    ]
   },
   {
    "col_no": "7",
-   "name": "ON ”",
+   "name": "NUMBER OF VICTIMS KILLED | ON BORDER DUTIES",
    "header": [
-    "ON ”"
+    "NUMBER OF VICTIMS KILLED",
+    "ON BORDER DUTIES"
    ]
   },
   {
    "col_no": "8",
-   "name": "TOTAL IN (8)",
+   "name": "NUMBER OF VICTIMS KILLED | IN ACCIDENTS",
    "header": [
-    "TOTAL IN (8)"
+    "NUMBER OF VICTIMS KILLED",
+    "IN ACCIDENTS"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "NUMRER G8 VICTIMS INJURED | IN OFExXATIUNS (2)",
+   "col_no": "9",
+   "name": "NUMBER OF VICTIMS KILLED | TOTAL",
    "header": [
-    "NUMRER G8 VICTIMS INJURED",
-    "IN OFExXATIUNS (2)"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "NUMRER G8 VICTIMS INJURED | IN - OR OTHER RAIDS (3)",
-   "header": [
-    "NUMRER G8 VICTIMS INJURED",
-    "IN - OR OTHER RAIDS (3)"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "NUMRER G8 VICTIMS INJURED | BY OTHER MOBS CRIMINALS @",
-   "header": [
-    "NUMRER G8 VICTIMS INJURED",
-    "BY OTHER MOBS CRIMINALS @"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "NUMRER G8 VICTIMS INJURED | BY —DUTIES (5)",
-   "header": [
-    "NUMRER G8 VICTIMS INJURED",
-    "BY —DUTIES (5)"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "NUMRER G8 VICTIMS INJURED | ON © (8)",
-   "header": [
-    "NUMRER G8 VICTIMS INJURED",
-    "ON © (8)"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "NUMRER G8 VICTIMS INJURED | IN TOTAL (1)",
-   "header": [
-    "NUMRER G8 VICTIMS INJURED",
-    "IN TOTAL (1)"
+    "NUMBER OF VICTIMS KILLED",
+    "TOTAL"
    ]
   }
  ],
@@ -131,9 +87,9 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 10,
-  "other_totals_passed": 3
+  "other_totals_passed": 10
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

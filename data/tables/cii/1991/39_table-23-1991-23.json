@@ -8,65 +8,51 @@
  "serial": "39",
  "title": "Persons Arrested under IPC Crimes During 1991 and Percentage Variation in 1991 over 1990 (State, UT & City-Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1991 and Percentage Variation in 1991 over 1990 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-23-1991-23.pdf",
  "source_file": "raw/cii/1991/table_content/table-23-1991-23.pdf",
  "source_sha256": "7b9ef7aacdc0059dfd86cde99214c1af24ea51fe25497d97ed01064cc89fbd9f",
- "table_no": "",
- "pdf_title": "162,",
- "row_label": "TABLE=25 PERSONS ARRESTED UNDER AKD SL. uo.",
+ "table_no": "23",
+ "pdf_title": "102 TABLE-23 PERSONS ARRESTED UNDER IPC CRIMES DURING 1991",
+ "row_label": "",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 4,
- "n_cells": 159,
+ "n_cells": 188,
  "columns": [
   {
-   "col_no": "2",
-   "name": "TABLE=25 | PERCENTAGE (STATE UT & 1990",
-   "header": [
-    "TABLE=25",
-    "PERCENTAGE (STATE UT & 1990"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "TABLE=25 | IPC CRIMES VARIATION 194",
-   "header": [
-    "TABLE=25",
-    "IPC CRIMES VARIATION 194"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "TABLE=25 | 1971 1990 OVER I PERCENTAGE 1Pe1 OVER",
-   "header": [
-    "TABLE=25",
-    "1971 1990 OVER I PERCENTAGE 1Pe1 OVER"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "TABLE=25 | 1997 PERCENTAGE «= CONTRIBUTION TO 1990 1904",
-   "header": [
-    "TABLE=25",
-    "1997 PERCENTAGE «= CONTRIBUTION TO 1990 1904"
-   ]
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
   }
  ],
- "notes": [
-  "Wote: Percentagé contribution less than 0.05 ia shown as 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 6,
+  "cells_passed": 6,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

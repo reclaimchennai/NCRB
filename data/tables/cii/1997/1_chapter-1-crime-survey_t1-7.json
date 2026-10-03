@@ -6,58 +6,41 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "Rate of IPC Crimes in States During 1997",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1997 Table-1.7",
  "listing_title": "Crime Survey",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_chapter/chapter-1-crime-survey.pdf",
  "source_sha256": "f452683384949f5625043c0e0dd87551d80a111dad4a19e5e64d56f453bc9479",
  "table_no": "1.7",
- "pdf_title": "Rate of IPC Crimes in States During 1997",
- "row_label": "States with crime rate (total IPC crimes) above All-India average S1.No. / States with crime rate (total IPC crimes) above All-India average State",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1997 Table-1.7",
+ "row_label": "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. / Arunachal Pradesh Haryana Himachal Pradesh Andhra Pradesh Orissa Assam Manipur Bihar Sikkim Tripura",
  "pages": [
-  8,
-  10
+  8
  ],
- "n_rows": 21,
- "n_cols": 4,
- "n_cells": 66,
+ "n_rows": 5,
+ "n_cols": 1,
+ "n_cells": 5,
  "columns": [
   {
-   "col_no": "3",
-   "name": "(All-India Rate",
-   "header": [
-    "(All-India Rate"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "180.0)",
-   "header": [
-    "180.0)"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "States with crime rate (total IPC crime) below All- India average | State",
-   "header": [
-    "States with crime rate (total IPC crime) below All- India average",
-    "State"
-   ]
-  },
-  {
    "col_no": "6",
-   "name": "States with crime rate (total IPC crime) below All- India average | Rate",
+   "name": "172.1 | 168.1 | 164.4 | 156.7 | 146.9 | 144.6 | 129.3 | 123.3 | 122.2 | 99.8",
    "header": [
-    "States with crime rate (total IPC crime) below All- India average",
-    "Rate"
+    "172.1",
+    "168.1",
+    "164.4",
+    "156.7",
+    "146.9",
+    "144.6",
+    "129.3",
+    "123.3",
+    "122.2",
+    "99.8"
    ]
   }
  ],
- "notes": [
-  "CRIME RATE"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -66,6 +49,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

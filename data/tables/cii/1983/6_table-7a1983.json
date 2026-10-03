@@ -8,97 +8,116 @@
  "serial": "6",
  "title": "Statement Showing City-wise Incidence of Cognizable Crime Reported During the Year 1983",
  "listing_title": "Statement Showing City-wise Incidence of Cognizable Crime Reported During the Year 1983",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7a1983.pdf",
  "source_file": "raw/cii/1983/table_content/table-7a1983.pdf",
  "source_sha256": "7a6bb7c40fcdb0924f18ba462b21096d46df5374842252d8a5e7c2fcf4cea2e6",
- "table_no": "",
- "pdf_title": "",
- "row_label": "zt Ss - ™ a, ‘ < oe ne + tory i a",
+ "table_no": "7A",
+ "pdf_title": "49 TABLE 7A Statement showing City-wide Incidence of Cognizable crimes reported during the year 1983",
+ "row_label": "Sh. No. / City",
  "pages": [
+  1,
+  2,
   4
  ],
- "n_rows": 2,
- "n_cols": 10,
- "n_cells": 8,
+ "n_rows": 95,
+ "n_cols": 13,
+ "n_cells": 1208,
  "columns": [
   {
-   "col_no": "2",
-   "name": "BR - =a =a ad ro cu £3 SESE -",
-   "header": [
-    "BR - =a =a ad ro cu £3 SESE -"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "at | mori: Zane - 22.5 anges eof 225 et meas ah anna aN 7 3 8 me",
+   "name": "Murder",
    "header": [
-    "at",
-    "mori: Zane - 22.5 anges eof 225 et meas ah anna aN 7 3 8 me"
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "at | em 5 S2eaanan 2 ad ry ¢ el 3",
+   "name": "Culpable Homicide not amounting to murder",
    "header": [
-    "at",
-    "em 5 S2eaanan 2 ad ry ¢ el 3"
+    "Culpable Homicide not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "8 pti: © 28 Ss sa8aqaac en 4 aaew ew 2 gem ouore - Py es ‘ z,",
+   "name": "Rape",
    "header": [
-    "8 pti: © 28 Ss sa8aqaac en 4 aaew ew 2 gem ouore - Py es ‘ z,"
+    "Rape"
    ]
   },
   {
    "col_no": "6",
-   "name": "=x aa aa 2 8 i) RK -m - Or Am - - 3 > 0) tes 3 ak -gE3",
+   "name": "Kidnap- ping & Abduction",
    "header": [
-    "=x aa aa 2 8 i) RK -m - Or Am - - 3 > 0) tes 3 ak -gE3"
+    "Kidnap- ping & Abduction"
    ]
   },
   {
    "col_no": "7",
-   "name": "a © 2 » Ae qe * ve a 7 8 ot e 3 92838",
+   "name": "Decoity",
    "header": [
-    "a © 2 » Ae qe * ve a 7 8 ot e 3 92838"
+    "Decoity"
    ]
   },
   {
    "col_no": "8",
-   "name": "a a TEST Beast na - Senog8 eo we Be tw ° a e a & oe & & 6",
+   "name": "Robbery",
    "header": [
-    "a a TEST Beast na - Senog8 eo we Be tw ° a e a & oe & & 6"
+    "Robbery"
    ]
   },
   {
    "col_no": "9",
-   "name": "nm Kam RSE tote rs se cola Am ‘ e Oo: i, m - 3 & 3 J 3",
+   "name": "Burglary",
    "header": [
-    "nm Kam RSE tote rs se cola Am ‘ e Oo: i, m - 3 & 3 J 3"
+    "Burglary"
    ]
   },
   {
    "col_no": "10",
-   "name": "- Hagen sie aA aa a a sts BRRAAH Pet bo few - Moher a A > e ry ° 5 aie - 2 yk ok hoe 5 Wya,s Some & § @ gE quo: & 2",
+   "name": "Thefts",
    "header": [
-    "- Hagen sie aA aa a a sts BRRAAH Pet bo few - Moher a A > e ry ° 5 aie - 2 yk ok hoe 5 Wya,s Some & § @ gE quo: & 2"
+    "Thefts"
    ]
   },
   {
    "col_no": "11",
-   "name": "es nr wt - @ SEU © aga < tt get eet 4h ry ES ry # $ § o 7 2 - °o q Sk 6 3 - a ‘4 & a BS ub 3 8",
+   "name": "Riots",
    "header": [
-    "es nr wt - @ SEU © aga < tt get eet 4h ry ES ry # $ § o 7 2 - °o q Sk 6 3 - a ‘4 & a BS ub 3 8"
+    "Riots"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Criminal breach of trust",
+   "header": [
+    "Criminal breach of trust"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Cheating",
+   "header": [
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Counterfeiting",
+   "header": [
+    "Counterfeiting"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Total punishable crime",
+   "header": [
+    "Total punishable crime"
    ]
   }
  ],
- "notes": [
-  "ye $ Baan so © a es 2h"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -106,7 +125,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

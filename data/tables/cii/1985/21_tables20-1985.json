@@ -8,67 +8,49 @@
  "serial": "21",
  "title": "Persons Arrested under the IPC Crime Heads",
  "listing_title": "Persons Arrested under the IPC Crime Heads",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables20-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables20-1985.pdf",
  "source_sha256": "a67ef46ee8fccafcb0bab93a0097f8400d0819ac161da726443f1fe9eea3d6ee",
  "table_no": "20",
- "pdf_title": "Under The IPC Crime Heads",
- "row_label": "S1. HEADS OF CRIMES No. / S1. HEADS OF CRIMES",
+ "pdf_title": "60 TABLE -20 Persons Arrested Under The IPC Crime Heads",
+ "row_label": "PERSONS ARRESTED",
  "pages": [
+  1,
   1
  ],
- "n_rows": 14,
- "n_cols": 4,
- "n_cells": 56,
+ "n_rows": 15,
+ "n_cols": 3,
+ "n_cells": 43,
  "columns": [
   {
-   "col_no": "3",
-   "name": "PERSONS ARRESTED %AGE VARIATION %AGE TO TOTAL | ------------------IN | 1984",
-   "header": [
-    "PERSONS ARRESTED %AGE VARIATION %AGE TO TOTAL",
-    "------------------IN",
-    "1984"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "PERSONS ARRESTED %AGE VARIATION %AGE TO TOTAL | ------------------IN | 1985",
+   "name": "PERSONS ARRESTED",
    "header": [
-    "PERSONS ARRESTED %AGE VARIATION %AGE TO TOTAL",
-    "------------------IN",
-    "1985"
+    "PERSONS ARRESTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERSONS ARRESTED %AGE VARIATION %AGE TO TOTAL | 1985 OVER",
-   "header": [
-    "PERSONS ARRESTED %AGE VARIATION %AGE TO TOTAL",
-    "1985 OVER"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "PERSONS ARRESTED %AGE VARIATION %AGE TO TOTAL | 5 1984 mumint: 1985",
-   "header": [
-    "PERSONS ARRESTED %AGE VARIATION %AGE TO TOTAL",
-    "5 1984 mumint: 1985"
-   ]
+   "name": "col_6",
+   "header": []
   }
  ],
- "notes": [
-  "Under IPC"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

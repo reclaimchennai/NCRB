@@ -6,71 +6,49 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "RIOTS",
+ "title": "DACOITY 22",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686382133APPENDIX0.pdf",
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "RIOTS",
+ "pdf_title": "DACOITY 22",
  "row_label": "Serial No. / State",
  "pages": [
-  32,
-  33
+  14
  ],
- "n_rows": 32,
- "n_cols": 7,
- "n_cells": 213,
+ "n_rows": 33,
+ "n_cols": 4,
+ "n_cells": 132,
  "columns": [
   {
    "col_no": "3",
-   "name": "Persons in custody nending trial or investigation or on bail at the of the year",
+   "name": "Cases pending from last year",
    "header": [
-    "Persons in custody nending trial or investigation or on bail at the of the year"
+    "Cases pending from last year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons Persons released by arrested the Police or during the Magisirate year before trial",
+   "name": "Cases reported during the year",
    "header": [
-    "Persons Persons released by arrested the Police or during the Magisirate year before trial"
+    "Cases reported during the year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases not investigated, declared false or mistake of fact or law or non-cognizable and pending investigation or trial",
+   "header": [
+    "Cases not investigated, declared false or mistake of fact or law or non-cognizable and pending investigation or trial"
    ]
   },
   {
    "col_no": "6",
-   "name": "—PEKSONS Persons in whose cases the trials were com-= pleted",
+   "name": "Cases not detected",
    "header": [
-    "—PEKSONS Persons in whose cases the trials were com-= pleted"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Persons convicied",
-   "header": [
-    "Persons convicied"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Persons acanitted or",
-   "header": [
-    "Persons acanitted or"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Persons in custody or bail nending trial or investigation at of the close the year",
-   "header": [
-    "Persons in custody or bail nending trial or investigation at of the close the year"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "XVI Appendix Percentage of conviction",
-   "header": [
-    "XVI Appendix Percentage of conviction"
+    "Cases not detected"
    ]
   }
  ],
@@ -79,10 +57,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 9
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

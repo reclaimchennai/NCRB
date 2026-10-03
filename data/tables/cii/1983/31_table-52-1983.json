@@ -1,0 +1,179 @@
+{
+ "table_id": "cii/1983/31_table-52-1983",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "31",
+ "title": "Statement Indicating Motives of Murder and Culpable Homicide not Amounting to Murder in Different States/U.T.s/Cities During 1",
+ "listing_title": "Statement Indicating Motives of Murder and Culpable Homicide not Amounting to Murder in Different States/U.T.s/Cities During 1",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-52-1983.pdf",
+ "source_sha256": "07c710d9bd45880612cd6668a3155fa55355187ec49031a94e4f65e9ee6adc6c",
+ "table_no": "52",
+ "pdf_title": "131 TABLE 52 Statement indicating Motive of Murder and Culpable Homicide not amounting to Murder in different States/U.Ts./Cities during 1983",
+ "row_label": "SL.No. / States/U.Ts./Cities",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 54,
+ "n_cols": 17,
+ "n_cells": 756,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Gain | Murder",
+   "header": [
+    "Gain",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Gain | C.H. not amounting to murder",
+   "header": [
+    "Gain",
+    "C.H. not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Dispute over property | Murder",
+   "header": [
+    "Dispute over property",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Dispute over property | C.H. Not amounting to murder",
+   "header": [
+    "Dispute over property",
+    "C.H. Not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Personal Vendetta | Murder",
+   "header": [
+    "Personal Vendetta",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Personal Vendetta | C.H. not amounting to murder",
+   "header": [
+    "Personal Vendetta",
+    "C.H. not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Other Causes | Murder",
+   "header": [
+    "Other Causes",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Other Causes | C.H. not amounting to murder",
+   "header": [
+    "Other Causes",
+    "C.H. not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Total | Murder",
+   "header": [
+    "Total",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Total | C.H. not amounting to murder",
+   "header": [
+    "Total",
+    "C.H. not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Sexual causes | Murder",
+   "header": [
+    "Sexual causes",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "Sexual causes | C.H. not amounting to murder",
+   "header": [
+    "Sexual causes",
+    "C.H. not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "Sudden Provocation | Murder",
+   "header": [
+    "Sudden Provocation",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "Sudden Provocation | C.H. not amounting to murder",
+   "header": [
+    "Sudden Provocation",
+    "C.H. not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "10010",
+   "name": "Lunacy | Murder",
+   "header": [
+    "Lunacy",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "Lunacy | C.H. not amounting to murder",
+   "header": [
+    "Lunacy",
+    "C.H. not amounting to murder"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 31,
+  "cells_passed": 28,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 2029, sum 2023",
+   "col 4 'TOTAL (U.Ts.)': printed 10, sum 11",
+   "col 5 'TOTAL (STATES)': printed 3226, sum 3216"
+  ],
+  "other_totals_checked": 12,
+  "other_totals_passed": 12
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

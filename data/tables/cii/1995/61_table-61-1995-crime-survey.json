@@ -8,43 +8,65 @@
  "serial": "61",
  "title": "Incidence & Rate of Crimes Committed Against Children During 1995 (State & UT-Wise)",
  "listing_title": "Incidence & Rate of Crimes Committed Against Children During 1995 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-61-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-61-1995-crime-survey.pdf",
  "source_sha256": "3c72d2a399ed10b3d9698487faa08d0da4b79f45496d216e4279494499185a8a",
  "table_no": "60",
- "pdf_title": "VICTIMS OF RAPE UNDER DIFFERENT AGE GROUPS DURING 1995",
- "row_label": "(STATE,UT & CITY-WISE) SL NO - / (STATE,UT & CITY-WISE) STATE/UT / (STATE,UT & CITY-WISE) NO. OF REPORTED CASES / (STATE,UT & CITY-WISE) BELOW 10 YEARS / (STATE,UT & CITY-WISE) NUMBER OF VICTIMS 10-16 YEARS",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-60",
+ "row_label": "SL NO / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 7,
- "n_cols": 2,
- "n_cells": 8,
+ "n_rows": 58,
+ "n_cols": 5,
+ "n_cells": 290,
  "columns": [
   {
-   "col_no": "6",
-   "name": "(STATE,UT & CITY-WISE) | NUMBER OF VICTIMS | 16-30 YEARS",
+   "col_no": "3",
+   "name": "NO. OF CASES REPORTED",
    "header": [
-    "(STATE,UT & CITY-WISE)",
+    "NO. OF CASES REPORTED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF VICTIMS | BELOW 10 YEARS",
+   "header": [
+    "NUMBER OF VICTIMS",
+    "BELOW 10 YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF VICTIMS | 10-16 YEARS",
+   "header": [
+    "NUMBER OF VICTIMS",
+    "10-16 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF VICTIMS | 16-30 YEARS",
+   "header": [
     "NUMBER OF VICTIMS",
     "16-30 YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE,UT & CITY-WISE) | 30 YEARS AND ABOVE",
+   "name": "NUMBER OF VICTIMS | 30 YEARS AND ABOVE",
    "header": [
-    "(STATE,UT & CITY-WISE)",
+    "NUMBER OF VICTIMS",
     "30 YEARS AND ABOVE"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 15,
+  "cells_passed": 15,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

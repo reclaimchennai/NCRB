@@ -8,79 +8,66 @@
  "serial": "30",
  "title": "Strength Showing Strength of Civil Police including District Armed Police as on 31.12.1979",
  "listing_title": "Strength Showing Strength of Civil Police including District Armed Police as on 31.12.1979",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1979.pdf",
  "source_file": "raw/cii/1979/table_content/table-58-1979.pdf",
  "source_sha256": "fc776cf830cdabbb5386617b391a1f40f6e820db5b23489727e54cc0ef21701d",
  "table_no": "58",
- "pdf_title": "",
- "row_label": "STATEMENT SHOWING SIRENGIH SI. No. STATES",
+ "pdf_title": "123 TABLE 58 STATEMENT SHOWING STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE AS ON 31-12-1979",
+ "row_label": "Sl. No. / Name of the States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 44,
+ "n_rows": 43,
  "n_cols": 5,
  "n_cells": 215,
  "columns": [
   {
-   "col_no": "2",
-   "name": "OF CIVIL POLICE INCLUDING | STATEMENT SHOWING SIRENGIH | ON Name of the States/ U.Ts./ Cities",
-   "header": [
-    "OF CIVIL POLICE INCLUDING",
-    "STATEMENT SHOWING SIRENGIH",
-    "ON Name of the States/ U.Ts./ Cities"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "OF CIVIL POLICE INCLUDING | 31-12-1979 No. of No. of I.G.,D.Is.G. ASs. P./ & Ss.P. Dy. S.P.",
+   "name": "No. of I.G.,D.Js.G. & Ss.P.",
    "header": [
-    "OF CIVIL POLICE INCLUDING",
-    "31-12-1979 No. of No. of I.G.,D.Is.G. ASs. P./ & Ss.P. Dy. S.P."
+    "No. of I.G.,D.Js.G. & Ss.P."
    ]
   },
   {
    "col_no": "4",
-   "name": "OF CIVIL POLICE INCLUDING | No. of Ins tors &",
+   "name": "No. of A.Ss. P./ Dy. S.P.",
    "header": [
-    "OF CIVIL POLICE INCLUDING",
-    "No. of Ins tors &"
+    "No. of A.Ss. P./ Dy. S.P."
    ]
   },
   {
    "col_no": "5",
-   "name": "ARMED POLICE AS | No. of Officer below the rank of",
+   "name": "No. of Inspe- tors & Sub- Inspectors",
    "header": [
-    "ARMED POLICE AS",
-    "No. of Officer below the rank of"
+    "No. of Inspe- tors & Sub- Inspectors"
    ]
   },
   {
    "col_no": "6",
-   "name": "ARMED POLICE AS | Total",
+   "name": "No. of Officer below the rank of Sub-Inspectors",
    "header": [
-    "ARMED POLICE AS",
+    "No. of Officer below the rank of Sub-Inspectors"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
     "Total"
    ]
   }
  ],
- "notes": [
-  "Note;—*Fall ta strength: fas (6 7-2-5 45 te deaths,",
-  "Gye 1 Shanes"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 0,
-  "failures": [
-   "col 2 'TOTAL U.Ts.)': printed 56, sum 10101",
-   "col 4 'TOTAL U.Ts.)': printed 2479, sum 99109",
-   "col 6 'TOTAL U.Ts.)': printed 25566, sum 1.29331e+06"
-  ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

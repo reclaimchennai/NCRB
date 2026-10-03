@@ -8,63 +8,120 @@
  "serial": "13",
  "title": "Police Personnel Killed or Injured on Duty During 1997 (State, UT & City-Wise)",
  "listing_title": "Police Personnel Killed or Injured on Duty During 1997 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-85-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-85-1996-crime-survey.pdf",
  "source_sha256": "83e63cb41464b6e812a19468d871252dcf4e81c65dda253638126089cc7837e6",
  "table_no": "85",
- "pdf_title": "POLICE =25S55=L KILLED OR INJURED ON DUTY DURING 1997 (STATE, UT & CITY-WISE)",
- "row_label": "SL NO / STATE/UT/CITY / IN DACOITY OPERATION OR OTHER RAIDS / NUMBER OF V BY RIOTOUS MOBS",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-85",
+ "row_label": "SL NO / STATE/UT/CITY",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 50,
- "n_cols": 4,
- "n_cells": 141,
+ "n_rows": 116,
+ "n_cols": 11,
+ "n_cells": 638,
  "columns": [
   {
-   "col_no": "5",
-   "name": "NUMBER OF V | BY OTHER CRIMINALS",
+   "col_no": "3",
+   "name": "NUMBER OF VICTIMS KILLED | IN DACOITY OPERATION OR OTHER RAIDS",
    "header": [
-    "NUMBER OF V",
+    "NUMBER OF VICTIMS KILLED",
+    "IN DACOITY OPERATION OR OTHER RAIDS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF VICTIMS KILLED | BY RIOTOUS MOBS",
+   "header": [
+    "NUMBER OF VICTIMS KILLED",
+    "BY RIOTOUS MOBS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF VICTIMS KILLED | BY OTHER CRIMINALS",
+   "header": [
+    "NUMBER OF VICTIMS KILLED",
     "BY OTHER CRIMINALS"
    ]
   },
   {
    "col_no": "6",
-   "name": "KILLED ON BORDER DUTIES",
+   "name": "NUMBER OF VICTIMS KILLED | ON BORDER DUTIES",
    "header": [
-    "KILLED ON BORDER DUTIES"
+    "NUMBER OF VICTIMS KILLED",
+    "ON BORDER DUTIES"
    ]
   },
   {
    "col_no": "7",
-   "name": "IN ACCIDENTS",
+   "name": "NUMBER OF VICTIMS KILLED | IN ACCIDENTS",
    "header": [
+    "NUMBER OF VICTIMS KILLED",
     "IN ACCIDENTS"
    ]
   },
   {
    "col_no": "8",
-   "name": "TOTAL",
+   "name": "NUMBER OF VICTIMS KILLED | TOTAL",
    "header": [
+    "NUMBER OF VICTIMS KILLED",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "NUMBER OF VICTIMS INJURED | BY RITOUS MORS",
+   "header": [
+    "NUMBER OF VICTIMS INJURED",
+    "BY RITOUS MORS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "NUMBER OF VICTIMS INJURED | BY OTHER CRIMINALS",
+   "header": [
+    "NUMBER OF VICTIMS INJURED",
+    "BY OTHER CRIMINALS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "NUMBER OF VICTIMS INJURED | ON BORDER DUTIES",
+   "header": [
+    "NUMBER OF VICTIMS INJURED",
+    "ON BORDER DUTIES"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "NUMBER OF VICTIMS INJURED | IN ACCIDENTS",
+   "header": [
+    "NUMBER OF VICTIMS INJURED",
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "NUMBER OF VICTIMS INJURED | TOTAL",
+   "header": [
+    "NUMBER OF VICTIMS INJURED",
     "TOTAL"
    ]
   }
  ],
- "notes": [
-  "54, VARANASI fe) fe)",
-  "55 VISHAKHAPATNAM te) 0 fe) fe) 0!"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 1,
+  "cells_checked": 5,
+  "cells_passed": 5,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -6,40 +6,109 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "Chapter - 10",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 *Jails do not exist",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "",
- "pdf_title": "Chapter - 10",
- "row_label": "PRISON BUDGET In order to study the cost of maintenance and development of various infrastructure in jails, information on prison budget with details of sanctioned budget, plan expenditure, nonplan expenditure and classification of expenditures incurred in a year on developmental and non-developmental activities was called for fromm the prison authorities of States & UTs. The following table provides State wise information on the total sanctioned budget for prisons during 1999. SL NO. / PRISON BUDGET In order to study the cost of maintenance and development of various infrastructure in jails, information on prison budget with details of sanctioned budget, plan expenditure, nonplan expenditure and classification of expenditures incurred in a year on developmental and non-developmental activities was called for fromm the prison authorities of States & UTs. The following table provides State wise information on the total sanctioned budget for Sanctioned Budget for Prisons in States/UTs during 1999 STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 *Jails do not exist",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  51
+  29
  ],
- "n_rows": 33,
- "n_cols": 1,
- "n_cells": 33,
+ "n_rows": 15,
+ "n_cols": 9,
+ "n_cells": 135,
  "columns": [
   {
    "col_no": "3",
-   "name": "PRISON BUDGET | SANCTIONED BUDGET (RS. IN LAKHS) -",
+   "name": "NUMBER OF CONVICTS IN JAILS | Central Jail",
    "header": [
-    "PRISON BUDGET",
-    "SANCTIONED BUDGET (RS. IN LAKHS) -"
+    "NUMBER OF CONVICTS IN JAILS",
+    "Central Jail"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF CONVICTS IN JAILS | District Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "District Jail"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF CONVICTS IN JAILS | Sub Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Sub Jail"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF CONVICTS IN JAILS | Women Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Women Jail"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF CONVICTS IN JAILS | Borstal school",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Borstal school"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NUMBER OF CONVICTS IN JAILS | Open Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Open Jail"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NUMBER OF CONVICTS IN JAILS | Special Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Special Jail"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "NUMBER OF CONVICTS IN JAILS | Others",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Others"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "* ‘ails do not Exist",
-  "NA stands for Not Available"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 27,
+  "cells_passed": 17,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 49210, sum 9891",
+   "col 3 'TOTAL (ALL INDIA)': printed 50983, sum 51003",
+   "col 4 'TOTAL (STATES)': printed 13505, sum 2367",
+   "col 5 'TOTAL (STATES)': printed 2103, sum 298",
+   "col 6 'TOTAL (STATES)': printed 581, sum 217",
+   "col 7 'TOTAL (STATES)': printed 613, sum 50",
+   "col 8 'TOTAL (STATES)': printed 1639, sum 399",
+   "col 9 'TOTAL (STATES)': printed 544, sum 225"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

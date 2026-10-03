@@ -8,26 +8,26 @@
  "serial": "5",
  "title": "CONTENTS",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1996.pdf",
  "source_file": "raw/psi/1996/year_wise/psi-full-report-1996.pdf",
  "source_sha256": "2200b7550727779faed768052a24e37c4ee2e238b1512cbcdbd08d82cdf91f32",
  "table_no": "",
  "pdf_title": "CONTENTS",
- "row_label": "CHAPTER TITLE NO.",
+ "row_label": "CHAPTER NO. / TITLE",
  "pages": [
   7
  ],
- "n_rows": 19,
+ "n_rows": 20,
  "n_cols": 1,
- "n_cells": 19,
+ "n_cells": 20,
  "columns": [
   {
    "col_no": "3",
-   "name": "NO.",
+   "name": "PAGE NO.",
    "header": [
-    "NO."
+    "PAGE NO."
    ]
   }
  ],
@@ -39,7 +39,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

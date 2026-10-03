@@ -6,39 +6,462 @@
  "topic": "",
  "section": "PSI Year Wise 1995",
  "serial": "4",
- "title": "ANNEXURE-XIII BUDGETARY DETAILS DURING 1995",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1995 ANNEXURE-II",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/files/PSI-1995FullReport.pdf",
  "source_file": "raw/psi/1995/year_wise/PSI-1995FullReport.pdf",
  "source_sha256": "61e73c37df92817e9e0d39a4e894369ba3667eb0c83f76b86f9fed5e32b54d72",
  "table_no": "",
- "pdf_title": "ANNEXURE-XIII BUDGETARY DETAILS DURING 1995",
- "row_label": "SL. STATE/UT NO. / SL. STATE/UT / SB / PE / DE / NE / TN / PN - / EXPENSES ON INMATES FOOD CLOT. / EXPENSES ON INMATES FOOD CLOT. / EXPENSES ON INMATES MEDI. (12)) / EXPENSES ON INMATES WEL. / EXPENSES ON INMATES OTHERS / EXPENSES ON INMATES - TOTAL",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1995 ANNEXURE-II",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  87
+  50,
+  51,
+  52,
+  53,
+  54,
+  55
  ],
- "n_rows": 20,
- "n_cols": 1,
- "n_cells": 20,
+ "n_rows": 46,
+ "n_cols": 54,
+ "n_cells": 2070,
  "columns": [
   {
-   "col_no": "16",
-   "name": "in Lakhs} GRAND TOTAL",
+   "col_no": "3",
+   "name": "BELOW 16 YEARS | M (3)",
    "header": [
-    "in Lakhs} GRAND TOTAL"
+    "BELOW 16 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BELOW 16 YEARS | F (4)",
+   "header": [
+    "BELOW 16 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BELOW 16 YEARS | T (5)",
+   "header": [
+    "BELOW 16 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "16-18 YEARS | M (6)",
+   "header": [
+    "16-18 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "16-18 YEARS | F (7)",
+   "header": [
+    "16-18 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "16-18 YEARS | T (8)",
+   "header": [
+    "16-18 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "18-30 YEARS | M (9)",
+   "header": [
+    "18-30 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "18-30 YEARS | F (10)",
+   "header": [
+    "18-30 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "18-30 YEARS | T (11)",
+   "header": [
+    "18-30 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "30-50 YEARS | M (12)",
+   "header": [
+    "30-50 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "30-50 YEARS | F (13)",
+   "header": [
+    "30-50 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "30-50 YEARS | T (14)",
+   "header": [
+    "30-50 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "50 YEARS & ABOVE | M (15)",
+   "header": [
+    "50 YEARS & ABOVE",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "50 YEARS & ABOVE | F (16)",
+   "header": [
+    "50 YEARS & ABOVE",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "50 YEARS & ABOVE | T (17)",
+   "header": [
+    "50 YEARS & ABOVE",
+    "T"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL (ALL AGE-GROUPS) | M (18)",
+   "header": [
+    "TOTAL (ALL AGE-GROUPS)",
+    "M"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TOTAL (ALL AGE-GROUPS) | F (19)",
+   "header": [
+    "TOTAL (ALL AGE-GROUPS)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "TOTAL (ALL AGE-GROUPS) | T (20)",
+   "header": [
+    "TOTAL (ALL AGE-GROUPS)",
+    "T"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "BELOW 16 YEARS | M (21)",
+   "header": [
+    "BELOW 16 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "BELOW 16 YEARS | F (22)",
+   "header": [
+    "BELOW 16 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "BELOW 16 YEARS | T (23)",
+   "header": [
+    "BELOW 16 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "16-18 YEARS | M (24)",
+   "header": [
+    "16-18 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "16-18 YEARS | F (25)",
+   "header": [
+    "16-18 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "16-18 YEARS | T (26)",
+   "header": [
+    "16-18 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "18-30 YEARS | M (27)",
+   "header": [
+    "18-30 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "18-30 YEARS | F (28)",
+   "header": [
+    "18-30 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "18-30 YEARS | T (29)",
+   "header": [
+    "18-30 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "30-50 YEARS | M (30)",
+   "header": [
+    "30-50 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "30-50 YEARS | F (31)",
+   "header": [
+    "30-50 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "30-50 YEARS | T (32)",
+   "header": [
+    "30-50 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "50 YEARS & ABOVE | M (33)",
+   "header": [
+    "50 YEARS & ABOVE",
+    "M"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "50 YEARS & ABOVE | F (34)",
+   "header": [
+    "50 YEARS & ABOVE",
+    "F"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "50 YEARS & ABOVE | T (35)",
+   "header": [
+    "50 YEARS & ABOVE",
+    "T"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "TOTAL (ALL AGE-GROUPS) | M (36)",
+   "header": [
+    "TOTAL (ALL AGE-GROUPS)",
+    "M"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "TOTAL (ALL AGE-GROUPS) | F (37)",
+   "header": [
+    "TOTAL (ALL AGE-GROUPS)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "TOTAL (ALL AGE-GROUPS) | T (38)",
+   "header": [
+    "TOTAL (ALL AGE-GROUPS)",
+    "T"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "BELOW 16 YEARS | M (39)",
+   "header": [
+    "BELOW 16 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "BELOW 16 YEARS | F (40)",
+   "header": [
+    "BELOW 16 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "BELOW 16 YEARS | T (41)",
+   "header": [
+    "BELOW 16 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "42",
+   "name": "16-18 YEARS | M (42)",
+   "header": [
+    "16-18 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "43",
+   "name": "16-18 YEARS | F (43)",
+   "header": [
+    "16-18 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "44",
+   "name": "16-18 YEARS | T (44)",
+   "header": [
+    "16-18 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "45",
+   "name": "18-30 YEARS | M (45)",
+   "header": [
+    "18-30 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "46",
+   "name": "18-30 YEARS | F (46)",
+   "header": [
+    "18-30 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "47",
+   "name": "18-30 YEARS | T (47)",
+   "header": [
+    "18-30 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "48",
+   "name": "30-50 YEARS | M (48)",
+   "header": [
+    "30-50 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "49",
+   "name": "30-50 YEARS | F (49)",
+   "header": [
+    "30-50 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "50",
+   "name": "30-50 YEARS | T (50)",
+   "header": [
+    "30-50 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "51",
+   "name": "50 YEARS & ABOVE | M (51)",
+   "header": [
+    "50 YEARS & ABOVE",
+    "M"
+   ]
+  },
+  {
+   "col_no": "52",
+   "name": "50 YEARS & ABOVE | F (52)",
+   "header": [
+    "50 YEARS & ABOVE",
+    "F"
+   ]
+  },
+  {
+   "col_no": "53",
+   "name": "50 YEARS & ABOVE | T (53)",
+   "header": [
+    "50 YEARS & ABOVE",
+    "T"
+   ]
+  },
+  {
+   "col_no": "54",
+   "name": "TOTAL (ALL AGE-GROUPS) | M (54)",
+   "header": [
+    "TOTAL (ALL AGE-GROUPS)",
+    "M"
+   ]
+  },
+  {
+   "col_no": "55",
+   "name": "TOTAL (ALL AGE-GROUPS) | F (55)",
+   "header": [
+    "TOTAL (ALL AGE-GROUPS)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "56",
+   "name": "TOTAL (ALL AGE-GROUPS) | T (56)",
+   "header": [
+    "TOTAL (ALL AGE-GROUPS)",
+    "T"
    ]
   }
  ],
- "notes": [
-  "i 2 3 3 5",
-  "NOTE: FIGURES ARE PROVISIONAL",
-  "NA - NOT AVAILABLE",
-  "CLOT. - CLOTHING; MEDI. - MEDICAL; V/E - VOCATIONAL/EDUCATIONAL; WEL. - WELFARE",
-  "SB - TOTAL ANNUAL SANCTIONED BUDGET; PE - PLAN EXPENDITURE; DE - DEVELOPMENT EXPENDITURE; NE - NON DEVELOPMENT EXPENDITURE;",
-  "TN - TOTAL NON PLAN EXPENDITURE; PN - PLAN AND NON PLAN"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -47,6 +470,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 6,
  "warnings": []
 }

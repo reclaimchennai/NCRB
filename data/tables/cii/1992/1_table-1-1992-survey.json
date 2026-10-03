@@ -8,42 +8,41 @@
  "serial": "1",
  "title": "Incidence & Rate of Total Cognizable Crimes Indian Penal Code (IPC) and Local & Special Laws (LSL) 1982-92",
  "listing_title": "Incidence & Rate of Total Cognizable Crimes Indian Penal Code (IPC) and Local & Special Laws (LSL) 1982-92",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-1-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-1-1992-survey.pdf",
  "source_sha256": "cd1da2e8d844d1f994bc6de6b3446a222ceeec800bac6481d5299e3d089a3f8e",
  "table_no": "1",
- "pdf_title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES UNDER INDIAN PENAL CODE(IPC) AND LOCAL & SPECIAL LAWS (LSL)1982-92",
- "row_label": "SL. no.",
+ "pdf_title": "35 TABLE-1 INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES UNDER INDIAN PENAL CODE(IPC) AND LOCAL & SPECIAL LAWS (LSL)1982-92",
+ "row_label": "SL. YEAR NO.",
  "pages": [
   1
  ],
- "n_rows": 15,
+ "n_rows": 13,
  "n_cols": 9,
- "n_cells": 126,
+ "n_cells": 117,
  "columns": [
   {
    "col_no": "2",
-   "name": "YEAR",
+   "name": "SL. YEAR NO.",
    "header": [
-    "YEAR"
+    "SL. YEAR NO."
    ]
   },
   {
    "col_no": "3",
-   "name": "INCIDENCE | ESTIMATED MID-YEAR POPULATION® {IN",
+   "name": "ESTIMATED MID-YEAR POPULATION* (IN LAKHS)**",
    "header": [
-    "INCIDENCE",
-    "ESTIMATED MID-YEAR POPULATION® {IN"
+    "ESTIMATED MID-YEAR POPULATION* (IN LAKHS)**"
    ]
   },
   {
    "col_no": "4",
-   "name": "INCIDENCE | LAKHS) **",
+   "name": "INCIDENCE | IPC",
    "header": [
     "INCIDENCE",
-    "LAKHS) **"
+    "IPC"
    ]
   },
   {
@@ -64,40 +63,37 @@
   },
   {
    "col_no": "7",
-   "name": "INCIDENCE | wt tec",
+   "name": "RATE | IPC",
    "header": [
-    "INCIDENCE",
-    "wt tec"
+    "RATE",
+    "IPC"
    ]
   },
   {
    "col_no": "8",
-   "name": "RATE LSL",
+   "name": "RATE | LSL",
    "header": [
-    "RATE LSL"
+    "RATE",
+    "LSL"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF TOTAL",
+   "name": "RATE | TOTAL",
    "header": [
-    "OF TOTAL"
+    "RATE",
+    "TOTAL"
    ]
   },
   {
    "col_no": "10",
-   "name": "PERCENTAGE IPC TO CRIMES TOTAL COGNIZABLE CRIMES",
+   "name": "PERCENTAGE OF IPC CRIMES TO TOTAL COGNIZABLE CRIMES",
    "header": [
-    "PERCENTAGE IPC TO CRIMES TOTAL COGNIZABLE CRIMES"
+    "PERCENTAGE OF IPC CRIMES TO TOTAL COGNIZABLE CRIMES"
    ]
   }
  ],
- "notes": [
-  "GROWTH RATE",
-  "PER ANNUM",
-  "* SOURCE: THE REGISTRAR GENERAL OF INDIA",
-  "** ONE LAKH - 0.1 MILLION"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -105,7 +101,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

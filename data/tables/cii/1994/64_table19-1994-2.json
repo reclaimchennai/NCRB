@@ -8,39 +8,79 @@
  "serial": "64",
  "title": "Disposal of IPC Cases by Courts During 1994",
  "listing_title": "Disposal of IPC Cases by Courts During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table19-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table19-1994_2.pdf",
  "source_sha256": "51e80c237278ea1e5c348d6a3af1d1e61370e0478dcd63c786dd4f2f5493c016",
  "table_no": "19",
- "pdf_title": "DISPOSAL OF IPC CASES BY COURTS DURING 1994",
- "row_label": "SL. CRIME HEAD NO. / NO. OF CASES TOTAL NO. OF CASES eee INCLUDING PENDING CASES / NO. OF CASES COMPOUNDED OR WIT! me DRAWN / NO. OF CASES IN WHICH TRIALS WERE COMPLETED CONVICTED / NO. OF CASES IN WHICH TRIALS WERE COMPLETED ACQUITTED OR DISCHARGED / NO. OF CASES IN WHICH TRIALS WERE COMPLETED TOTAL {(5)+ (6)}",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-19",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 18,
- "n_cols": 1,
- "n_cells": 18,
+ "n_cols": 6,
+ "n_cells": 108,
  "columns": [
   {
-   "col_no": "8",
-   "name": "NO. OF CASES | PENDING monies",
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
+   "header": [
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF CASES | COMPOUN-DED OR WITH-DRAWN",
    "header": [
     "NO. OF CASES",
-    "PENDING monies"
+    "COMPOUN-DED OR WITH-DRAWN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "CONVICTED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUIT- TED OR DIS-CHARGED",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "ACQUIT- TED OR DIS-CHARGED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL {(5)+ (6)}",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "TOTAL {(5)+ (6)}"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF CASES | PENDING TRIAL",
+   "header": [
+    "NO. OF CASES",
+    "PENDING TRIAL"
    ]
   }
  ],
- "notes": [
-  "130 10B. NCBR/96"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

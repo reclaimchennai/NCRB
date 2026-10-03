@@ -8,14 +8,14 @@
  "serial": "5",
  "title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States and UTs During 1992",
  "listing_title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States and UTs During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-5-1992-survey.pdf",
  "source_sha256": "b15e7639b4c1e96a0b6106eec145f94fa74ef8214724f2278f55d27fa1b34b72",
  "table_no": "5",
- "pdf_title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES AND UTs DURING 1992",
- "row_label": "sL NO. / STATE/UT",
+ "pdf_title": "41 TABLE - 5 INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (IPC)",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
@@ -25,50 +25,47 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "INCIDENCE TOTAL CRIMES",
+   "name": "INCIDENCE OF TOTAL COG.CRIMES",
    "header": [
-    "INCIDENCE TOTAL CRIMES"
+    "INCIDENCE OF TOTAL COG.CRIMES"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF CoG. TO TOTAL",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL",
    "header": [
-    "OF CoG. TO TOTAL"
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE CONTRIBUTION ALL-INDIA (IN",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "PERCENTAGE CONTRIBUTION ALL-INDIA (IN"
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
    ]
   },
   {
    "col_no": "6",
-   "name": "ESTIMATED OF MID-YEAR COG. POPULATION LAKHS)",
+   "name": "RATE OF TOTAL COG.CRIMES",
    "header": [
-    "ESTIMATED OF MID-YEAR COG. POPULATION LAKHS)"
+    "RATE OF TOTAL COG.CRIMES"
    ]
   },
   {
    "col_no": "7",
-   "name": "RATE RANK* OF TOTAL CRIMINALITY CRIMES",
+   "name": "RANK* OF CRIMINALITY",
    "header": [
-    "RATE RANK* OF TOTAL CRIMINALITY CRIMES"
+    "RANK* OF CRIMINALITY"
    ]
   }
  ],
- "notes": [
-  "Note: 1 * Rank on the basis of Rate ef total cognizable crimes (col.6) in the States & UTs.",
-  "2 Percentage less than 9.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 2,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

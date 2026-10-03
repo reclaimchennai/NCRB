@@ -8,51 +8,98 @@
  "serial": "7",
  "title": "Table 7: Population of Inmates and Occupancy rate at the end of 1999",
  "listing_title": "Table 7: Population of Inmates and Occupancy rate at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-07a_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-07a_1999.pdf",
  "source_sha256": "68824388b6de539037a45d453ebe08c64fbfa3d6c016001421c77a092367d743",
  "table_no": "7A",
- "pdf_title": "",
- "row_label": "oa JAILS BORSTAL SCHOOL - 4 - a aa - 4 / STATE/UT MALE 7 eo a yg in at / TOTAL CAPACITY OF INMATES FEMALE a poo - yi mes i mere: cen ae",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-7A",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  5
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
  ],
- "n_rows": 8,
- "n_cols": 2,
- "n_cells": 11,
+ "n_rows": 191,
+ "n_cols": 7,
+ "n_cells": 1337,
  "columns": [
   {
-   "col_no": "4",
-   "name": "INMATES POPULATION { FEMALE TOTAL agp Gan",
+   "col_no": "3",
+   "name": "NUMBER OF JAILS",
    "header": [
-    "INMATES POPULATION { FEMALE TOTAL agp Gan"
+    "NUMBER OF JAILS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TOTAL CAPACITY OF INMATES | MALE",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "MALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "TOTAL MALE ge 1",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE",
    "header": [
-    "TOTAL MALE ge 1"
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INMATES POPULATION | MALE",
+   "header": [
+    "INMATES POPULATION",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INMATES POPULATION | FEMALE",
+   "header": [
+    "INMATES POPULATION",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "INMATES POPULATION | TOTAL",
+   "header": [
+    "INMATES POPULATION",
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "1 ni 5 rr?",
-  "7 a 5 - ——F ee",
-  "- ! rt",
-  "7 ra ia cig ts mamma 1 oe",
-  "acts SE SOO? ‘7 i320"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 72,
+  "cells_passed": 68,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 30972, sum 30992",
+   "col 4 'TOTAL (STATES)': printed 382, sum 389",
+   "col 4 'TOTAL (ALL INDIA)': printed 1379, sum 1372",
+   "col 5 'TOTAL (STATES)': printed 3586, sum 3587"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 8,
  "warnings": []
 }

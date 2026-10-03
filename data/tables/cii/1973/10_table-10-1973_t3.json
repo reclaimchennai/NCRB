@@ -6,66 +6,63 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "10",
- "title": "Cases Reperted Ciader",
+ "title": "U. Tz",
  "listing_title": "Cases Reported under Special and Local Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-10-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-10-1973.pdf",
  "source_sha256": "550e3a30e9fcbce0b0a1c94f12b0059825b432d553874e3bdcdba766b1983535",
  "table_no": "",
- "pdf_title": "Cases Reperted Ciader",
- "row_label": "ve Mites SI. Ne",
+ "pdf_title": "U. Tz",
+ "row_label": "22. A. & N. Islands / . / . / .",
  "pages": [
   3
  ],
- "n_rows": 37,
+ "n_rows": 5,
  "n_cols": 6,
- "n_cells": 203,
+ "n_cells": 30,
  "columns": [
   {
-   "col_no": "2",
-   "name": "a",
+   "col_no": "5",
+   "name": "- (5)",
    "header": [
-    "a"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "ae",
-   "header": [
-    "ae"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "S.LT. in | -",
-   "header": [
-    "S.LT. in",
     "-"
    ]
   },
   {
-   "col_no": "5",
-   "name": "S.LT. in | & Girls Act ¥",
-   "header": [
-    "S.LT. in",
-    "& Girls Act ¥"
-   ]
-  },
-  {
    "col_no": "6",
-   "name": "Motor Vehicles Act",
+   "name": "- (6)",
    "header": [
-    "Motor Vehicles Act"
+    "-"
    ]
   },
   {
    "col_no": "7",
-   "name": "Motor Vehicles Act | V",
+   "name": "3",
    "header": [
-    "Motor Vehicles Act",
-    "V"
+    "3"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "2·50",
+   "header": [
+    "2·50"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "13",
+   "header": [
+    "13"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "10·83",
+   "header": [
+    "10·83"
    ]
   }
  ],
@@ -74,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

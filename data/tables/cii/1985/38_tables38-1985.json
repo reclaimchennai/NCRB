@@ -8,72 +8,69 @@
  "serial": "38",
  "title": "Juveniles Apprehended under Important IPC Heads During 1985",
  "listing_title": "Juveniles Apprehended under Important IPC Heads During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables38-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables38-1985.pdf",
  "source_sha256": "56e7a2d1f70c0474be6920af7b96430e8db18cebcd7ed397e3d0b36a003af588",
  "table_no": "38",
- "pdf_title": "",
- "row_label": "Juveniles STATES/UTS/CITIES SL. NO. q1)",
+ "pdf_title": "94 TABLE - 38 Juveniles Apprehended Under Important IPC Heads During 1985",
+ "row_label": "SL. NO. / STATES/UTS/CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 67,
+ "n_rows": 47,
  "n_cols": 13,
- "n_cells": 608,
+ "n_cells": 611,
  "columns": [
   {
    "col_no": "3",
-   "name": "*ss7=h==2=2 Under MURDER C.H NOT",
+   "name": "MURDER",
    "header": [
-    "*ss7=h==2=2 Under MURDER C.H NOT"
+    "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "*ss7=h==2=2 Under MURDER C.H NOT | AMOUNTING TO MURDER",
+   "name": "C.H NOT AMOUNTING TO MURDER",
    "header": [
-    "*ss7=h==2=2 Under MURDER C.H NOT",
-    "AMOUNTING TO MURDER"
+    "C.H NOT AMOUNTING TO MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "IPC | RAPE",
+   "name": "RAPE",
    "header": [
-    "IPC",
     "RAPE"
    ]
   },
   {
    "col_no": "6",
-   "name": "IPC | KIDNAPPING",
+   "name": "KIDNAPPING & ABDUCTION",
    "header": [
-    "IPC",
-    "KIDNAPPING"
+    "KIDNAPPING & ABDUCTION"
    ]
   },
   {
    "col_no": "7",
-   "name": "Heads DACOITY",
+   "name": "DACOITY",
    "header": [
-    "Heads DACOITY"
+    "DACOITY"
    ]
   },
   {
    "col_no": "8",
-   "name": "During",
+   "name": "ROBBERY",
    "header": [
-    "During"
+    "ROBBERY"
    ]
   },
   {
    "col_no": "9",
-   "name": "1985",
+   "name": "BURGLARY",
    "header": [
-    "1985"
+    "BURGLARY"
    ]
   },
   {
@@ -92,9 +89,9 @@
   },
   {
    "col_no": "12",
-   "name": "CRIMINAI. OF BREACH TRUST",
+   "name": "CRIMINAL BREACH OF TRUST",
    "header": [
-    "CRIMINAI. OF BREACH TRUST"
+    "CRIMINAL BREACH OF TRUST"
    ]
   },
   {
@@ -106,35 +103,26 @@
   },
   {
    "col_no": "14",
-   "name": "FEITING",
+   "name": "COUNTER-FEITING",
    "header": [
-    "FEITING"
+    "COUNTER-FEITING"
    ]
   },
   {
    "col_no": "15",
-   "name": "COGNIZATOTAL BLE UNDER CRIME IPC",
+   "name": "TOTAL COGNIZA-BLE CRIME UNDER IPC",
    "header": [
-    "COGNIZATOTAL BLE UNDER CRIME IPC"
+    "TOTAL COGNIZA-BLE CRIME UNDER IPC"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 33,
-  "cells_passed": 14,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 1962, sum 1958",
-   "col 4 'TOTAL (U.Ts. >)': printed 81, sum 721",
-   "col 4 'TOTAL (CITIES)': printed 719, sum 79",
-   "col 5 'TOTAL (STATES)': printed 510, sum 515",
-   "col 6 'TOTAL (STATES)': printed 123, sum 723",
-   "col 9 'TOTAL (STATES)': printed 6632, sum 6032",
-   "col 10 'TOTAL (STATES)': printed 14731, sum 5385",
-   "col 10 'TOTAL (U.Ts. >)': printed 731, sum 635"
-  ],
+  "cells_checked": 36,
+  "cells_passed": 36,
+  "failures": [],
   "other_totals_checked": 13,
-  "other_totals_passed": 12
+  "other_totals_passed": 13
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

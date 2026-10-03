@@ -6,35 +6,35 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1989",
  "serial": "4",
- "title": "Suicidal Deaths in India",
+ "title": "49 TABLE - 9 Incidence Of Suicides By Means Adopted During 1989",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1989.pdf",
  "source_file": "raw/adsi/1989/year_wise/suicides-1989.pdf",
  "source_sha256": "dac08e88e6ab8208f1a2e7178532abc4a95d91678e6af855a32c169bbe5aed08",
  "table_no": "9",
- "pdf_title": "",
- "row_label": "Incidence Of During No.",
+ "pdf_title": "49 TABLE - 9 Incidence Of Suicides By Means Adopted During 1989",
+ "row_label": "Sl. No. / Means Adopted For Committing Suicide",
  "pages": [
   14
  ],
- "n_rows": 12,
+ "n_rows": 13,
  "n_cols": 2,
- "n_cells": 24,
+ "n_cells": 26,
  "columns": [
   {
-   "col_no": "2",
-   "name": "8 Means 1989 Committing of Suicides",
+   "col_no": "3",
+   "name": "Number of Suicides",
    "header": [
-    "8 Means 1989 Committing of Suicides"
+    "Number of Suicides"
    ]
   },
   {
-   "col_no": "3",
-   "name": "Adopted Suicide of Share Each Means",
+   "col_no": "4",
+   "name": "Percentage Share of Each Means",
    "header": [
-    "Adopted Suicide of Share Each Means"
+    "Percentage Share of Each Means"
    ]
   }
  ],
@@ -43,10 +43,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

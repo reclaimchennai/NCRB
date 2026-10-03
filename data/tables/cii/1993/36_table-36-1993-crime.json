@@ -8,14 +8,14 @@
  "serial": "36",
  "title": "Disposal of Persons Arrested under IPC Crimes by Courts During the Year 1993",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes by Courts During the Year 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-36-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-36-1993-crime.pdf",
  "source_sha256": "3967059e6cbda79af6a7beb97171c87c0eb37fca736a49f928d138a15268dea1",
  "table_no": "36",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURTS DURING 1993",
- "row_label": "(1)",
+ "pdf_title": "203 TABLE-36 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURTS DURING 1993",
+ "row_label": "SL NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -24,66 +24,69 @@
  "n_cells": 126,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(2)",
-   "header": [
-    "(2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "(4)",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "(4)"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "(5)",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH DRAWN",
    "header": [
-    "(5)"
+    "NO. OF PERSONS WHOSE",
+    "CASES COMPO-UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "(6)",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
    "header": [
-    "(6)"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(7)",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "(7)"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "(3)",
+   "name": "NO. OF PERSONS COMMITTED",
    "header": [
-    "(3)"
+    "NO. OF PERSONS COMMITTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "(a)!",
+   "name": "PERCENTAGE OF PERSONS | WHOSE TRIALS REMAINED PENDING (COL. (6x100/ COL. (1))",
    "header": [
-    "(a)!"
+    "PERCENTAGE OF PERSONS",
+    "WHOSE TRIALS REMAINED PENDING (COL. (6x100/ COL. (1))"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERCENTAGE OF PERSONS | CONVICTED TO TRIALS COMPLETED (COL. (7x 100/COL. (10))",
+   "header": [
+    "PERCENTAGE OF PERSONS",
+    "CONVICTED TO TRIALS COMPLETED (COL. (7x 100/COL. (10))"
    ]
   }
  ],
- "notes": [
-  "28A—177 NCRB/95."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 5,
-  "other_totals_passed": 0
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

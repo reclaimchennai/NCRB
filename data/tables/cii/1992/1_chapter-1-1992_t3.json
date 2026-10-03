@@ -6,41 +6,54 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "RATE OF TOTAL IPC CRIMES DURING 1992",
+ "title": "25 RATE OF TOTAL IPC CRIMES DURING 1992 STATE & UT-WISE",
  "listing_title": "Survey of Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-1992.pdf",
  "source_file": "raw/cii/1992/table_chapter/chapter-1-1992.pdf",
  "source_sha256": "4445e03bc8df5f185ab5e326765953da85db491000529e45e1db60ce964a778f",
  "table_no": "",
- "pdf_title": "RATE OF TOTAL IPC CRIMES DURING 1992",
- "row_label": "",
+ "pdf_title": "25 RATE OF TOTAL IPC CRIMES DURING 1992 STATE & UT-WISE",
+ "row_label": "High Risk Sl. No. / High Risk State/UT",
  "pages": [
   5
  ],
- "n_rows": 19,
- "n_cols": 3,
- "n_cells": 49,
+ "n_rows": 17,
+ "n_cols": 4,
+ "n_cells": 62,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE & UT-WISE (2)",
-   "header": [
-    "STATE & UT-WISE"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "STATE & UT-WISE (3)",
+   "name": "High Risk | Rate",
    "header": [
-    "STATE & UT-WISE"
+    "High Risk",
+    "Rate"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Low Risk | Sl. No.",
+   "header": [
+    "Low Risk",
+    "Sl. No."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Low Risk | State/UT",
+   "header": [
+    "Low Risk",
+    "State/UT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Low Risk | Rate",
+   "header": [
+    "Low Risk",
+    "Rate"
+   ]
   }
  ],
  "notes": [],
@@ -51,7 +64,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -6,52 +6,76 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "Expenses on inmates in States/UTs during 1999",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 Karnataka (5) and Haryana (4). One case of female convicted civil prisoners was reported from Haryana only. The remaining States and UTs reported no such inmates in their jails.",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "",
- "pdf_title": "Expenses on inmates in States/UTs during 1999",
- "row_label": "No. / STATE/UT / FOOD",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 Karnataka (5) and Haryana (4). One case of female convicted civil prisoners was reported from Haryana only. The remaining States and UTs reported no such inmates in their jails.",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  55
+  32
  ],
- "n_rows": 36,
- "n_cols": 3,
- "n_cells": 78,
+ "n_rows": 33,
+ "n_cols": 6,
+ "n_cells": 198,
  "columns": [
   {
-   "col_no": "6",
-   "name": "CLOTHING",
+   "col_no": "3",
+   "name": "CONVICTS | MALE",
    "header": [
-    "CLOTHING"
+    "CONVICTS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CONVICTS | FEMALE",
+   "header": [
+    "CONVICTS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CONVICTS | TOTAL",
+   "header": [
+    "CONVICTS",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "UNDERTRIALS | MALE",
+   "header": [
+    "UNDERTRIALS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "UNDERTRIALS | FEMALE",
+   "header": [
+    "UNDERTRIALS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "(Rs. in Lakhs) WELFARE OTHERS MEDICAL",
+   "name": "UNDERTRIALS | TOTAL",
    "header": [
-    "(Rs. in Lakhs) WELFARE OTHERS MEDICAL"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "EDUCATION TOTAL",
-   "header": [
-    "EDUCATION TOTAL"
+    "UNDERTRIALS",
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "oan",
-  "OTHERS"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 6,
+  "cells_passed": 6,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

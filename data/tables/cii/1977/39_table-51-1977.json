@@ -8,146 +8,107 @@
  "serial": "39",
  "title": "Statement Indicating Number of Cases Reported and Value of Property Stolen under Robbery by Place of Occurrence",
  "listing_title": "Statement Indicating Number of Cases Reported and Value of Property Stolen under Robbery by Place of Occurrence",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-51-1977.pdf",
  "source_file": "raw/cii/1977/table_content/table-51-1977.pdf",
  "source_sha256": "42559004faea3390b329c82ddd276f12b9ba0bf9d9b42b07ecb2fa7b736a7ab0",
  "table_no": "51",
- "pdf_title": "TABLE £)3—conm",
- "row_label": "- Sl, No,",
+ "pdf_title": "115 TABLE 51 STATEMENT INDICATING NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN UNDER ROBBERY BY PLACE OF OCCURRENCE",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  2,
+  2,
+  2,
+  2,
+  2,
   2
  ],
- "n_rows": 66,
- "n_cols": 15,
- "n_cells": 482,
+ "n_rows": 71,
+ "n_cols": 8,
+ "n_cells": 568,
  "columns": [
   {
    "col_no": "3",
-   "name": "‘Chie of No. cases reported",
+   "name": "Residential Premises | No. of cases reported",
    "header": [
-    "‘Chie of No. cases reported"
+    "Residential Premises",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "4",
-   "name": "oF - - Vale of pcopery stolen",
+   "name": "Residential Premises | Value property stolen",
    "header": [
-    "oF - - Vale of pcopery stolen"
+    "Residential Premises",
+    "Value property stolen"
    ]
   },
   {
    "col_no": "5",
-   "name": "Ey PLACE ee | “35 - No. reported",
+   "name": "Highways | No. of cases reported",
    "header": [
-    "Ey PLACE ee",
-    "“35 - No. reported"
+    "Highways",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "6",
-   "name": "Ey PLACE ee | of ty stolen",
+   "name": "Highways | Value property stolen",
    "header": [
-    "Ey PLACE ee",
-    "of ty stolen"
+    "Highways",
+    "Value property stolen"
    ]
   },
   {
    "col_no": "7",
-   "name": "Ee: ERUTEREE | Railways Value cas reported",
+   "name": "Railways | No. of cases reported",
    "header": [
-    "Ee: ERUTEREE",
-    "Railways Value cas reported"
+    "Railways",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "8",
-   "name": "Ee: ERUTEREE | of if Value PLOPSEO Souca",
+   "name": "Railways | Value if property stolen",
    "header": [
-    "Ee: ERUTEREE",
-    "of if Value PLOPSEO Souca"
+    "Railways",
+    "Value if property stolen"
    ]
   },
   {
    "col_no": "9",
-   "name": "UNDER River No. of No. ches reported",
+   "name": "River & Sea | No. of cases reported",
    "header": [
-    "UNDER River No. of No. ches reported"
+    "River & Sea",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "10",
-   "name": "(Value in Re Latha YValucof of Property stolen",
+   "name": "River & Sea | Value of property stolen",
    "header": [
-    "(Value in Re Latha YValucof of Property stolen"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "of reported",
-   "header": [
-    "of reported"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Valeo of No.of property stolon",
-   "header": [
-    "Valeo of No.of property stolon"
-   ]
-  },
-  {
-   "col_no": "14",
-   "name": "reported",
-   "header": [
-    "reported"
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "Other Places No.of cases property scolen",
-   "header": [
-    "Other Places No.of cases property scolen"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "TOTAL | of reported",
-   "header": [
-    "TOTAL",
-    "of reported"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "TOTAL | No. of property stolen",
-   "header": [
-    "TOTAL",
-    "No. of property stolen"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "TOTAL | Valve of iy reported Slolen",
-   "header": [
-    "TOTAL",
-    "Valve of iy reported Slolen"
+    "River & Sea",
+    "Value of property stolen"
    ]
   }
  ],
- "notes": [
-  "a"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 6,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 13,
  "warnings": []
 }

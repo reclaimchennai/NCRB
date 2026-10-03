@@ -1,0 +1,92 @@
+{
+ "table_id": "cii/1994/82_table37-1994-2",
+ "publication": "cii",
+ "year": 1994,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "82",
+ "title": "Disposal of Persons Arrested under IPC Crimes by Courts During 1994 (State & UT-Wise)",
+ "listing_title": "Disposal of Persons Arrested under IPC Crimes by Courts During 1994 (State & UT-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table37-1994_2.pdf",
+ "source_file": "raw/cii/1994/table_content/table37-1994_2.pdf",
+ "source_sha256": "def90949c4f0db0a65c50156b1283579b6d26f6f302e9ba51a0669916a0f9285",
+ "table_no": "37",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-37",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 7,
+ "n_cells": 245,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
+   "header": [
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH DRAWN",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "CASES COMPO-UNDED OR WITH DRAWN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPL-ETED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF PERSONS CONVICTED",
+   "header": [
+    "NO. OF PERSONS CONVICTED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PENDENCY PERCENTAGE",
+   "header": [
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 14,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 325446, sum 325546"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

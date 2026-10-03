@@ -8,116 +8,114 @@
  "serial": "61",
  "title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1989 (Men + Women)",
  "listing_title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1989 (Men + Women)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-64-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-64-1989-1.pdf",
  "source_sha256": "5063ca95f6d32347494f3018406a5a5ccf6a16491c329c61f130409fd922da8b",
  "table_no": "64",
- "pdf_title": "SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
- "row_label": "SL. STATE/UT/CITY NO. qa) STATES",
+ "pdf_title": "200 TABLE-64 SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
+ "row_label": "SL. STATE/UT/CITY NO.",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 10,
- "n_cells": 467,
+ "n_cells": 470,
  "columns": [
   {
-   "col_no": "2",
-   "name": "DG/IG/DIG/SP SANCTIONED (2)",
-   "header": [
-    "DG/IG/DIG/SP SANCTIONED (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "AS ON (MEN ACTUAL (3)",
+   "name": "DG/IO/DIG/SP | SANC-TIONED",
    "header": [
-    "AS ON (MEN ACTUAL (3)"
+    "DG/IO/DIG/SP",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "31.12.1989 + ASP SANCTIONED (4)",
+   "name": "DG/IO/DIG/SP | ACTUAL",
    "header": [
-    "31.12.1989 + ASP SANCTIONED (4)"
+    "DG/IO/DIG/SP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "WOMEN) & ACTUAL (3)",
+   "name": "ASP & DSP | SANC-TIONED",
    "header": [
-    "WOMEN) & ACTUAL (3)"
+    "ASP & DSP",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "DSP INSPECTOR, A.S.I. SANCTIONED (6)",
+   "name": "ASP & DSP | ACTUAL",
    "header": [
-    "DSP INSPECTOR, A.S.I. SANCTIONED (6)"
+    "ASP & DSP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "SI ACTUAL (7)",
+   "name": "INSPECTOR, SI & A.S.I. | SANC-TIONED",
    "header": [
-    "SI ACTUAL (7)"
+    "INSPECTOR, SI & A.S.I.",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "8",
-   "name": "& A.8.I. SANCTIONED (8)",
+   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
    "header": [
-    "& A.8.I. SANCTIONED (8)"
+    "INSPECTOR, SI & A.S.I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "OFFICERS ACTUAL ay",
+   "name": "OFFICERS BELOW A.S.I. | SANC-TIONED",
    "header": [
-    "OFFICERS ACTUAL ay"
+    "OFFICERS BELOW A.S.I.",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "10",
-   "name": "BELOW SANCTIONED (10)",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
    "header": [
-    "BELOW SANCTIONED (10)"
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "GRAND TOTAL ACTUAL a2) a1)",
+   "name": "GRAND TOTAL | SANC-TIONED",
    "header": [
-    "GRAND TOTAL ACTUAL a2) a1)"
+    "GRAND TOTAL",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
- "notes": [
-  "Note: 1. Since ‘Actual’ Police strength was not available for Madhya Pradesh and Maharashtra,",
-  "it is taken equal to ‘Sanctioned' Police strength.",
-  "2. Though Police strength is more than 'Sanctioned' Police strength for some ranks",
-  "of civil Police in UT of Chandigarh, combined ‘Actua]' strength of Civil and Armed Police for those",
-  "ranks does not exceed combined ‘Sanctioned' strength for then."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 27,
-  "cells_passed": 19,
+  "cells_checked": 30,
+  "cells_passed": 28,
   "failures": [
-   "col 2 'TOTAL (STATES)': printed 2458, sum 2669",
-   "col 4 'TOTAL (UTs)': printed 185, sum 215",
-   "col 5 'TOTAL (STATES)': printed 4306, sum 4606",
-   "col 7 'TOTAL (STATES)': printed 99178, sum 98678",
-   "col 7 'TOTAL (UTs)': printed 7304, sum 7294",
-   "col 8 'TOTAL (STATES)': printed 779315, sum 1.41932e+06",
-   "col 9 'TOTAL (STATES)': printed 749272, sum 689292",
-   "col 10 'TOTAL (STATES)': printed 891295, sum 883292"
+   "col 5 'TOTAL (STATES)': printed 4669, sum 4667",
+   "col 11 'TOTAL (STATES)': printed 891295, sum 886295"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

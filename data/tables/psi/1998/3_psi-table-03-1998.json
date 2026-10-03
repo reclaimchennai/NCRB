@@ -8,146 +8,106 @@
  "serial": "3",
  "title": "Table 3: Distribution of female inmates in the Country by Category and Percentage share at the end of 1998",
  "listing_title": "Table 3: Distribution of female inmates in the Country by Category and Percentage share at the end of 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-03_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-03_1998.pdf",
  "source_sha256": "3471728da41c570570376e25aae18c79a1a11487ee722cd039ba4c8e17b64c0d",
- "table_no": "",
- "pdf_title": "",
- "row_label": "(M.H.A.) DISTRIBUTION SR. TYPE , No. ay",
+ "table_no": "3",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-3",
+ "row_label": "SR. NO. / TYPE",
  "pages": [
   1
  ],
  "n_rows": 9,
- "n_cols": 10,
- "n_cells": 90,
+ "n_cols": 11,
+ "n_cells": 99,
  "columns": [
   {
    "col_no": "3",
-   "name": "PRISON STATISTICS - 1998 | (M.H.A.) | TABLE-3 | OF FEMALE INMATES | MENTALLY ILL",
+   "name": "MENTALLY ILL",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "(M.H.A.)",
-    "TABLE-3",
-    "OF FEMALE INMATES",
     "MENTALLY ILL"
    ]
   },
   {
    "col_no": "4",
-   "name": "PRISON STATISTICS - 1998 | (M.H.A.) | TABLE-3 | OF FEMALE INMATES | sHang",
+   "name": "% SHARE (4)",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "(M.H.A.)",
-    "TABLE-3",
-    "OF FEMALE INMATES",
-    "sHang"
+    "% SHARE"
    ]
   },
   {
    "col_no": "5",
-   "name": "PRISON STATISTICS - 1998 | (M.H.A.) | TABLE-3 | OF FEMALE INMATES | CATEGORY AND | IN THE COUNTRY SHARE AT THE END OF | CONVICT %SHARE (5)",
+   "name": "CONVICT",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "(M.H.A.)",
-    "TABLE-3",
-    "OF FEMALE INMATES",
-    "CATEGORY AND",
-    "IN THE COUNTRY SHARE AT THE END OF",
-    "CONVICT %SHARE"
+    "CONVICT"
    ]
   },
   {
    "col_no": "6",
-   "name": "PRISON STATISTICS - 1998 | (M.H.A.) | TABLE-3 | OF FEMALE INMATES | CATEGORY AND | IN THE COUNTRY SHARE AT THE END OF | CONVICT %SHARE (6)",
+   "name": "%SHARE",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "(M.H.A.)",
-    "TABLE-3",
-    "OF FEMALE INMATES",
-    "CATEGORY AND",
-    "IN THE COUNTRY SHARE AT THE END OF",
-    "CONVICT %SHARE"
+    "%SHARE"
    ]
   },
   {
    "col_no": "7",
-   "name": "PRISON STATISTICS - 1998 | (M.H.A.) | TABLE-3 | OF FEMALE INMATES | CATEGORY AND | IN THE COUNTRY SHARE AT THE END OF",
+   "name": "UNDER-TRIALS",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "(M.H.A.)",
-    "TABLE-3",
-    "OF FEMALE INMATES",
-    "CATEGORY AND",
-    "IN THE COUNTRY SHARE AT THE END OF"
+    "UNDER-TRIALS"
    ]
   },
   {
    "col_no": "8",
-   "name": "PRISON STATISTICS - 1998 | (M.H.A.) | TABLE-3 | OF FEMALE INMATES | CATEGORY AND | IN THE COUNTRY SHARE AT THE END OF | BY 1998 , % SHAREDETENUS (8)",
+   "name": "% SHARE (8)",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "(M.H.A.)",
-    "TABLE-3",
-    "OF FEMALE INMATES",
-    "CATEGORY AND",
-    "IN THE COUNTRY SHARE AT THE END OF",
-    "BY 1998 , % SHAREDETENUS"
+    "% SHARE"
    ]
   },
   {
    "col_no": "9",
-   "name": "PRISON STATISTICS - 1998 | (M.H.A.) | TABLE-3 | OF FEMALE INMATES | CATEGORY AND | IN THE COUNTRY SHARE AT THE END OF | BY 1998 , % SHAREDETENUS (9)",
+   "name": "DETENUS",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "(M.H.A.)",
-    "TABLE-3",
-    "OF FEMALE INMATES",
-    "CATEGORY AND",
-    "IN THE COUNTRY SHARE AT THE END OF",
-    "BY 1998 , % SHAREDETENUS"
+    "DETENUS"
    ]
   },
   {
    "col_no": "10",
-   "name": "PRISON STATISTICS - 1998 | (M.H.A.) | TABLE-3 | CATEGORY AND | % 04.",
+   "name": "% SHARE (10)",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "(M.H.A.)",
-    "TABLE-3",
-    "CATEGORY AND",
-    "% 04."
+    "% SHARE"
    ]
   },
   {
-   "col_no": "1h",
-   "name": "PRISON STATISTICS - 1998 | PERCENTAGE | OTHERS",
+   "col_no": "11",
+   "name": "OTHERS",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "PERCENTAGE",
     "OTHERS"
    ]
   },
   {
-   "col_no": "13",
-   "name": "PRISON STATISTICS - 1998 | PERCENTAGE | % TOTAL",
+   "col_no": "12",
+   "name": "% SHARE (12)",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "PERCENTAGE",
-    "% TOTAL"
+    "% SHARE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NOTE: DISTRIBUTION OF 1053 FEMALE INMATES OF BIHAR STATE IS NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 6,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

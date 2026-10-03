@@ -8,14 +8,14 @@
  "serial": "29",
  "title": "Total Cognizable Crime under IPC, Juvenile Crime under IPC, Proportion of Juvenile Crime to Total Crime and Volume of Juvenile C",
  "listing_title": "Total Cognizable Crime under IPC, Juvenile Crime under IPC, Proportion of Juvenile Crime to Total Crime and Volume of Juvenile C",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl30-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl30-1986.pdf",
  "source_sha256": "bcabefc97d013d815e1c97c9847dcfba776c8a2ea8b0ef001efaa83aeedc8210",
  "table_no": "30",
- "pdf_title": "",
- "row_label": "Total Caonizable Crime Under IPC, Juvenile Crime Under IPC, Crime Per One Lakh Of Year",
+ "pdf_title": "66 TABLE 30 Total Cognizable Crime Under IPC, Juvenile Crime Under IPC, Proportion Of Juvenile Crime To Total Crime And Volume Of Juvenile Crime Per One Lakh Of Population",
+ "row_label": "Year",
  "pages": [
   1
  ],
@@ -25,42 +25,37 @@
  "columns": [
   {
    "col_no": "2",
-   "name": "Total Caonizable Crime Under IPC, Juvenile Crime Under IPC, | in millions (Estimated mid-year)",
+   "name": "Population in millions (Estimated mid-year)",
    "header": [
-    "Total Caonizable Crime Under IPC, Juvenile Crime Under IPC,",
-    "in millions (Estimated mid-year)"
+    "Population in millions (Estimated mid-year)"
    ]
   },
   {
    "col_no": "3",
-   "name": "Total Caonizable Crime Under IPC, Juvenile Crime Under IPC, | Tes at crime cases under IPC",
+   "name": "Total cognizable crime cases under IPC",
    "header": [
-    "Total Caonizable Crime Under IPC, Juvenile Crime Under IPC,",
-    "Tes at crime cases under IPC"
+    "Total cognizable crime cases under IPC"
    ]
   },
   {
    "col_no": "4",
-   "name": "Of Juvenile Crime To Total Crime And Volume Of Juvenile | Tota: juvouuc crime cases under IPC",
+   "name": "Total juvenile crime cases under IPC",
    "header": [
-    "Of Juvenile Crime To Total Crime And Volume Of Juvenile",
-    "Tota: juvouuc crime cases under IPC"
+    "Total juvenile crime cases under IPC"
    ]
   },
   {
    "col_no": "5",
-   "name": "Of Juvenile Crime To Total Crime And Volume Of Juvenile | % oi juvouuc crime to total cognizable crime",
+   "name": "% of juvenile crime to total cognizable crime",
    "header": [
-    "Of Juvenile Crime To Total Crime And Volume Of Juvenile",
-    "% oi juvouuc crime to total cognizable crime"
+    "% of juvenile crime to total cognizable crime"
    ]
   },
   {
    "col_no": "6",
-   "name": "Of Juvenile Crime To Total Crime And Volume Of Juvenile | Volume ot juveuus crime per lakh of population",
+   "name": "Volume of juvenile crime per lakh of population",
    "header": [
-    "Of Juvenile Crime To Total Crime And Volume Of Juvenile",
-    "Volume ot juveuus crime per lakh of population"
+    "Volume of juvenile crime per lakh of population"
    ]
   }
  ],

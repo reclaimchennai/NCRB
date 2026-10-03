@@ -8,14 +8,14 @@
  "serial": "77",
  "title": "Disposal of Persons Arrested Under SLL by Courts During 1999 (Crime Head –Wise)",
  "listing_title": "Disposal of Persons Arrested Under SLL by Courts During 1999 (Crime Head –Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-77-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-77-1999.pdf",
  "source_sha256": "39f770c99d443c14d82e0aed8a0a680ce0c2a0b59a0b8eb9e7c5e6785b79babb",
  "table_no": "77",
- "pdf_title": "",
- "row_label": "DISPOSAL OF PEKSUNS SL. NO. aw",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 77",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -24,63 +24,57 @@
  "n_cells": 161,
  "columns": [
   {
-   "col_no": "2",
-   "name": "22s UNDER SLI. BY COURTS DURING 1999 | DISPOSAL OF PEKSUNS | (CRIMP HEAN_WISE) | TOTAL NO. UF FERSUND inuse FxUM PREVIUUS YEAR @)",
-   "header": [
-    "22s UNDER SLI. BY COURTS DURING 1999",
-    "DISPOSAL OF PEKSUNS",
-    "(CRIMP HEAN_WISE)",
-    "TOTAL NO. UF FERSUND inuse FxUM PREVIUUS YEAR @)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "22s UNDER SLI. BY COURTS DURING 1999 | DISPOSAL OF PEKSUNS | (CRIMP HEAN_WISE) | NO uF CASES, - UNDED OR WITHDRAWN ®)",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "22s UNDER SLI. BY COURTS DURING 1999",
-    "DISPOSAL OF PEKSUNS",
-    "(CRIMP HEAN_WISE)",
-    "NO uF CASES, - UNDED OR WITHDRAWN ®)"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "22s UNDER SLI. BY COURTS DURING 1999 | DISPOSAL OF PEKSUNS | (CRIMP HEAN_WISE) | TRIAL 4",
+   "name": "NO OF PERSONS WHOSE | CASES, COMPO-UNDED OR WITH-DRAWN",
    "header": [
-    "22s UNDER SLI. BY COURTS DURING 1999",
-    "DISPOSAL OF PEKSUNS",
-    "(CRIMP HEAN_WISE)",
-    "TRIAL 4"
+    "NO OF PERSONS WHOSE",
+    "CASES, COMPO-UNDED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "22s UNDER SLI. BY COURTS DURING 1999 | TRIAL) REMAINED PENDING a )",
+   "name": "NO OF PERSONS WHOSE | TRIAL COMPLETED",
    "header": [
-    "22s UNDER SLI. BY COURTS DURING 1999",
-    "TRIAL) REMAINED PENDING a )"
+    "NO OF PERSONS WHOSE",
+    "TRIAL COMPLETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "22s UNDER SLI. BY COURTS DURING 1999 | NO. OF PERSONS 6)",
+   "name": "NO OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "22s UNDER SLI. BY COURTS DURING 1999",
-    "NO. OF PERSONS 6)"
+    "NO OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "FERUENIAGE UF WHOSE TRIALS REMAINED - PENDING (COT. aetna COL{3)} (8)",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "FERUENIAGE UF WHOSE TRIALS REMAINED - PENDING (COT. aetna COL{3)} (8)"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "LUNVILIED , TO TRIALS (COL.(7) x100/ COL(5)) 9%)",
+   "name": "PERCENTAGE OF PERSONS | WHOSE TRIALS REMAINED PENDING (COL.(6)x100/ COL(3))",
    "header": [
-    "LUNVILIED , TO TRIALS (COL.(7) x100/ COL(5)) 9%)"
+    "PERCENTAGE OF PERSONS",
+    "WHOSE TRIALS REMAINED PENDING (COL.(6)x100/ COL(3))"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERCENTAGE OF PERSONS | CONVICTED TO TRIALS COMPLETED (COL.(7) x100/ COL(5))",
+   "header": [
+    "PERCENTAGE OF PERSONS",
+    "CONVICTED TO TRIALS COMPLETED (COL.(7) x100/ COL(5))"
    ]
   }
  ],
@@ -89,10 +83,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 3
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

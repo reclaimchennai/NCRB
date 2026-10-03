@@ -6,24 +6,35 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "CRIME UNDER DIFFERENT HEADS",
+ "title": "SURVEY OF CRIME ## Cases reported During the year under review (1966), a total number of 7,94,733 cases of cognizable offences (under the Indian Penal Code) were reported as against 7,51,615 during 1965, indicating an increase of 6·0% over the previous year. These figures include crimes committed by juveniles. Table I presents the comparative position of (i) incidence of total cognizable crime reported; (ii) estimated population; and (iii) volume of crime during the last six years, viz. 1961 to 1966.",
  "listing_title": "Survey of Crime, etc.",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/survey-of-crime-1966.pdf",
  "source_file": "raw/cii/1966/table_chapter/survey-of-crime-1966.pdf",
  "source_sha256": "78ec118df6660f1a9eec021f2545956a450f350908d7a7f4c6e3c90dcb8ddd89",
  "table_no": "I",
- "pdf_title": "CRIME UNDER DIFFERENT HEADS",
- "row_label": "Year 1961 / Total enonizahle Crime 6,25,651 / Estimated Population in millions 437 °7",
+ "pdf_title": "SURVEY OF CRIME ## Cases reported During the year under review (1966), a total number of 7,94,733 cases of cognizable offences (under the Indian Penal Code) were reported as against 7,51,615 during 1965, indicating an increase of 6·0% over the previous year. These figures include crimes committed by juveniles. Table I presents the comparative position of (i) incidence of total cognizable crime reported; (ii) estimated population; and (iii) volume of crime during the last six years, viz. 1961 to 1966.",
+ "row_label": "Year",
  "pages": [
-  2,
-  4
+  2
  ],
- "n_rows": 7,
- "n_cols": 5,
- "n_cells": 17,
+ "n_rows": 6,
+ "n_cols": 4,
+ "n_cells": 24,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
+   "col_no": "3",
+   "name": "Total cognizable Crime",
+   "header": [
+    "Total cognizable Crime"
+   ]
+  },
   {
    "col_no": "4",
    "name": "Estimated Population in millions",
@@ -33,36 +44,13 @@
   },
   {
    "col_no": "5",
-   "name": "Rate of Crime Per 1,00,000 of Population 143-0 (5)",
+   "name": "Rate of Crime Per 1,00,000 of Population",
    "header": [
-    "Rate of Crime Per 1,00,000 of Population 143-0"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Rate of Crime Per 1,00,000 of Population 143-0 (6)",
-   "header": [
-    "Rate of Crime Per 1,00,000 of Population 143-0"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "- KIDNAPPING & ABDUCTION 1.0% \" TOTAL COGNIZABLE CRIME - - - - CRIMINAL BREACH OF TRUST - - CHEATING 1.5%",
-   "header": [
-    "- KIDNAPPING & ABDUCTION 1.0% \" TOTAL COGNIZABLE CRIME - - - - CRIMINAL BREACH OF TRUST - - CHEATING 1.5%"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "1.6% - --DACOITY 0.6% 1.1% HOUSE BREAKING 18.9 % Gg CATTLE - THEFTS3° si} ORDINARY THEFTS 34.4% 2.8%",
-   "header": [
-    "1.6% - --DACOITY 0.6% 1.1% HOUSE BREAKING 18.9 % Gg CATTLE - THEFTS3° si} ORDINARY THEFTS 34.4% 2.8%"
+    "Rate of Crime Per 1,00,000 of Population"
    ]
   }
  ],
- "notes": [
-  "during the year 1965, showing an increase of 3-3%."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -70,7 +58,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

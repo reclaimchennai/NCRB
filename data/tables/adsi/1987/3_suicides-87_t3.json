@@ -6,42 +6,47 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1987",
  "serial": "3",
- "title": "VOLUME OF SUICIDES PER LAKH",
+ "title": "20 and ‘Poverty’ (2.2%). The remaining causes of suicides shared less than 2.0% of the total suicides in India during 1987. 2.3.2 The detailed statistics can be seen in Table-III.",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/files/suicides-87.pdf",
  "source_file": "raw/adsi/1987/year_wise/suicides-87.pdf",
  "source_sha256": "e42a02cbf0d8fe369e8a13c55b79d88a38abac2a6a47dc6b064fb6c33019f2fc",
  "table_no": "",
- "pdf_title": "VOLUME OF SUICIDES PER LAKH",
- "row_label": "OF POPULATION / OF POPULATION IN INDIA 10.",
+ "pdf_title": "20 and ‘Poverty’ (2.2%). The remaining causes of suicides shared less than 2.0% of the total suicides in India during 1987. 2.3.2 The detailed statistics can be seen in Table-III.",
+ "row_label": "Sl. No. / Causes of Suicides",
  "pages": [
-  5
+  7
  ],
- "n_rows": 6,
- "n_cols": 1,
- "n_cells": 6,
+ "n_rows": 17,
+ "n_cols": 2,
+ "n_cells": 34,
  "columns": [
   {
    "col_no": "3",
-   "name": "- 1987 50 40 30 20",
+   "name": "Numbers of Suicidal Deaths",
    "header": [
-    "- 1987 50 40 30 20"
+    "Numbers of Suicidal Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage To Total Suicides",
+   "header": [
+    "Percentage To Total Suicides"
    ]
   }
  ],
- "notes": [
-  "TERRITORIES"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

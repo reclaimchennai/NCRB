@@ -8,54 +8,54 @@
  "serial": "24",
  "title": "Persons Arrested per Case under IPC and Local and Special Law Crimes",
  "listing_title": "Persons Arrested per Case under IPC and Local and Special Law Crimes",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-25-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-25-1984.pdf",
  "source_sha256": "4a68a0fc584bbbb1a984b315b8c385d0be1e7ccccce983b84cc923148fa232e7",
  "table_no": "25",
- "pdf_title": "Persons Arrested Per Case Under IPC And Local And Special Laws Crimes",
- "row_label": "Sl. No. / Crime",
+ "pdf_title": "77 TABLE-25 Persons Arrested Per Case Under IPC And Local And Special Laws Crimes",
+ "row_label": "Sl. No. / Crime Heads",
  "pages": [
   1
  ],
  "n_rows": 26,
  "n_cols": 5,
- "n_cells": 122,
+ "n_cells": 130,
  "columns": [
   {
    "col_no": "3",
-   "name": "Heads",
-   "header": [
-    "Heads"
-   ]
-  },
-  {
-   "col_no": "4",
    "name": "1980",
    "header": [
     "1980"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "1981",
    "header": [
     "1981"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "5",
    "name": "1982",
    "header": [
     "1982"
    ]
   },
   {
-   "col_no": "7",
-   "name": "1984 1983",
+   "col_no": "6",
+   "name": "1983",
    "header": [
-    "1984 1983"
+    "1983"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1984",
+   "header": [
+    "1984"
    ]
   }
  ],

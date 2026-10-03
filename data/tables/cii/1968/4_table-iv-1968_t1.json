@@ -6,23 +6,38 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "4",
- "title": "TABLE INULDENCE OF CRIME UNDER DIFFEKENT",
+ "title": "22 TABLE INCIDENCE OF CRIME UNDER DIFFERENT",
  "listing_title": "Incidence of Crime under Different Heads During 1967 and 1968 showing Percentage Variation",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-IV-1968.pdf",
  "source_file": "raw/cii/1968/table_content/table-IV-1968.pdf",
  "source_sha256": "69756bca40e5322283109495907eca4cc73542479286bdedadca8aa02f0241f7",
  "table_no": "",
- "pdf_title": "TABLE INULDENCE OF CRIME UNDER DIFFEKENT",
- "row_label": "oO. / States/U.T.s/Cities / Murder c 1967",
+ "pdf_title": "22 TABLE INCIDENCE OF CRIME UNDER DIFFERENT",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
  "n_rows": 39,
- "n_cols": 2,
- "n_cells": 77,
+ "n_cols": 4,
+ "n_cells": 156,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "States/U.T.s/Cities",
+   "header": [
+    "States/U.T.s/Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Murder | 1967",
+   "header": [
+    "Murder",
+    "1967"
+   ]
+  },
   {
    "col_no": "4",
    "name": "Murder | 1968",
@@ -33,10 +48,10 @@
   },
   {
    "col_no": "5",
-   "name": "Murder | - - 4 1967 Feicentage variation",
+   "name": "Murder | Percentage variation",
    "header": [
     "Murder",
-    "- - 4 1967 Feicentage variation"
+    "Percentage variation"
    ]
   }
  ],
@@ -45,7 +60,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

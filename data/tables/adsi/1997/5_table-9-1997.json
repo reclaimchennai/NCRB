@@ -8,26 +8,26 @@
  "serial": "5",
  "title": "Incidence of Traffic Accidents during various Quarters of 1997 (State, UT & City-wise)",
  "listing_title": "Incidence of Traffic Accidents during various Quarters of 1997 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-9_1997.pdf",
  "source_file": "raw/adsi/1997/table_content/table-9_1997.pdf",
  "source_sha256": "01d3d56a59995aa2a1050e1bf56496b68cddb8cc6a5b2194fef6b35fcb251ca8",
  "table_no": "9",
- "pdf_title": "Incidence of Traffic Accidents During Various Quarters of 1997 (Sta‘e , UT &",
- "row_label": "State/UT",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) TABLE-9",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
   1
  ],
- "n_rows": 54,
+ "n_rows": 59,
  "n_cols": 10,
- "n_cells": 432,
+ "n_cells": 590,
  "columns": [
   {
    "col_no": "3",
-   "name": "Ist Qtr.",
+   "name": "1st Qtr.",
    "header": [
-    "Ist Qtr."
+    "1st Qtr."
    ]
   },
   {
@@ -39,37 +39,37 @@
   },
   {
    "col_no": "5",
-   "name": "lind Qtr - %share (5)",
+   "name": "llrd Qtr",
    "header": [
-    "lind Qtr - %share"
+    "llrd Qtr"
    ]
   },
   {
    "col_no": "6",
-   "name": "lind Qtr - %share (6)",
+   "name": "%share (6)",
    "header": [
-    "lind Qtr - %share"
+    "%share"
    ]
   },
   {
    "col_no": "7",
-   "name": "—illrd Qtr.",
+   "name": "llrd Qtr.",
    "header": [
-    "—illrd Qtr."
+    "llrd Qtr."
    ]
   },
   {
    "col_no": "8",
-   "name": "+ %share",
+   "name": "%share (8)",
    "header": [
-    "+ %share"
+    "%share"
    ]
   },
   {
    "col_no": "9",
-   "name": "Vth Qtr.",
+   "name": "IVth Qtr.",
    "header": [
-    "Vth Qtr."
+    "IVth Qtr."
    ]
   },
   {
@@ -81,27 +81,25 @@
   },
   {
    "col_no": "11",
-   "name": "col_11",
-   "header": []
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
   },
   {
    "col_no": "12",
-   "name": "«= share",
+   "name": "%share (12)",
    "header": [
-    "«= share"
+    "%share"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 0,
+  "cells_checked": 20,
+  "cells_passed": 19,
   "failures": [
-   "col 3 'TOTAL (All-india)': printed 76673, sum 56633",
-   "col 3 'TOTAL (Cities)': printed 13699, sum 5477",
-   "col 9 'TOTAL (All-india)': printed 75013, sum 76275",
-   "col 9 'TOTAL (Cities)': printed 13207, sum 11030",
-   "col 11 'TOTAL (All-india)': printed 308173, sum 315741"
+   "col 7 'Total (States)': printed 70490, sum 69590"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -1,0 +1,164 @@
+{
+ "table_id": "cii/1993/69_table-69-1993-crime",
+ "publication": "cii",
+ "year": 1993,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "69",
+ "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1993 (State, UT & City-Wise) Dacoity",
+ "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1993 (State, UT & City-Wise) Dacoity",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-69-1993-crime.pdf",
+ "source_file": "raw/cii/1993/table_content/table-69-1993-crime.pdf",
+ "source_sha256": "4bd6e121ac098b026f3a92ceb7af018d435c426aa6624a6ee67061b5ae61e996",
+ "table_no": "69",
+ "pdf_title": "293 TABLE-69 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1993 (STATE, UT & CITY-WISE)",
+ "row_label": "SL NO. / STATE/UT",
+ "pages": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "n_rows": 116,
+ "n_cols": 15,
+ "n_cells": 870,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
+   "header": [
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RESIDENTIAL PREMISES | VALUE",
+   "header": [
+    "RESIDENTIAL PREMISES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "HIGHWAYS | NUMBER",
+   "header": [
+    "HIGHWAYS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "HIGHWAYS | VALUE",
+   "header": [
+    "HIGHWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "RIVER & SEA | NUMBER",
+   "header": [
+    "RIVER & SEA",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "RIVER & SEA | VALUE",
+   "header": [
+    "RIVER & SEA",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "RAILWAYS | NUMBER",
+   "header": [
+    "RAILWAYS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RAILWAYS | VALUE",
+   "header": [
+    "RAILWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BANKS | VALUE",
+   "header": [
+    "BANKS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 500, sum 5595",
+   "col 3 'TOTAL (ALL-INDIA)': printed 6916, sum 521"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 4,
+ "warnings": []
+}

@@ -8,58 +8,56 @@
  "serial": "21",
  "title": "The Number of Victims under Different Age Groups for the Crime Head 'Rape' in Different States/U.T.s/Cities During 1987",
  "listing_title": "The Number of Victims under Different Age Groups for the Crime Head 'Rape' in Different States/U.T.s/Cities During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_55-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_55-1987.pdf",
  "source_sha256": "9c09de2fd47d8b86d49f2041a3474a09893ae0f673fd4834d9682c593baf10bd",
  "table_no": "55",
- "pdf_title": "The Number Of Victims Under Different Age Groups For The",
- "row_label": "Crime sl STATES/U. Ts/CITIES NO",
+ "pdf_title": "151 TABLE - 55 The Number Of Victims Under Different Age Groups For The Crime Head 'Rape' In Different States/U.Ts/Cities During 1987",
+ "row_label": "S1 NO",
  "pages": [
   1
  ],
  "n_rows": 48,
  "n_cols": 4,
- "n_cells": 191,
+ "n_cells": 192,
  "columns": [
   {
    "col_no": "3",
-   "name": "Head NUMBER OF CASES",
+   "name": "NUMBER OF CASES REPORTED",
    "header": [
-    "Head NUMBER OF CASES"
+    "NUMBER OF CASES REPORTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "In BELOW 16 YEARS",
+   "name": "BELOW 16 YEARS",
    "header": [
-    "In BELOW 16 YEARS"
+    "BELOW 16 YEARS"
    ]
   },
   {
    "col_no": "5",
-   "name": "Different States/U.Ts/Cities BETWEEN TO YEARS",
+   "name": "BETWEEN 16 TO 30 YEARS",
    "header": [
-    "Different States/U.Ts/Cities BETWEEN TO YEARS"
+    "BETWEEN 16 TO 30 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "1987 During ABOVE 16 30 30 YEARS",
+   "name": "ABOVE 30 YEARS",
    "header": [
-    "1987 During ABOVE 16 30 30 YEARS"
+    "ABOVE 30 YEARS"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 12,
-  "cells_passed": 9,
+  "cells_passed": 11,
   "failures": [
-   "col 5 'TOTAL (States)': printed 5605, sum 5599",
-   "col 5 'TOTAL (UTs)': printed 74, sum 73",
-   "col 5 'TOTAL(Cities)': printed 255, sum 248"
+   "col 5 'Total(States)': printed 5605, sum 5599"
   ],
   "other_totals_checked": 4,
   "other_totals_passed": 4

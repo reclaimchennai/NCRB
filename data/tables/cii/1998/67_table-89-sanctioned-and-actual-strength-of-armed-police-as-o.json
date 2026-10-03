@@ -8,116 +8,107 @@
  "serial": "67",
  "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1998 (Men +_Women)",
  "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1998 (Men +_Women)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-89--sanctioned-and-actual-strength-of-armed-police-as-on-31-12-1998-(-men-&-women).pdf",
  "source_file": "raw/cii/1998/table_content/table-89--sanctioned-and-actual-strength-of-armed-police-as-on-31-12-1998-(-men-&-women).pdf",
  "source_sha256": "37cf950ea5f4ec0ddd07d4f01ac28c2ee1b5b0f7f813117d405aa204586b965b",
- "table_no": "89",
+ "table_no": "",
  "pdf_title": "",
- "row_label": "oe]",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 53,
+ "n_rows": 58,
  "n_cols": 10,
- "n_cells": 472,
+ "n_cells": 580,
  "columns": [
   {
    "col_no": "3",
-   "name": "SAncriunev AND ACTUAL AS ON 31.12.1998 (MEN | DG/G/DIG/SP | SANCTIONED",
+   "name": "DG/IG/DIG/SP | SANCTIONED",
    "header": [
-    "SAncriunev AND ACTUAL AS ON 31.12.1998 (MEN",
-    "DG/G/DIG/SP",
+    "DG/IG/DIG/SP",
     "SANCTIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "SAncriunev AND ACTUAL AS ON 31.12.1998 (MEN | DG/G/DIG/SP | ACTUAL",
+   "name": "DG/IG/DIG/SP | ACTUAL",
    "header": [
-    "SAncriunev AND ACTUAL AS ON 31.12.1998 (MEN",
-    "DG/G/DIG/SP",
+    "DG/IG/DIG/SP",
     "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "SAncriunev AND ACTUAL AS ON 31.12.1998 (MEN | ASP & DSP | SANCTIONED",
+   "name": "ASP & DSP | SANCTIONED",
    "header": [
-    "SAncriunev AND ACTUAL AS ON 31.12.1998 (MEN",
     "ASP & DSP",
     "SANCTIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "SAncriunev AND ACTUAL AS ON 31.12.1998 (MEN | ASP & DSP | ACTUAL",
+   "name": "ASP & DSP | ACTUAL",
    "header": [
-    "SAncriunev AND ACTUAL AS ON 31.12.1998 (MEN",
     "ASP & DSP",
     "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF ARMED POLICE | + SANCTIONED",
+   "name": "INSPECTOR. SI & A.S.I. | SANCTIONED",
    "header": [
-    "OF ARMED POLICE",
-    "+ SANCTIONED"
+    "INSPECTOR. SI & A.S.I.",
+    "SANCTIONED"
    ]
   },
   {
    "col_no": "8",
-   "name": "OF ARMED POLICE | WOMEN) ee",
+   "name": "INSPECTOR. SI & A.S.I. | ACTUAL",
    "header": [
-    "OF ARMED POLICE",
-    "WOMEN) ee"
+    "INSPECTOR. SI & A.S.I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF ARMED POLICE | SANCTIONED",
+   "name": "OFFICERS BELOW A.S.I. | SANCTIONED",
    "header": [
-    "OF ARMED POLICE",
+    "OFFICERS BELOW A.S.I.",
     "SANCTIONED"
    ]
   },
   {
    "col_no": "10",
-   "name": "ACTUAL",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
    "header": [
+    "OFFICERS BELOW A.S.I.",
     "ACTUAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "SANCTIONED",
+   "name": "GRAND TOTAL | SANCTIONED",
    "header": [
+    "GRAND TOTAL",
     "SANCTIONED"
    ]
   },
   {
    "col_no": "12",
-   "name": "TOTAL ACTUAL",
+   "name": "GRAND TOTAL | ACTUAL",
    "header": [
-    "TOTAL ACTUAL"
+    "GRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
- "notes": [
-  "No te: Though ‘Actual’ poiice is more than ‘sanctioned’ police strength for some ranks of Armed in some States/UTs. combined ‘Actual’",
-  "strength of Civil and Armed Police for those ranks does not exceed combined ‘sanctioned’ strength for them."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 21,
-  "cells_passed": 17,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 610, sum 599",
-   "col 6 'TOTAL (STATES)': printed 1262, sum 1982",
-   "col 9 'TOTAL (STATES)': printed 280285, sum 258142",
-   "col 12 'TOTAL (STATES)': printed 282137, sum 276137"
-  ],
+  "cells_checked": 30,
+  "cells_passed": 30,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

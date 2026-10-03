@@ -8,42 +8,56 @@
  "serial": "9",
  "title": "Receipt of Data",
  "listing_title": "Receipt of Data",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/data-receipt_6_1994.pdf",
  "source_file": "raw/adsi/1994/year_wise/data-receipt_6_1994.pdf",
  "source_sha256": "f8e292a826da42931954ea6b4079eff9fcba4a28a2e77cf91b35b0da011cf698",
  "table_no": "",
- "pdf_title": "CHRONICAL ORDER OF RECEIPT OF DATA FROM STATES, UTs & CITIES",
- "row_label": "MONTHS / STATES / UTs / CITIES",
+ "pdf_title": "CHRONICAL ORDER OF RECEIPT OF DATA FROM STATES, UTs & CITIES * DATA INCOMPLETE (iv)",
+ "row_label": "JANUARY FEBRUARY / MIZORAM GOA MANIPUR NAGALAND",
  "pages": [
+  1,
   1
  ],
- "n_rows": 8,
- "n_cols": 1,
- "n_cells": 8,
+ "n_rows": 4,
+ "n_cols": 3,
+ "n_cells": 12,
  "columns": [
   {
-   "col_no": "5",
-   "name": "CUMULATIVE TOTAL",
+   "col_no": "3",
+   "name": "A&N ISLANDS PONDICHERRY | D&N HAVELI",
    "header": [
-    "CUMULATIVE TOTAL"
+    "A&N ISLANDS PONDICHERRY",
+    "D&N HAVELI"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "KOCHI SURAT VISHAKHAPATNAM MADURAI | BOMBAY COIMBATORE LUCKNOW LUDHIANA NAGPUR PUNE VADODARA",
+   "header": [
+    "KOCHI SURAT VISHAKHAPATNAM MADURAI",
+    "BOMBAY COIMBATORE LUCKNOW LUDHIANA NAGPUR PUNE VADODARA"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "7 | 11",
+   "header": [
+    "7",
+    "11"
    ]
   }
  ],
- "notes": [
-  "CENTRES",
-  "* DATA INCOMPLETE",
-  "(iv)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -8,53 +8,53 @@
  "serial": "10",
  "title": "Incidence & Rate of Cognizable Crimes Under Special and Local Laws (SLL) Under Different Crime Heads and Percentage Changes Duri",
  "listing_title": "Incidence & Rate of Cognizable Crimes Under Special and Local Laws (SLL) Under Different Crime Heads and Percentage Changes Duri",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-10-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-10-1999.pdf",
  "source_sha256": "f06a9150b0eac618b79bf2a172723654e38145f7f57e874a4adf88fc12a1ced1",
  "table_no": "10",
- "pdf_title": "(Canchuded)",
- "row_label": "SL. QUINQUENNIAL CRIME HEAD AVG. NO. 1994-1998) (Q.A) ny / 1999 Q)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 10",
+ "row_label": "PERCENTAGE CHANGE IN 1999 [ (+) INCREASE/(+) DECREASE] OVER",
  "pages": [
+  2,
   2
  ],
- "n_rows": 22,
- "n_cols": 3,
- "n_cells": 60,
+ "n_rows": 24,
+ "n_cols": 5,
+ "n_cells": 71,
  "columns": [
   {
-   "col_no": "11",
-   "name": "PERCENTAGE CHANGE IN 1999 (+) INCREASE/(-) DECREASE] avER | 1989",
+   "col_no": "6",
+   "name": "PERCENTAGE CHANGE IN 1999 [ (+) INCREASE/(+) DECREASE] OVER (6)",
    "header": [
-    "PERCENTAGE CHANGE IN 1999 (+) INCREASE/(-) DECREASE] avER",
-    "1989"
+    "PERCENTAGE CHANGE IN 1999 [ (+) INCREASE/(+) DECREASE] OVER"
    ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERCENTAGE CHANGE IN 1999 [ (+) INCREASE/(+) DECREASE] OVER (7)",
+   "header": [
+    "PERCENTAGE CHANGE IN 1999 [ (+) INCREASE/(+) DECREASE] OVER"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "PERCENTAGE CHANGE IN 1999 (+) INCREASE/(-) DECREASE] avER | QA",
-   "header": [
-    "PERCENTAGE CHANGE IN 1999 (+) INCREASE/(-) DECREASE] avER",
-    "QA"
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "PERCENTAGE CHANGE IN 1999 (+) INCREASE/(-) DECREASE] avER | 1998",
-   "header": [
-    "PERCENTAGE CHANGE IN 1999 (+) INCREASE/(-) DECREASE] avER",
-    "1998"
-   ]
+   "name": "col_13",
+   "header": []
   }
  ],
- "notes": [
-  "4371237 3147101 !",
-  "23. TOTAL COGNIZABLE CRIMES UNDER SLL 182-80 28s",
-  "1. Figures in ==te of crime per lakh of 7=-7==\"=\"*—=",
-  "2, th2: the Crime Head was :--:---1---=- - that year.",
-  "3. Rate less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -63,6 +63,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -6,70 +6,62 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1992",
  "serial": "4",
- "title": "Incidence And Rate Of Suicides During 1992",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.- 33 TABLE - 7",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1992.pdf",
  "source_file": "raw/adsi/1992/year_wise/suicides-1992.pdf",
  "source_sha256": "558adfcc59560ec2cc427e8d060f06e2340c68d0482225d634e726b709eedb70",
  "table_no": "7",
- "pdf_title": "Incidence And Rate Of Suicides During 1992",
- "row_label": "(State & UT-wise) SI. No. / (State & UT-wise) State/UT",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.- 33 TABLE - 7",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
   4,
-  5,
-  7
+  5
  ],
- "n_rows": 74,
+ "n_rows": 58,
  "n_cols": 4,
- "n_cells": 285,
+ "n_cells": 232,
  "columns": [
   {
    "col_no": "3",
-   "name": "(State & UT-wise) | Number of Suicides",
+   "name": "Number of Suicides",
    "header": [
-    "(State & UT-wise)",
     "Number of Suicides"
    ]
   },
   {
    "col_no": "4",
-   "name": "(State & UT-wise) | Percentage Share in Total Suicides",
+   "name": "Percentage Share in Total Suicides",
    "header": [
-    "(State & UT-wise)",
     "Percentage Share in Total Suicides"
    ]
   },
   {
    "col_no": "5",
-   "name": "(State & UT-wise) | Estimated Mid-Year Population {In Lakh)",
+   "name": "Estimated Mid-Year Population (In Lakh)",
    "header": [
-    "(State & UT-wise)",
-    "Estimated Mid-Year Population {In Lakh)"
+    "Estimated Mid-Year Population (In Lakh)"
    ]
   },
   {
    "col_no": "6",
-   "name": "(State & UT-wise) | Rate of Suicides {Col.3/Col.5)",
+   "name": "Rate of Suicides [Col.3/Col.5]",
    "header": [
-    "(State & UT-wise)",
-    "Rate of Suicides {Col.3/Col.5)"
+    "Rate of Suicides [Col.3/Col.5]"
    ]
   }
  ],
- "notes": [
-  "Note: 1. Percentage less than 0.05 is also shown as 0.0",
-  "2. NR - Data not received."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 2,
  "warnings": []
 }

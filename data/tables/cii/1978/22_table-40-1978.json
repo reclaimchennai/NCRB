@@ -8,26 +8,40 @@
  "serial": "22",
  "title": "Juveniles Apprehended (by Sex) for Committing Crime under IPC",
  "listing_title": "Juveniles Apprehended (by Sex) for Committing Crime under IPC",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1978.pdf",
  "source_file": "raw/cii/1978/table_content/table-40-1978.pdf",
  "source_sha256": "f80da85aa6732d78cf8d7c00b3511f694e3969a2c78cc905e34969e735a0a817",
  "table_no": "40",
- "pdf_title": "JUVENILE APPREHENDED (BY SEX) FOR COMMITTING CRIME",
- "row_label": "SI. No. / States/U.Ts./Cities / UNDER JPC Boys",
+ "pdf_title": "69 TABLE 40 JUVENILE APPREHENDED (BY SEX) FOR COMMITTING CRIME UNDER IPC",
+ "row_label": "Sl. States/U.Ts./Cities No.",
  "pages": [
   1
  ],
  "n_rows": 43,
- "n_cols": 1,
- "n_cells": 43,
+ "n_cols": 3,
+ "n_cells": 129,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Girls Total",
+   "col_no": "3",
+   "name": "Sl. States/U.Ts./Cities No.",
    "header": [
-    "Girls Total"
+    "Sl. States/U.Ts./Cities No."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Boys",
+   "header": [
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Girls",
+   "header": [
+    "Girls"
    ]
   }
  ],
@@ -36,7 +50,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

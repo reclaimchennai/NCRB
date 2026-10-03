@@ -8,14 +8,14 @@
  "serial": "17",
  "title": "Disposal of Crime under Local and Special Laws by the Police During 1986",
  "listing_title": "Disposal of Crime under Local and Special Laws by the Police During 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1679997929TABLE-15-1986.pdf",
  "source_file": "raw/cii/1986/table_content/1679997929TABLE-15-1986.pdf",
  "source_sha256": "fa4fa442655edc39e7c4f6e8f972a9a1d7e5ca904743b888c935720cebb18d23",
  "table_no": "15",
- "pdf_title": "Disposal Of Crime Under Local And Special Laws By Police During 1986",
- "row_label": "Head of Crime St. No.",
+ "pdf_title": "45. TABLE 15 Disposal Of Crime Under Local And Special Laws By Police During 1986",
+ "row_label": "Sl. No. / Head of Crime",
  "pages": [
   1
  ],
@@ -24,50 +24,45 @@
  "n_cells": 78,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Numberofcases | Totalnumberof cases for investigation during the year including the cases carried over from previous year",
-   "header": [
-    "Numberofcases",
-    "Totalnumberof cases for investigation during the year including the cases carried over from previous year"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Numberofcases | in which investigation was refused or declared false or mistake of fact or law or found noncognizable",
+   "name": "Total number of cases for investigation during the year including the cases carried over from previous year",
    "header": [
-    "Numberofcases",
-    "in which investigation was refused or declared false or mistake of fact or law or found noncognizable"
+    "Total number of cases for investigation during the year including the cases carried over from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Numberofcases | Number of cases other than shown in column 4 in which investigation was completed",
+   "name": "Number of cases in which investigation was refused or declared false or mistake of fact or law or found non-cognizable",
    "header": [
-    "Numberofcases",
-    "Number of cases other than shown in column 4 in which investigation was completed"
+    "Number of cases in which investigation was refused or declared false or mistake of fact or law or found non-cognizable"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number of cases which could | Numberof cases in whichcharge sheets were laid",
+   "name": "Number of cases other than shown in column 4 in which investigation was completed",
    "header": [
-    "Number of cases which could",
-    "Numberof cases in whichcharge sheets were laid"
+    "Number of cases other than shown in column 4 in which investigation was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number of cases which could | not be sent for trial for want of evidence",
+   "name": "Number of cases in which charge sheets were laid",
    "header": [
-    "Number of cases which could",
-    "not be sent for trial for want of evidence"
+    "Number of cases in which charge sheets were laid"
    ]
   },
   {
    "col_no": "7",
-   "name": "Number of cases pending investigation atthe end of the year",
+   "name": "Number of cases which could not be sent for trial for want of evidence",
    "header": [
-    "Number of cases pending investigation atthe end of the year"
+    "Number of cases which could not be sent for trial for want of evidence"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Number of cases pending investigation at the end of the year",
+   "header": [
+    "Number of cases pending investigation at the end of the year"
    ]
   }
  ],
@@ -76,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

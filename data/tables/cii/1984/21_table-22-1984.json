@@ -8,14 +8,14 @@
  "serial": "21",
  "title": "Persons Arrested by Sex under IPC During 1984",
  "listing_title": "Persons Arrested by Sex under IPC During 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-22-1984.pdf",
  "source_sha256": "b528e469e02549f63703eb3ef9510e4f6cfeaca4b54281082397e5b53ef0e2ab",
  "table_no": "22",
- "pdf_title": "Persons Arrested By Sex Under IPC During 1984",
- "row_label": "SL. NO. a)",
+ "pdf_title": "66 TABLE-22 Persons Arrested By Sex Under IPC During 1984",
+ "row_label": "SL. NO. / STATES/UTs/CITIES",
  "pages": [
   1,
   2,
@@ -25,15 +25,16 @@
   6,
   7
  ],
- "n_rows": 91,
+ "n_rows": 47,
  "n_cols": 39,
- "n_cells": 1825,
+ "n_cells": 1833,
  "columns": [
   {
    "col_no": "3",
-   "name": "STATES/UTs/CITIES oon nnn nnn MALE",
+   "name": "MURDER | MALE",
    "header": [
-    "STATES/UTs/CITIES oon nnn nnn MALE"
+    "MURDER",
+    "MALE"
    ]
   },
   {
@@ -54,23 +55,26 @@
   },
   {
    "col_no": "6",
-   "name": "C.H. nnn nn MALE",
+   "name": "C.H. NOT AMOUNTING TO MURDER | MALE",
    "header": [
-    "C.H. nnn nn MALE"
+    "C.H. NOT AMOUNTING TO MURDER",
+    "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "NOT TO FEMALE",
+   "name": "C.H. NOT AMOUNTING TO MURDER | FEMALE",
    "header": [
-    "NOT TO FEMALE"
+    "C.H. NOT AMOUNTING TO MURDER",
+    "FEMALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "AMOUNTING MURDER - TOTAL",
+   "name": "C.H. NOT AMOUNTING TO MURDER | TOTAL",
    "header": [
-    "AMOUNTING MURDER - TOTAL"
+    "C.H. NOT AMOUNTING TO MURDER",
+    "TOTAL"
    ]
   },
   {
@@ -83,10 +87,10 @@
   },
   {
    "col_no": "10",
-   "name": "RAPE | FEMELE",
+   "name": "RAPE | FEMALE",
    "header": [
     "RAPE",
-    "FEMELE"
+    "FEMALE"
    ]
   },
   {
@@ -99,23 +103,26 @@
   },
   {
    "col_no": "12",
-   "name": "KIDNAPPING nn MALE",
+   "name": "KIDNAPPING & ABDUCTION | MALE",
    "header": [
-    "KIDNAPPING nn MALE"
+    "KIDNAPPING & ABDUCTION",
+    "MALE"
    ]
   },
   {
    "col_no": "13",
-   "name": "ABDUCTION nnn nnn nn nnn nen FEMALE",
+   "name": "KIDNAPPING & ABDUCTION | FEMALE",
    "header": [
-    "ABDUCTION nnn nnn nn nnn nen FEMALE"
+    "KIDNAPPING & ABDUCTION",
+    "FEMALE"
    ]
   },
   {
    "col_no": "14",
-   "name": "& TOTAL",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
    "header": [
-    "& TOTAL"
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL"
    ]
   },
   {
@@ -152,41 +159,41 @@
   },
   {
    "col_no": "19",
-   "name": "ROBBERY | ne nn -",
+   "name": "ROBBERY | FEMALE",
    "header": [
     "ROBBERY",
-    "ne nn -"
+    "FEMALE"
    ]
   },
   {
    "col_no": "20",
-   "name": "ROBBERY | TOTAL FEMALE",
+   "name": "ROBBERY | TOTAL",
    "header": [
     "ROBBERY",
-    "TOTAL FEMALE"
+    "TOTAL"
    ]
   },
   {
    "col_no": "21",
-   "name": "RIRGIARV | MALE",
+   "name": "BURGLARY | MALE",
    "header": [
-    "RIRGIARV",
+    "BURGLARY",
     "MALE"
    ]
   },
   {
    "col_no": "22",
-   "name": "RIRGIARV | FEMALE",
+   "name": "BURGLARY | FEMALE",
    "header": [
-    "RIRGIARV",
+    "BURGLARY",
     "FEMALE"
    ]
   },
   {
    "col_no": "23",
-   "name": "RIRGIARV | TOTAL",
+   "name": "BURGLARY | TOTAL",
    "header": [
-    "RIRGIARV",
+    "BURGLARY",
     "TOTAL"
    ]
   },
@@ -216,44 +223,50 @@
   },
   {
    "col_no": "27",
-   "name": "STATES/UTs/CITIES MALE",
+   "name": "RIOTS | MALE",
    "header": [
-    "STATES/UTs/CITIES MALE"
+    "RIOTS",
+    "MALE"
    ]
   },
   {
    "col_no": "28",
-   "name": "RIOTS FEMALE",
+   "name": "RIOTS | FEMALE",
    "header": [
-    "RIOTS FEMALE"
+    "RIOTS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "29",
-   "name": "o2--------------------------------------- TOTAL",
+   "name": "RIOTS | TOTAL",
    "header": [
-    "o2--------------------------------------- TOTAL"
+    "RIOTS",
+    "TOTAL"
    ]
   },
   {
    "col_no": "30",
-   "name": "CRIMINAL MALE",
+   "name": "CRIMINAL BREACH OF TRUST | MALE",
    "header": [
-    "CRIMINAL MALE"
+    "CRIMINAL BREACH OF TRUST",
+    "MALE"
    ]
   },
   {
    "col_no": "31",
-   "name": "BREACH TRUST FEMALE",
+   "name": "CRIMINAL BREACH OF TRUST | FEMALE",
    "header": [
-    "BREACH TRUST FEMALE"
+    "CRIMINAL BREACH OF TRUST",
+    "FEMALE"
    ]
   },
   {
    "col_no": "32",
-   "name": "OF TOTAL",
+   "name": "CRIMINAL BREACH OF TRUST | TOTAL",
    "header": [
-    "OF TOTAL"
+    "CRIMINAL BREACH OF TRUST",
+    "TOTAL"
    ]
   },
   {
@@ -282,66 +295,64 @@
   },
   {
    "col_no": "36",
-   "name": "CUUNTERE 1 | MALE",
+   "name": "COUNTERFEITING | MALE",
    "header": [
-    "CUUNTERE 1",
+    "COUNTERFEITING",
     "MALE"
    ]
   },
   {
    "col_no": "37",
-   "name": "CUUNTERE 1 | FEMALE",
+   "name": "COUNTERFEITING | FEMALE",
    "header": [
-    "CUUNTERE 1",
+    "COUNTERFEITING",
     "FEMALE"
    ]
   },
   {
    "col_no": "38",
-   "name": "CUUNTERE 1 | TOTAL",
+   "name": "COUNTERFEITING | TOTAL",
    "header": [
-    "CUUNTERE 1",
+    "COUNTERFEITING",
     "TOTAL"
    ]
   },
   {
    "col_no": "39",
-   "name": "TOTAL MALE",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC | MALE",
    "header": [
-    "TOTAL MALE"
+    "TOTAL COGNIZABLE CRIME UNDER IPC",
+    "MALE"
    ]
   },
   {
    "col_no": "40",
-   "name": "COGNIZABLE FEMALE",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC | FEMALE",
    "header": [
-    "COGNIZABLE FEMALE"
+    "TOTAL COGNIZABLE CRIME UNDER IPC",
+    "FEMALE"
    ]
   },
   {
    "col_no": "41",
-   "name": "CRIME UNDER IPC TOTAL",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC | TOTAL",
    "header": [
-    "CRIME UNDER IPC TOTAL"
+    "TOTAL COGNIZABLE CRIME UNDER IPC",
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 64,
-  "cells_passed": 11,
+  "cells_checked": 112,
+  "cells_passed": 109,
   "failures": [
-   "col 8 'TOTAL (States)': printed 1243, sum 7243",
-   "col 9 'TOTAL (States)': printed 8914, sum 7120",
-   "col 9 'TOTAL (UTs)': printed 164, sum 137",
-   "col 10 'TOTAL (States)': printed 101, sum 81",
-   "col 11 'TOTAL (States)': printed 9015, sum 7201",
-   "col 11 'TOTAL (UTs)': printed 164, sum 137",
-   "col 12 'TOTAL (States)': printed 17169, sum 13880",
-   "col 12 'TOTAL (UTs)': printed 455, sum 410"
+   "col 23 'Total(States)': printed 95845, sum 75845",
+   "col 25 'Total(States)': printed 7427, sum 17427",
+   "col 29 'Total(States)': printed 571858, sum 570958"
   ],
-  "other_totals_checked": 26,
-  "other_totals_passed": 19
+  "other_totals_checked": 37,
+  "other_totals_passed": 36
  },
  "inferred_pages": 0,
  "ocr_pages": 7,

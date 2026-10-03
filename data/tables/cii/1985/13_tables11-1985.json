@@ -8,76 +8,74 @@
  "serial": "13",
  "title": "Disposal of Crime Cases under the IPC by the Police During 1985",
  "listing_title": "Disposal of Crime Cases under the IPC by the Police During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables11-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables11-1985.pdf",
  "source_sha256": "dfbd36afcd8e1f9e25ae98139cab14eba977d506ecc46944068c63079d6631e9",
  "table_no": "11",
- "pdf_title": "Disposal Of Crime Cases Under The IPC By The Police During i985",
- "row_label": "No.",
+ "pdf_title": "50 TABLE -11 Disposal Of Crime Cases Under The IPC By The Police During 1985",
+ "row_label": "Sl Heads of Crime No. / Sl Heads of Crime No.",
  "pages": [
   1,
   2
  ],
- "n_rows": 17,
+ "n_rows": 15,
  "n_cols": 6,
- "n_cells": 76,
+ "n_cells": 84,
  "columns": [
   {
-   "col_no": "2",
-   "name": "for investigation during the cases from carried previous",
-   "header": [
-    "for investigation during the cases from carried previous"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "jovestigation was declared false misor or year of law or or over non-cognizable year",
+   "name": "Total number of cases for investigation during the year including cases carried over from previous year",
    "header": [
-    "jovestigation was declared false misor or year of law or or over non-cognizable year"
+    "Total number of cases for investigation during the year including cases carried over from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "refused than shown in column in which investi- 4 including facts gation completed was take found",
+   "name": "Number of cases in which investigation was refused or declared false or mistake of facts or law or found non-cognizable",
    "header": [
-    "refused than shown in column in which investi- 4 including facts gation completed was take found"
+    "Number of cases in which investigation was refused or declared false or mistake of facts or law or found non-cognizable"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "in sheets",
+   "col_no": "5",
+   "name": "Number of cases other than shown in column 4 in which investigation was completed",
    "header": [
-    "in sheets"
+    "Number of cases other than shown in column 4 in which investigation was completed"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "which could be sent not for trial for want were of",
+   "col_no": "6",
+   "name": "Number of cases in which charge sheets were laid",
    "header": [
-    "which could be sent not for trial for want were of"
+    "Number of cases in which charge sheets were laid"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "investicharge pending laid the at gation evidence the of end year",
+   "col_no": "7",
+   "name": "Number of cases which could not be sent for trial for want of evidence",
    "header": [
-    "investicharge pending laid the at gation evidence the of end year"
+    "Number of cases which could not be sent for trial for want of evidence"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Number of cases pending investigation at the end of the year",
+   "header": [
+    "Number of cases pending investigation at the end of the year"
    ]
   }
  ],
- "notes": [
-  "under IPC"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 2
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

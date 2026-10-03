@@ -8,83 +8,90 @@
  "serial": "47",
  "title": "Actual Police Strength During 1975",
  "listing_title": "Actual Police Strength During 1975",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-60-1975.pdf",
  "source_sha256": "af7d4f5cb0952b64b697c31b4ed7585ddcc63f4b8c89b7161bf5dbd437265566",
  "table_no": "",
- "pdf_title": "Taste 60 Police Sirengin wuring 1975",
- "row_label": "Ho. SL 2 - 4. 4. Geant",
+ "pdf_title": "124 TARIS 60 Acting Police Strength during 1975",
+ "row_label": "SL No. / State/U.Ts.",
  "pages": [
+  1,
   1
  ],
- "n_rows": 26,
- "n_cols": 8,
- "n_cells": 161,
+ "n_rows": 34,
+ "n_cols": 10,
+ "n_cells": 339,
  "columns": [
   {
-   "col_no": "2",
-   "name": "nf | Gn Amaia bmg Sa Mid yar | 1. Andhra Pradesh *27eeme 7952 8% 30s",
-   "header": [
-    "nf",
-    "Gn Amaia bmg Sa Mid yar",
-    "1. Andhra Pradesh *27eeme 7952 8% 30s"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "nf | Gn Amaia bmg Sa Mid yar | 4 6g0e 1784 838 953",
+   "name": "Area in Sq. kms.",
    "header": [
-    "nf",
-    "Gn Amaia bmg Sa Mid yar",
-    "4 6g0e 1784 838 953"
+    "Area in Sq. kms."
    ]
   },
   {
    "col_no": "4",
-   "name": "nf | - enter tet 7s 9S",
+   "name": "Estimated Mid year population in 1900",
    "header": [
-    "nf",
-    "- enter tet 7s 9S"
+    "Estimated Mid year population in 1900"
    ]
   },
   {
    "col_no": "5",
-   "name": "nf | it. 6 ee waite 410",
+   "name": "Total Cognizable crime under IPC",
    "header": [
-    "nf",
-    "it. 6 ee waite 410"
+    "Total Cognizable crime under IPC"
    ]
   },
   {
    "col_no": "6",
-   "name": "nf | Total... 125,158) 1",
+   "name": "Civil",
    "header": [
-    "nf",
-    "Total... 125,158) 1"
+    "Civil"
    ]
   },
   {
    "col_no": "7",
-   "name": "nf | No, of 100 32.0 ne",
+   "name": "Armed",
    "header": [
-    "nf",
-    "No, of 100 32.0 ne"
+    "Armed"
    ]
   },
   {
    "col_no": "8",
-   "name": "Hoof - per 10000 - -of bien 104 Ma 6 6MO[6[UCR",
+   "name": "Total",
    "header": [
-    "Hoof - per 10000 - -of bien 104 Ma 6 6MO[6[UCR"
+    "Total"
    ]
   },
   {
    "col_no": "9",
-   "name": "No.of ar yaa P ng - :12 IL. 13 26.2 3200 eh 76.5 TTS",
+   "name": "No. of policemen per 100 sq. km. area",
    "header": [
-    "No.of ar yaa P ng - :12 IL. 13 26.2 3200 eh 76.5 TTS"
+    "No. of policemen per 100 sq. km. area"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "No. of Police men per 10000 of population",
+   "header": [
+    "No. of Police men per 10000 of population"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "No. of IPC cases per civil police men",
+   "header": [
+    "No. of IPC cases per civil police men"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Percentage of civil police to total police",
+   "header": [
+    "Percentage of civil police to total police"
    ]
   }
  ],
@@ -93,10 +100,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

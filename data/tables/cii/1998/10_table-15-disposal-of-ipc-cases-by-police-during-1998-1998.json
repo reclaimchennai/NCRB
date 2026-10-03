@@ -8,113 +8,103 @@
  "serial": "10",
  "title": "Disposal of IPC Cases by Police During 1998 (State & UT-Wise)",
  "listing_title": "Disposal of IPC Cases by Police During 1998 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15-disposal-of-ipc-cases-by-police-during-1998-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-15-disposal-of-ipc-cases-by-police-during-1998-1998.pdf",
  "source_sha256": "dda3160c428f1e0ee2ce5931beae136b329458742b0945c2b820ca7ae4ce3e26",
  "table_no": "15",
- "pdf_title": "",
- "row_label": "a",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-15",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 37,
+ "n_rows": 35,
  "n_cols": 10,
- "n_cells": 352,
+ "n_cells": 350,
  "columns": [
   {
    "col_no": "3",
-   "name": "CASES",
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
    "header": [
-    "CASES"
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "1998 | one REFUSED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "1998",
-    "one REFUSED"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "1998 | OF IPC CASES BY POLICE (STATE & UT-WISE) NO. OF CASES IN WHICH INVESTIGATION V'AS COMPLE TED- | peg MISTAKE OF FACT OR LAW ETC.",
+   "name": "NO. OF CASES IN WHICH | CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC.",
    "header": [
-    "1998",
-    "OF IPC CASES BY POLICE (STATE & UT-WISE) NO. OF CASES IN WHICH INVESTIGATION V'AS COMPLE TED-",
-    "peg MISTAKE OF FACT OR LAW ETC."
+    "NO. OF CASES IN WHICH",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "1998 | OF IPC CASES BY POLICE (STATE & UT-WISE) NO. OF CASES IN WHICH INVESTIGATION V'AS COMPLE TED- | FINAL - REPORT RUE pn",
+   "name": "NO. OF CASES IN WHICH | FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "1998",
-    "OF IPC CASES BY POLICE (STATE & UT-WISE) NO. OF CASES IN WHICH INVESTIGATION V'AS COMPLE TED-",
-    "FINAL - REPORT RUE pn"
+    "NO. OF CASES IN WHICH",
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "1998 | OF IPC CASES BY POLICE (STATE & UT-WISE) NO. OF CASES IN WHICH INVESTIGATION V'AS COMPLE TED- | CHARGE SHEETS - WERE",
+   "name": "NO. OF CASES IN WHICH | CHARGE SHEETS WERE SUBMITTED",
    "header": [
-    "1998",
-    "OF IPC CASES BY POLICE (STATE & UT-WISE) NO. OF CASES IN WHICH INVESTIGATION V'AS COMPLE TED-",
-    "CHARGE SHEETS - WERE"
+    "NO. OF CASES IN WHICH",
+    "CHARGE SHEETS WERE SUBMITTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "1998 | —{(5) + (6) +(7))",
+   "name": "NO. OF CASES IN WHICH | TOTAL [(5) + (6) + (7)]",
    "header": [
-    "1998",
-    "—{(5) + (6) +(7))"
+    "NO. OF CASES IN WHICH",
+    "TOTAL [(5) + (6) + (7)]"
    ]
   },
   {
    "col_no": "9",
-   "name": "1998 | CASES -",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
    "header": [
-    "1998",
-    "CASES -"
+    "NO. OF CASES PENDING INVESTIGATION"
    ]
   },
   {
    "col_no": "10",
-   "name": "1998 | alo",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "1998",
-    "alo"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "11",
-   "name": "1998 | TAGEOF TOTAL a)",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "1998",
-    "TAGEOF TOTAL a)"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "1998 | SHEETING poe se ra",
+   "name": "CHARGE-SHEETING RATE ([COL.7]/(COL.6+7) x 100)",
    "header": [
-    "1998",
-    "SHEETING poe se ra"
+    "CHARGE-SHEETING RATE ([COL.7]/(COL.6+7) x 100)"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 6,
-  "cells_passed": 2,
+  "cells_checked": 21,
+  "cells_passed": 20,
   "failures": [
-   "col 5 'TOTAL (UTs)': printed 829, sum 796",
-   "col 7 'TOTAL (STATES)': printed 1.2188e+06, sum 1.19998e+06",
-   "col 7 'TOTAL (UTs) [line 2]': printed 1.27112e+06, sum 52318",
-   "col 9 'TOTAL (UTs)': printed 91832, sum 91762"
+   "col 6 'TOTAL (STATES)': printed 54813, sum 354813"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

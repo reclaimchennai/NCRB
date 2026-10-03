@@ -1,0 +1,133 @@
+{
+ "table_id": "cii/1987/60_table-34-1987",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "60",
+ "title": "Juvenile Delinquency under Important Heads of Local & Special Laws During 1987",
+ "listing_title": "Juvenile Delinquency under Important Heads of Local & Special Laws During 1987",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_34-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_34-1987.pdf",
+ "source_sha256": "d7608d6aac97d7a12f33a23f8c03dcaa522736de2cddeb64e4dd4eb53ebadea1",
+ "table_no": "33",
+ "pdf_title": "103 TABLE-33 Juvenile Delinquency For Important Heads Of Crime Under IPC During 1987",
+ "row_label": "SL. NO. / STATES/UTS/CITIES",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 48,
+ "n_cols": 13,
+ "n_cells": 624,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "C.H NOT AMOUNTING TO MURDER",
+   "header": [
+    "C.H NOT AMOUNTING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "KIDNAPPING AND ABDUCTION",
+   "header": [
+    "KIDNAPPING AND ABDUCTION"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "THEFT",
+   "header": [
+    "THEFT"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "RIOTS",
+   "header": [
+    "RIOTS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "CRIMINAL BREACH OF TRUST",
+   "header": [
+    "CRIMINAL BREACH OF TRUST"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "CHEATING",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "COUNTER-FEITING",
+   "header": [
+    "COUNTER-FEITING"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 35,
+  "cells_passed": 34,
+  "failures": [
+   "col 8 'Total(States)': printed 713, sum 699"
+  ],
+  "other_totals_checked": 13,
+  "other_totals_passed": 13
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

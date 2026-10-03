@@ -8,14 +8,14 @@
  "serial": "40",
  "title": "Disposal of IPC Cases by Courts During 1997",
  "listing_title": "Disposal of IPC Cases by Courts During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-20-1996-crime-survey.pdf",
  "source_sha256": "caccb36630af9ad147518b1d23966aa12aa519dc56617fcd8f26f0f4678f10f6",
  "table_no": "20",
- "pdf_title": "DISPOSAL OF IPC CASES BY COURTS DURING 1997",
- "row_label": "x / CRIME HEADS",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-20",
+ "row_label": "SL. NO. / CRIME HEADS",
  "pages": [
   1
  ],
@@ -25,44 +25,44 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "NO. OF CASES | CASES FOR TRIAL CASES",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "NO. OF CASES",
-    "CASES FOR TRIAL CASES"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "NO. OF CASES | COMPOUNDED wie DRAWN",
+   "name": "NO. OF CASES | COMP-OUN-DED OR WITH-DRAWN",
    "header": [
     "NO. OF CASES",
-    "COMPOUNDED wie DRAWN"
+    "COMP-OUN-DED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
    "header": [
     "NO. OF CASES",
-    "IN WHICH TRIALS WERE COMPLETED"
+    "IN WHICH TRIALS WERE COMPLETED",
+    "CONVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | - TED OR Dis- CHARGED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUIT-TED OR DIS-CHARGED",
    "header": [
     "NO. OF CASES",
     "IN WHICH TRIALS WERE COMPLETED",
-    "- TED OR Dis- CHARGED"
+    "ACQUIT-TED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | {(5) + (6)}",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL [(5) + (6)]",
    "header": [
     "NO. OF CASES",
     "IN WHICH TRIALS WERE COMPLETED",
-    "{(5) + (6)}"
+    "TOTAL [(5) + (6)]"
    ]
   },
   {

@@ -8,170 +8,103 @@
  "serial": "50",
  "title": "Motives of Murder and Culpable Homicide not Amounting to Murder in Different States, U.T.s and Cities During 1986",
  "listing_title": "Motives of Murder and Culpable Homicide not Amounting to Murder in Different States, U.T.s and Cities During 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl52-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl52-1986.pdf",
  "source_sha256": "027d7479411d3ccab1ad3afe4888a95524cd557c6f6ee15b361505dd2d0c0c66",
  "table_no": "52",
- "pdf_title": "Motive of Murder and Culpable Homicide not amouting to Murder in different States, U.Ts. and Cities during 1986",
- "row_label": "No. / States/U.Ts./Cities",
+ "pdf_title": "109 TABLE 52 Motive of Murder and Culpable Homicide not amouting to Murder in different States, U.Ts. and Cities during 1986",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 92,
- "n_cols": 16,
- "n_cells": 707,
+ "n_rows": 142,
+ "n_cols": 8,
+ "n_cells": 755,
  "columns": [
   {
    "col_no": "3",
-   "name": "Gain. | Murder",
+   "name": "Murder",
    "header": [
-    "Gain.",
     "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "Gain. | Culpable homicide not amounting to murder",
+   "name": "Gain",
    "header": [
-    "Gain.",
-    "Culpable homicide not amounting to murder"
+    "Gain"
    ]
   },
   {
    "col_no": "5",
-   "name": "Dispute Over Property | Murder",
+   "name": "Culpable homicide not amounting to murder",
    "header": [
-    "Dispute Over Property",
-    "Murder"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Dispute Over Property | Culpable homicide not amounting to murder",
-   "header": [
-    "Dispute Over Property",
     "Culpable homicide not amounting to murder"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "- | Murder 2 259 7",
+   "col_no": "6",
+   "name": "Dispute Over Property Murder",
    "header": [
-    "-",
-    "Murder 2 259 7"
+    "Dispute Over Property Murder"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Other Causes | Murder",
+   "header": [
+    "Other Causes",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Other Causes | Culpable homicide not amounting to murder",
+   "header": [
+    "Other Causes",
+    "Culpable homicide not amounting to murder"
    ]
   },
   {
    "col_no": "10002",
-   "name": "- | murder 7 - -",
+   "name": "Total | Murder",
    "header": [
-    "-",
-    "murder 7 - -"
+    "Total",
+    "Murder"
    ]
   },
   {
    "col_no": "10003",
-   "name": "Conene | Muraer 8 26 5",
+   "name": "Total | Culpable homicide not amounting to murder",
    "header": [
-    "Conene",
-    "Muraer 8 26 5"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Conene | Cilpable murder 4 10 - -",
-   "header": [
-    "Conene",
-    "Cilpable murder 4 10 - -"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Sudden Murder",
-   "header": [
-    "Sudden Murder"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Lunacy | Culpable 1 murder",
-   "header": [
-    "Lunacy",
-    "Culpable 1 murder"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Lunacy | Murder",
-   "header": [
-    "Lunacy",
-    "Murder"
-   ]
-  },
-  {
-   "col_no": "14",
-   "name": "Lunacy | murder",
-   "header": [
-    "Lunacy",
-    "murder"
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "Other Causes K | Murder",
-   "header": [
-    "Other Causes K",
-    "Murder"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "Other Causes K | Culpable murder",
-   "header": [
-    "Other Causes K",
-    "Culpable murder"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "Total A | Murder",
-   "header": [
-    "Total A",
-    "Murder"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "Total A | murder",
-   "header": [
-    "Total A",
-    "murder"
+    "Total",
+    "Culpable homicide not amounting to murder"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 1,
+  "cells_checked": 41,
+  "cells_passed": 31,
   "failures": [
-   "col 5 'TOTAL (STATES)': printed 2496, sum 2494",
-   "col 10001 'TOTAL (STATES)': printed 5800, sum 1312",
-   "col 10001 'TOTAL(U.Ts.)': printed 81, sum 4683",
-   "col 10002 'TOTAL (STATES)': printed 897, sum 191",
-   "col 10004 'TOTAL (STATES)': printed 109, sum 56",
-   "col 11 'TOTAL (STATES)': printed 1837, sum 1360",
-   "col 11 'TOTAL(U.Ts.)': printed 62, sum 419",
-   "col 12 'TOTAL (STATES)': printed 345, sum 157"
+   "col 3 'TOTAL(STATES)': printed 5800, sum 5805",
+   "col 3 'TOTAL (STATES)': printed 1837, sum 1848",
+   "col 4 'TOTAL(STATES)': printed 897, sum 905",
+   "col 4 'TOTAL (STATES)': printed 345, sum 357",
+   "col 5 'TOTAL(STATES)': printed 1880, sum 1889",
+   "col 5 'TOTAL(U.Ts.)': printed 18, sum 17",
+   "col 5 'TOTAL (STATES)': printed 347, sum 360",
+   "col 5 'TOTAL (CITIES)': printed 2, sum 3"
   ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 16,
+  "other_totals_passed": 8
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 4,
  "warnings": []
 }

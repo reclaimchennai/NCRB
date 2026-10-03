@@ -8,82 +8,102 @@
  "serial": "1",
  "title": "Incidence of Total Cognizable Crime and Volume of Crime per Lakh of Population under Important Heads of IPC During 1985",
  "listing_title": "Incidence of Total Cognizable Crime and Volume of Crime per Lakh of Population under Important Heads of IPC During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1679997562TABLE-5-1985.pdf",
  "source_file": "raw/cii/1985/table_content/1679997562TABLE-5-1985.pdf",
  "source_sha256": "7622e10fd48ac1499c72d39c181c18a4075f8a43dd30ce9d7429b52a89c989c6",
- "table_no": "5",
- "pdf_title": "(Cont inuad",
- "row_label": "$l. States/U. Ts/Cities No. / Of Incidence Of a",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. States/U.Ts/Cities No. / Sl. States/U.Ts/Cities No.",
  "pages": [
   1,
   2,
-  3,
-  4
+  3
  ],
- "n_rows": 74,
- "n_cols": 26,
- "n_cells": 1218,
+ "n_rows": 51,
+ "n_cols": 20,
+ "n_cells": 940,
  "columns": [
   {
    "col_no": "3",
-   "name": "Total Population ee Murder I",
+   "name": "Sl. States/U.Ts/Cities No. (3)",
    "header": [
-    "Total Population ee Murder I"
+    "Sl. States/U.Ts/Cities No."
    ]
   },
   {
    "col_no": "4",
-   "name": "Crime Under ag C.H. Vv",
+   "name": "Murder | I",
    "header": [
-    "Crime Under ag C.H. Vv"
+    "Murder",
+    "I"
    ]
   },
   {
    "col_no": "5",
-   "name": "Volume *=:---=:=-. re not to I",
+   "name": "Murder | V",
    "header": [
-    "Volume *=:---=:=-. re not to I"
+    "Murder",
+    "V"
    ]
   },
   {
    "col_no": "6",
-   "name": "Of And Heads During Murder v",
+   "name": "C.H. not Amounting to Murder | I",
    "header": [
-    "Of And Heads During Murder v"
+    "C.H. not Amounting to Murder",
+    "I"
    ]
   },
   {
    "col_no": "7",
-   "name": "Crime Lakh Of 1985 a Rape T",
+   "name": "C.H. not Amounting to Murder | V",
    "header": [
-    "Crime Lakh Of 1985 a Rape T"
+    "C.H. not Amounting to Murder",
+    "V"
    ]
   },
   {
    "col_no": "8",
-   "name": "Per IPC v",
+   "name": "Rape | I",
    "header": [
-    "Per IPC v"
+    "Rape",
+    "I"
    ]
   },
   {
    "col_no": "9",
-   "name": "& I",
+   "name": "Sl. States/U.Ts/Cities No. (9)",
    "header": [
-    "& I"
+    "Sl. States/U.Ts/Cities No."
    ]
   },
   {
    "col_no": "10",
-   "name": "Ahduction Vv",
+   "name": "Sl. States/U.Ts/Cities No. (10)",
    "header": [
-    "Ahduction Vv"
+    "Sl. States/U.Ts/Cities No."
    ]
   },
   {
    "col_no": "11",
+   "name": "Kidnapping & Abduction | I",
+   "header": [
+    "Kidnapping & Abduction",
+    "I"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Kidnapping & Abduction | V",
+   "header": [
+    "Kidnapping & Abduction",
+    "V"
+   ]
+  },
+  {
+   "col_no": "13",
    "name": "Dacoity | I",
    "header": [
     "Dacoity",
@@ -91,29 +111,15 @@
    ]
   },
   {
-   "col_no": "12",
-   "name": "Dacoity | Vv",
+   "col_no": "14",
+   "name": "Dacoity | V",
    "header": [
     "Dacoity",
-    "Vv"
+    "V"
    ]
   },
   {
-   "col_no": "13",
-   "name": "- I",
-   "header": [
-    "- I"
-   ]
-  },
-  {
-   "col_no": "14",
-   "name": "Vv",
-   "header": [
-    "Vv"
-   ]
-  },
-  {
-   "col_no": "15",
+   "col_no": "1",
    "name": "Burglary | I",
    "header": [
     "Burglary",
@@ -121,30 +127,31 @@
    ]
   },
   {
-   "col_no": "16",
-   "name": "Burglary | Vv",
+   "col_no": "2",
+   "name": "Burglary | V",
    "header": [
     "Burglary",
-    "Vv"
+    "V"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Theft | I",
+   "header": [
+    "Theft",
+    "I"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Theft | V",
+   "header": [
+    "Theft",
+    "V"
    ]
   },
   {
    "col_no": "17",
-   "name": "Theft I",
-   "header": [
-    "Theft I"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "Riots | v",
-   "header": [
-    "Riots",
-    "v"
-   ]
-  },
-  {
-   "col_no": "19",
    "name": "Riots | I",
    "header": [
     "Riots",
@@ -152,95 +159,39 @@
    ]
   },
   {
+   "col_no": "18",
+   "name": "Riots | V",
+   "header": [
+    "Riots",
+    "V"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Criminal Breach of Trust | I",
+   "header": [
+    "Criminal Breach of Trust",
+    "I"
+   ]
+  },
+  {
    "col_no": "20",
-   "name": "Riots | Vv",
+   "name": "Criminal Breach of Trust | V",
    "header": [
-    "Riots",
-    "Vv"
-   ]
-  },
-  {
-   "col_no": "21",
-   "name": "Riots | Criminal of I",
-   "header": [
-    "Riots",
-    "Criminal of I"
-   ]
-  },
-  {
-   "col_no": "22",
-   "name": "Breach Trust Vv",
-   "header": [
-    "Breach Trust Vv"
-   ]
-  },
-  {
-   "col_no": "23",
-   "name": "Cheating | I",
-   "header": [
-    "Cheating",
-    "I"
-   ]
-  },
-  {
-   "col_no": "24",
-   "name": "Cheating | Vv",
-   "header": [
-    "Cheating",
-    "Vv"
-   ]
-  },
-  {
-   "col_no": "25",
-   "name": "Counterfeiting | I",
-   "header": [
-    "Counterfeiting",
-    "I"
-   ]
-  },
-  {
-   "col_no": "26",
-   "name": "Counterfeiting | v",
-   "header": [
-    "Counterfeiting",
-    "v"
-   ]
-  },
-  {
-   "col_no": "27",
-   "name": "Cognizable | Total Crimes T",
-   "header": [
-    "Cognizable",
-    "Total Crimes T"
-   ]
-  },
-  {
-   "col_no": "28",
-   "name": "Cognizable | under IPC Vv",
-   "header": [
-    "Cognizable",
-    "under IPC Vv"
+    "Criminal Breach of Trust",
+    "V"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 29,
-  "cells_passed": 4,
-  "failures": [
-   "col 9 'TOTAL (STATES)': printed 14998, sum 11798",
-   "col 9 'TOTAL (U.Ts. )': printed 1053, sum 1025",
-   "col 9 'TOTAL (CITIES),': printed 2116, sum 1547",
-   "col 13 'TOTAL (STATES)': printed 22120, sum 17327",
-   "col 13 'TOTAL (U.Ts. )': printed 381, sum 351",
-   "col 13 'TOTAL (CITIES),': printed 2398, sum 1682",
-   "col 15 'TOTAL (STATES)': printed 127108, sum 110691",
-   "col 15 'TOTAL (U.Ts. )': printed 3246, sum 2801"
-  ],
-  "other_totals_checked": 11,
-  "other_totals_passed": 11
+  "cells_checked": 9,
+  "cells_passed": 9,
+  "failures": [],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
- "ocr_pages": 4,
+ "ocr_pages": 3,
  "warnings": []
 }

@@ -8,14 +8,14 @@
  "serial": "53",
  "title": "Percentage Distribution of Recidivism in India During 1985",
  "listing_title": "Percentage Distribution of Recidivism in India During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables54-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables54-1985.pdf",
  "source_sha256": "f69a84672caed6b1d33e56e64c157ab995bbad405232cf1beb59e0152621d0fe",
  "table_no": "54",
- "pdf_title": "Percentage Distribution Of Recidivism In India During 1985",
- "row_label": "Sl. No. / Heads",
+ "pdf_title": "117 TABLE - 54 Percentage Distribution Of Recidivism In India During 1985",
+ "row_label": "S1. Heads of Crime No. / S1. Heads of Crime No.",
  "pages": [
   1
  ],
@@ -25,36 +25,37 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "of FENUBNIAGE OF NEW T0 TOTAL",
+   "name": "PERCENTAGE OF NEW OFFENDERS TO TOTAL ARRESTED",
    "header": [
-    "of FENUBNIAGE OF NEW T0 TOTAL"
+    "PERCENTAGE OF NEW OFFENDERS TO TOTAL ARRESTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "Crime BEEN TOTAL ONCE",
+   "name": "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED | ONCE",
    "header": [
-    "Crime BEEN TOTAL ONCE"
+    "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED",
+    "ONCE"
    ]
   },
   {
    "col_no": "5",
-   "name": "urrenvens PENCENTAGE IN TWICE",
+   "name": "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED | TWICE",
    "header": [
-    "urrenvens PENCENTAGE IN TWICE"
+    "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED",
+    "TWICE"
    ]
   },
   {
    "col_no": "6",
-   "name": "WHO HAVE OF THE PAST TO THREE TIMES OR MORE",
+   "name": "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED | THREE TIMES OR MORE",
    "header": [
-    "WHO HAVE OF THE PAST TO THREE TIMES OR MORE"
+    "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED",
+    "THREE TIMES OR MORE"
    ]
   }
  ],
- "notes": [
-  "under IPC"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

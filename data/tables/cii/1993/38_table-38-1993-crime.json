@@ -8,66 +8,84 @@
  "serial": "38",
  "title": "Disposal of Persons Arrested under L&SL Crimes by Police During 1993",
  "listing_title": "Disposal of Persons Arrested under L&SL Crimes by Police During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-38-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-38-1993-crime.pdf",
  "source_sha256": "64e26ae61631556d80c1ce8dc28c9c089f4bb460991ede5f499f202f5cc0081d",
  "table_no": "38",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER L&SL CRIMES BY POLICE DURING 1993",
- "row_label": "",
+ "pdf_title": "205 TABLE-38 DISPOSAL OF PERSONS ARRESTED UNDER L&SL CRIMES BY POLICE DURING 1993",
+ "row_label": "SL NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 18,
+ "n_rows": 17,
  "n_cols": 7,
- "n_cells": 120,
+ "n_cells": 119,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE VIOUS YEAR",
+   "header": [
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE VIOUS YEAR"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "PERSONS RELEASED BEFORE TRIAL | NO.",
+   "header": [
+    "PERSONS RELEASED BEFORE TRIAL",
+    "NO."
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "PERSONS RELEASED BEFORE TRIAL | PERCENTAGE TO TOTAL",
+   "header": [
+    "PERSONS RELEASED BEFORE TRIAL",
+    "PERCENTAGE TO TOTAL"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "PERSONS CHARGE SHEETED | NO.",
+   "header": [
+    "PERSONS CHARGE SHEETED",
+    "NO."
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "PERSONS CHARGE SHEETED | PERCENTAGE TO TOTAL",
+   "header": [
+    "PERSONS CHARGE SHEETED",
+    "PERCENTAGE TO TOTAL"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | NO.",
+   "header": [
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+    "NO."
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | PERCENTAGE TO TOTAL",
+   "header": [
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+    "PERCENTAGE TO TOTAL"
+   ]
   }
  ],
- "notes": [
-  "* IN CUSTODY OR ON BAIL."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

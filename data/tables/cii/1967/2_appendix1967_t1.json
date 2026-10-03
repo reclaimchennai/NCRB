@@ -6,145 +6,63 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "APPENDIX",
+ "title": "60 APPENDIX TOTAL COGNIZABLE",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix1967.pdf",
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "APPENDIX",
- "row_label": "Sl. No.",
+ "pdf_title": "60 APPENDIX TOTAL COGNIZABLE",
+ "row_label": "Sl. No. / States/U.Ts/ Cities",
  "pages": [
-  2,
-  3
+  2
  ],
- "n_rows": 78,
- "n_cols": 16,
- "n_cells": 620,
+ "n_rows": 39,
+ "n_cols": 6,
+ "n_cells": 234,
  "columns": [
   {
    "col_no": "3",
-   "name": "Cases “‘States/U-Ts/ Cities pending investigation. from. previous year",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Cases “‘States/U-Ts/ Cities pending investigation. from. previous year"
+    "Cases pending investigation from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL | - Cases pending disposal in courts",
+   "name": "Cases pending disposal in courts",
    "header": [
-    "TOTAL",
-    "- Cases pending disposal in courts"
+    "Cases pending disposal in courts"
    ]
   },
   {
    "col_no": "5",
-   "name": "TOTAL | Cases reported during the year",
+   "name": "Cases reported during the year",
    "header": [
-    "TOTAL",
     "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "TOTAL | Cases not investigated(-+) declared false (+) mistake. of fact or law (CF) Noncognizable.",
+   "name": "Cases not investigated (+) declared false (+) mistake of fact or law (+) Non-cognizable",
    "header": [
-    "TOTAL",
-    "Cases not investigated(-+) declared false (+) mistake. of fact or law (CF) Noncognizable."
+    "Cases not investigated (+) declared false (+) mistake of fact or law (+) Non-cognizable"
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL | COGNIZABLE Cases | Cases pending investigation. at the end of the year -",
+   "name": "Cases pending investigation at the end of the year",
    "header": [
-    "TOTAL",
-    "COGNIZABLE Cases",
-    "Cases pending investigation. at the end of the year -"
+    "Cases pending investigation at the end of the year"
    ]
   },
   {
    "col_no": "8",
-   "name": "TOTAL | COGNIZABLE Cases | pending: trial at the end of the year”",
+   "name": "Cases pending trial at the end of the year",
    "header": [
-    "TOTAL",
-    "COGNIZABLE Cases",
-    "pending: trial at the end of the year”"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "RIME—CASES | “Total ‘true cases",
-   "header": [
-    "RIME—CASES",
-    "“Total ‘true cases"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "RIME—CASES | Cases not: detected *",
-   "header": [
-    "RIME—CASES",
-    "Cases not: detected *"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Cases in. which chargesheet was laid",
-   "header": [
-    "Cases in. which chargesheet was laid"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Cases compounded or withdrawn",
-   "header": [
-    "Cases compounded or withdrawn"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Cases in which trial was completed",
-   "header": [
-    "Cases in which trial was completed"
-   ]
-  },
-  {
-   "col_no": "14",
-   "name": "Cases | Cases cons victed.",
-   "header": [
-    "Cases",
-    "Cases cons victed."
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "Cases | tedor discharged",
-   "header": [
-    "Cases",
-    "tedor discharged"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "Per convicted to investigated",
-   "header": [
-    "Per convicted to investigated"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "Peracquit-centage centage. ofcases ofcases ed cases in which, trial was completed",
-   "header": [
-    "Peracquit-centage centage. ofcases ofcases ed cases in which, trial was completed"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "Volume. of conyvict- crime per 1,00,000 of popu- ‘lation.",
-   "header": [
-    "Volume. of conyvict- crime per 1,00,000 of popu- ‘lation."
+    "Cases pending trial at the end of the year"
    ]
   }
  ],
@@ -153,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 12,
-  "other_totals_passed": 5
+  "other_totals_checked": 24,
+  "other_totals_passed": 23
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

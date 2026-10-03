@@ -8,50 +8,60 @@
  "serial": "26",
  "title": "Strength of Armed Police as on 31st December, 1970",
  "listing_title": "Strength of Armed Police as on 31st December, 1970",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26-1970.pdf",
  "source_file": "raw/cii/1970/table_content/table-26-1970.pdf",
  "source_sha256": "b6e2f354ebe520befed087d746705a7ebcea0541a0eedf5fecdde3258f12117a",
  "table_no": "",
- "pdf_title": "TaBLe—XXVI",
- "row_label": "STKENGIH OF ARMED POLICE AS ON 31ST SI. No. / STKENGIH OF ARMED POLICE AS ON 31ST Number States/Union Territories of .G., D.I.G. & SP.",
+ "pdf_title": "69 TABLE—XXVI STRENGTH OF ARMED POLICE AS ON 31ST DECEMBER, 1970",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 26,
- "n_cols": 4,
- "n_cells": 104,
+ "n_rows": 28,
+ "n_cols": 6,
+ "n_cells": 160,
  "columns": [
   {
-   "col_no": "4",
-   "name": "STKENGIH OF ARMED POLICE AS ON 31ST | Number of ASP/ Dy.S.P.",
+   "col_no": "2",
+   "name": "States/Union Territories",
    "header": [
-    "STKENGIH OF ARMED POLICE AS ON 31ST",
-    "Number of ASP/ Dy.S.P."
+    "States/Union Territories"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Number of I.G., D.I.G. & S.P.",
+   "header": [
+    "Number of I.G., D.I.G. & S.P."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of ASP/ Dy. S.P.",
+   "header": [
+    "Number of ASP/ Dy. S.P."
    ]
   },
   {
    "col_no": "5",
-   "name": "1970 | Number ofInsp/ Sub-Insp",
+   "name": "Number of Insp/ Sub-Insp",
    "header": [
-    "1970",
-    "Number ofInsp/ Sub-Insp"
+    "Number of Insp/ Sub-Insp"
    ]
   },
   {
    "col_no": "6",
-   "name": "1970 | Number of policemen below rank of S.1.",
+   "name": "Number of policemen below rank of S.I.",
    "header": [
-    "1970",
-    "Number of policemen below rank of S.1."
+    "Number of policemen below rank of S.I."
    ]
   },
   {
    "col_no": "7",
-   "name": "1970 | Total",
+   "name": "Total",
    "header": [
-    "1970",
     "Total"
    ]
   }
@@ -61,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

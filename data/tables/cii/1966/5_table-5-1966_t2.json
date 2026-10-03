@@ -6,76 +6,69 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "5",
- "title": "No. V",
+ "title": "27 No. V DELINQUENCY",
  "listing_title": "Juvenile Delinquency",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1966.pdf",
  "source_file": "raw/cii/1966/table_content/table-5-1966.pdf",
  "source_sha256": "11c18b24e12947de493c93615242475c71a97c313d55695f02a928edfabfb472",
  "table_no": "",
- "pdf_title": "No. V",
- "row_label": "DELINQUENCY Cases reported during 1962",
+ "pdf_title": "27 No. V DELINQUENCY",
+ "row_label": "Cases reported during",
  "pages": [
   2
  ],
- "n_rows": 13,
+ "n_rows": 15,
  "n_cols": 7,
- "n_cells": 91,
+ "n_cells": 101,
  "columns": [
   {
-   "col_no": "5",
-   "name": "DELINQUENCY Cases reported during | 1963",
+   "col_no": "2",
+   "name": "Cases reported during (2)",
    "header": [
-    "DELINQUENCY Cases reported during",
-    "1963"
+    "Cases reported during"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cases reported during (3)",
+   "header": [
+    "Cases reported during"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases reported during (4)",
+   "header": [
+    "Cases reported during"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Quinquenial average",
+   "header": [
+    "Quinquenial average"
    ]
   },
   {
    "col_no": "6",
-   "name": "- | 1964",
+   "name": "No. of cases reported during 1966",
    "header": [
-    "-",
-    "1964"
+    "No. of cases reported during 1966"
    ]
   },
   {
    "col_no": "7",
-   "name": "- | 1965",
+   "name": "Percentage change-over Q.A.",
    "header": [
-    "-",
-    "1965"
+    "Percentage change-over Q.A."
    ]
   },
   {
    "col_no": "8",
-   "name": "- | Quinquennial average",
+   "name": "1965",
    "header": [
-    "-",
-    "Quinquennial average"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "- | No. of cases reported during",
-   "header": [
-    "-",
-    "No. of cases reported during"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Percentage changeover | Q.A.",
-   "header": [
-    "Percentage changeover",
-    "Q.A."
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Percentage changeover | 1965",
-   "header": [
-    "Percentage changeover",
     "1965"
    ]
   }

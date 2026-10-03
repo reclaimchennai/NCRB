@@ -6,67 +6,87 @@
  "topic": "",
  "section": "Crime in India 1992",
  "serial": "3",
- "title": "DISPOSAL OF IPC CASES BY COURTS DURING 1961 - 1991 & 1992",
+ "title": "4 DISPOSAL OF IPC CRIME CASES BY POLICE DURING 1961 - 1991 & 1992",
  "listing_title": "Figures at a Glance",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653991987_figures-at-a-glance_0.pdf",
  "source_file": "raw/cii/1992/year_wise/1653991987_figures-at-a-glance_0.pdf",
  "source_sha256": "4419f13a56bc9c835091b26aa88aedbe665b2e427ccdf279b9ea0a645831105d",
  "table_no": "",
- "pdf_title": "DISPOSAL OF IPC CASES BY COURTS DURING 1961 - 1991 & 1992",
- "row_label": "‘ SL. NO. / YEAR",
+ "pdf_title": "4 DISPOSAL OF IPC CRIME CASES BY POLICE DURING 1961 - 1991 & 1992",
+ "row_label": "SL. NO.",
  "pages": [
-  5
+  4
  ],
- "n_rows": 6,
- "n_cols": 5,
- "n_cells": 28,
+ "n_rows": 5,
+ "n_cols": 8,
+ "n_cells": 40,
  "columns": [
   {
-   "col_no": "3",
-   "name": "TOTAL NO. OF CASES FOR TRIAL (INCLUDING PENDING CASES)",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "TOTAL NO. OF CASES FOR TRIAL (INCLUDING PENDING CASES)"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES* FOR INVESTIGATION",
+   "header": [
+    "TOTAL NO. OF CASES* FOR INVESTIGATION"
    ]
   },
   {
    "col_no": "4",
-   "name": "NO. OF CASES | TRIED*",
+   "name": "NO. OF CASES INVESTIGATED | FOUND F/NC/MF #",
    "header": [
-    "NO. OF CASES",
-    "TRIED*"
+    "NO. OF CASES INVESTIGATED",
+    "FOUND F/NC/MF #"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. OF CASES | CONVICTED",
+   "name": "NO. OF CASES INVESTIGATED | FOUND TRUE",
    "header": [
-    "NO. OF CASES",
-    "CONVICTED"
+    "NO. OF CASES INVESTIGATED",
+    "FOUND TRUE"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE OF | TRIAL COMPLETED",
+   "name": "NO. OF CASES INVESTIGATED | TOTAL",
    "header": [
-    "PERCENTAGE OF",
-    "TRIAL COMPLETED"
+    "NO. OF CASES INVESTIGATED",
+    "TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "PERCENTAGE OF | CONVICTION",
+   "name": "NO. OF CASES INVESTIGATED | CHARGE-SHEETED",
    "header": [
-    "PERCENTAGE OF",
-    "CONVICTION"
+    "NO. OF CASES INVESTIGATED",
+    "CHARGE-SHEETED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PERCENTAGE OF CASES | INVESTIGATED",
+   "header": [
+    "PERCENTAGE OF CASES",
+    "INVESTIGATED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERCENTAGE OF CASES | CHARGE-SHEETED",
+   "header": [
+    "PERCENTAGE OF CASES",
+    "CHARGE-SHEETED"
    ]
   }
  ],
- "notes": [
-  "YEAR",
-  "TRIAL COMPLETED HHH CONVICTION"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

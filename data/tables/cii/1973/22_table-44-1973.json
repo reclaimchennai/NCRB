@@ -8,73 +8,82 @@
  "serial": "22",
  "title": "Disposals of Juveniles Sent to Court",
  "listing_title": "Disposals of Juveniles Sent to Court",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-44-1973.pdf",
  "source_sha256": "9e554d2e2dffd2766e3e2e4c42c3cf52d798225887c2bd35fc9e4a862117cde9",
- "table_no": "",
- "pdf_title": "Taste 44",
- "row_label": "Sl. Ko. 1 / Disposals of Juveniles sent bo Count 2",
+ "table_no": "44",
+ "pdf_title": "111 TABLE 44 Disposals of Juveniles sent to Court",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 39,
- "n_cols": 7,
- "n_cells": 252,
+ "n_rows": 40,
+ "n_cols": 9,
+ "n_cells": 360,
  "columns": [
   {
    "col_no": "3",
-   "name": "Disposals of | Restored to 3",
+   "name": "Juveniles sent to Court",
    "header": [
-    "Disposals of",
-    "Restored to 3"
+    "Juveniles sent to Court"
    ]
   },
   {
    "col_no": "4",
-   "name": "Disposals of | OnProbation 4",
+   "name": "Restored to Guardian",
    "header": [
-    "Disposals of",
-    "OnProbation 4"
+    "Restored to Guardian"
    ]
   },
   {
    "col_no": "5",
-   "name": "sent to Court Sentto Reformatories Instiand 5",
+   "name": "On Probation",
    "header": [
-    "sent to Court Sentto Reformatories Instiand 5"
+    "On Probation"
    ]
   },
   {
    "col_no": "6",
-   "name": "Inu 6",
+   "name": "Sent to Reformatories and Borstals",
    "header": [
-    "Inu 6"
+    "Sent to Reformatories and Borstals"
    ]
   },
   {
    "col_no": "7",
-   "name": "Impsi- Acquitted Pending | sioned 7",
+   "name": "Sent to Schools/ Institutions",
    "header": [
-    "Impsi- Acquitted Pending",
-    "sioned 7"
+    "Sent to Schools/ Institutions"
    ]
   },
   {
    "col_no": "8",
-   "name": "Impsi- Acquitted Pending | or wite Posed of 9",
+   "name": "Sent to Adult Institutions",
    "header": [
-    "Impsi- Acquitted Pending",
-    "or wite Posed of 9"
+    "Sent to Adult Institutions"
    ]
   },
   {
    "col_no": "9",
-   "name": "Impsi- Acquitted Pending | disposal 10 ii",
+   "name": "Impri-sioned",
    "header": [
-    "Impsi- Acquitted Pending",
-    "disposal 10 ii"
+    "Impri-sioned"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Acquitted or other-wise dis-posed of",
+   "header": [
+    "Acquitted or other-wise dis-posed of"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Pending disposal",
+   "header": [
+    "Pending disposal"
    ]
   }
  ],
@@ -83,10 +92,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 35,
+  "other_totals_passed": 34
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

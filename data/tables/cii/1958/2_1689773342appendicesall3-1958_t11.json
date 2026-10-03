@@ -6,92 +6,63 @@
  "topic": "",
  "section": "Crime in India 1958",
  "serial": "2",
- "title": "HOUSE RREAKING",
+ "title": "HOUSE BREAKING Union Territories Cities",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689773342appendicesall3-1958.pdf",
  "source_file": "raw/cii/1958/year_wise/1689773342appendicesall3-1958.pdf",
  "source_sha256": "d35bbadad8fc7f23824e783a174270881e9162b2a2aefcd94076bb12d23f4372",
  "table_no": "",
- "pdf_title": "HOUSE RREAKING",
- "row_label": "State Serial No.",
+ "pdf_title": "HOUSE BREAKING Union Territories Cities",
+ "row_label": "Serial No.",
  "pages": [
-  22,
-  24
+  22
  ],
- "n_rows": 46,
- "n_cols": 9,
- "n_cells": 277,
+ "n_rows": 1,
+ "n_cols": 6,
+ "n_cells": 6,
  "columns": [
   {
    "col_no": "2",
-   "name": "Cases Pending investigation from previous year",
+   "name": "State",
    "header": [
-    "Cases Pending investigation from previous year"
+    "State"
    ]
   },
   {
    "col_no": "3",
-   "name": "Cases | Cases pending disposal in court",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Cases",
-    "Cases pending disposal in court"
+    "Cases pending investigation from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases | reported during the year cognizable -",
+   "name": "Cases pending disposal in court",
    "header": [
-    "Cases",
-    "reported during the year cognizable -"
+    "Cases pending disposal in court"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases | Cases not investigated declared false or mistake of fact or law, non- and pending investigation or trial",
+   "name": "Cases reported during the year",
    "header": [
-    "Cases",
-    "Cases not investigated declared false or mistake of fact or law, non- and pending investigation or trial"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cas es not detected",
+   "name": "Cases not investigated declared false or mistake of fact or law, or non-cognizable and pending investigation or trial",
    "header": [
-    "Cas es not detected"
+    "Cases not investigated declared false or mistake of fact or law, or non-cognizable and pending investigation or trial"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Persons arrested during the year | Persons in custody pending investigation on bail during the stage of investigation 2",
+   "col_no": "7",
+   "name": "Cases not detected",
    "header": [
-    "Persons arrested during the year",
-    "Persons in custody pending investigation on bail during the stage of investigation 2"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Persons arrested during the year | Persons in custody pending trial or on bail or during the stage of trial © 3.",
-   "header": [
-    "Persons arrested during the year",
-    "Persons in custody pending trial or on bail or during the stage of trial © 3."
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Persons arrested during the year | 4",
-   "header": [
-    "Persons arrested during the year",
-    "4"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Persons arrested during the year | Persons released by the Police or Magistrate before trial 5S 6",
-   "header": [
-    "Persons arrested during the year",
-    "Persons released by the Police or Magistrate before trial 5S 6"
+    "Cases not detected"
    ]
   }
  ],
@@ -100,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 11,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

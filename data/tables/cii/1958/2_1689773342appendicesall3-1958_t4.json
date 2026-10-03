@@ -6,49 +6,63 @@
  "topic": "",
  "section": "Crime in India 1958",
  "serial": "2",
- "title": "MURDER-PERSONS",
+ "title": "KIDNAPPING AND ABDUCTION—CASES Union Territories Cities",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689773342appendicesall3-1958.pdf",
  "source_file": "raw/cii/1958/year_wise/1689773342appendicesall3-1958.pdf",
  "source_sha256": "d35bbadad8fc7f23824e783a174270881e9162b2a2aefcd94076bb12d23f4372",
  "table_no": "",
- "pdf_title": "MURDER-PERSONS",
- "row_label": "Sr. Personsin State No. custody pending investigation or on bail during the stage of investigation",
+ "pdf_title": "KIDNAPPING AND ABDUCTION—CASES Union Territories Cities",
+ "row_label": "Sr. No.",
  "pages": [
-  8
+  10
  ],
- "n_rows": 31,
- "n_cols": 4,
- "n_cells": 112,
+ "n_rows": 1,
+ "n_cols": 6,
+ "n_cells": 6,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Persons in custodypending trial bail during the stage -of trial",
+   "col_no": "2",
+   "name": "State",
    "header": [
-    "Persons in custodypending trial bail during the stage -of trial"
+    "State"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year",
+   "header": [
+    "Cases pending investigation from previous year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending disposal in court",
+   "header": [
+    "Cases pending disposal in court"
    ]
   },
   {
    "col_no": "5",
-   "name": "or -",
+   "name": "Cases reported during the year",
    "header": [
-    "or -"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Persons released by the “on Police or Magistrate before trial",
+   "name": "Cases not investigated declared false or mistake of fact or law, or non-cognizable and pending investigation or trial",
    "header": [
-    "Persons released by the “on Police or Magistrate before trial"
+    "Cases not investigated declared false or mistake of fact or law, or non-cognizable and pending investigation or trial"
    ]
   },
   {
    "col_no": "7",
-   "name": "Persons Persons whose in arrested during cases the year sheet was laid",
+   "name": "Cases not detected",
    "header": [
-    "Persons Persons whose in arrested during cases the year sheet was laid"
+    "Cases not detected"
    ]
   }
  ],
@@ -57,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

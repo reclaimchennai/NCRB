@@ -6,59 +6,61 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "Tala",
+ "title": "30 TABLE Statement showing Citywise incidence of",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "Tala",
- "row_label": "SL Na. 1 ANDHRA",
+ "pdf_title": "30 TABLE Statement showing Citywise incidence of",
+ "row_label": "Sl. No. / Name of the City",
  "pages": [
   1
  ],
- "n_rows": 38,
+ "n_rows": 12,
  "n_cols": 5,
- "n_cells": 160,
+ "n_cells": 60,
  "columns": [
   {
-   "col_no": "2",
-   "name": "“Name of the City “3",
-   "header": [
-    "“Name of the City “3"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Statemowt showing | Murder to murder a",
+   "name": "Number of cases | Murder",
    "header": [
-    "Statemowt showing",
-    "Murder to murder a"
+    "Number of cases",
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "Statemowt showing | Culpable and 4",
+   "name": "Number of cases | Culpable Homicide not amounting to murder",
    "header": [
-    "Statemowt showing",
-    "Culpable and 4"
+    "Number of cases",
+    "Culpable Homicide not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "Statemowt showing | Number of Rape §",
+   "name": "Number of cases | Rape",
    "header": [
-    "Statemowt showing",
-    "Number of Rape §"
+    "Number of cases",
+    "Rape"
    ]
   },
   {
    "col_no": "6",
-   "name": "of - Eltinanning Decoy é",
+   "name": "Number of cases | Kidnapping and Abduction",
    "header": [
-    "of - Eltinanning Decoy é"
+    "Number of cases",
+    "Kidnapping and Abduction"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Number of cases | Decolty",
+   "header": [
+    "Number of cases",
+    "Decolty"
    ]
   }
  ],
@@ -70,7 +72,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

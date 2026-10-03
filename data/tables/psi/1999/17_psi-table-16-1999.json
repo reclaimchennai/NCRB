@@ -8,62 +8,181 @@
  "serial": "17",
  "title": "Table 16: Distribution of Foreigner Convicts in Jails by age groups at the end of 1999",
  "listing_title": "Table 16: Distribution of Foreigner Convicts in Jails by age groups at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-16_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-16_1999.pdf",
  "source_sha256": "874b681a889dae89546644563e7469cb1628513a3966c5ec7a750090b97a15fc",
  "table_no": "16",
- "pdf_title": "DISTRIBUTION OF FOREIGNER CONVICTS IN JAILS BY AGE GROUPS AT THE END OF 1999",
- "row_label": "STATE/UT NO. (1) / BELOW 16 (2)",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-16",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 17,
- "n_cols": 4,
- "n_cells": 39,
+ "n_rows": 36,
+ "n_cols": 18,
+ "n_cells": 630,
  "columns": [
   {
    "col_no": "3",
-   "name": "BELOW 16 | M (3)",
+   "name": "BELOW 16 YEARS | M",
    "header": [
-    "BELOW 16",
-    "M (3)"
+    "BELOW 16 YEARS",
+    "M"
    ]
   },
   {
    "col_no": "4",
-   "name": "16- 18 oF FOOT (2) (4)",
+   "name": "BELOW 16 YEARS | F",
    "header": [
-    "16- 18 oF FOOT (2) (4)"
+    "BELOW 16 YEARS",
+    "F"
    ]
   },
   {
    "col_no": "5",
-   "name": "M T (8) (9) (5)",
+   "name": "BELOW 16 YEARS | T",
    "header": [
-    "M T (8) (9) (5)"
+    "BELOW 16 YEARS",
+    "T"
    ]
   },
   {
    "col_no": "6",
-   "name": "18 - 30 YEARS T F M © (11) (10)",
+   "name": "16 - 18 YEARS | M",
    "header": [
-    "18 - 30 YEARS T F M © (11) (10)"
+    "16 - 18 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "16 - 18 YEARS | F",
+   "header": [
+    "16 - 18 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "16 - 18 YEARS | T",
+   "header": [
+    "16 - 18 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "18 - 30 YEARS | M",
+   "header": [
+    "18 - 30 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "18 - 30 YEARS | F",
+   "header": [
+    "18 - 30 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "18 - 30 YEARS | T",
+   "header": [
+    "18 - 30 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "30 - 50 YEARS | M",
+   "header": [
+    "30 - 50 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "30 - 50 YEARS | F",
+   "header": [
+    "30 - 50 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "30 - 50 YEARS | T",
+   "header": [
+    "30 - 50 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "50 YEARS & ABOVE | M",
+   "header": [
+    "50 YEARS & ABOVE",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "50 YEARS & ABOVE | F",
+   "header": [
+    "50 YEARS & ABOVE",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "50 YEARS & ABOVE | T",
+   "header": [
+    "50 YEARS & ABOVE",
+    "T"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL ALL AGE GROUPS | M",
+   "header": [
+    "TOTAL ALL AGE GROUPS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TOTAL ALL AGE GROUPS | F",
+   "header": [
+    "TOTAL ALL AGE GROUPS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "TOTAL ALL AGE GROUPS | T",
+   "header": [
+    "TOTAL ALL AGE GROUPS",
+    "T"
    ]
   }
  ],
- "notes": [
-  "(ALL ces ae ye"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 54,
+  "cells_passed": 50,
+  "failures": [
+   "col 12 'TOTAL (STATES)': printed 317, sum 309",
+   "col 14 'TOTAL (STATES)': printed 333, sum 325",
+   "col 18 'TOTAL (STATES)': printed 571, sum 560",
+   "col 20 'TOTAL (STATES)': printed 609, sum 598"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

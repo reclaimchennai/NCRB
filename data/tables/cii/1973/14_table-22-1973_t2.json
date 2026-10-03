@@ -6,73 +6,77 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "14",
- "title": "IPC Crime by Sex",
+ "title": "77 22 IPC Crime by Sex",
  "listing_title": "Persons Arrested under IPC Crime by Sex.",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-22-1973.pdf",
  "source_sha256": "532eb0928e02e99da3a5a0063b0b76009d2b63bf3249e9f43451571780d90bd4",
  "table_no": "",
- "pdf_title": "IPC Crime by Sex",
- "row_label": "",
+ "pdf_title": "77 22 IPC Crime by Sex",
+ "row_label": "Rape Male",
  "pages": [
   2
  ],
- "n_rows": 5,
+ "n_rows": 41,
  "n_cols": 7,
- "n_cells": 27,
+ "n_cells": 287,
  "columns": [
   {
    "col_no": "2",
-   "name": "9 i26 229 at 112 46 ie 6s 47 ea 15 12 lo 66 166 143 a7 16 330 1,700 13 NLA. 1 4 2",
+   "name": "Rape | Female",
    "header": [
-    "9 i26 229 at 112 46 ie 6s 47 ea 15 12 lo 66 166 143 a7 16 330 1,700 13 NLA. 1 4 2"
+    "Rape",
+    "Female"
    ]
   },
   {
    "col_no": "3",
-   "name": "10 - - as - - - - - 3 - - - - - i 16 - - HLA. - -",
+   "name": "Kidnapping & Abduction | Male",
    "header": [
-    "10 - - as - - - - - 3 - - - - - i 16 - - HLA. - -"
+    "Kidnapping & Abduction",
+    "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "it | il iz 1,088 aya 217 260 Liz 128 a 1,10 a Ms 22 aa 18 i 452 674 zu 1,142 12,148 a5 NLA. - 4",
+   "name": "Kidnapping & Abduction | Female",
    "header": [
-    "it",
-    "il iz 1,088 aya 217 260 Liz 128 a 1,10 a Ms 22 aa 18 i 452 674 zu 1,142 12,148 a5 NLA. - 4"
+    "Kidnapping & Abduction",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "it | il 9 7 a0 pa 2 - - - 5 9 16 - 1s “455 2 a BLA, - - -",
+   "name": "Dacology | Male",
    "header": [
-    "it",
-    "il 9 7 a0 pa 2 - - - 5 9 16 - 1s “455 2 a BLA, - - -"
+    "Dacology",
+    "Male"
    ]
   },
   {
    "col_no": "6",
-   "name": "it | 13 La 40M 653 uu 7 5 384 128 4254 2,152 32 2 43 458 ‘163: 18,785 9 8336 43,283 - BLA. - 4 NA",
+   "name": "Dacology | Female",
    "header": [
-    "it",
-    "13 La 40M 653 uu 7 5 384 128 4254 2,152 32 2 43 458 ‘163: 18,785 9 8336 43,283 - BLA. - 4 NA"
+    "Dacology",
+    "Female"
    ]
   },
   {
    "col_no": "7",
-   "name": "14. 408 716 2 1 1471 732 3 es 57 - 40 uN Fae 1 a 2 148 - 2200 133 pi - 15 15 Be i - L 1,046 ten 31 - - 26 6.545 #2 160 18,279 aii - NLA. a BLA. - - NA.",
+   "name": "Robbery | Male",
    "header": [
-    "14. 408 716 2 1 1471 732 3 es 57 - 40 uN Fae 1 a 2 148 - 2200 133 pi - 15 15 Be i - L 1,046 ten 31 - - 26 6.545 #2 160 18,279 aii - NLA. a BLA. - - NA."
+    "Robbery",
+    "Male"
    ]
   },
   {
    "col_no": "8",
-   "name": "16 is - - - 5 a - 3 42 Py - es - 21 - 9 3 - - 175 4 5° ay 2 Bs. - 4 a",
+   "name": "Robbery | Female",
    "header": [
-    "16 is - - - 5 a - 3 42 Py - es - 21 - 9 3 - - 175 4 5° ay 2 Bs. - 4 a"
+    "Robbery",
+    "Female"
    ]
   }
  ],
@@ -84,7 +88,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

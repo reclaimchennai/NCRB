@@ -8,71 +8,138 @@
  "serial": "21",
  "title": "Persons Arrested under I.P.C. Crime by Sex",
  "listing_title": "Persons Arrested under I.P.C. Crime by Sex",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1976.pdf",
  "source_file": "raw/cii/1976/table_content/table-22-1976.pdf",
  "source_sha256": "5f5532a89abd8f390358f01c9ec25a5367118870497088b8e29e6b141ef8a0d3",
- "table_no": "",
- "pdf_title": "TAMLE 22 ander I, P. C. Crime by Sex",
- "row_label": "si. No",
+ "table_no": "22",
+ "pdf_title": "54 TABLE 22 Persons arrested under I. P. C. Crime by Sex",
+ "row_label": "Sl. No. / States/U.Ts/Cities",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 44,
- "n_cols": 8,
- "n_cells": 306,
+ "n_rows": 86,
+ "n_cols": 15,
+ "n_cells": 1159,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Gale",
-   "header": [
-    "Gale"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "-",
+   "name": "Murder | Male",
    "header": [
-    "-"
+    "Murder",
+    "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "eee, ing te murder (4)",
+   "name": "Murder | Female",
    "header": [
-    "eee, ing te murder"
+    "Murder",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "eee, ing te murder (5)",
+   "name": "Culpable Homicide not amounting to murder | Males",
    "header": [
-    "eee, ing te murder"
+    "Culpable Homicide not amounting to murder",
+    "Males"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "Culpable Homicide not amounting to murder | Female",
+   "header": [
+    "Culpable Homicide not amounting to murder",
+    "Female"
+   ]
   },
   {
    "col_no": "7",
-   "name": "ie eee”",
+   "name": "Rape | Male",
    "header": [
-    "ie eee”"
+    "Rape",
+    "Male"
    ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "Rape | Female",
+   "header": [
+    "Rape",
+    "Female"
+   ]
   },
   {
    "col_no": "9",
-   "name": "Reta",
+   "name": "Kidnapping & Abduction | Male",
    "header": [
-    "Reta"
+    "Kidnapping & Abduction",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Kidnapping & Abduction | Female",
+   "header": [
+    "Kidnapping & Abduction",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Dacology | Male",
+   "header": [
+    "Dacology",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Dacology | Female",
+   "header": [
+    "Dacology",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Robbery | Male",
+   "header": [
+    "Robbery",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Robbery | Female",
+   "header": [
+    "Robbery",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Burgary",
+   "header": [
+    "Burgary"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Total cognizable Crimes I.P.C. | Female",
+   "header": [
+    "Total cognizable Crimes I.P.C.",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Total SI. States/U.Ts/Cities No.",
+   "header": [
+    "Total SI. States/U.Ts/Cities No."
    ]
   }
  ],
@@ -81,10 +148,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 38,
+  "other_totals_passed": 35
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

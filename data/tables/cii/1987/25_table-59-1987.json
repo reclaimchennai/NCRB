@@ -8,14 +8,14 @@
  "serial": "25",
  "title": "Table Presenting Strength of Armed Police as on 31.12.1987",
  "listing_title": "Table Presenting Strength of Armed Police as on 31.12.1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_59-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_59-1987.pdf",
  "source_sha256": "b91194bb3482132c9b97b2495a93c1abc314bc95128f3a143b1f13485305976a",
- "table_no": "",
- "pdf_title": "TABLE - $9 Table Presenting Strength Of Armed Police As On 31-12-1987",
- "row_label": "sl STATES/U. Ts/ NO ql)",
+ "table_no": "59",
+ "pdf_title": "157 TABLE - 59 Table Presenting Strength Of Armed Police As On 31-12-1987",
+ "row_label": "S1 NO",
  "pages": [
   1
  ],
@@ -25,52 +25,47 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER OF CITIES /DIG",
+   "name": "NUMBER OF OF DG/IG /DIG SP",
    "header": [
-    "NUMBER OF CITIES /DIG"
+    "NUMBER OF OF DG/IG /DIG SP"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER DG/IG OF SP",
+   "name": "NUMBER OF ASP/ DSP",
    "header": [
-    "NUMBER DG/IG OF SP"
+    "NUMBER OF ASP/ DSP"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF ASP/ DSP",
+   "name": "NUMBER OF INSPECTOR /S. I.",
    "header": [
-    "OF ASP/ DSP"
+    "NUMBER OF INSPECTOR /S. I."
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER OF insrevciun 78.1.",
+   "name": "NUMBER OFFICERS BELOW S. I.",
    "header": [
-    "NUMBER OF insrevciun 78.1."
+    "NUMBER OFFICERS BELOW S. I."
    ]
   },
   {
    "col_no": "7",
-   "name": "NUMBER OFFICERS BELOW S.1.",
+   "name": "TOT/L",
    "header": [
-    "NUMBER OFFICERS BELOW S.1."
+    "TOT/L"
    ]
   }
  ],
- "notes": [
-  "NOTE: 1) * 1986 data repeated for Maharachtra,",
-  "2) @ 1986 data repeated for Bombay City."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 3,
-  "failures": [
-   "col 4 'TOTAL (States)': printed 1168, sum 1108"
-  ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 14,
+  "cells_passed": 14,
+  "failures": [],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

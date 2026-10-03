@@ -8,20 +8,20 @@
  "serial": "39",
  "title": "Juveniles Apprehended (by Sex) for Committing Crime under IPC During 1984",
  "listing_title": "Juveniles Apprehended (by Sex) for Committing Crime under IPC During 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-40-1984.pdf",
  "source_sha256": "6d38d963423438b7aa225e8f3214eb507a2ef7236c79974ae448fddac6647849",
  "table_no": "40",
- "pdf_title": "Juveniles Apprshente2 (By Sex) For Committing Crime Under IPC During 1984",
- "row_label": "SL. NO. / STATES/UTs/CITIES",
+ "pdf_title": "104 TABLE - 40 Juveniles Apprehended (By Sex) For Committing Crime Under IPC During 1984",
+ "row_label": "SL. NO. / STATES/UTS/CITIES",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 3,
- "n_cells": 140,
+ "n_cells": 141,
  "columns": [
   {
    "col_no": "3",
@@ -38,7 +38,7 @@
    ]
   },
   {
-   "col_no": "5s",
+   "col_no": "5",
    "name": "TOTAL",
    "header": [
     "TOTAL"
@@ -47,16 +47,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 6,
-  "cells_passed": 2,
-  "failures": [
-   "col 3 'TOTAL (UTs)': printed 3212, sum 139280",
-   "col 4 'TOTAL (UTs)': printed 345, sum 8230",
-   "col 4 'TOTAL (Cities)': printed 134, sum 734",
-   "col 1000519 'TOTAL (UTs)': printed 3557, sum 147511"
-  ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 9,
+  "cells_passed": 9,
+  "failures": [],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

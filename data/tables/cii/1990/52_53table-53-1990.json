@@ -8,134 +8,156 @@
  "serial": "52",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990 (State, UT & City-Wise) Dacoity",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990 (State, UT & City-Wise) Dacoity",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/53table-53-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/53table-53-1990-.pdf",
  "source_sha256": "79581c54a083fdcf5faebe46f65765c64d9138f2820a215f7663101afa04eab8",
  "table_no": "54",
- "pdf_title": "LT TABLE - $4 ‘ ;",
- "row_label": "STATE/UT/CITY SL, NO.",
+ "pdf_title": "176 TABLE-54 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
- "n_rows": 96,
- "n_cols": 13,
- "n_cells": 586,
+ "n_rows": 94,
+ "n_cols": 15,
+ "n_cells": 705,
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER | RESIDENTIAL PREMISES | NUMBER",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "NUMBER",
     "RESIDENTIAL PREMISES",
     "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER | RESIDENTIAL PREMISES | VALUE",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "NUMBER",
     "RESIDENTIAL PREMISES",
     "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER | NUMBER",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "NUMBER",
+    "HIGHWAYS",
     "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF HIGHWAYS VALUE",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "OF HIGHWAYS VALUE"
+    "HIGHWAYS",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "CASES REPORTED RIVER NUMBER",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "CASES REPORTED RIVER NUMBER"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "AND (STATE, & VALUE",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "AND (STATE, & VALUE"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "VALUE UT ROBBERY SEA NUMBER «9)",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "VALUE UT ROBBERY SEA NUMBER «9)"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "OF STOLEN & CITY-WISE) RATLWAYS VALUE",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "OF STOLEN & CITY-WISE) RATLWAYS VALUE"
+    "RAILWAYS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "COMMERCIAL t ASTARI.ISHMENTS",
+   "col_no": "13",
+   "name": "BANKS | VALUE",
    "header": [
-    "COMMERCIAL t ASTARI.ISHMENTS"
+    "BANKS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "OTHER",
+   "col_no": "14",
+   "name": "COMMERCIAL ESTABLISHMENTS | NUMBER",
    "header": [
-    "OTHER"
+    "COMMERCIAL ESTABLISHMENTS",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "(Rs. | PLACES",
+   "col_no": "15",
+   "name": "COMMERCIAL ESTABLISHMENTS | VALUE",
    "header": [
-    "(Rs.",
-    "PLACES"
+    "COMMERCIAL ESTABLISHMENTS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "(Rs. | TOTAL",
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
    "header": [
-    "(Rs.",
-    "TOTAL"
+    "OTHER PLACES",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "lakh) in STATE/UT/CITY",
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
    "header": [
-    "lakh) in STATE/UT/CITY"
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
- "notes": [
-  "Note: Value less than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 4,
+  "cells_checked": 12,
+  "cells_passed": 9,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 9769, sum 9582"
+   "col 3 'TOTAL (STATES)': printed 9769, sum 9740",
+   "col 5 'TOTAL (STATES)': printed 4098, sum 3995",
+   "col 9 'TOTAL (STATES)': printed 399, sum 390"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

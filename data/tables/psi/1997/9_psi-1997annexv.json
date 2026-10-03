@@ -8,14 +8,14 @@
  "serial": "9",
  "title": "Annexure-V: Capacity & Population in Jails by type of Inmates During 1997 (Category-wise)",
  "listing_title": "Annexure-V: Capacity & Population in Jails by type of Inmates During 1997 (Category-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/files/PSI-1997AnnexV.pdf",
  "source_file": "raw/psi/1997/table_content/PSI-1997AnnexV.pdf",
  "source_sha256": "82ed050d73fa6dfde385c6fe7cea88dcaa6fa7d1898f80d893c57f528518b057",
  "table_no": "",
- "pdf_title": "ANNEXURE-V CAPACITY & POPULATION IN JAILS BY TYPE OF INMATES DURING 1997",
- "row_label": "(CATEGORY-WISE) SL. STATE/UT NO. (1) HIGH RISK",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1997 ANNEXURE-V",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2,
@@ -23,192 +23,196 @@
   4,
   5
  ],
- "n_rows": 87,
- "n_cols": 59,
- "n_cells": 2418,
+ "n_rows": 60,
+ "n_cols": 60,
+ "n_cells": 3240,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(CATEGORY-WISE) | CAPACITY | AT THE BEGINNING OF THE PERIOD | (2)",
-   "header": [
-    "(CATEGORY-WISE)",
-    "CAPACITY",
-    "AT THE BEGINNING OF THE PERIOD",
-    "(2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "(CATEGORY-WISE) | CAPACITY | AT THE BEGINNING OF THE PERIOD | FEMALE TOTAL | MALE (3)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | MALE (3)",
    "header": [
-    "(CATEGORY-WISE)",
     "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE TOTAL",
-    "MALE (3)"
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "(CATEGORY-WISE) | CAPACITY | AT THE BEGINNING OF THE PERIOD | FEMALE TOTAL | (4)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | FEMALE (4)",
    "header": [
-    "(CATEGORY-WISE)",
     "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE TOTAL",
-    "(4)"
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "(CATEGORY-WISE) | CAPACITY | (5)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | TOTAL (5)",
    "header": [
-    "(CATEGORY-WISE)",
     "CAPACITY",
-    "(5)"
+    "AT THE BEGINNING OF THE PERIOD",
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "(CATEGORY-WISE) | MALE (6)",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | MALE (6)",
    "header": [
-    "(CATEGORY-WISE)",
-    "MALE (6)"
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
+    "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "(CATEGORY-WISE) | PERIOD FEMALE (7)",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | FEMALE (7)",
    "header": [
-    "(CATEGORY-WISE)",
-    "PERIOD FEMALE (7)"
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "(CATEGORY-WISE) | TOTAL (8)",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | TOTAL (8)",
    "header": [
-    "(CATEGORY-WISE)",
-    "TOTAL (8)"
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
+    "TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "(CATEGORY-WISE) | PERIOD MALE (9)",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | MALE (9)",
    "header": [
-    "(CATEGORY-WISE)",
-    "PERIOD MALE (9)"
+    "ACTUAL NUMBER",
+    "AT THE BEGINNING OF THE PERIOD",
+    "MALE"
    ]
   },
   {
    "col_no": "10",
-   "name": "(CATEGORY-WISE) | ACTUAL NUMBER | FEMALE TOTAL Wo)",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | FEMALE (10)",
    "header": [
-    "(CATEGORY-WISE)",
     "ACTUAL NUMBER",
-    "FEMALE TOTAL Wo)"
+    "AT THE BEGINNING OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "11",
-   "name": "(CATEGORY-WISE) | ACTUAL NUMBER | AT THE END OF THE PERIOD | ay",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | TOTAL (11)",
    "header": [
-    "(CATEGORY-WISE)",
     "ACTUAL NUMBER",
-    "AT THE END OF THE PERIOD",
-    "ay"
+    "AT THE BEGINNING OF THE PERIOD",
+    "TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "(CATEGORY-WISE) | ACTUAL NUMBER | AT THE END OF THE PERIOD | FEMALE TOTAL | MALE (12)",
+   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD | MALE (12)",
    "header": [
-    "(CATEGORY-WISE)",
     "ACTUAL NUMBER",
     "AT THE END OF THE PERIOD",
-    "FEMALE TOTAL",
-    "MALE (12)"
+    "MALE"
    ]
   },
   {
    "col_no": "13",
-   "name": "(CATEGORY-WISE) | ACTUAL NUMBER | AT THE END OF THE PERIOD | FEMALE TOTAL | (13) (4)",
+   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD | FEMALE (13)",
    "header": [
-    "(CATEGORY-WISE)",
     "ACTUAL NUMBER",
     "AT THE END OF THE PERIOD",
-    "FEMALE TOTAL",
-    "(13) (4)"
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD | TOTAL (14)",
+   "header": [
+    "ACTUAL NUMBER",
+    "AT THE END OF THE PERIOD",
+    "TOTAL"
    ]
   },
   {
    "col_no": "15",
-   "name": "AT THE BEGINNING OF THE PERIOD | MALE (15)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | MALE (15)",
    "header": [
+    "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
     "MALE"
    ]
   },
   {
    "col_no": "16",
-   "name": "AT THE BEGINNING OF THE PERIOD | FEMALE{ TOTAL J (16)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | FEMALE (16)",
    "header": [
+    "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE{ TOTAL J"
+    "FEMALE"
    ]
   },
   {
    "col_no": "17",
-   "name": "AT THE BEGINNING OF THE PERIOD | FEMALE{ TOTAL J (17)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | TOTAL (17)",
    "header": [
+    "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE{ TOTAL J"
+    "TOTAL"
    ]
   },
   {
    "col_no": "18",
-   "name": "MALE (18)",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | MALE (18)",
    "header": [
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
     "MALE"
    ]
   },
   {
    "col_no": "19",
-   "name": "PERIOD",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | FEMALE (19)",
    "header": [
-    "PERIOD"
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "20",
-   "name": "FEMALE TOTAL",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | TOTAL (20)",
    "header": [
-    "FEMALE TOTAL"
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
+    "TOTAL"
    ]
   },
   {
    "col_no": "21",
-   "name": "ACTUAL NUMBER | THEBEGINNINGOFTHE PERIOD | MALE",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | MALE (21)",
    "header": [
     "ACTUAL NUMBER",
-    "THEBEGINNINGOFTHE PERIOD",
+    "AT THE BEGINNING OF THE PERIOD",
     "MALE"
    ]
   },
   {
    "col_no": "22",
-   "name": "ACTUAL NUMBER | THEBEGINNINGOFTHE PERIOD",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | FEMALE (22)",
    "header": [
     "ACTUAL NUMBER",
-    "THEBEGINNINGOFTHE PERIOD"
+    "AT THE BEGINNING OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "23",
-   "name": "ACTUAL NUMBER | THEBEGINNINGOFTHE PERIOD | TOTAL",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | TOTAL (23)",
    "header": [
     "ACTUAL NUMBER",
-    "THEBEGINNINGOFTHE PERIOD",
+    "AT THE BEGINNING OF THE PERIOD",
     "TOTAL"
    ]
   },
@@ -223,7 +227,7 @@
   },
   {
    "col_no": "25",
-   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD | FEMALE",
+   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD | FEMALE (25)",
    "header": [
     "ACTUAL NUMBER",
     "AT THE END OF THE PERIOD",
@@ -240,63 +244,83 @@
    ]
   },
   {
-   "col_no": "28",
-   "name": "AT THE BEGINNING OF THE PERIOD | FEMALE TOTAL (28)",
+   "col_no": "27",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | MALE (27)",
    "header": [
+    "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE TOTAL"
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | FEMALE (28)",
+   "header": [
+    "CAPACITY",
+    "AT THE BEGINNING OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "29",
-   "name": "AT THE BEGINNING OF THE PERIOD | FEMALE TOTAL (29)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | TOTAL (29)",
    "header": [
+    "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE TOTAL"
+    "TOTAL"
    ]
   },
   {
    "col_no": "30",
-   "name": "MALE (30)",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | MALE (30)",
    "header": [
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
     "MALE"
    ]
   },
   {
    "col_no": "31",
-   "name": "PERIOD FEMALE (31)",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | FEMALE (31)",
    "header": [
-    "PERIOD FEMALE"
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "32",
-   "name": "THE TOTAL",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | TOTAL (32)",
    "header": [
-    "THE TOTAL"
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
+    "TOTAL"
    ]
   },
   {
    "col_no": "33",
-   "name": "ACTUAL NUMBER | MALE (33)",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | MALE (33)",
    "header": [
     "ACTUAL NUMBER",
+    "AT THE BEGINNING OF THE PERIOD",
     "MALE"
    ]
   },
   {
    "col_no": "34",
-   "name": "ACTUAL NUMBER | PERIOD FEMALE (34)",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | FEMALE (34)",
    "header": [
     "ACTUAL NUMBER",
-    "PERIOD FEMALE"
+    "AT THE BEGINNING OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "35",
-   "name": "ACTUAL NUMBER | TOTAL (35)",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | TOTAL (35)",
    "header": [
     "ACTUAL NUMBER",
+    "AT THE BEGINNING OF THE PERIOD",
     "TOTAL"
    ]
   },
@@ -311,10 +335,11 @@
   },
   {
    "col_no": "37",
-   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD (37)",
+   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD | FEMALE (37)",
    "header": [
     "ACTUAL NUMBER",
-    "AT THE END OF THE PERIOD"
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
@@ -328,7 +353,7 @@
   },
   {
    "col_no": "39",
-   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | MALE",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | MALE (39)",
    "header": [
     "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
@@ -337,25 +362,25 @@
   },
   {
    "col_no": "40",
-   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | FEMALE] TOTAL (40)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | FEMALE (40)",
    "header": [
     "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE] TOTAL"
+    "FEMALE"
    ]
   },
   {
    "col_no": "41",
-   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | FEMALE] TOTAL (41)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | TOTAL (41)",
    "header": [
     "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE] TOTAL"
+    "TOTAL"
    ]
   },
   {
    "col_no": "42",
-   "name": "CAPACITY | AT THE END OF THE PERIOD | MALE",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | MALE (42)",
    "header": [
     "CAPACITY",
     "AT THE END OF THE PERIOD",
@@ -364,15 +389,16 @@
   },
   {
    "col_no": "43",
-   "name": "CAPACITY | AT THE END OF THE PERIOD",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | FEMALE (43)",
    "header": [
     "CAPACITY",
-    "AT THE END OF THE PERIOD"
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "44",
-   "name": "CAPACITY | AT THE END OF THE PERIOD | TOTAL",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | TOTAL (44)",
    "header": [
     "CAPACITY",
     "AT THE END OF THE PERIOD",
@@ -381,7 +407,7 @@
   },
   {
    "col_no": "45",
-   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | MALE",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | MALE (45)",
    "header": [
     "ACTUAL NUMBER",
     "AT THE BEGINNING OF THE PERIOD",
@@ -390,15 +416,16 @@
   },
   {
    "col_no": "46",
-   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | FEMALE (46)",
    "header": [
     "ACTUAL NUMBER",
-    "AT THE BEGINNING OF THE PERIOD"
+    "AT THE BEGINNING OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "47",
-   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | TOTAL",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | TOTAL (47)",
    "header": [
     "ACTUAL NUMBER",
     "AT THE BEGINNING OF THE PERIOD",
@@ -416,11 +443,11 @@
   },
   {
    "col_no": "49",
-   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD | FEMALE]",
+   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD | FEMALE (49)",
    "header": [
     "ACTUAL NUMBER",
     "AT THE END OF THE PERIOD",
-    "FEMALE]"
+    "FEMALE"
    ]
   },
   {
@@ -434,70 +461,82 @@
   },
   {
    "col_no": "51",
-   "name": "AT THE BEGINNING OF THE PERIOD | MALE (51)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | MALE (51)",
    "header": [
+    "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
     "MALE"
    ]
   },
   {
    "col_no": "52",
-   "name": "AT THE BEGINNING OF THE PERIOD | FEMALE TOTAL (52)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | FEMALE (52)",
    "header": [
+    "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE TOTAL"
+    "FEMALE"
    ]
   },
   {
    "col_no": "53",
-   "name": "AT THE BEGINNING OF THE PERIOD | FEMALE TOTAL (53)",
+   "name": "CAPACITY | AT THE BEGINNING OF THE PERIOD | TOTAL (53)",
    "header": [
+    "CAPACITY",
     "AT THE BEGINNING OF THE PERIOD",
-    "FEMALE TOTAL"
+    "TOTAL"
    ]
   },
   {
    "col_no": "54",
-   "name": "MALE (54)",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | MALE (54)",
    "header": [
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
     "MALE"
    ]
   },
   {
    "col_no": "55",
-   "name": "PERIOD FEMALE (55)",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | FEMALE (55)",
    "header": [
-    "PERIOD FEMALE"
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "56",
-   "name": "- TOTAL",
+   "name": "CAPACITY | AT THE END OF THE PERIOD | TOTAL (56)",
    "header": [
-    "- TOTAL"
+    "CAPACITY",
+    "AT THE END OF THE PERIOD",
+    "TOTAL"
    ]
   },
   {
    "col_no": "57",
-   "name": "ACTUAL NUMBER | MALE (57)",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | MALE (57)",
    "header": [
     "ACTUAL NUMBER",
+    "AT THE BEGINNING OF THE PERIOD",
     "MALE"
    ]
   },
   {
    "col_no": "58",
-   "name": "ACTUAL NUMBER | PERIOD FEMALE (58)",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | FEMALE (58)",
    "header": [
     "ACTUAL NUMBER",
-    "PERIOD FEMALE"
+    "AT THE BEGINNING OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "59",
-   "name": "ACTUAL NUMBER | TOTAL (59)",
+   "name": "ACTUAL NUMBER | AT THE BEGINNING OF THE PERIOD | TOTAL (59)",
    "header": [
     "ACTUAL NUMBER",
+    "AT THE BEGINNING OF THE PERIOD",
     "TOTAL"
    ]
   },
@@ -512,10 +551,11 @@
   },
   {
    "col_no": "61",
-   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD (61)",
+   "name": "ACTUAL NUMBER | AT THE END OF THE PERIOD | FEMALE (61)",
    "header": [
     "ACTUAL NUMBER",
-    "AT THE END OF THE PERIOD"
+    "AT THE END OF THE PERIOD",
+    "FEMALE"
    ]
   },
   {
@@ -528,11 +568,7 @@
    ]
   }
  ],
- "notes": [
-  "30 PONDICHERRY ry om 5 5 fe) 5 0 fe) ° °",
-  "30 PONDICHERRY ° oO: 0 fe) fo)",
-  "NA stands for Not Available"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -540,7 +576,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 5,
  "warnings": []
 }

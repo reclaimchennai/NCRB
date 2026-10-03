@@ -6,63 +6,147 @@
  "topic": "Accidental Deaths in India",
  "section": "ACCIDENTAL DEATHS IN INDIA",
  "serial": "2",
- "title": "a",
+ "title": "30 APPENDIX-I Statewise Distribution Of Accidental Deaths Due To Natural Causes During 1986",
  "listing_title": "State wise distribution of Accidental Deaths due to Natural Causes during 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-1_1986.pdf",
  "source_file": "raw/adsi/1986/table_content/appendix-1_1986.pdf",
  "source_sha256": "4506d9c17fb265ef68c263e4442ed11592738401c2bf47f87f805ab71bb8bc1c",
  "table_no": "",
- "pdf_title": "a",
- "row_label": "ZB -",
+ "pdf_title": "30 APPENDIX-I Statewise Distribution Of Accidental Deaths Due To Natural Causes During 1986",
+ "row_label": "Sl.No. / State/U.Ts/Cities",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 21,
- "n_cols": 4,
- "n_cells": 42,
+ "n_rows": 34,
+ "n_cols": 16,
+ "n_cells": 517,
  "columns": [
   {
-   "col_no": "2",
-   "name": "ZB | z",
-   "header": [
-    "ZB",
-    "z"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "ZB | + q",
+   "name": "By lighting | Male",
    "header": [
-    "ZB",
-    "+ q"
+    "By lighting",
+    "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "6S «3",
+   "name": "By heat strokes | Female",
    "header": [
-    "6S «3"
+    "By heat strokes",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "§ CARA Sieses-se7egicrwriarsie-Rxes g",
+   "name": "By floods | Male",
    "header": [
-    "§ CARA Sieses-se7egicrwriarsie-Rxes g"
+    "By floods",
+    "Male"
    ]
+  },
+  {
+   "col_no": "6",
+   "name": "By land slides | Female",
+   "header": [
+    "By land slides",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "By cold & Exposure | Male",
+   "header": [
+    "By cold & Exposure",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By cyclone | Female",
+   "header": [
+    "By cyclone",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Total | Male",
+   "header": [
+    "Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Grand total | Female",
+   "header": [
+    "Grand total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Female",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "M + F",
+   "header": [
+    "M + F"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "col_14",
+   "header": []
+  },
+  {
+   "col_no": "15",
+   "name": "col_15",
+   "header": []
+  },
+  {
+   "col_no": "16",
+   "name": "col_16",
+   "header": []
+  },
+  {
+   "col_no": "17",
+   "name": "col_17",
+   "header": []
+  },
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 19,
+  "cells_passed": 17,
+  "failures": [
+   "col 15 'TOTAL (U.Ts.)': printed 5, sum 31",
+   "col 16 'TOTAL (U.Ts.)': printed 36, sum 5"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

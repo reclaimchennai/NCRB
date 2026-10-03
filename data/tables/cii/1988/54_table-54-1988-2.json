@@ -8,100 +8,151 @@
  "serial": "54",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1988 (State, UT & City-wise) Robbery",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1988 (State, UT & City-wise) Robbery",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-54-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-54-1988-2.pdf",
  "source_sha256": "a15409eaa2f237933682d5a7e9cde1ad2d0d433c9fa1580b5f598db84620e8b5",
  "table_no": "54",
- "pdf_title": "NUMBER OF CASES nerunicu AND VALUE OF rrwrenixr STOLEN BY PLACE OF Occimancr «STATE, UT & CITY-WISE)",
- "row_label": "STATE/UT/CITY SL. NO.",
+ "pdf_title": "164 TABLE-54 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURANCE (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 48,
- "n_cols": 8,
- "n_cells": 371,
+ "n_rows": 94,
+ "n_cols": 15,
+ "n_cells": 705,
  "columns": [
   {
-   "col_no": "2",
-   "name": "KES 1VENTIAL PEREMISES | NUMBER",
-   "header": [
-    "KES 1VENTIAL PEREMISES",
-    "NUMBER"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "KES 1VENTIAL PEREMISES | VALUE",
+   "name": "RESIDENTIAL PEREMINES | NUMBER",
    "header": [
-    "KES 1VENTIAL PEREMISES",
-    "VALUE"
+    "RESIDENTIAL PEREMINES",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "ROBBERY | HIGHWAYS | NUMBER",
+   "name": "RESIDENTIAL PEREMINES | VALUE",
    "header": [
-    "ROBBERY",
+    "RESIDENTIAL PEREMINES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "HIGHWAYS | NUMBER",
+   "header": [
     "HIGHWAYS",
     "NUMBER"
    ]
   },
   {
-   "col_no": "5",
-   "name": "ROBBERY | HIGHWAYS | VALUE",
+   "col_no": "6",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "ROBBERY",
     "HIGHWAYS",
     "VALUE"
    ]
   },
   {
-   "col_no": "6",
-   "name": "ROBBERY | RIVER NUMBER",
-   "header": [
-    "ROBBERY",
-    "RIVER NUMBER"
-   ]
-  },
-  {
    "col_no": "7",
-   "name": "ROBBERY | & VALUE",
+   "name": "RIVER & SEAS | NUMBER",
    "header": [
-    "ROBBERY",
-    "& VALUE"
+    "RIVER & SEAS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "lakh) (Rs. SEAS NUMBER",
+   "name": "RIVER & SEAS | VALUE",
    "header": [
-    "lakh) (Rs. SEAS NUMBER"
+    "RIVER & SEAS",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "in RAILWAYS VALUE",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "in RAILWAYS VALUE"
+    "RAILWAYS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RAILWAYS | VALUE",
+   "header": [
+    "RAILWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BANKS",
+   "header": [
+    "BANKS"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BANKS | VALUE",
+   "header": [
+    "BANKS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENT | NUMBER",
+   "header": [
+    "COMMERCIAL EASTABLISHMENT",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "COMMERCIAL EASTABLISHMENT | VALUE",
+   "header": [
+    "COMMERCIAL EASTABLISHMENT",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
    ]
   }
  ],
- "notes": [
-  "Note: Value less than 0.05 is shown as .9"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 7,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 3407, sum 3412",
-   "col 8 'TOTAL (STATES)': printed 342, sum 351"
-  ],
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

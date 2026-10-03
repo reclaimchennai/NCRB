@@ -6,97 +6,109 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "Download Full Report",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 *Jails do not exist",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "16",
- "pdf_title": "",
- "row_label": "NG.",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 *Jails do not exist",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  88
+  28
  ],
- "n_rows": 25,
+ "n_rows": 15,
  "n_cols": 9,
- "n_cells": 95,
+ "n_cells": 135,
  "columns": [
   {
-   "col_no": "12",
-   "name": "col_12",
-   "header": []
-  },
-  {
-   "col_no": "13",
-   "name": "30 - 50 YEARS F",
+   "col_no": "3",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Central Jail",
    "header": [
-    "30 - 50 YEARS F"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Central Jail"
    ]
   },
   {
-   "col_no": "14",
-   "name": "T",
+   "col_no": "4",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | District Jail",
    "header": [
-    "T"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "District Jail"
    ]
   },
   {
-   "col_no": "15",
-   "name": "5O YEARS & ABOVE | M",
+   "col_no": "5",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Sub Jail",
    "header": [
-    "5O YEARS & ABOVE",
-    "M"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Sub Jail"
    ]
   },
   {
-   "col_no": "16",
-   "name": "5O YEARS & ABOVE | !",
+   "col_no": "6",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Women Jail",
    "header": [
-    "5O YEARS & ABOVE",
-    "!"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Women Jail"
    ]
   },
   {
-   "col_no": "17",
-   "name": "5O YEARS & ABOVE | oF",
+   "col_no": "7",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Borstal school",
    "header": [
-    "5O YEARS & ABOVE",
-    "oF"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Borstal school"
    ]
   },
   {
-   "col_no": "18",
-   "name": "Aik AGE | T",
+   "col_no": "8",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Open Jail",
    "header": [
-    "Aik AGE",
-    "T"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Open Jail"
    ]
   },
   {
-   "col_no": "19",
-   "name": "Aik AGE | M",
+   "col_no": "9",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Special Jail",
    "header": [
-    "Aik AGE",
-    "M"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Special Jail"
    ]
   },
   {
-   "col_no": "20",
-   "name": "F T",
+   "col_no": "10",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Others",
    "header": [
-    "F T"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Others"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 27,
+  "cells_passed": 18,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 39022, sum 9178",
+   "col 4 'TOTAL (STATES)': printed 14131, sum 3161",
+   "col 5 'TOTAL (STATES)': printed 1576, sum 250",
+   "col 6 'TOTAL (STATES)': printed 503, sum 235",
+   "col 7 'TOTAL (STATES)': printed 540, sum 52",
+   "col 8 'TOTAL (STATES)': printed 1634, sum 439",
+   "col 9 'TOTAL (STATES)': printed 662, sum 313",
+   "col 10 'TOTAL (STATES)': printed 64, sum 0"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

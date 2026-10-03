@@ -8,90 +8,152 @@
  "serial": "81",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1995 (State, UT & City-Wise) Burglary",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1995 (State, UT & City-Wise) Burglary",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-81-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-81-1995-crime-survey.pdf",
  "source_sha256": "a0d5b3a217b8e070058e92aeacf257413cd82e68804217dc53cedda5eecc1198",
  "table_no": "81",
- "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF",
- "row_label": "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY SL. STATE/UT/CITY ne: q) / OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY RESIDENTIAL PREMISES NUMBER (3)}",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-81",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 20,
- "n_cols": 7,
- "n_cells": 36,
+ "n_rows": 116,
+ "n_cols": 15,
+ "n_cells": 870,
  "columns": [
   {
-   "col_no": "4",
-   "name": "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY | RESIDENTIAL PREMISES | VALUE",
+   "col_no": "3",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY",
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RESIDENTIAL PREMISES | VALUE",
+   "header": [
     "RESIDENTIAL PREMISES",
     "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY | HIGHWAYS NUMBER T",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY",
-    "HIGHWAYS NUMBER T"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY | VALUE (6)",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY",
+    "HIGHWAYS",
     "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY | RIVER & SEA NUMBER 171",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY",
-    "RIVER & SEA NUMBER 171"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY | VALUE (8)",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY",
+    "RIVER & SEA",
     "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY | (Rs. in lakh) RAILWAYS | NUMBER",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY",
-    "(Rs. in lakh) RAILWAYS",
+    "RAILWAYS",
     "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY | (Rs. in lakh) RAILWAYS | VALUE",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "OCCURRENCE DURING 1995 (STATE, UT & CITY-WISE) BURGLARY",
-    "(Rs. in lakh) RAILWAYS",
+    "RAILWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BANKS | VALUE",
+   "header": [
+    "BANKS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
     "VALUE"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

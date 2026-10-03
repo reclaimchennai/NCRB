@@ -8,67 +8,78 @@
  "serial": "55",
  "title": "Disposal of Persons Arrested under Local and Special Laws under Trial in Courts During 1987",
  "listing_title": "Disposal of Persons Arrested under Local and Special Laws under Trial in Courts During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_29-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_29-1987.pdf",
  "source_sha256": "a41b25471b5db8d75a6a7f970291de70b64246299f27c1052970d84b74d7c0a4",
  "table_no": "29",
- "pdf_title": "Disposal Of Persons Arrested Under Local And Special Laws Under Trial In Courts During 1987",
- "row_label": "sl No / Crime / Heads of under persons trial during ineclnding year persons over previous",
+ "pdf_title": "98 TABLE - 29 Disposal Of Persons Arrested Under Local And Special Laws Under Trial In Courts During 1987",
+ "row_label": "S1 No / Crime Heads",
  "pages": [
   1,
   2
  ],
- "n_rows": 18,
- "n_cols": 5,
- "n_cells": 65,
+ "n_rows": 14,
+ "n_cols": 7,
+ "n_cells": 91,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Total of $ Number persons inst the cases carried from year",
+   "col_no": "3",
+   "name": "Total number of persons under trial during the year including persons carried over from previous year",
    "header": [
-    "Total of $ Number persons inst the cases carried from year"
+    "Total number of persons under trial during the year including persons carried over from previous year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of persons against whom cases were compounded or withdrawn",
+   "header": [
+    "Number of persons against whom cases were compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "nimber in Fersons whose cases agatrials whom were completed were OTF",
+   "name": "Persons in whose cases trials were completed",
    "header": [
-    "nimber in Fersons whose cases agatrials whom were completed were OTF"
+    "Persons in whose cases trials were completed"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Persons in custody or on bail at the end of the year",
+   "header": [
+    "Persons in custody or on bail at the end of the year"
    ]
   },
   {
    "col_no": "7",
-   "name": "of Number persons convicted bail the end year",
+   "name": "Number of persons convicted during the year",
    "header": [
-    "of Number persons convicted bail the end year"
+    "Number of persons convicted during the year"
    ]
   },
   {
    "col_no": "8",
-   "name": "%age in or during trial year total to of under",
+   "name": "%age of persons in custody or on bail pen -ding trial to total No of persons under trial",
    "header": [
-    "%age in or during trial year total to of under"
+    "%age of persons in custody or on bail pen -ding trial to total No of persons under trial"
    ]
   },
   {
    "col_no": "9",
-   "name": "of of perconvicted sons persons total to custody perwhose in on bail sons trials -ding were cases No during completed the year persons trial",
+   "name": "%age of per- sons convicted to total per- sons in whose cases trials were completed during the year",
    "header": [
-    "of of perconvicted sons persons total to custody perwhose in on bail sons trials -ding were cases No during completed the year persons trial"
+    "%age of per- sons convicted to total per- sons in whose cases trials were completed during the year"
    ]
   }
  ],
- "notes": [
-  "under Local and Special",
-  "Laws"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
+  "other_totals_checked": 5,
   "other_totals_passed": 3
  },
  "inferred_pages": 0,

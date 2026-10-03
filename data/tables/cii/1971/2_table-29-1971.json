@@ -8,75 +8,77 @@
  "serial": "2",
  "title": "Statement indicating Number of Cases Reported and Value of Property Stolen under Dacoity by Place of Occurrences",
  "listing_title": "Statement indicating Number of Cases Reported and Value of Property Stolen under Dacoity by Place of Occurrences",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-29-1971.pdf",
  "source_file": "raw/cii/1971/table_content/table-29-1971.pdf",
  "source_sha256": "81ea30c4c91814b08931e3585424c7a5480ceb99f9a289409f572c24433df05d",
  "table_no": "29",
- "pdf_title": "Statement Indicating Number of Cases Reported and Value of Property Stolen Dacoity by Place of Occurences",
- "row_label": "SI. No. / States/U.Ts./Cities",
+ "pdf_title": "61 TABLE 29 Statement Indicating Number of Cases Reported and Value of Property Stolen Under Dacoity by Place of Occurrences",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
+  1,
+  1,
   1
  ],
- "n_rows": 5,
+ "n_rows": 37,
  "n_cols": 12,
- "n_cells": 49,
+ "n_cells": 444,
  "columns": [
   {
    "col_no": "3",
-   "name": "Residential | No.of cases reported",
+   "name": "Residential Premises | No. of cases reported",
    "header": [
-    "Residential",
-    "No.of cases reported"
+    "Residential Premises",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "4",
-   "name": "Residential | Value of property stolen",
+   "name": "Residential Premises | Value of property stolen",
    "header": [
-    "Residential",
+    "Residential Premises",
     "Value of property stolen"
    ]
   },
   {
    "col_no": "5",
-   "name": "Highways | No. of cases ed",
+   "name": "Highways | No. of cases reported",
    "header": [
     "Highways",
-    "No. of cases ed"
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "6",
-   "name": "Highways | Vatue of perty stolen",
+   "name": "Highways | Value of property stolen",
    "header": [
     "Highways",
-    "Vatue of perty stolen"
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "7",
-   "name": "Railway | No. of cases ed",
+   "name": "Railway | No. of cases reported",
    "header": [
     "Railway",
-    "No. of cases ed"
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "8",
-   "name": "Railway | Value of stolen",
+   "name": "Railway | Value of property stolen",
    "header": [
     "Railway",
-    "Value of stolen"
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "9",
-   "name": "River & Sea | No. of cases report- pro- report- pro- repoopertyrted",
+   "name": "River & Sea | No. of cases reported",
    "header": [
     "River & Sea",
-    "No. of cases report- pro- report- pro- repoopertyrted"
+    "No. of cases reported"
    ]
   },
   {
@@ -89,55 +91,46 @@
   },
   {
    "col_no": "11",
-   "name": "River & Sea | No. of cases reported",
+   "name": "Banks | No. of cases reported",
    "header": [
-    "River & Sea",
+    "Banks",
     "No. of cases reported"
    ]
   },
   {
    "col_no": "12",
-   "name": "Banks Vaof property stolen",
+   "name": "Banks | Value of property stolen",
    "header": [
-    "Banks Vaof property stolen"
+    "Banks",
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "13",
-   "name": "Commercial Establishments | No. of cases",
+   "name": "Commercial Establishments | No. of cases reported",
    "header": [
     "Commercial Establishments",
-    "No. of cases"
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "14",
-   "name": "Commercial Establishments | Value of report- pro; perty Stolen",
+   "name": "Commercial Establishments | Value of property stolen",
    "header": [
     "Commercial Establishments",
-    "Value of report- pro; perty Stolen"
+    "Value of property stolen"
    ]
   }
  ],
- "notes": [
-  "U.Ts.",
-  "21 A. & N. Islands se we we Pre aa 0 git: ty Sie aid Pe",
-  "25 Goa 5 ‘ 1 0°03 Re a aid Pe <0 ae as",
-  "27 Pondicherry i 1 0:04 8 - re a8 st 8 as és",
-  "TOTAL 2 0-07 1 are - aah cr - - sie Se",
-  "GRAND TOTAL - 8,755 258°64 731 23-93 115 6°36 7 O11 3 18°15 $5 2°27",
-  "3 Bombay 3 0-01 2% sis 3% a za - ay 2 0-08",
-  "4 Calcutta. 11 0°57 14 0°82 or Ar a 1 are 12 0°63",
-  "TOTAL - 42 1°50 15 0°82 aia a zis 30 1 oe 14 0°71"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

@@ -8,47 +8,65 @@
  "serial": "30",
  "title": "Percentage of IPC Crime Cases Disposed of by Police During 1991",
  "listing_title": "Percentage of IPC Crime Cases Disposed of by Police During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-14-1991-14.pdf",
  "source_file": "raw/cii/1991/table_content/table-14-1991-14.pdf",
  "source_sha256": "b384ce324839282e85974a6990c3146937d2d12fb27533c86abfc6d4385fab6a",
- "table_no": "",
- "pdf_title": "PERCENTAGE OF [PC CRIME CASES DISPOSED OF BY POLICE DURING 1971",
- "row_label": "CRIME SL. nO. (23 1 / HEAD GATIOM CHARGE FOUND REFUSES FALSES WISTAKE OF LAU €T¢. ah 0.2",
+ "table_no": "14",
+ "pdf_title": "90 TABLE-14 PERCENTAGE OF IPC CRIME CASES DISPOSED OF BY POLICE DURING 1991",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 17,
- "n_cols": 4,
- "n_cells": 62,
+ "n_rows": 18,
+ "n_cols": 6,
+ "n_cells": 108,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERCENTAGE OF JM WHICH ee ee WAS REPORT TRUE SUBHITTeo (4) z.0",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "PERCENTAGE OF JM WHICH ee ee WAS REPORT TRUE SUBHITTeo (4) z.0"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "4",
-   "name": "CASES CASES eee COMPLETED (CHARGE SHEETS WERE LAID cS3 14.7",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS CHARGE FOUND FALSE/MISTAKE OF LAU ETC.",
    "header": [
-    "CASES CASES eee COMPLETED (CHARGE SHEETS WERE LAID cS3 14.7"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS CHARGE FOUND FALSE/MISTAKE OF LAU ETC."
    ]
   },
   {
    "col_no": "5",
-   "name": "TO FOR TOTAL ((43e¢5) *(6)) (6) 46.4",
+   "name": "PERCENTAGE OF CASES | INVESTIGATION WAS COMPLETED FINAL REPORT TRUE SUBMIT- TEO",
    "header": [
-    "TO FOR TOTAL ((43e¢5) *(6)) (6) 46.4"
+    "PERCENTAGE OF CASES",
+    "INVESTIGATION WAS COMPLETED FINAL REPORT TRUE SUBMIT- TEO"
    ]
   },
   {
    "col_no": "6",
-   "name": "TOTAL TAGE oF CASES. GATIONW tf) Bi 34.6 63.2",
+   "name": "PERCENTAGE OF CASES | CHARGE SHEETS WERE LAID",
    "header": [
-    "TOTAL TAGE oF CASES. GATIONW tf) Bi 34.6 63.2"
+    "PERCENTAGE OF CASES",
+    "CHARGE SHEETS WERE LAID"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TOTAL ((4)+(5) + (6))",
+   "header": [
+    "TOTAL ((4)+(5) + (6))"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PENDING INVESTIGATION",
+   "header": [
+    "PENDING INVESTIGATION"
    ]
   }
  ],
@@ -60,7 +78,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

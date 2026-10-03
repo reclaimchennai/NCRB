@@ -6,89 +6,85 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "51",
- "title": "Tame",
+ "title": "102 TABLE Statement indicating motive of Murder and Calpable Homicide",
  "listing_title": "Statement Indicating Motive of Murder and Culpable Homicide not amounting to Murder in Different States /U.T.s/Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-52-1974_0.pdf",
  "source_sha256": "90b8d7e78f31f43a498e3940c1e3c00d1b29e00ebec9ccf4c79856c021d9fa4d",
  "table_no": "",
- "pdf_title": "Tame",
- "row_label": "7 81. No. 1",
+ "pdf_title": "102 TABLE Statement indicating motive of Murder and Calpable Homicide",
+ "row_label": "Sl. States/U.Ts./Cities No.",
  "pages": [
   2
  ],
- "n_rows": 40,
+ "n_rows": 42,
  "n_cols": 8,
- "n_cells": 270,
+ "n_cells": 336,
  "columns": [
   {
-   "col_no": "2",
-   "name": "7 | Galn Merder 2",
-   "header": [
-    "7",
-    "Galn Merder 2"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "ove | ee | 3",
+   "name": "Gain | Murder",
    "header": [
-    "ove",
-    "ee",
-    "3"
+    "Gain",
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "ove | ee | 4",
+   "name": "Gain | C.H. not amounting to murder",
    "header": [
-    "ove",
-    "ee",
-    "4"
+    "Gain",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "ove | to marder gg",
+   "name": "Dispute over Property | Murder",
    "header": [
-    "ove",
-    "to marder gg"
+    "Dispute over Property",
+    "Murder"
    ]
   },
   {
    "col_no": "6",
-   "name": "oe | Persozal | - 1 ay",
+   "name": "Dispute over Property | C.H. not amounting to murder",
    "header": [
-    "oe",
-    "Persozal",
-    "- 1 ay"
+    "Dispute over Property",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "7",
-   "name": "oe | Persozal | t",
+   "name": "Personal Violence | Murder",
    "header": [
-    "oe",
-    "Persozal",
-    "t"
+    "Personal Violence",
+    "Murder"
    ]
   },
   {
    "col_no": "8",
-   "name": "oe | to 9",
+   "name": "Personal Violence | C.H. not amounting to murder",
    "header": [
-    "oe",
-    "to 9"
+    "Personal Violence",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "9",
-   "name": "oe | comes 10",
+   "name": "Sexual causes | Murder",
    "header": [
-    "oe",
-    "comes 10"
+    "Sexual causes",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Sexual causes | C.H. not amounting to murder",
+   "header": [
+    "Sexual causes",
+    "C.H. not amounting to murder"
    ]
   }
  ],
@@ -97,10 +93,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 26,
+  "other_totals_passed": 24
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

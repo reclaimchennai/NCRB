@@ -8,49 +8,56 @@
  "serial": "42",
  "title": "Persons Arrested under Local and Special Laws During 1991 (Crime-Head & Sex-wise)",
  "listing_title": "Persons Arrested under Local and Special Laws During 1991 (Crime-Head & Sex-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26-1991-26.pdf",
  "source_file": "raw/cii/1991/table_content/table-26-1991-26.pdf",
  "source_sha256": "e5bb0fe55a7847fa6c2cade8852ed0c0d5f5c4d691c1e5ad9fcaa3315ddd8a44",
- "table_no": "",
- "pdf_title": "TABLE=26 PERSONS ARRESTED UNDER LOCAL AND SPECIAL LAWS DURING 1991",
- "row_label": "CCRIME-HEAG & SEX-WISE) HO. 1 / CCRIME-HEAG & SEX-WISE) ARMS ACT",
+ "table_no": "26",
+ "pdf_title": "113 TABLE-26 PERSONS ARRESTED UNDER LOCAL AND SPECIAL LAWS DURING 1991 (CRIME-HEAD & SEX-WISE)",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 16,
- "n_cols": 4,
- "n_cells": 54,
+ "n_rows": 17,
+ "n_cols": 5,
+ "n_cells": 85,
  "columns": [
   {
    "col_no": "3",
-   "name": "CCRIME-HEAG & SEX-WISE) | 65401",
+   "name": "MALE",
    "header": [
-    "CCRIME-HEAG & SEX-WISE)",
-    "65401"
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "CCRIME-HEAG & SEX-WISE) | 68",
+   "name": "FEMALE",
    "header": [
-    "CCRIME-HEAG & SEX-WISE)",
-    "68"
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "HALE sse6F",
+   "name": "TOTAL",
    "header": [
-    "HALE sse6F"
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "FEMALE o.1 9.8",
+   "name": "PERCENTAGE | MALE",
    "header": [
-    "FEMALE o.1 9.8"
+    "PERCENTAGE",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TO TOTAL | FEMALE",
+   "header": [
+    "TO TOTAL",
+    "FEMALE"
    ]
   }
  ],
@@ -59,10 +66,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

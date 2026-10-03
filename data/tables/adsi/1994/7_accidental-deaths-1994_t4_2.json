@@ -6,74 +6,53 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1994",
  "serial": "7",
- "title": "Age-wise Distribution of Accidental Deaths by Un-natural Causes During 1994",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 37 TABLE - 4",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1994.pdf",
  "source_file": "raw/adsi/1994/year_wise/accidental-deaths-1994.pdf",
  "source_sha256": "6ccee761c6f40bf3060f2134e781f1ee69f2bad9f14e7e9b405ebb26af808c5e",
  "table_no": "4",
- "pdf_title": "Age-wise Distribution of Accidental Deaths by Un-natural Causes During 1994",
- "row_label": "Comparative Sl. No. / Comparative State/UT",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 37 TABLE - 4",
+ "row_label": "Incidence",
  "pages": [
   22,
+  22,
   23,
-  24,
-  24
+  23
  ],
- "n_rows": 96,
- "n_cols": 5,
- "n_cells": 329,
+ "n_rows": 59,
+ "n_cols": 3,
+ "n_cells": 175,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Of Incidence (State & UT-wise) Incide 1ce 1993",
+   "col_no": "4",
+   "name": "Incidence",
    "header": [
-    "Of Incidence (State & UT-wise) Incide 1ce 1993"
+    "Incidence"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Of Acciuental During 1994",
-   "header": [
-    "Of Acciuental During 1994"
-   ]
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "1994 1993 And Deaths Percentage Variation in 1994 over 1993",
-   "header": [
-    "1994 1993 And Deaths Percentage Variation in 1994 over 1993"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "1994 Above 50 years",
-   "header": [
-    "1994 Above 50 years"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Total Male",
-   "header": [
-    "Total Male"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
- "notes": [
-  "@ - Infinite increase.",
-  "Gi/ O/ GY",
-  "Pa Hoos) 18 YR8. YR. 6) 1. & ABOVE",
-  "2.@"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 6,
-  "cells_passed": 6,
-  "failures": [],
-  "other_totals_checked": 8,
-  "other_totals_passed": 1
+  "cells_passed": 5,
+  "failures": [
+   "col 4 'Total (States)': printed 182617, sum 184611"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 4,

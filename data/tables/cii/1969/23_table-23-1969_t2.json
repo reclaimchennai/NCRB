@@ -6,49 +6,41 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "23",
- "title": "‘OR INJURED ON DUTY",
+ "title": "71 23 OR INJURED ON DUTY",
  "listing_title": "Number of Police Personnel Killed or Injured on Duty",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-23-1969.pdf",
  "source_file": "raw/cii/1969/table_content/table-23-1969.pdf",
  "source_sha256": "19ff37873eb18e8f932f63e91291bc38203e400e57445b402a4d4f432b9fff8d",
  "table_no": "",
- "pdf_title": "‘OR INJURED ON DUTY",
- "row_label": "personnel accidents",
+ "pdf_title": "71 23 OR INJURED ON DUTY",
+ "row_label": "personnel In accidents",
  "pages": [
   2
  ],
- "n_rows": 34,
- "n_cols": 8,
- "n_cells": 252,
+ "n_rows": 19,
+ "n_cols": 7,
+ "n_cells": 133,
  "columns": [
   {
    "col_no": "2",
-   "name": "personnel | In",
+   "name": "personnel | Total",
    "header": [
     "personnel",
-    "In"
+    "Total"
    ]
   },
   {
    "col_no": "3",
-   "name": "Number of injured personnel | Total or",
+   "name": "Number of injured personnel | In dacoity operations or raids",
    "header": [
     "Number of injured personnel",
-    "Total or"
+    "In dacoity operations or raids"
    ]
   },
   {
    "col_no": "4",
-   "name": "Number of injured personnel | In dacoity operations raids",
-   "header": [
-    "Number of injured personnel",
-    "In dacoity operations raids"
-   ]
-  },
-  {
-   "col_no": "5",
    "name": "Number of injured personnel | By Riotous Mobs",
    "header": [
     "Number of injured personnel",
@@ -56,35 +48,35 @@
    ]
   },
   {
-   "col_no": "6",
-   "name": "Number of injured personnel | By criminals",
+   "col_no": "5",
+   "name": "Number of injured personnel | By other criminals",
    "header": [
     "Number of injured personnel",
-    "By criminals"
+    "By other criminals"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Number of injured personnel | On border duties",
+   "header": [
+    "Number of injured personnel",
+    "On border duties"
    ]
   },
   {
    "col_no": "7",
-   "name": "Number of injured personnel | other border duties",
+   "name": "Number of injured personnel | In accidents",
    "header": [
     "Number of injured personnel",
-    "other border duties"
+    "In accidents"
    ]
   },
   {
    "col_no": "8",
-   "name": "Number of injured personnel | On accidents",
+   "name": "Number of injured personnel | Total",
    "header": [
     "Number of injured personnel",
-    "On accidents"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Number of injured personnel | Total In",
-   "header": [
-    "Number of injured personnel",
-    "Total In"
+    "Total"
    ]
   }
  ],
@@ -96,7 +88,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

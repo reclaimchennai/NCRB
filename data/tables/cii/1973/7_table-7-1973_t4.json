@@ -6,35 +6,76 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "during the yoar",
+ "title": "32. TABLE Statement showing Citywise Incidence of",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "during the yoar",
- "row_label": "Robbery 8 2 i aM 6 5 360 5 / Burglary 10 bay 595 530 ase mp / ‘Thefts tl 214 eis 202 m5 67 2,1 / Criminal Riots breach of 12 16 44 M4 166 146 / Cheating 13 a5 a2 14 3",
+ "pdf_title": "32. TABLE Statement showing Citywise Incidence of",
+ "row_label": "Sl.No. / Name of City",
  "pages": [
+  3,
   4
  ],
- "n_rows": 32,
- "n_cols": 2,
- "n_cells": 56,
+ "n_rows": 79,
+ "n_cols": 7,
+ "n_cells": 475,
  "columns": [
   {
-   "col_no": "6",
-   "name": "Coumer. under 4 1 2 i 6 ot",
+   "col_no": "3",
+   "name": "Number of cases reported | Murder",
    "header": [
-    "Coumer. under 4 1 2 i 6 ot"
+    "Number of cases reported",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of cases reported | Culpable Homicide not amounting to murder",
+   "header": [
+    "Number of cases reported",
+    "Culpable Homicide not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of cases reported | Rape",
+   "header": [
+    "Number of cases reported",
+    "Rape"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Number of cases reported | Kidnapping and Abduction",
+   "header": [
+    "Number of cases reported",
+    "Kidnapping and Abduction"
    ]
   },
   {
    "col_no": "7",
-   "name": "Tor) ‘Crime is 2,763 4,508 2200 5,267 - - 5,524",
+   "name": "Number of cases reported | District",
    "header": [
-    "Tor) ‘Crime is 2,763 4,508 2200 5,267 - - 5,524"
+    "Number of cases reported",
+    "District"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Burglary",
+   "header": [
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total Cognizable Crime under IPC",
+   "header": [
+    "Total Cognizable Crime under IPC"
    ]
   }
  ],
@@ -46,7 +87,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

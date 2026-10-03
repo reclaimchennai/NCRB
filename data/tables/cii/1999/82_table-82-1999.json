@@ -8,81 +8,97 @@
  "serial": "82",
  "title": "Persons Arrested Under Custodial Rape and Their Disposal by Police and Courts During 1999",
  "listing_title": "Persons Arrested Under Custodial Rape and Their Disposal by Police and Courts During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-82-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-82-1999.pdf",
  "source_sha256": "d5e7d761a702f646c8fc08ba6888fd623048dbfd47afb7e7067390baed3151b9",
  "table_no": "82",
- "pdf_title": "",
- "row_label": "PEKSONS SL.NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 82",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 49,
- "n_cols": 9,
- "n_cells": 268,
+ "n_rows": 36,
+ "n_cols": 12,
+ "n_cells": 420,
  "columns": [
   {
-   "col_no": "2",
-   "name": "UNDER CUSTODIAL RAPE AND - CUDIUDT ORON THESTAGEOF INVESTIGATION AT THE OF THE YEAR 4",
-   "header": [
-    "UNDER CUSTODIAL RAPE AND - CUDIUDT ORON THESTAGEOF INVESTIGATION AT THE OF THE YEAR 4"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "DISPOSAL BY POLICE AND COURTS DURING 1999 | i PERSONS 42@557F YEAR -",
+   "name": "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE BEGINNING OF THE YEAR",
    "header": [
-    "DISPOSAL BY POLICE AND COURTS DURING 1999",
-    "i PERSONS 42@557F YEAR -"
+    "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE BEGINNING OF THE YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "DISPOSAL BY POLICE AND COURTS DURING 1999 | PERSONS «= BETEACENOR FREED BY POLICEOR MAGISTRATE BEFORE TRIAL FOR WANT OF EVIDENCE UX ANY OTHER",
+   "name": "PERSONS ARRESTED DURING THE YEAR",
    "header": [
-    "DISPOSAL BY POLICE AND COURTS DURING 1999",
-    "PERSONS «= BETEACENOR FREED BY POLICEOR MAGISTRATE BEFORE TRIAL FOR WANT OF EVIDENCE UX ANY OTHER"
+    "PERSONS ARRESTED DURING THE YEAR"
    ]
   },
   {
    "col_no": "5",
-   "name": "DISPOSAL BY POLICE AND COURTS DURING 1999 | CUSTODY OR ONBAIL 9 DURING THE STAGE OF INVESTIGATION AT THE END OF ‘THE YEAR",
+   "name": "PERSONS RELEASED OR FREED BY POLICE OR MAGISTRATE BEFORE TRIAL FOR WANT OF EVIDENCE OR ANY OTHER REASON",
    "header": [
-    "DISPOSAL BY POLICE AND COURTS DURING 1999",
-    "CUSTODY OR ONBAIL 9 DURING THE STAGE OF INVESTIGATION AT THE END OF ‘THE YEAR"
+    "PERSONS RELEASED OR FREED BY POLICE OR MAGISTRATE BEFORE TRIAL FOR WANT OF EVIDENCE OR ANY OTHER REASON"
    ]
   },
   {
    "col_no": "6",
-   "name": "DISPOSAL BY POLICE AND COURTS DURING 1999 | IN WHOSE CHARGE SUBMILIED DURING THE YEAR",
+   "name": "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE END OF THE YEAR",
    "header": [
-    "DISPOSAL BY POLICE AND COURTS DURING 1999",
-    "IN WHOSE CHARGE SUBMILIED DURING THE YEAR"
+    "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "DISPOSAL BY POLICE AND COURTS DURING 1999 | PERSONS UNDEK TRAIL AT THE OF THE YEAR",
+   "name": "PERSONS IN WHOSE CASES CHARGE SHEETS WERE SUBMITTED DURING THE YEAR",
    "header": [
-    "DISPOSAL BY POLICE AND COURTS DURING 1999",
-    "PERSONS UNDEK TRAIL AT THE OF THE YEAR"
+    "PERSONS IN WHOSE CASES CHARGE SHEETS WERE SUBMITTED DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PERSONS UNDER TRAIL AT THE BEGINNING OF THE YEAR",
+   "header": [
+    "PERSONS UNDER TRAIL AT THE BEGINNING OF THE YEAR"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "TOTAL NUMBER OF PERSONS UNDER TRIAL DURING THE YEAR",
+   "header": [
+    "TOTAL NUMBER OF PERSONS UNDER TRIAL DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PERSONS AGAINST WHOM CASES WERE COMPOUNDED OR WITH-DRAWN",
+   "header": [
+    "PERSONS AGAINST WHOM CASES WERE COMPOUNDED OR WITH-DRAWN"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF TRIAL AT THE END OF THE YEAR",
+   "header": [
+    "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF TRIAL AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "12",
-   "name": "PERSONSIN WHOSE CASES - DURING THE TRIALS WERE COMPLETED DURING THE YEAR",
+   "name": "PERSONS IN WHOSE CASES TRIALS WERE COMPLETED DURING THE YEAR",
    "header": [
-    "PERSONSIN WHOSE CASES - DURING THE TRIALS WERE COMPLETED DURING THE YEAR"
+    "PERSONS IN WHOSE CASES TRIALS WERE COMPLETED DURING THE YEAR"
    ]
   },
   {
    "col_no": "13",
-   "name": "PERSONS CONVICTED (1.3)",
+   "name": "PERSONS CONVICTED",
    "header": [
-    "PERSONS CONVICTED (1.3)"
+    "PERSONS CONVICTED"
    ]
   },
   {
@@ -93,19 +109,15 @@
    ]
   }
  ],
- "notes": [
-  "TOTAL TOTAL (ALL-INDIA) - » gs. §"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 4,
-  "failures": [
-   "col 2 'TOTAL STATES': printed 2, sum 10"
-  ],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "cells_checked": 33,
+  "cells_passed": 33,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

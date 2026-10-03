@@ -1,0 +1,62 @@
+{
+ "table_id": "adsi/1974/2_accidental-deaths-1974-0_tiii",
+ "publication": "adsi",
+ "year": 1974,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1974",
+ "serial": "2",
+ "title": "9 TABLE III Statewise distribution of incidence of Accidental Deaths in India during 1974",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1974_0.pdf",
+ "source_file": "raw/adsi/1974/year_wise/accidental-deaths-1974_0.pdf",
+ "source_sha256": "c6cddbcabd5280627c65acbfaf88f57d8d4f1f4f37c53d88b7f1566ca57bce09",
+ "table_no": "III",
+ "pdf_title": "9 TABLE III Statewise distribution of incidence of Accidental Deaths in India during 1974",
+ "row_label": "Sl. No. / Number of States/U.Ts./Cities",
+ "pages": [
+  8
+ ],
+ "n_rows": 35,
+ "n_cols": 3,
+ "n_cells": 104,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Accidental Deaths (3)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of Accidental Deaths (4)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Percentage variation from 1973 to 1974",
+   "header": [
+    "Percentage variation from 1973 to 1974"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 103720, sum 105696",
+   "col 4 'TOTAL (STATES)': printed 108003, sum 109981"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

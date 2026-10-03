@@ -6,47 +6,86 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1994",
  "serial": "7",
- "title": "Incidence Of Accidental Deaths By Causes During 1994",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 20 1.1.2 Although the annual growth of 'Accidental Deaths' at compound rate has been estimated to be 4.0 percent during 1984-94, it is observed that during 1994 there was a decline of 1.0 percent in such deaths compared to those in the previous year. The main contributory factor for this decline has been the substantial decrease to the tune of 60% in the 'Accidental Deaths' by natural causes. There was, however, a marginal increase of 2.6 percent in these deaths, due to un-natural causes in 1994. The table below presents the distribution and percentage variation of 'Accidental Deaths' by Natural and Un-natural causes during five years:",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1994.pdf",
  "source_file": "raw/adsi/1994/year_wise/accidental-deaths-1994.pdf",
  "source_sha256": "6ccee761c6f40bf3060f2134e781f1ee69f2bad9f14e7e9b405ebb26af808c5e",
- "table_no": "3",
- "pdf_title": "Incidence Of Accidental Deaths By Causes During 1994",
- "row_label": "Sl. No. / Causes of Accidental Deaths",
+ "table_no": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 20 1.1.2 Although the annual growth of 'Accidental Deaths' at compound rate has been estimated to be 4.0 percent during 1984-94, it is observed that during 1994 there was a decline of 1.0 percent in such deaths compared to those in the previous year. The main contributory factor for this decline has been the substantial decrease to the tune of 60% in the 'Accidental Deaths' by natural causes. There was, however, a marginal increase of 2.6 percent in these deaths, due to un-natural causes in 1994. The table below presents the distribution and percentage variation of 'Accidental Deaths' by Natural and Un-natural causes during five years:",
+ "row_label": "Sl. No.",
  "pages": [
-  12
+  5
  ],
- "n_rows": 31,
- "n_cols": 2,
- "n_cells": 62,
+ "n_rows": 5,
+ "n_cols": 7,
+ "n_cells": 35,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Number of Accidental Deaths",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "Number of Accidental Deaths"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Natural Causes | Incidence",
+   "header": [
+    "Natural Causes",
+    "Incidence"
    ]
   },
   {
    "col_no": "4",
-   "name": "Percentage Share of Each Cause",
+   "name": "Natural Causes | % variation over previous year",
    "header": [
-    "Percentage Share of Each Cause"
+    "Natural Causes",
+    "% variation over previous year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Un-natural Causes | Incidence",
+   "header": [
+    "Un-natural Causes",
+    "Incidence"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Un-natural Causes | % variation over previous year",
+   "header": [
+    "Un-natural Causes",
+    "% variation over previous year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total Accidental Deaths | Incidence",
+   "header": [
+    "Total Accidental Deaths",
+    "Incidence"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total Accidental Deaths | % variation over previous year",
+   "header": [
+    "Total Accidental Deaths",
+    "% variation over previous year"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 ts also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 3
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

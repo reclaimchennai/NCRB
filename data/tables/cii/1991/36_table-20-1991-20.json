@@ -8,47 +8,59 @@
  "serial": "36",
  "title": "Percentage of LSL Crime Cases Disposed of by Courts During 1991",
  "listing_title": "Percentage of LSL Crime Cases Disposed of by Courts During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20-1991-20.pdf",
  "source_file": "raw/cii/1991/table_content/table-20-1991-20.pdf",
  "source_sha256": "b51af27067b4c1925cae9089c8b98ea094996e920748ca517487de3bb52c05f8",
  "table_no": "20",
- "pdf_title": "PERCENTAGE OF LSL CRIME CASES DISPOSED OF BY COURTS OWRIMG 1991",
- "row_label": "Wo. / IN OR DRAWN",
+ "pdf_title": "96 TABLE-20 PERCENTAGE OF LSL CRIME CASES DISPOSED OF BY COURTS DURING 1991",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 4,
- "n_cells": 60,
+ "n_cols": 5,
+ "n_cells": 85,
  "columns": [
   {
    "col_no": "3",
-   "name": "CASES WHIEN TRIALS CONVICTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOUNDEDORWITH-DRAWN",
    "header": [
-    "CASES WHIEN TRIALS CONVICTED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "COMPOUNDEDORWITH-DRAWN"
    ]
   },
   {
    "col_no": "4",
-   "name": "FOR WERE TED CHARGED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE CONVICTED",
    "header": [
-    "FOR WERE TED CHARGED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "IN WHICH TRIALS WERE CONVICTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "TRIAL COMPLETED TOTAL OF",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPLETEDACQUIT-TED ORDIS-CHARGED",
    "header": [
-    "TRIAL COMPLETED TOTAL OF"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "COMPLETEDACQUIT-TED ORDIS-CHARGED"
    ]
   },
   {
    "col_no": "6",
-   "name": "PENDING qc4yecdy)",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | TOTAL((4)+(5))",
    "header": [
-    "PENDING qc4yecdy)"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "TOTAL((4)+(5))"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | PENDINGTRIAL",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "PENDINGTRIAL"
    ]
   }
  ],
@@ -60,7 +72,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

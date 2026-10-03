@@ -6,60 +6,84 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "22",
- "title": "$7 under IPC crimes by sex",
+ "title": "57 22 under IPC crimes by sex",
  "listing_title": "Persons Arrested under IPC Crime by Sex",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-22-1974_0.pdf",
  "source_sha256": "0c5f5bb75cc5806e8fa0dead75da5792274730b600ea7d7132c1f54a3634ca1d",
  "table_no": "",
- "pdf_title": "$7 under IPC crimes by sex",
- "row_label": "- Rape ‘ Male 10 9 10",
+ "pdf_title": "57 22 under IPC crimes by sex",
+ "row_label": "Rape Male",
  "pages": [
   3
  ],
- "n_rows": 39,
- "n_cols": 5,
- "n_cells": 181,
+ "n_rows": 23,
+ "n_cols": 8,
+ "n_cells": 184,
  "columns": [
   {
    "col_no": "2",
-   "name": "& | \" Male ul 191",
+   "name": "Rape | Female",
    "header": [
-    "&",
-    "\" Male ul 191"
+    "Rape",
+    "Female"
    ]
   },
   {
    "col_no": "3",
-   "name": "& | - Female’ Male 13 14",
+   "name": "Kidnapping & Abduction. | Male",
    "header": [
-    "&",
-    "- Female’ Male 13 14"
+    "Kidnapping & Abduction.",
+    "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "Decoity - Female” ae",
+   "name": "Kidnapping & Abduction. | Female",
    "header": [
-    "Decoity - Female” ae"
+    "Kidnapping & Abduction.",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "Robbery | - \"Male 14 6",
+   "name": "Decoity | Male",
    "header": [
-    "Robbery",
-    "- \"Male 14 6"
+    "Decoity",
+    "Male"
    ]
   },
   {
    "col_no": "6",
-   "name": "Robbery | Female’ Be 15 ie 2 Andhra Pradesh 375 1",
+   "name": "Decoity | Female",
+   "header": [
+    "Decoity",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Robbery | Male",
    "header": [
     "Robbery",
-    "Female’ Be 15 ie 2 Andhra Pradesh 375 1"
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Robbery | Female",
+   "header": [
+    "Robbery",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
    ]
   }
  ],
@@ -71,7 +95,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

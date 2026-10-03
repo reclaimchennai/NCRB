@@ -8,104 +8,74 @@
  "serial": "13",
  "title": "Persons Arrested under Local & Special Laws During 1983",
  "listing_title": "Persons Arrested under Local & Special Laws During 1983",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1983.pdf",
  "source_file": "raw/cii/1983/table_content/table-24-1983.pdf",
  "source_sha256": "7d9c87270aa5f994dd845190af6b5b4d76457654f2e28be7c6c1f8c0219cbc74",
- "table_no": "",
- "pdf_title": "TanrnY24",
- "row_label": "Sl. No. STATES Andhra Pradesh 1 Assam 2 - Bihar 3 2 4 Gujarat ‘ 5 Haryana Himachal Pradesh 6 7 / Persons arrested under Local & States/U.Ts. /Cities é é 3 ow a 3 3 6 Jammu®& Kashmir. / Persons arrested under Local & Act ‘ ‘ « es a - -",
+ "table_no": "24",
+ "pdf_title": "77 TABLE 24 Persons arrested under Local & Special Laws during 1983",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 80,
- "n_cols": 12,
- "n_cells": 446,
+ "n_rows": 96,
+ "n_cols": 8,
+ "n_cells": 606,
  "columns": [
   {
-   "col_no": "4",
-   "name": "darsng 1983 | - Exsian Act 4 32 F oo 2,657 ‘ 57 ‘ -",
+   "col_no": "3",
+   "name": "Opium Act",
    "header": [
-    "darsng 1983",
-    "- Exsian Act 4 32 F oo 2,657 ‘ 57 ‘ -"
+    "Opium Act"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Excise Act",
+   "header": [
+    "Excise Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "darsng 1983 | Prohihitian Act 3 116 om 1,37,498 6",
+   "name": "Prohibition Act",
    "header": [
-    "darsng 1983",
-    "Prohihitian Act 3 116 om 1,37,498 6"
+    "Prohibition Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "Customs Act 3,557 1,943 sia 1,492 a ae 12,045 a 3,860 34 a",
+   "name": "Customs Act",
    "header": [
-    "Customs Act 3,557 1,943 sia 1,492 a ae 12,045 a 3,860 34 a"
+    "Customs Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "Gambling Act 32,078 578 1,150 54,159 5,344 oe 47 ae 342 a",
+   "name": "Gambling Act",
    "header": [
-    "Gambling Act 32,078 578 1,150 54,159 5,344 oe 47 ae 342 a"
+    "Gambling Act"
    ]
   },
   {
    "col_no": "10001",
-   "name": "-S.LT. in women and girls Act",
-   "header": [
-    "-S.LT. in women and girls Act"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Prevention of Corruption ‘Act",
-   "header": [
-    "Prevention of Corruption ‘Act"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Motor Vehicles Act",
-   "header": [
-    "Motor Vehicles Act"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Indian Railways Act",
-   "header": [
-    "Indian Railways Act"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "Arms Act",
-   "header": [
-    "Arms Act"
-   ]
-  },
-  {
-   "col_no": "10006",
    "name": "Explosive and Explosive Substances Act",
    "header": [
     "Explosive and Explosive Substances Act"
    ]
   },
   {
-   "col_no": "10007",
+   "col_no": "10002",
    "name": "Other offences",
    "header": [
     "Other offences"
    ]
   },
   {
-   "col_no": "10008",
+   "col_no": "10003",
    "name": "Grand Total",
    "header": [
     "Grand Total"
@@ -114,19 +84,22 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 0,
+  "cells_checked": 32,
+  "cells_passed": 21,
   "failures": [
-   "col 10001 'TOTAL (States)': printed 15994, sum 4196",
-   "col 10006 'TOTAL (States)': printed 4287, sum 6020",
-   "col 10007 'TOTAL (States)': printed 1.18084e+06, sum 356931",
-   "col 10007 'TOTAL (U.Ts.)': printed 10783, sum 567232",
-   "col 10008 'TOTAL (States)': printed 3.13109e+06, sum 549788"
+   "col 3 'TOTAL (STATES)': printed 15994, sum 10994",
+   "col 5 'TOTAL (CITIES)': printed 53451, sum 53461",
+   "col 7 'TOTAL (STATES)': printed 347250, sum 347260",
+   "col 10001 'TOTAL (U.Ts.)': printed 46, sum 36",
+   "col 10001 'TOTAL (Cities)': printed 367, sum 360",
+   "col 10002 'TOTAL (STATES)': printed 1.18084e+06, sum 1.17435e+06",
+   "col 10002 'TOTAL (U.Ts.)': printed 10783, sum 2390",
+   "col 10002 'TOTAL (Cities)': printed 613551, sum 605109"
   ],
-  "other_totals_checked": 6,
-  "other_totals_passed": 0
+  "other_totals_checked": 11,
+  "other_totals_passed": 7
  },
- "inferred_pages": 3,
+ "inferred_pages": 0,
  "ocr_pages": 3,
  "warnings": []
 }

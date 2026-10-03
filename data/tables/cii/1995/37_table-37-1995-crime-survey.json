@@ -8,74 +8,79 @@
  "serial": "37",
  "title": "Disposal of Persons Arrested under IPC Crimes by Courts During 1995 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes by Courts During 1995 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-37-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-37-1995-crime-survey.pdf",
  "source_sha256": "2ac74db4f96b5c486b0459fdf36629b5ace4982518120a9dd8a2d4f97aa043cc",
  "table_no": "37",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURTS DURING 1995",
- "row_label": "SL. NO. / STATE/UT / TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-37",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
- "n_cols": 6,
- "n_cells": 208,
+ "n_cols": 7,
+ "n_cells": 245,
  "columns": [
   {
-   "col_no": "4",
-   "name": "(STATE CASES ComMPOUNDED a WITH DRAWN",
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "(STATE CASES ComMPOUNDED a WITH DRAWN"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH DRAWN",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "CASES COMPO-UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "& NO. OF PERSONS WHOSE TRIAL COMPLETED",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
    "header": [
-    "& NO. OF PERSONS WHOSE TRIAL COMPLETED"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "UT-WISE) TRIAL PENDING",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "UT-WISE) TRIAL PENDING"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. OF - PERSONS CONVICTED",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "NO. OF - PERSONS CONVICTED"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "- PENDENCY",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "- PENDENCY"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "9",
-   "name": "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 1,
-  "failures": [
-   "col 4 'F TOTAL (STATES)': printed 353624, sum 353622",
-   "col 4 'i TOTAL (UTs)': printed 2539, sum 2528"
-  ],
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

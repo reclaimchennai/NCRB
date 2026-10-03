@@ -6,28 +6,35 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "PERCENTAGE OF INDIAN CONVICTS TO TOTAL CONVICTS BY AGE GROUPS AT THE END OF 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-13",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
  "table_no": "13",
- "pdf_title": "PERCENTAGE OF INDIAN CONVICTS TO TOTAL CONVICTS BY AGE GROUPS AT THE END OF 1998",
- "row_label": "NO. / STATE/UT / BELOW 16 YEARS",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-13",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   83
  ],
- "n_rows": 34,
- "n_cols": 5,
- "n_cells": 152,
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 210,
  "columns": [
   {
-   "col_no": "4",
-   "name": "16-18 YEARS",
+   "col_no": "3",
+   "name": "BELOW 16 YEARS",
    "header": [
-    "16-18 YEARS"
+    "BELOW 16 YEARS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "16 - 18 YEARS",
+   "header": [
+    "16 - 18 YEARS"
    ]
   },
   {
@@ -53,13 +60,13 @@
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
   }
  ],
- "notes": [
-  "VA -DATA NOT AVAILABLE,"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

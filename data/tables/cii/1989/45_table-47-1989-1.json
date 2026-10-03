@@ -8,162 +8,171 @@
  "serial": "45",
  "title": "Classification of Juveniles Arrested (under IPC & LSL) by Attributes During 1989 (State, UT & City-Wise)",
  "listing_title": "Classification of Juveniles Arrested (under IPC & LSL) by Attributes During 1989 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-47-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-47-1989-1.pdf",
  "source_sha256": "2714b3d0be2c35d22b20a389b2669e40467b24f9c651d20e647b419caed4cb16",
  "table_no": "47",
- "pdf_title": "",
- "row_label": "STATE/UT/CITY SL. NO. a)",
+ "pdf_title": "160 TABLE-47 CLASSIFICATION OF JUVENILES ARRESTED (UNDER IPC & LSL)",
+ "row_label": "SL. NO. / SL. NO.",
  "pages": [
   1,
   2
  ],
- "n_rows": 47,
- "n_cols": 17,
- "n_cells": 764,
+ "n_rows": 94,
+ "n_cols": 18,
+ "n_cells": 843,
  "columns": [
   {
    "col_no": "3",
-   "name": "ILLITERATE",
+   "name": "STATE/UT/CITY",
    "header": [
-    "ILLITERATE"
+    "STATE/UT/CITY"
    ]
   },
   {
    "col_no": "4",
-   "name": "BY EDUCATION | PRIMARY .ABOVE",
+   "name": "BY EDUCATION | ILLI-TERATE",
    "header": [
     "BY EDUCATION",
-    "PRIMARY .ABOVE"
+    "ILLI-TERATE"
    ]
   },
   {
    "col_no": "5",
-   "name": "BY EDUCATION | nn PRIMARY BUT MATRIC/ H. ()",
+   "name": "BY EDUCATION | PRIMARY ABOVE PRIMARY BUT BELOW MATRIC/H. SEC.",
    "header": [
     "BY EDUCATION",
-    "nn PRIMARY BUT MATRIC/ H. ()"
+    "PRIMARY ABOVE PRIMARY BUT BELOW MATRIC/H. SEC."
    ]
   },
   {
    "col_no": "6",
-   "name": "CLASSIFICATION OF | MATRIC/ BELOW SEC.",
+   "name": "BY EDUCATION | MATRIC/H. SEC. & ABOVE",
    "header": [
-    "CLASSIFICATION OF",
-    "MATRIC/ BELOW SEC."
+    "BY EDUCATION",
+    "MATRIC/H. SEC. & ABOVE"
    ]
   },
   {
    "col_no": "7",
-   "name": "CLASSIFICATION OF | nnn TOTAL H, &",
+   "name": "BY EDUCATION | TOTAL",
    "header": [
-    "CLASSIFICATION OF",
-    "nnn TOTAL H, &"
+    "BY EDUCATION",
+    "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "JUVENILES (STATE, SEC. ABOVE",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH PARENTS",
    "header": [
-    "JUVENILES (STATE, SEC. ABOVE"
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH PARENTS"
    ]
   },
   {
    "col_no": "9",
-   "name": "UT BY FAMILY nnn nnn nnn ne LIVING LIVING WITH WITH GUARDPARENTS IANS",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARD-TANS",
    "header": [
-    "UT BY FAMILY nnn nnn nnn ne LIVING LIVING WITH WITH GUARDPARENTS IANS"
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH GUARD-TANS"
    ]
   },
   {
    "col_no": "10",
-   "name": "LSL) & IPC CITY-WISE) & 2-2 - nn TOTAL HOMELESS",
+   "name": "BY FAMILY BACKGROUND | HOME-LESS",
    "header": [
-    "LSL) & IPC CITY-WISE) & 2-2 - nn TOTAL HOMELESS"
+    "BY FAMILY BACKGROUND",
+    "HOME-LESS"
    ]
   },
   {
-   "col_no": "12",
-   "name": "BY LOWER INCOME RS. UPTO 500",
+   "col_no": "11",
+   "name": "BY FAMILY BACKGROUND | TOTAL",
    "header": [
-    "BY LOWER INCOME RS. UPTO 500"
+    "BY FAMILY BACKGROUND",
+    "TOTAL"
    ]
   },
   {
    "col_no": "13",
-   "name": "DURING | BY LOW/MID INCOME RS (FROM 501 PM 1000",
+   "name": "BY ECONOMIC-SETUP | LOW/MID INCOME (FROM RS 501 TO 1000 PM)",
    "header": [
-    "DURING",
-    "BY LOW/MID INCOME RS (FROM 501 PM 1000"
+    "BY ECONOMIC-SETUP",
+    "LOW/MID INCOME (FROM RS 501 TO 1000 PM)"
    ]
   },
   {
    "col_no": "14",
-   "name": "DURING | Sm MIDDLE INCOME (RS.1001 2000 TO PM)",
+   "name": "BY ECONOMIC-SETUP | MIDDLE INCOME (RS. 1001 TO 2000 PM)",
    "header": [
-    "DURING",
-    "Sm MIDDLE INCOME (RS.1001 2000 TO PM)"
+    "BY ECONOMIC-SETUP",
+    "MIDDLE INCOME (RS. 1001 TO 2000 PM)"
    ]
   },
   {
    "col_no": "15",
-   "name": "1989 ECONOMIC-SETUP UPP/MID INCOME TO PM)",
+   "name": "BY ECONOMIC-SETUP | UPP/MID INCOME (FROM RS 2001 TO 3000 PM)",
    "header": [
-    "1989 ECONOMIC-SETUP UPP/MID INCOME TO PM)"
+    "BY ECONOMIC-SETUP",
+    "UPP/MID INCOME (FROM RS 2001 TO 3000 PM)"
    ]
   },
   {
    "col_no": "16",
-   "name": "(STATE, UPPER INCOME (ABOVE (FROM RS.3000 2001 3000",
+   "name": "BY ECONOMIC-SETUP | UPPER INCOME (ABOVE RS. 3000 PM)",
    "header": [
-    "(STATE, UPPER INCOME (ABOVE (FROM RS.3000 2001 3000"
+    "BY ECONOMIC-SETUP",
+    "UPPER INCOME (ABOVE RS. 3000 PM)"
    ]
   },
   {
    "col_no": "17",
-   "name": "CITY-WISE) UT CS TOTAL RS TO PM)",
+   "name": "RECIDIVISM | TOTAL (17)",
    "header": [
-    "CITY-WISE) UT CS TOTAL RS TO PM)"
+    "RECIDIVISM",
+    "TOTAL"
    ]
   },
   {
    "col_no": "18",
-   "name": "& NEW DELINQUENTS PM)",
+   "name": "RECIDIVISM | NEW DELIN- QUENTS",
    "header": [
-    "& NEW DELINQUENTS PM)"
+    "RECIDIVISM",
+    "NEW DELIN- QUENTS"
    ]
   },
   {
    "col_no": "19",
-   "name": "TABLE-47 RECIDIVISM OLD DELINQUENTS",
+   "name": "RECIDIVISM | OLD DELIN- QUENTS",
    "header": [
-    "TABLE-47 RECIDIVISM OLD DELINQUENTS"
+    "RECIDIVISM",
+    "OLD DELIN- QUENTS"
    ]
   },
   {
    "col_no": "20",
-   "name": "(concld) SL, NO; ee TOTAL ql)",
+   "name": "RECIDIVISM | TOTAL (20)",
    "header": [
-    "(concld) SL, NO; ee TOTAL ql)"
+    "RECIDIVISM",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "1",
+   "name": "SL.-NO.",
+   "header": [
+    "SL.-NO."
    ]
   }
  ],
- "notes": [
-  "* As classification was not available, all the juveniles arrested are put in the most likely class."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 29,
+  "cells_checked": 24,
   "cells_passed": 24,
-  "failures": [
-   "col 8 'TOTAL (STATES)': printed 25538, sum 25478",
-   "col 10 'TOTAL (UTs)': printed 4171, sum 571",
-   "col 17 'TOTAL (STATES)': printed 36221, sum 36157",
-   "col 20 'TOTAL (STATES)': printed 36221, sum 2.64326e+06",
-   "col 20 'TOTAL (UTs)': printed 171, sum 17303"
-  ],
-  "other_totals_checked": 1,
+  "failures": [],
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

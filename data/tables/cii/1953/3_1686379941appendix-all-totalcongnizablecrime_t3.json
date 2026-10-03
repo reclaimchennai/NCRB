@@ -6,79 +6,76 @@
  "topic": "",
  "section": "Crime in India 1953",
  "serial": "3",
- "title": "Ir",
+ "title": "11 APPENDIX III. KIDNAPPING & ABDUCTION",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686379941APPENDIX-ALL-TOTALCONGNIZABLECRIME.pdf",
  "source_file": "raw/cii/1953/year_wise/1686379941APPENDIX-ALL-TOTALCONGNIZABLECRIME.pdf",
  "source_sha256": "013e8bc42920c426bf04d5e904a477084a08b3958ded581eb760385afebd25a6",
  "table_no": "",
- "pdf_title": "Ir",
- "row_label": "APPENDIX YY. - 7 Stes: Sl. No. Part ‘A’ States",
+ "pdf_title": "11 APPENDIX III. KIDNAPPING & ABDUCTION",
+ "row_label": "Sl. No. / State",
  "pages": [
+  3,
   3
  ],
  "n_rows": 31,
- "n_cols": 5,
- "n_cells": 140,
+ "n_cols": 6,
+ "n_cells": 186,
  "columns": [
   {
-   "col_no": "2",
-   "name": "APPENDIX YY. - | KIDNAPPING & ABDUGTION | Number pending from previous year",
+   "col_no": "3",
+   "name": "Number pending from previous year",
    "header": [
-    "APPENDIX YY. -",
-    "KIDNAPPING & ABDUGTION",
     "Number pending from previous year"
    ]
   },
   {
-   "col_no": "3",
-   "name": "APPENDIX YY. - | KIDNAPPING & ABDUGTION | Number Convicted | reported ip the year",
-   "header": [
-    "APPENDIX YY. -",
-    "KIDNAPPING & ABDUGTION",
-    "Number Convicted",
-    "reported ip the year"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "APPENDIX YY. - | KIDNAPPING & ABDUGTION | Number Convicted",
+   "name": "Number reported in the year",
    "header": [
-    "APPENDIX YY. -",
-    "KIDNAPPING & ABDUGTION",
-    "Number Convicted"
+    "Number reported in the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "APPENDIX YY. - | Discharged oracquitted",
+   "name": "Convicted",
    "header": [
-    "APPENDIX YY. -",
-    "Discharged oracquitted"
+    "Convicted"
    ]
   },
   {
    "col_no": "6",
-   "name": "APPENDIX YY. - | Not det- Incidence of crime tected or apprehen- reported ded per 1,00,000 population",
+   "name": "Discharged or acquitted",
    "header": [
-    "APPENDIX YY. -",
-    "Not det- Incidence of crime tected or apprehen- reported ded per 1,00,000 population"
+    "Discharged or acquitted"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Not detected or apprehended",
+   "header": [
+    "Not detected or apprehended"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Incidence of crime reported per 1,000,000 population",
+   "header": [
+    "Incidence of crime reported per 1,000,000 population"
    ]
   }
  ],
- "notes": [
-  "*Figures are not for calendar year. -"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 10,
-  "other_totals_passed": 0
+  "other_totals_checked": 16,
+  "other_totals_passed": 15
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

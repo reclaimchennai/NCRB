@@ -6,102 +6,77 @@
  "topic": "",
  "section": "",
  "serial": "8",
- "title": "No",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 CHILD POPULATION BY SEX IN INDIA AND MAJOR STATES 1981 - 2001",
  "listing_title": "Crime Against Children",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter8-1995.pdf",
  "source_file": "raw/cii/1995/table_chapter/chapter8-1995.pdf",
  "source_sha256": "f75918d388410ce96263364ec37fece9b3feec71e92c9e370b9017575830d8d3",
  "table_no": "",
- "pdf_title": "No",
- "row_label": "M dq)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 CHILD POPULATION BY SEX IN INDIA AND MAJOR STATES 1981 - 2001",
+ "row_label": "Sl. No. / Crime Head",
  "pages": [
-  3
+  4
  ],
- "n_rows": 16,
- "n_cols": 9,
- "n_cells": 144,
+ "n_rows": 10,
+ "n_cols": 6,
+ "n_cells": 59,
  "columns": [
   {
    "col_no": "4",
-   "name": "F @)",
+   "name": "Incidence | 1991",
    "header": [
-    "F @)"
+    "Incidence",
+    "1991"
    ]
   },
   {
    "col_no": "5",
-   "name": "M (5)",
+   "name": "Incidence | 1992",
    "header": [
-    "M"
+    "Incidence",
+    "1992"
    ]
   },
   {
    "col_no": "6",
-   "name": "F (6)",
+   "name": "Incidence | 1993",
    "header": [
-    "F"
+    "Incidence",
+    "1993"
    ]
   },
   {
    "col_no": "7",
-   "name": "M (7)",
+   "name": "Incidence | 1994",
    "header": [
-    "M"
+    "Incidence",
+    "1994"
    ]
   },
   {
    "col_no": "8",
-   "name": "F (8)",
+   "name": "Incidence | 1995",
    "header": [
-    "F"
+    "Incidence",
+    "1995"
    ]
   },
   {
    "col_no": "9",
-   "name": "M (9)",
+   "name": "Percentage variation | 1995 over 1991",
    "header": [
-    "M"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "F (10)",
-   "header": [
-    "F"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "M (11)",
-   "header": [
-    "M"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "F (12)",
-   "header": [
-    "F"
+    "Percentage variation",
+    "1995 over 1991"
    ]
   }
  ],
- "notes": [
-  "source: Census of India 1981, Occisional papzrs No. 4 uf 1988, R-port of the: Expert Committee cn the Population projections."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 7,
+  "cells_checked": 0,
   "cells_passed": 0,
-  "failures": [
-   "col 4 'All-India': printed 131679, sum 127166",
-   "col 5 'All-India': printed 148151, sum 142451",
-   "col 6 'All-India': printed 140415, sum 135077",
-   "col 7 'All-India': printed 152784, sum 145988",
-   "col 8 'All-India': printed 144965, sum 138370",
-   "col 11 'All-India': printed 157606, sum 151775",
-   "col 12 'All-India': printed 149556, sum 144505"
-  ],
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -8,156 +8,172 @@
  "serial": "43",
  "title": "Juveniles Apprehended under Different LSL Crimes During 1992 (State, UT & City-wise)",
  "listing_title": "Juveniles Apprehended under Different LSL Crimes During 1992 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-43-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-43-1992-survey.pdf",
  "source_sha256": "970e7a4dd95be8b78e2b20a96cda3fe03c68862766db8375528ba1ce495704c8",
  "table_no": "43",
- "pdf_title": "",
- "row_label": "JUVENILES SL. STATE/UT NO. (a)",
+ "pdf_title": "213 TABLE-43 JUVENILES APPREHENDED UNDER DIFFERENT LSL CRIMES DURING 1992",
+ "row_label": "SL. STATE/UT NO.",
  "pages": [
   1,
-  2
+  2,
+  3,
+  4
  ],
- "n_rows": 57,
- "n_cols": 16,
- "n_cells": 430,
+ "n_rows": 94,
+ "n_cols": 20,
+ "n_cells": 836,
  "columns": [
   {
    "col_no": "3",
-   "name": "JUVENILES | ARMS ACT Act",
-   "header": [
-    "JUVENILES",
-    "ARMS ACT Act"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "UNDER | WARCOTIC DRUGS & PSY. SUBSTANCES",
+   "name": "ARMS MARCOTIC ACT DRUGS & PSY. SUBSTANCES ACT",
    "header": [
-    "UNDER",
-    "WARCOTIC DRUGS & PSY. SUBSTANCES"
+    "ARMS MARCOTIC ACT DRUGS & PSY. SUBSTANCES ACT"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER | CITY-WISE) (STATE,UT GAMALTMG ACT",
+   "name": "GAMBLING ACT",
    "header": [
-    "UNDER",
-    "CITY-WISE) (STATE,UT GAMALTMG ACT"
+    "GAMBLING ACT"
    ]
   },
   {
    "col_no": "6",
-   "name": "LSL & EXCISE ACT",
+   "name": "EXCISE ACT",
    "header": [
-    "LSL & EXCISE ACT"
+    "EXCISE ACT"
    ]
   },
   {
    "col_no": "7",
-   "name": "CRIMES PROHIBITION",
+   "name": "PROHIBITION ACT",
    "header": [
-    "CRIMES PROHIBITION"
+    "PROHIBITION ACT"
    ]
   },
   {
    "col_no": "8",
-   "name": "DURING ACT EXPLOSIVE SUBSTANCES act",
+   "name": "EXPLO-SIVES & EXPLOSIVE SUBSTANCES ACT",
    "header": [
-    "DURING ACT EXPLOSIVE SUBSTANCES act"
+    "EXPLO-SIVES & EXPLOSIVE SUBSTANCES ACT"
    ]
   },
   {
    "col_no": "9",
-   "name": "1992 EXPLOIMMORAL SIVES TRAFFIC (PREVENTION) ACT",
+   "name": "IMMORAL TRAFFIC (PREV-ENTION) ACT",
    "header": [
-    "1992 EXPLOIMMORAL SIVES TRAFFIC (PREVENTION) ACT"
+    "IMMORAL TRAFFIC (PREV-ENTION) ACT"
    ]
   },
   {
    "col_no": "10",
-   "name": "INDIAN & RAILWAYS ACT",
+   "name": "INDIAN RAIL-WAYS ACT",
    "header": [
-    "INDIAN & RAILWAYS ACT"
+    "INDIAN RAIL-WAYS ACT"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "PROTEC-TION OF CIVIL RIGHTS ACT (13)",
+   "header": [
+    "PROTEC-TION OF CIVIL RIGHTS ACT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "INDIAN PASSPORT ACT",
+   "header": [
+    "INDIAN PASSPORT ACT"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "ESSENTIAL COMMO-DITIES ACT",
+   "header": [
+    "ESSENTIAL COMMO-DITIES ACT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
+   "header": [
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "ANTIQUITY & ART TREASURE ACT",
+   "header": [
+    "ANTIQUITY & ART TREASURE ACT"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "DOWRY PROHI-BITION ACT (18)",
+   "header": [
+    "DOWRY PROHI-BITION ACT"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "OTHER LSL CRIMES (19)",
+   "header": [
+    "OTHER LSL CRIMES"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL COG. CRIMES UNDER LSL (2)",
+   "header": [
+    "TOTAL COG. CRIMES UNDER LSL"
    ]
   },
   {
    "col_no": "10001",
-   "name": "ARMS PSY. Act (2)",
+   "name": "PROTEC-TION OF CIVIL RIGHTS ACT (10001)",
    "header": [
-    "ARMS PSY. Act (2)"
+    "PROTEC-TION OF CIVIL RIGHTS ACT"
    ]
   },
   {
    "col_no": "10002",
-   "name": "MARCOTIC & SUBSTANCES (3)",
+   "name": "DOWRY PROHI-BITION ACT (10002)",
    "header": [
-    "MARCOTIC & SUBSTANCES (3)"
+    "DOWRY PROHI-BITION ACT"
    ]
   },
   {
    "col_no": "10003",
-   "name": "PROHIBI- | ACT (4)",
+   "name": "OTHER LSL CRIMES (10003)",
    "header": [
-    "PROHIBI-",
-    "ACT (4)"
+    "OTHER LSL CRIMES"
    ]
   },
   {
    "col_no": "10004",
-   "name": "PROHIBI- | EXCISE ACT (5)",
+   "name": "TOTAL COG. CRIMES UNDER LSL (10004)",
    "header": [
-    "PROHIBI-",
-    "EXCISE ACT (5)"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "PROHIBI- | TIOM (6)",
-   "header": [
-    "PROHIBI-",
-    "TIOM (6)"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "PROHIBI- | ACT EXPLOSIVE SUBSTANCES act (7)",
-   "header": [
-    "PROHIBI-",
-    "ACT EXPLOSIVE SUBSTANCES act (7)"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "PROHIBI- | EXPLOIMMORAL SIVES TRAFFIC (PREVENTION) act (8)",
-   "header": [
-    "PROHIBI-",
-    "EXPLOIMMORAL SIVES TRAFFIC (PREVENTION) act (8)"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "INDIAN & RAILWAYS ACT (9) (10)",
-   "header": [
-    "INDIAN & RAILWAYS ACT (9) (10)"
+    "TOTAL COG. CRIMES UNDER LSL"
    ]
   }
  ],
- "notes": [
-  "A"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 1,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 87, sum 54"
-  ],
-  "other_totals_checked": 6,
-  "other_totals_passed": 6
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

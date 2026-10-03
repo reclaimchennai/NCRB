@@ -8,50 +8,47 @@
  "serial": "25",
  "title": "Persons Arrested under IPC Crimes During 1995 and Percentage Variation in 1995 over 1994 (Crime-Head Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1995 and Percentage Variation in 1995 over 1994 (Crime-Head Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-25-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-25-1995-crime-survey.pdf",
  "source_sha256": "061e341d9b7414e7c48712dc276fc7d4fc50ca34bdaf5d08565a396c2c3a385f",
  "table_no": "25",
- "pdf_title": "",
- "row_label": "SL. NO. / PERSONS CRIME HEAD",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-25",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 25,
+ "n_rows": 24,
  "n_cols": 4,
- "n_cells": 86,
+ "n_cells": 96,
  "columns": [
   {
    "col_no": "3",
-   "name": "UNDER IPC CRIMES DURING 1995 | AND PERCENTAGE VARIATION IN 1994",
+   "name": "1994",
    "header": [
-    "UNDER IPC CRIMES DURING 1995",
-    "AND PERCENTAGE VARIATION IN 1994"
+    "1994"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER IPC CRIMES DURING 1995 | 1995 'WISE) 1995",
+   "name": "1995",
    "header": [
-    "UNDER IPC CRIMES DURING 1995",
-    "1995 'WISE) 1995"
+    "1995"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER IPC CRIMES DURING 1995 | OVER PERCENTAGE VARIATION IN 1995 OVER 1994",
+   "name": "PERCENTAGE VARIATION IN 1995 OVER 1994",
    "header": [
-    "UNDER IPC CRIMES DURING 1995",
-    "OVER PERCENTAGE VARIATION IN 1995 OVER 1994"
+    "PERCENTAGE VARIATION IN 1995 OVER 1994"
    ]
   },
   {
    "col_no": "6",
-   "name": "1994 PERCENTAGE SHARE OF CRIME DURING",
+   "name": "PERCENTAGE SHARE OF CRIME DURING 1995",
    "header": [
-    "1994 PERCENTAGE SHARE OF CRIME DURING"
+    "PERCENTAGE SHARE OF CRIME DURING 1995"
    ]
   }
  ],
@@ -60,8 +57,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

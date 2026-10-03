@@ -8,77 +8,84 @@
  "serial": "40",
  "title": "Statement Indicating Motive of Murder and Culpable Homicide not Amounting to Murder in Different States/U.T.s/Cities",
  "listing_title": "Statement Indicating Motive of Murder and Culpable Homicide not Amounting to Murder in Different States/U.T.s/Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1977.pdf",
  "source_file": "raw/cii/1977/table_content/table-52-1977.pdf",
  "source_sha256": "074d7a616b356931c00249a0bd338d008257db1749165d4234d1fa61fd11f8aa",
- "table_no": "",
- "pdf_title": "TABLE £2",
- "row_label": "STATES / 2",
+ "table_no": "52",
+ "pdf_title": "119 TABLE 52 STATEMENT INDICATING MOTIVE OF MURDER AND CULPABLE HOMICIDE NOT AMOUNTING TO MURDER IN DIFFERENT STATES/U.Ts./CITIES",
+ "row_label": "Sl. No. / States/U. Ts./Cities",
  "pages": [
+  1,
   2
  ],
- "n_rows": 36,
+ "n_rows": 86,
  "n_cols": 8,
- "n_cells": 268,
+ "n_cells": 688,
  "columns": [
   {
    "col_no": "3",
-   "name": "Marder",
+   "name": "Gain | Murder",
    "header": [
-    "Marder"
+    "Gain",
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "C.H.Not ae",
+   "name": "Gain | C.H. not amounting to Murder",
    "header": [
-    "C.H.Not ae"
+    "Gain",
+    "C.H. not amounting to Murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "Murder -",
+   "name": "Dispute over Property | Murder",
    "header": [
-    "Murder -"
+    "Dispute over Property",
+    "Murder"
    ]
   },
   {
    "col_no": "6",
-   "name": "CH.sot So",
+   "name": "Dispute over Property | C.H. not amounting to Murder",
    "header": [
-    "CH.sot So"
+    "Dispute over Property",
+    "C.H. not amounting to Murder"
    ]
   },
   {
    "col_no": "7",
-   "name": "Murder 13",
+   "name": "Personal Vendatta | Murder",
    "header": [
-    "Murder 13"
+    "Personal Vendatta",
+    "Murder"
    ]
   },
   {
    "col_no": "8",
-   "name": "Murder | 14",
+   "name": "Personal Vendatta | C.H. not amounting to Murder",
    "header": [
-    "Murder",
-    "14"
+    "Personal Vendatta",
+    "C.H. not amounting to Murder"
    ]
   },
   {
    "col_no": "9",
-   "name": "Murder | is 17",
+   "name": "Sexual Causes | Murder",
    "header": [
-    "Murder",
-    "is 17"
+    "Sexual Causes",
+    "Murder"
    ]
   },
   {
    "col_no": "10",
-   "name": "not 16 18",
+   "name": "Sexual Causes | C.H. not amounting to Murder",
    "header": [
-    "not 16 18"
+    "Sexual Causes",
+    "C.H. not amounting to Murder"
    ]
   }
  ],
@@ -87,10 +94,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 52,
+  "other_totals_passed": 35
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

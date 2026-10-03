@@ -8,71 +8,71 @@
  "serial": "52",
  "title": "Victims of Rape under Different Age Groups During 1992 (State, UT & City-wise)",
  "listing_title": "Victims of Rape under Different Age Groups During 1992 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-52-1992-survey.pdf",
  "source_sha256": "262afd8dbe41563d2ee93e21b2b52c757d821195443a4fdb3cc221d1d9b34568",
  "table_no": "52",
- "pdf_title": "VICTIMS OF RAPE UNDER DIFFERENT AGE GROUPS DURING 1992",
- "row_label": "SL NO / STATE/UT",
+ "pdf_title": "245 TABLE-52 VICTIMS OF RAPE UNDER DIFFERENT AGE GROUPS DURING 1992 (STATE, UT & CITY-WISE)",
+ "row_label": "SL STATE/UTNO / SL STATE/UTNO",
  "pages": [
   1,
   2
  ],
  "n_rows": 58,
  "n_cols": 5,
- "n_cells": 280,
+ "n_cells": 290,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE,UT NO. CASES REPORTED",
+   "name": "NO. OF CASES REPORTED",
    "header": [
-    "(STATE,UT NO. CASES REPORTED"
+    "NO. OF CASES REPORTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "& OF BELOW 10",
+   "name": "NUMBER OF VICTIMS | BELOW 10 YEARS",
    "header": [
-    "& OF BELOW 10"
+    "NUMBER OF VICTIMS",
+    "BELOW 10 YEARS"
    ]
   },
   {
    "col_no": "5",
-   "name": "CITY-WISE) NUMBER 10-16 YEARS",
+   "name": "NUMBER OF VICTIMS | 10-16 YEARS",
    "header": [
-    "CITY-WISE) NUMBER 10-16 YEARS"
+    "NUMBER OF VICTIMS",
+    "10-16 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "OT 16-30 YEARS",
+   "name": "NUMBER OF VICTIMS | 16-30 YEARS",
    "header": [
-    "OT 16-30 YEARS"
+    "NUMBER OF VICTIMS",
+    "16-30 YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "VICTIMS 30 YEARS AND YEARS ABOVE",
+   "name": "NUMBER OF VICTIMS | 30 YEARS AND ABOVE",
    "header": [
-    "VICTIMS 30 YEARS AND YEARS ABOVE"
+    "NUMBER OF VICTIMS",
+    "30 YEARS AND ABOVE"
    ]
   }
  ],
- "notes": [
-  "Note: 1. * Victims were more than the cases reported.",
-  "2. @ Age group-wise break-up of Victims of Rape is not"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 7,
+  "cells_checked": 15,
+  "cells_passed": 14,
   "failures": [
-   "col 4 'TOTAL (STATES)': printed 481, sum 454",
-   "col 6 'TOTAL (STATES)': printed 6887, sum 6881"
+   "col 4 'TOTAL (STATES)': printed 481, sum 471"
   ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 4
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

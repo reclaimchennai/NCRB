@@ -6,16 +6,16 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "19",
- "title": "Percentage of SLL Cases Disposed of by Police During 1999",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 19",
  "listing_title": "Percentage of SLL Cases Disposed of by Police During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-19-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-19-1999.pdf",
  "source_sha256": "b5d47220f8569d8d395ec95a0f28dd8ac63b0ad3a9076debce763908a650d188",
  "table_no": "19",
- "pdf_title": "",
- "row_label": "PERCENTAGE OF SLL CRIME CASES SL. CRIME HEAD NO. (1)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 19",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -24,85 +24,62 @@
  "n_cells": 184,
  "columns": [
   {
-   "col_no": "2",
-   "name": "PERCENTAGE OF SLL CRIME CASES | CASES WITHcovr, @)",
-   "header": [
-    "PERCENTAGE OF SLL CRIME CASES",
-    "CASES WITHcovr, @)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "OF BY POLICE DURING 1999 | - INVESTIGATION WAS - KEFUSED @)",
+   "name": "CASES WITH-DRAWN BY GOVT.",
    "header": [
-    "OF BY POLICE DURING 1999",
-    "- INVESTIGATION WAS - KEFUSED @)"
+    "CASES WITH-DRAWN BY GOVT."
    ]
   },
   {
    "col_no": "4",
-   "name": "OF BY POLICE DURING 1999 | OF CASES TU TOTAL CASES FOR | INVESTIGATION IN WHICH - INVESTiGATION | CHARGE FOUND FALSE/ (4)",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "OF BY POLICE DURING 1999",
-    "OF CASES TU TOTAL CASES FOR",
-    "INVESTIGATION IN WHICH - INVESTiGATION",
-    "CHARGE FOUND FALSE/ (4)"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF BY POLICE DURING 1999 | OF CASES TU TOTAL CASES FOR | INVESTIGATION IN WHICH - INVESTiGATION | FINAL KEFUKI TRUE MISTAKE SIIRMI. TTED OR LAW ETC. (5)",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION",
    "header": [
-    "OF BY POLICE DURING 1999",
-    "OF CASES TU TOTAL CASES FOR",
-    "INVESTIGATION IN WHICH - INVESTiGATION",
-    "FINAL KEFUKI TRUE MISTAKE SIIRMI. TTED OR LAW ETC. (5)"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF BY POLICE DURING 1999 | OF CASES TU TOTAL CASES FOR | CHARGE | INVESTIGATION IN WHICH - INVESTiGATION | OF CASES - PENDING | CHARCR TOTAL | WERE + SUBMITTED (3)",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | WAS COMPLETED",
    "header": [
-    "OF BY POLICE DURING 1999",
-    "OF CASES TU TOTAL CASES FOR",
-    "CHARGE",
-    "INVESTIGATION IN WHICH - INVESTiGATION",
-    "OF CASES - PENDING",
-    "CHARCR TOTAL",
-    "WERE + SUBMITTED (3)"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "WAS COMPLETED"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF BY POLICE DURING 1999 | OF CASES TU TOTAL CASES FOR | CHARGE | INVESTIGATION IN WHICH - INVESTiGATION | OF CASES - PENDING | CHARCR TOTAL | {(5) + (6) (7)} a)",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH (7)",
    "header": [
-    "OF BY POLICE DURING 1999",
-    "OF CASES TU TOTAL CASES FOR",
-    "CHARGE",
-    "INVESTIGATION IN WHICH - INVESTiGATION",
-    "OF CASES - PENDING",
-    "CHARCR TOTAL",
-    "{(5) + (6) (7)} a)"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH"
    ]
   },
   {
    "col_no": "8",
-   "name": "OF BY POLICE DURING 1999 | OF CASES TU TOTAL CASES FOR | CHARGE | OF CASES - PENDING | (8)",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH (8)",
    "header": [
-    "OF BY POLICE DURING 1999",
-    "OF CASES TU TOTAL CASES FOR",
-    "CHARGE",
-    "OF CASES - PENDING",
-    "(8)"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF BY POLICE DURING 1999 | CHARGE | aan (10) (9)",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION",
    "header": [
-    "OF BY POLICE DURING 1999",
-    "CHARGE",
-    "aan (10) (9)"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "CHARGE SHEETING RATE ((17)/(6) + (7)) X 100)",
+   "header": [
+    "CHARGE SHEETING RATE ((17)/(6) + (7)) X 100)"
    ]
   }
  ],
@@ -114,7 +91,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

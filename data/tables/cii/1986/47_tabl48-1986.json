@@ -8,56 +8,55 @@
  "serial": "47",
  "title": "Property Stolen and Recovered by Category of Offences During 1986; Nature of Property Stolen and Recovered During 1986",
  "listing_title": "Property Stolen and Recovered by Category of Offences During 1986; Nature of Property Stolen and Recovered During 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl48-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl48-1986.pdf",
  "source_sha256": "90fc3a87931fdf06fb080e17647604516a7d433babd39115ff2cfe779cb0d8a0",
  "table_no": "48",
- "pdf_title": "",
- "row_label": "Sl. No. / Category or offences",
+ "pdf_title": "98 TABLE 48 Property Stolen and Recovered by category of offences during 1986",
+ "row_label": "Sl. No. / Category of offences",
  "pages": [
+  1,
   1
  ],
- "n_rows": 7,
+ "n_rows": 15,
  "n_cols": 5,
- "n_cells": 35,
+ "n_cells": 67,
  "columns": [
   {
    "col_no": "3",
-   "name": "Property Stolen and Numvei or cases in which pluperty was stolen",
+   "name": "Number of cases in which property was stolen",
    "header": [
-    "Property Stolen and Numvei or cases in which pluperty was stolen"
+    "Number of cases in which property was stolen"
    ]
   },
   {
    "col_no": "4",
-   "name": "by category of offences during 1986 | Number of cases in wine property Was",
+   "name": "Number of cases in which property was recovered",
    "header": [
-    "by category of offences during 1986",
-    "Number of cases in wine property Was"
+    "Number of cases in which property was recovered"
    ]
   },
   {
    "col_no": "5",
-   "name": "by category of offences during 1986 | Value of property Rs. lakhs",
+   "name": "Value of property stolen in Rs. lakhs",
    "header": [
-    "by category of offences during 1986",
-    "Value of property Rs. lakhs"
+    "Value of property stolen in Rs. lakhs"
    ]
   },
   {
    "col_no": "6",
-   "name": "Value of property Rs.",
+   "name": "Value of property recovered in Rs. lakhs",
    "header": [
-    "Value of property Rs."
+    "Value of property recovered in Rs. lakhs"
    ]
   },
   {
    "col_no": "7",
-   "name": "age of property to properiy sivicn",
+   "name": "%age of property recovered to property stolen",
    "header": [
-    "age of property to properiy sivicn"
+    "%age of property recovered to property stolen"
    ]
   }
  ],
@@ -70,6 +69,6 @@
   "other_totals_passed": 2
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

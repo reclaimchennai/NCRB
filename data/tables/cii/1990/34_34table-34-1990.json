@@ -8,66 +8,65 @@
  "serial": "34",
  "title": "Incidence and Volume of Juvenile Delinquency under IPC 1980-90",
  "listing_title": "Incidence and Volume of Juvenile Delinquency under IPC 1980-90",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/34table-34-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/34table-34-1990-.pdf",
  "source_sha256": "8b0abf549a5f08a9e1d5cdb3bee0daab66636fd87c1292431bc698c6b8e1337a",
  "table_no": "34",
- "pdf_title": "AND VOLUME OF JUVENILE DELINQUENCY UNDER IPC",
- "row_label": "1980-90 YEAR SL. NO. ql)",
+ "pdf_title": "136 TABLE-34 INCIDENCE AND VOLUME OF JUVENILE DELINQUENCY UNDER IPC 1980-90",
+ "row_label": "SL.NO.",
  "pages": [
   1
  ],
  "n_rows": 11,
- "n_cols": 5,
- "n_cells": 53,
+ "n_cols": 6,
+ "n_cells": 66,
  "columns": [
   {
-   "col_no": "3",
-   "name": "1980-90 | incioenvce JUVENILE CRIMES",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "1980-90",
-    "incioenvce JUVENILE CRIMES"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "INCIDENCE OF (3)",
+   "header": [
+    "INCIDENCE OF"
    ]
   },
   {
    "col_no": "4",
-   "name": "1980-90 | - TOTAL CoG. CRIMES",
+   "name": "INCIDENCE OF (4)",
    "header": [
-    "1980-90",
-    "- TOTAL CoG. CRIMES"
+    "INCIDENCE OF"
    ]
   },
   {
    "col_no": "5",
-   "name": "1980-90 | OF OF JUVENILE CRIMES TO CRIMES",
+   "name": "PERCENTAGE OF",
    "header": [
-    "1980-90",
-    "OF OF JUVENILE CRIMES TO CRIMES"
+    "PERCENTAGE OF"
    ]
   },
   {
    "col_no": "6",
-   "name": "ESTIMATED MID~YEAR POPULATION* (IN TOTAL",
+   "name": "ESTIMATED MID-YEAR POPULATION* (IN LAKH)",
    "header": [
-    "ESTIMATED MID~YEAR POPULATION* (IN TOTAL"
+    "ESTIMATED MID-YEAR POPULATION* (IN LAKH)"
    ]
   },
   {
    "col_no": "7",
-   "name": "VOLUME OF JUVENILE LAKH) CRIME LAKH (PER OF POPULATION)",
+   "name": "VOLUME OF JUVENILE CRIME (PER LAKH OF POPULATION)",
    "header": [
-    "VOLUME OF JUVENILE LAKH) CRIME LAKH (PER OF POPULATION)"
+    "VOLUME OF JUVENILE CRIME (PER LAKH OF POPULATION)"
    ]
   }
  ],
- "notes": [
-  "* SOURCE: THE REGISTRAR Generar. OF INDIA, NEW DELHI",
-  "**DATA ON JUVENILES FROM 1988 ONWARDS IS NOT AT ALL COMPARARLE",
-  "TO FARI.TER YEARS DUE TO CHANGE IN THE DEFINITION OF JUVENILES",
-  "FROM 1988."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

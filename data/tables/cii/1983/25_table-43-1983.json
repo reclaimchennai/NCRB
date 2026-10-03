@@ -8,44 +8,58 @@
  "serial": "25",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crime under Local and Special Laws During the Year 1983",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crime under Local and Special Laws During the Year 1983",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-43-1983.pdf",
  "source_file": "raw/cii/1983/table_content/table-43-1983.pdf",
  "source_sha256": "3940ca60dd0c4eac6b472e8145bfd72e08ab630a86f0fbc571d58ea5d6db3f4e",
- "table_no": "",
- "pdf_title": "TaBLE 43 Juveniles Apprehended (By Age Group) for Committing crimes under Local and Special Laws During the year—I1983",
- "row_label": "States/U.Ts/Cities Sl. No, STATES / -7 to 12 years",
+ "table_no": "43",
+ "pdf_title": "107 TABLE 43 Juveniles Apprehended (By Age Group) for Committing crimes under Local and Special Laws During the year—1983",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 44,
- "n_cols": 4,
- "n_cells": 160,
+ "n_rows": 47,
+ "n_cols": 6,
+ "n_cells": 239,
  "columns": [
   {
    "col_no": "3",
-   "name": "-12to 16 years",
+   "name": "States/U.Ts/Cities",
    "header": [
-    "-12to 16 years"
+    "States/U.Ts/Cities"
    ]
   },
   {
    "col_no": "4",
+   "name": "7 to 12 years",
+   "header": [
+    "7 to 12 years"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "12 to 16 years",
+   "header": [
+    "12 to 16 years"
+   ]
+  },
+  {
+   "col_no": "6",
    "name": "16 to 18 years",
    "header": [
     "16 to 18 years"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "7",
    "name": "18 to 21 years",
    "header": [
     "18 to 21 years"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "8",
    "name": "Total",
    "header": [
     "Total"
@@ -57,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

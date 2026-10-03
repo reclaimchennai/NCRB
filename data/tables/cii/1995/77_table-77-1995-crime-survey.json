@@ -8,57 +8,58 @@
  "serial": "77",
  "title": "Number of Cases and Value of Cultural Property (including Antiques) Stolen and Recovered During 1995 (State & UT-Wise)",
  "listing_title": "Number of Cases and Value of Cultural Property (including Antiques) Stolen and Recovered During 1995 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-77-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-77-1995-crime-survey.pdf",
  "source_sha256": "a735f2a5b9f132e1e61f937e612a55ffeafc452672fcdc8d390fd232a680015a",
  "table_no": "77",
- "pdf_title": "",
- "row_label": "- NUMBER STATE/UT SL. NO. / - OF CASES AND STOLEN (STATE",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-77",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 10,
+ "n_rows": 35,
  "n_cols": 4,
- "n_cells": 32,
+ "n_cells": 140,
  "columns": [
   {
    "col_no": "3",
-   "name": "- | VALUE AND & STOLEN",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN | STOLEN",
    "header": [
-    "-",
-    "VALUE AND & STOLEN"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "- | OF CULTURAL RECOVERED UT-WISE) NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN RECOVERED",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN | RECOVERED",
    "header": [
-    "-",
-    "OF CULTURAL RECOVERED UT-WISE) NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN RECOVERED"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "- | PROPERTY (INCLUDING DURING VALUE OF PROPERTY (RS. liv LAKHS) STOLEN",
+   "name": "VALUE OF PROPERTY (RS. IN LAKHS) | STOLEN",
    "header": [
-    "-",
-    "PROPERTY (INCLUDING DURING VALUE OF PROPERTY (RS. liv LAKHS) STOLEN"
+    "VALUE OF PROPERTY (RS. IN LAKHS)",
+    "STOLEN"
    ]
   },
   {
    "col_no": "6",
-   "name": "ANTIQUES) 1995 RECOVERED",
+   "name": "VALUE OF PROPERTY (RS. IN LAKHS) | RECOVERED",
    "header": [
-    "ANTIQUES) 1995 RECOVERED"
+    "VALUE OF PROPERTY (RS. IN LAKHS)",
+    "RECOVERED"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 6,
+  "cells_passed": 6,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

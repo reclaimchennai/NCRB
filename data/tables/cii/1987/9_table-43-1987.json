@@ -8,20 +8,20 @@
  "serial": "9",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local and Special Laws During 1987",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local and Special Laws During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_43-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_43-1987.pdf",
  "source_sha256": "c9bbd77c760ef4a1f87bc7f0671e52d8820683a1b85f97f6ae17926404bd91e4",
  "table_no": "43",
- "pdf_title": "Juvenile Apprehended (By Age Group) For Committing Crimes Under Local And Special Laws During 1987",
- "row_label": "sl NO / STATES/U. Ts. /CITIES",
+ "pdf_title": "123 TABLE - 43 Juvenile Apprehended (By Age Group) For Committing Crimes Under Local And Special Laws During 1987.",
+ "row_label": "S1 NO",
  "pages": [
   1
  ],
  "n_rows": 48,
  "n_cols": 5,
- "n_cells": 239,
+ "n_cells": 240,
  "columns": [
   {
    "col_no": "3",
@@ -62,11 +62,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 14,
-  "cells_passed": 12,
-  "failures": [
-   "col 3 'TOTAL (States)': printed 3797, sum 3897",
-   "col 4 'TOTAL (UTs)': printed 11, sum 18"
-  ],
+  "cells_passed": 14,
+  "failures": [],
   "other_totals_checked": 4,
   "other_totals_passed": 4
  },

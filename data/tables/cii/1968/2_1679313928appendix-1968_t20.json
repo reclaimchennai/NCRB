@@ -6,35 +6,70 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "CATTLE",
+ "title": "81 — PERSONS APPENDIX XIV",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1679313928APPENDIX-1968.pdf",
  "source_file": "raw/cii/1968/table_chapter/1679313928APPENDIX-1968.pdf",
  "source_sha256": "493f5b67dabc91244294a7fa7c9fe8dc540a11a27fdfa554f3baea39f06e9d13",
  "table_no": "",
- "pdf_title": "CATTLE",
- "row_label": "Sl. No. / States/U.Ts./Cities / Persons in custody pending investi- gation or on bail during the stage of investigation",
+ "pdf_title": "81 — PERSONS APPENDIX XIV",
+ "row_label": "Persons released by the police or magistrate before trial",
  "pages": [
-  28
+  29
  ],
- "n_rows": 36,
- "n_cols": 2,
- "n_cells": 69,
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Persons in custody pending or on bail during the stage of trial",
+   "col_no": "2",
+   "name": "Persons in whose case charge sheet was laid",
    "header": [
-    "Persons in custody pending or on bail during the stage of trial"
+    "Persons in whose case charge sheet was laid"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Persons convicted",
+   "header": [
+    "Persons convicted"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Persons acquitted or discharged",
+   "header": [
+    "Persons acquitted or discharged"
    ]
   },
   {
    "col_no": "5",
-   "name": "Persons arrested during the year",
+   "name": "Persons against whom cases were compounded or withdrawn",
    "header": [
-    "Persons arrested during the year"
+    "Persons against whom cases were compounded or withdrawn"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Persons in custody pending investigation or, on bail during the stage of investigation at the end of the year",
+   "header": [
+    "Persons in custody pending investigation or, on bail during the stage of investigation at the end of the year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Persons in custody pending trial or on bail during the stage of trial at the end of the year",
+   "header": [
+    "Persons in custody pending trial or on bail during the stage of trial at the end of the year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of conviction",
+   "header": [
+    "Percentage of conviction"
    ]
   }
  ],
@@ -43,8 +78,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 7,
-  "other_totals_passed": 3
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

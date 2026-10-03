@@ -6,55 +6,49 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1980",
  "serial": "3",
- "title": "VOLUME-OF SVICIDES PER ONE LAKH OF POPULATION",
+ "title": "## PART—II ## SUICIDES IN INDIA SUICIDES",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1980.pdf",
  "source_file": "raw/adsi/1980/year_wise/suicides-1980.pdf",
  "source_sha256": "f830959d3b22c6c93809de7bce53c474e7f917a06df2d00519ff665dabb8982f",
  "table_no": "I",
- "pdf_title": "VOLUME-OF SVICIDES PER ONE LAKH OF POPULATION",
- "row_label": "Serial No. 1. / T= - Volume of",
+ "pdf_title": "## PART—II ## SUICIDES IN INDIA SUICIDES",
+ "row_label": "Serial No.",
  "pages": [
-  3,
-  4,
-  5,
-  6
+  3
  ],
- "n_rows": 67,
+ "n_rows": 8,
  "n_cols": 4,
- "n_cells": 216,
+ "n_cells": 32,
  "columns": [
   {
    "col_no": "3",
-   "name": "T= - Volume of | Year 1973",
+   "name": "Year",
    "header": [
-    "T= - Volume of",
-    "Year 1973"
+    "Year"
    ]
   },
   {
    "col_no": "4",
-   "name": "- India 1973 to 1980 | Estimates Mid-year in lakhs 5759",
+   "name": "Estimated Mid-year population in lakhs",
    "header": [
-    "- India 1973 to 1980",
-    "Estimates Mid-year in lakhs 5759"
+    "Estimated Mid-year population in lakhs"
    ]
   },
   {
    "col_no": "5",
-   "name": "- India 1973 to 1980 | Number of. , suicides 40807",
+   "name": "Number of suicides",
    "header": [
-    "- India 1973 to 1980",
-    "Number of. , suicides 40807"
+    "Number of suicides"
    ]
   },
   {
    "col_no": "6",
-   "name": "- Volume of Suicides per 1,00,(00 population 71",
+   "name": "Volume of Suicides per 1,00,000 of population",
    "header": [
-    "- Volume of Suicides per 1,00,(00 population 71"
+    "Volume of Suicides per 1,00,000 of population"
    ]
   }
  ],
@@ -66,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 4,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

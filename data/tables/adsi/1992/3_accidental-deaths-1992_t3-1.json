@@ -1,0 +1,84 @@
+{
+ "table_id": "adsi/1992/3_accidental-deaths-1992_t3-1",
+ "publication": "adsi",
+ "year": 1992,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1992",
+ "serial": "3",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.-15 TABLE-3.1",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1992.pdf",
+ "source_file": "raw/adsi/1992/year_wise/accidental-deaths-1992.pdf",
+ "source_sha256": "438d373cb515809dfb05c6a5b51014e3e668719cbd1596e8d1d8051d583e280c",
+ "table_no": "3.1",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.-15 TABLE-3.1",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  15
+ ],
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 210,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Total Registered Motor Vehicles as on 31.3.91*",
+   "header": [
+    "Total Registered Motor Vehicles as on 31.3.91*"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "No. of deaths due to M.V. Accidents in 1991",
+   "header": [
+    "No. of deaths due to M.V. Accidents in 1991"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total Registered Motor Vehicles as on 31.3.92*",
+   "header": [
+    "Total Registered Motor Vehicles as on 31.3.92*"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "No. of deaths due to M.V. Accidents in 1992",
+   "header": [
+    "No. of deaths due to M.V. Accidents in 1992"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rate** of Accidental Deaths in 1991",
+   "header": [
+    "Rate** of Accidental Deaths in 1991"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Rate** of Accidental Deaths in 1992",
+   "header": [
+    "Rate** of Accidental Deaths in 1992"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 'Total (UTs)': printed 2.17438e+06, sum 2.13099e+07",
+   "col 5 'Total (UTs)': printed 227130, sum 2.32713e+06",
+   "col 5 'Total (All-India)': printed 2.3192e+07, sum 2.1092e+07"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -8,14 +8,14 @@
  "serial": "49",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1990 (State, UT & City-Wise)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1990 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/49table-49-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/49table-49-1990-.pdf",
  "source_sha256": "f2cd9ba412413db31c38af677800305885ffac747eab4047c1d44e93bac07682",
  "table_no": "49",
- "pdf_title": "",
- "row_label": "VALUE SL. STATE/UT/CITY NO. ql)",
+ "pdf_title": "169 TABLE-49 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
+ "row_label": "SL. STATE/UT/CITY NO.",
  "pages": [
   1
  ],
@@ -25,23 +25,25 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "AND OF & DURING (STATE, UT & TOTAL Kes STOLEN",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
-    "AND OF & DURING (STATE, UT & TOTAL Kes STOLEN"
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "PERCENTAGE RECOVERY rnurenry 1990 CITY-WISE) VALUE",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
    "header": [
-    "PERCENTAGE RECOVERY rnurenry 1990 CITY-WISE) VALUE"
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "STOLEN in lakh) (Rs. PERCENTAGE OF RECOVERY",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "STOLEN in lakh) (Rs. PERCENTAGE OF RECOVERY"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],

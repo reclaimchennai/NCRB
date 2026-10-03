@@ -1,0 +1,54 @@
+{
+ "table_id": "adsi/1987/2_accidental-deaths-87_t5",
+ "publication": "adsi",
+ "year": 1987,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1987",
+ "serial": "2",
+ "title": "8 ## Metropolitan Cities : 1.4.3 The incidence of accidental deaths recorded a decline of 8.3% in 1987 over 1986 in the 12 Metropolitan Cities as a whole out of which 4 registered an increase in the total number of accidental deaths during 1987 over 1986. Other 8 Cities registered a decline in the total number of accidental deaths during 1987 over 1986.",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/accidental-deaths-87.pdf",
+ "source_file": "raw/adsi/1987/year_wise/accidental-deaths-87.pdf",
+ "source_sha256": "65d70f704f19ff191754facb24075e63bfc6fdb5cdacef283185c9b47d494b80",
+ "table_no": "",
+ "pdf_title": "8 ## Metropolitan Cities : 1.4.3 The incidence of accidental deaths recorded a decline of 8.3% in 1987 over 1986 in the 12 Metropolitan Cities as a whole out of which 4 registered an increase in the total number of accidental deaths during 1987 over 1986. Other 8 Cities registered a decline in the total number of accidental deaths during 1987 over 1986.",
+ "row_label": "Number of Accidental Deaths",
+ "pages": [
+  12,
+  12,
+  13
+ ],
+ "n_rows": 27,
+ "n_cols": 2,
+ "n_cells": 53,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "Number of Accidental Deaths",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 1,
+  "failures": [
+   "col 4 'Total (States)': printed 142726, sum 144713"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

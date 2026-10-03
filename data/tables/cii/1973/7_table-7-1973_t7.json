@@ -6,59 +6,61 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "—4",
+ "title": "36 TABLE Statement showing Districtwise Incidence",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "—4",
- "row_label": "Robbery 8g 2 7 i 6 10 8 7",
+ "pdf_title": "36 TABLE Statement showing Districtwise Incidence",
+ "row_label": "Sl. No. / Name of District",
  "pages": [
-  8
+  7
  ],
- "n_rows": 26,
+ "n_rows": 33,
  "n_cols": 5,
- "n_cells": 116,
+ "n_cells": 165,
  "columns": [
   {
-   "col_no": "2",
-   "name": "“Riots 9 233 256 433 448 338 398 325",
-   "header": [
-    "“Riots 9 233 256 433 448 338 398 325"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "- Cheatine | o 466 a38 1,250 1,136 aso 1,088 60",
+   "name": "Number of cases | Murder",
    "header": [
-    "- Cheatine",
-    "o 466 a38 1,250 1,136 aso 1,088 60"
+    "Number of cases",
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "- Cheatine | mu 126 209 203 Pre 249 216 178",
+   "name": "Number of cases | Culpable Homicide not amounting to murder",
    "header": [
-    "- Cheatine",
-    "mu 126 209 203 Pre 249 216 178"
+    "Number of cases",
+    "Culpable Homicide not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "- Cheatine | Breach feiting of Trost #8 ai 3 4 29 i 4a 1 42 4 a ‘ 26 5",
+   "name": "Number of cases | Rape",
    "header": [
-    "- Cheatine",
-    "Breach feiting of Trost #8 ai 3 4 29 i 4a 1 42 4 a ‘ 26 5"
+    "Number of cases",
+    "Rape"
    ]
   },
   {
    "col_no": "6",
-   "name": "Crime Under IPC 43 15 n 3,240 17 3,160 a5 5,163 40 2,527 3 3,886 a 4,918 13 1773",
+   "name": "Number of cases | Kidnapping and Abduction",
    "header": [
-    "Crime Under IPC 43 15 n 3,240 17 3,160 a5 5,163 40 2,527 3 3,886 a 4,918 13 1773"
+    "Number of cases",
+    "Kidnapping and Abduction"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Number of cases | Deceity",
+   "header": [
+    "Number of cases",
+    "Deceity"
    ]
   }
  ],
@@ -70,7 +72,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

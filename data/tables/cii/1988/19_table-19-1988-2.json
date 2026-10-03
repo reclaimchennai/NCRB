@@ -8,56 +8,66 @@
  "serial": "19",
  "title": "Disposal of LSL Crime Cases by Courts During 1988",
  "listing_title": "Disposal of LSL Crime Cases by Courts During 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-19-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-19-1988-2.pdf",
  "source_sha256": "2715c483f8e6aeda3c8d5aed42bc8038a611a6efc7f475fd53d21b1273d15764",
  "table_no": "19",
- "pdf_title": "DISPOSAL OF LSL CRIME CASES BY COURTS DURING 1988",
- "row_label": "SL. NO. / CRIME / HEAD NO. CASES FOR TRIAL INCLUDING PENDING CASES",
+ "pdf_title": "82 TABLE-19 DISPOSAL OF LSL CRIME CASES BY COURTS DURING 1988",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 5,
- "n_cells": 85,
+ "n_cols": 6,
+ "n_cells": 102,
  "columns": [
   {
-   "col_no": "4",
-   "name": "TOTAL OF COMPOUNDED OR WITHDRAWN",
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "TOTAL OF COMPOUNDED OR WITHDRAWN"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
-   "col_no": "5s",
-   "name": "NO. IN CONVICTED",
+   "col_no": "4",
+   "name": "NO. OF CASES | COMP- OUNDED OR WITH- DRAWN",
    "header": [
-    "NO. IN CONVICTED"
+    "NO. OF CASES",
+    "COMP- OUNDED OR WITH- DRAWN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE CONVICTED",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE CONVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF CASES WHICH ACQUITOR TED DISCHARGED",
+   "name": "NO. OF CASES | ACQUIT- TED OR DIS- CHARGED",
    "header": [
-    "OF CASES WHICH ACQUITOR TED DISCHARGED"
+    "NO. OF CASES",
+    "ACQUIT- TED OR DIS- CHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "------------------------------+---- | COMPLETED TRIALS TOTAL ((5)+ (6))",
+   "name": "NO. OF CASES | COMPLETED TOTAL [(5)+ (6)]",
    "header": [
-    "------------------------------+----",
-    "COMPLETED TRIALS TOTAL ((5)+ (6))"
+    "NO. OF CASES",
+    "COMPLETED TOTAL [(5)+ (6)]"
    ]
   },
   {
    "col_no": "8",
-   "name": "------------------------------+---- | WERE PENDING TRIAL",
+   "name": "NO. OF CASES | PENDING TRIAL",
    "header": [
-    "------------------------------+----",
-    "WERE PENDING TRIAL"
+    "NO. OF CASES",
+    "PENDING TRIAL"
    ]
   }
  ],
@@ -66,8 +76,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 5,
-  "other_totals_passed": 3
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

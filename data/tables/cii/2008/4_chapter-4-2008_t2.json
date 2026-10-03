@@ -6,102 +6,39 @@
  "topic": "",
  "section": "",
  "serial": "4",
- "title": "DISPOSAL PERCENTAGE OF IPC CRIME CASES BY COURTS DURING 2008 (All India 15.4)",
+ "title": "Percent Disposal of SLL Cases by Police Crime-wise 2008 FIGURE 4.4 Note: Cases disposed by police is the number of cases for investigation less the no. of cases pending investigation (including cases pending investigation from previous years) under SLL",
  "listing_title": "Disposal of cases by Police & Courts",
- "method": "pdf_mixed",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-4_2008.pdf",
  "source_file": "raw/cii/2008/table_chapter/chapter-4_2008.pdf",
  "source_sha256": "045055ff9f8f8b34f0043aca1faffe1ee4246aeff8b5408b709b686f64dd68aa",
  "table_no": "",
- "pdf_title": "DISPOSAL PERCENTAGE OF IPC CRIME CASES BY COURTS DURING 2008 (All India 15.4)",
- "row_label": "Percent Crime-wise 2008 CRIME HEAD",
+ "pdf_title": "Percent Disposal of SLL Cases by Police Crime-wise 2008 FIGURE 4.4 Note: Cases disposed by police is the number of cases for investigation less the no. of cases pending investigation (including cases pending investigation from previous years) under SLL",
+ "row_label": "CRIME HEAD",
  "pages": [
-  8,
-  10,
-  13,
-  14
+  10
  ],
- "n_rows": 84,
- "n_cols": 10,
- "n_cells": 157,
+ "n_rows": 23,
+ "n_cols": 2,
+ "n_cells": 46,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "DISPOSAL",
+   "header": [
+    "DISPOSAL"
+   ]
   },
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
-  },
-  {
-   "col_no": "4",
-   "name": "col_4",
-   "header": []
-  },
-  {
-   "col_no": "5",
-   "name": "Jammu & Kashmir",
+   "name": "PENDENCY",
    "header": [
-    "Jammu & Kashmir"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Police Cases by Disposal",
-   "header": [
-    "Police Cases by Disposal"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "4.4 FIGURE of SLL DISPOSAL PENDENCY",
-   "header": [
-    "4.4 FIGURE of SLL DISPOSAL PENDENCY"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "of IPC by Courts",
-   "header": [
-    "of IPC by Courts"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Cases 4.5 FIGURE DISPOSAL PENDENCY",
-   "header": [
-    "Cases 4.5 FIGURE DISPOSAL PENDENCY"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "Courts Cases by Disposal",
-   "header": [
-    "Courts Cases by Disposal"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "of SLL 46 FIGURE DISPOSAL PENDENCY",
-   "header": [
-    "of SLL 46 FIGURE DISPOSAL PENDENCY"
+    "PENDENCY"
    ]
   }
  ],
- "notes": [
-  "Note:",
-  "Disposal Percentage of IPC crime cases by courts is the no. of cases compounded/withdrawn or in which trial was completed expressed as",
-  "a percentage of total no. of cases for trial (including cases pending trial from previous year) under IPC",
-  "Hote: Cases disposed by police the number of cases for inwestigation less the no. of cases pending investigation (including cases",
-  "pending investigation from years) under SLL",
-  "Hote: percentage of IPC crime cases by court is the no. of cases or tialwas completed",
-  "expressed as percentage of total no. of cases for cases pending trial fram previous year) under IPC",
-  "Mote: al percentage of SLL crime cases by courts i the no. of cases or in which tialwas completed",
-  "expressed as percentage oftotal no. of cases for tral cases pending trial fram previous years) under SLL"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -109,7 +46,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 4,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

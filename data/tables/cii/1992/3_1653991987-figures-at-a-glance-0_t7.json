@@ -6,75 +6,99 @@
  "topic": "",
  "section": "Crime in India 1992",
  "serial": "3",
- "title": "POLICE PERSONNEL KILLED ON DUTY IN STATES & UTs DURING 1988 TO 1992",
+ "title": "12 ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CRIMES DURING 1992",
  "listing_title": "Figures at a Glance",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653991987_figures-at-a-glance_0.pdf",
  "source_file": "raw/cii/1992/year_wise/1653991987_figures-at-a-glance_0.pdf",
  "source_sha256": "4419f13a56bc9c835091b26aa88aedbe665b2e427ccdf279b9ea0a645831105d",
  "table_no": "",
- "pdf_title": "POLICE PERSONNEL KILLED ON DUTY IN STATES & UTs DURING 1988 TO 1992",
- "row_label": "SL. NO. / STATE/UT",
+ "pdf_title": "12 ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CRIMES DURING 1992",
+ "row_label": "STATE/UT",
  "pages": [
-  13,
-  14
+  12
  ],
- "n_rows": 47,
- "n_cols": 5,
- "n_cells": 217,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
-   "col_no": "3",
-   "name": "1988",
+   "col_no": "2",
+   "name": "AREA (IN SQR. KMS)",
    "header": [
-    "1988"
+    "AREA (IN SQR. KMS)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "ESTI-MATED MID-YEAR POPU-LATION (IN 000')",
+   "header": [
+    "ESTI-MATED MID-YEAR POPU-LATION (IN 000')"
    ]
   },
   {
    "col_no": "4",
-   "name": "1989",
+   "name": "TOTAL COG-NIZABLE CRIMES (IPC)",
    "header": [
-    "1989"
+    "TOTAL COG-NIZABLE CRIMES (IPC)"
    ]
   },
   {
    "col_no": "5",
-   "name": "1990",
+   "name": "ACTUAL POLICE STRENGTH | CIVIL",
    "header": [
-    "1990"
+    "ACTUAL POLICE STRENGTH",
+    "CIVIL"
    ]
   },
   {
    "col_no": "6",
-   "name": "1991",
+   "name": "ACTUAL POLICE STRENGTH | ARMED",
    "header": [
-    "1991"
+    "ACTUAL POLICE STRENGTH",
+    "ARMED"
    ]
   },
   {
    "col_no": "7",
-   "name": "1992",
+   "name": "ACTUAL POLICE STRENGTH | TOTAL",
    "header": [
-    "1992"
+    "ACTUAL POLICE STRENGTH",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF POLICEMEN PER 100 SQR. KMS. AREA",
+   "header": [
+    "NO. OF POLICEMEN PER 100 SQR. KMS. AREA"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF POLICEMEN PER 1,000 OF POPULA-TION",
+   "header": [
+    "NO. OF POLICEMEN PER 1,000 OF POPULA-TION"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "IPC CASES PER I.O.",
+   "header": [
+    "IPC CASES PER I.O."
    ]
   }
  ],
- "notes": [
-  "SOURCE: ’CRIME IN INDIA’ PUBLICATIONS.",
-  "SOURCE: ‘DATA ON POLICE ORGANISATIONS IN INDIA’ PUBLISHED BY BPR&D.",
-  "NOTE: # OTHER C.P.O.’s"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 15,
-  "cells_passed": 14,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 383, sum 333"
-  ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 4
+  "cells_passed": 15,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

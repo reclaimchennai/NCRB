@@ -8,26 +8,38 @@
  "serial": "7",
  "title": "Age-wise distribution of Accidental Deaths by Un-natural causes during 1999 (all India)",
  "listing_title": "Age-wise distribution of Accidental Deaths by Un-natural causes during 1999 (all India)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-7_1999.pdf",
  "source_file": "raw/adsi/1999/table_content/table-7_1999.pdf",
  "source_sha256": "ee8e12412bab0d10cf3a69b6923779124cd0155b2fa89090ef75179e738ee9b4",
  "table_no": "7",
- "pdf_title": "Age-wise Distribution of Accidental Deaths by Un-natural Causes during 1999",
- "row_label": "Un-Natural Causes ap / Upto 14 Years Male",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1999 N.C.R.B., (M.H.A.) TABLE - 7",
+ "row_label": "Sl. No. / Un-Natural Causes",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 23,
- "n_cols": 5,
- "n_cells": 66,
+ "n_rows": 49,
+ "n_cols": 15,
+ "n_cells": 703,
  "columns": [
   {
-   "col_no": "4",
-   "name": "(All-India)",
+   "col_no": "3",
+   "name": "Age-Group | Uto 14 Years | Male",
    "header": [
-    "(All-India)"
+    "Age-Group",
+    "Uto 14 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Age-Group | Uto 14 Years | Female",
+   "header": [
+    "Age-Group",
+    "Uto 14 Years",
+    "Female"
    ]
   },
   {
@@ -41,33 +53,109 @@
   },
   {
    "col_no": "6",
-   "name": "Age-Group | 15-29 Years | Femaie",
+   "name": "Age-Group | 15-29 Years | Female",
    "header": [
     "Age-Group",
     "15-29 Years",
-    "Femaie"
+    "Female"
    ]
   },
   {
    "col_no": "7",
-   "name": "Age-Group | 30-44 years",
+   "name": "Age-Group | 30-44 years | Male",
    "header": [
     "Age-Group",
-    "30-44 years"
+    "30-44 years",
+    "Male"
    ]
   },
   {
    "col_no": "8",
-   "name": "Age-Group | 45-59 Years Famala Male Female ta) gy",
+   "name": "Age-Group | 30-44 years | Female",
    "header": [
     "Age-Group",
-    "45-59 Years Famala Male Female ta) gy"
+    "30-44 years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Age-Group | 45-59 Years | Male",
+   "header": [
+    "Age-Group",
+    "45-59 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Age-Group | 45-59 Years | Female",
+   "header": [
+    "Age-Group",
+    "45-59 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Age-Group | Above 60 Years | Male",
+   "header": [
+    "Age-Group",
+    "Above 60 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Age-Group | Above 60 Years | Female",
+   "header": [
+    "Age-Group",
+    "Above 60 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Total | Male",
+   "header": [
+    "Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Total | Female",
+   "header": [
+    "Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Total | M + F",
+   "header": [
+    "Total",
+    "M + F"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Percentage | Male to Total",
+   "header": [
+    "Percentage",
+    "Male to Total"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Percentage | Share to Total",
+   "header": [
+    "Percentage",
+    "Share to Total"
    ]
   }
  ],
- "notes": [
-  "“ oF eae 3008\" err? 7 ae -"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -76,6 +164,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

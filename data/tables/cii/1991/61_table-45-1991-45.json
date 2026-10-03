@@ -8,86 +8,94 @@
  "serial": "61",
  "title": "Juveniles Apprehended under Different LSL Crimes by Age Group & Sex During 1991 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended under Different LSL Crimes by Age Group & Sex During 1991 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-45-1991-45.pdf",
  "source_file": "raw/cii/1991/table_content/table-45-1991-45.pdf",
  "source_sha256": "98a936780f3644fed6d96b0ac6503e85c9c1ddffecda400d8a8d3e3c3d8b7b2d",
- "table_no": "",
- "pdf_title": "TARLE-45 APPREHENDED UNDER LSL CRIMES BT AGE GROUP EB SEX DURING 1991",
- "row_label": "wo. / 7 sors",
+ "table_no": "45",
+ "pdf_title": "159 TABLE-45 JUVENILES APPREHENDED UNDER LSL CRIMES BY",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 46,
- "n_cols": 7,
- "n_cells": 261,
+ "n_rows": 47,
+ "n_cols": 8,
+ "n_cells": 376,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE, 12 TEARS",
+   "name": "7 - 12 YEARS | BOYS",
    "header": [
-    "(STATE, 12 TEARS"
+    "7 - 12 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "UT BOTS",
+   "name": "7 - 12 YEARS | GIRLS",
    "header": [
-    "UT BOTS"
+    "7 - 12 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "5",
-   "name": "& 12-16 YEARS GIRLS",
+   "name": "12-16 YEARS | BOYS",
    "header": [
-    "& 12-16 YEARS GIRLS"
+    "12-16 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "6",
-   "name": "16-18 YEARS ORLY",
+   "name": "12-16 YEARS | GIRLS",
    "header": [
-    "16-18 YEARS ORLY"
+    "12-16 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "7",
-   "name": "OWERALL Bors",
+   "name": "16-18 YEARS | GIRLS ONLY",
    "header": [
-    "OWERALL Bors"
+    "16-18 YEARS",
+    "GIRLS ONLY"
    ]
   },
   {
    "col_no": "8",
-   "name": "AGE GIRLS",
+   "name": "16-18 YEARS",
    "header": [
-    "AGE GIRLS"
+    "16-18 YEARS"
    ]
   },
   {
    "col_no": "9",
-   "name": "TOTAL (mors 6GIRLE)",
+   "name": "OVERALL AGE GROUP | BOYS",
    "header": [
-    "TOTAL (mors 6GIRLE)"
+    "OVERALL AGE GROUP",
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OVERALL AGE GROUP | GIRLS",
+   "header": [
+    "OVERALL AGE GROUP",
+    "GIRLS"
    ]
   }
  ],
- "notes": [
-  "64 PUNE a a a o o 13] o 0",
-  "Hote: 7-12 years meana 7 yeara and above but below 12 years of age etc."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 1,
-  "failures": [
-   "col 3 'TOTAL (UTS)': printed 3, sum 315",
-   "col 9 'TOTAL (UTS)': printed 49, sum 51"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -6,23 +6,23 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "33",
- "title": "INCIDENCE AND RATE OF VIOLENT CRIMES DURING 1997",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-13",
  "listing_title": "Incidence and Rate of Violent Crimes During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-13-1996-crime-survey.pdf",
  "source_sha256": "0f960ec8701075bc8331a6be0258daabb11675bd86e978124d23bf78b92b9ab8",
  "table_no": "13",
- "pdf_title": "INCIDENCE AND RATE OF VIOLENT CRIMES DURING 1997",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-13",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 48,
+ "n_rows": 35,
  "n_cols": 15,
- "n_cells": 512,
+ "n_cells": 525,
  "columns": [
   {
    "col_no": "3",
@@ -74,85 +74,71 @@
    ]
   },
   {
-   "col_no": "10001",
-   "name": "ROBBERY (2)",
+   "col_no": "10",
+   "name": "ROBBERY",
    "header": [
-    "ROBBERY (2)"
+    "ROBBERY"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "RIOTS (10)",
+   "col_no": "11",
+   "name": "RIOTS",
    "header": [
-    "RIOTS (10)"
+    "RIOTS"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "ARSON (11)",
+   "col_no": "12",
+   "name": "ARSON",
    "header": [
-    "ARSON (11)"
+    "ARSON"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "PERCENT | DOWRY DEATHS (12)",
+   "col_no": "13",
+   "name": "DOWRY DEATHS",
    "header": [
-    "PERCENT",
-    "DOWRY DEATHS (12)"
+    "DOWRY DEATHS"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "PERCENT | TOTAL VIOLENT CRIMES (13)",
+   "col_no": "14",
+   "name": "TOTAL VIOLENT CRIMES",
    "header": [
-    "PERCENT",
-    "TOTAL VIOLENT CRIMES (13)"
+    "TOTAL VIOLENT CRIMES"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "PERCENT | AGE SHARE TO ALL INDIA CRIMES (14)",
+   "col_no": "15",
+   "name": "PERCENT AGE SHARE TO ALL INDIA CRIMES",
    "header": [
-    "PERCENT",
-    "AGE SHARE TO ALL INDIA CRIMES (14)"
+    "PERCENT AGE SHARE TO ALL INDIA CRIMES"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "PERCENT | CRIME RATE OF VIOLENT (15)",
+   "col_no": "16",
+   "name": "CRIME RATE OF VIOLENT",
    "header": [
-    "PERCENT",
-    "CRIME RATE OF VIOLENT (15)"
+    "CRIME RATE OF VIOLENT"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "PERCENT | PERCENT AGE TO TOTAL CRIMES UNDER Ipc (16) 17),",
+   "col_no": "17",
+   "name": "PERCENT AGE TO TOTAL COG. CRIMES UNDER IPC",
    "header": [
-    "PERCENT",
-    "PERCENT AGE TO TOTAL CRIMES UNDER Ipc (16) 17),"
+    "PERCENT AGE TO TOTAL COG. CRIMES UNDER IPC"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 19,
-  "cells_passed": 9,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 36892, sum 36887",
-   "col 4 'TOTAL (STATES)': printed 28748, sum 28738",
-   "col 6 'TOTAL (UTs)': printed 569, sum 15330",
-   "col 8 'TOTAL (STATES)': printed 7814, sum 7777",
-   "col 10001 'TOTAL (STATES)': printed 21499, sum 17289",
-   "col 10001 'TOTAL (UTs)': printed 642, sum 10",
-   "col 10002 'TOTAL (STATES)': printed 91401, sum 62882",
-   "col 10002 'TOTAL (UTs)': printed 411, sum 125"
-  ],
+  "cells_checked": 33,
+  "cells_passed": 33,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

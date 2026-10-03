@@ -8,21 +8,49 @@
  "serial": "50",
  "title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States and UTs During 1994",
  "listing_title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States and UTs During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table5-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table5-1994_2.pdf",
  "source_sha256": "7d5bc6874b07e1fd1e87d27362c872bd20a387a0a6eb8b675be508f6048777d2",
  "table_no": "5",
- "pdf_title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES: AND UTs DURING 1994",
- "row_label": "SL. NO. / STATE/UT / INCIDENCE OF TOTAL COG. CRIMES / PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL / RATE OF ESTIMATED MID-YEAR POPULATION (IN LAKHS) / RATE OF TOTAL COG. CRIMES",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE - 5",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 32,
- "n_cols": 1,
- "n_cells": 32,
+ "n_rows": 35,
+ "n_cols": 5,
+ "n_cells": 172,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "INCIDENCE OF TOTAL COG. CRIMES",
+   "header": [
+    "INCIDENCE OF TOTAL COG. CRIMES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RATE OF TOTAL COG. CRIMES",
+   "header": [
+    "RATE OF TOTAL COG. CRIMES"
+   ]
+  },
   {
    "col_no": "7",
    "name": "RANK*",
@@ -31,15 +59,10 @@
    ]
   }
  ],
- "notes": [
-  "TOTAL (UTs) i 44476 2.7} 128.3 346.7",
-  "TOTAL (ALL-INDIA) 1635251 100.0 8999.7 181.7 }",
-  "Note: 1 * Rank on the basis of Rate of (Col.6! in the Stetes & UTs.",
-  "2 Percentage ten 0.06 is a8 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -8,41 +8,93 @@
  "serial": "48",
  "title": "Juveniles Apprehended under IPC and L&SL Crimes by Age Groups 1983-93",
  "listing_title": "Juveniles Apprehended under IPC and L&SL Crimes by Age Groups 1983-93",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-48-1993-crime.pdf",
  "source_sha256": "df1cd415b4246097c1b68edd50269e1163bdfe888e47f5af971fc8f13a94c6a8",
  "table_no": "48",
- "pdf_title": "",
- "row_label": "JUVENILES (hi 1 2 3 4 5 6 7 8 9 10 1 / JUVENILES (2) 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 / JUVENILES 1983-93 (9) (3) (i) (7) 9.9 26153 16949 8290 12472 Fete 5846 25054 5991 11516 6.8 21172 7.1 12163 5138 23940 5.8 10387 5279 22209 31098 3624 81.5 3446 21028 10552 57.8 4812 76.5 3555 23580 3681 63.8 18887 5837 4867 69.3 14793 3130 3435 67.0 13437 2701 3929",
+ "pdf_title": "228 TABLE-48 JUVENILES APPREHENDED UNDER IPC AND L&SL CRIMES BY AGE GROUPS",
+ "row_label": "SL NO.",
  "pages": [
   1
  ],
- "n_rows": 2,
- "n_cols": 1,
- "n_cells": 2,
+ "n_rows": 13,
+ "n_cols": 10,
+ "n_cells": 117,
  "columns": [
   {
-   "col_no": "4",
-   "name": "UNDER IPC AND L&SL CRIMES BY AGE GROUPS (4) wih (ahh (11) Cian 4.8 15.2 120222 70.1 171614 3.6 15.4 118888 73.3 162260 3.6 12.6 129820 77.0 168499 3.0 14.1 75.8 170149 128908 2.9 142087 12.3 79.0 179962 9.5 8.0 38168 - - 13.2 29.0 36392 - - 11.9 11.5 30816 - - 19.7 16.4 29591 - - 14.7 16.1 21358 - - 19.6 13.5 20067 - -",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "UNDER IPC AND L&SL CRIMES BY AGE GROUPS (4) wih (ahh (11) Cian 4.8 15.2 120222 70.1 171614 3.6 15.4 118888 73.3 162260 3.6 12.6 129820 77.0 168499 3.0 14.1 75.8 170149 128908 2.9 142087 12.3 79.0 179962 9.5 8.0 38168 - - 13.2 29.0 36392 - - 11.9 11.5 30816 - - 19.7 16.4 29591 - - 14.7 16.1 21358 - - 19.6 13.5 20067 - -"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "7-12 YEARS",
+   "header": [
+    "7-12 YEARS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE TO TOTAL (4)",
+   "header": [
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "12-16 YEARS",
+   "header": [
+    "12-16 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PERCENTAGE TO TOTAL (6)",
+   "header": [
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "16-19 YEARS",
+   "header": [
+    "16-19 YEARS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PERCENTAGE TO TOTAL (8)",
+   "header": [
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "19-21 YEARS",
+   "header": [
+    "19-21 YEARS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PERCENTAGE TO TOTAL (10)",
+   "header": [
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "DUERALL AGE GROUP",
+   "header": [
+    "DUERALL AGE GROUP"
    ]
   }
  ],
- "notes": [
-  "CHANGE",
-  "IN 1993",
-  "OVER 1992",
-  "Note: 1. 7-12 years means 7 years and above but below 12 years",
-  "of age etc.",
-  "2. In 1988 and onwards as per new definition of juveniles",
-  "16-18 years age group contains only girls and 18-21 years age group",
-  "is not at an ccz:si¢=:22 juveniles. For 16-18 years age",
-  "QroUp, Percentage change in 1993 over 1983 is not worked",
-  "out due to of data."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -50,7 +102,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

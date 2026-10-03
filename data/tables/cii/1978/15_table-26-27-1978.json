@@ -8,58 +8,104 @@
  "serial": "15",
  "title": "Disposal of Persons Arrested under I.P.C. Crimes under Investigation by Police; Disposal of Persons Arrested under IPC Crimes",
  "listing_title": "Disposal of Persons Arrested under I.P.C. Crimes under Investigation by Police; Disposal of Persons Arrested under IPC Crimes",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26-27-1978.pdf",
  "source_file": "raw/cii/1978/table_content/table-26-27-1978.pdf",
  "source_sha256": "012e5f0c7491a807eeb26b266ac7fce622821ff69e57c2da3d968e84f09b5e87",
  "table_no": "26",
- "pdf_title": "",
- "row_label": "SI. Crime Heads No. / DISPOSAL OF PERSONS ARRESTED UNDER",
+ "pdf_title": "55 TABLE 26 DISPOSAL OF PERSONS ARRESTED UNDER I.P.C. CRIMES UNDER INVESTIGATION BY POLICE",
+ "row_label": "Sl. Crime Heads No.",
  "pages": [
+  1,
   1
  ],
- "n_rows": 14,
- "n_cols": 5,
- "n_cells": 66,
+ "n_rows": 13,
+ "n_cols": 12,
+ "n_cells": 156,
  "columns": [
   {
    "col_no": "3",
-   "name": "DISPOSAL OF PERSONS ARRESTED UNDER | Total No. of persons in custody oron bail during the stage of investigation including Persons under over from previous year",
+   "name": "Total No. of persons in custody or on bail during the stage of investigation including persons under arrest carried over from previous year",
    "header": [
-    "DISPOSAL OF PERSONS ARRESTED UNDER",
-    "Total No. of persons in custody oron bail during the stage of investigation including Persons under over from previous year"
+    "Total No. of persons in custody or on bail during the stage of investigation including persons under arrest carried over from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "DISPOSAL OF PERSONS ARRESTED UNDER | BY POLICE Total No. of persons in custodyoron baildurino the stage of inveat the end of the year",
+   "name": "Total No. of persons in custody or on bail during the stage of investigation at the end of the year",
    "header": [
-    "DISPOSAL OF PERSONS ARRESTED UNDER",
-    "BY POLICE Total No. of persons in custodyoron baildurino the stage of inveat the end of the year"
+    "Total No. of persons in custody or on bail during the stage of investigation at the end of the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "CRIMES UNDER INVESTIGATION | Persons in whose cases charse-cheets were laid during the year",
+   "name": "Persons in whose cases charge-sheets were laid during the year",
    "header": [
-    "CRIMES UNDER INVESTIGATION",
-    "Persons in whose cases charse-cheets were laid during the year"
+    "Persons in whose cases charge-sheets were laid during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIMES UNDER INVESTIGATION | Y%age of persons in custody or on bail during the stage of investigation nending at year to total nersons in during the stage of",
+   "name": "%age of persons in custody or on bail during the stage of investigation pending at the end of the year to total persons in during the stage of investigation",
    "header": [
-    "CRIMES UNDER INVESTIGATION",
-    "Y%age of persons in custody or on bail during the stage of investigation nending at year to total nersons in during the stage of"
+    "%age of persons in custody or on bail during the stage of investigation pending at the end of the year to total persons in during the stage of investigation"
    ]
   },
   {
    "col_no": "7",
-   "name": "%age of persons whose in cases charge sheets laid to were total persons of the under custody during the stage - of investigation",
+   "name": "%age of persons in whose cases charge sheets were laid to total persons under custody during the stage of investigation",
    "header": [
-    "%age of persons whose in cases charge sheets laid to were total persons of the under custody during the stage - of investigation"
+    "%age of persons in whose cases charge sheets were laid to total persons under custody during the stage of investigation"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Total No. of persons under trials during the year including persons carried over from previous year",
+   "header": [
+    "Total No. of persons under trials during the year including persons carried over from previous year"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "No. of persons against whom cases were composed or withdrawn",
+   "header": [
+    "No. of persons against whom cases were composed or withdrawn"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Persons in whose cases trials were completed",
+   "header": [
+    "Persons in whose cases trials were completed"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Persons in custody or on bail at the end of the year",
+   "header": [
+    "Persons in custody or on bail at the end of the year"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "No. of persons convicted during the year",
+   "header": [
+    "No. of persons convicted during the year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "%age of persons in custody pending trial to number of persons undertrial",
+   "header": [
+    "%age of persons in custody pending trial to number of persons undertrial"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "%age of persons convicted to total persons in whose cases trials were completed during the year",
+   "header": [
+    "%age of persons convicted to total persons in whose cases trials were completed during the year"
    ]
   }
  ],
@@ -68,10 +114,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 8,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

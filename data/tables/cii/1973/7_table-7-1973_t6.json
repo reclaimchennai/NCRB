@@ -6,54 +6,70 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "TABLE",
+ "title": "Reported during the year",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "TABLE",
- "row_label": "Statement - S00 Name of District Ne. + ANDHRA PRADESH / Statement Murder neg 32",
+ "pdf_title": "Reported during the year",
+ "row_label": "Robbery",
  "pages": [
-  7
+  6
  ],
- "n_rows": 31,
- "n_cols": 4,
- "n_cells": 103,
+ "n_rows": 26,
+ "n_cols": 7,
+ "n_cells": 182,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Statement | Culpable Homicide te 3",
+   "col_no": "2",
+   "name": "Burglary",
    "header": [
-    "Statement",
-    "Culpable Homicide te 3"
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Thefts",
+   "header": [
+    "Thefts"
    ]
   },
   {
    "col_no": "4",
-   "name": "Statement | Rape 4",
+   "name": "Riots",
    "header": [
-    "Statement",
-    "Rape 4"
+    "Riots"
    ]
   },
   {
    "col_no": "5",
-   "name": "Statement | Number of cases | and 5",
+   "name": "Criminal breach of trust",
    "header": [
-    "Statement",
-    "Number of cases",
-    "and 5"
+    "Criminal breach of trust"
    ]
   },
   {
    "col_no": "6",
-   "name": "Statement | Number of cases",
+   "name": "Cheating",
    "header": [
-    "Statement",
-    "Number of cases"
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Counterfeiting",
+   "header": [
+    "Counterfeiting"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total Cognizable Crime under IPC",
+   "header": [
+    "Total Cognizable Crime under IPC"
    ]
   }
  ],
@@ -65,7 +81,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

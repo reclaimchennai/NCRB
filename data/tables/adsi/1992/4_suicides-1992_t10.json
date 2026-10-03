@@ -6,61 +6,55 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1992",
  "serial": "4",
- "title": "Compersive Statement Of inciuence Of Suicides During 1991 And 1992",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.-41 TABLE - 10",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1992.pdf",
  "source_file": "raw/adsi/1992/year_wise/suicides-1992.pdf",
  "source_sha256": "558adfcc59560ec2cc427e8d060f06e2340c68d0482225d634e726b709eedb70",
  "table_no": "10",
- "pdf_title": "Compersive Statement Of inciuence Of Suicides During 1991 And 1992",
- "row_label": "(State & UT-wise) Si. No. / (State & UT-wise) State/UT",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.-41 TABLE - 10",
+ "row_label": "Incidence",
  "pages": [
   12,
+  12,
+  13,
   13
  ],
- "n_rows": 58,
+ "n_rows": 59,
  "n_cols": 3,
- "n_cells": 162,
+ "n_cells": 175,
  "columns": [
   {
-   "col_no": "3",
-   "name": "(State & UT-wise) | Incijence 1991",
+   "col_no": "4",
+   "name": "Incidence",
    "header": [
-    "(State & UT-wise)",
-    "Incijence 1991"
+    "Incidence"
    ]
   },
   {
-   "col_no": "4",
-   "name": "(State & UT-wise) | 1992",
-   "header": [
-    "(State & UT-wise)",
-    "1992"
-   ]
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "(State & UT-wise) | Percentage Variation In 1992 Over 1991",
-   "header": [
-    "(State & UT-wise)",
-    "Percentage Variation In 1992 Over 1991"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
- "notes": [
-  "* - Data compilation started from 1992 only.",
-  "NR - Data not received."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
+  "cells_checked": 6,
   "cells_passed": 5,
-  "failures": [],
+  "failures": [
+   "col 4 'Total (States)': printed 78561, sum 80553"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

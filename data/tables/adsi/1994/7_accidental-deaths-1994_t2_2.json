@@ -6,61 +6,57 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1994",
  "serial": "7",
- "title": "And Rate Of Acciucita: Deaths During 1994",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 22 TABLE-2",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1994.pdf",
  "source_file": "raw/adsi/1994/year_wise/accidental-deaths-1994.pdf",
  "source_sha256": "6ccee761c6f40bf3060f2134e781f1ee69f2bad9f14e7e9b405ebb26af808c5e",
  "table_no": "2",
- "pdf_title": "And Rate Of Acciucita: Deaths During 1994",
- "row_label": "(Stats & UT-wise) Si. No. / (Stats & UT-wise) State/UT",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 22 TABLE-2",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
   7,
   8
  ],
- "n_rows": 64,
+ "n_rows": 58,
  "n_cols": 4,
- "n_cells": 238,
+ "n_cells": 232,
  "columns": [
   {
    "col_no": "3",
-   "name": "(Stats & UT-wise) | Number of Accidental Deaths",
+   "name": "Number of Accidental Deaths",
    "header": [
-    "(Stats & UT-wise)",
     "Number of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "(Stats & UT-wise) | Percentage Share in Total Deaths",
+   "name": "Percentage Share in Total Deaths",
    "header": [
-    "(Stats & UT-wise)",
     "Percentage Share in Total Deaths"
    ]
   },
   {
    "col_no": "5",
-   "name": "(Stats & UT-wise) | Estimated Mid-Year Population (In Lakh)",
+   "name": "Estimated Mid-Year Population (In Lakh)",
    "header": [
-    "(Stats & UT-wise)",
     "Estimated Mid-Year Population (In Lakh)"
    ]
   },
   {
    "col_no": "6",
-   "name": "(Stats & UT-wise) | Rate (Accidental Deaths Per Lakh of Population) {Col.3/Col.5}",
+   "name": "Rate (Accidental Deaths Per Lakh of Population) (Col.3/Col.5)",
    "header": [
-    "(Stats & UT-wise)",
-    "Rate (Accidental Deaths Per Lakh of Population) {Col.3/Col.5}"
+    "Rate (Accidental Deaths Per Lakh of Population) (Col.3/Col.5)"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

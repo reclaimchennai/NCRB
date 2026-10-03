@@ -8,34 +8,53 @@
  "serial": "64",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1981-91",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1981-91",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48-1991-48.pdf",
  "source_file": "raw/cii/1991/table_content/table-48-1991-48.pdf",
  "source_sha256": "fed083e4862eb4a66f45048a2d74b82e288da8e9501d4337bd84e72bb31835bf",
- "table_no": "",
- "pdf_title": "TABLE=48 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
- "row_label": "TEAR SL. uo. / DURTHG TOTAL en STOLEN / 1981-91 (Ra. VALUE RECOVERED",
+ "table_no": "48",
+ "pdf_title": "166 TABLE-48 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
  "n_rows": 12,
- "n_cols": 1,
- "n_cells": 12,
+ "n_cols": 4,
+ "n_cells": 48,
  "columns": [
   {
-   "col_no": "4",
-   "name": "im loka) OF PROPERTY RECOVERY",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "im loka) OF PROPERTY RECOVERY"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
+   "header": [
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
+   "header": [
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERCENTAGE RECOVERY",
+   "header": [
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],
- "notes": [
-  "12 PERCENTAGE 266.8. 218.5 “15.41",
-  "(CHANGE IW",
-  "OVER 1981"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -43,7 +62,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

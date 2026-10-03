@@ -8,95 +8,110 @@
  "serial": "32",
  "title": "Juveniles Apprehended under Important Heads of Local and Special Laws",
  "listing_title": "Juveniles Apprehended under Important Heads of Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-39-1976.pdf",
  "source_file": "raw/cii/1976/table_content/table-39-1976.pdf",
  "source_sha256": "66076b2d42a01df820d060d90ef7d794cf837fc8c793f9e7f84742d97b42538c",
- "table_no": "",
- "pdf_title": "Tams 39 Juveniles Apprehended Under Importane Heods of Docal and Special Laws",
- "row_label": "7 al Sl. / Chak Arms Act Citles",
+ "table_no": "39",
+ "pdf_title": "77 TABLE 39 Juveniles Apprehended Under Important Heads of Local and Special Laws",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 44,
- "n_cols": 10,
- "n_cells": 298,
+ "n_rows": 43,
+ "n_cols": 13,
+ "n_cells": 534,
  "columns": [
   {
    "col_no": "3",
-   "name": "Chak | Act ling Act - Act (3)",
+   "name": "Arms Act",
    "header": [
-    "Chak",
-    "Act ling Act - Act"
+    "Arms Act"
    ]
   },
   {
    "col_no": "4",
-   "name": "Chak | Act ling Act - Act (4)",
+   "name": "Opium Act",
    "header": [
-    "Chak",
-    "Act ling Act - Act"
+    "Opium Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "Chak | Act ling Act - Act (5)",
+   "name": "Gamb-ling Act",
    "header": [
-    "Chak",
-    "Act ling Act - Act"
+    "Gamb-ling Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "Chak | Act",
+   "name": "Excise Act",
    "header": [
-    "Chak",
-    "Act"
+    "Excise Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "B & -",
+   "name": "Prohibi-tion Act",
    "header": [
-    "B & -"
+    "Prohibi-tion Act"
    ]
   },
   {
    "col_no": "8",
-   "name": "Motor | S.LT. Ast",
+   "name": "Explo-sives & Exp. sub-stances Act",
    "header": [
-    "Motor",
-    "S.LT. Ast"
+    "Explo-sives & Exp. sub-stances Act"
    ]
   },
   {
    "col_no": "9",
-   "name": "Motor | YSs4==-s of tien Act",
+   "name": "S.I.T. Act",
    "header": [
-    "Motor",
-    "YSs4==-s of tien Act"
+    "S.I.T. Act"
    ]
   },
   {
    "col_no": "10",
-   "name": "Act",
+   "name": "Motor Vehicles Act",
    "header": [
-    "Act"
+    "Motor Vehicles Act"
    ]
   },
   {
    "col_no": "11",
-   "name": "Indian",
+   "name": "Proven-tion of Corrup-tion Act",
    "header": [
-    "Indian"
+    "Proven-tion of Corrup-tion Act"
    ]
   },
   {
    "col_no": "12",
-   "name": "(Other Jrand Total",
+   "name": "Customs Act",
    "header": [
-    "(Other Jrand Total"
+    "Customs Act"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Indian Railways Act",
+   "header": [
+    "Indian Railways Act"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Other offences",
+   "header": [
+    "Other offences"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Jrand Total",
+   "header": [
+    "Jrand Total"
    ]
   }
  ],
@@ -105,10 +120,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 34,
+  "other_totals_passed": 32
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

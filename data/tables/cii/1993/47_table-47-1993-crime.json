@@ -8,14 +8,14 @@
  "serial": "47",
  "title": "Juveniles Apprehended under IPC & L&SL Crimes by Sex 1983-93",
  "listing_title": "Juveniles Apprehended under IPC & L&SL Crimes by Sex 1983-93",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-47-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-47-1993-crime.pdf",
  "source_sha256": "55f749f4955facdec2db42ff6ea44a7a1046ef594125559219d863b14c4bf6fe",
  "table_no": "47",
- "pdf_title": "JUVENILES APPREHENDED UNDER IPC & L&SL CRIMES BY SEX",
- "row_label": "NO",
+ "pdf_title": "227 TABLE-47 JUVENILES APPREHENDED UNDER IPC & L&SL CRIMES BY SEX",
+ "row_label": "SL NO.",
  "pages": [
   1
  ],
@@ -25,23 +25,23 @@
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "YEAR",
+   "header": [
+    "YEAR"
+   ]
   },
   {
    "col_no": "3",
-   "name": "1983-93 | e0Ys",
+   "name": "EDYS",
    "header": [
-    "1983-93",
-    "e0Ys"
+    "EDYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "1983-93 | ФINS",
+   "name": "GIRLS",
    "header": [
-    "1983-93",
-    "ФINS"
+    "GIRLS"
    ]
   },
   {
@@ -53,22 +53,13 @@
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE OF",
+   "name": "PERCENTAGE OF GIRLS",
    "header": [
-    "PERCENTAGE OF"
+    "PERCENTAGE OF GIRLS"
    ]
   }
  ],
- "notes": [
-  "Note: 1.Data for 1988 onwards is not at all comparable to",
-  "earlier years due to change in the definition of",
-  "Juveniles from 1988.",
-  "2.Earlier,juvenile boys & girls were of the same age",
-  "group ({i.e., below 21 years). However, since 1988",
-  "juvenile boys & girls are of different age groups",
-  "li.e., boys below 16 years & girls below 18 years).",
-  "3IA—177 NCRK9S,"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

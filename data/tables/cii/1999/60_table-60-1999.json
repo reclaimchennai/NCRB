@@ -1,0 +1,192 @@
+{
+ "table_id": "cii/1999/60_table-60-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "60",
+ "title": "Classification of Juveniles Arrested (Under IPC & SLL) by Attributes During 1999 (State, UT & City-Wise)",
+ "listing_title": "Classification of Juveniles Arrested (Under IPC & SLL) by Attributes During 1999 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-60-1999.pdf",
+ "source_sha256": "11f16b98e2cf1339768e3edd34c059c1d1e25839eca950eacc18e9b7ddb3be1e",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL NO. / STATE/UT/CITY",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 59,
+ "n_cols": 19,
+ "n_cells": 1121,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "BY EDUCATION | ILLITERATE",
+   "header": [
+    "BY EDUCATION",
+    "ILLITERATE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BY EDUCATION | PRIMARY",
+   "header": [
+    "BY EDUCATION",
+    "PRIMARY"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BY EDUCATION | ABOVE PRIMARY BUT BELOW H.SEC.",
+   "header": [
+    "BY EDUCATION",
+    "ABOVE PRIMARY BUT BELOW H.SEC."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "BY EDUCATION | MATRIC/H.SEC. & ABOVE",
+   "header": [
+    "BY EDUCATION",
+    "MATRIC/H.SEC. & ABOVE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BY EDUCATION | TOTAL",
+   "header": [
+    "BY EDUCATION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH PARENTS",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH PARENTS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARDIANS",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH GUARDIANS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "BY FAMILY BACKGROUND | HOME-LESS",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "HOME-LESS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "BY FAMILY BACKGROUND | TOTAL",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "BY ECONOMIC-SETUP | ANNUAL INCOME (UPTO Rs.25,000)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "ANNUAL INCOME (UPTO Rs.25,000)"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BY ECONOMIC-SETUP | ANNUAL INCOME (25,001 to 50,000)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "ANNUAL INCOME (25,001 to 50,000)"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BY ECONOMIC-SETUP | MIDDLE INCOME (from 50,001 to 1,00,000)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "MIDDLE INCOME (from 50,001 to 1,00,000)"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "BY ECONOMIC-SETUP | MIDDLE INCOME (from 1,00,001 to 2,00,000)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "MIDDLE INCOME (from 1,00,001 to 2,00,000)"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "BY ECONOMIC-SETUP | UPPER MIDDLE INCOME (from 2,00,001 to 3,00,000)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "UPPER MIDDLE INCOME (from 2,00,001 to 3,00,000)"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "BY ECONOMIC-SETUP | UPPER INCOME (above Rs.3,00,000)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "UPPER INCOME (above Rs.3,00,000)"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "BY RECIDIVISM | TOTAL",
+   "header": [
+    "BY RECIDIVISM",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "BY RECIDIVISM | NEW DELINQUENT",
+   "header": [
+    "BY RECIDIVISM",
+    "NEW DELINQUENT"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "BY RECIDIVISM | OLD DELINQUENT",
+   "header": [
+    "BY RECIDIVISM",
+    "OLD DELINQUENT"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 72,
+  "cells_passed": 71,
+  "failures": [
+   "col 17 'TOTAL (UTS)': printed 3, sum 4"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

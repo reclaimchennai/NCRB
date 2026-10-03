@@ -6,100 +6,43 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1988",
  "serial": "3",
- "title": "Suicidal Deaths in India",
+ "title": "26 TABLE-V #### 2.6 Distribution Of Suicides According To Age :",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1988.pdf",
  "source_file": "raw/adsi/1988/year_wise/suicides-1988.pdf",
  "source_sha256": "7ae2909a7369d00fab7afea8f5cce915689a30a254bb2e6da3089a281568e85a",
  "table_no": "V",
- "pdf_title": "",
- "row_label": "TABLE—V Sl. No. / TABLE—V States/UTs/ Cities",
+ "pdf_title": "26 TABLE-V #### 2.6 Distribution Of Suicides According To Age :",
+ "row_label": "",
  "pages": [
-  10,
-  13
+  11
  ],
- "n_rows": 49,
- "n_cols": 9,
- "n_cells": 143,
+ "n_rows": 13,
+ "n_cols": 2,
+ "n_cells": 26,
  "columns": [
   {
-   "col_no": "3",
-   "name": "TABLE—V | 1987",
-   "header": [
-    "TABLE—V",
-    "1987"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "TABLE—V | Of Suicides By States/U.Ts./Cities During The Year 1987-1988. Number Of Suicides 1988",
-   "header": [
-    "TABLE—V",
-    "Of Suicides By States/U.Ts./Cities During The Year 1987-1988. Number Of Suicides 1988"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "TABLE—V | % Variation From 1987 to 1988",
-   "header": [
-    "TABLE—V",
-    "% Variation From 1987 to 1988"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "col_10001",
+   "name": "col_4",
    "header": []
   },
   {
-   "col_no": "10002",
-   "name": "n §",
-   "header": [
-    "n §"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "§",
-   "header": [
-    "§"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "om",
-   "header": [
-    "om"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "BER",
-   "header": [
-    "BER"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "od &",
-   "header": [
-    "od &"
-   ]
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
   }
  ],
- "notes": [
-  "S 2 S & BP 3 6 fel dans pa me me lite al at"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 2,
+  "cells_passed": 2,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

@@ -6,53 +6,47 @@
  "topic": "",
  "section": "PSI Year Wise 1997",
  "serial": "5",
- "title": "Sanctioned and Actual strength of Total Jail Staff during 1997",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1997 * Average of inmate population at the beginning and end of the period",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1997.pdf",
  "source_file": "raw/psi/1997/year_wise/psi-full-report-1997.pdf",
  "source_sha256": "29e97d658de1ebdea6cf26645ae2232e1befeeaf7602b912b2482f449ab6b774",
  "table_no": "",
- "pdf_title": "Sanctioned and Actual strength of Total Jail Staff during 1997",
- "row_label": "Si. Moz / State/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1997 * Average of inmate population at the beginning and end of the period",
+ "row_label": "Sl.No. / State/UT",
  "pages": [
-  45
+  21,
+  21
  ],
- "n_rows": 28,
+ "n_rows": 18,
  "n_cols": 3,
- "n_cells": 76,
+ "n_cells": 54,
  "columns": [
   {
    "col_no": "3",
-   "name": "Sanctioned",
+   "name": "Available Capacity",
    "header": [
-    "Sanctioned"
+    "Available Capacity"
    ]
   },
   {
    "col_no": "4",
-   "name": "Total Jail Staff Actual",
+   "name": "Inmates Population (Average)*",
    "header": [
-    "Total Jail Staff Actual"
+    "Inmates Population (Average)*"
    ]
   },
   {
    "col_no": "5",
-   "name": "Actual %",
+   "name": "Occupancy** rate",
    "header": [
-    "Actual %"
+    "Occupancy** rate"
    ]
   }
  ],
- "notes": [
-  "An analysis of the sanctioned and actual staff strength in the jails shows",
-  "that almost in all the States/UTs from where information had been sent, the actual",
-  "strength of the Jail Staff posted against the sanctioned strength is quite",
-  "satisfactory. Kerala, Mizoram, Nagaland, Sikkim and Chandigarh are the",
-  "States/UTs which reported 100% strength during 1997. While in Punjab, actual",
-  "strength was higher than the sanctioned strength."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -61,6 +55,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

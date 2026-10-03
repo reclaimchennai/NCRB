@@ -6,77 +6,70 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "APPENDIX—",
+ "title": "101 XV PERSONS",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendex-1970.pdf",
  "source_file": "raw/cii/1970/table_chapter/appendex-1970.pdf",
  "source_sha256": "3ed7da4cec7a8a52c94ec44a60188cb502ba306987e4cb8da95c49a8762233a3",
  "table_no": "",
- "pdf_title": "APPENDIX—",
- "row_label": "Sl. No, / States /U.Ts./Cities",
+ "pdf_title": "101 XV PERSONS",
+ "row_label": "No. of Persons in whose cases trials were completed",
  "pages": [
-  25
+  30
  ],
- "n_rows": 39,
- "n_cols": 6,
- "n_cells": 234,
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
-   "col_no": "3",
-   "name": "TOTAL COGNI7Z.ARTF CRINE | Persons Persons Persons Persons Persons | in investigation oron bail during the stage of investigation",
+   "col_no": "2",
+   "name": "Persons convicted",
    "header": [
-    "TOTAL COGNI7Z.ARTF CRINE",
-    "Persons Persons Persons Persons Persons",
-    "in investigation oron bail during the stage of investigation"
+    "Persons convicted"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Persons acquitted or discharged",
+   "header": [
+    "Persons acquitted or discharged"
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL COGNI7Z.ARTF CRINE | Persons Persons Persons Persons Persons | in trial oron bail during the stage of trial",
+   "name": "Persons against whom cases were compounded or withdrawn",
    "header": [
-    "TOTAL COGNI7Z.ARTF CRINE",
-    "Persons Persons Persons Persons Persons",
-    "in trial oron bail during the stage of trial"
+    "Persons against whom cases were compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "TOTAL COGNI7Z.ARTF CRINE | Persons Persons Persons Persons Persons | arrested released in bythe | custody custody during pending pending the year",
+   "name": "No. of persons in custody pending investigation or on bail during the stage of investigation at the end of year",
    "header": [
-    "TOTAL COGNI7Z.ARTF CRINE",
-    "Persons Persons Persons Persons Persons",
-    "arrested released in bythe",
-    "custody custody during pending pending the year"
+    "No. of persons in custody pending investigation or on bail during the stage of investigation at the end of year"
    ]
   },
   {
    "col_no": "6",
-   "name": "TOTAL COGNI7Z.ARTF CRINE | Persons Persons Persons Persons Persons | arrested released in bythe | Police or magistrate before trial",
+   "name": "No. of persons in custody pending trial or on bail during the stage of trial at the end of the year",
    "header": [
-    "TOTAL COGNI7Z.ARTF CRINE",
-    "Persons Persons Persons Persons Persons",
-    "arrested released in bythe",
-    "Police or magistrate before trial"
+    "No. of persons in custody pending trial or on bail during the stage of trial at the end of the year"
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL COGNI7Z.ARTF CRINE | Persons Persons Persons Persons Persons | arrested released in bythe | whcse case chargesheets were laid",
+   "name": "% of conviction to total persons in whose cases charge sheets were laid.",
    "header": [
-    "TOTAL COGNI7Z.ARTF CRINE",
-    "Persons Persons Persons Persons Persons",
-    "arrested released in bythe",
-    "whcse case chargesheets were laid"
+    "% of conviction to total persons in whose cases charge sheets were laid."
    ]
   },
   {
    "col_no": "8",
-   "name": "TOTAL COGNI7Z.ARTF CRINE | Num berof person in whose cases trials were completed",
+   "name": "% of conviction to total persons in whose cases trials were completed",
    "header": [
-    "TOTAL COGNI7Z.ARTF CRINE",
-    "Num berof person in whose cases trials were completed"
+    "% of conviction to total persons in whose cases trials were completed"
    ]
   }
  ],
@@ -85,8 +78,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 6,
-  "other_totals_passed": 3
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

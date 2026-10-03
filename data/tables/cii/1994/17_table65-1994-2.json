@@ -8,21 +8,235 @@
  "serial": "17",
  "title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Scheduled Castes During 1993 (State & UT-Wi",
  "listing_title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Scheduled Castes During 1993 (State & UT-Wi",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table65-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table65-1994_2.pdf",
  "source_sha256": "1c7eef2e6a34d35a118279a59cb6887cf6b69ebae9ce0e28e1dacd2b66a5fe0f",
  "table_no": "65",
- "pdf_title": "",
- "row_label": "SL. NO. / STATE/UT / KIDNAPPING & A3DUCTION \\ / KIDNAPPING & A3DUCTION R / KIDNAPPING & A3DUCTION P - / RAPE I / RAPE R / RAPE P / PROTECTION OF CIVIL / PROTECTION OF R / PROTECTION OF ACT P - / OTHERS R / P - / TOTAL \\ / TOTAL R",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-65",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
+  1,
   2
  ],
- "n_rows": 33,
- "n_cols": 1,
- "n_cells": 33,
+ "n_rows": 36,
+ "n_cols": 28,
+ "n_cells": 980,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "ESTIMATED MID YEAR POPULATION (IN LAKHS)",
+   "header": [
+    "ESTIMATED MID YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "MURDER | R",
+   "header": [
+    "MURDER",
+    "R"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "MURDER | P",
+   "header": [
+    "MURDER",
+    "P"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "MURDER | I",
+   "header": [
+    "MURDER",
+    "I"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "DACOITY | R",
+   "header": [
+    "DACOITY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "DACOITY | P",
+   "header": [
+    "DACOITY",
+    "P"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "ROBBERY | R",
+   "header": [
+    "ROBBERY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "ROBBERY | P",
+   "header": [
+    "ROBBERY",
+    "P"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ROBBERY | I",
+   "header": [
+    "ROBBERY",
+    "I"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "ARSON | R",
+   "header": [
+    "ARSON",
+    "R"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "ARSON | P",
+   "header": [
+    "ARSON",
+    "P"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "KIDNAPPING & ABDUCTION | I",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "KIDNAPPING & ABDUCTION | R",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "R"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "KIDNAPPING & ABDUCTION | P",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "RAPE | R",
+   "header": [
+    "RAPE",
+    "R"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "RAPE | P",
+   "header": [
+    "RAPE",
+    "P"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | I",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | R",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | P",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "OTHERS | I",
+   "header": [
+    "OTHERS",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "OTHERS | R",
+   "header": [
+    "OTHERS",
+    "R"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "OTHERS | P",
+   "header": [
+    "OTHERS",
+    "P"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "TOTAL | I",
+   "header": [
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
+   ]
+  },
   {
    "col_no": "30",
    "name": "TOTAL | P",
@@ -34,13 +248,13 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 27,
+  "cells_passed": 27,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

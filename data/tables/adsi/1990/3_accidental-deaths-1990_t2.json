@@ -6,15 +6,15 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1990",
  "serial": "3",
- "title": "Incidence And Volume Of Accidental Deaths",
+ "title": "11 TABLE - 2 Incidence And Volume Of Accidental Deaths",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1990.pdf",
  "source_file": "raw/adsi/1990/year_wise/accidental-deaths-1990.pdf",
  "source_sha256": "531e5a941225967411ce6d7de699c435aa2e807290544afb112873d44f469711",
  "table_no": "2",
- "pdf_title": "Incidence And Volume Of Accidental Deaths",
+ "pdf_title": "11 TABLE - 2 Incidence And Volume Of Accidental Deaths",
  "row_label": "Sl. No. / State/UT/City",
  "pages": [
   10
@@ -25,36 +25,34 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "During (State, Number Accidental Deaths",
+   "name": "Number of Accidental Deaths",
    "header": [
-    "During (State, Number Accidental Deaths"
+    "Number of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "1990 UT of in Share Total Deaths",
+   "name": "Percentage Share in Total Deaths",
    "header": [
-    "1990 UT of in Share Total Deaths"
+    "Percentage Share in Total Deaths"
    ]
   },
   {
    "col_no": "5",
-   "name": "& Estimated Percentage Mid-Year Population (In",
+   "name": "Estimated Mid-Year Population (In Lakh)",
    "header": [
-    "& Estimated Percentage Mid-Year Population (In"
+    "Estimated Mid-Year Population (In Lakh)"
    ]
   },
   {
    "col_no": "6",
-   "name": "City-wise) of Volume Accidental Deaths Per of Lakh Lakh) Population (Col.3/Col5)",
+   "name": "Volume of Accidental Deaths Per Lakh of Population (Col.3/Col5)",
    "header": [
-    "City-wise) of Volume Accidental Deaths Per of Lakh Lakh) Population (Col.3/Col5)"
+    "Volume of Accidental Deaths Per Lakh of Population (Col.3/Col5)"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 3,
   "cells_passed": 3,

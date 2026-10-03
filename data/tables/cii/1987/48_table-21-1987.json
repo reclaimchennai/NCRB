@@ -8,14 +8,14 @@
  "serial": "48",
  "title": "Persons Arrested under IPC Crime Heads (by Sex) During 1987",
  "listing_title": "Persons Arrested under IPC Crime Heads (by Sex) During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_21-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_21-1987.pdf",
  "source_sha256": "d44dc9cfc93b874a75241877acdfd75f010f7c25e294b0e05490cac8ed77ec26",
  "table_no": "21",
- "pdf_title": "",
- "row_label": "Sl. No. / Persons Crime",
+ "pdf_title": "74 TABLE-21 Persons Arrested Under IPC Crime Heads(By Sex) During 1987",
+ "row_label": "S1. No. / Crime Heads",
  "pages": [
   1
  ],
@@ -25,43 +25,41 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "Arrested Heads",
+   "name": "Male",
    "header": [
-    "Arrested Heads"
+    "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "Under Male",
+   "name": "Female",
    "header": [
-    "Under Male"
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "IPC Heads(By Female",
+   "name": "Total",
    "header": [
-    "IPC Heads(By Female"
+    "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "Crime During Total of tage male to total",
+   "name": "Percentage of male to total",
    "header": [
-    "Crime During Total of tage male to total"
+    "Percentage of male to total"
    ]
   },
   {
    "col_no": "7",
-   "name": "1987 Sex) - Percen- Percenof tage female to total",
+   "name": "Percentage of female to total",
    "header": [
-    "1987 Sex) - Percen- Percenof tage female to total"
+    "Percentage of female to total"
    ]
   }
  ],
- "notes": [
-  "Crime Under IPC"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

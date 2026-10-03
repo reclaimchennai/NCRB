@@ -8,46 +8,44 @@
  "serial": "50",
  "title": "Details of Expenses under Non-Plan during 2000-2001 (Rs. In Lakhs)",
  "listing_title": "Details of Expenses under Non-Plan during 2000-2001 (Rs. In Lakhs)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-48_2000.pdf",
  "source_file": "raw/psi/2000/table_content/psi-table-48_2000.pdf",
  "source_sha256": "791a0e29613a7e962bcd78125017ef4875c6afde5f254a679ff95ac275024a65",
  "table_no": "48",
- "pdf_title": "DETAILS OF EXPENSES UNDER NON-PLAN DURING 2000-2001 (RS. IN LAKHS)",
- "row_label": "SL. STATE/UT NO. (1)",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-48",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 3,
- "n_cells": 83,
+ "n_cells": 105,
  "columns": [
   {
-   "col_no": "2",
-   "name": "EXPENDITURE (2)",
-   "header": [
-    "EXPENDITURE (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "EXPENDITURE (3)",
+   "name": "DEVELOPMENT EXPENDITURE",
    "header": [
-    "EXPENDITURE (3)"
+    "DEVELOPMENT EXPENDITURE"
    ]
   },
   {
    "col_no": "4",
-   "name": "an (3) (4)",
+   "name": "NON-DEVELOPMENT EXPENDITURE",
    "header": [
-    "an (3) (4)"
+    "NON-DEVELOPMENT EXPENDITURE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL NON-PLAN EXPENDITURE",
+   "header": [
+    "TOTAL NON-PLAN EXPENDITURE"
    ]
   }
  ],
- "notes": [
-  "NA -JATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -55,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -6,64 +6,55 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1992",
  "serial": "3",
- "title": "HIGH RISK AREA",
+ "title": "ACCIDENTAI. DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.- 17 TABLE - 4",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1992.pdf",
  "source_file": "raw/adsi/1992/year_wise/accidental-deaths-1992.pdf",
  "source_sha256": "438d373cb515809dfb05c6a5b51014e3e668719cbd1596e8d1d8051d583e280c",
- "table_no": "",
- "pdf_title": "HIGH RISK AREA",
- "row_label": "1990 (21.1)",
+ "table_no": "4",
+ "pdf_title": "ACCIDENTAI. DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.- 17 TABLE - 4",
+ "row_label": "Incidence",
  "pages": [
-  11
+  17,
+  17,
+  18,
+  18
  ],
- "n_rows": 28,
- "n_cols": 5,
- "n_cells": 121,
+ "n_rows": 59,
+ "n_cols": 3,
+ "n_cells": 175,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "col_no": "4",
+   "name": "Incidence",
+   "header": [
+    "Incidence"
+   ]
   },
   {
    "col_no": "3",
-   "name": "ALL-INDIA (RATE) (22.1) STATES",
-   "header": [
-    "ALL-INDIA (RATE) (22.1) STATES"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "1991",
-   "header": [
-    "1991"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
    "name": "col_5",
    "header": []
-  },
-  {
-   "col_no": "6",
-   "name": "1992 (22.5)",
-   "header": [
-    "1992 (22.5)"
-   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 6,
+  "cells_passed": 5,
+  "failures": [
+   "col 4 'Total (States)': printed 188802, sum 190794"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

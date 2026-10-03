@@ -6,60 +6,70 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "APPENDIX—",
+ "title": "105 XVII PERSONS",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendex-1970.pdf",
  "source_file": "raw/cii/1970/table_chapter/appendex-1970.pdf",
  "source_sha256": "3ed7da4cec7a8a52c94ec44a60188cb502ba306987e4cb8da95c49a8762233a3",
  "table_no": "",
- "pdf_title": "APPENDIX—",
- "row_label": "Si .No. / States/U. Ts./Cities",
+ "pdf_title": "105 XVII PERSONS",
+ "row_label": "No of persons in whose cases trials were completed",
  "pages": [
-  29
+  34
  ],
- "n_rows": 39,
- "n_cols": 5,
- "n_cells": 190,
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Persons in custody pending investigation or onibafl during the tlie stage of investigation.",
+   "col_no": "2",
+   "name": "Persons convicted",
    "header": [
-    "Persons in custody pending investigation or onibafl during the tlie stage of investigation."
+    "Persons convicted"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Persons acquitted or discharged.",
+   "header": [
+    "Persons acquitted or discharged."
    ]
   },
   {
    "col_no": "4",
-   "name": "KIDNAPPING & ABDUCTION | Persons in custody pending trial oron year bail during of tria",
+   "name": "Persons against whom cases were compounded or withdrawn",
    "header": [
-    "KIDNAPPING & ABDUCTION",
-    "Persons in custody pending trial oron year bail during of tria"
+    "Persons against whom cases were compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "KIDNAPPING & ABDUCTION | Persons arrested during the",
+   "name": "No. of persons in custody pending investigation or on bail during the stage of investigation at the end of the year",
    "header": [
-    "KIDNAPPING & ABDUCTION",
-    "Persons arrested during the"
+    "No. of persons in custody pending investigation or on bail during the stage of investigation at the end of the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "KIDNAPPING & ABDUCTION | Persons released by the Police or magisrate before trial",
+   "name": "No. of persons in custody pending trial or on bail during the stage of trial at the end of the year",
    "header": [
-    "KIDNAPPING & ABDUCTION",
-    "Persons released by the Police or magisrate before trial"
+    "No. of persons in custody pending trial or on bail during the stage of trial at the end of the year"
    ]
   },
   {
    "col_no": "7",
-   "name": "KIDNAPPING & ABDUCTION | Persons in whose cases chargesheets were laid",
+   "name": "Percentage of conviction to total persons in whose cases charge-sheets were laid",
    "header": [
-    "KIDNAPPING & ABDUCTION",
-    "Persons in whose cases chargesheets were laid"
+    "Percentage of conviction to total persons in whose cases charge-sheets were laid"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "percentage of conviction to total persons in whose cases trials were completed",
+   "header": [
+    "percentage of conviction to total persons in whose cases trials were completed"
    ]
   }
  ],
@@ -68,8 +78,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 9,
-  "other_totals_passed": 6
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

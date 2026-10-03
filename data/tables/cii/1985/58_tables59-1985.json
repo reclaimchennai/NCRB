@@ -8,70 +8,66 @@
  "serial": "58",
  "title": "Table Presenting Strength of Armed Police as on 31.12.1985",
  "listing_title": "Table Presenting Strength of Armed Police as on 31.12.1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables59-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables59-1985.pdf",
  "source_sha256": "7f3f31de2b9819703774d37eaffd6fee2cd953434d24965fa85960c20b0e2f73",
- "table_no": "59",
- "pdf_title": "Table Presenting Strength Of Armed Police",
- "row_label": "$l. No. / States/U.Ts/Cities",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. States/U.Ts/Cities No.",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 5,
- "n_cells": 209,
+ "n_cells": 235,
  "columns": [
   {
    "col_no": "3",
-   "name": "As NUMBER OF DG/IG/SP",
+   "name": "NUMBER OF DG/IG/SP",
    "header": [
-    "As NUMBER OF DG/IG/SP"
+    "NUMBER OF DG/IG/SP"
    ]
   },
   {
    "col_no": "4",
-   "name": "On NUMBER ASP",
+   "name": "NUMBER OF ASP & DSP",
    "header": [
-    "On NUMBER ASP"
+    "NUMBER OF ASP & DSP"
    ]
   },
   {
    "col_no": "5",
-   "name": "31-12-1985 NUMBER & & SUB-INSPECTOR",
+   "name": "NUMBER OF INSPECTOR & SUB-INSPECTOR",
    "header": [
-    "31-12-1985 NUMBER & & SUB-INSPECTOR"
+    "NUMBER OF INSPECTOR & SUB-INSPECTOR"
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER OF OF OFFICERS BELOW DSP SUB- INSPECTOR ‘6:",
+   "name": "NUMBER OF OFFICERS BELOW SUB-INSPECTOR",
    "header": [
-    "NUMBER OF OF OFFICERS BELOW DSP SUB- INSPECTOR ‘6:"
+    "NUMBER OF OFFICERS BELOW SUB-INSPECTOR"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF TOTAL INSPECTOR",
+   "name": "TOTAL",
    "header": [
-    "OF TOTAL INSPECTOR"
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 0,
+  "cells_checked": 15,
+  "cells_passed": 14,
   "failures": [
-   "col 3 'TOTAL (U.Ts. i': printed 11, sum 640",
-   "col 4 'TOTAL (U.Ts. i': printed 41, sum 2919",
-   "col 4 'TOTAL (CITIES)': printed 13, sum 1773",
-   "col 5 'TOTAL (U.Ts. i': printed 479, sum 15927",
-   "col 5 'TOTAL (CITIES)': printed 861, sum 725"
+   "col 4 'TOTAL (STATES)': printed 1125, sum 1124"
   ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

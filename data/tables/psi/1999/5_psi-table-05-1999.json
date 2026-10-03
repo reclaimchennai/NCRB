@@ -8,93 +8,96 @@
  "serial": "5",
  "title": "Table 5: Distribution of Female Inmates in the Country by Age Group and Percentage share at the end of 1999",
  "listing_title": "Table 5: Distribution of Female Inmates in the Country by Age Group and Percentage share at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-05_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-05_1999.pdf",
  "source_sha256": "8820adccee934ad2eb5a57c10df8de531688d55ca0f6a4acfe11e99c3a107110",
  "table_no": "5",
- "pdf_title": "DISTRIBUTION OF FEMALE INMATES IN THE COUNTRY BY AGE GROUP AND PERCENTAGE SHARE AT THE END OF 1999",
- "row_label": "sk. CATEGORY NO, @® INDIAN",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-5",
+ "row_label": "SR. NO. / CATEGORY",
  "pages": [
   1
  ],
  "n_rows": 7,
- "n_cols": 10,
- "n_cells": 67,
+ "n_cols": 11,
+ "n_cells": 77,
  "columns": [
   {
-   "col_no": "2",
-   "name": "16% | (2)",
-   "header": [
-    "16%",
-    "(2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "16% | HARE 3B",
+   "name": "BELOW 16 YEARS",
    "header": [
-    "16%",
-    "HARE 3B"
+    "BELOW 16 YEARS"
    ]
   },
   {
    "col_no": "4",
-   "name": "16-18 Years -",
+   "name": "% SHARE (4)",
    "header": [
-    "16-18 Years -"
+    "% SHARE"
    ]
   },
   {
    "col_no": "5",
-   "name": "18 - 30 @",
+   "name": "16 - 18 YEARS",
    "header": [
-    "18 - 30 @"
+    "16 - 18 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "%SHARE )",
+   "name": "%SHARE",
    "header": [
-    "%SHARE )"
+    "%SHARE"
    ]
   },
   {
    "col_no": "7",
-   "name": "30-50 00 (6)",
+   "name": "18 - 30 YEARS",
    "header": [
-    "30-50 00 (6)"
+    "18 - 30 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "% SHARE ABOVE 5° 50 | (7)",
+   "name": "% SHARE (8)",
    "header": [
-    "% SHARE ABOVE 5° 50",
-    "(7)"
+    "% SHARE"
    ]
   },
   {
    "col_no": "9",
-   "name": "% SHARE ABOVE 5° 50 | ABOVE (8)",
+   "name": "30 - 50 YEARS",
    "header": [
-    "% SHARE ABOVE 5° 50",
-    "ABOVE (8)"
+    "30 - 50 YEARS"
    ]
   },
   {
    "col_no": "10",
-   "name": "SHARE (10) (12)",
+   "name": "% SHARE (10)",
    "header": [
-    "SHARE (10) (12)"
+    "% SHARE"
    ]
   },
   {
    "col_no": "11",
-   "name": "TOTAL (3) ap",
+   "name": "ABOVE 50 YEARS",
    "header": [
-    "TOTAL (3) ap"
+    "ABOVE 50 YEARS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "% SHARE (12)",
+   "header": [
+    "% SHARE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
@@ -103,10 +106,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

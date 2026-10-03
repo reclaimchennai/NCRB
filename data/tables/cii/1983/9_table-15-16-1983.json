@@ -8,61 +8,92 @@
  "serial": "9",
  "title": "Disposal of Crime under Local and Special Laws by the Police During the Year 1983; Percentage of Cses not Investigated, Cases Investigated, Pnding Investigation to Total Cases for Investigation, Percentage of Cases Charge-sheeted to Cases Investigated und",
  "listing_title": "Disposal of Crime under Local and Special Laws by the Police During the Year 1983; Percentage of Cses not Investigated, Cases Investigated, Pnding Investigation to Total Cases for Investigation, Percentage of Cases Charge-sheeted to Cases Investigated und",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15-16-1983.pdf",
  "source_file": "raw/cii/1983/table_content/table-15-16-1983.pdf",
  "source_sha256": "050b020def61cc8fdb3b68deaf650978be96122f553bda00878f8caa09ab3b87",
- "table_no": "",
- "pdf_title": "Taste 15 Disposal of Crime under Local and Snecial Tawa by Police during the year 1983",
- "row_label": "Heads of Crime - 2",
+ "table_no": "15",
+ "pdf_title": "66 TABLE 15 Disposal of Crime under Local and Special Laws by Police during the year 1983",
+ "row_label": "Sl. No. / Heads of Crime / Heads of Crime / Heads of Crime / Heads of Crime / Heads of Crime",
  "pages": [
+  1,
+  1,
+  1,
   1
  ],
- "n_rows": 13,
- "n_cols": 6,
- "n_cells": 78,
+ "n_rows": 15,
+ "n_cols": 10,
+ "n_cells": 122,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Sh ber of cases No, for investigation during the year including cases carried vious year 3",
-   "header": [
-    "Sh ber of cases No, for investigation during the year including cases carried vious year 3"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "No. of cases which was refused false or mistake of fact over from pre- or law or fonnd non. 4",
+   "name": "Total number of cases for investigation during the year including cases carried over from previous year",
    "header": [
-    "No. of cases which was refused false or mistake of fact over from pre- or law or fonnd non. 4"
+    "Total number of cases for investigation during the year including cases carried over from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "No, of cases other than investigation shown in Col. 4 in which investigation was completed 5",
+   "name": "No. of cases in which investigation was refused or declared false or mistake of fact or law or found non-cognizable",
    "header": [
-    "No, of cases other than investigation shown in Col. 4 in which investigation was completed 5"
+    "No. of cases in which investigation was refused or declared false or mistake of fact or law or found non-cognizable"
    ]
   },
   {
    "col_no": "5",
-   "name": "No. of cases in charge sheets were laid’ 6",
+   "name": "No. of cases other than shown in Col. 4 in which investigation was completed",
    "header": [
-    "No. of cases in charge sheets were laid’ 6"
+    "No. of cases other than shown in Col. 4 in which investigation was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "No. of cases which trial for evidence 1",
+   "name": "No. of cases in which charge sheets were laid",
    "header": [
-    "No. of cases which trial for evidence 1"
+    "No. of cases in which charge sheets were laid"
    ]
   },
   {
    "col_no": "7",
-   "name": "No. of cases which could - pending innot be sent - vestigation at the end of the year 8",
+   "name": "No. of cases which could not be sent for trial for want of evidence",
    "header": [
-    "No. of cases which could - pending innot be sent - vestigation at the end of the year 8"
+    "No. of cases which could not be sent for trial for want of evidence"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "No. of cases pending investigation at the end of the year",
+   "header": [
+    "No. of cases pending investigation at the end of the year"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "%age of cases not investigated or mistake of fact or law or non-cog. to total cases for investigation",
+   "header": [
+    "%age of cases not investigated or mistake of fact or law or non-cog. to total cases for investigation"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "%age of cases in which investigation was completed to total cases for investigation",
+   "header": [
+    "%age of cases in which investigation was completed to total cases for investigation"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "%age of cases pending investigation at the end of the year to total cases for investigation",
+   "header": [
+    "%age of cases pending investigation at the end of the year to total cases for investigation"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "%age of cases charge sheeted to total cases in which investigation was completed",
+   "header": [
+    "%age of cases charge sheeted to total cases in which investigation was completed"
    ]
   }
  ],
@@ -71,10 +102,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

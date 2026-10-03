@@ -8,22 +8,71 @@
  "serial": "25",
  "title": "Table 25: Demographic Particulars of Undertrials at the end of 1998",
  "listing_title": "Table 25: Demographic Particulars of Undertrials at the end of 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-25_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-25_1998.pdf",
  "source_sha256": "018f89b268bf4b07c23a53314c363611ad10e8b5dd1b62458967ce1fae16606c",
  "table_no": "25",
- "pdf_title": "DEMOGRAPHIC PARTICULARS OF UNDERTRIALS AT THE END OF 1998",
- "row_label": "eee / EDUCATIONAL STANDARD ILLITERATE / EDUCATIONAL STANDARD Gi ase y / EDUCATIONAL STANDARD ABOVEXS oe / EDUCATIONAL STANDARD GRADUATE / EDUCATIONAL STANDARD POST / EDUCATIONAL STANDARD /DIPLOMA",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-25",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
+  2,
   3
  ],
- "n_rows": 7,
- "n_cols": 3,
- "n_cells": 9,
+ "n_rows": 35,
+ "n_cols": 22,
+ "n_cells": 770,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "EDUCATIONAL STANDARD | ILLITERATE",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "ILLITERATE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "EDUCATIONAL STANDARD | BELOW CLASS X",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "BELOW CLASS X"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "EDUCATIONAL STANDARD | ABOVE X & BELOW GRADUATE",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "ABOVE X & BELOW GRADUATE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EDUCATIONAL STANDARD | GRADUATE",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "GRADUATE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "EDUCATIONAL STANDARD | POST GRADUATE",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "POST GRADUATE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "EDUCATIONAL STANDARD | HOLDING TECH. DEGREE /DIPLOMA",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "HOLDING TECH. DEGREE /DIPLOMA"
+   ]
+  },
   {
    "col_no": "9",
    "name": "EDUCATIONAL STANDARD | TOTAL",
@@ -33,46 +82,138 @@
    ]
   },
   {
-   "col_no": "23",
-   "name": "DOMICILE",
+   "col_no": "10001",
+   "name": "RELIGION | HINDU",
    "header": [
-    "DOMICILE"
+    "RELIGION",
+    "HINDU"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "RELIGION | MUSLIM",
+   "header": [
+    "RELIGION",
+    "MUSLIM"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "RELIGION | SIKH",
+   "header": [
+    "RELIGION",
+    "SIKH"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "RELIGION | CHRIS-TIAN",
+   "header": [
+    "RELIGION",
+    "CHRIS-TIAN"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "RELIGION | OTHERS",
+   "header": [
+    "RELIGION",
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "RELIGION | TOTAL",
+   "header": [
+    "RELIGION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "CASTE | SC",
+   "header": [
+    "CASTE",
+    "SC"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "CASTE | ST",
+   "header": [
+    "CASTE",
+    "ST"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "CASTE | OBC",
+   "header": [
+    "CASTE",
+    "OBC"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "CASTE | OTHERS",
+   "header": [
+    "CASTE",
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "CASTE | TOTAL",
+   "header": [
+    "CASTE",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "DOMICILE | BELONGS TO STATE",
+   "header": [
+    "DOMICILE",
+    "BELONGS TO STATE"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "DOMICILE | BELONGS TO OTHER STATE",
+   "header": [
+    "DOMICILE",
+    "BELONGS TO OTHER STATE"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "DOMICILE | BELONGS TO OTHER COUNTRY",
+   "header": [
+    "DOMICILE",
+    "BELONGS TO OTHER COUNTRY"
    ]
   },
   {
    "col_no": "24",
-   "name": "TOTAL",
+   "name": "DOMICILE | TOTAL",
    "header": [
+    "DOMICILE",
     "TOTAL"
    ]
   }
  ],
- "notes": [
-  "wi are8 4 get",
-  "oral Sp",
-  "a",
-  "nn”",
-  "-",
-  "aC ae",
-  "- ee ee",
-  "ae",
-  "Gna",
-  "acta 777",
-  "Moo a",
-  "ee",
-  "aan",
-  "C1:",
-  "Temes",
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 60,
+  "cells_passed": 58,
+  "failures": [
+   "col 13 'TOTAL (STATES)': printed 112456, sum 112094",
+   "col 22 'TOTAL (STATES)': printed 6822, sum 7391"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

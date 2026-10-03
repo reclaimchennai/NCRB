@@ -8,40 +8,47 @@
  "serial": "1",
  "title": "Table 1: Number of Jails, Population and Occupancy rate in the country at the end of 1999",
  "listing_title": "Table 1: Number of Jails, Population and Occupancy rate in the country at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-01_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-01_1999.pdf",
  "source_sha256": "892e935c618394172e0324d33baeb3a2f99c6c038d056d3d78326769b17817ab",
- "table_no": "L",
- "pdf_title": "NUMBER OF JAILS, CAPACITY, POPULATION AND OCCUPANCY RATE AT THE END OF 1999",
- "row_label": "SR. TYPE No. @)",
+ "table_no": "1",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-1",
+ "row_label": "SR. NO. / TYPE",
  "pages": [
   1
  ],
  "n_rows": 9,
- "n_cols": 3,
- "n_cells": 27,
+ "n_cols": 4,
+ "n_cells": 36,
  "columns": [
   {
-   "col_no": "4",
-   "name": "NUMBER Q)",
+   "col_no": "3",
+   "name": "NUMBER",
    "header": [
-    "NUMBER Q)"
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CAPACITY",
+   "header": [
+    "CAPACITY"
    ]
   },
   {
    "col_no": "5",
-   "name": "1. POPULATION CAPAQITY De",
+   "name": "POPULATION OF INMATES",
    "header": [
-    "1. POPULATION CAPAQITY De"
+    "POPULATION OF INMATES"
    ]
   },
   {
    "col_no": "6",
-   "name": "OCCUPANCY",
+   "name": "OCCUPANCY RATE",
    "header": [
-    "OCCUPANCY"
+    "OCCUPANCY RATE"
    ]
   }
  ],
@@ -50,8 +57,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -8,21 +8,21 @@
  "serial": "26",
  "title": "Disposal of Juveniles Sent to Court",
  "listing_title": "Disposal of Juveniles Sent to Court",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1978.pdf",
  "source_file": "raw/cii/1978/table_content/table-44-1978.pdf",
  "source_sha256": "180d0f079bbc88f6fa785bc494d28b7340a5b2e2759502b2f5b3cf40f1b88383",
  "table_no": "44",
- "pdf_title": "DISPOSAL OF JUVENILES SENT TO COURT",
- "row_label": "SI. No. / States/U.Ts./Cities",
+ "pdf_title": "73 TABLE 44 DISPOSAL OF JUVENILES SENT TO COURT",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1,
   2
  ],
- "n_rows": 58,
- "n_cols": 7,
- "n_cells": 286,
+ "n_rows": 25,
+ "n_cols": 9,
+ "n_cells": 212,
  "columns": [
   {
    "col_no": "3",
@@ -40,35 +40,51 @@
   },
   {
    "col_no": "5",
-   "name": "On Probation -",
+   "name": "On Probation",
    "header": [
-    "On Probation -"
+    "On Probation"
    ]
   },
   {
    "col_no": "6",
-   "name": "Sent to reformatories & Borstals",
+   "name": "Sent to re-formatories & Borstals",
    "header": [
-    "Sent to reformatories & Borstals"
+    "Sent to re-formatories & Borstals"
    ]
   },
   {
-   "col_no": "8",
-   "name": "Sent to Adult",
+   "col_no": "10001",
+   "name": "Sent to School Institutions",
    "header": [
-    "Sent to Adult"
+    "Sent to School Institutions"
    ]
   },
   {
-   "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "col_no": "10002",
+   "name": "Sent to Adult Institutions",
+   "header": [
+    "Sent to Adult Institutions"
+   ]
   },
   {
-   "col_no": "10",
-   "name": "Pending Acquitted Wise Or disposed ef",
+   "col_no": "10003",
+   "name": "Imprisoned",
    "header": [
-    "Pending Acquitted Wise Or disposed ef"
+    "Imprisoned"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Acquitted or otherwise disposed of",
+   "header": [
+    "Acquitted or otherwise disposed of"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Pending disposal",
+   "header": [
+    "Pending disposal"
    ]
   }
  ],
@@ -77,8 +93,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 5,
-  "other_totals_passed": 1
+  "other_totals_checked": 9,
+  "other_totals_passed": 7
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

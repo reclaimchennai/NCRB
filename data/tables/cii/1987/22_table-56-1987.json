@@ -8,130 +8,128 @@
  "serial": "22",
  "title": "Number of Police Personnel Killed or Injured on Duty During 1987",
  "listing_title": "Number of Police Personnel Killed or Injured on Duty During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_56-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_56-1987.pdf",
  "source_sha256": "7689feaee0810bd90fafdc7692548b0d17c7ea5d0deb3f4b030837550a27c0f4",
  "table_no": "56",
- "pdf_title": "Number Of Police Fersounei Killed Or Injured On Duty",
- "row_label": "sl STATES/U. Ts/CITIES No. 1° (3) States",
+ "pdf_title": "152 TABLE - 56 Number Of Police Personnel Killed Or Injured On Duty During 1987",
+ "row_label": "S1 No. / STATES/U.Ts/CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 61,
+ "n_rows": 48,
  "n_cols": 12,
- "n_cells": 565,
+ "n_cells": 576,
  "columns": [
   {
-   "col_no": "2",
-   "name": "IN OTHER (2)",
-   "header": [
-    "IN OTHER (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "nn DACOITY OR RAIDS (3)",
+   "name": "KILLED | IN DACOITY OPERATIONS OR OTHER RAIDS",
    "header": [
-    "nn DACOITY OR RAIDS (3)"
+    "KILLED",
+    "IN DACOITY OPERATIONS OR OTHER RAIDS"
    ]
   },
   {
    "col_no": "4",
-   "name": "During nn BY ON MOBS (4)",
+   "name": "KILLED | BY RIOTOUS MOBS",
    "header": [
-    "During nn BY ON MOBS (4)"
+    "KILLED",
+    "BY RIOTOUS MOBS"
    ]
   },
   {
    "col_no": "5",
-   "name": "1987 nn RIOTOUS BORDER CRIMINALS (5)",
+   "name": "KILLED | BY OTHER CRIMINALS",
    "header": [
-    "1987 nn RIOTOUS BORDER CRIMINALS (5)"
+    "KILLED",
+    "BY OTHER CRIMINALS"
    ]
   },
   {
    "col_no": "6",
-   "name": "KILLED ne IN BY ACCIDENTS DUTIES (6)",
+   "name": "KILLED | ON BORDER DUTIES",
    "header": [
-    "KILLED ne IN BY ACCIDENTS DUTIES (6)"
+    "KILLED",
+    "ON BORDER DUTIES"
    ]
   },
   {
    "col_no": "7",
-   "name": "eee TOTAL OTHER (7) (8)",
+   "name": "KILLED | IN ACCIDENTS",
    "header": [
-    "eee TOTAL OTHER (7) (8)"
+    "KILLED",
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KILLED | TOTAL",
+   "header": [
+    "KILLED",
+    "TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "INJURED | nn we IN UPENATIONS OR OTHER RAIDS",
+   "name": "INJURED | IN DACOITY OPERATIONS OR OTHER RAIDS",
    "header": [
     "INJURED",
-    "nn we IN UPENATIONS OR OTHER RAIDS"
+    "IN DACOITY OPERATIONS OR OTHER RAIDS"
    ]
   },
   {
    "col_no": "10",
-   "name": "INJURED | pn nn BY DACOITY MOBS",
+   "name": "INJURED | BY RIOTOUS MOBS",
    "header": [
     "INJURED",
-    "pn nn BY DACOITY MOBS"
+    "BY RIOTOUS MOBS"
    ]
   },
   {
    "col_no": "11",
-   "name": "INJURED | on RIOTOUS CRIMINALS",
+   "name": "INJURED | BY OTHER CRIMINALS",
    "header": [
     "INJURED",
-    "on RIOTOUS CRIMINALS"
+    "BY OTHER CRIMINALS"
    ]
   },
   {
    "col_no": "12",
-   "name": "INJURED | BORDER BY DUTIES",
+   "name": "INJURED | ON BORDER DUTIES",
    "header": [
     "INJURED",
-    "BORDER BY DUTIES"
+    "ON BORDER DUTIES"
    ]
   },
   {
    "col_no": "13",
-   "name": "INJURED | IN OTHER",
+   "name": "INJURED | IN ACCIDENTS",
    "header": [
     "INJURED",
-    "IN OTHER"
+    "IN ACCIDENTS"
    ]
   },
   {
    "col_no": "14",
-   "name": "- + TOTAL ON",
+   "name": "INJURED | TOTAL",
    "header": [
-    "- + TOTAL ON"
+    "INJURED",
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 19,
-  "cells_passed": 8,
-  "failures": [
-   "col 2 'TOTAL (States)': printed 26, sum 19",
-   "col 9 'TOTAL (States)': printed 126, sum 99",
-   "col 10 'TOTAL (States)': printed 2228, sum 1287",
-   "col 10 'TOTAL (Cities)': printed 612, sum 589",
-   "col 11 'TOTAL (States)': printed 569, sum 373",
-   "col 11 'TOTAL (Cities)': printed 89, sum 78",
-   "col 12 'TOTAL (States)': printed 59, sum 30",
-   "col 13 'TOTAL (States)': printed 313, sum 271"
-  ],
+  "cells_checked": 23,
+  "cells_passed": 23,
+  "failures": [],
   "other_totals_checked": 8,
   "other_totals_passed": 8
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

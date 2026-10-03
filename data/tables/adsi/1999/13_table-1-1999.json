@@ -8,52 +8,51 @@
  "serial": "13",
  "title": "Incidence and Rate of Accidental Deaths during 1989 to 1999",
  "listing_title": "Incidence and Rate of Accidental Deaths during 1989 to 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-1_1999.pdf",
  "source_file": "raw/adsi/1999/table_content/table-1_1999.pdf",
  "source_sha256": "50a4ee1b3dd5a5d6d7735345f59b964c268e3ad79e1e47a7741ca554ecf1eb98",
  "table_no": "1",
- "pdf_title": "Incidence And Rate Of Accidental Deaths During 1989 to 1999",
- "row_label": "SI. “oe / No",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1999 N.C.R.B., (M.H.A.) TABLE - 1",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
  "n_rows": 13,
- "n_cols": 3,
- "n_cells": 39,
+ "n_cols": 4,
+ "n_cells": 52,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Total Number of Veur Accidental Deaths",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "Total Number of Veur Accidental Deaths"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Total Number of Accidental Deaths",
+   "header": [
+    "Total Number of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "Mid-Year | Population * (In Lakh* *)",
+   "name": "Estimated Mid-Year Population * (In Lakh**)",
    "header": [
-    "Mid-Year",
-    "Population * (In Lakh* *)"
+    "Estimated Mid-Year Population * (In Lakh**)"
    ]
   },
   {
    "col_no": "5",
-   "name": "Mid-Year | RateofAccidenia Deaths (Col.3/Col.4)",
+   "name": "RateofAccidental Deaths (Col.3/Col.4)",
    "header": [
-    "Mid-Year",
-    "RateofAccidenia Deaths (Col.3/Col.4)"
+    "RateofAccidental Deaths (Col.3/Col.4)"
    ]
   }
  ],
- "notes": [
-  "Rate Per",
-  "Annum. i",
-  "* Source: The Registrar General of india",
-  "** - One Lakh - 0.1 Million",
-  "867 NCRB/2001—GA"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

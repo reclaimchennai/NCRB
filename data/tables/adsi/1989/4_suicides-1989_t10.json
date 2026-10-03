@@ -6,60 +6,53 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1989",
  "serial": "4",
- "title": "Comparative Statement Of Incidence Of Suicides During 1988 And 1989 (State, UT & City-wise)",
+ "title": "53 TABLE - 10 Comparative Statement Of Incidence Of Suicides During 1988 And 1989 (State, UT & City-wise)",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1989.pdf",
  "source_file": "raw/adsi/1989/year_wise/suicides-1989.pdf",
  "source_sha256": "dac08e88e6ab8208f1a2e7178532abc4a95d91678e6af855a32c169bbe5aed08",
  "table_no": "10",
- "pdf_title": "Comparative Statement Of Incidence Of Suicides During 1988 And 1989 (State, UT & City-wise)",
- "row_label": "ets No. / State/UT/City",
+ "pdf_title": "53 TABLE - 10 Comparative Statement Of Incidence Of Suicides During 1988 And 1989 (State, UT & City-wise)",
+ "row_label": "Incidence",
  "pages": [
+  16,
   16
  ],
- "n_rows": 47,
+ "n_rows": 48,
  "n_cols": 3,
- "n_cells": 137,
+ "n_cells": 142,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Incidence | 1988",
+   "col_no": "4",
+   "name": "Incidence",
    "header": [
-    "Incidence",
-    "1988"
+    "Incidence"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Incidence | 1989",
-   "header": [
-    "Incidence",
-    "1989"
-   ]
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "Percentage Variation In 1989 Over",
-   "header": [
-    "Percentage Variation In 1989 Over"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
- "notes": [
-  ".@ Indicates infinite variation"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 6,
   "cells_passed": 5,
   "failures": [
-   "col 3 'TOTAL (States)': printed 63058, sum 63027"
+   "col 4 'Total (States)': printed 67281, sum 69270"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

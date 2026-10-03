@@ -8,14 +8,14 @@
  "serial": "67",
  "title": "Persons Killed or Injured under Police Firing During 1992 (Event-wise)",
  "listing_title": "Persons Killed or Injured under Police Firing During 1992 (Event-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-67-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-67-1992-survey.pdf",
  "source_sha256": "e5d603316b05c113b5ed3fc7435411956d7c803ca7feffcf14bc55db213e0346",
  "table_no": "67",
- "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1992",
- "row_label": "(EVENT-WISE) SL. No. / (EVENT-WISE) EVENT",
+ "pdf_title": "299 TABLE-67 PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1992 (EVENT-WISE)",
+ "row_label": "",
  "pages": [
   1
  ],
@@ -25,45 +25,28 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(EVENT-WISE) | NO. OCCASIONS OF FIRING",
-   "header": [
-    "(EVENT-WISE)",
-    "NO. OCCASIONS OF FIRING"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "(EVENT-WISE) | OF POLICE",
-   "header": [
-    "(EVENT-WISE)",
-    "OF POLICE"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "(EVENT-WISE) | CIVILIANS KILLED",
-   "header": [
-    "(EVENT-WISE)",
-    "CIVILIANS KILLED"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "(EVENT-WISE) | POLICEMEN | INJURED",
-   "header": [
-    "(EVENT-WISE)",
-    "POLICEMEN",
-    "INJURED"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "(EVENT-WISE) | POLICEMEN | KILLED INJURED",
-   "header": [
-    "(EVENT-WISE)",
-    "POLICEMEN",
-    "KILLED INJURED"
-   ]
+   "name": "col_7",
+   "header": []
   }
  ],
  "notes": [],

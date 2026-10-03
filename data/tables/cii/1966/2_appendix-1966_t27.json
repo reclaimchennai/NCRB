@@ -6,114 +6,71 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "XHI",
+ "title": "89 —XII —PERSONS",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1966.pdf",
  "source_file": "raw/cii/1966/table_chapter/appendix-1966.pdf",
  "source_sha256": "480636acad765635761f21d85b9a84110830d45a0218f3eb2a6c79ae168a7b2e",
  "table_no": "",
- "pdf_title": "XHI",
- "row_label": "CASES Total true cases",
+ "pdf_title": "89 —XII —PERSONS",
+ "row_label": "Persons released by the police or magistrate before trial",
  "pages": [
-  51,
-  52
+  47
  ],
- "n_rows": 36,
- "n_cols": 14,
- "n_cells": 283,
+ "n_rows": 31,
+ "n_cols": 7,
+ "n_cells": 217,
  "columns": [
   {
-   "col_no": "10",
-   "name": "Cases not detected",
+   "col_no": "2",
+   "name": "Persons in whose cases charged sheet was laid",
    "header": [
-    "Cases not detected"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Cases in which sheet was laid",
-   "header": [
-    "Cases in which sheet was laid"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Cases | Cases Compoundcharge- ed orwith drawn",
-   "header": [
-    "Cases",
-    "Cases Compoundcharge- ed orwith drawn"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Cases | in which trial was completed",
-   "header": [
-    "Cases",
-    "in which trial was completed"
-   ]
-  },
-  {
-   "col_no": "14",
-   "name": "Cases | Cases convicted",
-   "header": [
-    "Cases",
-    "Cases convicted"
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "Cases ted or dis-",
-   "header": [
-    "Cases ted or dis-"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "Percenacquit- tage of cases convicto true cases investigated",
-   "header": [
-    "Percenacquit- tage of cases convicto true cases investigated"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "Percentage of cases. convicted to - popula tion casesin which trial was completed",
-   "header": [
-    "Percentage of cases. convicted to - popula tion casesin which trial was completed"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "Volume of crime per 1,00,000 of",
-   "header": [
-    "Volume of crime per 1,00,000 of"
+    "Persons in whose cases charged sheet was laid"
    ]
   },
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Persons convicted",
+   "header": [
+    "Persons convicted"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Persons acquitted or discharged",
+   "header": [
+    "Persons acquitted or discharged"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Persons against whom cases were compounded or withdrawn",
+   "header": [
+    "Persons against whom cases were compounded or withdrawn"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year",
+   "header": [
+    "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "Persons in custody pending trial or on bail during the stage of trial at the end of the year",
+   "header": [
+    "Persons in custody pending trial or on bail during the stage of trial at the end of the year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of conviction",
+   "header": [
+    "Percentage of conviction"
+   ]
   }
  ],
  "notes": [],
@@ -125,6 +82,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

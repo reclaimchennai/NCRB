@@ -8,70 +8,61 @@
  "serial": "19",
  "title": "Incidence & Rate of Crime Against Scheduled Tribes During 1994 (State & UT-Wise)",
  "listing_title": "Incidence & Rate of Crime Against Scheduled Tribes During 1994 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table67-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table67-1994_2.pdf",
  "source_sha256": "8b9dd0f6283ae2c692eebf58d67643f1d1c1984f1335a9df854e7168c1beaa07",
  "table_no": "67",
- "pdf_title": "",
- "row_label": "INCIDENCE & RATE OF CRIMES SL. NO. / INCIDENCE & RATE OF CRIMES STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-67",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 5,
- "n_cells": 132,
+ "n_cells": 170,
  "columns": [
   {
    "col_no": "3",
-   "name": "INCIDENCE & RATE OF CRIMES | INCIDENCE",
+   "name": "INCIDENCE",
    "header": [
-    "INCIDENCE & RATE OF CRIMES",
     "INCIDENCE"
    ]
   },
   {
    "col_no": "4",
-   "name": "trv AGAINST SCHENLE FD | DURING 1994 (STATE & UT-WISE) PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL",
    "header": [
-    "trv AGAINST SCHENLE FD",
-    "DURING 1994 (STATE & UT-WISE) PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL"
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "trv AGAINST SCHENLE FD | ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "trv AGAINST SCHENLE FD",
     "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
    ]
   },
   {
    "col_no": "6",
-   "name": "trv AGAINST SCHENLE FD | RATE **",
+   "name": "RATE **",
    "header": [
-    "trv AGAINST SCHENLE FD",
     "RATE **"
    ]
   },
   {
    "col_no": "7",
-   "name": "RIBES RANK*",
+   "name": "RANK*",
    "header": [
-    "RIBES RANK*"
+    "RANK*"
    ]
   }
  ],
- "notes": [
-  "Note: 1 * Rank on the basis of Rate of total ciimes (Col.6) in the States & UTs.",
-  "2 less than 0.05 is also shown as 0.0",
-  "3 **incigence of crime per lakh of",
-  "4 States/UTs with NIL (-) incidence Have not been ranked."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

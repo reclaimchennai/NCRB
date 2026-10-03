@@ -8,24 +8,111 @@
  "serial": "1",
  "title": "Annexure - I. Capacity and population of jails during 1995",
  "listing_title": "Annexure - I. Capacity and population of jails during 1995",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/files/PSI-1995AnnexI.pdf",
  "source_file": "raw/psi/1995/table_content/PSI-1995AnnexI.pdf",
  "source_sha256": "0087f3e7dc7aa01c1b4fde6cb18e828a37fe0878155ff43d1c9eb383a6a58e61",
  "table_no": "",
- "pdf_title": "ANNEXURE-I",
- "row_label": "- SL. STATE/UT / - SL. STATE/UT / TOTAL CAPACITY OF INMATES NUMBER as",
+ "pdf_title": "N.C.R.B.,(M.H.A.) PRISON STATISTICS - 1995 ANNEXURE-I",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
+  1,
   2,
   3,
   4,
   5
  ],
- "n_rows": 38,
- "n_cols": 35,
- "n_cells": 95,
+ "n_rows": 46,
+ "n_cols": 50,
+ "n_cells": 2070,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "NUMBER OF JAILS (3)",
+   "header": [
+    "NUMBER OF JAILS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TOTAL CAPACITY OF INMATES | M (4)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "M"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL CAPACITY OF INMATES | F (5)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "F"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "TOTAL CAPACITY OF INMATES | T (6)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "T"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD (7)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD (8)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD (9)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD (10)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD (11)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD (12)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "NUMBER OF JAILS (13)",
+   "header": [
+    "NUMBER OF JAILS"
+   ]
+  },
   {
    "col_no": "14",
    "name": "TOTAL CAPACITY OF INMATES | M (14)",
@@ -52,58 +139,57 @@
   },
   {
    "col_no": "17",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | M (17)",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD (17)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
     "POPULATION OF INMATES",
-    "AT THE BEGINNING OF THE PERIOD",
-    "M"
+    "AT THE BEGINNING OF THE PERIOD"
    ]
   },
   {
    "col_no": "18",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD (18)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
     "POPULATION OF INMATES",
     "AT THE BEGINNING OF THE PERIOD"
    ]
   },
   {
    "col_no": "19",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | T (19)",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD (19)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
     "POPULATION OF INMATES",
-    "AT THE BEGINNING OF THE PERIOD",
-    "T"
+    "AT THE BEGINNING OF THE PERIOD"
    ]
   },
   {
    "col_no": "20",
-   "name": "POPULATION OF INMATES | AT THE :ND OF THI: PERIOD | M",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD (20)",
    "header": [
     "POPULATION OF INMATES",
-    "AT THE :ND OF THI: PERIOD",
-    "M"
+    "AT THE END OF THE PERIOD"
    ]
   },
   {
    "col_no": "21",
-   "name": "POPULATION OF INMATES | AT THE :ND OF THI: PERIOD | F",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD (21)",
    "header": [
     "POPULATION OF INMATES",
-    "AT THE :ND OF THI: PERIOD",
-    "F"
+    "AT THE END OF THE PERIOD"
    ]
   },
   {
    "col_no": "22",
-   "name": "POPULATION OF INMATES | AT THE :ND OF THI: PERIOD | T",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD (22)",
    "header": [
     "POPULATION OF INMATES",
-    "AT THE :ND OF THI: PERIOD",
-    "T"
+    "AT THE END OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "NUMBER OF JAILS (23)",
+   "header": [
+    "NUMBER OF JAILS"
    ]
   },
   {
@@ -132,59 +218,71 @@
   },
   {
    "col_no": "27",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION CIF INMATES | AT THE BEGINNING OF THE PERIOD | M",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | M (27)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "POPULATION CIF INMATES",
+    "POPULATION OF INMATES",
     "AT THE BEGINNING OF THE PERIOD",
     "M"
    ]
   },
   {
    "col_no": "28",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION CIF INMATES | AT THE BEGINNING OF THE PERIOD | F",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | F (28)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "POPULATION CIF INMATES",
+    "POPULATION OF INMATES",
     "AT THE BEGINNING OF THE PERIOD",
     "F"
    ]
   },
   {
    "col_no": "29",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION CIF INMATES | AT THE BEGINNING OF THE PERIOD | T",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | T (29)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "POPULATION CIF INMATES",
+    "POPULATION OF INMATES",
     "AT THE BEGINNING OF THE PERIOD",
     "T"
    ]
   },
   {
    "col_no": "30",
-   "name": "POPULATION CIF INMATES | AT THE :ND OF THE PERIOD | M",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | M (30)",
    "header": [
-    "POPULATION CIF INMATES",
-    "AT THE :ND OF THE PERIOD",
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
     "M"
    ]
   },
   {
    "col_no": "31",
-   "name": "POPULATION CIF INMATES | AT THE :ND OF THE PERIOD | F",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | F (31)",
    "header": [
-    "POPULATION CIF INMATES",
-    "AT THE :ND OF THE PERIOD",
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
     "F"
    ]
   },
   {
    "col_no": "32",
-   "name": "POPULATION CIF INMATES | AT THE :ND OF THE PERIOD | T",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | T (32)",
    "header": [
-    "POPULATION CIF INMATES",
-    "AT THE :ND OF THE PERIOD",
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
     "T"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "NUMBER OF JAILS (33)",
+   "header": [
+    "NUMBER OF JAILS"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "TOTAL CAPACITY OF INMATES | M (34)",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "M"
    ]
   },
   {
@@ -197,67 +295,65 @@
   },
   {
    "col_no": "36",
-   "name": "TOTAL CAPACITY OF INMATES | i",
+   "name": "TOTAL CAPACITY OF INMATES | T (36)",
    "header": [
     "TOTAL CAPACITY OF INMATES",
-    "i"
-   ]
-  },
-  {
-   "col_no": "37",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | M (37)",
-   "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "POPULATION OF INMATES",
-    "AT THE BEGINNING OF THE PERIOD",
-    "M"
-   ]
-  },
-  {
-   "col_no": "38",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | F (38)",
-   "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "POPULATION OF INMATES",
-    "AT THE BEGINNING OF THE PERIOD",
-    "F"
-   ]
-  },
-  {
-   "col_no": "39",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | T (39)",
-   "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "POPULATION OF INMATES",
-    "AT THE BEGINNING OF THE PERIOD",
     "T"
    ]
   },
   {
-   "col_no": "40",
-   "name": "POPULATION OF INMATES | AT THE END OF THI: PERIOD | M",
+   "col_no": "37",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD (37)",
    "header": [
     "POPULATION OF INMATES",
-    "AT THE END OF THI: PERIOD",
-    "M"
+    "AT THE BEGINNING OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD (38)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD (39)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE BEGINNING OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD (40)",
+   "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD"
    ]
   },
   {
    "col_no": "41",
-   "name": "POPULATION OF INMATES | AT THE END OF THI: PERIOD | F",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD (41)",
    "header": [
     "POPULATION OF INMATES",
-    "AT THE END OF THI: PERIOD",
-    "F"
+    "AT THE END OF THE PERIOD"
    ]
   },
   {
    "col_no": "42",
-   "name": "POPULATION OF INMATES | AT THE END OF THI: PERIOD | T -",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD (42)",
    "header": [
     "POPULATION OF INMATES",
-    "AT THE END OF THI: PERIOD",
-    "T -"
+    "AT THE END OF THE PERIOD"
+   ]
+  },
+  {
+   "col_no": "43",
+   "name": "NUMBER OF JAILS (43)",
+   "header": [
+    "NUMBER OF JAILS"
    ]
   },
   {
@@ -286,9 +382,8 @@
   },
   {
    "col_no": "47",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | M (47)",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | M (47)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
     "POPULATION OF INMATES",
     "AT THE BEGINNING OF THE PERIOD",
     "M"
@@ -296,9 +391,8 @@
   },
   {
    "col_no": "48",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | F (48)",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | F (48)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
     "POPULATION OF INMATES",
     "AT THE BEGINNING OF THE PERIOD",
     "F"
@@ -306,9 +400,8 @@
   },
   {
    "col_no": "49",
-   "name": "TOTAL CAPACITY OF INMATES | POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | T (49)",
+   "name": "POPULATION OF INMATES | AT THE BEGINNING OF THE PERIOD | T (49)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
     "POPULATION OF INMATES",
     "AT THE BEGINNING OF THE PERIOD",
     "T"
@@ -316,50 +409,33 @@
   },
   {
    "col_no": "50",
-   "name": "POPULATION OF INMATES | AT THE M",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | M (50)",
    "header": [
     "POPULATION OF INMATES",
-    "AT THE M"
+    "AT THE END OF THE PERIOD",
+    "M"
    ]
   },
   {
    "col_no": "51",
-   "name": "POPULATION OF INMATES | OF THE. PERIOD F",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | F (51)",
    "header": [
     "POPULATION OF INMATES",
-    "OF THE. PERIOD F"
+    "AT THE END OF THE PERIOD",
+    "F"
    ]
   },
   {
    "col_no": "52",
-   "name": "T",
+   "name": "POPULATION OF INMATES | AT THE END OF THE PERIOD | T (52)",
    "header": [
+    "POPULATION OF INMATES",
+    "AT THE END OF THE PERIOD",
     "T"
    ]
   }
  ],
- "notes": [
-  "oat 1 iene",
-  "ar",
-  "ee eee",
-  "a",
-  "Sak C1 SF SY <<",
-  "ah ae an",
-  "7 nen ae",
-  "0: gp gt",
-  "<6",
-  "eel",
-  "177 TT",
-  "ee",
-  "Le) ae ae!",
-  "ean ae ar",
-  "1 7",
-  "a5 a a",
-  "YY",
-  "3. * Data for Jan-June 1995",
-  "4. ** Data for Jul-Dec 1995",
-  "5. NA stands for Not Available"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -368,6 +444,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 4,
+ "ocr_pages": 5,
  "warnings": []
 }

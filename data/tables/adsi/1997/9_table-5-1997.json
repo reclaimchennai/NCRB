@@ -8,62 +8,53 @@
  "serial": "9",
  "title": "Distribution of Accidental Deaths by Natural causes in India during 1997 (all India)",
  "listing_title": "Distribution of Accidental Deaths by Natural causes in India during 1997 (all India)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-5_1997.pdf",
  "source_file": "raw/adsi/1997/table_content/table-5_1997.pdf",
  "source_sha256": "504408b075d307cf0122c833d35a011a6127db45400505ee32d131e57f84306d",
  "table_no": "5",
- "pdf_title": "Number of Accidental Deaths",
- "row_label": "SI. N / Distribution of Cause",
+ "pdf_title": "Male (M)",
+ "row_label": "Sl. No. / Cause",
  "pages": [
   1,
   2
  ],
- "n_rows": 16,
+ "n_rows": 13,
  "n_cols": 14,
- "n_cells": 181,
+ "n_cells": 182,
  "columns": [
   {
    "col_no": "3",
-   "name": "Distribution of | Upto 14 Years",
+   "name": "Upto 14 Years (3)",
    "header": [
-    "Distribution of",
     "Upto 14 Years"
    ]
   },
   {
    "col_no": "4",
-   "name": "Distribution of | Deaths by Natural Causes in India during 1997 (All india) | 15-29 Years",
+   "name": "15-29 Years (4)",
    "header": [
-    "Distribution of",
-    "Deaths by Natural Causes in India during 1997 (All india)",
     "15-29 Years"
    ]
   },
   {
    "col_no": "5",
-   "name": "Distribution of | Deaths by Natural Causes in India during 1997 (All india) | Number of Accidental Deaths Mile (M) | 30-44 Years",
+   "name": "30-44 Years (5)",
    "header": [
-    "Distribution of",
-    "Deaths by Natural Causes in India during 1997 (All india)",
-    "Number of Accidental Deaths Mile (M)",
     "30-44 Years"
    ]
   },
   {
    "col_no": "6",
-   "name": "Distribution of | Deaths by Natural Causes in India during 1997 (All india) | Number of Accidental Deaths Mile (M) | 45-59 Years",
+   "name": "45-59 Years (6)",
    "header": [
-    "Distribution of",
-    "Deaths by Natural Causes in India during 1997 (All india)",
-    "Number of Accidental Deaths Mile (M)",
     "45-59 Years"
    ]
   },
   {
    "col_no": "7",
-   "name": "60 Years & above",
+   "name": "60 Years & above (7)",
    "header": [
     "60 Years & above"
    ]
@@ -77,64 +68,58 @@
   },
   {
    "col_no": "9",
-   "name": "Female (F) | 14 Years",
+   "name": "Upto 14 Years (9)",
    "header": [
-    "Female (F)",
-    "14 Years"
+    "Upto 14 Years"
    ]
   },
   {
    "col_no": "10",
-   "name": "Female (F) | 15-29 Years",
+   "name": "15-29 Years (10)",
    "header": [
-    "Female (F)",
     "15-29 Years"
    ]
   },
   {
    "col_no": "11",
-   "name": "Female (F) | 30-44 Years",
+   "name": "30-44 Years (11)",
    "header": [
-    "Female (F)",
     "30-44 Years"
    ]
   },
   {
    "col_no": "12",
-   "name": "Female (F) | 45-59 Years",
+   "name": "45-59 Years (12)",
    "header": [
-    "Female (F)",
     "45-59 Years"
    ]
   },
   {
    "col_no": "13",
-   "name": "Female (F) | 60 Years & above",
+   "name": "60 Years & above (13)",
    "header": [
-    "Female (F)",
     "60 Years & above"
    ]
   },
   {
    "col_no": "14",
-   "name": "Female (F) | Total {Col.9 to Col.13)",
+   "name": "Total (Col.9 to Col.13)",
    "header": [
-    "Female (F)",
-    "Total {Col.9 to Col.13)"
+    "Total (Col.9 to Col.13)"
    ]
   },
   {
    "col_no": "15",
-   "name": "Grand Total (Col.8 + 14)",
+   "name": "Grand Total (M+F)(Col.8 + 14)",
    "header": [
-    "Grand Total (Col.8 + 14)"
+    "Grand Total (M+F)(Col.8 + 14)"
    ]
   },
   {
    "col_no": "16",
-   "name": "- Percentage to total Deaths",
+   "name": "Percentage to total Deaths",
    "header": [
-    "- Percentage to total Deaths"
+    "Percentage to total Deaths"
    ]
   }
  ],
@@ -143,8 +128,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 13,
+  "other_totals_passed": 13
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

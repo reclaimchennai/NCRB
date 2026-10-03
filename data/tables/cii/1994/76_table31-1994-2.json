@@ -8,14 +8,14 @@
  "serial": "76",
  "title": "Persons Arrested under Different SLL Crimes by Sex in States, UTs & Cities During 1994",
  "listing_title": "Persons Arrested under Different SLL Crimes by Sex in States, UTs & Cities During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table31-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table31-1994_2.pdf",
  "source_sha256": "d2222a1f34ad68ce7505c92cb13bb33888af4994dfd3d39415ec0cb2ca1f1701",
  "table_no": "31",
- "pdf_title": "PENSUNS ARKESIEU IN STATES, UNDER Uts & Loss CITIES DURING 1994 BY SEX",
- "row_label": "SL. NO. / - STATE/UT/CITY",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-31",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
   2,
@@ -27,9 +27,9 @@
   8,
   9
  ],
- "n_rows": 180,
- "n_cols": 46,
- "n_cells": 730,
+ "n_rows": 59,
+ "n_cols": 51,
+ "n_cells": 2958,
  "columns": [
   {
    "col_no": "3",
@@ -41,10 +41,10 @@
   },
   {
    "col_no": "4",
-   "name": "ARMS ACT | FEMALE ]",
+   "name": "ARMS ACT | FEMALE",
    "header": [
     "ARMS ACT",
-    "FEMALE ]"
+    "FEMALE"
    ]
   },
   {
@@ -57,40 +57,49 @@
   },
   {
    "col_no": "6",
-   "name": "NARCOTIC DRUGS & | MALE",
+   "name": "NARCOTIC DRUGS & PSY. SUBSTANCES ACT | MALE",
    "header": [
-    "NARCOTIC DRUGS &",
+    "NARCOTIC DRUGS & PSY. SUBSTANCES ACT",
     "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "NARCOTIC DRUGS & | PSY. SUBSTANCE3 ACT FEMALE",
+   "name": "NARCOTIC DRUGS & PSY. SUBSTANCES ACT | FEMALE",
    "header": [
-    "NARCOTIC DRUGS &",
-    "PSY. SUBSTANCE3 ACT FEMALE"
+    "NARCOTIC DRUGS & PSY. SUBSTANCES ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "NARCOTIC DRUGS & | TOTAL",
+   "name": "NARCOTIC DRUGS & PSY. SUBSTANCES ACT | TOTAL",
    "header": [
-    "NARCOTIC DRUGS &",
+    "NARCOTIC DRUGS & PSY. SUBSTANCES ACT",
     "TOTAL"
    ]
   },
   {
-   "col_no": "10",
-   "name": "\\GAMBLING ACT FEMALE",
+   "col_no": "9",
+   "name": "GAMBLING ACT | MALE",
    "header": [
-    "\\GAMBLING ACT FEMALE"
+    "GAMBLING ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "GAMBLING ACT | FEMALE",
+   "header": [
+    "GAMBLING ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "11",
-   "name": "EXCISE ACT | TOTAL (11)",
+   "name": "GAMBLING ACT | TOTAL",
    "header": [
-    "EXCISE ACT",
+    "GAMBLING ACT",
     "TOTAL"
    ]
   },
@@ -112,34 +121,66 @@
   },
   {
    "col_no": "14",
-   "name": "EXCISE ACT | TOTAL (14)",
+   "name": "EXCISE ACT | TOTAL",
    "header": [
     "EXCISE ACT",
     "TOTAL"
    ]
   },
   {
-   "col_no": "18",
-   "name": "EXPLOSIVES & | EXPLOSIVE SUBS. ACT MALE I",
+   "col_no": "15",
+   "name": "PROHIBITION ACT | MALE",
    "header": [
-    "EXPLOSIVES &",
-    "EXPLOSIVE SUBS. ACT MALE I"
+    "PROHIBITION ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "PROHIBITION ACT | FEMALE",
+   "header": [
+    "PROHIBITION ACT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "PROHIBITION ACT | TOTAL",
+   "header": [
+    "PROHIBITION ACT",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBS. ACT | MALE",
+   "header": [
+    "EXPLOSIVES & EXPLOSIVE SUBS. ACT",
+    "MALE"
    ]
   },
   {
    "col_no": "19",
-   "name": "EXPLOSIVES & | FEMALE",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBS. ACT | FEMALE",
    "header": [
-    "EXPLOSIVES &",
+    "EXPLOSIVES & EXPLOSIVE SUBS. ACT",
     "FEMALE"
    ]
   },
   {
    "col_no": "20",
-   "name": "EXPLOSIVES & | TOTAL",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBS. ACT | TOTAL",
    "header": [
-    "EXPLOSIVES &",
+    "EXPLOSIVES & EXPLOSIVE SUBS. ACT",
     "TOTAL"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | MALE",
+   "header": [
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "MALE"
    ]
   },
   {
@@ -160,44 +201,49 @@
   },
   {
    "col_no": "24",
-   "name": "- MALE",
+   "name": "INDIAN RAILWAYS ACT | MALE",
    "header": [
-    "- MALE"
+    "INDIAN RAILWAYS ACT",
+    "MALE"
    ]
   },
   {
    "col_no": "25",
-   "name": "RAILWAYS ACT FEMALE",
+   "name": "INDIAN RAILWAYS ACT | FEMALE",
    "header": [
-    "RAILWAYS ACT FEMALE"
+    "INDIAN RAILWAYS ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "26",
-   "name": "TOTAL (26)",
+   "name": "INDIAN RAILWAYS ACT | TOTAL",
    "header": [
+    "INDIAN RAILWAYS ACT",
     "TOTAL"
    ]
   },
   {
    "col_no": "27",
-   "name": "MALE (27)",
+   "name": "REGISTRATION OF FOREIGNERS ACT | MALE",
    "header": [
+    "REGISTRATION OF FOREIGNERS ACT",
     "MALE"
    ]
   },
   {
    "col_no": "28",
-   "name": "REGISTRATION OF FOREIGNERS ACT FEMALE",
+   "name": "REGISTRATION OF FOREIGNERS ACT | FEMALE",
    "header": [
-    "REGISTRATION OF FOREIGNERS ACT FEMALE"
+    "REGISTRATION OF FOREIGNERS ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "29",
-   "name": "PROTECTION OF CIVIL RIGHTS ACT | TOTAL (29)",
+   "name": "REGISTRATION OF FOREIGNERS ACT | TOTAL",
    "header": [
-    "PROTECTION OF CIVIL RIGHTS ACT",
+    "REGISTRATION OF FOREIGNERS ACT",
     "TOTAL"
    ]
   },
@@ -219,7 +265,7 @@
   },
   {
    "col_no": "32",
-   "name": "PROTECTION OF CIVIL RIGHTS ACT | TOTAL (32)",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | TOTAL",
    "header": [
     "PROTECTION OF CIVIL RIGHTS ACT",
     "TOTAL"
@@ -227,25 +273,25 @@
   },
   {
    "col_no": "33",
-   "name": "INDIAN PASSPORT 4 ACT | MALE l",
+   "name": "INDIAN PASSPORT ACT | MALE",
    "header": [
-    "INDIAN PASSPORT 4 ACT",
-    "MALE l"
+    "INDIAN PASSPORT ACT",
+    "MALE"
    ]
   },
   {
    "col_no": "34",
-   "name": "INDIAN PASSPORT 4 ACT | FEMALE ]",
+   "name": "INDIAN PASSPORT ACT | FEMALE",
    "header": [
-    "INDIAN PASSPORT 4 ACT",
-    "FEMALE ]"
+    "INDIAN PASSPORT ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "35",
-   "name": "INDIAN PASSPORT 4 ACT | TOTAL",
+   "name": "INDIAN PASSPORT ACT | TOTAL",
    "header": [
-    "INDIAN PASSPORT 4 ACT",
+    "INDIAN PASSPORT ACT",
     "TOTAL"
    ]
   },
@@ -259,10 +305,10 @@
   },
   {
    "col_no": "37",
-   "name": "ESSENTIAL COMMODITIES ACT | FEMALE l",
+   "name": "ESSENTIAL COMMODITIES ACT | FEMALE",
    "header": [
     "ESSENTIAL COMMODITIES ACT",
-    "FEMALE l"
+    "FEMALE"
    ]
   },
   {
@@ -275,25 +321,25 @@
   },
   {
    "col_no": "39",
-   "name": "TERRORIS! & DISRUPTIVE ACTIVITIES ACT | MALE",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | MALE",
    "header": [
-    "TERRORIS! & DISRUPTIVE ACTIVITIES ACT",
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
     "MALE"
    ]
   },
   {
    "col_no": "40",
-   "name": "TERRORIS! & DISRUPTIVE ACTIVITIES ACT | FEMALE",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | FEMALE",
    "header": [
-    "TERRORIS! & DISRUPTIVE ACTIVITIES ACT",
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
     "FEMALE"
    ]
   },
   {
    "col_no": "41",
-   "name": "ANTIQUITY & ART TREASURE ACT | TOTAL (41)",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | TOTAL",
    "header": [
-    "ANTIQUITY & ART TREASURE ACT",
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
     "TOTAL"
    ]
   },
@@ -307,15 +353,15 @@
   },
   {
    "col_no": "43",
-   "name": "ANTIQUITY & ART TREASURE ACT | FEMALE I",
+   "name": "ANTIQUITY & ART TREASURE ACT | FEMALE",
    "header": [
     "ANTIQUITY & ART TREASURE ACT",
-    "FEMALE I"
+    "FEMALE"
    ]
   },
   {
    "col_no": "44",
-   "name": "ANTIQUITY & ART TREASURE ACT | TOTAL (44)",
+   "name": "ANTIQUITY & ART TREASURE ACT | TOTAL",
    "header": [
     "ANTIQUITY & ART TREASURE ACT",
     "TOTAL"
@@ -323,126 +369,90 @@
   },
   {
    "col_no": "45",
-   "name": "MALE (45)",
+   "name": "DOWRY PROHIBITION ACT | MALE",
    "header": [
+    "DOWRY PROHIBITION ACT",
     "MALE"
    ]
   },
   {
    "col_no": "46",
-   "name": "PROHIBITION ACT FEMALE",
+   "name": "DOWRY PROHIBITION ACT | FEMALE",
    "header": [
-    "PROHIBITION ACT FEMALE"
+    "DOWRY PROHIBITION ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "47",
-   "name": "TOTAL (47)",
+   "name": "DOWRY PROHIBITION ACT | TOTAL",
    "header": [
+    "DOWRY PROHIBITION ACT",
     "TOTAL"
    ]
   },
   {
    "col_no": "48",
-   "name": "MALE (48)",
+   "name": "OTHER SLL CRIMES | MALE",
    "header": [
+    "OTHER SLL CRIMES",
     "MALE"
    ]
   },
   {
    "col_no": "49",
-   "name": "OTHER SLL CRIM:S FEMALE",
+   "name": "OTHER SLL CRIMES | FEMALE",
    "header": [
-    "OTHER SLL CRIM:S FEMALE"
+    "OTHER SLL CRIMES",
+    "FEMALE"
    ]
   },
   {
    "col_no": "50",
-   "name": "TOTAL (50)",
+   "name": "OTHER SLL CRIMES | TOTAL",
    "header": [
+    "OTHER SLL CRIMES",
     "TOTAL"
    ]
   },
   {
    "col_no": "51",
-   "name": "TOTAL CIDGNIZABLE CRIMES UN DER SLL | MALE",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER SLL | MALE",
    "header": [
-    "TOTAL CIDGNIZABLE CRIMES UN DER SLL",
+    "TOTAL COGNIZABLE CRIMES UNDER SLL",
     "MALE"
    ]
   },
   {
    "col_no": "52",
-   "name": "TOTAL CIDGNIZABLE CRIMES UN DER SLL | FEMALE",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER SLL | FEMALE",
    "header": [
-    "TOTAL CIDGNIZABLE CRIMES UN DER SLL",
+    "TOTAL COGNIZABLE CRIMES UNDER SLL",
     "FEMALE"
    ]
   },
   {
    "col_no": "53",
-   "name": "TOTAL (53)",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER SLL | TOTAL",
    "header": [
+    "TOTAL COGNIZABLE CRIMES UNDER SLL",
     "TOTAL"
    ]
   }
  ],
- "notes": [
-  "CITIES:",
-  "AHMEDABAD.",
-  "BANGALORI",
-  "wuwesg BHOPAL BOMBAY** bgolde",
-  "CALCUTTA 0030800",
-  "COIMBATORE",
-  "DELHI",
-  "HYDERABAD",
-  "INDORE",
-  "JAIPUR KANPUR ooleobobo",
-  "KОСHI",
-  "LUCKNOW",
-  "LUDHIANÄ",
-  "MADRAS BzE00",
-  "MADURAI",
-  "NAGPUR",
-  "PUNE PATNA .98g..33.",
-  "SURAT GіN:u о.C8g0 00883.9",
-  "VADODARA",
-  "VARANASİ",
-  "BG ay",
-  "CALCUTT",
-  "DELHI COIMBATORE ...i...i",
-  "00-000800900.",
-  "IYDERABA",
-  "AIPUF",
-  "KANPUR",
-  "кOCHI 100900uo00Ou08008000",
-  "(LUDHIANA",
-  "MADRAS",
-  "MADURAÏ",
-  "PATNA",
-  "PUNE",
-  "53 SURAT - &b ol Oo... Bi, Oke",
-  "VARANAS *VISHAKHAPATNAN",
-  "12A. NCBR/96",
-  "47 I MADRAS",
-  "48 MADURAI",
-  "49 NAGPUR",
-  "50 PATNA",
-  "52 SURAT",
-  "54 VARANASİ",
-  "VISHAKHAPATNAM",
-  "NOTE: NR stands for data not received."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 6,
-  "cells_passed": 0,
+  "cells_checked": 144,
+  "cells_passed": 135,
   "failures": [
-   "col 10 'TOTAL(STATES) “ss 313653': printed 150, sum 890694",
-   "col 14 'TOTAL(STATES) “ss 313653': printed 96538, sum 3.09088e+06",
-   "col 19 'TOTAL (UTs).': printed 8000, sum 1.35636e+07",
-   "col 25 '- TOTAL(STATES)': printed 749, sum 535",
-   "col 33 '- TOTAL(STATES)': printed 1028, sum 224",
-   "col 52 'TOTAL (UTs).': printed 1247, sum 11277"
+   "col 5 'TOTAL (ALL - INDIA)': printed 62699, sum 62839",
+   "col 6 'TOTAL (ALL - INDIA)': printed 22007, sum 22207",
+   "col 7 'TOTAL (ALL - INDIA)': printed 1168, sum 1158",
+   "col 8 'TOTAL (STATES)': printed 22801, sum 22001",
+   "col 8 'TOTAL (ALL - INDIA)': printed 22365, sum 23565",
+   "col 31 'TOTAL (STATES)': printed 271, sum 261",
+   "col 32 'TOTAL (STATES)': printed 9595, sum 9605",
+   "col 48 'TOTAL (ALL - INDIA)': printed 3.23034e+06, sum 3.23634e+06"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

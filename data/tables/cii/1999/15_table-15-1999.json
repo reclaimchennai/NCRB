@@ -8,104 +8,113 @@
  "serial": "15",
  "title": "Disposal of IPC Cases by Police During 1999 (State & UT-Wise)",
  "listing_title": "Disposal of IPC Cases by Police During 1999 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-15-1999.pdf",
  "source_sha256": "aed88022e65fd9c2831d73affe0f62a5441f1816d3a8f42c139a626a37deaeae",
  "table_no": "15",
- "pdf_title": "DISPOSAL OF IPC CASES BY POLICE DURING 1999",
- "row_label": "(STATE & UI-WISK) SL. STATE/UT NO. @) STATES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 15",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 36,
- "n_cols": 8,
- "n_cells": 281,
+ "n_rows": 35,
+ "n_cols": 11,
+ "n_cells": 385,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(STATE & UI-WISK) | TOTAL NO. CASES OF CASES By 2S. mg 2)",
-   "header": [
-    "(STATE & UI-WISK)",
-    "TOTAL NO. CASES OF CASES By 2S. mg 2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "(STATE & UI-WISK) | NO. OF CASES IN WHICH INVEST Gadi WAS | iwyesii- CATON WAS 12 ®",
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
    "header": [
-    "(STATE & UI-WISK)",
-    "NO. OF CASES IN WHICH INVEST Gadi WAS",
-    "iwyesii- CATON WAS 12 ®"
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UI-WISK) | NO. OF CASES IN WHICH INVEST Gadi WAS | CHARGE FOUND - 2 4",
+   "name": "CASES WITH-DRAWN BY GOVT.",
    "header": [
-    "(STATE & UI-WISK)",
-    "NO. OF CASES IN WHICH INVEST Gadi WAS",
-    "CHARGE FOUND - 2 4"
+    "CASES WITH-DRAWN BY GOVT."
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UI-WISK) | NO. OF CASES IN WHICH INVEST Gadi WAS | REPORT TRUE ©",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "(STATE & UI-WISK)",
-    "NO. OF CASES IN WHICH INVEST Gadi WAS",
-    "REPORT TRUE ©"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UI-WISK) | crt «CHARGE SHEETS WERE OF FACT OR LAW ETC. ©",
+   "name": "NO. OF CASES IN WHICH | CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC.",
    "header": [
-    "(STATE & UI-WISK)",
-    "crt «CHARGE SHEETS WERE OF FACT OR LAW ETC. ©"
+    "NO. OF CASES IN WHICH",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC."
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UI-WISK) | NO.OF PERCENCASES TAGE TOTALI@ (7)+ ®} ” (ay",
+   "name": "NO. OF CASES IN WHICH | FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "(STATE & UI-WISK)",
-    "NO.OF PERCENCASES TAGE TOTALI@ (7)+ ®} ” (ay"
+    "NO. OF CASES IN WHICH",
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UI-WISK) | PERCENTAGE Ur INDIA GATION TOTAL (12) i]",
+   "name": "NO. OF CASES IN WHICH | CHARGE SHEETS WERE SUBMITTED",
    "header": [
-    "(STATE & UI-WISK)",
-    "PERCENTAGE Ur INDIA GATION TOTAL (12) i]"
+    "NO. OF CASES IN WHICH",
+    "CHARGE SHEETS WERE SUBMITTED"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UI-WISK) | CHARGE- {(COL.8)/ (COL.7 + 8) x 100) (13) (10)",
+   "name": "NO. OF CASES IN WHICH | TOTAL {(6) + (7) + (8)}",
    "header": [
-    "(STATE & UI-WISK)",
-    "CHARGE- {(COL.8)/ (COL.7 + 8) x 100) (13) (10)"
+    "NO. OF CASES IN WHICH",
+    "TOTAL {(6) + (7) + (8)}"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
+   "header": [
+    "NO. OF CASES PENDING INVESTIGATION"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PENDENCY PERCENTAGE",
+   "header": [
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "PERCENTAGE OF PENDENCY TO ALL - INDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALL - INDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "CHARGE-SHEETING RATE ((COL.8)/(COL.7 + 8) x 100)",
+   "header": [
+    "CHARGE-SHEETING RATE ((COL.8)/(COL.7 + 8) x 100)"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 7,
-  "cells_passed": 2,
-  "failures": [
-   "col 2 'TOTAL STATES ont': printed 2.14722e+11, sum 4.12328e+10",
-   "col 2 'TOTAL (UTs)': printed 1.57925e+06, sum 236962",
-   "col 2 'TOTAL (ALL-INDIA)': printed 2.30515e+12, sum 2.14724e+11",
-   "col 3 'TOTAL STATES ont': printed 119539, sum 1.42792e+07",
-   "col 3 'TOTAL (UTs)': printed 871, sum 188"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

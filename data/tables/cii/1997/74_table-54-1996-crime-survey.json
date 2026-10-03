@@ -8,90 +8,92 @@
  "serial": "74",
  "title": "Juveniles Apprehended Under IPC and SLL Crimes by Age Groups & Sex During 1997",
  "listing_title": "Juveniles Apprehended Under IPC and SLL Crimes by Age Groups & Sex During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-54-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-54-1996-crime-survey.pdf",
  "source_sha256": "b8d802d993a4b101a5c1dbc623823b8edfe141bf12dc592a869aa12d3c9da9bf",
  "table_no": "54",
- "pdf_title": "",
- "row_label": "ME HEAD",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-54",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 48,
  "n_cols": 8,
- "n_cells": 373,
+ "n_cells": 384,
  "columns": [
   {
    "col_no": "3",
-   "name": "JUVENILES 7-12 YEARS BOYS",
+   "name": "7 - 12 YEARS | BOYS",
    "header": [
-    "JUVENILES 7-12 YEARS BOYS"
+    "7 - 12 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER IPC AND SLL CRIMES BY | AGE GROUPS & SEX DURING 1997 | GIRLS",
+   "name": "7 - 12 YEARS | GIRLS",
    "header": [
-    "UNDER IPC AND SLL CRIMES BY",
-    "AGE GROUPS & SEX DURING 1997",
+    "7 - 12 YEARS",
     "GIRLS"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER IPC AND SLL CRIMES BY | AGE GROUPS & SEX DURING 1997 | 12-16 YEARS BOYS",
+   "name": "12-16 YEARS | BOYS",
    "header": [
-    "UNDER IPC AND SLL CRIMES BY",
-    "AGE GROUPS & SEX DURING 1997",
-    "12-16 YEARS BOYS"
+    "12-16 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER IPC AND SLL CRIMES BY | GIRS",
+   "name": "12-16 YEARS | GIRLS",
    "header": [
-    "UNDER IPC AND SLL CRIMES BY",
-    "GIRS"
+    "12-16 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "7",
-   "name": "16- GIRLS Oe",
+   "name": "16-18 YEARS | GIRLS ONLY",
    "header": [
-    "16- GIRLS Oe"
+    "16-18 YEARS",
+    "GIRLS ONLY"
    ]
   },
   {
    "col_no": "8",
-   "name": "OVERALL AGE GROUP",
+   "name": "OVERALL AGE GROUP | BOYS",
    "header": [
-    "OVERALL AGE GROUP"
+    "OVERALL AGE GROUP",
+    "BOYS"
    ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "OVERALL AGE GROUP | GIRLS",
+   "header": [
+    "OVERALL AGE GROUP",
+    "GIRLS"
+   ]
   },
   {
    "col_no": "10",
-   "name": "TOTAL (BOYS + * GIRLS)",
+   "name": "TOTAL (BOYS + GIRLS)",
    "header": [
-    "TOTAL (BOYS + * GIRLS)"
+    "TOTAL (BOYS + GIRLS)"
    ]
   }
  ],
- "notes": [
-  "7-12 YEARS MEANS 7 YEARS & ABOVE BUT BELOW 12 YEARS OF AGE ETC."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 14,
-  "other_totals_passed": 9
+  "other_totals_checked": 24,
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

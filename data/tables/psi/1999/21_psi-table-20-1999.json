@@ -8,67 +8,69 @@
  "serial": "21",
  "title": "Table 20: Number of Convicts by type of IPC Offences at the end of 1999",
  "listing_title": "Table 20: Number of Convicts by type of IPC Offences at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-20_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-20_1999.pdf",
  "source_sha256": "1ce862987bee4c083b2767a447b5c4d6855ed572205b6a140513ff23219abce6",
  "table_no": "20",
- "pdf_title": "",
- "row_label": "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END STATE/UT MURDER ay, @",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 TABLE-20",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 59,
- "n_cols": 9,
- "n_cells": 231,
+ "n_rows": 36,
+ "n_cols": 16,
+ "n_cells": 560,
  "columns": [
   {
-   "col_no": "4",
-   "name": "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END | ATTEMPT TO MURDER",
+   "col_no": "3",
+   "name": "MURDER",
    "header": [
-    "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ATTEMPT TO MURDER",
+   "header": [
     "ATTEMPT TO MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END | AMOUNTING ae eR",
+   "name": "C.H.NOT AMOUNTING TO MURDER",
    "header": [
-    "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END",
-    "AMOUNTING ae eR"
+    "C.H.NOT AMOUNTING TO MURDER"
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END | RAPE",
+   "name": "RAPE",
    "header": [
-    "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END",
     "RAPE"
    ]
   },
   {
    "col_no": "7",
-   "name": "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END | KIDNAPPING & ABDUCTION",
+   "name": "KIDNAPPING & ABDUCTION",
    "header": [
-    "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END",
     "KIDNAPPING & ABDUCTION"
    ]
   },
   {
    "col_no": "8",
-   "name": "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END | DACOITY",
+   "name": "DACOITY",
    "header": [
-    "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END",
     "DACOITY"
    ]
   },
   {
    "col_no": "9",
-   "name": "1999 BLY DACOITY",
+   "name": "PREP. AND ASSEMBLY FOR DACOITY",
    "header": [
-    "1999 BLY DACOITY"
+    "PREP. AND ASSEMBLY FOR DACOITY"
    ]
   },
   {
@@ -79,27 +81,77 @@
    ]
   },
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "col_no": "11",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
   },
   {
-   "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "col_no": "12",
+   "name": "THEFTS",
+   "header": [
+    "THEFTS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "RIOT",
+   "header": [
+    "RIOT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "CRIMINAL BREACH OF RUST",
+   "header": [
+    "CRIMINAL BREACH OF RUST"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "CHEATIN G",
+   "header": [
+    "CHEATIN G"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "COUNTER-FEITING",
+   "header": [
+    "COUNTER-FEITING"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER IPC CRIME",
+   "header": [
+    "OTHER IPC CRIME"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL CONVICTS (IPC)",
+   "header": [
+    "TOTAL CONVICTS (IPC)"
+   ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE,"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 48,
+  "cells_passed": 43,
+  "failures": [
+   "col 11 'TOTAL (STATES)': printed 1024, sum 971",
+   "col 12 'TOTAL (STATES)': printed 3719, sum 3431",
+   "col 13 'TOTAL (STATES)': printed 365, sum 346",
+   "col 17 'TOTAL (STATES)': printed 3248, sum 3015",
+   "col 18 'TOTAL (STATES)': printed 56590, sum 53200"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

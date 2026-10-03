@@ -8,27 +8,34 @@
  "serial": "24",
  "title": "Number of Undertrials by Type of IPC Offences at the end of 2000",
  "listing_title": "Number of Undertrials by Type of IPC Offences at the end of 2000",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-22_2000.pdf",
  "source_file": "raw/psi/2000/table_content/psi-table-22_2000.pdf",
  "source_sha256": "507e5792b55540607bf2c51a4a59c7697674a09f88e64d683ed59ef6ba0b703a",
  "table_no": "22",
- "pdf_title": "NUMBER OF UNDERTRIALS BY TYPE OF IPC OFFENCES AT THE END OF 1999",
- "row_label": "MURDER ay",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-22",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 44,
- "n_cols": 15,
- "n_cells": 259,
+ "n_rows": 36,
+ "n_cols": 16,
+ "n_cells": 560,
  "columns": [
   {
-   "col_no": "4",
-   "name": "ATTEMPT TO MURDER @",
+   "col_no": "3",
+   "name": "MURDER",
    "header": [
-    "ATTEMPT TO MURDER @"
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ATTEMPT TO MURDER",
+   "header": [
+    "ATTEMPT TO MURDER"
    ]
   },
   {
@@ -47,22 +54,24 @@
   },
   {
    "col_no": "7",
-   "name": "KIDNAPP -ING & ABDUCTION",
+   "name": "KIDNAPP -ING & ABDUCT- ION",
    "header": [
-    "KIDNAPP -ING & ABDUCTION"
+    "KIDNAPP -ING & ABDUCT- ION"
    ]
   },
   {
    "col_no": "8",
-   "name": "pacorry",
+   "name": "DACOITY",
    "header": [
-    "pacorry"
+    "DACOITY"
    ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "PREP. AND ASSEMBLY FOR DACOITY",
+   "header": [
+    "PREP. AND ASSEMBLY FOR DACOITY"
+   ]
   },
   {
    "col_no": "10",
@@ -73,9 +82,9 @@
   },
   {
    "col_no": "11",
-   "name": "sare BURGLARY",
+   "name": "BURGLARY",
    "header": [
-    "sare BURGLARY"
+    "BURGLARY"
    ]
   },
   {
@@ -94,9 +103,9 @@
   },
   {
    "col_no": "14",
-   "name": "BREACH OF RUST",
+   "name": "CRIMINAL BREACH OF RUST",
    "header": [
-    "BREACH OF RUST"
+    "CRIMINAL BREACH OF RUST"
    ]
   },
   {
@@ -108,33 +117,36 @@
   },
   {
    "col_no": "16",
-   "name": "col_16",
-   "header": []
+   "name": "COUNTER-FEITING",
+   "header": [
+    "COUNTER-FEITING"
+   ]
   },
   {
    "col_no": "17",
-   "name": "pc cae ayy",
+   "name": "OTHER IPC CRIME",
    "header": [
-    "pc cae ayy"
+    "OTHER IPC CRIME"
    ]
   },
   {
    "col_no": "18",
-   "name": "col_18",
-   "header": []
+   "name": "TOTAL UNDER-TRIAL (IPC)",
+   "header": [
+    "TOTAL UNDER-TRIAL (IPC)"
+   ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE.",
-  "102."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 0,
+  "cells_checked": 48,
+  "cells_passed": 43,
   "failures": [
-   "col 11 'TOTAL (UTS)': printed 114, sum 6",
-   "col 12 'TOTAL (UTS)': printed 1483, sum 41",
-   "col 18 'TOTAL (UTS)': printed 7038, sum 275"
+   "col 12 'TOTAL (UTS)': printed 1463, sum 1439",
+   "col 14 'TOTAL (UTS)': printed 62, sum 60",
+   "col 15 'TOTAL (UTS)': printed 300, sum 298",
+   "col 17 'TOTAL (UTS)': printed 188, sum 156",
+   "col 18 'TOTAL (UTS)': printed 7038, sum 6917"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

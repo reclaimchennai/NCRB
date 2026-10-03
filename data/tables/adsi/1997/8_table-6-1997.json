@@ -8,76 +8,62 @@
  "serial": "8",
  "title": "Incidence of Accidents by Un-natural cause and Persons Killed and Injured during 1997 (Cause-wise)",
  "listing_title": "Incidence of Accidents by Un-natural cause and Persons Killed and Injured during 1997 (Cause-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-6_1997.pdf",
  "source_file": "raw/adsi/1997/table_content/table-6_1997.pdf",
  "source_sha256": "0ee30cca3495d702bc92c74f667cb5daa5fddee2206c3f20a1dbcca271fe9e16",
  "table_no": "6",
- "pdf_title": "",
- "row_label": "eal a",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA – 1997 N.C.R.B., (M.H.A.) TABLE-6",
+ "row_label": "No. of Cases",
  "pages": [
+  1,
   1
  ],
  "n_rows": 47,
  "n_cols": 7,
- "n_cells": 323,
+ "n_cells": 317,
  "columns": [
   {
-   "col_no": "3",
-   "name": "imciuence Of No Cause 1996",
-   "header": [
-    "imciuence Of No Cause 1996"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "by Un-Natural causes and | Persons killed and injured during 1997 (Cause-wise) | Cases 1997",
+   "name": "No. of Cases",
    "header": [
-    "by Un-Natural causes and",
-    "Persons killed and injured during 1997 (Cause-wise)",
-    "Cases 1997"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "by Un-Natural causes and | Persons killed and injured during 1997 (Cause-wise) | in 1997 over 1996",
-   "header": [
-    "by Un-Natural causes and",
-    "Persons killed and injured during 1997 (Cause-wise)",
-    "in 1997 over 1996"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "by Un-Natural causes and | injured",
-   "header": [
-    "by Un-Natural causes and",
-    "injured"
+    "No. of Cases"
    ]
   },
   {
    "col_no": "7",
-   "name": "dent Py during | Male",
+   "name": "Persons killed during 1997 (7)",
    "header": [
-    "dent Py during",
-    "Male"
+    "Persons killed during 1997"
    ]
   },
   {
    "col_no": "8",
-   "name": "dent Py during | Female",
+   "name": "Persons killed during 1997 (8)",
    "header": [
-    "dent Py during",
-    "Female"
+    "Persons killed during 1997"
    ]
   },
   {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
    "col_no": "9",
-   "name": "state Percentage {Col.7/Col.7 + 8) *100",
-   "header": [
-    "state Percentage {Col.7/Col.7 + 8) *100"
-   ]
+   "name": "col_9",
+   "header": []
   }
  ],
  "notes": [],
@@ -85,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 5,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

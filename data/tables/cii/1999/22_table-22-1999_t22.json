@@ -6,83 +6,79 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "22",
- "title": "PEKUCENTAGE OF IPC CRIME CASES DISPOSED BY COURTS DURING 1999",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 22",
  "listing_title": "Percentage of IPC Crime Cases Disposed by Courts During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-22-1999.pdf",
  "source_sha256": "69f9aa58d617ab9b1bfecab10407b616b8919d5752f0157ad18cfbafcc9c434c",
  "table_no": "22",
- "pdf_title": "PEKUCENTAGE OF IPC CRIME CASES DISPOSED BY COURTS DURING 1999",
- "row_label": "SL. CRIME HRAD No.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 22",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 26,
+ "n_rows": 27,
  "n_cols": 7,
- "n_cells": 177,
+ "n_cells": 189,
  "columns": [
   {
    "col_no": "3",
-   "name": "CASES BY GOVT. @)",
+   "name": "CASES WITH-DRAWN BY GOVT.",
    "header": [
-    "CASES BY GOVT. @)"
+    "CASES WITH-DRAWN BY GOVT."
    ]
   },
   {
    "col_no": "4",
-   "name": "PEKUEN (AGE OF CASI'S TO TOTAL CASES FOR THIAL | COMPUUNDED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOUNDED OR WITHDRAWN",
    "header": [
-    "PEKUEN (AGE OF CASI'S TO TOTAL CASES FOR THIAL",
-    "COMPUUNDED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "COMPOUNDED OR WITHDRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "PEKUEN (AGE OF CASI'S TO TOTAL CASES FOR THIAL | IN WHICH CONVICTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED CONVICTED",
    "header": [
-    "PEKUEN (AGE OF CASI'S TO TOTAL CASES FOR THIAL",
-    "IN WHICH CONVICTED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "IN WHICH TRIALS WERE COMPLETED CONVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "PEKUEN (AGE OF CASI'S TO TOTAL CASES FOR THIAL | WERE COMPLETED | aa DISCHARGED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | ACQUITTED OR DISCHARGED",
    "header": [
-    "PEKUEN (AGE OF CASI'S TO TOTAL CASES FOR THIAL",
-    "WERE COMPLETED",
-    "aa DISCHARGED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "ACQUITTED OR DISCHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "PEKUEN (AGE OF CASI'S TO TOTAL CASES FOR THIAL | WERE COMPLETED | TOTAL ses",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | TOTAL {(5) + (6)}",
    "header": [
-    "PEKUEN (AGE OF CASI'S TO TOTAL CASES FOR THIAL",
-    "WERE COMPLETED",
-    "TOTAL ses"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "TOTAL {(5) + (6)}"
    ]
   },
   {
    "col_no": "8",
-   "name": "PEKUEN (AGE OF CASI'S TO TOTAL CASES FOR THIAL | PENDING TRIAL",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | PENDING TRIAL",
    "header": [
-    "PEKUEN (AGE OF CASI'S TO TOTAL CASES FOR THIAL",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
     "PENDING TRIAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "CONVICTION {/8) }",
+   "name": "CONVIC-TION RATE {(5)/(8) * 100}",
    "header": [
-    "CONVICTION {/8) }"
+    "CONVIC-TION RATE {(5)/(8) * 100}"
    ]
   }
  ],
- "notes": [
-  "Note: less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

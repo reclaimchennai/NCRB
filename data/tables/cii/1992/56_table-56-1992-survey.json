@@ -8,14 +8,14 @@
  "serial": "56",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1992 (State, UT & City-wise)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1992 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-56-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-56-1992-survey.pdf",
  "source_sha256": "a596341826d7707d1a69c6d77be71710a9c8435df5705131b92ec32085ea9cc4",
  "table_no": "56",
- "pdf_title": "VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
- "row_label": "SL. NO. / STATE/UT",
+ "pdf_title": "261 TABLE-56 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
+ "row_label": "SL. STATE/UTNO. / SL. STATE/UTNO.",
  "pages": [
   1,
   2
@@ -26,29 +26,29 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "DURING (STATE,UT TOTAL STOLEN",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
-    "DURING (STATE,UT TOTAL STOLEN"
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "1992 & PROPERTY VALUE RECOVERED",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
    "header": [
-    "1992 & PROPERTY VALUE RECOVERED"
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "CITY-WISE) in (Rea. lakh) OF PERCENTAGE RECOVERY",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "CITY-WISE) in (Rea. lakh) OF PERCENTAGE RECOVERY"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],
- "notes": [
-  "Note: NR stands for data not received."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

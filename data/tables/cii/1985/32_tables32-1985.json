@@ -8,55 +8,49 @@
  "serial": "32",
  "title": "Juvenile Crime Cases under Local and Special Laws During 1984 and 1985",
  "listing_title": "Juvenile Crime Cases under Local and Special Laws During 1984 and 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables32-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables32-1985.pdf",
  "source_sha256": "fff3315fce5ed8defd264eba50236090658fe8d67dda579e7058cfb79d5a170a",
  "table_no": "32",
- "pdf_title": "Juvenile Crime Cases Under Local And Special Laws During 1984 And 1985",
- "row_label": "SL. NO. / Heads",
+ "pdf_title": "84 TABLE-32 Juvenile Crime Cases Under Local And Special Laws During 1984 And 1985",
+ "row_label": "NUMBER OF CASES REPORTED DURING",
  "pages": [
+  1,
   1
  ],
- "n_rows": 13,
+ "n_rows": 14,
  "n_cols": 3,
- "n_cells": 38,
+ "n_cells": 40,
  "columns": [
   {
-   "col_no": "3",
-   "name": "CASES Of DURING sla 1984",
+   "col_no": "4",
+   "name": "NUMBER OF CASES REPORTED DURING",
    "header": [
-    "CASES Of DURING sla 1984"
+    "NUMBER OF CASES REPORTED DURING"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Crime 1985",
-   "header": [
-    "Crime 1985"
-   ]
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "OF %AGE OF OFFENCES TO TOTAL OFFENCES 1985 IN",
-   "header": [
-    "OF %AGE OF OFFENCES TO TOTAL OFFENCES 1985 IN"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
- "notes": [
-  "Under Local & Special Laws",
-  "Note Neg. - Negligible ie less than 0.05"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 2,
   "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

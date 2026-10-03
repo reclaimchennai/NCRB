@@ -8,102 +8,108 @@
  "serial": "62",
  "title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1989 (Women only)",
  "listing_title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1989 (Women only)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-65-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-65-1989-1.pdf",
  "source_sha256": "4d6c192d061c65906945a546e17f746511e32d75541a7c6b1942e26808f47121",
  "table_no": "65",
- "pdf_title": "SANCTIONED AND ACTUAL. STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
- "row_label": "SL. NO. / STATE/UT/CITY / AS SANCTIONED",
+ "pdf_title": "201 TABLE-65 SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
+ "row_label": "SL. STATE/UT/CITY NO.",
  "pages": [
   1
  ],
  "n_rows": 47,
- "n_cols": 9,
- "n_cells": 388,
+ "n_cols": 10,
+ "n_cells": 470,
  "columns": [
   {
-   "col_no": "4",
-   "name": "ON (WOMEN DG/IG/DIG/SP ACTUAL",
+   "col_no": "3",
+   "name": "DG/IG/DIG/SP | SANC-TIONED",
    "header": [
-    "ON (WOMEN DG/IG/DIG/SP ACTUAL"
+    "DG/IG/DIG/SP",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DG/IG/DIG/SP | ACTUAL",
+   "header": [
+    "DG/IG/DIG/SP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "31.12.1989 ONLY) ASP SANCTIONED",
+   "name": "ASP & DSP | SANC-TIONED",
    "header": [
-    "31.12.1989 ONLY) ASP SANCTIONED"
+    "ASP & DSP",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "& ACTUAL",
+   "name": "ASP & DSP | ACTUAL",
    "header": [
-    "& ACTUAL"
+    "ASP & DSP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "DSP INSPECTOR, A.S.I. SANCTIONED",
+   "name": "INSPECTOR, SI & A. S. I. | SANC-TIONED",
    "header": [
-    "DSP INSPECTOR, A.S.I. SANCTIONED"
+    "INSPECTOR, SI & A. S. I.",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "8",
-   "name": "SI ACTUAL",
+   "name": "INSPECTOR, SI & A. S. I. | ACTUAL",
    "header": [
-    "SI ACTUAL"
+    "INSPECTOR, SI & A. S. I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "& A.S.T. SANCTIONED «9)",
+   "name": "OFFICERS BELOW A. S. I. | SANC-TIONED",
    "header": [
-    "& A.S.T. SANCTIONED «9)"
+    "OFFICERS BELOW A. S. I.",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "10",
-   "name": "OFFICERS ACTUAL",
+   "name": "OFFICERS BELOW A. S. I. | ACTUAL",
    "header": [
-    "OFFICERS ACTUAL"
+    "OFFICERS BELOW A. S. I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "BELOW SANCTIONED",
+   "name": "GRAND TOTAL | SANC-TIONED",
    "header": [
-    "BELOW SANCTIONED"
+    "GRAND TOTAL",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "12",
-   "name": "TOTAL GRAND ACTUAL",
+   "name": "GRAND TOTAL | ACTUAL",
    "header": [
-    "TOTAL GRAND ACTUAL"
+    "GRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
- "notes": [
-  "NOTE: 1.Since ‘Actual’ Police strength was not available for Madhya Pradesh and Maharashtra,",
-  "it is taken equal to ‘Sanctioned' Police strength.",
-  "2. 'Actual• Folice strength of Women Police is more than their ‘Sanctioned' Police strength for some ranks,",
-  "in Andhra Pradesh, Goa, Gujarat, Himachal Pradesh, Manipur, Meghalaya, Mizoram, Punjab,",
-  "ur of Chandigarh, D & N Haveli, UT of Delhi and Delhi city.",
-  "This is because Women Police are appointed against Male vacancies of the sume rank or higher rank, as per",
-  "Govt. instructions.",
-  "27—108 NCRB/91"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 21,
-  "cells_passed": 18,
+  "cells_checked": 30,
+  "cells_passed": 29,
   "failures": [
-   "col 8 'TOTAL (STATES)': printed 925, sum 931",
-   "col 9 'TOTAL (UTS)': printed 924, sum 1023",
-   "col 12 'TOTAL (STATES)': printed 9481, sum 8883"
+   "col 12 'TOTAL (STATES)': printed 9481, sum 9501"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

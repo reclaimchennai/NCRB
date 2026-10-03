@@ -8,35 +8,33 @@
  "serial": "7",
  "title": "Juveniles Dealt With",
  "listing_title": "Juveniles Dealt With",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680079029TABLE-7-1965.pdf",
  "source_file": "raw/cii/1965/table_content/1680079029TABLE-7-1965.pdf",
  "source_sha256": "039c8b4a32fce6d4537f77daac614144dfb61d1d1f057d3a84254ba6f56bb55e",
  "table_no": "",
- "pdf_title": "Taste No. VIE",
- "row_label": "Sl No. / States/Union Cities",
+ "pdf_title": "29 TABLE No. VII JUVENILES DEALT WITH",
+ "row_label": "Sl. No. / States/Union Territories/ Cities",
  "pages": [
   1
  ],
- "n_rows": 34,
+ "n_rows": 37,
  "n_cols": 8,
- "n_cells": 248,
+ "n_cells": 296,
  "columns": [
   {
    "col_no": "3",
-   "name": "Juveniles Restor- | sent to courts",
+   "name": "Juveniles sent to courts",
    "header": [
-    "Juveniles Restor-",
-    "sent to courts"
+    "Juveniles sent to courts"
    ]
   },
   {
    "col_no": "4",
-   "name": "Juveniles Restor- | edto Guardians",
+   "name": "Restored to Guardians",
    "header": [
-    "Juveniles Restor-",
-    "edto Guardians"
+    "Restored to Guardians"
    ]
   },
   {
@@ -48,53 +46,47 @@
   },
   {
    "col_no": "6",
-   "name": "ToReformatories &",
+   "name": "To Re-formatories & Borstals",
    "header": [
-    "ToReformatories &"
+    "To Re-formatories & Borstals"
    ]
   },
   {
    "col_no": "7",
-   "name": "JUVENIFFS DEALT WITH | To Schools & Insti- Rorstals tutions",
+   "name": "To Schools & Institutions",
    "header": [
-    "JUVENIFFS DEALT WITH",
-    "To Schools & Insti- Rorstals tutions"
+    "To Schools & Institutions"
    ]
   },
   {
    "col_no": "8",
-   "name": "JUVENIFFS DEALT WITH | To adult Institutions/ Jails",
+   "name": "To adult Institutions/Jails",
    "header": [
-    "JUVENIFFS DEALT WITH",
-    "To adult Institutions/ Jails"
+    "To adult Institutions/Jails"
    ]
   },
   {
    "col_no": "9",
-   "name": "JUVENIFFS DEALT WITH | Otherdisposedoff acquitted",
+   "name": "Otherwise disposed off acquitted",
    "header": [
-    "JUVENIFFS DEALT WITH",
-    "Otherdisposedoff acquitted"
+    "Otherwise disposed off acquitted"
    ]
   },
   {
    "col_no": "10",
-   "name": "JUVENIFFS DEALT WITH | Pending disposal",
+   "name": "Pending disposal",
    "header": [
-    "JUVENIFFS DEALT WITH",
     "Pending disposal"
    ]
   }
  ],
- "notes": [
-  "M2HA/66—3"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 13,
-  "other_totals_passed": 9
+  "other_totals_checked": 31,
+  "other_totals_passed": 30
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

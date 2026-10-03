@@ -8,14 +8,14 @@
  "serial": "18",
  "title": "Annexure-XIII: Details of Inmates Discharged/Escapees/Deaths During 1997",
  "listing_title": "Annexure-XIII: Details of Inmates Discharged/Escapees/Deaths During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/annexures-13_1997.pdf",
  "source_file": "raw/psi/1997/table_content/annexures-13_1997.pdf",
  "source_sha256": "e2e2cd9028014636731b9c991096fc497f9b7deb5c1f7fa6a1a8ed1e5f71ef6f",
  "table_no": "",
- "pdf_title": "ANNEXURE-XIII DETAILS OF INMATES DISCHARGED/ESCAPEES/DEATHS DURING 1997",
- "row_label": "“SL. - STATE/UT (1) (2) / AFTERCOMPLETION RELEASED OF CONVICTION PERIOD (3) / - (4) / PRE-MATURE RELEASE UNCONDITICNAL) (CONDITIONAL / (5) / RELEASED ON APPEAL RELEASED ON BAIL MALE FEMALE TOTAL MALE FEMALE: TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL (8) / RELEASED ON APPEAL RELEASED ON BAIL MALE FEMALE TOTAL MALE FEMALE: TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL / RELEASED ON APPEAL RELEASED ON BAIL MALE FEMALE TOTAL MALE FEMALE: TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL yay) / RELEASED ON APPEAL RELEASED ON BAIL MALE FEMALE TOTAL MALE FEMALE: TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL yay) / RELEASED ON APPEAL RELEASED ON BAIL MALE FEMALE TOTAL MALE FEMALE: TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL yay) / RELEASED ON APPEAL RELEASED ON BAIL MALE FEMALE TOTAL MALE FEMALE: TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL PARDONS",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1997 ANNEXURE-XIII",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2,
@@ -23,38 +23,151 @@
   4,
   5
  ],
- "n_rows": 49,
- "n_cols": 39,
- "n_cells": 317,
+ "n_rows": 30,
+ "n_cols": 69,
+ "n_cells": 2070,
  "columns": [
   {
-   "col_no": "11",
-   "name": "RELEASED ON APPEAL RELEASED ON BAIL MALE FEMALE TOTAL MALE FEMALE: TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL | (7)",
+   "col_no": "3",
+   "name": "RELEASED AFTERCOMPLETION OF CONVICTION PERIOD | MALE",
    "header": [
-    "RELEASED ON APPEAL RELEASED ON BAIL MALE FEMALE TOTAL MALE FEMALE: TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL MALE FEMALE TOTAL",
-    "(7)"
+    "RELEASED AFTERCOMPLETION OF CONVICTION PERIOD",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RELEASED AFTERCOMPLETION OF CONVICTION PERIOD | FEMALE",
+   "header": [
+    "RELEASED AFTERCOMPLETION OF CONVICTION PERIOD",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RELEASED AFTERCOMPLETION OF CONVICTION PERIOD | TOTAL",
+   "header": [
+    "RELEASED AFTERCOMPLETION OF CONVICTION PERIOD",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL) | MALE",
+   "header": [
+    "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL)",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL) | FEMALE",
+   "header": [
+    "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL)",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL) | TOTAL",
+   "header": [
+    "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL)",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "RELEASED ON APPEAL | MALE",
+   "header": [
+    "RELEASED ON APPEAL",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RELEASED ON APPEAL | FEMALE",
+   "header": [
+    "RELEASED ON APPEAL",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "RELEASED ON APPEAL | TOTAL",
+   "header": [
+    "RELEASED ON APPEAL",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "RELEASED ON BAIL | MALE",
+   "header": [
+    "RELEASED ON BAIL",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "RELEASED ON BAIL | FEMALE",
+   "header": [
+    "RELEASED ON BAIL",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "RELEASED ON BAIL | TOTAL",
+   "header": [
+    "RELEASED ON BAIL",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "PARDONS | MALE",
+   "header": [
+    "PARDONS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "PARDONS | FEMALE",
+   "header": [
+    "PARDONS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "PARDONS | TOTAL",
+   "header": [
+    "PARDONS",
+    "TOTAL"
    ]
   },
   {
    "col_no": "18",
-   "name": "TRANSFERRED TO OTHER FEMALE | MALE",
+   "name": "TRANSFERRED TO OTHER STATES | MALE",
    "header": [
-    "TRANSFERRED TO OTHER FEMALE",
+    "TRANSFERRED TO OTHER STATES",
     "MALE"
    ]
   },
   {
    "col_no": "19",
-   "name": "TRANSFERRED TO OTHER FEMALE",
+   "name": "TRANSFERRED TO OTHER STATES | FEMALE",
    "header": [
-    "TRANSFERRED TO OTHER FEMALE"
+    "TRANSFERRED TO OTHER STATES",
+    "FEMALE"
    ]
   },
   {
    "col_no": "20",
-   "name": "TRANSFERRED TO OTHER FEMALE | TOTAL",
+   "name": "TRANSFERRED TO OTHER STATES | TOTAL",
    "header": [
-    "TRANSFERRED TO OTHER FEMALE",
+    "TRANSFERRED TO OTHER STATES",
     "TOTAL"
    ]
   },
@@ -131,214 +244,373 @@
    ]
   },
   {
-   "col_no": "10001",
-   "name": "ESCAPEES | (ESCAPEES) | TOTAL (3B)—t36)|) MALE FEMALE (37) | «0084 0",
+   "col_no": "30",
+   "name": "ESCAPEES | ESCAPEES | MALE",
    "header": [
     "ESCAPEES",
-    "(ESCAPEES)",
-    "TOTAL (3B)—t36)|) MALE FEMALE (37)",
-    "«0084 0"
+    "ESCAPEES",
+    "MALE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "ESCAPEES | (ESCAPEES) | TOTAL (3B)—t36)|) MALE FEMALE (37) | o",
+   "col_no": "31",
+   "name": "ESCAPEES | ESCAPEES | FEMALE",
    "header": [
     "ESCAPEES",
-    "(ESCAPEES)",
-    "TOTAL (3B)—t36)|) MALE FEMALE (37)",
-    "o"
+    "ESCAPEES",
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "ESCAPEES | (ESCAPEES) | TOTAL (38)—«(39) MALE FEMALE (40), 60",
+   "col_no": "32",
+   "name": "ESCAPEES | ESCAPEES | TOTAL",
    "header": [
     "ESCAPEES",
-    "(ESCAPEES)",
-    "TOTAL (38)—«(39) MALE FEMALE (40), 60"
+    "ESCAPEES",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "7 0,",
+   "col_no": "33",
+   "name": "ESCAPEES | RE-ARRESTED | MALE",
    "header": [
-    "7 0,"
+    "ESCAPEES",
+    "RE-ARRESTED",
+    "MALE"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "DEATHS | NATURAL 1 0 oO",
+   "col_no": "34",
+   "name": "ESCAPEES | RE-ARRESTED | FEMALE",
+   "header": [
+    "ESCAPEES",
+    "RE-ARRESTED",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "ESCAPEES | RE-ARRESTED | TOTAL",
+   "header": [
+    "ESCAPEES",
+    "RE-ARRESTED",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "ESCAPEES | TOTAL (ESCAPEES) | MALE",
+   "header": [
+    "ESCAPEES",
+    "TOTAL (ESCAPEES)",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "ESCAPEES | TOTAL (ESCAPEES) | FEMALE",
+   "header": [
+    "ESCAPEES",
+    "TOTAL (ESCAPEES)",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "ESCAPEES | TOTAL (ESCAPEES) | TOTAL",
+   "header": [
+    "ESCAPEES",
+    "TOTAL (ESCAPEES)",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "DEATHS | NATURAL | MALE",
    "header": [
     "DEATHS",
-    "NATURAL 1 0 oO"
+    "NATURAL",
+    "MALE"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "DEATHS | SUICIDES TOTAL (41) MALE (42), FEMALE (43) - (44) Oo 0 3 oO 0 (6) 0: oO",
+   "col_no": "40",
+   "name": "DEATHS | NATURAL | FEMALE",
    "header": [
     "DEATHS",
-    "SUICIDES TOTAL (41) MALE (42), FEMALE (43) - (44) Oo 0 3 oO 0 (6) 0: oO"
+    "NATURAL",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "DEATHS | NATURAL | TOTAL",
+   "header": [
+    "DEATHS",
+    "NATURAL",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "42",
+   "name": "DEATHS | SUICIDES | MALE",
+   "header": [
+    "DEATHS",
+    "SUICIDES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "43",
+   "name": "DEATHS | SUICIDES | FEMALE",
+   "header": [
+    "DEATHS",
+    "SUICIDES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "44",
+   "name": "DEATHS | SUICIDES | TOTAL",
+   "header": [
+    "DEATHS",
+    "SUICIDES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "45",
+   "name": "DEATHS (CONTINUED...) | EXECUTION | MALE",
+   "header": [
+    "DEATHS (CONTINUED...)",
+    "EXECUTION",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "46",
+   "name": "DEATHS (CONTINUED...) | EXECUTION | FEMALE",
+   "header": [
+    "DEATHS (CONTINUED...)",
+    "EXECUTION",
+    "FEMALE"
    ]
   },
   {
    "col_no": "47",
-   "name": "TOTAL",
+   "name": "DEATHS (CONTINUED...) | EXECUTION | TOTAL",
    "header": [
+    "DEATHS (CONTINUED...)",
+    "EXECUTION",
     "TOTAL"
    ]
   },
   {
    "col_no": "48",
-   "name": "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL (48)",
+   "name": "DEATHS (CONTINUED...) | MURDER BY INMATES | MALE",
    "header": [
-    "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "MURDER BY INMATES",
+    "MALE"
    ]
   },
   {
    "col_no": "49",
-   "name": "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL (49)",
+   "name": "DEATHS (CONTINUED...) | MURDER BY INMATES | FEMALE",
    "header": [
-    "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "MURDER BY INMATES",
+    "FEMALE"
    ]
   },
   {
    "col_no": "50",
-   "name": "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL (50)",
+   "name": "DEATHS (CONTINUED...) | MURDER BY INMATES | TOTAL",
    "header": [
-    "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "MURDER BY INMATES",
+    "TOTAL"
    ]
   },
   {
    "col_no": "51",
-   "name": "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL (51)",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO FIRING | MALE",
    "header": [
-    "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "DEATHS DUE TO FIRING",
+    "MALE"
    ]
   },
   {
    "col_no": "52",
-   "name": "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL (52)",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO FIRING | FEMALE",
    "header": [
-    "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "DEATHS DUE TO FIRING",
+    "FEMALE"
    ]
   },
   {
    "col_no": "53",
-   "name": "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL (53)",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO FIRING | TOTAL",
    "header": [
-    "DEATHS (CONTINUED...) MURDERBY INMATES DEATHSDUETO FIRING MALE FEMALE TOTAL MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "DEATHS DUE TO FIRING",
+    "TOTAL"
    ]
   },
   {
    "col_no": "54",
-   "name": "DEATHS NEGLIGENCE DUE TO / EXCESSES PERSONNEL BY JAIL MALE FEMALE TOTAL (54)",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL | MALE",
    "header": [
-    "DEATHS NEGLIGENCE DUE TO / EXCESSES PERSONNEL BY JAIL MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL",
+    "MALE"
    ]
   },
   {
    "col_no": "55",
-   "name": "DEATHS NEGLIGENCE DUE TO / EXCESSES PERSONNEL BY JAIL MALE FEMALE TOTAL (55)",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL | FEMALE",
    "header": [
-    "DEATHS NEGLIGENCE DUE TO / EXCESSES PERSONNEL BY JAIL MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL",
+    "FEMALE"
    ]
   },
   {
    "col_no": "56",
-   "name": "DEATHS NEGLIGENCE DUE TO / EXCESSES PERSONNEL BY JAIL MALE FEMALE TOTAL (56)",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL | TOTAL",
    "header": [
-    "DEATHS NEGLIGENCE DUE TO / EXCESSES PERSONNEL BY JAIL MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL",
+    "TOTAL"
    ]
   },
   {
    "col_no": "57",
-   "name": "OTHERS MALE FEMALE TOTAL (57)",
+   "name": "DEATHS (CONTINUED...) | OTHERS | MALE",
    "header": [
-    "OTHERS MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "OTHERS",
+    "MALE"
    ]
   },
   {
    "col_no": "58",
-   "name": "OTHERS MALE FEMALE TOTAL (58)",
+   "name": "DEATHS (CONTINUED...) | OTHERS | FEMALE",
    "header": [
-    "OTHERS MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "OTHERS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "59",
-   "name": "OTHERS MALE FEMALE TOTAL (59)",
+   "name": "DEATHS (CONTINUED...) | OTHERS | TOTAL",
    "header": [
-    "OTHERS MALE FEMALE TOTAL"
+    "DEATHS (CONTINUED...)",
+    "OTHERS",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "TOTAL (DEATHS) | FEMALE TOTAL —=—s(62),—s 1 1",
+   "col_no": "60",
+   "name": "TOTAL (DEATHS) | MALE",
    "header": [
     "TOTAL (DEATHS)",
-    "FEMALE TOTAL —=—s(62),—s 1 1"
+    "MALE"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "RELEASED NUMBER OF ON PERSONS PAROLE | MALE 37-382 el ote 7 { a 107",
+   "col_no": "61",
+   "name": "TOTAL (DEATHS) | FEMALE",
    "header": [
-    "RELEASED NUMBER OF ON PERSONS PAROLE",
-    "MALE 37-382 el ote 7 { a 107"
+    "TOTAL (DEATHS)",
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10009",
-   "name": "RELEASED NUMBER OF ON PERSONS PAROLE | FEMALE TOTAL | (683)—s«B4)— 0 a te 5",
+   "col_no": "62",
+   "name": "TOTAL (DEATHS) | TOTAL",
    "header": [
-    "RELEASED NUMBER OF ON PERSONS PAROLE",
-    "FEMALE TOTAL",
-    "(683)—s«B4)— 0 a te 5"
+    "TOTAL (DEATHS)",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10010",
-   "name": "RELEASED NUMBER OF ON PERSONS PAROLE | FEMALE TOTAL | 382 atm aod nd at - 112",
+   "col_no": "63",
+   "name": "NUMBER OF PERSONS RELEASED ON PAROLE | MALE",
    "header": [
-    "RELEASED NUMBER OF ON PERSONS PAROLE",
-    "FEMALE TOTAL",
-    "382 atm aod nd at - 112"
+    "NUMBER OF PERSONS RELEASED ON PAROLE",
+    "MALE"
    ]
   },
   {
-   "col_no": "10011",
-   "name": "NUMBER ABSCONDERS OF PAROLE | MALE (B7) 0 60 re eb eT - aT oT - - 0,",
+   "col_no": "64",
+   "name": "NUMBER OF PERSONS RELEASED ON PAROLE | FEMALE",
    "header": [
-    "NUMBER ABSCONDERS OF PAROLE",
-    "MALE (B7) 0 60 re eb eT - aT oT - - 0,"
+    "NUMBER OF PERSONS RELEASED ON PAROLE",
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10012",
-   "name": "NUMBER ABSCONDERS OF PAROLE | FEMALE TOTAL - (8B) 60 ml mm oj;",
+   "col_no": "65",
+   "name": "NUMBER OF PERSONS RELEASED ON PAROLE | TOTAL",
    "header": [
-    "NUMBER ABSCONDERS OF PAROLE",
-    "FEMALE TOTAL - (8B) 60 ml mm oj;"
+    "NUMBER OF PERSONS RELEASED ON PAROLE",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10013",
-   "name": "NUMBER ABSCONDERS OF PAROLE MALE RI- FEMALE ARRESTED TOTAL (B9)—(70— (71) 25 25 0 7 aon’ as 22 2",
+   "col_no": "66",
+   "name": "NUMBER OF PAROLE ABSCONDERS | MALE",
    "header": [
-    "NUMBER ABSCONDERS OF PAROLE MALE RI- FEMALE ARRESTED TOTAL (B9)—(70— (71) 25 25 0 7 aon’ as 22 2"
+    "NUMBER OF PAROLE ABSCONDERS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "67",
+   "name": "NUMBER OF PAROLE ABSCONDERS | FEMALE",
+   "header": [
+    "NUMBER OF PAROLE ABSCONDERS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "68",
+   "name": "NUMBER OF PAROLE ABSCONDERS | TOTAL",
+   "header": [
+    "NUMBER OF PAROLE ABSCONDERS",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "69",
+   "name": "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED | MALE",
+   "header": [
+    "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "70",
+   "name": "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED | FEMALE",
+   "header": [
+    "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "71",
+   "name": "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED | TOTAL",
+   "header": [
+    "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED",
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "el ae",
-  "- ae - a -",
-  "mlx ae - ra - - oT oT ae 1 oss",
-  "ie or oP ri - at ao 7 ot + -",
-  "- 30 PONDICHERRY",
-  "NA stands for Not Available"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -346,7 +618,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 3,
+ "inferred_pages": 0,
  "ocr_pages": 5,
  "warnings": []
 }

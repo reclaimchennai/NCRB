@@ -8,22 +8,51 @@
  "serial": "55",
  "title": "Incidence & Rate of Cognizable Crimes under Special and Local Laws (SLL) under Different Crime Heads and Percentage Changes Duri",
  "listing_title": "Incidence & Rate of Cognizable Crimes under Special and Local Laws (SLL) under Different Crime Heads and Percentage Changes Duri",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table10-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table10-1994_2.pdf",
  "source_sha256": "314c45e99af5d044a5c584901eddea8a47115a79b90fae54693ea178da66e5ca",
  "table_no": "10",
- "pdf_title": "INCIDENCE & RATE OF COGNIZABLE CRIMES UNDER SPECIAL AND LOCAL LAWS (SLL) UNDER DIFFERENT CRIME HEADS AND PERCENTAGE CHANGES DURING 1994",
- "row_label": "CRIME HEAD SL. NO. am / 1984 / 1989 / 1990 / 1991 / 1992",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE - 10",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1,
+  2,
   2
  ],
- "n_rows": 54,
- "n_cols": 5,
- "n_cells": 126,
+ "n_rows": 35,
+ "n_cols": 10,
+ "n_cells": 292,
  "columns": [
+  {
+   "col_no": "4",
+   "name": "1989",
+   "header": [
+    "1989"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1990",
+   "header": [
+    "1990"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1991",
+   "header": [
+    "1991"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1992",
+   "header": [
+    "1992"
+   ]
+  },
   {
    "col_no": "8",
    "name": "1993",
@@ -32,45 +61,32 @@
    ]
   },
   {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
    "col_no": "10",
-   "name": "1994",
-   "header": [
-    "1994"
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "PERCENTAGE CHANGE IN 1994 | [( + INCREASE! (-)DECREA'SE] | 1984",
-   "header": [
-    "PERCENTAGE CHANGE IN 1994",
-    "[( + INCREASE! (-)DECREA'SE]",
-    "1984"
-   ]
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "PERCENTAGE CHANGE IN 1994 | [( + INCREASE! (-)DECREA'SE] | oven 0A.",
-   "header": [
-    "PERCENTAGE CHANGE IN 1994",
-    "[( + INCREASE! (-)DECREA'SE]",
-    "oven 0A."
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "PERCENTAGE CHANGE IN 1994 | 1993",
-   "header": [
-    "PERCENTAGE CHANGE IN 1994",
-    "1993"
-   ]
+   "name": "col_13",
+   "header": []
   }
  ],
- "notes": [
-  "8B. NCBR/96",
-  "Note: 1. Figures in brackets rave Of crime per lakh of =22::=*==",
-  "2. * the Crime Head was wm 1988.",
-  "3. Rate less than 0.05 is snown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -79,6 +95,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

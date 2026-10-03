@@ -8,70 +8,68 @@
  "serial": "33",
  "title": "Disposal of LSL Crime Cases By Police During 1991",
  "listing_title": "Disposal of LSL Crime Cases By Police During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-17-1991-17.pdf",
  "source_file": "raw/cii/1991/table_content/table-17-1991-17.pdf",
  "source_sha256": "b6bc1573f9cf952aadb1d2ad7eb195b61109a4a809bbff234a9f478f85d80507",
- "table_no": "",
- "pdf_title": "DISPOSAL OF LSL CRIME CASES BY POLICE",
- "row_label": "CRIME READ $i. ho. (2) i 2",
+ "table_no": "17",
+ "pdf_title": "93 TABLE-17 DISPOSAL OF LSL CRIME CASES BY POLICE DURING 1991",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 15,
+ "n_rows": 17,
  "n_cols": 7,
- "n_cells": 79,
+ "n_cells": 119,
  "columns": [
   {
-   "col_no": "2",
-   "name": "TOTAL CASES fom STIGATIOW INCLUDING - CASES ACT ARCOTIC DRUGS B",
-   "header": [
-    "TOTAL CASES fom STIGATIOW INCLUDING - CASES ACT ARCOTIC DRUGS B"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "ee GAT (REFUSED (4) FR ACT",
+   "name": "TOTAL NO. OF CASES FOR INVE- STIGATION INCLUDING PENDING CASES",
    "header": [
-    "ee GAT (REFUSED (4) FR ACT"
+    "TOTAL NO. OF CASES FOR INVE- STIGATION INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "WO. OF CASES CHARGE FALSE/ MISTAKE OF LAN - Etc, (3) ga 271s",
+   "name": "INVSETI- GATION WAS REFUSED",
    "header": [
-    "WO. OF CASES CHARGE FALSE/ MISTAKE OF LAN - Etc, (3) ga 271s"
+    "INVSETI- GATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "IM FIMAL REPORT TRUE SUBHIte) 282 ri]",
+   "name": "NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED CHARGE FOUND FALSE/ MISTAKE OF LAW ETC.",
    "header": [
-    "IM FIMAL REPORT TRUE SUBHIte) 282 ri]"
+    "NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED CHARGE FOUND FALSE/ MISTAKE OF LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "SEE CASES - | INVESTIGATION WAS ee ‘CHARGE MERE LAID e02k2 108",
+   "name": "FINAL REPORT TRUE SUBMI- TTED",
    "header": [
-    "SEE CASES -",
-    "INVESTIGATION WAS ee ‘CHARGE MERE LAID e02k2 108"
+    "FINAL REPORT TRUE SUBMI- TTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "SEE CASES - | TOTAL SWEETS (5°06) =-#{79) (8) 1645",
+   "name": "CHARGE SHEETS MERE LAID",
    "header": [
-    "SEE CASES -",
-    "TOTAL SWEETS (5°06) =-#{79) (8) 1645"
+    "CHARGE SHEETS MERE LAID"
    ]
   },
   {
    "col_no": "8",
-   "name": "OF - 4 1011",
+   "name": "TOTAL (+)(5)+(6) +(+7)",
    "header": [
-    "OF - 4 1011"
+    "TOTAL (+)(5)+(6) +(+7)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF CASES PENDING INVESTI- GATION",
+   "header": [
+    "NO. OF CASES PENDING INVESTI- GATION"
    ]
   }
  ],
@@ -80,10 +78,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

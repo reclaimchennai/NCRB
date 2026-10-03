@@ -8,72 +8,59 @@
  "serial": "10",
  "title": "Victims of Rape",
  "listing_title": "Victims of Rape",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-10-1979.pdf",
  "source_file": "raw/cii/1979/table_chapter/chapter-10-1979.pdf",
  "source_sha256": "0f3754b30ceef1f862cb87887f4868821b48bfeacefdbb4b6a2c66beb3081925",
  "table_no": "55",
- "pdf_title": "",
- "row_label": "STATEMENT SHOWING THE NUMBER OF VICTIMS UNDER CRIME HEAD ‘RAPE’ IN Sl. No. STATES",
+ "pdf_title": "CHAPTER 10 VICTIMS OF RAPE The data on 'Victims of Rape' was collected under three age groups viz., below 16 years, between 16 to 30 years and above 30 years. The percentage of victims of rape was the highest (65.7) in the age group 16 to 30, while victims below 16 year accounted for 17.4 percent and victims above 30 years of age accounted for 16.9 percent.",
+ "row_label": "Sl. No. / Name of the States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 42,
+ "n_rows": 43,
  "n_cols": 4,
- "n_cells": 154,
+ "n_cells": 172,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATEMENT SHOWING THE NUMBER OF VICTIMS UNDER CRIME HEAD ‘RAPE’ IN | Name of the States/ U.Ts./Cities",
-   "header": [
-    "STATEMENT SHOWING THE NUMBER OF VICTIMS UNDER CRIME HEAD ‘RAPE’ IN",
-    "Name of the States/ U.Ts./Cities"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "STATEMENT SHOWING THE NUMBER OF VICTIMS UNDER CRIME HEAD ‘RAPE’ IN | AGE GROUPS FOR THE | STATES/U.Ts./CITIES DURING 1979 | No. of cases reported",
+   "name": "No. of cases reported",
    "header": [
-    "STATEMENT SHOWING THE NUMBER OF VICTIMS UNDER CRIME HEAD ‘RAPE’ IN",
-    "AGE GROUPS FOR THE",
-    "STATES/U.Ts./CITIES DURING 1979",
     "No. of cases reported"
    ]
   },
   {
    "col_no": "4",
-   "name": "AGE GROUPS FOR THE | STATES/U.Ts./CITIES DURING 1979 | Below 16 years",
+   "name": "Below 16 years",
    "header": [
-    "AGE GROUPS FOR THE",
-    "STATES/U.Ts./CITIES DURING 1979",
     "Below 16 years"
    ]
   },
   {
    "col_no": "5",
-   "name": "AGE GROUPS FOR THE | Between 16 to Above 30 years 30 years",
+   "name": "Between 16 to 30 years",
    "header": [
-    "AGE GROUPS FOR THE",
-    "Between 16 to Above 30 years 30 years"
+    "Between 16 to 30 years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Above 30 years",
+   "header": [
+    "Above 30 years"
    ]
   }
  ],
- "notes": [
-  "- Nore:— *There are 2 victims in each of the 2 cases.",
-  "16—196 BPR&D/ND/83"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 1,
-  "failures": [
-   "col 2 'TOTAL (U.Ts.) «': printed 133, sum 8272",
-   "col 2 'TOTAL (Cities)': printed 226, sum 203"
-  ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

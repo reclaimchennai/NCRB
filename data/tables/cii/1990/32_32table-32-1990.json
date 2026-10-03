@@ -8,74 +8,63 @@
  "serial": "32",
  "title": "Disposal of Persons Arrested under LSL by Police During 1990",
  "listing_title": "Disposal of Persons Arrested under LSL by Police During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/32table-32-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/32table-32-1990-.pdf",
  "source_sha256": "89d9d2705a938db066cb6b1acdcf29fa76cab0aacb3e0218441f9fb03838ad8d",
  "table_no": "32",
- "pdf_title": "DISPOSAL OF PERSONS «:eaesrei: UNDER LSL BY POLICE DURING 1990",
- "row_label": "SL. CRIME NO. ql) / HEAD OF PERSONS UNDER ARREST* INCLUDING THOSE FROM VIOUS",
+ "pdf_title": "130 TABLE-32 DISPOSAL OF PERSONS ARRESTED UNDER LSL BY POLICE DURING 1990",
+ "row_label": "",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 6,
- "n_cells": 102,
+ "n_cols": 7,
+ "n_cells": 119,
  "columns": [
   {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
    "col_no": "4",
-   "name": "TOTAL NO. PREYEAR",
-   "header": [
-    "TOTAL NO. PREYEAR"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "NO. PERSONS RFI FACEn BEFORE TRIAL rencenraGE TO TOTAL",
-   "header": [
-    "NO. PERSONS RFI FACEn BEFORE TRIAL rencenraGE TO TOTAL"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "PERSONS CHARGE DNENLED | NO.",
-   "header": [
-    "PERSONS CHARGE DNENLED",
-    "NO."
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "PERSONS CHARGE DNENLED | TO TOTAL",
-   "header": [
-    "PERSONS CHARGE DNENLED",
-    "TO TOTAL"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "PERSONS AT THE THE NO.",
-   "header": [
-    "PERSONS AT THE THE NO."
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "UNDER INVESTIGATION OF END YEAR PERCENTAGE TO TOTAL",
-   "header": [
-    "UNDER INVESTIGATION OF END YEAR PERCENTAGE TO TOTAL"
-   ]
+   "name": "col_9",
+   "header": []
   }
  ],
- "notes": [
-  "* In Custody or on Bail"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
+  "other_totals_checked": 4,
   "other_totals_passed": 3
  },
  "inferred_pages": 0,

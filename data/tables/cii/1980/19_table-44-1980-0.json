@@ -1,0 +1,107 @@
+{
+ "table_id": "cii/1980/19_table-44-1980-0",
+ "publication": "cii",
+ "year": 1980,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "19",
+ "title": "Disposal of Juveniles Sent to Court",
+ "listing_title": "Disposal of Juveniles Sent to Court",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1980_0.pdf",
+ "source_file": "raw/cii/1980/table_content/table-44-1980_0.pdf",
+ "source_sha256": "3cfebfc57ca44342c5c0aee215c2ff3ab7e1c6b028f225f8d80355a0fdd1f9fe",
+ "table_no": "44",
+ "pdf_title": "112 TABLE 44 Disposal of Juveniles Sent to Court",
+ "row_label": "S1. States/UTs./Cities No.",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 46,
+ "n_cols": 9,
+ "n_cells": 384,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Juveniles sent to court",
+   "header": [
+    "Juveniles sent to court"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Restored to Guardian",
+   "header": [
+    "Restored to Guardian"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "On Probation",
+   "header": [
+    "On Probation"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Sent to Reformatories & Bostals",
+   "header": [
+    "Sent to Reformatories & Bostals"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Sent to School Institutions",
+   "header": [
+    "Sent to School Institutions"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Sent to Adult Institutions",
+   "header": [
+    "Sent to Adult Institutions"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Imprisoned",
+   "header": [
+    "Imprisoned"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Acquitted or otherwise disposed of",
+   "header": [
+    "Acquitted or otherwise disposed of"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Pending disposal",
+   "header": [
+    "Pending disposal"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 23,
+  "cells_passed": 19,
+  "failures": [
+   "col 5 'Total(States) . .': printed 806, sum 801",
+   "col 6 'Total(U.Ts.) . .': printed 1788, sum 1058",
+   "col 7 'Total(U.Ts.) . .': printed 420, sum 251",
+   "col 8 'Total(U.Ts.) . .': printed 4232, sum 3587"
+  ],
+  "other_totals_checked": 9,
+  "other_totals_passed": 8
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

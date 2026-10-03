@@ -6,35 +6,53 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "Survey of Crime",
+ "title": "## CHAPTER 1 ## SURVEY OF CRIME ###### 1.1 I.P.C. Crime",
  "listing_title": "Survey of Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-1980.pdf",
  "source_file": "raw/cii/1980/table_chapter/chapter-1-1980.pdf",
  "source_sha256": "5839d12684ca9e8dd353ba10806b8f9d29188235324a8bde622179bee5ce527e",
- "table_no": "",
- "pdf_title": "",
- "row_label": "VOLUME OF CRIME 0 50",
+ "table_no": "1",
+ "pdf_title": "## CHAPTER 1 ## SURVEY OF CRIME ###### 1.1 I.P.C. Crime",
+ "row_label": "Sl. No.",
  "pages": [
-  6
+  1
  ],
- "n_rows": 18,
- "n_cols": 1,
- "n_cells": 18,
+ "n_rows": 12,
+ "n_cols": 4,
+ "n_cells": 47,
  "columns": [
   {
    "col_no": "2",
-   "name": "STATES IN (Per LAKH of POPULATION in1980 ) 100 #50 200 250 300 350",
+   "name": "Year",
    "header": [
-    "STATES IN (Per LAKH of POPULATION in1980 ) 100 #50 200 250 300 350"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Estimated Population in millions (mid-year)",
+   "header": [
+    "Estimated Population in millions (mid-year)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Total cognizable crime under the Indian Penal Code",
+   "header": [
+    "Total cognizable crime under the Indian Penal Code"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Rate of crime per one lakh of population",
+   "header": [
+    "Rate of crime per one lakh of population"
    ]
   }
  ],
- "notes": [
-  "SIKKIM. 4dd2",
-  "PUNJAB [ 73.6"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -42,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

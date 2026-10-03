@@ -75,7 +75,7 @@ checked against them.
 |---|---|---|---|
 | `pdf_text` | PDF with a text layer | ~2000 on | digits copied from the file, not recognised |
 | `excel` | NCRB's own spreadsheets | 2004 on (online tables) | digits copied |
-| `pdf_vlm` | scanned page read by a document AI model (GLM-OCR) | before ~2000 | good, not exact: check against the PDF |
+| `pdf_vlm` | scanned page read by a document AI model (OvisOCR2 on a cloud GPU, see [colab/](colab/README.md); a few by GLM-OCR) | before ~2000 | good, not exact: check against the PDF |
 | `pdf_ocr`, `pdf_mixed` | scanned page read by Tesseract OCR | before ~2000 | best effort: digits can be wrong or missing |
 
 **The totals check.** Wherever NCRB prints `TOTAL (STATES)`, `TOTAL (UTs)`,
@@ -87,7 +87,16 @@ read correctly. Results per table are `checks_total` / `checks_passed`.
 | | Crime in India | ADSI | Prison Statistics |
 |---|---:|---:|---:|
 | Text PDFs & Excel: share of checked totals that match | 99.4% | 99.7% | 99.3% |
-| Scanned volumes (OCR): share that match | 54% | 64% | 56% |
+| Scanned volumes: share that match | 90% | 91% | 95% |
+
+The scanned tier was re-read in October 2026 by OvisOCR2, the document model
+that reproduced the most printed totals in a bake-off on 280 of NCRB's own
+scanned pages (78.9%, against 66.4% for PaddleOCR-VL-1.6). Each scanned file
+keeps whichever reading, Tesseract or a model, matches its printed totals best;
+where neither has a total to check, the model's reading is used. Across the
+scanned years this raised the share of checked totals that match from 57% to
+92%, the number of totals that can be checked at all from 12,838 to 41,009,
+and the tables extracted from 3,818 to 5,123.
 
 Failures in the text tier are mostly NCRB's own totals not adding up, or a
 heading put on the wrong column; in the scanned tier they are misread digits.

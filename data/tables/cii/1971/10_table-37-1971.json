@@ -8,58 +8,65 @@
  "serial": "10",
  "title": "Strength of Armed Police as on 31.12.1971",
  "listing_title": "Strength of Armed Police as on 31.12.1971",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-37-1971.pdf",
  "source_file": "raw/cii/1971/table_content/table-37-1971.pdf",
  "source_sha256": "63f83fef927a6d6948943de16dd2b9226ebcb01c182c211e8a74ff57f23a9f58",
  "table_no": "37",
- "pdf_title": "Strength of Armed Police as on 31-12-71",
- "row_label": "SI. No. / States/U.Ts./Cities",
+ "pdf_title": "72 TABLE 37 Strength of Armed Police as on 31-12-71",
+ "row_label": "Sl. No. / Sl. No. / States/U.Ts./Cities / States/U.Ts./Cities / States/U.Ts./Cities / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 36,
- "n_cols": 5,
- "n_cells": 172,
+ "n_rows": 40,
+ "n_cols": 6,
+ "n_cells": 204,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Number of - | {G, DIsG & S.P.",
+   "col_no": "7",
+   "name": "States/U.Ts./Cities",
    "header": [
-    "Number of -",
-    "{G, DIsG & S.P."
+    "States/U.Ts./Cities"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Number of - | ASsP/ DySsP",
+   "col_no": "8",
+   "name": "Number of | IG, DIsG & S.P.",
    "header": [
-    "Number of -",
+    "Number of",
+    "IG, DIsG & S.P."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Number of | ASsP/ DySsP",
+   "header": [
+    "Number of",
     "ASsP/ DySsP"
    ]
   },
   {
-   "col_no": "5",
-   "name": "Number of - | Inspectors & SIs",
+   "col_no": "10",
+   "name": "Number of | Inspectors & SIs",
    "header": [
-    "Number of -",
+    "Number of",
     "Inspectors & SIs"
    ]
   },
   {
-   "col_no": "6",
-   "name": "Number of - | Officers below the rank of S.Is.",
+   "col_no": "11",
+   "name": "Number of | Officers below the rank of S.Is.",
    "header": [
-    "Number of -",
+    "Number of",
     "Officers below the rank of S.Is."
    ]
   },
   {
-   "col_no": "7",
-   "name": "Total of Col. 3,4,5&6",
+   "col_no": "12",
+   "name": "Total of Col. 3, 4, 5 & 6",
    "header": [
-    "Total of Col. 3,4,5&6"
+    "Total of Col. 3, 4, 5 & 6"
    ]
   }
  ],
@@ -68,8 +75,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 8,
-  "other_totals_passed": 8
+  "other_totals_checked": 13,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

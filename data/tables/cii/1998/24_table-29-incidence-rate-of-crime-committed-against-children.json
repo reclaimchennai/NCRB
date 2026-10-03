@@ -8,20 +8,20 @@
  "serial": "24",
  "title": "Incidence & Rate of Crime Committed Against Children In States and UTs During 1998",
  "listing_title": "Incidence & Rate of Crime Committed Against Children In States and UTs During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-29-incidence-&-rate-of-crime-committed-against-children-in-state-and-uts-during-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-29-incidence-&-rate-of-crime-committed-against-children-in-state-and-uts-during-1998.pdf",
  "source_sha256": "9ce1409ae031b04bed5644a33109afb7112da5103d06a1d555ece1eebb51167c",
  "table_no": "29",
- "pdf_title": "& RATE OF CRIM: Cummil itu AGAINST CHILDREN IN STATES AND UTs DURING 1998",
- "row_label": "STATE/UT SL. NO. a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-29",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 6,
- "n_cells": 201,
+ "n_cells": 204,
  "columns": [
   {
    "col_no": "3",
@@ -52,7 +52,7 @@
    ]
   },
   {
-   "col_no": "1a",
+   "col_no": "7",
    "name": "RANK*",
    "header": [
     "RANK*"
@@ -66,14 +66,10 @@
    ]
   }
  ],
- "notes": [
-  "Note :1 * Rank on the basis of Rate of tote: (Col.6).",
-  "2 ** Rank on the basis of porcemayge {Col.4)",
-  "3 State having 0.00 porcomeys au rats have not been ranked."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

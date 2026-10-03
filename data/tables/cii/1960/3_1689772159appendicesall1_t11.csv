@@ -1,70 +1,35 @@
-section,sl_no,State Persons in custody pending investigation bail during the stage of investigation,Persons incustody pending trial or on bail during the stage of trial,Persons arrested during the year,Persons released by the Police or Magis- before trial,PERSONS | Persons in whose cases chargesheet was laid,PERSONS | Persons convicted,Persons acquitted or discharged,Persons in | Persons against whom cases were or with drawn,Persons in | ding investigationor compounded on bail durof investigation at the end of the year,Appendix—XVI | Personsin custody pen- custody pending trial or on ing the stage the stage of trial at the end of the - year,Appendix—XVI | Percentage of conviction -
-,1,Andhra Pradesh,1404,9219,805,,,,,,,
-,2,Assam,2043,5516,1944,,,,,,,
-,3,Bihar,7679,9922,1660,,,,,,,
-,4,Gujarat,3204,7517,192,,,,,,,
-,5,Jammu & Kashmir,698,466,15,,,,,,,
-,6,Kerala,837,2901,190,,,,,,,
-,7,Madhya Pradesh,6235,13780,503,,,,,,,
-,8,Madras,952,13863,349,,,,,,,
-,9,Maharashtra,10137,18629,1446,,,,,,,
-,10,Mysore,3096,7093,174,,,,,,,
-,11,Orissa,4301,5590,143,,,,,,,
-,12,Punjab,832,2477,222,,,,,,,
-,13,Rajasthan,1867,2612,368,,,,,,,
-,14,Uttar Pradesh,7686,13021,814,,,,,,,
-,15,West Bengal,4651,19070,8586,,,,,,,
-,,TOTAL,55622,131676,17411,,,,,,,
-Union Territories,16,A. &,3,28,,,,,,,,
-Union Territories,17,Delhi,555,1322,,,,,,,,
-Union Territories,18,Himachal Pradesh,70,278,8,,,,,,,
-Union Territories,19,Manipur,222,146,32,,,,,,,
-Union Territories,20,Tripura,124,374,325,,,,,,,
-Union Territories,21,L.M. & A. Islands,,21,az,,,,,,,
-Union Territories,22,Nagaland,21,67,22,,,,,,,
-Union Territories,,TOTAL,997,2236,387,,,,,,,
-Union Territories,,GRAND TOTAL,56619,133912,17798,,,,,,,
-Cities,1,Bangalore,142,1469,a3,,,,,,,
-Cities,2,Bombay,997,4766,369,,,,,,,
-Cities,3,Calcutta,461,5324,2298,,,,,,,
-Cities,4,Delhi,555,1322,,,,,,,,
-Cities,5,Hyderabad,53,1215,6,,,,,,,
-Cities,6,Kanpur,279,490,16,,,,,,,
-Cities,7,Madras,22,1943,ae,,,,,,,
-Cities,8,Ahmedabad,390,747,34,,,,,,,
-Cities,,TOTAL,2899,17276,2723,,,,,,,
-,,,,,,7,8,9,10,1,12,13
-,,,,,,8478,6893,1287,298,303,1354,84.3
-,, [line 2],,,,2889,1573,956,360,265,2576,62.2
-,, [line 3],,,,7961,2474,3798,1689,500,7891,39.4
-,, [line 4],,,,7300,2461,1544,3295,155,3261,61.4
-,, [line 5],,,,283,101,182,,5,870,35.7
-,, [line 6],,,,2537,1375,734,428,124,1078,65.2
-,, [line 7],,,,12516,8916,1677,1923,836,6895,84.2
-,, [line 8],,,,13429,10542,2198,689,121,1100,82.7
-,, [line 9],,,,17202,9477,5255,2470,1299,9597,"64,3"
-,, [line 10],,,,7097,4232,1901,964,286,2841,69.0
-,, [line 11],,,,5176,1833,2254,1089,35,4606,44.8
-,, [line 12],,,,2079,1337,614,128,339,J039,68.5
-,, [line 13],,,,2093,862,496,735,186,1981,63.5
-,, [line 14],,,,12986,7147,5082,757,625,6926,58.4
-,, [line 15],,,,10492,5263,3461,1768,831,4806,60.3
-,,,,,,112518,64486,31439,16593,5900,56821,67.2
-,,,,,,30,26,2,2,as,3,92.9
-,, [line 2],,,,1343,930,348,65,137,564,72.8
-,, [line 3],,,,242,132,59,51,29,70,69.1
-,, [line 4],,,,53,31,12,10,35,293,72.1
-,, [line 5],,,,104,53,37,14,60,190,58.8
-,, [line 6],,,,21,5,16,,es,-,23.8
-,, [line 7],,,,40,34,3,3,22,8,91.9
-,,,,,,1833,1211,477,145,248,1128,71.7
-,,,,,,114351,65697,31916,16738,6148,57949,67.3
-,,,,,,1427,1232,187,8,32,152,86.8
-,, [line 2],,,,3983,2516,1404,63,609,1250,64.2
-,, [line 3],,,,3383,2617,075,61,268,315,78.8
-,, [line 4],,,,1343,930,348,65,137,564,72.8
-,, [line 5],,,,1277,1218,38,21,12,35,97.0
-,, [line 6],,,,470,346,106,18,20,311,76.6
-,, [line 7],,,,1921,1808,99,14,,44,94.8
-,, [line 8],,,,678,362,213,103,12,435,63.0
-,,,,,,14482,11029,3100,353,1090,3106,78.1
+section,sl_no,name,col_3,col_4,col_5,col_6,col_7,col_8
+,1,Andhra Pradesh,..,478,690,6229,1772,5625
+,2,Assam,..,465,988,3803,2241,3015
+,3,Bihar,..,1542,2008,18401,4975,16976
+,4,Gujarat,..,383,1143,5555,1937,5144
+,5,Jammu & Kashmir,,319,1053,862,1417,817
+,6,Kerala,..,310,320,2259,761,2128
+,7,Madhya Pradesh,..,1245,2580,15675,4392,15108
+,8,Madras,..,446,359,7434,1450,6789
+,9,Mysore,..,1435,1708,4555,3501,4197
+,10,Maharashtra,..,1018,3223,10862,4320,10783
+,11,Orissa,..,218,842,4579,1757,3882
+,12,Punjab,..,750,308,3302,1124,3236
+,13,Rajasthan,..,409,1109,4399,1947,3970
+,14,Uttar Pradesh,..,978,2361,14463,3510,14292
+,15,West Bengal,..,642,914,9827,2362,9021
+,,TOTAL,..,10638,19606,112205,37466,104983
+Union Territories,16,A. & N. Islands,..,1,3,32,19,17
+Union Territories,17,Delhi,..,182,103,1198,329,1154
+Union Territories,18,Himachal Pradesh,..,27,31,226,82,202
+Union Territories,19,Manipur,..,35,42,224,134,167
+Union Territories,20,Tripura,..,137,202,609,398,550
+Union Territories,21,L.M. & A Islands,..,..,..,2,..,2
+Union Territories,22,Nagaland,..,7,8,44,16,43
+Union Territories,,TOTAL,..,389,389,2335,978,2135
+Union Territories,,GRAND TOTAL,..,11027,19995,114540,38444,107118
+Cities,1,Bangalore,..,194,96,585,341,534
+Cities,2,Bombay,..,215,142,1682,352,1687
+Cities,3,Calcutta,..,30,43,854,143,784
+Cities,4,Delhi,..,182,103,1198,329,1154
+Cities,5,Hyderabad,..,48,24,585,107,550
+Cities,6,Kanpur,..,33,40,235,87,221
+Cities,7,Madras,..,3,2,146,11,140
+Cities,8,Ahmedabad,..,53,111,475,176,463
+Cities,,TOTAL,..,758,561,5760,1546,5533

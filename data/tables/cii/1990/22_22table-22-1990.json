@@ -8,66 +8,66 @@
  "serial": "22",
  "title": "Persons Arrested under IPC Crimes During 1990 (Crime-Head & Sex-Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1990 (Crime-Head & Sex-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/22table-22-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/22table-22-1990-.pdf",
  "source_sha256": "2995b423111bfa89813b7bb9ecc75cee48f86254d1347ba728dfcb397a6dd4bf",
  "table_no": "22",
- "pdf_title": "PERSONS Arrocsin1s UNDER IPC CRIMES DURING 1990",
- "row_label": "SL. NO. / CRIME",
+ "pdf_title": "100 TABLE-22 PERSONS ARRESTED UNDER IPC CRIMES DURING 1990",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 18,
  "n_cols": 5,
- "n_cells": 88,
+ "n_cells": 90,
  "columns": [
   {
    "col_no": "3",
-   "name": "(CRIME-HEAD HEAD",
+   "name": "MALE",
    "header": [
-    "(CRIME-HEAD HEAD"
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "& MALE",
+   "name": "FEMALE",
    "header": [
-    "& MALE"
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "SEX-WISE) FEMALE",
+   "name": "TOTAL",
    "header": [
-    "SEX-WISE) FEMALE"
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "TOTAL MALE",
+   "name": "PERCENTAGE TO TOTAL | MALE",
    "header": [
-    "TOTAL MALE"
+    "PERCENTAGE TO TOTAL",
+    "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL TO FEMALE",
+   "name": "PERCENTAGE TO TOTAL | FEMALE",
    "header": [
-    "TOTAL TO FEMALE"
+    "PERCENTAGE TO TOTAL",
+    "FEMALE"
    ]
   }
  ],
- "notes": [
-  "Note Percentage less than 0.05 is shown as 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 3,
-  "other_totals_passed": 0
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -8,56 +8,324 @@
  "serial": "4",
  "title": "State wise distribution of Suicides by Causes during 1986",
  "listing_title": "State wise distribution of Suicides by Causes during 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680163581appendix-31986.pdf",
  "source_file": "raw/adsi/1986/table_content/1680163581appendix-31986.pdf",
  "source_sha256": "8d2beabfe4b9ee490af56b63ee4540a59fca94b91b8ae9364c2000c357643408",
  "table_no": "",
- "pdf_title": "",
- "row_label": "- / at",
+ "pdf_title": "APPENDIX-III Statewise Distribution of Suicides By Causes During-1986 40",
+ "row_label": "Sl.No. / States / U.Ts. / Cities",
  "pages": [
-  5
+  1,
+  2,
+  3,
+  5,
+  7
  ],
- "n_rows": 11,
- "n_cols": 5,
- "n_cells": 24,
+ "n_rows": 50,
+ "n_cols": 36,
+ "n_cells": 1120,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Failure in Examination | Male",
+   "header": [
+    "Failure in Examination",
+    "Male"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Failure in Examination | Female",
+   "header": [
+    "Failure in Examination",
+    "Female"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Quarrel with Parents-in-Laws | Male",
+   "header": [
+    "Quarrel with Parents-in-Laws",
+    "Male"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "Quarrel with Parents-in-Laws | Female",
+   "header": [
+    "Quarrel with Parents-in-Laws",
+    "Female"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
+   "name": "Quarrel With Spouse | Male",
+   "header": [
+    "Quarrel With Spouse",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Quarrel With Spouse | Female",
+   "header": [
+    "Quarrel With Spouse",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Poverty | Male",
+   "header": [
+    "Poverty",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Poverty | Female",
+   "header": [
+    "Poverty",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Love Affairs | Male",
+   "header": [
+    "Love Affairs",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Love Affairs | Female",
+   "header": [
+    "Love Affairs",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "State/Union Territories/No. Cities",
+   "header": [
+    "State/Union Territories/No. Cities"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Insanity | Male",
+   "header": [
+    "Insanity",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Insanity | Female",
+   "header": [
+    "Insanity",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Dispute Over Property | Male",
+   "header": [
+    "Dispute Over Property",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Dispute Over Property | Female",
+   "header": [
+    "Dispute Over Property",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Dreadful Diseases | Male",
+   "header": [
+    "Dreadful Diseases",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Dreadful Diseases | Female",
+   "header": [
+    "Dreadful Diseases",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "Unemployment | Male",
+   "header": [
+    "Unemployment",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "Unemployment | Female",
+   "header": [
+    "Unemployment",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "col_10009",
    "header": []
+  },
+  {
+   "col_no": "10010",
+   "name": "States / U. Ts / Cities",
+   "header": [
+    "States / U. Ts / Cities"
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "Bankruptcy Or Sudden Change In Economic Position | Male",
+   "header": [
+    "Bankruptcy Or Sudden Change In Economic Position",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10012",
+   "name": "Death of Dear Persons | Female",
+   "header": [
+    "Death of Dear Persons",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10013",
+   "name": "Fall in Social Reputation | Male",
+   "header": [
+    "Fall in Social Reputation",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10014",
+   "name": "Dowry Dispute | Female",
+   "header": [
+    "Dowry Dispute",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10015",
+   "name": "Illegitimate Pregnancy | Male",
+   "header": [
+    "Illegitimate Pregnancy",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10016",
+   "name": "Female (10016)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10017",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10018",
+   "name": "Female (10018)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10019",
+   "name": "Causes Not Known | Male",
+   "header": [
+    "Causes Not Known",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10020",
+   "name": "Causes Not Known | Female",
+   "header": [
+    "Causes Not Known",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10021",
+   "name": "Other Causes | Male",
+   "header": [
+    "Other Causes",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10022",
+   "name": "Other Causes | Female",
+   "header": [
+    "Other Causes",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10023",
+   "name": "Total | Male",
+   "header": [
+    "Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10024",
+   "name": "Total | Female",
+   "header": [
+    "Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10025",
+   "name": "Grand Total | Male+ Female",
+   "header": [
+    "Grand Total",
+    "Male+ Female"
+   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 51,
+  "cells_passed": 37,
+  "failures": [
+   "col 10001 'TOTAL (STATES)': printed 1186, sum 696",
+   "col 10002 'TOTAL (STATES)': printed 698, sum 814",
+   "col 10003 'TOTAL (STATES)': printed 814, sum 343",
+   "col 10004 'TOTAL (STATES)': printed 343, sum 4368",
+   "col 10005 'TOTAL (STATES)': printed 4375, sum 2744",
+   "col 10006 'TOTAL (STATES)': printed 2748, sum 634",
+   "col 10007 'TOTAL (STATES)': printed 634, sum 134",
+   "col 10009 'TOTAL (STATES)': printed 527, sum 526"
+  ],
+  "other_totals_checked": 10,
+  "other_totals_passed": 10
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 5,
  "warnings": []
 }

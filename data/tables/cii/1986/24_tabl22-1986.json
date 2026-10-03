@@ -1,0 +1,122 @@
+{
+ "table_id": "cii/1986/24_tabl22-1986",
+ "publication": "cii",
+ "year": 1986,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "24",
+ "title": "Persons Arrested by Sex under IPC During 1986",
+ "listing_title": "Persons Arrested by Sex under IPC During 1986",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl22-1986.pdf",
+ "source_file": "raw/cii/1986/table_content/tabl22-1986.pdf",
+ "source_sha256": "9ad860cd5e51bc262887e877a50d4828fb31441f07698597ce542c7d5b87ffd6",
+ "table_no": "22",
+ "pdf_title": "50 TABLE 22 Persons Arrested By Sex Under IPC During 1986",
+ "row_label": "Sl.No. / States/U.Ts/Cities",
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "n_rows": 284,
+ "n_cols": 9,
+ "n_cells": 1847,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Murder | Male",
+   "header": [
+    "Murder",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Murder | Female",
+   "header": [
+    "Murder",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Murder | Total",
+   "header": [
+    "Murder",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Culpable Homicide Not Amounting To Murder | Male",
+   "header": [
+    "Culpable Homicide Not Amounting To Murder",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Culpable Homicide Not Amounting To Murder | Female",
+   "header": [
+    "Culpable Homicide Not Amounting To Murder",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Culpable Homicide Not Amounting To Murder | Total",
+   "header": [
+    "Culpable Homicide Not Amounting To Murder",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Female",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 112,
+  "cells_passed": 76,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 11307, sum 11316",
+   "col 3 'TOTAL (STATES)': printed 40942, sum 40957",
+   "col 3 'TOTAL (STATES)': printed 92302, sum 92323",
+   "col 3 'TOTAL (STATES)': printed 540946, sum 540973",
+   "col 3 'TOTAL (STATES)': printed 20151, sum 20184",
+   "col 4 'TOTAL (STATES)': printed 43, sum 53",
+   "col 4 'TOTAL (STATES)': printed 263, sum 279",
+   "col 4 'TOTAL (STATES)': printed 1783, sum 1805"
+  ],
+  "other_totals_checked": 39,
+  "other_totals_passed": 9
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 7,
+ "warnings": []
+}

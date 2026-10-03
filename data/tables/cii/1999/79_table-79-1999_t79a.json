@@ -6,90 +6,89 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "79",
- "title": "DEATHS IN POLICE CUSTUDY/LOCKUP DURING 1999 (OF PERSONS NOT REMANDED TO POLICE CUSTODY BY COURT)",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 79A",
  "listing_title": "Deaths In Police Custody/Lockup During 1999 (Of Persons Remanded To Police Custody By Court)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-79-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-79-1999.pdf",
  "source_sha256": "e659b9a3467bc9e171969b0ef424f27aa849a016bdab1a9c6df697fde25dae62",
  "table_no": "79A",
- "pdf_title": "DEATHS IN POLICE CUSTUDY/LOCKUP DURING 1999 (OF PERSONS NOT REMANDED TO POLICE CUSTODY BY COURT)",
- "row_label": "STATE/UT SL. NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 79A",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   2
  ],
- "n_rows": 38,
+ "n_rows": 35,
  "n_cols": 7,
- "n_cells": 190,
+ "n_cells": 245,
  "columns": [
   {
-   "col_no": "2",
-   "name": "AUTOPSY MAGISTFRIAI. | DEATH REPORTED",
+   "col_no": "3",
+   "name": "NUMBER OF | DEATH REPORTED",
    "header": [
-    "AUTOPSY MAGISTFRIAI.",
+    "NUMBER OF",
     "DEATH REPORTED"
    ]
   },
   {
-   "col_no": "3",
-   "name": "AUTOPSY MAGISTFRIAI. | CONDUCTED",
-   "header": [
-    "AUTOPSY MAGISTFRIAI.",
-    "CONDUCTED"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "AUTOPSY MAGISTFRIAI. | ENQUIRY - CONDUCTED",
+   "name": "NUMBER OF | AUTOPSY CONDUCTED",
    "header": [
-    "AUTOPSY MAGISTFRIAI.",
-    "ENQUIRY - CONDUCTED"
+    "NUMBER OF",
+    "AUTOPSY CONDUCTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "AUTOPSY MAGISTFRIAI. | NUMBER OF JUDICIAL ENQUIRY CONDUCTED",
+   "name": "NUMBER OF | MAGISTERIAL ENQUIRY ORDERED/ CONDUCTED",
    "header": [
-    "AUTOPSY MAGISTFRIAI.",
-    "NUMBER OF JUDICIAL ENQUIRY CONDUCTED"
+    "NUMBER OF",
+    "MAGISTERIAL ENQUIRY ORDERED/ CONDUCTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "CASES REGD.IN © CONNECTION WITH DEATHS",
+   "name": "NUMBER OF | JUDICIAL ENQUIRY ORDERED/ CONDUCTED",
    "header": [
-    "CASES REGD.IN © CONNECTION WITH DEATHS"
+    "NUMBER OF",
+    "JUDICIAL ENQUIRY ORDERED/ CONDUCTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "POLICEMEN CHARGEsHEKIED",
+   "name": "NUMBER OF | CASES REGD. IN CONNECTION WITH DEATHS",
    "header": [
-    "POLICEMEN CHARGEsHEKIED"
+    "NUMBER OF",
+    "CASES REGD. IN CONNECTION WITH DEATHS"
    ]
   },
   {
    "col_no": "8",
-   "name": "CONVICTED",
+   "name": "NUMBER OF | POLICE-MEN CHARGE-SHEETED",
    "header": [
-    "CONVICTED"
+    "NUMBER OF",
+    "POLICE-MEN CHARGE-SHEETED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NUMBER OF | POLICEMEN CONVICTED",
+   "header": [
+    "NUMBER OF",
+    "POLICEMEN CONVICTED"
    ]
   }
  ],
- "notes": [
-  "TOTAL (ALL-INDIA) 2) OM 30 2; i 8. 2"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 1,
-  "failures": [
-   "col 6 'TOTAL (UTs)': printed 4, sum 0"
-  ],
+  "cells_checked": 21,
+  "cells_passed": 21,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

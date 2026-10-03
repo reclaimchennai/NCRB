@@ -8,78 +8,93 @@
  "serial": "98",
  "title": "Organisational Setup During 1999",
  "listing_title": "Organisational Setup During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-98-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-98-1999.pdf",
  "source_sha256": "f2cc17faeed11d28e596a6b1eec3bcb523f7465578b15877e8573efa86ed7eea",
  "table_no": "98",
- "pdf_title": "ORGANISATIONAL SETUP DURING 1999",
- "row_label": "STATE/UT SL. NO. Q)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 98",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
- "n_cols": 6,
- "n_cells": 208,
+ "n_cols": 8,
+ "n_cells": 280,
  "columns": [
   {
-   "col_no": "4",
-   "name": "STATE/UT | ZONES @)",
+   "col_no": "3",
+   "name": "NUMBER OF | ZONES",
    "header": [
-    "STATE/UT",
-    "ZONES @)"
+    "NUMBER OF",
+    "ZONES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF | RANGES",
+   "header": [
+    "NUMBER OF",
+    "RANGES"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF | POLICE DISTRICTS",
+   "header": [
+    "NUMBER OF",
+    "POLICE DISTRICTS"
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBE t OF | RANGES POLICE DISTKICIS",
+   "name": "NUMBER OF | SUB DIVISIONS",
    "header": [
-    "NUMBE t OF",
-    "RANGES POLICE DISTKICIS"
+    "NUMBER OF",
+    "SUB DIVISIONS"
    ]
   },
   {
    "col_no": "7",
-   "name": "NUMBE t OF | SUB DIVISIONS ©",
+   "name": "NUMBER OF | CIRCLES",
    "header": [
-    "NUMBE t OF",
-    "SUB DIVISIONS ©"
+    "NUMBER OF",
+    "CIRCLES"
    ]
   },
   {
    "col_no": "8",
-   "name": "NUMBE t OF | CIRCLES RURAL POLICE STATIONS",
+   "name": "NUMBER OF | RURAL POLICE STATIONS",
    "header": [
-    "NUMBE t OF",
-    "CIRCLES RURAL POLICE STATIONS"
+    "NUMBER OF",
+    "RURAL POLICE STATIONS"
    ]
   },
   {
    "col_no": "9",
-   "name": "NUMBE t OF | URBAN POLICE STATIONS",
+   "name": "NUMBER OF | URBAN POLICE STATIONS",
    "header": [
-    "NUMBE t OF",
+    "NUMBER OF",
     "URBAN POLICE STATIONS"
    ]
   },
   {
    "col_no": "10",
-   "name": "WOMEN POLICE STATIONS",
+   "name": "NUMBER OF | WOMEN POLICE STATIONS",
    "header": [
+    "NUMBER OF",
     "WOMEN POLICE STATIONS"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 13,
-  "cells_passed": 9,
+  "cells_checked": 24,
+  "cells_passed": 22,
   "failures": [
-   "col 4 'TOTAL (UTs)': printed 40, sum 14",
-   "col 4 'TOTAL (ALL-INDIA)': printed 102177, sum 101213",
-   "col 6 'TOTAL STATES': printed 621, sum 611",
-   "col 7 'TOTAL (ALL-INDIA)': printed 1.71628e+07, sum 1.66579e+07"
+   "col 4 'TOTAL (UTs)': printed 0, sum 4",
+   "col 4 'TOTAL (ALL-INDIA)': printed 177, sum 173"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -8,149 +8,161 @@
  "serial": "40",
  "title": "Juveniles Apprehended under Different IPC Crime Heads During 1989 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended under Different IPC Crime Heads During 1989 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-42-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-42-1989-1.pdf",
  "source_sha256": "9b7f9575feb8e8ca44464f99d4a2829ea9d45ca67cc9f9fa9ae2a4e75d702a35",
  "table_no": "42",
- "pdf_title": "JUVENILES APPREHENDED UNDER DIFFERENT IPC (STATE, UT & CITY-WISE)",
- "row_label": "SL. STATE/UT/CITY NO.",
+ "pdf_title": "152 TABLE-42 JUVENILES APPREHENDED UNDER DIFFERENT IPC (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
- "n_rows": 93,
- "n_cols": 15,
- "n_cells": 619,
+ "n_rows": 94,
+ "n_cols": 18,
+ "n_cells": 843,
  "columns": [
   {
-   "col_no": "2",
+   "col_no": "3",
    "name": "MURDER",
    "header": [
     "MURDER"
    ]
   },
   {
-   "col_no": "3",
+   "col_no": "4",
    "name": "ATTEMPT TO COMMIT MURDER",
    "header": [
     "ATTEMPT TO COMMIT MURDER"
    ]
   },
   {
-   "col_no": "4",
-   "name": "C.H.NOT AMOUNTING TO MURDER",
+   "col_no": "5",
+   "name": "C. H. NOT AMOUNT-ING TO MURDER",
    "header": [
-    "C.H.NOT AMOUNTING TO MURDER"
+    "C. H. NOT AMOUNT-ING TO MURDER"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "6",
    "name": "RAPE",
    "header": [
     "RAPE"
    ]
   },
   {
-   "col_no": "6",
-   "name": "KIDNAPPING een nnn nnn TOTAL OF &",
-   "header": [
-    "KIDNAPPING een nnn nnn TOTAL OF &"
-   ]
-  },
-  {
    "col_no": "7",
-   "name": "& WOMEN",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
    "header": [
-    "& WOMEN"
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "ABDUCTION ee OF OTHERS",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS",
    "header": [
-    "ABDUCTION ee OF OTHERS"
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS"
    ]
   },
   {
    "col_no": "9",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS"
+   ]
+  },
+  {
+   "col_no": "10",
    "name": "DACOITY",
    "header": [
     "DACOITY"
    ]
   },
   {
-   "col_no": "14",
-   "name": "HEADS ROBBERY AND (12>",
+   "col_no": "12",
+   "name": "ROBBERY",
    "header": [
-    "HEADS ROBBERY AND (12>"
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "THEFT",
+   "header": [
+    "THEFT"
    ]
   },
   {
    "col_no": "15",
-   "name": "DURING BURGLARY",
-   "header": [
-    "DURING BURGLARY"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "1989 THEFT CRIMINAL BREACH OF TRUST",
-   "header": [
-    "1989 THEFT CRIMINAL BREACH OF TRUST"
-   ]
-  },
-  {
-   "col_no": "17",
    "name": "RIOTS",
    "header": [
     "RIOTS"
    ]
   },
   {
-   "col_no": "18",
-   "name": "TABLE-42 | COUNTERCHEATING FEITING",
+   "col_no": "16",
+   "name": "CRIMINAL BREACH OF TRUST",
    "header": [
-    "TABLE-42",
-    "COUNTERCHEATING FEITING"
+    "CRIMINAL BREACH OF TRUST"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CHEATING",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "COUNTER-FEITING",
+   "header": [
+    "COUNTER-FEITING"
    ]
   },
   {
    "col_no": "19",
-   "name": "TABLE-42 | OTHER IPC CRIMES",
+   "name": "OTHER IPC CRIMES",
    "header": [
-    "TABLE-42",
     "OTHER IPC CRIMES"
    ]
   },
   {
    "col_no": "20",
-   "name": "(concld) TOTAL SL NO CoG. CRIMES UNDER IPC ql)",
+   "name": "TOTAL COG. CRIMES UNDER IPC",
    "header": [
-    "(concld) TOTAL SL NO CoG. CRIMES UNDER IPC ql)"
+    "TOTAL COG. CRIMES UNDER IPC"
+   ]
+  },
+  {
+   "col_no": "1",
+   "name": "SL NO",
+   "header": [
+    "SL NO"
    ]
   }
  ],
- "notes": [
-  "44 PUNE ° 2 ° ° ° 0",
-  "’ 21—108 NCRB/91"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 21,
-  "cells_passed": 15,
-  "failures": [
-   "col 2 'TOTAL (STATES)': printed 397, sum 548",
-   "col 3 'TOTAL (STATES)': printed 241, sum 285",
-   "col 5 'TOTAL (STATES)': printed 193, sum 199",
-   "col 6 'TOTAL (STATES)': printed 165, sum 172",
-   "col 8 'TOTAL (STATES)': printed 31, sum 40",
-   "col 9 'TOTAL (STATES)': printed 249, sum 259"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

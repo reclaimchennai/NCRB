@@ -8,40 +8,245 @@
  "serial": "3",
  "title": "State wise distribution of Suicides by Means Adopted during 1988",
  "listing_title": "State wise distribution of Suicides by Means Adopted during 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680163862appendix-41988.pdf",
  "source_file": "raw/adsi/1988/table_content/1680163862appendix-41988.pdf",
  "source_sha256": "97f2eac23df589eb185cb9f741e2540aaeed7dc28028bfb52b55aceacf4571dd",
  "table_no": "",
- "pdf_title": "SO",
- "row_label": ", if / nu .& a / nw © a / I “un un aw noir",
+ "pdf_title": "50 State-Wise Distribution Of Suicides By Means Adopted During 1988 APPENDIX-IV",
+ "row_label": "Sl. No. / States/UTs/Cities",
  "pages": [
-  1
+  1,
+  2,
+  3,
+  4
  ],
- "n_rows": 7,
- "n_cols": 1,
- "n_cells": 7,
+ "n_rows": 49,
+ "n_cols": 27,
+ "n_cells": 1296,
  "columns": [
   {
-   "col_no": "5",
-   "name": "90 wo an g",
+   "col_no": "3",
+   "name": "By Railways M",
    "header": [
-    "90 wo an g"
+    "By Railways M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "F (4)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "By Machine M",
+   "header": [
+    "By Machine M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "F (6)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "By Fire M (7)",
+   "header": [
+    "By Fire M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Arms F",
+   "header": [
+    "Arms F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "By Weapons M",
+   "header": [
+    "By Weapons M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "F (10)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "By Poison M",
+   "header": [
+    "By Poison M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "F (12)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "By Fire M (13)",
+   "header": [
+    "By Fire M"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "F (14)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "By Drowning M",
+   "header": [
+    "By Drowning M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "F (16)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "By Hanging | M",
+   "header": [
+    "By Hanging",
+    "M"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "By Hanging | F",
+   "header": [
+    "By Hanging",
+    "F"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "By Jumping | M",
+   "header": [
+    "By Jumping",
+    "M"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "By Jumping | F",
+   "header": [
+    "By Jumping",
+    "F"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "By Taking Sleeping Pills | M",
+   "header": [
+    "By Taking Sleeping Pills",
+    "M"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "By Taking Sleeping Pills | F",
+   "header": [
+    "By Taking Sleeping Pills",
+    "F"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "By Touching Electric Wire | M",
+   "header": [
+    "By Touching Electric Wire",
+    "M"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "By Touching Electric Wire | F",
+   "header": [
+    "By Touching Electric Wire",
+    "F"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "Other Causes | M",
+   "header": [
+    "Other Causes",
+    "M"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "Other Causes | F",
+   "header": [
+    "Other Causes",
+    "F"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "Total | M",
+   "header": [
+    "Total",
+    "M"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "Total | F",
+   "header": [
+    "Total",
+    "F"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "Grand Total | Male+F",
+   "header": [
+    "Grand Total",
+    "Male+F"
    ]
   }
  ],
- "notes": [
-  "G2 22 =>"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 95,
+  "cells_passed": 85,
+  "failures": [
+   "col 17 'TOTAL (STATES)': printed 10458, sum 10444",
+   "col 18 'TOTAL (STATES)': printed 5174, sum 5172",
+   "col 19 'TOTAL (STATES)': printed 258, sum 255",
+   "col 20 'TOTAL (STATES)': printed 192, sum 191",
+   "col 23 'TOTAL (STATES)': printed 302, sum 299",
+   "col 25 'TOTAL (STATES)': printed 6020, sum 6008",
+   "col 26 'TOTAL (STATES)': printed 3068, sum 3058",
+   "col 27 'TOTAL (STATES)': printed 37098, sum 37024"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

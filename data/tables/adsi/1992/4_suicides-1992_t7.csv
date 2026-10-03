@@ -1,17 +1,17 @@
-section,sl_no,(State & UT-wise) State/UT,(State & UT-wise) | Number of Suicides,(State & UT-wise) | Percentage Share in Total Suicides,(State & UT-wise) | Estimated Mid-Year Population {In Lakh),(State & UT-wise) | Rate of Suicides {Col.3/Col.5)
+section,sl_no,State/UT,Number of Suicides,Percentage Share in Total Suicides,Estimated Mid-Year Population (In Lakh),Rate of Suicides [Col.3/Col.5]
 States:,1,Andhra Pradesh,6525,8.1,681.3,9.6
-States:,,2: Arunachal Pradesh,82,0.1,8.9,9.2
-States:,3,Assam,2967,,230.8,12.9
-States:,4,Biher,1236,1.5,889.8,1.4
-States:,,§.,174,0.2,12.0,14.5
+States:,2,Arunachal Pradesh,82,0.1,8.9,9.2
+States:,3,Assam,2967,3.7,230.8,12.9
+States:,4,Bihar,1236,1.5,889.8,1.4
+States:,5,Gca,174,0.2,12.0,14.5
 States:,6,Gujarat,3542,4.4,423.3,8.4
-States:,7,Haryana,6388,0.9,169.7,4.1
+States:,7,Haryana,698,0.9,169.7,4.1
 States:,8,Himachal Pradesh,136,0.2,53.0,2.6
 States:,9,Jammu & Kashmir,59,0.1,79.5,0.7
-States:,10,Karnataka,8136,10.2,459.5,1i2
-States:,,Ws Kerala,8103,10.1,296.6,27.3
+States:,10,Karnataka,8136,10.2,459.5,17.7
+States:,11,Kerala,8103,10.1,296.6,27.3
 States:,12,Madhya Pradesh,7230,9.0,680.3,10.6
-States:,13,Maharashtra,,11.3,810.2,11.2
+States:,13,Maharashtra,9058,11.3,810.3,11.2
 States:,14,Manipur,34,0.0,18.9,1.8
 States:,15,Meghalaya,70,0.1,18.3,3.8
 States:,16,Mizoram,3,0.0,7.2,0.4
@@ -21,55 +21,39 @@ States:,19,Punjab,511,0.6,207.0,2.5
 States:,20,Rajasthan,2251,2.8,453.0,5.0
 States:,21,Sikkim,47,0.1,4.2,11.2
 States:,22,Tamil Nadu,7981,10.0,566.3,14.1
-States:,,23; Tripura,422,0.5,28.4,14.9
+States:,23,Tripura,422,0.5,28.4,14.9
 States:,24,Uttar Pradesh,3324,4.1,1425.1,2.3
 States:,25,West Bengal,12797,16.0,696.6,18.4
-States:,,TOTAL (States),78561,98.0,8557.2,9.2
-Union Territories:,26,A &N Islands,125,0.2,2.9,43.1
-Union Territories:,27,Chandigarh,37,0.9,6.8,5.4
+States:,,Total (States),78561,98.0,8557.2,9.2
+Union Territories:,26,A & N Islands,125,0.2,2.9,43.1
+Union Territories:,27,Chandigarh,37,0.0,6.8,5.4
 Union Territories:,28,D & N Haveli,43,0.1,1.4,30.7
-Union Territories:,29,Daman & Diu,11,0.0,1.9,11.0
-Union Territories:,30,Dathi,787,1.0,98.7,8.0
+Union Territories:,29,Daman & Diu,11,0.0,1.0,11.0
+Union Territories:,30,Delhi,787,1.0,98.7,8.0
 Union Territories:,31,Lakshadweep,0,0.0,0.5,0.0
 Union Territories:,32,Pondicherry,585,0.7,8.3,70.5
-Union Territories:,,TOTAL (UTs),1588,2.0,119.6,13.3
-Union Territories:,,TOTAL (All-India),80149,100.0,8676.8,9.2
+Union Territories:,,Total (UTs),1588,2.0,119.6,13.3
+Union Territories:,,Total (All-India),80149,100.0,8676.8,9.2
 Cities:,33,Ahmedabad,334,0.4,33.9,9.9
-Cities:,34,Bangalore,+311,1.6,42.0,31.2
+Cities:,34,Bangalore,1311,1.6,42.0,31.2
 Cities:,35,Bhopal,61,0.1,11.0,5.5
-Cities:,36,Bombay,1186,1.5,130.0,3.1
+Cities:,36,Bombay,1186,1.5,130.0,9.1
 Cities:,37,Calcutta,237,0.3,111.7,2.1
 Cities:,38,Coimbatore,220,0.3,11.6,19.0
 Cities:,39,Delhi,601,0.7,87.9,6.8
 Cities:,40,Hyderabad,518,0.6,44.3,11.7
 Cities:,41,Indore,272,0.3,11.4,23.9
 Cities:,42,Jaipur,175,0.2,15.7,11.1
-Cities:,43,Kanpur,701,0.9,ZA7,32.3
-Cities:,,"44, Kochi",225,0.3,11.8,191
+Cities:,43,Kanpur,701,0.9,21.7,32.3
+Cities:,44,Kochi,225,0.3,11.8,19.1
 Cities:,45,Lucknow,158,0.2,17.0,9.3
 Cities:,46,Ludhiana,7,0.0,10.4,0.7
 Cities:,47,Madras,537,0.7,54.6,9.8
 Cities:,48,Madurai,270,0.3,11.1,24.3
 Cities:,49,Nagpur,306,0.4,17.1,17.9
-Cities:,50,Patna,NR,-,11.3,
+Cities:,50,Patna,NR,-,11.3,-
 Cities:,51,Pune,345,0.4,25.7,13.4
 Cities:,52,Surat,230,0.3,15.7,14.6
 Cities:,53,Vadodara,57,0.1,11.5,5.0
-Cities:,54,Varanasi,NR,,10.5,-
-Cities:,55,Vishaknapatnam,177,0.2,10.9,16.2
-,1,Pondicherry,70.5,1,Arunachal Pradesh,9.2
-,2,A & N Islands,43.1,2,Gujarai,8.4
-,3,D & N Haveli,30.7,3,Delhi,8.0
-,4,Kerala,27.3,4,Chandigarh,5.4
-,5,West Bengal,18.4,5,Rajasthan,5.0
-,6,Karnataka,17.7,6,Haryana,4.1
-,7,Tripura,14.9,7,Meghalaya,3.8
-,8,Goa,14.8,&.,Nagaland,2.8
-,9,Tami) Nadu,14.1,9,Himachai Pradesh,2.6
-,,10.Assam,12.9,,10.Punjab,Dost
-,,11.Maharashtra,11.2,{1.Uttar,Pradesh,
-,,12.Sikkim,11.2,,12.Manipur,1.8
-,,13.Daman & Diu,11.0,13,,1.4
-,,14.Madhya Pradesh,10.6,,14.Jammu & Kashmir,0.7
-,,15.Orissa,9.7,,)5.Mizoram,0.4
-,,1¢.Andhra Pradesh,9.6,,16.Lakshadweep,0.0
+Cities:,54,Varanasi,NR,-,10.5,-
+Cities:,55,Vishakhapatnam,177,0.2,10.9,16.2

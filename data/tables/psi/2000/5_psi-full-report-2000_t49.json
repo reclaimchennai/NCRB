@@ -6,61 +6,95 @@
  "topic": "",
  "section": "PSI Year Wise 2000",
  "serial": "5",
- "title": "DETAILS OF EXPENSES ON INMATES DURING 20600-2001",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-49",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2000.pdf",
  "source_file": "raw/psi/2000/year_wise/psi-full-report-2000.pdf",
  "source_sha256": "171376686bd1e431ac947c0d86c5141722a1e13fb54bb5c1347bbf9500133c70",
  "table_no": "49",
- "pdf_title": "DETAILS OF EXPENSES ON INMATES DURING 20600-2001",
- "row_label": "INMATE LATION / - / CLOTH G) / EXPENS3S (RS. IN LAKHS)",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-49",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   155
  ],
- "n_rows": 3,
- "n_cols": 4,
- "n_cells": 10,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 312,
  "columns": [
   {
-   "col_no": "7",
-   "name": "EXPENS3S (RS. IN LAKHS) | VOCATTIONAL",
+   "col_no": "3",
+   "name": "INMATE POPULATION",
    "header": [
-    "EXPENS3S (RS. IN LAKHS)",
-    "VOCATTIONAL"
+    "INMATE POPULATION"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "EXPENSES (RS. IN LAKHS) | FOOD",
+   "header": [
+    "EXPENSES (RS. IN LAKHS)",
+    "FOOD"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "EXPENSES (RS. IN LAKHS) | CLOTH-ING",
+   "header": [
+    "EXPENSES (RS. IN LAKHS)",
+    "CLOTH-ING"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EXPENSES (RS. IN LAKHS) | MEDI-CAL",
+   "header": [
+    "EXPENSES (RS. IN LAKHS)",
+    "MEDI-CAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "EXPENSES (RS. IN LAKHS) | VOCAT-IONAL/EDUCA-TIONAL",
+   "header": [
+    "EXPENSES (RS. IN LAKHS)",
+    "VOCAT-IONAL/EDUCA-TIONAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "EXPENS3S (RS. IN LAKHS) | WEL-",
+   "name": "EXPENSES (RS. IN LAKHS) | WEL-FARE ACTIV-IITIES",
    "header": [
-    "EXPENS3S (RS. IN LAKHS)",
-    "WEL-"
+    "EXPENSES (RS. IN LAKHS)",
+    "WEL-FARE ACTIV-IITIES"
    ]
   },
   {
    "col_no": "9",
-   "name": "OTHERS",
+   "name": "EXPENSES (RS. IN LAKHS) | OTHERS",
    "header": [
+    "EXPENSES (RS. IN LAKHS)",
     "OTHERS"
    ]
   },
   {
    "col_no": "10",
-   "name": "EXPENDI- - TURE INMATE PER TOTAL 7 ay.",
+   "name": "EXPENSES (RS. IN LAKHS) | TOTAL",
    "header": [
-    "EXPENDI- - TURE INMATE PER TOTAL 7 ay."
+    "EXPENSES (RS. IN LAKHS)",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "EXPENDI-TURE PER INMATE (IN Rs. ONLY)",
+   "header": [
+    "EXPENDI-TURE PER INMATE (IN Rs. ONLY)"
    ]
   }
  ],
- "notes": [
-  "- aT",
-  "- “ORD ge",
-  "\"320490 ~=~—«dSS50S",
-  "TOTAL (ALLINDIA) —-261237.0-—«12807.7.=S=S«#927.4.=«468.3——S—S—269.8—237.2=S«d769.0S=—«iNTATIVL",
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

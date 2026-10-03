@@ -8,113 +8,88 @@
  "serial": "35",
  "title": "Juvenile Delinquency (IPC) under Different Crime Heads & Various Percentage Changes During 1990",
  "listing_title": "Juvenile Delinquency (IPC) under Different Crime Heads & Various Percentage Changes During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/35table-35-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/35table-35-1990-.pdf",
  "source_sha256": "8c6d957cf2d5a943434d83db143164e5c00b3d561e55121125435516bb434cfe",
  "table_no": "35",
- "pdf_title": "JUVENILE DELINQUENCY (IPC) UNDER virrexenr CRIME HEADS & VARIOUS rencenraGE CHANGES DURING 1990",
- "row_label": "SL. NO. / CRIME",
+ "pdf_title": "138 TABLE-35 JUVENILE DELINQUENCY (IPC) UNDER DIFFERENT CRIME HEADS & VARIOUS PERCENTAGE CHANGES DURING 1990",
+ "row_label": "PERCENTAGE CHANGE IN1990 **[(+) INCREASE (-) DECREASE]OVER",
  "pages": [
   1,
+  2,
   2
  ],
- "n_rows": 26,
+ "n_rows": 19,
  "n_cols": 11,
- "n_cells": 194,
+ "n_cells": 200,
  "columns": [
   {
    "col_no": "3",
-   "name": "HEAD 1980",
-   "header": [
-    "HEAD 1980"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "1985",
-   "header": [
-    "1985"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "1986",
-   "header": [
-    "1986"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "1987",
-   "header": [
-    "1987"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "1988",
-   "header": [
-    "1988"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "1989",
-   "header": [
-    "1989"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "HEAD NIAL 1985-1989 (Q.A.)",
-   "header": [
-    "HEAD NIAL 1985-1989 (Q.A.)"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "QUTNOUENAVG.",
-   "header": [
-    "QUTNOUENAVG."
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "1990 1980",
-   "header": [
-    "1990 1980"
-   ]
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "1990 TNCREASE ((+) OVER Q.A.",
-   "header": [
-    "1990 TNCREASE ((+) OVER Q.A."
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "IN CHANGE dad (-) 1989",
-   "header": [
-    "IN CHANGE dad (-) 1989"
-   ]
+   "name": "col_13",
+   "header": []
   }
  ],
- "notes": [
-  "* INDICATES THAT THE CRIME HEAD WAS INTRODUCED IN 1988",
-  "** DATA FOR 1987 AND EARLIER YEARS ARE NOT AT ALL COMPARABLE WITH 1988 ONWARDS",
-  "DUE TO CHANGE IN THE DEFINITION OF JUVENILES FROM 1988."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 3,
-  "other_totals_passed": 2
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

@@ -8,88 +8,94 @@
  "serial": "38",
  "title": "Juveniles Apprehended under IPC & LSL Crimes by Age Group 1979-1989",
  "listing_title": "Juveniles Apprehended under IPC & LSL Crimes by Age Group 1979-1989",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-40-1989-1.pdf",
  "source_sha256": "8f4e7c1585c994f66f33d85276c3215d89805fff391f2b23297660ce13a8739e",
  "table_no": "40",
- "pdf_title": "",
- "row_label": "SL. YEAR No. ql)",
+ "pdf_title": "150 TABLE-40 JUVENILES APPREHENDED UNDER IPC & LSL CRIMES BY AGE GROUP 1979-1989",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
  "n_rows": 13,
- "n_cols": 8,
- "n_cells": 98,
+ "n_cols": 10,
+ "n_cells": 120,
  "columns": [
   {
-   "col_no": "3",
-   "name": "JUVENILES 7-120 YEARS",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "JUVENILES 7-120 YEARS"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "7-12 YEARS",
+   "header": [
+    "7-12 YEARS"
    ]
   },
   {
    "col_no": "4",
-   "name": "- TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL (4)",
    "header": [
-    "- TO TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "- 12-16 YEARS",
+   "name": "12-16 YEARS",
    "header": [
-    "- 12-16 YEARS"
+    "12-16 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER 1979-1989 TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL (6)",
    "header": [
-    "UNDER 1979-1989 TO TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "BY AGE IPC 16-18 9 YEARS",
+   "name": "16-18 YEARS",
    "header": [
-    "BY AGE IPC 16-18 9 YEARS"
+    "16-18 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "& GROUP TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL (8)",
    "header": [
-    "& GROUP TO TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "LSL 18-21 YEARS",
+   "name": "18-21 YEARS",
    "header": [
-    "LSL 18-21 YEARS"
+    "18-21 YEARS"
    ]
   },
   {
    "col_no": "10",
-   "name": "CRIMES OVERALL AGE TO GROUP TOTAL",
+   "name": "PERCENTAGE TO TOTAL (10)",
    "header": [
-    "CRIMES OVERALL AGE TO GROUP TOTAL"
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "OVERALL AGE GROUP",
+   "header": [
+    "OVERALL AGE GROUP"
    ]
   }
  ],
  "notes": [
-  "IN 1989 OVER 1988",
-  "Notes: 1. 7-12 years means 7 years and above but below 12 years",
-  "of age etc.",
-  "2. In 1988, as per new definition of juvenile 16-18 age",
-  "group .contain only girls and 18-21 age group is not",
-  "ag juveniles at all. For 16-18 age group",
-  "and for overall age group, percentage change in",
-  "1989 over 1979 is not worked out due to non-",
-  "comparability of data."
+  "IN 1989 OVER 1988"
  ],
  "checks": {
   "cells_checked": 0,

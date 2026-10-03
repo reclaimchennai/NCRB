@@ -8,13 +8,13 @@
  "serial": "50",
  "title": "Persons Arrested under Local & Special Laws During 1987",
  "listing_title": "Persons Arrested under Local & Special Laws During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_24-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_24-1987.pdf",
  "source_sha256": "2f586e23857faee61798a8c736f1185a3b24aae88bfc3245381055ec14312db4",
  "table_no": "24",
- "pdf_title": "Persons Arrested Under Local & Special Laws During 1987",
+ "pdf_title": "89 TABLE-24 Persons Arrested Under Local & Special Laws During 1987",
  "row_label": "SL. NO. / STATES/UTs/CITIES",
  "pages": [
   1,
@@ -22,9 +22,9 @@
   3,
   4
  ],
- "n_rows": 74,
+ "n_rows": 48,
  "n_cols": 13,
- "n_cells": 617,
+ "n_cells": 624,
  "columns": [
   {
    "col_no": "3",
@@ -35,23 +35,23 @@
   },
   {
    "col_no": "4",
-   "name": "N.D.& SUB.",
+   "name": "N. D. & PSY SUB. ACT",
    "header": [
-    "N.D.& SUB."
+    "N. D. & PSY SUB. ACT"
    ]
   },
   {
    "col_no": "5",
-   "name": "PSY ACT",
+   "name": "GAMBLING ACT",
    "header": [
-    "PSY ACT"
+    "GAMBLING ACT"
    ]
   },
   {
    "col_no": "6",
-   "name": "EXCISE GAMRILTNG ACT ACT",
+   "name": "EXCISE ACT",
    "header": [
-    "EXCISE GAMRILTNG ACT ACT"
+    "EXCISE ACT"
    ]
   },
   {
@@ -63,16 +63,16 @@
   },
   {
    "col_no": "8",
-   "name": "EXLOSTVES AND EXPLOSIVE SUB.",
+   "name": "EXLOSIVES AND EXPLOSIVE SUB. ACT",
    "header": [
-    "EXLOSTVES AND EXPLOSIVE SUB."
+    "EXLOSIVES AND EXPLOSIVE SUB. ACT"
    ]
   },
   {
    "col_no": "9",
-   "name": "IMMORAL TRAFFIC (FNS VENT LUN) ACT ACT",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT",
    "header": [
-    "IMMORAL TRAFFIC (FNS VENT LUN) ACT ACT"
+    "IMMORAL TRAFFIC (PREVENTION) ACT"
    ]
   },
   {
@@ -84,33 +84,30 @@
   },
   {
    "col_no": "11",
-   "name": "CUSTOMS | OF CORRUPTION ACT",
+   "name": "PREVENTION OF CORRUP-TION ACT",
    "header": [
-    "CUSTOMS",
-    "OF CORRUPTION ACT"
+    "PREVENTION OF CORRUP-TION ACT"
    ]
   },
   {
    "col_no": "12",
-   "name": "CUSTOMS | ACT",
+   "name": "CUSTOMS ACT",
    "header": [
-    "CUSTOMS",
-    "ACT"
+    "CUSTOMS ACT"
    ]
   },
   {
    "col_no": "13",
-   "name": "CUSTOMS | INDIAN RAILWAYS ACT",
+   "name": "INDIAN RAILWAYS ACT",
    "header": [
-    "CUSTOMS",
     "INDIAN RAILWAYS ACT"
    ]
   },
   {
    "col_no": "14",
-   "name": "OTHER",
+   "name": "OTHER OFFENCES",
    "header": [
-    "OTHER"
+    "OTHER OFFENCES"
    ]
   },
   {
@@ -123,20 +120,14 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 29,
-  "cells_passed": 10,
+  "cells_checked": 33,
+  "cells_passed": 31,
   "failures": [
-   "col 3 'TOTAL (States)': printed 55119, sum 55759",
-   "col 7 'TOTAL (States)': printed 501425, sum 343053",
-   "col 7 'TOTAL (Cities)': printed 48400, sum 35007",
-   "col 8 'TOTAL (States)': printed 3779, sum 3512",
-   "col 8 'TOTAL (Cities)': printed 271, sum 279",
-   "col 9 'TOTAL (States)': printed 15960, sum 14500",
-   "col 9 'TOTAL (Cities)': printed 5055, sum 4506",
-   "col 10 'TOTAL (States)': printed 1.4427e+06, sum 1.33135e+06"
+   "col 9 'Total(Cities)': printed 5055, sum 5056",
+   "col 14 'Total(UTs)': printed 10325, sum 1895"
   ],
-  "other_totals_checked": 10,
-  "other_totals_passed": 7
+  "other_totals_checked": 11,
+  "other_totals_passed": 10
  },
  "inferred_pages": 0,
  "ocr_pages": 4,

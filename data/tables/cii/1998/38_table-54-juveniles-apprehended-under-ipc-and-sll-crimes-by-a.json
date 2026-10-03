@@ -8,74 +8,73 @@
  "serial": "38",
  "title": "Juveniles Apprehended Under IPC and SSL Crimes by Age Groups & Sex During 1998",
  "listing_title": "Juveniles Apprehended Under IPC and SSL Crimes by Age Groups & Sex During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-54--juveniles-apprehended-under-ipc-and-sll-crimes-by-age-groups-&-sex-during-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-54--juveniles-apprehended-under-ipc-and-sll-crimes-by-age-groups-&-sex-during-1998.pdf",
  "source_sha256": "5561a46b6da30a51e86c522200035b938c8b359100b8bb02203626cf08552539",
  "table_no": "54",
- "pdf_title": "",
- "row_label": "SL. No. / CRIME HEAD",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-54",
+ "row_label": "SL NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 49,
+ "n_rows": 48,
  "n_cols": 8,
- "n_cells": 332,
+ "n_cells": 384,
  "columns": [
   {
    "col_no": "3",
-   "name": "- | AGE GROUPS & SEX DURING 1998 BOYS",
+   "name": "7 - 12 YEARS | BOYS",
    "header": [
-    "-",
-    "AGE GROUPS & SEX DURING 1998 BOYS"
+    "7 - 12 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "- | 7 - 12 YEARS GIRLS",
+   "name": "7 - 12 YEARS | GIRLS",
    "header": [
-    "-",
-    "7 - 12 YEARS GIRLS"
+    "7 - 12 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "5",
-   "name": "[PC AND S11! BOYS",
+   "name": "12-16 YEARS | BOYS",
    "header": [
-    "[PC AND S11! BOYS"
+    "12-16 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "6",
-   "name": "py | 12-16 YEARS GIRLS",
+   "name": "12-16 YEARS | GIRLS",
    "header": [
-    "py",
-    "12-16 YEARS GIRLS"
+    "12-16 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "7",
-   "name": "py | 16-18 YEARS GIRLS ONLY",
+   "name": "16-18 YEARS | GIRLS ONLY",
    "header": [
-    "py",
-    "16-18 YEARS GIRLS ONLY"
+    "16-18 YEARS",
+    "GIRLS ONLY"
    ]
   },
   {
    "col_no": "8",
-   "name": "py | OVERALL AGE GROUP | BOYS",
+   "name": "OVERALL AGE GROUP | BOYS",
    "header": [
-    "py",
     "OVERALL AGE GROUP",
     "BOYS"
    ]
   },
   {
    "col_no": "9",
-   "name": "py | OVERALL AGE GROUP | GIRLS",
+   "name": "OVERALL AGE GROUP | GIRLS",
    "header": [
-    "py",
     "OVERALL AGE GROUP",
     "GIRLS"
    ]
@@ -93,8 +92,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 20,
-  "other_totals_passed": 17
+  "other_totals_checked": 24,
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

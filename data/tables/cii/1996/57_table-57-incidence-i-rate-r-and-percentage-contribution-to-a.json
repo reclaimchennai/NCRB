@@ -8,37 +8,36 @@
  "serial": "57",
  "title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Women During 1994",
  "listing_title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Women During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-57--incidence-(i)-rate-(r)-and-percentage-contribution-to-all-india-(p)-of-crimes-committed-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-57--incidence-(i)-rate-(r)-and-percentage-contribution-to-all-india-(p)-of-crimes-committed-1996.pdf",
  "source_sha256": "74ffd3683647804ab279127887b6c0fb51c7c5dc15de98769553d885ad07c6cb",
  "table_no": "57",
- "pdf_title": "INCIDENCE (1), RATE (R) AND PERCENTAGE CONTRIBUTION TO ALL INDIA (P) OF CRIMES COMMITTED AGAINST WOMEN DURING 1994",
- "row_label": "SL, NO. / STATE/UT",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-57",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 91,
- "n_cols": 27,
- "n_cells": 649,
+ "n_rows": 70,
+ "n_cols": 36,
+ "n_cells": 1260,
  "columns": [
   {
    "col_no": "3",
-   "name": "RAPE | ESTIMATED MID YEAR (IN LAKHS)",
+   "name": "ESTI-MATED MID YEAR POPULATION (IN LAKHS)",
    "header": [
-    "RAPE",
-    "ESTIMATED MID YEAR (IN LAKHS)"
+    "ESTI-MATED MID YEAR POPULATION (IN LAKHS)"
    ]
   },
   {
    "col_no": "4",
-   "name": "RAPE | \\",
+   "name": "RAPE | I",
    "header": [
     "RAPE",
-    "\\"
+    "I"
    ]
   },
   {
@@ -51,54 +50,50 @@
   },
   {
    "col_no": "6",
-   "name": "RAPE | Pp",
+   "name": "RAPE | P",
    "header": [
     "RAPE",
-    "Pp"
+    "P"
    ]
   },
   {
    "col_no": "7",
-   "name": "DOWRY DEATHS | RAPE | KIDNAPPING & ABDUCTION | \\",
+   "name": "KIDNAPPING & ABDUCTION | I",
    "header": [
-    "DOWRY DEATHS",
-    "RAPE",
     "KIDNAPPING & ABDUCTION",
-    "\\"
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "DOWRY DEATHS | RAPE | KIDNAPPING & ABDUCTION | R",
+   "name": "KIDNAPPING & ABDUCTION | R",
    "header": [
-    "DOWRY DEATHS",
-    "RAPE",
     "KIDNAPPING & ABDUCTION",
     "R"
    ]
   },
   {
    "col_no": "9",
-   "name": "DOWRY DEATHS | Pp",
+   "name": "KIDNAPPING & ABDUCTION | P",
    "header": [
-    "DOWRY DEATHS",
-    "Pp"
+    "KIDNAPPING & ABDUCTION",
+    "P"
    ]
   },
   {
    "col_no": "10",
-   "name": "DOWRY DEATHS | i",
+   "name": "DOWRY DEATHS | I",
    "header": [
     "DOWRY DEATHS",
-    "i"
+    "I"
    ]
   },
   {
    "col_no": "11",
-   "name": "DOWRY DEATHS | oR",
+   "name": "DOWRY DEATHS | R",
    "header": [
     "DOWRY DEATHS",
-    "oR"
+    "R"
    ]
   },
   {
@@ -111,29 +106,34 @@
   },
   {
    "col_no": "13",
-   "name": "DOWRY DEATHS | TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES) | \\",
+   "name": "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES) | I",
    "header": [
-    "DOWRY DEATHS",
     "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)",
-    "\\"
+    "I"
    ]
   },
   {
    "col_no": "14",
-   "name": "DOWRY DEATHS | TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES) | R",
+   "name": "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES) | R",
    "header": [
-    "DOWRY DEATHS",
     "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)",
     "R"
    ]
   },
   {
    "col_no": "15",
-   "name": "DOWRY DEATHS | TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES) | Pp",
+   "name": "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES) | P",
    "header": [
-    "DOWRY DEATHS",
     "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)",
-    "Pp"
+    "P"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "MOLESTATION | I",
+   "header": [
+    "MOLESTATION",
+    "I"
    ]
   },
   {
@@ -154,9 +154,10 @@
   },
   {
    "col_no": "19",
-   "name": "EVE-TEASING",
+   "name": "EVE-TEASING | I",
    "header": [
-    "EVE-TEASING"
+    "EVE-TEASING",
+    "I"
    ]
   },
   {
@@ -169,97 +170,160 @@
   },
   {
    "col_no": "21",
-   "name": "IMPORTING OF GIRLS | P",
+   "name": "EVE-TEASING | P",
    "header": [
-    "IMPORTING OF GIRLS",
+    "EVE-TEASING",
     "P"
    ]
   },
   {
    "col_no": "22",
-   "name": "IMPORTING OF GIRLS | (UPT'O 21 \\ (22)",
+   "name": "IMPORTING OF GIRLS (UPTO 21 YEARS) | I",
    "header": [
-    "IMPORTING OF GIRLS",
-    "(UPT'O 21 \\"
+    "IMPORTING OF GIRLS (UPTO 21 YEARS)",
+    "I"
    ]
   },
   {
    "col_no": "23",
-   "name": "IMPORTING OF GIRLS | (UPT'O 21 \\ (23)",
+   "name": "IMPORTING OF GIRLS (UPTO 21 YEARS) | R",
    "header": [
-    "IMPORTING OF GIRLS",
-    "(UPT'O 21 \\"
-   ]
-  },
-  {
-   "col_no": "24",
-   "name": "IMPORTING OF GIRLS | R",
-   "header": [
-    "IMPORTING OF GIRLS",
+    "IMPORTING OF GIRLS (UPTO 21 YEARS)",
     "R"
    ]
   },
   {
-   "col_no": "25",
-   "name": "- SATI-PREVENTION ACT | P (25)",
+   "col_no": "24",
+   "name": "IMPORTING OF GIRLS (UPTO 21 YEARS) | P",
    "header": [
-    "- SATI-PREVENTION ACT",
+    "IMPORTING OF GIRLS (UPTO 21 YEARS)",
     "P"
    ]
   },
   {
-   "col_no": "26",
-   "name": "- SATI-PREVENTION ACT | R",
+   "col_no": "25",
+   "name": "SATI-PREVENTION ACT | I",
    "header": [
-    "- SATI-PREVENTION ACT",
+    "SATI-PREVENTION ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "SATI-PREVENTION ACT | R",
+   "header": [
+    "SATI-PREVENTION ACT",
     "R"
    ]
   },
   {
    "col_no": "27",
-   "name": "- SATI-PREVENTION ACT | P (27)",
+   "name": "SATI-PREVENTION ACT | P",
    "header": [
-    "- SATI-PREVENTION ACT",
+    "SATI-PREVENTION ACT",
     "P"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "TOTAL | DOWRY PROHIBITION ACT 1 R P R (29) (35) (37) (36)",
+   "col_no": "30",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | R",
    "header": [
-    "TOTAL",
-    "DOWRY PROHIBITION ACT 1 R P R (29) (35) (37) (36)"
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "R"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "TOTAL | P R - (30) (38)",
+   "col_no": "31",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | P",
    "header": [
-    "TOTAL",
-    "P R - (30) (38)"
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "P"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "STATE/UT REPRESENTATION OF WOMEN (PROHIBITION) ACT R P (31) (39) (2) STATES:",
+   "col_no": "32",
+   "name": "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT | I",
    "header": [
-    "STATE/UT REPRESENTATION OF WOMEN (PROHIBITION) ACT R P (31) (39) (2) STATES:"
+    "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT | R",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT | P",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "DOWRY PROHIBITION ACT | I",
+   "header": [
+    "DOWRY PROHIBITION ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "DOWRY PROHIBITION ACT | R",
+   "header": [
+    "DOWRY PROHIBITION ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "DOWRY PROHIBITION ACT | P",
+   "header": [
+    "DOWRY PROHIBITION ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "TOTAL | I",
+   "header": [
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
+    "P"
    ]
   }
  ],
- "notes": [
-  "SOURCE” ‘MONTHLY CRIME STATISTICS’ EXCLUDING COL.35 WHICH IS BASED ON CRIME IN INDIA.",
-  "TOTAL (ALLINDIA) 24117 27! 100.0 10496 1.2 1000: 167: 00: 1000: 2: 0.0; 1000",
-  "SOURCE” ‘MONTHLY CRIME STATISTICS’ EXCLUDING COL.35 WHICH IS BASED ON CRIME IN INDIA,"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 24,
+  "cells_passed": 23,
+  "failures": [
+   "col 19 'TOTAL (STATES)': printed 9968, sum 9963"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 3,
  "warnings": []
 }

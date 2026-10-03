@@ -6,70 +6,96 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "DISTRIBUTION OF UNDERTRIALS IN JAILS - STATE/UT-WISE AT THE END OF 1999",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-9",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "9",
- "pdf_title": "DISTRIBUTION OF UNDERTRIALS IN JAILS - STATE/UT-WISE AT THE END OF 1999",
- "row_label": "gi, NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-9",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   74
  ],
- "n_rows": 32,
- "n_cols": 5,
- "n_cells": 115,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
-   "col_no": "2",
+   "col_no": "3",
    "name": "CENTRAL JAIL",
    "header": [
     "CENTRAL JAIL"
    ]
   },
   {
-   "col_no": "3",
+   "col_no": "4",
    "name": "DISTRICT JAIL",
    "header": [
     "DISTRICT JAIL"
    ]
   },
   {
-   "col_no": "4",
-   "name": "JAIL JAIL",
-   "header": [
-    "JAIL JAIL"
-   ]
-  },
-  {
    "col_no": "5",
-   "name": "cranes | WOMEN SPECIAL JAIL JAIL",
+   "name": "SUB JAIL",
    "header": [
-    "cranes",
-    "WOMEN SPECIAL JAIL JAIL"
+    "SUB JAIL"
    ]
   },
   {
    "col_no": "6",
-   "name": "cranes | SCHOOL",
+   "name": "WOMEN JAIL",
    "header": [
-    "cranes",
-    "SCHOOL"
+    "WOMEN JAIL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BORSTAL SCHOOL",
+   "header": [
+    "BORSTAL SCHOOL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OPEN JAIL",
+   "header": [
+    "OPEN JAIL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "SPECIAL JAIL",
+   "header": [
+    "SPECIAL JAIL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OTHERS",
+   "header": [
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 27,
+  "cells_passed": 27,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

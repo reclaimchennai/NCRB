@@ -8,69 +8,92 @@
  "serial": "58",
  "title": "Actual Police Strength During 1972",
  "listing_title": "Actual Police Strength During 1972",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1972.pdf",
  "source_file": "raw/cii/1972/table_content/table-60-1972.pdf",
  "source_sha256": "2995059b085abc9fc18838259837e9f252e7b63844a85c3e3d50e565c5ac357c",
- "table_no": "",
- "pdf_title": "L3i",
- "row_label": "- Ki 9 I Prodesh 2oAgmam 1 4 S / - Ki 3 © Haryana",
+ "table_no": "60",
+ "pdf_title": "131 TABLE 60 Actual Police strength during 1972",
+ "row_label": "Sl. No. / States/U.Ts.",
  "pages": [
   1
  ],
- "n_rows": 15,
- "n_cols": 6,
- "n_cells": 68,
+ "n_rows": 22,
+ "n_cols": 10,
+ "n_cells": 220,
  "columns": [
   {
    "col_no": "3",
-   "name": "Tare oo | Eulimated Lt nk Genin 4 376,754 - «9",
+   "name": "Area in Sq. kilometer",
    "header": [
-    "Tare oo",
-    "Eulimated Lt nk Genin 4 376,754 - «9"
+    "Area in Sq. kilometer"
    ]
   },
   {
    "col_no": "4",
-   "name": "Tare oo | Aemal Police | i - erie under LBC. § 49,014 9 30,320 L95984 44,222",
+   "name": "Estimated mid-year population in 1000",
    "header": [
-    "Tare oo",
-    "Aemal Police",
-    "i - erie under LBC. § 49,014 9 30,320 L95984 44,222"
+    "Estimated mid-year population in 1000"
    ]
   },
   {
    "col_no": "5",
-   "name": "Tare oo | Aemal Police | Civil 5 3B 44,471 B.A, 15,912 ST BTS 24 10,517",
+   "name": "Total Cognizable crime under I.P.C.",
    "header": [
-    "Tare oo",
-    "Aemal Police",
-    "Civil 5 3B 44,471 B.A, 15,912 ST BTS 24 10,517"
+    "Total Cognizable crime under I.P.C."
    ]
   },
   {
    "col_no": "6",
-   "name": "Tare oo | of Amed 1 6249 16ST 9,004",
+   "name": "Actual Strength of Policies | Civil",
    "header": [
-    "Tare oo",
-    "of Amed 1 6249 16ST 9,004"
+    "Actual Strength of Policies",
+    "Civil"
    ]
   },
   {
    "col_no": "7",
-   "name": "Tare oo | £972 Tatal % 927 2heo7* 48 34406 43,170 11,70 #216",
+   "name": "Actual Strength of Policies | Armed",
    "header": [
-    "Tare oo",
-    "£972 Tatal % 927 2heo7* 48 34406 43,170 11,70 #216"
+    "Actual Strength of Policies",
+    "Armed"
    ]
   },
   {
    "col_no": "8",
-   "name": "Tare oo | Mo. af a ape ioe, F.C. chil Cates per then per of bo 100 10 per Total Area Police palice 12 9 i it 1 iO-1 fo1 16-2. BLA. 4-9 M.A, 27 78-5 a6 22 28°T 1-7 no 13-7 78:6 1-0 2414",
+   "name": "Actual Strength of Policies | Total",
    "header": [
-    "Tare oo",
-    "Mo. af a ape ioe, F.C. chil Cates per then per of bo 100 10 per Total Area Police palice 12 9 i it 1 iO-1 fo1 16-2. BLA. 4-9 M.A, 27 78-5 a6 22 28°T 1-7 no 13-7 78:6 1-0 2414"
+    "Actual Strength of Policies",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "No. of police men per 100 km. Area",
+   "header": [
+    "No. of police men per 100 km. Area"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "No. of police men per 10,000 of population",
+   "header": [
+    "No. of police men per 10,000 of population"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "No. of I.P.C. Cases per civil police men",
+   "header": [
+    "No. of I.P.C. Cases per civil police men"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Percentage of Civil Police to Total Police",
+   "header": [
+    "Percentage of Civil Police to Total Police"
    ]
   }
  ],
@@ -79,10 +102,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

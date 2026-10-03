@@ -8,47 +8,54 @@
  "serial": "11",
  "title": "Percentage Distribution of Cognizable Crimes (LSL) under Different Crime Heads 1986-1990",
  "listing_title": "Percentage Distribution of Cognizable Crimes (LSL) under Different Crime Heads 1986-1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/11table-11-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/11table-11-1990-.pdf",
  "source_sha256": "71ede2f880d7bca6a836dd6b6fbf2d6c19c93432a745f941a766d7400dd174ea",
  "table_no": "11",
- "pdf_title": "",
- "row_label": "SL. NO. / CRIME / DISTRIBUTION UNDER 1986-1990 HEAD",
+ "pdf_title": "72 TABLE-11 PERCENTAGE DISTRIBUTION OF COGNIZABLE CRIMES (LSL)",
+ "row_label": "NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 18,
- "n_cols": 4,
- "n_cells": 66,
+ "n_rows": 17,
+ "n_cols": 5,
+ "n_cells": 85,
  "columns": [
   {
-   "col_no": "4",
-   "name": "OF Dirrenenr 1986",
+   "col_no": "3",
+   "name": "1986",
    "header": [
-    "OF Dirrenenr 1986"
+    "1986"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1987",
+   "header": [
+    "1987"
    ]
   },
   {
    "col_no": "5",
-   "name": "COGNTZARLE CRIME 1987",
+   "name": "1988",
    "header": [
-    "COGNTZARLE CRIME 1987"
+    "1988"
    ]
   },
   {
    "col_no": "6",
-   "name": "HEADS 1988",
+   "name": "1989",
    "header": [
-    "HEADS 1988"
+    "1989"
    ]
   },
   {
    "col_no": "7",
-   "name": "1989 1990",
+   "name": "1990",
    "header": [
-    "1989 1990"
+    "1990"
    ]
   }
  ],

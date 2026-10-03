@@ -8,43 +8,41 @@
  "serial": "1",
  "title": "Percentage distribution of Suicides by Means Adopted during 1990 (State, UT & City-wise)",
  "listing_title": "Percentage distribution of Suicides by Means Adopted during 1990 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680164287appendix-71990.pdf",
  "source_file": "raw/adsi/1990/table_content/1680164287appendix-71990.pdf",
  "source_sha256": "de745ab80c425166218831c04502412215abb22c4a664fdf5173a0cd041f90de",
  "table_no": "",
- "pdf_title": "APPENDIX - VII Percentage Distribution Of Suicides By Means Adopted",
- "row_label": "Sl. No. / State/UT/City",
+ "pdf_title": "68 APPENDIX - VII Percentage Distribution Of Suicides By Means Adopted During 1990",
+ "row_label": "Sl. State/UT/City No.",
  "pages": [
   1,
   2
  ],
- "n_rows": 52,
+ "n_rows": 47,
  "n_cols": 13,
- "n_cells": 602,
+ "n_cells": 611,
  "columns": [
   {
    "col_no": "3",
-   "name": "During | (State, By Railways",
+   "name": "By Railways",
    "header": [
-    "During",
-    "(State, By Railways"
+    "By Railways"
    ]
   },
   {
    "col_no": "4",
-   "name": "During | UT By Machine",
+   "name": "By Machine",
    "header": [
-    "During",
-    "UT By Machine"
+    "By Machine"
    ]
   },
   {
    "col_no": "5",
-   "name": "1990 & City-wise) By Firearm",
+   "name": "By Firearm",
    "header": [
-    "1990 & City-wise) By Firearm"
+    "By Firearm"
    ]
   },
   {
@@ -105,9 +103,9 @@
   },
   {
    "col_no": "14",
-   "name": "By Other feans",
+   "name": "By Other Means",
    "header": [
-    "By Other feans"
+    "By Other Means"
    ]
   },
   {
@@ -118,10 +116,7 @@
    ]
   }
  ],
- "notes": [
-  "ere",
-  "MGIPF--583 NCRB/92—1.600."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

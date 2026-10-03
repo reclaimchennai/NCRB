@@ -8,101 +8,97 @@
  "serial": "4",
  "title": "Incidence of Traffic Accidents during various Quarters of 1998 (State, UT & City-wise)",
  "listing_title": "Incidence of Traffic Accidents during various Quarters of 1998 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-9_1998.pdf",
  "source_file": "raw/adsi/1998/table_content/table-9_1998.pdf",
  "source_sha256": "c65c73e7cb5299803ee7502e170ea7a4b36f6a9e8cea6f57ecc9787eca9e5d03",
  "table_no": "9",
- "pdf_title": "Incidence of Traffic Accidents During Various Quarters of 1998 (State , UT & City-wise)",
- "row_label": "State/UT",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) TABLE-9",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
   1
  ],
- "n_rows": 51,
+ "n_rows": 59,
  "n_cols": 10,
- "n_cells": 463,
+ "n_cells": 590,
  "columns": [
   {
    "col_no": "3",
-   "name": "-",
+   "name": "1st Qtr.",
    "header": [
-    "-"
+    "1st Qtr."
    ]
   },
   {
    "col_no": "4",
-   "name": "Ist Qtr.",
+   "name": "%share (4)",
    "header": [
-    "Ist Qtr."
+    "%share"
    ]
   },
   {
    "col_no": "5",
-   "name": "%share (5)",
+   "name": "llnd Qtr",
    "header": [
-    "%share"
+    "llnd Qtr"
    ]
   },
   {
    "col_no": "6",
-   "name": "Ind Qtr",
+   "name": "%share (6)",
    "header": [
-    "Ind Qtr"
+    "%share"
    ]
   },
   {
    "col_no": "7",
-   "name": "%share (7)",
+   "name": "llrd Qtr.",
    "header": [
-    "%share"
+    "llrd Qtr."
    ]
   },
   {
    "col_no": "8",
-   "name": "Qtr.",
+   "name": "%share (8)",
    "header": [
-    "Qtr."
+    "%share"
    ]
   },
   {
    "col_no": "9",
-   "name": "%share (9)",
+   "name": "lVth Qtr.",
    "header": [
-    "%share"
+    "lVth Qtr."
    ]
   },
   {
    "col_no": "10",
-   "name": "Vth Qtr.",
-   "header": [
-    "Vth Qtr."
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "%share (11)",
+   "name": "%share (10)",
    "header": [
     "%share"
    ]
   },
   {
-   "col_no": "12",
-   "name": "%share Total",
+   "col_no": "11",
+   "name": "Total",
    "header": [
-    "%share Total"
+    "Total"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "%share (12)",
+   "header": [
+    "%share"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (States)': printed 74714, sum 223841",
-   "col 3 '‘TOTAL (UTs) 0': printed 2983, sum 944",
-   "col 3 '‘TOTAL (Cities)': printed 42753, sum 9013"
-  ],
+  "cells_checked": 20,
+  "cells_passed": 20,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

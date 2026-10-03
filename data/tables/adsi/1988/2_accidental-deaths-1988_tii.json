@@ -6,63 +6,58 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1988",
  "serial": "2",
- "title": "(Concid.)",
+ "title": "large variation in the volume of accidental deaths in the different States, Union Territories and Metropolitan Cities, the difference in topography, density of population, density of traffic and level of industrialisation appear to have contributed to the phenomenon. 1.2.3. Among the States, Goa reported the highest volume of accidental deaths per lakh of population (50.9) and the Manipur the lowest (5.8). Among the Union Territories, the highest volume of accidental deaths per lakh of population was recorded in Pondicherry (58.5), while the lowest in Lakshadweep (6.7). Among the Metropolitan Cities, the highest volume of accidental deaths per lakh of population was registered in Bombay (82.1) and the lowest (7.5) in Pune. 1.2.4. The details are presented in Table-II.",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1988.pdf",
  "source_file": "raw/adsi/1988/year_wise/accidental-deaths-1988.pdf",
  "source_sha256": "11f848adfeee55b1446a5d0c736ac84cfaa8f117caff5a86de074b588e2a28c2",
  "table_no": "II",
- "pdf_title": "(Concid.)",
- "row_label": "TABL Tactaence Per Sl. No. / TABL Lakh States/UTs/Cities",
+ "pdf_title": "large variation in the volume of accidental deaths in the different States, Union Territories and Metropolitan Cities, the difference in topography, density of population, density of traffic and level of industrialisation appear to have contributed to the phenomenon. 1.2.3. Among the States, Goa reported the highest volume of accidental deaths per lakh of population (50.9) and the Manipur the lowest (5.8). Among the Union Territories, the highest volume of accidental deaths per lakh of population was recorded in Pondicherry (58.5), while the lowest in Lakshadweep (6.7). Among the Metropolitan Cities, the highest volume of accidental deaths per lakh of population was registered in Bombay (82.1) and the lowest (7.5) in Pune. 1.2.4. The details are presented in Table-II.",
+ "row_label": "Sl. No. / States/UTs/Cities",
  "pages": [
   5,
   6
  ],
  "n_rows": 48,
  "n_cols": 4,
- "n_cells": 177,
+ "n_cells": 192,
  "columns": [
   {
    "col_no": "3",
-   "name": "TABL | Of Of Number Of Accidental Deaths",
+   "name": "Number Of Accidental Deaths",
    "header": [
-    "TABL",
-    "Of Of Number Of Accidental Deaths"
+    "Number Of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "TABL | Volume Deaths, And To All India Total During The Year Percentage To Total",
+   "name": "Percentage To Total",
    "header": [
-    "TABL",
-    "Volume Deaths, And To All India Total During The Year Percentage To Total"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "TABL | Deaths Of Disuiuuun Of Deaths 1988 Volume Of Population Accidental In (000) Deaths Per Lakh Of Population (S)",
-   "header": [
-    "TABL",
-    "Deaths Of Disuiuuun Of Deaths 1988 Volume Of Population Accidental In (000) Deaths Per Lakh Of Population (S)"
+    "Percentage To Total"
    ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Population In (000)",
+   "header": [
+    "Population In (000)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Volume Of Accidental Deaths Per Lakh Of Population",
+   "header": [
+    "Volume Of Accidental Deaths Per Lakh Of Population"
+   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 5,
-  "failures": [
-   "col 3 'TOTAL (States)': printed 158696, sum 158606",
-   "col 5 'TOTAL (States)': printed 786335, sum 341915",
-   "col 5 'TOTAL (UTs)': printed 10261, sum 9621"
-  ],
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

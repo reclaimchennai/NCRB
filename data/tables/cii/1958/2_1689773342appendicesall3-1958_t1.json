@@ -6,60 +6,55 @@
  "topic": "",
  "section": "Crime in India 1958",
  "serial": "2",
- "title": "TOTAL",
+ "title": "TOTAL COGNIZABL 14",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689773342appendicesall3-1958.pdf",
  "source_file": "raw/cii/1958/year_wise/1689773342appendicesall3-1958.pdf",
  "source_sha256": "d35bbadad8fc7f23824e783a174270881e9162b2a2aefcd94076bb12d23f4372",
  "table_no": "",
- "pdf_title": "TOTAL",
- "row_label": "Sr. State No.",
+ "pdf_title": "TOTAL COGNIZABL 14",
+ "row_label": "Sr. No. / State",
  "pages": [
   2
  ],
- "n_rows": 32,
+ "n_rows": 31,
  "n_cols": 5,
- "n_cells": 159,
+ "n_cells": 155,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Cases re- | Cases pendinginvestigation from previous year",
-   "header": [
-    "Cases re-",
-    "Cases pendinginvestigation from previous year"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Cases re- | Cases pendingdispocourt",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Cases re-",
-    "Cases pendingdispocourt"
+    "Cases pending investigation from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases re- | ing the year",
+   "name": "Cases pending disposal in court",
    "header": [
-    "Cases re-",
-    "ing the year"
+    "Cases pending disposal in court"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases re- | Cases not investigated, declared false or mistake of fact or law, or nop-cognizable and pending investigation or trial",
+   "name": "Cases reported during the year",
    "header": [
-    "Cases re-",
-    "Cases not investigated, declared false or mistake of fact or law, or nop-cognizable and pending investigation or trial"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases re- | Cases not detected",
+   "name": "Cases not investigated, declared false or mistake of fact or law, or non-cognizable and pending investigation or trial",
    "header": [
-    "Cases re-",
+    "Cases not investigated, declared false or mistake of fact or law, or non-cognizable and pending investigation or trial"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases not detected",
+   "header": [
     "Cases not detected"
    ]
   }
@@ -69,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "other_totals_checked": 20,
+  "other_totals_passed": 19
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

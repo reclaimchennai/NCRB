@@ -6,74 +6,68 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "25",
- "title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES, UTs & CITY WISE DURING 1997",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE - 5",
  "listing_title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States, UTs & City Wise During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-5-1996-crime-survey.pdf",
  "source_sha256": "2975fd35102a746cbf81256e31ec6b969e9d2db1fb7cbc6ade1e1dcddcf8d297",
  "table_no": "5",
- "pdf_title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES, UTs & CITY WISE DURING 1997",
- "row_label": "SL. STATE/UT/CITY NO. (4) STATIS:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE - 5",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 58,
+ "n_rows": 59,
  "n_cols": 5,
- "n_cells": 280,
+ "n_cells": 291,
  "columns": [
   {
-   "col_no": "2",
-   "name": "INCIDENCE OF TOTAL COG. CRIMES (2)",
-   "header": [
-    "INCIDENCE OF TOTAL COG. CRIMES (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL (3)",
+   "name": "INCIDENCE OF TOTAL COG. CRIMES",
    "header": [
-    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL (3)"
+    "INCIDENCE OF TOTAL COG. CRIMES"
    ]
   },
   {
    "col_no": "4",
-   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS) (4)",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL",
    "header": [
-    "ESTIMATED MID-YEAR POPULATION (IN LAKHS) (4)"
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "RATE OF TOTAL COG. CRIMES (5)",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "RATE OF TOTAL COG. CRIMES (5)"
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
    ]
   },
   {
    "col_no": "6",
-   "name": "RANK OF* CRIMINALITY (6) (7)",
+   "name": "RATE OF TOTAL COG. CRIMES",
    "header": [
-    "RANK OF* CRIMINALITY (6) (7)"
+    "RATE OF TOTAL COG. CRIMES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "RANK OF* CRIMINALITY",
+   "header": [
+    "RANK OF* CRIMINALITY"
    ]
   }
  ],
- "notes": [
-  "Note: 1 * Rank on the basis of Rate of total cognizable crimes (Col.6) in cities.",
-  "2 Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 0,
-  "failures": [
-   "col 2 '- TOTAL (UTs)': printed 66711, sum 3.27993e+06",
-   "col 2 '‘TOTAL (CITIES)': printed 264947, sum 229122"
-  ],
+  "cells_checked": 4,
+  "cells_passed": 4,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

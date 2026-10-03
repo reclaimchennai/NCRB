@@ -8,79 +8,83 @@
  "serial": "30",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1994",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table78-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table78-1994_2.pdf",
  "source_sha256": "8819dc86a182d3cee9762e50405a1ff7c10c6b200c1085e1ceeb96a3c0820d00",
  "table_no": "78",
- "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF",
- "row_label": "OCCURRENCE DURING 1994 PLACE OF SL. NO. a) / OCCURRENCE DURING 1994 DACOITY OCCURRENCE NUMBER",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA-1994 TABLE-78",
+ "row_label": "SL. NO. / PLACE OF OCCURRENCE",
  "pages": [
   1
  ],
  "n_rows": 8,
- "n_cols": 7,
- "n_cells": 56,
+ "n_cols": 8,
+ "n_cells": 64,
  "columns": [
   {
-   "col_no": "4",
-   "name": "OCCURRENCE DURING 1994 | VALUE (4)",
+   "col_no": "3",
+   "name": "DACOITY | NUMBER",
    "header": [
-    "OCCURRENCE DURING 1994",
+    "DACOITY",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DACOITY | VALUE",
+   "header": [
+    "DACOITY",
     "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "OCCURRENCE DURING 1994 | ROBBERY NUMBER",
+   "name": "ROBBERY | NUMBER",
    "header": [
-    "OCCURRENCE DURING 1994",
-    "ROBBERY NUMBER"
+    "ROBBERY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "OCCURRENCE DURING 1994 | VALUE (6)",
+   "name": "ROBBERY | VALUE",
    "header": [
-    "OCCURRENCE DURING 1994",
+    "ROBBERY",
     "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "OCCURRENCE DURING 1994 | BURGLARY | NUMBER",
+   "name": "BURGLARY | NUMBER",
    "header": [
-    "OCCURRENCE DURING 1994",
     "BURGLARY",
     "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "OCCURRENCE DURING 1994 | BURGLARY | - VALUE",
+   "name": "BURGLARY | VALUE",
    "header": [
-    "OCCURRENCE DURING 1994",
     "BURGLARY",
-    "- VALUE"
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "OCCURRENCE DURING 1994 | (Rs. in lakh) | NUMBER",
+   "name": "THEFT | NUMBER",
    "header": [
-    "OCCURRENCE DURING 1994",
-    "(Rs. in lakh)",
+    "THEFT",
     "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "OCCURRENCE DURING 1994 | (Rs. in lakh) | THEFT VALUE",
+   "name": "THEFT | VALUE",
    "header": [
-    "OCCURRENCE DURING 1994",
-    "(Rs. in lakh)",
-    "THEFT VALUE"
+    "THEFT",
+    "VALUE"
    ]
   }
  ],
@@ -89,8 +93,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

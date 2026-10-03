@@ -8,107 +8,108 @@
  "serial": "71",
  "title": "Sanctioned And Actual Strength of Armed Police as on 31.12.1992 (Women only)",
  "listing_title": "Sanctioned And Actual Strength of Armed Police as on 31.12.1992 (Women only)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-71-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-71-1992-survey.pdf",
  "source_sha256": "33c19e889f7b2794a7e86a8ef7d8c81f3e81e1f2924c474126fb8bbd684d4ce9",
  "table_no": "71",
- "pdf_title": "AND ACTUAL sixsnGin OF ARMED POLICE",
- "row_label": "SL. NO. / STATE/UT",
+ "pdf_title": "309 TABLE-71 SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE",
+ "row_label": "SL. STATE/UT NO.",
  "pages": [
   1,
   2
  ],
  "n_rows": 58,
  "n_cols": 10,
- "n_cells": 428,
+ "n_cells": 579,
  "columns": [
   {
    "col_no": "3",
-   "name": "DG/IG/DIG/sP | SANCTIONED",
+   "name": "DG/IG/DIG/SP | SANC-TIONED",
    "header": [
-    "DG/IG/DIG/sP",
-    "SANCTIONED"
+    "DG/IG/DIG/SP",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "DG/IG/DIG/sP | ACTUAL",
+   "name": "DG/IG/DIG/SP | ACTUAL",
    "header": [
-    "DG/IG/DIG/sP",
+    "DG/IG/DIG/SP",
     "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "AS ASP SANCTIONED",
+   "name": "ASP & DSP | SANC-TIONED",
    "header": [
-    "AS ASP SANCTIONED"
+    "ASP & DSP",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "ON (WOMEN & ACTUAL",
+   "name": "ASP & DSP | ACTUAL",
    "header": [
-    "ON (WOMEN & ACTUAL"
+    "ASP & DSP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "31.12.1992 ONLY) DSP INSPECTOR, A.S.1I. SANCTIONED",
+   "name": "INSPECTOR, SI & A.S.I. | SANC-TIONED",
    "header": [
-    "31.12.1992 ONLY) DSP INSPECTOR, A.S.1I. SANCTIONED"
+    "INSPECTOR, SI & A.S.I.",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "8",
-   "name": "SI ACTUAL",
+   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
    "header": [
-    "SI ACTUAL"
+    "INSPECTOR, SI & A.S.I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "& As8<I% TIONED",
+   "name": "OFFICERS BELOW A.S.I. | SANC-TIONED",
    "header": [
-    "& As8<I% TIONED"
+    "OFFICERS BELOW A.S.I.",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "10",
-   "name": "OFFICERS ACTUAL",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
    "header": [
-    "OFFICERS ACTUAL"
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "BELOW SANCTIONED",
+   "name": "GRAND TOTAL | SANC-TIONED",
    "header": [
-    "BELOW SANCTIONED"
+    "GRAND TOTAL",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "12",
-   "name": "TOTAL GRAND ACTUAL",
+   "name": "GRAND TOTAL | ACTUAL",
    "header": [
-    "TOTAL GRAND ACTUAL"
+    "GRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
- "notes": [
-  "Note: 1. ‘Actual’ Police strength of Women Police is more than their ‘Sanctioned’",
-  "Police strength for some ranks in UT of Delhi and Delhi city. This is because Women",
-  "Police are appointed against Male vacancies of same rank or higher rank, as per Govt. instructions.",
-  "2. NR stands for data not received."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 23,
-  "cells_passed": 22,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 0, sum 9"
-  ],
+  "cells_checked": 30,
+  "cells_passed": 30,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

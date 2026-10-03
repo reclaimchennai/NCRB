@@ -8,51 +8,132 @@
  "serial": "11",
  "title": "Property Stolen and Recovered by Category of Offences During 1982; Nature of Property Stolen and Recovered During 1982",
  "listing_title": "Property Stolen and Recovered by Category of Offences During 1982; Nature of Property Stolen and Recovered During 1982",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48-and-49-1982.pdf",
  "source_file": "raw/cii/1982/table_content/table-48-and-49-1982.pdf",
  "source_sha256": "772d17b340dc5b744ea805815adf2b716f234115d8b0f535d3cef99df548f653",
  "table_no": "48",
- "pdf_title": "PROPERTY STOLEN AND RECOVERED BY CATEGORY OF OFFENCES DURING 1982",
- "row_label": "SI.No. / Category of offences / No. of cases in which property No. of cases in which. property was stolen",
+ "pdf_title": "118 TABLE 48 PROPERTY STOLEN AND RECOVERED BY CATEGORY OF OFFENCES DURING 1982",
+ "row_label": ". / .",
  "pages": [
+  1,
   1
  ],
- "n_rows": 7,
- "n_cols": 4,
- "n_cells": 28,
+ "n_rows": 1,
+ "n_cols": 9,
+ "n_cells": 9,
  "columns": [
   {
-   "col_no": "4",
-   "name": "No. of cases in which property | - recoverec",
+   "col_no": "9",
+   "name": "11,040 | 19,392 | 1,26,820 | 3,49,037 | 14,997 | 20,065",
    "header": [
-    "No. of cases in which property",
-    "- recoverec"
+    "11,040",
+    "19,392",
+    "1,26,820",
+    "3,49,037",
+    "14,997",
+    "20,065"
    ]
   },
   {
-   "col_no": "5",
-   "name": "No. of cases in which property | Value of property stolen in Rs. lakhs",
+   "col_no": "10",
+   "name": "2,281 | 6,532 | 34,867 | 1,02,976' | 4,080 | 5,038",
    "header": [
-    "No. of cases in which property",
-    "Value of property stolen in Rs. lakhs"
+    "2,281",
+    "6,532",
+    "34,867",
+    "1,02,976'",
+    "4,080",
+    "5,038"
    ]
   },
   {
-   "col_no": "6",
-   "name": "%age of property recovered to property | Value of property recovered in Rs. lakhs",
+   "col_no": "11",
+   "name": "1,031.79 | 983.18 | 3,051.38 | 9,609.06 | 1,600.34 | 1,381.68",
    "header": [
-    "%age of property recovered to property",
-    "Value of property recovered in Rs. lakhs"
+    "1,031.79",
+    "983.18",
+    "3,051.38",
+    "9,609.06",
+    "1,600.34",
+    "1,381.68"
    ]
   },
   {
-   "col_no": "7",
-   "name": "%age of property recovered to property | stolen",
+   "col_no": "12",
+   "name": "233.48 | 286.61 | 701.03 | 3,104.63 | 258.65 | 237.34",
    "header": [
-    "%age of property recovered to property",
-    "stolen"
+    "233.48",
+    "286.61",
+    "701.03",
+    "3,104.63",
+    "258.65",
+    "237.34"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "22.6 | 29.2 | 23.0 | 32.3 | 16.2 | 17.2",
+   "header": [
+    "22.6",
+    "29.2",
+    "23.0",
+    "32.3",
+    "16.2",
+    "17.2"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "9,314 | 18,050 | 51,491 | 14,048 | 1,029 | 121 | 3,14,428",
+   "header": [
+    "9,314",
+    "18,050",
+    "51,491",
+    "14,048",
+    "1,029",
+    "121",
+    "3,14,428"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "146.68 | 257.27 | 251.17 | 2,564.41 | 44.49 | 2.16 | 8,893.98",
+   "header": [
+    "146.68",
+    "257.27",
+    "251.17",
+    "2,564.41",
+    "44.49",
+    "2.16",
+    "8,893.98"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "34.15 | 135.39 | 62.55 | 1,836.16 | 10.40 | 0.28 | 1,756.93",
+   "header": [
+    "34.15",
+    "135.39",
+    "62.55",
+    "1,836.16",
+    "10.40",
+    "0.28",
+    "1,756.93"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "23.3 | 52.6 | 24.9 | 71.6 | 23.4 | 13.0 | 19.8",
+   "header": [
+    "23.3",
+    "52.6",
+    "24.9",
+    "71.6",
+    "23.4",
+    "13.0",
+    "19.8"
    ]
   }
  ],
@@ -61,10 +142,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

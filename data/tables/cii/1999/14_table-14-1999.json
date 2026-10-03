@@ -8,86 +8,95 @@
  "serial": "14",
  "title": "Disposal of IPC Crime Cases by Police During 1999",
  "listing_title": "Disposal of IPC Crime Cases by Police During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-14-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-14-1999.pdf",
  "source_sha256": "cfef8d7e81b7e8daf48b99b4b0d238cd08b689ac99cf3e92363956bd5014c437",
  "table_no": "14",
- "pdf_title": "DISPOSAL OF IPC CRIME CASES BY POLICE DURING 1999",
- "row_label": "SL. CRIME HEAD NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 14",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 27,
- "n_cols": 7,
- "n_cells": 168,
+ "n_cols": 8,
+ "n_cells": 216,
  "columns": [
   {
-   "col_no": "2",
-   "name": "TOTAL NO. INCLUDING PENDING CASS",
-   "header": [
-    "TOTAL NO. INCLUDING PENDING CASS"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "CASES BY GOVT.",
+   "name": "TOTAL NO. FOR INVESTIGATION INCLUDING PENDING CASES",
    "header": [
-    "CASES BY GOVT."
+    "TOTAL NO. FOR INVESTIGATION INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "NO. OF CASES IN WHICH | INVESTY. \"WAS REFUSED",
+   "name": "CASES WITH-DRAWN BY GOVT.",
    "header": [
-    "NO. OF CASES IN WHICH",
-    "INVESTY. \"WAS REFUSED"
+    "CASES WITH-DRAWN BY GOVT."
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. OF CASES IN WHICH | INVESTK( FOUNDFALSE/ OF FACT OR LAW ETC.",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
     "NO. OF CASES IN WHICH",
-    "INVESTK( FOUNDFALSE/ OF FACT OR LAW ETC."
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES IN WHICH | REPORT SUBMITTED SUBMITTED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC.",
    "header": [
     "NO. OF CASES IN WHICH",
-    "REPORT SUBMITTED SUBMITTED"
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC."
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. OF CASES IN WHICH | WAS COMPLE [ED SHEETS (@) + a",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
     "NO. OF CASES IN WHICH",
-    "WAS COMPLE [ED SHEETS (@) + a"
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "NO. OF - GATION",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE SUBMITTED",
    "header": [
-    "NO. OF - GATION"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERE SUBMITTED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF CASES IN WHICH | TOTAL {(6) + (7) + (8)}",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "TOTAL {(6) + (7) + (8)}"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
+   "header": [
+    "NO. OF CASES PENDING INVESTIGATION"
    ]
   }
  ],
- "notes": [
-  "1655 NCRB/2001I—I5A"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 8,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

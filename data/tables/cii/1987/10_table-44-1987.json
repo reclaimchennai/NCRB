@@ -8,63 +8,63 @@
  "serial": "10",
  "title": "Disposal of Juveniles Sent to Courts During 1987",
  "listing_title": "Disposal of Juveniles Sent to Courts During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_44-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_44-1987.pdf",
  "source_sha256": "3fba1ab02ace67efe870411d5930a2c30263ed6669b70fea3a92f00108474f22",
  "table_no": "44",
- "pdf_title": "Disposal Of Juveniles Sent To Courts During 1987",
- "row_label": "sl NO / STATES/U. Ts/CITIES",
+ "pdf_title": "124 TABLE - 44 Disposal Of Juveniles Sent To Courts During 1987.",
+ "row_label": "Sl NO / STATES/U. Ts/CITIES",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 54,
+ "n_rows": 92,
  "n_cols": 9,
- "n_cells": 426,
+ "n_cells": 432,
  "columns": [
   {
    "col_no": "3",
-   "name": "JUVENILES TO",
+   "name": "JUVENILES SENT TO COURTS",
    "header": [
-    "JUVENILES TO"
+    "JUVENILES SENT TO COURTS"
    ]
   },
   {
    "col_no": "4",
-   "name": "SENT COURTS",
+   "name": "RESTORED TO GUARDIAN",
    "header": [
-    "SENT COURTS"
+    "RESTORED TO GUARDIAN"
    ]
   },
   {
    "col_no": "5",
-   "name": "ON RESTORED TO PROBATION GUARDIAN",
+   "name": "ON PROBATION",
    "header": [
-    "ON RESTORED TO PROBATION GUARDIAN"
+    "ON PROBATION"
    ]
   },
   {
    "col_no": "6",
-   "name": "REFFORSENT TO AND MATORTES RARSTALS",
+   "name": "SENT TO REFFOR-MATORIES AND BORSTALS",
    "header": [
-    "REFFORSENT TO AND MATORTES RARSTALS"
+    "SENT TO REFFOR-MATORIES AND BORSTALS"
    ]
   },
   {
    "col_no": "7",
-   "name": "SENT TO SCHOOLS INSTLTUTLONS",
+   "name": "SENT TO SCHOOLS AND INSTITUTIONS",
    "header": [
-    "SENT TO SCHOOLS INSTLTUTLONS"
+    "SENT TO SCHOOLS AND INSTITUTIONS"
    ]
   },
   {
    "col_no": "8",
-   "name": "SENT TO AND ADULT INSTILUriuNS",
+   "name": "SENT TO ADULT INSTITUTIONS",
    "header": [
-    "SENT TO AND ADULT INSTILUriuNS"
+    "SENT TO ADULT INSTITUTIONS"
    ]
   },
   {
@@ -76,32 +76,25 @@
   },
   {
    "col_no": "10",
-   "name": "ACQUITTED DISPOSED",
+   "name": "ACQUITTED OR OTHERWISE DISPOSED OF",
    "header": [
-    "ACQUITTED DISPOSED"
+    "ACQUITTED OR OTHERWISE DISPOSED OF"
    ]
   },
   {
    "col_no": "11",
-   "name": "OR PENDING DISPOSAL OF",
+   "name": "PENDING DISPOSAL",
    "header": [
-    "OR PENDING DISPOSAL OF"
+    "PENDING DISPOSAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 22,
-  "cells_passed": 11,
+  "cells_checked": 18,
+  "cells_passed": 17,
   "failures": [
-   "col 3 'TOTAL (UTs)': printed 5946, sum 5939",
-   "col 6 'TOTAL (States)': printed 955, sum 344",
-   "col 7 'TOTAL (States)': printed 755, sum 429",
-   "col 7 'TOTAL (Cities)': printed 323, sum 291",
-   "col 8 'TOTAL (States)': printed 2683, sum 2553",
-   "col 9 'TOTAL (States)': printed 21208, sum 21148",
-   "col 9 'TOTAL (Cities)': printed 9041, sum 8949",
-   "col 10 'TOTAL (Cities)': printed 11894, sum 11693"
+   "col 10 'Total (States)': printed 24726, sum 24536"
   ],
   "other_totals_checked": 8,
   "other_totals_passed": 8

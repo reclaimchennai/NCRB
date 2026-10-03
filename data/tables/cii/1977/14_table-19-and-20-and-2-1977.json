@@ -8,34 +8,54 @@
  "serial": "14",
  "title": "Persons Arrested for Cognizable Crimes under IPC and their Percentage Variation; Persons Arrested under IPC Crime Heads; Persons",
  "listing_title": "Persons Arrested for Cognizable Crimes under IPC and their Percentage Variation; Persons Arrested under IPC Crime Heads; Persons",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-19-and-20-and-2-1977.pdf",
  "source_file": "raw/cii/1977/table_content/table-19-and-20-and-2-1977.pdf",
  "source_sha256": "6c3a3321a3fd05ca409fea3a400610d3146892f39657972fed78469c5a491a1a",
- "table_no": "21",
- "pdf_title": "",
- "row_label": "",
+ "table_no": "19",
+ "pdf_title": "67 TABLE 19 PERSONS ARRESTED FOR COGNIZABLE CRIMES",
+ "row_label": "Sl. No. / States/UTs/Cities",
  "pages": [
+  1,
+  1,
   1
  ],
- "n_rows": 15,
- "n_cols": 3,
- "n_cells": 42,
+ "n_rows": 49,
+ "n_cols": 5,
+ "n_cells": 171,
  "columns": [
   {
+   "col_no": "3",
+   "name": "Years (3)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Years (4)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Percentage Variation in 1976 over 1977",
+   "header": [
+    "Percentage Variation in 1976 over 1977"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "Percentage to total arrested",
+   "header": [
+    "Percentage to total arrested"
+   ]
   },
   {
-   "col_no": "7",
-   "name": "col_7",
+   "col_no": "2",
+   "name": "col_2",
    "header": []
   }
  ],
@@ -44,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 5,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

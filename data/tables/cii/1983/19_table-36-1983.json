@@ -8,21 +8,35 @@
  "serial": "19",
  "title": "Juveniles Apprehended by Sex",
  "listing_title": "Juveniles Apprehended by Sex",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-36-1983.pdf",
  "source_file": "raw/cii/1983/table_content/table-36-1983.pdf",
  "source_sha256": "728e934ecdfdeb4ed3bdd7c5059b75f4d2ef9929218b3c01dee82c2490be3f9f",
  "table_no": "",
- "pdf_title": "",
- "row_label": "Years / Boys",
+ "pdf_title": "97 TABLES 36 Juvenile apprehended by sex",
+ "row_label": "Years",
  "pages": [
   1
  ],
- "n_rows": 12,
- "n_cols": 3,
- "n_cells": 34,
+ "n_rows": 13,
+ "n_cols": 5,
+ "n_cells": 61,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "Years",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Boys",
+   "header": [
+    "Boys"
+   ]
+  },
   {
    "col_no": "4",
    "name": "Girls",
@@ -45,9 +59,7 @@
    ]
   }
  ],
- "notes": [
-  "Percentage change in 1983 over 1982 +1:°8 +4-0 -+1-9"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

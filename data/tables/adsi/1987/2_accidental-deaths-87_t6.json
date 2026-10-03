@@ -1,0 +1,75 @@
+{
+ "table_id": "adsi/1987/2_accidental-deaths-87_t6",
+ "publication": "adsi",
+ "year": 1987,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1987",
+ "serial": "2",
+ "title": "11 TABLE—V Region-wise Distribution of Accidental Deaths By Sex During-1987",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/accidental-deaths-87.pdf",
+ "source_file": "raw/adsi/1987/year_wise/accidental-deaths-87.pdf",
+ "source_sha256": "65d70f704f19ff191754facb24075e63bfc6fdb5cdacef283185c9b47d494b80",
+ "table_no": "",
+ "pdf_title": "11 TABLE—V Region-wise Distribution of Accidental Deaths By Sex During-1987",
+ "row_label": "Sl. No. / States/UTs./Cities",
+ "pages": [
+  15
+ ],
+ "n_rows": 26,
+ "n_cols": 5,
+ "n_cells": 130,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Males Involved",
+   "header": [
+    "Males Involved"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage of Male To Total",
+   "header": [
+    "Percentage of Male To Total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Females Involved",
+   "header": [
+    "Females Involved"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage Of Female To Total",
+   "header": [
+    "Percentage Of Female To Total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'Total (States)': printed 100426, sum 100425"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

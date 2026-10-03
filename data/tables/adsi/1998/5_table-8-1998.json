@@ -8,111 +8,286 @@
  "serial": "5",
  "title": "Incidence of Road Accidental Deaths in type of Vehicles during 1998 (State, UT & City-wise)",
  "listing_title": "Incidence of Road Accidental Deaths in type of Vehicles during 1998 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-8_1998.pdf",
  "source_file": "raw/adsi/1998/table_content/table-8_1998.pdf",
  "source_sha256": "c66d29b2f07cfbead019941b6dc39f58dfed37dea06a40ff7f0898b1c333bf4c",
  "table_no": "8",
- "pdf_title": "Incidence of Road Accidental Deaths in type of Vehicles During 1998 (State, UT & City-wise)",
- "row_label": "Truck/Lorry Sl. No. 1) CALCUTTA 36 37 “39 40 42 - JAIPUR",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) TABLE-8",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
-  1
+  1,
+  2,
+  3
  ],
- "n_rows": 7,
- "n_cols": 10,
- "n_cells": 54,
+ "n_rows": 62,
+ "n_cols": 32,
+ "n_cells": 1888,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Truck/Lorry | State/UT/City (2) 6 CHENNAI 282 - HYDERABAD 2",
-   "header": [
-    "Truck/Lorry",
-    "State/UT/City (2) 6 CHENNAI 282 - HYDERABAD 2"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Truck/Lorry | Govt. 3 90 0 986814 5 74",
+   "name": "Truck/Lorry | Govt.",
    "header": [
     "Truck/Lorry",
-    "Govt. 3 90 0 986814 5 74"
+    "Govt."
    ]
   },
   {
    "col_no": "4",
-   "name": "Truck/Lorry | - Pvt. @ 9 56 284 468 59 7%",
+   "name": "Truck/Lorry | Pvt.",
    "header": [
     "Truck/Lorry",
-    "- Pvt. @ 9 56 284 468 59 7%"
+    "Pvt."
    ]
   },
   {
    "col_no": "5",
-   "name": "Bus | Pvt. Total & £420 234 159 64 £42,114 °®&6 44D",
+   "name": "Truck/Lorry | Total",
    "header": [
-    "Bus",
-    "Pvt. Total & £420 234 159 64 £42,114 °®&6 44D"
+    "Truck/Lorry",
+    "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "Bus | %share © 13.6 72 227 37 40",
+   "name": "Truck/Lorry | %share",
    "header": [
-    "Bus",
-    "%share © 13.6 72 227 37 40"
+    "Truck/Lorry",
+    "%share"
    ]
   },
   {
    "col_no": "7",
-   "name": "Tampo/Van | Govt. m &235157 0 20.7 42",
+   "name": "Bus | Govt.",
    "header": [
-    "Tampo/Van",
-    "Govt. m &235157 0 20.7 42"
+    "Bus",
+    "Govt."
    ]
   },
   {
    "col_no": "8",
-   "name": "Tampo/Van | Total @ 424162 41 “15 6",
+   "name": "Bus | Pvt.",
    "header": [
-    "Tampo/Van",
-    "Total @ 424162 41 “15 6"
+    "Bus",
+    "Pvt."
    ]
   },
   {
    "col_no": "9",
-   "name": "Tampo/Van | %share «ao £4172 24 5 “a... 87 a 0Cl",
+   "name": "Bus | Total",
    "header": [
-    "Tampo/Van",
-    "%share «ao £4172 24 5 “a... 87 a 0Cl"
+    "Bus",
+    "Total"
    ]
   },
   {
    "col_no": "10",
-   "name": "Tampo/Van | Govt. Total (m1) a3) 24 “a a 102 2 4",
+   "name": "Bus | %share",
    "header": [
-    "Tampo/Van",
-    "Govt. Total (m1) a3) 24 “a a 102 2 4"
+    "Bus",
+    "%share"
    ]
   },
   {
    "col_no": "11",
-   "name": "Tampo/Van | %share Pvt. (14) a2 4.5 0 0.9 19.2. 0.4, 13 2.5—",
+   "name": "Tampo/Van | Govt.",
    "header": [
     "Tampo/Van",
-    "%share Pvt. (14) a2 4.5 0 0.9 19.2. 0.4, 13 2.5—"
+    "Govt."
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Tampo/Van | Pvt.",
+   "header": [
+    "Tampo/Van",
+    "Pvt."
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Tampo/Van | Total",
+   "header": [
+    "Tampo/Van",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Tampo/Van | %share",
+   "header": [
+    "Tampo/Van",
+    "%share"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Jeep | Govt.",
+   "header": [
+    "Jeep",
+    "Govt."
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Jeep | Pvt.",
+   "header": [
+    "Jeep",
+    "Pvt."
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Jeep | Total",
+   "header": [
+    "Jeep",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Jeep | %share",
+   "header": [
+    "Jeep",
+    "%share"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Car | Govt.",
+   "header": [
+    "Car",
+    "Govt."
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Car | Pvt.",
+   "header": [
+    "Car",
+    "Pvt."
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Car | Total",
+   "header": [
+    "Car",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Car | %share",
+   "header": [
+    "Car",
+    "%share"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Three Wheeler",
+   "header": [
+    "Three Wheeler"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "%share (24)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "Two Wheeler",
+   "header": [
+    "Two Wheeler"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "%share (26)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "Bicycle",
+   "header": [
+    "Bicycle"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "%share (28)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "Pedestrian",
+   "header": [
+    "Pedestrian"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "%share (30)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "Other",
+   "header": [
+    "Other"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "%share (32)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "%share (34)",
+   "header": [
+    "%share"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 82,
+  "cells_passed": 73,
+  "failures": [
+   "col 13 'Total (Cities)': printed 631, sum 531",
+   "col 20 'Total (UTs)': printed 156, sum 155",
+   "col 21 'Total (UTs)': printed 168, sum 167",
+   "col 23 'Total (States)': printed 2645, sum 2573",
+   "col 25 'Total (States)': printed 7641, sum 7243",
+   "col 27 'Total (States)': printed 2755, sum 2682",
+   "col 29 'Total (States)': printed 6931, sum 6667",
+   "col 31 'Total (States)': printed 5296, sum 4791"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

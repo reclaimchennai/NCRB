@@ -1,0 +1,63 @@
+{
+ "table_id": "adsi/1986/2_accidental-deaths-1986_t5",
+ "publication": "adsi",
+ "year": 1986,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1986",
+ "serial": "2",
+ "title": "8 ## Metropolitan Cities: The incidence of accidental deaths recorded an increase of 5.6% in 1986 over 1985 in the 12 Metropolitan Cities as a whole out of which 9 registered an increase in the total number of accidental deaths during 1986 over 1985. The 3 Cities which registered a decline in the total number of accidental deaths during 1986 over 1985 were Calcutta, Kanpur and Lucknow.",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1986.pdf",
+ "source_file": "raw/adsi/1986/year_wise/accidental-deaths-1986.pdf",
+ "source_sha256": "e3b60443686bffcaf51423437ee43ec9cda86bedeca178ca5e7d7e33345ab30f",
+ "table_no": "",
+ "pdf_title": "8 ## Metropolitan Cities: The incidence of accidental deaths recorded an increase of 5.6% in 1986 over 1985 in the 12 Metropolitan Cities as a whole out of which 9 registered an increase in the total number of accidental deaths during 1986 over 1985. The 3 Cities which registered a decline in the total number of accidental deaths during 1986 over 1985 were Calcutta, Kanpur and Lucknow.",
+ "row_label": "Sl. No. / States/U.Ts/Cities",
+ "pages": [
+  12,
+  13
+ ],
+ "n_rows": 49,
+ "n_cols": 3,
+ "n_cells": 146,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Accidental Deaths (3)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of Accidental Deaths (4)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "% Variation From 1985 to 1986",
+   "header": [
+    "% Variation From 1985 to 1986"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 135100, sum 137088",
+   "col 4 'TOTAL (STATES)': printed 142243, sum 144233"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

@@ -8,114 +8,108 @@
  "serial": "72",
  "title": "Actual Police Strength in Relation to Area, Population & IPC Crimes During 1992",
  "listing_title": "Actual Police Strength in Relation to Area, Population & IPC Crimes During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-72-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-72-1992-survey.pdf",
  "source_sha256": "c8fadba133856c7e62bd5be2d2bd3f89cff4c83de79bdeae3dcdc35bc9b775bd",
  "table_no": "72",
- "pdf_title": "ACTUAL POLICE STREWGTH IM RELATION TO AREA, POPULATION & IPC CRIMES",
- "row_label": "ou. 0. a)",
+ "pdf_title": "311 TABLE-72 ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CRIMES",
+ "row_label": "SL. STATE/UTNO.",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 11,
- "n_cells": 383,
+ "n_cells": 385,
  "columns": [
   {
-   "col_no": "2",
-   "name": "ARBA (1m’ 908 (7)",
-   "header": [
-    "ARBA (1m’ 908 (7)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "2 MID-YEAR POPULATIOM {in a)",
+   "name": "AREA(IN'S POP. MID-YEAR XMS.)",
    "header": [
-    "2 MID-YEAR POPULATIOM {in a)"
+    "AREA(IN'S POP. MID-YEAR XMS.)"
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL 000) (4)",
+   "name": "ESTIMATED POPULA-TION(in 000)",
    "header": [
-    "TOTAL 000) (4)"
+    "ESTIMATED POPULA-TION(in 000)"
    ]
   },
   {
    "col_no": "5",
-   "name": "DURING | ACTUAL CIVIL (1Ir¢c) (5)",
+   "name": "TOTAL COG-WISABLE CRIMES(IPC)",
    "header": [
-    "DURING",
-    "ACTUAL CIVIL (1Ir¢c) (5)"
+    "TOTAL COG-WISABLE CRIMES(IPC)"
    ]
   },
   {
    "col_no": "6",
-   "name": "DURING | POLICE ARMED (6)",
+   "name": "ACTUAL POLICE STRENGTH CIVIL",
    "header": [
-    "DURING",
-    "POLICE ARMED (6)"
+    "ACTUAL POLICE STRENGTH CIVIL"
    ]
   },
   {
    "col_no": "7",
-   "name": "1992 STRENGTH TOTAL TO (7)",
+   "name": "ARMED",
    "header": [
-    "1992 STRENGTH TOTAL TO (7)"
+    "ARMED"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERCENTOF AGE CIVIL POLICE TOTAL POLICE (8)",
+   "name": "TOTAL",
    "header": [
-    "PERCENTOF AGE CIVIL POLICE TOTAL POLICE (8)"
+    "TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "WO. POLICEMEN 100 -549.ARKA (9)",
+   "name": "PERCENT-AGE OF CIVIL POLICE TO TOTAL POLICE",
    "header": [
-    "WO. POLICEMEN 100 -549.ARKA (9)"
+    "PERCENT-AGE OF CIVIL POLICE TO TOTAL POLICE"
    ]
   },
   {
    "col_no": "10",
-   "name": "OF 1.009 PER sQR. ULATION (0)",
+   "name": "NO. OF POLICE-MEN PER 100 SQR. AREA",
    "header": [
-    "OF 1.009 PER sQR. ULATION (0)"
+    "NO. OF POLICE-MEN PER 100 SQR. AREA"
    ]
   },
   {
    "col_no": "11",
-   "name": "Canes NO. IPC PER oF wore (ees)",
+   "name": "NO. OF POLICEMEN PER 1,000 OF POP-ULATION",
    "header": [
-    "Canes NO. IPC PER oF wore (ees)"
+    "NO. OF POLICEMEN PER 1,000 OF POP-ULATION"
    ]
   },
   {
    "col_no": "12",
-   "name": "PSY OF - - 1.c¢ POPORLY (239) (13)",
+   "name": "IPC CRIMES PER CIV-1 POLICEMEN",
    "header": [
-    "PSY OF - - 1.c¢ POPORLY (239) (13)"
+    "IPC CRIMES PER CIV-1 POLICEMEN"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ALL",
+   "header": [
+    "ALL"
    ]
   }
  ],
- "notes": [
-  "41—526 NCRB/94."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 13,
-  "failures": [
-   "col 5 'TOTAL (STATES)': printed 877194, sum 877195"
-  ],
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

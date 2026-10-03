@@ -6,78 +6,49 @@
  "topic": "",
  "section": "Crime in India 1954",
  "serial": "3",
- "title": "ROBKKERY",
+ "title": "16",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686381753APPENDICES.pdf",
  "source_file": "raw/cii/1954/year_wise/1686381753APPENDICES.pdf",
  "source_sha256": "3535c3fb7d9a13806b92abf252ebff9de93c31d36c237f38ff6c4a640aa329c5",
  "table_no": "",
- "pdf_title": "ROBKKERY",
- "row_label": "State Serial No.",
+ "pdf_title": "16",
+ "row_label": "Serial No. / State",
  "pages": [
-  20,
-  21
+  6
  ],
  "n_rows": 33,
- "n_cols": 8,
- "n_cells": 240,
+ "n_cols": 4,
+ "n_cells": 132,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Persons in custody pending trial investigaor tion on bail the of the year",
-   "header": [
-    "Persons in custody pending trial investigaor tion on bail the of the year"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Persons rested during the year or at",
+   "name": "Cases pending from last year",
    "header": [
-    "Persons rested during the year or at"
+    "Cases pending from last year"
    ]
   },
   {
    "col_no": "4",
-   "name": "at ersons by the Police or Magisiraie before trial",
+   "name": "Cases reported during the year",
    "header": [
-    "at ersons by the Police or Magisiraie before trial"
+    "Cases reported during the year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases not investigated, declared false or mistake of fact or law, or non-cognizable and pending investigation or trial",
+   "header": [
+    "Cases not investigated, declared false or mistake of fact or law, or non-cognizable and pending investigation or trial"
    ]
   },
   {
    "col_no": "6",
-   "name": "—PERSONS Number persons whose cases the trials were comnleted",
+   "name": "Cases no detected",
    "header": [
-    "—PERSONS Number persons whose cases the trials were comnleted"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "of Number in of persons corvicted",
-   "header": [
-    "of Number in of persons corvicted"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Number of persons acquitted of",
-   "header": [
-    "Number of persons acquitted of"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Number of persons in custody or bail, trial or investithe gation at the close year",
-   "header": [
-    "Number of persons in custody or bail, trial or investithe gation at the close year"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "X Appendix of conviction pending of",
-   "header": [
-    "X Appendix of conviction pending of"
+    "Cases no detected"
    ]
   }
  ],
@@ -86,12 +57,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 24,
-  "other_totals_passed": 13
+  "other_totals_checked": 16,
+  "other_totals_passed": 12
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
- "warnings": [
-  "page 21: 2 of 32 rows of the right-hand page could not be placed against the left-hand page"
- ]
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
 }

@@ -6,22 +6,22 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "6",
- "title": "STATEMENT Juvenile 7=8=—=; - for",
+ "title": "24 STATEMENT Juvenile Delinquency for",
  "listing_title": "Juveniles Apprehended under Age Groups",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680077983TABLE-5-1964.pdf",
  "source_file": "raw/cii/1964/table_content/1680077983TABLE-5-1964.pdf",
  "source_sha256": "a58b983f8ce547ab4e40165a8c442bb71c0f4c5aadd67ee464e40c78148cc1ac",
  "table_no": "",
- "pdf_title": "STATEMENT Juvenile 7=8=—=; - for",
- "row_label": "Si. No. / States",
+ "pdf_title": "24 STATEMENT Juvenile Delinquency for",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 25,
+ "n_rows": 17,
  "n_cols": 6,
- "n_cells": 135,
+ "n_cells": 102,
  "columns": [
   {
    "col_no": "3",
@@ -39,9 +39,9 @@
   },
   {
    "col_no": "5",
-   "name": "Kidnapping. and abduction.",
+   "name": "Kidnapping and abduction.",
    "header": [
-    "Kidnapping. and abduction."
+    "Kidnapping and abduction."
    ]
   },
   {
@@ -53,9 +53,9 @@
   },
   {
    "col_no": "7",
-   "name": "Robbery.",
+   "name": "Robbery",
    "header": [
-    "Robbery."
+    "Robbery"
    ]
   },
   {
@@ -71,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 11,
-  "other_totals_passed": 7
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -1,0 +1,75 @@
+{
+ "table_id": "adsi/1976/2_accidental-deaths-1976_tv",
+ "publication": "adsi",
+ "year": 1976,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1976",
+ "serial": "2",
+ "title": "13 respectively for the States, 74.0 percent and 26.0 percent, respectively for the Union Territories, and 66.0 percent and 34.0 percent, respectively for the Metropolitan Cities. In Nagaland and Manipur, the percentage of male involvement was the maximum, i.e., 100.0 percent and 88.7 percent, respectively. The States where male involvement in the ‘accidental deaths’ was more than 70.0 percent numbered ten, in the Union Territories this number was seven and in the Metropolitan Cities this number was two. The detailed statistics may be seen in Table V.",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1976.pdf",
+ "source_file": "raw/adsi/1976/year_wise/accidental-deaths-1976.pdf",
+ "source_sha256": "2ea6cc42f5c0f80a54b386799bea5e31e4d7de8791a5cb14407582df7229446c",
+ "table_no": "V",
+ "pdf_title": "13 respectively for the States, 74.0 percent and 26.0 percent, respectively for the Union Territories, and 66.0 percent and 34.0 percent, respectively for the Metropolitan Cities. In Nagaland and Manipur, the percentage of male involvement was the maximum, i.e., 100.0 percent and 88.7 percent, respectively. The States where male involvement in the ‘accidental deaths’ was more than 70.0 percent numbered ten, in the Union Territories this number was seven and in the Metropolitan Cities this number was two. The detailed statistics may be seen in Table V.",
+ "row_label": "Sl. No. / Name of States/U.Ts/ Cities",
+ "pages": [
+  12
+ ],
+ "n_rows": 23,
+ "n_cols": 5,
+ "n_cells": 115,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Males involved",
+   "header": [
+    "Males involved"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% of males to total",
+   "header": [
+    "% of males to total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Females involved",
+   "header": [
+    "Females involved"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% of Females to total",
+   "header": [
+    "% of Females to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 70817, sum 69817"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

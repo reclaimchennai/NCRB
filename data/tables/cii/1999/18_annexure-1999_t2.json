@@ -6,47 +6,82 @@
  "topic": "",
  "section": "",
  "serial": "18",
- "title": "ANNEXURE-V NAME OF ORGANISATION DIRECTORATE OF PREVENTIVE OPERATIONS, CUSTOMS AND CENTRAL EXCISE, LOK NAYAK BHAWAN, NEW DELHI, RETURN OF CUSTOMS ACT 1962 FOR THE YEAR 4999",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 ## ANNEXURE-IV",
  "listing_title": "Annexures",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/annexure-1999.pdf",
  "source_file": "raw/cii/1999/table_chapter/annexure-1999.pdf",
  "source_sha256": "8cc84872f91cef41e855c0caf26019fc9bd02f93cc76c982d4380ec163182bd4",
  "table_no": "",
- "pdf_title": "ANNEXURE-V NAME OF ORGANISATION DIRECTORATE OF PREVENTIVE OPERATIONS, CUSTOMS AND CENTRAL EXCISE, LOK NAYAK BHAWAN, NEW DELHI, RETURN OF CUSTOMS ACT 1962 FOR THE YEAR 4999",
- "row_label": "Year / Investigation O.B. / Investigation REC.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 ## ANNEXURE-IV",
+ "row_label": "Total No. of seizures",
  "pages": [
-  9
+  7,
+  7,
+  7
  ],
  "n_rows": 3,
- "n_cols": 2,
- "n_cells": 6,
+ "n_cols": 7,
+ "n_cells": 11,
  "columns": [
   {
-   "col_no": "5",
-   "name": "Investigation | DISP.",
+   "col_no": "2",
+   "name": "Total value of seizures (Rs.in crores)",
    "header": [
-    "Investigation",
-    "DISP."
+    "Total value of seizures (Rs.in crores)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Silver | Qty.",
+   "header": [
+    "Silver",
+    "Qty."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Silver | Value",
+   "header": [
+    "Silver",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Narcotics | Value",
+   "header": [
+    "Narcotics",
+    "Value"
    ]
   },
   {
    "col_no": "6",
-   "name": "C.B.",
+   "name": "Foreign Currency | Value",
    "header": [
-    "C.B."
+    "Foreign Currency",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Electronic Goods | Value",
+   "header": [
+    "Electronic Goods",
+    "Value"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Ball Bearings | Value",
+   "header": [
+    "Ball Bearings",
+    "Value"
    ]
   }
  ],
- "notes": [
-  "O.B. -OPENING BALANCE",
-  "C.B. - CLOSING BALANCE",
-  "CONV. - CONVICTED",
-  "ACQ. - ACQUITTED",
-  "DISP. - DISPOSAL",
-  "REC. - RECEIPT"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -54,7 +89,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

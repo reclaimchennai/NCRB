@@ -6,36 +6,35 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1990",
  "serial": "4",
- "title": "Incidence of suicides By Causes",
+ "title": "28 TABLE - 8 Incidence Of Suicides By Causes During 1990",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1990.pdf",
  "source_file": "raw/adsi/1990/year_wise/suicides-1990.pdf",
  "source_sha256": "06925d8d2818e7f92965ed004275342a1482e0ab1fd58e157dc1aa88817357f6",
  "table_no": "8",
- "pdf_title": "Incidence of suicides By Causes",
- "row_label": "During No.",
+ "pdf_title": "28 TABLE - 8 Incidence Of Suicides By Causes During 1990",
+ "row_label": "Sl. Cause of Suicide No. / Sl. Cause of Suicide No.",
  "pages": [
   11
  ],
- "n_rows": 16,
+ "n_rows": 17,
  "n_cols": 2,
- "n_cells": 32,
+ "n_cells": 34,
  "columns": [
   {
-   "col_no": "2",
-   "name": "During | of Suicides",
+   "col_no": "3",
+   "name": "Number of Suicides",
    "header": [
-    "During",
-    "of Suicides"
+    "Number of Suicides"
    ]
   },
   {
-   "col_no": "3",
-   "name": "1990 Share of Each Cause",
+   "col_no": "4",
+   "name": "Percentage Share of Each Cause",
    "header": [
-    "1990 Share of Each Cause"
+    "Percentage Share of Each Cause"
    ]
   }
  ],
@@ -44,10 +43,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

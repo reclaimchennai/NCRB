@@ -8,22 +8,30 @@
  "serial": "88",
  "title": "Juvenile Delinquency (IPC) under Different Crime Heads & Various Percentage Changes During 1994",
  "listing_title": "Juvenile Delinquency (IPC) under Different Crime Heads & Various Percentage Changes During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table43-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table43-1994_2.pdf",
  "source_sha256": "f9f5958af0e197470640f55195365892adc89722b07546d27715d5bd2f914761",
  "table_no": "43",
- "pdf_title": "JUVENILE DELINQUENCY (IPC) UNDER DiFFEKENT CRIME HEADS & VARIOUS PERCENTAGE CHANGES DURING 1994",
- "row_label": "SL. NO. / CRIME HEAD / 1984",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-43",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1,
+  2,
   2
  ],
- "n_rows": 27,
- "n_cols": 10,
- "n_cells": 177,
+ "n_rows": 19,
+ "n_cols": 11,
+ "n_cells": 201,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "1984",
+   "header": [
+    "1984"
+   ]
+  },
   {
    "col_no": "4",
    "name": "1989",
@@ -61,56 +69,39 @@
   },
   {
    "col_no": "9",
-   "name": "QUINQUENNIAL AVG. 1989-1993 (0.A.)",
-   "header": [
-    "QUINQUENNIAL AVG. 1989-1993 (0.A.)"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "1994",
-   "header": [
-    "1994"
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "PERCENTAGE CHANGE IN 1994** | I( +)INCREASE/(-)DECREASE] | 1984",
-   "header": [
-    "PERCENTAGE CHANGE IN 1994**",
-    "I( +)INCREASE/(-)DECREASE]",
-    "1984"
-   ]
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "PERCENTAGE CHANGE IN 1994** | I( +)INCREASE/(-)DECREASE] | OVER Q.A.",
-   "header": [
-    "PERCENTAGE CHANGE IN 1994**",
-    "I( +)INCREASE/(-)DECREASE]",
-    "OVER Q.A."
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "PERCENTAGE CHANGE IN 1994** | 1993",
-   "header": [
-    "PERCENTAGE CHANGE IN 1994**",
-    "1993"
-   ]
+   "name": "col_13",
+   "header": []
   }
  ],
- "notes": [
-  "2.°* DATA ON JUVENILES FOR 1988 ONWARDS IS NOT AT ALL COMPARABLE TO EARLIER"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 1
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

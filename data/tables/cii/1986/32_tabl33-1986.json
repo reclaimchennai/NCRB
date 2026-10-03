@@ -1,0 +1,117 @@
+{
+ "table_id": "cii/1986/32_tabl33-1986",
+ "publication": "cii",
+ "year": 1986,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "32",
+ "title": "Juvenile Delinquency for Important Heads of Crime under IPC During 1986",
+ "listing_title": "Juvenile Delinquency for Important Heads of Crime under IPC During 1986",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl33-1986.pdf",
+ "source_file": "raw/cii/1986/table_content/tabl33-1986.pdf",
+ "source_sha256": "5e07b7133c457504eea0275e24020ddfb3e85ba5ebe198b7317982253bce9147",
+ "table_no": "33",
+ "pdf_title": "69 TABLE 33 Juvenile Delinquency For Important Heads Of Crime Under IPC During 1986",
+ "row_label": "Sl. NO. / States/U. Ts/Cities",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 94,
+ "n_cols": 9,
+ "n_cells": 611,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "IPC cognizable cases reported under | Murder",
+   "header": [
+    "IPC cognizable cases reported under",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "IPC cognizable cases reported under | Culpable Homicide not amounting to murder",
+   "header": [
+    "IPC cognizable cases reported under",
+    "Culpable Homicide not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "IPC cognizable cases reported under | Rape",
+   "header": [
+    "IPC cognizable cases reported under",
+    "Rape"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "IPC cognizable cases reported under | Kidnapping & abduction",
+   "header": [
+    "IPC cognizable cases reported under",
+    "Kidnapping & abduction"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "IPC cognizable cases reported under | Decoity",
+   "header": [
+    "IPC cognizable cases reported under",
+    "Decoity"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "IPC cognizable cases reported under | Robbery",
+   "header": [
+    "IPC cognizable cases reported under",
+    "Robbery"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "IPC cognizable cases reported under | Burglary",
+   "header": [
+    "IPC cognizable cases reported under",
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "IPC cognizable cases reported under | Theft",
+   "header": [
+    "IPC cognizable cases reported under",
+    "Theft"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "IPC cognizable cases reported under | Riot",
+   "header": [
+    "IPC cognizable cases reported under",
+    "Riot"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 37,
+  "cells_passed": 33,
+  "failures": [
+   "col 10001 'TOTAL (STATES)': printed 204, sum 224",
+   "col 10002 'TOTAL (STATES)': printed 217, sum 239",
+   "col 10003 'TOTAL (STATES)': printed 5, sum 29",
+   "col 10004 'TOTAL (STATES)': printed 52079, sum 52105"
+  ],
+  "other_totals_checked": 13,
+  "other_totals_passed": 9
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

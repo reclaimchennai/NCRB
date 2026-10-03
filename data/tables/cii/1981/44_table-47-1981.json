@@ -8,35 +8,40 @@
  "serial": "44",
  "title": "Property Stolen and Recovered in Different States / U.T.s / Cities",
  "listing_title": "Property Stolen and Recovered in Different States / U.T.s / Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-47-1981.pdf",
  "source_file": "raw/cii/1981/table_content/table-47-1981.pdf",
  "source_sha256": "192687c6aa7d6cf87d98e9dad76471854585c387ad9c38c949046317721666a0",
- "table_no": "",
- "pdf_title": "TABLE—47",
- "row_label": "PROPERTY STOLEN AND Sl. States/U.Ts./Cities No. STATES / IN DIKKERENY Value of Property Stolen (Rs. in lakhs)",
+ "table_no": "47",
+ "pdf_title": "111 TABLE-47 PROPERTY STOLEN AND RECOVERED IN DIFFERENT STATES/U.Ts./CITIES",
+ "row_label": "Sl. States/U.Ts./Cities No.",
  "pages": [
   1
  ],
  "n_rows": 47,
- "n_cols": 2,
- "n_cells": 94,
+ "n_cols": 3,
+ "n_cells": 141,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Femeniase | Value of Property Recovered (Rs, in lakhs)",
+   "col_no": "2",
+   "name": "Value of Property Stolen (Rs. in lakhs)",
    "header": [
-    "Femeniase",
-    "Value of Property Recovered (Rs, in lakhs)"
+    "Value of Property Stolen (Rs. in lakhs)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Value of Property Recovered (Rs. in lakhs)",
+   "header": [
+    "Value of Property Recovered (Rs. in lakhs)"
    ]
   },
   {
    "col_no": "4",
-   "name": "Femeniase | of of value property recovered to of stolen property",
+   "name": "Percentage of value of property recovered to value of property stolen",
    "header": [
-    "Femeniase",
-    "of of value property recovered to of stolen property"
+    "Percentage of value of property recovered to value of property stolen"
    ]
   }
  ],
@@ -48,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

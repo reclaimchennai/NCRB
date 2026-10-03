@@ -1,0 +1,60 @@
+{
+ "table_id": "adsi/1993/4_suicides-1993_t10",
+ "publication": "adsi",
+ "year": 1993,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1993",
+ "serial": "4",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA-1993 N.C.R.B.-52 TABLE-10",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1993.pdf",
+ "source_file": "raw/adsi/1993/year_wise/suicides-1993.pdf",
+ "source_sha256": "af4c4c3424ce1ff27a75fda39a8bce24540df1b5bc134dd15a4c61841efefe54",
+ "table_no": "10",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA-1993 N.C.R.B.-52 TABLE-10",
+ "row_label": "Incidence",
+ "pages": [
+  17,
+  17,
+  18,
+  18
+ ],
+ "n_rows": 59,
+ "n_cols": 3,
+ "n_cells": 175,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "Incidence",
+   "header": [
+    "Incidence"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 5,
+  "failures": [
+   "col 4 'Total (States)': printed 82518, sum 84511"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 4,
+ "warnings": []
+}

@@ -8,64 +8,66 @@
  "serial": "30",
  "title": "Persons Arrested under Local Acts and Special Laws (SLL) During 1995 (Crime-Head & Sex-Wise)",
  "listing_title": "Persons Arrested under Local Acts and Special Laws (SLL) During 1995 (Crime-Head & Sex-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-30-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-30-1995-crime-survey.pdf",
  "source_sha256": "37c216400c1325c48c7d67e5982b148d0f7baa7302abf54dd549a9b9c738ff2b",
  "table_no": "30",
- "pdf_title": "",
- "row_label": "PERSONS - / PERSONS CRIME HEAD / UNDER LOCAL ACTS AND SPECIAL LAWS (SLL) DURING 1995 (CRIME-HEAD & !SEX-WISE MALE",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-30",
+ "row_label": "SL. NO / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 23,
- "n_cols": 4,
- "n_cells": 87,
+ "n_cols": 5,
+ "n_cells": 115,
  "columns": [
   {
-   "col_no": "4",
-   "name": "UNDER LOCAL ACTS AND SPECIAL LAWS (SLL) DURING 1995 | (CRIME-HEAD & !SEX-WISE | FEMALE",
+   "col_no": "3",
+   "name": "MALE",
    "header": [
-    "UNDER LOCAL ACTS AND SPECIAL LAWS (SLL) DURING 1995",
-    "(CRIME-HEAD & !SEX-WISE",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "FEMALE",
+   "header": [
     "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER LOCAL ACTS AND SPECIAL LAWS (SLL) DURING 1995 | TOTAL",
+   "name": "TOTAL",
    "header": [
-    "UNDER LOCAL ACTS AND SPECIAL LAWS (SLL) DURING 1995",
     "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER LOCAL ACTS AND SPECIAL LAWS (SLL) DURING 1995 | MALE",
+   "name": "PERCENTAGE TO TOTAL | MALE",
    "header": [
-    "UNDER LOCAL ACTS AND SPECIAL LAWS (SLL) DURING 1995",
+    "PERCENTAGE TO TOTAL",
     "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "UNDER LOCAL ACTS AND SPECIAL LAWS (SLL) DURING 1995 | TO TOTAL FEMALE",
+   "name": "PERCENTAGE TO TOTAL | FEMALE",
    "header": [
-    "UNDER LOCAL ACTS AND SPECIAL LAWS (SLL) DURING 1995",
-    "TO TOTAL FEMALE"
+    "PERCENTAGE TO TOTAL",
+    "FEMALE"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

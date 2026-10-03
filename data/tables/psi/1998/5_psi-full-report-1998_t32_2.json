@@ -1,0 +1,103 @@
+{
+ "table_id": "psi/1998/5_psi-full-report-1998_t32_2",
+ "publication": "psi",
+ "year": 1998,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1998",
+ "serial": "5",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-32",
+ "listing_title": "Download Full Report",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
+ "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
+ "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
+ "table_no": "32",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-32",
+ "row_label": "SN. NO. / STATE/UT",
+ "pages": [
+  119
+ ],
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "RE- LEASED AFTER CONVICTI ON PERIOD",
+   "header": [
+    "RE- LEASED AFTER CONVICTI ON PERIOD"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PREMA- TURE RE- LEASE",
+   "header": [
+    "PREMA- TURE RE- LEASE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RELEA- SED ON APPEAL",
+   "header": [
+    "RELEA- SED ON APPEAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RELEA- SED ON BAIL",
+   "header": [
+    "RELEA- SED ON BAIL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PARD- ONS",
+   "header": [
+    "PARD- ONS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "TRANS- FERRED TO OTHER STATES",
+   "header": [
+    "TRANS- FERRED TO OTHER STATES"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "EXTRA- DITED",
+   "header": [
+    "EXTRA- DITED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OTHER RE- LEASES",
+   "header": [
+    "OTHER RE- LEASES"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 27,
+  "cells_passed": 26,
+  "failures": [
+   "col 11 'TOTAL (STATES)': printed 481168, sum 481068"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

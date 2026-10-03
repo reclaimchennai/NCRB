@@ -8,74 +8,69 @@
  "serial": "66",
  "title": "Percentage of IPC Crime Cases Disposed of by Courts During 1994",
  "listing_title": "Percentage of IPC Crime Cases Disposed of by Courts During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table21-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table21-1994_2.pdf",
  "source_sha256": "e5840668c415894d18b25f5443485a0eaa6d3cba59428ebad1f67b4f1aead04b",
  "table_no": "21",
- "pdf_title": "",
- "row_label": "SL. CRIME HEAD NO. / PERCENTAGE OF IPC CRIME CASES",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-21",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 18,
  "n_cols": 6,
- "n_cells": 105,
+ "n_cells": 108,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERCENTAGE OF IPC CRIME CASES | BY COURTS DURING PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOUNDED OR WITHDRAWN",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOU-NDED OR WITH-DRAWN",
    "header": [
-    "PERCENTAGE OF IPC CRIME CASES",
-    "BY COURTS DURING PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
-    "COMPOUNDED OR WITHDRAWN"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "COMPOU-NDED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "4",
-   "name": "PERCENTAGE OF IPC CRIME CASES | BY COURTS DURING PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
    "header": [
-    "PERCENTAGE OF IPC CRIME CASES",
-    "BY COURTS DURING PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
     "IN WHICH TRIALS WERE COMPLETED",
     "CONVICTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE OF IPC CRIME CASES | BY COURTS DURING PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | ACQUITTED OR DIs- CHARGED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | ACQUIT-TED OR DIS-CHARGED",
    "header": [
-    "PERCENTAGE OF IPC CRIME CASES",
-    "BY COURTS DURING PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
     "IN WHICH TRIALS WERE COMPLETED",
-    "ACQUITTED OR DIs- CHARGED"
+    "ACQUIT-TED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE OF IPC CRIME CASES | BY COURTS DURING PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | TOTAL {(4) +(5)}",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | TOTAL {(4) + (5)}",
    "header": [
-    "PERCENTAGE OF IPC CRIME CASES",
-    "BY COURTS DURING PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
     "IN WHICH TRIALS WERE COMPLETED",
-    "TOTAL {(4) +(5)}"
+    "TOTAL {(4) + (5)}"
    ]
   },
   {
    "col_no": "7",
-   "name": "1994 | PENDING TRIAL",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | PENDING TRIAL",
    "header": [
-    "1994",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
     "PENDING TRIAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "1994 | CONVICTION RATE",
+   "name": "CONVI-CTION RATE",
    "header": [
-    "1994",
-    "CONVICTION RATE"
+    "CONVI-CTION RATE"
    ]
   }
  ],

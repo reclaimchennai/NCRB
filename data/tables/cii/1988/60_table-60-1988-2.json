@@ -8,84 +8,115 @@
  "serial": "60",
  "title": "Police Personnel Killed or Injured on Duty During 1988 (State, UT & City-wise)",
  "listing_title": "Police Personnel Killed or Injured on Duty During 1988 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-60-1988-2.pdf",
  "source_sha256": "f1b068c035e725699e3cc471c1d5516d49b4650837a14fabe689c3a548e5cc82",
  "table_no": "60",
- "pdf_title": "",
- "row_label": "POLICE SL STATE/UT/CITY NO qd) / POLICE IN DACOITY OPERATION OR RAIDS",
+ "pdf_title": "182 TABLE-60 POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1988 (STATE, UT & CITY-WISE)",
+ "row_label": "SL STATE/UT/CITY NO",
  "pages": [
   1,
   2
  ],
- "n_rows": 75,
- "n_cols": 7,
- "n_cells": 256,
+ "n_rows": 94,
+ "n_cols": 11,
+ "n_cells": 517,
  "columns": [
   {
-   "col_no": "4",
-   "name": "KILLED (STATE, UT & BY RIOTOUS MOBS OTHER",
+   "col_no": "3",
+   "name": "KILLED | INDACOITY OPERATION OR OTHER RAIDS",
    "header": [
-    "KILLED (STATE, UT & BY RIOTOUS MOBS OTHER"
+    "KILLED",
+    "INDACOITY OPERATION OR OTHER RAIDS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "KILLED | BY RIOTOUS MOBS",
+   "header": [
+    "KILLED",
+    "BY RIOTOUS MOBS"
    ]
   },
   {
    "col_no": "5",
-   "name": "OR CITY-WISE) KILLED BY OTHER CRIMINALS",
+   "name": "KILLED | BY OTHER CRIMI-NALS",
    "header": [
-    "OR CITY-WISE) KILLED BY OTHER CRIMINALS"
+    "KILLED",
+    "BY OTHER CRIMI-NALS"
    ]
   },
   {
    "col_no": "6",
-   "name": "INJURED ON BORDER DUTIES",
+   "name": "KILLED | ON BORDER DUTIES",
    "header": [
-    "INJURED ON BORDER DUTIES"
+    "KILLED",
+    "ON BORDER DUTIES"
    ]
   },
   {
    "col_no": "7",
-   "name": "1988 DURING ON IN",
+   "name": "KILLED | IN ACCIDENTS",
    "header": [
-    "1988 DURING ON IN"
+    "KILLED",
+    "IN ACCIDENTS"
    ]
   },
   {
    "col_no": "8",
-   "name": "DUTY TOTAL",
+   "name": "KILLED | TOTAL",
    "header": [
-    "DUTY TOTAL"
+    "KILLED",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "INJURED | IN BY ACUIUENTS (11) (13) 32 9 0 3 2 18 28 0 0 11 ° 3 33 25 6 ° 3 12 17 ° 1 0 ° 9",
+   "col_no": "11",
+   "name": "BY RIOTOUS MOBS",
    "header": [
-    "INJURED",
-    "IN BY ACUIUENTS (11) (13) 32 9 0 3 2 18 28 0 0 11 ° 3 33 25 6 ° 3 12 17 ° 1 0 ° 9"
+    "BY RIOTOUS MOBS"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "ON TOTAL (12) (14) (2) 273 ANDHRA PRADESH 0 ARUNACHAL PRADESH 55 ASSAN 47 BIHAR 12 GOA 148 GUJARAT 77 HARYANA 3 H*MACHAL PRADESH 303 JAMMU & KASHMIR KARNATAKA 359 467 KERALA 100 MADHYA PRADESH 441 MAHARASHTRA 8 MANIPUR 4 MEGHALAVA ° MIZORAM",
+   "col_no": "12",
+   "name": "BY OTHER CRIMI-NALS",
    "header": [
-    "ON TOTAL (12) (14) (2) 273 ANDHRA PRADESH 0 ARUNACHAL PRADESH 55 ASSAN 47 BIHAR 12 GOA 148 GUJARAT 77 HARYANA 3 H*MACHAL PRADESH 303 JAMMU & KASHMIR KARNATAKA 359 467 KERALA 100 MADHYA PRADESH 441 MAHARASHTRA 8 MANIPUR 4 MEGHALAVA ° MIZORAM"
+    "BY OTHER CRIMI-NALS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ON BORDER DUTIES",
+   "header": [
+    "ON BORDER DUTIES"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "IN ACCIDENTS",
+   "header": [
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "° 0 0 ° ° ° PUNE"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 11,
-  "cells_passed": 11,
+  "cells_checked": 15,
+  "cells_passed": 15,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

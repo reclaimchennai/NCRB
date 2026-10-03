@@ -8,13 +8,13 @@
  "serial": "21",
  "title": "Incidence & Rate of Crime Committed Against Women in States and UTs During 1998",
  "listing_title": "Incidence & Rate of Crime Committed Against Women in States and UTs During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26--incidence-&-rate-of-crime-committed-against-women-in-states-and-uts-during-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-26--incidence-&-rate-of-crime-committed-against-women-in-states-and-uts-during-1998.pdf",
  "source_sha256": "ed6d9d6e44745ce73bfeb8c2c9cfd67e6bc7b7fa3e32ce502f39cae7715bc689",
  "table_no": "26",
- "pdf_title": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-26",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
@@ -25,59 +25,51 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "& RATE OF CRIME INCIDENCE OF TOTALCOG. CRIMES",
+   "name": "INCIDENCE OF TOTAL COG. CRIMES",
    "header": [
-    "& RATE OF CRIME INCIDENCE OF TOTALCOG. CRIMES"
+    "INCIDENCE OF TOTAL COG. CRIMES"
    ]
   },
   {
    "col_no": "4",
-   "name": "AGAINST WOMEN IN STATES AND UTs DURING 1998 | CONTRIBUTION TO ALL-INDIA TOTAL",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL",
    "header": [
-    "AGAINST WOMEN IN STATES AND UTs DURING 1998",
-    "CONTRIBUTION TO ALL-INDIA TOTAL"
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "AGAINST WOMEN IN STATES AND UTs DURING 1998 | ESTIMATED MID-YEAR (IN LAKHS)",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "AGAINST WOMEN IN STATES AND UTs DURING 1998",
-    "ESTIMATED MID-YEAR (IN LAKHS)"
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
    ]
   },
   {
    "col_no": "6",
-   "name": "AGAINST WOMEN IN STATES AND UTs DURING 1998 | RATE OF TOTAL COG. CRIMES",
+   "name": "RATE OF TOTAL COG. CRIMES",
    "header": [
-    "AGAINST WOMEN IN STATES AND UTs DURING 1998",
     "RATE OF TOTAL COG. CRIMES"
    ]
   },
   {
    "col_no": "7",
-   "name": "AGAINST WOMEN IN STATES AND UTs DURING 1998 | RANK",
+   "name": "RANK *",
    "header": [
-    "AGAINST WOMEN IN STATES AND UTs DURING 1998",
-    "RANK"
+    "RANK *"
    ]
   },
   {
    "col_no": "8",
-   "name": "AGAINST WOMEN IN STATES AND UTs DURING 1998 | ** * RANK",
+   "name": "RANK **",
    "header": [
-    "AGAINST WOMEN IN STATES AND UTs DURING 1998",
-    "** * RANK"
+    "RANK **"
    ]
   }
  ],
- "notes": [
-  "Note: 1 * Rank on the basis of Rate of tute: cuginzaure (Col.6).",
-  "2 ** Rank on the basis ut snare (Col.4)."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

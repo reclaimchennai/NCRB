@@ -8,14 +8,14 @@
  "serial": "26",
  "title": "Persons Arrested under IPC Crimes During 1993 (Crime-Head & Sex-Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1993 (Crime-Head & Sex-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-26-1993-crime.pdf",
  "source_sha256": "fa8d29a6f245851d1599f853e6ae0dd3f450efde119105cb00719de5d4740f98",
  "table_no": "26",
- "pdf_title": "PERSONS ARRESTED UNDER IPC CRIMES DURING 1993",
- "row_label": "NO / CRIME HEAG",
+ "pdf_title": "153 TABLE-26 PERSONS ARRESTED UNDER IPC CRIMES DURING 1993",
+ "row_label": "SL NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,16 +25,16 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "py MALE",
+   "name": "MALE",
    "header": [
-    "py MALE"
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "& FEMALE",
+   "name": "FEMALE",
    "header": [
-    "& FEMALE"
+    "FEMALE"
    ]
   },
   {
@@ -54,10 +54,10 @@
   },
   {
    "col_no": "7",
-   "name": "PERCENTAGE TO TOTAL | HEMALE",
+   "name": "PERCENTAGE TO TOTAL | FEMALE",
    "header": [
     "PERCENTAGE TO TOTAL",
-    "HEMALE"
+    "FEMALE"
    ]
   }
  ],
@@ -67,7 +67,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 3,
-  "other_totals_passed": 0
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

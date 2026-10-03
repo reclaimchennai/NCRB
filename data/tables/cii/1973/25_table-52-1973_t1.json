@@ -6,89 +6,101 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "25",
- "title": "‘Tape",
+ "title": "128 TABLE Statement indicating motive of Murder and Culpable Homicide not Amounting to",
  "listing_title": "Statement indicating Motive of Murder and Culpable Homicide not Amounting to Murder in Different States / U.T.s / Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-52-1973.pdf",
  "source_sha256": "b9c2775f2c3801b2822fbb5790c8dd54ce1b10687dd536487fd5d0d28f8e8d2f",
  "table_no": "",
- "pdf_title": "‘Tape",
- "row_label": "Mo. 1 1. oe Bihar 3. 4 5, SSS",
+ "pdf_title": "128 TABLE Statement indicating motive of Murder and Culpable Homicide not Amounting to",
+ "row_label": "Sl.No. / States/U. Ts./Cities",
  "pages": [
   2
  ],
- "n_rows": 29,
- "n_cols": 7,
- "n_cells": 181,
+ "n_rows": 40,
+ "n_cols": 8,
+ "n_cells": 320,
  "columns": [
   {
-   "col_no": "2",
-   "name": "of Murder ded | Gals Stated, Ta a ag a mM i 2 a Haryana 4",
-   "header": [
-    "of Murder ded",
-    "Gals Stated, Ta a ag a mM i 2 a Haryana 4"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "of Murder ded | Murder tingto murder E 1. - 5 1",
+   "name": "Gain | Murder",
    "header": [
-    "of Murder ded",
-    "Murder tingto murder E 1. - 5 1"
+    "Gain",
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "of Murder ded | Cc. - - Murder 5 15 oT OG Siz H a a0",
+   "name": "Gain | C.H. not amounting to murder",
    "header": [
-    "of Murder ded",
-    "Cc. - - Murder 5 15 oT OG Siz H a a0"
+    "Gain",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "of Murder ded | Property ting to 4 6 1 q er 26 - 2 3",
+   "name": "Dispute over | Property | Murder",
    "header": [
-    "of Murder ded",
-    "Property ting to 4 6 1 q er 26 - 2 3"
+    "Dispute over",
+    "Property",
+    "Murder"
    ]
   },
   {
    "col_no": "6",
-   "name": "of Murder ded | Personal - Murder 1 14 103 Mo “0 27 3",
+   "name": "Dispute over | Property | C.H. not amounting to murder",
    "header": [
-    "of Murder ded",
-    "Personal - Murder 1 14 103 Mo “0 27 3"
+    "Dispute over",
+    "Property",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "7",
-   "name": "myp Murder CH net ammount ting to monde: 158 a 9 9 MM red - a",
+   "name": "Personal | Vendatta | Murder",
    "header": [
-    "myp Murder CH net ammount ting to monde: 158 a 9 9 MM red - a"
+    "Personal",
+    "Vendatta",
+    "Murder"
    ]
   },
   {
    "col_no": "8",
-   "name": "2 to CH. not amotnting to murder 10 - 4 - 2 I 3",
+   "name": "Personal | Vendatta | C.H. not amounting to murder",
    "header": [
-    "2 to CH. not amotnting to murder 10 - 4 - 2 I 3"
+    "Personal",
+    "Vendatta",
+    "C.H. not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Sexual cases | Murder",
+   "header": [
+    "Sexual cases",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Sexual cases | C.H. not amounting to murder",
+   "header": [
+    "Sexual cases",
+    "C.H. not amounting to murder"
    ]
   }
  ],
- "notes": [
-  "TUL 2 1 u i 45 ia 133 ig “4 3"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 25,
+  "other_totals_passed": 22
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

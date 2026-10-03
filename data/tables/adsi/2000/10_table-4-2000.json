@@ -8,32 +8,32 @@
  "serial": "10",
  "title": "Distribution of Accidental Deaths (Natural causes & Un-natural causes) by Sex & Age Group during 2000 (State, UT & City-wise)",
  "listing_title": "Distribution of Accidental Deaths (Natural causes & Un-natural causes) by Sex & Age Group during 2000 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-4_2000.pdf",
  "source_file": "raw/adsi/2000/table_content/table-4_2000.pdf",
  "source_sha256": "48768e7d12bdc4f71e82c57e1784de388a4008695d25a5297f4ec1e977bee2c3",
  "table_no": "4",
- "pdf_title": "of 4==:2==2=: Deaths (Natural Causes & Un-natural Causes) By Sex & Age Group During 2000 (State, UT & City-wise)",
- "row_label": "Upto 14 Years mained",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 2000 N.C.R.B., (M.H.A.) TABLE-4",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2
  ],
- "n_rows": 84,
+ "n_rows": 60,
  "n_cols": 24,
- "n_cells": 1380,
+ "n_cells": 1416,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Upto 14 Years | Mele -",
+   "col_no": "2",
+   "name": "Upto 14 Years | Male",
    "header": [
     "Upto 14 Years",
-    "Mele -"
+    "Male"
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "3",
    "name": "Upto 14 Years | Female",
    "header": [
     "Upto 14 Years",
@@ -41,7 +41,7 @@
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "Upto 14 Years | Total",
    "header": [
     "Upto 14 Years",
@@ -49,181 +49,192 @@
    ]
   },
   {
-   "col_no": "6",
-   "name": "Upto 14 Years | % to Total - (Col.6/ Col.26) x 100",
+   "col_no": "5",
+   "name": "Upto 14 Years | % to Total (Col.5/ Col.26) x 100",
    "header": [
     "Upto 14 Years",
-    "% to Total - (Col.6/ Col.26) x 100"
+    "% to Total (Col.5/ Col.26) x 100"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "15-29 Years | Male",
+   "header": [
+    "15-29 Years",
+    "Male"
    ]
   },
   {
    "col_no": "7",
-   "name": "Upto 14 Years | Mele",
+   "name": "15-29 Years | Female",
    "header": [
-    "Upto 14 Years",
-    "Mele"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "15-29 fears",
-   "header": [
-    "15-29 fears"
+    "15-29 Years",
+    "Female"
    ]
   },
   {
    "col_no": "9",
-   "name": "15-29 fears | Total",
+   "name": "15-29 Years | Total",
    "header": [
-    "15-29 fears",
+    "15-29 Years",
     "Total"
    ]
   },
   {
    "col_no": "10",
-   "name": "% to Total - (Col.9/ Col. 26) x 100",
+   "name": "15-29 Years | % to Total (Col.9/ Col. 26) x 100",
    "header": [
-    "% to Total - (Col.9/ Col. 26) x 100"
+    "15-29 Years",
+    "% to Total (Col.9/ Col. 26) x 100"
    ]
   },
   {
    "col_no": "11",
-   "name": "Mele",
+   "name": "30-44 Years | Male",
    "header": [
-    "Mele"
+    "30-44 Years",
+    "Male"
    ]
   },
   {
    "col_no": "12",
-   "name": "30-44 Female",
+   "name": "30-44 Years | Female",
    "header": [
-    "30-44 Female"
+    "30-44 Years",
+    "Female"
    ]
   },
   {
    "col_no": "13",
-   "name": "fears Totel",
+   "name": "30-44 Years | Total",
    "header": [
-    "fears Totel"
+    "30-44 Years",
+    "Total"
    ]
   },
   {
    "col_no": "14",
-   "name": "% to Total (Col. 13/ Col. 26) x 100",
+   "name": "30-44 Years | % to Total (Col.13/ Col. 26) x 100",
    "header": [
-    "% to Total (Col. 13/ Col. 26) x 100"
+    "30-44 Years",
+    "% to Total (Col.13/ Col. 26) x 100"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "45-5!) Years | - ny (2)",
+   "col_no": "15",
+   "name": "45-59 Years | Male",
    "header": [
-    "45-5!) Years",
-    "- ny (2)"
+    "45-59 Years",
+    "Male"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "45-5!) Years | Male (15)",
+   "col_no": "16",
+   "name": "45-59 Years | Female",
    "header": [
-    "45-5!) Years",
-    "Male (15)"
+    "45-59 Years",
+    "Female"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "45-5!) Years | Femele (16)",
+   "col_no": "17",
+   "name": "45-59 Years | Total",
    "header": [
-    "45-5!) Years",
-    "Femele (16)"
+    "45-59 Years",
+    "Total"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "45-5!) Years | - Totat (17)",
+   "col_no": "18",
+   "name": "45-59 Years | % to Total (Col.17/ Col.25) x 100",
    "header": [
-    "45-5!) Years",
-    "- Totat (17)"
+    "45-59 Years",
+    "% to Total (Col.17/ Col.25) x 100"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "45-5!) Years | % to Totel pang ty Mele x 100 (18)",
+   "col_no": "19",
+   "name": "60 Years & above | Male",
    "header": [
-    "45-5!) Years",
-    "% to Totel pang ty Mele x 100 (18)"
+    "60 Years & above",
+    "Male"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "60 Year & above | Female (19)",
+   "col_no": "20",
+   "name": "60 Years & above | Female",
    "header": [
-    "60 Year & above",
-    "Female (19)"
+    "60 Years & above",
+    "Female"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "60 Year & above | - Total (20)",
+   "col_no": "21",
+   "name": "60 Years & above | Total",
    "header": [
-    "60 Year & above",
-    "- Total (20)"
+    "60 Years & above",
+    "Total"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "% to (21)",
+   "col_no": "22",
+   "name": "60 Years & above | % to Total (Col.21/ Col. 25) x 100",
    "header": [
-    "% to (21)"
+    "60 Years & above",
+    "% to Total (Col.21/ Col. 25) x 100"
    ]
   },
   {
-   "col_no": "10009",
-   "name": "Male x 100 (22)",
+   "col_no": "23",
+   "name": "Total | Male",
    "header": [
-    "Male x 100 (22)"
+    "Total",
+    "Male"
    ]
   },
   {
-   "col_no": "10010",
-   "name": "Female (23)",
+   "col_no": "24",
+   "name": "Total | Female",
    "header": [
-    "Female (23)"
+    "Total",
+    "Female"
    ]
   },
   {
-   "col_no": "10011",
-   "name": "Total (24)",
+   "col_no": "25",
+   "name": "Total | Total",
    "header": [
-    "Total (24)"
+    "Total",
+    "Total"
    ]
   },
   {
-   "col_no": "10012",
-   "name": "Male % pea x 100 (26) (26)",
+   "col_no": "26",
+   "name": "Total | Male % (Col.23/ Col.25) x 100",
    "header": [
-    "Male % pea x 100 (26) (26)"
+    "Total",
+    "Male % (Col.23/ Col.25) x 100"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 21,
-  "cells_passed": 5,
+  "cells_checked": 63,
+  "cells_passed": 49,
   "failures": [
-   "col 3 'TOTAL (States)': printed 13263, sum 13253",
-   "col 3 'TOTAL (All-India)': printed 13608, sum 13618",
-   "col 4 'TOTAL (States)': printed 7105, sum 7065",
-   "col 8 'TOTAL (States)': printed 23336, sum 23366",
-   "col 9 'TOTAL (States)': printed 70784, sum 65140",
-   "col 11 'TOTAL (States)': printed 61958, sum 57810",
-   "col 11 'TOTAL (All-India)': printed 64273, sum 64274",
-   "col 12 'TOTAL (All-India)': printed 21260, sum 21250"
+   "col 2 'Total (States)': printed 13263, sum 13253",
+   "col 2 'Total (All-India)': printed 13608, sum 13618",
+   "col 3 'Total (States)': printed 7105, sum 7125",
+   "col 3 'Total (All-India)': printed 7286, sum 7266",
+   "col 4 'Total (States)': printed 20358, sum 20360",
+   "col 11 'Total (States)': printed 61958, sum 61978",
+   "col 12 'Total (All-India)': printed 21260, sum 21250",
+   "col 13 'Total (States)': printed 82748, sum 82968"
   ],
-  "other_totals_checked": 10,
-  "other_totals_passed": 3
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

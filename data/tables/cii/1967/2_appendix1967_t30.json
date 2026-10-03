@@ -6,59 +6,70 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "APPENDIX XXUT",
+ "title": "87 APPENDIX XIV PERSONS",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix1967.pdf",
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "APPENDIX XXUT",
- "row_label": "PERSONS - Persons Persons Persons inwhose released bythe cases. police or - sheet magistrate was laid before. trial 6 128 -35- - 69 716 89 94. 20 1204 15.",
+ "pdf_title": "87 APPENDIX XIV PERSONS",
+ "row_label": "Persons released by the police or magistrate before trial",
  "pages": [
-  45
+  29
  ],
- "n_rows": 32,
- "n_cols": 5,
- "n_cells": 145,
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
    "col_no": "2",
-   "name": "Persons convicted. acquitted. ordis--, charged - - ‘204 142, 310 650 ‘i",
+   "name": "Persons in whose case charge-sheet was laid",
    "header": [
-    "Persons convicted. acquitted. ordis--, charged - - ‘204 142, 310 650 ‘i"
+    "Persons in whose case charge-sheet was laid"
    ]
   },
   {
    "col_no": "3",
-   "name": "Persons against whom cases were compounded or withdrawn 8 68",
+   "name": "Persons convicted",
    "header": [
-    "Persons against whom cases were compounded or withdrawn 8 68"
+    "Persons convicted"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons. | Persons incustody pending investiga- 9 64 37 - 60 64 118 170 213 282. 68 87",
+   "name": "Persons acquitted or discharged",
    "header": [
-    "Persons.",
-    "Persons incustody pending investiga- 9 64 37 - 60 64 118 170 213 282. 68 87"
+    "Persons acquitted or discharged"
    ]
   },
   {
    "col_no": "5",
-   "name": "Persons. | pending trial or tion.or on on bdsil bail during, during the stage of trial at the end of the year 12 10 111 19. 485 6 103 1,385 310 233 273. 15",
+   "name": "Persons against whose cases were compounded or withdrawn",
    "header": [
-    "Persons.",
-    "pending trial or tion.or on on bdsil bail during, during the stage of trial at the end of the year 12 10 111 19. 485 6 103 1,385 310 233 273. 15"
+    "Persons against whose cases were compounded or withdrawn"
    ]
   },
   {
    "col_no": "6",
-   "name": "Persons. | Percentage of conviction. thestage ofinvestigation at the end of the year - 13 il 69-2 55-9 - 3:0 48 9 * 50-0",
+   "name": "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year",
    "header": [
-    "Persons.",
-    "Percentage of conviction. thestage ofinvestigation at the end of the year - 13 il 69-2 55-9 - 3:0 48 9 * 50-0"
+    "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Persons in custody pending trial or on the bail during the stage of trial at the end of the year.",
+   "header": [
+    "Persons in custody pending trial or on the bail during the stage of trial at the end of the year."
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of conviction",
+   "header": [
+    "Percentage of conviction"
    ]
   }
  ],
@@ -70,7 +81,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

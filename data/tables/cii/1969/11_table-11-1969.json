@@ -8,21 +8,26 @@
  "serial": "11",
  "title": "Cases Reported under Local and Special Laws",
  "listing_title": "Cases Reported under Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-11-1969.pdf",
  "source_file": "raw/cii/1969/table_content/table-11-1969.pdf",
  "source_sha256": "0bb172a7e40ab7764acb8d7e601151a413b1cdc617527d04d47e65145a2f479d",
  "table_no": "",
- "pdf_title": "TABLE—11 CASES REPURTED UNDEK LOCAL AND SPECIAT. LAWS",
+ "pdf_title": "37 TABLE—11 CASES REPORTED UNDER LOCAL AND SPECIAL LAWS",
  "row_label": "",
  "pages": [
   1
  ],
  "n_rows": 9,
- "n_cols": 5,
- "n_cells": 45,
+ "n_cols": 6,
+ "n_cells": 50,
  "columns": [
+  {
+   "col_no": "1",
+   "name": "col_1",
+   "header": []
+  },
   {
    "col_no": "2",
    "name": "1966",
@@ -53,9 +58,9 @@
   },
   {
    "col_no": "6",
-   "name": "% of variation during 1969 over",
+   "name": "% of variation during 1969 over 1968",
    "header": [
-    "% of variation during 1969 over"
+    "% of variation during 1969 over 1968"
    ]
   }
  ],
@@ -64,10 +69,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
- "inferred_pages": 0,
+ "inferred_pages": 1,
  "ocr_pages": 1,
  "warnings": []
 }

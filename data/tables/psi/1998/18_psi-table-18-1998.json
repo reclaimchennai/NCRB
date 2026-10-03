@@ -8,116 +8,176 @@
  "serial": "18",
  "title": "Table 18: Distribution of Foreigner Undertrials by age groups at the end of 1998",
  "listing_title": "Table 18: Distribution of Foreigner Undertrials by age groups at the end of 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-18_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-18_1998.pdf",
  "source_sha256": "2295070a68f60396639ad0b0c15c579516ece09014b8f349acc380e2394dd0f5",
  "table_no": "18",
- "pdf_title": "DISTRIBUTION OF FOREIGNERS UNDERTRIALS BY AGE GROUPS AT THE END OF 1998",
- "row_label": "ae,",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-18",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 42,
- "n_cols": 12,
- "n_cells": 153,
+ "n_rows": 35,
+ "n_cols": 18,
+ "n_cells": 630,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
    "col_no": "3",
-   "name": "M (3)",
+   "name": "BELOW 16 YEARS | M",
    "header": [
+    "BELOW 16 YEARS",
     "M"
    ]
   },
   {
    "col_no": "4",
-   "name": "18 - 30 YEARS 16 - 18 YEARS BELOW 16 YEARS F M T T F M T F",
+   "name": "BELOW 16 YEARS | F",
    "header": [
-    "18 - 30 YEARS 16 - 18 YEARS BELOW 16 YEARS F M T T F M T F"
+    "BELOW 16 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BELOW 16 YEARS | T",
+   "header": [
+    "BELOW 16 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "16 - 18 YEARS | M",
+   "header": [
+    "16 - 18 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "16 - 18 YEARS | F",
+   "header": [
+    "16 - 18 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "16 - 18 YEARS | T",
+   "header": [
+    "16 - 18 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "18 - 30 YEARS | M",
+   "header": [
+    "18 - 30 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "18 - 30 YEARS | F",
+   "header": [
+    "18 - 30 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "18 - 30 YEARS | T",
+   "header": [
+    "18 - 30 YEARS",
+    "T"
    ]
   },
   {
    "col_no": "12",
-   "name": "M (12)",
+   "name": "30 - 50 YEARS | M",
    "header": [
+    "30 - 50 YEARS",
     "M"
    ]
   },
   {
    "col_no": "13",
-   "name": "30 - 50 YEARS F",
+   "name": "30 - 50 YEARS | F",
    "header": [
-    "30 - 50 YEARS F"
+    "30 - 50 YEARS",
+    "F"
    ]
   },
   {
    "col_no": "14",
-   "name": "T (14)",
+   "name": "30 - 50 YEARS | T",
    "header": [
+    "30 - 50 YEARS",
     "T"
    ]
   },
   {
    "col_no": "15",
-   "name": "M (15)",
+   "name": "50 YEARS & ABOVE | M",
    "header": [
+    "50 YEARS & ABOVE",
     "M"
    ]
   },
   {
    "col_no": "16",
-   "name": "50 YEARS & ABOVE F (16)",
+   "name": "50 YEARS & ABOVE | F",
    "header": [
-    "50 YEARS & ABOVE F"
+    "50 YEARS & ABOVE",
+    "F"
    ]
   },
   {
    "col_no": "17",
-   "name": "50 YEARS & ABOVE F (17)",
+   "name": "50 YEARS & ABOVE | T",
    "header": [
-    "50 YEARS & ABOVE F"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "T (18)",
-   "header": [
+    "50 YEARS & ABOVE",
     "T"
    ]
   },
   {
-   "col_no": "19",
-   "name": "M (19)",
+   "col_no": "18",
+   "name": "TOTAL (ALL AGE GROUPS) | M",
    "header": [
+    "TOTAL (ALL AGE GROUPS)",
     "M"
    ]
   },
   {
-   "col_no": "20",
-   "name": "aut AGL On ours) F T",
+   "col_no": "19",
+   "name": "TOTAL (ALL AGE GROUPS) | F",
    "header": [
-    "aut AGL On ours) F T"
+    "TOTAL (ALL AGE GROUPS)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "TOTAL (ALL AGE GROUPS) | T",
+   "header": [
+    "TOTAL (ALL AGE GROUPS)",
+    "T"
    ]
   }
  ],
- "notes": [
-  "NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 54,
+  "cells_passed": 54,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

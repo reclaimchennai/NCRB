@@ -8,33 +8,33 @@
  "serial": "3",
  "title": "Table 3: Distribution of female inmates in the Country by Category and Percentage share at the end of 1999",
  "listing_title": "Table 3: Distribution of female inmates in the Country by Category and Percentage share at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-03_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-03_1999.pdf",
  "source_sha256": "e2447f3278ea2853a4bdd656afbcb9fe15eaf53b21b3e41c772992559eff7560",
  "table_no": "3",
- "pdf_title": "DISTRIBUTION OF FEMALE INMATES IN THE COUNTRY BY CATEGORY AND PERCENTAGE SHARE AT THE END OF 1999",
- "row_label": "- sR. )",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-3",
+ "row_label": "SR. NO. / TYPE",
  "pages": [
   1
  ],
  "n_rows": 9,
  "n_cols": 11,
- "n_cells": 88,
+ "n_cells": 99,
  "columns": [
   {
    "col_no": "3",
-   "name": "TYPE",
+   "name": "MENTALLY ILL",
    "header": [
-    "TYPE"
+    "MENTALLY ILL"
    ]
   },
   {
    "col_no": "4",
-   "name": "MENTALLY TALLY",
+   "name": "% SHARE (4)",
    "header": [
-    "MENTALLY TALLY"
+    "% SHARE"
    ]
   },
   {
@@ -53,42 +53,42 @@
   },
   {
    "col_no": "7",
-   "name": "UNDERUNDER",
+   "name": "UNDER-TRIALS",
    "header": [
-    "UNDERUNDER"
+    "UNDER-TRIALS"
    ]
   },
   {
    "col_no": "8",
-   "name": "@ SHARE DETENUS % SHARE (8)",
+   "name": "% SHARE (8)",
    "header": [
-    "@ SHARE DETENUS % SHARE"
+    "% SHARE"
    ]
   },
   {
    "col_no": "9",
-   "name": "@ SHARE DETENUS % SHARE (9)",
+   "name": "DETENUS",
    "header": [
-    "@ SHARE DETENUS % SHARE"
+    "DETENUS"
    ]
   },
   {
    "col_no": "10",
-   "name": "@ SHARE DETENUS % SHARE (10)",
+   "name": "% SHARE (10)",
    "header": [
-    "@ SHARE DETENUS % SHARE"
+    "% SHARE"
    ]
   },
   {
    "col_no": "11",
-   "name": "OTHERS ay",
+   "name": "OTHERS",
    "header": [
-    "OTHERS ay"
+    "OTHERS"
    ]
   },
   {
    "col_no": "12",
-   "name": "% SHARE",
+   "name": "% SHARE (12)",
    "header": [
     "% SHARE"
    ]
@@ -106,8 +106,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 1
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

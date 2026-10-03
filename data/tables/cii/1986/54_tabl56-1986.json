@@ -8,135 +8,124 @@
  "serial": "54",
  "title": "Number of Police Personnel Killed or Injured on Duty During 1986",
  "listing_title": "Number of Police Personnel Killed or Injured on Duty During 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl56-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl56-1986.pdf",
  "source_sha256": "34c3a72425a1a5e17673bb942068c7bd7962c568425cd2b5dc19660adec67eac",
  "table_no": "56",
- "pdf_title": "",
- "row_label": "Sl. Statee/1_Ts/Cities No. / Sl. Statee/1_Ts/Cities",
+ "pdf_title": "117 TABLE 56 Number Of Police Personnel Killed Or Injured Or. Duty During 1986",
+ "row_label": "Sl. States/U.Ts/Cities No.",
  "pages": [
   1,
   2
  ],
- "n_rows": 65,
+ "n_rows": 51,
  "n_cols": 12,
- "n_cells": 512,
+ "n_cells": 576,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Number Of Police raids",
+   "col_no": "2",
+   "name": "In dacoity Operation or other raids",
    "header": [
-    "Number Of Police raids"
+    "In dacoity Operation or other raids"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "BY riotous mobs",
+   "header": [
+    "BY riotous mobs"
    ]
   },
   {
    "col_no": "4",
-   "name": "Injured Or. Duty During 1986 | BY riotous",
+   "name": "By other criminals (4)",
    "header": [
-    "Injured Or. Duty During 1986",
-    "BY riotous"
+    "By other criminals"
    ]
   },
   {
    "col_no": "5",
-   "name": "Injured Or. Duty During 1986 | By other",
+   "name": "On border duties (5)",
    "header": [
-    "Injured Or. Duty During 1986",
-    "By other"
+    "On border duties"
    ]
   },
   {
    "col_no": "6",
-   "name": "Injured Or. Duty During 1986 | On border",
+   "name": "In accidents (6)",
    "header": [
-    "Injured Or. Duty During 1986",
-    "On border"
+    "In accidents"
    ]
   },
   {
    "col_no": "7",
-   "name": "Injured Or. Duty During 1986 | In aes",
+   "name": "Total (7)",
    "header": [
-    "Injured Or. Duty During 1986",
-    "In aes"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Injured Or. Duty During 1986 | Total",
-   "header": [
-    "Injured Or. Duty During 1986",
     "Total"
    ]
   },
   {
    "col_no": "10001",
-   "name": "Injured | orother raids 2",
+   "name": "In decoity operations or other raids",
    "header": [
-    "Injured",
-    "orother raids 2"
+    "In decoity operations or other raids"
    ]
   },
   {
    "col_no": "10002",
-   "name": "Injured | riotous mobs 9",
+   "name": "By riotous mobs",
    "header": [
-    "Injured",
-    "riotous mobs 9"
+    "By riotous mobs"
    ]
   },
   {
    "col_no": "10003",
-   "name": "Injured | other criminals 10",
+   "name": "By other criminals (10003)",
    "header": [
-    "Injured",
-    "other criminals 10"
+    "By other criminals"
    ]
   },
   {
    "col_no": "10004",
-   "name": "Injured | border duties ll",
+   "name": "On border duties (10004)",
    "header": [
-    "Injured",
-    "border duties ll"
+    "On border duties"
    ]
   },
   {
    "col_no": "10005",
-   "name": "Injured | accidents 12",
+   "name": "In accidents (10005)",
    "header": [
-    "Injured",
-    "accidents 12"
+    "In accidents"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "14 13",
+   "col_no": "8",
+   "name": "Total (8)",
    "header": [
-    "14 13"
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 10,
-  "cells_passed": 1,
+  "cells_checked": 23,
+  "cells_passed": 16,
   "failures": [
-   "col 4 'TOTAL (STATES)': printed 42, sum 40",
-   "col 8 'TOTAL (STATES)': printed 287, sum 285",
-   "col 10001 'TOTAL (STATES)': printed 267, sum 75",
-   "col 10001 'TOTAL(U. Ts.)': printed 1, sum 152",
-   "col 10002 'TOTAL (STATES)': printed 2659, sum 874",
-   "col 10002 'TOTAL(U. Ts.)': printed 231, sum 1446",
-   "col 10003 'TOTAL (STATES)': printed 565, sum 172",
-   "col 10005 'TOTAL (STATES)': printed 341, sum 131"
+   "col 3 'TOTAL (STATES)': printed 42, sum 46",
+   "col 4 'TOTAL (STATES)': printed 73, sum 78",
+   "col 5 'TOTAL (STATES)': printed 8, sum 14",
+   "col 6 'TOTAL (STATES)': printed 141, sum 148",
+   "col 7 'TOTAL (STATES)': printed 287, sum 295",
+   "col 10003 'TOTAL (STATES)': printed 565, sum 562",
+   "col 8 'TOTAL (STATES)': printed 3921, sum 3917"
   ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 9,
+  "other_totals_passed": 9
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

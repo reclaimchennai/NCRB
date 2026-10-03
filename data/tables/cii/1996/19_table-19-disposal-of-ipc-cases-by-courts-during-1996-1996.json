@@ -8,66 +8,69 @@
  "serial": "19",
  "title": "Disposal of IPC Cases by Courts During 1996",
  "listing_title": "Disposal of IPC Cases by Courts During 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-19--disposal-of-ipc-cases-by-courts-during-1996-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-19--disposal-of-ipc-cases-by-courts-during-1996-1996.pdf",
  "source_sha256": "412a466c97222db55b3675f89d7f278ce8d00d6e00395318cb4321aee23a5a4f",
  "table_no": "19",
- "pdf_title": "DISPOSAL OF IPC CASES BY COURTS DURING 1996",
- "row_label": "SL. NO. / HEADS",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-19",
+ "row_label": "SL. NO. / CRIME HEADS",
  "pages": [
   1
  ],
  "n_rows": 24,
  "n_cols": 6,
- "n_cells": 143,
+ "n_cells": 144,
  "columns": [
   {
    "col_no": "3",
-   "name": "TOTAL NO. OF CASES FOR CASES",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "TOTAL NO. OF CASES FOR CASES"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "NO. OF CASES | COMPOUNW/THORAWN “OR",
+   "name": "NO. OF CASES | COMPOUN-DED OR WITHDRAWN",
    "header": [
     "NO. OF CASES",
-    "COMPOUNW/THORAWN “OR"
+    "COMPOUN-DED OR WITHDRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. OF CASES | CONVICT ED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVICT ED",
    "header": [
     "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
     "CONVICT ED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES | TED OR Dis- CHARGED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUIT- TED OR DIS-CHARGED",
    "header": [
     "NO. OF CASES",
-    "TED OR Dis- CHARGED"
+    "IN WHICH TRIALS WERE COMPLETED",
+    "ACQUIT- TED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. OF CASES | WHICH TRIALS WERE COMPLETED ACQUITTOTAL (5) (6)}",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL {(5) + (6)}",
    "header": [
     "NO. OF CASES",
-    "WHICH TRIALS WERE COMPLETED ACQUITTOTAL (5) (6)}"
+    "IN WHICH TRIALS WERE COMPLETED",
+    "TOTAL {(5) + (6)}"
    ]
   },
   {
    "col_no": "8",
-   "name": "NO. OF CASES | PENDING",
+   "name": "NO. OF CASES | PENDING TRIAL",
    "header": [
     "NO. OF CASES",
-    "PENDING"
+    "PENDING TRIAL"
    ]
   }
  ],
@@ -76,8 +79,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

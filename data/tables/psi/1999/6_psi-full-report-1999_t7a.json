@@ -6,41 +6,43 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "Download Full Report",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-7A",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "7A",
- "pdf_title": "",
- "row_label": "va / 1",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-7A",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
+  65,
   66,
   67,
+  68,
   69,
   70,
   71,
   72
  ],
- "n_rows": 108,
- "n_cols": 19,
- "n_cells": 391,
+ "n_rows": 191,
+ "n_cols": 7,
+ "n_cells": 1337,
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER",
+   "name": "NUMBER OF JAILS",
    "header": [
-    "NUMBER"
+    "NUMBER OF JAILS"
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL CAPACITY OF INMATES | MALE 141",
+   "name": "TOTAL CAPACITY OF INMATES | MALE",
    "header": [
     "TOTAL CAPACITY OF INMATES",
-    "MALE 141"
+    "MALE"
    ]
   },
   {
@@ -61,128 +63,43 @@
   },
   {
    "col_no": "7",
-   "name": "MALE",
+   "name": "INMATES POPULATION | MALE",
    "header": [
+    "INMATES POPULATION",
     "MALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "INMATES POPULATION FEMALE",
-   "header": [
-    "INMATES POPULATION FEMALE"
-   ]
-  },
-  {
-   "col_no": "91",
-   "name": "TOTAL",
-   "header": [
-    "TOTAL"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "TOTAL CAPACITY OF INMATES | 121",
-   "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "121"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "TOTAL CAPACITY OF INMATES | NUMBER FJAILS (3)",
-   "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "NUMBER FJAILS (3)"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "TOTAL CAPACITY OF INMATES | MALE (4)",
-   "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "MALE (4)"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "INMATES POPULATION | MALE] TOTAL 161",
+   "name": "INMATES POPULATION | FEMALE",
    "header": [
     "INMATES POPULATION",
-    "MALE] TOTAL 161"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "INMATES POPULATION | (7)",
-   "header": [
-    "INMATES POPULATION",
-    "(7)"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "INMATES POPULATION | TOTAL FEMALE - (8) (9)",
-   "header": [
-    "INMATES POPULATION",
-    "TOTAL FEMALE - (8) (9)"
+    "FEMALE"
    ]
   },
   {
    "col_no": "9",
-   "name": "PRISON STATISTICS - 1999 INMATES POPULATION | TOTAL FEMALE",
+   "name": "INMATES POPULATION | TOTAL",
    "header": [
-    "PRISON STATISTICS - 1999 INMATES POPULATION",
-    "TOTAL FEMALE"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "TOTAL CAPACITY OF INMATES | OF JAILS (3)",
-   "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "OF JAILS (3)"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "TOTAL CAPACITY OF INMATES | TOTAL FEMALE 15)",
-   "header": [
-    "TOTAL CAPACITY OF INMATES",
-    "TOTAL FEMALE 15)"
-   ]
-  },
-  {
-   "col_no": "10009",
-   "name": "INMATES POPULATION FEMALE MALE .(7)",
-   "header": [
-    "INMATES POPULATION FEMALE MALE .(7)"
-   ]
-  },
-  {
-   "col_no": "10010",
-   "name": "TOTAL -",
-   "header": [
-    "TOTAL -"
-   ]
-  },
-  {
-   "col_no": "10011",
-   "name": "MALE TOTAL. (7)",
-   "header": [
-    "MALE TOTAL. (7)"
+    "INMATES POPULATION",
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 72,
+  "cells_passed": 68,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 30972, sum 30992",
+   "col 4 'TOTAL (STATES)': printed 382, sum 389",
+   "col 4 'TOTAL (ALL INDIA)': printed 1379, sum 1372",
+   "col 5 'TOTAL (STATES)': printed 3586, sum 3587"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 3,
- "ocr_pages": 6,
+ "inferred_pages": 0,
+ "ocr_pages": 8,
  "warnings": []
 }

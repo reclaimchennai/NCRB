@@ -8,14 +8,14 @@
  "serial": "59",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1997",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-39-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-39-1996-crime-survey.pdf",
  "source_sha256": "42040ce7cc6daf90e220c437d0bca61465b8faec0377a1ebb23e86cca76478df",
  "table_no": "39",
- "pdf_title": "NUMBER OF CASES REPUHTED AND VALUE OF rrureniy STOLEN BY PLACE OF OCCURRENCE DURING 1997",
- "row_label": "(Rs. in lakh) SL. NO. / (Rs. in lakh) PLACE OF OCCURRENCE",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-39",
+ "row_label": "SL. NO. / PLACE OF OCCURRENCE",
  "pages": [
   1
  ],
@@ -25,66 +25,66 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(Rs. in lakh) | DACOITY NUMBER",
+   "name": "DACOITY | NUMBER",
    "header": [
-    "(Rs. in lakh)",
-    "DACOITY NUMBER"
+    "DACOITY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "(Rs. in lakh) | VALUE (4)",
+   "name": "DACOITY | VALUE",
    "header": [
-    "(Rs. in lakh)",
+    "DACOITY",
     "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "(Rs. in lakh) | ROBBERY NUMBER",
+   "name": "ROBBERY | NUMBER",
    "header": [
-    "(Rs. in lakh)",
-    "ROBBERY NUMBER"
+    "ROBBERY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "(Rs. in lakh) | VALUE (6)",
+   "name": "ROBBERY | VALUE",
    "header": [
-    "(Rs. in lakh)",
+    "ROBBERY",
     "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "(Rs. in lakh) | BURGLARY NUMBER",
+   "name": "BURGLARY | NUMBER",
    "header": [
-    "(Rs. in lakh)",
-    "BURGLARY NUMBER"
+    "BURGLARY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "(Rs. in lakh) | VALUE (8)",
+   "name": "BURGLARY | VALUE",
    "header": [
-    "(Rs. in lakh)",
+    "BURGLARY",
     "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "(Rs. in lakh) | THEFT NUMBER",
+   "name": "THEFT | NUMBER",
    "header": [
-    "(Rs. in lakh)",
-    "THEFT NUMBER"
+    "THEFT",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "(Rs. in lakh) | - VALUE",
+   "name": "THEFT | VALUE",
    "header": [
-    "(Rs. in lakh)",
-    "- VALUE"
+    "THEFT",
+    "VALUE"
    ]
   }
  ],

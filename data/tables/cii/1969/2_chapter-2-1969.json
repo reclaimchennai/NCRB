@@ -8,52 +8,129 @@
  "serial": "2",
  "title": "Juvenile Delinquency",
  "listing_title": "Juvenile Delinquency",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-2-1969.pdf",
  "source_file": "raw/cii/1969/table_chapter/chapter-2-1969.pdf",
  "source_sha256": "b69618a6c473fc9ee30c33046adbe3b2d4f44bc8268129918fa10e3cc3aa1472",
- "table_no": "18",
- "pdf_title": "JUVENILE APPREHENDED DURING 1960 AND 1964 TO 1969",
- "row_label": "(By age groups) 1960 (Base Year) .. 1964 1965 1966 1967 1968 1969",
+ "table_no": "17",
+ "pdf_title": "58 TABLE 17 JUVENILES APPREHENDED DURING 1960 AND 1964 TO 1969",
+ "row_label": "Years",
  "pages": [
+  10,
   10
  ],
- "n_rows": 2,
- "n_cols": 4,
- "n_cells": 8,
+ "n_rows": 7,
+ "n_cols": 15,
+ "n_cells": 104,
  "columns": [
   {
    "col_no": "2",
-   "name": "(By age groups) | 1960 (Base Year) .. | ais ie wie as Percentage change",
+   "name": "Years (2)",
    "header": [
-    "(By age groups)",
-    "1960 (Base Year) ..",
-    "ais ie wie as Percentage change"
+    "Years"
    ]
   },
   {
    "col_no": "3",
-   "name": "(By age groups) | 7-12 Number .. ai vs “8 ss ae aus",
+   "name": "Years (3)",
    "header": [
-    "(By age groups)",
-    "7-12 Number .. ai vs “8 ss ae aus"
+    "Years"
    ]
   },
   {
    "col_no": "4",
-   "name": "(By age groups) | 12-16 Years Number % to total 13-4 14,315 16-2 14,055 15-4 15,908 13-5 17,072 14:1 17,680 11-3 16,548 axe 10-6 17,200 -",
+   "name": "Years (4)",
    "header": [
-    "(By age groups)",
-    "12-16 Years Number % to total 13-4 14,315 16-2 14,055 15-4 15,908 13-5 17,072 14:1 17,680 11-3 16,548 axe 10-6 17,200 -"
+    "Years"
    ]
   },
   {
    "col_no": "5",
-   "name": "(By age groups) | ‘Years 16-21 Years Over Number all % % to total tototal age group 29-1 57°5 6,612 28,349 49,276 21-2 62°6 10,720 41,383 66,158 23-3 61-3 10,542 41,824 68,274 25-4 61-1 9,104 41,081 67,257 24°5 61:4 10,195 44,234 72,109 22°5 66-2 8,262 48,648 73,458 21-8 67-6 8,349 53,319 78,868",
+   "name": "By Sex | Boys",
    "header": [
-    "(By age groups)",
-    "‘Years 16-21 Years Over Number all % % to total tototal age group 29-1 57°5 6,612 28,349 49,276 21-2 62°6 10,720 41,383 66,158 23-3 61-3 10,542 41,824 68,274 25-4 61-1 9,104 41,081 67,257 24°5 61:4 10,195 44,234 72,109 22°5 66-2 8,262 48,648 73,458 21-8 67-6 8,349 53,319 78,868"
+    "By Sex",
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "By Sex | Girls",
+   "header": [
+    "By Sex",
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "By Sex | Total",
+   "header": [
+    "By Sex",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By Sex | Percentage of girls",
+   "header": [
+    "By Sex",
+    "Percentage of girls"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Years (10001)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "7-12 Number",
+   "header": [
+    "7-12 Number"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Years % to total (10003)",
+   "header": [
+    "Years % to total"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "12-16 Number",
+   "header": [
+    "12-16 Number"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Years % to total (10005)",
+   "header": [
+    "Years % to total"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "16-21 Number",
+   "header": [
+    "16-21 Number"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Years % to total (9)",
+   "header": [
+    "Years % to total"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Over all age group",
+   "header": [
+    "Over all age group"
    ]
   }
  ],
@@ -65,7 +142,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

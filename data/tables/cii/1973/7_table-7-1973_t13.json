@@ -6,73 +6,76 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "7—conrd. Crier reported during the Year 1973",
+ "title": "42 TABLE Statement showing Districtwise Incidence of",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "7—conrd. Crier reported during the Year 1973",
- "row_label": "duting the year Robbery 1 - 2 a - -",
+ "pdf_title": "42 TABLE Statement showing Districtwise Incidence of",
+ "row_label": "Sl. No. / Name of District",
  "pages": [
+  13,
   14
  ],
- "n_rows": 34,
+ "n_rows": 85,
  "n_cols": 7,
- "n_cells": 198,
+ "n_cells": 511,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Barglary 75 n 13 M5 » m7 =] 15",
-   "header": [
-    "Barglary 75 n 13 M5 » m7 =] 15"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Thefts ia 70: 2 is pa 16 4 102 42",
+   "name": "Number of cases reported | Murder",
    "header": [
-    "Thefts ia 70: 2 is pa 16 4 102 42"
+    "Number of cases reported",
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "i at 9 198 6 os 19 2",
+   "name": "Number of cases reported | Culpable Homicide not amounting to murder",
    "header": [
-    "i at 9 198 6 os 19 2"
+    "Number of cases reported",
+    "Culpable Homicide not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cheating 7 | Criminal breach of rust iz $ 4 13 3 6 M4",
+   "name": "Number of cases reported | Rape",
    "header": [
-    "Cheating 7",
-    "Criminal breach of rust iz $ 4 13 3 6 M4"
+    "Number of cases reported",
+    "Rape"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cheating 7 | 13 5. 1 aes i 1 4 -",
+   "name": "Number of cases reported | Kidnapping and Abduction",
    "header": [
-    "Cheating 7",
-    "13 5. 1 aes i 1 4 -"
+    "Number of cases reported",
+    "Kidnapping and Abduction"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cheating 7 | Counter feiting 4 - es on - - -",
+   "name": "Number of cases reported | Deceity",
    "header": [
-    "Cheating 7",
-    "Counter feiting 4 - es on - - -"
+    "Number of cases reported",
+    "Deceity"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Barglary",
+   "header": [
+    "Barglary"
    ]
   },
   {
    "col_no": "8",
-   "name": "Total Cor Fring IPC 15 1,147 1230 113 1,939 32 1,708 435 298",
+   "name": "Total Cognizable Crime under IPC",
    "header": [
-    "Total Cor Fring IPC 15 1,147 1230 113 1,939 32 1,708 435 298"
+    "Total Cognizable Crime under IPC"
    ]
   }
  ],
@@ -84,7 +87,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

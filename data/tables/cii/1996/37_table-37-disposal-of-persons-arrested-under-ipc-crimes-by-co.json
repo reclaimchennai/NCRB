@@ -1,0 +1,93 @@
+{
+ "table_id": "cii/1996/37_table-37-disposal-of-persons-arrested-under-ipc-crimes-by-co",
+ "publication": "cii",
+ "year": 1996,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "37",
+ "title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1996 (State & UT-Wise)",
+ "listing_title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1996 (State & UT-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-37--disposal-of-persons-arrested-under-ipc-crimes-by-courts-during-1996-1996.pdf",
+ "source_file": "raw/cii/1996/table_content/table-37--disposal-of-persons-arrested-under-ipc-crimes-by-courts-during-1996-1996.pdf",
+ "source_sha256": "e5462e71430cdfcb1f828966213dca478871248493540a91c6131922340e4448",
+ "table_no": "37",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-37",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 7,
+ "n_cells": 245,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
+   "header": [
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH DRAWN",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "CASES COMPO-UNDED OR WITH DRAWN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPL-ETED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF PERSONS CONVICTED",
+   "header": [
+    "NO. OF PERSONS CONVICTED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PENDENCY PERCENTAGE",
+   "header": [
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 13,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 22605, sum 226605",
+   "col 3 'TOTAL (ALL-INDIA)': printed 1.13501e+07, sum 1.11461e+07"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

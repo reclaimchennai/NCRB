@@ -8,40 +8,30 @@
  "serial": "10",
  "title": "Publication over the years",
  "listing_title": "Publication over the years",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/publication-year_11_1995.pdf",
  "source_file": "raw/adsi/1995/year_wise/publication-year_11_1995.pdf",
  "source_sha256": "04d4416e82c07a9f60149fa1d6ff415388f74348e78126c95e13757a9d5a35d2",
  "table_no": "",
- "pdf_title": "",
- "row_label": "Accidentai SI.No.",
+ "pdf_title": "Accidental Deaths & Suicides in India (ii)",
+ "row_label": "Sl.No.",
  "pages": [
   1
  ],
  "n_rows": 29,
- "n_cols": 2,
- "n_cells": 58,
+ "n_cols": 1,
+ "n_cells": 29,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Accidentai | Year of the Report",
-   "header": [
-    "Accidentai",
-    "Year of the Report"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "India & Suicides in Published in",
+   "name": "Year of the Report",
    "header": [
-    "India & Suicides in Published in"
+    "Year of the Report"
    ]
   }
  ],
- "notes": [
-  "(ii)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

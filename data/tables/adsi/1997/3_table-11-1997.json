@@ -8,14 +8,14 @@
  "serial": "3",
  "title": "Number of Persons Injured and Killed by Un-natural causes during 1997 (State, UT & City-wise)",
  "listing_title": "Number of Persons Injured and Killed by Un-natural causes during 1997 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-11_1997.pdf",
  "source_file": "raw/adsi/1997/table_content/table-11_1997.pdf",
  "source_sha256": "ff6f3edfc3c9d7d308128ac082b4ecdce77a38b25b707f3cae42e70cabdab845",
  "table_no": "11",
- "pdf_title": "Number of Persons Injured & Killed by Un-Natural Causes During 1997 (State, UT & City-wise)",
- "row_label": "SI. No. / State/UT/City",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) TABLE - 11",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2,
@@ -30,8 +30,10 @@
   11,
   12,
   13,
+  14,
   15,
   16,
+  17,
   18,
   19,
   20,
@@ -51,6 +53,7 @@
   34,
   35,
   36,
+  37,
   38,
   39,
   40,
@@ -61,9 +64,9 @@
   45,
   46
  ],
- "n_rows": 324,
- "n_cols": 282,
- "n_cells": 9403,
+ "n_rows": 81,
+ "n_cols": 368,
+ "n_cells": 21712,
  "columns": [
   {
    "col_no": "3",
@@ -74,120 +77,63 @@
   },
   {
    "col_no": "4",
-   "name": "Male (4)",
+   "name": "Air-Crash | No.of Persons Injured | Male",
    "header": [
+    "Air-Crash",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "5",
-   "name": "Nou if Parsons tm urea Female (5)",
+   "name": "Air-Crash | No.of Persons Injured | Female",
    "header": [
-    "Nou if Parsons tm urea Female"
+    "Air-Crash",
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
    "col_no": "6",
-   "name": "Nou if Parsons tm urea Female (6)",
+   "name": "Air-Crash | No.of Persons Injured | Total",
    "header": [
-    "Nou if Parsons tm urea Female"
+    "Air-Crash",
+    "No.of Persons Injured",
+    "Total"
    ]
   },
   {
    "col_no": "7",
-   "name": "Total (7)",
+   "name": "Air-Crash | No. of Persons Killed | Male",
    "header": [
-    "Total"
+    "Air-Crash",
+    "No. of Persons Killed",
+    "Male"
    ]
   },
   {
    "col_no": "8",
-   "name": "Male (8)",
+   "name": "Air-Crash | No. of Persons Killed | Female",
    "header": [
-    "Male"
+    "Air-Crash",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
    "col_no": "9",
-   "name": "No. of Persons Killed Female (9)",
+   "name": "Air-Crash | No. of Persons Killed | Total",
    "header": [
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "%Share to Total Deaths (Col.9/268)* Total",
-   "header": [
-    "%Share to Total Deaths (Col.9/268)* Total"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "No. of Cases Male (2!",
-   "header": [
-    "No. of Cases Male (2!"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Collapse of Structure (House) | Persons Female",
-   "header": [
-    "Collapse of Structure (House)",
-    "Persons Female"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Collapse of Structure (House) | Total",
-   "header": [
-    "Collapse of Structure (House)",
+    "Air-Crash",
+    "No. of Persons Killed",
     "Total"
    ]
   },
   {
-   "col_no": "14",
-   "name": "Collapse of Structure (House) | Male",
+   "col_no": "10",
+   "name": "%Share to Total Deaths (Col.9/268)* 100",
    "header": [
-    "Collapse of Structure (House)",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "Collapse of Structure (House) | No. of Persons Killed Female (15)",
-   "header": [
-    "Collapse of Structure (House)",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "Collapse of Structure (House) | No. of Persons Killed Female (16)",
-   "header": [
-    "Collapse of Structure (House)",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "%Share to Total Deaths Total (17)",
-   "header": [
-    "%Share to Total Deaths Total"
-   ]
-  },
-  {
-   "col_no": "24",
-   "name": "%Share to Total Deaths {Co}.23/263}* Tote!",
-   "header": [
-    "%Share to Total Deaths {Co}.23/263}* Tote!"
-   ]
-  },
-  {
-   "col_no": "31",
-   "name": "N.C.R.B., (M.H.AJ) | to Total Deaths Total nail",
-   "header": [
-    "N.C.R.B., (M.H.AJ)",
-    "to Total Deaths Total nail"
+    "%Share to Total Deaths (Col.9/268)* 100"
    ]
   },
   {
@@ -198,58 +144,64 @@
    ]
   },
   {
-   "col_no": "32",
-   "name": "Call nea of Stiucture (Bridge) | Male (32)",
+   "col_no": "11",
+   "name": "Collapse of Structure (House) | No.of Persons Injured | Male",
    "header": [
-    "Call nea of Stiucture (Bridge)",
+    "Collapse of Structure (House)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "33",
-   "name": "Call nea of Stiucture (Bridge) | No.if Persons tu urea Female (33)",
+   "col_no": "12",
+   "name": "Collapse of Structure (House) | No.of Persons Injured | Female",
    "header": [
-    "Call nea of Stiucture (Bridge)",
-    "No.if Persons tu urea Female"
+    "Collapse of Structure (House)",
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
-   "col_no": "34",
-   "name": "Call nea of Stiucture (Bridge) | No.if Persons tu urea Female (34)",
+   "col_no": "13",
+   "name": "Collapse of Structure (House) | No.of Persons Injured | Total",
    "header": [
-    "Call nea of Stiucture (Bridge)",
-    "No.if Persons tu urea Female"
-   ]
-  },
-  {
-   "col_no": "35",
-   "name": "Call nea of Stiucture (Bridge) | Total",
-   "header": [
-    "Call nea of Stiucture (Bridge)",
+    "Collapse of Structure (House)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "36",
-   "name": "Call nea of Stiucture (Bridge) | Male (36)",
+   "col_no": "14",
+   "name": "Collapse of Structure (House) | No. of Persons Killed | Male",
    "header": [
-    "Call nea of Stiucture (Bridge)",
+    "Collapse of Structure (House)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "37",
-   "name": "Call nea of Stiucture (Bridge) | No. of Persons Killed Female",
+   "col_no": "15",
+   "name": "Collapse of Structure (House) | No. of Persons Killed | Female",
    "header": [
-    "Call nea of Stiucture (Bridge)",
-    "No. of Persons Killed Female"
+    "Collapse of Structure (House)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "38",
-   "name": "%Share to Total Deaths (Col.37/268)* Total",
+   "col_no": "16",
+   "name": "Collapse of Structure (House) | No. of Persons Killed | Total",
    "header": [
-    "%Share to Total Deaths (Col.37/268)* Total"
+    "Collapse of Structure (House)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "%Share to Total Deaths (Col.16/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.16/268)* 100"
    ]
   },
   {
@@ -260,58 +212,64 @@
    ]
   },
   {
-   "col_no": "39",
-   "name": "Collapse of St ucture (Other) | Male (39)",
+   "col_no": "18",
+   "name": "Collapse of Structure (Building) | No.of Persons Injured | Male",
    "header": [
-    "Collapse of St ucture (Other)",
+    "Collapse of Structure (Building)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "40",
-   "name": "Collapse of St ucture (Other) | Persons tm Female",
+   "col_no": "19",
+   "name": "Collapse of Structure (Building) | No.of Persons Injured | Female",
    "header": [
-    "Collapse of St ucture (Other)",
-    "Persons tm Female"
+    "Collapse of Structure (Building)",
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
-   "col_no": "41",
-   "name": "Collapse of St ucture (Other) | Total",
+   "col_no": "20",
+   "name": "Collapse of Structure (Building) | No.of Persons Injured | Total",
    "header": [
-    "Collapse of St ucture (Other)",
+    "Collapse of Structure (Building)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "42",
-   "name": "Collapse of St ucture (Other) | Male (42)",
+   "col_no": "21",
+   "name": "Collapse of Structure (Building) | No. of Persons Killed | Male",
    "header": [
-    "Collapse of St ucture (Other)",
+    "Collapse of Structure (Building)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "43",
-   "name": "Collapse of St ucture (Other) | No. of Persons Killed Female (43)",
+   "col_no": "22",
+   "name": "Collapse of Structure (Building) | No. of Persons Killed | Female",
    "header": [
-    "Collapse of St ucture (Other)",
-    "No. of Persons Killed Female"
+    "Collapse of Structure (Building)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "44",
-   "name": "Collapse of St ucture (Other) | No. of Persons Killed Female (44)",
+   "col_no": "23",
+   "name": "Collapse of Structure (Building) | No. of Persons Killed | Total",
    "header": [
-    "Collapse of St ucture (Other)",
-    "No. of Persons Killed Female"
+    "Collapse of Structure (Building)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
-   "col_no": "45",
-   "name": "%Share to Total Deaths (Col.44/268)*",
+   "col_no": "24",
+   "name": "%Share to Total Deaths (Col.23/263)* 100",
    "header": [
-    "%Share to Total Deaths (Col.44/268)*"
+    "%Share to Total Deaths (Col.23/263)* 100"
    ]
   },
   {
@@ -322,7 +280,211 @@
    ]
   },
   {
+   "col_no": "25",
+   "name": "Collapse of Structure (Dam) | No. of Persons Injured | Male",
+   "header": [
+    "Collapse of Structure (Dam)",
+    "No. of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "Collapse of Structure (Dam) | No. of Persons Injured | Female",
+   "header": [
+    "Collapse of Structure (Dam)",
+    "No. of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "Collapse of Structure (Dam) | No. of Persons Injured | Total",
+   "header": [
+    "Collapse of Structure (Dam)",
+    "No. of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "Collapse of Structure (Dam) | No. of Persons Killed | Male",
+   "header": [
+    "Collapse of Structure (Dam)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "Collapse of Structure (Dam) | No. of Persons Killed | Female",
+   "header": [
+    "Collapse of Structure (Dam)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "Collapse of Structure (Dam) | No. of Persons Killed | Total",
+   "header": [
+    "Collapse of Structure (Dam)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "%Share to Total Deaths (Col.30/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.30/268)* 100"
+   ]
+  },
+  {
    "col_no": "10004",
+   "name": "No. of Cases (10004)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "Collapse of Structure (Bridge) | No.of Persons Injured | Male",
+   "header": [
+    "Collapse of Structure (Bridge)",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "Collapse of Structure (Bridge) | No.of Persons Injured | Female",
+   "header": [
+    "Collapse of Structure (Bridge)",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "Collapse of Structure (Bridge) | No.of Persons Injured | Total",
+   "header": [
+    "Collapse of Structure (Bridge)",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "Collapse of Structure (Bridge) | No. of Persons Killed | Male",
+   "header": [
+    "Collapse of Structure (Bridge)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "Collapse of Structure (Bridge) | No. of Persons Killed | Female",
+   "header": [
+    "Collapse of Structure (Bridge)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "Collapse of Structure (Bridge) | No. of Persons Killed | Total",
+   "header": [
+    "Collapse of Structure (Bridge)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "%Share to Total Deaths (Col.37/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.37/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "No. of Cases (10005)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "Collapse of Structure (Other) | No. of Persons Injured | Male",
+   "header": [
+    "Collapse of Structure (Other)",
+    "No. of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "Collapse of Structure (Other) | No. of Persons Injured | Female",
+   "header": [
+    "Collapse of Structure (Other)",
+    "No. of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "Collapse of Structure (Other) | No. of Persons Injured | Total",
+   "header": [
+    "Collapse of Structure (Other)",
+    "No. of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "42",
+   "name": "Collapse of Structure (Other) | No. of Persons Killed | Male",
+   "header": [
+    "Collapse of Structure (Other)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "43",
+   "name": "Collapse of Structure (Other) | No. of Persons Killed | Female",
+   "header": [
+    "Collapse of Structure (Other)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "44",
+   "name": "Collapse of Structure (Other) | No. of Persons Killed | Total",
+   "header": [
+    "Collapse of Structure (Other)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "45",
+   "name": "%Share to Total Deaths (Col.44/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.44/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "No. of Cases (10006)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "10007",
    "name": "Collapse of structure(Total) | No. of Persons Injured | Male",
    "header": [
     "Collapse of structure(Total)",
@@ -331,7 +493,7 @@
    ]
   },
   {
-   "col_no": "10005",
+   "col_no": "10008",
    "name": "Collapse of structure(Total) | No. of Persons Injured | Female",
    "header": [
     "Collapse of structure(Total)",
@@ -340,239 +502,114 @@
    ]
   },
   {
-   "col_no": "10006",
-   "name": "Collapse of structure(Total) | Total",
-   "header": [
-    "Collapse of structure(Total)",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "Collapse of structure(Total) | Male",
-   "header": [
-    "Collapse of structure(Total)",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "Collapse of structure(Total) | No. of Persons Killed Female",
-   "header": [
-    "Collapse of structure(Total)",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
    "col_no": "10009",
-   "name": "Collapse of structure(Total) | % Share to Total Deaths | Total",
+   "name": "Collapse of structure(Total) | No. of Persons Injured | Total",
    "header": [
     "Collapse of structure(Total)",
-    "% Share to Total Deaths",
+    "No. of Persons Injured",
     "Total"
    ]
   },
   {
    "col_no": "10010",
-   "name": "Collapse of structure(Total) | % Share to Total Deaths",
+   "name": "Collapse of structure(Total) | No. of Persons Killed | Male",
    "header": [
     "Collapse of structure(Total)",
-    "% Share to Total Deaths"
+    "No. of Persons Killed",
+    "Male"
    ]
   },
   {
    "col_no": "10011",
-   "name": "No. of Cases (10011)",
+   "name": "Collapse of structure(Total) | No. of Persons Killed | Female",
+   "header": [
+    "Collapse of structure(Total)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10012",
+   "name": "Collapse of structure(Total) | No. of Persons Killed | Total",
+   "header": [
+    "Collapse of structure(Total)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10013",
+   "name": "% Share to Total Deaths (10013)",
+   "header": [
+    "% Share to Total Deaths"
+   ]
+  },
+  {
+   "col_no": "10014",
+   "name": "No. of Cases (10014)",
    "header": [
     "No. of Cases"
    ]
   },
   {
    "col_no": "46",
-   "name": "(Boat Capsize) | No.iit Ferauns | Male",
+   "name": "Drowning (Boat Capsize) | No.of Persons Injured | Male",
    "header": [
-    "(Boat Capsize)",
-    "No.iit Ferauns",
+    "Drowning (Boat Capsize)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "47",
-   "name": "(Boat Capsize) | No.iit Ferauns | Female",
+   "name": "Drowning (Boat Capsize) | No.of Persons Injured | Female",
    "header": [
-    "(Boat Capsize)",
-    "No.iit Ferauns",
+    "Drowning (Boat Capsize)",
+    "No.of Persons Injured",
     "Female"
    ]
   },
   {
    "col_no": "48",
-   "name": "(Boat Capsize) | Total",
+   "name": "Drowning (Boat Capsize) | No.of Persons Injured | Total",
    "header": [
-    "(Boat Capsize)",
+    "Drowning (Boat Capsize)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
    "col_no": "49",
-   "name": "(Boat Capsize) | Male",
+   "name": "Drowning (Boat Capsize) | No. of Persons Killed | Male",
    "header": [
-    "(Boat Capsize)",
+    "Drowning (Boat Capsize)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
    "col_no": "50",
-   "name": "(Boat Capsize) | No. of Persons Killed Female (50)",
+   "name": "Drowning (Boat Capsize) | No. of Persons Killed | Female",
    "header": [
-    "(Boat Capsize)",
-    "No. of Persons Killed Female"
+    "Drowning (Boat Capsize)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
    "col_no": "51",
-   "name": "(Boat Capsize) | No. of Persons Killed Female (51)",
+   "name": "Drowning (Boat Capsize) | No. of Persons Killed | Total",
    "header": [
-    "(Boat Capsize)",
-    "No. of Persons Killed Female"
+    "Drowning (Boat Capsize)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
    "col_no": "52",
-   "name": "(Boat Capsize) | %Share to Total Deaths (Col.51/268)* Total",
+   "name": "%Share to Total Deaths (Col.51/268)*100",
    "header": [
-    "(Boat Capsize)",
-    "%Share to Total Deaths (Col.51/268)* Total"
-   ]
-  },
-  {
-   "col_no": "10012",
-   "name": "No. of Cases (10012)",
-   "header": [
-    "No. of Cases"
-   ]
-  },
-  {
-   "col_no": "53",
-   "name": "Drowning Other Cases) | Male (53)",
-   "header": [
-    "Drowning Other Cases)",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "54",
-   "name": "Drowning Other Cases) | No.of Persons Female",
-   "header": [
-    "Drowning Other Cases)",
-    "No.of Persons Female"
-   ]
-  },
-  {
-   "col_no": "55",
-   "name": "Drowning Other Cases) | Total (55)",
-   "header": [
-    "Drowning Other Cases)",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "56",
-   "name": "Drowning Other Cases) | Male (56)",
-   "header": [
-    "Drowning Other Cases)",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "57",
-   "name": "Drowning Other Cases) | No. «if Persons Killed Female",
-   "header": [
-    "Drowning Other Cases)",
-    "No. «if Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "58",
-   "name": "Drowning Other Cases) | Total (58)",
-   "header": [
-    "Drowning Other Cases)",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "59",
-   "name": "%Share to Total Deaths (59)",
-   "header": [
-    "%Share to Total Deaths"
-   ]
-  },
-  {
-   "col_no": "10013",
-   "name": "% Sirare to Total Deaths No. of ! ce 10.0 13, IO 0!",
-   "header": [
-    "% Sirare to Total Deaths No. of ! ce 10.0 13, IO 0!"
-   ]
-  },
-  {
-   "col_no": "10014",
-   "name": "No. of Cases ’",
-   "header": [
-    "No. of Cases ’"
-   ]
-  },
-  {
-   "col_no": "60",
-   "name": "Persons Injured | Male (60)",
-   "header": [
-    "Persons Injured",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "61",
-   "name": "Persons Injured | Female (61)",
-   "header": [
-    "Persons Injured",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "62",
-   "name": "Persons Injured | Total (62)",
-   "header": [
-    "Persons Injured",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "63",
-   "name": "No. ot Male",
-   "header": [
-    "No. ot Male"
-   ]
-  },
-  {
-   "col_no": "64",
-   "name": "K | Female",
-   "header": [
-    "K",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "65",
-   "name": "K | Total",
-   "header": [
-    "K",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "66",
-   "name": "%Share to Total Deaths (66)",
-   "header": [
-    "%Share to Total Deaths"
+    "%Share to Total Deaths (Col.51/268)*100"
    ]
   },
   {
@@ -583,235 +620,200 @@
    ]
   },
   {
-   "col_no": "67",
-   "name": "Explosion | Male (67)",
+   "col_no": "53",
+   "name": "Drowning (Other Cases) | No. of Persons Injured | Male",
    "header": [
-    "Explosion",
+    "Drowning (Other Cases)",
+    "No. of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "68",
-   "name": "Explosion | Persons Injured Female",
+   "col_no": "54",
+   "name": "Drowning (Other Cases) | No. of Persons Injured | Female",
    "header": [
-    "Explosion",
-    "Persons Injured Female"
-   ]
-  },
-  {
-   "col_no": "69",
-   "name": "Explosion | Total",
-   "header": [
-    "Explosion",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "70",
-   "name": "Explosion | Male (70)",
-   "header": [
-    "Explosion",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "71",
-   "name": "Explosion | No. of Persons Killed Female (71)",
-   "header": [
-    "Explosion",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "72",
-   "name": "Explosion | No. of Persons Killed Female (72)",
-   "header": [
-    "Explosion",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "73",
-   "name": "%Share to Total Deaths Total (73)",
-   "header": [
-    "%Share to Total Deaths Total"
-   ]
-  },
-  {
-   "col_no": "10016",
-   "name": "%Share to Tote! Ceaths (Cot 79/263)* 100 (77) (20) SE SS TE ag RS ETI",
-   "header": [
-    "%Share to Tote! Ceaths (Cot 79/263)* 100 (77) (20) SE SS TE ag RS ETI"
-   ]
-  },
-  {
-   "col_no": "10017",
-   "name": "No. of Cases (10017)",
-   "header": [
-    "No. of Cases"
-   ]
-  },
-  {
-   "col_no": "81",
-   "name": "Fall | -",
-   "header": [
-    "Fall",
-    "-"
-   ]
-  },
-  {
-   "col_no": "82",
-   "name": "Fall | Persons Injured Male",
-   "header": [
-    "Fall",
-    "Persons Injured Male"
-   ]
-  },
-  {
-   "col_no": "83",
-   "name": "Fall | Female",
-   "header": [
-    "Fall",
+    "Drowning (Other Cases)",
+    "No. of Persons Injured",
     "Female"
    ]
   },
   {
-   "col_no": "84",
-   "name": "Fall | Total",
+   "col_no": "55",
+   "name": "Drowning (Other Cases) | No. of Persons Injured | Total",
    "header": [
-    "Fall",
+    "Drowning (Other Cases)",
+    "No. of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "85",
-   "name": "Fall | Male",
+   "col_no": "56",
+   "name": "Drowning (Other Cases) | No. of Persons Killed | Male",
    "header": [
-    "Fall",
+    "Drowning (Other Cases)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "86",
-   "name": "No. of Persons Killed Female (86)",
+   "col_no": "57",
+   "name": "Drowning (Other Cases) | No. of Persons Killed | Female",
    "header": [
-    "No. of Persons Killed Female"
+    "Drowning (Other Cases)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "87",
-   "name": "%Share to Total Deaths Total a:",
+   "col_no": "58",
+   "name": "Drowning (Other Cases) | No. of Persons Killed | Total",
    "header": [
-    "%Share to Total Deaths Total a:"
+    "Drowning (Other Cases)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "59",
+   "name": "%Share to Total Deaths (Col.58/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.58/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10016",
+   "name": "No. of Cases (10016)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "10017",
+   "name": "Drowning (Total) | No. of Persons Injured | Male",
+   "header": [
+    "Drowning (Total)",
+    "No. of Persons Injured",
+    "Male"
    ]
   },
   {
    "col_no": "10018",
-   "name": "No. of Cases (10018)",
+   "name": "Drowning (Total) | No. of Persons Injured | Female",
    "header": [
-    "No. of Cases"
-   ]
-  },
-  {
-   "col_no": "88",
-   "name": "Fall {into | Male (88)",
-   "header": [
-    "Fall {into",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "89",
-   "name": "Fall {into | Persons injured Female",
-   "header": [
-    "Fall {into",
-    "Persons injured Female"
-   ]
-  },
-  {
-   "col_no": "90",
-   "name": "Fall {into | Total",
-   "header": [
-    "Fall {into",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "91",
-   "name": "Fall {into | Male (91)",
-   "header": [
-    "Fall {into",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "92",
-   "name": "Fall {into | No. of Persons Killed Female (92)",
-   "header": [
-    "Fall {into",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "93",
-   "name": "Fall {into | No. of Persons Killed Female (93)",
-   "header": [
-    "Fall {into",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "94",
-   "name": "%Share to Total Deaths {Col.93/268)* Total",
-   "header": [
-    "%Share to Total Deaths {Col.93/268)* Total"
+    "Drowning (Total)",
+    "No. of Persons Injured",
+    "Female"
    ]
   },
   {
    "col_no": "10019",
-   "name": "No. of Cases (10019)",
+   "name": "Drowning (Total) | No. of Persons Injured | Total",
    "header": [
-    "No. of Cases"
+    "Drowning (Total)",
+    "No. of Persons Injured",
+    "Total"
    ]
   },
   {
    "col_no": "10020",
-   "name": "Factory/Mact ine Accidents | Male",
+   "name": "Drowning (Total) | No. of Persons Killed | Male",
    "header": [
-    "Factory/Mact ine Accidents",
+    "Drowning (Total)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
    "col_no": "10021",
-   "name": "Factory/Mact ine Accidents | No.if Persons injured Female",
+   "name": "Drowning (Total) | No. of Persons Killed | Female",
    "header": [
-    "Factory/Mact ine Accidents",
-    "No.if Persons injured Female"
+    "Drowning (Total)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
    "col_no": "10022",
-   "name": "Factory/Mact ine Accidents | Total",
+   "name": "Drowning (Total) | No. of Persons Killed | Total",
    "header": [
-    "Factory/Mact ine Accidents",
+    "Drowning (Total)",
+    "No. of Persons Killed",
     "Total"
    ]
   },
   {
    "col_no": "10023",
-   "name": "Factory/Mact ine Accidents | (Sol, Male Total",
+   "name": "% Siare to Total Deaths",
    "header": [
-    "Factory/Mact ine Accidents",
-    "(Sol, Male Total"
+    "% Siare to Total Deaths"
    ]
   },
   {
    "col_no": "10024",
-   "name": "Factory/Mact ine Accidents | %Share to Totai Deaths No. of Persons Killed 100/268)* Female",
+   "name": "No. of Cases (10024)",
    "header": [
-    "Factory/Mact ine Accidents",
-    "%Share to Totai Deaths No. of Persons Killed 100/268)* Female"
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "60",
+   "name": "Electrocution | No.of Persons Injured | Male",
+   "header": [
+    "Electrocution",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "61",
+   "name": "Electrocution | No.of Persons Injured | Female",
+   "header": [
+    "Electrocution",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "62",
+   "name": "Electrocution | No.of Persons Injured | Total",
+   "header": [
+    "Electrocution",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "63",
+   "name": "Electrocution | No. of Persons Killed | Male",
+   "header": [
+    "Electrocution",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "64",
+   "name": "Electrocution | No. of Persons Killed | Female",
+   "header": [
+    "Electrocution",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "65",
+   "name": "Electrocution | No. of Persons Killed | Total",
+   "header": [
+    "Electrocution",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "66",
+   "name": "%Share to Total Deaths (Col.65/268)* 100 (66)",
+   "header": [
+    "%Share to Total Deaths (Col.65/268)* 100"
    ]
   },
   {
@@ -822,58 +824,64 @@
    ]
   },
   {
-   "col_no": "102",
-   "name": "Fire (Firewo ks/Crackers) | Male (102)",
+   "col_no": "67",
+   "name": "Explosion (Bomb Explosion) | No.of Persons Injured | Male",
    "header": [
-    "Fire (Firewo ks/Crackers)",
+    "Explosion (Bomb Explosion)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "103",
-   "name": "Fire (Firewo ks/Crackers) | No.of Persons Injured Female (103)",
+   "col_no": "68",
+   "name": "Explosion (Bomb Explosion) | No.of Persons Injured | Female",
    "header": [
-    "Fire (Firewo ks/Crackers)",
-    "No.of Persons Injured Female"
+    "Explosion (Bomb Explosion)",
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
-   "col_no": "104",
-   "name": "Fire (Firewo ks/Crackers) | No.of Persons Injured Female (104)",
+   "col_no": "69",
+   "name": "Explosion (Bomb Explosion) | No.of Persons Injured | Total",
    "header": [
-    "Fire (Firewo ks/Crackers)",
-    "No.of Persons Injured Female"
-   ]
-  },
-  {
-   "col_no": "105",
-   "name": "Fire (Firewo ks/Crackers) | Total",
-   "header": [
-    "Fire (Firewo ks/Crackers)",
+    "Explosion (Bomb Explosion)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "106",
-   "name": "Fire (Firewo ks/Crackers) | Male (106)",
+   "col_no": "70",
+   "name": "Explosion (Bomb Explosion) | No. of Persons Killed | Male",
    "header": [
-    "Fire (Firewo ks/Crackers)",
+    "Explosion (Bomb Explosion)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "107",
-   "name": "Fire (Firewo ks/Crackers) | No. of Persons Killed Female",
+   "col_no": "71",
+   "name": "Explosion (Bomb Explosion) | No. of Persons Killed | Female",
    "header": [
-    "Fire (Firewo ks/Crackers)",
-    "No. of Persons Killed Female"
+    "Explosion (Bomb Explosion)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "108",
-   "name": "%Share to Total Deaths Total (108)",
+   "col_no": "72",
+   "name": "Explosion (Bomb Explosion) | No. of Persons Killed | Total",
    "header": [
-    "%Share to Total Deaths Total"
+    "Explosion (Bomb Explosion)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "73",
+   "name": "%Share to Total Deaths (Col.72/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.72/268)* 100"
    ]
   },
   {
@@ -884,223 +892,132 @@
    ]
   },
   {
-   "col_no": "109",
-   "name": "Fire (Shc rt-Circuit) | No.of Persons iv jured | Male",
+   "col_no": "74",
+   "name": "Explosion (other like Boilers, Gas Cyld. etc.) | No.of Persons Injured | Male",
    "header": [
-    "Fire (Shc rt-Circuit)",
-    "No.of Persons iv jured",
+    "Explosion (other like Boilers, Gas Cyld. etc.)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "110",
-   "name": "Fire (Shc rt-Circuit) | No.of Persons iv jured | Female",
+   "col_no": "75",
+   "name": "Explosion (other like Boilers, Gas Cyld. etc.) | No.of Persons Injured | Female",
    "header": [
-    "Fire (Shc rt-Circuit)",
-    "No.of Persons iv jured",
+    "Explosion (other like Boilers, Gas Cyld. etc.)",
+    "No.of Persons Injured",
     "Female"
    ]
   },
   {
-   "col_no": "111",
-   "name": "Fire (Shc rt-Circuit) | No.of Persons iv jured | Total",
+   "col_no": "76",
+   "name": "Explosion (other like Boilers, Gas Cyld. etc.) | No.of Persons Injured | Total",
    "header": [
-    "Fire (Shc rt-Circuit)",
-    "No.of Persons iv jured",
+    "Explosion (other like Boilers, Gas Cyld. etc.)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "112",
-   "name": "Fire (Shc rt-Circuit) | Male",
+   "col_no": "77",
+   "name": "Explosion (other like Boilers, Gas Cyld. etc.) | No. of Persons Killed | Male",
    "header": [
-    "Fire (Shc rt-Circuit)",
+    "Explosion (other like Boilers, Gas Cyld. etc.)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "113",
-   "name": "Fire (Shc rt-Circuit) | No. of Persons Killed Female (113)",
+   "col_no": "78",
+   "name": "Explosion (other like Boilers, Gas Cyld. etc.) | No. of Persons Killed | Female",
    "header": [
-    "Fire (Shc rt-Circuit)",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "114",
-   "name": "Fire (Shc rt-Circuit) | No. of Persons Killed Female (114)",
-   "header": [
-    "Fire (Shc rt-Circuit)",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "115",
-   "name": "%Share to Total Deaths Total (Col.1 1",
-   "header": [
-    "%Share to Total Deaths Total (Col.1 1"
-   ]
-  },
-  {
-   "col_no": "117",
-   "name": "Fire (Conking Gas C'ylinder/Stove Burst) | Persons injured | Female",
-   "header": [
-    "Fire (Conking Gas C'ylinder/Stove Burst)",
-    "Persons injured",
+    "Explosion (other like Boilers, Gas Cyld. etc.)",
+    "No. of Persons Killed",
     "Female"
    ]
   },
   {
-   "col_no": "118",
-   "name": "Fire (Conking Gas C'ylinder/Stove Burst) | Persons injured | Total",
+   "col_no": "79",
+   "name": "Explosion (other like Boilers, Gas Cyld. etc.) | No. of Persons Killed | Total",
    "header": [
-    "Fire (Conking Gas C'ylinder/Stove Burst)",
-    "Persons injured",
+    "Explosion (other like Boilers, Gas Cyld. etc.)",
+    "No. of Persons Killed",
     "Total"
    ]
   },
   {
-   "col_no": "119",
-   "name": "Fire (Conking Gas C'ylinder/Stove Burst) | Male",
+   "col_no": "80",
+   "name": "%Share to Total Deaths (Col 79/263)* 100",
    "header": [
-    "Fire (Conking Gas C'ylinder/Stove Burst)",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "120",
-   "name": "Fire (Conking Gas C'ylinder/Stove Burst) | No. of Persons Killed Female",
-   "header": [
-    "Fire (Conking Gas C'ylinder/Stove Burst)",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "121",
-   "name": "Fire (Conking Gas C'ylinder/Stove Burst) | Total",
-   "header": [
-    "Fire (Conking Gas C'ylinder/Stove Burst)",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "122",
-   "name": "to Total Deaths {Col.121/268)*",
-   "header": [
-    "to Total Deaths {Col.121/268)*"
+    "%Share to Total Deaths (Col 79/263)* 100"
    ]
   },
   {
    "col_no": "10027",
-   "name": "No. of Cases (2) 80 HARYANA ORISSA",
-   "header": [
-    "No. of Cases (2) 80 HARYANA ORISSA"
-   ]
-  },
-  {
-   "col_no": "10028",
-   "name": "Other Fire Accidents | (2) Oo; 2 8B",
-   "header": [
-    "Other Fire Accidents",
-    "(2) Oo; 2 8B"
-   ]
-  },
-  {
-   "col_no": "10029",
-   "name": "Other Fire Accidents | Persons Injured Male (423) 829 OAD oO; 2 OO",
-   "header": [
-    "Other Fire Accidents",
-    "Persons Injured Male (423) 829 OAD oO; 2 OO"
-   ]
-  },
-  {
-   "col_no": "10030",
-   "name": "Other Fire Accidents | Female (124) 0) OO BB",
-   "header": [
-    "Other Fire Accidents",
-    "Female (124) 0) OO BB"
-   ]
-  },
-  {
-   "col_no": "10031",
-   "name": "Other Fire Accidents | No. of Persons Killed Total Total Female (127) (125) (128) 254 2B 89 OF BB 2B",
-   "header": [
-    "Other Fire Accidents",
-    "No. of Persons Killed Total Total Female (127) (125) (128) 254 2B 89 OF BB 2B"
-   ]
-  },
-  {
-   "col_no": "10032",
-   "name": "%Share to Total Deaths (Col.1 Male (129) (126) 26 870 862 242 80 OO ANA 24 4.00 O00 882 282",
-   "header": [
-    "%Share to Total Deaths (Col.1 Male (129) (126) 26 870 862 242 80 OO ANA 24 4.00 O00 882 282"
-   ]
-  },
-  {
-   "col_no": "10033",
-   "name": "% Share to Total Deaths Totai Total 124 2787 1842 2147, 9.6 566 45.",
-   "header": [
-    "% Share to Total Deaths Totai Total 124 2787 1842 2147, 9.6 566 45."
-   ]
-  },
-  {
-   "col_no": "10034",
-   "name": "No. of Cases (10034)",
+   "name": "No. of Cases (10027)",
    "header": [
     "No. of Cases"
    ]
   },
   {
-   "col_no": "130",
-   "name": "Persons Injured | Male (130)",
+   "col_no": "10028",
+   "name": "Explosion(Total) | No. of Persons Injured | Male",
    "header": [
-    "Persons Injured",
+    "Explosion(Total)",
+    "No. of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "131",
-   "name": "Persons Injured | Female (131)",
+   "col_no": "10029",
+   "name": "Explosion(Total) | No. of Persons Injured | Female",
    "header": [
-    "Persons Injured",
+    "Explosion(Total)",
+    "No. of Persons Injured",
     "Female"
    ]
   },
   {
-   "col_no": "132",
-   "name": "Persons Injured | Total (132)",
+   "col_no": "10030",
+   "name": "Explosion(Total) | No. of Persons Injured | Total",
    "header": [
-    "Persons Injured",
+    "Explosion(Total)",
+    "No. of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "133",
-   "name": "Persons Injured | Male (133)",
+   "col_no": "10031",
+   "name": "Explosion(Total) | No. of Persons Killed | Male",
    "header": [
-    "Persons Injured",
+    "Explosion(Total)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "134",
-   "name": "No. of Persons Killed Female (134)",
+   "col_no": "10032",
+   "name": "Explosion(Total) | No. of Persons Killed | Female",
    "header": [
-    "No. of Persons Killed Female"
+    "Explosion(Total)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "135",
-   "name": "No. of Persons Killed Female (135)",
+   "col_no": "10033",
+   "name": "Explosion(Total) | No. of Persons Killed | Total",
    "header": [
-    "No. of Persons Killed Female"
+    "Explosion(Total)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
-   "col_no": "136",
-   "name": "%Share to Total Deaths 135/268)* Total",
+   "col_no": "10034",
+   "name": "% Share to Total Deaths (10034)",
    "header": [
-    "%Share to Total Deaths 135/268)* Total"
+    "% Share to Total Deaths"
    ]
   },
   {
@@ -1111,58 +1028,64 @@
    ]
   },
   {
-   "col_no": "137",
-   "name": "Suc den Death (Heart Attacks) | Male (137)",
+   "col_no": "81",
+   "name": "Fall (from Height) | No.of Persons Injured | Male",
    "header": [
-    "Suc den Death (Heart Attacks)",
+    "Fall (from Height)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "138",
-   "name": "Suc den Death (Heart Attacks) | No.if Persons injured Female (138)",
+   "col_no": "82",
+   "name": "Fall (from Height) | No.of Persons Injured | Female",
    "header": [
-    "Suc den Death (Heart Attacks)",
-    "No.if Persons injured Female"
+    "Fall (from Height)",
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
-   "col_no": "139",
-   "name": "Suc den Death (Heart Attacks) | No.if Persons injured Female (139)",
+   "col_no": "83",
+   "name": "Fall (from Height) | No.of Persons Injured | Total",
    "header": [
-    "Suc den Death (Heart Attacks)",
-    "No.if Persons injured Female"
-   ]
-  },
-  {
-   "col_no": "140",
-   "name": "Suc den Death (Heart Attacks) | Total",
-   "header": [
-    "Suc den Death (Heart Attacks)",
+    "Fall (from Height)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "141",
-   "name": "Suc den Death (Heart Attacks) | Male (141)",
+   "col_no": "84",
+   "name": "Fall (from Height) | No. of Persons Killed | Male",
    "header": [
-    "Suc den Death (Heart Attacks)",
+    "Fall (from Height)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "142",
-   "name": "Suc den Death (Heart Attacks) | No. of Persons Killed Female",
+   "col_no": "85",
+   "name": "Fall (from Height) | No. of Persons Killed | Female",
    "header": [
-    "Suc den Death (Heart Attacks)",
-    "No. of Persons Killed Female"
+    "Fall (from Height)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "143",
-   "name": "%Share to Total Deaths aa Total",
+   "col_no": "86",
+   "name": "Fall (from Height) | No. of Persons Killed | Total",
    "header": [
-    "%Share to Total Deaths aa Total"
+    "Fall (from Height)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "87",
+   "name": "%Share to Total Deaths (Col.86/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.86/268)* 100"
    ]
   },
   {
@@ -1173,60 +1096,64 @@
    ]
   },
   {
-   "col_no": "144",
-   "name": "Sudden Death (Epu spuc | Male (144)",
+   "col_no": "88",
+   "name": "Fall (into Pit/Manhole) | No.of Persons Injured | Male",
    "header": [
-    "Sudden Death (Epu spuc",
+    "Fall (into Pit/Manhole)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "145",
-   "name": "Sudden Death (Epu spuc | Persons Injured | Female",
+   "col_no": "89",
+   "name": "Fall (into Pit/Manhole) | No.of Persons Injured | Female",
    "header": [
-    "Sudden Death (Epu spuc",
-    "Persons Injured",
+    "Fall (into Pit/Manhole)",
+    "No.of Persons Injured",
     "Female"
    ]
   },
   {
-   "col_no": "146",
-   "name": "Sudden Death (Epu spuc | Persons Injured | Total",
+   "col_no": "90",
+   "name": "Fall (into Pit/Manhole) | No.of Persons Injured | Total",
    "header": [
-    "Sudden Death (Epu spuc",
-    "Persons Injured",
+    "Fall (into Pit/Manhole)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "147",
-   "name": "Sudden Death (Epu spuc | Male (147)",
+   "col_no": "91",
+   "name": "Fall (into Pit/Manhole) | No. of Persons Killed | Male",
    "header": [
-    "Sudden Death (Epu spuc",
+    "Fall (into Pit/Manhole)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "148",
-   "name": "Sudden Death (Epu spuc | No. of Persons Killed Female (148)",
+   "col_no": "92",
+   "name": "Fall (into Pit/Manhole) | No. of Persons Killed | Female",
    "header": [
-    "Sudden Death (Epu spuc",
-    "No. of Persons Killed Female"
+    "Fall (into Pit/Manhole)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "149",
-   "name": "Sudden Death (Epu spuc | No. of Persons Killed Female (149)",
+   "col_no": "93",
+   "name": "Fall (into Pit/Manhole) | No. of Persons Killed | Total",
    "header": [
-    "Sudden Death (Epu spuc",
-    "No. of Persons Killed Female"
+    "Fall (into Pit/Manhole)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
-   "col_no": "150",
-   "name": "to Total Deaths (Col.149/268)* Total",
+   "col_no": "94",
+   "name": "%Share to Total Deaths (Col.93/268)* 100",
    "header": [
-    "to Total Deaths (Col.149/268)* Total"
+    "%Share to Total Deaths (Col.93/268)* 100"
    ]
   },
   {
@@ -1237,185 +1164,200 @@
    ]
   },
   {
-   "col_no": "151",
-   "name": "Sudda s Death | No.iit Forsuna | Male",
+   "col_no": "10038",
+   "name": "Falls(Total) | No. of Persons Injured | Male",
    "header": [
-    "Sudda s Death",
-    "No.iit Forsuna",
+    "Falls(Total)",
+    "No. of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "152",
-   "name": "Sudda s Death | No.iit Forsuna | Female",
+   "col_no": "10039",
+   "name": "Falls(Total) | No. of Persons Injured | Female",
    "header": [
-    "Sudda s Death",
-    "No.iit Forsuna",
+    "Falls(Total)",
+    "No. of Persons Injured",
     "Female"
    ]
   },
   {
-   "col_no": "153",
-   "name": "Sudda s Death | Total",
+   "col_no": "10040",
+   "name": "Falls(Total) | No. of Persons Injured | Total",
    "header": [
-    "Sudda s Death",
+    "Falls(Total)",
+    "No. of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "154",
-   "name": "Sudda s Death | Male",
+   "col_no": "10041",
+   "name": "Falls(Total) | No. of Persons Killed | Male",
    "header": [
-    "Sudda s Death",
+    "Falls(Total)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "155",
-   "name": "Birth)",
+   "col_no": "10042",
+   "name": "Falls(Total) | No. of Persons Killed | Female",
    "header": [
-    "Birth)"
+    "Falls(Total)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "156",
-   "name": "No. of Persons K itled Female",
+   "col_no": "10043",
+   "name": "Falls(Total) | No. of Persons Killed | Total",
    "header": [
-    "No. of Persons K itled Female"
+    "Falls(Total)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
-   "col_no": "157",
-   "name": "%Share to Total Deaths (Col.1 Total",
+   "col_no": "10044",
+   "name": "% Share to Total Deaths (10044)",
    "header": [
-    "%Share to Total Deaths (Col.1 Total"
+    "% Share to Total Deaths"
    ]
   },
   {
-   "col_no": "10038",
-   "name": "No. of Cases (10038)",
+   "col_no": "10045",
+   "name": "No. of Cases (10045)",
    "header": [
     "No. of Cases"
    ]
   },
   {
-   "col_no": "158",
-   "name": "Sudde') Death (In luence of Alcohol) | Male (158)",
+   "col_no": "95",
+   "name": "Factory/Machine Accidents | No. of Persons injured | Male",
    "header": [
-    "Sudde') Death (In luence of Alcohol)",
+    "Factory/Machine Accidents",
+    "No. of Persons injured",
     "Male"
    ]
   },
   {
-   "col_no": "159",
-   "name": "Sudde') Death (In luence of Alcohol) | No.0f Parsons tijured - Female (159)",
+   "col_no": "96",
+   "name": "Factory/Machine Accidents | No. of Persons injured | Female",
    "header": [
-    "Sudde') Death (In luence of Alcohol)",
-    "No.0f Parsons tijured - Female"
-   ]
-  },
-  {
-   "col_no": "160",
-   "name": "Sudde') Death (In luence of Alcohol) | No.0f Parsons tijured - Female (160)",
-   "header": [
-    "Sudde') Death (In luence of Alcohol)",
-    "No.0f Parsons tijured - Female"
-   ]
-  },
-  {
-   "col_no": "161",
-   "name": "Sudde') Death (In luence of Alcohol) | Total",
-   "header": [
-    "Sudde') Death (In luence of Alcohol)",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "162",
-   "name": "Sudde') Death (In luence of Alcohol) | Male (162)",
-   "header": [
-    "Sudde') Death (In luence of Alcohol)",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "163",
-   "name": "Sudde') Death (In luence of Alcohol) | No. of Persons Killed Female",
-   "header": [
-    "Sudde') Death (In luence of Alcohol)",
-    "No. of Persons Killed Female"
-   ]
-  },
-  {
-   "col_no": "164",
-   "name": "%Share to Total Deaths (Col. 163/268)* Total",
-   "header": [
-    "%Share to Total Deaths (Col. 163/268)* Total"
-   ]
-  },
-  {
-   "col_no": "10039",
-   "name": "No. of Cases A",
-   "header": [
-    "No. of Cases A"
-   ]
-  },
-  {
-   "col_no": "10040",
-   "name": "Sudden | No. of Persons Injured | Male",
-   "header": [
-    "Sudden",
-    "No. of Persons Injured",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "10041",
-   "name": "Sudden | No. of Persons Injured | Female",
-   "header": [
-    "Sudden",
-    "No. of Persons Injured",
+    "Factory/Machine Accidents",
+    "No. of Persons injured",
     "Female"
    ]
   },
   {
-   "col_no": "10042",
-   "name": "Sudden | Total",
+   "col_no": "97",
+   "name": "Factory/Machine Accidents | No. of Persons injured | Total",
    "header": [
-    "Sudden",
+    "Factory/Machine Accidents",
+    "No. of Persons injured",
     "Total"
    ]
   },
   {
-   "col_no": "10043",
-   "name": "Sudden | Male -",
+   "col_no": "98",
+   "name": "Factory/Machine Accidents | No. of Persons Killed | Male",
    "header": [
-    "Sudden",
-    "Male -"
+    "Factory/Machine Accidents",
+    "No. of Persons Killed",
+    "Male"
    ]
   },
   {
-   "col_no": "10044",
-   "name": "Sudden | No. of Persons Killed Female -",
+   "col_no": "99",
+   "name": "Factory/Machine Accidents | No. of Persons Killed | Female",
    "header": [
-    "Sudden",
-    "No. of Persons Killed Female -"
+    "Factory/Machine Accidents",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "10045",
-   "name": "% Share to Total Deaths | Total",
+   "col_no": "100",
+   "name": "Factory/Machine Accidents | No. of Persons Killed | Total",
    "header": [
-    "% Share to Total Deaths",
+    "Factory/Machine Accidents",
+    "No. of Persons Killed",
     "Total"
+   ]
+  },
+  {
+   "col_no": "101",
+   "name": "%Share to Total Deaths (Col. 100/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col. 100/268)* 100"
    ]
   },
   {
    "col_no": "10046",
-   "name": "% Share to Total Deaths | ee",
+   "name": "No. of Cases (10046)",
    "header": [
-    "% Share to Total Deaths",
-    "ee"
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "102",
+   "name": "Fire (Fireworks/Crackers) | No.of Persons Injured | Male",
+   "header": [
+    "Fire (Fireworks/Crackers)",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "103",
+   "name": "Fire (Fireworks/Crackers) | No.of Persons Injured | Female",
+   "header": [
+    "Fire (Fireworks/Crackers)",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "104",
+   "name": "Fire (Fireworks/Crackers) | No.of Persons Injured | Total",
+   "header": [
+    "Fire (Fireworks/Crackers)",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "105",
+   "name": "Fire (Fireworks/Crackers) | No. of Persons Killed | Male",
+   "header": [
+    "Fire (Fireworks/Crackers)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "106",
+   "name": "Fire (Fireworks/Crackers) | No. of Persons Killed | Female",
+   "header": [
+    "Fire (Fireworks/Crackers)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "107",
+   "name": "Fire (Fireworks/Crackers) | No. of Persons Killed | Total",
+   "header": [
+    "Fire (Fireworks/Crackers)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "108",
+   "name": "%Share to Total Deaths (Col.107/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.107/268)* 100"
    ]
   },
   {
@@ -1426,58 +1368,64 @@
    ]
   },
   {
-   "col_no": "165",
-   "name": "Killed b)' animals | Male (165)",
+   "col_no": "109",
+   "name": "Fire (Short-Circuit) | No. of Persons Injured | Male",
    "header": [
-    "Killed b)' animals",
+    "Fire (Short-Circuit)",
+    "No. of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "166",
-   "name": "Killed b)' animals | No.of Persons Injured Female (166)",
+   "col_no": "110",
+   "name": "Fire (Short-Circuit) | No. of Persons Injured | Female",
    "header": [
-    "Killed b)' animals",
-    "No.of Persons Injured Female"
+    "Fire (Short-Circuit)",
+    "No. of Persons Injured",
+    "Female"
    ]
   },
   {
-   "col_no": "167",
-   "name": "Killed b)' animals | No.of Persons Injured Female (167)",
+   "col_no": "111",
+   "name": "Fire (Short-Circuit) | No. of Persons Injured | Total",
    "header": [
-    "Killed b)' animals",
-    "No.of Persons Injured Female"
-   ]
-  },
-  {
-   "col_no": "168",
-   "name": "Killed b)' animals | Total",
-   "header": [
-    "Killed b)' animals",
+    "Fire (Short-Circuit)",
+    "No. of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "169",
-   "name": "Killed b)' animals | Male (169)",
+   "col_no": "112",
+   "name": "Fire (Short-Circuit) | No. of Persons Killed | Male",
    "header": [
-    "Killed b)' animals",
+    "Fire (Short-Circuit)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "170",
-   "name": "Killed b)' animals | No. of Persons Killed Female",
+   "col_no": "113",
+   "name": "Fire (Short-Circuit) | No. of Persons Killed | Female",
    "header": [
-    "Killed b)' animals",
-    "No. of Persons Killed Female"
+    "Fire (Short-Circuit)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "171",
-   "name": "%Share to Total Deaths’ Total",
+   "col_no": "114",
+   "name": "Fire (Short-Circuit) | No. of Persons Killed | Total",
    "header": [
-    "%Share to Total Deaths’ Total"
+    "Fire (Short-Circuit)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "115",
+   "name": "%Share to Total Deaths (Col.114/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.114/268)* 100"
    ]
   },
   {
@@ -1488,58 +1436,64 @@
    ]
   },
   {
-   "col_no": "172",
-   "name": "\\Aines of | Male (172)",
+   "col_no": "116",
+   "name": "Fire (Cooking Gas Cylinder/Stove Burst) | No.of Persons Injured | Male",
    "header": [
-    "\\Aines of",
+    "Fire (Cooking Gas Cylinder/Stove Burst)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "173",
-   "name": "\\Aines of | Forsons ti Female",
+   "col_no": "117",
+   "name": "Fire (Cooking Gas Cylinder/Stove Burst) | No.of Persons Injured | Female",
    "header": [
-    "\\Aines of",
-    "Forsons ti Female"
+    "Fire (Cooking Gas Cylinder/Stove Burst)",
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
-   "col_no": "174",
-   "name": "\\Aines of | Total",
+   "col_no": "118",
+   "name": "Fire (Cooking Gas Cylinder/Stove Burst) | No.of Persons Injured | Total",
    "header": [
-    "\\Aines of",
+    "Fire (Cooking Gas Cylinder/Stove Burst)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "175",
-   "name": "\\Aines of | Male (175)",
+   "col_no": "119",
+   "name": "Fire (Cooking Gas Cylinder/Stove Burst) | No. of Persons Killed | Male",
    "header": [
-    "\\Aines of",
+    "Fire (Cooking Gas Cylinder/Stove Burst)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "176",
-   "name": "\\Aines of | No. of Persons Killed Female (176)",
+   "col_no": "120",
+   "name": "Fire (Cooking Gas Cylinder/Stove Burst) | No. of Persons Killed | Female",
    "header": [
-    "\\Aines of",
-    "No. of Persons Killed Female"
+    "Fire (Cooking Gas Cylinder/Stove Burst)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "177",
-   "name": "\\Aines of | No. of Persons Killed Female (177)",
+   "col_no": "121",
+   "name": "Fire (Cooking Gas Cylinder/Stove Burst) | No. of Persons Killed | Total",
    "header": [
-    "\\Aines of",
-    "No. of Persons Killed Female"
+    "Fire (Cooking Gas Cylinder/Stove Burst)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
-   "col_no": "178",
-   "name": "%Share to Total Deaths - (Col.177/268)* Total",
+   "col_no": "122",
+   "name": "%Share to Total Deaths (Col.121/268)* 100",
    "header": [
-    "%Share to Total Deaths - (Col.177/268)* Total"
+    "%Share to Total Deaths (Col.121/268)* 100"
    ]
   },
   {
@@ -1550,56 +1504,64 @@
    ]
   },
   {
-   "col_no": "179",
-   "name": "Male (179)",
+   "col_no": "123",
+   "name": "Other Fire Accidents | No.of Persons Injured | Male",
    "header": [
+    "Other Fire Accidents",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
-   "col_no": "180",
-   "name": "wo Female",
+   "col_no": "124",
+   "name": "Other Fire Accidents | No.of Persons Injured | Female",
    "header": [
-    "wo Female"
+    "Other Fire Accidents",
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
-   "col_no": "181",
-   "name": "A2=2=: t= miane of Insect. etc.) | Total",
+   "col_no": "125",
+   "name": "Other Fire Accidents | No.of Persons Injured | Total",
    "header": [
-    "A2=2=: t= miane of Insect. etc.)",
+    "Other Fire Accidents",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "182",
-   "name": "A2=2=: t= miane of Insect. etc.) | Male",
+   "col_no": "126",
+   "name": "Other Fire Accidents | No. of Persons Killed | Male",
    "header": [
-    "A2=2=: t= miane of Insect. etc.)",
+    "Other Fire Accidents",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "183",
-   "name": "A2=2=: t= miane of Insect. etc.) | No. of Persons Killed Female (183)",
+   "col_no": "127",
+   "name": "Other Fire Accidents | No. of Persons Killed | Female",
    "header": [
-    "A2=2=: t= miane of Insect. etc.)",
-    "No. of Persons Killed Female"
+    "Other Fire Accidents",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "184",
-   "name": "A2=2=: t= miane of Insect. etc.) | No. of Persons Killed Female (184)",
+   "col_no": "128",
+   "name": "Other Fire Accidents | No. of Persons Killed | Total",
    "header": [
-    "A2=2=: t= miane of Insect. etc.)",
-    "No. of Persons Killed Female"
+    "Other Fire Accidents",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
-   "col_no": "185",
-   "name": "%Share to Total Deaths Total {Col.1 er",
+   "col_no": "129",
+   "name": "%Share to Total Deaths (Col.128/268)* 100",
    "header": [
-    "%Share to Total Deaths Total {Col.1 er"
+    "%Share to Total Deaths (Col.128/268)* 100"
    ]
   },
   {
@@ -1610,661 +1572,1649 @@
    ]
   },
   {
-   "col_no": "186",
-   "name": "wg | Male",
+   "col_no": "10051",
+   "name": "Fire(Total) | No. of Persons Injured | Male",
    "header": [
-    "wg",
+    "Fire(Total)",
+    "No. of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10052",
+   "name": "Fire(Total) | No. of Persons Injured | Female",
+   "header": [
+    "Fire(Total)",
+    "No. of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10053",
+   "name": "Fire(Total) | No. of Persons Injured | Total",
+   "header": [
+    "Fire(Total)",
+    "No. of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10054",
+   "name": "Fire(Total) | No. of Persons Killed | Male",
+   "header": [
+    "Fire(Total)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10055",
+   "name": "Fire(Total) | No. of Persons Killed | Female",
+   "header": [
+    "Fire(Total)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10056",
+   "name": "Fire(Total) | No. of Persons Killed | Total",
+   "header": [
+    "Fire(Total)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10057",
+   "name": "% Share to Total Deaths (10057)",
+   "header": [
+    "% Share to Total Deaths"
+   ]
+  },
+  {
+   "col_no": "10058",
+   "name": "No. of Cases (10058)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "130",
+   "name": "Fire-Arms | No.of Persons Injured | Male",
+   "header": [
+    "Fire-Arms",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "131",
+   "name": "Fire-Arms | No.of Persons Injured | Female",
+   "header": [
+    "Fire-Arms",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "132",
+   "name": "Fire-Arms | No.of Persons Injured | Total",
+   "header": [
+    "Fire-Arms",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "133",
+   "name": "Fire-Arms | No. of Persons Killed | Male",
+   "header": [
+    "Fire-Arms",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "134",
+   "name": "Fire-Arms | No. of Persons Killed | Female",
+   "header": [
+    "Fire-Arms",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "135",
+   "name": "Fire-Arms | No. of Persons Killed | Total",
+   "header": [
+    "Fire-Arms",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "136",
+   "name": "%Share to Total Deaths (Col. 135/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col. 135/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10059",
+   "name": "No. of Cases (10059)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "137",
+   "name": "Sudden Death (Heart Attacks) | No.of Persons Injured | Male",
+   "header": [
+    "Sudden Death (Heart Attacks)",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "138",
+   "name": "Sudden Death (Heart Attacks) | No.of Persons Injured | Female",
+   "header": [
+    "Sudden Death (Heart Attacks)",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "139",
+   "name": "Sudden Death (Heart Attacks) | No.of Persons Injured | Total",
+   "header": [
+    "Sudden Death (Heart Attacks)",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "140",
+   "name": "Sudden Death (Heart Attacks) | No. of Persons Killed | Male",
+   "header": [
+    "Sudden Death (Heart Attacks)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "141",
+   "name": "Sudden Death (Heart Attacks) | No. of Persons Killed | Female",
+   "header": [
+    "Sudden Death (Heart Attacks)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "142",
+   "name": "Sudden Death (Heart Attacks) | No. of Persons Killed | Total",
+   "header": [
+    "Sudden Death (Heart Attacks)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "143",
+   "name": "%Share to Total Deaths (Col.65/268)* 100 (143)",
+   "header": [
+    "%Share to Total Deaths (Col.65/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10060",
+   "name": "No. of Cases (10060)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "144",
+   "name": "Sudden Death (Epileptic Fits/Giddiness) | No.of Persons Injured | Male",
+   "header": [
+    "Sudden Death (Epileptic Fits/Giddiness)",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "145",
+   "name": "Sudden Death (Epileptic Fits/Giddiness) | No.of Persons Injured | Female",
+   "header": [
+    "Sudden Death (Epileptic Fits/Giddiness)",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "146",
+   "name": "Sudden Death (Epileptic Fits/Giddiness) | No.of Persons Injured | Total",
+   "header": [
+    "Sudden Death (Epileptic Fits/Giddiness)",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "147",
+   "name": "Sudden Death (Epileptic Fits/Giddiness) | No. of Persons Killed | Male",
+   "header": [
+    "Sudden Death (Epileptic Fits/Giddiness)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "148",
+   "name": "Sudden Death (Epileptic Fits/Giddiness) | No. of Persons Killed | Female",
+   "header": [
+    "Sudden Death (Epileptic Fits/Giddiness)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "149",
+   "name": "Sudden Death (Epileptic Fits/Giddiness) | No. of Persons Killed | Total",
+   "header": [
+    "Sudden Death (Epileptic Fits/Giddiness)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "150",
+   "name": "%Share to Total Deaths (Col.149/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.149/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10061",
+   "name": "No. of Cases (10061)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "151",
+   "name": "Sudden Death (Abortion/Child Birth) | No.of Persons Injured | Male",
+   "header": [
+    "Sudden Death (Abortion/Child Birth)",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "152",
+   "name": "Sudden Death (Abortion/Child Birth) | No.of Persons Injured | Female",
+   "header": [
+    "Sudden Death (Abortion/Child Birth)",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "153",
+   "name": "Sudden Death (Abortion/Child Birth) | No.of Persons Injured | Total",
+   "header": [
+    "Sudden Death (Abortion/Child Birth)",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "154",
+   "name": "Sudden Death (Abortion/Child Birth) | No. of Persons Killed | Male",
+   "header": [
+    "Sudden Death (Abortion/Child Birth)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "155",
+   "name": "Sudden Death (Abortion/Child Birth) | No. of Persons Killed | Female",
+   "header": [
+    "Sudden Death (Abortion/Child Birth)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "156",
+   "name": "Sudden Death (Abortion/Child Birth) | No. of Persons Killed | Total",
+   "header": [
+    "Sudden Death (Abortion/Child Birth)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "157",
+   "name": "%Share to Total Deaths (Col.156/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.156/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10062",
+   "name": "No. of Cases*",
+   "header": [
+    "No. of Cases*"
+   ]
+  },
+  {
+   "col_no": "158",
+   "name": "Sudden Death (Influence of Alcohol) | No.of Persons Injured | Male",
+   "header": [
+    "Sudden Death (Influence of Alcohol)",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "159",
+   "name": "Sudden Death (Influence of Alcohol) | No.of Persons Injured | Female",
+   "header": [
+    "Sudden Death (Influence of Alcohol)",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "160",
+   "name": "Sudden Death (Influence of Alcohol) | No.of Persons Injured | Total",
+   "header": [
+    "Sudden Death (Influence of Alcohol)",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "161",
+   "name": "Sudden Death (Influence of Alcohol) | No. of Persons Killed | Male",
+   "header": [
+    "Sudden Death (Influence of Alcohol)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "162",
+   "name": "Sudden Death (Influence of Alcohol) | No. of Persons Killed | Female",
+   "header": [
+    "Sudden Death (Influence of Alcohol)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "163",
+   "name": "Sudden Death (Influence of Alcohol) | No. of Persons Killed | Total",
+   "header": [
+    "Sudden Death (Influence of Alcohol)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "164",
+   "name": "%Share to Total Deaths (Col.163/268)*100",
+   "header": [
+    "%Share to Total Deaths (Col.163/268)*100"
+   ]
+  },
+  {
+   "col_no": "10063",
+   "name": "No. of Cases (10063)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "10064",
+   "name": "Sudden Deaths(Total) | No. of Persons Injured | Male",
+   "header": [
+    "Sudden Deaths(Total)",
+    "No. of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10065",
+   "name": "Sudden Deaths(Total) | No. of Persons Injured | Female",
+   "header": [
+    "Sudden Deaths(Total)",
+    "No. of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10066",
+   "name": "Sudden Deaths(Total) | No. of Persons Injured | Total",
+   "header": [
+    "Sudden Deaths(Total)",
+    "No. of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10067",
+   "name": "Sudden Deaths(Total) | No. of Persons Killed | Male",
+   "header": [
+    "Sudden Deaths(Total)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10068",
+   "name": "Sudden Deaths(Total) | No. of Persons Killed | Female",
+   "header": [
+    "Sudden Deaths(Total)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10069",
+   "name": "Sudden Deaths(Total) | No. of Persons Killed | Total",
+   "header": [
+    "Sudden Deaths(Total)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10070",
+   "name": "% Share to Total Deaths (10070)",
+   "header": [
+    "% Share to Total Deaths"
+   ]
+  },
+  {
+   "col_no": "10071",
+   "name": "No. of Cases (10071)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "165",
+   "name": "Killed by animals | No.of Persons Injured | Male",
+   "header": [
+    "Killed by animals",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "166",
+   "name": "Killed by animals | No.of Persons Injured | Female",
+   "header": [
+    "Killed by animals",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "167",
+   "name": "Killed by animals | No.of Persons Injured | Total",
+   "header": [
+    "Killed by animals",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "168",
+   "name": "Killed by animals | No. of Persons Killed | Male",
+   "header": [
+    "Killed by animals",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "169",
+   "name": "Killed by animals | No. of Persons Killed | Female",
+   "header": [
+    "Killed by animals",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "170",
+   "name": "Killed by animals | No. of Persons Killed | Total",
+   "header": [
+    "Killed by animals",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "171",
+   "name": "%Share to Total Deaths* (Col.170/268)* 100",
+   "header": [
+    "%Share to Total Deaths* (Col.170/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10072",
+   "name": "No. of Cases (10072)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "172",
+   "name": "Mines or quarry disaster | No.of Persons Injured | Male",
+   "header": [
+    "Mines or quarry disaster",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "173",
+   "name": "Mines or quarry disaster | No.of Persons Injured | Female",
+   "header": [
+    "Mines or quarry disaster",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "174",
+   "name": "Mines or quarry disaster | No.of Persons Injured | Total",
+   "header": [
+    "Mines or quarry disaster",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "175",
+   "name": "Mines or quarry disaster | No. of Persons Killed | Male",
+   "header": [
+    "Mines or quarry disaster",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "176",
+   "name": "Mines or quarry disaster | No. of Persons Killed | Female",
+   "header": [
+    "Mines or quarry disaster",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "177",
+   "name": "Mines or quarry disaster | No. of Persons Killed | Total",
+   "header": [
+    "Mines or quarry disaster",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "178",
+   "name": "%Share to Total Deaths (Col.177/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.177/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10073",
+   "name": "No. of Cases (10073)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "179",
+   "name": "Poisoning (Food/Accidental intake of Insect. etc.) | No. of Persons Injured | Male",
+   "header": [
+    "Poisoning (Food/Accidental intake of Insect. etc.)",
+    "No. of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "180",
+   "name": "Poisoning (Food/Accidental intake of Insect. etc.) | No. of Persons Injured | Female",
+   "header": [
+    "Poisoning (Food/Accidental intake of Insect. etc.)",
+    "No. of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "181",
+   "name": "Poisoning (Food/Accidental intake of Insect. etc.) | No. of Persons Injured | Total",
+   "header": [
+    "Poisoning (Food/Accidental intake of Insect. etc.)",
+    "No. of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "182",
+   "name": "Poisoning (Food/Accidental intake of Insect. etc.) | No. of Persons Killed | Male",
+   "header": [
+    "Poisoning (Food/Accidental intake of Insect. etc.)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "183",
+   "name": "Poisoning (Food/Accidental intake of Insect. etc.) | No. of Persons Killed | Female",
+   "header": [
+    "Poisoning (Food/Accidental intake of Insect. etc.)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "184",
+   "name": "Poisoning (Food/Accidental intake of Insect. etc.) | No. of Persons Killed | Total",
+   "header": [
+    "Poisoning (Food/Accidental intake of Insect. etc.)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "185",
+   "name": "%Share to Total Deaths (Col.184/268)* 100",
+   "header": [
+    "%Share to Total Deaths (Col.184/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10074",
+   "name": "No. of Cases (10074)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "186",
+   "name": "Poisoning (Spurious/Poisonous liquor) | No.of Persons Injured | Male",
+   "header": [
+    "Poisoning (Spurious/Poisonous liquor)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "187",
-   "name": "wg | Nowwf Parsee ts Female",
+   "name": "Poisoning (Spurious/Poisonous liquor) | No.of Persons Injured | Female",
    "header": [
-    "wg",
-    "Nowwf Parsee ts Female"
+    "Poisoning (Spurious/Poisonous liquor)",
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
    "col_no": "188",
-   "name": "wg | Total",
+   "name": "Poisoning (Spurious/Poisonous liquor) | No.of Persons Injured | Total",
    "header": [
-    "wg",
+    "Poisoning (Spurious/Poisonous liquor)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
    "col_no": "189",
-   "name": "wg | Male (189). -",
+   "name": "Poisoning (Spurious/Poisonous liquor) | No. of Persons Killed | Male",
    "header": [
-    "wg",
-    "Male (189). -"
+    "Poisoning (Spurious/Poisonous liquor)",
+    "No. of Persons Killed",
+    "Male"
    ]
   },
   {
    "col_no": "190",
-   "name": "Near)",
+   "name": "Poisoning (Spurious/Poisonous liquor) | No. of Persons Killed | Female",
    "header": [
-    "Near)"
+    "Poisoning (Spurious/Poisonous liquor)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
    "col_no": "191",
-   "name": "No. of Persons Killed Female (191)",
+   "name": "Poisoning (Spurious/Poisonous liquor) | No. of Persons Killed | Total",
    "header": [
-    "No. of Persons Killed Female"
+    "Poisoning (Spurious/Poisonous liquor)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
    "col_no": "192",
-   "name": "%Share to Total Deaths’ (Col.191/268)* Total",
+   "name": "%Share to Total Deaths*(Col.191/268)*100",
    "header": [
-    "%Share to Total Deaths’ (Col.191/268)* Total"
+    "%Share to Total Deaths*(Col.191/268)*100"
    ]
   },
   {
-   "col_no": "10051",
-   "name": "No. of Cases (10051)",
+   "col_no": "10075",
+   "name": "No. of Cases (10075)",
    "header": [
     "No. of Cases"
    ]
   },
   {
    "col_no": "193",
-   "name": "Male (193)",
+   "name": "Poisoning (Leakage of gases etc.) | No.of Persons Injured | Male",
    "header": [
+    "Poisoning (Leakage of gases etc.)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "194",
-   "name": "Poisoning Persons injured | Female",
+   "name": "Poisoning (Leakage of gases etc.) | No.of Persons Injured | Female",
    "header": [
-    "Poisoning Persons injured",
+    "Poisoning (Leakage of gases etc.)",
+    "No.of Persons Injured",
     "Female"
    ]
   },
   {
    "col_no": "195",
-   "name": "Poisoning Persons injured | Total",
+   "name": "Poisoning (Leakage of gases etc.) | No.of Persons Injured | Total",
    "header": [
-    "Poisoning Persons injured",
+    "Poisoning (Leakage of gases etc.)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
    "col_no": "196",
-   "name": "ge of gases etc.) | Male",
+   "name": "Poisoning (Leakage of gases etc.) | No. of Persons Killed | Male",
    "header": [
-    "ge of gases etc.)",
+    "Poisoning (Leakage of gases etc.)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
    "col_no": "197",
-   "name": "ge of gases etc.) | No. of Persons Killed Female (197)",
+   "name": "Poisoning (Leakage of gases etc.) | No. of Persons Killed | Female",
    "header": [
-    "ge of gases etc.)",
-    "No. of Persons Killed Female"
+    "Poisoning (Leakage of gases etc.)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
    "col_no": "198",
-   "name": "ge of gases etc.) | No. of Persons Killed Female (198)",
+   "name": "Poisoning (Leakage of gases etc.) | No. of Persons Killed | Total",
    "header": [
-    "ge of gases etc.)",
-    "No. of Persons Killed Female"
+    "Poisoning (Leakage of gases etc.)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
    "col_no": "199",
-   "name": "%Share to Total Deaths Total - {Col.1 rp 268)* -",
+   "name": "%Share to Total Deaths (Col.198/268)*100",
    "header": [
-    "%Share to Total Deaths Total - {Col.1 rp 268)* -"
+    "%Share to Total Deaths (Col.198/268)*100"
    ]
   },
   {
-   "col_no": "10052",
-   "name": "No. of Cases (10052)",
+   "col_no": "10076",
+   "name": "No. of Cases (10076)",
    "header": [
     "No. of Cases"
    ]
   },
   {
    "col_no": "200",
-   "name": "rome my | No.0f Forsune | Male",
+   "name": "Poisoning (Snake Bite/Animal Bite) | No.of Persons Injured | Male",
    "header": [
-    "rome my",
-    "No.0f Forsune",
+    "Poisoning (Snake Bite/Animal Bite)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "201",
-   "name": "rome my | No.0f Forsune | Female",
+   "name": "Poisoning (Snake Bite/Animal Bite) | No.of Persons Injured | Female",
    "header": [
-    "rome my",
-    "No.0f Forsune",
+    "Poisoning (Snake Bite/Animal Bite)",
+    "No.of Persons Injured",
     "Female"
    ]
   },
   {
    "col_no": "202",
-   "name": "rome my | Total",
+   "name": "Poisoning (Snake Bite/Animal Bite) | No.of Persons Injured | Total",
    "header": [
-    "rome my",
+    "Poisoning (Snake Bite/Animal Bite)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
    "col_no": "203",
-   "name": "Rite/Animal Bite) | Male",
+   "name": "Poisoning (Snake Bite/Animal Bite) | No. of Persons Killed | Male",
    "header": [
-    "Rite/Animal Bite)",
+    "Poisoning (Snake Bite/Animal Bite)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
    "col_no": "204",
-   "name": "Rite/Animal Bite) | No. of Persons Killed Female (204)",
+   "name": "Poisoning (Snake Bite/Animal Bite) | No. of Persons Killed | Female",
    "header": [
-    "Rite/Animal Bite)",
-    "No. of Persons Killed Female"
+    "Poisoning (Snake Bite/Animal Bite)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
    "col_no": "205",
-   "name": "Rite/Animal Bite) | No. of Persons Killed Female (205)",
+   "name": "Poisoning (Snake Bite/Animal Bite) | No. of Persons Killed | Total",
    "header": [
-    "Rite/Animal Bite)",
-    "No. of Persons Killed Female"
+    "Poisoning (Snake Bite/Animal Bite)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
    "col_no": "206",
-   "name": "%Share to Tota! Deaths (Col.205/268)*",
+   "name": "%Share to Total Deaths (Col.205/268)* 100",
    "header": [
-    "%Share to Tota! Deaths (Col.205/268)*"
+    "%Share to Total Deaths (Col.205/268)* 100"
    ]
   },
   {
-   "col_no": "10053",
-   "name": "No. of Cases (10053)",
+   "col_no": "10077",
+   "name": "No. of Cases (10077)",
    "header": [
     "No. of Cases"
    ]
   },
   {
    "col_no": "207",
-   "name": "Formionn g (Other) | Male (207)",
+   "name": "Poisoning (Other) | No. of Persons Injured | Male",
    "header": [
-    "Formionn g (Other)",
+    "Poisoning (Other)",
+    "No. of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "208",
-   "name": "Formionn g (Other) | Persons Injured | Female",
+   "name": "Poisoning (Other) | No. of Persons Injured | Female",
    "header": [
-    "Formionn g (Other)",
-    "Persons Injured",
+    "Poisoning (Other)",
+    "No. of Persons Injured",
     "Female"
    ]
   },
   {
    "col_no": "209",
-   "name": "Formionn g (Other) | Persons Injured | Total",
+   "name": "Poisoning (Other) | No. of Persons Injured | Total",
    "header": [
-    "Formionn g (Other)",
-    "Persons Injured",
+    "Poisoning (Other)",
+    "No. of Persons Injured",
     "Total"
    ]
   },
   {
    "col_no": "210",
-   "name": "Formionn g (Other) | Male (210)",
+   "name": "Poisoning (Other) | No. of Persons Killed | Male",
    "header": [
-    "Formionn g (Other)",
+    "Poisoning (Other)",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
    "col_no": "211",
-   "name": "Formionn g (Other) | No. of Persons Killed Female (211)",
+   "name": "Poisoning (Other) | No. of Persons Killed | Female",
    "header": [
-    "Formionn g (Other)",
-    "No. of Persons Killed Female"
+    "Poisoning (Other)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
    "col_no": "212",
-   "name": "Formionn g (Other) | No. of Persons Killed Female (212)",
+   "name": "Poisoning (Other) | No. of Persons Killed | Total",
    "header": [
-    "Formionn g (Other)",
-    "No. of Persons Killed Female"
+    "Poisoning (Other)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
    "col_no": "213",
-   "name": "%Share to Total Deaths’ {Col.212/268)* Total",
+   "name": "%Share to Total Deaths (Col.212/268)* 100",
    "header": [
-    "%Share to Total Deaths’ {Col.212/268)* Total"
+    "%Share to Total Deaths (Col.212/268)* 100"
    ]
   },
   {
-   "col_no": "10054",
-   "name": "No. of Cases (10054)",
+   "col_no": "10078",
+   "name": "No. of Cases (10078)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "10079",
+   "name": "Poisoning(Total) | No. of Persons Injured | Male",
+   "header": [
+    "Poisoning(Total)",
+    "No. of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10080",
+   "name": "Poisoning(Total) | No. of Persons Injured | Female",
+   "header": [
+    "Poisoning(Total)",
+    "No. of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10081",
+   "name": "Poisoning(Total) | No. of Persons Injured | Total",
+   "header": [
+    "Poisoning(Total)",
+    "No. of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10082",
+   "name": "Poisoning(Total) | No. of Persons Killed | Male",
+   "header": [
+    "Poisoning(Total)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10083",
+   "name": "Poisoning(Total) | No. of Persons Killed | Female",
+   "header": [
+    "Poisoning(Total)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10084",
+   "name": "Poisoning(Total) | No. of Persons Killed | Total",
+   "header": [
+    "Poisoning(Total)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10085",
+   "name": "% Share to Total Deaths (10085)",
+   "header": [
+    "% Share to Total Deaths"
+   ]
+  },
+  {
+   "col_no": "10086",
+   "name": "No. of Cases (10086)",
    "header": [
     "No. of Cases"
    ]
   },
   {
    "col_no": "214",
-   "name": "Male (214)",
+   "name": "Stampede | No.of Persons Injured | Male",
    "header": [
+    "Stampede",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "215",
-   "name": "No.«f Persons Injured Female",
+   "name": "Stampede | No.of Persons Injured | Female",
    "header": [
-    "No.«f Persons Injured Female"
+    "Stampede",
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
    "col_no": "216",
-   "name": "Stan",
+   "name": "Stampede | No.of Persons Injured | Total",
    "header": [
-    "Stan"
-   ]
-  },
-  {
-   "col_no": "217",
-   "name": "Total (217)",
-   "header": [
+    "Stampede",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "218",
-   "name": "Male (218)",
+   "col_no": "217",
+   "name": "Stampede | No. of Persons Killed | Male",
    "header": [
+    "Stampede",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "219",
-   "name": "No. of Persons Killed Female (219)",
+   "col_no": "218",
+   "name": "Stampede | No. of Persons Killed | Female",
    "header": [
-    "No. of Persons Killed Female"
+    "Stampede",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "219",
+   "name": "Stampede | No. of Persons Killed | Total",
+   "header": [
+    "Stampede",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
    "col_no": "220",
-   "name": "%Share to Total Deaths (Col.219/268)* Total",
+   "name": "%Share to Total Deaths (Col.219/268)* 100",
    "header": [
-    "%Share to Total Deaths (Col.219/268)* Total"
+    "%Share to Total Deaths (Col.219/268)* 100"
    ]
   },
   {
-   "col_no": "10055",
-   "name": "No. of Cases (2) ANDHRA PRADESH ASSAM",
+   "col_no": "10087",
+   "name": "No. of Cases (10087)",
    "header": [
-    "No. of Cases (2) ANDHRA PRADESH ASSAM"
+    "No. of Cases"
    ]
   },
   {
-   "col_no": "10056",
-   "name": "Suffocation | Male (3) oO 9 OF 1:",
+   "col_no": "221",
+   "name": "Suffocation | No.of Persons Injured | Male",
    "header": [
     "Suffocation",
-    "Male (3) oO 9 OF 1:"
+    "No.of Persons Injured",
+    "Male"
    ]
   },
   {
-   "col_no": "10057",
-   "name": "Suffocation | Persons Injured Female (221) 0. OO 0)",
+   "col_no": "222",
+   "name": "Suffocation | No.of Persons Injured | Female",
    "header": [
     "Suffocation",
-    "Persons Injured Female (221) 0. OO 0)"
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
-   "col_no": "10058",
-   "name": "Suffocation | Total (222) om",
+   "col_no": "223",
+   "name": "Suffocation | No.of Persons Injured | Total",
    "header": [
     "Suffocation",
-    "Total (222) om"
+    "No.of Persons Injured",
+    "Total"
    ]
   },
   {
-   "col_no": "10059",
-   "name": "Suffocation | Male (223) 9 0) 8 )",
+   "col_no": "224",
+   "name": "Suffocation | No. of Persons Killed | Male",
    "header": [
     "Suffocation",
-    "Male (223) 9 0) 8 )"
+    "No. of Persons Killed",
+    "Male"
    ]
   },
   {
-   "col_no": "10060",
-   "name": "Suffocation | No. of Persons Killed Female (224) 4 OF 1",
+   "col_no": "225",
+   "name": "Suffocation | No. of Persons Killed | Female",
    "header": [
     "Suffocation",
-    "No. of Persons Killed Female (224) 4 OF 1"
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
-   "col_no": "10061",
-   "name": "Suffocation | Total (225) 13. OO 1}",
+   "col_no": "226",
+   "name": "Suffocation | No. of Persons Killed | Total",
    "header": [
     "Suffocation",
-    "Total (225) 13. OO 1}"
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
-   "col_no": "10062",
-   "name": "%Share to Total Deaths (Col.2peinesi\" (226) (227) 08 -00 .03",
+   "col_no": "227",
+   "name": "%Share to Total Deaths (Col.226/268)* 100",
    "header": [
-    "%Share to Total Deaths (Col.2peinesi\" (226) (227) 08 -00 .03"
+    "%Share to Total Deaths (Col.226/268)* 100"
    ]
   },
   {
-   "col_no": "10063",
-   "name": "Traffic Accidents (Road Accidents) | No. of Cases",
+   "col_no": "10088",
+   "name": "No. of Cases (10088)",
    "header": [
-    "Traffic Accidents (Road Accidents)",
     "No. of Cases"
    ]
   },
   {
    "col_no": "228",
-   "name": "Traffic Accidents (Road Accidents) | Male",
+   "name": "Traffic Accidents (Road Accidents) | No.of Persons Injured | Male",
    "header": [
     "Traffic Accidents (Road Accidents)",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "229",
-   "name": "Traffic Accidents (Road Accidents) | No.of Persons Injured Female (229)",
+   "name": "Traffic Accidents (Road Accidents) | No.of Persons Injured | Female",
    "header": [
     "Traffic Accidents (Road Accidents)",
-    "No.of Persons Injured Female"
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
    "col_no": "230",
-   "name": "Traffic Accidents (Road Accidents) | No.of Persons Injured Female (230)",
+   "name": "Traffic Accidents (Road Accidents) | No.of Persons Injured | Total",
    "header": [
     "Traffic Accidents (Road Accidents)",
-    "No.of Persons Injured Female"
-   ]
-  },
-  {
-   "col_no": "231",
-   "name": "Traffic Accidents (Road Accidents) | Total (231)",
-   "header": [
-    "Traffic Accidents (Road Accidents)",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "232",
-   "name": "Traffic Accidents (Road Accidents) | No. cf Persons Kiled Female Male",
+   "col_no": "231",
+   "name": "Traffic Accidents (Road Accidents) | No. of Persons Killed | Male",
    "header": [
     "Traffic Accidents (Road Accidents)",
-    "No. cf Persons Kiled Female Male"
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "232",
+   "name": "Traffic Accidents (Road Accidents) | No. of Persons Killed | Female",
+   "header": [
+    "Traffic Accidents (Road Accidents)",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
    "col_no": "233",
-   "name": "Traffic Accidents (Road Accidents) | Total (233)",
+   "name": "Traffic Accidents (Road Accidents) | No. of Persons Killed | Total",
    "header": [
     "Traffic Accidents (Road Accidents)",
+    "No. of Persons Killed",
     "Total"
    ]
   },
   {
    "col_no": "234",
-   "name": "Traffic Accidents (Road Accidents) | % Share to Total Deaths {Col.233/268)*",
+   "name": "%Share to Total Deaths (Col.233/268)* 100",
    "header": [
-    "Traffic Accidents (Road Accidents)",
-    "% Share to Total Deaths {Col.233/268)*"
+    "%Share to Total Deaths (Col.233/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10089",
+   "name": "No. of Cases (10089)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "235",
+   "name": "Traffic Accidents (Rail-Road Accidents) | No.of Persons Injured | Male",
+   "header": [
+    "Traffic Accidents (Rail-Road Accidents)",
+    "No.of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "236",
+   "name": "Traffic Accidents (Rail-Road Accidents) | No.of Persons Injured | Female",
+   "header": [
+    "Traffic Accidents (Rail-Road Accidents)",
+    "No.of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "237",
+   "name": "Traffic Accidents (Rail-Road Accidents) | No.of Persons Injured | Total",
+   "header": [
+    "Traffic Accidents (Rail-Road Accidents)",
+    "No.of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "238",
+   "name": "Traffic Accidents (Rail-Road Accidents) | No. of Persons Killed | Male",
+   "header": [
+    "Traffic Accidents (Rail-Road Accidents)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "239",
+   "name": "Traffic Accidents (Rail-Road Accidents) | No. of Persons Killed | Female",
+   "header": [
+    "Traffic Accidents (Rail-Road Accidents)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "240",
+   "name": "Traffic Accidents (Rail-Road Accidents) | No. of Persons Killed | Total",
+   "header": [
+    "Traffic Accidents (Rail-Road Accidents)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
    "col_no": "241",
-   "name": "%Share to Total Deaths (Col.240/268)* Total",
+   "name": "%Share to Total Deaths (Col.240/268)* 100",
    "header": [
-    "%Share to Total Deaths (Col.240/268)* Total"
+    "%Share to Total Deaths (Col.240/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10090",
+   "name": "No. of Cases (10090)",
+   "header": [
+    "No. of Cases"
+   ]
+  },
+  {
+   "col_no": "242",
+   "name": "Traffic Accidents (Other Railway Accidents) | No. of Persons Injured | Male",
+   "header": [
+    "Traffic Accidents (Other Railway Accidents)",
+    "No. of Persons Injured",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "243",
+   "name": "Traffic Accidents (Other Railway Accidents) | No. of Persons Injured | Female",
+   "header": [
+    "Traffic Accidents (Other Railway Accidents)",
+    "No. of Persons Injured",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "244",
+   "name": "Traffic Accidents (Other Railway Accidents) | No. of Persons Injured | Total",
+   "header": [
+    "Traffic Accidents (Other Railway Accidents)",
+    "No. of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "245",
+   "name": "Traffic Accidents (Other Railway Accidents) | No. of Persons Killed | Male",
+   "header": [
+    "Traffic Accidents (Other Railway Accidents)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "246",
+   "name": "Traffic Accidents (Other Railway Accidents) | No. of Persons Killed | Female",
+   "header": [
+    "Traffic Accidents (Other Railway Accidents)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "247",
+   "name": "Traffic Accidents (Other Railway Accidents) | No. of Persons Killed | Total",
+   "header": [
+    "Traffic Accidents (Other Railway Accidents)",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
    "col_no": "248",
-   "name": "%Share to Total Deaths (Col.247/268)* Total",
+   "name": "%Share to Total Deaths (Col.247/268)* 100",
    "header": [
-    "%Share to Total Deaths (Col.247/268)* Total"
+    "%Share to Total Deaths (Col.247/268)* 100"
    ]
   },
   {
-   "col_no": "10064",
-   "name": "No. of Cases No. of Persons Injured Male",
+   "col_no": "10091",
+   "name": "No. of Cases (10091)",
    "header": [
-    "No. of Cases No. of Persons Injured Male"
+    "No. of Cases"
    ]
   },
   {
-   "col_no": "10065",
-   "name": "Traffic Accidents(Total) No. of Persons Killed Female Male Female on",
+   "col_no": "10092",
+   "name": "Traffic Accidents(Total) | No. of Persons Injured | Male",
    "header": [
-    "Traffic Accidents(Total) No. of Persons Killed Female Male Female on"
+    "Traffic Accidents(Total)",
+    "No. of Persons Injured",
+    "Male"
    ]
   },
   {
-   "col_no": "10066",
-   "name": "% Share to Total Deaths Total Total",
+   "col_no": "10093",
+   "name": "Traffic Accidents(Total) | No. of Persons Injured | Female",
    "header": [
-    "% Share to Total Deaths Total Total"
+    "Traffic Accidents(Total)",
+    "No. of Persons Injured",
+    "Female"
    ]
   },
   {
-   "col_no": "10067",
-   "name": "No. of Cases (10067)",
+   "col_no": "10094",
+   "name": "Traffic Accidents(Total) | No. of Persons Injured | Total",
+   "header": [
+    "Traffic Accidents(Total)",
+    "No. of Persons Injured",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10095",
+   "name": "Traffic Accidents(Total) | No. of Persons Killed | Male",
+   "header": [
+    "Traffic Accidents(Total)",
+    "No. of Persons Killed",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10096",
+   "name": "Traffic Accidents(Total) | No. of Persons Killed | Female",
+   "header": [
+    "Traffic Accidents(Total)",
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10097",
+   "name": "Traffic Accidents(Total) | No. of Persons Killed | Total",
+   "header": [
+    "Traffic Accidents(Total)",
+    "No. of Persons Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10098",
+   "name": "% Share to Total Deaths (10098)",
+   "header": [
+    "% Share to Total Deaths"
+   ]
+  },
+  {
+   "col_no": "10099",
+   "name": "No. of Cases (10099)",
    "header": [
     "No. of Cases"
    ]
   },
   {
    "col_no": "249",
-   "name": "Other Causes | Male (249)",
+   "name": "Other Causes | No.of Persons Injured | Male",
    "header": [
     "Other Causes",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "250",
-   "name": "Other Causes | No.«f Persons Injured Female (250)",
+   "name": "Other Causes | No.of Persons Injured | Female",
    "header": [
     "Other Causes",
-    "No.«f Persons Injured Female"
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
    "col_no": "251",
-   "name": "Other Causes | No.«f Persons Injured Female (251)",
+   "name": "Other Causes | No.of Persons Injured | Total",
    "header": [
     "Other Causes",
-    "No.«f Persons Injured Female"
-   ]
-  },
-  {
-   "col_no": "252",
-   "name": "Other Causes | Total",
-   "header": [
-    "Other Causes",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
-   "col_no": "253",
-   "name": "Other Causes | Male (253)",
+   "col_no": "252",
+   "name": "Other Causes | No. of Persons Killed | Male",
    "header": [
     "Other Causes",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
-   "col_no": "254",
-   "name": "Other Causes | No. of Persons Killed Female",
+   "col_no": "253",
+   "name": "Other Causes | No. of Persons Killed | Female",
    "header": [
     "Other Causes",
-    "No. of Persons Killed Female"
+    "No. of Persons Killed",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "254",
+   "name": "Other Causes | No. of Persons Killed | Total",
+   "header": [
+    "Other Causes",
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
    "col_no": "255",
-   "name": "to Total Deaths (Col.254/268)* Total",
+   "name": "%Share to Total Deaths (Col.254/268)* 100",
    "header": [
-    "to Total Deaths (Col.254/268)* Total"
+    "%Share to Total Deaths (Col.254/268)* 100"
    ]
   },
   {
-   "col_no": "10068",
-   "name": "No. of Cases (10068)",
+   "col_no": "10100",
+   "name": "No. of Cases (10100)",
    "header": [
     "No. of Cases"
    ]
   },
   {
    "col_no": "256",
-   "name": "Causes Not Known | Male (256)",
+   "name": "Causes Not Known | No.of Persons Injured | Male",
    "header": [
     "Causes Not Known",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "257",
-   "name": "Causes Not Known | Persons In|ured | Female",
+   "name": "Causes Not Known | No.of Persons Injured | Female",
    "header": [
     "Causes Not Known",
-    "Persons In|ured",
+    "No.of Persons Injured",
     "Female"
    ]
   },
   {
    "col_no": "258",
-   "name": "Causes Not Known | Persons In|ured | Total",
+   "name": "Causes Not Known | No.of Persons Injured | Total",
    "header": [
     "Causes Not Known",
-    "Persons In|ured",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
    "col_no": "259",
-   "name": "Causes Not Known | Male (259)",
+   "name": "Causes Not Known | No. of Persons Killed | Male",
    "header": [
     "Causes Not Known",
+    "No. of Persons Killed",
     "Male"
    ]
   },
   {
    "col_no": "260",
-   "name": "Causes Not Known | No. of Persons Killed Female (260)",
+   "name": "Causes Not Known | No. of Persons Killed | Female",
    "header": [
     "Causes Not Known",
-    "No. of Persons Killed Female"
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
    "col_no": "261",
-   "name": "Causes Not Known | No. of Persons Killed Female (261)",
+   "name": "Causes Not Known | No. of Persons Killed | Total",
    "header": [
     "Causes Not Known",
-    "No. of Persons Killed Female"
+    "No. of Persons Killed",
+    "Total"
    ]
   },
   {
    "col_no": "262",
-   "name": "%Share to Total Deaths Total (262)",
+   "name": "%Share to Total Deaths (Col.261/268)* 100",
    "header": [
-    "%Share to Total Deaths Total"
+    "%Share to Total Deaths (Col.261/268)* 100"
+   ]
+  },
+  {
+   "col_no": "10101",
+   "name": "No. of Cases (10101)",
+   "header": [
+    "No. of Cases"
    ]
   },
   {
    "col_no": "263",
-   "name": "Male (263)",
+   "name": "Total | No.of Persons Injured | Male",
    "header": [
+    "Total",
+    "No.of Persons Injured",
     "Male"
    ]
   },
   {
    "col_no": "264",
-   "name": "No.0! Persons iz jured Female",
+   "name": "Total | No.of Persons Injured | Female",
    "header": [
-    "No.0! Persons iz jured Female"
+    "Total",
+    "No.of Persons Injured",
+    "Female"
    ]
   },
   {
    "col_no": "265",
-   "name": "Total (265)",
+   "name": "Total | No.of Persons Injured | Total",
    "header": [
+    "Total",
+    "No.of Persons Injured",
     "Total"
    ]
   },
   {
    "col_no": "266",
-   "name": "Total (266)",
+   "name": "Total | No. of Persons Killed | Male",
    "header": [
-    "Total"
+    "Total",
+    "No. of Persons Killed",
+    "Male"
    ]
   },
   {
    "col_no": "267",
-   "name": "No. «if Persons Male Female",
+   "name": "Total | No. of Persons Killed | Female",
    "header": [
-    "No. «if Persons Male Female"
+    "Total",
+    "No. of Persons Killed",
+    "Female"
    ]
   },
   {
    "col_no": "268",
-   "name": "Total (268)",
+   "name": "Total | No. of Persons Killed | Total",
    "header": [
+    "Total",
+    "No. of Persons Killed",
     "Total"
    ]
   },
   {
    "col_no": "269",
-   "name": "%Share to Total Deaths (col.26ei2e8)*",
+   "name": "%Share to Total Deaths (Col.268/268)* 100",
    "header": [
-    "%Share to Total Deaths (col.26ei2e8)*"
+    "%Share to Total Deaths (Col.268/268)* 100"
    ]
   }
  ],
- "notes": [
-  "96 1731 NCRB/99—9B",
-  "Total (Cities) 1012 2° 0 2 882 136 1018 3.63."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 123,
-  "cells_passed": 3,
+  "cells_checked": 1282,
+  "cells_passed": 1208,
   "failures": [
-   "col 3 '- TOTAL (UTs)': printed 0, sum 16",
-   "col 4 '- TOTAL{All-India)': printed 1, sum 0",
-   "col 11 '- TOTAL (UTs)': printed 20, sum 348",
-   "col 11 '- TOTAL (Cities)': printed 32, sum 11",
-   "col 13 '- TOTAL (UTs)': printed 21, sum 475",
-   "col 13 '- TOTAL (Cities)': printed 43, sum 17",
-   "col 15 '- TOTAL (UTs)': printed 3, sum 406",
-   "col 15 '- TOTAL (Cities)': printed 26, sum 21"
+   "col 10001 'Total(States)': printed 965, sum 870",
+   "col 11 'Total(States)': printed 225, sum 214",
+   "col 12 'Total(States)': printed 109, sum 99",
+   "col 13 'Total(States)': printed 334, sum 313",
+   "col 14 'Total(States)': printed 628, sum 560",
+   "col 15 'Total(States)': printed 293, sum 264",
+   "col 16 'Total(States)': printed 921, sum 824",
+   "col 10006 'Total (UTs)': printed 0, sum 46"
   ],
-  "other_totals_checked": 3,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 9,
- "ocr_pages": 43,
+ "inferred_pages": 0,
+ "ocr_pages": 46,
  "warnings": []
 }

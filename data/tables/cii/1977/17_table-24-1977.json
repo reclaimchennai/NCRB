@@ -8,87 +8,93 @@
  "serial": "17",
  "title": "Persons Arrested under Local and Special Laws",
  "listing_title": "Persons Arrested under Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1977.pdf",
  "source_file": "raw/cii/1977/table_content/table-24-1977.pdf",
  "source_sha256": "bd967a7f3f940e5c07b641d66b98a7866a8db6ad8a8ba6fca358debfc16da8af",
  "table_no": "24",
- "pdf_title": "TABLR 34",
- "row_label": "Tx ! - / Tx -",
+ "pdf_title": "73 TABLE 24 PERSONS ARRESTED UNDER LOCAL AND SPECIAL LAWS",
+ "row_label": "Sl. No. / States/U. Ts./Cities / States/U. Ts./Cities / States/U. Ts./Cities",
  "pages": [
   1,
-  2
+  2,
+  3
  ],
- "n_rows": 68,
+ "n_rows": 88,
  "n_cols": 9,
- "n_cells": 315,
+ "n_cells": 564,
  "columns": [
   {
    "col_no": "3",
-   "name": "Abe Arms Act 3",
+   "name": "Crime Heads | Arms Act",
    "header": [
-    "Abe Arms Act 3"
+    "Crime Heads",
+    "Arms Act"
    ]
   },
   {
    "col_no": "4",
-   "name": "LOCAL. AN Seed. LAWS | Act 4",
+   "name": "Crime Heads | Opium Act",
    "header": [
-    "LOCAL. AN Seed. LAWS",
-    "Act 4"
+    "Crime Heads",
+    "Opium Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "LOCAL. AN Seed. LAWS | Crime Heads 0 Ac $",
+   "name": "Crime Heads | Gambling Act",
    "header": [
-    "LOCAL. AN Seed. LAWS",
-    "Crime Heads 0 Ac $"
+    "Crime Heads",
+    "Gambling Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "Act 6",
+   "name": "Crime Heads | Excise Act",
    "header": [
-    "Act 6"
+    "Crime Heads",
+    "Excise Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "Expl. & Expl.” Subs, Act 7",
+   "name": "Crime Heads | Expl. & Expl. Subs. Act",
    "header": [
-    "Expl. & Expl.” Subs, Act 7"
+    "Crime Heads",
+    "Expl. & Expl. Subs. Act"
    ]
   },
   {
    "col_no": "10001",
-   "name": "ee ee | Traffic 3 ‘",
+   "name": "Crime Heads | Suppression of Imperial Traffic Act",
    "header": [
-    "ee ee",
-    "Traffic 3 ‘"
+    "Crime Heads",
+    "Suppression of Imperial Traffic Act"
    ]
   },
   {
    "col_no": "10002",
-   "name": "ee ee | Movor Vebicles Act 8 ‘",
+   "name": "Crime Heads | Motor Vehicles Act",
    "header": [
-    "ee ee",
-    "Movor Vebicles Act 8 ‘"
+    "Crime Heads",
+    "Motor Vehicles Act"
    ]
   },
   {
    "col_no": "10003",
-   "name": "Tadian Act os ih 4733 1907",
+   "name": "Crime Heads | Indian Railways Act",
    "header": [
-    "Tadian Act os ih 4733 1907"
+    "Crime Heads",
+    "Indian Railways Act"
    ]
   },
   {
    "col_no": "10004",
-   "name": "Act 9 s7020",
+   "name": "Crime Heads | Customs Act",
    "header": [
-    "Act 9 s7020"
+    "Crime Heads",
+    "Customs Act"
    ]
   }
  ],
@@ -97,10 +103,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 0
+  "other_totals_checked": 47,
+  "other_totals_passed": 32
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

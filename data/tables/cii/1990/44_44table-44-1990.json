@@ -8,89 +8,90 @@
  "serial": "44",
  "title": "Juveniles Apprehended under IPC Crimes by Age Group & Sex During 1990 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended under IPC Crimes by Age Group & Sex During 1990 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/44table-44-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/44table-44-1990-.pdf",
  "source_sha256": "cc24ac41c379769e8f42a5bca25db8bb05c189e3a3f3ee69909eb9e583421966",
- "table_no": "44",
- "pdf_title": "JUVENILES arrss:2ru=:: UNDER IPC CRIMES BY AGE GROUP & SEX DURING 1990 (STATE, UT & CITY-WISE)",
- "row_label": "SL. STATE/UT/CITY NO. qi)",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL. STATE/UT/CITY NO. / 7 - 12 YEARS BOYS",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 8,
- "n_cells": 344,
+ "n_cells": 376,
  "columns": [
   {
    "col_no": "3",
-   "name": "7 BOYS",
+   "name": "7 - 12 YEARS | GIRLS",
    "header": [
-    "7 BOYS"
+    "7 - 12 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "4",
-   "name": "- GIRLS",
+   "name": "12-16 YEARS | BOYS",
    "header": [
-    "- GIRLS"
+    "12-16 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "5",
-   "name": "12 BOYS (Ss)",
+   "name": "12-16 YEARS | GIRLS",
    "header": [
-    "12 BOYS (Ss)"
+    "12-16 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "6",
-   "name": "YEARS GIRLS",
+   "name": "16-18 YEARS | GIRLS ONLY",
    "header": [
-    "YEARS GIRLS"
+    "16-18 YEARS",
+    "GIRLS ONLY"
    ]
   },
   {
    "col_no": "7",
-   "name": "12-16 GIRLS ONLY",
+   "name": "16-18 YEARS | BOYS",
    "header": [
-    "12-16 GIRLS ONLY"
+    "16-18 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "8",
-   "name": "OVERALL YEARS GROUP BOYS",
+   "name": "OVERALL AGE GROUP | GIRLS",
    "header": [
-    "OVERALL YEARS GROUP BOYS"
+    "OVERALL AGE GROUP",
+    "GIRLS"
    ]
   },
   {
    "col_no": "9",
-   "name": "AGE 16-18 GIRLS",
+   "name": "OVERALL AGE GROUP",
    "header": [
-    "AGE 16-18 GIRLS"
+    "OVERALL AGE GROUP"
    ]
   },
   {
    "col_no": "10",
-   "name": "YEARS TOTAL (BOYS + GIRLS)",
+   "name": "TOTAL (BOYS + GIRLS)",
    "header": [
-    "YEARS TOTAL (BOYS + GIRLS)"
+    "TOTAL (BOYS + GIRLS)"
    ]
   }
  ],
- "notes": [
-  "Note: 7-12 years means 7 years and above but below 12 years of age etc."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 24,
-  "cells_passed": 20,
+  "cells_passed": 23,
   "failures": [
-   "col 5 'TOTAL (UTs)': printed 142, sum 151",
-   "col 6 'TOTAL (UTs)': printed 6, sum 5",
-   "col 8 'TOTAL (STATES)': printed 14155, sum 24325",
-   "col 9 'TOTAL (STATES)': printed 2484, sum 3064"
+   "col 8 'TOTAL (STATES)': printed 14155, sum 13665"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

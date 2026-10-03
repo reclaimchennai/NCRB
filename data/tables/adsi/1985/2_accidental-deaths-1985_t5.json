@@ -1,0 +1,62 @@
+{
+ "table_id": "adsi/1985/2_accidental-deaths-1985_t5",
+ "publication": "adsi",
+ "year": 1985,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1985",
+ "serial": "2",
+ "title": "12 TABLE—IV Comparative Statement Of Incidence Of Accidental Deaths In States/U.Ts. And Metropolitan Cities During The Year 1985",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1985.pdf",
+ "source_file": "raw/adsi/1985/year_wise/accidental-deaths-1985.pdf",
+ "source_sha256": "623fa9d23f6342a6caeecc7ecce0f152c35590b6798cb6d330caef92996abf29",
+ "table_no": "",
+ "pdf_title": "12 TABLE—IV Comparative Statement Of Incidence Of Accidental Deaths In States/U.Ts. And Metropolitan Cities During The Year 1985",
+ "row_label": "Sl. States/U.Ts/Cities No. / Sl. States/U.Ts/Cities No.",
+ "pages": [
+  13
+ ],
+ "n_rows": 25,
+ "n_cols": 3,
+ "n_cells": 74,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Accidental Deaths (3)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of Accidental Deaths (4)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Percentage variation from 1984 to 1985",
+   "header": [
+    "Percentage variation from 1984 to 1985"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 129770, sum 131757",
+   "col 4 'TOTAL (STATES)': printed 134962, sum 136951"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

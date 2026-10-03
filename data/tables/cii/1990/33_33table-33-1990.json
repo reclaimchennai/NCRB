@@ -8,61 +8,68 @@
  "serial": "33",
  "title": "Disposal of Persons Arrested under LSL by Courts During 1990",
  "listing_title": "Disposal of Persons Arrested under LSL by Courts During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/33table-33-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/33table-33-1990-.pdf",
  "source_sha256": "8d5080b2cfb50ae2bb83d561ea2df53072e153df1d233f9ede3323f59cbec89a",
  "table_no": "33",
- "pdf_title": "",
- "row_label": "DISPOSAL OF SL. NO. / DISPOSAL OF CRIME / DISPOSAL OF HEADS OF PERSONS UNDER TRIAL INCLIMTNG THOSE FROM VIOUS",
+ "pdf_title": "131 TABLE-33 DISPOSAL OF PERSONS ARRESTED UNDER LSL BY COURTS DURING 1990",
+ "row_label": "SL. NO. / CRIME HEADS",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 6,
- "n_cells": 102,
+ "n_cols": 7,
+ "n_cells": 119,
  "columns": [
   {
-   "col_no": "4",
-   "name": "rensuns TOTAL CASE COMPOUNDED OR WITH PREDRAWN YEAR",
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "rensuns TOTAL CASE COMPOUNDED OR WITH PREDRAWN YEAR"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF CASE COMPO-UNDED OR WITH DRAWN",
+   "header": [
+    "NO. OF CASE COMPO-UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER LSL BY NO. TRIAL COMPLETED",
+   "name": "PERSONS WHOSE TRIAL COMPL-ETED",
    "header": [
-    "UNDER LSL BY NO. TRIAL COMPLETED"
+    "PERSONS WHOSE TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "COURTS NO. TRIAL PENDING",
+   "name": "TRIAL REMAINED PENDING",
    "header": [
-    "COURTS NO. TRIAL PENDING"
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "DURING OF OF rensuns - PERSONS",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "DURING OF OF rensuns - PERSONS"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "1990 WHOSE WHOSE TRIALS REMATNED PENDING COL. (6)x100/ (3)",
+   "name": "PERCENTAGE OF PERSONS WHOSE TRIALS REMAINED PENDING COL. (6)x100/(3)",
    "header": [
-    "1990 WHOSE WHOSE TRIALS REMATNED PENDING COL. (6)x100/ (3)"
+    "PERCENTAGE OF PERSONS WHOSE TRIALS REMAINED PENDING COL. (6)x100/(3)"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF NO. CUNVLUTED TO TRIALS COMPLETED COL. (7)x100/ (5)",
+   "name": "CONVICTED TO TRIALS COMPLETED COL. (7)x100/(5)",
    "header": [
-    "OF NO. CUNVLUTED TO TRIALS COMPLETED COL. (7)x100/ (5)"
+    "CONVICTED TO TRIALS COMPLETED COL. (7)x100/(5)"
    ]
   }
  ],
@@ -71,8 +78,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -1,0 +1,190 @@
+{
+ "table_id": "cii/1999/81_table-81-1999",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "81",
+ "title": "Reported Custodial Rape Cases and Their Disposal by Police and Courts During 1999",
+ "listing_title": "Reported Custodial Rape Cases and Their Disposal by Police and Courts During 1999",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-81-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-81-1999.pdf",
+ "source_sha256": "82c200aa0ba22bfc0baaa82b1569f7bc484b0adfe21bbf3359b019899ffa6358",
+ "table_no": "81",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 81",
+ "row_label": "SL.NO. / STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 38,
+ "n_cols": 18,
+ "n_cells": 630,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "INVESTIGATION STAGE | CASES PENDING INVESTIGATION FROM PREVIOUS YEAR",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES PENDING INVESTIGATION FROM PREVIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "INVESTIGATION STAGE | CASES REPORTED DURING THE YEAR",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES REPORTED DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "INVESTIGATION STAGE | CASES WITHDRAWN BY GOVT. DURING INVESTIGATION",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES WITHDRAWN BY GOVT. DURING INVESTIGATION"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "INVESTIGATION STAGE | CASES NOT INVESTIGATED OR IN WHICH INVESTIGATION WAS REFUSED",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES NOT INVESTIGATED OR IN WHICH INVESTIGATION WAS REFUSED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INVESTIGATION STAGE | CASES DECLARED FALSE ON ACCOUNT OF MISTAKE OF FACT OR LAW",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES DECLARED FALSE ON ACCOUNT OF MISTAKE OF FACT OR LAW"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INVESTIGATION STAGE | CASES IN WHICH CHARGE-SHEETS WERE SUBMITTED",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES IN WHICH CHARGE-SHEETS WERE SUBMITTED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "INVESTIGATION STAGE | CASES IN WHICH CHARGE-SHEETS WERE NOT LAID BUT FINAL REPORT SUBMITTED DURING THE YEAR",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES IN WHICH CHARGE-SHEETS WERE NOT LAID BUT FINAL REPORT SUBMITTED DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "INVESTIGATION STAGE | TOTAL CASES (COL.8 + 9)",
+   "header": [
+    "INVESTIGATION STAGE",
+    "TOTAL CASES (COL.8 + 9)"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "INVESTIGATION STAGE | CASES PENDING INVESTIGATION AT THE END OF THE YEAR",
+   "header": [
+    "INVESTIGATION STAGE",
+    "CASES PENDING INVESTIGATION AT THE END OF THE YEAR"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "TRIAL STAGE | CASES PENDING TRIAL FROM PREVIOUS YEAR",
+   "header": [
+    "TRIAL STAGE",
+    "CASES PENDING TRIAL FROM PREVIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "TRIAL STAGE | CASES SENT FOR TRIAL DURING THE YEAR",
+   "header": [
+    "TRIAL STAGE",
+    "CASES SENT FOR TRIAL DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "TRIAL STAGE | CASES WITHDRAWN BY GOVT. DURING TRIAL",
+   "header": [
+    "TRIAL STAGE",
+    "CASES WITHDRAWN BY GOVT. DURING TRIAL"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "TRIAL STAGE | TOTAL CASES FOR TRIAL DURING THE YEAR",
+   "header": [
+    "TRIAL STAGE",
+    "TOTAL CASES FOR TRIAL DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "TRIAL STAGE | CASES COMPOUN-DED OR WITH-DRAWN",
+   "header": [
+    "TRIAL STAGE",
+    "CASES COMPOUN-DED OR WITH-DRAWN"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "TRIAL STAGE | CASES IN WHICH TRIALS WERE COMPLE-TED",
+   "header": [
+    "TRIAL STAGE",
+    "CASES IN WHICH TRIALS WERE COMPLE-TED"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "TRIAL STAGE | CASES CONVIC- TED",
+   "header": [
+    "TRIAL STAGE",
+    "CASES CONVIC- TED"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TRIAL STAGE | CASES ACQUITTE D OR DISCHAR-GED",
+   "header": [
+    "TRIAL STAGE",
+    "CASES ACQUITTE D OR DISCHAR-GED"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TRIAL STAGE | CASES PENDING TRIAL AT THE END OF THE YEAR",
+   "header": [
+    "TRIAL STAGE",
+    "CASES PENDING TRIAL AT THE END OF THE YEAR"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 54,
+  "cells_passed": 48,
+  "failures": [
+   "col 10001 'TOTAL STATES': printed 7, sum 6",
+   "col 10001 'TOTAL (UTs)': printed 1, sum 0",
+   "col 14 'TOTAL STATES': printed 8, sum 7",
+   "col 14 'TOTAL (UTs)': printed 1, sum 0",
+   "col 19 'TOTAL STATES': printed 7, sum 6",
+   "col 19 'TOTAL (UTs)': printed 1, sum 0"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

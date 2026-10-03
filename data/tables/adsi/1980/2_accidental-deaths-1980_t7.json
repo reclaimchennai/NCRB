@@ -1,0 +1,56 @@
+{
+ "table_id": "adsi/1980/2_accidental-deaths-1980_t7",
+ "publication": "adsi",
+ "year": 1980,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1980",
+ "serial": "2",
+ "title": "11",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1980.pdf",
+ "source_file": "raw/adsi/1980/year_wise/accidental-deaths-1980.pdf",
+ "source_sha256": "8294f99cd6ad7cf68af0a944716a636f6d25f24844a4baa44c30dd3c4a27d604",
+ "table_no": "",
+ "pdf_title": "11",
+ "row_label": "",
+ "pages": [
+  12
+ ],
+ "n_rows": 33,
+ "n_cols": 3,
+ "n_cells": 99,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 106022, sum 61254",
+   "col 4 'TOTAL (STATES)': printed 113903, sum 63697"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

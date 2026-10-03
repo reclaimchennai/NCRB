@@ -8,87 +8,79 @@
  "serial": "55",
  "title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1998 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1998 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-74--disposal-of-persons-arrested-under-ipc-crimes-by-courts-during-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-74--disposal-of-persons-arrested-under-ipc-crimes-by-courts-during-1998.pdf",
  "source_sha256": "bccfeec3ce0ce2373e9064eb0cf7dd2691e4f422b9fb5cad71632cdec6a88b5f",
  "table_no": "74",
- "pdf_title": "",
- "row_label": "STATE/UT SL. NO,",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-74",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 37,
+ "n_rows": 35,
  "n_cols": 7,
- "n_cells": 240,
+ "n_cells": 245,
  "columns": [
   {
    "col_no": "3",
-   "name": "DISPOSAL OF PERSONS TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "DISPOSAL OF PERSONS TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER IPC CRIMES BY COURTS DURING | (STATE & UT-WISE) | CASES COMPOUNDED OR WITH DRAWN",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH DRAWN",
    "header": [
-    "UNDER IPC CRIMES BY COURTS DURING",
-    "(STATE & UT-WISE)",
-    "CASES COMPOUNDED OR WITH DRAWN"
+    "NO. OF PERSONS WHOSE",
+    "CASES COMPO-UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER IPC CRIMES BY COURTS DURING | (STATE & UT-WISE) | NO. OF PERSONS WHOSE TRIAL COMPLETED",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
    "header": [
-    "UNDER IPC CRIMES BY COURTS DURING",
-    "(STATE & UT-WISE)",
-    "NO. OF PERSONS WHOSE TRIAL COMPLETED"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER IPC CRIMES BY COURTS DURING | TRIAL REMAINED PENDING",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "UNDER IPC CRIMES BY COURTS DURING",
+    "NO. OF PERSONS WHOSE",
     "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "UNDER IPC CRIMES BY COURTS DURING | NO.OF PERSONS CONVICTED",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "UNDER IPC CRIMES BY COURTS DURING",
-    "NO.OF PERSONS CONVICTED"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "1998 PENDENCY PERCEN- ‘TAGE",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "1998 PENDENCY PERCEN- ‘TAGE"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF PENDENCY TO ALLINDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "OF PENDENCY TO ALLINDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "Not: Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 3,
-  "failures": [
-   "col 3 '“TOTAL (STATES)': printed 1.16837e+07, sum 1.39446e+07",
-   "col 7 '“TOTAL (STATES)': printed 561307, sum 506577"
-  ],
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

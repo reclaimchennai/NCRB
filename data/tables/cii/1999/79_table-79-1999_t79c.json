@@ -6,76 +6,81 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "79",
- "title": "REASONS OF CUSTODIAL DEATHS DURING 1999",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 79C",
  "listing_title": "Deaths In Police Custody/Lockup During 1999 (Of Persons Remanded To Police Custody By Court)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-79-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-79-1999.pdf",
  "source_sha256": "e659b9a3467bc9e171969b0ef424f27aa849a016bdab1a9c6df697fde25dae62",
  "table_no": "79C",
- "pdf_title": "REASONS OF CUSTODIAL DEATHS DURING 1999",
- "row_label": "SL. NO. @ STATES",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 79C",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   4
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 6,
- "n_cells": 182,
+ "n_cells": 210,
  "columns": [
   {
-   "col_no": "2",
-   "name": "DURING HOSPITALISATION / TREATMENT (8)",
-   "header": [
-    "DURING HOSPITALISATION / TREATMENT (8)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "NUMBER CF DEATHS IN POLICE CUSTODY | DUETO 9 ACCIDENTS",
+   "name": "NUMBER OF DEATHS IN POLICE CUSTODY | DURING HOSPITA-LISATION / TREATMENT",
    "header": [
-    "NUMBER CF DEATHS IN POLICE CUSTODY",
-    "DUETO 9 ACCIDENTS"
+    "NUMBER OF DEATHS IN POLICE CUSTODY",
+    "DURING HOSPITA-LISATION / TREATMENT"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER CF DEATHS IN POLICE CUSTODY | - «= ATTACT/ RIOT (6)",
+   "name": "NUMBER OF DEATHS IN POLICE CUSTODY | DUE TO ACCIDENTS",
    "header": [
-    "NUMBER CF DEATHS IN POLICE CUSTODY",
-    "- «= ATTACT/ RIOT (6)"
+    "NUMBER OF DEATHS IN POLICE CUSTODY",
+    "DUE TO ACCIDENTS"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER CF DEATHS IN POLICE CUSTODY | (6)",
+   "name": "NUMBER OF DEATHS IN POLICE CUSTODY | BY MOB ATTACT/ RIOT",
    "header": [
-    "NUMBER CF DEATHS IN POLICE CUSTODY",
-    "(6)"
+    "NUMBER OF DEATHS IN POLICE CUSTODY",
+    "BY MOB ATTACT/ RIOT"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "NUMBER OF DEATHS IN POLICE CUSTODY | BY OTHER CRIMINALS",
+   "header": [
+    "NUMBER OF DEATHS IN POLICE CUSTODY",
+    "BY OTHER CRIMINALS"
+   ]
   },
   {
    "col_no": "7",
-   "name": "WHILE ESCAPING FROM CUSTODY (8)",
+   "name": "NUMBER OF DEATHS IN POLICE CUSTODY | BY SUICIDE",
    "header": [
-    "WHILE ESCAPING FROM CUSTODY (8)"
+    "NUMBER OF DEATHS IN POLICE CUSTODY",
+    "BY SUICIDE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NUMBER OF DEATHS IN POLICE CUSTODY | WHILE ESCAPING FROM CUSTODY",
+   "header": [
+    "NUMBER OF DEATHS IN POLICE CUSTODY",
+    "WHILE ESCAPING FROM CUSTODY"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 18,
+  "cells_passed": 18,
   "failures": [],
-  "other_totals_checked": 3,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

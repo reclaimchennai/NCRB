@@ -8,68 +8,83 @@
  "serial": "35",
  "title": "Disposal of Juveniles Sent to Court",
  "listing_title": "Disposal of Juveniles Sent to Court",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1976.pdf",
  "source_file": "raw/cii/1976/table_content/table-44-1976.pdf",
  "source_sha256": "9b5b11bd13ea50d7948b3d31b755c78fc551699f1df3d5483111be632372accb",
- "table_no": "",
- "pdf_title": "Taste 44",
- "row_label": "1. - +",
+ "table_no": "44",
+ "pdf_title": "81 TABLE 44 Disposals of Juventiles sent to Court",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
+  1,
   1
  ],
- "n_rows": 30,
- "n_cols": 7,
- "n_cells": 189,
+ "n_rows": 42,
+ "n_cols": 9,
+ "n_cells": 378,
  "columns": [
   {
-   "col_no": "2",
-   "name": "4459 ve 1735 3390",
-   "header": [
-    "4459 ve 1735 3390"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "73 - 115",
+   "name": "Juveniles sent to court",
    "header": [
-    "73 - 115"
+    "Juveniles sent to court"
    ]
   },
   {
    "col_no": "4",
-   "name": "On 161 6h 217",
+   "name": "Restored to Guardians",
    "header": [
-    "On 161 6h 217"
+    "Restored to Guardians"
    ]
   },
   {
    "col_no": "5",
-   "name": "Sent to 135 - 53",
+   "name": "On Probation",
    "header": [
-    "Sent to 135 - 53"
+    "On Probation"
    ]
   },
   {
    "col_no": "6",
-   "name": "Satto ons 608 - 6a",
+   "name": "Sent to Refor-matories and Borstals",
    "header": [
-    "Satto ons 608 - 6a"
+    "Sent to Refor-matories and Borstals"
    ]
   },
   {
    "col_no": "7",
-   "name": "ata Poe 2 28",
+   "name": "Sent to Schools and Institutions",
    "header": [
-    "ata Poe 2 28"
+    "Sent to Schools and Institutions"
    ]
   },
   {
    "col_no": "8",
-   "name": "2 Se pottd of 220 2M ae 424 406 ai 82 203-2565",
+   "name": "Sent to adult institutions",
    "header": [
-    "2 Se pottd of 220 2M ae 424 406 ai 82 203-2565"
+    "Sent to adult institutions"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Imprior-ed.",
+   "header": [
+    "Imprior-ed."
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Acquited or other-wise disposed of",
+   "header": [
+    "Acquited or other-wise disposed of"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Fending disposal",
+   "header": [
+    "Fending disposal"
    ]
   }
  ],
@@ -78,10 +93,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 31,
+  "other_totals_passed": 28
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

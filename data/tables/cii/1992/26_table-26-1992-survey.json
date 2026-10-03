@@ -8,53 +8,55 @@
  "serial": "26",
  "title": "Persons Arrested under Local and Special Laws During 1992 (Crime-Head & Sex-wise)",
  "listing_title": "Persons Arrested under Local and Special Laws During 1992 (Crime-Head & Sex-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-26-1992-survey.pdf",
  "source_sha256": "be313dc163b2e6b3b94579490cdd9c16cfb71608176efa11861ca1afdfe437e0",
  "table_no": "26",
- "pdf_title": "PERSONS ARRESTED UNDER LOCAL AND SPECIAL LAWS DURING 1992",
- "row_label": "No.",
+ "pdf_title": "156 TABLE-26 PERSONS ARRESTED UNDER LOCAL AND SPECIAL LAWS DURING 1992",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 17,
  "n_cols": 5,
- "n_cells": 83,
+ "n_cells": 85,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(CRIME-HEAD",
-   "header": [
-    "(CRIME-HEAD"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "&",
-   "header": [
-    "&"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "SEX-WISE)",
-   "header": [
-    "SEX-WISE)"
-   ]
-  },
-  {
-   "col_no": "5",
    "name": "MALE",
    "header": [
     "MALE"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "4",
    "name": "FEMALE",
    "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PERCENTAGE | MALE",
+   "header": [
+    "PERCENTAGE",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TO TOTAL | FEMALE",
+   "header": [
+    "TO TOTAL",
     "FEMALE"
    ]
   }
@@ -67,7 +69,7 @@
   "other_totals_checked": 3,
   "other_totals_passed": 3
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

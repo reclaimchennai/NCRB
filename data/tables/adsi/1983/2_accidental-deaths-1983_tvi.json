@@ -1,0 +1,103 @@
+{
+ "table_id": "adsi/1983/2_accidental-deaths-1983_tvi",
+ "publication": "adsi",
+ "year": 1983,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1983",
+ "serial": "2",
+ "title": "15 TABLE VI Distribution of Accidental Deaths by Age Groups and by States, U.Ts. and Metropolitan Cities during 1983",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1983.pdf",
+ "source_file": "raw/adsi/1983/year_wise/accidental-deaths-1983.pdf",
+ "source_sha256": "ec54be7cbba566b05c40c8588e7da0ff85323f9601d682b1391343961ecfaf0d",
+ "table_no": "VI",
+ "pdf_title": "15 TABLE VI Distribution of Accidental Deaths by Age Groups and by States, U.Ts. and Metropolitan Cities during 1983",
+ "row_label": "Sl. No.",
+ "pages": [
+  16
+ ],
+ "n_rows": 23,
+ "n_cols": 9,
+ "n_cells": 207,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Persons below 18 years",
+   "header": [
+    "Persons below 18 years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% to total (4)",
+   "header": [
+    "% to total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Persons between 18 to 30 years",
+   "header": [
+    "Persons between 18 to 30 years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% to total (6)",
+   "header": [
+    "% to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Persons between 30 to 50 years",
+   "header": [
+    "Persons between 30 to 50 years"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "% to total (8)",
+   "header": [
+    "% to total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Persons above 50 years",
+   "header": [
+    "Persons above 50 years"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "% to total (10)",
+   "header": [
+    "% to total"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Over all age groups",
+   "header": [
+    "Over all age groups"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 4,
+  "failures": [
+   "col 11 'TOTAL (STATES)': printed 123745, sum 118745"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

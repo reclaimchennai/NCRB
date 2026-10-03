@@ -1,0 +1,159 @@
+{
+ "table_id": "psi/1998/5_psi-full-report-1998_t20_2",
+ "publication": "psi",
+ "year": 1998,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 1998",
+ "serial": "5",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-20",
+ "listing_title": "Download Full Report",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
+ "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
+ "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
+ "table_no": "20",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-20",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  93,
+  94
+ ],
+ "n_rows": 37,
+ "n_cols": 16,
+ "n_cells": 560,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ATTEMPT TO MURDER",
+   "header": [
+    "ATTEMPT TO MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "C.H.NOT AMOUNTING TO MURDER",
+   "header": [
+    "C.H.NOT AMOUNTING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING & ABDUCTION",
+   "header": [
+    "KIDNAPPING & ABDUCTION"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PREP. AND ASSEMBLY FOR DACOITY",
+   "header": [
+    "PREP. AND ASSEMBLY FOR DACOITY"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "THEFTS",
+   "header": [
+    "THEFTS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "RIOT",
+   "header": [
+    "RIOT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "CRIMINAL BREACH OF RUST",
+   "header": [
+    "CRIMINAL BREACH OF RUST"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "CHEATING",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "COUNTER-FEITING",
+   "header": [
+    "COUNTER-FEITING"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER IPC CRIME",
+   "header": [
+    "OTHER IPC CRIME"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL CONVICTS (IPC)",
+   "header": [
+    "TOTAL CONVICTS (IPC)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 44,
+  "cells_passed": 37,
+  "failures": [
+   "col 11 'TOTAL (STATES)': printed 463, sum 400",
+   "col 12 'TOTAL (STATES)': printed 3525, sum 2933",
+   "col 13 'TOTAL (STATES)': printed 312, sum 282",
+   "col 14 'TOTAL (STATES)': printed 80, sum 60",
+   "col 15 'TOTAL (STATES)': printed 709, sum 628",
+   "col 16 'TOTAL (STATES)': printed 113, sum 112",
+   "col 17 'TOTAL (STATES)': printed 3673, sum 3436"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

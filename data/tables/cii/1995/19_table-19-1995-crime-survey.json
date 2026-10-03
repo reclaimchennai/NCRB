@@ -8,21 +8,63 @@
  "serial": "19",
  "title": "Disposal of IPC Cases by Courts During 1995",
  "listing_title": "Disposal of IPC Cases by Courts During 1995",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-19-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-19-1995-crime-survey.pdf",
  "source_sha256": "52498c40cc847b4652e3651630c6324d8ddb685cda79c4927d521d0110d78c93",
  "table_no": "19",
- "pdf_title": "DISPOSAL OF IPC CASES BY COURTS DURING 1995",
- "row_label": "SL. CRIME HEAD NO. a / TOTAL NO. OF cacee FOR INCLUDING PENDING CASES / NO. OF CASES TRIAL COMPOUNDED a8 DRAWN / NO. OF CASES IN WHICH TRIALS WERE COMPLETED / NO. OF CASES ACQUITTEDOR Dis- CHARGED / NO. OF CASES —TOTAL —_{(5)+ (6))",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-19",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 24,
- "n_cols": 1,
- "n_cells": 24,
+ "n_cols": 6,
+ "n_cells": 144,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
+   "header": [
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF CASES | COMPOUN-DED OR WITH-DRAWN",
+   "header": [
+    "NO. OF CASES",
+    "COMPOUN-DED OR WITH-DRAWN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "CONVICTED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUIT- TED OR DIS-CHARGED",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "ACQUIT- TED OR DIS-CHARGED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL ((5) + (6))",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "TOTAL ((5) + (6))"
+   ]
+  },
   {
    "col_no": "8",
    "name": "NO. OF CASES | PENDING TRIAL",
@@ -37,8 +79,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

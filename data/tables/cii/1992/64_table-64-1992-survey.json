@@ -8,74 +8,107 @@
  "serial": "64",
  "title": "Police Personnel Killed or Injured on Duty During 1992 (State, UT & City-wise)",
  "listing_title": "Police Personnel Killed or Injured on Duty During 1992 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-64-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-64-1992-survey.pdf",
  "source_sha256": "c3f1ffb49277e25f2f6f61090921c6158d8af09ffda86349440e4f901be5a586",
  "table_no": "64",
- "pdf_title": "",
- "row_label": "sL. No. / POLICE STATE/UT",
+ "pdf_title": "291 TABLE-64 POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1992 (STATE, UT & CITY-WISE)",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
-  2
+  2,
+  3,
+  4
  ],
- "n_rows": 58,
- "n_cols": 6,
- "n_cells": 307,
+ "n_rows": 116,
+ "n_cols": 11,
+ "n_cells": 638,
  "columns": [
   {
    "col_no": "3",
-   "name": "KILLED IN DACOITY OPERATION OR RAIDS",
+   "name": "KILLED | INDACOITYOPERATIONOR OTHERRAIDS",
    "header": [
-    "KILLED IN DACOITY OPERATION OR RAIDS"
+    "KILLED",
+    "INDACOITYOPERATIONOR OTHERRAIDS"
    ]
   },
   {
    "col_no": "4",
-   "name": "OR (STATE,UT nn BY RIOTOUS MOBS OTHER",
+   "name": "KILLED | BYRIOTOUSMOBS",
    "header": [
-    "OR (STATE,UT nn BY RIOTOUS MOBS OTHER"
+    "KILLED",
+    "BYRIOTOUSMOBS"
    ]
   },
   {
    "col_no": "5",
-   "name": "INJURED & BY OTHER CRININALS",
+   "name": "KILLED | BYOTHERCRIMINALS",
    "header": [
-    "INJURED & BY OTHER CRININALS"
+    "KILLED",
+    "BYOTHERCRIMINALS"
    ]
   },
   {
    "col_no": "6",
-   "name": "ON CITY-WISE) KILLED on BORDER DUTIES",
+   "name": "KILLED | ONBORDERDUTIES",
    "header": [
-    "ON CITY-WISE) KILLED on BORDER DUTIES"
+    "KILLED",
+    "ONBORDERDUTIES"
    ]
   },
   {
    "col_no": "7",
-   "name": "1992 DUTY nee ee IN ACCIDENTS",
+   "name": "KILLED | INACCIDENTS",
    "header": [
-    "1992 DUTY nee ee IN ACCIDENTS"
+    "KILLED",
+    "INACCIDENTS"
    ]
   },
   {
    "col_no": "8",
-   "name": "DURING TOTAL",
+   "name": "KILLED | TOTAL",
    "header": [
-    "DURING TOTAL"
+    "KILLED",
+    "TOTAL"
    ]
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  },
+  {
+   "col_no": "12",
+   "name": "col_12",
+   "header": []
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
+  },
+  {
+   "col_no": "14",
+   "name": "col_14",
+   "header": []
+  },
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 10,
-  "cells_passed": 10,
+  "cells_checked": 15,
+  "cells_passed": 15,
   "failures": [],
-  "other_totals_checked": 5,
-  "other_totals_passed": 5
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

@@ -6,59 +6,75 @@
  "topic": "",
  "section": "",
  "serial": "16",
- "title": ")",
+ "title": "341 Agency-wise Number of Seizures of Narcotic Drugs (1988 - 1993) Source: Directorate General, Narcotics Control Bureau.",
  "listing_title": "Economic Offences",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1679059448chapter-16.pdf",
  "source_file": "raw/cii/1993/table_chapter/1679059448chapter-16.pdf",
  "source_sha256": "c933b91c75da0c31dd5867d5b0aa91341017043e1973b27a5ba2e889565b82d4",
  "table_no": "",
- "pdf_title": ")",
- "row_label": "",
+ "pdf_title": "341 Agency-wise Number of Seizures of Narcotic Drugs (1988 - 1993) Source: Directorate General, Narcotics Control Bureau.",
+ "row_label": "Sl. No. / Agency",
  "pages": [
+  3,
   3
  ],
- "n_rows": 12,
- "n_cols": 6,
- "n_cells": 72,
+ "n_rows": 13,
+ "n_cols": 7,
+ "n_cells": 78,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "1988",
+   "header": [
+    "1988"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "1989",
+   "header": [
+    "1989"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "1990",
+   "header": [
+    "1990"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "1991",
+   "header": [
+    "1991"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "1992",
+   "header": [
+    "1992"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1993 (9)",
+   "header": [
+    "1993"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "1993 (8)",
+   "header": [
+    "1993"
+   ]
   }
  ],
- "notes": [
-  "Source: Directorate General, Coiitrol Bureau.",
-  "Note 1. NA stands for not available.",
-  "2. Figures are provisional."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -67,6 +83,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

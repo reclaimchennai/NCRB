@@ -6,76 +6,89 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "10",
- "title": "TABLE Casr Reported Under Spccial",
+ "title": "42 TABLE Cases Reported Under Special",
  "listing_title": "Cases Reported under Special & Local Laws.",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-10-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-10-1974_0.pdf",
  "source_sha256": "a6245cd4be32c52f23492b9c70f23b0b036fd4a0e946acb1f0fd46f69e47f32c",
  "table_no": "",
- "pdf_title": "TABLE Casr Reported Under Spccial",
- "row_label": "No.",
+ "pdf_title": "42 TABLE Cases Reported Under Special",
+ "row_label": "Sl. No. / States/Union Territories Cities",
  "pages": [
+  4,
+  4,
+  4,
+  4,
   4
  ],
- "n_rows": 40,
+ "n_rows": 36,
  "n_cols": 8,
- "n_cells": 281,
+ "n_cells": 288,
  "columns": [
   {
-   "col_no": "2",
-   "name": "ey | Cities I",
-   "header": [
-    "ey",
-    "Cities I"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "ey | v",
+   "name": "Prohibition Act | I",
    "header": [
-    "ey",
-    "v"
+    "Prohibition Act",
+    "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "ey | Girls Act I",
+   "name": "Prohibition Act | V",
    "header": [
-    "ey",
-    "Girls Act I"
+    "Prohibition Act",
+    "V"
    ]
   },
   {
    "col_no": "5",
-   "name": "in Women &",
+   "name": "S.I.T. in Women & Girls Act | I",
    "header": [
-    "in Women &"
+    "S.I.T. in Women & Girls Act",
+    "I"
    ]
   },
   {
    "col_no": "6",
-   "name": "- I",
+   "name": "S.I.T. in Women & Girls Act | V",
    "header": [
-    "- I"
+    "S.I.T. in Women & Girls Act",
+    "V"
    ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "Motor Vehicles Act | I",
+   "header": [
+    "Motor Vehicles Act",
+    "I"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "Motor Vehicles Act | V",
+   "header": [
+    "Motor Vehicles Act",
+    "V"
+   ]
   },
   {
    "col_no": "9",
-   "name": "of Act ¥",
+   "name": "Prevention of Corruption Act | I",
    "header": [
-    "of Act ¥"
+    "Prevention of Corruption Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Prevention of Corruption Act | V",
+   "header": [
+    "Prevention of Corruption Act",
+    "V"
    ]
   }
  ],
@@ -84,10 +97,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 3,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 5,
  "warnings": []
 }

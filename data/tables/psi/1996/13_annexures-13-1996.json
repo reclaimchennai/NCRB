@@ -8,66 +8,125 @@
  "serial": "13",
  "title": "Annexure - XIII Budgetary details during 1996",
  "listing_title": "Annexure - XIII Budgetary details during 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/annexures-13_1996.pdf",
  "source_file": "raw/psi/1996/table_content/annexures-13_1996.pdf",
  "source_sha256": "64e9cc96188b2b36b9b32a644c291e3991b8517d189d5401c340fe10ad4e01da",
  "table_no": "",
- "pdf_title": "",
- "row_label": "SL. STATE/UT NO. / (M.H.A.)",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1996 ANNEXURE-XIII",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 10,
- "n_cols": 6,
- "n_cells": 49,
+ "n_rows": 30,
+ "n_cols": 13,
+ "n_cells": 390,
  "columns": [
   {
    "col_no": "3",
-   "name": "BUDGETARY DETAILS DURING 1996 | SANC-",
+   "name": "SANC-TIONED BUDGET",
    "header": [
-    "BUDGETARY DETAILS DURING 1996",
-    "SANC-"
+    "SANC-TIONED BUDGET"
    ]
   },
   {
    "col_no": "4",
-   "name": "BUDGETARY DETAILS DURING 1996 | PLAN",
+   "name": "EXPENDITURE | PLAN",
    "header": [
-    "BUDGETARY DETAILS DURING 1996",
+    "EXPENDITURE",
     "PLAN"
    ]
   },
   {
    "col_no": "5",
-   "name": "BUDGETARY DETAILS DURING 1996 | EXPENDITURE NON-PLAN MENT DEVELOP. (COL.5 + MENT",
+   "name": "EXPENDITURE | NON-PLAN | DEVELOP-MENT",
    "header": [
-    "BUDGETARY DETAILS DURING 1996",
-    "EXPENDITURE NON-PLAN MENT DEVELOP. (COL.5 + MENT"
+    "EXPENDITURE",
+    "NON-PLAN",
+    "DEVELOP-MENT"
    ]
   },
   {
    "col_no": "6",
-   "name": "BUDGETARY DETAILS DURING 1996 | TOTAL - ToTaL (COL-4 + COL-7}",
+   "name": "EXPENDITURE | NON-PLAN | NON-DEVELOP-MENT",
    "header": [
-    "BUDGETARY DETAILS DURING 1996",
-    "TOTAL - ToTaL (COL-4 + COL-7}"
+    "EXPENDITURE",
+    "NON-PLAN",
+    "NON-DEVELOP-MENT"
    ]
   },
   {
    "col_no": "7",
-   "name": "BUDGETARY DETAILS DURING 1996 | EXPENSIES ON INMATES FOOD TION",
+   "name": "EXPENDITURE | NON-PLAN | TOTAL (COL.5 + COL.6)",
    "header": [
-    "BUDGETARY DETAILS DURING 1996",
-    "EXPENSIES ON INMATES FOOD TION"
+    "EXPENDITURE",
+    "NON-PLAN",
+    "TOTAL (COL.5 + COL.6)"
    ]
   },
   {
    "col_no": "8",
-   "name": "PRISON STATISTICS - 1996 ANNEXURE-XIH CLOTH MEDICAL TOTAL WELFARE OTHERS",
+   "name": "EXPENDITURE | TOTAL (COL.4 + COL.7)",
    "header": [
-    "PRISON STATISTICS - 1996 ANNEXURE-XIH CLOTH MEDICAL TOTAL WELFARE OTHERS"
+    "EXPENDITURE",
+    "TOTAL (COL.4 + COL.7)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "EXPENSES ON INMATES | FOOD",
+   "header": [
+    "EXPENSES ON INMATES",
+    "FOOD"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "EXPENSES ON INMATES | CLOTH",
+   "header": [
+    "EXPENSES ON INMATES",
+    "CLOTH"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "EXPENSES ON INMATES | MEDICAL",
+   "header": [
+    "EXPENSES ON INMATES",
+    "MEDICAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "EXPENSES ON INMATES | EDUCA-TION",
+   "header": [
+    "EXPENSES ON INMATES",
+    "EDUCA-TION"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "EXPENSES ON INMATES | WELFARE",
+   "header": [
+    "EXPENSES ON INMATES",
+    "WELFARE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "EXPENSES ON INMATES | OTHERS",
+   "header": [
+    "EXPENSES ON INMATES",
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "EXPENSES ON INMATES | TOTAL",
+   "header": [
+    "EXPENSES ON INMATES",
+    "TOTAL"
    ]
   }
  ],
@@ -79,7 +138,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

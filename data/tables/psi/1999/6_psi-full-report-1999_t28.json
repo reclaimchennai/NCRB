@@ -6,83 +6,84 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "NUMBER OF UNDERTRIALS BY PERIOD OF DETENTION AT THE END OF 1999",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 Number of Inmates per Staff during 1999",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
- "table_no": "28",
- "pdf_title": "NUMBER OF UNDERTRIALS BY PERIOD OF DETENTION AT THE END OF 1999",
- "row_label": "STATE/UT / 3 MONTHS -",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 Number of Inmates per Staff during 1999",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  126
+  49
  ],
- "n_rows": 33,
+ "n_rows": 35,
  "n_cols": 7,
- "n_cells": 188,
+ "n_cells": 245,
  "columns": [
   {
-   "col_no": "4",
-   "name": "3 | MONTHS",
+   "col_no": "3",
+   "name": "TOTAL NUMBER OF INMATES",
    "header": [
-    "3",
-    "MONTHS"
+    "TOTAL NUMBER OF INMATES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "JAIL OFFICIALS | NUMBER",
+   "header": [
+    "JAIL OFFICIALS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "5",
-   "name": "6- 12 MONTHS",
+   "name": "JAIL OFFICIALS | NO. OF INMATES PER JAIL OFFICIAL",
    "header": [
-    "6- 12 MONTHS"
+    "JAIL OFFICIALS",
+    "NO. OF INMATES PER JAIL OFFICIAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "8 YEARS",
+   "name": "CORRECTIONAL STAFF | NUMBER",
    "header": [
-    "8 YEARS"
+    "CORRECTIONAL STAFF",
+    "NUMBER"
    ]
   },
   {
    "col_no": "7",
-   "name": "5",
+   "name": "CORRECTIONAL STAFF | NO. OF INMATES PER CORRECTIONAL STAFF",
    "header": [
-    "5"
+    "CORRECTIONAL STAFF",
+    "NO. OF INMATES PER CORRECTIONAL STAFF"
    ]
   },
   {
    "col_no": "8",
-   "name": "8",
+   "name": "MEDICAL STAFF | NUMBER",
    "header": [
-    "8"
+    "MEDICAL STAFF",
+    "NUMBER"
    ]
   },
   {
    "col_no": "9",
-   "name": "3-5",
+   "name": "MEDICAL STAFF | NO. OF INMATES PER MEDICAL STAFF",
    "header": [
-    "3-5"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "ae",
-   "header": [
-    "ae"
+    "MEDICAL STAFF",
+    "NO. OF INMATES PER MEDICAL STAFF"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 1,
+  "cells_checked": 0,
   "cells_passed": 0,
-  "failures": [
-   "col 4 'TOTAL (UTS)': printed 1717, sum 97489"
-  ],
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

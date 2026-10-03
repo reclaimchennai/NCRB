@@ -6,103 +6,36 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "DETAILS OF INMATES DISCHARGED AT THE END OF1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 SANCTIONED BUDGET ON PRISONS DURING 1998-99",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "32",
- "pdf_title": "DETAILS OF INMATES DISCHARGED AT THE END OF1998",
- "row_label": "STATE/UT",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 SANCTIONED BUDGET ON PRISONS DURING 1998-99",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  119
+  60
  ],
- "n_rows": 33,
- "n_cols": 9,
- "n_cells": 193,
+ "n_rows": 7,
+ "n_cols": 1,
+ "n_cells": 7,
  "columns": [
   {
    "col_no": "3",
-   "name": "RECONVICTI",
+   "name": "PLAN EXPENDITURE (RS. IN LAKHS)",
    "header": [
-    "RECONVICTI"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "LEASE APPEAL",
-   "header": [
-    "LEASE APPEAL"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "RELEASED ON",
-   "header": [
-    "RELEASED ON"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "RELEA~ SED ON BAIL",
-   "header": [
-    "RELEA~ SED ON BAIL"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "- pany. ONS",
-   "header": [
-    "- pany. ONS"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "- | TRANS. - FERRED TO OTHE STATES",
-   "header": [
-    "-",
-    "TRANS. - FERRED TO OTHE STATES"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "- | DITED",
-   "header": [
-    "-",
-    "DITED"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "- | LEASES RE-",
-   "header": [
-    "-",
-    "LEASES RE-"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "- | TOTAL",
-   "header": [
-    "-",
-    "TOTAL"
+    "PLAN EXPENDITURE (RS. IN LAKHS)"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 11,
-  "cells_passed": 7,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 72121, sum 71498",
-   "col 3 'TOTAL (UTS)': printed 6491, sum 6449",
-   "col 5 'TOTAL (UTS)': printed 1584, sum 1582",
-   "col 6 'TOTAL (STATES)': printed 361519, sum 361303"
-  ],
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

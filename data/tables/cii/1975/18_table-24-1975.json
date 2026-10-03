@@ -8,94 +8,83 @@
  "serial": "18",
  "title": "Persons Arrested under Local and Special Laws",
  "listing_title": "Persons Arrested under Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_24-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table_24-1975.pdf",
  "source_sha256": "f35b2b596b56766838866386871976f61d1df0eac03967d36ebcc88277cf8707",
- "table_no": "",
- "pdf_title": "24 Come",
- "row_label": "a F States 1. ALP.",
+ "table_no": "24",
+ "pdf_title": "CRIME HEADS",
+ "row_label": "Sl. No. / States/UTs/Cities",
  "pages": [
   1,
   2
  ],
- "n_rows": 76,
- "n_cols": 10,
- "n_cells": 388,
+ "n_rows": 88,
+ "n_cols": 9,
+ "n_cells": 565,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Person arrested upeler Local amr | Anns Act 3 ,",
-   "header": [
-    "Person arrested upeler Local amr",
-    "Anns Act 3 ,"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Person arrested upeler Local amr | ‘",
+   "name": "Arms Act",
    "header": [
-    "Person arrested upeler Local amr",
-    "‘"
+    "Arms Act"
    ]
   },
   {
    "col_no": "4",
-   "name": "Person arrested upeler Local amr | 4 171",
+   "name": "Oplum Act",
    "header": [
-    "Person arrested upeler Local amr",
-    "4 171"
+    "Oplum Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "Person arrested upeler Local amr | eS 6 a",
+   "name": "Gambling Act",
    "header": [
-    "Person arrested upeler Local amr",
-    "eS 6 a"
+    "Gambling Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "Foes sub Act T 33572",
+   "name": "Excise Act",
    "header": [
-    "Foes sub Act T 33572"
+    "Excise Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "M.V. Act 8 3596 1412 6063",
+   "name": "Expl. Act & Expl. sub Act",
    "header": [
-    "M.V. Act 8 3596 1412 6063"
+    "Expl. Act & Expl. sub Act"
    ]
   },
   {
    "col_no": "8",
-   "name": "Indian Railways Aet Lo 9 9 a9",
+   "name": "S.I.T. Act",
    "header": [
-    "Indian Railways Aet Lo 9 9 a9"
+    "S.I.T. Act"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Provention of Carruption",
+   "col_no": "9",
+   "name": "M.V. Act",
    "header": [
-    "Provention of Carruption"
+    "M.V. Act"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "Probibilion Grand Total Acr",
+   "col_no": "10",
+   "name": "Indian Railways Act",
    "header": [
-    "Probibilion Grand Total Acr"
+    "Indian Railways Act"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "SI. States/U.Ta/Citl s Other No. Offences",
+   "col_no": "2",
+   "name": "Prevention of Corruption Act",
    "header": [
-    "SI. States/U.Ta/Citl s Other No. Offences"
+    "Prevention of Corruption Act"
    ]
   }
  ],
@@ -104,10 +93,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 20,
+  "other_totals_passed": 13
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

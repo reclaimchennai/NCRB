@@ -8,25 +8,34 @@
  "serial": "6",
  "title": "Number of Jails by Type of Jails in the Country at the end of 2000",
  "listing_title": "Number of Jails by Type of Jails in the Country at the end of 2000",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-06_2000.pdf",
  "source_file": "raw/psi/2000/table_content/psi-table-06_2000.pdf",
  "source_sha256": "7484531fc3c8a5f0e6b02a6351dc8078ee3825b084f379804926bc5208fafc4f",
  "table_no": "6",
- "pdf_title": "NUMBER OF JAILS BY TYPE OF JAILS IN THE COUNTRY AT THE END OF 2000",
- "row_label": "amen / @)",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE - 6",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 21,
- "n_cols": 6,
- "n_cells": 57,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
+   "col_no": "3",
+   "name": "CENTRAL JAIL",
+   "header": [
+    "CENTRAL JAIL"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "DISTRICT JAIL",
+   "header": [
+    "DISTRICT JAIL"
+   ]
   },
   {
    "col_no": "5",
@@ -37,15 +46,31 @@
   },
   {
    "col_no": "6",
-   "name": "trad",
+   "name": "WOMEN JAIL",
    "header": [
-    "trad"
+    "WOMEN JAIL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BORSTAL SCHOOL",
+   "header": [
+    "BORSTAL SCHOOL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OPEN JAIL",
+   "header": [
+    "OPEN JAIL"
    ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "SPECIAL JAIL",
+   "header": [
+    "SPECIAL JAIL"
+   ]
   },
   {
    "col_no": "10",
@@ -62,15 +87,11 @@
    ]
   }
  ],
- "notes": [
-  "* Jails do not exist"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 254, sum 203"
-  ],
+  "cells_checked": 27,
+  "cells_passed": 27,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -8,112 +8,77 @@
  "serial": "4",
  "title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs and Cities During 1987-1992 alongwith Percentage Changes During 1992",
  "listing_title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs and Cities During 1987-1992 alongwith Percentage Changes During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-4-1992-survey.pdf",
  "source_sha256": "6c28e416479a62f5e2f1fe8efa135a3110cfdeab2a019630c4ff7d896826a738",
  "table_no": "4",
- "pdf_title": "INCIDENCE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES, UTs AND CITIES DURING 1987-1992 ALONGWITH PERCENTAGE CHANGES DURING 1992",
- "row_label": "sL. No. / STATE/UT",
+ "pdf_title": "Q.A. 1991",
+ "row_label": "SL.NO. / CITY",
  "pages": [
   1,
   2
  ],
  "n_rows": 58,
- "n_cols": 10,
- "n_cells": 500,
+ "n_cols": 9,
+ "n_cells": 522,
  "columns": [
   {
    "col_no": "3",
-   "name": "1987",
-   "header": [
-    "1987"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "1988",
-   "header": [
-    "1988"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "1989",
-   "header": [
-    "1989"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "1990",
-   "header": [
-    "1990"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "QUINQUEN- | 1991",
-   "header": [
-    "QUINQUEN-",
-    "1991"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "QUINQUEN- | NIAL 1987-1991 (Q.A.)",
-   "header": [
-    "QUINQUEN-",
-    "NIAL 1987-1991 (Q.A.)"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "QUINQUEN- | AvG.",
-   "header": [
-    "QUINQUEN-",
-    "AvG."
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "PERCENTAGE IN 1992 0.1.",
-   "header": [
-    "PERCENTAGE IN 1992 0.1."
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "CHANGE 1992 (+) INCREASE (-) DECREASE OVER 1991",
-   "header": [
-    "CHANGE 1992 (+) INCREASE (-) DECREASE OVER 1991"
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "CHANGE PERCENTAGE 1992 IN INCREASE (+) (-) DECREASE OVER 1991 -",
-   "header": [
-    "CHANGE PERCENTAGE 1992 IN INCREASE (+) (-) DECREASE OVER 1991 -"
-   ]
+   "name": "col_11",
+   "header": []
   }
  ],
- "notes": [
-  "7-526 NCRB/94.",
-  "Note: * - Data compilation started from 1992 only."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 9,
+  "cells_checked": 21,
+  "cells_passed": 20,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 1.37563e+06, sum 2.22394e+06",
-   "col 4 'TOTAL (STATES)': printed 1.40638e+06, sum 1.96538e+06",
-   "col 6 'TOTAL (STATES)': printed 1.56603e+06, sum 2.72279e+06",
-   "col 8 'TOTAL (STATES)': printed 1.49525e+06, sum 1.49525e+06",
-   "col 9 'TOTAL (STATES)': printed 1.64624e+06, sum 2.31624e+06"
+   "col 8 'TOTAL (STATES)': printed 1.49525e+06, sum 1.49525e+06"
   ],
-  "other_totals_checked": 7,
-  "other_totals_passed": 7
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

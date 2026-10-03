@@ -8,21 +8,45 @@
  "serial": "53",
  "title": "Juveniles Apprehended under SLL Crimes by Age Group & Sex During 1995 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended under SLL Crimes by Age Group & Sex During 1995 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-53-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-53-1995-crime-survey.pdf",
  "source_sha256": "df92ebd30acca95ca506882effd28fe2823e1532eb3856674bd5cf1cfb67bbb7",
  "table_no": "53",
- "pdf_title": "JUVENILES APPREHENDED UNDER SLL CRIMES BY AGE GROUP & SEX DURING 1995 (STATE, UT & CITY-W'SE)",
- "row_label": "SL. NO. / STATE/UT/CITY / 7-12 YEARS BOYS / 7-12 YEARS GIRLS / 12-16 YEARS BOYS",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-53",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 1,
- "n_cols": 5,
- "n_cells": 2,
+ "n_rows": 58,
+ "n_cols": 8,
+ "n_cells": 464,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "7 - 12 YEARS | BOYS",
+   "header": [
+    "7 - 12 YEARS",
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "7 - 12 YEARS | GIRLS",
+   "header": [
+    "7 - 12 YEARS",
+    "GIRLS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "12-16 YEARS | BOYS",
+   "header": [
+    "12-16 YEARS",
+    "BOYS"
+   ]
+  },
   {
    "col_no": "6",
    "name": "12-16 YEARS | GIRLS",
@@ -33,10 +57,10 @@
   },
   {
    "col_no": "7",
-   "name": "OVERALL AGE GROUP | 16-18 YEARS GIRLS ONLY",
+   "name": "16-18 YEARS | GIRLS ONLY",
    "header": [
-    "OVERALL AGE GROUP",
-    "16-18 YEARS GIRLS ONLY"
+    "16-18 YEARS",
+    "GIRLS ONLY"
    ]
   },
   {
@@ -57,21 +81,20 @@
   },
   {
    "col_no": "10",
-   "name": "OVERALL AGE GROUP | TOTAL (BOYS + GIRLS)",
+   "name": "TOTAL (BOYS + GIRLS)",
    "header": [
-    "OVERALL AGE GROUP",
     "TOTAL (BOYS + GIRLS)"
    ]
   }
  ],
- "notes": [
-  "Note: 7-12 years means 7 years and above but below 12 years of age etc.",
-  "1656 NCRB/97—28A"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 24,
+  "cells_passed": 22,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 1265, sum 1255",
+   "col 7 'TOTAL (ALL-INDIA)': printed 1262, sum 1272"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

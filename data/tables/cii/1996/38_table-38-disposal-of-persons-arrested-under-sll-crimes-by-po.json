@@ -8,88 +8,84 @@
  "serial": "38",
  "title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1996",
  "listing_title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-38--disposal-of-persons-arrested-under-sll-crimes-by-police-during-1996-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-38--disposal-of-persons-arrested-under-sll-crimes-by-police-during-1996-1996.pdf",
  "source_sha256": "98e3f9985d5cd8e4721fb9f83dea696616dbdb9d7c35671d8f456046234abd4f",
  "table_no": "38",
- "pdf_title": "",
- "row_label": "SL. NO. / DISPOSAL OF PERSONS CRIME HEAD",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-38",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 1,
+ "n_rows": 23,
  "n_cols": 7,
- "n_cells": 7,
+ "n_cells": 161,
  "columns": [
   {
    "col_no": "3",
-   "name": "UNDER SLL CRIMES BY POLICE DURING | TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING one vious YEAR",
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "UNDER SLL CRIMES BY POLICE DURING",
-    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING one vious YEAR"
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER SLL CRIMES BY POLICE DURING | PERSONS RELEASED BEFORE TRIAL NO. men",
+   "name": "PERSONS RELEASED BEFORE TRIAL | NO.",
    "header": [
-    "UNDER SLL CRIMES BY POLICE DURING",
-    "PERSONS RELEASED BEFORE TRIAL NO. men"
+    "PERSONS RELEASED BEFORE TRIAL",
+    "NO."
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER SLL CRIMES BY POLICE DURING | PERSONS RELEASED BEFORE TRIAL NO. men | TOTAL",
+   "name": "PERSONS RELEASED BEFORE TRIAL | PERCENTAGE TO TOTAL",
    "header": [
-    "UNDER SLL CRIMES BY POLICE DURING",
-    "PERSONS RELEASED BEFORE TRIAL NO. men",
-    "TOTAL"
+    "PERSONS RELEASED BEFORE TRIAL",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER SLL CRIMES BY POLICE DURING | PERSONS NO,",
+   "name": "PERSONS CHARGESHEETED | NO.",
    "header": [
-    "UNDER SLL CRIMES BY POLICE DURING",
-    "PERSONS NO,"
+    "PERSONS CHARGESHEETED",
+    "NO."
    ]
   },
   {
    "col_no": "7",
-   "name": "UNDER SLL CRIMES BY POLICE DURING | CHARGESHEETED TOTAL",
+   "name": "PERSONS CHARGESHEETED | PERCENTAGE TO TOTAL",
    "header": [
-    "UNDER SLL CRIMES BY POLICE DURING",
-    "CHARGESHEETED TOTAL"
+    "PERSONS CHARGESHEETED",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "1996 | NO.",
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | NO.",
    "header": [
-    "1996",
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
     "NO."
    ]
   },
   {
    "col_no": "9",
-   "name": "1996 | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR TOTAL",
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | PERCENTAGE TO TOTAL",
    "header": [
-    "1996",
-    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR TOTAL"
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+    "PERCENTAGE TO TOTAL"
    ]
   }
  ],
- "notes": [
-  "OR ON BAIL."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

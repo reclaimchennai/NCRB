@@ -8,14 +8,14 @@
  "serial": "21",
  "title": "Persons Arrested under IPC Crimes During 1989 and Percentage Variation in 1989 over 1988 (Crime-Head Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1989 and Percentage Variation in 1989 over 1988 (Crime-Head Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-21-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-21-1989-1.pdf",
  "source_sha256": "a161e14581bff216760852d182ffab1cbbb98da6dafa9bbfaa554f83aa0811e6",
  "table_no": "21",
- "pdf_title": "",
- "row_label": "PERSONS CRIME SL. NO. qd)",
+ "pdf_title": "97 TABLE-21 PERSONS ARRESTED UNDER IPC CRIMES DURING 1989 AND PERCENTAGE VARIATION IN 1989 OVER 1988 (CRIME-HEAD WISE)",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,37 +25,34 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "AND 1989 s-2<r=:: UNDER (CRIME_HEAN WISE) HEAD",
+   "name": "1988",
    "header": [
-    "AND 1989 s-2<r=:: UNDER (CRIME_HEAN WISE) HEAD"
+    "1988"
    ]
   },
   {
    "col_no": "4",
-   "name": "IPC 1988 ee",
+   "name": "1989",
    "header": [
-    "IPC 1988 ee"
+    "1989"
    ]
   },
   {
    "col_no": "5",
-   "name": "VARIATION CRIMES 1989) VARIATION IN 1989 OVER",
+   "name": "PERCENTAGE VARIATION IN 1989 OVER 1988",
    "header": [
-    "VARIATION CRIMES 1989) VARIATION IN 1989 OVER"
+    "PERCENTAGE VARIATION IN 1989 OVER 1988"
    ]
   },
   {
    "col_no": "6",
-   "name": "IN DURING 1988 OVER 1989 ree: pei OF SHARE CRIME 1988 DURING 1989",
+   "name": "PERCENTAGE SHARE OF CRIME DURING 1989",
    "header": [
-    "IN DURING 1988 OVER 1989 ree: pei OF SHARE CRIME 1988 DURING 1989"
+    "PERCENTAGE SHARE OF CRIME DURING 1989"
    ]
   }
  ],
- "notes": [
-  "Note: share less than 0.05 is shown as 0.0",
-  "14—108 NCRB/91"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

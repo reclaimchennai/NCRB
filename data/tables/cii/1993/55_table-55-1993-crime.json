@@ -8,121 +8,178 @@
  "serial": "55",
  "title": "Classification of Juveniles Arrested (under IPC and L&SL) by Attributes During 1993 (State, UT & City-Wise)",
  "listing_title": "Classification of Juveniles Arrested (under IPC and L&SL) by Attributes During 1993 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-55-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-55-1993-crime.pdf",
  "source_sha256": "dd557b80b50e0dda94e8c74e58014db2848440cd2e7858140a6b2fd41a636965",
  "table_no": "55",
- "pdf_title": "CLASSIFICATION OF JUVENILES ARRESTED (UNDER IPC AND L&SL CRIMES) BY ATTRIBUTES DURING 1993 (STATE, UT & CITY-WISE)",
- "row_label": "(1) CITIES",
+ "pdf_title": "245 TABLE-55 CLASSIFICATION OF JUVENILES ARRESTED (UNDER IPC AND L&SL CRIMES) BY ATTRIBUTES DURING 1993 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO / STATE/UT",
  "pages": [
   1,
   2,
+  3,
   4
  ],
- "n_rows": 74,
- "n_cols": 13,
- "n_cells": 332,
+ "n_rows": 114,
+ "n_cols": 17,
+ "n_cells": 970,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "BY EDUCATION | ILL-TERATE",
+   "header": [
+    "BY EDUCATION",
+    "ILL-TERATE"
+   ]
   },
   {
    "col_no": "4",
-   "name": "(ti)",
+   "name": "BY EDUCATION | PRIMARY",
    "header": [
-    "(ti)"
+    "BY EDUCATION",
+    "PRIMARY"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BY EDUCATION | ABOVE PRIMARY BUT BELOW MATRIC/H. SEC",
+   "header": [
+    "BY EDUCATION",
+    "ABOVE PRIMARY BUT BELOW MATRIC/H. SEC"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "BY EDUCATION | MATRIC/H. SEC & ABOVE",
+   "header": [
+    "BY EDUCATION",
+    "MATRIC/H. SEC & ABOVE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BY EDUCATION | TOTAL",
+   "header": [
+    "BY EDUCATION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH PATIENTS",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH PATIENTS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARD AND",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH GUARD AND"
    ]
   },
   {
    "col_no": "10",
-   "name": "an",
+   "name": "BY FAMILY BACKGROUND | HOME LESS",
    "header": [
-    "an"
+    "BY FAMILY BACKGROUND",
+    "HOME LESS"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "(3)",
+   "col_no": "11",
+   "name": "BY FAMILY BACKGROUND | TOTAL",
    "header": [
-    "(3)"
+    "BY FAMILY BACKGROUND",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "(a",
+   "col_no": "14",
+   "name": "BY ECONOMIC SETUP | LOW/MID INCOME (PMK K$ 500 TO 1000 PM)",
    "header": [
-    "(a"
+    "BY ECONOMIC SETUP",
+    "LOW/MID INCOME (PMK K$ 500 TO 1000 PM)"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "(9) (10003)",
+   "col_no": "15",
+   "name": "BY ECONOMIC SETUP | MIDDLE INCOME (PM 1000 TO 2000 PM)",
    "header": [
-    "(9)"
+    "BY ECONOMIC SETUP",
+    "MIDDLE INCOME (PM 1000 TO 2000 PM)"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "(ki)",
+   "col_no": "16",
+   "name": "BY ECONOMIC SETUP | UPP/MID INCOME (PM 1000 TO 2000 PM)",
    "header": [
-    "(ki)"
+    "BY ECONOMIC SETUP",
+    "UPP/MID INCOME (PM 1000 TO 2000 PM)"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "a)",
+   "col_no": "17",
+   "name": "BY ECONOMIC SETUP | UPPER INCOME (PM 1000 TO 2000 PM)",
    "header": [
-    "a)"
+    "BY ECONOMIC SETUP",
+    "UPPER INCOME (PM 1000 TO 2000 PM)"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "col_10006",
-   "header": []
-  },
-  {
-   "col_no": "10007",
-   "name": "(9) (10007)",
+   "col_no": "18",
+   "name": "BY ECONOMIC SETUP | TOTAL",
    "header": [
-    "(9)"
+    "BY ECONOMIC SETUP",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "Ci)",
+   "col_no": "19",
+   "name": "RECEIVED | NEW DELIVERED",
    "header": [
-    "Ci)"
+    "RECEIVED",
+    "NEW DELIVERED"
    ]
   },
   {
-   "col_no": "10009",
-   "name": "col_10009",
-   "header": []
+   "col_no": "20",
+   "name": "RECEIVED | OLD DELIVERED",
+   "header": [
+    "RECEIVED",
+    "OLD DELIVERED"
+   ]
   },
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "RECEIVED | TOTAL",
+   "header": [
+    "RECEIVED",
+    "TOTAL"
+   ]
   }
  ],
- "notes": [
-  "31 LAKSHADWEEP Le) 0 9o fe) ie] 9",
-  "32 TRY i ‘ a ‘ i",
-  "Note: 1, * += =!===\"t=:5== wae net avanaure, the are put in the most likely class.",
-  "2. NR stands for Data not"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 24,
+  "cells_passed": 17,
+  "failures": [
+   "col 8 'TOTAL (STATES)': printed 12867, sum 12667",
+   "col 8 'TOTAL (ALL INDIA)': printed 12961, sum 13161",
+   "col 9 'TOTAL (STATES)': printed 3788, sum 3798",
+   "col 9 'TOTAL (ALL INDIA)': printed 3804, sum 3794",
+   "col 11 'TOTAL (STATES)': printed 19768, sum 19765",
+   "col 11 'TOTAL (UTS)': printed 102, sum 302",
+   "col 11 'TOTAL (ALL INDIA)': printed 20067, sum 19870"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

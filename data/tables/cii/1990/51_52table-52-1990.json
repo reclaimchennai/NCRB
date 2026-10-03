@@ -8,116 +8,152 @@
  "serial": "51",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/52table-52-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/52table-52-1990-.pdf",
  "source_sha256": "40a53e44b1e3f49c3dc251c8421b9cdd6a85c44371ba3557fb7996711a7ff29f",
  "table_no": "53",
- "pdf_title": "",
- "row_label": "STATE/UT/CITY SL. NO.",
+ "pdf_title": "174 TABLE-53 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN (STATE, UT & CITY-WISE) DACOITY",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
- "n_rows": 95,
- "n_cols": 11,
- "n_cells": 492,
+ "n_rows": 94,
+ "n_cols": 15,
+ "n_cells": 705,
  "columns": [
   {
    "col_no": "3",
-   "name": "RES LVDENTIAL PREMISES | NUMBER",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "RES LVDENTIAL PREMISES",
+    "RESIDENTIAL PREMISES",
     "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "RES LVDENTIAL PREMISES | VALUE",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "RES LVDENTIAL PREMISES",
+    "RESIDENTIAL PREMISES",
     "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
+    "HIGHWAYS",
     "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF VALUE",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "OF VALUE"
+    "HIGHWAYS",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "nerunrev CASES RIVER NUMBER",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "nerunrev CASES RIVER NUMBER"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "AND (STATE, & VALUE",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "AND (STATE, & VALUE"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "VALUE UT DACOITY SEA NUMBER",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "VALUE UT DACOITY SEA NUMBER"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "OF STOLEN CITY-WISE) & RAILWAYS VALUE",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "OF STOLEN CITY-WISE) & RAILWAYS VALUE"
+    "RAILWAYS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "PLACE 1 AT. VALUE NUMBER VALUE",
+   "col_no": "13",
+   "name": "BANKS | VALUE",
    "header": [
-    "PLACE 1 AT. VALUE NUMBER VALUE"
+    "BANKS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "OF iRs. OTHER TOTAL NUMBER NUMBER",
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
    "header": [
-    "OF iRs. OTHER TOTAL NUMBER NUMBER"
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "TABLE 53 - - (Concld) in lakh) STATE/UT/CIT Y¥ PLACES VALUE VALUE",
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
    "header": [
-    "TABLE 53 - - (Concld) in lakh) STATE/UT/CIT Y¥ PLACES VALUE VALUE"
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
- "notes": [
-  "Note: Value less than 0.05 is also shown as 0.0",
-  "24—750 NCRB/91"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 11,
-  "cells_passed": 10,
-  "failures": [
-   "col 5 'TOTAL (UTs)': printed 2, sum 8"
-  ],
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

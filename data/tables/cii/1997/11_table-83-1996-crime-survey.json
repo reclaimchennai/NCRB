@@ -8,45 +8,73 @@
  "serial": "11",
  "title": "Persons Killed or Injured Under Police Firing During 1997 (State, UT & City-Wise)",
  "listing_title": "Persons Killed or Injured Under Police Firing During 1997 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-83-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-83-1996-crime-survey.pdf",
  "source_sha256": "2f2dedb2499f42baaa761db25df8fcb30f0cf2eeb2d533d1b49ce2ad3be73e8e",
  "table_no": "83",
- "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1997",
- "row_label": "(STATE,UT & CITY-WISE) SL. STATE/UT/CITY NO. \"1) pins / (STATE,UT & CITY-WISE) NO. OF OCCASIONS OF POLicé FIRING (2) - / (STATE,UT & CITY-WISE) CIVILIANS INJURED {3) OO ees / (STATE,UT & CITY-WISE) 1 KILLED] (6) 1411 44 - BEE ee",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-83",
+ "row_label": "SL NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 40,
- "n_cols": 1,
- "n_cells": 40,
+ "n_rows": 58,
+ "n_cols": 5,
+ "n_cells": 290,
  "columns": [
   {
-   "col_no": "5",
-   "name": "(STATE,UT & CITY-WISE) | Se INJURED 15) 12 37 AS",
+   "col_no": "3",
+   "name": "NO. OF OCCASIONS OF POLICE FIRING",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "Se INJURED 15) 12 37 AS"
+    "NO. OF OCCASIONS OF POLICE FIRING"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CIVILIANS | KILLED",
+   "header": [
+    "CIVILIANS",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CIVILIANS | INJURED",
+   "header": [
+    "CIVILIANS",
+    "INJURED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "POLICEMEN | KILLED",
+   "header": [
+    "POLICEMEN",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POLICEMEN | INJURED",
+   "header": [
+    "POLICEMEN",
+    "INJURED"
    ]
   }
  ],
- "notes": [
-  "54. VARANASI ae i 7)",
-  "55 fe) fe) © ©)"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 0,
+  "cells_checked": 15,
+  "cells_passed": 13,
   "failures": [
-   "col 5 'TOTAL (STATES)': printed 933, sum 1117",
-   "col 5 'TOTAL (UTs)': printed 2, sum 11"
+   "col 4 'TOTAL (STATES)': printed 462, sum 461",
+   "col 5 'TOTAL (UTs)': printed 12, sum 3"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

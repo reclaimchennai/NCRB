@@ -6,36 +6,29 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "No",
+ "title": "42 TABLE No. JUVENILES APPREHENDED IN",
  "listing_title": "Juvenile Apprehended in India During 1967 by Age Group and Sex",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-7-1967.pdf",
  "source_sha256": "e50d367cb55afd34145facc19435fb78944f075148681379c793142b4a597180",
  "table_no": "",
- "pdf_title": "No",
- "row_label": "- Sl. ‘No. / - Head of Crime",
+ "pdf_title": "42 TABLE No. JUVENILES APPREHENDED IN",
+ "row_label": "Sl.No. / Head of Crime",
  "pages": [
   1
  ],
- "n_rows": 18,
- "n_cols": 2,
- "n_cells": 33,
+ "n_rows": 16,
+ "n_cols": 1,
+ "n_cells": 16,
  "columns": [
   {
    "col_no": "3",
-   "name": "- | APPREHENDED ‘7-12 years Boys",
+   "name": "7-12 years | Boys",
    "header": [
-    "-",
-    "APPREHENDED ‘7-12 years Boys"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "IN Girls",
-   "header": [
-    "IN Girls"
+    "7-12 years",
+    "Boys"
    ]
   }
  ],
@@ -44,10 +37,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

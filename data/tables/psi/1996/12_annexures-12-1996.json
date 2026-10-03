@@ -8,260 +8,504 @@
  "serial": "12",
  "title": "Annexure-XII: Details of Inmates Discharged/Escapees/Deaths During 1996",
  "listing_title": "Annexure-XII: Details of Inmates Discharged/Escapees/Deaths During 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/annexures-12_1996.pdf",
  "source_file": "raw/psi/1996/table_content/annexures-12_1996.pdf",
  "source_sha256": "9914a1594dca7e9138bec82de5a2a8c63d1a32d28428374e072093a00caa6ebb",
  "table_no": "",
- "pdf_title": "ANNEXURE-XIi",
- "row_label": "SL. STATE/UT (1) (2) 1 ANDHRA PRADESH",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1996 ANNEXURE-XII",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
+  1,
   2,
   3,
   4,
   5
  ],
- "n_rows": 39,
- "n_cols": 42,
- "n_cells": 239,
+ "n_rows": 30,
+ "n_cols": 69,
+ "n_cells": 2070,
  "columns": [
   {
-   "col_no": "2",
-   "name": "TRANSFERRED TO OTHER | (18)",
-   "header": [
-    "TRANSFERRED TO OTHER",
-    "(18)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "TRANSFERRED TO OTHER | EXTRADICTED TOTAL MALE FEMALE (22), (19) (23) 0",
+   "name": "RELEASED AFTERCOMPLETION OF CONViction PERIOD | MALE",
    "header": [
-    "TRANSFERRED TO OTHER",
-    "EXTRADICTED TOTAL MALE FEMALE (22), (19) (23) 0"
+    "RELEASED AFTERCOMPLETION OF CONViction PERIOD",
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "OTHER RELEASES TOTAL MALE TOTAL FEMALE (25)! (20) (24) (26) )",
+   "name": "RELEASED AFTERCOMPLETION OF CONViction PERIOD | FEMALE",
    "header": [
-    "OTHER RELEASES TOTAL MALE TOTAL FEMALE (25)! (20) (24) (26) )"
+    "RELEASED AFTERCOMPLETION OF CONViction PERIOD",
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "TOTAL (DISCHARGED) FEMALE: MALE TOTAL (21) (28) (29) (27) 9) 0°",
+   "name": "RELEASED AFTERCOMPLETION OF CONViction PERIOD | TOTAL",
    "header": [
-    "TOTAL (DISCHARGED) FEMALE: MALE TOTAL (21) (28) (29) (27) 9) 0°"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "MALE",
-   "header": [
-    "MALE"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "ESCAPEES RE- ARRESTED | ESCAPEES FEMALE",
-   "header": [
-    "ESCAPEES RE- ARRESTED",
-    "ESCAPEES FEMALE"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "ESCAPEES RE- ARRESTED | TOTAL",
-   "header": [
-    "ESCAPEES RE- ARRESTED",
+    "RELEASED AFTERCOMPLETION OF CONViction PERIOD",
     "TOTAL"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "ESCAPEES RE- ARRESTED | MALE",
+   "col_no": "6",
+   "name": "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL) | MALE",
    "header": [
-    "ESCAPEES RE- ARRESTED",
+    "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL)",
     "MALE"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "ESCAPEES RE- ARRESTED | FEMALE",
+   "col_no": "7",
+   "name": "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL) | FEMALE",
    "header": [
-    "ESCAPEES RE- ARRESTED",
+    "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL)",
     "FEMALE"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "DEATHS | TOTAL (ESCA PEES) | TOTAL",
+   "col_no": "8",
+   "name": "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL) | TOTAL",
    "header": [
-    "DEATHS",
-    "TOTAL (ESCA PEES)",
+    "PRE-MATURE RELEASE (CONDITIONAL / UNCONDITIONAL)",
     "TOTAL"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "DEATHS | TOTAL (ESCA PEES) | MALE",
+   "col_no": "9",
+   "name": "RELEASED ON APPEAL | MALE",
    "header": [
-    "DEATHS",
-    "TOTAL (ESCA PEES)",
+    "RELEASED ON APPEAL",
     "MALE"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "DEATHS | FEMALE",
+   "col_no": "10",
+   "name": "RELEASED ON APPEAL | FEMALE",
    "header": [
-    "DEATHS",
+    "RELEASED ON APPEAL",
     "FEMALE"
    ]
   },
   {
-   "col_no": "10009",
-   "name": "DEATHS | TOTAL",
+   "col_no": "11",
+   "name": "RELEASED ON APPEAL | TOTAL",
    "header": [
-    "DEATHS",
+    "RELEASED ON APPEAL",
     "TOTAL"
    ]
   },
   {
-   "col_no": "10010",
-   "name": "DEATHS | MALE",
+   "col_no": "12",
+   "name": "RELEASED ON BAIL | MALE",
    "header": [
-    "DEATHS",
+    "RELEASED ON BAIL",
     "MALE"
    ]
   },
   {
-   "col_no": "10011",
-   "name": "DEATHS | NATURAL FEMALE",
+   "col_no": "13",
+   "name": "RELEASED ON BAIL | FEMALE",
    "header": [
-    "DEATHS",
-    "NATURAL FEMALE"
+    "RELEASED ON BAIL",
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10012",
-   "name": "DEATHS | SiUICIDES FEMALE TOTAL",
+   "col_no": "14",
+   "name": "RELEASED ON BAIL | TOTAL",
    "header": [
-    "DEATHS",
-    "SiUICIDES FEMALE TOTAL"
+    "RELEASED ON BAIL",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10013",
-   "name": "DEATHS | TOTAL MALE",
+   "col_no": "15",
+   "name": "PARDONS | MALE",
+   "header": [
+    "PARDONS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "PARDONS | FEMALE",
+   "header": [
+    "PARDONS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "PARDONS | TOTAL",
+   "header": [
+    "PARDONS",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TRANSFERRED TO OTHER STATES | MALE",
+   "header": [
+    "TRANSFERRED TO OTHER STATES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TRANSFERRED TO OTHER STATES | FEMALE",
+   "header": [
+    "TRANSFERRED TO OTHER STATES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "TRANSFERRED TO OTHER STATES | TOTAL",
+   "header": [
+    "TRANSFERRED TO OTHER STATES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "EXTRADICTED | MALE",
+   "header": [
+    "EXTRADICTED",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "EXTRADICTED | FEMALE",
+   "header": [
+    "EXTRADICTED",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "EXTRADICTED | TOTAL",
+   "header": [
+    "EXTRADICTED",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "OTHER RELEASES | MALE",
+   "header": [
+    "OTHER RELEASES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "OTHER RELEASES | FEMALE",
+   "header": [
+    "OTHER RELEASES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "OTHER RELEASES | TOTAL",
+   "header": [
+    "OTHER RELEASES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "TOTAL (DISCHARGED) | MALE",
+   "header": [
+    "TOTAL (DISCHARGED)",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "TOTAL (DISCHARGED) | FEMALE",
+   "header": [
+    "TOTAL (DISCHARGED)",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "TOTAL (DISCHARGED) | TOTAL",
+   "header": [
+    "TOTAL (DISCHARGED)",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "ESCAPEES | ESCAPEES | MALE",
+   "header": [
+    "ESCAPEES",
+    "ESCAPEES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "ESCAPEES | ESCAPEES | FEMALE",
+   "header": [
+    "ESCAPEES",
+    "ESCAPEES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "ESCAPEES | ESCAPEES | TOTAL",
+   "header": [
+    "ESCAPEES",
+    "ESCAPEES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "ESCAPEES | RE-ARRESTED | MALE",
+   "header": [
+    "ESCAPEES",
+    "RE-ARRESTED",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "ESCAPEES | RE-ARRESTED | FEMALE",
+   "header": [
+    "ESCAPEES",
+    "RE-ARRESTED",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "ESCAPEES | RE-ARRESTED | TOTAL",
+   "header": [
+    "ESCAPEES",
+    "RE-ARRESTED",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "ESCAPEES | TOTAL (ESCAPEES) | MALE",
+   "header": [
+    "ESCAPEES",
+    "TOTAL (ESCAPEES)",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "ESCAPEES | TOTAL (ESCAPEES) | FEMALE",
+   "header": [
+    "ESCAPEES",
+    "TOTAL (ESCAPEES)",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "ESCAPEES | TOTAL (ESCAPEES) | TOTAL",
+   "header": [
+    "ESCAPEES",
+    "TOTAL (ESCAPEES)",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "DEATHS | NATURAL | MALE",
    "header": [
     "DEATHS",
-    "TOTAL MALE"
+    "NATURAL",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "DEATHS | NATURAL | FEMALE",
+   "header": [
+    "DEATHS",
+    "NATURAL",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "DEATHS | NATURAL | TOTAL",
+   "header": [
+    "DEATHS",
+    "NATURAL",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "42",
+   "name": "DEATHS | SUICIDES | MALE",
+   "header": [
+    "DEATHS",
+    "SUICIDES",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "43",
+   "name": "DEATHS | SUICIDES | FEMALE",
+   "header": [
+    "DEATHS",
+    "SUICIDES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "44",
+   "name": "DEATHS | SUICIDES | TOTAL",
+   "header": [
+    "DEATHS",
+    "SUICIDES",
+    "TOTAL"
    ]
   },
   {
    "col_no": "45",
-   "name": "EXECUTION | ‘",
+   "name": "DEATHS (CONTINUED...) | EXECUTION | MALE",
    "header": [
+    "DEATHS (CONTINUED...)",
     "EXECUTION",
-    "‘"
+    "MALE"
    ]
   },
   {
    "col_no": "46",
-   "name": "EXECUTION | MALE",
+   "name": "DEATHS (CONTINUED...) | EXECUTION | FEMALE",
    "header": [
+    "DEATHS (CONTINUED...)",
     "EXECUTION",
-    "MALE"
+    "FEMALE"
    ]
   },
   {
    "col_no": "47",
-   "name": "EXECUTION | FEMALE",
+   "name": "DEATHS (CONTINUED...) | EXECUTION | TOTAL",
    "header": [
+    "DEATHS (CONTINUED...)",
     "EXECUTION",
-    "FEMALE"
+    "TOTAL"
    ]
   },
   {
    "col_no": "48",
-   "name": "MURDER BY INMATES | TOTAL",
+   "name": "DEATHS (CONTINUED...) | MURDER BY INMATES | MALE",
    "header": [
+    "DEATHS (CONTINUED...)",
     "MURDER BY INMATES",
-    "TOTAL"
+    "MALE"
    ]
   },
   {
    "col_no": "49",
-   "name": "MURDER BY INMATES | MALE",
+   "name": "DEATHS (CONTINUED...) | MURDER BY INMATES | FEMALE",
    "header": [
+    "DEATHS (CONTINUED...)",
     "MURDER BY INMATES",
-    "MALE"
+    "FEMALE"
    ]
   },
   {
    "col_no": "50",
-   "name": "MURDER BY INMATES | FEMALE",
+   "name": "DEATHS (CONTINUED...) | MURDER BY INMATES | TOTAL",
    "header": [
+    "DEATHS (CONTINUED...)",
     "MURDER BY INMATES",
-    "FEMALE"
+    "TOTAL"
    ]
   },
   {
    "col_no": "51",
-   "name": "DEATHS (CONTINUED...) DEATHS DUE TO FIRING | TOTAL",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO FIRING | MALE",
    "header": [
-    "DEATHS (CONTINUED...) DEATHS DUE TO FIRING",
-    "TOTAL"
+    "DEATHS (CONTINUED...)",
+    "DEATHS DUE TO FIRING",
+    "MALE"
    ]
   },
   {
    "col_no": "52",
-   "name": "DEATHS (CONTINUED...) DEATHS DUE TO FIRING | MALE",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO FIRING | FEMALE",
    "header": [
-    "DEATHS (CONTINUED...) DEATHS DUE TO FIRING",
-    "MALE"
+    "DEATHS (CONTINUED...)",
+    "DEATHS DUE TO FIRING",
+    "FEMALE"
    ]
   },
   {
    "col_no": "53",
-   "name": "DEATHS (CONTINUED...) DEATHS DUE TO FIRING | FEMALE.",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO FIRING | TOTAL",
    "header": [
-    "DEATHS (CONTINUED...) DEATHS DUE TO FIRING",
-    "FEMALE."
-   ]
-  },
-  {
-   "col_no": "54",
-   "name": "OTHERS | DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL | TOTAL",
-   "header": [
-    "OTHERS",
-    "DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL",
+    "DEATHS (CONTINUED...)",
+    "DEATHS DUE TO FIRING",
     "TOTAL"
    ]
   },
   {
-   "col_no": "55",
-   "name": "OTHERS | DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL | MALE",
+   "col_no": "54",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL | MALE",
    "header": [
-    "OTHERS",
+    "DEATHS (CONTINUED...)",
     "DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL",
     "MALE"
    ]
   },
   {
-   "col_no": "56",
-   "name": "OTHERS | DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL | FEMALE",
+   "col_no": "55",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL | FEMALE",
    "header": [
-    "OTHERS",
+    "DEATHS (CONTINUED...)",
     "DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL",
     "FEMALE"
    ]
   },
   {
+   "col_no": "56",
+   "name": "DEATHS (CONTINUED...) | DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL | TOTAL",
+   "header": [
+    "DEATHS (CONTINUED...)",
+    "DEATHS DUE TO NEGLIGENCE / EXCESSES BY JAIL PERSONNEL",
+    "TOTAL"
+   ]
+  },
+  {
    "col_no": "57",
+   "name": "DEATHS (CONTINUED...) | OTHERS | MALE",
+   "header": [
+    "DEATHS (CONTINUED...)",
+    "OTHERS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "58",
+   "name": "DEATHS (CONTINUED...) | OTHERS | FEMALE",
+   "header": [
+    "DEATHS (CONTINUED...)",
+    "OTHERS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "59",
    "name": "OTHERS | TOTAL",
    "header": [
     "OTHERS",
@@ -269,19 +513,19 @@
    ]
   },
   {
-   "col_no": "58",
-   "name": "OTHERS | MALE -",
+   "col_no": "60",
+   "name": "TOTAL (DEATHS) | MALE",
    "header": [
-    "OTHERS",
-    "MALE -"
+    "TOTAL (DEATHS)",
+    "MALE"
    ]
   },
   {
-   "col_no": "59",
-   "name": "OTHERS | TOTAL FEMALE -",
+   "col_no": "61",
+   "name": "TOTAL (DEATHS) | FEMALE",
    "header": [
-    "OTHERS",
-    "TOTAL FEMALE -"
+    "TOTAL (DEATHS)",
+    "FEMALE"
    ]
   },
   {
@@ -294,18 +538,18 @@
   },
   {
    "col_no": "63",
-   "name": "NUMBER OF PERSONS RELEASED ON PAROLE | MALE FEMALE (63)",
+   "name": "NUMBER OF PERSONS RELEASED ON PAROLE | MALE",
    "header": [
     "NUMBER OF PERSONS RELEASED ON PAROLE",
-    "MALE FEMALE"
+    "MALE"
    ]
   },
   {
    "col_no": "64",
-   "name": "NUMBER OF PERSONS RELEASED ON PAROLE | MALE FEMALE (64)",
+   "name": "NUMBER OF PERSONS RELEASED ON PAROLE | FEMALE",
    "header": [
     "NUMBER OF PERSONS RELEASED ON PAROLE",
-    "MALE FEMALE"
+    "FEMALE"
    ]
   },
   {
@@ -318,18 +562,18 @@
   },
   {
    "col_no": "66",
-   "name": "NUMBER OF PAROLE ABSCONDERS | MALE FEMALE (66)",
+   "name": "NUMBER OF PAROLE ABSCONDERS | MALE",
    "header": [
     "NUMBER OF PAROLE ABSCONDERS",
-    "MALE FEMALE"
+    "MALE"
    ]
   },
   {
    "col_no": "67",
-   "name": "NUMBER OF PAROLE ABSCONDERS | MALE FEMALE (67)",
+   "name": "NUMBER OF PAROLE ABSCONDERS | FEMALE",
    "header": [
     "NUMBER OF PAROLE ABSCONDERS",
-    "MALE FEMALE"
+    "FEMALE"
    ]
   },
   {
@@ -342,34 +586,30 @@
   },
   {
    "col_no": "69",
-   "name": "NUMBER OF PAROLE ABSCONDERS Ri- ARRESTED | MALE. FEMALE (69)",
+   "name": "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED | MALE",
    "header": [
-    "NUMBER OF PAROLE ABSCONDERS Ri- ARRESTED",
-    "MALE. FEMALE"
+    "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED",
+    "MALE"
    ]
   },
   {
    "col_no": "70",
-   "name": "NUMBER OF PAROLE ABSCONDERS Ri- ARRESTED | MALE. FEMALE (70)",
+   "name": "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED | FEMALE",
    "header": [
-    "NUMBER OF PAROLE ABSCONDERS Ri- ARRESTED",
-    "MALE. FEMALE"
+    "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED",
+    "FEMALE"
    ]
   },
   {
    "col_no": "71",
-   "name": "NUMBER OF PAROLE ABSCONDERS Ri- ARRESTED | TOTAL",
+   "name": "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED | TOTAL",
    "header": [
-    "NUMBER OF PAROLE ABSCONDERS Ri- ARRESTED",
+    "NUMBER OF PAROLE ABSCONDERS RE-ARRESTED",
     "TOTAL"
    ]
   }
  ],
- "notes": [
-  "14 MIZORAM ie} ie) 0 0 ie) Q 0 0: ie) 0 ie) 0 0",
-  "a",
-  "NA stands for Not Available"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -377,7 +617,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 4,
+ "inferred_pages": 0,
+ "ocr_pages": 5,
  "warnings": []
 }

@@ -6,74 +6,65 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "CHAPTER - 1",
+ "title": "CHAPTER - 1 ## SURVEY OF CRIME ## POPULATION:",
  "listing_title": "Survey of Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-1991.pdf",
  "source_file": "raw/cii/1991/table_chapter/chapter-1-1991.pdf",
  "source_sha256": "81e0b6f7883e3fd9d16c0382cf14457d50da26559dfad4c2607f3ac6c3f43c8d",
  "table_no": "",
- "pdf_title": "CHAPTER - 1",
- "row_label": "SURVEY OF CRIME POPULATIGN: 1.1 by 1.2 per cent. thousand males.",
+ "pdf_title": "CHAPTER - 1 ## SURVEY OF CRIME ## POPULATION:",
+ "row_label": "Item",
  "pages": [
   1
  ],
- "n_rows": 5,
+ "n_rows": 4,
  "n_cols": 5,
- "n_cells": 19,
+ "n_cells": 18,
  "columns": [
   {
    "col_no": "2",
-   "name": "SURVEY OF CRIME | The population of the country in the decade (1981.9) inereaced by 23.5 per cent. decennial growth rate a3 Comparca to the previous decade 1971-81, however, The male- female sex ratio in the decace 1981-91 fell from 934 to 929 per ALL INDIA POPULATION | Ponulating | 1971",
+   "name": "Population (In 000's) | 1971",
    "header": [
-    "SURVEY OF CRIME",
-    "The population of the country in the decade (1981.9) inereaced by 23.5 per cent. decennial growth rate a3 Comparca to the previous decade 1971-81, however, The male- female sex ratio in the decace 1981-91 fell from 934 to 929 per ALL INDIA POPULATION",
-    "Ponulating",
+    "Population (In 000's)",
     "1971"
    ]
   },
   {
    "col_no": "3",
-   "name": "SURVEY OF CRIME | The population of the country in the decade (1981.9) inereaced by 23.5 per cent. decennial growth rate a3 Comparca to the previous decade 1971-81, however, The male- female sex ratio in the decace 1981-91 fell from 934 to 929 per ALL INDIA POPULATION | Ponulating | 1981",
+   "name": "Population (In 000's) | 1981",
    "header": [
-    "SURVEY OF CRIME",
-    "The population of the country in the decade (1981.9) inereaced by 23.5 per cent. decennial growth rate a3 Comparca to the previous decade 1971-81, however, The male- female sex ratio in the decace 1981-91 fell from 934 to 929 per ALL INDIA POPULATION",
-    "Ponulating",
+    "Population (In 000's)",
     "1981"
    ]
   },
   {
    "col_no": "4",
-   "name": "SURVEY OF CRIME | The population of the country in the decade (1981.9) inereaced by 23.5 per cent. decennial growth rate a3 Comparca to the previous decade 1971-81, however, The male- female sex ratio in the decace 1981-91 fell from 934 to 929 per ALL INDIA POPULATION | (00's) 1991",
+   "name": "Population (In 000's) | 1991",
    "header": [
-    "SURVEY OF CRIME",
-    "The population of the country in the decade (1981.9) inereaced by 23.5 per cent. decennial growth rate a3 Comparca to the previous decade 1971-81, however, The male- female sex ratio in the decace 1981-91 fell from 934 to 929 per ALL INDIA POPULATION",
-    "(00's) 1991"
+    "Population (In 000's)",
+    "1991"
    ]
   },
   {
    "col_no": "5",
-   "name": "SURVEY OF CRIME | The population of the country in the decade (1981.9) inereaced by 23.5 per cent. decennial growth rate a3 Comparca to the previous decade 1971-81, however, The male- female sex ratio in the decace 1981-91 fell from 934 to 929 per ALL INDIA POPULATION | Derennis Growilh (90) 1981 over 1971",
+   "name": "Decennial Growth (%) | 1981 over 1971",
    "header": [
-    "SURVEY OF CRIME",
-    "The population of the country in the decade (1981.9) inereaced by 23.5 per cent. decennial growth rate a3 Comparca to the previous decade 1971-81, however, The male- female sex ratio in the decace 1981-91 fell from 934 to 929 per ALL INDIA POPULATION",
-    "Derennis Growilh (90) 1981 over 1971"
+    "Decennial Growth (%)",
+    "1981 over 1971"
    ]
   },
   {
    "col_no": "6",
-   "name": "SURVEY OF CRIME | The decrease 1991 over 198]",
+   "name": "Decennial Growth (%) | 1991 over 1981",
    "header": [
-    "SURVEY OF CRIME",
-    "The decrease 1991 over 198]"
+    "Decennial Growth (%)",
+    "1991 over 1981"
    ]
   }
  ],
- "notes": [
-  "Source General of India",
-  "tl"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -81,7 +72,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

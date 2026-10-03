@@ -1,62 +1,86 @@
-section,sl_no,Name of the Ststes/U.Ts./ Cities,IPC | Dacoity,IPC | Robbery,reporied Burglary,Thefts,Cities,Criminal Breach Riots of Trust,Cheating,Counterfeiting,Total cognizable Crime
-,1,Andhra Pradesh,3,8,371,626,49,1,,,1135
-,2,Assam.,25,21,351,565,186,3,7,-,1682
-,3,Bihar,56,59,49,1055,,,,,
-,4,Gujarat.,31,44,541,1534,0 350,76,56,-,5355
-,5,Haryana,1,3,92,265,,,,,
-,6,Himachal Pradesh,,4,78,102,74,,3,-,645
-,7,Jammu & Kashmir,,3,49,53,110,=3,,press,324
-,8,Karnataka,1,28,269,717,-,5,9,-,1484
-,9,Kerala.,5,-,22,36,71,-,-,-,169
-,10,Madhye Pradesh.,,iv7,1057,1925,,,,,
-,,"11, Maharashtra.",73,214,1528,3801,,,,,
-,12,Manipur.,1,1,12,,3 12,ix,2,-,62
-,13,Meghalaya,1,1,20,,,,,,
-,14,Nagaland,1,9,42,113,12,3,-,-,184
-,15,Orissa,5,5,122,362,-,4,4,-,577
-,16,Punjab,-,i,24,41,-,,13,,190
-,,"17,",4,a,237,313,,,,,
-,18,Sikkim,-,nil,19,21,0 4,1,1,-,50
-,19,Tamil Nadu.,,,546,1749,113,3,1,-,2685
-,,"20, Tripura",,7,36,195,,,,,
-,21,Uttar Pradesh,2,17,29,73,125,-,1,-,348
-,22,West Bengal,34,44,128,1065,,,,,
-,,Torat (States).,350,689,6022,14673,,,,,
-U.Ts.,23,A. & N. Islands,-,-,12,45,10,-,es,-,99
-U.Ts.,,"24, Arunachal Pradesh",,1,5,6,,,,,
-U.Ts.,,"25,",-,3,,26,,,,,
-U.Ts.,26,D. & N. Haveli,-,1,2,2,3 2,1,,Rec,28
-U.Ts.,27,§.,5,33,167,425,24,2,2,-,500
-U.Ts.,28,"Goa, Daman & Diu",4,4,32,82,41,7,2,-,ni
-U.Ts.,,"29,",-,-,-,-,,,,,
-U.Ts.,30,Mizoram.,-,14,13,67,15,-,11,eas,409
-U.Ts.,31,Foudicuerry,-,-,il,50,,,,,
-U.Ts.,,Torat,9,54,253,3 0C~C~«~*W,,,,,
-U.Ts.,,GraNp,359,743,6275,15376,,,,,
-CITIES,,"1, Ahmedabad",6,om,55,477,,,,,
-CITIES,,"2, Rangalore",-,il,109,447,,,,,
-CITIES,3,Bombay +,-,2,73,360,4,5,J,-,575
-CITIES,4,Calcutta.,-,3,-,91,4,ne,-,-,125
+section,sl_no,Name of the States/U. Ts./Cities,IPC Cognizable offences reported | Murder,IPC Cognizable offences reported | Culpable Homicide not amounting to Murder,IPC Cognizable offences reported | Rape,IPC Cognizable offences reported | Kidnapping & Abduction,IPC Cognizable offences reported | Riots,IPC Cognizable offences reported | Criminal Breach of Trust,IPC Cognizable offences reported | Cheating,IPC Cognizable offences reported | Counterfeiting,IPC Cognizable offences reported | Total cognizable Crime
+STATES,1,Andhra Pradesh,5,-,4,-,,,,,
+STATES,2,Assam,39,2,27,26,,,,,
+STATES,3,Bihar,87,18,34,35,,,,,
+STATES,4,Gujarat,119,-,12,97,,,,,
+STATES,5,Haryana,32,7,7,7,,,,,
+STATES,6,Himachal Pradesh,6,1,5,11,,,,,
+STATES,7,Jammu & Kashmir,7,1,4,7,,,,,
+STATES,8,Karnataka,27,-,1,1,,,,,
+STATES,9,Kerala,2,-,-,1,,,,,
+STATES,10,Madhya Pradesh,159,3,97,66,,,,,
+STATES,11,Maharashtra,143,1,42,90,,,,,
+STATES,12,Manipur,4,-,-,1,,,,,
+STATES,13,Meghalaya,-,-,-,-,,,,,
+STATES,14,Nagaland,1,-,-,3,,,,,
+STATES,15,Orissa,1,-,-,-,,,,,
+STATES,16,Punjab,16,1,4,8,,,,,
+STATES,17,Rajasthan,75,8,16,34,,,,,
+STATES,18,Sikkim,2,-,1,1,,,,,
+STATES,19,Tamil Nadu,28,-,1,2,,,,,
+STATES,20,Tripura,9,1,1,7,,,,,
+STATES,21,Uttar Pradesh,14,5,7,17,,,,,
+STATES,22,West Bengal,11,6,19,33,,,,,
+STATES,,TOTAL (States),787,54,282,447,,,,,
+U.Ts.,23,A. & N. Islands,2,-,1,2,,,,,
+U.Ts.,24,Arunachal Pradesh,-,-,1,-,,,,,
+U.Ts.,25,Chandigarh,-,2,-,2,,,,,
+U.Ts.,26,D. & N. Haveli,1,-,3,-,,,,,
+U.Ts.,27,Delhi,16,35,7,39,,,,,
+U.Ts.,28,"Goa, Daman & Diu",2,1,-,1,,,,,
+U.Ts.,29,Lakshadweep,-,-,-,-,-,-,-,-,-
+U.Ts.,30,Mizoram,2,-,18,-,,,,,
+U.Ts.,31,Pondicherry,2,-,-,2,,,,,
+U.Ts.,,TOTAL (U.Ts.),25,38,30,46,,,,,
+U.Ts.,,GRAND TOTAL,812,92,312,493,,,,,
+CITIES,1,Ahmedabad,13,-,-,28,,,,,
+CITIES,2,Bangalore,2,-,-,1,,,,,
+CITIES,3,Bombay,2,1,4,22,,,,,
+CITIES,4,Calcutta,3,-,-,2,,,,,
+CITIES,5,Delhi,16,35,7,39,,,,,
+CITIES,6,Hyderabad,-,-,-,-,,,,,
+CITIES,7,Kanpur,-,-,-,-,,,,,
+CITIES,8,Madras,1,-,-,-,,,,,
+CITIES,,TOTAL (Cities),37,36,11,92,,,,,
+STATES,1,Andhra Pradesh,3,8,371,626,49,1,1,-,1135
+STATES,2,Assam,25,21,351,565,186,3,7,-,1682
+STATES,3,Bihar,96,59,449,1055,1082,12,8,-,3440
+STATES,4,Gujarat,31,44,541,1534,350,76,56,-,5355
+STATES,5,Haryana,1,3,92,265,24,2,2,-,500
+STATES,6,Himachal Pradesh,1,4,78,102,74,-,3,-,645
+STATES,7,Jammu & Kashmir,7,3,49,53,110,-,-,-,324
+STATES,8,Karnataka,1,28,269,717,181,5,9,-,1484
+STATES,9,Kerala,5,-,22,36,71,-,-,-,169
+STATES,10,Madhya Pradesh,47,197,1057,1925,732,24,25,-,8108
+STATES,11,Maharashtra,73,214,1528,3801,904,52,64,2,11370
+STATES,12,Manipur,1,1,12,26,12,-,2,-,62
+STATES,13,Meghalaya,1,1,20,42,-,-,-,-,64
+STATES,14,Nagaland,1,9,42,113,12,3,-,-,184
+STATES,15,Orissa,5,5,122,362,-,4,4,-,577
+STATES,16,Punjab,-,1,24,41,-,-,13,-,190
+STATES,17,Rajasthan,4,44,237,313,711,10,9,-,2374
+STATES,18,Sikkim,-,nil,19,21,4,1,1,-,50
+STATES,19,Tamil Nadu,1,7,546,1749,113,3,1,-,2685
+STATES,20,Tripura,11,7,36,195,nil,4,6,-,307
+STATES,21,Uttar Pradesh,2,17,29,73,125,-,1,-,348
+STATES,22,West Bengal,34,44,128,1065,1315,-,24,-,2862
+STATES,,TOTAL (States),350,689,6022,14673,6055,200,236,2,43915
+U.Ts.,23,A. & N. Islands,-,-,12,45,10,-,-,-,99
+U.Ts.,24,Arunachal Pradesh,-,1,5,6,-,-,-,-,13
+U.Ts.,25,Chandigarh,-,3,11,26,3,2,-,-,86
+U.Ts.,26,D. & N. Haveli,-,1,2,2,2,1,-,-,28
+U.Ts.,27,Delhi,5,33,167,425,26,12,10,-,1195
+U.Ts.,28,"Goa, Daman & Diu",4,2,32,82,41,7,2,-,281
+U.Ts.,30,Mizoram,-,14,13,67,15,-,11,-,409
+U.Ts.,31,Pondicherry,-,-,11,50,43,2,-,-,325
+U.Ts.,,TOTAL (U.Ts.),9,54,253,703,140,24,23,-,2436
+U.Ts.,,GRAND TOTAL,359,743,6275,15376,6195,224,259,2,46351
+CITIES,1,Ahmedabad,6,-,55,477,155,18,28,-,1258
+CITIES,2,Bangalore,-,11,109,447,20,3,3,-,617
+CITIES,3,Bombay,-,2,73,360,4,5,1,-,575
+CITIES,4,Calcutta,-,3,-,91,4,-,-,-,125
 CITIES,5,Delhi,5,33,167,425,26,12,10,-,1195
-CITIES,6,Hyderabad,-,1,43,103,,,,,
-CITIES,7,Kanpur,-,-,-,i,-,1,,-,2
-CITIES,8,Madras,-,4,82,469,42,-,,-,693
-CITIES,,(Cities).,,54,529,2373,,,,,
-,,Assam. [line 2],,,,,1082,12,8,-,3440
-,10,Madhya Pradesh,,,,,732,24,25,an,8108
-,11,Maharashtra.,,,,,904,52,64,2,11370
-,13,Méghalaya,,,,,5,-,-,-,es
-,17,Rajasthan,,,,,3 71,10,9,-,2374
-,20,Tripura,,,,,,4,6,,307
-,,TOTAL (States),,,,,6055,200,236,2,43915
-U.Ts.,24,Arunachal Pradesh,,,,,-,-,-,-,3
-U.Ts.,25,Chandigarh,,,,,3,2,-,-,86
-U.Ts.,7,Di,,,,,26,12,10,apis,1195
-U.Ts.,,-,,,,,-,-,-,-,mel
-U.Ts.,31,-,,,,,43,2,-,,325
-U.Ts.,,TOTAL (U.Ts.),,,,,140,24,23,-,24360
-U.Ts.,,GRAND TOTAL.,,,,,6195,224,259,2,46341
-CITIES,,J. Ahmedahad.,,,,,0 155,18,28,-,1288
-CITIES,2,Rangalore,,,,,5,3,3,-,617
-CITIES,6,Py,,,,,-,-,-,-,147
-CITIES,,,,,,,251,39,42,-,4652
+CITIES,6,Hyderabad,-,1,43,103,-,-,-,-,147
+CITIES,7,Kanpur,-,-,-,1,-,1,-,-,2
+CITIES,8,Madras,-,4,82,469,42,-,-,-,693
+CITIES,,TOTAL (Cities),11,54,529,2373,251,39,42,-,4652

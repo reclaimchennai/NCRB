@@ -6,96 +6,78 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "INCIDENCE OF DEATHS OF FEMALE INMATES IN PRISONS DURING 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 ## Expenses on Inmates",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "35",
- "pdf_title": "INCIDENCE OF DEATHS OF FEMALE INMATES IN PRISONS DURING 1998",
- "row_label": "STATE/UT",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 ## Expenses on Inmates",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  122
+  63
  ],
- "n_rows": 10,
- "n_cols": 9,
- "n_cells": 28,
+ "n_rows": 35,
+ "n_cols": 7,
+ "n_cells": 245,
  "columns": [
   {
    "col_no": "3",
-   "name": "NATURAL DEATHS",
+   "name": "FOOD",
    "header": [
-    "NATURAL DEATHS"
+    "FOOD"
    ]
   },
   {
    "col_no": "4",
-   "name": "SUICIDE",
+   "name": "CLOTHING",
    "header": [
-    "SUICIDE"
+    "CLOTHING"
    ]
   },
   {
    "col_no": "5",
-   "name": "TION",
+   "name": "MEDICAL",
    "header": [
-    "TION"
+    "MEDICAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "MURDER BY INMATES",
+   "name": "EDUCATION",
    "header": [
-    "MURDER BY INMATES"
+    "EDUCATION"
    ]
   },
   {
    "col_no": "7",
-   "name": "DEATH DUE FIRING",
+   "name": "WELFARE",
    "header": [
-    "DEATH DUE FIRING"
+    "WELFARE"
    ]
   },
   {
    "col_no": "8",
-   "name": "DEATH DEATH DUE TO To EXCESS",
+   "name": "OTHERS",
    "header": [
-    "DEATH DEATH DUE TO To EXCESS"
+    "OTHERS"
    ]
   },
   {
    "col_no": "9",
-   "name": "OTHERS NEGLIGENCE/ BY JAIL",
+   "name": "TOTAL",
    "header": [
-    "OTHERS NEGLIGENCE/ BY JAIL"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "TOTAL COL.4 TO PERSON NEL",
-   "header": [
-    "TOTAL COL.4 TO PERSON NEL"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "TOTAL DEATHS (COL.3 + COL.10)",
-   "header": [
-    "TOTAL DEATHS (COL.3 + COL.10)"
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NA DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 1,
+  "cells_checked": 0,
   "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 22, sum 1"
-  ],
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

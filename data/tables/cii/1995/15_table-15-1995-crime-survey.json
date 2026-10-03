@@ -8,33 +8,77 @@
  "serial": "15",
  "title": "Percentage of IPC Crime Cases Disposed of by Police During 1995",
  "listing_title": "Percentage of IPC Crime Cases Disposed of by Police During 1995",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-15-1995-crime-survey.pdf",
  "source_sha256": "2337b30e48be5666933cef471a0302d1926a5ce95c4eb09fadf05e23e6a45206",
  "table_no": "15",
- "pdf_title": "PERCENTAGE OF IPC CRIME CASES DISPOSED OF BY POLICE DURING 1995",
- "row_label": "SL. CRIME HEAD NO. / PERCEN- PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTGATION IN WHICH INVEST GATION Was REFUSED / PERCEN- PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTGATION IN WHICH INVESTIGATION WAS COMPLETED CHARGE FOUND FALSE) MISTAKE OF FACT OR OF LAW ETC. / PERCEN- PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTGATION IN WHICH INVESTIGATION WAS COMPLETED FINAL REPORT TRUE - SUBMITTED / PERCEN- PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTGATION IN WHICH INVESTIGATION WAS COMPLETED CHARGE SHEETS WERE LAID / PERCEN- PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTGATION IN WHICH INVESTIGATION WAS COMPLETED TOTAL GATION —{(4) +(5) +(6)) / PERCEN- ne CASES PENDING",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-15",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 24,
- "n_cols": 1,
- "n_cells": 24,
+ "n_cols": 7,
+ "n_cells": 168,
  "columns": [
   {
-   "col_no": "9",
-   "name": "PERCEN- | CHARGE SHEETING RATE",
+   "col_no": "3",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "PERCEN-",
-    "CHARGE SHEETING RATE"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS REFUSED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED (4)",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED (5)",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED (6)",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED (7)",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION",
+   "header": [
+    "PERCENTAGE OF CASES PENDING INVESTIGATION"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "CHARGE SHEET-ING RATE",
+   "header": [
+    "CHARGE SHEET-ING RATE"
    ]
   }
  ],
- "notes": [
-  "ote: Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

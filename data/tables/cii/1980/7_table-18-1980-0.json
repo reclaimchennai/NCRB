@@ -8,42 +8,47 @@
  "serial": "7",
  "title": "Percentage Distribution of Crime Cases under Local & Special Laws and their Disposal by Courts During 1980",
  "listing_title": "Percentage Distribution of Crime Cases under Local & Special Laws and their Disposal by Courts During 1980",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-18-1980_0.pdf",
  "source_file": "raw/cii/1980/table_content/table-18-1980_0.pdf",
  "source_sha256": "39a6491cdf4393bb267c27b3a3068429ef761b3bbb6bfe03aad36a3e87b674e1",
- "table_no": "16",
- "pdf_title": "",
- "row_label": "ae i 1, / Of Bae, of bo total eases for ducing the year Arms Act",
+ "table_no": "18",
+ "pdf_title": "70 TABLE 18 Percentage distribution of crime cases under local & special laws and their disposal by courts during 1980",
+ "row_label": "Sl. No. / Heads of Crime",
  "pages": [
   1
  ],
- "n_rows": 12,
- "n_cols": 3,
- "n_cells": 33,
+ "n_rows": 13,
+ "n_cols": 4,
+ "n_cells": 52,
  "columns": [
   {
    "col_no": "3",
-   "name": "cases under local & special laws and thelr | courts during 19§0 ann. bo total moder the year O.1",
+   "name": "%age of cases compounded or withdrawn to total cases for trial during the year",
    "header": [
-    "cases under local & special laws and thelr",
-    "courts during 19§0 ann. bo total moder the year O.1"
+    "%age of cases compounded or withdrawn to total cases for trial during the year"
    ]
   },
   {
    "col_no": "4",
-   "name": "cases under local & special laws and thelr | i of the year to total caged 2.7",
+   "name": "%age of cases in which trials were completed to total cases under trial during the year",
    "header": [
-    "cases under local & special laws and thelr",
-    "i of the year to total caged 2.7"
+    "%age of cases in which trials were completed to total cases under trial during the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "py which trials wine mw.2",
+   "name": "%age of cases pending trial at the end of the year to total cases for trial",
    "header": [
-    "py which trials wine mw.2"
+    "%age of cases pending trial at the end of the year to total cases for trial"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "%age of cases convicted to cases in which trials were completed",
+   "header": [
+    "%age of cases convicted to cases in which trials were completed"
    ]
   }
  ],
@@ -55,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,14 +8,14 @@
  "serial": "30",
  "title": "Disposal of Persons Arrested under IPC Crimes by Police During 1990",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes by Police During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/30table-30-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/30table-30-1990-.pdf",
  "source_sha256": "9c5406c9ba76d839d734aa09c4d4c96755eabde92598c971dc13192b563d9955",
  "table_no": "30",
- "pdf_title": "",
- "row_label": "DISPOSAL CRIME SL. NO.",
+ "pdf_title": "128 TABLE-30 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY POLICE DURING 1990",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,57 +25,62 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "OF HEAD OF PERSONS UNDER ARREST* im THOSE FROM PREVIOUS",
+   "name": "TOTAL NO.OFPERSONSUNDERARREST* | INCLUDINGTHOSEFROM PRE-VIOUS YEAR",
    "header": [
-    "OF HEAD OF PERSONS UNDER ARREST* im THOSE FROM PREVIOUS"
+    "TOTAL NO.OFPERSONSUNDERARREST*",
+    "INCLUDINGTHOSEFROM PRE-VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "rensuns TOTAL BEFORE TRIAL NO, YEAR",
+   "name": "PERSONSRELEASEDBEFORETRIAL | NO.",
    "header": [
-    "rensuns TOTAL BEFORE TRIAL NO, YEAR"
+    "PERSONSRELEASEDBEFORETRIAL",
+    "NO."
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER NO. - TO TOTAL",
+   "name": "PERSONSRELEASEDBEFORETRIAL | PERCENTAGETOTOTAL",
    "header": [
-    "UNDER NO. - TO TOTAL"
+    "PERSONSRELEASEDBEFORETRIAL",
+    "PERCENTAGETOTOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "DURING IPC FENSUNS FERSUNDS CHARGE NO.",
+   "name": "PERSONSCHARGESHEETED | NO.",
    "header": [
-    "DURING IPC FENSUNS FERSUNDS CHARGE NO."
+    "PERSONSCHARGESHEETED",
+    "NO."
    ]
   },
   {
    "col_no": "7",
-   "name": "CRIMES 1990 TO TOTAL",
+   "name": "PERSONSCHARGESHEETED | PERCENTAGETOTOTAL",
    "header": [
-    "CRIMES 1990 TO TOTAL"
+    "PERSONSCHARGESHEETED",
+    "PERCENTAGETOTOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "BY rensons THE AT THE NO.",
+   "name": "PERSONS UNDERINVESTIGATIONAT THE END OFTHE YEAR | NO.",
    "header": [
-    "BY rensons THE AT THE NO."
+    "PERSONS UNDERINVESTIGATIONAT THE END OFTHE YEAR",
+    "NO."
    ]
   },
   {
    "col_no": "9",
-   "name": "POLICE UNDER LNVESTLGATION END OF YEAR TO TOTAL",
+   "name": "PERSONS UNDERINVESTIGATIONAT THE END OFTHE YEAR | PERCENTAGETOTOTAL",
    "header": [
-    "POLICE UNDER LNVESTLGATION END OF YEAR TO TOTAL"
+    "PERSONS UNDERINVESTIGATIONAT THE END OFTHE YEAR",
+    "PERCENTAGETOTOTAL"
    ]
   }
  ],
- "notes": [
-  "* IN vusruvr OR ON BAIL"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

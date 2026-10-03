@@ -6,55 +6,56 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "Female inmates Capacity, Population & Occupation rate during 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 Authorised Capacity of Inmates in District Jails in States/UTs during 1998",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
  "table_no": "",
- "pdf_title": "Female inmates Capacity, Population & Occupation rate during 1998",
- "row_label": "SL. NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 Authorised Capacity of Inmates in District Jails in States/UTs during 1998",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  25
+  15
  ],
- "n_rows": 31,
- "n_cols": 3,
- "n_cells": 86,
+ "n_rows": 32,
+ "n_cols": 4,
+ "n_cells": 128,
  "columns": [
   {
    "col_no": "3",
-   "name": "AVAILABLE",
+   "name": "NUMBER OF DISTRICT JAILS",
    "header": [
-    "AVAILABLE"
+    "NUMBER OF DISTRICT JAILS"
    ]
   },
   {
    "col_no": "4",
-   "name": "FEMALE INMATES",
+   "name": "TOTAL CAPACITY OF INMATES | MALE",
    "header": [
-    "FEMALE INMATES"
+    "TOTAL CAPACITY OF INMATES",
+    "MALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "OCCUPANCY RATE\"",
+   "name": "TOTAL CAPACITY OF INMATES | FEMALE",
    "header": [
-    "OCCUPANCY RATE\""
+    "TOTAL CAPACITY OF INMATES",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "TOTAL CAPACITY OF INMATES | TOTAL",
+   "header": [
+    "TOTAL CAPACITY OF INMATES",
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "Inmate population x 100",
-  "Total Capacity",
-  "From the table, it is evident that against the available capacity for the female",
-  "inmates, occupancy rate of such prisoners during the period under consideration",
-  "was very high in the state of Haryana (442%) followed by Delhi (310.8%), Bihar",
-  "(152.2%), Punjab (138.2%), Maharashtra (132.9%) and Uttar Pradesh (130%). In",
-  "the remaining States/UTs, the female inmates lodged in jails were less than capacity",
-  "available for them."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

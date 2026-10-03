@@ -8,150 +8,160 @@
  "serial": "50",
  "title": "The Number of Cases and Value of Property Stolen under Robbery by Place of Occurrence During 1984",
  "listing_title": "The Number of Cases and Value of Property Stolen under Robbery by Place of Occurrence During 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-51-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-51-1984.pdf",
  "source_sha256": "6477fe37af9b306bad16c6da7aef33e3c0978e7d1ece8a789cd9e017375af0ea",
  "table_no": "51",
- "pdf_title": "The Number Of Cases And Value Of Property Stolen Under Robbery By Place Of Occurence During 1984",
- "row_label": "SL STATES/U.Ts/CITIES NO (8) States",
+ "pdf_title": "120 TABLE - 51 The Number Of Cases And Value Of Property Stolen Under Robbery By Place Of Occurrence During 1984",
+ "row_label": "SL NO / STATES/U.Ts/CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 53,
- "n_cols": 15,
- "n_cells": 695,
+ "n_rows": 48,
+ "n_cols": 16,
+ "n_cells": 752,
  "columns": [
   {
-   "col_no": "2",
-   "name": "we OF NUMBER CASES (2)",
-   "header": [
-    "we OF NUMBER CASES (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "PREMISES momen VALUE STOLEN (3)",
+   "name": "RESIDENTIAL PREMISES | NUMBER OF CASES REPORTED",
    "header": [
-    "PREMISES momen VALUE STOLEN (3)"
+    "RESIDENTIAL PREMISES",
+    "NUMBER OF CASES REPORTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "HIGHWAYS | OF CASES (4)",
+   "name": "RESIDENTIAL PREMISES | VALUE OF PROPERTY STOLEN",
    "header": [
-    "HIGHWAYS",
-    "OF CASES (4)"
+    "RESIDENTIAL PREMISES",
+    "VALUE OF PROPERTY STOLEN"
    ]
   },
   {
    "col_no": "5",
-   "name": "HIGHWAYS | NO. STOLEN (5)",
+   "name": "HIGHWAYS | NO. OF CASES REPORTED",
    "header": [
     "HIGHWAYS",
-    "NO. STOLEN (5)"
+    "NO. OF CASES REPORTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "RIVER OF NUMBER CASES (6)",
+   "name": "HIGHWAYS | VALUE OF PROPERTY STOLEN",
    "header": [
-    "RIVER OF NUMBER CASES (6)"
+    "HIGHWAYS",
+    "VALUE OF PROPERTY STOLEN"
    ]
   },
   {
    "col_no": "7",
-   "name": "AND OF VALUE VALUE PRUPENIX STOLEN (7)",
+   "name": "RIVER AND SEA | NUMBER OF CASES REPORTED",
    "header": [
-    "AND OF VALUE VALUE PRUPENIX STOLEN (7)"
+    "RIVER AND SEA",
+    "NUMBER OF CASES REPORTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "SEA OF NO. OF CASES nerunrev (8)",
+   "name": "RIVER AND SEA | VALUE OF PROPERTY STOLEN",
    "header": [
-    "SEA OF NO. OF CASES nerunrev (8)"
+    "RIVER AND SEA",
+    "VALUE OF PROPERTY STOLEN"
    ]
   },
   {
    "col_no": "9",
-   "name": "RAILWAYS OF VALUE OF PRUPENIY STOLEN (9) (10)",
+   "name": "RAILWAYS | NO. OF CASES REPORTED",
    "header": [
-    "RAILWAYS OF VALUE OF PRUPENIY STOLEN (9) (10)"
+    "RAILWAYS",
+    "NO. OF CASES REPORTED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RAILWAYS | VALUE OF PROPERTY STOLEN",
+   "header": [
+    "RAILWAYS",
+    "VALUE OF PROPERTY STOLEN"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "BANKS | NUMBER OF CASES REPORTED",
+   "header": [
+    "BANKS",
+    "NUMBER OF CASES REPORTED"
    ]
   },
   {
    "col_no": "12",
-   "name": "BANKS me OF NUMBER CASES NEPUNIED «41",
+   "name": "BANKS | VALUE OF PROPERTY STOLEN",
    "header": [
-    "BANKS me OF NUMBER CASES NEPUNIED «41"
+    "BANKS",
+    "VALUE OF PROPERTY STOLEN"
    ]
   },
   {
    "col_no": "13",
-   "name": "COMMERCIAL VALUE CASES STOLEN",
+   "name": "COMMERCIAL ESTBLS. | NO. OF CASES REPORTED",
    "header": [
-    "COMMERCIAL VALUE CASES STOLEN"
+    "COMMERCIAL ESTBLS.",
+    "NO. OF CASES REPORTED"
    ]
   },
   {
    "col_no": "14",
-   "name": "ESTBLS. OF PROPENTY STOLEN",
+   "name": "COMMERCIAL ESTBLS. | VALUE OF PROPERTY STOLEN",
    "header": [
-    "ESTBLS. OF PROPENTY STOLEN"
+    "COMMERCIAL ESTBLS.",
+    "VALUE OF PROPERTY STOLEN"
    ]
   },
   {
    "col_no": "15",
-   "name": "OTHER OF NO. NUMBER CASES REPORTED",
+   "name": "OTHER PLACES | NUMBER OF CASES REPORTED",
    "header": [
-    "OTHER OF NO. NUMBER CASES REPORTED"
+    "OTHER PLACES",
+    "NUMBER OF CASES REPORTED"
    ]
   },
   {
    "col_no": "16",
-   "name": "PLACES OF VALUE OF STOLEN",
+   "name": "OTHER PLACES | VALUE OF PROPERTY STOLEN",
    "header": [
-    "PLACES OF VALUE OF STOLEN"
+    "OTHER PLACES",
+    "VALUE OF PROPERTY STOLEN"
    ]
   },
   {
    "col_no": "17",
-   "name": "TOTAL | VALUE OF NO. CASES REPORTED",
+   "name": "TOTAL | NO. OF CASES REPORTED",
    "header": [
     "TOTAL",
-    "VALUE OF NO. CASES REPORTED"
+    "NO. OF CASES REPORTED"
    ]
   },
   {
    "col_no": "18",
-   "name": "TOTAL | OF VALUE OF PROPERTY STOLEN",
+   "name": "TOTAL | VALUE OF PROPERTY STOLEN",
    "header": [
     "TOTAL",
-    "OF VALUE OF PROPERTY STOLEN"
+    "VALUE OF PROPERTY STOLEN"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 10,
-  "cells_passed": 1,
-  "failures": [
-   "col 2 'TOTAL (UTs)': printed 252, sum 16609",
-   "col 4 'TOTAL (UTs)': printed 20, sum 5108",
-   "col 6 'TOTAL (UTs)': printed 2, sum 36",
-   "col 8 'TOTAL (UTs)': printed 3, sum 545",
-   "col 13 'TOTAL (UTs)': printed 14, sum 689",
-   "col 13 'TOTAL (Cities)': printed 108, sum 89",
-   "col 15 'TOTAL (UTs)': printed 84, sum 22217",
-   "col 15 'TOTAL (Cities)': printed 1225, sum 842"
-  ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 19,
+  "cells_passed": 19,
+  "failures": [],
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

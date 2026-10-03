@@ -8,51 +8,89 @@
  "serial": "28",
  "title": "Table 27: Demographic Particulars of Others at the end of 1999",
  "listing_title": "Table 27: Demographic Particulars of Others at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-27_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-27_1999.pdf",
  "source_sha256": "011875ff45e40ea197cf1f670a9ae412be91d252b403109858f9aa8376d814d9",
  "table_no": "27",
- "pdf_title": "DEMOGRAPHIC PARTICULARS OF OTHERS AT THE END OF 1999",
- "row_label": "SL. NG. (2) () 1 Sr - / STATEUT ANDHRA PRADESH e7\" T7",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-27",
+ "row_label": "SI. NO. / STATE/UT",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 47,
- "n_cols": 12,
- "n_cells": 124,
+ "n_rows": 36,
+ "n_cols": 22,
+ "n_cells": 770,
  "columns": [
   {
    "col_no": "3",
-   "name": "murerare (3) 13 32 12 777",
+   "name": "EDUCATIONAL STANDARD | ILLITERATE",
    "header": [
-    "murerare (3) 13 32 12 777"
+    "EDUCATIONAL STANDARD",
+    "ILLITERATE"
    ]
   },
   {
    "col_no": "4",
-   "name": "(4) 1 i a",
+   "name": "EDUCATIONAL STANDARD | BELOW CLASS X",
    "header": [
-    "(4) 1 i a"
+    "EDUCATIONAL STANDARD",
+    "BELOW CLASS X"
    ]
   },
   {
    "col_no": "5",
-   "name": "EDUCATIONAL STANDARD HOLDING TOTAL GRADUATE gp CRADUATE i (8) (3) (6) ()) (9) 24 6 0 0 1 - ar ae rT 36 a - 19 poo ier. eg a ARIS ef DO",
+   "name": "EDUCATIONAL STANDARD | ABOVE X & BELOW GRADUATE",
    "header": [
-    "EDUCATIONAL STANDARD HOLDING TOTAL GRADUATE gp CRADUATE i (8) (3) (6) ()) (9) 24 6 0 0 1 - ar ae rT 36 a - 19 poo ier. eg a ARIS ef DO"
+    "EDUCATIONAL STANDARD",
+    "ABOVE X & BELOW GRADUATE"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "col_10001",
-   "header": []
+   "col_no": "6",
+   "name": "EDUCATIONAL STANDARD | GRADUATE",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "GRADUATE"
+   ]
   },
   {
-   "col_no": "10002",
+   "col_no": "7",
+   "name": "EDUCATIONAL STANDARD | POST GRADUATE",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "POST GRADUATE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "EDUCATIONAL STANDARD | HOLDING TECH. DEGREE /DIPLOMA",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "HOLDING TECH. DEGREE /DIPLOMA"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "EDUCATIONAL STANDARD | TOTAL",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RELIGION | HINDU",
+   "header": [
+    "RELIGION",
+    "HINDU"
+   ]
+  },
+  {
+   "col_no": "11",
    "name": "RELIGION | MUSLIM",
    "header": [
     "RELIGION",
@@ -60,72 +98,119 @@
    ]
   },
   {
-   "col_no": "10003",
-   "name": "RELIGION | CHRIS’",
+   "col_no": "12",
+   "name": "RELIGION | SIKH",
    "header": [
     "RELIGION",
-    "CHRIS’"
+    "SIKH"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "CASTE oruers OTHERS opc st",
+   "col_no": "13",
+   "name": "RELIGION | CHRISTIAN",
    "header": [
-    "CASTE oruers OTHERS opc st"
+    "RELIGION",
+    "CHRISTIAN"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "TOTAL - TOTAL",
+   "col_no": "14",
+   "name": "RELIGION | OTHERS",
    "header": [
-    "TOTAL - TOTAL"
+    "RELIGION",
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "RELIGION | TOTAL",
+   "header": [
+    "RELIGION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "CASTE | SC",
+   "header": [
+    "CASTE",
+    "SC"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CASTE | ST",
+   "header": [
+    "CASTE",
+    "ST"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "CASTE | OBC",
+   "header": [
+    "CASTE",
+    "OBC"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "CASTE | OTHERS",
+   "header": [
+    "CASTE",
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "CASTE | TOTAL",
+   "header": [
+    "CASTE",
+    "TOTAL"
    ]
   },
   {
    "col_no": "21",
-   "name": "BELONGS TO STATE",
+   "name": "DOMICILE | BELONGS TO STATE",
    "header": [
+    "DOMICILE",
     "BELONGS TO STATE"
    ]
   },
   {
    "col_no": "22",
-   "name": "BELONGS - OTHER ee OTHER",
+   "name": "DOMICILE | BELONGS TO OTHER STATE",
    "header": [
-    "BELONGS - OTHER ee OTHER"
+    "DOMICILE",
+    "BELONGS TO OTHER STATE"
    ]
   },
   {
    "col_no": "23",
-   "name": "wee",
+   "name": "DOMICILE | BELONGS TO OTHER COUNTRY",
    "header": [
-    "wee"
+    "DOMICILE",
+    "BELONGS TO OTHER COUNTRY"
    ]
   },
   {
    "col_no": "24",
-   "name": "TOTAL",
+   "name": "DOMICILE | TOTAL",
    "header": [
+    "DOMICILE",
     "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (UTS)': printed 0, sum 868",
-   "col 21 'TOTAL (UTS) ‘TOTAL (ALL INDIA)': printed 843, sum 794",
-   "col 22 'TOTAL (UTS) ‘TOTAL (ALL INDIA)': printed 21, sum 0",
-   "col 23 'TOTAL (UTS) ‘TOTAL (ALL INDIA)': printed 0, sum 6"
-  ],
+  "cells_checked": 63,
+  "cells_passed": 63,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 3,
  "warnings": []
 }

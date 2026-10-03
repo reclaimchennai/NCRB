@@ -8,27 +8,28 @@
  "serial": "35",
  "title": "Juvenile Delinquency (IPC) under Different Crime Heads & Various Percentage Changes During 1992",
  "listing_title": "Juvenile Delinquency (IPC) under Different Crime Heads & Various Percentage Changes During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-35-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-35-1992-survey.pdf",
  "source_sha256": "75557d383f17dbdcec61d531eb6404630020e8e452b021052b9024822c975442",
  "table_no": "35",
- "pdf_title": "JUVENILE DELINQUENCY (IPC) UNDER DIFFERENT CRIME HEADS & VARIOUS PERCENTAGE CHANGES DURING 1992",
- "row_label": "SL. no. / CRIME",
+ "pdf_title": "194 TABLE-35 JUVENILE DELINQUENCY (IPC) UNDER DIFFERENT CRIME HEADS & VARIOUS PERCENTAGE CHANGES DURING 1992",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1,
+  2,
   2
  ],
  "n_rows": 22,
  "n_cols": 11,
- "n_cells": 194,
+ "n_cells": 201,
  "columns": [
   {
    "col_no": "3",
-   "name": "HEAD 1982",
+   "name": "1982",
    "header": [
-    "HEAD 1982"
+    "1982"
    ]
   },
   {
@@ -68,55 +69,39 @@
   },
   {
    "col_no": "9",
-   "name": "HEAD NIAL 1987-1991 {(Q.a.)",
-   "header": [
-    "HEAD NIAL 1987-1991 {(Q.a.)"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "QUINQUENAVG.",
-   "header": [
-    "QUINQUENAVG."
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "FEKCENTAGE | 1992 eee 1982",
-   "header": [
-    "FEKCENTAGE",
-    "1992 eee 1982"
-   ]
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "FEKCENTAGE | 1992 ((+) INCREASE/(-) OVER - Q.A.",
-   "header": [
-    "FEKCENTAGE",
-    "1992 ((+) INCREASE/(-) OVER - Q.A."
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "CHANGE IN ee DECREASE) - 1991",
-   "header": [
-    "CHANGE IN ee DECREASE) - 1991"
-   ]
+   "name": "col_13",
+   "header": []
   }
  ],
- "notes": [
-  "* INDICATES THAT THE CRIME HEAD WAS INTRODUCED IN 1988",
-  "** DATA ON JUVENILES FOR 1988 ONWARDS IS NOT AT ALL COMPARABLE TO EARLIER",
-  "YEARS DUE TO CHANGE IN THE DEFINITION OF JUVENILES FROM 1988."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 5,
-  "other_totals_passed": 4
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

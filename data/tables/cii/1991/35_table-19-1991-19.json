@@ -8,34 +8,67 @@
  "serial": "35",
  "title": "Disposal of LSL Crime Cases by Courts During 1991",
  "listing_title": "Disposal of LSL Crime Cases by Courts During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-19-1991-19.pdf",
  "source_file": "raw/cii/1991/table_content/table-19-1991-19.pdf",
  "source_sha256": "ef8fe8a596246b377791e0e67f86cfe4b0e80d549c80b31d073ffabfba510e86",
  "table_no": "19",
- "pdf_title": "",
- "row_label": "DISPOSAL OF LSL OREME CASES BY COURTS Chit",
+ "pdf_title": "95 TABLE-19 DISPOSAL OF LSL CRIME CASES BY COURTS DURING 1991",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 18,
- "n_cols": 2,
- "n_cells": 36,
+ "n_rows": 17,
+ "n_cols": 6,
+ "n_cells": 102,
  "columns": [
   {
-   "col_no": "2",
-   "name": "DISPOSAL OF LSL OREME CASES BY COURTS | WO. OF CASES TOTAL BO. DF COMP CMEES For TREAL PENOIWG (CASES.",
+   "col_no": "3",
+   "name": "TOTAL | NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "DISPOSAL OF LSL OREME CASES BY COURTS",
-    "WO. OF CASES TOTAL BO. DF COMP CMEES For TREAL PENOIWG (CASES."
+    "TOTAL",
+    "NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
-   "col_no": "3",
-   "name": "1991 J WHICH TREALS WERE ee TRIAL TOTAL ACQUIT: oR TED 015- (61)",
+   "col_no": "4",
+   "name": "TOTAL | COMP- OUNDED OR WITH- DRAIN",
    "header": [
-    "1991 J WHICH TREALS WERE ee TRIAL TOTAL ACQUIT: oR TED 015- (61)"
+    "TOTAL",
+    "COMP- OUNDED OR WITH- DRAIN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED CONVICTED",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED CONVICTED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF CASES | ACQUIT- TED OR DIS- CHARGED",
+   "header": [
+    "NO. OF CASES",
+    "ACQUIT- TED OR DIS- CHARGED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF CASES | * TOTAL (5)+ (6)",
+   "header": [
+    "NO. OF CASES",
+    "* TOTAL (5)+ (6)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF CASES | PENDING TRIAL",
+   "header": [
+    "NO. OF CASES",
+    "PENDING TRIAL"
    ]
   }
  ],
@@ -44,10 +77,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,77 +8,146 @@
  "serial": "41",
  "title": "Juveniles Apprehended under Different LSL Crime Heads During 1989 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended under Different LSL Crime Heads During 1989 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-43-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-43-1989-1.pdf",
  "source_sha256": "90714b9937bd090425afe29d0b1943578a681fd3666693448b4e9014fbb6bc02",
  "table_no": "43",
- "pdf_title": "JUVENILES arrnensnvev UNDER virreren: LSL CRIME HEADS DURING 1989 (STATE, UT & CITY-WISE)",
- "row_label": "SL. NO. / STATE/UT/CITY / NARCOTIC ARMS ACT / NARCOTIC DRUGS & PSYCHO. SUBS.",
+ "pdf_title": "154 TABLE-43 JUVENILES APPREHENDED UNDER DIFFERENT LSL CRIME HEADS DURING 1989",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 47,
- "n_cols": 6,
- "n_cells": 233,
+ "n_rows": 94,
+ "n_cols": 16,
+ "n_cells": 752,
  "columns": [
   {
-   "col_no": "5",
-   "name": "NARCOTIC | GAMBLING ACT ACT",
+   "col_no": "3",
+   "name": "ARMS ACT",
    "header": [
-    "NARCOTIC",
-    "GAMBLING ACT ACT"
+    "ARMS ACT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NARCOTIC DRUGS & PSYCHO. SUBS. ACT",
+   "header": [
+    "NARCOTIC DRUGS & PSYCHO. SUBS. ACT"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "GAMBLING ACT",
+   "header": [
+    "GAMBLING ACT"
    ]
   },
   {
    "col_no": "6",
-   "name": "PROHIBI- | EXCISE ACT",
+   "name": "EXCISE ACT",
    "header": [
-    "PROHIBI-",
     "EXCISE ACT"
    ]
   },
   {
    "col_no": "7",
-   "name": "PROHIBI- | TION",
+   "name": "PROHIBI- TION ACT",
    "header": [
-    "PROHIBI-",
-    "TION"
+    "PROHIBI- TION ACT"
    ]
   },
   {
    "col_no": "8",
-   "name": "PROHIBI- | ACT EXPLOSIVE SUBS. ACT",
+   "name": "EXPLO- SIVES & EXPLOSIVE (PRE- SUBS. ACT",
    "header": [
-    "PROHIBI-",
-    "ACT EXPLOSIVE SUBS. ACT"
+    "EXPLO- SIVES & EXPLOSIVE (PRE- SUBS. ACT"
    ]
   },
   {
    "col_no": "9",
-   "name": "IMMORAL EXPLOTRAFFIC SIVES (PREVENTION) ACT",
+   "name": "IMMORAL TRAFFIC VENTION) ACT",
    "header": [
-    "IMMORAL EXPLOTRAFFIC SIVES (PREVENTION) ACT"
+    "IMMORAL TRAFFIC VENTION) ACT"
    ]
   },
   {
    "col_no": "10",
-   "name": "INDIAN RLYS. & ACT",
+   "name": "INDIAN RLYS. ACT",
    "header": [
-    "INDIAN RLYS. & ACT"
+    "INDIAN RLYS. ACT"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "PROTEC-TION OF CIVIL RIGHTS ACT",
+   "header": [
+    "PROTEC-TION OF CIVIL RIGHTS ACT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "INDIAN PASSPORT ACT",
+   "header": [
+    "INDIAN PASSPORT ACT"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "ESSENTIAL COMMO-DITIES ACT",
+   "header": [
+    "ESSENTIAL COMMO-DITIES ACT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "TERRORIST AND DISRUPTIVE ACTIVITIES ACT",
+   "header": [
+    "TERRORIST AND DISRUPTIVE ACTIVITIES ACT"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "ANTIQUITY & ART TREASURE ACT",
+   "header": [
+    "ANTIQUITY & ART TREASURE ACT"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "DOWRY PROHI-BITION ACT",
+   "header": [
+    "DOWRY PROHI-BITION ACT"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "OTHER LSL CRIMES",
+   "header": [
+    "OTHER LSL CRIMES"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL COG. CRIMES UNDER LSL",
+   "header": [
+    "TOTAL COG. CRIMES UNDER LSL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 16,
-  "failures": [],
+  "cells_checked": 24,
+  "cells_passed": 23,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 23, sum 63"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

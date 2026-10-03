@@ -6,150 +6,75 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "45",
- "title": "TARIE.25A",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-25",
  "listing_title": "Percentage of SLL Crime Cases Disposed of by Courts During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-25-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-25-1996-crime-survey.pdf",
  "source_sha256": "d15ec17db529a595b99788d2af21d6dfc6e98567ce58a5eecb0e9612a287cb0c",
  "table_no": "25",
- "pdf_title": "TARIE.25A",
- "row_label": "SL. CRIME HEAD NO. / OF SLL CRIME 2 OR",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-25",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
-  1,
-  2
+  1
  ],
- "n_rows": 58,
- "n_cols": 16,
- "n_cells": 442,
+ "n_rows": 23,
+ "n_cols": 6,
+ "n_cells": 138,
  "columns": [
   {
-   "col_no": "4",
-   "name": "OF BY COURTS PENCENTAGE OF CASES TO TOTAL CASES FOR IN WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "col_no": "3",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR | COMPOU-NDED OR WITH-DRAWN",
    "header": [
-    "OF BY COURTS PENCENTAGE OF CASES TO TOTAL CASES FOR IN WHICH TRIALS WERE COMPLETED",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR",
+    "COMPOU-NDED OR WITH-DRAWN"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR",
+    "IN WHICH TRIALS WERE COMPLETED",
     "CONVICTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF BY COURTS PENCENTAGE OF CASES TO TOTAL CASES FOR IN WHICH TRIALS WERE COMPLETED | ACQUIT- - CHARGED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR | IN WHICH TRIALS WERE COMPLETED | ACQUIT-TED OR DIS-CHARGED",
    "header": [
-    "OF BY COURTS PENCENTAGE OF CASES TO TOTAL CASES FOR IN WHICH TRIALS WERE COMPLETED",
-    "ACQUIT- - CHARGED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "ACQUIT-TED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "6",
-   "name": "1997 Mb",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR | IN WHICH TRIALS WERE COMPLETED | TOTAL [(4) + (5)]",
    "header": [
-    "1997 Mb"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "TOTAL [(4) + (5)]"
    ]
   },
   {
    "col_no": "7",
-   "name": "oe",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR | PENDING TRIAL",
    "header": [
-    "oe"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR",
+    "PENDING TRIAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "CONVICTION RATE {(4)/(6)} X 100",
+   "name": "CONVIC-TION RATE [(4)/(6)] X 100",
    "header": [
-    "CONVICTION RATE {(4)/(6)} X 100"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "GOnvic ton HATE OF SL! | ARMS ACT (3)",
-   "header": [
-    "GOnvic ton HATE OF SL!",
-    "ARMS ACT (3)"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "GOnvic ton HATE OF SL! | ACT (4)",
-   "header": [
-    "GOnvic ton HATE OF SL!",
-    "ACT (4)"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "GOnvic ton HATE OF SL! | GAMBLING ACT (5)",
-   "header": [
-    "GOnvic ton HATE OF SL!",
-    "GAMBLING ACT (5)"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "GOnvic ton HATE OF SL! | EXCISE (6)",
-   "header": [
-    "GOnvic ton HATE OF SL!",
-    "EXCISE (6)"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "GOnvic ton HATE OF SL! | PROHI ACT 7)",
-   "header": [
-    "GOnvic ton HATE OF SL!",
-    "PROHI ACT 7)"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "DURING 1997 EXP. - SUB. ACT (8)",
-   "header": [
-    "DURING 1997 EXP. - SUB. ACT (8)"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "& @",
-   "header": [
-    "& @"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "ITPACT INDIAN RAILWAYS ACT Oo",
-   "header": [
-    "ITPACT INDIAN RAILWAYS ACT Oo"
-   ]
-  },
-  {
-   "col_no": "10009",
-   "name": "PCRACT | REG.OF FOREIGACT ay",
-   "header": [
-    "PCRACT",
-    "REG.OF FOREIGACT ay"
-   ]
-  },
-  {
-   "col_no": "10010",
-   "name": "PCRACT | «a2",
-   "header": [
-    "PCRACT",
-    "«a2"
-   ]
-  },
-  {
-   "col_no": "10011",
-   "name": "PCRACT | INDIAN PASSPORT ACT «a3",
-   "header": [
-    "PCRACT",
-    "INDIAN PASSPORT ACT «a3"
+    "CONVIC-TION RATE [(4)/(6)] X 100"
    ]
   }
  ],
- "notes": [
-  "Note: Forcomeye less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -157,7 +82,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

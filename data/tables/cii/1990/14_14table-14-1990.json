@@ -8,61 +8,65 @@
  "serial": "14",
  "title": "Percentage of IPC Crime Cases Disposed of by Police During 1990",
  "listing_title": "Percentage of IPC Crime Cases Disposed of by Police During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/14table-14-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/14table-14-1990-.pdf",
  "source_sha256": "cbba0df654949a14fb2778c2abb82374f87c80fb435d39bf5e37f2edc2ec165a",
  "table_no": "14",
- "pdf_title": "",
- "row_label": "OF CRIME SL. NO.",
+ "pdf_title": "84 TABLE-14 PERCENTAGE OF IPC CRIME CASES DISPOSED OF BY POLICE DURING 1990",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 19,
+ "n_rows": 18,
  "n_cols": 6,
- "n_cells": 114,
+ "n_cells": 108,
  "columns": [
   {
-   "col_no": "2",
-   "name": "IPC HEAD INVESTIGATION WAS REFUSED",
-   "header": [
-    "IPC HEAD INVESTIGATION WAS REFUSED"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "CRIME yom INVESTIGATION CHARGE FOUND FALSE/ MISTAKE OF LAW ETC.",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "CRIME yom INVESTIGATION CHARGE FOUND FALSE/ MISTAKE OF LAW ETC."
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "4",
-   "name": "CASES TO TOTAL OF IN INVESTIGATION FINAL REPORT TRUE SUBMITTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS CHARGE FOUND FALSE/MISTAKE OF LAW ETC.",
    "header": [
-    "CASES TO TOTAL OF IN INVESTIGATION FINAL REPORT TRUE SUBMITTED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS CHARGE FOUND FALSE/MISTAKE OF LAW ETC."
    ]
   },
   {
    "col_no": "5",
-   "name": "OF DURING CASES WHICH WAS CHARGE SHEETS WERE LAID",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "OF DURING CASES WHICH WAS CHARGE SHEETS WERE LAID"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "1990 BY CASES TOTAL {(4)+(5) +(6))",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | CHARGE SHEETS WERE LAID",
    "header": [
-    "1990 BY CASES TOTAL {(4)+(5) +(6))"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "CHARGE SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "7",
-   "name": "POLICE FOR PERCENTAGE OF CASES INVESTIGATION",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION",
    "header": [
-    "POLICE FOR PERCENTAGE OF CASES INVESTIGATION"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "TOTAL [(4)+(5) + (6)]",
+   "header": [
+    "TOTAL [(4)+(5) + (6)]"
    ]
   }
  ],
@@ -74,7 +78,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

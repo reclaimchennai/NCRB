@@ -8,123 +8,105 @@
  "serial": "15",
  "title": "Distribution of Undertrials in Jails by Age Groups at the end of 2000",
  "listing_title": "Distribution of Undertrials in Jails by Age Groups at the end of 2000",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-14_2000.pdf",
  "source_file": "raw/psi/2000/table_content/psi-table-14_2000.pdf",
  "source_sha256": "d86dcaddb34157ca6b8e2abedc2c3a3a7489f2c59c1dc6dd38329bdf7812827f",
  "table_no": "14",
- "pdf_title": "DISTRIBUTION OF UNDERTRAILS IN JAILS BY AGE GROUPS AT THE END OF2000",
- "row_label": "SO. () / M / BELOW 16 YEARS F / T",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-14",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  1,
-  2
+  1
  ],
- "n_rows": 58,
- "n_cols": 12,
- "n_cells": 328,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
-   "col_no": "6",
-   "name": "M (6)",
+   "col_no": "3",
+   "name": "BELOW 16 YEARS | M",
    "header": [
+    "BELOW 16 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BELOW 16 YEARS | F",
+   "header": [
+    "BELOW 16 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BELOW 16 YEARS | T",
+   "header": [
+    "BELOW 16 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "16-18 YEARS | M",
+   "header": [
+    "16-18 YEARS",
     "M"
    ]
   },
   {
    "col_no": "7",
-   "name": "16-18 YEARS FE",
+   "name": "16-18 YEARS | F",
    "header": [
-    "16-18 YEARS FE"
+    "16-18 YEARS",
+    "F"
    ]
   },
   {
    "col_no": "8",
-   "name": "T (8)",
+   "name": "16-18 YEARS | T",
    "header": [
+    "16-18 YEARS",
     "T"
    ]
   },
   {
    "col_no": "9",
-   "name": "M (9)",
+   "name": "18 - 30 YEARS | M",
    "header": [
+    "18 - 30 YEARS",
     "M"
    ]
   },
   {
    "col_no": "10",
-   "name": "13 - 30 YEARS T F (i)",
+   "name": "18 - 30 YEARS | F",
    "header": [
-    "13 - 30 YEARS T F (i)"
+    "18 - 30 YEARS",
+    "F"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "STATE/UT M",
+   "col_no": "11",
+   "name": "18 - 30 YEARS | T",
    "header": [
-    "STATE/UT M"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "30 - 50 YEARS F",
-   "header": [
-    "30 - 50 YEARS F"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "T (10003)",
-   "header": [
+    "18 - 30 YEARS",
     "T"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "M (10004)",
-   "header": [
-    "M"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "ABOVE 50 YEARS F",
-   "header": [
-    "ABOVE 50 YEARS F"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "daz | T",
-   "header": [
-    "daz",
-    "T"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "daz | T F M",
-   "header": [
-    "daz",
-    "T F M"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 0,
+  "cells_checked": 27,
+  "cells_passed": 26,
   "failures": [
-   "col 6 '(ALL INDIA)': printed 6489, sum 14355",
-   "col 9 '(ALL INDIA)': printed 84635, sum 168914"
+   "col 10 'TOTAL (STATES)': printed 2488, sum 2498"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

@@ -8,73 +8,149 @@
  "serial": "6",
  "title": "Age-wise distribution of Accidental Deaths by Un-natural causes during 1998 (all India)",
  "listing_title": "Age-wise distribution of Accidental Deaths by Un-natural causes during 1998 (all India)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-7_1998.pdf",
  "source_file": "raw/adsi/1998/table_content/table-7_1998.pdf",
  "source_sha256": "1203f83797298feb328ba1a365914347c5e68f5a23e921a95601dc5d1974e934",
  "table_no": "7",
- "pdf_title": "",
- "row_label": "Age-Group si No. a",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) TABLE - 7",
+ "row_label": "Sl. No. / Un-Natural Causes",
  "pages": [
+  1,
   2
  ],
- "n_rows": 49,
- "n_cols": 7,
- "n_cells": 271,
+ "n_rows": 47,
+ "n_cols": 15,
+ "n_cells": 695,
  "columns": [
   {
-   "col_no": "11",
-   "name": "Age-Group | Un-Natural Causes Male",
+   "col_no": "3",
+   "name": "Age-Group | Upto 14 Years | Male",
    "header": [
     "Age-Group",
-    "Un-Natural Causes Male"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Age-Group | Above 60 Years Female",
-   "header": [
-    "Age-Group",
-    "Above 60 Years Female"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Age-Group | Male",
-   "header": [
-    "Age-Group",
+    "Upto 14 Years",
     "Male"
    ]
   },
   {
-   "col_no": "14",
-   "name": "Age-Group | - Female",
+   "col_no": "4",
+   "name": "Age-Group | Upto 14 Years | Female",
    "header": [
     "Age-Group",
-    "- Female"
+    "Upto 14 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Age-Group | 15-29 Years | Male",
+   "header": [
+    "Age-Group",
+    "15-29 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Age-Group | 15-29 Years | Female",
+   "header": [
+    "Age-Group",
+    "15-29 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Age-Group | 30-44 years | Male",
+   "header": [
+    "Age-Group",
+    "30-44 years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Age-Group | 30-44 years | Female",
+   "header": [
+    "Age-Group",
+    "30-44 years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Age-Group | 45-59 Years | Male",
+   "header": [
+    "Age-Group",
+    "45-59 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Age-Group | 45-59 Years | Female",
+   "header": [
+    "Age-Group",
+    "45-59 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Un-Natural Causes",
+   "header": [
+    "Un-Natural Causes"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Age-Group | Above 60 Years | Male",
+   "header": [
+    "Age-Group",
+    "Above 60 Years",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Age-Group | Above 60 Years | Female",
+   "header": [
+    "Age-Group",
+    "Above 60 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Total | Male",
+   "header": [
+    "Total",
+    "Male"
    ]
   },
   {
    "col_no": "15",
-   "name": "Age-Group | M+F",
+   "name": "Total | Female",
    "header": [
-    "Age-Group",
-    "M+F"
+    "Total",
+    "Female"
    ]
   },
   {
    "col_no": "16",
-   "name": "Male to Total",
+   "name": "Total | M + F",
    "header": [
-    "Male to Total"
+    "Total",
+    "M + F"
    ]
   },
   {
    "col_no": "17",
-   "name": "Share Tatal",
+   "name": "Percentage | Male to Total",
    "header": [
-    "Share Tatal"
+    "Percentage",
+    "Male to Total"
    ]
   }
  ],
@@ -87,6 +163,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

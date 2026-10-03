@@ -6,67 +6,62 @@
  "topic": "",
  "section": "Crime in India 1963",
  "serial": "2",
- "title": "TOTAL COGNIZABLE CRIME",
+ "title": "TOTAL COGNIZABLE CRIME 32",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689771154APPENDIX.pdf",
  "source_file": "raw/cii/1963/year_wise/1689771154APPENDIX.pdf",
  "source_sha256": "4a7c77e67ed997afa32eb5dc04fc4474e5985602a2d12ecdcc3f40dedcc89a41",
  "table_no": "",
- "pdf_title": "TOTAL COGNIZABLE CRIME",
- "row_label": "$1. No.",
+ "pdf_title": "TOTAL COGNIZABLE CRIME 32",
+ "row_label": "Sl. No. / State",
  "pages": [
   1
  ],
- "n_rows": 18,
+ "n_rows": 17,
  "n_cols": 6,
- "n_cells": 107,
+ "n_cells": 102,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Cases pending State investiga-. previous year",
-   "header": [
-    "Cases pending State investiga-. previous year"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Cases | Cases pending disposal incourt",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Cases",
-    "Cases pending disposal incourt"
+    "Cases pending investigation from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases | Cases reported during",
+   "name": "Cases pending disposal in court",
    "header": [
-    "Cases",
-    "Cases reported during"
+    "Cases pending disposal in court"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases | not investigated declared false or mistake of fact orlawor nizable and pending investigation or trial",
+   "name": "Cases reported during the year",
    "header": [
-    "Cases",
-    "not investigated declared false or mistake of fact orlawor nizable and pending investigation or trial"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases | Total true cases",
+   "name": "Cases not investigated declared false or mistake of fact or law or non-cognizable and pending investigation or trial",
    "header": [
-    "Cases",
-    "Total true cases"
+    "Cases not investigated declared false or mistake of fact or law or non-cognizable and pending investigation or trial"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases | Cases not detected",
+   "name": "Total true cases",
    "header": [
-    "Cases",
+    "Total true cases"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Cases not detected",
+   "header": [
     "Cases not detected"
    ]
   }
@@ -76,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

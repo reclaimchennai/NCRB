@@ -6,66 +6,104 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "INCIDENCE OF DEATHS OF FEMALE INMATES IN PRISONS DURING 1999",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-35",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "35",
- "pdf_title": "INCIDENCE OF DEATHS OF FEMALE INMATES IN PRISONS DURING 1999",
- "row_label": "a",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-35",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   135
  ],
- "n_rows": 16,
- "n_cols": 4,
- "n_cells": 38,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE/UT",
-   "header": [
-    "STATE/UT"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "UN-NATURAL DEATH | DEATHS",
+   "name": "NATU-RAL DEATHS",
    "header": [
-    "UN-NATURAL DEATH",
-    "DEATHS"
+    "NATU-RAL DEATHS"
    ]
   },
   {
    "col_no": "4",
-   "name": "UN-NATURAL DEATH | MURDER - SUICIDE BRING AES",
+   "name": "UN-NATURAL DEATH | SUICIDE",
    "header": [
     "UN-NATURAL DEATH",
-    "MURDER - SUICIDE BRING AES"
+    "SUICIDE"
    ]
   },
   {
    "col_no": "5",
-   "name": "UN-NATURAL DEATH | cod ‘NEGLI. ant DFAT execu. 3 TION “COL. 10) excess BY",
+   "name": "UN-NATURAL DEATH | EXECU-TION",
    "header": [
     "UN-NATURAL DEATH",
-    "cod ‘NEGLI. ant DFAT execu. 3 TION “COL. 10) excess BY"
+    "EXECU-TION"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "UN-NATURAL DEATH | MURDER BY INMATES",
+   "header": [
+    "UN-NATURAL DEATH",
+    "MURDER BY INMATES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "UN-NATURAL DEATH | DEATH DUE FIRING",
+   "header": [
+    "UN-NATURAL DEATH",
+    "DEATH DUE FIRING"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "UN-NATURAL DEATH | DEATH DUE TO TO EXCESS",
+   "header": [
+    "UN-NATURAL DEATH",
+    "DEATH DUE TO TO EXCESS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "UN-NATURAL DEATH | OTHERS NEGLIGENCE BY JAIL",
+   "header": [
+    "UN-NATURAL DEATH",
+    "OTHERS NEGLIGENCE BY JAIL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "UN-NATURAL DEATH | TOTAL COL.4 TO PERSON NEL",
+   "header": [
+    "UN-NATURAL DEATH",
+    "TOTAL COL.4 TO PERSON NEL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "UN-NATURAL DEATH | TOTAL DEATHS (COL. 3+ COL. 10)",
+   "header": [
+    "UN-NATURAL DEATH",
+    "TOTAL DEATHS (COL. 3+ COL. 10)"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVASLABLE,"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 27,
+  "cells_passed": 27,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

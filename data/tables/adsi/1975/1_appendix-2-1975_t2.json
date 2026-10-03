@@ -1,0 +1,120 @@
+{
+ "table_id": "adsi/1975/1_appendix-2-1975_t2",
+ "publication": "adsi",
+ "year": 1975,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "1",
+ "title": "37",
+ "listing_title": "State wise distribution of Accidental Deaths due to Other Causes during 1975",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-2_1975.pdf",
+ "source_file": "raw/adsi/1975/table_content/appendix-2_1975.pdf",
+ "source_sha256": "d3668f72a8e430f9f0918ea99442f8f230683d11fd3613e9ab0a792bbb31a8a4",
+ "table_no": "",
+ "pdf_title": "37",
+ "row_label": "(a) Motor Vehicle Accidents M",
+ "pages": [
+  2,
+  3
+ ],
+ "n_rows": 88,
+ "n_cols": 9,
+ "n_cells": 660,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "(a) Motor Vehicle Accidents | F",
+   "header": [
+    "(a) Motor Vehicle Accidents",
+    "F"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "(b) Other Road Accidents | M",
+   "header": [
+    "(b) Other Road Accidents",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "(b) Other Road Accidents | F",
+   "header": [
+    "(b) Other Road Accidents",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "In Factories | M",
+   "header": [
+    "In Factories",
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "In Factories | F",
+   "header": [
+    "In Factories",
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "In Railways | M",
+   "header": [
+    "In Railways",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "In Railways | F",
+   "header": [
+    "In Railways",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "By Poisoning | M",
+   "header": [
+    "By Poisoning",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "By Poisoning | F",
+   "header": [
+    "By Poisoning",
+    "F"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 20,
+  "cells_passed": 12,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 78, sum 5433",
+   "col 4 'TOTAL (STATES)': printed 42, sum 1755",
+   "col 5 'TOTAL (STATES)': printed 3612, sum 5354",
+   "col 6 'TOTAL (STATES)': printed 6735, sum 8056",
+   "col 7 'TOTAL (STATES)': printed 13974, sum 39659",
+   "col 8 'TOTAL (STATES)': printed 11472, sum 17518",
+   "col 9 'TOTAL (STATES)': printed 4513, sum 4538",
+   "col 10 'TOTAL (STATES)': printed 2852, sum 2878"
+  ],
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

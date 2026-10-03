@@ -8,32 +8,39 @@
  "serial": "9",
  "title": "Publication over the years",
  "listing_title": "Publication over the years",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653984754_CRIME IN INDIA_0.pdf",
  "source_file": "raw/cii/1996/year_wise/1653984754_CRIME IN INDIA_0.pdf",
  "source_sha256": "73d8998b8f12739bcdcd397e5f84d2faee08efe8f0a666b01298676e9e5f56db",
  "table_no": "",
- "pdf_title": "Crime in India",
- "row_label": "Year Month",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 Crime in India",
+ "row_label": "Year",
  "pages": [
   1
  ],
  "n_rows": 44,
- "n_cols": 1,
- "n_cells": 44,
+ "n_cols": 2,
+ "n_cells": 88,
  "columns": [
   {
    "col_no": "2",
-   "name": "in Year",
+   "name": "Published in | Month",
    "header": [
-    "in Year"
+    "Published in",
+    "Month"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Published in | Year",
+   "header": [
+    "Published in",
+    "Year"
    ]
   }
  ],
- "notes": [
-  "XII"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -41,7 +48,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

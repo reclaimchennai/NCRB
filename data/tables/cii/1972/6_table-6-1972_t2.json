@@ -6,46 +6,89 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "6",
- "title": "during MOT] & 1972 showing’ pcrceange variation",
+ "title": "17 6 during 1971 & 1972 showing percentage variation",
  "listing_title": "Incidence of Crimes under Different Heads During 1971 & 1972 Showing Percentage Variation",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-6-1972.pdf",
  "source_file": "raw/cii/1972/table_content/table-6-1972.pdf",
  "source_sha256": "01c4561e2f2130a6310e1bae9890d1461f36ea713f7c2d3ec9862201359896b4",
  "table_no": "",
- "pdf_title": "during MOT] & 1972 showing’ pcrceange variation",
- "row_label": "CHEATING",
+ "pdf_title": "17 6 during 1971 & 1972 showing percentage variation",
+ "row_label": "DACOITY 1971",
  "pages": [
-  4
+  2
  ],
  "n_rows": 41,
- "n_cols": 3,
- "n_cells": 110,
+ "n_cols": 8,
+ "n_cells": 328,
  "columns": [
   {
-   "col_no": "6",
-   "name": "TOTAL QOOGNIZABLE CRIME (6)",
+   "col_no": "2",
+   "name": "DACOITY | 1972",
    "header": [
-    "TOTAL QOOGNIZABLE CRIME"
+    "DACOITY",
+    "1972"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "DACOITY | Percentage variation",
+   "header": [
+    "DACOITY",
+    "Percentage variation"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ROBBERY | 1971",
+   "header": [
+    "ROBBERY",
+    "1971"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ROBBERY | 1972",
+   "header": [
+    "ROBBERY",
+    "1972"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ROBBERY | Percentage variation",
+   "header": [
+    "ROBBERY",
+    "Percentage variation"
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL QOOGNIZABLE CRIME (7)",
+   "name": "HOUSE BREAKING | 1971",
    "header": [
-    "TOTAL QOOGNIZABLE CRIME"
+    "HOUSE BREAKING",
+    "1971"
    ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "HOUSE BREAKING | 1972",
+   "header": [
+    "HOUSE BREAKING",
+    "1972"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "HOUSE BREAKING | Percentage variation",
+   "header": [
+    "HOUSE BREAKING",
+    "Percentage variation"
+   ]
   }
  ],
- "notes": [
-  "42 BPR & DYDT4"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -53,7 +96,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

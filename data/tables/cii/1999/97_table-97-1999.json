@@ -8,79 +8,77 @@
  "serial": "97",
  "title": "No. of Police Stations by Strength of Personnel During 1999",
  "listing_title": "No. of Police Stations by Strength of Personnel During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-97-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-97-1999.pdf",
  "source_sha256": "6cedcdfd2cb3b107c600c3a74de8be5d8540365d8f1ad9176b9335e1a38fe82f",
  "table_no": "97",
- "pdf_title": "NO. OF POLICE STATIONS BY S1iKENGIH OF PEKSUNNEL DURING 1999",
- "row_label": "SL. NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 97",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 6,
- "n_cells": 204,
+ "n_cells": 210,
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m) | BELOW10",
+   "name": "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH) | BELOW 10",
    "header": [
-    "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m)",
-    "BELOW10"
+    "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH)",
+    "BELOW 10"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m) | 11-20 I",
+   "name": "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH) | 11-20",
    "header": [
-    "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m)",
-    "11-20 I"
+    "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH)",
+    "11-20"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m) | 21-30",
+   "name": "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH) | 21-30",
    "header": [
-    "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m)",
+    "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH)",
     "21-30"
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m) | 31-40",
+   "name": "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH) | 31-40",
    "header": [
-    "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m)",
+    "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH)",
     "31-40"
    ]
   },
   {
    "col_no": "7",
-   "name": "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m) | 41-50 mM",
+   "name": "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH) | 41-50",
    "header": [
-    "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m)",
-    "41-50 mM"
+    "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH)",
+    "41-50"
    ]
   },
   {
    "col_no": "8",
-   "name": "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m) | 51 AND ABOVE l",
+   "name": "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH) | 51 AND ABOVE",
    "header": [
-    "NUMBER OF POLICE STATIONS (SANCTIONED 51KnNU1m)",
-    "51 AND ABOVE l"
+    "NUMBER OF POLICE STATIONS (SANCTIONED STRENGTH)",
+    "51 AND ABOVE"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 10,
+  "cells_checked": 18,
+  "cells_passed": 16,
   "failures": [
-   "col 3 'TOTAL STATES': printed 448, sum 447",
-   "col 4 'TOTAL STATES': printed 3092, sum 3002",
-   "col 5 'TOTAL STATES': printed 1860, sum 1763",
-   "col 6 'TOTAL STATES': printed 2043, sum 1993"
+   "col 4 'TOTAL (UTs)': printed 0, sum 25",
+   "col 4 'TOTAL (ALL-INDIA)': printed 3117, sum 3092"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

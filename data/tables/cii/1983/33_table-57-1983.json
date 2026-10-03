@@ -8,21 +8,28 @@
  "serial": "33",
  "title": "Police Personnel Killed or Injured by Various Ranks in India During the Year 1983",
  "listing_title": "Police Personnel Killed or Injured by Various Ranks in India During the Year 1983",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-57-1983.pdf",
  "source_file": "raw/cii/1983/table_content/table-57-1983.pdf",
  "source_sha256": "6f6223da89dc0e62e9fda97b23f4ceec93ae7c37cf947eab3681f18fff067cc8",
- "table_no": "",
- "pdf_title": "",
- "row_label": "Sl. No. / Police Ranks / killed or injured by various Rania in India during the year 1983 Killed",
+ "table_no": "57",
+ "pdf_title": "140 TABLE 57 Police Personnel killed or injured by various Ranks in India during the year 1983",
+ "row_label": "Sl. No. / Ranks",
  "pages": [
   1
  ],
  "n_rows": 7,
- "n_cols": 1,
- "n_cells": 7,
+ "n_cols": 2,
+ "n_cells": 14,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "Killed",
+   "header": [
+    "Killed"
+   ]
+  },
   {
    "col_no": "4",
    "name": "Injured",
@@ -36,8 +43,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

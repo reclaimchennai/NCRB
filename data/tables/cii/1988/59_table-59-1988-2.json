@@ -8,64 +8,67 @@
  "serial": "59",
  "title": "Victims of Rape under Different Age Groups During 1988 (State, UT & City-wise)",
  "listing_title": "Victims of Rape under Different Age Groups During 1988 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-59-1988-2.pdf",
  "source_sha256": "57edc71461cb0a9f45138ed4529bb1cd660329b10cfae663ab722bf56599e159",
  "table_no": "59",
- "pdf_title": "",
- "row_label": "VICTIMS STATE/UT/CITY SL NO",
+ "pdf_title": "179 TABLE-59 VICTIMS OF RAPE UNDER DIFFERENT AGE GROUPS DURING 1988 (STATE, UT & CITY-WISE)",
+ "row_label": "SL STATE/UT/CITYNO / SL STATE/UT/CITYNO",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 5,
- "n_cells": 226,
+ "n_cells": 235,
  "columns": [
   {
    "col_no": "3",
-   "name": "OF NO. CASES nerunminv",
+   "name": "NO. OF CASES REPORTED",
    "header": [
-    "OF NO. CASES nerunminv"
+    "NO. OF CASES REPORTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "RAPE & OF BELOW 10",
+   "name": "NUMBER OF VICTIMS | BELOW 10 YEARS",
    "header": [
-    "RAPE & OF BELOW 10"
+    "NUMBER OF VICTIMS",
+    "BELOW 10 YEARS"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER CITY-WISE) NUMBER OF YEARS (",
+   "name": "NUMBER OF VICTIMS | 10-16 YEARS",
    "header": [
-    "UNDER CITY-WISE) NUMBER OF YEARS ("
+    "NUMBER OF VICTIMS",
+    "10-16 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "AGE VICTIMS 10-16 YEARS",
+   "name": "NUMBER OF VICTIMS | 16-30 YEARS",
    "header": [
-    "AGE VICTIMS 10-16 YEARS"
+    "NUMBER OF VICTIMS",
+    "16-30 YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "DURING 1988 GROUPS - - YEARS 30 16-30 AND YEARS ABOVE",
+   "name": "NUMBER OF VICTIMS | 30 YEARS AND ABOVE",
    "header": [
-    "DURING 1988 GROUPS - - YEARS 30 16-30 AND YEARS ABOVE"
+    "NUMBER OF VICTIMS",
+    "30 YEARS AND ABOVE"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 12,
-  "cells_passed": 10,
+  "cells_checked": 15,
+  "cells_passed": 14,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 8957, sum 8412",
-   "col 7 'TOTAL (STATES)': printed 1148, sum 1143"
+   "col 6 'TOTAL (STATES)': printed 5722, sum 6122"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

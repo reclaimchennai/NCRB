@@ -6,62 +6,88 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "PERCENTAGE OF FOREIGNERS CONVICTED TO TOTAL FOREIGNERS CONVICTED BY AGE GROUPS AT THE END OF 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 The following States, which had exclusive women jails to accommodate women prisoners, had women convicts as under: Andhra Pradesh (108), Kerala (24), Orissa (12), Punjab (50), Rajasthan (74), Tamil Nadu (140), Tripura (6), Uttar Pradesh (64) and West Bengal (25) in the year 1998.",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "17",
- "pdf_title": "PERCENTAGE OF FOREIGNERS CONVICTED TO TOTAL FOREIGNERS CONVICTED BY AGE GROUPS AT THE END OF 1998",
- "row_label": "SL, NO. / STATE/UT / BELOW16 YEARS",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 The following States, which had exclusive women jails to accommodate women prisoners, had women convicts as under: Andhra Pradesh (108), Kerala (24), Orissa (12), Punjab (50), Rajasthan (74), Tamil Nadu (140), Tripura (6), Uttar Pradesh (64) and West Bengal (25) in the year 1998.",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  89
+  29
  ],
- "n_rows": 34,
- "n_cols": 5,
- "n_cells": 150,
+ "n_rows": 6,
+ "n_cols": 9,
+ "n_cells": 54,
  "columns": [
   {
-   "col_no": "4",
-   "name": "16-18 YEARS",
+   "col_no": "3",
+   "name": "Central Jail",
    "header": [
-    "16-18 YEARS"
+    "Central Jail"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "District Jail",
+   "header": [
+    "District Jail"
    ]
   },
   {
    "col_no": "5",
-   "name": "18 - 30 YEARS",
+   "name": "Sub jail",
    "header": [
-    "18 - 30 YEARS"
+    "Sub jail"
    ]
   },
   {
    "col_no": "6",
-   "name": "30 - 50 YEARS",
+   "name": "Women Jail",
    "header": [
-    "30 - 50 YEARS"
+    "Women Jail"
    ]
   },
   {
    "col_no": "7",
-   "name": "50 YEARS & ABOVE",
+   "name": "Borstal school",
    "header": [
-    "50 YEARS & ABOVE"
+    "Borstal school"
    ]
   },
   {
    "col_no": "8",
-   "name": "TOTAE",
+   "name": "Open jail",
    "header": [
-    "TOTAE"
+    "Open jail"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Special jail",
+   "header": [
+    "Special jail"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Others",
+   "header": [
+    "Others"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   }
  ],
- "notes": [
-  "HA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

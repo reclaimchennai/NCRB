@@ -8,47 +8,58 @@
  "serial": "9",
  "title": "Persons Killed or Injured under Police Firing During 1991 (Event-Wise)",
  "listing_title": "Persons Killed or Injured under Police Firing During 1991 (Event-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-63-1991-63.pdf",
  "source_file": "raw/cii/1991/table_content/table-63-1991-63.pdf",
  "source_sha256": "f83095e9977cf25df5d758e08c78616229b288dad9647b0e8322b6324b35dcae",
- "table_no": "",
- "pdf_title": "TABLE~63",
- "row_label": "PERSONS EVENT SL. uo. ti) 1 2 ANTE-DACOITY OPERATIONS",
+ "table_no": "63",
+ "pdf_title": "194 TABLE-63 PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1991",
+ "row_label": "SL. NO. / EVENT",
  "pages": [
   1
  ],
- "n_rows": 3,
- "n_cols": 4,
- "n_cells": 11,
+ "n_rows": 5,
+ "n_cols": 5,
+ "n_cells": 25,
  "columns": [
   {
-   "col_no": "2",
-   "name": "IWJUREO #0. OF (2) TOT iso",
-   "header": [
-    "IWJUREO #0. OF (2) TOT iso"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "UNDER CEVENT-WISE) OF POLICE 3) CONTROL",
+   "name": "NO. OF OCCASIONS OF POLICE FIRING",
    "header": [
-    "UNDER CEVENT-WISE) OF POLICE 3) CONTROL"
+    "NO. OF OCCASIONS OF POLICE FIRING"
    ]
   },
   {
    "col_no": "4",
-   "name": "POLICE CIVILIANS KILLED cS) 400 ie ae",
+   "name": "CIVILIANS | KILLED",
    "header": [
-    "POLICE CIVILIANS KILLED cS) 400 ie ae"
+    "CIVILIANS",
+    "KILLED"
    ]
   },
   {
    "col_no": "5",
-   "name": "1997 FIRIEG DUREWG POLICEMEN «= KILLED tT) (6) 154 005 oO é 78",
+   "name": "CIVILIANS | INJURED",
    "header": [
-    "1997 FIRIEG DUREWG POLICEMEN «= KILLED tT) (6) 154 005 oO é 78"
+    "CIVILIANS",
+    "INJURED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "POLICEMEN | KILLED",
+   "header": [
+    "POLICEMEN",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POLICEMEN | INJURED",
+   "header": [
+    "POLICEMEN",
+    "INJURED"
    ]
   }
  ],
@@ -57,10 +68,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

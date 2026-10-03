@@ -6,97 +6,102 @@
  "topic": "",
  "section": "",
  "serial": "5",
- "title": "DISPOSAL OF JUVENILES SENT TO COURT DURING 1979",
+ "title": "96 ##### 5.9.5 Community The data classified by community was available in respect of 1,66,674 juveniles out of which 33.8 percent belonged to Scheduled Castes and Tribes, the respective percentage in each group being 22.3 and 11.5. There was no correlation between caste and juvenile delinquency. In Bombay City a disproportionately large number of juvenile delinquents arrested belonged to Scheduled Castes as compared with the population complexion in the city.",
  "listing_title": "Juvenile Delinquency",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-5-1979.pdf",
  "source_file": "raw/cii/1979/table_chapter/chapter-5-1979.pdf",
  "source_sha256": "959f7bfd1bf80cbb341ef026d79e5d9bed7760d13b23a865ed5d5bfb8bdfdab3",
  "table_no": "44",
- "pdf_title": "DISPOSAL OF JUVENILES SENT TO COURT DURING 1979",
- "row_label": "S No. STATES",
+ "pdf_title": "96 ##### 5.9.5 Community The data classified by community was available in respect of 1,66,674 juveniles out of which 33.8 percent belonged to Scheduled Castes and Tribes, the respective percentage in each group being 22.3 and 11.5. There was no correlation between caste and juvenile delinquency. In Bombay City a disproportionately large number of juvenile delinquents arrested belonged to Scheduled Castes as compared with the population complexion in the city.",
+ "row_label": "S No. / Name of the States/U.Ts./Cities",
  "pages": [
   11,
   12
  ],
- "n_rows": 70,
+ "n_rows": 44,
  "n_cols": 9,
- "n_cells": 353,
+ "n_cells": 387,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Name of the States/U.Ts./ Cities",
-   "header": [
-    "Name of the States/U.Ts./ Cities"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "On | Juveniles sent to Court",
+   "name": "Juveniles sent to Court",
    "header": [
-    "On",
     "Juveniles sent to Court"
    ]
   },
   {
    "col_no": "4",
-   "name": "On | Restored to Gnardian",
+   "name": "Restored to Guardian",
    "header": [
-    "On",
-    "Restored to Gnardian"
+    "Restored to Guardian"
    ]
   },
   {
    "col_no": "5",
-   "name": "Sent t6 & Rorstals",
+   "name": "On Probation",
    "header": [
-    "Sent t6 & Rorstals"
+    "On Probation"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Sent to reformatories & Borstals",
+   "header": [
+    "Sent to reformatories & Borstals"
    ]
   },
   {
    "col_no": "10001",
-   "name": "SenttoSchools Cities",
+   "name": "Sent to Schools Institutions",
    "header": [
-    "SenttoSchools Cities"
+    "Sent to Schools Institutions"
    ]
   },
   {
    "col_no": "10002",
-   "name": "Sent to adult",
+   "name": "Sent to adult Institutions",
    "header": [
-    "Sent to adult"
+    "Sent to adult Institutions"
    ]
   },
   {
    "col_no": "10003",
-   "name": "col_10003",
-   "header": []
-  },
-  {
-   "col_no": "10004",
-   "name": "Acanitted otherwise -",
+   "name": "Imprisoned",
    "header": [
-    "Acanitted otherwise -"
+    "Imprisoned"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "Pending or disposal",
+   "col_no": "10004",
+   "name": "Acquitted or otherwise disposed of",
    "header": [
-    "Pending or disposal"
+    "Acquitted or otherwise disposed of"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Pending disposal",
+   "header": [
+    "Pending disposal"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 16,
+  "cells_passed": 12,
+  "failures": [
+   "col 10001 'TOTAL (U.TS.)': printed 30, sum 1366",
+   "col 10003 'TOTAL (U.TS.)': printed 2002, sum 26604",
+   "col 10004 'TOTAL (U.TS.)': printed 842, sum 34054",
+   "col 7 'TOTAL (U.TS.)': printed 3560, sum 68443"
+  ],
+  "other_totals_checked": 8,
+  "other_totals_passed": 8
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

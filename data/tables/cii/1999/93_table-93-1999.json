@@ -8,112 +8,106 @@
  "serial": "93",
  "title": "Information On Police Housing During 1999",
  "listing_title": "Information On Police Housing During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-93-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-93-1999.pdf",
  "source_sha256": "17f4e21ad57d2c5f72b8619c4226d82ac775b2a7219e167ced8d994cdb201b73",
  "table_no": "93",
- "pdf_title": "",
- "row_label": "SL. NO. () (ES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 93",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 59,
  "n_cols": 9,
- "n_cells": 508,
+ "n_cells": 531,
  "columns": [
   {
-   "col_no": "2",
-   "name": "INFORMATION ON POLICE | SANCTIONED Q)",
-   "header": [
-    "INFORMATION ON POLICE",
-    "SANCTIONED Q)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "INFORMATION ON POLICE | EUR UFFIUFAD BUILT-IN HOUSES) BY GOVERNMENT 8)",
+   "name": "FOR OFFICERS | SANCTIO-NED STRENGTH",
    "header": [
-    "INFORMATION ON POLICE",
-    "EUR UFFIUFAD BUILT-IN HOUSES) BY GOVERNMENT 8)"
+    "FOR OFFICERS",
+    "SANCTIO-NED STRENGTH"
    ]
   },
   {
    "col_no": "4",
-   "name": "INFORMATION ON POLICE | HOUSES ONTRASE RENT/ GENFRAr. POOL BY @",
+   "name": "FOR OFFICERS | BUILT-IN HOUSES PROVIDED BY GOVERN-MENT",
    "header": [
-    "INFORMATION ON POLICE",
-    "HOUSES ONTRASE RENT/ GENFRAr. POOL BY @"
+    "FOR OFFICERS",
+    "BUILT-IN HOUSES PROVIDED BY GOVERN-MENT"
    ]
   },
   {
    "col_no": "5",
-   "name": "INFORMATION ON POLICE | DURING 1999 | ues - See | SANCTIONED ©",
+   "name": "FOR OFFICERS | HOUSES PROVIDED ON LEASE, RENT/ GENERAL POOL BY GOVT.",
    "header": [
-    "INFORMATION ON POLICE",
-    "DURING 1999",
-    "ues - See",
-    "SANCTIONED ©"
+    "FOR OFFICERS",
+    "HOUSES PROVIDED ON LEASE, RENT/ GENERAL POOL BY GOVT."
    ]
   },
   {
    "col_no": "6",
-   "name": "INFORMATION ON POLICE | DURING 1999 | ues - See | BUILT-IN HOUSES) BY GOVERNMENT m",
+   "name": "UPPER SUBORDINATES | SANCTIO-NED STRENGTH",
    "header": [
-    "INFORMATION ON POLICE",
-    "DURING 1999",
-    "ues - See",
-    "BUILT-IN HOUSES) BY GOVERNMENT m"
+    "UPPER SUBORDINATES",
+    "SANCTIO-NED STRENGTH"
    ]
   },
   {
    "col_no": "7",
-   "name": "DURING 1999 | ee HOUSES RENT/ POOL BY ®",
+   "name": "UPPER SUBORDINATES | BUILT-IN HOUSES PROVIDED BY GOVERN-MENT",
    "header": [
-    "DURING 1999",
-    "ee HOUSES RENT/ POOL BY ®"
+    "UPPER SUBORDINATES",
+    "BUILT-IN HOUSES PROVIDED BY GOVERN-MENT"
    ]
   },
   {
    "col_no": "8",
-   "name": "Low) - | SANCTIONED ”",
+   "name": "UPPER SUBORDINATES | HOUSES PROVIDED ON LEASE, RENT/ GENERAL POOL BY GOVT.",
    "header": [
-    "Low) -",
-    "SANCTIONED ”"
+    "UPPER SUBORDINATES",
+    "HOUSES PROVIDED ON LEASE, RENT/ GENERAL POOL BY GOVT."
    ]
   },
   {
    "col_no": "9",
-   "name": "Low) - | BUILT-IN BY GOVERNMENT (10)",
+   "name": "LOWER SUBORDINATES | SANCTIO-NED STRENGTH",
    "header": [
-    "Low) -",
-    "BUILT-IN BY GOVERNMENT (10)"
+    "LOWER SUBORDINATES",
+    "SANCTIO-NED STRENGTH"
    ]
   },
   {
    "col_no": "10",
-   "name": "HOUSES ON LEASE RENT/ GENFRAI. POOL BY (a",
+   "name": "LOWER SUBORDINATES | BUILT-IN HOUSES PROVIDED BY GOVERN-MENT",
    "header": [
-    "HOUSES ON LEASE RENT/ GENFRAI. POOL BY (a"
+    "LOWER SUBORDINATES",
+    "BUILT-IN HOUSES PROVIDED BY GOVERN-MENT"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "LOWER SUBORDINATES | HOUSES PROVIDED ON LEASE, RENT/ GENERAL POOL BY GOVT.",
+   "header": [
+    "LOWER SUBORDINATES",
+    "HOUSES PROVIDED ON LEASE, RENT/ GENERAL POOL BY GOVT."
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 11,
+  "cells_checked": 36,
+  "cells_passed": 34,
   "failures": [
-   "col 2 'TOTAL STATES': printed 11521, sum 12077",
-   "col 2 'TOTAL (CITIES)': printed 23, sum 1137",
-   "col 6 'TOTAL (UTs)': printed 4156, sum 3816",
-   "col 8 'TOTAL (UTs)': printed 55437, sum 56437",
-   "col 9 'TOTAL (CITIES)': printed 58563, sum 57003"
+   "col 8 'TOTAL (CITIES)': printed 1334, sum 1214",
+   "col 10 'TOTAL (CITIES)': printed 58563, sum 58973"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

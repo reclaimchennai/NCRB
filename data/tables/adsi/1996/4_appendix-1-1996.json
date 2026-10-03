@@ -8,14 +8,14 @@
  "serial": "4",
  "title": "Distribution of Accidental Deaths by Natural Causes and Sex during 1996 (State, UT & City-wise)",
  "listing_title": "Distribution of Accidental Deaths by Natural Causes and Sex during 1996 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-1_1996.pdf",
  "source_file": "raw/adsi/1996/table_content/appendix-1_1996.pdf",
  "source_sha256": "250d58dca9a6aa9c7577e25c71c7e43bf3be62b3c806427a854fbcbb413f0f88",
  "table_no": "",
- "pdf_title": "APPENDIX4 Distribution of Accidental Deaths By Natural Causes and Sex During 1996 (State, UT & City-wise)",
- "row_label": "Leow as 1) “ay / Leow State/UT/City - ale (2) / Avalanche %share to total Female Deaths (Col.5/53)* 100 / Cold ane Male",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1996 N.C.R.B.(M.H.) APPENDIX-1",
+ "row_label": "Sl.No. / State/UT/City",
  "pages": [
   1,
   2,
@@ -25,37 +25,176 @@
   6,
   7
  ],
- "n_rows": 137,
- "n_cols": 35,
- "n_cells": 1115,
+ "n_rows": 58,
+ "n_cols": 52,
+ "n_cells": 3012,
  "columns": [
   {
+   "col_no": "3",
+   "name": "Avalanche | Male",
+   "header": [
+    "Avalanche",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Avalanche | Female",
+   "header": [
+    "Avalanche",
+    "Female"
+   ]
+  },
+  {
    "col_no": "5",
-   "name": "- %share to total , Femete {Col.9/53)* Deathe 100",
+   "name": "Avalanche | Total",
    "header": [
-    "- %share to total , Femete {Col.9/53)* Deathe 100"
+    "Avalanche",
+    "Total"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "oui %share to total Female Male Deaths Female (Col.13/53)*100 (14) (2)",
+   "col_no": "6",
+   "name": "Avalanche | %share to total Deaths (Col.5/53)*100",
    "header": [
-    "oui %share to total Female Male Deaths Female (Col.13/53)*100 (14) (2)"
+    "Avalanche",
+    "%share to total Deaths (Col.5/53)*100"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "- - Vation/Thi - —‘Total (Col.17/53)*100 (13)",
+   "col_no": "7",
+   "name": "Cold and Exposure | Male",
    "header": [
-    "- - Vation/Thi - —‘Total (Col.17/53)*100 (13)"
+    "Cold and Exposure",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Cold and Exposure | Female",
+   "header": [
+    "Cold and Exposure",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Cold and Exposure | Total",
+   "header": [
+    "Cold and Exposure",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Cold and Exposure | %share to total Deaths (Col.9/53)*100",
+   "header": [
+    "Cold and Exposure",
+    "%share to total Deaths (Col.9/53)*100"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Cyclone/Tornado | Male",
+   "header": [
+    "Cyclone/Tornado",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Cyclone/Tornado | Female",
+   "header": [
+    "Cyclone/Tornado",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Cyclone/Tornado | Total",
+   "header": [
+    "Cyclone/Tornado",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Cyclone/Tornado | %share to total Deaths (Col.13/53)*100",
+   "header": [
+    "Cyclone/Tornado",
+    "%share to total Deaths (Col.13/53)*100"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Starvation/Thirst | Male",
+   "header": [
+    "Starvation/Thirst",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Starvation/Thirst | Female",
+   "header": [
+    "Starvation/Thirst",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Starvation/Thirst | Total",
+   "header": [
+    "Starvation/Thirst",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Starvation/Thirst | %share to total Deaths (Col.17/53)*100",
+   "header": [
+    "Starvation/Thirst",
+    "%share to total Deaths (Col.17/53)*100"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Earthquake | Male",
+   "header": [
+    "Earthquake",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Earthquake | Female",
+   "header": [
+    "Earthquake",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Earthquake | Total",
+   "header": [
+    "Earthquake",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Earthquake | %share to total Deaths (Col.21/53)*100",
+   "header": [
+    "Earthquake",
+    "%share to total Deaths (Col.21/53)*100"
    ]
   },
   {
    "col_no": "23",
-   "name": "Epidemic | Mele",
+   "name": "Epidemic | Male",
    "header": [
     "Epidemic",
-    "Mele"
+    "Male"
    ]
   },
   {
@@ -68,23 +207,23 @@
   },
   {
    "col_no": "25",
-   "name": "Epidemic | ‘Total",
+   "name": "Epidemic | Total",
    "header": [
     "Epidemic",
-    "‘Total"
+    "Total"
    ]
   },
   {
    "col_no": "26",
-   "name": "Epidemic | %share to total Deaths (Col.25/53)* 100",
+   "name": "Epidemic | %share to total Deaths (Col.25/53)*100",
    "header": [
     "Epidemic",
-    "%share to total Deaths (Col.25/53)* 100"
+    "%share to total Deaths (Col.25/53)*100"
    ]
   },
   {
    "col_no": "27",
-   "name": "Flood | Male (27)",
+   "name": "Flood | Male",
    "header": [
     "Flood",
     "Male"
@@ -92,7 +231,7 @@
   },
   {
    "col_no": "28",
-   "name": "Flood | Female (28)",
+   "name": "Flood | Female",
    "header": [
     "Flood",
     "Female"
@@ -108,159 +247,169 @@
   },
   {
    "col_no": "30",
-   "name": "Flood | %share to total Deaths (Col.29/53)* 100",
+   "name": "Flood | %share to total Deaths (Col.29/53)*100",
    "header": [
     "Flood",
-    "%share to total Deaths (Col.29/53)* 100"
+    "%share to total Deaths (Col.29/53)*100"
    ]
   },
   {
    "col_no": "31",
-   "name": "Flood | Male (31)",
+   "name": "Heat Stroke | Male",
    "header": [
-    "Flood",
+    "Heat Stroke",
     "Male"
    ]
   },
   {
    "col_no": "32",
-   "name": "Flood | Female (32)",
+   "name": "Heat Stroke | Female",
    "header": [
-    "Flood",
+    "Heat Stroke",
     "Female"
    ]
   },
   {
    "col_no": "33",
-   "name": "Heat Stroke Total",
+   "name": "Heat Stroke | Total",
    "header": [
-    "Heat Stroke Total"
+    "Heat Stroke",
+    "Total"
    ]
   },
   {
    "col_no": "34",
-   "name": "%share to total Deaths (Col.33/53)* 100",
+   "name": "Heat Stroke | %share to total Deaths (Col.33/53)*100",
    "header": [
-    "%share to total Deaths (Col.33/53)* 100"
+    "Heat Stroke",
+    "%share to total Deaths (Col.33/53)*100"
    ]
   },
   {
    "col_no": "35",
-   "name": "Male (35)",
+   "name": "Landslide | Male",
    "header": [
+    "Landslide",
     "Male"
    ]
   },
   {
    "col_no": "36",
-   "name": "Female (36)",
+   "name": "Landslide | Female",
    "header": [
+    "Landslide",
     "Female"
    ]
   },
   {
    "col_no": "37",
-   "name": "Lindslide",
+   "name": "Landslide | Total",
    "header": [
-    "Lindslide"
+    "Landslide",
+    "Total"
    ]
   },
   {
    "col_no": "38",
-   "name": "%share to total Deaths (Col.37/53)* 100",
+   "name": "Landslide | %share to total Deaths (Col.37/53)*100",
    "header": [
-    "%share to total Deaths (Col.37/53)* 100"
+    "Landslide",
+    "%share to total Deaths (Col.37/53)*100"
    ]
   },
   {
    "col_no": "39",
-   "name": "Male (39)",
+   "name": "Lightning | Male",
    "header": [
+    "Lightning",
     "Male"
    ]
   },
   {
    "col_no": "40",
-   "name": "Female (40)",
+   "name": "Lightning | Female",
    "header": [
+    "Lightning",
     "Female"
    ]
   },
   {
    "col_no": "41",
-   "name": "Lightning",
+   "name": "Lightning | Total",
    "header": [
-    "Lightning"
+    "Lightning",
+    "Total"
    ]
   },
   {
    "col_no": "42",
-   "name": "%share to total Deaths (Col.41/53)*100",
+   "name": "Lightning | %share to total Deaths (Col.41/53)*100",
    "header": [
+    "Lightning",
     "%share to total Deaths (Col.41/53)*100"
    ]
   },
   {
    "col_no": "43",
-   "name": "Torrintial Rains; | Male (43)",
+   "name": "Torrential Rains | Male",
    "header": [
-    "Torrintial Rains;",
+    "Torrential Rains",
     "Male"
    ]
   },
   {
    "col_no": "44",
-   "name": "Torrintial Rains; | Female",
+   "name": "Torrential Rains | Female",
    "header": [
-    "Torrintial Rains;",
+    "Torrential Rains",
     "Female"
    ]
   },
   {
    "col_no": "45",
-   "name": "Torrintial Rains; | Total",
+   "name": "Torrential Rains | Total",
    "header": [
-    "Torrintial Rains;",
+    "Torrential Rains",
     "Total"
    ]
   },
   {
    "col_no": "46",
-   "name": "Torrintial Rains; | %share to total Deaths (Col.45/53)* 100",
+   "name": "Torrential Rains | %share to total Deaths (Col.45/53)*100",
    "header": [
-    "Torrintial Rains;",
-    "%share to total Deaths (Col.45/53)* 100"
+    "Torrential Rains",
+    "%share to total Deaths (Col.45/53)*100"
    ]
   },
   {
    "col_no": "47",
-   "name": "Torrintial Rains; | Male (47)",
+   "name": "Other Natural Causes | Male",
    "header": [
-    "Torrintial Rains;",
+    "Other Natural Causes",
     "Male"
    ]
   },
   {
    "col_no": "48",
-   "name": "Other Natural Cz uses | Female",
+   "name": "Other Natural Causes | Female",
    "header": [
-    "Other Natural Cz uses",
+    "Other Natural Causes",
     "Female"
    ]
   },
   {
    "col_no": "49",
-   "name": "Other Natural Cz uses | Total",
+   "name": "Other Natural Causes | Total",
    "header": [
-    "Other Natural Cz uses",
+    "Other Natural Causes",
     "Total"
    ]
   },
   {
    "col_no": "50",
-   "name": "Other Natural Cz uses | %share to total Deaths (Col.49/53)*100",
+   "name": "Other Natural Causes | %share to total Deaths (Col.49/53)*100",
    "header": [
-    "Other Natural Cz uses",
+    "Other Natural Causes",
     "%share to total Deaths (Col.49/53)*100"
    ]
   },
@@ -290,34 +439,22 @@
   },
   {
    "col_no": "54",
-   "name": "Total | %share to Total Deaths (Co.53/53)* 100",
+   "name": "Total | %share to Total Deaths (Co.53/53)*100",
    "header": [
     "Total",
-    "%share to Total Deaths (Co.53/53)* 100"
+    "%share to Total Deaths (Co.53/53)*100"
    ]
   }
  ],
- "notes": [
-  "55 T VISHAKHAPATNAM 1 ot a Tt",
-  "55 VISHAKHAPATNAM j Oo, 0! on 0 0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 0,
-  "failures": [
-   "col 23 'TOTAL (States)': printed 105, sum 50",
-   "col 25 'TOTAL (States)': printed 183, sum 86",
-   "col 35 'TOTAL (States)': printed 323, sum 343",
-   "col 43 '- TOTAL (All-India)': printed 74, sum 4",
-   "col 43 'TOTAL (States)': printed 73, sum 23",
-   "col 47 'TOTAL (States)': printed 9134, sum 4029",
-   "col 48 '- TOTAL (All-India)': printed 3997, sum 1674",
-   "col 48 'TOTAL (UTs)': printed 3, sum 8793"
-  ],
-  "other_totals_checked": 1,
+  "cells_checked": 117,
+  "cells_passed": 117,
+  "failures": [],
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 7,
  "warnings": []
 }

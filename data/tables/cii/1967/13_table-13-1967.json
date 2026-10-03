@@ -8,56 +8,54 @@
  "serial": "13",
  "title": "Police Strength in States - 1967",
  "listing_title": "Police Strength in States - 1967",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-13-1967.pdf",
  "source_sha256": "afb9357ecf7673f9cec8fe4e540b6d7424fdd44af15beb34e9eb7fe70b3c3681",
  "table_no": "XIII",
- "pdf_title": "STRENGTH ‘IN STATES—1967",
- "row_label": "SI. No. / States",
+ "pdf_title": "58 TABLE XIII POLICE-STRENGTH IN STATES—1967",
+ "row_label": "Sl. No. / States",
  "pages": [
   1
  ],
  "n_rows": 18,
  "n_cols": 5,
- "n_cells": 88,
+ "n_cells": 90,
  "columns": [
   {
    "col_no": "3",
-   "name": "Areain Sq. Km.",
+   "name": "Area in Sq. Km.",
    "header": [
-    "Areain Sq. Km."
+    "Area in Sq. Km."
    ]
   },
   {
    "col_no": "4",
-   "name": "Estimated Mid year population in. thousands",
+   "name": "Estimated Mid year population in thousands",
    "header": [
-    "Estimated Mid year population in. thousands"
+    "Estimated Mid year population in thousands"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number of | Actual strength of Police",
+   "name": "Actual strength of Police force",
    "header": [
-    "Number of",
-    "Actual strength of Police"
+    "Actual strength of Police force"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number of | per 10,000 of population",
+   "name": "Number of Policemen per 10,000 of population",
    "header": [
-    "Number of",
-    "per 10,000 of population"
+    "Number of Policemen per 10,000 of population"
    ]
   },
   {
    "col_no": "7",
-   "name": "Number of Policemen. Policemen per 100 Sq. meter Area",
+   "name": "Number of Policemen per 100 Sq. meter Area",
    "header": [
-    "Number of Policemen. Policemen per 100 Sq. meter Area"
+    "Number of Policemen per 100 Sq. meter Area"
    ]
   }
  ],
@@ -66,8 +64,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

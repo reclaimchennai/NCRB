@@ -8,69 +8,61 @@
  "serial": "3",
  "title": "Percentage distribution of Suicides by Means Adopted during 1989 (State, UT & City-wise)",
  "listing_title": "Percentage distribution of Suicides by Means Adopted during 1989 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680164059appendix-71989.pdf",
  "source_file": "raw/adsi/1989/table_content/1680164059appendix-71989.pdf",
  "source_sha256": "e1fa365034833341469e0f9be82de674b85467fb54b06c8875ded0fadec1f993",
  "table_no": "",
- "pdf_title": "APPENDIX - VII Percentage Distribution Of Suicides By Means Adopted",
- "row_label": "Sl. No. / 1989 State/UT/City (2).",
+ "pdf_title": "90 APPENDIX - VII Percentage Distribution Of Suicides By Means Adopted During 1989",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2
  ],
- "n_rows": 53,
+ "n_rows": 47,
  "n_cols": 13,
- "n_cells": 609,
+ "n_cells": 611,
  "columns": [
   {
    "col_no": "3",
-   "name": "1989 | (State, | By Railways",
+   "name": "By Railways",
    "header": [
-    "1989",
-    "(State,",
     "By Railways"
    ]
   },
   {
    "col_no": "4",
-   "name": "1989 | (State, | By Machine",
+   "name": "By Machine",
    "header": [
-    "1989",
-    "(State,",
     "By Machine"
    ]
   },
   {
    "col_no": "5",
-   "name": "1989 | ‘During UT By Firearm",
+   "name": "By Firearm",
    "header": [
-    "1989",
-    "‘During UT By Firearm"
+    "By Firearm"
    ]
   },
   {
    "col_no": "6",
-   "name": "1989 | & City-wise) By Weapon",
+   "name": "By Weapon",
    "header": [
-    "1989",
-    "& City-wise) By Weapon"
+    "By Weapon"
    ]
   },
   {
    "col_no": "7",
-   "name": "1989 | By Poison",
+   "name": "By Poison",
    "header": [
-    "1989",
     "By Poison"
    ]
   },
   {
    "col_no": "8",
-   "name": "1989 | By Fire",
+   "name": "By Fire",
    "header": [
-    "1989",
     "By Fire"
    ]
   },
@@ -104,26 +96,22 @@
   },
   {
    "col_no": "13",
-   "name": "APPENDIX-VII | By Touching Electric Wire",
+   "name": "By Touching Electric Wire",
    "header": [
-    "APPENDIX-VII",
     "By Touching Electric Wire"
    ]
   },
   {
    "col_no": "14",
-   "name": "APPENDIX-VII | (Concluded) | By Other Means",
+   "name": "By Other Means",
    "header": [
-    "APPENDIX-VII",
-    "(Concluded)",
     "By Other Means"
    ]
   },
   {
    "col_no": "15",
-   "name": "(Concluded) | Grand Total",
+   "name": "Grand Total",
    "header": [
-    "(Concluded)",
     "Grand Total"
    ]
   }

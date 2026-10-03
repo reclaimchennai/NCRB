@@ -8,59 +8,66 @@
  "serial": "48",
  "title": "Victims of Rape Under Different Age Groups During 1997",
  "listing_title": "Victims of Rape Under Different Age Groups During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-28-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-28-1996-crime-survey.pdf",
  "source_sha256": "e32668955136468c02d83f8a45a6801131782449889419b48721ea5d7e5285ef",
  "table_no": "28",
- "pdf_title": "",
- "row_label": "SL NO / STATE/UT/CITY / VICTIMS OF RAPE UNDER",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-28",
+ "row_label": "SL NO / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 58,
- "n_cols": 4,
- "n_cells": 230,
+ "n_cols": 5,
+ "n_cells": 290,
  "columns": [
   {
-   "col_no": "4",
-   "name": "NO. OF CASES BELOW 10 YEARS",
+   "col_no": "3",
+   "name": "NO. OF CASES REPORTED",
    "header": [
-    "NO. OF CASES BELOW 10 YEARS"
+    "NO. OF CASES REPORTED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF VICTIMS | BELOW 10 YEARS",
+   "header": [
+    "NUMBER OF VICTIMS",
+    "BELOW 10 YEARS"
    ]
   },
   {
    "col_no": "5",
-   "name": "AGE GROUPS DURING",
+   "name": "NUMBER OF VICTIMS | 10-16 YEARS",
    "header": [
-    "AGE GROUPS DURING"
+    "NUMBER OF VICTIMS",
+    "10-16 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "1997 NUMBER OF VICTIMS 10-16 YEARS",
+   "name": "NUMBER OF VICTIMS | 16-30 YEARS",
    "header": [
-    "1997 NUMBER OF VICTIMS 10-16 YEARS"
+    "NUMBER OF VICTIMS",
+    "16-30 YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "16-30 30 YEARS AND YEARS ABOVE",
+   "name": "NUMBER OF VICTIMS | 30 YEARS AND ABOVE",
    "header": [
-    "16-30 30 YEARS AND YEARS ABOVE"
+    "NUMBER OF VICTIMS",
+    "30 YEARS AND ABOVE"
    ]
   }
  ],
- "notes": [
-  "tlote:* Victims were more than the cases reported."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 8,
-  "failures": [
-   "col 7 'TOTAL (ALL-INDIA)': printed 8.61223e+07, sum 8.39047e+07"
-  ],
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

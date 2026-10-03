@@ -6,42 +6,54 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1991",
  "serial": "4",
- "title": "VOLUME OF SUICIDES DURING 1991",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 24 VOLUME OF SUICIDES DURING 1991 (STATE/UT-WISE)",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1991.pdf",
  "source_file": "raw/adsi/1991/year_wise/suicides-1991.pdf",
  "source_sha256": "e59e4f057e2bb98540933e680aee79ab44235cf019f10099541b9a87cb4f37db",
  "table_no": "",
- "pdf_title": "VOLUME OF SUICIDES DURING 1991",
- "row_label": "STATE/UT",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 24 VOLUME OF SUICIDES DURING 1991 (STATE/UT-WISE)",
+ "row_label": "HIGH RISK SL.NO. / HIGH RISK STATE/UT",
  "pages": [
   6
  ],
- "n_rows": 29,
- "n_cols": 3,
- "n_cells": 69,
+ "n_rows": 17,
+ "n_cols": 4,
+ "n_cells": 66,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(STATE/UT-WISE) | (ALL-IN DIA 9.2)",
-   "header": [
-    "(STATE/UT-WISE)",
-    "(ALL-IN DIA 9.2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "(STATE/UT-WISE)",
+   "name": "HIGH RISK | VOLUME",
    "header": [
-    "(STATE/UT-WISE)"
+    "HIGH RISK",
+    "VOLUME"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "LOW RISK | SL.NO.",
+   "header": [
+    "LOW RISK",
+    "SL.NO."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "LOW RISK | STATE/UT",
+   "header": [
+    "LOW RISK",
+    "STATE/UT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "LOW RISK | VOLUME",
+   "header": [
+    "LOW RISK",
+    "VOLUME"
+   ]
   }
  ],
  "notes": [],
@@ -52,7 +64,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

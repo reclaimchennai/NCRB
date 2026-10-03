@@ -8,47 +8,52 @@
  "serial": "19",
  "title": "Juveniles Apprehended (by Sex) Committing Crime under Local and Special Laws",
  "listing_title": "Juveniles Apprehended (by Sex) Committing Crime under Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-41-1973.pdf",
  "source_sha256": "ee83a6c4af581acf5a9452c597cc2b7f9b07f9a4087e238d21ad1a4080ad9c31",
- "table_no": "",
- "pdf_title": "Taste 4",
- "row_label": "(by Seatea/U. 1 2% / (by Local and Speetal Laws - - 4 1.",
+ "table_no": "41",
+ "pdf_title": "107 TABLE 41 Juveniles Apprehended (by sex) committing Crime under Local and Special Laws",
+ "row_label": "Sl. No. / States/U. Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 28,
- "n_cols": 2,
- "n_cells": 51,
+ "n_rows": 40,
+ "n_cols": 3,
+ "n_cells": 120,
  "columns": [
   {
    "col_no": "3",
-   "name": "sex) Boys 7 - 7",
+   "name": "Boys",
    "header": [
-    "sex) Boys 7 - 7"
+    "Boys"
    ]
   },
   {
    "col_no": "4",
-   "name": "Crime Girls Total 4 ee 24 2a",
+   "name": "Girls",
    "header": [
-    "Crime Girls Total 4 ee 24 2a"
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   }
  ],
- "notes": [
-  "- 15-650"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 11,
+  "other_totals_passed": 11
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

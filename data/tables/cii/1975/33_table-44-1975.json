@@ -8,95 +8,94 @@
  "serial": "33",
  "title": "Disposals of Juveniles Sent to Court",
  "listing_title": "Disposals of Juveniles Sent to Court",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-44-1975.pdf",
  "source_sha256": "8f0631a828af49cb5bc164d0ae9ef954ed22a890bab27b243f91e6977a830329",
  "table_no": "44",
- "pdf_title": "",
- "row_label": "SL States/U:Ts./Ciples No. 2 / a Jeveailes Restored sent to Court a",
+ "pdf_title": "95 TABLE 44 Disposals of Juveniles sent to Court",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 41,
- "n_cols": 8,
- "n_cells": 295,
+ "n_rows": 43,
+ "n_cols": 9,
+ "n_cells": 387,
  "columns": [
   {
    "col_no": "3",
-   "name": "a | Jeveailes Restored | Guardian +",
+   "name": "Juveniles sent to Court",
    "header": [
-    "a",
-    "Jeveailes Restored",
-    "Guardian +"
+    "Juveniles sent to Court"
    ]
   },
   {
    "col_no": "4",
-   "name": "a | Ou prebation 8",
+   "name": "Restored to Guardian",
    "header": [
-    "a",
-    "Ou prebation 8"
+    "Restored to Guardian"
    ]
   },
   {
    "col_no": "5",
-   "name": "pp scat lo Reforand 3 B é",
+   "name": "On probation",
    "header": [
-    "pp scat lo Reforand 3 B é"
+    "On probation"
    ]
   },
   {
    "col_no": "6",
-   "name": "Statte Schools doo 7",
+   "name": "Sent to Refo-matories and g Borstals",
    "header": [
-    "Statte Schools doo 7"
+    "Sent to Refo-matories and g Borstals"
    ]
   },
   {
    "col_no": "7",
-   "name": "Stat te Adut ions a",
+   "name": "Sent to Schools Institutions",
    "header": [
-    "Stat te Adut ions a"
+    "Sent to Schools Institutions"
    ]
   },
   {
    "col_no": "8",
-   "name": "Asquitled Pending | Impris0bod 9",
+   "name": "Sent to Adult Institutions",
    "header": [
-    "Asquitled Pending",
-    "Impris0bod 9"
+    "Sent to Adult Institutions"
    ]
   },
   {
    "col_no": "9",
-   "name": "Asquitled Pending | or otber- 10",
+   "name": "Imprisoned",
    "header": [
-    "Asquitled Pending",
-    "or otber- 10"
+    "Imprisoned"
    ]
   },
   {
    "col_no": "10",
-   "name": "Asquitled Pending | diswise dig - potul of",
+   "name": "Acquired or otherwise disposed of",
    "header": [
-    "Asquitled Pending",
-    "diswise dig - potul of"
+    "Acquired or otherwise disposed of"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Pending disposal",
+   "header": [
+    "Pending disposal"
    ]
   }
  ],
- "notes": [
-  "13-300 BPR&D/78"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 35,
+  "other_totals_passed": 34
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

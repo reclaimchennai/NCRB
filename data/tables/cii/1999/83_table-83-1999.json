@@ -8,20 +8,20 @@
  "serial": "83",
  "title": "Persons Killed Or Injured Under Police Firing During 1999 (State, UT and City-Wise)",
  "listing_title": "Persons Killed Or Injured Under Police Firing During 1999 (State, UT and City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-83-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-83-1999.pdf",
  "source_sha256": "e10f67e36145df98172811e20adc3f85e376ef7fe1ebecbc5ce3c62049360256",
  "table_no": "83",
- "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1999 (STATE, UT & CITY-WISE )",
- "row_label": "su. NO. a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 83",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 56,
- "n_cols": 4,
- "n_cells": 190,
+ "n_rows": 58,
+ "n_cols": 5,
+ "n_cells": 290,
  "columns": [
   {
    "col_no": "3",
@@ -32,35 +32,42 @@
   },
   {
    "col_no": "4",
-   "name": "CIVILIANS KILLED (s)",
+   "name": "CIVILIANS | KILLED",
    "header": [
-    "CIVILIANS KILLED (s)"
+    "CIVILIANS",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CIVILIANS | INJURED",
+   "header": [
+    "CIVILIANS",
+    "INJURED"
    ]
   },
   {
    "col_no": "6",
-   "name": "POLICES EN | —s INJURED",
+   "name": "POLICEMEN | KILLED",
    "header": [
-    "POLICES EN",
-    "—s INJURED"
+    "POLICEMEN",
+    "KILLED"
    ]
   },
   {
    "col_no": "7",
-   "name": "POLICES EN | KILLED INJURED",
+   "name": "POLICEMEN | INJURED",
    "header": [
-    "POLICES EN",
-    "KILLED INJURED"
+    "POLICEMEN",
+    "INJURED"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (UTs)': printed 111, sum 1877"
-  ],
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

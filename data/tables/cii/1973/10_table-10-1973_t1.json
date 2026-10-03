@@ -6,43 +6,81 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "10",
- "title": "Caser Reported Under Special",
+ "title": "61 10 and Local Laws",
  "listing_title": "Cases Reported under Special and Local Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-10-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-10-1973.pdf",
  "source_sha256": "550e3a30e9fcbce0b0a1c94f12b0059825b432d553874e3bdcdba766b1983535",
  "table_no": "",
- "pdf_title": "Caser Reported Under Special",
- "row_label": "Staten/U.Ts./Cities SI, No. / Ti / - ¥",
+ "pdf_title": "61 10 and Local Laws",
+ "row_label": "Gambling Act I",
  "pages": [
-  1
+  2
  ],
- "n_rows": 37,
- "n_cols": 2,
- "n_cells": 67,
+ "n_rows": 41,
+ "n_cols": 7,
+ "n_cells": 287,
  "columns": [
   {
-   "col_no": "4",
-   "name": "- | I",
+   "col_no": "2",
+   "name": "Gambling Act | V",
    "header": [
-    "-",
+    "Gambling Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Excise Act | I",
+   "header": [
+    "Excise Act",
     "I"
    ]
   },
   {
-   "col_no": "5",
-   "name": "- | Ace ¥",
+   "col_no": "4",
+   "name": "Excise Act | V",
    "header": [
-    "-",
-    "Ace ¥"
+    "Excise Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Customs Act | I",
+   "header": [
+    "Customs Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Customs Act | V",
+   "header": [
+    "Customs Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Explosives Act and Explosives Substance Act | I",
+   "header": [
+    "Explosives Act and Explosives Substance Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Explosives Act and Explosives Substance Act | V",
+   "header": [
+    "Explosives Act and Explosives Substance Act",
+    "V"
    ]
   }
  ],
- "notes": [
-  "Note ofceimp, Ver per eS Shes."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -50,7 +88,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

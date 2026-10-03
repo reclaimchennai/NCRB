@@ -8,21 +8,28 @@
  "serial": "56",
  "title": "Percentage Distribution of Cognizable Crimes (SLL) under Different Crime Heads (1990-1994)",
  "listing_title": "Percentage Distribution of Cognizable Crimes (SLL) under Different Crime Heads (1990-1994)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table11-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table11-1994_2.pdf",
  "source_sha256": "ba1f63b8209a8d6882f9a31a20809ccedc5c5f856ec76cb1ae1c38499749a080",
  "table_no": "11",
- "pdf_title": "PERCENTAGE DISTRIBUTION OF COGNIZABLE CRIMES (SLL) UNDER DIFFERENT CRIME HEADS (1990-1994)",
- "row_label": "SL.NO. / CRIME HEAD / 1990",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-11",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 16,
- "n_cols": 4,
- "n_cells": 64,
+ "n_rows": 17,
+ "n_cols": 5,
+ "n_cells": 85,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "1990",
+   "header": [
+    "1990"
+   ]
+  },
   {
    "col_no": "4",
    "name": "1991",
@@ -52,9 +59,7 @@
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

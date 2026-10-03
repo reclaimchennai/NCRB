@@ -6,23 +6,22 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1994",
  "serial": "5",
- "title": "Number of Inopportune Deaths and its Share and Rate During 1993 and 1994",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 12 Number of Inopportune Deaths and its Share and Rate During 1993 and 1994 (City-wise)",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/excerpts-1994.pdf",
  "source_file": "raw/adsi/1994/year_wise/excerpts-1994.pdf",
  "source_sha256": "7b671c57f0ab574824594bd53186958d7a33c68cb4cc6e83408352d48ceb0bbf",
  "table_no": "",
- "pdf_title": "Number of Inopportune Deaths and its Share and Rate During 1993 and 1994",
- "row_label": "S!. No. / State/UT",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 12 Number of Inopportune Deaths and its Share and Rate During 1993 and 1994 (City-wise)",
+ "row_label": "Sl. No. / City",
  "pages": [
-  5,
   6
  ],
- "n_rows": 58,
+ "n_rows": 23,
  "n_cols": 11,
- "n_cells": 634,
+ "n_cells": 253,
  "columns": [
   {
    "col_no": "3",
@@ -42,84 +41,81 @@
   },
   {
    "col_no": "5",
-   "name": "(State | Total",
+   "name": "1993 | Total",
    "header": [
-    "(State",
+    "1993",
     "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "(State | Percentage share pa 1993",
+   "name": "Percentage share to total deaths (1993)",
    "header": [
-    "(State",
-    "Percentage share pa 1993"
+    "Percentage share to total deaths (1993)"
    ]
   },
   {
    "col_no": "7",
-   "name": "& Suicides",
+   "name": "1994 | Suicides",
    "header": [
-    "& Suicides"
+    "1994",
+    "Suicides"
    ]
   },
   {
    "col_no": "8",
-   "name": "UT-wise) 1994 Accidents",
+   "name": "1994 | Accidents",
    "header": [
-    "UT-wise) 1994 Accidents"
+    "1994",
+    "Accidents"
    ]
   },
   {
    "col_no": "9",
-   "name": "Total",
+   "name": "1994 | Total",
    "header": [
+    "1994",
     "Total"
    ]
   },
   {
    "col_no": "10",
-   "name": "Percentage share hee (1994)",
+   "name": "Percentage share in total deaths (1994)",
    "header": [
-    "Percentage share hee (1994)"
+    "Percentage share in total deaths (1994)"
    ]
   },
   {
    "col_no": "11",
-   "name": "- Estimated Mid-Year (In Lakh) 1994",
+   "name": "Estimated Mid-Year Population (In Lakh) 1994",
    "header": [
-    "- Estimated Mid-Year (In Lakh) 1994"
+    "Estimated Mid-Year Population (In Lakh) 1994"
    ]
   },
   {
    "col_no": "12",
-   "name": "Rate of Inopportune Deaths Per in 1994",
+   "name": "Rate of Inopportune Deaths Per 000' of Population in 1994",
    "header": [
-    "Rate of Inopportune Deaths Per in 1994"
+    "Rate of Inopportune Deaths Per 000' of Population in 1994"
    ]
   },
   {
    "col_no": "13",
-   "name": "Percentage variaover 1993",
+   "name": "Percentage variation in 1994 over 1993",
    "header": [
-    "Percentage variaover 1993"
+    "Percentage variation in 1994 over 1993"
    ]
   }
  ],
- "notes": [
-  "@ -indicates infinite variation"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 3,
-  "failures": [
-   "col 3 'TOTAL (States)': printed 82518, sum 82499",
-   "col 9 'TOTAL (States)': printed 270134, sum 258392"
-  ],
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

@@ -1,0 +1,180 @@
+{
+ "table_id": "cii/1999/20_table-20-1999_t20a_2",
+ "publication": "cii",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "20",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 20A",
+ "listing_title": "Disposal of IPC Crime Cases by Courts During 1999",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20-1999.pdf",
+ "source_file": "raw/cii/1999/table_content/table-20-1999.pdf",
+ "source_sha256": "49d494c0b0a8dc4d0d431c082d5e0821d81255e86e21e2bd1769067b5c0b83d3",
+ "table_no": "20A",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 20A",
+ "row_label": "SL.NO. / STATE/UT",
+ "pages": [
+  6,
+  7
+ ],
+ "n_rows": 37,
+ "n_cols": 15,
+ "n_cells": 525,
+ "columns": [
+  {
+   "col_no": "30",
+   "name": "DISPOSAL OF CASES UNDER | ROBBERY | CF",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "ROBBERY",
+    "CF"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "DISPOSAL OF CASES UNDER | ROBBERY | TR",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "ROBBERY",
+    "TR"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "DISPOSAL OF CASES UNDER | ROBBERY | TL",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "ROBBERY",
+    "TL"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "DISPOSAL OF CASES UNDER | RIOT | CF",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "RIOT",
+    "CF"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "DISPOSAL OF CASES UNDER | RIOT | TR",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "RIOT",
+    "TR"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "DISPOSAL OF CASES UNDER | RIOT | TL",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "RIOT",
+    "TL"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "DISPOSAL OF CASES UNDER | ARSON | CF",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "ARSON",
+    "CF"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "DISPOSAL OF CASES UNDER | ARSON | TR",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "ARSON",
+    "TR"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "DISPOSAL OF CASES UNDER | ARSON | TL",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "ARSON",
+    "TL"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "DISPOSAL OF CASES UNDER | DOWRY DEATH | CF",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "DOWRY DEATH",
+    "CF"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "DISPOSAL OF CASES UNDER | DOWRY DEATH | TR",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "DOWRY DEATH",
+    "TR"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "DISPOSAL OF CASES UNDER | DOWRY DEATH | TL",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "DOWRY DEATH",
+    "TL"
+   ]
+  },
+  {
+   "col_no": "42",
+   "name": "DISPOSAL OF CASES UNDER | TOTAL | CF",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "TOTAL",
+    "CF"
+   ]
+  },
+  {
+   "col_no": "43",
+   "name": "DISPOSAL OF CASES UNDER | TOTAL | TR",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "TOTAL",
+    "TR"
+   ]
+  },
+  {
+   "col_no": "44",
+   "name": "DISPOSAL OF CASES UNDER | TOTAL | TL",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "TOTAL",
+    "TL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 45,
+  "cells_passed": 40,
+  "failures": [
+   "col 40 'TOTAL STATES': printed 3700, sum 3674",
+   "col 41 'TOTAL STATES': printed 3711, sum 3685",
+   "col 42 'TOTAL STATES': printed 2253, sum 2196",
+   "col 43 'TOTAL STATES': printed 139934, sum 136898",
+   "col 44 'TOTAL STATES': printed 142187, sum 139094"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

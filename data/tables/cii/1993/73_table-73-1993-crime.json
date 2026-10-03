@@ -8,98 +8,126 @@
  "serial": "73",
  "title": "Police Personnel Killed or Injured on Duty During 1993 (State, UT & City-Wise)",
  "listing_title": "Police Personnel Killed or Injured on Duty During 1993 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-73-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-73-1993-crime.pdf",
  "source_sha256": "bc069b681f881e23f05b0b8da5e403c85c2d1632dbcc2ebd478a04f2721b05c1",
  "table_no": "73",
- "pdf_title": "POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1993",
- "row_label": "(9) 12 53 ie} 52 4 41 21 29 142 4 3 14 0 Oo a 534 6 1 400 10 35 496 23 1 1 12)",
+ "pdf_title": "313 TABLE-73 POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1993 (STATE, UT & CITY-WISE)",
+ "row_label": "Sl. NO. / STATE/UT",
  "pages": [
   1,
   2,
-  3
+  3,
+  4
  ],
- "n_rows": 60,
- "n_cols": 10,
- "n_cells": 214,
+ "n_rows": 113,
+ "n_cols": 11,
+ "n_cells": 623,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "KILLED | IN DACOTY OPERATION OR OTHER RAIDS",
+   "header": [
+    "KILLED",
+    "IN DACOTY OPERATION OR OTHER RAIDS"
+   ]
   },
   {
    "col_no": "4",
-   "name": "(STATE,UT & CITY-WISE) (4)",
+   "name": "KILLED | BY ROTOUR MDES",
    "header": [
-    "(STATE,UT & CITY-WISE)"
+    "KILLED",
+    "BY ROTOUR MDES"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE,UT & CITY-WISE) (5)",
+   "name": "KILLED | BY OTHER DRIME NALS",
    "header": [
-    "(STATE,UT & CITY-WISE)"
+    "KILLED",
+    "BY OTHER DRIME NALS"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "KILLED | ON BORDER OUTBES",
+   "header": [
+    "KILLED",
+    "ON BORDER OUTBES"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "KILLED | IN ACCIDENTS",
+   "header": [
+    "KILLED",
+    "IN ACCIDENTS"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
-  },
-  {
-   "col_no": "10001",
-   "name": "(10) 80 4 16 26 3 21 2 386 42 117 a4 192 14 ie)",
+   "name": "KILLED | TOTAL",
    "header": [
-    "(10) 80 4 16 26 3 21 2 386 42 117 a4 192 14 ie)"
+    "KILLED",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "(11) 4 ie) ie} 7 2 Le] 0 0 2 1 10 fe) ie)",
+   "col_no": "11",
+   "name": "INHIBED | BY HIGTUG MOB",
    "header": [
-    "(11) 4 ie) ie} 7 2 Le] 0 0 2 1 10 fe) ie)"
+    "INHIBED",
+    "BY HIGTUG MOB"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "(12) 22 2 1 14 1 35 13 1 8 55 53 14 99 1 0",
+   "col_no": "12",
+   "name": "INHIBED | BY OTHER CHINA RALS",
    "header": [
-    "(12) 22 2 1 14 1 35 13 1 8 55 53 14 99 1 0"
+    "INHIBED",
+    "BY OTHER CHINA RALS"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "(13) (2) (14) STATES: 171 ANDHRA PRADESH 6 ARUNACHAL PRADESH 72 ASSAM 102 BIHAR 33 GOA 209 GUJARAT HARYANA 40 1 HIMACHAL PRADESH 398 JAMMU & KASHMIR 637 KARNATAKA 573 KERALA 104 MADHYA PRADESH 820 MAHARASHTRA 17 MANIPUR MEGHALAYA",
+   "col_no": "13",
+   "name": "INHIBED | ON BORDER DUTIES",
    "header": [
-    "(13) (2) (14) STATES: 171 ANDHRA PRADESH 6 ARUNACHAL PRADESH 72 ASSAM 102 BIHAR 33 GOA 209 GUJARAT HARYANA 40 1 HIMACHAL PRADESH 398 JAMMU & KASHMIR 637 KARNATAKA 573 KERALA 104 MADHYA PRADESH 820 MAHARASHTRA 17 MANIPUR MEGHALAYA"
+    "INHIBED",
+    "ON BORDER DUTIES"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "INHIBED | IN ACCIDENTS",
+   "header": [
+    "INHIBED",
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "INHIBED | TOTAL",
+   "header": [
+    "INHIBED",
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "55 VISHAKHAPATNAM 0 1) oO",
-  "42A—177 NCRB/95."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 15,
+  "cells_passed": 12,
+  "failures": [
+   "col 7 'TOTAL (ALL INDIA)': printed 284, sum 296",
+   "col 8 'TOTAL (STATES)': printed 603, sum 605",
+   "col 8 'TOTAL (ALL INDIA)': printed 603, sum 615"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

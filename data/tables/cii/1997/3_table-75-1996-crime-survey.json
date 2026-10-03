@@ -8,72 +8,74 @@
  "serial": "3",
  "title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1997",
  "listing_title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-75-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-75-1996-crime-survey.pdf",
  "source_sha256": "c42d93c8646d06d3e9a3dbf29d2dbd32a779b7a056c435a4ef95f3304167e095",
  "table_no": "75",
- "pdf_title": "",
- "row_label": "DISPOSAL OF PERSONS - CRIME HEAD SL. NO mM)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-75",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 27,
+ "n_rows": 23,
  "n_cols": 7,
- "n_cells": 152,
+ "n_cells": 161,
  "columns": [
   {
    "col_no": "3",
-   "name": "DISPOSAL OF PERSONS | TOTAL NO, OF PERSONS UNDER ARREST* INCLUDING pa vious YEAR",
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "DISPOSAL OF PERSONS",
-    "TOTAL NO, OF PERSONS UNDER ARREST* INCLUDING pa vious YEAR"
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNOER SL. CHIMES BY POLICE DUhiNG | PERSONS RELEASED BEFORE TRIAL",
+   "name": "PERSONS RELEASED BEFORE TRIAL | NO.",
    "header": [
-    "UNOER SL. CHIMES BY POLICE DUhiNG",
-    "PERSONS RELEASED BEFORE TRIAL"
+    "PERSONS RELEASED BEFORE TRIAL",
+    "NO."
    ]
   },
   {
    "col_no": "5",
-   "name": "UNOER SL. CHIMES BY POLICE DUhiNG | PERCENTOTAL",
+   "name": "PERSONS RELEASED BEFORE TRIAL | PERCENTAGE TO TOTAL",
    "header": [
-    "UNOER SL. CHIMES BY POLICE DUhiNG",
-    "PERCENTOTAL"
+    "PERSONS RELEASED BEFORE TRIAL",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNOER SL. CHIMES BY POLICE DUhiNG | PERSONS CHARGESHEETED -",
+   "name": "PERSONS CHARGE-SHEETED | NO.",
    "header": [
-    "UNOER SL. CHIMES BY POLICE DUhiNG",
-    "PERSONS CHARGESHEETED -"
+    "PERSONS CHARGE-SHEETED",
+    "NO."
    ]
   },
   {
    "col_no": "7",
-   "name": "1997 PERCEN- “0 TOTAL",
+   "name": "PERSONS CHARGE-SHEETED | PERCENTAGE TO TOTAL",
    "header": [
-    "1997 PERCEN- “0 TOTAL"
+    "PERSONS CHARGE-SHEETED",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR NO:",
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | NO.",
    "header": [
-    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR NO:"
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+    "NO."
    ]
   },
   {
    "col_no": "9",
-   "name": "- PERCENTOTAL",
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | PERCENTAGE TO TOTAL",
    "header": [
-    "- PERCENTOTAL"
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+    "PERCENTAGE TO TOTAL"
    ]
   }
  ],
@@ -82,8 +84,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

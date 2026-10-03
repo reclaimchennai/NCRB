@@ -8,50 +8,55 @@
  "serial": "34",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During the Year 1976; Juveniles Apprehended",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During the Year 1976; Juveniles Apprehended",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table 42-43-1976.pdf",
  "source_file": "raw/cii/1976/table_content/table 42-43-1976.pdf",
  "source_sha256": "092074c8ca237c24dc12ff9745f5c08e6588acf88fefe5e85602eff1ff2b92b7",
- "table_no": "",
- "pdf_title": "79",
- "row_label": "Taste",
+ "table_no": "42",
+ "pdf_title": "79 TABLE 42 Juveniles apprehended (by age group) for Committing Crimes under Indian Penal Code during the year 1976",
+ "row_label": "Sl. No. / Name of States/U.Ts./Cities",
  "pages": [
+  1,
   1
  ],
- "n_rows": 32,
+ "n_rows": 45,
  "n_cols": 5,
- "n_cells": 132,
+ "n_cells": 220,
  "columns": [
   {
    "col_no": "3",
-   "name": "42",
+   "name": "7-12 Years",
    "header": [
-    "42"
+    "7-12 Years"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "12-16 Years",
+   "header": [
+    "12-16 Years"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "16-18 Years",
+   "header": [
+    "16-18 Years"
+   ]
   },
   {
    "col_no": "6",
-   "name": "Tante",
+   "name": "18-21 Years",
    "header": [
-    "Tante"
+    "18-21 Years"
    ]
   },
   {
    "col_no": "7",
-   "name": "43",
+   "name": "Total",
    "header": [
-    "43"
+    "Total"
    ]
   }
  ],
@@ -60,10 +65,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

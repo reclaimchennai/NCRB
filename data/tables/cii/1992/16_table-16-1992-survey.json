@@ -8,56 +8,58 @@
  "serial": "16",
  "title": "Percentage of IPC Crime Cases Disposed of by Courts During 1992",
  "listing_title": "Percentage of IPC Crime Cases Disposed of by Courts During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-16-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-16-1992-survey.pdf",
  "source_sha256": "50f5adbeb928dd82461be2e26a8d30cca87b286f7761464a895d471a48170562",
  "table_no": "16",
- "pdf_title": "PERCENTAGE OF IPC CRIME CASES DISPOSED OF BY COURTS DURING 1992",
- "row_label": "NO.",
+ "pdf_title": "124 TABLE-16 PERCENTAGE OF IPC CRIME CASES DISPOSED OF BY COURTS DURING 1992",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 19,
+ "n_rows": 18,
  "n_cols": 5,
  "n_cells": 90,
  "columns": [
   {
-   "col_no": "2",
-   "name": "CASES | NDED OR WITHDRAWN",
-   "header": [
-    "CASES",
-    "NDED OR WITHDRAWN"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "CASES | CONVICTED",
+   "name": "PERCENTAGE OF CASES TO TOTALCASES FOR TRIAL | COMPOUNDEDORWITH-DRAWN",
    "header": [
-    "CASES",
-    "CONVICTED"
+    "PERCENTAGE OF CASES TO TOTALCASES FOR TRIAL",
+    "COMPOUNDEDORWITH-DRAWN"
    ]
   },
   {
    "col_no": "4",
-   "name": "FOR ACQUITOR TED Dis- CHARGED",
+   "name": "PERCENTAGE OF CASES TO TOTALCASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETEDCONVICTED ACQUIT-TED ORDIS-CHARGED",
    "header": [
-    "FOR ACQUITOR TED Dis- CHARGED"
+    "PERCENTAGE OF CASES TO TOTALCASES FOR TRIAL",
+    "IN WHICH TRIALS WERE COMPLETEDCONVICTED ACQUIT-TED ORDIS-CHARGED"
    ]
   },
   {
    "col_no": "5",
-   "name": "TRIAL ----+----------------------+--- TOTAL { (4) +(5)}",
+   "name": "PERCENTAGE OF CASES TO TOTALCASES FOR TRIAL | TOTAL{(4)+(5)}",
    "header": [
-    "TRIAL ----+----------------------+--- TOTAL { (4) +(5)}"
+    "PERCENTAGE OF CASES TO TOTALCASES FOR TRIAL",
+    "TOTAL{(4)+(5)}"
    ]
   },
   {
    "col_no": "6",
-   "name": "TRIAL",
+   "name": "PERCENTAGE OF CASES TO TOTALCASES FOR TRIAL | PENDINGTRIAL",
    "header": [
-    "TRIAL"
+    "PERCENTAGE OF CASES TO TOTALCASES FOR TRIAL",
+    "PENDINGTRIAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERCENTAGE OF CASES TO TOTALCASES FOR TRIAL",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTALCASES FOR TRIAL"
    ]
   }
  ],
@@ -69,7 +71,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

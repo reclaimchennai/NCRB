@@ -8,13 +8,13 @@
  "serial": "35",
  "title": "Juveniles Apprehended by Sex",
  "listing_title": "Juveniles Apprehended by Sex",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl36-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl36-1986.pdf",
  "source_sha256": "ceedfec78e753dfdec7ebcdc27776ee408d7dbb9c7fb7419853d64a154036b46",
  "table_no": "36",
- "pdf_title": "",
+ "pdf_title": "77 TABLE 36 Juveniles apprehended by sex",
  "row_label": "Years",
  "pages": [
   1
@@ -25,16 +25,16 @@
  "columns": [
   {
    "col_no": "2",
-   "name": "Juveniles Boys",
+   "name": "Boys",
    "header": [
-    "Juveniles Boys"
+    "Boys"
    ]
   },
   {
    "col_no": "3",
-   "name": "by sex Girls",
+   "name": "Girls",
    "header": [
-    "by sex Girls"
+    "Girls"
    ]
   },
   {
@@ -46,9 +46,9 @@
   },
   {
    "col_no": "5",
-   "name": "Peicentage of Girls",
+   "name": "Percentage of Girls",
    "header": [
-    "Peicentage of Girls"
+    "Percentage of Girls"
    ]
   }
  ],

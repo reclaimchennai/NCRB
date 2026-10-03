@@ -8,37 +8,40 @@
  "serial": "28",
  "title": "Number of Persons Arrested by Sex During the Year 1971",
  "listing_title": "Number of Persons Arrested by Sex During the Year 1971",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15-1971.pdf",
  "source_file": "raw/cii/1971/table_content/table-15-1971.pdf",
  "source_sha256": "8f9dd5248992a874aa8cda2e9d4a4484019f78323ad1d73996e9fdc995228f10",
  "table_no": "15",
- "pdf_title": "Number of persons Arrested by Sex during the year 1971",
- "row_label": "Si. No. / States/U.T.s/Cities",
+ "pdf_title": "37 TABLE 15 Number of persons Arrested by Sex during the year 1971",
+ "row_label": "Sl. No. / States/U.T.s/Cities",
  "pages": [
   1,
   2,
+  3,
+  3,
+  3,
   3
  ],
- "n_rows": 55,
- "n_cols": 23,
- "n_cells": 723,
+ "n_rows": 48,
+ "n_cols": 26,
+ "n_cells": 909,
  "columns": [
   {
    "col_no": "3",
-   "name": "Total | Male",
+   "name": "Total Cognizable-Crime | Male",
    "header": [
-    "Total",
+    "Total Cognizable-Crime",
     "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "Total | Cagnizahle- Crime Female",
+   "name": "Total Cognizable-Crime | Female",
    "header": [
-    "Total",
-    "Cagnizahle- Crime Female"
+    "Total Cognizable-Crime",
+    "Female"
    ]
   },
   {
@@ -59,63 +62,62 @@
   },
   {
    "col_no": "7",
-   "name": "Murder | Culpable Homicide not amounting to Murder | Male",
+   "name": "Culpable Homicide not amounting to Murder | Male",
    "header": [
-    "Murder",
     "Culpable Homicide not amounting to Murder",
     "Male"
    ]
   },
   {
    "col_no": "8",
-   "name": "Murder | Culpable Homicide not amounting to Murder | Female",
+   "name": "Culpable Homicide not amounting to Murder | Female",
    "header": [
-    "Murder",
     "Culpable Homicide not amounting to Murder",
     "Female"
    ]
   },
   {
    "col_no": "9",
-   "name": "Rape | Male",
+   "name": "Rapc | Male",
    "header": [
-    "Rape",
+    "Rapc",
     "Male"
    ]
   },
   {
    "col_no": "10",
-   "name": "Rape | Female",
+   "name": "Rapc | Female",
    "header": [
-    "Rape",
+    "Rapc",
     "Female"
    ]
   },
   {
-   "col_no": "11",
-   "name": "S ates/U.T.s/Cities Male",
+   "col_no": "10001",
+   "name": "Kidnapping & Abduction | Male",
    "header": [
-    "S ates/U.T.s/Cities Male"
+    "Kidnapping & Abduction",
+    "Male"
    ]
   },
   {
-   "col_no": "12",
-   "name": "Dacoity | Kidnapping Abduction Female",
+   "col_no": "10002",
+   "name": "Kidnapping & Abduction | Female",
    "header": [
-    "Dacoity",
-    "Kidnapping Abduction Female"
+    "Kidnapping & Abduction",
+    "Female"
    ]
   },
   {
-   "col_no": "13",
-   "name": "Dacoity | Male (13)",
+   "col_no": "10003",
+   "name": "Dacoity | Male",
    "header": [
     "Dacoity",
     "Male"
    ]
   },
   {
-   "col_no": "14",
+   "col_no": "10004",
    "name": "Dacoity | Female",
    "header": [
     "Dacoity",
@@ -123,90 +125,115 @@
    ]
   },
   {
-   "col_no": "15",
-   "name": "Dacoity | Male (15)",
+   "col_no": "10005",
+   "name": "Robbery | Male",
    "header": [
-    "Dacoity",
+    "Robbery",
     "Male"
    ]
   },
   {
-   "col_no": "16",
-   "name": "Female",
+   "col_no": "10006",
+   "name": "Robbery | Female",
    "header": [
+    "Robbery",
     "Female"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Burglary | Male 2",
-   "header": [
-    "Burglary",
-    "Male 2"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Burglary | Female 3",
-   "header": [
-    "Burglary",
-    "Female 3"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Thefts Male 4",
-   "header": [
-    "Thefts Male 4"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Riots Female 5",
-   "header": [
-    "Riots Female 5"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "Cheating | Criminal Breach of Trust Male 6",
-   "header": [
-    "Cheating",
-    "Criminal Breach of Trust Male 6"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "Cheating | Female 7 11",
-   "header": [
-    "Cheating",
-    "Female 7 11"
-   ]
-  },
-  {
    "col_no": "10007",
-   "name": "Cheating | Female MaleFcmale Male 8 12",
+   "name": "Burglary | Male",
    "header": [
-    "Cheating",
-    "Female MaleFcmale Male 8 12"
+    "Burglary",
+    "Male"
    ]
   },
   {
    "col_no": "10008",
-   "name": "Cheating | Counterfeiting | Male 9 43",
+   "name": "Burglary | Female",
    "header": [
-    "Cheating",
-    "Counterfeiting",
-    "Male 9 43"
+    "Burglary",
+    "Female"
    ]
   },
   {
    "col_no": "10009",
-   "name": "Cheating | Counterfeiting | 14 10",
+   "name": "Thefts | Male",
+   "header": [
+    "Thefts",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10010",
+   "name": "Thefts | Female",
+   "header": [
+    "Thefts",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "Riots | Male",
+   "header": [
+    "Riots",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10012",
+   "name": "Riots | Female",
+   "header": [
+    "Riots",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10013",
+   "name": "Criminal Breach of Trust | Male",
+   "header": [
+    "Criminal Breach of Trust",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10014",
+   "name": "Criminal Breach of Trust | Female",
+   "header": [
+    "Criminal Breach of Trust",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Cheating | Male",
    "header": [
     "Cheating",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Cheating | Female",
+   "header": [
+    "Cheating",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Counterfeiting | Male",
+   "header": [
     "Counterfeiting",
-    "14 10"
+    "Male"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Counterfeiting | Female",
+   "header": [
+    "Counterfeiting",
+    "Female"
    ]
   }
  ],
@@ -215,10 +242,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 8,
-  "other_totals_passed": 2
+  "other_totals_checked": 39,
+  "other_totals_passed": 21
  },
- "inferred_pages": 1,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 6,
  "warnings": []
 }

@@ -8,68 +8,66 @@
  "serial": "87",
  "title": "Persons Arrested Under Special & Local Laws (SLL) During 1997 (Crime–Head & Sex-Wise)",
  "listing_title": "Persons Arrested Under Special & Local Laws (SLL) During 1997 (Crime–Head & Sex-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-67-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-67-1996-crime-survey.pdf",
  "source_sha256": "28c5eab90faaf6bcf77f4f5c87b2becb0deb200a5e4ed4907e4e9c61b9fb8425",
  "table_no": "67",
- "pdf_title": "",
- "row_label": "PERSONS ae / PERSONS CRIME HEAD / PERSONS UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1997 & SEX-WISE) MALE",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-67",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 23,
- "n_cols": 4,
- "n_cells": 81,
+ "n_cols": 5,
+ "n_cells": 115,
  "columns": [
   {
-   "col_no": "4",
-   "name": "PERSONS | UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1997 & SEX-WISE) | FEMALE",
+   "col_no": "3",
+   "name": "MALE",
    "header": [
-    "PERSONS",
-    "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1997 & SEX-WISE)",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "FEMALE",
+   "header": [
     "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERSONS | UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1997 & SEX-WISE) | TOTAL",
+   "name": "TOTAL",
    "header": [
-    "PERSONS",
-    "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1997 & SEX-WISE)",
     "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERSONS | UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1997 & SEX-WISE) | PERCENTAGE TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL | MALE",
    "header": [
-    "PERSONS",
-    "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1997 & SEX-WISE)",
-    "PERCENTAGE TO TOTAL"
+    "PERCENTAGE TO TOTAL",
+    "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "PERSONS | UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1997 & SEX-WISE) | PERCENTAGE TO TOTAL | MALE FEMALE",
+   "name": "PERCENTAGE TO TOTAL | FEMALE",
    "header": [
-    "PERSONS",
-    "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1997 & SEX-WISE)",
     "PERCENTAGE TO TOTAL",
-    "MALE FEMALE"
+    "FEMALE"
    ]
   }
  ],
- "notes": [
-  "Note Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

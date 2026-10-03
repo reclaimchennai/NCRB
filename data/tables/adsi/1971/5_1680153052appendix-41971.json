@@ -8,40 +8,82 @@
  "serial": "5",
  "title": "Statement of Number of Suicides in States/UTs./Cities - 1971 (By Age groups)",
  "listing_title": "Statement of Number of Suicides in States/UTs./Cities - 1971 (By Age groups)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680153052appendix-41971.pdf",
  "source_file": "raw/adsi/1971/table_content/1680153052appendix-41971.pdf",
  "source_sha256": "44a1679f903d7317ea9226efd8dda16b279bd3963123fd5268a6ac3a4f220165",
  "table_no": "",
- "pdf_title": "8& cD as",
- "row_label": "- 5 w < - a 2 Z Z x z - , as Al Ze > 5 Zz a 1 ° - 2 / on pee se 22 fh Bo gee 248 bike vam 12 ats Ee 8 3 ! / g Es Oo Ag ni",
+ "pdf_title": "38 APPENDIX IV STATEMENT OF NUMBER OF SUICIDES IN STATES/UNION TERRITORIES/ CITIES DURING 1971 (By AGE GROUPS)",
+ "row_label": "Sl. No. / Names of States/ Union Territories and Cities",
  "pages": [
   1
  ],
- "n_rows": 9,
- "n_cols": 3,
- "n_cells": 14,
+ "n_rows": 21,
+ "n_cols": 9,
+ "n_cells": 189,
  "columns": [
   {
-   "col_no": "4",
-   "name": "* a ge one BR AA SS Q2-",
+   "col_no": "3",
+   "name": "Persons below 18 years",
    "header": [
-    "* a ge one BR AA SS Q2-"
+    "Persons below 18 years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percent-age to total (4)",
+   "header": [
+    "Percent-age to total"
    ]
   },
   {
    "col_no": "5",
-   "name": "- a8se - & ‘A33z ra Sy - ARS - - he 33-7 $5 6g2an™ 28 Sin - eanas¢ - a ON Nn - oo ™",
+   "name": "Persons between 18 to 30 years",
    "header": [
-    "- a8se - & ‘A33z ra Sy - ARS - - he 33-7 $5 6g2an™ 28 Sin - eanas¢ - a ON Nn - oo ™"
+    "Persons between 18 to 30 years"
    ]
   },
   {
    "col_no": "6",
-   "name": "lwo wy - - - - oo Sed AMS ) a) on - - - - - aE - ed Ne) + Pare is - 3 - N nal - gL M a -",
+   "name": "Percent-age to total (6)",
    "header": [
-    "lwo wy - - - - oo Sed AMS ) a) on - - - - - aE - ed Ne) + Pare is - 3 - N nal - gL M a -"
+    "Percent-age to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Persons between 30 to 50 years",
+   "header": [
+    "Persons between 30 to 50 years"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percent-age to total (8)",
+   "header": [
+    "Percent-age to total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Persons above 50 years",
+   "header": [
+    "Persons above 50 years"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Percent-age to total (10)",
+   "header": [
+    "Percent-age to total"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Over all age group",
+   "header": [
+    "Over all age group"
    ]
   }
  ],
@@ -50,10 +92,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

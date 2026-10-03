@@ -8,46 +8,39 @@
  "serial": "72",
  "title": "Persons Arrested under IPC Crimes During 1994 and Percentage Variation in 1994 over 1993 (State, UT & City-Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1994 and Percentage Variation in 1994 over 1993 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table27-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table27-1994_2.pdf",
  "source_sha256": "9b1c3cf3092240fbc3ae61b0e97d3d10ee0bdc7055fcc549dd4147df717c8400",
  "table_no": "27",
- "pdf_title": "",
- "row_label": "SL. NO. / PERSONS STATE/UT/CITY",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-27",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 45,
+ "n_rows": 58,
  "n_cols": 4,
- "n_cells": 108,
+ "n_cells": 231,
  "columns": [
   {
    "col_no": "3",
-   "name": "LE UNDER IPC CRIMES DURING 1994 AND | PERCENTAGE VARIATION IN | 1393",
+   "name": "1993",
    "header": [
-    "LE UNDER IPC CRIMES DURING 1994 AND",
-    "PERCENTAGE VARIATION IN",
-    "1393"
+    "1993"
    ]
   },
   {
    "col_no": "4",
-   "name": "LE UNDER IPC CRIMES DURING 1994 AND | PERCENTAGE VARIATION IN | 1994 OVER 1993 | & 994",
+   "name": "1994",
    "header": [
-    "LE UNDER IPC CRIMES DURING 1994 AND",
-    "PERCENTAGE VARIATION IN",
-    "1994 OVER 1993",
-    "& 994"
+    "1994"
    ]
   },
   {
    "col_no": "5",
-   "name": "LE UNDER IPC CRIMES DURING 1994 AND | 1994 OVER 1993 | PERCENTAGE VARIATION IN 1994 OVER 1993",
+   "name": "PERCENTAGE VARIATION IN 1994 OVER 1993",
    "header": [
-    "LE UNDER IPC CRIMES DURING 1994 AND",
-    "1994 OVER 1993",
     "PERCENTAGE VARIATION IN 1994 OVER 1993"
    ]
   },
@@ -59,14 +52,13 @@
    ]
   }
  ],
- "notes": [
-  "Note: 1. variation and contribution less than 0.05 is also shown as 0.0.",
-  "2. NR stands for data not rece:ved"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 6,
+  "cells_passed": 5,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 38970, sum 38940"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

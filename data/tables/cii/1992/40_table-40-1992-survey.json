@@ -8,101 +8,93 @@
  "serial": "40",
  "title": "Juveniles Apprehended under IPC & LSL Crimes by Age Groups 1982-92",
  "listing_title": "Juveniles Apprehended under IPC & LSL Crimes by Age Groups 1982-92",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-40-1992-survey.pdf",
  "source_sha256": "cfb0ff24d6f0b0824be213afa8bbcdc3aec66dcc5c3db79725ecc69c87e8bd02",
  "table_no": "40",
- "pdf_title": "JUVENILES Are=====0=: UNDER IPC & LSL CRIMES BY AGE GROUPS",
- "row_label": "1982-92 NO. / 1982-92 YEAR",
+ "pdf_title": "206 TABLE-40 JUVENILES APPREHENDED UNDER IPC & LSL CRIMES BY AGE GROUPS",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 13,
- "n_cols": 9,
- "n_cells": 106,
+ "n_rows": 17,
+ "n_cols": 10,
+ "n_cells": 123,
  "columns": [
   {
-   "col_no": "3",
-   "name": "1982-92 | 7-12 YEARS",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "1982-92",
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "7-12 YEARS",
+   "header": [
     "7-12 YEARS"
    ]
   },
   {
    "col_no": "4",
-   "name": "1982-92 | PEKCENTAGE TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL (4)",
    "header": [
-    "1982-92",
-    "PEKCENTAGE TO TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "1982-92 | 12-16 YEARS",
+   "name": "12-16 YEARS",
    "header": [
-    "1982-92",
     "12-16 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "1982-92 | PERCENTAGE TO TOTAL (6)",
+   "name": "PERCENTAGE TO TOTAL (6)",
    "header": [
-    "1982-92",
     "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "1982-92 | 16-18 YEARS",
+   "name": "16-18 YEARS",
    "header": [
-    "1982-92",
     "16-18 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "1982-92 | PERCENTAGE To TOTAL",
+   "name": "PERCENTAGE TO TOTAL (8)",
    "header": [
-    "1982-92",
-    "PERCENTAGE To TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "1982-92 | 18-21 YEARS",
+   "name": "18-21 YEARS",
    "header": [
-    "1982-92",
     "18-21 YEARS"
    ]
   },
   {
    "col_no": "10",
-   "name": "1982-92 | PERCENTAGE TO TOTAL (10)",
+   "name": "PERCENTAGE TO TOTAL (10)",
    "header": [
-    "1982-92",
     "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "1982-92 | OVERALL AGE GROUP",
+   "name": "OVERALL AGE GROUP",
    "header": [
-    "1982-92",
     "OVERALL AGE GROUP"
    ]
   }
  ],
- "notes": [
-  "In 1992 OVER",
-  "Notes: 1. 7-12 years means 7 years and above but below 12 years of age etc.",
-  "2. In 1988 and onwards as per new definition of juvenile 16-18 age group contain only girls and",
-  "18-21 age group is not at all considered as juveniles. For 16-18 age group, percentage change",
-  "in 1992 over 1982 is not worked out due to non-comparability of data."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

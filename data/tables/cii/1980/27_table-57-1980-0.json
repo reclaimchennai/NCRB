@@ -8,33 +8,33 @@
  "serial": "27",
  "title": "Police Personnel Killed or Injured by Various Ranks in India During the Year 1980",
  "listing_title": "Police Personnel Killed or Injured by Various Ranks in India During the Year 1980",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-57-1980_0.pdf",
  "source_file": "raw/cii/1980/table_content/table-57-1980_0.pdf",
  "source_sha256": "392e4d0f2ba506c439b435ae8240d92f74c9193f5db7fac7e790d552644d065a",
- "table_no": "37",
- "pdf_title": "",
- "row_label": "Palice si. Ranks Ba. 1.",
+ "table_no": "57",
+ "pdf_title": "138 TABLE 57 Police personnel killed or injured by various ranks in India during the year 1980",
+ "row_label": "Sl. No. / Ranks",
  "pages": [
   1
  ],
- "n_rows": 5,
+ "n_rows": 7,
  "n_cols": 2,
- "n_cells": 10,
+ "n_cells": 14,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Killed or injured by varlo== Killed eit",
+   "col_no": "3",
+   "name": "Killed",
    "header": [
-    "Killed or injured by varlo== Killed eit"
+    "Killed"
    ]
   },
   {
-   "col_no": "3",
-   "name": "in India during the year 198) Injured 3464",
+   "col_no": "4",
+   "name": "Injured",
    "header": [
-    "in India during the year 198) Injured 3464"
+    "Injured"
    ]
   }
  ],
@@ -43,10 +43,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

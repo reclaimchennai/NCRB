@@ -8,94 +8,91 @@
  "serial": "10",
  "title": "Distribution of Accidental Deaths (Natural causes & Un-natural causes) by Sex & Age Group during 1997 (State, UT & City-wise)",
  "listing_title": "Distribution of Accidental Deaths (Natural causes & Un-natural causes) by Sex & Age Group during 1997 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-4_1997.pdf",
  "source_file": "raw/adsi/1997/table_content/table-4_1997.pdf",
  "source_sha256": "6492ada7d8727a00363c43577f24d1bb1ea4957d5dbb5c2181d116039012f399",
  "table_no": "4",
- "pdf_title": "",
- "row_label": "Si. No.",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) TABLE-4",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2
  ],
- "n_rows": 69,
+ "n_rows": 59,
  "n_cols": 24,
- "n_cells": 1369,
+ "n_cells": 1416,
  "columns": [
   {
    "col_no": "3",
-   "name": "Distimuuen of | Male",
+   "name": "Upto 14 Years | Male",
    "header": [
-    "Distimuuen of",
+    "Upto 14 Years",
     "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "Distimuuen of | Female",
+   "name": "Upto 14 Years | Female",
    "header": [
-    "Distimuuen of",
+    "Upto 14 Years",
     "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "Distimuuen of | Upto 14 Years",
+   "name": "Upto 14 Years | Total",
    "header": [
-    "Distimuuen of",
-    "Upto 14 Years"
+    "Upto 14 Years",
+    "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "Deaths (Natural causes & Un-natural causes) | by Sex & Age Group during (State, UT & City-wise) | % to Total (Col.5/ 25)*100",
+   "name": "Upto 14 Years | % to Total (Col.5/25)*100",
    "header": [
-    "Deaths (Natural causes & Un-natural causes)",
-    "by Sex & Age Group during (State, UT & City-wise)",
-    "% to Total (Col.5/ 25)*100"
+    "Upto 14 Years",
+    "% to Total (Col.5/25)*100"
    ]
   },
   {
    "col_no": "7",
-   "name": "Deaths (Natural causes & Un-natural causes) | by Sex & Age Group during (State, UT & City-wise) | Male",
+   "name": "15-29 Years | Male",
    "header": [
-    "Deaths (Natural causes & Un-natural causes)",
-    "by Sex & Age Group during (State, UT & City-wise)",
+    "15-29 Years",
     "Male"
    ]
   },
   {
    "col_no": "8",
-   "name": "Deaths (Natural causes & Un-natural causes) | by Sex & Age Group during (State, UT & City-wise) | 15-29 Years Female",
+   "name": "15-29 Years | Female",
    "header": [
-    "Deaths (Natural causes & Un-natural causes)",
-    "by Sex & Age Group during (State, UT & City-wise)",
-    "15-29 Years Female"
+    "15-29 Years",
+    "Female"
    ]
   },
   {
    "col_no": "9",
-   "name": "Deaths (Natural causes & Un-natural causes) | 1997",
+   "name": "15-29 Years | Total",
    "header": [
-    "Deaths (Natural causes & Un-natural causes)",
-    "1997"
+    "15-29 Years",
+    "Total"
    ]
   },
   {
    "col_no": "10",
-   "name": "Deaths (Natural causes & Un-natural causes) | % to Total —«(Col.9/ 25) *100",
+   "name": "15-29 Years | % to Total (Col.9/25) *100",
    "header": [
-    "Deaths (Natural causes & Un-natural causes)",
-    "% to Total —«(Col.9/ 25) *100"
+    "15-29 Years",
+    "% to Total (Col.9/25) *100"
    ]
   },
   {
    "col_no": "11",
-   "name": "Deaths (Natural causes & Un-natural causes) | Male",
+   "name": "30-44 Years | Male",
    "header": [
-    "Deaths (Natural causes & Un-natural causes)",
+    "30-44 Years",
     "Male"
    ]
   },
@@ -109,17 +106,18 @@
   },
   {
    "col_no": "13",
-   "name": "30-44 Years | =‘ Total.",
+   "name": "30-44 Years | Total",
    "header": [
     "30-44 Years",
-    "=‘ Total."
+    "Total"
    ]
   },
   {
    "col_no": "14",
-   "name": "% to Total ~—(Col.13/ 25)*100",
+   "name": "30-44 Years | % to Total (Col.13/25)*100",
    "header": [
-    "% to Total ~—(Col.13/ 25)*100"
+    "30-44 Years",
+    "% to Total (Col.13/25)*100"
    ]
   },
   {
@@ -140,62 +138,54 @@
   },
   {
    "col_no": "17",
-   "name": "45-59 Years | - Total_~=«(Col.17/.",
+   "name": "45-59 Years | Total",
    "header": [
     "45-59 Years",
-    "- Total_~=«(Col.17/."
+    "Total"
    ]
   },
   {
    "col_no": "18",
-   "name": "45-59 Years | to Total 25)*100",
+   "name": "45-59 Years | to Total (Col.17/25)*100",
    "header": [
     "45-59 Years",
-    "to Total 25)*100"
+    "to Total (Col.17/25)*100"
    ]
   },
   {
    "col_no": "19",
-   "name": "60 Yeas & above | +=",
+   "name": "60 Years & above | Male",
    "header": [
-    "60 Yeas & above",
-    "+="
+    "60 Years & above",
+    "Male"
    ]
   },
   {
    "col_no": "20",
-   "name": "60 Yeas & above | Male.",
+   "name": "60 Years & above | Female",
    "header": [
-    "60 Yeas & above",
-    "Male."
+    "60 Years & above",
+    "Female"
    ]
   },
   {
    "col_no": "21",
-   "name": "60 Yeas & above | - Female",
+   "name": "60 Years & above | Total",
    "header": [
-    "60 Yeas & above",
-    "- Female"
+    "60 Years & above",
+    "Total"
    ]
   },
   {
    "col_no": "22",
-   "name": "60 Yeas & above | % to Total =Total. \"100",
+   "name": "60 Years & above | % to Total Col.21/25)*100",
    "header": [
-    "60 Yeas & above",
-    "% to Total =Total. \"100"
+    "60 Years & above",
+    "% to Total Col.21/25)*100"
    ]
   },
   {
    "col_no": "23",
-   "name": "Total | 25)",
-   "header": [
-    "Total",
-    "25)"
-   ]
-  },
-  {
-   "col_no": "24",
    "name": "Total | Male",
    "header": [
     "Total",
@@ -203,36 +193,35 @@
    ]
   },
   {
-   "col_no": "25",
-   "name": "Total | - Female.",
+   "col_no": "24",
+   "name": "Total | Female",
    "header": [
     "Total",
-    "- Female."
+    "Female"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "Total | Total",
+   "header": [
+    "Total",
+    "Total"
    ]
   },
   {
    "col_no": "26",
-   "name": "Total | Male % - Total. ~=—(Col.23/ 25)* 100",
+   "name": "Total | Male % (Col.23/25)*100",
    "header": [
     "Total",
-    "Male % - Total. ~=—(Col.23/ 25)* 100"
+    "Male % (Col.23/25)*100"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 44,
-  "cells_passed": 32,
-  "failures": [
-   "col 4 'TOTAL (UTs)': printed 194, sum 184",
-   "col 4 'TOTAL (Cities)': printed 798, sum 778",
-   "col 9 'TOTAL (States)': printed 69494, sum 69457",
-   "col 11 'TOTAL (Cities)': printed 7178, sum 7478",
-   "col 15 'TOTAL (UTs)': printed 970, sum 18987",
-   "col 15 'TOTAL (Cities)': printed 4217, sum 2920",
-   "col 16 'TOTAL (UTs)': printed 132, sum 129",
-   "col 16 'TOTAL (All-India)': printed 11003, sum 3.31771e+09"
-  ],
+  "cells_checked": 72,
+  "cells_passed": 72,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

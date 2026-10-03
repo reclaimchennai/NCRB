@@ -8,140 +8,185 @@
  "serial": "80",
  "title": "Escapes From Police Custody During 1999",
  "listing_title": "Escapes From Police Custody During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-80-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-80-1999.pdf",
  "source_sha256": "33fa33a2bc8f763d36fdb5e2d6e3ff6c633256d834295116ee802543dac0def2",
  "table_no": "80",
- "pdf_title": "ESCAPES FROM POLICE CUSTODY DURING 1999",
- "row_label": "SL. NO. (2) STATES. ANDHRA PRADESH 2 3 4 ‘BIHAR ‘GOA 5 6 / STATESUT NO.OF CASES REGIS- 224,225B) 3) ASSAM - GUJARAT / PERSONS ESCAPED TERED (U/S INABOVE (4) “3s 4a 4 s})066)0Ué<CS«z / ESCAPEES FROMLOCK PERSONS PERSONS ESCAPED ESCAPED FROM OUTSIDE THE LOCKUP LOCKUP (6) 32 3 off 6h 4 4",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 80",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 58,
- "n_cols": 13,
- "n_cells": 305,
+ "n_rows": 36,
+ "n_cols": 18,
+ "n_cells": 630,
  "columns": [
   {
-   "col_no": "5",
-   "name": "ESCAPEES FROMLOCK | ” gs 58 2 nm 26 1 peers 0 WS!",
+   "col_no": "3",
+   "name": "NO. OF CASES REGIS-TERED (U/S 224, 225B)",
    "header": [
-    "ESCAPEES FROMLOCK",
-    "” gs 58 2 nm 26 1 peers 0 WS!"
+    "NO. OF CASES REGIS-TERED (U/S 224, 225B)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO OF PERSONS ESCAPED IN ABOVE CASES",
+   "header": [
+    "NO OF PERSONS ESCAPED IN ABOVE CASES"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERSONS ESCAPED FROM LOCKUP",
+   "header": [
+    "PERSONS ESCAPED FROM LOCKUP"
    ]
   },
   {
    "col_no": "6",
-   "name": "OTHER ESCAPEES FINAL REPORT (8) 6 a 3 6. 6B “0 0 3 37",
+   "name": "PERSONS ESCAPED OUTSIDE THE LOCKUP",
    "header": [
-    "OTHER ESCAPEES FINAL REPORT (8) 6 a 3 6. 6B “0 0 3 37"
+    "PERSONS ESCAPED OUTSIDE THE LOCKUP"
    ]
   },
   {
    "col_no": "7",
-   "name": "NO.OF NO.OF CASES IN PERSONS CHARGEN SHEETED FOR OFFENCE OF ESCAPE (9) (10) 68 1 4 0 $63 61 97 i 3 33",
+   "name": "ESCAPEES FROM LOCK UP REARRESTED",
    "header": [
-    "NO.OF NO.OF CASES IN PERSONS CHARGEN SHEETED FOR OFFENCE OF ESCAPE (9) (10) 68 1 4 0 $63 61 97 i 3 33"
+    "ESCAPEES FROM LOCK UP REARRESTED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OTHER ESCAPEES REARRESTED",
+   "header": [
+    "OTHER ESCAPEES REARRESTED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF CASES IN WHICH FINAL REPORT SUBMITTED",
+   "header": [
+    "NO. OF CASES IN WHICH FINAL REPORT SUBMITTED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "NO. OF PERSONS CHARGED SHEETED FOR OFFENCE OF ESCAPE",
+   "header": [
+    "NO. OF PERSONS CHARGED SHEETED FOR OFFENCE OF ESCAPE"
    ]
   },
   {
    "col_no": "10001",
-   "name": "STATE/UT NO. TRIED CASES @) ANDHRAPRADESH",
+   "name": "DISPOSAL BY COURTS | NO. TRIED | CASES INVOLVED",
    "header": [
-    "STATE/UT NO. TRIED CASES @) ANDHRAPRADESH"
+    "DISPOSAL BY COURTS",
+    "NO. TRIED",
+    "CASES INVOLVED"
    ]
   },
   {
    "col_no": "10002",
-   "name": "DISPOSAL 3¥ COURTS | NOCF 3)",
+   "name": "DISPOSAL BY COURTS | NO. TRIED | NO OF PERSONS",
    "header": [
-    "DISPOSAL 3¥ COURTS",
-    "NOCF 3)"
+    "DISPOSAL BY COURTS",
+    "NO. TRIED",
+    "NO OF PERSONS"
    ]
   },
   {
    "col_no": "10003",
-   "name": "DISPOSAL 3¥ COURTS | NO. CONVICTED | CASES 6) 3a]",
+   "name": "DISPOSAL BY COURTS | NO. CONVICTED | CASES INVOLVED",
    "header": [
-    "DISPOSAL 3¥ COURTS",
+    "DISPOSAL BY COURTS",
     "NO. CONVICTED",
-    "CASES 6) 3a]"
+    "CASES INVOLVED"
    ]
   },
   {
    "col_no": "10004",
-   "name": "DISPOSAL 3¥ COURTS | NO. CONVICTED | NOOF 6) oo.",
+   "name": "DISPOSAL BY COURTS | NO. CONVICTED | NO OF PERSONS",
    "header": [
-    "DISPOSAL 3¥ COURTS",
+    "DISPOSAL BY COURTS",
     "NO. CONVICTED",
-    "NOOF 6) oo."
+    "NO OF PERSONS"
    ]
   },
   {
    "col_no": "10005",
-   "name": "DISPOSAL 3¥ COURTS | NO. ACQUITTED | CASES 2",
+   "name": "DISPOSAL BY COURTS | NO. ACQUITTED | CASES INVOLVED",
    "header": [
-    "DISPOSAL 3¥ COURTS",
+    "DISPOSAL BY COURTS",
     "NO. ACQUITTED",
-    "CASES 2"
+    "CASES INVOLVED"
    ]
   },
   {
    "col_no": "10006",
-   "name": "DISPOSAL 3¥ COURTS | NO. ACQUITTED | NOOP 8) 2",
+   "name": "DISPOSAL BY COURTS | NO. ACQUITTED | NO OF PERSONS",
    "header": [
-    "DISPOSAL 3¥ COURTS",
+    "DISPOSAL BY COURTS",
     "NO. ACQUITTED",
-    "NOOP 8) 2"
+    "NO OF PERSONS"
    ]
   },
   {
    "col_no": "10007",
-   "name": "PENDING FOR | CASES (9) “",
+   "name": "DISPOSAL BY COURTS | NO. PENDING FOR TRIAL | CASES INVOLVED",
    "header": [
-    "PENDING FOR",
-    "CASES (9) “"
+    "DISPOSAL BY COURTS",
+    "NO. PENDING FOR TRIAL",
+    "CASES INVOLVED"
    ]
   },
   {
    "col_no": "10008",
-   "name": "PENDING FOR | NOOF ao 4s",
+   "name": "DISPOSAL BY COURTS | NO. PENDING FOR TRIAL | NO OF PERSONS",
    "header": [
-    "PENDING FOR",
-    "NOOF ao 4s"
+    "DISPOSAL BY COURTS",
+    "NO. PENDING FOR TRIAL",
+    "NO OF PERSONS"
    ]
   },
   {
-   "col_no": "10009",
-   "name": "NO. OF PERSONS AWARDED ee ESCAPE | UPTO3 INVOLVED PERSONS INVOLVED PERSONS INVOLVED PERSONS INVOLVED PERSONS YEARS an wn",
+   "col_no": "11",
+   "name": "NO. OF PERSONS AWARDED IMPRISONMENT ON CHARGES OF ESCAPE | UPTO 3 YEARS",
    "header": [
-    "NO. OF PERSONS AWARDED ee ESCAPE",
-    "UPTO3 INVOLVED PERSONS INVOLVED PERSONS INVOLVED PERSONS INVOLVED PERSONS YEARS an wn"
+    "NO. OF PERSONS AWARDED IMPRISONMENT ON CHARGES OF ESCAPE",
+    "UPTO 3 YEARS"
    ]
   },
   {
-   "col_no": "10010",
-   "name": "NO. OF PERSONS AWARDED ee ESCAPE | MORE THAN? YEARS a2) oO.",
+   "col_no": "12",
+   "name": "NO. OF PERSONS AWARDED IMPRISONMENT ON CHARGES OF ESCAPE | MORE THAN 3 YEARS",
    "header": [
-    "NO. OF PERSONS AWARDED ee ESCAPE",
-    "MORE THAN? YEARS a2) oO."
+    "NO. OF PERSONS AWARDED IMPRISONMENT ON CHARGES OF ESCAPE",
+    "MORE THAN 3 YEARS"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 0,
+  "cells_checked": 54,
+  "cells_passed": 45,
   "failures": [
-   "col 5 'TOTAL STATES': printed 194, sum 138",
-   "col 5 '- TOTAL (UTS)': printed 4, sum 0"
+   "col 10001 'TOTAL STATES': printed 604, sum 579",
+   "col 10002 'TOTAL STATES': printed 726, sum 679",
+   "col 10003 'TOTAL STATES': printed 84, sum 80",
+   "col 10004 'TOTAL STATES': printed 85, sum 82",
+   "col 10005 'TOTAL STATES': printed 37, sum 35",
+   "col 10007 'TOTAL STATES': printed 974, sum 919",
+   "col 10008 'TOTAL STATES': printed 1159, sum 1069",
+   "col 11 'TOTAL STATES': printed 66, sum 60"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

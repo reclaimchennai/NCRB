@@ -6,23 +6,37 @@
  "topic": "",
  "section": "Crime in India 1963",
  "serial": "1",
- "title": "CRIME UNDER",
+ "title": "Incidence of Crime in States, Union TOTAL COGNIZABLE 6",
  "listing_title": "Chapters",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689774215SURVEYOFCRIME.pdf",
  "source_file": "raw/cii/1963/year_wise/1689774215SURVEYOFCRIME.pdf",
  "source_sha256": "7ff525b36d9ca98f06fa7d9c86b82d6511281525be4271d83b195b59cabf89ed",
  "table_no": "",
- "pdf_title": "CRIME UNDER",
- "row_label": "Head SI. No. / 1960 / 1961",
+ "pdf_title": "Incidence of Crime in States, Union TOTAL COGNIZABLE 6",
+ "row_label": "Sl. No. / States, Union Territories etc",
  "pages": [
-  4
+  6
  ],
- "n_rows": 14,
- "n_cols": 1,
- "n_cells": 14,
+ "n_rows": 23,
+ "n_cols": 3,
+ "n_cells": 69,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "1960",
+   "header": [
+    "1960"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1961",
+   "header": [
+    "1961"
+   ]
+  },
   {
    "col_no": "5",
    "name": "1962",
@@ -31,9 +45,7 @@
    ]
   }
  ],
- "notes": [
-  "13 é 1,83,294 (@a'3) 1,837,561 1,9951' Cr)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -8,108 +8,102 @@
  "serial": "23",
  "title": "Disposal of SLL Crime Cases by Courts During 1996 (State & UT–Wise)",
  "listing_title": "Disposal of SLL Crime Cases by Courts During 1996 (State & UT–Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabel-23-disposal-of-sll-crime-cases-by-courts-during-1996-1996.pdf",
  "source_file": "raw/cii/1996/table_content/tabel-23-disposal-of-sll-crime-cases-by-courts-during-1996-1996.pdf",
  "source_sha256": "845528cfb298ff6ca5f038a92df6888eeefb5001542d679c7d51aac73133e0ad",
  "table_no": "23",
- "pdf_title": "DISPOSAL OF SLL CRIME CASES BY COURTS DURING 1996",
- "row_label": "(STATE & UT-WISE) SL. NO. / (STATE & UT-WISE) STATE/UT",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-23",
+ "row_label": "SL NO. / SL NO.",
  "pages": [
   1
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 9,
- "n_cells": 264,
+ "n_cells": 315,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
+   "name": "STATE/UT",
    "header": [
-    "(STATE & UT-WISE)",
-    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+    "STATE/UT"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | COMPOUNDED WITHDRAWN",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "(STATE & UT-WISE)",
-    "COMPOUNDED WITHDRAWN"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | OR CoNvicTED",
+   "name": "NO. OF CASES | COMP-OUN-DED OR WITH-DRAWN",
    "header": [
-    "(STATE & UT-WISE)",
-    "IN WHICH TRIALS WERE COMPLETED",
-    "OR CoNvicTED"
+    "NO. OF CASES",
+    "COMP-OUN-DED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | NO. OF CASES AcQUITTED OR DIs- CHARGED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED (6)",
    "header": [
-    "(STATE & UT-WISE)",
-    "IN WHICH TRIALS WERE COMPLETED",
-    "NO. OF CASES AcQUITTED OR DIs- CHARGED"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | TOTAL ((5) + (6)}",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED (7)",
    "header": [
-    "(STATE & UT-WISE)",
-    "IN WHICH TRIALS WERE COMPLETED",
-    "TOTAL ((5) + (6)}"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | PENDING TRIAL",
+   "name": "NO. OF CASES | PENDING TRIAL",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES",
     "PENDING TRIAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | PENDENCY PERCEN. TAGE",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "(STATE & UT-WISE)",
-    "PENDENCY PERCEN. TAGE"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "10",
-   "name": "(STATE & UT-WISE) | PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "(STATE & UT-WISE) | CONVIC TION RATE (15)/(7)} 100",
+   "name": "CONVIC TION RATE [(5)/(7)] x 100",
    "header": [
-    "(STATE & UT-WISE)",
-    "CONVIC TION RATE (15)/(7)} 100"
+    "CONVIC TION RATE [(5)/(7)] x 100"
    ]
   }
  ],
- "notes": [
-  "Vote: Percentage less than 0.05 1s also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 18,
+  "cells_passed": 15,
+  "failures": [
+   "col 6 'TOTAL (STATES)': printed 439475, sum 439674",
+   "col 7 'TOTAL (STATES)': printed 3.47589e+06, sum 3.26558e+06",
+   "col 7 'TOTAL (UTs)': printed 11925, sum 5735"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

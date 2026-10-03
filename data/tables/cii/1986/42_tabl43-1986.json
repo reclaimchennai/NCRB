@@ -8,76 +8,66 @@
  "serial": "42",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crime under Local & Special Laws During 1986",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crime under Local & Special Laws During 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl43-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl43-1986.pdf",
  "source_sha256": "132707d76ec83a6baa317ecf7e6eb38df084aacbdb5c81773182aeb77265fcd7",
  "table_no": "43",
- "pdf_title": "",
- "row_label": "Juveniles Apprenenaca (By Age Group) For States/U.Ts/Cities Sl. No. 1 STATES 1. 2.",
+ "pdf_title": "86 TABLE 43 Juveniles Apprehended (By Age Group) For Committing Crimes Under Local & Special Laws During 1986",
+ "row_label": "Sl. No. / States/U.Ts/Cities",
  "pages": [
   1
  ],
- "n_rows": 45,
+ "n_rows": 47,
  "n_cols": 5,
- "n_cells": 225,
+ "n_cells": 235,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Juveniles Apprenenaca (By Age Group) For | 7to12 years 2 Andhra Pradesh Arunachal Pradesh",
-   "header": [
-    "Juveniles Apprenenaca (By Age Group) For",
-    "7to12 years 2 Andhra Pradesh Arunachal Pradesh"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Crimes Under Local & Special Laws During 1986 | 12to 16 years 3 74 -",
+   "name": "7 to 12 years",
    "header": [
-    "Crimes Under Local & Special Laws During 1986",
-    "12to 16 years 3 74 -"
+    "7 to 12 years"
    ]
   },
   {
    "col_no": "4",
-   "name": "Crimes Under Local & Special Laws During 1986 | 16 to 18 years 4 il 607 -",
+   "name": "12 to 16 years",
    "header": [
-    "Crimes Under Local & Special Laws During 1986",
-    "16 to 18 years 4 il 607 -"
+    "12 to 16 years"
    ]
   },
   {
    "col_no": "5",
-   "name": "Crimes Under Local & Special Laws During 1986 | 18to21 years 6 4,411 -",
+   "name": "16 to 18 years",
    "header": [
-    "Crimes Under Local & Special Laws During 1986",
-    "18to21 years 6 4,411 -"
+    "16 to 18 years"
    ]
   },
   {
    "col_no": "6",
-   "name": "Total 7 §.036 -",
+   "name": "18 to 21 years",
    "header": [
-    "Total 7 §.036 -"
+    "18 to 21 years"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 3,
-  "failures": [
-   "col 2 'TOTAL (STATES)': printed 3673, sum 3666",
-   "col 3 'TOTAL (STATES)': printed 5318, sum 5307",
-   "col 4 'TOTAL (STATES)': printed 9831, sum 9224",
-   "col 5 'TOTAL (STATES)': printed 70858, sum 66447",
-   "col 6 'TOTAL (STATES)': printed 89680, sum 84644"
-  ],
+  "cells_checked": 14,
+  "cells_passed": 14,
+  "failures": [],
   "other_totals_checked": 4,
   "other_totals_passed": 4
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

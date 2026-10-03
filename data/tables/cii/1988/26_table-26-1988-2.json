@@ -8,68 +8,68 @@
  "serial": "26",
  "title": "Persons Arrested under Local and Special Laws During 1988 (Crime-Head & Sex-wise)",
  "listing_title": "Persons Arrested under Local and Special Laws During 1988 (Crime-Head & Sex-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-26-1988-2.pdf",
  "source_sha256": "0bbc3d47875f27a7a8a97e44d058d4f7555e3f98929104fee4ed5440115d6f84",
  "table_no": "26",
- "pdf_title": "PERSONS 4secsreis UNDER LOCAL AND SPECIAL LAWS DURING 1988",
- "row_label": "NO.",
+ "pdf_title": "102 TABLE-26 PERSONS ARRESTED UNDER LOCAL AND SPECIAL LAWS DURING 1988",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 16,
+ "n_rows": 17,
  "n_cols": 5,
- "n_cells": 80,
+ "n_cells": 85,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(CRIME-HEAD",
-   "header": [
-    "(CRIME-HEAD"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "&",
-   "header": [
-    "&"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "SEX-WISE)",
-   "header": [
-    "SEX-WISE)"
-   ]
-  },
-  {
-   "col_no": "5",
    "name": "MALE",
    "header": [
     "MALE"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "4",
    "name": "FEMALE",
    "header": [
     "FEMALE"
    ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PERCENTAGE TO TOTAL | MALE",
+   "header": [
+    "PERCENTAGE TO TOTAL",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERCENTAGE TO TOTAL | FEMALE",
+   "header": [
+    "PERCENTAGE TO TOTAL",
+    "FEMALE"
+   ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0 05 is also shown as .0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 3,
-  "other_totals_passed": 0
+  "other_totals_passed": 3
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -1,0 +1,62 @@
+{
+ "table_id": "adsi/1973/1_accidental-deaths-1973_tiii",
+ "publication": "adsi",
+ "year": 1973,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1973",
+ "serial": "1",
+ "title": "8 in the country is of the order of only 0.2 per cent in accidental deaths in 1973 over 1972. The detailed statistics are presented in Table III. TABLE III",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1973.pdf",
+ "source_file": "raw/adsi/1973/year_wise/accidental-deaths-1973.pdf",
+ "source_sha256": "43fe94ed0581a435a3aabd9fa6fedd970050780297575883a429d3bc62c0bb80",
+ "table_no": "III",
+ "pdf_title": "8 in the country is of the order of only 0.2 per cent in accidental deaths in 1973 over 1972. The detailed statistics are presented in Table III. TABLE III",
+ "row_label": "Sl. No. / Name of States/U.Ts. / Cities.",
+ "pages": [
+  6
+ ],
+ "n_rows": 35,
+ "n_cols": 3,
+ "n_cells": 104,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Accidental Deaths (3)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of Accidental Deaths (4)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Percentage variation from 1972 to 1973.",
+   "header": [
+    "Percentage variation from 1972 to 1973."
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 1,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 103861, sum 105836",
+   "col 4 'TOTAL (STATES)': printed 103720, sum 105697"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

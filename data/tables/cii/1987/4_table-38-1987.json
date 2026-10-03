@@ -8,49 +8,49 @@
  "serial": "4",
  "title": "Juveniles Apprehended under Important IPC Heads During 1987",
  "listing_title": "Juveniles Apprehended under Important IPC Heads During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_38-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_38-1987.pdf",
  "source_sha256": "bf0365b5b031373aaf2edaf661fe146e35489b9df7586e5d44e55f9d04545f00",
  "table_no": "38",
- "pdf_title": "TABLE E - 38",
- "row_label": "SL. NO. / Juveniles STATES/UTs/CITIES",
+ "pdf_title": "114 TABLE - 38 Juveniles Apprehended Under Important IPC Heads During 1987",
+ "row_label": "SL. NO. / STATES/UTs/CITIES",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 68,
+ "n_rows": 51,
  "n_cols": 13,
- "n_cells": 619,
+ "n_cells": 624,
  "columns": [
   {
    "col_no": "3",
-   "name": "Under MURDER",
+   "name": "MURDER",
    "header": [
-    "Under MURDER"
+    "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "Important cin PARLE HOMICIDE NOT AMOUNTING TO",
+   "name": "CULPABLE HOMICIDE NOT AMO-UNTING TO MURDER",
    "header": [
-    "Important cin PARLE HOMICIDE NOT AMOUNTING TO"
+    "CULPABLE HOMICIDE NOT AMO-UNTING TO MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "IPC Heads RAPE MURDER",
+   "name": "RAPE",
    "header": [
-    "IPC Heads RAPE MURDER"
+    "RAPE"
    ]
   },
   {
    "col_no": "6",
-   "name": "1987 During KIDNAPPING AND ABDUCTION",
+   "name": "KIDNAPPING AND ABDUCTION",
    "header": [
-    "1987 During KIDNAPPING AND ABDUCTION"
+    "KIDNAPPING AND ABDUCTION"
    ]
   },
   {
@@ -69,8 +69,10 @@
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
   },
   {
    "col_no": "10",
@@ -88,26 +90,23 @@
   },
   {
    "col_no": "12",
-   "name": "CHEATING | CRIMINAL BREACH OF",
+   "name": "CRIMINAL BREACH OF TRUST",
    "header": [
-    "CHEATING",
-    "CRIMINAL BREACH OF"
+    "CRIMINAL BREACH OF TRUST"
    ]
   },
   {
    "col_no": "13",
-   "name": "CHEATING | TRUST",
+   "name": "CHEATING",
    "header": [
-    "CHEATING",
-    "TRUST"
+    "CHEATING"
    ]
   },
   {
    "col_no": "14",
-   "name": "CHEATING | COUNTERFEITING",
+   "name": "COUNTER-FEITING",
    "header": [
-    "CHEATING",
-    "COUNTERFEITING"
+    "COUNTER-FEITING"
    ]
   },
   {
@@ -120,20 +119,20 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 25,
-  "cells_passed": 5,
+  "cells_checked": 33,
+  "cells_passed": 22,
   "failures": [
-   "col 3 'TOTAL (States)': printed 1913, sum 1793",
-   "col 3 'TOTAL (UTs)': printed 81, sum 21",
-   "col 7 'TOTAL (States)': printed 777, sum 408",
-   "col 7 'TOTAL (Cities)': printed 79, sum 447",
-   "col 8 'TOTAL (States)': printed 1082, sum 555",
-   "col 8 'TOTAL (UTs)': printed 72, sum 70",
-   "col 8 'TOTAL (Cities)': printed 219, sum 748",
-   "col 9 'TOTAL (States)': printed 6785, sum 4215"
+   "col 7 'Total(Cities)': printed 79, sum 62",
+   "col 8 'Total(Cities)': printed 219, sum 174",
+   "col 9 'Total(Cities)': printed 741, sum 611",
+   "col 10 'Total(Cities)': printed 2954, sum 2388",
+   "col 11 'Total(Cities)': printed 1299, sum 1031",
+   "col 12 'Total(States)': printed 292, sum 283",
+   "col 12 'Total(Cities)': printed 72, sum 63",
+   "col 13 'Total(States)': printed 292, sum 284"
   ],
-  "other_totals_checked": 9,
-  "other_totals_passed": 9
+  "other_totals_checked": 13,
+  "other_totals_passed": 13
  },
  "inferred_pages": 0,
  "ocr_pages": 3,

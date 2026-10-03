@@ -8,13 +8,13 @@
  "serial": "26",
  "title": "Incidence & Rate of Cognizable Crimes (IPC) Under Different Crime Heads in States, UTs & Cities During 1997",
  "listing_title": "Incidence & Rate of Cognizable Crimes (IPC) Under Different Crime Heads in States, UTs & Cities During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-6-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-6-1996-crime-survey.pdf",
  "source_sha256": "32d357d88606bc46d04ce71e853741201cf319e386519065d725167a103c76ba",
  "table_no": "6",
- "pdf_title": "INCIDENCE (I) & RATE (R) OF COGNIZABLE CRIMES (IPC) UNDER DirrEnEN! CRIME HEADS IN STATES. UTs & CITIES DURING 1997",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE - 6",
  "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
@@ -24,116 +24,139 @@
   5,
   6
  ],
- "n_rows": 75,
- "n_cols": 47,
- "n_cells": 2679,
+ "n_rows": 59,
+ "n_cols": 48,
+ "n_cells": 2784,
  "columns": [
   {
    "col_no": "3",
-   "name": "MURDER \\",
+   "name": "MURDER | I",
    "header": [
-    "MURDER \\"
+    "MURDER",
+    "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "R (4)",
+   "name": "MURDER | R",
    "header": [
+    "MURDER",
     "R"
    ]
   },
   {
    "col_no": "5",
-   "name": "ATTEMPT TO COMMIT MU:3DER",
+   "name": "ATTEMPT TO COMMIT MURDER | I",
    "header": [
-    "ATTEMPT TO COMMIT MU:3DER"
+    "ATTEMPT TO COMMIT MURDER",
+    "I"
    ]
   },
   {
    "col_no": "6",
-   "name": "ATTEMPT TO COMMIT MU:3DER | R",
+   "name": "ATTEMPT TO COMMIT MURDER | R",
    "header": [
-    "ATTEMPT TO COMMIT MU:3DER",
+    "ATTEMPT TO COMMIT MURDER",
     "R"
    ]
   },
   {
    "col_no": "7",
-   "name": "C.H. NOT AMOUNTING TO MURDER 1 (7)",
+   "name": "C.H. NOT AMOUNTING TO MURDER | I",
    "header": [
-    "C.H. NOT AMOUNTING TO MURDER 1"
+    "C.H. NOT AMOUNTING TO MURDER",
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "C.H. NOT AMOUNTING TO MURDER 1 (8)",
+   "name": "C.H. NOT AMOUNTING TO MURDER | R",
    "header": [
-    "C.H. NOT AMOUNTING TO MURDER 1"
+    "C.H. NOT AMOUNTING TO MURDER",
+    "R"
    ]
   },
   {
    "col_no": "9",
-   "name": "R (9)",
+   "name": "RAPE | I",
    "header": [
-    "R"
+    "RAPE",
+    "I"
    ]
   },
   {
    "col_no": "10",
-   "name": "RARE R 1",
+   "name": "RAPE | R",
    "header": [
-    "RARE R 1"
+    "RAPE",
+    "R"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL | I",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL",
+    "I"
    ]
   },
   {
    "col_no": "12",
-   "name": "KIDNAPPING | TOTAL 1 (11)]",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL | R",
    "header": [
-    "KIDNAPPING",
-    "TOTAL 1 (11)]"
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL",
+    "R"
    ]
   },
   {
    "col_no": "13",
-   "name": "KIDNAPPING | R",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | I",
    "header": [
-    "KIDNAPPING",
-    "R"
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS",
+    "I"
    ]
   },
   {
    "col_no": "14",
-   "name": "& OF WOMEN & GIRLS 1",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | R",
    "header": [
-    "& OF WOMEN & GIRLS 1"
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "ABDUCTION R",
-   "header": [
-    "ABDUCTION R"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "DACOITY | OF OT4ERS -",
-   "header": [
-    "DACOITY",
-    "OF OT4ERS -"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "DACOITY | R (17)",
-   "header": [
-    "DACOITY",
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS",
     "R"
    ]
   },
   {
+   "col_no": "15",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | I",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS",
+    "I"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | R",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS",
+    "R"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "DACOITY | I",
+   "header": [
+    "DACOITY",
+    "I"
+   ]
+  },
+  {
    "col_no": "18",
-   "name": "DACOITY | R (18)",
+   "name": "DACOITY | R",
    "header": [
     "DACOITY",
     "R"
@@ -141,30 +164,31 @@
   },
   {
    "col_no": "19",
-   "name": "PREPARATION & ASSEMHILY FOR DACDITY 1",
+   "name": "PREPARATION & ASSEMBLY FOR DACOITY | I",
    "header": [
-    "PREPARATION & ASSEMHILY FOR DACDITY 1"
+    "PREPARATION & ASSEMBLY FOR DACOITY",
+    "I"
    ]
   },
   {
    "col_no": "20",
-   "name": "ROBBERY | R (20)",
+   "name": "PREPARATION & ASSEMBLY FOR DACOITY | R",
    "header": [
-    "ROBBERY",
+    "PREPARATION & ASSEMBLY FOR DACOITY",
     "R"
    ]
   },
   {
    "col_no": "21",
-   "name": "ROBBERY | i} (21)]",
+   "name": "ROBBERY | I",
    "header": [
     "ROBBERY",
-    "i} (21)]"
+    "I"
    ]
   },
   {
    "col_no": "22",
-   "name": "ROBBERY | R (22)",
+   "name": "ROBBERY | R",
    "header": [
     "ROBBERY",
     "R"
@@ -172,30 +196,31 @@
   },
   {
    "col_no": "23",
-   "name": "BURGLARY 1",
+   "name": "BURGLARY | I",
    "header": [
-    "BURGLARY 1"
+    "BURGLARY",
+    "I"
    ]
   },
   {
    "col_no": "24",
-   "name": "THEFT | R (24)",
+   "name": "BURGLARY | R",
    "header": [
-    "THEFT",
+    "BURGLARY",
     "R"
    ]
   },
   {
    "col_no": "25",
-   "name": "THEFT | 1",
+   "name": "THEFT | I",
    "header": [
     "THEFT",
-    "1"
+    "I"
    ]
   },
   {
    "col_no": "26",
-   "name": "THEFT | R (26)",
+   "name": "THEFT | R",
    "header": [
     "THEFT",
     "R"
@@ -203,52 +228,62 @@
   },
   {
    "col_no": "27",
-   "name": "RIOTS i",
+   "name": "RIOTS | I",
    "header": [
-    "RIOTS i"
+    "RIOTS",
+    "I"
    ]
   },
   {
    "col_no": "28",
-   "name": "R (28)",
+   "name": "RIOTS | R",
    "header": [
+    "RIOTS",
     "R"
    ]
   },
   {
    "col_no": "29",
-   "name": "CHEATING | CRIMINAL BREACH OF TFUST - (29)",
+   "name": "CRIMINAL BREACH OF TRUST | I",
    "header": [
-    "CHEATING",
-    "CRIMINAL BREACH OF TFUST -"
+    "CRIMINAL BREACH OF TRUST",
+    "I"
    ]
   },
   {
    "col_no": "30",
-   "name": "CHEATING | CRIMINAL BREACH OF TFUST - (30)",
+   "name": "CRIMINAL BREACH OF TRUST | R",
    "header": [
-    "CHEATING",
-    "CRIMINAL BREACH OF TFUST -"
+    "CRIMINAL BREACH OF TRUST",
+    "R"
    ]
   },
   {
    "col_no": "31",
-   "name": "CHEATING | R (31)]",
+   "name": "CHEATING | I",
    "header": [
     "CHEATING",
-    "R (31)]"
+    "I"
    ]
   },
   {
    "col_no": "32",
-   "name": "CHEATING | 1]",
+   "name": "CHEATING | R",
    "header": [
     "CHEATING",
-    "1]"
+    "R"
    ]
   },
   {
    "col_no": "33",
+   "name": "COUNTERFEITING | I",
+   "header": [
+    "COUNTERFEITING",
+    "I"
+   ]
+  },
+  {
+   "col_no": "34",
    "name": "COUNTERFEITING | R",
    "header": [
     "COUNTERFEITING",
@@ -256,19 +291,11 @@
    ]
   },
   {
-   "col_no": "34",
-   "name": "COUNTERFEITING | R 1",
-   "header": [
-    "COUNTERFEITING",
-    "R 1"
-   ]
-  },
-  {
    "col_no": "35",
-   "name": "ARSON | i",
+   "name": "ARSON | I",
    "header": [
     "ARSON",
-    "i"
+    "I"
    ]
   },
   {
@@ -281,10 +308,10 @@
   },
   {
    "col_no": "37",
-   "name": "HURT | i]",
+   "name": "HURT | I",
    "header": [
     "HURT",
-    "i]"
+    "I"
    ]
   },
   {
@@ -297,30 +324,31 @@
   },
   {
    "col_no": "39",
-   "name": "DOWRY DEATHS 1",
+   "name": "DOWRY DEATHS | I",
    "header": [
-    "DOWRY DEATHS 1"
+    "DOWRY DEATHS",
+    "I"
    ]
   },
   {
    "col_no": "40",
-   "name": "MOLESTATION | R (40)",
+   "name": "DOWRY DEATHS | R",
    "header": [
-    "MOLESTATION",
+    "DOWRY DEATHS",
     "R"
    ]
   },
   {
    "col_no": "41",
-   "name": "MOLESTATION | 1",
+   "name": "MOLESTATION | I",
    "header": [
     "MOLESTATION",
-    "1"
+    "I"
    ]
   },
   {
    "col_no": "42",
-   "name": "MOLESTATION | R (42)",
+   "name": "MOLESTATION | R",
    "header": [
     "MOLESTATION",
     "R"
@@ -328,83 +356,79 @@
   },
   {
    "col_no": "43",
-   "name": "SEXUAL | HARASSMENT 1]",
+   "name": "SEXUAL HARASSMENT | I",
    "header": [
-    "SEXUAL",
-    "HARASSMENT 1]"
+    "SEXUAL HARASSMENT",
+    "I"
    ]
   },
   {
    "col_no": "44",
-   "name": "SEXUAL | R",
+   "name": "SEXUAL HARASSMENT | R",
    "header": [
-    "SEXUAL",
+    "SEXUAL HARASSMENT",
     "R"
    ]
   },
   {
    "col_no": "45",
-   "name": "CRUELTY BY HUSBAND | OR i (45)]",
+   "name": "CRUELTY BY HUSBAND OR RELATIVES | I",
    "header": [
-    "CRUELTY BY HUSBAND",
-    "OR i (45)]"
+    "CRUELTY BY HUSBAND OR RELATIVES",
+    "I"
    ]
   },
   {
    "col_no": "46",
-   "name": "CRUELTY BY HUSBAND | RELATIVES R",
+   "name": "CRUELTY BY HUSBAND OR RELATIVES | R",
    "header": [
-    "CRUELTY BY HUSBAND",
-    "RELATIVES R"
+    "CRUELTY BY HUSBAND OR RELATIVES",
+    "R"
    ]
   },
   {
    "col_no": "47",
-   "name": "OTHER IPC CRIMES 1",
+   "name": "OTHER IPC CRIMES | I",
    "header": [
-    "OTHER IPC CRIMES 1"
+    "OTHER IPC CRIMES",
+    "I"
    ]
   },
   {
    "col_no": "48",
-   "name": "TOTAL COGN.ZABLE | R",
+   "name": "OTHER IPC CRIMES | R",
    "header": [
-    "TOTAL COGN.ZABLE",
+    "OTHER IPC CRIMES",
     "R"
    ]
   },
   {
    "col_no": "49",
-   "name": "TOTAL COGN.ZABLE | CRIMES UNDER 1",
+   "name": "TOTAL COGN.ZABLE CRIMES UNDER IPC | I",
    "header": [
-    "TOTAL COGN.ZABLE",
-    "CRIMES UNDER 1"
+    "TOTAL COGN.ZABLE CRIMES UNDER IPC",
+    "I"
    ]
   },
   {
    "col_no": "50",
-   "name": "TOTAL COGN.ZABLE | IPC R",
+   "name": "TOTAL COGN.ZABLE CRIMES UNDER IPC | R",
    "header": [
-    "TOTAL COGN.ZABLE",
-    "IPC R"
+    "TOTAL COGN.ZABLE CRIMES UNDER IPC",
+    "R"
    ]
   }
  ],
- "notes": [
-  "Note Daman & Diu did not furnish data as per revisec format."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 49,
-  "cells_passed": 27,
+  "cells_checked": 69,
+  "cells_passed": 64,
   "failures": [
-   "col 5 'TOTAL (STATES)': printed 28748, sum 28738",
-   "col 13 'TOTAL (UTs)': printed 957, sum 32",
-   "col 23 'TOTAL (STATES)': printed 110171, sum 109027",
-   "col 25 'TOTAL (STATES)': printed 253049, sum 251986",
-   "col 27 'TOTAL (STATES)': printed 91401, sum 90497",
    "col 27 'TOTAL (UTs)': printed 411, sum 410",
-   "col 29 'TOTAL (STATES)': printed 14381, sum 14243",
-   "col 31 'TOTAL (STATES)': printed 33318, sum 33136"
+   "col 35 'TOTAL (UTs)': printed 75, sum 72",
+   "col 37 'TOTAL (UTs)': printed 3100, sum 3096",
+   "col 47 'TOTAL (UTs)': printed 28140, sum 28134",
+   "col 49 'TOTAL (UTs)': printed 66711, sum 66685"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

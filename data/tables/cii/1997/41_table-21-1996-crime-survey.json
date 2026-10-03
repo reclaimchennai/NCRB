@@ -8,103 +8,94 @@
  "serial": "41",
  "title": "Disposal of IPC Crime Cases by Courts During 1997 (State & UT-Wise)",
  "listing_title": "Disposal of IPC Crime Cases by Courts During 1997 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-21-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-21-1996-crime-survey.pdf",
  "source_sha256": "73362eb34d1df9cb24d2be332058818873a9a098347828a9437e0ecd4224ada8",
  "table_no": "21",
- "pdf_title": "DISPOSAL OF IPC CRIME CASES BY COURTS DURING 1997",
- "row_label": "(STATE & UT-WISE) SL. STATE/UT NO. ()",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-21",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 9,
- "n_cells": 314,
+ "n_cells": 315,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | TOTAL NO. OF CASES INCLUDING PENDING CASES",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "(STATE & UT-WISE)",
-    "TOTAL NO. OF CASES INCLUDING PENDING CASES"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | DED OR WITHDRAWN",
+   "name": "NO. OF CASES | COMP-OUN-DED OR WITH-DRAWN",
    "header": [
-    "(STATE & UT-WISE)",
-    "DED OR WITHDRAWN"
+    "NO. OF CASES",
+    "COMP-OUN-DED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | NO. OF CASES I WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED (5)",
    "header": [
-    "(STATE & UT-WISE)",
-    "NO. OF CASES I WHICH TRIALS WERE COMPLETED",
-    "CONVICTED"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | NO. OF CASES I WHICH TRIALS WERE COMPLETED | ACQUITTED OR Dis- CHARGED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED (6)",
    "header": [
-    "(STATE & UT-WISE)",
-    "NO. OF CASES I WHICH TRIALS WERE COMPLETED",
-    "ACQUITTED OR Dis- CHARGED"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | NO. OF CASES I WHICH TRIALS WERE COMPLETED | TOTAL {(5) + (6))",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED (7)",
    "header": [
-    "(STATE & UT-WISE)",
-    "NO. OF CASES I WHICH TRIALS WERE COMPLETED",
-    "TOTAL {(5) + (6))"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | a",
+   "name": "NO. OF CASES | PENDING TRIAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "a"
+    "NO. OF CASES",
+    "PENDING TRIAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | PENDENCY PERCENTAGE",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "(STATE & UT-WISE)",
     "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "10",
-   "name": "(STATE & UT-WISE) | PENDENCY fi TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "PENDENCY fi TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "(STATE & UT-WISE) | RATE {(5)/{7)} a",
+   "name": "CONVICTION RATE ((5)/(7)) X 100",
    "header": [
-    "(STATE & UT-WISE)",
-    "RATE {(5)/{7)} a"
+    "CONVICTION RATE ((5)/(7)) X 100"
    ]
   }
  ],
- "notes": [
-  "Ni te: tess than 0.05 is also as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 12,
-  "cells_passed": 12,
+  "cells_checked": 18,
+  "cells_passed": 18,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

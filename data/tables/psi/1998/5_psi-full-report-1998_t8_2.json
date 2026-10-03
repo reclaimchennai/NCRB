@@ -6,105 +6,96 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "DISTRIBUTION OF CONVICTS IN JAILS (STATE/UT-WISE) AT THE END OF 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-8",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
  "table_no": "8",
- "pdf_title": "DISTRIBUTION OF CONVICTS IN JAILS (STATE/UT-WISE) AT THE END OF 1998",
- "row_label": "STATE/UT SL. NO. (1)",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-8",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   76
  ],
- "n_rows": 36,
- "n_cols": 8,
- "n_cells": 157,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
-   "col_no": "2",
-   "name": "CENTRAL DISTRICT | (2)",
-   "header": [
-    "CENTRAL DISTRICT",
-    "(2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "CENTRAL DISTRICT | JAIL (3)",
+   "name": "CENTRAL JAIL",
    "header": [
-    "CENTRAL DISTRICT",
-    "JAIL (3)"
+    "CENTRAL JAIL"
    ]
   },
   {
    "col_no": "4",
-   "name": "SUB WOMEN I BORSTAL | JAIL (4)",
+   "name": "DISTRICT JAIL",
    "header": [
-    "SUB WOMEN I BORSTAL",
-    "JAIL (4)"
+    "DISTRICT JAIL"
    ]
   },
   {
    "col_no": "5",
-   "name": "SUB WOMEN I BORSTAL | JAIL (8)",
+   "name": "SUB JAIL",
    "header": [
-    "SUB WOMEN I BORSTAL",
-    "JAIL (8)"
+    "SUB JAIL"
    ]
   },
   {
    "col_no": "6",
-   "name": "SUB WOMEN I BORSTAL | JAIL (6)",
+   "name": "WOMEN JAIL",
    "header": [
-    "SUB WOMEN I BORSTAL",
-    "JAIL (6)"
+    "WOMEN JAIL"
    ]
   },
   {
    "col_no": "7",
-   "name": "!",
+   "name": "BORSTAL SCHOOL",
    "header": [
-    "!"
+    "BORSTAL SCHOOL"
    ]
   },
   {
    "col_no": "8",
-   "name": "SPECIAL OTHERS JAIL SCHOOL (10) (9) (7)",
+   "name": "OPEN JAIL",
    "header": [
-    "SPECIAL OTHERS JAIL SCHOOL (10) (9) (7)"
+    "OPEN JAIL"
    ]
   },
   {
    "col_no": "9",
-   "name": "OPEN TOTAL JAIL (8) (11)",
+   "name": "SPECIAL JAIL",
    "header": [
-    "OPEN TOTAL JAIL (8) (11)"
+    "SPECIAL JAIL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OTHERS",
+   "header": [
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NA-DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 15,
-  "cells_passed": 7,
-  "failures": [
-   "col 2 'TOTAL (STATES)': printed 39022, sum 35979",
-   "col 3 'TOTAL (STATES)': printed 14131, sum 14294",
-   "col 4 'TOTAL (STATES)': printed 1576, sum 1575",
-   "col 5 'TOTAL (ALL INDIA)': printed 503, sum 363",
-   "col 6 'TOTAL (STATES)': printed 540, sum 365",
-   "col 7 'TOTAL (STATES)': printed 1634, sum 1605",
-   "col 9 'TOTAL (UTs)': printed 911846, sum 10946",
-   "col 9 'TOTAL (ALL INDIA)': printed 1.55664e+07, sum 976414"
-  ],
+  "cells_checked": 26,
+  "cells_passed": 26,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

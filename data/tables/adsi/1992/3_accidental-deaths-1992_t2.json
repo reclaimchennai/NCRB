@@ -6,75 +6,54 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1992",
  "serial": "3",
- "title": "Incidence And Rate Of Accidental Deaths During 1992",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.- 4 PERCENTAGE GROWTH IN INCIDENCE, POPULATION AND RATE DURING 1987 TO 1992",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1992.pdf",
  "source_file": "raw/adsi/1992/year_wise/accidental-deaths-1992.pdf",
  "source_sha256": "438d373cb515809dfb05c6a5b51014e3e668719cbd1596e8d1d8051d583e280c",
- "table_no": "2",
- "pdf_title": "Incidence And Rate Of Accidental Deaths During 1992",
- "row_label": "{State & UT-wise) State/UT SI. No. (1) States:",
+ "table_no": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.- 4 PERCENTAGE GROWTH IN INCIDENCE, POPULATION AND RATE DURING 1987 TO 1992",
+ "row_label": "YEAR",
  "pages": [
-  7,
-  8
+  4
  ],
- "n_rows": 58,
- "n_cols": 5,
- "n_cells": 232,
+ "n_rows": 6,
+ "n_cols": 3,
+ "n_cells": 18,
  "columns": [
   {
    "col_no": "2",
-   "name": "{State & UT-wise) | Number of Accidental Deaths (2)",
+   "name": "INCIDENCE",
    "header": [
-    "{State & UT-wise)",
-    "Number of Accidental Deaths (2)"
+    "INCIDENCE"
    ]
   },
   {
    "col_no": "3",
-   "name": "{State & UT-wise) | Percentage Share in Total Deaths (3)",
+   "name": "POPULATION",
    "header": [
-    "{State & UT-wise)",
-    "Percentage Share in Total Deaths (3)"
+    "POPULATION"
    ]
   },
   {
    "col_no": "4",
-   "name": "{State & UT-wise) | Estimated Mid-Year Population (In Lakh) (4)",
+   "name": "RATE",
    "header": [
-    "{State & UT-wise)",
-    "Estimated Mid-Year Population (In Lakh) (4)"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "{State & UT-wise) | Rate (Accidental Deaths Per Lakh of Population) {Col.3/Col.5} (8) (6)",
-   "header": [
-    "{State & UT-wise)",
-    "Rate (Accidental Deaths Per Lakh of Population) {Col.3/Col.5} (8) (6)"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "W.C.R.B.- 8 Rats Deaths Per Lakh of {Col.3/Col.5}",
-   "header": [
-    "W.C.R.B.- 8 Rats Deaths Per Lakh of {Col.3/Col.5}"
+    "RATE"
    ]
   }
  ],
- "notes": [
-  "NR - Data not received."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 2,
+  "cells_checked": 0,
+  "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

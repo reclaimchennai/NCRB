@@ -6,48 +6,41 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "Vil",
+ "title": "33 VII UNDER AGE GROUPS",
  "listing_title": "Juveniles Apprehended under Age Groups",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1966.pdf",
  "source_file": "raw/cii/1966/table_content/table-7-1966.pdf",
  "source_sha256": "32527535726a15023807b038ad3f74b877113dd0500aaea03370e9beb274d483",
  "table_no": "",
- "pdf_title": "Vil",
- "row_label": "UNDER AGE GROUPS Between 12-16 years \" Boys",
+ "pdf_title": "33 VII UNDER AGE GROUPS",
+ "row_label": "Between 12-16 years Boys",
  "pages": [
   2
  ],
  "n_rows": 16,
- "n_cols": 7,
- "n_cells": 110,
+ "n_cols": 6,
+ "n_cells": 96,
  "columns": [
   {
    "col_no": "2",
-   "name": "UNDER AGE GROUPS Between 12-16 years",
+   "name": "Between 12-16 years | Girls",
    "header": [
-    "UNDER AGE GROUPS Between 12-16 years"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "UNDER AGE GROUPS Between 12-16 years | Girls",
-   "header": [
-    "UNDER AGE GROUPS Between 12-16 years",
+    "Between 12-16 years",
     "Girls"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Between 16-21 years | “ Boys",
+   "col_no": "3",
+   "name": "Between 16-21 years | Boys",
    "header": [
     "Between 16-21 years",
-    "“ Boys"
+    "Boys"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "Between 16-21 years | Girls",
    "header": [
     "Between 16-21 years",
@@ -55,23 +48,23 @@
    ]
   },
   {
-   "col_no": "6",
-   "name": "Overall age group | “ Boys",
+   "col_no": "5",
+   "name": "Overall age group | Boys",
    "header": [
     "Overall age group",
-    "“ Boys"
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Overall age group | Girls",
+   "header": [
+    "Overall age group",
+    "Girls"
    ]
   },
   {
    "col_no": "7",
-   "name": "Overall age group | * Girls",
-   "header": [
-    "Overall age group",
-    "* Girls"
-   ]
-  },
-  {
-   "col_no": "8",
    "name": "Total",
    "header": [
     "Total"
@@ -86,7 +79,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

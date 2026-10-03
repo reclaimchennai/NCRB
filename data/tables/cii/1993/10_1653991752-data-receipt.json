@@ -8,38 +8,61 @@
  "serial": "10",
  "title": "Receipt of Data",
  "listing_title": "Receipt of Data",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653991752_data-receipt.pdf",
  "source_file": "raw/cii/1993/year_wise/1653991752_data-receipt.pdf",
  "source_sha256": "83e93b33e03c1ab61bb849a9f78caba1a206ba9cea364c36c6b2fd4fbede2d46",
  "table_no": "",
- "pdf_title": "Chronicle Order of Receipt of Data",
- "row_label": "(Crime in India-1993)",
+ "pdf_title": "Chronicle Order of Receipt of Data (Crime in India-1993) (vi)",
+ "row_label": "MONTH",
  "pages": [
+  1,
+  1,
   1
  ],
- "n_rows": 11,
- "n_cols": 1,
- "n_cells": 11,
+ "n_rows": 9,
+ "n_cols": 4,
+ "n_cells": 30,
  "columns": [
   {
+   "col_no": "2",
+   "name": "STATE",
+   "header": [
+    "STATE"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "UNION TERRITORY",
+   "header": [
+    "UNION TERRITORY"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CITY",
+   "header": [
+    "CITY"
+   ]
+  },
+  {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "CUMULATIVE TOTAL",
+   "header": [
+    "CUMULATIVE TOTAL"
+   ]
   }
  ],
- "notes": [
-  "(vi)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

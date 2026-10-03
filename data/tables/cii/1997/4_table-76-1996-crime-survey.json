@@ -8,85 +8,73 @@
  "serial": "4",
  "title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1997 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1997 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-76-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-76-1996-crime-survey.pdf",
  "source_sha256": "4423027485bb3a44473f8bdd8d8200be90d9c8dd643a7e333e78919837a0f43c",
- "table_no": "",
- "pdf_title": "",
- "row_label": "N. C.R.B., STATE/UT a)",
+ "table_no": "76",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-76",
+ "row_label": "Sl. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 6,
- "n_cells": 160,
+ "n_cells": 210,
  "columns": [
   {
    "col_no": "3",
-   "name": "TABLE-76 DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY POLICE DURING (STATE & UT-WISE} | TOTAL NO ONDER INCLUDING THOSE FROM PREVIGUS YEAR",
+   "name": "TOTAL NO OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIGUS YEAR",
    "header": [
-    "TABLE-76 DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY POLICE DURING (STATE & UT-WISE}",
-    "TOTAL NO ONDER INCLUDING THOSE FROM PREVIGUS YEAR"
+    "TOTAL NO OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIGUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "TABLE-76 DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY POLICE DURING (STATE & UT-WISE} | BEFORE TRIAL",
+   "name": "NUMBER CF | PERSONS RELEASED BEFORE 1RIAL",
    "header": [
-    "TABLE-76 DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY POLICE DURING (STATE & UT-WISE}",
-    "BEFORE TRIAL"
+    "NUMBER CF",
+    "PERSONS RELEASED BEFORE 1RIAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "TABLE-76 DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY POLICE DURING (STATE & UT-WISE} | NUMBER CF CHARGESHEETED",
+   "name": "NUMBER CF | PERSONS CHARGE-SHEETED",
    "header": [
-    "TABLE-76 DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY POLICE DURING (STATE & UT-WISE}",
-    "NUMBER CF CHARGESHEETED"
+    "NUMBER CF",
+    "PERSONS CHARGE-SHEETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "TABLE-76 DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY POLICE DURING (STATE & UT-WISE} | PERSONS GATION AT THE END OF THE YEAR",
+   "name": "NUMBER CF | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
    "header": [
-    "TABLE-76 DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY POLICE DURING (STATE & UT-WISE}",
-    "PERSONS GATION AT THE END OF THE YEAR"
+    "NUMBER CF",
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "CRIME IN INDIA - 1997 | 1997 PENDENCY PERCEN-",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "CRIME IN INDIA - 1997",
-    "1997 PENDENCY PERCEN-"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "8",
-   "name": "CRIME IN INDIA - 1997 | PERCEN-] TAGE OF mee TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL INDIA TOTAL",
    "header": [
-    "CRIME IN INDIA - 1997",
-    "PERCEN-] TAGE OF mee TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL INDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "NOTE: 1. * IN CUSTODY OR ON BAIL.",
-  "2. PERCENTAGE LESS THAN 0.05 IS ALSO SHOWN AS 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 7,
-  "cells_passed": 0,
+  "cells_checked": 12,
+  "cells_passed": 11,
   "failures": [
-   "col 3 '‘TOTAL (STATES)': printed 5.086e+06, sum 4.93008e+06",
-   "col 4 '‘TOTAL (STATES)': printed 144147, sum 291076",
-   "col 4 'TOTAL (UTs)': printed 28715, sum 31392",
-   "col 4 'TOTAL {ALL-INDIA)': printed 144468, sum 172862",
-   "col 5 'TOTAL (UTs)': printed 3.21228e+07, sum 3.13164e+07",
-   "col 5 'TOTAL {ALL-INDIA)': printed 4.69832e+06, sum 3.67983e+07",
-   "col 6 '‘TOTAL (STATES)': printed 266371, sum 196677"
+   "col 3 'TOTAL (STATES)': printed 5.086e+06, sum 5.08594e+06"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

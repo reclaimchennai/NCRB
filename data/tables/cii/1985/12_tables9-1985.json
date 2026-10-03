@@ -8,28 +8,21 @@
  "serial": "12",
  "title": "Cases Reported under Local and Special Laws During 1981 to 1985",
  "listing_title": "Cases Reported under Local and Special Laws During 1981 to 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables9-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables9-1985.pdf",
  "source_sha256": "9b8de4890c10910bef8029bd58710632549c93b550f71d71ba5b05119d6b62f9",
  "table_no": "9",
- "pdf_title": "Cases Reported Under Local And Special Laws During 1981 To 1985",
- "row_label": "SL. NO. / Crime",
+ "pdf_title": "45 TABLE - 9 Cases Reported Under Local And Special Laws During 1981 To 1985",
+ "row_label": "SL. NO. / Crime Heads",
  "pages": [
   1
  ],
  "n_rows": 13,
- "n_cols": 6,
- "n_cells": 78,
+ "n_cols": 5,
+ "n_cells": 65,
  "columns": [
-  {
-   "col_no": "3",
-   "name": "Heads",
-   "header": [
-    "Heads"
-   ]
-  },
   {
    "col_no": "4",
    "name": "1981",
@@ -60,22 +53,19 @@
   },
   {
    "col_no": "8",
-   "name": "1985 Percentage in Change 1985 over",
+   "name": "1985",
    "header": [
-    "1985 Percentage in Change 1985 over"
+    "1985"
    ]
   }
  ],
- "notes": [
-  "Crimes under Local and",
-  "Special Laws"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 5,
-  "other_totals_passed": 3
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

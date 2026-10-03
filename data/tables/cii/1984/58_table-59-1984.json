@@ -8,64 +8,63 @@
  "serial": "58",
  "title": "Strength of Armed Police as on 31.12.1984",
  "listing_title": "Strength of Armed Police as on 31.12.1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-59-1984.pdf",
  "source_sha256": "820cedac9e1cbe868c23bdd53c883ddf40efc6f6505df90e37f35aa4bfa3e23a",
  "table_no": "59",
- "pdf_title": "Strencth Of Armed Police As On 31-12-1984",
- "row_label": "sl NO / STATES/U. Ts/ CITIES",
+ "pdf_title": "131 TABLE - 59 Strength Of Armed Police As On 31-12-1984",
+ "row_label": "S1 NO / STATES/U. Ts/ CITIES",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 5,
- "n_cells": 231,
+ "n_cells": 235,
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER OF IG/DIG SP",
+   "name": "NUMBER OF DG/ IG/DIG SP",
    "header": [
-    "NUMBER OF IG/DIG SP"
+    "NUMBER OF DG/ IG/DIG SP"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER OF DG/ DY -",
+   "name": "NUMBER OF ASP/ DY SP",
    "header": [
-    "NUMBER OF DG/ DY -"
+    "NUMBER OF ASP/ DY SP"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER OF ASP/ SP s.I.",
+   "name": "NUMBER OF INS- PECTOR/ S. I.",
    "header": [
-    "NUMBER OF ASP/ SP s.I."
+    "NUMBER OF INS- PECTOR/ S. I."
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER INS- 1LUERS BELOW PECTOR/ s.I.",
+   "name": "NUMBER OF OFFICERS BELOW S. I.",
    "header": [
-    "NUMBER INS- 1LUERS BELOW PECTOR/ s.I."
+    "NUMBER OF OFFICERS BELOW S. I."
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL OF",
+   "name": "TOTAL",
    "header": [
-    "TOTAL OF"
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 12,
-  "cells_passed": 10,
+  "cells_checked": 15,
+  "cells_passed": 14,
   "failures": [
-   "col 3 'TOTAL (States)': printed 290, sum 248",
-   "col 6 'TOTAL (States)': printed 219167, sum 220967"
+   "col 6 'Total(States)': printed 219167, sum 220967"
   ],
   "other_totals_checked": 5,
   "other_totals_passed": 5

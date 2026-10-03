@@ -6,84 +6,142 @@
  "topic": "",
  "section": "Crime in India 1994",
  "serial": "6",
- "title": "~~\" Set-up of Police in States & UTs as on 1.1.95",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 Incidence of cognizable crimes (IPC) under different crime heads During 1953 to 1994",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653990660_EXCERPTS1994_0.pdf",
  "source_file": "raw/cii/1994/year_wise/1653990660_EXCERPTS1994_0.pdf",
  "source_sha256": "526e80236fd3d4712301c767fae1a5d49cecd5e61c8f805acb80187e903918e3",
  "table_no": "",
- "pdf_title": "~~\" Set-up of Police in States & UTs as on 1.1.95",
- "row_label": "Sl. State/UT No. Qa)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 Incidence of cognizable crimes (IPC) under different crime heads During 1953 to 1994",
+ "row_label": "Sl. No.",
  "pages": [
-  11,
-  12
+  7,
+  8
  ],
- "n_rows": 44,
- "n_cols": 6,
- "n_cells": 209,
+ "n_rows": 42,
+ "n_cols": 16,
+ "n_cells": 672,
  "columns": [
   {
    "col_no": "4",
-   "name": "Range Q)",
+   "name": "Year (4)",
    "header": [
-    "Range Q)"
+    "Year"
    ]
   },
   {
    "col_no": "5",
-   "name": "Distt.",
+   "name": "Murder",
    "header": [
-    "Distt."
+    "Murder"
    ]
   },
   {
    "col_no": "6",
-   "name": "Sub-Div.",
+   "name": "C.H. not amounting to murder",
    "header": [
-    "Sub-Div."
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "7",
-   "name": "Police Circle Station",
+   "name": "Rape",
    "header": [
-    "Police Circle Station"
+    "Rape"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "of Police Stations Rural",
+   "col_no": "8",
+   "name": "Kidnapping & Abduction",
    "header": [
-    "of Police Stations Rural"
+    "Kidnapping & Abduction"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "Total Urban",
+   "col_no": "9",
+   "name": "Dacoity",
    "header": [
-    "Total Urban"
+    "Dacoity"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Robbery",
+   "header": [
+    "Robbery"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Year (2)",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Burglary (House-Breaking)",
+   "header": [
+    "Burglary (House-Breaking)"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Theft",
+   "header": [
+    "Theft"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Riots",
+   "header": [
+    "Riots"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Criminal Breach of Trust",
+   "header": [
+    "Criminal Breach of Trust"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Cheating",
+   "header": [
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Counterfeiting",
+   "header": [
+    "Counterfeiting"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Other IPC Crimes",
+   "header": [
+    "Other IPC Crimes"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Total Cognizable Crimes under IPC",
+   "header": [
+    "Total Cognizable Crimes under IPC"
    ]
   }
  ],
- "notes": [
-  "Source: ‘Data on Police Grsanisaiior s in India’ - of Pol ce Research & Devetoumen",
-  "Note: Figures for Tamil Nadu and West Bengal States are as on 1.1.94.",
-  "Source: ‘Data on Police Gryanisaitons in India’ - Bureau of Police Research &",
-  "Note: 1. Figures for Tamil Nadu and West Rengal Statee are as on 1.1.94.",
-  "2..N.A. indicates Rural/Urhas available."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 18,
-  "cells_passed": 13,
-  "failures": [
-   "col 4 'TOTAL (States)': printed 545, sum 542",
-   "col 10001 'TOTAL (States)': printed 3114, sum 2421",
-   "col 10001 'TOTAL (UTs)': printed 137, sum 111",
-   "col 10002 'TOTAL (States)': printed 11444, sum 7908",
-   "col 10002 'TOTAL (UTs)': printed 175, sum 125"
-  ],
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

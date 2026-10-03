@@ -8,20 +8,20 @@
  "serial": "36",
  "title": "Strength of Armed Police as on 31.12.1978",
  "listing_title": "Strength of Armed Police as on 31.12.1978",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1978.pdf",
  "source_file": "raw/cii/1978/table_content/table-59-1978.pdf",
  "source_sha256": "ae795381697f267030b2af426cc60ecc6160b8f004e7df2da47cda9a0c6181ca",
  "table_no": "59",
- "pdf_title": "OF ARMED POLICE AS ON 31-12-1978",
- "row_label": "States/U.Ts./Cities No.",
+ "pdf_title": "99 TABLE 59 STRENGTH OF ARMED POLICE AS ON 31-12-1978",
+ "row_label": "Sl. No. / States/U.Ts./Cities / States/U.Ts./Cities",
  "pages": [
   1
  ],
  "n_rows": 43,
  "n_cols": 5,
- "n_cells": 205,
+ "n_cells": 215,
  "columns": [
   {
    "col_no": "3",
@@ -32,30 +32,30 @@
   },
   {
    "col_no": "4",
-   "name": "No. of ASsP., Dy. S.P. -",
+   "name": "No. of ASsP., Dy. S.P.",
    "header": [
-    "No. of ASsP., Dy. S.P. -"
+    "No. of ASsP., Dy. S.P."
    ]
   },
   {
    "col_no": "5",
-   "name": "No. of Inspectors & Sub-",
+   "name": "No. of Inspectors & Sub-Inspectors",
    "header": [
-    "No. of Inspectors & Sub-"
+    "No. of Inspectors & Sub-Inspectors"
    ]
   },
   {
    "col_no": "6",
-   "name": "No. of Officers below the rank of",
+   "name": "No. of Officers below the rank of Sub-Inspectors",
    "header": [
-    "No. of Officers below the rank of"
+    "No. of Officers below the rank of Sub-Inspectors"
    ]
   },
   {
    "col_no": "7",
-   "name": "Total of col. 3+4+5+4+6",
+   "name": "Total of col. 3+4÷5+6",
    "header": [
-    "Total of col. 3+4+5+4+6"
+    "Total of col. 3+4÷5+6"
    ]
   }
  ],
@@ -64,8 +64,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 16,
+  "other_totals_passed": 16
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -6,67 +6,92 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "Disposal Of Crime Under Local And Special Laws By Police During 1986",
+ "title": "45. TABLE 15 Disposal Of Crime Under Local And Special Laws By Police During 1986",
  "listing_title": "Disposal of Crimes",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-2-1986.pdf",
  "source_file": "raw/cii/1986/table_chapter/chapter-2-1986.pdf",
  "source_sha256": "fc39a525799cbeffe920abb336ac08392667e7a5bf2d7ecfcebdc8bd632bf346",
  "table_no": "15",
- "pdf_title": "Disposal Of Crime Under Local And Special Laws By Police During 1986",
- "row_label": "Crime Si. No. 1. 2. substences",
+ "pdf_title": "45. TABLE 15 Disposal Of Crime Under Local And Special Laws By Police During 1986",
+ "row_label": "Sl. No. / Head of Crime",
  "pages": [
+  8,
   8
  ],
- "n_rows": 12,
- "n_cols": 6,
- "n_cells": 72,
+ "n_rows": 14,
+ "n_cols": 10,
+ "n_cells": 130,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Numberofcases | Totalnumberof cases for investigation during the year including the cases carried over irom previous year 64,978 Narcotic Drugs And",
-   "header": [
-    "Numberofcases",
-    "Totalnumberof cases for investigation during the year including the cases carried over irom previous year 64,978 Narcotic Drugs And"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Numberofcases | in whick investigation was refused or declared false or mistake of fact or law or found noncognizable 363",
+   "name": "Total number of cases for investigation during the year including the cases carried over from previous year",
    "header": [
-    "Numberofcases",
-    "in whick investigation was refused or declared false or mistake of fact or law or found noncognizable 363"
+    "Total number of cases for investigation during the year including the cases carried over from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Number other than shown in column 4 in which investigation was compicied 56,826",
+   "name": "Number of cases in which investigation was refused or declared false or mistake of fact or law or found non-cognizable",
    "header": [
-    "Number other than shown in column 4 in which investigation was compicied 56,826"
+    "Number of cases in which investigation was refused or declared false or mistake of fact or law or found non-cognizable"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number ofcases which could | Numberof cases in whichcharge sheets were laid 55,485",
+   "name": "Number of cases other than shown in column 4 in which investigation was completed",
    "header": [
-    "Number ofcases which could",
-    "Numberof cases in whichcharge sheets were laid 55,485"
+    "Number of cases other than shown in column 4 in which investigation was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number ofcases which could | notbesent for trial for want of evidence 1,341",
+   "name": "Number of cases in which charge sheets were laid",
    "header": [
-    "Number ofcases which could",
-    "notbesent for trial for want of evidence 1,341"
+    "Number of cases in which charge sheets were laid"
    ]
   },
   {
    "col_no": "7",
-   "name": "Number of cases pending investigation atthe end of the year 7,789",
+   "name": "Number of cases which could not be sent for trial for want of evidence",
    "header": [
-    "Number of cases pending investigation atthe end of the year 7,789"
+    "Number of cases which could not be sent for trial for want of evidence"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Number of cases pending investigation at the end of the year",
+   "header": [
+    "Number of cases pending investigation at the end of the year"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Percentage of cases not investigated or mistake of fact or law or non cognizable to total cases for investigation",
+   "header": [
+    "Percentage of cases not investigated or mistake of fact or law or non cognizable to total cases for investigation"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Percentage of true cases investigated to total cases for investigation",
+   "header": [
+    "Percentage of true cases investigated to total cases for investigation"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Percentage of cases pending investigation at the end of the year to total cases for investigation",
+   "header": [
+    "Percentage of cases pending investigation at the end of the year to total cases for investigation"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Percentage of cases charge sheeted to total true cases in which investigation was completed",
+   "header": [
+    "Percentage of cases charge sheeted to total true cases in which investigation was completed"
    ]
   }
  ],
@@ -75,10 +100,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

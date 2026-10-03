@@ -8,34 +8,32 @@
  "serial": "26",
  "title": "Incidence & Rate of Crimes Committed Against Women in States, UTs and Cities During 1999",
  "listing_title": "Incidence & Rate of Crimes Committed Against Women in States, UTs and Cities During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-26-1999.pdf",
  "source_sha256": "67d02514fa45be69fbc08565d976eaed1a82ffa2bc9fd16f636dcbb3e1c49ab5",
  "table_no": "26",
- "pdf_title": "INCIDENCE & RATE OF CRIMES COMMITTED AGAINST WOMEN IN STATES, UTs AND CITIES DURING 1999",
- "row_label": "INCIDENCE SL. NO. a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 26",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 59,
  "n_cols": 6,
- "n_cells": 325,
+ "n_cells": 346,
  "columns": [
   {
    "col_no": "3",
-   "name": "INCIDENCE | ()",
+   "name": "INCIDENCE",
    "header": [
-    "INCIDENCE",
-    "()"
+    "INCIDENCE"
    ]
   },
   {
    "col_no": "4",
-   "name": "INCIDENCE | PERCENTAGE OF CONTRI- BUTION TO ALL-INDIA TOTAL",
+   "name": "PERCENTAGE OF CONTRI- BUTION TO ALL-INDIA TOTAL",
    "header": [
-    "INCIDENCE",
     "PERCENTAGE OF CONTRI- BUTION TO ALL-INDIA TOTAL"
    ]
   },
@@ -55,9 +53,9 @@
   },
   {
    "col_no": "7",
-   "name": "RANK*",
+   "name": "RANK *",
    "header": [
-    "RANK*"
+    "RANK *"
    ]
   },
   {
@@ -70,12 +68,12 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 2,
+  "cells_checked": 4,
+  "cells_passed": 3,
   "failures": [
-   "col 3 'TOTAL STATES': printed 132997, sum 131846"
+   "col 3 'TOTAL STATES': printed 132997, sum 131997"
   ],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

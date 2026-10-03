@@ -8,70 +8,66 @@
  "serial": "45",
  "title": "Strength of Civil including Districts Armed Police as on 31.12.1975",
  "listing_title": "Strength of Civil including Districts Armed Police as on 31.12.1975",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-58-1975.pdf",
  "source_sha256": "3ccbe80166cda7ea490f72b4d27a98767e0849b86798b766a28a80ac0439726e",
- "table_no": "",
- "pdf_title": "‘TADLE 38",
- "row_label": "fest Sl. No.",
+ "table_no": "58",
+ "pdf_title": "122 TABLE 58 Strength of civil including Districts Armed Police as on 31-12-1975",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 44,
+ "n_rows": 43,
  "n_cols": 5,
- "n_cells": 202,
+ "n_cells": 215,
  "columns": [
   {
-   "col_no": "2",
-   "name": "fest | Number of 1G, and 3.F.",
-   "header": [
-    "fest",
-    "Number of 1G, and 3.F."
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Armed Police ax ow M-12-1974",
+   "name": "Number of I.G. DisG and S.P.",
    "header": [
-    "Armed Police ax ow M-12-1974"
+    "Number of I.G. DisG and S.P."
    ]
   },
   {
    "col_no": "4",
-   "name": "Armed Police ax ow M-12-1974 | tors tore",
+   "name": "Number of A. SsP/Dy. S.P.",
    "header": [
-    "Armed Police ax ow M-12-1974",
-    "tors tore"
+    "Number of A. SsP/Dy. S.P."
    ]
   },
   {
    "col_no": "5",
-   "name": "Numberof Oificersbelow the rank of Sub-",
+   "name": "Number of Inspectors & Sub Inspectors",
    "header": [
-    "Numberof Oificersbelow the rank of Sub-"
+    "Number of Inspectors & Sub Inspectors"
    ]
   },
   {
    "col_no": "6",
-   "name": "Total of Column 3-44--3-46",
+   "name": "Number of Officers below the rank of Sub-Inspectors",
    "header": [
-    "Total of Column 3-44--3-46"
+    "Number of Officers below the rank of Sub-Inspectors"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total of Column 3+4+5+6",
+   "header": [
+    "Total of Column 3+4+5+6"
    ]
   }
  ],
- "notes": [
-  "-"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 16,
+  "other_totals_passed": 16
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

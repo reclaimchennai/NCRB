@@ -6,37 +6,35 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1972",
  "serial": "2",
- "title": "(ncidence of Suicides in India during 1972",
+ "title": "14 TABLE VII Incidence of Suicides in India during 1972",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1972.pdf",
  "source_file": "raw/adsi/1972/year_wise/suicides-1972.pdf",
  "source_sha256": "99b06913af5eee1266130ec2e3834e92abc9822ca4615d9cee557c58148454c4",
  "table_no": "VII",
- "pdf_title": "(ncidence of Suicides in India during 1972",
- "row_label": "(By causes) St. No. / (By causes) Causes of",
+ "pdf_title": "14 TABLE VII Incidence of Suicides in India during 1972",
+ "row_label": "Sl. No. / Causes of Suicides",
  "pages": [
   3
  ],
- "n_rows": 26,
+ "n_rows": 14,
  "n_cols": 2,
- "n_cells": 50,
+ "n_cells": 28,
  "columns": [
   {
    "col_no": "3",
-   "name": "(By causes) | Number of Suicides Suicidal deaths",
+   "name": "Number of Suicidal deaths",
    "header": [
-    "(By causes)",
-    "Number of Suicides Suicidal deaths"
+    "Number of Suicidal deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "(By causes) | Peiceaiage to total suicides",
+   "name": "Percentage to total suicides",
    "header": [
-    "(By causes)",
-    "Peiceaiage to total suicides"
+    "Percentage to total suicides"
    ]
   }
  ],
@@ -45,7 +43,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

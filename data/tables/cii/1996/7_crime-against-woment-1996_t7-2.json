@@ -6,53 +6,58 @@
  "topic": "",
  "section": "",
  "serial": "7",
- "title": "Crime Against Women",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 Table-7.2",
  "listing_title": "Crime Against Women",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/crime-against-woment-1996.pdf",
  "source_file": "raw/cii/1996/table_chapter/crime-against-woment-1996.pdf",
  "source_sha256": "673c5d8009d16cc18e6a6ef28cf966ccb292df42bd9e1d860706ade8a50a10e5",
  "table_no": "7.2",
- "pdf_title": "",
- "row_label": "Sl. No. / Crime Head / Year 1994 / Year 1995",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 Table-7.2",
+ "row_label": "Year",
  "pages": [
+  4,
   4
  ],
- "n_rows": 14,
- "n_cols": 2,
- "n_cells": 26,
+ "n_rows": 13,
+ "n_cols": 4,
+ "n_cells": 50,
  "columns": [
   {
-   "col_no": "5",
-   "name": "Year | variation in 1996 1996",
+   "col_no": "4",
+   "name": "Year (4)",
    "header": [
-    "Year",
-    "variation in 1996 1996"
+    "Year"
    ]
   },
   {
-   "col_no": "6",
-   "name": "Percentage over 1995",
+   "col_no": "5",
+   "name": "Year (5)",
    "header": [
-    "Percentage over 1995"
+    "Year"
    ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
   }
  ],
- "notes": [
-  "0st",
-  "MOLESTATION",
-  "7.3.2 The Proportion of IPC crimes committed against women towards total IPC crimes during the past 3",
-  "years presented below show marginal increases in the share of crimes against women in the total crimes."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

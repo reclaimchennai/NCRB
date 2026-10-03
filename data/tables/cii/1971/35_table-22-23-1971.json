@@ -8,21 +8,29 @@
  "serial": "35",
  "title": "Juveniles Apprehended During 1960, 1966 to 1971 (by Sex), Juveniles Apprehended During 1960, 1966 to 1971 (by Age Groups)",
  "listing_title": "Juveniles Apprehended During 1960, 1966 to 1971 (by Sex), Juveniles Apprehended During 1960, 1966 to 1971 (by Age Groups)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-23-1971.pdf",
  "source_file": "raw/cii/1971/table_content/table-22-23-1971.pdf",
  "source_sha256": "cacabeadb285f52aa49169afcdfa91328a5c35385e8192c65fec0473165a83d7",
  "table_no": "22",
- "pdf_title": "Juveniles Apprehended During 1960, 1966 To 1971 (By Sex)",
- "row_label": "SI. No. / Years",
+ "pdf_title": "50 TABLE 22 Juveniles Apprehended During 1960, 1966 To 1971 (By Sex)",
+ "row_label": "Sl. No.",
  "pages": [
+  1,
   1
  ],
- "n_rows": 19,
- "n_cols": 4,
- "n_cells": 69,
+ "n_rows": 9,
+ "n_cols": 14,
+ "n_cells": 100,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "Years (2)",
+   "header": [
+    "Years"
+   ]
+  },
   {
    "col_no": "3",
    "name": "Boys",
@@ -50,12 +58,70 @@
    "header": [
     "Percentage of girls"
    ]
+  },
+  {
+   "col_no": "10001",
+   "name": "col_10001",
+   "header": []
+  },
+  {
+   "col_no": "10002",
+   "name": "Years (10002)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "7-12 years",
+   "header": [
+    "7-12 years"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Percentage to total (10004)",
+   "header": [
+    "Percentage to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "12-16 years",
+   "header": [
+    "12-16 years"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage to total (8)",
+   "header": [
+    "Percentage to total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "16-21 years",
+   "header": [
+    "16-21 years"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Percentage to total (10)",
+   "header": [
+    "Percentage to total"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "18-21 years",
+   "header": [
+    "18-21 years"
+   ]
   }
  ],
- "notes": [
-  "1970.",
-  "* Relates to 16-18 years age group."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -64,6 +130,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

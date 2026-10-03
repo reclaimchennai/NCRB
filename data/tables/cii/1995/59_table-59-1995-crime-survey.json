@@ -8,52 +8,309 @@
  "serial": "59",
  "title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Women During 1995 (State & UT-Wise)",
  "listing_title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Women During 1995 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-59-1995-crime-survey.pdf",
  "source_sha256": "7a25ef5cb1e5eb7321e9586055d79d1b9b9b20480cbe4412de2a15f9da950315",
  "table_no": "59",
- "pdf_title": "",
- "row_label": "STATE/UT SL. NO. / STATE/UT / MOLESTATION * / MOLESTATION * R / MOLESTATION * P / SEXUAL HARASSMENT/ EVE-TEASINS* { / SEXUAL R / SEXUAL P / IMPORTING OF GIRLS (UPTO 21 YEARS) / IMPORTING OF GIRLS (UPTO 21 YEARS) R / IMPORTING OF GIRLS (UPTO 21 YEARS)",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-59",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  2
+  1,
+  2,
+  3
  ],
- "n_rows": 1,
- "n_cols": 3,
- "n_cells": 3,
+ "n_rows": 72,
+ "n_cols": 34,
+ "n_cells": 1190,
  "columns": [
   {
-   "col_no": "26",
-   "name": "SATI PREVENTION | AGT R",
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "SATI PREVENTION",
-    "AGT R"
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RAPE | R",
+   "header": [
+    "RAPE",
+    "R"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE | P",
+   "header": [
+    "RAPE",
+    "P"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING & ABDUCTION | I",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KIDNAPPING & ABDUCTION | R",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "R"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "KIDNAPPING & ABDUCTION | P",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DOWRY DEATHS * | I",
+   "header": [
+    "DOWRY DEATHS *",
+    "I"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "DOWRY DEATHS * | R",
+   "header": [
+    "DOWRY DEATHS *",
+    "R"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "DOWRY DEATHS * | P",
+   "header": [
+    "DOWRY DEATHS *",
+    "P"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)*. | I",
+   "header": [
+    "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)*.",
+    "I"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)*. | R",
+   "header": [
+    "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)*.",
+    "R"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)*. | P",
+   "header": [
+    "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)*.",
+    "P"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "MOLESTATION * | I",
+   "header": [
+    "MOLESTATION *",
+    "I"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "MOLESTATION * | R",
+   "header": [
+    "MOLESTATION *",
+    "R"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "MOLESTATION * | P",
+   "header": [
+    "MOLESTATION *",
+    "P"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "SEXUAL HARASSMENT/ EVE-TEASING* | I",
+   "header": [
+    "SEXUAL HARASSMENT/ EVE-TEASING*",
+    "I"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "SEXUAL HARASSMENT/ EVE-TEASING* | R",
+   "header": [
+    "SEXUAL HARASSMENT/ EVE-TEASING*",
+    "R"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "SEXUAL HARASSMENT/ EVE-TEASING* | P",
+   "header": [
+    "SEXUAL HARASSMENT/ EVE-TEASING*",
+    "P"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "IMPORTING OF GIRLS (UPTO 21 YEARS) | I",
+   "header": [
+    "IMPORTING OF GIRLS (UPTO 21 YEARS)",
+    "I"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "IMPORTING OF GIRLS (UPTO 21 YEARS) | R",
+   "header": [
+    "IMPORTING OF GIRLS (UPTO 21 YEARS)",
+    "R"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "IMPORTING OF GIRLS (UPTO 21 YEARS) | P",
+   "header": [
+    "IMPORTING OF GIRLS (UPTO 21 YEARS)",
+    "P"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "SATI PREVENTION ACT * | I (25)",
+   "header": [
+    "SATI PREVENTION ACT *",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "SATI PREVENTION ACT * | R",
+   "header": [
+    "SATI PREVENTION ACT *",
+    "R"
    ]
   },
   {
    "col_no": "27",
-   "name": "SATI PREVENTION | * P",
+   "name": "SATI PREVENTION ACT * | P",
    "header": [
-    "SATI PREVENTION",
-    "* P"
+    "SATI PREVENTION ACT *",
+    "P"
    ]
   },
   {
    "col_no": "28",
-   "name": "col_28",
-   "header": []
+   "name": "SATI PREVENTION ACT * | I (28)",
+   "header": [
+    "SATI PREVENTION ACT *",
+    "I"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "ITPA | R",
+   "header": [
+    "ITPA",
+    "R"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "ITPA | P",
+   "header": [
+    "ITPA",
+    "P"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "INDECENT REPRESENTATION OF WOMEN * | I",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN *",
+    "I"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "INDECENT REPRESENTATION OF WOMEN * | R",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN *",
+    "R"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "INDECENT REPRESENTATION OF WOMEN * | P",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN *",
+    "P"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "TOTAL | I",
+   "header": [
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
+    "P"
+   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 27,
+  "cells_passed": 23,
+  "failures": [
+   "col 16 'TOTAL (STATES)': printed 27913, sum 26628",
+   "col 19 'TOTAL (STATES)': printed 4527, sum 3441",
+   "col 22 'TOTAL (STATES)': printed 191, sum 160",
+   "col 28 'TOTAL (STATES)': printed 8303, sum 3188"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

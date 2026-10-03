@@ -1,0 +1,199 @@
+{
+ "table_id": "cii/1995/50_table-50-1995-crime-survey",
+ "publication": "cii",
+ "year": 1995,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "50",
+ "title": "Juveniles Apprehended under Different IPC Crimes During 1995 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Apprehended under Different IPC Crimes During 1995 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-50-1995-crime-survey.pdf",
+ "source_file": "raw/cii/1995/table_content/table-50-1995-crime-survey.pdf",
+ "source_sha256": "dcd206d568743256959afd444a376ec9949ac53c708ac41e58c90a646a9510cf",
+ "table_no": "50",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-50",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 116,
+ "n_cols": 22,
+ "n_cells": 1276,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ATTEMPT TO COMMIT MURDER",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "C.H.NOT AMOUN- TING TO MURDER",
+   "header": [
+    "C.H.NOT AMOUN- TING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DACOI- TY",
+   "header": [
+    "DACOI- TY"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PREPA- RATION & ASSEM- BLY FOR DACOI- TY",
+   "header": [
+    "PREPA- RATION & ASSEM- BLY FOR DACOI- TY"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "ROBB- ERY",
+   "header": [
+    "ROBB- ERY"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BURG- LARY",
+   "header": [
+    "BURG- LARY"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "THEFT",
+   "header": [
+    "THEFT"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "CRIMINAL BREACH OF TRUST",
+   "header": [
+    "CRIMINAL BREACH OF TRUST"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "CHEATING",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "COUNTERFEITING",
+   "header": [
+    "COUNTERFEITING"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "ARSON",
+   "header": [
+    "ARSON"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "HURT/GRIEVOUS HURT",
+   "header": [
+    "HURT/GRIEVOUS HURT"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "DOWRY DEATH",
+   "header": [
+    "DOWRY DEATH"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "MOLES TAT-ION",
+   "header": [
+    "MOLES TAT-ION"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "SEXUAL HARASSMENT",
+   "header": [
+    "SEXUAL HARASSMENT"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "CRUELTY BY HUSBAND OR RELATIVES",
+   "header": [
+    "CRUELTY BY HUSBAND OR RELATIVES"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "OTHER IPC CRIMES",
+   "header": [
+    "OTHER IPC CRIMES"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 33,
+  "cells_passed": 31,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 169, sum 159",
+   "col 7 'TOTAL (ALL-INDIA)': printed 161, sum 171"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

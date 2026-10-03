@@ -8,44 +8,41 @@
  "serial": "6",
  "title": "Property Stolen and Recovered",
  "listing_title": "Property Stolen and Recovered",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-6-1986.pdf",
  "source_file": "raw/cii/1986/table_chapter/chapter-6-1986.pdf",
  "source_sha256": "2d8cccd86e72c4e24255bb1e26202403b640b7fd416c7e496c02e7137406860c",
- "table_no": "",
- "pdf_title": "VALUE OF PROPERTY STOLEN IN INDIA",
- "row_label": "400. REIN 350: 300°",
+ "table_no": "46",
+ "pdf_title": "CHAPTER 6 PROPERTY STOLEN AND RECOVERED ## Value of Property Stolen",
+ "row_label": "Year",
  "pages": [
-  2
+  1
  ],
- "n_rows": 6,
- "n_cols": 4,
- "n_cells": 12,
+ "n_rows": 10,
+ "n_cols": 3,
+ "n_cells": 30,
  "columns": [
   {
    "col_no": "2",
-   "name": "CRORES",
+   "name": "Total value of property stolen (Rs. in lakhs)",
    "header": [
-    "CRORES"
+    "Total value of property stolen (Rs. in lakhs)"
    ]
   },
   {
    "col_no": "3",
-   "name": "1981—1986",
+   "name": "Total value of property recovered (Rs. in lakhs)",
    "header": [
-    "1981—1986"
+    "Total value of property recovered (Rs. in lakhs)"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
-  },
-  {
-   "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Percentage of value of property recovered to value of property stolen",
+   "header": [
+    "Percentage of value of property recovered to value of property stolen"
+   ]
   }
  ],
  "notes": [],
@@ -56,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

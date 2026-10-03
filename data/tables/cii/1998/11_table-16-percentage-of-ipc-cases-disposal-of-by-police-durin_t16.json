@@ -6,16 +6,16 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "11",
- "title": "Percentage of IPC Cases Disposed of by Police During 1998",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-16",
  "listing_title": "Percentage of IPC Cases Disposed of by Police During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-16--percentage-of-ipc-cases-disposal-of-by-police-during-1998-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-16--percentage-of-ipc-cases-disposal-of-by-police-during-1998-1998.pdf",
  "source_sha256": "bb638d8d9219228e876f67c25f1d691036daaa05e8726bb90e8890fd57bcb256",
  "table_no": "16",
- "pdf_title": "",
- "row_label": "nd / a a",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-16",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,65 +25,64 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "PENULENTAGE OF IPC",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH- | INVESTIGATION WAS REFUSED",
    "header": [
-    "PENULENTAGE OF IPC"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH-",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF BY POLICE DURING 1998 | PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICHINVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ mc OR LAW ETC.",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH- | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC.",
    "header": [
-    "OF BY POLICE DURING 1998",
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICHINVESTIGATION WAS COMPLETED",
-    "CHARGE FOUND FALSE/ mc OR LAW ETC."
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH-",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC."
    ]
   },
   {
    "col_no": "5",
-   "name": "OF BY POLICE DURING 1998 | PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICHINVESTIGATION WAS COMPLETED | FINAL REPORT TRUE",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH- | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "OF BY POLICE DURING 1998",
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICHINVESTIGATION WAS COMPLETED",
-    "FINAL REPORT TRUE"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH-",
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF BY POLICE DURING 1998 | PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICHINVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE ae",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH- | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE SUBMITTED",
    "header": [
-    "OF BY POLICE DURING 1998",
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICHINVESTIGATION WAS COMPLETED",
-    "CHARGE SHEETS WERE ae"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH-",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERE SUBMITTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF BY POLICE DURING 1998 | TOTAL {(4) +(5) +(6))",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH- | INVESTIGATION WAS COMPLETED | TOTAL [(4) + (5) + (6)]",
    "header": [
-    "OF BY POLICE DURING 1998",
-    "TOTAL {(4) +(5) +(6))"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH-",
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL [(4) + (5) + (6)]"
    ]
   },
   {
    "col_no": "8",
-   "name": "OF BY POLICE DURING 1998 | OF CASES lads",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION",
    "header": [
-    "OF BY POLICE DURING 1998",
-    "OF CASES lads"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION"
    ]
   },
   {
    "col_no": "9",
-   "name": "RATE (6)/(5) + (x 1}",
+   "name": "CHARGE-SHEETING RATE [(6)/(5) + (6) X 100]",
    "header": [
-    "RATE (6)/(5) + (x 1}"
+    "CHARGE-SHEETING RATE [(6)/(5) + (6) X 100]"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

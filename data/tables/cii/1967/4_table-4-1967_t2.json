@@ -6,44 +6,77 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "4",
- "title": "DURING 1966 AND 1967 SHOWING PERCENTAGE VARIATICN",
+ "title": "19 IV DURING 1966 AND 1967 SHOWING PERCENTAGE VARIATION",
  "listing_title": "Incidence of Crime under Different Heads During 1966 and 1967 Showing Percentage Variation",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-4-1967.pdf",
  "source_sha256": "91f3cd13847106399fbc65d69c0808b1d7b5c115da7b3b7e476a46fdd51d9533",
  "table_no": "",
- "pdf_title": "DURING 1966 AND 1967 SHOWING PERCENTAGE VARIATICN",
- "row_label": "Murder “1967",
+ "pdf_title": "19 IV DURING 1966 AND 1967 SHOWING PERCENTAGE VARIATION",
+ "row_label": "Murder 1967",
  "pages": [
   2
  ],
- "n_rows": 39,
- "n_cols": 3,
- "n_cells": 111,
+ "n_rows": 41,
+ "n_cols": 7,
+ "n_cells": 279,
  "columns": [
   {
    "col_no": "2",
-   "name": "Kidnapping & Abduction | “1966 Percentage’ variation.",
+   "name": "Murder | Percentage variation",
    "header": [
-    "Kidnapping & Abduction",
-    "“1966 Percentage’ variation."
+    "Murder",
+    "Percentage variation"
    ]
   },
   {
    "col_no": "3",
-   "name": "Kidnapping & Abduction | 1967 Percentage’ variation",
+   "name": "Kidnapping & Abduction | 1966",
    "header": [
     "Kidnapping & Abduction",
-    "1967 Percentage’ variation"
+    "1966"
    ]
   },
   {
    "col_no": "4",
-   "name": "Dacoity 1967 ‘1966 Percertzge variation,",
+   "name": "Kidnapping & Abduction | 1967",
    "header": [
-    "Dacoity 1967 ‘1966 Percertzge variation,"
+    "Kidnapping & Abduction",
+    "1967"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Kidnapping & Abduction | Percentage variation",
+   "header": [
+    "Kidnapping & Abduction",
+    "Percentage variation"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Dacoity | 1966",
+   "header": [
+    "Dacoity",
+    "1966"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Dacoity | 1967",
+   "header": [
+    "Dacoity",
+    "1967"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Dacoity | Percentage variation",
+   "header": [
+    "Dacoity",
+    "Percentage variation"
    ]
   }
  ],
@@ -55,7 +88,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

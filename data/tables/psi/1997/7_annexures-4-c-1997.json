@@ -8,21 +8,43 @@
  "serial": "7",
  "title": "Annexure-IVC: Distribution of Undertrials by Various Offences of SLL During 1997",
  "listing_title": "Annexure-IVC: Distribution of Undertrials by Various Offences of SLL During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/annexures-4-c_1997.pdf",
  "source_file": "raw/psi/1997/table_content/annexures-4-c_1997.pdf",
  "source_sha256": "8b643b7d4d4d0982c0aa5b78a57b20bc403f3a8a2a581c3473c50614257c36ba",
  "table_no": "",
- "pdf_title": "ANNEXURE-IVC DISTRIBUTION OF UNDERTRIALS BY VARIOUS OFFENCES OF SLL DURING 1997",
- "row_label": "NO. SL. STATE/UT / NO. SL. STATE/UT / ARMS ACT / N.D.P.S ACT / GAMBLING: ACT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1997 ANNEXURE-IVC",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 22,
- "n_cols": 7,
- "n_cells": 78,
+ "n_rows": 31,
+ "n_cols": 22,
+ "n_cells": 682,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "ARMS ACT",
+   "header": [
+    "ARMS ACT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "N.D.P.S ACT",
+   "header": [
+    "N.D.P.S ACT"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "GAMBLING ACT",
+   "header": [
+    "GAMBLING ACT"
+   ]
+  },
   {
    "col_no": "6",
    "name": "EXCISE ACT",
@@ -32,59 +54,140 @@
   },
   {
    "col_no": "7",
-   "name": "PROHIBI- TION ACT",
+   "name": "PROHIBITION ACT",
    "header": [
-    "PROHIBI- TION ACT"
+    "PROHIBITION ACT"
    ]
   },
   {
    "col_no": "8",
-   "name": "EXPLOS. AND SUBS. ACT",
+   "name": "EXPLOS. AND EXPLOS. SUBS. ACT",
    "header": [
-    "EXPLOS. AND SUBS. ACT"
+    "EXPLOS. AND EXPLOS. SUBS. ACT"
    ]
   },
   {
    "col_no": "9",
-   "name": "IMMORAL TRAFFIC TIONACT PREVEN-",
+   "name": "IMMORAL TRAFFIC PREVEN-TION ACT",
    "header": [
-    "IMMORAL TRAFFIC TIONACT PREVEN-"
+    "IMMORAL TRAFFIC PREVEN-TION ACT"
    ]
   },
   {
    "col_no": "10",
-   "name": "INDIAN RAILWAYS ACT",
+   "name": "INDIAN RAIL-WAYS ACT",
    "header": [
-    "INDIAN RAILWAYS ACT"
+    "INDIAN RAIL-WAYS ACT"
    ]
   },
   {
    "col_no": "11",
-   "name": "RATION FOREIG- OF NERS ACT",
+   "name": "REGIST-RATION OF FOREIGN-NERS ACT",
    "header": [
-    "RATION FOREIG- OF NERS ACT"
+    "REGIST-RATION OF FOREIGN-NERS ACT"
    ]
   },
   {
    "col_no": "12",
-   "name": "PASSPORT ACT CIVIL OF RIGHTS ACT (13),",
+   "name": "PROTEC-TION OF CIVIL RIGHTS ACT",
    "header": [
-    "PASSPORT ACT CIVIL OF RIGHTS ACT (13),"
+    "PROTEC-TION OF CIVIL RIGHTS ACT"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "INDIAN PASS-PORT ACT",
+   "header": [
+    "INDIAN PASS-PORT ACT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "ESSENTIAL COMMODITIES ACT",
+   "header": [
+    "ESSENTIAL COMMODITIES ACT"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "T.A.D.A. ACT",
+   "header": [
+    "T.A.D.A. ACT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "ANTIQ. & ART TREAT-SURE ACT",
+   "header": [
+    "ANTIQ. & ART TREAT-SURE ACT"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "DOWRY PROHIB-TION ACT",
+   "header": [
+    "DOWRY PROHIB-TION ACT"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "FOREIGN EXCH-ANGE REG. ACT",
+   "header": [
+    "FOREIGN EXCH-ANGE REG. ACT"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "OFFI-CIAL SECRET ACT",
+   "header": [
+    "OFFI-CIAL SECRET ACT"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "PREV. OF CORR. ACT",
+   "header": [
+    "PREV. OF CORR. ACT"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "CONSER-OF FORGN EXCH. & PREV.",
+   "header": [
+    "CONSER-OF FORGN EXCH. & PREV."
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "NATIO-NAL SECU-RITY ACT",
+   "header": [
+    "NATIO-NAL SECU-RITY ACT"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "OTHER SLL CASES",
+   "header": [
+    "OTHER SLL CASES"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL UNDER-TRIALS UNDER SLL CRIMES",
+   "header": [
+    "TOTAL UNDER-TRIALS UNDER SLL CRIMES"
    ]
   }
  ],
- "notes": [
-  "4142 3927 «781~««2507 «35278579 B74 3493 223 92. 163",
-  "$3"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 21,
+  "other_totals_passed": 21
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -8,85 +8,104 @@
  "serial": "60",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1997 (State, UT & City-Wise) Dacoity",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1997 (State, UT & City-Wise) Dacoity",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-40-1996-crime-survey.pdf",
  "source_sha256": "384a72fa8aa012fe48bb19f7019ceabe0a79b0217ead8fa807835e9a4a1807a8",
  "table_no": "40",
- "pdf_title": "",
- "row_label": "NUMBER OF CASES SL. NO. / NUMBER OF CASES STATE/UT/CITY",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-40",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 59,
- "n_cols": 7,
- "n_cells": 333,
+ "n_rows": 116,
+ "n_cols": 9,
+ "n_cells": 928,
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER OF CASES | NUMBER",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "NUMBER OF CASES",
+    "RESIDENTIAL PREMISES",
     "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "AND VALUE OF rnurenty STOLEN | RESIDENTIAL PRENIISES VALUE",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "AND VALUE OF rnurenty STOLEN",
-    "RESIDENTIAL PRENIISES VALUE"
+    "RESIDENTIAL PREMISES",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "AND VALUE OF rnurenty STOLEN | (STATE. UT & CITY-WISE) DACOITY",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "AND VALUE OF rnurenty STOLEN",
-    "(STATE. UT & CITY-WISE) DACOITY"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "AND VALUE OF rnurenty STOLEN | (STATE. UT & CITY-WISE) DACOITY | HIGHWAYS VALUE",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "AND VALUE OF rnurenty STOLEN",
-    "(STATE. UT & CITY-WISE) DACOITY",
-    "HIGHWAYS VALUE"
+    "HIGHWAYS",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "BY NUMBER",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "BY NUMBER"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "PLACE RIVER & SEA VALUE",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "PLACE RIVER & SEA VALUE"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF OCCURRENCE DURING 1997 RAILWAYS NUMBER VALUE «Moy",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "OF OCCURRENCE DURING 1997 RAILWAYS NUMBER VALUE «Moy"
+    "RAILWAYS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RAILWAYS | VALUE",
+   "header": [
+    "RAILWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "BANKS | VALUE(12)",
+   "header": [
+    "BANKS",
+    "VALUE(12)"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 1,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

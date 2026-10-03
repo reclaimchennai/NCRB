@@ -8,27 +8,33 @@
  "serial": "36",
  "title": "Property Stolen and Recovered in Different States/U.T.s/Cities",
  "listing_title": "Property Stolen and Recovered in Different States/U.T.s/Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-47-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-47-1975.pdf",
  "source_sha256": "fe339104c7a5a21235e4a66a14c057952b5d6499c2f13f09e16c9e1da20801c3",
- "table_no": "",
- "pdf_title": "‘Taman 47",
- "row_label": "BL. No. / Rie fa Total value of - Toda]",
+ "table_no": "47",
+ "pdf_title": "102 TABLE 47 Property stolen and Recovered in difference States/U.Ts./Cities",
+ "row_label": "SL No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 35,
- "n_cols": 1,
- "n_cells": 35,
+ "n_rows": 43,
+ "n_cols": 2,
+ "n_cells": 86,
  "columns": [
   {
-   "col_no": "5",
-   "name": "Rie fa | of value properly",
+   "col_no": "3",
+   "name": "Total value of property stolen",
    "header": [
-    "Rie fa",
-    "of value properly"
+    "Total value of property stolen"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Total value of property recovered",
+   "header": [
+    "Total value of property recovered"
    ]
   }
  ],
@@ -40,7 +46,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -6,136 +6,66 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1986",
  "serial": "3",
- "title": "TABLE.VII",
+ "title": "21 of suicides. The remaining 7 states registered a decline over 1985. The highest increase in suicides was registered in Jammu & Kashmir (81.3%). The second highest increase in suicides was registered in Mizoram (64.7%), followed by Sikkam (64.0%). The 7 states which registered a decline in the number of suicide cases were Bihar, Manipur, Uttar Pradesh, Tripura, West Bengal, Karnataka and Andhra Pradesh. All the Union Territories taken together registered an increase of 24.0 per cent in the total number of suicides during 1986 over 1985. Out of 7 U.Ts., 6 U.Ts. registered an increase in the total number of suicides during 1986 over 1985 and only one i.e. Lakshadweep did not register any cases of suicide during 1986 and 1985.",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1986.pdf",
  "source_file": "raw/adsi/1986/year_wise/suicides-1986.pdf",
  "source_sha256": "301b8dfc1921ea787077c0ba8426ed4353d4439423c3eccba0db451570857b22",
  "table_no": "V",
- "pdf_title": "TABLE.VII",
- "row_label": "Suicides Classified Sl. No. / Suicides Classified And States/U.Ts./Cities",
+ "pdf_title": "21 of suicides. The remaining 7 states registered a decline over 1985. The highest increase in suicides was registered in Jammu & Kashmir (81.3%). The second highest increase in suicides was registered in Mizoram (64.7%), followed by Sikkam (64.0%). The 7 states which registered a decline in the number of suicide cases were Bihar, Manipur, Uttar Pradesh, Tripura, West Bengal, Karnataka and Andhra Pradesh. All the Union Territories taken together registered an increase of 24.0 per cent in the total number of suicides during 1986 over 1985. Out of 7 U.Ts., 6 U.Ts. registered an increase in the total number of suicides during 1986 over 1985 and only one i.e. Lakshadweep did not register any cases of suicide during 1986 and 1985.",
+ "row_label": "Sl. No.",
  "pages": [
+  10,
   11,
-  16,
-  17
+  12
  ],
- "n_rows": 55,
- "n_cols": 13,
- "n_cells": 318,
+ "n_rows": 42,
+ "n_cols": 4,
+ "n_cells": 126,
  "columns": [
   {
+   "col_no": "2",
+   "name": "States/U.Ts/Cities",
+   "header": [
+    "States/U.Ts/Cities"
+   ]
+  },
+  {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Number of Suicides (3)",
+   "header": [
+    "Number of Suicides"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Number of Suicides (4)",
+   "header": [
+    "Number of Suicides"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
-  },
-  {
-   "col_no": "10001",
-   "name": "To Sex And By States, Union | Cities During The Year | Male",
+   "name": "% Variation From 1985 to 1986",
    "header": [
-    "To Sex And By States, Union",
-    "Cities During The Year",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "To Sex And By States, Union | Cities During The Year | % of male to total:",
-   "header": [
-    "To Sex And By States, Union",
-    "Cities During The Year",
-    "% of male to total:"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "To Sex And By States, Union | Cities During The Year | Female",
-   "header": [
-    "To Sex And By States, Union",
-    "Cities During The Year",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "To Sex And By States, Union | 1986. % of Female to total",
-   "header": [
-    "To Sex And By States, Union",
-    "1986. % of Female to total"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Total (7)",
-   "header": [
-    "Total"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Male",
-   "header": [
-    "Male"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "% of male to total",
-   "header": [
-    "% of male to total"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "Female",
-   "header": [
-    "Female"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "% of Female to total",
-   "header": [
-    "% of Female to total"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "Total (10008)",
-   "header": [
-    "Total"
+    "% Variation From 1985 to 1986"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 13,
-  "cells_passed": 2,
+  "cells_checked": 6,
+  "cells_passed": 4,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 51820, sum 42276",
-   "col 4 'TOTAL (STATES)': printed 53128, sum 43170",
-   "col 10001 'TOTAL (STATES)': printed 30591, sum 18460",
-   "col 10003 'TOTAL (STATES)': printed 22537, sum 13378",
-   "col 7 'TOTAL (STATES)': printed 53128, sum 29754",
-   "col 10004 'TOTAL (U.Ts.)': printed 680, sum 456",
-   "col 10004 'TOTAL (CITIES)': printed 1951, sum 2158",
-   "col 10006 'TOTAL (U.Ts.)': printed 549, sum 417"
+   "col 3 'TOTAL(STATES)': printed 51820, sum 44264",
+   "col 4 'TOTAL(STATES)': printed 53128, sum 45160"
   ],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 3,
  "warnings": []
 }

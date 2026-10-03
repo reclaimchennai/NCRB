@@ -8,40 +8,76 @@
  "serial": "32",
  "title": "Persons Arrested under IPC and SLL Crimes by Age Groups and Sex During 1995",
  "listing_title": "Persons Arrested under IPC and SLL Crimes by Age Groups and Sex During 1995",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-32-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-32-1995-crime-survey.pdf",
  "source_sha256": "d3877427f71a481027a89c9c5145eca34cc4075564a3e774f8186785f5e1c44f",
  "table_no": "32",
- "pdf_title": "ARRESTED UNDER IPC AND SLL CRIMES BY AGE GROLIPS AND SEX DURING 1995",
- "row_label": "SL. NO. / CRIME HEAD / BELOW 16 YEARS M / 16-18 YEARS F / 16-18 YEARS (5)} / 16-18 YEARS F",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-32",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 1,
- "n_cols": 4,
- "n_cells": 3,
+ "n_rows": 68,
+ "n_cols": 17,
+ "n_cells": 816,
  "columns": [
   {
-   "col_no": "7",
-   "name": "18-30 YEARS Mi",
+   "col_no": "3",
+   "name": "BELOW 16 YEARS | M",
    "header": [
-    "18-30 YEARS Mi"
+    "BELOW 16 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BELOW 16 YEARS | F",
+   "header": [
+    "BELOW 16 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "16-18 YEARS | M",
+   "header": [
+    "16-18 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "16-18 YEARS | F",
+   "header": [
+    "16-18 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "18-30 YEARS | M",
+   "header": [
+    "18-30 YEARS",
+    "M"
    ]
   },
   {
    "col_no": "8",
-   "name": "F",
+   "name": "18-30 YEARS | F",
    "header": [
+    "18-30 YEARS",
     "F"
    ]
   },
   {
    "col_no": "9",
-   "name": "30-50 YEARS",
+   "name": "30-50 YEARS | M",
    "header": [
-    "30-50 YEARS"
+    "30-50 YEARS",
+    "M"
    ]
   },
   {
@@ -51,19 +87,94 @@
     "30-50 YEARS",
     "F"
    ]
+  },
+  {
+   "col_no": "11",
+   "name": "50 YEARS & ABOVE | M",
+   "header": [
+    "50 YEARS & ABOVE",
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "50 YEARS & ABOVE | F",
+   "header": [
+    "50 YEARS & ABOVE",
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ALL AGE GROUPS | JUVENILES | M",
+   "header": [
+    "ALL AGE GROUPS",
+    "JUVENILES",
+    "M"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "ALL AGE GROUPS | JUVENILES | F",
+   "header": [
+    "ALL AGE GROUPS",
+    "JUVENILES",
+    "F"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "ALL AGE GROUPS | OTHERS | M",
+   "header": [
+    "ALL AGE GROUPS",
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "ALL AGE GROUPS | OTHERS | F",
+   "header": [
+    "ALL AGE GROUPS",
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "ALL AGE GROUPS | TOTAL | M",
+   "header": [
+    "ALL AGE GROUPS",
+    "TOTAL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "ALL AGE GROUPS | TOTAL | F",
+   "header": [
+    "ALL AGE GROUPS",
+    "TOTAL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TOTAL M+F (17+18)",
+   "header": [
+    "TOTAL M+F (17+18)"
+   ]
   }
  ],
- "notes": [
-  "1656 NCRB 97. 23B 176"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 42,
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

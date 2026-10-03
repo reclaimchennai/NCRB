@@ -1,0 +1,82 @@
+{
+ "table_id": "cii/1994/12_table60-1994-2",
+ "publication": "cii",
+ "year": 1994,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "12",
+ "title": "Victims of Rape under Different Age Groups During 1994 (State, UT & City-Wise)",
+ "listing_title": "Victims of Rape under Different Age Groups During 1994 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table60-1994_2.pdf",
+ "source_file": "raw/cii/1994/table_content/table60-1994_2.pdf",
+ "source_sha256": "8ec9029e0c7cf6ab3af5727e19fb0f79f10d0ff49d877a96363d6806c02b61e3",
+ "table_no": "60",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1994 TABLE-60",
+ "row_label": "SL. NO. / STATE/UT/CITY",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 5,
+ "n_cells": 290,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NO. OF CASES REPORTED",
+   "header": [
+    "NO. OF CASES REPORTED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF VICTIMS | BELOW 10 YEARS",
+   "header": [
+    "NUMBER OF VICTIMS",
+    "BELOW 10 YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF VICTIMS | 10-16 YEARS",
+   "header": [
+    "NUMBER OF VICTIMS",
+    "10-16 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF VICTIMS | 16-30 YEARS",
+   "header": [
+    "NUMBER OF VICTIMS",
+    "16-30 YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF VICTIMS | 30 YEARS AND ABOVE",
+   "header": [
+    "NUMBER OF VICTIMS",
+    "30 YEARS AND ABOVE"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 11,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 12882, sum 12802",
+   "col 4 'TOTAL (STATES)': printed 676, sum 677",
+   "col 5 'TOTAL (STATES)': printed 3084, sum 3094",
+   "col 5 'TOTAL (ALL-INDIA)': printed 3244, sum 3234"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

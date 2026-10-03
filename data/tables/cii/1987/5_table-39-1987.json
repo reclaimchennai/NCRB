@@ -8,22 +8,22 @@
  "serial": "5",
  "title": "Juveniles Apprehended under Important Heads of Local & Special Laws During 1987",
  "listing_title": "Juveniles Apprehended under Important Heads of Local & Special Laws During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_39-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_39-1987.pdf",
  "source_sha256": "d3462ad9f3e191896979ff3d957a0ec68ab950fbae784b71ba993f71268f3e49",
  "table_no": "39",
- "pdf_title": "Juveniles Apprehended Under Important Heads Of Local And Special Laws During 1987",
- "row_label": "SL. STATES/UTs/CITIES NO. ql)",
+ "pdf_title": "117 TABLE - 39 Juveniles Apprehended Under Important Heads Of Local And Special Laws During 1987",
+ "row_label": "SL. NO. / STATES/UTS/CITIES",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 59,
+ "n_rows": 49,
  "n_cols": 13,
- "n_cells": 615,
+ "n_cells": 624,
  "columns": [
   {
    "col_no": "3",
@@ -34,23 +34,23 @@
   },
   {
    "col_no": "4",
-   "name": "NARCOTIC DRUGS PSYCHOTROPIC",
+   "name": "NARCOTIC DRUGS & PSYCHOTRO-PIC SUB-",
    "header": [
-    "NARCOTIC DRUGS PSYCHOTROPIC"
+    "NARCOTIC DRUGS & PSYCHOTRO-PIC SUB-"
    ]
   },
   {
    "col_no": "5",
-   "name": "GAMBLING & SUB-",
+   "name": "GAMBLING ACT",
    "header": [
-    "GAMBLING & SUB-"
+    "GAMBLING ACT"
    ]
   },
   {
    "col_no": "6",
-   "name": "EXCISE ACT ACT",
+   "name": "EXCISE ACT",
    "header": [
-    "EXCISE ACT ACT"
+    "EXCISE ACT"
    ]
   },
   {
@@ -62,47 +62,44 @@
   },
   {
    "col_no": "8",
-   "name": "EXPLOSIVES | AND LOSIVE ACT",
+   "name": "EXPLOSIVES AND EXP-LOSIVE SUBSTANCES ACT",
    "header": [
-    "EXPLOSIVES",
-    "AND LOSIVE ACT"
+    "EXPLOSIVES AND EXP-LOSIVE SUBSTANCES ACT"
    ]
   },
   {
    "col_no": "9",
-   "name": "EXPLOSIVES | EXPSURSTANCES ACT",
+   "name": "IMMORAL TRAFFIC (PRE-VENTION) ACT",
    "header": [
-    "EXPLOSIVES",
-    "EXPSURSTANCES ACT"
+    "IMMORAL TRAFFIC (PRE-VENTION) ACT"
    ]
   },
   {
    "col_no": "10",
-   "name": "IMMORAL MOTOR TRAFFIC VEHICLES ACT (PREVENTION)",
+   "name": "MOTOR VEHICLES ACT",
    "header": [
-    "IMMORAL MOTOR TRAFFIC VEHICLES ACT (PREVENTION)"
+    "MOTOR VEHICLES ACT"
    ]
   },
   {
    "col_no": "11",
-   "name": "STATES/UTs/CITIES | VENTION OF UPTION ACT",
+   "name": "PRE-VENTION OF CORR-UPTION ACT",
    "header": [
-    "STATES/UTs/CITIES",
-    "VENTION OF UPTION ACT"
+    "PRE-VENTION OF CORR-UPTION ACT"
    ]
   },
   {
    "col_no": "12",
-   "name": "PREACT CORR-",
+   "name": "CUSTOMS ACT",
    "header": [
-    "PREACT CORR-"
+    "CUSTOMS ACT"
    ]
   },
   {
    "col_no": "13",
-   "name": "CUSTOMS INDIAN RAILWAYS ACT",
+   "name": "INDIAN RAILWAYS ACT",
    "header": [
-    "CUSTOMS INDIAN RAILWAYS ACT"
+    "INDIAN RAILWAYS ACT"
    ]
   },
   {
@@ -114,28 +111,22 @@
   },
   {
    "col_no": "15",
-   "name": "TOTAL COGNIZABLE CRIME UNDER LOCAL AND SPL LAWS",
+   "name": "TOTAL COGNI-ZABLE CRIME UNDER LOCAL AND SPL LAWS",
    "header": [
-    "TOTAL COGNIZABLE CRIME UNDER LOCAL AND SPL LAWS"
+    "TOTAL COGNI-ZABLE CRIME UNDER LOCAL AND SPL LAWS"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 19,
-  "cells_passed": 9,
+  "cells_checked": 27,
+  "cells_passed": 25,
   "failures": [
-   "col 7 'TOTAL (States)': printed 27263, sum 17049",
-   "col 8 'TOTAL (States)': printed 87, sum 80",
-   "col 9 'TOTAL (States)': printed 1125, sum 1100",
-   "col 10 'TOTAL (States)': printed 7601, sum 7574",
-   "col 13 'TOTAL (UTs)': printed 27, sum 1357",
-   "col 14 'TOTAL (States)': printed 35806, sum 29499",
-   "col 14 'TOTAL (Cities)': printed 17340, sum 16265",
-   "col 15 'TOTAL (States)': printed 96902, sum 68154"
+   "col 14 'Total(UTs)': printed 592, sum 588",
+   "col 15 'Total(UTs)': printed 2653, sum 2649"
   ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 5
+  "other_totals_checked": 11,
+  "other_totals_passed": 11
  },
  "inferred_pages": 0,
  "ocr_pages": 3,

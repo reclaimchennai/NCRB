@@ -8,21 +8,22 @@
  "serial": "4",
  "title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs and Cities During 1985 - 1990 alongwith Percentage Changes During 1990",
  "listing_title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs and Cities During 1985 - 1990 alongwith Percentage Changes During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/4table-4-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/4table-4-1990-.pdf",
  "source_sha256": "ccf305258d8de8e3871df24eadea35f344e31f9fa4b39f50d4090523ba2ea0dd",
  "table_no": "4",
- "pdf_title": "INCIDENCE OF TOTAL COGNIZABLE CRIMES(IPC) IN STATES, UTs AND CITIES DURING 1985-1990 ALONGWITH PERCENTAGE CHANGES DURING 1990",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "pdf_title": "22 TABLE - 4 INCIDENCE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES, UTS AND CITIES DURING 1985-1990 ALONGWITH PERCENTAGE CHANGES DURING 1990",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
+  2,
   2
  ],
- "n_rows": 47,
- "n_cols": 18,
- "n_cells": 422,
+ "n_rows": 48,
+ "n_cols": 9,
+ "n_cells": 424,
  "columns": [
   {
    "col_no": "3",
@@ -54,132 +55,52 @@
   },
   {
    "col_no": "7",
-   "name": "QUINQUEN- | 1989",
+   "name": "1989",
    "header": [
-    "QUINQUEN-",
     "1989"
    ]
   },
   {
    "col_no": "8",
-   "name": "QUINQUEN- | NIAL 1985-1989 (Q. A.)",
+   "name": "QUINQUEN-NIAL AVG.1985-1989(Q. A.)",
    "header": [
-    "QUINQUEN-",
-    "NIAL 1985-1989 (Q. A.)"
+    "QUINQUEN-NIAL AVG.1985-1989(Q. A.)"
    ]
   },
   {
    "col_no": "9",
-   "name": "QUINQUEN- | AVG.",
+   "name": "1990",
    "header": [
-    "QUINQUEN-",
-    "AVG."
+    "1990"
    ]
   },
   {
    "col_no": "10",
-   "name": "PERCENTAGE IN 1990 Q.A.",
+   "name": "PERCENTAGE CHANGEIN 1990(+ ) INCREASE(- ) DECREASEOVER",
    "header": [
-    "PERCENTAGE IN 1990 Q.A."
+    "PERCENTAGE CHANGEIN 1990(+ ) INCREASE(- ) DECREASEOVER"
    ]
   },
   {
    "col_no": "11",
-   "name": "CHANGE 1990 (+) INCREASE (-} DECREASE OVER 1989",
+   "name": "Q. A.",
    "header": [
-    "CHANGE 1990 (+) INCREASE (-} DECREASE OVER 1989"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "- | 1985 (62) TERRITORIES:",
-   "header": [
-    "-",
-    "1985 (62) TERRITORIES:"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "- | 1986 i3>",
-   "header": [
-    "-",
-    "1986 i3>"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "- | 1987 (4)",
-   "header": [
-    "-",
-    "1987 (4)"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "- | “JPRS «5)",
-   "header": [
-    "-",
-    "“JPRS «5)"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "- | 1989 (8)",
-   "header": [
-    "-",
-    "1989 (8)"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "- | QU INQUENNIAL 1985-1989 (Q. A.) (7)",
-   "header": [
-    "-",
-    "QU INQUENNIAL 1985-1989 (Q. A.) (7)"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "- | AVG. (8)",
-   "header": [
-    "-",
-    "AVG. (8)"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "- | PERCENTASE IN 1990 Q. A. (9)",
-   "header": [
-    "-",
-    "PERCENTASE IN 1990 Q. A. (9)"
-   ]
-  },
-  {
-   "col_no": "10009",
-   "name": "- | CHANGE 1990 4+) INCREASE (-) DECREASE OVER 1989 •----- «11) (10)",
-   "header": [
-    "-",
-    "CHANGE 1990 4+) INCREASE (-) DECREASE OVER 1989 •----- «11) (10)"
+    "Q. A."
    ]
   }
  ],
- "notes": [
-  "NOTE. 1. Arunachal Pradesh,Goa and Mizoram attained statehood in the year 1986,1987 and-1986",
-  "Daman & Diu portion of UT of Goa, Daman & Diu continued to remain as a U.T.",
-  "2. Combined figures of Goa, Daman & Diu for the years 1985 and 1986 were bifurcated betweea Goa and",
-  "Daman & Diu on the basis of 1988 data."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 11,
-  "cells_passed": 9,
+  "cells_checked": 21,
+  "cells_passed": 19,
   "failures": [
-   "col 10002 'TOTAL (UTs)': printed 35037, sum 41516",
-   "col 10006 'TOTAL (UTs)': printed 34744, sum 34544"
+   "col 5 'TOTAL (UTs)': printed 31362, sum 31352",
+   "col 7 'TOTAL (STATES)': printed 1.49264e+06, sum 1.49265e+06"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

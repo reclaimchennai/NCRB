@@ -6,51 +6,95 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "85",
- "title": "Police Personnel Killed or Injured On Duty During 1999 (State, UT & City-Wise)",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 85",
  "listing_title": "Police Personnel Killed or Injured On Duty During 1999 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-85-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-85-1999.pdf",
  "source_sha256": "b7101ce77a65b15f5d28d5d3330c03d0b513c0ddbe9e3b11197841f51e6febd1",
  "table_no": "85",
- "pdf_title": "",
- "row_label": "POLICE ransui=\"1. (STATE, UT & CITY-WISE) SL. NUMBIR UF NO. INDACOITY MOBS UFERALIUN OR OTHER RAIDS i)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 85",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 59,
- "n_cols": 2,
- "n_cells": 114,
+ "n_rows": 111,
+ "n_cols": 7,
+ "n_cells": 777,
  "columns": [
   {
-   "col_no": "6",
-   "name": "OR INJURED ON DUTY DURING 1999 we CRIMI-NALS @)",
+   "col_no": "3",
+   "name": "NUMBER OF VICTIMS KILLED | IN TERRORIST/ EXTREMISTS OPERATIONS",
    "header": [
-    "OR INJURED ON DUTY DURING 1999 we CRIMI-NALS @)"
+    "NUMBER OF VICTIMS KILLED",
+    "IN TERRORIST/ EXTREMISTS OPERATIONS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF VICTIMS KILLED | IN DACOTTY OPERATION OR OTHER RAIDS",
+   "header": [
+    "NUMBER OF VICTIMS KILLED",
+    "IN DACOTTY OPERATION OR OTHER RAIDS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF VICTIMS KILLED | BY RIOTOUS MOBS",
+   "header": [
+    "NUMBER OF VICTIMS KILLED",
+    "BY RIOTOUS MOBS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF VICTIMS KILLED | BY OTHER CRIMI- NALS",
+   "header": [
+    "NUMBER OF VICTIMS KILLED",
+    "BY OTHER CRIMI- NALS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF VICTIMS KILLED | ON BORDER DUTIES",
+   "header": [
+    "NUMBER OF VICTIMS KILLED",
+    "ON BORDER DUTIES"
    ]
   },
   {
    "col_no": "8",
-   "name": "2 - sy - TOTAL - DUTIES",
+   "name": "NUMBER OF VICTIMS KILLED | IN ACCIDENTS",
    "header": [
-    "2 - sy - TOTAL - DUTIES"
+    "NUMBER OF VICTIMS KILLED",
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NUMBER OF VICTIMS KILLED | TOTAL",
+   "header": [
+    "NUMBER OF VICTIMS KILLED",
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 2,
+  "cells_checked": 40,
+  "cells_passed": 36,
   "failures": [
-   "col 6 'TOTAL STATES': printed 176, sum 164",
-   "col 6 'TOTAL (CITIES)': printed 7, sum 6",
-   "col 8 'TOTAL (CITIES)': printed 786, sum 6160"
+   "col 6 'TOTAL (ALL-INDIA)': printed 792, sum 799",
+   "col 8 'TOTAL (ALL-INDIA)': printed 791, sum 868",
+   "col 9 'TOTAL STATES': printed 3476, sum 3475",
+   "col 9 'TOTAL (ALL-INDIA)': printed 3764, sum 3850"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

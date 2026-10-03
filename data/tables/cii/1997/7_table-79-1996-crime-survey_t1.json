@@ -6,22 +6,22 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "REPORTED CUSTODIAL DEATH CASES AND THEIR DISPOSAL BY POLICE AND COURTS DURING 1997",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 REPORTED CUSTODIAL DEATH CASES AND THEIR DISPOSAL BY POLICE AND COURTS DURING 1997",
  "listing_title": "Reported Custodial Death Cases and Their Disposal by Police and Courts During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-79-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-79-1996-crime-survey.pdf",
  "source_sha256": "3e8cff55146badaa116d1cab8f1e4c6aa8f22367b9a2882aeea4e7a46654fb95",
  "table_no": "",
- "pdf_title": "REPORTED CUSTODIAL DEATH CASES AND THEIR DISPOSAL BY POLICE AND COURTS DURING 1997",
- "row_label": "su a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 REPORTED CUSTODIAL DEATH CASES AND THEIR DISPOSAL BY POLICE AND COURTS DURING 1997",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 32,
+ "n_rows": 35,
  "n_cols": 8,
- "n_cells": 164,
+ "n_cells": 280,
  "columns": [
   {
    "col_no": "3",
@@ -41,63 +41,58 @@
   },
   {
    "col_no": "5",
-   "name": "INVESTIGATION STAGE | CASES NOT ATEDORIN ESTIGATION WAS REFUSED",
+   "name": "INVESTIGATION STAGE | CASES NOT INVESTIGATED OR IN WHICH INVESTIGATION WAS REFUSED",
    "header": [
     "INVESTIGATION STAGE",
-    "CASES NOT ATEDORIN ESTIGATION WAS REFUSED"
+    "CASES NOT INVESTIGATED OR IN WHICH INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "6",
-   "name": "INVESTIGATION STAGE | CASES DECLARED FALSEON ACCOUNT OF MISTAKE OF FACT OR LAW",
+   "name": "INVESTIGATION STAGE | CASES DECLARED FALSE ON ACCOUNT OF MISTAKE OF FACT OR LAW",
    "header": [
     "INVESTIGATION STAGE",
-    "CASES DECLARED FALSEON ACCOUNT OF MISTAKE OF FACT OR LAW"
+    "CASES DECLARED FALSE ON ACCOUNT OF MISTAKE OF FACT OR LAW"
    ]
   },
   {
    "col_no": "7",
-   "name": "INVESTIGATION STAGE | CASES IN CHARGE. SHEETS WERE LAID",
+   "name": "INVESTIGATION STAGE | CASES IN WHICH CHARGE-SHEETS WERE LAID",
    "header": [
     "INVESTIGATION STAGE",
-    "CASES IN CHARGE. SHEETS WERE LAID"
+    "CASES IN WHICH CHARGE-SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "8",
-   "name": "INVESTIGATION STAGE | CASES IN WHICH CHARGESHEETS WERE NOT LAID BUT FINAL REPORT SUBMITTED DURING THE YEAR",
+   "name": "INVESTIGATION STAGE | CASES IN WHICH CHARGE-SHEETS WERE NOT LAID BUT FINAL REPORT SUBMITTED DURING THE YEAR",
    "header": [
     "INVESTIGATION STAGE",
-    "CASES IN WHICH CHARGESHEETS WERE NOT LAID BUT FINAL REPORT SUBMITTED DURING THE YEAR"
+    "CASES IN WHICH CHARGE-SHEETS WERE NOT LAID BUT FINAL REPORT SUBMITTED DURING THE YEAR"
    ]
   },
   {
    "col_no": "9",
-   "name": "INVESTIGATION STAGE | TOTAL CASES (COL. 7 +8)",
+   "name": "INVESTIGATION STAGE | TOTAL CASES (COL. 7 + 8)",
    "header": [
     "INVESTIGATION STAGE",
-    "TOTAL CASES (COL. 7 +8)"
+    "TOTAL CASES (COL. 7 + 8)"
    ]
   },
   {
    "col_no": "10",
-   "name": "INVESTIGATION STAGE | CASES PENDING INVESTIGATHE END OF THE YEAR",
+   "name": "INVESTIGATION STAGE | CASES PENDING INVESTIGATION AT THE END OF THE YEAR",
    "header": [
     "INVESTIGATION STAGE",
-    "CASES PENDING INVESTIGATHE END OF THE YEAR"
+    "CASES PENDING INVESTIGATION AT THE END OF THE YEAR"
    ]
   }
  ],
- "notes": [
-  "DATA NOT RECEIVED"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (UTs)': printed 0, sum 49",
-   "col 5 'TOTAL (UTs)': printed 0, sum 2"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

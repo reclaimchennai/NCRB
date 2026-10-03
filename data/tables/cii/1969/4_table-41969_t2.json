@@ -6,41 +6,67 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "4",
- "title": "—4",
+ "title": "9 -4 TOTAL COGNIZABLE CRIME",
  "listing_title": "Incidence of Crime in States, U. T.s and Cities Total Cognizable Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41969.pdf",
  "source_file": "raw/cii/1969/table_content/table-41969.pdf",
  "source_sha256": "268da358aad3617abfa6383aeb53585675a0d2006425350e8a06ea2ffc154c2e",
  "table_no": "",
- "pdf_title": "—4",
- "row_label": "TOTAL COGNI7ZARLE. CRIME 1967 Quinanennial Average of 1964-1968",
+ "pdf_title": "9 -4 TOTAL COGNIZABLE CRIME",
+ "row_label": "1967",
  "pages": [
   2
  ],
  "n_rows": 40,
- "n_cols": 2,
- "n_cells": 80,
+ "n_cols": 6,
+ "n_cells": 240,
  "columns": [
   {
    "col_no": "2",
-   "name": "1968 variation yariation +-(Gncrease} overQ.A.",
+   "name": "1968",
    "header": [
-    "1968 variation yariation +-(Gncrease} overQ.A."
+    "1968"
    ]
   },
   {
    "col_no": "3",
-   "name": "1969 Volume of crime per of 100,000 population, over 1968",
+   "name": "Quinquennial Average of 1964-1968",
    "header": [
-    "1969 Volume of crime per of 100,000 population, over 1968"
+    "Quinquennial Average of 1964-1968"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1969",
+   "header": [
+    "1969"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Percentage variation +(increase) -(decrease) over Q.A.",
+   "header": [
+    "Percentage variation +(increase) -(decrease) over Q.A."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage variation +(increase) -(decrease) over 1968",
+   "header": [
+    "Percentage variation +(increase) -(decrease) over 1968"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Volume of crime per 100,000 of population.",
+   "header": [
+    "Volume of crime per 100,000 of population."
    ]
   }
  ],
- "notes": [
-  "@ Average of 1965 to 1968"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -48,7 +74,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -6,81 +6,78 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "4",
- "title": "TABLE INCIDENCE OF CRIME UNDER DIFFERENT HEADS",
+ "title": "22 TABLE INCIDENCE OF CRIME UNDER DIFFERENT HEADS",
  "listing_title": "Incidence of Crime under Different Heads During 1966 and 1967 Showing Percentage Variation",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-4-1967.pdf",
  "source_sha256": "91f3cd13847106399fbc65d69c0808b1d7b5c115da7b3b7e476a46fdd51d9533",
  "table_no": "",
- "pdf_title": "TABLE INCIDENCE OF CRIME UNDER DIFFERENT HEADS",
- "row_label": "SI. No.",
+ "pdf_title": "22 TABLE INCIDENCE OF CRIME UNDER DIFFERENT HEADS",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
  "pages": [
   5,
   6
  ],
- "n_rows": 77,
- "n_cols": 8,
- "n_cells": 288,
+ "n_rows": 79,
+ "n_cols": 7,
+ "n_cells": 433,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Riots | States/U.Ts./Cities: - 1966 27",
-   "header": [
-    "Riots",
-    "States/U.Ts./Cities: - 1966 27"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Riots | 1967 298",
+   "name": "Riots | 1966",
    "header": [
     "Riots",
-    "1967 298"
+    "1966"
    ]
   },
   {
    "col_no": "4",
-   "name": "Riots | Percentage variation 29",
+   "name": "Riots | 1967",
    "header": [
     "Riots",
-    "Percentage variation 29"
+    "1967"
    ]
   },
   {
    "col_no": "5",
-   "name": "1966 30",
+   "name": "Riots | Percentage variation",
    "header": [
-    "1966 30"
+    "Riots",
+    "Percentage variation"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "1966 Percentage variation.",
+   "col_no": "6",
+   "name": "Criminal | 1966",
    "header": [
-    "1966 Percentage variation."
+    "Criminal",
+    "1966"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "Cheating 1967 Percentage variation.",
+   "col_no": "2",
+   "name": "Breach of trust | Percentage variation",
    "header": [
-    "Cheating 1967 Percentage variation."
+    "Breach of trust",
+    "Percentage variation"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "Counterfeiting “1966 1967 4‘:",
+   "col_no": "7",
+   "name": "Counterfeiting | 1967",
    "header": [
-    "Counterfeiting “1966 1967 4‘:"
+    "Counterfeiting",
+    "1967"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "Percentage Variation",
+   "col_no": "8",
+   "name": "Counterfeiting | Percentage variation",
    "header": [
-    "Percentage Variation"
+    "Counterfeiting",
+    "Percentage variation"
    ]
   }
  ],
@@ -89,10 +86,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 8,
+  "other_totals_passed": 6
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

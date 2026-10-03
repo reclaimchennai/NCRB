@@ -8,61 +8,84 @@
  "serial": "11",
  "title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Women During 1994",
  "listing_title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Women During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table59-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table59-1994_2.pdf",
  "source_sha256": "9c643ec28dcf3ce79aef6e5da75ce6e4c98ec8337f30c2e9ac696edfc2db6f1a",
  "table_no": "59",
- "pdf_title": "INCIDENCE (I), RATE (R) AND PERGENTAGE CONTRIBUTION (P) TO ALL-INDIA OF CRIMES 1ED AGAINST WOMEN DURING 1994",
- "row_label": "SL. NO. / STATE/UT / ESTIMATED MID-YEAR POPULATION LAR mer / (STATE & UT-WISE) RAPE R",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-59",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
-  2
+  2,
+  3
  ],
- "n_rows": 19,
- "n_cols": 15,
- "n_cells": 105,
+ "n_rows": 70,
+ "n_cols": 33,
+ "n_cells": 1154,
  "columns": [
   {
-   "col_no": "6",
-   "name": "(STATE & UT-WISE) | P (6)",
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "(STATE & UT-WISE)",
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RAPE | R",
+   "header": [
+    "RAPE",
+    "R"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE | P",
+   "header": [
+    "RAPE",
     "P"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | KIDNAPPING & ABDUCTION | 1",
+   "name": "KIDNAPPING & ABDUCTION | I",
    "header": [
-    "(STATE & UT-WISE)",
     "KIDNAPPING & ABDUCTION",
-    "1"
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | KIDNAPPING & ABDUCTION | R",
+   "name": "KIDNAPPING & ABDUCTION | R",
    "header": [
-    "(STATE & UT-WISE)",
     "KIDNAPPING & ABDUCTION",
     "R"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | P (9)",
+   "name": "KIDNAPPING & ABDUCTION | P",
    "header": [
-    "(STATE & UT-WISE)",
+    "KIDNAPPING & ABDUCTION",
     "P"
    ]
   },
   {
    "col_no": "10",
-   "name": "DOWRY DEATHS",
+   "name": "DOWRY DEATHS | I",
    "header": [
-    "DOWRY DEATHS"
+    "DOWRY DEATHS",
+    "I"
    ]
   },
   {
@@ -75,88 +98,209 @@
   },
   {
    "col_no": "12",
-   "name": "P",
+   "name": "DOWRY DEATHS | P",
    "header": [
+    "DOWRY DEATHS",
     "P"
    ]
   },
   {
    "col_no": "13",
-   "name": "TORTURE (CRUELTY BY HUSBAND & HIS",
+   "name": "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES) | I",
    "header": [
-    "TORTURE (CRUELTY BY HUSBAND & HIS"
+    "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)",
+    "I"
    ]
   },
   {
    "col_no": "14",
-   "name": "TORTURE (CRUELTY BY HUSBAND & HIS | R",
+   "name": "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES) | R",
    "header": [
-    "TORTURE (CRUELTY BY HUSBAND & HIS",
+    "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)",
     "R"
    ]
   },
   {
    "col_no": "15",
-   "name": "TORTURE (CRUELTY BY HUSBAND & HIS | Pp",
+   "name": "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES) | P",
    "header": [
-    "TORTURE (CRUELTY BY HUSBAND & HIS",
-    "Pp"
+    "TORTURE (CRUELTY BY HUSBAND & HIS RELATIVES)",
+    "P"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "MOLESTATION | P (17) 0.1. 0.1: “679' 22: 28) SC 0.1 i",
+   "col_no": "16",
+   "name": "MOLESTATION | I",
    "header": [
     "MOLESTATION",
-    "P (17) 0.1. 0.1: “679' 22: 28) SC 0.1 i"
+    "I"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "EVE-TEASING | R (18) 1] SBE OT, 2.8 400) 213) 2.6 “]2 IMADHYA PRADESH; 6362) 9.0) 26.4; 1158! 1.6 ©3007! 3.6, 125: 541: 0.6: 0} 0.0; Ah",
+   "col_no": "17",
+   "name": "MOLESTATION | R",
    "header": [
-    "EVE-TEASING",
-    "R (18) 1] SBE OT, 2.8 400) 213) 2.6 “]2 IMADHYA PRADESH; 6362) 9.0) 26.4; 1158! 1.6 ©3007! 3.6, 125: 541: 0.6: 0} 0.0; Ah"
+    "MOLESTATION",
+    "R"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "EVE-TEASING | P (22) (19), TANDHRA PRADESH; 2185! 3.1) 9.1/ 3710! 56.3] 353: 0.1; “18; 75$ O01; O7; 11i 09: O1f 4.2: 97; 0.2 09 5.2, 1.2: 19) 0.3: 02 “20: “JOIKARNATAKA=—=S*@;«*1189's«2.4; 4.8) 94) «0.2, 0.9; 5.2: ae",
+   "col_no": "18",
+   "name": "MOLESTATION | P",
    "header": [
-    "EVE-TEASING",
-    "P (22) (19), TANDHRA PRADESH; 2185! 3.1) 9.1/ 3710! 56.3] 353: 0.1; “18; 75$ O01; O7; 11i 09: O1f 4.2: 97; 0.2 09 5.2, 1.2: 19) 0.3: 02 “20: “JOIKARNATAKA=—=S*@;«*1189's«2.4; 4.8) 94) «0.2, 0.9; 5.2: ae"
+    "MOLESTATION",
+    "P"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "IMPORTING (UPTO 21 YE OF ARS) GIRLS R (23) (24) (20), 6! Oo: 36; 00; 00) 00: - 1G 33 Of 00f 34: 0.1) “20.43 0 0} “00; 00; Of 00; 00; 3 0.0 0.0) “~0f 00; 00! “11.0° 23: 0.0) 13.8; 41:",
+   "col_no": "19",
+   "name": "SEXUAL HARASSMENT/ EVE-TEASING | I",
    "header": [
-    "IMPORTING (UPTO 21 YE OF ARS) GIRLS R (23) (24) (20), 6! Oo: 36; 00; 00) 00: - 1G 33 Of 00f 34: 0.1) “20.43 0 0} “00; 00; Of 00; 00; 3 0.0 0.0) “~0f 00; 00! “11.0° 23: 0.0) 13.8; 41:"
+    "SEXUAL HARASSMENT/ EVE-TEASING",
+    "I"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "PREVENTION ACT P P R (25) (21) (28) (27) 00 0} 00: © 00) 00 0 00 0.0 0.0 0 18; 0.0 0 00. 00 Vi 0.0; 50.0 0 0 00 00; 0 00) 00 0 00: 00 00; 00 0; 0: 00, 00 0} 0.0} 0.0. 00; 00 0! 00; 246: a el 00 0.0—«isCisS,s—Ci 0.0; - 0) 0.0) 0.0) - 0: 0.0 0.0 =<",
+   "col_no": "20",
+   "name": "SEXUAL HARASSMENT/ EVE-TEASING | R",
    "header": [
-    "PREVENTION ACT P P R (25) (21) (28) (27) 00 0} 00: © 00) 00 0 00 0.0 0.0 0 18; 0.0 0 00. 00 Vi 0.0; 50.0 0 0 00 00; 0 00) 00 0 00: 00 00; 00 0; 0: 00, 00 0} 0.0} 0.0. 00; 00 0! 00; 246: a el 00 0.0—«isCisS,s—Ci 0.0; - 0) 0.0) 0.0) - 0: 0.0 0.0 =<"
+    "SEXUAL HARASSMENT/ EVE-TEASING",
+    "R"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "SEXUAL HARASSMENT/ EVE-TEASING | P",
+   "header": [
+    "SEXUAL HARASSMENT/ EVE-TEASING",
+    "P"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "IMPORTING OF GIRLS (UPTO 21 YEARS) | I",
+   "header": [
+    "IMPORTING OF GIRLS (UPTO 21 YEARS)",
+    "I"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "IMPORTING OF GIRLS (UPTO 21 YEARS) | R",
+   "header": [
+    "IMPORTING OF GIRLS (UPTO 21 YEARS)",
+    "R"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "IMPORTING OF GIRLS (UPTO 21 YEARS) | P",
+   "header": [
+    "IMPORTING OF GIRLS (UPTO 21 YEARS)",
+    "P"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "SATI PREVENTION ACT | I",
+   "header": [
+    "SATI PREVENTION ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "SATI PREVENTION ACT | R",
+   "header": [
+    "SATI PREVENTION ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "SATI PREVENTION ACT | P",
+   "header": [
+    "SATI PREVENTION ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | R",
+   "header": [
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | P",
+   "header": [
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT | I",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT | R",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT | P",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN (PROHIBITION) ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "TOTAL | I",
+   "header": [
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
+    "P"
    ]
   }
  ],
- "notes": [
-  "16B. NCBR/96",
-  "\"31 0.0. «20.0, =O? «0.0! 00; 0: 00 00: 0: 00: 00",
-  "“32 ?-s18} 21. 0.1 +367; 42.7; 35; 0: 00: 00: 0, 00) 00",
-  "345] 27, 14 528; 41: 5.0: 1: 00, 06: 0 00; 00",
-  "24117 2.7: 100.0 10496: 1.2! 100.0: 167 0.0; 100.0: 2: 0.0: 100.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 24,
+  "cells_passed": 22,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 12070, sum 12069",
+   "col 13 'TOTAL (STATES)': printed 25783, sum 25803"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

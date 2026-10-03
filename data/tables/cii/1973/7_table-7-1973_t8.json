@@ -6,42 +6,70 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "‘TABLE",
+ "title": "37 -7 of Cognizable Crime Reported during 1973",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "‘TABLE",
- "row_label": "Name af BUTAR - 1. 2, “6 aisle Mite) S 6, 11, ae 16. i ‘TT / Murder 3 bao a Bhojpar i Ga Bia ae eee",
+ "pdf_title": "37 -7 of Cognizable Crime Reported during 1973",
+ "row_label": "Robbery",
  "pages": [
-  9
+  8
  ],
- "n_rows": 17,
- "n_cols": 3,
- "n_cells": 42,
+ "n_rows": 34,
+ "n_cols": 7,
+ "n_cells": 238,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Calpable 4 FT a 1 4 7 is OW 6 Py lee 10 rr det 4 2 $ 1 ins 3",
+   "col_no": "2",
+   "name": "Burglary",
    "header": [
-    "Calpable 4 FT a 1 4 7 is OW 6 Py lee 10 rr det 4 2 $ 1 ins 3"
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Thefts",
+   "header": [
+    "Thefts"
    ]
   },
   {
    "col_no": "4",
-   "name": "Rape 7 Se 2 7 40° - 46 3 a z ie a F 47 & 4 5 8 40 a2 7 0 6 2» 3 13 6 z a1 Ps] 7",
+   "name": "Riots",
    "header": [
-    "Rape 7 Se 2 7 40° - 46 3 a z ie a F 47 & 4 5 8 40 a2 7 0 6 2» 3 13 6 z a1 Ps] 7"
+    "Riots"
    ]
   },
   {
    "col_no": "5",
-   "name": "7 6 Fr n 16 30 ua ig 5 7 un at u 6 “12 x» is 9 3 3 él hk tl 2 M4 B a a io",
+   "name": "Criminal Breach of Trust",
    "header": [
-    "7 6 Fr n 16 30 ua ig 5 7 un at u 6 “12 x» is 9 3 3 él hk tl 2 M4 B a a io"
+    "Criminal Breach of Trust"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cheating",
+   "header": [
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Counter-Feiting",
+   "header": [
+    "Counter-Feiting"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total Cognizable Crime Under IPC",
+   "header": [
+    "Total Cognizable Crime Under IPC"
    ]
   }
  ],
@@ -53,7 +81,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

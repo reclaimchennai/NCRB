@@ -8,68 +8,66 @@
  "serial": "26",
  "title": "Disposal of Persons Arrested under IPC Crimes under Investigation by Police During 1985",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes under Investigation by Police During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables26-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables26-1985.pdf",
  "source_sha256": "fc6051b52bb40154bc9cac851d92298aeb4b43b577fdf76a5f04356e86bc05b4",
  "table_no": "26",
- "pdf_title": "Disposal of Persons Arrested Under IPC Crimes Under Investigation By Police During 1985",
- "row_label": "Sl. Heads No. qa)",
+ "pdf_title": "72 TABLE -26 Disposal of Persons Arrested Under IPC Crimes Under Investigation By Police During 1985",
+ "row_label": "Sl. Heads of Crime No. / Sl. Heads of Crime No.",
  "pages": [
   1,
   2
  ],
- "n_rows": 20,
+ "n_rows": 13,
  "n_cols": 6,
- "n_cells": 81,
+ "n_cells": 78,
  "columns": [
   {
    "col_no": "3",
-   "name": "of Total of in or bail the gtage ineluding persons arrest from",
+   "name": "Total number of persons in custody or on bail during the stage of investigation including persons under arrest carried over from previous year",
    "header": [
-    "of Total of in or bail the gtage ineluding persons arrest from"
+    "Total number of persons in custody or on bail during the stage of investigation including persons under arrest carried over from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Crime released Persons or persons Police custody on by or during Magistrate of of evidence want other under reason any carried previous",
+   "name": "Persons released or freed by Police or Magistrate before trial for want of evidence or any other reason",
    "header": [
-    "Crime released Persons or persons Police custody on by or during Magistrate of of evidence want other under reason any carried previous"
+    "Persons released or freed by Police or Magistrate before trial for want of evidence or any other reason"
    ]
   },
   {
    "col_no": "5",
-   "name": "number in whose Persons cases freed laid were before the trial during year for investigation or over year",
+   "name": "Persons in whose cases chargesheets were laid during the year",
    "header": [
-    "number in whose Persons cases freed laid were before the trial during year for investigation or over year"
+    "Persons in whose cases chargesheets were laid during the year"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "in of or stage of the at",
+   "col_no": "6",
+   "name": "Persons in custody or on bail during the stage of investigation at the end of the year",
    "header": [
-    "in of or stage of the at"
+    "Persons in custody or on bail during the stage of investigation at the end of the year"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "of Crime Percentage persons whose in the cases on total to were investigation the under year of ducing stage investigation",
+   "col_no": "7",
+   "name": "Percentage of persons in whose cases chargesheets were laid to total persons under custody or on bail during the stage of investigation",
    "header": [
-    "of Crime Percentage persons whose in the cases on total to were investigation the under year of ducing stage investigation"
+    "Percentage of persons in whose cases chargesheets were laid to total persons under custody or on bail during the stage of investigation"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "of ‘petsous 10 Percentage Persons custody during bail bail chargesheets custody during of the Jaid of investigation stage persons the of the end at custody end pending bail total in the to custody persons year the bail during or on of stage",
+   "col_no": "8",
+   "name": "Percentage of persons in custody or on bail during the stage of investigation pending at the end of the year to total persons in custody or on bail during the stage of investigation",
    "header": [
-    "of ‘petsous 10 Percentage Persons custody during bail bail chargesheets custody during of the Jaid of investigation stage persons the of the end at custody end pending bail total in the to custody persons year the bail during or on of stage"
+    "Percentage of persons in custody or on bail during the stage of investigation pending at the end of the year to total persons in custody or on bail during the stage of investigation"
    ]
   }
  ],
- "notes": [
-  "under IPC"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -77,7 +75,7 @@
   "other_totals_checked": 3,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

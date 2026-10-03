@@ -8,66 +8,66 @@
  "serial": "59",
  "title": "Persons Killed or Injured under Police Firing During 1989 (State, UT & City-Wise)",
  "listing_title": "Persons Killed or Injured under Police Firing During 1989 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-62-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-62-1989-1.pdf",
  "source_sha256": "e100b1e8388a6bee2884b474b23a8cdd3def79f43c4c25afc2617ae8db3ea1e3",
  "table_no": "62",
- "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1989 (STATE, UT & CITY-WISE)",
- "row_label": "STATE/UT/CITY SL. No. ql)",
+ "pdf_title": "196 TABLE-62 PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1989 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 5,
- "n_cells": 227,
+ "n_cells": 235,
  "columns": [
   {
    "col_no": "3",
-   "name": "NO. OCCASIONS OF FIRING",
+   "name": "NO. OF OCCASIONS OF POLICE FIRING",
    "header": [
-    "NO. OCCASIONS OF FIRING"
+    "NO. OF OCCASIONS OF POLICE FIRING"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF POLICE",
+   "name": "CIVILIANS | KILLED",
    "header": [
-    "OF POLICE"
+    "CIVILIANS",
+    "KILLED"
    ]
   },
   {
    "col_no": "5",
-   "name": "CIVILIANS KILLED",
+   "name": "CIVILIANS | INJURED",
    "header": [
-    "CIVILIANS KILLED"
+    "CIVILIANS",
+    "INJURED"
    ]
   },
   {
    "col_no": "6",
+   "name": "POLICEMEN | KILLED",
+   "header": [
+    "POLICEMEN",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "7",
    "name": "POLICEMEN | INJURED",
    "header": [
     "POLICEMEN",
     "INJURED"
    ]
-  },
-  {
-   "col_no": "7",
-   "name": "POLICEMEN | KILLED INJURED",
-   "header": [
-    "POLICEMEN",
-    "KILLED INJURED"
-   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 13,
-  "failures": [
-   "col 5 'TOTAL (STATES)': printed 1105, sum 1045"
-  ],
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

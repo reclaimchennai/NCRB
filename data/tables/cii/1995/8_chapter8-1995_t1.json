@@ -6,49 +6,51 @@
  "topic": "",
  "section": "",
  "serial": "8",
- "title": "Child Population by age and sex and sex ratio in india",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 Child Population by age and sex and sex ratio in india",
  "listing_title": "Crime Against Children",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter8-1995.pdf",
  "source_file": "raw/cii/1995/table_chapter/chapter8-1995.pdf",
  "source_sha256": "f75918d388410ce96263364ec37fece9b3feec71e92c9e370b9017575830d8d3",
  "table_no": "",
- "pdf_title": "Child Population by age and sex and sex ratio in india",
- "row_label": "Sl. States/UTs No.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 Child Population by age and sex and sex ratio in india",
+ "row_label": "Sl. No. / States/UTs",
  "pages": [
+  3,
   3
  ],
- "n_rows": 34,
- "n_cols": 8,
- "n_cells": 256,
+ "n_rows": 47,
+ "n_cols": 10,
+ "n_cells": 437,
  "columns": [
   {
    "col_no": "3",
-   "name": "0-4 years M",
+   "name": "0-4 years | M",
    "header": [
-    "0-4 years M"
+    "0-4 years",
+    "M"
    ]
   },
   {
    "col_no": "4",
-   "name": "5 - 9 years | F (4)",
+   "name": "0-4 years | F",
    "header": [
-    "5 - 9 years",
+    "0-4 years",
     "F"
    ]
   },
   {
    "col_no": "5",
-   "name": "5 - 9 years | M G5)",
+   "name": "5 - 9 years | M",
    "header": [
     "5 - 9 years",
-    "M G5)"
+    "M"
    ]
   },
   {
    "col_no": "6",
-   "name": "5 - 9 years | F (6)",
+   "name": "5 - 9 years | F",
    "header": [
     "5 - 9 years",
     "F"
@@ -56,51 +58,70 @@
   },
   {
    "col_no": "7",
-   "name": "10 - 1+ years | M",
+   "name": "10 - 14 years | M",
    "header": [
-    "10 - 1+ years",
+    "10 - 14 years",
     "M"
    ]
   },
   {
    "col_no": "8",
-   "name": "10 - 1+ years | F",
+   "name": "10 - 14 years | F",
    "header": [
-    "10 - 1+ years",
+    "10 - 14 years",
     "F"
    ]
   },
   {
    "col_no": "9",
-   "name": "Total M",
+   "name": "Total | M",
    "header": [
-    "Total M"
+    "Total",
+    "M"
    ]
   },
   {
    "col_no": "10",
-   "name": "Sex Ratio F e855)",
+   "name": "Total | F",
    "header": [
-    "Sex Ratio F e855)"
+    "Total",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Sex Ratio",
+   "header": [
+    "Sex Ratio"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "2001 | F",
+   "header": [
+    "2001",
+    "F"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 6,
+  "cells_checked": 9,
   "cells_passed": 0,
   "failures": [
    "col 3 'All-India': printed 4.22278e+07, sum 4.22278e+07",
    "col 4 'All-India': printed 4.1282e+07, sum 4.1282e+07",
    "col 5 'All-India': printed 4.82676e+07, sum 4.82674e+07",
    "col 6 'All-India': printed 4.54183e+07, sum 4.54183e+07",
-   "col 7 'All-India': printed 4.52653e+07, sum 5.42653e+07",
-   "col 8 'All-India': printed 4.06461e+07, sum 4.06461e+07"
+   "col 7 'All-India': printed 4.52653e+07, sum 4.52653e+07",
+   "col 8 'All-India': printed 4.06461e+07, sum 4.06461e+07",
+   "col 9 'All-India': printed 157998, sum 1.35913e+08",
+   "col 10 'All-India': printed 149670, sum 1.2749e+08"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

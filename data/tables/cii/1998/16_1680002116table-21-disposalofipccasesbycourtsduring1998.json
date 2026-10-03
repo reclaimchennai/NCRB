@@ -8,101 +8,103 @@
  "serial": "16",
  "title": "Disposal of IPC Cases by Courts During 1998 (State & UT-Wise)",
  "listing_title": "Disposal of IPC Cases by Courts During 1998 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680002116TABLE-21-DISPOSALOFIPCCASESBYCOURTSDURING1998.pdf",
  "source_file": "raw/cii/1998/table_content/1680002116TABLE-21-DISPOSALOFIPCCASESBYCOURTSDURING1998.pdf",
  "source_sha256": "19577472c432f51e09eaca45ac08c6f24d40e8fd904770738ec936217c7e8206",
  "table_no": "21",
- "pdf_title": "DISPOSAL OF IPC CASES BY COURTS DURING 1998",
- "row_label": "SL. STATE/UT NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-21",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 9,
- "n_cells": 317,
+ "n_cells": 315,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | TOTAL NO, OF CASES FOR TRIAL INCLUDING PENDING CASES INCLUDING PENDING CASES",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES INCLUDING PENDING CASES",
    "header": [
-    "(STATE & UT-WISE)",
-    "TOTAL NO, OF CASES FOR TRIAL INCLUDING PENDING CASES INCLUDING PENDING CASES"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | COMPOUNDED WITHDRAWN",
+   "name": "NO. OF CASES | COMPOUN-DED OR WITH-DRAWN",
    "header": [
-    "(STATE & UT-WISE)",
-    "COMPOUNDED WITHDRAWN"
+    "NO. OF CASES",
+    "COMPOUN-DED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | OR CONVICTED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
    "header": [
-    "(STATE & UT-WISE)",
-    "OR CONVICTED"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "CONVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | NO. OF CASES ACQUITTED OR CHARGED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUITTED OR DIS-CHARGED",
    "header": [
-    "(STATE & UT-WISE)",
-    "NO. OF CASES ACQUITTED OR CHARGED"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "ACQUITTED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED DIS-",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL [(5) + (6)]",
    "header": [
-    "(STATE & UT-WISE)",
-    "IN WHICH TRIALS WERE COMPLETED DIS-"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "TOTAL [(5) + (6)]"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | PENDING TRIAL TOTAL {(5) +(6)}",
+   "name": "NO. OF CASES | PENDING TRIAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "PENDING TRIAL TOTAL {(5) +(6)}"
+    "NO. OF CASES",
+    "PENDING TRIAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | PENDENCY PERCENTAGE",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "(STATE & UT-WISE)",
     "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "10",
-   "name": "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "CONVICTION RATE {(5)/(7)} X 100",
+   "name": "CONVICTION RATE [(5)/(17)] X 100",
    "header": [
-    "CONVICTION RATE {(5)/(7)} X 100"
+    "CONVICTION RATE [(5)/(17)] X 100"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 4,
+  "cells_checked": 18,
+  "cells_passed": 13,
   "failures": [
-   "col 3 'TOTAL (UTs)': printed 199796, sum 199795",
+   "col 3 'TOTAL (UTs)': printed 199795, sum 199796",
+   "col 3 'TOTAL (ALL-INDIA)': printed 5.68048e+06, sum 5.66048e+06",
    "col 5 'TOTAL (STATES)': printed 321064, sum 321054",
-   "col 6 'TOTAL (STATES)': printed 538857, sum 548957",
-   "col 8 'TOTAL (STATES)': printed 4.42165e+06, sum 4.42165e+06"
+   "col 5 'TOTAL (ALL-INDIA)': printed 335036, sum 335046",
+   "col 7 'TOTAL (STATES)': printed 159911, sum 859911"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

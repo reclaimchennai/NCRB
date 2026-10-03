@@ -8,54 +8,65 @@
  "serial": "50",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1988 (Crime-Head-wise)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1988 (Crime-Head-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-50-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-50-1988-2.pdf",
  "source_sha256": "b2442ec16dc06d05cff7d0a56f793597b340932db664f841f4e117e57b835df2",
  "table_no": "50",
- "pdf_title": "",
- "row_label": "VALUE SL NO ql)",
+ "pdf_title": "157 TABLE-50 VALUE OF PROPERTY STOLFN & RECOVERED AND PERCENTAGE RECOVERY",
+ "row_label": "SL NO / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 7,
- "n_cols": 5,
- "n_cells": 34,
+ "n_cols": 6,
+ "n_cells": 42,
  "columns": [
   {
-   "col_no": "3",
-   "name": "OF NUMBER CRIME WHICH wr rr STOLEN",
+   "col_no": "2",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | STOLEN",
    "header": [
-    "OF NUMBER CRIME WHICH wr rr STOLEN"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS",
+    "STOLEN"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | RECOVERED",
+   "header": [
+    "NUMBER OF CASES IN WHICH PROPERTY WAS",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "4",
-   "name": "PEeMcenraGE rrurenirxy DURING (CRIME-HEAD-WISE) IN HEAD rrvrenixr WAS nn RECUVERED",
+   "name": "PERCENTAGE OF CASES OF RECOVERY",
    "header": [
-    "PEeMcenraGE rrurenirxy DURING (CRIME-HEAD-WISE) IN HEAD rrvrenixr WAS nn RECUVERED"
+    "PERCENTAGE OF CASES OF RECOVERY"
    ]
   },
   {
    "col_no": "5",
-   "name": "RECOVERY STOLFN 1988 OF CASES - RECOVERY",
+   "name": "VALUE OF PROPERTY (Rs. in lakh) | STOLEN",
    "header": [
-    "RECOVERY STOLFN 1988 OF CASES - RECOVERY"
+    "VALUE OF PROPERTY (Rs. in lakh)",
+    "STOLEN"
    ]
   },
   {
    "col_no": "6",
-   "name": "& PROPERTY VALUE CASES lakh) (Rs. OF OF wre STOLEN",
+   "name": "VALUE OF PROPERTY (Rs. in lakh) | RECOVERED",
    "header": [
-    "& PROPERTY VALUE CASES lakh) (Rs. OF OF wre STOLEN"
+    "VALUE OF PROPERTY (Rs. in lakh)",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "7",
-   "name": "AND PERCENTAGE PERCENTAGE OF in RECOVERY RECUVENED",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "AND PERCENTAGE PERCENTAGE OF in RECOVERY RECUVENED"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],
@@ -64,8 +75,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

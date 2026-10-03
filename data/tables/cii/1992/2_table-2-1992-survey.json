@@ -8,58 +8,79 @@
  "serial": "2",
  "title": "Incidence & Rate of Cognizable Crimes (IPC) under Different Crime Heads and Percentage Changes During 1992",
  "listing_title": "Incidence & Rate of Cognizable Crimes (IPC) under Different Crime Heads and Percentage Changes During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-2-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-2-1992-survey.pdf",
  "source_sha256": "c39581bd357ee0e057693f917cdc04ea23a0b887c520a264a27a460ec2668b5a",
  "table_no": "2",
- "pdf_title": "(Coneld)",
- "row_label": "CRIME SL. NO. (2)",
+ "pdf_title": "36 TABLE - 2 INCIDENCE AND RATE OF COGNIZABLE CRIMES (IPC) UNDER DIFFERENT CRIME HEADS AND PERCENTAGE CHANGES DURING 1992",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
+  1,
+  2,
   2
  ],
- "n_rows": 35,
- "n_cols": 5,
- "n_cells": 118,
+ "n_rows": 37,
+ "n_cols": 9,
+ "n_cells": 256,
  "columns": [
   {
-   "col_no": "2",
-   "name": "HEAD NIAL 1987-1991 (Q.A.) (2)",
-   "header": [
-    "HEAD NIAL 1987-1991 (Q.A.) (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "QUINQUENAVG. (9)",
+   "name": "1982",
    "header": [
-    "QUINQUENAVG. (9)"
+    "1982"
    ]
   },
   {
    "col_no": "4",
-   "name": "PERCENTAGE | 1992 1982 (10)",
+   "name": "1987",
    "header": [
-    "PERCENTAGE",
-    "1992 1982 (10)"
+    "1987"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE | CHANGE ((+) INCREASE/{-) OVER Q.a. (11)",
+   "name": "1988",
    "header": [
-    "PERCENTAGE",
-    "CHANGE ((+) INCREASE/{-) OVER Q.a. (11)"
+    "1988"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE | 199: IN DECREASE) 1993. (12) (2.3)",
+   "name": "1989",
    "header": [
-    "PERCENTAGE",
-    "199: IN DECREASE) 1993. (12) (2.3)"
+    "1989"
    ]
+  },
+  {
+   "col_no": "7",
+   "name": "1990",
+   "header": [
+    "1990"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "1991",
+   "header": [
+    "1991"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  },
+  {
+   "col_no": "12",
+   "name": "col_12",
+   "header": []
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
   }
  ],
  "notes": [],
@@ -70,7 +91,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

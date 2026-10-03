@@ -8,75 +8,71 @@
  "serial": "73",
  "title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1999 (Crime Head–Wise)",
  "listing_title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1999 (Crime Head–Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-73-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-73-1999.pdf",
  "source_sha256": "feacd6d3f5e0fe17788a60047d0e9c30fec958c2877c7532f7c4a4385de699eb",
  "table_no": "73",
- "pdf_title": "DISPOSAL OF PEKSUNS 4xxEStTED UNDER IPC CRIMES RY COURTS DUKING 1999",
- "row_label": "(CRIMF. HFAD-WISE) cone Hran SL. NO. @)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 73",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 27,
  "n_cols": 7,
- "n_cells": 188,
+ "n_cells": 189,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(CRIMF. HFAD-WISE) | TOTAL NO. OF PERSONS UNDER TRIAL PREVIOUS YEAR 8",
-   "header": [
-    "(CRIMF. HFAD-WISE)",
-    "TOTAL NO. OF PERSONS UNDER TRIAL PREVIOUS YEAR 8"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "(CRIMF. HFAD-WISE) | NO. CASES WITHDRAWN ®",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "(CRIMF. HFAD-WISE)",
-    "NO. CASES WITHDRAWN ®"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "(CRIMF. HFAD-WISE) | 78 TRIAL",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH-DRAWN",
    "header": [
-    "(CRIMF. HFAD-WISE)",
-    "78 TRIAL"
+    "NO. OF PERSONS WHOSE",
+    "CASES COMPO-UNDED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "(CRIMF. HFAD-WISE) | WIIUSE TRIAL ©",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPLETED",
    "header": [
-    "(CRIMF. HFAD-WISE)",
-    "WIIUSE TRIAL ©"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPLETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(CRIMF. HFAD-WISE) | NO.OF CONVIC- ”",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "(CRIMF. HFAD-WISE)",
-    "NO.OF CONVIC- ”"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "UF | THIATS (COL.(6)x 100/ COLG)} ®)",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "UF",
-    "THIATS (COL.(6)x 100/ COLG)} ®)"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "UF | (COL.(7) x100/ COL(S)",
+   "name": "PERCENTAGE OF PERSONS WHOSE TRIALS REMAINED PENDING (COL.(6)x 100/ COL(3))",
    "header": [
-    "UF",
-    "(COL.(7) x100/ COL(S)"
+    "PERCENTAGE OF PERSONS WHOSE TRIALS REMAINED PENDING (COL.(6)x 100/ COL(3))"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "CONVICTED TO TRIALS COMPLETED (COL.(7) x100/ COL(5)),",
+   "header": [
+    "CONVICTED TO TRIALS COMPLETED (COL.(7) x100/ COL(5)),"
    ]
   }
  ],
@@ -85,10 +81,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
+  "other_totals_checked": 4,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

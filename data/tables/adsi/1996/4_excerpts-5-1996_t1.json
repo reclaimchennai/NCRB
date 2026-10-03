@@ -6,34 +6,50 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1996",
  "serial": "4",
- "title": "Comparative Population Estimates India & some selected countries",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1996 N.C.R.B.(M.H.A.) Comparative Population Estimates India & some selected countries",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/excerpts_5_1996.pdf",
  "source_file": "raw/adsi/1996/year_wise/excerpts_5_1996.pdf",
  "source_sha256": "59aab36c4b94d9665406f44a83e91ddb5d34e4e38e28d6b81bceba2170781f23",
  "table_no": "",
- "pdf_title": "Comparative Population Estimates India & some selected countries",
- "row_label": "Estimated Population SI. Developing No. Countries / Estimated Population SI. Developing No. Countries / Estimated Population - (Millions) 1994 / Estimated Population Urban Population (as % of total) 2000 / Estimated Population Urban Population (as % of total) 1994",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1996 N.C.R.B.(M.H.A.) Comparative Population Estimates India & some selected countries",
+ "row_label": "Estimated Population (Millions)",
  "pages": [
+  1,
   1
  ],
- "n_rows": 2,
- "n_cols": 1,
- "n_cells": 2,
+ "n_rows": 15,
+ "n_cols": 4,
+ "n_cells": 58,
  "columns": [
   {
-   "col_no": "6",
-   "name": "2000",
+   "col_no": "4",
+   "name": "Estimated Population (Millions)",
    "header": [
-    "2000"
+    "Estimated Population (Millions)"
    ]
+  },
+  {
+   "col_no": "6",
+   "name": "Urban Population (as % of total)",
+   "header": [
+    "Urban Population (as % of total)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
   }
  ],
- "notes": [
-  "POPULATION (MILLIONS)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -42,6 +58,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

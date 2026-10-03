@@ -8,26 +8,83 @@
  "serial": "57",
  "title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Women During 1993 (State & UT-Wise)",
  "listing_title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Women During 1993 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-57-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-57-1995-crime-survey.pdf",
  "source_sha256": "64de2d6319b64cf420cdba02c59c8388feb8eef942b55f367474e8b412a490aa",
  "table_no": "57",
- "pdf_title": "INCIDENCE (1), RATE (R) AND PERCENTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES COMMITTED AGAINST WOMEN DURING 1993",
- "row_label": "SL. NO. / STATE/UT / ESTIMATED MID-YEAR POPULATION (IN LAKHS) / & UT-WISE) (STATE RAPE / & UT-WISE) (STATE RAPE R / & UT-WISE) P / & UT-WISE) KIDNAPPING & ABDUCTION / & UT-WISE) KIDNAPPING & ABDUCTION R",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-57",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 1,
- "n_cols": 3,
- "n_cells": 2,
+ "n_rows": 35,
+ "n_cols": 22,
+ "n_cells": 770,
  "columns": [
   {
-   "col_no": "10",
-   "name": "DOWRY DEATHS",
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "DOWRY DEATHS"
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RAPE | R",
+   "header": [
+    "RAPE",
+    "R"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE | P",
+   "header": [
+    "RAPE",
+    "P"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING & ABDUCTION | I",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KIDNAPPING & ABDUCTION | R",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "R"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "KIDNAPPING & ABDUCTION | P",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DOWRY DEATHS | I",
+   "header": [
+    "DOWRY DEATHS",
+    "I"
    ]
   },
   {
@@ -40,21 +97,118 @@
   },
   {
    "col_no": "12",
-   "name": "P",
+   "name": "DOWRY DEATHS | P",
    "header": [
+    "DOWRY DEATHS",
+    "P"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES | I",
+   "header": [
+    "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES",
+    "I"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES | R",
+   "header": [
+    "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES",
+    "R"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES | P",
+   "header": [
+    "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES",
+    "P"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "MOLESTATION | I",
+   "header": [
+    "MOLESTATION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "MOLESTATION | R",
+   "header": [
+    "MOLESTATION",
+    "R"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "MOLESTATION | P",
+   "header": [
+    "MOLESTATION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "EVE-TEASING | I",
+   "header": [
+    "EVE-TEASING",
+    "I"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "EVE-TEASING | R",
+   "header": [
+    "EVE-TEASING",
+    "R"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "EVE-TEASING | P",
+   "header": [
+    "EVE-TEASING",
+    "P"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "TOTAL | I",
+   "header": [
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
     "P"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 21,
+  "cells_passed": 21,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -8,53 +8,51 @@
  "serial": "39",
  "title": "Percentage of Crime Cases under IPC Disposed of by the Police During 1987",
  "listing_title": "Percentage of Crime Cases under IPC Disposed of by the Police During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_12-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_12-1987.pdf",
  "source_sha256": "1b433cbae9ecebdfab0dac5136df7c5b7e08406be7222f83bdea71708dbc3f73",
  "table_no": "12",
- "pdf_title": "Of Cases Under IPC Disposed of By The Police During 1987",
- "row_label": "No,",
+ "pdf_title": "65 TABLE-12 Percentage Of Cases Under IPC Disposed of By The Police During 1987",
+ "row_label": "S1. No. / Heads of Crime",
  "pages": [
   1
  ],
- "n_rows": 12,
+ "n_rows": 14,
  "n_cols": 4,
- "n_cells": 48,
+ "n_cells": 56,
  "columns": [
   {
-   "col_no": "2",
-   "name": "not mistake law, cognizable to investigation",
-   "header": [
-    "not mistake law, cognizable to investigation"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "in which investigated of completed gation was for to non total",
+   "name": "Percentage of cases not investigated mistake of fact or law, non cognizable to total cases for investigation",
    "header": [
-    "in which investigated of completed gation was for to non total"
+    "Percentage of cases not investigated mistake of fact or law, non cognizable to total cases for investigation"
    ]
   },
   {
    "col_no": "4",
-   "name": "investipending fact the end of gation at total total the to year investifor cases cases gation",
+   "name": "Percentage of cases in which investigation was completed to total cases for investigation",
    "header": [
-    "investipending fact the end of gation at total total the to year investifor cases cases gation"
+    "Percentage of cases in which investigation was completed to total cases for investigation"
    ]
   },
   {
    "col_no": "5",
-   "name": "choct+4 investito in total true or cases which investigsatian cases for completed was",
+   "name": "Percentage of cases pending investigation at the end of the year to total cases for investigation",
    "header": [
-    "choct+4 investito in total true or cases which investigsatian cases for completed was"
+    "Percentage of cases pending investigation at the end of the year to total cases for investigation"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage of cases charge-sheeted to total true cases in which investigation was completed",
+   "header": [
+    "Percentage of cases charge-sheeted to total true cases in which investigation was completed"
    ]
   }
  ],
- "notes": [
-  "under IPC"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -62,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

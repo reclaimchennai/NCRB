@@ -8,94 +8,87 @@
  "serial": "62",
  "title": "Disposal of Juveniles Arrested (under IPC & LSL Crimes) and Sent to Courts During 1991 (State, UT & City-Wise)",
  "listing_title": "Disposal of Juveniles Arrested (under IPC & LSL Crimes) and Sent to Courts During 1991 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-46-1991-46.pdf",
  "source_file": "raw/cii/1991/table_content/table-46-1991-46.pdf",
  "source_sha256": "5e41618c7eee9473d99b5b71e0949b21db13cd6cd7ff60cfbd42ef6ad49e54c9",
- "table_no": "",
- "pdf_title": "",
- "row_label": "DISPOSAL OF Sl.",
+ "table_no": "46",
+ "pdf_title": "161 TABLE-46 DISPOSAL OF JUVENILES ARRESTED (UNDER IPC & LSL CRIMES) AND SENT TO COURTS DURING 1991 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 48,
+ "n_rows": 47,
  "n_cols": 8,
- "n_cells": 303,
+ "n_cells": 376,
  "columns": [
   {
-   "col_no": "2",
-   "name": "ARRESTED (URDER IPC & LSL CRIMES) AND SENT (STATEUT £ CITY-WISE) | ARRESTED SENT TO COURTS",
-   "header": [
-    "ARRESTED (URDER IPC & LSL CRIMES) AND SENT (STATEUT £ CITY-WISE)",
-    "ARRESTED SENT TO COURTS"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "ARRESTED (URDER IPC & LSL CRIMES) AND SENT (STATEUT £ CITY-WISE) | © SENT 10 HOME AFTER ‘OF",
+   "name": "STATE/UT/CITY",
    "header": [
-    "ARRESTED (URDER IPC & LSL CRIMES) AND SENT (STATEUT £ CITY-WISE)",
-    "© SENT 10 HOME AFTER ‘OF"
+    "STATE/UT/CITY"
    ]
   },
   {
    "col_no": "4",
-   "name": "ARRESTED (URDER IPC & LSL CRIMES) AND SENT (STATEUT £ CITY-WISE) | PROGATIOW AND PLACED UNDER | «= CARE eee eT FILER",
+   "name": "ARRESTED & SENT TO COURTS",
    "header": [
-    "ARRESTED (URDER IPC & LSL CRIMES) AND SENT (STATEUT £ CITY-WISE)",
-    "PROGATIOW AND PLACED UNDER",
-    "«= CARE eee eT FILER"
+    "ARRESTED & SENT TO COURTS"
    ]
   },
   {
    "col_no": "5",
-   "name": "ARRESTED (URDER IPC & LSL CRIMES) AND SENT (STATEUT £ CITY-WISE) | PROGATIOW AND PLACED UNDER | OOF FIT",
+   "name": "SENT TO HOME AFTER ADVICE OR ADM- ONITION",
    "header": [
-    "ARRESTED (URDER IPC & LSL CRIMES) AND SENT (STATEUT £ CITY-WISE)",
-    "PROGATIOW AND PLACED UNDER",
-    "OOF FIT"
+    "SENT TO HOME AFTER ADVICE OR ADM- ONITION"
    ]
   },
   {
    "col_no": "6",
-   "name": "ARRESTED (URDER IPC & LSL CRIMES) AND SENT (STATEUT £ CITY-WISE) | 1m SPECIAL HOMES",
+   "name": "RELEASED ON PROBATION AND PLACED UNDER CARE OF----",
    "header": [
-    "ARRESTED (URDER IPC & LSL CRIMES) AND SENT (STATEUT £ CITY-WISE)",
-    "1m SPECIAL HOMES"
+    "RELEASED ON PROBATION AND PLACED UNDER CARE OF----"
    ]
   },
   {
    "col_no": "7",
-   "name": "To COURTS GURTNG 1991 | DEALT FIRE",
+   "name": "SENT TO SPECIAL HONES",
    "header": [
-    "To COURTS GURTNG 1991",
-    "DEALT FIRE"
+    "SENT TO SPECIAL HONES"
    ]
   },
   {
    "col_no": "8",
-   "name": "To COURTS GURTNG 1991 | oA OTRERwise SP0S2D oF",
+   "name": "DEALT WITH FINE",
    "header": [
-    "To COURTS GURTNG 1991",
-    "oA OTRERwise SP0S2D oF"
+    "DEALT WITH FINE"
    ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "ACQU;TED OR OTHER- WISE DISPOSED OF",
+   "header": [
+    "ACQU;TED OR OTHER- WISE DISPOSED OF"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PENDING DISPO- SAL",
+   "header": [
+    "PENDING DISPO- SAL"
+   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 24,
+  "cells_passed": 24,
   "failures": [],
-  "other_totals_checked": 3,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

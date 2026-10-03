@@ -8,78 +8,181 @@
  "serial": "24",
  "title": "Table 23: Number of Undertrials by type of Special & Local Laws (SLL) Offences at the end of 1999",
  "listing_title": "Table 23: Number of Undertrials by type of Special & Local Laws (SLL) Offences at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-23_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-23_1999.pdf",
  "source_sha256": "bd729f28e1d030ea39d2cf7b47a1069059c45dd79479a2d828c0111118b3c441",
- "table_no": "",
- "pdf_title": "",
- "row_label": "N.CLR.B., (M.H.A.) SL. STATEAIT NO. comMo ‘OMS ACT / TABLE-23 (CONCLUDED) DOWRY A ART “ben ACT a6 / TABLE-23 (CONCLUDED) OFFI SEC ACTS",
+ "table_no": "23",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-23",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
+  1,
   2
  ],
- "n_rows": 6,
- "n_cols": 5,
- "n_cells": 20,
+ "n_rows": 36,
+ "n_cols": 21,
+ "n_cells": 735,
  "columns": [
   {
-   "col_no": "19",
-   "name": "TABLE-23 (CONCLUDED) | prev. ae OER °",
+   "col_no": "3",
+   "name": "ARMS ACT",
    "header": [
-    "TABLE-23 (CONCLUDED)",
-    "prev. ae OER °"
+    "ARMS ACT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NDPS ACT",
+   "header": [
+    "NDPS ACT"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "GAMB-LING ACT",
+   "header": [
+    "GAMB-LING ACT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EXCISE ACT",
+   "header": [
+    "EXCISE ACT"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PROHIBITION ACT",
+   "header": [
+    "PROHIBITION ACT"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "EXP. & EXP. SUB ACT",
+   "header": [
+    "EXP. & EXP. SUB ACT"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "ITP ACT",
+   "header": [
+    "ITP ACT"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "INDIAN RAIL-WAYS ACT",
+   "header": [
+    "INDIAN RAIL-WAYS ACT"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "REG. OF FOR. ACT",
+   "header": [
+    "REG. OF FOR. ACT"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "PCR ACT",
+   "header": [
+    "PCR ACT"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "INDIAN PASS-PORT ACT",
+   "header": [
+    "INDIAN PASS-PORT ACT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "ESSEN-TIAL COMMO-DITIES ACT",
+   "header": [
+    "ESSEN-TIAL COMMO-DITIES ACT"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "ANTI-QUITY & ART TREAS-URE ACT",
+   "header": [
+    "ANTI-QUITY & ART TREAS-URE ACT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "DOWRY PROHIBI-TON ACT",
+   "header": [
+    "DOWRY PROHIBI-TON ACT"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "FERA",
+   "header": [
+    "FERA"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "OFFI-CIAL SEC-RETS ACTS",
+   "header": [
+    "OFFI-CIAL SEC-RETS ACTS"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "PREV. OF CORR. ACT",
+   "header": [
+    "PREV. OF CORR. ACT"
    ]
   },
   {
    "col_no": "20",
-   "name": "PRISON STATISTICS - 1999 | ‘OSA,",
+   "name": "CFEP OSA ACT",
    "header": [
-    "PRISON STATISTICS - 1999",
-    "‘OSA,"
+    "CFEP OSA ACT"
    ]
   },
   {
    "col_no": "21",
-   "name": "PRISON STATISTICS - 1999 | NATE | Ger ACT",
+   "name": "NATI-ONAL SECU-RITY ACT",
    "header": [
-    "PRISON STATISTICS - 1999",
-    "NATE",
-    "Ger ACT"
+    "NATI-ONAL SECU-RITY ACT"
    ]
   },
   {
    "col_no": "22",
-   "name": "PRISON STATISTICS - 1999 | NATE | crimes",
+   "name": "OTHER SLL CRIMES",
    "header": [
-    "PRISON STATISTICS - 1999",
-    "NATE",
-    "crimes"
+    "OTHER SLL CRIMES"
    ]
   },
   {
    "col_no": "23",
-   "name": "PRISON STATISTICS - 1999 | -",
+   "name": "TOTAL UNDER-TRIALS (SLL)",
    "header": [
-    "PRISON STATISTICS - 1999",
-    "-"
+    "TOTAL UNDER-TRIALS (SLL)"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 0,
+  "cells_checked": 63,
+  "cells_passed": 62,
   "failures": [
-   "col 20 'eC TOTAL (STATES)': printed 87, sum 8",
-   "col 23 'eC TOTAL (STATES)': printed 40320, sum 2413"
+   "col 23 'TOTAL (UTS)': printed 2218, sum 2206"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -6,35 +6,49 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1978",
  "serial": "2",
- "title": "TasLe—Il",
+ "title": "5 TABLE—II Incidence of Accidental Deaths, Population, Volume of Accidental Deaths per lakh of population and percentage Distribution of Accidental Deaths to all India Total during 1978",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1978.pdf",
  "source_file": "raw/adsi/1978/year_wise/accidental-deaths-1978.pdf",
  "source_sha256": "7084977ea2ad4bff5d18089829a4f97a914cdc11146ea21237c454229b6ac396",
  "table_no": "",
- "pdf_title": "TasLe—Il",
- "row_label": "Incidence of Accidental Deaths, Population, of ponulation and / Incidence of Accidental Deaths, Population, / of Accidental Deaths per Accidental Deaths to all India Total",
+ "pdf_title": "5 TABLE—II Incidence of Accidental Deaths, Population, Volume of Accidental Deaths per lakh of population and percentage Distribution of Accidental Deaths to all India Total during 1978",
+ "row_label": "Sl. No. / Name of the States/U.T.S./Cities",
  "pages": [
   6
  ],
- "n_rows": 33,
- "n_cols": 2,
- "n_cells": 62,
+ "n_rows": 34,
+ "n_cols": 4,
+ "n_cells": 136,
  "columns": [
   {
-   "col_no": "4",
-   "name": "of Accidental Deaths per Accidental Deaths to all India Total",
+   "col_no": "3",
+   "name": "Number of Accidental Deaths",
    "header": [
-    "of Accidental Deaths per Accidental Deaths to all India Total"
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage incidence to all India total",
+   "header": [
+    "Percentage incidence to all India total"
    ]
   },
   {
    "col_no": "5",
-   "name": "lakh",
+   "name": "Population in (000)",
    "header": [
-    "lakh"
+    "Population in (000)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Volume of Accidental Deaths per lakh of population",
+   "header": [
+    "Volume of Accidental Deaths per lakh of population"
    ]
   }
  ],
@@ -46,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

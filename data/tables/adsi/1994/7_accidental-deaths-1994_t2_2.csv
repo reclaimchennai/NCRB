@@ -1,6 +1,6 @@
-section,sl_no,(Stats & UT-wise) State/UT,(Stats & UT-wise) | Number of Accidental Deaths,(Stats & UT-wise) | Percentage Share in Total Deaths,(Stats & UT-wise) | Estimated Mid-Year Population (In Lakh),(Stats & UT-wise) | Rate (Accidental Deaths Per Lakh of Population) {Col.3/Col.5}
+section,sl_no,State/UT,Number of Accidental Deaths,Percentage Share in Total Deaths,Estimated Mid-Year Population (In Lakh),Rate (Accidental Deaths Per Lakh of Population) (Col.3/Col.5)
 States:,1,Andhra Pradesh,13211,6.9,705.3,18.7
-States:,2,Arunachal! Pradesh,95,0.0,9.4,10.1
+States:,2,Arunachal Pradesh,95,0.0,9.4,10.1
 States:,3,Assam,2392,1.3,241.1,9.9
 States:,4,Bihar,6836,3.6,929.3,7.4
 States:,5,Goa,955,0.5,12.5,76.4
@@ -9,22 +9,22 @@ States:,7,Haryana,1836,1.0,177.1,10.4
 States:,8,Himachal Pradesh,1011,0.5,55.1,18.3
 States:,9,Jammu & Kashmir,826,0.4,83.2,9.9
 States:,10,Karnataka,12464,6.5,473.7,26.3
-States:,14,Kerala,5455,2.9,304.9,17.9
+States:,11,Kerala,5455,2.9,304.9,17.9
 States:,12,Madhya Pradesh,25537,13.4,707.8,36.1
 States:,13,Maharashtra,33419,17.5,842.7,39.7
 States:,14,Manipur,136,0.1,19.8,6.9
-States:,18,Meghalaya,174,0.1,19.2,9.1
-States:,16,Mizoram.,89,0.0,7.7,11.6
+States:,15,Meghalaya,174,0.1,19.2,9.1
+States:,16,Mizoram:,89,0.0,7.7,11.6
 States:,17,Nagaland,44,0.0,13.4,3.3
 States:,18,Orissa,4707,2.5,336.6,14.0
 States:,19,Punjab,3424,1.8,213.1,16.1
 States:,20,Rajasthan,9051,4.8,472.5,19.2
-States:,,a1: Sikkim,65,0.0,4.5,14.4
+States:,21,Sikkim,65,0.0,4.5,14.4
 States:,22,Tamil Nadu,17576,9.2,577.4,30.4
 States:,23,Tripura,244,0.1,29.8,8.2
 States:,24,Uttar Pradesh,19483,10.2,1476.0,13.2
 States:,25,West Bengal,11586,6.1,720.8,16.1
-States:,,TOTAL (States),182617,95.9,8871.4,20.6
+States:,,Total (States),182617,95.9,8871.4,20.6
 Union Territories:,26,A & N Islands,116,0.1,3.2,36.3
 Union Territories:,27,Chandigarh,187,0.1,7.4,25.3
 Union Territories:,28,D & N Haveli,52,0.0,1.5,34.7
@@ -32,34 +32,28 @@ Union Territories:,29,Daman & Diu,53,0.0,1.1,48.2
 Union Territories:,30,Delhi,6894,3.6,105.9,65.1
 Union Territories:,31,Lakshadweep,4,0.0,0.6,6.7
 Union Territories:,32,Pondicherry,512,0.3,8.6,59.5
-Union Territories:,,TOTAL (UTs),7818,41,128.3,60.9
-Union Territories:,,TOTAL (All-India),190435,100.0,8999.7,21.2
-,33,Ahmedabad,1024,0.5,36.2,28.3
-,,"34, Bangalore",1498,0.8,46.4,32.3
-,35,Bhopal,498,0.3,12.7,39.2
-,36,Bombay,,4.4,145.1,57.6
-,37,Calcutta,697,0.4,117.1,6.0
-,38,Coimbatore,478,0.3,17,40.9
-,39,Delhi,5652,3.0,95.7,59.1
-,40,Hyderabad,1152,0.6,51.9,22.2
-,41,Indore,732,0.4,12.2,60.0
-,42,Jaipur,795,0.4,17.4,45.7
-,43,Kanpur,848,0.4,21.8,38.9
-,44,Kochi,281,0.1,13.5,20.8
-,45,Lucknow,488,0.3,19.8,24.6
-,46,Ludhiana,91,0.0,12.5,7.3
-,47,Madras,1298,0.7,58.6,22.2
-,48,Madurai,135,0.1,11.5,11.7
-,49,Nagpur,1141,0.6,18.1,63.0
-,50,Patna,156,0.1,11.7,13.3
-,51,Pune,1692,0.9,28.4,59.6
-,52,Surat,666,0.3,18.0,37.0
-,53,Vadodara,484,0.3,12.9,37.5
-,54,Varanasi,704,0.4,11.2,62.9
-,55,Vishakhapatnam,389,0.2,12.7,30.6
-agglomerations is as under:,,BOMBAY MADRAS,,28.6,,
-agglomerations is as under:,,BOMBAY MADRAS [line 2],4.4,,,
-agglomerations is as under:,,WS,,1,,
-HYDERABAD OTHERS,,NAGPUR,3.9,,29.0,
-HYDERABAD OTHERS,,PUNE,3.9,,,
-HYDERABAD OTHERS,,PUNE [line 2],6.8,,,
+Union Territories:,,Total (UTs),7818,4.1,128.3,60.9
+Union Territories:,,Total (All-India),190435,100.0,8999.7,21.2
+Cities:,33,Ahmedabad,1024,0.5,36.2,28.3
+Cities:,34,Bangalore,1498,0.8,46.4,32.3
+Cities:,35,Bhopal,498,0.3,12.7,39.2
+Cities:,36,Bombay,9361,4.4,145.1,57.6
+Cities:,37,Calcutta,697,0.4,117.1,6.0
+Cities:,38,Coimbatore,478,0.3,11.7,40.9
+Cities:,39,Delhi,5652,3.0,95.7,59.1
+Cities:,40,Hyderabad,1152,0.6,51.9,22.2
+Cities:,41,Indore,732,0.4,12.2,60.0
+Cities:,42,Jaipur,795,0.4,17.4,45.7
+Cities:,43,Kanpur,848,0.4,21.8,38.9
+Cities:,44,Kochi,281,0.1,13.5,20.8
+Cities:,45,Lucknow,488,0.3,19.8,24.6
+Cities:,46,Ludhiana,91,0.0,12.5,7.3
+Cities:,47,Madras,1298,0.7,58.6,22.2
+Cities:,48,Madurai,135,0.1,11.5,11.7
+Cities:,49,Nagpur,1141,0.6,18.1,63.0
+Cities:,50,Patna,156,0.1,11.7,13.3
+Cities:,51,Pune,1692,0.9,28.4,59.6
+Cities:,52,Surat,666,0.3,18.0,37.0
+Cities:,53,Vadodara,484,0.3,12.9,37.5
+Cities:,54,Varanasi,704,0.4,11.2,62.9
+Cities:,55,Vishakhapatnam,389,0.2,12.7,30.6

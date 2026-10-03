@@ -8,14 +8,14 @@
  "serial": "31",
  "title": "Incidence of Crime under Different Crime Heads of IPC in States, UTs and Cities During 1987",
  "listing_title": "Incidence of Crime under Different Crime Heads of IPC in States, UTs and Cities During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_5-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_5-1987.pdf",
  "source_sha256": "ce3efbae3cf8a7bd52f29ce48dc5320428314eb0fe61f197f34ecbff0ab6563c",
  "table_no": "5",
- "pdf_title": "Incidence Of Crime Under Different Crime Heads Of IPC In States, UTs And Cities During 1987",
- "row_label": "SL. NO. / STATES/UTs/CITIES",
+ "pdf_title": "6 TABLE-5 Incidence Of Crime Under Different Crime Heads Of IPC In States, UTs And Cities During 1987",
+ "row_label": "SL. NO. / STATES/UTS/CITIES",
  "pages": [
   1,
   2,
@@ -25,9 +25,9 @@
   6,
   7
  ],
- "n_rows": 84,
+ "n_rows": 51,
  "n_cols": 28,
- "n_cells": 1334,
+ "n_cells": 1344,
  "columns": [
   {
    "col_no": "3",
@@ -39,24 +39,26 @@
   },
   {
    "col_no": "4",
-   "name": "MURDER | Vv",
+   "name": "MURDER | V",
    "header": [
     "MURDER",
-    "Vv"
+    "V"
    ]
   },
   {
    "col_no": "5",
-   "name": "CULPARLE HOMICTDE I",
+   "name": "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER | I",
    "header": [
-    "CULPARLE HOMICTDE I"
+    "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER",
+    "I"
    ]
   },
   {
    "col_no": "6",
-   "name": "NOT AMOUNTING TO MURDER v",
+   "name": "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER | V",
    "header": [
-    "NOT AMOUNTING TO MURDER v"
+    "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER",
+    "V"
    ]
   },
   {
@@ -69,24 +71,26 @@
   },
   {
    "col_no": "8",
-   "name": "RAPE | Vv",
+   "name": "RAPE | V",
    "header": [
     "RAPE",
-    "Vv"
+    "V"
    ]
   },
   {
    "col_no": "9",
-   "name": "KIDNAPPING",
+   "name": "KIDNAPPING AND ABDUCTION | I",
    "header": [
-    "KIDNAPPING"
+    "KIDNAPPING AND ABDUCTION",
+    "I"
    ]
   },
   {
    "col_no": "10",
-   "name": "AND Vv",
+   "name": "KIDNAPPING AND ABDUCTION | V",
    "header": [
-    "AND Vv"
+    "KIDNAPPING AND ABDUCTION",
+    "V"
    ]
   },
   {
@@ -99,10 +103,10 @@
   },
   {
    "col_no": "12",
-   "name": "DACOITY | Vv",
+   "name": "DACOITY | V",
    "header": [
     "DACOITY",
-    "Vv"
+    "V"
    ]
   },
   {
@@ -115,24 +119,26 @@
   },
   {
    "col_no": "14",
-   "name": "ROBBERY | Vv",
+   "name": "ROBBERY | V",
    "header": [
     "ROBBERY",
-    "Vv"
+    "V"
    ]
   },
   {
    "col_no": "15",
-   "name": "I",
+   "name": "BURGLARY | I",
    "header": [
+    "BURGLARY",
     "I"
    ]
   },
   {
    "col_no": "16",
-   "name": "Vv",
+   "name": "BURGLARY | V",
    "header": [
-    "Vv"
+    "BURGLARY",
+    "V"
    ]
   },
   {
@@ -145,10 +151,10 @@
   },
   {
    "col_no": "18",
-   "name": "THEFT | Vv",
+   "name": "THEFT | V",
    "header": [
     "THEFT",
-    "Vv"
+    "V"
    ]
   },
   {
@@ -161,26 +167,26 @@
   },
   {
    "col_no": "20",
-   "name": "RIOTS | Vv",
+   "name": "RIOTS | V",
    "header": [
     "RIOTS",
-    "Vv"
+    "V"
    ]
   },
   {
    "col_no": "21",
-   "name": "CRIMTNAI. BREACH | OF TRUST I",
+   "name": "CRIMINAL BREACH OF TRUST | I",
    "header": [
-    "CRIMTNAI. BREACH",
-    "OF TRUST I"
+    "CRIMINAL BREACH OF TRUST",
+    "I"
    ]
   },
   {
    "col_no": "22",
-   "name": "CRIMTNAI. BREACH | Vv",
+   "name": "CRIMINAL BREACH OF TRUST | V",
    "header": [
-    "CRIMTNAI. BREACH",
-    "Vv"
+    "CRIMINAL BREACH OF TRUST",
+    "V"
    ]
   },
   {
@@ -193,76 +199,77 @@
   },
   {
    "col_no": "24",
-   "name": "CHEATING | Vv",
+   "name": "CHEATING | V",
    "header": [
     "CHEATING",
-    "Vv"
+    "V"
    ]
   },
   {
    "col_no": "25",
-   "name": "CUUNLEIw | I",
+   "name": "COUNTERFEITING | I",
    "header": [
-    "CUUNLEIw",
+    "COUNTERFEITING",
     "I"
    ]
   },
   {
    "col_no": "26",
-   "name": "CUUNLEIw | Vv",
+   "name": "COUNTERFEITING | V",
    "header": [
-    "CUUNLEIw",
-    "Vv"
+    "COUNTERFEITING",
+    "V"
    ]
   },
   {
    "col_no": "27",
-   "name": "OTHER I",
+   "name": "OTHER IPC OFFENCES | I",
    "header": [
-    "OTHER I"
+    "OTHER IPC OFFENCES",
+    "I"
    ]
   },
   {
    "col_no": "28",
-   "name": "IPC urremco v",
+   "name": "OTHER IPC OFFENCES | V",
    "header": [
-    "IPC urremco v"
+    "OTHER IPC OFFENCES",
+    "V"
    ]
   },
   {
    "col_no": "29",
-   "name": "TOTAL CRIME I",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC | I",
    "header": [
-    "TOTAL CRIME I"
+    "TOTAL COGNIZABLE CRIME UNDER IPC",
+    "I"
    ]
   },
   {
    "col_no": "30",
-   "name": "COGNTZARIE UNDER IPC Vv",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC | V",
    "header": [
-    "COGNTZARIE UNDER IPC Vv"
+    "TOTAL COGNIZABLE CRIME UNDER IPC",
+    "V"
    ]
   }
  ],
- "notes": [
-  "NOTE I - Incidence of Crime",
-  "V - Volume of Crime per lakh of Ponnlation"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 29,
-  "cells_passed": 1,
+  "cells_checked": 42,
+  "cells_passed": 34,
   "failures": [
-   "col 3 'TOTAL (States)': printed 28144, sum 38394",
-   "col 3 'TOTAL (Cities)': printed 1702, sum 2410",
-   "col 5 'TOTAL (Cities)': printed 235, sum 639",
-   "col 7 'TOTAL (States)': printed 8435, sum 7333",
-   "col 7 'TOTAL (Cities)': printed 432, sum 364",
-   "col 7 'TOTAL (UTs)': printed 124, sum 1218",
-   "col 9 'TOTAL (States)': printed 14403, sum 19603",
-   "col 9 'TOTAL (Cities)': printed 1855, sum 1579"
+   "col 3 'Total(States)': printed 28144, sum 28194",
+   "col 7 'Total(UTs)': printed 124, sum 20",
+   "col 9 'Total(UTs)': printed 848, sum 49",
+   "col 11 'Total(UTs)': printed 37, sum 3",
+   "col 13 'Total(UTs)': printed 221, sum 22",
+   "col 17 'Total(Cities)': printed 58959, sum 58950",
+   "col 27 'Total(States)': printed 735699, sum 734524",
+   "col 29 'Total(States)': printed 1.37563e+06, sum 1.37319e+06"
   ],
-  "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_checked": 14,
+  "other_totals_passed": 14
  },
  "inferred_pages": 0,
  "ocr_pages": 7,

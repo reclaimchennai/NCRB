@@ -1,0 +1,126 @@
+{
+ "table_id": "cii/1995/89_table-89-1995-crime-survey",
+ "publication": "cii",
+ "year": 1995,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "89",
+ "title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1995 (Women only)",
+ "listing_title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1995 (Women only)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-89-1995-crime-survey.pdf",
+ "source_file": "raw/cii/1995/table_content/table-89-1995-crime-survey.pdf",
+ "source_sha256": "5de0d84c3d3458402d50126271794182c7b6b433c1117f3361a12e4063c35932",
+ "table_no": "39",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-39",
+ "row_label": "SL. NO. / STATE/UT/CITY",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 10,
+ "n_cells": 580,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "DG/G/DIG/SP | SANC-TIONED",
+   "header": [
+    "DG/G/DIG/SP",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DG/G/DIG/SP | ACTUAL",
+   "header": [
+    "DG/G/DIG/SP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ASP & USF | SANC-TIONED",
+   "header": [
+    "ASP & USF",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ASP & USF | ACTUAL",
+   "header": [
+    "ASP & USF",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INSPECTOR, SI & A.S.I. | SANC-TIONED",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS BELOW A.S.I. | SANC-TIONED",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | SANC-TIONED",
+   "header": [
+    "GRAND TOTAL",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 30,
+  "cells_passed": 23,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 1664, sum 1658",
+   "col 7 'TOTAL (UTS)': printed 426, sum 420",
+   "col 7 'TOTAL (ALL INDIA)': printed 2084, sum 2090",
+   "col 10 'TOTAL (STATES)': printed 12486, sum 12426",
+   "col 11 'TOTAL (STATES)': printed 16810, sum 16820",
+   "col 11 'TOTAL (UTS)': printed 1563, sum 1623",
+   "col 12 'TOTAL (UTS)': printed 1491, sum 1511"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

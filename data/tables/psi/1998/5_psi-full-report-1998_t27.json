@@ -6,124 +6,60 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "DEMOGRAPHIC PARTICULARS OF OTHERS AT THE END OF 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 There was no separate staff appointed for only subjail existing in D&N Haveli. The Mamlatdar and his staff were looking after the whole work of subjail in addition to their normal function. In Lakshadweep too, there was no separate prison staff.",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "27",
- "pdf_title": "DEMOGRAPHIC PARTICULARS OF OTHERS AT THE END OF 1998",
- "row_label": "a)",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 There was no separate staff appointed for only subjail existing in D&N Haveli. The Mamlatdar and his staff were looking after the whole work of subjail in addition to their normal function. In Lakshadweep too, there was no separate prison staff.",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  110,
-  112
+  54
  ],
- "n_rows": 40,
- "n_cols": 11,
- "n_cells": 100,
+ "n_rows": 15,
+ "n_cols": 3,
+ "n_cells": 45,
  "columns": [
   {
    "col_no": "3",
-   "name": "EDUCATIONAL STANDARD | ILLITERATE",
+   "name": "TOTAL JAIL STAFF | SANCTIONED",
    "header": [
-    "EDUCATIONAL STANDARD",
-    "ILLITERATE"
+    "TOTAL JAIL STAFF",
+    "SANCTIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "EDUCATIONAL STANDARD | BeLow clase x",
+   "name": "TOTAL JAIL STAFF | ACTUAL",
    "header": [
-    "EDUCATIONAL STANDARD",
-    "BeLow clase x"
+    "TOTAL JAIL STAFF",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "EDUCATIONAL STANDARD | ‘BOVE X& BELOW",
+   "name": "TOTAL JAIL STAFF | ACTUAL %",
    "header": [
-    "EDUCATIONAL STANDARD",
-    "‘BOVE X& BELOW"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "EDUCATIONAL STANDARD | GRADUATE",
-   "header": [
-    "EDUCATIONAL STANDARD",
-    "GRADUATE"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "EDUCATIONAL STANDARD | POST",
-   "header": [
-    "EDUCATIONAL STANDARD",
-    "POST"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "EDUCATIONAL STANDARD | /DIPLOMA",
-   "header": [
-    "EDUCATIONAL STANDARD",
-    "/DIPLOMA"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "EDUCATIONAL STANDARD | TOTAL",
-   "header": [
-    "EDUCATIONAL STANDARD",
-    "TOTAL"
-   ]
-  },
-  {
-   "col_no": "21",
-   "name": "DOMICILE | BELONGS TO STATE BELONGS TO OTHER (21)",
-   "header": [
-    "DOMICILE",
-    "BELONGS TO STATE BELONGS TO OTHER"
-   ]
-  },
-  {
-   "col_no": "22",
-   "name": "DOMICILE | BELONGS TO STATE BELONGS TO OTHER (22)",
-   "header": [
-    "DOMICILE",
-    "BELONGS TO STATE BELONGS TO OTHER"
-   ]
-  },
-  {
-   "col_no": "23",
-   "name": "DOMICILE | BELONGS TO OTHER",
-   "header": [
-    "DOMICILE",
-    "BELONGS TO OTHER"
-   ]
-  },
-  {
-   "col_no": "24",
-   "name": "DOMICILE | TOTAL:",
-   "header": [
-    "DOMICILE",
-    "TOTAL:"
+    "TOTAL JAIL STAFF",
+    "ACTUAL %"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 6,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 43132, sum 14817",
+   "col 4 'TOTAL (STATES)': printed 39186, sum 14002"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

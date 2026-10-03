@@ -8,74 +8,54 @@
  "serial": "37",
  "title": "Cases Reported under Local & Special Laws During the Year 1987",
  "listing_title": "Cases Reported under Local & Special Laws During the Year 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_10-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_10-1987.pdf",
  "source_sha256": "51eae5313e2da2ae47bbe6c1ca485188eecf814f16fe0a880d63b4132eed114d",
  "table_no": "9",
- "pdf_title": "Cases Reported Under Local & Special Laws During 1983 To 1987",
- "row_label": "sl. No. / Crime",
+ "pdf_title": "59 TABLE-9 Cases Reported Under Local & Special Laws During 1983 To 1987",
+ "row_label": "",
  "pages": [
   1
  ],
  "n_rows": 13,
- "n_cols": 6,
- "n_cells": 78,
+ "n_cols": 5,
+ "n_cells": 65,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Heads",
-   "header": [
-    "Heads"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "1983",
-   "header": [
-    "1983"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "1984",
-   "header": [
-    "1984"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "1985",
-   "header": [
-    "1985"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "1986",
-   "header": [
-    "1986"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "1987 Percentage in Change 1987 ever",
-   "header": [
-    "1987 Percentage in Change 1987 ever"
-   ]
+   "name": "col_8",
+   "header": []
   }
  ],
- "notes": [
-  "ble Crimes Under Local",
-  "And Special. Laws"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 5,
-  "other_totals_passed": 4
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

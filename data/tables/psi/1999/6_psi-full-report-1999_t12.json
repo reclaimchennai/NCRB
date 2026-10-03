@@ -6,53 +6,46 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "Value of goods produced by inmates during 1999",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 ## Chapter - 2",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "",
- "pdf_title": "Value of goods produced by inmates during 1999",
- "row_label": "SL NO. @",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 ## Chapter - 2",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  44
+  24
  ],
- "n_rows": 27,
- "n_cols": 2,
- "n_cells": 51,
+ "n_rows": 26,
+ "n_cols": 3,
+ "n_cells": 78,
  "columns": [
   {
    "col_no": "3",
-   "name": "VALUE OF GOODS | GROSS VALUE OF PRODUCTS STATE/UT (Rs. IN LAKHS)",
+   "name": "AVAILABLE CAPACITY",
    "header": [
-    "VALUE OF GOODS",
-    "GROSS VALUE OF PRODUCTS STATE/UT (Rs. IN LAKHS)"
+    "AVAILABLE CAPACITY"
    ]
   },
   {
    "col_no": "4",
-   "name": "VALUE OF GOODS | PRODUCED PER INMATE",
+   "name": "INMATES POPULATION",
    "header": [
-    "VALUE OF GOODS",
-    "PRODUCED PER INMATE"
+    "INMATES POPULATION"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "OCCUPANCY* RATE",
+   "header": [
+    "OCCUPANCY* RATE"
    ]
   }
  ],
- "notes": [
-  "NA stands for Not Available",
-  "The above table depicts of the gross value of products earned by the inmates in",
-  "the various trades. Maharashtra state has reported the highest value Rs.1428.0 lakhs of",
-  "product earned by inmates followed by Gujarat (Rs.733.8 lakhs) and Bihar (Rs.694.0",
-  "lakhs). However, the value of goods produced per inmate was highest in Gujarat",
-  "(Rs.8857.9) followed by Punjab (Rs.3265.0), Delhi (Rs.2776.7) and Chandigarh",
-  "(Rs.2726.7). Further, the gainful work put in by the jail population not only provides",
-  "corrective approach to the mental faculty of the offender, it also goes a long way",
-  "developing responsive and respectful attitudes. The prisoners not only develop self",
-  "confidence and self esteem out of the valuable labour put in by them, these activities also",
-  "lead them towards earning a honourable living in life after release from prison."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

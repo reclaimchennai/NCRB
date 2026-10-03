@@ -8,152 +8,154 @@
  "serial": "62",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992 (State, UT & City-wise) Burglary",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992 (State, UT & City-wise) Burglary",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-62-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-62-1992-survey.pdf",
  "source_sha256": "720a57f9fcd6908a2395f97c10d41afaac06e30aa7f6a09b90d56ef316e37c23",
  "table_no": "62",
- "pdf_title": "",
- "row_label": "NUMBER SL. NO. / OF STATE/UT",
+ "pdf_title": "279 TABLE-62 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1992",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
-  2
+  2,
+  3,
+  4
  ],
- "n_rows": 58,
- "n_cols": 16,
- "n_cells": 432,
+ "n_rows": 116,
+ "n_cols": 15,
+ "n_cells": 870,
  "columns": [
   {
    "col_no": "3",
-   "name": "CASES NUMBER",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "CASES NUMBER"
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "REPORTED (STATE, RESIDENTIAL PREMISES VALUE",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "REPORTED (STATE, RESIDENTIAL PREMISES VALUE"
+    "RESIDENTIAL PREMISES",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "AND UT BURGLARY HIGHWAYS NUMBER",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "AND UT BURGLARY HIGHWAYS NUMBER"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "VALUE STOLEN & CITY-WISE) VALUE",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "VALUE STOLEN & CITY-WISE) VALUE"
+    "HIGHWAYS",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF OF RIVER NUMBER",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "OF OF RIVER NUMBER"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "PROPERTY & VALUE",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "PROPERTY & VALUE"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "BY DURING (Re. SEA NUMBER",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "BY DURING (Re. SEA NUMBER"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "PLACE 1992 in lakh) RAILWAYS VALUE",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "PLACE 1992 in lakh) RAILWAYS VALUE"
+    "RAILWAYS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "HIGHWAYS | RESIDENTIAL PREMISES | NUMBER (2)",
+   "col_no": "13",
+   "name": "BANKS | VALUE",
    "header": [
-    "HIGHWAYS",
-    "RESIDENTIAL PREMISES",
-    "NUMBER (2)"
+    "BANKS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "HIGHWAYS | RESIDENTIAL PREMISES | VALUE (3)",
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
    "header": [
-    "HIGHWAYS",
-    "RESIDENTIAL PREMISES",
-    "VALUE (3)"
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "HIGHWAYS | NUMBER (4)",
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
    "header": [
-    "HIGHWAYS",
-    "NUMBER (4)"
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "HIGHWAYS | VALUE (5)",
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
    "header": [
-    "HIGHWAYS",
-    "VALUE (5)"
+    "OTHER PLACES",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "RIVER NUMBER (6)",
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
    "header": [
-    "RIVER NUMBER (6)"
+    "OTHER PLACES",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "& VALUE (7)",
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
    "header": [
-    "& VALUE (7)"
+    "TOTAL",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "(Rs. SEA NUMBER (8)",
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
    "header": [
-    "(Rs. SEA NUMBER (8)"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "in lakh) RAILWAYS VALUE (9) (10)",
-   "header": [
-    "in lakh) RAILWAYS VALUE (9) (10)"
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
- "notes": [
-  "37—526 NCRB/94."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 6,
-  "cells_passed": 6,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

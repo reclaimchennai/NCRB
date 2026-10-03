@@ -8,42 +8,39 @@
  "serial": "23",
  "title": "Percentage Distribution of Cognizable Crimes (IPC) Under Different Crime Heads (1993-1997)",
  "listing_title": "Percentage Distribution of Cognizable Crimes (IPC) Under Different Crime Heads (1993-1997)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-3-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-3-1996-crime-survey.pdf",
  "source_sha256": "1a5feed9449296dfd2fce1642638c1bb32442b96bb563033f280529f3c2d28a1",
  "table_no": "3",
- "pdf_title": "",
- "row_label": "bad / PERCENTAGE Dis 1 UNDER oa CRIME HEAD",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-3",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 24,
  "n_cols": 5,
- "n_cells": 114,
+ "n_cells": 120,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERCENTAGE Dis 1 UNDER oa | 1993",
+   "name": "1993",
    "header": [
-    "PERCENTAGE Dis 1 UNDER oa",
     "1993"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF COGNIZ7ARI FE CRIMES (IPC) CRIME HEADS (1993-1997) | 1994",
+   "name": "1994",
    "header": [
-    "OF COGNIZ7ARI FE CRIMES (IPC) CRIME HEADS (1993-1997)",
     "1994"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF COGNIZ7ARI FE CRIMES (IPC) CRIME HEADS (1993-1997) | 1995",
+   "name": "1995",
    "header": [
-    "OF COGNIZ7ARI FE CRIMES (IPC) CRIME HEADS (1993-1997)",
     "1995"
    ]
   },
@@ -62,9 +59,7 @@
    ]
   }
  ],
- "notes": [
-  "Nott: * indicates that the crime head was noi till that year."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

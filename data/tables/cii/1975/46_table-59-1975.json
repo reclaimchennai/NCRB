@@ -8,57 +8,54 @@
  "serial": "46",
  "title": "Strength of Armed Police as on 31.12.1975",
  "listing_title": "Strength of Armed Police as on 31.12.1975",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-59-1975.pdf",
  "source_sha256": "766ef561382c57f3b254dc3e503e7fa57f89048f76f7dbece12d5585b5afe04a",
- "table_no": "",
- "pdf_title": "of Armga Balfee at gn. 3-12-1975",
- "row_label": "a1. Na, 1",
+ "table_no": "59",
+ "pdf_title": "123 TABLE 59 Strength of Armed Police as on 31-12-1975",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 41,
+ "n_rows": 43,
  "n_cols": 5,
- "n_cells": 181,
+ "n_cells": 209,
  "columns": [
   {
-   "col_no": "2",
-   "name": "of 4SaP | Tbs 2",
-   "header": [
-    "of 4SaP",
-    "Tbs 2"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "of 4SaP | SB 4",
+   "name": "Number of IG, DIGs and SP",
    "header": [
-    "of 4SaP",
-    "SB 4"
+    "Number of IG, DIGs and SP"
    ]
   },
   {
    "col_no": "4",
-   "name": "of 4SaP | Dy. SP 4",
+   "name": "Number of ASaP Dy. SP.",
    "header": [
-    "of 4SaP",
-    "Dy. SP 4"
+    "Number of ASaP Dy. SP."
    ]
   },
   {
    "col_no": "5",
-   "name": "Sumber of the rank of Subs 5",
+   "name": "Number of Ins- pectors and Sub- Inspectors",
    "header": [
-    "Sumber of the rank of Subs 5"
+    "Number of Ins- pectors and Sub- Inspectors"
    ]
   },
   {
    "col_no": "6",
-   "name": "of Total dt4+5+6 7 6",
+   "name": "Number of Officers below the rank of Sub- Inspectors",
    "header": [
-    "of Total dt4+5+6 7 6"
+    "Number of Officers below the rank of Sub- Inspectors"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total of Col. 3+4+5+6",
+   "header": [
+    "Total of Col. 3+4+5+6"
    ]
   }
  ],
@@ -67,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 16,
+  "other_totals_passed": 15
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

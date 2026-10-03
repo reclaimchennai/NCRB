@@ -6,44 +6,53 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1992",
  "serial": "3",
- "title": "PART-I ACCIDENTAL DEA'THS IN INDIA",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.-3 TABLE - 1",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1992.pdf",
  "source_file": "raw/adsi/1992/year_wise/accidental-deaths-1992.pdf",
  "source_sha256": "438d373cb515809dfb05c6a5b51014e3e668719cbd1596e8d1d8051d583e280c",
- "table_no": "",
- "pdf_title": "PART-I ACCIDENTAL DEA'THS IN INDIA",
- "row_label": "INCIDENCE 1.1 (1982.92) 1.1.1 (TABLE-1). an increasing but fluctuating trend. incidence of ‘Accidental Deaths’. Deaths’ during the decade. / AND RATE OF ACCIDENTAL DEATHS IN THE DECADE 195 thousand “Accidentai Deaths’ were reported during 1992. ‘Accidental Deaths’ increased by a compound growth of 4.6 per cent per Decade 1982-92, while population increased by only 2.1 per cent during the same period The percentage of increase in the incidence of ‘Accidental Deaths’ being 3.2, 7.8 and 3.7 in the years 1990, 1991 and 1992 over the respective previous years, is depicting The rising",
+ "table_no": "1",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.-3 TABLE - 1",
+ "row_label": "Sl. No.",
  "pages": [
-  2
+  3
  ],
- "n_rows": 5,
- "n_cols": 2,
- "n_cells": 7,
+ "n_rows": 13,
+ "n_cols": 4,
+ "n_cells": 52,
  "columns": [
   {
-   "col_no": "3",
-   "name": "AND RATE OF ACCIDENTAL DEATHS IN THE DECADE | 195 thousand “Accidentai Deaths’ were reported during 1992. ‘Accidental Deaths’ increased by a compound growth of 4.6 per cent per Decade 1982-92, while population increased by only 2.1 per cent during the same period The percentage of increase in the incidence of ‘Accidental Deaths’ being 3.2, 7.8 and 3.7 in the years 1990, 1991 and 1992 over the respective previous years, is depicting | population has a direct bearing on the Deaths’, the population factor needs to be taken into account. defined as incidence of ‘Accidental Deaths’ per lakh (1 lakh -",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "AND RATE OF ACCIDENTAL DEATHS IN THE DECADE",
-    "195 thousand “Accidentai Deaths’ were reported during 1992. ‘Accidental Deaths’ increased by a compound growth of 4.6 per cent per Decade 1982-92, while population increased by only 2.1 per cent during the same period The percentage of increase in the incidence of ‘Accidental Deaths’ being 3.2, 7.8 and 3.7 in the years 1990, 1991 and 1992 over the respective previous years, is depicting",
-    "population has a direct bearing on the Deaths’, the population factor needs to be taken into account. defined as incidence of ‘Accidental Deaths’ per lakh (1 lakh -"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Total Number of Accidental Deaths",
+   "header": [
+    "Total Number of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "AND RATE OF ACCIDENTAL DEATHS IN THE DECADE | Incidence of the annum in In order to guage the unbiased enormity of ‘Accidental Rate of “Accidental Deaths’ 1,00,000 - 0.1 million) of population given in TABLE-1, also confirms a steady increase in the number of ‘Accidental INCIDENCE OF ACCIDENTAL DEATHS IN INDIA",
+   "name": "Estimated Mid-Year Population * (In Lakh**)",
    "header": [
-    "AND RATE OF ACCIDENTAL DEATHS IN THE DECADE",
-    "Incidence of the annum in In order to guage the unbiased enormity of ‘Accidental Rate of “Accidental Deaths’ 1,00,000 - 0.1 million) of population given in TABLE-1, also confirms a steady increase in the number of ‘Accidental INCIDENCE OF ACCIDENTAL DEATHS IN INDIA"
+    "Estimated Mid-Year Population * (In Lakh**)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Rate of Accidental Deaths {Col3/Col4}",
+   "header": [
+    "Rate of Accidental Deaths {Col3/Col4}"
    ]
   }
  ],
- "notes": [
-  "YEAR"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -51,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

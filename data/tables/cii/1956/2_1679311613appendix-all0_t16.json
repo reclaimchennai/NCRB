@@ -6,88 +6,56 @@
  "topic": "",
  "section": "Crime in India 1956",
  "serial": "2",
- "title": "RIOT",
+ "title": "ORDINARY THEFT 44",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1679311613APPENDIX-ALL0.pdf",
  "source_file": "raw/cii/1956/year_wise/1679311613APPENDIX-ALL0.pdf",
  "source_sha256": "38d9dce1d61381573dc80d970969bb59078645b3cb93ed0bc2276bf288aa8554",
  "table_no": "",
- "pdf_title": "RIOT",
- "row_label": "State ag 0. -",
+ "pdf_title": "ORDINARY THEFT 44",
+ "row_label": "Serial No. / State",
  "pages": [
-  33,
-  35
+  29
  ],
- "n_rows": 42,
- "n_cols": 9,
- "n_cells": 260,
+ "n_rows": 31,
+ "n_cols": 5,
+ "n_cells": 155,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Cases pendin from previous year",
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Cases pendin from previous year"
+    "Cases pending investigation from previous year"
    ]
   },
   {
-   "col_no": "3",
+   "col_no": "4",
    "name": "Cases pending disposal in Court",
    "header": [
     "Cases pending disposal in Court"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Cases not | Cases reporte: during the year",
-   "header": [
-    "Cases not",
-    "Cases reporte: during the year"
-   ]
-  },
-  {
    "col_no": "5",
-   "name": "Cases not | investigated declared false or mistake fact or law, non-enonizahle and pending investigation or trial",
+   "name": "Cases reported during the year",
    "header": [
-    "Cases not",
-    "investigated declared false or mistake fact or law, non-enonizahle and pending investigation or trial"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases not | no detected of",
+   "name": "Cases not investigated, declared false or mistake of fact or law, or non-cognizable and pending investigation or trial",
    "header": [
-    "Cases not",
-    "no detected of"
+    "Cases not investigated, declared false or mistake of fact or law, or non-cognizable and pending investigation or trial"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Persons persons in custody pending trial or on bail during - the stage of trial",
+   "col_no": "7",
+   "name": "Cases not detected",
    "header": [
-    "Persons persons in custody pending trial or on bail during - the stage of trial"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Number Persons Gar the year",
-   "header": [
-    "Number Persons Gar the year"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Persons po y th the Police or before trial",
-   "header": [
-    "Persons po y th the Police or before trial"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Persons ae w cases charge sheet was laid",
-   "header": [
-    "Persons ae w cases charge sheet was laid"
+    "Cases not detected"
    ]
   }
  ],
@@ -96,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 19,
-  "other_totals_passed": 10
+  "other_totals_checked": 20,
+  "other_totals_passed": 15
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

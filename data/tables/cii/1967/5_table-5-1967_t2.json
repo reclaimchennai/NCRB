@@ -6,49 +6,77 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "5",
- "title": "No. V special and local laws declared to be cognizable",
+ "title": "33 No. V special and local laws declared to be cognizable",
  "listing_title": "All India Statement of Crime Committed under Special and Local Laws Declared to be Cognizable",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-5-1967.pdf",
  "source_sha256": "47aa4d203bac8af76d486bf75a0545f2ee3fe7cf27a23f7f26e223ecd7f52d7e",
  "table_no": "",
- "pdf_title": "No. V special and local laws declared to be cognizable",
- "row_label": "Cases inwhich ‘inwhich charge~ sheet was; was Jaid ed",
+ "pdf_title": "33 No. V special and local laws declared to be cognizable",
+ "row_label": "Cases in which charge-sheet was laid",
  "pages": [
   2
  ],
  "n_rows": 10,
- "n_cols": 4,
- "n_cells": 38,
+ "n_cols": 8,
+ "n_cells": 71,
  "columns": [
   {
    "col_no": "2",
-   "name": "Cases Cases %of convictcases .ed,. cenvic-' dischargtrue complet-. ‘cases.",
+   "name": "Cases in which trial was completed",
    "header": [
-    "Cases Cases %of convictcases .ed,. cenvic-' dischargtrue complet-. ‘cases."
+    "Cases in which trial was completed"
    ]
   },
   {
    "col_no": "3",
-   "name": "Gases\" - -acquitted tedto “© \"ed to, -casesin - which",
+   "name": "Cases convicted.",
    "header": [
-    "Gases\" - -acquitted tedto “© \"ed to, -casesin - which"
+    "Cases convicted."
    ]
   },
   {
    "col_no": "4",
-   "name": "Total No. Persons % of cases. oF persons challangd",
+   "name": "Cases acquitted or discharged",
    "header": [
-    "Total No. Persons % of cases. oF persons challangd"
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "5",
-   "name": "R of convicted m a r &",
+   "name": "% of cases convicted to true cases investigated",
    "header": [
-    "R of convicted m a r &"
+    "% of cases convicted to true cases investigated"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% of cases convicted to cases in which trial was completed",
+   "header": [
+    "% of cases convicted to cases in which trial was completed"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total No. of persons challenged",
+   "header": [
+    "Total No. of persons challenged"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Persons convicted",
+   "header": [
+    "Persons convicted"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Re m a r k s",
+   "header": [
+    "Re m a r k s"
    ]
   }
  ],
@@ -60,7 +88,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

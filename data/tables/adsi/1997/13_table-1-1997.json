@@ -8,47 +8,51 @@
  "serial": "13",
  "title": "Incidence and Rate of Accidental Deaths during 1987 to 1997",
  "listing_title": "Incidence and Rate of Accidental Deaths during 1987 to 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-1_1997.pdf",
  "source_file": "raw/adsi/1997/table_content/table-1_1997.pdf",
  "source_sha256": "83764db43582627f0c160469463228e10c0c2c6c102f5309a03e41d1126b6b76",
  "table_no": "1",
- "pdf_title": "incidence And Rate Of Acciuenta: Deaths During 1987 to 1997",
- "row_label": "SI. me No / Ye or",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) TABLE - 1",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 14,
- "n_cols": 3,
- "n_cells": 40,
+ "n_rows": 13,
+ "n_cols": 4,
+ "n_cells": 52,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Total Number of i Deaths",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "Total Number of i Deaths"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Total Number of Accidental Deaths",
+   "header": [
+    "Total Number of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "{In Lakh* *)",
+   "name": "Estimated Mid-Year Population * (In Lakh**)",
    "header": [
-    "{In Lakh* *)"
+    "Estimated Mid-Year Population * (In Lakh**)"
    ]
   },
   {
    "col_no": "5",
-   "name": "Rate of Accidental Deaths {Col.3/Col.4)",
+   "name": "Rate of Accidental Deaths (Col.3/Col.4)",
    "header": [
-    "Rate of Accidental Deaths {Col.3/Col.4)"
+    "Rate of Accidental Deaths (Col.3/Col.4)"
    ]
   }
  ],
- "notes": [
-  "* - Source: The Registar Genera: of India",
-  "** - One Lakh - 0.1 Million"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

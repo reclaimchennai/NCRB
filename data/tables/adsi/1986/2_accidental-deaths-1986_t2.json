@@ -6,27 +6,50 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1986",
  "serial": "2",
- "title": "VOLUME OF ACCIDENTAL DEATHS PER ONE LAKH OF POPULATION",
+ "title": "4 TABLE—II Incidence Of Accidental Deaths, Population, Volume Of Accidental Deaths Per Lakh Of Population And Percentage Distribution Of Accidental Deaths To All India Total During The Year 1986",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1986.pdf",
  "source_file": "raw/adsi/1986/year_wise/accidental-deaths-1986.pdf",
  "source_sha256": "e3b60443686bffcaf51423437ee43ec9cda86bedeca178ca5e7d7e33345ab30f",
  "table_no": "",
- "pdf_title": "VOLUME OF ACCIDENTAL DEATHS PER ONE LAKH OF POPULATION",
- "row_label": "",
+ "pdf_title": "4 TABLE—II Incidence Of Accidental Deaths, Population, Volume Of Accidental Deaths Per Lakh Of Population And Percentage Distribution Of Accidental Deaths To All India Total During The Year 1986",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
-  7
+  6
  ],
- "n_rows": 27,
- "n_cols": 1,
- "n_cells": 27,
+ "n_rows": 25,
+ "n_cols": 4,
+ "n_cells": 100,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "col_no": "3",
+   "name": "Number Of Accidental Deaths",
+   "header": [
+    "Number Of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage to Total",
+   "header": [
+    "Percentage to Total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Population In (000)",
+   "header": [
+    "Population In (000)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Volume of Accidental Deaths per Lakh of Population",
+   "header": [
+    "Volume of Accidental Deaths per Lakh of Population"
+   ]
   }
  ],
  "notes": [],
@@ -37,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

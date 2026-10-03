@@ -6,74 +6,75 @@
  "topic": "",
  "section": "Crime in India 1963",
  "serial": "1",
- "title": "CRIME UNDER DIFFERENT HEADS",
+ "title": "STATEMENT OF JUVENILE DELINOUENCY FOR 28",
  "listing_title": "Chapters",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689774215SURVEYOFCRIME.pdf",
  "source_file": "raw/cii/1963/year_wise/1689774215SURVEYOFCRIME.pdf",
  "source_sha256": "7ff525b36d9ca98f06fa7d9c86b82d6511281525be4271d83b195b59cabf89ed",
  "table_no": "",
- "pdf_title": "CRIME UNDER DIFFERENT HEADS",
- "row_label": "‘ Head of 1. Murder, attempt to der and culpable not homicide to / STATEMENT 7-12 Crime commit mur- / STATEMENT apprehended under age groups Boys / STATEMENT apprehended under age groups Girls / STATEMENT apprehended under age groups 12-16 Boys",
+ "pdf_title": "STATEMENT OF JUVENILE DELINOUENCY FOR 28",
+ "row_label": "Sl. No / States",
  "pages": [
-  18,
-  25
+  28
  ],
- "n_rows": 23,
+ "n_rows": 25,
  "n_cols": 6,
- "n_cells": 45,
+ "n_cells": 150,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Total cognizable crime",
+   "header": [
+    "Total cognizable crime"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Murder",
+   "header": [
+    "Murder"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
-  },
-  {
-   "col_no": "10001",
-   "name": "16-21 Girls",
+   "name": "Kidnapping and Abduction",
    "header": [
-    "16-21 Girls"
+    "Kidnapping and Abduction"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "1963. Girls Boys",
+   "col_no": "6",
+   "name": "Decoity",
    "header": [
-    "1963. Girls Boys"
+    "Decoity"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Robbery",
+   "header": [
+    "Robbery"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "House breaking",
+   "header": [
+    "House breaking"
    ]
   }
  ],
- "notes": [
-  "(iit) Children indulging in betting or borrowing 5",
-  "(iv) Children apprehenced from brothels",
-  "(v) Children indulging in smoking etc.;",
-  "(vi) Children having no homes, settled place or visible means of",
-  "or having no Parents or who could exercise and proper"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 14,
+  "other_totals_passed": 14
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

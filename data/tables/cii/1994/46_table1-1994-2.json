@@ -8,21 +8,51 @@
  "serial": "46",
  "title": "Incidence & Rate of Total Cognizable Crimes under Indian Penal Code (IPC) and Special & Local Laws (SLL) 1984-94",
  "listing_title": "Incidence & Rate of Total Cognizable Crimes under Indian Penal Code (IPC) and Special & Local Laws (SLL) 1984-94",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table1-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table1-1994_2.pdf",
  "source_sha256": "41afb5fbd56359d769c7eb2272007a77e35ca9b3cedfbc7b98fbb8b13bb79689",
  "table_no": "1",
- "pdf_title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES UNDER INDIAN PENAL CODE (IPC) AND SPECIAL & LOCAL LAWS (SLL) 1984-94",
- "row_label": "YEAR SL. NO. wy / INCIDENCE ESTIMATED MID-YEAR POPULATION* (IN LAKHS)** / INCIDENCE IPC. / INCIDENCE SLL",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-1",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
  "n_rows": 13,
- "n_cols": 5,
- "n_cells": 60,
+ "n_cols": 9,
+ "n_cells": 117,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "YEAR",
+   "header": [
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION* (IN LAKHS)**",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION* (IN LAKHS)**"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "INCIDENCE | IPC",
+   "header": [
+    "INCIDENCE",
+    "IPC"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "INCIDENCE | SLL",
+   "header": [
+    "INCIDENCE",
+    "SLL"
+   ]
+  },
   {
    "col_no": "6",
    "name": "INCIDENCE | TOTAL",
@@ -33,43 +63,37 @@
   },
   {
    "col_no": "7",
-   "name": "INCIDENCE | IPC",
+   "name": "RATE | IPC",
    "header": [
-    "INCIDENCE",
+    "RATE",
     "IPC"
    ]
   },
   {
    "col_no": "8",
-   "name": "RATE SLL",
+   "name": "RATE | SLL",
    "header": [
-    "RATE SLL"
+    "RATE",
+    "SLL"
    ]
   },
   {
    "col_no": "9",
-   "name": "PERCENTAGE | TOTAL",
+   "name": "RATE | TOTAL",
    "header": [
-    "PERCENTAGE",
+    "RATE",
     "TOTAL"
    ]
   },
   {
    "col_no": "10",
-   "name": "PERCENTAGE | OF IPC CRIMES TOTAL",
+   "name": "PERCENTAGE OF IPC CRIMES TOTAL COGNIZABLE CRIMES",
    "header": [
-    "PERCENTAGE",
-    "OF IPC CRIMES TOTAL"
+    "PERCENTAGE OF IPC CRIMES TOTAL COGNIZABLE CRIMES"
    ]
   }
  ],
- "notes": [
-  "GROWTH i H i",
-  "PER H i i H",
-  "* SOURCE: THE neGis1=A= CEMERA! OF INDIA",
-  "** ONE LAKH - 0.1 MILLION",
-  "5A. NCRB/96"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

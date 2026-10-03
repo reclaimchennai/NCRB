@@ -1,29 +1,60 @@
-section,sl_no,1990 (21.1),col_2,ALL-INDIA (RATE) (22.1) STATES,1991,col_5,1992 (22.5)
-,1,Goa,(49.0),1,(59.8),1 Goa,(59.3)
-,2,Sikkim,(43.2),2 Maharaxhira,(48.9),2 Maharashiva,(50.9)
-,,3,(43.0),3 Madhya Pradesh,(35.8),3 Sikkim,(42.1)
-,4,Madhya Pradesh,(36.7),4 Sikkim,(33.7),4 Madhya Pradesh,(38.6)
-,5,Tamil Nadu,(29.9),5 Tamil Nadu,(30.4),- § Karnataka,(28.1)
-,6,Karnataka,(25.4),6 Karnataka,(24.9),6 Tamil Nadu,(24.3)
-,7,Andhra Pradesh,(21.6),7 Gujarat,(22.5),7 Gujarat,(26.2)
-,8,Armnachal Pradesh,(21.4),,,8 Aninachal,Pradesh (22.0)
-UNION,,1,(70.1),1 Pondicherry,(62.6),1 Delhi,(55.8)
-UNION,2,Dethi,(52.3),2 Delhi,(56.6),2A&N Islands,(41.4)
-UNION,3,A & N Islands,(43.4),3A&N Islands,(48.9),3 Pondicherry,(35.4)
-4D&N Haveli (35.4) 4 Daman & Diu (35.0). 4D &N Haveli (30.7),5,Daman & Diu,(27.0),SD&N Haveli,(30.7),5 Daman & Diu,(29.0)
-CITIES,1,Pune,(109.4),1 Pune,(73.6),1 Pune,(76.2)
-CITIES,2,Lucknow,(71.2),2 Bombay,(54.4),2 Bombay,(69.2)
-CITIES,3,Rangalore,(62.5),3 Delhi,(51.8),3 Nagpur,(57.7)
-CITIES,4,Kanpur,(50.6),4 Jaipur,(51.0),4 Indore,(55.2)
-CITIES,5,Delhi,(48.6),5 Nagpur,(50.8),5 Jaipur,(54.6)
-CITIES,6,Jaipur,(47.9),6 Lucknow,(49.8),6 Delhi,(51.0)
-CITIES,7,Bombay,(41.1),7 Bangalore,(42.1),7 Bangalore,(44.6)
-CITIES,8,Nagpur,(40.7),8 Ahmedabad,(35.1),8 Coimbatore,(38.2)
-CITIES,,9,(36.5),9 Kanpur,(25.6),9 Surat,(38.0)
-CITIES,10,Hyderabad,(36.5),10 Hyderabad,(24.2),10 Kanpur,(37.0)
-CITIES,11,Madras,(28.5),,,11 Vishakhanatnam,(34.8)
-CITIES,,Madras [line 2],,,,12 Vadodara,(34.0)
-CITIES,,Madras [line 3],,,,13 Ahmedabad,(32.2)
-CITIES,,Madras [line 4],,,,14 Lucknow,(30.8)
-CITIES,,Madras [line 5],,,,15 Madurai,(29.6)
-CITIES,,Madras [line 6],,,,16 Hyderabad,(25.3)
+section,sl_no,Incidence,Incidence,col_3,col_5
+,,1991,1992,,
+States:,1,Andhra Pradesh,13175,13860,-4.9
+States:,2,Arunachal Pradesh,202,114,77.2
+States:,3,Assam,2604,1736,50.0
+States:,4,Bihar,6974,7559,-7.7
+States:,5,Goa,712,700,1.7
+States:,6,Gujarat,11107,9326,19.1
+States:,7,Haryana,2468,1722,43.3
+States:,8,Himachal Pradesh,769,958,-19.7
+States:,9,Jammu & Kashmir,1009,940,7.3
+States:,10,Karnataka,12924,11222,15.2
+States:,11,Kerala,5501,4883,12.7
+States:,12,Madhya Pradesh,26227,23884,9.8
+States:,13,Maharashtra,41233,38761,6.4
+States:,14,Manipur,122,214,-43.0
+States:,15,Meghalaya,214,229,-6.6
+States:,16,Mizoram,129,61,111.5
+States:,17,Nagaland,24,41,-41.5
+States:,18,Orissa,4528,5358,-15.5
+States:,19,Punjab,2028,2509,-19.2
+States:,20,Rajasthan,7566,7246,4.4
+States:,21,Sikkim,177,138,28.3
+States:,22,Tamil Nadu,13751,16969,-19.0
+States:,23,Tripura,235,175,34.3
+States:,24,Uttar Pradesh,22890,21084,8.6
+States:,25,West Bengal,12233,12095,1.1
+States:,,Total (States),188802,181784,3.9
+Union Territories:,26,A & N Islands,120,137,-12.4
+Union Territories:,27,Chandigarh,113,132,-14.4
+Union Territories:,28,D & N Haveli,43,43,0.0
+Union Territories:,29,Daman & Diu,29,35,-17.1
+Union Territories:,30,Delhi,5507,5369,2.6
+Union Territories:,31,Lakshadweep,2,2,0.0
+Union Territories:,32,Pondicherry,294,501,-41.3
+Union Territories:,,Total (UTs),6108,6219,-1.8
+Union Territories:,,Total (All-India),194910,188003,3.7
+Cities:,33,Ahmedabad,1091,1169,-6.7
+Cities:,34,Bangalore,1872,1737,7.8
+Cities:,35,Bhopal,214,*,-
+Cities:,36,Bombay,8997,6933,29.8
+Cities:,37,Calcutta,596,674,-11.6
+Cities:,38,Coimbatore,443,*,-
+Cities:,39,Delhi,4481,4396,1.9
+Cities:,40,Hyderabad,1120,1053,6.4
+Cities:,41,Indore,629,*,-
+Cities:,42,Jaipur,857,785,9.2
+Cities:,43,Kanpur,802,545,47.2
+Cities:,44,Kochi,235,*,-
+Cities:,45,Lucknow,523,832,-37.1
+Cities:,46,Ludhiana,48,*,-
+Cities:,47,Madras,754,933,-19.2
+Cities:,48,Madurai,329,*,-
+Cities:,49,Nagpur,986,854,15.5
+Cities:,50,Patna,NR,*,-
+Cities:,51,Pune,1959,1855,5.6
+Cities:,52,Surat,597,*,-
+Cities:,53,Vadodara,391,*,-
+Cities:,54,Varanasi,NR,*,-
+Cities:,55,Vishakhapatnam,379,*,-

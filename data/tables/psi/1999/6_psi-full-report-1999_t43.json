@@ -6,56 +6,46 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "VALUE OF GOODS PRODUCED BY INMATES - STATE/UT-WISE DURING 1999",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-43",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "43",
- "pdf_title": "VALUE OF GOODS PRODUCED BY INMATES - STATE/UT-WISE DURING 1999",
- "row_label": "T STATE/UT NO: @) a \"",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-43",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   143
  ],
- "n_rows": 32,
- "n_cols": 4,
- "n_cells": 97,
+ "n_rows": 35,
+ "n_cols": 3,
+ "n_cells": 105,
  "columns": [
   {
-   "col_no": "2",
-   "name": "T STATE/UT | ANDHRA PRADESH",
-   "header": [
-    "T STATE/UT",
-    "ANDHRA PRADESH"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "INMATE POPULATION @) 12668",
+   "name": "INMATE POPULATION",
    "header": [
-    "INMATE POPULATION @) 12668"
+    "INMATE POPULATION"
    ]
   },
   {
    "col_no": "4",
-   "name": "GROSS VALUE OF SALE PROCEEDS / EARNING (RS.IN LAKHS) 4) 158.3",
+   "name": "GROSS VALUE OF SALE PROCEEDS / EARNING (RS.IN LAKHS)",
    "header": [
-    "GROSS VALUE OF SALE PROCEEDS / EARNING (RS.IN LAKHS) 4) 158.3"
+    "GROSS VALUE OF SALE PROCEEDS / EARNING (RS.IN LAKHS)"
    ]
   },
   {
    "col_no": "5",
-   "name": "VALUE OF GOODS PRODUCED PER INMATE (COL.4/ COL.3) RS.) (3) 1250.0",
+   "name": "VALUE OF GOODS PRODUCED PER INMATE (COL.4/ COL.3) (IN RS.)",
    "header": [
-    "VALUE OF GOODS PRODUCED PER INMATE (COL.4/ COL.3) RS.) (3) 1250.0"
+    "VALUE OF GOODS PRODUCED PER INMATE (COL.4/ COL.3) (IN RS.)"
    ]
   }
  ],
- "notes": [
-  "VA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -63,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

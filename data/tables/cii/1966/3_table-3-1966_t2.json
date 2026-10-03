@@ -6,42 +6,60 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "3",
- "title": "iil AND CITIES—TOTAL COGNIZABLE CRIME",
+ "title": "11 III AND CITIES—TOTAL COGNIZABLE CRIME",
  "listing_title": "Incidence of Crime in States, Union Territories and Cities - Total Cognizable Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-3-1966.pdf",
  "source_file": "raw/cii/1966/table_content/table-3-1966.pdf",
  "source_sha256": "c32339f50793901534ec306b073d61cf3714bbceb2ae2dc85a10eef2fd1b5159",
  "table_no": "",
- "pdf_title": "iil AND CITIES—TOTAL COGNIZABLE CRIME",
- "row_label": "1965 Q. Average 1961-65 8 36,250 20,201 67,905 30,700 ne 4,083 19,720 77,668 60,490 86,160 28,877 328 27,228 19,377 30,176 141,985 74,172 285",
+ "pdf_title": "11 III AND CITIES—TOTAL COGNIZABLE CRIME",
+ "row_label": "1965",
  "pages": [
   2
  ],
- "n_rows": 14,
- "n_cols": 2,
- "n_cells": 27,
+ "n_rows": 36,
+ "n_cols": 5,
+ "n_cells": 180,
  "columns": [
   {
    "col_no": "2",
-   "name": "1966 Feiccutage or decrease over QA il 9 34,889 +1-1 19,500 +62 63,643 +14°2 31,515 +1-4 a 4,059 +22 °5 +912 17,381 +10-8 +1,876 77,723 +13 °8 +10,753 59,375 +14°6 +8,644 68,895 +23,861 434-6 26,790 +19 +4 +5,201 325 +61 °8 +201 24,110 +18 -2 +4,381 18,496 —31 +5 —5,829 26,482 +24°5 +6,480 130,565 +9°7 +-12,614 59,249 +-16,684 +28 -2 234 +28 -6 +67",
+   "name": "Q. Average 1961-65",
    "header": [
-    "1966 Feiccutage or decrease over QA il 9 34,889 +1-1 19,500 +62 63,643 +14°2 31,515 +1-4 a 4,059 +22 °5 +912 17,381 +10-8 +1,876 77,723 +13 °8 +10,753 59,375 +14°6 +8,644 68,895 +23,861 434-6 26,790 +19 +4 +5,201 325 +61 °8 +201 24,110 +18 -2 +4,381 18,496 —31 +5 —5,829 26,482 +24°5 +6,480 130,565 +9°7 +-12,614 59,249 +-16,684 +28 -2 234 +28 -6 +67"
+    "Q. Average 1961-65"
    ]
   },
   {
    "col_no": "3",
-   "name": "Volume of Increase Crime per 1 lakh of over QA population 12 10 88-4 35,249 +348 149-5 20,708 +1,208 138-5 72,699 +9,056 134-0 +429 31,944 97-1 7,398 129-6 4,971 99-8 19,257 239 5S 88,476 184-5 68,019 204-7 92,756 119-9 31,991 130 +3 526 144-3 28,491 105 +2 12,667 140-3 32,962 172-5 143,179 188-4 75,933 301 381-0",
+   "name": "1966",
    "header": [
-    "Volume of Increase Crime per 1 lakh of over QA population 12 10 88-4 35,249 +348 149-5 20,708 +1,208 138-5 72,699 +9,056 134-0 +429 31,944 97-1 7,398 129-6 4,971 99-8 19,257 239 5S 88,476 184-5 68,019 204-7 92,756 119-9 31,991 130 +3 526 144-3 28,491 105 +2 12,667 140-3 32,962 172-5 143,179 188-4 75,933 301 381-0"
+    "1966"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Increase or decrease over QA",
+   "header": [
+    "Increase or decrease over QA"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Percentage (+) or (-) over QA",
+   "header": [
+    "Percentage (+) or (-) over QA"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Volume of Crime per 1 lakh of population",
+   "header": [
+    "Volume of Crime per 1 lakh of population"
    ]
   }
  ],
- "notes": [
-  "Note—These figures do not include the Statistics. of Mokok Chung and Tuen Sang",
-  "districts of the state of Nagaland."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -49,7 +67,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

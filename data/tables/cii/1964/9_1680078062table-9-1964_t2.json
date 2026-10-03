@@ -6,112 +6,71 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "9",
- "title": "No. 1X OR INJURED ON DUTY—1964",
+ "title": "Injured",
  "listing_title": "Police Personnel Killed or Injured on Duty - 1964",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680078062TABLE-9-1964.pdf",
  "source_file": "raw/cii/1964/table_content/1680078062TABLE-9-1964.pdf",
  "source_sha256": "0eb104dea4b1d8ed23679ae22326c3401d1ae3a11b7d56b94698ed3fa26975c9",
  "table_no": "",
- "pdf_title": "No. 1X OR INJURED ON DUTY—1964",
- "row_label": "In accidents 7",
+ "pdf_title": "Injured",
+ "row_label": "In accidents",
  "pages": [
-  2,
-  3,
-  4
+  2
  ],
- "n_rows": 19,
- "n_cols": 13,
- "n_cells": 132,
+ "n_rows": 27,
+ "n_cols": 7,
+ "n_cells": 189,
  "columns": [
   {
    "col_no": "2",
-   "name": "In accidents | ave PC 4 4 5 5",
+   "name": "TOTAL (2)",
    "header": [
-    "In accidents",
-    "ave PC 4 4 5 5"
+    "TOTAL"
    ]
   },
   {
    "col_no": "3",
-   "name": "TOTAL 8 1 - 3 1 1 il 8 8 6",
+   "name": "In dacoity operations or other raids",
    "header": [
-    "TOTAL 8 1 - 3 1 1 il 8 8 6"
+    "In dacoity operations or other raids"
    ]
   },
   {
    "col_no": "4",
-   "name": "Injured | In dacoity operations other raids 9 12 1 39 il oP 7 10 49 16",
+   "name": "By riotous mobs",
    "header": [
-    "Injured",
-    "In dacoity operations other raids 9 12 1 39 il oP 7 10 49 16"
+    "By riotous mobs"
    ]
   },
   {
    "col_no": "5",
-   "name": "Injured | By —riotous mobs or 10 119 126 64 367 24 72 46 260 79",
+   "name": "By other criminals",
    "header": [
-    "Injured",
-    "By —riotous mobs or 10 119 126 64 367 24 72 46 260 79"
+    "By other criminals"
    ]
   },
   {
    "col_no": "6",
-   "name": "Injured | By other criminals il 3 10 27 131 5 29 22 212 9",
+   "name": "On border duties",
    "header": [
-    "Injured",
-    "By other criminals il 3 10 27 131 5 29 22 212 9"
+    "On border duties"
    ]
   },
   {
    "col_no": "7",
-   "name": "Injured | On border duties 12 - 65 ar ae 9 ie",
+   "name": "In accidents",
    "header": [
-    "Injured",
-    "On border duties 12 - 65 ar ae 9 ie"
+    "In accidents"
    ]
   },
   {
    "col_no": "8",
-   "name": "Injured | In accidents 13 wi 2 2 is - 26 21 19 5",
+   "name": "TOTAL (8)",
    "header": [
-    "Injured",
-    "In accidents 13 wi 2 2 is - 26 21 19 5"
+    "TOTAL"
    ]
-  },
-  {
-   "col_no": "9",
-   "name": "Injured | - ‘14 134 139 132 509 29 141 99 540 109",
-   "header": [
-    "Injured",
-    "- ‘14 134 139 132 509 29 141 99 540 109"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "col_10",
-   "header": []
-  },
-  {
-   "col_no": "11",
-   "name": "col_11",
-   "header": []
-  },
-  {
-   "col_no": "12",
-   "name": "col_12",
-   "header": []
-  },
-  {
-   "col_no": "13",
-   "name": "col_13",
-   "header": []
-  },
-  {
-   "col_no": "14",
-   "name": "col_14",
-   "header": []
   }
  ],
  "notes": [],
@@ -122,7 +81,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

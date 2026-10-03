@@ -6,92 +6,96 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "Non-Plan Expenditure in Jails in States/UTs during 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 ## Chapter - 3",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
  "table_no": "",
- "pdf_title": "Non-Plan Expenditure in Jails in States/UTs during 1998",
- "row_label": "(Rs. In Lakhs) St. / (Rs. In Lakhs) STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 ## Chapter - 3",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  62,
-  63
+  27
  ],
- "n_rows": 68,
- "n_cols": 7,
- "n_cells": 331,
+ "n_rows": 20,
+ "n_cols": 9,
+ "n_cells": 180,
  "columns": [
   {
    "col_no": "3",
-   "name": "(Rs. In Lakhs) | DEVELOPMENT",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Central Jail",
    "header": [
-    "(Rs. In Lakhs)",
-    "DEVELOPMENT"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Central Jail"
    ]
   },
   {
    "col_no": "4",
-   "name": "(Rs. In Lakhs) | NON-DEVELOPMENT",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | District Jail",
    "header": [
-    "(Rs. In Lakhs)",
-    "NON-DEVELOPMENT"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "District Jail"
    ]
   },
   {
    "col_no": "5",
-   "name": "(Rs. In Lakhs) | TOTAL",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Sub Jail",
    "header": [
-    "(Rs. In Lakhs)",
-    "TOTAL"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Sub Jail"
    ]
   },
   {
    "col_no": "6",
-   "name": "PRISON STATISTICS - 1998 inmates with details of expenses | facilities, | Vocational/Educational EDUCATION",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Women Jail",
    "header": [
-    "PRISON STATISTICS - 1998 inmates with details of expenses",
-    "facilities,",
-    "Vocational/Educational EDUCATION"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Women Jail"
    ]
   },
   {
    "col_no": "7",
-   "name": "PRISON STATISTICS - 1998 inmates with details of expenses | facilities, | for the year 1998 had also been made available to this Bureau. Expenses on inmates of Prisons in States/UTs during 1998 in Lakhs) WELFARE",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Borstal school",
    "header": [
-    "PRISON STATISTICS - 1998 inmates with details of expenses",
-    "facilities,",
-    "for the year 1998 had also been made available to this Bureau. Expenses on inmates of Prisons in States/UTs during 1998 in Lakhs) WELFARE"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Borstal school"
    ]
   },
   {
    "col_no": "8",
-   "name": "PRISON STATISTICS - 1998 inmates with details of expenses | Welfare OTHERS",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Open Jail",
    "header": [
-    "PRISON STATISTICS - 1998 inmates with details of expenses",
-    "Welfare OTHERS"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Open Jail"
    ]
   },
   {
    "col_no": "9",
-   "name": "PRISON STATISTICS - 1998 inmates with details of expenses | made and others The available information under various heads of expenditure is presented in the following table which would give an idea of the proportion in which the money TOTAL",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Special Jail",
    "header": [
-    "PRISON STATISTICS - 1998 inmates with details of expenses",
-    "made and others The available information under various heads of expenditure is presented in the following table which would give an idea of the proportion in which the money TOTAL"
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Special Jail"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "TOTAL NUMBER OF CONVICTS IN JAILS | Others",
+   "header": [
+    "TOTAL NUMBER OF CONVICTS IN JAILS",
+    "Others"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "It is clear from the above table that the highest Non-Plan expenditure was",
-  "reported from Uttar Pradesh (Rs.9581.3 lakhs) followed by Tamil Nadu (Rs.4844.4",
-  "lakhs) and Punjab (Rs.3596.8 lakhs). However, Kerala (Rs.1539.5 lakhs),",
-  "Meghalaya (Rs.129.8 lakhs), Sikkim (Rs.59 lakhs) and Delhi (Rs.3266.9 lakhs} are",
-  "the only State/UTs, where the expenditure exceeded their actual sanctioned",
-  "budget of Rs.1493.1 lakhs, Rs.109.4 lakhs, Rs.49.8 lakhs and Rs.3259.2 lakhs",
-  "respectively. The relevant details may be seen in Table 47."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -100,6 +104,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

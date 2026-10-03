@@ -6,76 +6,378 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "24",
- "title": "PERSONS ARRESTED UNDER DIFFERENT IPC CRIMES BY SEX",
+ "title": "TOTAL (ALL - INDIA) CITIES",
  "listing_title": "Persons Arrested under Different IPC Crimes by Sex in States, UTs & Cities During 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-24-1988-2.pdf",
  "source_sha256": "6bd77cb94869657bec49d44f6430a30cd4c8d229db0fac505b28c02632445ff7",
  "table_no": "",
- "pdf_title": "PERSONS ARRESTED UNDER DIFFERENT IPC CRIMES BY SEX",
- "row_label": "SL. NO / IN STATE/UT/CITY",
+ "pdf_title": "TOTAL (ALL - INDIA) CITIES",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
-  1
+  1,
+  2,
+  3,
+  4,
+  4,
+  5,
+  6
  ],
- "n_rows": 49,
- "n_cols": 6,
- "n_cells": 284,
+ "n_rows": 47,
+ "n_cols": 45,
+ "n_cells": 1827,
  "columns": [
   {
    "col_no": "3",
-   "name": "IN | MALE",
+   "name": "MURDER | MALE",
    "header": [
-    "IN",
+    "MURDER",
     "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "& MURDER FEMALE (A)",
+   "name": "MURDER | FEMALE",
    "header": [
-    "& MURDER FEMALE (A)"
+    "MURDER",
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "CITIES TOTAL",
+   "name": "MURDER | TOTAL",
    "header": [
-    "CITIES TOTAL"
+    "MURDER",
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "DURING MALE",
+   "name": "ATTEMPT TO COMMIT MURDER | MALE",
    "header": [
-    "DURING MALE"
+    "ATTEMPT TO COMMIT MURDER",
+    "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "1888 ATTEMPT MURDER FEMALE",
+   "name": "ATTEMPT TO COMMIT MURDER | FEMALE",
    "header": [
-    "1888 ATTEMPT MURDER FEMALE"
+    "ATTEMPT TO COMMIT MURDER",
+    "FEMALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "TO COMMIT TOTAL",
+   "name": "ATTEMPT TO COMMIT MURDER | TOTAL",
    "header": [
-    "TO COMMIT TOTAL"
+    "ATTEMPT TO COMMIT MURDER",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "C.H. NOT AMOUNTING TO MURDER | MALE",
+   "header": [
+    "C.H. NOT AMOUNTING TO MURDER",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "C.H. NOT AMOUNTING TO MURDER | FEMALE",
+   "header": [
+    "C.H. NOT AMOUNTING TO MURDER",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "C.H. NOT AMOUNTING TO MURDER | TOTAL",
+   "header": [
+    "C.H. NOT AMOUNTING TO MURDER",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "RAPE | MALE",
+   "header": [
+    "RAPE",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "RAPE | FEMALE",
+   "header": [
+    "RAPE",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "RAPE | TOTAL",
+   "header": [
+    "RAPE",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "col_15",
+   "header": []
+  },
+  {
+   "col_no": "16",
+   "name": "TOTAL | MALE",
+   "header": [
+    "TOTAL",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "TOTAL | FEMALE",
+   "header": [
+    "TOTAL",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | TOTAL",
+   "header": [
+    "TOTAL",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "OF WOMEN & GIRLS | MALE",
+   "header": [
+    "OF WOMEN & GIRLS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "OF WOMEN & GIRLS | FEMALE",
+   "header": [
+    "OF WOMEN & GIRLS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "OF WOMEN & GIRLS | TOTAL",
+   "header": [
+    "OF WOMEN & GIRLS",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "OF OTHERS | MALE",
+   "header": [
+    "OF OTHERS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "OF OTHERS | FEMALE",
+   "header": [
+    "OF OTHERS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "DACOITY | MALE",
+   "header": [
+    "DACOITY",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "DACOITY | FEMALE",
+   "header": [
+    "DACOITY",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "DACOITY | TOTAL",
+   "header": [
+    "DACOITY",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOI | MALE",
+   "header": [
+    "PREPARATION AND ASSEMBLY FOR DACOI",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOI | FEMALE",
+   "header": [
+    "PREPARATION AND ASSEMBLY FOR DACOI",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOI | TOTAL",
+   "header": [
+    "PREPARATION AND ASSEMBLY FOR DACOI",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "col_10001",
+   "header": []
+  },
+  {
+   "col_no": "10002",
+   "name": "col_10002",
+   "header": []
+  },
+  {
+   "col_no": "10003",
+   "name": "col_10003",
+   "header": []
+  },
+  {
+   "col_no": "10004",
+   "name": "col_10004",
+   "header": []
+  },
+  {
+   "col_no": "10005",
+   "name": "col_10005",
+   "header": []
+  },
+  {
+   "col_no": "10006",
+   "name": "col_10006",
+   "header": []
+  },
+  {
+   "col_no": "30",
+   "name": "ROBBERY | MALE",
+   "header": [
+    "ROBBERY",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "ROBBERY | FEMALE",
+   "header": [
+    "ROBBERY",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "ROBBERY | TOTAL",
+   "header": [
+    "ROBBERY",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "BURGLARY | MALE",
+   "header": [
+    "BURGLARY",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "BURGLARY | FEMALE",
+   "header": [
+    "BURGLARY",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "BURGLARY | TOTAL",
+   "header": [
+    "BURGLARY",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "THEFT | MALE",
+   "header": [
+    "THEFT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "THEFT | FEMALE",
+   "header": [
+    "THEFT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "THEFT | TOTAL",
+   "header": [
+    "THEFT",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "RIOTS | MALE",
+   "header": [
+    "RIOTS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "RIOTS | FEMALE",
+   "header": [
+    "RIOTS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "RIOTS | TOTAL",
+   "header": [
+    "RIOTS",
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 16,
+  "cells_checked": 105,
+  "cells_passed": 105,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 7,
  "warnings": []
 }

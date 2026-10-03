@@ -8,26 +8,33 @@
  "serial": "26",
  "title": "Persons Arrested under IPC Crimes During 1995 (Crime-Head & Sex-Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1995 (Crime-Head & Sex-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-26-1995-crime-survey.pdf",
  "source_sha256": "5b1dc850b75f9c507b5a8901d45873caa00021477803a8c5797d8e82c4f357e0",
  "table_no": "26",
- "pdf_title": "PERSONS AKHES!IED UNDER IPC CRIMES DURING 1995",
- "row_label": "SL. NO. / CRIME HEAD / (CRIME-HEAD MALE",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-26",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 1,
- "n_cols": 4,
- "n_cells": 4,
+ "n_rows": 24,
+ "n_cols": 5,
+ "n_cells": 120,
  "columns": [
   {
-   "col_no": "4",
-   "name": "& ‘3EX-WISE) FEMALE",
+   "col_no": "3",
+   "name": "MALE",
    "header": [
-    "& ‘3EX-WISE) FEMALE"
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "FEMALE",
+   "header": [
+    "FEMALE"
    ]
   },
   {
@@ -59,8 +66,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

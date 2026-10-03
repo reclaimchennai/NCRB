@@ -8,47 +8,54 @@
  "serial": "28",
  "title": "Property Stolen and Recovered by Category of Offences During 1983; Nature of Property Stolen and Recovered During 1983",
  "listing_title": "Property Stolen and Recovered by Category of Offences During 1983; Nature of Property Stolen and Recovered During 1983",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48-49.pdf",
  "source_file": "raw/cii/1983/table_content/table-48-49.pdf",
  "source_sha256": "eeefc2e568bf8fe81f8fdbccbadcef253f0b42e8e987b4cf657ed303cf099df4",
- "table_no": "",
- "pdf_title": "TaBLe 48",
- "row_label": "Category of offences sl. No. / Property stolen 2=2 recovered vy No. of cases in which",
+ "table_no": "48",
+ "pdf_title": "121 TABLE 48 Property stolen and recovered by category of offences during 1983",
+ "row_label": "Sl. No. / Category of offences / Category of offences / Category of offences / Category of offences / Category of offences / Category of offences",
  "pages": [
   1
  ],
- "n_rows": 17,
- "n_cols": 4,
- "n_cells": 65,
+ "n_rows": 7,
+ "n_cols": 5,
+ "n_cells": 35,
  "columns": [
   {
-   "col_no": "4",
-   "name": "of Offerccs - No. of oases in which property «=",
+   "col_no": "3",
+   "name": "No. of cases in which property was stolen",
    "header": [
-    "of Offerccs - No. of oases in which property «="
+    "No. of cases in which property was stolen"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "No. of cases in which property was recovered",
+   "header": [
+    "No. of cases in which property was recovered"
    ]
   },
   {
    "col_no": "5",
-   "name": "1983 eect",
+   "name": "Value of property stolen in Rs. lakhs",
    "header": [
-    "1983 eect"
+    "Value of property stolen in Rs. lakhs"
    ]
   },
   {
    "col_no": "6",
-   "name": "Value of Value of property stolen in re Cove’ Ra skis",
+   "name": "Value of property recovered in Rs. lakhs",
    "header": [
-    "Value of Value of property stolen in re Cove’ Ra skis"
+    "Value of property recovered in Rs. lakhs"
    ]
   },
   {
    "col_no": "7",
-   "name": "%age of property proport to stn” in",
+   "name": "%age of property recovered to property stolen",
    "header": [
-    "%age of property proport to stn” in"
+    "%age of property recovered to property stolen"
    ]
   }
  ],
@@ -58,7 +65,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

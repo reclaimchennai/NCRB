@@ -8,35 +8,78 @@
  "serial": "41",
  "title": "Disposal of Persons Arrested under SLL Crimes by Courts During 1995 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested under SLL Crimes by Courts During 1995 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-41-1995-crime-survey.pdf",
  "source_sha256": "a013cc16b0ffd779ce5c666155f7ad444cb5a5d0bcab1e1c3ec63251110a3015",
  "table_no": "41",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING 1995",
- "row_label": "SL. NO. / STATE/UT / (STATE TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE - RROM ERE. vious YEAR / (STATE UNDED Gn WITH DRAWN / & NO. OF PERSONS WHOSE TRIAL - COMPLETED / UT-WISE) TRIAL - REMAINED PENDING / NO. OF PERSONS CONVICTED / PENDENCY PERCENTAGE",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-41",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
- "n_cols": 1,
- "n_cells": 35,
+ "n_cols": 7,
+ "n_cells": 245,
  "columns": [
   {
-   "col_no": "9",
-   "name": "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL",
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH DRAWN",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "CASES COMPO-UNDED OR WITH DRAWN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPL-ETED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF PERSONS CONVICTED",
+   "header": [
+    "NO. OF PERSONS CONVICTED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PENDENCY PERCENTAGE",
+   "header": [
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 15,
+  "cells_passed": 15,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

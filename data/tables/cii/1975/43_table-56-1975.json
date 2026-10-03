@@ -8,80 +8,114 @@
  "serial": "43",
  "title": "Number of Police Personnel Killed or Injured on Duty",
  "listing_title": "Number of Police Personnel Killed or Injured on Duty",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-56-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-56-1975.pdf",
  "source_sha256": "7940960c101a773d0883ae4c3aef7f8dc67acd2b2155bf9bd0f85278efbeb0cc",
  "table_no": "",
- "pdf_title": "",
- "row_label": "",
+ "pdf_title": "119 TABLE NO. 56 Number of Police Personnel killed or injured on duty",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 45,
+ "n_rows": 43,
  "n_cols": 12,
- "n_cells": 491,
+ "n_cells": 516,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Number of killed personnel | In Dacosity operations or other raids",
+   "header": [
+    "Number of killed personnel",
+    "In Dacosity operations or other raids"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Number of killed personnel | By Ri- otous Mobs.",
+   "header": [
+    "Number of killed personnel",
+    "By Ri- otous Mobs."
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Number of killed personnel | By Oth- er Cri- minals",
+   "header": [
+    "Number of killed personnel",
+    "By Oth- er Cri- minals"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "Number of killed personnel | On Bo- rder du- ties.",
+   "header": [
+    "Number of killed personnel",
+    "On Bo- rder du- ties."
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "Number of killed personnel | In Acci- denis.",
+   "header": [
+    "Number of killed personnel",
+    "In Acci- denis."
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "Number of injured personnel | Total",
+   "header": [
+    "Number of injured personnel",
+    "Total"
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "Number of injured personnel | In Dac- oity op- tions or raids",
+   "header": [
+    "Number of injured personnel",
+    "In Dac- oity op- tions or raids"
+   ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "Number of injured personnel | By Ri- otous Mobs.",
+   "header": [
+    "Number of injured personnel",
+    "By Ri- otous Mobs."
+   ]
   },
   {
    "col_no": "11",
-   "name": "col_11",
-   "header": []
+   "name": "Number of injured personnel | By Oth- er cri- minals",
+   "header": [
+    "Number of injured personnel",
+    "By Oth- er cri- minals"
+   ]
   },
   {
    "col_no": "12",
-   "name": "col_12",
-   "header": []
+   "name": "Number of injured personnel | On Bo- rder du- ties.",
+   "header": [
+    "Number of injured personnel",
+    "On Bo- rder du- ties."
+   ]
   },
   {
    "col_no": "13",
-   "name": "col_13",
-   "header": []
+   "name": "In Acci- denis.",
+   "header": [
+    "In Acci- denis."
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
   }
  ],
  "notes": [],
@@ -89,10 +123,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 24,
+  "other_totals_passed": 15
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

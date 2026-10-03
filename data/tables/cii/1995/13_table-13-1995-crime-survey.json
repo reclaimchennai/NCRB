@@ -8,39 +8,87 @@
  "serial": "13",
  "title": "Disposal of IPC Crime Cases by Police During 1995",
  "listing_title": "Disposal of IPC Crime Cases by Police During 1995",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-13-1995-crime-survey.pdf",
  "source_sha256": "b1647a0de079f558cdad76807f8cebb04b34a3db7b9fe5e2aabd5596b0d9aae1",
  "table_no": "13",
- "pdf_title": "DISPOSAL OF IPC CRIME CASES BY POLICE DURING 1995",
- "row_label": "SL. CRIME HEAD NO. / NO. OF CASES IN WHICH TOTAL NO. OF CASES FOR INVe- TION INCLUDING pieced / NO. OF CASES IN WHICH STIGA- - INVESTIGATION WAS REFustu / NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED CHARGE FOUND FALSE) MISTAKE OF FACT OR OF LAW ETC. / NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED FINAL REPORT TRUE - SUBMITTED / NO. OF CASES IN WHICH INVESTIGATION WAS COMPLETED CHARGE WERE LAID / NO. OF CASES IN WHICH - TOTAL {(5) + (6) +(7))",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-13",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 24,
- "n_cols": 1,
- "n_cells": 24,
+ "n_cols": 7,
+ "n_cells": 168,
  "columns": [
   {
-   "col_no": "9",
-   "name": "NO. OF CASES IN WHICH | NO. OF CASES PENDING INVESTIGATION",
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
+   "header": [
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
     "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC.",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMITTED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERE LAID"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL ((5) + (6) + (7))",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL ((5) + (6) + (7))"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
+   "header": [
     "NO. OF CASES PENDING INVESTIGATION"
    ]
   }
  ],
- "notes": [
-  "1656 NCRB/97- -17B"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

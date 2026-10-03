@@ -6,51 +6,56 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "KIDNAPPLNG",
+ "title": "—CASES Appendix III 15",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686382133APPENDIX0.pdf",
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "KIDNAPPLNG",
- "row_label": "State Serial No.",
+ "pdf_title": "—CASES Appendix III 15",
+ "row_label": "Cases in which trial was completed",
  "pages": [
-  10
+  7
  ],
  "n_rows": 33,
- "n_cols": 4,
- "n_cells": 130,
+ "n_cols": 5,
+ "n_cells": 165,
  "columns": [
   {
    "col_no": "2",
-   "name": "Cases from last year",
+   "name": "Cases convicted",
    "header": [
-    "Cases from last year"
+    "Cases convicted"
    ]
   },
   {
    "col_no": "3",
-   "name": "Cases not | Cases Ieporica during the year",
+   "name": "Cases acquitted or discharged",
    "header": [
-    "Cases not",
-    "Cases Ieporica during the year"
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases not | vestigated, declared false mistake of fact or or and nending or trial",
+   "name": "Percentage of cases convicted to true cases investigated j",
    "header": [
-    "Cases not",
-    "vestigated, declared false mistake of fact or or and nending or trial"
+    "Percentage of cases convicted to true cases investigated j"
    ]
   },
   {
    "col_no": "5",
-   "name": "in- Cases not detected or law",
+   "name": "Percentage of cases convicted to cases tried",
    "header": [
-    "in- Cases not detected or law"
+    "Percentage of cases convicted to cases tried"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Volume of crime",
+   "header": [
+    "Volume of crime"
    ]
   }
  ],
@@ -59,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 14,
-  "other_totals_passed": 7
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

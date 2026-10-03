@@ -8,53 +8,55 @@
  "serial": "22",
  "title": "Persons Arrested under IPC Crimes During 1992 (Crime-Head & Sex-wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1992 (Crime-Head & Sex-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-22-1992-survey.pdf",
  "source_sha256": "13d71c4f0529e60e17c5ddd6bb630e7336bd61bd3ecf0f8d9a8de6e5eac44afc",
  "table_no": "22",
- "pdf_title": "PERSONS ARRESTED UNDER IPC CRIMES DURING 1992",
- "row_label": "wo.",
+ "pdf_title": "133 TABLE-22 PERSONS ARRESTED UNDER IPC CRIMES DURING 1992",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 19,
+ "n_rows": 18,
  "n_cols": 5,
  "n_cells": 90,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(CRIME-HEAD",
-   "header": [
-    "(CRIME-HEAD"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "&",
-   "header": [
-    "&"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "SEX-WISE)",
-   "header": [
-    "SEX-WISE)"
-   ]
-  },
-  {
-   "col_no": "5",
    "name": "MALE",
    "header": [
     "MALE"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "4",
    "name": "FEMALE",
    "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PERCENTAGE TO TOTAL | MALE",
+   "header": [
+    "PERCENTAGE TO TOTAL",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERCENTAGE TO TOTAL | FEMALE",
+   "header": [
+    "PERCENTAGE TO TOTAL",
     "FEMALE"
    ]
   }
@@ -67,7 +69,7 @@
   "other_totals_checked": 3,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

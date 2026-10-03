@@ -1,0 +1,104 @@
+{
+ "table_id": "cii/1994/5_table53-1994-2",
+ "publication": "cii",
+ "year": 1994,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "5",
+ "title": "Juveniles Apprehended under SLL Crimes by Age Group & Sex During 1994 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Apprehended under SLL Crimes by Age Group & Sex During 1994 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table53-1994_2.pdf",
+ "source_file": "raw/cii/1994/table_content/table53-1994_2.pdf",
+ "source_sha256": "65d5e1036c3fc0f82561f295edec794741b6ec6c5c1707745b2ab0c0f0e39ecb",
+ "table_no": "53",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-53",
+ "row_label": "SL. NO. / STATE/UT/CITY",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 8,
+ "n_cells": 464,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "7 - 12 YEARS | BOYS",
+   "header": [
+    "7 - 12 YEARS",
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "7 - 12 YEARS | GIRLS",
+   "header": [
+    "7 - 12 YEARS",
+    "GIRLS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "12-16 YEARS | BOYS",
+   "header": [
+    "12-16 YEARS",
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "12-16 YEARS | GIRLS",
+   "header": [
+    "12-16 YEARS",
+    "GIRLS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "16-18 YEARS | GIRLS ONLY",
+   "header": [
+    "16-18 YEARS",
+    "GIRLS ONLY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OVERALL AGE-GROUP | BOYS",
+   "header": [
+    "OVERALL AGE-GROUP",
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OVERALL AGE-GROUP | GIRLS",
+   "header": [
+    "OVERALL AGE-GROUP",
+    "GIRLS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "TOTAL (BOYS + GIRLS)",
+   "header": [
+    "TOTAL (BOYS + GIRLS)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 22,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 992, sum 1012",
+   "col 10 'TOTAL (ALL INDIA)': printed 6369, sum 6379"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

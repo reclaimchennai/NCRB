@@ -8,80 +8,85 @@
  "serial": "74",
  "title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1999 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1999 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-74-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-74-1999.pdf",
  "source_sha256": "546e863acc8c195b8e41bac4a63912e186745a3854bbac75fb183e372dceb811",
  "table_no": "74",
- "pdf_title": "DISPOSAL OF PERSONS 4«#«x1reu UNDER IPC CRIMES RY COURTS DURING 1999 (STATE & UT - WISE)",
- "row_label": "SL.NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 74",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 7,
- "n_cells": 251,
+ "n_cells": 245,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE/UT FROM PRE-vious YEAR",
-   "header": [
-    "STATE/UT FROM PRE-vious YEAR"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "“TOTAL NO.OF ASES UNDED OR WITH DRAWN",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE- VIOUS YEAR",
    "header": [
-    "“TOTAL NO.OF ASES UNDED OR WITH DRAWN"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE- VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF FERSU - HAL ETED",
+   "name": "NUMBER OF PERSONS WHOSE | CASES COMPO- UNDED OR WITH DRAWN",
    "header": [
-    "OF FERSU - HAL ETED"
+    "NUMBER OF PERSONS WHOSE",
+    "CASES COMPO- UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "WHUDE TRIAL - PENDING",
+   "name": "NUMBER OF PERSONS WHOSE | TRIAL COMPL- ETED",
    "header": [
-    "WHUDE TRIAL - PENDING"
+    "NUMBER OF PERSONS WHOSE",
+    "TRIAL COMPL- ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO.OF",
+   "name": "NUMBER OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "NO.OF"
+    "NUMBER OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "6 FERUENTAGE - ‘tL",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "6 FERUENTAGE - ‘tL"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "PENDENCY PERCENTAGE",
+   "header": [
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERCENTAGE OF PENDENCY TO ALL INDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALL INDIA TOTAL"
+   ]
   }
  ],
- "notes": [
-  "j as aR LERS THEN 0.65 IS ALS() SHOWN AS 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 4,
-  "failures": [],
-  "other_totals_checked": 3,
+  "cells_checked": 15,
+  "cells_passed": 14,
+  "failures": [
+   "col 4 'TOTAL STATES': printed 382887, sum 391887"
+  ],
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

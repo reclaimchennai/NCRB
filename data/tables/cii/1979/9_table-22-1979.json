@@ -8,194 +8,106 @@
  "serial": "9",
  "title": "Persons Arrested under I.P.C. Crimes by Sex During 1979",
  "listing_title": "Persons Arrested under I.P.C. Crimes by Sex During 1979",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1979.pdf",
  "source_file": "raw/cii/1979/table_content/table-22-1979.pdf",
  "source_sha256": "389274c8dd5468f0e3440d4feaae62467e21d7ca4dcfb78fe64cab9ff81f218b",
- "table_no": "22",
- "pdf_title": "—Conid",
- "row_label": "Serial No. / PERSONS Name of the States/U.Ts./ Cities / UNDER J,P.C, CRIMES RY SEX DURING 1979 Total - Male",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Serial No. / Name of the States/U.Ts./Cities",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 105,
- "n_cols": 25,
- "n_cells": 1051,
+ "n_rows": 129,
+ "n_cols": 14,
+ "n_cells": 1117,
  "columns": [
   {
-   "col_no": "4",
-   "name": "UNDER J,P.C, CRIMES RY SEX DURING 1979 | Crime Female",
+   "col_no": "3",
+   "name": "Total Cognizable Crime | Male",
    "header": [
-    "UNDER J,P.C, CRIMES RY SEX DURING 1979",
-    "Crime Female"
+    "Total Cognizable Crime",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Total Cognizable Crime | Female",
+   "header": [
+    "Total Cognizable Crime",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER J,P.C, CRIMES RY SEX DURING 1979 | Murder Male",
+   "name": "Murder | Male",
    "header": [
-    "UNDER J,P.C, CRIMES RY SEX DURING 1979",
-    "Murder Male"
+    "Murder",
+    "Male"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER J,P.C, CRIMES RY SEX DURING 1979 | Female",
+   "name": "Murder | Female",
    "header": [
-    "UNDER J,P.C, CRIMES RY SEX DURING 1979",
+    "Murder",
     "Female"
    ]
   },
   {
    "col_no": "7",
-   "name": "UNDER J,P.C, CRIMES RY SEX DURING 1979 | Culpable Homicide not amounting to Murder | Male",
+   "name": "Culpable Homicide not amounting to Murder | Male",
    "header": [
-    "UNDER J,P.C, CRIMES RY SEX DURING 1979",
     "Culpable Homicide not amounting to Murder",
     "Male"
    ]
   },
   {
    "col_no": "8",
-   "name": "UNDER J,P.C, CRIMES RY SEX DURING 1979 | Culpable Homicide not amounting to Murder | Female",
+   "name": "Culpable Homicide not amounting to Murder | Female",
    "header": [
-    "UNDER J,P.C, CRIMES RY SEX DURING 1979",
     "Culpable Homicide not amounting to Murder",
     "Female"
    ]
   },
   {
    "col_no": "10001",
-   "name": "Rape | Name of the Statec/U,Ts,/ Cities Male",
+   "name": "Riots | Male",
    "header": [
-    "Rape",
-    "Name of the Statec/U,Ts,/ Cities Male"
+    "Riots",
+    "Male"
    ]
   },
   {
    "col_no": "10002",
-   "name": "Rape | Female",
+   "name": "Riots | Female",
    "header": [
-    "Rape",
+    "Riots",
     "Female"
    ]
   },
   {
    "col_no": "10003",
-   "name": "Kidnepping & Abduction | Male",
+   "name": "Criminal Breach of Trust | Male",
    "header": [
-    "Kidnepping & Abduction",
+    "Criminal Breach of Trust",
     "Male"
    ]
   },
   {
    "col_no": "10004",
-   "name": "Kidnepping & Abduction | Female",
+   "name": "Criminal Breach of Trust | Female",
    "header": [
-    "Kidnepping & Abduction",
+    "Criminal Breach of Trust",
     "Female"
    ]
   },
   {
    "col_no": "10005",
-   "name": "Decoity | Male",
-   "header": [
-    "Decoity",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "Decoity | Female",
-   "header": [
-    "Decoity",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "Robbery | Name of the States/U.Ts./ Cities - - Male",
-   "header": [
-    "Robbery",
-    "Name of the States/U.Ts./ Cities - - Male"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "Robbery | - Female",
-   "header": [
-    "Robbery",
-    "- Female"
-   ]
-  },
-  {
-   "col_no": "10009",
-   "name": "Burglary | Male",
-   "header": [
-    "Burglary",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "10010",
-   "name": "Burglary | Female",
-   "header": [
-    "Burglary",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "10011",
-   "name": "Thefts | Male",
-   "header": [
-    "Thefts",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "10012",
-   "name": "Thefts | Female",
-   "header": [
-    "Thefts",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "10013",
-   "name": "Name of the States/U.Ts./ Riots Cities Male",
-   "header": [
-    "Name of the States/U.Ts./ Riots Cities Male"
-   ]
-  },
-  {
-   "col_no": "10014",
-   "name": "Female",
-   "header": [
-    "Female"
-   ]
-  },
-  {
-   "col_no": "10015",
-   "name": "Criminal Breach | of Male",
-   "header": [
-    "Criminal Breach",
-    "of Male"
-   ]
-  },
-  {
-   "col_no": "10016",
-   "name": "Criminal Breach | Trust Female",
-   "header": [
-    "Criminal Breach",
-    "Trust Female"
-   ]
-  },
-  {
-   "col_no": "10017",
    "name": "Cheating | Male",
    "header": [
     "Cheating",
@@ -203,7 +115,7 @@
    ]
   },
   {
-   "col_no": "10018",
+   "col_no": "10006",
    "name": "Cheating | Female",
    "header": [
     "Cheating",
@@ -211,40 +123,40 @@
    ]
   },
   {
-   "col_no": "10019",
-   "name": "Counteriviting | Male",
+   "col_no": "9",
+   "name": "Counterfeiting | Male",
    "header": [
-    "Counteriviting",
+    "Counterfeiting",
     "Male"
    ]
   },
   {
-   "col_no": "10020",
-   "name": "Counteriviting | Female",
+   "col_no": "10",
+   "name": "Counterfeiting | Female",
    "header": [
-    "Counteriviting",
+    "Counterfeiting",
     "Female"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 0,
+  "cells_checked": 54,
+  "cells_passed": 41,
   "failures": [
-   "col 10001 'TOTAL (Cities)': printed 230, sum 99",
-   "col 10003 'TOTAL (Cities)': printed 1072, sum 534",
-   "col 10004 'TOTAL (U.TS.)': printed 12, sum 1005",
-   "col 10004 'TOTAL (Cities)': printed 61, sum 25",
-   "col 10005 'TOTAL (Cities)': printed 1717, sum 283",
-   "col 10007 'TOTAL (Cities)': printed 1848, sum 10687",
-   "col 10009 'TOTAL (Cities)': printed 6195, sum 55967",
-   "col 10010 'TOTAL (Cities)': printed 84, sum 935"
+   "col 3 'TOTAL (States)': printed 5159, sum 5.60839e+06",
+   "col 4 'TOTAL (States)': printed 41, sum 100970",
+   "col 5 'TOTAL (States)': printed 14798, sum 154991",
+   "col 6 'TOTAL (States)': printed 481, sum 3025",
+   "col 7 'TOTAL (States)': printed 51630, sum 69756",
+   "col 7 'TOTAL (U.TS.)': printed 3590, sum 3950",
+   "col 8 'TOTAL (States)': printed 182, sum 321",
+   "col 10001 'TOTAL (States)': printed 535973, sum 536121"
   ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 18,
+  "other_totals_passed": 12
  },
- "inferred_pages": 3,
+ "inferred_pages": 0,
  "ocr_pages": 4,
  "warnings": []
 }

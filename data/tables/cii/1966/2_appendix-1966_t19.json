@@ -6,74 +6,63 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "AprenbDix—V LI",
+ "title": "76 ROBBERY— UNION TERRITORIES",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1966.pdf",
  "source_file": "raw/cii/1966/table_chapter/appendix-1966.pdf",
  "source_sha256": "480636acad765635761f21d85b9a84110830d45a0218f3eb2a6c79ae168a7b2e",
  "table_no": "",
- "pdf_title": "AprenbDix—V LI",
- "row_label": "PERSONS Persons released by the police or magnirac before trial",
+ "pdf_title": "76 ROBBERY— UNION TERRITORIES",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
-  31
+  34
  ],
- "n_rows": 24,
- "n_cols": 7,
- "n_cells": 151,
+ "n_rows": 18,
+ "n_cols": 6,
+ "n_cells": 108,
  "columns": [
   {
-   "col_no": "7",
-   "name": "Persons in whose cases chargesheet was laid",
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Persons in whose cases chargesheet was laid"
+    "Cases pending investigation from previous year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending disposal in courts",
+   "header": [
+    "Cases pending disposal in courts"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases reported during the year",
+   "header": [
+    "Cases reported during the year"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases not investigated (+) Declared false (+) Mistake of fact or law (+) Non-Cognizable",
+   "header": [
+    "Cases not investigated (+) Declared false (+) Mistake of fact or law (+) Non-Cognizable"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases pending investigation at the end of the year",
+   "header": [
+    "Cases pending investigation at the end of the year"
    ]
   },
   {
    "col_no": "8",
-   "name": "Persons convicted",
+   "name": "Cases pending trial at the end of the year",
    "header": [
-    "Persons convicted"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Persons acquitted or discharged",
-   "header": [
-    "Persons acquitted or discharged"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Persons incustody pending investigation or on | Persons against whom cases were compounded or withdrawn",
-   "header": [
-    "Persons incustody pending investigation or on",
-    "Persons against whom cases were compounded or withdrawn"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Persons incustody pending investigation or on | bail during the stage thestage gation at the end of the year",
-   "header": [
-    "Persons incustody pending investigation or on",
-    "bail during the stage thestage gation at the end of the year"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "tage of | Persons in custody pending trial or on bail during of trial at of investi- the end of the year",
-   "header": [
-    "tage of",
-    "Persons in custody pending trial or on bail during of trial at of investi- the end of the year"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "tage of | tion",
-   "header": [
-    "tage of",
-    "tion"
+    "Cases pending trial at the end of the year"
    ]
   }
  ],
@@ -82,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

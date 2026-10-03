@@ -8,14 +8,14 @@
  "serial": "30",
  "title": "Incidence of Total Cognizable Crime in States UTs and Cities During 1982 to 1987 Alongwith Percentage Variation Over the Quinque",
  "listing_title": "Incidence of Total Cognizable Crime in States UTs and Cities During 1982 to 1987 Alongwith Percentage Variation Over the Quinque",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_4-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_4-1987.pdf",
  "source_sha256": "ccbda1e56f62f198846357a9fd94ed6f72babdc2932417416ac47f14ee76a502",
  "table_no": "4",
- "pdf_title": "Incidence Of Total Cognizable Crime In States, UTs And Cities During 1982 To 1987",
- "row_label": "SL. No. a>",
+ "pdf_title": "5 TABLE-4 Incidence Of Total Cognizable Crime In States, UTs And Cities During 1982 To 1987",
+ "row_label": "SL. NO. / STATES/UTS/CITIES",
  "pages": [
   1
  ],
@@ -24,76 +24,77 @@
  "n_cells": 384,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Alongwith Fercentages Variation Over The | STATES/UTs/CiTiEs",
+   "col_no": "5",
+   "name": "1982",
    "header": [
-    "Alongwith Fercentages Variation Over The",
-    "STATES/UTs/CiTiEs"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "Alongwith Fercentages Variation Over The | 1982",
-   "header": [
-    "Alongwith Fercentages Variation Over The",
     "1982"
    ]
   },
   {
-   "col_no": "5",
-   "name": "Alongwith Fercentages Variation Over The | 1983 <6)",
+   "col_no": "6",
+   "name": "1983",
    "header": [
-    "Alongwith Fercentages Variation Over The",
-    "1983 <6)"
+    "1983"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1984",
+   "header": [
+    "1984"
    ]
   },
   {
    "col_no": "8",
-   "name": "Average Of 1984 AVERAGE 1982 TO «7?",
+   "name": "1985",
    "header": [
-    "Average Of 1984 AVERAGE 1982 TO «7?"
+    "1985"
    ]
   },
   {
    "col_no": "9",
-   "name": "1982-1986 And Over 1985 1986",
+   "name": "1986",
    "header": [
-    "1982-1986 And Over 1985 1986"
+    "1986"
    ]
   },
   {
    "col_no": "10",
-   "name": "1986 1986 IN OVER Q.A.",
+   "name": "QUINQUENNIAL | AVERAGE1982 TO 1986(Q. A.)",
    "header": [
-    "1986 1986 IN OVER Q.A."
+    "QUINQUENNIAL",
+    "AVERAGE1982 TO 1986(Q. A.)"
    ]
   },
   {
    "col_no": "11",
-   "name": "romeninue VARIATION 1987 1987 (-) INCREASE (+) DECRESE OVER qu)",
+   "name": "1987",
    "header": [
-    "romeninue VARIATION 1987 1987 (-) INCREASE (+) DECRESE OVER qu)"
+    "1987"
    ]
   },
   {
    "col_no": "12",
-   "name": "VOLUME OF CRIME IN 1987 PER LAKH 1986 or PUPULATION",
+   "name": "VOLUME | OFCRIMEIN 1987PER LAKHOFPOPULATION",
    "header": [
-    "VOLUME OF CRIME IN 1987 PER LAKH 1986 or PUPULATION"
+    "VOLUME",
+    "OFCRIMEIN 1987PER LAKHOFPOPULATION"
    ]
   }
  ],
- "notes": [
-  "NOTE 1) Goa attained the statehood in the year 1987 and Daman & Diu U.T. continued to remain as U.T.",
-  "2) Combined figures of Goa, Daman and Diu for the year 1982 to 1986 have been bifurcated between",
-  "Goa and Daman & Diu on the basis of 1987 data."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 2,
-  "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "cells_checked": 18,
+  "cells_passed": 13,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 1.32146e+06, sum 1.32148e+06",
+   "col 5 'TOTAL (U.Ts)': printed 32439, sum 32459",
+   "col 9 'TOTAL (STATES)': printed 1.3708e+06, sum 1.371e+06",
+   "col 9 'TOTAL (CITIES)': printed 162201, sum 162301",
+   "col 11 'TOTAL (U.Ts)': printed 31362, sum 31302"
+  ],
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

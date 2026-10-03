@@ -6,66 +6,74 @@
  "topic": "",
  "section": "Crime in India 1992",
  "serial": "3",
- "title": "ORGANISATIONAL SET-UP OF POLICE IN STATES & UTs AS ON 1.1.93",
+ "title": "5 DISPOSAL OF IPC CASES BY COURTS DURING 1961 - 1991 & 1992",
  "listing_title": "Figures at a Glance",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653991987_figures-at-a-glance_0.pdf",
  "source_file": "raw/cii/1992/year_wise/1653991987_figures-at-a-glance_0.pdf",
  "source_sha256": "4419f13a56bc9c835091b26aa88aedbe665b2e427ccdf279b9ea0a645831105d",
  "table_no": "",
- "pdf_title": "ORGANISATIONAL SET-UP OF POLICE IN STATES & UTs AS ON 1.1.93",
- "row_label": "SL. NO. / STATE/UT",
+ "pdf_title": "5 DISPOSAL OF IPC CASES BY COURTS DURING 1961 - 1991 & 1992",
+ "row_label": "SL. NO.",
  "pages": [
-  11
+  5
  ],
- "n_rows": 35,
- "n_cols": 5,
- "n_cells": 173,
+ "n_rows": 5,
+ "n_cols": 6,
+ "n_cells": 30,
  "columns": [
   {
-   "col_no": "3",
-   "name": "RANGE",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "RANGE"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR TRIAL (INCLUDING PENDING CASES)",
+   "header": [
+    "TOTAL NO. OF CASES FOR TRIAL (INCLUDING PENDING CASES)"
    ]
   },
   {
    "col_no": "4",
-   "name": "DISTT.",
+   "name": "NO. OF CASES | TRIED*",
    "header": [
-    "DISTT."
+    "NO. OF CASES",
+    "TRIED*"
    ]
   },
   {
    "col_no": "5",
-   "name": "SUB-DIV.",
+   "name": "NO. OF CASES | CONVICTED",
    "header": [
-    "SUB-DIV."
+    "NO. OF CASES",
+    "CONVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "CIRCLE",
+   "name": "PERCENTAGE OF | TRIAL COMPLETED",
    "header": [
-    "CIRCLE"
+    "PERCENTAGE OF",
+    "TRIAL COMPLETED"
    ]
   },
   {
    "col_no": "7",
-   "name": "POLICE STATION",
+   "name": "PERCENTAGE OF | CONVICTION",
    "header": [
-    "POLICE STATION"
+    "PERCENTAGE OF",
+    "CONVICTION"
    ]
   }
  ],
- "notes": [
-  "SOURCE: ‘DATA ON POLICE ORGANISATIONS IN INDIA’ PUBLISHED BY BPR&D.",
-  "NOTE: *FIGURES RELATE TO 1991."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 9,
+  "cells_checked": 0,
+  "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

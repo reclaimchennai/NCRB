@@ -6,133 +6,110 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "DISTRIBUTION OF JAIL INMATES IN THE COUNTRY BY CATEGORY AND PERCENTAGE SHARE AT THE END OF 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-2",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
  "table_no": "2",
- "pdf_title": "DISTRIBUTION OF JAIL INMATES IN THE COUNTRY BY CATEGORY AND PERCENTAGE SHARE AT THE END OF 1998",
- "row_label": "NO. SR. (1)",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-2",
+ "row_label": "SR. NO. / TYPE",
  "pages": [
-  70,
-  71,
-  72,
-  73
+  70
  ],
- "n_rows": 32,
- "n_cols": 12,
- "n_cells": 343,
+ "n_rows": 9,
+ "n_cols": 11,
+ "n_cells": 99,
  "columns": [
   {
-   "col_no": "2",
-   "name": "TYPE (2)",
-   "header": [
-    "TYPE (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "MENTALLY ILL (3)",
+   "name": "MENTALLY ILL",
    "header": [
-    "MENTALLY ILL (3)"
+    "MENTALLY ILL"
    ]
   },
   {
    "col_no": "4",
-   "name": "sHape - (4)",
+   "name": "% SHARE (4)",
    "header": [
-    "sHape - (4)"
+    "% SHARE"
    ]
   },
   {
    "col_no": "5",
-   "name": "CONVICT %SHARE (5)",
+   "name": "CONVICT",
    "header": [
-    "CONVICT %SHARE (5)"
+    "CONVICT"
    ]
   },
   {
    "col_no": "6",
-   "name": "(6)",
+   "name": "%SHARE",
    "header": [
-    "(6)"
+    "%SHARE"
    ]
   },
   {
    "col_no": "7",
-   "name": ", % SHARE DETENUS % SHARE OTHERS 6 % SHARE | [2,75 (7)",
+   "name": "UNDER-TRIALS",
    "header": [
-    ", % SHARE DETENUS % SHARE OTHERS 6 % SHARE",
-    "[2,75 (7)"
+    "UNDER-TRIALS"
    ]
   },
   {
    "col_no": "8",
-   "name": ", % SHARE DETENUS % SHARE OTHERS 6 % SHARE | (8)",
+   "name": "% SHARE (8)",
    "header": [
-    ", % SHARE DETENUS % SHARE OTHERS 6 % SHARE",
-    "(8)"
+    "% SHARE"
    ]
   },
   {
    "col_no": "9",
-   "name": ", % SHARE DETENUS % SHARE OTHERS 6 % SHARE | (9)",
+   "name": "DETENUS",
    "header": [
-    ", % SHARE DETENUS % SHARE OTHERS 6 % SHARE",
-    "(9)"
+    "DETENUS"
    ]
   },
   {
    "col_no": "10",
-   "name": ", % SHARE DETENUS % SHARE OTHERS 6 % SHARE | (10)",
+   "name": "% SHARE (10)",
    "header": [
-    ", % SHARE DETENUS % SHARE OTHERS 6 % SHARE",
-    "(10)"
+    "% SHARE"
    ]
   },
   {
    "col_no": "11",
-   "name": ", % SHARE DETENUS % SHARE OTHERS 6 % SHARE | (1)",
+   "name": "OTHERS",
    "header": [
-    ", % SHARE DETENUS % SHARE OTHERS 6 % SHARE",
-    "(1)"
+    "OTHERS"
    ]
   },
   {
    "col_no": "12",
-   "name": "TOTAL (13) (12)",
+   "name": "% SHARE (12)",
    "header": [
-    "TOTAL (13) (12)"
+    "% SHARE"
    ]
   },
   {
    "col_no": "13",
-   "name": "PRISON STATISTICS - 1998 | PERCENTAGE | TOTAL",
+   "name": "TOTAL",
    "header": [
-    "PRISON STATISTICS - 1998",
-    "PERCENTAGE",
     "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NOTE: DISTRIBUTION OF 1053 FEMALE INMATES OF BIHAR STATE IS NOT AVAILABLE.",
-  "FoREIaneRs);",
-  "NOTE DISTRIBUTION OF 48,243 INMATES NOT AVAILABLE IN RESPECT OF UTTAR PRADESH STATE.",
-  "NOTE: DISTRIBUTION OF 1071 FEMALE INMATES IN RESPECT OF UTTAR PRADESH STATE AND 1053 FEMALE INMATES IN",
-  "RESPECT OF BIHAR STATE ARE NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
- "ocr_pages": 4,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

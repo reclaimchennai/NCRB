@@ -8,53 +8,66 @@
  "serial": "2",
  "title": "Juvenile Apprehended under Important IPC Heads During the Year - 1982",
  "listing_title": "Juvenile Apprehended under Important IPC Heads During the Year - 1982",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-38-1982.pdf",
  "source_file": "raw/cii/1982/table_content/table-38-1982.pdf",
  "source_sha256": "6e24b79c290f7e7f4644e51c7fe3fca5645da8ccd1940070fe9d259837b904e8",
- "table_no": "38",
- "pdf_title": "JUVENILE APPREHENDED UNDER IMPORTANT IPC-HEADS DURING THE YEAR - 1982",
- "row_label": "SL STATES / States/ i U.Ts./Cities / Murder Culpable ipa pe not amounting to murder",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. No. / States/ U.Ts./Cities",
  "pages": [
   1,
   2
  ],
- "n_rows": 64,
- "n_cols": 9,
- "n_cells": 311,
+ "n_rows": 47,
+ "n_cols": 13,
+ "n_cells": 611,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Ra pe ie",
+   "col_no": "3",
+   "name": "Murder",
    "header": [
-    "Ra pe ie"
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Culpable Homicide not amounting to murder",
+   "header": [
+    "Culpable Homicide not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "- idn: yim Dacoity i | duction",
+   "name": "Rape",
    "header": [
-    "- idn: yim Dacoity i",
-    "duction"
+    "Rape"
    ]
   },
   {
    "col_no": "6",
-   "name": "- idn: yim Dacoity i",
+   "name": "Kidnapping & Abduction",
    "header": [
-    "- idn: yim Dacoity i"
+    "Kidnapping & Abduction"
    ]
   },
   {
    "col_no": "7",
+   "name": "Dacoity",
+   "header": [
+    "Dacoity"
+   ]
+  },
+  {
+   "col_no": "8",
    "name": "Robbery",
    "header": [
     "Robbery"
    ]
   },
   {
-   "col_no": "8",
+   "col_no": "9",
    "name": "Burglary",
    "header": [
     "Burglary"
@@ -62,52 +75,58 @@
   },
   {
    "col_no": "10001",
-   "name": "Riots 415 ‘ i 922 ‘ 916 klk 2,045 250 2 64 157",
+   "name": "Thefts",
    "header": [
-    "Riots 415 ‘ i 922 ‘ 916 klk 2,045 250 2 64 157"
+    "Thefts"
    ]
   },
   {
    "col_no": "10002",
-   "name": "Criminal - Cheating’ | Breach of Trust 116 ‘ 1,712 ‘ 1,068 65 1,566 94 110 595",
+   "name": "Riots",
    "header": [
-    "Criminal - Cheating’",
-    "Breach of Trust 116 ‘ 1,712 ‘ 1,068 65 1,566 94 110 595"
+    "Riots"
    ]
   },
   {
    "col_no": "10003",
-   "name": "Criminal - Cheating’ | 1 19 32 1 4",
+   "name": "Criminal Breach of Trust",
    "header": [
-    "Criminal - Cheating’",
-    "1 19 32 1 4"
+    "Criminal Breach of Trust"
    ]
   },
   {
    "col_no": "10004",
-   "name": "Total Counterfeiting cog crime under I.P.C. 1,132 - 6,407 16 a 2,913 63 10,055 1,567 7 698 2 at 1,116 10",
+   "name": "Cheating",
    "header": [
-    "Total Counterfeiting cog crime under I.P.C. 1,132 - 6,407 16 a 2,913 63 10,055 1,567 7 698 2 at 1,116 10"
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Counterfeiting",
+   "header": [
+    "Counterfeiting"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Total cog crime under I.P.C.",
+   "header": [
+    "Total cog crime under I.P.C."
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 1,
+  "cells_checked": 35,
+  "cells_passed": 34,
   "failures": [
-   "col 4 'TOTAL (STATES)': printed 499, sum 451",
-   "col 8 'TOTAL (STATES)': printed 7062, sum 6992",
-   "col 10001 'TOTAL (STATES)': printed 17007, sum 5506",
-   "col 10001 'TOTAL (CITIES)': printed 1251, sum 152",
-   "col 10002 'TOTAL (STATES)': printed 219, sum 69",
-   "col 10002 'TOTAL (CITIES)': printed 46, sum 6",
-   "col 10003 'TOTAL (CITIES)': printed 51, sum 60"
+   "col 5 'TOTAL (STATES)': printed 499, sum 502"
   ],
-  "other_totals_checked": 7,
-  "other_totals_passed": 5
+  "other_totals_checked": 12,
+  "other_totals_passed": 12
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

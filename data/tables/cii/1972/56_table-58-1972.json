@@ -8,48 +8,63 @@
  "serial": "56",
  "title": "Strength of Civil Police including District Armed Police as on 31.12.1972",
  "listing_title": "Strength of Civil Police including District Armed Police as on 31.12.1972",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1972.pdf",
  "source_file": "raw/cii/1972/table_content/table-58-1972.pdf",
  "source_sha256": "383713fb61987d652c7f576e27653d5270d7dea18c46bb01072ceafdd8f6f10b",
- "table_no": "",
- "pdf_title": "$8",
- "row_label": "of Civil Police Including ODitiviet Si. Wo. 1 4 6 / of Civil Police Including ODitiviet States/U.Ts [Cities - / of Civil Police Including ODitiviet 1 3 me B i tf - / of Civil Police Including ODitiviet LG., BIG 4 il - 5",
+ "table_no": "58",
+ "pdf_title": "129 TABLE 58 Strength of Civil Police Including District armed Reserve as on 31-12-1972",
+ "row_label": "Sl. No. / States/U. Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 33,
- "n_cols": 3,
- "n_cells": 78,
+ "n_rows": 40,
+ "n_cols": 5,
+ "n_cells": 192,
  "columns": [
   {
-   "col_no": "5",
-   "name": "of Civil Police Including ODitiviet | ASHP peer. 4 17 - *",
+   "col_no": "3",
+   "name": "Number of | LG, DIG & S.P.",
    "header": [
-    "of Civil Police Including ODitiviet",
-    "ASHP peer. 4 17 - *"
+    "Number of",
+    "LG, DIG & S.P."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of | ASsP/ Dy. S.P.",
+   "header": [
+    "Number of",
+    "ASsP/ Dy. S.P."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of | Inspectors & SIs.",
+   "header": [
+    "Number of",
+    "Inspectors & SIs."
    ]
   },
   {
    "col_no": "6",
-   "name": "as on 21-12-1972 Number of 4 2,159 ie ao 41 “18 1",
+   "name": "Number of | Officers below the rank of SIs",
    "header": [
-    "as on 21-12-1972 Number of 4 2,159 ie ao 41 “18 1"
+    "Number of",
+    "Officers below the rank of SIs"
    ]
   },
   {
    "col_no": "7",
-   "name": "- Total of bel tke Cals. S46 Sis 7 6 26331 18,678 S46 2,863 999 1 Asa 53,856 358 9206 $308 5,701 a5",
+   "name": "Number of | Total of Cols. 3+4+5+6",
    "header": [
-    "- Total of bel tke Cals. S46 Sis 7 6 26331 18,678 S46 2,863 999 1 Asa 53,856 358 9206 $308 5,701 a5"
+    "Number of",
+    "Total of Cols. 3+4+5+6"
    ]
   }
  ],
- "notes": [
-  "fo i) $750 $4,448 61,Me",
-  "Gpures oF set"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -57,7 +72,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,91 +8,99 @@
  "serial": "44",
  "title": "Disposal of SLL Crime Cases by Courts During 1997 (State & UT–Wise)",
  "listing_title": "Disposal of SLL Crime Cases by Courts During 1997 (State & UT–Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-24-1996-crime-survey.pdf",
  "source_sha256": "2cbf71a306336eb1b1f5918740aa72d87b74aa8b781de40f70d61d8e94e2a890",
  "table_no": "24",
- "pdf_title": "DISPOSAL OF SLL CRIME CASES BY COURTS DURING 1997",
- "row_label": "CASES Fon - TRIAL INCLUDING PENDING cas a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-24",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
- "n_cols": 8,
- "n_cells": 264,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
-   "col_no": "4",
-   "name": "(STATE & UT-WISE) | DED on",
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "(STATE & UT-WISE)",
-    "DED on"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF CASES | COMP-OUN-DED OR WITH-DRAWN",
+   "header": [
+    "NO. OF CASES",
+    "COMP-OUN-DED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES",
     "IN WHICH TRIALS WERE COMPLETED",
     "CONVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | - ACQUITTED OR Dis- CHARGED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUIT-TED OR DIS-CHARGED",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES",
     "IN WHICH TRIALS WERE COMPLETED",
-    "- ACQUITTED OR Dis- CHARGED"
+    "ACQUIT-TED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | ((5)+ (6))",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL [(5) + (6)]",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES",
     "IN WHICH TRIALS WERE COMPLETED",
-    "((5)+ (6))"
+    "TOTAL [(5) + (6)]"
    ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "NO. OF CASES | PENDING TRIAL",
+   "header": [
+    "NO. OF CASES",
+    "PENDING TRIAL"
+   ]
   },
   {
    "col_no": "9",
-   "name": "TAGE",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "TAGE"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "10",
-   "name": "PENDENCY T “INDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "PENDENCY T “INDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "RATE 100",
+   "name": "CONVIC-TION RATE ((5)/(7)) X 100",
    "header": [
-    "RATE 100"
+    "CONVIC-TION RATE ((5)/(7)) X 100"
    ]
   }
  ],
- "notes": [
-  "Ni ie: teas than 0.05 is also shown is 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 5,
+  "cells_checked": 18,
+  "cells_passed": 18,
   "failures": [],
-  "other_totals_checked": 4,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

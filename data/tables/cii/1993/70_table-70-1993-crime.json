@@ -8,101 +8,157 @@
  "serial": "70",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1993 (State, UT & City-Wise) Robbery",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1993 (State, UT & City-Wise) Robbery",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-70-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-70-1993-crime.pdf",
  "source_sha256": "107037183a0d66bf98fcb18133ad5a19f45d9ebba94fe73e6153de4b329106d4",
  "table_no": "70",
- "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1993 (STATE, UT & CITY-WISE)",
- "row_label": "\"yy",
+ "pdf_title": "297 TABLE-70 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1993 (STATE, UT & CITY-WISE)",
+ "row_label": "SL NO / STATE/UT",
  "pages": [
   1,
   2,
+  3,
   4
  ],
- "n_rows": 78,
- "n_cols": 11,
- "n_cells": 480,
+ "n_rows": 116,
+ "n_cols": 15,
+ "n_cells": 870,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "RESIDENTIAL PROMISES | NUMBER",
+   "header": [
+    "RESIDENTIAL PROMISES",
+    "NUMBER"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "RESIDENTIAL PROMISES | VALUE",
+   "header": [
+    "RESIDENTIAL PROMISES",
+    "VALUE"
+   ]
   },
   {
    "col_no": "5",
-   "name": "ROBBERY",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "ROBBERY"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "HIGHWAYS | VALUE",
+   "header": [
+    "HIGHWAYS",
+    "VALUE"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "RIVER & SEA | NUMBER",
+   "header": [
+    "RIVER & SEA",
+    "NUMBER"
+   ]
   },
   {
    "col_no": "8",
-   "name": "(th)",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "(th)"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "RAILWAYS | NUMBER",
+   "header": [
+    "RAILWAYS",
+    "NUMBER"
+   ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
-  },
-  {
-   "col_no": "10001",
-   "name": "(12) (1)",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "(12) (1)"
+    "RAILWAYS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "(14) (7)",
+   "col_no": "13",
+   "name": "BANKS | VALUE",
    "header": [
-    "(14) (7)"
+    "BANKS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "(15) (18) (a CITIES:",
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
    "header": [
-    "(15) (18) (a CITIES:"
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
- "notes": [
-  "Note: 1. Value less than Rs. 0.05 lakh is also shown as 0.0.",
-  "2. NR stands for data not received."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 8,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 6872, sum 6822",
+   "col 5 'TOTAL (STATES)': printed 8407, sum 6407"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

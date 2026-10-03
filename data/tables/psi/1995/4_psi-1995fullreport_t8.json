@@ -6,39 +6,50 @@
  "topic": "",
  "section": "PSI Year Wise 1995",
  "serial": "4",
- "title": "Productivity of jail inmates during 1995",
+ "title": "N.C.R.B.,(M.H.A.) PRISON STATISTICS - 1995 ## Chapter - 3",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/files/PSI-1995FullReport.pdf",
  "source_file": "raw/psi/1995/year_wise/PSI-1995FullReport.pdf",
  "source_sha256": "61e73c37df92817e9e0d39a4e894369ba3667eb0c83f76b86f9fed5e32b54d72",
  "table_no": "",
- "pdf_title": "Productivity of jail inmates during 1995",
- "row_label": "SI. No. / State/UT",
+ "pdf_title": "N.C.R.B.,(M.H.A.) PRISON STATISTICS - 1995 ## Chapter - 3",
+ "row_label": "Sl.No. / State/UT",
  "pages": [
-  29
+  17,
+  18
  ],
  "n_rows": 23,
- "n_cols": 1,
- "n_cells": 23,
+ "n_cols": 3,
+ "n_cells": 69,
  "columns": [
   {
    "col_no": "3",
-   "name": "Productivity of Gross value (Rs. in lakhs)",
+   "name": "Convicts | Total",
    "header": [
-    "Productivity of Gross value (Rs. in lakhs)"
+    "Convicts",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Convicts | Female",
+   "header": [
+    "Convicts",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Convicts | % share of Female",
+   "header": [
+    "Convicts",
+    "% share of Female"
    ]
   }
  ],
- "notes": [
-  "The above data speaks by itself on the productivity in the jail premises earned by the inmates",
-  "in the various trades in which they were engaged. It is needless to mention that the gainful work put",
-  "up by the jail population shall not only provide corrective approach to the mental faculty of the",
-  "offender but also goes a long way for him to realise and develop responsive and respectful attitudes.",
-  "The prisoners not only are expected to develop self confidence and esteem out of the valuable labour",
-  "put in by them, but these activities also expose them to earn a honourable living in life."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -47,6 +58,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

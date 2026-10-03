@@ -8,32 +8,73 @@
  "serial": "21",
  "title": "Percentage of IPC Crime Cases Disposed of by Courts During 1995",
  "listing_title": "Percentage of IPC Crime Cases Disposed of by Courts During 1995",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-21-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-21-1995-crime-survey.pdf",
  "source_sha256": "377d88f380ef03f5e9388ae222569ba29403e752267b5699536325565226d2fd",
  "table_no": "21",
- "pdf_title": "PERCENTAGE OF IPC CRIME CASES DISPOSED BY COURTS DURING 1995",
- "row_label": "SL. CRIME HEAD NO. / PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL NDEO OR WITH: / PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL IN WHICH TRIALS WERE COMPLETED DRAWN CONVICTED / PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL IN WHICH TRIALS WERE COMPLETED ACQUITTEDOR DIs- CHARGED / PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL - TOTAL {(4) +(5)) / PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL PENDING TRIAL",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-21",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 24,
- "n_cols": 1,
- "n_cells": 24,
+ "n_cols": 6,
+ "n_cells": 144,
  "columns": [
   {
-   "col_no": "8",
-   "name": "CONVICTION RATE",
+   "col_no": "3",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOU-NDED OR WITH-DRAWN",
    "header": [
-    "CONVICTION RATE"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "COMPOU-NDED OR WITH-DRAWN"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "CONVICTED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | ACQUIT-TED OR DIS-CHARGED",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "ACQUIT-TED OR DIS-CHARGED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | TOTAL ((4)+(5))",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "TOTAL ((4)+(5))"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | PENDING TRIAL",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "PENDING TRIAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "CONVI-CTION RATE",
+   "header": [
+    "CONVI-CTION RATE"
    ]
   }
  ],
- "notes": [
-  "1656 NCRB97 ISB"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

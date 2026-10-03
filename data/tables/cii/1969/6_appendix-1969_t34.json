@@ -6,51 +6,70 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "HOUSE BREAKING—",
+ "title": "121 —XXI PERSONS",
  "listing_title": "Annexures",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1969.pdf",
  "source_file": "raw/cii/1969/table_chapter/appendix-1969.pdf",
  "source_sha256": "a75b83a19ff606bf46a76a58309508479227b481a4bef1e967c9a9a899a65179",
  "table_no": "",
- "pdf_title": "HOUSE BREAKING—",
- "row_label": "Sl. No. / States/U.Ts./Cities. / Feisous in custody investigation or on bail during the stage of ‘investigation.",
+ "pdf_title": "121 —XXI PERSONS",
+ "row_label": "No. of Persons in whose cases trials were completed",
  "pages": [
-  36
+  43
  ],
- "n_rows": 39,
- "n_cols": 4,
- "n_cells": 154,
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Fersous | in custody trials bail during the stage of trial.",
+   "col_no": "2",
+   "name": "Persons convicted.",
    "header": [
-    "Fersous",
-    "in custody trials bail during the stage of trial."
+    "Persons convicted."
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Persons acquitted or discharged",
+   "header": [
+    "Persons acquitted or discharged"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Persons against whom cases were com-pounded or withdrawn.",
+   "header": [
+    "Persons against whom cases were com-pounded or withdrawn."
    ]
   },
   {
    "col_no": "5",
-   "name": "Fersous | during the year.",
+   "name": "No. of persons in custody pending investigation or on bail during the stage of investigation at the end of the year",
    "header": [
-    "Fersous",
-    "during the year."
+    "No. of persons in custody pending investigation or on bail during the stage of investigation at the end of the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Fersous by the policeor Macictrate before trials.",
+   "name": "No. of persons in custody pending trials or on bail during the stage of trials at the end of the year",
    "header": [
-    "Fersous by the policeor Macictrate before trials."
+    "No. of persons in custody pending trials or on bail during the stage of trials at the end of the year"
    ]
   },
   {
    "col_no": "7",
-   "name": "Persons who in cases chargesheets - were laid.",
+   "name": "Percentage of conviction to total persons in whose cases charge-sheets were laid",
    "header": [
-    "Persons who in cases chargesheets - were laid."
+    "Percentage of conviction to total persons in whose cases charge-sheets were laid"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of conviction to total persons in whose cases trials were completed",
+   "header": [
+    "Percentage of conviction to total persons in whose cases trials were completed"
    ]
   }
  ],
@@ -59,8 +78,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

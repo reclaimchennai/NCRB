@@ -8,92 +8,152 @@
  "serial": "53",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990 (State, UT & City-Wise) Robbery",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1990 (State, UT & City-Wise) Robbery",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/54table-54-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/54table-54-1990-.pdf",
  "source_sha256": "3b49175e2ac8301d33532377ba87baca49f4614c333302bb246584830f73c61a",
  "table_no": "55",
- "pdf_title": "",
- "row_label": "NUMBER STATE/UT/CITY SL. NO. qa)",
+ "pdf_title": "178 TABLE-55 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1990 (STATE, UT & CITY-WISE) BURGLARY",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 47,
- "n_cols": 8,
- "n_cells": 359,
+ "n_rows": 94,
+ "n_cols": 15,
+ "n_cells": 705,
  "columns": [
   {
    "col_no": "3",
-   "name": "OF RES NUMBER",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "OF RES NUMBER"
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "CASES (STATE, PREMISES VALUE",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "CASES (STATE, PREMISES VALUE"
+    "RESIDENTIAL PREMISES",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "neruninu UT RURCLARY ‘NUMBER",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "neruninu UT RURCLARY ‘NUMBER"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "AND CITY-WISE) & HIGHWAYS VALUE",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "AND CITY-WISE) & HIGHWAYS VALUE"
+    "HIGHWAYS",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "PLACE VALUE RIVER & NUMBER",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "PLACE VALUE RIVER & NUMBER"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "OF OF SEA VALUE",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "OF OF SEA VALUE"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "STOLEN DURING RAILWAYS NUMBER",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "STOLEN DURING RAILWAYS NUMBER"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "BY 1990 VALUE",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "BY 1990 VALUE"
+    "RAILWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BANKS | VALUE",
+   "header": [
+    "BANKS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
- "notes": [
-  "Note: Value less than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 6,
-  "failures": [
-   "col 5 'TOTAL (STATES)': printed 411, sum 420",
-   "col 9 'TOTAL (STATES)': printed 126, sum 123"
-  ],
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

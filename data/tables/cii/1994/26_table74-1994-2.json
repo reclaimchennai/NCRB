@@ -8,49 +8,46 @@
  "serial": "26",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1994 (State, UT & City-Wise)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1994 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table74-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table74-1994_2.pdf",
  "source_sha256": "d9f21b5ca3107f42b6227de1fd9a4334943102c7c86106b91c8a22c1af1beca7",
  "table_no": "74",
- "pdf_title": "VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE",
- "row_label": "RECOVERY DURING 1994 (STATE,UT & CITY-WISE) SL. NO. / RECOVERY DURING 1994 (STATE,UT & CITY-WISE) STATE/UT/CITY",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA-1994 TABLE-74",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 43,
+ "n_rows": 58,
  "n_cols": 3,
- "n_cells": 88,
+ "n_cells": 174,
  "columns": [
   {
    "col_no": "3",
-   "name": "RECOVERY DURING 1994 (STATE,UT & CITY-WISE) | TOTAL VALUE OF PROPERTY STOLEN",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
-    "RECOVERY DURING 1994 (STATE,UT & CITY-WISE)",
-    "TOTAL VALUE OF PROPERTY STOLEN"
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "RECOVERY DURING 1994 (STATE,UT & CITY-WISE) | RECOVERED",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
    "header": [
-    "RECOVERY DURING 1994 (STATE,UT & CITY-WISE)",
+    "TOTAL VALUE OF PROPERTY",
     "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "RECOVERY DURING 1994 (STATE,UT & CITY-WISE) | (Rs. in lakh) PERCENTAGE RECOVERY",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "RECOVERY DURING 1994 (STATE,UT & CITY-WISE)",
-    "(Rs. in lakh) PERCENTAGE RECOVERY"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],
- "notes": [
-  "2A. NCBR/9¢€"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

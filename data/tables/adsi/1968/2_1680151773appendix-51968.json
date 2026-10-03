@@ -8,100 +8,82 @@
  "serial": "2",
  "title": "Statement of Number of Suicides in States/UTs./Cities - 1968 (By Causes)",
  "listing_title": "Statement of Number of Suicides in States/UTs./Cities - 1968 (By Causes)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680151773appendix-51968.pdf",
  "source_file": "raw/adsi/1968/table_content/1680151773appendix-51968.pdf",
  "source_sha256": "b57a1f759b6129b22df116452603a4cd432584aeb9493c37cf05254f72a3deb9",
  "table_no": "",
- "pdf_title": "",
- "row_label": "=? Sl. No. / =? States/U.Ts./Cities",
+ "pdf_title": "Statement of Number of suicides in States/U. Ts./Cities during 1968. (By causes of suicides) APPENDIX V 30",
+ "row_label": "Sl. No. / States/U.Ts./Cities / States/U.Ts./Cities",
  "pages": [
-  1,
-  2
+  1
  ],
- "n_rows": 39,
- "n_cols": 10,
- "n_cells": 389,
+ "n_rows": 18,
+ "n_cols": 9,
+ "n_cells": 162,
  "columns": [
   {
-   "col_no": "3",
-   "name": "=? | Failure in examination",
+   "col_no": "4",
+   "name": "Failure in examination",
    "header": [
-    "=?",
     "Failure in examination"
    ]
   },
   {
-   "col_no": "4",
-   "name": "=? | of suteiaes in States!U, (By causes of suicides) | Quarrel with laws",
-   "header": [
-    "=?",
-    "of suteiaes in States!U, (By causes of suicides)",
-    "Quarrel with laws"
-   ]
-  },
-  {
    "col_no": "5",
-   "name": "=? | of suteiaes in States!U, (By causes of suicides) | Quarrel with married partner",
+   "name": "Quarrel with parents/in-laws",
    "header": [
-    "=?",
-    "of suteiaes in States!U, (By causes of suicides)",
-    "Quarrel with married partner"
+    "Quarrel with parents/in-laws"
    ]
   },
   {
    "col_no": "6",
-   "name": "=? | of suteiaes in States!U, (By causes of suicides) | Poverty",
+   "name": "Quarrel with married partner",
    "header": [
-    "=?",
-    "of suteiaes in States!U, (By causes of suicides)",
-    "Poverty"
+    "Quarrel with married partner"
    ]
   },
   {
    "col_no": "7",
-   "name": "=? | Love Affairs",
+   "name": "Poverty",
    "header": [
-    "=?",
-    "Love Affairs"
+    "Poverty"
    ]
   },
   {
    "col_no": "8",
-   "name": "1968, Insanity",
+   "name": "Love Affairs",
    "header": [
-    "1968, Insanity"
+    "Love Affairs"
    ]
   },
   {
    "col_no": "9",
+   "name": "Insanity",
+   "header": [
+    "Insanity"
+   ]
+  },
+  {
+   "col_no": "10",
    "name": "Dispute over property",
    "header": [
     "Dispute over property"
    ]
   },
   {
-   "col_no": "10",
+   "col_no": "11",
    "name": "Dreadful Disease",
    "header": [
     "Dreadful Disease"
    ]
   },
   {
-   "col_no": "11",
-   "name": "V | APPENDIX Other causes",
-   "header": [
-    "V",
-    "APPENDIX Other causes"
-   ]
-  },
-  {
    "col_no": "12",
-   "name": "V | Total",
+   "name": "Other causes",
    "header": [
-    "V",
-    "Total"
+    "Other causes"
    ]
   }
  ],
@@ -110,10 +92,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 8,
-  "other_totals_passed": 0
+  "other_totals_checked": 9,
+  "other_totals_passed": 9
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

@@ -1,0 +1,118 @@
+{
+ "table_id": "psi/2000/5_psi-full-report-2000_t16",
+ "publication": "psi",
+ "year": 2000,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 2000",
+ "serial": "5",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 *Jails do not exist",
+ "listing_title": "Download Full Report",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2000.pdf",
+ "source_file": "raw/psi/2000/year_wise/psi-full-report-2000.pdf",
+ "source_sha256": "171376686bd1e431ac947c0d86c5141722a1e13fb54bb5c1347bbf9500133c70",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 *Jails do not exist",
+ "row_label": "SL NO. / STATE/UT",
+ "pages": [
+  27
+ ],
+ "n_rows": 15,
+ "n_cols": 9,
+ "n_cells": 135,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NUMBER OF CONVICTS IN JAILS | Central Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Central Jail"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF CONVICTS IN JAILS | District Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "District Jail"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF CONVICTS IN JAILS | Sub Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Sub Jail"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF CONVICTS IN JAILS | Women Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Women Jail"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF CONVICTS IN JAILS | Borstal school",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Borstal school"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NUMBER OF CONVICTS IN JAILS | Open Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Open Jail"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NUMBER OF CONVICTS IN JAILS | Special Jail",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Special Jail"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "NUMBER OF CONVICTS IN JAILS | Others",
+   "header": [
+    "NUMBER OF CONVICTS IN JAILS",
+    "Others"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 27,
+  "cells_passed": 17,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 44231, sum 9503",
+   "col 4 'TOTAL (STATES)': printed 12978, sum 2204",
+   "col 5 'TOTAL (STATES)': printed 1618, sum 219",
+   "col 6 'TOTAL (STATES)': printed 579, sum 229",
+   "col 7 'TOTAL (STATES)': printed 523, sum 32",
+   "col 8 'TOTAL (STATES)': printed 1153, sum 42",
+   "col 9 'TOTAL (STATES)': printed 540, sum 198",
+   "col 10 'TOTAL (STATES)': printed 110, sum 0"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

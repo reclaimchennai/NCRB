@@ -1,0 +1,122 @@
+{
+ "table_id": "cii/1983/4_table-6-1983",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "4",
+ "title": "Incidence of Crime under IPC During 1982 and 1983 Showing Percentage Variation in 1983 over 1982",
+ "listing_title": "Incidence of Crime under IPC During 1982 and 1983 Showing Percentage Variation in 1983 over 1982",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-6-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-6-1983.pdf",
+ "source_sha256": "ad5d621620279bb862b1afdee1d38b4c430e725a9eafb85817bf7699c52ceaea",
+ "table_no": "6",
+ "pdf_title": "28 TABLE 6 Incidence of Crime under IPC during 1982 and 1983 showing percentage variation in 1983 over 1982",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
+ "pages": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "n_rows": 283,
+ "n_cols": 9,
+ "n_cells": 1820,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Murder | 1982",
+   "header": [
+    "Murder",
+    "1982"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Murder | 1983",
+   "header": [
+    "Murder",
+    "1983"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Murder | %age variation",
+   "header": [
+    "Murder",
+    "%age variation"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Kidnapping & Abduction | 1982",
+   "header": [
+    "Kidnapping & Abduction",
+    "1982"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Kidnapping & Abduction | 1983",
+   "header": [
+    "Kidnapping & Abduction",
+    "1983"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Kidnapping & Abduction | %age variation",
+   "header": [
+    "Kidnapping & Abduction",
+    "%age variation"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Total Cognizable crime (10001)",
+   "header": [
+    "Total Cognizable crime"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Total Cognizable crime (10002)",
+   "header": [
+    "Total Cognizable crime"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Total Cognizable crime (10003)",
+   "header": [
+    "Total Cognizable crime"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 55,
+  "cells_passed": 39,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 22988, sum 22989",
+   "col 3 'TOTAL (STATES)': printed 140031, sum 139531",
+   "col 3 'TOTAL (STATES)': printed 105890, sum 105860",
+   "col 3 'TOTAL (STATES)': printed 16707, sum 16807",
+   "col 4 'TOTAL (STATES)': printed 24739, sum 24839",
+   "col 4 'TOTAL (STATES)': printed 136429, sum 135829",
+   "col 4 'TOTAL (U.Ts.)': printed 2874, sum 2764",
+   "col 4 'TOTAL (Cities)': printed 11335, sum 11326"
+  ],
+  "other_totals_checked": 23,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 7,
+ "warnings": []
+}

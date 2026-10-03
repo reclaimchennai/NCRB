@@ -1,0 +1,168 @@
+{
+ "table_id": "psi/1998/10_psi-table-10-1998",
+ "publication": "psi",
+ "year": 1998,
+ "listing": "table_content",
+ "topic": "Miscellaneous",
+ "section": "Miscellaneous",
+ "serial": "10",
+ "title": "Table 10: Population of different types of inmates in Jails at the end of 1998",
+ "listing_title": "Table 10: Population of different types of inmates in Jails at the end of 1998",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-10_1998.pdf",
+ "source_file": "raw/psi/1998/table_content/psi-table-10_1998.pdf",
+ "source_sha256": "47493f025546c440455b566738c60fc0cb0475c05809122f584ad79e2e93898b",
+ "table_no": "10",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-10",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 35,
+ "n_cols": 16,
+ "n_cells": 560,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MENTALLY ILL | M",
+   "header": [
+    "MENTALLY ILL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "MENTALLY ILL | F",
+   "header": [
+    "MENTALLY ILL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "MENTALLY ILL | T",
+   "header": [
+    "MENTALLY ILL",
+    "T"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "CONVICTS | M",
+   "header": [
+    "CONVICTS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "CONVICTS | F",
+   "header": [
+    "CONVICTS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "CONVICTS | T",
+   "header": [
+    "CONVICTS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "UNDERTRIAL | M",
+   "header": [
+    "UNDERTRIAL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "UNDERTRIAL | F",
+   "header": [
+    "UNDERTRIAL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "UNDERTRIAL | T",
+   "header": [
+    "UNDERTRIAL",
+    "T"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "DETENUS | M",
+   "header": [
+    "DETENUS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "DETENUS | F",
+   "header": [
+    "DETENUS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "DETENUS | T",
+   "header": [
+    "DETENUS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "OTHERS | M",
+   "header": [
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHERS | F",
+   "header": [
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHERS | T",
+   "header": [
+    "OTHERS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL (Col.5+8+11+14+17)",
+   "header": [
+    "TOTAL (Col.5+8+11+14+17)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 48,
+  "cells_passed": 47,
+  "failures": [
+   "col 11 'TOTAL (STATES)': printed 193702, sum 173472"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

@@ -6,15 +6,15 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1990",
  "serial": "4",
- "title": "Incidence And Volume Of Suicides",
+ "title": "27 TABLE - 7 Incidence And Volume Of Suicides",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1990.pdf",
  "source_file": "raw/adsi/1990/year_wise/suicides-1990.pdf",
  "source_sha256": "06925d8d2818e7f92965ed004275342a1482e0ab1fd58e157dc1aa88817357f6",
  "table_no": "7",
- "pdf_title": "Incidence And Volume Of Suicides",
+ "pdf_title": "27 TABLE - 7 Incidence And Volume Of Suicides",
  "row_label": "Sl. No. / State/UT/City",
  "pages": [
   10
@@ -25,36 +25,34 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "During (State, Number of Suicides",
+   "name": "Number of Suicides",
    "header": [
-    "During (State, Number of Suicides"
+    "Number of Suicides"
    ]
   },
   {
    "col_no": "4",
-   "name": "1990 UT Percentage Share in Total Suicides",
+   "name": "Percentage Share in Total Suicides",
    "header": [
-    "1990 UT Percentage Share in Total Suicides"
+    "Percentage Share in Total Suicides"
    ]
   },
   {
    "col_no": "5",
-   "name": "& Estimated Mid-Year Population (In",
+   "name": "Estimated Mid-Year Population (In Lakh)",
    "header": [
-    "& Estimated Mid-Year Population (In"
+    "Estimated Mid-Year Population (In Lakh)"
    ]
   },
   {
    "col_no": "6",
-   "name": "City-wise) of Volume Suicides (Col.3/ Lakh) Cot.5)",
+   "name": "Volume of Suicides (Col.3/ Col.5)",
    "header": [
-    "City-wise) of Volume Suicides (Col.3/ Lakh) Cot.5)"
+    "Volume of Suicides (Col.3/ Col.5)"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 3,
   "cells_passed": 3,

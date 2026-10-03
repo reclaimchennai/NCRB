@@ -8,74 +8,82 @@
  "serial": "42",
  "title": "Table 42: Number of Prison inmates trained under different Vocational Training State/UT-wise during 1998",
  "listing_title": "Table 42: Number of Prison inmates trained under different Vocational Training State/UT-wise during 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-42_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-42_1998.pdf",
  "source_sha256": "8cc0d2f919d06c6865dbc208717e2e5181380d349bd381521bed769fb519c4f3",
  "table_no": "42",
- "pdf_title": "NUMBER OF PRISON INMATES TRAINED UNDER DIFFERENT VOCATIONAL TRAINING",
- "row_label": "CULTURE",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-42",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 15,
- "n_cols": 9,
- "n_cells": 60,
+ "n_rows": 35,
+ "n_cols": 10,
+ "n_cells": 350,
  "columns": [
   {
-   "col_no": "4",
-   "name": "STATE/UT-WISE DURING 1998 | ENTRY",
+   "col_no": "3",
+   "name": "AGRI-CULTURE",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "ENTRY"
+    "AGRI-CULTURE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CARP-ENTRY",
+   "header": [
+    "CARP-ENTRY"
    ]
   },
   {
    "col_no": "5",
-   "name": "STATE/UT-WISE DURING 1998 (5)",
+   "name": "CAN-NING",
    "header": [
-    "STATE/UT-WISE DURING 1998"
+    "CAN-NING"
    ]
   },
   {
    "col_no": "6",
-   "name": "STATE/UT-WISE DURING 1998 | RING)",
+   "name": "TAILO-RING",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "RING)"
+    "TAILO-RING"
    ]
   },
   {
    "col_no": "7",
-   "name": "STATE/UT-WISE DURING 1998 | SMITHY",
+   "name": "BLACK-SMITHY",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "SMITHY"
+    "BLACK-SMITHY"
    ]
   },
   {
    "col_no": "8",
-   "name": "STATE/UT-WISE DURING 1998 (8)",
+   "name": "WEAV-ING",
    "header": [
-    "STATE/UT-WISE DURING 1998"
+    "WEAV-ING"
    ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "SOAP & PHENYLE",
+   "header": [
+    "SOAP & PHENYLE"
+   ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "HAND-LOOM",
+   "header": [
+    "HAND-LOOM"
+   ]
   },
   {
    "col_no": "11",
-   "name": "«OTHERS",
+   "name": "OTHERS",
    "header": [
-    "«OTHERS"
+    "OTHERS"
    ]
   },
   {
@@ -86,13 +94,10 @@
    ]
   }
  ],
- "notes": [
-  "arr es ar eee",
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 30,
+  "cells_passed": 30,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

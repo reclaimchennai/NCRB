@@ -8,124 +8,134 @@
  "serial": "28",
  "title": "Persons Arrested under IPC and LSL Crimes by Age Groups and Sex During 1989",
  "listing_title": "Persons Arrested under IPC and LSL Crimes by Age Groups and Sex During 1989",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-28-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-28-1989-1.pdf",
  "source_sha256": "d9e39fade9875270d0aeb95c08e6667bf804585bb7cd69cf6e7ce186d48b2c7b",
  "table_no": "28",
- "pdf_title": "",
- "row_label": "PERSONS CRIME SL. NO. MALE qd)",
+ "pdf_title": "120 TABLE-28 PERSONS ARRESTED UNDER IPC AND LSL CRIMES BY AGE-GROUPS AND SEX DURING 1989",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1,
   2
  ],
  "n_rows": 72,
- "n_cols": 13,
- "n_cells": 464,
+ "n_cols": 16,
+ "n_cells": 576,
  "columns": [
   {
-   "col_no": "5",
-   "name": "UNDER HEAD FEMALE ¢«2)",
+   "col_no": "3",
+   "name": "BELOW 16 YEARS | MALE",
    "header": [
-    "UNDER HEAD FEMALE ¢«2)"
+    "BELOW 16 YEARS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BELOW 16 YEARS | FEMALE",
+   "header": [
+    "BELOW 16 YEARS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "16-18 YEARS | MALE",
+   "header": [
+    "16-18 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "6",
-   "name": "IPC AND LSL CRIMES BELOW MALE «3)",
+   "name": "16-18 YEARS | FEMALE",
    "header": [
-    "IPC AND LSL CRIMES BELOW MALE «3)"
+    "16-18 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "BY 16 18-30 FEMALE",
+   "name": "18-30 YEARS | MALE",
    "header": [
-    "BY 16 18-30 FEMALE"
+    "18-30 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "4° YEARS YEARS MALE",
+   "name": "18-30 YEARS | FEMALE",
    "header": [
-    "4° YEARS YEARS MALE"
+    "18-30 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "9",
-   "name": "AND SEX DURING 16-18 30-50 FEMALE @)",
+   "name": "30-50 YEARS | MALE",
    "header": [
-    "AND SEX DURING 16-18 30-50 FEMALE @)"
+    "30-50 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "10",
-   "name": "1989 YEARS YEARS MALE FEMALE",
+   "name": "30-50 YEARS | FEMALE",
    "header": [
-    "1989 YEARS YEARS MALE FEMALE"
+    "30-50 YEARS",
+    "FEMALE"
    ]
+  },
+  {
+   "col_no": "12",
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "YEARS FEMALE u (Col.",
-   "header": [
-    "YEARS FEMALE u (Col."
-   ]
+   "name": "col_13",
+   "header": []
   },
   {
    "col_no": "14",
-   "name": "& JUVENILES 3}",
-   "header": [
-    "& JUVENILES 3}"
-   ]
+   "name": "col_14",
+   "header": []
   },
   {
    "col_no": "15",
-   "name": "ABOVE OTHERS M {Col. 4+6)}",
-   "header": [
-    "ABOVE OTHERS M {Col. 4+6)}"
-   ]
+   "name": "col_15",
+   "header": []
   },
   {
    "col_no": "16",
-   "name": "ALL",
-   "header": [
-    "ALL"
-   ]
+   "name": "col_16",
+   "header": []
   },
   {
    "col_no": "17",
-   "name": "AGE TOTAL M",
-   "header": [
-    "AGE TOTAL M"
-   ]
+   "name": "col_17",
+   "header": []
   },
   {
    "col_no": "18",
-   "name": "GROUPS F <18)",
-   "header": [
-    "GROUPS F <18)"
-   ]
+   "name": "col_18",
+   "header": []
   },
   {
    "col_no": "19",
-   "name": "GRAND TOTAL M+F 17+18 i }",
-   "header": [
-    "GRAND TOTAL M+F 17+18 i }"
-   ]
+   "name": "col_19",
+   "header": []
   }
  ],
- "notes": [
-  "NOTE: 16-18 YEARS 16 YEARS & ABOVE BUT BELOW 18 YEARS OF AGE ETC.",
-  "17—108 NCRB/91"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 16,
-  "other_totals_passed": 14
+  "other_totals_checked": 24,
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

@@ -8,26 +8,33 @@
  "serial": "17",
  "title": "Table 17: Percentage of Foreigners Convicted to total Foreigners Convicted by age groups at the end of 1998",
  "listing_title": "Table 17: Percentage of Foreigners Convicted to total Foreigners Convicted by age groups at the end of 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-17_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-17_1998.pdf",
  "source_sha256": "0f85e2ae54056cda8697886f6d6951699fe5da863d72663df57bb923fe85f565",
  "table_no": "17",
- "pdf_title": "PERCENTAGE OF FOREIGNERS CONVICTED TO TOTAL FOREIGNERS CONVICTED BY AGE GROUPS AT THE END OF 1998",
- "row_label": "SL, NO. / STATE/UT / BELOW16 YEARS",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-17",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 34,
- "n_cols": 5,
- "n_cells": 150,
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 210,
  "columns": [
   {
-   "col_no": "4",
-   "name": "16-18 YEARS",
+   "col_no": "3",
+   "name": "BELOW16 YEARS",
    "header": [
-    "16-18 YEARS"
+    "BELOW16 YEARS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "16 - 18 YEARS",
+   "header": [
+    "16 - 18 YEARS"
    ]
   },
   {
@@ -53,15 +60,13 @@
   },
   {
    "col_no": "8",
-   "name": "TOTAE",
+   "name": "TOTAL",
    "header": [
-    "TOTAE"
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "HA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -6,23 +6,22 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1986",
  "serial": "2",
- "title": "(concid.)",
+ "title": "5 TABLE-II ## Causes of Accidental Deaths:",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1986.pdf",
  "source_file": "raw/adsi/1986/year_wise/accidental-deaths-1986.pdf",
  "source_sha256": "e3b60443686bffcaf51423437ee43ec9cda86bedeca178ca5e7d7e33345ab30f",
  "table_no": "II",
- "pdf_title": "(concid.)",
- "row_label": "under the head cases deaths in accidental Sl. No. / under the head ing’ (22,410). The unimportant causes of the in India followed by the year - Causes of Accidental Deaths",
+ "pdf_title": "5 TABLE-II ## Causes of Accidental Deaths:",
+ "row_label": "",
  "pages": [
-  8,
-  9
+  8
  ],
- "n_rows": 29,
+ "n_rows": 22,
  "n_cols": 4,
- "n_cells": 109,
+ "n_cells": 88,
  "columns": [
   {
    "col_no": "3",
@@ -45,30 +44,15 @@
    "header": []
   }
  ],
- "notes": [
-  "Causes of ~--*+---:-: Deaths:",
-  "The total accidental deaths during 1986 have been classified under",
-  "two broad categories: (A) deaths due to natural causes like",
-  "lightning. heat strokes, flood, land slides, cold and exposure and cyclone and",
-  "(B) Accidental deaths due to other causes like mishans in factories, road",
-  "accidents, air crashes, house collapse and boat <ansizins etc. Category (A)",
-  "accomied for 2.3% of total accidents? deaths recorded in 1986 in comparison",
-  "to 2.8% recorded in 1985. Under this category, the maximum number of",
-  "deaths in 1986 took place due to ‘I (1,163) and the due to",
-  "‘Cyclone’ (104). Category (B) claimed 97.7% of the total accidental deaths",
-  "registered during 1986 against 97.2% iegisiered during 1985. Under this",
-  "category the highest number of deaths in 1986 were recoided"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 2,
-  "cells_passed": 1,
-  "failures": [
-   "col 3 'TOTAL (CITIES)': printed 19221, sum 19021"
-  ],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "cells_passed": 2,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

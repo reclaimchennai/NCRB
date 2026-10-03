@@ -8,71 +8,109 @@
  "serial": "36",
  "title": "Actual Police Strength During 1983",
  "listing_title": "Actual Police Strength During 1983",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1983.pdf",
  "source_file": "raw/cii/1983/table_content/table-60-1983.pdf",
  "source_sha256": "c7704953e8b636c2014d5cfdeec7a6dc6ca6882bdae77ac50dc1545d889c56aa",
- "table_no": "",
- "pdf_title": "TaBLe 60 Actual Police strength during 1983",
- "row_label": "Area in Sl No. STATES / Area in square kms.",
+ "table_no": "60",
+ "pdf_title": "145 TABLE 60 Actual Police strength during 1983",
+ "row_label": "Sl. No. / States/U.Ts.",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 34,
- "n_cols": 5,
- "n_cells": 169,
+ "n_rows": 35,
+ "n_cols": 10,
+ "n_cells": 340,
  "columns": [
   {
    "col_no": "3",
-   "name": "Area in | mid-year in 000",
+   "name": "Area in square kms.",
    "header": [
-    "Area in",
-    "mid-year in 000"
+    "Area in square kms."
    ]
   },
   {
    "col_no": "4",
-   "name": "Area in | Total cognizable under TPC",
+   "name": "Estimated mid-year population in 000",
    "header": [
-    "Area in",
-    "Total cognizable under TPC"
+    "Estimated mid-year population in 000"
    ]
   },
   {
    "col_no": "5",
-   "name": "Area in | Civil",
+   "name": "Total cognizable crime under IPC",
    "header": [
-    "Area in",
-    "Civil"
+    "Total cognizable crime under IPC"
    ]
   },
   {
    "col_no": "6",
-   "name": "Actua! Police Strength a Armed",
+   "name": "Actual Police Strength | Civil",
    "header": [
-    "Actua! Police Strength a Armed"
+    "Actual Police Strength",
+    "Civil"
    ]
   },
   {
    "col_no": "7",
-   "name": "- Total",
+   "name": "Actual Police Strength | Armed",
    "header": [
-    "- Total"
+    "Actual Police Strength",
+    "Armed"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Actual Police Strength | Total",
+   "header": [
+    "Actual Police Strength",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "No. of Police-men per 100 square kms. area",
+   "header": [
+    "No. of Police-men per 100 square kms. area"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "No. of Police-men per 1,000 of population",
+   "header": [
+    "No. of Police-men per 1,000 of population"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "No. of IPC cases per civil police men",
+   "header": [
+    "No. of IPC cases per civil police men"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Percentage of civil Police of Total Police",
+   "header": [
+    "Percentage of civil Police of Total Police"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 1,
+  "cells_checked": 10,
+  "cells_passed": 7,
   "failures": [
-   "col 4 'TOTAL (U.Ts).': printed 37951, sum 37351"
+   "col 3 'TOTAL (STATES)': printed 3.16776e+06, sum 3.16716e+06",
+   "col 5 'TOTAL (STATES)': printed 1.31192e+06, sum 1.31126e+06",
+   "col 8 'TOTAL (U.Ts.)': printed 41982, sum 41973"
   ],
-  "other_totals_checked": 3,
-  "other_totals_passed": 2
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

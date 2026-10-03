@@ -6,49 +6,56 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "17",
- "title": "i",
+ "title": "104 TABLE Juveniles Apprehended under important heads",
  "listing_title": "Juveniles Apprehended under Important Heads of Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-39-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-39-1973.pdf",
  "source_sha256": "b5e84a199cbd7e63bf3af1bb9bb18a2e577bc5bf8e460ba63fbc6713f16c3e59",
  "table_no": "",
- "pdf_title": "i",
- "row_label": "SL, No. / Arms Act",
+ "pdf_title": "104 TABLE Juveniles Apprehended under important heads",
+ "row_label": "Sl. No. / States/U. Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 39,
- "n_cols": 4,
- "n_cells": 133,
+ "n_rows": 40,
+ "n_cols": 5,
+ "n_cells": 199,
  "columns": [
   {
-   "col_no": "4",
-   "name": "-",
+   "col_no": "3",
+   "name": "Arms Act",
    "header": [
-    "-"
+    "Arms Act"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Opium Act",
+   "header": [
+    "Opium Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "- Gambling Act AcE",
+   "name": "Gambling Act",
    "header": [
-    "- Gambling Act AcE"
+    "Gambling Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "Exelte",
+   "name": "Excise Act",
    "header": [
-    "Exelte"
+    "Excise Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "TABLE Prohihitinn Act",
+   "name": "Prohibition Act",
    "header": [
-    "TABLE Prohihitinn Act"
+    "Prohibition Act"
    ]
   }
  ],
@@ -57,8 +64,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 17,
+  "other_totals_passed": 16
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

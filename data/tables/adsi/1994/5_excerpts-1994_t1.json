@@ -6,52 +6,46 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1994",
  "serial": "5",
- "title": "POPULATION INDICATORS-1994",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 7 POPULATION INDICATORS-1994 (WORLD'S LARGEST COUNTRIES)",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/excerpts-1994.pdf",
  "source_file": "raw/adsi/1994/year_wise/excerpts-1994.pdf",
  "source_sha256": "7b671c57f0ab574824594bd53186958d7a33c68cb4cc6e83408352d48ceb0bbf",
  "table_no": "",
- "pdf_title": "POPULATION INDICATORS-1994",
- "row_label": "(WORLD’S LARGEST COUNTRIES) SI.No. / (WORLD’S LARGEST COUNTRIES) Country Population (Millions)",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 7 POPULATION INDICATORS-1994 (WORLD'S LARGEST COUNTRIES)",
+ "row_label": "Sl.No. / Country",
  "pages": [
   1
  ],
- "n_rows": 13,
- "n_cols": 2,
- "n_cells": 24,
+ "n_rows": 12,
+ "n_cols": 3,
+ "n_cells": 35,
  "columns": [
   {
    "col_no": "3",
+   "name": "Population (Millions)",
+   "header": [
+    "Population (Millions)"
+   ]
+  },
+  {
+   "col_no": "4",
    "name": "Percentage of world population",
    "header": [
     "Percentage of world population"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Death rate (per 000’) 1990-95",
+   "col_no": "5",
+   "name": "Death rate (per 000') 1990-95",
    "header": [
-    "Death rate (per 000’) 1990-95"
+    "Death rate (per 000') 1990-95"
    ]
   }
  ],
- "notes": [
-  "OTHERS 40.8 - 6ow",
-  "INOHA",
-  "U.S.A",
-  "ym \\ SOO OMT",
-  "comma 203 Yn NS •BANGLADESH 2.1 $2 BRAZIL BF. AAT",
-  "Щ' JAPAм 2.2 MKISTAI",
-  "MKISTIMS JAPAM",
-  "YR.F. 2.0 BANGLADERH",
-  "BRAZIL 2.8",
-  "INDOMERIA a.. NIQERIA",
-  "1.8 ee ‘ * nave \" \"",
-  "RE RICCIAN FENEOATIOM RE - RUSSIAN"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -59,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

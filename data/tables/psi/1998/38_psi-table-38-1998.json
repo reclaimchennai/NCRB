@@ -8,52 +8,58 @@
  "serial": "38",
  "title": "Table 38: Movement of Inmates outside the jail premises during 1998",
  "listing_title": "Table 38: Movement of Inmates outside the jail premises during 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-38_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-38_1998.pdf",
  "source_sha256": "b483fdaa515e8650aa6eb9fac23a2e5817db2f748a66607842eb1a4947eb4152",
  "table_no": "38",
- "pdf_title": "MOVEMENT OF INMATES OUTSIDE THE JAIL PREMISES DURING 1998",
- "row_label": "NO. / STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-38",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 1,
+ "n_rows": 35,
  "n_cols": 4,
- "n_cells": 4,
+ "n_cells": 140,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "NUMBER OF INMATES TAKEN | TO COURTS",
+   "header": [
+    "NUMBER OF INMATES TAKEN",
+    "TO COURTS"
+   ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER OF INMATES TAKEN (4)",
+   "name": "NUMBER OF INMATES TAKEN | FOR MEDICAL ATTENDANCE",
    "header": [
-    "NUMBER OF INMATES TAKEN"
+    "NUMBER OF INMATES TAKEN",
+    "FOR MEDICAL ATTENDANCE"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER OF INMATES TAKEN (5)",
+   "name": "NUMBER OF INMATES TAKEN | ON REMAND & FOR OTHER PURPOSES",
    "header": [
-    "NUMBER OF INMATES TAKEN"
+    "NUMBER OF INMATES TAKEN",
+    "ON REMAND & FOR OTHER PURPOSES"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "NUMBER OF INMATES TAKEN | TOTAL",
+   "header": [
+    "NUMBER OF INMATES TAKEN",
+    "TOTAL"
+   ]
   }
  ],
- "notes": [
-  "VA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -6,22 +6,22 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "POPULATION OF INMATES AND OCCUPANCY RATE AT THE END OF 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-7",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
  "table_no": "7",
- "pdf_title": "POPULATION OF INMATES AND OCCUPANCY RATE AT THE END OF 1998",
- "row_label": "-",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-7",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   75
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 8,
- "n_cells": 254,
+ "n_cells": 280,
  "columns": [
   {
    "col_no": "3",
@@ -41,10 +41,10 @@
   },
   {
    "col_no": "5",
-   "name": "AVAILABLE CAPACITY | - TOTAL",
+   "name": "AVAILABLE CAPACITY | TOTAL",
    "header": [
     "AVAILABLE CAPACITY",
-    "- TOTAL"
+    "TOTAL"
    ]
   },
   {
@@ -73,23 +73,25 @@
   },
   {
    "col_no": "9",
-   "name": "-",
+   "name": "OCCUPANCY RATE (IN %) | MALE",
    "header": [
-    "-"
+    "OCCUPANCY RATE (IN %)",
+    "MALE"
    ]
   },
   {
    "col_no": "10",
-   "name": "RATE FEMALE",
+   "name": "OCCUPANCY RATE (IN %) | FEMALE",
    "header": [
-    "RATE FEMALE"
+    "OCCUPANCY RATE (IN %)",
+    "FEMALE"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 9,
+  "cells_passed": 9,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

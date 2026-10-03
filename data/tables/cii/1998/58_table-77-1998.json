@@ -8,65 +8,73 @@
  "serial": "58",
  "title": "Disposal of Persons Arrested Under SLL by Courts During 1998",
  "listing_title": "Disposal of Persons Arrested Under SLL by Courts During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-77-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-77-1998.pdf",
  "source_sha256": "ffc64700ab0aeeb567f8c13a6f009a93754e3013fe6aafcfec60be4e8fc106d2",
  "table_no": "77",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER SLL BY COURTS DURING 1998",
- "row_label": "SL. CRIME HEAD NO. / NO. Ol? PERSONS WHOSE TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-77",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 23,
- "n_cols": 6,
- "n_cells": 135,
+ "n_cols": 7,
+ "n_cells": 161,
  "columns": [
   {
-   "col_no": "4",
-   "name": "NO. Ol? PERSONS WHOSE | COMPOUNDED OR WITH DRAWN",
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "NO. Ol? PERSONS WHOSE",
-    "COMPOUNDED OR WITH DRAWN"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF PERSONS WHOSE | CASE COMPO-UNDED OR WITH DRAWN",
+   "header": [
+    "NO. OF PERSONS WHOSE",
+    "CASE COMPO-UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. Ol? PERSONS WHOSE | TRIAL ETED",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
    "header": [
-    "NO. Ol? PERSONS WHOSE",
-    "TRIAL ETED"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. Ol? PERSONS WHOSE | TRIAL - REMAINED PENDING",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "NO. Ol? PERSONS WHOSE",
-    "TRIAL - REMAINED PENDING"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. Ol? PERSONS WHOSE | NO: (OF PERSONS CONVICTED",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "NO. Ol? PERSONS WHOSE",
-    "NO: (OF PERSONS CONVICTED"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERCENTAGE WHOSE TRIALS REMAINED PENDING {COL. (6)x100/ COLN6)",
+   "name": "PERCENTAGE OF PERSONS | WHOSE TRIALS REMAINED PENDING (COL.(6)x100/ COL.(6)",
    "header": [
-    "PERCENTAGE WHOSE TRIALS REMAINED PENDING {COL. (6)x100/ COLN6)"
+    "PERCENTAGE OF PERSONS",
+    "WHOSE TRIALS REMAINED PENDING (COL.(6)x100/ COL.(6)"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF CONVICTED TO TRIALS COMPLETED {COL. (7)x100/ —COL.A5)",
+   "name": "PERCENTAGE OF PERSONS | CONVICTED TO TRIALS COMPLETED (COL.(7)x100/ COL.(5)",
    "header": [
-    "OF CONVICTED TO TRIALS COMPLETED {COL. (7)x100/ —COL.A5)"
+    "PERCENTAGE OF PERSONS",
+    "CONVICTED TO TRIALS COMPLETED (COL.(7)x100/ COL.(5)"
    ]
   }
  ],
@@ -75,8 +83,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

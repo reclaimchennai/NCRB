@@ -6,120 +6,197 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "8",
- "title": "Incidence and Rate of Violent Crimes During 1998",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-13A",
  "listing_title": "Incidence and Rate of Violent Crimes During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13--incidence-and-rate-of-violent-crimes-during-1998-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-13--incidence-and-rate-of-violent-crimes-during-1998-1998.pdf",
  "source_sha256": "7960cef77ba0a69ba578b94d40c6475cf45860f50aeaadc370db11c6b8e0dd0e",
  "table_no": "13A",
- "pdf_title": "",
- "row_label": "MOTIVES OF MURDER AND CULPARIF SL. STATE/UTICITY NO. (1) STAT ES:-",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-13A",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
-  3
+  3,
+  4
  ],
- "n_rows": 57,
- "n_cols": 10,
- "n_cells": 514,
+ "n_rows": 116,
+ "n_cols": 21,
+ "n_cells": 1218,
  "columns": [
   {
-   "col_no": "2",
-   "name": "MOTIVES OF MURDER AND CULPARIF | GAIN (2)",
-   "header": [
-    "MOTIVES OF MURDER AND CULPARIF",
-    "GAIN (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "MOTIVES OF MURDER AND CULPARIF | MURDER @",
+   "name": "GAIN | MURDER",
    "header": [
-    "MOTIVES OF MURDER AND CULPARIF",
-    "MURDER @"
+    "GAIN",
+    "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "NOT | (STATE, UT & C.H. 4",
+   "name": "GAIN | C.H.",
    "header": [
-    "NOT",
-    "(STATE, UT & C.H. 4"
+    "GAIN",
+    "C.H."
    ]
   },
   {
    "col_no": "5",
-   "name": "NOT | PROPERTY DISPUTE MURDER] 6)",
+   "name": "PROPERTY DISPUTE | MURDER",
    "header": [
-    "NOT",
-    "PROPERTY DISPUTE MURDER] 6)"
+    "PROPERTY DISPUTE",
+    "MURDER"
    ]
   },
   {
    "col_no": "6",
-   "name": "TO MURDER (C.H.) DURING 1998 | NOT | PERSONAL VENDE TA OR ENNIITY | C.H. (6)",
+   "name": "PROPERTY DISPUTE | C.H.",
    "header": [
-    "TO MURDER (C.H.) DURING 1998",
-    "NOT",
-    "PERSONAL VENDE TA OR ENNIITY",
-    "C.H. (6)"
+    "PROPERTY DISPUTE",
+    "C.H."
    ]
   },
   {
    "col_no": "7",
-   "name": "TO MURDER (C.H.) DURING 1998 | NOT | PERSONAL VENDE TA OR ENNIITY | (7)",
+   "name": "PERSONAL VENDETTA OR ENMITY | MURDER",
    "header": [
-    "TO MURDER (C.H.) DURING 1998",
-    "NOT",
-    "PERSONAL VENDE TA OR ENNIITY",
-    "(7)"
+    "PERSONAL VENDETTA OR ENMITY",
+    "MURDER"
    ]
   },
   {
    "col_no": "8",
-   "name": "TO MURDER (C.H.) DURING 1998 | LOVE AFFAIRS/ SEXUAL CAUSES | C.H. (8)",
+   "name": "PERSONAL VENDETTA OR ENMITY | C.H.",
    "header": [
-    "TO MURDER (C.H.) DURING 1998",
-    "LOVE AFFAIRS/ SEXUAL CAUSES",
-    "C.H. (8)"
+    "PERSONAL VENDETTA OR ENMITY",
+    "C.H."
    ]
   },
   {
    "col_no": "9",
-   "name": "TO MURDER (C.H.) DURING 1998 | LOVE AFFAIRS/ SEXUAL CAUSES | (9)",
+   "name": "LOVE AFFAIRS/ SEXUAL CAUSES | MURDER",
    "header": [
-    "TO MURDER (C.H.) DURING 1998",
     "LOVE AFFAIRS/ SEXUAL CAUSES",
-    "(9)"
+    "MURDER"
    ]
   },
   {
    "col_no": "10",
-   "name": "TO MURDER (C.H.) DURING 1998 | DOWRY C.H. (10)",
+   "name": "LOVE AFFAIRS/ SEXUAL CAUSES | C.H.",
    "header": [
-    "TO MURDER (C.H.) DURING 1998",
-    "DOWRY C.H. (10)"
+    "LOVE AFFAIRS/ SEXUAL CAUSES",
+    "C.H."
    ]
   },
   {
    "col_no": "11",
-   "name": "MURDER] C.H. 2 ay",
+   "name": "DOWRY | MURDER",
    "header": [
-    "MURDER] C.H. 2 ay"
+    "DOWRY",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "DOWRY | C.H.",
+   "header": [
+    "DOWRY",
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "LUNACY",
+   "header": [
+    "LUNACY"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "COMMUNALISM (16)",
+   "header": [
+    "COMMUNALISM"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "COMMUNALISM (17)",
+   "header": [
+    "COMMUNALISM"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "CASTEISM (18)",
+   "header": [
+    "CASTEISM"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "CASTEISM (19)",
+   "header": [
+    "CASTEISM"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "CLASS CONFLICT | MURDER",
+   "header": [
+    "CLASS CONFLICT",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "CLASS CONFLICT | C.H.",
+   "header": [
+    "CLASS CONFLICT",
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "OTHER MOTIVES | MURDER",
+   "header": [
+    "OTHER MOTIVES",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "OTHER MOTIVES | C.H.",
+   "header": [
+    "OTHER MOTIVES",
+    "C.H."
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL | MURDER",
+   "header": [
+    "TOTAL",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | C.H.",
+   "header": [
+    "TOTAL",
+    "C.H."
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 18,
-  "cells_passed": 17,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 4023, sum 4013"
-  ],
+  "cells_checked": 27,
+  "cells_passed": 27,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

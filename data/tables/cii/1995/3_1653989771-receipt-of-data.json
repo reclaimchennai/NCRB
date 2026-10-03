@@ -8,49 +8,54 @@
  "serial": "3",
  "title": "Receipt of data",
  "listing_title": "Receipt of data",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653989771_Receipt of Data.pdf",
  "source_file": "raw/cii/1995/year_wise/1653989771_Receipt of Data.pdf",
  "source_sha256": "dac820f1c90053afccdd3315219eb43a7c0f4adf945e52f390ad9656b598df09",
  "table_no": "",
- "pdf_title": "Chronicle Order of Receipt of Data",
- "row_label": "(Crime in India-1995) MONTH qd)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 Chronicle Order of Receipt of Data",
+ "row_label": "MONTH",
  "pages": [
+  1,
+  1,
+  1,
   1
  ],
- "n_rows": 18,
- "n_cols": 3,
- "n_cells": 49,
+ "n_rows": 16,
+ "n_cols": 4,
+ "n_cells": 57,
  "columns": [
   {
-   "col_no": "3",
-   "name": "(Crime in India-1995) | STATE",
+   "col_no": "2",
+   "name": "STATE",
    "header": [
-    "(Crime in India-1995)",
     "STATE"
    ]
   },
   {
-   "col_no": "4",
-   "name": "(Crime in India-1995) | UNION TERRITORY",
+   "col_no": "3",
+   "name": "UNION TERRITORY",
    "header": [
-    "(Crime in India-1995)",
     "UNION TERRITORY"
    ]
   },
   {
-   "col_no": "5",
-   "name": "CITY CUMULATIVE TOTAL",
+   "col_no": "4",
+   "name": "CITY",
    "header": [
-    "CITY CUMULATIVE TOTAL"
+    "CITY"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CUMULATIVE TOTAL",
+   "header": [
+    "CUMULATIVE TOTAL"
    ]
   }
  ],
- "notes": [
-  "CENTRES",
-  "(vi)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -59,6 +64,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 4,
  "warnings": []
 }

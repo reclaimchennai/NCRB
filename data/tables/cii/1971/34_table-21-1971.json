@@ -8,108 +8,123 @@
  "serial": "34",
  "title": "Juveniles Apprehended in India During 1971 (by Age Group & Sex)",
  "listing_title": "Juveniles Apprehended in India During 1971 (by Age Group & Sex)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-21-1971.pdf",
  "source_file": "raw/cii/1971/table_content/table-21-1971.pdf",
  "source_sha256": "a98e5e3b3666a5bc8850e3cd2ed39106eaf02ba280567adfe5931432f396890b",
  "table_no": "21",
- "pdf_title": "",
- "row_label": "Juveniles Apprehended in India Sl. Heads of Crime No. 1 I. LP.C. Crimes / Juveniles Apprehended in India Between7-12 years Boys 2 / Juveniles Apprehended in India Between7-12 years Girls 3",
+ "pdf_title": "47 TABLE 21 Juveniles Apprehended in India During 1971 (By Age Group & Sex)",
+ "row_label": "Sl. No. / Sl. No. / Heads of Crime / Between 7-12 years Boys",
  "pages": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
   1
  ],
- "n_rows": 26,
- "n_cols": 9,
- "n_cells": 216,
+ "n_rows": 21,
+ "n_cols": 11,
+ "n_cells": 229,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Juveniles Apprehended in India | years Boys 4",
-   "header": [
-    "Juveniles Apprehended in India",
-    "years Boys 4"
-   ]
-  },
-  {
    "col_no": "5",
-   "name": "Juveniles Apprehended in India | 12-16 Girls 5",
+   "name": "Between 7-12 years | Girls",
    "header": [
-    "Juveniles Apprehended in India",
-    "12-16 Girls 5"
+    "Between 7-12 years",
+    "Girls"
    ]
   },
   {
    "col_no": "6",
-   "name": "Juveniles Apprehended in India | Between 16-18 years Boys 6",
+   "name": "Between 12-16 years | Boys",
    "header": [
-    "Juveniles Apprehended in India",
-    "Between 16-18 years Boys 6"
+    "Between 12-16 years",
+    "Boys"
    ]
   },
   {
    "col_no": "7",
-   "name": "1971 Girls 7",
+   "name": "Between 12-16 years | Girls",
    "header": [
-    "1971 Girls 7"
+    "Between 12-16 years",
+    "Girls"
    ]
   },
   {
    "col_no": "8",
-   "name": "(By Age Group & Sex) | Between 18-21 years | Boys 8",
+   "name": "Between 16-18 years | Boys",
    "header": [
-    "(By Age Group & Sex)",
-    "Between 18-21 years",
-    "Boys 8"
+    "Between 16-18 years",
+    "Boys"
    ]
   },
   {
    "col_no": "9",
-   "name": "(By Age Group & Sex) | Between 18-21 years | Girls 9",
+   "name": "Between 16-18 years | Girls",
    "header": [
-    "(By Age Group & Sex)",
-    "Between 18-21 years",
-    "Girls 9"
+    "Between 16-18 years",
+    "Girls"
    ]
   },
   {
    "col_no": "10",
-   "name": "(By Age Group & Sex) | Overall-age Boys 10",
+   "name": "Between 18-21 years | Boys",
    "header": [
-    "(By Age Group & Sex)",
-    "Overall-age Boys 10"
+    "Between 18-21 years",
+    "Boys"
    ]
   },
   {
    "col_no": "11",
-   "name": "Groups Total | Girls il",
+   "name": "Between 18-21 years | Girls",
    "header": [
-    "Groups Total",
-    "Girls il"
+    "Between 18-21 years",
+    "Girls"
    ]
   },
   {
    "col_no": "12",
-   "name": "Groups Total | 13 12",
+   "name": "Overall-age | Boys",
    "header": [
-    "Groups Total",
-    "13 12"
+    "Overall-age",
+    "Boys"
    ]
+  },
+  {
+   "col_no": "13",
+   "name": "Overall-age | Girls",
+   "header": [
+    "Overall-age",
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Culpable Homicide not amounting to murder",
+   "header": [
+    "Culpable Homicide not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "col_15",
+   "header": []
   }
  ],
- "notes": [
-  "(Pt. I & If)",
-  "Nigtiaad under different heads of IPC Crime were not available and hence total cognizable",
-  "crime under [PC will not tally with the break up."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 19,
-  "other_totals_passed": 11
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 9,
  "warnings": []
 }

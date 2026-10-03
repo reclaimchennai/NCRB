@@ -8,34 +8,41 @@
  "serial": "8",
  "title": "Incidence of Crime under IPC During 1984 and 1985 Showing Percentage Variation in 1985 over 1984",
  "listing_title": "Incidence of Crime under IPC During 1984 and 1985 Showing Percentage Variation in 1985 over 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables6-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables6-1985.pdf",
  "source_sha256": "d48759664db5116965b6fbbfc55d045e431e00ea69c04a62ba579a7bfce68070",
- "table_no": "6",
- "pdf_title": "Of Crime Under IPC During 1084 And 1988 Variation In 1985 Over 1984",
- "row_label": "81. No. / States/U. Ts/Cities",
+ "table_no": "",
+ "pdf_title": "variation",
+ "row_label": "Sl. States/U.Ts/Cities No.",
  "pages": [
   1,
-  3,
+  2,
   4,
+  5,
   5
  ],
- "n_rows": 103,
- "n_cols": 27,
- "n_cells": 1262,
+ "n_rows": 55,
+ "n_cols": 30,
+ "n_cells": 1366,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Murder | 1984",
+   "col_no": "4",
+   "name": "Sl. States/U.Ts/Cities No. (4)",
    "header": [
-    "Murder",
-    "1984"
+    "Sl. States/U.Ts/Cities No."
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "5",
+   "name": "Sl. States/U.Ts/Cities No. (5)",
+   "header": [
+    "Sl. States/U.Ts/Cities No."
+   ]
+  },
+  {
+   "col_no": "6",
    "name": "Murder | 1985",
    "header": [
     "Murder",
@@ -43,91 +50,131 @@
    ]
   },
   {
-   "col_no": "5",
-   "name": "Murder | Sage varjation",
+   "col_no": "7",
+   "name": "Murder | Sage variation",
    "header": [
     "Murder",
-    "Sage varjation"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "C.H. 1984",
-   "header": [
-    "C.H. 1984"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Not 1985 3",
-   "header": [
-    "Not 1985 3"
+    "Sage variation"
    ]
   },
   {
    "col_no": "8",
-   "name": "«Sage variation",
+   "name": "C.H. Not Amounting To Murder | 1984",
    "header": [
-    "«Sage variation"
+    "C.H. Not Amounting To Murder",
+    "1984"
    ]
   },
   {
    "col_no": "9",
-   "name": "Rape 1984 1985 Sage variation ao ab",
+   "name": "C.H. Not Amounting To Murder | 1985",
    "header": [
-    "Rape 1984 1985 Sage variation ao ab"
-   ]
-  },
-  {
-   "col_no": "21",
-   "name": "Burglary | 1984",
-   "header": [
-    "Burglary",
-    "1984"
-   ]
-  },
-  {
-   "col_no": "22",
-   "name": "Burglary | 1985",
-   "header": [
-    "Burglary",
+    "C.H. Not Amounting To Murder",
     "1985"
    ]
   },
   {
-   "col_no": "23",
-   "name": "Burglary | sage variation",
+   "col_no": "10",
+   "name": "C.H. Not Amounting To Murder | Sage variation",
    "header": [
-    "Burglary",
-    "sage variation"
+    "C.H. Not Amounting To Murder",
+    "Sage variation"
    ]
   },
   {
-   "col_no": "24",
-   "name": "Theft | 1984",
+   "col_no": "11",
+   "name": "Rape | 1984",
    "header": [
-    "Theft",
+    "Rape",
     "1984"
    ]
   },
   {
-   "col_no": "25",
-   "name": "Theft | 1985",
+   "col_no": "12",
+   "name": "SI. States/U.Ts/Cities No. (12)",
    "header": [
-    "Theft",
+    "SI. States/U.Ts/Cities No."
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "SI. States/U.Ts/Cities No. (13)",
+   "header": [
+    "SI. States/U.Ts/Cities No."
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Kidnapping & Abduction | 1984",
+   "header": [
+    "Kidnapping & Abduction",
+    "1984"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Kidnapping & Abduction | 1985",
+   "header": [
+    "Kidnapping & Abduction",
     "1985"
    ]
   },
   {
-   "col_no": "26",
-   "name": "Theft | ‘Sage variation",
+   "col_no": "16",
+   "name": "Kidnapping & Abduction | %age variation",
    "header": [
-    "Theft",
-    "‘Sage variation"
+    "Kidnapping & Abduction",
+    "%age variation"
    ]
   },
   {
-   "col_no": "27",
+   "col_no": "17",
+   "name": "Dacoity | 1984",
+   "header": [
+    "Dacoity",
+    "1984"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Dacoity | 1985",
+   "header": [
+    "Dacoity",
+    "1985"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Dacoity | %age variation",
+   "header": [
+    "Dacoity",
+    "%age variation"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Robbery | 1984",
+   "header": [
+    "Robbery",
+    "1984"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "Sl. States/U.Ts/Cities No. (28)",
+   "header": [
+    "Sl. States/U.Ts/Cities No."
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "Sl. States/U.Ts/Cities No. (29)",
+   "header": [
+    "Sl. States/U.Ts/Cities No."
+   ]
+  },
+  {
+   "col_no": "30",
    "name": "Riots | 1984",
    "header": [
     "Riots",
@@ -135,7 +182,7 @@
    ]
   },
   {
-   "col_no": "28",
+   "col_no": "31",
    "name": "Riots | 1985",
    "header": [
     "Riots",
@@ -143,120 +190,79 @@
    ]
   },
   {
-   "col_no": "29",
-   "name": "Riots | Sage variation",
+   "col_no": "32",
+   "name": "Riots | %age variation",
    "header": [
     "Riots",
-    "Sage variation"
-   ]
-  },
-  {
-   "col_no": "30",
-   "name": "Criminal | of 1984",
-   "header": [
-    "Criminal",
-    "of 1984"
-   ]
-  },
-  {
-   "col_no": "31",
-   "name": "Criminal | Trust 1985",
-   "header": [
-    "Criminal",
-    "Trust 1985"
-   ]
-  },
-  {
-   "col_no": "32",
-   "name": "Breach Sage variation",
-   "header": [
-    "Breach Sage variation"
+    "%age variation"
    ]
   },
   {
    "col_no": "33",
-   "name": "Cheating | 1984",
+   "name": "Criminal Breach of Trust | 1984",
    "header": [
-    "Cheating",
+    "Criminal Breach of Trust",
     "1984"
    ]
   },
   {
    "col_no": "34",
-   "name": "Cheating | 1985",
+   "name": "Criminal Breach of Trust | 1985",
    "header": [
-    "Cheating",
+    "Criminal Breach of Trust",
     "1985"
    ]
   },
   {
    "col_no": "35",
-   "name": "Cheating | tage variation",
+   "name": "Criminal Breach of Trust | %age variation",
    "header": [
-    "Cheating",
-    "tage variation"
+    "Criminal Breach of Trust",
+    "%age variation"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Counterfeiting",
+   "header": [
+    "Counterfeiting"
    ]
   },
   {
    "col_no": "37",
-   "name": "1985 (a)",
-   "header": [
-    "1985 (a)"
-   ]
+   "name": "col_37",
+   "header": []
   },
   {
    "col_no": "38",
-   "name": "Total | Sage",
-   "header": [
-    "Total",
-    "Sage"
-   ]
+   "name": "col_38",
+   "header": []
   },
   {
    "col_no": "39",
-   "name": "Total | 1984 variation",
-   "header": [
-    "Total",
-    "1984 variation"
-   ]
+   "name": "col_39",
+   "header": []
   },
   {
    "col_no": "40",
-   "name": "Total | Crime under 1985",
-   "header": [
-    "Total",
-    "Crime under 1985"
-   ]
-  },
-  {
-   "col_no": "41",
-   "name": "Total | IPC Sage",
-   "header": [
-    "Total",
-    "IPC Sage"
-   ]
+   "name": "col_40",
+   "header": []
   }
  ],
- "notes": [
-  "Note: @ infinite varition."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 21,
+  "cells_checked": 4,
   "cells_passed": 0,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 25342, sum 24654",
-   "col 7 'TOTAL (STATES)': printed 3777, sum 3758",
-   "col 21 'TOTAL (U. Ts.)': printed 2953, sum 223572",
-   "col 21 'TOTAL (CITIES)': printed 11690, sum 2648",
-   "col 22 'TOTAL (U. Ts.)': printed 3246, sum 215361",
-   "col 22 'TOTAL (CITIES)': printed 11813, sum 2793",
-   "col 24 'TOTAL (CITIES)': printed 60758, sum 11238",
-   "col 25 'TOTAL (CITIES)': printed 63925, sum 11688"
+   "col 37 'TOTAL (STATES)': printed 1074, sum 1405",
+   "col 38 'TOTAL (STATES)': printed 1425, sum 1983",
+   "col 39 'TOTAL (STATES)': printed 1.3168e+06, sum 1.50798e+06",
+   "col 40 'TOTAL (STATES)': printed 1.3426e+06, sum 1.541e+06"
   ],
-  "other_totals_checked": 16,
-  "other_totals_passed": 5
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
- "ocr_pages": 4,
+ "ocr_pages": 5,
  "warnings": []
 }

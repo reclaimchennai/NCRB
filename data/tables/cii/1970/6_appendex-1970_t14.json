@@ -6,58 +6,70 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "APrenDIxX—",
+ "title": "98 APPENDIX MURDER",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendex-1970.pdf",
  "source_file": "raw/cii/1970/table_chapter/appendex-1970.pdf",
  "source_sha256": "3ed7da4cec7a8a52c94ec44a60188cb502ba306987e4cb8da95c49a8762233a3",
  "table_no": "",
- "pdf_title": "APrenDIxX—",
- "row_label": "Sl. / No. / States/U.Ts./Cities / pending pending report- ‘mvestigation ‘rom previous ‘year",
+ "pdf_title": "98 APPENDIX MURDER",
+ "row_label": "Sl. No.",
  "pages": [
-  21
+  27
  ],
- "n_rows": 40,
- "n_cols": 5,
- "n_cells": 192,
+ "n_rows": 39,
+ "n_cols": 7,
+ "n_cells": 269,
  "columns": [
   {
-   "col_no": "5",
-   "name": "Cue disposalin Courts",
+   "col_no": "2",
+   "name": "States/U. Ts./Cities",
    "header": [
-    "Cue disposalin Courts"
+    "States/U. Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Persons in custody pending investigation or on bail during the stage of investigation",
+   "header": [
+    "Persons in custody pending investigation or on bail during the stage of investigation"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Persons in custody pending trial or on bail during the stage of trail",
+   "header": [
+    "Persons in custody pending trial or on bail during the stage of trail"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Persons arrested during the year",
+   "header": [
+    "Persons arrested during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases ted during the year",
+   "name": "Persons released by the police or magis-trate before trial",
    "header": [
-    "Cases ted during the year"
+    "Persons released by the police or magis-trate before trial"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases not gated declared false (4-) mistake or law (+) Noncognizable",
+   "name": "Persons in whose cases charge-sheets were laid",
    "header": [
-    "Cases not gated declared false (4-) mistake or law (+) Noncognizable"
+    "Persons in whose cases charge-sheets were laid"
    ]
   },
   {
    "col_no": "8",
-   "name": "CHKATING— | pending inw:sti gation atthe endof the year",
+   "name": "No. of persons in whose cases trials were completed",
    "header": [
-    "CHKATING—",
-    "pending inw:sti gation atthe endof the year"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "CHKATING— | pon pendfoe trial atthe endof the year",
-   "header": [
-    "CHKATING—",
-    "pon pendfoe trial atthe endof the year"
+    "No. of persons in whose cases trials were completed"
    ]
   }
  ],
@@ -66,10 +78,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 8,
-  "other_totals_passed": 5
+  "other_totals_checked": 20,
+  "other_totals_passed": 20
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

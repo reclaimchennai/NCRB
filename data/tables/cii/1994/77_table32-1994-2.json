@@ -8,27 +8,161 @@
  "serial": "77",
  "title": "Persons Arrested under IPC and SLL Crimes by Age Groups and Sex During 1994",
  "listing_title": "Persons Arrested under IPC and SLL Crimes by Age Groups and Sex During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table32-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table32-1994_2.pdf",
  "source_sha256": "0b38606e75a0977a7de4347cb3006658608f9a1cfab7432d7ca22f4bbbf970de",
  "table_no": "32",
- "pdf_title": "",
- "row_label": "SL. CRIME HEAD NO. / ALL AGE GROUPS M / ALL AGE GROUPS 50 YEARS & ABOVE F / ALL AGE GROUPS JUVENILES M {Col. 3} / ALL AGE GROUPS F (Cols.4+6} / ALL AGE GROUPS OTFERS M / ALL AGE GROUPS F / ALL AGE GROUPS M / ALL AGE GROUPS F",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-32",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
+  1,
   2
  ],
  "n_rows": 36,
- "n_cols": 1,
- "n_cells": 36,
+ "n_cols": 17,
+ "n_cells": 612,
  "columns": [
   {
-   "col_no": "19",
-   "name": "ALL AGE GROUPS | TOTAL M+F (17+18}",
+   "col_no": "3",
+   "name": "BELOW 16 YEARS | M",
+   "header": [
+    "BELOW 16 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BELOW 16 YEARS | F",
+   "header": [
+    "BELOW 16 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "16-18 YEARS | M",
+   "header": [
+    "16-18 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "16-18 YEARS | F",
+   "header": [
+    "16-18 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "18-30 YEARS | M",
+   "header": [
+    "18-30 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "18-30 YEARS | F",
+   "header": [
+    "18-30 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "30-50 YEARS | M",
+   "header": [
+    "30-50 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "30-50 YEARS | F",
+   "header": [
+    "30-50 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "50 YEARS & ABOVE | M",
+   "header": [
+    "50 YEARS & ABOVE",
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "50 YEARS & ABOVE | F",
+   "header": [
+    "50 YEARS & ABOVE",
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ALL AGE GROUPS | JUVENILES | M (Col. 3)",
    "header": [
     "ALL AGE GROUPS",
-    "TOTAL M+F (17+18}"
+    "JUVENILES",
+    "M (Col. 3)"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "ALL AGE GROUPS | JUVENILES | F (Cols.4+6)",
+   "header": [
+    "ALL AGE GROUPS",
+    "JUVENILES",
+    "F (Cols.4+6)"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "ALL AGE GROUPS | OTHERS | M",
+   "header": [
+    "ALL AGE GROUPS",
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "ALL AGE GROUPS | OTHERS | F",
+   "header": [
+    "ALL AGE GROUPS",
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "ALL AGE GROUPS | TOTAL | M",
+   "header": [
+    "ALL AGE GROUPS",
+    "TOTAL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "ALL AGE GROUPS | TOTAL | F",
+   "header": [
+    "ALL AGE GROUPS",
+    "TOTAL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TOTAL M+F (17+18)",
+   "header": [
+    "TOTAL M+F (17+18)"
    ]
   }
  ],
@@ -37,10 +171,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 50,
+  "other_totals_passed": 48
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

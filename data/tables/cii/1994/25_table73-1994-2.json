@@ -8,32 +8,53 @@
  "serial": "25",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1984-94",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1984-94",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table73-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table73-1994_2.pdf",
  "source_sha256": "0d3c0db586b7cae2a09d9ab7abf2bc38653526e66b716bca8139a073773387fd",
  "table_no": "73",
- "pdf_title": "VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
- "row_label": "• SL. a) / DURING YEAR STOLEN / 1984-94 TOTAL VALUE OF PROPERTY RECOVERED",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA-1994 TABLE-73",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
  "n_rows": 12,
- "n_cols": 1,
- "n_cells": 12,
+ "n_cols": 4,
+ "n_cells": 48,
  "columns": [
   {
-   "col_no": "5",
-   "name": "in (Rs. lakh) PERCENTAGE RECOVERY",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "in (Rs. lakh) PERCENTAGE RECOVERY"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
+   "header": [
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
+   "header": [
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERCENTAGE RECOVERY",
+   "header": [
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],
- "notes": [
-  "1984 i H"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -8,33 +8,40 @@
  "serial": "9",
  "title": "Incidence of Offences under Local and Special Laws and Volume of Such Offences per Lakh of Population in 1980 to 1984",
  "listing_title": "Incidence of Offences under Local and Special Laws and Volume of Such Offences per Lakh of Population in 1980 to 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-8-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-8-1984.pdf",
  "source_sha256": "20bfbfff2ab39b63564b3aaead2c1a79b5e32d51115c4d1c248ecd5b77e49d91",
  "table_no": "8",
- "pdf_title": "Incidence Of Offences Under Local And Special Laws And Volume Of Such Offences Per Lakh Of Population In",
- "row_label": "Sl. Year No.",
+ "pdf_title": "50 TABLE-8 Incidence Of Offences Under Local And Special Laws And Volume Of Such Offences Per Lakh Of Population In 1980 To 1984",
+ "row_label": "S1. No.",
  "pages": [
   1
  ],
  "n_rows": 5,
- "n_cols": 2,
- "n_cells": 10,
+ "n_cols": 3,
+ "n_cells": 15,
  "columns": [
   {
-   "col_no": "3",
-   "name": "1980 1984 of Incidence Crime",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "1980 1984 of Incidence Crime"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Incidence of Crime",
+   "header": [
+    "Incidence of Crime"
    ]
   },
   {
    "col_no": "4",
-   "name": "To Volume of Crime Lakh Per of Population",
+   "name": "Volume of Crime Per Lakh of Population",
    "header": [
-    "To Volume of Crime Lakh Per of Population"
+    "Volume of Crime Per Lakh of Population"
    ]
   }
  ],

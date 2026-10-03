@@ -6,77 +6,94 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1997",
  "serial": "8",
- "title": "Distribution of Suicides by Means Adopted",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA – 1997 N.C.R.B., (M.H.A.) Table 2.11",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1997.pdf",
  "source_file": "raw/adsi/1997/year_wise/suicides-1997.pdf",
  "source_sha256": "2429422c19b1e2d7b150d189cba38a71e6c44f23fbe286bac0b826e56cdf1d0f",
  "table_no": "2.11",
- "pdf_title": "Distribution of Suicides by Means Adopted",
- "row_label": "SI. No. / Means Adopted",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA – 1997 N.C.R.B., (M.H.A.) Table 2.11",
+ "row_label": "Sl. No. / Means Adopted",
  "pages": [
+  18,
   18
  ],
  "n_rows": 40,
- "n_cols": 8,
- "n_cells": 274,
+ "n_cols": 9,
+ "n_cells": 360,
  "columns": [
   {
    "col_no": "3",
-   "name": "Maie",
+   "name": "Up to 14 Years | Male",
    "header": [
-    "Maie"
+    "Up to 14 Years",
+    "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "Upto 14 Yezrs Female",
+   "name": "Up to 14 Years | Female",
    "header": [
-    "Upto 14 Yezrs Female"
+    "Up to 14 Years",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "Total (5)",
+   "name": "Up to 14 Years | Total",
    "header": [
+    "Up to 14 Years",
     "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "Male (6)",
+   "name": "15-29 Years | Male",
    "header": [
+    "15-29 Years",
     "Male"
    ]
   },
   {
    "col_no": "7",
-   "name": "‘15-29 Years Female",
+   "name": "15-29 Years | Female",
    "header": [
-    "‘15-29 Years Female"
+    "15-29 Years",
+    "Female"
    ]
   },
   {
    "col_no": "8",
-   "name": "Total (8)",
+   "name": "15-29 Years | Total",
    "header": [
+    "15-29 Years",
     "Total"
    ]
   },
   {
    "col_no": "9",
-   "name": "Male (9)",
+   "name": "30-44 Years | Male",
    "header": [
+    "30-44 Years",
     "Male"
    ]
   },
   {
    "col_no": "10",
-   "name": "0-44 Years Female Total",
+   "name": "30-44 Years | Female",
    "header": [
-    "0-44 Years Female Total"
+    "30-44 Years",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "30-44 Years | Total",
+   "header": [
+    "30-44 Years",
+    "Total"
    ]
   }
  ],
@@ -89,6 +106,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

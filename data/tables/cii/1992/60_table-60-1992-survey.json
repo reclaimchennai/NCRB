@@ -8,100 +8,154 @@
  "serial": "60",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992 (State, UT & City-wise) Dacoity",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992 (State, UT & City-wise) Dacoity",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-60-1992-survey.pdf",
  "source_sha256": "7c27c3f338c62898c5ecf3ea89d3944265f96657b0ad5fe141bcdd53798f6bfe",
  "table_no": "60",
- "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1992 (STATE, UT & CITY-WISE)",
- "row_label": "SL. NO. / DACOITY STATE/UT",
+ "pdf_title": "271 TABLE-60 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1992",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
-  2
+  2,
+  3,
+  4
  ],
- "n_rows": 58,
- "n_cols": 8,
- "n_cells": 438,
+ "n_rows": 116,
+ "n_cols": 15,
+ "n_cells": 870,
  "columns": [
   {
    "col_no": "3",
-   "name": "DACOITY | RESIDENTIAL PREMISES | NUMBER",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "DACOITY",
     "RESIDENTIAL PREMISES",
     "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "DACOITY | RESIDENTIAL PREMISES | VALUE",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "DACOITY",
     "RESIDENTIAL PREMISES",
     "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "DACOITY | HIGHWAYS NUMBER",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "DACOITY",
-    "HIGHWAYS NUMBER"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "DACOITY | VALUE",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "DACOITY",
+    "HIGHWAYS",
     "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "DACOITY | RIVER NUMBER",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "DACOITY",
-    "RIVER NUMBER"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "DACOITY | & VALUE",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "DACOITY",
-    "& VALUE"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "(Rs. SEA NUMBER",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "(Rs. SEA NUMBER"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "in lakh) RAILWAYS VALUE",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "in lakh) RAILWAYS VALUE"
+    "RAILWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BANKS | VALUE",
+   "header": [
+    "BANKS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
- "notes": [
-  "36—526 NCRB/94."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 7,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 6510, sum 6512"
-  ],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

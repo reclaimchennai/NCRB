@@ -6,74 +6,88 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "51",
- "title": "a2",
+ "title": "103 52 not Amounting to Murder in different States/U.Ts./Cities",
  "listing_title": "Statement Indicating Motive of Murder and Culpable Homicide not amounting to Murder in Different States /U.T.s/Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-52-1974_0.pdf",
  "source_sha256": "90b8d7e78f31f43a498e3940c1e3c00d1b29e00ebec9ccf4c79856c021d9fa4d",
  "table_no": "",
- "pdf_title": "a2",
- "row_label": "mop 2S - 12",
+ "pdf_title": "103 52 not Amounting to Murder in different States/U.Ts./Cities",
+ "row_label": "Sudden Provocation Murder",
  "pages": [
   3
  ],
- "n_rows": 39,
- "n_cols": 6,
- "n_cells": 203,
+ "n_rows": 43,
+ "n_cols": 8,
+ "n_cells": 344,
  "columns": [
   {
    "col_no": "2",
-   "name": "Minder im \"Murder 13",
+   "name": "Sudden Provocation | C.H. not amounting to murder",
    "header": [
-    "Minder im \"Murder 13"
+    "Sudden Provocation",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "3",
-   "name": "i | ee Ag Po murder 14",
+   "name": "Lunacy | Murder",
    "header": [
-    "i",
-    "ee Ag Po murder 14"
+    "Lunacy",
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "i | hee rE",
+   "name": "Lunacy | C.H. not amounting to murder",
    "header": [
-    "i",
-    "hee rE"
+    "Lunacy",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "i | lng to murder",
+   "name": "Other causes | Murder",
    "header": [
-    "i",
-    "lng to murder"
+    "Other causes",
+    "Murder"
    ]
   },
   {
    "col_no": "6",
-   "name": "i | \"Murder Sie",
+   "name": "Other causes | C.H. not amounting to murder",
    "header": [
-    "i",
-    "\"Murder Sie"
+    "Other causes",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "7",
-   "name": "i | Toral 2",
+   "name": "Total | Murder",
    "header": [
-    "i",
-    "Toral 2"
+    "Total",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total | C.H. not amounting to murder",
+   "header": [
+    "Total",
+    "C.H. not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
    ]
   }
  ],
- "notes": [
-  "78 Ll - 246. Er ean 147 Toran. ‘"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -81,7 +95,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

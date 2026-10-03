@@ -8,54 +8,167 @@
  "serial": "63",
  "title": "Classification of Juveniles Arrested (under IPC & LSL) by Attributes During 1991 (State, UT & City-Wise)",
  "listing_title": "Classification of Juveniles Arrested (under IPC & LSL) by Attributes During 1991 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-47-1991-47.pdf",
  "source_file": "raw/cii/1991/table_content/table-47-1991-47.pdf",
  "source_sha256": "a6887a3c2e9639c2ba2036221fc1570305c339b54b5a757a76bf42aaa836ad9f",
- "table_no": "",
- "pdf_title": "TABLE*47",
- "row_label": "By LOWER INCE IHC RS UPTO RS. pa 000 PH) PHD are) age 2eF 357 2 5 1 155 ae / TOTAL UPP-MID UPPER - 1001 (FROM RS {ABOVE TOTO 2000 «S001 TO Re. 3000 1) 27 500 / TOTAL UPP-MID UPPER - 1001 (FROM RS {ABOVE TOTO 2000 «S001 TO Re. 3000 3000 PM) PHD (15) 1s 1146 0 4 17 188: / TOTAL (16) 1",
+ "table_no": "47",
+ "pdf_title": "162 TABLE-47 CLASSIFICATION OF JUVENILES ARRESTED (UNDER IPC & LSL) BY ATTRIBUTES DURING 1991 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO. / SL. NO.",
  "pages": [
+  1,
   2
  ],
- "n_rows": 37,
- "n_cols": 3,
- "n_cells": 79,
+ "n_rows": 94,
+ "n_cols": 17,
+ "n_cells": 799,
  "columns": [
   {
-   "col_no": "5",
-   "name": "TOTAL | MEW CELINCir) 4 ‘1043 bs] r=] 743 526 2255",
+   "col_no": "3",
+   "name": "STATE/UT/CITY",
    "header": [
-    "TOTAL",
-    "MEW CELINCir) 4 ‘1043 bs] r=] 743 526 2255"
+    "STATE/UT/CITY"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BY EDUCATION | ILLI-TERATE",
+   "header": [
+    "BY EDUCATION",
+    "ILLI-TERATE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BY EDUCATION | PRIMARY ABOVE PRIMARY BUT BELOW MATRIC/ H. SEC.",
+   "header": [
+    "BY EDUCATION",
+    "PRIMARY ABOVE PRIMARY BUT BELOW MATRIC/ H. SEC."
    ]
   },
   {
    "col_no": "6",
-   "name": "TOTAL | BELIK- - GQUENTS 508 5 27 a5",
+   "name": "BY EDUCATION | NATRIC/ H. SEC.",
    "header": [
-    "TOTAL",
-    "BELIK- - GQUENTS 508 5 27 a5"
+    "BY EDUCATION",
+    "NATRIC/ H. SEC."
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL (zy (a0) STATES: AMOHAA PRADESH 1554 30 ASSAM T43 BIHAR 2255",
+   "name": "BY EDUCATION | TOTAL",
    "header": [
-    "TOTAL (zy (a0) STATES: AMOHAA PRADESH 1554 30 ASSAM T43 BIHAR 2255"
+    "BY EDUCATION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH PARENTS",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH PARENTS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARD- IANS",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH GUARD- IANS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "BY FAMILY BACKGROUND | HOME- LESS",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "HOME- LESS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "BY FAMILY BACKGROUND | TOTAL",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BY ECONOMIC-SETUP | LOW-MID INCOME (FRCH RS 501 TO 1000 PH)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "LOW-MID INCOME (FRCH RS 501 TO 1000 PH)"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "BY ECONOMIC-SETUP | MIDDLE INCOME (RS.1001 TO 2000 PH)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "MIDDLE INCOME (RS.1001 TO 2000 PH)"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "BY ECONOMIC-SETUP | UPP-MID INCOME (FRCH RS 2001 TO 3000 PH)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "UPP-MID INCOME (FRCH RS 2001 TO 3000 PH)"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "BY ECONOMIC-SETUP | UPPER INCOME (ABOVE RS.3000 PH)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "UPPER INCOME (ABOVE RS.3000 PH)"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "BY ECONOMIC-SETUP | TOTAL",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "RECI DIVISH | NEW DELIN-QUENTS",
+   "header": [
+    "RECI DIVISH",
+    "NEW DELIN-QUENTS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "RECI DIVISH | OLD DELIN-QUENTS",
+   "header": [
+    "RECI DIVISH",
+    "OLD DELIN-QUENTS"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "RECI DIVISH | TOTAL",
+   "header": [
+    "RECI DIVISH",
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 24,
+  "cells_passed": 24,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

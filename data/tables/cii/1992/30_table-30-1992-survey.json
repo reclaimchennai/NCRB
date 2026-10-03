@@ -8,14 +8,14 @@
  "serial": "30",
  "title": "Disposal of Persons Arrested under IPC Crimes by Police During 1992",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes by Police During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-30-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-30-1992-survey.pdf",
  "source_sha256": "ad7f261d8b0bcd5d6feb46f634407a26d250a5836425e6d67ec16c7c632007c4",
  "table_no": "30",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY POLICE DURING 1992",
- "row_label": "CRIME SL. NO. (2)",
+ "pdf_title": "181 TABLE-30 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY POLICE DURING 1992",
+ "row_label": "",
  "pages": [
   1
  ],
@@ -24,68 +24,50 @@
  "n_cells": 126,
  "columns": [
   {
-   "col_no": "2",
-   "name": "HEAD OF PERSONS UNDER ARREST* INCLUDING THOSE FROM VIOUS (2)",
-   "header": [
-    "HEAD OF PERSONS UNDER ARREST* INCLUDING THOSE FROM VIOUS (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "TOTAL NO. PREYEAR (3)",
-   "header": [
-    "TOTAL NO. PREYEAR (3)"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "PERSONS NO. RELEASED BEFORE TRIAL PERCENTAGE TO TOTAL (4)",
-   "header": [
-    "PERSONS NO. RELEASED BEFORE TRIAL PERCENTAGE TO TOTAL (4)"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "PERSONS CHARGE SHEETED | NO. (5)",
-   "header": [
-    "PERSONS CHARGE SHEETED",
-    "NO. (5)"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "PERSONS CHARGE SHEETED | PERCENTAGE TO TOTAL (6)",
-   "header": [
-    "PERSONS CHARGE SHEETED",
-    "PERCENTAGE TO TOTAL (6)"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "PERSONS AT THE THE NO. (7)",
-   "header": [
-    "PERSONS AT THE THE NO. (7)"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "UNDER INVESTIGATION OF END YEAR PERCENTAGE TO TOTAL zine (9) (8)",
-   "header": [
-    "UNDER INVESTIGATION OF END YEAR PERCENTAGE TO TOTAL zine (9) (8)"
-   ]
+   "name": "col_8",
+   "header": []
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
   }
  ],
- "notes": [
-  "* IN CUSTODY OR ON BAIL"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

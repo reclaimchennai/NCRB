@@ -8,42 +8,53 @@
  "serial": "90",
  "title": "Persons Arrested per Case Under IPC & SLL Crimes (1993-1997)",
  "listing_title": "Persons Arrested per Case Under IPC & SLL Crimes (1993-1997)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-70-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-70-1996-crime-survey.pdf",
  "source_sha256": "ccb5358cc4b6bbe9f6ff04d68ee1bca24cd31fcc16191f416ff3c35d598741b9",
  "table_no": "70",
- "pdf_title": "PERSONS ARRESTED PER CASE UNDER IPC AND SLL CRIMES",
- "row_label": "(1993-1997) SL CRIME HEAD NO. a) / (1993-1997) 1993 / (1993-1997) 1994",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-70",
+ "row_label": "SL NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 45,
- "n_cols": 3,
- "n_cells": 113,
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 235,
  "columns": [
   {
-   "col_no": "5",
-   "name": "(1993-1997) | 1995",
+   "col_no": "3",
+   "name": "1993",
    "header": [
-    "(1993-1997)",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1994",
+   "header": [
+    "1994"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1995",
+   "header": [
     "1995"
    ]
   },
   {
    "col_no": "6",
-   "name": "(1993-1997) | 1996",
+   "name": "1996",
    "header": [
-    "(1993-1997)",
     "1996"
    ]
   },
   {
    "col_no": "7",
-   "name": "(1993-1997) | 1997",
+   "name": "1997",
    "header": [
-    "(1993-1997)",
     "1997"
    ]
   }

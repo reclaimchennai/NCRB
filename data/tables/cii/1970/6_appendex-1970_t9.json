@@ -6,87 +6,70 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "$1",
+ "title": "88 APPENDIX RIOTS",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendex-1970.pdf",
  "source_file": "raw/cii/1970/table_chapter/appendex-1970.pdf",
  "source_sha256": "3ed7da4cec7a8a52c94ec44a60188cb502ba306987e4cb8da95c49a8762233a3",
  "table_no": "",
- "pdf_title": "$1",
- "row_label": "Vv CASES Total true cases",
+ "pdf_title": "88 APPENDIX RIOTS",
+ "row_label": "Sl. No.",
  "pages": [
-  10
+  17
  ],
- "n_rows": 38,
- "n_cols": 9,
- "n_cells": 337,
+ "n_rows": 39,
+ "n_cols": 7,
+ "n_cells": 273,
  "columns": [
   {
-   "col_no": "10",
-   "name": "Cases not detected",
+   "col_no": "2",
+   "name": "States/U.Ts./Cities",
    "header": [
-    "Cases not detected"
+    "States/U.Ts./Cities"
    ]
   },
   {
-   "col_no": "11",
-   "name": "Cases compounded | Cases in which chargesheets were laid",
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Cases compounded",
-    "Cases in which chargesheets were laid"
+    "Cases pending investigation from previous year"
    ]
   },
   {
-   "col_no": "12",
-   "name": "Cases compounded | or with drawn",
+   "col_no": "4",
+   "name": "Cases pending disposal in the courts",
    "header": [
-    "Cases compounded",
-    "or with drawn"
+    "Cases pending disposal in the courts"
    ]
   },
   {
-   "col_no": "13",
-   "name": "Cases compounded | Cases in which trials were completed",
+   "col_no": "5",
+   "name": "Cases reported during the year",
    "header": [
-    "Cases compounded",
-    "Cases in which trials were completed"
+    "Cases reported during the year"
    ]
   },
   {
-   "col_no": "14",
-   "name": "Cases convicted",
+   "col_no": "6",
+   "name": "Cases not investigated (+) declared false (+) mistake of fact or law (+) Non-cognizable",
    "header": [
-    "Cases convicted"
+    "Cases not investigated (+) declared false (+) mistake of fact or law (+) Non-cognizable"
    ]
   },
   {
-   "col_no": "15",
-   "name": "tedor dis-",
+   "col_no": "7",
+   "name": "Cases pending investigation at the end of the year",
    "header": [
-    "tedor dis-"
+    "Cases pending investigation at the end of the year"
    ]
   },
   {
-   "col_no": "16",
-   "name": "%of cases convictedto charged total true cases investigated",
+   "col_no": "8",
+   "name": "Cases pending trial at the end of the year",
    "header": [
-    "%of cases convictedto charged total true cases investigated"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "%of Cases convictedto cases which trials were completed",
-   "header": [
-    "%of Cases convictedto cases which trials were completed"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "Volume of crime per 100000 of population",
-   "header": [
-    "Volume of crime per 100000 of population"
+    "Cases pending trial at the end of the year"
    ]
   }
  ],
@@ -95,8 +78,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 24,
+  "other_totals_passed": 22
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

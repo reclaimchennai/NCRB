@@ -6,36 +6,84 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "THEEIS—CATILE",
+ "title": "77 APPENDIX IX CASES",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix1967.pdf",
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "THEEIS—CATILE",
- "row_label": "SL. No. 2 / Persons. in custody pending Persons in custody pending investigation oron bail during of investigation 3",
+ "pdf_title": "77 APPENDIX IX CASES",
+ "row_label": "Total true cases",
  "pages": [
-  28
+  19
  ],
  "n_rows": 39,
- "n_cols": 2,
- "n_cells": 74,
+ "n_cols": 9,
+ "n_cells": 351,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Persons. in custody pending | on bail during the stage the stage - of trial 4\"",
+   "col_no": "2",
+   "name": "Cases not detected",
    "header": [
-    "Persons. in custody pending",
-    "on bail during the stage the stage - of trial 4\""
+    "Cases not detected"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cases in which charge-sheet was laid",
+   "header": [
+    "Cases in which charge-sheet was laid"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons arrested during year - - 5",
+   "name": "Cases com-pounded or with-drawn",
    "header": [
-    "Persons arrested during year - - 5"
+    "Cases com-pounded or with-drawn"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases in which trial was completed",
+   "header": [
+    "Cases in which trial was completed"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases convicted",
+   "header": [
+    "Cases convicted"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases acquitted or discharged",
+   "header": [
+    "Cases acquitted or discharged"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of cases convicted to true cases investigated",
+   "header": [
+    "Percentage of cases convicted to true cases investigated"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Percentage of cases convicted to cases in which trial was completed",
+   "header": [
+    "Percentage of cases convicted to cases in which trial was completed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Volume of crime per 1,00,000 of population",
+   "header": [
+    "Volume of crime per 1,00,000 of population"
    ]
   }
  ],
@@ -44,10 +92,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

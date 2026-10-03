@@ -6,91 +6,95 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "28",
- "title": "PERSONS “0:12: UNDER IPC AND LSL CRIMES BY AGE GROUPS AND SEX DURING 1990",
+ "title": "122 PERSONS ARRESTED UNDER IPC AND LSL CRIMES BY AGE GROUPS AND SEX DURING 1990 NOTE: 16-18 YEARS MEANS 16 YEARS & ABOVE BUT BELOW 18 YEARS OF AGE ETC.",
  "listing_title": "Persons Arrested under IPC and LSL Crimes by Age Groups and Sex During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/28table-28-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/28table-28-1990-.pdf",
  "source_sha256": "9b0bd63fd77f00abab5485026f20cf303cc8e1b85ddd8fe6cac9b860b82c4798",
  "table_no": "",
- "pdf_title": "PERSONS “0:12: UNDER IPC AND LSL CRIMES BY AGE GROUPS AND SEX DURING 1990",
- "row_label": "nn CRIME SL. NO. qi)",
+ "pdf_title": "122 PERSONS ARRESTED UNDER IPC AND LSL CRIMES BY AGE GROUPS AND SEX DURING 1990 NOTE: 16-18 YEARS MEANS 16 YEARS & ABOVE BUT BELOW 18 YEARS OF AGE ETC.",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 36,
  "n_cols": 8,
- "n_cells": 281,
+ "n_cells": 288,
  "columns": [
   {
    "col_no": "3",
-   "name": "gn nn nn HEAD MALE <3)",
+   "name": "BELOW 16 YEARS | MALE",
    "header": [
-    "gn nn nn HEAD MALE <3)"
+    "BELOW 16 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "no BELOW FEMALE",
+   "name": "BELOW 16 YEARS | FEMALE",
    "header": [
-    "no BELOW FEMALE"
+    "BELOW 16 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "16 MALE",
+   "name": "16-18 YEARS | MALE",
    "header": [
-    "16 MALE"
+    "16-18 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "6",
-   "name": "YEARS FEMALE",
+   "name": "16-18 YEARS | FEMALE",
    "header": [
-    "YEARS FEMALE"
+    "16-18 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "nn 16-18 MALE <7)",
+   "name": "18-30 YEARS | MALE",
    "header": [
-    "nn 16-18 MALE <7)"
+    "18-30 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "nn YEARS FEMALE",
+   "name": "18-30 YEARS | FEMALE",
    "header": [
-    "nn YEARS FEMALE"
+    "18-30 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "9",
-   "name": "enn | 18-30 30-50 MALE",
+   "name": "30-50 YEARS | MALE",
    "header": [
-    "enn",
-    "18-30 30-50 MALE"
+    "30-50 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "10",
-   "name": "enn | YEARS YEARS FEMALE",
+   "name": "30-50 YEARS | FEMALE",
    "header": [
-    "enn",
-    "YEARS YEARS FEMALE"
+    "30-50 YEARS",
+    "FEMALE"
    ]
   }
  ],
- "notes": [
-  "NOTE: 16-18 YEARS MEANS 16 YEARS & ABOVE BUT BELOW 18 YEARS OF AGE ETC."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 23,
-  "other_totals_passed": 14
+  "other_totals_checked": 24,
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

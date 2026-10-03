@@ -6,50 +6,36 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "Download Full Report",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 * Jails do not Exist",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "33",
- "pdf_title": "",
- "row_label": "DETAILS OF INMATES DISCHARGED AT THE END STATE/UT SL. NO. wy",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 * Jails do not Exist",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  120
+  61
  ],
- "n_rows": 18,
- "n_cols": 2,
- "n_cells": 24,
+ "n_rows": 28,
+ "n_cols": 1,
+ "n_cells": 28,
  "columns": [
   {
    "col_no": "3",
-   "name": "DETAILS OF INMATES DISCHARGED AT THE END | ESCAPEE",
+   "name": "PLAN EXPENDITURE (Rs. IN LAKHS)",
    "header": [
-    "DETAILS OF INMATES DISCHARGED AT THE END",
-    "ESCAPEE"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "1998 RE-ARRESTED ESCAPEE",
-   "header": [
-    "1998 RE-ARRESTED ESCAPEE"
+    "PLAN EXPENDITURE (Rs. IN LAKHS)"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 1,
-  "failures": [
-   "col 3 'TOTAL (UTS)': printed 26, sum 406",
-   "col 4 'TOTAL (STATES)': printed 220, sum 175",
-   "col 4 'TOTAL (UTS)': printed 3, sum 1"
-  ],
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

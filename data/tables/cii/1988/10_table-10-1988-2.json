@@ -8,49 +8,51 @@
  "serial": "10",
  "title": "Incidence and Volume of Total Cognizable Crimes under Local & Special Laws (LSL) 1978-88",
  "listing_title": "Incidence and Volume of Total Cognizable Crimes under Local & Special Laws (LSL) 1978-88",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-10-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-10-1988-2.pdf",
  "source_sha256": "f6ab3626fa7bcb8f26079fbf52b28bb9cc0bba23c962e22252beed4c55269603",
  "table_no": "10",
- "pdf_title": "INCIDENCE AND VOLUME OF TOTAL COGNIZARILE CRIMES UNDER LOCAL & SPECIAL LAWS",
- "row_label": "1978-88 SL. YEAR NO. (i)",
+ "pdf_title": "60 TABLE-10 INCIDENCE AND VOLUME OF TOTAL COGNIZABLE CRIMES UNDER LOCAL & SPECIAL LAWS (LSL) 1978-88",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
  "n_rows": 13,
- "n_cols": 3,
- "n_cells": 39,
+ "n_cols": 4,
+ "n_cells": 52,
  "columns": [
   {
-   "col_no": "3",
-   "name": "1978-88 | INCIDENCE OF CRIMES",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "1978-88",
-    "INCIDENCE OF CRIMES"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "INCIDENCE OF COG. CRIMES",
+   "header": [
+    "INCIDENCE OF COG. CRIMES"
    ]
   },
   {
    "col_no": "4",
-   "name": "1978-88 | COG. POPULATION* (IN",
+   "name": "ESTIMATED MID-YEAR POPULATION* (IN LAKH)",
    "header": [
-    "1978-88",
-    "COG. POPULATION* (IN"
+    "ESTIMATED MID-YEAR POPULATION* (IN LAKH)"
    ]
   },
   {
    "col_no": "5",
-   "name": "VOLUME OF ESTIMATED MID-YEAR (PER CRIME LAKH OF LAKH) POPULATION)",
+   "name": "VOLUME OF CRIME (PER LAKH OF POPULATION)",
    "header": [
-    "VOLUME OF ESTIMATED MID-YEAR (PER CRIME LAKH OF LAKH) POPULATION)"
+    "VOLUME OF CRIME (PER LAKH OF POPULATION)"
    ]
   }
  ],
- "notes": [
-  "RATE PER",
-  "* SOURCE: THE REGISTRAR GENERAL OF INDIA, NEW DELHI"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

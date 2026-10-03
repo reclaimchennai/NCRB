@@ -8,54 +8,54 @@
  "serial": "20",
  "title": "Percentage Distribution of Recidivism in India During 1987",
  "listing_title": "Percentage Distribution of Recidivism in India During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_54-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_54-1987.pdf",
  "source_sha256": "062c915562102726900724c94e270b431006325ea273ebbad504acfd44273b2d",
  "table_no": "54",
- "pdf_title": "Percentage Distribution Of Recidivism In India During 1987",
- "row_label": "SL NO / CRIME",
+ "pdf_title": "150 TABLE 54 Percentage Distribution Of Recidivism In India During 1987",
+ "row_label": "SL NO / CRIME HEADS",
  "pages": [
   1
  ],
  "n_rows": 13,
  "n_cols": 4,
- "n_cells": 51,
+ "n_cells": 52,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERCENTAGE HEADS OFFENDEKS TO",
+   "name": "PERCENTAGE OF NEW OFFENDERS ARRESTED TO TOTAL ARRESTED",
    "header": [
-    "PERCENTAGE HEADS OFFENDEKS TO"
+    "PERCENTAGE OF NEW OFFENDERS ARRESTED TO TOTAL ARRESTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF BEEN TOTAL TO ONCE",
+   "name": "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED | ONCE",
    "header": [
-    "OF BEEN TOTAL TO ONCE"
+    "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED",
+    "ONCE"
    ]
   },
   {
    "col_no": "5",
-   "name": "NEW OF ARRESTED ARRESTED TOTAL TWICE",
+   "name": "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED | TWICE",
    "header": [
-    "NEW OF ARRESTED ARRESTED TOTAL TWICE"
+    "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED",
+    "TWICE"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE WHO OF FENDEEKS HAVE THE IN PAST ARRESTED TIME‘ THREE MORE OR",
+   "name": "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED | THREE TIMES OR MORE",
    "header": [
-    "PERCENTAGE WHO OF FENDEEKS HAVE THE IN PAST ARRESTED TIME‘ THREE MORE OR"
+    "PERCENTAGE OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST TO TOTAL ARRESTED",
+    "THREE TIMES OR MORE"
    ]
   }
  ],
- "notes": [
-  "Crime Under IPC",
-  "Note Percentage less than 0.05 is taken as 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

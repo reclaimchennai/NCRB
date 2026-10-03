@@ -8,35 +8,30 @@
  "serial": "35",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During (1988-98)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During (1988-98)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-35-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-35-1999.pdf",
  "source_sha256": "a08bcbffaa1ce66008bf2e1d2eb4bb7b2eaaf51727e7351a6f6beb16cfff9679",
  "table_no": "35",
- "pdf_title": "VALUE OF PRUPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY DURING (1988.98)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE-35",
  "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 14,
- "n_cols": 5,
- "n_cells": 65,
+ "n_rows": 12,
+ "n_cols": 4,
+ "n_cells": 48,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
-   "col_no": "3",
    "name": "YEAR",
    "header": [
     "YEAR"
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "3",
    "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
     "TOTAL VALUE OF PROPERTY",
@@ -44,7 +39,7 @@
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
    "header": [
     "TOTAL VALUE OF PROPERTY",
@@ -52,10 +47,10 @@
    ]
   },
   {
-   "col_no": "6",
-   "name": "(Rs, in PEKUCENIAGE é RECOVERY",
+   "col_no": "5",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "(Rs, in PEKUCENIAGE é RECOVERY"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],
@@ -67,7 +62,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

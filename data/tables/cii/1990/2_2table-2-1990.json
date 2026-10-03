@@ -8,107 +8,84 @@
  "serial": "2",
  "title": "Incidence and Volume of Cognizable Crimes (IPC) under Different Crime Heads and Percentage Changes During 1990",
  "listing_title": "Incidence and Volume of Cognizable Crimes (IPC) under Different Crime Heads and Percentage Changes During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/2table-2-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/2table-2-1990-.pdf",
  "source_sha256": "f349c61682746b9cf4af0c829a4c13712e821e225a2e46d3e1c4aab4d39e966d",
  "table_no": "2",
- "pdf_title": "AND VOLUME OF COGNTZARIE CRIMES (IPC) UNDER virrenenr CRIME HEADS",
- "row_label": "CRIME SL. NO. a)",
+ "pdf_title": "18 TABLE - 2 INCIDENCE AND VOLUME OF COGNIZABLE CRIMES (IPC) UNDER DIFFERENT CRIME HEADS AND PERCENTAGE CHANGES DURING 1990",
+ "row_label": "1 / MURDER",
  "pages": [
   1,
+  1,
+  1,
+  2,
   2
  ],
- "n_rows": 54,
- "n_cols": 11,
- "n_cells": 312,
+ "n_rows": 21,
+ "n_cols": 9,
+ "n_cells": 80,
  "columns": [
   {
    "col_no": "3",
-   "name": "AND HEAD 1980",
+   "name": "22149(3.3)",
    "header": [
-    "AND HEAD 1980"
+    "22149(3.3)"
    ]
   },
   {
    "col_no": "4",
-   "name": "CHANGES 1985",
+   "name": "25970(3.5)",
    "header": [
-    "CHANGES 1985"
+    "25970(3.5)"
    ]
   },
   {
    "col_no": "5",
-   "name": "DURING 1986",
+   "name": "27269(3.6)",
    "header": [
-    "DURING 1986"
+    "27269(3.6)"
    ]
   },
   {
    "col_no": "6",
-   "name": "1990 1987",
+   "name": "28513(3.6)",
    "header": [
-    "1990 1987"
+    "28513(3.6)"
    ]
   },
   {
    "col_no": "7",
-   "name": "1988",
+   "name": "28771(3.6)",
    "header": [
-    "1988"
+    "28771(3.6)"
    ]
   },
   {
    "col_no": "8",
-   "name": "1989",
+   "name": "31222(3.8)",
    "header": [
-    "1989"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "HEAD NIAL 1985-1989 (Q. A.)",
-   "header": [
-    "HEAD NIAL 1985-1989 (Q. A.)"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "QUINQUENAVG.",
-   "header": [
-    "QUINQUENAVG."
+    "31222(3.8)"
    ]
   },
   {
    "col_no": "11",
-   "name": "CHANGE | 1990 1980",
-   "header": [
-    "CHANGE",
-    "1990 1980"
-   ]
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "CHANGE | TNCREASE/(-) ((+) OVER",
-   "header": [
-    "CHANGE",
-    "TNCREASE/(-) ((+) OVER"
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "1990 IN DECREASE) - - 1939",
-   "header": [
-    "1990 IN DECREASE) - - 1939"
-   ]
+   "name": "col_13",
+   "header": []
   }
  ],
- "notes": [
-  "Note: 1. Figures in brackets indicate volume of crime per lakh of population.",
-  "2. * indicates that the Crime Head was introduced in 1988.",
-  "3. Percentage less than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -117,6 +94,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 5,
  "warnings": []
 }

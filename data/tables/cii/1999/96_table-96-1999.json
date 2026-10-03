@@ -8,103 +8,108 @@
  "serial": "96",
  "title": "Police Stations by Volume of Crime During 1999",
  "listing_title": "Police Stations by Volume of Crime During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-96-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-96-1999.pdf",
  "source_sha256": "ada493cf0bc350a0567aa5cf2880fcc1a0784cb015b7ca6432072e39e860920f",
  "table_no": "96",
- "pdf_title": "POLICE STATIONS BY VOLUME OF CRIME DURING 1999",
- "row_label": "SL. a) STATES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 96",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 9,
- "n_cells": 311,
+ "n_cells": 315,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE/UT O-60CASES @)",
-   "header": [
-    "STATE/UT O-60CASES @)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "61-100 Cases )",
+   "name": "NUMBER OF POLICE STATIONS | 0-60 CASES",
    "header": [
-    "61-100 Cases )"
+    "NUMBER OF POLICE STATIONS",
+    "0-60 CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "101-200 CASES 6)",
+   "name": "NUMBER OF POLICE STATIONS | 61-100 CASES",
    "header": [
-    "101-200 CASES 6)"
+    "NUMBER OF POLICE STATIONS",
+    "61-100 CASES"
    ]
   },
   {
    "col_no": "5",
-   "name": "¢ 201-300 CASES",
+   "name": "NUMBER OF POLICE STATIONS | 101-200 CASES",
    "header": [
-    "¢ 201-300 CASES"
+    "NUMBER OF POLICE STATIONS",
+    "101-200 CASES"
    ]
   },
   {
    "col_no": "6",
-   "name": "- POLICE TATIONS | 4",
+   "name": "NUMBER OF POLICE STATIONS | 201-300 CASES",
    "header": [
-    "- POLICE TATIONS",
-    "4"
+    "NUMBER OF POLICE STATIONS",
+    "201-300 CASES"
    ]
   },
   {
    "col_no": "7",
-   "name": "- POLICE TATIONS | 401-500 8)",
+   "name": "NUMBER OF POLICE STATIONS | 301-400 CASES",
    "header": [
-    "- POLICE TATIONS",
-    "401-500 8)"
+    "NUMBER OF POLICE STATIONS",
+    "301-400 CASES"
    ]
   },
   {
    "col_no": "8",
-   "name": "«1001 | 01-1000 CASES (9)",
+   "name": "NUMBER OF POLICE STATIONS | 401-500 CASES",
    "header": [
-    "«1001",
-    "01-1000 CASES (9)"
+    "NUMBER OF POLICE STATIONS",
+    "401-500 CASES"
    ]
   },
   {
    "col_no": "9",
-   "name": "«1001 | ABOVE (10)",
+   "name": "NUMBER OF POLICE STATIONS | 501-1000 CASES",
    "header": [
-    "«1001",
-    "ABOVE (10)"
+    "NUMBER OF POLICE STATIONS",
+    "501-1000 CASES"
    ]
   },
   {
    "col_no": "10",
-   "name": "To an)",
+   "name": "NUMBER OF POLICE STATIONS | 1001 AND ABOVE",
    "header": [
-    "To an)"
+    "NUMBER OF POLICE STATIONS",
+    "1001 AND ABOVE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "NUMBER OF POLICE STATIONS | TOTAL (COL.3 TO 10)",
+   "header": [
+    "NUMBER OF POLICE STATIONS",
+    "TOTAL (COL.3 TO 10)"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 0,
+  "cells_checked": 27,
+  "cells_passed": 23,
   "failures": [
-   "col 2 'TOTAL (UTS)': printed 8, sum 2951",
-   "col 3 'TOTAL (UTS)': printed 0, sum 4151",
-   "col 5 'TOTAL (UTS)': printed 30, sum 3568",
-   "col 9 '\"TOTAL (ALL-INDIA)': printed 361, sum 711"
+   "col 3 'TOTAL (UTs)': printed 8, sum 20",
+   "col 3 'TOTAL (ALL-INDIA)': printed 1496, sum 1484",
+   "col 4 'TOTAL (UTs)': printed 0, sum 13",
+   "col 4 'TOTAL (ALL-INDIA)': printed 2107, sum 2094"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

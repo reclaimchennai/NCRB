@@ -6,52 +6,70 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "16",
- "title": "TABLE JUVENILE DELINQUENCY UNDER IMPORTANT HEADS OF",
+ "title": "96 TABLE JUVENILE DELINQUENCY UNDER IMPORTANT HEADS OF",
  "listing_title": "Juvenile Delinquency under Important Heads of Local and Special Laws During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-34-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-34-1973.pdf",
  "source_sha256": "dcb88a1112244a2073900d1ad731c0741b6831942bebceab425705ad611e4cd2",
  "table_no": "",
- "pdf_title": "TABLE JUVENILE DELINQUENCY UNDER IMPORTANT HEADS OF",
- "row_label": "Si, No, / Arms Act / Opium Act Gambling",
+ "pdf_title": "96 TABLE JUVENILE DELINQUENCY UNDER IMPORTANT HEADS OF",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 36,
- "n_cols": 4,
- "n_cells": 105,
+ "n_rows": 38,
+ "n_cols": 7,
+ "n_cells": 228,
  "columns": [
   {
-   "col_no": "5",
-   "name": "Opium Act Gambling | Act",
+   "col_no": "2",
+   "name": "States/U.Ts. /Cities",
    "header": [
-    "Opium Act Gambling",
-    "Act"
+    "States/U.Ts. /Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Arms Act",
+   "header": [
+    "Arms Act"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Opium Act",
+   "header": [
+    "Opium Act"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Gambling Act",
+   "header": [
+    "Gambling Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "Act",
+   "name": "Excise Act",
    "header": [
-    "Act"
+    "Excise Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "Explosive | Act (7)",
+   "name": "Prohibition Act",
    "header": [
-    "Explosive",
-    "Act"
+    "Prohibition Act"
    ]
   },
   {
    "col_no": "8",
-   "name": "Explosive | Act (8)",
+   "name": "Explosive Act",
    "header": [
-    "Explosive",
-    "Act"
+    "Explosive Act"
    ]
   }
  ],
@@ -60,10 +78,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 19,
+  "other_totals_passed": 19
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

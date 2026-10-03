@@ -8,14 +8,14 @@
  "serial": "52",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1988",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-52-1988-2.pdf",
  "source_sha256": "a1e5d92ec81acd28aa5d2b686c9857f37e7a49f7fa1d2100f631f76744703fab",
  "table_no": "52",
- "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURANCE",
- "row_label": "PLACE SL. NO. (1)",
+ "pdf_title": "161 TABLE-52 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURANCE DURING 1988",
+ "row_label": "SL. PLACE OF NO. OCCURANCE / SL. PLACE OF NO. OCCURANCE",
  "pages": [
   1
  ],
@@ -24,61 +24,67 @@
  "n_cells": 64,
  "columns": [
   {
-   "col_no": "2",
-   "name": "OF OCCURANCE NUMBER 42;",
-   "header": [
-    "OF OCCURANCE NUMBER 42;"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "DURING | DACOITY VALUE (3)",
+   "name": "DACOITY | NUMBER",
    "header": [
-    "DURING",
-    "DACOITY VALUE (3)"
+    "DACOITY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "DURING | ROBBERY NUMBER (64)",
+   "name": "DACOITY | VALUE",
    "header": [
-    "DURING",
-    "ROBBERY NUMBER (64)"
+    "DACOITY",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "1988 VALUE 16,",
+   "name": "ROBBERY | NUMBER",
    "header": [
-    "1988 VALUE 16,"
+    "ROBBERY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "BURGLARY NUMBER (1)",
+   "name": "ROBBERY | VALUE",
    "header": [
-    "BURGLARY NUMBER (1)"
+    "ROBBERY",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "«Rs. VALUE (8)",
+   "name": "BURGLARY | NUMBER",
    "header": [
-    "«Rs. VALUE (8)"
+    "BURGLARY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "in THEFT NUMBER (9)",
+   "name": "BURGLARY | VALUE",
    "header": [
-    "in THEFT NUMBER (9)"
+    "BURGLARY",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "Lakh) ee VALUE (10)",
+   "name": "THEFT | NUMBER",
    "header": [
-    "Lakh) ee VALUE (10)"
+    "THEFT",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "THEFT | VALUE",
+   "header": [
+    "THEFT",
+    "VALUE"
    ]
   }
  ],
@@ -87,10 +93,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 1
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

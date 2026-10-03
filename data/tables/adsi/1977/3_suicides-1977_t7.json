@@ -6,35 +6,35 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1977",
  "serial": "3",
- "title": "Suicides classified according to sex and by States, U.Ts, and Metropolitan Cities during 1977",
+ "title": "32 TABLE 7 Suicides classified according to sex and by States, U.Ts, and Metropolitan Cities during 1977",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1977.pdf",
  "source_file": "raw/adsi/1977/year_wise/suicides-1977.pdf",
  "source_sha256": "f34cb38a4443ba25e3f945fa4a5f6ccec69bcd16c6ecd10b875fed27b01a9163",
  "table_no": "7",
- "pdf_title": "Suicides classified according to sex and by States, U.Ts, and Metropolitan Cities during 1977",
- "row_label": "Names of Sl.No.",
+ "pdf_title": "32 TABLE 7 Suicides classified according to sex and by States, U.Ts, and Metropolitan Cities during 1977",
+ "row_label": "Sl. No. / Names of States/U. Ts./Cities",
  "pages": [
   14
  ],
- "n_rows": 44,
+ "n_rows": 43,
  "n_cols": 5,
- "n_cells": 210,
+ "n_cells": 215,
  "columns": [
   {
    "col_no": "3",
-   "name": "States/U. Ts./Cities",
+   "name": "Male",
    "header": [
-    "States/U. Ts./Cities"
+    "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "Male % male over total",
+   "name": "% male over total",
    "header": [
-    "Male % male over total"
+    "% male over total"
    ]
   },
   {
@@ -46,9 +46,9 @@
   },
   {
    "col_no": "6",
-   "name": "% female over tctal",
+   "name": "% female over total",
    "header": [
-    "% female over tctal"
+    "% female over total"
    ]
   },
   {
@@ -61,11 +61,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 9,
+  "cells_passed": 9,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

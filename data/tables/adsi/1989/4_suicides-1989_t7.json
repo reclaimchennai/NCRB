@@ -6,76 +6,53 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1989",
  "serial": "4",
- "title": "Incidence And Volume Of Suicides",
+ "title": "39 TABLE - 7 Incidence And Volume Of Suicides",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1989.pdf",
  "source_file": "raw/adsi/1989/year_wise/suicides-1989.pdf",
  "source_sha256": "dac08e88e6ab8208f1a2e7178532abc4a95d91678e6af855a32c169bbe5aed08",
  "table_no": "7",
- "pdf_title": "Incidence And Volume Of Suicides",
- "row_label": "st. No. / State/UT/City",
+ "pdf_title": "39 TABLE - 7 Incidence And Volume Of Suicides",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
-  9,
-  11
+  9
  ],
- "n_rows": 53,
- "n_cols": 6,
- "n_cells": 195,
+ "n_rows": 47,
+ "n_cols": 4,
+ "n_cells": 188,
  "columns": [
   {
    "col_no": "3",
-   "name": "During (State, of Number Suicides",
+   "name": "Number of Suicides",
    "header": [
-    "During (State, of Number Suicides"
+    "Number of Suicides"
    ]
   },
   {
    "col_no": "4",
-   "name": "1989 UT Percentage Share in Total Suicides",
+   "name": "Percentage Share in Total Suicides",
    "header": [
-    "1989 UT Percentage Share in Total Suicides"
+    "Percentage Share in Total Suicides"
    ]
   },
   {
    "col_no": "5",
-   "name": "& Estimated Mid-Year Population (In Lakh)",
+   "name": "Estimated Mid-Year Population (In Lakh)",
    "header": [
-    "& Estimated Mid-Year Population (In Lakh)"
+    "Estimated Mid-Year Population (In Lakh)"
    ]
   },
   {
    "col_no": "6",
-   "name": "City-wise) of Volume Suicides [Col.3/ Col.5)",
+   "name": "Volume of Suicides [Col.3/ Col.5]",
    "header": [
-    "City-wise) of Volume Suicides [Col.3/ Col.5)"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "2 | 3 es we os 2 ae 5",
-   "header": [
-    "2",
-    "3 es we os 2 ae 5"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "2 | a",
-   "header": [
-    "2",
-    "a"
+    "Volume of Suicides [Col.3/ Col.5]"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0",
-  "1*) z",
-  "z",
-  "Idd -",
-  "Me"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 3,
   "cells_passed": 3,
@@ -83,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

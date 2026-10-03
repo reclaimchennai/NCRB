@@ -6,92 +6,61 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1992",
  "serial": "3",
- "title": "Disirivuiion Of Accidental Deaths By Sex And Age-Groups During 1992",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.- 10 The table below groups the States/UTs category-wise as High Risk and Low Risk.",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1992.pdf",
  "source_file": "raw/adsi/1992/year_wise/accidental-deaths-1992.pdf",
  "source_sha256": "438d373cb515809dfb05c6a5b51014e3e668719cbd1596e8d1d8051d583e280c",
- "table_no": "5",
- "pdf_title": "Disirivuiion Of Accidental Deaths By Sex And Age-Groups During 1992",
- "row_label": "Sl. No. / State/UT",
+ "table_no": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1992 N.C.R.B.- 10 The table below groups the States/UTs category-wise as High Risk and Low Risk.",
+ "row_label": "HIGH RISK SL. NO. / HIGH RISK STATE/UT",
  "pages": [
-  23
+  10
  ],
- "n_rows": 35,
- "n_cols": 8,
- "n_cells": 278,
+ "n_rows": 19,
+ "n_cols": 4,
+ "n_cells": 70,
  "columns": [
   {
    "col_no": "3",
-   "name": "Male",
+   "name": "HIGH RISK | RATE",
    "header": [
-    "Male"
+    "HIGH RISK",
+    "RATE"
    ]
   },
   {
    "col_no": "4",
-   "name": "Below 18 Years Female",
+   "name": "LOW RISK | SL. NO.",
    "header": [
-    "Below 18 Years Female"
+    "LOW RISK",
+    "SL. NO."
    ]
   },
   {
    "col_no": "5",
-   "name": "(State Total",
+   "name": "LOW RISK | STATE/UT",
    "header": [
-    "(State Total"
+    "LOW RISK",
+    "STATE/UT"
    ]
   },
   {
    "col_no": "6",
-   "name": "& Percentage To Total Deaths",
+   "name": "LOW RISK | RATE",
    "header": [
-    "& Percentage To Total Deaths"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "UT-wise) Male",
-   "header": [
-    "UT-wise) Male"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "18-30 Years | Female",
-   "header": [
-    "18-30 Years",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "18-30 Years | Total",
-   "header": [
-    "18-30 Years",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Psiccmags To Total Deaths",
-   "header": [
-    "Psiccmags To Total Deaths"
+    "LOW RISK",
+    "RATE"
    ]
   }
  ],
- "notes": [
-  "Note 18-30 year means 18 years and above but below 30 years of age etc."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 12,
-  "failures": [
-   "col 3 'TOTAL (States)': printed 19219, sum 18661",
-   "col 3 'TOTAL (UTs)': printed 348, sum 357"
-  ],
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -6,335 +6,139 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "40",
- "title": "TARLE-2600",
+ "title": "103 TABLE-24 PERSONS ARRESTED UNDER DIFFERENT IPC CRIMES BY SEX IN STATES,UTs & CITIES DURING 1991",
  "listing_title": "Persons Arrested under Different IPC Crimes by Sex in States, UTs & Cities During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1991-24.pdf",
  "source_file": "raw/cii/1991/table_content/table-24-1991-24.pdf",
  "source_sha256": "293dd841677197e6f68b07a30b3e210637fa9fbbee8cba81ef62a5d647ca0125",
  "table_no": "24",
- "pdf_title": "TARLE-2600",
- "row_label": "SL. ko.",
+ "pdf_title": "103 TABLE-24 PERSONS ARRESTED UNDER DIFFERENT IPC CRIMES BY SEX IN STATES,UTs & CITIES DURING 1991",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
-  2,
-  3,
-  4,
-  5,
-  6,
-  7
+  1,
+  2
  ],
- "n_rows": 183,
- "n_cols": 37,
- "n_cells": 1361,
+ "n_rows": 55,
+ "n_cols": 12,
+ "n_cells": 564,
  "columns": [
   {
-   "col_no": "9",
-   "name": "OT | MALE",
+   "col_no": "3",
+   "name": "MURDER | HALE",
    "header": [
-    "OT",
+    "MURDER",
+    "HALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "MURDER | FEMALE",
+   "header": [
+    "MURDER",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "MURDER | TOTAL",
+   "header": [
+    "MURDER",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ATTEIPT TO COKNIT HURDER | HALE",
+   "header": [
+    "ATTEIPT TO COKNIT HURDER",
+    "HALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "ATTEIPT TO COKNIT HURDER | FEMALE",
+   "header": [
+    "ATTEIPT TO COKNIT HURDER",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ATTEIPT TO COKNIT HURDER | TOTAL",
+   "header": [
+    "ATTEIPT TO COKNIT HURDER",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "C.H. NOT AMOUNTING TO MURDER | MALE",
+   "header": [
+    "C.H. NOT AMOUNTING TO MURDER",
     "MALE"
    ]
   },
   {
    "col_no": "10",
-   "name": "OT | Td MURDER FEMALE",
+   "name": "C.H. NOT AMOUNTING TO MURDER | FEMALE",
    "header": [
-    "OT",
-    "Td MURDER FEMALE"
+    "C.H. NOT AMOUNTING TO MURDER",
+    "FEMALE"
    ]
   },
   {
    "col_no": "11",
-   "name": "AROUMT IMG - TOTAL",
+   "name": "C.H. NOT AMOUNTING TO MURDER | TOTAL",
    "header": [
-    "AROUMT IMG - TOTAL"
+    "C.H. NOT AMOUNTING TO MURDER",
+    "TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "RAPE | HALE",
+   "name": "RAPE | MALE",
    "header": [
     "RAPE",
-    "HALE"
+    "MALE"
    ]
   },
   {
    "col_no": "13",
-   "name": "RAPE | TOTAL FEMALE cia)",
+   "name": "RAPE | FEMALE",
    "header": [
     "RAPE",
-    "TOTAL FEMALE cia)"
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "KIGUAPPING & ABDUCTION | MALE a) 1150 54 1171 3669",
+   "col_no": "14",
+   "name": "RAPE | TOTAL",
    "header": [
-    "KIGUAPPING & ABDUCTION",
-    "MALE a) 1150 54 1171 3669"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "KIGUAPPING & ABDUCTION | TOTAL FEMALE cms) 102 3 9 341",
-   "header": [
-    "KIGUAPPING & ABDUCTION",
-    "TOTAL FEMALE cms) 102 3 9 341"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "KIGUAPPING & ABDUCTION | TOTAL (16) 1252 7180 4010",
-   "header": [
-    "KIGUAPPING & ABDUCTION",
-    "TOTAL (16) 1252 7180 4010"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "KIGUAPPING & ABDUCTION | OF WOMEN £ GIRLS | MALE any 428 4 rs",
-   "header": [
-    "KIGUAPPING & ABDUCTION",
-    "OF WOMEN £ GIRLS",
-    "MALE any 428 4 rs"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "KIGUAPPING & ABDUCTION | OF WOMEN £ GIRLS | FEMALE 18) a 9 222",
-   "header": [
-    "KIGUAPPING & ABDUCTION",
-    "OF WOMEN £ GIRLS",
-    "FEMALE 18) a 9 222"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "KIGUAPPING & ABDUCTION | TOTAL (19) 519 at 906 2268",
-   "header": [
-    "KIGUAPPING & ABDUCTION",
-    "TOTAL (19) 519 at 906 2268"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "KIGUAPPING & ABDUCTION | MALE (20) Taz 13 194 1625",
-   "header": [
-    "KIGUAPPING & ABDUCTION",
-    "MALE (20) Taz 13 194 1625"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "KIGUAPPING & ABDUCTION | OF OTHERS FEMALE 9 (21) WW o o 119",
-   "header": [
-    "KIGUAPPING & ABDUCTION",
-    "OF OTHERS FEMALE 9 (21) WW o o 119"
-   ]
-  },
-  {
-   "col_no": "10009",
-   "name": "- TOTAL 23) (22) 733 % 194. 1742",
-   "header": [
-    "- TOTAL 23) (22) 733 % 194. 1742"
-   ]
-  },
-  {
-   "col_no": "10010",
-   "name": "26 HALE (2) PRADESH ARUNACHAL PRADESH aoa",
-   "header": [
-    "26 HALE (2) PRADESH ARUNACHAL PRADESH aoa"
-   ]
-  },
-  {
-   "col_no": "10011",
-   "name": "(Cone DACOITY FEMALE (243) 25ge Th 6244 14",
-   "header": [
-    "(Cone DACOITY FEMALE (243) 25ge Th 6244 14"
-   ]
-  },
-  {
-   "col_no": "10012",
-   "name": ".} (25) 27 2611 o a oF 25 6289 8",
-   "header": [
-    ".} (25) 27 2611 o a oF 25 6289 8"
-   ]
-  },
-  {
-   "col_no": "10013",
-   "name": "PREPARATIOW AWG | ASSEMELY HALE (28) (25) 36 TS W147 o",
-   "header": [
-    "PREPARATIOW AWG",
-    "ASSEMELY HALE (28) (25) 36 TS W147 o"
-   ]
-  },
-  {
-   "col_no": "10014",
-   "name": "PREPARATIOW AWG | FOR FEMALE TOTAL (273) (29) o 36 0 a o 75 0 W147 o",
-   "header": [
-    "PREPARATIOW AWG",
-    "FOR FEMALE TOTAL (273) (29) o 36 0 a o 75 0 W147 o"
-   ]
-  },
-  {
-   "col_no": "10015",
-   "name": "24 HALE (2)",
-   "header": [
-    "24 HALE (2)"
-   ]
-  },
-  {
-   "col_no": "10016",
-   "name": "(Continued. .} | FEMALE (30)",
-   "header": [
-    "(Continued. .}",
-    "FEMALE (30)"
-   ]
-  },
-  {
-   "col_no": "10017",
-   "name": "(Continued. .} | TOTAL (34)",
-   "header": [
-    "(Continued. .}",
-    "TOTAL (34)"
-   ]
-  },
-  {
-   "col_no": "10018",
-   "name": "HALE (32)",
-   "header": [
-    "HALE (32)"
-   ]
-  },
-  {
-   "col_no": "10019",
-   "name": "(33)",
-   "header": [
-    "(33)"
-   ]
-  },
-  {
-   "col_no": "10020",
-   "name": "TOTAL C35) (54)",
-   "header": [
-    "TOTAL C35) (54)"
-   ]
-  },
-  {
-   "col_no": "10021",
-   "name": "TABLE=24 MALE (2) ANDRA PRADESH",
-   "header": [
-    "TABLE=24 MALE (2) ANDRA PRADESH"
-   ]
-  },
-  {
-   "col_no": "10022",
-   "name": "(Continued...) | THEFT FEMALE (36) T2550",
-   "header": [
-    "(Continued...)",
-    "THEFT FEMALE (36) T2550"
-   ]
-  },
-  {
-   "col_no": "10023",
-   "name": "(Continued...) | TOTAL (ar 10",
-   "header": [
-    "(Continued...)",
-    "TOTAL (ar 10"
-   ]
-  },
-  {
-   "col_no": "10024",
-   "name": "RIOTS | MALE (58) 12760",
-   "header": [
-    "RIOTS",
-    "MALE (58) 12760"
-   ]
-  },
-  {
-   "col_no": "10025",
-   "name": "RIOTS | (39) T3444",
-   "header": [
-    "RIOTS",
-    "(39) T3444"
-   ]
-  },
-  {
-   "col_no": "10026",
-   "name": "RIOTS | TOTAL (41) (40) 34113 6aF",
-   "header": [
-    "RIOTS",
-    "TOTAL (41) (40) 34113 6aF"
-   ]
-  },
-  {
-   "col_no": "10027",
-   "name": "CRIMIWAL MALE (2)",
-   "header": [
-    "CRIMIWAL MALE (2)"
-   ]
-  },
-  {
-   "col_no": "10028",
-   "name": "BREACH | OF TRUST FEMALE (42)",
-   "header": [
-    "BREACH",
-    "OF TRUST FEMALE (42)"
-   ]
-  },
-  {
-   "col_no": "10029",
-   "name": "BREACH | TOTAL (43)",
-   "header": [
-    "BREACH",
-    "TOTAL (43)"
-   ]
-  },
-  {
-   "col_no": "10030",
-   "name": "CHEATING | MALE (44)",
-   "header": [
-    "CHEATING",
-    "MALE (44)"
-   ]
-  },
-  {
-   "col_no": "10031",
-   "name": "CHEATING | FEMALE (45)",
-   "header": [
-    "CHEATING",
-    "FEMALE (45)"
-   ]
-  },
-  {
-   "col_no": "10032",
-   "name": "CHEATING | (66) (47)",
-   "header": [
-    "CHEATING",
-    "(66) (47)"
+    "RAPE",
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "44 PUNE 4 T as i a4"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 7,
-  "cells_passed": 0,
+  "cells_checked": 36,
+  "cells_passed": 28,
   "failures": [
-   "col 9 'TOTAL (STATES)': printed 9768, sum 858",
-   "col 10001 'TOTAL (STATES)': printed 26799, sum 1954",
-   "col 10002 'TOTAL (STATES)': printed 1, sum 84",
-   "col 10010 'TOTAL (STATES)': printed 34205, sum 3256",
-   "col 10011 'TOTAL (STATES)': printed 168, sum 7",
-   "col 10021 'TOTAL (STATES)': printed 276621, sum 21999",
-   "col 10027 'TOTAL {UTs)': printed 651, sum 7562"
+   "col 8 'TOTAL (UTs)': printed 1271, sum 1270",
+   "col 8 'TOTAL (ALL - INDIA)': printed 72981, sum 72984",
+   "col 9 'TOTAL (STATES)': printed 9768, sum 9240",
+   "col 10 'TOTAL (STATES)': printed 227, sum 140",
+   "col 11 'TOTAL (STATES)': printed 9995, sum 9380",
+   "col 12 'TOTAL (STATES)': printed 13696, sum 7777",
+   "col 13 'TOTAL (STATES)': printed 174, sum 100",
+   "col 14 'TOTAL (STATES)': printed 13870, sum 7877"
   ],
-  "other_totals_checked": 8,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 5,
- "ocr_pages": 6,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

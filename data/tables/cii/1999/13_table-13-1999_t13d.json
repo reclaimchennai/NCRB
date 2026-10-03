@@ -6,51 +6,53 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "13",
- "title": "NO. OF VICTIMS MUKDERED BY USE OF FIRE ARMS DURING 1999",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 13D",
  "listing_title": "Incidence and Rate of Violent Crimes During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-13-1999.pdf",
  "source_sha256": "8913cf01781d41f9a13cd948e4978f17a09f7103e8814c838fa651a627c83f97",
  "table_no": "13D",
- "pdf_title": "NO. OF VICTIMS MUKDERED BY USE OF FIRE ARMS DURING 1999",
- "row_label": "SL.NO. FIREARMS (LICENSED + (a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 13D",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   10
  ],
- "n_rows": 55,
- "n_cols": 2,
- "n_cells": 105,
+ "n_rows": 59,
+ "n_cols": 3,
+ "n_cells": 177,
  "columns": [
   {
-   "col_no": "4",
-   "name": "NO. OF VICTIMS Q)",
+   "col_no": "3",
+   "name": "NO. OF VICTIMS MURDERED | BY FIREARMS (LICENSED + UNLICENSED)",
    "header": [
-    "NO. OF VICTIMS Q)"
+    "NO. OF VICTIMS MURDERED",
+    "BY FIREARMS (LICENSED + UNLICENSED)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF VICTIMS MURDERED | BY LICENSED ARMS",
+   "header": [
+    "NO. OF VICTIMS MURDERED",
+    "BY LICENSED ARMS"
    ]
   },
   {
    "col_no": "5",
-   "name": "BY ARMS",
+   "name": "NO. OF VICTIMS MURDERED | BY UNLICENSED ARMS",
    "header": [
-    "BY ARMS"
+    "NO. OF VICTIMS MURDERED",
+    "BY UNLICENSED ARMS"
    ]
   }
  ],
- "notes": [
-  "a",
-  "Zz."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 7,
-  "cells_passed": 3,
-  "failures": [
-   "col 4 'TOTAL STATES': printed 761, sum 729",
-   "col 4 'TOTAL (UTs)': printed 11, sum 0",
-   "col 4 'TOTAL (CITIES)': printed 50, sum 127",
-   "col 5 'TOTAL STATES': printed 8479, sum 8468"
-  ],
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -6,58 +6,113 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "50",
- "title": "Incidence & Percentage Contribution to all India of Crimes Committed Against Children During 1997 (State & UT-Wise)",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 Table-30",
  "listing_title": "Incidence & Percentage Contribution to all India of Crimes Committed Against Children During 1997 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-30-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-30-1996-crime-survey.pdf",
  "source_sha256": "2a2f7428fb03b8d2eac694c9c21079214cd5e90de6e7b2ba1b4243e2e13bca73",
  "table_no": "30",
- "pdf_title": "",
- "row_label": "SL. STATE/UT NO. (1) (2) STATES / P PROCURATION OF MINOR GIRLS 1 (15) / P (16) / SELLING OF BUYING OF GIRLS FOR GIRLS FOR PROSTITUTION PROSTITUTION P 1 (17) / TOTAL CHILD MARRIAGE RESTRAINT ACT P (18)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 Table-30",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   2
  ],
- "n_rows": 27,
- "n_cols": 3,
- "n_cells": 66,
+ "n_rows": 35,
+ "n_cols": 10,
+ "n_cells": 350,
  "columns": [
   {
-   "col_no": "6",
-   "name": "TOTAL | CHILD MARRIAGE RESTRAINT ACT | P (22) (19)",
+   "col_no": "15",
+   "name": "PROCURATION OF MINOR GIRLS | I",
    "header": [
-    "TOTAL",
+    "PROCURATION OF MINOR GIRLS",
+    "I"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "PROCURATION OF MINOR GIRLS | P",
+   "header": [
+    "PROCURATION OF MINOR GIRLS",
+    "P"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "SELLING OF GIRLS FOR PROSTITUTION | I",
+   "header": [
+    "SELLING OF GIRLS FOR PROSTITUTION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "SELLING OF GIRLS FOR PROSTITUTION | P",
+   "header": [
+    "SELLING OF GIRLS FOR PROSTITUTION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "BUYING OF GIRLS FOR PROSTITUTION | I",
+   "header": [
+    "BUYING OF GIRLS FOR PROSTITUTION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "BUYING OF GIRLS FOR PROSTITUTION | P",
+   "header": [
+    "BUYING OF GIRLS FOR PROSTITUTION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "CHILD MARRIAGE RESTRAINT ACT | I",
+   "header": [
     "CHILD MARRIAGE RESTRAINT ACT",
-    "P (22) (19)"
+    "I"
    ]
   },
   {
-   "col_no": "7",
-   "name": "TOTAL | (20) (Z3)",
+   "col_no": "22",
+   "name": "CHILD MARRIAGE RESTRAINT ACT | P",
    "header": [
-    "TOTAL",
-    "(20) (Z3)"
+    "CHILD MARRIAGE RESTRAINT ACT",
+    "P"
    ]
   },
   {
-   "col_no": "8",
-   "name": "TOTAL | P (21)] (24)",
+   "col_no": "23",
+   "name": "TOTAL | I",
    "header": [
     "TOTAL",
-    "P (21)] (24)"
+    "I"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
+    "P"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

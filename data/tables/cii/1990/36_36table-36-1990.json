@@ -8,34 +8,38 @@
  "serial": "36",
  "title": "Juvenile Delinquency (LSL) under Different Crime Heads During 1989 - 1990",
  "listing_title": "Juvenile Delinquency (LSL) under Different Crime Heads During 1989 - 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/36table-36-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/36table-36-1990-.pdf",
  "source_sha256": "91ea0e1296ea19a9228c4adfb2f7ae9620367d38e6421a3b3f736aa51c88d284",
  "table_no": "36",
- "pdf_title": "",
- "row_label": "JUVENILE SL. NO. / JUVENILE CRIME / (LSL) DELINQUENCY DURING HEAD 1989",
+ "pdf_title": "142 TABLE-36 JUVENILE DELINQUENCY (LSL) UNDER DIFFERENT CRIME HEADS DURING 1989-1990",
+ "row_label": "NUMBER OF CASES REPORTED DURING",
  "pages": [
+  1,
   1
  ],
- "n_rows": 17,
- "n_cols": 2,
- "n_cells": 34,
+ "n_rows": 18,
+ "n_cols": 3,
+ "n_cells": 52,
  "columns": [
   {
    "col_no": "4",
-   "name": "UNDER HEADS 1989-1990 NUMRER CASES DURING 1990",
+   "name": "NUMBER OF CASES REPORTED DURING",
    "header": [
-    "UNDER HEADS 1989-1990 NUMRER CASES DURING 1990"
+    "NUMBER OF CASES REPORTED DURING"
    ]
   },
   {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
    "col_no": "5",
-   "name": "CRIME OF rencenraGE IN CHANGE OVER",
-   "header": [
-    "CRIME OF rencenraGE IN CHANGE OVER"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
  "notes": [],
@@ -43,10 +47,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 2,
   "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

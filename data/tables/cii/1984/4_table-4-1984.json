@@ -8,110 +8,79 @@
  "serial": "4",
  "title": "Incidence of Total Cognizable Crime in States, UTs and Cities During 1979 to 1984 Alongwith Percentage Variation over the Quinqu",
  "listing_title": "Incidence of Total Cognizable Crime in States, UTs and Cities During 1979 to 1984 Alongwith Percentage Variation over the Quinqu",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-4-1984.pdf",
  "source_sha256": "0d5422b651e6ba34681a5522aaa435b1b716ab18c1d5f9a5ac26c503279553a6",
  "table_no": "4",
- "pdf_title": "Incidence Of Total Cognizable Crime In States, UTs And Cities During 1979 To 1984 Alongwith Percentage Variation Over The Quinauennial Average Of 1979-1983 And Over 1983",
- "row_label": "STATES/UTs/CITIES SL. NO.",
+ "pdf_title": "6 TABLE-4 Incidence Of Total Cognizable Crime In States, UTs And Cities During 1979 To 1984",
+ "row_label": "SL.NO. / STATES/UTs/CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 53,
- "n_cols": 10,
- "n_cells": 469,
+ "n_rows": 90,
+ "n_cols": 8,
+ "n_cells": 376,
  "columns": [
   {
    "col_no": "3",
-   "name": "1979",
-   "header": [
-    "1979"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "1980",
-   "header": [
-    "1980"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "1981",
-   "header": [
-    "1981"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "1982",
-   "header": [
-    "1982"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "1983",
-   "header": [
-    "1983"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "1984 | QUINQUENNIAL AVERAGE 1979 (Q. A.)",
-   "header": [
-    "1984",
-    "QUINQUENNIAL AVERAGE 1979 (Q. A.)"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "1984 | TO",
-   "header": [
-    "1984",
-    "TO"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "1984 | IN 1983 OVER",
+   "name": "QUINQUENNIAL AVERAGE1979 TO 1983(Q.A.)",
    "header": [
-    "1984",
-    "IN 1983 OVER"
+    "QUINQUENNIAL AVERAGE1979 TO 1983(Q.A.)"
    ]
   },
   {
    "col_no": "11",
-   "name": "VARIATION 1984 (-) INCREASE 1983 Q.A «11>",
+   "name": "1984",
    "header": [
-    "VARIATION 1984 (-) INCREASE 1983 Q.A «11>"
+    "1984"
    ]
   },
   {
    "col_no": "12",
-   "name": "VOLUME OF CRIME IN 1984 PER LAKH OF PVER POPULATION",
+   "name": "VOLUMEOFCRIMEIN 1984PER LAKHOFPOPULATION",
    "header": [
-    "VOLUME OF CRIME IN 1984 PER LAKH OF PVER POPULATION"
+    "VOLUMEOFCRIMEIN 1984PER LAKHOFPOPULATION"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 17,
-  "cells_passed": 11,
+  "cells_checked": 15,
+  "cells_passed": 13,
   "failures": [
-   "col 4 'TOTAL (States)': printed 1.31922e+06, sum 1.27922e+06",
-   "col 5 'TOTAL (States)': printed 1.34382e+06, sum 1.35382e+06",
-   "col 6 'TOTAL (Cities)': printed 1.64838e+06, sum 203162",
-   "col 9 'TOTAL (States)': printed 1.3168e+06, sum 1.15152e+06",
-   "col 9 'TOTAL (U.Ts)': printed 41864, sum 39098",
-   "col 9 'TOTAL (Cities)': printed 152413, sum 125903"
+   "col 4 'Total (States)': printed 1.31922e+06, sum 1.27922e+06",
+   "col 5 'Total (States)': printed 1.34382e+06, sum 1.35382e+06"
   ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 5
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

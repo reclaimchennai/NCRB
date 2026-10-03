@@ -8,50 +8,42 @@
  "serial": "33",
  "title": "Juveniles Apprehended (by Sex) for Committing Crime under I.P.C.; Juveniles Apprehended (by Sex) Committing Crime under Local",
  "listing_title": "Juveniles Apprehended (by Sex) for Committing Crime under I.P.C.; Juveniles Apprehended (by Sex) Committing Crime under Local",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-41-1976.pdf",
  "source_file": "raw/cii/1976/table_content/table-40-41-1976.pdf",
  "source_sha256": "9286379650acbd95730990f0d604010d1114a0685871a411cdf4492ce45c94d1",
- "table_no": "",
- "pdf_title": "",
- "row_label": "",
+ "table_no": "40",
+ "pdf_title": "78 TABLE 40 Juveniles Apprehended (By Sex) for Committing Crime under I.P.C.",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
+  1,
   1
  ],
- "n_rows": 42,
- "n_cols": 6,
- "n_cells": 197,
+ "n_rows": 85,
+ "n_cols": 3,
+ "n_cells": 255,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Boys",
+   "header": [
+    "Boys"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Girls",
+   "header": [
+    "Girls"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
-  },
-  {
-   "col_no": "6",
-   "name": "col_6",
-   "header": []
-  },
-  {
-   "col_no": "7",
-   "name": "col_7",
-   "header": []
-  },
-  {
-   "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
   }
  ],
  "notes": [],
@@ -59,10 +51,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 22,
+  "other_totals_passed": 14
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

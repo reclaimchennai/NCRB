@@ -8,14 +8,14 @@
  "serial": "31",
  "title": "Disposal of Persons Arrested under IPC Crimes by Courts During the Year 1988",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes by Courts During the Year 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-31-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-31-1988-2.pdf",
  "source_sha256": "c79ad6c00a87792b3803c1b9997866a4406749205c0ecebf3e338a18ee6ad2eb",
  "table_no": "31",
- "pdf_title": "",
- "row_label": "DISPOSAL CRIME SL. NO. ql)",
+ "pdf_title": "118 TABLE-31 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURTS DURING THE YEAR 1988",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,51 +25,58 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "OF HEAD OF FPENSUND UNDER TRIAL THOSE FROM PREVIOUS",
+   "name": "TOTAL NO.OF | PERSONSUNDERTRIALINCLUDINGTHOSEFROM PRE-VIOUS YEAR",
    "header": [
-    "OF HEAD OF FPENSUND UNDER TRIAL THOSE FROM PREVIOUS"
+    "TOTAL NO.OF",
+    "PERSONSUNDERTRIALINCLUDINGTHOSEFROM PRE-VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "FENSUNS TOTAL NO. wee CASES COMPOUNDED OR WITH DRAWN YEAR",
+   "name": "NO. OF | CASESCOMPO-UNDEDORWITHDRAWN",
    "header": [
-    "FENSUNS TOTAL NO. wee CASES COMPOUNDED OR WITH DRAWN YEAR"
+    "NO. OF",
+    "CASESCOMPO-UNDEDORWITHDRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER NO. een TRIAL COMPLETED",
+   "name": "PERSONS | TRIALCOMPL-ETED",
    "header": [
-    "UNDER NO. een TRIAL COMPLETED"
+    "PERSONS",
+    "TRIALCOMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "IPC OF TRIAL RFMAINEN PENDING",
+   "name": "WHOSE | TRIALREMAINEDPENDING",
    "header": [
-    "IPC OF TRIAL RFMAINEN PENDING"
+    "WHOSE",
+    "TRIALREMAINEDPENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "THE YEAR CRIMES OF rensuns PERSONS CONVICTED 3)",
+   "name": "NO. OF | CONVICTED",
    "header": [
-    "THE YEAR CRIMES OF rensuns PERSONS CONVICTED 3)"
+    "NO. OF",
+    "CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "BY COURTS 1988 WHOSE PERSONS WHOSE TRAILS PENDING COL. (6)x100/ (3) ‘8:",
+   "name": "PERSONS | WHOSETRAILSREMAINEDPENDINGCOL.(6)x100/(3)",
    "header": [
-    "BY COURTS 1988 WHOSE PERSONS WHOSE TRAILS PENDING COL. (6)x100/ (3) ‘8:"
+    "PERSONS",
+    "WHOSETRAILSREMAINEDPENDINGCOL.(6)x100/(3)"
    ]
   },
   {
    "col_no": "9",
-   "name": "DURING OF NO. CONVICTED TO REMAINEN TRIALS COL. (7)x100/",
+   "name": "PERCENTAGE OF | CONVICTEDTOTRIALSCOMPLETEDCOL.(7)x100/(5)",
    "header": [
-    "DURING OF NO. CONVICTED TO REMAINEN TRIALS COL. (7)x100/"
+    "PERCENTAGE OF",
+    "CONVICTEDTOTRIALSCOMPLETEDCOL.(7)x100/(5)"
    ]
   }
  ],
@@ -79,7 +86,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 5,
-  "other_totals_passed": 4
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

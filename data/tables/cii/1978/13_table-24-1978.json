@@ -8,22 +8,22 @@
  "serial": "13",
  "title": "Persons Arrested under Local and Special Laws 1978",
  "listing_title": "Persons Arrested under Local and Special Laws 1978",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1978.pdf",
  "source_file": "raw/cii/1978/table_content/table-24-1978.pdf",
  "source_sha256": "bba15ffb948608ffcd8d68ed1ffbaa4b4bb9baadc195b46e7ae3729cb38ecbfd",
  "table_no": "24",
- "pdf_title": "PERSONS ARRESTED UNDER LOCAL AND SPECIAL LAWS—1978",
- "row_label": "States/ U. Ts./Cities Sl. No. / States/ U. Ts./Cities",
+ "pdf_title": "50 TABLE 24 PERSONS ARRESTED UNDER LOCAL AND SPECIAL LAWS—1978",
+ "row_label": "Sl. States/ U. Ts./Cities No. / Sl. States/ U. Ts./Cities No.",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 69,
- "n_cols": 12,
- "n_cells": 492,
+ "n_rows": 46,
+ "n_cols": 15,
+ "n_cells": 372,
  "columns": [
   {
    "col_no": "3",
@@ -41,9 +41,9 @@
   },
   {
    "col_no": "5",
-   "name": "Act",
+   "name": "Gambling Act",
    "header": [
-    "Act"
+    "Gambling Act"
    ]
   },
   {
@@ -61,54 +61,73 @@
    ]
   },
   {
-   "col_no": "8",
+   "col_no": "10001",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "10002",
    "name": "Explosive & Exp. Substances Act",
    "header": [
     "Explosive & Exp. Substances Act"
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "10003",
    "name": "Suppression of Immoral Traffic Act",
    "header": [
     "Suppression of Immoral Traffic Act"
    ]
   },
   {
-   "col_no": "10",
+   "col_no": "10004",
    "name": "Motor Vehicles Act",
    "header": [
     "Motor Vehicles Act"
    ]
   },
   {
-   "col_no": "11",
-   "name": "Pieveniion | Customs Act",
+   "col_no": "10005",
+   "name": "Customs Act",
    "header": [
-    "Pieveniion",
     "Customs Act"
    ]
   },
   {
-   "col_no": "12",
-   "name": "Pieveniion | of corruption Act",
+   "col_no": "8",
+   "name": "Prevention of corruption Act",
    "header": [
-    "Pieveniion",
-    "of corruption Act"
+    "Prevention of corruption Act"
    ]
   },
   {
-   "col_no": "14",
-   "name": "Other",
+   "col_no": "10006",
+   "name": "States/U. Ts./Cities",
    "header": [
-    "Other"
+    "States/U. Ts./Cities"
    ]
   },
   {
-   "col_no": "15",
-   "name": "Grand. Total -",
+   "col_no": "10007",
+   "name": "Indian Railways Act",
    "header": [
-    "Grand. Total -"
+    "Indian Railways Act"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "Other offences",
+   "header": [
+    "Other offences"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "Grand Total",
+   "header": [
+    "Grand Total"
    ]
   }
  ],
@@ -117,8 +136,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 3,

@@ -8,54 +8,54 @@
  "serial": "21",
  "title": "Juvenile Apprehended (by Sex) Committing Crime under Local & Special Laws",
  "listing_title": "Juvenile Apprehended (by Sex) Committing Crime under Local & Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1979.pdf",
  "source_file": "raw/cii/1979/table_content/table-41-1979.pdf",
  "source_sha256": "71c4c352939942fd34509b1b6d1b6f43121e16eaf7f402a83f4b8c6bd6dcac1e",
  "table_no": "41",
- "pdf_title": "",
- "row_label": "JUVENILE Name STATES",
+ "pdf_title": "91 TABLE 41 JUVENILE APPREHENDED (BY SEX) COMMITTING CRIME UNDER LOCAL & SPECIAL LAWS",
+ "row_label": "Sl. No. / Name of the States/U.Ts./Cities",
  "pages": [
   1
  ],
  "n_rows": 43,
  "n_cols": 3,
- "n_cells": 128,
+ "n_cells": 129,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(BY SEX) Pc States/U.Ts./",
-   "header": [
-    "(BY SEX) Pc States/U.Ts./"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "CRIME UNDER LOCAL & SPECIAL LAWS. | Boys",
+   "name": "Boys",
    "header": [
-    "CRIME UNDER LOCAL & SPECIAL LAWS.",
     "Boys"
    ]
   },
   {
    "col_no": "4",
-   "name": "CRIME UNDER LOCAL & SPECIAL LAWS. | Total Girls",
+   "name": "Girls",
    "header": [
-    "CRIME UNDER LOCAL & SPECIAL LAWS.",
-    "Total Girls"
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 9,
+  "cells_passed": 8,
+  "failures": [
+   "col 5 'TOTAL (States)': printed 96070, sum 96090"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

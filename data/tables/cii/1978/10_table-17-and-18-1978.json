@@ -8,20 +8,21 @@
  "serial": "10",
  "title": "Disposal of Cases under Local & Special Laws by Courts During 1978; Percentage Distribution of Crime Cases under Local & Special",
  "listing_title": "Disposal of Cases under Local & Special Laws by Courts During 1978; Percentage Distribution of Crime Cases under Local & Special",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-17-and-18-1978.pdf",
  "source_file": "raw/cii/1978/table_content/table-17-and-18-1978.pdf",
  "source_sha256": "40be3cad7a44eb074056358a6aa54f4bb2edfa2bf0c70b1ee65bbe733c20d162",
  "table_no": "17",
- "pdf_title": "DISPOSAL OF CASES UNDER LOCAL & SPECIAL LAWS BY COURTS DURING 1978",
- "row_label": "Sl. No. / Heads of Crime",
+ "pdf_title": "41 TABLE 17 DISPOSAL OF CASES UNDER LOCAL & SPECIAL LAWS BY COURTS DURING 1978",
+ "row_label": "Sl. No. / Heads of Crime / Heads of Crime / Heads of Crime / Heads of Crime",
  "pages": [
+  1,
   1
  ],
- "n_rows": 13,
- "n_cols": 5,
- "n_cells": 65,
+ "n_rows": 12,
+ "n_cols": 8,
+ "n_cells": 60,
  "columns": [
   {
    "col_no": "3",
@@ -32,16 +33,16 @@
   },
   {
    "col_no": "4",
-   "name": "Cases 9 withdrawn",
+   "name": "Cases compounded or withdrawn",
    "header": [
-    "Cases 9 withdrawn"
+    "Cases compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases in whichtrials or were compisica",
+   "name": "Cases in which trials were completed",
    "header": [
-    "Cases in whichtrials or were compisica"
+    "Cases in which trials were completed"
    ]
   },
   {
@@ -53,9 +54,30 @@
   },
   {
    "col_no": "7",
-   "name": "Cases pending trial the at end of the year",
+   "name": "Cases trial at the end of the year",
    "header": [
-    "Cases pending trial the at end of the year"
+    "Cases trial at the end of the year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "88837",
+   "header": [
+    "88837"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "71178",
+   "header": [
+    "71178"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "128502",
+   "header": [
+    "128502"
    ]
   }
  ],
@@ -64,10 +86,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 5,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

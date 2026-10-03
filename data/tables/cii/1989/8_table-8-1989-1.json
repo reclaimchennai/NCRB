@@ -8,17 +8,16 @@
  "serial": "8",
  "title": "District-Wise Incidence of Cognizable Crimes (IPC) During 1989",
  "listing_title": "District-Wise Incidence of Cognizable Crimes (IPC) During 1989",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-8-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-8-1989-1.pdf",
  "source_sha256": "70f7ad7f7da11ef49064d76011cd56cf7f4e50b502b86c61078b26a826e3b247",
  "table_no": "8",
- "pdf_title": "TABLE~8",
- "row_label": "UT/ SL. NO. qi)",
+ "pdf_title": "38 TABLE-8 DISTRICT-WISE INCIDENCE OF COGNIZABLE CRIMES(IPC) DURING 1989",
+ "row_label": "SL.NO. / STATE/ UT/DISTRICT",
  "pages": [
   1,
-  2,
   3,
   4,
   5,
@@ -44,201 +43,153 @@
   25,
   26
  ],
- "n_rows": 617,
- "n_cols": 45,
- "n_cells": 9060,
+ "n_rows": 487,
+ "n_cols": 116,
+ "n_cells": 7610,
  "columns": [
   {
    "col_no": "3",
-   "name": "MURDER STATE/ DISTRICT",
+   "name": "MURDER",
    "header": [
-    "MURDER STATE/ DISTRICT"
+    "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF | ATTEMPT TO COMMIT MURDER",
+   "name": "ATTEMPT TO COMMIT MURDER",
    "header": [
-    "OF",
     "ATTEMPT TO COMMIT MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF | C.H.NOT AMOUNTING TO MURDER",
+   "name": "C. H. NOT AMOUNT-ING TO MURDER",
    "header": [
-    "OF",
-    "C.H.NOT AMOUNTING TO MURDER"
+    "C. H. NOT AMOUNT-ING TO MURDER"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF | RAPE",
+   "name": "RAPE",
    "header": [
-    "OF",
     "RAPE"
    ]
   },
   {
    "col_no": "7",
-   "name": "CRIMES(TPC) KIDNAPPING & | <> TOTAL",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
    "header": [
-    "CRIMES(TPC) KIDNAPPING &",
-    "<> TOTAL"
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "CRIMES(TPC) KIDNAPPING & | a OF WOMEN & GIRLS",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS",
    "header": [
-    "CRIMES(TPC) KIDNAPPING &",
-    "a OF WOMEN & GIRLS"
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS"
    ]
   },
   {
    "col_no": "9",
-   "name": "DURING OF OTHERS",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS",
    "header": [
-    "DURING OF OTHERS"
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS"
    ]
   },
   {
    "col_no": "10",
-   "name": "1989 DACOITY",
+   "name": "DACOITY",
    "header": [
-    "1989 DACOITY"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "PREPARATION ASSEMRI.V FOR DACOITY",
-   "header": [
-    "PREPARATION ASSEMRI.V FOR DACOITY"
+    "DACOITY"
    ]
   },
   {
    "col_no": "12",
-   "name": "AND",
-   "header": [
-    "AND"
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "RIIRGCI.ARY",
-   "header": [
-    "RIIRGCI.ARY"
-   ]
+   "name": "col_13",
+   "header": []
   },
   {
    "col_no": "14",
-   "name": "THEFT",
-   "header": [
-    "THEFT"
-   ]
+   "name": "col_14",
+   "header": []
   },
   {
    "col_no": "15",
-   "name": "RIOTS",
-   "header": [
-    "RIOTS"
-   ]
+   "name": "col_15",
+   "header": []
   },
   {
    "col_no": "16",
-   "name": "BREACH OF TRUST",
-   "header": [
-    "BREACH OF TRUST"
-   ]
+   "name": "col_16",
+   "header": []
   },
   {
    "col_no": "17",
-   "name": "CHEATING",
-   "header": [
-    "CHEATING"
-   ]
+   "name": "col_17",
+   "header": []
   },
   {
    "col_no": "18",
-   "name": "COUNTERFEITING",
-   "header": [
-    "COUNTERFEITING"
-   ]
+   "name": "col_18",
+   "header": []
   },
   {
    "col_no": "19",
-   "name": "OTHER IPC CRIMES",
-   "header": [
-    "OTHER IPC CRIMES"
-   ]
+   "name": "col_19",
+   "header": []
   },
   {
    "col_no": "20",
-   "name": "TOTAL coc. CRIMES UNDER IPC",
-   "header": [
-    "TOTAL coc. CRIMES UNDER IPC"
-   ]
-  },
-  {
-   "col_no": "2",
-   "name": "col_2",
+   "name": "col_20",
    "header": []
   },
   {
    "col_no": "10001",
-   "name": "(2) TRIVANDRUM",
-   "header": [
-    "(2) TRIVANDRUM"
-   ]
+   "name": "col_10001",
+   "header": []
   },
   {
    "col_no": "10002",
-   "name": "(3) $4",
-   "header": [
-    "(3) $4"
-   ]
+   "name": "col_10002",
+   "header": []
   },
   {
    "col_no": "10003",
-   "name": "(4) 76",
-   "header": [
-    "(4) 76"
-   ]
+   "name": "col_10003",
+   "header": []
   },
   {
    "col_no": "10004",
-   "name": "(5) 3",
-   "header": [
-    "(5) 3"
-   ]
+   "name": "col_10004",
+   "header": []
   },
   {
    "col_no": "10005",
-   "name": "(8) 28",
-   "header": [
-    "(8) 28"
-   ]
+   "name": "col_10005",
+   "header": []
   },
   {
    "col_no": "10006",
-   "name": "(7) i5",
-   "header": [
-    "(7) i5"
-   ]
+   "name": "col_10006",
+   "header": []
   },
   {
    "col_no": "10007",
-   "name": "(8) 14",
-   "header": [
-    "(8) 14"
-   ]
+   "name": "col_10007",
+   "header": []
   },
   {
    "col_no": "10008",
-   "name": "(10) (9) 1 19",
-   "header": [
-    "(10) (9) 1 19"
-   ]
+   "name": "col_10008",
+   "header": []
   },
   {
    "col_no": "10009",
@@ -247,52 +198,38 @@
   },
   {
    "col_no": "10010",
-   "name": "(12)",
-   "header": [
-    "(12)"
-   ]
+   "name": "col_10010",
+   "header": []
   },
   {
    "col_no": "10011",
-   "name": "(13)",
-   "header": [
-    "(13)"
-   ]
+   "name": "col_10011",
+   "header": []
   },
   {
    "col_no": "10012",
-   "name": "(14)",
-   "header": [
-    "(14)"
-   ]
+   "name": "col_10012",
+   "header": []
   },
   {
    "col_no": "10013",
-   "name": "a5)",
-   "header": [
-    "a5)"
-   ]
+   "name": "col_10013",
+   "header": []
   },
   {
    "col_no": "10014",
-   "name": "(16)",
-   "header": [
-    "(16)"
-   ]
+   "name": "col_10014",
+   "header": []
   },
   {
    "col_no": "10015",
-   "name": "a7)",
-   "header": [
-    "a7)"
-   ]
+   "name": "col_10015",
+   "header": []
   },
   {
    "col_no": "10016",
-   "name": "(18)",
-   "header": [
-    "(18)"
-   ]
+   "name": "col_10016",
+   "header": []
   },
   {
    "col_no": "10017",
@@ -301,66 +238,413 @@
   },
   {
    "col_no": "10018",
-   "name": "(20)",
-   "header": [
-    "(20)"
-   ]
+   "name": "col_10018",
+   "header": []
   },
   {
    "col_no": "10019",
-   "name": "(2) &",
-   "header": [
-    "(2) &"
-   ]
+   "name": "col_10019",
+   "header": []
   },
   {
    "col_no": "10020",
-   "name": "(3) NAGAR",
-   "header": [
-    "(3) NAGAR"
-   ]
+   "name": "col_10020",
+   "header": []
   },
   {
    "col_no": "10021",
-   "name": "(4) HAVELI",
-   "header": [
-    "(4) HAVELI"
-   ]
+   "name": "col_10021",
+   "header": []
   },
   {
    "col_no": "10022",
-   "name": "(5)",
-   "header": [
-    "(5)"
-   ]
+   "name": "col_10022",
+   "header": []
   },
   {
    "col_no": "10023",
-   "name": "(6)",
-   "header": [
-    "(6)"
-   ]
+   "name": "col_10023",
+   "header": []
   },
   {
    "col_no": "10024",
-   "name": "(7)",
-   "header": [
-    "(7)"
-   ]
+   "name": "col_10024",
+   "header": []
   },
   {
    "col_no": "10025",
-   "name": "(8)",
-   "header": [
-    "(8)"
-   ]
+   "name": "col_10025",
+   "header": []
   },
   {
    "col_no": "10026",
-   "name": "(10) (9)",
-   "header": [
-    "(10) (9)"
-   ]
+   "name": "col_10026",
+   "header": []
+  },
+  {
+   "col_no": "10027",
+   "name": "col_10027",
+   "header": []
+  },
+  {
+   "col_no": "10028",
+   "name": "col_10028",
+   "header": []
+  },
+  {
+   "col_no": "10029",
+   "name": "col_10029",
+   "header": []
+  },
+  {
+   "col_no": "10030",
+   "name": "col_10030",
+   "header": []
+  },
+  {
+   "col_no": "10031",
+   "name": "col_10031",
+   "header": []
+  },
+  {
+   "col_no": "10032",
+   "name": "col_10032",
+   "header": []
+  },
+  {
+   "col_no": "10033",
+   "name": "col_10033",
+   "header": []
+  },
+  {
+   "col_no": "10034",
+   "name": "col_10034",
+   "header": []
+  },
+  {
+   "col_no": "10035",
+   "name": "col_10035",
+   "header": []
+  },
+  {
+   "col_no": "10036",
+   "name": "col_10036",
+   "header": []
+  },
+  {
+   "col_no": "10037",
+   "name": "col_10037",
+   "header": []
+  },
+  {
+   "col_no": "10038",
+   "name": "col_10038",
+   "header": []
+  },
+  {
+   "col_no": "10039",
+   "name": "col_10039",
+   "header": []
+  },
+  {
+   "col_no": "10040",
+   "name": "col_10040",
+   "header": []
+  },
+  {
+   "col_no": "10041",
+   "name": "col_10041",
+   "header": []
+  },
+  {
+   "col_no": "10042",
+   "name": "col_10042",
+   "header": []
+  },
+  {
+   "col_no": "10043",
+   "name": "col_10043",
+   "header": []
+  },
+  {
+   "col_no": "10044",
+   "name": "col_10044",
+   "header": []
+  },
+  {
+   "col_no": "10045",
+   "name": "col_10045",
+   "header": []
+  },
+  {
+   "col_no": "10046",
+   "name": "col_10046",
+   "header": []
+  },
+  {
+   "col_no": "10047",
+   "name": "col_10047",
+   "header": []
+  },
+  {
+   "col_no": "10048",
+   "name": "col_10048",
+   "header": []
+  },
+  {
+   "col_no": "10049",
+   "name": "col_10049",
+   "header": []
+  },
+  {
+   "col_no": "10050",
+   "name": "col_10050",
+   "header": []
+  },
+  {
+   "col_no": "10051",
+   "name": "col_10051",
+   "header": []
+  },
+  {
+   "col_no": "10052",
+   "name": "col_10052",
+   "header": []
+  },
+  {
+   "col_no": "10053",
+   "name": "col_10053",
+   "header": []
+  },
+  {
+   "col_no": "10054",
+   "name": "col_10054",
+   "header": []
+  },
+  {
+   "col_no": "10055",
+   "name": "col_10055",
+   "header": []
+  },
+  {
+   "col_no": "10056",
+   "name": "col_10056",
+   "header": []
+  },
+  {
+   "col_no": "10057",
+   "name": "col_10057",
+   "header": []
+  },
+  {
+   "col_no": "10058",
+   "name": "col_10058",
+   "header": []
+  },
+  {
+   "col_no": "10059",
+   "name": "col_10059",
+   "header": []
+  },
+  {
+   "col_no": "10060",
+   "name": "col_10060",
+   "header": []
+  },
+  {
+   "col_no": "10061",
+   "name": "col_10061",
+   "header": []
+  },
+  {
+   "col_no": "10062",
+   "name": "col_10062",
+   "header": []
+  },
+  {
+   "col_no": "10063",
+   "name": "col_10063",
+   "header": []
+  },
+  {
+   "col_no": "10064",
+   "name": "col_10064",
+   "header": []
+  },
+  {
+   "col_no": "10065",
+   "name": "col_10065",
+   "header": []
+  },
+  {
+   "col_no": "10066",
+   "name": "col_10066",
+   "header": []
+  },
+  {
+   "col_no": "10067",
+   "name": "col_10067",
+   "header": []
+  },
+  {
+   "col_no": "10068",
+   "name": "col_10068",
+   "header": []
+  },
+  {
+   "col_no": "10069",
+   "name": "col_10069",
+   "header": []
+  },
+  {
+   "col_no": "10070",
+   "name": "col_10070",
+   "header": []
+  },
+  {
+   "col_no": "10071",
+   "name": "col_10071",
+   "header": []
+  },
+  {
+   "col_no": "10072",
+   "name": "col_10072",
+   "header": []
+  },
+  {
+   "col_no": "10073",
+   "name": "col_10073",
+   "header": []
+  },
+  {
+   "col_no": "10074",
+   "name": "col_10074",
+   "header": []
+  },
+  {
+   "col_no": "10075",
+   "name": "col_10075",
+   "header": []
+  },
+  {
+   "col_no": "10076",
+   "name": "col_10076",
+   "header": []
+  },
+  {
+   "col_no": "10077",
+   "name": "col_10077",
+   "header": []
+  },
+  {
+   "col_no": "10078",
+   "name": "col_10078",
+   "header": []
+  },
+  {
+   "col_no": "10079",
+   "name": "col_10079",
+   "header": []
+  },
+  {
+   "col_no": "10080",
+   "name": "col_10080",
+   "header": []
+  },
+  {
+   "col_no": "10081",
+   "name": "col_10081",
+   "header": []
+  },
+  {
+   "col_no": "10082",
+   "name": "col_10082",
+   "header": []
+  },
+  {
+   "col_no": "10083",
+   "name": "col_10083",
+   "header": []
+  },
+  {
+   "col_no": "10084",
+   "name": "col_10084",
+   "header": []
+  },
+  {
+   "col_no": "10085",
+   "name": "col_10085",
+   "header": []
+  },
+  {
+   "col_no": "10086",
+   "name": "col_10086",
+   "header": []
+  },
+  {
+   "col_no": "10087",
+   "name": "col_10087",
+   "header": []
+  },
+  {
+   "col_no": "10088",
+   "name": "col_10088",
+   "header": []
+  },
+  {
+   "col_no": "10089",
+   "name": "col_10089",
+   "header": []
+  },
+  {
+   "col_no": "10090",
+   "name": "col_10090",
+   "header": []
+  },
+  {
+   "col_no": "10091",
+   "name": "col_10091",
+   "header": []
+  },
+  {
+   "col_no": "10092",
+   "name": "col_10092",
+   "header": []
+  },
+  {
+   "col_no": "10093",
+   "name": "col_10093",
+   "header": []
+  },
+  {
+   "col_no": "10094",
+   "name": "col_10094",
+   "header": []
+  },
+  {
+   "col_no": "10095",
+   "name": "col_10095",
+   "header": []
+  },
+  {
+   "col_no": "10096",
+   "name": "col_10096",
+   "header": []
+  },
+  {
+   "col_no": "10097",
+   "name": "col_10097",
+   "header": []
+  },
+  {
+   "col_no": "10098",
+   "name": "col_10098",
+   "header": []
+  },
+  {
+   "col_no": "10099",
+   "name": "col_10099",
+   "header": []
   }
  ],
  "notes": [],
@@ -368,14 +652,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 298,
-  "other_totals_passed": 156
+  "other_totals_checked": 154,
+  "other_totals_passed": 120
  },
- "inferred_pages": 4,
- "ocr_pages": 26,
- "warnings": [
-  "page 12: 3 of 50 rows of the right-hand page could not be placed against the left-hand page",
-  "page 16: 1 of 38 rows of the right-hand page could not be placed against the left-hand page",
-  "page 26: 3 of 18 rows of the right-hand page could not be placed against the left-hand page"
- ]
+ "inferred_pages": 0,
+ "ocr_pages": 25,
+ "warnings": []
 }

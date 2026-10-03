@@ -8,80 +8,83 @@
  "serial": "85",
  "title": "Disposal of Persons Arrested under SLL by Courts During 1994",
  "listing_title": "Disposal of Persons Arrested under SLL by Courts During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table40-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table40-1994_2.pdf",
  "source_sha256": "5e789e6c014266d4cc0aa160ecb0206efa5bfb39e045cbe1636b71192eba55c2",
  "table_no": "40",
- "pdf_title": "",
- "row_label": "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING CRIME HEAD SL. NO. a) / DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREvious YEAR",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-40",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 18,
- "n_cols": 6,
- "n_cells": 102,
+ "n_rows": 17,
+ "n_cols": 7,
+ "n_cells": 119,
  "columns": [
   {
-   "col_no": "4",
-   "name": "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING | NO. OF PERSONS WHOSE | CASE COMPOUNDED OR WITH DRAWN",
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING",
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF PERSONS WHOSE | CASE COMPO-UNDED OR WITH DRAWN",
+   "header": [
     "NO. OF PERSONS WHOSE",
-    "CASE COMPOUNDED OR WITH DRAWN"
+    "CASE COMPO-UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING | NO. OF PERSONS WHOSE | TRIAL COMPLETED",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
    "header": [
-    "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING",
     "NO. OF PERSONS WHOSE",
-    "TRIAL COMPLETED"
+    "TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING | TRIAL REMAINED PENDING",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING",
+    "NO. OF PERSONS WHOSE",
     "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING | NO. OF PERSONS CONVICTED",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING",
     "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING | PERCENTAGE PERSONS WHOSE TRIALS REMAINED - PENDING {COL. (6)x100/ COL.(3)}",
+   "name": "PERCENTAGE OF PERSONS | WHOSE TRIALS REMAINED PENDING (COL.(6)x100/COL.(3))",
    "header": [
-    "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY COURTS DURING",
-    "PERCENTAGE PERSONS WHOSE TRIALS REMAINED - PENDING {COL. (6)x100/ COL.(3)}"
+    "PERCENTAGE OF PERSONS",
+    "WHOSE TRIALS REMAINED PENDING (COL.(6)x100/COL.(3))"
    ]
   },
   {
    "col_no": "9",
-   "name": "1994 OF CONVICTED TO TRIALS COMPLETED {COL. (7)x100/ COL.(5)}",
+   "name": "PERCENTAGE OF PERSONS | CONVICTED TO TRIALS COMPLETED (COL.(7)x100/COL.(5))",
    "header": [
-    "1994 OF CONVICTED TO TRIALS COMPLETED {COL. (7)x100/ COL.(5)}"
+    "PERCENTAGE OF PERSONS",
+    "CONVICTED TO TRIALS COMPLETED (COL.(7)x100/COL.(5))"
    ]
   }
  ],
- "notes": [
-  "13B. NCBR/96"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

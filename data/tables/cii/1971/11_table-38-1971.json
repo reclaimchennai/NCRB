@@ -8,21 +8,29 @@
  "serial": "11",
  "title": "Strength of Civil Police Including Distt. Armed Reserve as on 31.12.1971",
  "listing_title": "Strength of Civil Police Including Distt. Armed Reserve as on 31.12.1971",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-38-1971.pdf",
  "source_file": "raw/cii/1971/table_content/table-38-1971.pdf",
  "source_sha256": "c0de188a0cb976fe722240dce4db24af2837fda56e656673f446a56dbb279a7f",
  "table_no": "38",
- "pdf_title": "Strength of Civil Police Including Distt. Armed Reserve as on 31-12-71",
- "row_label": "SI. No. / States/U.Ts./Cities / Number of * IG,DIsG &S.P.",
+ "pdf_title": "73 TABLE 38 Strength of Civil Police Including Distt. Armed Reserve as on 31-12-71",
+ "row_label": "Sl. No. / States/U.Ts./Cities / States/U.Ts./Cities",
  "pages": [
   1
  ],
  "n_rows": 39,
- "n_cols": 4,
- "n_cells": 152,
+ "n_cols": 5,
+ "n_cells": 195,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of | IG, DIsG & S.P.",
+   "header": [
+    "Number of",
+    "IG, DIsG & S.P."
+   ]
+  },
   {
    "col_no": "4",
    "name": "Number of | ASsP/ DySP",
@@ -33,24 +41,25 @@
   },
   {
    "col_no": "5",
-   "name": "Number of | SIs.",
+   "name": "Number of | Inspectors & SIs.",
    "header": [
     "Number of",
-    "SIs."
+    "Inspectors & SIs."
    ]
   },
   {
    "col_no": "6",
-   "name": "Officers below the rank of SIs.",
+   "name": "Number of | Officers below the rank of SIs.",
    "header": [
+    "Number of",
     "Officers below the rank of SIs."
    ]
   },
   {
    "col_no": "7",
-   "name": "Total of Col. 3,4,5 &6",
+   "name": "Total of Col. 3, 4, 5 & 6",
    "header": [
-    "Total of Col. 3,4,5 &6"
+    "Total of Col. 3, 4, 5 & 6"
    ]
   }
  ],
@@ -59,8 +68,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_checked": 16,
+  "other_totals_passed": 16
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

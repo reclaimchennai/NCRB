@@ -6,37 +6,56 @@
  "topic": "",
  "section": "PSI Year Wise 1996",
  "serial": "5",
- "title": "WOMEN JAILS & CAPACITY OF INMATES IN STATE/UTs",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1996 Authorised Capacity of Inmates in Central Jails in States/UTs during 1996",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1996.pdf",
  "source_file": "raw/psi/1996/year_wise/psi-full-report-1996.pdf",
  "source_sha256": "2200b7550727779faed768052a24e37c4ee2e238b1512cbcdbd08d82cdf91f32",
  "table_no": "",
- "pdf_title": "WOMEN JAILS & CAPACITY OF INMATES IN STATE/UTs",
- "row_label": "DURING 1996 5",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1996 Authorised Capacity of Inmates in Central Jails in States/UTs during 1996",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
-  23
+  11
  ],
- "n_rows": 5,
- "n_cols": 1,
- "n_cells": 5,
+ "n_rows": 30,
+ "n_cols": 4,
+ "n_cells": 120,
  "columns": [
   {
    "col_no": "3",
-   "name": "650",
+   "name": "Number Of Central Jails",
    "header": [
-    "650"
+    "Number Of Central Jails"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Authorised Capacity | Male",
+   "header": [
+    "Authorised Capacity",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Authorised Capacity | Female",
+   "header": [
+    "Authorised Capacity",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Authorised Capacity | Total",
+   "header": [
+    "Authorised Capacity",
+    "Total"
    ]
   }
  ],
- "notes": [
-  "i 3 3 3 3",
-  "§ i 3",
-  "3 E os oon IMBER",
-  "STATE/UTs -"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -44,7 +63,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

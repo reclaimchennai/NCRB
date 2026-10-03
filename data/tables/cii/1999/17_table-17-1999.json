@@ -8,71 +8,84 @@
  "serial": "17",
  "title": "Disposal of SLL Crime Cases by Police During 1999",
  "listing_title": "Disposal of SLL Crime Cases by Police During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-17-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-17-1999.pdf",
  "source_sha256": "76eb1547de782451abe59df1887e7f59e159cca80953ebe81dfa5489a297172f",
  "table_no": "17",
- "pdf_title": "DISPOSAL OF SLI. CRIME CASES BY POLICE DURING 1999",
- "row_label": "SL CRIME HRAD NO. Q)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 17",
+ "row_label": "SL NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 24,
- "n_cols": 7,
- "n_cells": 161,
+ "n_rows": 23,
+ "n_cols": 8,
+ "n_cells": 184,
  "columns": [
   {
-   "col_no": "4",
-   "name": "TOTAL NO. ae STIGATION BY Govr. PENDING CASES @)",
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
    "header": [
-    "TOTAL NO. ae STIGATION BY Govr. PENDING CASES @)"
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CASES WITH-DRAWN BY GOVT.",
+   "header": [
+    "CASES WITH-DRAWN BY GOVT."
    ]
   },
   {
    "col_no": "5",
-   "name": "CASES INVESTIGATION WAS KEFUSED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "CASES INVESTIGATION WAS KEFUSED"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. OF (7ASES IN WHICH GATION | CHARGE MISTAKE OFFACTOR OR LAW ETC.",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC.",
    "header": [
-    "NO. OF (7ASES IN WHICH GATION",
-    "CHARGE MISTAKE OFFACTOR OR LAW ETC."
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC."
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. OF (7ASES IN WHICH GATION | FINAL ss REPORT TRUE SUBMI-",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "NO. OF (7ASES IN WHICH GATION",
-    "FINAL ss REPORT TRUE SUBMI-"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "NO. OF (7ASES IN WHICH GATION | CHARGE WERE SUBMITTED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE SUBMITTED",
    "header": [
-    "NO. OF (7ASES IN WHICH GATION",
-    "CHARGE WERE SUBMITTED"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERE SUBMITTED"
    ]
   },
   {
    "col_no": "9",
-   "name": "TOTAL - {() + + (8)}",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL {(6) + (7) + (8)}",
    "header": [
-    "TOTAL - {() + + (8)}"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL {(6) + (7) + (8)}"
    ]
   },
   {
    "col_no": "10",
-   "name": "NO. OF CASES one INVESTI-",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
    "header": [
-    "NO. OF CASES one INVESTI-"
+    "NO. OF CASES PENDING INVESTIGATION"
    ]
   }
  ],
@@ -81,8 +94,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 7,
-  "other_totals_passed": 4
+  "other_totals_checked": 8,
+  "other_totals_passed": 8
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

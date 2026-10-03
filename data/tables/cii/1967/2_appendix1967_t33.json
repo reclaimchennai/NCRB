@@ -6,55 +6,74 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "APPENDIX—~XXIV",
+ "title": "91 APPENDIX-XVI PERSONS",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix1967.pdf",
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "APPENDIX—~XXIV",
- "row_label": "‘PERSONS Persons released in whose » cases., charge- \"police or sheet wMagistrate ‘before trial / Pérsons bythe was laid",
+ "pdf_title": "91 APPENDIX-XVI PERSONS",
+ "row_label": "Persons released by the police or magistrate before trial",
  "pages": [
-  49
+  33
  ],
- "n_rows": 23,
- "n_cols": 4,
- "n_cells": 73,
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Persons convicted. -acquitted , ed",
+   "col_no": "2",
+   "name": "Persons in whose cases charge-sheet was laid",
    "header": [
-    "Persons convicted. -acquitted , ed"
+    "Persons in whose cases charge-sheet was laid"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Persons convicted",
+   "header": [
+    "Persons convicted"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons Persons against: whom or cases were compoundor with-. - a",
+   "name": "Persons acquitted or discharged",
    "header": [
-    "Persons Persons against: whom or cases were compoundor with-. - a"
+    "Persons acquitted or discharged"
    ]
   },
   {
    "col_no": "5",
-   "name": "Persons in custody pen- in disdinginvestigationor onbail duringthe stage of investigationat the end. - of the-year",
+   "name": "Persons against whom cases were compounded or withdrawn",
    "header": [
-    "Persons in custody pen- in disdinginvestigationor onbail duringthe stage of investigationat the end. - of the-year"
+    "Persons against whom cases were compounded or withdrawn"
    ]
   },
   {
    "col_no": "6",
-   "name": "Persons. Percentage ‘of custody conviction. pending trial or on bail during the stage of trial at the end ofthe year",
+   "name": "Persons in custody pending investigation or on bail during the stage of Investigation at the end of the year",
    "header": [
-    "Persons. Percentage ‘of custody conviction. pending trial or on bail during the stage of trial at the end ofthe year"
+    "Persons in custody pending investigation or on bail during the stage of Investigation at the end of the year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Persons in custody pending trial or on bail during the stage of trial at the end of the year",
+   "header": [
+    "Persons in custody pending trial or on bail during the stage of trial at the end of the year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of conviction",
+   "header": [
+    "Percentage of conviction"
    ]
   }
  ],
- "notes": [
-  "19 MofHAJO—9"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -62,7 +81,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

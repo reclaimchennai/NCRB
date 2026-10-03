@@ -6,97 +6,112 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "TOIAL COGNIZ",
+ "title": "TOTAL COGNIZ Part 'A' States Part 'B' States",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686382133APPENDIX0.pdf",
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "TOIAL COGNIZ",
- "row_label": "State Serial No.",
+ "pdf_title": "TOTAL COGNIZ Part 'A' States Part 'B' States",
+ "row_label": "Serial No.",
  "pages": [
   4,
-  5
+  4,
+  4,
+  4
  ],
- "n_rows": 33,
- "n_cols": 8,
- "n_cells": 256,
+ "n_rows": 5,
+ "n_cols": 7,
+ "n_cells": 16,
  "columns": [
   {
    "col_no": "2",
-   "name": "Persons in custody nending trial or or on bail at the of the year",
+   "name": "State",
    "header": [
-    "Persons in custody nending trial or or on bail at the of the year"
+    "State"
    ]
   },
   {
    "col_no": "3",
-   "name": "Persons | Persons arrested during ear",
+   "name": "Persons in custody pending trial or investigation or on bail at the beginning of the year",
    "header": [
-    "Persons",
-    "Persons arrested during ear"
+    "Persons in custody pending trial or investigation or on bail at the beginning of the year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons | released by the. the- Police or Magixtrass before trial -",
+   "name": "Persons arrested during the year",
    "header": [
-    "Persons",
-    "released by the. the- Police or Magixtrass before trial -"
+    "Persons arrested during the year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Persons released by the Police or Magistrate before trial",
+   "header": [
+    "Persons released by the Police or Magistrate before trial"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIME—PERS ONS. | Persons in cases the trials were completed",
+   "name": ". | . | . | . | . | . | . | . | . | .",
    "header": [
-    "CRIME—PERS ONS.",
-    "Persons in cases the trials were completed"
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    "."
    ]
   },
   {
    "col_no": "7",
-   "name": "CRIME—PERS ONS. | Persons convicted",
+   "name": "8,208 | 13,161 | 41,365 | 65,234 | 36,600 | 9,032 | 14,077 | 7,284 | 64,119 | 26,138",
    "header": [
-    "CRIME—PERS ONS.",
-    "Persons convicted"
+    "8,208",
+    "13,161",
+    "41,365",
+    "65,234",
+    "36,600",
+    "9,032",
+    "14,077",
+    "7,284",
+    "64,119",
+    "26,138"
    ]
   },
   {
    "col_no": "8",
-   "name": "CRIME—PERS ONS. | Persons acquitted or",
+   "name": "24,737 | 25,138 | 62,140 | 72,497 | 42,076 | 46,497 | 19,093 | 20,474 | 73,601 | 72,837",
    "header": [
-    "CRIME—PERS ONS.",
-    "Persons acquitted or"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Persons in custody or bail pending trial discharged - or investigation at the close of the year",
-   "header": [
-    "Persons in custody or bail pending trial discharged - or investigation at the close of the year"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Appendix II Percentage of conviction.",
-   "header": [
-    "Appendix II Percentage of conviction."
+    "24,737",
+    "25,138",
+    "62,140",
+    "72,497",
+    "42,076",
+    "46,497",
+    "19,093",
+    "20,474",
+    "73,601",
+    "72,837"
    ]
   }
  ],
- "notes": [
-  "I2"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 18,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

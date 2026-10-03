@@ -8,40 +8,49 @@
  "serial": "9",
  "title": "Cases Reported under Local and Special Laws",
  "listing_title": "Cases Reported under Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-9-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-9-1973.pdf",
  "source_sha256": "9e1b2c7f5b268de91d71cf0a1a412fdbd0ea7c9a5ca1b6259542b6be75e285a2",
  "table_no": "9",
- "pdf_title": "Cares Reported under Local and Snecial laws",
- "row_label": "Si. Crime Heads he, - / 67",
+ "pdf_title": "59 TABLE 9 Cases Reported under Local and Special Laws",
+ "row_label": "Sl. No. / Crime Heads",
  "pages": [
+  1,
+  1,
   1
  ],
- "n_rows": 15,
- "n_cols": 7,
- "n_cells": 78,
+ "n_rows": 9,
+ "n_cols": 8,
+ "n_cells": 72,
  "columns": [
   {
-   "col_no": "4",
-   "name": "6k",
+   "col_no": "3",
+   "name": "1967",
    "header": [
-    "6k"
+    "1967"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1968",
+   "header": [
+    "1968"
    ]
   },
   {
    "col_no": "5",
-   "name": "D970 (5)",
+   "name": "1969",
    "header": [
-    "D970"
+    "1969"
    ]
   },
   {
    "col_no": "6",
-   "name": "D970 (6)",
+   "name": "1970",
    "header": [
-    "D970"
+    "1970"
    ]
   },
   {
@@ -53,9 +62,9 @@
   },
   {
    "col_no": "8",
-   "name": "1972 -",
+   "name": "1972",
    "header": [
-    "1972 -"
+    "1972"
    ]
   },
   {
@@ -67,23 +76,21 @@
   },
   {
    "col_no": "10",
-   "name": "tage chan go over 1972",
+   "name": "Percentage change over 1972",
    "header": [
-    "tage chan go over 1972"
+    "Percentage change over 1972"
    ]
   }
  ],
- "notes": [
-  "Paelodine Imm A antl Peadegh."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 3
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

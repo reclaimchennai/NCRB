@@ -8,61 +8,83 @@
  "serial": "71",
  "title": "Disposal of Persons Arrested Under IPC by Police During 1999 (Crime Head–Wise)",
  "listing_title": "Disposal of Persons Arrested Under IPC by Police During 1999 (Crime Head–Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-71-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-71-1999.pdf",
  "source_sha256": "bf80b9260b3c80b1e7058e51cef9356fc576b9cba9b3736800a6b54cfbdb5729",
  "table_no": "71",
- "pdf_title": "DISPOSAL UF PEKSUNS 4®KeNTKDD UNDEK IPC CRIMES RY POLICE DURING 1999",
- "row_label": "(CRIME SL. comer PERSONS NO. UNDER NO. YEAR @)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 71",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 27,
- "n_cols": 4,
- "n_cells": 107,
+ "n_cols": 7,
+ "n_cells": 189,
  "columns": [
   {
-   "col_no": "5",
-   "name": "- | S5¢5KTAQE TO TOTAL @)",
+   "col_no": "3",
+   "name": "TOTAL NO. PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "-",
-    "S5¢5KTAQE TO TOTAL @)"
+    "TOTAL NO. PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERSONS RELEASED BEFORE TRIAL | NO.",
+   "header": [
+    "PERSONS RELEASED BEFORE TRIAL",
+    "NO."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERSONS RELEASED BEFORE TRIAL | PERCENTAGE TO TOTAL",
+   "header": [
+    "PERSONS RELEASED BEFORE TRIAL",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "- | NO.",
+   "name": "PERSONS CHARGE SHEETED | NO.",
    "header": [
-    "-",
+    "PERSONS CHARGE SHEETED",
     "NO."
    ]
   },
   {
    "col_no": "7",
-   "name": "- | PERSONS CHARGE SHEETED TO TOTAL",
+   "name": "PERSONS CHARGE SHEETED | PERCENTAGE TO TOTAL",
    "header": [
-    "-",
-    "PERSONS CHARGE SHEETED TO TOTAL"
+    "PERSONS CHARGE SHEETED",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERSONS UNDER INVESTIGATION AT THE END O1' THE YEAR NO, FEECENTACE TO TOTAL ®",
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | NO.",
    "header": [
-    "PERSONS UNDER INVESTIGATION AT THE END O1' THE YEAR NO, FEECENTACE TO TOTAL ®"
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+    "NO."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR | PERCENTAGE TO TOTAL",
+   "header": [
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+    "PERCENTAGE TO TOTAL"
    ]
   }
  ],
- "notes": [
-  "*In Custody or on bail"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 4,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

@@ -6,76 +6,54 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1984",
  "serial": "3",
- "title": "Of 222922 by During 1984, 57-9 per cent of the fotal suicides were com- mitted by males and 42-1 perjcent§by females in the country as a whole and in-the States this ratio was-58-0 and 7420",
+ "title": "30 TABLE V Distribution of Suicides by States/U. Ts./Metropolitan cities during the year 1983 and 1984",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1984.pdf",
  "source_file": "raw/adsi/1984/year_wise/suicides-1984.pdf",
  "source_sha256": "fae1d63337ca7e6473debc7a5b744039d12b642aa0289a7de72976e3894ba58a",
  "table_no": "V",
- "pdf_title": "Of 222922 by During 1984, 57-9 per cent of the fotal suicides were com- mitted by males and 42-1 perjcent§by females in the country as a whole and in-the States this ratio was-58-0 and 7420",
- "row_label": "0: / 0) af during States/U.Ts./Cities",
+ "pdf_title": "30 TABLE V Distribution of Suicides by States/U. Ts./Metropolitan cities during the year 1983 and 1984",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
-  10,
-  14,
-  15
+  10
  ],
- "n_rows": 86,
- "n_cols": 5,
- "n_cells": 340,
+ "n_rows": 34,
+ "n_cols": 3,
+ "n_cells": 102,
  "columns": [
   {
    "col_no": "3",
-   "name": "- | States/U. Ts.j27 “20 the year 1983 and 1984 No. cf. Suicices. clatiti",
+   "name": "No. of Suicides during 1983",
    "header": [
-    "-",
-    "States/U. Ts.j27 “20 the year 1983 and 1984 No. cf. Suicices. clatiti"
+    "No. of Suicides during 1983"
    ]
   },
   {
    "col_no": "4",
-   "name": "- | No. of Siuicides 1983\" duting'1984-",
+   "name": "No. of Suicides during 1984",
    "header": [
-    "-",
-    "No. of Siuicides 1983\" duting'1984-"
+    "No. of Suicides during 1984"
    ]
   },
   {
    "col_no": "5",
-   "name": "- | fone rom 1$'83 to 1984",
+   "name": "% change from 1983 to 1984",
    "header": [
-    "-",
-    "fone rom 1$'83 to 1984"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "‘Femile’’ | was 56-8% 12 States and percentage thé * year’ %of female to total",
-   "header": [
-    "‘Femile’’",
-    "was 56-8% 12 States and percentage thé * year’ %of female to total"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "suicides and Metropolitan 8 Union All-India average of 57-9% of’ male victims of th: suicides were lower than the all-India average of 57 -9 per cent.The percentage of male victims was higher in Jaipur (67 -4), Hyderabad (63 9) and Lucknow (58 °8). 1984",
-   "header": [
-    "suicides and Metropolitan 8 Union All-India average of 57-9% of’ male victims of th: suicides were lower than the all-India average of 57 -9 per cent.The percentage of male victims was higher in Jaipur (67 -4), Hyderabad (63 9) and Lucknow (58 °8). 1984"
+    "% change from 1983 to 1984"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 2,
-  "failures": [
-   "col 3 'TOTAL STATES:': printed 45576, sum 97576"
-  ],
+  "cells_checked": 4,
+  "cells_passed": 4,
+  "failures": [],
   "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 1,
  "warnings": []
 }

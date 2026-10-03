@@ -8,35 +8,107 @@
  "serial": "10",
  "title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Women During 1993",
  "listing_title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Women During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table58-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table58-1994_2.pdf",
  "source_sha256": "3e6a61d8c40742f1d58f3e0c073073e9cfd20ed05db29d15a7724f29fdf589ab",
  "table_no": "58",
- "pdf_title": "INCIDENCE (1), RATE (R) AND PERCENTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES COMmi1 1rEu AGAINST WOMEN DURING 1993",
- "row_label": "(STATE & UT-WISE) SL. NO. / (STATE & UT-WISE) STATE/UT / (STATE & UT-WISE) ESTIMATED MID-YEAR POPULATION (IN LAKHS) / (STATE & UT-WISE) 1 / (STATE & UT-WISE) RAPE R / (STATE & UT-WISE) P / (STATE & UT-WISE) KIDNAPPING & ABDUCTION / (STATE & UT-WISE) KIDNAPPING & ABDUCTION R / (STATE & UT-WISE) KIDNAPPING & ABDUCTION P / (STATE & UT-WISE) DOWRY DEATHS I / (STATE & UT-WISE) DOWRY DEATHS R",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-58",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 63,
- "n_cols": 13,
- "n_cells": 349,
+ "n_rows": 35,
+ "n_cols": 22,
+ "n_cells": 770,
  "columns": [
   {
-   "col_no": "12",
-   "name": "(STATE & UT-WISE) | P",
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "(STATE & UT-WISE)",
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RAPE | R",
+   "header": [
+    "RAPE",
+    "R"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE | P",
+   "header": [
+    "RAPE",
+    "P"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING & ABDUCTION | I",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KIDNAPPING & ABDUCTION | R",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "R"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "KIDNAPPING & ABDUCTION | P",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DOWRY DEATHS | I",
+   "header": [
+    "DOWRY DEATHS",
+    "I"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "DOWRY DEATHS | R",
+   "header": [
+    "DOWRY DEATHS",
+    "R"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "DOWRY DEATHS | P",
+   "header": [
+    "DOWRY DEATHS",
     "P"
    ]
   },
   {
    "col_no": "13",
-   "name": "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES",
+   "name": "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES | I",
    "header": [
-    "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES"
+    "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES",
+    "I"
    ]
   },
   {
@@ -57,8 +129,11 @@
   },
   {
    "col_no": "16",
-   "name": "col_16",
-   "header": []
+   "name": "MOLESTATION | I",
+   "header": [
+    "MOLESTATION",
+    "I"
+   ]
   },
   {
    "col_no": "17",
@@ -125,20 +200,11 @@
    ]
   }
  ],
- "notes": [
-  "Source: Monthly Crime Statistics.",
-  "Note: 1. Percentage less than 0.05 is also shown as 0.0.",
-  "2. Figures are provisional.",
-  "16A. NCBR/96"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 0,
-  "failures": [
-   "col 13 '(ALLINDIA)': printed 22064, sum 22204",
-   "col 16 '(ALLINDIA)': printed 20985, sum 30126",
-   "col 22 '(ALLINDIA)': printed 83954, sum 146365"
-  ],
+  "cells_checked": 21,
+  "cells_passed": 21,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

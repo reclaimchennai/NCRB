@@ -8,81 +8,110 @@
  "serial": "51",
  "title": "Juveniles Apprehended Under Different SLL Crimes During 1996 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended Under Different SLL Crimes During 1996 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-51-juveniles-apprehended-under-different-sll-crimes-during-1996-(-state,ut&-city-wise)-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-51-juveniles-apprehended-under-different-sll-crimes-during-1996-(-state,ut&-city-wise)-1996.pdf",
  "source_sha256": "6aeed7ec425ea4251985146e730f41187b22d84e80dd951feae319beb1e19f92",
  "table_no": "51",
- "pdf_title": "JUVENILES APPREHENDED UNDER DIFFERENT SLL CRIMES DURING 1996",
- "row_label": "(STATE,UT & CITY-WISE) SL. STATE/UTICITY NO. mm / (STATE,UT & CITY-WISE) ARMS NARCOTIC ACT / (STATE,UT & CITY-WISE) ARMS NARCOTIC DRUGS & PSY. SUBSTAN CES ACT / (STATE,UT & CITY-WISE) GAMBLING ACT / (STATE,UT & CITY-WISE) EXCISE",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-51",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 7,
- "n_cols": 6,
- "n_cells": 16,
+ "n_rows": 58,
+ "n_cols": 12,
+ "n_cells": 696,
  "columns": [
   {
-   "col_no": "7",
-   "name": "(STATE,UT & CITY-WISE) | PROHIBITIONACT",
+   "col_no": "3",
+   "name": "ARMS ACT",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "PROHIBITIONACT"
+    "ARMS ACT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NARCOTIC DRUGS & PSY. SUBSTANCES ACT",
+   "header": [
+    "NARCOTIC DRUGS & PSY. SUBSTANCES ACT"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "GAMB-LING ACT",
+   "header": [
+    "GAMB-LING ACT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EXCISE ACT",
+   "header": [
+    "EXCISE ACT"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PROHIBITION ACT",
+   "header": [
+    "PROHIBITION ACT"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE,UT & CITY-WISE) | EXPLO- IMMORAL | SIVES& EXPLOSUBSTANCES ACT",
+   "name": "EXPLO-SIVES & EXPLO-SIVES SUB-STANCES ACT",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "EXPLO- IMMORAL",
-    "SIVES& EXPLOSUBSTANCES ACT"
+    "EXPLO-SIVES & EXPLO-SIVES SUB-STANCES ACT"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE,UT & CITY-WISE) | EXPLO- IMMORAL | INDIAN TRAFFIC RAILWAYS (PREVACT ACT ao)",
+   "name": "IMMORAL TRAFFIC (PREV-ENTION) ACT",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "EXPLO- IMMORAL",
-    "INDIAN TRAFFIC RAILWAYS (PREVACT ACT ao)"
+    "IMMORAL TRAFFIC (PREV-ENTION) ACT"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "INDIAN RAIL-WAYS ACT",
+   "header": [
+    "INDIAN RAIL-WAYS ACT"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "REGIST-RATION OF FORE-IGNERS ACT",
+   "header": [
+    "REGIST-RATION OF FORE-IGNERS ACT"
    ]
   },
   {
    "col_no": "12",
-   "name": "(STATE,UT & CITY-WISE) | REGIST- PROTEC: RATION- TIONOF OFFOREIGNERS ACT a1)",
+   "name": "PROTEC-TION OF CIVIL RIGHTS ACT",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "REGIST- PROTEC: RATION- TIONOF OFFOREIGNERS ACT a1)"
+    "PROTEC-TION OF CIVIL RIGHTS ACT"
    ]
   },
   {
    "col_no": "13",
-   "name": "(STATE,UT & CITY-WISE) | - INDIAN. PASSPORT CIVIL RIGHTS - ACT",
+   "name": "INDIAN PASSPORT ACT",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "- INDIAN. PASSPORT CIVIL RIGHTS - ACT"
+    "INDIAN PASSPORT ACT"
    ]
   },
   {
    "col_no": "14",
-   "name": "(STATE,UT & CITY-WISE) | ESSENTIAL ACT COMMODITIES ACT",
+   "name": "ESSENTIAL COMMODITIES ACT",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "ESSENTIAL ACT COMMODITIES ACT"
+    "ESSENTIAL COMMODITIES ACT"
    ]
   }
  ],
- "notes": [
-  "ae",
-  "SA",
-  "a",
-  "peat eT Se es aa"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 33,
+  "cells_passed": 33,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

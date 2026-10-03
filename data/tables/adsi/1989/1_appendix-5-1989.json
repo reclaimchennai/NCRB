@@ -8,248 +8,267 @@
  "serial": "1",
  "title": "Percentage distribution of Accidental Deaths by various Causes during 1989 (State, UT & City-wise)",
  "listing_title": "Percentage distribution of Accidental Deaths by various Causes during 1989 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-5_1989.pdf",
  "source_file": "raw/adsi/1989/table_content/appendix-5_1989.pdf",
  "source_sha256": "9b9e6a631b011f7b83c32cf5843b49803e55a9e3d785e8fbc7b25addf0fa1ed2",
  "table_no": "",
- "pdf_title": "APPENDIX - V Distribution Of Accidental Deaths By Various Causes",
- "row_label": "oT BOQ, Lightning 653",
+ "pdf_title": "34 APPENDIX - V Percentage Distribution Of Accidental Deaths By Various Causes",
+ "row_label": "No. / State/City",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 110,
- "n_cols": 30,
- "n_cells": 1390,
+ "n_rows": 64,
+ "n_cols": 31,
+ "n_cells": 1456,
  "columns": [
   {
-   "col_no": "4",
-   "name": "oT | ae 8 Se SP Bie S42 SSP Heat Strok> (2°",
+   "col_no": "3",
+   "name": "Natural Causes | Lightning",
    "header": [
-    "oT",
-    "ae 8 Se SP Bie S42 SSP Heat Strok> (2°"
+    "Natural Causes",
+    "Lightning"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Natural Causes | Heat Stroke",
+   "header": [
+    "Natural Causes",
+    "Heat Stroke"
    ]
   },
   {
    "col_no": "5",
-   "name": "& City-wise) See Ae? Flood",
+   "name": "Natural Causes | Flood",
    "header": [
-    "& City-wise) See Ae? Flood"
+    "Natural Causes",
+    "Flood"
    ]
   },
   {
    "col_no": "6",
-   "name": "Natural SSP Landslide",
+   "name": "Natural Causes | Landslide",
    "header": [
-    "Natural SSP Landslide"
+    "Natural Causes",
+    "Landslide"
    ]
   },
   {
    "col_no": "7",
-   "name": "Causes SF Cold Exposure",
+   "name": "Natural Causes | Cold & Exposure",
    "header": [
-    "Causes SF Cold Exposure"
+    "Natural Causes",
+    "Cold & Exposure"
    ]
   },
   {
    "col_no": "8",
-   "name": "See SS &",
+   "name": "Natural Causes | Cyclone",
    "header": [
-    "See SS &"
+    "Natural Causes",
+    "Cyclone"
    ]
   },
   {
    "col_no": "9",
-   "name": "SS Total Cyclone’ (A)",
+   "name": "Natural Causes | Total (A)",
    "header": [
-    "SS Total Cyclone’ (A)"
+    "Natural Causes",
+    "Total (A)"
    ]
   },
   {
    "col_no": "10",
-   "name": "i at SS By Firearm",
+   "name": "Other Causes | By Firearm",
    "header": [
-    "i at SS By Firearm"
+    "Other Causes",
+    "By Firearm"
    ]
   },
   {
    "col_no": "11",
-   "name": "Se Se BS OS By Explosion",
+   "name": "Other Causes | By Explosion",
    "header": [
-    "Se Se BS OS By Explosion"
+    "Other Causes",
+    "By Explosion"
    ]
   },
   {
    "col_no": "12",
-   "name": "or oS ee ee By House collapse",
+   "name": "Other Causes | By House collapse",
    "header": [
-    "or oS ee ee By House collapse"
+    "Other Causes",
+    "By House collapse"
    ]
   },
   {
    "col_no": "13",
-   "name": "Other Total Road Accident",
+   "name": "Other Causes | Total Road Accident",
    "header": [
-    "Other Total Road Accident"
+    "Other Causes",
+    "Total Road Accident"
    ]
   },
   {
    "col_no": "14",
-   "name": "Causes oe ee on ee Motor Vehicle Accident",
+   "name": "Other Causes | Motor Vehicle Accident",
    "header": [
-    "Causes oe ee on ee Motor Vehicle Accident"
+    "Other Causes",
+    "Motor Vehicle Accident"
    ]
   },
   {
    "col_no": "15",
-   "name": "APPENDIX ee oe Other Road Accident",
+   "name": "Other Causes | Other Road Accident",
    "header": [
-    "APPENDIX ee oe Other Road Accident"
+    "Other Causes",
+    "Other Road Accident"
    ]
   },
   {
    "col_no": "16",
-   "name": "- Factory Accident",
+   "name": "Other Causes | Factory Accident",
    "header": [
-    "- Factory Accident"
+    "Other Causes",
+    "Factory Accident"
    ]
   },
   {
    "col_no": "17",
-   "name": "(Continued) V Railway Accident",
+   "name": "Other Causes | Railway Accident",
    "header": [
-    "(Continued) V Railway Accident"
+    "Other Causes",
+    "Railway Accident"
    ]
   },
   {
    "col_no": "18",
-   "name": "Other | Air- Crash",
+   "name": "Other Causes | Air-Crash",
    "header": [
-    "Other",
-    "Air- Crash"
+    "Other Causes",
+    "Air-Crash"
    ]
   },
   {
    "col_no": "19",
-   "name": "Other | By Fire’",
+   "name": "Other Causes | By Fire",
    "header": [
-    "Other",
-    "By Fire’"
+    "Other Causes",
+    "By Fire"
    ]
   },
   {
    "col_no": "20",
-   "name": "Other | By Srowiing",
+   "name": "Other Causes | By Drowning",
    "header": [
-    "Other",
-    "By Srowiing"
+    "Other Causes",
+    "By Drowning"
    ]
   },
   {
    "col_no": "21",
-   "name": "Other | By Poisoning",
+   "name": "Other Causes | By Poisoning",
    "header": [
-    "Other",
+    "Other Causes",
     "By Poisoning"
    ]
   },
   {
    "col_no": "22",
-   "name": "Other | Causes SSS By Snake Bite",
+   "name": "Other Causes | By Snake Bite",
    "header": [
-    "Other",
-    "Causes SSS By Snake Bite"
+    "Other Causes",
+    "By Snake Bite"
    ]
   },
   {
    "col_no": "23",
-   "name": "Other | Killed By Animals",
+   "name": "Other Causes | Killed By Animals",
    "header": [
-    "Other",
+    "Other Causes",
     "Killed By Animals"
    ]
   },
   {
    "col_no": "24",
-   "name": "Other | see Boat Capsize",
+   "name": "Other Causes | Boat Capsize",
    "header": [
-    "Other",
-    "see Boat Capsize"
+    "Other Causes",
+    "Boat Capsize"
    ]
   },
   {
    "col_no": "25",
-   "name": "Mine Or Quarry Disaster",
+   "name": "Other Causes | Mine Or Quarry Disaster",
    "header": [
+    "Other Causes",
     "Mine Or Quarry Disaster"
    ]
   },
   {
    "col_no": "26",
-   "name": "tion",
+   "name": "State/UT/City",
    "header": [
-    "tion"
+    "State/UT/City"
    ]
   },
   {
    "col_no": "27",
-   "name": "Other | Fall From Height",
+   "name": "Other Causes | Accidental Electrocution",
    "header": [
-    "Other",
-    "Fall From Height"
+    "Other Causes",
+    "Accidental Electrocution"
    ]
   },
   {
    "col_no": "28",
-   "name": "Other | Spurious Liquor",
+   "name": "Other Causes | Accidental Fall From Height",
    "header": [
-    "Other",
-    "Spurious Liquor"
+    "Other Causes",
+    "Accidental Fall From Height"
    ]
   },
   {
    "col_no": "29",
-   "name": "Other | Due To Smoke Etc.",
+   "name": "Other Causes | Consulting Spurious Liquor",
    "header": [
-    "Other",
-    "Due To Smoke Etc."
+    "Other Causes",
+    "Consulting Spurious Liquor"
    ]
   },
   {
    "col_no": "30",
-   "name": "APPENDIX - Vo | Abortion",
+   "name": "Other Causes | Suffocation Due To Smoke Etc.",
    "header": [
-    "APPENDIX - Vo",
-    "Abortion"
+    "Other Causes",
+    "Suffocation Due To Smoke Etc."
    ]
   },
   {
    "col_no": "31",
-   "name": "APPENDIX - Vo | Unspeci- Total | fied (31y",
+   "name": "Other Causes | Unspecified",
    "header": [
-    "APPENDIX - Vo",
-    "Unspeci- Total",
-    "fied (31y"
+    "Other Causes",
+    "Unspecified"
    ]
   },
   {
    "col_no": "32",
-   "name": "APPENDIX - Vo | Unspeci- Total | (B)",
+   "name": "Grand Total[(A)+(B)]",
    "header": [
-    "APPENDIX - Vo",
-    "Unspeci- Total",
-    "(B)"
+    "Grand Total[(A)+(B)]"
    ]
   },
   {
    "col_no": "33",
-   "name": "=2-==':= Grand =Total [¢A)*(B)3",
+   "name": "Total (B)",
    "header": [
-    "=2-==':= Grand =Total [¢A)*(B)3"
+    "Total (B)"
    ]
   }
  ],

@@ -8,57 +8,102 @@
  "serial": "15",
  "title": "Statement of Recidivism under Important Heads of Crime During 1982; Percentage Distribution of Recidivism in India During 1982",
  "listing_title": "Statement of Recidivism under Important Heads of Crime During 1982; Percentage Distribution of Recidivism in India During 1982",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-53-and-54-1982.pdf",
  "source_file": "raw/cii/1982/table_content/table-53-and-54-1982.pdf",
  "source_sha256": "dbc802e111521db4465dcd7ce7464b6f8d5ff37d0fe6e1f6d2c7263ca33833ec",
  "table_no": "53",
- "pdf_title": "STATEMENT OF RECIDIVISM UNDER IMPORTANT HEADS OF CRIME DURING 1982",
- "row_label": "Sl. No. 0, - 2 1. Murder 2, 3. Rape 4. Kidnapping & Abduction 5. Dacoity 7 6. Robbery ‘ 7. Burglary 8. Thefts 9. Riots 10, Criminal Rreach of Trust Ml, Cheating 12, 13. Sl. No. / Heads of Crime 7 2 - Culpable Homicide not amounting to murder... s oo. © #£ ‘ A é ‘ 2. Cowaterfeiting TotalIPC TABLE 54 Crime Heads / Number of offenders who have been arrested in the past No. of new offenders arrested Once 3 ‘ 8 SS 2 A ‘ ‘ ‘ 2. 730 \"86,895 ‘ NOTE:;—Figures exclude Delhi U.T. due to non-availability of data on Recidiviem. Feicsniage of new offenders arrested to total arrested",
+ "pdf_title": "132 TABLE 53 STATEMENT OF RECIDIVISM UNDER IMPORTANT HEADS OF CRIME DURING 1982",
+ "row_label": "Sl. No. / Heads of Crime / Heads of Crime",
  "pages": [
+  1,
   1
  ],
- "n_rows": 13,
- "n_cols": 3,
- "n_cells": 37,
+ "n_rows": 14,
+ "n_cols": 9,
+ "n_cells": 117,
  "columns": [
   {
+   "col_no": "3",
+   "name": "No. of new offenders arrested",
+   "header": [
+    "No. of new offenders arrested"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "Number of offenders who have been arrested in the past | Twice 4 496 §2,273 ‘ 6,201 135 26 7,059 & 15,922 181 1,433 41,428 «© 618 23,648 - 87,383 3,198 a 7,368 1,99,377 x 2,104 5,45,494 ‘ 107 15,695 110 14,016 9 - ‘“ 22,069 OF RECIDIVISM IN INDIA DURING 1982 Once",
+   "name": "Number of offenders who have been arrested in the past | Once",
    "header": [
     "Number of offenders who have been arrested in the past",
-    "Twice 4 496 §2,273 ‘ 6,201 135 26 7,059 & 15,922 181 1,433 41,428 «© 618 23,648 - 87,383 3,198 a 7,368 1,99,377 x 2,104 5,45,494 ‘ 107 15,695 110 14,016 9 - ‘“ 22,069 OF RECIDIVISM IN INDIA DURING 1982 Once"
+    "Once"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number of offenders who have been arrested in the past | Three times or more 5 92 3,249 13 320 4 278 67 910 422 4,094 243 2,177 1,769 9,215 ‘ 4,369 21,754 656 21,553 20 619 42 636 - 11,089 ‘ Twice",
+   "name": "Number of offenders who have been arrested in the past | Twice",
    "header": [
     "Number of offenders who have been arrested in the past",
-    "Three times or more 5 92 3,249 13 320 4 278 67 910 422 4,094 243 2,177 1,769 9,215 ‘ 4,369 21,754 656 21,553 20 619 42 636 - 11,089 ‘ Twice"
+    "Twice"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number of offenders who have been arrested in the past | Total 7 6 56,110 6,669 7,367 17,080 47,377 26,686 1,01,565 2,32,868 5,69,807 16,441 14,804 739 19,86,593 18,66,540 of offenders who have been arrested in past to total arrested Three times or more",
+   "name": "Number of offenders who have been arrested in the past | Three times or more",
    "header": [
     "Number of offenders who have been arrested in the past",
-    "Total 7 6 56,110 6,669 7,367 17,080 47,377 26,686 1,01,565 2,32,868 5,69,807 16,441 14,804 739 19,86,593 18,66,540 of offenders who have been arrested in past to total arrested Three times or more"
+    "Three times or more"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Number of offenders who have been arrested in the past | Total",
+   "header": [
+    "Number of offenders who have been arrested in the past",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Percentage of new offenders arrested to total arrested",
+   "header": [
+    "Percentage of new offenders arrested to total arrested"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Percentage of offenders who have been arrested in past to total arrested | Once",
+   "header": [
+    "Percentage of offenders who have been arrested in past to total arrested",
+    "Once"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Percentage of offenders who have been arrested in past to total arrested | Twice",
+   "header": [
+    "Percentage of offenders who have been arrested in past to total arrested",
+    "Twice"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Percentage of offenders who have been arrested in past to total arrested | Three times or more",
+   "header": [
+    "Percentage of offenders who have been arrested in past to total arrested",
+    "Three times or more"
    ]
   }
  ],
- "notes": [
-  "NOTE:—Figures exclude Delhi U.T. due to data on Recidivism."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 5,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

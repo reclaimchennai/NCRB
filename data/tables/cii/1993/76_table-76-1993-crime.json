@@ -8,58 +8,68 @@
  "serial": "76",
  "title": "Persons Killed or Injured under Police Firing During 1993 (Event-Wise)",
  "listing_title": "Persons Killed or Injured under Police Firing During 1993 (Event-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-76-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-76-1993-crime.pdf",
  "source_sha256": "dfd205e3c4422b9505dce67a3adad0ada1700768889c49ed83ddee33048fc2a8",
  "table_no": "76",
- "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1993",
- "row_label": "",
+ "pdf_title": "323 TABLE-76 PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1993 (EVENT-WISE)",
+ "row_label": "SL NO. / EVENT",
  "pages": [
   1
  ],
- "n_rows": 3,
+ "n_rows": 5,
  "n_cols": 5,
- "n_cells": 15,
+ "n_cells": 25,
  "columns": [
   {
    "col_no": "3",
-   "name": "(EVENT-WISE)",
+   "name": "NO. OF OCCASIONS OF POLICE FIRING",
    "header": [
-    "(EVENT-WISE)"
+    "NO. OF OCCASIONS OF POLICE FIRING"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "CIVILIANS | KILLED",
+   "header": [
+    "CIVILIANS",
+    "KILLED"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "CIVILIANS | INJURED",
+   "header": [
+    "CIVILIANS",
+    "INJURED"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "POLICEMEN | KILLED",
+   "header": [
+    "POLICEMEN",
+    "KILLED"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "POLICEMEN | INJURED",
+   "header": [
+    "POLICEMEN",
+    "INJURED"
+   ]
   }
  ],
- "notes": [
-  "43A—177 NCRB/9."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

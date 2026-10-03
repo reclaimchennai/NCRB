@@ -8,108 +8,113 @@
  "serial": "64",
  "title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1988 (Men + Women)",
  "listing_title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1988 (Men + Women)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-64-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-64-1988-2.pdf",
  "source_sha256": "e99db1ba10704283a1a30b59491b520d8b488741e0822d833bf69dd81535abf5",
  "table_no": "64",
- "pdf_title": "",
- "row_label": "SANCTIONED STATE/UT/CITY SL. NO. (1) STATES",
+ "pdf_title": "189 TABLE-64 SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
+ "row_label": "SL. STATE/UT/CITY NO.",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 10,
- "n_cells": 464,
+ "n_cells": 470,
  "columns": [
   {
-   "col_no": "2",
-   "name": "AND AS - TIONED (42)",
-   "header": [
-    "AND AS - TIONED (42)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "ACTUAL OF ON «MEN DG/ 1G/DIG/SP ACTUAL (3)",
+   "name": "DG/IG/DIG/SP | SANC-TIONED",
    "header": [
-    "ACTUAL OF ON «MEN DG/ 1G/DIG/SP ACTUAL (3)"
+    "DG/IG/DIG/SP",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "CIVIL 31.12.1988 + ASP SANC~- TIONED (4)",
+   "name": "DG/IG/DIG/SP | ACTUAL",
    "header": [
-    "CIVIL 31.12.1988 + ASP SANC~- TIONED (4)"
+    "DG/IG/DIG/SP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "POLICE WOMEN) & ACTUAL (5)",
+   "name": "ASP & DSP | SANC-TIONED",
    "header": [
-    "POLICE WOMEN) & ACTUAL (5)"
+    "ASP & DSP",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "INCLUDING DSP inpreciun, A.S8.1. SANCTIONED (6)",
+   "name": "ASP & DSP | ACTUAL",
    "header": [
-    "INCLUDING DSP inpreciun, A.S8.1. SANCTIONED (6)"
+    "ASP & DSP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "DISTRICT SI ACTUAL (7)",
+   "name": "INSPECTOR, SI & A.S.I. | SANC-TIONED",
    "header": [
-    "DISTRICT SI ACTUAL (7)"
+    "INSPECTOR, SI & A.S.I.",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "8",
-   "name": "ARMED & A.S.1I. SANC~ TIONED (8)",
+   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
    "header": [
-    "ARMED & A.S.1I. SANC~ TIONED (8)"
+    "INSPECTOR, SI & A.S.I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "POLICE BELOW ACTUAL (9)",
+   "name": "OFFICERS BELOW A.S.I. | SANC-TIONED",
    "header": [
-    "POLICE BELOW ACTUAL (9)"
+    "OFFICERS BELOW A.S.I.",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "10",
-   "name": "GRAND TOTAL | SANC~- TIONED (10)",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
    "header": [
-    "GRAND TOTAL",
-    "SANC~- TIONED (10)"
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "GRAND TOTAL | ACTUAL (12)",
+   "name": "GRAND TOTAL | SANC-TIONED",
    "header": [
     "GRAND TOTAL",
-    "ACTUAL (12)"
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
- "notes": [
-  "Note: 1. 1987 data repeated for Jammu & Kashmir.",
-  "2. 1986 data repeated for west Bengal.",
-  "3. ‘Sanctioned' Police strength was not available for J&k, MP",
-  "and W.B., it is taken equal to Police strength."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 15,
-  "other_totals_passed": 11
+  "cells_checked": 30,
+  "cells_passed": 29,
+  "failures": [
+   "col 6 'TOTAL (STATES)': printed 4243, sum 4153"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

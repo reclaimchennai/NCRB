@@ -8,14 +8,14 @@
  "serial": "41",
  "title": "Percentage of Disposal of Cases under IPC by the Courts During 1987",
  "listing_title": "Percentage of Disposal of Cases under IPC by the Courts During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_14-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_14-1987.pdf",
  "source_sha256": "e552994ac8e04cbf9da8fa57d8b6d695f4376b99828085cea92eb6f2619666a2",
  "table_no": "14",
- "pdf_title": "",
- "row_label": "sl. No. / Fercentaze Heads",
+ "pdf_title": "67 TABLE-14 Percentage Of Disposal Of Cases Under IPC By The Courts During 1987",
+ "row_label": "S1. No. / Heads Of Crime",
  "pages": [
   1
  ],
@@ -25,36 +25,34 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "Of Of cases or withdrawn to cases for",
+   "name": "Percentage of cases compounded or withdrawn to total cases for trial",
    "header": [
-    "Of Of cases or withdrawn to cases for"
+    "Percentage of cases compounded or withdrawn to total cases for trial"
    ]
   },
   {
    "col_no": "4",
-   "name": "Of IPC By The Crime of in cases trials which total were trial to for",
+   "name": "Percentage of cases in which trials were completed to total cases for trial",
    "header": [
-    "Of IPC By The Crime of in cases trials which total were trial to for"
+    "Percentage of cases in which trials were completed to total cases for trial"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases Courts 1987 During of of Percentase cases nending trial the the commleted total cases trial trial for",
+   "name": "Percentage of cases pending trial at the end of the year to total cases for trial",
    "header": [
-    "Cases Courts 1987 During of of Percentase cases nending trial the the commleted total cases trial trial for"
+    "Percentage of cases pending trial at the end of the year to total cases for trial"
    ]
   },
   {
    "col_no": "6",
-   "name": "Under of Percentage Percentase ended cases in at conviction of end total to cases to ‘total for which year trials cases were",
+   "name": "Percentage of cases ended in conviction to total cases for which trials were completed",
    "header": [
-    "Under of Percentage Percentase ended cases in at conviction of end total to cases to ‘total for which year trials cases were"
+    "Percentage of cases ended in conviction to total cases for which trials were completed"
    ]
   }
  ],
- "notes": [
-  "under IPC"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

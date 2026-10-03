@@ -6,63 +6,63 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "ROBBERY",
+ "title": "72 DACOITY",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix1967.pdf",
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "ROBBERY",
- "row_label": "Si, States/U. Ts./Cities No. -",
+ "pdf_title": "72 DACOITY",
+ "row_label": "Sl. No. / States/U.Ts./ Cities",
  "pages": [
-  18
+  14
  ],
- "n_rows": 38,
+ "n_rows": 39,
  "n_cols": 6,
- "n_cells": 206,
+ "n_cells": 234,
  "columns": [
   {
-   "col_no": "2",
-   "name": "pending pending reported investigation year 4",
-   "header": [
-    "pending pending reported investigation year 4"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Cases disposal in, courts - 2",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Cases disposal in, courts - 2"
+    "Cases pending investigation from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": ".Cases during the year 3",
+   "name": "Cases pending disposal in courts",
    "header": [
-    ".Cases during the year 3"
+    "Cases pending disposal in courts"
    ]
   },
   {
    "col_no": "5",
-   "name": "Casesnot investigated. CE) Declared false 4",
+   "name": "Cases reported during the year",
    "header": [
-    "Casesnot investigated. CE) Declared false 4"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases inyesti-. gation atthe end the year 7 5.",
+   "name": "Cases investigated (+) Declared false (+) mistake of fact or law (+) Non-cognizable",
    "header": [
-    "Cases inyesti-. gation atthe end the year 7 5."
+    "Cases investigated (+) Declared false (+) mistake of fact or law (+) Non-cognizable"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases pending pending trial the at end. of the of year Mistake of fact: or law (+) Noncognizable 8 6",
+   "name": "Cases pending investigation at the end of the year",
    "header": [
-    "Cases pending pending trial the at end. of the of year Mistake of fact: or law (+) Noncognizable 8 6"
+    "Cases pending investigation at the end of the year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Cases pending trial at the end of the year",
+   "header": [
+    "Cases pending trial at the end of the year"
    ]
   }
  ],
@@ -71,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 15,
-  "other_totals_passed": 9
+  "other_totals_checked": 24,
+  "other_totals_passed": 24
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,77 +8,118 @@
  "serial": "16",
  "title": "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.1997 (Men + Women)",
  "listing_title": "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.1997 (Men + Women)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-88-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-88-1996-crime-survey.pdf",
  "source_sha256": "e8064f84322c2ea13b8239dac69eb2cbb2b17cdd8bf5e2504001e75656b28321",
- "table_no": "88",
+ "table_no": "",
  "pdf_title": "",
- "row_label": "SANCTIONED AND ACTUAL (4) 1 2 ,ARUPACHAL PRADESH / SANCTIONED AND ACTUAL SANSACTUAL tioned (2) PRADESH 182, z5'",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 57,
- "n_cols": 5,
- "n_cells": 278,
+ "n_rows": 58,
+ "n_cols": 10,
+ "n_cells": 580,
  "columns": [
   {
    "col_no": "3",
-   "name": "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE | AS ON 31.12.1997 ASP & DSP SANC- (4) 172 i 19",
+   "name": "DG/IG/DIG/SP | SANCTIONED",
    "header": [
-    "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
-    "AS ON 31.12.1997 ASP & DSP SANC- (4) 172 i 19"
+    "DG/IG/DIG/SP",
+    "SANCTIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE | (MEN SANC- (5) 300) 37",
+   "name": "DG/IG/DIG/SP | ACTUAL",
    "header": [
-    "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
-    "(MEN SANC- (5) 300) 37"
+    "DG/IG/DIG/SP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE | + WOMEN) ACTUAL (8) 285) 19",
+   "name": "ASP & DSP | SANCTIONED",
    "header": [
-    "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
-    "+ WOMEN) ACTUAL (8) 285) 19"
+    "ASP & DSP",
+    "SANCTIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE | OFFICERS BELOW SANC- “7) (70) 5837 60331 57163: 46S 2588 2417",
+   "name": "ASP & DSP | ACTUAL",
    "header": [
-    "OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
-    "OFFICERS BELOW SANC- “7) (70) 5837 60331 57163: 46S 2588 2417"
+    "ASP & DSP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "GRAND TOTAL SANC-) ACTUAL 6 ACTUAL ronro (11)! (9) £12) 5429 66650 6305S 467! 3109 2922",
+   "name": "INSPECTOR, SI & A.S.I. | SANCTIONED",
    "header": [
-    "GRAND TOTAL SANC-) ACTUAL 6 ACTUAL ronro (11)! (9) £12) 5429 66650 6305S 467! 3109 2922"
+    "INSPECTOR, SI & A.S.I.",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS BELOW A.S.I. | SANCTIONED",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | SANCTIONED",
+   "header": [
+    "GRAND TOTAL",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
- "notes": [
-  "Though ‘Actual’ Pclice strength is more than ‘Sanctioned’ Police strength for come ranks of Civil Police in some States/UTs.combined",
-  "actual strength of Civil and Armed for those ranks does not exceed combined sanctioned strength for them"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 0,
+  "cells_checked": 30,
+  "cells_passed": 24,
   "failures": [
-   "col 3 '- TOTAL(STATES)': printed 6.02353e+07, sum 9.05422e+08",
-   "col 5 '- TOTAL(STATES)': printed 1.14799e+11, sum 2.75954e+10",
-   "col 6 '- TOTAL(STATES)': printed 819138, sum 7.52399e+10"
+   "col 3 'TOTAL (STATES)': printed 3258, sum 3158",
+   "col 4 'TOTAL (STATES)': printed 2924, sum 2926",
+   "col 5 'TOTAL (STATES)': printed 6023, sum 5921",
+   "col 6 'TOTAL (ALL-INDIA)': printed 5680, sum 5580",
+   "col 7 'TOTAL (STATES)': printed 124388, sum 124384",
+   "col 11 'TOTAL (STATES)': printed 1.00924e+06, sum 1.01125e+06"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

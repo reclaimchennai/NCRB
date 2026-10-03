@@ -8,124 +8,211 @@
  "serial": "37",
  "title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1992 (State, UT & City-wise)",
  "listing_title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1992 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-37-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-37-1992-survey.pdf",
  "source_sha256": "0f6b61aac5017e711eeaf644f604b660d8253cd5e5f3020b27e255438805c64b",
  "table_no": "37",
- "pdf_title": "",
- "row_label": "SL. STATE/UT NO. / JUVENILE (2)-",
+ "pdf_title": "197 TABLE-37 JUVENILS DELINQUENCY (IPC) UNDER DIFFERENT CRIME HEADS DURING 1992",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2,
-  3
+  3,
+  4
  ],
- "n_rows": 96,
- "n_cols": 12,
- "n_cells": 536,
+ "n_rows": 94,
+ "n_cols": 25,
+ "n_cells": 963,
  "columns": [
   {
    "col_no": "3",
-   "name": "DELINQUENCY MURDER",
+   "name": "MURDER",
    "header": [
-    "DELINQUENCY MURDER"
+    "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "(IPC) ATTEMPT TO COMMIT MURDER",
+   "name": "ATTEMPT TO COMMIT MURDER",
    "header": [
-    "(IPC) ATTEMPT TO COMMIT MURDER"
+    "ATTEMPT TO COMMIT MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER (STATE,UT C.H.NOT - Ing MURDER",
+   "name": "C.H.NOT AMOUNTING TO MURDER",
    "header": [
-    "UNDER (STATE,UT C.H.NOT - Ing MURDER"
+    "C.H.NOT AMOUNTING TO MURDER"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIME CITY-WISE) & RAPE TO",
+   "name": "RAPE",
    "header": [
-    "CRIME CITY-WISE) & RAPE TO"
+    "RAPE"
    ]
   },
   {
    "col_no": "7",
-   "name": "HEADS OF TOTAL &",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
    "header": [
-    "HEADS OF TOTAL &"
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "DURING KIDNAPPING WOMEN GIRLS",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS",
    "header": [
-    "DURING KIDNAPPING WOMEN GIRLS"
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS"
    ]
   },
   {
    "col_no": "9",
-   "name": "1992 ABDUCTION & ee OF OTHERS",
-   "header": [
-    "1992 ABDUCTION & ee OF OTHERS"
-   ]
-  },
-  {
-   "col_no": "10",
    "name": "DACOITY",
    "header": [
     "DACOITY"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "ROBBERY AND or TRUST",
+   "col_no": "10",
+   "name": "OF OTHERS",
    "header": [
-    "ROBBERY AND or TRUST"
+    "OF OTHERS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ROBBERY (13)",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BURGGLARY",
+   "header": [
+    "BURGGLARY"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "THEPT",
+   "header": [
+    "THEPT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "RIOTS (16)",
+   "header": [
+    "RIOTS"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CRIMINAL BRACE OF TRUST",
+   "header": [
+    "CRIMINAL BRACE OF TRUST"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "CREATING",
+   "header": [
+    "CREATING"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "COUNTER-PHITING",
+   "header": [
+    "COUNTER-PHITING"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "OTHER IPC",
+   "header": [
+    "OTHER IPC"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL COG. CRIMES UNDER IPC (2)",
+   "header": [
+    "TOTAL COG. CRIMES UNDER IPC"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "ROBBERY (10001)",
+   "header": [
+    "ROBBERY"
    ]
   },
   {
    "col_no": "10002",
-   "name": "(CBYMTwar =720ra2v COUNTERBREACE",
+   "name": "BURGLARY",
    "header": [
-    "(CBYMTwar =720ra2v COUNTERBREACE"
+    "BURGLARY"
    ]
   },
   {
    "col_no": "10003",
-   "name": "THEFT OTHER CRIMES",
+   "name": "THEFT",
    "header": [
-    "THEFT OTHER CRIMES"
+    "THEFT"
    ]
   },
   {
    "col_no": "10004",
-   "name": "RIOTS TOTAL STATE/UT coo. CRIMES UNDER rrc",
+   "name": "RIOTS (10004)",
    "header": [
-    "RIOTS TOTAL STATE/UT coo. CRIMES UNDER rrc"
+    "RIOTS"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "CRIMINAL BREACH OF TRUST",
+   "header": [
+    "CRIMINAL BREACH OF TRUST"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "CHEATING",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "OTHER IPC CRIMES",
+   "header": [
+    "OTHER IPC CRIMES"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "TOTAL COG. CRIMES UNDER IPC (10008)",
+   "header": [
+    "TOTAL COG. CRIMES UNDER IPC"
    ]
   }
  ],
- "notes": [
-  "27—-526 NCRB/94."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 15,
-  "cells_passed": 11,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 281, sum 274",
-   "col 4 'TOTAL (ALL-INDIA)': printed 277, sum 177",
-   "col 6 'TOTAL (STATES)': printed 156, sum 154",
-   "col 9 'TOTAL (STATES)': printed 17, sum 19"
-  ],
-  "other_totals_checked": 6,
-  "other_totals_passed": 6
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

@@ -8,80 +8,106 @@
  "serial": "90",
  "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1996 (Women only)",
  "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1996 (Women only)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-90-1996_0.pdf",
  "source_file": "raw/cii/1996/table_content/table-90-1996_0.pdf",
  "source_sha256": "71b81908e6cfca3ed5e93779c6552f4b0f3cf5dfdbe1157930e3a98a1d712e8e",
  "table_no": "90",
- "pdf_title": "SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE",
- "row_label": "SL. NO. / STATE/UT/CITY / DG/IG/DIG/SP SANC- ACTUAL TIONED / DG/IG/DIG/SP SANC- ACTUAL / AS ON 31.12.1996 (WOMEN ONLY) ASP & DSP SANC- ACTUAL TIONED / AS ON 31.12.1996 (WOMEN ONLY) ASP & DSP SANC- ACTUAL / AS ON 31.12.1996 (WOMEN ONLY) ASP & DSP INSPECTOR, SI1& SANC- ACTUAL TIONED / AS ON 31.12.1996 (WOMEN ONLY) ASP & DSP INSPECTOR, SI1& SANC- ACTUAL / GRAND TOTAL OFFICERS BELOW Aw3.1. SANC- ACTUAL TIONED / GRAND TOTAL OFFICERS BELOW Aw3.1. SANC- ACTUAL / GRAND TOTAL SANC- ACTUAL TIONED",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-90",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 2,
- "n_cols": 1,
- "n_cells": 2,
+ "n_rows": 58,
+ "n_cols": 10,
+ "n_cells": 580,
  "columns": [
   {
-   "col_no": "12",
-   "name": "GRAND TOTAL | SANC- ACTUAL",
+   "col_no": "3",
+   "name": "DG/IG/DIG/SP | SANC-TIONED",
+   "header": [
+    "DG/IG/DIG/SP",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DG/IG/DIG/SP | ACTUAL",
+   "header": [
+    "DG/IG/DIG/SP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ASP & DSP | SANC-TIONED",
+   "header": [
+    "ASP & DSP",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ASP & DSP | ACTUAL",
+   "header": [
+    "ASP & DSP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INSPECTOR, SI & A.S.I. | SANC-TIONED",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS BELOW A.S.I. | SANC-TIONED",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | SANC-TIONED",
    "header": [
     "GRAND TOTAL",
-    "SANC- ACTUAL"
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
- "notes": [
-  "01 0:",
-  "8HIMACHAL FRADESH \"01 *1",
-  "9 “Et ogg 4981",
-  "10 KARNATAKA",
-  "i",
-  "oodse",
-  "16MIZORAM** oo",
-  "T7TNAGALAND\" o",
-  "00000",
-  "amas <5}",
-  "20 PRAJASTHAN",
-  "22TTAMIL NADU",
-  "23 ATRIPÜRA\"",
-  "24 {UTTAR PRÄDESH **0: Adddda ooo! §dodo",
-  "25\"\"WEST BENGAL** Looo",
-  "N",
-  "UNION TERRITORIES\"",
-  "ooco",
-  "291DAMAN & D10 0000000",
-  "2-00-0000",
-  "31 {LAKSHADWEEP",
-  "32MÖDHERRY",
-  "Ioco",
-  "ITÖTAL TALL'INDIA\" 1A0",
-  "ÖITIÉS",
-  "33°TAHMËDÄBAD",
-  "34 -BANGALÖRE* 0000 ofolo ojolo",
-  "35 BHOPAL\"\"",
-  "dododdo dooddo dddddd o o dddodd",
-  "37°÷CÄLCUTTÄ o",
-  "(38\"|CÖIMBATÖRE o ddo",
-  "n",
-  "annie, tome ieee -\\",
-  "(4T JINDÖRE\" d",
-  "ooooo",
-  "0:0 do do",
-  "...01 0: oo 00",
-  "*O: •:",
-  "FE (C13",
-  "•000000000 deoddddddo",
-  "52(A8ASI",
-  "55 ra brn aber reg beng tenn",
-  "‘Actual’ Police strength of Women Police is more than their ‘Sanctioned’",
-  "Police strength for some ranks in UT of Delhi and Delhi city. This is because Women",
-  "Police are appointed against Male vacancies of same rank or higher rank, as per Govt. instructions."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 30,
+  "cells_passed": 30,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

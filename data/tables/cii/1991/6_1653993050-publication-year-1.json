@@ -8,26 +8,35 @@
  "serial": "6",
  "title": "Publication over the Years",
  "listing_title": "Publication over the Years",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653993050_publication-year_1.pdf",
  "source_file": "raw/cii/1991/year_wise/1653993050_publication-year_1.pdf",
  "source_sha256": "7a095d2ef87f953866e8180550416853fe5ee2924c7a977824f2bc5e9a52b3f4",
  "table_no": "",
- "pdf_title": "(ii)",
- "row_label": "CIMT TN TNDIA YEAR OF PUBLICATION MONTH",
+ "pdf_title": "(ii) CRIME IN INDIA",
+ "row_label": "YEAR OF PUBLICATION",
  "pages": [
   1
  ],
- "n_rows": 38,
- "n_cols": 1,
- "n_cells": 38,
+ "n_rows": 39,
+ "n_cols": 2,
+ "n_cells": 78,
  "columns": [
   {
    "col_no": "2",
-   "name": "PURLIS TEM [N YEAR",
+   "name": "PUBLISHED IN | MONTH",
    "header": [
-    "PURLIS TEM [N YEAR"
+    "PUBLISHED IN",
+    "MONTH"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "PUBLISHED IN | YEAR",
+   "header": [
+    "PUBLISHED IN",
+    "YEAR"
    ]
   }
  ],
@@ -39,7 +48,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

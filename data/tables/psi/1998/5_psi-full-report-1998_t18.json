@@ -6,118 +6,104 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "DISTRIBUTION OF FOREIGNERS UNDERTRIALS BY AGE GROUPS AT THE END OF 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 * Jails do not exist",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "18",
- "pdf_title": "DISTRIBUTION OF FOREIGNERS UNDERTRIALS BY AGE GROUPS AT THE END OF 1998",
- "row_label": "ae,",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 * Jails do not exist",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  90,
-  91
+  30
  ],
- "n_rows": 42,
- "n_cols": 12,
- "n_cells": 153,
+ "n_rows": 29,
+ "n_cols": 9,
+ "n_cells": 261,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
    "col_no": "3",
-   "name": "M (3)",
+   "name": "Central Jail",
    "header": [
-    "M"
+    "Central Jail"
    ]
   },
   {
    "col_no": "4",
-   "name": "18 - 30 YEARS 16 - 18 YEARS BELOW 16 YEARS F M T T F M T F",
+   "name": "District Jail",
    "header": [
-    "18 - 30 YEARS 16 - 18 YEARS BELOW 16 YEARS F M T T F M T F"
+    "District Jail"
    ]
   },
   {
-   "col_no": "12",
-   "name": "M (12)",
+   "col_no": "5",
+   "name": "Sub jail",
    "header": [
-    "M"
+    "Sub jail"
    ]
   },
   {
-   "col_no": "13",
-   "name": "30 - 50 YEARS F",
+   "col_no": "6",
+   "name": "Women Jail",
    "header": [
-    "30 - 50 YEARS F"
+    "Women Jail"
    ]
   },
   {
-   "col_no": "14",
-   "name": "T (14)",
+   "col_no": "7",
+   "name": "Borstal school",
    "header": [
-    "T"
+    "Borstal school"
    ]
   },
   {
-   "col_no": "15",
-   "name": "M (15)",
+   "col_no": "8",
+   "name": "Open jail",
    "header": [
-    "M"
+    "Open jail"
    ]
   },
   {
-   "col_no": "16",
-   "name": "50 YEARS & ABOVE F (16)",
+   "col_no": "9",
+   "name": "Special jail",
    "header": [
-    "50 YEARS & ABOVE F"
+    "Special jail"
    ]
   },
   {
-   "col_no": "17",
-   "name": "50 YEARS & ABOVE F (17)",
+   "col_no": "10",
+   "name": "Others",
    "header": [
-    "50 YEARS & ABOVE F"
+    "Others"
    ]
   },
   {
-   "col_no": "18",
-   "name": "T (18)",
+   "col_no": "11",
+   "name": "Total",
    "header": [
-    "T"
-   ]
-  },
-  {
-   "col_no": "19",
-   "name": "M (19)",
-   "header": [
-    "M"
-   ]
-  },
-  {
-   "col_no": "20",
-   "name": "aut AGL On ours) F T",
-   "header": [
-    "aut AGL On ours) F T"
+    "Total"
    ]
   }
  ],
- "notes": [
-  "NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 27,
+  "cells_passed": 20,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 41113, sum 36123",
+   "col 4 'TOTAL (STATES)': printed 77747, sum 68973",
+   "col 5 'TOTAL (STATES)': printed 31907, sum 26200",
+   "col 6 'TOTAL (STATES)': printed 476, sum 355",
+   "col 9 'TOTAL (STATES)': printed 2493, sum 2190",
+   "col 10 'TOTAL (STATES)': printed 138, sum 0",
+   "col 11 'TOTAL (STATES)': printed 193702, sum 134573"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

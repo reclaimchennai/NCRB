@@ -6,42 +6,70 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "24",
- "title": "6a",
+ "title": "H E A D S",
  "listing_title": "Persons Arrested under Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-24-1974_0.pdf",
  "source_sha256": "121cffa92a1a583c5c32ef123489c85dd969725a41dfcabf266f9d1588c4c165",
  "table_no": "",
- "pdf_title": "6a",
- "row_label": "Under HEADS “MLV. Act",
+ "pdf_title": "H E A D S",
+ "row_label": "M. V. Act",
  "pages": [
   3
  ],
- "n_rows": 39,
- "n_cols": 3,
- "n_cells": 113,
+ "n_rows": 43,
+ "n_cols": 7,
+ "n_cells": 301,
  "columns": [
   {
    "col_no": "2",
-   "name": "Special Laws Radiways ‘bition Act tion Act",
+   "name": "Indian Railways Act",
    "header": [
-    "Special Laws Radiways ‘bition Act tion Act"
+    "Indian Railways Act"
    ]
   },
   {
    "col_no": "3",
-   "name": "Cusoms Act Offences Other Grand Total",
+   "name": "Customs Act",
    "header": [
-    "Cusoms Act Offences Other Grand Total"
+    "Customs Act"
    ]
   },
   {
    "col_no": "4",
-   "name": "Prevention of sas",
+   "name": "Prevention of Corruption Act",
    "header": [
-    "Prevention of sas"
+    "Prevention of Corruption Act"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Prohibition Act",
+   "header": [
+    "Prohibition Act"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Other Offences",
+   "header": [
+    "Other Offences"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Grand Total",
+   "header": [
+    "Grand Total"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
    ]
   }
  ],
@@ -53,7 +81,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

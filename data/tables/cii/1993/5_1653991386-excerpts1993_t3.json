@@ -6,56 +6,80 @@
  "topic": "",
  "section": "Crime in India 1993",
  "serial": "5",
- "title": "POLICE PEKSUNNEL KILLED ON DUTY IN STATES & UTs DURING 1989 TO 1993",
+ "title": "TREND OF VIOLENT CRIMES, PROPERTY CRIMES AND WHITE COLLAR CRIMES (1953-1993) * DATA AVAILABLE FROM 1953 ONWARDS ONLY. NA STANDS FOR NOT AVAILABLE. PERCENTAGE CONTRIBUTION TO IPC CRIMES DURING 1961-1991, 1992 AND 1993",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653991386_excerpts1993.pdf",
  "source_file": "raw/cii/1993/year_wise/1653991386_excerpts1993.pdf",
  "source_sha256": "1010fcc8e52fbf3857a018e1a44aa59c8e07dfbcca28545b8def970645e989b3",
  "table_no": "",
- "pdf_title": "POLICE PEKSUNNEL KILLED ON DUTY IN STATES & UTs DURING 1989 TO 1993",
- "row_label": "",
+ "pdf_title": "TREND OF VIOLENT CRIMES, PROPERTY CRIMES AND WHITE COLLAR CRIMES (1953-1993) * DATA AVAILABLE FROM 1953 ONWARDS ONLY. NA STANDS FOR NOT AVAILABLE. PERCENTAGE CONTRIBUTION TO IPC CRIMES DURING 1961-1991, 1992 AND 1993",
+ "row_label": "YEAR",
  "pages": [
-  7
+  4
  ],
- "n_rows": 33,
- "n_cols": 5,
- "n_cells": 156,
+ "n_rows": 14,
+ "n_cols": 7,
+ "n_cells": 92,
  "columns": [
   {
+   "col_no": "2",
+   "name": "TOTAL COGNIZABLE CRIMES (IPC)",
+   "header": [
+    "TOTAL COGNIZABLE CRIMES (IPC)"
+   ]
+  },
+  {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "VIOLENT CRIMES | INCIDENCE",
+   "header": [
+    "VIOLENT CRIMES",
+    "INCIDENCE"
+   ]
   },
   {
    "col_no": "4",
-   "name": "3.",
+   "name": "VIOLENT CRIMES | % TO TOTAL",
    "header": [
-    "3."
+    "VIOLENT CRIMES",
+    "% TO TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "ta",
+   "name": "PROPERTY CRIMES | INCIDENCE",
    "header": [
-    "ta"
+    "PROPERTY CRIMES",
+    "INCIDENCE"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "PROPERTY CRIMES | % TO TOTAL",
+   "header": [
+    "PROPERTY CRIMES",
+    "% TO TOTAL"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "WHITE COLLAR CRIMES | INCIDENCE",
+   "header": [
+    "WHITE COLLAR CRIMES",
+    "INCIDENCE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "WHITE COLLAR CRIMES | % TO TOTAL",
+   "header": [
+    "WHITE COLLAR CRIMES",
+    "% TO TOTAL"
+   ]
   }
  ],
- "notes": [
-  "ik"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -63,7 +87,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,65 +8,212 @@
  "serial": "18",
  "title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Scheduled Castes During 1994 (State & UT-Wi",
  "listing_title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Scheduled Castes During 1994 (State & UT-Wi",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table66-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table66-1994_2.pdf",
  "source_sha256": "9c536a793e5a2309c649ece4bdc07495a4ffca866781f140dade6cd58c225ab1",
  "table_no": "66",
- "pdf_title": "INCIDENCE (I), RATE (R) AND PERCENTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES COMmi1 TED AGAINST SCHEDULED CASTES DURING 1994",
- "row_label": "NO. SL. STATE/UT / ESTIMATED MID-YEAR POPULA TION / (STATE & UT-WISE) MURDER R / (STATE & UT-WISE) MURDER P / (STATE & UT-WISE) / (STATE & UT-WISE) HURT R / (STATE & UT-WISE)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-66",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
-  2
+  2,
+  3
  ],
- "n_rows": 51,
- "n_cols": 7,
- "n_cells": 138,
+ "n_rows": 72,
+ "n_cols": 33,
+ "n_cells": 1155,
  "columns": [
   {
-   "col_no": "10",
-   "name": "I",
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION",
    "header": [
+    "ESTIMATED MID-YEAR POPULATION"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "MURDER | I",
+   "header": [
+    "MURDER",
+    "I"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "MURDER | R",
+   "header": [
+    "MURDER",
+    "R"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "MURDER | P",
+   "header": [
+    "MURDER",
+    "P"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "HURT | I",
+   "header": [
+    "HURT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "HURT | R",
+   "header": [
+    "HURT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "HURT | P",
+   "header": [
+    "HURT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
     "I"
    ]
   },
   {
    "col_no": "11",
-   "name": "RAPE R",
+   "name": "RAPE | R",
    "header": [
-    "RAPE R"
+    "RAPE",
+    "R"
    ]
   },
   {
    "col_no": "12",
-   "name": "P",
+   "name": "RAPE | P",
    "header": [
+    "RAPE",
     "P"
    ]
   },
   {
    "col_no": "13",
-   "name": "A3DUCTICN KIDNAPPING & | !",
+   "name": "KIDNAPPING & ABDUCTION | I",
    "header": [
-    "A3DUCTICN KIDNAPPING &",
-    "!"
+    "KIDNAPPING & ABDUCTION",
+    "I"
    ]
   },
   {
    "col_no": "14",
-   "name": "A3DUCTICN KIDNAPPING & | R",
+   "name": "KIDNAPPING & ABDUCTION | R",
    "header": [
-    "A3DUCTICN KIDNAPPING &",
+    "KIDNAPPING & ABDUCTION",
     "R"
    ]
   },
   {
    "col_no": "15",
-   "name": "A3DUCTICN KIDNAPPING & | P",
+   "name": "KIDNAPPING & ABDUCTION | P",
    "header": [
-    "A3DUCTICN KIDNAPPING &",
+    "KIDNAPPING & ABDUCTION",
     "P"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "DACOITY | I",
+   "header": [
+    "DACOITY",
+    "I"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "DACOITY | R",
+   "header": [
+    "DACOITY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "DACOITY | P",
+   "header": [
+    "DACOITY",
+    "P"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "ROBBERY | I",
+   "header": [
+    "ROBBERY",
+    "I"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "ROBBERY | R",
+   "header": [
+    "ROBBERY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "ROBBERY | P",
+   "header": [
+    "ROBBERY",
+    "P"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "ARSON | I",
+   "header": [
+    "ARSON",
+    "I"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "ARSON | R",
+   "header": [
+    "ARSON",
+    "R"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "ARSON | P",
+   "header": [
+    "ARSON",
+    "P"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | I",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | R",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "R"
    ]
   },
   {
@@ -76,20 +223,81 @@
     "PROTECTION OF CIVIL RIGHTS ACT",
     "P"
    ]
+  },
+  {
+   "col_no": "29",
+   "name": "SC/ST(PREV. OF ATROCITIES) ACT | R",
+   "header": [
+    "SC/ST(PREV. OF ATROCITIES) ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "SC/ST(PREV. OF ATROCITIES) ACT | P",
+   "header": [
+    "SC/ST(PREV. OF ATROCITIES) ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "OTHER OFFENCES | I",
+   "header": [
+    "OTHER OFFENCES",
+    "I"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "OTHER OFFENCES | R",
+   "header": [
+    "OTHER OFFENCES",
+    "R"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "OTHER OFFENCES | P",
+   "header": [
+    "OTHER OFFENCES",
+    "P"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "TOTAL | I",
+   "header": [
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
+    "P"
+   ]
   }
  ],
- "notes": [
-  "Source: ‘Monthly Crime Statistics’.",
-  "Note: 2.Figures 1.Percentage are less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 24,
+  "cells_passed": 24,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

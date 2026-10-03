@@ -6,93 +6,67 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "TOTAL COGNIZARLE",
+ "title": "57 CRIME—PERSONS APPENDIX II",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1679313928APPENDIX-1968.pdf",
  "source_file": "raw/cii/1968/table_chapter/1679313928APPENDIX-1968.pdf",
  "source_sha256": "493f5b67dabc91244294a7fa7c9fe8dc540a11a27fdfa554f3baea39f06e9d13",
  "table_no": "",
- "pdf_title": "TOTAL COGNIZARLE",
- "row_label": "Sl. No. / States/U.T.s/Cities / Persons in custody pending investigation oronbail during the stageof investigation",
+ "pdf_title": "57 CRIME—PERSONS APPENDIX II",
+ "row_label": "Persons released by the police or magistrate before trial",
  "pages": [
-  4,
   5
  ],
- "n_rows": 39,
- "n_cols": 10,
- "n_cells": 382,
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
+   "col_no": "2",
+   "name": "Persons in whose cases charge-sheet was laid",
+   "header": [
+    "Persons in whose cases charge-sheet was laid"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Persons convicted",
+   "header": [
+    "Persons convicted"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "arrested | Persons in custody pending trial or on bail during the stage",
-   "header": [
-    "arrested",
-    "Persons in custody pending trial or on bail during the stage"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "arrested | the year",
-   "header": [
-    "arrested",
-    "the year"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "CRIME—PERSONS | Persons by the police or magistrate before trial",
-   "header": [
-    "CRIME—PERSONS",
-    "Persons by the police or magistrate before trial"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "CRIME—PERSONS | Persons in whose cases chargesheet was laid",
-   "header": [
-    "CRIME—PERSONS",
-    "Persons in whose cases chargesheet was laid"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Persons Convicicd",
-   "header": [
-    "Persons Convicicd"
-   ]
-  },
-  {
-   "col_no": "9",
    "name": "Persons acquitted or discharged",
    "header": [
     "Persons acquitted or discharged"
    ]
   },
   {
-   "col_no": "10",
-   "name": "Persons against whom cases were comor",
+   "col_no": "5",
+   "name": "Persons against whom cases were compounded or withdrawn",
    "header": [
-    "Persons against whom cases were comor"
+    "Persons against whom cases were compounded or withdrawn"
    ]
   },
   {
-   "col_no": "11",
-   "name": "Persons in custody pending imvestigation or pounded - on bail during the stage of investigation at the end of the year",
+   "col_no": "6",
+   "name": "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year",
    "header": [
-    "Persons in custody pending imvestigation or pounded - on bail during the stage of investigation at the end of the year"
+    "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year"
    ]
   },
   {
-   "col_no": "12",
-   "name": "Persons in custody pending trial or - on bail during the stage of trial at the end of the year",
+   "col_no": "7",
+   "name": "Persons in custody pending trial or on bail during the stage of trial at the end of the year",
    "header": [
-    "Persons in custody pending trial or - on bail during the stage of trial at the end of the year"
+    "Persons in custody pending trial or on bail during the stage of trial at the end of the year"
    ]
   },
   {
-   "col_no": "13",
+   "col_no": "8",
    "name": "Percentage of conviction",
    "header": [
     "Percentage of conviction"
@@ -104,12 +78,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 24,
-  "other_totals_passed": 14
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
- "warnings": [
-  "page 5: 3 of 39 rows of the right-hand page could not be placed against the left-hand page"
- ]
+ "ocr_pages": 1,
+ "warnings": []
 }

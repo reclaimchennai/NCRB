@@ -6,84 +6,93 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "NUMBER OF UNDERTRIALS BY PERIOD OF DETENTION AT THE END OF 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 viz., Jail Officials, Correctional Staff and Medical Staff. The number of inmates per official is a real indicator of how well inmates are looked after in the prisons. The number of inmates per each of Jail officials, Correctional Staff and Medical Staff is given in the table below.",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "28",
- "pdf_title": "NUMBER OF UNDERTRIALS BY PERIOD OF DETENTION AT THE END OF 1998",
- "row_label": "2 My / 3-6 UPTO 3 MONTHS",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 viz., Jail Officials, Correctional Staff and Medical Staff. The number of inmates per official is a real indicator of how well inmates are looked after in the prisons. The number of inmates per each of Jail officials, Correctional Staff and Medical Staff is given in the table below.",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  113
+  55
  ],
  "n_rows": 35,
  "n_cols": 7,
- "n_cells": 203,
+ "n_cells": 245,
  "columns": [
   {
-   "col_no": "4",
-   "name": "3-6 | MONTHS (a)",
+   "col_no": "3",
+   "name": "TOTAL NUMBER OF INMATES",
    "header": [
-    "3-6",
-    "MONTHS (a)"
+    "TOTAL NUMBER OF INMATES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "JAIL OFFICIALS | NUMBER",
+   "header": [
+    "JAIL OFFICIALS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "5",
-   "name": "3-6 | 6-12 MONTHS",
+   "name": "JAIL OFFICIALS | NO. OF INMATES PER JAIL OFFICIAL",
    "header": [
-    "3-6",
-    "6-12 MONTHS"
+    "JAIL OFFICIALS",
+    "NO. OF INMATES PER JAIL OFFICIAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "1-2 YEARS",
+   "name": "CORRECTIONAL STAFF | NUMBER",
    "header": [
-    "1-2 YEARS"
+    "CORRECTIONAL STAFF",
+    "NUMBER"
    ]
   },
   {
    "col_no": "7",
-   "name": "-",
+   "name": "CORRECTIONAL STAFF | NO. OF INMATES PER CORRECT-IONAL STAFF",
    "header": [
-    "-"
+    "CORRECTIONAL STAFF",
+    "NO. OF INMATES PER CORRECT-IONAL STAFF"
    ]
   },
   {
    "col_no": "8",
-   "name": "2-3 YEARS",
+   "name": "MEDICAL STAFF | NUMBER",
    "header": [
-    "2-3 YEARS"
+    "MEDICAL STAFF",
+    "NUMBER"
    ]
   },
   {
    "col_no": "9",
-   "name": "3-5 YEARS",
+   "name": "MEDICAL STAFF | NO. OF INMATES PER MEDICAL STAFF",
    "header": [
-    "3-5 YEARS"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "YEARS",
-   "header": [
-    "YEARS"
+    "MEDICAL STAFF",
+    "NO. OF INMATES PER MEDICAL STAFF"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE.",
-  "* In case of Bihar, group 3-6 months includes all inmates upto 6 months and group 3 to 5 years includes all inmates of 3 years and",
-  "above."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 20,
+  "cells_passed": 12,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 8, sum 126",
+   "col 5 'TOTAL (UTS)': printed 12, sum 27",
+   "col 5 'TOTAL (ALL INDIA)': printed 8, sum 20",
+   "col 7 'TOTAL (STATES)': printed 591, sum 11176",
+   "col 7 'TOTAL (ALL INDIA)': printed 614, sum 11334",
+   "col 9 'TOTAL (STATES)': printed 246, sum 4033",
+   "col 9 'TOTAL (UTS)': printed 105, sum 326",
+   "col 9 'TOTAL (ALL INDIA)': printed 234, sum 351"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

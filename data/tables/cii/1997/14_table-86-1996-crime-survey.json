@@ -8,72 +8,108 @@
  "serial": "14",
  "title": "Police Personnel Killed or Injured on Duty During 1997 (Rank-Wise)",
  "listing_title": "Police Personnel Killed or Injured on Duty During 1997 (Rank-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-86-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-86-1996-crime-survey.pdf",
  "source_sha256": "7d6e2ef8b572df634f613ada9d84d25820701609ef581f24c13a8a98a22bc48c",
  "table_no": "86",
- "pdf_title": "(0222t=t=!",
- "row_label": "€l NO a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-86",
+ "row_label": "SL NO / RANK",
  "pages": [
   1,
   2
  ],
- "n_rows": 15,
- "n_cols": 7,
- "n_cells": 49,
+ "n_rows": 14,
+ "n_cols": 11,
+ "n_cells": 77,
  "columns": [
   {
    "col_no": "3",
-   "name": "POLICE IN DACOITY OPERATION OR OTHER RAIDS",
+   "name": "NUMBER OF VICTIMS KILLED | IN DACOITY OPERATION OR OTHER RAIDS",
    "header": [
-    "POLICE IN DACOITY OPERATION OR OTHER RAIDS"
+    "NUMBER OF VICTIMS KILLED",
+    "IN DACOITY OPERATION OR OTHER RAIDS"
    ]
   },
   {
    "col_no": "4",
-   "name": "KILLED OR INJURED ON DUTY DURING | (RANK-WISE) BY RIOTOUS MOBS",
+   "name": "NUMBER OF VICTIMS KILLED | BY RIOTOUS MOBS",
    "header": [
-    "KILLED OR INJURED ON DUTY DURING",
-    "(RANK-WISE) BY RIOTOUS MOBS"
+    "NUMBER OF VICTIMS KILLED",
+    "BY RIOTOUS MOBS"
    ]
   },
   {
    "col_no": "5",
-   "name": "KILLED OR INJURED ON DUTY DURING | NUMBER OF VICTIMS KILLED BY OTHER CRIMINALS",
+   "name": "NUMBER OF VICTIMS KILLED | BY OTHER CRIMINALS",
    "header": [
-    "KILLED OR INJURED ON DUTY DURING",
-    "NUMBER OF VICTIMS KILLED BY OTHER CRIMINALS"
+    "NUMBER OF VICTIMS KILLED",
+    "BY OTHER CRIMINALS"
    ]
   },
   {
    "col_no": "6",
-   "name": "KILLED OR INJURED ON DUTY DURING | - BORDER DUTIES",
+   "name": "NUMBER OF VICTIMS KILLED | ON BORDER DUTIES",
    "header": [
-    "KILLED OR INJURED ON DUTY DURING",
-    "- BORDER DUTIES"
+    "NUMBER OF VICTIMS KILLED",
+    "ON BORDER DUTIES"
    ]
   },
   {
    "col_no": "7",
-   "name": "1997 inte ON” ACCIDENTS ia)",
+   "name": "NUMBER OF VICTIMS KILLED | IN ACCIDENTS",
    "header": [
-    "1997 inte ON” ACCIDENTS ia)"
+    "NUMBER OF VICTIMS KILLED",
+    "IN ACCIDENTS"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "INJURED BY ON IN OTHER BORDER - ACCIDENTS CRIMIDUTIES NALS",
+   "col_no": "8",
+   "name": "NUMBER OF VICTIMS KILLED | TOTAL",
    "header": [
-    "INJURED BY ON IN OTHER BORDER - ACCIDENTS CRIMIDUTIES NALS"
+    "NUMBER OF VICTIMS KILLED",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "BY TOTAL RANK",
+   "col_no": "11",
+   "name": "NUMBER OF VICTIMS INJURED | BY RIOTOUS MOBS",
    "header": [
-    "BY TOTAL RANK"
+    "NUMBER OF VICTIMS INJURED",
+    "BY RIOTOUS MOBS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "NUMBER OF VICTIMS INJURED | BY OTHER CRIMINALS",
+   "header": [
+    "NUMBER OF VICTIMS INJURED",
+    "BY OTHER CRIMINALS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "NUMBER OF VICTIMS INJURED | ON BORDER DUTIES",
+   "header": [
+    "NUMBER OF VICTIMS INJURED",
+    "ON BORDER DUTIES"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "NUMBER OF VICTIMS INJURED | IN ACCIDENTS",
+   "header": [
+    "NUMBER OF VICTIMS INJURED",
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "NUMBER OF VICTIMS INJURED | TOTAL",
+   "header": [
+    "NUMBER OF VICTIMS INJURED",
+    "TOTAL"
    ]
   }
  ],
@@ -82,10 +118,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

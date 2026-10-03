@@ -8,105 +8,30 @@
  "serial": "2",
  "title": "Incidence of Crime, Volume of Crime per Lakh of Population and Percentage Variation During 1984 over 1974, over Quinquennial Ave",
  "listing_title": "Incidence of Crime, Volume of Crime per Lakh of Population and Percentage Variation During 1984 over 1974, over Quinquennial Ave",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-2-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-2-1984.pdf",
  "source_sha256": "7f09393ebd24aaff8a9a8c29d7618de72641e4c341d3ccc46bd7569dd434c7be",
  "table_no": "2",
- "pdf_title": "Incidence Of Crime, Volume Of Crime Per Lakh Of Population And Percentage Variation During 1984 Over 1974, Over Average Of 1979 To 1983 And Over 1983",
- "row_label": "HEADS SL. NO. ql)",
+ "pdf_title": "3 TABLE - 2 NOTE: - Figures In Brackets Indicate Volume Of Crime Per Lakh Of Population.",
+ "row_label": "SL.NO. / HEADS OF CRIME",
  "pages": [
-  1,
   2
  ],
- "n_rows": 36,
- "n_cols": 11,
- "n_cells": 252,
+ "n_rows": 14,
+ "n_cols": 1,
+ "n_cells": 14,
  "columns": [
   {
-   "col_no": "3",
-   "name": "OF",
-   "header": [
-    "OF"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "CRIME",
-   "header": [
-    "CRIME"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "1974",
-   "header": [
-    "1974"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "1979",
-   "header": [
-    "1979"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "1982 1980",
-   "header": [
-    "1982 1980"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "1983 1981",
-   "header": [
-    "1983 1981"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "OF Qnuinauennial average 1979 (Q. A.)",
-   "header": [
-    "OF Qnuinauennial average 1979 (Q. A.)"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "CRIME -",
-   "header": [
-    "CRIME -"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "1984 in 1983 OVER 1974",
-   "header": [
-    "1984 in 1983 OVER 1974"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "change | Percentage 1984 INCREASE (+) OVER Q.A.",
-   "header": [
-    "change",
-    "Percentage 1984 INCREASE (+) OVER Q.A."
-   ]
-  },
-  {
    "col_no": "13",
-   "name": "change | OVER 1983",
+   "name": "Quinquennial average1979 - 1983(Q.A.)",
    "header": [
-    "change",
-    "OVER 1983"
+    "Quinquennial average1979 - 1983(Q.A.)"
    ]
   }
  ],
- "notes": [
-  "NOTE: - Figures In Brackets Indicate Volume Of Crime Per Lakh Of Population."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -115,6 +40,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

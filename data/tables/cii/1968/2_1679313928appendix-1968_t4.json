@@ -6,61 +6,63 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "MURKDER—",
+ "title": "58 MURDER—",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1679313928APPENDIX-1968.pdf",
  "source_file": "raw/cii/1968/table_chapter/1679313928APPENDIX-1968.pdf",
  "source_sha256": "493f5b67dabc91244294a7fa7c9fe8dc540a11a27fdfa554f3baea39f06e9d13",
  "table_no": "",
- "pdf_title": "MURKDER—",
- "row_label": "St ‘No. / Cases Cases Cases States/U.T.s/Cities / Cases Cases Cases nending nending investi- disposal gation from previous year",
+ "pdf_title": "58 MURDER—",
+ "row_label": "Sl. No.",
  "pages": [
   6
  ],
  "n_rows": 39,
- "n_cols": 5,
- "n_cells": 182,
+ "n_cols": 6,
+ "n_cells": 234,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Cases Cases Cases | nending nending investi- disposal | in courts",
+   "col_no": "3",
+   "name": "States/U.T.s/Cities",
    "header": [
-    "Cases Cases Cases",
-    "nending nending investi- disposal",
-    "in courts"
+    "States/U.T.s/Cities"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending investigation from previous year",
+   "header": [
+    "Cases pending investigation from previous year"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases Cases Cases | during the year",
+   "name": "Cases pending disposal in courts",
    "header": [
-    "Cases Cases Cases",
-    "during the year"
+    "Cases pending disposal in courts"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases Cases Cases | not investigated (+) false (+) mistake of fact or law (+) noncognizable",
+   "name": "Cases reported during the year",
    "header": [
-    "Cases Cases Cases",
-    "not investigated (+) false (+) mistake of fact or law (+) noncognizable"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases Cases Cases | ing gation atthe declared end of the year",
+   "name": "Cases not investigated (+) declared false (+) mistake of fact or law (+) non-cognizable",
    "header": [
-    "Cases Cases Cases",
-    "ing gation atthe declared end of the year"
+    "Cases not investigated (+) declared false (+) mistake of fact or law (+) non-cognizable"
    ]
   },
   {
    "col_no": "8",
-   "name": "trial at the end of tbe year",
+   "name": "Cases pending investigation at the end of the year",
    "header": [
-    "trial at the end of tbe year"
+    "Cases pending investigation at the end of the year"
    ]
   }
  ],
@@ -69,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 20,
+  "other_totals_passed": 19
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

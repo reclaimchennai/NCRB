@@ -6,23 +6,37 @@
  "topic": "",
  "section": "Crime in India 1961",
  "serial": "1",
- "title": "STATEMENT OF JUVENILE DELINQUENCY",
+ "title": "16 STATEMENT OF JUVENILE DELINQUENCY",
  "listing_title": "Chapter",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689774084SurverOfCrime.pdf",
  "source_file": "raw/cii/1961/year_wise/1689774084SurverOfCrime.pdf",
  "source_sha256": "f9e87b72c9599d6eee920b83e3550f13cea3ea506e0a78928544b95fdd932f94",
  "table_no": "",
- "pdf_title": "STATEMENT OF JUVENILE DELINQUENCY",
- "row_label": "81, No. / States/Union Territories/Cities / Total Cognizable crime",
+ "pdf_title": "16 STATEMENT OF JUVENILE DELINQUENCY",
+ "row_label": "Sl. No.",
  "pages": [
   16
  ],
- "n_rows": 22,
- "n_cols": 3,
- "n_cells": 65,
+ "n_rows": 34,
+ "n_cols": 5,
+ "n_cells": 166,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "States/Union Territories/Cities",
+   "header": [
+    "States/Union Territories/Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Total Cognizable crime",
+   "header": [
+    "Total Cognizable crime"
+   ]
+  },
   {
    "col_no": "4",
    "name": "Murder",
@@ -32,16 +46,16 @@
   },
   {
    "col_no": "5",
-   "name": "ping & Abduction",
+   "name": "Kidnapping & Abduction",
    "header": [
-    "ping & Abduction"
+    "Kidnapping & Abduction"
    ]
   },
   {
    "col_no": "6",
-   "name": "Dacoity",
+   "name": "Decoity",
    "header": [
-    "Dacoity"
+    "Decoity"
    ]
   }
  ],
@@ -50,7 +64,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

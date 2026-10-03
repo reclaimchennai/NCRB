@@ -8,46 +8,51 @@
  "serial": "13",
  "title": "Incidence and Rate of Accidental Deaths during 1990 to 2000",
  "listing_title": "Incidence and Rate of Accidental Deaths during 1990 to 2000",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-1_2000.pdf",
  "source_file": "raw/adsi/2000/table_content/table-1_2000.pdf",
  "source_sha256": "30cdd3da75bde871816d3164bb633ada904d93ddccec6a106b7caa31da978499",
  "table_no": "1",
- "pdf_title": "And Rate Of Acciaentai Deaths During 1990 to 2000",
- "row_label": "SI. / No",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 2000 N.C.R.B., (M.H.A.) TABLE - 1",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 14,
- "n_cols": 3,
- "n_cells": 40,
+ "n_rows": 13,
+ "n_cols": 4,
+ "n_cells": 52,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Total Number of Year Accidental Deaths",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "Total Number of Year Accidental Deaths"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Total Number of Accidental Deaths",
+   "header": [
+    "Total Number of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "Mid-Year (In Lakh*)",
+   "name": "Estimated Mid-Year Population* (In Lakh+)",
    "header": [
-    "Mid-Year (In Lakh*)"
+    "Estimated Mid-Year Population* (In Lakh+)"
    ]
   },
   {
    "col_no": "5",
-   "name": "Rate of Accidsnitat Deaths (Col.3 / Col.4)",
+   "name": "Rate of Accidental Deaths (Col.3 / Col.4)",
    "header": [
-    "Rate of Accidsnitat Deaths (Col.3 / Col.4)"
+    "Rate of Accidental Deaths (Col.3 / Col.4)"
    ]
   }
  ],
- "notes": [
-  "114 NCRB/03-7A"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

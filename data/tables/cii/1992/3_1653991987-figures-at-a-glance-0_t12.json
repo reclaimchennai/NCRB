@@ -6,76 +6,83 @@
  "topic": "",
  "section": "Crime in India 1992",
  "serial": "3",
- "title": "(INCLUDING BURGLARY) PER 100.000 OF POPULATION",
+ "title": "17 POLICE PERSONNEL (IN 000's) Note: Comparable figures available are only projected",
  "listing_title": "Figures at a Glance",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653991987_figures-at-a-glance_0.pdf",
  "source_file": "raw/cii/1992/year_wise/1653991987_figures-at-a-glance_0.pdf",
  "source_sha256": "4419f13a56bc9c835091b26aa88aedbe665b2e427ccdf279b9ea0a645831105d",
  "table_no": "",
- "pdf_title": "(INCLUDING BURGLARY) PER 100.000 OF POPULATION",
- "row_label": "COUNTRY",
+ "pdf_title": "17 POLICE PERSONNEL (IN 000's) Note: Comparable figures available are only projected",
+ "row_label": "YEAR",
  "pages": [
-  20,
-  20
+  17,
+  17,
+  17,
+  17
  ],
- "n_rows": 20,
- "n_cols": 6,
- "n_cells": 118,
+ "n_rows": 12,
+ "n_cols": 9,
+ "n_cells": 97,
  "columns": [
   {
-   "col_no": "2",
-   "name": "YEAR | 1975",
-   "header": [
-    "YEAR",
-    "1975"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "YEAR | 1976",
+   "name": "YEAR (3)",
    "header": [
-    "YEAR",
-    "1976"
+    "YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "YEAR | 1977",
+   "name": "YEAR (4)",
    "header": [
-    "YEAR",
-    "1977"
+    "YEAR"
    ]
   },
   {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
    "col_no": "5",
-   "name": "YEAR | 1978",
+   "name": "YEAR (5)",
    "header": [
-    "YEAR",
-    "1978"
+    "YEAR"
    ]
   },
   {
    "col_no": "6",
-   "name": "YEAR | 1979",
+   "name": "YEAR (6)",
    "header": [
-    "YEAR",
-    "1979"
+    "YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "YEAR | 1980",
+   "name": "YEAR (7)",
    "header": [
-    "YEAR",
-    "1980"
+    "YEAR"
    ]
+  },
+  {
+   "col_no": "10001",
+   "name": "col_10001",
+   "header": []
+  },
+  {
+   "col_no": "10002",
+   "name": "col_10002",
+   "header": []
+  },
+  {
+   "col_no": "10003",
+   "name": "col_10003",
+   "header": []
   }
  ],
- "notes": [
-  "SOURCE: The UNCJIN World network."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -84,6 +91,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

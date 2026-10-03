@@ -6,73 +6,70 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "42",
- "title": "PERCENTAGE OF IPC CRIME CASES DISPOSED BY COURTS DURING 1997",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-22",
  "listing_title": "Percentage of IPC Crime Cases Disposed of by Courts During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-22-1996-crime-survey.pdf",
  "source_sha256": "db07cb2121709425d7d72a965250a491e0b0d4353edba21855de45ec42a7e7ac",
  "table_no": "22",
- "pdf_title": "PERCENTAGE OF IPC CRIME CASES DISPOSED BY COURTS DURING 1997",
- "row_label": "ie",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-22",
+ "row_label": "SL. NO. / CRIME HEADS",
  "pages": [
   1
  ],
  "n_rows": 24,
  "n_cols": 6,
- "n_cells": 142,
+ "n_cells": 144,
  "columns": [
   {
    "col_no": "3",
-   "name": "CRIME HEADS COMPOUi DRAWN",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOU-NDED OR WITH-DRAWN",
    "header": [
-    "CRIME HEADS COMPOUi DRAWN"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "COMPOU-NDED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "4",
-   "name": "- | OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
    "header": [
-    "-",
-    "OF CASES TO TOTAL CASES FOR TRIAL",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
     "IN WHICH TRIALS WERE COMPLETED",
     "CONVICTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "- | OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | ACQUITTED OR DIs- CHARGED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | ACQUIT-TED OR DIS-CHARGED",
    "header": [
-    "-",
-    "OF CASES TO TOTAL CASES FOR TRIAL",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
     "IN WHICH TRIALS WERE COMPLETED",
-    "ACQUITTED OR DIs- CHARGED"
+    "ACQUIT-TED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "6",
-   "name": "- | OF CASES TO TOTAL CASES FOR TRIAL | TOTAL ((4) +(5)}",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED | TOTAL [(4) + (5)]",
    "header": [
-    "-",
-    "OF CASES TO TOTAL CASES FOR TRIAL",
-    "TOTAL ((4) +(5)}"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "TOTAL [(4) + (5)]"
    ]
   },
   {
    "col_no": "7",
-   "name": "- | PENDING T ins",
+   "name": "PENDING TRIAL",
    "header": [
-    "-",
-    "PENDING T ins"
+    "PENDING TRIAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "- | {(4)(6) X 100 }",
+   "name": "CONVIC-TION RATE [(4)/(6) x 100]",
    "header": [
-    "-",
-    "{(4)(6) X 100 }"
+    "CONVIC-TION RATE [(4)/(6) x 100]"
    ]
   }
  ],

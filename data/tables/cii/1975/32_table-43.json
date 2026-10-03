@@ -8,43 +8,54 @@
  "serial": "32",
  "title": "Juveniles Apprehended (by Age Groups) for Committing Crimes under Local and Special Laws During the Year 1975",
  "listing_title": "Juveniles Apprehended (by Age Groups) for Committing Crimes under Local and Special Laws During the Year 1975",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-43.pdf",
  "source_file": "raw/cii/1975/table_content/table-43.pdf",
  "source_sha256": "0494c1e63ae7b76f33cabccfdfbec2e45cb73720ce84aa27c45dd9880cb83466",
- "table_no": "",
- "pdf_title": "",
- "row_label": "thy age groupe) fe SL No. / Specie! Lows during the year 1978 under Local ane! 7-12 years",
+ "table_no": "43",
+ "pdf_title": "93 TABLE 43 JUVENILES apprehended (by age group) for committing Crimes under Local and Special Laws during the year 1975",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 40,
- "n_cols": 3,
- "n_cells": 105,
+ "n_rows": 43,
+ "n_cols": 5,
+ "n_cells": 215,
  "columns": [
   {
    "col_no": "3",
-   "name": "Specie! Lows during the year 1978 | 12-16 years",
+   "name": "7-12 years",
    "header": [
-    "Specie! Lows during the year 1978",
-    "12-16 years"
+    "7-12 years"
    ]
   },
   {
    "col_no": "4",
-   "name": "Specie! Lows during the year 1978 | 16-48 yoars",
+   "name": "12-16 years",
    "header": [
-    "Specie! Lows during the year 1978",
-    "16-48 yoars"
+    "12-16 years"
    ]
   },
   {
    "col_no": "5",
-   "name": "Specie! Lows during the year 1978 | 18-21 Toil yoars",
+   "name": "16-18 years",
    "header": [
-    "Specie! Lows during the year 1978",
-    "18-21 Toil yoars"
+    "16-18 years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "18-21 years",
+   "header": [
+    "18-21 years"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   }
  ],
@@ -53,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 20,
+  "other_totals_passed": 20
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

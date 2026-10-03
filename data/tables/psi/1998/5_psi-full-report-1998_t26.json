@@ -6,132 +6,57 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "Download Full Report",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 ## Chapter -9",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "26",
- "pdf_title": "",
- "row_label": "a a) / HINDU",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 ## Chapter -9",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  108,
-  109
+  53
  ],
- "n_rows": 47,
- "n_cols": 14,
- "n_cells": 179,
+ "n_rows": 20,
+ "n_cols": 3,
+ "n_cells": 60,
  "columns": [
   {
-   "col_no": "11",
-   "name": "col_11",
-   "header": []
-  },
-  {
-   "col_no": "12",
-   "name": "RELIGION | SIKH",
+   "col_no": "3",
+   "name": "TOTAL JAIL STAFF | SANCTIONED",
    "header": [
-    "RELIGION",
-    "SIKH"
+    "TOTAL JAIL STAFF",
+    "SANCTIONED"
    ]
   },
   {
-   "col_no": "13",
-   "name": "RELIGION | ne",
+   "col_no": "4",
+   "name": "TOTAL JAIL STAFF | ACTUAL",
    "header": [
-    "RELIGION",
-    "ne"
+    "TOTAL JAIL STAFF",
+    "ACTUAL"
    ]
   },
   {
-   "col_no": "14",
-   "name": "OTHERS",
+   "col_no": "5",
+   "name": "TOTAL JAIL STAFF | ACTUAL %",
    "header": [
-    "OTHERS"
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "TOTAL (15)",
-   "header": [
-    "TOTAL"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "SC",
-   "header": [
-    "SC"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "ST",
-   "header": [
-    "ST"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "CASTE",
-   "header": [
-    "CASTE"
-   ]
-  },
-  {
-   "col_no": "19",
-   "name": "col_19",
-   "header": []
-  },
-  {
-   "col_no": "20",
-   "name": "TOTAL (20)",
-   "header": [
-    "TOTAL"
-   ]
-  },
-  {
-   "col_no": "21",
-   "name": "BELONGS TO STATE T BELONGS TU OTHER (21)",
-   "header": [
-    "BELONGS TO STATE T BELONGS TU OTHER"
-   ]
-  },
-  {
-   "col_no": "22",
-   "name": "BELONGS TO STATE T BELONGS TU OTHER (22)",
-   "header": [
-    "BELONGS TO STATE T BELONGS TU OTHER"
-   ]
-  },
-  {
-   "col_no": "23",
-   "name": "col_23",
-   "header": []
-  },
-  {
-   "col_no": "24",
-   "name": "TOTAL (24)",
-   "header": [
-    "TOTAL"
+    "TOTAL JAIL STAFF",
+    "ACTUAL %"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 1,
+  "cells_checked": 0,
   "cells_passed": 0,
-  "failures": [
-   "col 17 'TOTAL (UTS)': printed 2, sum 1327"
-  ],
-  "other_totals_checked": 1,
+  "failures": [],
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

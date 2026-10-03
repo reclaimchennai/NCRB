@@ -8,106 +8,104 @@
  "serial": "23",
  "title": "24 Persons Arrested under Local & Special Laws During 1984 25 Persons Arrested per Case under IPC and Local and Special Law C",
  "listing_title": "24 Persons Arrested under Local & Special Laws During 1984 25 Persons Arrested per Case under IPC and Local and Special Law C",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-24-1984.pdf",
  "source_sha256": "a9652feb284183307d971e03ce92030ef95fd278875f8e859bcd8e81522973b2",
  "table_no": "24",
- "pdf_title": "Persons Arrested Under Local & Special Laws During 1984",
- "row_label": "SL. STATES/UTs/CITIES NO. qa)",
+ "pdf_title": "74 TABLE-24 Persons Arrested Under Local & Special Laws During 1984",
+ "row_label": "SL. NO. / STATES/UTs/CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 54,
- "n_cols": 12,
- "n_cells": 557,
+ "n_rows": 47,
+ "n_cols": 13,
+ "n_cells": 611,
  "columns": [
   {
    "col_no": "3",
-   "name": "GAMRI-TNG | ARMS ACT",
+   "name": "ARMS ACT",
    "header": [
-    "GAMRI-TNG",
     "ARMS ACT"
    ]
   },
   {
    "col_no": "4",
-   "name": "GAMRI-TNG | OPIUM ACT",
+   "name": "OPIUM ACT",
    "header": [
-    "GAMRI-TNG",
     "OPIUM ACT"
    ]
   },
   {
    "col_no": "5",
-   "name": "GAMRI-TNG | ACT",
+   "name": "GAMBLING ACT",
    "header": [
-    "GAMRI-TNG",
-    "ACT"
+    "GAMBLING ACT"
    ]
   },
   {
    "col_no": "6",
-   "name": "GAMRI-TNG | EXCISE ACT",
+   "name": "EXCISE ACT",
    "header": [
-    "GAMRI-TNG",
     "EXCISE ACT"
    ]
   },
   {
    "col_no": "7",
-   "name": "GAMRI-TNG | PROHIBITION ACT",
+   "name": "PROHIBITION ACT",
    "header": [
-    "GAMRI-TNG",
     "PROHIBITION ACT"
    ]
   },
   {
    "col_no": "8",
-   "name": "EXPLOSIVES | AND EXPLOSIVE SUB.",
+   "name": "EXPLOSIVES AND EXPLOSIVE SUB. ACT",
    "header": [
-    "EXPLOSIVES",
-    "AND EXPLOSIVE SUB."
+    "EXPLOSIVES AND EXPLOSIVE SUB. ACT"
    ]
   },
   {
    "col_no": "9",
-   "name": "EXPLOSIVES | 8.1,T ACT ACT",
+   "name": "S. I. T ACT",
    "header": [
-    "EXPLOSIVES",
-    "8.1,T ACT ACT"
+    "S. I. T ACT"
    ]
   },
   {
    "col_no": "10",
-   "name": "MOTOR: VEHICLES ACT",
+   "name": "MOTOR VEHICLES ACT",
    "header": [
-    "MOTOR: VEHICLES ACT"
+    "MOTOR VEHICLES ACT"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PREVENTION OF CORRUP-TION ACT",
+   "header": [
+    "PREVENTION OF CORRUP-TION ACT"
    ]
   },
   {
    "col_no": "12",
-   "name": "CUSTOMS | OF TION «11>",
+   "name": "CUSTOMS ACT",
    "header": [
-    "CUSTOMS",
-    "OF TION «11>"
+    "CUSTOMS ACT"
    ]
   },
   {
    "col_no": "13",
-   "name": "CUSTOMS | ACT CORRUPACT",
+   "name": "INDIAN RAILWAYS ACT",
    "header": [
-    "CUSTOMS",
-    "ACT CORRUPACT"
+    "INDIAN RAILWAYS ACT"
    ]
   },
   {
    "col_no": "14",
-   "name": "INDIAN OTHER RAILWAYS ACT",
+   "name": "OTHER OFFENCES",
    "header": [
-    "INDIAN OTHER RAILWAYS ACT"
+    "OTHER OFFENCES"
    ]
   },
   {
@@ -120,20 +118,13 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 27,
-  "cells_passed": 14,
+  "cells_checked": 32,
+  "cells_passed": 31,
   "failures": [
-   "col 4 'TOTAL (UTs)': printed 333, sum 332",
-   "col 5 'TOTAL (States)': printed 319972, sum 319072",
-   "col 6 'TOTAL (UTs)': printed 4040, sum 113288",
-   "col 8 'TOTAL (UTs)': printed 719, sum 79",
-   "col 9 'TOTAL (UTs)': printed 211, sum 219",
-   "col 10 'TOTAL (States)': printed 1.11787e+09, sum 1.28728e+08",
-   "col 10 'TOTAL (Cities)': printed 569125, sum 449298",
-   "col 13 'TOTAL (States)': printed 35378, sum 22814"
+   "col 9 'Total(UTs)': printed 211, sum 219"
   ],
-  "other_totals_checked": 6,
-  "other_totals_passed": 4
+  "other_totals_checked": 11,
+  "other_totals_passed": 10
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

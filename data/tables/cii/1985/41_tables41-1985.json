@@ -8,14 +8,14 @@
  "serial": "41",
  "title": "Juvenile Apprehended (by Sex) for Committing Crimes under Local & Special Laws During 1985",
  "listing_title": "Juvenile Apprehended (by Sex) for Committing Crimes under Local & Special Laws During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables41-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables41-1985.pdf",
  "source_sha256": "7fde1d191d8cb829db2147b962e87f85f344e5d7711f5d78872ddae783724fb4",
  "table_no": "41",
- "pdf_title": "Juvenile Apprehended (By Sex) For Committing Crimes Under Local & Special Laws During 1985",
- "row_label": "Sl. States/U.Ts/Cities No. «1)",
+ "pdf_title": "99 TABLE - 41 Juvenile Apprehended (By Sex) For Committing Crimes Under Local & Special Laws During 1985",
+ "row_label": "Sl. States/U.Ts/Cities No. / Sl. States/U.Ts/Cities No.",
  "pages": [
   1
  ],
@@ -48,10 +48,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 9,
-  "cells_passed": 8,
-  "failures": [
-   "col 3 'TOTAL (CITIES)': printed 22778, sum 42591"
-  ],
+  "cells_passed": 9,
+  "failures": [],
   "other_totals_checked": 3,
   "other_totals_passed": 3
  },

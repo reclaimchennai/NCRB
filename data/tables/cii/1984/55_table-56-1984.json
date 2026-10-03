@@ -8,129 +8,128 @@
  "serial": "55",
  "title": "Number of Police Personnel Killed or Injured on Duty During 1984",
  "listing_title": "Number of Police Personnel Killed or Injured on Duty During 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-56-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-56-1984.pdf",
  "source_sha256": "9aeb242352608bba205423621ab4d7389ae3ed86eea224264dc1c418da83a2ad",
  "table_no": "56",
- "pdf_title": "Number Of Police F=======1 Killed Or Injured On Duty",
- "row_label": "sl",
+ "pdf_title": "127 TABLE - 56 Number Of Police Personnel Killed Or Injured On Duty During 1984",
+ "row_label": "S1 / STATES/U.Ts/CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 60,
+ "n_rows": 47,
  "n_cols": 12,
- "n_cells": 541,
+ "n_cells": 564,
  "columns": [
   {
    "col_no": "3",
-   "name": "STATES/U. Ts/CITIES IN DACOITY OPERATION OR OTHER RAIDS",
+   "name": "KILLED | IN DACOITY OPERATION OR OTHER RAIDS",
    "header": [
-    "STATES/U. Ts/CITIES IN DACOITY OPERATION OR OTHER RAIDS"
+    "KILLED",
+    "IN DACOITY OPERATION OR OTHER RAIDS"
    ]
   },
   {
    "col_no": "4",
-   "name": "During BY RIOTOUS MOB",
+   "name": "KILLED | BY RIOTOUS MOB",
    "header": [
-    "During BY RIOTOUS MOB"
+    "KILLED",
+    "BY RIOTOUS MOB"
    ]
   },
   {
-   "col_no": "5s",
-   "name": "1984 KILLED BY OTHER CRIMINALS",
+   "col_no": "5",
+   "name": "KILLED | BY OTHER CRIMINALS",
    "header": [
-    "1984 KILLED BY OTHER CRIMINALS"
+    "KILLED",
+    "BY OTHER CRIMINALS"
    ]
   },
   {
    "col_no": "6",
-   "name": "ON DUTIES",
+   "name": "KILLED | ON BORDER DUTIES",
    "header": [
-    "ON DUTIES"
+    "KILLED",
+    "ON BORDER DUTIES"
    ]
   },
   {
    "col_no": "7",
-   "name": "BORDER",
+   "name": "KILLED | IN ACCIDENTS",
    "header": [
-    "BORDER"
+    "KILLED",
+    "IN ACCIDENTS"
    ]
   },
   {
    "col_no": "8",
-   "name": "TOTAL IN ACUIVENID",
+   "name": "KILLED | TOTAL",
    "header": [
-    "TOTAL IN ACUIVENID"
+    "KILLED",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "STATES/U.Ts/CITIES IN DACOITY vrenariun OR QTHER RAIDS (2)",
-   "header": [
-    "STATES/U.Ts/CITIES IN DACOITY vrenariun OR QTHER RAIDS (2)"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "INJURED | BY RIOTOUS MOB (9) - - - $5",
+   "col_no": "9",
+   "name": "INJURED | IN DACOITY OPERATION OR OTHER RAIDS",
    "header": [
     "INJURED",
-    "BY RIOTOUS MOB (9) - - - $5"
+    "IN DACOITY OPERATION OR OTHER RAIDS"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "INJURED | BY OTHER CRIMINATS «10>",
+   "col_no": "10",
+   "name": "INJURED | BY RIOTOUS MOB",
    "header": [
     "INJURED",
-    "BY OTHER CRIMINATS «10>"
+    "BY RIOTOUS MOB"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "INJURED | ON DUNVER DUTIES q1l) aes - 3 - 5s",
+   "col_no": "11",
+   "name": "INJURED | BY OTHER CRIMINALS",
    "header": [
     "INJURED",
-    "ON DUNVER DUTIES q1l) aes - 3 - 5s"
+    "BY OTHER CRIMINALS"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "INJURED | IN a03: (12) - -",
+   "col_no": "12",
+   "name": "INJURED | ON BORDER DUTIES",
    "header": [
     "INJURED",
-    "IN a03: (12) - -"
+    "ON BORDER DUTIES"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "TOTAL «13> (14)",
+   "col_no": "13",
+   "name": "INJURED | IN ACCIDENTS",
    "header": [
-    "TOTAL «13> (14)"
+    "INJURED",
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "INJURED | TOTAL",
+   "header": [
+    "INJURED",
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 22,
-  "cells_passed": 2,
-  "failures": [
-   "col 4 'TOTAL (States)': printed 24, sum 13",
-   "col 4 'TOTAL (Cities)': printed 5, sum 23",
-   "col 1000519 'TOTAL (Cities)': printed 6, sum 9",
-   "col 7 'TOTAL (Cities)': printed 10, sum 34",
-   "col 10001 'TOTAL (States)': printed 219, sum 193",
-   "col 10001 'TOTAL (Cities)': printed 10, sum 6",
-   "col 10002 'TOTAL (States)': printed 2975, sum 1408",
-   "col 10002 'TOTAL (Cities)': printed 425, sum 520"
-  ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 25,
+  "cells_passed": 25,
+  "failures": [],
+  "other_totals_checked": 9,
+  "other_totals_passed": 9
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

@@ -8,32 +8,39 @@
  "serial": "11",
  "title": "Publication Over the Years",
  "listing_title": "Publication Over the Years",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653982942_publish.pdf",
  "source_file": "raw/cii/1999/year_wise/1653982942_publish.pdf",
  "source_sha256": "fb583550317976223092194201acbbd758b9d017ca997199090ca871870d3ed6",
  "table_no": "",
- "pdf_title": "Crime in India",
- "row_label": "YEAR Month",
+ "pdf_title": "N.C.R.B. (M.H.A.) CRIME IN INDIA - 1999 Crime in India",
+ "row_label": "YEAR",
  "pages": [
   1
  ],
- "n_rows": 46,
- "n_cols": 1,
- "n_cells": 46,
+ "n_rows": 47,
+ "n_cols": 2,
+ "n_cells": 94,
  "columns": [
   {
    "col_no": "2",
-   "name": "PUBLISHED IN Year",
+   "name": "PUBLISHED IN | Month",
    "header": [
-    "PUBLISHED IN Year"
+    "PUBLISHED IN",
+    "Month"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "PUBLISHED IN | Year",
+   "header": [
+    "PUBLISHED IN",
+    "Year"
    ]
   }
  ],
- "notes": [
-  "(xiv)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -41,7 +48,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

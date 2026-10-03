@@ -8,121 +8,186 @@
  "serial": "24",
  "title": "Statement indicating Number of Cases Reported and Value of Property Stolen under Robbery by Place of Occurrence During 1980",
  "listing_title": "Statement indicating Number of Cases Reported and Value of Property Stolen under Robbery by Place of Occurrence During 1980",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-51-1980_0.pdf",
  "source_file": "raw/cii/1980/table_content/table-51-1980_0.pdf",
  "source_sha256": "2b1e199ed0e9dcbd4a9f9aa59ce4dca0defe181f2931627de6603d612b6bce9b",
- "table_no": "41",
- "pdf_title": "«1 ,)",
- "row_label": "Statement Si, STATES Andhra i. 2 3. Ble 4. 7 4. & Kashmir 7. #. Kerala. 9 iO. Miadhyt,Pradesh ik, 12. 13, / gumber of cases by place of - Mo, of cased 155 lk 206 $33 161 i Haryane 4 1 7 7 Menipur Micghtlaya / and value of property during 199) Premisgs No.of Propecty 45 558 57 21 wg a 1 34 iz 49 a * / and value of property during 199) Property Stolen 2-40 #61 422 5014 733 2-73 4°38 a o-10 0.64 O03 0-00 on 1:75 13.72 3.92 *",
+ "table_no": "51",
+ "pdf_title": "125 TABLE 51 Statement indicating number of cases reported and value of property stolen under Robery by place of occurrence during 1980",
+ "row_label": "Sl. No. / States/U.Tr/Cities",
  "pages": [
   1,
+  1,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
   2
  ],
- "n_rows": 42,
- "n_cols": 11,
- "n_cells": 175,
+ "n_rows": 48,
+ "n_cols": 16,
+ "n_cells": 489,
  "columns": [
   {
-   "col_no": "5",
-   "name": "and value of property during 199) | Mo.of cites reported 7 2 4B 4 - - - 4 43 i 562 e2 Gs8 Z4 - 6 -",
+   "col_no": "3",
+   "name": "Residential Premises | No. of cases reported",
    "header": [
-    "and value of property during 199)",
-    "Mo.of cites reported 7 2 4B 4 - - - 4 43 i 562 e2 Gs8 Z4 - 6 -"
+    "Residential Premises",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Residential Premises | Value of Property reported",
+   "header": [
+    "Residential Premises",
+    "Value of Property reported"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Highways | No. of cases reported",
+   "header": [
+    "Highways",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "6",
-   "name": "under Rohery | Valueof Proporty Stolen O-}0 o-02 1-72 ‘O24 eos i846 0.02 120 0-00 S87 23,95 O-B4 2°30 ool -",
+   "name": "Highways | Value of Property Stolen",
    "header": [
-    "under Rohery",
-    "Valueof Proporty Stolen O-}0 o-02 1-72 ‘O24 eos i846 0.02 120 0-00 S87 23,95 O-B4 2°30 ool -"
+    "Highways",
+    "Value of Property Stolen"
    ]
   },
   {
    "col_no": "7",
-   "name": "under Rohery | River & No.of reported i - - 2 1 - - - - 5 4 5 - - -",
+   "name": "Railways | No. of cases reported",
    "header": [
-    "under Rohery",
-    "River & No.of reported i - - 2 1 - - - - 5 4 5 - - -"
+    "Railways",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "8",
-   "name": "under Rohery | Sea Property Stolen 0-02 oO - pe on per]",
+   "name": "Railways | Value of Property Stolen",
    "header": [
-    "under Rohery",
-    "Sea Property Stolen 0-02 oO - pe on per]"
+    "Railways",
+    "Value of Property Stolen"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "River & Sea | No. of cases reported",
+   "header": [
+    "River & Sea",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "River & Sea | Value of Property Stolen",
+   "header": [
+    "River & Sea",
+    "Value of Property Stolen"
    ]
   },
   {
    "col_no": "10001",
-   "name": "Ute, No, of Cam reported i - « ® a - - - i= Eee. i Kerala. Medbyt - 3 - Monipur - ke al \" - - «6 - i 6",
+   "name": "1 | - | - | -",
    "header": [
-    "Ute, No, of Cam reported i - « ® a - - - i= Eee. i Kerala. Medbyt - 3 - Monipur - ke al \" - - «6 - i 6"
+    "1",
+    "-",
+    "-",
+    "-"
    ]
   },
   {
    "col_no": "10002",
-   "name": "Banks Stolen O-13 - - - - - - - Cl oo os ool os - i - - - - - o-B6",
+   "name": "0-13 | - | - | -",
    "header": [
-    "Banks Stolen O-13 - - - - - - - Cl oo os ool os - i - - - - - o-B6"
+    "0-13",
+    "-",
+    "-",
+    "-"
    ]
   },
   {
    "col_no": "10003",
-   "name": "Betts, | Valucof de. of reported is 24 oT « 1 & - - - él 2560",
+   "name": "15 | 24 | 67 | 6",
    "header": [
-    "Betts,",
-    "Valucof de. of reported is 24 oT « 1 & - - - él 2560"
+    "15",
+    "24",
+    "67",
+    "6"
    ]
   },
   {
    "col_no": "10004",
-   "name": "Betts, | Stolen O14 O4g o-03 - - - - 1 - 0-01 7 4 17 13 O12 - - ood - - - 0-23 i400 (15.79)",
+   "name": "0-21 | 0-14 | 0-45 | 0-03",
    "header": [
-    "Betts,",
-    "Stolen O14 O4g o-03 - - - - 1 - 0-01 7 4 17 13 O12 - - ood - - - 0-23 i400 (15.79)"
+    "0-21",
+    "0-14",
+    "0-45",
+    "0-03"
    ]
   },
   {
    "col_no": "10005",
-   "name": "Betts, | of Mo. of reported 145 363 7 3 4 4n0 13 ee 1957) 1m 4 3 2 obs i 207 as 4,629 2E3",
+   "name": "171 | 145 | 365 | 741",
    "header": [
-    "Betts,",
-    "of Mo. of reported 145 363 7 3 4 4n0 13 ee 1957) 1m 4 3 2 obs i 207 as 4,629 2E3"
+    "171",
+    "145",
+    "365",
+    "741"
    ]
   },
   {
    "col_no": "10006",
-   "name": "of ob 33 $95 ed O-75 43 8-68 1-64 O05 L036 30°33 Ome eal ons +540",
+   "name": "9-21 | 0-76 | 0-33 | 5-95",
    "header": [
-    "of ob 33 $95 ed O-75 43 8-68 1-64 O05 L036 30°33 Ome eal ons +540"
+    "9-21",
+    "0-76",
+    "0-33",
+    "5-95"
    ]
   },
   {
    "col_no": "10007",
-   "name": "Value of No.of Stolen es 4590 a2 tan 72 190 on 2 86a 665 42-56 174 461 433,91 2 is 4 4 O-d0 744 238 126 Me W2-2i 143 o-50 43-83 18000 12,409 18227909233",
+   "name": "459 | 522 | 1,571 | 972",
    "header": [
-    "Value of No.of Stolen es 4590 a2 tan 72 190 on 2 86a 665 42-56 174 461 433,91 2 is 4 4 O-d0 744 238 126 Me W2-2i 143 o-50 43-83 18000 12,409 18227909233"
+    "459",
+    "522",
+    "1,571",
+    "972"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "20-68 | 7-87 | 12-56 | 12-72",
+   "header": [
+    "20-68",
+    "7-87",
+    "12-56",
+    "12-72"
    ]
   }
  ],
- "notes": [
-  "Kanper City,",
-  "17—@ BPR & D/ND/#",
-  "4 o-14 Mw 86 «13-96 % 17-33 1467 a7",
-  "~2=_1 - city,"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 8,
+  "cells_passed": 7,
+  "failures": [
+   "col 3 'Total (states)': printed 6998, sum 6996"
+  ],
+  "other_totals_checked": 6,
+  "other_totals_passed": 4
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 10,
  "warnings": []
 }

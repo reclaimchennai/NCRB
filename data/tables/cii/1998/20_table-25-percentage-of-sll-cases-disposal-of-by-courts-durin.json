@@ -8,107 +8,98 @@
  "serial": "20",
  "title": "Percentage of SLL Cases Disposed of by Courts During 1998",
  "listing_title": "Percentage of SLL Cases Disposed of by Courts During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-25--percentage-of-sll-cases-disposal-of-by-courts-during-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-25--percentage-of-sll-cases-disposal-of-by-courts-during-1998.pdf",
  "source_sha256": "8b9006987f338c80c50d338e41db69d451b150038069cec65459fda41c95311f",
  "table_no": "24",
- "pdf_title": "DISPOSAL OF S!! CASES BY COURTS DURING 1998",
- "row_label": "SL. STATE/UT NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-24",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 9,
- "n_cells": 308,
+ "n_cells": 315,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | TOTAL NO. OF CASES FOR TRIAL INCLUDING",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "(STATE & UT-WISE)",
-    "TOTAL NO. OF CASES FOR TRIAL INCLUDING"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | COmPOUNDED OR WITHDRAWN",
+   "name": "NO. OF CASES | COMP-OUN-DED OR WITH-DRAWN",
    "header": [
-    "(STATE & UT-WISE)",
-    "COmPOUNDED OR WITHDRAWN"
+    "NO. OF CASES",
+    "COMP-OUN-DED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES",
     "IN WHICH TRIALS WERE COMPLETED",
     "CONVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | NO. OF CASES ACQUITTED OR Dis- CHARGED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUIT-TED OR DIS-CHARGED",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES",
     "IN WHICH TRIALS WERE COMPLETED",
-    "NO. OF CASES ACQUITTED OR Dis- CHARGED"
+    "ACQUIT-TED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | TOTAL {(5) + (6))",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL ((5) + (6))",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES",
     "IN WHICH TRIALS WERE COMPLETED",
-    "TOTAL {(5) + (6))"
+    "TOTAL ((5) + (6))"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | PENDING - TRIAL",
+   "name": "NO. OF CASES | PENDING TRIAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "PENDING - TRIAL"
+    "NO. OF CASES",
+    "PENDING TRIAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | PENDENCY PERCENTAGE",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "(STATE & UT-WISE)",
     "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "10",
-   "name": "PERCENTAGEOF PENDENCY TO ALLINDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "PERCENTAGEOF PENDENCY TO ALLINDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "TION RATE {(5)/(7)} X 100",
+   "name": "CONVIC-TION RATE ((5)/(7)) X 100",
    "header": [
-    "TION RATE {(5)/(7)} X 100"
+    "CONVIC-TION RATE ((5)/(7)) X 100"
    ]
   }
  ],
- "notes": [
-  "iow) - - than 0.01 is also shown as 0.0 7",
-  "185 NCRB/2900—12A"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 12,
-  "cells_passed": 9,
-  "failures": [
-   "col 5 'TOTAL (UTs)': printed 7277, sum 7267",
-   "col 6 'TOTAL (STATES)': printed 487067, sum 487063",
-   "col 8 'TOTAL (UTs)': printed 52213, sum 8192"
-  ],
+  "cells_checked": 18,
+  "cells_passed": 18,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

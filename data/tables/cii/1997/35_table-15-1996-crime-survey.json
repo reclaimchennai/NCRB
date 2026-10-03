@@ -8,115 +8,106 @@
  "serial": "35",
  "title": "Disposal of IPC Crime Cases by Police During 1997 (State & UT-Wise)",
  "listing_title": "Disposal of IPC Crime Cases by Police During 1997 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-15-1996-crime-survey.pdf",
  "source_sha256": "4dbe0e43ad4c40bab38903d0266086156c60f27bb98e4d3535ed650f26215da9",
  "table_no": "15",
- "pdf_title": "DISPOSAL OF IPC CRIME CASES BY POLICE DURING 1997",
- "row_label": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-15",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 10,
- "n_cells": 342,
+ "n_cells": 350,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | FOR INVESTIGATION INCLUDING PENDING CASES",
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
    "header": [
-    "(STATE & UT-WISE)",
-    "FOR INVESTIGATION INCLUDING PENDING CASES"
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | INVESTIGATION Was REFUSED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "(STATE & UT-WISE)",
-    "INVESTIGATION Was REFUSED"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC.",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC.",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH",
     "INVESTIGATION WAS COMPLETED",
-    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC."
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH",
     "INVESTIGATION WAS COMPLETED",
     "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH",
     "INVESTIGATION WAS COMPLETED",
     "CHARGE SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | INVESTIGATION WAS COMPLETED | TOTAL {(5) + (6) +(7))",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL ((5)+(6)+(7))",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES IN WHICH",
     "INVESTIGATION WAS COMPLETED",
-    "TOTAL {(5) + (6) +(7))"
+    "TOTAL ((5)+(6)+(7))"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | INVESTIGATION",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
    "header": [
-    "(STATE & UT-WISE)",
-    "INVESTIGATION"
+    "NO. OF CASES PENDING INVESTIGATION"
    ]
   },
   {
    "col_no": "10",
-   "name": "TAGE PENDENCY",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "TAGE PENDENCY"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "11",
-   "name": "TAGE PENDENCY | TOALLINDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "TAGE PENDENCY",
-    "TOALLINDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "RATE {(COL.7)/ (COL.6+7 X 100}",
+   "name": "CHARGE-SHEETING RATE [(COL.7)/ (COL.6+7 X 100)]",
    "header": [
-    "RATE {(COL.7)/ (COL.6+7 X 100}"
+    "CHARGE-SHEETING RATE [(COL.7)/ (COL.6+7 X 100)]"
    ]
   }
  ],
- "notes": [
-  "dis: srcemtage tess than 0.05 is aiso snow as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 10,
-  "cells_passed": 7,
-  "failures": [
-   "col 7 'TOTAL (UTs)': printed 31509, sum 31499",
-   "col 9 'TOTAL (STATES)': printed 441048, sum 1.34105e+06",
-   "col 9 'TOTAL (UTs)': printed 82414, sum 82424"
-  ],
+  "cells_checked": 21,
+  "cells_passed": 21,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

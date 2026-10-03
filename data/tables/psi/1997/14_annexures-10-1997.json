@@ -8,65 +8,223 @@
  "serial": "14",
  "title": "Annexure-X: Inspections and Other Movements Etc. in Jails During 1997",
  "listing_title": "Annexure-X: Inspections and Other Movements Etc. in Jails During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/annexures-10_1997.pdf",
  "source_file": "raw/psi/1997/table_content/annexures-10_1997.pdf",
  "source_sha256": "d1ee5b1e249d0929fd652688a0bdcf65104455165886434aad2a1c8a958ad8f7",
  "table_no": "",
- "pdf_title": "ANNEXURE-X",
- "row_label": "NO, SL. / STATE/UT / - CRIMI- NAL CASES INSTI TUTED / - PERSARRES- TED / - ACTION TAKEN - MAJOR PUNISH-: MINOR IMPO- MENT - MENT IMPOSED —s SED / - ACTION TAKEN - MAJOR PUNISH-: MINOR IMPO- MENT - MENT IMPOSED —s SED / LINARY DISCIP- - PERS- ONS ACTION SHEETED CHARGE / LINARY DISCIP- - PERS- ONS ACTION SHEETED CHARGE / RESULT OF CASES) PERS- ONS CONV- CTED",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1997 ANNEXURE-X",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
+  1,
   2
  ],
- "n_rows": 20,
- "n_cols": 5,
- "n_cells": 67,
+ "n_rows": 52,
+ "n_cols": 25,
+ "n_cells": 750,
  "columns": [
   {
-   "col_no": "23",
-   "name": "RESULT OF CASES) | PERS- ONS ACQUI- TTED",
+   "col_no": "3",
+   "name": "NO. OF JAIL INSPECTIONS CARRIED OUT | MEDI-CAL",
    "header": [
-    "RESULT OF CASES)",
-    "PERS- ONS ACQUI- TTED"
+    "NO. OF JAIL INSPECTIONS CARRIED OUT",
+    "MEDI-CAL"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF JAIL INSPECTIONS CARRIED OUT | EXEC-UTIVE",
+   "header": [
+    "NO. OF JAIL INSPECTIONS CARRIED OUT",
+    "EXEC-UTIVE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF JAIL INSPECTIONS CARRIED OUT | JAIL VISIT-ORS",
+   "header": [
+    "NO. OF JAIL INSPECTIONS CARRIED OUT",
+    "JAIL VISIT-ORS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF JAIL INSPECTIONS CARRIED OUT | TOTAL",
+   "header": [
+    "NO. OF JAIL INSPECTIONS CARRIED OUT",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "MOVEMENT OF INMATES CARRIED OUTSIDE JAIL | COURT",
+   "header": [
+    "MOVEMENT OF INMATES CARRIED OUTSIDE JAIL",
+    "COURT"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "MOVEMENT OF INMATES CARRIED OUTSIDE JAIL | MEDI-CAL",
+   "header": [
+    "MOVEMENT OF INMATES CARRIED OUTSIDE JAIL",
+    "MEDI-CAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "MOVEMENT OF INMATES CARRIED OUTSIDE JAIL | REM-AND",
+   "header": [
+    "MOVEMENT OF INMATES CARRIED OUTSIDE JAIL",
+    "REM-AND"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "MOVEMENT OF INMATES CARRIED OUTSIDE JAIL | REM. DURA-TION",
+   "header": [
+    "MOVEMENT OF INMATES CARRIED OUTSIDE JAIL",
+    "REM. DURA-TION"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "NO. OF NEW OFFENDERS",
+   "header": [
+    "NO. OF NEW OFFENDERS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "NO. OF OFFENDERS CONVICTED IN PAST | ONCE",
+   "header": [
+    "NO. OF OFFENDERS CONVICTED IN PAST",
+    "ONCE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "NO. OF OFFENDERS CONVICTED IN PAST | TWICE",
+   "header": [
+    "NO. OF OFFENDERS CONVICTED IN PAST",
+    "TWICE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "NO. OF OFFENDERS CONVICTED IN PAST | THRICE",
+   "header": [
+    "NO. OF OFFENDERS CONVICTED IN PAST",
+    "THRICE"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "NO. OF OFFENDERS CONVICTED IN PAST | TOTAL",
+   "header": [
+    "NO. OF OFFENDERS CONVICTED IN PAST",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "ACTION TAKEN | CRIMINAL CASES INSTI-TUTED",
+   "header": [
+    "ACTION TAKEN",
+    "CRIMINAL CASES INSTI-TUTED"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "ACTION TAKEN | PERS-ONS ARRES-TED",
+   "header": [
+    "ACTION TAKEN",
+    "PERS-ONS ARRES-TED"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "ACTION TAKEN | MAJOR PUNISH-MENT IMPO-SED",
+   "header": [
+    "ACTION TAKEN",
+    "MAJOR PUNISH-MENT IMPO-SED"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "ACTION TAKEN | MINOR PUNISH-MENT IMPO-SED",
+   "header": [
+    "ACTION TAKEN",
+    "MINOR PUNISH-MENT IMPO-SED"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "ACTION TAKEN | DISCIP-LINARY ACTION",
+   "header": [
+    "ACTION TAKEN",
+    "DISCIP-LINARY ACTION"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "ACTION TAKEN | PERS-ONS CHARGE SHEETED",
+   "header": [
+    "ACTION TAKEN",
+    "PERS-ONS CHARGE SHEETED"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "RESULT OF CASES | PERS-ONS CONV-ICTED",
+   "header": [
+    "RESULT OF CASES",
+    "PERS-ONS CONV-ICTED"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "RESULT OF CASES | PERS-ONS ACQUI-TTED",
+   "header": [
+    "RESULT OF CASES",
+    "PERS-ONS ACQUI-TTED"
    ]
   },
   {
    "col_no": "24",
-   "name": "RESULT OF CASES) | PERS- ONS",
+   "name": "RESULT OF CASES | PERS-ONS DISCH-ARGED",
    "header": [
-    "RESULT OF CASES)",
-    "PERS- ONS"
+    "RESULT OF CASES",
+    "PERS-ONS DISCH-ARGED"
    ]
   },
   {
    "col_no": "25",
-   "name": "RESULT OF CASES) | AWAR- DED MENT",
+   "name": "RESULT OF CASES | AWAR-DED MINOR PUNISH-MENT",
    "header": [
-    "RESULT OF CASES)",
-    "AWAR- DED MENT"
+    "RESULT OF CASES",
+    "AWAR-DED MINOR PUNISH-MENT"
    ]
   },
   {
    "col_no": "26",
-   "name": "RESULT OF CASES) | DED DISCH- ARGED PUNISH. MINOR PUNISH- MAJOR MENT",
+   "name": "RESULT OF CASES | AWAR-DED MAJOR PUNISH-MENT",
    "header": [
-    "RESULT OF CASES)",
-    "DED DISCH- ARGED PUNISH. MINOR PUNISH- MAJOR MENT"
+    "RESULT OF CASES",
+    "AWAR-DED MAJOR PUNISH-MENT"
    ]
   },
   {
    "col_no": "27",
-   "name": "RESULT OF CASES) | ONS OFF LET",
+   "name": "RESULT OF CASES | PERS-ONS LET OFF",
    "header": [
-    "RESULT OF CASES)",
-    "ONS OFF LET"
+    "RESULT OF CASES",
+    "PERS-ONS LET OFF"
    ]
   }
  ],
- "notes": [
-  "NA stands for Not Available"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -75,6 +233,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

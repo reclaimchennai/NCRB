@@ -8,136 +8,140 @@
  "serial": "3",
  "title": "Distribution of Accidental Deaths by Natural Causes and Sex during 1991 (State, UT & City-wise)",
  "listing_title": "Distribution of Accidental Deaths by Natural Causes and Sex during 1991 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-1_1991.pdf",
  "source_file": "raw/adsi/1991/table_content/appendix-1_1991.pdf",
  "source_sha256": "31d9b8f8f4fa07ddbbcae79fdfe0147597d810d042b146183db4537eea6fe200",
  "table_no": "",
- "pdf_title": "APPENDIX",
- "row_label": "SI. No. / State/UT/City",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 36 APPENDIX - I",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 52,
+ "n_rows": 47,
  "n_cols": 21,
- "n_cells": 850,
+ "n_cells": 986,
  "columns": [
   {
    "col_no": "3",
-   "name": "Of Male",
+   "name": "Lightning | Male",
    "header": [
-    "Of Male"
+    "Lightning",
+    "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "Deaths by Natural Caueae and Sex during 1991 | (State, UT & City-wise) | Lignusng Female",
+   "name": "Lightning | Female",
    "header": [
-    "Deaths by Natural Caueae and Sex during 1991",
-    "(State, UT & City-wise)",
-    "Lignusng Female"
+    "Lightning",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "Deaths by Natural Caueae and Sex during 1991 | (State, UT & City-wise) | Total",
+   "name": "Lightning | Total",
    "header": [
-    "Deaths by Natural Caueae and Sex during 1991",
-    "(State, UT & City-wise)",
+    "Lightning",
     "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "Deaths by Natural Caueae and Sex during 1991 | Male",
+   "name": "Heat Stroke | Male",
    "header": [
-    "Deaths by Natural Caueae and Sex during 1991",
+    "Heat Stroke",
     "Male"
    ]
   },
   {
    "col_no": "7",
-   "name": "Deaths by Natural Caueae and Sex during 1991 | Heat Stroke Female",
+   "name": "Heat Stroke | Female",
    "header": [
-    "Deaths by Natural Caueae and Sex during 1991",
-    "Heat Stroke Female"
+    "Heat Stroke",
+    "Female"
    ]
   },
   {
    "col_no": "8",
-   "name": "Total",
+   "name": "Heat Stroke | Total",
    "header": [
+    "Heat Stroke",
     "Total"
    ]
   },
   {
    "col_no": "9",
-   "name": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - | Male",
+   "name": "Flood | Male",
    "header": [
-    "ACCIDENTAL DEATHS & SUICIDES IN INDIA -",
+    "Flood",
     "Male"
    ]
   },
   {
    "col_no": "10",
-   "name": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - | Flood Female",
+   "name": "Flood | Female",
    "header": [
-    "ACCIDENTAL DEATHS & SUICIDES IN INDIA -",
-    "Flood Female"
+    "Flood",
+    "Female"
    ]
   },
   {
    "col_no": "11",
-   "name": "7991 Total",
+   "name": "Flood | Total",
    "header": [
-    "7991 Total"
+    "Flood",
+    "Total"
    ]
   },
   {
    "col_no": "12",
-   "name": "Male",
+   "name": "Landslide | Male",
    "header": [
+    "Landslide",
     "Male"
    ]
   },
   {
    "col_no": "13",
-   "name": "APPENDIX andelido Female",
+   "name": "Landslide | Female",
    "header": [
-    "APPENDIX andelido Female"
+    "Landslide",
+    "Female"
    ]
   },
   {
    "col_no": "14",
-   "name": "N.C.R.B. - 37 (Continued..) Total",
+   "name": "Landslide | Total",
    "header": [
-    "N.C.R.B. - 37 (Continued..) Total"
+    "Landslide",
+    "Total"
    ]
   },
   {
    "col_no": "15",
-   "name": "Ex »osure to Cold | Male",
+   "name": "Exposure to Cold | Male",
    "header": [
-    "Ex »osure to Cold",
+    "Exposure to Cold",
     "Male"
    ]
   },
   {
    "col_no": "16",
-   "name": "Ex »osure to Cold | Female",
+   "name": "Exposure to Cold | Female",
    "header": [
-    "Ex »osure to Cold",
+    "Exposure to Cold",
     "Female"
    ]
   },
   {
    "col_no": "17",
-   "name": "Ex »osure to Cold | Total",
+   "name": "Exposure to Cold | Total",
    "header": [
-    "Ex »osure to Cold",
+    "Exposure to Cold",
     "Total"
    ]
   },
@@ -192,12 +196,10 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 31,
-  "cells_passed": 28,
+  "cells_checked": 63,
+  "cells_passed": 62,
   "failures": [
-   "col 9 'TOTAL! (States)': printed 439, sum 428",
-   "col 15 'TOTAL! (States)': printed 363, sum 351",
-   "col 21 'TOTAL! (States)': printed 2944, sum 2688"
+   "col 23 'Total (States)': printed 4277, sum 4276"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

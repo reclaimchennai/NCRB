@@ -6,107 +6,119 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1990",
  "serial": "3",
- "title": "Distribution Of Accidental Deaths By Sex And Age-Groups",
+ "title": "14 TABLE - 5 Distribution Of Accidental Deaths By Sex And Age-Groups",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1990.pdf",
  "source_file": "raw/adsi/1990/year_wise/accidental-deaths-1990.pdf",
  "source_sha256": "531e5a941225967411ce6d7de699c435aa2e807290544afb112873d44f469711",
  "table_no": "5",
- "pdf_title": "Distribution Of Accidental Deaths By Sex And Age-Groups",
- "row_label": "Sl. No. / State/UT/City",
+ "pdf_title": "14 TABLE - 5 Distribution Of Accidental Deaths By Sex And Age-Groups",
+ "row_label": "St. State/UT/City No.",
  "pages": [
   13,
   14,
   15
  ],
- "n_rows": 53,
+ "n_rows": 91,
  "n_cols": 21,
  "n_cells": 987,
  "columns": [
   {
    "col_no": "3",
-   "name": "Male (3)",
+   "name": "Below 18 Years | Male",
    "header": [
+    "Below 18 Years",
     "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "(State, Below Female",
+   "name": "Below 18 Years | Female",
    "header": [
-    "(State, Below Female"
+    "Below 18 Years",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "During UT 18 Total To",
+   "name": "Below 18 Years | Total",
    "header": [
-    "During UT 18 Total To"
+    "Below 18 Years",
+    "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "1990 & Years - Percentage Total Deaths",
+   "name": "Below 18 Years | Percentage To Total Deaths",
    "header": [
-    "1990 & Years - Percentage Total Deaths"
+    "Below 18 Years",
+    "Percentage To Total Deaths"
    ]
   },
   {
    "col_no": "7",
-   "name": "City-wise) Male",
+   "name": "18 - 30 Years* | Male",
    "header": [
-    "City-wise) Male"
+    "18 - 30 Years*",
+    "Male"
    ]
   },
   {
    "col_no": "8",
-   "name": "18 Female",
+   "name": "18 - 30 Years* | Female",
    "header": [
-    "18 Female"
+    "18 - 30 Years*",
+    "Female"
    ]
   },
   {
    "col_no": "9",
-   "name": "- Years* Total To",
+   "name": "18 - 30 Years* | Total",
    "header": [
-    "- Years* Total To"
+    "18 - 30 Years*",
+    "Total"
    ]
   },
   {
    "col_no": "10",
-   "name": "30 Percentage Total Deaths",
+   "name": "18 - 30 Years* | Percentage To Total Deaths",
    "header": [
-    "30 Percentage Total Deaths"
+    "18 - 30 Years*",
+    "Percentage To Total Deaths"
    ]
   },
   {
    "col_no": "11",
-   "name": "Male (11)",
+   "name": "30 - 50 Years | Male",
    "header": [
+    "30 - 50 Years",
     "Male"
    ]
   },
   {
    "col_no": "12",
-   "name": "30 - Female",
+   "name": "30 - 50 Years | Female",
    "header": [
-    "30 - Female"
+    "30 - 50 Years",
+    "Female"
    ]
   },
   {
    "col_no": "13",
-   "name": "50 Total",
+   "name": "30 - 50 Years | Total",
    "header": [
-    "50 Total"
+    "30 - 50 Years",
+    "Total"
    ]
   },
   {
    "col_no": "14",
-   "name": "Years Percentage To Total Deaths",
+   "name": "30 - 50 Years | Percentage To Total Deaths",
    "header": [
-    "Years Percentage To Total Deaths"
+    "30 - 50 Years",
+    "Percentage To Total Deaths"
    ]
   },
   {
@@ -143,60 +155,50 @@
   },
   {
    "col_no": "19",
-   "name": "Total | SSS Male",
+   "name": "Total Deaths | Male",
    "header": [
-    "Total",
-    "SSS Male"
+    "Total Deaths",
+    "Male"
    ]
   },
   {
    "col_no": "20",
-   "name": "Total | asics GS Female",
+   "name": "Total Deaths | Female",
    "header": [
-    "Total",
-    "asics GS Female"
+    "Total Deaths",
+    "Female"
    ]
   },
   {
    "col_no": "21",
-   "name": "Total | Deaths Ss SS Total",
+   "name": "Total Deaths | Total",
    "header": [
-    "Total",
-    "Deaths Ss SS Total"
+    "Total Deaths",
+    "Total"
    ]
   },
   {
    "col_no": "22",
-   "name": "Total | Se Percentage of",
+   "name": "Total Deaths | Percentage of Male",
    "header": [
-    "Total",
-    "Se Percentage of"
+    "Total Deaths",
+    "Percentage of Male"
    ]
   },
   {
    "col_no": "23",
-   "name": "SS Sis Sie Percentage Male of Female",
+   "name": "Total Deaths | Percentage of Female",
    "header": [
-    "SS Sis Sie Percentage Male of Female"
+    "Total Deaths",
+    "Percentage of Female"
    ]
   }
  ],
- "notes": [
-  "* 18 - 30 years means 18 years and above but below 30 years of age etc."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 43,
-  "cells_passed": 29,
-  "failures": [
-   "col 11 'TOTAL (States)': printed 39529, sum 39508",
-   "col 11 'TOTAL (UTs)': printed 1572, sum 253",
-   "col 12 'TOTAL (States)': printed 13776, sum 13771",
-   "col 13 'TOTAL (States)': printed 53305, sum 53279",
-   "col 13 'TOTAL (UTs)': printed 1885, sum 313",
-   "col 15 'TOTAL (States)': printed 17628, sum 17619",
-   "col 15 'TOTAL (UTs)': printed 740, sum 185",
-   "col 16 'TOTAL (States)': printed 6876, sum 6872"
-  ],
+  "cells_checked": 27,
+  "cells_passed": 27,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

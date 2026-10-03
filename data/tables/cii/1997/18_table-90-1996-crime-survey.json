@@ -8,67 +8,112 @@
  "serial": "18",
  "title": "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.1997 (Women only)",
  "listing_title": "Sanctioned and Actual Strength of Civil Police Including District Armed Police as on 31.12.1997 (Women only)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-90-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-90-1996-crime-survey.pdf",
  "source_sha256": "6c924f6f6957f77274ed624a0261a32ea2fbdec7d6d83fdb546c1f9320a1bf11",
- "table_no": "90",
- "pdf_title": "SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE AS ON 31.12.1997 (WOMEN ONLY)",
- "row_label": "SL. - / s TATE/UT/CITY /UTICIT / SI & DGNGIDIG/SP SANCTICNED / SI & DGNGIDIG/SP ACTUAL / SI & AS? & OSP SANCTIONED / SI & - SANCACTUAL TIONED 7”)",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 59,
- "n_cols": 4,
- "n_cells": 223,
+ "n_rows": 58,
+ "n_cols": 10,
+ "n_cells": 580,
  "columns": [
   {
-   "col_no": "9",
-   "name": "SI & | ACTUAL i8)",
+   "col_no": "3",
+   "name": "DG/IG/DIG/SP | SANCTIONED",
    "header": [
-    "SI &",
-    "ACTUAL i8)"
+    "DG/IG/DIG/SP",
+    "SANCTIONED"
    ]
   },
   {
-   "col_no": "10",
-   "name": "SI & | - SANCTIONED",
+   "col_no": "4",
+   "name": "DG/IG/DIG/SP | ACTUAL",
    "header": [
-    "SI &",
-    "- SANCTIONED"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "SI & | GRAND TOTAL | ACTUAL",
-   "header": [
-    "SI &",
-    "GRAND TOTAL",
+    "DG/IG/DIG/SP",
     "ACTUAL"
    ]
   },
   {
-   "col_no": "12",
-   "name": "SI & | GRAND TOTAL | SANCTIONED ACTUAL",
+   "col_no": "5",
+   "name": "ASP & DSP | SANCTIONED",
    "header": [
-    "SI &",
+    "ASP & DSP",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ASP & DSP | ACTUAL",
+   "header": [
+    "ASP & DSP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INSPECTOR. SI & A.S.I. | SANCTIONED",
+   "header": [
+    "INSPECTOR. SI & A.S.I.",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR. SI & A.S.I. | ACTUAL",
+   "header": [
+    "INSPECTOR. SI & A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS BELOW A.S.I. | SANCTIONED",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | SANCTIONED",
+   "header": [
     "GRAND TOTAL",
-    "SANCTIONED ACTUAL"
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
- "notes": [
-  "Noth: Actual Police strength ofwomsn police is more tian their ‘sanctioned’ police strength for sone ranks.",
-  "This is because women police are appointed against male vacancies of the same rank or higher rank as per Govt. instructions."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 1,
+  "cells_checked": 30,
+  "cells_passed": 25,
   "failures": [
-   "col 9 '.. - TOTAL (STATES)': printed 1.44316e+08, sum 6.27213e+06",
-   "col 9 '‘TOTAL (UTs)': printed 3.92114e+06, sum 364553",
-   "col 9 ''TOTAL (ALL-INDIA)': printed 1.83517e+08, sum 1.48237e+08"
+   "col 7 'TOTAL (STATES)': printed 1720, sum 1719",
+   "col 8 'TOTAL (STATES)': printed 1443, sum 1445",
+   "col 9 'TOTAL (STATES)': printed 15556, sum 15495",
+   "col 10 'TOTAL (STATES)': printed 15872, sum 15472",
+   "col 12 'TOTAL (STATES)': printed 17412, sum 17442"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

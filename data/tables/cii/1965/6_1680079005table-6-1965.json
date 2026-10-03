@@ -8,68 +8,67 @@
  "serial": "6",
  "title": "Juveniles Apprehended Under Age Groups",
  "listing_title": "Juveniles Apprehended Under Age Groups",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680079005TABLE-6-1965.pdf",
  "source_file": "raw/cii/1965/table_content/1680079005TABLE-6-1965.pdf",
  "source_sha256": "bbc4605494ea2c6ff2e24cf8c88b4ed6a7b28a4d7188a1950798b9610fd74a2c",
  "table_no": "",
- "pdf_title": "TABLE No. VI",
- "row_label": "JUVENILES Head of Crime",
+ "pdf_title": "28 TABLE No. VI JUVENILES APPREHENDED UNDER AGE GROUPS",
+ "row_label": "Head of Crime",
  "pages": [
   1
  ],
- "n_rows": 18,
+ "n_rows": 16,
  "n_cols": 6,
- "n_cells": 93,
+ "n_cells": 96,
  "columns": [
   {
    "col_no": "2",
-   "name": "JUVENILES | Boys",
+   "name": "7-12 Years | Boys",
    "header": [
-    "JUVENILES",
+    "7-12 Years",
     "Boys"
    ]
   },
   {
    "col_no": "3",
-   "name": "JUVENILES | 7—12 Years 4 Girls",
+   "name": "7-12 Years | Girls",
    "header": [
-    "JUVENILES",
-    "7—12 Years 4 Girls"
+    "7-12 Years",
+    "Girls"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER AGE GROUPS | Over 12—16 Years | Boys",
+   "name": "Over 12-16 Years | Boys",
    "header": [
-    "UNDER AGE GROUPS",
-    "Over 12—16 Years",
+    "Over 12-16 Years",
     "Boys"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER AGE GROUPS | Over 12—16 Years | a Girls",
+   "name": "Over 12-16 Years | Girls",
    "header": [
-    "UNDER AGE GROUPS",
-    "Over 12—16 Years",
-    "a Girls"
+    "Over 12-16 Years",
+    "Girls"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER AGE GROUPS | - Boys",
+   "name": "Over 16-21 Years | Boys",
    "header": [
-    "UNDER AGE GROUPS",
-    "- Boys"
+    "Over 16-21 Years",
+    "Boys"
    ]
   },
   {
    "col_no": "7",
-   "name": "Over 16—21 Years a Girls",
+   "name": "Over 16-21 Years | Girls",
    "header": [
-    "Over 16—21 Years a Girls"
+    "Over 16-21 Years",
+    "Girls"
    ]
   }
  ],
@@ -78,8 +77,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 3
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

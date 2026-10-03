@@ -8,59 +8,67 @@
  "serial": "31",
  "title": "Disposal of IPC Crime Cases by Courts During 1991",
  "listing_title": "Disposal of IPC Crime Cases by Courts During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15-1991-15.pdf",
  "source_file": "raw/cii/1991/table_content/table-15-1991-15.pdf",
  "source_sha256": "840c9ad5b98c7b775dfa04ae07d0988ac7e56567ebeb18847cc018177c5f3f32",
- "table_no": "",
- "pdf_title": "TAGLE=15 DOLSPOSAL OF IPC CRIME CASES BY COURTS DURING 1994",
- "row_label": "SL. HEAD He. (1) 1",
+ "table_no": "15",
+ "pdf_title": "91 TABLE-15 DISPOSAL OF IPC CRIME CASES BY COURTS DURING 1991",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 17,
- "n_cols": 5,
- "n_cells": 85,
+ "n_rows": 18,
+ "n_cols": 6,
+ "n_cells": 108,
  "columns": [
   {
-   "col_no": "2",
-   "name": "uO. OF CASES | TOTAL HO, oF CASES For TRIAL 1WCLUDIRG CASES (2) 102759",
-   "header": [
-    "uO. OF CASES",
-    "TOTAL HO, oF CASES For TRIAL 1WCLUDIRG CASES (2) 102759"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "uO. OF CASES | 08 Deed (3) 602",
+   "name": "TOTAL | NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "uO. OF CASES",
-    "08 Deed (3) 602"
+    "TOTAL",
+    "NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "uO. OF CASES | CONVICTED - (4) 4832",
+   "name": "TOTAL | COMP- OUR- DED OR WITH- DRAWN",
    "header": [
-    "uO. OF CASES",
-    "CONVICTED - (4) 4832"
+    "TOTAL",
+    "COMP- OUR- DED OR WITH- DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "uO. OF CASES | ye WHICH TRIALS WERE (3) 10089",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COVICTED",
    "header": [
-    "uO. OF CASES",
-    "ye WHICH TRIALS WERE (3) 10089"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "uO. OF CASES | - - TOTSL TE of O1S- (633 CHARGED cé) th (0) 14921 85234",
+   "name": "NO. OF CASES | AGGUIT TED OR DIS- CHARGED",
    "header": [
-    "uO. OF CASES",
-    "- - TOTSL TE of O1S- (633 CHARGED cé) th (0) 14921 85234"
+    "NO. OF CASES",
+    "AGGUIT TED OR DIS- CHARGED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF CASES | COMPLETED TOTAL ((5) > (6))",
+   "header": [
+    "NO. OF CASES",
+    "COMPLETED TOTAL ((5) > (6))"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF CASES | PENDING TRIAL",
+   "header": [
+    "NO. OF CASES",
+    "PENDING TRIAL"
    ]
   }
  ],
@@ -69,10 +77,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,41 +8,40 @@
  "serial": "3",
  "title": "Percentage Distribution of Cognizable Crime (IPC) Under Different Crime Heads (1994-1998)",
  "listing_title": "Percentage Distribution of Cognizable Crime (IPC) Under Different Crime Heads (1994-1998)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-3-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-3-1998.pdf",
  "source_sha256": "af5574d4c1711475c379adca3dd92381d691dc71e7b1badfe5782df6e1d9f12d",
  "table_no": "3",
- "pdf_title": "",
- "row_label": "ben / UIs UNDEN CRIME HEAD",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-3",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 25,
+ "n_rows": 24,
  "n_cols": 5,
- "n_cells": 118,
+ "n_cells": 120,
  "columns": [
   {
    "col_no": "3",
-   "name": "UIs | 1994",
+   "name": "1994",
    "header": [
-    "UIs",
     "1994"
    ]
   },
   {
    "col_no": "4",
-   "name": "TUN OF Gi=== HEADS (1994-1998) 1995",
+   "name": "1995",
    "header": [
-    "TUN OF Gi=== HEADS (1994-1998) 1995"
+    "1995"
    ]
   },
   {
    "col_no": "5",
-   "name": "tic) 1996",
+   "name": "1996",
    "header": [
-    "tic) 1996"
+    "1996"
    ]
   },
   {
@@ -60,9 +59,7 @@
    ]
   }
  ],
- "notes": [
-  "Note: \" indicates that the crime head was not introduced. till that year."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

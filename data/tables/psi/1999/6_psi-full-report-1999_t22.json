@@ -6,139 +6,89 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "NUMBER OF UNDERTRIALS BY TYPE OF IPC OFFENCES AT THE END OF 1999",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 PERCENTAGE SHARE OF UNDERTRIALS BY VARYING PERIOD OF DETENTION DURING 1999",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
- "table_no": "22",
- "pdf_title": "NUMBER OF UNDERTRIALS BY TYPE OF IPC OFFENCES AT THE END OF 1999",
- "row_label": "T @)",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 PERCENTAGE SHARE OF UNDERTRIALS BY VARYING PERIOD OF DETENTION DURING 1999",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  110,
-  111
+  40
  ],
- "n_rows": 55,
- "n_cols": 13,
- "n_cells": 238,
+ "n_rows": 9,
+ "n_cols": 8,
+ "n_cells": 72,
  "columns": [
   {
    "col_no": "3",
-   "name": "ATTEMPT | MURDER (3)",
+   "name": "UPTO 3 MONTHS",
    "header": [
-    "ATTEMPT",
-    "MURDER"
+    "UPTO 3 MONTHS"
    ]
   },
   {
    "col_no": "4",
-   "name": "ATTEMPT | MURDER (4)",
+   "name": "3 - 6 MONTHS",
    "header": [
-    "ATTEMPT",
-    "MURDER"
+    "3 - 6 MONTHS"
    ]
   },
   {
    "col_no": "5",
-   "name": "ATTEMPT | C.H.NOT AMOUNT -ING TO MURDER",
+   "name": "6 - 12 MONTHS",
    "header": [
-    "ATTEMPT",
-    "C.H.NOT AMOUNT -ING TO MURDER"
+    "6 - 12 MONTHS"
    ]
   },
   {
    "col_no": "6",
-   "name": "RAPE",
+   "name": "1 - 2 YEARS",
    "header": [
-    "RAPE"
+    "1 - 2 YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "KIDNAPP NG & ABDUCTI ON",
+   "name": "2 - 3 YEARS",
    "header": [
-    "KIDNAPP NG & ABDUCTI ON"
+    "2 - 3 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "pacoity",
+   "name": "3 - 5 YEARS",
    "header": [
-    "pacoity"
+    "3 - 5 YEARS"
    ]
   },
   {
    "col_no": "9",
-   "name": "- | 7OR pacouty",
+   "name": "ABOVE 5 YEARS",
    "header": [
-    "-",
-    "7OR pacouty"
+    "ABOVE 5 YEARS"
    ]
   },
   {
    "col_no": "10",
-   "name": "- | ¥",
+   "name": "TOTAL",
    "header": [
-    "-",
-    "¥"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "BURGLARY Q)",
-   "header": [
-    "BURGLARY Q)"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "THEFTS (tH)",
-   "header": [
-    "THEFTS (tH)"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "RIOT as) (By",
-   "header": [
-    "RIOT as) (By"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "OTHER: CHEATING ypc crme (17) (16) (3)",
-   "header": [
-    "OTHER: CHEATING ypc crme (17) (16) (3)"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "CRIMINAL UNDER BREACH COUNTER: - OF RUST TEA (18) (14)",
-   "header": [
-    "CRIMINAL UNDER BREACH COUNTER: - OF RUST TEA (18) (14)"
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NA-DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 6,
-  "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (UTS)': printed 1703, sum 108031",
-   "col 10001 'TOTAL (UTS)': printed 692089, sum 5.67978e+06",
-   "col 10003 'TOTAL (UTS)': printed 255, sum 1542",
-   "col 10004 'TOTAL (UTS)': printed 330, sum 48222",
-   "col 10005 'TOTAL (UTS)': printed 7220, sum 88594",
-   "col 10005 'TOTAL (UTS) [line 2]': printed 161679, sum 227544"
-  ],
+  "cells_checked": 8,
+  "cells_passed": 8,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

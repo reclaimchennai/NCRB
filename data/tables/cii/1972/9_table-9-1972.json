@@ -8,58 +8,75 @@
  "serial": "9",
  "title": "Cases Reported under Local and Special Laws",
  "listing_title": "Cases Reported under Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-9-1972.pdf",
  "source_file": "raw/cii/1972/table_content/table-9-1972.pdf",
  "source_sha256": "84aeb7b39ddbf9f8873703cf20057f96ec021b938846642ebe48058f600f525c",
- "table_no": "",
- "pdf_title": "Tante 9",
- "row_label": "Sl. tio. A Andes 2 4, Gambling’ / Cases Reported Crime Heads 2 4) Aci + + / Local-and Special Laws 1966 x +",
+ "table_no": "9",
+ "pdf_title": "55 TABLE 9 Cases Reported under Local and Special Laws",
+ "row_label": "Sl. No. / Crime Heads",
  "pages": [
   1
  ],
- "n_rows": 9,
- "n_cols": 5,
- "n_cells": 33,
+ "n_rows": 13,
+ "n_cols": 8,
+ "n_cells": 85,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Local-and Special Laws | io67 4 © i +",
+   "col_no": "3",
+   "name": "1966",
    "header": [
-    "Local-and Special Laws",
-    "io67 4 © i +"
+    "1966"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1967",
+   "header": [
+    "1967"
    ]
   },
   {
    "col_no": "5",
-   "name": "Local-and Special Laws | 1968 é aar7 102995",
+   "name": "1968",
    "header": [
-    "Local-and Special Laws",
-    "1968 é aar7 102995"
+    "1968"
    ]
   },
   {
    "col_no": "6",
-   "name": "Local-and Special Laws | 1969 7 i34i4 1TH - ode oAG0 LNLLO74 163,815",
+   "name": "1969",
    "header": [
-    "Local-and Special Laws",
-    "1969 7 i34i4 1TH - ode oAG0 LNLLO74 163,815"
+    "1969"
    ]
   },
   {
    "col_no": "7",
-   "name": "Local-and Special Laws | 1970 a tg9s2 10662 - 11,169 135,626 164.037",
+   "name": "1970",
    "header": [
-    "Local-and Special Laws",
-    "1970 a tg9s2 10662 - 11,169 135,626 164.037"
+    "1970"
    ]
   },
   {
    "col_no": "8",
-   "name": "Pereen- 1972 1971 tnge change: over Te 9 20482 ET 10,650 + 2G 1,98,586 + 1761",
+   "name": "1971",
    "header": [
-    "Pereen- 1972 1971 tnge change: over Te 9 20482 ET 10,650 + 2G 1,98,586 + 1761"
+    "1971"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1972",
+   "header": [
+    "1972"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Percentage change over 1971",
+   "header": [
+    "Percentage change over 1971"
    ]
   }
  ],
@@ -68,10 +85,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

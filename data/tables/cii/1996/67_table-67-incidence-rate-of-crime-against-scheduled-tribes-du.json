@@ -8,21 +8,49 @@
  "serial": "67",
  "title": "Incidence & Rate of Crime Against Scheduled Tribes During 1996 (State & UT-Wise)",
  "listing_title": "Incidence & Rate of Crime Against Scheduled Tribes During 1996 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-67--incidence-&-rate-of-crime-against-scheduled-tribes-during-1996-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-67--incidence-&-rate-of-crime-against-scheduled-tribes-during-1996-1996.pdf",
  "source_sha256": "27095d8f5c61d8ce13deebac72b13b0c5bf01508189a71468fef3663b021a71f",
  "table_no": "67",
- "pdf_title": "INCIDENCE & RATE OF CRIME AGAINST SCHEDULED TRIBES DURING 1996",
- "row_label": "SL. NO. / STATE/UT / (STATE INCIDENCE OF TOTAL COG. CRIMES / (STATE PERCENTAGE CONTRIBUTION TOTAL / & ESTIMATED MID-YEAR POPULATION (IN LAKHS) / RATE OF TOTAL COG. CRIMES",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-67",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 1,
- "n_cols": 2,
- "n_cells": 2,
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 204,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "INCIDENCE OF TOTAL COG. CRIMES",
+   "header": [
+    "INCIDENCE OF TOTAL COG. CRIMES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RATE OF TOTAL COG. CRIMES",
+   "header": [
+    "RATE OF TOTAL COG. CRIMES"
+   ]
+  },
   {
    "col_no": "7",
    "name": "RANK OF* CRIMINALITY (ON RATE)",
@@ -38,14 +66,10 @@
    ]
   }
  ],
- "notes": [
-  "Note: 1 * Rank on the basis of Rate of tota! cognizable crimes (Col.6) in the States & UTs.",
-  "2 Percentage less than 0.05 is also shown as 0.0",
-  "1649 NCRB/98—22A 319"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

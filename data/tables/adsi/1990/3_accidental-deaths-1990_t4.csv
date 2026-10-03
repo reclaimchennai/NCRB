@@ -1,48 +1,49 @@
-section,sl_no,State/UT/City,Incidence | 1989,Incidence | 1990,Percentage Variation In 1990 Over
-States:,1,Andhra Pradesh,11626,13737,18.2
-States:,2,Arunachal Pradesh,167,173,3.6
-States:,3,Assam,1962,1760,-10.3
-States:,4,Bihar,7551,7495,-0.7
-States:,5,Goa,614,608,-1.0
-States:,6,Gujarat,7872,8104,2.9
-States:,7,Haryana,1785,2581,44.6
-States:,8,Himachal Pradesh,896,943,5.2
-States:,9,Jammu & Kashmir,1176,925,-21.3
-States:,10,Karnataka,10869,11371,4.6
-States:,11,Kerala,4619,4433,-4.0
-States:,12,Madhya Pradesh,22215,23315,5.0
-States:,13,Maharashtra,35257,32028,-9.2
-States:,14,Manipur,155,67,-56.8
-States:,15,Meghalaya,195,160,-17.9
-States:,16,Mizoram,82,62,-24.4
-States:,17,Nagaland,43,28,-34.9
-States:,18,Orissa,4807,4943,2.8
-States:,19,Punjab,2328,2336,0.3
-States:,20,Rajasthan,6585,6797,3.2
-States:,21,Sikkim,83,190,128.9
-States:,22,Tamil Nadu,14378,16741,16.4
-States:,23,Tripura,143,137,-4.2
-States:,24,Uttar Pradesh,17791,19068,Coe
-States:,25,West Bengal,10735,10860,1.2
-States:,,TOTAL (States),163934,168862,3.0
-Union Territories:,26,A & N Islands,113,126,11.5
-Union Territories:,27,Chandigarh,162,98,-39.5
-Union Territories:,28,D & N Haveli,41,46,12.2
-Union Territories:,29,Daman & Diu,31,27,-12.9
-Union Territories:,30,Dethi,4339,4720,8.8
-Union Territories:,31,Lakshadweep,0,3,a
-Union Territories:,32,Pondicherry,446,519,16.4
-Union Territories:,,TOTAL (UTs),5132,5539,7.9
-Union Territories:,,TOTAL (Alt - India),169066,174401,3.2
-Cities:,33,Ahmedabad,980,910,-7.1
-Cities:,34,Bangalore,1755,2342,33.4
-Cities:,35,Bombay,5888,4419,-24.9
-Cities:,36,Calcutta,768,589,-23.3
-Cities:,37,Delhi,3639,4170,14.6
-Cities:,38,Hyderabad,935,857,-8.3
-Cities:,39,Jaipur,503,713,41.7
-Cities:,40,Kanpur,586,941,60.6
-Cities:,41,Lucknow,429,748,74.4
-Cities:,42,Madras,929,1206,29.8
+section,sl_no,Incidence,Incidence,col_3,col_5
+,,1989,1990,,
+States:,1,Andhra Pradesh,13737,11626,18.2
+States:,2,Arunachal Pradesh,173,167,3.6
+States:,3,Assam,1760,1962,-10.3
+States:,4,Bihar,7495,7551,-0.7
+States:,5,Goa,608,614,-1.0
+States:,6,Gujarat,8104,7872,2.9
+States:,7,Haryana,2581,1785,44.6
+States:,8,Himachal Pradesh,943,896,5.2
+States:,9,Jammu & Kashmir,925,1176,-21.3
+States:,10,Karnataka,11371,10869,4.6
+States:,11,Kerala,4433,4619,-4.0
+States:,12,Madhya Pradesh,23315,22215,5.0
+States:,13,Maharashtra,32028,35257,-9.2
+States:,14,Manipur,67,155,-56.8
+States:,15,Meghalaya,160,195,-17.9
+States:,16,Mizoram,62,82,-24.4
+States:,17,Nagaland,28,43,-34.9
+States:,18,Orissa,4943,4807,2.8
+States:,19,Punjab,2336,2328,0.3
+States:,20,Rajasthan,6797,6585,3.2
+States:,21,Sikkim,190,83,128.9
+States:,22,Tamil Nadu,16741,14378,16.4
+States:,23,Tripura,137,143,-4.2
+States:,24,Uttar Pradesh,19068,17791,7.2
+States:,25,West Bengal,10860,10735,1.2
+States:,,Total (States),168862,163934,3.0
+Union Territories:,26,A & N Islands,126,113,11.5
+Union Territories:,27,Chandigarh,98,162,-39.5
+Union Territories:,28,D & N Haveli,46,41,12.2
+Union Territories:,29,Daman & Diu,27,31,-12.9
+Union Territories:,30,Delhi,4720,4339,8.8
+Union Territories:,31,Lakshadweep,3,0,a
+Union Territories:,32,Pondicherry,519,446,16.4
+Union Territories:,,Total (UTs),5539,5132,7.9
+Union Territories:,,Total (All - India),174401,169066,3.2
+Cities:,33,Ahmedabad,910,980,-7.1
+Cities:,34,Bangalore,2342,1755,33.4
+Cities:,35,Bombay,4419,5888,-24.9
+Cities:,36,Calcutta,589,768,-23.3
+Cities:,37,Delhi,4170,3639,14.6
+Cities:,38,Hyderabad,857,935,-8.3
+Cities:,39,Jaipur,713,503,41.7
+Cities:,40,Kanpur,941,586,60.6
+Cities:,41,Lucknow,748,429,74.4
+Cities:,42,Madras,1206,929,29.8
 Cities:,43,Nagpur,660,660,0.0
-Cities:,44,Pune,1466,1750,19.4
+Cities:,44,Pune,1750,1466,19.4

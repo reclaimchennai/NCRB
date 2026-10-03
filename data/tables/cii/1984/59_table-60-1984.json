@@ -8,105 +8,103 @@
  "serial": "59",
  "title": "Table Presenting Area, Estimated Mid-Year Population, Total Cognizable Crime under IPC and Actual Police Strength During 1984",
  "listing_title": "Table Presenting Area, Estimated Mid-Year Population, Total Cognizable Crime under IPC and Actual Police Strength During 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-60-1984.pdf",
  "source_sha256": "81253d9a9f937a646e36fa790858e85d58e6e599461d585ad03ee6d52948723c",
  "table_no": "60",
- "pdf_title": "TABLE LE - 60",
- "row_label": "Table SL NO / Table Total STATES/U. Ts",
+ "pdf_title": "132 TABLE - 60 Table Presenting Area, Estimated Mid Year Population, Total Cognizable Crime Under IPC And Actual Police strength During 1984",
+ "row_label": "SL NO / STATES/U. Ts",
  "pages": [
   1,
   2
  ],
- "n_rows": 41,
+ "n_rows": 34,
  "n_cols": 10,
  "n_cells": 340,
  "columns": [
   {
    "col_no": "3",
-   "name": "Table | Crime AREA IN SQUARE KMS.",
+   "name": "AREA IN SQUARE KMS.",
    "header": [
-    "Table",
-    "Crime AREA IN SQUARE KMS."
+    "AREA IN SQUARE KMS."
    ]
   },
   {
    "col_no": "4",
-   "name": "Area, Under During MID-YEAR POPULATION (In",
+   "name": "ESTIMATED MID-YEAR POPULATION (In 000')",
    "header": [
-    "Area, Under During MID-YEAR POPULATION (In"
+    "ESTIMATED MID-YEAR POPULATION (In 000')"
    ]
   },
   {
    "col_no": "5",
-   "name": "Estimated IPC 1984 TOTAL COGNTZARLE 000')",
+   "name": "TOTAL COGNIZABLE CRIME UNDER I.P.C",
    "header": [
-    "Estimated IPC 1984 TOTAL COGNTZARLE 000')"
+    "TOTAL COGNIZABLE CRIME UNDER I.P.C"
    ]
   },
   {
    "col_no": "6",
-   "name": "Population, | And ACTIHIAT. CRIME UNDER CIVIL I.P.C",
+   "name": "ACTUAL POLICE STRENGTH | CIVIL",
    "header": [
-    "Population,",
-    "And ACTIHIAT. CRIME UNDER CIVIL I.P.C"
+    "ACTUAL POLICE STRENGTH",
+    "CIVIL"
    ]
   },
   {
    "col_no": "7",
-   "name": "Population, | Mid Year Actual strength POLICE ARMED",
+   "name": "ACTUAL POLICE STRENGTH | ARMED",
    "header": [
-    "Population,",
-    "Mid Year Actual strength POLICE ARMED"
+    "ACTUAL POLICE STRENGTH",
+    "ARMED"
    ]
   },
   {
    "col_no": "8",
-   "name": "Police TOTAL",
+   "name": "ACTUAL POLICE STRENGTH | TOTAL",
    "header": [
-    "Police TOTAL"
+    "ACTUAL POLICE STRENGTH",
+    "TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF PER 100 SQ",
+   "name": "NUMBER OF POLICEMEN PER 100 SQ KM AREA",
    "header": [
-    "OF PER 100 SQ"
+    "NUMBER OF POLICEMEN PER 100 SQ KM AREA"
    ]
   },
   {
    "col_no": "10",
-   "name": "NUMHEH POl.1chmen 1000 KM POPULATION",
+   "name": "NUMBER OF POLICEMEN PER 1000 OF POPULATION",
    "header": [
-    "NUMHEH POl.1chmen 1000 KM POPULATION"
+    "NUMBER OF POLICEMEN PER 1000 OF POPULATION"
    ]
   },
   {
    "col_no": "11",
-   "name": "OF OF IPC PER CIVIL AREA POL.TCKMAN",
+   "name": "NUMBER OF IPC CASES PER CIVIL POLICEMAN",
    "header": [
-    "OF OF IPC PER CIVIL AREA POL.TCKMAN"
+    "NUMBER OF IPC CASES PER CIVIL POLICEMAN"
    ]
   },
   {
    "col_no": "12",
-   "name": "®AGE OF NIIMHiCH POLICE CASES CIVIL TOTAL TO PER POLICE OF",
+   "name": "%AGE OF CIVIL POLICE TO TOTAL POLICE",
    "header": [
-    "®AGE OF NIIMHiCH POLICE CASES CIVIL TOTAL TO PER POLICE OF"
+    "%AGE OF CIVIL POLICE TO TOTAL POLICE"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 2,
-  "failures": [
-   "col 5 'TOTAL (States)': printed 1.3168e+06, sum 1.2568e+06"
-  ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 5
+  "cells_checked": 5,
+  "cells_passed": 5,
+  "failures": [],
+  "other_totals_checked": 10,
+  "other_totals_passed": 10
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

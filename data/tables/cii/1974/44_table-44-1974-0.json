@@ -8,87 +8,94 @@
  "serial": "44",
  "title": "Disposals of Juveniles Sent to Court",
  "listing_title": "Disposals of Juveniles Sent to Court",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-44-1974_0.pdf",
  "source_sha256": "88aa29a8b96f79f0f243eb99d3f32df9ed46492fad1dcf360002ba4fb296610d",
- "table_no": "",
- "pdf_title": "gs",
- "row_label": "Sl. No, i er - 2, Ain 7 3. Bikar - - A Toot 1. 9: 10, Pradesh - \" IL, V2. ses 1g, 14, 13,",
+ "table_no": "44",
+ "pdf_title": "85 TABLE 44 Disposals of Juveniles sent to Court",
+ "row_label": "Sl. No. / States/U. Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 26,
- "n_cols": 7,
- "n_cells": 162,
+ "n_rows": 43,
+ "n_cols": 9,
+ "n_cells": 379,
  "columns": [
   {
-   "col_no": "2",
-   "name": "TARLE 44 | Juveniles £0 2 \" ‘ 5 & i a - ® - 4",
-   "header": [
-    "TARLE 44",
-    "Juveniles £0 2 \" ‘ 5 & i a - ® - 4"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "TARLE 44 | Bacto’ to * 5 \" + - ‘ *",
+   "name": "Juveniles sent to Court",
    "header": [
-    "TARLE 44",
-    "Bacto’ to * 5 \" + - ‘ *"
+    "Juveniles sent to Court"
    ]
   },
   {
    "col_no": "4",
-   "name": "TARLE 44 | af Juveniles samt tan 4 5 3 él 3,100 i 2062 a 29 $2 2410 19 578 - 73) F J i rrr) a 6001 pg. 140 & 107 11952 50 18 TOT FOr2a fee 100 201 3 133 Ti",
+   "name": "Restored to Guardian",
    "header": [
-    "TARLE 44",
-    "af Juveniles samt tan 4 5 3 él 3,100 i 2062 a 29 $2 2410 19 578 - 73) F J i rrr) a 6001 pg. 140 & 107 11952 50 18 TOT FOr2a fee 100 201 3 133 Ti"
+    "Restored to Guardian"
    ]
   },
   {
    "col_no": "5",
-   "name": "TARLE 44 | tiemto i é F8 14 Pr IZ ae",
+   "name": "On probation",
    "header": [
-    "TARLE 44",
-    "tiemto i é F8 14 Pr IZ ae"
+    "On probation"
    ]
   },
   {
    "col_no": "6",
-   "name": "TARLE 44 | Sintio i74",
+   "name": "Sent to Reforma- torics and Institutions",
    "header": [
-    "TARLE 44",
-    "Sintio i74"
+    "Sent to Reforma- torics and Institutions"
    ]
   },
   {
    "col_no": "7",
-   "name": "to oF > 5 aS - 53 - 3 131 40 Pty 9 1s) ED - - 24 142 - 1 78 - 23 oes 16a 2 $ ia 41 bee 206 6242 aT 70 2 - - - - 14g a - a2 291 it",
+   "name": "Sent to Schools Institutions",
    "header": [
-    "to oF > 5 aS - 53 - 3 131 40 Pty 9 1s) ED - - 24 142 - 1 78 - 23 oes 16a 2 $ ia 41 bee 206 6242 aT 70 2 - - - - 14g a - a2 291 it"
+    "Sent to Schools Institutions"
    ]
   },
   {
    "col_no": "8",
-   "name": "Pending Acquiliet pod of 7 il 7 27 2,07 716 6a - 3 2,76t 10s 908 131 1,342 - 433 i238 i 6 429 o46 4 ai ae 8 7.438 103 1567 =15,761 TJ5@ 630 a - Es: 2 - 124 9S 9",
+   "name": "Sent to Adult Institutions",
    "header": [
-    "Pending Acquiliet pod of 7 il 7 27 2,07 716 6a - 3 2,76t 10s 908 131 1,342 - 433 i238 i 6 429 o46 4 ai ae 8 7.438 103 1567 =15,761 TJ5@ 630 a - Es: 2 - 124 9S 9"
+    "Sent to Adult Institutions"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Implicated",
+   "header": [
+    "Implicated"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Acquired or other- wise dis- posed of",
+   "header": [
+    "Acquired or other- wise dis- posed of"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Pending disposal",
+   "header": [
+    "Pending disposal"
    ]
   }
  ],
- "notes": [
-  "1g-43¢ S22."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 36,
+  "other_totals_passed": 34
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

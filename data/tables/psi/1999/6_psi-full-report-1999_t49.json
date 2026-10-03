@@ -6,89 +6,100 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "DETAILS OF EXPENSES ON INMATES DURING 1999-2000 EXPENSES (RS. JN LAKHS)",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-49",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "49",
- "pdf_title": "DETAILS OF EXPENSES ON INMATES DURING 1999-2000 EXPENSES (RS. JN LAKHS)",
- "row_label": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-49",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   153
  ],
- "n_rows": 34,
- "n_cols": 8,
- "n_cells": 178,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 312,
  "columns": [
   {
    "col_no": "3",
-   "name": "LATION",
+   "name": "INMATE POPULATION",
    "header": [
-    "LATION"
+    "INMATE POPULATION"
    ]
   },
   {
    "col_no": "4",
-   "name": "FOOD",
+   "name": "EXPENSES (RS. IN LAKHS) | FOOD",
    "header": [
+    "EXPENSES (RS. IN LAKHS)",
     "FOOD"
    ]
   },
   {
    "col_no": "5",
-   "name": "G)",
+   "name": "EXPENSES (RS. IN LAKHS) | CLOTHING",
    "header": [
-    "G)"
+    "EXPENSES (RS. IN LAKHS)",
+    "CLOTHING"
    ]
   },
   {
    "col_no": "6",
-   "name": "MEDI- CAL",
+   "name": "EXPENSES (RS. IN LAKHS) | MEDICAL",
    "header": [
-    "MEDI- CAL"
+    "EXPENSES (RS. IN LAKHS)",
+    "MEDICAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "VOCATTIONAL",
+   "name": "EXPENSES (RS. IN LAKHS) | VOCATIONAL/EDUCATIONAL",
    "header": [
-    "VOCATTIONAL"
+    "EXPENSES (RS. IN LAKHS)",
+    "VOCATIONAL/EDUCATIONAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "WELTIES",
+   "name": "EXPENSES (RS. IN LAKHS) | WELFARE ACTIVITIES",
    "header": [
-    "WELTIES"
+    "EXPENSES (RS. IN LAKHS)",
+    "WELFARE ACTIVITIES"
    ]
   },
   {
    "col_no": "9",
-   "name": "OTHERS",
+   "name": "EXPENSES (RS. IN LAKHS) | OTHERS",
    "header": [
+    "EXPENSES (RS. IN LAKHS)",
     "OTHERS"
    ]
   },
   {
    "col_no": "10",
-   "name": "TURE PER TOTAL INMATE ay",
+   "name": "EXPENSES (RS. IN LAKHS) | TOTAL",
    "header": [
-    "TURE PER TOTAL INMATE ay"
+    "EXPENSES (RS. IN LAKHS)",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "EXPENSES (RS. IN LAKHS) | EXPENDI-TURE PER INMATE",
+   "header": [
+    "EXPENSES (RS. IN LAKHS)",
+    "EXPENDI-TURE PER INMATE"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 1,
+  "cells_checked": 0,
   "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (UTS)': printed 11506, sum 158818"
-  ],
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

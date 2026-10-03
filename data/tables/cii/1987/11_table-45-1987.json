@@ -8,14 +8,14 @@
  "serial": "11",
  "title": "Particulars of Juveniles Arrested under IPC and Local and Special Laws During 1987",
  "listing_title": "Particulars of Juveniles Arrested under IPC and Local and Special Laws During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_45-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_45-1987.pdf",
  "source_sha256": "502bc825396c0d5b84a156dbb2ac5ba93b80b9b5cc8d25c1402ce781228b327b",
  "table_no": "45",
- "pdf_title": "Particulars Of Juveniles Arrested Under IPC And Local And Special Laws During 1987",
- "row_label": "SL NO «1)",
+ "pdf_title": "127 TABLE - 45 Particulars Of Juveniles Arrested Under IPC And Local And Special Laws During 1987.",
+ "row_label": "SLNO / STATES/U.Ts/CITIES",
  "pages": [
   1,
   2,
@@ -24,213 +24,236 @@
   5,
   6
  ],
- "n_rows": 73,
- "n_cols": 26,
- "n_cells": 1195,
+ "n_rows": 92,
+ "n_cols": 27,
+ "n_cells": 1268,
  "columns": [
   {
    "col_no": "3",
-   "name": "STATES/U. Ts/CITIES WITH LIVING PARENTS",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH PARENTS",
    "header": [
-    "STATES/U. Ts/CITIES WITH LIVING PARENTS"
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH PARENTS"
    ]
   },
   {
    "col_no": "4",
-   "name": "BY LIVING GUARDTANS",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARDIANS",
    "header": [
-    "BY LIVING GUARDTANS"
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH GUARDIANS"
    ]
   },
   {
    "col_no": "5",
-   "name": "FAMILY WITH",
+   "name": "BY FAMILY BACKGROUND | HOMELESS",
    "header": [
-    "FAMILY WITH"
+    "BY FAMILY BACKGROUND",
+    "HOMELESS"
    ]
   },
   {
    "col_no": "6",
-   "name": "mrs TOTAL HOMELESS",
+   "name": "BY FAMILY BACKGROUND | TOTAL",
    "header": [
-    "mrs TOTAL HOMELESS"
+    "BY FAMILY BACKGROUND",
+    "TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "www ww ew wwe wee LOWER INCOME (BELOW Rs.150/- PM)",
+   "name": "BY ECONOMIC SET-UP | LOWER INCOME (BELOW Rs. 150/- PM)",
    "header": [
-    "www ww ew wwe wee LOWER INCOME (BELOW Rs.150/- PM)"
+    "BY ECONOMIC SET-UP",
+    "LOWER INCOME (BELOW Rs. 150/- PM)"
    ]
   },
   {
    "col_no": "8",
-   "name": "BY LOWER DDLE OME VE BUT Rs. 500/- PM)",
+   "name": "BY ECONOMIC SET-UP | LOWER MI- DDLE INC- OME (ABO- VE Rs. 150/- BUT BELOW Rs. 500/- PM)",
    "header": [
-    "BY LOWER DDLE OME VE BUT Rs. 500/- PM)"
+    "BY ECONOMIC SET-UP",
+    "LOWER MI- DDLE INC- OME (ABO- VE Rs. 150/- BUT BELOW Rs. 500/- PM)"
    ]
   },
   {
    "col_no": "9",
-   "name": "ECONOMIC MIINC- (ABOVE Rs.150/- BELOW PM) BUT BELOW Rs. 1000/-PM)",
+   "name": "BY ECONOMIC SET-UP | UPPER MI- DDLE INC- OME (ABO- VE Rs. 500/-Rs. 1000/- PM) BUT BELOW Rs. 1000/-PM)",
    "header": [
-    "ECONOMIC MIINC- (ABOVE Rs.150/- BELOW PM) BUT BELOW Rs. 1000/-PM)"
+    "BY ECONOMIC SET-UP",
+    "UPPER MI- DDLE INC- OME (ABO- VE Rs. 500/-Rs. 1000/- PM) BUT BELOW Rs. 1000/-PM)"
    ]
   },
   {
    "col_no": "10",
-   "name": "SET-UP eee UPPER UPPER INCOME DDLE (ABOVE OME",
+   "name": "BY ECONOMIC SET-UP | UPPER INCOME (ABOVE Rs. 1000/-",
    "header": [
-    "SET-UP eee UPPER UPPER INCOME DDLE (ABOVE OME"
+    "BY ECONOMIC SET-UP",
+    "UPPER INCOME (ABOVE Rs. 1000/-"
    ]
   },
   {
    "col_no": "11",
-   "name": "TOTAL MIINC- (ABORs. 500/-Rs. 1000/-",
+   "name": "BY ECONOMIC SET-UP | TOTAL",
    "header": [
-    "TOTAL MIINC- (ABORs. 500/-Rs. 1000/-"
+    "BY ECONOMIC SET-UP",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "RECIDIVISM | NEW DELINQUENTS",
+   "header": [
+    "RECIDIVISM",
+    "NEW DELINQUENTS"
    ]
   },
   {
    "col_no": "13",
-   "name": "RECIDIVISM | OLD NEW qa12)",
+   "name": "RECIDIVISM | OLD DELINQUENTS",
    "header": [
     "RECIDIVISM",
-    "OLD NEW qa12)"
+    "OLD DELINQUENTS"
    ]
   },
   {
    "col_no": "14",
-   "name": "RECIDIVISM | TOTAL DELINOMENTS",
+   "name": "RECIDIVISM | TOTAL",
    "header": [
     "RECIDIVISM",
-    "TOTAL DELINOMENTS"
+    "TOTAL"
    ]
   },
   {
    "col_no": "15",
-   "name": "HINDU",
+   "name": "BY RELIGION | HINDU",
    "header": [
+    "BY RELIGION",
     "HINDU"
    ]
   },
   {
    "col_no": "16",
-   "name": "BY | MUSLIM",
+   "name": "BY RELIGION | MUSLIM",
    "header": [
-    "BY",
+    "BY RELIGION",
     "MUSLIM"
    ]
   },
   {
    "col_no": "17",
-   "name": "BY | SIKH",
+   "name": "BY RELIGION | SIKH",
    "header": [
-    "BY",
+    "BY RELIGION",
     "SIKH"
    ]
   },
   {
    "col_no": "18",
-   "name": "RELIGION CHRISTIAN",
+   "name": "BY RELIGION | CHRISTIAN",
    "header": [
-    "RELIGION CHRISTIAN"
+    "BY RELIGION",
+    "CHRISTIAN"
    ]
   },
   {
    "col_no": "19",
-   "name": "OTHERS",
+   "name": "BY RELIGION | OTHERS",
    "header": [
+    "BY RELIGION",
     "OTHERS"
    ]
   },
   {
    "col_no": "20",
-   "name": "TOTAL (20)",
+   "name": "BY RELIGION | TOTAL",
    "header": [
+    "BY RELIGION",
     "TOTAL"
    ]
   },
   {
    "col_no": "21",
-   "name": "Ts/CITIES CASTE",
+   "name": "BY COMMUNITY | SCHEDULED CASTE",
    "header": [
-    "Ts/CITIES CASTE"
+    "BY COMMUNITY",
+    "SCHEDULED CASTE"
    ]
   },
   {
    "col_no": "22",
-   "name": "BY TRIBE",
+   "name": "BY COMMUNITY | SCHEDULED TRIBE",
    "header": [
-    "BY TRIBE"
+    "BY COMMUNITY",
+    "SCHEDULED TRIBE"
    ]
   },
   {
    "col_no": "23",
-   "name": "COMMUNITY",
+   "name": "BY COMMUNITY | OTHERS",
    "header": [
-    "COMMUNITY"
+    "BY COMMUNITY",
+    "OTHERS"
    ]
   },
   {
    "col_no": "24",
-   "name": "col_24",
-   "header": []
+   "name": "BY COMMUNITY | TOTAL",
+   "header": [
+    "BY COMMUNITY",
+    "TOTAL"
+   ]
   },
   {
    "col_no": "25",
-   "name": "ILLITERATE",
+   "name": "BY EDUCATION | ILLI-TERATE",
    "header": [
-    "ILLITERATE"
+    "BY EDUCATION",
+    "ILLI-TERATE"
    ]
   },
   {
    "col_no": "26",
-   "name": "BY | BELOW PRIMARY",
+   "name": "BY EDUCATION | BELOW PRIMARY",
    "header": [
-    "BY",
+    "BY EDUCATION",
     "BELOW PRIMARY"
    ]
   },
   {
    "col_no": "27",
-   "name": "BY | ABOVE PRIMARY BUT BELOW MATRIC",
+   "name": "BY EDUCATION | ABOVE PRIMARY BUT BELOW MATRIC",
    "header": [
-    "BY",
+    "BY EDUCATION",
     "ABOVE PRIMARY BUT BELOW MATRIC"
    ]
   },
   {
    "col_no": "28",
-   "name": "EDUCATION MATRIC/ HIGHER AND ABOVE",
+   "name": "BY EDUCATION | MATRIC/ HIGHER SECONDARY AND ABOVE",
    "header": [
-    "EDUCATION MATRIC/ HIGHER AND ABOVE"
+    "BY EDUCATION",
+    "MATRIC/ HIGHER SECONDARY AND ABOVE"
    ]
   },
   {
    "col_no": "29",
-   "name": "TOTAL (29)",
+   "name": "BY EDUCATION | TOTAL",
    "header": [
+    "BY EDUCATION",
     "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 64,
-  "cells_passed": 7,
+  "cells_checked": 47,
+  "cells_passed": 46,
   "failures": [
-   "col 4 'TOTAL (States)': printed 36529, sum 42929",
-   "col 5 'TOTAL (States)': printed 15512, sum 16152",
-   "col 6 'TOTAL (UTs)': printed 6439, sum 1867",
-   "col 6 'TOTAL (Cities)': printed 40040, sum 36019",
-   "col 7 'TOTAL (States)': printed 80929, sum 60146",
-   "col 7 'TOTAL (Cities)': printed 14650, sum 11042",
-   "col 8 'TOTAL (States)': printed 57498, sum 38856",
-   "col 8 'TOTAL (Cities)': printed 15657, sum 13646"
+   "col 14 'Total(UTs)': printed 6439, sum 6435"
   ],
   "other_totals_checked": 25,
-  "other_totals_passed": 19
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
  "ocr_pages": 6,

@@ -6,51 +6,71 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "TABLE",
+ "title": "50 TABLE Statement Showing Districtwise Incidence of",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "TABLE",
- "row_label": "Sl. No. 1 1 / Name of District 2 Ghinetenut",
+ "pdf_title": "50 TABLE Statement Showing Districtwise Incidence of",
+ "row_label": "Sl. No. / Name of District",
  "pages": [
-  21
+  21,
+  22
  ],
- "n_rows": 38,
- "n_cols": 4,
- "n_cells": 127,
+ "n_rows": 93,
+ "n_cols": 7,
+ "n_cells": 535,
  "columns": [
   {
    "col_no": "3",
-   "name": "ot to murder 3 4",
+   "name": "Murder",
    "header": [
-    "ot to murder 3 4"
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "Showing Districhpise | Raps 4 4",
+   "name": "Culpable Homicide not amounting to murder",
    "header": [
-    "Showing Districhpise",
-    "Raps 4 4"
+    "Culpable Homicide not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "Showing Districhpise | Kidnapping and 6 i a",
+   "name": "Rape",
    "header": [
-    "Showing Districhpise",
-    "Kidnapping and 6 i a"
+    "Rape"
    ]
   },
   {
    "col_no": "6",
-   "name": "gf Number of © Dacolly 7 1 a",
+   "name": "Kidnapping and Abduction",
    "header": [
-    "gf Number of © Dacolly 7 1 a"
+    "Kidnapping and Abduction"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Decoity",
+   "header": [
+    "Decoity"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Burglary",
+   "header": [
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total Cognizable Crime Under IPC",
+   "header": [
+    "Total Cognizable Crime Under IPC"
    ]
   }
  ],
@@ -62,7 +82,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -8,66 +8,92 @@
  "serial": "49",
  "title": "Juveniles Apprehended under IPC and L&SL Crimes by Age Groups & Sex During 1993",
  "listing_title": "Juveniles Apprehended under IPC and L&SL Crimes by Age Groups & Sex During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-49-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-49-1993-crime.pdf",
  "source_sha256": "17291286c9a0fbbcd1fb4602f350492a37dee2935822de2db904b8c5fed1b52c",
  "table_no": "49",
- "pdf_title": "JUVENILES APPREHENDED UNDER IPC AND L&SL CRIMES BY AGE GROUPS & SEX DURING 1993",
- "row_label": "",
+ "pdf_title": "229 TABLE-49 JUVENILES APPREHENDED UNDER IPC AND L&SL CRIMES BY AGE GROUPS & SEX DURING 1993",
+ "row_label": "SL. NO / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 34,
- "n_cols": 7,
- "n_cells": 215,
+ "n_rows": 36,
+ "n_cols": 8,
+ "n_cells": 288,
  "columns": [
   {
+   "col_no": "3",
+   "name": "7-12 YEARS | BOYS",
+   "header": [
+    "7-12 YEARS",
+    "BOYS"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "7-12 YEARS | GIRLS",
+   "header": [
+    "7-12 YEARS",
+    "GIRLS"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "12-16 YEARS | BOYS",
+   "header": [
+    "12-16 YEARS",
+    "BOYS"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "12-16 YEARS | GIRLS",
+   "header": [
+    "12-16 YEARS",
+    "GIRLS"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "16-19 YEARS | GIRLS ONLY",
+   "header": [
+    "16-19 YEARS",
+    "GIRLS ONLY"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "OVERALL AGE AGE GROUP | BOYS",
+   "header": [
+    "OVERALL AGE AGE GROUP",
+    "BOYS"
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "OVERALL AGE AGE GROUP | GIRLS",
+   "header": [
+    "OVERALL AGE AGE GROUP",
+    "GIRLS"
+   ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "TOTAL (BOYS + GIRLS)",
+   "header": [
+    "TOTAL (BOYS + GIRLS)"
+   ]
   }
  ],
- "notes": [
-  "NOTE: 7 -12 YEARS MEANS 7 YEARS & ABOVE BUT BELOW 12 YEARS OF AGE ETC."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 0
+  "other_totals_checked": 16,
+  "other_totals_passed": 16
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

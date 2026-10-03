@@ -6,64 +6,61 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "A?",
+ "title": "46 TABLE Statement showing Districtwise Incidence of",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "A?",
- "row_label": "7--cond. Goring she your Robbery / Crimes reported during the Fear 1973 Burglary",
+ "pdf_title": "46 TABLE Statement showing Districtwise Incidence of",
+ "row_label": "Sl. No.",
  "pages": [
-  18
+  17
  ],
- "n_rows": 42,
- "n_cols": 6,
- "n_cells": 208,
+ "n_rows": 44,
+ "n_cols": 5,
+ "n_cells": 220,
  "columns": [
   {
    "col_no": "3",
-   "name": "Crimes reported during the Fear 1973",
+   "name": "Number of cases reported | Murder",
    "header": [
-    "Crimes reported during the Fear 1973"
+    "Number of cases reported",
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "Crimes reported during the Fear 1973 | Riots\"",
+   "name": "Number of cases reported | Culpable Homicide not amounting to murder",
    "header": [
-    "Crimes reported during the Fear 1973",
-    "Riots\""
+    "Number of cases reported",
+    "Culpable Homicide not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "“breach of trusts",
+   "name": "Number of cases reported | Rape",
    "header": [
-    "“breach of trusts"
+    "Number of cases reported",
+    "Rape"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cheatiog",
+   "name": "Number of cases reported | Kidnapping and Abduction",
    "header": [
-    "Cheatiog"
+    "Number of cases reported",
+    "Kidnapping and Abduction"
    ]
   },
   {
    "col_no": "7",
-   "name": "Counter. - sivabla",
+   "name": "Number of cases reported | Decoity",
    "header": [
-    "Counter. - sivabla"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Total ender TPC",
-   "header": [
-    "Total ender TPC"
+    "Number of cases reported",
+    "Decoity"
    ]
   }
  ],
@@ -75,7 +72,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

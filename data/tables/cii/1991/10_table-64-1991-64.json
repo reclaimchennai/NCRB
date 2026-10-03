@@ -1,0 +1,123 @@
+{
+ "table_id": "cii/1991/10_table-64-1991-64",
+ "publication": "cii",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "10",
+ "title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1991 (Men + Women)",
+ "listing_title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1991 (Men + Women)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-64-1991-64.pdf",
+ "source_file": "raw/cii/1991/table_content/table-64-1991-64.pdf",
+ "source_sha256": "bd53a6f2a49ac8fb9a67485b944ac683c0930ebcdc1959f2f8e2d044a3fa20d9",
+ "table_no": "64",
+ "pdf_title": "196 TABLE-64 SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
+ "row_label": "SL. STATE/UT/CITY NO.",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 10,
+ "n_cells": 470,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "DG/1G/DIG/SP | SANC-TIONED",
+   "header": [
+    "DG/1G/DIG/SP",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DG/1G/DIG/SP | ACTUAL",
+   "header": [
+    "DG/1G/DIG/SP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ASP & DSP | SANC-TIONED",
+   "header": [
+    "ASP & DSP",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ASP & DSP | ACTUAL",
+   "header": [
+    "ASP & DSP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INSPECTOR, SI & A.S.1. | SANC-TIONED",
+   "header": [
+    "INSPECTOR, SI & A.S.1.",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR, SI & A.S.1. | ACTUAL",
+   "header": [
+    "INSPECTOR, SI & A.S.1.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS BELOW A.S.1. | SANC-TIONED",
+   "header": [
+    "OFFICERS BELOW A.S.1.",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS BELOW A.S.1. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.S.1.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GRAND TOTAL | SANC-TIONED",
+   "header": [
+    "GRAND TOTAL",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GRAND TOTAL | ACTUAL",
+   "header": [
+    "GRAND TOTAL",
+    "ACTUAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 30,
+  "cells_passed": 26,
+  "failures": [
+   "col 8 'TOTAL (UTs)': printed 7813, sum 7773",
+   "col 11 'TOTAL (STATES)': printed 900728, sum 899128",
+   "col 11 'TOTAL (UTs)': printed 46931, sum 46951",
+   "col 12 'TOTAL (STATES)': printed 861119, sum 861319"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

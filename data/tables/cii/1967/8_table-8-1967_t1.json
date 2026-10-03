@@ -6,58 +6,56 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "8",
- "title": "TABLE",
+ "title": "46 TABLE JUVENILE",
  "listing_title": "Juvenile Delinquency 1967",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-8-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-8-1967.pdf",
  "source_sha256": "8f6188553dd52ba0874b598d90a6fff725ae17ae2aefab24fcffac48c47d6994",
  "table_no": "",
- "pdf_title": "TABLE",
- "row_label": "Sl. No. States/U.Ts./Cities - 1/9 1,",
+ "pdf_title": "46 TABLE JUVENILE",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 37,
+ "n_rows": 39,
  "n_cols": 5,
- "n_cells": 150,
+ "n_cells": 195,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Total 2 580",
-   "header": [
-    "Total 2 580"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Murder Cognizable crime 3 6",
+   "name": "Total Cognizable crime",
    "header": [
-    "Murder Cognizable crime 3 6"
+    "Total Cognizable crime"
    ]
   },
   {
    "col_no": "4",
-   "name": "Dacoity | Kidnapping & Abduction 4",
+   "name": "Murder",
    "header": [
-    "Dacoity",
-    "Kidnapping & Abduction 4"
+    "Murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "Dacoity | * 5",
+   "name": "Kidnapping & Abduction",
    "header": [
-    "Dacoity",
-    "* 5"
+    "Kidnapping & Abduction"
    ]
   },
   {
    "col_no": "6",
-   "name": "JUVENILE Robbery 7 6 1",
+   "name": "Dacoity",
    "header": [
-    "JUVENILE Robbery 7 6 1"
+    "Dacoity"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Robbery",
+   "header": [
+    "Robbery"
    ]
   }
  ],
@@ -66,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 18,
+  "other_totals_passed": 18
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

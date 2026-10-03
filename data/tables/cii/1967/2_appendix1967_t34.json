@@ -6,49 +6,63 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "XX PROPERTY STOLEN AND RECOVERED",
+ "title": "92 RIOTS",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix1967.pdf",
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "XX PROPERTY STOLEN AND RECOVERED",
- "row_label": "Sl. No, / Cities",
+ "pdf_title": "92 RIOTS",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
-  50
+  34
  ],
- "n_rows": 33,
- "n_cols": 4,
- "n_cells": 127,
+ "n_rows": 40,
+ "n_cols": 6,
+ "n_cells": 240,
  "columns": [
   {
    "col_no": "3",
-   "name": "cases inwhich. property stolen 7",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "cases inwhich. property stolen 7"
+    "Cases pending investigation from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "- cases property",
+   "name": "Cases pending disposal in courts",
    "header": [
-    "- cases property"
+    "Cases pending disposal in courts"
    ]
   },
   {
    "col_no": "5",
-   "name": "Value of stolen ‘recovered (inJacs)",
+   "name": "Cases reported during the year",
    "header": [
-    "Value of stolen ‘recovered (inJacs)"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Valu of Percentage of in-which. propertly- property recovered property recovered. (inJacs) to- value: oF property stolen",
+   "name": "Cases not investigated (+) Declared false (+) Mistake of fact or law (+) Non-cognizable",
    "header": [
-    "Valu of Percentage of in-which. propertly- property recovered property recovered. (inJacs) to- value: oF property stolen"
+    "Cases not investigated (+) Declared false (+) Mistake of fact or law (+) Non-cognizable"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases pending investigation at the end of the year",
+   "header": [
+    "Cases pending investigation at the end of the year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Cases pending trial at the end of the year",
+   "header": [
+    "Cases pending trial at the end of the year"
    ]
   }
  ],
@@ -57,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 9
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -8,54 +8,52 @@
  "serial": "16",
  "title": "Juvenile Apprehended (by Sex) Committing Crime under Local & Special Laws",
  "listing_title": "Juvenile Apprehended (by Sex) Committing Crime under Local & Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1980_0.pdf",
  "source_file": "raw/cii/1980/table_content/table-41-1980_0.pdf",
  "source_sha256": "1b37cefda4854ffa1bfbcb9900fcdf472d24a01e460197f84fbe4170d34591a4",
  "table_no": "41",
- "pdf_title": "",
- "row_label": "(227 Mame of the States, Te Os STATER Andhra 1, 2. / (227 4 / \"2 Shy Seg) « 6 7",
+ "pdf_title": "107 TABLE 41 Juvenile Apprehended (by Sex) Committing Crime under Local & Special Laws",
+ "row_label": "Sl. No. / Name of the States/U. Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 38,
+ "n_rows": 43,
  "n_cols": 3,
- "n_cells": 103,
+ "n_cells": 129,
  "columns": [
   {
-   "col_no": "4",
-   "name": "ets Logg} & | Boye «© 7",
+   "col_no": "3",
+   "name": "Boys",
    "header": [
-    "ets Logg} &",
-    "Boye «© 7"
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Girls",
+   "header": [
+    "Girls"
    ]
   },
   {
    "col_no": "5",
-   "name": "ets Logg} & | Girke 157 237",
+   "name": "Total",
    "header": [
-    "ets Logg} &",
-    "Girke 157 237"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Tatal 12 269 252 a3",
-   "header": [
-    "Tatal 12 269 252 a3"
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 9,
+  "cells_passed": 9,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

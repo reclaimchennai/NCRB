@@ -1,0 +1,125 @@
+{
+ "table_id": "cii/1997/8_table-80-1996-crime-survey",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "8",
+ "title": "Persons Arrested Under Custodial Death and Their Disposal ay Police and Courts During 1997",
+ "listing_title": "Persons Arrested Under Custodial Death and Their Disposal ay Police and Courts During 1997",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-80-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-80-1996-crime-survey.pdf",
+ "source_sha256": "01150c70a823ada31d5420fa90d455201ab07e29882ed3795d5e4a46efca36c1",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 36,
+ "n_cols": 12,
+ "n_cells": 420,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE BEGINNING OF THE YEAR",
+   "header": [
+    "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE BEGINNING OF THE YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERSONS ARRESTED DURING THE YEAR",
+   "header": [
+    "PERSONS ARRESTED DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERSONS RELEASED OR FREED BY POLICE OR MAGISTRATE BEFORE TRIAL FOR WANT OF EVIDENCE OR ANY OTHER REASON",
+   "header": [
+    "PERSONS RELEASED OR FREED BY POLICE OR MAGISTRATE BEFORE TRIAL FOR WANT OF EVIDENCE OR ANY OTHER REASON"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE END OF THE YEAR",
+   "header": [
+    "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE END OF THE YEAR"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERSONS IN WHICH CASES CHARGE SHEETS WERE LAID DURING THE YEAR",
+   "header": [
+    "PERSONS IN WHICH CASES CHARGE SHEETS WERE LAID DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PERSONS UNDER TRIAL AT THE BEGINNING OF THE YEAR",
+   "header": [
+    "PERSONS UNDER TRIAL AT THE BEGINNING OF THE YEAR"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "TOTAL NUMBER OF PERSONS UNDER TRIAL DURING THE YEAR",
+   "header": [
+    "TOTAL NUMBER OF PERSONS UNDER TRIAL DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PERSONS AGAINST WHOM CASES WERE COMPOUNDED OR WITHDRAWN",
+   "header": [
+    "PERSONS AGAINST WHOM CASES WERE COMPOUNDED OR WITHDRAWN"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF TRIAL AT THE END OF THE YEAR",
+   "header": [
+    "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF TRIAL AT THE END OF THE YEAR"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "PERSONS IN WHOSE CASES TRIALS WERE COMPLETED DURING THE YEAR",
+   "header": [
+    "PERSONS IN WHOSE CASES TRIALS WERE COMPLETED DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "PERSONS CONVICTED",
+   "header": [
+    "PERSONS CONVICTED"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "PERSONS ACQUITTED",
+   "header": [
+    "PERSONS ACQUITTED"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 33,
+  "cells_passed": 32,
+  "failures": [
+   "col 6 'TOTAL (STATES)': printed 89, sum 87"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

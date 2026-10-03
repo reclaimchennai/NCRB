@@ -1,0 +1,104 @@
+{
+ "table_id": "psi/2000/5_psi-full-report-2000_t9_2",
+ "publication": "psi",
+ "year": 2000,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "PSI Year Wise 2000",
+ "serial": "5",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-9",
+ "listing_title": "Download Full Report",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-2000.pdf",
+ "source_file": "raw/psi/2000/year_wise/psi-full-report-2000.pdf",
+ "source_sha256": "171376686bd1e431ac947c0d86c5141722a1e13fb54bb5c1347bbf9500133c70",
+ "table_no": "9",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-9",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  75
+ ],
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "CENTRAL JAIL",
+   "header": [
+    "CENTRAL JAIL"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DISTRICT JAIL",
+   "header": [
+    "DISTRICT JAIL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "SUB JAIL",
+   "header": [
+    "SUB JAIL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "WOMEN JAIL",
+   "header": [
+    "WOMEN JAIL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BORSTAL SCHOOL",
+   "header": [
+    "BORSTAL SCHOOL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OPEN JAIL",
+   "header": [
+    "OPEN JAIL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "SPECIAL JAIL",
+   "header": [
+    "SPECIAL JAIL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OTHERS",
+   "header": [
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 27,
+  "cells_passed": 25,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 48179, sum 48181",
+   "col 11 'TOTAL (STATES)': printed 183870, sum 184870"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

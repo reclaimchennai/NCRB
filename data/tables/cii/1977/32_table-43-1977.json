@@ -8,58 +8,54 @@
  "serial": "32",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local and Special Laws During the Year 1977",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local and Special Laws During the Year 1977",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-43-1977.pdf",
  "source_file": "raw/cii/1977/table_content/table-43-1977.pdf",
  "source_sha256": "6e70bfc292bf0f03dd95a9ca9a9a08e02570c9ed9d20c7a0bdb375d3d1fa5311",
  "table_no": "43",
- "pdf_title": "",
- "row_label": "JUVENILES Ave=======0 igi AGE GROUP) POR st o. 1 STATES",
+ "pdf_title": "101 TABLE 43 JUVENILES APPREHENDED (BY AGE GROUP) FOR COMMITTING CRIMES UNDER LOCAL AND SPECIAL LAWS DURING THE YEAR 1977",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 40,
+ "n_rows": 43,
  "n_cols": 5,
- "n_cells": 176,
+ "n_cells": 215,
  "columns": [
   {
-   "col_no": "2",
-   "name": "JUVENILES Ave=======0 igi AGE GROUP) POR | LAWS Sratmelt? Ts 2",
-   "header": [
-    "JUVENILES Ave=======0 igi AGE GROUP) POR",
-    "LAWS Sratmelt? Ts 2"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Caines TINDER | THE YEAR 1977 7--12 Years 4",
+   "name": "7--12 Years",
    "header": [
-    "Caines TINDER",
-    "THE YEAR 1977 7--12 Years 4"
+    "7--12 Years"
    ]
   },
   {
    "col_no": "4",
-   "name": "Caines TINDER | 12-16 Years 4",
+   "name": "12--16 Years",
    "header": [
-    "Caines TINDER",
-    "12-16 Years 4"
+    "12--16 Years"
    ]
   },
   {
    "col_no": "5",
-   "name": "Caines TINDER | 16—18 Years 5",
+   "name": "16--18 Years",
    "header": [
-    "Caines TINDER",
-    "16—18 Years 5"
+    "16--18 Years"
    ]
   },
   {
    "col_no": "6",
-   "name": "sal. Total 18-21 Years 7 6",
+   "name": "18--21 Years",
    "header": [
-    "sal. Total 18-21 Years 7 6"
+    "18--21 Years"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   }
  ],
@@ -68,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 0
+  "other_totals_checked": 20,
+  "other_totals_passed": 19
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -6,77 +6,69 @@
  "topic": "",
  "section": "Crime in India 1953",
  "serial": "3",
- "title": "OF",
+ "title": "DIX VII 17 for calendar year",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686379941APPENDIX-ALL-TOTALCONGNIZABLECRIME.pdf",
  "source_file": "raw/cii/1953/year_wise/1686379941APPENDIX-ALL-TOTALCONGNIZABLECRIME.pdf",
  "source_sha256": "013e8bc42920c426bf04d5e904a477084a08b3958ded581eb760385afebd25a6",
  "table_no": "",
- "pdf_title": "OF",
- "row_label": "Sl.No. / Number State from previous year",
+ "pdf_title": "DIX VII 17 for calendar year",
+ "row_label": "Discharged or Acquitted",
  "pages": [
-  11
+  9,
+  9
  ],
- "n_rows": 30,
+ "n_rows": 33,
  "n_cols": 5,
- "n_cells": 150,
+ "n_cells": 156,
  "columns": [
   {
    "col_no": "3",
-   "name": "Number | year",
+   "name": "Not detected or apprehended",
    "header": [
-    "Number",
-    "year"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "Number Number | tion was refused",
-   "header": [
-    "Number Number",
-    "tion was refused"
+    "Not detected or apprehended"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number Number | for investigation",
+   "name": "Incidence of crime reported per 1,000,000 population",
    "header": [
-    "Number Number",
-    "for investigation"
+    "Incidence of crime reported per 1,000,000 population"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Ordinary (2)",
+   "header": [
+    "Ordinary"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Ordinary (4)",
+   "header": [
+    "Ordinary"
    ]
   },
   {
    "col_no": "6",
-   "name": "Ksruxn ur | Number Number a declared to be false",
+   "name": "Ordinary (6)",
    "header": [
-    "Ksruxn ur",
-    "Number Number a declared to be false"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Ksruxn ur | of fact or law or declared",
-   "header": [
-    "Ksruxn ur",
-    "of fact or law or declared"
+    "Ordinary"
    ]
   }
  ],
- "notes": [
-  "*Figures are not for year.",
-  "There is serie i some of the have not yet been",
-  "‘These, however, will not affect the 5—-nteiee of 22 and —--25:=\" or"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -8,115 +8,105 @@
  "serial": "2",
  "title": "Incidence & Rate of Cognizable Crimes (IPC) Under Different Crime Heads and Percentage Changes During 1998",
  "listing_title": "Incidence & Rate of Cognizable Crimes (IPC) Under Different Crime Heads and Percentage Changes During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-2-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-2-1998.pdf",
  "source_sha256": "280079b2a9bb99a628273425e0a5f6fc02677b58c9afe74b8ffcd8b05e4e195a",
  "table_no": "2",
- "pdf_title": "(Caneludad)",
- "row_label": "‘i, / CHIME HEADS AND RATE OF CO@NI74R1£ CRIMES (IPC) UNDER AND PENCENTAGE CHANGES DURING 1998 CRIME HEAD",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE - 2",
+ "row_label": "YEARS",
  "pages": [
   1,
+  1,
+  2,
   2
  ],
- "n_rows": 81,
- "n_cols": 11,
- "n_cells": 405,
+ "n_rows": 49,
+ "n_cols": 13,
+ "n_cells": 440,
  "columns": [
   {
-   "col_no": "3",
-   "name": "CHIME HEADS | AND RATE OF CO@NI74R1£ CRIMES (IPC) UNDER AND PENCENTAGE CHANGES DURING 1998 | 1988",
-   "header": [
-    "CHIME HEADS",
-    "AND RATE OF CO@NI74R1£ CRIMES (IPC) UNDER AND PENCENTAGE CHANGES DURING 1998",
-    "1988"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "CHIME HEADS | AND RATE OF CO@NI74R1£ CRIMES (IPC) UNDER AND PENCENTAGE CHANGES DURING 1998 | 1993",
+   "name": "YEARS (4)",
    "header": [
-    "CHIME HEADS",
-    "AND RATE OF CO@NI74R1£ CRIMES (IPC) UNDER AND PENCENTAGE CHANGES DURING 1998",
-    "1993"
+    "YEARS"
    ]
   },
   {
    "col_no": "5",
-   "name": "CHIME HEADS | AND RATE OF CO@NI74R1£ CRIMES (IPC) UNDER AND PENCENTAGE CHANGES DURING 1998 | YEARS 1994",
+   "name": "YEARS (5)",
    "header": [
-    "CHIME HEADS",
-    "AND RATE OF CO@NI74R1£ CRIMES (IPC) UNDER AND PENCENTAGE CHANGES DURING 1998",
-    "YEARS 1994"
+    "YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "CHIME HEADS | 1995",
+   "name": "YEARS (6)",
    "header": [
-    "CHIME HEADS",
-    "1995"
+    "YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "CHIME HEADS | 1996",
+   "name": "YEARS (7)",
    "header": [
-    "CHIME HEADS",
-    "1996"
+    "YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "CHIME HEADS | 1997",
+   "name": "YEARS (8)",
    "header": [
-    "CHIME HEADS",
-    "1997"
+    "YEARS"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "10001",
+   "name": "PERCENTAGE CHANGE IN 1998[(+) INCREASE(-)DECREASE]OVER (10001)",
+   "header": [
+    "PERCENTAGE CHANGE IN 1998[(+) INCREASE(-)DECREASE]OVER"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "PERCENTAGE CHANGE IN 1998[(+) INCREASE(-)DECREASE]OVER (10002)",
+   "header": [
+    "PERCENTAGE CHANGE IN 1998[(+) INCREASE(-)DECREASE]OVER"
    ]
   },
   {
    "col_no": "9",
-   "name": "QUINQUENNIAL AVG. (1993-1997) (0.A.)",
-   "header": [
-    "QUINQUENNIAL AVG. (1993-1997) (0.A.)"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "1998",
-   "header": [
-    "1998"
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "1988",
-   "header": [
-    "1988"
-   ]
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "PERCENTAGE CHANGE IN 1998 [( +) INCREASE/(-)DECREASE} OVER 0.A.",
-   "header": [
-    "PERCENTAGE CHANGE IN 1998 [( +) INCREASE/(-)DECREASE} OVER 0.A."
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "1997",
-   "header": [
-    "1997"
-   ]
+   "name": "col_13",
+   "header": []
   }
  ],
- "notes": [
-  "Note: 1, Figures in rate of crime per lakh of population.",
-  "2. * indicates that the Crime Head was introduced till that year.",
-  "1. Figures in =-:-=:6 rate of crime per lakh of piipulation.",
-  "2. * ua: the Crime Head was introduced till that year."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -125,6 +115,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

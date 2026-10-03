@@ -8,90 +8,79 @@
  "serial": "94",
  "title": "Sanctioned and Actual Strength of Home Guards and Auxiliary Force During 1999",
  "listing_title": "Sanctioned and Actual Strength of Home Guards and Auxiliary Force During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-94-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-94-1999.pdf",
  "source_sha256": "02669edfdeb519500cf87087700ec36ca95f5eaaf047f18448128136f7e31118",
  "table_no": "94",
- "pdf_title": "",
- "row_label": "AND ACTUAL s1KENGIH OF HOME GUARDS AND SL.NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 94",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 60,
+ "n_rows": 59,
  "n_cols": 6,
- "n_cells": 348,
+ "n_cells": 354,
  "columns": [
   {
-   "col_no": "2",
-   "name": "AND ACTUAL s1KENGIH OF HOME GUARDS AND | NO. UF UFFICERS (DY. SP AND ABOVE)",
-   "header": [
-    "AND ACTUAL s1KENGIH OF HOME GUARDS AND",
-    "NO. UF UFFICERS (DY. SP AND ABOVE)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "AND ACTUAL s1KENGIH OF HOME GUARDS AND | NO. UF UFFICERS (DY. SP AND ABOVE) | ACTUAL",
+   "name": "NO. OF OFFICERS (DY. SP AND ABOVE) | SANCTIONED",
    "header": [
-    "AND ACTUAL s1KENGIH OF HOME GUARDS AND",
-    "NO. UF UFFICERS (DY. SP AND ABOVE)",
-    "ACTUAL"
+    "NO. OF OFFICERS (DY. SP AND ABOVE)",
+    "SANCTIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "AND ACTUAL s1KENGIH OF HOME GUARDS AND | FORCE DURING 1999 | NO. OF UPPER SURORDINATES (ASI TO 1UKS)",
+   "name": "NO. OF OFFICERS (DY. SP AND ABOVE) | ACTUAL",
    "header": [
-    "AND ACTUAL s1KENGIH OF HOME GUARDS AND",
-    "FORCE DURING 1999",
-    "NO. OF UPPER SURORDINATES (ASI TO 1UKS)"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "AND ACTUAL s1KENGIH OF HOME GUARDS AND | FORCE DURING 1999 | NO. OF UPPER SURORDINATES (ASI TO 1UKS) | ACTUAL",
-   "header": [
-    "AND ACTUAL s1KENGIH OF HOME GUARDS AND",
-    "FORCE DURING 1999",
-    "NO. OF UPPER SURORDINATES (ASI TO 1UKS)",
+    "NO. OF OFFICERS (DY. SP AND ABOVE)",
     "ACTUAL"
    ]
   },
   {
-   "col_no": "6",
-   "name": "FORCE DURING 1999 | NO. OF LOWER SUBORDIN ATES AND DUFFUKIING STAFF",
+   "col_no": "5",
+   "name": "NO. OF UPPER SUBORDINATES (ASI TO INSPECTORS) | SANCTIONED",
    "header": [
-    "FORCE DURING 1999",
-    "NO. OF LOWER SUBORDIN ATES AND DUFFUKIING STAFF"
+    "NO. OF UPPER SUBORDINATES (ASI TO INSPECTORS)",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF UPPER SUBORDINATES (ASI TO INSPECTORS) | ACTUAL",
+   "header": [
+    "NO. OF UPPER SUBORDINATES (ASI TO INSPECTORS)",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "FORCE DURING 1999 | NO. OF LOWER SUBORDIN ATES AND DUFFUKIING STAFF | ACTUAL",
+   "name": "NO. OF LOWER SUBORDINATES AND SUPPORTING STAFF | SANCTIONED",
    "header": [
-    "FORCE DURING 1999",
-    "NO. OF LOWER SUBORDIN ATES AND DUFFUKIING STAFF",
+    "NO. OF LOWER SUBORDINATES AND SUPPORTING STAFF",
+    "SANCTIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF LOWER SUBORDINATES AND SUPPORTING STAFF | ACTUAL",
+   "header": [
+    "NO. OF LOWER SUBORDINATES AND SUPPORTING STAFF",
     "ACTUAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 11,
-  "failures": [
-   "col 2 'TOTAL (CITIES)': printed 47, sum 43",
-   "col 4 'TOTAL (CITIES)': printed 656, sum 663",
-   "col 5 'TOTAL STATES': printed 4474, sum 4480",
-   "col 5 'TOTAL (UTs)': printed 11, sum 9",
-   "col 7 'TOTAL (UTs)': printed 9541, sum 8541"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

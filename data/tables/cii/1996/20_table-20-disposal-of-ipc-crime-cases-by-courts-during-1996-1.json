@@ -1,0 +1,108 @@
+{
+ "table_id": "cii/1996/20_table-20-disposal-of-ipc-crime-cases-by-courts-during-1996-1",
+ "publication": "cii",
+ "year": 1996,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "20",
+ "title": "Disposal of IPC Crime Cases by Courts During 1996 (State & UT-Wise)",
+ "listing_title": "Disposal of IPC Crime Cases by Courts During 1996 (State & UT-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20--disposal-of-ipc-crime-cases-by-courts-during-1996-1996.pdf",
+ "source_file": "raw/cii/1996/table_content/table-20--disposal-of-ipc-crime-cases-by-courts-during-1996-1996.pdf",
+ "source_sha256": "02b8e5b279f025a678beadfed386b2e5aa30879b99c5526cc1ee2424ae435a12",
+ "table_no": "20",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-20",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
+   "header": [
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF CASES | COMP OUN DED OR WITH-DRAWN",
+   "header": [
+    "NO. OF CASES",
+    "COMP OUN DED OR WITH-DRAWN"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED",
+   "header": [
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF CASES | ACQUIT- TED OR DIS- CHARGED",
+   "header": [
+    "NO. OF CASES",
+    "ACQUIT- TED OR DIS- CHARGED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF CASES | TOTAL ((5)-(6))",
+   "header": [
+    "NO. OF CASES",
+    "TOTAL ((5)-(6))"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PENDENCY PERCEN TAGE",
+   "header": [
+    "PENDENCY PERCEN TAGE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERCEN TAGE OF PENDENCY TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCEN TAGE OF PENDENCY TO ALL-INDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "CONVIC TION RATE ((5)/(7)) X 100",
+   "header": [
+    "CONVIC TION RATE ((5)/(7)) X 100"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PENDING TRIAL",
+   "header": [
+    "PENDING TRIAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 18,
+  "cells_passed": 16,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 309379, sum 308876",
+   "col 8 'TOTAL (STATES)': printed 4.1198e+06, sum 4.08981e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -8,51 +8,61 @@
  "serial": "67",
  "title": "Number of Cases and Value of Cultural Property (including Antiques) Stolen and Recovered During 1993 (State & UT-Wise)",
  "listing_title": "Number of Cases and Value of Cultural Property (including Antiques) Stolen and Recovered During 1993 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-67-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-67-1993-crime.pdf",
  "source_sha256": "72e02acbe6c93315e8805df9af82a04daa8bdb0c7fd5fd7fa2e5896419412b70",
  "table_no": "67",
- "pdf_title": "NUMBER OF CASES AND VALUE OF CULTURAL PROPERTY (INCLUDING ANTIQUES) STOLEN & RECOVERED DURING 1993",
- "row_label": "",
+ "pdf_title": "287 TABLE-67 NUMBER OF CASES AND VALUE OF CULTURAL PROPERTY (INCLUDING ANTIQUES)",
+ "row_label": "SL NO / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 32,
+ "n_rows": 35,
  "n_cols": 4,
- "n_cells": 109,
+ "n_cells": 140,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE)",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN | STOLEN",
    "header": [
-    "(STATE & UT-WISE)"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN | RECOVERED",
+   "header": [
+    "NUMBER OF CASES IN WHICH PROPERTY WAS STOLEN",
+    "RECOVERED"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "VALUE OF PROPERTY (Rs. In lakh) | STOLEN",
+   "header": [
+    "VALUE OF PROPERTY (Rs. In lakh)",
+    "STOLEN"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "VALUE OF PROPERTY (Rs. In lakh) | RECOVERED",
+   "header": [
+    "VALUE OF PROPERTY (Rs. In lakh)",
+    "RECOVERED"
+   ]
   }
  ],
- "notes": [
-  "NOTE: Value less than Rs. 0.05 lakh is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 6,
+  "cells_passed": 5,
+  "failures": [
+   "col 3 'TOTAL (ALL-INDIA)': printed 1206, sum 1208"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

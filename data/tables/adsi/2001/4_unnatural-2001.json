@@ -8,51 +8,52 @@
  "serial": "4",
  "title": "Maps",
  "listing_title": "Maps",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/unnatural-2001.pdf",
  "source_file": "raw/adsi/2001/year_wise/unnatural-2001.pdf",
  "source_sha256": "b9189dd10c35cc15426dc753102b771dccd97c08b2f230c0787872863be09de6",
  "table_no": "",
- "pdf_title": "",
- "row_label": "States /UTs / Cases",
+ "pdf_title": "12/17/2018 ncrb.gov.in/StatPublications/ADSI/ADSI2001/unnatural.htm Cases & Deaths of Accidents - 2001 (Un-Natural Causes)",
+ "row_label": "States/UTs",
  "pages": [
+  1,
   1
  ],
- "n_rows": 37,
- "n_cols": 2,
- "n_cells": 67,
+ "n_rows": 35,
+ "n_cols": 4,
+ "n_cells": 130,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Mabe",
+   "col_no": "2",
+   "name": "Cases",
    "header": [
-    "Mabe"
+    "Cases"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "3",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
    "name": "Female",
    "header": [
     "Female"
    ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Rate",
+   "header": [
+    "Rate"
+   ]
   }
  ],
- "notes": [
-  "a TAR - ae",
-  "Madhya Pradesh 37",
-  "Maharashtra 448 -",
-  "Manipur 73",
-  "Meghalaya a4 - ie \\ J MIZORAM",
-  "Mizoram 7 - af",
-  "pnt ine D&NHAVEL -",
-  "eee CHHATTISGARH",
-  "Punjab 18.8 pe",
-  "Rajasthan DAMAN & DIU",
-  "Sikkim 219",
-  "Tamil Nadu 31.9 GOA",
-  "Tripura 102 -"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -60,7 +61,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -8,80 +8,82 @@
  "serial": "20",
  "title": "Juveniles Dealt with During 1971",
  "listing_title": "Juveniles Dealt with During 1971",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20-1970.pdf",
  "source_file": "raw/cii/1970/table_content/table-20-1970.pdf",
  "source_sha256": "48fe919546a5eb4bc01f36574595c0d0147d3ba8de6c710c738a0cb8bbb5dff6",
  "table_no": "",
- "pdf_title": "TABLE—XX JUVENILES NEALT WITH DURING 1970",
- "row_label": "States/ Sl. No. / States/ UTs./Cities",
+ "pdf_title": "58 TABLE—XX JUVENILES DEALT WITH DURING 1970",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
  "n_rows": 39,
- "n_cols": 8,
- "n_cells": 309,
+ "n_cols": 9,
+ "n_cells": 351,
  "columns": [
   {
-   "col_no": "3",
-   "name": "States/ | niles sent to courts",
+   "col_no": "2",
+   "name": "States/UTs/Cities",
    "header": [
-    "States/",
-    "niles sent to courts"
+    "States/UTs/Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Juvenile sent to courts",
+   "header": [
+    "Juvenile sent to courts"
    ]
   },
   {
    "col_no": "4",
-   "name": "On | Restoredto Guardians",
+   "name": "Restored to Guardians",
    "header": [
-    "On",
-    "Restoredto Guardians"
+    "Restored to Guardians"
    ]
   },
   {
    "col_no": "5",
-   "name": "On | Probation",
+   "name": "On Probation",
    "header": [
-    "On",
-    "Probation"
+    "On Probation"
    ]
   },
   {
    "col_no": "6",
-   "name": "To reformato- Ties and Borstals",
+   "name": "To reformatories and Bors-tals",
    "header": [
-    "To reformato- Ties and Borstals"
+    "To reformatories and Bors-tals"
    ]
   },
   {
    "col_no": "7",
-   "name": "To Schools anc institutions",
+   "name": "To Schools and institutions",
    "header": [
-    "To Schools anc institutions"
+    "To Schools and institutions"
    ]
   },
   {
    "col_no": "8",
-   "name": "Otherwise disposed | To adult institutions/ Jails",
+   "name": "To adult institutions/Jails",
    "header": [
-    "Otherwise disposed",
-    "To adult institutions/ Jails"
+    "To adult institutions/Jails"
    ]
   },
   {
    "col_no": "9",
-   "name": "Otherwise disposed | of",
+   "name": "Otherwise disposed of",
    "header": [
-    "Otherwise disposed",
-    "of"
+    "Otherwise disposed of"
    ]
   },
   {
    "col_no": "10",
-   "name": "Pend« ing Disposal",
+   "name": "Pending Disposal",
    "header": [
-    "Pend« ing Disposal"
+    "Pending Disposal"
    ]
   }
  ],
@@ -90,8 +92,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 18,
-  "other_totals_passed": 16
+  "other_totals_checked": 32,
+  "other_totals_passed": 29
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

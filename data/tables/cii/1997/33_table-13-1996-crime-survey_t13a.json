@@ -6,23 +6,23 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "33",
- "title": "AND RATE OF VIOLENT CRIMES DURING 1996",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-13A",
  "listing_title": "Incidence and Rate of Violent Crimes During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-13-1996-crime-survey.pdf",
  "source_sha256": "0f960ec8701075bc8331a6be0258daabb11675bd86e978124d23bf78b92b9ab8",
  "table_no": "13A",
- "pdf_title": "AND RATE OF VIOLENT CRIMES DURING 1996",
- "row_label": "SL. STATE/UT NO. a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-13A",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   3,
   4
  ],
- "n_rows": 43,
+ "n_rows": 35,
  "n_cols": 15,
- "n_cells": 511,
+ "n_cells": 525,
  "columns": [
   {
    "col_no": "3",
@@ -33,9 +33,9 @@
   },
   {
    "col_no": "4",
-   "name": "- ATTEMPT TO COMMIT MURDER",
+   "name": "ATTEMPT TO COMMIT MURDER",
    "header": [
-    "- ATTEMPT TO COMMIT MURDER"
+    "ATTEMPT TO COMMIT MURDER"
    ]
   },
   {
@@ -68,9 +68,9 @@
   },
   {
    "col_no": "9",
-   "name": "PREPARATION AND ASSEMBLY FOR DACOITY",
+   "name": "PREPARA-TION AND ASSEMBLY FOR DACOITY",
    "header": [
-    "PREPARATION AND ASSEMBLY FOR DACOITY"
+    "PREPARA-TION AND ASSEMBLY FOR DACOITY"
    ]
   },
   {
@@ -96,58 +96,45 @@
   },
   {
    "col_no": "13",
-   "name": "PERCENT | DOWRY DEATHS",
+   "name": "DOWRY DEATHS",
    "header": [
-    "PERCENT",
     "DOWRY DEATHS"
    ]
   },
   {
    "col_no": "14",
-   "name": "PERCENT | TOTAL VIOLENT CRIMES",
+   "name": "TOTAL VIOLENT CRIMES",
    "header": [
-    "PERCENT",
     "TOTAL VIOLENT CRIMES"
    ]
   },
   {
    "col_no": "15",
-   "name": "PERCENT | AGE SHARE TO ALL INDIA CRIMES",
+   "name": "PERCENT AGE SHARE TO ALL INDIA CRIMES",
    "header": [
-    "PERCENT",
-    "AGE SHARE TO ALL INDIA CRIMES"
+    "PERCENT AGE SHARE TO ALL INDIA CRIMES"
    ]
   },
   {
    "col_no": "16",
-   "name": "PERCENT | CRIME RATE OF VIOLENT",
+   "name": "CRIME RATE OF VIOLENT",
    "header": [
-    "PERCENT",
     "CRIME RATE OF VIOLENT"
    ]
   },
   {
    "col_no": "17",
-   "name": "PERCENT | PERCENT AGE TO TOTAL coG. CRIMES UNDER Ipc",
+   "name": "PERCENT AGE TO TOTAL COG. CRIMES UNDER IPC",
    "header": [
-    "PERCENT",
-    "PERCENT AGE TO TOTAL coG. CRIMES UNDER Ipc"
+    "PERCENT AGE TO TOTAL COG. CRIMES UNDER IPC"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 9,
-  "failures": [
-   "col 3 'TOTAL (UTs)': printed 588, sum 577",
-   "col 4 'TOTAL (STATES)': printed 29033, sum 29022",
-   "col 7 'TOTAL (STATES)': printed 19549, sum 19548",
-   "col 10 'TOTAL (STATES)': printed 22084, sum 18080",
-   "col 10 'TOTAL (UTs)': printed 621, sum 12",
-   "col 11 'TOTAL (STATES)': printed 92387, sum 73063",
-   "col 12 'TOTAL (STATES)': printed 12308, sum 11263"
-  ],
+  "cells_checked": 36,
+  "cells_passed": 36,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

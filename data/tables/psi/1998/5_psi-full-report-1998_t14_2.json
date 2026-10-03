@@ -6,134 +6,183 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "DISTRIBUTION OF UNDERTRAILS IN JAILS BY AGE GROUPS AT THE END OF1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-14",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
  "table_no": "14",
- "pdf_title": "DISTRIBUTION OF UNDERTRAILS IN JAILS BY AGE GROUPS AT THE END OF1998",
- "row_label": "No. My / MOF / BELOW 16 YEARS / 16-18 T",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-14",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   84,
   85
  ],
- "n_rows": 63,
- "n_cols": 14,
- "n_cells": 383,
+ "n_rows": 36,
+ "n_cols": 18,
+ "n_cells": 630,
  "columns": [
   {
-   "col_no": "6",
-   "name": "16-18 | M",
+   "col_no": "3",
+   "name": "BELOW 16 YEARS | M",
    "header": [
-    "16-18",
+    "BELOW 16 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BELOW 16 YEARS | F",
+   "header": [
+    "BELOW 16 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BELOW 16 YEARS | T",
+   "header": [
+    "BELOW 16 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "16 - 18 YEARS | M",
+   "header": [
+    "16 - 18 YEARS",
     "M"
    ]
   },
   {
    "col_no": "7",
-   "name": "16-18 | F",
+   "name": "16 - 18 YEARS | F",
    "header": [
-    "16-18",
+    "16 - 18 YEARS",
     "F"
    ]
   },
   {
    "col_no": "8",
-   "name": "16-18 | T",
+   "name": "16 - 18 YEARS | T",
    "header": [
-    "16-18",
+    "16 - 18 YEARS",
     "T"
    ]
   },
   {
    "col_no": "9",
-   "name": "M (9)",
+   "name": "18 - 30 YEARS | M",
    "header": [
+    "18 - 30 YEARS",
     "M"
    ]
   },
   {
    "col_no": "10",
-   "name": "18 - 30 YEARS OF T a1)",
+   "name": "18 - 30 YEARS | F",
    "header": [
-    "18 - 30 YEARS OF T a1)"
+    "18 - 30 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "18 - 30 YEARS | T",
+   "header": [
+    "18 - 30 YEARS",
+    "T"
    ]
   },
   {
    "col_no": "12",
-   "name": "M (12)",
+   "name": "30 - 50 YEARS | M",
    "header": [
+    "30 - 50 YEARS",
     "M"
    ]
   },
   {
    "col_no": "13",
-   "name": "30 - 50 YEARS F",
+   "name": "30 - 50 YEARS | F",
    "header": [
-    "30 - 50 YEARS F"
+    "30 - 50 YEARS",
+    "F"
    ]
   },
   {
    "col_no": "14",
-   "name": "T (14)",
+   "name": "30 - 50 YEARS | T",
    "header": [
+    "30 - 50 YEARS",
     "T"
    ]
   },
   {
    "col_no": "15",
-   "name": "M (15)",
+   "name": "ABOVE 50 YEARS | M",
    "header": [
+    "ABOVE 50 YEARS",
     "M"
    ]
   },
   {
    "col_no": "16",
-   "name": "ABOVE 50 YEARS F",
+   "name": "ABOVE 50 YEARS | F",
    "header": [
-    "ABOVE 50 YEARS F"
+    "ABOVE 50 YEARS",
+    "F"
    ]
   },
   {
    "col_no": "17",
-   "name": "T (17)",
+   "name": "ABOVE 50 YEARS | T",
    "header": [
+    "ABOVE 50 YEARS",
     "T"
    ]
   },
   {
    "col_no": "18",
-   "name": "(ALL. AGE TOTAL GROUPS) F | ag)",
+   "name": "TOTAL (ALL AGE GROUPS) | M",
    "header": [
-    "(ALL. AGE TOTAL GROUPS) F",
-    "ag)"
+    "TOTAL (ALL AGE GROUPS)",
+    "M"
    ]
   },
   {
    "col_no": "19",
-   "name": "(ALL. AGE TOTAL GROUPS) F",
+   "name": "TOTAL (ALL AGE GROUPS) | F",
    "header": [
-    "(ALL. AGE TOTAL GROUPS) F"
+    "TOTAL (ALL AGE GROUPS)",
+    "F"
    ]
   },
   {
    "col_no": "20",
-   "name": "T (20)",
+   "name": "TOTAL (ALL AGE GROUPS) | T",
    "header": [
+    "TOTAL (ALL AGE GROUPS)",
     "T"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 54,
+  "cells_passed": 46,
+  "failures": [
+   "col 12 'TOTAL (STATES)': printed 44902, sum 44838",
+   "col 13 'TOTAL (STATES)': printed 1882, sum 1880",
+   "col 14 'TOTAL (STATES)': printed 46784, sum 46718",
+   "col 15 'TOTAL (STATES)': printed 9379, sum 9369",
+   "col 17 'TOTAL (STATES)': printed 9770, sum 9760",
+   "col 18 'TOTAL (STATES)': printed 108785, sum 108501",
+   "col 19 'TOTAL (STATES)': printed 4374, sum 4369",
+   "col 20 'TOTAL (STATES)': printed 113159, sum 99781"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

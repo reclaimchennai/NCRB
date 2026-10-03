@@ -8,14 +8,14 @@
  "serial": "63",
  "title": "Percentage of SLL Crime Cases Disposed of by Police During 1994",
  "listing_title": "Percentage of SLL Crime Cases Disposed of by Police During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table18-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table18-1994_2.pdf",
  "source_sha256": "5007044895c409d6833adba2e2dc955bec0b4ca730d27dfe12ae95c3de309a74",
  "table_no": "18",
- "pdf_title": "‘PEHCENTAGE OF SLL CRIME CASES DISPOSED OF BY POLICE DURING 19994",
- "row_label": "CRIME HEAD SL. NO.",
+ "pdf_title": "N.C.R.B., (M.n.A.) CRIME IN INDIA - 1994 TABLE-18",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,19 +25,19 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION wae REFUSED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
     "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
-    "INVESTIGATION wae REFUSED"
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "4",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ MISTAKE OF FACT OR OF LAW ETC.",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC.",
    "header": [
     "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
     "INVESTIGATION WAS COMPLETED",
-    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR OF LAW ETC."
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC."
    ]
   },
   {
@@ -60,24 +60,25 @@
   },
   {
    "col_no": "7",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | TOTAL {(4) +(5) +(6)}",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL ((4) + (5) + (6))",
    "header": [
     "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
-    "TOTAL {(4) +(5) +(6)}"
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL ((4) + (5) + (6))"
    ]
   },
   {
    "col_no": "8",
-   "name": "TAGE OF CASES PENDING INVES TIGATION",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION",
    "header": [
-    "TAGE OF CASES PENDING INVES TIGATION"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION"
    ]
   },
   {
    "col_no": "9",
-   "name": "- CHARGE SHEETING RATE",
+   "name": "CHARGE SHEETING RATE",
    "header": [
-    "- CHARGE SHEETING RATE"
+    "CHARGE SHEETING RATE"
    ]
   }
  ],

@@ -8,44 +8,61 @@
  "serial": "1",
  "title": "Survey of Crime",
  "listing_title": "Survey of Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-survey-of-crime-1977.pdf",
  "source_file": "raw/cii/1977/table_chapter/chapter-1-survey-of-crime-1977.pdf",
  "source_sha256": "f3bf4d8a4a7e57097feaa556743b2c4c106a58c27c3a4f08b9ca7286ed176948",
- "table_no": "",
- "pdf_title": "",
- "row_label": "PERCENTAGE & PEACENT 3G Led 100: 90° 80: 60\" 50: 40: a / GROWTH PERCENTAGE POPULATION AN ‘ i j",
+ "table_no": "3",
+ "pdf_title": "§ TABLE 3 PERCENTAGE DISTRIBUTION OF CRIME UNDER IMPORTANT LP.C. C RIME HEADS DURING 1973-1977",
+ "row_label": "S. No.",
  "pages": [
-  11
+  4
  ],
- "n_rows": 3,
- "n_cols": 3,
- "n_cells": 6,
+ "n_rows": 2,
+ "n_cols": 6,
+ "n_cells": 11,
  "columns": [
   {
-   "col_no": "3",
-   "name": "GROWTH | PERCENTAGE | POPULATION | ! ‘em",
+   "col_no": "2",
+   "name": "Heads of Crime",
    "header": [
-    "GROWTH",
-    "PERCENTAGE",
-    "POPULATION",
-    "! ‘em"
+    "Heads of Crime"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Year (3)",
+   "header": [
+    "Year"
    ]
   },
   {
    "col_no": "4",
-   "name": "GROWTH | OVER i es \\ ‘. H ‘ a \\ Y",
+   "name": "Year (4)",
    "header": [
-    "GROWTH",
-    "OVER i es \\ ‘. H ‘ a \\ Y"
+    "Year"
    ]
   },
   {
    "col_no": "5",
-   "name": "DACOITY OF 1967 /UPICO'O i POPULATION",
+   "name": "Year (5)",
    "header": [
-    "DACOITY OF 1967 /UPICO'O i POPULATION"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Year (6)",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Year (7)",
+   "header": [
+    "Year"
    ]
   }
  ],
@@ -57,7 +74,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,59 +8,91 @@
  "serial": "24",
  "title": "Number of Persons Arrested During the Year 1972 for Committing Crimes under Local & Special Laws in the States / Union Territories / Cities",
  "listing_title": "Number of Persons Arrested During the Year 1972 for Committing Crimes under Local & Special Laws in the States / Union Territories / Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1972.pdf",
  "source_file": "raw/cii/1972/table_content/table-24-1972.pdf",
  "source_sha256": "d4c2d6a88b3d6158db33025aaf33098201bebc55e5c2da4b111dd526e65da4a6",
  "table_no": "24",
- "pdf_title": "Number of Persons Arresied During the Year [972 for Comumiting Crimes Gnder Local d& Special Laws in. the States/Union Territories/Cities",
- "row_label": "SI. No, 2 States 1, 4, 5. Haryana 6 7, Terme - / CRIME HEADS 3 i Antics rade 8 / CRIME HEADS Gambling (Cities i to 4 32,018 2 1,039 1,531 - - 12",
+ "pdf_title": "77 TABLE 24 Number of Persons Arrested During the Year 1972 for Committing Crimes Under Local & Special Laws in the States/Union Territories/Cities",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 30,
- "n_cols": 5,
- "n_cells": 117,
+ "n_rows": 40,
+ "n_cols": 9,
+ "n_cells": 360,
  "columns": [
   {
-   "col_no": "4",
-   "name": "CRIME HEADS | Excise Arne ae 3 Lith 88 442 #99 12 + 321 1,082 59 a",
+   "col_no": "3",
+   "name": "CRIME HEADS | Arms Act",
    "header": [
     "CRIME HEADS",
-    "Excise Arne ae 3 Lith 88 442 #99 12 + 321 1,082 59 a"
+    "Arms Act"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CRIME HEADS | Opium Act",
+   "header": [
+    "CRIME HEADS",
+    "Opium Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "CRIME HEADS | ke jum 4 é 2 3 3 +> 1g 4472 16 32 280 14,523",
+   "name": "CRIME HEADS | Gambling Act",
    "header": [
     "CRIME HEADS",
-    "ke jum 4 é 2 3 3 +> 1g 4472 16 32 280 14,523"
+    "Gambling Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIME HEADS | ‘SIT OO ae ak 7 G85 1 Lage 26 00COE 5 130 7 9,624 a 1,670 15,42, 2 858 4.980 347,051",
+   "name": "CRIME HEADS | Excise Act",
    "header": [
     "CRIME HEADS",
-    "‘SIT OO ae ak 7 G85 1 Lage 26 00COE 5 130 7 9,624 a 1,670 15,42, 2 858 4.980 347,051"
+    "Excise Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "CRIME HEADS | LV. oe Act 8 10 6° 49 2 % 175 116 43 1,348' li 1920 to 6 He 50",
+   "name": "CRIME HEADS | Explosive Act",
    "header": [
     "CRIME HEADS",
-    "LV. oe Act 8 10 6° 49 2 % 175 116 43 1,348' li 1920 to 6 He 50"
+    "Explosive Act"
    ]
   },
   {
    "col_no": "8",
-   "name": "CRIME HEADS | ee il a. ui 196,855 © «3 7,987 152,597 21,450 L001 L,7Oz a 1,784 323,850",
+   "name": "CRIME HEADS | 'SIT Act",
    "header": [
     "CRIME HEADS",
-    "ee il a. ui 196,855 © «3 7,987 152,597 21,450 L001 L,7Oz a 1,784 323,850"
+    "'SIT Act"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "CRIME HEADS | M.V. Act",
+   "header": [
+    "CRIME HEADS",
+    "M.V. Act"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "CRIME HEADS | Indian Railways Act",
+   "header": [
+    "CRIME HEADS",
+    "Indian Railways Act"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "CRIME HEADS | Grand Total",
+   "header": [
+    "CRIME HEADS",
+    "Grand Total"
    ]
   }
  ],
@@ -69,10 +101,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 34,
+  "other_totals_passed": 33
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

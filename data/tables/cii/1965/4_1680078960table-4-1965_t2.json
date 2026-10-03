@@ -6,70 +6,67 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "4",
- "title": "No. IV",
+ "title": "25 TABLE No. IV DELINQUENCY",
  "listing_title": "Juvenile Delinquency",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680078960TABLE-4-1965.pdf",
  "source_file": "raw/cii/1965/table_content/1680078960TABLE-4-1965.pdf",
  "source_sha256": "e2889fd3550ffab8660820458f60b843d761c1afa5cf392ef21deb95d3045690",
  "table_no": "",
- "pdf_title": "No. IV",
- "row_label": "DELINQUENCY 1962",
+ "pdf_title": "25 TABLE No. IV DELINQUENCY",
+ "row_label": "1962",
  "pages": [
   2
  ],
- "n_rows": 13,
+ "n_rows": 15,
  "n_cols": 6,
- "n_cells": 78,
+ "n_cells": 86,
  "columns": [
   {
-   "col_no": "6",
-   "name": "DELINQUENCY | 1963",
+   "col_no": "2",
+   "name": "1963",
    "header": [
-    "DELINQUENCY",
     "1963"
    ]
   },
   {
+   "col_no": "3",
+   "name": "1964",
+   "header": [
+    "1964"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Quinquennial Average",
+   "header": [
+    "Quinquennial Average"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of cases reported in 1965",
+   "header": [
+    "Number of cases reported in 1965"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage change over (6)",
+   "header": [
+    "Percentage change over"
+   ]
+  },
+  {
    "col_no": "7",
-   "name": "ms, (7)",
+   "name": "Percentage change over (7)",
    "header": [
-    "ms,"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "ms, (8)",
-   "header": [
-    "ms,"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Wumver Of",
-   "header": [
-    "Wumver Of"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "9 Q.A.",
-   "header": [
-    "9 Q.A."
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "change over 1964",
-   "header": [
-    "change over 1964"
+    "Percentage change over"
    ]
   }
  ],
- "notes": [
-  "9p does not include other than those covered by the Indian Penal"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

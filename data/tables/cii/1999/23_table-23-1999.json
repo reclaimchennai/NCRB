@@ -8,77 +8,73 @@
  "serial": "23",
  "title": "Disposal of SLL Crime Cases by Courts During 1999",
  "listing_title": "Disposal of SLL Crime Cases by Courts During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-23-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-23-1999.pdf",
  "source_sha256": "69be4aeacf376d1757e50ab5f636bc35c701b16fcd99b604e643ff2d55ff1f54",
  "table_no": "23",
- "pdf_title": "DISPOSAL OF SLL CRIME CASES BY COURTS DURING 1999",
- "row_label": "CRIME HEAD SL. NO. 2)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 23",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 25,
+ "n_rows": 23,
  "n_cols": 7,
- "n_cells": 146,
+ "n_cells": 161,
  "columns": [
   {
-   "col_no": "2",
-   "name": "TOTAL NO. OF CASESFOR TRIAL INCLUDING PENDING CASES (3)",
-   "header": [
-    "TOTAL NO. OF CASESFOR TRIAL INCLUDING PENDING CASES (3)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "CASES WITHDRAWN BY GOVT. (4)",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "CASES WITHDRAWN BY GOVT. (4)"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF CASES | COMPOUNDEDOR Oo",
+   "name": "CASES WITH-DRAWN BY GOVT.",
    "header": [
-    "OF CASES",
-    "COMPOUNDEDOR Oo"
+    "CASES WITH-DRAWN BY GOVT."
    ]
   },
   {
    "col_no": "5",
-   "name": "OF CASES | IN WHICH TIUALS WERE COMPLETED PENDING | -",
+   "name": "NO. OF CASES | COMPOUNDED OR WITHDRAWN",
    "header": [
-    "OF CASES",
-    "IN WHICH TIUALS WERE COMPLETED PENDING",
-    "-"
+    "NO. OF CASES",
+    "COMPOUNDED OR WITHDRAWN"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF CASES | IN WHICH TIUALS WERE COMPLETED PENDING | pa",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE CONVICTED",
    "header": [
-    "OF CASES",
-    "IN WHICH TIUALS WERE COMPLETED PENDING",
-    "pa"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE CONVICTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF CASES | IN WHICH TIUALS WERE COMPLETED PENDING | TOTAL (+O) ®",
+   "name": "NO. OF CASES | ACQUITTED OR DISCHARGED",
    "header": [
-    "OF CASES",
-    "IN WHICH TIUALS WERE COMPLETED PENDING",
-    "TOTAL (+O) ®"
+    "NO. OF CASES",
+    "ACQUITTED OR DISCHARGED"
    ]
   },
   {
    "col_no": "8",
-   "name": "OF CASES | IN WHICH TIUALS WERE COMPLETED PENDING | TRIAL 0% -",
+   "name": "NO. OF CASES | TOTAL {(6) + (7)}",
    "header": [
-    "OF CASES",
-    "IN WHICH TIUALS WERE COMPLETED PENDING",
-    "TRIAL 0% -"
+    "NO. OF CASES",
+    "TOTAL {(6) + (7)}"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF CASES | PENDING TRIAL",
+   "header": [
+    "NO. OF CASES",
+    "PENDING TRIAL"
    ]
   }
  ],
@@ -87,10 +83,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

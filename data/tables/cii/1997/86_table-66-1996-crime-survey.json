@@ -8,14 +8,14 @@
  "serial": "86",
  "title": "Persons Arrested Under Different SLL Crimes During 1997 and Percentage Variation in 1997 over 1996 (Crime-Head Wise)",
  "listing_title": "Persons Arrested Under Different SLL Crimes During 1997 and Percentage Variation in 1997 over 1996 (Crime-Head Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-66-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-66-1996-crime-survey.pdf",
  "source_sha256": "1fbcb870b11bd7c343d7545124a77f5f32db6e9716457f0a1f104a50c81da2e1",
  "table_no": "66",
- "pdf_title": "PERSONS ARKES1tD UNDER DIFFERENT SLL CRIMES DURING 1997 AND PERCENTAGE VARIATION IN 1997 OVER 1996",
- "row_label": "(CRIME-HEAD WISE) St. NO. / (CRIME-HEAD WISE) CRIME HEAD",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-66",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,40 +25,34 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(CRIME-HEAD WISE) | 1996",
+   "name": "1996",
    "header": [
-    "(CRIME-HEAD WISE)",
     "1996"
    ]
   },
   {
    "col_no": "4",
-   "name": "(CRIME-HEAD WISE) | 1997",
+   "name": "1997",
    "header": [
-    "(CRIME-HEAD WISE)",
     "1997"
    ]
   },
   {
    "col_no": "5",
-   "name": "(CRIME-HEAD WISE) | PERCENTAGE VARIATION IN 1997 OVER",
+   "name": "PERCENTAGE VARIATION IN 1997 OVER 1996",
    "header": [
-    "(CRIME-HEAD WISE)",
-    "PERCENTAGE VARIATION IN 1997 OVER"
+    "PERCENTAGE VARIATION IN 1997 OVER 1996"
    ]
   },
   {
    "col_no": "6",
-   "name": "(CRIME-HEAD WISE) | PERCENTAGE SHARE OF CRIME DURING 1997",
+   "name": "PERCENTAGE SHARE OF CRIME DURING 1997",
    "header": [
-    "(CRIME-HEAD WISE)",
     "PERCENTAGE SHARE OF CRIME DURING 1997"
    ]
   }
  ],
- "notes": [
-  "Note: Percer tage share less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -6,86 +6,46 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1998",
  "serial": "6",
- "title": "Accidental Deaths in India",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A) ## PART-I",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1998.pdf",
  "source_file": "raw/adsi/1998/year_wise/accidental-deaths-1998.pdf",
  "source_sha256": "1bc70ad1cb5ef355bdb1c9c3b7dd1d266fc8ba2ade5fa50992013cd4b6921337",
  "table_no": "1.1",
- "pdf_title": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A) ## PART-I",
  "row_label": "Year",
  "pages": [
-  2,
-  3
+  2
  ],
- "n_rows": 20,
- "n_cols": 7,
- "n_cells": 90,
+ "n_rows": 8,
+ "n_cols": 3,
+ "n_cells": 24,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "Population",
+   "header": [
+    "Population"
+   ]
   },
   {
    "col_no": "3",
-   "name": "change in Ponnilation",
+   "name": "Incidence",
    "header": [
-    "change in Ponnilation"
+    "Incidence"
    ]
   },
   {
    "col_no": "4",
-   "name": "of Accidental Deaths during 1991 to 1998",
-   "header": [
-    "of Accidental Deaths during 1991 to 1998"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "incidence and rate",
-   "header": [
-    "incidence and rate"
-   ]
-  },
-  {
-   "col_no": "6",
    "name": "Rate",
    "header": [
     "Rate"
    ]
-  },
-  {
-   "col_no": "7",
-   "name": "Out of 2,58,409 accidental deaths, 2,35,647 (91.2%) deaths were caused by un-natural causes. Only | there natural 1997, Incidence of Acciaentat Deaths by Natural & Un-Natural Causes (1991 to 1998) Incidence",
-   "header": [
-    "Out of 2,58,409 accidental deaths, 2,35,647 (91.2%) deaths were caused by un-natural causes. Only",
-    "there natural 1997, Incidence of Acciaentat Deaths by Natural & Un-Natural Causes (1991 to 1998) Incidence"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Out of 2,58,409 accidental deaths, 2,35,647 (91.2%) deaths were caused by un-natural causes. Only | significant was causes. increase(20.4%) in deaths due to natural causes as against an increase of 9.6 percent in these deaths due to un- Total Accidental Deaths % change over previous",
-   "header": [
-    "Out of 2,58,409 accidental deaths, 2,35,647 (91.2%) deaths were caused by un-natural causes. Only",
-    "significant was causes. increase(20.4%) in deaths due to natural causes as against an increase of 9.6 percent in these deaths due to un- Total Accidental Deaths % change over previous"
-   ]
   }
  ],
- "notes": [
-  "Ly",
-  "a gos os 8 «SE",
-  ",",
-  "¢ Pg FU ji",
-  "YEAR",
-  "POLULATION SINCIDENCE “RATE",
-  "EE",
-  "rf",
-  "ms oe eee",
-  "B2) 2. 5 ey (eB"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -93,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

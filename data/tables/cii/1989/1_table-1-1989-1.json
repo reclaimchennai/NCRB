@@ -8,44 +8,77 @@
  "serial": "1",
  "title": "Incidence & Volume of Total Cognizable Crimes under Indian Penal Code (IPC) and Local & Special Laws (LSL) 1979-89",
  "listing_title": "Incidence & Volume of Total Cognizable Crimes under Indian Penal Code (IPC) and Local & Special Laws (LSL) 1979-89",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-1-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-1-1989-1.pdf",
  "source_sha256": "e9273d9f3c7b9b564321fe8d9828bfa2c7c2503143e3dfd92d9bd43d743d7cc8",
  "table_no": "1",
- "pdf_title": "& VOLUME OF TOTAL “OCNT7ARI-F CRIMES UNDEF. INDIAN PENAL AND LOCAL & SPECIAL LAWS (LSL) 1979-89",
- "row_label": "YEAR SL NO",
+ "pdf_title": "9 TABLE-1 INCIDENCE & VOLUME OF TOTAL COGNIZABLE CRIMES UNDER: INDIAN PENAL CODE(IPC) AND LOCAL & SPECIAL LAWS (LSL) 1979-89",
+ "row_label": "SL NO",
  "pages": [
   1
  ],
- "n_rows": 14,
- "n_cols": 8,
- "n_cells": 105,
+ "n_rows": 13,
+ "n_cols": 9,
+ "n_cells": 117,
  "columns": [
   {
-   "col_no": "3",
-   "name": "MID-YEAR POPULATION® (IN LAKHS) **",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "MID-YEAR POPULATION® (IN LAKHS) **"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION* (IN LAKHS)**",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION* (IN LAKHS)**"
    ]
   },
   {
    "col_no": "4",
-   "name": "- <9 Ipc",
+   "name": "INCIDENCE | IPC",
    "header": [
-    "- <9 Ipc"
+    "INCIDENCE",
+    "IPC"
    ]
   },
   {
    "col_no": "5",
-   "name": "rrr LSL",
+   "name": "INCIDENCE | LSL",
    "header": [
-    "rrr LSL"
+    "INCIDENCE",
+    "LSL"
    ]
   },
   {
    "col_no": "6",
+   "name": "INCIDENCE | TOTAL",
+   "header": [
+    "INCIDENCE",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "VOLUME | IPC",
+   "header": [
+    "VOLUME",
+    "IPC"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "VOLUME | LSL",
+   "header": [
+    "VOLUME",
+    "LSL"
+   ]
+  },
+  {
+   "col_no": "9",
    "name": "VOLUME | TOTAL",
    "header": [
     "VOLUME",
@@ -53,41 +86,14 @@
    ]
   },
   {
-   "col_no": "7",
-   "name": "VOLUME | rere",
-   "header": [
-    "VOLUME",
-    "rere"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "VOLUME | L8SL",
-   "header": [
-    "VOLUME",
-    "L8SL"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "VOLUME | OF",
-   "header": [
-    "VOLUME",
-    "OF"
-   ]
-  },
-  {
    "col_no": "10",
-   "name": "VOLUME | IPC TO TOTAL CRIMES TOTAL COGNT7 CRIMES",
+   "name": "PERCENTAGE OF IPC CRIMES TO TOTAL COGNIZABLE CRIMES",
    "header": [
-    "VOLUME",
-    "IPC TO TOTAL CRIMES TOTAL COGNT7 CRIMES"
+    "PERCENTAGE OF IPC CRIMES TO TOTAL COGNIZABLE CRIMES"
    ]
   }
  ],
- "notes": [
-  "3—108 NCRB/91"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -6,75 +6,76 @@
  "topic": "",
  "section": "Crime in India 1953",
  "serial": "3",
- "title": "IO",
+ "title": "IO APPENDIX II MURDER",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686379941APPENDIX-ALL-TOTALCONGNIZABLECRIME.pdf",
  "source_file": "raw/cii/1953/year_wise/1686379941APPENDIX-ALL-TOTALCONGNIZABLECRIME.pdf",
  "source_sha256": "013e8bc42920c426bf04d5e904a477084a08b3958ded581eb760385afebd25a6",
  "table_no": "",
- "pdf_title": "IO",
- "row_label": "APPENDIX. II MURDER SL. State No, Part ‘A’ States",
+ "pdf_title": "IO APPENDIX II MURDER",
+ "row_label": "Sl. No. / State",
  "pages": [
+  2,
   2
  ],
- "n_rows": 33,
- "n_cols": 5,
- "n_cells": 157,
+ "n_rows": 31,
+ "n_cols": 6,
+ "n_cells": 186,
  "columns": [
   {
-   "col_no": "2",
-   "name": "APPENDIX. II MURDER | Number pending from previous year",
+   "col_no": "3",
+   "name": "Number pending from previous year",
    "header": [
-    "APPENDIX. II MURDER",
     "Number pending from previous year"
    ]
   },
   {
-   "col_no": "3",
-   "name": "APPENDIX. II MURDER | Number ed in the year",
-   "header": [
-    "APPENDIX. II MURDER",
-    "Number ed in the year"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "APPENDIX. II MURDER | report- • Convicted -",
+   "name": "Number reported in the year",
    "header": [
-    "APPENDIX. II MURDER",
-    "report- • Convicted -"
+    "Number reported in the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "APPENDIX. II MURDER | Dischargedor -",
+   "name": "Convicted",
    "header": [
-    "APPENDIX. II MURDER",
-    "Dischargedor -"
+    "Convicted"
    ]
   },
   {
    "col_no": "6",
-   "name": "APPENDIX. II MURDER | Incidence of Not decrime reported - tected or per 1,00,000 ded",
+   "name": "Discharged or acquitted",
    "header": [
-    "APPENDIX. II MURDER",
-    "Incidence of Not decrime reported - tected or per 1,00,000 ded"
+    "Discharged or acquitted"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Not detected or apprehended",
+   "header": [
+    "Not detected or apprehended"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Incidence of crime reported per 1,000,000 population",
+   "header": [
+    "Incidence of crime reported per 1,000,000 population"
    ]
   }
  ],
- "notes": [
-  "* aug NOt for year, 7"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 3
+  "other_totals_checked": 16,
+  "other_totals_passed": 13
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

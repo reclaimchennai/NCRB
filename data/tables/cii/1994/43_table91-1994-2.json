@@ -8,162 +8,185 @@
  "serial": "43",
  "title": "Actual Police Strength in Relation to Area, Population, Cognizable Crimes and Per Capita Expenditure on Policemen During 1994",
  "listing_title": "Actual Police Strength in Relation to Area, Population, Cognizable Crimes and Per Capita Expenditure on Policemen During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table91-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table91-1994_2.pdf",
  "source_sha256": "9c8d1b434b8d3af351687b9fdf446eb9231ff6882beea6b5a8af4b169f54333a",
  "table_no": "91",
- "pdf_title": "",
- "row_label": "ACTUAL POLICE SL. NO. 7 / ACTUAL POLICE STATE/UT",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA-1994 TABLE-91",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 69,
- "n_cols": 13,
- "n_cells": 406,
+ "n_rows": 70,
+ "n_cols": 20,
+ "n_cells": 700,
  "columns": [
   {
-   "col_no": "3",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE | POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4 | AREA (in Sqr. kms.)",
+   "col_no": "4",
+   "name": "AREA (in Sqr. kms.)",
    "header": [
-    "COGNIZABLE CRIMES",
-    "ACTUAL POLICE",
-    "POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4",
     "AREA (in Sqr. kms.)"
    ]
   },
   {
-   "col_no": "4",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE | POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4 | ESTIMATED MID-YEAR POPULATION {in‘000)",
-   "header": [
-    "COGNIZABLE CRIMES",
-    "ACTUAL POLICE",
-    "POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4",
-    "ESTIMATED MID-YEAR POPULATION {in‘000)"
-   ]
-  },
-  {
    "col_no": "5",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE | POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4 | TOTAL CASES FOR INVESTIGATION {INCLUDING PENDING CASES FROM PREVIOUS YEAR) | IPC",
+   "name": "ESTIMATED MID-YEAR POPULATION (in'000)",
    "header": [
-    "COGNIZABLE CRIMES",
-    "ACTUAL POLICE",
-    "POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4",
-    "TOTAL CASES FOR INVESTIGATION {INCLUDING PENDING CASES FROM PREVIOUS YEAR)",
-    "IPC"
+    "ESTIMATED MID-YEAR POPULATION (in'000)"
    ]
   },
   {
    "col_no": "6",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE | POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4 | TOTAL CASES FOR INVESTIGATION {INCLUDING PENDING CASES FROM PREVIOUS YEAR) | SLL",
+   "name": "TOTAL CASES FOR INVESTIGATION (INCLUDING PENDING CASES FROM PREVIOUS YEAR) | IPC",
    "header": [
-    "COGNIZABLE CRIMES",
-    "ACTUAL POLICE",
-    "POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4",
-    "TOTAL CASES FOR INVESTIGATION {INCLUDING PENDING CASES FROM PREVIOUS YEAR)",
-    "SLL"
+    "TOTAL CASES FOR INVESTIGATION (INCLUDING PENDING CASES FROM PREVIOUS YEAR)",
+    "IPC"
    ]
   },
   {
    "col_no": "7",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE | POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4 | TOTAL CASES FOR INVESTIGATION {INCLUDING PENDING CASES FROM PREVIOUS YEAR) | TOTAL",
+   "name": "TOTAL CASES FOR INVESTIGATION (INCLUDING PENDING CASES FROM PREVIOUS YEAR) | SLL",
    "header": [
-    "COGNIZABLE CRIMES",
-    "ACTUAL POLICE",
-    "POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4",
-    "TOTAL CASES FOR INVESTIGATION {INCLUDING PENDING CASES FROM PREVIOUS YEAR)",
-    "TOTAL"
+    "TOTAL CASES FOR INVESTIGATION (INCLUDING PENDING CASES FROM PREVIOUS YEAR)",
+    "SLL"
    ]
   },
   {
    "col_no": "8",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE | POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4 | ACTUAL POLICE STRENGTH | CIVIL",
+   "name": "TOTAL CASES FOR INVESTIGATION (INCLUDING PENDING CASES FROM PREVIOUS YEAR) | TOTAL",
    "header": [
-    "COGNIZABLE CRIMES",
-    "ACTUAL POLICE",
-    "POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4",
+    "TOTAL CASES FOR INVESTIGATION (INCLUDING PENDING CASES FROM PREVIOUS YEAR)",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "ACTUAL POLICE STRENGTH | CIVIL",
+   "header": [
     "ACTUAL POLICE STRENGTH",
     "CIVIL"
    ]
   },
   {
-   "col_no": "9",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE | POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4 | ACTUAL POLICE STRENGTH | ARMED",
+   "col_no": "10",
+   "name": "ACTUAL POLICE STRENGTH | ARMED",
    "header": [
-    "COGNIZABLE CRIMES",
-    "ACTUAL POLICE",
-    "POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4",
     "ACTUAL POLICE STRENGTH",
     "ARMED"
    ]
   },
   {
-   "col_no": "10",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE | POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4 | ACTUAL POLICE STRENGTH | TOTAL",
+   "col_no": "11",
+   "name": "ACTUAL POLICE STRENGTH | TOTAL",
    "header": [
-    "COGNIZABLE CRIMES",
-    "ACTUAL POLICE",
-    "POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4",
     "ACTUAL POLICE STRENGTH",
     "TOTAL"
    ]
   },
   {
-   "col_no": "11",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE | POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4 | PERCENTAGE OF CIVIL POLICE TOTOTAL POLICE",
-   "header": [
-    "COGNIZABLE CRIMES",
-    "ACTUAL POLICE",
-    "POPULATION, RELATION TO AREA, AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 195)4",
-    "PERCENTAGE OF CIVIL POLICE TOTOTAL POLICE"
-   ]
-  },
-  {
    "col_no": "12",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE STRENGTH (OF RANKS) | OD.G. TO A.S.1.",
+   "name": "PERCENT- AGE OF CIVIL POLICE TO TOTAL POLICE",
    "header": [
-    "COGNIZABLE CRIMES",
-    "ACTUAL POLICE STRENGTH (OF RANKS)",
-    "OD.G. TO A.S.1."
+    "PERCENT- AGE OF CIVIL POLICE TO TOTAL POLICE"
    ]
   },
   {
    "col_no": "13",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE STRENGTH (OF RANKS) | HEAD CONSTABLES TO CONSTABLES",
+   "name": "ACTUAL POLICE STRENGTH (OF RANKS) | D.G. TO A.S.I.",
    "header": [
-    "COGNIZABLE CRIMES",
     "ACTUAL POLICE STRENGTH (OF RANKS)",
-    "HEAD CONSTABLES TO CONSTABLES"
+    "D.G. TO A.S.I."
    ]
   },
   {
    "col_no": "14",
-   "name": "COGNIZABLE CRIMES | ACTUAL POLICE STRENGTH (OF RANKS) | TEETH TO TAIL RATIO",
+   "name": "ACTUAL POLICE STRENGTH (OF RANKS) | HEAD CONSTA- BLES TO CONST- ABLES",
    "header": [
-    "COGNIZABLE CRIMES",
     "ACTUAL POLICE STRENGTH (OF RANKS)",
-    "TEETH TO TAIL RATIO"
+    "HEAD CONSTA- BLES TO CONST- ABLES"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "TOTAL NO. OF UNIT STATE/UT POLICE COST EXPENPER POLICE- 1,00,000 TOTAL 1,000 oF por. (PER (23) - (22) (24) (2) (16) STATES: 66533 159.8 476.64 1.0 6.4 26.84 63996 4.5 16.7 58656ASSAM 265.43 1.9",
+   "col_no": "17",
+   "name": "NO. OF POLICE-MEN PER 100 SQR. KMS.OF AREA",
    "header": [
-    "TOTAL NO. OF UNIT STATE/UT POLICE COST EXPENPER POLICE- 1,00,000 TOTAL 1,000 oF por. (PER (23) - (22) (24) (2) (16) STATES: 66533 159.8 476.64 1.0 6.4 26.84 63996 4.5 16.7 58656ASSAM 265.43 1.9"
+    "NO. OF POLICE-MEN PER 100 SQR. KMS.OF AREA"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "NO. OF POLICEMEN PER | 1,000 OF POP-ULATION",
+   "header": [
+    "NO. OF POLICEMEN PER",
+    "1,000 OF POP-ULATION"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "NO. OF POLICEMEN PER | 1,00,000 OF POP-ULATION",
+   "header": [
+    "NO. OF POLICEMEN PER",
+    "1,00,000 OF POP-ULATION"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "NO. OF IPC CASES PER CIVIL POLICEMAN",
+   "header": [
+    "NO. OF IPC CASES PER CIVIL POLICEMAN"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "WORK LOAD OF I.Os. | IPC",
+   "header": [
+    "WORK LOAD OF I.Os.",
+    "IPC"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "WORK LOAD OF I.Os. | SLL",
+   "header": [
+    "WORK LOAD OF I.Os.",
+    "SLL"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "WORK LOAD OF I.Os. | TOTAL",
+   "header": [
+    "WORK LOAD OF I.Os.",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL POLICE EXPEN-DITURE (RS.IN 00'00'000)",
+   "header": [
+    "TOTAL POLICE EXPEN-DITURE (RS.IN 00'00'000)"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "UNIT COST PER POLICE-MAN (PER ANNUM)",
+   "header": [
+    "UNIT COST PER POLICE-MAN (PER ANNUM)"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 21,
+  "cells_passed": 21,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

@@ -6,84 +6,178 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "20",
- "title": "(Cancindea\\",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 20A",
  "listing_title": "Disposal of IPC Crime Cases by Courts During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-20-1999.pdf",
  "source_sha256": "49d494c0b0a8dc4d0d431c082d5e0821d81255e86e21e2bd1769067b5c0b83d3",
  "table_no": "20A",
- "pdf_title": "(Cancindea\\",
- "row_label": "SL.NO. (2) (1) STATE):",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 20A",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
-  7
+  3,
+  4
  ],
- "n_rows": 35,
- "n_cols": 6,
- "n_cells": 209,
+ "n_rows": 36,
+ "n_cols": 15,
+ "n_cells": 525,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE/UT cr (39)",
+   "col_no": "9",
+   "name": "DISPOSAL OF CASES UNDER | C.H. NOT AMOUNTING TO MURDER | CF",
    "header": [
-    "STATE/UT cr (39)"
+    "DISPOSAL OF CASES UNDER",
+    "C.H. NOT AMOUNTING TO MURDER",
+    "CF"
    ]
   },
   {
-   "col_no": "3",
-   "name": "OF CASES UNDER | DOWRY DEA1H TR @",
+   "col_no": "10",
+   "name": "DISPOSAL OF CASES UNDER | C.H. NOT AMOUNTING TO MURDER | TR",
    "header": [
-    "OF CASES UNDER",
-    "DOWRY DEA1H TR @"
+    "DISPOSAL OF CASES UNDER",
+    "C.H. NOT AMOUNTING TO MURDER",
+    "TR"
    ]
   },
   {
-   "col_no": "4",
-   "name": "OF CASES UNDER | @D",
+   "col_no": "11",
+   "name": "DISPOSAL OF CASES UNDER | C.H. NOT AMOUNTING TO MURDER | TL",
    "header": [
-    "OF CASES UNDER",
-    "@D"
+    "DISPOSAL OF CASES UNDER",
+    "C.H. NOT AMOUNTING TO MURDER",
+    "TL"
    ]
   },
   {
-   "col_no": "5",
-   "name": "OF CASES UNDER | cr @",
+   "col_no": "12",
+   "name": "DISPOSAL OF CASES UNDER | RAPE | CF",
    "header": [
-    "OF CASES UNDER",
-    "cr @"
+    "DISPOSAL OF CASES UNDER",
+    "RAPE",
+    "CF"
    ]
   },
   {
-   "col_no": "6",
-   "name": "OF CASES UNDER | TOTAL TT (43)",
+   "col_no": "13",
+   "name": "DISPOSAL OF CASES UNDER | RAPE | TR",
    "header": [
-    "OF CASES UNDER",
-    "TOTAL TT (43)"
+    "DISPOSAL OF CASES UNDER",
+    "RAPE",
+    "TR"
    ]
   },
   {
-   "col_no": "7",
-   "name": "OF CASES UNDER | TL @",
+   "col_no": "14",
+   "name": "DISPOSAL OF CASES UNDER | RAPE | TL",
    "header": [
-    "OF CASES UNDER",
-    "TL @"
+    "DISPOSAL OF CASES UNDER",
+    "RAPE",
+    "TL"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "DISPOSAL OF CASES UNDER | KIDNAPPING & ABDUCTION | CF",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "KIDNAPPING & ABDUCTION",
+    "CF"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "DISPOSAL OF CASES UNDER | KIDNAPPING & ABDUCTION | TR",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "KIDNAPPING & ABDUCTION",
+    "TR"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "DISPOSAL OF CASES UNDER | KIDNAPPING & ABDUCTION | TL",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "KIDNAPPING & ABDUCTION",
+    "TL"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "DISPOSAL OF CASES UNDER | WOMEN & GIRLS | CF",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "WOMEN & GIRLS",
+    "CF"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "DISPOSAL OF CASES UNDER | WOMEN & GIRLS | TR",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "WOMEN & GIRLS",
+    "TR"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "DISPOSAL OF CASES UNDER | WOMEN & GIRLS | TL",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "WOMEN & GIRLS",
+    "TL"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "DISPOSAL OF CASES UNDER | OTHERS | CF",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "OTHERS",
+    "CF"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "DISPOSAL OF CASES UNDER | OTHERS | TR",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "OTHERS",
+    "TR"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "DISPOSAL OF CASES UNDER | OTHERS | TL",
+   "header": [
+    "DISPOSAL OF CASES UNDER",
+    "OTHERS",
+    "TL"
    ]
   }
  ],
- "notes": [
-  "1655 NCRB/2001—16A"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 13,
+  "cells_checked": 45,
+  "cells_passed": 36,
   "failures": [
-   "col 2 'TOTAL STATES': printed 11, sum 7"
+   "col 15 'TOTAL STATES': printed 113, sum 104",
+   "col 16 'TOTAL STATES': printed 8669, sum 8372",
+   "col 17 'TOTAL STATES': printed 8782, sum 8476",
+   "col 18 'TOTAL STATES': printed 95, sum 87",
+   "col 19 'TOTAL STATES': printed 6149, sum 5888",
+   "col 20 'TOTAL STATES': printed 6244, sum 5975",
+   "col 21 'TOTAL STATES': printed 18, sum 17",
+   "col 22 'TOTAL STATES': printed 2520, sum 2484"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

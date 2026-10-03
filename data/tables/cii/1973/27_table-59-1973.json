@@ -8,52 +8,64 @@
  "serial": "27",
  "title": "Strength of Armed Police as on 31.12.1973",
  "listing_title": "Strength of Armed Police as on 31.12.1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-59-1973.pdf",
  "source_sha256": "a6cda14f3bb9781f8d60a504199c82a6215eb44bd601b4c651f32ff112b902d2",
  "table_no": "",
- "pdf_title": "TABLE*59 Sirengin of Armed Police As on 31-12-1973",
- "row_label": "SL. Na. / 8 / amr we SP / , A. 3.P,",
+ "pdf_title": "136 TABLE .59 Strength of Armed Police As on 31-12-1973",
+ "row_label": "Sl. No. / States/Union Territories/Cities",
  "pages": [
   1
  ],
- "n_rows": 38,
- "n_cols": 3,
- "n_cells": 99,
+ "n_rows": 40,
+ "n_cols": 5,
+ "n_cells": 200,
  "columns": [
   {
-   "col_no": "5",
-   "name": "or of Dy,",
+   "col_no": "3",
+   "name": "Number of IG, DIsG and S.P.",
    "header": [
-    "or of Dy,"
+    "Number of IG, DIsG and S.P."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of A. Sa.P/ Dy. S.P.",
+   "header": [
+    "Number of A. Sa.P/ Dy. S.P."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of Inspectors and Sub-Inspectors",
+   "header": [
+    "Number of Inspectors and Sub-Inspectors"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number of the rank",
+   "name": "Number of officers below the rank of Sub-Inspectors",
    "header": [
-    "Number of the rank"
+    "Number of officers below the rank of Sub-Inspectors"
    ]
   },
   {
    "col_no": "7",
-   "name": "Total, of J44+5+6",
+   "name": "Total of Column 3+4+5+6",
    "header": [
-    "Total, of J44+5+6"
+    "Total of Column 3+4+5+6"
    ]
   }
  ],
- "notes": [
-  "*Figures are based on 1972."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_checked": 15,
+  "other_totals_passed": 15
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

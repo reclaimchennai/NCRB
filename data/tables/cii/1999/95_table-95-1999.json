@@ -8,88 +8,118 @@
  "serial": "95",
  "title": "No. of Equipments and Transport Support During 1999",
  "listing_title": "No. of Equipments and Transport Support During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-95-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-95-1999.pdf",
  "source_sha256": "01695bdd6b5abfda553fd321a56ee80f9099e855282e990750a5d51a664d629e",
  "table_no": "95",
- "pdf_title": "NO. OF EQULPMENTS AND TRANSPORT SUPPORT DURING 1999",
- "row_label": "SL.NO. a) STATES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 95",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 37,
- "n_cols": 7,
- "n_cells": 242,
+ "n_rows": 35,
+ "n_cols": 11,
+ "n_cells": 385,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE/UT @)",
-   "header": [
-    "STATE/UT @)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "MOTOR CYCLE MOTOR VEHICLES @)",
+   "name": "MOTOR VEHICLES",
    "header": [
-    "MOTOR CYCLE MOTOR VEHICLES @)"
+    "MOTOR VEHICLES"
    ]
   },
   {
    "col_no": "4",
-   "name": "CAR @",
+   "name": "MOTOR CYCLE",
    "header": [
-    "CAR @"
+    "MOTOR CYCLE"
    ]
   },
   {
    "col_no": "5",
-   "name": "JEEP )",
+   "name": "CAR",
    "header": [
-    "JEEP )"
+    "CAR"
    ]
   },
   {
    "col_no": "6",
-   "name": "ONE ©",
+   "name": "JEEP",
    "header": [
-    "ONE ©"
+    "JEEP"
    ]
   },
   {
    "col_no": "7",
-   "name": "OTHERS | THREE TONNER TONNER ™ (8)",
+   "name": "ONE TONNER",
    "header": [
-    "OTHERS",
-    "THREE TONNER TONNER ™ (8)"
+    "ONE TONNER"
    ]
   },
   {
    "col_no": "8",
-   "name": "OTHERS | (9) 1",
+   "name": "THREE TONNER",
    "header": [
-    "OTHERS",
-    "(9) 1"
+    "THREE TONNER"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OTHERS",
+   "header": [
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "WIRELESS EQUIPMENT",
+   "header": [
+    "WIRELESS EQUIPMENT"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "H.F./V.H.F.",
+   "header": [
+    "H.F./V.H.F."
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "WALKIE/TALKIE",
+   "header": [
+    "WALKIE/TALKIE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "OTHER WIRELESS EQUIPMENTS",
+   "header": [
+    "OTHER WIRELESS EQUIPMENTS"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 4,
+  "cells_checked": 33,
+  "cells_passed": 25,
   "failures": [
-   "col 2 'TOTAL (UTs)': printed 115, sum 96700",
-   "col 3 'TOTAL STATES': printed 11453, sum 10364",
-   "col 3 'TOTAL (ALL-INDIA)': printed 13490, sum 11453",
-   "col 5 'TOTAL STATES': printed 20120, sum 16575",
-   "col 7 'TOTAL STATES': printed 4044, sum 2602"
+   "col 3 'TOTAL (UTs)': printed 115, sum 3856",
+   "col 3 'TOTAL (ALL-INDIA)': printed 55047, sum 51306",
+   "col 4 'TOTAL (UTs)': printed 0, sum 2037",
+   "col 4 'TOTAL (ALL-INDIA)': printed 13490, sum 11453",
+   "col 10 'TOTAL (UTs)': printed 434, sum 31917",
+   "col 10 'TOTAL (ALL-INDIA)': printed 126396, sum 94913",
+   "col 11 'TOTAL (UTs)': printed 0, sum 20616",
+   "col 11 'TOTAL (ALL-INDIA)': printed 80516, sum 59900"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

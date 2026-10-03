@@ -13,18 +13,18 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-12_1998.pdf",
  "source_file": "raw/adsi/1998/table_content/table-12_1998.pdf",
  "source_sha256": "5a83b8117065bdcf7b1b03ee4ee298accb16d87337416eb8d87f3b2b6d28ab83",
- "table_no": "",
- "pdf_title": "",
- "row_label": "Sl. No. / State/UT/City / Road Accidents Aug.",
+ "table_no": "12",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) TABLE - 12",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 61,
- "n_cols": 51,
- "n_cells": 3007,
+ "n_rows": 59,
+ "n_cols": 52,
+ "n_cells": 3067,
  "columns": [
   {
    "col_no": "3",
@@ -83,6 +83,14 @@
    ]
   },
   {
+   "col_no": "10",
+   "name": "Road Accidents | Aug.",
+   "header": [
+    "Road Accidents",
+    "Aug."
+   ]
+  },
+  {
    "col_no": "11",
    "name": "Road Accidents | Sep.",
    "header": [
@@ -108,8 +116,9 @@
   },
   {
    "col_no": "14",
-   "name": "Dec.",
+   "name": "Road Accidents | Dec.",
    "header": [
+    "Road Accidents",
     "Dec."
    ]
   },
@@ -218,111 +227,113 @@
   },
   {
    "col_no": "28",
-   "name": "Total (28)",
+   "name": "Rail-Road Accidents | Total",
    "header": [
+    "Rail-Road Accidents",
     "Total"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Other Railway Accidents | Jan. (29)",
+   "col_no": "29",
+   "name": "Other Railway Accidents | Jan.",
    "header": [
     "Other Railway Accidents",
-    "Jan. (29)"
+    "Jan."
    ]
   },
   {
-   "col_no": "10002",
-   "name": "Other Railway Accidents | Feb. (30)",
+   "col_no": "30",
+   "name": "Other Railway Accidents | Feb.",
    "header": [
     "Other Railway Accidents",
-    "Feb. (30)"
+    "Feb."
    ]
   },
   {
-   "col_no": "10003",
-   "name": "Other Railway Accidents | Mar. (31)",
+   "col_no": "31",
+   "name": "Other Railway Accidents | Mar.",
    "header": [
     "Other Railway Accidents",
-    "Mar. (31)"
+    "Mar."
    ]
   },
   {
-   "col_no": "10004",
-   "name": "Other Railway Accidents | Apr. (32)",
+   "col_no": "32",
+   "name": "Other Railway Accidents | Apr.",
    "header": [
     "Other Railway Accidents",
-    "Apr. (32)"
+    "Apr."
    ]
   },
   {
-   "col_no": "10005",
-   "name": "Other Railway Accidents | May (33)",
+   "col_no": "33",
+   "name": "Other Railway Accidents | May",
    "header": [
     "Other Railway Accidents",
-    "May (33)"
+    "May"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "Other Railway Accidents | Jun. (34)",
+   "col_no": "34",
+   "name": "Other Railway Accidents | Jun.",
    "header": [
     "Other Railway Accidents",
-    "Jun. (34)"
+    "Jun."
    ]
   },
   {
-   "col_no": "10007",
-   "name": "Other Railway Accidents | Jul. (35)",
+   "col_no": "35",
+   "name": "Other Railway Accidents | Jul.",
    "header": [
     "Other Railway Accidents",
-    "Jul. (35)"
+    "Jul."
    ]
   },
   {
-   "col_no": "10",
-   "name": "Other Railway Accidents | Aug. (36)",
+   "col_no": "36",
+   "name": "Other Railway Accidents | Aug.",
    "header": [
     "Other Railway Accidents",
-    "Aug. (36)"
+    "Aug."
    ]
   },
   {
-   "col_no": "10008",
-   "name": "Other Railway Accidents | Sep. (37)",
+   "col_no": "37",
+   "name": "Other Railway Accidents | Sep.",
    "header": [
     "Other Railway Accidents",
-    "Sep. (37)"
+    "Sep."
    ]
   },
   {
-   "col_no": "10009",
-   "name": "Other Railway Accidents | Oct. (38)",
+   "col_no": "38",
+   "name": "Other Railway Accidents | Oct.",
    "header": [
     "Other Railway Accidents",
-    "Oct. (38)"
+    "Oct."
    ]
   },
   {
-   "col_no": "10010",
-   "name": "Other Railway Accidents | Nov. (39)",
+   "col_no": "39",
+   "name": "Other Railway Accidents | Nov.",
    "header": [
     "Other Railway Accidents",
-    "Nov. (39)"
+    "Nov."
    ]
   },
   {
-   "col_no": "10011",
-   "name": "Dec. (40)",
+   "col_no": "40",
+   "name": "Other Railway Accidents | Dec.",
    "header": [
-    "Dec. (40)"
+    "Other Railway Accidents",
+    "Dec."
    ]
   },
   {
-   "col_no": "10012",
+   "col_no": "41",
    "name": "Total (41)",
    "header": [
-    "Total (41)"
+    "Total"
    ]
   },
   {
@@ -423,25 +434,23 @@
   },
   {
    "col_no": "54",
-   "name": "Total (54)",
+   "name": "Total | Total",
    "header": [
+    "Total",
     "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 204,
-  "cells_passed": 181,
+  "cells_checked": 208,
+  "cells_passed": 203,
   "failures": [
-   "col 13 'Total (Cities)': printed 3880, sum 3871",
-   "col 14 'Total (Cities)': printed 4005, sum 4171",
-   "col 15 'Total (Cities)': printed 49202, sum 49028",
-   "col 20 'Total (States)': printed 248, sum 249",
-   "col 21 'Total (States)': printed 247, sum 246",
-   "col 24 'Total (States)': printed 205, sum 206",
-   "col 25 'Total (States)': printed 208, sum 207",
-   "col 27 'Total (States)': printed 136, sum 139"
+   "col 11 'Total (Cities)': printed 4024, sum 4023",
+   "col 12 'Total (Cities)': printed 4204, sum 4206",
+   "col 13 'Total (Cities)': printed 3880, sum 3878",
+   "col 14 'Total (Cities)': printed 4005, sum 4014",
+   "col 15 'Total (Cities)': printed 49202, sum 49193"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

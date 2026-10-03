@@ -8,65 +8,83 @@
  "serial": "67",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1991",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1991-52.pdf",
  "source_file": "raw/cii/1991/table_content/table-52-1991-52.pdf",
  "source_sha256": "2221178359d729fad5b5af5d0c3e728c676bc3a3843d09895c6cbd6d78b65b5a",
- "table_no": "",
- "pdf_title": "",
- "row_label": "OF CASES REPORTED AMG VALUE OF PLACE OF Sk. BO, 7 PREMISES 2 / OF CASES REPORTED AMG VALUE OF ee 10 1469",
+ "table_no": "52",
+ "pdf_title": "171 TABLE-52 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1991",
+ "row_label": "SL. PLACE OF NO. OCCURRENCE",
  "pages": [
   1
  ],
- "n_rows": 5,
- "n_cols": 6,
- "n_cells": 28,
+ "n_rows": 8,
+ "n_cols": 8,
+ "n_cells": 64,
  "columns": [
   {
    "col_no": "3",
-   "name": "OF CASES REPORTED AMG VALUE OF | ee | Tr WALLE omy 17 S27.0",
+   "name": "DACOITY | NUMBER",
    "header": [
-    "OF CASES REPORTED AMG VALUE OF",
-    "ee",
-    "Tr WALLE omy 17 S27.0"
+    "DACOITY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF CASES REPORTED AMG VALUE OF | ee | )",
+   "name": "DACOITY | VALUE",
    "header": [
-    "OF CASES REPORTED AMG VALUE OF",
-    "ee",
-    ")"
+    "DACOITY",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "STOLEN OF PLACE OF VALUE (6) m3.1",
+   "name": "ROBBERY | NUMBER",
    "header": [
-    "STOLEN OF PLACE OF VALUE (6) m3.1"
+    "ROBBERY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "ths. in lakh VALUE ry 11a it",
+   "name": "ROBBERY | VALUE",
    "header": [
-    "ths. in lakh VALUE ry 11a it"
+    "ROBBERY",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "ch B851.2 o4.9",
+   "name": "BURGLARY | NUMBER",
    "header": [
-    "ch B851.2 o4.9"
+    "BURGLARY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "THEFT VALUE 10) Fiza? 1386) a59.6 8595",
+   "name": "BURGLARY | VALUE",
    "header": [
-    "THEFT VALUE 10) Fiza? 1386) a59.6 8595"
+    "BURGLARY",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "THEFT | NUMBER",
+   "header": [
+    "THEFT",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "THEFT | VALUE",
+   "header": [
+    "THEFT",
+    "VALUE"
    ]
   }
  ],
@@ -75,10 +93,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

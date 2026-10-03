@@ -8,64 +8,73 @@
  "serial": "40",
  "title": "Disposal of Persons Arrested under L&SL Crimes by Courts During 1993",
  "listing_title": "Disposal of Persons Arrested under L&SL Crimes by Courts During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-40-1993-crime.pdf",
  "source_sha256": "659c7b3f7ea2dc63f9d92c6ef21304ad744f24a47ef3b41b37c61fbc33fb7bc4",
  "table_no": "40",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER L&SL CRIMES BY COURTS DURING 1993",
- "row_label": "",
+ "pdf_title": "207 TABLE-40 DISPOSAL OF PERSONS ARRESTED UNDER L&SL CRIMES BY COURTS DURING 1993",
+ "row_label": "SL NO / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 6,
- "n_cells": 102,
+ "n_cols": 7,
+ "n_cells": 119,
  "columns": [
   {
    "col_no": "3",
-   "name": "TOTAL HO, PЕRBONE INDel THIA INCLUDRe THOGB PHOM HIE VOUS YBAR",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOOTH FROM THE VOLUS YEAR",
    "header": [
-    "TOTAL HO, PЕRBONE INDel THIA INCLUDRe THOGB PHOM HIE VOUS YBAR"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOOTH FROM THE VOLUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "NO. OF PERSONS WIOSE | GASE COMPO LNDED OR WTH phAve",
+   "name": "AD. OF PERSONS WHOSE | CASE COMPO- UNDED OR WITH DNA",
    "header": [
-    "NO. OF PERSONS WIOSE",
-    "GASE COMPO LNDED OR WTH phAve"
+    "AD. OF PERSONS WHOSE",
+    "CASE COMPO- UNDED OR WITH DNA"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. OF PERSONS WIOSE | TRAI CONN EReE",
+   "name": "AD. OF PERSONS WHOSE | TRIAL COMPO- ETD",
    "header": [
-    "NO. OF PERSONS WIOSE",
-    "TRAI CONN EReE"
+    "AD. OF PERSONS WHOSE",
+    "TRIAL COMPO- ETD"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. OF PERSONS WIOSE | THAI HAWаD",
+   "name": "AD. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "NO. OF PERSONS WIOSE",
-    "THAI HAWаD"
+    "AD. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "HO. OF PERGDAS СОнУСтED",
+   "name": "NO. OF PERSONS CONDUCTED",
    "header": [
-    "HO. OF PERGDAS СОнУСтED"
+    "NO. OF PERSONS CONDUCTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERCENTAGE OF PIRBONE сенус TED TO TRIALS TRALL PEMANE COMPE PENDEN TED ICOL (іктс0 CAL.AM) COLASH (all",
+   "name": "PERCENTAGE OF PERSONS | WHOLE TRIAL REMAINED PENDING [COL. (8x100/ COL. (8)]",
    "header": [
-    "PERCENTAGE OF PIRBONE сенус TED TO TRIALS TRALL PEMANE COMPE PENDEN TED ICOL (іктс0 CAL.AM) COLASH (all"
+    "PERCENTAGE OF PERSONS",
+    "WHOLE TRIAL REMAINED PENDING [COL. (8x100/ COL. (8)]"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERCENTAGE OF PERSONS | CONVIC TED TO TRIALS COMPLETE [COL. (7x100/ COL. (8)]",
+   "header": [
+    "PERCENTAGE OF PERSONS",
+    "CONVIC TED TO TRIALS COMPLETE [COL. (7x100/ COL. (8)]"
    ]
   }
  ],
@@ -75,7 +84,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 5,
-  "other_totals_passed": 2
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

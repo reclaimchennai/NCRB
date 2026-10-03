@@ -8,78 +8,93 @@
  "serial": "56",
  "title": "Juveniles Apprehended under IPC & LSL Crimes by Age Group 1981-91",
  "listing_title": "Juveniles Apprehended under IPC & LSL Crimes by Age Group 1981-91",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1991-40.pdf",
  "source_file": "raw/cii/1991/table_content/table-40-1991-40.pdf",
  "source_sha256": "b7332410fba09d78c29a1527937839ba0fe2f60ccfa4f00eafed161958e6af47",
- "table_no": "40-2",
- "pdf_title": ";—= - UNDER IPC 2 LEL CRIMES BY AGE GROUP",
- "row_label": "F4 TEAR Si. wo. / F4 fel2@ TEARS: / F4 peorcurens To TOTAL / F4 - 2-14 TEARS",
+ "table_no": "40",
+ "pdf_title": "151 TABLE-40 JUVENILES APPREHENDED UNDER IPC & LSL CRIMES BY AGE GROUP",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 12,
- "n_cols": 6,
- "n_cells": 55,
+ "n_rows": 17,
+ "n_cols": 10,
+ "n_cells": 126,
  "columns": [
   {
-   "col_no": "5",
-   "name": "F4 | Ta TOTAL",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "F4",
-    "Ta TOTAL"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "7-12 YEARS",
+   "header": [
+    "7-12 YEARS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE TO TOTAL (4)",
+   "header": [
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "12-16 YEARS",
+   "header": [
+    "12-16 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "F4 | 46-18 YEARS.",
+   "name": "PERCENTAGE TO TOTAL (6)",
    "header": [
-    "F4",
-    "46-18 YEARS."
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "F4 | To ‘TOTAL",
+   "name": "16-18 YEARS",
    "header": [
-    "F4",
-    "To ‘TOTAL"
+    "16-18 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "F4 | B-21 YEARS",
+   "name": "PERCENTAGE TO TOTAL (8)",
    "header": [
-    "F4",
-    "B-21 YEARS"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "F4 | To TOTAL",
+   "name": "18-21 YEARS",
    "header": [
-    "F4",
-    "To TOTAL"
+    "18-21 YEARS"
    ]
   },
   {
    "col_no": "10",
-   "name": "F4 | AGE GROUP",
+   "name": "PERCENTAGE TO TOTAL (10)",
    "header": [
-    "F4",
-    "AGE GROUP"
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "OVERALL AGE GROUP",
+   "header": [
+    "OVERALL AGE GROUP"
    ]
   }
  ],
- "notes": [
-  "of age etc.",
-  "2. In 1988 ane secs oe per new definition of Juvenile",
-  "16-18 age group contain only girls and 18-21 age group",
-  "cote oe Juveniles at oll. For 16-18 ope",
-  "group, change in 1771 over 1961 Is not werked",
-  "out due to ee ity of date,"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -87,7 +102,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

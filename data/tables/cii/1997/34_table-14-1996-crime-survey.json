@@ -8,14 +8,14 @@
  "serial": "34",
  "title": "Disposal of IPC Crime Cases by Police During 1997",
  "listing_title": "Disposal of IPC Crime Cases by Police During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-14-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-14-1996-crime-survey.pdf",
  "source_sha256": "67ffd39f427862a0aed81023ea5153928a078cab1a78d59e5fe333306ccc2d34",
  "table_no": "14",
- "pdf_title": "DISPOSAL OF IPC CRIME CASES BY POLICE DURING 1997",
- "row_label": "CRIME HEADS SL. NO. ((1)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-14",
+ "row_label": "SL. NO. / CRIME HEADS",
  "pages": [
   1
  ],
@@ -32,17 +32,19 @@
   },
   {
    "col_no": "4",
-   "name": "INVESTIGATION was REFUSED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "INVESTIGATION was REFUSED"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. OF CASES IN WHICH | CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC.",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC.",
    "header": [
     "NO. OF CASES IN WHICH",
-    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC."
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC."
    ]
   },
   {
@@ -65,16 +67,18 @@
   },
   {
    "col_no": "8",
-   "name": "‘ TOTAL {(5) + (6) +(7)}",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL {(5) + (6) + (7)}",
    "header": [
-    "‘ TOTAL {(5) + (6) +(7)}"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL {(5) + (6) + (7)}"
    ]
   },
   {
    "col_no": "9",
-   "name": "NO. OF’ CASES PENDING INVESTIGATION",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
    "header": [
-    "NO. OF’ CASES PENDING INVESTIGATION"
+    "NO. OF CASES PENDING INVESTIGATION"
    ]
   }
  ],

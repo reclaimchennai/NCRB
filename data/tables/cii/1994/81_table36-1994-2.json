@@ -8,76 +8,73 @@
  "serial": "81",
  "title": "Disposal of Persons Arrested under IPC Crimes by Courts During 1994",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes by Courts During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table36-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table36-1994_2.pdf",
  "source_sha256": "8c9032e7993f5ef7122d1bf18ef315b4fe2671924a9321b8ee1d065fa5bb5b48",
  "table_no": "36",
- "pdf_title": "",
- "row_label": "DISPOSAL OF PERSONS SL. NO. / DISPOSAL OF PERSONS CRIME HEAD",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-36",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 19,
+ "n_rows": 18,
  "n_cols": 7,
- "n_cells": 122,
+ "n_cells": 126,
  "columns": [
   {
    "col_no": "3",
-   "name": "DISPOSAL OF PERSONS | TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREvious YEAR",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "DISPOSAL OF PERSONS",
-    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREvious YEAR"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER IPC CHiMES BY COURTS DURING | NO. OF PERSONS WHOSE | CASES COMPOUNDED OR WITHDRAWN",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH-DRAWN",
    "header": [
-    "UNDER IPC CHiMES BY COURTS DURING",
     "NO. OF PERSONS WHOSE",
-    "CASES COMPOUNDED OR WITHDRAWN"
+    "CASES COMPO-UNDED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER IPC CHiMES BY COURTS DURING | NO. OF PERSONS WHOSE | TRIAL COMPLETED",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
    "header": [
-    "UNDER IPC CHiMES BY COURTS DURING",
     "NO. OF PERSONS WHOSE",
-    "TRIAL COMPLETED"
+    "TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER IPC CHiMES BY COURTS DURING | TRIAL REMAINED PENDING",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "UNDER IPC CHiMES BY COURTS DURING",
+    "NO. OF PERSONS WHOSE",
     "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "UNDER IPC CHiMES BY COURTS DURING | NO. OF PERSONS. CONVICTED",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "UNDER IPC CHiMES BY COURTS DURING",
-    "NO. OF PERSONS. CONVICTED"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "UNDER IPC CHiMES BY COURTS DURING | PERCENTAGE OF PERSONS WHOSE TRAILS REMAINED PENDING {COL. (6)x100/ COL.(3)}",
+   "name": "PERCENTAGE OF PERSONS | WHOSE TRAILS REMAINED PENDING {COL.(6)x100/ COL.(3)}",
    "header": [
-    "UNDER IPC CHiMES BY COURTS DURING",
-    "PERCENTAGE OF PERSONS WHOSE TRAILS REMAINED PENDING {COL. (6)x100/ COL.(3)}"
+    "PERCENTAGE OF PERSONS",
+    "WHOSE TRAILS REMAINED PENDING {COL.(6)x100/ COL.(3)}"
    ]
   },
   {
    "col_no": "9",
-   "name": "1994 CONVICTED TO TRIALS COMPLETED {COL. (7)x100/ COL.(5)}",
+   "name": "PERCENTAGE OF PERSONS | CONVICTED TO TRIALS COMPLETED {COL.(7)x100/ COL.(5)}",
    "header": [
-    "1994 CONVICTED TO TRIALS COMPLETED {COL. (7)x100/ COL.(5)}"
+    "PERCENTAGE OF PERSONS",
+    "CONVICTED TO TRIALS COMPLETED {COL.(7)x100/ COL.(5)}"
    ]
   }
  ],
@@ -86,8 +83,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

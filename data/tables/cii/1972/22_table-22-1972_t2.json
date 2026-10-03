@@ -6,51 +6,77 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "22",
- "title": "Nunbar of Persomt Arrested by Sex During the Year",
+ "title": "73 Sex During the Year 1972",
  "listing_title": "Number of Persons Arrested by Sex During the Year 1972",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1972.pdf",
  "source_file": "raw/cii/1972/table_content/table-22-1972.pdf",
  "source_sha256": "bf92f41fa365144914d916e02dff756b90c1be63cbc4c2c70b4911fbfc7dd1e0",
  "table_no": "",
- "pdf_title": "Nunbar of Persomt Arrested by Sex During the Year",
- "row_label": "Sl 0 Na 1, / Thefts Main 2 / Thefts »",
+ "pdf_title": "73 Sex During the Year 1972",
+ "row_label": "Kidnapping & Abduction Male",
  "pages": [
-  4
+  3
  ],
- "n_rows": 33,
- "n_cols": 4,
- "n_cells": 92,
+ "n_rows": 23,
+ "n_cols": 7,
+ "n_cells": 161,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Riots, | hale 4»",
+   "col_no": "2",
+   "name": "Kidnapping & Abduction | Female",
    "header": [
-    "Riots,",
-    "hale 4»"
+    "Kidnapping & Abduction",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Dacosity | Male",
+   "header": [
+    "Dacosity",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Dacosity | Female",
+   "header": [
+    "Dacosity",
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "Riots, | Femals at",
+   "name": "Robbery | Male",
    "header": [
-    "Riots,",
-    "Femals at"
+    "Robbery",
+    "Male"
    ]
   },
   {
    "col_no": "6",
-   "name": "‘Trust. Mals 4",
+   "name": "Robbery | Female",
    "header": [
-    "‘Trust. Mals 4"
+    "Robbery",
+    "Female"
    ]
   },
   {
    "col_no": "7",
-   "name": "af Temas - Famaie m4",
+   "name": "Burglary | Male",
    "header": [
-    "af Temas - Famaie m4"
+    "Burglary",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Burglary | Female",
+   "header": [
+    "Burglary",
+    "Female"
    ]
   }
  ],
@@ -62,7 +88,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

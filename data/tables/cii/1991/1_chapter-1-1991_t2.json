@@ -6,41 +6,54 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "VOLUME OF TOTAL IPC CRIMES CURING 1991",
+ "title": "18 VOLUME OF TOTAL IPC CRIMES DURING 1991 STATE & UT-WISE",
  "listing_title": "Survey of Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-1991.pdf",
  "source_file": "raw/cii/1991/table_chapter/chapter-1-1991.pdf",
  "source_sha256": "81e0b6f7883e3fd9d16c0382cf14457d50da26559dfad4c2607f3ac6c3f43c8d",
  "table_no": "",
- "pdf_title": "VOLUME OF TOTAL IPC CRIMES CURING 1991",
- "row_label": "",
+ "pdf_title": "18 VOLUME OF TOTAL IPC CRIMES DURING 1991 STATE & UT-WISE",
+ "row_label": "High Risk Sl. No. / High Risk State/UT",
  "pages": [
   8
  ],
- "n_rows": 20,
- "n_cols": 3,
- "n_cells": 50,
+ "n_rows": 17,
+ "n_cols": 4,
+ "n_cells": 62,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE & UT-WISE (2)",
-   "header": [
-    "STATE & UT-WISE"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "STATE & UT-WISE (3)",
+   "name": "High Risk | Volume",
    "header": [
-    "STATE & UT-WISE"
+    "High Risk",
+    "Volume"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Low Risk | Sl. No.",
+   "header": [
+    "Low Risk",
+    "Sl. No."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Low Risk | State/UT",
+   "header": [
+    "Low Risk",
+    "State/UT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Low Risk | Volume",
+   "header": [
+    "Low Risk",
+    "Volume"
+   ]
   }
  ],
  "notes": [],
@@ -51,7 +64,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -6,42 +6,60 @@
  "topic": "",
  "section": "PSI Year Wise 1995",
  "serial": "4",
- "title": "PLAN EXPENDITURE OF PRISONS",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1995 ## Chapter - 6",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/files/PSI-1995FullReport.pdf",
  "source_file": "raw/psi/1995/year_wise/PSI-1995FullReport.pdf",
  "source_sha256": "61e73c37df92817e9e0d39a4e894369ba3667eb0c83f76b86f9fed5e32b54d72",
  "table_no": "",
- "pdf_title": "PLAN EXPENDITURE OF PRISONS",
- "row_label": "STATES/UTs JAMMU & KASHMIR MAHARASHTRA MANIPUR",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1995 ## Chapter - 6",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
-  40
+  31
  ],
- "n_rows": 6,
- "n_cols": 2,
- "n_cells": 8,
+ "n_rows": 23,
+ "n_cols": 5,
+ "n_cells": 115,
  "columns": [
   {
-   "col_no": "2",
-   "name": "~.0534",
+   "col_no": "3",
+   "name": "Officers",
    "header": [
-    "~.0534"
+    "Officers"
    ]
   },
   {
-   "col_no": "3",
-   "name": "DURING 1995",
+   "col_no": "4",
+   "name": "Jail Cadre Staff",
    "header": [
-    "DURING 1995"
+    "Jail Cadre Staff"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Correctional Staff",
+   "header": [
+    "Correctional Staff"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Medical Staff",
+   "header": [
+    "Medical Staff"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Others",
+   "header": [
+    "Others"
    ]
   }
  ],
- "notes": [
-  "AMOUNT (Rs. in Lakhs)",
-  "DATA FROM OTHER CENTRES IS NOT AVAILABLE"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -49,7 +67,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

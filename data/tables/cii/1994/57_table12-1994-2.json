@@ -8,24 +8,32 @@
  "serial": "57",
  "title": "Incidence & Rate of Cognizable Crimes (SLL) under Different Crime Heads in States, UTs & Cities During 1994",
  "listing_title": "Incidence & Rate of Cognizable Crimes (SLL) under Different Crime Heads in States, UTs & Cities During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table12-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table12-1994_2.pdf",
  "source_sha256": "597c91018b0e52759901a2d364c8c7d896bb53f16b0e386873b256be4e27085f",
  "table_no": "12",
- "pdf_title": "INCIDENCE (I) & RATE (R) OF COGNIZABLE CRIMES (SLL) UNDER DIFFERENT CRIME HEADS IN STATES, UTs & CITIES DURING 1994",
- "row_label": "SL. NO. / STATEJ/UTICITY / ARMS ACT 1",
+ "pdf_title": "N.C.R.B., (M.I. CRIME IN INDIA - 1994 TABLE-12",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 149,
- "n_cols": 26,
- "n_cells": 471,
+ "n_rows": 69,
+ "n_cols": 34,
+ "n_cells": 1972,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "ARMS ACT | I",
+   "header": [
+    "ARMS ACT",
+    "I"
+   ]
+  },
   {
    "col_no": "4",
    "name": "ARMS ACT | R",
@@ -36,9 +44,10 @@
   },
   {
    "col_no": "5",
-   "name": "NARCOTIC DRUGS AND PSYCHOTROPIC SUBSTANCES ACT",
+   "name": "NARCOTIC DRUGS AND PSYCHOTROPIC SUBSTANCES ACT | I",
    "header": [
-    "NARCOTIC DRUGS AND PSYCHOTROPIC SUBSTANCES ACT"
+    "NARCOTIC DRUGS AND PSYCHOTROPIC SUBSTANCES ACT",
+    "I"
    ]
   },
   {
@@ -51,37 +60,58 @@
   },
   {
    "col_no": "7",
-   "name": "GAMBLING ACT",
+   "name": "GAMBLING ACT | I",
    "header": [
-    "GAMBLING ACT"
+    "GAMBLING ACT",
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "R (8)",
+   "name": "GAMBLING ACT | R",
    "header": [
+    "GAMBLING ACT",
     "R"
    ]
   },
   {
    "col_no": "9",
-   "name": "EXCISE ACT",
+   "name": "EXCISE ACT | I",
    "header": [
-    "EXCISE ACT"
+    "EXCISE ACT",
+    "I"
    ]
   },
   {
    "col_no": "10",
-   "name": "R (10)",
+   "name": "EXCISE ACT | R",
    "header": [
+    "EXCISE ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PROHIBITION ACT | I",
+   "header": [
+    "PROHIBITION ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "PROHIBITION ACT | R",
+   "header": [
+    "PROHIBITION ACT",
     "R"
    ]
   },
   {
    "col_no": "13",
-   "name": "EXPLOSIVES AND EXPLOSIVE SUBSTANCES ACT",
+   "name": "EXPLOSIVES AND EXPLOSIVE SUBSTANCES ACT | I",
    "header": [
-    "EXPLOSIVES AND EXPLOSIVE SUBSTANCES ACT"
+    "EXPLOSIVES AND EXPLOSIVE SUBSTANCES ACT",
+    "I"
    ]
   },
   {
@@ -94,9 +124,10 @@
   },
   {
    "col_no": "15",
-   "name": "IMMORAL TRAFFIC (PREVENTION) ACT",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | I",
    "header": [
-    "IMMORAL TRAFFIC (PREVENTION) ACT"
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "I"
    ]
   },
   {
@@ -109,64 +140,82 @@
   },
   {
    "col_no": "17",
-   "name": "INDIAN RAILWAYS ACT | ‘",
+   "name": "INDIAN RAILWAYS ACT | I",
    "header": [
     "INDIAN RAILWAYS ACT",
-    "‘"
+    "I"
    ]
   },
   {
    "col_no": "18",
-   "name": "INDIAN RAILWAYS ACT",
+   "name": "INDIAN RAILWAYS ACT | R",
    "header": [
-    "INDIAN RAILWAYS ACT"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "REGISTRATION OF FOREIGNERS ACT 1",
-   "header": [
-    "REGISTRATION OF FOREIGNERS ACT 1"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "INDIAN PASSPORT ACT | PROTECTION OF CIVIL RIGHTS ACT | R (10002)",
-   "header": [
-    "INDIAN PASSPORT ACT",
-    "PROTECTION OF CIVIL RIGHTS ACT",
+    "INDIAN RAILWAYS ACT",
     "R"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "INDIAN PASSPORT ACT | PROTECTION OF CIVIL RIGHTS ACT | R (10003)",
+   "col_no": "19",
+   "name": "col_19",
+   "header": []
+  },
+  {
+   "col_no": "20",
+   "name": "col_20",
+   "header": []
+  },
+  {
+   "col_no": "21",
+   "name": "col_21",
+   "header": []
+  },
+  {
+   "col_no": "22",
+   "name": "col_22",
+   "header": []
+  },
+  {
+   "col_no": "23",
+   "name": "col_23",
+   "header": []
+  },
+  {
+   "col_no": "24",
+   "name": "col_24",
+   "header": []
+  },
+  {
+   "col_no": "25",
+   "name": "col_25",
+   "header": []
+  },
+  {
+   "col_no": "26",
+   "name": "col_26",
+   "header": []
+  },
+  {
+   "col_no": "27",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | I",
    "header": [
-    "INDIAN PASSPORT ACT",
-    "PROTECTION OF CIVIL RIGHTS ACT",
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | R",
+   "header": [
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
     "R"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "INDIAN PASSPORT ACT | ‘",
+   "col_no": "29",
+   "name": "ANQUITY & ART TREASURE ACT | I",
    "header": [
-    "INDIAN PASSPORT ACT",
-    "‘"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "- R",
-   "header": [
-    "- R"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "COMMODITIES ACT R 1",
-   "header": [
-    "COMMODITIES ACT R 1"
+    "ANQUITY & ART TREASURE ACT",
+    "I"
    ]
   },
   {
@@ -179,23 +228,26 @@
   },
   {
    "col_no": "31",
-   "name": "DOWRY",
+   "name": "DOWRY PROHIBITION ACT | I",
    "header": [
-    "DOWRY"
+    "DOWRY PROHIBITION ACT",
+    "I"
    ]
   },
   {
    "col_no": "32",
-   "name": "PROHIBITION ACT R",
+   "name": "DOWRY PROHIBITION ACT | R",
    "header": [
-    "PROHIBITION ACT R"
+    "DOWRY PROHIBITION ACT",
+    "R"
    ]
   },
   {
    "col_no": "33",
-   "name": "OTHER SLL CRIMES",
+   "name": "OTHER SLL CRIMES | I",
    "header": [
-    "OTHER SLL CRIMES"
+    "OTHER SLL CRIMES",
+    "I"
    ]
   },
   {
@@ -208,41 +260,39 @@
   },
   {
    "col_no": "35",
-   "name": "TOTAL COGNI74R1 CRIME UNDER SLL",
+   "name": "TOTAL COGNIZABLE CRIME UNDER SLL | I",
    "header": [
-    "TOTAL COGNI74R1 CRIME UNDER SLL"
+    "TOTAL COGNIZABLE CRIME UNDER SLL",
+    "I"
    ]
   },
   {
    "col_no": "36",
-   "name": "TOTAL COGNI74R1 CRIME UNDER SLL | R",
+   "name": "TOTAL COGNIZABLE CRIME UNDER SLL | R",
    "header": [
-    "TOTAL COGNI74R1 CRIME UNDER SLL",
+    "TOTAL COGNIZABLE CRIME UNDER SLL",
     "R"
    ]
   }
  ],
- "notes": [
-  "51 ¡PUNE****",
-  "ee",
-  "53 [VADÖDARÄ",
-  "*'ö.Ö",
-  "50 BREN BB",
-  "51 \"PÜNE \"3.3",
-  "BEE BURR",
-  "53 :VÄDÖDÄRÄ",
-  "55 :VISHAKHAPATNÄM",
-  "NOTE: 1. Rate less than 0.05 is aisu snow: as 0.0.",
-  "2. NR stands for data nut"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 51,
+  "cells_passed": 35,
+  "failures": [
+   "col 11 'TOTAL (STATES)': printed 638538, sum 569",
+   "col 13 'TOTAL (STATES)': printed 4623, sum 4191",
+   "col 15 'TOTAL (STATES)': printed 9976, sum 3111",
+   "col 17 'TOTAL (STATES)': printed 29520, sum 24136",
+   "col 19 'TOTAL (STATES)': printed 1404, sum 1365",
+   "col 21 'TOTAL (STATES)': printed 4544, sum 3780",
+   "col 23 'TOTAL (STATES)': printed 756, sum 749",
+   "col 25 'TOTAL (STATES)': printed 4028, sum 3842"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 4,
  "warnings": []
 }

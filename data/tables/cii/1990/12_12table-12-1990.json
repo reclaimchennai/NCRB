@@ -8,290 +8,309 @@
  "serial": "12",
  "title": "Incidence & Volume of Cognizable Crimes (LSL) under Different Crime Heads in States, UTs & Cities During 1990",
  "listing_title": "Incidence & Volume of Cognizable Crimes (LSL) under Different Crime Heads in States, UTs & Cities During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/12table-12-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/12table-12-1990-.pdf",
  "source_sha256": "63e32127f282585f487e431c8ee716c7283de033cc6cc4020a4c54b6a88f08fe",
  "table_no": "12",
- "pdf_title": "& VOLUME (V) OF COGNIZARLE CRIMES(LSL)",
- "row_label": "UNDER SL STATE/UT/CITY No. q1)",
+ "pdf_title": "74 TABLE-12 INCIDENCE (I) & VOLUME (V) OF COGNIZABLE CRIMES (LSL)",
+ "row_label": "SL NO. / STATE/UT/CITY",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 78,
+ "n_rows": 47,
  "n_cols": 34,
- "n_cells": 1528,
+ "n_cells": 1598,
  "columns": [
   {
    "col_no": "3",
-   "name": "CRIME ARMS I",
+   "name": "ARMS ACT | I",
    "header": [
-    "CRIME ARMS I"
+    "ARMS ACT",
+    "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "HEADS ACT Vv",
+   "name": "ARMS ACT | V",
    "header": [
-    "HEADS ACT Vv"
+    "ARMS ACT",
+    "V"
    ]
   },
   {
    "col_no": "5",
-   "name": "IN STATES, NARCOTIC & SURSTANCES I",
+   "name": "NARCOTIC DRUGS & PSYCHOTROPIC SUBSTANCES ACT | I",
    "header": [
-    "IN STATES, NARCOTIC & SURSTANCES I"
+    "NARCOTIC DRUGS & PSYCHOTROPIC SUBSTANCES ACT",
+    "I"
    ]
   },
   {
    "col_no": "6",
-   "name": "UTs DRUGS ACT Vv",
+   "name": "NARCOTIC DRUGS & PSYCHOTROPIC SUBSTANCES ACT | V",
    "header": [
-    "UTs DRUGS ACT Vv"
+    "NARCOTIC DRUGS & PSYCHOTROPIC SUBSTANCES ACT",
+    "V"
    ]
   },
   {
    "col_no": "7",
-   "name": "& GAMBLING I",
+   "name": "GAMBLING ACT | I",
    "header": [
-    "& GAMBLING I"
+    "GAMBLING ACT",
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "CITIES ACT Vv",
+   "name": "GAMBLING ACT | V",
    "header": [
-    "CITIES ACT Vv"
+    "GAMBLING ACT",
+    "V"
    ]
   },
   {
    "col_no": "9",
-   "name": "DURING EXCISE 1",
+   "name": "EXCISE ACT | I",
    "header": [
-    "DURING EXCISE 1"
+    "EXCISE ACT",
+    "I"
    ]
   },
   {
    "col_no": "10",
-   "name": "1990 ACT Vv",
+   "name": "EXCISE ACT | V",
    "header": [
-    "1990 ACT Vv"
+    "EXCISE ACT",
+    "V"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "STATE/UT/CITY I (2)",
+   "col_no": "11",
+   "name": "PROHIBITION ACT | I",
    "header": [
-    "STATE/UT/CITY I (2)"
+    "PROHIBITION ACT",
+    "I"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "PROHIBITION Vv (11)",
+   "col_no": "12",
+   "name": "PROHIBITION ACT | V",
    "header": [
-    "PROHIBITION Vv (11)"
+    "PROHIBITION ACT",
+    "V"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "ACT I (12)",
+   "col_no": "13",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT | I",
    "header": [
-    "ACT I (12)"
+    "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT",
+    "I"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "EXPLOSIVES & EXPLOSIVE SUBSTANCES Vv (13)",
+   "col_no": "14",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT | V",
    "header": [
-    "EXPLOSIVES & EXPLOSIVE SUBSTANCES Vv (13)"
+    "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT",
+    "V"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "IMMORAL ACT I (414)",
+   "col_no": "15",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | I",
    "header": [
-    "IMMORAL ACT I (414)"
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "I"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "TRAFFIC (PREVENT LUN) ACT Vv (15) ,",
+   "col_no": "16",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | V",
    "header": [
-    "TRAFFIC (PREVENT LUN) ACT Vv (15) ,"
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "V"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "INDIAN ACT I (16)",
+   "col_no": "17",
+   "name": "INDIAN RAILWAYS ACT | I",
    "header": [
-    "INDIAN ACT I (16)"
+    "INDIAN RAILWAYS ACT",
+    "I"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "RAILWAYS Vv (17) (18)",
+   "col_no": "18",
+   "name": "INDIAN RAILWAYS ACT | V",
    "header": [
-    "RAILWAYS Vv (17) (18)"
+    "INDIAN RAILWAYS ACT",
+    "V"
    ]
   },
   {
    "col_no": "19",
-   "name": "Poorer: I",
+   "name": "FOREIGNER'S REGISTRATION ACT | I",
    "header": [
-    "Poorer: I"
+    "FOREIGNER'S REGISTRATION ACT",
+    "I"
    ]
   },
   {
    "col_no": "20",
-   "name": "+ § REGISTRATION ACT Vv",
+   "name": "FOREIGNER'S REGISTRATION ACT | V",
    "header": [
-    "+ § REGISTRATION ACT Vv"
+    "FOREIGNER'S REGISTRATION ACT",
+    "V"
    ]
   },
   {
    "col_no": "21",
-   "name": "OF RIGHTS I",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | I",
    "header": [
-    "OF RIGHTS I"
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "I"
    ]
   },
   {
    "col_no": "22",
-   "name": "CIVIL ACT v",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | V",
    "header": [
-    "CIVIL ACT v"
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "V"
    ]
   },
   {
    "col_no": "23",
-   "name": "INDIAN PASSPORT ACT I",
+   "name": "INDIAN PASSPORT ACT | I",
    "header": [
-    "INDIAN PASSPORT ACT I"
+    "INDIAN PASSPORT ACT",
+    "I"
    ]
   },
   {
    "col_no": "24",
-   "name": "ERSENTTAT | Vv",
+   "name": "INDIAN PASSPORT ACT | V",
    "header": [
-    "ERSENTTAT",
-    "Vv"
+    "INDIAN PASSPORT ACT",
+    "V"
    ]
   },
   {
    "col_no": "25",
-   "name": "ERSENTTAT | ACT I",
+   "name": "ESSENTIAL COMMODITIES ACT | I",
    "header": [
-    "ERSENTTAT",
-    "ACT I"
+    "ESSENTIAL COMMODITIES ACT",
+    "I"
    ]
   },
   {
    "col_no": "26",
-   "name": "ERSENTTAT | IES Vv",
+   "name": "ESSENTIAL COMMODITIES ACT | V",
    "header": [
-    "ERSENTTAT",
-    "IES Vv"
+    "ESSENTIAL COMMODITIES ACT",
+    "V"
    ]
   },
   {
    "col_no": "27",
-   "name": "nnn & I",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | I",
    "header": [
-    "nnn & I"
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
+    "I"
    ]
   },
   {
    "col_no": "28",
-   "name": "nn VISNUFTIVE ACT Vv",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | V",
    "header": [
-    "nn VISNUFTIVE ACT Vv"
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
+    "V"
    ]
   },
   {
    "col_no": "29",
-   "name": "ANTIQUITY TREASURE I",
+   "name": "ANTIQUITY & ART TREASURE ACT | I",
    "header": [
-    "ANTIQUITY TREASURE I"
+    "ANTIQUITY & ART TREASURE ACT",
+    "I"
    ]
   },
   {
    "col_no": "30",
-   "name": "2 | & ACT Vv",
+   "name": "ANTIQUITY & ART TREASURE ACT | V",
    "header": [
-    "2",
-    "& ACT Vv"
+    "ANTIQUITY & ART TREASURE ACT",
+    "V"
    ]
   },
   {
    "col_no": "31",
-   "name": "2 | ART I",
+   "name": "DOWRY PROHIBITION ACT | I",
    "header": [
-    "2",
-    "ART I"
+    "DOWRY PROHIBITION ACT",
+    "I"
    ]
   },
   {
    "col_no": "32",
-   "name": "2 DOWRY PROHIBITION ACT Vv",
+   "name": "DOWRY PROHIBITION ACT | V",
    "header": [
-    "2 DOWRY PROHIBITION ACT Vv"
+    "DOWRY PROHIBITION ACT",
+    "V"
    ]
   },
   {
    "col_no": "33",
-   "name": "- + +--+ +--+ | OTHER LSL",
+   "name": "OTHER LSL CRIMES | I",
    "header": [
-    "- + +--+ +--+",
-    "OTHER LSL"
+    "OTHER LSL CRIMES",
+    "I"
    ]
   },
   {
    "col_no": "34",
-   "name": "- + +--+ +--+ | CRIMES Vv",
+   "name": "OTHER LSL CRIMES | V",
    "header": [
-    "- + +--+ +--+",
-    "CRIMES Vv"
+    "OTHER LSL CRIMES",
+    "V"
    ]
   },
   {
    "col_no": "35",
-   "name": "- TOTAL CRIMES I",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER LSL | I",
    "header": [
-    "- TOTAL CRIMES I"
+    "TOTAL COGNIZABLE CRIMES UNDER LSL",
+    "I"
    ]
   },
   {
    "col_no": "36",
-   "name": "- COGNIZABLE LSL UNDER Vv",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER LSL | V",
    "header": [
-    "- COGNIZABLE LSL UNDER Vv"
+    "TOTAL COGNIZABLE CRIMES UNDER LSL",
+    "V"
    ]
   }
  ],
- "notes": [
-  "Note: Volume less than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 45,
-  "cells_passed": 25,
+  "cells_checked": 48,
+  "cells_passed": 46,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 55986, sum 55896",
-   "col 5 'TOTAL (STATES)': printed 12730, sum 12651",
-   "col 7 'TOTAL (STATES)': printed 165769, sum 165679",
-   "col 10001 '+ TOTAL (UTs)': printed 62, sum 60",
-   "col 10003 'TOTAL (STATES)': printed 5570, sum 5524",
-   "col 10003 '+ TOTAL (UTs)': printed 30, sum 28",
-   "col 19 'TOTAL (STATES)': printed 2289, sum 1141",
-   "col 19 '+ TOTAL (UTs)': printed 68, sum 65"
+   "col 13 'TOTAL (STATES)': printed 5570, sum 5270",
+   "col 35 'TOTAL (STATES)': printed 3.2432e+06, sum 3.2132e+06"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 4,
  "warnings": []
 }

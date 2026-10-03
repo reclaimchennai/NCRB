@@ -6,81 +6,84 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "50",
- "title": "TABLE",
+ "title": "122 TABLE Statement Indicating motive of Murder and Culpable Homicide not Amounting to",
  "listing_title": "Statement indicating Motive of Murder and Culpable Homicide not Amounting to Murder in Different States / U.T.s / Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1972.pdf",
  "source_file": "raw/cii/1972/table_content/table-52-1972.pdf",
  "source_sha256": "c5102723fe806b4e6e0e8fb998917975e9c4364677b4ac47eea114caa7822544",
  "table_no": "",
- "pdf_title": "TABLE",
- "row_label": "Si. No. il 1 / 2 -",
+ "pdf_title": "122 TABLE Statement Indicating motive of Murder and Culpable Homicide not Amounting to",
+ "row_label": "St. No. / St. No.",
  "pages": [
   1
  ],
- "n_rows": 38,
+ "n_rows": 40,
  "n_cols": 8,
- "n_cells": 266,
+ "n_cells": 320,
  "columns": [
   {
    "col_no": "3",
-   "name": "mative | Gals Muder ‘",
+   "name": "States/U. Ts./Cities",
    "header": [
-    "mative",
-    "Gals Muder ‘"
+    "States/U. Ts./Cities"
    ]
   },
   {
    "col_no": "4",
-   "name": "mative | aise 4 7",
+   "name": "Gain | Murder",
    "header": [
-    "mative",
-    "aise 4 7"
+    "Gain",
+    "Murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "af Afurder Murder 3 -",
+   "name": "Gain | C.H. not amounting to murder",
    "header": [
-    "af Afurder Murder 3 -"
+    "Gain",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "6",
-   "name": "and nal had ing te 6 76",
+   "name": "Dispute over property | Murder",
    "header": [
-    "and nal had ing te 6 76"
+    "Dispute over property",
+    "Murder"
    ]
   },
   {
    "col_no": "7",
-   "name": "Honleide | tae vi Munler -",
+   "name": "Dispute over property | C.H. not amounting to murder",
    "header": [
-    "Honleide",
-    "tae vi Munler -"
+    "Dispute over property",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "8",
-   "name": "Honleide | CL not iagto murder T 8 LOL",
+   "name": "Personal Vendetta | Murder",
    "header": [
-    "Honleide",
-    "CL not iagto murder T 8 LOL"
+    "Personal Vendetta",
+    "Murder"
    ]
   },
   {
    "col_no": "9",
-   "name": "mot Murder -",
+   "name": "Personal Vendetta | C.H. not amounting to murder",
    "header": [
-    "mot Murder -"
+    "Personal Vendetta",
+    "C.H. not amounting to murder"
    ]
   },
   {
    "col_no": "10",
-   "name": "(0 not ‘ing 12 funder 10 a 159 -",
+   "name": "Sexual cases | Murder",
    "header": [
-    "(0 not ‘ing 12 funder 10 a 159 -"
+    "Sexual cases",
+    "Murder"
    ]
   }
  ],
@@ -92,7 +95,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

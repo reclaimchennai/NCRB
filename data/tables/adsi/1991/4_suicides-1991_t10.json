@@ -6,57 +6,53 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1991",
  "serial": "4",
- "title": "Suicidal Deaths in India",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 29 TABLE - 10",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1991.pdf",
  "source_file": "raw/adsi/1991/year_wise/suicides-1991.pdf",
  "source_sha256": "e59e4f057e2bb98540933e680aee79ab44235cf019f10099541b9a87cb4f37db",
  "table_no": "10",
- "pdf_title": "",
- "row_label": "Sl. No. / Comparative State/UT/City",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 29 TABLE - 10",
+ "row_label": "Incidence",
  "pages": [
+  11,
   11
  ],
- "n_rows": 47,
+ "n_rows": 48,
  "n_cols": 3,
- "n_cells": 141,
+ "n_cells": 142,
  "columns": [
   {
-   "col_no": "3",
-   "name": "of Incidence of Suicides during 1990 and 1991 | (State, UT & City-wise) 1990",
+   "col_no": "4",
+   "name": "Incidence",
    "header": [
-    "of Incidence of Suicides during 1990 and 1991",
-    "(State, UT & City-wise) 1990"
+    "Incidence"
    ]
   },
   {
-   "col_no": "4",
-   "name": "of Incidence of Suicides during 1990 and 1991 | 1991",
-   "header": [
-    "of Incidence of Suicides during 1990 and 1991",
-    "1991"
-   ]
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "of Incidence of Suicides during 1990 and 1991 | Percentage variation in 1991 over 1990",
-   "header": [
-    "of Incidence of Suicides during 1990 and 1991",
-    "Percentage variation in 1991 over 1990"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 4,
-  "failures": [],
+  "cells_checked": 6,
+  "cells_passed": 5,
+  "failures": [
+   "col 4 'Total (States)': printed 76731, sum 78722"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -8,26 +8,35 @@
  "serial": "6",
  "title": "Publication over the Years",
  "listing_title": "Publication over the Years",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653992187_publication-year_0.pdf",
  "source_file": "raw/cii/1992/year_wise/1653992187_publication-year_0.pdf",
  "source_sha256": "6edd9364d3333edf44bcb3b7927b509e2b0dd0ebfded05a0cb3e1d0c4cdad07e",
  "table_no": "",
- "pdf_title": "(iv)",
- "row_label": "CRIME IN INDIA YEAR OF PUBLICATION MONTH",
+ "pdf_title": "(iv) CRIME IN INDIA",
+ "row_label": "YEAR OF PUBLICATION",
  "pages": [
   1
  ],
- "n_rows": 38,
- "n_cols": 1,
- "n_cells": 38,
+ "n_rows": 40,
+ "n_cols": 2,
+ "n_cells": 80,
  "columns": [
   {
    "col_no": "2",
-   "name": "PUBLISHED IN YEAR",
+   "name": "PUBLISHED IN | MONTH",
    "header": [
-    "PUBLISHED IN YEAR"
+    "PUBLISHED IN",
+    "MONTH"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "PUBLISHED IN | YEAR",
+   "header": [
+    "PUBLISHED IN",
+    "YEAR"
    ]
   }
  ],
@@ -39,7 +48,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -6,60 +6,70 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "MURDER",
+ "title": "84 APPENDIX KIDNAPPING AND",
  "listing_title": "Annexures",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1969.pdf",
  "source_file": "raw/cii/1969/table_chapter/appendix-1969.pdf",
  "source_sha256": "a75b83a19ff606bf46a76a58309508479227b481a4bef1e967c9a9a899a65179",
  "table_no": "",
- "pdf_title": "MURDER",
- "row_label": "Si.. States/U. No. / Ts./Cities / Cases pending investigation from Previous year",
+ "pdf_title": "84 APPENDIX KIDNAPPING AND",
+ "row_label": "Sl. No.",
  "pages": [
-  4
+  6
  ],
  "n_rows": 39,
- "n_cols": 5,
- "n_cells": 194,
+ "n_cols": 7,
+ "n_cells": 273,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Cases reported during the | Cases pending disposal in courts",
+   "col_no": "2",
+   "name": "States/U.Ts./Cities",
    "header": [
-    "Cases reported during the",
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year",
+   "header": [
+    "Cases pending investigation from previous year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending disposal in courts",
+   "header": [
     "Cases pending disposal in courts"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases reported during the | year",
+   "name": "Cases reported during the year",
    "header": [
-    "Cases reported during the",
-    "year"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases | Cases not —investigated (+) false (+) mistake of fact or Jaw (+) nonable",
+   "name": "Cases not investigated (+) declared false +) mistake of fact or law (+) non-cognizable.",
    "header": [
-    "Cases",
-    "Cases not —investigated (+) false (+) mistake of fact or Jaw (+) nonable"
+    "Cases not investigated (+) declared false +) mistake of fact or law (+) non-cognizable."
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases | ing investigation atthe end the - year",
+   "name": "Cases pending investigation at the end of the year",
    "header": [
-    "Cases",
-    "ing investigation atthe end the - year"
+    "Cases pending investigation at the end of the year"
    ]
   },
   {
    "col_no": "8",
-   "name": "Cases ing trial the at end of the of year",
+   "name": "Cases pending trial at the end of the year",
    "header": [
-    "Cases ing trial the at end of the of year"
+    "Cases pending trial at the end of the year"
    ]
   }
  ],
@@ -68,8 +78,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 12,
-  "other_totals_passed": 10
+  "other_totals_checked": 24,
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

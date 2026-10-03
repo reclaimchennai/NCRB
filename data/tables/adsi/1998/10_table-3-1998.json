@@ -8,53 +8,51 @@
  "serial": "10",
  "title": "Comparative Statement of Incidence of Accidental Deaths during 1997 and 1998 (State, UT & City-wise)",
  "listing_title": "Comparative Statement of Incidence of Accidental Deaths during 1997 and 1998 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-3_1998.pdf",
  "source_file": "raw/adsi/1998/table_content/table-3_1998.pdf",
  "source_sha256": "ff061a40b76bf52eb6c774bde13cc756281dfe9f37a263b1b0db094f004659b1",
  "table_no": "3",
- "pdf_title": "",
- "row_label": "SI. No. / Comparative Statement of Incidence of Accidental Deaths During (State, UT & City-wise)",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) Table-3 Comparative Statement of Incidence of Accidental Deaths During 1997 and 1998 (State, UT & City-wise)",
+ "row_label": "Incidence",
  "pages": [
+  1,
   1
  ],
- "n_rows": 58,
+ "n_rows": 60,
  "n_cols": 3,
- "n_cells": 159,
+ "n_cells": 178,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Comparative Statement of Incidence of Accidental Deaths During (State, UT & City-wise) | Incidence 4997",
+   "col_no": "4",
+   "name": "Incidence",
    "header": [
-    "Comparative Statement of Incidence of Accidental Deaths During (State, UT & City-wise)",
-    "Incidence 4997"
+    "Incidence"
    ]
   },
   {
-   "col_no": "4",
-   "name": "1997 and 1998",
-   "header": [
-    "1997 and 1998"
-   ]
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "1998 Variation in Percent {909 over 1097",
-   "header": [
-    "1998 Variation in Percent {909 over 1097"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 2,
-  "failures": [],
+  "cells_checked": 8,
+  "cells_passed": 7,
+  "failures": [
+   "col 4 'Total (States)': printed 251016, sum 253014"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -6,132 +6,47 @@
  "topic": "",
  "section": "Crime in India 1961",
  "serial": "2",
- "title": "ROBBERY—",
+ "title": "24 MURDER—",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689771827appendicesall0.pdf",
  "source_file": "raw/cii/1961/year_wise/1689771827appendicesall0.pdf",
  "source_sha256": "603ed9164c3beb2f70cc0e25c10c65c762a1069515ff8205289c1a052246f1bb",
  "table_no": "",
- "pdf_title": "ROBBERY—",
- "row_label": "sl. No. / State",
+ "pdf_title": "24 MURDER—",
+ "row_label": "Sl. No.",
  "pages": [
-  17,
-  19,
-  20
+  7
  ],
- "n_rows": 77,
- "n_cols": 14,
- "n_cells": 459,
+ "n_rows": 34,
+ "n_cols": 4,
+ "n_cells": 136,
  "columns": [
   {
    "col_no": "3",
-   "name": "Cases pending investigation from previous year",
-   "header": [
-    "Cases pending investigation from previous year"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "Cases | Cases pending disposal incourt",
+   "name": "State",
    "header": [
-    "Cases",
-    "Cases pending disposal incourt"
+    "State"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases | Casos repirted durng the year",
+   "name": "Persons in custody pending investigation or on bail during the stage of investigation",
    "header": [
-    "Cases",
-    "Casos repirted durng the year"
+    "Persons in custody pending investigation or on bail during the stage of investigation"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases | not investigated, declared false or mistake of fact or lawor non-cognizable and pending investigation or trial",
+   "name": "Persons in custody pending trial or on bail during the stage of trial",
    "header": [
-    "Cases",
-    "not investigated, declared false or mistake of fact or lawor non-cognizable and pending investigation or trial"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Cases | Total true cases",
-   "header": [
-    "Cases",
-    "Total true cases"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Cases | Cases not detected",
-   "header": [
-    "Cases",
-    "Cases not detected"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Persons incustody pending | - trial or on bail during the stage of trial",
-   "header": [
-    "Persons incustody pending",
-    "- trial or on bail during the stage of trial"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Persons incustody pending | Persons arrested during the year",
-   "header": [
-    "Persons incustody pending",
-    "Persons arrested during the year"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Persons released by the Police or Magistrate before trial",
-   "header": [
-    "Persons released by the Police or Magistrate before trial"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Persons | acquitted or discharged",
-   "header": [
-    "Persons",
-    "acquitted or discharged"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Persons | Persons against whom cases were compounded or withdrawn",
-   "header": [
-    "Persons",
-    "Persons against whom cases were compounded or withdrawn"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Persons in custody pending investigation or on bail duringthe stage of investigation at theend of the year",
-   "header": [
-    "Persons in custody pending investigation or on bail duringthe stage of investigation at theend of the year"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Appendia—X | Persons in custody pending trial or on bail during the stage of trial at the end of the year",
-   "header": [
-    "Appendia—X",
-    "Persons in custody pending trial or on bail during the stage of trial at the end of the year"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Appendia—X | Percentage of conviction",
-   "header": [
-    "Appendia—X",
-    "Percentage of conviction"
+    "Persons in custody pending trial or on bail during the stage of trial"
    ]
   }
  ],
@@ -140,10 +55,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 10,
-  "other_totals_passed": 3
+  "other_totals_checked": 11,
+  "other_totals_passed": 9
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 1,
  "warnings": []
 }

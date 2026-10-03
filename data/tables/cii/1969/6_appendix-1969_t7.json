@@ -6,37 +6,63 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "Iv",
+ "title": "90 APPENDIX HOUSE-BREAKING",
  "listing_title": "Annexures",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1969.pdf",
  "source_file": "raw/cii/1969/table_chapter/appendix-1969.pdf",
  "source_sha256": "a75b83a19ff606bf46a76a58309508479227b481a4bef1e967c9a9a899a65179",
  "table_no": "",
- "pdf_title": "Iv",
- "row_label": "(CASES Cases Cases Cases in conviccom Total ted which poundtrue edor trials cases",
+ "pdf_title": "90 APPENDIX HOUSE-BREAKING",
+ "row_label": "Sl. No.",
  "pages": [
-  9
+  12
  ],
- "n_rows": 35,
- "n_cols": 2,
- "n_cells": 67,
+ "n_rows": 39,
+ "n_cols": 6,
+ "n_cells": 234,
  "columns": [
   {
-   "col_no": "2",
-   "name": "- | Percent- Cases Cases not acquitage tedor of detectdised cases",
+   "col_no": "3",
+   "name": "States/U. Ts./Cities",
    "header": [
-    "-",
-    "Percent- Cases Cases not acquitage tedor of detectdised cases"
+    "States/U. Ts./Cities"
    ]
   },
   {
-   "col_no": "3",
-   "name": "- | Percent- Voume Cases ageof in of which crime cases conper charge",
+   "col_no": "4",
+   "name": "Cases pending investigation from previous year.",
    "header": [
-    "-",
-    "Percent- Voume Cases ageof in of which crime cases conper charge"
+    "Cases pending investigation from previous year."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases pending disposal in courts",
+   "header": [
+    "Cases pending disposal in courts"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases reported during the year",
+   "header": [
+    "Cases reported during the year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases not investigated (+) declared false (+) mistake of fact or law (+) non co gni-zable",
+   "header": [
+    "Cases not investigated (+) declared false (+) mistake of fact or law (+) non co gni-zable"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Cases pending investigation at the end of the year.",
+   "header": [
+    "Cases pending investigation at the end of the year."
    ]
   }
  ],
@@ -45,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 20,
+  "other_totals_passed": 20
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

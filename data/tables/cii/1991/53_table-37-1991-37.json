@@ -8,97 +8,135 @@
  "serial": "53",
  "title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1991 (State, UT & City-Wise)",
  "listing_title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1991 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-37-1991-37.pdf",
  "source_file": "raw/cii/1991/table_content/table-37-1991-37.pdf",
  "source_sha256": "5951ab4463edd5e52713b901ae62341fa3bdfc52354c29c9423e44d1c027f4bc",
  "table_no": "37",
- "pdf_title": "(1PC) UNDER DIFFERENT CRIME HEADS DURING 1771",
- "row_label": "& wo, uy BIATES: 1 PRADESH 2 3 ASSAM 4 5 & GUJARAT 7 HIMACHAL & # 10 Vt",
+ "pdf_title": "146 TABLE-37 JUVENILE DELINQUENCY (IPC) UNDER DIFFERENT CRIME HEADS DURING 1991",
+ "row_label": "PREPARATION ANC ASSEMBLY FOR DACOITY",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 29,
- "n_cols": 8,
- "n_cells": 196,
+ "n_rows": 90,
+ "n_cols": 17,
+ "n_cells": 799,
  "columns": [
   {
-   "col_no": "2",
-   "name": "& | {23 9 ARUMACHAL \"1 18 BIHAR a Goa 2 25 a PRADESH KASEMIR 15 EERALA",
-   "header": [
-    "&",
-    "{23 9 ARUMACHAL \"1 18 BIHAR a Goa 2 25 a PRADESH KASEMIR 15 EERALA"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "& | ATTEMPT Ta COMMIT (3) 7 PRADESH z a a 5 7 i",
-   "header": [
-    "&",
-    "ATTEMPT Ta COMMIT (3) 7 PRADESH z a a 5 7 i"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "& | ARGUET - ING © MURDER 3) a a a a i a a 4 a a",
-   "header": [
-    "&",
-    "ARGUET - ING © MURDER 3) a a a a i a a 4 a a"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "& | RAPE TO (5) 8 0 iz 5 4 14 5 0 3 4",
-   "header": [
-    "&",
-    "RAPE TO (5) 8 0 iz 5 4 14 5 0 3 4"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "& | - TOTAL 6) 3 4 46 4 ti 5 7 1 a",
-   "header": [
-    "&",
-    "- TOTAL 6) 3 4 46 4 ti 5 7 1 a"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "& | 4 «GF tay 3 a 43 & a 5 & 1 a 2 a",
-   "header": [
-    "&",
-    "4 «GF tay 3 a 43 & a 5 & 1 a 2 a"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "& | ABDUCTION oF OTHERS (3 a a 3 Q a a 1 a a a",
-   "header": [
-    "&",
-    "ABDUCTION oF OTHERS (3 a a 3 Q a a 1 a a a"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "8 i) 3 a 9 a 5 a a a",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "col_10",
+   "header": []
+  },
+  {
+   "col_no": "13",
+   "name": "ROBBERY",
    "header": [
-    "8 i) 3 a 9 a 5 a a a"
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "THEFT",
+   "header": [
+    "THEFT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "RIOTS",
+   "header": [
+    "RIOTS"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CRIMINAL BREACH OF TRUST",
+   "header": [
+    "CRIMINAL BREACH OF TRUST"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "CREATING",
+   "header": [
+    "CREATING"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "COUNTER-FEITING",
+   "header": [
+    "COUNTER-FEITING"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "OTHER IPC CRIMES",
+   "header": [
+    "OTHER IPC CRIMES"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL COG. CRIMES UNDER IPC",
+   "header": [
+    "TOTAL COG. CRIMES UNDER IPC"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 0,
-  "failures": [
-   "col 2 'TOTAL (STATES)': printed 345, sum 62",
-   "col 5 'TOTAL (STATES)': printed 183, sum 132"
-  ],
-  "other_totals_checked": 3,
-  "other_totals_passed": 2
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

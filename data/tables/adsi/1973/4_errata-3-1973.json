@@ -8,50 +8,44 @@
  "serial": "4",
  "title": "Errata",
  "listing_title": "Errata",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/errata_3_1973.pdf",
  "source_file": "raw/adsi/1973/year_wise/errata_3_1973.pdf",
  "source_sha256": "326c2ce6a38b59778886987a0fb99297627bedd0f0c4e1e5228fe721330eeb77",
  "table_no": "",
- "pdf_title": "ERRATA",
- "row_label": "occidental ge",
+ "pdf_title": "ERRATA Accidental Deaths & Suicides in India-1973. Note:-1. Graph shown at page No.7 relates to Suicides and may be treated at Page No.21.",
+ "row_label": "Age No.",
  "pages": [
   1
  ],
  "n_rows": 15,
  "n_cols": 3,
- "n_cells": 44,
+ "n_cells": 45,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Deaths & Noe",
+   "col_no": "2",
+   "name": "Line No.",
    "header": [
-    "Deaths & Noe"
+    "Line No."
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Read",
+   "header": [
+    "Read"
    ]
   },
   {
    "col_no": "4",
-   "name": "Suicides Read Line",
+   "name": "Instead of",
    "header": [
-    "Suicides Read Line"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "India-1973,. in - Instead of No.",
-   "header": [
-    "India-1973,. in - Instead of No."
+    "Instead of"
    ]
   }
  ],
- "notes": [
-  "Notes~1. Graph shown at page No.7 relates to",
-  "Suicides and may be treated at Page No.21.",
-  "2. Graph shown at page No.21 relates to",
-  "Accidental Deaths and may be treated at",
-  "Page No.7."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -59,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

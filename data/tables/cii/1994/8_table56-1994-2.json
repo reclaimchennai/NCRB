@@ -8,32 +8,48 @@
  "serial": "8",
  "title": "Incidence & Rate of Crime Committed Against Women During 1994 (State & UT-Wise)",
  "listing_title": "Incidence & Rate of Crime Committed Against Women During 1994 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table56-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table56-1994_2.pdf",
  "source_sha256": "2d94262a24788cf16a231d2a7ddc7e20d5e0b0f2f2a009213f993924a5342c11",
  "table_no": "56",
- "pdf_title": "INCIDENCE & RATE OF CRIME COMmit 1rEv AGAINST WOMEN DURING 1994",
- "row_label": "SL. NO. / STATE/UT / INCIDENCE / ‘STATE & UT-WISE) PERCENTAGE. MID-YEAR POPULATION CONTRIBUTION TO ALL-INDIATOTAL",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-56",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 5,
- "n_cols": 3,
- "n_cells": 11,
+ "n_rows": 35,
+ "n_cols": 5,
+ "n_cells": 172,
  "columns": [
   {
-   "col_no": "5",
-   "name": "ESTIMATED (IN LAKHS)",
+   "col_no": "3",
+   "name": "INCIDENCE",
    "header": [
-    "ESTIMATED (IN LAKHS)"
+    "INCIDENCE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIATOTAL",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIATOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "RA**",
+   "header": [
+    "RA**"
+   ]
   },
   {
    "col_no": "7",
@@ -43,17 +59,10 @@
    ]
   }
  ],
- "notes": [
-  "- TOTAL - gg948 \\ \"100.0 er oe.",
-  "Monthly Crime Statistics.",
-  "Note:1 * Rank on the basis of Rate of total cognizauie crimes (Col.6) in the States & UTs.",
-  "2 less than 0.05 is also shown as 0.0.",
-  "3 **Incidence of crime per lakh of population.",
-  "4 States/UTs with NIL (-) Incidence have not been ranked."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

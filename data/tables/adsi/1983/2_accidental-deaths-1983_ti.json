@@ -6,35 +6,49 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1983",
  "serial": "2",
- "title": "Incidence of *--**--*-\" Deaths and Volume.of +=**==:=: Deaths per lakh of popu- lation in ¥=2i= 2=-ins 1973 to 1983",
+ "title": "2 ACCIDENTAL DEATHS IN INDIA",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1983.pdf",
  "source_file": "raw/adsi/1983/year_wise/accidental-deaths-1983.pdf",
  "source_sha256": "ec54be7cbba566b05c40c8588e7da0ff85323f9601d682b1391343961ecfaf0d",
  "table_no": "I",
- "pdf_title": "Incidence of *--**--*-\" Deaths and Volume.of +=**==:=: Deaths per lakh of popu- lation in ¥=2i= 2=-ins 1973 to 1983",
- "row_label": "Sl. Year No. 1.1973. 2194. 3195. 41976. 5.1977. / 2.",
+ "pdf_title": "2 ACCIDENTAL DEATHS IN INDIA",
+ "row_label": "Sl. No.",
  "pages": [
   3
  ],
- "n_rows": 7,
- "n_cols": 2,
- "n_cells": 13,
+ "n_rows": 11,
+ "n_cols": 4,
+ "n_cells": 44,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Psthnaiet mid-year oe.",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "Psthnaiet mid-year oe."
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Estimated mid-year population in lakhs",
+   "header": [
+    "Estimated mid-year population in lakhs"
    ]
   },
   {
    "col_no": "4",
-   "name": "- Volume 0!” Total number of ass 18-5 1,06 ,354 5,759 1,10,624 18-8 5,883 18-8 6,008 1,13,016 18-2 1,11,611 6,133 6,258 18-8 1,17,338",
+   "name": "Total number of Accidental Deaths",
    "header": [
-    "- Volume 0!” Total number of ass 18-5 1,06 ,354 5,759 1,10,624 18-8 5,883 18-8 6,008 1,13,016 18-2 1,11,611 6,133 6,258 18-8 1,17,338"
+    "Total number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Volume of Accidental Deaths per lakh of population",
+   "header": [
+    "Volume of Accidental Deaths per lakh of population"
    ]
   }
  ],
@@ -46,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,21 +8,21 @@
  "serial": "39",
  "title": "Juveniles Apprehended under Important Heads of Local & Special Laws During 1985",
  "listing_title": "Juveniles Apprehended under Important Heads of Local & Special Laws During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables39-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables39-1985.pdf",
  "source_sha256": "9d0348ad8f10ad7432ad10432561d9bbe28060763426565970671c773f427b6c",
  "table_no": "39",
- "pdf_title": "Juveniles Apprehended Under Important Heads Of Local & Special",
- "row_label": "SL. STATES/UTS/CITIES NO.",
+ "pdf_title": "96 TABLE - 39 Juveniles Apprehended Under Important Heads Of Local & Special Laws During 1985",
+ "row_label": "SL. NO. / STATES/UTS/CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 52,
- "n_cols": 12,
- "n_cells": 559,
+ "n_rows": 47,
+ "n_cols": 13,
+ "n_cells": 611,
  "columns": [
   {
    "col_no": "3",
@@ -33,23 +33,23 @@
   },
   {
    "col_no": "4",
-   "name": "Laws OPIUM ACT",
+   "name": "OPIUM ACT",
    "header": [
-    "Laws OPIUM ACT"
+    "OPIUM ACT"
    ]
   },
   {
    "col_no": "5",
-   "name": "During ACT",
+   "name": "GAMBLING ACT",
    "header": [
-    "During ACT"
+    "GAMBLING ACT"
    ]
   },
   {
    "col_no": "6",
-   "name": "1985 EXCISE ACT",
+   "name": "EXCISE ACT",
    "header": [
-    "1985 EXCISE ACT"
+    "EXCISE ACT"
    ]
   },
   {
@@ -61,16 +61,16 @@
   },
   {
    "col_no": "8",
-   "name": "EXPLOSIVES & EXPLOSIVE STANCES",
+   "name": "EXPLOSIVES & EXPLOSIVE SUB-STANCES ACT",
    "header": [
-    "EXPLOSIVES & EXPLOSIVE STANCES"
+    "EXPLOSIVES & EXPLOSIVE SUB-STANCES ACT"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF SUPPRESSION SUBIMMORAL ACT TRAFFIC ACT",
+   "name": "SUPPRESSION OF IMMORAL TRAFFIC ACT",
    "header": [
-    "OF SUPPRESSION SUBIMMORAL ACT TRAFFIC ACT"
+    "SUPPRESSION OF IMMORAL TRAFFIC ACT"
    ]
   },
   {
@@ -82,9 +82,9 @@
   },
   {
    "col_no": "11",
-   "name": "OF PREVENTION CORRUPTION ACT «11>",
+   "name": "PREVENTION OF CORRUPTION ACT",
    "header": [
-    "OF PREVENTION CORRUPTION ACT «11>"
+    "PREVENTION OF CORRUPTION ACT"
    ]
   },
   {
@@ -103,23 +103,26 @@
   },
   {
    "col_no": "14",
-   "name": "TOTAL COGNI ZABLE OTHER CRIME OFFENCES UNDER L& SL +15)",
+   "name": "OTHER OFFENCES",
    "header": [
-    "TOTAL COGNI ZABLE OTHER CRIME OFFENCES UNDER L& SL +15)"
+    "OTHER OFFENCES"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "TOTAL COGNIZABLE CRIME UNDER L & SL",
+   "header": [
+    "TOTAL COGNIZABLE CRIME UNDER L & SL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 23,
-  "cells_passed": 20,
-  "failures": [
-   "col 7 'TOTAL (U.Ts. )': printed 2, sum 9",
-   "col 10 'TOTAL (CITIES)': printed 2419, sum 2061",
-   "col 14 'TOTAL (U.Ts. )': printed 1.06525e+07, sum 2.44544e+06"
-  ],
+  "cells_checked": 26,
+  "cells_passed": 26,
+  "failures": [],
   "other_totals_checked": 10,
-  "other_totals_passed": 9
+  "other_totals_passed": 10
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

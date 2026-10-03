@@ -1,0 +1,76 @@
+{
+ "table_id": "cii/1983/34_table-58-1983",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "34",
+ "title": "Statement Showing of Civil Police including District Armed Police as on 31.12.1983",
+ "listing_title": "Statement Showing of Civil Police including District Armed Police as on 31.12.1983",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-58-1983.pdf",
+ "source_sha256": "b37ff57d8e044272ec2f01506777c06f653c61f502496bcda892b56ed5377dd1",
+ "table_no": "58",
+ "pdf_title": "142 TABLE 58 Statement showing Strength of Civil Police including District Armed Police as on 31-12-1983",
+ "row_label": "Sl No. / States/U.Ts./Cities",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 231,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "No of D.G./I.G./D.I.G./S.P.",
+   "header": [
+    "No of D.G./I.G./D.I.G./S.P."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "No. of A.S.P./Dy. S.P.",
+   "header": [
+    "No. of A.S.P./Dy. S.P."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "No. of Inspectors Sub-Inspectors",
+   "header": [
+    "No. of Inspectors Sub-Inspectors"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "No. of officers below S.I.",
+   "header": [
+    "No. of officers below S.I."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 14,
+  "cells_passed": 12,
+  "failures": [
+   "col 5 'TOTAL (CITIES)': printed 9243, sum 9234",
+   "col 7 'TOTAL (STATES)': printed 881458, sum 681458"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

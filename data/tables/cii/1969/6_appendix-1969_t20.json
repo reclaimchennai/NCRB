@@ -6,61 +6,70 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "CHEATING—CASES",
+ "title": "105 XIII —PERSONS",
  "listing_title": "Annexures",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1969.pdf",
  "source_file": "raw/cii/1969/table_chapter/appendix-1969.pdf",
  "source_sha256": "a75b83a19ff606bf46a76a58309508479227b481a4bef1e967c9a9a899a65179",
  "table_no": "",
- "pdf_title": "CHEATING—CASES",
- "row_label": "SL States/U. Ts. /Cities No. 1 / Cases Cases pending investigation from previous year 2",
+ "pdf_title": "105 XIII —PERSONS",
+ "row_label": "No. of persons in whose cases trials were completed",
  "pages": [
-  22
+  27
  ],
- "n_rows": 39,
- "n_cols": 5,
- "n_cells": 190,
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Cases | ing disposal in courts 3",
+   "col_no": "2",
+   "name": "Persons convicted",
    "header": [
-    "Cases",
-    "ing disposal in courts 3"
+    "Persons convicted"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Persons acquitted or discharged",
+   "header": [
+    "Persons acquitted or discharged"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases | Cases reported during the year 4",
+   "name": "Persons against whom cases were compounded or withdrawn",
    "header": [
-    "Cases",
-    "Cases reported during the year 4"
+    "Persons against whom cases were compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases | Cases; not investi ted rari decl-} ared false (+-) mistake of fact or law (noncognizable 6",
+   "name": "Number of persons in custody pending investigation or on bail during the stage of investigation at the end of the year",
    "header": [
-    "Cases",
-    "Cases; not investi ted rari decl-} ared false (+-) mistake of fact or law (noncognizable 6"
+    "Number of persons in custody pending investigation or on bail during the stage of investigation at the end of the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases | investigation at the endof the year",
+   "name": "Number of persons in custody pending trials or on bail during the stage of trials at the end of the year",
    "header": [
-    "Cases",
-    "investigation at the endof the year"
+    "Number of persons in custody pending trials or on bail during the stage of trials at the end of the year"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases | Cases” pendtrials at the end of the year 8 -",
+   "name": "Percentage of conviction to total persons in whose cases charge-sheets were laid",
    "header": [
-    "Cases",
-    "Cases” pendtrials at the end of the year 8 -"
+    "Percentage of conviction to total persons in whose cases charge-sheets were laid"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of conviction to total persons in whose cases trials were completed",
+   "header": [
+    "Percentage of conviction to total persons in whose cases trials were completed"
    ]
   }
  ],
@@ -69,10 +78,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 16,
-  "other_totals_passed": 9
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

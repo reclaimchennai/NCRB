@@ -8,14 +8,14 @@
  "serial": "48",
  "title": "Incidence & Rate of Total Crimes Committed Against Women in States and UTs During 1992",
  "listing_title": "Incidence & Rate of Total Crimes Committed Against Women in States and UTs During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-48-1992-survey.pdf",
  "source_sha256": "188e20d044c26490ba53e988d7108b201e3af76fb4cc73ca013fe563fcdf2d92",
  "table_no": "48",
- "pdf_title": "INCIDENCE & RATE OF TOTAL CRIMES COMMITTED AGAINST WOMEN IN STATES AND UTs DURING 1992",
- "row_label": "SL. No. / STATE/UT",
+ "pdf_title": "BUTION TO (IN LAKHS) ALL-INDIA TOTAL",
+ "row_label": "",
  "pages": [
   1
  ],
@@ -25,53 +25,36 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "INCIDENCE",
-   "header": [
-    "INCIDENCE"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "PERCENTAGE CONTRITO BUTION ALL-INDIA TOTAL",
-   "header": [
-    "PERCENTAGE CONTRITO BUTION ALL-INDIA TOTAL"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "RATE | ESTIMATED MID-YEAR POPULATION (IN",
-   "header": [
-    "RATE",
-    "ESTIMATED MID-YEAR POPULATION (IN"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "RATE | (INCIDENCE PER-SAKH POPULALAKHS) TION)",
-   "header": [
-    "RATE",
-    "(INCIDENCE PER-SAKH POPULALAKHS) TION)"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "RANK* OF - CRIMINALITY OF",
-   "header": [
-    "RANK* OF - CRIMINALITY OF"
-   ]
+   "name": "col_7",
+   "header": []
   }
  ],
- "notes": [
-  "NOTE: FIGURES ARE BASED ON MONTHLY CRIME STATISTICS AND MAY BE TREATED",
-  "AS PROVISIONAL."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 1,
-  "failures": [
-   "col 3 'TOTAL (ALL-INDIA)': printed 79037, sum 79027"
-  ],
-  "other_totals_checked": 1,
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

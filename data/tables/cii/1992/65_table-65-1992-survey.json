@@ -8,92 +8,92 @@
  "serial": "65",
  "title": "Police Personnel Killed or Injured on Duty During 1992 (Rank-wise)",
  "listing_title": "Police Personnel Killed or Injured on Duty During 1992 (Rank-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-65-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-65-1992-survey.pdf",
  "source_sha256": "54eb5465f7fbf5eb07a84a2c3b5cf4227c548b97738400ad6f994d8fcc8ac804",
  "table_no": "65",
- "pdf_title": "POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1992",
- "row_label": "(RANK-WISE) SL. No. / (RANK-WISE) RANK",
+ "pdf_title": "295 TABLE-65 POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1992 (RANK-WISE)",
+ "row_label": "SL. RANK NO. / SL. RANK NO.",
  "pages": [
   1,
   2
  ],
- "n_rows": 7,
+ "n_rows": 8,
  "n_cols": 12,
- "n_cells": 82,
+ "n_cells": 84,
  "columns": [
   {
    "col_no": "3",
-   "name": "(RANK-WISE) | IN DACOITY OPERATION OR RAIDS",
+   "name": "KILLED | INDACOITY OPERATION OR OTHER RAIDS",
    "header": [
-    "(RANK-WISE)",
-    "IN DACOITY OPERATION OR RAIDS"
+    "KILLED",
+    "INDACOITY OPERATION OR OTHER RAIDS"
    ]
   },
   {
    "col_no": "4",
-   "name": "(RANK-WISE) | BY RIOTOUS MOBS OTHER",
+   "name": "KILLED | BY RIOTOUS MOBS",
    "header": [
-    "(RANK-WISE)",
-    "BY RIOTOUS MOBS OTHER"
+    "KILLED",
+    "BY RIOTOUS MOBS"
    ]
   },
   {
    "col_no": "5",
-   "name": "(RANK-WISE) | BY OTHER CRIMINALS",
+   "name": "KILLED | BY OTHER CRIMI-NALS",
    "header": [
-    "(RANK-WISE)",
-    "BY OTHER CRIMINALS"
+    "KILLED",
+    "BY OTHER CRIMI-NALS"
    ]
   },
   {
    "col_no": "6",
-   "name": "(RANK-WISE) | KILLED on BORDER DUTIES",
+   "name": "KILLED | ON BORDER DUTIES",
    "header": [
-    "(RANK-WISE)",
-    "KILLED on BORDER DUTIES"
+    "KILLED",
+    "ON BORDER DUTIES"
    ]
   },
   {
    "col_no": "7",
-   "name": "(RANK-WISE) | 2-2 IN ACCIDENTS",
+   "name": "KILLED | IN ACCIDENTS",
    "header": [
-    "(RANK-WISE)",
-    "2-2 IN ACCIDENTS"
+    "KILLED",
+    "IN ACCIDENTS"
    ]
   },
   {
    "col_no": "8",
-   "name": "(RANK-WISE) | - TOTAL",
+   "name": "KILLED | TOTAL",
    "header": [
-    "(RANK-WISE)",
-    "- TOTAL"
+    "KILLED",
+    "TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "INJURED | IN DACOITY OPERATION OR RAIDS",
+   "name": "INJURED | INDACOITY OPERATION OR OTHER RAIDS",
    "header": [
     "INJURED",
-    "IN DACOITY OPERATION OR RAIDS"
+    "INDACOITY OPERATION OR OTHER RAIDS"
    ]
   },
   {
    "col_no": "10",
-   "name": "INJURED | BY RIOTOUS MOBS OTHER",
+   "name": "INJURED | BY RIOTOUS MOBS",
    "header": [
     "INJURED",
-    "BY RIOTOUS MOBS OTHER"
+    "BY RIOTOUS MOBS"
    ]
   },
   {
    "col_no": "11",
-   "name": "INJURED | BY OTHER CRIMINALS",
+   "name": "INJURED | BY OTHER CRIMI-NALS",
    "header": [
     "INJURED",
-    "BY OTHER CRIMINALS"
+    "BY OTHER CRIMI-NALS"
    ]
   },
   {
@@ -121,15 +121,13 @@
    ]
   }
  ],
- "notes": [
-  "39—526 NCRB/94."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 3
+  "other_totals_checked": 10,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

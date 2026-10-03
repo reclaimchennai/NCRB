@@ -8,26 +8,50 @@
  "serial": "31",
  "title": "Juvenile Delinquency",
  "listing_title": "Juvenile Delinquency",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables31-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables31-1985.pdf",
  "source_sha256": "5b92a58cd8ad5ba14f0c42842404c90753703fdafaabc5d8982dca3ae610b750",
  "table_no": "31",
- "pdf_title": "",
- "row_label": "No.",
+ "pdf_title": "82 TABLE -31 Juvenile Delinquency",
+ "row_label": "NUMBER OF CASES REPORTED DURING",
  "pages": [
+  1,
+  1,
+  2,
   2
  ],
- "n_rows": 15,
- "n_cols": 4,
- "n_cells": 57,
+ "n_rows": 16,
+ "n_cols": 9,
+ "n_cells": 131,
  "columns": [
   {
-   "col_no": "2",
-   "name": "AVERAGE",
+   "col_no": "4",
+   "name": "NUMBER OF CASES REPORTED DURING (4)",
    "header": [
-    "AVERAGE"
+    "NUMBER OF CASES REPORTED DURING"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF CASES REPORTED DURING (5)",
+   "header": [
+    "NUMBER OF CASES REPORTED DURING"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NUMBER OF CASES REPORTED DURING (6)",
+   "header": [
+    "NUMBER OF CASES REPORTED DURING"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF CASES REPORTED DURING (7)",
+   "header": [
+    "NUMBER OF CASES REPORTED DURING"
    ]
   },
   {
@@ -36,15 +60,23 @@
    "header": []
   },
   {
-   "col_no": "4",
-   "name": "a",
-   "header": [
-    "a"
-   ]
+   "col_no": "8",
+   "name": "col_8",
+   "header": []
   },
   {
-   "col_no": "5",
-   "name": "col_5",
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "col_10",
+   "header": []
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
    "header": []
   }
  ],
@@ -53,10 +85,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 3
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

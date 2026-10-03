@@ -6,16 +6,16 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "Incidence of crimes revorted under (PC during 1999",
+ "title": "N.C.R.B. (M.H.A.) CRIME IN INDIA - 1999 ## Rate of Crime (IPC)",
  "listing_title": "Crimes in Mega Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter2-1999.pdf",
  "source_file": "raw/cii/1999/table_chapter/chapter2-1999.pdf",
  "source_sha256": "ba69ec7ceb64bc0a6b91994598eef2edfe62d951432d05059774d5f8519485e7",
  "table_no": "2.4",
- "pdf_title": "Incidence of crimes revorted under (PC during 1999",
- "row_label": "Sl. Crime Head No.",
+ "pdf_title": "N.C.R.B. (M.H.A.) CRIME IN INDIA - 1999 ## Rate of Crime (IPC)",
+ "row_label": "Sl. No. / Crime Head",
  "pages": [
   4
  ],
@@ -24,31 +24,28 @@
  "n_cells": 81,
  "columns": [
   {
-   "col_no": "2",
+   "col_no": "3",
    "name": "All-India",
    "header": [
     "All-India"
    ]
   },
   {
-   "col_no": "3",
+   "col_no": "4",
    "name": "Cities",
    "header": [
     "Cities"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Share of Cities to All- India",
+   "col_no": "5",
+   "name": "Share of Cities to All-India",
    "header": [
-    "Share of Cities to All- India"
+    "Share of Cities to All-India"
    ]
   }
  ],
- "notes": [
-  "Note Total Theft cases do not match with the sum of ‘Auto Theft’ cases arid ‘other Theft’ cases due .0",
-  "Sikkim data."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -56,7 +53,7 @@
   "other_totals_checked": 2,
   "other_totals_passed": 2
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

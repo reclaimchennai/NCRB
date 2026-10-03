@@ -8,43 +8,49 @@
  "serial": "63",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1983-93",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1983-93",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-63-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-63-1993-crime.pdf",
  "source_sha256": "c25a33200fabdf5d3ae78198564709eced2ac12efe8c77479d55a2cdc3f4f47a",
  "table_no": "63",
- "pdf_title": "VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
- "row_label": "",
+ "pdf_title": "282 TABLE-63 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
+ "row_label": "SL NO.",
  "pages": [
   1
  ],
- "n_rows": 14,
+ "n_rows": 12,
  "n_cols": 4,
- "n_cells": 49,
+ "n_cells": 48,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "YEAR",
+   "header": [
+    "YEAR"
+   ]
   },
   {
    "col_no": "3",
-   "name": "DURING 1983-93",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
-    "DURING 1983-93"
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
+   "header": [
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
+   ]
   },
   {
    "col_no": "5",
-   "name": "in",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "in"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],

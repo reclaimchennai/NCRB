@@ -8,49 +8,144 @@
  "serial": "38",
  "title": "Juvenile Delinquency (LSL) under Different Crime Heads During 1990 (State, UT & City-Wise)",
  "listing_title": "Juvenile Delinquency (LSL) under Different Crime Heads During 1990 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/38table-38-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/38table-38-1990-.pdf",
  "source_sha256": "22f87475fb9b39012dd5643cd2d8163488ec456effa04280b216780a6cc41f8c",
  "table_no": "38",
- "pdf_title": "",
- "row_label": "PROTECFOREIGOF NER'S REGISTRATION ACT q11) / ANTIQUITY INDIAN TION rassrunr CIVIL ACT RIGHTS ACT / ANTIQUITY ESSENTIAL COMMODITIES ACT / ANTIQUITY & Disnurrive ACT / ANTIQUITY & TREASURE ACT / ANTIQUITY DOWRY ART PROHIBITION ACT",
+ "pdf_title": "146 TABLE-38 JUVENILE DELINQUENCY (LSL) UNDER DIFFERENT CRIME HEADS DURING 1990 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
+  1,
   2
  ],
- "n_rows": 46,
- "n_cols": 2,
- "n_cells": 91,
+ "n_rows": 94,
+ "n_cols": 16,
+ "n_cells": 752,
  "columns": [
   {
-   "col_no": "18",
-   "name": "ANTIQUITY | OTHER LSL CRIMES",
+   "col_no": "3",
+   "name": "ARMS ACT",
    "header": [
-    "ANTIQUITY",
+    "ARMS ACT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NARCOTIC DRUGS & PSYCHO. SUBS. ACT",
+   "header": [
+    "NARCOTIC DRUGS & PSYCHO. SUBS. ACT"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "GAMBLING ACT",
+   "header": [
+    "GAMBLING ACT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EXCISE ACT",
+   "header": [
+    "EXCISE ACT"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PROHIBI- TION ACT",
+   "header": [
+    "PROHIBI- TION ACT"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "EXPLO- SIVES & EXPLOSIVE SUBSTANCES",
+   "header": [
+    "EXPLO- SIVES & EXPLOSIVE SUBSTANCES"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "IMMORAL TRAFFIC (PREV- ENTION)",
+   "header": [
+    "IMMORAL TRAFFIC (PREV- ENTION)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "INDIAN RLYS. ACT",
+   "header": [
+    "INDIAN RLYS. ACT"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "PROTEC-TION OF CIVIL RIGHTS ACT",
+   "header": [
+    "PROTEC-TION OF CIVIL RIGHTS ACT"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "INDIAN PASSPORT ACT",
+   "header": [
+    "INDIAN PASSPORT ACT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "ESSENTIAL COMMO-DITIES ACT",
+   "header": [
+    "ESSENTIAL COMMO-DITIES ACT"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
+   "header": [
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "ANTIQUITY & ART TREASURE ACT",
+   "header": [
+    "ANTIQUITY & ART TREASURE ACT"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "DOWRY PROHI-BITION ACT",
+   "header": [
+    "DOWRY PROHI-BITION ACT"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "OTHER LSL CRIMES",
+   "header": [
     "OTHER LSL CRIMES"
    ]
   },
   {
    "col_no": "19",
-   "name": "ANTIQUITY | TOTAL coG. CRIMES UNDER LSL",
+   "name": "TOTAL COG. CRIMES UNDER LSL",
    "header": [
-    "ANTIQUITY",
-    "TOTAL coG. CRIMES UNDER LSL"
+    "TOTAL COG. CRIMES UNDER LSL"
    ]
   }
  ],
- "notes": [
-  "° ° ° ° ° ° ° ° °"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 24,
+  "cells_passed": 24,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

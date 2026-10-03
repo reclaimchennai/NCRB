@@ -8,106 +8,104 @@
  "serial": "34",
  "title": "Juvenile Delinquency for Important Heads of Local & Special Laws During 1985",
  "listing_title": "Juvenile Delinquency for Important Heads of Local & Special Laws During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables34-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables34-1985.pdf",
  "source_sha256": "b8185fd8955b96be6fff6d92123fc277ace09a466195794283cd2ad2335e8272",
- "table_no": "34",
+ "table_no": "",
  "pdf_title": "",
- "row_label": "Juvenile sL. a)",
+ "row_label": "SL. NO. / STATES/U.TS/CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 71,
+ "n_rows": 47,
  "n_cols": 13,
- "n_cells": 602,
+ "n_cells": 611,
  "columns": [
   {
    "col_no": "3",
-   "name": "For RTATER/U.TS/CiT Les",
+   "name": "ARMS ACT",
    "header": [
-    "For RTATER/U.TS/CiT Les"
+    "ARMS ACT"
    ]
   },
   {
    "col_no": "4",
-   "name": "*=:---=:=--: During ARMS",
+   "name": "OPIUM ACT",
    "header": [
-    "*=:---=:=--: During ARMS"
+    "OPIUM ACT"
    ]
   },
   {
    "col_no": "5",
-   "name": "Heads 1985 OPIUM",
+   "name": "GAMBLING ACT",
    "header": [
-    "Heads 1985 OPIUM"
+    "GAMBLING ACT"
    ]
   },
   {
    "col_no": "6",
-   "name": "Of EXCISE",
+   "name": "EXCISE ACT",
    "header": [
-    "Of EXCISE"
+    "EXCISE ACT"
    ]
   },
   {
    "col_no": "7",
-   "name": "Laws Local",
+   "name": "PROHIBITION ACT",
    "header": [
-    "Laws Local"
+    "PROHIBITION ACT"
    ]
   },
   {
    "col_no": "8",
-   "name": "& & ACT -",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT",
    "header": [
-    "& & ACT -"
+    "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF TRAFFIC ACT",
+   "name": "SUPPRESSION OF IMMORAL TRAFFIC ACT",
    "header": [
-    "OF TRAFFIC ACT"
+    "SUPPRESSION OF IMMORAL TRAFFIC ACT"
    ]
   },
   {
    "col_no": "10",
-   "name": "MOTOR IMMORAL ACT",
+   "name": "MOTOR VEHICLES ACT",
    "header": [
-    "MOTOR IMMORAL ACT"
+    "MOTOR VEHICLES ACT"
    ]
   },
   {
    "col_no": "11",
-   "name": "PREVENT LON VEHTCIES ION ACT q11)",
+   "name": "PREVENTION OF CORRUPTION ACT",
    "header": [
-    "PREVENT LON VEHTCIES ION ACT q11)"
+    "PREVENTION OF CORRUPTION ACT"
    ]
   },
   {
    "col_no": "12",
-   "name": "OF",
+   "name": "CUSTOMS ACT",
    "header": [
-    "OF"
+    "CUSTOMS ACT"
    ]
   },
   {
    "col_no": "13",
-   "name": "OTHER | Customs INDIAN RATIWAYS ACT ACT",
+   "name": "INDIAN RAILWAYS ACT",
    "header": [
-    "OTHER",
-    "Customs INDIAN RATIWAYS ACT ACT"
+    "INDIAN RAILWAYS ACT"
    ]
   },
   {
    "col_no": "14",
-   "name": "OTHER | wn earn",
+   "name": "OTHER OFFENCES",
    "header": [
-    "OTHER",
-    "wn earn"
+    "OTHER OFFENCES"
    ]
   },
   {
@@ -118,23 +116,12 @@
    ]
   }
  ],
- "notes": [
-  "eee 6 6"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 15,
-  "cells_passed": 2,
-  "failures": [
-   "col 3 'TOTAL (CITIES)': printed 129, sum 724",
-   "col 9 'TOTAL (CITIES)': printed 191, sum 121",
-   "col 9 'TOTAL (STATES)': printed 1304, sum 847",
-   "col 9 'TOTAL (U.Ts.)': printed 16, sum 5",
-   "col 10 'TOTAL (STATES)': printed 6022, sum 2367",
-   "col 10 'TOTAL (U.Ts.)': printed 42, sum 36",
-   "col 13 'TOTAL (STATES)': printed 2316, sum 207",
-   "col 14 'TOTAL (CITIES)': printed 14855, sum 11109"
-  ],
-  "other_totals_checked": 16,
+  "cells_checked": 25,
+  "cells_passed": 25,
+  "failures": [],
+  "other_totals_checked": 10,
   "other_totals_passed": 10
  },
  "inferred_pages": 0,

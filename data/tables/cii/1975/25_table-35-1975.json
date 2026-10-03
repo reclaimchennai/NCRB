@@ -8,71 +8,89 @@
  "serial": "25",
  "title": "Juveniles Apprehended in India (by Age Group and Sex)",
  "listing_title": "Juveniles Apprehended in India (by Age Group and Sex)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-35-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-35-1975.pdf",
  "source_sha256": "d5b20d67f89d544c5c31d4d961477186592347b4e7d1d6b336a0a9b2bd1ec3bd",
- "table_no": "",
- "pdf_title": "a6 (By Age Growp ane Sex)",
- "row_label": "3 Meads of hia. 1 IPC Crime 1. ing to / years Boys 2 ‘ 2. Culpable Homide not amount; ‘",
+ "table_no": "35",
+ "pdf_title": "86 TABLE 35 Juveniles Apprehended in India (By Age Group and Sex)",
+ "row_label": "Sl. No. / Heads of Crime",
  "pages": [
   1
  ],
- "n_rows": 23,
- "n_cols": 7,
- "n_cells": 141,
+ "n_rows": 27,
+ "n_cols": 11,
+ "n_cells": 296,
  "columns": [
   {
    "col_no": "3",
-   "name": "712 Boys 3 + \"",
+   "name": "Between 7-12 years Boys",
    "header": [
-    "712 Boys 3 + \""
+    "Between 7-12 years Boys"
    ]
   },
   {
    "col_no": "4",
-   "name": "Between f2—16 Girls 4 og 1",
+   "name": "Between 12-16 years Boys",
    "header": [
-    "Between f2—16 Girls 4 og 1"
+    "Between 12-16 years Boys"
    ]
   },
   {
    "col_no": "5",
-   "name": "Between 16-19 yeurd Boys & 9 -",
+   "name": "Between 16-18 years Boys",
    "header": [
-    "Between 16-19 yeurd Boys & 9 -"
+    "Between 16-18 years Boys"
    ]
   },
   {
    "col_no": "6",
-   "name": "Between 18-20 yan | Boys. 6 Pal 6 56",
+   "name": "Between 18-21 years Boys",
    "header": [
-    "Between 18-20 yan",
-    "Boys. 6 Pal 6 56"
+    "Between 18-21 years Boys"
    ]
   },
   {
    "col_no": "7",
-   "name": "Between 18-20 yan | Girlk 7 iz a -",
+   "name": "Over all age Group Boys",
    "header": [
-    "Between 18-20 yan",
-    "Girlk 7 iz a -"
+    "Over all age Group Boys"
    ]
   },
   {
    "col_no": "8",
-   "name": "Over all age Greup Boys & riled 7 70",
+   "name": "Girls",
    "header": [
-    "Over all age Greup Boys & riled 7 70"
+    "Girls"
    ]
   },
   {
    "col_no": "9",
-   "name": "Total Girs - 3 13 46 67 1,015 73 - E]",
+   "name": "Total",
    "header": [
-    "Total Girs - 3 13 46 67 1,015 73 - E]"
+    "Total"
    ]
+  },
+  {
+   "col_no": "10",
+   "name": "col_10",
+   "header": []
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  },
+  {
+   "col_no": "12",
+   "name": "col_12",
+   "header": []
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
   }
  ],
  "notes": [],
@@ -80,10 +98,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 33,
+  "other_totals_passed": 20
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

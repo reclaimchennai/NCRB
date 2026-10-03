@@ -8,150 +8,171 @@
  "serial": "52",
  "title": "Incidence of Crime Committed Against Scheduled Castes During 1997",
  "listing_title": "Incidence of Crime Committed Against Scheduled Castes During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-32-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-32-1996-crime-survey.pdf",
  "source_sha256": "b07e44aaf4ae49a5f02ecffcb6de7f66cc449f433b23e82c35d8cba8b145764e",
  "table_no": "32",
- "pdf_title": "INCIDENCE OF CRIMES COmmiTTED AGAINST SCHEDULED CASTES DURING 1997",
- "row_label": "SL. STATE/UT NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-32",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 64,
- "n_cols": 30,
- "n_cells": 866,
+ "n_rows": 41,
+ "n_cols": 34,
+ "n_cells": 1190,
  "columns": [
   {
    "col_no": "3",
-   "name": "ESTIMATED MID- YEAR POPULATION",
+   "name": "ESTIMATED MID-YEAR POPULATION",
    "header": [
-    "ESTIMATED MID- YEAR POPULATION"
+    "ESTIMATED MID-YEAR POPULATION"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "MURDER | I",
+   "header": [
+    "MURDER",
+    "I"
+   ]
   },
   {
    "col_no": "5",
-   "name": "MURDER R",
+   "name": "MURDER | R",
    "header": [
-    "MURDER R"
+    "MURDER",
+    "R"
    ]
   },
   {
    "col_no": "6",
-   "name": "P ‘6)",
+   "name": "MURDER | P",
    "header": [
-    "P ‘6)"
+    "MURDER",
+    "P"
    ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "HURT | I",
+   "header": [
+    "HURT",
+    "I"
+   ]
   },
   {
    "col_no": "8",
-   "name": "HURT R",
+   "name": "HURT | R",
    "header": [
-    "HURT R"
+    "HURT",
+    "R"
    ]
   },
   {
    "col_no": "9",
-   "name": "P (9)",
+   "name": "HURT | P",
    "header": [
+    "HURT",
     "P"
    ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
+   ]
   },
   {
    "col_no": "11",
-   "name": "RAPE R (11)]",
+   "name": "RAPE | R",
    "header": [
-    "RAPE R (11)]"
+    "RAPE",
+    "R"
    ]
   },
   {
    "col_no": "12",
-   "name": "P (12)",
+   "name": "RAPE | P",
    "header": [
+    "RAPE",
     "P"
    ]
   },
   {
    "col_no": "13",
-   "name": "KIDNAPPING & AB UCTION",
+   "name": "KIDNAPPING & ABDUCTION | I",
    "header": [
-    "KIDNAPPING & AB UCTION"
+    "KIDNAPPING & ABDUCTION",
+    "I"
    ]
   },
   {
    "col_no": "14",
-   "name": "KIDNAPPING & AB UCTION | R",
+   "name": "KIDNAPPING & ABDUCTION | R",
    "header": [
-    "KIDNAPPING & AB UCTION",
+    "KIDNAPPING & ABDUCTION",
     "R"
    ]
   },
   {
    "col_no": "15",
-   "name": "KIDNAPPING & AB UCTION | P",
+   "name": "KIDNAPPING & ABDUCTION | P",
    "header": [
-    "KIDNAPPING & AB UCTION",
+    "KIDNAPPING & ABDUCTION",
     "P"
    ]
   },
   {
    "col_no": "16",
-   "name": "P (16)",
+   "name": "DACOITY | P",
    "header": [
+    "DACOITY",
     "P"
    ]
   },
   {
    "col_no": "17",
-   "name": "DACOITY",
+   "name": "DACOITY | I",
    "header": [
-    "DACOITY"
+    "DACOITY",
+    "I"
    ]
   },
   {
    "col_no": "18",
-   "name": "R",
+   "name": "DACOITY | R",
    "header": [
+    "DACOITY",
     "R"
    ]
   },
   {
    "col_no": "19",
-   "name": "P (19)",
+   "name": "ROBBERY | P",
    "header": [
+    "ROBBERY",
     "P"
    ]
   },
   {
    "col_no": "20",
-   "name": "ROBBERY",
+   "name": "ROBBERY | I",
    "header": [
-    "ROBBERY"
+    "ROBBERY",
+    "I"
    ]
   },
   {
    "col_no": "21",
-   "name": "ARSON | R (21)",
+   "name": "ROBBERY | R",
    "header": [
-    "ARSON",
+    "ROBBERY",
     "R"
    ]
   },
@@ -173,92 +194,127 @@
   },
   {
    "col_no": "24",
-   "name": "ARSON | R (24)",
+   "name": "ARSON | R",
    "header": [
     "ARSON",
     "R"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "of | P (2) ANDHRA PRADESH",
+   "col_no": "25",
+   "name": "PROT.OF CIVIL R.ACT | P",
    "header": [
-    "of",
-    "P (2) ANDHRA PRADESH"
+    "PROT.OF CIVIL R.ACT",
+    "P"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "of | \\ (25) 206",
+   "col_no": "26",
+   "name": "PROT.OF CIVIL R.ACT | I",
    "header": [
-    "of",
-    "\\ (25) 206"
+    "PROT.OF CIVIL R.ACT",
+    "I"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "of | R (26) (28)~—(29)~S «(04S",
+   "col_no": "27",
+   "name": "PROT.OF CIVIL R.ACT | R",
    "header": [
-    "of",
-    "R (26) (28)~—(29)~S «(04S"
+    "PROT.OF CIVIL R.ACT",
+    "R"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "of | OTHER OFFENCES | R - 21.9",
+   "col_no": "28",
+   "name": "SC & ST (Prev. of Atroc.) ACT | I",
    "header": [
-    "of",
+    "SC & ST (Prev. of Atroc.) ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "SC & ST (Prev. of Atroc.) ACT | R",
+   "header": [
+    "SC & ST (Prev. of Atroc.) ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "SC & ST (Prev. of Atroc.) ACT | P",
+   "header": [
+    "SC & ST (Prev. of Atroc.) ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "OTHER OFFENCES | I",
+   "header": [
     "OTHER OFFENCES",
-    "R - 21.9"
+    "I"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "of | OTHER OFFENCES | P (27),—S (32)",
+   "col_no": "32",
+   "name": "OTHER OFFENCES | R",
    "header": [
-    "of",
     "OTHER OFFENCES",
-    "P (27),—S (32)"
+    "R"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "of | R (30), (83)",
+   "col_no": "33",
+   "name": "OTHER OFFENCES | P",
    "header": [
-    "of",
-    "R (30), (83)"
+    "OTHER OFFENCES",
+    "P"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "TOTAL | P 31) (84)S",
+   "col_no": "34",
+   "name": "TOTAL | I",
    "header": [
     "TOTAL",
-    "P 31) (84)S"
+    "I"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "TOTAL | R P - 85) sti - 635i—istiasCHBCBC“‘«‘i‘SOC#dMBBOC«idC",
+   "col_no": "35",
+   "name": "TOTAL | R",
    "header": [
     "TOTAL",
-    "R P - 85) sti - 635i—istiasCHBCBC“‘«‘i‘SOC#dMBBOC«idC"
+    "R"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
+    "P"
    ]
   }
  ],
- "notes": [
-  "3OURICE ‘MONTHLY CRIME STATISTICS’."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 6,
-  "cells_passed": 5,
+  "cells_checked": 33,
+  "cells_passed": 25,
   "failures": [
-   "col 10 'TOTAL (STATES)': printed 1037, sum 1032"
+   "col 13 'TOTAL (STATES)': printed 243, sum 217",
+   "col 16 'TOTAL (STATES)': printed 58, sum 55",
+   "col 19 'TOTAL (STATES)': printed 162, sum 151",
+   "col 22 'TOTAL (STATES)': printed 389, sum 353",
+   "col 25 'TOTAL (UTs)': printed 26, sum 3",
+   "col 31 'TOTAL (STATES)': printed 12395, sum 12389",
+   "col 34 'TOTAL (STATES)': printed 27901, sum 27893",
+   "col 34 'TOTAL (UTs)': printed 43, sum 20"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 3,
  "warnings": []
 }

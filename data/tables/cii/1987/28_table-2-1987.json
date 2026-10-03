@@ -8,103 +8,38 @@
  "serial": "28",
  "title": "Incidence of Crime, Volume of Crime per Lakh of Population and Percentage Variation During 1987 over 1977, Over Quinquennial Ave",
  "listing_title": "Incidence of Crime, Volume of Crime per Lakh of Population and Percentage Variation During 1987 over 1977, Over Quinquennial Ave",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_2-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_2-1987.pdf",
  "source_sha256": "c6d2741d4128d8ce8792a26a50d333afbd087c9cf97b2877de0e226f8fa3236c",
  "table_no": "2",
- "pdf_title": "Incidence Of Crime, Volume Of Crime Per Lakh Of Population And Percentage Variation During 1987 Over 1977, Over Average Of 1982 To 1986 And Over 1986",
- "row_label": "sl No. / Heads",
+ "pdf_title": "3 TABLE - 2 Note : Figures in brackets indicate volume of crime per Lakh of population.",
+ "row_label": "Sl No. / Heads of Crime",
  "pages": [
-  1,
   2
  ],
- "n_rows": 28,
- "n_cols": 11,
- "n_cells": 251,
+ "n_rows": 14,
+ "n_cols": 2,
+ "n_cells": 28,
  "columns": [
   {
-   "col_no": "3",
-   "name": "of",
-   "header": [
-    "of"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "Crime",
-   "header": [
-    "Crime"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "1977",
-   "header": [
-    "1977"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "1982",
-   "header": [
-    "1982"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "1983 1985",
-   "header": [
-    "1983 1985"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "1986 1984",
-   "header": [
-    "1986 1984"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "of Quinauennial average 1982",
-   "header": [
-    "of Quinauennial average 1982"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Crime -",
-   "header": [
-    "Crime -"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "1987 1986 OVER 1977",
-   "header": [
-    "1987 1986 OVER 1977"
-   ]
-  },
-  {
    "col_no": "12",
-   "name": "change Percentage 1987 (+) TNCREASFE OVER",
+   "name": "Quinquennial average 1982 - 1986 (Q. A.)",
    "header": [
-    "change Percentage 1987 (+) TNCREASFE OVER"
+    "Quinquennial average 1982 - 1986 (Q. A.)"
    ]
   },
   {
    "col_no": "13",
-   "name": "in (-) DECREASE OVER 1986",
+   "name": "Percentage change in 1987 | (-) DECREASE OVER 1986",
    "header": [
-    "in (-) DECREASE OVER 1986"
+    "Percentage change in 1987",
+    "(-) DECREASE OVER 1986"
    ]
   }
  ],
- "notes": [
-  "Note Figures in brackets indicate volume of crime per Lakh of population."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -113,6 +48,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

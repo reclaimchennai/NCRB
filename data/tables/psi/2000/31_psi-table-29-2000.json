@@ -8,74 +8,76 @@
  "serial": "31",
  "title": "Percentage of Undertrials by Period of Detention at the end of 2000",
  "listing_title": "Percentage of Undertrials by Period of Detention at the end of 2000",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-29_2000.pdf",
  "source_file": "raw/psi/2000/table_content/psi-table-29_2000.pdf",
  "source_sha256": "17c89e993354a0b5f93fa0ce98c57d9b9206bc4dfa1f81709ef02f174686283c",
  "table_no": "29",
- "pdf_title": "PERCENTAGE OF UNDERTRIALS BY PERIOD OF DETENTION AT THE END OF 2000",
- "row_label": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-29",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 28,
+ "n_rows": 35,
  "n_cols": 8,
- "n_cells": 183,
+ "n_cells": 280,
  "columns": [
   {
    "col_no": "3",
-   "name": "UPTO3 MONTHS",
+   "name": "UPTO 3 MONTHS",
    "header": [
-    "UPTO3 MONTHS"
+    "UPTO 3 MONTHS"
    ]
   },
   {
    "col_no": "4",
-   "name": "«3-6 MONTHS",
+   "name": "3 - 6 MONTHS",
    "header": [
-    "«3-6 MONTHS"
+    "3 - 6 MONTHS"
    ]
   },
   {
    "col_no": "5",
-   "name": "6-12 MONTHS G6)",
+   "name": "6 - 12 MONTHS",
    "header": [
-    "6-12 MONTHS G6)"
+    "6 - 12 MONTHS"
    ]
   },
   {
    "col_no": "6",
-   "name": "ie YEARS",
+   "name": "1 - 2 YEARS",
    "header": [
-    "ie YEARS"
+    "1 - 2 YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "2-3",
+   "name": "2 - 3 YEARS",
    "header": [
-    "2-3"
+    "2 - 3 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "g-5",
+   "name": "3 - 5 YEARS",
    "header": [
-    "g-5"
+    "3 - 5 YEARS"
    ]
   },
   {
    "col_no": "9",
-   "name": "*",
+   "name": "ABOVE 5 YEARS",
    "header": [
-    "*"
+    "ABOVE 5 YEARS"
    ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
   }
  ],
  "notes": [],

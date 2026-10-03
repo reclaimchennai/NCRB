@@ -6,35 +6,63 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "XIV",
+ "title": "104 APPENDIX ROBBERY",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendex-1970.pdf",
  "source_file": "raw/cii/1970/table_chapter/appendex-1970.pdf",
  "source_sha256": "3ed7da4cec7a8a52c94ec44a60188cb502ba306987e4cb8da95c49a8762233a3",
  "table_no": "",
- "pdf_title": "XIV",
- "row_label": "PEKSUNS No. of No. of Persons Persons convicacuittpersons Persons ted in cusin cused or distody tody charged pending pending investitrial or compounon bail ded, gation oronbail during during the stage of trial the at the stage of end of investithe gation at the end year of the year",
+ "pdf_title": "104 APPENDIX ROBBERY",
+ "row_label": "Sl. No.",
  "pages": [
-  28
+  33
  ],
  "n_rows": 39,
- "n_cols": 2,
- "n_cells": 77,
+ "n_cols": 6,
+ "n_cells": 230,
  "columns": [
   {
    "col_no": "2",
-   "name": "Persons Percentage of convicagainst whom tion to total cases personsin were whose cases chargesheets were laid. ed,",
+   "name": "States/U·Ts/Cities",
    "header": [
-    "Persons Percentage of convicagainst whom tion to total cases personsin were whose cases chargesheets were laid. ed,"
+    "States/U·Ts/Cities"
    ]
   },
   {
    "col_no": "3",
-   "name": "Percentage of conviction to total persons in whose cases trials were complet-",
+   "name": "Persons in custody pending investigation or on bail during the stage of investigation",
    "header": [
-    "Percentage of conviction to total persons in whose cases trials were complet-"
+    "Persons in custody pending investigation or on bail during the stage of investigation"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Persons in custody pending trial or on bail during the stage of trial",
+   "header": [
+    "Persons in custody pending trial or on bail during the stage of trial"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Persons arrested during the year",
+   "header": [
+    "Persons arrested during the year"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Persons released by the police or magistrate before trial",
+   "header": [
+    "Persons released by the police or magistrate before trial"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Persons in whose cases charge-sheets were laid",
+   "header": [
+    "Persons in whose cases charge-sheets were laid"
    ]
   }
  ],
@@ -43,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 15,
+  "other_totals_passed": 14
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

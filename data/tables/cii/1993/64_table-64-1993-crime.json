@@ -8,46 +8,47 @@
  "serial": "64",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1993 (State, UT & City-Wise)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1993 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-64-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-64-1993-crime.pdf",
  "source_sha256": "d229209a6eac87a77610b3ddfd9e68c5fab6053971d85673644b50db01259a66",
  "table_no": "64",
- "pdf_title": "VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
- "row_label": "",
+ "pdf_title": "283 TABLE-64 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY DURING 1993",
+ "row_label": "SL NO / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 57,
+ "n_rows": 58,
  "n_cols": 3,
- "n_cells": 165,
+ "n_cells": 174,
  "columns": [
   {
    "col_no": "3",
-   "name": "DURING 1993 (STATE, UT & CITY-WISE)",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
-    "DURING 1993 (STATE, UT & CITY-WISE)"
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
+   "header": [
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
+   ]
   },
   {
    "col_no": "5",
-   "name": "Ay uly) ire",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "Ay uly) ire"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],
- "notes": [
-  "38A—177 NCRB/9S.",
-  "No’ e: NR stands for Data nt received"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

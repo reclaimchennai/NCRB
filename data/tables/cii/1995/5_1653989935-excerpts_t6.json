@@ -6,37 +6,134 @@
  "topic": "",
  "section": "Crime in India 1995",
  "serial": "5",
- "title": "ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION, COGNIZABLE CRIMES AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 1995",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 Incidence of cognizable crimes (IPC) under different crime heads During 1953 to 1995",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653989935_EXCERPTS.pdf",
  "source_file": "raw/cii/1995/year_wise/1653989935_EXCERPTS.pdf",
  "source_sha256": "bf234d43c68165c0291091bd62edb8c3c14d495538750da7de4995f30503f15c",
  "table_no": "",
- "pdf_title": "ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION, COGNIZABLE CRIMES AND PER CAPITA EXPENDITURE ON POLICEMEN DURING 1995",
- "row_label": "ACTUAL POLICE STRENGTH OF 1.0s. (INSP.+ / (Concluded) NO. OF MEN PER 100 SQR. KMS.OF AREA / (Concluded) NO. OF POLICEMEN PER 1,000, oF POP. ULATION / (Concluded) NO. OF POLICEMEN PER NO.OF IPC CASES PER CIVIL 1,00,000 POLICEMAN OF pop. ULATION / (Concluded) pc / (Concluded) - WORK LOAD OF 1.0s TOTAL",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 Incidence of cognizable crimes (IPC) under different crime heads During 1953 to 1995",
+ "row_label": "Sl. No.",
  "pages": [
-  10
+  7,
+  8
  ],
- "n_rows": 36,
- "n_cols": 2,
- "n_cells": 71,
+ "n_rows": 43,
+ "n_cols": 16,
+ "n_cells": 688,
  "columns": [
   {
-   "col_no": "7",
-   "name": "(Concluded) | TOTAL POLICE EXPENDITURE (RS.IN",
+   "col_no": "4",
+   "name": "Year (4)",
    "header": [
-    "(Concluded)",
-    "TOTAL POLICE EXPENDITURE (RS.IN"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Murder",
+   "header": [
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "C.H. not amounting to murder",
+   "header": [
+    "C.H. not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rape",
+   "header": [
+    "Rape"
    ]
   },
   {
    "col_no": "8",
-   "name": "(Concluded) | UNIT STATE/UT Cost PER POLICEMEN 00°00'000) (PER ANNUM)",
+   "name": "Kidnapping & Abduction",
    "header": [
-    "(Concluded)",
-    "UNIT STATE/UT Cost PER POLICEMEN 00°00'000) (PER ANNUM)"
+    "Kidnapping & Abduction"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Dacoity",
+   "header": [
+    "Dacoity"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Robbery",
+   "header": [
+    "Robbery"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Year (2)",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Burglary (House-Breaking)",
+   "header": [
+    "Burglary (House-Breaking)"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Theft",
+   "header": [
+    "Theft"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Riots",
+   "header": [
+    "Riots"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Criminal Breach of Trust",
+   "header": [
+    "Criminal Breach of Trust"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Cheating",
+   "header": [
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Counterfeiting",
+   "header": [
+    "Counterfeiting"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Other IPC Crimes",
+   "header": [
+    "Other IPC Crimes"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Total Cognizable Crimes under IPC",
+   "header": [
+    "Total Cognizable Crimes under IPC"
    ]
   }
  ],
@@ -48,7 +145,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

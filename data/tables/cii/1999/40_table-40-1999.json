@@ -8,132 +8,164 @@
  "serial": "40",
  "title": "Number of Dacoity Cases Reported and Value of Property Taken Away by Place of Occurrence During 1999 (State, UT& City-Wise)",
  "listing_title": "Number of Dacoity Cases Reported and Value of Property Taken Away by Place of Occurrence During 1999 (State, UT& City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-40-1999.pdf",
  "source_sha256": "e4c9524cebc23c174bdf13ec0b5fa1fbf8063b702e7647dcbf3ccecab69c935f",
  "table_no": "40",
- "pdf_title": "(Conciuded) (Value Rs. in lakh)",
- "row_label": "NUMBER OF DACOITY CASES SL. NO. Q@)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 40",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
- "n_rows": 88,
- "n_cols": 13,
- "n_cells": 688,
+ "n_rows": 59,
+ "n_cols": 16,
+ "n_cells": 928,
  "columns": [
   {
-   "col_no": "2",
-   "name": "NUMBER OF DACOITY CASES | KESIVDEN NUMBER @",
-   "header": [
-    "NUMBER OF DACOITY CASES",
-    "KESIVDEN NUMBER @"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE | (STATE, UT & CITY-WISE) | PREMINEN VALUE (4)",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE",
-    "(STATE, UT & CITY-WISE)",
-    "PREMINEN VALUE (4)"
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE | (STATE, UT & CITY-WISE) | DURING 1999 HIGHWAYS NUMBER ©",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE",
-    "(STATE, UT & CITY-WISE)",
-    "DURING 1999 HIGHWAYS NUMBER ©"
+    "RESIDENTIAL PREMISES",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE | (STATE, UT & CITY-WISE) | .1",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE",
-    "(STATE, UT & CITY-WISE)",
-    ".1"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE | RIVER & SEA NUMBER VALUE ©",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE",
-    "RIVER & SEA NUMBER VALUE ©"
+    "HIGHWAYS",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE | I",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE",
-    "I"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE | (Value Rs. RAILWAYS VALUE NUMBER (8)",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE",
-    "(Value Rs. RAILWAYS VALUE NUMBER (8)"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE | lakh) VALUE (10)",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "AND VALUE OF PRUPEKTY TAKEN AWAY BY PLACE OF OCCURRENCE",
-    "lakh) VALUE (10)"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "col_10001",
-   "header": []
-  },
-  {
-   "col_no": "10002",
-   "name": "col_10002",
-   "header": []
-  },
-  {
-   "col_no": "10003",
-   "name": "OTHER PLACES (10003)",
+   "col_no": "10",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "OTHER PLACES"
+    "RAILWAYS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "OTHER PLACES (10004)",
+   "col_no": "11",
+   "name": "BANKS | NUMBER",
    "header": [
-    "OTHER PLACES"
+    "BANKS",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "TOTAL",
+   "col_no": "12",
+   "name": "BANKS | VALUE",
    "header": [
-    "TOTAL"
+    "BANKS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "COMMERCIAL ESTABLISHMENTS | NUMBER",
+   "header": [
+    "COMMERCIAL ESTABLISHMENTS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "COMMERCIAL ESTABLISHMENTS | VALUE",
+   "header": [
+    "COMMERCIAL ESTABLISHMENTS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 11,
-  "cells_passed": 10,
+  "cells_checked": 24,
+  "cells_passed": 21,
   "failures": [
-   "col 4 'TOTAL (UTs)': printed 1, sum 7"
+   "col 13 'TOTAL STATES': printed 393, sum 355",
+   "col 15 'TOTAL STATES': printed 1941, sum 1812",
+   "col 17 'TOTAL STATES': printed 7007, sum 6667"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

@@ -8,14 +8,14 @@
  "serial": "62",
  "title": "Persons Killed or Injured under Police Firing During 1990 (Event-Wise)",
  "listing_title": "Persons Killed or Injured under Police Firing During 1990 (Event-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/63table-63-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/63table-63-1990-.pdf",
  "source_sha256": "2ae162d3ad1a043ddb61300ffd52e36890a8962b5f6e4859f3020d6f8245194f",
  "table_no": "63",
- "pdf_title": "",
- "row_label": "SL NO / PERSONS EVENT",
+ "pdf_title": "198 TABLE-63 PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1990 (EVENT-WISE)",
+ "row_label": "",
  "pages": [
   1
  ],
@@ -25,38 +25,28 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "OR NO. OCCASIONS OF FIRING",
-   "header": [
-    "OR NO. OCCASIONS OF FIRING"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "INJURED (EVENT-WISE) OF POLIC;",
-   "header": [
-    "INJURED (EVENT-WISE) OF POLIC;"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "UNDER CIVILIANS <<<<<-s--<<-<<<25-- KTILLED",
-   "header": [
-    "UNDER CIVILIANS <<<<<-s--<<-<<<25-- KTILLED"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "DURING POLICE 1990 INJURED",
-   "header": [
-    "DURING POLICE 1990 INJURED"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "FIRING -s5esss-s5555=-- INJURED",
-   "header": [
-    "FIRING -s5esss-s5555=-- INJURED"
-   ]
+   "name": "col_7",
+   "header": []
   }
  ],
  "notes": [],

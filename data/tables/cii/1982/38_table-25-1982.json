@@ -8,45 +8,102 @@
  "serial": "38",
  "title": "Persons Arrested per Case under IPC Crimes and Offences under Local & Special Laws",
  "listing_title": "Persons Arrested per Case under IPC Crimes and Offences under Local & Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-25-1982.pdf",
  "source_file": "raw/cii/1982/table_content/table-25-1982.pdf",
  "source_sha256": "c6c01aa85ea5c64043546addd6658accd46a00baf726336e7ea11190bb538a30",
  "table_no": "25",
- "pdf_title": "PERSONS ARRESTED PER CASE UNDER IPC CRIMES AND OFFENCES UNDER LOCAL & SPECIAL LAWS",
- "row_label": "",
+ "pdf_title": "80 TABLE 25 PERSONS ARRESTED PER CASE UNDER IPC CRIMES AND OFFENCES UNDER LOCAL & SPECIAL LAWS",
+ "row_label": "Sl.No. / Crime Heads",
  "pages": [
+  1,
+  1,
+  1,
   1
  ],
- "n_rows": 27,
- "n_cols": 5,
- "n_cells": 132,
+ "n_rows": 17,
+ "n_cols": 9,
+ "n_cells": 83,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "1978",
+   "header": [
+    "1978"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "1979",
+   "header": [
+    "1979"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "1980",
+   "header": [
+    "1980"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "1981",
+   "header": [
+    "1981"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1982",
+   "header": [
+    "1982"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "1.0 | 1.0 | 1.8 | 1.0 | 0.9 (8)",
+   "header": [
+    "1.0",
+    "1.0",
+    "1.8",
+    "1.0",
+    "0.9"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "1.0 | 1.0 | 1.8 | 1.0 | 0.8",
+   "header": [
+    "1.0",
+    "1.0",
+    "1.8",
+    "1.0",
+    "0.8"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "1.0 | 1.0 | 1.7 | 1.0 | 0.9",
+   "header": [
+    "1.0",
+    "1.0",
+    "1.7",
+    "1.0",
+    "0.9"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "1.0 | 1.0 | 1.8 | 1.0 | 0.9 (11)",
+   "header": [
+    "1.0",
+    "1.0",
+    "1.8",
+    "1.0",
+    "0.9"
+   ]
   }
  ],
  "notes": [],
@@ -57,7 +114,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

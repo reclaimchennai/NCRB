@@ -1,0 +1,114 @@
+{
+ "table_id": "cii/1996/17_table-17-disposal-so-sll-crime-cases-by-police-during-1996-1",
+ "publication": "cii",
+ "year": 1996,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "17",
+ "title": "Disposal of SLL Crime Cases by Police During 1996 (State & UT-Wise)",
+ "listing_title": "Disposal of SLL Crime Cases by Police During 1996 (State & UT-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-17--disposal-so-sll-crime-cases-by-police-during-1996-1996.pdf",
+ "source_file": "raw/cii/1996/table_content/table-17--disposal-so-sll-crime-cases-by-police-during-1996-1996.pdf",
+ "source_sha256": "f5a3b675e55d2976cb4cde50a8a086210a28a8adcd2f2f639c6e34628cfbe8be",
+ "table_no": "17",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-17",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 314,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
+   "header": [
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COM-ETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC.",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COM-ETED",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COM-ETED | FINAL REPORT TRUE SUBMITTED",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COM-ETED",
+    "FINAL REPORT TRUE SUBMITTED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COM-ETED | CHARGE SHEETS WERE LAID",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COM-ETED",
+    "CHARGE SHEETS WERE LAID"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
+   "header": [
+    "NO. OF CASES PENDING INVESTIGATION"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PENDENCY PERCENTAGE",
+   "header": [
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PERCENTAGE OF PENDENCY TO ALL INDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALL INDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "CHARGE SHEETING RAIL",
+   "header": [
+    "CHARGE SHEETING RAIL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 18,
+  "cells_passed": 13,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 4.80471e+06, sum 4.82372e+06",
+   "col 6 'TOTAL (STATES)': printed 52624, sum 27016",
+   "col 7 'TOTAL (STATES)': printed 4.09566e+06, sum 3.28369e+06",
+   "col 7 'TOTAL (UTs)': printed 18459, sum 2829",
+   "col 9 'TOTAL (STATES)': printed 603578, sum 518478"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

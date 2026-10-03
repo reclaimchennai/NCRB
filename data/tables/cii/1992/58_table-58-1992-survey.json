@@ -8,14 +8,14 @@
  "serial": "58",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1992 (by Nature of Property)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1992 (by Nature of Property)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-58-1992-survey.pdf",
  "source_sha256": "618112b21422dd43c565190705327e8812db502e871ed17fc24a101bb7f6923a",
  "table_no": "58",
- "pdf_title": "VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY DURING 1992 (BY NATURE OF PROPERTY)",
- "row_label": "SL. NO. / NATURE OF PROPERTY",
+ "pdf_title": "264 TABLE-58 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY DURING 1992 (BY NATURE OF PROPERTY)",
+ "row_label": "SL. NATURE OF NO. PROPERTY / SL. NATURE OF NO. PROPERTY",
  "pages": [
   1
  ],
@@ -25,44 +25,48 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER OF WHICH STOLEN",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | STOLEN",
    "header": [
-    "NUMBER OF WHICH STOLEN"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "CASES PROPERTY RECOVERED",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | RECOVERED",
    "header": [
-    "CASES PROPERTY RECOVERED"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "IN PERCENTAGE WAS OF «66S RECOVERY",
+   "name": "PERCENTAGE OF CASES OF RECOVERY",
    "header": [
-    "IN PERCENTAGE WAS OF «66S RECOVERY"
+    "PERCENTAGE OF CASES OF RECOVERY"
    ]
   },
   {
    "col_no": "6",
-   "name": "VALUE CASES (Re. eed ES STOLEN",
+   "name": "VALUE OF PROPERTY (Rs. in lakh) | STOLEN",
    "header": [
-    "VALUE CASES (Re. eed ES STOLEN"
+    "VALUE OF PROPERTY (Rs. in lakh)",
+    "STOLEN"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF in RECOVERED",
+   "name": "VALUE OF PROPERTY (Rs. in lakh) | RECOVERED",
    "header": [
-    "OF in RECOVERED"
+    "VALUE OF PROPERTY (Rs. in lakh)",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "8",
-   "name": "PROPERTY PERCENTAGE lakh) RECOVERY",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "PROPERTY PERCENTAGE lakh) RECOVERY"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],

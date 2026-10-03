@@ -6,206 +6,129 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "33",
- "title": "MOUTiVeES OF MURDER AND CULPABLE HOMICIDE NOT AMOUNTING TO MURDER (C.H.) DURING 1997 (STATE, UT & CITY-WISE)",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-13B",
  "listing_title": "Incidence and Rate of Violent Crimes During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-13-1996-crime-survey.pdf",
  "source_sha256": "0f960ec8701075bc8331a6be0258daabb11675bd86e978124d23bf78b92b9ab8",
  "table_no": "13B",
- "pdf_title": "MOUTiVeES OF MURDER AND CULPABLE HOMICIDE NOT AMOUNTING TO MURDER (C.H.) DURING 1997 (STATE, UT & CITY-WISE)",
- "row_label": "bon (1) STATES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-13B",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   5,
   6
  ],
- "n_rows": 101,
- "n_cols": 21,
- "n_cells": 916,
+ "n_rows": 116,
+ "n_cols": 12,
+ "n_cells": 1276,
  "columns": [
   {
-   "col_no": "2",
-   "name": "PERSONAL | GAIN MURDER (2)",
-   "header": [
-    "PERSONAL",
-    "GAIN MURDER (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "PERSONAL | (3)]",
+   "name": "GAIN | MURDER",
    "header": [
-    "PERSONAL",
-    "(3)]"
+    "GAIN",
+    "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "PERSONAL | DISPUTE MURDER C.H. (4)",
+   "name": "GAIN | C.H.",
    "header": [
-    "PERSONAL",
-    "DISPUTE MURDER C.H. (4)"
+    "GAIN",
+    "C.H."
    ]
   },
   {
    "col_no": "5",
-   "name": "PERSONAL | (5)]",
+   "name": "PROPERTY DISPUTE | MURDER",
    "header": [
-    "PERSONAL",
-    "(5)]"
+    "PROPERTY DISPUTE",
+    "MURDER"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERSONAL | ENMITY MURDER C.H. (6)",
+   "name": "PROPERTY DISPUTE | C.H.",
    "header": [
-    "PERSONAL",
-    "ENMITY MURDER C.H. (6)"
+    "PROPERTY DISPUTE",
+    "C.H."
    ]
   },
   {
    "col_no": "7",
-   "name": "PERSONAL | VENDETTA OR (7)]",
+   "name": "PERSONAL VENDETTA OR ENMITY | MURDER",
    "header": [
-    "PERSONAL",
-    "VENDETTA OR (7)]"
+    "PERSONAL VENDETTA OR ENMITY",
+    "MURDER"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERSONAL | LOVE AFFAIRS/ SEXUAL | CAUSES MURDER C.H. (8)",
+   "name": "PERSONAL VENDETTA OR ENMITY | C.H.",
    "header": [
-    "PERSONAL",
-    "LOVE AFFAIRS/ SEXUAL",
-    "CAUSES MURDER C.H. (8)"
+    "PERSONAL VENDETTA OR ENMITY",
+    "C.H."
    ]
   },
   {
    "col_no": "9",
-   "name": "PERSONAL | LOVE AFFAIRS/ SEXUAL | (9)",
+   "name": "LOVE AFFAIRS/ SEXUAL CAUSES | MURDER",
    "header": [
-    "PERSONAL",
-    "LOVE AFFAIRS/ SEXUAL",
-    "(9)"
+    "LOVE AFFAIRS/ SEXUAL CAUSES",
+    "MURDER"
    ]
   },
   {
    "col_no": "10",
-   "name": "PERSONAL | DOWRY MURDER C.H. (10)",
+   "name": "LOVE AFFAIRS/ SEXUAL CAUSES | C.H.",
    "header": [
-    "PERSONAL",
-    "DOWRY MURDER C.H. (10)"
+    "LOVE AFFAIRS/ SEXUAL CAUSES",
+    "C.H."
    ]
   },
   {
    "col_no": "11",
-   "name": "PERSONAL | C.H. (11) (12)",
+   "name": "DOWRY | MURDER",
    "header": [
-    "PERSONAL",
-    "C.H. (11) (12)"
-   ]
-  },
-  {
-   "col_no": "14",
-   "name": "COMMUNALISM | C.H. (14)",
-   "header": [
-    "COMMUNALISM",
-    "C.H."
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "COMMUNALISM | MURDER (16)]",
-   "header": [
-    "COMMUNALISM",
-    "MURDER (16)]"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "COMMUNALISM | C.H. (16)",
-   "header": [
-    "COMMUNALISM",
-    "C.H."
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "CASTEISM | MURDER",
-   "header": [
-    "CASTEISM",
+    "DOWRY",
     "MURDER"
    ]
   },
   {
-   "col_no": "18",
-   "name": "CASTEISM | C.H.",
+   "col_no": "12",
+   "name": "DOWRY | C.H.",
    "header": [
-    "CASTEISM",
+    "DOWRY",
     "C.H."
    ]
   },
   {
-   "col_no": "19",
-   "name": "CLASS CONFLICT | MURDER",
+   "col_no": "2",
+   "name": "LUNACY | C.H.(14)",
    "header": [
-    "CLASS CONFLICT",
-    "MURDER"
+    "LUNACY",
+    "C.H.(14)"
    ]
   },
   {
-   "col_no": "20",
-   "name": "CLASS CONFLICT | C.H.",
+   "col_no": "13",
+   "name": "STATE/UT/CITY",
    "header": [
-    "CLASS CONFLICT",
-    "C.H."
-   ]
-  },
-  {
-   "col_no": "21",
-   "name": "OTHER MOTIVES | MURDER]",
-   "header": [
-    "OTHER MOTIVES",
-    "MURDER]"
-   ]
-  },
-  {
-   "col_no": "22",
-   "name": "OTHER MOTIVES | C.H.",
-   "header": [
-    "OTHER MOTIVES",
-    "C.H."
-   ]
-  },
-  {
-   "col_no": "23",
-   "name": "TOTAL MURDER",
-   "header": [
-    "TOTAL MURDER"
-   ]
-  },
-  {
-   "col_no": "24",
-   "name": "STATE/UT/CITY C.H.",
-   "header": [
-    "STATE/UT/CITY C.H."
+    "STATE/UT/CITY"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 7,
-  "cells_passed": 4,
-  "failures": [
-   "col 6 'TOTAL (STATES)': printed 5013, sum 5000",
-   "col 6 'TOTAL (UTs)': printed 150, sum 135",
-   "col 8 'TOTAL (STATES)': printed 2702, sum 2701"
-  ],
+  "cells_checked": 30,
+  "cells_passed": 30,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

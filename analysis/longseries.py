@@ -117,6 +117,24 @@ def candidates(pub: str, heads, years=(1953, 2024)) -> pd.DataFrame:
             return y if ed - 6 <= y <= ed else None
         return ed if not ys else None
     c["fy"] = [fig_year(col, ed) for col, ed in zip(c["column"], c.year)]
+    # comparative tables whose year row was not read ("MURDER (6)", "MURDER (7)" for 1968 and 1969): the same
+    # head in two or three columns, with no year of its own, is consecutive years ending with the edition's year
+    c["_o"] = c.col_no.map(col_order)
+    base = c["column"].str.replace(r"\(\s*\d+\s*\)|\s+", " ", regex=True).str.strip().str.lower()
+    from_col = c["column"].map(lambda x: heads_col.get(x) is not None) & ~c["column"].str.contains(YEAR)
+    reyear = {}
+    for (tid, b), g in c[from_col].assign(_b=base[from_col]).groupby(["table_id", "_b"]):
+        cols = sorted(g.drop_duplicates("col_no")[["col_no", "_o"]].itertuples(index=False), key=lambda x: x[1])
+        # a column whose figures are far smaller than its neighbours' is a change or a share, not a year
+        sums = g.groupby("col_no").value.sum()
+        top = sums.max() if len(sums) else 0
+        cols = [x for x in cols if top and sums.get(x[0], 0) >= 0.3 * top]
+        if 2 <= len(cols) <= 3:
+            ed = int(g.year.iloc[0])
+            for i, (cn, _) in enumerate(cols):
+                reyear[(tid, cn)] = ed - (len(cols) - 1 - i)
+    if reyear:
+        c["fy"] = [reyear.get((t, cn), y) for t, cn, y in zip(c.table_id, c.col_no, c.fy)]
     c = c[c.fy.notna()]
     # places; in tables without section headings, rows after the first city-only name are cities
     first_city = {}
@@ -138,7 +156,6 @@ def candidates(pub: str, heads, years=(1953, 2024)) -> pd.DataFrame:
     c["own"] = (c.fy == c.year)
     # where one table row gives several figures for the same head and year (garbled headings), the first column
     # is usually the cases registered; the rest are persons, rates or later stages
-    c["_o"] = c.col_no.map(col_order)
     c["crank"] = c.groupby(["table_id", "row", "head", "fy"])._o.rank(method="dense") - 1
     return c[["pname", "ptype", "head", "fy", "value", "w", "own", "crank", "method", "table_id", "title", "year", "source_url"]]
 
@@ -225,7 +242,9 @@ def pick(c: pd.DataFrame) -> pd.DataFrame:
                     continue
                 near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 5]
                 m = median(near) if len(near) >= 2 else None
-                if m is None or not (m > 0 and 0.5 <= o["value"] / m <= 2.0 or (m == 0 and o["value"] <= 5)):
+                # counts in the hundreds and up rarely move more than ~30% in a year; small ones can double
+                lo, hi = (0.7, 1.43) if m and m >= 200 and len(near) >= 3 else (0.5, 2.0)
+                if m is None or not (m > 0 and lo <= o["value"] / m <= hi or (m == 0 and o["value"] <= 5)):
                     drop.append(y)
             if not drop:
                 break

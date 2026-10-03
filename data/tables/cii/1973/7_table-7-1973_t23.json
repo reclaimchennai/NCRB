@@ -6,87 +6,70 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "TABLE",
+ "title": "55 7—countd. Cognizable Crime Reported during the Year—1973",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "TABLE",
- "row_label": "- Sl, No. a / - / of District Murder",
+ "pdf_title": "55 7—countd. Cognizable Crime Reported during the Year—1973",
+ "row_label": "Robbery",
  "pages": [
-  25,
   26
  ],
- "n_rows": 18,
- "n_cols": 9,
- "n_cells": 67,
+ "n_rows": 11,
+ "n_cols": 7,
+ "n_cells": 77,
  "columns": [
   {
-   "col_no": "4",
-   "name": "ment to murder",
+   "col_no": "2",
+   "name": "Burglary",
    "header": [
-    "ment to murder"
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Tbefts",
+   "header": [
+    "Tbefts"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Riots",
+   "header": [
+    "Riots"
    ]
   },
   {
    "col_no": "5",
-   "name": "eid Rape oe",
+   "name": "Criminal Breach of trust",
    "header": [
-    "eid Rape oe"
+    "Criminal Breach of trust"
    ]
   },
   {
    "col_no": "6",
-   "name": "oe | Abduction",
+   "name": "Cheating",
    "header": [
-    "oe",
-    "Abduction"
+    "Cheating"
    ]
   },
   {
    "col_no": "7",
-   "name": "oe | Dacoijry",
+   "name": "Counterfeiting",
    "header": [
-    "oe",
-    "Dacoijry"
+    "Counterfeiting"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Burgi 10 1,387",
+   "col_no": "8",
+   "name": "Total Cognizable Crime Under IPC",
    "header": [
-    "Burgi 10 1,387"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "‘Thefts af ti: 5,63",
-   "header": [
-    "‘Thefts af ti: 5,63"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Ricts 12 6 4 07",
-   "header": [
-    "Ricts 12 6 4 07"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "- - Counterfelting 14 214",
-   "header": [
-    "- - Counterfelting 14 214"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "Crime Under IFC 15 70 i Haw",
-   "header": [
-    "Crime Under IFC 15 70 i Haw"
+    "Total Cognizable Crime Under IPC"
    ]
   }
  ],
@@ -98,7 +81,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

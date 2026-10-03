@@ -8,13 +8,13 @@
  "serial": "23",
  "title": "Police Personnel Killed or Injured by Various Ranks in India During 1987",
  "listing_title": "Police Personnel Killed or Injured by Various Ranks in India During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_57-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_57-1987.pdf",
  "source_sha256": "a8e072a51372d14ced8ac7293cbbaf3ab14483fc2ebc956014cf29954f0f2e44",
  "table_no": "57",
- "pdf_title": "Police Personnel Killed Or Injured By Various Ranks In India During 1987",
+ "pdf_title": "154 TABLE - 57 Police Personnel Killed Or Injured By Various Ranks",
  "row_label": "SL / RANKS",
  "pages": [
   1
@@ -25,8 +25,10 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "KILLED",
+   "header": [
+    "KILLED"
+   ]
   },
   {
    "col_no": "4",

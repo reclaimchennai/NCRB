@@ -8,14 +8,14 @@
  "serial": "41",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During 1984",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-42-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-42-1984.pdf",
  "source_sha256": "0639234a2c5eea69446340fc913926fff93d33dc0ea3d4b49ba0664ac1e8a9eb",
  "table_no": "42",
- "pdf_title": "Juveniles Annr=h==2=2 (By Age Group) For Committing Crimes Under Indian Penal Code During 1984",
- "row_label": "sl NO / STATES/UTs/CITIES",
+ "pdf_title": "106 TABLE - 42 Juveniles Apprehended (By Age Group) For Committing Crimes Under Indian Penal Code During 1984.",
+ "row_label": "S1 NO",
  "pages": [
   1
  ],
@@ -25,9 +25,9 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "7-12 YEARS",
+   "name": "7 - 12 YEARS",
    "header": [
-    "7-12 YEARS"
+    "7 - 12 YEARS"
    ]
   },
   {
@@ -61,15 +61,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 11,
-  "failures": [
-   "col 5 'TOTAL (UTs)': printed 466, sum 406",
-   "col 6 'TOTAL (States)': printed 50089, sum 50389",
-   "col 7 'TOTAL (States)': printed 71977, sum 71917"
-  ],
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 5,
-  "other_totals_passed": 4
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

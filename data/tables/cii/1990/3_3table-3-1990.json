@@ -8,54 +8,54 @@
  "serial": "3",
  "title": "Percentage Distribution of Cognizable Crimes (IPC) under Different Crime Heads 1986-1990",
  "listing_title": "Percentage Distribution of Cognizable Crimes (IPC) under Different Crime Heads 1986-1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/3table-3-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/3table-3-1990-.pdf",
  "source_sha256": "61d5639256946296cedeaab88cbae25906f7bedce838123280d3c5fa2818bcb9",
  "table_no": "3",
- "pdf_title": "PERCENTAGE DISTRIBUTION OF COGNTZ7ARILE CRIMES (IPC)",
- "row_label": "CRIME",
+ "pdf_title": "20 TABLE-3 PERCENTAGE DISTRIBUTION OF COGNIZABLE CRIMES (IPC)",
+ "row_label": "CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 18,
  "n_cols": 5,
- "n_cells": 89,
+ "n_cells": 90,
  "columns": [
   {
    "col_no": "3",
-   "name": "UNDER 1986-1990 HEAD",
+   "name": "1986",
    "header": [
-    "UNDER 1986-1990 HEAD"
+    "1986"
    ]
   },
   {
    "col_no": "4",
-   "name": "CRIME 1986",
+   "name": "1987",
    "header": [
-    "CRIME 1986"
+    "1987"
    ]
   },
   {
    "col_no": "5",
-   "name": "HEADS 1987",
-   "header": [
-    "HEADS 1987"
-   ]
-  },
-  {
-   "col_no": "6",
    "name": "1988",
    "header": [
     "1988"
    ]
   },
   {
-   "col_no": "7",
-   "name": "1989 1990",
+   "col_no": "6",
+   "name": "1989",
    "header": [
-    "1989 1990"
+    "1989"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1990",
+   "header": [
+    "1990"
    ]
   }
  ],

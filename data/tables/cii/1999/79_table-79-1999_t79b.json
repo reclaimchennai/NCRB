@@ -6,92 +6,89 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "79",
- "title": "Deaths In Police Custody/Lockup During 1999 (Of Persons Remanded To Police Custody By Court)",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 79B",
  "listing_title": "Deaths In Police Custody/Lockup During 1999 (Of Persons Remanded To Police Custody By Court)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-79-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-79-1999.pdf",
  "source_sha256": "e659b9a3467bc9e171969b0ef424f27aa849a016bdab1a9c6df697fde25dae62",
  "table_no": "79B",
- "pdf_title": "",
- "row_label": "DEATHS IN POLICE Cusruvy AT THE TIME UF PKUDUUTION / COURT / JUUKNEY CUNNEUIED WITH LNVESLIGATION DURING 1999 SL. NO. (a) STATES,",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 79B",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   3
  ],
  "n_rows": 35,
  "n_cols": 7,
- "n_cells": 233,
+ "n_cells": 245,
  "columns": [
   {
-   "col_no": "2",
-   "name": "DEATHS IN POLICE Cusruvy AT THE TIME UF PKUDUUTION / COURT / JUUKNEY CUNNEUIED WITH LNVESLIGATION DURING 1999 | STATE/UT DEATH @)",
-   "header": [
-    "DEATHS IN POLICE Cusruvy AT THE TIME UF PKUDUUTION / COURT / JUUKNEY CUNNEUIED WITH LNVESLIGATION DURING 1999",
-    "STATE/UT DEATH @)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "DEATHS IN POLICE Cusruvy AT THE TIME UF PKUDUUTION / COURT / JUUKNEY CUNNEUIED WITH LNVESLIGATION DURING 1999 | AUTOPSY CONDUCTED @)",
+   "name": "NUMBER OF | DEATH REPORTED",
    "header": [
-    "DEATHS IN POLICE Cusruvy AT THE TIME UF PKUDUUTION / COURT / JUUKNEY CUNNEUIED WITH LNVESLIGATION DURING 1999",
-    "AUTOPSY CONDUCTED @)"
+    "NUMBER OF",
+    "DEATH REPORTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "DEATHS IN POLICE Cusruvy AT THE TIME UF PKUDUUTION / COURT / JUUKNEY CUNNEUIED WITH LNVESLIGATION DURING 1999 | ENQUIRY @)",
+   "name": "NUMBER OF | AUTOPSY CONDUCTED",
    "header": [
-    "DEATHS IN POLICE Cusruvy AT THE TIME UF PKUDUUTION / COURT / JUUKNEY CUNNEUIED WITH LNVESLIGATION DURING 1999",
-    "ENQUIRY @)"
+    "NUMBER OF",
+    "AUTOPSY CONDUCTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "DEATHS IN POLICE Cusruvy AT THE TIME UF PKUDUUTION / COURT / JUUKNEY CUNNEUIED WITH LNVESLIGATION DURING 1999 | NIMRER OF Fimictar. ENQUIRY ®",
+   "name": "NUMBER OF | MAGISTERIAL ENQUIRY ORDERED/ CONDUCTED",
    "header": [
-    "DEATHS IN POLICE Cusruvy AT THE TIME UF PKUDUUTION / COURT / JUUKNEY CUNNEUIED WITH LNVESLIGATION DURING 1999",
-    "NIMRER OF Fimictar. ENQUIRY ®"
+    "NUMBER OF",
+    "MAGISTERIAL ENQUIRY ORDERED/ CONDUCTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "IN | IN CONNEC- - ©",
+   "name": "NUMBER OF | JUDICIAL ENQUIRY ORDERED/ CONDUCTED",
    "header": [
-    "IN",
-    "IN CONNEC- - ©"
+    "NUMBER OF",
+    "JUDICIAL ENQUIRY ORDERED/ CONDUCTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "IN | POLICEMEN DEATHS ™",
+   "name": "NUMBER OF | CASES REGD. IN CONNECTION WITH DEATHS",
    "header": [
-    "IN",
-    "POLICEMEN DEATHS ™"
+    "NUMBER OF",
+    "CASES REGD. IN CONNECTION WITH DEATHS"
    ]
   },
   {
    "col_no": "8",
-   "name": "POLICEMEN (8)",
+   "name": "NUMBER OF | POLICE-MEN CHARGE-SHEETED",
    "header": [
-    "POLICEMEN (8)"
+    "NUMBER OF",
+    "POLICE-MEN CHARGE-SHEETED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NUMBER OF | POLICE-MEN CONVICTED",
+   "header": [
+    "NUMBER OF",
+    "POLICE-MEN CONVICTED"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 13,
-  "failures": [
-   "col 2 'TOTAL STATES': printed 15, sum 7",
-   "col 4 'TOTAL STATES': printed 11, sum 8",
-   "col 6 'TOTAL (UTs)': printed 0, sum 13"
-  ],
+  "cells_checked": 21,
+  "cells_passed": 21,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

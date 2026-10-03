@@ -8,73 +8,69 @@
  "serial": "66",
  "title": "Persons Killed or Injured under Police Firing During 1992 (State, UT & City-wise)",
  "listing_title": "Persons Killed or Injured under Police Firing During 1992 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-66-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-66-1992-survey.pdf",
  "source_sha256": "00d5a9d9d87377b1cea07a4671852b691f94c03a7f77ea40bab4a6e23210cbb9",
  "table_no": "66",
- "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1992",
- "row_label": "SL. No. / STATE/UT",
+ "pdf_title": "297 TABLE-66 PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1992 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. STATE/UTNO. / SL. STATE/UTNO.",
  "pages": [
   1,
   2
  ],
  "n_rows": 58,
  "n_cols": 5,
- "n_cells": 263,
+ "n_cells": 290,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE,UT NO. OCCASIONS OF FIRING",
+   "name": "NO. OF OCCASIONS OF POLICE FIRING",
    "header": [
-    "(STATE,UT NO. OCCASIONS OF FIRING"
+    "NO. OF OCCASIONS OF POLICE FIRING"
    ]
   },
   {
    "col_no": "4",
-   "name": "& OF POLICE",
+   "name": "CIVILIANS | KILLED",
    "header": [
-    "& OF POLICE"
+    "CIVILIANS",
+    "KILLED"
    ]
   },
   {
    "col_no": "5",
-   "name": "CITY-WISE) CIVILIANS KILLED",
+   "name": "CIVILIANS | INJURED",
    "header": [
-    "CITY-WISE) CIVILIANS KILLED"
+    "CIVILIANS",
+    "INJURED"
    ]
   },
   {
    "col_no": "6",
+   "name": "POLICEMEN | KILLED",
+   "header": [
+    "POLICEMEN",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "7",
    "name": "POLICEMEN | INJURED",
    "header": [
     "POLICEMEN",
     "INJURED"
    ]
-  },
-  {
-   "col_no": "7",
-   "name": "POLICEMEN | KILLED INJURED",
-   "header": [
-    "POLICEMEN",
-    "KILLED INJURED"
-   ]
   }
  ],
- "notes": [
-  "Note: NR stands for data not received."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 6,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 4232, sum 4181",
-   "col 5 'TOTAL (STATES)': printed 3488, sum 3482",
-   "col 6 'TOTAL (STATES)': printed 309, sum 312"
-  ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 5
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

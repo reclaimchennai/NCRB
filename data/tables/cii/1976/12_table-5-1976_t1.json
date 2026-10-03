@@ -6,57 +6,149 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "12",
- "title": "TARTR",
+ "title": "10 TABLE Incidence of Cognizable Crime and Volume of Crime per One Lakh of Population",
  "listing_title": "Incidence of Cognizable Crime and Volume of Crime per one Lakh of Population under Important Heads of Indian Penal Code During",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1976.pdf",
  "source_file": "raw/cii/1976/table_content/table-5-1976.pdf",
  "source_sha256": "7cc048d66986e7f6399f9bbf8309b5779f4f108908feed87fc3cca02498a5def",
  "table_no": "",
- "pdf_title": "TARTR",
- "row_label": "",
+ "pdf_title": "10 TABLE Incidence of Cognizable Crime and Volume of Crime per One Lakh of Population",
+ "row_label": "Sl. No. / State/U.Ts./Cities",
  "pages": [
+  1,
   1
  ],
- "n_rows": 36,
- "n_cols": 7,
- "n_cells": 214,
+ "n_rows": 41,
+ "n_cols": 14,
+ "n_cells": 574,
  "columns": [
   {
+   "col_no": "3",
+   "name": "Crime Heads | Murder | I",
+   "header": [
+    "Crime Heads",
+    "Murder",
+    "I"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Crime Heads | Murder | V",
+   "header": [
+    "Crime Heads",
+    "Murder",
+    "V"
+   ]
+  },
+  {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Crime Heads | C. H. not amounting to murder | I",
+   "header": [
+    "Crime Heads",
+    "C. H. not amounting to murder",
+    "I"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "Crime Heads | C. H. not amounting to murder | V",
+   "header": [
+    "Crime Heads",
+    "C. H. not amounting to murder",
+    "V"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "Crime Heads | Crime Heads Rape | I",
+   "header": [
+    "Crime Heads",
+    "Crime Heads Rape",
+    "I"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "Crime Heads | Crime Heads Rape | V",
+   "header": [
+    "Crime Heads",
+    "Crime Heads Rape",
+    "V"
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "Crime Heads | Kldnapping & Abduction | I",
+   "header": [
+    "Crime Heads",
+    "Kldnapping & Abduction",
+    "I"
+   ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "Crime Heads | Kldnapping & Abduction | V",
+   "header": [
+    "Crime Heads",
+    "Kldnapping & Abduction",
+    "V"
+   ]
   },
   {
    "col_no": "11",
-   "name": "col_11",
-   "header": []
+   "name": "Crime Heads | Decoity | I",
+   "header": [
+    "Crime Heads",
+    "Decoity",
+    "I"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Crime Heads | Decoity | V",
+   "header": [
+    "Crime Heads",
+    "Decoity",
+    "V"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Crime Heads | Robbery | I",
+   "header": [
+    "Crime Heads",
+    "Robbery",
+    "I"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Crime Heads | Robbery | V",
+   "header": [
+    "Crime Heads",
+    "Robbery",
+    "V"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Crime Heads | Burglary | I",
+   "header": [
+    "Crime Heads",
+    "Burglary",
+    "I"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Crime Heads | Burglary | V",
+   "header": [
+    "Crime Heads",
+    "Burglary",
+    "V"
+   ]
   }
  ],
  "notes": [],
@@ -64,10 +156,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -6,22 +6,23 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "11",
- "title": "Percentage of IPC Cases Disposed of by Police During 1998",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-16A",
  "listing_title": "Percentage of IPC Cases Disposed of by Police During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-16--percentage-of-ipc-cases-disposal-of-by-police-during-1998-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-16--percentage-of-ipc-cases-disposal-of-by-police-during-1998-1998.pdf",
  "source_sha256": "bb638d8d9219228e876f67c25f1d691036daaa05e8726bb90e8890fd57bcb256",
  "table_no": "16A",
- "pdf_title": "",
- "row_label": "bed / STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-16A",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
-  2
+  2,
+  3
  ],
- "n_rows": 36,
- "n_cols": 11,
- "n_cells": 368,
+ "n_rows": 37,
+ "n_cols": 24,
+ "n_cells": 840,
  "columns": [
   {
    "col_no": "3",
@@ -32,67 +33,61 @@
   },
   {
    "col_no": "4",
-   "name": "- RATE OF irc Grasses | MURDER",
+   "name": "ATTEMPT TO COMMIT MURDER",
    "header": [
-    "- RATE OF irc Grasses",
-    "MURDER"
+    "ATTEMPT TO COMMIT MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "- RATE OF irc Grasses | C.H. TO MURDE",
+   "name": "C.H. NOT AMOUNTING TO MURDE",
    "header": [
-    "- RATE OF irc Grasses",
-    "C.H. TO MURDE"
+    "C.H. NOT AMOUNTING TO MURDE"
    ]
   },
   {
    "col_no": "6",
-   "name": "- RATE OF irc Grasses | RAPE",
+   "name": "RAPE",
    "header": [
-    "- RATE OF irc Grasses",
     "RAPE"
    ]
   },
   {
    "col_no": "7",
-   "name": "- RATE OF irc Grasses | KIDNAPPING & ABDUCTION | TOTAL",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
    "header": [
-    "- RATE OF irc Grasses",
     "KIDNAPPING & ABDUCTION",
     "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "- RATE OF irc Grasses | KIDNAPPING & ABDUCTION | OF WOMEN",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN",
    "header": [
-    "- RATE OF irc Grasses",
     "KIDNAPPING & ABDUCTION",
     "OF WOMEN"
    ]
   },
   {
    "col_no": "9",
-   "name": "1998 | OF OTHERS",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS",
    "header": [
-    "1998",
+    "KIDNAPPING & ABDUCTION",
     "OF OTHERS"
    ]
   },
   {
    "col_no": "10",
-   "name": "1998 | DACOITY",
+   "name": "DACOITY",
    "header": [
-    "1998",
     "DACOITY"
    ]
   },
   {
    "col_no": "11",
-   "name": "ASSEMBLY FOR DACOITY",
+   "name": "PREPARA-TION & ASSEMBLY FOR DACOITY",
    "header": [
-    "ASSEMBLY FOR DACOITY"
+    "PREPARA-TION & ASSEMBLY FOR DACOITY"
    ]
   },
   {
@@ -108,6 +103,97 @@
    "header": [
     "BURGLARY"
    ]
+  },
+  {
+   "col_no": "14",
+   "name": "THEFT",
+   "header": [
+    "THEFT"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "RIOTS",
+   "header": [
+    "RIOTS"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "CRIMINAL BREACH OF TRUST",
+   "header": [
+    "CRIMINAL BREACH OF TRUST"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CHEATING",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "COUNTER FEITING",
+   "header": [
+    "COUNTER FEITING"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "ARSON",
+   "header": [
+    "ARSON"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "HURT",
+   "header": [
+    "HURT"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "DOWRY DEATHS",
+   "header": [
+    "DOWRY DEATHS"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "MOLES-TATION",
+   "header": [
+    "MOLES-TATION"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "SEXUAL HARASS MENT",
+   "header": [
+    "SEXUAL HARASS MENT"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "CRUELTY BY HUSBAND AND RELATIVES",
+   "header": [
+    "CRUELTY BY HUSBAND AND RELATIVES"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "OTHER IPC CRIMES",
+   "header": [
+    "OTHER IPC CRIMES"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "TOTAL COG. CRIMES UNDER IPC",
+   "header": [
+    "TOTAL COG. CRIMES UNDER IPC"
+   ]
   }
  ],
  "notes": [],
@@ -119,6 +205,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

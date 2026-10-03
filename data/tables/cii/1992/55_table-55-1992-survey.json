@@ -8,20 +8,20 @@
  "serial": "55",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1982-92",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1982-92",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-55-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-55-1992-survey.pdf",
  "source_sha256": "6866e306a2bc21c2d5ae87bdd46841abddb150ae14aa586aae20ccf4e144aea9",
  "table_no": "55",
- "pdf_title": "VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
+ "pdf_title": "260 TABLE-55 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY DURING 1982-92",
  "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 14,
- "n_cols": 3,
- "n_cells": 36,
+ "n_rows": 12,
+ "n_cols": 4,
+ "n_cells": 48,
  "columns": [
   {
    "col_no": "2",
@@ -32,16 +32,23 @@
   },
   {
    "col_no": "3",
-   "name": "DURING TOTAL OF PROPERTY STOLEN",
+   "name": "TOTAL VALUE OF PROPERTYSTOLEN",
    "header": [
-    "DURING TOTAL OF PROPERTY STOLEN"
+    "TOTAL VALUE OF PROPERTYSTOLEN"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RECOVERED",
+   "header": [
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "1982-92 in (Re. lakh) VALUE PERCENTAGE RECOVERY RECOVERED (4).",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "1982-92 in (Re. lakh) VALUE PERCENTAGE RECOVERY RECOVERED (4)."
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],

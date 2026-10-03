@@ -132,31 +132,49 @@ def _score(tables) -> tuple[int, int, int]:
     return score_tables(tables)
 
 
-def choose_vlm(src: Path, ocr_tables: list):
-    """The best VLM reading of a scanned file, when one is in the page cache and checks out better.
+# when neither reading has a total to check, the model that won the bake-off on NCRB's own scans (colab/) is
+# preferred: where totals can be checked it matches 86% of them against Tesseract's 57%
+VLM_PREFERRED = ["ATH-MaaS/OvisOCR2", "mlx-community/GLM-OCR-bf16", "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
 
-    Every model that has read all the file's scanned pages (on this laptop or
-    on a cloud GPU, see colab/) is scored by the totals check, as is the
-    Tesseract reading; a failed total costs twice what a matched one earns.
-    The best-scoring VLM reading replaces Tesseract only when it scores
-    higher, so no file whose totals could be checked gets worse. Files with
-    nothing to check keep the Tesseract reading.
+
+def best_vlm(src: Path, cur_passed: int, cur_total: int):
+    """The best cached VLM reading of a scanned file, if it beats the current reading (totals matched, totals checked).
+
+    Every model that has read all the file's scanned pages (on this laptop or on a cloud GPU, see colab/) is
+    scored by the totals check, a failed total costing twice what a matched one earns. A reading with totals
+    to check replaces the current one only when it scores higher, so no file whose totals could be checked
+    gets worse. When neither the current reading nor any model reading has a total to check, the preferred
+    model's reading is used. Returns (tables, model, note) or None.
     """
     try:
         from .vlm import VLM_MODELS
         from .vlm_tables import vlm_tables
     except ImportError:
         return None
-    tp, ttot, tscore = _score(ocr_tables)
+    cur_score = cur_passed - 2 * (cur_total - cur_passed)
     best = None
-    for model in VLM_MODELS:
+    order = VLM_PREFERRED + [m for m in VLM_MODELS if m not in VLM_PREFERRED]
+    for rank, model in enumerate(order):
         vt, st = vlm_tables(src, model, run_model=False)
         if not vt or st["pages_missing"]:
             continue
         vp, vtot, vscore = _score(vt)
-        if vtot and vscore > tscore and (best is None or vscore > best[0]):
-            best = (vscore, vt, f"VLM reading used ({model.split('/')[-1]}): totals {vp}/{vtot} against Tesseract {tp}/{ttot}")
-    return (best[1], best[2]) if best else None
+        if vtot and vscore > cur_score:
+            key = (1, vscore, -rank)
+        elif not vtot and not cur_total:
+            key = (0, 0, -rank)
+        else:
+            continue
+        if best is None or key > best[0]:
+            how = f"totals {vp}/{vtot} against {cur_passed}/{cur_total}" if vtot else "no totals to check in either reading"
+            best = (key, vt, model, f"VLM reading used ({model.split('/')[-1]}): {how}")
+    return (best[1], best[2], best[3]) if best else None
+
+
+def choose_vlm(src: Path, ocr_tables: list):
+    tp, ttot, _ = _score(ocr_tables)
+    r = best_vlm(src, tp, ttot)
+    return (r[0], r[2]) if r else None
 
 
 def process_file(job: dict) -> tuple[dict, list[dict]]:
@@ -187,61 +205,83 @@ def process_file(job: dict) -> tuple[dict, list[dict]]:
                     tables, note = choice
                     method = "pdf_vlm"
                     summary["error"] = note
-        tables = [t for t in tables if t.rows and t.columns]
-        summary["tables"] = len(tables)
-        if tables:
-            summary["status"] = "ok"
-        elif ext == ".pdf" and summary["pages_without_text"] >= 0.8 * max(1, summary["pages"]) and not summary["pages_ocr"]:
-            summary["status"] = "scanned_not_ocred"
-        else:
-            summary["status"] = "no_table"
-        stem = slug(Path(job["path"]).stem, 60)
-        prefix = slug(job.get("serial", ""), 12)
-        seen: dict[str, int] = {}
-        for k, t in enumerate(tables, 1):
-            tid = "_".join(x for x in (prefix, stem) if x)
-            if len(tables) > 1:
-                tid += "_t" + (slug(t.table_no) or str(k))
-            seen[tid] = seen.get(tid, 0) + 1
-            if seen[tid] > 1:
-                tid += f"_{seen[tid]}"
-            title = job.get("title", "") if len(tables) == 1 else (t.title or job.get("title", ""))
-            if method == "pdf_vlm":
-                m = "pdf_vlm"
-            elif method == "pdf_text" and t.ocr_pages:
-                m = "pdf_ocr" if t.ocr_pages == len(t.pages) else "pdf_mixed"
-            else:
-                m = method
-            meta = {
-                "table_id": f"{job['publication']}/{job['year']}/{tid}",
-                "publication": job["publication"],
-                "year": int(job["year"]),
-                "listing": job["listing"],
-                "topic": topic_of(job.get("section", ""), job["listing"]),
-                "section": job.get("section", ""),
-                "serial": job.get("serial", ""),
-                "title": title,
-                "listing_title": job.get("title", ""),
-                "method": m,
-                "sheet": t.sheet,
-                "source_url": job["url"],
-                "source_file": job["path"],
-                "source_sha256": job.get("sha256", ""),
-            }
-            base = OUT / job["publication"] / str(job["year"]) / tid
-            doc = write_table(t, meta, base)
-            rows.append({
-                **{k: doc.get(k, "") for k in INDEX_FIELDS},
-                "pages": f"{t.pages[0]}-{t.pages[-1]}" if t.pages else "",
-                "checks_total": doc["checks"]["cells_checked"],
-                "checks_passed": doc["checks"]["cells_passed"],
-                "warnings": "; ".join(t.warnings),
-                "csv": str(base.with_suffix(".csv").relative_to(ROOT)),
-            })
+        rows = write_tables(job, tables, method, summary)
     except Exception as e:  # keep going; the failure is recorded against the file
         summary |= {"status": "error", "error": f"{type(e).__name__}: {e}"[:300]}
         traceback.print_exc()
     return summary, rows
+
+
+def write_tables(job: dict, tables: list, method: str, summary: dict) -> list[dict]:
+    """Write a file's tables (json, csv, long csv) and return their index rows; sets the summary's status."""
+    rows: list[dict] = []
+    ext = Path(job["path"]).suffix.lower()
+    tables = [t for t in tables if t.rows and t.columns]
+    summary["tables"] = len(tables)
+    if tables:
+        summary["status"] = "ok"
+    elif ext == ".pdf" and summary["pages_without_text"] >= 0.8 * max(1, summary["pages"]) and not summary["pages_ocr"]:
+        summary["status"] = "scanned_not_ocred"
+    else:
+        summary["status"] = "no_table"
+    stem = slug(Path(job["path"]).stem, 60)
+    prefix = slug(job.get("serial", ""), 12)
+    seen: dict[str, int] = {}
+    for k, t in enumerate(tables, 1):
+        tid = "_".join(x for x in (prefix, stem) if x)
+        if len(tables) > 1:
+            tid += "_t" + (slug(t.table_no) or str(k))
+        seen[tid] = seen.get(tid, 0) + 1
+        if seen[tid] > 1:
+            tid += f"_{seen[tid]}"
+        title = job.get("title", "") if len(tables) == 1 else (t.title or job.get("title", ""))
+        if method == "pdf_vlm":
+            m = "pdf_vlm"
+        elif method == "pdf_text" and t.ocr_pages:
+            m = "pdf_ocr" if t.ocr_pages == len(t.pages) else "pdf_mixed"
+        else:
+            m = method
+        meta = {
+            "table_id": f"{job['publication']}/{job['year']}/{tid}",
+            "publication": job["publication"],
+            "year": int(job["year"]),
+            "listing": job["listing"],
+            "topic": topic_of(job.get("section", ""), job["listing"]),
+            "section": job.get("section", ""),
+            "serial": job.get("serial", ""),
+            "title": title,
+            "listing_title": job.get("title", ""),
+            "method": m,
+            "sheet": t.sheet,
+            "source_url": job["url"],
+            "source_file": job["path"],
+            "source_sha256": job.get("sha256", ""),
+        }
+        base = OUT / job["publication"] / str(job["year"]) / tid
+        doc = write_table(t, meta, base)
+        rows.append({
+            **{k: doc.get(k, "") for k in INDEX_FIELDS},
+            "pages": f"{t.pages[0]}-{t.pages[-1]}" if t.pages else "",
+            "checks_total": doc["checks"]["cells_checked"],
+            "checks_passed": doc["checks"]["cells_passed"],
+            "warnings": "; ".join(t.warnings),
+            "csv": str(base.with_suffix(".csv").relative_to(ROOT)),
+        })
+    return rows
+
+
+def rescore_file(job: dict, cur_passed: int, cur_total: int, summary: dict):
+    """A scanned file's cached VLM readings against its current one, without re-running OCR: rewritten only if better."""
+    try:
+        r = best_vlm(ROOT / job["path"], cur_passed, cur_total)
+        if r is None:
+            return None
+        tables, model, note = r
+        summary = dict(summary) | {"error": note}
+        return summary, write_tables(job, tables, "pdf_vlm", summary)
+    except Exception as e:
+        traceback.print_exc()
+        return None
 
 
 def vlm_ready(path: Path) -> bool:
@@ -323,9 +363,14 @@ def main() -> None:
     ap.add_argument("--no-ocr", action="store_true", help="skip scanned pages instead of running OCR")
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--revalue", action="store_true", help="only recompute `value` from `raw` in existing long files")
+    ap.add_argument("--vlm-rescore", action="store_true",
+                    help="scanned files: use a cached VLM reading where it beats the current one (no OCR is re-run)")
     args = ap.parse_args()
     if args.revalue:
         revalue()
+        return
+    if args.vlm_rescore:
+        vlm_rescore(args)
         return
 
     table_rows = _load(INDEX, "source_file")
@@ -344,6 +389,34 @@ def main() -> None:
                 print(f"[{n}/{len(todo)}] tables so far: {sum(len(v) for v in table_rows.values())}", flush=True)
     _save(INDEX, INDEX_FIELDS, table_rows)
     _save(FILE_INDEX, FILE_FIELDS, file_rows)
+    prune({r["csv"] for rows in table_rows.values() for r in rows})
+
+
+def vlm_rescore(args) -> None:
+    table_rows = _load(INDEX, "source_file")
+    file_rows = _load(FILE_INDEX, "source_file")
+    todo = []
+    for j in jobs(args):
+        f = file_rows.get(j["path"], [{}])[0]
+        if not j["path"].lower().endswith(".pdf") or int(float(f.get("pages_ocr") or 0)) == 0:
+            continue
+        cur = table_rows.get(j["path"], [])
+        todo.append((j, sum(int(r["checks_passed"] or 0) for r in cur), sum(int(r["checks_total"] or 0) for r in cur), f))
+    print(f"{len(todo)} scanned files to re-score", flush=True)
+    changed = 0
+    with ProcessPoolExecutor(max_workers=args.workers) as ex:
+        futures = {ex.submit(rescore_file, j, p, t, f): j for j, p, t, f in todo}
+        for n, fut in enumerate(as_completed(futures), 1):
+            res = fut.result()
+            if res is not None:
+                summary, rows = res
+                file_rows[summary["source_file"]] = [summary]
+                table_rows[summary["source_file"]] = rows
+                changed += 1
+            if n % 200 == 0 or n == len(todo):
+                _save(INDEX, INDEX_FIELDS, table_rows)
+                _save(FILE_INDEX, FILE_FIELDS, file_rows)
+                print(f"[{n}/{len(todo)}] {changed} files now use a VLM reading", flush=True)
     prune({r["csv"] for rows in table_rows.values() for r in rows})
 
 

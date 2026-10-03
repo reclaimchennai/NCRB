@@ -8,71 +8,70 @@
  "serial": "17",
  "title": "Juvenile Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During the Year 1980",
  "listing_title": "Juvenile Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During the Year 1980",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-42-1980_0.pdf",
  "source_file": "raw/cii/1980/table_content/table-42-1980_0.pdf",
  "source_sha256": "3e4e7d724ab341643713698651539b6b11a28c23f32becdc2173e435b8741eda",
  "table_no": "42",
- "pdf_title": "",
- "row_label": "Year 1990 SL Hee 72ST Citlea No. j, 4-— 2. 3. 4. Gujarat, 5. Haram",
+ "pdf_title": "108 TABLE 42 Juvenile Apprehended (by Age group)- for Committing Crimes under Indian penal code During the Year 1980",
+ "row_label": "Sl. No. / Name of the States/UT-s./Cities",
  "pages": [
   1
  ],
- "n_rows": 36,
+ "n_rows": 43,
  "n_cols": 5,
- "n_cells": 157,
+ "n_cells": 215,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Year 1990 | gf at F.4 319 14 1 166 i7",
-   "header": [
-    "Year 1990",
-    "gf at F.4 319 14 1 166 i7"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Year 1990 | 195 963 385 1755 12",
+   "name": "7-12 years",
    "header": [
-    "Year 1990",
-    "195 963 385 1755 12"
+    "7-12 years"
    ]
   },
   {
    "col_no": "4",
-   "name": "Year 1990 | J=—l2 yeate «= 216 years 16—18 pears 326 1,786 L370 $439 0",
+   "name": "12-16 years",
    "header": [
-    "Year 1990",
-    "J=—l2 yeate «= 216 years 16—18 pears 326 1,786 L370 $439 0"
+    "12-16 years"
    ]
   },
   {
    "col_no": "5",
-   "name": "Year 1990 | 1831 Wl 3,007 1,905 T2530 1245",
+   "name": "16-18 years",
    "header": [
-    "Year 1990",
-    "1831 Wl 3,007 1,905 T2530 1245"
+    "16-18 years"
    ]
   },
   {
    "col_no": "6",
-   "name": "Year 1990 | Total 1,150 67 3! 6d. 43,.110 1) MRE",
+   "name": "18-21 years",
    "header": [
-    "Year 1990",
-    "Total 1,150 67 3! 6d. 43,.110 1) MRE"
+    "18-21 years"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 15,
+  "cells_passed": 12,
+  "failures": [
+   "col 5 'Total (States)': printed 18844, sum 20844",
+   "col 6 'Total (States)': printed 50615, sum 50325",
+   "col 7 'Total (States)': printed 82480, sum 82460"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

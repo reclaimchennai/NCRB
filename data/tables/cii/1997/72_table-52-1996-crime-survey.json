@@ -8,14 +8,14 @@
  "serial": "72",
  "title": "Juveniles Apprehended Under IPC & SLL Crimes by Sex (1987-97)",
  "listing_title": "Juveniles Apprehended Under IPC & SLL Crimes by Sex (1987-97)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-52-1996-crime-survey.pdf",
  "source_sha256": "ae13e2f4af2e3af5a30999a58370842a5f6aece030d5aa08d3c801250bc5d4ea",
  "table_no": "52",
- "pdf_title": "",
- "row_label": "Sh. NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-52",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
@@ -25,48 +25,41 @@
  "columns": [
   {
    "col_no": "2",
-   "name": "JUVENILES | YEAR",
+   "name": "YEAR",
    "header": [
-    "JUVENILES",
     "YEAR"
    ]
   },
   {
    "col_no": "3",
-   "name": "JUVENILES | (1987.97) BOYS",
+   "name": "BOYS",
    "header": [
-    "JUVENILES",
-    "(1987.97) BOYS"
+    "BOYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER IPC & SLL CRIMES BY SEX GIRLS",
+   "name": "GIRLS",
    "header": [
-    "UNDER IPC & SLL CRIMES BY SEX GIRLS"
+    "GIRLS"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE | TOTAL",
+   "name": "TOTAL",
    "header": [
-    "PERCENTAGE",
     "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE | OF GIRLS",
+   "name": "PERCENTAGE OF GIRLS",
    "header": [
-    "PERCENTAGE",
-    "OF GIRLS"
+    "PERCENTAGE OF GIRLS"
    ]
   }
  ],
- "notes": [
-  "Note: 1.Data for 1988 onwards is not at all comparable to earlier years due to change in the definition of Juveniles from 1988.",
-  "2.Earlier.juvenile boys & girls were of the same age"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -8,56 +8,70 @@
  "serial": "34",
  "title": "Percentage of LSL Crime Cases Disposed of by Police During 1991",
  "listing_title": "Percentage of LSL Crime Cases Disposed of by Police During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-18-1991-18.pdf",
  "source_file": "raw/cii/1991/table_content/table-18-1991-18.pdf",
  "source_sha256": "050a18ce4b6f22b6bc16c904067b53b83453380a67d71f6a94d3bd11176c1034",
- "table_no": "",
- "pdf_title": "oe",
- "row_label": "Bh. ce) 1 F 3 5 / OF CRIME HEAD ACT MARCOTIC ORGS E PSY. SUBSTANCES ACT ACT / CRIME CASES DISPOSED OF BY POLICE DURING 1791 REFUSED - (3) o.0 6.3 o.0 / CRIME CASES DISPOSED OF BY POLICE DURING 1791 OF CASES TO TOTAL INVESTIGATION CHARGE FALSE/ OF Law El. (4) o.4 o.4 o.0",
+ "table_no": "18",
+ "pdf_title": "94 TABLE-18 PERCENTAGE OF LSL CRIME CASES DISPOSED OF BY POLICE DURING 1991",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 14,
- "n_cols": 4,
- "n_cells": 49,
+ "n_rows": 17,
+ "n_cols": 6,
+ "n_cells": 102,
  "columns": [
   {
-   "col_no": "5",
-   "name": "CRIME CASES DISPOSED OF BY POLICE DURING 1791 | OF CASES TO TOTAL | WHICH REPORT TRUE GUGHIT=- TED (3) 2.0 2.1 a1",
+   "col_no": "3",
+   "name": "PERCENTAGE OF CASES TO TOTAL INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "CRIME CASES DISPOSED OF BY POLICE DURING 1791",
-    "OF CASES TO TOTAL",
-    "WHICH REPORT TRUE GUGHIT=- TED (3) 2.0 2.1 a1"
+    "PERCENTAGE OF CASES TO TOTAL INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS REFUSED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE OF CASES TO TOTAL INVESTIGATION IN WHICH | INVESTIGATION WAS CHARGE FOUND FALSE/MISTAKE OF LAW ETC.",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS CHARGE FOUND FALSE/MISTAKE OF LAW ETC."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CASES | COMPLETED FINAL REPORT TRUE SUBMIT- TED",
+   "header": [
+    "CASES",
+    "COMPLETED FINAL REPORT TRUE SUBMIT- TED"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIME CASES DISPOSED OF BY POLICE DURING 1791 | CARES WAS COMPLETED ‘CHARGE VERE LAID (6) 85.5 8 96.4",
+   "name": "FOR | CHARGE SHEETS WERE LAID",
    "header": [
-    "CRIME CASES DISPOSED OF BY POLICE DURING 1791",
-    "CARES WAS COMPLETED ‘CHARGE VERE LAID (6) 85.5 8 96.4"
+    "FOR",
+    "CHARGE SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "7",
-   "name": "FGH eee TOTAL ((4)*(3) +0h) ry a.3",
+   "name": "PERCENTAGE OF CASES | TOTAL ((4)+(5) + (6))",
    "header": [
-    "FGH eee TOTAL ((4)*(3) +0h) ry a.3"
+    "PERCENTAGE OF CASES",
+    "TOTAL ((4)+(5) + (6))"
    ]
   },
   {
    "col_no": "8",
-   "name": "OF CASES I= vais cay 2.4 7.4 3.5",
+   "name": "PENDING INVESTIGATION",
    "header": [
-    "OF CASES I= vais cay 2.4 7.4 3.5"
+    "PENDING INVESTIGATION"
    ]
   }
  ],
- "notes": [
-  "Note? than 0.05 ie of 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -65,7 +79,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

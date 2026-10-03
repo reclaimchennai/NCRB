@@ -6,49 +6,108 @@
  "topic": "",
  "section": "Crime in India 1993",
  "serial": "5",
- "title": "Theft*",
+ "title": "ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CRIMES DURING 1993 4A-177 NC RIB95 11",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653991386_excerpts1993.pdf",
  "source_file": "raw/cii/1993/year_wise/1653991386_excerpts1993.pdf",
  "source_sha256": "1010fcc8e52fbf3857a018e1a44aa59c8e07dfbcca28545b8def970645e989b3",
  "table_no": "",
- "pdf_title": "Theft*",
- "row_label": "",
+ "pdf_title": "ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CRIMES DURING 1993 4A-177 NC RIB95 11",
+ "row_label": "STATE/UT",
  "pages": [
-  24,
-  24,
-  25
+  10
  ],
  "n_rows": 35,
- "n_cols": 2,
- "n_cells": 65,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "AREA (IN SQR. KMS)",
+   "header": [
+    "AREA (IN SQR. KMS)"
+   ]
   },
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "ESTI- MATED MID- YEAR POPULATION (IN 000)",
+   "header": [
+    "ESTI- MATED MID- YEAR POPULATION (IN 000)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "TOTAL CO- NIZABLE CRIMES (IPC INCLUDING PENDING CASES)",
+   "header": [
+    "TOTAL CO- NIZABLE CRIMES (IPC INCLUDING PENDING CASES)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ACTUAL POLICE STRENGTH | CIVEL",
+   "header": [
+    "ACTUAL POLICE STRENGTH",
+    "CIVEL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ACTUAL POLICE STRENGTH | ARMED",
+   "header": [
+    "ACTUAL POLICE STRENGTH",
+    "ARMED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "ACTUAL POLICE STRENGTH | TOTAL",
+   "header": [
+    "ACTUAL POLICE STRENGTH",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF POLICEMEN PER 1,000 SQR. KMS AREA",
+   "header": [
+    "NO. OF POLICEMEN PER 1,000 SQR. KMS AREA"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF POLICEMEN PER 1,000 OF POPULA-TION",
+   "header": [
+    "NO. OF POLICEMEN PER 1,000 OF POPULA-TION"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "IPC CASES PER 1.0",
+   "header": [
+    "IPC CASES PER 1.0"
+   ]
   }
  ],
- "notes": [
-  "Singapore NLA. NLA.",
-  "U.S.A. NLA.",
-  "- Source: Interpol Division, CBI, New Delhi"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 15,
+  "cells_passed": 6,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 3.27629e+06, sum 3.28019e+06",
+   "col 2 'TOTAL (ALL-INDIA)': printed 3.25726e+06, sum 3.28726e+06",
+   "col 4 'TOTAL (STATES)': printed 2.01556e+06, sum 2.02576e+06",
+   "col 4 'TOTAL (ALL-INDIA)': printed 2.09051e+06, sum 2.08051e+06",
+   "col 5 'TOTAL (STATES)': printed 893361, sum 894101",
+   "col 5 'TOTAL (UTS)': printed 43538, sum 43838",
+   "col 5 'TOTAL (ALL-INDIA)': printed 937339, sum 936899",
+   "col 6 'TOTAL (STATES)': printed 247369, sum 246519"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 1,
  "warnings": []
 }

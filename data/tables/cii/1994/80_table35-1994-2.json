@@ -8,85 +8,72 @@
  "serial": "80",
  "title": "Disposal of Persons Arrested under IPC Crimes by Police During 1994 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes by Police During 1994 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table35-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table35-1994_2.pdf",
  "source_sha256": "ecc8a6b547bdbad0fe0097de7229bff2e622b31b0570bcf19e88bc47882dd2b2",
  "table_no": "35",
- "pdf_title": "DISPOSAL OF PERSONS AkKES1 ED UNDER IPC CRIMES BY POLICE DURING",
- "row_label": "(STATE & UT-WISE) SL. NO. / (STATE & UT-WISE) STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-35",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 6,
- "n_cells": 192,
+ "n_cells": 210,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | TOTAL NO.OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR",
+   "name": "TOTAL NO.OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "(STATE & UT-WISE)",
-    "TOTAL NO.OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PREVIOUS YEAR"
+    "TOTAL NO.OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | PERSONS RELEASED BEFORE TRIAL",
+   "name": "NUMBER OF | PERSONS RELEASED BEFORE TRIAL",
    "header": [
-    "(STATE & UT-WISE)",
+    "NUMBER OF",
     "PERSONS RELEASED BEFORE TRIAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | NUMBER OF PERSONS CHARGE SHEETED",
+   "name": "NUMBER OF | PERSONS CHARGE SHEETED",
    "header": [
-    "(STATE & UT-WISE)",
-    "NUMBER OF PERSONS CHARGE SHEETED"
+    "NUMBER OF",
+    "PERSONS CHARGE SHEETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+   "name": "NUMBER OF | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
    "header": [
-    "(STATE & UT-WISE)",
+    "NUMBER OF",
     "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | PENDENCY PERCENTAGE",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "(STATE & UT-WISE)",
     "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | PERCENTASE OF PENCENCY TO ALLINDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "PERCENTASE OF PENCENCY TO ALLINDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "NOTE: 1.* IN CUSTODY OR ON BAIL.",
-  "2. PERCENTAGE LESS THAN 0.05 IS ALSO SHOWN AS 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 10,
-  "cells_passed": 4,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 2.97219e+06, sum 2.88088e+06",
-   "col 4 'TOTAL (STATES)': printed 164557, sum 149360",
-   "col 5 'TOTAL (STATES)': printed 2.29451e+06, sum 2.63461e+06",
-   "col 5 '(ALLINDIA)': printed 233504, sum 2.33505e+06",
-   "col 6 'TOTAL (STATES)': printed 513120, sum 512116",
-   "col 6 'TOTAL (UTs)': printed 7022, sum 8871"
-  ],
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -6,60 +6,84 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "ORDINARY—",
+ "title": "65 APPENDIX VII CASES",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1964.pdf",
  "source_file": "raw/cii/1964/table_chapter/appendix-1964.pdf",
  "source_sha256": "f45dcb582666293544ac26c2e40abd44ebfb046a8ef02df8eee0814973fa15b6",
  "table_no": "",
- "pdf_title": "ORDINARY—",
- "row_label": "Sl. States/U.Ts./Cities No. 2",
+ "pdf_title": "65 APPENDIX VII CASES",
+ "row_label": "Total true cases",
  "pages": [
-  58
+  27
  ],
- "n_rows": 27,
- "n_cols": 5,
- "n_cells": 132,
+ "n_rows": 28,
+ "n_cols": 9,
+ "n_cells": 252,
  "columns": [
   {
    "col_no": "2",
-   "name": "Cases pending | Cases Pending investigation from year 3",
+   "name": "Cases not detected",
    "header": [
-    "Cases pending",
-    "Cases Pending investigation from year 3"
+    "Cases not detected"
    ]
   },
   {
    "col_no": "3",
-   "name": "Cases pending | posal in previous courts 4",
+   "name": "Cases in which charge sheet was laid",
    "header": [
-    "Cases pending",
-    "posal in previous courts 4"
+    "Cases in which charge sheet was laid"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases | Cases not be pnb duringthe year “5",
+   "name": "Cases compounded or withdrawn",
    "header": [
-    "Cases",
-    "Cases not be pnb duringthe year “5"
+    "Cases compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases | at mistake the of year fact or law(+) noncognizable 6",
+   "name": "Cases in which trial was completed",
    "header": [
-    "Cases",
-    "at mistake the of year fact or law(+) noncognizable 6"
+    "Cases in which trial was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "- Cases pending pendinvesti- ing gation trial the at the false(+-) end of end of the year 8 7",
+   "name": "Cases convicted",
    "header": [
-    "- Cases pending pendinvesti- ing gation trial the at the false(+-) end of end of the year 8 7"
+    "Cases convicted"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases acquitted or discharged",
+   "header": [
+    "Cases acquitted or discharged"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of cases convicted to true cases investigated",
+   "header": [
+    "Percentage of cases convicted to true cases investigated"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Percentage of cases convicted to cases in which trial was completed",
+   "header": [
+    "Percentage of cases convicted to cases in which trial was completed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Volume of crime per 1,00,000 of population",
+   "header": [
+    "Volume of crime per 1,00,000 of population"
    ]
   }
  ],
@@ -68,10 +92,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 6,
-  "other_totals_passed": 3
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

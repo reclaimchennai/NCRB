@@ -8,13 +8,13 @@
  "serial": "49",
  "title": "Percentage Arrested under Different SLL Crimes by Sex in States, UTs & Cities During 1998",
  "listing_title": "Percentage Arrested under Different SLL Crimes by Sex in States, UTs & Cities During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680002377TABLE-68-PERSONSARRESTEDUNDERDIFFERENTSLLCRIMESBYSEXINSTATESUTSCITIESDURING1998.pdf",
  "source_file": "raw/cii/1998/table_content/1680002377TABLE-68-PERSONSARRESTEDUNDERDIFFERENTSLLCRIMESBYSEXINSTATESUTSCITIESDURING1998.pdf",
  "source_sha256": "fc752085ebbe363f138dfaeeeba90c0ac85b0f09bacc6bad9216274b2b88afbb",
  "table_no": "68",
- "pdf_title": "(Cantinued_,)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-68",
  "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
@@ -30,50 +30,56 @@
   11,
   12
  ],
- "n_rows": 88,
- "n_cols": 66,
- "n_cells": 3199,
+ "n_rows": 59,
+ "n_cols": 70,
+ "n_cells": 4060,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERSONS l MALE I",
+   "name": "ARMS ACT | MALE",
    "header": [
-    "PERSONS l MALE I"
+    "ARMS ACT",
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDen ARMS ACT FEMALE",
+   "name": "ARMS ACT | FEMALE",
    "header": [
-    "UNDen ARMS ACT FEMALE"
+    "ARMS ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "Sil IN STATES, UTs & CITIES DURING l",
+   "name": "ARMS ACT | TOTAL",
    "header": [
-    "Sil IN STATES, UTs & CITIES DURING l"
+    "ARMS ACT",
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "BY SEX 1998 TOTAL",
+   "name": "NARCOTIC DRUGS & PSY. SUBSTANCES ACT | MALE",
    "header": [
-    "BY SEX 1998 TOTAL"
+    "NARCOTIC DRUGS & PSY. SUBSTANCES ACT",
+    "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "NARCOTIC DRUGS & PSY. SUBSTANCES ACT MALE FEMALE I",
+   "name": "NARCOTIC DRUGS & PSY. SUBSTANCES ACT | FEMALE",
    "header": [
-    "NARCOTIC DRUGS & PSY. SUBSTANCES ACT MALE FEMALE I"
+    "NARCOTIC DRUGS & PSY. SUBSTANCES ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "l TOTAL",
+   "name": "NARCOTIC DRUGS & PSY. SUBSTANCES ACT | TOTAL",
    "header": [
-    "l TOTAL"
+    "NARCOTIC DRUGS & PSY. SUBSTANCES ACT",
+    "TOTAL"
    ]
   },
   {
@@ -126,10 +132,10 @@
   },
   {
    "col_no": "15",
-   "name": "PROHIBITION ACT | MALE I",
+   "name": "PROHIBITION ACT | MALE",
    "header": [
     "PROHIBITION ACT",
-    "MALE I"
+    "MALE"
    ]
   },
   {
@@ -142,79 +148,81 @@
   },
   {
    "col_no": "17",
-   "name": "PROHIBITION ACT | TOTAL I",
+   "name": "PROHIBITION ACT | TOTAL",
    "header": [
     "PROHIBITION ACT",
-    "TOTAL I"
+    "TOTAL"
    ]
   },
   {
    "col_no": "18",
-   "name": "EXPLOSIVES & | MALE",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBS. ACT | MALE",
    "header": [
-    "EXPLOSIVES &",
+    "EXPLOSIVES & EXPLOSIVE SUBS. ACT",
     "MALE"
    ]
   },
   {
    "col_no": "19",
-   "name": "EXPLOSIVES & | EXPLOSIVE SUBS. ACT FEMALE",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBS. ACT | FEMALE",
    "header": [
-    "EXPLOSIVES &",
-    "EXPLOSIVE SUBS. ACT FEMALE"
+    "EXPLOSIVES & EXPLOSIVE SUBS. ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "20",
-   "name": "EXPLOSIVES & | TOTAL l",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBS. ACT | TOTAL",
    "header": [
-    "EXPLOSIVES &",
-    "TOTAL l"
+    "EXPLOSIVES & EXPLOSIVE SUBS. ACT",
+    "TOTAL"
    ]
   },
   {
    "col_no": "21",
-   "name": "abe | MALE (21)",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | MALE",
    "header": [
-    "abe",
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
     "MALE"
    ]
   },
   {
    "col_no": "22",
-   "name": "abe | FEMALE I",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | FEMALE",
    "header": [
-    "abe",
-    "FEMALE I"
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "23",
-   "name": "abe | TOTAL",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | TOTAL",
    "header": [
-    "abe",
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
     "TOTAL"
    ]
   },
   {
    "col_no": "24",
-   "name": "abe | MALE (24)",
+   "name": "INDIAN RAILWAYS ACT | MALE",
    "header": [
-    "abe",
+    "INDIAN RAILWAYS ACT",
     "MALE"
    ]
   },
   {
    "col_no": "25",
-   "name": "INDIAN RAILWAYS ACT FEMALE l",
+   "name": "INDIAN RAILWAYS ACT | FEMALE",
    "header": [
-    "INDIAN RAILWAYS ACT FEMALE l"
+    "INDIAN RAILWAYS ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "26",
-   "name": "TOTAL (26)",
+   "name": "INDIAN RAILWAYS ACT | TOTAL",
    "header": [
+    "INDIAN RAILWAYS ACT",
     "TOTAL"
    ]
   },
@@ -276,10 +284,10 @@
   },
   {
    "col_no": "34",
-   "name": "INDIAN PASSPORT ACT | FEMALE l",
+   "name": "INDIAN PASSPORT ACT | FEMALE",
    "header": [
     "INDIAN PASSPORT ACT",
-    "FEMALE l"
+    "FEMALE"
    ]
   },
   {
@@ -315,11 +323,19 @@
    ]
   },
   {
-   "col_no": "40",
-   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | FEMALE I",
+   "col_no": "39",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | MALE",
    "header": [
     "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
-    "FEMALE I"
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | FEMALE",
+   "header": [
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
+    "FEMALE"
    ]
   },
   {
@@ -348,10 +364,10 @@
   },
   {
    "col_no": "44",
-   "name": "ANTIQUITY & ART TREASURE ACT | l TOTAL",
+   "name": "ANTIQUITY & ART TREASURE ACT | TOTAL",
    "header": [
     "ANTIQUITY & ART TREASURE ACT",
-    "l TOTAL"
+    "TOTAL"
    ]
   },
   {
@@ -388,125 +404,161 @@
   },
   {
    "col_no": "49",
-   "name": "CHILD MARRIAGE RESTRAINT ACT | I",
+   "name": "CHILD MARRIAGE RESTRAINT ACT | FEMALE",
    "header": [
     "CHILD MARRIAGE RESTRAINT ACT",
-    "I"
+    "FEMALE"
    ]
   },
   {
    "col_no": "50",
-   "name": "CHILD MARRIAGE RESTRAINT ACT | FEMALE TOTAL",
+   "name": "CHILD MARRIAGE RESTRAINT ACT | TOTAL",
    "header": [
     "CHILD MARRIAGE RESTRAINT ACT",
-    "FEMALE TOTAL"
+    "TOTAL"
    ]
   },
   {
    "col_no": "51",
-   "name": "MALE (51)",
+   "name": "INDECENT REPRESENTATION OF WOMEN (P) ACT | MALE",
    "header": [
+    "INDECENT REPRESENTATION OF WOMEN (P) ACT",
     "MALE"
    ]
   },
   {
    "col_no": "52",
-   "name": "INDECENT REPRESENTATION OF WOMEN (P) ACT FEMALE (52)",
+   "name": "INDECENT REPRESENTATION OF WOMEN (P) ACT | FEMALE",
    "header": [
-    "INDECENT REPRESENTATION OF WOMEN (P) ACT FEMALE"
+    "INDECENT REPRESENTATION OF WOMEN (P) ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "53",
-   "name": "INDECENT REPRESENTATION OF WOMEN (P) ACT FEMALE (53)",
+   "name": "INDECENT REPRESENTATION OF WOMEN (P) ACT | TOTAL",
    "header": [
-    "INDECENT REPRESENTATION OF WOMEN (P) ACT FEMALE"
-   ]
-  },
-  {
-   "col_no": "54",
-   "name": "TOTAL (54)",
-   "header": [
+    "INDECENT REPRESENTATION OF WOMEN (P) ACT",
     "TOTAL"
    ]
   },
   {
-   "col_no": "55",
-   "name": "MALE (55)",
+   "col_no": "54",
+   "name": "COPYRIGHT ACT | MALE",
    "header": [
+    "COPYRIGHT ACT",
     "MALE"
    ]
   },
   {
+   "col_no": "55",
+   "name": "COPYRIGHT ACT | FEMALE",
+   "header": [
+    "COPYRIGHT ACT",
+    "FEMALE"
+   ]
+  },
+  {
    "col_no": "56",
-   "name": "FEMALE TOTAL",
+   "name": "COPYRIGHT ACT | TOTAL",
    "header": [
-    "FEMALE TOTAL"
+    "COPYRIGHT ACT",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "SC/ST (PREV. OF ATROCITIES) ACT | TOTAL (59)",
+   "col_no": "57",
+   "name": "SATI PREVENTION ACT | MALE",
    "header": [
-    "SC/ST (PREV. OF ATROCITIES) ACT",
-    "TOTAL (59)"
+    "SATI PREVENTION ACT",
+    "MALE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "SC/ST (PREV. OF ATROCITIES) ACT | MALE FEMALE (60) (61)",
+   "col_no": "58",
+   "name": "SATI PREVENTION ACT | FEMALE",
    "header": [
-    "SC/ST (PREV. OF ATROCITIES) ACT",
-    "MALE FEMALE (60) (61)"
+    "SATI PREVENTION ACT",
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "SC/ST (PREV. OF ATROCITIES) ACT | TOTAL I (62)",
+   "col_no": "59",
+   "name": "SATI PREVENTION ACT | TOTAL",
+   "header": [
+    "SATI PREVENTION ACT",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "60",
+   "name": "SC/ST (PREV. OF ATROCITIES) ACT | MALE",
    "header": [
     "SC/ST (PREV. OF ATROCITIES) ACT",
-    "TOTAL I (62)"
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "61",
+   "name": "SC/ST (PREV. OF ATROCITIES) ACT | FEMALE",
+   "header": [
+    "SC/ST (PREV. OF ATROCITIES) ACT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "62",
+   "name": "SC/ST (PREV. OF ATROCITIES) ACT | TOTAL",
+   "header": [
+    "SC/ST (PREV. OF ATROCITIES) ACT",
+    "TOTAL"
    ]
   },
   {
    "col_no": "63",
-   "name": "STATE/UT/CITY MALE",
+   "name": "FOREST ACT | MALE",
    "header": [
-    "STATE/UT/CITY MALE"
+    "FOREST ACT",
+    "MALE"
    ]
   },
   {
    "col_no": "64",
-   "name": "FOREST ACT FEMALE",
+   "name": "FOREST ACT | FEMALE",
    "header": [
-    "FOREST ACT FEMALE"
+    "FOREST ACT",
+    "FEMALE"
    ]
   },
   {
    "col_no": "65",
-   "name": "TOTAL I",
+   "name": "FOREST ACT | TOTAL",
    "header": [
-    "TOTAL I"
+    "FOREST ACT",
+    "TOTAL"
    ]
   },
   {
    "col_no": "66",
-   "name": "MALE (66)",
+   "name": "OTHER SLL CRIMES | MALE",
    "header": [
+    "OTHER SLL CRIMES",
     "MALE"
    ]
   },
   {
    "col_no": "67",
-   "name": "OTHER SLL CRIMES FEMALE I",
+   "name": "OTHER SLL CRIMES | FEMALE",
    "header": [
-    "OTHER SLL CRIMES FEMALE I"
+    "OTHER SLL CRIMES",
+    "FEMALE"
    ]
   },
   {
    "col_no": "68",
-   "name": "TOTAL (68)",
+   "name": "OTHER SLL CRIMES | TOTAL",
    "header": [
+    "OTHER SLL CRIMES",
     "TOTAL"
    ]
   },
@@ -536,35 +588,21 @@
   },
   {
    "col_no": "72",
-   "name": "col_72",
-   "header": []
+   "name": "PERCENTAGE OF FEMALE TO TOTAL",
+   "header": [
+    "PERCENTAGE OF FEMALE TO TOTAL"
+   ]
   }
  ],
- "notes": [
-  "55 VISHAKHAPATNAM oO ie] 0 oO 0 fe}",
-  "ote Persons arrested in Andhra Pradesh & Assam under TADA are out of pending ciises.",
-  "54 VARANASI ° 6.) ° 5 0 Be",
-  "55 VISHAKHAPATNAM to) o } “o 6 0 6",
-  "185 NCRB/2000—21A",
-  "NR stands for Data Not Received"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 95,
-  "cells_passed": 81,
-  "failures": [
-   "col 6 'TOTAL (STATES)': printed 19832, sum 19822",
-   "col 8 'TOTAL (STATES)': printed 20683, sum 20673",
-   "col 21 'TOTAL (UTs) -': printed 82, sum 52",
-   "col 21 'TOTAL (ALL - INDIA)': printed 1262, sum 1292",
-   "col 33 'TOTAL (STATES)': printed 733, sum 680",
-   "col 38 'TOTAL (STATES)': printed 7195, sum 7185",
-   "col 56 'TOTAL (ALL - INDIA)': printed 72005, sum 2005",
-   "col 10003 'TOTAL (UTs) -': printed 5, sum 4"
-  ],
+  "cells_checked": 192,
+  "cells_passed": 192,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 12,
  "warnings": []
 }

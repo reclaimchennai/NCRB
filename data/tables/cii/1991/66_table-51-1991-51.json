@@ -8,54 +8,65 @@
  "serial": "66",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1991 (by Nature of Property)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1991 (by Nature of Property)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-51-1991-51.pdf",
  "source_file": "raw/cii/1991/table_content/table-51-1991-51.pdf",
  "source_sha256": "62491c92b3c2d59e3fded39d23bbf9e88eb546aa52e3bbda4b727c62fecb4b90",
  "table_no": "51",
- "pdf_title": "VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY SURING 1991 COY WATURE CF PROPERTY)",
- "row_label": "OF SL. WO. ql) 1 ELECTRIC WIRE 2 CATTLE 3% & GUSES 5 ETC. & FIRE F B&B",
+ "pdf_title": "TABLE-51 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY DURING 1991 (BY NATURE OF PROPERTY)",
+ "row_label": "SL. NATURE OF NO. PROPERTY / SL. NATURE OF NO. PROPERTY",
  "pages": [
   1
  ],
- "n_rows": 3,
- "n_cols": 5,
- "n_cells": 15,
+ "n_rows": 11,
+ "n_cols": 6,
+ "n_cells": 66,
  "columns": [
   {
-   "col_no": "2",
-   "name": "OF MATURE PROPERTY STOLEN a2) AMD 12F25 1 CARS MOTOR ETC. LORRIES, MOTORCYCLE, 12 ARMS ag EWPLOSIVES ELECTRONIC",
-   "header": [
-    "OF MATURE PROPERTY STOLEN a2) AMD 12F25 1 CARS MOTOR ETC. LORRIES, MOTORCYCLE, 12 ARMS ag EWPLOSIVES ELECTRONIC"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "CASES HUMBER WHICH RECOVERED qa) se2 INCLUDING reer a4 1S 2bs6",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | STOLEN",
    "header": [
-    "CASES HUMBER WHICH RECOVERED qa) se2 INCLUDING reer a4 1S 2bs6"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "PERCENTAGE PROPERTY CASES OF (Rs. ca) 32.1 465.9 284.2 Paar 6766.0 a9. 1 zo.3 34.9 32.6",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | RECOVERED",
    "header": [
-    "PERCENTAGE PROPERTY CASES OF (Rs. ca) 32.1 465.9 284.2 Paar 6766.0 a9. 1 zo.3 34.9 32.6"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "PROPERTY VALUE OF Im In lokh) WAS. ees RECOVERED (3) 915.8 234.2 eas4 (e225 123.7 i465, 4oTs.5 2819 oh 164.0 o.8 a31.5",
+   "name": "PERCENTAGE OF CASES OF RECOVERY",
    "header": [
-    "PROPERTY VALUE OF Im In lokh) WAS. ees RECOVERED (3) 915.8 234.2 eas4 (e225 123.7 i465, 4oTs.5 2819 oh 164.0 o.8 a31.5"
+    "PERCENTAGE OF CASES OF RECOVERY"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE CF RECOVERT (8) (6) 207.8 a2. 48.2 a7? 65.4 45.5 6.8 40.2 oe 18.4 40.2 14.6 1.4 110.2 a3.2",
+   "name": "VALUE OF PROPERTY (Rs. In Lakh) | STOLEN",
    "header": [
-    "PERCENTAGE CF RECOVERT (8) (6) 207.8 a2. 48.2 a7? 65.4 45.5 6.8 40.2 oe 18.4 40.2 14.6 1.4 110.2 a3.2"
+    "VALUE OF PROPERTY (Rs. In Lakh)",
+    "STOLEN"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "VALUE OF PROPERTY (Rs. In Lakh) | RECOVERED",
+   "header": [
+    "VALUE OF PROPERTY (Rs. In Lakh)",
+    "RECOVERED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PERCENTAGE RECOVERY",
+   "header": [
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],
@@ -64,10 +75,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

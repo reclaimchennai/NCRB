@@ -8,43 +8,45 @@
  "serial": "22",
  "title": "Persons Arrested under Local & Special Laws 1976",
  "listing_title": "Persons Arrested under Local & Special Laws 1976",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-23-1976.pdf",
  "source_file": "raw/cii/1976/table_content/table-23-1976.pdf",
  "source_sha256": "b5b09e30b708dedd43ed5fc549e3cc3ef787fc701d359c79f5b13a13e09b0cde",
- "table_no": "",
- "pdf_title": "",
- "row_label": "",
+ "table_no": "23",
+ "pdf_title": "57 TABLE 23 Persons arrested under Local & Special Laws 1976",
+ "row_label": "Sl. No. / Heads of offences",
  "pages": [
   1
  ],
- "n_rows": 14,
+ "n_rows": 13,
  "n_cols": 2,
- "n_cells": 25,
+ "n_cells": 26,
  "columns": [
   {
-   "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "col_no": "3",
+   "name": "Persons Arrested",
+   "header": [
+    "Persons Arrested"
+   ]
   },
   {
-   "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "col_no": "4",
+   "name": "Percentage to total persons arrested",
+   "header": [
+    "Percentage to total persons arrested"
+   ]
   }
  ],
- "notes": [
-  "tt OS,"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

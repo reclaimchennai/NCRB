@@ -8,82 +8,82 @@
  "serial": "4",
  "title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs and Cities During 1983 - 1988 Alongwith Percentage Changes During 1988",
  "listing_title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs and Cities During 1983 - 1988 Alongwith Percentage Changes During 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-4-1988-2.pdf",
  "source_sha256": "6fa5c18a4a4d9098a246d5e49f209cd3dfed19fd425a29755ceb0972e14ca21d",
  "table_no": "4",
- "pdf_title": "OF TOTAL COCN17401§F CRIMES(IPC) IN STATES, UTs AND CITIES",
- "row_label": "DURING SL. NO. ab",
+ "pdf_title": "16 TABLE - 4 INCIDENCE OF TOTAL COGNIZABLE CRIMES (1PC) IN STATES, UTs AND CITIES DURING 1983-1988 ALONGWITH PERCENTAGE CHANGES DURING 1988",
+ "row_label": "1988",
  "pages": [
+  1,
   1
  ],
- "n_rows": 47,
- "n_cols": 6,
- "n_cells": 281,
+ "n_rows": 48,
+ "n_cols": 9,
+ "n_cells": 424,
  "columns": [
   {
-   "col_no": "5",
-   "name": "1983-1988 1983 «2)",
+   "col_no": "11",
+   "name": "PERCENTAGE CHANGEIN 1988((+) INCREASE,(-) DECREASE)OVER",
    "header": [
-    "1983-1988 1983 «2)"
+    "PERCENTAGE CHANGEIN 1988((+) INCREASE,(-) DECREASE)OVER"
    ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "ALONGWITH 1984 «3",
-   "header": [
-    "ALONGWITH 1984 «3"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "CHANGES | 1985 (Ss)",
-   "header": [
-    "CHANGES",
-    "1985 (Ss)"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "CHANGES | QUINQUENAVG. 1986 1983-1987",
-   "header": [
-    "CHANGES",
-    "QUINQUENAVG. 1986 1983-1987"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "DURING 1988 1987",
-   "header": [
-    "DURING 1988 1987"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "1088 CHANGE IN 1988 ((+) INCREASE NIAL OVER 1987 Q. A.",
-   "header": [
-    "1088 CHANGE IN 1988 ((+) INCREASE NIAL OVER 1987 Q. A."
-   ]
+   "name": "col_10",
+   "header": []
   }
  ],
- "notes": [
-  "NOTE: 1. Arunachal Pradesh,Goa and Mizoram attained statehood in the year 1986,1987 and 1986 respectively",
-  "Daman & Diu portion of UT of Goa, Daman & Diu continued to remain as a U.T.",
-  "2. Combined figures of Goa, Daman & Diu for the years 1983 to 1986 were bifurcated between Goa and",
-  "Daman & Diu on the basis of 1988 data."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 8,
+  "cells_checked": 21,
+  "cells_passed": 19,
   "failures": [
+   "col 8 'TOTAL (STATES)': printed 1.34698e+06, sum 1.34698e+06",
    "col 8 'TOTAL (ALL-INDIA)': printed 1.38122e+06, sum 1.38122e+06"
   ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 5
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

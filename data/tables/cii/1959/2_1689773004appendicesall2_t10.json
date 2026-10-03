@@ -6,91 +6,56 @@
  "topic": "",
  "section": "Crime in India 1959",
  "serial": "2",
- "title": "ORDINARY",
+ "title": "PERSONS Appendix—VIII 215 H.A.",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689773004appendicesall2.pdf",
  "source_file": "raw/cii/1959/year_wise/1689773004appendicesall2.pdf",
  "source_sha256": "3bf59326965b054b800df2776bcd1e7b263d6c01c4dbd674dfc7641667662fa1",
  "table_no": "",
- "pdf_title": "ORDINARY",
- "row_label": "SL. State No.",
+ "pdf_title": "PERSONS Appendix—VIII 215 H.A.",
+ "row_label": "",
  "pages": [
-  28,
-  30,
-  32
+  15
  ],
- "n_rows": 72,
- "n_cols": 9,
- "n_cells": 449,
+ "n_rows": 32,
+ "n_cols": 5,
+ "n_cells": 160,
  "columns": [
   {
    "col_no": "3",
-   "name": "Cases pending investigation from previous year",
+   "name": "Persons acquitted or discharged",
    "header": [
-    "Cases pending investigation from previous year"
+    "Persons acquitted or discharged"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases | Cases pending disposal in court",
+   "name": "Persons against whom cases were compounded or withdrawn",
    "header": [
-    "Cases",
-    "Cases pending disposal in court"
+    "Persons against whom cases were compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases | Cases reported during the year",
+   "name": "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year",
    "header": [
-    "Cases",
-    "Cases reported during the year"
+    "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases | notinvestigated, declared false or mistake of fact or law nonand pending investigation or trial",
+   "name": "Persons in custody pending trial or on bail during the stage of trial at the end of the year",
    "header": [
-    "Cases",
-    "notinvestigated, declared false or mistake of fact or law nonand pending investigation or trial"
+    "Persons in custody pending trial or on bail during the stage of trial at the end of the year"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases | Total true cases or",
+   "name": "Percentage of conviction",
    "header": [
-    "Cases",
-    "Total true cases or"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Cases | Cases not detected",
-   "header": [
-    "Cases",
-    "Cases not detected"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "ORDINARY Persons in custody pending investigation or on bail during the stage of investigation",
-   "header": [
-    "ORDINARY Persons in custody pending investigation or on bail during the stage of investigation"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Persons in. custody pending trial or on during the stage of trial",
-   "header": [
-    "Persons in. custody pending trial or on during the stage of trial"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Fs— Persons during the year bail",
-   "header": [
-    "Fs— Persons during the year bail"
+    "Percentage of conviction"
    ]
   }
  ],
@@ -99,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 7,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

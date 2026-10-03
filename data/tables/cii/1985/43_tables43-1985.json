@@ -8,66 +8,62 @@
  "serial": "43",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crime under Local & Special Laws During 1985",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crime under Local & Special Laws During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables43-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables43-1985.pdf",
  "source_sha256": "e889cb0e35e2776ee2a7e96242ca68c5ed2692017ffcc29579db215245411d11",
  "table_no": "43",
- "pdf_title": "Juveniles Apprehended (By Age Group) For Committing Crime Under Local & Special Laws During 1985",
- "row_label": "il. lo. / States/U.Ts/Cities",
+ "pdf_title": "101 TABLE - 43 Juveniles Apprehended (By Age Group) For Committing Crime Under Local & Special Laws During 1985",
+ "row_label": "il. States/U.Ts/Cities lo.",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 5,
- "n_cells": 234,
+ "n_cells": 235,
  "columns": [
   {
    "col_no": "3",
-   "name": "12 | 7 IO 12 YEARS",
+   "name": "7 TO 12 YEARS",
    "header": [
-    "12",
-    "7 IO 12 YEARS"
+    "7 TO 12 YEARS"
    ]
   },
   {
    "col_no": "4",
-   "name": "12 | YEARS",
+   "name": "12 TO 16 YEARS",
    "header": [
-    "12",
-    "YEARS"
+    "12 TO 16 YEARS"
    ]
   },
   {
    "col_no": "5",
-   "name": "TO TO 18 YEARS",
+   "name": "16 TO 18 YEARS",
    "header": [
-    "TO TO 18 YEARS"
+    "16 TO 18 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "21 16 18 TO YEARS",
+   "name": "18 TO 21 YEARS",
    "header": [
-    "21 16 18 TO YEARS"
+    "18 TO 21 YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "16 TOTAL",
+   "name": "TOTAL",
    "header": [
-    "16 TOTAL"
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 14,
-  "cells_passed": 13,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 4871, sum 4878"
-  ],
+  "cells_passed": 14,
+  "failures": [],
   "other_totals_checked": 5,
   "other_totals_passed": 5
  },

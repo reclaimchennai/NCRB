@@ -8,20 +8,20 @@
  "serial": "1",
  "title": "Incidence of Cognizable Crime under the Indian Penal Code and Population in India from 1974 to 1984",
  "listing_title": "Incidence of Cognizable Crime under the Indian Penal Code and Population in India from 1974 to 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-1-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-1-1984.pdf",
  "source_sha256": "8af2aaa29f4322a70202e2d5fc43cdca01228ef59947dffe80897c5a12df8bc4",
- "table_no": "",
- "pdf_title": "TARLE-1 Incidence Of Cognizable Crime Under The Indian Penal Code And Population In India From 1974 To 1984",
+ "table_no": "1",
+ "pdf_title": "1 TABLE-1 Incidence Of Cognizable Crime Under The Indian Penal Code And Population In India From 1974 To 1984",
  "row_label": "SL NO.",
  "pages": [
   1
  ],
- "n_rows": 13,
+ "n_rows": 12,
  "n_cols": 4,
- "n_cells": 48,
+ "n_cells": 47,
  "columns": [
   {
    "col_no": "2",
@@ -32,23 +32,23 @@
   },
   {
    "col_no": "3",
-   "name": "ESTIMATED POPULATION IN (MID-YEAR)",
+   "name": "ESTIMATED POPULATION IN MILLIONS (MID-YEAR)",
    "header": [
-    "ESTIMATED POPULATION IN (MID-YEAR)"
+    "ESTIMATED POPULATION IN MILLIONS (MID-YEAR)"
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL COGNIZARLE IPC CRIME MILLIONS",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC",
    "header": [
-    "TOTAL COGNIZARLE IPC CRIME MILLIONS"
+    "TOTAL COGNIZABLE CRIME UNDER IPC"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF CRIME RATE LAKH PER UNDER OF POPULATION",
+   "name": "RATE OF CRIME PER LAKH OF POPULATION",
    "header": [
-    "OF CRIME RATE LAKH PER UNDER OF POPULATION"
+    "RATE OF CRIME PER LAKH OF POPULATION"
    ]
   }
  ],

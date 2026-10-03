@@ -8,88 +8,89 @@
  "serial": "45",
  "title": "Juveniles Apprehended under LSL Crimes by Age Group & Sex During 1990 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended under LSL Crimes by Age Group & Sex During 1990 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/45table-45-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/45table-45-1990-.pdf",
  "source_sha256": "697c658015ea2effec49831d1e9d941e44b93e9043ea68b56d26a2372dbda382",
  "table_no": "45",
- "pdf_title": "",
- "row_label": "JUVENILES SL. STATE/UT/CITY NO. ql)",
+ "pdf_title": "159 TABLE-45 JUVENILES APPREHENDED UNDER LSL CRIMES BY",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 48,
+ "n_rows": 47,
  "n_cols": 8,
- "n_cells": 320,
+ "n_cells": 376,
  "columns": [
   {
    "col_no": "3",
-   "name": "JUVENILES | 7 BOYS",
+   "name": "7 - 12 YEARS | BOYS",
    "header": [
-    "JUVENILES",
-    "7 BOYS"
+    "7 - 12 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "JUVENILES | AGE - GIRLS",
+   "name": "7 - 12 YEARS | GIRLS",
    "header": [
-    "JUVENILES",
-    "AGE - GIRLS"
+    "7 - 12 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "5",
-   "name": "JUVENILES | & GROUP (STATE, 12 BOYS",
+   "name": "12-16 YEARS | BOYS",
    "header": [
-    "JUVENILES",
-    "& GROUP (STATE, 12 BOYS"
+    "12-16 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "6",
-   "name": "JUVENILES | SEX UT & YEARS GIRLS",
+   "name": "12-16 YEARS | GIRLS",
    "header": [
-    "JUVENILES",
-    "SEX UT & YEARS GIRLS"
+    "12-16 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "7",
-   "name": "CRIMES UNDER DURING CITY-WISE) 12-16 GIRLS ONLY",
+   "name": "16-18 YEARS | GIRLS ONLY",
    "header": [
-    "CRIMES UNDER DURING CITY-WISE) 12-16 GIRLS ONLY"
+    "16-18 YEARS",
+    "GIRLS ONLY"
    ]
   },
   {
    "col_no": "8",
-   "name": "BY LSL 1990 OVERALL YEARS GROUP BOYS",
+   "name": "16-18 YEARS | BOYS",
    "header": [
-    "BY LSL 1990 OVERALL YEARS GROUP BOYS"
+    "16-18 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "9",
-   "name": "AGE 16-18 GIRLS",
+   "name": "OVERALL AGE GROUP | GIRLS",
    "header": [
-    "AGE 16-18 GIRLS"
+    "OVERALL AGE GROUP",
+    "GIRLS"
    ]
   },
   {
    "col_no": "10",
-   "name": "TOTAL YEARS + (BOYS GIRLS)",
+   "name": "OVERALL AGE GROUP",
    "header": [
-    "TOTAL YEARS + (BOYS GIRLS)"
+    "OVERALL AGE GROUP"
    ]
   }
  ],
- "notes": [
-  "Note: 7-12 years means 7 years and above but below 12 years of age etc."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 15,
-  "cells_passed": 15,
+  "cells_checked": 24,
+  "cells_passed": 24,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

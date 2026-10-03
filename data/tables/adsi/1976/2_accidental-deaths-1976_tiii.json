@@ -1,0 +1,70 @@
+{
+ "table_id": "adsi/1976/2_accidental-deaths-1976_tiii",
+ "publication": "adsi",
+ "year": 1976,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1976",
+ "serial": "2",
+ "title": "9 ## Metropolitan Cities : During 1976, the incidence of accidental deaths registered an increase of 7.1 percent in the Metropolitan Cities as a whole in 1976-over 1975. The Metropolitan Cities which recorded an increase in the incidence of accidental deaths were Ahmedabad (16.5 percent), Bombay (12.9 percent), Kanpur (11.3 percent), Delhi (3.7 percent) and Hyderabad (1.4 percent). The remaining three Metropolitan Cities recorded a decline and these were Madras (15.4 percent), Bangalore (7.6 percent) and Calcutta (0.2 percent). The detailed statistics are presented in Table III.",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1976.pdf",
+ "source_file": "raw/adsi/1976/year_wise/accidental-deaths-1976.pdf",
+ "source_sha256": "2ea6cc42f5c0f80a54b386799bea5e31e4d7de8791a5cb14407582df7229446c",
+ "table_no": "III",
+ "pdf_title": "9 ## Metropolitan Cities : During 1976, the incidence of accidental deaths registered an increase of 7.1 percent in the Metropolitan Cities as a whole in 1976-over 1975. The Metropolitan Cities which recorded an increase in the incidence of accidental deaths were Ahmedabad (16.5 percent), Bombay (12.9 percent), Kanpur (11.3 percent), Delhi (3.7 percent) and Hyderabad (1.4 percent). The remaining three Metropolitan Cities recorded a decline and these were Madras (15.4 percent), Bangalore (7.6 percent) and Calcutta (0.2 percent). The detailed statistics are presented in Table III.",
+ "row_label": "Sl No.",
+ "pages": [
+  8,
+  8
+ ],
+ "n_rows": 3,
+ "n_cols": 4,
+ "n_cells": 9,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Name of States/U. Ts./Cities",
+   "header": [
+    "Name of States/U. Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Number of Accidental Deaths (6)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Number of Accidental Deaths (7)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage variation from 1975 to 1976",
+   "header": [
+    "Percentage variation from 1975 to 1976"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 6 'TOTAL (STATES)': printed 110072, sum 1978",
+   "col 7 'TOTAL (STATES)': printed 108528, sum 1980"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

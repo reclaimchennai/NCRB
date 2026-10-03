@@ -6,49 +6,86 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "49",
- "title": "a7",
+ "title": "97 50 Property stolen under dacity by place of occurrence",
  "listing_title": "Statement Indicating Number of Cases Reported and Value of Property Stolen under Dacoity by Place of Occurrence",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-50-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-50-1974_0.pdf",
  "source_sha256": "20346775d9b3272ae3897ca63462bd6a37a553dbb2ed7dafff77bf4ee5070d2f",
  "table_no": "",
- "pdf_title": "a7",
- "row_label": "Teo pe af Ra \"Moot Value of \"Mo. of - / - Value of Potty",
+ "pdf_title": "97 50 Property stolen under dacity by place of occurrence",
+ "row_label": "Banks No. of cases reported",
  "pages": [
+  2,
+  2,
   2
  ],
- "n_rows": 37,
- "n_cols": 4,
- "n_cells": 121,
+ "n_rows": 41,
+ "n_cols": 8,
+ "n_cells": 327,
  "columns": [
   {
-   "col_no": "3",
-   "name": "«= -",
+   "col_no": "2",
+   "name": "Banks | Value of property stolen",
    "header": [
-    "«= -"
+    "Banks",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Commercial Eats. | No. of cases reported",
+   "header": [
+    "Commercial Eats.",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "4",
-   "name": "No. of property",
+   "name": "Commercial Eats. | Value of property stolen",
    "header": [
-    "No. of property"
+    "Commercial Eats.",
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "5",
-   "name": "of oats",
+   "name": "Other places | No. of cases reported",
    "header": [
-    "of oats"
+    "Other places",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "6",
-   "name": "- - of of / U, Ta/Citits property",
+   "name": "Other places | Value of property stolen",
    "header": [
-    "- - of of / U, Ta/Citits property"
+    "Other places",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total | No. of cases reported",
+   "header": [
+    "Total",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total | Value of property stolen",
+   "header": [
+    "Total",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "States / U. Ts/Cities",
+   "header": [
+    "States / U. Ts/Cities"
    ]
   }
  ],
@@ -60,7 +97,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

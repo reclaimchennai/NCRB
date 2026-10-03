@@ -6,30 +6,24 @@
  "topic": "",
  "section": "Crime in India 1958",
  "serial": "1",
- "title": "Juveniles Juveniles *Juveniles J uveniles",
+ "title": "12 Juveniles dealt with NB—If figures of Jammu & Kashmir, Himachal Pradesh and Delhi are excluded from column 2, then column 2=cols. $3+4+5$ .",
  "listing_title": "Chapter",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1689773436CRIMEININDIA3-1958.pdf",
  "source_file": "raw/cii/1958/year_wise/1689773436CRIMEININDIA3-1958.pdf",
  "source_sha256": "e78a583370bd9a233230b88b7ea9783974f8d57e731f4c590af41d7883d37e5e",
  "table_no": "",
- "pdf_title": "Juveniles Juveniles *Juveniles J uveniles",
- "row_label": "",
+ "pdf_title": "12 Juveniles dealt with NB—If figures of Jammu & Kashmir, Himachal Pradesh and Delhi are excluded from column 2, then column 2=cols. $3+4+5$ .",
+ "row_label": ".",
  "pages": [
+  12,
   12
  ],
- "n_rows": 19,
- "n_cols": 4,
- "n_cells": 66,
+ "n_rows": 2,
+ "n_cols": 5,
+ "n_cells": 8,
  "columns": [
-  {
-   "col_no": "2",
-   "name": "sentto Courts",
-   "header": [
-    "sentto Courts"
-   ]
-  },
   {
    "col_no": "3",
    "name": "col_3",
@@ -37,33 +31,40 @@
   },
   {
    "col_no": "4",
-   "name": "Dywith",
+   "name": "Juveniles sent to Courts",
    "header": [
-    "Dywith"
+    "Juveniles sent to Courts"
    ]
   },
   {
    "col_no": "5",
-   "name": "were pending disposal",
+   "name": "Juveniles sent to institutions",
    "header": [
-    "were pending disposal"
+    "Juveniles sent to institutions"
    ]
+  },
+  {
+   "col_no": "6",
+   "name": "*Juveniles otherwise D/with",
+   "header": [
+    "*Juveniles otherwise D/with"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
   }
  ],
- "notes": [
-  "NB—If figures of Jammu & Kashmir. Himachal Pradesh and Delhi are from",
-  "column 2, then cohimn 2=cols. 3-+-4+5.",
-  "*This includes juveniles admonished. fired, bound down fot good",
-  "e"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

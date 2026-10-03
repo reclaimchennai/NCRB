@@ -8,21 +8,23 @@
  "serial": "9",
  "title": "City-Wise Incidence of Cognizable Crimes (IPC) During 1990 (Cities having Population of 5 Lakhs or More)",
  "listing_title": "City-Wise Incidence of Cognizable Crimes (IPC) During 1990 (Cities having Population of 5 Lakhs or More)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/9table-9-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/9table-9-1990-.pdf",
  "source_sha256": "cac23254174b0ca58f9f71b585c010876716f4ed71b2eeebdb01c4537420f19f",
  "table_no": "9",
- "pdf_title": "CITY-WISE INCIDENCE OF COGNTZARIE CRIMES(IPC) DURING 1990 (CITIES HAVING POPULATION OF 5 LAKHS OR MORE)",
+ "pdf_title": "66 TABLE-9 CITY-WISE INCIDENCE OF COGNIZABLE CRIMES (IPC) DURING 1990 (CITIES HAVING POPULATION OF 5 LAKHS OR MORE)",
  "row_label": "SL. NO. / STATE/CITY",
  "pages": [
   1,
-  3
+  2,
+  3,
+  4
  ],
- "n_rows": 62,
- "n_cols": 18,
- "n_cells": 545,
+ "n_rows": 124,
+ "n_cols": 17,
+ "n_cells": 1054,
  "columns": [
   {
    "col_no": "3",
@@ -40,9 +42,9 @@
   },
   {
    "col_no": "5",
-   "name": "C.H.NOT - ING TO MURDER",
+   "name": "C. H. NOT AMOUNT-ING TO MURDER",
    "header": [
-    "C.H.NOT - ING TO MURDER"
+    "C. H. NOT AMOUNT-ING TO MURDER"
    ]
   },
   {
@@ -54,102 +56,96 @@
   },
   {
    "col_no": "7",
-   "name": "KIDNAPPING | TOTAL",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
    "header": [
-    "KIDNAPPING",
+    "KIDNAPPING & ABDUCTION",
     "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "KIDNAPPING | OF &",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS",
    "header": [
-    "KIDNAPPING",
-    "OF &"
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS"
    ]
   },
   {
    "col_no": "9",
-   "name": "& WOMEN OF GIRLS",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS",
    "header": [
-    "& WOMEN OF GIRLS"
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS"
    ]
   },
   {
    "col_no": "10",
-   "name": "ABDUCTION OTHERS",
+   "name": "DACOITY",
    "header": [
-    "ABDUCTION OTHERS"
+    "DACOITY"
    ]
   },
   {
    "col_no": "11",
-   "name": "PREPARADACOITY TION AND FOR DACOITY",
+   "name": "PREPARA-TION AND ASSEMBLY FOR DACOITY",
    "header": [
-    "PREPARADACOITY TION AND FOR DACOITY"
+    "PREPARA-TION AND ASSEMBLY FOR DACOITY"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "(2) PRADESH",
+   "col_no": "14",
+   "name": "BURGLARY",
    "header": [
-    "(2) PRADESH"
+    "BURGLARY"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "(3)",
+   "col_no": "15",
+   "name": "THEFT",
    "header": [
-    "(3)"
+    "THEFT"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "(4)",
+   "col_no": "16",
+   "name": "RIOTS",
    "header": [
-    "(4)"
+    "RIOTS"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "(5)",
+   "col_no": "17",
+   "name": "CRIMINAL BREACH OF TRUST",
    "header": [
-    "(5)"
+    "CRIMINAL BREACH OF TRUST"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "(6)",
+   "col_no": "18",
+   "name": "CHEATING",
    "header": [
-    "(6)"
+    "CHEATING"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "(7)",
+   "col_no": "19",
+   "name": "COUNTER-FEITING",
    "header": [
-    "(7)"
+    "COUNTER-FEITING"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "(8)",
+   "col_no": "20",
+   "name": "OTHER IPC CRIMES",
    "header": [
-    "(8)"
+    "OTHER IPC CRIMES"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "(9)",
+   "col_no": "2",
+   "name": "TOTAL COG. CRIMES UNDER IPC",
    "header": [
-    "(9)"
-   ]
-  },
-  {
-   "col_no": "10009",
-   "name": "(11) (10)",
-   "header": [
-    "(11) (10)"
+    "TOTAL COG. CRIMES UNDER IPC"
    ]
   }
  ],
@@ -161,7 +157,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

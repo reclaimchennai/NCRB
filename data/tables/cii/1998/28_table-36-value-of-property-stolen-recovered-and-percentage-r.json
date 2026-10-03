@@ -8,47 +8,42 @@
  "serial": "28",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1998 (State, UT & City-Wise)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1998 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-36-value-of-property-stolen-&-recovered-and-percentage-recovery-during-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-36-value-of-property-stolen-&-recovered-and-percentage-recovery-during-1998.pdf",
  "source_sha256": "26e7d1a15d0572956f0d382896ec11abfcbef4b1af3928347fb1f412136aa1c3",
  "table_no": "36",
- "pdf_title": "",
- "row_label": "VALUE OF PRUrEnTY STOLEN & RECOVERED AND rencen1 SL. a)",
+ "pdf_title": "N.C.R.B., (M.H.A) CRIME IN INDIA - 1998 TABLE-36",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 58,
  "n_cols": 3,
- "n_cells": 171,
+ "n_cells": 174,
  "columns": [
   {
    "col_no": "3",
-   "name": "RECOVERY DURING 1998 | VALUE OF PRUrEnTY STOLEN & RECOVERED AND rencen1 | (STATE, UT & CITY-WISE) | STATE/UTICITY - >",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
-    "RECOVERY DURING 1998",
-    "VALUE OF PRUrEnTY STOLEN & RECOVERED AND rencen1",
-    "(STATE, UT & CITY-WISE)",
-    "STATE/UTICITY - >"
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "RECOVERY DURING 1998 | VALUE OF PRUrEnTY STOLEN & RECOVERED AND rencen1 | (STATE, UT & CITY-WISE) | TOTAL VALUE OF PROPERTY",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
    "header": [
-    "RECOVERY DURING 1998",
-    "VALUE OF PRUrEnTY STOLEN & RECOVERED AND rencen1",
-    "(STATE, UT & CITY-WISE)",
-    "TOTAL VALUE OF PROPERTY"
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "RECOVERY DURING 1998 | (Rs. in lakhs) PERCENTAGE RECOVERY",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "RECOVERY DURING 1998",
-    "(Rs. in lakhs) PERCENTAGE RECOVERY"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],

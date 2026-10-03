@@ -1,0 +1,76 @@
+{
+ "table_id": "adsi/1988/3_suicides-1988_t9",
+ "publication": "adsi",
+ "year": 1988,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1988",
+ "serial": "3",
+ "title": "29 #### 2.7 Distribution Of Suicides By Sex : 2.7.1. During 1988, 58.7% of the total suicides were committed by males and 41.3% by females in the country, while in the States as a whole this percentage of males was 58.8% and of females 41.2%. The 'Male' and 'Female' ratio of suicides for the Union Territories as a whole was 54.2% and 45.8% respectively, while for the 12 Metropolitan Cities taken together it was 51.2% and 48.8% respectively. The percentage of male suicides in 15 States and 4 Union Territories was higher than the all-India average of 58.7%, while in all the Metropolitan Cities, the percentage of male victims of the suicides was lower than the all-India average.",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1988.pdf",
+ "source_file": "raw/adsi/1988/year_wise/suicides-1988.pdf",
+ "source_sha256": "7ae2909a7369d00fab7afea8f5cce915689a30a254bb2e6da3089a281568e85a",
+ "table_no": "",
+ "pdf_title": "29 #### 2.7 Distribution Of Suicides By Sex : 2.7.1. During 1988, 58.7% of the total suicides were committed by males and 41.3% by females in the country, while in the States as a whole this percentage of males was 58.8% and of females 41.2%. The 'Male' and 'Female' ratio of suicides for the Union Territories as a whole was 54.2% and 45.8% respectively, while for the 12 Metropolitan Cities taken together it was 51.2% and 48.8% respectively. The percentage of male suicides in 15 States and 4 Union Territories was higher than the all-India average of 58.7%, while in all the Metropolitan Cities, the percentage of male victims of the suicides was lower than the all-India average.",
+ "row_label": "Sl. No. / States/UTs/Cities",
+ "pages": [
+  14,
+  15
+ ],
+ "n_rows": 48,
+ "n_cols": 5,
+ "n_cells": 240,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% of Male to total",
+   "header": [
+    "% of Male to total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Female",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% of Female to total",
+   "header": [
+    "% of Female to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 11,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 63058, sum 151958"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

@@ -8,69 +8,85 @@
  "serial": "69",
  "title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Scheduled Tribes During 1994 (State & UT–Wi",
  "listing_title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Scheduled Tribes During 1994 (State & UT–Wi",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-69-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-69-1995-crime-survey.pdf",
  "source_sha256": "aa2cdbff99f206dbb5681189ccfbb1327495ca644fd83070c6337b57991c7014",
  "table_no": "69",
- "pdf_title": "INCIDENCE (1), RATE (R) AND PERCENTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES COMMITTED AGAINST SCHEDULED TRIBES DURING 1994",
- "row_label": "SL. NO. / STATE/UT / ESTIMATED MIDYEAR POPULATION (IN LAKHS)",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-69",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 67,
- "n_cols": 17,
- "n_cells": 212,
+ "n_rows": 72,
+ "n_cols": 33,
+ "n_cells": 1155,
  "columns": [
   {
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "MURDER | I",
+   "header": [
+    "MURDER",
+    "I"
+   ]
   },
   {
    "col_no": "5",
-   "name": "MURDER R",
+   "name": "MURDER | R",
    "header": [
-    "MURDER R"
+    "MURDER",
+    "R"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | P",
+   "name": "MURDER | P",
    "header": [
-    "(STATE & UT-WISE)",
+    "MURDER",
     "P"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE)",
+   "name": "HURT | I",
    "header": [
-    "(STATE & UT-WISE)"
+    "HURT",
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | HURT R",
+   "name": "HURT | R",
    "header": [
-    "(STATE & UT-WISE)",
-    "HURT R"
+    "HURT",
+    "R"
    ]
   },
   {
    "col_no": "9",
-   "name": "P",
+   "name": "HURT | P",
    "header": [
+    "HURT",
     "P"
    ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
+   ]
   },
   {
    "col_no": "11",
@@ -82,17 +98,18 @@
   },
   {
    "col_no": "12",
-   "name": "RAPE | Pp",
+   "name": "RAPE | P",
    "header": [
     "RAPE",
-    "Pp"
+    "P"
    ]
   },
   {
    "col_no": "13",
-   "name": "KIDNAPPING & ABDUCTION",
+   "name": "KIDNAPPING & ABDUCTION | I",
    "header": [
-    "KIDNAPPING & ABDUCTION"
+    "KIDNAPPING & ABDUCTION",
+    "I"
    ]
   },
   {
@@ -105,63 +122,182 @@
   },
   {
    "col_no": "15",
-   "name": "p",
+   "name": "KIDNAPPING & ABDUCTION | P",
    "header": [
-    "p"
+    "KIDNAPPING & ABDUCTION",
+    "P"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "PROTECTION OF CIVIL. RIGHTS ACT | P P (27) (21)) 15.9 0.0 0.0 1.6 0. 0.0 0.0 6.3 0.",
+   "col_no": "16",
+   "name": "DACOITY | I",
    "header": [
-    "PROTECTION OF CIVIL. RIGHTS ACT",
-    "P P (27) (21)) 15.9 0.0 0.0 1.6 0. 0.0 0.0 6.3 0."
+    "DACOITY",
+    "I"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "OTHER OFFENCES | R (30) 3.2",
+   "col_no": "17",
+   "name": "DACOITY | R",
+   "header": [
+    "DACOITY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "DACOITY | P",
+   "header": [
+    "DACOITY",
+    "P"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "ROBBERY | I",
+   "header": [
+    "ROBBERY",
+    "I"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "ROBBERY | R",
+   "header": [
+    "ROBBERY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "ROBBERY | P",
+   "header": [
+    "ROBBERY",
+    "P"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "ARSON | I",
+   "header": [
+    "ARSON",
+    "I"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "ARSON | R",
+   "header": [
+    "ARSON",
+    "R"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "ARSON | P",
+   "header": [
+    "ARSON",
+    "P"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | I",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | R",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | P",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "SC & ST (PREVENTION) OF ATTROCITIES ACT | R",
+   "header": [
+    "SC & ST (PREVENTION) OF ATTROCITIES ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "SC & ST (PREVENTION) OF ATTROCITIES ACT | P",
+   "header": [
+    "SC & ST (PREVENTION) OF ATTROCITIES ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "OTHER OFFENCES | I",
    "header": [
     "OTHER OFFENCES",
-    "R (30) 3.2"
+    "I"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "OTHER OFFENCES | P (34) (31) 79",
+   "col_no": "33",
+   "name": "OTHER OFFENCES | R",
    "header": [
     "OTHER OFFENCES",
-    "P (34) (31) 79"
+    "R"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "TOTAL R (35) (32) 0.3 3.4",
+   "col_no": "34",
+   "name": "OTHER OFFENCES | P",
    "header": [
-    "TOTAL R (35) (32) 0.3 3.4"
+    "OTHER OFFENCES",
+    "P"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "STATE/UT P (2) (36) (33) STATES: 193 3.8",
+   "col_no": "35",
+   "name": "TOTAL | I",
    "header": [
-    "STATE/UT P (2) (36) (33) STATES: 193 3.8"
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
+    "P"
    ]
   }
  ],
- "notes": [
-  "surce: “Monthly Crime Statistics’.",
-  "Note: 1.Percentage less than 0.05 is also shown as 0.0.",
-  "2.Figures are provisional"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 24,
+  "cells_passed": 24,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 3,
  "warnings": []
 }

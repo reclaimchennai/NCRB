@@ -8,47 +8,208 @@
  "serial": "3",
  "title": "State wise distribution of Suicides by Means Adopted during 1974",
  "listing_title": "State wise distribution of Suicides by Means Adopted during 1974",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680155320appendix-41974.pdf",
  "source_file": "raw/adsi/1974/table_content/1680155320appendix-41974.pdf",
  "source_sha256": "77031f64b437746563a33fe72886e20f3df0b0228d4f9e07ab297502d1eafad1",
  "table_no": "",
- "pdf_title": "",
- "row_label": "Mm / 7-37",
+ "pdf_title": "40 APPENDIX IV STATEWISE DISTRIBUTION OF SUICIDES BY MEANS ADOPTED DURING 1974.",
+ "row_label": "Sl. No. / Names of States/UTs./Cities",
  "pages": [
-  2
+  1,
+  3
  ],
- "n_rows": 20,
- "n_cols": 2,
- "n_cells": 33,
+ "n_rows": 23,
+ "n_cols": 23,
+ "n_cells": 517,
  "columns": [
   {
-   "col_no": "4",
-   "name": "an BA",
+   "col_no": "3",
+   "name": "By Railways | M",
    "header": [
-    "an BA"
+    "By Railways",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "By Railways | F",
+   "header": [
+    "By Railways",
+    "F"
    ]
   },
   {
    "col_no": "5",
-   "name": "ie",
+   "name": "By Machine | M",
    "header": [
-    "ie"
+    "By Machine",
+    "M"
    ]
+  },
+  {
+   "col_no": "6",
+   "name": "By Machine | F",
+   "header": [
+    "By Machine",
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "By Fire-arms | M",
+   "header": [
+    "By Fire-arms",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By Fire-arms | F",
+   "header": [
+    "By Fire-arms",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "By Weapons | M",
+   "header": [
+    "By Weapons",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "By Weapons | F",
+   "header": [
+    "By Weapons",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "By Poison | M",
+   "header": [
+    "By Poison",
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "By Poison | F",
+   "header": [
+    "By Poison",
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "By Fire | M",
+   "header": [
+    "By Fire",
+    "M"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "By Fire | F",
+   "header": [
+    "By Fire",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "By Drowning | M",
+   "header": [
+    "By Drowning",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "By Hanging | F",
+   "header": [
+    "By Hanging",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "By Jumping | M",
+   "header": [
+    "By Jumping",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "By other causes | F",
+   "header": [
+    "By other causes",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Total | M",
+   "header": [
+    "Total",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Grand total (Male & Female) | F",
+   "header": [
+    "Grand total (Male & Female)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "M",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "F",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "col_10009",
+   "header": []
+  },
+  {
+   "col_no": "10010",
+   "name": "col_10010",
+   "header": []
+  },
+  {
+   "col_no": "10011",
+   "name": "col_10011",
+   "header": []
   }
  ],
- "notes": [
-  "eC"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 23,
+  "cells_passed": 21,
+  "failures": [
+   "col 10001 'Total (States)': printed 3798, sum 3718",
+   "col 10007 'Total (States)': printed 6368, sum 6366"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

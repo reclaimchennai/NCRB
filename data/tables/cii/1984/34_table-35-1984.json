@@ -8,97 +8,107 @@
  "serial": "34",
  "title": "Juveniles Apprehended in India (by Age Group and Sex) During 1984",
  "listing_title": "Juveniles Apprehended in India (by Age Group and Sex) During 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-35-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-35-1984.pdf",
  "source_sha256": "e9e53bbca807191db05bfe89625fe79f5645e7fcb29574c6caa331fe272703f0",
  "table_no": "35",
- "pdf_title": "Juveniles A=s=:=\"==2=2 In India (By Age Group And Sex) During 1984",
- "row_label": "sl HEADS NO (5) IPC",
+ "pdf_title": "94 TABLE - 35 Juveniles Aapprehended In India (By Age Group And Sex) During 1984",
+ "row_label": "S1 NO",
  "pages": [
   1,
   2
  ],
- "n_rows": 33,
+ "n_rows": 27,
  "n_cols": 11,
  "n_cells": 297,
  "columns": [
   {
-   "col_no": "2",
-   "name": "OF Boys (2) Crime",
-   "header": [
-    "OF Boys (2) Crime"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "CRIME Girls (3)",
+   "name": "BETWEEN 7-12 YEARS | Boys",
    "header": [
-    "CRIME Girls (3)"
+    "BETWEEN 7-12 YEARS",
+    "Boys"
    ]
   },
   {
    "col_no": "4",
-   "name": "7-12 Boys (4)",
+   "name": "BETWEEN 7-12 YEARS | Girls",
    "header": [
-    "7-12 Boys (4)"
+    "BETWEEN 7-12 YEARS",
+    "Girls"
    ]
   },
   {
    "col_no": "5",
-   "name": "YEARS Girls (5)",
+   "name": "BETWEEN | Boys",
    "header": [
-    "YEARS Girls (5)"
+    "BETWEEN",
+    "Boys"
    ]
   },
   {
    "col_no": "6",
-   "name": "12-16 Boys (6)",
+   "name": "12-16 YEARS | Girls",
    "header": [
-    "12-16 Boys (6)"
+    "12-16 YEARS",
+    "Girls"
    ]
   },
   {
    "col_no": "7",
-   "name": "YEARS YEARS 16-18 Girls (7) (8)",
+   "name": "BETWEEN 16-18 YEARS | Boys",
    "header": [
-    "YEARS YEARS 16-18 Girls (7) (8)"
+    "BETWEEN 16-18 YEARS",
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Girls",
+   "header": [
+    "Girls"
    ]
   },
   {
    "col_no": "9",
-   "name": "OF Boys",
+   "name": "BETWEEN 18-21 YEARS | Boys",
    "header": [
-    "OF Boys"
+    "BETWEEN 18-21 YEARS",
+    "Boys"
    ]
   },
   {
    "col_no": "10",
-   "name": "CRIME Girls",
+   "name": "BETWEEN 18-21 YEARS | Girls",
    "header": [
-    "CRIME Girls"
+    "BETWEEN 18-21 YEARS",
+    "Girls"
    ]
   },
   {
    "col_no": "11",
-   "name": "18-21 Boys «11)",
+   "name": "OVER ALL AGE GROUP | Boys",
    "header": [
-    "18-21 Boys «11)"
+    "OVER ALL AGE GROUP",
+    "Boys"
    ]
   },
   {
    "col_no": "12",
-   "name": "YEARS AGE GROUP Girls",
+   "name": "OVER ALL AGE GROUP | Girls",
    "header": [
-    "YEARS AGE GROUP Girls"
+    "OVER ALL AGE GROUP",
+    "Girls"
    ]
   },
   {
    "col_no": "13",
-   "name": "TOTAL OVER ALL Girls + Boys",
+   "name": "TOTAL | Boys + Girls",
    "header": [
-    "TOTAL OVER ALL Girls + Boys"
+    "TOTAL",
+    "Boys + Girls"
    ]
   }
  ],
@@ -107,10 +117,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 11,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

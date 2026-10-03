@@ -1,4 +1,4 @@
-section,sl_no,Sl. No. (i),No. of cases of Road State/UT/City Accidents @),"Motor Vehicles sean 31.03.2000 (in *000"")",No. of deaths due - tg Baad Accidente in 2000,Rate of Accidental Deaths (Col.5 / Col.4),Rate of Deaths per 100 cases (Col.5/Co}.3) x 100
+section,sl_no,State/UT/City,No. of cases of Road Accidents,Total Registered Motor Vehicles as on 31.03.2000 (in '000'),No. of deaths due to Road Accidents in 2000,Rate of Accidental Deaths (Col.5 / Col.4),Rate of Deaths per 100 cases (Col.5/Col.3) x 100
 States:,1,ANDHRA PRADESH,24362,3636,9730,2.7,39.9
 States:,2,ARUNACHAL PRADESH,252,21,89,4.2,35.3
 States:,3,ASSAM,1920,453,618,1.4,32.2
@@ -8,14 +8,14 @@ States:,6,GUJARAT,22243,5189,5100,1.0,22.9
 States:,7,HARYANA,6663,1410,2870,2.0,43.1
 States:,8,HIMACHAL PRADESH,1998,150,808,5.4,40.4
 States:,9,JAMMU & KASHMIR,4526,217,741,3.4,16.4
-States:,10,KARNATAKA,,3394,$632,1.7,18.1
-States:,,KERALA,35353,1782,2789,1.6,79
+States:,10,KARNATAKA,31151,3394,5632,1.7,18.1
+States:,11,KERALA,35353,1782,2789,1.6,7.9
 States:,12,MADHYA PRADESH,21841,3457,5324,1.5,24.4
-States:,13,MAHARASHTRA,38273,6114,10369,17,27.1
-States:,14,MANIPUR,506,16,131,17,25.9
+States:,13,MAHARASHTRA,38273,6114,10369,1.7,27.1
+States:,14,MANIPUR,506,76,131,1.7,25.9
 States:,15,MEGHALAYA,169,58,131,2.3,77.5
 States:,16,MIZORAM,63,20,62,3.1,98.4
-States:,17,NAGALAND,719,145,27,0.2,34.2
+States:,17,NAGALAND,79,145,27,0.2,34.2
 States:,18,ORISSA,6611,982,1920,2.0,29.0
 States:,19,PUNJAB,1607,2296,1324,0.6,82.4
 States:,20,RAJASTHAN,19932,2712,5378,2.0,27.0
@@ -24,18 +24,18 @@ States:,22,TAMIL NADU,48923,4611,9300,2.0,19.0
 States:,23,TRIPURA,524,45,125,2.8,23.9
 States:,24,UTTAR PRADESH,13147,4626,9197,2.0,70.0
 States:,25,WEST BENGAL,10428,1690,3657,2.2,35.1
-States:,,TOTAL (States),296183,44286,T7714,1.8,26.2
-Union Ti rritories:,26,A & N ISLANDS,158,16,24,1.5,15.2
-Union Ti rritories:,27,CHANDIGARH,455,386,126,0.3,27.7
-Union Ti rritories:,28,D & N HAVELI,84,13,32,2.5,38.1
-Union Ti rritories:,29,DAMAN & DIU,66,34,20,0.6,30.3
-Union Ti rritories:,30,DELHI(UT),10260,3423,2051,0.6,20.0
-Union Ti rritories:,31,LAKSHADWEEP,0,4,0,0.0,-
-Union Ti rritories:,32,PONDICHERRY,1054,231,151,0.7,14.3
-Union Ti rritories:,,TOTAL (UTs),12077,4107,2404,0.6,19.9
-Union Ti rritories:,,TOTAL (All-India),308260,48393,80118,1.7,26.0
+States:,,Total (States),296183,44286,77714,1.8,26.2
+Union Territories:,26,A & N ISLANDS,158,16,24,1.5,15.2
+Union Territories:,27,CHANDIGARH,455,386,126,0.3,27.7
+Union Territories:,28,D & N HAVELI,84,13,32,2.5,38.1
+Union Territories:,29,DAMAN & DIU,66,34,20,0.6,30.3
+Union Territories:,30,DELHI (UT),10260,3423,2051,0.6,20.0
+Union Territories:,31,LAKSHADWEEP,0,4,0,0.0,-
+Union Territories:,32,PONDICHERRY,1054,231,151,0.7,14.3
+Union Territories:,,Total (UTs),12077,4107,2404,0.6,19.9
+Union Territories:,,Total (All-India),308260,48393,80118,1.7,26.0
 Cities:,33,AHMEDABAD,213,799,223,0.3,104.7
-Cities:,34,BANGALORE,8392,1550,659,0.4,19
+Cities:,34,BANGALORE,8392,1550,659,0.4,7.9
 Cities:,35,BHOPAL,2383,285,162,0.6,6.8
 Cities:,36,CHENNAI,4878,1150,671,0.6,13.8
 Cities:,37,COIMBATORE,1275,372,157,0.4,12.3
@@ -43,9 +43,9 @@ Cities:,38,DELHI,8930,3423,1736,0.5,19.4
 Cities:,39,HYDERABAD,2331,95,445,4.7,19.1
 Cities:,40,INDORE,2019,484,173,0.4,8.6
 Cities:,41,JAIPUR,2474,598,312,0.5,12.6
-Cities:,42,KANPUR,860,339,438,13,50.9
+Cities:,42,KANPUR,860,339,438,1.3,50.9
 Cities:,43,KOCHI,2862,226,150,0.7,5.2
-Cities:,,“4 KOLKATA,2271,664,452,0.7,19.9
+Cities:,44,KOLKATA,2271,664,452,0.7,19.9
 Cities:,45,LUCKNOW,848,442,311,0.7,36.7
 Cities:,46,LUDHIANA,49,359,52,0.1,106.1
 Cities:,47,MADURAI,876,196,144,0.7,16.4
@@ -56,10 +56,5 @@ Cities:,51,PUNE,300,593,316,0.5,105.3
 Cities:,52,SURAT,1210,488,136,0.3,11.2
 Cities:,53,VADODARA,1916,448,148,0.3,7.7
 Cities:,54,VARANASI,150,274,103,0.4,68.7
-Cities:,55,VISHAKHAPATNAM,809,209,190,09,23.5
-Cities:,,TOTAL (Cities),51918,15428,8674,0.6,16.7
-,,Bus,,11693 1.1,14.6,,
-,,Jeep/Car/Taxi,,13362 12.5,16.7,,
-,,Two Wheeler,,8801 70.1,11.0,,
-,,Others,,46262 16.3,57.7,,
-,,Motor Vehicles (TOTAL),,80118 100.0,100.0,,
+Cities:,55,VISHAKHAPATNAM,809,209,190,0.9,23.5
+Cities:,,Total (Cities),51918,15428,8674,0.6,16.7

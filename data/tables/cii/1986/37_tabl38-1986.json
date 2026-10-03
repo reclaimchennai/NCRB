@@ -8,50 +8,47 @@
  "serial": "37",
  "title": "Juveniles Apprehended under Important IPC Heads During 1986",
  "listing_title": "Juveniles Apprehended under Important IPC Heads During 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl38-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl38-1986.pdf",
  "source_sha256": "7f20aa8b50608aab7a0ebd99aa3784c740f04a5e7fc97d4c2ba2272a2619c8f1",
  "table_no": "38",
- "pdf_title": "",
+ "pdf_title": "79 TABLE 38 Juvenile Apprehended Under Important IPC Heads During 1986",
  "row_label": "Sl. No. / States/U.Ts/Cities",
  "pages": [
   1,
   2
  ],
- "n_rows": 62,
+ "n_rows": 49,
  "n_cols": 13,
- "n_cells": 590,
+ "n_cells": 618,
  "columns": [
   {
    "col_no": "3",
-   "name": "Juvenile Murder",
+   "name": "Murder",
    "header": [
-    "Juvenile Murder"
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "Under important IPC Heads During 1986 | Culpable HOT io murucr",
+   "name": "Culpable homicide not amounting to murder",
    "header": [
-    "Under important IPC Heads During 1986",
-    "Culpable HOT io murucr"
+    "Culpable homicide not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "Under important IPC Heads During 1986 | Rape",
+   "name": "Rape",
    "header": [
-    "Under important IPC Heads During 1986",
     "Rape"
    ]
   },
   {
    "col_no": "6",
-   "name": "Under important IPC Heads During 1986 | Kidnapping & Abduction",
+   "name": "Kidnapping & Abduction",
    "header": [
-    "Under important IPC Heads During 1986",
     "Kidnapping & Abduction"
    ]
   },
@@ -64,55 +61,55 @@
   },
   {
    "col_no": "8",
-   "name": "Robbery",
+   "name": "Rubbery",
    "header": [
-    "Robbery"
+    "Rubbery"
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "10001",
    "name": "Burglary",
    "header": [
     "Burglary"
    ]
   },
   {
-   "col_no": "10",
+   "col_no": "10002",
    "name": "Theft",
    "header": [
     "Theft"
    ]
   },
   {
-   "col_no": "11",
+   "col_no": "10003",
    "name": "Riot",
    "header": [
     "Riot"
    ]
   },
   {
-   "col_no": "12",
+   "col_no": "10004",
    "name": "Criminal breach of trust",
    "header": [
     "Criminal breach of trust"
    ]
   },
   {
-   "col_no": "13",
+   "col_no": "10005",
    "name": "Cheating",
    "header": [
     "Cheating"
    ]
   },
   {
-   "col_no": "14",
+   "col_no": "10006",
    "name": "Counterfeiting",
    "header": [
     "Counterfeiting"
    ]
   },
   {
-   "col_no": "15",
+   "col_no": "9",
    "name": "Total cognizable crime under IPC",
    "header": [
     "Total cognizable crime under IPC"
@@ -121,13 +118,16 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 1,
+  "cells_checked": 37,
+  "cells_passed": 33,
   "failures": [
-   "col 5 'TOTAL(STATES)': printed 7, sum 730"
+   "col 10001 'TOTAL (U.TS.)': printed 230, sum 211",
+   "col 10002 'TOTAL (U.TS.)': printed 1047, sum 965",
+   "col 10003 'TOTAL (U.TS.)': printed 524, sum 392",
+   "col 9 'TOTAL (U.TS.)': printed 5175, sum 4553"
   ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 12
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

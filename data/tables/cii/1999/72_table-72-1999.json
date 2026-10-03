@@ -8,86 +8,76 @@
  "serial": "72",
  "title": "Disposal of Persons Arrested Under IPC Crime by Police During 1999 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested Under IPC Crime by Police During 1999 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-72-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-72-1999.pdf",
  "source_sha256": "570a9f3237d70cb25c48fc6b79e1a3020ce8f333e72dbfff941e191aeac59959",
  "table_no": "72",
- "pdf_title": "",
- "row_label": "DISPOSAL OF PEKSUNS SL.NO. STATES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 72",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 6,
- "n_cells": 206,
+ "n_cells": 210,
  "columns": [
   {
-   "col_no": "2",
-   "name": "UNDEK IPC CRIMES RY POLICE DURING 1999 | (STATE & UT - WISE) | STATE/UT YEAR @",
-   "header": [
-    "UNDEK IPC CRIMES RY POLICE DURING 1999",
-    "(STATE & UT - WISE)",
-    "STATE/UT YEAR @"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "UNDEK IPC CRIMES RY POLICE DURING 1999 | (STATE & UT - WISE) | TOTAL NO.",
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE- VIOUS YEAR",
    "header": [
-    "UNDEK IPC CRIMES RY POLICE DURING 1999",
-    "(STATE & UT - WISE)",
-    "TOTAL NO."
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE- VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDEK IPC CRIMES RY POLICE DURING 1999 | OF",
+   "name": "NUMBER OF | PERSONS RELEASED BEFORE TRIAL",
    "header": [
-    "UNDEK IPC CRIMES RY POLICE DURING 1999",
-    "OF"
+    "NUMBER OF",
+    "PERSONS RELEASED BEFORE TRIAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDEK IPC CRIMES RY POLICE DURING 1999 | PERSONS END OF THE YEAR ©",
+   "name": "NUMBER OF | PERSONS CHARGE-SHEETED",
    "header": [
-    "UNDEK IPC CRIMES RY POLICE DURING 1999",
-    "PERSONS END OF THE YEAR ©"
+    "NUMBER OF",
+    "PERSONS CHARGE-SHEETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDEK IPC CRIMES RY POLICE DURING 1999 | res",
+   "name": "NUMBER OF | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
    "header": [
-    "UNDEK IPC CRIMES RY POLICE DURING 1999",
-    "res"
+    "NUMBER OF",
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "afk ®",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "afk ®"
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALLINDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "Note: 1. CUSTUDY UK ON BAIL.",
-  "2. es NN THEY 9.08 IS AL Re AS 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 2,
-  "failures": [
-   "col 2 'TOTAL (UTs)': printed 69340, sum 64264",
-   "col 3 'TOTAL (UTs)': printed 4654, sum 4648"
-  ],
-  "other_totals_checked": 1,
+  "cells_checked": 11,
+  "cells_passed": 11,
+  "failures": [],
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

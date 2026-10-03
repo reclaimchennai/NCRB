@@ -6,67 +6,84 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "T7",
+ "title": "73 APPENDIX VII CASES",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix1967.pdf",
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "T7",
- "row_label": "- CASES Total. cases ‘sheet was ., - -",
+ "pdf_title": "73 APPENDIX VII CASES",
+ "row_label": "Total true cases",
  "pages": [
-  19
+  15
  ],
- "n_rows": 31,
- "n_cols": 6,
- "n_cells": 171,
+ "n_rows": 36,
+ "n_cols": 9,
+ "n_cells": 323,
  "columns": [
   {
    "col_no": "2",
-   "name": "- | Cases not detected charge- pounded or withlaid, ‘drawn",
+   "name": "Cases not detected",
    "header": [
-    "-",
-    "Cases not detected charge- pounded or withlaid, ‘drawn"
+    "Cases not detected"
    ]
   },
   {
    "col_no": "3",
-   "name": "Casesin Casesin which “which trial was completed",
+   "name": "Cases in which charge-sheet was laid",
    "header": [
-    "Casesin Casesin which “which trial was completed"
+    "Cases in which charge-sheet was laid"
    ]
   },
   {
    "col_no": "4",
-   "name": "« Cases Cases acquit- ‘comted or dis-",
+   "name": "Cases compounded or withdrawn",
    "header": [
-    "« Cases Cases acquit- ‘comted or dis-"
+    "Cases compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "» APPENDIX, IX | Per- Cases centage conof cases charged. convicted to true cases gated",
+   "name": "Cases in which trial was completed",
    "header": [
-    "» APPENDIX, IX",
-    "Per- Cases centage conof cases charged. convicted to true cases gated"
+    "Cases in which trial was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "» APPENDIX, IX | Percentage of Cases convicted cases in which trial was completed",
+   "name": "Cases convicted",
    "header": [
-    "» APPENDIX, IX",
-    "Percentage of Cases convicted cases in which trial was completed"
+    "Cases convicted"
    ]
   },
   {
    "col_no": "7",
-   "name": "» APPENDIX, IX | Volume of crime per 1,00,000 of to population",
+   "name": "Cases acquitted or discharged",
    "header": [
-    "» APPENDIX, IX",
-    "Volume of crime per 1,00,000 of to population"
+    "Cases acquitted or discharged"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of cases convicted to true cases investigated",
+   "header": [
+    "Percentage of cases convicted to true cases investigated"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Percentage of cases convicted to cases in which trial was completed",
+   "header": [
+    "Percentage of cases convicted to cases in which trial was completed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Volume of crime per 1,00,000 of population",
+   "header": [
+    "Volume of crime per 1,00,000 of population"
    ]
   }
  ],
@@ -78,7 +95,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

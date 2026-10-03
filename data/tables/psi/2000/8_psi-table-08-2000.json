@@ -8,62 +8,79 @@
  "serial": "8",
  "title": "Distribution of Convicts in Jails (State/UT-wise) at the end of 2000",
  "listing_title": "Distribution of Convicts in Jails (State/UT-wise) at the end of 2000",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-08_2000.pdf",
  "source_file": "raw/psi/2000/table_content/psi-table-08_2000.pdf",
  "source_sha256": "3cff831c90c435def1f3947dfaf648e183ef3dd9d4bcdcca7a89ce6fe444883b",
  "table_no": "8",
- "pdf_title": "DISTRIBUTION OF CONVICTS IN JAILS (STATE/UT-WISE) AT THE END OF 2000",
- "row_label": "- / STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-8",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 34,
- "n_cols": 8,
- "n_cells": 133,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "CENTRAL JAIL",
+   "header": [
+    "CENTRAL JAIL"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "DISTRICT JAIL",
+   "header": [
+    "DISTRICT JAIL"
+   ]
   },
   {
    "col_no": "5",
-   "name": "sup",
+   "name": "SUB JAIL",
    "header": [
-    "sup"
+    "SUB JAIL"
    ]
   },
   {
    "col_no": "6",
-   "name": "WOMEN",
+   "name": "WOMEN JAIL",
    "header": [
-    "WOMEN"
+    "WOMEN JAIL"
    ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "BORSTAL SCHOOL",
+   "header": [
+    "BORSTAL SCHOOL"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "OPEN JAIL",
+   "header": [
+    "OPEN JAIL"
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "SPECIAL JAIL",
+   "header": [
+    "SPECIAL JAIL"
+   ]
   },
   {
    "col_no": "10",
+   "name": "OTHERS",
+   "header": [
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "11",
    "name": "TOTAL",
    "header": [
     "TOTAL"
@@ -72,9 +89,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 27,
+  "cells_passed": 26,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 1618, sum 1619"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

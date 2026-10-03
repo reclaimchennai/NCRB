@@ -8,85 +8,83 @@
  "serial": "2",
  "title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1997 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested Under IPC Crimes by Courts During 1997 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-74-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-74-1996-crime-survey.pdf",
  "source_sha256": "5e862587004f76332e5d2cffbb5d3e967f08fce5521522febfa9e8cf330dbb74",
- "table_no": "",
- "pdf_title": "",
- "row_label": "(M_H.A.) STATE/UT a)",
+ "table_no": "74",
+ "pdf_title": "N.C.R.B..(M.H.A.) CRIME IN INDIA - 1997 TABLE-74",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 37,
+ "n_rows": 35,
  "n_cols": 7,
- "n_cells": 207,
+ "n_cells": 245,
  "columns": [
   {
    "col_no": "3",
-   "name": "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE) | SL. NO. PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE)",
-    "SL. NO. PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE) | OF CASES COMPOUNDED OR WITH DRAWN",
+   "name": "NO. OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH DRAWN",
    "header": [
-    "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE)",
-    "OF CASES COMPOUNDED OR WITH DRAWN"
+    "NO. OF PERSONS WHOSE",
+    "CASES COMPO-UNDED OR WITH DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE) | TRIAL COMPLETED",
+   "name": "NO. OF PERSONS WHOSE | TRIAL COMPL-ETED",
    "header": [
-    "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE)",
-    "TRIAL COMPLETED"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE) | NO. OF PERSONS WHOSE - REMAINED PENDING",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE)",
-    "NO. OF PERSONS WHOSE - REMAINED PENDING"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE) | TRIAL",
+   "name": "NO. OF PERSONS CONVICTED",
    "header": [
-    "TABLE-74 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY COURYS DURING {STATE & UT-WISE)",
-    "TRIAL"
+    "NO. OF PERSONS CONVICTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "CRIME iN INDIA - 1997 | 1997 NO.OF PERSONS —-PERCEN CONVICTED",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "CRIME iN INDIA - 1997",
-    "1997 NO.OF PERSONS —-PERCEN CONVICTED"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "9",
-   "name": "CRIME iN INDIA - 1997 | PENDENC.] PERCENTAGE OF PENDENCY TU ALLINDIA TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "CRIME iN INDIA - 1997",
-    "PENDENC.] PERCENTAGE OF PENDENCY TU ALLINDIA TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 3,
+  "cells_checked": 15,
+  "cells_passed": 11,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 1.14091e+07, sum 3.0462e+07",
-   "col 3 'TOTAL (UTs}': printed 245313, sum 241771"
+   "col 4 'TOTAL (STATES)': printed 399619, sum 399579",
+   "col 4 'TOTAL (UTs)': printed 1021, sum 1019",
+   "col 5 'TOTAL (ALL-INDIA)': printed 1.78333e+06, sum 1.78933e+06",
+   "col 7 'TOTAL (STATES)': printed 568850, sum 568450"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

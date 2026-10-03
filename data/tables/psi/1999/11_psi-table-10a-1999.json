@@ -8,155 +8,1064 @@
  "serial": "11",
  "title": "Table 10A: Jail-wise classification of different type of inmates during 1999",
  "listing_title": "Table 10A: Jail-wise classification of different type of inmates during 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-10a_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-10a_1999.pdf",
  "source_sha256": "7f87e6c11303af8baa839e10765391bda56d2a627d694066868ef04178bec1d7",
  "table_no": "10A",
- "pdf_title": "",
- "row_label": "STATE/UT SL. NO. ay 4 a / STATE/UT (2) SUB JAIL en / STATE/UT ANDHRA PRADESH an Pen i / M 0 te",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 TABLE-10A",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
+  1,
+  2,
+  3,
+  4,
   5,
+  6,
+  7,
+  8,
+  9,
+  10,
   11,
+  12,
+  13,
   14,
-  15
+  15,
+  16
  ],
- "n_rows": 29,
- "n_cols": 15,
- "n_cells": 72,
+ "n_rows": 37,
+ "n_cols": 128,
+ "n_cells": 4480,
  "columns": [
   {
-   "col_no": "5",
-   "name": "MENTALLY HL Ff 0 a1",
+   "col_no": "3",
+   "name": "MENTALLY ILL | M (3)",
    "header": [
-    "MENTALLY HL Ff 0 a1"
+    "MENTALLY ILL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "MENTALLY ILL | F (4)",
+   "header": [
+    "MENTALLY ILL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "MENTALLY ILL | T (5)",
+   "header": [
+    "MENTALLY ILL",
+    "T"
    ]
   },
   {
    "col_no": "6",
-   "name": "OT 0",
+   "name": "CONVICTS | M (6)",
    "header": [
-    "OT 0"
+    "CONVICTS",
+    "M"
    ]
   },
   {
    "col_no": "7",
-   "name": "Mo CB) 474",
+   "name": "CONVICTS | F (7)",
    "header": [
-    "Mo CB) 474"
+    "CONVICTS",
+    "F"
    ]
   },
   {
    "col_no": "8",
-   "name": "CONVICTS oF 3 a",
+   "name": "CONVICTS | T (8)",
    "header": [
-    "CONVICTS oF 3 a"
+    "CONVICTS",
+    "T"
    ]
   },
   {
    "col_no": "9",
-   "name": "UNDERTRIALS | 177-3045",
+   "name": "UNDERTRIALS | M (9)",
    "header": [
     "UNDERTRIALS",
-    "177-3045"
+    "M"
    ]
   },
   {
    "col_no": "10",
-   "name": "UNDERTRIALS | mM",
+   "name": "UNDERTRIALS | F (10)",
    "header": [
     "UNDERTRIALS",
-    "mM"
+    "F"
    ]
   },
   {
    "col_no": "11",
-   "name": "UNDERTRIALS | [",
+   "name": "UNDERTRIALS | T (11)",
    "header": [
     "UNDERTRIALS",
-    "["
+    "T"
    ]
   },
   {
    "col_no": "12",
-   "name": "UNDERTRIALS | Fo. 943139 ria!",
+   "name": "DETENUS | M (12)",
    "header": [
-    "UNDERTRIALS",
-    "Fo. 943139 ria!"
+    "DETENUS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "DETENUS | F (13)",
+   "header": [
+    "DETENUS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "DETENUS | T (14)",
+   "header": [
+    "DETENUS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "OTHERS | M (15)",
+   "header": [
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHERS | F (16)",
+   "header": [
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHERS | T (17)",
+   "header": [
+    "OTHERS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL (11+14+17) (18)",
+   "header": [
+    "TOTAL (11+14+17)"
    ]
   },
   {
    "col_no": "10001",
-   "name": "CONVICTS | wm [ (6) 0! 232 eee tree)",
+   "name": "MENTALLY ILL | M (10001)",
    "header": [
-    "CONVICTS",
-    "wm [ (6) 0! 232 eee tree)"
+    "MENTALLY ILL",
+    "M"
    ]
   },
   {
    "col_no": "10002",
-   "name": "UNDERTRIALS mM FT fF a) ao 8 0) 0) 0 0 pepe poop eB ale ta ee) 1) ea el",
+   "name": "MENTALLY ILL | F (10002)",
    "header": [
-    "UNDERTRIALS mM FT fF a) ao 8 0) 0) 0 0 pepe poop eB ale ta ee) 1) ea el"
+    "MENTALLY ILL",
+    "F"
    ]
   },
   {
    "col_no": "10003",
-   "name": "ie | (2) SPECIAL JAIL ANDHRA PRADESH 7",
+   "name": "MENTALLY ILL | T (10003)",
    "header": [
-    "ie",
-    "(2) SPECIAL JAIL ANDHRA PRADESH 7"
+    "MENTALLY ILL",
+    "T"
    ]
   },
   {
    "col_no": "10004",
-   "name": "DETENUS | wm a2 0 a",
+   "name": "CONVICTS | M (10004)",
    "header": [
-    "DETENUS",
-    "wm a2 0 a"
+    "CONVICTS",
+    "M"
    ]
   },
   {
    "col_no": "10005",
-   "name": "DETENUS | aay 0",
+   "name": "CONVICTS | F (10005)",
    "header": [
-    "DETENUS",
-    "aay 0"
+    "CONVICTS",
+    "F"
    ]
   },
   {
    "col_no": "10006",
-   "name": "DETENUS | aa 0) Goi",
+   "name": "CONVICTS | T (10006)",
    "header": [
-    "DETENUS",
-    "aa 0) Goi"
+    "CONVICTS",
+    "T"
    ]
   },
   {
    "col_no": "10007",
-   "name": "OTHERS TOTAL (14414417) [ mo as) ae (18) 0 0 0 0 7 mine Oe \"7 ee tt “1 Se a er sar aa (7777077774777 rs",
+   "name": "UNDERTRIALS | M (10007)",
    "header": [
-    "OTHERS TOTAL (14414417) [ mo as) ae (18) 0 0 0 0 7 mine Oe \"7 ee tt “1 Se a er sar aa (7777077774777 rs"
+    "UNDERTRIALS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "UNDERTRIALS | F (10008)",
+   "header": [
+    "UNDERTRIALS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "UNDERTRIALS | T (10009)",
+   "header": [
+    "UNDERTRIALS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10010",
+   "name": "DETENUS | M (10010)",
+   "header": [
+    "DETENUS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "DETENUS | F (10011)",
+   "header": [
+    "DETENUS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10012",
+   "name": "DETENUS | T (10012)",
+   "header": [
+    "DETENUS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10013",
+   "name": "OTHERS | M (10013)",
+   "header": [
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10014",
+   "name": "OTHERS | F (10014)",
+   "header": [
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10015",
+   "name": "OTHERS | T (10015)",
+   "header": [
+    "OTHERS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10016",
+   "name": "TOTAL (11 + 14 + 17) (10016)",
+   "header": [
+    "TOTAL (11 + 14 + 17)"
+   ]
+  },
+  {
+   "col_no": "10017",
+   "name": "MENTALLY ILL | M (10017)",
+   "header": [
+    "MENTALLY ILL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10018",
+   "name": "MENTALLY ILL | F (10018)",
+   "header": [
+    "MENTALLY ILL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10019",
+   "name": "MENTALLY ILL | T (10019)",
+   "header": [
+    "MENTALLY ILL",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10020",
+   "name": "CONVICTS | M (10020)",
+   "header": [
+    "CONVICTS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10021",
+   "name": "CONVICTS | F (10021)",
+   "header": [
+    "CONVICTS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10022",
+   "name": "CONVICTS | T (10022)",
+   "header": [
+    "CONVICTS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10023",
+   "name": "UNDERTRIALS | M (10023)",
+   "header": [
+    "UNDERTRIALS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10024",
+   "name": "UNDERTRIALS | F (10024)",
+   "header": [
+    "UNDERTRIALS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10025",
+   "name": "UNDERTRIALS | T (10025)",
+   "header": [
+    "UNDERTRIALS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10026",
+   "name": "DETENUS | M (10026)",
+   "header": [
+    "DETENUS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10027",
+   "name": "DETENUS | F (10027)",
+   "header": [
+    "DETENUS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10028",
+   "name": "DETENUS | T (10028)",
+   "header": [
+    "DETENUS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10029",
+   "name": "OTHERS | M (10029)",
+   "header": [
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10030",
+   "name": "OTHERS | F (10030)",
+   "header": [
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10031",
+   "name": "OTHERS | T (10031)",
+   "header": [
+    "OTHERS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10032",
+   "name": "TOTAL (11+14+17) (10032)",
+   "header": [
+    "TOTAL (11+14+17)"
+   ]
+  },
+  {
+   "col_no": "10033",
+   "name": "MENTALLY ILL | M (10033)",
+   "header": [
+    "MENTALLY ILL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10034",
+   "name": "MENTALLY ILL | F (10034)",
+   "header": [
+    "MENTALLY ILL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10035",
+   "name": "MENTALLY ILL | T (10035)",
+   "header": [
+    "MENTALLY ILL",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10036",
+   "name": "CONVICTS | M (10036)",
+   "header": [
+    "CONVICTS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10037",
+   "name": "CONVICTS | F (10037)",
+   "header": [
+    "CONVICTS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10038",
+   "name": "CONVICTS | T (10038)",
+   "header": [
+    "CONVICTS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10039",
+   "name": "UNDERTRIALS | M (10039)",
+   "header": [
+    "UNDERTRIALS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10040",
+   "name": "UNDERTRIALS | F (10040)",
+   "header": [
+    "UNDERTRIALS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10041",
+   "name": "UNDERTRIALS | T (10041)",
+   "header": [
+    "UNDERTRIALS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10042",
+   "name": "DETENUS | M (10042)",
+   "header": [
+    "DETENUS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10043",
+   "name": "DETENUS | F (10043)",
+   "header": [
+    "DETENUS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10044",
+   "name": "DETENUS | T (10044)",
+   "header": [
+    "DETENUS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10045",
+   "name": "OTHERS | M (10045)",
+   "header": [
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10046",
+   "name": "OTHERS | F (10046)",
+   "header": [
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10047",
+   "name": "OTHERS | T (10047)",
+   "header": [
+    "OTHERS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10048",
+   "name": "TOTAL (11 + 14 + 17) (10048)",
+   "header": [
+    "TOTAL (11 + 14 + 17)"
+   ]
+  },
+  {
+   "col_no": "10049",
+   "name": "MENTALLY ILL | M (10049)",
+   "header": [
+    "MENTALLY ILL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10050",
+   "name": "MENTALLY ILL | F (10050)",
+   "header": [
+    "MENTALLY ILL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10051",
+   "name": "MENTALLY ILL | T (10051)",
+   "header": [
+    "MENTALLY ILL",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10052",
+   "name": "CONVICTS | M (10052)",
+   "header": [
+    "CONVICTS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10053",
+   "name": "CONVICTS | F (10053)",
+   "header": [
+    "CONVICTS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10054",
+   "name": "CONVICTS | T (10054)",
+   "header": [
+    "CONVICTS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10055",
+   "name": "UNDERTRIALS | M (10055)",
+   "header": [
+    "UNDERTRIALS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10056",
+   "name": "UNDERTRIALS | F (10056)",
+   "header": [
+    "UNDERTRIALS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10057",
+   "name": "UNDERTRIALS | T (10057)",
+   "header": [
+    "UNDERTRIALS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10058",
+   "name": "DETENUS | M (10058)",
+   "header": [
+    "DETENUS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10059",
+   "name": "DETENUS | F (10059)",
+   "header": [
+    "DETENUS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10060",
+   "name": "DETENUS | T (10060)",
+   "header": [
+    "DETENUS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10061",
+   "name": "OTHERS | M (10061)",
+   "header": [
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10062",
+   "name": "OTHERS | F (10062)",
+   "header": [
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10063",
+   "name": "OTHERS | T (10063)",
+   "header": [
+    "OTHERS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10064",
+   "name": "TOTAL (11 + 14 + 17) (10064)",
+   "header": [
+    "TOTAL (11 + 14 + 17)"
+   ]
+  },
+  {
+   "col_no": "10065",
+   "name": "MENTALLY ILL | M (10065)",
+   "header": [
+    "MENTALLY ILL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10066",
+   "name": "MENTALLY ILL | F (10066)",
+   "header": [
+    "MENTALLY ILL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10067",
+   "name": "MENTALLY ILL | T (10067)",
+   "header": [
+    "MENTALLY ILL",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10068",
+   "name": "CONVICTS | M (10068)",
+   "header": [
+    "CONVICTS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10069",
+   "name": "CONVICTS | F (10069)",
+   "header": [
+    "CONVICTS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10070",
+   "name": "CONVICTS | T (10070)",
+   "header": [
+    "CONVICTS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10071",
+   "name": "UNDERTRIALS | M (10071)",
+   "header": [
+    "UNDERTRIALS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10072",
+   "name": "UNDERTRIALS | F (10072)",
+   "header": [
+    "UNDERTRIALS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10073",
+   "name": "UNDERTRIALS | T (10073)",
+   "header": [
+    "UNDERTRIALS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10074",
+   "name": "DETENUS | M (10074)",
+   "header": [
+    "DETENUS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10075",
+   "name": "DETENUS | F (10075)",
+   "header": [
+    "DETENUS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10076",
+   "name": "DETENUS | T (10076)",
+   "header": [
+    "DETENUS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10077",
+   "name": "OTHERS | M (10077)",
+   "header": [
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10078",
+   "name": "OTHERS | F (10078)",
+   "header": [
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10079",
+   "name": "OTHERS | . T",
+   "header": [
+    "OTHERS",
+    ". T"
+   ]
+  },
+  {
+   "col_no": "10080",
+   "name": "TOTAL (11+14+17) (10080)",
+   "header": [
+    "TOTAL (11+14+17)"
+   ]
+  },
+  {
+   "col_no": "10081",
+   "name": "MENTALLY ILL | M (10081)",
+   "header": [
+    "MENTALLY ILL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10082",
+   "name": "MENTALLY ILL | F (10082)",
+   "header": [
+    "MENTALLY ILL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10083",
+   "name": "MENTALLY ILL | T (10083)",
+   "header": [
+    "MENTALLY ILL",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10084",
+   "name": "CONVICTS | M (10084)",
+   "header": [
+    "CONVICTS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10085",
+   "name": "CONVICTS | F (10085)",
+   "header": [
+    "CONVICTS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10086",
+   "name": "CONVICTS | T (10086)",
+   "header": [
+    "CONVICTS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10087",
+   "name": "UNDERTRIALS | M (10087)",
+   "header": [
+    "UNDERTRIALS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10088",
+   "name": "UNDERTRIALS | F (10088)",
+   "header": [
+    "UNDERTRIALS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10089",
+   "name": "UNDERTRIALS | T (10089)",
+   "header": [
+    "UNDERTRIALS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10090",
+   "name": "DETENUS | M (10090)",
+   "header": [
+    "DETENUS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10091",
+   "name": "DETENUS | F (10091)",
+   "header": [
+    "DETENUS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10092",
+   "name": "DETENUS | T (10092)",
+   "header": [
+    "DETENUS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10093",
+   "name": "OTHERS | M (10093)",
+   "header": [
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10094",
+   "name": "OTHERS | F (10094)",
+   "header": [
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10095",
+   "name": "OTHERS | T (10095)",
+   "header": [
+    "OTHERS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10096",
+   "name": "TOTAL (11 + 14 + 17) (10096)",
+   "header": [
+    "TOTAL (11 + 14 + 17)"
+   ]
+  },
+  {
+   "col_no": "10097",
+   "name": "MENTALLY ILL | M (10097)",
+   "header": [
+    "MENTALLY ILL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10098",
+   "name": "MENTALLY ILL | F (10098)",
+   "header": [
+    "MENTALLY ILL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10099",
+   "name": "MENTALLY ILL | T (10099)",
+   "header": [
+    "MENTALLY ILL",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10100",
+   "name": "CONVICTS | M (10100)",
+   "header": [
+    "CONVICTS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10101",
+   "name": "CONVICTS | F (10101)",
+   "header": [
+    "CONVICTS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10102",
+   "name": "CONVICTS | T (10102)",
+   "header": [
+    "CONVICTS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10103",
+   "name": "UNDERTRIALS | M (10103)",
+   "header": [
+    "UNDERTRIALS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10104",
+   "name": "UNDERTRIALS | F (10104)",
+   "header": [
+    "UNDERTRIALS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10105",
+   "name": "UNDERTRIALS | T (10105)",
+   "header": [
+    "UNDERTRIALS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10106",
+   "name": "DETENUS | M (10106)",
+   "header": [
+    "DETENUS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10107",
+   "name": "DETENUS | F (10107)",
+   "header": [
+    "DETENUS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10108",
+   "name": "DETENUS | T (10108)",
+   "header": [
+    "DETENUS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10109",
+   "name": "OTHERS | M (10109)",
+   "header": [
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10110",
+   "name": "OTHERS | F (10110)",
+   "header": [
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10111",
+   "name": "OTHERS | T (10111)",
+   "header": [
+    "OTHERS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "10112",
+   "name": "TOTAL (11 + 14 + 17) (10112)",
+   "header": [
+    "TOTAL (11 + 14 + 17)"
    ]
   }
  ],
- "notes": [
-  "nip aa meme",
-  "+",
-  "- + Ba",
-  "\"4 Ge 4",
-  "a",
-  "7\" 7h"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 384,
+  "cells_passed": 383,
+  "failures": [
+   "col 11 'TOTAL (STATES)': printed 51596, sum 51796"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 3,
- "ocr_pages": 4,
+ "inferred_pages": 0,
+ "ocr_pages": 16,
  "warnings": []
 }

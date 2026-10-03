@@ -8,69 +8,67 @@
  "serial": "23",
  "title": "Victims of Rape Under Different Age Groups During 1998",
  "listing_title": "Victims of Rape Under Different Age Groups During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-28--victims-of-rape-under-different-age-group-during-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-28--victims-of-rape-under-different-age-group-during-1998.pdf",
  "source_sha256": "cda9c259f634703e3b753d13a2d2cf61bca92ee87ac722feb4c42fdf9acea761",
  "table_no": "28",
- "pdf_title": "",
- "row_label": "STATE/UT/CITY SL NO / STATE/UT/CITY y",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-28",
+ "row_label": "SL NO / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 49,
+ "n_rows": 58,
  "n_cols": 5,
- "n_cells": 179,
+ "n_cells": 289,
  "columns": [
   {
    "col_no": "3",
-   "name": "VICTIMS OF RAPE UNDER NO. OF CASES REPORTED",
+   "name": "NO. OF CASES REPORTED",
    "header": [
-    "VICTIMS OF RAPE UNDER NO. OF CASES REPORTED"
+    "NO. OF CASES REPORTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "AGE GROUPS DURING | BELOW 10 YEARS",
+   "name": "NUMBER OF VICTIMS | BELOW 10 YEARS",
    "header": [
-    "AGE GROUPS DURING",
+    "NUMBER OF VICTIMS",
     "BELOW 10 YEARS"
    ]
   },
   {
    "col_no": "5",
-   "name": "AGE GROUPS DURING | NUMBER OF VICTIMS 10-16 YEARS",
+   "name": "NUMBER OF VICTIMS | 10-16 YEARS",
    "header": [
-    "AGE GROUPS DURING",
-    "NUMBER OF VICTIMS 10-16 YEARS"
+    "NUMBER OF VICTIMS",
+    "10-16 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "1998 16-30 YEARS",
+   "name": "NUMBER OF VICTIMS | 16-30 YEARS",
    "header": [
-    "1998 16-30 YEARS"
+    "NUMBER OF VICTIMS",
+    "16-30 YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "30 YEARS ANC ABOVE",
+   "name": "NUMBER OF VICTIMS | 30 YEARS AND ABOVE",
    "header": [
-    "30 YEARS ANC ABOVE"
+    "NUMBER OF VICTIMS",
+    "30 YEARS AND ABOVE"
    ]
   }
  ],
- "notes": [
-  "Note:* Victims were more than the cases reported.",
-  "185 NCRB/2000—13A"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 1,
+  "cells_checked": 15,
+  "cells_passed": 14,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 14570, sum 9022",
-   "col 3 'TOTAL (UTs)': printed 461, sum 446"
+   "col 6 'TOTAL (STATES)': printed 8255, sum 8205"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

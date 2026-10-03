@@ -8,78 +8,156 @@
  "serial": "18",
  "title": "Juvenile Delinquency for Important Heads of Crime under IPC During the Year 1978",
  "listing_title": "Juvenile Delinquency for Important Heads of Crime under IPC During the Year 1978",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-33-1978.pdf",
  "source_file": "raw/cii/1978/table_content/table-33-1978.pdf",
  "source_sha256": "6034a35bb9a1f1743a8fbe707ed24a61cba6907f979ffd038ff1a2a164361ddd",
  "table_no": "33",
- "pdf_title": "",
- "row_label": "JUVENILE DELINQUENCY FOR IMPORTANT HEADS OF ‘SL. States/U.T.s./Cities No. / JUVENILE DELINQUENCY FOR IMPORTANT HEADS OF Murder",
+ "pdf_title": "59 TABLE 33 JUVENILE DELINQUENCY FOR IMPORTANT HEADS OF CRIME UNDER IPC DURING THE YEAR 1978",
+ "row_label": "Sl. States/U.T.s./Cities No.",
  "pages": [
   1,
-  2
+  2,
+  3
  ],
- "n_rows": 63,
- "n_cols": 6,
- "n_cells": 237,
+ "n_rows": 45,
+ "n_cols": 16,
+ "n_cells": 577,
  "columns": [
   {
-   "col_no": "4",
-   "name": "TINDER IPC DURING THE YEAR | IPC Coanizable Culpable Homicide not to Murder",
+   "col_no": "3",
+   "name": "Sl. States/U.T.s./Cities No.",
    "header": [
-    "TINDER IPC DURING THE YEAR",
-    "IPC Coanizable Culpable Homicide not to Murder"
+    "Sl. States/U.T.s./Cities No."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "IPC Cognizable Offences reported | Murder",
+   "header": [
+    "IPC Cognizable Offences reported",
+    "Murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "TINDER IPC DURING THE YEAR | ieporied Rape",
+   "name": "IPC Cognizable Offences reported | Culpable Homicide not amounting to Murder",
    "header": [
-    "TINDER IPC DURING THE YEAR",
-    "ieporied Rape"
+    "IPC Cognizable Offences reported",
+    "Culpable Homicide not amounting to Murder"
    ]
   },
   {
    "col_no": "6",
-   "name": "1978 - Kidnapping & Abduction",
+   "name": "IPC Cognizable Offences reported | Rape",
    "header": [
-    "1978 - Kidnapping & Abduction"
+    "IPC Cognizable Offences reported",
+    "Rape"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Sl. States/U.Ts./Cities No. (2)",
+   "header": [
+    "Sl. States/U.Ts./Cities No."
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Sl. States/U.Ts./Cities No. (10001)",
+   "header": [
+    "Sl. States/U.Ts./Cities No."
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "IPC Cognizable offences reported | Dacoity",
+   "header": [
+    "IPC Cognizable offences reported",
+    "Dacoity"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "IPC Cognizable offences reported | Robbery",
+   "header": [
+    "IPC Cognizable offences reported",
+    "Robbery"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "IPC Cognizable offences reported | Burglary",
+   "header": [
+    "IPC Cognizable offences reported",
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "IPC Cognizable offences reported | Thefts",
+   "header": [
+    "IPC Cognizable offences reported",
+    "Thefts"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Riots",
+   "header": [
+    "Riots"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "IPC Cognizable offences reported | Criminal Breach of Trust",
+   "header": [
+    "IPC Cognizable offences reported",
+    "Criminal Breach of Trust"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "IPC Cognizable offences reported | Cheating",
+   "header": [
+    "IPC Cognizable offences reported",
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "IPC Cognizable offences reported | Counterfeiting",
+   "header": [
+    "IPC Cognizable offences reported",
+    "Counterfeiting"
    ]
   },
   {
    "col_no": "8",
-   "name": "TPC Robbery",
+   "name": "IPC Cognizable offences reported | Total cognizable crime",
    "header": [
-    "TPC Robbery"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "ea Burglary",
-   "header": [
-    "ea Burglary"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Thefts",
-   "header": [
-    "Thefts"
+    "IPC Cognizable offences reported",
+    "Total cognizable crime"
    ]
   }
  ],
- "notes": [
-  "-"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 12,
-  "other_totals_passed": 3
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

@@ -8,89 +8,109 @@
  "serial": "30",
  "title": "Table 30: Distribution of Convicts by Period of Sentence at the end of 1998",
  "listing_title": "Table 30: Distribution of Convicts by Period of Sentence at the end of 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-30_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-30_1998.pdf",
  "source_sha256": "c609988279888c731d061ec8cc5b69c4656d45d549f0f9e8e4312f40d166aaf1",
- "table_no": "30",
- "pdf_title": "DISTRIBUTION OF CONVICTS BY PERIOD OF SENTENCE AT THE END OF 1998",
- "row_label": "CAPITAL MENT / - MENT / 10-13 YEARS",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 12,
- "n_cols": 6,
- "n_cells": 29,
+ "n_rows": 35,
+ "n_cols": 11,
+ "n_cells": 385,
  "columns": [
   {
-   "col_no": "6",
-   "name": "7-9 YEARS",
+   "col_no": "3",
+   "name": "CAPITAL IMPRISON-MENT",
    "header": [
-    "7-9 YEARS"
+    "CAPITAL IMPRISON-MENT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "LIFE IMPRISON-MENT",
+   "header": [
+    "LIFE IMPRISON-MENT"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "10 - 13 PLUS YEARS",
+   "header": [
+    "10 - 13 PLUS YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "7 - 9 PLUS YEARS",
+   "header": [
+    "7 - 9 PLUS YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "8-6 PLUS YEARS",
+   "name": "5 - 6 PLUS YEARS",
    "header": [
-    "8-6 PLUS YEARS"
+    "5 - 6 PLUS YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "2-4 PLUS YEARS",
+   "name": "2 - 4 PLUS YEARS",
    "header": [
-    "2-4 PLUS YEARS"
+    "2 - 4 PLUS YEARS"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "SLESS THANG MONTHS",
+   "col_no": "9",
+   "name": "1 - LESS THAN 2 YEARS",
    "header": [
-    "SLESS THANG MONTHS"
+    "1 - LESS THAN 2 YEARS"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "—_LESS THAN 3 MONTHS",
+   "col_no": "10",
+   "name": "6 MONTHS LESS THAN 1 YEAR",
    "header": [
-    "—_LESS THAN 3 MONTHS"
+    "6 MONTHS LESS THAN 1 YEAR"
    ]
   },
   {
-   "col_no": "10003",
+   "col_no": "11",
+   "name": "3 LESS THAN 6 MONTHS",
+   "header": [
+    "3 LESS THAN 6 MONTHS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "LESS THAN 3 MONTHS",
+   "header": [
+    "LESS THAN 3 MONTHS"
+   ]
+  },
+  {
+   "col_no": "13",
    "name": "TOTAL",
    "header": [
     "TOTAL"
    ]
   }
  ],
- "notes": [
-  "go as ea",
-  "97-1 gag",
-  "1-7 117777",
-  "Fo Te",
-  "“a2 Te ar",
-  "a",
-  "7) ee ee",
-  "MA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 0,
-  "failures": [
-   "col 6 'TOTAL (STATES)': printed 3301, sum 254",
-   "col 8 'TOTAL (STATES)': printed 2973, sum 334",
-   "col 10001 'TOTAL (UTS)': printed 7, sum 575",
-   "col 10002 'TOTAL (UTS)': printed 74, sum 437",
-   "col 10003 'TOTAL (UTS)': printed 1846, sum 6981"
-  ],
+  "cells_checked": 33,
+  "cells_passed": 33,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

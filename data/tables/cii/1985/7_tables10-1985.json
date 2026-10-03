@@ -8,50 +8,54 @@
  "serial": "7",
  "title": "Incidence of Total Cognizable Crime and Volume of Crime per Lakh of Population under Important Heads of IPC During 1985",
  "listing_title": "Incidence of Total Cognizable Crime and Volume of Crime per Lakh of Population under Important Heads of IPC During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables10-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables10-1985.pdf",
  "source_sha256": "4a35fdee759b72030c36403e2daf81eabb9c5c15b0f3a551c6fe96ce143c7b62",
  "table_no": "10",
- "pdf_title": "Incidence Of Total Cognizable Crime And Volume Of Crime Per Lakh Of Population Under Important Heads Of IPC During 1985",
- "row_label": "States/U. Ts/Cities Sl. No. ql)",
+ "pdf_title": "46 TABLE - 10 Incidence Of Total Cognizable Crime And Volume Of Crime Per Lakh Of Population Under Important Heads Of IPC During 1985",
+ "row_label": "Sl. States/U.Ts/Cities No. / Sl. States/U.Ts/Cities No.",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 68,
+ "n_rows": 48,
  "n_cols": 26,
- "n_cells": 1213,
+ "n_cells": 1218,
  "columns": [
   {
    "col_no": "3",
-   "name": "Arms I",
+   "name": "Arms Act | I",
    "header": [
-    "Arms I"
+    "Arms Act",
+    "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "Act Vv (4)",
+   "name": "Arms Act | V",
    "header": [
-    "Act Vv"
+    "Arms Act",
+    "V"
    ]
   },
   {
    "col_no": "5",
-   "name": "Opium 1",
+   "name": "Opium Act | I",
    "header": [
-    "Opium 1"
+    "Opium Act",
+    "I"
    ]
   },
   {
    "col_no": "6",
-   "name": "Act Vv (6)",
+   "name": "Opium Act | V",
    "header": [
-    "Act Vv"
+    "Opium Act",
+    "V"
    ]
   },
   {
@@ -64,164 +68,173 @@
   },
   {
    "col_no": "8",
-   "name": "Gambling Act | Vv",
+   "name": "Gambling Act | V",
    "header": [
     "Gambling Act",
-    "Vv"
+    "V"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Excise I",
+   "col_no": "9",
+   "name": "Excise Act | I",
    "header": [
-    "Excise I"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Act Vv (10002)",
-   "header": [
-    "Act Vv"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Prohibition I",
-   "header": [
-    "Prohibition I"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Act Vv (10004)",
-   "header": [
-    "Act Vv"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "Exp. | Explosives Substances I",
-   "header": [
-    "Exp.",
-    "Explosives Substances I"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "Exp. | and Act v",
-   "header": [
-    "Exp.",
-    "and Act v"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "Exp. | T",
-   "header": [
-    "Exp.",
-    "T"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "BS ACT Vv",
-   "header": [
-    "BS ACT Vv"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "Motor Vehicle | Act 1",
-   "header": [
-    "Motor Vehicle",
-    "Act 1"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "Motor Vehicle | Vv",
-   "header": [
-    "Motor Vehicle",
-    "Vv"
-   ]
-  },
-  {
-   "col_no": "19",
-   "name": "Prevention Corruption I",
-   "header": [
-    "Prevention Corruption I"
-   ]
-  },
-  {
-   "col_no": "20",
-   "name": "Customs | of Act v",
-   "header": [
-    "Customs",
-    "of Act v"
-   ]
-  },
-  {
-   "col_no": "21",
-   "name": "Customs | I",
-   "header": [
-    "Customs",
+    "Excise Act",
     "I"
    ]
   },
   {
-   "col_no": "22",
-   "name": "Act Vv (22)",
+   "col_no": "10",
+   "name": "Excise Act | V",
    "header": [
-    "Act Vv"
+    "Excise Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Prohibition Act | I",
+   "header": [
+    "Prohibition Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Prohibition Act | V",
+   "header": [
+    "Prohibition Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Explosives and Exp. Substances Act | I",
+   "header": [
+    "Explosives and Exp. Substances Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Explosives and Exp. Substances Act | V",
+   "header": [
+    "Explosives and Exp. Substances Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "S.I.T ACT | I",
+   "header": [
+    "S.I.T ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "S.I.T ACT | V",
+   "header": [
+    "S.I.T ACT",
+    "V"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Sl. States/U.Ts/Cities No.",
+   "header": [
+    "Sl. States/U.Ts/Cities No."
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Motor Vehicle Act | I",
+   "header": [
+    "Motor Vehicle Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Motor Vehicle Act | V",
+   "header": [
+    "Motor Vehicle Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Prevention of Corruption Act | I",
+   "header": [
+    "Prevention of Corruption Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Prevention of Corruption Act | V",
+   "header": [
+    "Prevention of Corruption Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Customs Act | I",
+   "header": [
+    "Customs Act",
+    "I"
    ]
   },
   {
    "col_no": "23",
-   "name": "Indian Railways Act I",
+   "name": "Customs Act | V",
    "header": [
-    "Indian Railways Act I"
+    "Customs Act",
+    "V"
    ]
   },
   {
    "col_no": "24",
-   "name": "¥",
+   "name": "Indian Railways Act | I",
    "header": [
-    "¥"
+    "Indian Railways Act",
+    "I"
    ]
   },
   {
    "col_no": "25",
-   "name": "Local Other Special 1",
+   "name": "Other Local & Special Laws | I",
    "header": [
-    "Local Other Special 1"
+    "Other Local & Special Laws",
+    "I"
    ]
   },
   {
    "col_no": "26",
-   "name": "& Laws Vv",
+   "name": "Other Local & Special Laws | V",
    "header": [
-    "& Laws Vv"
+    "Other Local & Special Laws",
+    "V"
    ]
   },
   {
    "col_no": "27",
-   "name": "of Total Special T",
+   "name": "Total of Local Special Laws | I",
    "header": [
-    "of Total Special T"
+    "Total of Local Special Laws",
+    "I"
    ]
   },
   {
    "col_no": "28",
-   "name": "Local Laws Vv",
+   "name": "Total of Local Special Laws | V",
    "header": [
-    "Local Laws Vv"
+    "Total of Local Special Laws",
+    "V"
    ]
   }
  ],
- "notes": [
-  "NOTE I - Incidence of Crime",
-  "Vv - Volume of Crime per Lakh of Population"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -229,7 +242,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 4,
  "warnings": []
 }

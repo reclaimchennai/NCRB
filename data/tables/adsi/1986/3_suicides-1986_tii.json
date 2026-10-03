@@ -6,60 +6,62 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1986",
  "serial": "3",
- "title": "Suicidal Deaths in India",
+ "title": "17 Volume of Suicides in States/Union Territories and Metropolitan Cities : The volume of suicides per lakh of population for India as a whole was 7.09 and for the States, U.Ts. and the Metropolitan Cities, it was 7.03, 11.53 and 9.53 respectively. Thus, for the States as a whole, it was slightly less than the all-India average of 7.09, but for the U.Ts. and the Metropolitan Cities, it was more than the all-India average of 7.09 per lakh of population. Among the States, the highest volume of suicides was recorded by Kerala (21.90) followed by Tripura (18.35), Tamil Nadu (15.58), West Bengal (13.37), Karnataka (11.09), Sikkim (10.65) and Assam (10.58). The volume of suicides registered by the rest of the States was less than 10.00. The lowest volume of suicides was recorded by Bihar (0.48) and Jammu & Kashmir (0.86). Among the U.Ts., the highest volume of suicides was recorded by Pondicherry (49.19) followed by A & N Islands (30.04), while it was the lowest (4.83) in Chandigarh and nil in Lakshadweep. Among the Metropolitan Cities, Madras topped the list with a Volume of 21.65 suicides per lakh of population followed by Bangalore (18.74) and Nagpur (13.22), while it was the lowest in Calcutta (3.75). The detailed statistics are presented in Table-II.",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1986.pdf",
  "source_file": "raw/adsi/1986/year_wise/suicides-1986.pdf",
  "source_sha256": "301b8dfc1921ea787077c0ba8426ed4353d4439423c3eccba0db451570857b22",
  "table_no": "II",
- "pdf_title": "",
- "row_label": "",
+ "pdf_title": "17 Volume of Suicides in States/Union Territories and Metropolitan Cities : The volume of suicides per lakh of population for India as a whole was 7.09 and for the States, U.Ts. and the Metropolitan Cities, it was 7.03, 11.53 and 9.53 respectively. Thus, for the States as a whole, it was slightly less than the all-India average of 7.09, but for the U.Ts. and the Metropolitan Cities, it was more than the all-India average of 7.09 per lakh of population. Among the States, the highest volume of suicides was recorded by Kerala (21.90) followed by Tripura (18.35), Tamil Nadu (15.58), West Bengal (13.37), Karnataka (11.09), Sikkim (10.65) and Assam (10.58). The volume of suicides registered by the rest of the States was less than 10.00. The lowest volume of suicides was recorded by Bihar (0.48) and Jammu & Kashmir (0.86). Among the U.Ts., the highest volume of suicides was recorded by Pondicherry (49.19) followed by A & N Islands (30.04), while it was the lowest (4.83) in Chandigarh and nil in Lakshadweep. Among the Metropolitan Cities, Madras topped the list with a Volume of 21.65 suicides per lakh of population followed by Bangalore (18.74) and Nagpur (13.22), while it was the lowest in Calcutta (3.75). The detailed statistics are presented in Table-II.",
+ "row_label": "Sl. No. / States/U.TS/Cities",
  "pages": [
+  5,
   6
  ],
- "n_rows": 35,
+ "n_rows": 47,
  "n_cols": 4,
- "n_cells": 135,
+ "n_cells": 188,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Number of Suicides",
+   "header": [
+    "Number of Suicides"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Percentage Of Suicides To Total Suicides",
+   "header": [
+    "Percentage Of Suicides To Total Suicides"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Estimated Mid-Year Population in (000)",
+   "header": [
+    "Estimated Mid-Year Population in (000)"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "Volume of Suicides Per Lakh Of Population",
+   "header": [
+    "Volume of Suicides Per Lakh Of Population"
+   ]
   }
  ],
- "notes": [
-  "The total number of suicide cases repoitca during 1986 has been claccified",
-  "under dittcren: heads and jin Table-III the last category ‘Other Causes’ covers",
-  "the causes of suicides sharing 38.5% of the total suicides and"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
+  "cells_checked": 0,
   "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 53128, sum 23596",
-   "col 3 'TOTAL (U. Ts.)': printed 1229, sum 853"
-  ],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

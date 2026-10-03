@@ -8,47 +8,51 @@
  "serial": "34",
  "title": "Juvenile Delinquency (LSL) under Different Crime Heads During 1988 & 1989",
  "listing_title": "Juvenile Delinquency (LSL) under Different Crime Heads During 1988 & 1989",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-36-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-36-1989-1.pdf",
  "source_sha256": "c43341fd6d47dd9cb8706b5d94a80b79e642726b83f75c0a8ec84604a23d202b",
  "table_no": "36",
- "pdf_title": "",
- "row_label": "SL. NO. / JUVENILE CRIME / DELINQUENCY 1989 DURING HEAD 1988",
+ "pdf_title": "140 TABLE-36 JUVENILE DELINQUENCY (LSL) UNDER DIFFERENT CRIME HEADS DURING 1988 & 1989",
+ "row_label": "NUMBER OF CASES REPORTED DURING",
  "pages": [
+  1,
   1
  ],
- "n_rows": 17,
- "n_cols": 2,
- "n_cells": 34,
+ "n_rows": 18,
+ "n_cols": 3,
+ "n_cells": 53,
  "columns": [
   {
    "col_no": "4",
-   "name": "CRIME (LSL) 1988 NUMBER CASES DURING 1989",
+   "name": "NUMBER OF CASES REPORTED DURING",
    "header": [
-    "CRIME (LSL) 1988 NUMBER CASES DURING 1989"
+    "NUMBER OF CASES REPORTED DURING"
    ]
   },
   {
    "col_no": "5",
-   "name": "HEADS UNDER & OF PERCENTAGE CHANGE 1989 IN 1988 OVER",
+   "name": "PERCENTAGE CHANGE IN 1989",
    "header": [
-    "HEADS UNDER & OF PERCENTAGE CHANGE 1989 IN 1988 OVER"
+    "PERCENTAGE CHANGE IN 1989"
    ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   }
  ],
- "notes": [
-  "@ INDICATES INFINITE VARIATION"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

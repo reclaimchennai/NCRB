@@ -8,84 +8,94 @@
  "serial": "8",
  "title": "Table 8: Distribution of Convicts in Jails (State/UT-wise) at the end of 1999",
  "listing_title": "Table 8: Distribution of Convicts in Jails (State/UT-wise) at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-08_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-08_1999.pdf",
  "source_sha256": "e1405426c3e3378831408a310770eeb9fb3c0ad33e9ba23dd62ebe5d2964845d",
  "table_no": "8",
- "pdf_title": "DISTRIBUTION OF CONVICTS IN JAILS (STATE/UT-WISE) AT THE END OF 1999",
- "row_label": "STATE/UT NO, ay / DISTRICT JAIL @) / DISTRICT JAIL 8",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-8",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 12,
- "n_cols": 7,
- "n_cells": 47,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
-   "col_no": "4",
-   "name": "DISTRICT JAIL | 1AIL £6",
+   "col_no": "3",
+   "name": "CENTRAL JAIL",
    "header": [
-    "DISTRICT JAIL",
-    "1AIL £6"
+    "CENTRAL JAIL"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DISTRICT JAIL",
+   "header": [
+    "DISTRICT JAIL"
    ]
   },
   {
    "col_no": "5",
-   "name": "WOMEN TAIL ©",
+   "name": "SUB JAIL",
    "header": [
-    "WOMEN TAIL ©"
+    "SUB JAIL"
    ]
   },
   {
    "col_no": "6",
-   "name": "BORSTAL SCHOOL (7)",
+   "name": "WOMEN JAIL",
    "header": [
-    "BORSTAL SCHOOL (7)"
+    "WOMEN JAIL"
    ]
   },
   {
    "col_no": "7",
-   "name": "JAIL",
+   "name": "BORSTAL SCHOOL",
    "header": [
-    "JAIL"
+    "BORSTAL SCHOOL"
    ]
   },
   {
    "col_no": "8",
-   "name": "JAIL,",
+   "name": "OPEN JAIL",
    "header": [
-    "JAIL,"
+    "OPEN JAIL"
    ]
   },
   {
    "col_no": "9",
-   "name": "0)",
+   "name": "SPECIAL JAIL",
    "header": [
-    "0)"
+    "SPECIAL JAIL"
    ]
   },
   {
    "col_no": "10",
-   "name": "ay",
+   "name": "OTHERS",
    "header": [
-    "ay"
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "may oa",
-  "ae de ORL"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 27,
+  "cells_passed": 27,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

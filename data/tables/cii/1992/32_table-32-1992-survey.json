@@ -8,76 +8,72 @@
  "serial": "32",
  "title": "Disposal of Persons Arrested under LSL Crimes by Police During 1992",
  "listing_title": "Disposal of Persons Arrested under LSL Crimes by Police During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-32-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-32-1992-survey.pdf",
  "source_sha256": "1cece0e78b0588957eaf28ce213c1ee7aaf5f4b14cd1e01a6ff1bb48d4a51903",
  "table_no": "32",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER LSL CRIMES BY POLICE DURING 1992",
- "row_label": "sL. NO. / CRIME / HEAD PERSONS UNDER ARREST* INCLUDING THOSE FROM VIOUS",
+ "pdf_title": "183 TABLE-32 DISPOSAL OF PERSONS ARRESTED UNDER LSL CRIMES BY POLICE DURING 1992",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 6,
- "n_cells": 102,
+ "n_cols": 7,
+ "n_cells": 119,
  "columns": [
   {
-   "col_no": "4",
-   "name": "TOTAL NO. PREYEAR",
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "TOTAL NO. PREYEAR"
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERSONS RELEASED BEFORE TRIAL NO. PERCENTAGE TO TOTAL",
+   "header": [
+    "PERSONS RELEASED BEFORE TRIAL NO. PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. PERSONS RELEASED BEFORE TRIAL PERCENTAGE TO TOTAL",
+   "name": "PERSONS CHARGE-SHEETED NO. PERCENTAGE TO TOTAL",
    "header": [
-    "NO. PERSONS RELEASED BEFORE TRIAL PERCENTAGE TO TOTAL"
+    "PERSONS CHARGE-SHEETED NO. PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERSONS CHARGESHEETED | ee NO.",
+   "name": "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR NO. PERCENTAGE TO TOTAL",
    "header": [
-    "PERSONS CHARGESHEETED",
-    "ee NO."
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR NO. PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "PERSONS CHARGESHEETED | PERCENTAGE TO TOTAL",
-   "header": [
-    "PERSONS CHARGESHEETED",
-    "PERCENTAGE TO TOTAL"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "PERSONS AT THE THE NO.",
-   "header": [
-    "PERSONS AT THE THE NO."
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "UNDER INVESTIGATION END OF YEAR PERCENTAGE TO TOTAL",
-   "header": [
-    "UNDER INVESTIGATION END OF YEAR PERCENTAGE TO TOTAL"
-   ]
+   "name": "col_9",
+   "header": []
   }
  ],
- "notes": [
-  "* IN CUSTODY OR ON BAIL.",
-  "25—526 NCRB/94."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 3
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

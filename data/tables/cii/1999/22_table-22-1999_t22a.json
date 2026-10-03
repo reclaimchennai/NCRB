@@ -6,199 +6,217 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "22",
- "title": "CONVICTION RATE OF IPC CRIMES CASES DURING 1999",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 22A",
  "listing_title": "Percentage of IPC Crime Cases Disposed by Courts During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-22-1999.pdf",
  "source_sha256": "69f9aa58d617ab9b1bfecab10407b616b8919d5752f0157ad18cfbafcc9c434c",
  "table_no": "22A",
- "pdf_title": "CONVICTION RATE OF IPC CRIMES CASES DURING 1999",
- "row_label": "STATE/UT SL. NO. ®",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 22A",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   2,
   3
  ],
- "n_rows": 50,
- "n_cols": 25,
- "n_cells": 748,
+ "n_rows": 37,
+ "n_cols": 27,
+ "n_cells": 945,
  "columns": [
   {
-   "col_no": "2",
-   "name": "MURDER @",
-   "header": [
-    "MURDER @"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "ATTEMPT TO COMMIT MURDER @)",
+   "name": "MURDER",
    "header": [
-    "ATTEMPT TO COMMIT MURDER @)"
+    "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "RAPE | C.H.NOT AMOUNTING TO MURDER (4)",
+   "name": "ATTEMPT TO COMMIT MURDER",
    "header": [
-    "RAPE",
-    "C.H.NOT AMOUNTING TO MURDER (4)"
+    "ATTEMPT TO COMMIT MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "RAPE | ©",
+   "name": "C.H. NOT AMOUNTING TO MURDER",
    "header": [
-    "RAPE",
-    "©"
+    "C.H. NOT AMOUNTING TO MURDER"
    ]
   },
   {
    "col_no": "6",
-   "name": "KIDNAFPING ANDABLUCIIUN | TOTAL ©",
+   "name": "RAPE",
    "header": [
-    "KIDNAFPING ANDABLUCIIUN",
-    "TOTAL ©"
+    "RAPE"
    ]
   },
   {
    "col_no": "7",
-   "name": "KIDNAFPING ANDABLUCIIUN | OF WOMEN OF OF GIRLS @",
+   "name": "KIDNAPPING AND ABDUCTION | TOTAL",
    "header": [
-    "KIDNAFPING ANDABLUCIIUN",
-    "OF WOMEN OF OF GIRLS @"
+    "KIDNAPPING AND ABDUCTION",
+    "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "DACOITY OTHERS (8)",
+   "name": "KIDNAPPING AND ABDUCTION | OF WOMEN OF GIRLS",
    "header": [
-    "DACOITY OTHERS (8)"
+    "KIDNAPPING AND ABDUCTION",
+    "OF WOMEN OF GIRLS"
    ]
   },
   {
    "col_no": "9",
-   "name": "ROBBERY | @",
+   "name": "KIDNAPPING AND ABDUCTION | OF OTHERS",
    "header": [
-    "ROBBERY",
-    "@"
+    "KIDNAPPING AND ABDUCTION",
+    "OF OTHERS"
    ]
   },
   {
    "col_no": "10",
-   "name": "ROBBERY | (0 (2)",
+   "name": "DACOITY",
    "header": [
-    "ROBBERY",
-    "(0 (2)"
+    "DACOITY"
    ]
   },
   {
    "col_no": "11",
-   "name": "ROBBERY | PREPARATION AND ASSEMRIY FOR DACOITY (11) 3)",
+   "name": "PREPARA-TION AND ASSEMBLY FOR DACOITY",
    "header": [
-    "ROBBERY",
-    "PREPARATION AND ASSEMRIY FOR DACOITY (11) 3)"
+    "PREPARA-TION AND ASSEMBLY FOR DACOITY"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "THEFT | TOTAL",
+   "header": [
+    "THEFT",
+    "TOTAL"
    ]
   },
   {
    "col_no": "15",
-   "name": "col_15",
-   "header": []
+   "name": "THEFT | AUTO THEFT",
+   "header": [
+    "THEFT",
+    "AUTO THEFT"
+   ]
   },
   {
    "col_no": "16",
-   "name": "OTHER",
+   "name": "THEFT | OTHER THEFT",
    "header": [
-    "OTHER"
+    "THEFT",
+    "OTHER THEFT"
    ]
   },
   {
    "col_no": "17",
-   "name": "col_17",
-   "header": []
+   "name": "RIOTS",
+   "header": [
+    "RIOTS"
+   ]
   },
   {
    "col_no": "18",
-   "name": "NAL BREACH OF TRUST",
+   "name": "CRIMINAL BREACH OF TRUST",
    "header": [
-    "NAL BREACH OF TRUST"
+    "CRIMINAL BREACH OF TRUST"
    ]
   },
   {
    "col_no": "19",
-   "name": "ING) TER) FEITING (19)",
+   "name": "CHEATING",
    "header": [
-    "ING) TER) FEITING"
+    "CHEATING"
    ]
   },
   {
    "col_no": "20",
-   "name": "ING) TER) FEITING (20)",
+   "name": "COUNTERFEITING",
    "header": [
-    "ING) TER) FEITING"
+    "COUNTERFEITING"
    ]
   },
   {
    "col_no": "21",
-   "name": "ING) TER) FEITING (21)",
+   "name": "ARSON",
    "header": [
-    "ING) TER) FEITING"
+    "ARSON"
    ]
   },
   {
    "col_no": "22",
-   "name": "col_22",
-   "header": []
+   "name": "HURT",
+   "header": [
+    "HURT"
+   ]
   },
   {
    "col_no": "23",
-   "name": "DEATHS STA. HARASS LTY RTA. (23)",
+   "name": "DOWRY DEATHS",
    "header": [
-    "DEATHS STA. HARASS LTY RTA."
+    "DOWRY DEATHS"
    ]
   },
   {
    "col_no": "24",
-   "name": "DEATHS STA. HARASS LTY RTA. | TION",
+   "name": "MOLE-STA-TION",
    "header": [
-    "DEATHS STA. HARASS LTY RTA.",
-    "TION"
+    "MOLE-STA-TION"
    ]
   },
   {
    "col_no": "25",
-   "name": "DEATHS STA. HARASS LTY RTA. (25)",
+   "name": "SEXUAL HARASS-MENT",
    "header": [
-    "DEATHS STA. HARASS LTY RTA."
+    "SEXUAL HARASS-MENT"
    ]
   },
   {
    "col_no": "26",
-   "name": "DEATHS STA. HARASS LTY RTA. | HUSBAND RELA. TIVES",
+   "name": "CRUE-LTY BY HUS-BAND & RELA-TIVES",
    "header": [
-    "DEATHS STA. HARASS LTY RTA.",
-    "HUSBAND RELA. TIVES"
+    "CRUE-LTY BY HUS-BAND & RELA-TIVES"
    ]
   },
   {
    "col_no": "27",
-   "name": "DEATHS STA. HARASS LTY RTA. | TION OF GIRLS -",
+   "name": "IMPO-RTA-TION OF GIRLS",
    "header": [
-    "DEATHS STA. HARASS LTY RTA.",
-    "TION OF GIRLS -"
+    "IMPO-RTA-TION OF GIRLS"
    ]
   },
   {
    "col_no": "28",
-   "name": "col_28",
-   "header": []
+   "name": "OTHER IPC CRIMES",
+   "header": [
+    "OTHER IPC CRIMES"
+   ]
   },
   {
    "col_no": "29",
-   "name": "UNDER IPC",
+   "name": "TOTAL COG.CRIMES UNDER IPC",
    "header": [
-    "UNDER IPC"
+    "TOTAL COG.CRIMES UNDER IPC"
    ]
   }
  ],
@@ -210,7 +228,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

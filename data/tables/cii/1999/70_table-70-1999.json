@@ -8,51 +8,55 @@
  "serial": "70",
  "title": "Persons Arrested per Case Under IPC and SLL Crimes During (1995 to 1999)",
  "listing_title": "Persons Arrested per Case Under IPC and SLL Crimes During (1995 to 1999)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-70-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-70-1999.pdf",
  "source_sha256": "2cc83e474c3dfd20d466b70ea716491ac4aa63cb40f98af029df81705c29b3b9",
  "table_no": "70",
- "pdf_title": "",
- "row_label": "PEKSUNS",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 70",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 52,
+ "n_rows": 50,
  "n_cols": 5,
- "n_cells": 248,
+ "n_cells": 250,
  "columns": [
   {
-   "col_no": "2",
-   "name": "peK CASE UNDER IPC AND SLI. CRIMES (2)",
-   "header": [
-    "peK CASE UNDER IPC AND SLI. CRIMES"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "peK CASE UNDER IPC AND SLI. CRIMES (3)",
+   "name": "1995",
    "header": [
-    "peK CASE UNDER IPC AND SLI. CRIMES"
+    "1995"
    ]
   },
   {
    "col_no": "4",
-   "name": "peK CASE UNDER IPC AND SLI. CRIMES (4)",
+   "name": "1996",
    "header": [
-    "peK CASE UNDER IPC AND SLI. CRIMES"
+    "1996"
    ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "1997",
+   "header": [
+    "1997"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "1998",
+   "header": [
+    "1998"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1999",
+   "header": [
+    "1999"
+   ]
   }
  ],
  "notes": [],
@@ -63,7 +67,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

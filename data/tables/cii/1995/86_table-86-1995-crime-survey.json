@@ -8,13 +8,13 @@
  "serial": "86",
  "title": "Persons Killed or Injured under Police Firing During 1995 (Event-Wise)",
  "listing_title": "Persons Killed or Injured under Police Firing During 1995 (Event-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-86-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-86-1995-crime-survey.pdf",
  "source_sha256": "8747e0dae0392c1ad44049d2ef43c66e06c3b2add43b2ec390a4750c81a99e82",
  "table_no": "86",
- "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1995",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-86",
  "row_label": "SL. NO. / EVENT",
  "pages": [
   1
@@ -25,22 +25,26 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(EVENT-WISE) NO. OF OCCASIONS OF POLICE FIRING",
+   "name": "NO. OF OCCASIONS OF POLICE FIRING",
    "header": [
-    "(EVENT-WISE) NO. OF OCCASIONS OF POLICE FIRING"
+    "NO. OF OCCASIONS OF POLICE FIRING"
    ]
   },
   {
    "col_no": "4",
-   "name": "CIVILIANS KILLED",
+   "name": "CIVILIANS | KILLED",
    "header": [
-    "CIVILIANS KILLED"
+    "CIVILIANS",
+    "KILLED"
    ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "CIVILIANS | INJURED",
+   "header": [
+    "CIVILIANS",
+    "INJURED"
+   ]
   },
   {
    "col_no": "6",
@@ -59,15 +63,13 @@
    ]
   }
  ],
- "notes": [
-  "1656 NCRB/97—424"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

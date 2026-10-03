@@ -6,64 +6,63 @@
  "topic": "",
  "section": "Crime in India 1995",
  "serial": "5",
- "title": "Rural/Urban Classification of Police Stations",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 Organisational Set-up of Police in States & UTs as on 1.1.96",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653989935_EXCERPTS.pdf",
  "source_file": "raw/cii/1995/year_wise/1653989935_EXCERPTS.pdf",
  "source_sha256": "bf234d43c68165c0291091bd62edb8c3c14d495538750da7de4995f30503f15c",
  "table_no": "",
- "pdf_title": "Rural/Urban Classification of Police Stations",
- "row_label": "(State & UT-wise) Sl. No. / (State & UT-wise) State/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 Organisational Set-up of Police in States & UTs as on 1.1.96",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
-  12
+  11
  ],
  "n_rows": 35,
- "n_cols": 4,
- "n_cells": 140,
+ "n_cols": 5,
+ "n_cells": 175,
  "columns": [
   {
    "col_no": "3",
-   "name": "(State & UT-wise) | Rural G)",
+   "name": "Range",
    "header": [
-    "(State & UT-wise)",
-    "Rural G)"
+    "Range"
    ]
   },
   {
    "col_no": "4",
-   "name": "(State & UT-wise) | Urban",
+   "name": "Distt.",
    "header": [
-    "(State & UT-wise)",
-    "Urban"
+    "Distt."
    ]
   },
   {
    "col_no": "5",
-   "name": "(State & UT-wise) | % of Urban Police Stations",
+   "name": "Sub-Div.",
    "header": [
-    "(State & UT-wise)",
-    "% of Urban Police Stations"
+    "Sub-Div."
    ]
   },
   {
    "col_no": "6",
-   "name": "(State & UT-wise) | Total -",
+   "name": "Circle",
    "header": [
-    "(State & UT-wise)",
-    "Total -"
+    "Circle"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Police Station",
+   "header": [
+    "Police Station"
    ]
   }
  ],
- "notes": [
-  "Source: ‘Data on Police Organisations in India’ - Bureau of Police Research & Development.",
-  "Note: N.A. indicates Rural/Urban classification not available.",
-  "1B"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 5,
+  "cells_checked": 14,
+  "cells_passed": 14,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

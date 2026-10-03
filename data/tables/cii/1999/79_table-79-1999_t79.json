@@ -6,93 +6,89 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "79",
- "title": "DEATHS IN POLICE CUSTODY/LOCKUP DURING 1999 (OF PERSONS REMANDED TO POLICE CUSTUDY BY COURT)",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 79",
  "listing_title": "Deaths In Police Custody/Lockup During 1999 (Of Persons Remanded To Police Custody By Court)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-79-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-79-1999.pdf",
  "source_sha256": "e659b9a3467bc9e171969b0ef424f27aa849a016bdab1a9c6df697fde25dae62",
  "table_no": "79",
- "pdf_title": "DEATHS IN POLICE CUSTODY/LOCKUP DURING 1999 (OF PERSONS REMANDED TO POLICE CUSTUDY BY COURT)",
- "row_label": "SL. NO. a) STATES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 79",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 7,
- "n_cells": 187,
+ "n_cells": 245,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE/UT (2)",
-   "header": [
-    "STATE/UT (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "NUMBER OF | AUTOPSY MAGISTFRIAI. JUDICIAL | CUNDUUCTED 3)",
+   "name": "NUMBER OF | DEATH REPORTED",
    "header": [
     "NUMBER OF",
-    "AUTOPSY MAGISTFRIAI. JUDICIAL",
-    "CUNDUUCTED 3)"
+    "DEATH REPORTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER OF | AUTOPSY MAGISTFRIAI. JUDICIAL | ENQUIRY (4)",
+   "name": "NUMBER OF | AUTOPSY CONDUCTED",
    "header": [
     "NUMBER OF",
-    "AUTOPSY MAGISTFRIAI. JUDICIAL",
-    "ENQUIRY (4)"
+    "AUTOPSY CONDUCTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER OF | ENQUIRY CUNDUCIED CONDUCTED (s)",
+   "name": "NUMBER OF | MAGISTERIAL ENQUIRY ORDERED/ CONDUCTED",
    "header": [
     "NUMBER OF",
-    "ENQUIRY CUNDUCIED CONDUCTED (s)"
+    "MAGISTERIAL ENQUIRY ORDERED/ CONDUCTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER OF | CASES REGD. POLICE-M=N | 6)",
+   "name": "NUMBER OF | JUDICIAL ENQUIRY ORDERED/ CONDUCTED",
    "header": [
     "NUMBER OF",
-    "CASES REGD. POLICE-M=N",
-    "6)"
+    "JUDICIAL ENQUIRY ORDERED/ CONDUCTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "NUMBER OF | CASES REGD. POLICE-M=N | INCONNECCHARGE- CONVICTED TIONWITH SHEETED DEATHS m",
+   "name": "NUMBER OF | CASES REGD. IN CONNECTION WITH DEATHS",
    "header": [
     "NUMBER OF",
-    "CASES REGD. POLICE-M=N",
-    "INCONNECCHARGE- CONVICTED TIONWITH SHEETED DEATHS m"
+    "CASES REGD. IN CONNECTION WITH DEATHS"
    ]
   },
   {
    "col_no": "8",
-   "name": "s0e-MEN +8) (9)",
+   "name": "NUMBER OF | POLICE-MEN CHARGE-SHEETED",
    "header": [
-    "s0e-MEN +8) (9)"
+    "NUMBER OF",
+    "POLICE-MEN CHARGE-SHEETED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NUMBER OF | POLICE-MEN CONVICTED",
+   "header": [
+    "NUMBER OF",
+    "POLICE-MEN CONVICTED"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
-  "failures": [
-   "col 2 'TOTAL (UTs)': printed 0, sum 23"
-  ],
+  "cells_checked": 21,
+  "cells_passed": 21,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

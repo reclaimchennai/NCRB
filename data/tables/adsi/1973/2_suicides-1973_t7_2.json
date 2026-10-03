@@ -1,0 +1,105 @@
+{
+ "table_id": "adsi/1973/2_suicides-1973_t7_2",
+ "publication": "adsi",
+ "year": 1973,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1973",
+ "serial": "2",
+ "title": "25 was almost of the same magnitude although there was a decrease for male involvement in Union territories and metropolitan cities in comparison to all India average. The detailed statistics are presented in Table 7. TABLE 7",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1973.pdf",
+ "source_file": "raw/adsi/1973/year_wise/suicides-1973.pdf",
+ "source_sha256": "91605f351a48828127de6d1af2a4deacb109bb840b177d3bb31de3bd18cea036",
+ "table_no": "7",
+ "pdf_title": "25 was almost of the same magnitude although there was a decrease for male involvement in Union territories and metropolitan cities in comparison to all India average. The detailed statistics are presented in Table 7. TABLE 7",
+ "row_label": "1. 2. 3. 4. 5. 6. / Andhra Pradesh Assam Bihar Gujarat Haryana Himachal Pradesh",
+ "pages": [
+  11,
+  11,
+  11,
+  11,
+  11
+ ],
+ "n_rows": 7,
+ "n_cols": 5,
+ "n_cells": 35,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "1939 | 975 | 761 | 820 | 478 | 56",
+   "header": [
+    "1939",
+    "975",
+    "761",
+    "820",
+    "478",
+    "56"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "57·3 | 65·7 | 58·7 | 53·3 | 65·7 | 64·4",
+   "header": [
+    "57·3",
+    "65·7",
+    "58·7",
+    "53·3",
+    "65·7",
+    "64·4"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1447 | 508 | 535 | 720 | 249 | 31",
+   "header": [
+    "1447",
+    "508",
+    "535",
+    "720",
+    "249",
+    "31"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "42·7 | 34·3 | 41·3 | 46·7 | 34·3 | 35·6",
+   "header": [
+    "42·7",
+    "34·3",
+    "41·3",
+    "46·7",
+    "34·3",
+    "35·6"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "3386 | 1483 | 1296 | 1540 | 727 | 87",
+   "header": [
+    "3386",
+    "1483",
+    "1296",
+    "1540",
+    "727",
+    "87"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 24889, sum 35",
+   "col 7 'TOTAL (STATES)': printed 40241, sum 45"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 5,
+ "warnings": []
+}

@@ -6,86 +6,75 @@
  "topic": "",
  "section": "Crime in India 1953",
  "serial": "3",
- "title": "APPENDIX V",
+ "title": "13 APPENDIX V ROBBERY",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686379941APPENDIX-ALL-TOTALCONGNIZABLECRIME.pdf",
  "source_file": "raw/cii/1953/year_wise/1686379941APPENDIX-ALL-TOTALCONGNIZABLECRIME.pdf",
  "source_sha256": "013e8bc42920c426bf04d5e904a477084a08b3958ded581eb760385afebd25a6",
  "table_no": "",
- "pdf_title": "APPENDIX V",
- "row_label": "RORRERY tate No. Part ‘A’ States",
+ "pdf_title": "13 APPENDIX V ROBBERY",
+ "row_label": "Sl. No. / State",
  "pages": [
   5
  ],
- "n_rows": 31,
+ "n_rows": 32,
  "n_cols": 6,
- "n_cells": 170,
+ "n_cells": 192,
  "columns": [
   {
-   "col_no": "2",
-   "name": "RORRERY | i from previous year",
-   "header": [
-    "RORRERY",
-    "i from previous year"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "RORRERY | Number reported in the year",
+   "name": "Number pending from previous year",
    "header": [
-    "RORRERY",
-    "Number reported in the year"
+    "Number pending from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "RORRERY | Convicted Dischar-",
+   "name": "Number reported in the year",
    "header": [
-    "RORRERY",
-    "Convicted Dischar-"
+    "Number reported in the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "RORRERY | Convicted Dischar- | ged or acquitted",
+   "name": "Convicted",
    "header": [
-    "RORRERY",
-    "Convicted Dischar-",
-    "ged or acquitted"
+    "Convicted"
    ]
   },
   {
    "col_no": "6",
-   "name": "RORRERY | Not Incidence | ect or apprehended",
+   "name": "Discharged or acquitted",
    "header": [
-    "RORRERY",
-    "Not Incidence",
-    "ect or apprehended"
+    "Discharged or acquitted"
    ]
   },
   {
    "col_no": "7",
-   "name": "RORRERY | Not Incidence | ° ee repo! per 1,00,000 nonulation",
+   "name": "Not detected or apprehended",
    "header": [
-    "RORRERY",
-    "Not Incidence",
-    "° ee repo! per 1,00,000 nonulation"
+    "Not detected or apprehended"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Incidence of crime reported per 1,000,000 population",
+   "header": [
+    "Incidence of crime reported per 1,000,000 population"
    ]
   }
  ],
- "notes": [
-  "*Figures are not for calendar year."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 0
+  "other_totals_checked": 18,
+  "other_totals_passed": 18
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

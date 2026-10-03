@@ -8,82 +8,68 @@
  "serial": "48",
  "title": "Juveniles Apprehended Under IPC & SLL Crimes by Age Groups (1986-96)",
  "listing_title": "Juveniles Apprehended Under IPC & SLL Crimes by Age Groups (1986-96)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48--juveniles-apprehended-under-ipc-and-sll-crimes-by-age-group-(1986-96)-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-48--juveniles-apprehended-under-ipc-and-sll-crimes-by-age-group-(1986-96)-1996.pdf",
  "source_sha256": "2702e7ecb793475b4983337583e3d3aa6ea29940b9567baefd4d703564266950",
  "table_no": "48",
- "pdf_title": "",
- "row_label": "JUVENILES SL. NO. / JUVENILES YEAR",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-48",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
  "n_rows": 13,
- "n_cols": 9,
- "n_cells": 100,
+ "n_cols": 8,
+ "n_cells": 95,
  "columns": [
   {
-   "col_no": "3",
-   "name": "JUVENILES | 7-12 YEARS",
-   "header": [
-    "JUVENILES",
-    "7-12 YEARS"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "JUVENILES | PERCENTAGE TO TOTAL",
+   "name": "YEAR",
    "header": [
-    "JUVENILES",
-    "PERCENTAGE TO TOTAL"
+    "YEAR"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER 12-16 YEARS",
+   "name": "7-12 YEARS",
    "header": [
-    "UNDER 12-16 YEARS"
+    "7-12 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "IPC AND SLL CRIMES BY AGE GROUPS | (1986.96) PERCENTAGE To TOTAL",
+   "name": "PERCENTAGE TO TOTAL (6)",
    "header": [
-    "IPC AND SLL CRIMES BY AGE GROUPS",
-    "(1986.96) PERCENTAGE To TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "IPC AND SLL CRIMES BY AGE GROUPS | 16-18 YEARS",
+   "name": "12-16 YEARS",
    "header": [
-    "IPC AND SLL CRIMES BY AGE GROUPS",
-    "16-18 YEARS"
+    "12-16 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "IPC AND SLL CRIMES BY AGE GROUPS | PERCENTAGE TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL (8)",
    "header": [
-    "IPC AND SLL CRIMES BY AGE GROUPS",
     "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "IPC AND SLL CRIMES BY AGE GROUPS | 18-21 YEARS",
+   "name": "16-18 YEARS",
    "header": [
-    "IPC AND SLL CRIMES BY AGE GROUPS",
-    "18-21 YEARS"
+    "16-18 YEARS"
    ]
   },
   {
    "col_no": "10",
-   "name": "IPC AND SLL CRIMES BY AGE GROUPS | PERCENTAGE To TOTAL",
+   "name": "PERCENTAGE TO TOTAL (10)",
    "header": [
-    "IPC AND SLL CRIMES BY AGE GROUPS",
-    "PERCENTAGE To TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
@@ -94,17 +80,7 @@
    ]
   }
  ],
- "notes": [
-  "CHANGE IN i",
-  "1996 H",
-  "OVER 1995",
-  "Note: 1. 7-12 years means 7 years and above but below 12 years",
-  "2. In 1988 and onwards as per new definition of juveniles",
-  "16-18 years age group contains only girls and 18-21 years age group",
-  "is not at all considered as juveniles. For 16-18 years age",
-  "group, percentage change in 1996 over 1986 is not worked",
-  "out due to Of data."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

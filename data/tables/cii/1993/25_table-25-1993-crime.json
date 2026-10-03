@@ -8,14 +8,14 @@
  "serial": "25",
  "title": "Persons Arrested under IPC Crimes During 1993 and Percentage Variation in 1993 over 1992 (Crime-Head Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1993 and Percentage Variation in 1993 over 1992 (Crime-Head Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-25-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-25-1993-crime.pdf",
  "source_sha256": "3d67da7905eae2459b1e22432d90fc88d266a2b1c4e3b8f71638af5c14d5cf7e",
  "table_no": "25",
- "pdf_title": "PERSONS ARRESTED UNDER IPC CRIMES DURING 1993 AND PERCENTAGE VARIATION IN 1993 OVER 1992",
- "row_label": "",
+ "pdf_title": "152 TABLE-25 PERSONS ARRESTED UNDER IPC CRIMES DURING 1993 AND PERCENTAGE VARIATION IN 1993 OVER 1992 (CRIME-HEAD WISE)",
+ "row_label": "SL. NO / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,25 +25,31 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(CRIME-HEAD WISE)",
+   "name": "1992",
    "header": [
-    "(CRIME-HEAD WISE)"
+    "1992"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "1993",
+   "header": [
+    "1993"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "PERCENTAGE VARIATION IN 1993 OVER 1992",
+   "header": [
+    "PERCENTAGE VARIATION IN 1993 OVER 1992"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "PERCENTAGE SHARE OF CRIME DURING 1993",
+   "header": [
+    "PERCENTAGE SHARE OF CRIME DURING 1993"
+   ]
   }
  ],
  "notes": [],

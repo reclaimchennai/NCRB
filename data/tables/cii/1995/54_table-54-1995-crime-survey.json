@@ -8,91 +8,88 @@
  "serial": "54",
  "title": "Disposal of Juveniles Arrested (under IPC and SLL Crimes) and Sent to Courts During 1995 (State, UT & City-Wise)",
  "listing_title": "Disposal of Juveniles Arrested (under IPC and SLL Crimes) and Sent to Courts During 1995 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-54-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-54-1995-crime-survey.pdf",
  "source_sha256": "8bb1d30c0cdad6d08c17ed920cd033a280da6d45b8e7bed4f1bc651be5e898b8",
  "table_no": "54",
- "pdf_title": "DISPOSAL OF JUVENILES ARRESTED (UNDER IPC AND SLL CRIMES) AND SENT TO COURTS",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-54",
  "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 41,
+ "n_rows": 58,
  "n_cols": 8,
- "n_cells": 90,
+ "n_cells": 464,
  "columns": [
   {
    "col_no": "3",
-   "name": "ARRESTED & SENT TO",
+   "name": "ARRESTED & SENT TO COURTS",
    "header": [
-    "ARRESTED & SENT TO"
+    "ARRESTED & SENT TO COURTS"
    ]
   },
   {
    "col_no": "4",
-   "name": "DURING | (STATE,UT & CITY-WISE) SENT TO HOME OR ADMONITION",
+   "name": "SENT TO HOME AFTER ADVICE OR ADM-ONITION",
    "header": [
-    "DURING",
-    "(STATE,UT & CITY-WISE) SENT TO HOME OR ADMONITION"
+    "SENT TO HOME AFTER ADVICE OR ADM-ONITION"
    ]
   },
   {
    "col_no": "5",
-   "name": "DURING | RELEASED ON PARENTS/ GUARDIANS",
+   "name": "RELEASED ON PROBATION AND PLACED UNDER CARE OF | PARENTS/ GUARDIANS",
    "header": [
-    "DURING",
-    "RELEASED ON PARENTS/ GUARDIANS"
+    "RELEASED ON PROBATION AND PLACED UNDER CARE OF",
+    "PARENTS/ GUARDIANS"
    ]
   },
   {
    "col_no": "6",
-   "name": "1995 PROBATION AND PLACED UNDER CARE OF FIT INSTT.",
+   "name": "RELEASED ON PROBATION AND PLACED UNDER CARE OF | FIT INSTT.",
    "header": [
-    "1995 PROBATION AND PLACED UNDER CARE OF FIT INSTT."
+    "RELEASED ON PROBATION AND PLACED UNDER CARE OF",
+    "FIT INSTT."
    ]
   },
   {
    "col_no": "7",
-   "name": "ACQUITTED | SENT TO SPECIAL HOMES",
+   "name": "SENT TO SPECIAL HOMES",
    "header": [
-    "ACQUITTED",
     "SENT TO SPECIAL HOMES"
    ]
   },
   {
    "col_no": "8",
-   "name": "ACQUITTED | DEALT WITH FINE",
+   "name": "DEALT WITH FINE",
    "header": [
-    "ACQUITTED",
     "DEALT WITH FINE"
    ]
   },
   {
    "col_no": "9",
-   "name": "ACQUITTED | OR OTHERDISPOSED OF",
+   "name": "ACQUITTED OR OTHER-WISE DISPOSED OF",
    "header": [
-    "ACQUITTED",
-    "OR OTHERDISPOSED OF"
+    "ACQUITTED OR OTHER-WISE DISPOSED OF"
    ]
   },
   {
    "col_no": "10",
-   "name": "ACQUITTED | PENDING DISPOSAL",
+   "name": "PENDING DISPO-SAL",
    "header": [
-    "ACQUITTED",
-    "PENDING DISPOSAL"
+    "PENDING DISPO-SAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 0,
+  "cells_checked": 24,
+  "cells_passed": 21,
   "failures": [
-   "col 3 'TOTAL (STATES) ÜNION TERRITORIES:': printed 18383, sum 17351",
-   "col 3 'PONDICHERRY \"TOTAL (UTS)': printed 410, sum 383"
+   "col 3 'TOTAL (STATES)': printed 18383, sum 18403",
+   "col 7 'TOTAL (STATES)': printed 1030, sum 1029",
+   "col 9 'TOTAL (STATES)': printed 1699, sum 1698"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -8,14 +8,14 @@
  "serial": "17",
  "title": "Disposal of LSL Crime Cases by Police During 1988",
  "listing_title": "Disposal of LSL Crime Cases by Police During 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-17-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-17-1988-2.pdf",
  "source_sha256": "c51fc8a511de5dd7d81b53ecf07e29cd560ace4eccbafd62c0c821f3e238dfc3",
  "table_no": "17",
- "pdf_title": "DISPOSAL OF LSL CRIME CASES BY POLICE DURING 1988",
- "row_label": "CRIME SL. NO. (1)",
+ "pdf_title": "79 TABLE-17 DISPOSAL OF LSL CRIME CASES BY POLICE DURING 1988",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -24,52 +24,57 @@
  "n_cells": 119,
  "columns": [
   {
-   "col_no": "2",
-   "name": "HEAD OF FOR STIGATION INCIIMING PENDING CASES (2)",
-   "header": [
-    "HEAD OF FOR STIGATION INCIIMING PENDING CASES (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "TOTAL CASES INVSETIINVEGATION - WAS (3)",
+   "name": "TOTAL NO.OF CASES FOR INVE-STIGATION INCLUDING PENDING CASES",
    "header": [
-    "TOTAL CASES INVSETIINVEGATION - WAS (3)"
+    "TOTAL NO.OF CASES FOR INVE-STIGATION INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "NO. CHARGE FOUND FALSE/ MISTAKE LAW OF ETC. (4)",
+   "name": "NO. OF CASES IN WHICH | INVSETI-GATION WAS REFUSED",
    "header": [
-    "NO. CHARGE FOUND FALSE/ MISTAKE LAW OF ETC. (4)"
+    "NO. OF CASES IN WHICH",
+    "INVSETI-GATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. INVESTIGATION FINAL REPORT TRUE SUBMITTED (5)",
+   "name": "NO. OF CASES IN WHICH | CHARGE FOUND FALSE/MISTAKE OF LAW ETC.",
    "header": [
-    "NO. INVESTIGATION FINAL REPORT TRUE SUBMITTED (5)"
+    "NO. OF CASES IN WHICH",
+    "CHARGE FOUND FALSE/MISTAKE OF LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "WHICH OF WAS CHARGE SHEETS WERE LAID (6)",
+   "name": "NO. OF CASES IN WHICH | FINAL REPORT TRUE SUBMI-TTED",
    "header": [
-    "WHICH OF WAS CHARGE SHEETS WERE LAID (6)"
+    "NO. OF CASES IN WHICH",
+    "FINAL REPORT TRUE SUBMI-TTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "CASES --------------------------------------------+ TOTAL [(5)+(6) +(7)} (7)",
+   "name": "NO. OF CASES IN WHICH | CHARGE SHEETS WERE LAID",
    "header": [
-    "CASES --------------------------------------------+ TOTAL [(5)+(6) +(7)} (7)"
+    "NO. OF CASES IN WHICH",
+    "CHARGE SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "8",
-   "name": "NO. OF IN CASES PENDING INVESTIGATION (8) (2)",
+   "name": "NO. OF CASES IN WHICH | TOTAL {(5)+(6)+(7)}",
    "header": [
-    "NO. OF IN CASES PENDING INVESTIGATION (8) (2)"
+    "NO. OF CASES IN WHICH",
+    "TOTAL {(5)+(6)+(7)}"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF CASES PENDING INVESTI-GATION",
+   "header": [
+    "NO. OF CASES PENDING INVESTI-GATION"
    ]
   }
  ],
@@ -81,7 +86,7 @@
   "other_totals_checked": 7,
   "other_totals_passed": 7
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

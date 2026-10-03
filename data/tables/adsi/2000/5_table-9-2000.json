@@ -8,29 +8,29 @@
  "serial": "5",
  "title": "Incidence of Road Accidents during various Quarters of 2000 (State, UT & City-wise)",
  "listing_title": "Incidence of Road Accidents during various Quarters of 2000 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-9_2000.pdf",
  "source_file": "raw/adsi/2000/table_content/table-9_2000.pdf",
  "source_sha256": "cbe566ae94efe11fd3ddeeaae5d66791b953c60f28e739d1f0a05434c2acf06e",
  "table_no": "9",
- "pdf_title": "Incidence of Road Accidents During Various Quarters of 2000 (State, UT & City-wise)",
- "row_label": "hon / State/UT",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 2000 N.C.R.B., (M.H.A.) TABLE-9",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 233,
+ "n_rows": 211,
  "n_cols": 10,
- "n_cells": 2243,
+ "n_cells": 2110,
  "columns": [
   {
    "col_no": "3",
-   "name": "Ist Qtr.",
+   "name": "1st Qtr.",
    "header": [
-    "Ist Qtr."
+    "1st Qtr."
    ]
   },
   {
@@ -42,9 +42,9 @@
   },
   {
    "col_no": "5",
-   "name": "lind Qtr.",
+   "name": "llnd Qtr. (5)",
    "header": [
-    "lind Qtr."
+    "llnd Qtr."
    ]
   },
   {
@@ -56,9 +56,9 @@
   },
   {
    "col_no": "7",
-   "name": "Mird Qtr.",
+   "name": "llnd Qtr. (7)",
    "header": [
-    "Mird Qtr."
+    "llnd Qtr."
    ]
   },
   {
@@ -70,9 +70,9 @@
   },
   {
    "col_no": "9",
-   "name": "Qtr.",
+   "name": "IVth Qtr.",
    "header": [
-    "Qtr."
+    "IVth Qtr."
    ]
   },
   {
@@ -97,24 +97,22 @@
    ]
   }
  ],
- "notes": [
-  "‘114 NCRB/O3-8A"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 40,
-  "cells_passed": 27,
+  "cells_checked": 80,
+  "cells_passed": 64,
   "failures": [
-   "col 3 'TOTAL (All-India)': printed 360, sum 166287",
-   "col 3 'TOTAL (Cities)': printed 213, sum 4507",
-   "col 3 '- TOTAL (States)': printed 78164, sum 78174",
-   "col 3 'TOTAL (All-India)': printed 81242, sum 85763",
-   "col 3 'TOTAL (Cities)': printed 12978, sum 13008",
-   "col 5 'TOTAL (All-India)': printed 365, sum 173778",
-   "col 5 'TOTAL (All-India)': printed 85249, sum 90262",
-   "col 7 'TOTAL (States)': printed 71082, sum 71081"
+   "col 3 'Total (All-India)': printed 360, sum 13111",
+   "col 3 'Total (All-India)': printed 4294, sum 4308",
+   "col 3 'Total (All-India)': printed 81242, sum 81455",
+   "col 5 'Total (All-India)': printed 365, sum 13556",
+   "col 5 'Total (All-India)': printed 4773, sum 4783",
+   "col 5 'Total (All-India)': printed 85249, sum 85479",
+   "col 7 'Total (States)': printed 71082, sum 71073",
+   "col 7 'Total (All-India)': printed 316, sum 13405"
   ],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 4,

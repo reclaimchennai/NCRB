@@ -8,14 +8,14 @@
  "serial": "18",
  "title": "Percentage of L&SL Crime Cases Disposed of by Police During 1993",
  "listing_title": "Percentage of L&SL Crime Cases Disposed of by Police During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-18-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-18-1993-crime.pdf",
  "source_sha256": "54493b9eddad8381d16f90118f6a6227c3edd90603fef6a91f34088ddbb9690d",
  "table_no": "18",
- "pdf_title": "",
- "row_label": "",
+ "pdf_title": "142 TABLE-18 PERCENTAGE OF L&SL CASES DISPOSED OF BY POLICE DURING 1993",
+ "row_label": "SL NO. / CHIME HEADS",
  "pages": [
   1
  ],
@@ -25,33 +25,54 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS REFUSED"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMITTED"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERE LAID"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL (4) + (6) + (10)",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL (4) + (6) + (10)"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "PERCENTAGE OF CASES PERIOD INVESTIGATION",
+   "header": [
+    "PERCENTAGE OF CASES PERIOD INVESTIGATION"
+   ]
   }
  ],
  "notes": [],

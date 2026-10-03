@@ -8,14 +8,14 @@
  "serial": "74",
  "title": "Persons Arrested under Different SLL Crimes During 1994 and Percentage Variation in 1994 over 1993 (Crime-Head Wise)",
  "listing_title": "Persons Arrested under Different SLL Crimes During 1994 and Percentage Variation in 1994 over 1993 (Crime-Head Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table29-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table29-1994_2.pdf",
  "source_sha256": "5bad1f74cbebdbd2e3a30f21e3904b1783b393cd482c483297fa7ad001cb6b8a",
  "table_no": "29",
- "pdf_title": "",
- "row_label": "PERSONS SL. CRIME HEAD NO. a)",
+ "pdf_title": "TABLE-29 PERSONS ARRESTED UNDER DIFFERENT SLL CRIMES DURING 1994 AND PERCENTAGE VARIATION IN 1994 OVER 1993 (CRIME-HEAD WISE)",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,42 +25,40 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "ANKES AND PERUENTAGE VARIATION IN (CRIME-HEAD WISE) 1993",
+   "name": "1993",
    "header": [
-    "ANKES AND PERUENTAGE VARIATION IN (CRIME-HEAD WISE) 1993"
+    "1993"
    ]
   },
   {
    "col_no": "4",
-   "name": "5U UNDER Divi 1994 OVER 1994",
+   "name": "1994",
    "header": [
-    "5U UNDER Divi 1994 OVER 1994"
+    "1994"
    ]
   },
   {
    "col_no": "5",
-   "name": "SLL CRIMES DURING 1993 PERCENTAGE VARIATION IN 1994 OVER",
+   "name": "PERCENTAGE VARIATION IN 1994 OVER 1993",
    "header": [
-    "SLL CRIMES DURING 1993 PERCENTAGE VARIATION IN 1994 OVER"
+    "PERCENTAGE VARIATION IN 1994 OVER 1993"
    ]
   },
   {
    "col_no": "6",
-   "name": "1994 PERCENTAGE SHARE OF, CRIMES DURING 1994 *",
+   "name": "PERCENTAGE SHARE OF CRIME DURING 1994",
    "header": [
-    "1994 PERCENTAGE SHARE OF, CRIMES DURING 1994 *"
+    "PERCENTAGE SHARE OF CRIME DURING 1994"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage share less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -8,66 +8,104 @@
  "serial": "59",
  "title": "Actual Police Strength During 1974",
  "listing_title": "Actual Police Strength During 1974",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-60-1974_0.pdf",
  "source_sha256": "5c12a3588246611e84a3ae1d7681fce0ff16a96018ec4aee0540f1103999fb85",
- "table_no": "",
- "pdf_title": "Fll",
- "row_label": "Sl, 2 “4. 3, 3, Bihar. 4, Gujstat - 3.Hoym. 9. igre 9, Kerala. Brgdech 10, MM, 17 Maniner 14, S5,Qrsm 16, - Jf. 4g. 9.Tedpum 20, 7 / ¢2 i i 7323 PFIE7G 195564 4 44005 $4673 DG » ‘ + i - A + - ‘ ‘ ». 4",
+ "table_no": "60",
+ "pdf_title": "111 TABLE 60 Actual Police Strength during 1974",
+ "row_label": "Sl. No. / States/U.Ts.",
  "pages": [
   1
  ],
- "n_rows": 9,
- "n_cols": 4,
- "n_cells": 30,
+ "n_rows": 33,
+ "n_cols": 10,
+ "n_cells": 330,
  "columns": [
   {
    "col_no": "3",
-   "name": "ea 4 07h 823s8 pert] 16537 - S062 ae 0, 1OAr? i a",
+   "name": "Area in Sq. Kilometre",
    "header": [
-    "ea 4 07h 823s8 pert] 16537 - S062 ae 0, 1OAr? i a"
+    "Area in Sq. Kilometre"
    ]
   },
   {
    "col_no": "4",
-   "name": "Bao | crime under 5 $860] 46292 160g 399 101100 2815 BEL rs) 1077S 36 4927 a6 3255 22080 43124 446) TGR 540040 aga 149 280 1 ‘1082 Bl DAS 14403 berry 183 93258 mo06UMO",
+   "name": "Estimated mid-year population in '000'",
    "header": [
-    "Bao",
-    "crime under 5 $860] 46292 160g 399 101100 2815 BEL rs) 1077S 36 4927 a6 3255 22080 43124 446) TGR 540040 aga 149 280 1 ‘1082 Bl DAS 14403 berry 183 93258 mo06UMO"
+    "Estimated mid-year population in '000'"
    ]
   },
   {
    "col_no": "5",
-   "name": "Bao | Actual 25==22.=!Tstien 6 1éagt 92 a3118 9378 ae03 6a 2S 1283 wis T2447 ana 180 OT aT 1268 19219 31102 2373 3045 244384",
+   "name": "Total Cigarette crime under I.P.C.",
    "header": [
-    "Bao",
-    "Actual 25==22.=!Tstien 6 1éagt 92 a3118 9378 ae03 6a 2S 1283 wis T2447 ana 180 OT aT 1268 19219 31102 2373 3045 244384"
+    "Total Cigarette crime under I.P.C."
    ]
   },
   {
    "col_no": "6",
-   "name": "No.of paseo LEC Police. Police et to per fa Total 10000 a 7 10 6©«@4 4 aI 0 NS al 66 230 2) $7 «0 4 1? 41662 e544 dd 21-3 407% N39 4658 4 1% 2271 WoO 14 13 Bt i641 12 #42 170 3910060 Ol 340 wis a6 - 50-7 $452 «664 42 1 6 nie ©6904 20 12? 2604 OS 604 Se 27 0d 3071 Tl 18 37-3 2009 Obs. Og 129-7 43-5 OO os 4629 6 6340 yy lO 17 634 24601 oy 5582 «49-2172 MIG It le Hea en) 82-7 TE os 250 7e0 C6 10S 4 MG 469 et 26 #4 20",
+   "name": "Actual Strength of Police | Civil",
    "header": [
-    "No.of paseo LEC Police. Police et to per fa Total 10000 a 7 10 6©«@4 4 aI 0 NS al 66 230 2) $7 «0 4 1? 41662 e544 dd 21-3 407% N39 4658 4 1% 2271 WoO 14 13 Bt i641 12 #42 170 3910060 Ol 340 wis a6 - 50-7 $452 «664 42 1 6 nie ©6904 20 12? 2604 OS 604 Se 27 0d 3071 Tl 18 37-3 2009 Obs. Og 129-7 43-5 OO os 4629 6 6340 yy lO 17 634 24601 oy 5582 «49-2172 MIG It le Hea en) 82-7 TE os 250 7e0 C6 10S 4 MG 469 et 26 #4 20"
+    "Actual Strength of Police",
+    "Civil"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Actual Strength of Police | Armed",
+   "header": [
+    "Actual Strength of Police",
+    "Armed"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Actual Strength of Police | Total",
+   "header": [
+    "Actual Strength of Police",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "No. of Police men per 100Sq. Km. Area",
+   "header": [
+    "No. of Police men per 100Sq. Km. Area"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "No. of Police men per 10000 of population",
+   "header": [
+    "No. of Police men per 10000 of population"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "No. of I.P.C. cases per civil police-man",
+   "header": [
+    "No. of I.P.C. cases per civil police-man"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "%age of Civil Police to Total Police",
+   "header": [
+    "%age of Civil Police to Total Police"
    ]
   }
  ],
- "notes": [
-  "Tasos by oF Jedi -",
-  "by in",
-  "@as 00 1-]-1966,",
-  "S$MBPRADTI——2s-12-7)—G1"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 10
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

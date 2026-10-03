@@ -8,118 +8,102 @@
  "serial": "14",
  "title": "Disposal of IPC Crime Cases by Police During 1995 (State & UT-Wise)",
  "listing_title": "Disposal of IPC Crime Cases by Police During 1995 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-14-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-14-1995-crime-survey.pdf",
  "source_sha256": "68ce1d1426f6f45dc497fef1ea66810e6c15dd70b9ed9385f217690d44471dc7",
  "table_no": "14",
- "pdf_title": "DISPOSAL OF IPC CRIME CASES BY POLICE DURING 1995",
- "row_label": "SL. STATE/UT NO.",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-14",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 10,
- "n_cells": 292,
+ "n_cells": 350,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | TOTAL NO. OF CASES TION ING PENDING CASES",
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
    "header": [
-    "(STATE & UT-WISE)",
-    "TOTAL NO. OF CASES TION ING PENDING CASES"
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | INVEST WAS REFUSED k",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "(STATE & UT-WISE)",
-    "INVEST WAS REFUSED k"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | NO. OF CASES IN WHICH | CHARGE FOUND FALSE) OF FACT OR OF LAW ETC.",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED (5)",
    "header": [
-    "(STATE & UT-WISE)",
     "NO. OF CASES IN WHICH",
-    "CHARGE FOUND FALSE) OF FACT OR OF LAW ETC."
+    "INVESTIGATION WAS COMPLETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | NO. OF CASES IN WHICH | FINAL REPORT TRUE TTED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED (6)",
    "header": [
-    "(STATE & UT-WISE)",
     "NO. OF CASES IN WHICH",
-    "FINAL REPORT TRUE TTED"
+    "INVESTIGATION WAS COMPLETED"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | WAS COMPLETED | CHARGE WERE LAID",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED (7)",
    "header": [
-    "(STATE & UT-WISE)",
-    "WAS COMPLETED",
-    "CHARGE WERE LAID"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | WAS COMPLETED | TOTAL {(5)+(6) +(7)}",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED (8)",
    "header": [
-    "(STATE & UT-WISE)",
-    "WAS COMPLETED",
-    "TOTAL {(5)+(6) +(7)}"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | NO.OF CASES PENDING",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
    "header": [
-    "(STATE & UT-WISE)",
-    "NO.OF CASES PENDING"
+    "NO. OF CASES PENDING INVESTIGATION"
    ]
   },
   {
    "col_no": "10",
-   "name": "PERCEN- | PENDENCY PERCENTAGE",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "PERCEN-",
     "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "11",
-   "name": "PERCEN- | PENDENCY TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "PERCEN-",
-    "PENDENCY TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "PERCEN- | CHARGE SHEETING RATE",
+   "name": "CHARGE SHEETING RATE",
    "header": [
-    "PERCEN-",
     "CHARGE SHEETING RATE"
    ]
   }
  ],
- "notes": [
-  "Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 0,
-  "failures": [
-   "col 3 ':TOTAL (UTs)': printed 79819, sum 3.99793e+06",
-   "col 6 ':TOTAL (UTs)': printed 11125, sum 753413",
-   "col 8 ':TOTAL (UTs)': printed 36432, sum 2.60837e+06",
-   "col 9 ':TOTAL (UTs)': printed 43371, sum 816512"
-  ],
+  "cells_checked": 21,
+  "cells_passed": 21,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

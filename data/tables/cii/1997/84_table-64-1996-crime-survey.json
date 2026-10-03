@@ -8,55 +8,54 @@
  "serial": "84",
  "title": "Persons Arrested Under IPC Crimes During 1997 and Percentage Variation in 1997 over 1996 (State, UT & City-Wise)",
  "listing_title": "Persons Arrested Under IPC Crimes During 1997 and Percentage Variation in 1997 over 1996 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-64-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-64-1996-crime-survey.pdf",
  "source_sha256": "f9b55e82228605456c35d7933703110a52507d851c81584fd2c6a7bad66aa535",
  "table_no": "64",
- "pdf_title": "",
- "row_label": "SL. NO. / PERSONS STATE/UT/CITY",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-64",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 61,
+ "n_rows": 58,
  "n_cols": 4,
- "n_cells": 235,
+ "n_cells": 232,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERSONS | PEHKUCENIAGE VARIATION IN (STATE, UT & CITY-WISE) 1996",
+   "name": "1996",
    "header": [
-    "PERSONS",
-    "PEHKUCENIAGE VARIATION IN (STATE, UT & CITY-WISE) 1996"
+    "1996"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER IPC CRIMES DURING 1997 OVER 1997",
+   "name": "1997",
    "header": [
-    "UNDER IPC CRIMES DURING 1997 OVER 1997"
+    "1997"
    ]
   },
   {
    "col_no": "5",
-   "name": "1997 AND 1996 PERCENTAGE VARIATION IN 1997 OVER TO ALL-INDIA",
+   "name": "PERCENTAGE VARIATION IN 1997 OVER 1996",
    "header": [
-    "1997 AND 1996 PERCENTAGE VARIATION IN 1997 OVER TO ALL-INDIA"
+    "PERCENTAGE VARIATION IN 1997 OVER 1996"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE CONTRIBUTION 1996 DURING",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING",
    "header": [
-    "PERCENTAGE CONTRIBUTION 1996 DURING"
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 3,
+  "cells_checked": 6,
+  "cells_passed": 6,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -8,49 +8,55 @@
  "serial": "11",
  "title": "Percentage Distribution of Cognizable Crimes (SLL) Under Different Crime Heads (1995-1999)",
  "listing_title": "Percentage Distribution of Cognizable Crimes (SLL) Under Different Crime Heads (1995-1999)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-11-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-11-1999.pdf",
  "source_sha256": "4d70db7695ba7786614f7ff938fe789fc8ddb4fd557d3b8e5c9add72ccfaff9e",
  "table_no": "11",
- "pdf_title": "PEKUENTAGE ™81e1807710N OF COGNIZARLE CRIMES (SLL)",
- "row_label": "UNDEK",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 11",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 27,
+ "n_rows": 23,
  "n_cols": 5,
- "n_cells": 123,
+ "n_cells": 115,
  "columns": [
   {
-   "col_no": "2",
-   "name": "CRIME",
-   "header": [
-    "CRIME"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "995-2909;",
+   "name": "1995",
    "header": [
-    "995-2909;"
+    "1995"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "1996",
+   "header": [
+    "1996"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "1997",
+   "header": [
+    "1997"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "1998",
+   "header": [
+    "1998"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1999",
+   "header": [
+    "1999"
+   ]
   }
  ],
  "notes": [],
@@ -61,7 +67,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

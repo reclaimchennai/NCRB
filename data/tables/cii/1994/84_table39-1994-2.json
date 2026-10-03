@@ -8,70 +8,71 @@
  "serial": "84",
  "title": "Disposal of Persons Arrested under SLL Crime by Police During 1994 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested under SLL Crime by Police During 1994 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table39-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table39-1994_2.pdf",
  "source_sha256": "b37f0d85859265a53f82e62f361040c370346275528f4bd7a169e758848357d8",
  "table_no": "39",
- "pdf_title": "",
- "row_label": "DISPOSAL OF PERSONS SL. NO. / DISPOSAL OF PERSONS STATE/UT / DISPOSAL OF PERSONS TOTAL NO. OF PERSONS annesT™ nicer ware FROM PREVIOUS YEAR",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-39",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 36,
- "n_cols": 5,
- "n_cells": 140,
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 210,
  "columns": [
   {
-   "col_no": "4",
-   "name": "UNDER SLL CRIMES BY POLICE DURING | DISPOSAL OF PERSONS | (STATE & UT-WISE) | PERSONS RELEASED BEFORE TRIAL",
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "UNDER SLL CRIMES BY POLICE DURING",
-    "DISPOSAL OF PERSONS",
-    "(STATE & UT-WISE)",
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF | PERSONS RELEASED BEFORE TRIAL",
+   "header": [
+    "NUMBER OF",
     "PERSONS RELEASED BEFORE TRIAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER SLL CRIMES BY POLICE DURING | DISPOSAL OF PERSONS | (STATE & UT-WISE) | NUMBER OF PERSONS CHARGESHEETED",
+   "name": "NUMBER OF | PERSONS CHARGE-SHEETED",
    "header": [
-    "UNDER SLL CRIMES BY POLICE DURING",
-    "DISPOSAL OF PERSONS",
-    "(STATE & UT-WISE)",
-    "NUMBER OF PERSONS CHARGESHEETED"
+    "NUMBER OF",
+    "PERSONS CHARGE-SHEETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER SLL CRIMES BY POLICE DURING | PERSONS UNDER INVESTIGATION AT THE",
+   "name": "NUMBER OF | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
    "header": [
-    "UNDER SLL CRIMES BY POLICE DURING",
-    "PERSONS UNDER INVESTIGATION AT THE"
+    "NUMBER OF",
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "UNDER SLL CRIMES BY POLICE DURING | PENDENCY - PERCENTAGE",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "UNDER SLL CRIMES BY POLICE DURING",
-    "PENDENCY - PERCENTAGE"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "8",
-   "name": "UNDER SLL CRIMES BY POLICE DURING | PERCENTAGE OF PENDENCY Kis.",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "UNDER SLL CRIMES BY POLICE DURING",
-    "PERCENTAGE OF PENDENCY Kis."
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

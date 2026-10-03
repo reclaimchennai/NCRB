@@ -6,109 +6,56 @@
  "topic": "",
  "section": "Crime in India 1954",
  "serial": "3",
- "title": "HOUSE",
+ "title": "-CASES Appendix III 17",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686381753APPENDICES.pdf",
  "source_file": "raw/cii/1954/year_wise/1686381753APPENDICES.pdf",
  "source_sha256": "3535c3fb7d9a13806b92abf252ebff9de93c31d36c237f38ff6c4a640aa329c5",
  "table_no": "",
- "pdf_title": "HOUSE",
- "row_label": "Serial State No.",
+ "pdf_title": "-CASES Appendix III 17",
+ "row_label": "Cases in which trial was completed",
  "pages": [
-  22,
-  24,
-  25
+  7
  ],
- "n_rows": 65,
- "n_cols": 12,
- "n_cells": 385,
+ "n_rows": 33,
+ "n_cols": 5,
+ "n_cells": 165,
  "columns": [
   {
    "col_no": "2",
-   "name": "Cases pending from last year",
+   "name": "Cases convicted",
    "header": [
-    "Cases pending from last year"
+    "Cases convicted"
    ]
   },
   {
    "col_no": "3",
-   "name": "Cases | Cases reported during the year",
+   "name": "Cases acquitted or discharged",
    "header": [
-    "Cases",
-    "Cases reported during the year"
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases | invesiigaied, declared false or mistake of fact or law, or non and pending invesugation OF trial",
+   "name": "Percentage of cases convicted to true cases investigated (Result of investigation)",
    "header": [
-    "Cases",
-    "invesiigaied, declared false or mistake of fact or law, or non and pending invesugation OF trial"
+    "Percentage of cases convicted to true cases investigated (Result of investigation)"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases not not detected",
+   "name": "Percentage of cases convicted to cases tried (Result of trial)",
    "header": [
-    "Cases not not detected"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Persons in custody or investigation or on bail at the eginning of the year",
-   "header": [
-    "Persons in custody or investigation or on bail at the eginning of the year"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Persons ar- - rested during the year",
-   "header": [
-    "Persons ar- - rested during the year"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "pons by re the Police or Magistrate before trial",
-   "header": [
-    "pons by re the Police or Magistrate before trial"
+    "Percentage of cases convicted to cases tried (Result of trial)"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number of persons in whose cases the trials Were",
+   "name": "Volume of crime",
    "header": [
-    "Number of persons in whose cases the trials Were"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Number of persons convicted",
-   "header": [
-    "Number of persons convicted"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Number of Persons acanitted or",
-   "header": [
-    "Number of Persons acanitted or"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Number of persons in custody or bail trial or inat of the the year",
-   "header": [
-    "Number of persons in custody or bail trial or inat of the the year"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Ferceniage of pending close",
-   "header": [
-    "Ferceniage of pending close"
+    "Volume of crime"
    ]
   }
  ],
@@ -117,12 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 9,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 3,
- "warnings": [
-  "page 25: 16 of 32 rows of the right-hand page could not be placed against the left-hand page"
- ]
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
 }

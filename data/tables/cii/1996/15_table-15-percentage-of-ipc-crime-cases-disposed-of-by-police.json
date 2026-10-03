@@ -8,45 +8,45 @@
  "serial": "15",
  "title": "Percentage of IPC Crime Cases Disposed of by Police During 1996",
  "listing_title": "Percentage of IPC Crime Cases Disposed of by Police During 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15--percentage-of-ipc-crime-cases-disposed-of-by-police-during-1996-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-15--percentage-of-ipc-crime-cases-disposed-of-by-police-during-1996-1996.pdf",
  "source_sha256": "cd960f4b5344e39baf2722a7061ff664dba93d671e357ea018a97a09bf78ba45",
  "table_no": "15",
- "pdf_title": "PERCENTAGE OF IPC CRIME CASES DiSPOSED OF BY POLICE DURING 1996",
- "row_label": "SL. CRIME HEAD NO.",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-15",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 25,
+ "n_rows": 24,
  "n_cols": 7,
  "n_cells": 168,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTI GATION WAS REFUSED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
     "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
-    "INVESTI GATION WAS REFUSED"
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "4",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC.",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC.",
    "header": [
     "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
     "INVESTIGATION WAS COMPLETED",
-    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC."
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC."
    ]
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE - SUBMITTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
     "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
     "INVESTIGATION WAS COMPLETED",
-    "FINAL REPORT TRUE - SUBMITTED"
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
@@ -60,30 +60,29 @@
   },
   {
    "col_no": "7",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | TOTAL ((4) +(5) +(6))",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL [(4) + (5) + (6)]",
    "header": [
     "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
-    "TOTAL ((4) +(5) +(6))"
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL [(4) + (5) + (6)]"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERCENTAGE OF CASES PENDING INVESTI- - GaTion",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION",
    "header": [
-    "PERCENTAGE OF CASES PENDING INVESTI- - GaTion"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION"
    ]
   },
   {
    "col_no": "9",
-   "name": "CHARGESHEETING RATE ((6)(5) + (6) X 100)",
+   "name": "CHARGE-SHEETING RATE [(6)/(5) + (6) X 100]",
    "header": [
-    "CHARGESHEETING RATE ((6)(5) + (6) X 100)"
+    "CHARGE-SHEETING RATE [(6)/(5) + (6) X 100]"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -8,42 +8,40 @@
  "serial": "29",
  "title": "Juveniles Apprehended (by Sex) for Committing Crime under IPC",
  "listing_title": "Juveniles Apprehended (by Sex) for Committing Crime under IPC",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-40-1975.pdf",
  "source_sha256": "587a414b556ba61274e4153b75aeea67256fd0ad314492735e121288a55b907b",
- "table_no": "",
- "pdf_title": "a0",
- "row_label": "Tania 40 ‘States/U.Ts/Cities No. 2. Haryana, 6 / Tania 40 2A (bp aes) ep * + - / Tania 40 2A (bp aes) ep * ‘ / Tania 40 * é / Tania 40 - ‘ *",
+ "table_no": "40",
+ "pdf_title": "90 TABLE 40 JUVENILES APPREHENDED (BY SEX) FOR COMMITTING CRIME UNDER IPC",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 32,
+ "n_rows": 43,
  "n_cols": 3,
- "n_cells": 81,
+ "n_cells": 129,
  "columns": [
   {
-   "col_no": "6",
-   "name": "Tania 40 | IPC Boys ba 1 *",
+   "col_no": "3",
+   "name": "States/U.Ts/Cities",
    "header": [
-    "Tania 40",
-    "IPC Boys ba 1 *"
+    "States/U.Ts/Cities"
    ]
   },
   {
-   "col_no": "7",
-   "name": "Tania 40 | Girls 110 ba O58 1 47",
+   "col_no": "4",
+   "name": "Boys",
    "header": [
-    "Tania 40",
-    "Girls 110 ba O58 1 47"
+    "Boys"
    ]
   },
   {
-   "col_no": "8",
-   "name": "2626 2516. 2 aT",
+   "col_no": "5",
+   "name": "Girls",
    "header": [
-    "2626 2516. 2 aT"
+    "Girls"
    ]
   }
  ],
@@ -52,10 +50,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 12
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

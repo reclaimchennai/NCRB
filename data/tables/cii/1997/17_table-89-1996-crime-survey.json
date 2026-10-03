@@ -8,123 +8,113 @@
  "serial": "17",
  "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1997 (Men + Women)",
  "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1997 (Men + Women)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-89-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-89-1996-crime-survey.pdf",
  "source_sha256": "16bf9a47b4ea846ec6c1c3e7c6a29cfea51db872fa464e729a3784486b086687",
  "table_no": "89",
- "pdf_title": "",
- "row_label": "$y (1)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-89",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 47,
+ "n_rows": 58,
  "n_cols": 10,
- "n_cells": 451,
+ "n_cells": 580,
  "columns": [
   {
-   "col_no": "2",
-   "name": "SANCTIONED AND ACTUAL | DG/IG/DIG/SP (2)",
-   "header": [
-    "SANCTIONED AND ACTUAL",
-    "DG/IG/DIG/SP (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "OF ARMED POLICE | SANCTIONED AND ACTUAL | AS ON 31.12.1997 (MEN | ACTUAL SANCTIONED (3)",
+   "name": "DG/IG/DIG/SP | SANC-TIONED",
    "header": [
-    "OF ARMED POLICE",
-    "SANCTIONED AND ACTUAL",
-    "AS ON 31.12.1997 (MEN",
-    "ACTUAL SANCTIONED (3)"
+    "DG/IG/DIG/SP",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF ARMED POLICE | SANCTIONED AND ACTUAL | AS ON 31.12.1997 (MEN | ASP & DSP (4)",
+   "name": "DG/IG/DIG/SP | ACTUAL",
    "header": [
-    "OF ARMED POLICE",
-    "SANCTIONED AND ACTUAL",
-    "AS ON 31.12.1997 (MEN",
-    "ASP & DSP (4)"
+    "DG/IG/DIG/SP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF ARMED POLICE | SANCTIONED AND ACTUAL | AS ON 31.12.1997 (MEN | SANCACTUAL TIONED (5)",
+   "name": "ASP & DSP | SANC-TIONED",
    "header": [
-    "OF ARMED POLICE",
-    "SANCTIONED AND ACTUAL",
-    "AS ON 31.12.1997 (MEN",
-    "SANCACTUAL TIONED (5)"
+    "ASP & DSP",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF ARMED POLICE | + WOMEN) SANCTIONED (6)",
+   "name": "ASP & DSP | ACTUAL",
    "header": [
-    "OF ARMED POLICE",
-    "+ WOMEN) SANCTIONED (6)"
+    "ASP & DSP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF ARMED POLICE | ACTUAL (7)",
+   "name": "INSPECTOR. SI & A.S.I. | SANC-TIONED",
    "header": [
-    "OF ARMED POLICE",
-    "ACTUAL (7)"
+    "INSPECTOR. SI & A.S.I.",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "8",
-   "name": "OF ARMED POLICE | SANCTIONED (8)",
+   "name": "INSPECTOR. SI & A.S.I. | ACTUAL",
    "header": [
-    "OF ARMED POLICE",
-    "SANCTIONED (8)"
+    "INSPECTOR. SI & A.S.I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "9",
-   "name": ", ACTUAL (9)",
+   "name": "OFFICERS BELOW A.S.I. | SANC-TIONED",
    "header": [
-    ", ACTUAL (9)"
+    "OFFICERS BELOW A.S.I.",
+    "SANC-TIONED"
    ]
   },
   {
    "col_no": "10",
-   "name": "ATL. | SANCTIONED (10)",
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
    "header": [
-    "ATL.",
-    "SANCTIONED (10)"
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "ATL. | ACTUAL (1) (12)",
+   "name": "CRAND TOTAL | SANC-TIONED",
    "header": [
-    "ATL.",
-    "ACTUAL (1) (12)"
+    "CRAND TOTAL",
+    "SANC-TIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "CRAND TOTAL | ACTUAL",
+   "header": [
+    "CRAND TOTAL",
+    "ACTUAL"
    ]
   }
  ],
- "notes": [
-  "55 VISHAKHAPATNAM fe] 0 ie} ie) fe] 0",
-  "Nc te: Though ‘Actual’ police strength is more than police strength for some ranks of Armed Police in soine combined ‘Actual’",
-  "strength of Civil and Armed Police for those ranks does not exceed combined strength them."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 23,
-  "cells_passed": 21,
+  "cells_checked": 30,
+  "cells_passed": 29,
   "failures": [
-   "col 2 'TOTAL (STATES)': printed 587, sum 577",
-   "col 7 'TOTAL (STATES)': printed 13326, sum 20826"
+   "col 7 'TOTAL (STATES)': printed 15612, sum 15607"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

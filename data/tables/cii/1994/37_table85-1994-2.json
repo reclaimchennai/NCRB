@@ -1,0 +1,81 @@
+{
+ "table_id": "cii/1994/37_table85-1994-2",
+ "publication": "cii",
+ "year": 1994,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "37",
+ "title": "Persons Killed or Injured under Police Firing During 1994 (State, UT & City-Wise)",
+ "listing_title": "Persons Killed or Injured under Police Firing During 1994 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table85-1994_2.pdf",
+ "source_file": "raw/cii/1994/table_content/table85-1994_2.pdf",
+ "source_sha256": "9676ccb761465404701028516d09810221facd8661c205278432c289a89c9fca",
+ "table_no": "85",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA-1994 TABLE-85",
+ "row_label": "SL. NO. / STATE/UT/CITY",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 5,
+ "n_cells": 290,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NO. OF OCCASIONS OF POLICE FIRING",
+   "header": [
+    "NO. OF OCCASIONS OF POLICE FIRING"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CIVILIANS | KILLED",
+   "header": [
+    "CIVILIANS",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CIVILIANS | INJURED",
+   "header": [
+    "CIVILIANS",
+    "INJURED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "POLICEMEN | KILLED",
+   "header": [
+    "POLICEMEN",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POLICEMEN | INJURED",
+   "header": [
+    "POLICEMEN",
+    "INJURED"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 12,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 483, sum 484",
+   "col 7 'TOTAL (STATES)': printed 867, sum 857",
+   "col 7 'TOTAL (ALL INDIA)': printed 876, sum 886"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

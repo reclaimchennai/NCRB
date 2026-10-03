@@ -8,68 +8,66 @@
  "serial": "18",
  "title": "Disposal of Crime Cases under Local and Special Laws by the Courts During 1985",
  "listing_title": "Disposal of Crime Cases under Local and Special Laws by the Courts During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables17-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables17-1985.pdf",
  "source_sha256": "181d64c73c4dadcf87c4d7811111b81a37194218d6f2638e587c413498cc5fa0",
  "table_no": "17",
- "pdf_title": "Of Crime Cases Under Local And Special Laws By The Courts During 1985",
- "row_label": "8l. Heads No.",
+ "pdf_title": "57 TABLE -17 Disposal Of Crime Cases Under Local And Special Laws By The Courts During 1985",
+ "row_label": "Sl. Heads of Crime No. / Sl. Heads of Crime No.",
  "pages": [
   1
  ],
- "n_rows": 15,
+ "n_rows": 13,
  "n_cols": 5,
- "n_cells": 71,
+ "n_cells": 65,
  "columns": [
   {
-   "col_no": "2",
-   "name": "of Total cases trial during the",
-   "header": [
-    "of Total cases trial during the"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Crime Cases year withdrawn",
+   "name": "Total cases for trial during the year",
    "header": [
-    "Crime Cases year withdrawn"
+    "Total cases for trial during the year"
    ]
   },
   {
    "col_no": "4",
-   "name": "for Cases trials or",
+   "name": "Cases compounded or withdrawn",
    "header": [
-    "for Cases trials or"
+    "Cases compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "in Cases were comm leted",
+   "name": "Cases in which trials were completed",
    "header": [
-    "in Cases were comm leted"
+    "Cases in which trials were completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "which Cases pending trial convicted the at the of end year",
+   "name": "Cases convicted",
    "header": [
-    "which Cases pending trial convicted the at the of end year"
+    "Cases convicted"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases pending trial at the end of the year",
+   "header": [
+    "Cases pending trial at the end of the year"
    ]
   }
  ],
- "notes": [
-  "Local and Special Laws"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,56 +8,56 @@
  "serial": "26",
  "title": "Persons Arrested under Local and Special Laws During 1989 (Crime-Head & Sex-Wise)",
  "listing_title": "Persons Arrested under Local and Special Laws During 1989 (Crime-Head & Sex-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-26-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-26-1989-1.pdf",
  "source_sha256": "c2f2eec0cc7a7eb1aa9bfda222a5e292f1d89b2f2e36535ade8b0ddf4c46b981",
- "table_no": "",
- "pdf_title": "MARID_9R",
- "row_label": "2... CRIME HEAD re 8) 1",
+ "table_no": "26",
+ "pdf_title": "110 TABLE-26 PERSONS ARRESTED UNDER LOCAL AND SPECIAL LAWS DURING 1989 (CRIME-HEAD & SEX-WISE)",
+ "row_label": "SI. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 16,
+ "n_rows": 17,
  "n_cols": 5,
- "n_cells": 78,
+ "n_cells": 85,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(NER EAD & MALE tas ARMS ACT",
-   "header": [
-    "(NER EAD & MALE tas ARMS ACT"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "SPECIAL, ‘FEMALE cat 56532",
+   "name": "MALE",
    "header": [
-    "SPECIAL, ‘FEMALE cat 56532"
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "LAWS. DURING 1989 | TOTAL ras ‘0",
+   "name": "FEMALE",
    "header": [
-    "LAWS. DURING 1989",
-    "TOTAL ras ‘0"
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "LAWS. DURING 1989 | ge 98,9",
+   "name": "TOTAL",
    "header": [
-    "LAWS. DURING 1989",
-    "ge 98,9"
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "ee 6) “aa",
+   "name": "PERCENTAGE TO TOTAL | MALE",
    "header": [
-    "ee 6) “aa"
+    "PERCENTAGE TO TOTAL",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERCENTAGE TO TOTAL | FEMALE",
+   "header": [
+    "PERCENTAGE TO TOTAL",
+    "FEMALE"
    ]
   }
  ],
@@ -66,10 +66,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

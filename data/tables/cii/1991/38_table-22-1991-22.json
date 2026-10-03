@@ -8,48 +8,48 @@
  "serial": "38",
  "title": "Persons Arrested under IPC Crimes During 1991 (Crime-Head & Sex-Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1991 (Crime-Head & Sex-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1991-22.pdf",
  "source_file": "raw/cii/1991/table_content/table-22-1991-22.pdf",
  "source_sha256": "ed31467455a09d068df1fef3d81e1defdbd0963cf428793ae43af425359f8ee9",
- "table_no": "",
- "pdf_title": "TARLE=22 PERSONS ARRESTED UNDER TPC CRIMES CURING 1994",
- "row_label": "SL. wa, / CRIME HEAD",
+ "table_no": "22",
+ "pdf_title": "101 TABLE-22 PERSONS ARRESTED UNDER IPC CRIMES DURING 1991",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 18,
  "n_cols": 5,
- "n_cells": 89,
+ "n_cells": 90,
  "columns": [
   {
    "col_no": "3",
-   "name": "{CRIME-HEAD MALE",
+   "name": "MALE",
    "header": [
-    "{CRIME-HEAD MALE"
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "& FEHALE",
+   "name": "FEMALE",
    "header": [
-    "& FEHALE"
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "SEX-WISE) TOTAL",
+   "name": "TOTAL",
    "header": [
-    "SEX-WISE) TOTAL"
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE TO TOTAL | HALE",
+   "name": "PERCENTAGE TO TOTAL | MALE",
    "header": [
     "PERCENTAGE TO TOTAL",
-    "HALE"
+    "MALE"
    ]
   },
   {
@@ -66,8 +66,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

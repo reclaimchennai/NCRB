@@ -8,54 +8,54 @@
  "serial": "4",
  "title": "Statement of Special and Local Laws Declared to be Cognizable",
  "listing_title": "Statement of Special and Local Laws Declared to be Cognizable",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1966.pdf",
  "source_file": "raw/cii/1966/table_content/table-4-1966.pdf",
  "source_sha256": "ea286435b4b72fd20b4b9074a78b26849d69391b521a3b16ab20c3850a11d46e",
  "table_no": "",
- "pdf_title": "TABLE STATEMENT OF SPECIAL AND LOCAL LAWS",
- "row_label": "No. / Heads of Crime/Offences",
+ "pdf_title": "22 TABLE STATEMENT OF SPECIAL AND LOCAL LAWS",
+ "row_label": "Sl. No. / Heads of Crime/Offences",
  "pages": [
   1
  ],
- "n_rows": 10,
+ "n_rows": 9,
  "n_cols": 6,
- "n_cells": 55,
+ "n_cells": 54,
  "columns": [
   {
    "col_no": "3",
-   "name": "Cases investigation from pre vious year",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Cases investigation from pre vious year"
+    "Cases pending investigation from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases - disposal in court",
+   "name": "Cases pending disposal in court",
    "header": [
-    "Cases - disposal in court"
+    "Cases pending disposal in court"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases pending pending reported during the year",
+   "name": "Cases reported during the year",
    "header": [
-    "Cases pending pending reported during the year"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases not investigated (+) declared false (--) mistake of fact or law or noncog",
+   "name": "Cases not investigated (+) declared false (+) mistake of fact or law or non-cog",
    "header": [
-    "Cases not investigated (+) declared false (--) mistake of fact or law or noncog"
+    "Cases not investigated (+) declared false (+) mistake of fact or law or non-cog"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases pending. gation or trial atthe Year",
+   "name": "Cases pending investigation or trial at the end of the year",
    "header": [
-    "Cases pending. gation or trial atthe Year"
+    "Cases pending investigation or trial at the end of the year"
    ]
   },
   {
@@ -66,15 +66,13 @@
    ]
   }
  ],
- "notes": [
-  "N.B.—Data in respect"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 3
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -6,51 +6,56 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "TOTAL COGNIZ",
+ "title": "ABLE CRIME—CASES Appendix I II",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686382133APPENDIX0.pdf",
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "TOTAL COGNIZ",
- "row_label": "State Serial No.",
+ "pdf_title": "ABLE CRIME—CASES Appendix I II",
+ "row_label": "Cases in which trial was completed",
  "pages": [
-  2
+  3
  ],
- "n_rows": 34,
- "n_cols": 4,
- "n_cells": 130,
+ "n_rows": 33,
+ "n_cols": 5,
+ "n_cells": 165,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Cases pending Cases reported | from last year",
+   "col_no": "2",
+   "name": "Cases convicted",
    "header": [
-    "Cases pending Cases reported",
-    "from last year"
+    "Cases convicted"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cases acquitted or discharged",
+   "header": [
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases pending Cases reported | during the year",
+   "name": "Percentage of cases convicted to true cases investigated",
    "header": [
-    "Cases pending Cases reported",
-    "during the year"
+    "Percentage of cases convicted to true cases investigated"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases not vestigated, declared mistake of fact or law non-cognizable and pending investigation or trial",
+   "name": "Percentage of cases convicted to cases tried",
    "header": [
-    "Cases not vestigated, declared mistake of fact or law non-cognizable and pending investigation or trial"
+    "Percentage of cases convicted to cases tried"
    ]
   },
   {
    "col_no": "6",
-   "name": "in- Cases not detected false or or",
+   "name": "Volume of crime",
    "header": [
-    "in- Cases not detected false or or"
+    "Volume of crime"
    ]
   }
  ],
@@ -59,7 +64,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 10,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

@@ -8,99 +8,90 @@
  "serial": "77",
  "title": "Juveniles Apprehended Under IPC Crime by Age Group & Sex During 1997 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended Under IPC Crime by Age Group & Sex During 1997 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-57-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-57-1996-crime-survey.pdf",
  "source_sha256": "5b82648b6233c213f7de447cd748b698e85de25867407a0df4b375904ac5f7f1",
  "table_no": "57",
- "pdf_title": "",
- "row_label": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-57",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 53,
+ "n_rows": 58,
  "n_cols": 8,
- "n_cells": 381,
+ "n_cells": 464,
  "columns": [
   {
    "col_no": "3",
-   "name": "JUVENILES 7 - 12 YEARS BOYS",
+   "name": "7 - 12 YEARS | BOYS",
    "header": [
-    "JUVENILES 7 - 12 YEARS BOYS"
+    "7 - 12 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER IPC CRIMES BY AGE GROUP & SEX DURING | (STATE, GIRLS",
+   "name": "7 - 12 YEARS | GIRLS",
    "header": [
-    "UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
-    "(STATE, GIRLS"
+    "7 - 12 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER IPC CRIMES BY AGE GROUP & SEX DURING | UT & CITY-WISE) | 12-16 YEARS BOYS",
+   "name": "12-16 YEARS | BOYS",
    "header": [
-    "UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
-    "UT & CITY-WISE)",
-    "12-16 YEARS BOYS"
+    "12-16 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER IPC CRIMES BY AGE GROUP & SEX DURING | UT & CITY-WISE) | 16-18 YEARS | GIRLS",
+   "name": "12-16 YEARS | GIRLS",
    "header": [
-    "UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
-    "UT & CITY-WISE)",
-    "16-18 YEARS",
+    "12-16 YEARS",
     "GIRLS"
    ]
   },
   {
    "col_no": "7",
-   "name": "UNDER IPC CRIMES BY AGE GROUP & SEX DURING | UT & CITY-WISE) | 16-18 YEARS | GIRLS ONLY",
+   "name": "16-18 YEARS | GIRLS ONLY",
    "header": [
-    "UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
-    "UT & CITY-WISE)",
     "16-18 YEARS",
     "GIRLS ONLY"
    ]
   },
   {
    "col_no": "8",
-   "name": "UNDER IPC CRIMES BY AGE GROUP & SEX DURING | OVERALL AGE - BoYs (8)]",
+   "name": "OVERALL AGE GROUP | BOYS",
    "header": [
-    "UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
-    "OVERALL AGE - BoYs (8)]"
+    "OVERALL AGE GROUP",
+    "BOYS"
    ]
   },
   {
    "col_no": "9",
-   "name": "1997 GIRLS",
+   "name": "OVERALL AGE GROUP | GIRLS",
    "header": [
-    "1997 GIRLS"
+    "OVERALL AGE GROUP",
+    "GIRLS"
    ]
   },
   {
    "col_no": "10",
-   "name": "TOTAL Be",
+   "name": "TOTAL (BOYS + GIRLS)",
    "header": [
-    "TOTAL Be"
+    "TOTAL (BOYS + GIRLS)"
    ]
   }
  ],
- "notes": [
-  "Note: 7-12 years means 7 years aid above but bilow 12 years cf age etc."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 11,
-  "failures": [
-   "col 5 'TOTAL (UTs)': printed 510, sum 508",
-   "col 8 'TOTAL (UTs)': printed 589, sum 587",
-   "col 10 'TOTAL (UTs)': printed 658, sum 656"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

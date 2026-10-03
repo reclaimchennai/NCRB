@@ -8,70 +8,96 @@
  "serial": "2",
  "title": "Table 2: Distribution of jail inmates in the Country by Category and Percentage share at the end of 1999",
  "listing_title": "Table 2: Distribution of jail inmates in the Country by Category and Percentage share at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-02_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-02_1999.pdf",
  "source_sha256": "e81f445878a22caecae10f6c0b2a814a6f63d33f6418bbb0ab26247b5c7d67c7",
  "table_no": "2",
- "pdf_title": "DISTRIBUTION OF JAIL INMATES IN THE COUNTRY BY CATEGORY AND PERCENTAGE SHARE AT THE END OF 1999",
- "row_label": "sR, TYPE Ki. @) / - MENTALLY TLL (2) / CONVICT SHARE (3)",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-2",
+ "row_label": "SR. NO. / TYPE",
  "pages": [
   1
  ],
  "n_rows": 9,
- "n_cols": 7,
- "n_cells": 57,
+ "n_cols": 11,
+ "n_cells": 99,
  "columns": [
   {
-   "col_no": "4",
-   "name": "%SHARE , a)",
+   "col_no": "3",
+   "name": "MENTALLY IIL",
    "header": [
-    "%SHARE , a)"
+    "MENTALLY IIL"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% SHARE (4)",
+   "header": [
+    "% SHARE"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER- (5)",
+   "name": "CONVICT",
    "header": [
-    "UNDER- (5)"
+    "CONVICT"
    ]
   },
   {
    "col_no": "6",
-   "name": "% SHARE DETENUS % SHARE | (6)",
+   "name": "%SHARE",
    "header": [
-    "% SHARE DETENUS % SHARE",
-    "(6)"
+    "%SHARE"
    ]
   },
   {
    "col_no": "7",
-   "name": "% SHARE DETENUS % SHARE | (7)",
+   "name": "UNDER-TRIALS",
    "header": [
-    "% SHARE DETENUS % SHARE",
-    "(7)"
+    "UNDER-TRIALS"
    ]
   },
   {
    "col_no": "8",
-   "name": "OTHERS (0)",
+   "name": "% SHARE (8)",
    "header": [
-    "OTHERS (0)"
+    "% SHARE"
    ]
   },
   {
    "col_no": "9",
-   "name": "% SHARE (12) (10)",
+   "name": "DETENUS",
    "header": [
-    "% SHARE (12) (10)"
+    "DETENUS"
    ]
   },
   {
    "col_no": "10",
-   "name": "TOTAL (13) an",
+   "name": "% SHARE (10)",
    "header": [
-    "TOTAL (13) an"
+    "% SHARE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "OTHERS",
+   "header": [
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "% SHARE (12)",
+   "header": [
+    "% SHARE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
@@ -80,10 +106,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

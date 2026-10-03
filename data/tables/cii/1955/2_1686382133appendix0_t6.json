@@ -6,84 +6,100 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "KIDNAPPING",
+ "title": "MURDER Part 'A' States Part 'B' States",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686382133APPENDIX0.pdf",
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "KIDNAPPING",
- "row_label": "State Serial No.",
+ "pdf_title": "MURDER Part 'A' States Part 'B' States",
+ "row_label": "Serial No.",
  "pages": [
-  12,
-  13
+  8,
+  8,
+  8,
+  8
  ],
- "n_rows": 34,
- "n_cols": 8,
- "n_cells": 247,
+ "n_rows": 5,
+ "n_cols": 7,
+ "n_cells": 16,
  "columns": [
   {
    "col_no": "2",
-   "name": "Persons arrested during the year | Persons injcustody pencins trial or investigation + bail of the year",
+   "name": "State",
    "header": [
-    "Persons arrested during the year",
-    "Persons injcustody pencins trial or investigation + bail of the year"
+    "State"
    ]
   },
   {
    "col_no": "3",
-   "name": "Persons arrested during the year | at",
+   "name": "Persons in custody pending trial or investigation or on bail at the beginning of the year",
    "header": [
-    "Persons arrested during the year",
-    "at"
+    "Persons in custody pending trial or investigation or on bail at the beginning of the year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons arrested during the year | Persons released by the Police or Magistrate before trial the",
+   "name": "Persons arrested during the year",
    "header": [
-    "Persons arrested during the year",
-    "Persons released by the Police or Magistrate before trial the"
+    "Persons arrested during the year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Persons released by the Police or Magistrate before trial",
+   "header": [
+    "Persons released by the Police or Magistrate before trial"
    ]
   },
   {
    "col_no": "6",
-   "name": "AND ABDUCTION—PEKSONS | Persons in whose cases the trials were completed",
+   "name": ". | . | . | . | . | . | . | . | . | .",
    "header": [
-    "AND ABDUCTION—PEKSONS",
-    "Persons in whose cases the trials were completed"
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    "."
    ]
   },
   {
    "col_no": "7",
-   "name": "AND ABDUCTION—PEKSONS | Persons convicted",
+   "name": "853 | 390 | 1,157 | 3,361 | 895 | 609 | 380 | 511 | 3,951 | 315",
    "header": [
-    "AND ABDUCTION—PEKSONS",
-    "Persons convicted"
+    "853",
+    "390",
+    "1,157",
+    "3,361",
+    "895",
+    "609",
+    "380",
+    "511",
+    "3,951",
+    "315"
    ]
   },
   {
    "col_no": "8",
-   "name": "AND ABDUCTION—PEKSONS | Persons acquitted OF",
+   "name": "1,405 | 711 | 1,966 | 3,244 | 1,415 | 1,392 | 458 | 1,227 | 4,736 | 1,113",
    "header": [
-    "AND ABDUCTION—PEKSONS",
-    "Persons acquitted OF"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Persons in custody orj bail nendine trial or at the close of the year",
-   "header": [
-    "Persons in custody orj bail nendine trial or at the close of the year"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "VI Appendix Perceniace of conviction",
-   "header": [
-    "VI Appendix Perceniace of conviction"
+    "1,405",
+    "711",
+    "1,966",
+    "3,244",
+    "1,415",
+    "1,392",
+    "458",
+    "1,227",
+    "4,736",
+    "1,113"
    ]
   }
  ],
@@ -92,10 +108,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 16,
-  "other_totals_passed": 8
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

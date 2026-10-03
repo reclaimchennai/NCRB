@@ -6,52 +6,66 @@
  "topic": "",
  "section": "",
  "serial": "14",
- "title": "ANNEXUKE-IITI NAME OF ORGANISATION: ENFORCEMENY DIRECTORATE, FOREIGN EXCHANGE REGULATION ACT, LOK NAYAK BHAWAN, KHAN MARKET, NEW DELHT",
+ "title": "220 ANNEXURE-VII NAME OF ORGANISATION: DIRECTORATE OF REVENUE INTELLIGENCE, INDRAPRASHTA BHAWAN, 'D' BLOCK, INDRAPRASHTA ESTATE, NEW DELHI.",
  "listing_title": "Annexures",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/annexures-1990.pdf",
  "source_file": "raw/cii/1990/table_chapter/annexures-1990.pdf",
  "source_sha256": "bde3d2f9261752dae58262e606944a288e41fafe5b6ce84646320aef695e3bd1",
  "table_no": "",
- "pdf_title": "ANNEXUKE-IITI NAME OF ORGANISATION: ENFORCEMENY DIRECTORATE, FOREIGN EXCHANGE REGULATION ACT, LOK NAYAK BHAWAN, KHAN MARKET, NEW DELHT",
- "row_label": "RETUKN / FOREIGN OF / FxcHaNGE OFFENCES",
+ "pdf_title": "220 ANNEXURE-VII NAME OF ORGANISATION: DIRECTORATE OF REVENUE INTELLIGENCE, INDRAPRASHTA BHAWAN, 'D' BLOCK, INDRAPRASHTA ESTATE, NEW DELHI.",
+ "row_label": "(ALL INDIA) Total No. of seizures",
  "pages": [
-  5,
-  12
+  9,
+  9,
+  9
  ],
- "n_rows": 37,
- "n_cols": 3,
- "n_cells": 49,
+ "n_rows": 3,
+ "n_cols": 5,
+ "n_cells": 10,
  "columns": [
   {
+   "col_no": "2",
+   "name": "(VALUE RS. IN LAKHS) | Total value of seizures",
+   "header": [
+    "(VALUE RS. IN LAKHS)",
+    "Total value of seizures"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "(INCLUDING BAGGAGE SEIZURES) | QTY.(KG)",
+   "header": [
+    "(INCLUDING BAGGAGE SEIZURES)",
+    "QTY.(KG)"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "REGULATION REGARDTNG ACT,",
+   "name": "(VALUE RS. IN LAKHS) | SILVERVALUE",
    "header": [
-    "REGULATION REGARDTNG ACT,"
+    "(VALUE RS. IN LAKHS)",
+    "SILVERVALUE"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "OF: ORGANISATION: NARCOTICS DRUGS FOR seized of No. rounded",
+   "col_no": "5",
+   "name": "(VALUE RS. IN LAKHS) | DIAMONDSVALUE",
    "header": [
-    "OF: ORGANISATION: NARCOTICS DRUGS FOR seized of No. rounded"
+    "(VALUE RS. IN LAKHS)",
+    "DIAMONDSVALUE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "ANNEXURE =X CONTROL HUREAD, 1990 YEAR THE STATISTICS in bracket with various of cases nearest to Kg.)",
+   "col_no": "6",
+   "name": "TOTAL VALUE",
    "header": [
-    "ANNEXURE =X CONTROL HUREAD, 1990 YEAR THE STATISTICS in bracket with various of cases nearest to Kg.)"
+    "TOTAL VALUE"
    ]
   }
  ],
- "notes": [
-  "issued under PIT(NDPS)",
-  "Act, 1988 with No. of",
-  "persons detained in bracket.",
-  "30 -750 NCRB/91"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -59,7 +73,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

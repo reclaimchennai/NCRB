@@ -6,155 +6,85 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END OF1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 *Jails do not exist",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "20",
- "pdf_title": "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END OF1998",
- "row_label": "No. / STATE/UT",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 *Jails do not exist",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  93,
-  94
+  32,
+  32,
+  33
  ],
- "n_rows": 56,
- "n_cols": 15,
- "n_cells": 255,
+ "n_rows": 55,
+ "n_cols": 6,
+ "n_cells": 295,
  "columns": [
   {
    "col_no": "3",
-   "name": "MURDER",
+   "name": "CONVICTS | MALE",
    "header": [
-    "MURDER"
+    "CONVICTS",
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "ATTEMPT TO MURDER",
+   "name": "CONVICTS | FEMALE",
    "header": [
-    "ATTEMPT TO MURDER"
+    "CONVICTS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "C.H.NOT AMOUNTING TO MURDER",
+   "name": "CONVICTS | TOTAL",
    "header": [
-    "C.H.NOT AMOUNTING TO MURDER"
+    "CONVICTS",
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "RAPE",
+   "name": "UNDERTRIALS | MALE",
    "header": [
-    "RAPE"
+    "UNDERTRIALS",
+    "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "KIDNAPPING & ABDUCTION",
+   "name": "UNDERTRIALS | FEMALE",
    "header": [
-    "KIDNAPPING & ABDUCTION"
+    "UNDERTRIALS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "DACOITY",
+   "name": "UNDERTRIALS | TOTAL",
    "header": [
-    "DACOITY"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "ee ASSEMBLY FOB DACOITY",
-   "header": [
-    "ee ASSEMBLY FOB DACOITY"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "ROBBERY",
-   "header": [
-    "ROBBERY"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "TABLE-20 (CONCLUDED) | THEFTS",
-   "header": [
-    "TABLE-20 (CONCLUDED)",
-    "THEFTS"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "TABLE-20 (CONCLUDED) | RIOT",
-   "header": [
-    "TABLE-20 (CONCLUDED)",
-    "RIOT"
-   ]
-  },
-  {
-   "col_no": "14",
-   "name": "TABLE-20 (CONCLUDED) | CRIMINAL BREACH OF RUST",
-   "header": [
-    "TABLE-20 (CONCLUDED)",
-    "CRIMINAL BREACH OF RUST"
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "TABLE-20 (CONCLUDED) | - CHEATING",
-   "header": [
-    "TABLE-20 (CONCLUDED)",
-    "- CHEATING"
-   ]
-  },
-  {
-   "col_no": "16",
-   "name": "PRISON STATISTICS - 1998",
-   "header": [
-    "PRISON STATISTICS - 1998"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "PRISON STATISTICS - 1998 | OTHER IPC CRIME",
-   "header": [
-    "PRISON STATISTICS - 1998",
-    "OTHER IPC CRIME"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "PRISON STATISTICS - 1998 | TOTAL CONVICTS (IPC)",
-   "header": [
-    "PRISON STATISTICS - 1998",
-    "TOTAL CONVICTS (IPC)"
+    "UNDERTRIALS",
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 13,
-  "cells_passed": 6,
+  "cells_checked": 1,
+  "cells_passed": 0,
   "failures": [
-   "col 3 '••••.(•. TOTAL (UTS)': printed 784, sum 2482",
-   "col 4 'TOTAL (STATES)': printed 3079, sum 3068",
-   "col 5 'TOTAL (STATES)': printed 1374, sum 915",
-   "col 6 'TOTAL (STATES)': printed 2418, sum 1832",
-   "col 7 'TOTAL (STATES)': printed 633, sum 240",
-   "col 8 '••••.(•. TOTAL (UTS)': printed 60, sum 1092",
-   "col 9 'TOTAL (STATES)': printed 181, sum 122"
+   "col 8 'TOTAL (ALL INDIA)': printed 113, sum 69"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

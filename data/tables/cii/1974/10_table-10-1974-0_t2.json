@@ -6,58 +6,74 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "10",
- "title": "al",
+ "title": "41",
  "listing_title": "Cases Reported under Special & Local Laws.",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-10-1974_0.pdf",
  "source_file": "raw/cii/1974/table_content/table-10-1974_0.pdf",
  "source_sha256": "a6245cd4be32c52f23492b9c70f23b0b036fd4a0e946acb1f0fd46f69e47f32c",
  "table_no": "",
- "pdf_title": "al",
- "row_label": "Excise Act. Saye 4 Thy 370 M2 - 11208 190 2 3701 - Ho",
+ "pdf_title": "41",
+ "row_label": "Excise Act. I",
  "pages": [
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
   3
  ],
- "n_rows": 27,
- "n_cols": 5,
- "n_cells": 116,
+ "n_rows": 35,
+ "n_cols": 6,
+ "n_cells": 209,
  "columns": [
   {
    "col_no": "2",
-   "name": "- ¥ 10 13-3 24 Os - 1-9 55-5 ov 104 - 30",
+   "name": "Excise Act. | V",
    "header": [
-    "- ¥ 10 13-3 24 Os - 1-9 55-5 ov 104 - 30"
+    "Excise Act.",
+    "V"
    ]
   },
   {
    "col_no": "3",
-   "name": "Customs Act | 1 i 4 - - - - 1 - - MA.",
+   "name": "Customs Act | I",
    "header": [
     "Customs Act",
-    "1 i 4 - - - - 1 - - MA."
+    "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "Customs Act | 12 oo o4 on - - - ou - - HA.",
+   "name": "Customs Act | V",
    "header": [
     "Customs Act",
-    "12 oo o4 on - - - ou - - HA."
+    "V"
    ]
   },
   {
    "col_no": "5",
-   "name": "i 56 14 213 19 13 19 6 0 uu %3 400",
+   "name": "Explosives Act and Explosives Substance Act | I",
    "header": [
-    "i 56 14 213 19 13 19 6 0 uu %3 400"
+    "Explosives Act and Explosives Substance Act",
+    "I"
    ]
   },
   {
    "col_no": "6",
-   "name": "Açt aa tme Subscance Act UTs. Citics ana ¥ 2 14 Andhra. o-l ol Aim Bihar O4 ol Gujarat 0-1 - Haryana 0-5 ol 0-1 0-1 kerala 0-2 - - Maharachra 0-7",
+   "name": "Explosives Act and Explosives Substance Act | V",
    "header": [
-    "Açt aa tme Subscance Act UTs. Citics ana ¥ 2 14 Andhra. o-l ol Aim Bihar O4 ol Gujarat 0-1 - Haryana 0-5 ol 0-1 0-1 kerala 0-2 - - Maharachra 0-7"
+    "Explosives Act and Explosives Substance Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Name of States/UTs/Cities",
+   "header": [
+    "Name of States/UTs/Cities"
    ]
   }
  ],
@@ -69,7 +85,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 7,
  "warnings": []
 }

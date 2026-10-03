@@ -8,14 +8,14 @@
  "serial": "19",
  "title": "Statement of Recidivism under Important Heads of IPC Crime During 1987",
  "listing_title": "Statement of Recidivism under Important Heads of IPC Crime During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_53-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_53-1987.pdf",
  "source_sha256": "117af0ae7c8a4667c2ba46e49ea55c9e407ccbaa2e3b599d3fd82176563df9e7",
  "table_no": "53",
- "pdf_title": "Statement Of Recidivism Under Important Heads Of IPC Crime During 1987",
- "row_label": "CRIME SL NO / HEADS",
+ "pdf_title": "149 TABLE 53 Statement Of Recidivism Under Important Heads Of IPC Crime During 1987",
+ "row_label": "SL NO / CRIME HEADS",
  "pages": [
   1
  ],
@@ -25,51 +25,49 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMRER OFFENDICKS",
+   "name": "NUMBER OF NEW OFFENDERS ARRESTED",
    "header": [
-    "NUMRER OFFENDICKS"
+    "NUMBER OF NEW OFFENDERS ARRESTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "NIUMRER OF BEEN ONCE",
+   "name": "NUMBER OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST | ONCE",
    "header": [
-    "NIUMRER OF BEEN ONCE"
+    "NUMBER OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST",
+    "ONCE"
    ]
   },
   {
    "col_no": "5",
-   "name": "NEW IN TWICE",
+   "name": "NUMBER OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST | TWICE",
    "header": [
-    "NEW IN TWICE"
+    "NUMBER OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST",
+    "TWICE"
    ]
   },
   {
    "col_no": "6",
-   "name": "HAVE OF THE TIMES THREE OR",
+   "name": "NUMBER OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST | THREE TIMES OR MORE",
    "header": [
-    "HAVE OF THE TIMES THREE OR"
+    "NUMBER OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST",
+    "THREE TIMES OR MORE"
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL WHO PAST - MORE",
+   "name": "TOTAL",
    "header": [
-    "TOTAL WHO PAST - MORE"
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "Crime Under IPC",
-  "Note Due to non availability of information on Recidivism",
-  "from Delhi UT, all the arrested persons are taken",
-  "as new offenders."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 5,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

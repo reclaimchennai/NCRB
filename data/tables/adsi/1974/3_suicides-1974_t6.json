@@ -1,0 +1,60 @@
+{
+ "table_id": "adsi/1974/3_suicides-1974_t6",
+ "publication": "adsi",
+ "year": 1974,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1974",
+ "serial": "3",
+ "title": "25 Distribution of Suicides according to Age & Sex Age",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1974.pdf",
+ "source_file": "raw/adsi/1974/year_wise/suicides-1974.pdf",
+ "source_sha256": "7513a98682fe5207bb19d66fe0493ac3f913688631c0829eb77361bd9fc30130",
+ "table_no": "",
+ "pdf_title": "25 Distribution of Suicides according to Age & Sex Age",
+ "row_label": "",
+ "pages": [
+  9
+ ],
+ "n_rows": 20,
+ "n_cols": 4,
+ "n_cells": 80,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 3,
+  "failures": [
+   "col 3 'TOTAL (CITIES)': printed 23756, sum 23856"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

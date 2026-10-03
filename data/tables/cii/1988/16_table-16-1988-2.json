@@ -8,14 +8,14 @@
  "serial": "16",
  "title": "Percentage of IPC Crime Cases Disposed of Courts During 1988",
  "listing_title": "Percentage of IPC Crime Cases Disposed of Courts During 1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-16-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-16-1988-2.pdf",
  "source_sha256": "c2773bf377b16f2070035845dbe173e42edb9c543299ff3044ce3abf8de798cd",
  "table_no": "16",
- "pdf_title": "OF IPC CRIME CASES visrusev OF COURTS DURING 1988",
- "row_label": "CRIME HEAD SL. NO.",
+ "pdf_title": "77 TABLE-16 PERCENTAGE OF IPC CRIME CASES DISPOSED OF COURTS DURING 1988",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,41 +25,42 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "PERCENTAGE OF CASES TO TOTAL | COMPOUNDED OR WITHDRAWN",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOUNDED OR WITH-DRAWN",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL",
-    "COMPOUNDED OR WITHDRAWN"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "COMPOUNDED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "4",
-   "name": "PERCENTAGE OF CASES TO TOTAL | CASES CONVICTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS CONVICTED",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL",
-    "CASES CONVICTED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "IN WHICH TRIALS CONVICTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE OF CASES TO TOTAL | FOR ACQUITOR TED DIS-",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | WERE COMPLETED ACQUIT-TED OR DIS-CHARGED",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL",
-    "FOR ACQUITOR TED DIS-"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "WERE COMPLETED ACQUIT-TED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE OF CASES TO TOTAL | TRIAL IN WHICH TRIALS WERE COMPLETED TOTAL ((4) + (5))",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | TOTAL ((4)+(5))",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL",
-    "TRIAL IN WHICH TRIALS WERE COMPLETED TOTAL ((4) + (5))"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "TOTAL ((4)+(5))"
    ]
   },
   {
    "col_no": "7",
-   "name": "PEND ING ‘TRIAL",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | PENDING TRIAL",
    "header": [
-    "PEND ING ‘TRIAL"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "PENDING TRIAL"
    ]
   }
  ],

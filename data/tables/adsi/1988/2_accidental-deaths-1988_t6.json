@@ -6,28 +6,28 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1988",
  "serial": "2",
- "title": "TABLE—V Accidental Neathe During 1988",
+ "title": "TABLE—V Region-Wise Distribution of Accidental Deaths During 1988. 12",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1988.pdf",
  "source_file": "raw/adsi/1988/year_wise/accidental-deaths-1988.pdf",
  "source_sha256": "11f848adfeee55b1446a5d0c736ac84cfaa8f117caff5a86de074b588e2a28c2",
  "table_no": "",
- "pdf_title": "TABLE—V Accidental Neathe During 1988",
- "row_label": "Sl. No. / States/UTs/ Cities",
+ "pdf_title": "TABLE—V Region-Wise Distribution of Accidental Deaths During 1988. 12",
+ "row_label": "Sl. No. / States/UTs/Cities",
  "pages": [
   14
  ],
  "n_rows": 35,
- "n_cols": 4,
- "n_cells": 140,
+ "n_cols": 5,
+ "n_cells": 175,
  "columns": [
   {
    "col_no": "3",
-   "name": "Male Involved Q)",
+   "name": "Male Involved",
    "header": [
-    "Male Involved Q)"
+    "Male Involved"
    ]
   },
   {
@@ -46,16 +46,23 @@
   },
   {
    "col_no": "6",
-   "name": "Total Percentage Of Female To Total",
+   "name": "Percentage Of Female To Total",
    "header": [
-    "Total Percentage Of Female To Total"
+    "Percentage Of Female To Total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 2,
+  "cells_checked": 9,
+  "cells_passed": 9,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

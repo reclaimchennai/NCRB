@@ -8,125 +8,152 @@
  "serial": "50",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1989 (State, UT & City-Wise) Dacoity",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1989 (State, UT & City-Wise) Dacoity",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-53-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-53-1989-1.pdf",
  "source_sha256": "a7ca07bb1eb1ffa4451d39006e7012306e14ce66a23907a24d38e9530c3adebc",
- "table_no": "",
- "pdf_title": "TABLE-.53",
- "row_label": "STATE/UT/CITY SL. NO.",
+ "table_no": "53",
+ "pdf_title": "172 TABLE-53 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE (STATE, UT & CITY-WISE)",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
- "n_rows": 95,
- "n_cols": 13,
- "n_cells": 592,
+ "n_rows": 94,
+ "n_cols": 15,
+ "n_cells": 705,
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER OF NUMBER",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "NUMBER OF NUMBER"
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "CASES PREMISES VALUE",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "CASES PREMISES VALUE"
+    "RESIDENTIAL PREMISES",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "AND NUMBER",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "AND NUMBER"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "VALUE (STATE, HIGHWAYS VALUE",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "VALUE (STATE, HIGHWAYS VALUE"
+    "HIGHWAYS",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF UT & DACOITY RIVER & NUMBER",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "OF UT & DACOITY RIVER & NUMBER"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "sruLEN CITY-WISE) SEA VALUE",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "sruLEN CITY-WISE) SEA VALUE"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "BY OF (Rs. RAILWAYS NUMBER",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "BY OF (Rs. RAILWAYS NUMBER"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "PLACE «= «+ in lakh) VALUE",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "PLACE «= «+ in lakh) VALUE"
+    "RAILWAYS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "1989 COMMERC TAL. EASTARL ISHMENTS VALUE",
+   "col_no": "13",
+   "name": "BANKS | VALUE",
    "header": [
-    "1989 COMMERC TAL. EASTARL ISHMENTS VALUE"
+    "BANKS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "OTHER NUMBER",
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
    "header": [
-    "OTHER NUMBER"
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "TABLE PLACES VALUE",
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
    "header": [
-    "TABLE PLACES VALUE"
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "- TOTAL NUMBER NUMBER",
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
    "header": [
-    "- TOTAL NUMBER NUMBER"
+    "OTHER PLACES",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "(concld) 53 STATE/UT/CITY VALUE VALUE",
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
    "header": [
-    "(concld) 53 STATE/UT/CITY VALUE VALUE"
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
- "notes": [
-  "Note: Value less than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 8,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

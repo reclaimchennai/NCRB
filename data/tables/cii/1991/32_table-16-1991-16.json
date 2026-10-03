@@ -8,54 +8,59 @@
  "serial": "32",
  "title": "Percentage of IPC Crime Cases Disposed of by Courts During 1991",
  "listing_title": "Percentage of IPC Crime Cases Disposed of by Courts During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-16-1991-16.pdf",
  "source_file": "raw/cii/1991/table_content/table-16-1991-16.pdf",
  "source_sha256": "3bd680b6f28f89354d8a2bd419882813247f054f2538b366e31c66f01ba7b666",
  "table_no": "16",
- "pdf_title": "",
- "row_label": "PERCENTAGE CRIME SL. WO:",
+ "pdf_title": "92 TABLE-16 PERCENTAGE OF IPC CRIME CASES DISPOSED OF BY COURTS DURING 1991",
+ "row_label": "SL. NO: / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 19,
+ "n_rows": 18,
  "n_cols": 5,
  "n_cells": 90,
  "columns": [
   {
-   "col_no": "2",
-   "name": "OF WEAD KDE OR DRAM",
-   "header": [
-    "OF WEAD KDE OR DRAM"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "IPC CRIME PERCENTAGE CASES IM",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOUNDEDORWITHDRAWN",
    "header": [
-    "IPC CRIME PERCENTAGE CASES IM"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "COMPOUNDEDORWITHDRAWN"
    ]
   },
   {
    "col_no": "4",
-   "name": "CASES OF TOTAL FOR MHECH TRIALS WERE COKVICTED ACOUITTED 08 pis: CHARGED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETEDCONVICTED",
    "header": [
-    "CASES OF TOTAL FOR MHECH TRIALS WERE COKVICTED ACOUITTED 08 pis: CHARGED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "IN WHICH TRIALS WERE COMPLETEDCONVICTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "BY 1991 CAGES TRIAL COMPLETED eee TOTAL",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | ACQUIT-TED ORDIS-CHARGED",
    "header": [
-    "BY 1991 CAGES TRIAL COMPLETED eee TOTAL"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "ACQUIT-TED ORDIS-CHARGED"
    ]
   },
   {
    "col_no": "6",
-   "name": "COURTS DURING TO PENDING TRIAL",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | TOTAL((4)+(5))",
    "header": [
-    "COURTS DURING TO PENDING TRIAL"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "TOTAL((4)+(5))"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | PENDING TRIAL",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "PENDING TRIAL"
    ]
   }
  ],
@@ -67,7 +72,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

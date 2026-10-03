@@ -8,102 +8,111 @@
  "serial": "57",
  "title": "Recidivism amongst Persons Arrested under IPC Crimes During 1990 (State, UT & City-Wise)",
  "listing_title": "Recidivism amongst Persons Arrested under IPC Crimes During 1990 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/58table-58-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/58table-58-1990-.pdf",
  "source_sha256": "dba8de1ad3cf6efc5047d6e83b5ccd8f743a6601a51691db41097efc332e6b76",
  "table_no": "58",
- "pdf_title": "RECIDIVISM AMONGST PERSONS ARRESTED UNDER IPC CRIMES DURING 1990 (STATE, UT & CITY-WISE)",
- "row_label": "STATE/UT/CITY SL. NO. q1)",
+ "pdf_title": "188 TABLE-58 RECIDIVISM AMONGST PERSONS ARRESTED UNDER IPC CRIMES DURING 1990 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 10,
- "n_cells": 466,
+ "n_cells": 470,
  "columns": [
   {
    "col_no": "3",
-   "name": "TOTAL NO. PERSONS TED",
+   "name": "TOTAL NO. OF PERSONS ARRESTED",
    "header": [
-    "TOTAL NO. PERSONS TED"
+    "TOTAL NO. OF PERSONS ARRESTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "NEW OF NO.",
+   "name": "NEW OFFENDERS | NO.",
    "header": [
-    "NEW OF NO."
+    "NEW OFFENDERS",
+    "NO."
    ]
   },
   {
    "col_no": "5",
-   "name": "urrenvens nn nnn nnn TO TOTAL",
+   "name": "NEW OFFENDERS | PERCENTAGE TO TOTAL",
    "header": [
-    "urrenvens nn nnn nnn TO TOTAL"
+    "NEW OFFENDERS",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "OLD nn ONCE NO.",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | NO.",
    "header": [
-    "OLD nn ONCE NO."
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "ONCE",
+    "NO."
    ]
   },
   {
    "col_no": "7",
-   "name": "Urrenurns TO TOTAL",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | PERCENTAGE TO TOTAL",
    "header": [
-    "Urrenurns TO TOTAL"
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "ONCE",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "CONVICTED TWICE NO. TO",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE | NO.",
    "header": [
-    "CONVICTED TWICE NO. TO"
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "TWICE",
+    "NO."
    ]
   },
   {
    "col_no": "9",
-   "name": "IN PERCENTAGE TOTAL",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE | PERCENTAGE TO TOTAL",
    "header": [
-    "IN PERCENTAGE TOTAL"
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "TWICE",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "10",
-   "name": "THE nn THRICE 0 NO. TO (10>",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | NO.",
    "header": [
-    "THE nn THRICE 0 NO. TO (10>"
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "THRICE OR MORE",
+    "NO."
    ]
   },
   {
    "col_no": "11",
-   "name": "PAST enn en nee OR PERCENTAGE TOTAL",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | PERCENTAGE TO TOTAL",
    "header": [
-    "PAST enn en nee OR PERCENTAGE TOTAL"
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "THRICE OR MORE",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "MORE PERCENTAGE OF RECIDIVISTS{‘(7)+ (11))",
+   "name": "PERCENTAGE OF RECIDIVISTS[(7)+(9)+(11)]",
    "header": [
-    "MORE PERCENTAGE OF RECIDIVISTS{‘(7)+ (11))"
+    "PERCENTAGE OF RECIDIVISTS[(7)+(9)+(11)]"
    ]
   }
  ],
- "notes": [
-  "Percentage less than 0.05 is also shown as 0.0",
-  "* Due to non-availability of data, all the persons arrested are taken as new offenders."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 15,
-  "cells_passed": 14,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 2.39972e+06, sum 2.3426e+06"
-  ],
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

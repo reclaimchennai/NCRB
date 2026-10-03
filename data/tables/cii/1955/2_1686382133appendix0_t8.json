@@ -6,107 +6,49 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "ROHKERY",
+ "title": "KIDNAPPING 18",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686382133APPENDIX0.pdf",
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "ROHKERY",
- "row_label": "Serial State No.",
+ "pdf_title": "KIDNAPPING 18",
+ "row_label": "Serial No. / State",
  "pages": [
-  18,
-  20,
-  21
+  10
  ],
- "n_rows": 65,
- "n_cols": 12,
- "n_cells": 369,
+ "n_rows": 33,
+ "n_cols": 4,
+ "n_cells": 132,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Cases pend- year",
-   "header": [
-    "Cases pend- year"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Cases edduring the ing year",
+   "name": "Cases pending from last year",
    "header": [
-    "Cases edduring the ing year"
+    "Cases pending from last year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases not declared false or mist: ke of fact or ‘aw or and Sending or trial",
+   "name": "Cases reported during the year",
    "header": [
-    "Cases not declared false or mist: ke of fact or ‘aw or and Sending or trial"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases no detected",
+   "name": "Cases not investigated, declared false or mistake of fact or law or non-cognizable and pending investigation or trial",
    "header": [
-    "Cases no detected"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Persons in eustody trial OF tion or on bail at the of the year",
-   "header": [
-    "Persons in eustody trial OF tion or on bail at the of the year"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "ar- - rested during the year",
-   "header": [
-    "ar- - rested during the year"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Persons by - the Police or Magisiraic before trial",
-   "header": [
-    "Persons by - the Police or Magisiraic before trial"
+    "Cases not investigated, declared false or mistake of fact or law or non-cognizable and pending investigation or trial"
    ]
   },
   {
    "col_no": "6",
-   "name": "—PERSONS Persons in whose cases the trials were",
+   "name": "Cases not detected",
    "header": [
-    "—PERSONS Persons in whose cases the trials were"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Persons convicted",
-   "header": [
-    "Persons convicted"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Persons Or discharges",
-   "header": [
-    "Persons Or discharges"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Persons in custody or bail, trial or investigation at the close of year",
-   "header": [
-    "Persons in custody or bail, trial or investigation at the close of year"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "X Appendix of” conviction the",
-   "header": [
-    "X Appendix of” conviction the"
+    "Cases not detected"
    ]
   }
  ],
@@ -115,12 +57,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 11,
-  "other_totals_passed": 2
+  "other_totals_checked": 16,
+  "other_totals_passed": 12
  },
- "inferred_pages": 2,
- "ocr_pages": 3,
- "warnings": [
-  "page 21: 20 of 31 rows of the right-hand page could not be placed against the left-hand page"
- ]
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
 }

@@ -6,53 +6,53 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1988",
  "serial": "3",
- "title": "VOLUME OF SUICIDES PER LAKH OF POPULATION IN INDIA DURING—1988",
+ "title": "TABLE—II Incidence Of Suicides, Polulation And Volume Of Suicides Per Lakh Of Population During The Year—1988 21",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1988.pdf",
  "source_file": "raw/adsi/1988/year_wise/suicides-1988.pdf",
  "source_sha256": "7ae2909a7369d00fab7afea8f5cce915689a30a254bb2e6da3089a281568e85a",
  "table_no": "",
- "pdf_title": "VOLUME OF SUICIDES PER LAKH OF POPULATION IN INDIA DURING—1988",
- "row_label": "",
+ "pdf_title": "TABLE—II Incidence Of Suicides, Polulation And Volume Of Suicides Per Lakh Of Population During The Year—1988 21",
+ "row_label": "Sl. No. / States/UTs/Cities",
  "pages": [
-  6,
-  7
+  4
  ],
- "n_rows": 43,
- "n_cols": 2,
- "n_cells": 62,
+ "n_rows": 35,
+ "n_cols": 4,
+ "n_cells": 140,
  "columns": [
   {
-   "col_no": "2",
-   "name": "©",
+   "col_no": "3",
+   "name": "Number Of Suicides",
    "header": [
-    "©"
+    "Number Of Suicides"
    ]
   },
   {
-   "col_no": "3",
-   "name": "40 45 SO 35 20 15 30 1 25 5",
+   "col_no": "4",
+   "name": "Percentage To Total Suicides",
    "header": [
-    "40 45 SO 35 20 15 30 1 25 5"
+    "Percentage To Total Suicides"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Estimated Mid-Year Population In (000)",
+   "header": [
+    "Estimated Mid-Year Population In (000)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Volume Of Suicides Per Lakh Of Population",
+   "header": [
+    "Volume Of Suicides Per Lakh Of Population"
    ]
   }
  ],
- "notes": [
-  "2.4 Means Adopted For Suicides",
-  "2.4.1 A study of Suicide cases according to ‘Means Adopted’ for committing",
-  "suicides revealed that during 1988 the majority of persons committed suicide",
-  "by ‘Poison’ and 31.6% of the total suicides were accounted by this method.",
-  "The second important means used for committing suicides was ‘Hanging’",
-  "which accounted for 25.0% of the total suicides during 1988 followed by",
-  "‘Drowning’ (12.2%) “By Fire’ (9.3%), “By Railways’ (4.4%), ‘By",
-  "(0.8%), “By Jumping’ (0.7%), ‘By Touching Electric Wires’ (0.6%), “By",
-  "Weapons’ (0.5%), ‘By Taking Sleeping Pills’ (0.4%) and ‘By Machines’",
-  "(0.3%). 14.2% of the total suicides registered during 1988 was due to ‘Other",
-  "Causes’.",
-  "2.4.2 The details are presented in Table-IV."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -60,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

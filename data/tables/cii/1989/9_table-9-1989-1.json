@@ -8,148 +8,206 @@
  "serial": "9",
  "title": "City-Wise Incidence of Cognizable Crimes (IPC) During 1989 (Cities having Population of 5 Lakhs or More)",
  "listing_title": "City-Wise Incidence of Cognizable Crimes (IPC) During 1989 (Cities having Population of 5 Lakhs or More)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-9-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-9-1989-1.pdf",
  "source_sha256": "6aa49acef3f2c03469b0b33d6d37f225dafbe6ec3f4199c3735567cedabbe7c6",
  "table_no": "9",
- "pdf_title": "",
- "row_label": "SL. NO. / UT/ STATE/ CITY",
+ "pdf_title": "64 TABLE-9 CITY-WISE INCIDENCE OF COGNIZABLE CRIMES (IPC) DURING 1989 (CITIES HAVING POPULATION OF 5 LAKHS OR MORE)",
+ "row_label": "SL.NO. / STATE/ UT/CITY",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 63,
- "n_cols": 18,
- "n_cells": 1112,
+ "n_rows": 106,
+ "n_cols": 26,
+ "n_cells": 1071,
  "columns": [
   {
    "col_no": "3",
-   "name": "CITY-WISE MURDER",
+   "name": "MURDER",
    "header": [
-    "CITY-WISE MURDER"
+    "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF | (CITIES ATTEMPT TO COMMIT MURDER",
+   "name": "ATTEMPT TO COMMIT MURDER",
    "header": [
-    "OF",
-    "(CITIES ATTEMPT TO COMMIT MURDER"
+    "ATTEMPT TO COMMIT MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF | HAVING C.H.NOT AMOUNT-~ ING MURDER",
+   "name": "C. H. NOT AMOUNT-ING TO MURDER",
    "header": [
-    "OF",
-    "HAVING C.H.NOT AMOUNT-~ ING MURDER"
+    "C. H. NOT AMOUNT-ING TO MURDER"
    ]
   },
   {
    "col_no": "6",
-   "name": "COCNTZARIE POPULATION OF RAPE TO",
+   "name": "RAPE",
    "header": [
-    "COCNTZARIE POPULATION OF RAPE TO"
+    "RAPE"
    ]
   },
   {
    "col_no": "7",
-   "name": "CRIMES(IPC) 5 TOTAL",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
    "header": [
-    "CRIMES(IPC) 5 TOTAL"
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "DURING LAKHS KIDNAPPING OF &",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS",
    "header": [
-    "DURING LAKHS KIDNAPPING OF &"
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS"
    ]
   },
   {
    "col_no": "9",
-   "name": "1989 OR MORE) & WOMEN Or GIRLS",
+   "name": "DACOITY",
    "header": [
-    "1989 OR MORE) & WOMEN Or GIRLS"
+    "DACOITY"
    ]
   },
   {
    "col_no": "10",
-   "name": "DACOITY ABDUCILUN OTHERS",
+   "name": "OF OTHERS",
    "header": [
-    "DACOITY ABDUCILUN OTHERS"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "PREPARATION AND FOR DACOITY",
-   "header": [
-    "PREPARATION AND FOR DACOITY"
+    "OF OTHERS"
    ]
   },
   {
    "col_no": "12",
-   "name": "col_12",
-   "header": []
+   "name": "ROBBERY (12)",
+   "header": [
+    "ROBBERY"
+   ]
   },
   {
    "col_no": "13",
-   "name": "£13)",
+   "name": "BURGLARY (13)",
    "header": [
-    "£13)"
+    "BURGLARY"
    ]
   },
   {
    "col_no": "14",
-   "name": "THEFT",
+   "name": "THEFT (14)",
    "header": [
     "THEFT"
    ]
   },
   {
    "col_no": "15",
-   "name": "RIOTS",
+   "name": "RIOTS (15)",
    "header": [
     "RIOTS"
    ]
   },
   {
    "col_no": "16",
-   "name": "CRIMINAL BREACH OF TRUST",
+   "name": "CRIMINAL BREACH OF TRUST (16)",
    "header": [
     "CRIMINAL BREACH OF TRUST"
    ]
   },
   {
    "col_no": "17",
-   "name": "CHEATING",
+   "name": "CHEATING (17)",
    "header": [
     "CHEATING"
    ]
   },
   {
    "col_no": "18",
-   "name": "COUNTERFEITING",
+   "name": "COUNTER-FEITING (18)",
    "header": [
-    "COUNTERFEITING"
+    "COUNTER-FEITING"
    ]
   },
   {
    "col_no": "19",
-   "name": "OTHER IPC CRIMES",
+   "name": "OTHER IPC CRIMES (19)",
    "header": [
     "OTHER IPC CRIMES"
    ]
   },
   {
    "col_no": "20",
-   "name": "TOTAL coc. CRIMES UNDER IPC",
+   "name": "TOTAL COG. CRIMES UNDER IPC",
    "header": [
-    "TOTAL coc. CRIMES UNDER IPC"
+    "TOTAL COG. CRIMES UNDER IPC"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "ROBBERY (10001)",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "BURGLARY (10002)",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "THEFT (10003)",
+   "header": [
+    "THEFT"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "RIOTS (10004)",
+   "header": [
+    "RIOTS"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "CRIMINAL BREACH OF TRUST (10005)",
+   "header": [
+    "CRIMINAL BREACH OF TRUST"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "CHEATING (10006)",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "COUNTER-FEITING (10007)",
+   "header": [
+    "COUNTER-FEITING"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "OTHER IPC CRIMES (10008)",
+   "header": [
+    "OTHER IPC CRIMES"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "TOTAL COG CRIMES UNDER IPC",
+   "header": [
+    "TOTAL COG CRIMES UNDER IPC"
    ]
   }
  ],

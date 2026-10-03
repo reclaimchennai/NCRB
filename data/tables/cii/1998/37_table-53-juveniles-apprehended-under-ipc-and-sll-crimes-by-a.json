@@ -8,21 +8,28 @@
  "serial": "37",
  "title": "Juveniles Apprehended Under IPC & SLL Crimes By Age Groups (1988-98)",
  "listing_title": "Juveniles Apprehended Under IPC & SLL Crimes By Age Groups (1988-98)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-53--juveniles-apprehended-under-ipc-and-sll-crimes-by-age-groups-(1988-98).pdf",
  "source_file": "raw/cii/1998/table_content/table-53--juveniles-apprehended-under-ipc-and-sll-crimes-by-age-groups-(1988-98).pdf",
  "source_sha256": "f142e371aab004528772e44dcaf6cd4e6535a92fe41a9bbc7bff888b4e97d884",
  "table_no": "53",
- "pdf_title": "",
- "row_label": "SL. NO. / YEAR",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-53",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
  "n_rows": 13,
- "n_cols": 9,
- "n_cells": 106,
+ "n_cols": 10,
+ "n_cells": 118,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "YEAR",
+   "header": [
+    "YEAR"
+   ]
+  },
   {
    "col_no": "3",
    "name": "7-12 YEARS",
@@ -32,55 +39,51 @@
   },
   {
    "col_no": "4",
-   "name": "ES PERCENTAGE TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL (4)",
    "header": [
-    "ES PERCENTAGE TO TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "- 12-16 YEARS",
+   "name": "12-16 YEARS",
    "header": [
-    "- 12-16 YEARS"
+    "12-16 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "- PERCENTAGE To TOTAL",
+   "name": "PERCENTAGE TO TOTAL (6)",
    "header": [
-    "- PERCENTAGE To TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "py AGE GROUPS | NDE IPC AND SI! (1988.98) 16-18 YEARS",
+   "name": "16-18 YEARS",
    "header": [
-    "py AGE GROUPS",
-    "NDE IPC AND SI! (1988.98) 16-18 YEARS"
+    "16-18 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "py AGE GROUPS | PERCENTAGE TO TOTAL",
+   "name": "PERCENTAGE TO TOTAL (8)",
    "header": [
-    "py AGE GROUPS",
     "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "py AGE GROUPS | 18-21 YEARS",
+   "name": "18-21 YEARS",
    "header": [
-    "py AGE GROUPS",
     "18-21 YEARS"
    ]
   },
   {
    "col_no": "10",
-   "name": "py AGE GROUPS | PERCENTAGE To TOTAL",
+   "name": "PERCENTAGE TO TOTAL (10)",
    "header": [
-    "py AGE GROUPS",
-    "PERCENTAGE To TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
@@ -91,12 +94,7 @@
    ]
   }
  ],
- "notes": [
-  "1998 OVER",
-  "1997 i",
-  "7-12 years means 7 years and above but below 12 years",
-  "185 NCRB/2000—18A"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -8,34 +8,51 @@
  "serial": "78",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1995",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1995",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-78-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-78-1995-crime-survey.pdf",
  "source_sha256": "8201b48bbe68024dbd9cad187131a27c7e91a5cff3f2109f2e33835875cec2ce",
  "table_no": "78",
- "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF",
- "row_label": "SL. NO. / PLACE OF OCCURRENCE / OCCURRENCE DURING DACOITY NUMBER / OCCURRENCE DURING VALUE",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-78",
+ "row_label": "SL. NO. / PLACE OF OCCURRENCE",
  "pages": [
   1
  ],
  "n_rows": 8,
- "n_cols": 6,
- "n_cells": 46,
+ "n_cols": 8,
+ "n_cells": 64,
  "columns": [
   {
-   "col_no": "5",
-   "name": "OCCURRENCE DURING | ROBBERY NUMBER",
+   "col_no": "3",
+   "name": "DACOITY | NUMBER",
    "header": [
-    "OCCURRENCE DURING",
-    "ROBBERY NUMBER"
+    "DACOITY",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DACOITY | VALUE",
+   "header": [
+    "DACOITY",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ROBBERY | NUMBER",
+   "header": [
+    "ROBBERY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "1995 VALUE",
+   "name": "ROBBERY | VALUE",
    "header": [
-    "1995 VALUE"
+    "ROBBERY",
+    "VALUE"
    ]
   },
   {
@@ -56,17 +73,17 @@
   },
   {
    "col_no": "9",
-   "name": "(Rs. in lakh) | THEFT NUMBER",
+   "name": "THEFT | NUMBER",
    "header": [
-    "(Rs. in lakh)",
-    "THEFT NUMBER"
+    "THEFT",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "(Rs. in lakh) | VALUE",
+   "name": "THEFT | VALUE",
    "header": [
-    "(Rs. in lakh)",
+    "THEFT",
     "VALUE"
    ]
   }
@@ -76,8 +93,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

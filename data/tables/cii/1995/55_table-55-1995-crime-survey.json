@@ -1,0 +1,178 @@
+{
+ "table_id": "cii/1995/55_table-55-1995-crime-survey",
+ "publication": "cii",
+ "year": 1995,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "55",
+ "title": "Classification of Juveniles Arrested (under IPC and SLL) by Attributes During 1995 (State, UT & City-Wise)",
+ "listing_title": "Classification of Juveniles Arrested (under IPC and SLL) by Attributes During 1995 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-55-1995-crime-survey.pdf",
+ "source_file": "raw/cii/1995/table_content/table-55-1995-crime-survey.pdf",
+ "source_sha256": "a02c3e9a93b3b86f88c9e50d2b35af13d0e2d28c6fd21eb0ddf45b8e696fd4ae",
+ "table_no": "55",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-55",
+ "row_label": "SL.NO. / STATE/UT/CITY",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 116,
+ "n_cols": 17,
+ "n_cells": 986,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "BY EDUCATION | ILLITERATE",
+   "header": [
+    "BY EDUCATION",
+    "ILLITERATE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BY EDUCATION | PRIMARY",
+   "header": [
+    "BY EDUCATION",
+    "PRIMARY"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BY EDUCATION | ABOVE PRIMARY BUT BELOW MATRIC/H. SEC.",
+   "header": [
+    "BY EDUCATION",
+    "ABOVE PRIMARY BUT BELOW MATRIC/H. SEC."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "BY EDUCATION | MATRIC/H. SEC.& ABOVE",
+   "header": [
+    "BY EDUCATION",
+    "MATRIC/H. SEC.& ABOVE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BY EDUCATION | TOTAL",
+   "header": [
+    "BY EDUCATION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH PARENTS",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH PARENTS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARDIANS",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH GUARDIANS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "BY FAMILY BACKGROUND | HOME LESS",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "HOME LESS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "BY FAMILY BACKGROUND | TOTAL",
+   "header": [
+    "BY FAMILY BACKGROUND",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BY ECONOMIC-SETUP | LOW/MID INCOME (FROM RS. 501 TO 1000 PM)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "LOW/MID INCOME (FROM RS. 501 TO 1000 PM)"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "BY ECONOMIC-SETUP | MIDDLE INCOME (RS.1001 TO 2000 PM)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "MIDDLE INCOME (RS.1001 TO 2000 PM)"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "BY ECONOMIC-SETUP | UPP/MID INCOME (FROM RS 2001 TO 3000 PM)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "UPP/MID INCOME (FROM RS 2001 TO 3000 PM)"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "BY ECONOMIC-SETUP | UPPER INCOME (ABOVE RS.3000 PM)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "UPPER INCOME (ABOVE RS.3000 PM)"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "BY ECONOMIC-SETUP | TOTAL",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "RECIDIVISM | NEW DELIN- QUENTS",
+   "header": [
+    "RECIDIVISM",
+    "NEW DELIN- QUENTS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "RECIDIVISM | OLD DELIN- QUENTS",
+   "header": [
+    "RECIDIVISM",
+    "OLD DELIN- QUENTS"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "RECIDIVISM | TOTAL",
+   "header": [
+    "RECIDIVISM",
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 22,
+  "failures": [
+   "col 5 'TOTAL (UTS)': printed 386, sum 396",
+   "col 5 'TOTAL (ALL-INDIA)': printed 3647, sum 3637"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

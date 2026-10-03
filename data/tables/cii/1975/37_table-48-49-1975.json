@@ -8,54 +8,67 @@
  "serial": "37",
  "title": "Property Stolen and Recovered by Category of Offences; Nature of Property Stolen and Recovered",
  "listing_title": "Property Stolen and Recovered by Category of Offences; Nature of Property Stolen and Recovered",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48-49-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-48-49-1975.pdf",
  "source_sha256": "709918aebd4022d33c0654ffd07c9b4903a76aa9afba4c84215bd5438f9eda43",
- "table_no": "",
- "pdf_title": "loa",
- "row_label": "‘Ma. 1 I. 2 3. 4. §. 6. Sl, Ha. / at 2 - - « Robbery Thefts Criminal Breach of Tat - Obes Tara Mature off / gan Fea of was 3 2 4 * - ‘ ie Nature of Property pa 20len ==! party - stolea Pits",
+ "table_no": "4S",
+ "pdf_title": "103 TABLE 4S Property stolen and recovered by category of offences",
+ "row_label": "Sl. No. / Category of Offences",
  "pages": [
+  1,
   1
  ],
- "n_rows": 8,
- "n_cols": 3,
- "n_cells": 24,
+ "n_rows": 15,
+ "n_cols": 5,
+ "n_cells": 66,
  "columns": [
   {
-   "col_no": "4",
-   "name": "by category of we No. of casesin 5 ‘ WL. 26 2715 - 2071.39 - 4476.39 1,080, 20 153.83 ee 8,370.21 amd Eth Me of",
+   "col_no": "3",
+   "name": "No. of cases in which property was stolen.",
    "header": [
-    "by category of we No. of casesin 5 ‘ WL. 26 2715 - 2071.39 - 4476.39 1,080, 20 153.83 ee 8,370.21 amd Eth Me of"
+    "No. of cases in which property was stolen."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "No. of cases in which property was recovered",
+   "header": [
+    "No. of cases in which property was recovered"
    ]
   },
   {
    "col_no": "5",
-   "name": "Value a i earnest prolakhs é 4.05 10,169 68.08 17,683 - 364.05 174,088 1,81 ,061 1549.79 132.67 17,961 15,387 74.34 616,69 2,282,99 Value of peo I in Fis. lakhe",
+   "name": "Value of property stolen in lakhs",
    "header": [
-    "Value a i earnest prolakhs é 4.05 10,169 68.08 17,683 - 364.05 174,088 1,81 ,061 1549.79 132.67 17,961 15,387 74.34 616,69 2,282,99 Value of peo I in Fis. lakhe"
+    "Value of property stolen in lakhs"
    ]
   },
   {
    "col_no": "6",
-   "name": "bat SS re Lo kee Tt 4 25.3 2,125 28.7 4,653 17.6 4059 34.6 119,630 12.3 4.570 4.3 7,642 m3 1,83,469 - res af 9 to covered ss stolen,",
+   "name": "Value of property recovered in lakhs",
    "header": [
-    "bat SS re Lo kee Tt 4 25.3 2,125 28.7 4,653 17.6 4059 34.6 119,630 12.3 4.570 4.3 7,642 m3 1,83,469 - res af 9 to covered ss stolen,"
+    "Value of property recovered in lakhs"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Percentage of property recovered property stolen",
+   "header": [
+    "Percentage of property recovered property stolen"
    ]
   }
  ],
- "notes": [
-  "6 Ty"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

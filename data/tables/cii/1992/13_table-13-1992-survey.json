@@ -8,68 +8,75 @@
  "serial": "13",
  "title": "Disposal of IPC Crime Cases by Police During 1992",
  "listing_title": "Disposal of IPC Crime Cases by Police During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-13-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-13-1992-survey.pdf",
  "source_sha256": "f81902821625120d2e9b48494a977a73f26dfb69ae6cb9bfc654d3a27168edee",
  "table_no": "13",
- "pdf_title": "DISPOSAL OF 1PC CRIME CASES BY POLICE DUKING 1992",
- "row_label": "SL. NO. (1)",
+ "pdf_title": "121 TABLE 13 DISPOSAL OF IPC CRIME CASES BY POLICE DURING 1992",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 19,
+ "n_rows": 18,
  "n_cols": 7,
- "n_cells": 127,
+ "n_cells": 126,
  "columns": [
   {
-   "col_no": "2",
-   "name": "CRIME OF FOR STIGATION INCLUDING PENDING CASES (2)",
-   "header": [
-    "CRIME OF FOR STIGATION INCLUDING PENDING CASES (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "HEAD CASES INVEGATION WAS REFUSED (3)",
+   "name": "TOTAL NO. | OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
    "header": [
-    "HEAD CASES INVEGATION WAS REFUSED (3)"
+    "TOTAL NO.",
+    "OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL INVESTICHARGE f£2UND FALSE/ MISTAKE OF ETC. (4)",
+   "name": "TOTAL NO. | INVESTIGATION WAS REFUSED",
    "header": [
-    "TOTAL INVESTICHARGE f£2UND FALSE/ MISTAKE OF ETC. (4)"
+    "TOTAL NO.",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "IN NO. INVESTIGATION F{NAL REPORT TRUE SUBMI LAW (5)",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS CHARGE FOUND FALSE/MISTAKE OF LAW ETC.",
    "header": [
-    "IN NO. INVESTIGATION F{NAL REPORT TRUE SUBMI LAW (5)"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS CHARGE FOUND FALSE/MISTAKE OF LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "WHICH NO. 2-22-2224 WAS CHARGE SHEETS WERE LAID (6)",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "WHICH NO. 2-22-2224 WAS CHARGE SHEETS WERE LAID (6)"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF COMPLETED TOTAL {(5)+(6) +(7)} (7)",
+   "name": "NO. OF CASES IN WHICH | CHARGE SHEETS WERE LAID",
    "header": [
-    "OF COMPLETED TOTAL {(5)+(6) +(7)} (7)"
+    "NO. OF CASES IN WHICH",
+    "CHARGE SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "8",
-   "name": "CASES OF NO. CASES PENDING - GATION (9) (3)",
+   "name": "NO. OF CASES IN WHICH | TOTAL {(5)+(6)+(7)}",
    "header": [
-    "CASES OF NO. CASES PENDING - GATION (9) (3)"
+    "NO. OF CASES IN WHICH",
+    "TOTAL {(5)+(6)+(7)}"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF CASES | PENDING INVESTIGATION",
+   "header": [
+    "NO. OF CASES",
+    "PENDING INVESTIGATION"
    ]
   }
  ],
@@ -78,10 +85,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
+  "other_totals_checked": 7,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

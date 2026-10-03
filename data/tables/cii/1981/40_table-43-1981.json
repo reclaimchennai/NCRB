@@ -1,0 +1,75 @@
+{
+ "table_id": "cii/1981/40_table-43-1981",
+ "publication": "cii",
+ "year": 1981,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "40",
+ "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local & Special Laws During the Year 1981",
+ "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local & Special Laws During the Year 1981",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-43-1981.pdf",
+ "source_file": "raw/cii/1981/table_content/table-43-1981.pdf",
+ "source_sha256": "8b032711015650e8438d9b90478ce8d37ed5dc2261118b730acc118794b218b8",
+ "table_no": "43",
+ "pdf_title": "99 TABLE 43 JUVENILES APPREHENDED (BY AGE GROUP) FOR COMMITTING CRIMES UNDER LOCAL & SPECIAL LAWS DURING THE YEAR 1981",
+ "row_label": "Sl. States/U.Ts./CitiesNo.",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 235,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "7 to 12 Years",
+   "header": [
+    "7 to 12 Years"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "12 to 16 Years",
+   "header": [
+    "12 to 16 Years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "16 to 18 Years",
+   "header": [
+    "16 to 18 Years"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "18 to 21 Years",
+   "header": [
+    "18 to 21 Years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 9,
+  "failures": [
+   "col 6 'TOTAL (U. Ts.)': printed 2699, sum 1142"
+  ],
+  "other_totals_checked": 10,
+  "other_totals_passed": 7
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

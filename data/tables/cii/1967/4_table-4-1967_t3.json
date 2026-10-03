@@ -6,100 +6,77 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "4",
- "title": "20",
+ "title": "20 TABLE INCIDENCE OF CRIME UNDER DIFFERENT HEADS",
  "listing_title": "Incidence of Crime under Different Heads During 1966 and 1967 Showing Percentage Variation",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-4-1967.pdf",
  "source_sha256": "91f3cd13847106399fbc65d69c0808b1d7b5c115da7b3b7e476a46fdd51d9533",
  "table_no": "",
- "pdf_title": "20",
- "row_label": "No, / INCIDENCK -",
+ "pdf_title": "20 TABLE INCIDENCE OF CRIME UNDER DIFFERENT HEADS",
+ "row_label": "No.",
  "pages": [
   3,
   4
  ],
- "n_rows": 80,
- "n_cols": 11,
- "n_cells": 399,
+ "n_rows": 79,
+ "n_cols": 7,
+ "n_cells": 434,
  "columns": [
   {
-   "col_no": "15",
-   "name": "OF ,-.. 1966",
+   "col_no": "2",
+   "name": "States/U.Ts/Cities",
    "header": [
-    "OF ,-.. 1966"
+    "States/U.Ts/Cities"
    ]
   },
   {
-   "col_no": "16",
-   "name": "CRIME - -",
+   "col_no": "3",
+   "name": "Robbery | 1966",
    "header": [
-    "CRIME - -"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "UNDER Robbery 1967",
-   "header": [
-    "UNDER Robbery 1967"
-   ]
-  },
-  {
-   "col_no": "18",
-   "name": "TABLE DIFFERENT HEADS ee 1966 - Percentage",
-   "header": [
-    "TABLE DIFFERENT HEADS ee 1966 - Percentage"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Breaking | Percentage variation.",
-   "header": [
-    "Breaking",
-    "Percentage variation."
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "‘",
-   "header": [
-    "‘"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "1966",
-   "header": [
+    "Robbery",
     "1966"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "Cattle thefts Percentage 1967 variation.",
+   "col_no": "4",
+   "name": "Robbery | 1967",
    "header": [
-    "Cattle thefts Percentage 1967 variation."
+    "Robbery",
+    "1967"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "‘1966",
+   "col_no": "5",
+   "name": "Robbery | Percentage variation",
    "header": [
-    "‘1966"
+    "Robbery",
+    "Percentage variation"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "Ordinary thefts 1967",
+   "col_no": "6",
+   "name": "House- | 1966",
    "header": [
-    "Ordinary thefts 1967"
+    "House-",
+    "1966"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "Percentage’ variation",
+   "col_no": "7",
+   "name": "Ordinary thefts | 1967",
    "header": [
-    "Percentage’ variation"
+    "Ordinary thefts",
+    "1967"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Ordinary thefts | Percentage variation",
+   "header": [
+    "Ordinary thefts",
+    "Percentage variation"
    ]
   }
  ],
@@ -108,10 +85,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 8
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

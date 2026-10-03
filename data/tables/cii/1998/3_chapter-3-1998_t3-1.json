@@ -6,29 +6,43 @@
  "topic": "",
  "section": "",
  "serial": "3",
- "title": "Violent Crimes reported during 1996-1998",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 Table-3.1",
  "listing_title": "Violent Crimes",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-3-1998.pdf",
  "source_file": "raw/cii/1998/table_chapter/chapter-3-1998.pdf",
  "source_sha256": "682e748e88426f9eb4437847e253c0a4d0a38628471e96c894244a41d2dcc852",
  "table_no": "3.1",
- "pdf_title": "Violent Crimes reported during 1996-1998",
- "row_label": "Sl. No. / Crimes / Years 1996 / Years 1997",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 Table-3.1",
+ "row_label": "Years",
  "pages": [
+  2,
   2
  ],
- "n_rows": 11,
- "n_cols": 1,
- "n_cells": 11,
+ "n_rows": 5,
+ "n_cols": 3,
+ "n_cells": 6,
  "columns": [
   {
-   "col_no": "5",
-   "name": "Years | 1998",
+   "col_no": "4",
+   "name": "Years (4)",
    "header": [
-    "Years",
-    "1998"
+    "Years"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Years (5)",
+   "header": [
+    "Years"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "% Change In 1998 Over 1997",
+   "header": [
+    "% Change In 1998 Over 1997"
    ]
   }
  ],
@@ -41,6 +55,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -8,14 +8,14 @@
  "serial": "59",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-59-1992-survey.pdf",
  "source_sha256": "4b924df0f9fa6ea7ca554ebb83ad9ef84fcd21c926320714f0893462e25aa245",
  "table_no": "59",
- "pdf_title": "",
- "row_label": "SL. NO. / NUMBER PLACE",
+ "pdf_title": "270 TABLE-59 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1992",
+ "row_label": "SL. PLACE OF NO. OCCURRENCE / SL. PLACE OF NO. OCCURRENCE",
  "pages": [
   1
  ],
@@ -25,58 +25,66 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "OF OF NUMBER",
+   "name": "DACOITY | NUMBER",
    "header": [
-    "OF OF NUMBER"
+    "DACOITY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "CASES DACOLTY VALUE",
+   "name": "DACOITY | VALUE",
    "header": [
-    "CASES DACOLTY VALUE"
+    "DACOITY",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "REPORTED ROBBERY NUMBER",
+   "name": "ROBBERY | NUMBER",
    "header": [
-    "REPORTED ROBBERY NUMBER"
+    "ROBBERY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "AND VALUE VALUE",
+   "name": "ROBBERY | VALUE",
    "header": [
-    "AND VALUE VALUE"
+    "ROBBERY",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF PLACE OF BURGLARY NUMBER",
+   "name": "BURGLARY | NUMBER",
    "header": [
-    "OF PLACE OF BURGLARY NUMBER"
+    "BURGLARY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "PROPERTY DURING (Rs. VALUE",
+   "name": "BURGLARY | VALUE",
    "header": [
-    "PROPERTY DURING (Rs. VALUE"
+    "BURGLARY",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "STOLEN 1992 in NUMBER",
+   "name": "THEPT | NUMBER",
    "header": [
-    "STOLEN 1992 in NUMBER"
+    "THEPT",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "BY lakh) THEFT VALUE",
+   "name": "THEPT | VALUE",
    "header": [
-    "BY lakh) THEFT VALUE"
+    "THEPT",
+    "VALUE"
    ]
   }
  ],
@@ -85,8 +93,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 3
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

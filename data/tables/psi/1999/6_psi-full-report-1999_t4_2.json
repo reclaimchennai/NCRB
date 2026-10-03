@@ -6,16 +6,16 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "DISTRIBUTION OF INMATES IN THE COUNTRY BY AGE GROUP AND PERCENTAGE SHARE AT THE END OF 1999",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-4",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "4",
- "pdf_title": "DISTRIBUTION OF INMATES IN THE COUNTRY BY AGE GROUP AND PERCENTAGE SHARE AT THE END OF 1999",
- "row_label": "SR. no, / CATEGORY",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-4",
+ "row_label": "SR. NO. / CATEGORY",
  "pages": [
   61
  ],
@@ -25,53 +25,51 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "BELOW 16% | “Years”",
+   "name": "BELOW 16 YEARS",
    "header": [
-    "BELOW 16%",
-    "“Years”"
+    "BELOW 16 YEARS"
    ]
   },
   {
    "col_no": "4",
-   "name": "BELOW 16% | SHARE",
+   "name": "% SHARE (4)",
    "header": [
-    "BELOW 16%",
-    "SHARE"
+    "% SHARE"
    ]
   },
   {
    "col_no": "5",
-   "name": "16-18 YEARS",
+   "name": "16 - 18 YEARS",
    "header": [
-    "16-18 YEARS"
+    "16 - 18 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "*SHARE",
+   "name": "%SHARE",
    "header": [
-    "*SHARE"
+    "%SHARE"
    ]
   },
   {
    "col_no": "7",
-   "name": "18 - 30",
+   "name": "18 - 30 YEARS",
    "header": [
-    "18 - 30"
+    "18 - 30 YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "% %SHARE",
+   "name": "% SHARE (8)",
    "header": [
-    "% %SHARE"
+    "% SHARE"
    ]
   },
   {
    "col_no": "9",
-   "name": "30 - 50",
+   "name": "30 - 50 YEARS",
    "header": [
-    "30 - 50"
+    "30 - 50 YEARS"
    ]
   },
   {
@@ -83,9 +81,9 @@
   },
   {
    "col_no": "11",
-   "name": "ABOVE .0 ay",
+   "name": "ABOVE 50 YEARS",
    "header": [
-    "ABOVE .0 ay"
+    "ABOVE 50 YEARS"
    ]
   },
   {
@@ -103,15 +101,13 @@
    ]
   }
  ],
- "notes": [
-  "FOREIGNERS)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

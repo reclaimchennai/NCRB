@@ -8,21 +8,21 @@
  "serial": "6",
  "title": "Incidence of Total Cognizable Crime in States, U.T.s and Cities During 1981 to 1985 Alongwith Percentage Variation over the Quinquennial Average of 1980-1984 and over 1984",
  "listing_title": "Incidence of Total Cognizable Crime in States, U.T.s and Cities During 1981 to 1985 Alongwith Percentage Variation over the Quinquennial Average of 1980-1984 and over 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables4-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables4-1985.pdf",
  "source_sha256": "0fb3ab38cab0032914dbca4081d945ccd30faad051195057c24ca4a6e9e1b556",
  "table_no": "4",
- "pdf_title": "Incidence Of Total Coonizahle Crime In States U.Ts. And Cities During 1981 to 1985 Alongwith Percentage Variation Over The Quinouennial Average Of 1980-1984 And Over 1984",
- "row_label": "$l. States/U. Ts/Cities No. qa)",
+ "pdf_title": "6 TABLE -4 Incidence Of Total Cognizable Crime In States U.Ts. And Cities",
+ "row_label": "S1.No.",
  "pages": [
   1,
   2
  ],
- "n_rows": 55,
- "n_cols": 10,
- "n_cells": 470,
+ "n_rows": 90,
+ "n_cols": 8,
+ "n_cells": 376,
  "columns": [
   {
    "col_no": "3",
@@ -60,59 +60,36 @@
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Quinquennial average 1980-1934 (QA) (2)",
+   "col_no": "10",
+   "name": "Quinquennial average 1980-1984 (QA)",
    "header": [
-    "Quinquennial average 1980-1934 (QA) (2)"
+    "Quinquennial average 1980-1984 (QA)"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "1985 (8)",
+   "col_no": "11",
+   "name": "1985",
    "header": [
-    "1985 (8)"
+    "1985"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "variation Over (QA) (9)",
+   "col_no": "12",
+   "name": "Volume of crime per lakh of population in 1985",
    "header": [
-    "variation Over (QA) (9)"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "in (-)decrease Over 1984 «10>",
-   "header": [
-    "in (-)decrease Over 1984 «10>"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "crime Volume of 1985 lakh ot per population in 1985 q12) q1l)",
-   "header": [
-    "crime Volume of 1985 lakh ot per population in 1985 q12) q1l)"
+    "Volume of crime per lakh of population in 1985"
    ]
   }
  ],
- "notes": [
-  "Note :* Average of 4 years have been shown for the year 1980 against Jaipur",
-  "Lucknow, Nagpur and Pune as the figurs were not availabie from these",
-  "4 cities during 1980"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 5,
-  "failures": [
-   "col 3 'TOTAL (CITIES)': printed 173487, sum 272099",
-   "col 4 'TOTAL (CITIES)': printed 164273, sum 248151",
-   "col 6 'TOTAL (CITIES)': printed 148421, sum 224323",
-   "col 7 'TOTAL (CITIES)': printed 152413, sum 236141"
-  ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 14,
+  "cells_passed": 14,
+  "failures": [],
+  "other_totals_checked": 6,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

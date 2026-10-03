@@ -6,155 +6,238 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "12",
- "title": "IMNCIDENCR(I) & RATE (R) OF COGNIZABLE UNDER DIFYEXSHT CRIME HEADS IN STATES, UTs & CITIES DURING 1992",
+ "title": "105 TABLE-12 INCIDENCE(I) & RATE (R) OF COGNIZABLE CRIMES(LSL)",
  "listing_title": "Incidence & Rate of Cognizable Crimes (LSL) under Different Crime Heads in States, UTs & Cities During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-12-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-12-1992-survey.pdf",
  "source_sha256": "829d487a2550808df9b7ea88372484d8f83482662b4fe8889fdbb4c4c4668bff",
  "table_no": "12",
- "pdf_title": "IMNCIDENCR(I) & RATE (R) OF COGNIZABLE UNDER DIFYEXSHT CRIME HEADS IN STATES, UTs & CITIES DURING 1992",
- "row_label": "sL.",
+ "pdf_title": "105 TABLE-12 INCIDENCE(I) & RATE (R) OF COGNIZABLE CRIMES(LSL)",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2,
-  3
+  3,
+  4,
+  5
  ],
- "n_rows": 75,
- "n_cols": 16,
- "n_cells": 720,
+ "n_rows": 74,
+ "n_cols": 24,
+ "n_cells": 1208,
  "columns": [
   {
    "col_no": "3",
-   "name": "ARMS I",
+   "name": "ARMS ACT | I",
    "header": [
-    "ARMS I"
+    "ARMS ACT",
+    "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "ACT R (4)",
+   "name": "ARMS ACT | R",
    "header": [
-    "ACT R"
+    "ARMS ACT",
+    "R"
    ]
   },
   {
    "col_no": "5",
-   "name": "NARCOTIC & SUBSTANCES I",
+   "name": "NARCOTIC DRUGS & PSYCHOTROPIC SUBSTANCES ACT | I",
    "header": [
-    "NARCOTIC & SUBSTANCES I"
+    "NARCOTIC DRUGS & PSYCHOTROPIC SUBSTANCES ACT",
+    "I"
    ]
   },
   {
    "col_no": "6",
-   "name": "DRUGS PSYCHOTROPIC ACT R",
+   "name": "NARCOTIC DRUGS & PSYCHOTROPIC SUBSTANCES ACT | R",
    "header": [
-    "DRUGS PSYCHOTROPIC ACT R"
+    "NARCOTIC DRUGS & PSYCHOTROPIC SUBSTANCES ACT",
+    "R"
    ]
   },
   {
    "col_no": "7",
-   "name": "GAMBLING I",
+   "name": "GAMBLING ACT | I",
    "header": [
-    "GAMBLING I"
+    "GAMBLING ACT",
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "ACT R (8)",
+   "name": "GAMBLING ACT | R",
    "header": [
-    "ACT R"
+    "GAMBLING ACT",
+    "R"
    ]
   },
   {
    "col_no": "9",
-   "name": "BXCISE I",
+   "name": "EXCISE ACT | I",
    "header": [
-    "BXCISE I"
+    "EXCISE ACT",
+    "I"
    ]
   },
   {
    "col_no": "10",
-   "name": "ACT R (10)",
+   "name": "EXCISE ACT | R",
    "header": [
-    "ACT R"
+    "EXCISE ACT",
+    "R"
    ]
   },
   {
    "col_no": "11",
-   "name": "PROHIBITION I",
+   "name": "PROHIBITION ACT | I",
    "header": [
-    "PROHIBITION I"
+    "PROHIBITION ACT",
+    "I"
    ]
   },
   {
    "col_no": "12",
-   "name": "ACT R (12)",
+   "name": "PROHIBITION ACT | R",
    "header": [
-    "ACT R"
+    "PROHIBITION ACT",
+    "R"
    ]
   },
   {
    "col_no": "13",
-   "name": "EXPLOSIVES EXPLOSIVE SUBSTANCES I",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT | I",
    "header": [
-    "EXPLOSIVES EXPLOSIVE SUBSTANCES I"
+    "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT",
+    "I"
    ]
   },
   {
    "col_no": "14",
-   "name": "& R",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT | R",
    "header": [
-    "& R"
+    "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT",
+    "R"
    ]
   },
   {
    "col_no": "15",
-   "name": "IMMORAL ACT -",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | I",
    "header": [
-    "IMMORAL ACT -"
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "I"
    ]
   },
   {
    "col_no": "16",
-   "name": "TRAFFIC (PREVENTION) ACT R",
+   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | R",
    "header": [
-    "TRAFFIC (PREVENTION) ACT R"
+    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "R"
    ]
   },
   {
    "col_no": "17",
-   "name": "INDIAN ACT I",
+   "name": "INDIAN RAILWAYS ACT | I",
    "header": [
-    "INDIAN ACT I"
+    "INDIAN RAILWAYS ACT",
+    "I"
    ]
   },
   {
    "col_no": "18",
-   "name": "RAILWAYS R",
+   "name": "INDIAN RAILWAYS ACT | R",
    "header": [
-    "RAILWAYS R"
+    "INDIAN RAILWAYS ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "REGISTRATION OF FOREIGNERS ACT | I",
+   "header": [
+    "REGISTRATION OF FOREIGNERS ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "REGISTRATION OF FOREIGNERS ACT | R",
+   "header": [
+    "REGISTRATION OF FOREIGNERS ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | I",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | R",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "INDIAN PASSPORT ACT | I",
+   "header": [
+    "INDIAN PASSPORT ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "INDIAN PASSPORT ACT | R",
+   "header": [
+    "INDIAN PASSPORT ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "ESSENTIAL COMMODITIES ACT | I",
+   "header": [
+    "ESSENTIAL COMMODITIES ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "ESSENTIAL COMMODITIES ACT | R",
+   "header": [
+    "ESSENTIAL COMMODITIES ACT",
+    "R"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 15,
-  "cells_passed": 8,
+  "cells_checked": 32,
+  "cells_passed": 21,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 60452, sum 60152",
-   "col 9 'TOTAL (STATES)': printed 90613, sum 90611",
-   "col 11 'TOTAL (STATES)': printed 627357, sum 348600",
-   "col 13 'TOTAL (STATES)': printed 8870, sum 3893",
-   "col 15 'TOTAL (STATES)': printed 12285, sum 8817",
-   "col 17 'TOTAL (STATES)': printed 26475, sum 3737",
-   "col 17 'TOTAL (ALL - INDIA)': printed 274548, sum 26548"
+   "col 5 'TOTAL (STATES)': printed 21554, sum 21584",
+   "col 11 'TOTAL (STATES)': printed 627357, sum 627291",
+   "col 13 'TOTAL (STATES)': printed 8870, sum 7902",
+   "col 13 'TOTAL (UTs)': printed 29, sum 6",
+   "col 15 'TOTAL (STATES)': printed 12285, sum 12120",
+   "col 15 'TOTAL (UTs)': printed 295, sum 165",
+   "col 17 'TOTAL (STATES)': printed 26475, sum 10515",
+   "col 17 'TOTAL (UTs)': printed 73, sum 0"
   ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 2
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 5,
  "warnings": []
 }

@@ -6,23 +6,37 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "3",
- "title": "Table INCIDENCE OF CRIME IN STATES, U.Ts",
+ "title": "14 Table INCIDENCE OF CRIME IN STATES, U.Ts.",
  "listing_title": "Incidence of Crime in States, U.T.s and Cities - Total Cognizable Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-III-1968.pdf",
  "source_file": "raw/cii/1968/table_content/table-III-1968.pdf",
  "source_sha256": "6e82dea0d7d9053bfa3b36b3dd4f5ee499f7020eb79243ab3d2bc91cef9c4a09",
  "table_no": "",
- "pdf_title": "Table INCIDENCE OF CRIME IN STATES, U.Ts",
- "row_label": "lo. / T3./Cities / 1963",
+ "pdf_title": "14 Table INCIDENCE OF CRIME IN STATES, U.Ts.",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 33,
- "n_cols": 2,
- "n_cells": 65,
+ "n_rows": 35,
+ "n_cols": 4,
+ "n_cells": 140,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "1963",
+   "header": [
+    "1963"
+   ]
+  },
   {
    "col_no": "4",
    "name": "1964",

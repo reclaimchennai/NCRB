@@ -6,49 +6,42 @@
  "topic": "",
  "section": "PSI Year Wise 1995",
  "serial": "4",
- "title": "Types & Percentage share of Women Prisoners in States/UTs during 1995",
+ "title": "N.C.R.B.,(M.H.A.) PRISON STATISTICS - 1995 ## CHAPTER - 2",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/files/PSI-1995FullReport.pdf",
  "source_file": "raw/psi/1995/year_wise/PSI-1995FullReport.pdf",
  "source_sha256": "61e73c37df92817e9e0d39a4e894369ba3667eb0c83f76b86f9fed5e32b54d72",
  "table_no": "",
- "pdf_title": "Types & Percentage share of Women Prisoners in States/UTs during 1995",
- "row_label": "S|. No. ° / State/UT",
+ "pdf_title": "N.C.R.B.,(M.H.A.) PRISON STATISTICS - 1995 ## CHAPTER - 2",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
-  21
+  13
  ],
  "n_rows": 23,
- "n_cols": 4,
- "n_cells": 91,
+ "n_cols": 3,
+ "n_cells": 69,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Convicts",
+   "col_no": "3",
+   "name": "Available Capacity",
    "header": [
-    "Convicts"
+    "Available Capacity"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Inmates Population (Average) *",
+   "header": [
+    "Inmates Population (Average) *"
    ]
   },
   {
    "col_no": "5",
-   "name": "Under Trials",
+   "name": "Occupancy **",
    "header": [
-    "Under Trials"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Detenus",
-   "header": [
-    "Detenus"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Lunatics Others -",
-   "header": [
-    "Lunatics Others -"
+    "Occupancy **"
    ]
   }
  ],

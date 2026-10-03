@@ -8,50 +8,28 @@
  "serial": "22",
  "title": "Incidence & Rate of Cognizable Crimes (IPC) Under Different Crime Heads and Percentage Changes During 1997",
  "listing_title": "Incidence & Rate of Cognizable Crimes (IPC) Under Different Crime Heads and Percentage Changes During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-2-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-2-1996-crime-survey.pdf",
  "source_sha256": "a3db3c0e2a6c71aec8ac151e60514d1d796f260f80134a8cc8dcc5f48889a999",
  "table_no": "2",
- "pdf_title": "AND RATE OF CO@NI74RI CRIMES (IPC) UNDER DirFFEKEN! CRIME HEADS",
- "row_label": "CRIME HEAD",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE - 2",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1,
+  2,
   2
  ],
- "n_rows": 57,
- "n_cols": 11,
- "n_cells": 404,
+ "n_rows": 50,
+ "n_cols": 7,
+ "n_cells": 283,
  "columns": [
   {
-   "col_no": "3",
-   "name": "AND 1987",
-   "header": [
-    "AND 1987"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "CHANGES DURING 1997 | 1992",
-   "header": [
-    "CHANGES DURING 1997",
-    "1992"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "CHANGES DURING 1997 | 1993",
-   "header": [
-    "CHANGES DURING 1997",
-    "1993"
-   ]
-  },
-  {
    "col_no": "6",
-   "name": "1994",
+   "name": "1987",
    "header": [
-    "1994"
+    "1987"
    ]
   },
   {
@@ -63,55 +41,33 @@
   },
   {
    "col_no": "8",
-   "name": "1996 (8)",
+   "name": "1996",
    "header": [
     "1996"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "QUINQUENNIAL AVG. (1992-1996) (Q.A.)",
-   "header": [
-    "QUINQUENNIAL AVG. (1992-1996) (Q.A.)"
    ]
   },
   {
    "col_no": "10",
-   "name": "1997",
-   "header": [
-    "1997"
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "PERCENTAGE CHANGE IN 1997 (+) INCREASE/(-)DECREASE} OVER | 1987",
-   "header": [
-    "PERCENTAGE CHANGE IN 1997 (+) INCREASE/(-)DECREASE} OVER",
-    "1987"
-   ]
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "PERCENTAGE CHANGE IN 1997 (+) INCREASE/(-)DECREASE} OVER | QA.",
-   "header": [
-    "PERCENTAGE CHANGE IN 1997 (+) INCREASE/(-)DECREASE} OVER",
-    "QA."
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
-   "name": "1996 (13)",
-   "header": [
-    "1996"
-   ]
+   "name": "col_13",
+   "header": []
   }
  ],
- "notes": [
-  "Note: 1. Figures in brackets indicate rate of crime per lakh of pcipulation.",
-  "2. * indicates that the Crime Head was introduced till that year.",
-  "\\Note: 1. Figures in brackeis rate of crime per lakh of »opulation.",
-  "2. * indicates that the Crime Head was introduced till thiat year."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -120,6 +76,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

@@ -8,65 +8,195 @@
  "serial": "94",
  "title": "Complaints / Cases Registered Against Police Personnel During 1995",
  "listing_title": "Complaints / Cases Registered Against Police Personnel During 1995",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-94--complaints-cases-registered-against-police-rersonnel-during-1995-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-94--complaints-cases-registered-against-police-rersonnel-during-1995-1996.pdf",
  "source_sha256": "b31f2bce3b8ace3aedac342740fed310ce08c0615fc4153eadb79ed46e29dd5a",
  "table_no": "94",
- "pdf_title": "COMPLAINTS/CASES HEGISTEKED AGAINST POLICE PERSONNEL DURING 1995",
- "row_label": "SL. NO. / STATE/UT/CITY / COMPLAINTS NO. OF COMPLAINTS VED/ALLEGeo punna THE YEAR / COMPLAINTS NO. OF INQUIRY INSTITUTED MENTAL / COMPLAINTS NO. OF INQUIRY INSTITUTED MAGISTERIAL / COMPLAINTS NO. OF INQUIRY INSTITUTED JUDICIAL / REG! STERED COMPLAINTS/CASES DECLARED FALSE/ UNSUBSTANTIATED / REG! STERED NO. OF CASES - RECIS TERED - DURING THe - / NO, OF CASES prauan chance,",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-94",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
+  2,
   3
  ],
- "n_rows": 8,
- "n_cols": 2,
- "n_cells": 8,
+ "n_rows": 77,
+ "n_cols": 19,
+ "n_cells": 1102,
  "columns": [
   {
-   "col_no": "10",
-   "name": "NO, OF CASES | SENT UP cert",
+   "col_no": "3",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF COMPLAINTS RECEIVED/ALLEGED DURING THE YEAR",
    "header": [
-    "NO, OF CASES",
-    "SENT UP cert"
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF COMPLAINTS RECEIVED/ALLEGED DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF INQUIRY INSTITUTED | DEPART-MENTAL",
+   "header": [
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF INQUIRY INSTITUTED",
+    "DEPART-MENTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF INQUIRY INSTITUTED | MAGIS-TERIAL",
+   "header": [
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF INQUIRY INSTITUTED",
+    "MAGIS-TERIAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF INQUIRY INSTITUTED | JUDICIAL",
+   "header": [
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF INQUIRY INSTITUTED",
+    "JUDICIAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | COMPLAINTS/CASES DECLARED FALSE/ UNSUBS-TANTIA-TED",
+   "header": [
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "COMPLAINTS/CASES DECLARED FALSE/ UNSUBS-TANTIA-TED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF CASES REGISTERED DURING THE YEAR",
+   "header": [
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF CASES REGISTERED DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF CASES | REPORTED FOR REGULAR DEPTT. ACTION",
+   "header": [
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF CASES",
+    "REPORTED FOR REGULAR DEPTT. ACTION"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF CASES | SENT UP TRIALS/ CHARGE-SHEETED",
+   "header": [
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF CASES",
+    "SENT UP TRIALS/ CHARGE-SHEETED"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "POLICE PERSONNEL INVOLVED/ACTION TAKEN | NO. OF POLICE PERSONNEL SENT UP FOR TRIAL DURING THE YEAR",
+   "header": [
+    "POLICE PERSONNEL INVOLVED/ACTION TAKEN",
+    "NO. OF POLICE PERSONNEL SENT UP FOR TRIAL DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "POLICE PERSONNEL INVOLVED/ACTION TAKEN | NO. OF POLICE PERSONNEL IN WHOSE CASES WITHDRAWN OR OTHER-WISE DIS-POSED OF",
+   "header": [
+    "POLICE PERSONNEL INVOLVED/ACTION TAKEN",
+    "NO. OF POLICE PERSONNEL IN WHOSE CASES WITHDRAWN OR OTHER-WISE DIS-POSED OF"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "POLICE PERSONNEL INVOLVED/ACTION TAKEN | NO. OF POLICE PERSONNEL IN WHOSE CASES TRIAL WAS COMPLETED",
+   "header": [
+    "POLICE PERSONNEL INVOLVED/ACTION TAKEN",
+    "NO. OF POLICE PERSONNEL IN WHOSE CASES TRIAL WAS COMPLETED"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "POLICE PERSONNEL INVOLVED/ACTION TAKEN | NO. OF POLICE PERSONNEL | CONVICTED",
+   "header": [
+    "POLICE PERSONNEL INVOLVED/ACTION TAKEN",
+    "NO. OF POLICE PERSONNEL",
+    "CONVICTED"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "POLICE PERSONNEL INVOLVED/ACTION TAKEN | NO. OF POLICE PERSONNEL | ACQUITTED",
+   "header": [
+    "POLICE PERSONNEL INVOLVED/ACTION TAKEN",
+    "NO. OF POLICE PERSONNEL",
+    "ACQUITTED"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "AGAINST WHOM DISCIPLINARY ACTION INITIATED",
+   "header": [
+    "AGAINST WHOM DISCIPLINARY ACTION INITIATED"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "IN WHOSE CASES WITHDRAWN OR OTHER WISE DISPOSED OF",
+   "header": [
+    "IN WHOSE CASES WITHDRAWN OR OTHER WISE DISPOSED OF"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "IN WHOSE CASES TRIAL WAS COMPLETED",
+   "header": [
+    "IN WHOSE CASES TRIAL WAS COMPLETED"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "DISMI- SSED/ REMOVED FROM SERVICE",
+   "header": [
+    "DISMI- SSED/ REMOVED FROM SERVICE"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "MAJOR PUNISH- MENT AWARDED",
+   "header": [
+    "MAJOR PUNISH- MENT AWARDED"
    ]
   },
   {
    "col_no": "21",
-   "name": "DEPARTMENTAL ACTION/PUNISHNIENT | MINOR PUNISHMENT AWARDED",
+   "name": "MINOR PUNISH- MENT AWARDED",
    "header": [
-    "DEPARTMENTAL ACTION/PUNISHNIENT",
-    "MINOR PUNISHMENT AWARDED"
+    "MINOR PUNISH- MENT AWARDED"
    ]
   }
  ],
- "notes": [
-  "CITIÉS:",
-  "35\" BHOPAL *315",
-  "*43042",
-  "*40HYDERABAÖ *111",
-  "43 EKÄNPÜR",
-  "46 LUDHIANA",
-  "48 MADURAI",
-  "NR - STANDS FOR NOT RECEIVED.",
-  "\"49\" NÄGPÜR\"",
-  "'50\" PATNA\"",
-  "*'51:\"PUNE",
-  "'52\" \"SURAY 3!",
-  "\"53\"\" VABODARÄ",
-  "'''54\" VARANASI",
-  "85 ‘VISHAKHAPATNAM - 6",
-  "368 1649 NCRB/98—25B"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
+  "cells_checked": 45,
+  "cells_passed": 33,
+  "failures": [
+   "col 7 'TOTAL (ALL-INDIA)': printed 24882, sum 24682",
+   "col 11 'TOTAL (STATES)': printed 2054, sum 1544",
+   "col 12 'TOTAL (STATES)': printed 478, sum 281",
+   "col 13 'TOTAL (STATES)': printed 328, sum 192",
+   "col 14 'TOTAL (STATES)': printed 30, sum 22",
+   "col 15 'TOTAL (STATES)': printed 160, sum 101",
+   "col 16 'TOTAL (STATES)': printed 9535, sum 5173",
+   "col 17 'TOTAL (STATES)': printed 1909, sum 982"
+  ],
+  "other_totals_checked": 6,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

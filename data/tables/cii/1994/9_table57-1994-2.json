@@ -8,60 +8,83 @@
  "serial": "9",
  "title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Women During 1992",
  "listing_title": "Incidence, Rate and Percentage Contribution to All India of Crimes Committed Against Women During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table57-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table57-1994_2.pdf",
  "source_sha256": "a83781f4498afc2505b5ad836852b337fb7c7e19876ed813e2131edb035b0682",
  "table_no": "57",
- "pdf_title": "INCIDENCE (I), RATE (R) AND renceNTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES trv AGAINST WOMEN DURING 1992",
- "row_label": "SL. STATE/UT NO. / SL. STATE/UT / ESTIMATED MID-YEAR / (STATE & UT-WISE) RAPE R",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-57",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 10,
- "n_cols": 7,
- "n_cells": 52,
+ "n_rows": 37,
+ "n_cols": 19,
+ "n_cells": 664,
  "columns": [
   {
-   "col_no": "6",
-   "name": "(STATE & UT-WISE) | P",
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "(STATE & UT-WISE)",
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "RAPE | R",
+   "header": [
+    "RAPE",
+    "R"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE | P",
+   "header": [
+    "RAPE",
     "P"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | KIDNAPPING & ABDUCTION | i",
+   "name": "KIDNAPPING & ABDUCTION | I",
    "header": [
-    "(STATE & UT-WISE)",
     "KIDNAPPING & ABDUCTION",
-    "i"
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | KIDNAPPING & ABDUCTION | R",
+   "name": "KIDNAPPING & ABDUCTION | R",
    "header": [
-    "(STATE & UT-WISE)",
     "KIDNAPPING & ABDUCTION",
     "R"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | KIDNAPPING & ABDUCTION",
+   "name": "KIDNAPPING & ABDUCTION | P",
    "header": [
-    "(STATE & UT-WISE)",
-    "KIDNAPPING & ABDUCTION"
+    "KIDNAPPING & ABDUCTION",
+    "P"
    ]
   },
   {
    "col_no": "10",
-   "name": "DOWRY DEATHS",
+   "name": "DOWRY DEATHS | I",
    "header": [
-    "DOWRY DEATHS"
+    "DOWRY DEATHS",
+    "I"
    ]
   },
   {
@@ -74,21 +97,99 @@
   },
   {
    "col_no": "12",
-   "name": "P",
+   "name": "DOWRY DEATHS | P",
    "header": [
+    "DOWRY DEATHS",
+    "P"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES | I",
+   "header": [
+    "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES",
+    "I"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES | R",
+   "header": [
+    "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES",
+    "R"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES | P",
+   "header": [
+    "(TORTURE) CRUELTY BY HUSBAND & HIS RELATIVES",
+    "P"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "MOLESTATION | I",
+   "header": [
+    "MOLESTATION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "MOLESTATION | R",
+   "header": [
+    "MOLESTATION",
+    "R"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "MOLESTATION | P",
+   "header": [
+    "MOLESTATION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TOTAL | I",
+   "header": [
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
     "P"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 18,
+  "cells_passed": 14,
+  "failures": [
+   "col 10 'TOTAL (STATES)': printed 4834, sum 4833",
+   "col 13 'TOTAL (UTs)': printed 131, sum 121",
+   "col 16 'TOTAL (UTs)': printed 293, sum 275",
+   "col 19 'TOTAL (UTs)': printed 4565, sum 4526"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

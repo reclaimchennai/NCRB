@@ -8,45 +8,58 @@
  "serial": "11",
  "title": "Percentage Distribution of Cognizable Crimes (L&SL) under Different Crime Heads 1989-1993",
  "listing_title": "Percentage Distribution of Cognizable Crimes (L&SL) under Different Crime Heads 1989-1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-11-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-11-1993-crime.pdf",
  "source_sha256": "251f46cb4ac281c55995c2d8d2dbec56e8f7a51f14fb4bff983d9b20299337a4",
  "table_no": "11",
- "pdf_title": "PERCENTAGE DISTRIBUTION OF COGNIZABLE CRIMES (L&SL) UNDER DIFFERENT CRIME HEADS",
- "row_label": "1989 - 1993",
+ "pdf_title": "108 TABLE-11 PERCENTAGE DISTRIBUTION OF COGNIZABLE CRIMES (L&SL)",
+ "row_label": "SL NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 15,
- "n_cols": 4,
- "n_cells": 60,
+ "n_rows": 17,
+ "n_cols": 5,
+ "n_cells": 85,
  "columns": [
   {
+   "col_no": "3",
+   "name": "1989",
+   "header": [
+    "1989"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "1990",
+   "header": [
+    "1990"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "1991",
+   "header": [
+    "1991"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "1992",
+   "header": [
+    "1992"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "1993",
+   "header": [
+    "1993"
+   ]
   }
  ],
- "notes": [
-  "Note: tess than 0.05 is snows as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -6,44 +6,60 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "23",
- "title": "TABLE NUMBER OF POLICE PERSONNEL",
+ "title": "70 TABLE NUMBER OF POLICE PERSONNEL KILLED",
  "listing_title": "Number of Police Personnel Killed or Injured on Duty",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-23-1969.pdf",
  "source_file": "raw/cii/1969/table_content/table-23-1969.pdf",
  "source_sha256": "19ff37873eb18e8f932f63e91291bc38203e400e57445b402a4d4f432b9fff8d",
  "table_no": "",
- "pdf_title": "TABLE NUMBER OF POLICE PERSONNEL",
- "row_label": "SI. / States/U.Ts/Cities / In dacoity operations raids",
+ "pdf_title": "70 TABLE NUMBER OF POLICE PERSONNEL KILLED",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 39,
- "n_cols": 3,
- "n_cells": 110,
+ "n_rows": 18,
+ "n_cols": 5,
+ "n_cells": 89,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Number | By or",
+   "col_no": "2",
+   "name": "States/U.Ts/Cities",
    "header": [
-    "Number",
-    "By or"
+    "States/U.Ts/Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Number of Killed | In dacoity operations or raids",
+   "header": [
+    "Number of Killed",
+    "In dacoity operations or raids"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of Killed | By Riotous Mobs",
+   "header": [
+    "Number of Killed",
+    "By Riotous Mobs"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number | By other Riotous Mobs",
+   "name": "Number of Killed | By other criminals",
    "header": [
-    "Number",
-    "By other Riotous Mobs"
+    "Number of Killed",
+    "By other criminals"
    ]
   },
   {
    "col_no": "6",
-   "name": "of Killed On bordder cirtminals duties",
+   "name": "Number of Killed | On border duties",
    "header": [
-    "of Killed On bordder cirtminals duties"
+    "Number of Killed",
+    "On border duties"
    ]
   }
  ],
@@ -52,8 +68,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

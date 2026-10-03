@@ -6,28 +6,29 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "NUMBER OF JAIL INSPECTIONS CARRIED OUT DURING 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-37",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
  "table_no": "37",
- "pdf_title": "NUMBER OF JAIL INSPECTIONS CARRIED OUT DURING 1998",
- "row_label": "SL. ay",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-37",
+ "row_label": "SL. / STATE/UT",
  "pages": [
   124
  ],
- "n_rows": 30,
+ "n_rows": 35,
  "n_cols": 4,
- "n_cells": 102,
+ "n_cells": 140,
  "columns": [
   {
    "col_no": "3",
-   "name": "STATE/UT MEDICAL",
+   "name": "JAIL INSPECTIONS | MEDICAL",
    "header": [
-    "STATE/UT MEDICAL"
+    "JAIL INSPECTIONS",
+    "MEDICAL"
    ]
   },
   {
@@ -40,24 +41,25 @@
   },
   {
    "col_no": "5",
-   "name": "JAIL INSPECTIONS | VISORS",
+   "name": "JAIL INSPECTIONS | JAIL VISITORS",
    "header": [
     "JAIL INSPECTIONS",
-    "VISORS"
+    "JAIL VISITORS"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "JAIL INSPECTIONS | TOTAL (3+4+5)",
+   "header": [
+    "JAIL INSPECTIONS",
+    "TOTAL (3+4+5)"
+   ]
   }
  ],
- "notes": [
-  "HA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

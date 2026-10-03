@@ -8,14 +8,14 @@
  "serial": "52",
  "title": "Statement of Recidivism under Important Heads of IPC Crimes During 1985",
  "listing_title": "Statement of Recidivism under Important Heads of IPC Crimes During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables53-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables53-1985.pdf",
  "source_sha256": "2eaecfca629337ce2c31a4907396fafe70cb021a68bb2ba641282deeb5ccfb49",
  "table_no": "53",
- "pdf_title": "Of Recidivism Under Important Heads Of IPC Crimes During 1985",
- "row_label": "Sl. No. / Heads",
+ "pdf_title": "116 TABLE - 53 Statement Of Recidivism Under Important Heads Of IPC Crimes During 1985",
+ "row_label": "S1. Heads of Crime No. / S1. Heads of Crime No.",
  "pages": [
   1
  ],
@@ -25,48 +25,41 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "of NUMBER OF NEW",
+   "name": "NUMBER OF NEW OFFENDERS ARRESTED",
    "header": [
-    "of NUMBER OF NEW"
+    "NUMBER OF NEW OFFENDERS ARRESTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "Crime BEEN ARRESTED ONCE",
+   "name": "NUMBER OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST ONCE",
    "header": [
-    "Crime BEEN ARRESTED ONCE"
+    "NUMBER OF OFFENDERS WHO HAVE BEEN ARRESTED IN THE PAST ONCE"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER OF urcernwens | secc~1es:",
+   "name": "TWICE",
    "header": [
-    "NUMBER OF urcernwens",
-    "secc~1es:"
+    "TWICE"
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER OF urcernwens | IN THE",
+   "name": "THREE TIMES OR MORE",
    "header": [
-    "NUMBER OF urcernwens",
-    "IN THE"
+    "THREE TIMES OR MORE"
    ]
   },
   {
    "col_no": "7",
-   "name": "HAVE WHO PAST UE BWI - rrr nn TWICE THREE TIMES TOTAL OR MORE",
+   "name": "TOTAL",
    "header": [
-    "HAVE WHO PAST UE BWI - rrr nn TWICE THREE TIMES TOTAL OR MORE"
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "under IPC",
-  "NOTE Due to non availabity of information on Recidivism",
-  "from Delhi UT all the arrested persons are taken",
-  "as new offenders."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

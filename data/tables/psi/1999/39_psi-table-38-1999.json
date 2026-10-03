@@ -8,45 +8,58 @@
  "serial": "39",
  "title": "Table 38: Movement of Inmates outside jail premises during 1999",
  "listing_title": "Table 38: Movement of Inmates outside jail premises during 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-38_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-38_1999.pdf",
  "source_sha256": "a878e3d1a481ae6296166aba3a0cd50cdb5cd5cddd6ae4734930f6176ec99974",
  "table_no": "38",
- "pdf_title": "MOVEMENT OF INMATES OUTSIDE THE JAIL PREMISES DURING 1999",
- "row_label": "SL. a) / STATEAST @)",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-38",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 1,
- "n_cols": 2,
- "n_cells": 2,
+ "n_rows": 35,
+ "n_cols": 4,
+ "n_cells": 140,
  "columns": [
   {
-   "col_no": "5",
-   "name": "NUMBER OF INMATES TAKEN ON WEMAND FOR",
+   "col_no": "3",
+   "name": "NUMBER OF INMATES TAKEN | TO COURTS",
    "header": [
-    "NUMBER OF INMATES TAKEN ON WEMAND FOR"
+    "NUMBER OF INMATES TAKEN",
+    "TO COURTS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NUMBER OF INMATES TAKEN | FOR MEDICAL ATTENDANCE",
+   "header": [
+    "NUMBER OF INMATES TAKEN",
+    "FOR MEDICAL ATTENDANCE"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NUMBER OF INMATES TAKEN | ON REMAND & FOR OTHER PURPOSES",
+   "header": [
+    "NUMBER OF INMATES TAKEN",
+    "ON REMAND & FOR OTHER PURPOSES"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "NUMBER OF INMATES TAKEN | TOTAL",
+   "header": [
+    "NUMBER OF INMATES TAKEN",
+    "TOTAL"
+   ]
   }
  ],
- "notes": [
-  "2 i",
-  "ae",
-  "ee oe",
-  "See ee",
-  "es eee",
-  "NA -DATA NOT AVAILABLE"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

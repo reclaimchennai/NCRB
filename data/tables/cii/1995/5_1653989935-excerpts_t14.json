@@ -6,49 +6,53 @@
  "topic": "",
  "section": "Crime in India 1995",
  "serial": "5",
- "title": "Theft",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 Comparison of IPC Crime Rate of States During 1992 to 1995",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653989935_EXCERPTS.pdf",
  "source_file": "raw/cii/1995/year_wise/1653989935_EXCERPTS.pdf",
  "source_sha256": "bf234d43c68165c0291091bd62edb8c3c14d495538750da7de4995f30503f15c",
  "table_no": "",
- "pdf_title": "Theft",
- "row_label": "Country",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 Comparison of IPC Crime Rate of States During 1992 to 1995",
+ "row_label": "Above All-India",
  "pages": [
-  26,
-  26
+  22
  ],
- "n_rows": 33,
- "n_cols": 2,
- "n_cells": 66,
+ "n_rows": 1,
+ "n_cols": 4,
+ "n_cells": 4,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Year | 1992",
+   "col_no": "3",
+   "name": "Arunachal PradeshGoaGujaratJammu & KashmirKarnatakaKeralaMadhya PradeshMaharashtraMizoramRajasthanTamil NaduA&N IslandsChandigarhD&N HaveliDaman & DiuDelhiPondicherry",
    "header": [
-    "Year",
-    "1992"
+    "Arunachal PradeshGoaGujaratJammu & KashmirKarnatakaKeralaMadhya PradeshMaharashtraMizoramRajasthanTamil NaduA&N IslandsChandigarhD&N HaveliDaman & DiuDelhiPondicherry"
    ]
   },
   {
-   "col_no": "3",
-   "name": "Year | 1993",
+   "col_no": "4",
+   "name": "GoaGujaratHimachal PradeshKarnatakaKeralaMadhya PradeshMaharashtraMizoramRajasthanTamil NaduA&N IslandsChandigarhD&N HaveliDaman & DiuDelhiPondicherry",
    "header": [
-    "Year",
-    "1993"
+    "GoaGujaratHimachal PradeshKarnatakaKeralaMadhya PradeshMaharashtraMizoramRajasthanTamil NaduA&N IslandsChandigarhD&N HaveliDaman & DiuDelhiPondicherry"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Arunachal PradeshGoaGujaratHaryanaHimachal PradeshKarnatakaKeralaMadhya PradeshMaharashtraMizoramRajasthanSikkimTamil NaduChandigarhD&N HaveliDaman & DiuDelhiPondicherry",
+   "header": [
+    "Arunachal PradeshGoaGujaratHaryanaHimachal PradeshKarnatakaKeralaMadhya PradeshMaharashtraMizoramRajasthanSikkimTamil NaduChandigarhD&N HaveliDaman & DiuDelhiPondicherry"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Arunachal PradeshGoaGujaratHaryanaHimachal PradeshKarnatakaKeralaMadhya PradeshMaharashtraMizoramRajasthanTamil NaduChandigarhD&N HaveliDaman & DiuDelhiPondicherry",
+   "header": [
+    "Arunachal PradeshGoaGujaratHaryanaHimachal PradeshKarnatakaKeralaMadhya PradeshMaharashtraMizoramRajasthanTamil NaduChandigarhD&N HaveliDaman & DiuDelhiPondicherry"
    ]
   }
  ],
- "notes": [
-  "Note: 1. Rate: Crime incidence per 1,00,000 of population",
-  "2. N.A. stands for not available",
-  "3. Available comparative data has been reproduced above.",
-  "Please refer to Crime in India-1993 for similar data",
-  "for more/other countries for the years 1990 & 1991.",
-  "Source: International Crime Statistics (1991-92, 1993) - INTERPOL"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -57,6 +61,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

@@ -8,91 +8,94 @@
  "serial": "57",
  "title": "Juveniles Apprehended Under IPC Crimes by Age Group & Sex During 1999 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended Under IPC Crimes by Age Group & Sex During 1999 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-57-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-57-1999.pdf",
  "source_sha256": "c44f5c0f0791a62a74c87658b23171059a94c8bc557f603a1e0002b211b71864",
  "table_no": "57",
- "pdf_title": "JUVENILES 4PPercHENDEDD UNDER IPC CRIMES RY AGE GROUP & SEX DURING 1999 (STATE, UT & CITY-WISE)",
- "row_label": "SL. NO. (1) STATES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 57",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 60,
+ "n_rows": 59,
  "n_cols": 8,
- "n_cells": 468,
+ "n_cells": 472,
  "columns": [
   {
-   "col_no": "2",
-   "name": "7-12 Q)",
-   "header": [
-    "7-12 Q)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "YEARS BOYS 8)",
+   "name": "7 - 12 YEARS | BOYS",
    "header": [
-    "YEARS BOYS 8)"
+    "7 - 12 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "12 - 16 GIRLS (4",
+   "name": "7 - 12 YEARS | GIRLS",
    "header": [
-    "12 - 16 GIRLS (4"
+    "7 - 12 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "5",
-   "name": "YEARS BOYS ©",
+   "name": "12 - 16 YEARS | BOYS",
    "header": [
-    "YEARS BOYS ©"
+    "12 - 16 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "6",
-   "name": "16 - 18 GIRLS ©",
+   "name": "12 - 16 YEARS | GIRLS",
    "header": [
-    "16 - 18 GIRLS ©"
+    "12 - 16 YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "7",
-   "name": "YEARS GIRLS ONLY (n",
+   "name": "16 - 18 YEARS | GIRLS ONLY",
    "header": [
-    "YEARS GIRLS ONLY (n"
+    "16 - 18 YEARS",
+    "GIRLS ONLY"
    ]
   },
   {
    "col_no": "8",
-   "name": "OVER ALL AGE GROUP BOYS (8)",
+   "name": "OVERALL AGE GROUP | BOYS",
    "header": [
-    "OVER ALL AGE GROUP BOYS (8)"
+    "OVERALL AGE GROUP",
+    "BOYS"
    ]
   },
   {
    "col_no": "9",
-   "name": "TOTAL (BOYS + GIRLS) GIRLS (10) 9)",
+   "name": "OVERALL AGE GROUP | GIRLS",
    "header": [
-    "TOTAL (BOYS + GIRLS) GIRLS (10) 9)"
+    "OVERALL AGE GROUP",
+    "GIRLS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "TOTAL (BOYS + GIRLS)",
+   "header": [
+    "TOTAL (BOYS + GIRLS)"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 11,
-  "failures": [
-   "col 4 'TOTAL (UTs)': printed 32, sum 312",
-   "col 4 'TOTAL (CITIES)': printed 1557, sum 1430",
-   "col 6 'TOTAL (STATES)': printed 2212, sum 2852"
-  ],
+  "cells_checked": 32,
+  "cells_passed": 32,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

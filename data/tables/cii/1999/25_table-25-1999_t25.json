@@ -6,74 +6,74 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "25",
- "title": "PEKCENTAGE OF SLL CRIME CASES DISPUSED BY COURTS DURING 1999",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 25",
  "listing_title": "Percentage of SLL Crime Cases Disposed of by Courts During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-25-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-25-1999.pdf",
  "source_sha256": "0d44d9dd61f3e67a7457785c5815f3f7cf93955eebb9c79188b9ff911d55de1d",
  "table_no": "25",
- "pdf_title": "PEKCENTAGE OF SLL CRIME CASES DISPUSED BY COURTS DURING 1999",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 25",
  "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 26,
+ "n_rows": 23,
  "n_cols": 7,
- "n_cells": 164,
+ "n_cells": 161,
  "columns": [
   {
    "col_no": "3",
-   "name": "CASES BY",
+   "name": "CASES WITH-DRAWN BY GOVT.",
    "header": [
-    "CASES BY"
+    "CASES WITH-DRAWN BY GOVT."
    ]
   },
   {
    "col_no": "4",
-   "name": "PEKUEN1I/\\GE OF | OR",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOU-NDED OR WITHDRAWN",
    "header": [
-    "PEKUEN1I/\\GE OF",
-    "OR"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "COMPOU-NDED OR WITHDRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "PEKUEN1I/\\GE OF | IN WHICH CONVICTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED CONVICTED",
    "header": [
-    "PEKUEN1I/\\GE OF",
-    "IN WHICH CONVICTED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "IN WHICH TRIALS WERE COMPLETED CONVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "TO TOTAL CASES FOR WERE CO | OR DISCHARGED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | ACQUITTED OR DISCHARGED",
    "header": [
-    "TO TOTAL CASES FOR WERE CO",
-    "OR DISCHARGED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "ACQUITTED OR DISCHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "TO TOTAL CASES FOR WERE CO | TOTAL + (6)}",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | TOTAL {(5) + (6)}",
    "header": [
-    "TO TOTAL CASES FOR WERE CO",
-    "TOTAL + (6)}"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "TOTAL {(5) + (6)}"
    ]
   },
   {
    "col_no": "8",
-   "name": "PENUING TRIAL",
+   "name": "CONVIC-TION RATE {(5)/(7) * 100}",
    "header": [
-    "PENUING TRIAL"
+    "CONVIC-TION RATE {(5)/(7) * 100}"
    ]
   },
   {
    "col_no": "9",
-   "name": "CONVICue * 100}",
+   "name": "PENDING TRIAL",
    "header": [
-    "CONVICue * 100}"
+    "PENDING TRIAL"
    ]
   }
  ],

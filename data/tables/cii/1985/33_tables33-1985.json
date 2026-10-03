@@ -8,102 +8,104 @@
  "serial": "33",
  "title": "Juvenile Delinquency for Important Heads of Crime under IPC During 1985",
  "listing_title": "Juvenile Delinquency for Important Heads of Crime under IPC During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables33-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables33-1985.pdf",
  "source_sha256": "85e4eea2e7fcebba7b14c34449c119e125bce6446bffecccacdad26ae8bc6624",
  "table_no": "33",
- "pdf_title": "",
- "row_label": "Juvenile SL. STATES/UTS/CITIES NO.",
+ "pdf_title": "85 TABLE -33 Juvenile Delinquency For Important Heads Of Crime Under IPC During 1985",
+ "row_label": "SL. STATES/UTS/CITIES NO. / SL. STATES/UTS/CITIES NO.",
  "pages": [
   1,
   2
  ],
- "n_rows": 66,
+ "n_rows": 47,
  "n_cols": 13,
- "n_cells": 606,
+ "n_cells": 611,
  "columns": [
   {
-   "col_no": "2",
-   "name": "For MIRDER",
-   "header": [
-    "For MIRDER"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Important During C.H AMOUNT ING TO",
+   "name": "MURDER",
    "header": [
-    "Important During C.H AMOUNT ING TO"
+    "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "Heads 1985 NOT MURDER",
+   "name": "C.H NOT AMOUNTING TO MURDER",
    "header": [
-    "Heads 1985 NOT MURDER"
+    "C.H NOT AMOUNTING TO MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "Of RAPE & ASDUCTLUN",
+   "name": "RAPE",
    "header": [
-    "Of RAPE & ASDUCTLUN"
+    "RAPE"
    ]
   },
   {
    "col_no": "6",
-   "name": "Crime IPC KIDNAPPING",
+   "name": "KIDNAPPING & ABDUCTION",
    "header": [
-    "Crime IPC KIDNAPPING"
+    "KIDNAPPING & ABDUCTION"
    ]
   },
   {
    "col_no": "7",
-   "name": "Under DACOITY",
+   "name": "DACOITY",
    "header": [
-    "Under DACOITY"
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
    ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "SL. STATES/UTS/CITIES NO.",
+   "header": [
+    "SL. STATES/UTS/CITIES NO."
+   ]
   },
   {
    "col_no": "10",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "11",
    "name": "THEFT",
    "header": [
     "THEFT"
    ]
   },
   {
-   "col_no": "11",
+   "col_no": "12",
    "name": "RIOTS",
    "header": [
     "RIOTS"
    ]
   },
   {
-   "col_no": "12",
+   "col_no": "13",
    "name": "CRIMINAL BREACH OF TRUST",
    "header": [
     "CRIMINAL BREACH OF TRUST"
    ]
   },
   {
-   "col_no": "13",
-   "name": "CHEATING Guurnren- (13)",
-   "header": [
-    "CHEATING Guurnren-"
-   ]
-  },
-  {
    "col_no": "14",
-   "name": "CHEATING Guurnren- (14)",
+   "name": "COUNTER-FEITING",
    "header": [
-    "CHEATING Guurnren-"
+    "COUNTER-FEITING"
    ]
   },
   {
@@ -116,22 +118,13 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 34,
-  "cells_passed": 10,
-  "failures": [
-   "col 2 'TOTAL (STATES)': printed 1099, sum 1102",
-   "col 3 'TOTAL (STATES)': printed 125, sum 128",
-   "col 4 'TOTAL (STATES)': printed 321, sum 309",
-   "col 4 'TOTAL (U.Ts.)': printed 50, sum 54",
-   "col 5 'TOTAL (STATES)': printed 508, sum 514",
-   "col 6 'TOTAL (STATES)': printed 339, sum 346",
-   "col 7 'TOTAL (STATES)': printed 696, sum 704",
-   "col 9 'TOTAL (STATES)': printed 4537, sum 1846"
-  ],
+  "cells_checked": 37,
+  "cells_passed": 37,
+  "failures": [],
   "other_totals_checked": 13,
   "other_totals_passed": 13
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

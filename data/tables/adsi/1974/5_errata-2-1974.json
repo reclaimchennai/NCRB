@@ -8,53 +8,66 @@
  "serial": "5",
  "title": "Errata",
  "listing_title": "Errata",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/errata_2_1974.pdf",
  "source_file": "raw/adsi/1974/year_wise/errata_2_1974.pdf",
  "source_sha256": "7b2df697cf53171db1a2b55378372882365ecb58365f4873e711e554c8d0b92e",
  "table_no": "",
- "pdf_title": "ERRATA",
- "row_label": "ee sl. HO» - 1 - 2 5 / ee Page NP. Contnts 6 • Para~I / - Table Ttem umber IInd",
+ "pdf_title": "ERRATA Suicides in India - 1974.",
+ "row_label": "Sl.No.",
  "pages": [
+  1,
+  1,
+  1,
   1
  ],
- "n_rows": 25,
- "n_cols": 3,
- "n_cells": 69,
+ "n_rows": 24,
+ "n_cols": 6,
+ "n_cells": 134,
  "columns": [
   {
-   "col_no": "4",
-   "name": "- No. live",
+   "col_no": "2",
+   "name": "Page No.",
    "header": [
-    "- No. live"
+    "Page No."
    ]
   },
   {
-   "col_no": "5",
-   "name": "- Printed Figure 29-61 48~61 not reveal and",
+   "col_no": "3",
+   "name": "Table Number",
    "header": [
-    "- Printed Figure 29-61 48~61 not reveal and"
+    "Table Number"
    ]
   },
   {
    "col_no": "6",
-   "name": "Correct figure 29~51 48-51 not reveal any",
+   "name": "Printed Figure",
    "header": [
-    "Correct figure 29~51 48-51 not reveal any"
+    "Printed Figure"
    ]
+  },
+  {
+   "col_no": "7",
+   "name": "Correct figure",
+   "header": [
+    "Correct figure"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "IInd live",
+   "header": [
+    "IInd live"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
   }
  ],
- "notes": [
-  "Noot",
-  "NOTE: 1. Graph shown at page 7 relates to suicides and may be treated as on page",
-  "No. 23.",
-  "2. Graph shown at page 23 relates to Ac€idental Deaths and may be treated",
-  "as on page 7.",
-  "3. Page 20 ¢ The matter given above T able 2 may be tBeated as deletes.",
-  "4. Page 25 ¢ 3rd line from bottom \"the male in\" may be",
-  "treated as deleted,"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -62,7 +75,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

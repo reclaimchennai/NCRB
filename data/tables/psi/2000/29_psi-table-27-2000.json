@@ -8,55 +8,218 @@
  "serial": "29",
  "title": "Demographic particulars of Others at the end of 2000",
  "listing_title": "Demographic particulars of Others at the end of 2000",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-27_2000.pdf",
  "source_file": "raw/psi/2000/table_content/psi-table-27_2000.pdf",
  "source_sha256": "24901bfa387c7303688c94044783522ba3db7c930107df7b6b36be57536c17f5",
  "table_no": "27",
- "pdf_title": "",
- "row_label": "SL. / STATE/UT BELONGS TO. STATE / BELONGS",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-27",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
+  1,
+  2,
   3
  ],
- "n_rows": 1,
- "n_cols": 1,
- "n_cells": 1,
+ "n_rows": 37,
+ "n_cols": 22,
+ "n_cells": 770,
  "columns": [
   {
-   "col_no": "24",
-   "name": "TOTAL",
+   "col_no": "3",
+   "name": "EDUCATIONAL STANDARD | ILLITERATE",
    "header": [
+    "EDUCATIONAL STANDARD",
+    "ILLITERATE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "EDUCATIONAL STANDARD | BELOW CLASS X",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "BELOW CLASS X"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "EDUCATIONAL STANDARD | ABOVE X & BELOW GRADUATE",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "ABOVE X & BELOW GRADUATE"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EDUCATIONAL STANDARD | GRADUATE",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "GRADUATE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "EDUCATIONAL STANDARD | POST GRADUATE",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "POST GRADUATE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "EDUCATIONAL STANDARD | HOLDING TECH. DEGREE /DIPLOMA",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "HOLDING TECH. DEGREE /DIPLOMA"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "EDUCATIONAL STANDARD | TOTAL",
+   "header": [
+    "EDUCATIONAL STANDARD",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RELIGION | HINDU",
+   "header": [
+    "RELIGION",
+    "HINDU"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "RELIGION | MUSLIM",
+   "header": [
+    "RELIGION",
+    "MUSLIM"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "RELIGION | SIKH",
+   "header": [
+    "RELIGION",
+    "SIKH"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "RELIGION | CHRISTIAN",
+   "header": [
+    "RELIGION",
+    "CHRISTIAN"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "RELIGION | OTHERS",
+   "header": [
+    "RELIGION",
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "RELIGION | TOTAL",
+   "header": [
+    "RELIGION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "CASTE | SC",
+   "header": [
+    "CASTE",
+    "SC"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CASTE | ST",
+   "header": [
+    "CASTE",
+    "ST"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "CASTE | OBC",
+   "header": [
+    "CASTE",
+    "OBC"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "CASTE | OTHERS",
+   "header": [
+    "CASTE",
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "CASTE | TOTAL",
+   "header": [
+    "CASTE",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "DOMICILE | BELONGS TO STATE",
+   "header": [
+    "DOMICILE",
+    "BELONGS TO STATE"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "DOMICILE | BELONGS TO OTHER STATE",
+   "header": [
+    "DOMICILE",
+    "BELONGS TO OTHER STATE"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "DOMICILE | BELONGS TO OTHER COUNTRY",
+   "header": [
+    "DOMICILE",
+    "BELONGS TO OTHER COUNTRY"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "DOMICILE | TOTAL",
+   "header": [
+    "DOMICILE",
     "TOTAL"
    ]
   }
  ],
- "notes": [
-  "a",
-  "- er",
-  "7777;",
-  "S00 el",
-  "T/77777 177-7",
-  "eee",
-  "an",
-  "ne",
-  "7 2 7",
-  "Te",
-  ">",
-  "in",
-  "Sen tees Uae",
-  "Ta",
-  "- Gee ee",
-  "NA -DATA NOT AVAILABLE. -"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 63,
+  "cells_passed": 54,
+  "failures": [
+   "col 10 'TOTAL (STATES)': printed 8559, sum 8524",
+   "col 11 'TOTAL (STATES)': printed 1033, sum 1015",
+   "col 12 'TOTAL (STATES)': printed 23, sum 22",
+   "col 15 'TOTAL (STATES)': printed 10590, sum 10536",
+   "col 16 'TOTAL (STATES)': printed 3265, sum 3249",
+   "col 17 'TOTAL (STATES)': printed 1266, sum 1262",
+   "col 18 'TOTAL (STATES)': printed 4116, sum 4096",
+   "col 19 'TOTAL (STATES)': printed 1943, sum 1929"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

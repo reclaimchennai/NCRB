@@ -8,61 +8,61 @@
  "serial": "11",
  "title": "Table 11: Percentage share of different types of inmates to total inmates at the end of 1998",
  "listing_title": "Table 11: Percentage share of different types of inmates to total inmates at the end of 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-11_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-11_1998.pdf",
  "source_sha256": "f2188a0e6d97fc85e3c66b86a2b1a53cd2b9e738c4d97c38703f8bf044786eb0",
  "table_no": "11",
- "pdf_title": "PERCENTAGE SHARE OF DIFFERENT TYPES OF INMATES TO TOTAL INMATES AT THE END OF 1998",
- "row_label": "ia. SL.",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-11",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 32,
+ "n_rows": 35,
  "n_cols": 6,
- "n_cells": 135,
+ "n_cells": 210,
  "columns": [
   {
    "col_no": "3",
-   "name": "STATE/UT",
-   "header": [
-    "STATE/UT"
-   ]
-  },
-  {
-   "col_no": "4",
    "name": "LUNATIC",
    "header": [
     "LUNATIC"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "CONVICT",
    "header": [
     "CONVICT"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "5",
    "name": "UNDERTRIALS",
    "header": [
     "UNDERTRIALS"
    ]
   },
   {
-   "col_no": "7",
-   "name": "- DETENUS -",
+   "col_no": "6",
+   "name": "DETENUS",
    "header": [
-    "- DETENUS -"
+    "DETENUS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "OTHERS",
+   "header": [
+    "OTHERS"
    ]
   },
   {
    "col_no": "8",
-   "name": "OTHERS TOTAL",
+   "name": "TOTAL",
    "header": [
-    "OTHERS TOTAL"
+    "TOTAL"
    ]
   }
  ],

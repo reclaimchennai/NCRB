@@ -8,177 +8,312 @@
  "serial": "47",
  "title": "Incidence of Crimes Committed Against Women During 1997",
  "listing_title": "Incidence of Crimes Committed Against Women During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-27-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-27-1996-crime-survey.pdf",
  "source_sha256": "867d632f684bfee9ccf9412baaf6840c92a3c8e20732d273f44e3db4afec9ef6",
  "table_no": "27",
- "pdf_title": "INCIDENCE OF CRIMES COMMITTED AGAINST WOMEN DURING 1997",
- "row_label": "RAPE (2) STAVES: 1 2 3. 4",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-27",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1,
-  2
+  2,
+  3
  ],
- "n_rows": 43,
- "n_cols": 18,
- "n_cells": 570,
+ "n_rows": 70,
+ "n_cols": 35,
+ "n_cells": 1260,
  "columns": [
   {
    "col_no": "2",
-   "name": "RAPE | err POP. PRADESH ‘10.9 ASSAM BIHAR",
+   "name": "EST.MID YEAR POP.",
    "header": [
-    "RAPE",
-    "err POP. PRADESH ‘10.9 ASSAM BIHAR"
+    "EST.MID YEAR POP."
    ]
   },
   {
    "col_no": "3",
-   "name": "RAPE | (3) 7336 43 2528 952.4",
+   "name": "RAPE | I",
    "header": [
     "RAPE",
-    "(3) 7336 43 2528 952.4"
+    "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "RAPE | R (4) 947 39 717 1457",
+   "name": "RAPE | R",
    "header": [
     "RAPE",
-    "R (4) 947 39 717 1457"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "RAPE | P (5) #4113 03 28 15",
-   "header": [
-    "RAPE",
-    "P (5) #4113 03 28 15"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "RAPE | (6) #2462 47 95",
-   "header": [
-    "RAPE",
-    "(6) #2462 47 95"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "RAPE | R (7) £4730 «1113 968",
-   "header": [
-    "RAPE",
-    "R (7) £4730 «1113 968"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "RAPE | P (8) «210 2300«2O «#444 10",
-   "header": [
-    "RAPE",
-    "P (8) «210 2300«2O «#444 10"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "DO'VRY | (9) «247 0 - £462",
-   "header": [
-    "DO'VRY",
-    "(9) «247 0 - £462"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "DO'VRY | R - (0), «4520 00 °«74 £761",
-   "header": [
-    "DO'VRY",
-    "R - (0), «4520 00 °«74 £761"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "P (4) O07 00 22 #4208",
-   "header": [
-    "P (4) O07 00 22 #4208"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "TORTURE | «87 1 0.1 4775s 12.7",
-   "header": [
-    "TORTURE",
-    "«87 1 0.1 4775s 12.7"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "TORTURE | R P 3870 53 106 01 00 si 4974 #2110 °&«227",
-   "header": [
-    "TORTURE",
-    "R P 3870 53 106 01 00 si 4974 #2110 °&«227"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "EVE-TEASING P",
-   "header": [
-    "EVE-TEASING P"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "IMMPORT.OF GIRLS a",
-   "header": [
-    "IMMPORT.OF GIRLS a"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "P",
-   "header": [
-    "P"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "ACT | R",
-   "header": [
-    "ACT",
     "R"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "ACT | P",
+   "col_no": "5",
+   "name": "RAPE | P",
    "header": [
-    "ACT",
+    "RAPE",
     "P"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "ACT | R P",
+   "col_no": "6",
+   "name": "KIDNAPPING & ABDUCTION | I",
    "header": [
-    "ACT",
-    "R P"
+    "KIDNAPPING & ABDUCTION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING & ABDUCTION | R",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "R"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KIDNAPPING & ABDUCTION | P",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "DOWRY DEATHS | I",
+   "header": [
+    "DOWRY DEATHS",
+    "I"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DOWRY DEATHS | R",
+   "header": [
+    "DOWRY DEATHS",
+    "R"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "DOWRY DEATHS | P",
+   "header": [
+    "DOWRY DEATHS",
+    "P"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "TORTURE | I",
+   "header": [
+    "TORTURE",
+    "I"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "TORTURE | R",
+   "header": [
+    "TORTURE",
+    "R"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "TORTURE | P",
+   "header": [
+    "TORTURE",
+    "P"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "MOLESTATION | I",
+   "header": [
+    "MOLESTATION",
+    "I"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "MOLESTATION | R",
+   "header": [
+    "MOLESTATION",
+    "R"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "MOLESTATION | P",
+   "header": [
+    "MOLESTATION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "EVE-TEASING | I",
+   "header": [
+    "EVE-TEASING",
+    "I"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "EVE-TEASING | R",
+   "header": [
+    "EVE-TEASING",
+    "R"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "EVE-TEASING | P",
+   "header": [
+    "EVE-TEASING",
+    "P"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "IMMPORT.OF GIRLS | I",
+   "header": [
+    "IMMPORT.OF GIRLS",
+    "I"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "IMMPORT.OF GIRLS | R",
+   "header": [
+    "IMMPORT.OF GIRLS",
+    "R"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "IMMPORT.OF GIRLS | P",
+   "header": [
+    "IMMPORT.OF GIRLS",
+    "P"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "SATI-PRE. ACT | I",
+   "header": [
+    "SATI-PRE. ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "SATI-PRE. ACT | R",
+   "header": [
+    "SATI-PRE. ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "SATI-PRE. ACT | P",
+   "header": [
+    "SATI-PRE. ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "ITPA | R",
+   "header": [
+    "ITPA",
+    "R"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "ITPA | P",
+   "header": [
+    "ITPA",
+    "P"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "IND.REP. OF WOMEN | I",
+   "header": [
+    "IND.REP. OF WOMEN",
+    "I"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "IND.REP. OF WOMEN | R",
+   "header": [
+    "IND.REP. OF WOMEN",
+    "R"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "IND.REP. OF WOMEN | P",
+   "header": [
+    "IND.REP. OF WOMEN",
+    "P"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "DOWRY PROH.ACT | I",
+   "header": [
+    "DOWRY PROH.ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "DOWRY PROH.ACT | R",
+   "header": [
+    "DOWRY PROH.ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "DOWRY PROH.ACT | P",
+   "header": [
+    "DOWRY PROH.ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "TOTAL | I",
+   "header": [
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 7,
-  "cells_passed": 3,
-  "failures": [
-   "col 3 'TOTAL {STATES)': printed 14761, sum 12470",
-   "col 6 'TOTAL (UTs)': printed 4957, sum 934",
-   "col 6 'TOTAL (ALL-INDIA)': printed 15617, sum 19617",
-   "col 9 'TOTAL (UTs)': printed 156, sum 158"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

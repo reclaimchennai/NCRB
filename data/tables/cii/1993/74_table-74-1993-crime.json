@@ -8,52 +8,104 @@
  "serial": "74",
  "title": "Police Personnel Killed or Injured on Duty During 1993 (Rank-Wise)",
  "listing_title": "Police Personnel Killed or Injured on Duty During 1993 (Rank-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-74-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-74-1993-crime.pdf",
  "source_sha256": "0ad5278b7d7254bf2b2d6d405dafed0958c7b658ab3811cd6607e31611154215",
  "table_no": "74",
- "pdf_title": "POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1993",
- "row_label": "",
+ "pdf_title": "317 TABLE-74 POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1993 (RANK-WISE)",
+ "row_label": "SL. NO. / RANK",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 6,
- "n_cols": 6,
- "n_cells": 34,
+ "n_rows": 14,
+ "n_cols": 11,
+ "n_cells": 77,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "KILLED | IN DACOITY OPERATION OR OTHER RAIDS",
+   "header": [
+    "KILLED",
+    "IN DACOITY OPERATION OR OTHER RAIDS"
+   ]
   },
   {
    "col_no": "4",
-   "name": "(RANK-WISE)",
+   "name": "KILLED | BY RHOOUS MOBS",
    "header": [
-    "(RANK-WISE)"
+    "KILLED",
+    "BY RHOOUS MOBS"
    ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "KILLED | BY OTHER CHINA NALS",
+   "header": [
+    "KILLED",
+    "BY OTHER CHINA NALS"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "KILLED | ON BORDER DUTIES",
+   "header": [
+    "KILLED",
+    "ON BORDER DUTIES"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "KILLED | IN ACCIDENTS",
+   "header": [
+    "KILLED",
+    "IN ACCIDENTS"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "KILLED | TOTAL",
+   "header": [
+    "KILLED",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "BY HOTGUE MOBO",
+   "header": [
+    "BY HOTGUE MOBO"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "BY OTHER CRIMINALS",
+   "header": [
+    "BY OTHER CRIMINALS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ON BORDER DUTIES",
+   "header": [
+    "ON BORDER DUTIES"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "IN ACCIDENTS",
+   "header": [
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
   }
  ],
  "notes": [],
@@ -61,10 +113,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

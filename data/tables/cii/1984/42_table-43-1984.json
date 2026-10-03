@@ -8,14 +8,14 @@
  "serial": "42",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crime under Local and Special Laws During 1984",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crime under Local and Special Laws During 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-43-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-43-1984.pdf",
  "source_sha256": "62d6537368a1f625e45246bd2d2f79ab385743fd384a74a3a0e25050b6cdc1b0",
  "table_no": "43",
- "pdf_title": "Juveniles Appren=nded (By Age Group) For Committing Crimes Under Local And Special Laws During 1984",
- "row_label": "sl STATES/UTs/CITIES NO «1)",
+ "pdf_title": "107 TABLE - 43 Juveniles Apprehended (By Age Group) For Committing Crimes Under Local And Special Laws During 1984.",
+ "row_label": "S1 NO",
  "pages": [
   1
  ],
@@ -25,9 +25,9 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "7-12 YEARS",
+   "name": "7 - 12 YEARS",
    "header": [
-    "7-12 YEARS"
+    "7 - 12 YEARS"
    ]
   },
   {
@@ -61,17 +61,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 4,
-  "failures": [
-   "col 3 'TOTAL (UTs)': printed 14, sum 7607",
-   "col 4 'TOTAL (UTs)': printed 53, sum 10571",
-   "col 5 'TOTAL (UTs)': printed 184, sum 23170",
-   "col 5 'TOTAL (Cities)': printed 4183, sum 4823",
-   "col 6 'TOTAL (UTs)': printed 2309, sum 129551"
-  ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

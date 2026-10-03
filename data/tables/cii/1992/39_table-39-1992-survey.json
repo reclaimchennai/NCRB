@@ -8,14 +8,14 @@
  "serial": "39",
  "title": "Juveniles Apprehended under IPC & LSL Crimes by Sex 1982-92",
  "listing_title": "Juveniles Apprehended under IPC & LSL Crimes by Sex 1982-92",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-39-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-39-1992-survey.pdf",
  "source_sha256": "e16d0820b81acdc80444214a14d042fdc5ba7c093a75975bc840374ad354af07",
  "table_no": "39",
- "pdf_title": "",
- "row_label": "JUVENILES sL. wo.",
+ "pdf_title": "205 TABLE-39 JUVENILES APPREHENDED UNDER IPC & LSL CRIMES BY SEX",
+ "row_label": "SL.NO.",
  "pages": [
   1
  ],
@@ -25,52 +25,41 @@
  "columns": [
   {
    "col_no": "2",
-   "name": "JUVENILES | YEAR",
+   "name": "YEAR",
    "header": [
-    "JUVENILES",
     "YEAR"
    ]
   },
   {
    "col_no": "3",
-   "name": "IPC | UNDER 1982-92",
+   "name": "BOYS",
    "header": [
-    "IPC",
-    "UNDER 1982-92"
+    "BOYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "IPC | GIRLS",
+   "name": "GIRLS",
    "header": [
-    "IPC",
     "GIRLS"
    ]
   },
   {
    "col_no": "5",
-   "name": "& CRIMES BY TOTAL",
+   "name": "TOTAL",
    "header": [
-    "& CRIMES BY TOTAL"
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "LSL SEX OF GIRLS",
+   "name": "PERCENTAGE OF GIRLS",
    "header": [
-    "LSL SEX OF GIRLS"
+    "PERCENTAGE OF GIRLS"
    ]
   }
  ],
- "notes": [
-  "Notes: 1.Data from 1988 onwards is not at all comparable to",
-  "earlier years due to change in the definition of",
-  "Juveniles from 1988.",
-  "2.Barlier,juvenile boys & girls were of the same age",
-  "group (i.e., below 21 years). However since 1988",
-  "juvenile boys & girls are of different age groups",
-  "(i.e., boys below 16 years & girls below 18 years)."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

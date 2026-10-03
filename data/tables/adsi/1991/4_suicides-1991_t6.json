@@ -6,54 +6,53 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1991",
  "serial": "4",
- "title": "Suicidal Deaths in India",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 21 TABLE - 6",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1991.pdf",
  "source_file": "raw/adsi/1991/year_wise/suicides-1991.pdf",
  "source_sha256": "e59e4f057e2bb98540933e680aee79ab44235cf019f10099541b9a87cb4f37db",
  "table_no": "6",
- "pdf_title": "",
- "row_label": "aru Volume of SI. No. / aru Volume of Year",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 21 TABLE - 6",
+ "row_label": "Sl. No.",
  "pages": [
   3
  ],
  "n_rows": 13,
- "n_cols": 3,
- "n_cells": 39,
+ "n_cols": 4,
+ "n_cells": 52,
  "columns": [
   {
-   "col_no": "3",
-   "name": "aru Volume of | During 1981 to 1991 Tote: Suicides",
+   "col_no": "2",
+   "name": "Year",
    "header": [
-    "aru Volume of",
-    "During 1981 to 1991 Tote: Suicides"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Total Number of Suicides",
+   "header": [
+    "Total Number of Suicides"
    ]
   },
   {
    "col_no": "4",
-   "name": "aru Volume of | ot Sissi Mid-Year (in",
+   "name": "Estimated Mid-Year Population* (In Lakh**)",
    "header": [
-    "aru Volume of",
-    "ot Sissi Mid-Year (in"
+    "Estimated Mid-Year Population* (In Lakh**)"
    ]
   },
   {
    "col_no": "5",
-   "name": "aru Volume of | Volume cf Siticidae {Cal2iCala} Lakh**)",
+   "name": "Volume of Suicides {Col3/Col4}",
    "header": [
-    "aru Volume of",
-    "Volume cf Siticidae {Cal2iCala} Lakh**)"
+    "Volume of Suicides {Col3/Col4}"
    ]
   }
  ],
- "notes": [
-  "Growth Rate Per",
-  "Annum.",
-  "* Source The Genera: ot India",
-  "** One lakh - 0.1 Million"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -6,42 +6,46 @@
  "topic": "",
  "section": "",
  "serial": "3",
- "title": "Chart-3.7 CASES FOR TRIAL (IPC) AND DiSPOSAL",
+ "title": "PERCENTAGE DISPOSAL OF SLL CASES BY POLICE - 1996",
  "listing_title": "Disposal of Crime Cases",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/disposel-crime-case-1996.pdf",
  "source_file": "raw/cii/1996/table_chapter/disposel-crime-case-1996.pdf",
  "source_sha256": "29938bfb694c61f1b4ff699be9c6c41a7826731a5f7388c5eb7e554fa85e11fc",
  "table_no": "",
- "pdf_title": "Chart-3.7 CASES FOR TRIAL (IPC) AND DiSPOSAL",
- "row_label": "CASES (in lakhs) 3.3.2 Crime-Head Murder Rape Kid&Abduc. Dacoity Robbery",
+ "pdf_title": "PERCENTAGE DISPOSAL OF SLL CASES BY POLICE - 1996",
+ "row_label": "Crime-Head",
  "pages": [
-  5
+  4
  ],
- "n_rows": 7,
- "n_cols": 2,
- "n_cells": 14,
+ "n_rows": 14,
+ "n_cols": 3,
+ "n_cells": 42,
  "columns": [
   {
    "col_no": "2",
-   "name": "CASES (in lakhs) | .. a 1961 1991 1981 YEAR - FOR TRIAL EXCLUDING for Manipur(99.6%) followed by The All-India average for pendency of IPC cases stood at 80.3% in 1996. Chart-3.8 Disposal - 14.9 16.9 15.1 10.7 12.2",
+   "name": "Disposal",
    "header": [
-    "CASES (in lakhs)",
-    ".. a 1961 1991 1981 YEAR - FOR TRIAL EXCLUDING for Manipur(99.6%) followed by The All-India average for pendency of IPC cases stood at 80.3% in 1996. Chart-3.8 Disposal - 14.9 16.9 15.1 10.7 12.2"
+    "Disposal"
    ]
   },
   {
-   "col_no": "3",
-   "name": "es 1 1 1971 1995 1994 1936 “© The State & UT wise analysis reveal(Table-20) that 4 states/UTs reported more than 90 percent pendency in trials of IPC cases in courts. The highest pendency in 1990 for trials for IPC cases was reported Pradesh(93.1%), West Bengal(92.9%) and A&N Islands (90.3%). 17 States/UTs registered high pendency percentage for disposal of IPC cases by courts than the national average of (80.3%) in 1996. Sikkim and Pondicherry reported low pendency percentage at 27.6 and 35.3 respectively. PERCENTAGE DISPOSAL OF IPC CASES BY COURTS - 1996 Crime-Head Pendenicy 85.1 Murder Sn S~ Rape 83.1 SS 84.9 Kidnap&Abduc SS 89.3 Dacoity DISPOS 87.8 Robbery SSS",
+   "col_no": "4",
+   "name": "Crime-Head",
    "header": [
-    "es 1 1 1971 1995 1994 1936 “© The State & UT wise analysis reveal(Table-20) that 4 states/UTs reported more than 90 percent pendency in trials of IPC cases in courts. The highest pendency in 1990 for trials for IPC cases was reported Pradesh(93.1%), West Bengal(92.9%) and A&N Islands (90.3%). 17 States/UTs registered high pendency percentage for disposal of IPC cases by courts than the national average of (80.3%) in 1996. Sikkim and Pondicherry reported low pendency percentage at 27.6 and 35.3 respectively. PERCENTAGE DISPOSAL OF IPC CASES BY COURTS - 1996 Crime-Head Pendenicy 85.1 Murder Sn S~ Rape 83.1 SS 84.9 Kidnap&Abduc SS 89.3 Dacoity DISPOS 87.8 Robbery SSS"
+    "Crime-Head"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Pendency",
+   "header": [
+    "Pendency"
    ]
   }
  ],
- "notes": [
-  "Harassment Harassment"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -49,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

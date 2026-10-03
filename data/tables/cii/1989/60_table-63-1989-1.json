@@ -8,14 +8,14 @@
  "serial": "60",
  "title": "Persons Killed or Injured under Police Firing During 1989 (Event-Wise)",
  "listing_title": "Persons Killed or Injured under Police Firing During 1989 (Event-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-63-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-63-1989-1.pdf",
  "source_sha256": "aedf8f1e3ef9f6ec495cac7b3983977c1de83513867a286334f7d5a8949e95d0",
  "table_no": "63",
- "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1989",
- "row_label": "(EVENT-WISE) SL NO / (EVENT-WISE) EVENT",
+ "pdf_title": "197 TABLE-63 PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1989 (EVENT-WISE)",
+ "row_label": "",
  "pages": [
   1
  ],
@@ -25,45 +25,28 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(EVENT-WISE) | NO. OCCASIONS OF FIRING",
-   "header": [
-    "(EVENT-WISE)",
-    "NO. OCCASIONS OF FIRING"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "(EVENT-WISE) | OF POLICE",
-   "header": [
-    "(EVENT-WISE)",
-    "OF POLICE"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "(EVENT-WISE) | CIVILIANS KILLED",
-   "header": [
-    "(EVENT-WISE)",
-    "CIVILIANS KILLED"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "(EVENT-WISE) | POLICEMEN | INJURED",
-   "header": [
-    "(EVENT-WISE)",
-    "POLICEMEN",
-    "INJURED"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "(EVENT-WISE) | POLICEMEN | INJURED KILLED",
-   "header": [
-    "(EVENT-WISE)",
-    "POLICEMEN",
-    "INJURED KILLED"
-   ]
+   "name": "col_7",
+   "header": []
   }
  ],
  "notes": [],

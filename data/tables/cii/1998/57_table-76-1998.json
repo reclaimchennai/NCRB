@@ -8,81 +8,72 @@
  "serial": "57",
  "title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1998 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested Under SLL Crimes by Police During 1998 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-76-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-76-1998.pdf",
  "source_sha256": "90489a2826a14a6857ec9b078670e4e552fc9e13e50f59e55489311b13298044",
  "table_no": "76",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER SLL CRIMES BY POLICE DURING 1998",
- "row_label": "(STATE & UT-WISE) STATE/UT SL. NO. a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-76",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 6,
- "n_cells": 114,
+ "n_cells": 210,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | TOTAL NO. OF “UNDER THOSE FROM PREVIOUS YEAR",
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "(STATE & UT-WISE)",
-    "TOTAL NO. OF “UNDER THOSE FROM PREVIOUS YEAR"
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | BEFORE TRIAL",
+   "name": "NUMBER OF | PERSONS RELEASED BEFORE TRIAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "BEFORE TRIAL"
+    "NUMBER OF",
+    "PERSONS RELEASED BEFORE TRIAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | NUMBER OF SHEETED",
+   "name": "NUMBER OF | PERSONS CHARGE-SHEETED",
    "header": [
-    "(STATE & UT-WISE)",
-    "NUMBER OF SHEETED"
+    "NUMBER OF",
+    "PERSONS CHARGE-SHEETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | PERSONS AT THE ar THE YEAR",
+   "name": "NUMBER OF | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
    "header": [
-    "(STATE & UT-WISE)",
-    "PERSONS AT THE ar THE YEAR"
+    "NUMBER OF",
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | PENDENCY PERCENmer",
+   "name": "PENDENCY PERCENTAGE",
    "header": [
-    "(STATE & UT-WISE)",
-    "PENDENCY PERCENmer"
+    "PENDENCY PERCENTAGE"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | PERCENTAGE OF PTO ALL. TOTAL",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "PERCENTAGE OF PTO ALL. TOTAL"
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "NO ‘E: 1. * IN CUSTODY OR ON BAIL.",
-  "2. PERCENTAGE LESS THAN 0.05 !S ALSO SHOWN AS 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 4.74347e+06, sum 2.58698e+06",
-   "col 4 'TOTAL (ALL-INDIA)': printed 124220, sum 2.1016e+06"
-  ],
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

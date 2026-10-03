@@ -8,69 +8,66 @@
  "serial": "40",
  "title": "Disposal of Crime Cases under the IPC by the Courts During 1987",
  "listing_title": "Disposal of Crime Cases under the IPC by the Courts During 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_13-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_13-1987.pdf",
  "source_sha256": "023fc2531dfe981080a985873821f1fe91969f783f0310a2687fedf4c5dd768d",
- "table_no": "18",
- "pdf_title": "",
- "row_label": "Disposal No.",
+ "table_no": "13",
+ "pdf_title": "66 TABLE-13 Disposal Of Crime Cases Under The IPC By The Courts During 1987",
+ "row_label": "S1. No. / Heads Of Crime",
  "pages": [
   1
  ],
- "n_rows": 12,
+ "n_rows": 14,
  "n_cols": 5,
- "n_cells": 60,
+ "n_cells": 70,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Disposal | trial during the year carried over",
-   "header": [
-    "Disposal",
-    "trial during the year carried over"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Of Crime ©==== -7 or withdrawn during the",
+   "name": "Total no. of cases for trial during the year including cases carried over from previous year",
    "header": [
-    "Of Crime ©==== -7 or withdrawn during the"
+    "Total no. of cases for trial during the year including cases carried over from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "The IPC By The Courts During in which trials were completed",
+   "name": "No. of cases compounded or withdrawn during the year",
    "header": [
-    "The IPC By The Courts During in which trials were completed"
+    "No. of cases compounded or withdrawn during the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "1987 ended in during the",
+   "name": "No. of cases in which trials were completed during the year",
    "header": [
-    "1987 ended in during the"
+    "No. of cases in which trials were completed during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "pending trial at the end of the",
+   "name": "No. of cases ended in conviction during the year",
    "header": [
-    "pending trial at the end of the"
+    "No. of cases ended in conviction during the year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "No. of cases pending trial at the end of the year",
+   "header": [
+    "No. of cases pending trial at the end of the year"
    ]
   }
  ],
- "notes": [
-  "under IPC"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

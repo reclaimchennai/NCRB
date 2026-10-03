@@ -1,0 +1,178 @@
+{
+ "table_id": "adsi/1987/1_appendix-3",
+ "publication": "adsi",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Suicides in India",
+ "section": "SUICIDES IN INDIA",
+ "serial": "1",
+ "title": "State wise distribution of Suicides by Causes during 1987",
+ "listing_title": "State wise distribution of Suicides by Causes during 1987",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/files/appendix-3.pdf",
+ "source_file": "raw/adsi/1987/table_content/appendix-3.pdf",
+ "source_sha256": "fbbbd7ce0c425c514d026e971859d7267ed4ce3e941a34508144f51515045c6b",
+ "table_no": "",
+ "pdf_title": "Example on",
+ "row_label": "Sl. No.",
+ "pages": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "n_rows": 49,
+ "n_cols": 18,
+ "n_cells": 872,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "M (4)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "I (5)",
+   "header": [
+    "I"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "M (6)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "F (7)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "II (8)",
+   "header": [
+    "II"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "F (9)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "II (10)",
+   "header": [
+    "II"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "I (11)",
+   "header": [
+    "I"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "M (12)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "F (13)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "States/UTs/Cities",
+   "header": [
+    "States/UTs/Cities"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Insanity | M",
+   "header": [
+    "Insanity",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Dispute over Property | F",
+   "header": [
+    "Dispute over Property",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Dreadful Diseases | M",
+   "header": [
+    "Dreadful Diseases",
+    "M"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Unemployment | F",
+   "header": [
+    "Unemployment",
+    "F"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "M (19)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "F (20)",
+   "header": [
+    "F"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 67,
+  "cells_passed": 57,
+  "failures": [
+   "col 3 'Total (States)': printed 560, sum 563",
+   "col 4 'Total (States)': printed 430, sum 427",
+   "col 5 'Total (States)': printed 2144, sum 2149",
+   "col 6 'Total (States)': printed 2533, sum 2539",
+   "col 7 'Total (States)': printed 1457, sum 1454",
+   "col 8 'Total (All India)': printed 1923, sum 1920",
+   "col 9 'Total (States)': printed 885, sum 456",
+   "col 11 'Total (States)': printed 1222, sum 1232"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 4,
+ "warnings": []
+}

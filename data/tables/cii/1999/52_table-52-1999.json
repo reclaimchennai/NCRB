@@ -8,56 +8,55 @@
  "serial": "52",
  "title": "Juveniles Apprehended Under IPC & SLL Crimes by Sex (1989-99)",
  "listing_title": "Juveniles Apprehended Under IPC & SLL Crimes by Sex (1989-99)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-52-1999.pdf",
  "source_sha256": "98f4c3e5c5976ab8492c97305cad523ee98e20f9d0e612c0e6b6d7fc7865fb3b",
  "table_no": "52",
- "pdf_title": "",
- "row_label": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE-52",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 14,
- "n_cols": 6,
- "n_cells": 72,
+ "n_rows": 11,
+ "n_cols": 5,
+ "n_cells": 55,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "YEAR",
+   "header": [
+    "YEAR"
+   ]
   },
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "BOYS",
+   "header": [
+    "BOYS"
+   ]
   },
   {
    "col_no": "4",
-   "name": "JUVENILES",
+   "name": "GIRLS",
    "header": [
-    "JUVENILES"
+    "GIRLS"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER IPC & SLI. CRIMES RY SEX (5)",
+   "name": "TOTAL",
    "header": [
-    "UNDER IPC & SLI. CRIMES RY SEX"
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER IPC & SLI. CRIMES RY SEX (6)",
+   "name": "PERCENTAGE OF GIRLS",
    "header": [
-    "UNDER IPC & SLI. CRIMES RY SEX"
+    "PERCENTAGE OF GIRLS"
    ]
-  },
-  {
-   "col_no": "7",
-   "name": "col_7",
-   "header": []
   }
  ],
  "notes": [],
@@ -68,7 +67,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

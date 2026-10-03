@@ -8,39 +8,59 @@
  "serial": "9",
  "title": "Recidivism",
  "listing_title": "Recidivism",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-9-1974.pdf",
  "source_file": "raw/cii/1974/table_chapter/chapter-9-1974.pdf",
  "source_sha256": "1bd0e2f88ab6757e4bb5ecabaa87026c174dd6bfae1867ec85f56ba5ead5aef2",
- "table_no": "",
- "pdf_title": "",
- "row_label": "",
+ "table_no": "55",
+ "pdf_title": "CHAPTER 10 VICTIMS OF RAPE The data on 'Victims of rape' was collected under three age-groups, viz., below 16 years, between 16 to 30 years and above 30 years. The percentage of victims of rape was the highest (61-0) in the age group 16 to 30, while victims below 16 years accounted for 24-6 per cent and victims of above 30 years of age accounted for 14-4 per cent.",
+ "row_label": "Sl. No. / State/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 28,
- "n_cols": 1,
- "n_cells": 28,
+ "n_rows": 42,
+ "n_cols": 4,
+ "n_cells": 168,
  "columns": [
   {
+   "col_no": "3",
+   "name": "No. of cases reported",
+   "header": [
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Below 16 years",
+   "header": [
+    "Below 16 years"
+   ]
+  },
+  {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Between 16 to 30 years",
+   "header": [
+    "Between 16 to 30 years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Above 30 years",
+   "header": [
+    "Above 30 years"
+   ]
   }
  ],
- "notes": [
-  "a. é ‘ 4 4 é 1",
-  "Toru 7 id 1 a 179 a is"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 16,
+  "other_totals_passed": 15
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

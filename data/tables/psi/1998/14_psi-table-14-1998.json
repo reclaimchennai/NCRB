@@ -8,73 +8,185 @@
  "serial": "14",
  "title": "Table 14: Distribution of Undertrials in Jails by age groups at the end of 1998",
  "listing_title": "Table 14: Distribution of Undertrials in Jails by age groups at the end of 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-14_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-14_1998.pdf",
  "source_sha256": "67e4ca0fa184c896730c719f3e4880a862900ec78cf4b6d454a2f5a96314291a",
  "table_no": "14",
- "pdf_title": "DISTRIBUTION OF UNDERTRAILS IN JAILS BY AGE GROUPS AT THE END OF1998",
- "row_label": "No. My / MOF / BELOW 16 YEARS / 16-18 T",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-14",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 12,
- "n_cols": 5,
- "n_cells": 33,
+ "n_rows": 36,
+ "n_cols": 18,
+ "n_cells": 630,
  "columns": [
   {
-   "col_no": "6",
-   "name": "16-18 | M",
+   "col_no": "3",
+   "name": "BELOW 16 YEARS | M",
    "header": [
-    "16-18",
+    "BELOW 16 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BELOW 16 YEARS | F",
+   "header": [
+    "BELOW 16 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BELOW 16 YEARS | T",
+   "header": [
+    "BELOW 16 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "16 - 18 YEARS | M",
+   "header": [
+    "16 - 18 YEARS",
     "M"
    ]
   },
   {
    "col_no": "7",
-   "name": "16-18 | F",
+   "name": "16 - 18 YEARS | F",
    "header": [
-    "16-18",
+    "16 - 18 YEARS",
     "F"
    ]
   },
   {
    "col_no": "8",
-   "name": "16-18 | T",
+   "name": "16 - 18 YEARS | T",
    "header": [
-    "16-18",
+    "16 - 18 YEARS",
     "T"
    ]
   },
   {
    "col_no": "9",
-   "name": "M",
+   "name": "18 - 30 YEARS | M",
    "header": [
+    "18 - 30 YEARS",
     "M"
    ]
   },
   {
    "col_no": "10",
-   "name": "18 - 30 YEARS OF T a1)",
+   "name": "18 - 30 YEARS | F",
    "header": [
-    "18 - 30 YEARS OF T a1)"
+    "18 - 30 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "18 - 30 YEARS | T",
+   "header": [
+    "18 - 30 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "30 - 50 YEARS | M",
+   "header": [
+    "30 - 50 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "30 - 50 YEARS | F",
+   "header": [
+    "30 - 50 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "30 - 50 YEARS | T",
+   "header": [
+    "30 - 50 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "ABOVE 50 YEARS | M",
+   "header": [
+    "ABOVE 50 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "ABOVE 50 YEARS | F",
+   "header": [
+    "ABOVE 50 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "ABOVE 50 YEARS | T",
+   "header": [
+    "ABOVE 50 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL (ALL AGE GROUPS) | M",
+   "header": [
+    "TOTAL (ALL AGE GROUPS)",
+    "M"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "TOTAL (ALL AGE GROUPS) | F",
+   "header": [
+    "TOTAL (ALL AGE GROUPS)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "TOTAL (ALL AGE GROUPS) | T",
+   "header": [
+    "TOTAL (ALL AGE GROUPS)",
+    "T"
    ]
   }
  ],
- "notes": [
-  "pop oa te ep a",
-  "- T les aa a",
-  "a"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 54,
+  "cells_passed": 46,
+  "failures": [
+   "col 12 'TOTAL (STATES)': printed 44902, sum 44838",
+   "col 13 'TOTAL (STATES)': printed 1882, sum 1880",
+   "col 14 'TOTAL (STATES)': printed 46784, sum 46718",
+   "col 15 'TOTAL (STATES)': printed 9379, sum 9369",
+   "col 17 'TOTAL (STATES)': printed 9770, sum 9760",
+   "col 18 'TOTAL (STATES)': printed 108785, sum 108501",
+   "col 19 'TOTAL (STATES)': printed 4374, sum 4369",
+   "col 20 'TOTAL (STATES)': printed 113159, sum 99781"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

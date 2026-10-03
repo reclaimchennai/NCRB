@@ -8,114 +8,154 @@
  "serial": "63",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992 (State, UT & City-wise) Theft",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1992 (State, UT & City-wise) Theft",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-63-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-63-1992-survey.pdf",
  "source_sha256": "69f95ce15132c9adb7d17041043760b0edba367bd39e7cc85a5473dd48363440",
  "table_no": "63",
- "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCUKKSNCE DURING 1992 (STATE, UT & CITY-WISE)",
- "row_label": "sL. No. / THEFT STATE/UT",
+ "pdf_title": "283 TABLE-63 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1992",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2,
-  3
+  3,
+  4
  ],
- "n_rows": 92,
- "n_cols": 10,
- "n_cells": 517,
+ "n_rows": 116,
+ "n_cols": 15,
+ "n_cells": 870,
  "columns": [
   {
    "col_no": "3",
-   "name": "THEFT | RESIDENTIAL PREMISES | NUMBER",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "THEFT",
     "RESIDENTIAL PREMISES",
     "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "THEFT | RESIDENTIAL PREMISES | VALUE",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "THEFT",
     "RESIDENTIAL PREMISES",
     "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "THEFT | HIGHWAYS NUMBER",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "THEFT",
-    "HIGHWAYS NUMBER"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "THEFT | VALUE",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "THEFT",
+    "HIGHWAYS",
     "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "THEFT | RIVER NUMBER",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "THEFT",
-    "RIVER NUMBER"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "THEFT | & VALUE",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "THEFT",
-    "& VALUE"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "(Re. SEA NUMBER",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "(Re. SEA NUMBER"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "in lakh) RAILWAYS VALUE",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "in lakh) RAILWAYS VALUE"
+    "RAILWAYS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "(Re. PoTAL PLACES COMMERCIAL NUMBER VALUE VALUE (16) (417) (12) USS 19769 410.5 0.0",
+   "col_no": "13",
+   "name": "BANKS | VALUE",
    "header": [
-    "(Re. PoTAL PLACES COMMERCIAL NUMBER VALUE VALUE (16) (417) (12) USS 19769 410.5 0.0"
+    "BANKS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "if STATE/UT OTHER VALUE NUMBER (18) (14) (2) ee STATES: ANDHRA’ 1092.9 PRADESH 1624",
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
    "header": [
-    "if STATE/UT OTHER VALUE NUMBER (18) (14) (2) ee STATES: ANDHRA’ 1092.9 PRADESH 1624"
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 6,
-  "failures": [
-   "col 5 'TOTAL (STATES)': printed 8625, sum 8525",
-   "col 7 'TOTAL (STATES)': printed 447, sum 436"
-  ],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

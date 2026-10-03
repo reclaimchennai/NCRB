@@ -6,16 +6,16 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "88",
- "title": "TOTAL COGNIZABLE CRIMES UNDER SLL",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-68",
  "listing_title": "Persons Arrested Under Different SLL Crimes by Sex in States, UTs & Cities During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-68-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-68-1996-crime-survey.pdf",
  "source_sha256": "e59e98c5d038d366852dae68f7325bcc64b9fdfd2e03f402c5f0e1174e742a7d",
  "table_no": "68",
- "pdf_title": "TOTAL COGNIZABLE CRIMES UNDER SLL",
- "row_label": "SL. NO. i / STATE/UT/CITY / - MALE / TERRORIST & DISRUPTIVE ACTIVITIES ACT / TERRORIST & DISRUPTIVE ACTIVITIES ACT TOTAL / ANTIQUITY & ART TREASURE ACT MALE / ANTIQUITY & ART TREASURE ACT FEMALE",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-68",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   7,
   8,
@@ -24,78 +24,176 @@
   11,
   12
  ],
- "n_rows": 114,
- "n_cols": 22,
- "n_cells": 1028,
+ "n_rows": 60,
+ "n_cols": 34,
+ "n_cells": 1972,
  "columns": [
   {
-   "col_no": "44",
-   "name": "TOTAL (44)",
+   "col_no": "39",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | MALE",
    "header": [
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | FEMALE",
+   "header": [
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | TOTAL",
+   "header": [
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
     "TOTAL"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "DOWRY PROHIBITION ACT | (2) •",
+   "col_no": "42",
+   "name": "ANTIQUITY & ART TREASURE ACT | MALE",
    "header": [
-    "DOWRY PROHIBITION ACT",
-    "(2) •"
+    "ANTIQUITY & ART TREASURE ACT",
+    "MALE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "DOWRY PROHIBITION ACT | MALE] (45)",
+   "col_no": "43",
+   "name": "ANTIQUITY & ART TREASURE ACT | FEMALE",
    "header": [
-    "DOWRY PROHIBITION ACT",
-    "MALE] (45)"
+    "ANTIQUITY & ART TREASURE ACT",
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "DOWRY PROHIBITION ACT | FEMALE] (46)",
+   "col_no": "44",
+   "name": "ANTIQUITY & ART TREASURE ACT | TOTAL",
    "header": [
-    "DOWRY PROHIBITION ACT",
-    "FEMALE] (46)"
+    "ANTIQUITY & ART TREASURE ACT",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "CHILD MARRIAGE RESTRAINT ACT | TOTAL (47)",
+   "col_no": "45",
+   "name": "DOWRY PROHIBITION ACT | MALE",
+   "header": [
+    "DOWRY PROHIBITION ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "46",
+   "name": "DOWRY PROHIBITION ACT | FEMALE",
+   "header": [
+    "DOWRY PROHIBITION ACT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "47",
+   "name": "DOWRY PROHIBITION ACT | TOTAL",
+   "header": [
+    "DOWRY PROHIBITION ACT",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "48",
+   "name": "CHILD MARRIAGE RESTRAINT ACT | MALE",
    "header": [
     "CHILD MARRIAGE RESTRAINT ACT",
-    "TOTAL (47)"
+    "MALE"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "CHILD MARRIAGE RESTRAINT ACT | MALE (48)",
+   "col_no": "49",
+   "name": "CHILD MARRIAGE RESTRAINT ACT | FEMALE",
    "header": [
     "CHILD MARRIAGE RESTRAINT ACT",
-    "MALE (48)"
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "TOTAL FEMALE (50) (49)",
+   "col_no": "50",
+   "name": "CHILD MARRIAGE RESTRAINT ACT | TOTAL",
    "header": [
-    "TOTAL FEMALE (50) (49)"
+    "CHILD MARRIAGE RESTRAINT ACT",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "COPYRIGHT ACT | MALE FEMALE (54) (52)]",
+   "col_no": "51",
+   "name": "INDECENT REPRESENTATION OF WOMEN (P) ACT | MALE",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN (P) ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "52",
+   "name": "INDECENT REPRESENTATION OF WOMEN (P) ACT | FEMALE",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN (P) ACT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "53",
+   "name": "INDECENT REPRESENTATION OF WOMEN (P) ACT | TOTAL",
+   "header": [
+    "INDECENT REPRESENTATION OF WOMEN (P) ACT",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "54",
+   "name": "COPYRIGHT ACT | MALE",
    "header": [
     "COPYRIGHT ACT",
-    "MALE FEMALE (54) (52)]"
+    "MALE"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "COPYRIGHT ACT | TOTAL FEMALE TOTAL (56) (55)! (53)",
+   "col_no": "55",
+   "name": "COPYRIGHT ACT | FEMALE",
    "header": [
     "COPYRIGHT ACT",
-    "TOTAL FEMALE TOTAL (56) (55)! (53)"
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "56",
+   "name": "COPYRIGHT ACT | TOTAL",
+   "header": [
+    "COPYRIGHT ACT",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "57",
+   "name": "SATI PREVENTION ACT | MALE",
+   "header": [
+    "SATI PREVENTION ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "58",
+   "name": "SATI PREVENTION ACT | FEMALE",
+   "header": [
+    "SATI PREVENTION ACT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "59",
+   "name": "SATI PREVENTION ACT | TOTAL",
+   "header": [
+    "SATI PREVENTION ACT",
+    "TOTAL"
    ]
   },
   {
@@ -124,99 +222,102 @@
   },
   {
    "col_no": "63",
-   "name": "TABLE-68 (Continued..) | MALE",
+   "name": "FOREST ACT | MALE",
    "header": [
-    "TABLE-68 (Continued..)",
+    "FOREST ACT",
     "MALE"
    ]
   },
   {
    "col_no": "64",
-   "name": "TABLE-68 (Continued..) | FEMALE",
+   "name": "FOREST ACT | FEMALE",
    "header": [
-    "TABLE-68 (Continued..)",
+    "FOREST ACT",
     "FEMALE"
    ]
   },
   {
    "col_no": "65",
-   "name": "TABLE-68 (Continued..) | TOTAL",
+   "name": "FOREST ACT | TOTAL",
    "header": [
-    "TABLE-68 (Continued..)",
+    "FOREST ACT",
     "TOTAL"
    ]
   },
   {
    "col_no": "66",
-   "name": "CRIME IN INDIA - 1997 | OTHER SLU CRIMES | MALE",
+   "name": "OTHER SLL CRIMES | MALE",
    "header": [
-    "CRIME IN INDIA - 1997",
-    "OTHER SLU CRIMES",
+    "OTHER SLL CRIMES",
     "MALE"
    ]
   },
   {
    "col_no": "67",
-   "name": "CRIME IN INDIA - 1997 | OTHER SLU CRIMES | FEMALE]",
+   "name": "OTHER SLL CRIMES | FEMALE",
    "header": [
-    "CRIME IN INDIA - 1997",
-    "OTHER SLU CRIMES",
-    "FEMALE]"
+    "OTHER SLL CRIMES",
+    "FEMALE"
    ]
   },
   {
    "col_no": "68",
-   "name": "CRIME IN INDIA - 1997 | TOTAL",
+   "name": "OTHER SLL CRIMES | TOTAL",
    "header": [
-    "CRIME IN INDIA - 1997",
+    "OTHER SLL CRIMES",
     "TOTAL"
    ]
   },
   {
    "col_no": "69",
-   "name": "MALE",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER SLL | MALE",
    "header": [
+    "TOTAL COGNIZABLE CRIMES UNDER SLL",
     "MALE"
    ]
   },
   {
    "col_no": "70",
-   "name": "FEMALE",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER SLL | FEMALE",
    "header": [
+    "TOTAL COGNIZABLE CRIMES UNDER SLL",
     "FEMALE"
    ]
   },
   {
    "col_no": "71",
-   "name": "TOTAL (71)",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER SLL | TOTAL",
    "header": [
+    "TOTAL COGNIZABLE CRIMES UNDER SLL",
     "TOTAL"
    ]
   },
   {
    "col_no": "72",
-   "name": "col_72",
-   "header": []
+   "name": "PERCENTAGE OF FEMALE TO TOTAL",
+   "header": [
+    "PERCENTAGE OF FEMALE TO TOTAL"
+   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 24,
-  "cells_passed": 9,
+  "cells_checked": 99,
+  "cells_passed": 89,
   "failures": [
-   "col 44 'TOTAL (STATES)': printed 41, sum 50",
-   "col 44 '- TOTAL (ALL CITIES:': printed 41, sum 18",
-   "col 10001 'TOTAL (STATES)': printed 5492, sum 4482",
-   "col 10001 'TOTAL (UTs)': printed 7, sum 1213",
-   "col 10005 'TOTAL (STATES)': printed 54, sum 432",
-   "col 10006 'TOTAL (STATES)': printed 169, sum 143",
-   "col 10007 'TOTAL (STATES)': printed 1207, sum 577",
-   "col 10007 'TOTAL (UTs)': printed 136, sum 720"
+   "col 45 'TOTAL (STATES)': printed 5492, sum 5430",
+   "col 46 'TOTAL (STATES)': printed 1384, sum 1380",
+   "col 47 'TOTAL (STATES)': printed 6876, sum 6810",
+   "col 54 'TOTAL (UTs)': printed 136, sum 126",
+   "col 56 'TOTAL (UTs)': printed 136, sum 126",
+   "col 66 'TOTAL (UTs)': printed 4906, sum 4876",
+   "col 68 'TOTAL (UTs)': printed 4934, sum 4904",
+   "col 69 'TOTAL (UTs)': printed 21229, sum 20986"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 6,
  "warnings": []
 }

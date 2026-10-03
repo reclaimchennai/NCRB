@@ -8,20 +8,22 @@
  "serial": "3",
  "title": "Receipt of data",
  "listing_title": "Receipt of data",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1653982519_crime data reciept.pdf",
  "source_file": "raw/cii/1999/year_wise/1653982519_crime data reciept.pdf",
  "source_sha256": "44ae57a31a9d5978fee3809e2cd351e78ae5b3ef8c24d3594844a0a3f8f3d34c",
  "table_no": "",
- "pdf_title": "Chronicle Order of Receint of Data for 1999 Renort",
- "row_label": "YEAR / MONTH / STATE / UNION TERRITORY / CITY",
+ "pdf_title": "N.C.R.B, (M.H.A.) CRIME IN INDIA - 1999 Chronicle Order of Receipt of Data for 1999 Report",
+ "row_label": "YEAR",
  "pages": [
+  1,
+  1,
   1
  ],
- "n_rows": 12,
- "n_cols": 1,
- "n_cells": 12,
+ "n_rows": 11,
+ "n_cols": 5,
+ "n_cells": 19,
  "columns": [
   {
    "col_no": "6",
@@ -29,20 +31,49 @@
    "header": [
     "CUMULATIVE TOTAL"
    ]
+  },
+  {
+   "col_no": "2",
+   "name": "August | September",
+   "header": [
+    "August",
+    "September"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "GOA JAMMU & KASHMIR KARNATAKA | ANDHRA PRADESH HARYANA MADHYA PRADESH RAJASTHAN",
+   "header": [
+    "GOA JAMMU & KASHMIR KARNATAKA",
+    "ANDHRA PRADESH HARYANA MADHYA PRADESH RAJASTHAN"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DAMAN & DIU DELHI | D&N HAVELI",
+   "header": [
+    "DAMAN & DIU DELHI",
+    "D&N HAVELI"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "JAIPUR KANPUR | DELHI",
+   "header": [
+    "JAIPUR KANPUR",
+    "DELHI"
+   ]
   }
  ],
- "notes": [
-  "(xiii)",
-  "1655 NCRB/2001—2"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

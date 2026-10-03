@@ -8,83 +8,54 @@
  "serial": "2",
  "title": "Crime Under Different Heads",
  "listing_title": "Crime Under Different Heads",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680078414TABLE-21965.pdf",
  "source_file": "raw/cii/1965/table_content/1680078414TABLE-21965.pdf",
  "source_sha256": "9784c33f484aa0740f7dd2248775d6d97035c435f2c6840549617917bc5f2ff9",
  "table_no": "",
- "pdf_title": "“GRIME. UNDER",
- "row_label": "Sl.No. / Head of Crime",
+ "pdf_title": "3 TABLE No. II DIFFERENT HEADS",
+ "row_label": "1963",
  "pages": [
-  1,
   2
  ],
- "n_rows": 26,
- "n_cols": 9,
- "n_cells": 205,
+ "n_rows": 1,
+ "n_cols": 5,
+ "n_cells": 5,
  "columns": [
   {
-   "col_no": "3",
-   "name": "1960",
+   "col_no": "2",
+   "name": "1964",
    "header": [
-    "1960"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "1961",
-   "header": [
-    "1961"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "1962",
-   "header": [
-    "1962"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "DIFFERENT EADS | 1963",
-   "header": [
-    "DIFFERENT EADS",
-    "1963"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "DIFFERENT EADS | 1964",
-   "header": [
-    "DIFFERENT EADS",
     "1964"
    ]
   },
   {
-   "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "col_no": "3",
+   "name": "Quinquennial Average",
+   "header": [
+    "Quinquennial Average"
+   ]
   },
   {
-   "col_no": "9",
+   "col_no": "4",
    "name": "1965",
    "header": [
     "1965"
    ]
   },
   {
-   "col_no": "10",
-   "name": "or (OverQ.A.)",
+   "col_no": "5",
+   "name": "Increase or decrease (Over Q. A.)",
    "header": [
-    "or (OverQ.A.)"
+    "Increase or decrease (Over Q. A.)"
    ]
   },
   {
-   "col_no": "11",
-   "name": "Change",
+   "col_no": "6",
+   "name": "Percentage Change (Over Q. A.)",
    "header": [
-    "Change"
+    "Percentage Change (Over Q. A.)"
    ]
   }
  ],
@@ -97,6 +68,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

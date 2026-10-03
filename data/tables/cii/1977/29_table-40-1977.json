@@ -8,34 +8,40 @@
  "serial": "29",
  "title": "Juveniles Apprehended (by Sex) for Committing Crime under I.P.C.",
  "listing_title": "Juveniles Apprehended (by Sex) for Committing Crime under I.P.C.",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-40-1977.pdf",
  "source_file": "raw/cii/1977/table_content/table-40-1977.pdf",
  "source_sha256": "caeaf363fde62faf26f7ef0b8e7d3462688881cc04c7078160a62748e98df4cc",
  "table_no": "",
- "pdf_title": "‘98",
- "row_label": "rant si. - / rant UNDER-L-P. C. States/U.",
+ "pdf_title": "98 TABLE—40 JUVENILÉS APPREHENDED (BY SEX) FOR COMMITTING CRIME UNDER-L.P. C.",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 32,
- "n_cols": 2,
- "n_cells": 53,
+ "n_rows": 43,
+ "n_cols": 3,
+ "n_cells": 129,
  "columns": [
   {
-   "col_no": "4",
-   "name": "rant | ‘Boys",
+   "col_no": "3",
+   "name": "Boys",
    "header": [
-    "rant",
-    "‘Boys"
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Girls",
+   "header": [
+    "Girls"
    ]
   },
   {
    "col_no": "5",
-   "name": "Girls Total -",
+   "name": "Total",
    "header": [
-    "Girls Total -"
+    "Total"
    ]
   }
  ],
@@ -44,8 +50,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 11
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

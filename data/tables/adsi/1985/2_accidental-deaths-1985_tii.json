@@ -6,74 +6,53 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1985",
  "serial": "2",
- "title": "of deaths in 1985 were due to ‘Lightning’ (1,381) followed’",
+ "title": "7 TABLE-II ## Causes Of Accidental Deaths",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1985.pdf",
  "source_file": "raw/adsi/1985/year_wise/accidental-deaths-1985.pdf",
  "source_sha256": "623fa9d23f6342a6caeecc7ecce0f152c35590b6798cb6d330caef92996abf29",
  "table_no": "II",
- "pdf_title": "of deaths in 1985 were due to ‘Lightning’ (1,381) followed’",
- "row_label": "Per Lakh Sl. No. / Per Lakh 2\" To States/U. Ts./Cities",
+ "pdf_title": "7 TABLE-II ## Causes Of Accidental Deaths",
+ "row_label": "",
  "pages": [
-  7,
-  8,
-  9
+  8
  ],
- "n_rows": 54,
+ "n_rows": 24,
  "n_cols": 4,
- "n_cells": 158,
+ "n_cells": 96,
  "columns": [
   {
    "col_no": "3",
-   "name": "ApS TO Number of accidental deaths",
-   "header": [
-    "ApS TO Number of accidental deaths"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "ae Total During The Year Percentagoto - total",
-   "header": [
-    "ae Total During The Year Percentagoto - total"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "4 1985 Popula- - tion in (000)",
-   "header": [
-    "4 1985 Popula- - tion in (000)"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "Volume of accidental deaths Per lakh of Populetion,",
-   "header": [
-    "Volume of accidental deaths Per lakh of Populetion,"
-   ]
+   "name": "col_6",
+   "header": []
   }
  ],
- "notes": [
-  "classified under two broad categories (A) Accidental deaths",
-  "due to natural causes like lightning, heat strokes, flood, land",
-  "slides, cold and exposure and cyclone and (B) Accidental",
-  "deaths due to other causes like mishaps in factories, road",
-  "accidents. air crashes, house collapse and boat cansizinsg",
-  "etc. Category (A) accounted for2-8 per cent of total acciden-",
-  "tal deaths recorded in 1985 in comparison to 3-2 per cent",
-  "1984. Under this category, the maximum number"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
-  "failures": [
-   "col 5 'TOTAL (STATES)': printed 739292, sum 711765"
-  ],
+  "cells_checked": 4,
+  "cells_passed": 4,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 1,
  "warnings": []
 }

@@ -8,100 +8,104 @@
  "serial": "24",
  "title": "Disposal of SLL Crime Cases by Courts During 1999 (State & UT –Wise)",
  "listing_title": "Disposal of SLL Crime Cases by Courts During 1999 (State & UT –Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-24-1999.pdf",
  "source_sha256": "df3d96c7af9d56d15436d74372eed4093044379103eb1909e571f25849e06163",
  "table_no": "24",
- "pdf_title": "DISPOSAL OF SLU CRIME CASES BY COURTS DURING 1999 (STATE & UT - WISE)",
- "row_label": "STATE/UT SL. NO. Q)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 24",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
- "n_cols": 9,
- "n_cells": 308,
+ "n_cols": 10,
+ "n_cells": 350,
  "columns": [
   {
-   "col_no": "4",
-   "name": "CASES TOTAL NO. WITHINCLUDING BY PENDING * rept @)",
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "CASES TOTAL NO. WITHINCLUDING BY PENDING * rept @)"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CASES WITH-DRAWN BY GOVT.",
+   "header": [
+    "CASES WITH-DRAWN BY GOVT."
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. OF CASES | COMPOR WITHDRAWN",
+   "name": "NO. OF CASES | COMP- OUNDED OR WITH- DRAWN",
    "header": [
     "NO. OF CASES",
-    "COMPOR WITHDRAWN"
+    "COMP- OUNDED OR WITH- DRAWN"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES | IN WHICH TKIALS WERE",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED CONVICTED",
    "header": [
     "NO. OF CASES",
-    "IN WHICH TKIALS WERE"
+    "IN WHICH TRIALS WERE COMPLETED CONVICTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. OF CASES | FOR TRIAL DRAWN OUNDED CONVICTED ACQUTTTED DISCHARGED",
+   "name": "NO. OF CASES | ACQUITTED OR DISCHARGED",
    "header": [
     "NO. OF CASES",
-    "FOR TRIAL DRAWN OUNDED CONVICTED ACQUTTTED DISCHARGED"
+    "ACQUITTED OR DISCHARGED"
    ]
   },
   {
    "col_no": "8",
-   "name": "NO. OF CASES | COMPLETED TOTAL {(6)+(7))",
+   "name": "NO. OF CASES | TOTAL {(6) + (7)}",
    "header": [
     "NO. OF CASES",
-    "COMPLETED TOTAL {(6)+(7))"
+    "TOTAL {(6) + (7)}"
    ]
   },
   {
    "col_no": "9",
-   "name": "NO. OF CASES | PENDING 7 PERCENT- | TRIAL",
+   "name": "NO. OF CASES | PENDING TRIAL",
    "header": [
     "NO. OF CASES",
-    "PENDING 7 PERCENT-",
-    "TRIAL"
+    "PENDING TRIAL"
    ]
   },
   {
    "col_no": "10",
-   "name": "NO. OF CASES | PENDING 7 PERCENT- | AGE",
+   "name": "PENDENCY PERCENT- AGE",
    "header": [
-    "NO. OF CASES",
-    "PENDING 7 PERCENT-",
-    "AGE"
+    "PENDENCY PERCENT- AGE"
    ]
   },
   {
    "col_no": "11",
-   "name": "PEKCENTAGE OF PENDENCY TO ALL ae an",
+   "name": "PERCENT- AGE OF PENDENCY TO ALL INDIA TOTAL",
    "header": [
-    "PEKCENTAGE OF PENDENCY TO ALL ae an"
+    "PERCENT- AGE OF PENDENCY TO ALL INDIA TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "CONVICTION RATE {(6)/(8) *100)",
+   "name": "CONVIC- TION RATE {(6)/(8) *100}",
    "header": [
-    "CONVICTION RATE {(6)/(8) *100)"
+    "CONVIC- TION RATE {(6)/(8) *100}"
    ]
   }
  ],
- "notes": [
-  "tote: than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 20,
+  "cells_passed": 19,
+  "failures": [
+   "col 3 'TOTAL STATES': printed 7.14713e+06, sum 7.14613e+06"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -8,85 +8,66 @@
  "serial": "48",
  "title": "Disposal of Persons Arrested under LSL by Police During 1991",
  "listing_title": "Disposal of Persons Arrested under LSL by Police During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-32-1991-32.pdf",
  "source_file": "raw/cii/1991/table_content/table-32-1991-32.pdf",
  "source_sha256": "5ee462153003e8d37509b3c58df6da685360f60f9fd2d942fa59061df083c6cb",
- "table_no": "",
- "pdf_title": "TABLE=32 OLSPOSAL OF PERSONS ARRESTED UNDER LOL BY POLICE OURING 1991",
- "row_label": "CRIME HEAD SL. uo, (1) (2) / TOTAL oF UNDER ARREST® THOSE FROM VIOUS TEAR (3)",
+ "table_no": "32",
+ "pdf_title": "131 TABLE-32 DISPOSAL OF PERSONS ARRESTED UNDER LSL BY POLICE DURING 1991",
+ "row_label": "",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 6,
- "n_cells": 100,
+ "n_cols": 7,
+ "n_cells": 119,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERSONS CHARGE SHEETED | PERSONS RELEASED BEFORE TREAL | - WO. (a3",
-   "header": [
-    "PERSONS CHARGE SHEETED",
-    "PERSONS RELEASED BEFORE TREAL",
-    "- WO. (a3"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "PERSONS CHARGE SHEETED | PERSONS RELEASED BEFORE TREAL | To TOTAL (3)",
-   "header": [
-    "PERSONS CHARGE SHEETED",
-    "PERSONS RELEASED BEFORE TREAL",
-    "To TOTAL (3)"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "PERSONS CHARGE SHEETED | (6)",
-   "header": [
-    "PERSONS CHARGE SHEETED",
-    "(6)"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "PERSONS CHARGE SHEETED | PERCENTAGE Ta TONAL (ry",
-   "header": [
-    "PERSONS CHARGE SHEETED",
-    "PERCENTAGE Ta TONAL (ry"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "PERSONS CHARGE SHEETED | PERSONS UNDER [MVESTIGATIOM AT THE BRD OF TRE YEAR es | 9 cay",
-   "header": [
-    "PERSONS CHARGE SHEETED",
-    "PERSONS UNDER [MVESTIGATIOM AT THE BRD OF TRE YEAR es",
-    "9 cay"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "PERSONS CHARGE SHEETED | PERSONS UNDER [MVESTIGATIOM AT THE BRD OF TRE YEAR es | To TOTAL (9)",
-   "header": [
-    "PERSONS CHARGE SHEETED",
-    "PERSONS UNDER [MVESTIGATIOM AT THE BRD OF TRE YEAR es",
-    "To TOTAL (9)"
-   ]
+   "name": "col_8",
+   "header": []
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
   }
  ],
- "notes": [
-  "* In Custedy or cm Goll"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

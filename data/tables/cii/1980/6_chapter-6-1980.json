@@ -8,33 +8,40 @@
  "serial": "6",
  "title": "Property Stolen and Recovered",
  "listing_title": "Property Stolen and Recovered",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-6-1980.pdf",
  "source_file": "raw/cii/1980/table_chapter/chapter-6-1980.pdf",
  "source_sha256": "fa51444ff425d5a03e70bce3c3b658fbbad27d20f9697e71ca5eff3c2671d0a4",
  "table_no": "46",
- "pdf_title": "",
- "row_label": "Value of -",
+ "pdf_title": "CHAPTER 6 PROPERTY STOLEN AND RECOVERED #### 6.1 Value of property stolen",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
  "n_rows": 6,
- "n_cols": 2,
- "n_cells": 12,
+ "n_cols": 3,
+ "n_cells": 18,
  "columns": [
   {
    "col_no": "2",
-   "name": "stolen and Bi",
+   "name": "Year",
    "header": [
-    "stolen and Bi"
+    "Year"
    ]
   },
   {
    "col_no": "3",
-   "name": "Of - Po af Value 5 of P woke",
+   "name": "Total Value of Property Stolen (Rs. in Lakhs)",
    "header": [
-    "Of - Po af Value 5 of P woke"
+    "Total Value of Property Stolen (Rs. in Lakhs)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage of Value of Property recovered to value of property stolen",
+   "header": [
+    "Percentage of Value of Property recovered to value of property stolen"
    ]
   }
  ],
@@ -46,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,79 +8,85 @@
  "serial": "8",
  "title": "Cases Reported under Local and Special Laws",
  "listing_title": "Cases Reported under Local and Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-9-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table-9-1975.pdf",
  "source_sha256": "9bbf3d2f64e10079453d13ca4b3b7fb567d21ee0f67c47aacf9ca32e63615425",
- "table_no": "",
- "pdf_title": "Tame 9",
- "row_label": "Sl. Crime Heads No / Sl. Crime Heads / mandy Paral ant Sheetal 1969",
+ "table_no": "9",
+ "pdf_title": "48 TABLE 9 Cases Reported under Local and Special Laws.",
+ "row_label": "Sl. No / Crime Heads",
  "pages": [
   1
  ],
- "n_rows": 14,
- "n_cols": 6,
- "n_cells": 75,
+ "n_rows": 13,
+ "n_cols": 8,
+ "n_cells": 103,
  "columns": [
   {
-   "col_no": "4",
-   "name": "mandy Paral ant Sheetal | Creer 1970",
+   "col_no": "3",
+   "name": "1969",
    "header": [
-    "mandy Paral ant Sheetal",
-    "Creer 1970"
+    "1969"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1970",
+   "header": [
+    "1970"
    ]
   },
   {
    "col_no": "5",
-   "name": "mandy Paral ant Sheetal | 1921",
+   "name": "1971",
    "header": [
-    "mandy Paral ant Sheetal",
-    "1921"
+    "1971"
    ]
   },
   {
    "col_no": "6",
-   "name": "mandy Paral ant Sheetal | 1972",
+   "name": "1972",
    "header": [
-    "mandy Paral ant Sheetal",
     "1972"
    ]
   },
   {
    "col_no": "7",
-   "name": "mandy Paral ant Sheetal | 1973",
+   "name": "1973",
    "header": [
-    "mandy Paral ant Sheetal",
     "1973"
    ]
   },
   {
    "col_no": "8",
-   "name": "mandy Paral ant Sheetal | 1974",
+   "name": "1974",
    "header": [
-    "mandy Paral ant Sheetal",
     "1974"
    ]
   },
   {
    "col_no": "9",
-   "name": "mandy Paral ant Sheetal | 1975 over change 1974",
+   "name": "1975",
    "header": [
-    "mandy Paral ant Sheetal",
-    "1975 over change 1974"
+    "1975"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Percentage change over 1974",
+   "header": [
+    "Percentage change over 1974"
    ]
   }
  ],
- "notes": [
-  "Jame & Kashmir and Uttar Pradesh,"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

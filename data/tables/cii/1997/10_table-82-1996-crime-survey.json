@@ -8,59 +8,83 @@
  "serial": "10",
  "title": "Persons Arrested Under Custodial Rape and Their Disposal by Police and Courts During 1997",
  "listing_title": "Persons Arrested Under Custodial Rape and Their Disposal by Police and Courts During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-82-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-82-1996-crime-survey.pdf",
  "source_sha256": "74b5bf14a21826169c57d549e36b481744780803166b6bcdbbffbf73fa8d5d1f",
  "table_no": "82",
- "pdf_title": "PERSONS ARRESTED UNDER CUSTODIAL RAPE AND THEIR DISPOSAL BY POLICE AND COURTS DURING 1997",
- "row_label": "SL NO / STATE/UT / PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE BEGINNING OF THE YEAR",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-82",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 57,
- "n_cols": 8,
- "n_cells": 154,
+ "n_rows": 37,
+ "n_cols": 12,
+ "n_cells": 420,
  "columns": [
   {
-   "col_no": "4",
-   "name": "PERSONS | PERSONS ARRESTED DURING THE YEAR",
+   "col_no": "3",
+   "name": "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE BEGINNING OF THE YEAR",
    "header": [
-    "PERSONS",
+    "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE BEGINNING OF THE YEAR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERSONS ARRESTED DURING THE YEAR",
+   "header": [
     "PERSONS ARRESTED DURING THE YEAR"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERSONS | RELEASEDOR FREED BY POLICEOR MAGISTRATE BEFORE TRIAL FOR WANT OF EVIDENCE OR ANY OTHER REASON",
+   "name": "PERSONS RELEASED OR FREED BY POLICE OR MAGISTRATE BEFORE TRIAL FOR WANT OF EVIDENCE OR ANY OTHER REASON",
    "header": [
-    "PERSONS",
-    "RELEASEDOR FREED BY POLICEOR MAGISTRATE BEFORE TRIAL FOR WANT OF EVIDENCE OR ANY OTHER REASON"
+    "PERSONS RELEASED OR FREED BY POLICE OR MAGISTRATE BEFORE TRIAL FOR WANT OF EVIDENCE OR ANY OTHER REASON"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERSONS CUSTODY OR ON BAIL DURING THE STAGE OF ‘TION AT THE OF THE YEAR",
+   "name": "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE END OF THE YEAR",
    "header": [
-    "PERSONS CUSTODY OR ON BAIL DURING THE STAGE OF ‘TION AT THE OF THE YEAR"
+    "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF INVESTIGATION AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "PERSONS | PERSONS iN WHOSECASES CHARGE SHEETS WERF LAID DURING THE YEAR",
+   "name": "PERSONS IN WHOSE CASES CHARGE SHEETS WERE LAID DURING THE YEAR",
    "header": [
-    "PERSONS",
-    "PERSONS iN WHOSECASES CHARGE SHEETS WERF LAID DURING THE YEAR"
+    "PERSONS IN WHOSE CASES CHARGE SHEETS WERE LAID DURING THE YEAR"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERSONS | UNDER TRIAL AT THE BEGINNING OF THE YEAR",
+   "name": "PERSONS UNDER TRIAL AT THE BEGINNING OF THE YEAR",
    "header": [
-    "PERSONS",
-    "UNDER TRIAL AT THE BEGINNING OF THE YEAR"
+    "PERSONS UNDER TRIAL AT THE BEGINNING OF THE YEAR"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "TOTAL NUMBER OF PERSONS UNDER TRIAL DURING THE YEAR",
+   "header": [
+    "TOTAL NUMBER OF PERSONS UNDER TRIAL DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PERSONS AGAINST WHOM CASES WERE COMPOUNDED OR WITHDRAWN",
+   "header": [
+    "PERSONS AGAINST WHOM CASES WERE COMPOUNDED OR WITHDRAWN"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF TRIAL AT THE END OF THE YEAR",
+   "header": [
+    "PERSONS IN CUSTODY OR ON BAIL DURING THE STAGE OF TRIAL AT THE END OF THE YEAR"
    ]
   },
   {
@@ -72,9 +96,9 @@
   },
   {
    "col_no": "13",
-   "name": "FERSONS CONVICTED",
+   "name": "PERSONS CONVICTED",
    "header": [
-    "FERSONS CONVICTED"
+    "PERSONS CONVICTED"
    ]
   },
   {
@@ -85,15 +109,11 @@
    ]
   }
  ],
- "notes": [
-  "MR» CATA NOT RECEIVED"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
-  "failures": [
-   "col 4 'TOTAL (ALL-INDIA)': printed 6, sum 11"
-  ],
+  "cells_checked": 27,
+  "cells_passed": 27,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

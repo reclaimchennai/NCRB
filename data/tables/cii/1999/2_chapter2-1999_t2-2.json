@@ -6,72 +6,61 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "Crimes in Mega Cities",
+ "title": "N.C.R.B. (M.H.A.) CRIME IN INDIA - 1999 ## Various forms of crime",
  "listing_title": "Crimes in Mega Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter2-1999.pdf",
  "source_file": "raw/cii/1999/table_chapter/chapter2-1999.pdf",
  "source_sha256": "ba69ec7ceb64bc0a6b91994598eef2edfe62d951432d05059774d5f8519485e7",
  "table_no": "2.2",
- "pdf_title": "",
- "row_label": "Crime Head No.",
+ "pdf_title": "N.C.R.B. (M.H.A.) CRIME IN INDIA - 1999 ## Various forms of crime",
+ "row_label": "Sl. No. / Crime Head",
  "pages": [
   2
  ],
- "n_rows": 27,
+ "n_rows": 28,
  "n_cols": 4,
- "n_cells": 105,
+ "n_cells": 110,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Incidence | 1998",
-   "header": [
-    "Incidence",
-    "1998"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Incidence | 1999",
+   "name": "Incidence (3)",
    "header": [
-    "Incidence",
-    "1999"
+    "Incidence"
    ]
   },
   {
    "col_no": "4",
-   "name": "Incidence | Percentage Share 1999",
+   "name": "Incidence (4)",
    "header": [
-    "Incidence",
-    "Percentage Share 1999"
+    "Incidence"
    ]
   },
   {
    "col_no": "5",
-   "name": "- Percentage Variation In 1999 over 1998",
+   "name": "Percentage Share 1999",
    "header": [
-    "- Percentage Variation In 1999 over 1998"
+    "Percentage Share 1999"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage Variation In 1999 over 1998",
+   "header": [
+    "Percentage Variation In 1999 over 1998"
    ]
   }
  ],
- "notes": [
-  "2.3.2 It is noticed that share of cities for most of the heinous crimes such as Murder, Attempt to",
-  "Murder, Culpable Homicide not amounting to Murder, Rape, Kidnapping & Abduction, Dacoity,",
-  "Riots, Arson, Hurt, Dowry Deaths, Molestation and Torture was marginally lower or almost of the",
-  "same order as the share of these crimes at All-India level (Table-3, Chanter-I). However, exceptions",
-  "to this similarity were the crime heads Robbery, Burglary, Criminal Breach of Trust, Cheating,",
-  "Counterfeiting and Theft. This indicates that Property and White Collar Crimes have higher rate of",
-  "incidence in mega cities."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 2,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

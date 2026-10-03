@@ -6,48 +6,45 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1997",
  "serial": "8",
- "title": "Suicidal Deaths in India",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA. .997 N.C.R.B., (M.H.A.)",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1997.pdf",
  "source_file": "raw/adsi/1997/year_wise/suicides-1997.pdf",
  "source_sha256": "2429422c19b1e2d7b150d189cba38a71e6c44f23fbe286bac0b826e56cdf1d0f",
  "table_no": "2.12",
- "pdf_title": "",
- "row_label": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA. .997 N.C.R.B., (M.H.A.)",
+ "row_label": "% Share",
  "pages": [
+  19,
   19
  ],
- "n_rows": 21,
- "n_cols": 2,
- "n_cells": 41,
+ "n_rows": 19,
+ "n_cols": 3,
+ "n_cells": 56,
  "columns": [
   {
-   "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "col_no": "4",
+   "name": "% Share (4)",
+   "header": [
+    "% Share"
+   ]
   },
   {
-   "col_no": "4",
-   "name": "col_4",
+   "col_no": "5",
+   "name": "% Share (5)",
+   "header": [
+    "% Share"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
    "header": []
   }
  ],
- "notes": [
-  "2.8.8. Over alcoholism, consuming insecticide, hanging and jumping from other sites are some of the",
-  "significant means which recorded increasing trend in 1997 over 1996. Consuming insecticides to commie suicide",
-  "increased to 19.1 percent as against 14.3 percent recorded in 1995, This requires attention by the concerned to",
-  "limit and control the easy access to these items to prevent possible misuse. Suicides by drowning, consuming",
-  "other poison and jumping off from moving vehicles have declined in the recent years.",
-  "2.9 SUICIDES IN CITIES",
-  "2.9.1 During 1997, incidents of suicides reported from 23 mega cities increased by 10.5 percent over 1996,",
-  "The cities of Bombay, Bangalore & Madras which registered higher number of suicides in 1996 again reported",
-  "higher figures of suicides in 1997. All these three cities have registered significant increase in such cases. Among",
-  "the other cities, Lucknow (97.5%), Bangalore (47.7%), and Jaipur (44.3%) reported significant: rise in the",
-  "suicides in 1997 over 1996. The cities such as Patna (58.7%), Ludhiana (37.5%) and Coimbatore (17.67%)",
-  "registered significant fall in the suicides that were reported during 1997 compared to 1996."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -55,7 +52,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

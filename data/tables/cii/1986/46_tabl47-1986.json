@@ -8,42 +8,40 @@
  "serial": "46",
  "title": "Property Stolen and Recovered in Different States/U.T.s/Cities During 1986",
  "listing_title": "Property Stolen and Recovered in Different States/U.T.s/Cities During 1986",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl47-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl47-1986.pdf",
  "source_sha256": "15011e44ab87cefccdd73ba4c5c46b5f96477b5b196e8a1fd3e9f411d614caf0",
  "table_no": "47",
- "pdf_title": "Property Stolen and Recovered in Different States/U.Ts/Cities during 1986",
+ "pdf_title": "97 TABLE 47 Property Stolen and Recovered in Different States/U.Ts/Cities during 1986",
  "row_label": "Sl. no. / States/U.Ts/Cities",
  "pages": [
   1
  ],
- "n_rows": 46,
+ "n_rows": 47,
  "n_cols": 3,
- "n_cells": 137,
+ "n_cells": 141,
  "columns": [
   {
    "col_no": "3",
-   "name": "Value of property | Value of property stolen (Rs. in lakhs)",
+   "name": "Value of property stolen(Rs. in lakhs)",
    "header": [
-    "Value of property",
-    "Value of property stolen (Rs. in lakhs)"
+    "Value of property stolen(Rs. in lakhs)"
    ]
   },
   {
    "col_no": "4",
-   "name": "Value of property | (Rs. in lakhs)",
+   "name": "Value of property recovered(Rs. in lakhs)",
    "header": [
-    "Value of property",
-    "(Rs. in lakhs)"
+    "Value of property recovered(Rs. in lakhs)"
    ]
   },
   {
    "col_no": "5",
-   "name": "Yoage of value of property 1G value of property stolen",
+   "name": "%age of value of property recovered to value of property stolen",
    "header": [
-    "Yoage of value of property 1G value of property stolen"
+    "%age of value of property recovered to value of property stolen"
    ]
   }
  ],

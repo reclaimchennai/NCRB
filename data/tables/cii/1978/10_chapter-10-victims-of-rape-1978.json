@@ -8,53 +8,47 @@
  "serial": "10",
  "title": "Victims of Rape",
  "listing_title": "Victims of Rape",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-10-victims-of-rape-1978.pdf",
  "source_file": "raw/cii/1978/table_chapter/chapter-10-victims-of-rape-1978.pdf",
  "source_sha256": "3c78f202c438a8a4aa781180d853c3c2785696ed0217a342b04c395c6c5f4f2f",
  "table_no": "55",
- "pdf_title": "",
- "row_label": "AGE GROUPS FOR THE STATEMENT SHOWING THE NUMBER OF VICTIMS UNDER CRIME HEAD ‘RAPE’ IN ‘SI. States/U.Ts. ‘Cities No. 4 STATES",
+ "pdf_title": "CHAPTER. 10 ## VICTIMS OF RAPE The data on ‘Victims of Rape’ was collected under three age groups viz., below 16 years, between 16 to 30 years and above 30 years. The percentage of victims of Rape was the highest (67·0) in the age group 16 to 30, while victims below 16 years accounted for 17·0 percent and victims above 30 years of age accounted for 16·0 percent.",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 43,
+ "n_rows": 44,
  "n_cols": 4,
- "n_cells": 159,
+ "n_cells": 169,
  "columns": [
   {
-   "col_no": "2",
-   "name": "AGE GROUPS FOR THE | STATEMENT SHOWING THE NUMBER OF VICTIMS UNDER CRIME HEAD ‘RAPE’ IN | No. of 2",
-   "header": [
-    "AGE GROUPS FOR THE",
-    "STATEMENT SHOWING THE NUMBER OF VICTIMS UNDER CRIME HEAD ‘RAPE’ IN",
-    "No. of 2"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "AGE GROUPS FOR THE | STATEMENT SHOWING THE NUMBER OF VICTIMS UNDER CRIME HEAD ‘RAPE’ IN | STATES/U.Ts./CITIES DURING 1978 cases reported 3",
+   "name": "No. of cases reported",
    "header": [
-    "AGE GROUPS FOR THE",
-    "STATEMENT SHOWING THE NUMBER OF VICTIMS UNDER CRIME HEAD ‘RAPE’ IN",
-    "STATES/U.Ts./CITIES DURING 1978 cases reported 3"
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "4",
-   "name": "AGE GROUPS FOR THE | 30 Below 16 Between 16 years years 5",
+   "name": "Below 16 years",
    "header": [
-    "AGE GROUPS FOR THE",
-    "30 Below 16 Between 16 years years 5"
+    "Below 16 years"
    ]
   },
   {
    "col_no": "5",
-   "name": "AGE GROUPS FOR THE | - Above 30 years 5 6",
+   "name": "Between 16 to 30 years",
    "header": [
-    "AGE GROUPS FOR THE",
-    "- Above 30 years 5 6"
+    "Between 16 to 30 years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Above 30 years",
+   "header": [
+    "Above 30 years"
    ]
   }
  ],
@@ -63,10 +57,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 1
+  "other_totals_checked": 16,
+  "other_totals_passed": 12
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

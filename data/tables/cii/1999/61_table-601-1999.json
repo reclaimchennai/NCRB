@@ -8,40 +8,121 @@
  "serial": "61",
  "title": "Recidivism Amongst Persons Arrested Under IPC Crimes During 1999",
  "listing_title": "Recidivism Amongst Persons Arrested Under IPC Crimes During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-601-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-601-1999.pdf",
  "source_sha256": "c0719e39a07a0f5bd0c2201d9938cee88765b710f4b2590d73694727100b88db",
  "table_no": "61",
- "pdf_title": "",
- "row_label": "RECIDIVISM AMONGST PERSONS TOTAL SL.NO. NO. OF PERSONS @ STATE i: / RECIDIVISM AMONGST PERSONS NEW OFFENDERS ONCE TAGETO PERCENNO. TAGE TOTAL TOTAL tu) Q) / kD UNDER IPC CRIMES DURING 1999 OLD OFFENDERS CONVICTED IN THE PAST TWICE NO. PERCENTAGE TOTAL (10) (41) @) (8)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 61",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 52,
- "n_cols": 1,
- "n_cells": 52,
+ "n_rows": 59,
+ "n_cols": 10,
+ "n_cells": 590,
  "columns": [
   {
-   "col_no": "4",
-   "name": "OR MORE PEKCEN- TAGE OF RECIDIPERCENNO. VISTS TAGE —{(7)+(9)+(1)} TOTAL (4) (12)",
+   "col_no": "3",
+   "name": "TOTAL NO. OF PERSONS ARRESTED",
    "header": [
-    "OR MORE PEKCEN- TAGE OF RECIDIPERCENNO. VISTS TAGE —{(7)+(9)+(1)} TOTAL (4) (12)"
+    "TOTAL NO. OF PERSONS ARRESTED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NEW OFFENDERS | NO.",
+   "header": [
+    "NEW OFFENDERS",
+    "NO."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NEW OFFENDERS | PERCENT-TAGE TO TOTAL",
+   "header": [
+    "NEW OFFENDERS",
+    "PERCENT-TAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | NO.",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "ONCE",
+    "NO."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | PERCENT-TAGE TOTAL",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "ONCE",
+    "PERCENT-TAGE TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE | NO.",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "TWICE",
+    "NO."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE | PERCENT-TAGE TOTAL",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "TWICE",
+    "PERCENT-TAGE TOTAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | NO.",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "THRICE OR MORE",
+    "NO."
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | PERCENT-TAGE TOTAL",
+   "header": [
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "THRICE OR MORE",
+    "PERCENT-TAGE TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "PERCENT-TAGE OF RECIDIVISTS (7)+(9)+(11)",
+   "header": [
+    "PERCENT-TAGE OF RECIDIVISTS (7)+(9)+(11)"
    ]
   }
  ],
- "notes": [
-  "(CITIES) 243459 219569 9.2S—«8407|~=S7206 (S68T 15. 18025 ~=«#20.7)~C~C«S*C:*W"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 20,
+  "cells_passed": 15,
+  "failures": [
+   "col 3 'TOTAL (ALL-INDIA)': printed 259876, sum 2.60088e+06",
+   "col 4 'TOTAL (CITIES)': printed 219569, sum 218569",
+   "col 6 'TOTAL (CITIES)': printed 18407, sum 18907",
+   "col 8 'TOTAL (CITIES)': printed 3681, sum 3684",
+   "col 10 'TOTAL (UTS)': printed 712, sum 682"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

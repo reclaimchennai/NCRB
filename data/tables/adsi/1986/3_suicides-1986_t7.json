@@ -1,0 +1,75 @@
+{
+ "table_id": "adsi/1986/3_suicides-1986_t7",
+ "publication": "adsi",
+ "year": 1986,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1986",
+ "serial": "3",
+ "title": "27 TABLE.VII Suicides Classified According To Sex And By States, Union Territories And Metropolitan Cities During The Year 1986.",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1986.pdf",
+ "source_file": "raw/adsi/1986/year_wise/suicides-1986.pdf",
+ "source_sha256": "301b8dfc1921ea787077c0ba8426ed4353d4439423c3eccba0db451570857b22",
+ "table_no": "",
+ "pdf_title": "27 TABLE.VII Suicides Classified According To Sex And By States, Union Territories And Metropolitan Cities During The Year 1986.",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
+ "pages": [
+  16
+ ],
+ "n_rows": 25,
+ "n_cols": 5,
+ "n_cells": 125,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% of male to total",
+   "header": [
+    "% of male to total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Female",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% of Female to total",
+   "header": [
+    "% of Female to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 7 'Total (STATES)': printed 53128, sum 53125"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

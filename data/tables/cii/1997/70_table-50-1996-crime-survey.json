@@ -8,21 +8,21 @@
  "serial": "70",
  "title": "Juveniles Delinquency Under Different Crime Heads (IPC) During 1997 (State, UT & City-Wise)",
  "listing_title": "Juveniles Delinquency Under Different Crime Heads (IPC) During 1997 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-50-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-50-1996-crime-survey.pdf",
  "source_sha256": "0ff8a902ec3b1041f7ee51afaa2e63495fd0ef9d74951cff95d54ac3785db9d8",
  "table_no": "50",
- "pdf_title": "JUVENILES DELINQUENCY UNDER virrenen! CRIME HEADS (IPC) DURING 1997 (STATE, UT & CITY-WISE)",
- "row_label": "SL. STATE/UT/CITY NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-50",
+ "row_label": "SL NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
- "n_rows": 106,
+ "n_rows": 116,
  "n_cols": 23,
- "n_cells": 869,
+ "n_cells": 1334,
  "columns": [
   {
    "col_no": "3",
@@ -33,9 +33,9 @@
   },
   {
    "col_no": "4",
-   "name": "To COMMIT MURDER",
+   "name": "ATTEMPT TO COMMIT MURDER",
    "header": [
-    "To COMMIT MURDER"
+    "ATTEMPT TO COMMIT MURDER"
    ]
   },
   {
@@ -85,9 +85,9 @@
   },
   {
    "col_no": "11",
-   "name": "PREPARATION & ASSEMBLY FOR DACOITY",
+   "name": "PREPARA-TION & ASSEMBLY FOR DACOITY",
    "header": [
-    "PREPARATION & ASSEMBLY FOR DACOITY"
+    "PREPARA-TION & ASSEMBLY FOR DACOITY"
    ]
   },
   {
@@ -127,9 +127,9 @@
   },
   {
    "col_no": "18",
-   "name": "COUNTERFEITING",
+   "name": "COUNTER-FEITING",
    "header": [
-    "COUNTERFEITING"
+    "COUNTER-FEITING"
    ]
   },
   {
@@ -141,67 +141,59 @@
   },
   {
    "col_no": "20",
-   "name": "HURT/ HURT",
+   "name": "HURT/ GRIEVOUS HURT",
    "header": [
-    "HURT/ HURT"
+    "HURT/ GRIEVOUS HURT"
    ]
   },
   {
    "col_no": "21",
-   "name": "DOWRY GRIEVOUS DEATH",
+   "name": "DOWRY DEATH",
    "header": [
-    "DOWRY GRIEVOUS DEATH"
+    "DOWRY DEATH"
    ]
   },
   {
    "col_no": "22",
-   "name": "MOLESTATION",
+   "name": "MOLES-TATION",
    "header": [
-    "MOLESTATION"
+    "MOLES-TATION"
    ]
   },
   {
    "col_no": "23",
-   "name": "CRUELTY | SEXUAL HARASSMENT",
+   "name": "SEXUAL HARASS-MENT",
    "header": [
-    "CRUELTY",
-    "SEXUAL HARASSMENT"
+    "SEXUAL HARASS-MENT"
    ]
   },
   {
    "col_no": "24",
-   "name": "CRUELTY | BY OR RELATIVES",
+   "name": "CRUELTY BY HUSBAND OR RELATIVES",
    "header": [
-    "CRUELTY",
-    "BY OR RELATIVES"
+    "CRUELTY BY HUSBAND OR RELATIVES"
    ]
   },
   {
    "col_no": "25",
-   "name": "CRUELTY | OTHER Ipc CRIMES",
+   "name": "OTHER IPC CRIMES",
    "header": [
-    "CRUELTY",
-    "OTHER Ipc CRIMES"
+    "OTHER IPC CRIMES"
    ]
   },
   {
    "col_no": "26",
-   "name": "TOTAL STATE/UT/CITY coG. CRIMES UNDER Ipc",
+   "name": "TOTAL COG. CRIMES UNDER IPC",
    "header": [
-    "TOTAL STATE/UT/CITY coG. CRIMES UNDER Ipc"
+    "TOTAL COG. CRIMES UNDER IPC"
    ]
   }
  ],
- "notes": [
-  "0 fe) fe) ° ° O VARANASI",
-  "29 ie) fe} fe) ° 1 ° 0 1 38 VISHAKHAPATNAM"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 17,
-  "cells_passed": 16,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 306, sum 302"
-  ],
+  "cells_checked": 33,
+  "cells_passed": 33,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -6,16 +6,16 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "36",
- "title": "Percentage of IPC Cases Disposed of by Police During 1997",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-16",
  "listing_title": "Percentage of IPC Cases Disposed of by Police During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-16-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-16-1996-crime-survey.pdf",
  "source_sha256": "83fbb4b3216e23a69d52410f3ffb362dcf314b0ebfe8aea0522b5555b08adef5",
  "table_no": "16",
- "pdf_title": "",
- "row_label": "PENGEN TAGE )",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-16",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,68 +25,64 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "OF IPC CRIME CASES | INVESTIGATION WAS REFUSED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "OF IPC CRIME CASES",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
     "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF IPC CRIME CASES | OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC.",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC.",
    "header": [
-    "OF IPC CRIME CASES",
-    "OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
-    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC."
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR LAW ETC."
    ]
   },
   {
    "col_no": "5",
-   "name": "OF IPC CRIME CASES | OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "OF IPC CRIME CASES",
-    "OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
     "INVESTIGATION WAS COMPLETED",
     "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF IPC CRIME CASES | OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
    "header": [
-    "OF IPC CRIME CASES",
-    "OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
     "INVESTIGATION WAS COMPLETED",
     "CHARGE SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "7",
-   "name": "1997 | TOTAL ((4) +(6)}",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL [(4) + (5) + (6)]",
    "header": [
-    "1997",
-    "TOTAL ((4) +(6)}"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL [(4) + (5) + (6)]"
    ]
   },
   {
    "col_no": "8",
-   "name": "1997 | OF (5)",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION",
    "header": [
-    "1997",
-    "OF (5)"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION"
    ]
   },
   {
    "col_no": "9",
-   "name": "RATE CASES {(6)/(5) + PENDING (6) X 100} INVESTIGATION",
+   "name": "CHARGE-SHEETING RATE [(6)/(5) + (6) X 100]",
    "header": [
-    "RATE CASES {(6)/(5) + PENDING (6) X 100} INVESTIGATION"
+    "CHARGE-SHEETING RATE [(6)/(5) + (6) X 100]"
    ]
   }
  ],
- "notes": [
-  "No 6: teas than 0.05 is also shown as 0.0,"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

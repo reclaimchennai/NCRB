@@ -8,136 +8,128 @@
  "serial": "24",
  "title": "Persons Arrested under Local and Special Laws During 1985",
  "listing_title": "Persons Arrested under Local and Special Laws During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables24-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables24-1985.pdf",
  "source_sha256": "e17e6b8668cdc520c5f2019a158117f33571eb735127b46d5e45fd1f2182060b",
- "table_no": "24",
- "pdf_title": "Persons Arrested Under Local And Special Laws During 1985",
- "row_label": "Sl. States/U. Ts/Cities No. (5) STATES",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. States/U.Ts/Cities No. / Arms Act",
  "pages": [
   1,
   2
  ],
- "n_rows": 60,
+ "n_rows": 47,
  "n_cols": 13,
- "n_cells": 609,
+ "n_cells": 611,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Arms (2)",
-   "header": [
-    "Arms (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Act (3)",
+   "name": "Arms Act (3)",
    "header": [
-    "Act (3)"
+    "Arms Act"
    ]
   },
   {
    "col_no": "4",
-   "name": "Opium Act Act (4)",
+   "name": "Arms Act (4)",
    "header": [
-    "Opium Act Act (4)"
+    "Arms Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "Gamhling Act (5)",
+   "name": "Arms Act | Opium Act",
    "header": [
-    "Gamhling Act (5)"
+    "Arms Act",
+    "Opium Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "Excise Act (6)",
+   "name": "Arms Act | Gambling Act",
    "header": [
-    "Excise Act (6)"
+    "Arms Act",
+    "Gambling Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "Prohibition & Act Suhetances (8) (7)",
+   "name": "Arms Act | Excise Act",
    "header": [
-    "Prohibition & Act Suhetances (8) (7)"
+    "Arms Act",
+    "Excise Act"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Prohibition Act",
+   "header": [
+    "Prohibition Act"
    ]
   },
   {
    "col_no": "9",
-   "name": "Sunsressian Moter | of Traffic",
+   "name": "Suppression of Immoral Traffic Act",
    "header": [
-    "Sunsressian Moter",
-    "of Traffic"
+    "Suppression of Immoral Traffic Act"
    ]
   },
   {
    "col_no": "10",
-   "name": "Sunsressian Moter | Tmmaral Act",
+   "name": "Motor Vehicles Traffic Act",
    "header": [
-    "Sunsressian Moter",
-    "Tmmaral Act"
+    "Motor Vehicles Traffic Act"
    ]
   },
   {
    "col_no": "11",
-   "name": "Frevention Vehicles Act «11)",
+   "name": "Prevention of Corruption Act",
    "header": [
-    "Frevention Vehicles Act «11)"
+    "Prevention of Corruption Act"
    ]
   },
   {
    "col_no": "12",
-   "name": "Customs of tion Act",
+   "name": "Customs Act",
    "header": [
-    "Customs of tion Act"
+    "Customs Act"
    ]
   },
   {
    "col_no": "13",
-   "name": "Other | Corrup- Act",
+   "name": "Indian Railways Act",
    "header": [
-    "Other",
-    "Corrup- Act"
+    "Indian Railways Act"
    ]
   },
   {
    "col_no": "14",
-   "name": "Other | Act",
+   "name": "Other Offences",
    "header": [
-    "Other",
-    "Act"
+    "Other Offences"
    ]
   },
   {
    "col_no": "15",
-   "name": "Total Indian Railways",
+   "name": "Total",
    "header": [
-    "Total Indian Railways"
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 31,
-  "cells_passed": 11,
+  "cells_checked": 34,
+  "cells_passed": 33,
   "failures": [
-   "col 2 'TOTAL (U.Ts. )': printed 2221, sum 2131",
-   "col 4 'TOTAL (CITIES)': printed 51011, sum 114411",
-   "col 5 'TOTAL (STATES )': printed 104290, sum 110690",
-   "col 6 'TOTAL (STATES )': printed 346646, sum 346639",
-   "col 7 'TOTAL (U.Ts. )': printed 41, sum 34",
-   "col 7 'TOTAL (CITIES)': printed 1320, sum 1327",
-   "col 9 'TOTAL (STATES )': printed 16372, sum 16303",
-   "col 9 'TOTAL (U.Ts. )': printed 128, sum 101"
+   "col 13 'TOTAL (U.Ts.)': printed 337, sum 37"
   ],
   "other_totals_checked": 11,
-  "other_totals_passed": 10
+  "other_totals_passed": 11
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

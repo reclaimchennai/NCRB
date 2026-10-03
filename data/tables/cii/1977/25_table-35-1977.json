@@ -8,27 +8,34 @@
  "serial": "25",
  "title": "Juvenile Apprehended in India (by Age Group and Sex)",
  "listing_title": "Juvenile Apprehended in India (by Age Group and Sex)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-35-1977.pdf",
  "source_file": "raw/cii/1977/table_content/table-35-1977.pdf",
  "source_sha256": "b56ddc866dd0ed3a2d8b6d0bbc5443011f1bc297d564c6f078684f372abe9676",
  "table_no": "35",
- "pdf_title": "IN INDIA (BY AGE GROUP AND SEX)",
- "row_label": "Sl. No. / Crime",
+ "pdf_title": "91 TABLE 35 JOUVENILE APPREHENDED IN INDIA (BY AGE GROUP AND SEX)",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 31,
+ "n_rows": 27,
  "n_cols": 11,
- "n_cells": 304,
+ "n_cells": 297,
  "columns": [
   {
+   "col_no": "2",
+   "name": "Heads of Crime",
+   "header": [
+    "Heads of Crime"
+   ]
+  },
+  {
    "col_no": "3",
-   "name": "Between 7-12 years | - Boys",
+   "name": "Between 7-12 years | Boys",
    "header": [
     "Between 7-12 years",
-    "- Boys"
+    "Boys"
    ]
   },
   {
@@ -41,74 +48,66 @@
   },
   {
    "col_no": "5",
-   "name": "26-18 | Botween 12-16 years | - Boys",
+   "name": "Between 12-16 years | Boys",
    "header": [
-    "26-18",
-    "Botween 12-16 years",
-    "- Boys"
+    "Between 12-16 years",
+    "Boys"
    ]
   },
   {
    "col_no": "6",
-   "name": "26-18 | Botween 12-16 years | Girls",
+   "name": "Between 12-16 years | Girls",
    "header": [
-    "26-18",
-    "Botween 12-16 years",
+    "Between 12-16 years",
     "Girls"
    ]
   },
   {
    "col_no": "7",
-   "name": "26-18 | yeats © Boys",
+   "name": "Between 16-18 years | Boys",
    "header": [
-    "26-18",
-    "yeats © Boys"
+    "Between 16-18 years",
+    "Boys"
    ]
   },
   {
    "col_no": "8",
-   "name": "26-18 | Girls",
+   "name": "Between 16-18 years | Girls",
    "header": [
-    "26-18",
+    "Between 16-18 years",
     "Girls"
    ]
   },
   {
    "col_no": "9",
-   "name": "26-18 | yoars Boys",
+   "name": "Between 18-21 years | Boys",
    "header": [
-    "26-18",
-    "yoars Boys"
+    "Between 18-21 years",
+    "Boys"
    ]
   },
   {
    "col_no": "10",
-   "name": "28-21 Girls",
+   "name": "Between 18-21 years | Girls",
    "header": [
-    "28-21 Girls"
+    "Between 18-21 years",
+    "Girls"
    ]
   },
   {
    "col_no": "11",
-   "name": "over all ajto troup Boys",
+   "name": "over all age group | Boys (11)",
    "header": [
-    "over all ajto troup Boys"
+    "over all age group",
+    "Boys"
    ]
   },
   {
    "col_no": "12",
-   "name": "Total | © Boys",
+   "name": "over all age group | Boys (12)",
    "header": [
-    "Total",
-    "© Boys"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Total | Girls",
-   "header": [
-    "Total",
-    "Girls"
+    "over all age group",
+    "Boys"
    ]
   }
  ],
@@ -117,10 +116,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 33,
+  "other_totals_passed": 19
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

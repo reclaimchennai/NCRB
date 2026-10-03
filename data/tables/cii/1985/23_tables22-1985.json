@@ -8,14 +8,14 @@
  "serial": "23",
  "title": "Persons Arrested by Sex under IPC During 1985",
  "listing_title": "Persons Arrested by Sex under IPC During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables22-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables22-1985.pdf",
  "source_sha256": "415a8884986c7be7f2a121f1779954811a790e8e082ce1dec474c667f3fc3c30",
  "table_no": "22",
- "pdf_title": "By Sex Under IPC During 1985",
- "row_label": "Sl. States/U. Ts/Cities No.",
+ "pdf_title": "62 TABLE -22 Persons Arrested By Sex Under IPC During 1985",
+ "row_label": "Sl. States/U.Ts/Cities No. / Sl. States/U.Ts/Cities No.",
  "pages": [
   1,
   2,
@@ -24,12 +24,12 @@
   5,
   6
  ],
- "n_rows": 119,
- "n_cols": 38,
- "n_cells": 1773,
+ "n_rows": 94,
+ "n_cols": 39,
+ "n_cells": 1833,
  "columns": [
   {
-   "col_no": "2",
+   "col_no": "3",
    "name": "MURDER | MALE",
    "header": [
     "MURDER",
@@ -37,7 +37,7 @@
    ]
   },
   {
-   "col_no": "3",
+   "col_no": "4",
    "name": "MURDER | FEMALE",
    "header": [
     "MURDER",
@@ -45,41 +45,43 @@
    ]
   },
   {
-   "col_no": "4",
-   "name": "TOTAL (4)",
+   "col_no": "5",
+   "name": "MURDER | TOTAL",
    "header": [
+    "MURDER",
     "TOTAL"
    ]
   },
   {
-   "col_no": "5",
-   "name": "oe waste MALE",
-   "header": [
-    "oe waste MALE"
-   ]
-  },
-  {
    "col_no": "6",
-   "name": "NOT | To FEMALE",
+   "name": "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER | MALE",
    "header": [
-    "NOT",
-    "To FEMALE"
+    "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER",
+    "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "NOT | MURDER TOTAL",
+   "name": "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER | FEMALE",
    "header": [
-    "NOT",
-    "MURDER TOTAL"
+    "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER | TOTAL",
+   "header": [
+    "CULPABLE HOMICIDE NOT AMOUNTING TO MURDER",
+    "TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "RAPE | MALE ee ee",
+   "name": "RAPE | MALE",
    "header": [
     "RAPE",
-    "MALE ee ee"
+    "MALE"
    ]
   },
   {
@@ -92,34 +94,38 @@
   },
   {
    "col_no": "11",
-   "name": "TOTAL (11)",
+   "name": "RAPE | TOTAL",
    "header": [
+    "RAPE",
     "TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "KIDNAPPING MALE",
+   "name": "KIDNAPPING & ABDUCTION | MALE",
    "header": [
-    "KIDNAPPING MALE"
+    "KIDNAPPING & ABDUCTION",
+    "MALE"
    ]
   },
   {
    "col_no": "13",
-   "name": "& FEMALE",
+   "name": "KIDNAPPING & ABDUCTION | FEMALE",
    "header": [
-    "& FEMALE"
+    "KIDNAPPING & ABDUCTION",
+    "FEMALE"
    ]
   },
   {
    "col_no": "14",
-   "name": "ABDUCTIUN TOTAL",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
    "header": [
-    "ABDUCTIUN TOTAL"
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL"
    ]
   },
   {
-   "col_no": "10001",
+   "col_no": "15",
    "name": "DACOITY | MALE",
    "header": [
     "DACOITY",
@@ -127,7 +133,7 @@
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "16",
    "name": "DACOITY | FEMALE",
    "header": [
     "DACOITY",
@@ -135,23 +141,23 @@
    ]
   },
   {
-   "col_no": "10003",
-   "name": "ROBBERY | TOTAL (10003)",
+   "col_no": "17",
+   "name": "DACOITY | TOTAL",
    "header": [
-    "ROBBERY",
+    "DACOITY",
     "TOTAL"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "ROBBERY | MALE (10004)",
+   "col_no": "18",
+   "name": "ROBBERY | MALE",
    "header": [
     "ROBBERY",
     "MALE"
    ]
   },
   {
-   "col_no": "10005",
+   "col_no": "19",
    "name": "ROBBERY | FEMALE",
    "header": [
     "ROBBERY",
@@ -159,32 +165,34 @@
    ]
   },
   {
-   "col_no": "10006",
-   "name": "ROBBERY | TOTAL (10006)",
+   "col_no": "20",
+   "name": "ROBBERY | TOTAL",
    "header": [
     "ROBBERY",
     "TOTAL"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "ROBBERY | MALE (10007)",
+   "col_no": "21",
+   "name": "BURGLARY | MALE",
    "header": [
-    "ROBBERY",
+    "BURGLARY",
     "MALE"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "FEMALE",
+   "col_no": "22",
+   "name": "BURGLARY | FEMALE",
    "header": [
+    "BURGLARY",
     "FEMALE"
    ]
   },
   {
-   "col_no": "10009",
-   "name": "TOTAL (10009)",
+   "col_no": "23",
+   "name": "BURGLARY | TOTAL",
    "header": [
+    "BURGLARY",
     "TOTAL"
    ]
   },
@@ -206,9 +214,9 @@
   },
   {
    "col_no": "26",
-   "name": "RIOTS | TOTAL (26)",
+   "name": "THEFT | TOTAL",
    "header": [
-    "RIOTS",
+    "THEFT",
     "TOTAL"
    ]
   },
@@ -230,7 +238,7 @@
   },
   {
    "col_no": "29",
-   "name": "RIOTS | TOTAL (29)",
+   "name": "RIOTS | TOTAL",
    "header": [
     "RIOTS",
     "TOTAL"
@@ -238,108 +246,119 @@
   },
   {
    "col_no": "30",
-   "name": "CRIMINAT. BREACH OF TRUST | MALE",
+   "name": "CRIMINAL BREACH OF TRUST | MALE",
    "header": [
-    "CRIMINAT. BREACH OF TRUST",
+    "CRIMINAL BREACH OF TRUST",
     "MALE"
    ]
   },
   {
    "col_no": "31",
-   "name": "CRIMINAT. BREACH OF TRUST | FEMALE",
+   "name": "CRIMINAL BREACH OF TRUST | FEMALE",
    "header": [
-    "CRIMINAT. BREACH OF TRUST",
+    "CRIMINAL BREACH OF TRUST",
     "FEMALE"
    ]
   },
   {
    "col_no": "32",
-   "name": "CRIMINAT. BREACH OF TRUST | TOTAL",
+   "name": "CRIMINAL BREACH OF TRUST | TOTAL",
    "header": [
-    "CRIMINAT. BREACH OF TRUST",
+    "CRIMINAL BREACH OF TRUST",
     "TOTAL"
    ]
   },
   {
    "col_no": "33",
-   "name": "CHEAT ING | MALE",
+   "name": "CHEATING | MALE",
    "header": [
-    "CHEAT ING",
+    "CHEATING",
     "MALE"
    ]
   },
   {
    "col_no": "34",
-   "name": "CHEAT ING | FEMALE",
+   "name": "CHEATING | FEMALE",
    "header": [
-    "CHEAT ING",
+    "CHEATING",
     "FEMALE"
    ]
   },
   {
    "col_no": "35",
-   "name": "CHEAT ING | TOTAL",
+   "name": "CHEATING | TOTAL",
    "header": [
-    "CHEAT ING",
+    "CHEATING",
     "TOTAL"
    ]
   },
   {
-   "col_no": "37",
-   "name": "CUMINTERYE LT LNG | FEMALE",
+   "col_no": "36",
+   "name": "COUNTERFEITING | MALE",
    "header": [
-    "CUMINTERYE LT LNG",
+    "COUNTERFEITING",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "COUNTERFEITING | FEMALE",
+   "header": [
+    "COUNTERFEITING",
     "FEMALE"
    ]
   },
   {
    "col_no": "38",
-   "name": "CUMINTERYE LT LNG | TOTAL",
+   "name": "COUNTERFEITING | TOTAL",
    "header": [
-    "CUMINTERYE LT LNG",
+    "COUNTERFEITING",
     "TOTAL"
    ]
   },
   {
    "col_no": "39",
-   "name": "TOTAL MALE",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC | MALE",
    "header": [
-    "TOTAL MALE"
+    "TOTAL COGNIZABLE CRIME UNDER IPC",
+    "MALE"
    ]
   },
   {
    "col_no": "40",
-   "name": "COGNT74RIE UNDER FEMALE",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC | FEMALE",
    "header": [
-    "COGNT74RIE UNDER FEMALE"
+    "TOTAL COGNIZABLE CRIME UNDER IPC",
+    "FEMALE"
    ]
   },
   {
    "col_no": "41",
-   "name": "CRIME IPC TOTAL",
+   "name": "TOTAL COGNIZABLE CRIME UNDER IPC | TOTAL",
    "header": [
-    "CRIME IPC TOTAL"
+    "TOTAL COGNIZABLE CRIME UNDER IPC",
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 79,
-  "cells_passed": 0,
+  "cells_checked": 84,
+  "cells_passed": 63,
   "failures": [
-   "col 2 'TOTAL (U.Ts. >': printed 560, sum 121134",
-   "col 2 'TOTAL (CITIES)': printed 2521, sum 2442",
-   "col 4 'TOTAL (CITIES)': printed 2603, sum 2502",
-   "col 5 'TOTAL (U.Ts. >': printed 394, sum 15292",
-   "col 5 'TOTAL (CITIES)': printed 451, sum 430",
-   "col 6 'TOTAL (U.Ts. >': printed 3, sum 180",
-   "col 9 'TOTAL (U.Ts. >': printed 209, sum 5741",
-   "col 9 'TOTAL (CITIES)': printed 537, sum 382"
+   "col 3 'TOTAL (STATES)': printed 60219, sum 60419",
+   "col 5 'TOTAL (STATES)': printed 62931, sum 63031",
+   "col 9 'TOTAL (U.Ts.)': printed 209, sum 207",
+   "col 11 'TOTAL (U.Ts.)': printed 210, sum 208",
+   "col 24 'TOTAL (U.Ts.)': printed 3982, sum 3369",
+   "col 25 'TOTAL (U.Ts.)': printed 81, sum 59",
+   "col 26 'TOTAL (U.Ts.)': printed 4063, sum 3428",
+   "col 27 'TOTAL (U.Ts.)': printed 4660, sum 3292"
   ],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 37,
+  "other_totals_passed": 37
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 6,
  "warnings": []
 }

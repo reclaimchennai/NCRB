@@ -6,96 +6,84 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "APPENDEX",
+ "title": "61 II CRIME—CASES",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix1967.pdf",
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "APPENDEX",
- "row_label": "Sl / States/U. Ts/Cities / TOTAL COGNIZABLE. Persons in custody pending investigation. or on bail during the stage of investigation",
+ "pdf_title": "61 II CRIME—CASES",
+ "row_label": "Total true cases",
  "pages": [
-  4,
-  5
+  3
  ],
- "n_rows": 39,
- "n_cols": 10,
- "n_cells": 385,
+ "n_rows": 40,
+ "n_cols": 9,
+ "n_cells": 358,
  "columns": [
   {
-   "col_no": "4",
-   "name": "TOTAL COGNIZABLE. | Persons in custody pending or on. bail during the stage of trial",
+   "col_no": "2",
+   "name": "Cases not detected",
    "header": [
-    "TOTAL COGNIZABLE.",
-    "Persons in custody pending or on. bail during the stage of trial"
+    "Cases not detected"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cases in which charge-sheet was laid",
+   "header": [
+    "Cases in which charge-sheet was laid"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases compounded or withdrawn",
+   "header": [
+    "Cases compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "TOTAL COGNIZABLE. | Persons arrested. during the year",
+   "name": "Cases in which trial was completed",
    "header": [
-    "TOTAL COGNIZABLE.",
-    "Persons arrested. during the year"
+    "Cases in which trial was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIME—PERSONS | © Persons released by the police or magistrate before trial",
+   "name": "Cases convicted",
    "header": [
-    "CRIME—PERSONS",
-    "© Persons released by the police or magistrate before trial"
+    "Cases convicted"
    ]
   },
   {
    "col_no": "7",
-   "name": "CRIME—PERSONS | Persons cases chargesheet was laid.",
+   "name": "Cases acquitted or discharged",
    "header": [
-    "CRIME—PERSONS",
-    "Persons cases chargesheet was laid."
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "8",
-   "name": "Persons convicted",
+   "name": "Percentage of cases convicted to true cases investigated",
    "header": [
-    "Persons convicted"
+    "Percentage of cases convicted to true cases investigated"
    ]
   },
   {
    "col_no": "9",
-   "name": "Persons acquitted or discharged",
+   "name": "Percentage of cases convicted to cases in which trial was completed",
    "header": [
-    "Persons acquitted or discharged"
+    "Percentage of cases convicted to cases in which trial was completed"
    ]
   },
   {
    "col_no": "10",
-   "name": "Persons whom cases were compounded or withdrawn",
+   "name": "Volume of crime per 1,00,000 of population",
    "header": [
-    "Persons whom cases were compounded or withdrawn"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Persons pending investigation bail duringthe stage of - tion at the end - of the year",
-   "header": [
-    "Persons pending investigation bail duringthe stage of - tion at the end - of the year"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Persons incustody pending trial or on bail during the stage of investiga- - trial at the end of the year",
-   "header": [
-    "Persons incustody pending trial or on bail during the stage of investiga- - trial at the end of the year"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Percentage of convic~ tion",
-   "header": [
-    "Percentage of convic~ tion"
+    "Volume of crime per 1,00,000 of population"
    ]
   }
  ],
@@ -104,10 +92,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 6,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

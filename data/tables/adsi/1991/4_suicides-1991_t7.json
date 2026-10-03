@@ -6,62 +6,56 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1991",
  "serial": "4",
- "title": "anu Volume of Suicides during 1991 (State, UT & City-wise)",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 23 TABLE - 7",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1991.pdf",
  "source_file": "raw/adsi/1991/year_wise/suicides-1991.pdf",
  "source_sha256": "e59e4f057e2bb98540933e680aee79ab44235cf019f10099541b9a87cb4f37db",
  "table_no": "7",
- "pdf_title": "anu Volume of Suicides during 1991 (State, UT & City-wise)",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 23 TABLE - 7",
  "row_label": "Sl. No. / State/UT/City",
  "pages": [
   5
  ],
  "n_rows": 47,
  "n_cols": 4,
- "n_cells": 187,
+ "n_cells": 188,
  "columns": [
   {
    "col_no": "3",
-   "name": "Share | Number of Suicides",
+   "name": "Number of Suicides",
    "header": [
-    "Share",
     "Number of Suicides"
    ]
   },
   {
    "col_no": "4",
-   "name": "Share | in Total Suicidac",
+   "name": "Percentage Share in Total Suicides",
    "header": [
-    "Share",
-    "in Total Suicidac"
+    "Percentage Share in Total Suicides"
    ]
   },
   {
    "col_no": "5",
-   "name": "Share | Mid-Year (in Lakh)",
+   "name": "Estimated Mid-Year Population (in Lakh)",
    "header": [
-    "Share",
-    "Mid-Year (in Lakh)"
+    "Estimated Mid-Year Population (in Lakh)"
    ]
   },
   {
    "col_no": "6",
-   "name": "Share | Volume of Suicides {Col.3/Coi.5}",
+   "name": "Volume of Suicides (Col.3/Col.5)",
    "header": [
-    "Share",
-    "Volume of Suicides {Col.3/Coi.5}"
+    "Volume of Suicides (Col.3/Col.5)"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

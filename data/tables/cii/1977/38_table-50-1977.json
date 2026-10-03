@@ -8,140 +8,101 @@
  "serial": "38",
  "title": "Statement Indicating Number of Cases Reported and Value of Property Stolen under Dacoity by Place of Occurrence",
  "listing_title": "Statement Indicating Number of Cases Reported and Value of Property Stolen under Dacoity by Place of Occurrence",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-50-1977.pdf",
  "source_file": "raw/cii/1977/table_content/table-50-1977.pdf",
  "source_sha256": "372f6928782423c322b964c4d49c0bba375bc2c3560ab3f0e1a9a0f062545466",
- "table_no": "30",
- "pdf_title": "TABLE #8 --=+7",
- "row_label": "SL / OF Cakes wie: «6",
+ "table_no": "50",
+ "pdf_title": "113 TABLE 50 STATEMENT INDICATING NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN UNDER DACOITY BY PLACE OF OCCURRENCE",
+ "row_label": "Sl. No. / States/U. Ts./Cities",
  "pages": [
   1,
+  1,
+  1,
+  1,
+  2,
+  2,
   2
  ],
- "n_rows": 69,
- "n_cols": 14,
- "n_cells": 451,
+ "n_rows": 79,
+ "n_cols": 8,
+ "n_cells": 631,
  "columns": [
   {
    "col_no": "3",
-   "name": "OF Cakes | of -",
+   "name": "Residential Premises | No. of cases reported",
    "header": [
-    "OF Cakes",
-    "of -"
+    "Residential Premises",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "4",
-   "name": "AND VALUE OF | DACOITY BY PLACE OF of «= olen -",
+   "name": "Residential Premises | Value of property stolen",
    "header": [
-    "AND VALUE OF",
-    "DACOITY BY PLACE OF of «= olen -"
+    "Residential Premises",
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "5",
-   "name": "AND VALUE OF | Valocof «=",
+   "name": "Highways | No. of cases reported",
    "header": [
-    "AND VALUE OF",
-    "Valocof «="
+    "Highways",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "6",
-   "name": "x No.of",
+   "name": "Highways | Value of property stolen",
    "header": [
-    "x No.of"
+    "Highways",
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "7",
-   "name": "- UNDER -",
+   "name": "Railways | No. of cases reported",
    "header": [
-    "- UNDER -"
+    "Railways",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "8",
-   "name": "(Vaboo in Re Lakhs) River & Sea No.of - Valueof rt stolen",
+   "name": "Railways | Value of property stolen",
    "header": [
-    "(Vaboo in Re Lakhs) River & Sea No.of - Valueof rt stolen"
+    "Railways",
+    "Value of property stolen"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Banks fi Mo. of i Haryana",
+   "col_no": "9",
+   "name": "River & Sea | No. of cases reported",
    "header": [
-    "Banks fi Mo. of i Haryana"
+    "River & Sea",
+    "No. of cases reported"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "Value of Se \"4",
+   "col_no": "10",
+   "name": "River & Sea | Value of property stolen",
    "header": [
-    "Value of Se \"4"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Bite | No. of 13 i - - - -",
-   "header": [
-    "Bite",
-    "No. of 13 i - - - -"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Bite | Value I4 o4 - - - -",
-   "header": [
-    "Bite",
-    "Value I4 o4 - - - -"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "Tite of 15 3 4 a - -",
-   "header": [
-    "Tite of 15 3 4 a - -"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "TOTAL | Me.of 16 0-21 0-75 - -",
-   "header": [
-    "TOTAL",
-    "Me.of 16 0-21 0-75 - -"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "TOTAL | Valus of 17 43 as 3 260 454 2675 80 1s 5 2",
-   "header": [
-    "TOTAL",
-    "Valus of 17 43 as 3 260 454 2675 80 1s 5 2"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "TOTAL | Valee of Ne. of iB 241 1201 04] 8-56 3-00 S$-69 407 4-58 3-44 1°76",
-   "header": [
-    "TOTAL",
-    "Valee of Ne. of iB 241 1201 04] 8-56 3-00 S$-69 407 4-58 3-44 1°76"
+    "River & Sea",
+    "Value of property stolen"
    ]
   }
  ],
- "notes": [
-  "TOTAL i - i9 1-72 47 3-36 129 10-49"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 11,
+  "other_totals_passed": 3
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 7,
  "warnings": []
 }

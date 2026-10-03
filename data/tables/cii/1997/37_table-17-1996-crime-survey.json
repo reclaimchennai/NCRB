@@ -8,27 +8,34 @@
  "serial": "37",
  "title": "Disposal of SLL Crime Cases by Police During 1997",
  "listing_title": "Disposal of SLL Crime Cases by Police During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-17-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-17-1996-crime-survey.pdf",
  "source_sha256": "3fa8f731f53d59859f718d1e1bd36358529afed4f6090dd012c12042102a9854",
  "table_no": "17",
- "pdf_title": "DISPOSAL OF SLL CRIME CASES BY POLICE DURING 1997",
- "row_label": "SL. CRIME HEAD NO. a) / NO. OF CASES IN WHICH TOTAL NO. OF CASES - FOR INVESTIGATION INCLUDING PENDING CASES",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-17",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 23,
- "n_cols": 6,
- "n_cells": 130,
+ "n_cols": 7,
+ "n_cells": 161,
  "columns": [
   {
+   "col_no": "3",
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES",
+   "header": [
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING PENDING CASES"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "NO. OF CASES IN WHICH | INVSETIGATION WAS REFUSED",
+   "name": "NO. OF CASES IN WHICH | INVSETI-GATION WAS REFUSED",
    "header": [
     "NO. OF CASES IN WHICH",
-    "INVSETIGATION WAS REFUSED"
+    "INVSETI-GATION WAS REFUSED"
    ]
   },
   {
@@ -42,11 +49,11 @@
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE - SUBMITTED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMI-TTED",
    "header": [
     "NO. OF CASES IN WHICH",
     "INVESTIGATION WAS COMPLETED",
-    "FINAL REPORT TRUE - SUBMITTED"
+    "FINAL REPORT TRUE SUBMI-TTED"
    ]
   },
   {
@@ -60,17 +67,17 @@
   },
   {
    "col_no": "8",
-   "name": "NO. OF CASES IN WHICH | TOTAL {(5) +(6) +(7))",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL [(5)+(6) + (7)]",
    "header": [
     "NO. OF CASES IN WHICH",
-    "TOTAL {(5) +(6) +(7))"
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL [(5)+(6) + (7)]"
    ]
   },
   {
    "col_no": "9",
-   "name": "NO. OF CASES IN WHICH | NO. OF CASES PENDING INVESTIGATION",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
    "header": [
-    "NO. OF CASES IN WHICH",
     "NO. OF CASES PENDING INVESTIGATION"
    ]
   }
@@ -80,8 +87,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 2
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

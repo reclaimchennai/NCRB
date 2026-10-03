@@ -8,14 +8,14 @@
  "serial": "70",
  "title": "Persons Arrested under IPC Crimes During 1994 and Percentage Variation in 1994 over 1993 (Crime Head-Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1994 and Percentage Variation in 1994 over 1993 (Crime Head-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table25-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table25-1994_2.pdf",
  "source_sha256": "bee6b24affbc2725055a5dcb95f02652ea3876ab96672d15e1213ff8fe585fe0",
  "table_no": "25",
- "pdf_title": "PERSONS AKKES IED UNDER IPC CRIMES DURING 1994 AND PERCENTAGE VARIATION IN 1994 OVER 1993",
- "row_label": "(CRIME HEAD-WISE) SL. CRIME HEAD NO. a)",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-25",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,46 +25,40 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(CRIME HEAD-WISE) | 1993",
+   "name": "1993",
    "header": [
-    "(CRIME HEAD-WISE)",
     "1993"
    ]
   },
   {
    "col_no": "4",
-   "name": "(CRIME HEAD-WISE) | 1994",
+   "name": "1994",
    "header": [
-    "(CRIME HEAD-WISE)",
     "1994"
    ]
   },
   {
    "col_no": "5",
-   "name": "(CRIME HEAD-WISE) | PERCENTAGE VARIATION IN 1994 OVER",
+   "name": "PERCENTAGE VARIATION IN 1994 OVER 1993",
    "header": [
-    "(CRIME HEAD-WISE)",
-    "PERCENTAGE VARIATION IN 1994 OVER"
+    "PERCENTAGE VARIATION IN 1994 OVER 1993"
    ]
   },
   {
    "col_no": "6",
-   "name": "(CRIME HEAD-WISE) | PERCENTAGE SHARE OF CRIME DURING 1994",
+   "name": "PERCENTAGE SHARE OF CRIME DURING 1994",
    "header": [
-    "(CRIME HEAD-WISE)",
     "PERCENTAGE SHARE OF CRIME DURING 1994"
    ]
   }
  ],
- "notes": [
-  "142."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

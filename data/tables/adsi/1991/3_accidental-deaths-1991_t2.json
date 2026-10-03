@@ -6,76 +6,61 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1991",
  "serial": "3",
- "title": "Accidental Deaths in India",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 5 TABLE - 2",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1991.pdf",
  "source_file": "raw/adsi/1991/year_wise/accidental-deaths-1991.pdf",
  "source_sha256": "296689a95a729073182255131f384f4c87d19a27196946716c79d15f348c3a09",
  "table_no": "2",
- "pdf_title": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 5 TABLE - 2",
  "row_label": "Sl. No. / State/UT/City",
  "pages": [
-  5,
-  6,
-  8
+  5
  ],
- "n_rows": 82,
- "n_cols": 5,
- "n_cells": 255,
+ "n_rows": 47,
+ "n_cols": 4,
+ "n_cells": 188,
  "columns": [
   {
    "col_no": "3",
-   "name": "ana Volume of Number of Accidental Deaths",
+   "name": "Number of Accidental Deaths",
    "header": [
-    "ana Volume of Number of Accidental Deaths"
+    "Number of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "Deaths during 1991 | (State, UT & City-wise) Percentage Share in Total Deaths",
+   "name": "Percentage Share in Total Deaths",
    "header": [
-    "Deaths during 1991",
-    "(State, UT & City-wise) Percentage Share in Total Deaths"
+    "Percentage Share in Total Deaths"
    ]
   },
   {
    "col_no": "5",
-   "name": "Deaths during 1991 | Estimated Mid-Year Population (in Lakh)",
+   "name": "Estimated Mid-Year Population (in Lakh)",
    "header": [
-    "Deaths during 1991",
     "Estimated Mid-Year Population (in Lakh)"
    ]
   },
   {
    "col_no": "6",
-   "name": "Volume (Accidental Deaths per Lakh of Population) {Col.3/Col.5}",
+   "name": "Volume (Accidental Deaths per Lakh of Population) (Col.3/Col.5)",
    "header": [
-    "Volume (Accidental Deaths per Lakh of Population) {Col.3/Col.5}"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "N.C.R.B. - 8 1991 (22.1) (59.8) (49.0) (48.9) (43.2) 3. Madhya Pradesh (43.0) (35.8) (33.7) (36.7) (30.4) (29.9) (24.9) (25.4) (22.5) (21.6) (21.4) (70.1) (62.6) (56.6) (52.3) (43.4) (48.9) (35.0) (35.4) (27.0) (30.7)",
-   "header": [
-    "N.C.R.B. - 8 1991 (22.1) (59.8) (49.0) (48.9) (43.2) 3. Madhya Pradesh (43.0) (35.8) (33.7) (36.7) (30.4) (29.9) (24.9) (25.4) (22.5) (21.6) (21.4) (70.1) (62.6) (56.6) (52.3) (43.4) (48.9) (35.0) (35.4) (27.0) (30.7)"
+    "Volume (Accidental Deaths per Lakh of Population) (Col.3/Col.5)"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0",
-  "VOLUME",
-  "are attributable to ‘Unspecified’ causes."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

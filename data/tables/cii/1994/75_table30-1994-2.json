@@ -8,67 +8,66 @@
  "serial": "75",
  "title": "Persons Arrested under Special and Local Laws (SLL) During 1994 (Crime-Head & Sex-Wise)",
  "listing_title": "Persons Arrested under Special and Local Laws (SLL) During 1994 (Crime-Head & Sex-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table30-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table30-1994_2.pdf",
  "source_sha256": "67ce37720cf02891ae774bffee3aa2f4d776b554ee29ef70a50b47dccad6b064",
  "table_no": "30",
- "pdf_title": "",
- "row_label": "PERSONS CRIME HEAD / UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1994 (CRIME-HEAD & SEX-WISE) MALE",
+ "pdf_title": "TABLE-30 PERSONS ARRESTED UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1994 (CRIME-HEAD & SEX-WISE)",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 4,
- "n_cells": 67,
+ "n_cols": 5,
+ "n_cells": 85,
  "columns": [
   {
-   "col_no": "4",
-   "name": "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1994 | (CRIME-HEAD & SEX-WISE) | FEMALE",
+   "col_no": "3",
+   "name": "MALE",
    "header": [
-    "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1994",
-    "(CRIME-HEAD & SEX-WISE)",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "FEMALE",
+   "header": [
     "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1994 | TOTAL",
+   "name": "TOTAL",
    "header": [
-    "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1994",
     "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1994 | PERCENTAGE TO TOTAL | MALE",
+   "name": "PERCENTAGE TO TOTAL | MALE",
    "header": [
-    "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1994",
     "PERCENTAGE TO TOTAL",
     "MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1994 | PERCENTAGE TO TOTAL | FEMALE",
+   "name": "PERCENTAGE TO TOTAL | FEMALE",
    "header": [
-    "UNDER SPECIAL AND LOCAL LAWS (SLL) DURING 1994",
     "PERCENTAGE TO TOTAL",
     "FEMALE"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0,0.",
-  "15§"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

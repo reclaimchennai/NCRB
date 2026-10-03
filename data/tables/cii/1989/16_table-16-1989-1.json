@@ -8,49 +8,58 @@
  "serial": "16",
  "title": "Percentage of IPC Crime Cases Disposed by Courts During 1989",
  "listing_title": "Percentage of IPC Crime Cases Disposed by Courts During 1989",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-16-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-16-1989-1.pdf",
  "source_sha256": "b9c7588cde3556fb051654724cc647aacd90446a2f0c91d07ed2a9f82279a396",
  "table_no": "16",
- "pdf_title": "OF IPC CRIME CASES visrusev BY COURTS DURING 1989",
- "row_label": "SL. No. / CRIME",
+ "pdf_title": "84 TABLE-16 PERCENTAGE OF IPC CRIME CASES DISPOSED BY COURTS DURING 1989",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 18,
- "n_cols": 4,
- "n_cells": 72,
+ "n_cols": 5,
+ "n_cells": 90,
  "columns": [
   {
    "col_no": "3",
-   "name": "HEAD OR WITHDRAWN",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOUNDED OR WITH-DRAWN",
    "header": [
-    "HEAD OR WITHDRAWN"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "COMPOUNDED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF | IN CONVICTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETED CONVICTED ACQUIT-TED OR DIS-CHARGED",
    "header": [
-    "OF",
-    "IN CONVICTED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "IN WHICH TRIALS WERE COMPLETED CONVICTED ACQUIT-TED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF | CASES WHICH ACQUITTED CHARGED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | TOTAL ((4)+(5))",
    "header": [
-    "OF",
-    "CASES WHICH ACQUITTED CHARGED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "TOTAL ((4)+(5))"
    ]
   },
   {
    "col_no": "6",
-   "name": "TO TOTAL CASES TRIAL FOR TRIALS WERE PENDING TOTAL OR (5)) (7),",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | PENDING TRIAL",
    "header": [
-    "TO TOTAL CASES TRIAL FOR TRIALS WERE PENDING TOTAL OR (5)) (7),"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+    "PENDING TRIAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL"
    ]
   }
  ],

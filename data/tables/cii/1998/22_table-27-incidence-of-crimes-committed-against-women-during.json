@@ -8,217 +8,298 @@
  "serial": "22",
  "title": "Incidence of Crimes Committed Against Women During 1998",
  "listing_title": "Incidence of Crimes Committed Against Women During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-27-incidence-of-crimes-committed-against-women-during-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-27-incidence-of-crimes-committed-against-women-during-1998.pdf",
  "source_sha256": "f1ce0b635051ae94ff40b8697171ca2efda81983f755eca56cbec49f7c7665fd",
  "table_no": "27",
- "pdf_title": "",
- "row_label": "SL. STATE/UT NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-27",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
-  2
+  2,
+  3
  ],
- "n_rows": 40,
- "n_cols": 24,
- "n_cells": 792,
+ "n_rows": 71,
+ "n_cols": 34,
+ "n_cells": 1225,
  "columns": [
   {
-   "col_no": "3",
-   "name": "INCINENCE OF CRIMES | EST.MID YEAR ea,",
+   "col_no": "2",
+   "name": "EST.MID YEAR POPUL- ATION",
    "header": [
-    "INCINENCE OF CRIMES",
-    "EST.MID YEAR ea,"
+    "EST.MID YEAR POPUL- ATION"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "INCINENCE OF CRIMES | RAPE R",
+   "name": "RAPE | R",
    "header": [
-    "INCINENCE OF CRIMES",
-    "RAPE R"
+    "RAPE",
+    "R"
    ]
   },
   {
    "col_no": "5",
-   "name": "INCINENCE OF CRIMES | Pp\"",
+   "name": "RAPE | P",
    "header": [
-    "INCINENCE OF CRIMES",
-    "Pp\""
+    "RAPE",
+    "P"
    ]
   },
   {
    "col_no": "6",
-   "name": "AGAINST WOMEN DURING 1998 | KIDNAPPING & ABDUCTION | 4",
+   "name": "KIDNAPPING & ABDUCTION | I",
    "header": [
-    "AGAINST WOMEN DURING 1998",
     "KIDNAPPING & ABDUCTION",
-    "4"
+    "I"
    ]
   },
   {
    "col_no": "7",
-   "name": "AGAINST WOMEN DURING 1998 | KIDNAPPING & ABDUCTION | R",
+   "name": "KIDNAPPING & ABDUCTION | R",
    "header": [
-    "AGAINST WOMEN DURING 1998",
     "KIDNAPPING & ABDUCTION",
     "R"
    ]
   },
   {
    "col_no": "8",
-   "name": "AGAINST WOMEN DURING 1998 | P",
+   "name": "KIDNAPPING & ABDUCTION | P",
    "header": [
-    "AGAINST WOMEN DURING 1998",
+    "KIDNAPPING & ABDUCTION",
     "P"
    ]
   },
   {
    "col_no": "9",
-   "name": "AGAINST WOMEN DURING 1998 | DOWRY DEATHS",
+   "name": "DOWRY DEATHS | I",
    "header": [
-    "AGAINST WOMEN DURING 1998",
-    "DOWRY DEATHS"
+    "DOWRY DEATHS",
+    "I"
    ]
   },
   {
    "col_no": "10",
-   "name": "AGAINST WOMEN DURING 1998 | DOWRY DEATHS | R",
+   "name": "DOWRY DEATHS | R",
    "header": [
-    "AGAINST WOMEN DURING 1998",
     "DOWRY DEATHS",
     "R"
    ]
   },
   {
    "col_no": "11",
-   "name": "AGAINST WOMEN DURING 1998 | DOWRY DEATHS | P",
+   "name": "DOWRY DEATHS | P",
    "header": [
-    "AGAINST WOMEN DURING 1998",
     "DOWRY DEATHS",
     "P"
    ]
   },
   {
    "col_no": "12",
-   "name": "CRUELTY BY HUSBAND | AND \\",
+   "name": "CRUELTY BY HUSBAND AND RELATIVES | I",
    "header": [
-    "CRUELTY BY HUSBAND",
-    "AND \\"
+    "CRUELTY BY HUSBAND AND RELATIVES",
+    "I"
    ]
   },
   {
    "col_no": "13",
-   "name": "CRUELTY BY HUSBAND | R",
+   "name": "CRUELTY BY HUSBAND AND RELATIVES | R",
    "header": [
-    "CRUELTY BY HUSBAND",
+    "CRUELTY BY HUSBAND AND RELATIVES",
     "R"
    ]
   },
   {
    "col_no": "14",
-   "name": "CRUELTY BY HUSBAND | P",
+   "name": "CRUELTY BY HUSBAND AND RELATIVES | P",
    "header": [
-    "CRUELTY BY HUSBAND",
+    "CRUELTY BY HUSBAND AND RELATIVES",
     "P"
    ]
   },
   {
-   "col_no": "15",
-   "name": "col_15",
-   "header": []
-  },
-  {
    "col_no": "16",
-   "name": "MILESTATION R",
+   "name": "MOLESTATION | I",
    "header": [
-    "MILESTATION R"
+    "MOLESTATION",
+    "I"
    ]
   },
   {
    "col_no": "17",
-   "name": "P (17)",
+   "name": "MOLESTATION | R",
    "header": [
-    "P"
+    "MOLESTATION",
+    "R"
    ]
   },
   {
    "col_no": "18",
-   "name": "col_18",
-   "header": []
+   "name": "MOLESTATION | P",
+   "header": [
+    "MOLESTATION",
+    "P"
+   ]
   },
   {
    "col_no": "19",
-   "name": "R",
+   "name": "EVE-TEASING | I",
    "header": [
-    "R"
+    "EVE-TEASING",
+    "I"
    ]
   },
   {
    "col_no": "20",
-   "name": "P (20)",
+   "name": "EVE-TEASING | R",
    "header": [
-    "P"
-   ]
-  },
-  {
-   "col_no": "21",
-   "name": "col_21",
-   "header": []
-  },
-  {
-   "col_no": "22",
-   "name": "OF ‘GIRLS | R",
-   "header": [
-    "OF ‘GIRLS",
+    "EVE-TEASING",
     "R"
    ]
   },
   {
-   "col_no": "23",
-   "name": "OF ‘GIRLS",
+   "col_no": "21",
+   "name": "EVE-TEASING | P",
    "header": [
-    "OF ‘GIRLS"
+    "EVE-TEASING",
+    "P"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "IMPORTING OF GIRLS | I",
+   "header": [
+    "IMPORTING OF GIRLS",
+    "I"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "IMPORTING OF GIRLS | R",
+   "header": [
+    "IMPORTING OF GIRLS",
+    "R"
    ]
   },
   {
    "col_no": "24",
-   "name": "col_24",
-   "header": []
+   "name": "IMPORTING OF GIRLS | P",
+   "header": [
+    "IMPORTING OF GIRLS",
+    "P"
+   ]
   },
   {
    "col_no": "25",
-   "name": "SATI-PRE. ADT R",
+   "name": "SATI-PRE. ACT | I",
    "header": [
-    "SATI-PRE. ADT R"
+    "SATI-PRE. ACT",
+    "I"
    ]
   },
   {
    "col_no": "26",
-   "name": "P (26)",
+   "name": "SATI-PRE. ACT | R",
    "header": [
-    "P"
+    "SATI-PRE. ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "ITP ACT (29)",
+   "header": [
+    "ITP ACT"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "ITP ACT (30)",
+   "header": [
+    "ITP ACT"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "IND.REP. OF WOMEN (PI) ACT (31)",
+   "header": [
+    "IND.REP. OF WOMEN (PI) ACT"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "IND.REP. OF WOMEN (PI) ACT (32)",
+   "header": [
+    "IND.REP. OF WOMEN (PI) ACT"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "IND.REP. OF WOMEN (PI) ACT (33)",
+   "header": [
+    "IND.REP. OF WOMEN (PI) ACT"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "DOWRY PROH.ACT (34)",
+   "header": [
+    "DOWRY PROH.ACT"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "DOWRY PROH.ACT (35)",
+   "header": [
+    "DOWRY PROH.ACT"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "DOWRY PROH.ACT (36)",
+   "header": [
+    "DOWRY PROH.ACT"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "TOTAL (37)",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "TOTAL (38)",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "- IN ABSENCE OF DATA FOR VEWLY CRIME HEADS IN CR ME IN INDIA DATA",
-  "FIGURES OF MONTHLY CHIME STATISTICS HAVE BEEN USED AGAINST DAMAN & DIU UT.",
-  "SOURCE: CRIME IN INDIA DATA EXCEPT COL. 21 WHICH IS BASED ON MONTHLY CRIME STATISTICS."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 2,
+  "cells_checked": 24,
+  "cells_passed": 21,
   "failures": [
-   "col 15 'TOTAL (STATES)': printed 30347, sum 25601",
-   "col 18 'TOTAL (UTs)': printed 194, sum 193",
-   "col 21 'TOTAL (STATES)': printed 146, sum 133"
+   "col 16 'TOTAL (STATES)': printed 30347, sum 27380",
+   "col 19 'TOTAL (STATES)': printed 7929, sum 6879",
+   "col 22 'TOTAL (STATES)': printed 146, sum 138"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

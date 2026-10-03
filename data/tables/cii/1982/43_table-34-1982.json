@@ -8,83 +8,87 @@
  "serial": "43",
  "title": "Juvenile Delinquency under Important Heads of Local and Special Laws During the Year - 1982",
  "listing_title": "Juvenile Delinquency under Important Heads of Local and Special Laws During the Year - 1982",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-34-1982.pdf",
  "source_file": "raw/cii/1982/table_content/table-34-1982.pdf",
  "source_sha256": "c650b785b879bf61978686528a097a53f4fca09310f32e900dfd55fc7e46049f",
  "table_no": "34",
- "pdf_title": "JUVENILE DETINQUENCY TINDER TMPORTANT HEADS OF LOCAL AND SPECTAT: LAWS DURING THE YEAR —1982",
- "row_label": "- °- STATES 2. 4. 6, Himachal Pradesh, 7, Jammu & Kashmir 8, / States/U.Ts./Cities Assam Gujarat 3 Karnataka / Cases reported under local and snecial laws - ‘ ,",
+ "pdf_title": "93 TABLE 34",
+ "row_label": "Sl. No. / States/U.Ts./Cities / States/U.Ts./Cities",
  "pages": [
-  1
+  2
  ],
- "n_rows": 19,
- "n_cols": 6,
- "n_cells": 83,
+ "n_rows": 47,
+ "n_cols": 7,
+ "n_cells": 329,
  "columns": [
   {
    "col_no": "4",
-   "name": "Cases reported under local and snecial laws | ‘ ‘ 5 a -",
+   "name": "Cases reported under Local and Special Laws | Prevention of corruption Act",
    "header": [
-    "Cases reported under local and snecial laws",
-    "‘ ‘ 5 a -"
+    "Cases reported under Local and Special Laws",
+    "Prevention of corruption Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases reported under local and snecial laws | Opium Act 7 is ‘it ‘",
+   "name": "Cases reported under Local and Special Laws | Motor Vehicles Act",
    "header": [
-    "Cases reported under local and snecial laws",
-    "Opium Act 7 is ‘it ‘"
+    "Cases reported under Local and Special Laws",
+    "Motor Vehicles Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases reported under local and snecial laws | - Excise Act 3 161 - ‘ ae 68 ‘",
+   "name": "Cases reported under Local and Special Laws | Indian Railways Act",
    "header": [
-    "Cases reported under local and snecial laws",
-    "- Excise Act 3 161 - ‘ ae 68 ‘"
+    "Cases reported under Local and Special Laws",
+    "Indian Railways Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases reported under local and snecial laws | Prohibition Act 5 10,192 F ae ws é an ‘",
+   "name": "Cases reported under Local and Special Laws | Arms Act",
    "header": [
-    "Cases reported under local and snecial laws",
-    "Prohibition Act 5 10,192 F ae ws é an ‘"
+    "Cases reported under Local and Special Laws",
+    "Arms Act"
    ]
   },
   {
    "col_no": "8",
-   "name": "Cases reported under local and snecial laws | Gambline SIT in | Customs Act 114 433 ‘ve ee 2 a 50 - 245 5",
+   "name": "Cases reported under Local and Special Laws | Explosives & Explosives Substances Act",
    "header": [
-    "Cases reported under local and snecial laws",
-    "Gambline SIT in",
-    "Customs Act 114 433 ‘ve ee 2 a 50 - 245 5"
+    "Cases reported under Local and Special Laws",
+    "Explosives & Explosives Substances Act"
    ]
   },
   {
    "col_no": "9",
-   "name": "Cases reported under local and snecial laws | Gambline SIT in | Women Act & Girls Act 24 - 1 4,935 sis 264 3",
+   "name": "Cases reported under Local and Special Laws | Other Offences",
    "header": [
-    "Cases reported under local and snecial laws",
-    "Gambline SIT in",
-    "Women Act & Girls Act 24 - 1 4,935 sis 264 3"
+    "Cases reported under Local and Special Laws",
+    "Other Offences"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Cases reported under Local and Special Laws | Grand Total",
+   "header": [
+    "Cases reported under Local and Special Laws",
+    "Grand Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
-  "failures": [
-   "col 7 'TOTAL (STATES)': printed 21836, sum 11617"
-  ],
-  "other_totals_checked": 4,
-  "other_totals_passed": 3
+  "cells_checked": 16,
+  "cells_passed": 16,
+  "failures": [],
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

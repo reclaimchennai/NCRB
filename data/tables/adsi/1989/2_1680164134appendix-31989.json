@@ -14,18 +14,19 @@
  "source_file": "raw/adsi/1989/table_content/1680164134appendix-31989.pdf",
  "source_sha256": "74aec90e8618de7eee35cd5c1a542338cab8e2330e18b2b2a93ee09dab84be4b",
  "table_no": "",
- "pdf_title": "Male",
- "row_label": "Sl. State/UT/City No. / Sl. State/UT/City No.",
+ "pdf_title": "73 APPENDIX - III Distribution Of Suicides By Causes And Sex",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2,
   3,
   4,
-  5
+  5,
+  6
  ],
- "n_rows": 50,
- "n_cols": 45,
- "n_cells": 2115,
+ "n_rows": 48,
+ "n_cols": 51,
+ "n_cells": 2397,
  "columns": [
   {
    "col_no": "3",
@@ -173,64 +174,75 @@
   },
   {
    "col_no": "21",
-   "name": "Female (21)",
+   "name": "Dispute Over Property | Male",
    "header": [
-    "Female"
+    "Dispute Over Property",
+    "Male"
    ]
   },
   {
    "col_no": "22",
-   "name": "Total (22)",
+   "name": "Dispute Over Property | Female",
    "header": [
-    "Total"
+    "Dispute Over Property",
+    "Female"
    ]
   },
   {
    "col_no": "23",
-   "name": "Male (23)",
+   "name": "Dispute Over Property | Total",
    "header": [
-    "Male"
+    "Dispute Over Property",
+    "Total"
    ]
   },
   {
    "col_no": "24",
-   "name": "Female (24)",
+   "name": "Dreadful Disease | Male",
    "header": [
-    "Female"
-   ]
-  },
-  {
-   "col_no": "25",
-   "name": "Total (25)",
-   "header": [
-    "Total"
-   ]
-  },
-  {
-   "col_no": "26",
-   "name": "Male (26)",
-   "header": [
+    "Dreadful Disease",
     "Male"
    ]
   },
   {
-   "col_no": "27",
-   "name": "Female (27)",
+   "col_no": "25",
+   "name": "Dreadful Disease | Female",
    "header": [
+    "Dreadful Disease",
     "Female"
    ]
   },
   {
-   "col_no": "28",
-   "name": "Total (28)",
+   "col_no": "26",
+   "name": "Dreadful Disease | Total",
    "header": [
+    "Dreadful Disease",
     "Total"
    ]
   },
   {
+   "col_no": "27",
+   "name": "Unemployment | Male",
+   "header": [
+    "Unemployment",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "Unemployment | Female",
+   "header": [
+    "Unemployment",
+    "Female"
+   ]
+  },
+  {
    "col_no": "29",
-   "name": "col_29",
-   "header": []
+   "name": "Unemployment | Total",
+   "header": [
+    "Unemployment",
+    "Total"
+   ]
   },
   {
    "col_no": "30",
@@ -306,13 +318,6 @@
   },
   {
    "col_no": "39",
-   "name": "Sl. State/UT/City No.",
-   "header": [
-    "Sl. State/UT/City No."
-   ]
-  },
-  {
-   "col_no": "40",
    "name": "Downry Dispute | Male",
    "header": [
     "Downry Dispute",
@@ -320,7 +325,7 @@
    ]
   },
   {
-   "col_no": "41",
+   "col_no": "40",
    "name": "Downry Dispute | Female",
    "header": [
     "Downry Dispute",
@@ -328,7 +333,7 @@
    ]
   },
   {
-   "col_no": "42",
+   "col_no": "41",
    "name": "Downry Dispute | Total",
    "header": [
     "Downry Dispute",
@@ -336,7 +341,7 @@
    ]
   },
   {
-   "col_no": "43",
+   "col_no": "42",
    "name": "Illegitimate Pregnancy | Male",
    "header": [
     "Illegitimate Pregnancy",
@@ -344,7 +349,7 @@
    ]
   },
   {
-   "col_no": "44",
+   "col_no": "43",
    "name": "Illegitimate Pregnancy | Female",
    "header": [
     "Illegitimate Pregnancy",
@@ -352,7 +357,7 @@
    ]
   },
   {
-   "col_no": "45",
+   "col_no": "44",
    "name": "Illegitimate Pregnancy | Total",
    "header": [
     "Illegitimate Pregnancy",
@@ -360,40 +365,92 @@
    ]
   },
   {
-   "col_no": "46",
-   "name": "Cruse Not Known | Male",
+   "col_no": "45",
+   "name": "Cause Not Known | Male",
    "header": [
-    "Cruse Not Known",
+    "Cause Not Known",
     "Male"
    ]
   },
   {
-   "col_no": "47",
-   "name": "Cruse Not Known | Female",
+   "col_no": "46",
+   "name": "Cause Not Known | Female",
    "header": [
-    "Cruse Not Known",
+    "Cause Not Known",
     "Female"
+   ]
+  },
+  {
+   "col_no": "47",
+   "name": "Cause Not Known | Total",
+   "header": [
+    "Cause Not Known",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "48",
+   "name": "Other Causes | Male",
+   "header": [
+    "Other Causes",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "49",
+   "name": "Other Causes | Female",
+   "header": [
+    "Other Causes",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "50",
+   "name": "Other Causes | Total",
+   "header": [
+    "Other Causes",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "51",
+   "name": "Grand Total | Male",
+   "header": [
+    "Grand Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "52",
+   "name": "Grand Total | Female",
+   "header": [
+    "Grand Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "53",
+   "name": "Grand Total | Total",
+   "header": [
+    "Grand Total",
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 132,
-  "cells_passed": 123,
+  "cells_checked": 153,
+  "cells_passed": 149,
   "failures": [
-   "col 30 'Total (States)': printed 637, sum 630",
-   "col 31 'Total (States)': printed 144, sum 143",
-   "col 32 'Total (States)': printed 781, sum 773",
-   "col 36 'Total (States)': printed 320, sum 317",
-   "col 37 'Total (States)': printed 188, sum 185",
-   "col 38 'Total (States)': printed 508, sum 502",
-   "col 44 'Total (States)': printed 227, sum 229",
-   "col 45 'Total (States)': printed 6743, sum 5535"
+   "col 34 'Total (States)': printed 203, sum 201",
+   "col 35 'Total (States)': printed 431, sum 429",
+   "col 45 'Total (States)': printed 6743, sum 5486",
+   "col 47 'Total (States)': printed 10759, sum 8599"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 5,
+ "ocr_pages": 6,
  "warnings": []
 }

@@ -8,60 +8,58 @@
  "serial": "22",
  "title": "Persons Arrested under IPC Crimes During 1988 (Crime-Head & Sex-wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1988 (Crime-Head & Sex-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-22-1988-2.pdf",
  "source_sha256": "c559b0c658d80120fdcbf24ab3358aeb3412b7830de7e5be57c9ce6a3236fc46",
- "table_no": "",
- "pdf_title": "",
- "row_label": "SL. NO. / PERSONS CRIME HEAD",
+ "table_no": "22",
+ "pdf_title": "89 TABLE-22 PERSONS ARRESTED UNDER IPC CRIMES DURING 1988 (CRIME-HEAD & SEX-WISE)",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 18,
  "n_cols": 5,
- "n_cells": 89,
+ "n_cells": 90,
  "columns": [
   {
    "col_no": "3",
-   "name": "UNDER (CRIME-HEAD MALE",
+   "name": "MALE",
    "header": [
-    "UNDER (CRIME-HEAD MALE"
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "IPC CKIMES & FEMALE",
+   "name": "FEMALE (4)",
    "header": [
-    "IPC CKIMES & FEMALE"
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "DURING SEX-WISE) TOTAL",
+   "name": "TOTAL",
    "header": [
-    "DURING SEX-WISE) TOTAL"
+    "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "1988 PERCENTE MALE",
+   "name": "PERCENTE MALE",
    "header": [
-    "1988 PERCENTE MALE"
+    "PERCENTE MALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "FEMALE",
+   "name": "FEMALE (7)",
    "header": [
     "FEMALE"
    ]
   }
  ],
- "notes": [
-  "13—610 NCRB/90."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

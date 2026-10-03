@@ -8,21 +8,21 @@
  "serial": "38",
  "title": "Juveniles Apprehended under Important Heads of Local and Special Laws During 1984",
  "listing_title": "Juveniles Apprehended under Important Heads of Local and Special Laws During 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-39-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-39-1984.pdf",
  "source_sha256": "8d16710037993f5a5e4531167fe31656b85163f289100b6ad75a8bb507c81902",
  "table_no": "39",
- "pdf_title": "Juveniles Apprehended Under Important Heads Of Local And Special Laws During 1984",
- "row_label": "SL. NO. / STATES/UTs/CITIES",
+ "pdf_title": "102 TABLE - 39 Juveniles Apprehended Under Important Heads Of Local And Special Laws During 1984.",
+ "row_label": "SL. NO. / STATES/UTS/CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 59,
+ "n_rows": 48,
  "n_cols": 13,
- "n_cells": 606,
+ "n_cells": 611,
  "columns": [
   {
    "col_no": "3",
@@ -33,112 +33,100 @@
   },
   {
    "col_no": "4",
-   "name": "GAMBLING | OPIUM ACT",
+   "name": "OPIUM ACT",
    "header": [
-    "GAMBLING",
     "OPIUM ACT"
    ]
   },
   {
    "col_no": "5",
-   "name": "GAMBLING | ACT",
+   "name": "GAMBLING ACT",
    "header": [
-    "GAMBLING",
-    "ACT"
+    "GAMBLING ACT"
    ]
   },
   {
    "col_no": "6",
-   "name": "GAMBLING | EXCISE ACT",
+   "name": "EXCISE ACT",
    "header": [
-    "GAMBLING",
     "EXCISE ACT"
    ]
   },
   {
    "col_no": "7",
-   "name": "PROHIBITION",
+   "name": "PROHIBITION ACT",
    "header": [
-    "PROHIBITION"
+    "PROHIBITION ACT"
    ]
   },
   {
    "col_no": "8",
-   "name": "EXPLOSIVES ACT EXPLOSIVE & SUBSTANCES ACT",
+   "name": "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT",
    "header": [
-    "EXPLOSIVES ACT EXPLOSIVE & SUBSTANCES ACT"
+    "EXPLOSIVES & EXPLOSIVE SUBSTANCES ACT"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "S.1I.T. ACT (2)",
+   "col_no": "9",
+   "name": "S. I. T. ACT",
    "header": [
-    "S.1I.T. ACT (2)"
+    "S. I. T. ACT"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "MOTOR VEHTCIFS ACT (2)",
+   "col_no": "10",
+   "name": "MOTOR VEHICLES ACT",
    "header": [
-    "MOTOR VEHTCIFS ACT (2)"
+    "MOTOR VEHICLES ACT"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "PREVENLLON QF UPTION ACT (10)",
+   "col_no": "11",
+   "name": "PREVENTION OF CORR-UPTION ACT",
    "header": [
-    "PREVENLLON QF UPTION ACT (10)"
+    "PREVENTION OF CORR-UPTION ACT"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "Cusroms | CORR- (11)",
+   "col_no": "12",
+   "name": "CUSTOMS ACT",
    "header": [
-    "Cusroms",
-    "CORR- (11)"
+    "CUSTOMS ACT"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "Cusroms | ACT ACT (12)",
+   "col_no": "13",
+   "name": "INDIAN RAILWAYS ACT",
    "header": [
-    "Cusroms",
-    "ACT ACT (12)"
+    "INDIAN RAILWAYS ACT"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "INDIAN OTHER RAILWAYS urrences UNDER L&SL (13)",
+   "col_no": "14",
+   "name": "OTHER OFFENCES UNDER L&SL",
    "header": [
-    "INDIAN OTHER RAILWAYS urrences UNDER L&SL (13)"
+    "OTHER OFFENCES UNDER L&SL"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "TOTAL OF L&SL (14) (15)",
+   "col_no": "15",
+   "name": "TOTAL OF L&SL",
    "header": [
-    "TOTAL OF L&SL (14) (15)"
+    "TOTAL OF L&SL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 21,
-  "cells_passed": 7,
+  "cells_checked": 29,
+  "cells_passed": 28,
   "failures": [
-   "col 4 'TOTAL (States)': printed 131, sum 78",
-   "col 10001 'TOTAL (States)': printed 1982, sum 1976",
-   "col 10001 'TOTAL (UTs)': printed 30, sum 22",
-   "col 10001 'TOTAL (Cities)': printed 133, sum 147",
-   "col 10002 'TOTAL (States)': printed 1448, sum 1317",
-   "col 10002 'TOTAL (Cities)': printed 795, sum 1101",
-   "col 10005 'TOTAL (States)': printed 4385, sum 2939",
-   "col 10005 'TOTAL (Cities)': printed 48, sum 1494"
+   "col 14 'Total(States)': printed 33351, sum 33342"
   ],
   "other_totals_checked": 11,
   "other_totals_passed": 11
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

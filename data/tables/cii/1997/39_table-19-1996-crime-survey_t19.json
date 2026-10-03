@@ -6,66 +6,70 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "39",
- "title": "Percentage of SLL Crime Cases Disposed of by Police During 1997",
+ "title": "INVESTIGATION IN WHICH",
  "listing_title": "Percentage of SLL Crime Cases Disposed of by Police During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-19-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-19-1996-crime-survey.pdf",
  "source_sha256": "3dd0976fc30e8e1558ebae4869c35341057af5f5b49b6cd55675b75ea753054c",
  "table_no": "19",
- "pdf_title": "",
- "row_label": "SL. / CRIME HEADS / PERCENTAGE OF SLL CRIME CASES INVESTIGATION WAS REFUSED",
+ "pdf_title": "INVESTIGATION IN WHICH",
+ "row_label": "SL. NO. / CRIME HEADS",
  "pages": [
   1
  ],
  "n_rows": 23,
- "n_cols": 6,
- "n_cells": 138,
+ "n_cols": 7,
+ "n_cells": 161,
  "columns": [
   {
-   "col_no": "4",
-   "name": "OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ MISTAKE OF FACT OR OF LAW ETC",
+   "col_no": "3",
+   "name": "INVESTIGATION WAS REFUSED",
    "header": [
-    "OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED",
-    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR OF LAW ETC"
+    "INVESTIGATION WAS REFUSED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "INVESTIGATION WAS COMPLETED (4)",
+   "header": [
+    "INVESTIGATION WAS COMPLETED"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE - SUBMITTED",
+   "name": "INVESTIGATION WAS COMPLETED (5)",
    "header": [
-    "OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED",
-    "FINAL REPORT TRUE - SUBMITTED"
+    "INVESTIGATION WAS COMPLETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
+   "name": "INVESTIGATION WAS COMPLETED (6)",
    "header": [
-    "OF BY POLICE DURING PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED",
-    "CHARGE SHEETS WERE LAID"
+    "INVESTIGATION WAS COMPLETED"
    ]
   },
   {
    "col_no": "7",
-   "name": "1997 TOTAL - {(4) +(5) +(6)}",
+   "name": "INVESTIGATION WAS COMPLETED (7)",
    "header": [
-    "1997 TOTAL - {(4) +(5) +(6)}"
+    "INVESTIGATION WAS COMPLETED"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERCENTAGE INVESTIGATION",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION",
    "header": [
-    "PERCENTAGE INVESTIGATION"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION"
    ]
   },
   {
    "col_no": "9",
-   "name": "CHARGEa - {(6)/((5) + (6)] X 100",
+   "name": "CHARGE-SHEETING RATE [(6)/(5) + (6)] X 100",
    "header": [
-    "CHARGEa - {(6)/((5) + (6)] X 100"
+    "CHARGE-SHEETING RATE [(6)/(5) + (6)] X 100"
    ]
   }
  ],

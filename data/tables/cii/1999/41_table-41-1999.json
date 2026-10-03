@@ -8,143 +8,160 @@
  "serial": "41",
  "title": "Number of Robbery Cases Reported and Value of Property Taken Away by Place of Occurrence During 1999 (State, UT & City-Wise)",
  "listing_title": "Number of Robbery Cases Reported and Value of Property Taken Away by Place of Occurrence During 1999 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-41-1999.pdf",
  "source_sha256": "2bca2204295b748136eaa38cf31100f3c01badee4463954b48e648761f18e454",
  "table_no": "41",
- "pdf_title": "NUMBER OF KOBBEKY CASES KErUKIED AND VALUE OF rKUrEKTY TAKEN AWAY BY PLACE OF OCCURRENCE (STATE, UT & CITY-WISE) (Valuc Rs. in lakh)",
- "row_label": "SL. NO. (1) STATES:",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 41",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
- "n_rows": 82,
- "n_cols": 14,
- "n_cells": 731,
+ "n_rows": 58,
+ "n_cols": 16,
+ "n_cells": 928,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Q)",
-   "header": [
-    "Q)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "NUMBER (3)",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "NUMBER (3)"
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "HIGHWAYS VALUE NUMBER @",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "HIGHWAYS VALUE NUMBER @"
+    "RESIDENTIAL PREMISES",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "RIVER ik SEA | 1",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "RIVER ik SEA",
-    "1"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "RIVER ik SEA | VALUE ©",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "RIVER ik SEA",
-    "VALUE ©"
+    "HIGHWAYS",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "RAILWAYS | NUMBER NUMBER ce)",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "RAILWAYS",
-    "NUMBER NUMBER ce)"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "RAILWAYS | VALUE VALUE ® (10)",
+   "name": "RIVER & SEA | VALUE",
+   "header": [
+    "RIVER & SEA",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "RAILWAYS | NUMBER",
    "header": [
     "RAILWAYS",
-    "VALUE VALUE ® (10)"
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "BANKS | (2)",
+   "col_no": "10",
+   "name": "RAILWAYS | VALUE",
+   "header": [
+    "RAILWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "BANKS | NUMBER",
    "header": [
     "BANKS",
-    "(2)"
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "BANKS | NUMBER a)",
+   "col_no": "12",
+   "name": "BANKS | VALUE",
    "header": [
     "BANKS",
-    "NUMBER a)"
+    "VALUE"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "VALUE (12)",
+   "col_no": "13",
+   "name": "COMMERCIAL ESTABLISHMENTS | NUMBER",
    "header": [
-    "VALUE (12)"
+    "COMMERCIAL ESTABLISHMENTS",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "FSTARL NUMBER (13)",
+   "col_no": "14",
+   "name": "COMMERCIAL ESTABLISHMENTS | VALUE",
    "header": [
-    "FSTARL NUMBER (13)"
+    "COMMERCIAL ESTABLISHMENTS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "OTHER PLACES VALUE (4)",
+   "col_no": "15",
+   "name": "OTHER PLACES | NUMBER",
    "header": [
-    "OTHER PLACES VALUE (4)"
+    "OTHER PLACES",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "TOTAL | NUMBER NUMBER (15) (17)",
+   "col_no": "16",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "TOTAL | NUMBER",
    "header": [
     "TOTAL",
-    "NUMBER NUMBER (15) (17)"
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "TOTAL | VALUE VALUE (16) (18)",
+   "col_no": "18",
+   "name": "TOTAL | VALUE",
    "header": [
     "TOTAL",
-    "VALUE VALUE (16) (18)"
+    "VALUE"
    ]
   }
  ],
- "notes": [
-  "Note: Value less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 0,
-  "failures": [
-   "col 10001 'TOTAL STATES': printed 62, sum 58",
-   "col 10003 '(TOTAL (ALL-INDIA)': printed 1055, sum 996"
-  ],
-  "other_totals_checked": 3,
-  "other_totals_passed": 1
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

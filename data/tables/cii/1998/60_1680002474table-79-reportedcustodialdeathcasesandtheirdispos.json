@@ -8,27 +8,28 @@
  "serial": "60",
  "title": "Reported Custodial Death Cases and Their Disposal By Police and Courts During 1998",
  "listing_title": "Reported Custodial Death Cases and Their Disposal By Police and Courts During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680002474TABLE-79-REPORTEDCUSTODIALDEATHCASESANDTHEIRDISPOSALBYPOLICEANDCOURTSDURING1998.pdf",
  "source_file": "raw/cii/1998/table_content/1680002474TABLE-79-REPORTEDCUSTODIALDEATHCASESANDTHEIRDISPOSALBYPOLICEANDCOURTSDURING1998.pdf",
  "source_sha256": "51f3131e5be4461ef8e3e9d223705633b17f7a584d841cb257eecbd2c7a32f3e",
  "table_no": "79",
- "pdf_title": "NEruniev CUSTODIAL DEATH CASES AND THEIR DISPOSAL BY POLICE AND COURTS DURING 1998",
- "row_label": "a a)",
+ "pdf_title": "N.C.R.B., (M.H.A) CRIME IN INDIA - 1998 TABLE-79",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 39,
+ "n_rows": 35,
  "n_cols": 16,
- "n_cells": 447,
+ "n_cells": 560,
  "columns": [
   {
    "col_no": "3",
-   "name": "STATE/UT CASES PENDING INVESTIGATION FROM PREVIOUS YEAR",
+   "name": "INVESTIGATION STAGE | CASES PENDING INVESTIGATION FROM PREVIOUS YEAR",
    "header": [
-    "STATE/UT CASES PENDING INVESTIGATION FROM PREVIOUS YEAR"
+    "INVESTIGATION STAGE",
+    "CASES PENDING INVESTIGATION FROM PREVIOUS YEAR"
    ]
   },
   {
@@ -41,126 +42,122 @@
   },
   {
    "col_no": "5",
-   "name": "INVESTIGATION STAGE | CASES NOT INVESTIGATEDORIN WHICH INVESTIGATION WAS REFUSED",
+   "name": "INVESTIGATION STAGE | CASES NOT INVESTIGATED OR IN WHICH INVESTIGATION WAS REFUSED",
    "header": [
     "INVESTIGATION STAGE",
-    "CASES NOT INVESTIGATEDORIN WHICH INVESTIGATION WAS REFUSED"
+    "CASES NOT INVESTIGATED OR IN WHICH INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "6",
-   "name": "INVESTIGATION STAGE | CASES DECLARED ACCOUNT OF MISTAKE OF FACTOR LAW",
+   "name": "INVESTIGATION STAGE | CASES DECLARED FALSE ON ACCOUNT OF MISTAKE OF FACT OR LAW",
    "header": [
     "INVESTIGATION STAGE",
-    "CASES DECLARED ACCOUNT OF MISTAKE OF FACTOR LAW"
+    "CASES DECLARED FALSE ON ACCOUNT OF MISTAKE OF FACT OR LAW"
    ]
   },
   {
    "col_no": "7",
-   "name": "INVESTIGATION STAGE | ‘ CASES IN WHICH SHEETS WERE. SUBMITTED",
+   "name": "INVESTIGATION STAGE | CASES IN WHICH CHARGE-SHEETS WERE SUBMITTED",
    "header": [
     "INVESTIGATION STAGE",
-    "‘ CASES IN WHICH SHEETS WERE. SUBMITTED"
+    "CASES IN WHICH CHARGE-SHEETS WERE SUBMITTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "INVESTIGATION STAGE | CASES IN WHICH CHARGESHEETS WERE BUT FINAL REPORT SUBMITTED DURING THE YEAR",
+   "name": "INVESTIGATION STAGE | CASES IN WHICH CHARGE-SHEETS WERE NOT LAID BUT FINAL REPORT SUBMITTED DURING THE YEAR",
    "header": [
     "INVESTIGATION STAGE",
-    "CASES IN WHICH CHARGESHEETS WERE BUT FINAL REPORT SUBMITTED DURING THE YEAR"
+    "CASES IN WHICH CHARGE-SHEETS WERE NOT LAID BUT FINAL REPORT SUBMITTED DURING THE YEAR"
    ]
   },
   {
    "col_no": "9",
-   "name": "INVESTIGATION STAGE | TOTAL CASES 7 +",
+   "name": "INVESTIGATION STAGE | TOTAL CASES (COL. 7 + 8)",
    "header": [
     "INVESTIGATION STAGE",
-    "TOTAL CASES 7 +"
+    "TOTAL CASES (COL. 7 + 8)"
    ]
   },
   {
    "col_no": "10",
-   "name": "CASES - PENDING INVESTIGATION AT 8) THE END OF THE YEAR",
+   "name": "INVESTIGATION STAGE | CASES PENDING INVESTIGATION AT THE END OF THE YEAR",
    "header": [
-    "CASES - PENDING INVESTIGATION AT 8) THE END OF THE YEAR"
+    "INVESTIGATION STAGE",
+    "CASES PENDING INVESTIGATION AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "11",
-   "name": "TRIAL !3TAGE | CASES PENDING TRIAL FROM PREVIOUS YEAR",
+   "name": "TRIAL STAGE | CASES PENDING TRIAL FROM PREVIOUS YEAR",
    "header": [
-    "TRIAL !3TAGE",
+    "TRIAL STAGE",
     "CASES PENDING TRIAL FROM PREVIOUS YEAR"
    ]
   },
   {
    "col_no": "12",
-   "name": "TRIAL !3TAGE | CASES SENTFOR TRIAL DURING",
+   "name": "TRIAL STAGE | CASES SENT FOR TRIAL DURING THE YEAR",
    "header": [
-    "TRIAL !3TAGE",
-    "CASES SENTFOR TRIAL DURING"
+    "TRIAL STAGE",
+    "CASES SENT FOR TRIAL DURING THE YEAR"
    ]
   },
   {
    "col_no": "13",
-   "name": "TRIAL !3TAGE | TOTAL CASESFOR TRIAL YEAR",
+   "name": "TRIAL STAGE | TOTAL CASES FOR TRIAL DURING THE YEAR",
    "header": [
-    "TRIAL !3TAGE",
-    "TOTAL CASESFOR TRIAL YEAR"
+    "TRIAL STAGE",
+    "TOTAL CASES FOR TRIAL DURING THE YEAR"
    ]
   },
   {
    "col_no": "14",
-   "name": "TRIAL !3TAGE | CASES COMPOUND DRAWN",
+   "name": "TRIAL STAGE | CASES COMPOUND ED OR WITH-DRAWN",
    "header": [
-    "TRIAL !3TAGE",
-    "CASES COMPOUND DRAWN"
+    "TRIAL STAGE",
+    "CASES COMPOUND ED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "15",
-   "name": "TRIAL !3TAGE | CASES IN WHICH WERE COMPLETED",
+   "name": "TRIAL STAGE | CASES IN WHICH TRIALS WERE COMPLETED",
    "header": [
-    "TRIAL !3TAGE",
-    "CASES IN WHICH WERE COMPLETED"
+    "TRIAL STAGE",
+    "CASES IN WHICH TRIALS WERE COMPLETED"
    ]
   },
   {
    "col_no": "16",
-   "name": "TRIAL !3TAGE | CASES CONVICTED",
+   "name": "TRIAL STAGE | CASES CONVICTED",
    "header": [
-    "TRIAL !3TAGE",
+    "TRIAL STAGE",
     "CASES CONVICTED"
    ]
   },
   {
    "col_no": "17",
-   "name": "TRIAL !3TAGE | CASES ACQUITTED OR DISCHARGED",
+   "name": "TRIAL STAGE | CASES ACQUITTED OR DISCHAR- GED",
    "header": [
-    "TRIAL !3TAGE",
-    "CASES ACQUITTED OR DISCHARGED"
+    "TRIAL STAGE",
+    "CASES ACQUITTED OR DISCHAR- GED"
    ]
   },
   {
    "col_no": "18",
-   "name": "TRIAL !3TAGE | CASES PENDING TRIAL AT THE END OF THE YEAR",
+   "name": "TRIAL STAGE | CASES PENDING TRIAL AT THE END OF THE YEAR",
    "header": [
-    "TRIAL !3TAGE",
+    "TRIAL STAGE",
     "CASES PENDING TRIAL AT THE END OF THE YEAR"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 26,
-  "cells_passed": 22,
-  "failures": [
-   "col 11 'TOTAL (STATES)': printed 70, sum 59",
-   "col 15 'TOTAL (UTs)': printed 0, sum 11",
-   "col 17 'TOTAL (STATES)': printed 7, sum 15",
-   "col 18 'TOTAL (STATES)': printed 77, sum 67"
-  ],
+  "cells_checked": 48,
+  "cells_passed": 48,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

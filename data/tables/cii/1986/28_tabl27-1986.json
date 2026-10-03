@@ -8,63 +8,99 @@
  "serial": "28",
  "title": "Disposal of Persons Arrested under Local and Special Laws under Investigation by Police During 1986; Disposal of Persons Arreste",
  "listing_title": "Disposal of Persons Arrested under Local and Special Laws under Investigation by Police During 1986; Disposal of Persons Arreste",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl27-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl27-1986.pdf",
  "source_sha256": "63a96d2ac381c68425fe791c198ef72acf50310841f732b8626cec159f57b348",
  "table_no": "28",
- "pdf_title": "Disposal of persons arrested under Local and Special Laws under :---=-*'5=\": by Police during 1986",
- "row_label": "Si. No. / Cris hess",
+ "pdf_title": "64 TABLE 28 Disposal of persons arrested under Local and Special Laws under investigation by Police during 1986",
+ "row_label": "Sl. No. / Crime Heads",
  "pages": [
+  1,
   1
  ],
- "n_rows": 13,
- "n_cols": 6,
- "n_cells": 77,
+ "n_rows": 17,
+ "n_cols": 13,
+ "n_cells": 169,
  "columns": [
   {
    "col_no": "3",
-   "name": "today or on bail tee over ium",
-   "header": [
-    "today or on bail tee over ium"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "7 by or ual lor other oes reason",
-   "header": [
-    "7 by or ual lor other oes reason"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "um 5S==5 0 werelaid year",
-   "header": [
-    "um 5S==5 0 werelaid year"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "Foruns w % age ot persons % age or pcs | 4 chars= 9",
-   "header": [
-    "Foruns w % age ot persons % age or pcs",
-    "4 chars= 9"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "Foruns w % age ot persons % age or pcs | Werciaigio oronbail stage - to",
-   "header": [
-    "Foruns w % age ot persons % age or pcs",
-    "Werciaigio oronbail stage - to"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "on bail during —the stage of arthe endofthe year stage Of mvesugation",
+   "name": "col_8",
+   "header": []
+  },
+  {
+   "col_no": "10001",
+   "name": "Total number of persons under trial whom cases were during the year including persons Carried over from Previous Year.",
    "header": [
-    "on bail during —the stage of arthe endofthe year stage Of mvesugation"
+    "Total number of persons under trial whom cases were during the year including persons Carried over from Previous Year."
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Number of persons against whom cases were compounded or withdrawn",
+   "header": [
+    "Number of persons against whom cases were compounded or withdrawn"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Persons in whose cases trials were completed during the year",
+   "header": [
+    "Persons in whose cases trials were completed during the year"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Persons in custody or on bail during the stage of trial at the end of the year.",
+   "header": [
+    "Persons in custody or on bail during the stage of trial at the end of the year."
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Persons convicted during the year",
+   "header": [
+    "Persons convicted during the year"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "%age of persons in custody or on bail pending trial to total number of persons under trial",
+   "header": [
+    "%age of persons in custody or on bail pending trial to total number of persons under trial"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "%age of persons convicted to total persons in whose cases trials were completed during three year",
+   "header": [
+    "%age of persons convicted to total persons in whose cases trials were completed during three year"
    ]
   }
  ],
@@ -73,10 +109,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 9,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -8,95 +8,107 @@
  "serial": "17",
  "title": "Juvenile Apprehended in India (by Age Group and Sex)",
  "listing_title": "Juvenile Apprehended in India (by Age Group and Sex)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-35-1979.pdf",
  "source_file": "raw/cii/1979/table_content/table-35-1979.pdf",
  "source_sha256": "8d4a8e74c53fc4d0655138c987893915c26460b6eea23ef80847837c5d0c8073",
  "table_no": "35",
- "pdf_title": "JUVENILE APPREHENDED IN INDIA (BY AGE GROUP AND SEX)",
- "row_label": "i2—16 SI. Heads of Crime No. IPC CRIME / i2—16 Between 7—12 Years Boys",
+ "pdf_title": "84 TABLE 35 JUVENILE APPREHENDED IN INDIA (BY AGE GROUP AND SEX)",
+ "row_label": "Sl. No. / Heads of Crime",
  "pages": [
+  1,
   1
  ],
- "n_rows": 28,
- "n_cols": 9,
- "n_cells": 237,
+ "n_rows": 27,
+ "n_cols": 11,
+ "n_cells": 297,
  "columns": [
   {
    "col_no": "3",
-   "name": "i2—16 | Between 7—12 Years | Girls",
+   "name": "Between 7-12 Years | Boys",
    "header": [
-    "i2—16",
-    "Between 7—12 Years",
-    "Girls"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "i2—16 | Years - Boys",
-   "header": [
-    "i2—16",
-    "Years - Boys"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "i2—16 | Girls",
-   "header": [
-    "i2—16",
-    "Girls"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "i2—16 | Between 16—18 Years | Boys",
-   "header": [
-    "i2—16",
-    "Between 16—18 Years",
+    "Between 7-12 Years",
     "Boys"
    ]
   },
   {
-   "col_no": "7",
-   "name": "i2—16 | Between 16—18 Years | Girls",
+   "col_no": "4",
+   "name": "Between 7-12 Years | Girls",
    "header": [
-    "i2—16",
-    "Between 16—18 Years",
+    "Between 7-12 Years",
     "Girls"
    ]
   },
   {
-   "col_no": "8",
-   "name": "i2—16 | Between 18—21 Years | - •",
+   "col_no": "5",
+   "name": "Between 12-16 Years | Boys",
    "header": [
-    "i2—16",
-    "Between 18—21 Years",
-    "- •"
+    "Between 12-16 Years",
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Between 12-16 Years | Girls",
+   "header": [
+    "Between 12-16 Years",
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Between 16-18 Years | Boys",
+   "header": [
+    "Between 16-18 Years",
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Between 16-18 Years | Girls",
+   "header": [
+    "Between 16-18 Years",
+    "Girls"
    ]
   },
   {
    "col_no": "9",
-   "name": "i2—16 | Between 18—21 Years | ‘",
+   "name": "Between 18-21 Years | Boys",
    "header": [
-    "i2—16",
-    "Between 18—21 Years",
-    "‘"
+    "Between 18-21 Years",
+    "Boys"
    ]
   },
   {
    "col_no": "10",
-   "name": "i2—16 | Over all age group - Boys’",
+   "name": "Between 18-21 Years | Girls",
    "header": [
-    "i2—16",
-    "Over all age group - Boys’"
+    "Between 18-21 Years",
+    "Girls"
    ]
   },
   {
    "col_no": "11",
-   "name": "Total Cae Boys+ Girls, Girls",
+   "name": "Over all age group | Boys",
    "header": [
-    "Total Cae Boys+ Girls, Girls"
+    "Over all age group",
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Over all age group | Girls",
+   "header": [
+    "Over all age group",
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Total Boys+ Girls",
+   "header": [
+    "Total Boys+ Girls"
    ]
   }
  ],
@@ -105,10 +117,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 33,
+  "other_totals_passed": 20
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

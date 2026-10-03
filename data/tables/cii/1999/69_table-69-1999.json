@@ -8,150 +8,161 @@
  "serial": "69",
  "title": "Persons Arrested Under IPC and SLL Crimes by Age Group and Sex During 1999",
  "listing_title": "Persons Arrested Under IPC and SLL Crimes by Age Group and Sex During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-69-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-69-1999.pdf",
  "source_sha256": "673a2419896c822240f8f0683046ec300a87630fc88c99f7bf597edd29ed3c03",
  "table_no": "69",
- "pdf_title": "(=",
- "row_label": ", SL.NO. (1) A. IPC CRIMES",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 69",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1,
   2
  ],
- "n_rows": 70,
- "n_cols": 16,
- "n_cells": 801,
+ "n_rows": 52,
+ "n_cols": 17,
+ "n_cells": 867,
  "columns": [
   {
-   "col_no": "2",
-   "name": "PERSONS comer @)",
-   "header": [
-    "PERSONS comer @)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977 | BELOW 16 YEARS MALE (3)",
+   "name": "BELOW 16 YEARS | MALE",
    "header": [
-    "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977",
-    "BELOW 16 YEARS MALE (3)"
+    "BELOW 16 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977 | FEMALE @",
+   "name": "BELOW 16 YEARS | FEMALE",
    "header": [
-    "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977",
-    "FEMALE @"
+    "BELOW 16 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977 | 16 - 18 MALE ©",
+   "name": "16 - 18 YEARS | MALE",
    "header": [
-    "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977",
-    "16 - 18 MALE ©"
+    "16 - 18 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "6",
-   "name": "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977 | EARS 18 - 30 [EARS FEMALE ©",
+   "name": "16 - 18 YEARS | FEMALE",
    "header": [
-    "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977",
-    "EARS 18 - 30 [EARS FEMALE ©"
+    "16 - 18 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977 | 30 - 50 TEARS | MALE MALE (9) (7)",
+   "name": "18 - 30 YEARS | MALE",
    "header": [
-    "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977",
-    "30 - 50 TEARS",
-    "MALE MALE (9) (7)"
+    "18 - 30 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977 | 30 - 50 TEARS | FEMALE FEMALE (18) (8)",
+   "name": "18 - 30 YEARS | FEMALE",
    "header": [
-    "UNDER IPC AND SLL CRIMES RY AGE GROUP AND SEX DUKUVU1977",
-    "30 - 50 TEARS",
-    "FEMALE FEMALE (18) (8)"
+    "18 - 30 YEARS",
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "50 YEARS & ABOVE | MALE (2)",
+   "col_no": "9",
+   "name": "30 - 50 YEARS | MALE",
+   "header": [
+    "30 - 50 YEARS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "30 - 50 YEARS | FEMALE",
+   "header": [
+    "30 - 50 YEARS",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "50 YEARS & ABOVE | MALE",
    "header": [
     "50 YEARS & ABOVE",
-    "MALE (2)"
+    "MALE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "50 YEARS & ABOVE | (11)",
+   "col_no": "12",
+   "name": "50 YEARS & ABOVE | FEMALE",
    "header": [
     "50 YEARS & ABOVE",
-    "(11)"
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "TOT/ L OVER ALL AGE ¢ | - JUVENILES | (12)",
+   "col_no": "13",
+   "name": "TOTAL OVER ALL AGE GROUP | JUVENILES | M",
    "header": [
-    "TOT/ L OVER ALL AGE ¢",
-    "- JUVENILES",
-    "(12)"
+    "TOTAL OVER ALL AGE GROUP",
+    "JUVENILES",
+    "M"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "TOT/ L OVER ALL AGE ¢ | - JUVENILES | M (13)",
+   "col_no": "14",
+   "name": "TOTAL OVER ALL AGE GROUP | JUVENILES | F",
    "header": [
-    "TOT/ L OVER ALL AGE ¢",
-    "- JUVENILES",
-    "M (13)"
+    "TOTAL OVER ALL AGE GROUP",
+    "JUVENILES",
+    "F"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "TOT/ L OVER ALL AGE ¢ | Fr (14)",
+   "col_no": "15",
+   "name": "TOTAL OVER ALL AGE GROUP | OTHERS | M",
    "header": [
-    "TOT/ L OVER ALL AGE ¢",
-    "Fr (14)"
+    "TOTAL OVER ALL AGE GROUP",
+    "OTHERS",
+    "M"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "TOT/ L OVER ALL AGE ¢ | Es M as)",
+   "col_no": "16",
+   "name": "TOTAL OVER ALL AGE GROUP | OTHERS | F",
    "header": [
-    "TOT/ L OVER ALL AGE ¢",
-    "Es M as)"
+    "TOTAL OVER ALL AGE GROUP",
+    "OTHERS",
+    "F"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "TOT/ L OVER ALL AGE ¢ | a0) F (16)",
+   "col_no": "17",
+   "name": "TOTAL OVER ALL AGE GROUP | TOTAL | M",
    "header": [
-    "TOT/ L OVER ALL AGE ¢",
-    "a0) F (16)"
+    "TOTAL OVER ALL AGE GROUP",
+    "TOTAL",
+    "M"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "TOT/ L OVER ALL AGE ¢ | M a7",
+   "col_no": "18",
+   "name": "TOTAL OVER ALL AGE GROUP | TOTAL | F",
    "header": [
-    "TOT/ L OVER ALL AGE ¢",
-    "M a7"
+    "TOTAL OVER ALL AGE GROUP",
+    "TOTAL",
+    "F"
    ]
   },
   {
-   "col_no": "10009",
-   "name": "TOTAL Pg F (19) (18)",
+   "col_no": "19",
+   "name": "TOTAL M+F (17+ 18)",
    "header": [
-    "TOTAL Pg F (19) (18)"
+    "TOTAL M+F (17+ 18)"
    ]
   }
  ],
@@ -160,10 +171,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 35,
-  "other_totals_passed": 5
+  "other_totals_checked": 51,
+  "other_totals_passed": 33
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

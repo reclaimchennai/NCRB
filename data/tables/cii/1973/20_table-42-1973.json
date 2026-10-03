@@ -8,50 +8,54 @@
  "serial": "20",
  "title": "Juveniles Apprehended (by Age Groups) for Committing Crimes under Indian Penal Code During the Year 1973",
  "listing_title": "Juveniles Apprehended (by Age Groups) for Committing Crimes under Indian Penal Code During the Year 1973",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-42-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-42-1973.pdf",
  "source_sha256": "156f9c7366bf5a1d855da4918bcd6fbdd9f3aaf93694639499a0b41c0bcd2fa3",
- "table_no": "",
- "pdf_title": "",
- "row_label": "SLs ‘No. 1 / Juveniles Ta, (Citles z 1, Andhra Pradesh 1 3. 4. Gulurat 3. / Apprehended (by age groups) for Committing Crimes chiring the year 7-12 years 3 Tl fi 93 2 Bihar A 189 Haryana",
+ "table_no": "42",
+ "pdf_title": "108 TABLE 42 Juveniles Apprehended (by age groups) for Committing Crimes under Indian Penal Code during the year 1973",
+ "row_label": "Sl. No. / States/U. Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 35,
- "n_cols": 4,
- "n_cells": 121,
+ "n_rows": 40,
+ "n_cols": 5,
+ "n_cells": 200,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Apprehended (by age groups) for Committing Crimes | 1973 ‘ a a",
+   "col_no": "3",
+   "name": "7-12 years",
    "header": [
-    "Apprehended (by age groups) for Committing Crimes",
-    "1973 ‘ a a"
+    "7-12 years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "12-16 years",
+   "header": [
+    "12-16 years"
    ]
   },
   {
    "col_no": "5",
-   "name": "Indian Penal Code | 16-18 yours § 120) Py 749 716 © #92 6",
+   "name": "BETWEEN 16-18 years",
    "header": [
-    "Indian Penal Code",
-    "16-18 yours § 120) Py 749 716 © #92 6"
+    "BETWEEN 16-18 years"
    ]
   },
   {
    "col_no": "6",
-   "name": "Indian Penal Code | 12-16 18:21 years yeard é 4 351 29 a4 an & 52 98",
+   "name": "18-21 years",
    "header": [
-    "Indian Penal Code",
-    "12-16 18:21 years yeard é 4 351 29 a4 an & 52 98"
+    "18-21 years"
    ]
   },
   {
    "col_no": "7",
-   "name": "Total 7 soy ns4 3035 1976 kh 4635 3386 B48 567",
+   "name": "Total",
    "header": [
-    "Total 7 soy ns4 3035 1976 kh 4635 3386 B48 567"
+    "Total"
    ]
   }
  ],
@@ -60,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 20,
+  "other_totals_passed": 18
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -8,44 +8,58 @@
  "serial": "24",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During the Year 1983",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Indian Penal Code During the Year 1983",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-42-1983.pdf",
  "source_file": "raw/cii/1983/table_content/table-42-1983.pdf",
  "source_sha256": "a6bdf6a8c7bb1fbc9bda0fe950f3d78e1bbd0465abc184d8b67a1f38c13a8536",
- "table_no": "",
- "pdf_title": "Juwenile Apprehended (By Age Group) for Committing crimes under Indian Penal Code during the Year 1983",
- "row_label": "Sl. States/U.T.s/Cities No. STATES / 7 to 12 years",
+ "table_no": "42",
+ "pdf_title": "106 TABLE 42 Juvenile Apprehended (By Age Group) for Committing crimes under Indian Penal Code during the Year 1983",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 46,
- "n_cols": 4,
- "n_cells": 173,
+ "n_rows": 47,
+ "n_cols": 6,
+ "n_cells": 239,
  "columns": [
   {
    "col_no": "3",
-   "name": "12t016 years",
+   "name": "States/U.T.s/Cities",
    "header": [
-    "12t016 years"
+    "States/U.T.s/Cities"
    ]
   },
   {
    "col_no": "4",
+   "name": "7 to 12 years",
+   "header": [
+    "7 to 12 years"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "12 to 16 years",
+   "header": [
+    "12 to 16 years"
+   ]
+  },
+  {
+   "col_no": "6",
    "name": "16 to 18 years",
    "header": [
     "16 to 18 years"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "7",
    "name": "18 to 21 years",
    "header": [
     "18 to 21 years"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "8",
    "name": "Total",
    "header": [
     "Total"
@@ -57,10 +71,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

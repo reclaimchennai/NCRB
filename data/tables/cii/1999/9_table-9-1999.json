@@ -8,302 +8,217 @@
  "serial": "9",
  "title": "City-Wise Incidence of Cognizable Crimes (IPC) During 1999",
  "listing_title": "City-Wise Incidence of Cognizable Crimes (IPC) During 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-9-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-9-1999.pdf",
  "source_sha256": "cdcfd2aac5f8572c0e31f9978fe62b258335cf8170e92997a471bec812f8ec75",
  "table_no": "9",
- "pdf_title": "CITY-WISE INCIpENt:K OF COGNTZARLE CRIMES (TPC) DURING 1999",
- "row_label": "SL. NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 9",
+ "row_label": "SL. NO. / STATE/CITY",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 75,
- "n_cols": 39,
- "n_cells": 1418,
+ "n_rows": 62,
+ "n_cols": 27,
+ "n_cells": 1674,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
   },
   {
    "col_no": "4",
-   "name": "RAPE | TO MURDER",
+   "name": "ATTEMPT TO COMMIT MURDER",
    "header": [
-    "RAPE",
-    "TO MURDER"
+    "ATTEMPT TO COMMIT MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "RAPE | C.H. NOT COMMIT AMOUNTING - TO MURDER",
+   "name": "C.H. NOT AMOUN-TING TO MURDER",
    "header": [
-    "RAPE",
-    "C.H. NOT COMMIT AMOUNTING - TO MURDER"
+    "C.H. NOT AMOUN-TING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
    ]
   },
   {
    "col_no": "7",
-   "name": "RAPE | ©",
+   "name": "KIDNAPPING AND ABDUCTION | TOTAL",
    "header": [
-    "RAPE",
-    "©"
+    "KIDNAPPING AND ABDUCTION",
+    "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "RAPE | A BDUCTI ON TOTAL OF GIRLS",
+   "name": "KIDNAPPING AND ABDUCTION | OF WOMEN & GIRLS",
    "header": [
-    "RAPE",
-    "A BDUCTI ON TOTAL OF GIRLS"
+    "KIDNAPPING AND ABDUCTION",
+    "OF WOMEN & GIRLS"
    ]
   },
   {
    "col_no": "9",
-   "name": "RAPE | OF OTHERS",
+   "name": "KIDNAPPING AND ABDUCTION | OF OTHERS",
    "header": [
-    "RAPE",
+    "KIDNAPPING AND ABDUCTION",
     "OF OTHERS"
    ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
   },
   {
    "col_no": "11",
-   "name": "TION AND ASSEMBLY FOR DACOITY ay",
+   "name": "PREPARA-TION AND ASSEMBLY FOR DACOITY",
    "header": [
-    "TION AND ASSEMBLY FOR DACOITY ay"
+    "PREPARA-TION AND ASSEMBLY FOR DACOITY"
    ]
   },
   {
    "col_no": "12",
-   "name": "col_12",
-   "header": []
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
+   ]
   },
   {
    "col_no": "13",
-   "name": "mruc1 ARY",
+   "name": "BURGLARY",
    "header": [
-    "mruc1 ARY"
+    "BURGLARY"
    ]
   },
   {
    "col_no": "14",
-   "name": "THEFT TOTAL AUTOOTHER THEFT THEFT (14)",
+   "name": "THEFT | TOTAL",
    "header": [
-    "THEFT TOTAL AUTOOTHER THEFT THEFT"
+    "THEFT",
+    "TOTAL"
    ]
   },
   {
    "col_no": "15",
-   "name": "THEFT TOTAL AUTOOTHER THEFT THEFT (15)",
+   "name": "THEFT | AUTO THEFT",
    "header": [
-    "THEFT TOTAL AUTOOTHER THEFT THEFT"
+    "THEFT",
+    "AUTO THEFT"
    ]
   },
   {
    "col_no": "16",
-   "name": "THEFT TOTAL AUTOOTHER THEFT THEFT (16)",
+   "name": "THEFT | OTHER THEFT",
    "header": [
-    "THEFT TOTAL AUTOOTHER THEFT THEFT"
+    "THEFT",
+    "OTHER THEFT"
    ]
   },
   {
    "col_no": "17",
-   "name": "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL (17)",
+   "name": "RIOTS",
    "header": [
-    "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL"
+    "RIOTS"
    ]
   },
   {
    "col_no": "18",
-   "name": "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL | BREACH OF TRUST",
+   "name": "CRIMINAL BREACH OF TRUST",
    "header": [
-    "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL",
-    "BREACH OF TRUST"
+    "CRIMINAL BREACH OF TRUST"
    ]
   },
   {
    "col_no": "19",
-   "name": "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL (19)",
+   "name": "CHEATING",
    "header": [
-    "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL"
+    "CHEATING"
    ]
   },
   {
    "col_no": "20",
-   "name": "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL | FIETING",
+   "name": "COUNTER FIETING",
    "header": [
-    "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL",
-    "FIETING"
+    "COUNTER FIETING"
    ]
   },
   {
    "col_no": "21",
-   "name": "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL | -",
+   "name": "ARSON",
    "header": [
-    "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL",
-    "-"
+    "ARSON"
    ]
   },
   {
    "col_no": "22",
-   "name": "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL | i",
+   "name": "HURT",
    "header": [
-    "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL",
-    "i"
+    "HURT"
    ]
   },
   {
    "col_no": "23",
-   "name": "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL | DEATHS",
+   "name": "DOWRY DEATHS",
    "header": [
-    "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL",
-    "DEATHS"
+    "DOWRY DEATHS"
    ]
   },
   {
    "col_no": "24",
-   "name": "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL | TION",
+   "name": "MOLESTA TION",
    "header": [
-    "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL",
-    "TION"
+    "MOLESTA TION"
    ]
   },
   {
-   "col_no": "2s",
-   "name": "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL | HARASSMENT",
+   "col_no": "25",
+   "name": "SEXUAL HARASS-MENT",
    "header": [
-    "RIOTS CRIMINAL CHEATING COUNTER ARSON HURT DOWRY MOLESTA SEXUAL",
-    "HARASSMENT"
+    "SEXUAL HARASS-MENT"
    ]
   },
   {
    "col_no": "26",
-   "name": "CRUELTY IMPOR- OTHER | BY HUSBAND AND RELATIVES",
+   "name": "CRUELTY BY HUSBAND AND RELA-TIVES",
    "header": [
-    "CRUELTY IMPOR- OTHER",
-    "BY HUSBAND AND RELATIVES"
+    "CRUELTY BY HUSBAND AND RELA-TIVES"
    ]
   },
   {
    "col_no": "27",
-   "name": "CRUELTY IMPOR- OTHER | TATION GIRLS",
+   "name": "IMPORT-TATION OF GIRLS",
    "header": [
-    "CRUELTY IMPOR- OTHER",
-    "TATION GIRLS"
+    "IMPORT-TATION OF GIRLS"
    ]
   },
   {
    "col_no": "28",
-   "name": "CRUELTY IMPOR- OTHER | IPC",
+   "name": "OTHER IPC CRIMES",
    "header": [
-    "CRUELTY IMPOR- OTHER",
-    "IPC"
+    "OTHER IPC CRIMES"
    ]
   },
   {
    "col_no": "29",
-   "name": "TOTAL COG. UNDER ec",
+   "name": "TOTAL COG. CRIMES UNDER IPC",
    "header": [
-    "TOTAL COG. UNDER ec"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "col_6",
-   "header": []
-  },
-  {
-   "col_no": "10001",
-   "name": "(2) AMRITSAR JALANDHAR 0 AJMER BHARATPUR 138 JAIPUR",
-   "header": [
-    "(2) AMRITSAR JALANDHAR 0 AJMER BHARATPUR 138 JAIPUR"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "(17) o! 9 23 47 221 s 1369",
-   "header": [
-    "(17) o! 9 23 47 221 s 1369"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "a w 8 301 B 16 96 173",
-   "header": [
-    "a w 8 301 B 16 96 173"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "a 6s 110 3 177 69 2 m",
-   "header": [
-    "a 6s 110 3 177 69 2 m"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "(20) 3 3 5 4 2 0 nm",
-   "header": [
-    "(20) 3 3 5 4 2 0 nm"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "(21) 2 44 4 3 49 24",
-   "header": [
-    "(21) 2 44 4 3 49 24"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "(22) x! 7] 44 4 0 10 125",
-   "header": [
-    "(22) x! 7] 44 4 0 10 125"
-   ]
-  },
-  {
-   "col_no": "10008",
-   "name": "(23) 7] 2 6] 20 0 26",
-   "header": [
-    "(23) 7] 2 6] 20 0 26"
-   ]
-  },
-  {
-   "col_no": "10009",
-   "name": "eo 7 0 12 «7 0 115",
-   "header": [
-    "eo 7 0 12 «7 0 115"
-   ]
-  },
-  {
-   "col_no": "10010",
-   "name": "eo 2 23 of mw. >] 0 2",
-   "header": [
-    "eo 2 23 of mw. >] 0 2"
-   ]
-  },
-  {
-   "col_no": "10011",
-   "name": "eo em wi 15 0. mS wm 1085 113 ool 53 al 70 337 5616",
-   "header": [
-    "eo em wi 15 0. mS wm 1085 113 ool 53 al 70 337 5616"
-   ]
-  },
-  {
-   "col_no": "10012",
-   "name": "em (27) 0 602 701 1880 ) of 2114 ol 1 1653 0 12423",
-   "header": [
-    "em (27) 0 602 701 1880 ) of 2114 ol 1 1653 0 12423"
+    "TOTAL COG. CRIMES UNDER IPC"
    ]
   }
  ],
@@ -315,7 +230,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 4,
  "warnings": []
 }

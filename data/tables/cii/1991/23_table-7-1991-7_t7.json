@@ -6,54 +6,81 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "23",
- "title": "(Cont",
+ "title": "37 TABLE-7 INCIDENCE OF COGNIZABLE CRIMES (IPC) UNDER DIFFERENT CRIME HEADS IN STATES, UTS & CITIES DURING 1991 & PERCENTAGE VARIATION OVER 1990",
  "listing_title": "Incidence of Cognizable Crimes (IPC) Under Different Crime Heads in States, UTs & Cities During 1991 & Percentage Variation over",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-7-1991-7.pdf",
  "source_file": "raw/cii/1991/table_content/table-7-1991-7.pdf",
  "source_sha256": "a77194007ad327627a7241519e847adb242150a9a7fd90782e9f65bcb9368efd",
  "table_no": "7",
- "pdf_title": "(Cont",
- "row_label": "Sl. / 10 / 1971",
+ "pdf_title": "37 TABLE-7 INCIDENCE OF COGNIZABLE CRIMES (IPC) UNDER DIFFERENT CRIME HEADS IN STATES, UTS & CITIES DURING 1991 & PERCENTAGE VARIATION OVER 1990",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
-  5
+  1
  ],
  "n_rows": 47,
- "n_cols": 3,
- "n_cells": 123,
+ "n_cols": 6,
+ "n_cells": 282,
  "columns": [
   {
+   "col_no": "3",
+   "name": "MURDER | 1990",
+   "header": [
+    "MURDER",
+    "1990"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "MURDER | 1991",
+   "header": [
+    "MURDER",
+    "1991"
+   ]
   },
   {
    "col_no": "5",
-   "name": "BURGLARY | 4999",
+   "name": "MURDER | PERCENTAGE VARIATION",
    "header": [
-    "BURGLARY",
-    "4999"
+    "MURDER",
+    "PERCENTAGE VARIATION"
    ]
   },
   {
    "col_no": "6",
-   "name": "BURGLARY | 11 PERCENTASE VARTAT LOM",
+   "name": "ATTEMPT TO COMMIT MURDER | 1990",
    "header": [
-    "BURGLARY",
-    "11 PERCENTASE VARTAT LOM"
+    "ATTEMPT TO COMMIT MURDER",
+    "1990"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "ATTEMPT TO COMMIT MURDER | 1991",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER",
+    "1991"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ATTEMPT TO COMMIT MURDER | PERCENTAGE VARIATION",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER",
+    "PERCENTAGE VARIATION"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

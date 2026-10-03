@@ -6,56 +6,74 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "8",
- "title": "DELINQUENCY 1967",
+ "title": "47 VIII DELINQUENCY 1967",
  "listing_title": "Juvenile Delinquency 1967",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-8-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-8-1967.pdf",
  "source_sha256": "8f6188553dd52ba0874b598d90a6fff725ae17ae2aefab24fcffac48c47d6994",
  "table_no": "",
- "pdf_title": "DELINQUENCY 1967",
- "row_label": "Riots Breaking 8 141",
+ "pdf_title": "47 VIII DELINQUENCY 1967",
+ "row_label": "House-Breaking",
  "pages": [
   2
  ],
- "n_rows": 31,
- "n_cols": 4,
- "n_cells": 98,
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
    "col_no": "2",
-   "name": "Riots | Thefts Cattle. 9 18 30",
+   "name": "Thefts Cattle",
    "header": [
-    "Riots",
-    "Thefts Cattle. 9 18 30"
+    "Thefts Cattle"
    ]
   },
   {
    "col_no": "3",
-   "name": "Thefts Cheating ordinary 13 10 1 395 214 2",
+   "name": "Thefts ordinary",
    "header": [
-    "Thefts Cheating ordinary 13 10 1 395 214 2"
+    "Thefts ordinary"
    ]
   },
   {
    "col_no": "4",
-   "name": "Counterfeiting 144@ 11 49 we",
+   "name": "Riots",
    "header": [
-    "Counterfeiting 144@ 11 49 we"
+    "Riots"
    ]
   },
   {
    "col_no": "5",
-   "name": "Miscel- Criminal laneous breach of trust 12 0015 «160 * 107 5",
+   "name": "Criminal breach of trust",
    "header": [
-    "Miscel- Criminal laneous breach of trust 12 0015 «160 * 107 5"
+    "Criminal breach of trust"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cheating",
+   "header": [
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Counter-feiting",
+   "header": [
+    "Counter-feiting"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Miscellaneous",
+   "header": [
+    "Miscellaneous"
    ]
   }
  ],
- "notes": [
-  "*This includes the figure of thef ts ordinary as figures were not ayajlable separately."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -63,7 +81,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

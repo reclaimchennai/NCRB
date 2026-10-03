@@ -8,14 +8,14 @@
  "serial": "7",
  "title": "Incidence of Cognizable Crimes (IPC) under Different Crime Heads in States, UTs & Cities During 1990 and Percentage Variation over 1989",
  "listing_title": "Incidence of Cognizable Crimes (IPC) under Different Crime Heads in States, UTs & Cities During 1990 and Percentage Variation over 1989",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/7table-7-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/7table-7-1990-.pdf",
  "source_sha256": "5375b8edf5f506aeb0e46ae6cf047f0e6ec9335610e0df3a92256c145e7eeec7",
- "table_no": "7",
- "pdf_title": ">)",
- "row_label": "COGNTZARLE STATES, SL. STATE/UT/CITY NO. ql)",
+ "table_no": "",
+ "pdf_title": "KIDNAPPING & ABDUCTIONN",
+ "row_label": "SL. NO. / SL. NO.",
  "pages": [
   1,
   2,
@@ -25,103 +25,95 @@
   6,
   7,
   8,
-  9
+  8
  ],
- "n_rows": 118,
- "n_cols": 54,
- "n_cells": 2508,
+ "n_rows": 97,
+ "n_cols": 50,
+ "n_cells": 2354,
  "columns": [
   {
    "col_no": "3",
-   "name": "COGNTZARLE | UTs 1989",
+   "name": "SL. NO.",
    "header": [
-    "COGNTZARLE",
-    "UTs 1989"
+    "SL. NO."
    ]
   },
   {
    "col_no": "4",
-   "name": "OF CRIMES(IPC) & MURDER 1990)",
+   "name": "STATE/UT/CITY",
    "header": [
-    "OF CRIMES(IPC) & MURDER 1990)"
+    "STATE/UT/CITY"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER CITIES VARIATION",
+   "name": "MURDER | 1989",
    "header": [
-    "UNDER CITIES VARIATION"
+    "MURDER",
+    "1989"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIME DURING VARIATION OVER ATTEMPT 861989",
+   "name": "MURDER | 1990",
    "header": [
-    "CRIME DURING VARIATION OVER ATTEMPT 861989"
+    "MURDER",
+    "1990"
    ]
   },
   {
    "col_no": "7",
-   "name": "HEADS 1990 1989 TO MURDER 1990)",
+   "name": "MURDER | PERCENTAGE VARIATION",
    "header": [
-    "HEADS 1990 1989 TO MURDER 1990)"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "IN AND COMMIT 0 VARIATION",
-   "header": [
-    "IN AND COMMIT 0 VARIATION"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "AMOUNTING | 1989 (9)",
-   "header": [
-    "AMOUNTING",
-    "1989"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "AMOUNTING | NOT TO 1990",
-   "header": [
-    "AMOUNTING",
-    "NOT TO 1990"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "AMOUNTING | MURDER FENCENIAGE VARIATION qll)",
-   "header": [
-    "AMOUNTING",
-    "MURDER FENCENIAGE VARIATION qll)"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "AMOUNTING | 1989 (12)",
-   "header": [
-    "AMOUNTING",
-    "1989"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "RAPE 1990",
-   "header": [
-    "RAPE 1990"
-   ]
-  },
-  {
-   "col_no": "14",
-   "name": "PERCENTAGE VARIATION",
-   "header": [
+    "MURDER",
     "PERCENTAGE VARIATION"
    ]
   },
   {
+   "col_no": "8",
+   "name": "ATTEMPT TO COMMIT MURDER | 1989",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER",
+    "1989"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "col_10",
+   "header": []
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  },
+  {
+   "col_no": "12",
+   "name": "col_12",
+   "header": []
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
+  },
+  {
+   "col_no": "14",
+   "name": "col_14",
+   "header": []
+  },
+  {
    "col_no": "15",
+   "name": "col_15",
+   "header": []
+  },
+  {
+   "col_no": "16",
    "name": "TOTAL | 1989",
    "header": [
     "TOTAL",
@@ -129,67 +121,68 @@
    ]
   },
   {
-   "col_no": "16",
-   "name": "TOTAL | 1990)",
-   "header": [
-    "TOTAL",
-    "1990)"
-   ]
-  },
-  {
    "col_no": "17",
-   "name": "TOTAL | VARIATION",
+   "name": "TOTAL | 1990",
    "header": [
     "TOTAL",
-    "VARIATION"
+    "1990"
    ]
   },
   {
    "col_no": "18",
-   "name": "KIDNAPPING | OF §1989",
+   "name": "TOTAL | PERCENTAGE VARIATION",
    "header": [
-    "KIDNAPPING",
-    "OF §1989"
+    "TOTAL",
+    "PERCENTAGE VARIATION"
    ]
   },
   {
    "col_no": "19",
-   "name": "KIDNAPPING | WOMEN 1990",
+   "name": "OF WOMEN & GIRLS | 1989",
    "header": [
-    "KIDNAPPING",
-    "WOMEN 1990"
+    "OF WOMEN & GIRLS",
+    "1989"
    ]
   },
   {
    "col_no": "20",
-   "name": "& & VARIATION",
+   "name": "OF WOMEN & GIRLS | 1990",
    "header": [
-    "& & VARIATION"
+    "OF WOMEN & GIRLS",
+    "1990"
    ]
   },
   {
    "col_no": "21",
-   "name": "ASBDUCTIONN GIRLS §61989 (21)~",
+   "name": "OF WOMEN & GIRLS | PERCENTAGE VARIATION",
    "header": [
-    "ASBDUCTIONN GIRLS §61989 (21)~"
+    "OF WOMEN & GIRLS",
+    "PERCENTAGE VARIATION"
    ]
   },
   {
    "col_no": "22",
-   "name": "OF 1990",
+   "name": "OF OTHERS | 1989",
    "header": [
-    "OF 1990"
+    "OF OTHERS",
+    "1989"
    ]
   },
   {
    "col_no": "23",
-   "name": "OTHERS VARIATION",
+   "name": "OF OTHERS | 1990",
    "header": [
-    "OTHERS VARIATION"
+    "OF OTHERS",
+    "1990"
    ]
   },
   {
    "col_no": "24",
+   "name": "col_24",
+   "header": []
+  },
+  {
+   "col_no": "25",
    "name": "DACOITY | 1989",
    "header": [
     "DACOITY",
@@ -197,7 +190,7 @@
    ]
   },
   {
-   "col_no": "25",
+   "col_no": "26",
    "name": "DACOITY | 1990",
    "header": [
     "DACOITY",
@@ -205,7 +198,7 @@
    ]
   },
   {
-   "col_no": "26",
+   "col_no": "27",
    "name": "DACOITY | PERCENTAGE VARIATION",
    "header": [
     "DACOITY",
@@ -213,30 +206,23 @@
    ]
   },
   {
-   "col_no": "27",
-   "name": "PREPARATION | DACOITY 1989",
-   "header": [
-    "PREPARATION",
-    "DACOITY 1989"
-   ]
-  },
-  {
    "col_no": "28",
-   "name": "PREPARATION | FOR 1990",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOITY | 1989",
    "header": [
-    "PREPARATION",
-    "FOR 1990"
+    "PREPARATION AND ASSEMBLY FOR DACOITY",
+    "1989"
    ]
   },
   {
    "col_no": "29",
-   "name": "AND VARTATICN",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOITY | 1990",
    "header": [
-    "AND VARTATICN"
+    "PREPARATION AND ASSEMBLY FOR DACOITY",
+    "1990"
    ]
   },
   {
-   "col_no": "30",
+   "col_no": "31",
    "name": "ROBBERY | 1989",
    "header": [
     "ROBBERY",
@@ -244,7 +230,7 @@
    ]
   },
   {
-   "col_no": "31",
+   "col_no": "32",
    "name": "ROBBERY | 1990",
    "header": [
     "ROBBERY",
@@ -252,32 +238,27 @@
    ]
   },
   {
-   "col_no": "32",
-   "name": "ROBBERY | - VARIATION",
+   "col_no": "33",
+   "name": "ROBBERY | PERCENTAGE VARIATION",
    "header": [
     "ROBBERY",
-    "- VARIATION"
-   ]
-  },
-  {
-   "col_no": "33",
-   "name": "1989",
-   "header": [
-    "1989"
+    "PERCENTAGE VARIATION"
    ]
   },
   {
    "col_no": "34",
-   "name": "1990",
+   "name": "BURGLARY | 1989",
    "header": [
-    "1990"
+    "BURGLARY",
+    "1989"
    ]
   },
   {
    "col_no": "35",
-   "name": "VARIATION",
+   "name": "BURGLARY | 1990",
    "header": [
-    "VARIATION"
+    "BURGLARY",
+    "1990"
    ]
   },
   {
@@ -298,10 +279,10 @@
   },
   {
    "col_no": "38",
-   "name": "THEFT | VARIATION",
+   "name": "THEFT | PERCENTAGE VARIATION",
    "header": [
     "THEFT",
-    "VARIATION"
+    "PERCENTAGE VARIATION"
    ]
   },
   {
@@ -322,35 +303,43 @@
   },
   {
    "col_no": "41",
-   "name": "RIOTS | VARIATION",
+   "name": "RIOTS | PERCENTAGE VARIATION",
    "header": [
     "RIOTS",
-    "VARIATION"
+    "PERCENTAGE VARIATION"
    ]
   },
   {
    "col_no": "42",
-   "name": "STATE/UT/CITY 1989",
-   "header": [
-    "STATE/UT/CITY 1989"
-   ]
+   "name": "col_42",
+   "header": []
   },
   {
    "col_no": "43",
-   "name": "CRIMINAL OF 1999",
+   "name": "CRIMINAL BREACH | 1989",
    "header": [
-    "CRIMINAL OF 1999"
+    "CRIMINAL BREACH",
+    "1989"
    ]
   },
   {
    "col_no": "44",
-   "name": "BRTACH TRUS” PERCENTAGE VARIATION",
+   "name": "CRIMINAL BREACH | 1990",
    "header": [
-    "BRTACH TRUS” PERCENTAGE VARIATION"
+    "CRIMINAL BREACH",
+    "1990"
    ]
   },
   {
    "col_no": "45",
+   "name": "CRIMINAL BREACH | PERCENTAGE VARIATION",
+   "header": [
+    "CRIMINAL BREACH",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "46",
    "name": "CHEATING | 1989",
    "header": [
     "CHEATING",
@@ -358,7 +347,7 @@
    ]
   },
   {
-   "col_no": "46",
+   "col_no": "47",
    "name": "CHEATING | 1990",
    "header": [
     "CHEATING",
@@ -366,100 +355,54 @@
    ]
   },
   {
-   "col_no": "47",
-   "name": "CHEATING | PERCENTAGE VARIATION",
-   "header": [
-    "CHEATING",
-    "PERCENTAGE VARIATION"
-   ]
+   "col_no": "48",
+   "name": "col_48",
+   "header": []
   },
   {
-   "col_no": "10001",
-   "name": "B14 1G | 1989 (2)",
-   "header": [
-    "B14 1G",
-    "1989 (2)"
-   ]
+   "col_no": "49",
+   "name": "col_49",
+   "header": []
   },
   {
-   "col_no": "10002",
-   "name": "B14 1G | 1990 (48)",
-   "header": [
-    "B14 1G",
-    "1990 (48)"
-   ]
+   "col_no": "50",
+   "name": "col_50",
+   "header": []
   },
   {
-   "col_no": "10003",
-   "name": "B14 1G | PERCENTAGE VARIATION (49)",
-   "header": [
-    "B14 1G",
-    "PERCENTAGE VARIATION (49)"
-   ]
+   "col_no": "51",
+   "name": "col_51",
+   "header": []
   },
   {
-   "col_no": "10004",
-   "name": "OTHER 1989 (50)",
-   "header": [
-    "OTHER 1989 (50)"
-   ]
+   "col_no": "52",
+   "name": "col_52",
+   "header": []
   },
   {
-   "col_no": "10005",
-   "name": "IPC 1990 (51)",
-   "header": [
-    "IPC 1990 (51)"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "CRIMES PERCENTAGE VARIATION (53) ($2)",
-   "header": [
-    "CRIMES PERCENTAGE VARIATION (53) ($2)"
-   ]
-  },
-  {
-   "col_no": "54",
-   "name": "TOTAL UNDER 1989",
-   "header": [
-    "TOTAL UNDER 1989"
-   ]
-  },
-  {
-   "col_no": "55",
-   "name": "COGNIZABLE IPC 1990",
-   "header": [
-    "COGNIZABLE IPC 1990"
-   ]
-  },
-  {
-   "col_no": "56",
-   "name": "CRIMES VARIATION",
-   "header": [
-    "CRIMES VARIATION"
-   ]
+   "col_no": "53",
+   "name": "col_53",
+   "header": []
   }
  ],
- "notes": [
-  "@ indicates infinite variation."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 88,
-  "cells_passed": 34,
+  "cells_checked": 73,
+  "cells_passed": 50,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 30805, sum 100979",
-   "col 7 'TOTAL (UTs)': printed 431, sum 428",
-   "col 9 'TOTAL (STATES)': printed 4039, sum 3286",
-   "col 9 'TOTAL (UTs)': printed 61, sum 4",
-   "col 10 'TOTAL (STATES)': printed 4205, sum 3501",
-   "col 10 'TOTAL (UTs)': printed 76, sum 5",
-   "col 12 'TOTAL (UTs)': printed 172, sum 15",
-   "col 12 'TOTAL (ALL-INDIA)': printed 9752, sum 9751"
+   "col 3 'TOTAL (STATES)': printed 30805, sum 38647",
+   "col 4 'TOTAL (STATES)': printed 34573, sum 34593",
+   "col 15 'TOTAL (STATES)': printed 16383, sum 14465",
+   "col 16 'TOTAL (STATES)': printed 17530, sum 15344",
+   "col 19 'TOTAL (STATES)': printed 13568, sum 12311",
+   "col 22 'TOTAL (STATES)': printed 3962, sum 3033",
+   "col 24 'TOTAL (STATES)': printed 9878, sum 6567",
+   "col 25 'TOTAL (STATES)': printed 11061, sum 7715"
   ],
-  "other_totals_checked": 4,
+  "other_totals_checked": 3,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 9,
  "warnings": []
 }

@@ -8,76 +8,102 @@
  "serial": "9",
  "title": "Recidivism",
  "listing_title": "Recidivism",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-9-1986.pdf",
  "source_file": "raw/cii/1986/table_chapter/chapter-9-1986.pdf",
  "source_sha256": "12eb2a0971f68329590dd40639bcf06a26cd5b347e4c4bccc53f4bd953e39240",
- "table_no": "",
- "pdf_title": "CHAPTER 9",
- "row_label": "RECIDIVISM in respect of 21,80,573 The Sl. No / RECIDIVISM 9.1 aiicsicu for the offence of Statement Of bests",
+ "table_no": "53",
+ "pdf_title": "CHAPTER 9 RECIDIVISM 9.1 The information on ‘Recidivism’ was available in respect of 21,80,573 offenders during the year 1986 out of which 19,29,431 i.e., 88.5% were new offenders. The percentage of persons who were convicted once, twice and thrice or more was 9.0%, 1.6% and 0.9% respectively. It was found that 17.7% of the persons arrested for the offence of ‘Burglary’ were convicted in the past and this accounted for the highest percentage of ‘Recidivism’ closely followed by ‘Culpable Homicide not amounting to Murder’ (17.0%), ‘Theft’ (16.0%) and ‘Dacoity’ (14.9%). The relevant statistics in respect of number of offenders and their percentage distribution of ‘Recidivism’ are presented in Tables 53 and 54.",
+ "row_label": "Sl. No / Crime heads",
  "pages": [
+  1,
   1
  ],
- "n_rows": 12,
- "n_cols": 5,
- "n_cells": 60,
+ "n_rows": 13,
+ "n_cols": 9,
+ "n_cells": 117,
  "columns": [
   {
    "col_no": "3",
-   "name": "RECIDIVISM | The during the year 1986 out of which 19,29,431 i.e., 88.5% were few of persons who were convicied once, Of twice and thrice or more was 9.0%, 1.6% and 0.9% It was found that 17.7% of the were couvicicu TABLE 53 Under UL sie arrested",
+   "name": "Number of new offenders arrested",
    "header": [
-    "RECIDIVISM",
-    "The during the year 1986 out of which 19,29,431 i.e., 88.5% were few of persons who were convicied once, Of twice and thrice or more was 9.0%, 1.6% and 0.9% It was found that 17.7% of the were couvicicu TABLE 53 Under UL sie arrested"
+    "Number of new offenders arrested"
    ]
   },
   {
    "col_no": "4",
-   "name": "RECIDIVISM | on NOt Of Numver of Once",
+   "name": "Number of offenders who have been arrested in the past | Once",
    "header": [
-    "RECIDIVISM",
-    "on NOt Of Numver of Once"
+    "Number of offenders who have been arrested in the past",
+    "Once"
    ]
   },
   {
    "col_no": "5",
-   "name": "RECIDIVISM | was available Heads Of IPC Crime During 1986 have vccn Kw Twice",
+   "name": "Number of offenders who have been arrested in the past | Twice",
    "header": [
-    "RECIDIVISM",
-    "was available Heads Of IPC Crime During 1986 have vccn Kw Twice"
+    "Number of offenders who have been arrested in the past",
+    "Twice"
    ]
   },
   {
    "col_no": "6",
-   "name": "RECIDIVISM | in the nast and this accoumed for the highest perceniase of ‘Reauivism” closely followed by ‘Culnable Homicice to Murder’ (17.0%), ‘Theft’ (16.0%) and ‘Dacoity’ (14.9%). The icicvanit siaiisitcs in respect | and thei percentage in the past ‘Three time or more",
+   "name": "Number of offenders who have been arrested in the past | Three time or more",
    "header": [
-    "RECIDIVISM",
-    "in the nast and this accoumed for the highest perceniase of ‘Reauivism” closely followed by ‘Culnable Homicice to Murder’ (17.0%), ‘Theft’ (16.0%) and ‘Dacoity’ (14.9%). The icicvanit siaiisitcs in respect",
-    "and thei percentage in the past ‘Three time or more"
+    "Number of offenders who have been arrested in the past",
+    "Three time or more"
    ]
   },
   {
    "col_no": "7",
-   "name": "RECIDIVISM | in the nast and this accoumed for the highest perceniase of ‘Reauivism” closely followed by ‘Culnable Homicice to Murder’ (17.0%), ‘Theft’ (16.0%) and ‘Dacoity’ (14.9%). The icicvanit siaiisitcs in respect | of ‘Recidivism’ are presented in Tables 53 and 54. Total",
+   "name": "Number of offenders who have been arrested in the past | Total",
    "header": [
-    "RECIDIVISM",
-    "in the nast and this accoumed for the highest perceniase of ‘Reauivism” closely followed by ‘Culnable Homicice to Murder’ (17.0%), ‘Theft’ (16.0%) and ‘Dacoity’ (14.9%). The icicvanit siaiisitcs in respect",
-    "of ‘Recidivism’ are presented in Tables 53 and 54. Total"
+    "Number of offenders who have been arrested in the past",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Percentage of new offenders arrested to total arrested",
+   "header": [
+    "Percentage of new offenders arrested to total arrested"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Percentage of offenders who have been arrested in the past to total arrested | Once",
+   "header": [
+    "Percentage of offenders who have been arrested in the past to total arrested",
+    "Once"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Percentage of offenders who have been arrested in the past to total arrested | Twice",
+   "header": [
+    "Percentage of offenders who have been arrested in the past to total arrested",
+    "Twice"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Percentage of offenders who have been arrested in the past to total arrested | Three times or more",
+   "header": [
+    "Percentage of offenders who have been arrested in the past to total arrested",
+    "Three times or more"
    ]
   }
  ],
- "notes": [
-  "NOTE The above all-India fisures under different crime heads exclude the figures of Delhi U.T. on account of the non-availability of",
-  "data on from Union Territory of Delhi."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 5,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

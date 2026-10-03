@@ -8,20 +8,21 @@
  "serial": "20",
  "title": "Table 20: Number of Convicts by type of IPC Offences at the end of 1998",
  "listing_title": "Table 20: Number of Convicts by type of IPC Offences at the end of 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-20_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-20_1998.pdf",
  "source_sha256": "ab4c48f96d1396563a0b3d8faad40c82c85be6bfd087dadba80a39ab0e769b50",
  "table_no": "20",
- "pdf_title": "NUMBER OF CONVICTS BY TYPE OF IPC OFFENCES AT THE END OF1998",
- "row_label": "No. / STATE/UT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-20",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 2,
- "n_cols": 8,
- "n_cells": 16,
+ "n_rows": 37,
+ "n_cols": 16,
+ "n_cells": 560,
  "columns": [
   {
    "col_no": "3",
@@ -60,38 +61,99 @@
   },
   {
    "col_no": "8",
-   "name": "ee | DACOITY",
+   "name": "DACOITY",
    "header": [
-    "ee",
     "DACOITY"
    ]
   },
   {
    "col_no": "9",
-   "name": "ee | ASSEMBLY FOB DACOITY",
+   "name": "PREP. AND ASSEMBLY FOR DACOITY",
    "header": [
-    "ee",
-    "ASSEMBLY FOB DACOITY"
+    "PREP. AND ASSEMBLY FOR DACOITY"
    ]
   },
   {
    "col_no": "10",
-   "name": "ee | ROBBERY",
+   "name": "ROBBERY",
    "header": [
-    "ee",
     "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "THEFTS",
+   "header": [
+    "THEFTS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "RIOT",
+   "header": [
+    "RIOT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "CRIMINAL BREACH OF RUST",
+   "header": [
+    "CRIMINAL BREACH OF RUST"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "CHEATING",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "COUNTER-FEITING",
+   "header": [
+    "COUNTER-FEITING"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER IPC CRIME",
+   "header": [
+    "OTHER IPC CRIME"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL CONVICTS (IPC)",
+   "header": [
+    "TOTAL CONVICTS (IPC)"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 44,
+  "cells_passed": 37,
+  "failures": [
+   "col 11 'TOTAL (STATES)': printed 463, sum 400",
+   "col 12 'TOTAL (STATES)': printed 3525, sum 2933",
+   "col 13 'TOTAL (STATES)': printed 312, sum 282",
+   "col 14 'TOTAL (STATES)': printed 80, sum 60",
+   "col 15 'TOTAL (STATES)': printed 709, sum 628",
+   "col 16 'TOTAL (STATES)': printed 113, sum 112",
+   "col 17 'TOTAL (STATES)': printed 3673, sum 3436"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

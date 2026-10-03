@@ -6,189 +6,114 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "12",
- "title": "TABLH-A42",
+ "title": "111 TABLE-12 16—526 NCRB/94.",
  "listing_title": "Incidence & Rate of Cognizable Crimes (LSL) under Different Crime Heads in States, UTs & Cities During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-12-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-12-1992-survey.pdf",
  "source_sha256": "829d487a2550808df9b7ea88372484d8f83482662b4fe8889fdbb4c4c4668bff",
  "table_no": "12",
- "pdf_title": "TABLH-A42",
- "row_label": "sk. STATE/UT wo.",
+ "pdf_title": "111 TABLE-12 16—526 NCRB/94.",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
-  5,
-  6,
   7,
   8
  ],
- "n_rows": 86,
- "n_cols": 18,
- "n_cells": 1006,
+ "n_rows": 58,
+ "n_cols": 10,
+ "n_cells": 580,
  "columns": [
   {
-   "col_no": "19",
-   "name": "PROTECTION | OF x",
+   "col_no": "27",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | I",
    "header": [
-    "PROTECTION",
-    "OF x"
-   ]
-  },
-  {
-   "col_no": "20",
-   "name": "PROTECTION | FOREIGNERS act",
-   "header": [
-    "PROTECTION",
-    "FOREIGNERS act"
-   ]
-  },
-  {
-   "col_no": "21",
-   "name": "PROTECTION | OF RIGHTS I",
-   "header": [
-    "PROTECTION",
-    "OF RIGHTS I"
-   ]
-  },
-  {
-   "col_no": "22",
-   "name": "PROTECTION | CIVIL ACT R",
-   "header": [
-    "PROTECTION",
-    "CIVIL ACT R"
-   ]
-  },
-  {
-   "col_no": "23",
-   "name": "PROTECTION | INDIAN PASSPORT act I",
-   "header": [
-    "PROTECTION",
-    "INDIAN PASSPORT act I"
-   ]
-  },
-  {
-   "col_no": "24",
-   "name": "PROTECTION | R",
-   "header": [
-    "PROTECTION",
-    "R"
-   ]
-  },
-  {
-   "col_no": "25",
-   "name": "COMMODITIES ACT | I",
-   "header": [
-    "COMMODITIES ACT",
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
     "I"
    ]
   },
   {
-   "col_no": "26",
-   "name": "COMMODITIES ACT | R",
+   "col_no": "28",
+   "name": "TERRORIST & DISRUPTIVE ACTIVITIES ACT | R",
    "header": [
-    "COMMODITIES ACT",
+    "TERRORIST & DISRUPTIVE ACTIVITIES ACT",
     "R"
    ]
   },
   {
-   "col_no": "27",
-   "name": "TERRORIST | & AcTiviriss I",
-   "header": [
-    "TERRORIST",
-    "& AcTiviriss I"
-   ]
-  },
-  {
-   "col_no": "28",
-   "name": "TERRORIST | ACT R",
-   "header": [
-    "TERRORIST",
-    "ACT R"
-   ]
-  },
-  {
    "col_no": "29",
-   "name": "& | TREASUKE I",
+   "name": "ANTIQUITY & ART TREASURE ACT | I",
    "header": [
-    "&",
-    "TREASUKE I"
+    "ANTIQUITY & ART TREASURE ACT",
+    "I"
    ]
   },
   {
    "col_no": "30",
-   "name": "& | ACT R",
+   "name": "ANTIQUITY & ART TREASURE ACT | R",
    "header": [
-    "&",
-    "ACT R"
+    "ANTIQUITY & ART TREASURE ACT",
+    "R"
    ]
   },
   {
    "col_no": "31",
-   "name": "ART ACT I",
+   "name": "DOWRY PROHIBITION ACT | I",
    "header": [
-    "ART ACT I"
+    "DOWRY PROHIBITION ACT",
+    "I"
    ]
   },
   {
    "col_no": "32",
-   "name": "DOWRY R",
+   "name": "DOWRY PROHIBITION ACT | R",
    "header": [
-    "DOWRY R"
+    "DOWRY PROHIBITION ACT",
+    "R"
    ]
   },
   {
    "col_no": "33",
-   "name": "OTHER | LSL I",
+   "name": "OTHER LSL CRIMES | I",
    "header": [
-    "OTHER",
-    "LSL I"
+    "OTHER LSL CRIMES",
+    "I"
    ]
   },
   {
    "col_no": "34",
-   "name": "OTHER | CRIMES R",
+   "name": "OTHER LSL CRIMES | R",
    "header": [
-    "OTHER",
-    "CRIMES R"
+    "OTHER LSL CRIMES",
+    "R"
    ]
   },
   {
    "col_no": "35",
-   "name": "TOTAL CRIMES I",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER LSL | I",
    "header": [
-    "TOTAL CRIMES I"
+    "TOTAL COGNIZABLE CRIMES UNDER LSL",
+    "I"
    ]
   },
   {
    "col_no": "36",
-   "name": "COGNTZARLE UNDER LSL R",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER LSL | R",
    "header": [
-    "COGNTZARLE UNDER LSL R"
+    "TOTAL COGNIZABLE CRIMES UNDER LSL",
+    "R"
    ]
   }
  ],
- "notes": [
-  "16—526 NCRB/94.",
-  "Note: 1.Rate less than 0.05 is also shown as 0.0.",
-  "2.NR stands for data not received."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 6,
-  "failures": [
-   "col 23 'TOTAL (STATES)': printed 1169, sum 1171",
-   "col 27 'TOTAL (STATES)': printed 4052, sum 764",
-   "col 27 'TOTAL (UTs)': printed 41, sum 3420",
-   "col 31 'TOTAL (STATES)': printed 2094, sum 737",
-   "col 31 'TOTAL (UTs)': printed 8, sum 1383",
-   "col 33 'TOTAL (STATES)': printed 2.46679e+06, sum 1.25613e+06",
-   "col 35 'TOTAL (STATES)': printed 3.49869e+06, sum 1.66232e+06",
-   "col 35 'TOTAL (UTs)': printed 59759, sum 2.62002e+06"
-  ],
-  "other_totals_checked": 3,
-  "other_totals_passed": 3
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 4,
+ "ocr_pages": 2,
  "warnings": []
 }

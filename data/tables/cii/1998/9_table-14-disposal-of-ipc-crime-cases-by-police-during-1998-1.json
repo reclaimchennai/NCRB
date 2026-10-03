@@ -8,14 +8,14 @@
  "serial": "9",
  "title": "Disposal of IPC Crime Cases by Police During 1998",
  "listing_title": "Disposal of IPC Crime Cases by Police During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-14--disposal-of-ipc-crime-cases-by-police-during-1998-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-14--disposal-of-ipc-crime-cases-by-police-during-1998-1998.pdf",
  "source_sha256": "1645724b2ad02aa677e7e1c08555b5be55aa4ee5c3b42b9c3c728394491afdec",
  "table_no": "14",
- "pdf_title": "",
- "row_label": "CRIME HEANS",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-14",
+ "row_label": "SL. NO. / CRIME HEADS",
  "pages": [
   1
  ],
@@ -25,65 +25,70 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "DISPOSA! OF 4a ac PENDING CASES",
+   "name": "TOTAL NO. FOR INVESTIGATION INCLUDING PENDING CASES",
    "header": [
-    "DISPOSA! OF 4a ac PENDING CASES"
+    "TOTAL NO. FOR INVESTIGATION INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "WAS REFUSED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
    "header": [
-    "WAS REFUSED"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "BY POLICE CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC.",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC.",
    "header": [
-    "BY POLICE CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC."
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/ MISTAKE OF FACT OR LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "1998 | INVESTIGATION WAS FINAL REPORT TRUE TTED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "1998",
-    "INVESTIGATION WAS FINAL REPORT TRUE TTED"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "1998 | NO. OF CASES IN WHICH CHARGE SHEETS WERE - SUBMITTED",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE SUBMITTED",
    "header": [
-    "1998",
-    "NO. OF CASES IN WHICH CHARGE SHEETS WERE - SUBMITTED"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERE SUBMITTED"
    ]
   },
   {
    "col_no": "8",
-   "name": "TOTAL {(5)+(6)",
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL [(5) + (6) + (7)]",
    "header": [
-    "TOTAL {(5)+(6)"
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL [(5) + (6) + (7)]"
    ]
   },
   {
    "col_no": "9",
-   "name": "canoe",
+   "name": "NO. OF CASES PENDING INVESTIGATION",
    "header": [
-    "canoe"
+    "NO. OF CASES PENDING INVESTIGATION"
    ]
   }
  ],
- "notes": [
-  "185 NCRB/2000—11A"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

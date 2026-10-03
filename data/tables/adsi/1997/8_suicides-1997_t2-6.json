@@ -6,42 +6,54 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1997",
  "serial": "8",
- "title": "States & UTs reporting higher share of Suicide due to",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) Chart-2.5",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1997.pdf",
  "source_file": "raw/adsi/1997/year_wise/suicides-1997.pdf",
  "source_sha256": "2429422c19b1e2d7b150d189cba38a71e6c44f23fbe286bac0b826e56cdf1d0f",
  "table_no": "2.6",
- "pdf_title": "States & UTs reporting higher share of Suicide due to",
- "row_label": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) Chart-2.5",
+ "row_label": "Illness",
  "pages": [
+  8,
   8
  ],
- "n_rows": 14,
- "n_cols": 3,
- "n_cells": 34,
+ "n_rows": 13,
+ "n_cols": 4,
+ "n_cells": 46,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "col_no": "4",
+   "name": "Family Problems",
+   "header": [
+    "Family Problems"
+   ]
   },
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "%share (3)",
+   "header": [
+    "%share"
+   ]
   },
   {
-   "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "col_no": "5",
+   "name": "State/UT",
+   "header": [
+    "State/UT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "%share (6)",
+   "header": [
+    "%share"
+   ]
   }
  ],
- "notes": [
-  "11g"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -49,7 +61,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

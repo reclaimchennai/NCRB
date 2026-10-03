@@ -8,178 +8,178 @@
  "serial": "6",
  "title": "Incidence of Road Accidental Deaths in type of Vehicles during 2000 (State, UT & City-wise)",
  "listing_title": "Incidence of Road Accidental Deaths in type of Vehicles during 2000 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-8_2000.pdf",
  "source_file": "raw/adsi/2000/table_content/table-8_2000.pdf",
  "source_sha256": "2310df75ef8ecaf9dc993d819dbe1f5c95c9311ad2c3bf94cc0e26c1693b1ccb",
- "table_no": "8",
- "pdf_title": "Incidence of Road £2=:2=5:=: Deaths by type of Vehicles During 1999 (State, UT & City-wise)",
- "row_label": "State/UT/City (1) States:",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 75,
+ "n_rows": 60,
  "n_cols": 32,
- "n_cells": 1813,
+ "n_cells": 1888,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Govt. (2)",
-   "header": [
-    "Govt. (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Truck/Lorry | Pvt. ©",
+   "name": "Truck/Lorry | Govt.",
    "header": [
     "Truck/Lorry",
-    "Pvt. ©"
+    "Govt."
    ]
   },
   {
    "col_no": "4",
-   "name": "Truck/Lorry",
+   "name": "Truck/Lorry | Pvt.",
    "header": [
-    "Truck/Lorry"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "Eus | %share &",
-   "header": [
-    "Eus",
-    "%share &"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Eus | Govt. 7",
-   "header": [
-    "Eus",
-    "Govt. 7"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Eus | Pvt.",
-   "header": [
-    "Eus",
+    "Truck/Lorry",
     "Pvt."
    ]
   },
   {
-   "col_no": "8",
-   "name": "Eus | Total 9)",
+   "col_no": "5",
+   "name": "Truck/Lorry | Total",
    "header": [
-    "Eus",
-    "Total 9)"
+    "Truck/Lorry",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Bus | %share",
+   "header": [
+    "Bus",
+    "%share"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Bus | Govt.",
+   "header": [
+    "Bus",
+    "Govt."
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Bus | Pvt.",
+   "header": [
+    "Bus",
+    "Pvt."
    ]
   },
   {
    "col_no": "9",
-   "name": "Eus | %share «Wo",
+   "name": "Tampo/Van | Total",
    "header": [
-    "Eus",
-    "%share «Wo"
+    "Tampo/Van",
+    "Total"
    ]
   },
   {
    "col_no": "10",
-   "name": "Eus | Govt. ay",
+   "name": "Tampo/Van | %share",
    "header": [
-    "Eus",
-    "Govt. ay"
+    "Tampo/Van",
+    "%share"
    ]
   },
   {
    "col_no": "11",
-   "name": "Tampo/Van | Pvt. 2)",
+   "name": "Tampo/Van | Govt.",
    "header": [
     "Tampo/Van",
-    "Pvt. 2)"
+    "Govt."
    ]
   },
   {
    "col_no": "12",
-   "name": "Tampo/Van | Total a3)",
+   "name": "Pvt.",
    "header": [
-    "Tampo/Van",
-    "Total a3)"
+    "Pvt."
    ]
   },
   {
    "col_no": "13",
-   "name": "(14)",
+   "name": "Total (13)",
    "header": [
-    "(14)"
+    "Total"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Jeep | Govt. as",
+   "col_no": "14",
+   "name": "%share (14)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Jeep | Govt.",
    "header": [
     "Jeep",
-    "Govt. as"
+    "Govt."
    ]
   },
   {
-   "col_no": "10002",
-   "name": "Jeep | pvt. ae",
+   "col_no": "16",
+   "name": "Jeep | Pvt.",
    "header": [
     "Jeep",
-    "pvt. ae"
+    "Pvt."
    ]
   },
   {
-   "col_no": "10003",
-   "name": "Jeep | «an",
+   "col_no": "17",
+   "name": "Jeep | Total",
    "header": [
     "Jeep",
-    "«an"
+    "Total"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "Jeep | %share as",
+   "col_no": "18",
+   "name": "Jeep | %share",
    "header": [
     "Jeep",
-    "%share as"
+    "%share"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "Car | Govt. ag)",
+   "col_no": "19",
+   "name": "Car | Govt.",
    "header": [
     "Car",
-    "Govt. ag)"
+    "Govt."
    ]
   },
   {
-   "col_no": "10006",
-   "name": "Car | pvt. (20",
+   "col_no": "20",
+   "name": "Car | Pvt.",
    "header": [
     "Car",
-    "pvt. (20"
+    "Pvt."
    ]
   },
   {
-   "col_no": "10007",
-   "name": "Car | Total (2",
+   "col_no": "21",
+   "name": "Car | Total",
    "header": [
     "Car",
-    "Total (2"
+    "Total"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "Car | %shere (2a",
+   "col_no": "22",
+   "name": "Car | %share",
    "header": [
     "Car",
-    "%shere (2a"
+    "%share"
    ]
   },
   {
@@ -219,8 +219,10 @@
   },
   {
    "col_no": "28",
-   "name": "col_28",
-   "header": []
+   "name": "%share (28)",
+   "header": [
+    "%share"
+   ]
   },
   {
    "col_no": "29",
@@ -231,9 +233,9 @@
   },
   {
    "col_no": "30",
-   "name": "S%share",
+   "name": "%share (30)",
    "header": [
-    "S%share"
+    "%share"
    ]
   },
   {
@@ -252,7 +254,7 @@
   },
   {
    "col_no": "33",
-   "name": "Total",
+   "name": "Total (33)",
    "header": [
     "Total"
    ]
@@ -267,22 +269,13 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 53,
-  "cells_passed": 33,
-  "failures": [
-   "col 10 'TOTAL (All-india)': printed 559, sum 659",
-   "col 10001 'TOTAL (States)': printed 678, sum 637",
-   "col 10001 'TOTAL (Cities)': printed 27, sum 26",
-   "col 10002 'TOTAL (States)': printed 7434, sum 7007",
-   "col 10002 'TOTAL (UTs)': printed 27, sum 24",
-   "col 10002 'TOTAL (Cities)': printed 285, sum 258",
-   "col 10003 'TOTAL (States)': printed 8112, sum 7654",
-   "col 10003 'TOTAL (UTs)': printed 28, sum 25"
-  ],
+  "cells_checked": 83,
+  "cells_passed": 83,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 3,
  "warnings": []
 }

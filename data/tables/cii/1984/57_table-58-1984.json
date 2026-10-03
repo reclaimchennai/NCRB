@@ -8,14 +8,14 @@
  "serial": "57",
  "title": "Statement Showing Strength of Civil Police including District Armed Police as on 31.12.1984",
  "listing_title": "Statement Showing Strength of Civil Police including District Armed Police as on 31.12.1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-58-1984.pdf",
  "source_sha256": "f9ff50098716754823be31fec35751ba821ef9a8556e4034f411dbec2181308d",
  "table_no": "58",
- "pdf_title": "Statement Showing Strensth Of Civil Police Including District Armed Police As On 31-12-1984",
- "row_label": "$l STATES/U. Ts/ NO a)",
+ "pdf_title": "130 TABLE - 58 Statement Showing Strength Of Civil Police Including District Armed Police As On 31-12-1984",
+ "row_label": "S1 NO",
  "pages": [
   1
  ],
@@ -25,47 +25,47 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER CITIES IG/DIG SP",
+   "name": "NUMBER OF DG/ IG/DIG SP",
    "header": [
-    "NUMBER CITIES IG/DIG SP"
+    "NUMBER OF DG/ IG/DIG SP"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER OF OF &",
+   "name": "NUMBER OF ASP & DSP",
    "header": [
-    "NUMBER OF OF &"
+    "NUMBER OF ASP & DSP"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER DG/ ASP DSP PECTOR @s.17 (>",
+   "name": "NUMBER OF INS- PECTOR & S.I.",
    "header": [
-    "NUMBER DG/ ASP DSP PECTOR @s.17 (>"
+    "NUMBER OF INS- PECTOR & S.I."
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER urriven OF OF BELOW s.1.",
+   "name": "NUMBER OF OFFICERS BELOW S.I.",
    "header": [
-    "NUMBER urriven OF OF BELOW s.1."
+    "NUMBER OF OFFICERS BELOW S.I."
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL INS-",
+   "name": "TOTAL",
    "header": [
-    "TOTAL INS-"
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 4,
+  "cells_checked": 15,
+  "cells_passed": 15,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

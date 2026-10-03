@@ -8,20 +8,20 @@
  "serial": "9",
  "title": "Publication over the years",
  "listing_title": "Publication over the years",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/publication-year_8_1998.pdf",
  "source_file": "raw/adsi/1998/year_wise/publication-year_8_1998.pdf",
  "source_sha256": "4a98d148a94a5d07a4d83646ba1e4ebd41128ebfdbc76fcd6ca659c3d2e77d28",
  "table_no": "",
- "pdf_title": "Acciaental Deaths & Suicides in India",
- "row_label": "SI.No.",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) Accidental Deaths & Suicides in India",
+ "row_label": "Sl.No.",
  "pages": [
   1
  ],
- "n_rows": 32,
+ "n_rows": 31,
  "n_cols": 2,
- "n_cells": 63,
+ "n_cells": 62,
  "columns": [
   {
    "col_no": "2",
@@ -32,15 +32,13 @@
   },
   {
    "col_no": "3",
-   "name": "in",
+   "name": "Published in",
    "header": [
-    "in"
+    "Published in"
    ]
   }
  ],
- "notes": [
-  "(xii)"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

@@ -1,0 +1,59 @@
+{
+ "table_id": "adsi/1991/3_accidental-deaths-1991_t4_2",
+ "publication": "adsi",
+ "year": 1991,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1991",
+ "serial": "3",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 12 TABLE - 4",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1991.pdf",
+ "source_file": "raw/adsi/1991/year_wise/accidental-deaths-1991.pdf",
+ "source_sha256": "296689a95a729073182255131f384f4c87d19a27196946716c79d15f348c3a09",
+ "table_no": "4",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 12 TABLE - 4",
+ "row_label": "Incidence",
+ "pages": [
+  12,
+  12
+ ],
+ "n_rows": 48,
+ "n_cols": 3,
+ "n_cells": 142,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "Incidence",
+   "header": [
+    "Incidence"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 4,
+  "failures": [
+   "col 4 'Total (States)': printed 181784, sum 183775",
+   "col 3 'Total (States)': printed 168862, sum 168882"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

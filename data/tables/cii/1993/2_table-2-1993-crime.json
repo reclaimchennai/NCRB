@@ -8,61 +8,42 @@
  "serial": "2",
  "title": "Incidence and Rate of Cognizable Crimes (IPC) under Different Crime Heads and Percentage Changes During 1993",
  "listing_title": "Incidence and Rate of Cognizable Crimes (IPC) under Different Crime Heads and Percentage Changes During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-2-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-2-1993-crime.pdf",
  "source_sha256": "9d0f29cf09588ebd90e1eb402e1d321005a39a8d3d770fcd999c052b30047ebf",
  "table_no": "2",
- "pdf_title": "AND RATE OF COGMIT7ARIF CRIMES (IPC) UNDER DIFFERENT CRIME HEADS AND PERCENTAGE CHANGES DURING 1993",
- "row_label": "a)",
+ "pdf_title": "43 TABLE-2 Note: 1. Figures in brackets indicate rate of crime per lakh of population.",
+ "row_label": "CRIME HEAD",
  "pages": [
-  1,
+  2,
   2
  ],
- "n_rows": 48,
- "n_cols": 11,
- "n_cells": 331,
+ "n_rows": 19,
+ "n_cols": 6,
+ "n_cells": 57,
  "columns": [
   {
-   "col_no": "3",
-   "name": "col_3",
-   "header": []
-  },
-  {
-   "col_no": "4",
-   "name": "col_4",
-   "header": []
-  },
-  {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "PERCENTAGE CHANGE IN 1993 (5)",
+   "header": [
+    "PERCENTAGE CHANGE IN 1993"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "PERCENTAGE CHANGE IN 1993 (6)",
+   "header": [
+    "PERCENTAGE CHANGE IN 1993"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
-  },
-  {
-   "col_no": "8",
-   "name": "col_8",
-   "header": []
-  },
-  {
-   "col_no": "9",
-   "name": "col_9",
-   "header": []
-  },
-  {
-   "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "PERCENTAGE CHANGE IN 1993 (7)",
+   "header": [
+    "PERCENTAGE CHANGE IN 1993"
+   ]
   },
   {
    "col_no": "11",
@@ -80,11 +61,7 @@
    "header": []
   }
  ],
- "notes": [
-  "Note: 1. Figures in brackets indicate rate of crime per lakh of population.",
-  "2. * indicates that the Crime Head was introduced in 1988.",
-  "&8A--177 NCRB/95."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

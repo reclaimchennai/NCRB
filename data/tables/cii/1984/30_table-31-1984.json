@@ -8,101 +8,87 @@
  "serial": "30",
  "title": "Juvenile Delinquency",
  "listing_title": "Juvenile Delinquency",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-31-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-31-1984.pdf",
  "source_sha256": "47ebabc58e36552bbb3f1394482635ad85a214cb3be42d045aae5eb549077282",
  "table_no": "31",
- "pdf_title": "",
- "row_label": "Juvenile we sl No. / Juvenile Crime",
+ "pdf_title": "87 TABLE - 31 Juvenile Delinquency",
+ "row_label": "Number of cases reported during",
  "pages": [
+  1,
+  1,
   1,
   1
  ],
- "n_rows": 15,
+ "n_rows": 16,
  "n_cols": 9,
- "n_cells": 126,
+ "n_cells": 131,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Juvenile | em em ww ew ee me we he Head 1979",
-   "header": [
-    "Juvenile",
-    "em em ww ew ee me we he Head 1979"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "Juvenile | Delinquency ww Number 1980",
+   "name": "Number of cases reported during (4)",
    "header": [
-    "Juvenile",
-    "Delinquency ww Number 1980"
+    "Number of cases reported during"
    ]
   },
   {
    "col_no": "5",
-   "name": "Juvenile | ww of 1981",
+   "name": "Number of cases reported during (5)",
    "header": [
-    "Juvenile",
-    "ww of 1981"
+    "Number of cases reported during"
    ]
   },
   {
    "col_no": "6",
-   "name": "Juvenile | during cases - - - - - - - - - - - - - - - - - - - - - - - - - - 1982",
+   "name": "Number of cases reported during (6)",
    "header": [
-    "Juvenile",
-    "during cases - - - - - - - - - - - - - - - - - - - - - - - - - - 1982"
+    "Number of cases reported during"
    ]
   },
   {
    "col_no": "7",
-   "name": "ee - reported - 1983",
+   "name": "Number of cases reported during (7)",
    "header": [
-    "ee - reported - 1983"
+    "Number of cases reported during"
    ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "Head average 1979",
-   "header": [
-    "Head average 1979"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "Quniquennial to 1984",
-   "header": [
-    "Quniquennial to 1984"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "Cases in 1983 Quinquennial average",
-   "header": [
-    "Cases in 1983 Quinquennial average"
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "change Percentage 1984 over reported during 1983",
-   "header": [
-    "change Percentage 1984 over reported during 1983"
-   ]
+   "name": "col_11",
+   "header": []
   }
  ],
- "notes": [
-  "Cognizable crime"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 6,
-  "other_totals_passed": 5
+  "other_totals_checked": 7,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

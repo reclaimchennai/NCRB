@@ -8,54 +8,57 @@
  "serial": "29",
  "title": "Persons Arrested under Different SLL Crimes During 1995 and Percentage Variation in 1995 over 1994 (Crime-Head Wise)",
  "listing_title": "Persons Arrested under Different SLL Crimes During 1995 and Percentage Variation in 1995 over 1994 (Crime-Head Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-29-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-29-1995-crime-survey.pdf",
  "source_sha256": "c83052da783b8e1fd5cb17068d942e4d66418304f7e556f1b15aa5ca2aa825cc",
  "table_no": "29",
- "pdf_title": "PERSONS ARRESTED UNDER DIFFERENT SLL CRIMES DURING 1995 AND PERCENTAGE VARIATION IN 1995 OVER 1994",
- "row_label": "SL. NO. / CRIME HEAD / (CRINIE-HEAD 1994",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-29",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 4,
- "n_cols": 3,
- "n_cells": 12,
+ "n_rows": 23,
+ "n_cols": 4,
+ "n_cells": 92,
  "columns": [
   {
-   "col_no": "4",
-   "name": "\\VISE) 1995",
+   "col_no": "3",
+   "name": "1994",
    "header": [
-    "\\VISE) 1995"
+    "1994"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1995",
+   "header": [
+    "1995"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE SHARE OF | PERCENTAGE VARIATION IN 1995 OVER 1994",
+   "name": "PERCENTAGE VARIATION IN 1995 OVER 1994",
    "header": [
-    "PERCENTAGE SHARE OF",
     "PERCENTAGE VARIATION IN 1995 OVER 1994"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE SHARE OF | CRIME DURING 1995",
+   "name": "PERCENTAGE SHARE OF CRIME DURING 1995",
    "header": [
-    "PERCENTAGE SHARE OF",
-    "CRIME DURING 1995"
+    "PERCENTAGE SHARE OF CRIME DURING 1995"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage share less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

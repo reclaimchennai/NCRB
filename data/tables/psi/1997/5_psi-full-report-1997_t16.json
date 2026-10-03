@@ -6,59 +6,88 @@
  "topic": "",
  "section": "PSI Year Wise 1997",
  "serial": "5",
- "title": "NUMBER OF INMATES PER JAIL OFFICIAL DURING 1997",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1997 ## Undertrials",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1997.pdf",
  "source_file": "raw/psi/1997/year_wise/psi-full-report-1997.pdf",
  "source_sha256": "29e97d658de1ebdea6cf26645ae2232e1befeeaf7602b912b2482f449ab6b774",
  "table_no": "",
- "pdf_title": "NUMBER OF INMATES PER JAIL OFFICIAL DURING 1997",
- "row_label": "14 - 12 x x / en mn 10 / eee eT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1997 ## Undertrials",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
-  50,
-  51,
-  53
+  26
  ],
- "n_rows": 33,
- "n_cols": 5,
- "n_cells": 51,
+ "n_rows": 13,
+ "n_cols": 8,
+ "n_cells": 104,
  "columns": [
   {
+   "col_no": "3",
+   "name": "Total Number of Undertrials Kept In | Central Jail",
+   "header": [
+    "Total Number of Undertrials Kept In",
+    "Central Jail"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Total Number of Undertrials Kept In | District jail",
+   "header": [
+    "Total Number of Undertrials Kept In",
+    "District jail"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total Number of Undertrials Kept In | Sub Jail",
+   "header": [
+    "Total Number of Undertrials Kept In",
+    "Sub Jail"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total Number of Undertrials Kept In | Women Jail",
+   "header": [
+    "Total Number of Undertrials Kept In",
+    "Women Jail"
+   ]
+  },
+  {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "Total Number of Undertrials Kept In | Borstal school",
+   "header": [
+    "Total Number of Undertrials Kept In",
+    "Borstal school"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "Total Number of Undertrials Kept In | Special Jail",
+   "header": [
+    "Total Number of Undertrials Kept In",
+    "Special Jail"
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "Total Number of Undertrials Kept In | Others",
+   "header": [
+    "Total Number of Undertrials Kept In",
+    "Others"
+   ]
   },
   {
    "col_no": "10",
-   "name": "i a’ a i!",
+   "name": "Total",
    "header": [
-    "i a’ a i!"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "PRISON STATISTICS - 1997 Chapter - 9 PRISON BUDGET to maintenance and of various development jails, with details of sanctioned prison budget non-plan expenditure and classification of expenditures and activitiés was called The following table provides State wise information on the total sanctioned Sanctioned Budget for Prisons in States/UTs during 1997 Sanctioned Budget (Rs. In Lakhs)",
-   "header": [
-    "PRISON STATISTICS - 1997 Chapter - 9 PRISON BUDGET to maintenance and of various development jails, with details of sanctioned prison budget non-plan expenditure and classification of expenditures and activitiés was called The following table provides State wise information on the total sanctioned Sanctioned Budget for Prisons in States/UTs during 1997 Sanctioned Budget (Rs. In Lakhs)"
+    "Total"
    ]
   }
  ],
- "notes": [
-  "3 STATE/UTs",
-  "STATE/UTs"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -66,7 +95,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

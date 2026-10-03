@@ -6,59 +6,68 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "THEFTS - CATTLE",
+ "title": "78 THEFTS — CATTLE",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1679313928APPENDIX-1968.pdf",
  "source_file": "raw/cii/1968/table_chapter/1679313928APPENDIX-1968.pdf",
  "source_sha256": "493f5b67dabc91244294a7fa7c9fe8dc540a11a27fdfa554f3baea39f06e9d13",
  "table_no": "",
- "pdf_title": "THEFTS - CATTLE",
- "row_label": "- Sl. No. / - States/U.TS./Cities - / - Cases \\mvesti- (gation {rom previous year",
+ "pdf_title": "78 THEFTS — CATTLE",
+ "row_label": "S1. States/U.TS./Cities No.",
  "pages": [
   26
  ],
- "n_rows": 34,
- "n_cols": 5,
- "n_cells": 148,
+ "n_rows": 39,
+ "n_cols": 7,
+ "n_cells": 273,
  "columns": [
   {
-   "col_no": "4",
-   "name": "- | Cases in courts",
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "-",
-    "Cases in courts"
+    "Cases pending investigation from previous year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending disposal in courts",
+   "header": [
+    "Cases pending disposal in courts"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases pending pending reportdisposal ed duryear -",
+   "name": "Cases reported during the year",
    "header": [
-    "Cases pending pending reportdisposal ed duryear -"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases | Cases not gated (+) declared (+)) Mistake of tact or law (+) noncognizable",
+   "name": "Cases not investigated (+) declared false (+) Mistake of fact or law (+) non-cognizable",
    "header": [
-    "Cases",
-    "Cases not gated (+) declared (+)) Mistake of tact or law (+) noncognizable"
+    "Cases not investigated (+) declared false (+) Mistake of fact or law (+) non-cognizable"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases | investi- .investigation atthe end of the year",
+   "name": "Cases pending investigation at the end of the year",
    "header": [
-    "Cases",
-    "investi- .investigation atthe end of the year"
+    "Cases pending investigation at the end of the year"
    ]
   },
   {
    "col_no": "8",
-   "name": "Cases pending trial atthe end of the year",
+   "name": "Cases pending trial at the end of the year",
    "header": [
-    "Cases pending trial atthe end of the year"
+    "Cases pending trial at the end of the year"
    ]
   }
  ],
@@ -67,8 +76,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 24,
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -8,14 +8,14 @@
  "serial": "43",
  "title": "Percentage of Cases not Investigated, Cases Investigated, Pending Investigation to Total Cases for Investigation, Percentage of",
  "listing_title": "Percentage of Cases not Investigated, Cases Investigated, Pending Investigation to Total Cases for Investigation, Percentage of",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_16-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_16-1987.pdf",
  "source_sha256": "9fc9358f20e40c5294a6be7eec775c97010520485a1c176fb0cfb1db16176045",
  "table_no": "16",
- "pdf_title": "",
- "row_label": "Feccentege Of Cases Not To Total “si. Heads of Crime No. a)",
+ "pdf_title": "69 TABLE-16 Percentage Of Cases Not Investigated, Cases Investigated, Pending Investigation",
+ "row_label": "Sl. No. / Heads of Crime",
  "pages": [
   1
  ],
@@ -25,37 +25,34 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "Feccentege Of Cases Not | Cases For Under Local Of cases not mistake of law or non =22=:===!= to",
+   "name": "Percentage of cases not investigated or mistake of fact or law or non cognizable to total cases for investigation",
    "header": [
-    "Feccentege Of Cases Not",
-    "Cases For Under Local Of cases not mistake of law or non =22=:===!= to"
+    "Percentage of cases not investigated or mistake of fact or law or non cognizable to total cases for investigation"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases Investigation, & Fwivencvege Of cases in which investigetec or tion was fact or to total total",
+   "name": "Percentage of cases in which investigation was completed to total cases for investigation",
    "header": [
-    "Cases Investigation, & Fwivencvege Of cases in which investigetec or tion was fact or to total total"
+    "Percentage of cases in which investigation was completed to total cases for investigation"
    ]
   },
   {
    "col_no": "5",
-   "name": "In-==2:s=+=*. “*--*-4 To Cases Fe. Laws During investiganending tion at completed total to the year cases investigacases cases for tion",
+   "name": "Percentage of cases pending investigation at the end of the year to total cases for investigation",
    "header": [
-    "In-==2:s=+=*. “*--*-4 To Cases Fe. Laws During investiganending tion at completed total to the year cases investigacases cases for tion"
+    "Percentage of cases pending investigation at the end of the year to total cases for investigation"
    ]
   },
   {
    "col_no": "6",
-   "name": "Pending Investientian Of Cases 1987 Of CB8@R) Of Cases 9 to investigain the end of total true cases which for investicatian for was completed",
+   "name": "Percentage of cases charge-sheeted to total true cases in which investigation was completed",
    "header": [
-    "Pending Investientian Of Cases 1987 Of CB8@R) Of Cases 9 to investigain the end of total true cases which for investicatian for was completed"
+    "Percentage of cases charge-sheeted to total true cases in which investigation was completed"
    ]
   }
  ],
- "notes": [
-  "Local and Special Laws"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

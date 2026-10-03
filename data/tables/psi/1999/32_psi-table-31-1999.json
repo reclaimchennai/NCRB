@@ -8,104 +8,101 @@
  "serial": "32",
  "title": "Table 31: Percentage of Convicts by Period of Sentence at the end of 1999",
  "listing_title": "Table 31: Percentage of Convicts by Period of Sentence at the end of 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-31_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-31_1999.pdf",
  "source_sha256": "50088730310da95bbc41e0c36f4eaab91205e31c233243242b2c1efd3244d289",
  "table_no": "31",
- "pdf_title": "PERCENTAGE OF CONVICTS BY PERIOD OF SENTENCE AT THE END OF 1999",
- "row_label": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-31",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 65,
- "n_cols": 10,
- "n_cells": 313,
+ "n_rows": 36,
+ "n_cols": 11,
+ "n_cells": 385,
  "columns": [
   {
    "col_no": "3",
-   "name": "- | MENT",
+   "name": "CAPITAL IMPROSNE-MENT",
    "header": [
-    "-",
-    "MENT"
+    "CAPITAL IMPROSNE-MENT"
    ]
   },
   {
    "col_no": "4",
-   "name": "- | MENT @",
+   "name": "LIFE IMPROSNE-MENT",
    "header": [
-    "-",
-    "MENT @"
+    "LIFE IMPROSNE-MENT"
    ]
   },
   {
    "col_no": "5",
-   "name": "- S S-6PLUS -6 | 10-13 PLUS YEARS",
+   "name": "10 -13 PLUS YEARS",
    "header": [
-    "- S S-6PLUS -6",
-    "10-13 PLUS YEARS"
+    "10 -13 PLUS YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "- S S-6PLUS -6 | —7-9PLUS YEARS",
+   "name": "7 - 9 PLUS YEARS",
    "header": [
-    "- S S-6PLUS -6",
-    "—7-9PLUS YEARS"
+    "7 - 9 PLUS YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "- S S-6PLUS -6 | YEARS",
+   "name": "5 - 6 PLUS YEARS",
    "header": [
-    "- S S-6PLUS -6",
-    "YEARS"
+    "5 - 6 PLUS YEARS"
    ]
   },
   {
    "col_no": "8",
-   "name": "- S S-6PLUS -6 | - 4 PLUS YEARS",
+   "name": "2 - 4 PLUS YEARS",
    "header": [
-    "- S S-6PLUS -6",
-    "- 4 PLUS YEARS"
+    "2 - 4 PLUS YEARS"
    ]
   },
   {
-   "col_no": "10001",
+   "col_no": "9",
    "name": "1 - LESS THAN 2 YEARS",
    "header": [
     "1 - LESS THAN 2 YEARS"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "LESS 6 MONTHS THAN I ae",
+   "col_no": "10",
+   "name": "6 MONTHS LESS THAN 1 YEAR",
    "header": [
-    "LESS 6 MONTHS THAN I ae"
+    "6 MONTHS LESS THAN 1 YEAR"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "TOTAL | 3LESSTHAN6 MONTHS",
+   "col_no": "11",
+   "name": "3 LESS THAN 6 MONTHS",
    "header": [
-    "TOTAL",
-    "3LESSTHAN6 MONTHS"
+    "3 LESS THAN 6 MONTHS"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "TOTAL | LESS THAN 3 MONTHS",
+   "col_no": "12",
+   "name": "LESS THAN 3 MONTHS",
    "header": [
-    "TOTAL",
     "LESS THAN 3 MONTHS"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -113,7 +110,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

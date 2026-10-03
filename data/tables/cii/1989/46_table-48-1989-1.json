@@ -8,49 +8,49 @@
  "serial": "46",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1979-1989",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1979-1989",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-48-1989-1.pdf",
  "source_sha256": "84fb8b042eb02c1d1c471e2852680420395f9632350cc2fda4b0afce6adc5336",
  "table_no": "48",
- "pdf_title": "VALUE OF PRUPEKTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
+ "pdf_title": "165 TABLE-48 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY DURING 1979-1989",
  "row_label": "SL NO",
  "pages": [
   1
  ],
- "n_rows": 13,
+ "n_rows": 12,
  "n_cols": 4,
  "n_cells": 48,
  "columns": [
   {
    "col_no": "2",
-   "name": "DURING | YEAR",
+   "name": "YEAR",
    "header": [
-    "DURING",
     "YEAR"
    ]
   },
   {
    "col_no": "3",
-   "name": "DURING | TOTAL STOLEN",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
-    "DURING",
-    "TOTAL STOLEN"
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "1979-1989 (Rs. PROPERTY VALUE RECOVERED",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
    "header": [
-    "1979-1989 (Rs. PROPERTY VALUE RECOVERED"
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "in lakh: OF RECOVERY",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "in lakh: OF RECOVERY"
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],

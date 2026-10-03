@@ -8,138 +8,194 @@
  "serial": "15",
  "title": "Complaints / Cases Registered Against Police Personnel During 1997",
  "listing_title": "Complaints / Cases Registered Against Police Personnel During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-87-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-87-1996-crime-survey.pdf",
  "source_sha256": "afb6f785ff3e2d68693c0eb4ebe58b8e49faf11022b2cfd84194214ae5628845",
- "table_no": "87",
- "pdf_title": "COMPLAINTS/CASES REGISTERED AGAINST POLICE PERSONNEL DURING 1997",
- "row_label": "SL. STATE/UT/CITY NO (4)",
+ "table_no": "",
+ "pdf_title": "NO. OF POLICE PERSONNEL",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
-  2
+  2,
+  3
  ],
- "n_rows": 70,
- "n_cols": 12,
- "n_cells": 562,
+ "n_rows": 62,
+ "n_cols": 19,
+ "n_cells": 1102,
  "columns": [
   {
-   "col_no": "2",
-   "name": "COMPLAINTS RECEIVE D/CASES REGISTERED | NO. COMPLAINTS RECEIVED/ALLEGED DURING THE YEAR (2)",
-   "header": [
-    "COMPLAINTS RECEIVE D/CASES REGISTERED",
-    "NO. COMPLAINTS RECEIVED/ALLEGED DURING THE YEAR (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "COMPLAINTS RECEIVE D/CASES REGISTERED | OF DEPARTMENTAL (3)",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF COMPLAINTS RECEIVED/ALLEGED DURING THE YEAR",
    "header": [
-    "COMPLAINTS RECEIVE D/CASES REGISTERED",
-    "OF DEPARTMENTAL (3)"
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF COMPLAINTS RECEIVED/ALLEGED DURING THE YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "COMPLAINTS RECEIVE D/CASES REGISTERED | NO. OF INQUIRY INSTITUTED MAGISTERIAL (4)",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF INQUIRY INSTITUTED | DEPARTMENTAL",
    "header": [
-    "COMPLAINTS RECEIVE D/CASES REGISTERED",
-    "NO. OF INQUIRY INSTITUTED MAGISTERIAL (4)"
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF INQUIRY INSTITUTED",
+    "DEPARTMENTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "COMPLAINTS RECEIVE D/CASES REGISTERED | JUDICIAL (5)",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF INQUIRY INSTITUTED | MAGIS-TERIAL",
    "header": [
-    "COMPLAINTS RECEIVE D/CASES REGISTERED",
-    "JUDICIAL (5)"
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF INQUIRY INSTITUTED",
+    "MAGIS-TERIAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "COMPLAINTS RECEIVE D/CASES REGISTERED | COMPLAINTS/CASES DECLARED FALSE/ UNSUBSTANTIA- (6)",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF INQUIRY INSTITUTED | JUDICIAL",
    "header": [
-    "COMPLAINTS RECEIVE D/CASES REGISTERED",
-    "COMPLAINTS/CASES DECLARED FALSE/ UNSUBSTANTIA- (6)"
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF INQUIRY INSTITUTED",
+    "JUDICIAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "COMPLAINTS RECEIVE D/CASES REGISTERED | NO. OF CASES REGISTERED DURING THE TED YEAR (7)",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | COMPLAINTS/CASES DECLARED FALSE/UNSUBS-TANTIA-TED",
    "header": [
-    "COMPLAINTS RECEIVE D/CASES REGISTERED",
-    "NO. OF CASES REGISTERED DURING THE TED YEAR (7)"
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "COMPLAINTS/CASES DECLARED FALSE/UNSUBS-TANTIA-TED"
    ]
   },
   {
    "col_no": "8",
-   "name": "COMPLAINTS RECEIVE D/CASES REGISTERED | NO. OF CASES REPORSENT UP TED FOR TRIALS/ REGULAR CHARGEDEPTT. SHEETED ACTION (8) (9) (10)",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF CASES REGISTERED DURING THE YEAR",
    "header": [
-    "COMPLAINTS RECEIVE D/CASES REGISTERED",
-    "NO. OF CASES REPORSENT UP TED FOR TRIALS/ REGULAR CHARGEDEPTT. SHEETED ACTION (8) (9) (10)"
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF CASES REGISTERED DURING THE YEAR"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF CASES | REPOR-TED FOR REGULAR DEPTT. ACTION",
+   "header": [
+    "COMPLAINTS RECEIVED/CASES REGISTERED",
+    "NO. OF CASES",
+    "REPOR-TED FOR REGULAR DEPTT. ACTION"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "NO. OF CASES | SENT UP TRIALS/CHARGE-SHEETED",
+   "header": [
+    "NO. OF CASES",
+    "SENT UP TRIALS/CHARGE-SHEETED"
    ]
   },
   {
    "col_no": "11",
-   "name": "NO. OF POLICE PERSONNEL SENT UP FOR TRIAL DURING THE YEAR",
+   "name": "POLICE PERSONNEL INVOLVED/ACTION TAKEN | NO. OF POLICE PERSONNEL SENT UP FOR TRIAL DURING THE YEAR",
    "header": [
+    "POLICE PERSONNEL INVOLVED/ACTION TAKEN",
     "NO. OF POLICE PERSONNEL SENT UP FOR TRIAL DURING THE YEAR"
    ]
   },
   {
    "col_no": "12",
-   "name": "TAKEN | POLICE PERS!)NNEL NO. OF POLICE PERSONNEL IN WHOSE CASES WITHDRAWN OR OTHERWISE DISPOSED OF",
+   "name": "POLICE PERSONNEL INVOLVED/ACTION TAKEN | NO. OF POLICE PERSONNEL IN WHOSE CASES WITHDRAWN OR OTHERWISE DISPOSED OF",
    "header": [
-    "TAKEN",
-    "POLICE PERS!)NNEL NO. OF POLICE PERSONNEL IN WHOSE CASES WITHDRAWN OR OTHERWISE DISPOSED OF"
+    "POLICE PERSONNEL INVOLVED/ACTION TAKEN",
+    "NO. OF POLICE PERSONNEL IN WHOSE CASES WITHDRAWN OR OTHERWISE DISPOSED OF"
    ]
   },
   {
    "col_no": "13",
-   "name": "TAKEN | NO. OF POLICE PERSONNEL IN WHOSE CASES TRIAL WAS COMPLETED",
+   "name": "POLICE PERSONNEL INVOLVED/ACTION TAKEN | NO. OF POLICE PERSONNEL IN WHOSE CASES TRIAL WAS COMPLETED",
    "header": [
-    "TAKEN",
+    "POLICE PERSONNEL INVOLVED/ACTION TAKEN",
     "NO. OF POLICE PERSONNEL IN WHOSE CASES TRIAL WAS COMPLETED"
    ]
   },
   {
    "col_no": "14",
-   "name": "TAKEN | NO. OF POLICE PERS()NNEL a,",
+   "name": "POLICE PERSONNEL INVOLVED/ACTION TAKEN | NO. OF POLICE PERSONNEL | CONVICIED",
    "header": [
-    "TAKEN",
-    "NO. OF POLICE PERS()NNEL a,"
+    "POLICE PERSONNEL INVOLVED/ACTION TAKEN",
+    "NO. OF POLICE PERSONNEL",
+    "CONVICIED"
    ]
   },
   {
    "col_no": "15",
-   "name": "TAKEN | er",
+   "name": "POLICE PERSONNEL INVOLVED/ACTION TAKEN | NO. OF POLICE PERSONNEL | ACQUI-TTED",
    "header": [
-    "TAKEN",
-    "er"
+    "POLICE PERSONNEL INVOLVED/ACTION TAKEN",
+    "NO. OF POLICE PERSONNEL",
+    "ACQUI-TTED"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "AGAINST WHOM DISCIPLINARY ACTION INITIATED",
+   "header": [
+    "AGAINST WHOM DISCIPLINARY ACTION INITIATED"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "IN WHOSE CASES WITHD-RAWN OR OTHERWISE DISPOSED OF",
+   "header": [
+    "IN WHOSE CASES WITHD-RAWN OR OTHERWISE DISPOSED OF"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "IN WHOSE CASES TRIAL WAS COMPLETED",
+   "header": [
+    "IN WHOSE CASES TRIAL WAS COMPLETED"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "DISMISSED/REMOVED FROM SERVICE",
+   "header": [
+    "DISMISSED/REMOVED FROM SERVICE"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "MAJOR PUNISHMENT AWARDED",
+   "header": [
+    "MAJOR PUNISHMENT AWARDED"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "MINOR PUNISHMENT AWARDED",
+   "header": [
+    "MINOR PUNISHMENT AWARDED"
    ]
   }
  ],
- "notes": [
-  "NA. STANDS FOR NOT RECEIVED."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 8,
+  "cells_checked": 57,
+  "cells_passed": 44,
   "failures": [
-   "col 2 'TOTAL (STATES)': printed 43474, sum 43468",
-   "col 2 'TOTAL (UTs)': printed 180049, sum 800274",
-   "col 2 'TOTAL (ALL-INDIA)': printed 123523, sum 223523",
-   "col 3 'TOTAL (STATES)': printed 11993, sum 12003",
-   "col 3 'TOTAL (UTs)': printed 364, sum 3451",
-   "col 6 'TOTAL (ALL-INDIA)': printed 35071, sum 35065",
-   "col 7 'TOTAL (UTs)': printed 12, sum 18",
-   "col 11 'TOTAL (STATES)': printed 2004, sum 1994"
+   "col 7 'TOTAL (UTS)': printed 299, sum 300",
+   "col 8 'TOTAL (STATES)': printed 2264, sum 2259",
+   "col 11 'TOTAL (UTS)': printed 51, sum 47",
+   "col 16 'TOTAL (STATES)': printed 17888, sum 17882",
+   "col 16 'TOTAL (UTS)': printed 256, sum 138",
+   "col 17 'TOTAL (UTS)': printed 26, sum 0",
+   "col 18 'TOTAL (UTS)': printed 92, sum 0",
+   "col 18 'TOTAL (ALL-INDIA)': printed 8514, sum 8914"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

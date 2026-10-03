@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1993",
  "serial": "4",
- "title": "TABLE-7 Incidence And Rate Of Suicides During 1993 (State & UT-wise)",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA-1993 N.C.R.B.-39 TABLE-7",
  "listing_title": "Suicidal Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,22 +14,15 @@
  "source_file": "raw/adsi/1993/year_wise/suicides-1993.pdf",
  "source_sha256": "af4c4c3424ce1ff27a75fda39a8bce24540df1b5bc134dd15a4c61841efefe54",
  "table_no": "7",
- "pdf_title": "TABLE-7 Incidence And Rate Of Suicides During 1993 (State & UT-wise)",
- "row_label": "SI. No.",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA-1993 N.C.R.B.-39 TABLE-7",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
   4,
-  8,
-  10,
-  11,
-  13,
-  13,
-  14,
-  17,
-  17
+  5
  ],
- "n_rows": 123,
- "n_cols": 14,
- "n_cells": 546,
+ "n_rows": 58,
+ "n_cols": 4,
+ "n_cells": 232,
  "columns": [
   {
    "col_no": "3",
@@ -40,9 +33,9 @@
   },
   {
    "col_no": "4",
-   "name": "Percentage Share in Total Suicides",
+   "name": "Percentages Share in Total Suicides",
    "header": [
-    "Percentage Share in Total Suicides"
+    "Percentages Share in Total Suicides"
    ]
   },
   {
@@ -58,89 +51,17 @@
    "header": [
     "Rate of Suicides [Col.3/Col.5]"
    ]
-  },
-  {
-   "col_no": "2",
-   "name": "HIGH RISK | RATE",
-   "header": [
-    "HIGH RISK",
-    "RATE"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Female | Below 18 years",
-   "header": [
-    "Female",
-    "Below 18 years"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Female | 18-30 years",
-   "header": [
-    "Female",
-    "18-30 years"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Female | 30-50 years",
-   "header": [
-    "Female",
-    "30-50 years"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Female | Above 50 years",
-   "header": [
-    "Female",
-    "Above 50 years"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Female | Total female",
-   "header": [
-    "Female",
-    "Total female"
-   ]
-  },
-  {
-   "col_no": "13",
-   "name": "Total (Male + Female)",
-   "header": [
-    "Total (Male + Female)"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Incidence",
-   "header": [
-    "Incidence"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "col_10001",
-   "header": []
-  },
-  {
-   "col_no": "10002",
-   "name": "col_10002",
-   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
-  "other_totals_checked": 9,
-  "other_totals_passed": 8
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 9,
+ "ocr_pages": 2,
  "warnings": []
 }

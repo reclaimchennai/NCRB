@@ -8,69 +8,71 @@
  "serial": "18",
  "title": "Percentage of SLL Crime Cases Disposed of by Police During 1996",
  "listing_title": "Percentage of SLL Crime Cases Disposed of by Police During 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-18--percentage-of-sll-crime-cases-disposal-of-by-police-during-1996-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-18--percentage-of-sll-crime-cases-disposal-of-by-police-during-1996-1996.pdf",
  "source_sha256": "aaa16d42bf58173014fa9e1b88313e6bb181404d6008f8816fd31682bf842a71",
  "table_no": "18",
- "pdf_title": "PERCENTAGE OF SLL CRIME CASES DISPOSED OF BY POLICE DURING 1996",
- "row_label": "SL. CRIME HEADS NO. / PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION WAS REFUSED",
+ "pdf_title": "INVESTIGATION IN WHICH",
+ "row_label": "SL. NO. / CRIME HEADS CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC.",
  "pages": [
   1
  ],
  "n_rows": 23,
- "n_cols": 6,
- "n_cells": 136,
+ "n_cols": 7,
+ "n_cells": 161,
  "columns": [
   {
-   "col_no": "4",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR | INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/ OF FACT OR OF LAW ETC.",
+   "col_no": "3",
+   "name": "INVESTIGATION WAS REFUSED",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR",
-    "INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED",
-    "CHARGE FOUND FALSE/ OF FACT OR OF LAW ETC."
+    "INVESTIGATION WAS REFUSED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
+   "header": [
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR | INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SU8MITTED",
+   "name": "INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR",
-    "INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED",
-    "FINAL REPORT TRUE SU8MITTED"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR | INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
-   "header": [
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR",
-    "INVESTIGATION IN WHICH INVESTIGATION WAS COMPLETED",
+    "INVESTIGATION WAS COMPLETED",
     "CHARGE SHEETS WERE LAID"
    ]
   },
   {
-   "col_no": "7",
-   "name": "PERCENTAGE OF CASES PENDING INVESTI- | ((4) +(5) - + 6)}",
+   "col_no": "6",
+   "name": "INVESTIGATION WAS COMPLETED | TOTAL [(4) + (5) + (6)]",
    "header": [
-    "PERCENTAGE OF CASES PENDING INVESTI-",
-    "((4) +(5) - + 6)}"
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL [(4) + (5) + (6)]"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INVESTIGATION WAS COMPLETED",
+   "header": [
+    "INVESTIGATION WAS COMPLETED"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERCENTAGE OF CASES PENDING INVESTI- | GATION (6)1 X 100",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION",
    "header": [
-    "PERCENTAGE OF CASES PENDING INVESTI-",
-    "GATION (6)1 X 100"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION"
    ]
   },
   {
    "col_no": "9",
-   "name": "CHARGESHEETING RATE {(6)/1(5) +",
+   "name": "CHARGE-SHEETING RATE [(6)/(5) + (6)] X 100",
    "header": [
-    "CHARGESHEETING RATE {(6)/1(5) +"
+    "CHARGE-SHEETING RATE [(6)/(5) + (6)] X 100"
    ]
   }
  ],

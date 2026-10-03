@@ -8,70 +8,111 @@
  "serial": "26",
  "title": "Juvenile Apprehended by Sex; Juvenile Apprehended by Age Group",
  "listing_title": "Juvenile Apprehended by Sex; Juvenile Apprehended by Age Group",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-36-37-1977.pdf",
  "source_file": "raw/cii/1977/table_content/table-36-37-1977.pdf",
  "source_sha256": "ea04b56ccf03069c784069789140763fa8b34f0c13f487fb46192ff83a4b5c8b",
  "table_no": "36",
- "pdf_title": "",
- "row_label": "No. i 1. 2. 3. 4. 6, 7. 8. 9. - / Year 3 1987 1970 7 ‘ 1971 ‘ 1972 48 1973 Oo 1974 1975 oe 1976 er 1977 Ti / 25 “ ofa eee S&S ‘ 2 1967 - 196 / 4 “2 - ‘ tg aos - Can ee + ate",
+ "pdf_title": "94 TABLE 36 JUVENILE APPREHENDED BY SEX",
+ "row_label": "Sl. No. / Year",
  "pages": [
+  1,
   1
  ],
  "n_rows": 9,
- "n_cols": 7,
- "n_cells": 49,
+ "n_cols": 13,
+ "n_cells": 45,
  "columns": [
   {
-   "col_no": "5",
-   "name": "3 | 2s Ba -32:°ee 3p oe TABLE 37",
+   "col_no": "3",
+   "name": "Boys",
    "header": [
-    "3",
-    "2s Ba -32:°ee 3p oe TABLE 37"
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Girls",
+   "header": [
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "3 | - See ae apres",
+   "name": "Percentage of girls",
    "header": [
-    "3",
-    "- See ae apres"
+    "Percentage of girls"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "10195",
+   "header": [
+    "10195"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "14·1",
+   "header": [
+    "14·1"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "17680",
+   "header": [
+    "17680"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "24·5",
+   "header": [
+    "24·5"
    ]
   },
   {
    "col_no": "7",
-   "name": "4 | 66719 4617 ST987 120953 122192 me 1392125 132587 124569 J +1074 +112 ACP yeas",
+   "name": "44234",
    "header": [
-    "4",
-    "66719 4617 ST987 120953 122192 me 1392125 132587 124569 J +1074 +112 ACP yeas"
+    "44234"
    ]
   },
   {
    "col_no": "8",
-   "name": "4 | $390 4228 az 728 - $550 4 8514 9312 40K 10990 +928 +1035",
+   "name": "61·4",
    "header": [
-    "4",
-    "$390 4228 az 728 - $550 4 8514 9312 40K 10990 +928 +1035"
+    "61·4"
    ]
   },
   {
    "col_no": "9",
-   "name": "ee 72109 934s 100419 128181 127742 140639 141899 139973 148922 +1065 +112",
+   "name": "Combined with 16-18 years age group (9)",
    "header": [
-    "ee 72109 934s 100419 128181 127742 140639 141899 139973 148922 +1065 +112"
+    "Combined with 16-18 years age group"
    ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "Combined with 16-18 years age group (10)",
+   "header": [
+    "Combined with 16-18 years age group"
+   ]
   },
   {
    "col_no": "11",
-   "name": "of girls 6 rs 43 53 $6 45 6-1 66 70 10 age group",
+   "name": "72109",
    "header": [
-    "of girls 6 rs 43 53 $6 45 6-1 66 70 10 age group"
+    "72109"
    ]
   }
  ],
@@ -84,6 +125,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

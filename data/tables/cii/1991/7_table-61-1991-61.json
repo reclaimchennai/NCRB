@@ -8,63 +8,116 @@
  "serial": "7",
  "title": "Police Personnel Killed or Injured on Duty During 1991 (Rank-Wise)",
  "listing_title": "Police Personnel Killed or Injured on Duty During 1991 (Rank-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-61-1991-61.pdf",
  "source_file": "raw/cii/1991/table_content/table-61-1991-61.pdf",
  "source_sha256": "eb3e5cf0fa3fd3afca542db1d4e61935c0c490859e05e8555f06e726315f6de3",
- "table_no": "",
- "pdf_title": "TABLE-A1",
- "row_label": "POLICE RANK SL. Oo. C1)",
+ "table_no": "61",
+ "pdf_title": "192 TABLE-61 POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1991 (RANK-WISE)",
+ "row_label": "SL. NO. / RANK",
  "pages": [
+  1,
   1
  ],
- "n_rows": 15,
- "n_cols": 6,
+ "n_rows": 7,
+ "n_cols": 12,
  "n_cells": 84,
  "columns": [
   {
-   "col_no": "2",
-   "name": "KILLED OR | SSS DACOITY OPERATION OTHER RAIDS (2)",
-   "header": [
-    "KILLED OR",
-    "SSS DACOITY OPERATION OTHER RAIDS (2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "KILLED OR | CRAWK-UISE) SS ar RIOTOUS HORS (3)",
+   "name": "KILLED | IN DACOITY OPERATION OR OTHER RAIDS",
    "header": [
-    "KILLED OR",
-    "CRAWK-UISE) SS ar RIOTOUS HORS (3)"
+    "KILLED",
+    "IN DACOITY OPERATION OR OTHER RAIDS"
    ]
   },
   {
    "col_no": "4",
-   "name": "G8 DUTY OTHER CRIMI= MALS (4)",
+   "name": "KILLED | BY RIOTOUS MOBS",
    "header": [
-    "G8 DUTY OTHER CRIMI= MALS (4)"
+    "KILLED",
+    "BY RIOTOUS MOBS"
    ]
   },
   {
    "col_no": "5",
-   "name": "DURING TS on BORDER GUTIES (a)",
+   "name": "KILLED | BY OTHER CRIMI-NALS",
    "header": [
-    "DURING TS on BORDER GUTIES (a)"
+    "KILLED",
+    "BY OTHER CRIMI-NALS"
    ]
   },
   {
    "col_no": "6",
-   "name": "1991 1 ACCIGERTS (6)",
+   "name": "KILLED | ON BORDER DUTIES",
    "header": [
-    "1991 1 ACCIGERTS (6)"
+    "KILLED",
+    "ON BORDER DUTIES"
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL (ry (0)",
+   "name": "KILLED | IN ACCIDENTS",
    "header": [
-    "TOTAL (ry (0)"
+    "KILLED",
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KILLED | TOTAL",
+   "header": [
+    "KILLED",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "INJURED | IN DACOITY OPERATION OR OTHER RAIDS",
+   "header": [
+    "INJURED",
+    "IN DACOITY OPERATION OR OTHER RAIDS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "INJURED | BY RIOTOUS MOBS",
+   "header": [
+    "INJURED",
+    "BY RIOTOUS MOBS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "INJURED | BY OTHER CRIMI-NALS",
+   "header": [
+    "INJURED",
+    "BY OTHER CRIMI-NALS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "INJURED | ON BORDER DUTIES",
+   "header": [
+    "INJURED",
+    "ON BORDER DUTIES"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "INJURED | IN ACCIDENTS",
+   "header": [
+    "INJURED",
+    "IN ACCIDENTS"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "INJURED | TOTAL",
+   "header": [
+    "INJURED",
+    "TOTAL"
    ]
   }
  ],
@@ -73,10 +126,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 2
+  "other_totals_checked": 10,
+  "other_totals_passed": 10
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

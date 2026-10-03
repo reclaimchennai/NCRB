@@ -8,90 +8,172 @@
  "serial": "38",
  "title": "Juvenile Delinquency (LSL) under Different Crime Heads During 1992 (State, UT & City-wise)",
  "listing_title": "Juvenile Delinquency (LSL) under Different Crime Heads During 1992 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-38-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-38-1992-survey.pdf",
  "source_sha256": "9f7deb11a66e1f8b42ff1805e30c084fbadb9773afe6d7994be19f00c799c16f",
  "table_no": "38",
- "pdf_title": "JUVENILE DELINQUENCY (LSL) UNDER DIFFERENT CRIME HEADS DURING 1992",
- "row_label": "SL. No. / STATE/UT",
+ "pdf_title": "201 TABLE-38 JUVENILE DELINQUENCY (LSL) UNDER DIFFERENT CRIME HEADS DURING 1992",
+ "row_label": "SL. STATE/UT NO.",
  "pages": [
   1,
-  2
+  2,
+  3,
+  4
  ],
- "n_rows": 58,
- "n_cols": 8,
- "n_cells": 411,
+ "n_rows": 94,
+ "n_cols": 20,
+ "n_cells": 836,
  "columns": [
   {
    "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
    "name": "ARMS ACT",
    "header": [
     "ARMS ACT"
    ]
   },
   {
-   "col_no": "4",
-   "name": "(STATE,UT | NARCOTIC DRUGS PSY.SUBSTANCES ACT",
-   "header": [
-    "(STATE,UT",
-    "NARCOTIC DRUGS PSY.SUBSTANCES ACT"
-   ]
-  },
-  {
    "col_no": "5",
-   "name": "(STATE,UT | &",
+   "name": "NARCOTIC DRUGS & PSY.SUBS-TANCES ACT",
    "header": [
-    "(STATE,UT",
-    "&"
+    "NARCOTIC DRUGS & PSY.SUBS-TANCES ACT"
    ]
   },
   {
    "col_no": "6",
-   "name": "& GAMBLING ACT",
+   "name": "GAMBLING ACT",
    "header": [
-    "& GAMBLING ACT"
+    "GAMBLING ACT"
    ]
   },
   {
    "col_no": "7",
-   "name": "CITY-WISE) EXCISE PROHIBIACT",
+   "name": "EXCISE ACT",
    "header": [
-    "CITY-WISE) EXCISE PROHIBIACT"
+    "EXCISE ACT"
    ]
   },
   {
    "col_no": "8",
-   "name": "TION & EXPLOSIVE SUBSTANCES acT",
+   "name": "PROHIBI-TION ACT",
    "header": [
-    "TION & EXPLOSIVE SUBSTANCES acT"
+    "PROHIBI-TION ACT"
    ]
   },
   {
    "col_no": "9",
-   "name": "IMMORAL ACT TRAFFIC (PREVENTION) ACT",
+   "name": "EXPLO-SIVES & EXPLOSIVE SUBSTANCES ACT",
    "header": [
-    "IMMORAL ACT TRAFFIC (PREVENTION) ACT"
+    "EXPLO-SIVES & EXPLOSIVE SUBSTANCES ACT"
    ]
   },
   {
    "col_no": "10",
-   "name": "EXPLOINDIAN SIVES RAILWAYS ACT",
+   "name": "IMMORAL TRAFFIC (PREV-ENTION) ACT",
    "header": [
-    "EXPLOINDIAN SIVES RAILWAYS ACT"
+    "IMMORAL TRAFFIC (PREV-ENTION) ACT"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "PROTEC-TION OF CIVIL RIGHTS ACT (13)",
+   "header": [
+    "PROTEC-TION OF CIVIL RIGHTS ACT"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "INDIAN PASSPORT ACT",
+   "header": [
+    "INDIAN PASSPORT ACT"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "ESSENTIAL COMMO-DITIES ACT",
+   "header": [
+    "ESSENTIAL COMMO-DITIES ACT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "TERRORIST AND DISRUPTIVE ACTIVITIES ACT",
+   "header": [
+    "TERRORIST AND DISRUPTIVE ACTIVITIES ACT"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "ANTIQUITY & ART TREASURE ACT",
+   "header": [
+    "ANTIQUITY & ART TREASURE ACT"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "DOWRY PROHI-BITION ACT (18)",
+   "header": [
+    "DOWRY PROHI-BITION ACT"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "OTHER LSL CRIMES (19)",
+   "header": [
+    "OTHER LSL CRIMES"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL COG. CRIMES UNDER LSL (2)",
+   "header": [
+    "TOTAL COG. CRIMES UNDER LSL"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "PROTEC-TION OF CIVIL RIGHTS ACT (10001)",
+   "header": [
+    "PROTEC-TION OF CIVIL RIGHTS ACT"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "DOWRY PROHI-BITION ACT (10002)",
+   "header": [
+    "DOWRY PROHI-BITION ACT"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "OTHER LSL CRIMES (10003)",
+   "header": [
+    "OTHER LSL CRIMES"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "TOTAL COG. CRIMES UNDER LSL (10004)",
+   "header": [
+    "TOTAL COG. CRIMES UNDER LSL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 9,
+  "cells_checked": 24,
+  "cells_passed": 24,
   "failures": [],
-  "other_totals_checked": 5,
-  "other_totals_passed": 5
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

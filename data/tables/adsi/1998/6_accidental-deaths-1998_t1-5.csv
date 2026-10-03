@@ -1,19 +1,17 @@
-section,sl_no,Incidence. Share & Rate Of,Deaths By (Natural + Un-Natural) Causes | Incidence. Share & Rate Of | During 1997 & 1998 (All-India) (2),Deaths By (Natural + Un-Natural) Causes | Incidence. Share & Rate Of | During 1997 & 1998 (All-India) (3),Deaths By (Natural + Un-Natural) Causes | Incidence. Share & Rate Of | During 1997 & 1998 (All-India) (4),Deaths By (Natural + Un-Natural) Causes (5),Deaths By (Natural + Un-Natural) Causes (6),col_7,col_8
-,,Sl.,,1997,,,1998,,
-"No. oe , No. %share Rate No. %share Rate",,(),,@,©,0,i,@,(9)
-A. CAUSES:,1,Avalanche,27,0.0,0.0,90,0.0,0.0,233.3
-A. CAUSES:,2,Cold and Exposure,143,0.3,0.1,651,0.3,0.1,-12.4
-A. CAUSES:,3,Cyclone/Tomado,73,0.0,0.0,1283,0.5,0.1,1657.5
-A. CAUSES:,4,Starvation/Thirst -,227,0.1,0.0,299,0.1,0.0,31.7
-A. CAUSES:,5,Earthquake,19,0.0,0.0,7,0.0,0.0,-63.2
-A. CAUSES:,6,Epidemic,82,0.0,0.0,161,0.1,0.0,96.3
-A. CAUSES:,7,Flood,580,0.2,0.1,958,0.4,0.1,65.2
-A. CAUSES:,8,Heat Stroke,393,0.2,0.0,1016,0.4,0.1,158.5
-A. CAUSES:,9,Landslide,377,0.2,0.0,423,0.2,0.0,12.2
-A. CAUSES:,10,Lightning,1957,0.8,0.2,1891,0.7,0.2,-3.4
-A. CAUSES:,11,Torrential Rains,129,0.1,0.0,411,0.2,0.0,218.6
-A. CAUSES:,12,Other Natural Causes,14301,6.1,1.5,15572,6.0,1.6,8.9
-A. CAUSES:,,‘TOTAL,18908,8.1,2.0,22762,8.8,2.3,20.4
+section,sl_no,Cause,No. (3),% share (4),Rate (5),No. (6),% share (7),Rate (8),% Variation
+A. NATURAL CAUSES:,1,Avalanche,27,0.0,0.0,90,0.0,0.0,233.3
+A. NATURAL CAUSES:,2,Cold and Exposure,743,0.3,0.1,651,0.3,0.1,-12.4
+A. NATURAL CAUSES:,3,Cyclone/Tornado,73,0.0,0.0,1283,0.5,0.1,1657.5
+A. NATURAL CAUSES:,4,Starvation/Thirst,227,0.1,0.0,299,0.1,0.0,31.7
+A. NATURAL CAUSES:,5,Earthquake,19,0.0,0.0,7,0.0,0.0,-63.2
+A. NATURAL CAUSES:,6,Epidemic,82,0.0,0.0,161,0.1,0.0,96.3
+A. NATURAL CAUSES:,7,Flood,580,0.2,0.1,958,0.4,0.1,65.2
+A. NATURAL CAUSES:,8,Heat Stroke,393,0.2,0.0,1016,0.4,0.1,158.5
+A. NATURAL CAUSES:,9,Landslide,377,0.2,0.0,423,0.2,0.0,12.2
+A. NATURAL CAUSES:,10,Lightning,1957,0.8,0.2,1891,0.7,0.2,-3.4
+A. NATURAL CAUSES:,11,Torrential Rains,129,0.1,0.0,411,0.2,0.0,218.6
+A. NATURAL CAUSES:,12,Other Natural Causes,14301,6.1,1.5,15572,6.0,1.6,8.9
+A. NATURAL CAUSES:,,Total,18906,8.1,2.0,22762,8.8,2.3,20.4
 B. UN-NATURAL CAUSES,1,Air-Crash,16,0.0,0.0,13,0.0,0.0,-18.8
 B. UN-NATURAL CAUSES,2,Collapse of Structure:,2126,0.9,0.2,2412,0.9,0.2,13.5
 B. UN-NATURAL CAUSES,,(i) House,935,0.4,0.1,1238,0.5,0.1,32.4
@@ -21,44 +19,43 @@ B. UN-NATURAL CAUSES,,(ii) Building,210,0.1,0.0,183,0.1,0.0,-12.9
 B. UN-NATURAL CAUSES,,(iii)Dam,20,0.0,0.0,9,0.0,0.0,-55.0
 B. UN-NATURAL CAUSES,,(iv) Bridge,20,0.0,0.0,24,0.0,0.0,20.0
 B. UN-NATURAL CAUSES,,(v) Others,941,0.4,0.1,958,0.4,0.1,1.8
-B. UN-NATURAL CAUSES,3,Drowning:,21821,93,2.3,23041,8.9,2.4,5.6
+B. UN-NATURAL CAUSES,3,Drowning:,21821,9.3,2.3,23041,8.9,2.4,5.6
 B. UN-NATURAL CAUSES,,(i) Boat Capsize,517,0.2,0.1,1041,0.4,0.1,101.4
 B. UN-NATURAL CAUSES,,(ii) Other Cases,21304,9.1,2.2,22000,8.5,2.3,3.3
-B. UN-NATURAL CAUSES,4,Electrocution:,4583,2.0,0.5,5304,2.1,0.5,13.7
-B. UN-NATURAL CAUSES,5,Explosion:,933,0.4,0.1,Sli,0.2,0.1,-45.2
+B. UN-NATURAL CAUSES,4,Electrocution:,4583,2.0,0.5,5304,2.1,0.5,15.7
+B. UN-NATURAL CAUSES,5,Explosion:,933,0.4,0.1,511,0.2,0.1,-45.2
 B. UN-NATURAL CAUSES,,(i) Bomb explosion,436,0.2,0.0,246,0.1,0.0,-43.6
 B. UN-NATURAL CAUSES,,"(ii) Other explosion (Boilers, Gas)",497,0.2,0.1,265,0.1,0.0,-46.7
 B. UN-NATURAL CAUSES,6,Falls:,6172,2.6,0.6,6201,2.4,0.6,0.5
-B. UN-NATURAL CAUSES,,- (i) Fall from Height,5139,22,0.5,5171,2.0,0.5,0.6
-B. UN-NATURAL CAUSES,,(ii) Fall into Pit/Manhole etc.,1033,0.4,0.1,1030,0.4,0.1,0.3
-B. UN-NATURAL CAUSES,7,Factory/Machine Accidents,669,0.3,0.1,642,0.2,0.1,4.0
-B. UN-NATURAL CAUSES,8,Rie:,25166,10.8,2.6,25898,10.0,27,2.9
+B. UN-NATURAL CAUSES,,(i) Fall from Height,5139,2.2,0.5,5171,2.0,0.5,0.6
+B. UN-NATURAL CAUSES,,(ii) Fall into Pit/Manhole etc.,1033,0.4,0.1,1030,0.4,0.1,-0.3
+B. UN-NATURAL CAUSES,7,Factory/Machine Accidents,669,0.3,0.1,642,0.2,0.1,-4.0
+B. UN-NATURAL CAUSES,8,Fire:,25166,10.8,2.6,25898,10.0,2.7,2.9
 B. UN-NATURAL CAUSES,,(i) Fireworks/Crackers,383,0.2,0.0,368,0.1,0.0,-3.9
 B. UN-NATURAL CAUSES,,(ii) Short-Circuit,621,0.3,0.1,828,0.3,0.1,33.3
-B. UN-NATURAL CAUSES,,(iii) Gas Cylinder/Stove Burst,7123,3.0,0.7,6833,2.6,0.7,4.1
-B. UN-NATURAL CAUSES,,(iv) Other Fire Accidents,17039,7.3,1.8,17869,6.9,1.8,49
-B. UN-NATURAL CAUSES,,(iv) Other Fire Accidents [line 2],,,,,,,-
+B. UN-NATURAL CAUSES,,(iii) Gas Cylinder/Stove Burst,7123,3.0,0.7,6833,2.6,0.7,-4.1
+B. UN-NATURAL CAUSES,,(iv) Other Fire Accidents,17039,7.3,1.8,17869,6.9,1.8,4.9
 B. UN-NATURAL CAUSES,9,Fire-Arms,1496,0.6,0.2,2917,1.1,0.3,95.0
-B. UN-NATURAL CAUSES,10,Neathe:,11041,4.7,1.2,13509,5.2,1.4,22.4
+B. UN-NATURAL CAUSES,10,Sudden Deaths:,11041,4.7,1.2,13509,5.2,1.4,22.4
 B. UN-NATURAL CAUSES,,(i) Heart Attacks,5808,2.5,0.6,7176,2.8,0.7,23.6
 B. UN-NATURAL CAUSES,,(ii) Epileptic Fits/Giddiness,1861,0.8,0.2,2419,0.9,0.2,30.0
 B. UN-NATURAL CAUSES,,(iii) Abortions/Child Birth,492,0.2,0.1,593,0.2,0.1,20.5
-B. UN-NATURAL CAUSES,,(iv) Influence of Alcohol,2880,1.2,0.3,3321,Ls,0.3,15.3
+B. UN-NATURAL CAUSES,,(iv) Influence of Alcohol,2880,1.2,0.3,3321,1.3,0.3,15.3
 B. UN-NATURAL CAUSES,11,Killed by animals,771,0.3,0.1,730,0.3,0.1,-5.3
-B. UN-NATURAL CAUSES,12,Mines or quary disaster,614,0.3,0.1,426,0.2,0.0,-30.6
-B. UN-NATURAL CAUSES,13,Poisoning:,21852,9.2,2.3,24262,9.4,25,12.6
-B. UN-NATURAL CAUSES,,Food Poisoning/Accidental Intake of Ins.,8103,3.5,0.8,9526,3.7,1.0,17.6
+B. UN-NATURAL CAUSES,12,Mines or quarry disaster,614,0.3,0.1,426,0.2,0.0,-30.6
+B. UN-NATURAL CAUSES,13,Poisoning:,21552,9.2,2.3,24262,9.4,2.5,12.6
+B. UN-NATURAL CAUSES,,(i) Food Poisoning/Accidental Intake of Ins.,8103,3.5,0.8,9526,3.7,1.0,17.6
 B. UN-NATURAL CAUSES,,(ii) Spurious/poisonous liquor,771,0.3,0.1,985,0.4,0.1,27.8
-B. UN-NATURAL CAUSES,,(iii) Leakage of poisonous gases Etc.,232,0.1,0.0,199,,0.0,142
+B. UN-NATURAL CAUSES,,(iii) Leakage of poisonous gases Etc.,232,0.1,0.0,199,0.1,0.0,-14.2
 B. UN-NATURAL CAUSES,,(iv) Snake Bite/Animal Bite,4906,2.1,0.5,6095,2.4,0.6,24.2
-B. UN-NATURAL CAUSES,,(v) Other,7540,3.2,0.8,7457,2.9,0.8,
+B. UN-NATURAL CAUSES,,(v) Other,7540,3.2,0.8,7457,2.9,0.8,-1.1
 B. UN-NATURAL CAUSES,14,Stampede,19,0.0,0.0,19,0.0,0.0,0.0
 B. UN-NATURAL CAUSES,15,Suffocation,584,0.2,0.1,628,0.2,0.1,7.5
-B. UN-NATURAL CAUSES,16,Traffic Accidents:,88474,3738,9.3,93996,36.4,9.7,6.2
-B. UN-NATURAL CAUSES,,(i) Road Accidents,74204,31.7,7.8,16732,29.7,79,34
-B. UN-NATURAL CAUSES,,(ii) Rail-Road Accidents,1501,0.6,0.2,2799,id,0.3,86.5
-B. UN-NATURAL CAUSES,,(iii) Other Railway Accidents,12769,5.5,1.3,14465,5.6,15,13.3
+B. UN-NATURAL CAUSES,16,Traffic Accidents:,88474,37.8,9.3,93996,36.4,9.7,6.2
+B. UN-NATURAL CAUSES,,(i) Road Accidents,74204,31.7,7.8,76732,29.7,7.9,3.4
+B. UN-NATURAL CAUSES,,(ii) Rail-Road Accidents,1501,0.6,0.2,2799,1.1,0.3,86.5
+B. UN-NATURAL CAUSES,,(iii) Other Railway Accidents,12769,5.5,1.3,14465,5.6,1.5,13.3
 B. UN-NATURAL CAUSES,17,Other Causes,14665,6.3,1.5,17839,6.9,1.8,21.6
 B. UN-NATURAL CAUSES,18,Causes Not Known,14293,6.1,1.5,17299,6.7,1.8,21.0
-B. UN-NATURAL CAUSES,,TOTAL,214995,91.9,22.5,235647,91.2,24.3,96
-B. UN-NATURAL CAUSES,,Grand TOTAL (A+B),233903,100.0,24.5,258409,100.0,26.6,10.5
+B. UN-NATURAL CAUSES,,Total (B),214995,91.9,22.5,235647,91.2,24.3,9.6
+B. UN-NATURAL CAUSES,,Grand Total (A+B),233903,100.0,24.5,258409,100.0,26.6,10.5

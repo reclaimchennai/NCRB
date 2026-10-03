@@ -8,21 +8,21 @@
  "serial": "32",
  "title": "Juvenile Delinquency for Important Heads of Crime under IPC During 1984",
  "listing_title": "Juvenile Delinquency for Important Heads of Crime under IPC During 1984",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-33-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-33-1984.pdf",
  "source_sha256": "3c5cdca1d564b3f09a5debc5c72118fbc53b7e4935ff16bea69e09e9e0b14c81",
  "table_no": "",
- "pdf_title": "E-33 Juvenile Delinquency For Important Heads Of Crime Under IPC",
- "row_label": "SL. NO. / STATES/UTS/CITIES",
+ "pdf_title": "90 TABLE E-33 Juvenile Delinquency For Important Heads Of Crime Under IPC During 1984",
+ "row_label": "SL. NO. / STATES/UTs/CITIES",
  "pages": [
   1,
   2
  ],
- "n_rows": 58,
+ "n_rows": 47,
  "n_cols": 13,
- "n_cells": 602,
+ "n_cells": 611,
  "columns": [
   {
    "col_no": "3",
@@ -33,44 +33,44 @@
   },
   {
    "col_no": "4",
-   "name": "C.H AMOUNT ING TO",
+   "name": "C.H NOT AMOUNTING TO MURDER",
    "header": [
-    "C.H AMOUNT ING TO"
+    "C.H NOT AMOUNTING TO MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "During NOT MURDER",
+   "name": "RAPE",
    "header": [
-    "During NOT MURDER"
+    "RAPE"
    ]
   },
   {
    "col_no": "6",
-   "name": "1984 RAPE AND ABDUCT LON",
+   "name": "KIDNAPPING AND ABDUCTION",
    "header": [
-    "1984 RAPE AND ABDUCT LON"
+    "KIDNAPPING AND ABDUCTION"
    ]
   },
   {
    "col_no": "7",
-   "name": "KIDNAPPING",
-   "header": [
-    "KIDNAPPING"
-   ]
-  },
-  {
-   "col_no": "8",
    "name": "DACOITY",
    "header": [
     "DACOITY"
    ]
   },
   {
-   "col_no": "9",
-   "name": "KOKKERKY",
+   "col_no": "8",
+   "name": "ROBBERY",
    "header": [
-    "KOKKERKY"
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
    ]
   },
   {
@@ -89,26 +89,23 @@
   },
   {
    "col_no": "12",
-   "name": "CHEATING | CRIMINAL BREACH OF",
+   "name": "CRIMINAL BREACH OF TRUST",
    "header": [
-    "CHEATING",
-    "CRIMINAL BREACH OF"
+    "CRIMINAL BREACH OF TRUST"
    ]
   },
   {
    "col_no": "13",
-   "name": "CHEATING | TRUST",
+   "name": "CHEATING",
    "header": [
-    "CHEATING",
-    "TRUST"
+    "CHEATING"
    ]
   },
   {
    "col_no": "14",
-   "name": "CHEATING | COUNTERFEITING",
+   "name": "COUNTER-FEITING",
    "header": [
-    "CHEATING",
-    "COUNTERFEITING"
+    "COUNTER-FEITING"
    ]
   },
   {
@@ -121,20 +118,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 26,
-  "cells_passed": 13,
-  "failures": [
-   "col 3 'TOTAL (States)': printed 1114, sum 1121",
-   "col 3 'TOTAL (Cities)': printed 153, sum 152",
-   "col 4 'TOTAL (States)': printed 75, sum 73",
-   "col 4 'TOTAL (Cities)': printed 44, sum 51",
-   "col 8 'TOTAL (Cities)': printed 187, sum 180",
-   "col 10 'TOTAL (States)': printed 10915, sum 7705",
-   "col 10 'TOTAL (Cities)': printed 1932, sum 1805",
-   "col 12 'TOTAL (States)': printed 197, sum 126"
-  ],
-  "other_totals_checked": 7,
-  "other_totals_passed": 7
+  "cells_checked": 36,
+  "cells_passed": 36,
+  "failures": [],
+  "other_totals_checked": 12,
+  "other_totals_passed": 12
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

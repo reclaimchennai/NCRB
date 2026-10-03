@@ -6,16 +6,16 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "10",
- "title": "(Cont inned)",
+ "title": "37 TABLE-7A",
  "listing_title": "Statement Showing Citywise Incidence of Cognizable Crimes (IPC) Reported During the Year 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables7-a-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables7-a-1985.pdf",
  "source_sha256": "265fd4c29f5857101834670761cd59e6839a9abad7b85240541103ac5da5054e",
  "table_no": "7A",
- "pdf_title": "(Cont inned)",
- "row_label": "sL NO. (1) ANDHRA",
+ "pdf_title": "37 TABLE-7A",
+ "row_label": "SL NO. / STATES/U. Ts/ CITIES",
  "pages": [
   2,
   3,
@@ -25,97 +25,87 @@
   7,
   8
  ],
- "n_rows": 189,
- "n_cols": 14,
- "n_cells": 1652,
+ "n_rows": 153,
+ "n_cols": 13,
+ "n_cells": 1722,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATES/U. Ts/ CITIES (2) PRADESH",
-   "header": [
-    "STATES/U. Ts/ CITIES (2) PRADESH"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "THEFT (9)",
-   "header": [
-    "THEFT (9)"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "RIOTS (10)",
-   "header": [
-    "RIOTS (10)"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "BREACH OF TRUST (i1)",
-   "header": [
-    "BREACH OF TRUST (i1)"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Countan- | CHEATING (12)",
-   "header": [
-    "Countan-",
-    "CHEATING (12)"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Countan- | #13)",
-   "header": [
-    "Countan-",
-    "#13)"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Countan- | TOTAL CONGNIZABLE CRIME UNDER IPc (14) (15)",
-   "header": [
-    "Countan-",
-    "TOTAL CONGNIZABLE CRIME UNDER IPc (14) (15)"
-   ]
-  },
-  {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "THEFT",
+   "header": [
+    "THEFT"
+   ]
   },
   {
    "col_no": "11",
-   "name": "q1l)",
+   "name": "RIOTS",
    "header": [
-    "q1l)"
+    "RIOTS"
    ]
   },
   {
    "col_no": "12",
-   "name": "col_12",
-   "header": []
+   "name": "CRIMINAL BREACH OF TRUST",
+   "header": [
+    "CRIMINAL BREACH OF TRUST"
+   ]
   },
   {
    "col_no": "13",
-   "name": "col_13",
-   "header": []
+   "name": "CHEAT-ING",
+   "header": [
+    "CHEAT-ING"
+   ]
   },
   {
    "col_no": "14",
-   "name": "col_14",
-   "header": []
+   "name": "COUNTER-FEITING",
+   "header": [
+    "COUNTER-FEITING"
+   ]
   },
   {
    "col_no": "15",
-   "name": "col_15",
+   "name": "TOTAL CONGNI-ZABLE CRIME UNDER IPC",
+   "header": [
+    "TOTAL CONGNI-ZABLE CRIME UNDER IPC"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "8",
+   "name": "col_8",
    "header": []
   }
  ],
@@ -127,7 +117,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 7,
  "warnings": []
 }

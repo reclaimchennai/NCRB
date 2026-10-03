@@ -8,77 +8,77 @@
  "serial": "7",
  "title": "Juveniles Dealt With",
  "listing_title": "Juveniles Dealt With",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680078006TABLE-6-1964.pdf",
  "source_file": "raw/cii/1964/table_content/1680078006TABLE-6-1964.pdf",
  "source_sha256": "c6550304e8cff6b559de7d57bfde6a3634cb0ad26e6df3f1db0917c16de8e628",
  "table_no": "",
- "pdf_title": "TABLE No. VI Juveniles ->-=7-=----« under age groups",
- "row_label": "7—12 yrs. Head of Crime / 7—12 yrs. Boys / 7—12 yrs. ay Girls",
+ "pdf_title": "28 TABLE No. VI Juveniles apprehended under age groups",
+ "row_label": "Head of Crime",
  "pages": [
   1
  ],
  "n_rows": 16,
- "n_cols": 4,
- "n_cells": 63,
+ "n_cols": 6,
+ "n_cells": 96,
  "columns": [
   {
-   "col_no": "4",
-   "name": "7—12 yrs. | Over 12—16 yrs. * | Boys",
+   "col_no": "2",
+   "name": "7-12 yrs. | Boys",
    "header": [
-    "7—12 yrs.",
-    "Over 12—16 yrs. *",
+    "7-12 yrs.",
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "7-12 yrs. | Girls",
+   "header": [
+    "7-12 yrs.",
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Over 12-16 yrs. | Boys",
+   "header": [
+    "Over 12-16 yrs.",
     "Boys"
    ]
   },
   {
    "col_no": "5",
-   "name": "7—12 yrs. | Over 12—16 yrs. * | Girls",
+   "name": "Over 12-16 yrs. | Girls",
    "header": [
-    "7—12 yrs.",
-    "Over 12—16 yrs. *",
+    "Over 12-16 yrs.",
     "Girls"
    ]
   },
   {
    "col_no": "6",
-   "name": "Over 16—21 yrs. | * Boys",
+   "name": "Over 16-21 yrs. | Boys",
    "header": [
-    "Over 16—21 yrs.",
-    "* Boys"
+    "Over 16-21 yrs.",
+    "Boys"
    ]
   },
   {
    "col_no": "7",
-   "name": "Over 16—21 yrs. | ’ Girls",
+   "name": "Over 16-21 yrs. | Girls",
    "header": [
-    "Over 16—21 yrs.",
-    "’ Girls"
+    "Over 16-21 yrs.",
+    "Girls"
    ]
   }
  ],
- "notes": [
-  "=66,158",
-  "66,158 woe this year as against 51,349 in 1963 thereby showing",
-  "an increase of 28-84%.",
-  "*These include mainly",
-  "Children ann-—.-2-=4 for begging;",
-  "Gi) Children found isioxicaied by liquor or 425-7: drugs;",
-  "(iii) Children indulging in or",
-  "(iv) aln.ct.-.t-1 from broinels;",
-  "(¥) Children indnigine in ete;",
-  "(vi) Children having no homes cettled nlace of visible of or having",
-  "NO parouis or S4=stisn= who could exercise proper",
-  "{These include offences under the Indian Penal Code, Indian Arms Act, Explosives",
-  "Act Explosive Act and Habitual Offenders Act, etc."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

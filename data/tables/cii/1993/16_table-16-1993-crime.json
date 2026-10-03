@@ -8,14 +8,14 @@
  "serial": "16",
  "title": "Disposal of L&SL Crime Cases by Police During 1993",
  "listing_title": "Disposal of L&SL Crime Cases by Police During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-16-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-16-1993-crime.pdf",
  "source_sha256": "321514c43e22d6ed9ecb4f3f204dee8b8a541fb2596ae2549b399c4b913d63ab",
  "table_no": "16",
- "pdf_title": "DISPOSAL OF L&SL CRIME CASES BY POLICE DURING 1993",
- "row_label": "",
+ "pdf_title": "140 TABLE-16 DISPOSAL OF L&SL CRIME CASES BY POLICE DURING 1993",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -25,38 +25,61 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING BENDING CASES",
+   "header": [
+    "TOTAL NO. OF CASES FOR INVESTIGATION INCLUDING BENDING CASES"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS REFUSED",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS REFUSED"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMI-TTED",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMI-TTED"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERE LAID"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "NO. OF CASES IN WHICH | INVESTIGATION WAS COMPLETED | TOTAL [(5) + (6) + (7)]",
+   "header": [
+    "NO. OF CASES IN WHICH",
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL [(5) + (6) + (7)]"
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "NO. OF CASES PEN-DING INVESTIGATION",
+   "header": [
+    "NO. OF CASES PEN-DING INVESTIGATION"
+   ]
   }
  ],
  "notes": [],
@@ -64,8 +87,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

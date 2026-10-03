@@ -6,115 +6,40 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "DISTRIBUTION OF CONVICTS BY PERIOD OF SENTENCE AT THE END OF 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 During 1998, only 24 States/UTs provided training to their Staff. Of the 24 States/UTs, Madhya Pradesh (690) ranked high in reporting various training programmes imparted to their staff during the year. This was followed by Andhra Pradesh (428) and Uttar Pradesh (311).",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
- "table_no": "30",
- "pdf_title": "DISTRIBUTION OF CONVICTS BY PERIOD OF SENTENCE AT THE END OF 1998",
- "row_label": "(1) (2)",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 During 1998, only 24 States/UTs provided training to their Staff. Of the 24 States/UTs, Madhya Pradesh (690) ranked high in reporting various training programmes imparted to their staff during the year. This was followed by Andhra Pradesh (428) and Uttar Pradesh (311).",
+ "row_label": "Sl. NO. / STATE/UT",
  "pages": [
-  115,
-  116
+  57
  ],
- "n_rows": 62,
- "n_cols": 10,
- "n_cells": 234,
+ "n_rows": 9,
+ "n_cols": 1,
+ "n_cells": 9,
  "columns": [
   {
-   "col_no": "2",
-   "name": "CAPITAL MENT",
-   "header": [
-    "CAPITAL MENT"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "- 10 -13 | MENT",
-   "header": [
-    "- 10 -13",
-    "MENT"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "- 10 -13 | YEARS",
+   "name": "TOTAL PERSONNEL TRAINED DURING THE YEAR",
    "header": [
-    "- 10 -13",
-    "YEARS"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "7 - 9 YEARS",
-   "header": [
-    "7 - 9 YEARS"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "5 - 6 PLUS YEARS",
-   "header": [
-    "5 - 6 PLUS YEARS"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "2 - 4 PLUS PLUS YEARS",
-   "header": [
-    "2 - 4 PLUS PLUS YEARS"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "1 - LESS THAN 2 YEARS (9)",
-   "header": [
-    "1 - LESS THAN 2 YEARS (9)"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "3 SLESS | 6 MONTHS THAN 1 SEAR (10)",
-   "header": [
-    "3 SLESS",
-    "6 MONTHS THAN 1 SEAR (10)"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "3 SLESS | MONTHS (14)",
-   "header": [
-    "3 SLESS",
-    "MONTHS (14)"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "—_LESS THAN 3 6 TOTAL MONTHS (13) (12)",
-   "header": [
-    "—_LESS THAN 3 6 TOTAL MONTHS (13) (12)"
+    "TOTAL PERSONNEL TRAINED DURING THE YEAR"
    ]
   }
  ],
- "notes": [
-  "MA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 0,
-  "failures": [
-   "col 5 'TOTAL (STATES)': printed 3301, sum 3307",
-   "col 6 'TOTAL (STATES)': printed 2807, sum 2805",
-   "col 10001 'TOTAL (UTS)': printed 195, sum 4773",
-   "col 10002 'TOTAL (UTS)': printed 98, sum 5911"
-  ],
+  "cells_checked": 1,
+  "cells_passed": 1,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

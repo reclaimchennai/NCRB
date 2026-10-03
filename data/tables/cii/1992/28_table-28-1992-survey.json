@@ -8,151 +8,164 @@
  "serial": "28",
  "title": "Persons Arrested under IPC and LSL Crimes by Age Groups and Sex During 1992",
  "listing_title": "Persons Arrested under IPC and LSL Crimes by Age Groups and Sex During 1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-28-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-28-1992-survey.pdf",
  "source_sha256": "c09854f7f1b7503aaed856ae9f75e6fc040422d0538505f1ae813fece064ae69",
  "table_no": "28",
- "pdf_title": "PERSONS APPESTEN UNDER IPC AND LSL CRIMES BY AGE GROUPS AND SEX DURING 1992",
- "row_label": "sL. wo. / CRIME",
+ "pdf_title": "176 TABLE-28 PERSONS ARRESTED UNDER IPC AND LSL CRIMES BY AGE GROUPS AND SEX DURING 1992",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1,
   2
  ],
- "n_rows": 36,
- "n_cols": 17,
- "n_cells": 597,
+ "n_rows": 72,
+ "n_cols": 16,
+ "n_cells": 576,
  "columns": [
   {
    "col_no": "3",
-   "name": "HEAD MALE",
+   "name": "BELOW 16 YEARS | MALE",
    "header": [
-    "HEAD MALE"
+    "BELOW 16 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "4",
-   "name": "BELOW FEMALE",
+   "name": "BELOW 16 YEARS | FEMALE",
    "header": [
-    "BELOW FEMALE"
+    "BELOW 16 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "5",
-   "name": "16 MALE",
+   "name": "16-18 YEARS | MALE",
    "header": [
-    "16 MALE"
+    "16-18 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "6",
-   "name": "YEARS PREMALE",
+   "name": "16-18 YEARS | FEMALE",
    "header": [
-    "YEARS PREMALE"
+    "16-18 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "7",
-   "name": "16-18 MALE",
+   "name": "18-30 YEARS | MALE",
    "header": [
-    "16-18 MALE"
+    "18-30 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "YEARS PEMALE",
+   "name": "18-30 YEARS | FEMALE",
    "header": [
-    "YEARS PEMALE"
+    "18-30 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "9",
-   "name": "18-30 30-50 MALE",
+   "name": "30-50 YEARS | MALE",
    "header": [
-    "18-30 30-50 MALE"
+    "30-50 YEARS",
+    "MALE"
    ]
   },
   {
    "col_no": "10",
-   "name": "YEARS YEARS FEMALE",
+   "name": "30-50 YEARS | FEMALE",
    "header": [
-    "YEARS YEARS FEMALE"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "SO MALE",
-   "header": [
-    "SO MALE"
+    "30-50 YEARS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "12",
-   "name": "YEARS FEMALE",
+   "name": "50 YEARS & ABOVE | FEMALE",
    "header": [
-    "YEARS FEMALE"
+    "50 YEARS & ABOVE",
+    "FEMALE"
    ]
   },
   {
    "col_no": "13",
-   "name": "& M {Col.",
+   "name": "ALL AGE GROUPS | JUVENILES | M{Col. 3}",
    "header": [
-    "& M {Col."
+    "ALL AGE GROUPS",
+    "JUVENILES",
+    "M{Col. 3}"
    ]
   },
   {
    "col_no": "14",
-   "name": "ABOVE JUVENILES F 3}",
+   "name": "ALL AGE GROUPS | JUVENILES | F{Col. 4+6}",
    "header": [
-    "ABOVE JUVENILES F 3}"
+    "ALL AGE GROUPS",
+    "JUVENILES",
+    "F{Col. 4+6}"
    ]
   },
   {
    "col_no": "15",
-   "name": "ALL OTHERS M {Col.4+6}",
+   "name": "ALL AGE GROUPS | OTHERS | M",
    "header": [
-    "ALL OTHERS M {Col.4+6}"
+    "ALL AGE GROUPS",
+    "OTHERS",
+    "M"
    ]
   },
   {
    "col_no": "16",
-   "name": "AGE F",
+   "name": "ALL AGE GROUPS | OTHERS | F",
    "header": [
-    "AGE F"
+    "ALL AGE GROUPS",
+    "OTHERS",
+    "F"
    ]
   },
   {
    "col_no": "17",
-   "name": "GROUPS TOTAL M",
+   "name": "ALL AGE GROUPS | TOTAL | M",
    "header": [
-    "GROUPS TOTAL M"
+    "ALL AGE GROUPS",
+    "TOTAL",
+    "M"
    ]
   },
   {
    "col_no": "18",
-   "name": "F",
+   "name": "ALL AGE GROUPS | TOTAL | F",
    "header": [
+    "ALL AGE GROUPS",
+    "TOTAL",
     "F"
    ]
   },
   {
    "col_no": "19",
-   "name": "GRAND TOTAL M+F {17+18}",
+   "name": "GRAND TOTAL | M+F(17+18)",
    "header": [
-    "GRAND TOTAL M+F {17+18}"
+    "GRAND TOTAL",
+    "M+F(17+18)"
    ]
   }
  ],
- "notes": [
-  "NOTE: 16-18 YEARS MEANS 16 YEARS & ABGVE BUT BELOW 18 YEARS OF AGE ETC."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 48,
-  "other_totals_passed": 26
+  "other_totals_checked": 24,
+  "other_totals_passed": 16
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

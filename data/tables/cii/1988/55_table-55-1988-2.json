@@ -8,82 +8,151 @@
  "serial": "55",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1988 (State, UT & City-wise) Burglary",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1988 (State, UT & City-wise) Burglary",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-55-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-55-1988-2.pdf",
  "source_sha256": "5593f95955f21c7d1c57b3f2caacd6e93787c16a6ca93ef851294398e0dc587b",
  "table_no": "55",
- "pdf_title": "",
- "row_label": "NUMBER SL. STATE/UT/CITY NO. NUMBER ql)",
+ "pdf_title": "166 TABLE-55 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURANCE (STATE, UT & CITY-WISE)",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 47,
- "n_cols": 7,
- "n_cells": 299,
+ "n_rows": 94,
+ "n_cols": 15,
+ "n_cells": 705,
  "columns": [
   {
-   "col_no": "4",
-   "name": "OF 1AL VALUE ¢«2)",
+   "col_no": "3",
+   "name": "RESIDENTIAL PEREMISES | NUMBER",
    "header": [
-    "OF 1AL VALUE ¢«2)"
+    "RESIDENTIAL PEREMISES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "RESIDENTIAL PEREMISES | VALUE",
+   "header": [
+    "RESIDENTIAL PEREMISES",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "CASES NUMBER",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "CASES NUMBER"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "VALUE AND (STATE, HIGHWAYS VALUE",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "VALUE AND (STATE, HIGHWAYS VALUE"
+    "HIGHWAYS",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "OF UT & ARV RIVER NUMBER",
+   "name": "RIVER & SEAS | NUMBER",
    "header": [
-    "OF UT & ARV RIVER NUMBER"
+    "RIVER & SEAS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "riwreni:s CITY-WISE) & VALUE",
+   "name": "RIVER & SEAS | VALUE",
    "header": [
-    "riwreni:s CITY-WISE) & VALUE"
+    "RIVER & SEAS",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "PLACE OF STULEN (Rs. SEAS NUMBER",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "PLACE OF STULEN (Rs. SEAS NUMBER"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "BY - - lakh) in RATLWAYS VALUE",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "BY - - lakh) in RATLWAYS VALUE"
+    "RAILWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BANKS",
+   "header": [
+    "BANKS"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BANKS | VALUE",
+   "header": [
+    "BANKS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENT | NUMBER",
+   "header": [
+    "COMMERCIAL EASTABLISHMENT",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "COMMERCIAL EASTABLISHMENT | VALUE",
+   "header": [
+    "COMMERCIAL EASTABLISHMENT",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
    ]
   }
  ],
- "notes": [
-  "Note: value less than 0.05 is also shown as .0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 5,
+  "cells_checked": 12,
+  "cells_passed": 12,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

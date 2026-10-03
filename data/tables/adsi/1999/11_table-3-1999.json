@@ -8,56 +8,51 @@
  "serial": "11",
  "title": "Comparative Statement of Incidence of Accidental Deaths during 1998 and 1999 (State, UT & City-wise)",
  "listing_title": "Comparative Statement of Incidence of Accidental Deaths during 1998 and 1999 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-3_1999.pdf",
  "source_file": "raw/adsi/1999/table_content/table-3_1999.pdf",
  "source_sha256": "23e6ae996e6b9b4564db5bdf8fe03a28cffc3fcc397dcd85d802411329a3ad30",
  "table_no": "3",
- "pdf_title": "Comparative Statement of Incidence of Accidental Deaths During 1998 and 1999 (State, UT & City-wise)",
- "row_label": "Sl. No. / State/UT/City",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1999 N.C.R.B., (M.H.A.) Table-3",
+ "row_label": "Incidence",
  "pages": [
+  1,
   1
  ],
- "n_rows": 3,
+ "n_rows": 60,
  "n_cols": 3,
- "n_cells": 7,
+ "n_cells": 178,
  "columns": [
   {
-   "col_no": "3",
-   "name": "incidence | 1997",
+   "col_no": "4",
+   "name": "Incidence",
    "header": [
-    "incidence",
-    "1997"
+    "Incidence"
    ]
   },
   {
-   "col_no": "4",
-   "name": "incidence | 1998",
-   "header": [
-    "incidence",
-    "1998"
-   ]
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "Variation in 1 999 over 1998",
-   "header": [
-    "Variation in 1 999 over 1998"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
+  "cells_checked": 8,
+  "cells_passed": 7,
   "failures": [
-   "col 3 'TOTAL (Cities)': printed 31696, sum 428598"
+   "col 4 'Total (States)': printed 263481, sum 265479"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

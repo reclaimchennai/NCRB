@@ -8,61 +8,61 @@
  "serial": "49",
  "title": "Incidence of Crimes Committed Against Women During 1990 (State & UT-wise)",
  "listing_title": "Incidence of Crimes Committed Against Women During 1990 (State & UT-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-49-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-49-1992-survey.pdf",
  "source_sha256": "8070bc73e88c8633694d8d233c7b201640627dcfa400152baa2115680a084521",
  "table_no": "49",
- "pdf_title": "",
- "row_label": "SL. No. / STATE/UT",
+ "pdf_title": "238 TABLE-49 INCIDENCE OF CRIMES COMMITTED AGAINST WOMEN DURING 199",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 7,
- "n_cells": 241,
+ "n_cells": 245,
  "columns": [
   {
    "col_no": "3",
-   "name": "INCIDBNCE RAPE",
+   "name": "RAPE",
    "header": [
-    "INCIDBNCE RAPE"
+    "RAPE"
    ]
   },
   {
    "col_no": "4",
-   "name": "OF KIDRAPPING &",
+   "name": "KIDRAPPING & ABDUCTION",
    "header": [
-    "OF KIDRAPPING &"
+    "KIDRAPPING & ABDUCTION"
    ]
   },
   {
    "col_no": "5",
-   "name": "CRIMES (STATE ABDUCTION",
+   "name": "DOWRY DEATHS",
    "header": [
-    "CRIMES (STATE ABDUCTION"
+    "DOWRY DEATHS"
    ]
   },
   {
    "col_no": "6",
-   "name": "WOMEN & CRUELTY BY DEATHS AMD RELATIVES",
+   "name": "CRUELTY BY HUSBAND AND HIS RELATIVES",
    "header": [
-    "WOMEN & CRUELTY BY DEATHS AMD RELATIVES"
+    "CRUELTY BY HUSBAND AND HIS RELATIVES"
    ]
   },
   {
    "col_no": "7",
-   "name": "DURING AGAINST UT-WISE) MOLES - HUSBAND TATION HIS",
+   "name": "MOLES-TATION",
    "header": [
-    "DURING AGAINST UT-WISE) MOLES - HUSBAND TATION HIS"
+    "MOLES-TATION"
    ]
   },
   {
    "col_no": "8",
-   "name": "195 EVETEASING",
+   "name": "EVER-TEASING",
    "header": [
-    "195 EVETEASING"
+    "EVER-TEASING"
    ]
   },
   {
@@ -73,17 +73,13 @@
    ]
   }
  ],
- "notes": [
-  "NOTE: FIGURES ARE BASED ON MONTHLY CRIME STATISTICS AND MAY BE TREATED AS PROVISIONAL."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 13,
-  "failures": [
-   "col 6 'TOTAL (STATES)': printed 13325, sum 15116"
-  ],
-  "other_totals_checked": 7,
-  "other_totals_passed": 7
+  "cells_checked": 21,
+  "cells_passed": 21,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

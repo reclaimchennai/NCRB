@@ -6,59 +6,84 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "HOUSF-RREAKING",
+ "title": "75 APPENDIX XI —CASES",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1679313928APPENDIX-1968.pdf",
  "source_file": "raw/cii/1968/table_chapter/1679313928APPENDIX-1968.pdf",
  "source_sha256": "493f5b67dabc91244294a7fa7c9fe8dc540a11a27fdfa554f3baea39f06e9d13",
  "table_no": "",
- "pdf_title": "HOUSF-RREAKING",
- "row_label": "lo. / States/U.Ts./Cities inginvestigation from previous year",
+ "pdf_title": "75 APPENDIX XI —CASES",
+ "row_label": "Total True cases",
  "pages": [
-  22
+  23
  ],
- "n_rows": 39,
- "n_cols": 5,
- "n_cells": 193,
+ "n_rows": 40,
+ "n_cols": 9,
+ "n_cells": 360,
  "columns": [
   {
-   "col_no": "4",
-   "name": "ing disposal in courts",
+   "col_no": "2",
+   "name": "Cases not detected",
    "header": [
-    "ing disposal in courts"
+    "Cases not detected"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cases in which charge sheet was laid",
+   "header": [
+    "Cases in which charge sheet was laid"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases compounded or withdrawn",
+   "header": [
+    "Cases compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases rtdats ingthe year",
+   "name": "Cases in which trial was completed",
    "header": [
-    "Cases rtdats ingthe year"
+    "Cases in which trial was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "pe | Cases notin vestigated (+) Declaredfalse Mistake of fact or law (+) Non-cognizable",
+   "name": "Cases convicted",
    "header": [
-    "pe",
-    "Cases notin vestigated (+) Declaredfalse Mistake of fact or law (+) Non-cognizable"
+    "Cases convicted"
    ]
   },
   {
    "col_no": "7",
-   "name": "pe | inginvestigation atthe endof the year",
+   "name": "Cases acquitted or discharged",
    "header": [
-    "pe",
-    "inginvestigation atthe endof the year"
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "8",
-   "name": "pe | per iny: at of the year",
+   "name": "Percentage of cases convicted to true cases investigated",
    "header": [
-    "pe",
-    "per iny: at of the year"
+    "Percentage of cases convicted to true cases investigated"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Percentage of cases convicted to cases in which trial was completed",
+   "header": [
+    "Percentage of cases convicted to cases in which trial was completed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Volume of crime per 1,00,000 of population",
+   "header": [
+    "Volume of crime per 1,00,000 of population"
    ]
   }
  ],
@@ -67,8 +92,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 7,
-  "other_totals_passed": 3
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

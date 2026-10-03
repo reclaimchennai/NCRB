@@ -8,67 +8,67 @@
  "serial": "87",
  "title": "Incidence and Rate of Juvenile Delinquency under IPC 1984-94",
  "listing_title": "Incidence and Rate of Juvenile Delinquency under IPC 1984-94",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table42-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table42-1994_2.pdf",
  "source_sha256": "11d85244cf59c3b528cef66c5626fea7c8e0dd7f58f6b4af9a004c785d99f06e",
  "table_no": "42",
- "pdf_title": "INCIDENCE AND RATE OF JUVENILE DELINOUFNCY UNDER IPC",
- "row_label": "SL. NO. / YEAR",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-42",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 12,
- "n_cols": 5,
- "n_cells": 55,
+ "n_rows": 11,
+ "n_cols": 6,
+ "n_cells": 66,
  "columns": [
   {
-   "col_no": "3",
-   "name": "1994 | INCIDENCE OF JUVENILE CRIMES",
+   "col_no": "2",
+   "name": "YEAR",
    "header": [
-    "1994",
-    "INCIDENCE OF JUVENILE CRIMES"
+    "YEAR"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "INCIDENCE OF | JUVENILE CRIMES",
+   "header": [
+    "INCIDENCE OF",
+    "JUVENILE CRIMES"
    ]
   },
   {
    "col_no": "4",
-   "name": "1994 | TOTAL CRIMES",
+   "name": "INCIDENCE OF | TOTAL COG. CRIMES",
    "header": [
-    "1994",
-    "TOTAL CRIMES"
+    "INCIDENCE OF",
+    "TOTAL COG. CRIMES"
    ]
   },
   {
    "col_no": "5",
-   "name": "94 PERCENTAGE OF JUVENILE CRIMES TOTAL CRIMES",
+   "name": "PERCENTAGE OF JUVENILE CRIMES TO TOTAL CRIMES",
    "header": [
-    "94 PERCENTAGE OF JUVENILE CRIMES TOTAL CRIMES"
+    "PERCENTAGE OF JUVENILE CRIMES TO TOTAL CRIMES"
    ]
   },
   {
    "col_no": "6",
-   "name": "RATE (CRIME PER LAKH | ESTIMATED MID-YEAR POPULATION® (IN LAKH)",
+   "name": "ESTIMATED MID-YEAR POPULATION* (IN LAKH)",
    "header": [
-    "RATE (CRIME PER LAKH",
-    "ESTIMATED MID-YEAR POPULATION® (IN LAKH)"
+    "ESTIMATED MID-YEAR POPULATION* (IN LAKH)"
    ]
   },
   {
    "col_no": "7",
-   "name": "RATE (CRIME PER LAKH | OF POPULATION)",
+   "name": "RATE (CRIME PER LAKH OF POPULATION)",
    "header": [
-    "RATE (CRIME PER LAKH",
-    "OF POPULATION)"
+    "RATE (CRIME PER LAKH OF POPULATION)"
    ]
   }
  ],
- "notes": [
-  "* SOURCE: THE REGISTRAR GENERAL OF INDIA, NEW DELHI",
-  "**DATA ON JUVENILES FOR 1988 ONWARDS IS NOT AT ALL COMPARABLE TO",
-  "EARLIER YEARS DUE TO CHANGE IN THE DEFINITION OF JUVENILES",
-  "FROM 1988."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

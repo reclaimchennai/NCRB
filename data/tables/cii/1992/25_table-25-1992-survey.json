@@ -8,52 +8,57 @@
  "serial": "25",
  "title": "Persons Arrested under Different LSL Crimes During 1992 and Percentage Variation in 1992 over 1991 (Crime-Head Wise)",
  "listing_title": "Persons Arrested under Different LSL Crimes During 1992 and Percentage Variation in 1992 over 1991 (Crime-Head Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-25-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-25-1992-survey.pdf",
  "source_sha256": "1a131ceaca9ade8a97cd544893834bdd5fb156e2dddf114b6de954b7387416fd",
  "table_no": "25",
- "pdf_title": "",
- "row_label": "SL. No. / PERSONS AND CRIME / ARRESTED PERCENTAGE VARIATION (CRIME-HEAD HEAD",
+ "pdf_title": "155 TABLE-25 PERSONS ARRESTED UNDER DIFFERENT LSL CRIMES DURING 1992",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 3,
- "n_cells": 51,
+ "n_cols": 4,
+ "n_cells": 68,
  "columns": [
   {
-   "col_no": "4",
-   "name": "UNDER DURING 1991 IN WISE) 1991",
+   "col_no": "3",
+   "name": "1991",
    "header": [
-    "UNDER DURING 1991 IN WISE) 1991"
+    "1991"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1992",
+   "header": [
+    "1992"
    ]
   },
   {
    "col_no": "5",
-   "name": "LSL 1992 1992 1992 FPEKCENTAGE VARIATION IN 1992 OVER",
+   "name": "PERCENTAGE VARIATION IN 1992 OVER 1991",
    "header": [
-    "LSL 1992 1992 1992 FPEKCENTAGE VARIATION IN 1992 OVER"
+    "PERCENTAGE VARIATION IN 1992 OVER 1991"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIMES OVER PERCENTAGE SHARE OF CRIME DURING 1992",
+   "name": "PERCENTAGE SHARE OF CRIME DURING 1992",
    "header": [
-    "CRIMES OVER PERCENTAGE SHARE OF CRIME DURING 1992"
+    "PERCENTAGE SHARE OF CRIME DURING 1992"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage share less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

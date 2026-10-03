@@ -6,61 +6,70 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "5",
- "title": "TABLE",
+ "title": "32 TABLE All India Statement of crime committed under",
  "listing_title": "All India Statement of Crime Committed under Special and Local Laws Declared to be Cognizable",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-5-1967.pdf",
  "source_sha256": "47aa4d203bac8af76d486bf75a0545f2ee3fe7cf27a23f7f26e223ecd7f52d7e",
  "table_no": "",
- "pdf_title": "TABLE",
- "row_label": "All India Head of Crime/ ‘Cases “Si. No. 1 - / All India Head of Crime/ ‘Cases Offences pending investi- * gation from. previous year ag 2.",
+ "pdf_title": "32 TABLE All India Statement of crime committed under",
+ "row_label": "Sl. No. / Head of Crime/ Offences",
  "pages": [
   1
  ],
- "n_rows": 10,
- "n_cols": 5,
- "n_cells": 46,
+ "n_rows": 9,
+ "n_cols": 7,
+ "n_cells": 63,
  "columns": [
   {
    "col_no": "3",
-   "name": "All India | Cases pending ‘disposal in. court 3-",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "All India",
-    "Cases pending ‘disposal in. court 3-"
+    "Cases pending investigation from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "All India | Cases reported during the year 4",
+   "name": "Cases pending disposal in court",
    "header": [
-    "All India",
-    "Cases reported during the year 4"
+    "Cases pending disposal in court"
    ]
   },
   {
    "col_no": "5",
-   "name": "All India | Cases not investideclared false(+-) mistake - -of fact or law or noncognizable 5",
+   "name": "Cases reported during the year",
    "header": [
-    "All India",
-    "Cases not investideclared false(+-) mistake - -of fact or law or noncognizable 5"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "crime committed under | Cases pending investigated(-++) gation. of the year ne 8 6",
+   "name": "Cases not investigated(+) declared false(+) mistake of fact or law or non-cognizable",
    "header": [
-    "crime committed under",
-    "Cases pending investigated(-++) gation. of the year ne 8 6"
+    "Cases not investigated(+) declared false(+) mistake of fact or law or non-cognizable"
    ]
   },
   {
    "col_no": "7",
-   "name": "crime committed under | Total Cases not true detected cases “9 v1",
+   "name": "Cases pending investigation or trial at end of the year",
    "header": [
-    "crime committed under",
-    "Total Cases not true detected cases “9 v1"
+    "Cases pending investigation or trial at end of the year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total true cases",
+   "header": [
+    "Total true cases"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Cases not detected",
+   "header": [
+    "Cases not detected"
    ]
   }
  ],
@@ -69,10 +78,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

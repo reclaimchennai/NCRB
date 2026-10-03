@@ -8,105 +8,264 @@
  "serial": "46",
  "title": "Table 45: Sanctioned and Actual Strength of Women Jail Officials as on 31st December 1999",
  "listing_title": "Table 45: Sanctioned and Actual Strength of Women Jail Officials as on 31st December 1999",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-45_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-45_1999.pdf",
  "source_sha256": "0e554dac05e73772f49a48a7a8fe028ede3153ed358c2cad01290a22027791d1",
  "table_no": "45",
- "pdf_title": "SANCTIONED AND ACTUAL STRENGTH WOMEN JAIL OFFICIALS AS ON 315° DECEMBER 1999",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-45",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 41,
- "n_cols": 8,
- "n_cells": 87,
+ "n_rows": 36,
+ "n_cols": 28,
+ "n_cells": 980,
  "columns": [
   {
    "col_no": "3",
-   "name": "DGAG/DIG/SUPDT.",
+   "name": "DG/IG/DIG/SUPDT. | SANCT- IONED",
    "header": [
-    "DGAG/DIG/SUPDT."
+    "DG/IG/DIG/SUPDT.",
+    "SANCT- IONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "DGAG/DIG/SUPDT. | ACTUAL",
+   "name": "DG/IG/DIG/SUPDT. | ACTUAL",
    "header": [
-    "DGAG/DIG/SUPDT.",
+    "DG/IG/DIG/SUPDT.",
     "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "HEAD DYSP/JAILOR/ - OTHER OFFICERS WARDERS/HEAD MATRON A. SUPDT ACTUAL ACTUAL ACTUAL",
+   "name": "DYSP/JAILOR/ D JAILOR/A JAILOR/ A. SUPDT. | SANCT- IONED",
    "header": [
-    "HEAD DYSP/JAILOR/ - OTHER OFFICERS WARDERS/HEAD MATRON A. SUPDT ACTUAL ACTUAL ACTUAL"
+    "DYSP/JAILOR/ D JAILOR/A JAILOR/ A. SUPDT.",
+    "SANCT- IONED"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "STATE/UT (2) ANDHRA PRADESH a 5°) GOA GUJARAT",
+   "col_no": "6",
+   "name": "DYSP/JAILOR/ D JAILOR/A JAILOR/ A. SUPDT. | ACTUAL",
    "header": [
-    "STATE/UT (2) ANDHRA PRADESH a 5°) GOA GUJARAT"
+    "DYSP/JAILOR/ D JAILOR/A JAILOR/ A. SUPDT.",
+    "ACTUAL"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "WARDER / MATRON Gt) 37 82 222 ER aa a 12 42",
+   "col_no": "7",
+   "name": "OTHER OFFICERS | SANCT- IONED",
    "header": [
-    "WARDER / MATRON Gt) 37 82 222 ER aa a 12 42"
+    "OTHER OFFICERS",
+    "SANCT- IONED"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "OTHER JAIL CADRE STAFE actual (12) (14) (5) 57 0 0 - T oT 73 aa 2 163 ae 2 ee a 4 12 42",
+   "col_no": "8",
+   "name": "OTHER OFFICERS | ACTUAL",
    "header": [
-    "OTHER JAIL CADRE STAFE actual (12) (14) (5) 57 0 0 - T oT 73 aa 2 163 ae 2 ee a 4 12 42"
+    "OTHER OFFICERS",
+    "ACTUAL"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "PROBATION OTHER CORR. STAFF OFFICER \"ACTUAL ACTUAL SANET (18) (19) (20) (17) (13) (16) 2 2 0 0 0 0 - - 0 a ate 7 17 37 a oat eek a 4 ° le ...° ee ee er",
+   "col_no": "9",
+   "name": "HEAD WARDERS/HEAD MATRON | SANCT- IONED",
    "header": [
-    "PROBATION OTHER CORR. STAFF OFFICER \"ACTUAL ACTUAL SANET (18) (19) (20) (17) (13) (16) 2 2 0 0 0 0 - - 0 a ate 7 17 37 a oat eek a 4 ° le ...° ee ee er"
+    "HEAD WARDERS/HEAD MATRON",
+    "SANCT- IONED"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "TOTAL",
+   "col_no": "10",
+   "name": "HEAD WARDERS/HEAD MATRON | ACTUAL",
    "header": [
-    "TOTAL"
+    "HEAD WARDERS/HEAD MATRON",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "WARDER / MATRON | SANCT- IONED",
+   "header": [
+    "WARDER / MATRON",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "WARDER / MATRON | ACTUAL",
+   "header": [
+    "WARDER / MATRON",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "OTHER JAIL CADRE STAFF | SANCT- IONED",
+   "header": [
+    "OTHER JAIL CADRE STAFF",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "OTHER JAIL CADRE STAFF | ACTUAL",
+   "header": [
+    "OTHER JAIL CADRE STAFF",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "PROBATION OFFICER | SANCT- IONED",
+   "header": [
+    "PROBATION OFFICER",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "PROBATION OFFICER | ACTUAL",
+   "header": [
+    "PROBATION OFFICER",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER CORR. STAFF | SANCT- IONED",
+   "header": [
+    "OTHER CORR. STAFF",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "OTHER CORR. STAFF | ACTUAL",
+   "header": [
+    "OTHER CORR. STAFF",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "RMO/MO | SANCT- IONED",
+   "header": [
+    "RMO/MO",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "RMO/MO | ACTUAL",
+   "header": [
+    "RMO/MO",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "PHARMACISTS | SANCT- IONED",
+   "header": [
+    "PHARMACISTS",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "PHARMACISTS | ACTUAL",
+   "header": [
+    "PHARMACISTS",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "LAB TECH. / LAB ASSISTANT | SANCT- IONED",
+   "header": [
+    "LAB TECH. / LAB ASSISTANT",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "LAB TECH. / LAB ASSISTANT | ACTUAL",
+   "header": [
+    "LAB TECH. / LAB ASSISTANT",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "OTHER MEDICAL STAFF | SANCT- IONED",
+   "header": [
+    "OTHER MEDICAL STAFF",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "OTHER MEDICAL STAFF | ACTUAL",
+   "header": [
+    "OTHER MEDICAL STAFF",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "OTHERS | SANCT- IONED",
+   "header": [
+    "OTHERS",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "OTHERS | ACTUAL",
+   "header": [
+    "OTHERS",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "TOTAL | SANCT- IONED",
+   "header": [
+    "TOTAL",
+    "SANCT- IONED"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "TOTAL | ACTUAL",
+   "header": [
+    "TOTAL",
+    "ACTUAL"
    ]
   }
  ],
- "notes": [
-  "hee OS ne a a",
-  "24 UTTAR PRADESH 2 7",
-  "25 WEST BENGAL a ro Ry",
-  "7 is 4 12 Ga i",
-  "26 A & NISLANDS a ee Oe ee",
-  "27 CHANDIGARH Ea Ge",
-  "28 D 7 NA",
-  "29 DAMAN & 0 et ee",
-  "30 a ein iene ee 169",
-  "31 LAKSHADWEEP 4 i",
-  "32 PONDICHERRY - 0 0",
-  "Ee 0 7 eee - oe",
-  "ane 11 12 eC 110 eae ae",
-  "NA -DATA NOT AVAILABLE,"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 84,
+  "cells_passed": 78,
+  "failures": [
+   "col 11 'TOTAL (UTS)': printed 97, sum 92",
+   "col 12 'TOTAL (UTS)': printed 26, sum 21",
+   "col 25 'TOTAL (UTS)': printed 61, sum 60",
+   "col 26 'TOTAL (UTS)': printed 26, sum 25",
+   "col 29 'TOTAL (UTS)': printed 194, sum 188",
+   "col 30 'TOTAL (UTS)': printed 131, sum 125"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 3,
+ "inferred_pages": 0,
  "ocr_pages": 3,
  "warnings": []
 }

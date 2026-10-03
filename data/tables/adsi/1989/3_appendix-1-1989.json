@@ -1,0 +1,217 @@
+{
+ "table_id": "adsi/1989/3_appendix-1-1989",
+ "publication": "adsi",
+ "year": 1989,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "3",
+ "title": "Distribution of Accidental Deaths due to Natural Causes and Sex during 1989 (State, UT & City-wise)",
+ "listing_title": "Distribution of Accidental Deaths due to Natural Causes and Sex during 1989 (State, UT & City-wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-1_1989.pdf",
+ "source_file": "raw/adsi/1989/table_content/appendix-1_1989.pdf",
+ "source_sha256": "b951ebac8673d8250dd463fb4340c028e0eb0aa5aa20b370c0df05dd0ce61452",
+ "table_no": "",
+ "pdf_title": "59 APPENDIX - I Distribution Of Accidental Deaths By Natural Causes And Sex",
+ "row_label": "Sl. No. / State/UT/City",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 50,
+ "n_cols": 21,
+ "n_cells": 987,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Lightning | Male",
+   "header": [
+    "Lightning",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Lightning | Female",
+   "header": [
+    "Lightning",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Lightning | Total",
+   "header": [
+    "Lightning",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Heat Stroke | Male",
+   "header": [
+    "Heat Stroke",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Heat Stroke | Female",
+   "header": [
+    "Heat Stroke",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Heat Stroke | Total",
+   "header": [
+    "Heat Stroke",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Flood | Male",
+   "header": [
+    "Flood",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Flood | Female",
+   "header": [
+    "Flood",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Flood | Total",
+   "header": [
+    "Flood",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Landslide | Male",
+   "header": [
+    "Landslide",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Landslide | Female",
+   "header": [
+    "Landslide",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Landslide | Total",
+   "header": [
+    "Landslide",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Cold & Exposure | Male",
+   "header": [
+    "Cold & Exposure",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Cold & Exposure | Female",
+   "header": [
+    "Cold & Exposure",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Cold & Exposure | Total",
+   "header": [
+    "Cold & Exposure",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Cyclone | Male",
+   "header": [
+    "Cyclone",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Cyclone | Female",
+   "header": [
+    "Cyclone",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Cyclone | Total",
+   "header": [
+    "Cyclone",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Grand Total | Male",
+   "header": [
+    "Grand Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Grand Total | Female",
+   "header": [
+    "Grand Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Grand Total | Total",
+   "header": [
+    "Grand Total",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 63,
+  "cells_passed": 54,
+  "failures": [
+   "col 12 'Total (States)': printed 530, sum 527",
+   "col 14 'Total (States)': printed 706, sum 703",
+   "col 15 'Total (States)': printed 242, sum 240",
+   "col 16 'Total (States)': printed 70, sum 68",
+   "col 17 'Total (States)': printed 312, sum 308",
+   "col 21 'Total (States)': printed 3147, sum 3141",
+   "col 21 'Total (All - India)': printed 3164, sum 3184",
+   "col 22 'Total (States)': printed 1347, sum 1345"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

@@ -8,78 +8,110 @@
  "serial": "8",
  "title": "Annexure - VIII. Cases of tranquality disturbances/violent incidents during 1995",
  "listing_title": "Annexure - VIII. Cases of tranquality disturbances/violent incidents during 1995",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/files/PSI-1995AnnexVIII.pdf",
  "source_file": "raw/psi/1995/table_content/PSI-1995AnnexVIII.pdf",
  "source_sha256": "deb9e28401b5f8d4eea683c347013efcef980b7699f49893bbd779a5a2ee7fbf",
  "table_no": "",
- "pdf_title": "ANNEXURE-VIII CASES OF TRANQUILITY DISTURBANCES/VIOLENT INCIDENTS DURING 1995",
- "row_label": "SL.NO. - / STATE/UT / INCIDENTS / NUMBER OF ?ERSONS INJURED INMATES",
+ "pdf_title": "N.C.R.B.,(M.H.A.) PRISON STATISTICS - 1995 ANNEXURE-VIII",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 8,
- "n_cols": 7,
- "n_cells": 20,
+ "n_rows": 46,
+ "n_cols": 10,
+ "n_cells": 345,
  "columns": [
   {
-   "col_no": "5",
-   "name": "NUMBER OF ?ERSONS | JAIL PERSONNEL",
-   "header": [
-    "NUMBER OF ?ERSONS",
-    "JAIL PERSONNEL"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "NUMBER OF ?ERSONS | KILLED INMATES",
-   "header": [
-    "NUMBER OF ?ERSONS",
-    "KILLED INMATES"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "JAIL PERSONNEL",
-   "header": [
-    "JAIL PERSONNEL"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "INCIDENTS",
+   "col_no": "3",
+   "name": "INCIDENTS (3)",
    "header": [
     "INCIDENTS"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "INJURED INMATES",
+   "col_no": "4",
+   "name": "NUMBER OF PERSONS | INJURED | INMATES (4)",
    "header": [
-    "INJURED INMATES"
+    "NUMBER OF PERSONS",
+    "INJURED",
+    "INMATES"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "NUMBER OF PERSONS",
+   "col_no": "5",
+   "name": "NUMBER OF PERSONS | INJURED | JAIL PERSONNEL (5)",
    "header": [
-    "NUMBER OF PERSONS"
+    "NUMBER OF PERSONS",
+    "INJURED",
+    "JAIL PERSONNEL"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "- —_JAIL PERSONNEL JAILPERSONNEL - INMATES",
+   "col_no": "6",
+   "name": "NUMBER OF PERSONS | KILLED | INMATES (6)",
    "header": [
-    "- —_JAIL PERSONNEL JAILPERSONNEL - INMATES"
+    "NUMBER OF PERSONS",
+    "KILLED",
+    "INMATES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NUMBER OF PERSONS | KILLED | JAIL PERSONNEL (7)",
+   "header": [
+    "NUMBER OF PERSONS",
+    "KILLED",
+    "JAIL PERSONNEL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INCIDENTS (8)",
+   "header": [
+    "INCIDENTS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NUMBER OF PERSONS | INJURED | INMATES (9)",
+   "header": [
+    "NUMBER OF PERSONS",
+    "INJURED",
+    "INMATES"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "NUMBER OF PERSONS | INJURED | JAIL PERSONNEL (10)",
+   "header": [
+    "NUMBER OF PERSONS",
+    "INJURED",
+    "JAIL PERSONNEL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "NUMBER OF PERSONS | KILLED | INMATES (11)",
+   "header": [
+    "NUMBER OF PERSONS",
+    "KILLED",
+    "INMATES"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "NUMBER OF PERSONS | KILLED | JAIL PERSONNEL (12)",
+   "header": [
+    "NUMBER OF PERSONS",
+    "KILLED",
+    "JAIL PERSONNEL"
    ]
   }
  ],
- "notes": [
-  "Ee",
-  "meee"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -87,7 +119,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

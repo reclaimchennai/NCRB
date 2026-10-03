@@ -6,52 +6,46 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1994",
  "serial": "5",
- "title": "SUICIDE RATE IN DIFFERENT COUNTRIES",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 8 SUICIDE RATE IN DIFFERENT COUNTRIES (PER 1,00,000 PEOPLE) 1989-1993",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/excerpts-1994.pdf",
  "source_file": "raw/adsi/1994/year_wise/excerpts-1994.pdf",
  "source_sha256": "7b671c57f0ab574824594bd53186958d7a33c68cb4cc6e83408352d48ceb0bbf",
  "table_no": "",
- "pdf_title": "SUICIDE RATE IN DIFFERENT COUNTRIES",
- "row_label": "(PER 1,00,000 PEOPLE) 1989-1993 Country SI. No.",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 8 SUICIDE RATE IN DIFFERENT COUNTRIES (PER 1,00,000 PEOPLE) 1989-1993",
+ "row_label": "Sl. No. / Country",
  "pages": [
   2
  ],
- "n_rows": 16,
+ "n_rows": 11,
  "n_cols": 3,
- "n_cells": 39,
+ "n_cells": 33,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(PER 1,00,000 PEOPLE) 1989-1993 | Male",
+   "col_no": "3",
+   "name": "Male",
    "header": [
-    "(PER 1,00,000 PEOPLE) 1989-1993",
     "Male"
    ]
   },
   {
-   "col_no": "3",
-   "name": "(PER 1,00,000 PEOPLE) 1989-1993 | Female",
+   "col_no": "4",
+   "name": "Female",
    "header": [
-    "(PER 1,00,000 PEOPLE) 1989-1993",
     "Female"
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "5",
    "name": "Total",
    "header": [
     "Total"
    ]
   }
  ],
- "notes": [
-  "SUICINE RATE",
-  "Female",
-  "Source: WHO."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -59,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

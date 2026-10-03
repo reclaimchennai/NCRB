@@ -6,42 +6,56 @@
  "topic": "",
  "section": "Crime in India 1954",
  "serial": "3",
- "title": "MURDEK",
+ "title": "ABLE CRIME—CASES Appendix I 13",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1686381753APPENDICES.pdf",
  "source_file": "raw/cii/1954/year_wise/1686381753APPENDICES.pdf",
  "source_sha256": "3535c3fb7d9a13806b92abf252ebff9de93c31d36c237f38ff6c4a640aa329c5",
  "table_no": "",
- "pdf_title": "MURDEK",
- "row_label": "Serial State No.",
+ "pdf_title": "ABLE CRIME—CASES Appendix I 13",
+ "row_label": "Cases in which trial was completed",
  "pages": [
-  8
+  3
  ],
- "n_rows": 32,
- "n_cols": 3,
- "n_cells": 93,
+ "n_rows": 33,
+ "n_cols": 5,
+ "n_cells": 165,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Persons in custody pending trial or on Dail, at the of the year",
+   "col_no": "2",
+   "name": "Cases convicted",
    "header": [
-    "Persons in custody pending trial or on Dail, at the of the year"
+    "Cases convicted"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cases acquitted or discharged",
+   "header": [
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons arrested during the year",
+   "name": "Percentage of cases convicted to true cases investigated (Result of investigation)",
    "header": [
-    "Persons arrested during the year"
+    "Percentage of cases convicted to true cases investigated (Result of investigation)"
    ]
   },
   {
    "col_no": "5",
-   "name": "released by the Police or Magisiraic before trial",
+   "name": "Percentage of cases convicted to cases tried (Result of trial)",
    "header": [
-    "released by the Police or Magisiraic before trial"
+    "Percentage of cases convicted to cases tried (Result of trial)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Volume of crime",
+   "header": [
+    "Volume of crime"
    ]
   }
  ],
@@ -50,8 +64,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 7,
-  "other_totals_passed": 3
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -8,42 +8,41 @@
  "serial": "56",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1997 (State, UT & City-Wise)",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1997 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-36-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-36-1996-crime-survey.pdf",
  "source_sha256": "26960befc1fd819f809f2b32c4198ae350fc78a0d95f2a99adce2dfab9abed34",
  "table_no": "36",
- "pdf_title": "VALUE OF rnureniy STOLEN & RECOVERED AND renvcen1AGE RECOVERY DURING 1997 (STATE, UT & CITY-WISE)",
- "row_label": "(Rs. in lakhs) SL NO / (Rs. in lakhs) STATE/UT/CITY",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-36",
+ "row_label": "SL NO / STATE/UT/CITY",
  "pages": [
   1
  ],
- "n_rows": 62,
+ "n_rows": 58,
  "n_cols": 3,
- "n_cells": 178,
+ "n_cells": 174,
  "columns": [
   {
    "col_no": "3",
-   "name": "(Rs. in lakhs) | TOTAL VALUE OF PROPERTY",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
-    "(Rs. in lakhs)",
-    "TOTAL VALUE OF PROPERTY"
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "(Rs. in lakhs) | -",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
    "header": [
-    "(Rs. in lakhs)",
-    "-"
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
    ]
   },
   {
    "col_no": "5",
-   "name": "(Rs. in lakhs) | PERCENTAGE RECOVERY",
+   "name": "PERCENTAGE RECOVERY",
    "header": [
-    "(Rs. in lakhs)",
     "PERCENTAGE RECOVERY"
    ]
   }

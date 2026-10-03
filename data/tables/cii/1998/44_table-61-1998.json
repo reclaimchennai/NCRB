@@ -8,118 +8,111 @@
  "serial": "44",
  "title": "Recidivism Amongst Persons Arrested Under IPC Crimes During 1998",
  "listing_title": "Recidivism Amongst Persons Arrested Under IPC Crimes During 1998",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-61-1998.pdf",
  "source_file": "raw/cii/1998/table_content/table-61-1998.pdf",
  "source_sha256": "7455c0fe9dcde96b44f81bc81e490c069ffe2029c62ab83cdda9398bb6cc4216",
  "table_no": "61",
- "pdf_title": "",
- "row_label": "STATE/UT/CITY SL NO / STATE/UT/CITY",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA.-1998 TABLE-61",
+ "row_label": "SL NO / STATE/UT/CITY",
  "pages": [
   1
  ],
  "n_rows": 58,
  "n_cols": 10,
- "n_cells": 575,
+ "n_cells": 580,
  "columns": [
   {
    "col_no": "3",
-   "name": "Sas TOTAL PERSONS NO. OF ARRESTED",
+   "name": "TOTAL NO. OF PERSONS ARRESTED",
    "header": [
-    "Sas TOTAL PERSONS NO. OF ARRESTED"
+    "TOTAL NO. OF PERSONS ARRESTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198 | NEW OFFENDERS | we i",
+   "name": "NEW OFFENDERS | NO.",
    "header": [
-    "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198",
     "NEW OFFENDERS",
-    "we i"
+    "NO."
    ]
   },
   {
    "col_no": "5",
-   "name": "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198 | NEW OFFENDERS | Ri - TO TOTAL",
+   "name": "NEW OFFENDERS | PERCENTAGE TO TOTAL",
    "header": [
-    "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198",
     "NEW OFFENDERS",
-    "Ri - TO TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198 | ONCE NO.",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | NO.",
    "header": [
-    "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198",
-    "ONCE NO."
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "ONCE",
+    "NO."
    ]
   },
   {
    "col_no": "7",
-   "name": "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198 | OLD OFFENDERS CONVICT :D IN THE PAST | PERCENTAGE To TOTAL",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | PERCENTAGE TO TOTAL",
    "header": [
-    "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198",
-    "OLD OFFENDERS CONVICT :D IN THE PAST",
-    "PERCENTAGE To TOTAL"
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "ONCE",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198 | OLD OFFENDERS CONVICT :D IN THE PAST | TWICE | NO.",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TW|CE | NO.",
    "header": [
-    "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198",
-    "OLD OFFENDERS CONVICT :D IN THE PAST",
-    "TWICE",
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "TW|CE",
     "NO."
    ]
   },
   {
    "col_no": "9",
-   "name": "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198 | OLD OFFENDERS CONVICT :D IN THE PAST | TWICE | [ PERCENTAGE TO TOTAL",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TW|CE | PERCENTAGE TO TOTAL",
    "header": [
-    "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198",
-    "OLD OFFENDERS CONVICT :D IN THE PAST",
-    "TWICE",
-    "[ PERCENTAGE TO TOTAL"
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "TW|CE",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "10",
-   "name": "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198 | OLD OFFENDERS CONVICT :D IN THE PAST | THRICE OR MORE | NO.",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | NO.",
    "header": [
-    "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198",
-    "OLD OFFENDERS CONVICT :D IN THE PAST",
+    "OLD OFFENDERS CONVICTED IN THE PAST",
     "THRICE OR MORE",
     "NO."
    ]
   },
   {
    "col_no": "11",
-   "name": "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198 | OLD OFFENDERS CONVICT :D IN THE PAST | THRICE OR MORE | PERCENTAGE To TOTAL",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | PERCENTAGE TO TOTAL",
    "header": [
-    "Pres ONS of ees1tets UNDER IPC CRIMES DURING 1/198",
-    "OLD OFFENDERS CONVICT :D IN THE PAST",
+    "OLD OFFENDERS CONVICTED IN THE PAST",
     "THRICE OR MORE",
-    "PERCENTAGE To TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "OF - VISTS((7) + (9) +(11))",
+   "name": "PERCENTAGE OF RECIDIVISTS(7) + (9) + (11)",
    "header": [
-    "OF - VISTS((7) + (9) +(11))"
+    "PERCENTAGE OF RECIDIVISTS(7) + (9) + (11)"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 10,
-  "cells_passed": 9,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 2.60378e+06, sum 3.29086e+06"
-  ],
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

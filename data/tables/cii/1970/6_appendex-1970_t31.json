@@ -6,35 +6,70 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "—PERSONS",
+ "title": "117 -XXIII -PERSONS",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendex-1970.pdf",
  "source_file": "raw/cii/1970/table_chapter/appendex-1970.pdf",
  "source_sha256": "3ed7da4cec7a8a52c94ec44a60188cb502ba306987e4cb8da95c49a8762233a3",
  "table_no": "",
- "pdf_title": "—PERSONS",
- "row_label": "No. of Persons Persons Persons’ No. of convicted persons acquitted against in whose or diswhom cases charged cases trials were were compouncompleted ed or withthe stage of investidrawn gation at the end of of the the year",
+ "pdf_title": "117 -XXIII -PERSONS",
+ "row_label": "No. of persons in whose cases trials were completed",
  "pages": [
-  40
+  46
  ],
  "n_rows": 40,
- "n_cols": 2,
- "n_cells": 80,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
    "col_no": "2",
-   "name": "No. of Persons in persons in convictcustody pending investi- gation or bail during during thestage trial of at theend laid year",
+   "name": "Persons convicted",
    "header": [
-    "No. of Persons in persons in convictcustody pending investi- gation or bail during during thestage trial of at theend laid year"
+    "Persons convicted"
    ]
   },
   {
    "col_no": "3",
-   "name": "% of % of convicionto custody tion to total total pending trial or persons in whose in whose on bail trials cases trials chargesheets were comwere pleted",
+   "name": "Persons acquitted or discharged",
    "header": [
-    "% of % of convicionto custody tion to total total pending trial or persons in whose in whose on bail trials cases trials chargesheets were comwere pleted"
+    "Persons acquitted or discharged"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Persons against whom cases were compounded or withdrawn",
+   "header": [
+    "Persons against whom cases were compounded or withdrawn"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "No. of persons in custody pending investigation or on bail during the stage of investigation at the end of the year",
+   "header": [
+    "No. of persons in custody pending investigation or on bail during the stage of investigation at the end of the year"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "No. of persons in custody pending trial or on bail during the stage of trial at the end of the year",
+   "header": [
+    "No. of persons in custody pending trial or on bail during the stage of trial at the end of the year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "% of conviction to total persons in whose cases charge-sheets were laid",
+   "header": [
+    "% of conviction to total persons in whose cases charge-sheets were laid"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "% of conviction to total persons in whose case trials were comple-",
+   "header": [
+    "% of conviction to total persons in whose case trials were comple-"
    ]
   }
  ],
@@ -46,7 +81,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

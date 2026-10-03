@@ -8,102 +8,169 @@
  "serial": "47",
  "title": "Classification of Juveniles Arrested (under IPC & LSL Crimes) by Attributes During 1992 (State, UT & City-wise)",
  "listing_title": "Classification of Juveniles Arrested (under IPC & LSL Crimes) by Attributes During 1992 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-47-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-47-1992-survey.pdf",
  "source_sha256": "c8b819886df6e3db589282486a68f8b6526471dccebe9ea2bb4959f507d796b4",
  "table_no": "47",
- "pdf_title": "CLASSIFICATION OF JUVENILES ARRESTED (UNDER IPC & LSL CRIMES) BY ATTRIBUTES DURING 1992 (STATE, UT & CITY-WISE)",
- "row_label": "Qo 8L. STATE/UT NO. q)",
+ "pdf_title": "223 TABLE-47 CLASSIFICATION OF JUVENILES ARRESTED (UNDER IPC & LSL CRIMES) BY ATTRIBUTES DURING 1992 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO. / SL. NO.",
  "pages": [
   1,
-  2
+  2,
+  3,
+  4
  ],
- "n_rows": 58,
- "n_cols": 9,
- "n_cells": 513,
+ "n_rows": 116,
+ "n_cols": 17,
+ "n_cells": 986,
  "columns": [
   {
    "col_no": "3",
-   "name": "BY | ILLITERATE",
+   "name": "STATE/UT",
    "header": [
-    "BY",
-    "ILLITERATE"
+    "STATE/UT"
    ]
   },
   {
    "col_no": "4",
-   "name": "BY | PRIMARY H.",
+   "name": "BY EDUCATION | ILLI-TERATE",
    "header": [
-    "BY",
-    "PRIMARY H."
+    "BY EDUCATION",
+    "ILLI-TERATE"
    ]
   },
   {
    "col_no": "5",
-   "name": "EDUCATION ABOVE PRIMARY BUT MATRIC/ SEC.",
+   "name": "BY EDUCATION | PRIMARY ABOVE PRIMARY BUT BELOW MATRIC/H. SEC.",
    "header": [
-    "EDUCATION ABOVE PRIMARY BUT MATRIC/ SEC."
+    "BY EDUCATION",
+    "PRIMARY ABOVE PRIMARY BUT BELOW MATRIC/H. SEC."
    ]
   },
   {
    "col_no": "6",
-   "name": "MATRIC/ BELOW",
+   "name": "BY EDUCATION | MATRIC/H. SEC. & ABOVE",
    "header": [
-    "MATRIC/ BELOW"
+    "BY EDUCATION",
+    "MATRIC/H. SEC. & ABOVE"
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL H. &",
+   "name": "BY EDUCATION | TOTAL",
    "header": [
-    "TOTAL H. &"
+    "BY EDUCATION",
+    "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "BY | SEC. ABOVE",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH PARENTS",
    "header": [
-    "BY",
-    "SEC. ABOVE"
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH PARENTS"
    ]
   },
   {
    "col_no": "9",
-   "name": "BY | LIVING WITH PARENTS IANS",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARD-IANS",
    "header": [
-    "BY",
-    "LIVING WITH PARENTS IANS"
+    "BY FAMILY BACKGROUND",
+    "LIVING WITH GUARD-IANS"
    ]
   },
   {
    "col_no": "10",
-   "name": "FAMILY HOMELIVING WITH LESS GUARD-",
+   "name": "BY FAMILY BACKGROUND | HOME-LESS",
    "header": [
-    "FAMILY HOMELIVING WITH LESS GUARD-"
+    "BY FAMILY BACKGROUND",
+    "HOME-LESS"
    ]
   },
   {
    "col_no": "11",
-   "name": "BACKGROUND TOTAL",
+   "name": "BY FAMILY BACKGROUND | TOTAL",
    "header": [
-    "BACKGROUND TOTAL"
+    "BY FAMILY BACKGROUND",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BY ECONOMIC-SETUP | LOW/MID INCOME (FROM RS 501 TO 1000 PM)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "LOW/MID INCOME (FROM RS 501 TO 1000 PM)"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "BY ECONOMIC-SETUP | MIDDLE INCOME (RS.1001 TO 2000 PM)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "MIDDLE INCOME (RS.1001 TO 2000 PM)"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "BY ECONOMIC-SETUP | UPP/MID INCOME (FROM RS 2001 TO 3000 PM)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "UPP/MID INCOME (FROM RS 2001 TO 3000 PM)"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "BY ECONOMIC-SETUP | UPPER INCOME (ABOVE RS.3000 PM)",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "UPPER INCOME (ABOVE RS.3000 PM)"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "BY ECONOMIC-SETUP | TOTAL",
+   "header": [
+    "BY ECONOMIC-SETUP",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "RECIDIVISM | NEW DELIN- QUENTS",
+   "header": [
+    "RECIDIVISM",
+    "NEW DELIN- QUENTS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "RECIDIVISM | OLD DELIN- QUENTS",
+   "header": [
+    "RECIDIVISM",
+    "OLD DELIN- QUENTS"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "RECIDIVISM | TOTAL",
+   "header": [
+    "RECIDIVISM",
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "30—526 B/94.",
-  "<="
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 14,
+  "cells_checked": 24,
+  "cells_passed": 24,
   "failures": [],
-  "other_totals_checked": 6,
-  "other_totals_passed": 5
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

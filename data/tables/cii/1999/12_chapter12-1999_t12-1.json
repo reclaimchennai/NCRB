@@ -6,46 +6,46 @@
  "topic": "",
  "section": "",
  "serial": "12",
- "title": "Crime rate vis-a-vis arrest rate for IPC crimes during 1999",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 ## CHAPTER-12",
  "listing_title": "Arrests and Trials",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter12-1999.pdf",
  "source_file": "raw/cii/1999/table_chapter/chapter12-1999.pdf",
  "source_sha256": "9812f6b922278842ea0b005f3ba7004b26dbee4d891e9251faec8ddc3f4aff65",
  "table_no": "12.1",
- "pdf_title": "Crime rate vis-a-vis arrest rate for IPC crimes during 1999",
- "row_label": "SL. NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 ## CHAPTER-12",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
- "n_rows": 28,
+ "n_rows": 27,
  "n_cols": 4,
- "n_cells": 111,
+ "n_cells": 108,
  "columns": [
   {
-   "col_no": "2",
-   "name": "CRIMF HEAD PERSONS ARKKESTED",
+   "col_no": "3",
+   "name": "PERSONS ARRESTED",
    "header": [
-    "CRIMF HEAD PERSONS ARKKESTED"
+    "PERSONS ARRESTED"
    ]
   },
   {
-   "col_no": "3",
+   "col_no": "4",
    "name": "CRIME RATE",
    "header": [
     "CRIME RATE"
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "5",
    "name": "ARREST RATE",
    "header": [
     "ARREST RATE"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "6",
    "name": "NO. OF ARRESTS PER CASE",
    "header": [
     "NO. OF ARRESTS PER CASE"
@@ -57,10 +57,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

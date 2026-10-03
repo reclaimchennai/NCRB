@@ -6,80 +6,46 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1999",
  "serial": "7",
- "title": "Chart-1.1 CHANGE IN POPULATION, iNGiDENCE AND RATE OF",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1999 N.C.R.B., (M.H.A.) ## PART -I",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1999.pdf",
  "source_file": "raw/adsi/1999/year_wise/accidental-deaths-1999.pdf",
  "source_sha256": "f8ba1aa6922ce93abe828eea3124b9a25f3c544c0b82bdeb3004cbe6db64455c",
  "table_no": "1.1",
- "pdf_title": "Chart-1.1 CHANGE IN POPULATION, iNGiDENCE AND RATE OF",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1999 N.C.R.B., (M.H.A.) ## PART -I",
  "row_label": "Year",
  "pages": [
-  2,
-  3
+  2
  ],
- "n_rows": 18,
- "n_cols": 7,
- "n_cells": 92,
+ "n_rows": 9,
+ "n_cols": 3,
+ "n_cells": 27,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "Population",
+   "header": [
+    "Population"
+   ]
   },
   {
    "col_no": "3",
-   "name": "Percentase change in of",
+   "name": "Incidence",
    "header": [
-    "Percentase change in of"
+    "Incidence"
    ]
   },
   {
    "col_no": "4",
-   "name": "and rate | Deaths during 1991 to 1999 Incidence",
+   "name": "Rate",
    "header": [
-    "and rate",
-    "Deaths during 1991 to 1999 Incidence"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "and rate | Rate",
-   "header": [
-    "and rate",
     "Rate"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "ACCIDENTAL DEATHS DURING 1991 TO 1999 | 8 & RATE 2,44,412 by natural causes. As Un-Natural Causes % change over previous year",
-   "header": [
-    "ACCIDENTAL DEATHS DURING 1991 TO 1999",
-    "8 & RATE 2,44,412 by natural causes. As Un-Natural Causes % change over previous year"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "ACCIDENTAL DEATHS DURING 1991 TO 1999 | - ENgw compared Incidence of Accidental Deaths by Natural & Un-Natural Causes (1991 to 1999) Incidence ©)",
-   "header": [
-    "ACCIDENTAL DEATHS DURING 1991 TO 1999",
-    "- ENgw compared Incidence of Accidental Deaths by Natural & Un-Natural Causes (1991 to 1999) Incidence ©)"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "ACCIDENTAL DEATHS DURING 1991 TO 1999 | ae (89.9%) deaths were caused by un-natural 1998 to there was significant increase (20.8%) in deaths due to natural causes as against an increase Total Accidental Deaths % change over previous year",
-   "header": [
-    "ACCIDENTAL DEATHS DURING 1991 TO 1999",
-    "ae (89.9%) deaths were caused by un-natural 1998 to there was significant increase (20.8%) in deaths due to natural causes as against an increase Total Accidental Deaths % change over previous year"
    ]
   }
  ],
- "notes": [
-  "867 NCRB/2001—5A"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -87,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

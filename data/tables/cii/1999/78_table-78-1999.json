@@ -8,70 +8,85 @@
  "serial": "78",
  "title": "Disposal of Persons Arrested Under SLL Crimes by Courts During 1999 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested Under SLL Crimes by Courts During 1999 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-78-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-78-1999.pdf",
  "source_sha256": "094c9d27ad217137861ca7da405ec32427073cfdc1f447517d6d5d1580b3270b",
  "table_no": "78",
- "pdf_title": "DISPOSAL OF PEKSONS AKKENTED UNDER SLL CRIMES BY COURTS DURING 1999 (STATE & UT - WISE)",
- "row_label": "SL.NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1999 TABLE 78",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
- "n_cols": 5,
- "n_cells": 163,
+ "n_cols": 7,
+ "n_cells": 245,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE/UT TOTALNO, DRAWN FROM PREVIOUS YEAR",
-   "header": [
-    "STATE/UT TOTALNO, DRAWN FROM PREVIOUS YEAR"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "NUMBER",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "NUMBER"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": ") WHOSE",
+   "name": "NUMBER OF PERSONS WHOSE | CASES COMPO-UNDED OR WITH - DRAWN",
    "header": [
-    ") WHOSE"
+    "NUMBER OF PERSONS WHOSE",
+    "CASES COMPO-UNDED OR WITH - DRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. OF",
+   "name": "NUMBER OF PERSONS WHOSE | TRIAL COMPL-ETED",
    "header": [
-    "NO. OF"
+    "NUMBER OF PERSONS WHOSE",
+    "TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "NUMBER OF PERSONS WHOSE | TRIAL REMAINE D PENDING",
+   "header": [
+    "NUMBER OF PERSONS WHOSE",
+    "TRIAL REMAINE D PENDING"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF PERSONS CONVICTED",
+   "header": [
+    "NO. OF PERSONS CONVICTED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "PENDENCY PERCENTAGE",
+   "header": [
+    "PENDENCY PERCENTAGE"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
+   ]
   }
  ],
- "notes": [
-  "Te: 7 885 wis 3s 0.0.",
-  "1655 NCRB/2001—27A"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 2,
+  "cells_checked": 15,
+  "cells_passed": 14,
   "failures": [
-   "col 2 'TOTAL (UTs)': printed 80170, sum 80159",
-   "col 4 'TOTAL (UTs)': printed 10672, sum 8949"
+   "col 7 'TOTAL STATES': printed 2.36371e+06, sum 2.36371e+06"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

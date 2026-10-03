@@ -8,46 +8,53 @@
  "serial": "48",
  "title": "Value of Property Stolen & Recovered and Percentage Recovery During 1978-1988",
  "listing_title": "Value of Property Stolen & Recovered and Percentage Recovery During 1978-1988",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-48-1988-2.pdf",
  "source_sha256": "1fe436c6ecf76e06a30763b10448d3488072b792d8636b406883e880c7da1efb",
- "table_no": "",
- "pdf_title": "TASLE-4% VALUE OF PRUPERYTY STOLEN & RECOVERED AND PERCENTAGE RECUVERY",
- "row_label": "DURING YEAR SL NO (33)",
+ "table_no": "48",
+ "pdf_title": "154 TABLE-48 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY DURING 1978-1988",
+ "row_label": "SL NO",
  "pages": [
   1
  ],
  "n_rows": 12,
- "n_cols": 3,
- "n_cells": 34,
+ "n_cols": 4,
+ "n_cells": 48,
  "columns": [
   {
    "col_no": "2",
-   "name": "1978-1988 VALLE TOTAL ee oes STOLEN (2)",
+   "name": "YEAR",
    "header": [
-    "1978-1988 VALLE TOTAL ee oes STOLEN (2)"
+    "YEAR"
    ]
   },
   {
    "col_no": "3",
-   "name": "Rs. OF RECCVERED (3)",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
-    "Rs. OF RECCVERED (3)"
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "in lakh FPORCENTAGE 64> (5)",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
    "header": [
-    "in lakh FPORCENTAGE 64> (5)"
+    "TOTAL VALUE OF PROPERTY",
+    "RECOVERED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERCENTAGE RECOVERY",
+   "header": [
+    "PERCENTAGE RECOVERY"
    ]
   }
  ],
- "notes": [
-  "3% {988 OVER 197%"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -55,7 +62,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 2000",
  "serial": "8",
- "title": "PART-II SUICIDES IN INDIA 2.1 INCIDENCE AND RATE OF SUICIDES IN THE DECADE (1990–2000)",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA -2000 N.C.R.B.,(M.H.A.) ## PART-II",
  "listing_title": "Suicidal Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,16 +14,14 @@
  "source_file": "raw/adsi/2000/year_wise/suicides-2000.pdf",
  "source_sha256": "79ad89a528a708672789344666668ad8eee1a74f72e80004050fb479290700cc",
  "table_no": "2.1",
- "pdf_title": "PART-II SUICIDES IN INDIA 2.1 INCIDENCE AND RATE OF SUICIDES IN THE DECADE (1990–2000)",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA -2000 N.C.R.B.,(M.H.A.) ## PART-II",
  "row_label": "Sl. No.",
  "pages": [
-  1,
-  4,
-  8
+  1
  ],
- "n_rows": 92,
- "n_cols": 8,
- "n_cells": 570,
+ "n_rows": 5,
+ "n_cols": 4,
+ "n_cells": 20,
  "columns": [
   {
    "col_no": "2",
@@ -52,49 +50,17 @@
    "header": [
     "Rate of Suicides (Col.3/Col.4)"
    ]
-  },
-  {
-   "col_no": "6",
-   "name": "Minor | Male",
-   "header": [
-    "Minor",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Minor | Female",
-   "header": [
-    "Minor",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Total",
-   "header": [
-    "Total"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "% Variation 2000 Over 1999",
-   "header": [
-    "% Variation 2000 Over 1999"
-   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 7,
-  "failures": [
-   "col 3 'Total (States)': printed 99, sum 508062"
-  ],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "cells_checked": 0,
+  "cells_passed": 0,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 1,
  "warnings": []
 }

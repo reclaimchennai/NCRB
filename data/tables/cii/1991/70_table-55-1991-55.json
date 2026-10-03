@@ -8,133 +8,152 @@
  "serial": "70",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1991 (State, UT & City-Wise) Burglary",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1991 (State, UT & City-Wise) Burglary",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-55-1991-55.pdf",
  "source_file": "raw/cii/1991/table_content/table-55-1991-55.pdf",
  "source_sha256": "80a3e836ea10af0df88e86bfed9da156e7b31fbe6e6c3e91ef327d7d830a0799",
  "table_no": "55",
- "pdf_title": "",
- "row_label": "HUMBER OF STATE/UT/CITY SL. nO. WwW / CASES HUMBER (3)",
+ "pdf_title": "176 TABLE-55 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1991",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
- "n_rows": 81,
- "n_cols": 14,
- "n_cells": 506,
+ "n_rows": 94,
+ "n_cols": 15,
+ "n_cells": 705,
  "columns": [
   {
    "col_no": "3",
-   "name": "REPORTED (STATE, RESIDENTIAL PREMISES - VALUE ay",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "REPORTED (STATE, RESIDENTIAL PREMISES - VALUE ay"
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "AND UT BURGLARY MIGHWATS HUMBER 5)",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "AND UT BURGLARY MIGHWATS HUMBER 5)"
+    "RESIDENTIAL PREMISES",
+    "VALUE"
    ]
   },
   {
    "col_no": "5",
-   "name": "OF & CLTY-W1SE) - 6)",
+   "name": "HIGHWAYS | NUMBER",
    "header": [
-    "OF & CLTY-W1SE) - 6)"
+    "HIGHWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "PROPERTY OF RIVER & ‘7",
+   "name": "HIGHWAYS | VALUE",
    "header": [
-    "PROPERTY OF RIVER & ‘7"
+    "HIGHWAYS",
+    "VALUE"
    ]
   },
   {
    "col_no": "7",
-   "name": "STOLEN OCCURRENCE SBA (By",
+   "name": "RIVER & SEA | NUMBER",
    "header": [
-    "STOLEN OCCURRENCE SBA (By"
+    "RIVER & SEA",
+    "NUMBER"
    ]
   },
   {
    "col_no": "8",
-   "name": "BY (Rs. RAILUATS MUMBER (7",
+   "name": "RIVER & SEA | VALUE",
    "header": [
-    "BY (Rs. RAILUATS MUMBER (7"
+    "RIVER & SEA",
+    "VALUE"
    ]
   },
   {
    "col_no": "9",
-   "name": "PLACE lakh in VALUE (109",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "PLACE lakh in VALUE (109"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "(COMMERC 1 AL | VALUE O12) a1 0.0 2.0 0.0 0.0 0.0 o.4 6.4 5.0 o.F 2.4 o.4",
+   "col_no": "10",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "(COMMERC 1 AL",
-    "VALUE O12) a1 0.0 2.0 0.0 0.0 0.0 o.4 6.4 5.0 o.F 2.4 o.4"
+    "RAILWAYS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "(COMMERC 1 AL | (mg) 32 o ois 6 a? é30 Bt 116 410 100d 624 Tas 1078",
+   "col_no": "13",
+   "name": "BANKS | VALUE",
    "header": [
-    "(COMMERC 1 AL",
-    "(mg) 32 o ois 6 a? é30 Bt 116 410 100d 624 Tas 1078"
+    "BANKS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "(COMMERC 1 AL | 67.7 a.o 22 4.4 12.4 P8168 5.5 119.5 64.8 é5.4 67.5 267.2",
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
    "header": [
-    "(COMMERC 1 AL",
-    "67.7 a.o 22 4.4 12.4 P8168 5.5 119.5 64.8 é5.4 67.5 267.2"
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "OTHER a5) 1370 15 335 1031 125 1318 13 228 198 1524 890 5152 1853",
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
    "header": [
-    "OTHER a5) 1370 15 335 1031 125 1318 13 228 198 1524 890 5152 1853"
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "PLACES l-3) zPi.2 3.8 63.4 37.8 17.6 153.8 18.1 17.0 aT.4 7.5 94.1 124.3 65.4",
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
    "header": [
-    "PLACES l-3) zPi.2 3.8 63.4 37.8 17.6 153.8 18.1 17.0 aT.4 7.5 94.1 124.3 65.4"
+    "OTHER PLACES",
+    "NUMBER"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "TOTAL WUMBER B12 m4 eo Bi30 600 ea34 973 pees 4409 Bia7o 16500",
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
    "header": [
-    "TOTAL WUMBER B12 m4 eo Bi30 600 ea34 973 pees 4409 Bia7o 16500"
+    "OTHER PLACES",
+    "VALUE"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "STATESUT/CLTY - (18) (2) STATES: AMOHRA PRADESH 440.3 20.6 PRADESH ASSAM 700.5 Wi? BIHAR ca To.0 756.2 GUJARAT 218.7 a5.5 PRADESH HIMACHAL 716.4 4AMAU & SASBHIR EARWATAEA 563.8 568.1 KERALA 739.3 PRADESH 107.4",
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
    "header": [
-    "STATESUT/CLTY - (18) (2) STATES: AMOHRA PRADESH 440.3 20.6 PRADESH ASSAM 700.5 Wi? BIHAR ca To.0 756.2 GUJARAT 218.7 a5.5 PRADESH HIMACHAL 716.4 4AMAU & SASBHIR EARWATAEA 563.8 568.1 KERALA 739.3 PRADESH 107.4"
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 8,
+  "cells_passed": 8,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

@@ -6,80 +6,84 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "INCIDENCE OF DEATHS AND INJURIES IN CLASHES AND FIRINGS IN JAILS DURING 1998",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-41",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1998.pdf",
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
  "table_no": "41",
- "pdf_title": "INCIDENCE OF DEATHS AND INJURIES IN CLASHES AND FIRINGS IN JAILS DURING 1998",
- "row_label": "Sl. / STATEUT",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-41",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   128
  ],
- "n_rows": 14,
+ "n_rows": 35,
  "n_cols": 6,
- "n_cells": 25,
+ "n_cells": 210,
  "columns": [
   {
    "col_no": "3",
-   "name": "CLASHES | INMATE (3)",
+   "name": "CLASHES | INJURED | INMATE",
    "header": [
     "CLASHES",
+    "INJURED",
     "INMATE"
    ]
   },
   {
    "col_no": "4",
-   "name": "CLASHES | INJURED PERSONNEL",
+   "name": "CLASHES | INJURED | JAIL PERSONNEL",
    "header": [
     "CLASHES",
-    "INJURED PERSONNEL"
+    "INJURED",
+    "JAIL PERSONNEL"
    ]
   },
   {
    "col_no": "5",
-   "name": "CLASHES | TOTAL (5)",
+   "name": "CLASHES | INJURED | TOTAL",
    "header": [
     "CLASHES",
+    "INJURED",
     "TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "CLASHES | INMATE (6)",
+   "name": "CLASHES | KILLED | INMATE",
    "header": [
     "CLASHES",
+    "KILLED",
     "INMATE"
    ]
   },
   {
    "col_no": "7",
-   "name": "CLASHES | KILLED PERSONNEL",
+   "name": "CLASHES | KILLED | JAIL PERSONNEL",
    "header": [
     "CLASHES",
-    "KILLED PERSONNEL"
+    "KILLED",
+    "JAIL PERSONNEL"
    ]
   },
   {
    "col_no": "8",
-   "name": "CLASHES | TOTAL (8)",
+   "name": "CLASHES | KILLED | TOTAL",
    "header": [
     "CLASHES",
+    "KILLED",
     "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 18,
+  "cells_passed": 18,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

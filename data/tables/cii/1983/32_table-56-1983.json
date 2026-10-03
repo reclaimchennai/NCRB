@@ -1,0 +1,132 @@
+{
+ "table_id": "cii/1983/32_table-56-1983",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "32",
+ "title": "Number of Police Personnel Killed or Injured on Duty During 1983",
+ "listing_title": "Number of Police Personnel Killed or Injured on Duty During 1983",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-56-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-56-1983.pdf",
+ "source_sha256": "2b8c7e21f9bed45ad5650279146918bd9c3e7d4dbb74460539a1f960798e93f9",
+ "table_no": "56",
+ "pdf_title": "138 TABLE 56 Number of Police Personnel killed or injured on Duty during 1983",
+ "row_label": "SI.No. / States/U.Ts./Cities",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 52,
+ "n_cols": 11,
+ "n_cells": 517,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Killed | In dacoity operation or other raids",
+   "header": [
+    "Killed",
+    "In dacoity operation or other raids"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Killed | By riotous mobs",
+   "header": [
+    "Killed",
+    "By riotous mobs"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Killed | By other criminals",
+   "header": [
+    "Killed",
+    "By other criminals"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Killed | On border duties",
+   "header": [
+    "Killed",
+    "On border duties"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Killed | In accidents",
+   "header": [
+    "Killed",
+    "In accidents"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Killed | Total",
+   "header": [
+    "Killed",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Injured | In dacoity operation or other raids",
+   "header": [
+    "Injured",
+    "In dacoity operation or other raids"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Injured | By riotous mobs",
+   "header": [
+    "Injured",
+    "By riotous mobs"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Injured | By other criminals",
+   "header": [
+    "Injured",
+    "By other criminals"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Injured | On border duties",
+   "header": [
+    "Injured",
+    "On border duties"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Injured | In accidents",
+   "header": [
+    "Injured",
+    "In accidents"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 13,
+  "cells_passed": 9,
+  "failures": [
+   "col 10002 'TOTAL (STATES) 437': printed 665, sum 2921",
+   "col 10003 'TOTAL (STATES) 437': printed 59, sum 828",
+   "col 10004 'TOTAL (STATES) 437': printed 330, sum 78",
+   "col 10005 'TOTAL (STATES) 437': printed 3399, sum 649"
+  ],
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

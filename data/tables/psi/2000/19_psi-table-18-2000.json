@@ -8,65 +8,71 @@
  "serial": "19",
  "title": "Distribution of Foreigner Undertrials by Age Groups at the end of 2000",
  "listing_title": "Distribution of Foreigner Undertrials by Age Groups at the end of 2000",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-18_2000.pdf",
  "source_file": "raw/psi/2000/table_content/psi-table-18_2000.pdf",
  "source_sha256": "d9d4e8bb2ab66199eb4a62ad22019fd168251fe0dcc3721d69e2d8eb7b0c6f7c",
  "table_no": "18",
- "pdf_title": "DISTRIBUTION OF FOREIGNER UNDERTRIALS BY AGE GROUPS AT THE END OF 2000",
- "row_label": "NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-18",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 2,
- "n_cols": 8,
- "n_cells": 16,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE/UT M",
-   "header": [
-    "STATE/UT M"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "BELOW 16 YEARS F",
+   "name": "BELOW 16 YEARS | M",
    "header": [
-    "BELOW 16 YEARS F"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "T (4)",
-   "header": [
-    "T"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "M",
-   "header": [
+    "BELOW 16 YEARS",
     "M"
    ]
   },
   {
-   "col_no": "6",
-   "name": "16 - 18 YEARS F",
+   "col_no": "4",
+   "name": "BELOW 16 YEARS | F",
    "header": [
-    "16 - 18 YEARS F"
+    "BELOW 16 YEARS",
+    "F"
    ]
   },
   {
-   "col_no": "7",
-   "name": "T (7)",
+   "col_no": "5",
+   "name": "BELOW 16 YEARS | T",
    "header": [
+    "BELOW 16 YEARS",
     "T"
    ]
   },
   {
+   "col_no": "6",
+   "name": "16 - 18 YEARS | M",
+   "header": [
+    "16 - 18 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "16 - 18 YEARS | F",
+   "header": [
+    "16 - 18 YEARS",
+    "F"
+   ]
+  },
+  {
    "col_no": "8",
+   "name": "16 - 18 YEARS | T",
+   "header": [
+    "16 - 18 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "9",
    "name": "18 - 30 YEARS | M",
    "header": [
     "18 - 30 YEARS",
@@ -74,23 +80,31 @@
    ]
   },
   {
-   "col_no": "9",
-   "name": "18 - 30 YEARS | T FP -",
+   "col_no": "10",
+   "name": "18 - 30 YEARS | F",
    "header": [
     "18 - 30 YEARS",
-    "T FP -"
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "18 - 30 YEARS | T",
+   "header": [
+    "18 - 30 YEARS",
+    "T"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 27,
+  "cells_passed": 27,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

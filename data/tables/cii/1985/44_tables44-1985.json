@@ -8,74 +8,74 @@
  "serial": "44",
  "title": "Disposal of Juveniles Sent to Courts During 1985",
  "listing_title": "Disposal of Juveniles Sent to Courts During 1985",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables44-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables44-1985.pdf",
  "source_sha256": "b7951f731ddf4a604b5bea55da15fb4091088d052c909d7969639bf4fd2d7bb0",
  "table_no": "44",
- "pdf_title": "Of Juveniles Sent To Courts During 1985",
- "row_label": "States/U.Ts/Cities Sl. No. q1)",
+ "pdf_title": "102 TABLE - 44 Disposal Of Juveniles Sent To Courts During 1985",
+ "row_label": "Sl. States/U.Ts/Cities No.",
  "pages": [
   1,
   2
  ],
- "n_rows": 73,
+ "n_rows": 47,
  "n_cols": 9,
- "n_cells": 417,
+ "n_cells": 419,
  "columns": [
   {
    "col_no": "3",
-   "name": "SENT TO COURTS",
-   "header": [
-    "SENT TO COURTS"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "TO",
+   "name": "JUVENILE SENT TO COURTS",
    "header": [
-    "TO"
+    "JUVENILE SENT TO COURTS"
    ]
   },
   {
    "col_no": "5",
-   "name": "ON PROBATION",
+   "name": "RESTORED TO GUARDIANS",
    "header": [
-    "ON PROBATION"
+    "RESTORED TO GUARDIANS"
    ]
   },
   {
    "col_no": "6",
-   "name": "1U - TORIES OR",
+   "name": "ON PRO-BATION",
    "header": [
-    "1U - TORIES OR"
+    "ON PRO-BATION"
    ]
   },
   {
    "col_no": "7",
-   "name": "SENT TO OR IONS",
+   "name": "SENT TO REFORMA-TORIES OR BORSTALS",
    "header": [
-    "SENT TO OR IONS"
+    "SENT TO REFORMA-TORIES OR BORSTALS"
    ]
   },
   {
    "col_no": "8",
-   "name": "TO SENT ADULT ION",
+   "name": "SENT TO ADULT INSTITUT-ION",
    "header": [
-    "TO SENT ADULT ION"
+    "SENT TO ADULT INSTITUT-ION"
    ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "IMPRISONED",
+   "header": [
+    "IMPRISONED"
+   ]
   },
   {
    "col_no": "10",
-   "name": "OR OTHER DIsrUsSED WISE OF",
+   "name": "ACQUITTED OR OTHER WISE DISPOSED OF",
    "header": [
-    "OR OTHER DIsrUsSED WISE OF"
+    "ACQUITTED OR OTHER WISE DISPOSED OF"
    ]
   },
   {
@@ -88,20 +88,20 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 18,
-  "cells_passed": 6,
+  "cells_checked": 21,
+  "cells_passed": 11,
   "failures": [
-   "col 3 'TOTAL (U.Ts. )': printed 6273, sum 6153",
-   "col 3 'TOTAL (CITIES)': printed 36902, sum 36302",
-   "col 8 'TOTAL (U.Ts. )': printed 8, sum 430",
-   "col 8 'TOTAL (STATES)': printed 905, sum 476",
-   "col 9 'TOTAL (U.Ts. )': printed 2128, sum 7938",
-   "col 9 'TOTAL (CITIES)': printed 9338, sum 4669",
-   "col 9 'TOTAL (STATES)': printed 17847, sum 10443",
-   "col 10 'TOTAL (CITIES)': printed 5615, sum 4888"
+   "col 4 'TOTAL (STATES)': printed 135456, sum 14884",
+   "col 4 'TOTAL (U.Ts.)': printed 6273, sum 61",
+   "col 4 'TOTAL (CITIES)': printed 36902, sum 5321",
+   "col 5 'TOTAL (STATES)': printed 14884, sum 2391",
+   "col 5 'TOTAL (U.Ts.)': printed 61, sum 70",
+   "col 5 'TOTAL (CITIES)': printed 5321, sum 975",
+   "col 6 'TOTAL (STATES)': printed 2391, sum 923",
+   "col 6 'TOTAL (CITIES)': printed 975, sum 51"
   ],
-  "other_totals_checked": 10,
-  "other_totals_passed": 9
+  "other_totals_checked": 8,
+  "other_totals_passed": 8
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

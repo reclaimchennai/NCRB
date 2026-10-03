@@ -8,88 +8,93 @@
  "serial": "37",
  "title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1990 (State, UT & City-Wise)",
  "listing_title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1990 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/37table-37-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/37table-37-1990-.pdf",
  "source_sha256": "ab37f4c86f302e54d6cd2c7a26df06f3c5681d140817e4cd6e5952cdb4324aa9",
  "table_no": "37",
- "pdf_title": "",
- "row_label": "JUVENILE STATE/UT/CITY SL. NO. qh)",
+ "pdf_title": "144 TABLE-37 JUVENILE DELINQUENCY (IPC) UNDER DIFFERENT CRIME HEADS DURING 1990 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
- "n_rows": 93,
- "n_cols": 16,
- "n_cells": 664,
+ "n_rows": 94,
+ "n_cols": 17,
+ "n_cells": 799,
  "columns": [
   {
    "col_no": "3",
-   "name": "(IPC) | MURDER",
+   "name": "MURDER",
    "header": [
-    "(IPC)",
     "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "(IPC) | ATTEMPT To COMMIT MURDER",
+   "name": "ATTEMPT TO COMMIT MURDER",
    "header": [
-    "(IPC)",
-    "ATTEMPT To COMMIT MURDER"
+    "ATTEMPT TO COMMIT MURDER"
    ]
   },
   {
    "col_no": "5",
-   "name": "(IPC) | UNDER & C.H.NOT AMOUNT - ING TO MURDER",
+   "name": "C. H. NOT AMOUNT-ING TO MURDER",
    "header": [
-    "(IPC)",
-    "UNDER & C.H.NOT AMOUNT - ING TO MURDER"
+    "C. H. NOT AMOUNT-ING TO MURDER"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIME | CITY-WISE) RAPE",
+   "name": "RAPE",
    "header": [
-    "CRIME",
-    "CITY-WISE) RAPE"
+    "RAPE"
    ]
   },
   {
    "col_no": "7",
-   "name": "CRIME | TOTAL",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
    "header": [
-    "CRIME",
+    "KIDNAPPING & ABDUCTION",
     "TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "HEADS KIDNAPPING & nnn nn OF &",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS",
    "header": [
-    "HEADS KIDNAPPING & nnn nn OF &"
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS"
    ]
   },
   {
    "col_no": "9",
-   "name": "DURING - - WOMEN OF GIRLS",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS",
    "header": [
-    "DURING - - WOMEN OF GIRLS"
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS"
    ]
   },
   {
    "col_no": "10",
-   "name": "> 1990 =6DACOITY OTHERS",
+   "name": "DACOITY",
    "header": [
-    "> 1990 =6DACOITY OTHERS"
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "ROBBRY",
+   "header": [
+    "ROBBRY"
    ]
   },
   {
    "col_no": "13",
-   "name": "ROBBERY AND",
+   "name": "BURGLARY",
    "header": [
-    "ROBBERY AND"
+    "BURGLARY"
    ]
   },
   {
@@ -101,31 +106,30 @@
   },
   {
    "col_no": "15",
-   "name": "RIOTS as)",
+   "name": "RIOTS",
    "header": [
-    "RIOTS as)"
+    "RIOTS"
    ]
   },
   {
    "col_no": "16",
-   "name": "CRIMINAL CHEATING | BREACH or TRUST",
+   "name": "CRIMINAL BREACH OF TRUST",
    "header": [
-    "CRIMINAL CHEATING",
-    "BREACH or TRUST"
+    "CRIMINAL BREACH OF TRUST"
    ]
   },
   {
    "col_no": "17",
-   "name": "CRIMINAL CHEATING",
+   "name": "CHEATING",
    "header": [
-    "CRIMINAL CHEATING"
+    "CHEATING"
    ]
   },
   {
    "col_no": "18",
-   "name": "COUNTERFEITING",
+   "name": "COUNTER-FEITING",
    "header": [
-    "COUNTERFEITING"
+    "COUNTER-FEITING"
    ]
   },
   {
@@ -137,20 +141,17 @@
   },
   {
    "col_no": "20",
-   "name": "TOTAL coG. CRIMES UNDER IPC",
+   "name": "TOTAL COG. CRIMES UNDER IPC",
    "header": [
-    "TOTAL coG. CRIMES UNDER IPC"
+    "TOTAL COG. CRIMES UNDER IPC"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 15,
-  "cells_passed": 13,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 216, sum 209",
-   "col 10 'TOTAL (STATES)': printed 116, sum 115"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -8,60 +8,69 @@
  "serial": "18",
  "title": "Percentage of LSL Crime Cases Disposed of by Police During 1990",
  "listing_title": "Percentage of LSL Crime Cases Disposed of by Police During 1990",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/18table-18-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/18table-18-1990-.pdf",
  "source_sha256": "4f177ad27b7d487551a58b1d0c69050efb308e5e68738630be9a8704ae40adb8",
  "table_no": "18",
- "pdf_title": "OF LSL CRIME CASES DISPOSED OF BY POLICE DURING 1990",
- "row_label": "NO. qa) / INVESTI-~- GATION WAS REFUSED",
+ "pdf_title": "90 TABLE-18 PERCENTAGE OF LSL CRIME CASES DISPOSED OF BY POLICE DURING 1990",
+ "row_label": "SL.NO. / SL.NO.",
  "pages": [
   1
  ],
  "n_rows": 17,
- "n_cols": 5,
- "n_cells": 84,
+ "n_cols": 6,
+ "n_cells": 102,
  "columns": [
   {
-   "col_no": "4",
-   "name": "INVESTIGATION - CHARGE FOUND FALSE/ MISTAKE LAW OF ETC.",
+   "col_no": "3",
+   "name": "CRIME HEAD",
    "header": [
-    "INVESTIGATION - CHARGE FOUND FALSE/ MISTAKE LAW OF ETC."
+    "CRIME HEAD"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS REFUSED",
+   "header": [
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS REFUSED"
    ]
   },
   {
    "col_no": "5",
-   "name": "IN WAS FINAL REPORT TRUE SUBMITTED",
+   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH | INVESTIGATION WAS CHARGE FOUND FALSE/MISTAKE OF LAW ETC.",
    "header": [
-    "IN WAS FINAL REPORT TRUE SUBMITTED"
+    "PERCENTAGE OF CASES TO TOTAL CASES FOR INVESTIGATION IN WHICH",
+    "INVESTIGATION WAS CHARGE FOUND FALSE/MISTAKE OF LAW ETC."
    ]
   },
   {
    "col_no": "6",
-   "name": "WHICH CUMPLETED - CHARGE SHEETS WERE LAID",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION | INVESTIGATION WAS COMPLETED FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "WHICH CUMPLETED - CHARGE SHEETS WERE LAID"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION",
+    "INVESTIGATION WAS COMPLETED FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "TOTAL ((4)+(5) +(6))",
+   "name": "PERCENTAGE OF CASES PENDING INVESTIGATION | CHARGE SHEETS WERE LAID",
    "header": [
-    "TOTAL ((4)+(5) +(6))"
+    "PERCENTAGE OF CASES PENDING INVESTIGATION",
+    "CHARGE SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "8",
-   "name": "CASES OF PENDING INVESTI - GATION",
+   "name": "TOTAL ((4)+(5) + (6))",
    "header": [
-    "CASES OF PENDING INVESTI - GATION"
+    "TOTAL ((4)+(5) + (6))"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is shown as 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

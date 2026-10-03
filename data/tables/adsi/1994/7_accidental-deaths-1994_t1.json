@@ -6,23 +6,30 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1994",
  "serial": "7",
- "title": "Incidence And Rate Of Accidental Deaths During 1984 to 1994",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 18 TABLE - 1",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1994.pdf",
  "source_file": "raw/adsi/1994/year_wise/accidental-deaths-1994.pdf",
  "source_sha256": "6ccee761c6f40bf3060f2134e781f1ee69f2bad9f14e7e9b405ebb26af808c5e",
  "table_no": "1",
- "pdf_title": "Incidence And Rate Of Accidental Deaths During 1984 to 1994",
- "row_label": "Sl. No. / Year",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 N.C.R.B. - 18 TABLE - 1",
+ "row_label": "Sl. No.",
  "pages": [
   3
  ],
  "n_rows": 13,
- "n_cols": 3,
- "n_cells": 39,
+ "n_cols": 4,
+ "n_cells": 52,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "Year",
+   "header": [
+    "Year"
+   ]
+  },
   {
    "col_no": "3",
    "name": "Total Number of Accidental Deaths",
@@ -32,9 +39,9 @@
   },
   {
    "col_no": "4",
-   "name": "Estimated Mid- Year Population * (In Lakh* *)",
+   "name": "Estimated Mid-Year Population * (In Lakh**)",
    "header": [
-    "Estimated Mid- Year Population * (In Lakh* *)"
+    "Estimated Mid-Year Population * (In Lakh**)"
    ]
   },
   {
@@ -45,12 +52,7 @@
    ]
   }
  ],
- "notes": [
-  "Growth Rate",
-  "Per Annum.",
-  "* Scurce The Registrar General of India",
-  "** One lakh - 0.1 million"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

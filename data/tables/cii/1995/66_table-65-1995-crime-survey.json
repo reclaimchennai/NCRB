@@ -8,52 +8,296 @@
  "serial": "66",
  "title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Scheduled Castes During 1994 (State & UT-Wi",
  "listing_title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Scheduled Castes During 1994 (State & UT-Wi",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-65-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-65-1995-crime-survey.pdf",
  "source_sha256": "b62610b562077a61e692a9309b22e90fb592b94cecc9f1e8658da9633eee276c",
  "table_no": "65",
- "pdf_title": "INCIDENCE (1), RATE (R) AND PERCENTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES COMMITTED AGAINST SCHEDULED CASTES DURING 1994",
- "row_label": "SL. STATE/UT NO. ) / ESTIMATED MID-YEAR shee / (STATE & UT-WISE) MURDER R / (STATE & UT-WISE) MURDER P / (STATE & UT-WISE) \\ / (STATE & UT-WISE) HURT R / (STATE & UT-WISE) P / RAPE R / RAPE P",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-65",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
-  1
+  1,
+  2,
+  3
  ],
- "n_rows": 1,
- "n_cols": 3,
- "n_cells": 2,
+ "n_rows": 70,
+ "n_cols": 33,
+ "n_cells": 1155,
  "columns": [
   {
-   "col_no": "13",
-   "name": "KIDNAPPING & A3DUCTICN R (13)",
+   "col_no": "3",
+   "name": "ESTIMATED MID-YEAR POPULATION",
    "header": [
-    "KIDNAPPING & A3DUCTICN R"
+    "ESTIMATED MID-YEAR POPULATION"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "MURDER | I",
+   "header": [
+    "MURDER",
+    "I"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "MURDER | R",
+   "header": [
+    "MURDER",
+    "R"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "MURDER | P",
+   "header": [
+    "MURDER",
+    "P"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "HURT | I",
+   "header": [
+    "HURT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "HURT | R",
+   "header": [
+    "HURT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "HURT | P",
+   "header": [
+    "HURT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "RAPE | R",
+   "header": [
+    "RAPE",
+    "R"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "RAPE | P",
+   "header": [
+    "RAPE",
+    "P"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "KIDNAPPING & ABDUCTION | I",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "I"
    ]
   },
   {
    "col_no": "14",
-   "name": "KIDNAPPING & A3DUCTICN R (14)",
+   "name": "KIDNAPPING & ABDUCTION | R",
    "header": [
-    "KIDNAPPING & A3DUCTICN R"
+    "KIDNAPPING & ABDUCTION",
+    "R"
    ]
   },
   {
    "col_no": "15",
-   "name": "P",
+   "name": "KIDNAPPING & ABDUCTION | P",
    "header": [
+    "KIDNAPPING & ABDUCTION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "DACOITY | I",
+   "header": [
+    "DACOITY",
+    "I"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "DACOITY | R",
+   "header": [
+    "DACOITY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "DACOITY | P",
+   "header": [
+    "DACOITY",
+    "P"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "ROBBERY | I",
+   "header": [
+    "ROBBERY",
+    "I"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "ROBBERY | R",
+   "header": [
+    "ROBBERY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "ROBBERY | P",
+   "header": [
+    "ROBBERY",
+    "P"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "ARSON | I",
+   "header": [
+    "ARSON",
+    "I"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "ARSON | R",
+   "header": [
+    "ARSON",
+    "R"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "ARSON | P",
+   "header": [
+    "ARSON",
+    "P"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "PCR ACT | I",
+   "header": [
+    "PCR ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "PCR ACT | R",
+   "header": [
+    "PCR ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "PCR ACT | P",
+   "header": [
+    "PCR ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "SC & ST (PREV. OF ATROCITIES) ACT | R",
+   "header": [
+    "SC & ST (PREV. OF ATROCITIES) ACT",
+    "R"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "SC & ST (PREV. OF ATROCITIES) ACT | P",
+   "header": [
+    "SC & ST (PREV. OF ATROCITIES) ACT",
+    "P"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "OTHER OFFENCES | I",
+   "header": [
+    "OTHER OFFENCES",
+    "I"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "OTHER OFFENCES | R",
+   "header": [
+    "OTHER OFFENCES",
+    "R"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "OTHER OFFENCES | P",
+   "header": [
+    "OTHER OFFENCES",
+    "P"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "TOTAL | I",
+   "header": [
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "TOTAL | R",
+   "header": [
+    "TOTAL",
+    "R"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
     "P"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 24,
+  "cells_passed": 24,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

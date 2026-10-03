@@ -6,37 +6,63 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "APPENDIX",
+ "title": "64 APPENDIX—III MURDER",
  "listing_title": "Appendices",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix1967.pdf",
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "APPENDIX",
- "row_label": "Sl. No. > - / Statés/U.Ts/Cities / x MURDER Persons custody pending tion or - onbail during the stage of investigation.",
+ "pdf_title": "64 APPENDIX—III MURDER",
+ "row_label": "Sl. No.",
  "pages": [
-  8
+  6
  ],
- "n_rows": 40,
- "n_cols": 2,
- "n_cells": 73,
+ "n_rows": 38,
+ "n_cols": 6,
+ "n_cells": 209,
  "columns": [
   {
-   "col_no": "4",
-   "name": "x MURDER | in investiga~. trial or on bail. during the stage of trial",
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "x MURDER",
-    "in investiga~. trial or on bail. during the stage of trial"
+    "Cases pending investigation from previous year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending disposal in courts",
+   "header": [
+    "Cases pending disposal in courts"
    ]
   },
   {
    "col_no": "5",
-   "name": "x MURDER | -Persons >in” arrested custody during pending the year",
+   "name": "Cases reported during the year",
    "header": [
-    "x MURDER",
-    "-Persons >in” arrested custody during pending the year"
+    "Cases reported during the year"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases not investigated (+) Declared false (+) Mistake of fact or law (+) Non-Cognizable",
+   "header": [
+    "Cases not investigated (+) Declared false (+) Mistake of fact or law (+) Non-Cognizable"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases pending investigation at the end of the year",
+   "header": [
+    "Cases pending investigation at the end of the year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "cases pending at the end of the year",
+   "header": [
+    "cases pending at the end of the year"
    ]
   }
  ],
@@ -45,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 24,
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

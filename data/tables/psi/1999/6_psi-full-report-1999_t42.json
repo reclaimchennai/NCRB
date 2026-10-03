@@ -6,122 +6,103 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "NUMBER OF PRISON INMATES TRAINED UNDER Dif FERENT VOCATIONAL TRAINING",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-42",
  "listing_title": "Download Full Report",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-full-report-1999.pdf",
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "42",
- "pdf_title": "NUMBER OF PRISON INMATES TRAINED UNDER Dif FERENT VOCATIONAL TRAINING",
- "row_label": "STATE/UT-WISE DURING 1998 SL. NO. @)",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-42",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   142
  ],
- "n_rows": 30,
+ "n_rows": 35,
  "n_cols": 10,
- "n_cells": 159,
+ "n_cells": 350,
  "columns": [
   {
-   "col_no": "2",
-   "name": "STATE/UT-WISE DURING 1998 | STATE/UT AGRICULTURE (3)",
-   "header": [
-    "STATE/UT-WISE DURING 1998",
-    "STATE/UT AGRICULTURE (3)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "STATE/UT-WISE DURING 1998 | CARP- ENTRY (4)",
+   "name": "AGRI-CULTURE",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "CARP- ENTRY (4)"
+    "AGRI-CULTURE"
    ]
   },
   {
    "col_no": "4",
-   "name": "STATE/UT-WISE DURING 1998 | (3)",
+   "name": "CARP-ENTRY",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "(3)"
+    "CARP-ENTRY"
    ]
   },
   {
    "col_no": "5",
-   "name": "STATE/UT-WISE DURING 1998 | TAILO. RING (6)",
+   "name": "CAN-NING",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "TAILO. RING (6)"
+    "CAN-NING"
    ]
   },
   {
    "col_no": "6",
-   "name": "STATE/UT-WISE DURING 1998 | (7)",
+   "name": "TAILO-RING",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "(7)"
+    "TAILO-RING"
    ]
   },
   {
    "col_no": "7",
-   "name": "STATE/UT-WISE DURING 1998 | (8)",
+   "name": "BLACK-SMITHY",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "(8)"
+    "BLACK-SMITHY"
    ]
   },
   {
    "col_no": "8",
-   "name": "STATE/UT-WISE DURING 1998 | SOAP PHENYI & (9)",
+   "name": "WEAV-ING",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "SOAP PHENYI & (9)"
+    "WEAV-ING"
    ]
   },
   {
    "col_no": "9",
-   "name": "STATE/UT-WISE DURING 1998 | HAND LOO (10)",
+   "name": "SOAP & PHENYL E",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "HAND LOO (10)"
+    "SOAP & PHENYL E"
    ]
   },
   {
    "col_no": "10",
-   "name": "STATE/UT-WISE DURING 1998 | OTHERS (11)",
+   "name": "HAND-LOOM",
    "header": [
-    "STATE/UT-WISE DURING 1998",
-    "OTHERS (11)"
+    "HAND-LOOM"
    ]
   },
   {
    "col_no": "11",
-   "name": "TOTAL (12)",
+   "name": "OTHERS",
    "header": [
-    "TOTAL (12)"
+    "OTHERS"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
    ]
   }
  ],
- "notes": [
-  "NA -DATA NOT AVAILABLE."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 18,
-  "cells_passed": 11,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 11747, sum 11743",
-   "col 5 'TOTAL (UTS)': printed 320, sum 310",
-   "col 6 'TOTAL (UTS)': printed 0, sum 21",
-   "col 7 'TOTAL (UTS)': printed 264, sum 1097",
-   "col 10 'TOTAL (STATES)': printed 60009, sum 58938",
-   "col 11 'TOTAL (STATES)': printed 86503, sum 85228",
-   "col 11 'TOTAL (UTS)': printed 1508, sum 1415"
-  ],
+  "cells_checked": 30,
+  "cells_passed": 30,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -6,49 +6,66 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "XXX STOLEN AND RECOVEKED DURING 1969—TOTAL",
+ "title": "139 APPENDIX—XXXVI PROPERTY STOLEN AND RECOVERED DURING 1969—EXPLOSIVES",
  "listing_title": "Annexures",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/appendix-1969.pdf",
  "source_file": "raw/cii/1969/table_chapter/appendix-1969.pdf",
  "source_sha256": "a75b83a19ff606bf46a76a58309508479227b481a4bef1e967c9a9a899a65179",
  "table_no": "",
- "pdf_title": "XXX STOLEN AND RECOVEKED DURING 1969—TOTAL",
- "row_label": "‘SI. States/1T, Ts /Cities No. / Cases in which piupcity",
+ "pdf_title": "139 APPENDIX—XXXVI PROPERTY STOLEN AND RECOVERED DURING 1969—EXPLOSIVES",
+ "row_label": "Sl. No.",
  "pages": [
-  55
+  61,
+  61,
+  61
  ],
- "n_rows": 39,
- "n_cols": 4,
- "n_cells": 156,
+ "n_rows": 14,
+ "n_cols": 6,
+ "n_cells": 76,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Cases in which priopaty",
+   "col_no": "2",
+   "name": "States/U. Ts. Cities",
    "header": [
-    "Cases in which priopaty"
+    "States/U. Ts. Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "No. of cases in which property was stolen.",
+   "header": [
+    "No. of cases in which property was stolen."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Value of property stolen (in lacs)",
+   "header": [
+    "Value of property stolen (in lacs)"
    ]
   },
   {
    "col_no": "5",
-   "name": "Value of stolen (inlacs)",
+   "name": "Value of property recovered (in laxs)",
    "header": [
-    "Value of stolen (inlacs)"
+    "Value of property recovered (in laxs)"
    ]
   },
   {
    "col_no": "6",
-   "name": "Value of property 4 oO!",
+   "name": "value of property recovered to value of property stolen.",
    "header": [
-    "Value of property 4 oO!"
+    "value of property recovered to value of property stolen."
    ]
   },
   {
    "col_no": "7",
-   "name": "Percenof tage valuc plupaty stolen.",
+   "name": "100·0 | 73·7",
    "header": [
-    "Percenof tage valuc plupaty stolen."
+    "100·0",
+    "73·7"
    ]
   }
  ],
@@ -57,10 +74,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 2
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

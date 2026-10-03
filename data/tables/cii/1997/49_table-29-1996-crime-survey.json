@@ -8,20 +8,20 @@
  "serial": "49",
  "title": "Incidence & Rate of Crime Against Children in States & UTs During 1997",
  "listing_title": "Incidence & Rate of Crime Against Children in States & UTs During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-29-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-29-1996-crime-survey.pdf",
  "source_sha256": "a77e7b5c3728722156ac2fe0d7d25bc39dd15dc92ba5f61250b2a3a5e7daf47e",
  "table_no": "29",
- "pdf_title": "INCIDENCE & RATE OF CRIME AGAINST CHILDREN IN STATES AND UTs DURING 1997",
- "row_label": "SL. STATE/UT NO.",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-29",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 34,
+ "n_rows": 35,
  "n_cols": 6,
- "n_cells": 185,
+ "n_cells": 204,
  "columns": [
   {
    "col_no": "3",
@@ -46,9 +46,9 @@
   },
   {
    "col_no": "6",
-   "name": "TOTAL COG. CRIMES",
+   "name": "RATE OF TOTAL COG. CRIMES",
    "header": [
-    "TOTAL COG. CRIMES"
+    "RATE OF TOTAL COG. CRIMES"
    ]
   },
   {
@@ -66,17 +66,11 @@
    ]
   }
  ],
- "notes": [
-  "Note 1 Rank on the basis of Rate of total cognizable crimes (Col.6).",
-  "2 ** Rank on the basis of percentage contribution (Col.4)",
-  "3 State having 0.00 percentage contribution and rate have not been ranked."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 3,
-  "cells_passed": 2,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 5620, sum 4953"
-  ],
+  "cells_passed": 3,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
