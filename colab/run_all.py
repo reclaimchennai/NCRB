@@ -84,6 +84,7 @@ class Job:
         prog = Path(out) / model_slug(model) / "_progress.json"
         restarts = 0
         start = time.time()
+        self.save(stage={"kind": "bench" if bench else "full", "model": model, "edge": edge, "out": str(out)})
         impl = self.status.get("impl", {}).get(model)      # a backend that worked (or is being tried) for this model
         started_ok = False
         while True:
