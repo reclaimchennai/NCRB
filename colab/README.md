@@ -38,7 +38,6 @@ statistical tables can rank differently, hence the bake-off.
 
 | Model | Size | Licence | OmniDocBench v1.6 overall | Table TEDS |
 |---|---|---|---|---|
-| [XingChen-AGI/TeleOCR](https://huggingface.co/XingChen-AGI/TeleOCR) (Aug 2026) | 1.2B | Apache-2.0 | 96.87 | 97.05 |
 | [ATH-MaaS/OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR2) | 0.8B | Apache-2.0 | 96.58 | 94.76 |
 | [PaddlePaddle/PaddleOCR-VL-1.6](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6) (Jun 2026) | 0.9B | Apache-2.0 | 96.33 | 94.76 |
 | [zai-org/GLM-OCR](https://huggingface.co/zai-org/GLM-OCR) (the laptop model, full precision) | 0.9B | MIT | 95.22 | 92.83 |
@@ -53,3 +52,21 @@ uv run --extra vlm --extra analysis python -m analysis.families
 uv run --extra vlm --extra analysis python -m analysis.longseries
 ./deploy.sh
 ```
+
+## Why not TeleOCR
+
+TeleOCR (Aug 2026) tops OmniDocBench v1.6 (96.87, table TEDS 97.05) but is not in
+the bake-off:
+
+- its score comes from a two-stage pipeline (a layout pass at 1036 px, then each
+  region cropped and read with its own prompt: "This is the image of a table...");
+  the model card points to a separate project, NaviDC-OCR, for whole documents.
+  Our job reads whole pages, and the page title and surrounding text are what join
+  a table across years;
+- its text model has `head_dim: 128` with a hidden size of 1024. vLLM's
+  `Qwen2Attention` computes `head_dim = hidden_size // heads` (64), so the
+  rotary embedding asserts (`sum(mrope_section) == rotary_dim // 2`) at start-up,
+  in vLLM 0.30.0 on Colab. The transformers backend would take about a day.
+
+If the bake-off winner leaves many files below the Tesseract reading, the
+two-stage TeleOCR pipeline with a patched `Qwen2Attention` is the next thing to try.

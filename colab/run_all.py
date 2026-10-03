@@ -35,8 +35,10 @@ sys.path.insert(0, str(REPO / "src"))
 from ncrb.vlm_tables import model_slug, score_tables, tables_from_texts  # noqa: E402
 
 REL = "https://github.com/reclaimchennai/NCRB/releases/download/ocr-pages"
-# best first on OmniDocBench v1.6 tables (Oct 2026); the bake-off on NCRB's own scans decides
-CANDIDATES = ["XingChen-AGI/TeleOCR", "ATH-MaaS/OvisOCR2", "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
+# whole-page models, best first on OmniDocBench v1.6 (Oct 2026); the bake-off on NCRB's own scans decides.
+# TeleOCR (top of that table) is left out: it reads one cropped region at a time behind a separate layout step,
+# and vLLM's Qwen2 code ignores its head_dim (AssertionError in get_rope), see colab/README.md
+CANDIDATES = ["ATH-MaaS/OvisOCR2", "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
 
 
 class Job:
