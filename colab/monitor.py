@@ -180,13 +180,18 @@ class Monitor:
         phase = s.get("phase", "starting")
         if phase not in ("finished", "stopped", "failed") and not job_alive():
             self.dead_since = self.dead_since or time.time()
-            if time.time() - self.dead_since > 120:
+            waited = time.time() - self.dead_since
+            if waited > 120:
                 log = self.root.parent / "ncrb_ocr_run.log"
-                self.say("dead", "the background job is not running. Last lines of its log:\n" + (log.read_text()[-2500:] if log.exists() else "(no log)"))
-                s["phase"] = "failed"
+                self.say("dead", "the background job is not running. Start it again (it resumes from the pages on Drive); "
+                                 "the GPU is released in 10 minutes if it is still not running. Last lines of its log:\n"
+                         + (log.read_text()[-2000:] if log.exists() else "(no log)"))
+            if waited > 720:
+                s["phase"] = "abandoned"
                 return s
         else:
             self.dead_since = None
+            self.said.pop("dead", None)
         self.say("phase", f"phase: {phase}" + (f" ({s['part']})" if phase == "download" and s.get("part") else ""))
         if s.get("last_error"):
             self.say("err", f"problem: {s['last_error']}")
@@ -203,7 +208,7 @@ class Monitor:
         keys = ("phase", "pages_done", "pages_total", "hours", "zip", "error")
         print(json.dumps({k: s.get(k) for k in keys}, indent=1))
         z = s.get("zip")
-        if z and Path(z).exists():
+        if s.get("phase") == "finished" and z and Path(z).exists():      # a partial zip from a stopped run is not the result
             try:
                 from google.colab import files
                 files.download(z)          # lands in the laptop's Downloads folder (it is also on Drive)
@@ -220,7 +225,7 @@ def watch(root="/content/drive/MyDrive/ncrb_ocr", every=15, release=True, units_
     m = Monitor(root, every, release, units_per_hour)
     while True:
         s = m.poll()
-        if s.get("phase") in ("finished", "stopped", "failed"):
+        if s.get("phase") in ("finished", "stopped", "failed", "abandoned"):
             break
         time.sleep(every)
     m.finish(s)
