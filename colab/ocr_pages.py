@@ -56,6 +56,8 @@ def main() -> None:
     ap.add_argument("--max-tokens", type=int, default=None)
     ap.add_argument("--gpu-mem", type=float, default=0.88)
     ap.add_argument("--dtype", default="auto", help="'half' on a T4, which has no bfloat16")
+    ap.add_argument("--model-impl", default=None, help="'transformers' runs vLLM on the Hugging Face model code instead of its own")
+    ap.add_argument("--limit-files", type=int, default=None, help="only the first N files (a quick test)")
     args = ap.parse_args()
 
     import pymupdf as fitz
@@ -66,6 +68,8 @@ def main() -> None:
     if args.bench:
         files = [f for f in files if f.get("bench")]
     files.sort(key=lambda f: f["order"])
+    if args.limit_files:
+        files = files[: args.limit_files]
     out = Path(args.out) / model_slug(args.model)
     # a page that failed on its own (.err) is not retried: the model's reading of that file is then incomplete and
     # extraction ignores it, falling back to the other readings
@@ -77,7 +81,7 @@ def main() -> None:
         return
 
     prompt, max_tokens = MODELS.get(args.model, ("Table Recognition:", 8192))
-    engine = {"max_model_len": 16384} | ENGINE.get(args.model, {})
+    engine = {"max_model_len": 16384} | ENGINE.get(args.model, {}) | ({"model_impl": args.model_impl} if args.model_impl else {})
     llm = LLM(model=args.model, trust_remote_code=True, limit_mm_per_prompt={"image": 1},
               gpu_memory_utilization=args.gpu_mem, dtype=args.dtype, **engine)
     params = SamplingParams(temperature=0.0, max_tokens=args.max_tokens or max_tokens)

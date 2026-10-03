@@ -82,9 +82,13 @@ class Job:
         prog = Path(out) / model_slug(model) / "_progress.json"
         restarts = 0
         start = time.time()
+        impl = self.status.get("impl", {}).get(model)      # a backend that worked (or is being tried) for this model
+        started_ok = False
         while True:
             cmd = [sys.executable, str(REPO / "colab" / "ocr_pages.py"), "--model", model, "--bundle", self.a.bundle,
                    "--out", str(out), "--long-edge", str(edge), "--dtype", self.a.dtype] + (["--bench"] if bench else [])
+            if impl:
+                cmd += ["--model-impl", impl]
             log = open(self.root / f"log-{model_slug(model)}-{edge}{'-bench' if bench else ''}.txt", "a")
             p = subprocess.Popen(cmd, stdout=log, stderr=subprocess.STDOUT)
             last_done, last_change = -1, time.time()
@@ -94,6 +98,10 @@ class Job:
                     d = json.loads(prog.read_text())
                     if d["done"] != last_done:
                         last_done, last_change = d["done"], time.time()
+                        if not started_ok:
+                            started_ok = True
+                            self.status.setdefault("impl", {})[model] = impl or "vllm"
+                            self.save()
                         if not bench:
                             eta = (d["total"] - d["done"]) * d["s_per_page"] / 3600
                             self.save(full={"model": model, "edge": edge, "done": d["done"], "total": d["total"],
@@ -110,6 +118,14 @@ class Job:
                 return False
             restarts += 1
             self.save(last_error=f"{model_slug(model)} exited {p.returncode}; restart {restarts}")
+            if not started_ok:
+                # it never read a page: a startup failure. vLLM's own code for the model failed, so try the
+                # Hugging Face model code once; if that fails too, drop the model rather than retry it
+                if impl is None and restarts == 1:
+                    impl = "transformers"
+                    self.save(last_error=f"{model_slug(model)} could not start with vLLM's own model code; trying the transformers backend")
+                    continue
+                return False
             if restarts > self.a.restarts:
                 return False
 
@@ -134,22 +150,26 @@ class Job:
     # ------------------------------------------------------------- the job
     def main(self):
         self.pages()
-        if self.status.get("phase") == "finished":
+        if self.status.get("phase") == "finished" and not self.a.retry:
             return
         # bake-off at the laptop's page size, then the two best again at a larger size (small typed digits)
-        board = self.status.get("bench_1600")
-        if not board:
+        board = dict(self.status.get("bench_1600") or {})
+        failed = list(self.status.get("bench_failed", []))
+        todo = [m for m in self.a.candidates if m not in board and (self.a.retry or m not in failed)]
+        if todo:
             ok = []
-            for m in self.a.candidates:
+            for m in todo:
                 self.save(phase="bench", bench_model=m, edge=1600)
                 if self.run(m, self.root / "bench" / "1600", 1600, True, self.a.bench_min * 60):
                     ok.append(m)
+                    failed = [x for x in failed if x != m]
                 else:
-                    self.save(last_error=f"bake-off: {m} failed or ran out of time; skipped")
-            if not ok:
+                    failed = failed + [m] if m not in failed else failed
+                    self.save(last_error=f"bake-off: {m} failed or ran out of time; skipped", bench_failed=failed)
+            if not (ok or board):
                 return self.save(phase="failed", error="no model finished the bake-off")
-            board = self.score([(m, self.root / "bench" / "1600", m) for m in ok])
-            self.save(bench_1600=board)
+            board = self.score([(m, self.root / "bench" / "1600", m) for m in list(board) + ok])
+            self.save(bench_1600=board, bench_failed=failed, bench_2048=None)      # new models: the 2048 round is redone
         top = sorted(board, key=lambda m: -board[m]["score"])[:2]
         big = self.status.get("bench_2048")
         if big is None:
@@ -191,6 +211,7 @@ def main():
     ap.add_argument("--bench-min", type=float, default=35, help="time limit per bake-off run, minutes")
     ap.add_argument("--stall-min", type=float, default=25, help="restart a run that has read no page for this long")
     ap.add_argument("--restarts", type=int, default=6)
+    ap.add_argument("--retry", action="store_true", help="run the bake-off again for models that failed earlier, and add them to it")
     a = ap.parse_args()
     job = Job(a)
     try:
