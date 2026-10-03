@@ -309,3 +309,55 @@ def check_totals(t: Table) -> dict:
         "other_totals_checked": other_checked,
         "other_totals_passed": other_passed,
     }
+
+
+TOTAL_COL_RE = re.compile(r"^\s*(grand\s+)?total\b|\btotal\s*$|^\s*all\s*$|\(\s*total\s*\)", re.I)
+
+
+def check_row_totals(t: Table) -> tuple[int, int]:
+    """Rows whose 'Total' column equals the sum of the columns it totals: (passed, checked).
+
+    The columns a total covers are its siblings under the same parent heading ('Bankruptcy | Male',
+    '... | Female', '... | Total'), or, in a one-level heading, the count columns since the previous
+    total. Rates and percentages are left out. Used to choose between readings of a page, where a
+    table with no State or all-India total row would otherwise have nothing to check.
+    """
+    if RATE_TABLE_RE.search(t.title):
+        return 0, 0
+    decimal = {cid for r in t.rows for cid, raw in r.cells.items() if "." in raw and any(ch.isdigit() for ch in raw)}
+    order = [cid for cid in t.columns if cid not in decimal and not RATE_RE.search(" ".join(t.columns[cid]))]
+    groups: list[tuple[int, list[int]]] = []
+    run: list[int] = []
+    for cid in order:
+        hdr = t.columns[cid]
+        leaf = hdr[-1] if hdr else ""
+        if TOTAL_COL_RE.search(leaf):
+            parent = hdr[:-1]
+            sibs = [c for c in order if c != cid and t.columns[c][:-1] == parent and t.columns[c] and not TOTAL_COL_RE.search(t.columns[c][-1])] if parent else run
+            if len(sibs) >= 2:
+                groups.append((cid, list(sibs)))
+            run = []
+        else:
+            run.append(cid)
+    passed = checked = 0
+    for r in t.rows:
+        for tot, sibs in groups:
+            tv = parse_number(r.cells.get(tot)) if r.cells.get(tot) is not None else None
+            if tv is None:
+                continue
+            vals = []
+            for c in sibs:
+                raw = r.cells.get(c)
+                v = parse_number(raw) if raw is not None else None
+                if v is None:
+                    if raw is not None and raw.strip() in ("-", "–", "—", "Nil", "NIL", "0"):
+                        v = 0.0
+                    else:
+                        vals = None
+                        break
+                vals.append(v)
+            if not vals or (tv == 0 and sum(vals) == 0):
+                continue
+            checked += 1
+            passed += abs(sum(vals) - tv) <= 0.51
+    return passed, checked

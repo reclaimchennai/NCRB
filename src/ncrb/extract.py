@@ -45,7 +45,7 @@ FILE_FIELDS = [
     "source_file", "publication", "year", "listing", "pages", "pages_without_text", "pages_ocr", "ocr_conf",
     "pages_with_table", "tables", "status", "error",
 ]
-EXTS = (".pdf", ".xlsx", ".xls")
+EXTS = (".pdf", ".xlsx", ".xls", ".doc", ".docx", ".rtf")
 
 
 def slug(s: str, n: int = 70) -> str:
@@ -132,49 +132,147 @@ def _score(tables) -> tuple[int, int, int]:
     return score_tables(tables)
 
 
-# when neither reading has a total to check, the model that won the bake-off on NCRB's own scans (colab/) is
-# preferred: where totals can be checked it matches 86% of them against Tesseract's 57%
-VLM_PREFERRED = ["ATH-MaaS/OvisOCR2", "mlx-community/GLM-OCR-bf16", "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
+# ties go to the reading of the model that won the bake-off on NCRB's own scans (colab/), the larger page first
+VLM_PREFERRED = ["ATH-MaaS/OvisOCR2@2048", "ATH-MaaS/OvisOCR2", "PaddlePaddle/PaddleOCR-VL-1.6@2048", "mlx-community/GLM-OCR-bf16",
+                 "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
 
 
-def best_vlm(src: Path, cur_passed: int, cur_total: int):
-    """The best cached VLM reading of a scanned file, if it beats the current reading (totals matched, totals checked).
+def best_vlm(src: Path, cur_passed: int, cur_total: int, cur_is_vlm: bool = False):
+    """The best cached VLM reading of a scanned file, if it should replace the current reading.
 
-    Every model that has read all the file's scanned pages (on this laptop or on a cloud GPU, see colab/) is
-    scored by the totals check, a failed total costing twice what a matched one earns. A reading with totals
-    to check replaces the current one only when it scores higher, so no file whose totals could be checked
-    gets worse. When neither the current reading nor any model reading has a total to check, the preferred
-    model's reading is used. Returns (tables, model, note) or None.
+    Every model reading that covers all the file's scanned pages (laptop or cloud GPU, see colab/) is
+    ranked by, in order:
+      1. the State/UT/all-India totals check (a failed total costs twice a matched one);
+      2. every other internal sum it reproduces: total rows inside lists and row totals ('Male + Female
+         = Total'), ncrb.vlm_tables.consistency;
+      3. agreement: the share of its figures that the other readings also found. Independent readings
+         rarely misread the same digit the same way, so where nothing can be checked, the reading the
+         others agree with is the likeliest right;
+      4. the preferred model.
+    Against a Tesseract reading, a model reading with totals to check is used only when it scores higher
+    on (1), so no file whose totals could be checked gets worse; when neither has a total, the best model
+    reading is used. When the current reading is already a model's, the best model reading is used.
+    Returns (tables, model, note) or None.
     """
     try:
         from .vlm import VLM_MODELS
-        from .vlm_tables import vlm_tables
+        from .vlm_tables import agreement, consistency, numbers, vlm_tables
     except ImportError:
         return None
-    cur_score = cur_passed - 2 * (cur_total - cur_passed)
-    best = None
     order = VLM_PREFERRED + [m for m in VLM_MODELS if m not in VLM_PREFERRED]
+    cands = []
     for rank, model in enumerate(order):
         vt, st = vlm_tables(src, model, run_model=False)
         if not vt or st["pages_missing"]:
             continue
         vp, vtot, vscore = _score(vt)
-        if vtot and vscore > cur_score:
-            key = (1, vscore, -rank)
-        elif not vtot and not cur_total:
-            key = (0, 0, -rank)
-        else:
-            continue
-        if best is None or key > best[0]:
-            how = f"totals {vp}/{vtot} against {cur_passed}/{cur_total}" if vtot else "no totals to check in either reading"
-            best = (key, vt, model, f"VLM reading used ({model.split('/')[-1]}): {how}")
-    return (best[1], best[2], best[3]) if best else None
+        cands.append({"model": model, "vt": vt, "vp": vp, "vtot": vtot, "vscore": vscore, "rank": rank,
+                      "cons": consistency(vt), "nums": numbers(vt)})
+    if not cands:
+        return None
+    for c in cands:
+        others = [agreement(c["nums"], o["nums"]) for o in cands if o is not c]
+        c["agree"] = sum(others) / len(others) if others else 0.0
+    cur_score = cur_passed - 2 * (cur_total - cur_passed)
+    if cur_is_vlm:
+        eligible = cands
+    else:
+        eligible = [c for c in cands if (c["vtot"] and c["vscore"] > cur_score) or (not c["vtot"] and not cur_total)]
+    if not eligible:
+        return None
+    b = max(eligible, key=lambda c: (c["vtot"] > 0, c["vscore"], c["cons"], round(c["agree"], 3), -c["rank"]))
+    if b["vtot"]:
+        how = f"totals {b['vp']}/{b['vtot']}" + ("" if cur_is_vlm else f" against {cur_passed}/{cur_total}")
+    else:
+        how = "no State or all-India total to check"
+    extra = f"; consistency {b['cons']:g}" + (f"; agrees {b['agree']:.0%} with {len(cands) - 1} other reading(s)" if len(cands) > 1 else "")
+    return b["vt"], b["model"], f"VLM reading used ({b['model'].split('/')[-1]}): {how}{extra}"
 
 
 def choose_vlm(src: Path, ocr_tables: list):
     tp, ttot, _ = _score(ocr_tables)
     r = best_vlm(src, tp, ttot)
     return (r[0], r[2]) if r else None
+
+
+DOCX_CACHE = ROOT / "data" / "docx_cache"
+
+
+def docx_tables(path: Path) -> list:
+    """Tables of a .docx, cell by cell (python-docx), each with the paragraphs just above it as its title."""
+    import html as htmllib
+
+    from docx import Document
+    from docx.table import Table as DocxTable
+    from docx.text.paragraph import Paragraph
+
+    from .assemble import assemble
+    from .vlm_tables import page_segments
+
+    doc = Document(str(path))
+    segs, recent = [], []
+    for el in doc.element.body.iterchildren():
+        tag = el.tag.rsplit("}", 1)[-1]
+        if tag == "p":
+            txt = Paragraph(el, doc).text.strip()
+            if txt:
+                recent = (recent + [txt])[-4:]
+        elif tag == "tbl":
+            t = DocxTable(el, doc)
+            rows = []
+            for r in t.rows:
+                cells, prev = [], None
+                for c in r.cells:            # a merged cell repeats: keep one, spanning
+                    if c._tc is prev:
+                        cells[-1][1] += 1
+                        continue
+                    prev = c._tc
+                    cells.append([" ".join(p.text.strip() for p in c.paragraphs if p.text.strip()), 1])
+                rows.append("<tr>" + "".join(f'<td colspan="{n}">{htmllib.escape(x)}</td>' if n > 1 else f"<td>{htmllib.escape(x)}</td>"
+                                             for x, n in cells) + "</tr>")
+            # the title starts at its 'TABLE 12A' label; a footnote of the table before can precede it
+            head = "\n".join(recent)
+            m = list(re.finditer(r"\bTABLE[\s-]*\d+[A-Z]?\b", head, re.I))
+            if m:
+                head = head[m[-1].start():]
+            html = head + "\n<table>" + "".join(rows) + "</table>"
+            segs.extend(page_segments(html, len(segs) + 1))
+            recent = []
+    return [t for t in assemble(segs) if len(t.rows) >= 4 and len(t.columns) >= 2]
+
+
+def word_tables(src: Path) -> list:
+    """Tables of a Word file (Crime in India 2000's chapters, Prison Statistics 2001 ...): macOS textutil turns it
+    into HTML, and each table with the text just before it (its title) goes through the same parser as the OCR
+    models' HTML output, so headers, row labels and the totals check are shared."""
+    import html as htmllib
+    import subprocess
+
+    from .assemble import assemble
+    from .vlm_tables import file_sha, page_segments
+
+    # a .doc converted by LibreOffice (scripts/convert_doc.sh) keeps its table cells; textutil merges them
+    cached = DOCX_CACHE / f"{file_sha(src)[:16]}.docx"
+    if src.suffix.lower() == ".docx":
+        return docx_tables(src)
+    if cached.exists():
+        return docx_tables(cached)
+    out = subprocess.run(["textutil", "-convert", "html", "-stdout", str(src)], capture_output=True, timeout=300)
+    if out.returncode != 0:
+        raise RuntimeError(f"textutil failed: {out.stderr[:200]!r}")
+    body = out.stdout.decode("utf-8", "replace")
+    body = re.sub(r"(?is)^.*?<body[^>]*>|</body>.*$", "", body)
+    segs, text = [], ""
+    for part in re.split(r"(?is)(<table.*?</table>)", body):
+        if part[:6].lower() == "<table":
+            pre = htmllib.unescape(re.sub(r"<[^>]+>", "\n", text))
+            lines = [ln.strip() for ln in pre.splitlines() if ln.strip()][-4:]   # the title is just above the table
+            segs.extend(page_segments("\n".join(lines) + "\n" + part, len(segs) + 1))
+            text = ""
+        else:
+            text += part
+    # narrative chapters wrap single sentences in tables: keep real ones only
+    return [t for t in assemble(segs) if len(t.rows) >= 4 and len(t.columns) >= 2]
 
 
 def process_file(job: dict) -> tuple[dict, list[dict]]:
@@ -184,7 +282,11 @@ def process_file(job: dict) -> tuple[dict, list[dict]]:
     rows: list[dict] = []
     try:
         ext = src.suffix.lower()
-        if ext in (".xlsx", ".xls"):
+        if ext in (".doc", ".docx", ".rtf"):
+            tables = word_tables(src)
+            summary |= {"pages": len(tables), "pages_without_text": 0, "pages_ocr": 0, "pages_with_table": len(tables)}
+            method = "word"
+        elif ext in (".xlsx", ".xls"):
             found = extract_workbook(str(src))
             tables = [t for _, t in found]
             for sheet, t in found:
@@ -273,7 +375,7 @@ def write_tables(job: dict, tables: list, method: str, summary: dict) -> list[di
 def rescore_file(job: dict, cur_passed: int, cur_total: int, summary: dict):
     """A scanned file's cached VLM readings against its current one, without re-running OCR: rewritten only if better."""
     try:
-        r = best_vlm(ROOT / job["path"], cur_passed, cur_total)
+        r = best_vlm(ROOT / job["path"], cur_passed, cur_total, cur_is_vlm=str(summary.get("error", "")).startswith("VLM reading used"))
         if r is None:
             return None
         tables, model, note = r

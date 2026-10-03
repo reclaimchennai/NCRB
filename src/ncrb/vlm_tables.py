@@ -205,6 +205,41 @@ def score_tables(tables: list[Table]) -> tuple[int, int, int]:
     return passed, total, passed - 2 * (total - passed)
 
 
+def consistency(tables: list[Table]) -> float:
+    """Every internal sum a reading reproduces, for choosing between readings of the same file: State/UT/
+    all-India total rows (weight 1), total rows inside lists (0.5) and row totals (0.5); a miss costs twice
+    a match."""
+    from .assemble import check_row_totals, check_totals
+
+    s = 0.0
+    for t in tables:
+        c = check_totals(t)
+        s += c["cells_passed"] - 2 * (c["cells_checked"] - c["cells_passed"])
+        s += 0.5 * (c["other_totals_passed"] - 2 * (c["other_totals_checked"] - c["other_totals_passed"]))
+        p, n = check_row_totals(t)
+        if n and p >= 0.5 * n:      # most rows add up: the grouping is right, so a miss is a misread figure
+            s += 0.5 * (p - 2 * (n - p))
+    return s
+
+
+NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
+
+
+def numbers(tables: list[Table]) -> list[str]:
+    """The figures a reading found, in order, for measuring how far two readings agree."""
+    return [m.replace(",", "") for t in tables for r in t.rows for cid in sorted(r.cells) for m in NUM.findall(r.cells[cid] or "")]
+
+
+def agreement(a: list[str], b: list[str]) -> float:
+    """Share of figures two readings have in common (as multisets): 1 when they read the same numbers."""
+    from collections import Counter
+
+    if not a or not b:
+        return 0.0
+    ca, cb = Counter(a), Counter(b)
+    return sum((ca & cb).values()) / max(len(a), len(b))
+
+
 def vlm_tables(path: Path, model_id: str, run_model: bool = True) -> tuple[list[Table], dict]:
     """Tables of a scanned PDF read by the VLM, and how many pages were read / missing."""
     doc = fitz.open(path)
