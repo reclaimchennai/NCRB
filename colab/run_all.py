@@ -77,7 +77,7 @@ class Job:
         self.a = a
         self.root = Path(a.root)
         self.root.mkdir(parents=True, exist_ok=True)
-        self.status_path = self.root / "status.json"
+        self.status_path = self.root / a.state
         self.status = json.loads(self.status_path.read_text()) if self.status_path.exists() else {}
         self.status.setdefault("started", time.time())
         self.status["vm_started"] = time.time()
@@ -112,12 +112,12 @@ class Job:
         self.files = json.loads(man.read_text())["files"]
 
     # ------------------------------------------------------------- runs
-    def run(self, model, out, edge, bench, limit_s):
+    def run(self, model, out, edge, bench, limit_s, suffix="", only=None):
         """One ocr_pages.py process, supervised: restarted on a crash or a stall, stopped at the time limit."""
-        prog = Path(out) / model_slug(model) / "_progress.json"
+        prog = Path(out) / model_slug(model + suffix) / "_progress.json"
         restarts = 0
         start = time.time()
-        self.save(stage={"kind": "bench" if bench else "full", "model": model, "edge": edge, "out": str(out)})
+        self.save(stage={"kind": "bench" if bench else "full", "model": model + suffix, "edge": edge, "out": str(out)})
         impl = self.status.get("impl", {}).get(model)      # a backend that worked (or is being tried) for this model
         started_ok = False
         while True:
@@ -125,10 +125,14 @@ class Job:
                    "--out", str(out), "--long-edge", str(edge), "--dtype", self.a.dtype] + (["--bench"] if bench else [])
             if impl:
                 cmd += ["--model-impl", impl]
+            if suffix:
+                cmd += ["--suffix", suffix]
+            if only:
+                cmd += ["--only", str(only)]
             left = free_gpu()
             if left > 1500:
                 self.save(last_error=f"GPU still holds {left} MiB from another process before starting {model_slug(model)}")
-            log = open(self.root / f"log-{model_slug(model)}-{edge}{'-bench' if bench else ''}.txt", "a")
+            log = open(self.root / f"log-{model_slug(model + suffix)}-{edge}{'-bench' if bench else ''}.txt", "a")
             # its own process group, so a kill takes the vLLM worker too (an orphaned worker keeps the GPU memory)
             p = subprocess.Popen(cmd, stdout=log, stderr=subprocess.STDOUT, start_new_session=True)
             last_done, last_change = -1, time.time()
@@ -144,7 +148,7 @@ class Job:
                             self.save()
                         if not bench:
                             eta = (d["total"] - d["done"]) * d["s_per_page"] / 3600
-                            self.save(full={"model": model, "edge": edge, "done": d["done"], "total": d["total"],
+                            self.save(full={"model": model + suffix, "edge": edge, "done": d["done"], "total": d["total"],
                                             "s_per_page": d["s_per_page"], "eta_h": round(eta, 2), "restarts": restarts})
                 stalled = time.time() - last_change > self.a.stall_min * 60
                 if stalled or time.time() - start > limit_s or self.over_time():
@@ -201,9 +205,42 @@ class Job:
             rows[label] = {"matched": a, "checked": b, "share": round(a / b, 4) if b else 0, "score": a - 2 * (b - a), "files": len(common)}
         return rows
 
+    # ------------------------------------------------------------- a second round on chosen files
+    def plan(self, path):
+        """Re-read the files a plan names with each (model, page size) it lists; zips everything at the end.
+
+        plan.json: {"name": "round2", "files": [sha16, ...], "runs": [{"model": ..., "edge": 2048}, ...]}
+        Each run is stored as <model>-<edge> (e.g. OvisOCR2-2048) so it never overwrites an earlier reading.
+        """
+        plan = json.loads(Path(path).read_text())
+        name = plan.get("name", "round2")
+        out = self.root / name
+        only = self.root / f"{name}-files.json"
+        only.write_text(json.dumps(plan["files"]))
+        done = set(self.status.get(f"{name}_done", []))
+        for r in plan["runs"]:
+            key = f"{r['model']}@{r['edge']}"
+            if key in done:
+                continue
+            self.save(phase="full", stage=None, full=None, plan=name)
+            ok = self.run(r["model"], out, r["edge"], False, self.a.hours * 3600, suffix=f"@{r['edge']}", only=only)
+            if ok:
+                done.add(key)
+                self.save(**{f"{name}_done": sorted(done)})
+            else:
+                self.save(last_error=f"{key} did not finish; moving on")
+            if self.over_time():
+                break
+        zip_base = self.root / name
+        shutil.make_archive(str(zip_base), "zip", root_dir=out)
+        self.save(phase="finished", zip=f"{zip_base}.zip", hours=round((time.time() - self.t0) / 3600, 2),
+                  pages_done=None, pages_total=None)
+
     # ------------------------------------------------------------- the job
     def main(self):
         self.pages()
+        if self.a.plan:
+            return self.plan(self.a.plan)
         if self.status.get("phase") == "finished" and not self.a.retry:
             return
         # bake-off at the laptop's page size, then the two best again at a larger size (small typed digits)
@@ -265,6 +302,8 @@ def main():
     ap.add_argument("--bench-min", type=float, default=35, help="time limit per bake-off run, minutes")
     ap.add_argument("--stall-min", type=float, default=25, help="restart a run that has read no page for this long")
     ap.add_argument("--restarts", type=int, default=6)
+    ap.add_argument("--plan", help="a plan JSON: re-read only these files with these (model, page size) runs")
+    ap.add_argument("--state", default="status.json", help="status file name under --root (a plan keeps its own)")
     ap.add_argument("--retry", action="store_true", help="run the bake-off again for models that failed earlier, and add them to it")
     a = ap.parse_args()
     job = Job(a)

@@ -16,6 +16,7 @@ The bar's line shows, for the stage running now:
 
 import json
 import random
+import re
 import subprocess
 import sys
 import time
@@ -93,11 +94,11 @@ class Quality:
 
 
 class Monitor:
-    def __init__(self, root, every, release, units_per_hour):
+    def __init__(self, root, every, release, units_per_hour, state="status.json"):
         from tqdm.auto import tqdm
         self.tqdm = tqdm
         self.root, self.every, self.release, self.rate = Path(root), every, release, units_per_hour
-        self.status_path = self.root / "status.json"
+        self.status_path = self.root / state
         self.bar, self.key, self.quality = None, None, None
         self.said = {}
         self.dead_since = None
@@ -126,7 +127,7 @@ class Monitor:
         st = s.get("stage")
         if not st:
             return
-        slug = st["model"].split("/")[-1]
+        slug = re.sub(r"[^A-Za-z0-9.]+", "-", st["model"].split("/")[-1]).strip("-")      # as ncrb.vlm_tables.model_slug
         d = Path(st["out"]) / slug
         key = (st["kind"], st["model"], st["edge"])
         if key != self.key:
@@ -137,6 +138,10 @@ class Monitor:
                 m = _read(Path("/content/ocr_pages/manifest.json"))
                 self.manifest = m["files"] if m else []
             files = [f for f in self.manifest if f.get("bench")] if st["kind"] == "bench" else self.manifest
+            only = self.root / f"{(_read(self.status_path) or {}).get('plan', '')}-files.json"
+            if st["kind"] != "bench" and only.name != "-files.json" and only.exists():
+                keep = set(json.loads(only.read_text()))
+                files = [f for f in files if f["sha16"] in keep]
             try:
                 self.quality = Quality(files, d, sample=st["kind"] == "full") if files else None
             except Exception as e:
@@ -208,7 +213,7 @@ class Monitor:
         keys = ("phase", "pages_done", "pages_total", "hours", "zip", "error")
         print(json.dumps({k: s.get(k) for k in keys}, indent=1))
         z = s.get("zip")
-        if s.get("phase") == "finished" and z and Path(z).exists():      # a partial zip from a stopped run is not the result
+        if s.get("phase") == "finished" and z and Path(z).exists():  # (a plan's zip too)      # a partial zip from a stopped run is not the result
             try:
                 from google.colab import files
                 files.download(z)          # lands in the laptop's Downloads folder (it is also on Drive)
@@ -221,8 +226,8 @@ class Monitor:
             runtime.unassign()
 
 
-def watch(root="/content/drive/MyDrive/ncrb_ocr", every=15, release=True, units_per_hour=UNITS_PER_HOUR):
-    m = Monitor(root, every, release, units_per_hour)
+def watch(root="/content/drive/MyDrive/ncrb_ocr", every=15, release=True, units_per_hour=UNITS_PER_HOUR, state="status.json"):
+    m = Monitor(root, every, release, units_per_hour, state)
     while True:
         s = m.poll()
         if s.get("phase") in ("finished", "stopped", "failed", "abandoned"):

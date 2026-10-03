@@ -54,7 +54,9 @@ MODELS |= {
     ),
 }
 # every model whose cached reading of a file is weighed against the others by the totals check
-VLM_MODELS = [DEFAULT_MODEL, "XingChen-AGI/TeleOCR", "ATH-MaaS/OvisOCR2", "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
+# '@2048': the same model reading the page at 2048 px (colab/plans/round2.json), cached as e.g. OvisOCR2-2048
+VLM_MODELS = [DEFAULT_MODEL, "XingChen-AGI/TeleOCR", "ATH-MaaS/OvisOCR2", "ATH-MaaS/OvisOCR2@2048",
+              "PaddlePaddle/PaddleOCR-VL-1.6", "PaddlePaddle/PaddleOCR-VL-1.6@2048", "zai-org/GLM-OCR"]
 
 
 @lru_cache(maxsize=2)

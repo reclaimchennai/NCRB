@@ -58,6 +58,8 @@ def main() -> None:
     ap.add_argument("--dtype", default="auto", help="'half' on a T4, which has no bfloat16")
     ap.add_argument("--model-impl", default=None, help="'transformers' runs vLLM on the Hugging Face model code instead of its own")
     ap.add_argument("--limit-files", type=int, default=None, help="only the first N files (a quick test)")
+    ap.add_argument("--suffix", default="", help="added to the cache folder name, e.g. '@2048' -> OvisOCR2-2048")
+    ap.add_argument("--only", help="JSON list of sha16: only these files")
     args = ap.parse_args()
 
     import pymupdf as fitz
@@ -67,10 +69,13 @@ def main() -> None:
     files = json.loads((bundle / "manifest.json").read_text())["files"]
     if args.bench:
         files = [f for f in files if f.get("bench")]
+    if args.only:
+        keep = set(json.loads(Path(args.only).read_text()))
+        files = [f for f in files if f["sha16"] in keep]
     files.sort(key=lambda f: f["order"])
     if args.limit_files:
         files = files[: args.limit_files]
-    out = Path(args.out) / model_slug(args.model)
+    out = Path(args.out) / model_slug(args.model + args.suffix)
     # a page that failed on its own (.err) is not retried: the model's reading of that file is then incomplete and
     # extraction ignores it, falling back to the other readings
     todo = [(f, k, p) for f in files for k, p in enumerate(f["pages"])
