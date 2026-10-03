@@ -23,7 +23,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
+import signal
 import subprocess
 import sys
 import time
@@ -39,6 +41,35 @@ REL = "https://github.com/reclaimchennai/NCRB/releases/download/ocr-pages"
 # TeleOCR (top of that table) is left out: it reads one cropped region at a time behind a separate layout step,
 # and vLLM's Qwen2 code ignores its head_dim (AssertionError in get_rope), see colab/README.md
 CANDIDATES = ["ATH-MaaS/OvisOCR2", "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
+
+
+def gpu_used_mib() -> int:
+    try:
+        return int(subprocess.run(["nvidia-smi", "--query-gpu=memory.used", "--format=csv,noheader,nounits"],
+                                  capture_output=True, text=True, timeout=15).stdout.strip().split("\n")[0])
+    except Exception:
+        return 0
+
+
+def free_gpu(wait_s=90) -> int:
+    """Kill vLLM processes left over from an interrupted run (an orphaned EngineCore keeps its memory and makes the
+    next start fail), then wait for the memory to come back. The notebook kernel is not touched. Returns MiB still used."""
+    try:
+        pids = subprocess.run(["nvidia-smi", "--query-compute-apps=pid", "--format=csv,noheader"],
+                              capture_output=True, text=True, timeout=15).stdout.split()
+    except Exception:
+        pids = []
+    for pid in pids:
+        try:
+            args = subprocess.run(["ps", "-p", pid, "-o", "args="], capture_output=True, text=True).stdout
+            if any(w in args.lower() for w in ("vllm", "enginecore", "ocr_pages")):
+                os.kill(int(pid), signal.SIGKILL)
+        except Exception:
+            pass
+    t = time.time()
+    while gpu_used_mib() > 1500 and time.time() - t < wait_s:
+        time.sleep(3)
+    return gpu_used_mib()
 
 
 class Job:
@@ -92,8 +123,12 @@ class Job:
                    "--out", str(out), "--long-edge", str(edge), "--dtype", self.a.dtype] + (["--bench"] if bench else [])
             if impl:
                 cmd += ["--model-impl", impl]
+            left = free_gpu()
+            if left > 1500:
+                self.save(last_error=f"GPU still holds {left} MiB from another process before starting {model_slug(model)}")
             log = open(self.root / f"log-{model_slug(model)}-{edge}{'-bench' if bench else ''}.txt", "a")
-            p = subprocess.Popen(cmd, stdout=log, stderr=subprocess.STDOUT)
+            # its own process group, so a kill takes the vLLM worker too (an orphaned worker keeps the GPU memory)
+            p = subprocess.Popen(cmd, stdout=log, stderr=subprocess.STDOUT, start_new_session=True)
             last_done, last_change = -1, time.time()
             while p.poll() is None:
                 time.sleep(30)
@@ -111,9 +146,16 @@ class Job:
                                             "s_per_page": d["s_per_page"], "eta_h": round(eta, 2), "restarts": restarts})
                 stalled = time.time() - last_change > self.a.stall_min * 60
                 if stalled or time.time() - start > limit_s or self.over_time():
-                    p.kill()
+                    try:
+                        os.killpg(p.pid, signal.SIGKILL)
+                    except Exception:
+                        p.kill()
                     p.wait()
                     break
+            try:
+                os.killpg(p.pid, signal.SIGKILL)       # whatever the run left behind
+            except Exception:
+                pass
             log.close()
             if p.returncode == 0:
                 return True
@@ -122,8 +164,15 @@ class Job:
             restarts += 1
             self.save(last_error=f"{model_slug(model)} exited {p.returncode}; restart {restarts}")
             if not started_ok:
-                # it never read a page: a startup failure. vLLM's own code for the model failed, so try the
-                # Hugging Face model code once; if that fails too, drop the model rather than retry it
+                # it never read a page: a startup failure
+                if self.status.get("impl", {}).get(model) == "vllm":
+                    # this model has worked here before, so it is the environment (GPU memory, a download), not
+                    # the model: free the GPU and try again a few times
+                    if restarts > 3:
+                        return False
+                    continue
+                # a model never seen working: vLLM's own code for it failed, so try the Hugging Face model code
+                # once; if that fails too, drop the model rather than retry it
                 if impl is None and restarts == 1:
                     impl = "transformers"
                     self.save(last_error=f"{model_slug(model)} could not start with vLLM's own model code; trying the transformers backend")
