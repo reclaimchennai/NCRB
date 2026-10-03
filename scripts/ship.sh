@@ -10,7 +10,9 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 HOST=parag@raw
 DEST=projects/ncrb
-SSH="ssh -o ConnectTimeout=20 -o ServerAliveInterval=10 -o ServerAliveCountMax=6"
+# one shared connection for every command and chunk: a burst of new ssh connections gets refused
+MUX="-o ControlMaster=auto -o ControlPath=$HOME/.ssh/ncrb-ship-%C -o ControlPersist=15m"
+SSH="ssh -o ConnectTimeout=20 -o ServerAliveInterval=10 -o ServerAliveCountMax=6 $MUX"
 retry() { local n=0; until "$@"; do n=$((n + 1)); [ $n -ge 12 ] && return 1; echo "  retry $n"; sleep 8; done; }
 
 # send a local file in chunks (each resent until it arrives whole; chunks already there are skipped), then
@@ -26,7 +28,7 @@ put() {
     name=$(basename "$p"); size=$(stat -f %z "$p")
     have=$($SSH $HOST "stat -c %s $DEST/.upload/$name 2>/dev/null || echo 0" || echo 0)
     [ "$have" = "$size" ] && continue
-    retry timeout 180 scp -q -o ConnectTimeout=20 -o ServerAliveInterval=5 -o ServerAliveCountMax=3 "$p" "$HOST:$DEST/.upload/$name"
+    retry timeout 240 scp -q -o ConnectTimeout=20 -o ServerAliveInterval=10 -o ServerAliveCountMax=6 $MUX "$p" "$HOST:$DEST/.upload/$name"
   done
   rm -rf "$tmp"
   retry $SSH $HOST "cd $DEST && cat .upload/part.* > '$dst' && echo '$sum  $dst' | sha256sum -c --quiet && rm -rf .upload"
@@ -47,8 +49,15 @@ fi
 
 if [[ "${1:-}" != "--code" ]]; then
   echo "database"
-  put data/web/ncrb.duckdb data/web/ncrb.duckdb.new 25m
-  retry $SSH $HOST "cd $DEST/data/web && { [ ! -f ncrb.duckdb.new ] || mv ncrb.duckdb.new ncrb.duckdb; } && echo 'database replaced'"
+  # it compresses about 6x; sent compressed, unpacked and checked against the original's SHA-256 on the server
+  DBSUM=$(shasum -a 256 data/web/ncrb.duckdb | cut -d' ' -f1)
+  ZST=$(mktemp -t ncrb-db).zst
+  zstd -q -T0 -3 -f data/web/ncrb.duckdb -o "$ZST"
+  put "$ZST" data/web/ncrb.duckdb.zst 10m
+  rm -f "$ZST"
+  retry $SSH $HOST "cd $DEST/data/web && { [ ! -f ncrb.duckdb.zst ] || { zstd -q -d -f ncrb.duckdb.zst -o ncrb.duckdb.new \
+    && echo '$DBSUM  ncrb.duckdb.new' | sha256sum -c --quiet && mv ncrb.duckdb.new ncrb.duckdb && rm ncrb.duckdb.zst; }; } \
+    && echo 'database replaced'"
 fi
 
 $SSH $HOST "cd $DEST && { [ -x .venv/bin/uvicorn ] || python3 -m venv .venv; } \
