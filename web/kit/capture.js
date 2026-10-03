@@ -10,8 +10,8 @@
  * the source of the figures, and @reclaimchennai as its author.
  */
 
-import { fixWebmDuration } from './webm.js?v=69a57e683b';
-import { cssVar } from './util.js?v=69a57e683b';
+import { fixWebmDuration } from './webm.js?v=c96e3ffe6c';
+import { cssVar } from './util.js?v=c96e3ffe6c';
 
 const OUT_FPS = 30;
 const CODECS = ['avc1.640028', 'avc1.4d0028', 'avc1.42003c', 'avc1.42E01E'];
@@ -122,10 +122,14 @@ export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
       }
     }
     const legendH = legendRows ? legendRows * 30 + 8 : 0;
+    // annotations under the chart: "① 2020: COVID-19 lockdown ..."
+    ctx.font = `400 18px ${FONT}`;
+    const noteLines = (info.notes || []).flatMap(t => wrap(ctx, t, inner));
+    const notesH = noteLines.length ? noteLines.length * 26 + 16 : 0;
     ctx.font = `400 17px ${FONT}`;
     const srcLines = wrap(ctx, info.source, inner);
     const footH = 34 + 32 + srcLines.length * 24 + 26;
-    let H = locked?.H ?? Math.round(headH + chartH + legendH + footH);
+    let H = locked?.H ?? Math.round(headH + chartH + legendH + notesH + footH);
     H += H % 2;
     const dpr = video ? 1 : Math.max(1, Math.min(3, Math.floor(MAX_SNAP_PX / Math.max(W, H))));
     const shots = await Promise.all(svgs.map((s, i) => rasterise(s, scales[i] * dpr)));
@@ -168,6 +172,11 @@ export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
         x += lw;
       }
       y += 22;
+    }
+    if (noteLines.length) {
+      ctx.fillStyle = ink2; ctx.font = `400 18px ${FONT}`;
+      y += 10;
+      for (const l of noteLines) { y += 26; ctx.fillText(l, PAD, y); }
     }
     // credit band: who made it, where it lives, where the figures come from
     const fy = H - footH + 12;

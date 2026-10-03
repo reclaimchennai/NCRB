@@ -359,3 +359,11 @@ footer.foot .credits { font-size: .75rem; line-height: 1.6; }
 .law details summary { cursor: pointer; font-size: .8125rem; color: var(--series-1); margin: 6px 0; }
 @media (max-width: 560px) { .law-list { grid-template-columns: 1fr; } .law-list dt { white-space: normal; } .law-list dd { margin-bottom: 6px; } }
 .chart .axis-unit { font-weight: 600; letter-spacing: .02em; }
+
+.chart-notes { list-style: none; margin: 4px 0 8px; padding: 0; display: grid; gap: 6px; }
+.chart-notes li { font-size: .8125rem; line-height: 1.45; color: var(--ink-2); padding-left: 10px; border-left: 2px solid var(--ink-muted); }
+.chart-notes li.check { border-left-color: var(--warning, #d97706); }
+.chart-notes li b { color: var(--ink); margin-right: 4px; font-variant-numeric: tabular-nums; }
+.chart-notes .nmark { display: inline-grid; place-items: center; width: 18px; height: 18px; margin-right: 6px; border-radius: 50%;
+  border: 1.2px solid var(--ink-2); font-size: .6875rem; font-weight: 700; color: var(--ink); vertical-align: 1px; }
+.chart-notes li.check .nmark { border-color: var(--warning, #d97706); }

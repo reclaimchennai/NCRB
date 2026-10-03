@@ -14,7 +14,7 @@
  *   clocks      two 12-hour dials, day (06-18) and night (18-06), one wedge per 3 hours
  */
 
-import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=69a57e683b';
+import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=c96e3ffe6c';
 
 /* ------------------------------------------------------------------ utils */
 
@@ -130,7 +130,7 @@ function hbar(x, y, w, h, roundRight = true) {
  * xs: years. series: [{key, label, color, values: {year: v}, dash}].
  * pos: fractional index into xs for the year marker (or null).
  */
-export function lineChart(el, { xs, series, pos = null, fmt = fmtN, yFmt = fmtShort, height, hl = null, unit = '', zeroBase = true }) {
+export function lineChart(el, { xs, series, pos = null, fmt = fmtN, yFmt = fmtShort, height, hl = null, unit = '', zeroBase = true, marks = [] }) {
   const { w, narrow } = size(el);
   const all = series.flatMap(s => xs.map(x => s.values[x]).filter(v => v != null && Number.isFinite(v)));
   if (!all.length) return emptyChart(el);
@@ -181,6 +181,19 @@ export function lineChart(el, { xs, series, pos = null, fmt = fmtN, yFmt = fmtSh
     });
     if (lastPt) ends.push({ s, y: y(lastPt[1]), v: lastPt[1], dim });
   });
+  // numbered annotations: a ring on the point and its number just above (the text is in the card's note)
+  for (const mk of marks) {
+    if (mk.x < xs[0] || mk.x > xs[xs.length - 1]) continue;
+    const s = series.find(z => z.key === mk.key);
+    const v = s?.values[mk.x];
+    if (!mk.top && v == null) continue;
+    // a mark on a point, or (top) at the top of the plot for a note about the whole year
+    const cx = x(mk.x), cy = mk.top ? m.top + 19 : y(v), above = mk.top || cy - 16 > m.top;
+    if (mk.top) el.append(svg('line', { x1: cx, x2: cx, y1: m.top + 26, y2: h - m.bottom, stroke: 'var(--ink-muted)', 'stroke-dasharray': '2 3', 'stroke-width': 1, 'pointer-events': 'none' }));
+    else el.append(svg('circle', { cx, cy, r: 5.5, fill: 'none', stroke: mk.kind === 'check' ? 'var(--warning, #d97706)' : 'var(--ink)', 'stroke-width': 1.6, 'pointer-events': 'none' }));
+    el.append(svg('circle', { cx, cy: above ? cy - 17 : cy + 17, r: 8.5, fill: 'var(--surface)', stroke: mk.kind === 'check' ? 'var(--warning, #d97706)' : 'var(--ink-2)', 'stroke-width': 1.2, 'pointer-events': 'none' }));
+    el.append(svg('text', { x: cx, y: (above ? cy - 17 : cy + 17) + 3.8, 'text-anchor': 'middle', class: 'tick', style: 'font-weight:700;fill:var(--ink)', 'pointer-events': 'none' }, String(mk.n)));
+  }
   // end labels, pushed apart
   const ys = decollide(ends.map(e => e.y), 13, m.top, h - m.bottom);
   ends.forEach((e, i) => {

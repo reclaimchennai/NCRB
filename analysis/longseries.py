@@ -67,10 +67,15 @@ IPC_HEADS = [
 ]
 # a table that counts something other than cases registered
 NOT_CASES_TABLE = re.compile(
-    r"motive|arrest|juvenil|disposal|person|victim|percentage|value|property|fire.?arm|pending|convict|charge|by sex|"
+    r"motive|arrest|juvenil|disposal|person|victim|value|property|fire.?arm|pending|convict|charge|by sex|"
     r"age.?group|recidiv|police (station|personnel|strength)|court|accused|apprehend|custod|casualt|district|"
-    r"trial|prosecut|withdrawn|compound|rank|share|investigat|stolen|recover|offender|dead|death of|injured",
+    r"trial|prosecut|withdrawn|compound|investigat|stolen|recover|offender|dead|death of|injured|"
+    # tables of shares only; a 'comparative incidence ... and percentage variation' table keeps its count columns
+    r"^\W*(table\W*[\w.-]*\W*)?(percentage|share|rank)",
     re.I)
+# the all-heads IPC table, whose total column is just 'Total | I' (2002) or 'Total'
+IPC_TABLE = re.compile(r"cognizable crimes\s*\(ipc\)|\bipc crimes\b|crime under different (crime )?heads", re.I)
+BARE_TOTAL = re.compile(r"^\s*total\s*(\|\s*(i|incidence|cases?|c\.?\s?r\.?)\s*)?$", re.I)
 NOT_CASES_COL = re.compile(
     r"rate|%|percent|variation|share|rank|person|victim|female|male|arrest|population|lakh|average|ratio|"
     r"convict|charge|pending|disposal|withdrawn|compound|trial|acquit|investig|\b(r|v|p)\b\s*$|^\s*\(?(r|v)\)?\s*$",
@@ -108,6 +113,9 @@ def candidates(pub: str, heads, years=(1953, 2024)) -> pd.DataFrame:
     heads_title = {x: head_of(re.sub(r"\d{4}", "", str(x)), heads) for x in c.title.unique()}
     c["head"] = [heads_col[col] or (heads_title[ti] if not heads_col[col] and (CASES_COL.search(col) or YEAR.search(col) or not col.strip()) else None)
                  for col, ti in zip(c["column"], c.title)]
+    bare = c["head"].isna() & c["column"].str.match(BARE_TOTAL) & c.title.fillna("").str.contains(IPC_TABLE) \
+        & ~c.title.fillna("").str.contains(r"sll|special|local|women|children|scheduled|cyber|juvenil", case=False)
+    c.loc[bare, "head"] = "total"
     c = c[c["head"].notna()]
     # the year a figure belongs to: a single year named in its column, else the edition's year
     def fig_year(col, ed):
@@ -150,6 +158,10 @@ def candidates(pub: str, heads, years=(1953, 2024)) -> pd.DataFrame:
     c = c[c.place.notna()]
     c["pname"] = c.place.map(lambda p: p[0])
     c["ptype"] = c.place.map(lambda p: p[1])
+    # a city must be one NCRB lists in its city tables (text-layer headings otherwise slip in as 'cities')
+    from .engine import known_cities
+    cities = set(known_cities())
+    c = c[(c.ptype != "city") | c.pname.isin(cities)]
     c["w"] = c.method.map(WEIGHT).fillna(1.0)
     ok = c.checks_total.fillna(0) > 0
     c.loc[ok, "w"] *= 0.5 + c.loc[ok, "checks_passed"] / c.loc[ok, "checks_total"]
@@ -191,7 +203,8 @@ def path(years: list[int], opts: dict[int, list[dict]]) -> dict[int, dict]:
 
     def emit(o):
         if o["firm"]:
-            return -6.0
+            # several printed figures for a year (an edition, a later revision): the one more tables agree on
+            return -6.0 - 2.0 * min(o["n"], 3)
         return 1.2 - math.log1p(o["support"]) + 0.6 * o["crank"]
 
     def jump(a, b, gap):

@@ -7,11 +7,12 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=69a57e683b';
-import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=69a57e683b';
-import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=69a57e683b';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=69a57e683b';
-import { footerHtml, creditLine } from '../kit/footer.js?v=69a57e683b';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=c96e3ffe6c';
+import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=c96e3ffe6c';
+import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=c96e3ffe6c';
+import { notesFor } from '../kit/notes.js?v=c96e3ffe6c';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=c96e3ffe6c';
+import { footerHtml, creditLine } from '../kit/footer.js?v=c96e3ffe6c';
 
 const DATA = '../data/trends';
 const GROUPS = [
@@ -101,6 +102,7 @@ function captureMeta(c, withYear, scope = 'place') {
     subtitle: c.el.querySelector('.titles p').textContent,
     year: withYear ? tl.year : null,
     source: creditLine(S.meta, withYear ? [tl.year] : placeYears(), scope === 'place' ? S.place.sources : null),
+    notes: c === C.trend && !trendArgs?.season ? trendNotes.map(n => `(${n.n}) ${n.year}: ${n.text}`) : [],
   });
 }
 
@@ -235,7 +237,7 @@ let tilesYear = null;
 function drawTilesLight() { if (tl.year !== tilesYear) { tilesYear = tl.year; drawTiles(); } }
 
 /* 1. over the years */
-let trendArgs = null;
+let trendArgs = null, trendNotes = [];
 function drawTrend() {
   const c = C.trend, k = kind(), ys = placeYears();
   if (!ys.length) { emptyChart(c.svg); return; }
@@ -271,10 +273,15 @@ function drawTrend() {
     c.set({ title: `${S.meta.title} in ${placeName()}`, sub: `${share ? 'share of each year\'s total, %' : unit()}${selectionText() ? ` · ${selectionText()}` : ''}` });
   }
   c.setLegend(list.map(s => ({ label: s.label, color: s.color, line: true })));
-  trendArgs = { xs, series: list, unit: k === 'rate' ? '' : S.mode === 'share' && k !== 'month' ? '%' : '', fmt: k === 'rate' || (S.mode === 'share' && k !== 'month') ? fmt1 : fmtN };
+  // annotations from the place's yearly total: known causes (the 2020 lockdown ...) and jumps to check
+  const tot = {}; for (const y of ys) { const v = yearTotal(y); if (v) tot[y] = v; }
+  trendNotes = notesFor(tot, { place: placeName(), what: `${S.meta.title} ${S.meta.id || ''}`, fmt: fmtN });
+  trendArgs = { xs, series: list, unit: k === 'rate' ? '' : S.mode === 'share' && k !== 'month' ? '%' : '', fmt: k === 'rate' || (S.mode === 'share' && k !== 'month') ? fmt1 : fmtN,
+                marks: trendNotes.map(n => ({ x: n.year, n: n.n, kind: n.kind, top: true })) };
   markTrend(tl.pos);
   const gaps = xs.filter(y => !ys.includes(y));
-  c.set({ note: gaps.length ? `No figures for ${compact(gaps)}: ${gapReason(gaps)}` : '' });
+  const noteRows = trendNotes.map(n => `<li class="${n.kind}"><span class="nmark">${n.n}</span><b>${n.year}</b> ${esc(n.text)}</li>`).join('');
+  c.set({ note: (noteRows ? `<ul class="chart-notes">${noteRows}</ul>` : '') + (gaps.length ? `<p>No figures for ${compact(gaps)}: ${gapReason(gaps)}</p>` : '') });
 }
 function markTrend(pos) {
   if (!trendArgs) return;

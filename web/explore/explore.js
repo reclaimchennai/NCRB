@@ -7,12 +7,13 @@
  * subtotals are flagged, shown last and kept off the colour scales.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=69a57e683b';
-import { lineChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=69a57e683b';
-import { segmented, select, toggle, Timeline, at, card, bindCapture } from '../kit/cards.js?v=69a57e683b';
-import { footerHtml, creditLine } from '../kit/footer.js?v=69a57e683b';
-import { explain, explainAll } from '../kit/legal.js?v=69a57e683b';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=69a57e683b';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=c96e3ffe6c';
+import { lineChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=c96e3ffe6c';
+import { segmented, select, toggle, Timeline, at, card, bindCapture } from '../kit/cards.js?v=c96e3ffe6c';
+import { footerHtml, creditLine } from '../kit/footer.js?v=c96e3ffe6c';
+import { explain, explainAll } from '../kit/legal.js?v=c96e3ffe6c';
+import { notesFor } from '../kit/notes.js?v=c96e3ffe6c';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=c96e3ffe6c';
 
 const DATA = '../data/explore';
 const TYPE_LABEL = { total: 'India', state: 'States', ut: 'Union Territories', city: 'Cities', row: 'Rows' };
@@ -81,6 +82,7 @@ function metaFor(c, withYear) {
     subtitle: $('.titles p', c.el).textContent,
     year: withYear ? tl.year : null,
     source: credit(withYear ? [tl.year] : shownYears()),
+    notes: c === C.trend ? trendNotes.map(n => `(${n.n}) ${n.year}: ${n.text}`) : [],
   });
 }
 
@@ -235,7 +237,7 @@ function drawLaw() {
 }
 
 /* 1. over the years */
-let trendArgs = null;
+let trendArgs = null, trendNotes = [];
 function drawTrend() {
   const c = C.trend;
   const list = [{ key: 'sel', label: rowName(S.row), color: 'var(--critical)', values: series(S.row) }];
@@ -251,14 +253,19 @@ function drawTrend() {
   if (!ys.length) { emptyChart(c.svg, `No figures for ${rowName(S.row)} under ${measure()}.`); trendArgs = null; }
   else {
     const xs = []; for (let y = ys[0]; y <= ys.at(-1); y++) xs.push(y);
-    trendArgs = { xs, series: list, fmt: fmtV, yFmt: v => (isRate() ? fmt1(v) : fmtShort(v)), unit: unitOf() };
+    // annotations on the place shown: known causes of unusual years, and jumps that need checking
+    trendNotes = notesFor(series(S.row), { place: rowName(S.row), what: `${catName(S.cat)} ${S.fam.title} ${S.fam.topic}`, fmt: fmtV });
+    trendArgs = { xs, series: list, fmt: fmtV, yFmt: v => (isRate() ? fmt1(v) : fmtShort(v)), unit: unitOf(),
+                  marks: trendNotes.map(n => ({ key: 'sel', x: n.year, n: n.n, kind: n.kind })) };
     markTrend(tl.pos);
   }
   c.setLegend(list.map(s => ({ label: s.label, color: s.color, line: true })));
   c.set({ title: `${measure()}: ${rowName(S.row)}`, sub: `${S.fam.title} · ${geoLabel()}${S.compare && list.length > 1 ? ' · with the largest in their latest year' : ''}` });
   const own = Object.keys(series(S.row)).map(Number);
   const gaps = trendArgs ? trendArgs.xs.filter(y => !own.includes(y)) : [];
-  c.set({ note: gaps.length ? `No figure for ${rowName(S.row)} in ${span(gaps)}: not printed in that edition, the category was not in the table then, or a scanned page did not add up to its totals.` : '' });
+  const noteRows = trendArgs ? trendNotes.map(n => `<li class="${n.kind}"><span class="nmark">${n.n}</span><b>${n.year}</b> ${esc(n.text)}</li>`).join('') : '';
+  const gapText = gaps.length ? `<p>No figure for ${esc(rowName(S.row))} in ${gaps.length} of ${trendArgs.xs.length} years (${span(gaps)}): not printed in that edition, the category was not in the table then, or a scanned page did not add up to its totals.</p>` : '';
+  c.set({ note: (noteRows ? `<ul class="chart-notes">${noteRows}</ul>` : '') + gapText });
 }
 function markTrend(pos) {
   if (!trendArgs) return;
