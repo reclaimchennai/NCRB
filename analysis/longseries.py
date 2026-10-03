@@ -356,8 +356,43 @@ PSI_NOT_TABLE = re.compile(r"annex|foreign|(central|district|sub|women|open|spec
                            r"education|caste|religion|domicile|sentence|period of|offence|crime head|death|escape|jail break|released|parole", re.I)
 
 
+def suicide_datasets() -> pd.DataFrame:
+    """Total suicides by State/UT (and city) from two transcriptions of NCRB's own tables, as extra candidates:
+    'Suicides in India 2001-2012', the State-wise dataset NCRB gave data.gov.in (causes add up to the total; it
+    is the only State-wise source for 2001-2003), and Reclaim Chennai's OpenDataChennai copies of ADSI's
+    'incidence and rate of suicides' tables, 1998-2020 (States, UTs and cities)."""
+    from .engine import ODC_RATES, OGD_FILE
+
+    rows = []
+    if OGD_FILE.exists():
+        o = pd.read_csv(OGD_FILE)
+        o = o[o.Type_code == "Causes"].groupby(["State", "Year"]).Total.sum().reset_index()
+        for st, y, v in zip(o.State, o.Year, o.Total):
+            p = resolve(str(st), "", False, int(y))
+            if p and v > 0:
+                rows.append({"pname": p[0], "ptype": p[1], "head": "suicides", "fy": int(y), "value": float(v), "w": 3.0, "own": True,
+                             "crank": 0, "method": "excel", "table_id": "ogd/suicides-in-india-2001-2012", "year": int(y),
+                             "title": "Suicides in India 2001-2012 (NCRB, data.gov.in): causes, total", "source_url": "https://data.gov.in"})
+    if ODC_RATES.exists():
+        r = pd.read_csv(ODC_RATES)
+        for cat, nm, n, y in zip(r.Category, r["State or City"], r["Number of Suicides"], r.Year):
+            try:
+                v = float(str(n).replace(",", ""))
+            except ValueError:
+                continue
+            p = resolve(str(nm), "Cities" if str(cat).lower().startswith("cit") else "", False, int(y))
+            if p and v > 0:
+                rows.append({"pname": p[0], "ptype": p[1], "head": "suicides", "fy": int(y), "value": v, "w": 2.5, "own": True,
+                             "crank": 0, "method": "excel", "table_id": "odc/suicide-rate-state-city-1998-2020", "year": int(y),
+                             "title": "Incidence and rate of suicides (ADSI), as copied in OpenDataChennai",
+                             "source_url": "https://github.com/elseasama/OpenDataChennai"})
+    return pd.DataFrame(rows)
+
+
 def run_pub(pub, heads, title, cats_city, not_table, need_table, years):
     c = candidates(pub, heads, years=years, not_table=not_table, need_table=need_table, not_col=NOT_COUNT_COL)
+    if pub == "adsi":
+        c = pd.concat([c, suicide_datasets()], ignore_index=True)
     c = c[c.value > 0]          # a State's suicides, deaths or prisoners are never nil; a 0 is another column's
     d = pick(c) if len(c) else pd.DataFrame()
     if d.empty:
