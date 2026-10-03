@@ -1,0 +1,94 @@
+{
+ "table_id": "cii/2000/tb83-86_t85b",
+ "publication": "cii",
+ "year": 2000,
+ "listing": "archived",
+ "topic": "Crime in India 2000 (archived copy of NCRB's old site)",
+ "section": "Crime in India 2000 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "TABLE 85B AGE-GROUP-WISE NATURAL DEATHS OF POLICE PERSONNEL AND SUICIDES COMMITTED BY THEM DURING 2000",
+ "listing_title": "TB83-86",
+ "method": "word",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20170822185212id_/http://ncrb.nic.in:80/StatPublications/CII/CII2000/CONTENTS/TB83-86.doc",
+ "source_file": "raw/cii/2000/archived/TB83-86.doc",
+ "source_sha256": "e274b89b0adfa465cfbe1086b02b2c032f432e04c40be0acd3c56ef0e807ef63",
+ "table_no": "85B",
+ "pdf_title": "TABLE 85B AGE-GROUP-WISE NATURAL DEATHS OF POLICE PERSONNEL AND SUICIDES COMMITTED BY THEM DURING 2000",
+ "row_label": "SL.NO. / STATE/UT/CITY",
+ "pages": [
+  6,
+  7
+ ],
+ "n_rows": 110,
+ "n_cols": 6,
+ "n_cells": 660,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE | 18-25 YEARS",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE",
+    "18-25 YEARS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE | 26-35 YEARS",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE",
+    "26-35 YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE | 36-45 YEARS",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE",
+    "36-45 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE | 46-55 YEARS",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE",
+    "46-55 YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE | ABOVE 55 YEARS",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE",
+    "ABOVE 55 YEARS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE | TOTAL (COL.3 TO 7)",
+   "header": [
+    "NO. OF POLICE PERSONNEL DIED NATURAL DEATH WHILE IN SERVICE",
+    "TOTAL (COL.3 TO 7)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 48,
+  "cells_passed": 42,
+  "failures": [
+   "col 3 'TOTAL (ALL-INDIA)': printed 1, sum 8",
+   "col 4 'TOTAL (ALL-INDIA)': printed 41, sum 85",
+   "col 5 'TOTAL (ALL-INDIA)': printed 40, sum 150",
+   "col 6 'TOTAL (ALL-INDIA)': printed 29, sum 112",
+   "col 7 'TOTAL (ALL-INDIA)': printed 0, sum 42",
+   "col 8 'TOTAL (ALL-INDIA)': printed 111, sum 397"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

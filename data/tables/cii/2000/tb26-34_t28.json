@@ -1,0 +1,105 @@
+{
+ "table_id": "cii/2000/tb26-34_t28",
+ "publication": "cii",
+ "year": 2000,
+ "listing": "archived",
+ "topic": "Crime in India 2000 (archived copy of NCRB's old site)",
+ "section": "Crime in India 2000 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "TABLE 28 AGE-GROUP-WISE VICTIMS OF INCEST (RAPE) CASES DURING 2000",
+ "listing_title": "Tb26-34",
+ "method": "word",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20190303143519id_/http://ncrb.gov.in:80/StatPublications/CII/CII2000/CONTENTS/Tb26-34.doc",
+ "source_file": "raw/cii/2000/archived/Tb26-34.doc",
+ "source_sha256": "0b0dac96baa02fd8545f74e638a3e1214fed21a63c99b84b79ff1d7793674109",
+ "table_no": "28",
+ "pdf_title": "TABLE 28 AGE-GROUP-WISE VICTIMS OF INCEST (RAPE) CASES DURING 2000",
+ "row_label": "SL.NO. / STATE/UT/CITY",
+ "pages": [
+  5,
+  6,
+  7
+ ],
+ "n_rows": 142,
+ "n_cols": 7,
+ "n_cells": 994,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NO. OF CASES REPORTED | NO. OF CASES REPORTED",
+   "header": [
+    "NO. OF CASES REPORTED",
+    "NO. OF CASES REPORTED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NO. OF VICTIMS | UPTO 10 YEARS",
+   "header": [
+    "NO. OF VICTIMS",
+    "UPTO 10 YEARS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "NO. OF VICTIMS | 11 - 15 YEARS",
+   "header": [
+    "NO. OF VICTIMS",
+    "11 - 15 YEARS"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "NO. OF VICTIMS | 16 - 18 YEARS",
+   "header": [
+    "NO. OF VICTIMS",
+    "16 - 18 YEARS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "NO. OF VICTIMS | 19 - 30 YEARS",
+   "header": [
+    "NO. OF VICTIMS",
+    "19 - 30 YEARS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "NO. OF VICTIMS | 31 - 50 YEARS",
+   "header": [
+    "NO. OF VICTIMS",
+    "31 - 50 YEARS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "NO. OF VICTIMS | ABOVE 50 YEARS",
+   "header": [
+    "NO. OF VICTIMS",
+    "ABOVE 50 YEARS"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 84,
+  "cells_passed": 53,
+  "failures": [
+   "col 3 'TOTAL (ALL-INDIA)': printed 16133, sum 16150",
+   "col 3 'TOTAL STATES': printed 16023, sum 13785",
+   "col 3 'TOTAL (UTs)': printed 473, sum 458",
+   "col 3 'TOTAL (ALL-INDIA)': printed 16496, sum 17557",
+   "col 3 'TOTAL (CITIES)': printed 1078, sum 395",
+   "col 4 'TOTAL (ALL-INDIA)': printed 723, sum 726",
+   "col 4 'TOTAL STATES': printed 663, sum 519",
+   "col 4 'TOTAL (UTs)': printed 81, sum 79"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

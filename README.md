@@ -246,6 +246,27 @@ How tables are joined, and why gaps remain:
   category in one year only, and scanned pages whose figures do not add up
   to their own totals are left out instead of guessed.
 
+### Files NCRB no longer serves
+
+NCRB's site lists 107 files it does not serve (a 404 or an HTML error page), most
+of the 1996, 2000 and 2012 Crime in India editions. Copies of its old website
+in the Internet Archive fill most of that ([scripts/recover_wayback.py](scripts/recover_wayback.py)):
+Crime in India 2000's tables as the original Word files (116 tables, read cell
+by cell after LibreOffice converts them, [scripts/convert_doc.sh](scripts/convert_doc.sh)),
+and 2012's chapters, tables and 2001-2012 spreadsheets (561 tables). Their
+printed totals check out at 99.1%. They are listed as `archived`, with the
+archive address as their source. 1996 survives only as its first chapter.
+
+### Choosing between readings
+
+A scanned page can now have several readings (Tesseract, OvisOCR2 at 1600 and
+2048 px, PaddleOCR-VL-1.6 at 2048 px). Each file keeps the reading that, in
+order: reproduces the most printed State/UT/all-India totals; reproduces the
+most other internal sums (total rows inside lists, and row totals such as
+Male + Female = Total); agrees most with the other independent readings, since
+two models rarely misread the same digit the same way. A Tesseract reading
+with checkable totals is replaced only by a reading that scores higher.
+
 ### Long series since 1953
 
 The core Crime in India figures, cases registered under each main IPC crime
@@ -263,8 +284,13 @@ reading:
   (a table's first column preferred, as it is the cases column), and it is
   kept only if it is within a factor of 2 of its neighbouring years.
 
-Every figure's source table and how it was chosen is in
-`web/data/explore/cii/long-series-provenance.csv`. The scanned decades
+The same assembly gives suicides, accidental deaths and road-crash deaths by
+State and city from ADSI (1967 on). Prison Statistics is left to its own
+Explore tables: its State totals sit among many look-alike columns (by jail
+type, sex, foreign inmates) and an automatic pick was not reliable before 2002.
+A figure counts as agreed only when it comes from independent printings (a
+table reprinted in a year-wise volume is one source). Every figure's source
+table and how it was chosen is in `web/data/explore/<report>/long-series-provenance.csv`. The scanned decades
 (1970s–1990s especially) still have gaps where Tesseract garbled the
 headings; the cloud OCR run in [colab/](colab/README.md) is meant to close them.
 

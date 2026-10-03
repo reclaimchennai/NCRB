@@ -1,0 +1,81 @@
+{
+ "table_id": "cii/2000/tb83-86_t83",
+ "publication": "cii",
+ "year": 2000,
+ "listing": "archived",
+ "topic": "Crime in India 2000 (archived copy of NCRB's old site)",
+ "section": "Crime in India 2000 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "TABLE 83 PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 2000 (STATE, UT & CITY-WISE )",
+ "listing_title": "TB83-86",
+ "method": "word",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20170822185212id_/http://ncrb.nic.in:80/StatPublications/CII/CII2000/CONTENTS/TB83-86.doc",
+ "source_file": "raw/cii/2000/archived/TB83-86.doc",
+ "source_sha256": "e274b89b0adfa465cfbe1086b02b2c032f432e04c40be0acd3c56ef0e807ef63",
+ "table_no": "83",
+ "pdf_title": "TABLE 83 PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 2000 (STATE, UT & CITY-WISE )",
+ "row_label": "SL.NO. / STATE/UT/CITY",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 5,
+ "n_cells": 290,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NO. OF OCCASIONS OF POILCE FIRING | NO. OF OCCASIONS OF POILCE FIRING",
+   "header": [
+    "NO. OF OCCASIONS OF POILCE FIRING",
+    "NO. OF OCCASIONS OF POILCE FIRING"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CIVILIANS | KILLED",
+   "header": [
+    "CIVILIANS",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CIVILIANS | INJURED",
+   "header": [
+    "CIVILIANS",
+    "INJURED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "POLICEMEN | KILLED",
+   "header": [
+    "POLICEMEN",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POLICEMEN | INJURED",
+   "header": [
+    "POLICEMEN",
+    "INJURED"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 13,
+  "failures": [
+   "col 4 'TOTAL STATES': printed 759, sum 751",
+   "col 4 'TOTAL (ALL-INDIA)': printed 759, sum 767"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

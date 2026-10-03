@@ -89,15 +89,22 @@ WEIGHT = {"pdf_text": 3.0, "excel": 3.0, "pdf_vlm": 1.5, "pdf_mixed": 1.0, "pdf_
 
 
 def head_of(text: str, heads) -> str | None:
-    hits = [k for k, _, inc, exc in heads if re.search(inc, text, re.I) and not (exc and re.search(exc, text, re.I))]
+    hits = [k for k, _, inc, exc, *_ in heads if re.search(inc, text, re.I) and not (exc and re.search(exc, text, re.I))]
     return hits[0] if len(hits) == 1 else None
 
 
-def candidates(pub: str, heads, years=(1953, 2024)) -> pd.DataFrame:
-    """Every printed figure that is cases under one crime head for one place, with its year and source."""
+# counts of people (deaths, prisoners) are what ADSI and Prison Statistics measure: only rates, shares and splits go
+NOT_COUNT_COL = re.compile(r"rate|%|percent|variation|share|rank|female|male|women|(mid.?year|projected|census)\s*population|lakh|average|ratio|occupancy|"
+                           r"\b(r)\b\s*$|^\s*\(?r\)?\s*$", re.I)
+
+
+def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, need_table=None, not_col=NOT_CASES_COL) -> pd.DataFrame:
+    """Every printed figure that is a count under one head for one place, with its year and source."""
     t = q("SELECT table_id, year, title, method, listing, checks_total, checks_passed, source_url FROM tables "
           "WHERE publication = ? AND n_cells > 0 AND year BETWEEN ? AND ?", [pub, *years])
-    t = t[~t.title.fillna("").str.contains(NOT_CASES_TABLE)]
+    t = t[~t.title.fillna("").str.contains(not_table)]
+    if need_table is not None:
+        t = t[t.title.fillna("").str.contains(need_table)]
     out = []
     for chunk in range(0, len(t), 400):
         ids = t.table_id.iloc[chunk:chunk + 400].tolist()
@@ -107,12 +114,25 @@ def candidates(pub: str, heads, years=(1953, 2024)) -> pd.DataFrame:
     c = pd.concat(out).merge(t, on="table_id")
     c["column"] = c["column"].fillna("")
     c = c[(c.value >= 0) & (c.value == c.value.round())]      # counts of cases: whole and not negative (decimals are rates)
-    c = c[~c["column"].str.contains(NOT_CASES_COL)]
+    c = c[~c["column"].str.contains(not_col)]
     # which head: from the column, else from the title (one table per head, 1950s-60s)
     heads_col = {x: head_of(x, heads) for x in c["column"].unique()}
     heads_title = {x: head_of(re.sub(r"\d{4}", "", str(x)), heads) for x in c.title.unique()}
-    c["head"] = [heads_col[col] or (heads_title[ti] if not heads_col[col] and (CASES_COL.search(col) or YEAR.search(col) or not col.strip()) else None)
-                 for col, ti in zip(c["column"], c.title)]
+    # a head taken from the title needs a column that counts it: cases/incidence by default, or the head's own
+    # column pattern (road deaths: 'Died', 'Persons killed')
+    colneed = {h[0]: re.compile(h[4], re.I) for h in heads if len(h) > 4 and h[4]}
+    def from_title(col, ti):
+        k = heads_title[ti]
+        if not k:
+            return None
+        if k in colneed:
+            return k if colneed[k].search(col) and not re.search(r"male|female|injur|cases", col, re.I) else None
+        return k if (CASES_COL.search(col) or YEAR.search(col) or not col.strip()) else None
+    c["head"] = [heads_col[col] or from_title(col, ti) for col, ti in zip(c["column"], c.title)]
+    # heads that may only come from certain tables (prisons: the State-wise distribution tables, not annexures)
+    tneed = {h[0]: re.compile(h[5], re.I) for h in heads if len(h) > 5 and h[5]}
+    if tneed:
+        c["head"] = [None if (k in tneed and not tneed[k].search(str(ti))) else k for k, ti in zip(c["head"], c.title)]
     bare = c["head"].isna() & c["column"].str.match(BARE_TOTAL) & c.title.fillna("").str.contains(IPC_TABLE) \
         & ~c.title.fillna("").str.contains(r"sll|special|local|women|children|scheduled|cyber|juvenil", case=False)
     c.loc[bare, "head"] = "total"
@@ -128,8 +148,15 @@ def candidates(pub: str, heads, years=(1953, 2024)) -> pd.DataFrame:
     # comparative tables whose year row was not read ("MURDER (6)", "MURDER (7)" for 1968 and 1969): the same
     # head in two or three columns, with no year of its own, is consecutive years ending with the edition's year
     c["_o"] = c.col_no.map(col_order)
+    # 'Inmate Population M F Tr. Total (7)..(10)': one flattened heading over the Male, Female, Transgender and
+    # Total columns, not years; the Total (the largest of them) is the figure
+    sexsplit = c["column"].str.contains(r"\bM\b.{0,6}\bF\b|male.{0,12}female", case=False, regex=True)
+    if sexsplit.any():
+        top = c[sexsplit].groupby(["table_id", "row", "head"]).value.transform("max")
+        c = c[~sexsplit | (c.value == top.reindex(c.index).fillna(-1))]
+        sexsplit = sexsplit.reindex(c.index)
     base = c["column"].str.replace(r"\(\s*\d+\s*\)|\s+", " ", regex=True).str.strip().str.lower()
-    from_col = c["column"].map(lambda x: heads_col.get(x) is not None) & ~c["column"].str.contains(YEAR)
+    from_col = c["column"].map(lambda x: heads_col.get(x) is not None) & ~c["column"].str.contains(YEAR) & ~sexsplit
     reyear = {}
     for (tid, b), g in c[from_col].assign(_b=base[from_col]).groupby(["table_id", "_b"]):
         cols = sorted(g.drop_duplicates("col_no")[["col_no", "_o"]].itertuples(index=False), key=lambda x: x[1])
@@ -182,7 +209,9 @@ def options(g: pd.DataFrame) -> list[dict]:
     out = []
     for v, rs in groups.items():
         src = sorted(rs, key=lambda x: (not x.own, x.crank, -x.w))[0]
-        out.append({"value": v, "support": sum(x.w for x in rs), "n": len({x.table_id for x in rs}),
+        # independent printings: the same table reprinted in a year-wise volume is one source, not two
+        indep = {(int(x.year), re.sub(r"[^a-z]+", "", str(x.title).lower())[:50]) for x in rs}
+        out.append({"value": v, "support": sum(x.w for x in rs), "n": len(indep),
                     "text": any(x.method in ("pdf_text", "excel") for x in rs), "crank": min(x.crank for x in rs), "src": src})
     out.sort(key=lambda o: -o["support"])
     for o in out:
@@ -298,6 +327,48 @@ def family(pub: str, ptypes: tuple[str, ...], geo: str, heads, d: pd.DataFrame, 
             "rows": [{"name": p, "type": t} for p, t in places], "d": data, "sources": dict(srcs)}
 
 
+# ADSI: the State/UT/city totals of suicides and accidental deaths (not the breakdowns by cause, means, age ...)
+ADSI_HEADS = [
+    ("suicides", "Suicides", r"suicid", r"rate|attempt|farm|agricult|student|police|capf|armed"),
+    ("accidental", "Accidental deaths (all causes)", r"accidental deaths?|accidents?\s*\(?total|total accident|un.?natural and natural|all causes",
+     r"rate|road|traffic|rail|fire|nature|natural cause|un.?natural cause|other cause|drown|poison|electrocut"),
+    # deaths in road crashes: a road/traffic accident table's deaths column ('Total | Died', 'Persons killed')
+    ("road", "Deaths in road crashes", r"(road|traffic) accident.*(died|deaths?|killed)|(died|deaths?|killed).*(road|traffic) accident",
+     r"rate|injur|rail|unmanned|crossing", r"(died|deaths?|killed)"),
+]
+ADSI_NOT_TABLE = re.compile(r"cause.?wise|by causes|causes? of|means|profession|occupation|education|age.?group|sex.?wise|month|time of|"
+                            r"mode of|vehicle|place of|social status|marital|economic|district|^\W*(table\W*[\w.-]*\W*)?(percentage|share|rank)|"
+                            r"farm|student|rail|crossing|weather|road classification|junction|traffic control", re.I)
+ADSI_NEED_TABLE = re.compile(r"suicid|accident", re.I)
+# Prison Statistics: capacity and the people held, by State/UT
+PSI_HEADS = [   # (key, label, matches, unless, column must match, table title must match)
+    ("capacity", "Capacity of prisons", r"capacity", r"rate|occupancy|%", None,
+     r"capacity"),
+    ("inmates", "Prison population (inmates)", r"inmate|prison population|population of (prisoners|inmates)|total prisoners",
+     r"capacity|rate|occupancy|female|women|foreign|death|released|admitted|escape|convict|under.?trial|detenu", None,
+     r"capacity|inmate population|prison population|occupancy|types? of (prison )?(inmates|prisoners)"),
+    ("undertrials", "Undertrial prisoners", r"under.?trial", r"rate|%|female|women|foreign|released|death|period|age|education|caste|religion|domicile", None,
+     r"distribution of under.?trials|under.?trials in jails|types? of (prison |indian prison )?(inmates|prisoners)|inmates? (population )?by type"),
+    ("convicts", "Convicted prisoners", r"convict", r"rate|%|female|women|foreign|released|death|period|age|education|caste|religion|domicile|sentence|re.?convict", None,
+     r"distribution of convicts|convicts in jails|types? of (prison |indian prison )?(inmates|prisoners)|inmates? (population )?by type"),
+]
+PSI_NOT_TABLE = re.compile(r"annex|foreign|(central|district|sub|women|open|special|other|borstal)\s+(jails?|schools?)|borstal|budget|expenditure|staff|vacanc|training|vehicle|wage|vocational|percentage|share|age.?group|"
+                           r"education|caste|religion|domicile|sentence|period of|offence|crime head|death|escape|jail break|released|parole", re.I)
+
+
+def run_pub(pub, heads, title, cats_city, not_table, need_table, years):
+    c = candidates(pub, heads, years=years, not_table=not_table, need_table=need_table, not_col=NOT_COUNT_COL)
+    c = c[c.value > 0]          # a State's suicides, deaths or prisoners are never nil; a 0 is another column's
+    d = pick(c) if len(c) else pd.DataFrame()
+    if d.empty:
+        return [], d
+    fams = [f for f in (
+        family(pub, ("state", "ut", "total"), "state", heads, d, f"{title}, by State"),
+        family(pub, ("city",), "city", heads, d, f"{title}, by city") if cats_city else None,
+    ) if f]
+    return fams, d
+
+
 def main() -> None:
     c = candidates("cii", IPC_HEADS)
     d = pick(c)
@@ -305,9 +376,22 @@ def main() -> None:
         family("cii", ("state", "ut", "total"), "state", IPC_HEADS, d, "Cases registered under main IPC crime heads, by State"),
         family("cii", ("city",), "city", IPC_HEADS, d, "Cases registered under main IPC crime heads, by city"),
     ) if f]
+    fa, da = run_pub("adsi", ADSI_HEADS, "Suicides and accidental deaths", True, ADSI_NOT_TABLE, ADSI_NEED_TABLE, (1967, 2024))
+    # Prison Statistics is left to its own Explore tables: its State totals sit among many look-alike columns (per
+    # jail type, per sex, foreign inmates, annexures) and an automatic pick was not reliable before 2002
+    fp, dp = [], pd.DataFrame()
+    fams += fa + fp
     idx_path = OUT / "index.json"
     index = json.loads(idx_path.read_text())
     index["families"] = [f for f in index["families"] if f["topic"] != TOPIC]
+    for x, dd in (("adsi", da), ("psi", dp)):
+        if len(dd):
+            dd[["place", "ptype", "head", "year", "value", "status", "n", "table_id", "edition"]].to_csv(OUT / x / "long-series-provenance.csv", index=False)
+            for place in ("Tamil Nadu", "Chennai"):
+                g = dd[dd.place == place]
+                for k in sorted(set(g["head"])):
+                    ys = sorted(g[g["head"] == k].year)
+                    print(f"  {x} {place} {k:12} {len(ys):>3} years  {ys[0] if ys else ''}-{ys[-1] if ys else ''}  {g[g['head'] == k].status.value_counts().to_dict()}")
     for f in fams:
         (OUT / f["pub"] / f"{f['id']}.json").write_text(json.dumps(f, separators=(",", ":")), encoding="utf-8")
         index["families"].insert(0, {k: f[k] for k in ("id", "pub", "topic", "title", "geo", "mode")} | {

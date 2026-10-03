@@ -61,12 +61,16 @@ def name_of(original: str) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--fetch", action="store_true")
+    ap.add_argument("--matches", help="JSON list of {pub, year, ts, orig}: fetch exactly these archived files")
     args = ap.parse_args()
     files_csv = ROOT / "catalog" / "files.csv"
     have = {r["sha256"] for r in csv.DictReader(files_csv.open(encoding="utf-8"))}
     known_urls = {r["url"] for r in csv.DictReader(files_csv.open(encoding="utf-8"))}
     todo = []
-    for pub, year, patterns in SOURCES:
+    if args.matches:
+        for m in json.loads(Path(args.matches).read_text()):
+            todo.append((m["pub"], int(m["year"]), {"timestamp": m["ts"], "original": m["orig"], "mimetype": ""}, name_of(m["orig"])))
+    for pub, year, patterns in ([] if args.matches else SOURCES):
         seen = set()
         for pat in patterns:
             for r in cdx(pat):
