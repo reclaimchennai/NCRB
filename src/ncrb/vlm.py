@@ -47,9 +47,14 @@ MODELS |= {
     "XingChen-AGI/TeleOCR": ("output the table in OTSL format.", 8192),
     "PaddlePaddle/PaddleOCR-VL-1.6": ("Table Recognition:", 8192),
     "zai-org/GLM-OCR": ("Table Recognition:", 8192),
+    "ATH-MaaS/OvisOCR2": (
+        "Extract all readable content from the image in natural human reading order and output as Markdown. "
+        "Use HTML image tags for charts/images, LaTeX for formulas, and HTML tables for tabular data.",
+        16384,
+    ),
 }
 # every model whose cached reading of a file is weighed against the others by the totals check
-VLM_MODELS = [DEFAULT_MODEL, "XingChen-AGI/TeleOCR", "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
+VLM_MODELS = [DEFAULT_MODEL, "XingChen-AGI/TeleOCR", "ATH-MaaS/OvisOCR2", "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
 
 
 @lru_cache(maxsize=2)

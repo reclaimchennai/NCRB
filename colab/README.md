@@ -12,12 +12,20 @@ the model with vLLM does them in hours.
 
 ## What runs
 
-| Step | What | Where |
-|---|---|---|
-| Pages | `scripts/build_ocr_bundle.py` packs only the scanned pages (one PDF per source file) with `manifest.json` (source file SHA-256 and page numbers) | release [`ocr-pages`](https://github.com/reclaimchennai/NCRB/releases/tag/ocr-pages), 4.1 GB in 3 tars |
-| Bake-off | `colab/ocr_pages.py --bench` runs each candidate model on 48 files whose totals can be checked; `colab/score.py` ranks them by the share of NCRB's printed totals their tables reproduce | Colab |
-| Full run | the winner reads every page; output goes to your Google Drive, resumable | Colab |
-| Import | `python -m ncrb.vlm_import <zip>` copies the pages into `data/ocr_cache/<model>/`; `python -m ncrb.extract --scanned --vlm-ready --force` re-reads the scanned files | laptop |
+Open the notebook, pick an A100 (or L4) runtime and run its two cells. Cell 1
+mounts Drive and starts [run_all.py](run_all.py) in the background; cell 2
+([monitor.py](monitor.py)) shows progress, downloads the result zip at the end
+and releases the GPU so no compute units are used after that.
+
+| Step | What |
+|---|---|
+| Pages | the scanned pages only, one PDF per source file, with `manifest.json` (source SHA-256 and page numbers): release [`ocr-pages`](https://github.com/reclaimchennai/NCRB/releases/tag/ocr-pages), 4.1 GB, built by `scripts/build_ocr_bundle.py` |
+| Bake-off | every candidate reads 280 pages (149 small files, up to 8 per report and decade); the best two read them again at 2048 px instead of 1600; the reading that reproduces most of NCRB's printed row and column totals wins |
+| Full run | the winner reads all 12,945 pages; a crash or 25 minutes without a page restarts it (6 times at most); everything stops at 14 hours |
+| Result | `<root>/<model>.zip` on Drive and in Downloads; `python -m ncrb.vlm_import` copies it into `data/ocr_cache/<model>/` |
+
+Everything is written to Drive (`MyDrive/ncrb_ocr/`) as it goes, so a reset
+VM resumes where it stopped: run the cells again.
 
 Extraction weighs every reading of a file it has (Tesseract, GLM-OCR on the
 laptop, the Colab model) by the totals check, a missed total costing twice a
@@ -31,6 +39,7 @@ statistical tables can rank differently, hence the bake-off.
 | Model | Size | Licence | OmniDocBench v1.6 overall | Table TEDS |
 |---|---|---|---|---|
 | [XingChen-AGI/TeleOCR](https://huggingface.co/XingChen-AGI/TeleOCR) (Aug 2026) | 1.2B | Apache-2.0 | 96.87 | 97.05 |
+| [ATH-MaaS/OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR2) | 0.8B | Apache-2.0 | 96.58 | 94.76 |
 | [PaddlePaddle/PaddleOCR-VL-1.6](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6) (Jun 2026) | 0.9B | Apache-2.0 | 96.33 | 94.76 |
 | [zai-org/GLM-OCR](https://huggingface.co/zai-org/GLM-OCR) (the laptop model, full precision) | 0.9B | MIT | 95.22 | 92.83 |
 

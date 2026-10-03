@@ -31,6 +31,7 @@ from ncrb.vlm_tables import model_slug  # noqa: E402
 # vLLM settings per model, from each model's card / vLLM recipe
 ENGINE = {
     "PaddlePaddle/PaddleOCR-VL-1.6": dict(enable_prefix_caching=False, mm_processor_cache_gb=0, max_num_batched_tokens=16384),
+    "ATH-MaaS/OvisOCR2": dict(max_model_len=24576),
 }
 
 
@@ -66,15 +67,19 @@ def main() -> None:
         files = [f for f in files if f.get("bench")]
     files.sort(key=lambda f: f["order"])
     out = Path(args.out) / model_slug(args.model)
-    todo = [(f, k, p) for f in files for k, p in enumerate(f["pages"]) if not (out / f["sha16"] / f"{p:04d}.txt").exists()]
+    # a page that failed on its own (.err) is not retried: the model's reading of that file is then incomplete and
+    # extraction ignores it, falling back to the other readings
+    todo = [(f, k, p) for f in files for k, p in enumerate(f["pages"])
+            if not (out / f["sha16"] / f"{p:04d}.txt").exists() and not (out / f["sha16"] / f"{p:04d}.err").exists()]
     total = sum(len(f["pages"]) for f in files)
     print(f"{args.model}: {total - len(todo)} of {total} pages done, {len(todo)} to go", flush=True)
     if not todo:
         return
 
     prompt, max_tokens = MODELS.get(args.model, ("Table Recognition:", 8192))
-    llm = LLM(model=args.model, trust_remote_code=True, max_model_len=16384, limit_mm_per_prompt={"image": 1},
-              gpu_memory_utilization=args.gpu_mem, dtype=args.dtype, **ENGINE.get(args.model, {}))
+    engine = {"max_model_len": 16384} | ENGINE.get(args.model, {})
+    llm = LLM(model=args.model, trust_remote_code=True, limit_mm_per_prompt={"image": 1},
+              gpu_memory_utilization=args.gpu_mem, dtype=args.dtype, **engine)
     params = SamplingParams(temperature=0.0, max_tokens=args.max_tokens or max_tokens)
 
     t0, done, open_pdfs = time.time(), 0, {}
@@ -85,14 +90,28 @@ def main() -> None:
             pdf = open_pdfs.get(f["sha16"]) or open_pdfs.setdefault(f["sha16"], fitz.open(bundle / "pages" / f"{f['sha16']}.pdf"))
             img = render(pdf, k, args.long_edge)
             msgs.append([{"role": "user", "content": [{"type": "image_pil", "image_pil": img}, {"type": "text", "text": prompt}]}])
-        outs = llm.chat(msgs, params, use_tqdm=False)
-        for (f, k, p), o in zip(chunk, outs):
+        try:
+            outs = [o.outputs[0].text for o in llm.chat(msgs, params, use_tqdm=False)]
+        except Exception as e:  # one bad page must not stop the run: retry the batch page by page
+            print(f"  batch failed ({type(e).__name__}: {e}); retrying page by page", flush=True)
+            outs = []
+            for m in msgs:
+                try:
+                    outs.append(llm.chat([m], params, use_tqdm=False)[0].outputs[0].text)
+                except Exception as e2:
+                    outs.append(e2)
+        for (f, k, p), text in zip(chunk, outs):
             path = out / f["sha16"] / f"{p:04d}.txt"
             path.parent.mkdir(parents=True, exist_ok=True)
+            if isinstance(text, Exception):
+                path.with_suffix(".err").write_text(f"{type(text).__name__}: {text}", encoding="utf-8")
+                continue
             tmp = path.with_suffix(".part")
-            tmp.write_text(o.outputs[0].text, encoding="utf-8")
+            tmp.write_text(text, encoding="utf-8")
             tmp.replace(path)
         done += len(chunk)
+        (out / "_progress.json").write_text(json.dumps({"done": total - len(todo) + done, "total": total, "s_per_page": round((time.time() - t0) / done, 3),
+                                                        "time": time.time()}))
         if len(open_pdfs) > 64:
             for d in open_pdfs.values():
                 d.close()

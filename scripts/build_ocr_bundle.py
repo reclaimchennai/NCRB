@@ -83,11 +83,14 @@ def main() -> None:
         m["order"] = n
     # a bake-off sample: small individual-table files whose totals can be checked, spread over reports and decades
     picked, per = [], defaultdict(int)
-    for m in sorted(manifest, key=lambda m: (m["year"] % 7, m["sha16"])):
-        k = (m["publication"], m["year"] // 10)
-        if m["listing"] in ("table_content", "additional_table") and m["checks"][1] >= 10 and len(m["pages"]) <= 3 and per[k] < 6:
-            per[k] += 1
-            picked.append(m["sha16"])
+    # up to 8 small files per report and decade: individual-table files first, then chapter/volume files where a
+    # decade has none (the 1950s-60s); the totals each model's reading finds are what is scored
+    for pref in (("table_content", "additional_table"), ("table_chapter", "year_wise")):
+        for m in sorted(manifest, key=lambda m: (m["year"] % 7, m["sha16"])):
+            k = (m["publication"], m["year"] // 10)
+            if m["listing"] in pref and len(m["pages"]) <= 4 and per[k] < 8 and m["sha16"] not in picked:
+                per[k] += 1
+                picked.append(m["sha16"])
     for m in manifest:
         m["bench"] = m["sha16"] in picked
 
