@@ -88,6 +88,7 @@ then to 93.4% with two models and two page sizes. Each of the four readings was 
 | A 4 GB bundle uploaded from a laptop | Colab downloads public sources itself |
 | rclone with its shared Google client throttled to 174 B/s on many small files | Drive's own folder download; `ocrkit fetch` takes any zips or folders |
 | One bad page crashed a batch | The batch is retried page by page; a page that fails alone gets `.err` and the run goes on |
+| Several threads fetched the same file for different pages; the first renamed the download away from the others, and 226 page-readings failed (round 3) | One download per file behind a lock; pages that failed only for download reasons are tried again on the next run |
 | The top benchmark model (TeleOCR) doesn't start in vLLM 0.30, and is region-level anyway | The bake-off decides on your own pages; a model that won't start is skipped within minutes |
 
 ## Models

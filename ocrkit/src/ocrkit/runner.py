@@ -14,6 +14,7 @@ import argparse
 import concurrent.futures as cf
 import json
 import queue
+import re
 import tarfile
 import threading
 import time
@@ -32,6 +33,7 @@ class Sources:
         self.dir.mkdir(parents=True, exist_ok=True)
         self.lock = threading.Lock()
         self.parts_done: set[str] = set()
+        self.file_locks: dict[str, threading.Lock] = {}
 
     def _part(self, name: str):
         with self.lock:
@@ -56,20 +58,28 @@ class Sources:
             self._part(f["part"])
             return self.dir / "pages" / f"{f['id']}.pdf", list(range(len(f["pages"])))
         dst = self.dir / "src" / f"{f['id']}.pdf"
-        if not dst.exists():
-            dst.parent.mkdir(exist_ok=True)
-            tmp = dst.with_suffix(".part")
-            for attempt in range(4):
-                try:
-                    req = urllib.request.Request(f["url"], headers={"User-Agent": "Mozilla/5.0 ocrkit"})
-                    with urllib.request.urlopen(req, timeout=120) as r, tmp.open("wb") as w:
-                        w.write(r.read())
-                    break
-                except Exception:
-                    time.sleep(5 * (attempt + 1))
-            if f.get("sha256") and tmp.exists() and sha256(tmp) != f["sha256"]:
-                raise RuntimeError(f"{f['url']}: file changed since the manifest was made")
-            tmp.replace(dst)
+        # pages of one file are rendered by several threads at once: one downloads, the others wait for it
+        with self.lock:
+            flock = self.file_locks.setdefault(f["id"], threading.Lock())
+        with flock:
+            if not dst.exists():
+                dst.parent.mkdir(exist_ok=True)
+                tmp = dst.with_suffix(".part")
+                err = None
+                for attempt in range(5):
+                    try:
+                        req = urllib.request.Request(f["url"], headers={"User-Agent": "Mozilla/5.0 ocrkit"})
+                        with urllib.request.urlopen(req, timeout=180) as r, tmp.open("wb") as w:
+                            w.write(r.read())
+                        break
+                    except Exception as e:
+                        err = e
+                        time.sleep(5 * (attempt + 1))
+                if not tmp.exists() or tmp.stat().st_size == 0:
+                    raise RuntimeError(f"download failed: {f['url']}: {err}")
+                if f.get("sha256") and sha256(tmp) != f["sha256"]:
+                    raise RuntimeError(f"{f['url']}: file changed since the manifest was made")
+                tmp.replace(dst)
         return dst, [p - 1 for p in f["pages"]]
 
 
@@ -110,6 +120,10 @@ def main() -> None:
         files = [f for f in files if f["id"] in keep]
     files.sort(key=lambda f: f.get("order", 0))
     out = Path(args.out) / slug(args.model, args.edge)
+    # a page that failed because its file could not be fetched (not because the model failed on it) is tried again
+    for e in out.glob("*/*.err"):
+        if re.search(r"download failed|FileNotFoundError|URLError|HTTP Error|timed out|\.part", e.read_text(errors="ignore")):
+            e.unlink()
     todo = [(f, k, p) for f in files for k, p in enumerate(f["pages"])
             if not (out / f["id"] / f"{p:04d}.txt").exists() and not (out / f["id"] / f"{p:04d}.err").exists()]
     total = sum(len(f["pages"]) for f in files)
