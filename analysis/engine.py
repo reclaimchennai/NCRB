@@ -382,6 +382,24 @@ def _pos_file(year: int, kind: str):
     return hits[0] if len(hits) == 1 else None
 
 
+def _pos_key(label: str, section: str, year: int) -> tuple[tuple[str, str] | None, str]:
+    """The place a row label names, read in the block (``section``: state, ut or city) the rows so far are in; and
+    the block after it. A city that is also a State or UT name (Delhi, Chandigarh, Madras) is the city only in the
+    cities block."""
+    k0, kc = resolve(label, "", True, year), resolve(label, "Cities", True, year)
+    if k0 == kc and k0:
+        key = k0
+        if k0[1] in ("state", "ut", "city"):
+            section = k0[1]
+    elif kc and kc[1] == "city" and section == "city":
+        key = kc
+    else:
+        key = k0
+    if key == ("All India", "total") and not re.search(r"grand|india", label, re.I):
+        key = None                               # a States, UTs or (misread) Cities total
+    return key, section
+
+
 def _pos_reading(texts: dict[int, str], year: int, kind: str) -> dict:
     """One model's reading of a file: places {key: {page: [figures or None]}}, heads {page: categories in heading
     order}, totals (pages with a Total heading), ncols (the figure columns the printed column numbers count), titled
@@ -671,6 +689,284 @@ def positional_credit(year: int, kind: str, topics: list[str]) -> None:
             PROV[t] = row if pv is None else pd.concat([pv, row], ignore_index=True)
 
 
+# --------------------------------------------------------------------------- the 1995-2000 State tables, by position
+#
+# From 1995 to 2000 ADSI printed suicides by means, causes, profession and educational status for every State, UT
+# and city as tables that run over many pages (the means over 9, the causes over 14). Every page carries the place
+# names and, mostly, two categories, each with Male, Female, Total and % share columns; the last page has the
+# Total (grand) group. The 1995 and 1997 educational status tables print the categories by sex instead: two pages of
+# males (each category followed by its % to total, then Total (Male)), two of females, two of both sexes (ending
+# with Total (M+F) and the % of males). The extracted tables keep one page or one column half of these at most.
+# Here every page of the file is read again from each AI OCR reading in the cache. A page's figure columns come from
+# its own headings, each snapped to the kind's printed categories below (a heading that does not snap leaves the
+# page to the other readings; readings whose headings differ leave the page out), and the edition is read only if
+# its pages together give every category once, in the printed order. A place's figures are its row on each page,
+# the % columns counted but not read. A place-year is kept only if its figures add up exactly: each category's
+# males and females to its total, the categories' males to Total Male and females to Total Female, the two to the
+# Grand Total, and the Grand Total within 1% of the long series where it has the place and year (required for a
+# total row such as All India). Readings that pass with different figures are dropped. Used only for place-years
+# the normal reading leaves out.
+
+WIDE_YEARS = range(1995, 2001)
+WIDE_FILES = {   # (year, kind): the table's file in raw/adsi/<year>/archived/ (recovered from the Internet Archive)
+    (1995, "causes"): "appendix-5", (1995, "profession"): "appendix-6", (1995, "education"): "appendix-7", (1995, "means"): "appendix-8",
+    (1996, "profession"): "appendix-6",
+    (1997, "causes"): "table-22", (1997, "profession"): "table-23", (1997, "education"): "table-24", (1997, "means"): "table-25",
+    (1999, "profession"): "table-23",
+    (2000, "causes"): "table-22", (2000, "profession"): "table-23", (2000, "education"): "table-25", (2000, "means"): "table-26",
+}
+WIDE_TITLES = {"means": "Distribution of Suicides by Means Adopted", "causes": "Distribution of Suicides by Causes",
+               "profession": "Distribution of Suicides by Profession", "education": "Educational Status of Suicide Victims"}
+# each kind's categories in printed order (the first spelling is the one recorded), with the other spellings printed
+WIDE_CATS = {
+    "means": [["By Over Alcoholism"], ["By Drowning"], ["By Fire/Self Immolation"], ["By Fire-Arms"], ["By Hanging"],
+              ["Poison (By Consuming Insecticides)"], ["By Consuming Other Poison"], ["By Self Infliction of Injury"],
+              ["By Jumping from (Building)"], ["By Jumping from (Other Sites)"], ["By Jumping off Moving Vehicles/Trains"],
+              ["By Machine"], ["By Overdose of Sleeping Pills"], ["By Touching Electric Wires"],
+              ["By Coming under Running Vehicles/Trains"], ["By Other Means"]],
+    "causes": [["Bankruptcy or Sudden Change in Economic Status"], ["Suspected/Illicit Relation"],
+               ["Cancellation/Non-Settlement of Marriage"], ["Not having Children (Barrenness/Impotency)"], ["Illness (Aids/STD)"],
+               ["Illness (Cancer)"], ["Illness (Paralysis)"], ["Illness (Insanity)"], ["Illness (Other Prolonged)", "Illness (Other Prolonged Illness)"],
+               ["Death of Dear Person"], ["Dowry Dispute"], ["Divorce", "Divorcee"], ["Drug Abuse/Addiction"], ["Failure in Examination"],
+               ["Fall in Social Reputation"], ["Family Problems"], ["Ideological Causes/Hero Worshipping"], ["Illegitimate Pregnancy"],
+               ["Love Affairs"], ["Physical Abuse (Rape, Incest Etc.)"], ["Poverty"], ["Professional/Career Problem"],
+               ["Property Dispute"], ["Unemployment"], ["Causes Not known"], ["Other Causes"]],
+    "profession": [["House Wife"], ["Service (Government)"], ["Service (Private)"], ["Public Sector Undertaking", "Service (Public Sector Undertaking)"],
+                   ["Student"], ["Unemployed"], ["Self-Employed (Business activity)"], ["Self-Employed (Professional Activity)"],
+                   ["Self-Employed (Farming/Agriculture)"], ["Self-Employed (Others)"], ["Retired Person"], ["Others"]],
+    "education": [["No Education"], ["Primary"], ["Middle"], ["Matric/Secondary", "Matriculate/Secondary"],
+                  ["Hr. Secondary/Intermediate/Pre-University", "Hr. Sec./Inter/Pre-Uni."], ["Diploma"], ["Graduate"],
+                  ["Post Graduate and Above", "Post Graduate & above"]],
+}
+_SEXES3 = ("Male", "Female", "Total")
+
+
+def _wide_norm(s: str) -> str:
+    return re.sub(r"[^a-z]+", "", str(s).lower())
+
+
+def _wide_cat(head: str, kind: str) -> str | None:
+    """The printed category a page heading is (its first spelling in WIDE_CATS), or None where no spelling is clearly
+    the closest (a ratio of at least 0.8, and 0.1 ahead of every other category's)."""
+    h = _wide_norm(head)
+    if not h:
+        return None
+    best: dict[str, float] = {}
+    for names in WIDE_CATS[kind]:
+        best[names[0]] = max(difflib.SequenceMatcher(None, h, _wide_norm(n)).ratio() for n in names)
+    ranked = sorted(best.items(), key=lambda kv: -kv[1])
+    if ranked[0][1] < 0.8 or (len(ranked) > 1 and ranked[0][1] - ranked[1][1] < 0.1):
+        return None
+    return ranked[0][0]
+
+
+def _wide_spec(rows: list[list[str]], kind: str) -> list | None:
+    """A page's figure columns from its heading rows: (category, sex) for each, None for a % column; 'Total' is the
+    grand total group. None where the headings cannot be read."""
+    rx = re.compile(r"\W*state\W*u\W*t?\W*city\W*", re.I)        # the 'State/UT/City' heading (not the title's)
+    h = next((i for i, r in enumerate(rows) if any(rx.fullmatch(c) for c in r)), None)
+    if h is None or h + 1 >= len(rows):
+        return None
+    j = next(i for i, c in enumerate(rows[h]) if rx.fullmatch(c))
+    heads = [c for c in rows[h][j + 1:] if c.strip()]
+    sub = [c for c in rows[h + 1][j + 1:] if c.strip()]
+    if len(heads) == 1 and re.search(r"suicidal\s*deaths|number\s*and\s*percentage", heads[0], re.I):
+        # the 1995 and 1997 educational status tables: one sex per page, each category followed by its % to total
+        t = heads[0]
+        sex = ("Total" if re.search(r"total|\+", t, re.I) else "Female" if re.search(r"female", t, re.I)
+               else "Male" if re.search(r"\bmale", t, re.I) else None)
+        if not sex or not sub:
+            return None
+        spec = []
+        for c in sub:
+            if "%" in c:
+                spec.append(None)
+            elif re.match(r"\W*total\b", c, re.I):
+                spec.append(("Total", sex))
+            else:
+                cat = _wide_cat(c, kind)
+                if not cat:
+                    return None
+                spec.append((cat, sex))
+        return spec
+    cats = ["Total" if re.fullmatch(r"\W*total\W*", c, re.I) else _wide_cat(c, kind) for c in heads]
+    if not cats or None in cats:
+        return None
+    # each category heading spans Male, Female, Total and % share: as many 'Male' headings as categories
+    if sum(bool(re.fullmatch(r"\W*male\W*", c, re.I)) for c in sub) != len(cats):
+        return None
+    return [x for c in cats for x in ((c, "Male"), (c, "Female"), (c, "Total"), None)]
+
+
+def _wide_reading(texts: dict[int, str], year: int, kind: str) -> dict:
+    """One model's reading of a file: specs {page: figure columns} and places {key: {page: [figures or None]}}."""
+    from ncrb.vlm import parse_output
+
+    specs: dict[int, list] = {}
+    bad: set[int] = set()
+    places: dict[tuple[str, str], dict[int, list]] = {}
+    for pno in sorted(texts):
+        _, grids = parse_output(texts[pno])
+        section = "state"
+        for g in grids:
+            spec = _wide_spec(g.rows, kind)
+            if spec:
+                if pno in specs and specs[pno] != spec:
+                    bad.add(pno)                 # two tables on one page with different headings
+                specs[pno] = spec
+            for r in g.rows:
+                li = next((i for i, c in enumerate(r) if re.search(r"[A-Za-z]{2,}", c) and _pos_token(c) == "BAD"), None)
+                if li is None:
+                    continue
+                label = re.sub(r"[\s.:,]+$", "", r[li]).strip()
+                toks = [t for t in (_pos_token(c) for c in r[li + 1:]) if t is not None]
+                if not any(isinstance(t, int) for t in toks):
+                    m = next((s for rx, s in _POS_MARK if re.match(rx, label, re.I)), None)
+                    if m:
+                        section = m
+                    continue
+                key, section = _pos_key(label, section, year)
+                if key:
+                    places.setdefault(key, {}).setdefault(pno, []).append(None if "BAD" in toks else tuple(toks))
+    return {"specs": {p: s for p, s in specs.items() if p not in bad}, "places": places}
+
+
+def _wide_local(vals: tuple, spec: list) -> bool:
+    """A page's row fits its columns: a figure for every category column, and each category on the page whose
+    males, females and total are all on it adds up."""
+    if len(vals) != len(spec):
+        return False
+    v = {cs: x for cs, x in zip(spec, vals) if cs}
+    if any(not isinstance(x, int) for x in v.values()):
+        return False
+    return all(v[(c, "Male")] + v[(c, "Female")] == v[(c, "Total")]
+               for c in {c for c, _ in v} if all((c, s) in v for s in _SEXES3))
+
+
+def _wide_check(v: dict, target: float | None, ptype: str) -> bool:
+    """A place's figures {(category, sex): n} add up exactly, and the Grand Total is within 1% of the long series'
+    count where it has one (a total row must have one)."""
+    cats = {c for c, _ in v if c != "Total"}
+    for c in cats | {"Total"}:
+        if v[(c, "Male")] + v[(c, "Female")] != v[(c, "Total")]:
+            return False
+    if sum(v[(c, "Male")] for c in cats) != v[("Total", "Male")] or sum(v[(c, "Female")] for c in cats) != v[("Total", "Female")]:
+        return False
+    gt = v[("Total", "Total")]
+    if gt <= 0:
+        return False
+    if target is None:
+        return ptype != "total"
+    return abs(gt - target) <= 0.01 * target
+
+
+def _wide_file(year: int, kind: str):
+    from ncrb.crawl import ROOT as RAW
+
+    name = WIDE_FILES.get((year, kind))
+    p = RAW / "raw" / "adsi" / str(year) / "archived" / f"{name}.pdf" if name else None
+    return p if p is not None and p.exists() else None
+
+
+def wide_edition(year: int, kind: str, log: list | None = None) -> pd.DataFrame:
+    """Every place's categories x sex from one 1995-2000 State table, read by position (see above); COLS records with
+    the printed category in ``cat``."""
+    from itertools import product
+
+    from ncrb.vlm_tables import CACHE, file_sha, model_slug
+
+    path = _wide_file(year, kind)
+    if path is None:
+        return frame([])
+    sha = file_sha(path)
+    readings = []
+    for m in VLM_MODELS:
+        d = CACHE / model_slug(m) / sha[:16]
+        texts = {int(p.stem): p.read_text(encoding="utf-8") for p in d.glob("*.txt") if p.stem.isdigit()} if d.is_dir() else {}
+        if texts:
+            readings.append(_wide_reading(texts, year, kind))
+    if not readings:
+        return frame([])
+    # each page's columns: the readings that read its headings must agree
+    pages = sorted({p for r in readings for pl in r["places"].values() for p in pl} | {p for r in readings for p in r["specs"]})
+    layout: dict[int, list] = {}
+    for p in pages:
+        found = {tuple(r["specs"][p]) for r in readings if p in r["specs"]}
+        if len(found) == 1:
+            layout[p] = list(found.pop())
+        elif log is not None:
+            log.append((year, kind, f"page {p} headings " + ("disagree" if found else "not read")))
+    cats = [n[0] for n in WIDE_CATS[kind]] + ["Total"]
+    order = [cs for p in sorted(layout) for cs in layout[p] if cs]
+    if order not in ([(c, s) for c in cats for s in _SEXES3], [(c, s) for s in _SEXES3 for c in cats]):
+        if log is not None:
+            log.append((year, kind, "pages do not give every category once, in order"))
+        return frame([])
+    target = _long_series_suicides()
+    recs = []
+    for key in {k for r in readings for k in r["places"]}:
+        cand: dict[int, set] = {}
+        for r in readings:
+            for p, vs in r["places"].get(key, {}).items():
+                if p in layout:
+                    cand.setdefault(p, set()).update(v for v in vs if v is not None and _wide_local(v, layout[p]))
+        if any(not cand.get(p) for p in layout):
+            continue
+        n = 1
+        for p in layout:
+            n *= len(cand[p])
+        if n > 4096:
+            continue
+        passed = set()
+        for combo in product(*[sorted(cand[p]) for p in sorted(layout)]):
+            v = {cs: x for p, vals in zip(sorted(layout), combo) for cs, x in zip(layout[p], vals) if cs}
+            if _wide_check(v, target.get((key[0], key[1], year)), key[1]):
+                passed.add(tuple(sorted(v.items())))
+        if len(passed) != 1:
+            if log is not None and len(passed) > 1:
+                log.append((year, kind, "readings disagree", key))
+            continue
+        v = dict(next(iter(passed)))
+        for c in cats[:-1]:
+            for sex in ("Male", "Female"):
+                recs.append((year, key[0], key[1], "", c, sex, "all ages", v[(c, sex)], POS_CHECK, "ncrb"))
+        if log is not None:
+            log.append((year, kind, "ok", key, v[("Total", "Total")]))
+    return frame(recs)
+
+
+def wide_positional(kind: str, table: list, log: list | None = None) -> pd.DataFrame:
+    """All the 1995-2000 State tables of ``kind`` read by position, categories harmonised with ``table``."""
+    out = []
+    for y in WIDE_YEARS:
+        d = wide_edition(y, kind, log)
+        if d.empty:
+            continue
+        d["cat"] = d["cat"].map(lambda c: standard(c, table))
+        d = d[d["cat"].notna()]
+        out.append(d.groupby(["year", "place", "ptype", "group", "cat", "sex", "age", "check", "source"], as_index=False).value.sum()[COLS])
+    return pd.concat(out, ignore_index=True) if out else frame([])
+
+
+def wide_credit(year: int, kind: str, topics: list[str]) -> None:
+    """Add the edition's State table (its Internet Archive copy) to the credit line of ``topics`` for ``year``."""
+    path = _wide_file(year, kind)
+    rel = str(path.relative_to(ROOT))
+    t = q("SELECT source_url, title FROM tables WHERE source_file = ? LIMIT 1", [rel])
+    url = t.source_url.iloc[0] if len(t) else None
+    if not url:
+        f = pd.read_csv(ROOT / "catalog" / "files.csv", usecols=["url", "path"])
+        url = next(iter(f[f.path == rel].url), None)
+    if not url:
+        return
+    title = f"{WIDE_TITLES[kind]} (State, UT & City-wise) - {year}"
+    for tp in topics:
+        pv = PROV.get(tp)
+        if pv is None or not ((pv.year == year) & (pv.source_url == url)).any():
+            row = pd.DataFrame([{"year": year, "title": title, "source_url": url, "method": "pdf_vlm"}])
+            PROV[tp] = row if pv is None else pd.concat([pv, row], ignore_index=True)
+
+
 # the table read for each topic and year, for the credit line under every chart
 PROV: dict[str, pd.DataFrame] = {}
 
@@ -954,7 +1250,8 @@ def place_totals() -> dict:
     return {(y, p): v for y, p, v in zip(s.year, s.place, s.value)}
 
 
-def suicide_dataset(topics: list[str], age_topics: list[str], table: list, ogd_code: str | None, by_position: str | None = None) -> pd.DataFrame:
+def suicide_dataset(topics: list[str], age_topics: list[str], table: list, ogd_code: str | None, by_position: str | None = None,
+                    wide: str | None = None) -> pd.DataFrame:
     d = tidy_categories(read_categories(topics, table), place_totals())
     if by_position:
         # the 1967-1988 appendices read by position (positional()), for the place-years the tables above leave out
@@ -964,6 +1261,14 @@ def suicide_dataset(topics: list[str], age_topics: list[str], table: list, ogd_c
         for y in sorted(set(pos.year)):
             positional_credit(int(y), by_position, topics[:1])
         d = pd.concat([d, pos], ignore_index=True)
+    if wide:
+        # the 1995-2000 State tables read by position (wide_positional()), for the place-years left out so far
+        w = wide_positional(wide, table)
+        have = set(zip(d.year, d.place, d.ptype))
+        w = w[[k not in have for k in zip(w.year, w.place, w.ptype)]]
+        for y in sorted(set(w.year)):
+            wide_credit(int(y), wide, topics[:1])
+        d = pd.concat([d, w], ignore_index=True)
     if age_topics:
         a = tidy_categories(read_categories(age_topics, table), place_totals())
         a = a[a.age != "all ages"]
@@ -974,19 +1279,19 @@ def suicide_dataset(topics: list[str], age_topics: list[str], table: list, ogd_c
 
 
 def suicide_means() -> pd.DataFrame:
-    return suicide_dataset(["suicide_means_tn", "suicide_means_city"], ["suicide_means_age_tn"], MEANS, "Means_adopted", "means")
+    return suicide_dataset(["suicide_means_tn", "suicide_means_city"], ["suicide_means_age_tn"], MEANS, "Means_adopted", "means", "means")
 
 
 def suicide_profession() -> pd.DataFrame:
-    return suicide_dataset(["suicide_profession_tn", "suicide_profession_city"], ["suicide_profession_age_tn"], PROFESSION, "Professional_Profile")
+    return suicide_dataset(["suicide_profession_tn", "suicide_profession_city"], ["suicide_profession_age_tn"], PROFESSION, "Professional_Profile", wide="profession")
 
 
 def suicide_causes() -> pd.DataFrame:
-    return suicide_dataset(["suicide_causes_tn", "suicide_causes_city"], [], CAUSES, "Causes", "causes")
+    return suicide_dataset(["suicide_causes_tn", "suicide_causes_city"], [], CAUSES, "Causes", "causes", "causes")
 
 
 def suicide_education() -> pd.DataFrame:
-    return suicide_dataset(["suicide_education_tn", "suicide_education_city"], [], EDUCATION, "Education_Status")
+    return suicide_dataset(["suicide_education_tn", "suicide_education_city"], [], EDUCATION, "Education_Status", wide="education")
 
 
 def suicide_sex_age() -> pd.DataFrame:
