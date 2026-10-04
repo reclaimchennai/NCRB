@@ -6,23 +6,79 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1995",
  "serial": "7",
- "title": "lncidence of Traffic Acciaents During Various Quarters of 1995",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1995 N.C.R.B.(M.H.A.) TABLE-8(A)",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1995.pdf",
  "source_file": "raw/adsi/1995/year_wise/accidental-deaths-1995.pdf",
  "source_sha256": "78aaa090d10388d9b6c730464ce5d3824302022a02838ae6e0dd926a6f69019d",
  "table_no": "8(A)",
- "pdf_title": "lncidence of Traffic Acciaents During Various Quarters of 1995",
- "row_label": "SI. • State/UT/City No. / SI. • State/UT/City / Ist Quarter / (State,UT % Share / (State,UT Ind Quarter / City-' wise) % Share / City-' wise) Wird Quarter / % Share / [Vth Quarter / % Share",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1995 N.C.R.B.(M.H.A.) TABLE-8(A)",
+ "row_label": "Sl.No. / State/UT/City",
  "pages": [
   15
  ],
- "n_rows": 22,
- "n_cols": 2,
- "n_cells": 31,
+ "n_rows": 58,
+ "n_cols": 10,
+ "n_cells": 580,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "1st Quarter",
+   "header": [
+    "1st Quarter"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% Share (4)",
+   "header": [
+    "% Share"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "IIird Quarter (5)",
+   "header": [
+    "IIird Quarter"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% Share (6)",
+   "header": [
+    "% Share"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "IIird Quarter (7)",
+   "header": [
+    "IIird Quarter"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "% Share (8)",
+   "header": [
+    "% Share"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "IVth Quarter",
+   "header": [
+    "IVth Quarter"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "% Share (10)",
+   "header": [
+    "% Share"
+   ]
+  },
   {
    "col_no": "11",
    "name": "Total",
@@ -32,19 +88,16 @@
   },
   {
    "col_no": "12",
-   "name": "% Share",
+   "name": "% Share (12)",
    "header": [
     "% Share"
    ]
   }
  ],
- "notes": [
-  "OB 0.91 0.93 GE BIT O86",
-  "55 TREE TRIE BOTT RT"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 15,
+  "cells_passed": 15,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

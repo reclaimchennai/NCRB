@@ -1,0 +1,97 @@
+{
+ "table_id": "cii/1980/8_table-22-1980-0_t22",
+ "publication": "cii",
+ "year": 1980,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "8",
+ "title": "Persons arrested under I. P. C. Crimes by Sex during 1980",
+ "listing_title": "Persons Arrested under I.P.C. Crimes by Sex During 1980",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1980_0.pdf",
+ "source_file": "raw/cii/1980/table_content/table-22-1980_0.pdf",
+ "source_sha256": "18bee7daab203003d057cbc9f965730a07ad84e44965da935a6237308decafec",
+ "table_no": "22",
+ "pdf_title": "Persons arrested under I. P. C. Crimes by Sex during 1980",
+ "row_label": "S1. No.",
+ "pages": [
+  4
+ ],
+ "n_rows": 43,
+ "n_cols": 7,
+ "n_cells": 301,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Criminal Breach of Trust | Stat/U. Ts./Cities",
+   "header": [
+    "Criminal Breach of Trust",
+    "Stat/U. Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Criminal Breach of Trust | Male",
+   "header": [
+    "Criminal Breach of Trust",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cheating | Female",
+   "header": [
+    "Cheating",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cheating | Male",
+   "header": [
+    "Cheating",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Counterfeiting | Female",
+   "header": [
+    "Counterfeiting",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Female",
+   "header": [
+    "Female"
+   ]
+  }
+ ],
+ "notes": [
+  "11-69 BPR & D/ND/84"
+ ],
+ "checks": {
+  "cells_checked": 14,
+  "cells_passed": 12,
+  "failures": [
+   "col 4 'Total (States)': printed 15102, sum 13165",
+   "col 5 'Total (States)': printed 206, sum 201"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

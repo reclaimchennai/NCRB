@@ -1,0 +1,69 @@
+{
+ "table_id": "adsi/1995/7_accidental-deaths-1995_t2-a",
+ "publication": "adsi",
+ "year": 1995,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1995",
+ "serial": "7",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1995 N.C.R.B.(M.H.A.) TABLE-2(A)",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1995.pdf",
+ "source_file": "raw/adsi/1995/year_wise/accidental-deaths-1995.pdf",
+ "source_sha256": "78aaa090d10388d9b6c730464ce5d3824302022a02838ae6e0dd926a6f69019d",
+ "table_no": "2(A)",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1995 N.C.R.B.(M.H.A.) TABLE-2(A)",
+ "row_label": "Sl. No. / State/UT/City",
+ "pages": [
+  6
+ ],
+ "n_rows": 59,
+ "n_cols": 4,
+ "n_cells": 236,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Accidental Deaths",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage Share in Total Deaths",
+   "header": [
+    "Percentage Share in Total Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Estimated Mid-Year Population (In Lakh)",
+   "header": [
+    "Estimated Mid-Year Population (In Lakh)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate (Accidental Deaths Per Lakh of Population) (Col. 3/Col. 5)",
+   "header": [
+    "Rate (Accidental Deaths Per Lakh of Population) (Col. 3/Col. 5)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'Total (States)': printed 215898, sum 215888",
+   "col 3 'Total (Cities)': printed 29049, sum 29050"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

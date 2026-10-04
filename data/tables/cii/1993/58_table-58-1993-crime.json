@@ -8,99 +8,69 @@
  "serial": "58",
  "title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Women During 1992 (State & UT-Wise)",
  "listing_title": "Incidence, Rate and Percentage Contribution to All-India of Crimes Committed Against Women During 1992 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-58-1993-crime.pdf",
  "source_sha256": "5d106581c8147e4af920cdffb15c4454009c1ec3a1efbb50aec0e7b65846f915",
  "table_no": "58",
- "pdf_title": "INCIDENCE (I), RATE (R} AND PERCENTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES COMMITTED AGAINST WOMEN DURING 1992",
- "row_label": "(STATE & UT-WISE} (1) STATES",
+ "pdf_title": "260 TABLE-58 INCIDENCE (I), RATE (R) AND PERCENTAGE CONTRIBUTION TO ALL-INDIA (P) OF CRIMES COMMITTED AGAINST WOMEN DURING 1992",
+ "row_label": "RAPE",
  "pages": [
+  1,
   1,
   2
  ],
- "n_rows": 42,
- "n_cols": 22,
- "n_cells": 675,
+ "n_rows": 38,
+ "n_cols": 28,
+ "n_cells": 776,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(STATE & UT-WISE} | (2)",
-   "header": [
-    "(STATE & UT-WISE}",
-    "(2)"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "(STATE & UT-WISE} | (i)",
-   "header": [
-    "(STATE & UT-WISE}",
-    "(i)"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "(STATE & UT-WISE} | \\13)",
-   "header": [
-    "(STATE & UT-WISE}",
-    "\\13)"
-   ]
-  },
-  {
    "col_no": "5",
-   "name": "(STATE & UT-WISE} | (14)",
+   "name": "RAPE (5)",
    "header": [
-    "(STATE & UT-WISE}",
-    "(14)"
+    "RAPE"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE} | (18) (6)",
+   "name": "RAPE (6)",
    "header": [
-    "(STATE & UT-WISE}",
-    "(18)"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "(STATE & UT-WISE} | (16)",
-   "header": [
-    "(STATE & UT-WISE}",
-    "(16)"
+    "RAPE"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE} | (17)",
+   "name": "KINDAPING ABDUCTION (8)",
    "header": [
-    "(STATE & UT-WISE}",
-    "(17)"
+    "KINDAPING ABDUCTION"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE} | (18) (9)",
+   "name": "KINDAPING ABDUCTION (9)",
    "header": [
-    "(STATE & UT-WISE}",
-    "(18)"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "(19)",
-   "header": [
-    "(19)"
+    "KINDAPING ABDUCTION"
    ]
   },
   {
    "col_no": "11",
-   "name": "(21) (20)",
+   "name": "DAILY DEATHS (11)",
    "header": [
-    "(21) (20)"
+    "DAILY DEATHS"
    ]
+  },
+  {
+   "col_no": "12",
+   "name": "DAILY DEATHS (12)",
+   "header": [
+    "DAILY DEATHS"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "13",
@@ -124,10 +94,8 @@
   },
   {
    "col_no": "17",
-   "name": "ge",
-   "header": [
-    "ge"
-   ]
+   "name": "col_17",
+   "header": []
   },
   {
    "col_no": "18",
@@ -150,37 +118,117 @@
    "header": []
   },
   {
+   "col_no": "10001",
+   "name": "TORTURE INCLUITY BY HUSBAND & HIS RELATIVES | 1",
+   "header": [
+    "TORTURE INCLUITY BY HUSBAND & HIS RELATIVES",
+    "1"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "TORTURE INCLUITY BY HUSBAND & HIS RELATIVES | R",
+   "header": [
+    "TORTURE INCLUITY BY HUSBAND & HIS RELATIVES",
+    "R"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "TORTURE INCLUITY BY HUSBAND & HIS RELATIVES | P",
+   "header": [
+    "TORTURE INCLUITY BY HUSBAND & HIS RELATIVES",
+    "P"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "MOLESTATION | 1",
+   "header": [
+    "MOLESTATION",
+    "1"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "MOLESTATION | R",
+   "header": [
+    "MOLESTATION",
+    "R"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "MOLESTATION | P",
+   "header": [
+    "MOLESTATION",
+    "P"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "PUE TEASING | 1",
+   "header": [
+    "PUE TEASING",
+    "1"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "PUE TEASING | R",
+   "header": [
+    "PUE TEASING",
+    "R"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "PUE TEASING | P",
+   "header": [
+    "PUE TEASING",
+    "P"
+   ]
+  },
+  {
    "col_no": "22",
-   "name": "col_22",
-   "header": []
+   "name": "TOTAL | 1",
+   "header": [
+    "TOTAL",
+    "1"
+   ]
   },
   {
    "col_no": "23",
-   "name": "2",
+   "name": "TOTAL | R",
    "header": [
-    "2"
+    "TOTAL",
+    "R"
    ]
   },
   {
    "col_no": "24",
-   "name": "ital",
+   "name": "TOTAL | P",
    "header": [
-    "ital"
+    "TOTAL",
+    "P"
    ]
   }
  ],
- "notes": [
-  "2. Figures ore",
-  "Pr ape Ci ahd wh A mee 41 my “ie"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 10,
+  "cells_passed": 5,
+  "failures": [
+   "col 16 'TOTAL (STATES)': printed 1139, sum 11333",
+   "col 16 'TOTAL (ALL-INDIA)': printed 12077, sum 1883",
+   "col 19 'TOTAL (STATES)': printed 4894, sum 4834",
+   "col 19 'TOTAL (ALL-INDIA)': printed 4962, sum 5022",
+   "col 10004 'TOTAL (STATES)': printed 20332, sum 20092"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

@@ -1,0 +1,113 @@
+{
+ "table_id": "cii/1983/3_table-4-1983",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "3",
+ "title": "Incidence of Total Cognizable Crime in States U.T.s and Cities During 1978 to 1983 Alongwith Percentage Variation over the Quinquennial Average of 1978-1982 and over 1982",
+ "listing_title": "Incidence of Total Cognizable Crime in States U.T.s and Cities During 1978 to 1983 Alongwith Percentage Variation over the Quinquennial Average of 1978-1982 and over 1982",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-4-1983.pdf",
+ "source_sha256": "58b827f3fe5dca439c4ec0106f48412e2d740f089b83b8be07e1039a68a3fcc2",
+ "table_no": "4",
+ "pdf_title": "6 TABLE 4 Incidence of total Cognizable Crime in States, UTs. and Cities during 1978 to 1983 alongwith percentage variation over the Quinquennial average of 1978—1982 and over 1982",
+ "row_label": "Sl.No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 23,
+ "n_cols": 10,
+ "n_cells": 230,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "States/UTs/Cities",
+   "header": [
+    "States/UTs/Cities"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1978",
+   "header": [
+    "1978"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1979",
+   "header": [
+    "1979"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "1980",
+   "header": [
+    "1980"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1981",
+   "header": [
+    "1981"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "1982",
+   "header": [
+    "1982"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Quinquen-rial average of 1978 to 1982 (QA)",
+   "header": [
+    "Quinquen-rial average of 1978 to 1982 (QA)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "1983",
+   "header": [
+    "1983"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "%age variation in 1983(+/-) increase/decrease | Over QA",
+   "header": [
+    "%age variation in 1983(+/-) increase/decrease",
+    "Over QA"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Volume of crime in 1983 per lakh of population | Over 1982",
+   "header": [
+    "Volume of crime in 1983 per lakh of population",
+    "Over 1982"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 1.29027e+06, sum 1.22971e+06",
+   "col 7 'TOTAL (States)': printed 1.31562e+06, sum 1.31563e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,158 @@
+{
+ "table_id": "adsi/1998/table-24",
+ "publication": "adsi",
+ "year": 1998,
+ "listing": "archived",
+ "topic": "Accidental Deaths & Suicides in India 1998 (archived copy of NCRB's old site)",
+ "section": "Accidental Deaths & Suicides in India 1998 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "table-24",
+ "listing_title": "table-24",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20181220224212id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1998/table-24.pdf",
+ "source_file": "raw/adsi/1998/archived/table-24.pdf",
+ "source_sha256": "8f2f0f1319eb1ce27d7cda40d93928eb3dacca7fc574e99f4b858cebf2c97ff0",
+ "table_no": "",
+ "pdf_title": "Table—24 (Coiitiniiea...)",
+ "row_label": "Si. State/UT/City (1) States:",
+ "pages": [
+  2,
+  3
+ ],
+ "n_rows": 66,
+ "n_cols": 14,
+ "n_cells": 798,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "(2)",
+   "header": [
+    "(2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Tota | Male (1)",
+   "header": [
+    "Tota",
+    "Male (1)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Tota | Female (92)",
+   "header": [
+    "Tota",
+    "Female (92)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "Civorcee | Male (15)",
+   "header": [
+    "Civorcee",
+    "Male (15)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Civorcee | Female (16)",
+   "header": [
+    "Civorcee",
+    "Female (16)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Civorcee | Totel (17)",
+   "header": [
+    "Civorcee",
+    "Totel (17)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Civorcee | Share (18)",
+   "header": [
+    "Civorcee",
+    "Share (18)"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Table—24(Canchita} | rated Femele",
+   "header": [
+    "Table—24(Canchita}",
+    "rated Femele"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Table—24(Canchita} | Tota",
+   "header": [
+    "Table—24(Canchita}",
+    "Tota"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Table—24(Canchita} | % Share",
+   "header": [
+    "Table—24(Canchita}",
+    "% Share"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Table—24(Canchita} | Male",
+   "header": [
+    "Table—24(Canchita}",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Table—24(Canchita} | Total Female",
+   "header": [
+    "Table—24(Canchita}",
+    "Total Female"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Table—24(Canchita} | % Share Total",
+   "header": [
+    "Table—24(Canchita}",
+    "% Share Total"
+   ]
+  }
+ ],
+ "notes": [
+  "1718 NCRB/2000—16A"
+ ],
+ "checks": {
+  "cells_checked": 22,
+  "cells_passed": 13,
+  "failures": [
+   "col 2 'TOTAL States': printed 2599, sum 2608",
+   "col 6 'TOTAL (Cities)': printed 72, sum 88",
+   "col 8 'All India': printed 1534, sum 1634",
+   "col 16 'TOTAL States': printed 42281, sum 36637",
+   "col 16 'TOTAL UTs': printed 746, sum 312",
+   "col 16 'TOTAL (Cities)': printed 4114, sum 3229",
+   "col 17 'TOTAL States': printed 102924, sum 89266",
+   "col 17 'TOTAL UTs': printed 1789, sum 807"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

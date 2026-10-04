@@ -1,0 +1,63 @@
+{
+ "table_id": "adsi/1999/table-16",
+ "publication": "adsi",
+ "year": 1999,
+ "listing": "archived",
+ "topic": "Accidental Deaths & Suicides in India 1999 (archived copy of NCRB's old site)",
+ "section": "Accidental Deaths & Suicides in India 1999 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "table-16",
+ "listing_title": "table-16",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20181222150641id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1999/table-16.pdf",
+ "source_file": "raw/adsi/1999/archived/table-16.pdf",
+ "source_sha256": "e3f6675fe8148f043d316b85f135c8b55b986d6825f6c99e75341b2bf9ae0191",
+ "table_no": "16",
+ "pdf_title": "Incidence of Suicides during 1998 and 1999 (State, UT & City-wise)",
+ "row_label": "Late ‘",
+ "pages": [
+  1
+ ],
+ "n_rows": 49,
+ "n_cols": 3,
+ "n_cells": 123,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Incidence | 1998",
+   "header": [
+    "Incidence",
+    "1998"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Incidence | 1999",
+   "header": [
+    "Incidence",
+    "1999"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "in 1999 over 1998",
+   "header": [
+    "in 1999 over 1998"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (Cities)': printed 9888, sum 4105"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,63 @@
+{
+ "table_id": "adsi/2000/table-16",
+ "publication": "adsi",
+ "year": 2000,
+ "listing": "archived",
+ "topic": "Accidental Deaths & Suicides in India 2000 (archived copy of NCRB's old site)",
+ "section": "Accidental Deaths & Suicides in India 2000 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "table-16",
+ "listing_title": "table-16",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20181220230541id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI2000/table-16.pdf",
+ "source_file": "raw/adsi/2000/archived/table-16.pdf",
+ "source_sha256": "5d8dda52856230982fdffc1c78fb608de8de797efdd7f3b225c8291ab1527dc5",
+ "table_no": "16",
+ "pdf_title": "Incidence of Suicides during 1998 and 1999 (State, UT & City-wise)",
+ "row_label": "Sl. No. / 2 State/UT/City -",
+ "pages": [
+  1
+ ],
+ "n_rows": 59,
+ "n_cols": 3,
+ "n_cells": 177,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Incidence | 1999.",
+   "header": [
+    "Incidence",
+    "1999."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Incidence | 2000",
+   "header": [
+    "Incidence",
+    "2000"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Percentage variation in 2000 over 1999",
+   "header": [
+    "Percentage variation in 2000 over 1999"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 108678, sum 108668"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

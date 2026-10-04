@@ -1,0 +1,93 @@
+{
+ "table_id": "cii/1980/8_table-22-1980-0_t5",
+ "publication": "cii",
+ "year": 1980,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "8",
+ "title": "CITIES",
+ "listing_title": "Persons Arrested under I.P.C. Crimes by Sex During 1980",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1980_0.pdf",
+ "source_file": "raw/cii/1980/table_content/table-22-1980_0.pdf",
+ "source_sha256": "18bee7daab203003d057cbc9f965730a07ad84e44965da935a6237308decafec",
+ "table_no": "",
+ "pdf_title": "CITIES",
+ "row_label": "",
+ "pages": [
+  3
+ ],
+ "n_rows": 9,
+ "n_cols": 10,
+ "n_cells": 71,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "8",
+   "name": "col_8",
+   "header": []
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "col_10",
+   "header": []
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 0,
+  "failures": [
+   "col 5 'TOTAL (CITIES)': printed 1031, sum 43",
+   "col 6 'TOTAL (CITIES)': printed 43, sum 1813",
+   "col 7 'TOTAL (CITIES)': printed 1813, sum 8",
+   "col 8 'TOTAL (CITIES)': printed 8, sum 2015"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

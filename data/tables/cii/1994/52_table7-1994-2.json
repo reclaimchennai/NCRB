@@ -8,21 +8,431 @@
  "serial": "52",
  "title": "Incidence of Cognizable Crimes (IPC) under Different Crime Heads in States, UTs & Cities During 1994 & Percentage Variation over",
  "listing_title": "Incidence of Cognizable Crimes (IPC) under Different Crime Heads in States, UTs & Cities During 1994 & Percentage Variation over",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table7-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table7-1994_2.pdf",
  "source_sha256": "e9930c7fde4faacfd06cdb9c2c83b47b1601f82266886db83f87092ad885ed1f",
  "table_no": "7",
- "pdf_title": "",
- "row_label": "SL. NO. / STATE/UT/CITY / GUUN 1993 / GUUN 1994 / OTHER IPC CRIMES VARIATION / OTHER IPC CRIMES 1993",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE - 7",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
-  8
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  9
  ],
- "n_rows": 1,
- "n_cols": 2,
- "n_cells": 2,
+ "n_rows": 68,
+ "n_cols": 54,
+ "n_cells": 3126,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER | 1993",
+   "header": [
+    "MURDER",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "MURDER | 1994",
+   "header": [
+    "MURDER",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "MURDER | PERCENTAGE VARIATION",
+   "header": [
+    "MURDER",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ATTEMPT TO COMMIT MURDER | 1993",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "ATTEMPT TO COMMIT MURDER | 1994",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ATTEMPT TO COMMIT MURDER | PERCENTAGE VARIATION",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "C.H. NOT AMOUNTING TO MURDER | 1993",
+   "header": [
+    "C.H. NOT AMOUNTING TO MURDER",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "C.H. NOT AMOUNTING TO MURDER | 1994",
+   "header": [
+    "C.H. NOT AMOUNTING TO MURDER",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "C.H. NOT AMOUNTING TO MURDER | PERCENTAGE VARIATION",
+   "header": [
+    "C.H. NOT AMOUNTING TO MURDER",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "RAPE | 1993",
+   "header": [
+    "RAPE",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "RAPE | 1994",
+   "header": [
+    "RAPE",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "RAPE | PERCENTAGE VARIATION",
+   "header": [
+    "RAPE",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL | 1993",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL | 1994",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL | PERCENTAGE VARIATION",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | 1993",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | 1994",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | PERCENTAGE VARIATION",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | 1993",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | 1994",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | PERCENTAGE VARIATION",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "DACOITY | 1993",
+   "header": [
+    "DACOITY",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "DACOITY | 1994",
+   "header": [
+    "DACOITY",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "DACOITY | PERCENTAGE VARIATION",
+   "header": [
+    "DACOITY",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOITY | 1993",
+   "header": [
+    "PREPARATION AND ASSEMBLY FOR DACOITY",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOITY | 1994",
+   "header": [
+    "PREPARATION AND ASSEMBLY FOR DACOITY",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOITY | PERCENTAGE VARIATION",
+   "header": [
+    "PREPARATION AND ASSEMBLY FOR DACOITY",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "ROBBERY | 1993",
+   "header": [
+    "ROBBERY",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "ROBBERY | 1994",
+   "header": [
+    "ROBBERY",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "ROBBERY | PERCENTAGE VARIATION",
+   "header": [
+    "ROBBERY",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "BURGLARY | 1993",
+   "header": [
+    "BURGLARY",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "BURGLARY | 1994",
+   "header": [
+    "BURGLARY",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "BURGLARY | PERCENTAGE VARIATION",
+   "header": [
+    "BURGLARY",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "THEFT | 1993",
+   "header": [
+    "THEFT",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "THEFT | 1994",
+   "header": [
+    "THEFT",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "THEFT | PERCENTAGE VARIATION",
+   "header": [
+    "THEFT",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "RIOTS | 1993",
+   "header": [
+    "RIOTS",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "RIOTS | 1994",
+   "header": [
+    "RIOTS",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "RIOTS | PERCENTAGE VARIATION",
+   "header": [
+    "RIOTS",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "42",
+   "name": "CRIMINAL BREACH OF TRUST | 1993",
+   "header": [
+    "CRIMINAL BREACH OF TRUST",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "43",
+   "name": "CRIMINAL BREACH OF TRUST | 1994",
+   "header": [
+    "CRIMINAL BREACH OF TRUST",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "44",
+   "name": "CRIMINAL BREACH OF TRUST | PERCENTAGE VARIATION",
+   "header": [
+    "CRIMINAL BREACH OF TRUST",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "45",
+   "name": "CHEATING | 1993",
+   "header": [
+    "CHEATING",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "46",
+   "name": "CHEATING | 1994",
+   "header": [
+    "CHEATING",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "47",
+   "name": "CHEATING | PERCENTAGE VARIATION",
+   "header": [
+    "CHEATING",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "48",
+   "name": "COUNTERFEITING | 1993",
+   "header": [
+    "COUNTERFEITING",
+    "1993"
+   ]
+  },
+  {
+   "col_no": "49",
+   "name": "COUNTERFEITING | 1994",
+   "header": [
+    "COUNTERFEITING",
+    "1994"
+   ]
+  },
+  {
+   "col_no": "50",
+   "name": "COUNTERFEITING | PERCENTAGE VARIATION",
+   "header": [
+    "COUNTERFEITING",
+    "PERCENTAGE VARIATION"
+   ]
+  },
+  {
+   "col_no": "51",
+   "name": "OTHER IPC CRIMES | 1993",
+   "header": [
+    "OTHER IPC CRIMES",
+    "1993"
+   ]
+  },
   {
    "col_no": "52",
    "name": "OTHER IPC CRIMES | 1994",
@@ -38,19 +448,41 @@
     "OTHER IPC CRIMES",
     "PERCENTAGE VARIATION"
    ]
+  },
+  {
+   "col_no": "54",
+   "name": "col_54",
+   "header": []
+  },
+  {
+   "col_no": "55",
+   "name": "col_55",
+   "header": []
+  },
+  {
+   "col_no": "56",
+   "name": "col_56",
+   "header": []
   }
  ],
- "notes": [
-  "ne en eee ne”"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 102,
+  "cells_passed": 58,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 37686, sum 37987",
+   "col 6 'TOTAL (STATES)': printed 29213, sum 29226",
+   "col 9 'TOTAL (UTs)': printed 92, sum 85",
+   "col 10 'TOTAL (UTs)': printed 89, sum 84",
+   "col 12 'TOTAL (UTs)': printed 324, sum 318",
+   "col 13 'TOTAL (UTs)': printed 326, sum 320",
+   "col 15 'TOTAL (UTs)': printed 865, sum 834",
+   "col 16 'TOTAL (UTs)': printed 1129, sum 1074"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 10,
  "warnings": []
 }

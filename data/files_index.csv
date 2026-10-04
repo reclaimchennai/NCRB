@@ -74,7 +74,7 @@ raw/adsi/1975/table_content/1680155673appendix-61975.pdf,adsi,1975,table_content
 raw/adsi/1975/table_content/1680155697appendix-51975.pdf,adsi,1975,table_content,6,6,6,0.72,6,3,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 3/5; consistency 0; agrees 31% with 2 other reading(s)
 raw/adsi/1975/table_content/1680155732appendix-41975.pdf,adsi,1975,table_content,4,4,4,0.719,4,1,ok,VLM reading used (GLM-OCR-bf16): totals 19/20; consistency 21; agrees 100% with 3 other reading(s)
 raw/adsi/1975/table_content/1680155758appendix-31975.pdf,adsi,1975,table_content,4,4,4,0.768,4,3,ok,VLM reading used (OvisOCR2@2048): totals 23/32; consistency 10.5; agrees 91% with 2 other reading(s)
-raw/adsi/1975/table_content/appendix-1_1975.pdf,adsi,1975,table_content,2,2,2,0.369,0,0,no_table,
+raw/adsi/1975/table_content/appendix-1_1975.pdf,adsi,1975,table_content,2,2,2,0.369,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 8/15 against 0/0; consistency -6; agrees 99% with 2 other reading(s)
 raw/adsi/1975/table_content/appendix-2_1975.pdf,adsi,1975,table_content,4,4,4,0.725,4,3,ok,VLM reading used (OvisOCR2@2048): totals 34/42; consistency 25; agrees 93% with 2 other reading(s)
 raw/adsi/1975/year_wise/accidental-deaths-1975.pdf,adsi,1975,year_wise,18,18,18,0.726,9,5,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 5/6; consistency 3.5; agrees 68% with 2 other reading(s)
 raw/adsi/1975/year_wise/errata_1_1975.pdf,adsi,1975,year_wise,1,1,1,0.392,0,1,ok,VLM reading used (OvisOCR2): no State or all-India total to check; consistency 0; agrees 97% with 2 other reading(s)
@@ -91,11 +91,11 @@ raw/adsi/1976/year_wise/introduction_3_1976.pdf,adsi,1976,year_wise,1,1,1,0.846,
 raw/adsi/1976/year_wise/suicides-1976.pdf,adsi,1976,year_wise,14,14,14,0.734,10,8,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 14/18; consistency 8; agrees 70% with 2 other reading(s)
 raw/adsi/1977/table_content/1680159790appendix-61977.pdf,adsi,1977,table_content,4,4,4,0.35,0,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 2 other reading(s)
 raw/adsi/1977/table_content/1680159812appendix-51977.pdf,adsi,1977,table_content,4,4,4,0.34,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 56% with 2 other reading(s)
-raw/adsi/1977/table_content/1680159834appendix-41977.pdf,adsi,1977,table_content,4,4,4,0.381,1,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 9/12 against 0/0; consistency 3; agrees 39% with 3 other reading(s)
+raw/adsi/1977/table_content/1680159834appendix-41977.pdf,adsi,1977,table_content,4,4,4,0.381,1,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 9/12; consistency 3; agrees 39% with 3 other reading(s)
 raw/adsi/1977/table_content/1680159857appendix-31977.pdf,adsi,1977,table_content,4,4,4,0.362,0,2,ok,VLM reading used (OvisOCR2@2048): totals 15/19; consistency 7; agrees 99% with 1 other reading(s)
 raw/adsi/1977/table_content/appendix-1_1977.pdf,adsi,1977,table_content,2,2,2,0.356,0,2,ok,VLM reading used (OvisOCR2): totals 0/8; consistency -16; agrees 86% with 2 other reading(s)
 raw/adsi/1977/table_content/appendix-2_1977.pdf,adsi,1977,table_content,4,4,4,0.363,1,1,ok,
-raw/adsi/1977/year_wise/accidental-deaths-1977.pdf,adsi,1977,year_wise,16,16,16,0.689,4,10,ok,VLM reading used (OvisOCR2): totals 18/24 against 0/0; consistency 24; agrees 82% with 2 other reading(s)
+raw/adsi/1977/year_wise/accidental-deaths-1977.pdf,adsi,1977,year_wise,16,16,16,0.689,4,10,ok,VLM reading used (OvisOCR2): totals 18/24; consistency 24; agrees 82% with 2 other reading(s)
 raw/adsi/1977/year_wise/introduction-2-1977.pdf,adsi,1977,year_wise,1,1,1,0.928,0,0,no_table,
 raw/adsi/1977/year_wise/suicides-1977.pdf,adsi,1977,year_wise,14,14,14,0.724,9,11,ok,VLM reading used (OvisOCR2): totals 9/10; consistency 33
 raw/adsi/1978/table_content/1680159963appendix-61978.pdf,adsi,1978,table_content,4,4,4,0.335,1,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency 0
@@ -112,7 +112,7 @@ raw/adsi/1979/table_content/1680160347appendix-51979.pdf,adsi,1979,table_content
 raw/adsi/1979/table_content/1680160369appendix-41979.pdf,adsi,1979,table_content,4,4,4,0.324,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 10/10; consistency 10; agrees 38% with 2 other reading(s)
 raw/adsi/1979/table_content/1680160394appendix-31979.pdf,adsi,1979,table_content,4,4,4,0.39,0,3,ok,VLM reading used (OvisOCR2@2048): totals 48/63; consistency 16; agrees 92% with 2 other reading(s)
 raw/adsi/1979/table_content/appendix-1_1979.pdf,adsi,1979,table_content,3,3,3,0.472,2,1,ok,
-raw/adsi/1979/table_content/appendix-2_1979.pdf,adsi,1979,table_content,4,4,4,0.335,0,0,no_table,
+raw/adsi/1979/table_content/appendix-2_1979.pdf,adsi,1979,table_content,4,4,4,0.335,0,3,ok,VLM reading used (OvisOCR2@2048): totals 30/47 against 0/0; consistency -4; agrees 66% with 2 other reading(s)
 raw/adsi/1979/year_wise/accidental-deaths-1979.pdf,adsi,1979,year_wise,16,16,16,0.676,5,10,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 15; agrees 85% with 2 other reading(s)
 raw/adsi/1979/year_wise/errata_0_1979.pdf,adsi,1979,year_wise,1,1,1,0.909,0,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 2 other reading(s)
 raw/adsi/1979/year_wise/suicides-1979.pdf,adsi,1979,year_wise,15,15,15,0.683,9,12,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 8.5; agrees 82% with 2 other reading(s)
@@ -137,7 +137,7 @@ raw/adsi/1981/year_wise/suicides-1981.pdf,adsi,1981,year_wise,17,17,17,0.663,9,1
 raw/adsi/1982/table_content/1680161585appendix-61982.pdf,adsi,1982,table_content,5,5,5,0.362,0,9,ok,VLM reading used (OvisOCR2): no State or all-India total to check; consistency 0; agrees 80% with 2 other reading(s)
 raw/adsi/1982/table_content/1680161612appendix-51982.pdf,adsi,1982,table_content,6,6,6,0.376,1,8,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 83% with 2 other reading(s)
 raw/adsi/1982/table_content/1680161637appendix-41982.pdf,adsi,1982,table_content,4,4,4,0.323,0,0,no_table,
-raw/adsi/1982/table_content/1680161660appendix-31982.pdf,adsi,1982,table_content,5,5,5,0.446,1,1,ok,
+raw/adsi/1982/table_content/1680161660appendix-31982.pdf,adsi,1982,table_content,5,5,5,0.446,1,4,ok,VLM reading used (OvisOCR2): totals 30/58 against 0/0; consistency -26; agrees 93% with 2 other reading(s)
 raw/adsi/1982/table_content/appendix-1_1982.pdf,adsi,1982,table_content,2,2,2,0.321,0,3,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 11/15; consistency 3; agrees 87% with 2 other reading(s)
 raw/adsi/1982/table_content/appendix-2_1982.pdf,adsi,1982,table_content,8,8,8,0.418,2,1,ok,
 raw/adsi/1982/year_wise/accidental-deaths-1982.pdf,adsi,1982,year_wise,17,17,17,0.708,11,6,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 2/3; consistency -2.5; agrees 81% with 2 other reading(s)
@@ -146,7 +146,7 @@ raw/adsi/1982/year_wise/suicides-1982.pdf,adsi,1982,year_wise,17,17,17,0.682,10,
 raw/adsi/1983/table_content/1680161900appendix-61983.pdf,adsi,1983,table_content,6,6,6,0.428,0,9,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 91% with 2 other reading(s)
 raw/adsi/1983/table_content/1680161935appendix-51983.pdf,adsi,1983,table_content,6,6,6,0.331,1,11,ok,VLM reading used (OvisOCR2): no State or all-India total to check; consistency 0; agrees 95% with 2 other reading(s)
 raw/adsi/1983/table_content/1680161972appendix-41983.pdf,adsi,1983,table_content,6,6,6,0.333,0,4,ok,VLM reading used (OvisOCR2@2048): totals 28/38; consistency 11.5; agrees 88% with 2 other reading(s)
-raw/adsi/1983/table_content/1680161996appendix-31983.pdf,adsi,1983,table_content,6,6,6,0.32,0,0,no_table,
+raw/adsi/1983/table_content/1680161996appendix-31983.pdf,adsi,1983,table_content,6,6,6,0.32,0,5,ok,VLM reading used (OvisOCR2@2048): totals 27/43 against 0/0; consistency -4; agrees 91% with 2 other reading(s)
 raw/adsi/1983/table_content/appendix-1_1983.pdf,adsi,1983,table_content,3,3,3,0.321,1,1,ok,
 raw/adsi/1983/table_content/appendix-2_1983.pdf,adsi,1983,table_content,8,8,8,0.376,0,0,no_table,
 raw/adsi/1983/year_wise/accidental-deaths-1983.pdf,adsi,1983,year_wise,17,17,17,0.682,9,12,ok,VLM reading used (OvisOCR2): totals 22/25; consistency 21; agrees 86% with 2 other reading(s)
@@ -154,7 +154,7 @@ raw/adsi/1983/year_wise/introduction_4_1983.pdf,adsi,1983,year_wise,1,1,1,0.794,
 raw/adsi/1983/year_wise/suicides-1983.pdf,adsi,1983,year_wise,17,17,17,0.672,8,4,ok,
 raw/adsi/1984/table_content/1680162408appendix-61984.pdf,adsi,1984,table_content,6,6,6,0.536,2,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 81% with 2 other reading(s)
 raw/adsi/1984/table_content/1680162435appendix-51984.pdf,adsi,1984,table_content,9,9,9,0.43,0,3,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 43% with 2 other reading(s)
-raw/adsi/1984/table_content/1680162455appendix-41984.pdf,adsi,1984,table_content,7,7,7,0.509,4,1,ok,
+raw/adsi/1984/table_content/1680162455appendix-41984.pdf,adsi,1984,table_content,7,7,7,0.509,4,1,ok,VLM reading used (GLM-OCR-bf16): totals 14/24 against 0/0; consistency -16; agrees 63% with 3 other reading(s)
 raw/adsi/1984/table_content/1680162477appendix-31984.pdf,adsi,1984,table_content,7,7,7,0.492,3,2,ok,VLM reading used (OvisOCR2): totals 16/17; consistency 3; agrees 79% with 2 other reading(s)
 raw/adsi/1984/table_content/appendix-1_1984.pdf,adsi,1984,table_content,2,2,2,0.349,0,1,ok,VLM reading used (OvisOCR2@2048): totals 13/15; consistency 9; agrees 99% with 1 other reading(s)
 raw/adsi/1984/table_content/appendix-2_1984.pdf,adsi,1984,table_content,12,12,12,0.452,3,1,ok,
@@ -175,7 +175,7 @@ raw/adsi/1986/table_content/1680163530appendix-51986.pdf,adsi,1986,table_content
 raw/adsi/1986/table_content/1680163554appendix-41986.pdf,adsi,1986,table_content,4,4,4,0.334,0,0,no_table,
 raw/adsi/1986/table_content/1680163581appendix-31986.pdf,adsi,1986,table_content,8,8,8,0.351,1,1,ok,VLM reading used (OvisOCR2@2048): totals 42/53; consistency 25; agrees 99% with 2 other reading(s)
 raw/adsi/1986/table_content/appendix-1_1986.pdf,adsi,1986,table_content,2,2,2,0.333,2,2,ok,VLM reading used (OvisOCR2@2048): totals 29/31; consistency 25; agrees 100% with 2 other reading(s)
-raw/adsi/1986/table_content/appendix-2_1986.pdf,adsi,1986,table_content,8,8,8,0.309,0,0,no_table,
+raw/adsi/1986/table_content/appendix-2_1986.pdf,adsi,1986,table_content,8,8,8,0.309,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 38/71 against 0/0; consistency -38; agrees 94% with 2 other reading(s)
 raw/adsi/1986/year_wise/accidental-deaths-1986.pdf,adsi,1986,year_wise,18,18,18,0.793,11,8,ok,VLM reading used (OvisOCR2): totals 29/32; consistency 47; agrees 90% with 2 other reading(s)
 raw/adsi/1986/year_wise/introduction-1986.pdf,adsi,1986,year_wise,1,1,1,0.957,0,0,no_table,
 raw/adsi/1986/year_wise/suicides-1986.pdf,adsi,1986,year_wise,17,17,17,0.778,12,8,ok,VLM reading used (OvisOCR2@2048): totals 26/30; consistency 44; agrees 98% with 2 other reading(s)
@@ -258,7 +258,7 @@ raw/adsi/1994/year_wise/publication-year_12_1994.pdf,adsi,1994,year_wise,1,1,1,0
 raw/adsi/1994/year_wise/snapshots_15_1994.pdf,adsi,1994,year_wise,3,0,0,,0,0,no_table,
 raw/adsi/1994/year_wise/team_13_1994.pdf,adsi,1994,year_wise,1,1,1,0.915,0,0,no_table,
 raw/adsi/1995/table_content/appendix-4_1995.pdf,adsi,1995,table_content,4,4,4,0.389,2,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 98% with 2 other reading(s)
-raw/adsi/1995/year_wise/accidental-deaths-1995.pdf,adsi,1995,year_wise,22,22,22,0.741,7,6,ok,
+raw/adsi/1995/year_wise/accidental-deaths-1995.pdf,adsi,1995,year_wise,22,22,22,0.741,7,14,ok,VLM reading used (OvisOCR2@2048): totals 96/151 against 0/0; consistency 236.5; agrees 96% with 1 other reading(s)
 raw/adsi/1995/year_wise/data-receipt_5_1995.pdf,adsi,1995,year_wise,1,1,1,0.914,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency -1; agrees 100% with 2 other reading(s)
 raw/adsi/1995/year_wise/excerpts_6_1995.pdf,adsi,1995,year_wise,6,6,6,0.78,4,4,ok,VLM reading used (OvisOCR2@2048): totals 17/18; consistency 70; agrees 97% with 2 other reading(s)
 raw/adsi/1995/year_wise/glossary_7_1995.pdf,adsi,1995,year_wise,4,4,4,0.946,0,0,no_table,
@@ -1893,7 +1893,7 @@ raw/cii/1979/table_content/table-33-1979.pdf,cii,1979,table_content,3,3,3,0.65,2
 raw/cii/1979/table_content/table-34-1979.pdf,cii,1979,table_content,2,2,2,0.614,2,1,ok,VLM reading used (GLM-OCR-bf16): totals 25/25; consistency 50; agrees 100% with 1 other reading(s)
 raw/cii/1979/table_content/table-35-1979.pdf,cii,1979,table_content,1,1,1,0.789,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency -3; agrees 100% with 2 other reading(s)
 raw/cii/1979/table_content/table-38-1979.pdf,cii,1979,table_content,1,1,1,0.762,1,1,ok,VLM reading used (OvisOCR2): totals 36/36; consistency 42
-raw/cii/1979/table_content/table-39-1979.pdf,cii,1979,table_content,1,1,1,0.67,1,1,ok,
+raw/cii/1979/table_content/table-39-1979.pdf,cii,1979,table_content,1,1,1,0.67,1,1,ok,VLM reading used (OvisOCR2@2048): totals 15/25 against 0/0; consistency 7.5; agrees 100% with 2 other reading(s)
 raw/cii/1979/table_content/table-4-1979.pdf,cii,1979,table_content,2,2,2,0.353,0,1,ok,VLM reading used (OvisOCR2): totals 4/4; consistency 4
 raw/cii/1979/table_content/table-40-1979.pdf,cii,1979,table_content,1,1,1,0.693,1,1,ok,VLM reading used (OvisOCR2): totals 9/9; consistency 31.5; agrees 100% with 1 other reading(s)
 raw/cii/1979/table_content/table-41-1979.pdf,cii,1979,table_content,1,1,1,0.663,1,1,ok,VLM reading used (OvisOCR2@2048): totals 8/9; consistency 25.5; agrees 100% with 2 other reading(s)
@@ -1915,9 +1915,9 @@ raw/cii/1980/table_chapter/chapter-10-1980.pdf,cii,1980,table_chapter,2,2,2,0.49
 raw/cii/1980/table_chapter/chapter-11-1980.pdf,cii,1980,table_chapter,1,1,1,0.6,0,0,no_table,
 raw/cii/1980/table_chapter/chapter-12-1980.pdf,cii,1980,table_chapter,1,1,1,0.735,0,0,no_table,
 raw/cii/1980/table_chapter/chapter-2-1980.pdf,cii,1980,table_chapter,8,8,8,0.545,3,7,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency 4.5; agrees 63% with 2 other reading(s)
-raw/cii/1980/table_chapter/chapter-3-1980.pdf,cii,1980,table_chapter,5,5,5,0.489,4,3,ok,VLM reading used (OvisOCR2@2048): totals 5/6 against 0/0; consistency 2; agrees 58% with 2 other reading(s)
+raw/cii/1980/table_chapter/chapter-3-1980.pdf,cii,1980,table_chapter,5,5,5,0.489,4,3,ok,VLM reading used (OvisOCR2@2048): totals 5/6; consistency 2; agrees 58% with 2 other reading(s)
 raw/cii/1980/table_chapter/chapter-4-1980.pdf,cii,1980,table_chapter,5,5,5,0.538,2,2,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency -1.5; agrees 58% with 2 other reading(s)
-raw/cii/1980/table_chapter/chapter-5-1980.pdf,cii,1980,table_chapter,14,14,14,0.607,10,8,ok,
+raw/cii/1980/table_chapter/chapter-5-1980.pdf,cii,1980,table_chapter,14,14,14,0.607,10,5,ok,VLM reading used (OvisOCR2): totals 55/83 against 0/0; consistency -28.5; agrees 79% with 2 other reading(s)
 raw/cii/1980/table_chapter/chapter-6-1980.pdf,cii,1980,table_chapter,1,1,1,0.594,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 67% with 2 other reading(s)
 raw/cii/1980/table_chapter/chapter-7-1980.pdf,cii,1980,table_chapter,1,1,1,0.596,0,0,no_table,
 raw/cii/1980/table_chapter/chapter-8-1980.pdf,cii,1980,table_chapter,2,2,2,0.617,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency 0
@@ -1925,9 +1925,9 @@ raw/cii/1980/table_chapter/chapter-9-1980.pdf,cii,1980,table_chapter,1,1,1,0.468
 raw/cii/1980/table_content/table-10-1980_0.pdf,cii,1980,table_content,3,3,3,0.515,3,2,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency 1; agrees 87% with 2 other reading(s)
 raw/cii/1980/table_content/table-18-1980_0.pdf,cii,1980,table_content,1,1,1,0.476,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 99% with 2 other reading(s)
 raw/cii/1980/table_content/table-2-1980_0.pdf,cii,1980,table_content,1,1,1,0.372,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency 0
-raw/cii/1980/table_content/table-22-1980_0.pdf,cii,1980,table_content,4,4,4,0.421,3,2,ok,
+raw/cii/1980/table_content/table-22-1980_0.pdf,cii,1980,table_content,4,4,4,0.421,3,6,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 26/45 against 0/0; consistency -5.5; agrees 96% with 2 other reading(s)
 raw/cii/1980/table_content/table-23-1980_0.pdf,cii,1980,table_content,1,1,1,0.419,0,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency -1; agrees 100% with 2 other reading(s)
-raw/cii/1980/table_content/table-24-1980_0.pdf,cii,1980,table_content,2,2,2,0.542,2,2,ok,
+raw/cii/1980/table_content/table-24-1980_0.pdf,cii,1980,table_content,2,2,2,0.542,2,1,ok,VLM reading used (OvisOCR2): totals 18/29 against 0/0; consistency -1.5; agrees 97% with 2 other reading(s)
 raw/cii/1980/table_content/table-33-1980_0.pdf,cii,1980,table_content,2,2,2,0.279,0,0,no_table,
 raw/cii/1980/table_content/table-34-1980_0.pdf,cii,1980,table_content,2,2,2,0.268,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 0/10; consistency -15; agrees 84% with 1 other reading(s)
 raw/cii/1980/table_content/table-35-1980_0.pdf,cii,1980,table_content,1,1,1,0.266,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency -6; agrees 90% with 2 other reading(s)
@@ -1968,12 +1968,12 @@ raw/cii/1981/table_content/table-10-1981.pdf,cii,1981,table_content,4,4,4,0.491,
 raw/cii/1981/table_content/table-18-1981.pdf,cii,1981,table_content,1,1,1,0.579,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 86% with 2 other reading(s)
 raw/cii/1981/table_content/table-2-1981.pdf,cii,1981,table_content,1,1,1,0.368,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency 0
 raw/cii/1981/table_content/table-22-1981.pdf,cii,1981,table_content,5,5,5,0.469,5,2,ok,
-raw/cii/1981/table_content/table-24-1981.pdf,cii,1981,table_content,3,3,3,0.353,2,2,ok,
+raw/cii/1981/table_content/table-24-1981.pdf,cii,1981,table_content,3,3,3,0.353,2,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 9/14 against 0/0; consistency 0.5; agrees 58% with 2 other reading(s)
 raw/cii/1981/table_content/table-31-32-1981.pdf,cii,1981,table_content,1,1,1,0.382,1,2,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency 0.5; agrees 79% with 2 other reading(s)
 raw/cii/1981/table_content/table-33-1981.pdf,cii,1981,table_content,2,2,2,0.433,2,1,ok,VLM reading used (OvisOCR2): totals 26/36; consistency 9.5; agrees 98% with 2 other reading(s)
 raw/cii/1981/table_content/table-34-1981.pdf,cii,1981,table_content,2,2,2,0.48,2,1,ok,VLM reading used (OvisOCR2): totals 17/24; consistency 7; agrees 75% with 2 other reading(s)
 raw/cii/1981/table_content/table-35-1981.pdf,cii,1981,table_content,1,1,1,0.591,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency -10.5; agrees 97% with 1 other reading(s)
-raw/cii/1981/table_content/table-38-1981.pdf,cii,1981,table_content,2,2,2,0.412,2,2,ok,
+raw/cii/1981/table_content/table-38-1981.pdf,cii,1981,table_content,2,2,2,0.412,2,2,ok,VLM reading used (OvisOCR2@2048): totals 22/36 against 0/0; consistency -3; agrees 96% with 1 other reading(s)
 raw/cii/1981/table_content/table-39-1981.pdf,cii,1981,table_content,2,2,2,0.38,2,1,ok,VLM reading used (OvisOCR2@2048): totals 19/28; consistency 2; agrees 88% with 2 other reading(s)
 raw/cii/1981/table_content/table-4-1981.pdf,cii,1981,table_content,2,2,2,0.337,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 0/3; consistency -6; agrees 73% with 2 other reading(s)
 raw/cii/1981/table_content/table-40-1981.pdf,cii,1981,table_content,1,1,1,0.355,1,1,ok,VLM reading used (OvisOCR2): totals 7/9; consistency 20.5; agrees 96% with 2 other reading(s)
@@ -1981,7 +1981,7 @@ raw/cii/1981/table_content/table-41-1981.pdf,cii,1981,table_content,1,1,1,0.34,0
 raw/cii/1981/table_content/table-42-1981.pdf,cii,1981,table_content,1,1,1,0.409,0,0,no_table,
 raw/cii/1981/table_content/table-43-1981.pdf,cii,1981,table_content,1,1,1,0.448,0,1,ok,VLM reading used (OvisOCR2): totals 9/10; consistency 16.5; agrees 97% with 2 other reading(s)
 raw/cii/1981/table_content/table-44-1981.pdf,cii,1981,table_content,2,2,2,0.575,2,2,ok,VLM reading used (OvisOCR2@2048): totals 19/21; consistency 19; agrees 99% with 2 other reading(s)
-raw/cii/1981/table_content/table-45-1981.pdf,cii,1981,table_content,4,4,4,0.349,0,0,no_table,
+raw/cii/1981/table_content/table-45-1981.pdf,cii,1981,table_content,4,4,4,0.349,0,3,ok,VLM reading used (OvisOCR2@2048): totals 30/58 against 0/0; consistency -26; agrees 97% with 2 other reading(s)
 raw/cii/1981/table_content/table-47-1981.pdf,cii,1981,table_content,1,1,1,0.503,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 2 other reading(s)
 raw/cii/1981/table_content/table-48-and-49-1981.pdf,cii,1981,table_content,1,1,1,0.652,1,2,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency 1.5; agrees 99% with 2 other reading(s)
 raw/cii/1981/table_content/table-56-1981.pdf,cii,1981,table_content,2,2,2,0.626,2,1,ok,VLM reading used (OvisOCR2): totals 11/17; consistency 2.5
@@ -2023,10 +2023,10 @@ raw/cii/1982/table_content/table-37-1982.pdf,cii,1982,table_content,1,1,1,0.351,
 raw/cii/1982/table_content/table-38-1982.pdf,cii,1982,table_content,2,2,2,0.584,2,1,ok,VLM reading used (OvisOCR2@2048): totals 32/35; consistency 32; agrees 100% with 2 other reading(s)
 raw/cii/1982/table_content/table-39-1982.pdf,cii,1982,table_content,2,2,2,0.526,2,1,ok,VLM reading used (OvisOCR2): totals 18/27; consistency 3.5; agrees 100% with 1 other reading(s)
 raw/cii/1982/table_content/table-4-1982.pdf,cii,1982,table_content,2,2,2,0.42,0,0,no_table,
-raw/cii/1982/table_content/table-40-1982.pdf,cii,1982,table_content,1,1,1,0.517,0,1,ok,VLM reading used (OvisOCR2@2048): totals 9/9 against 0/0; consistency 30; agrees 100% with 1 other reading(s)
-raw/cii/1982/table_content/table-41-1982.pdf,cii,1982,table_content,1,1,1,0.533,1,1,ok,VLM reading used (OvisOCR2@2048): totals 9/9 against 2/4; consistency 29.5; agrees 100% with 1 other reading(s)
+raw/cii/1982/table_content/table-40-1982.pdf,cii,1982,table_content,1,1,1,0.517,0,1,ok,VLM reading used (OvisOCR2@2048): totals 9/9; consistency 30; agrees 100% with 1 other reading(s)
+raw/cii/1982/table_content/table-41-1982.pdf,cii,1982,table_content,1,1,1,0.533,1,1,ok,VLM reading used (OvisOCR2@2048): totals 9/9; consistency 29.5; agrees 100% with 1 other reading(s)
 raw/cii/1982/table_content/table-42-1982.pdf,cii,1982,table_content,1,1,1,0.554,0,1,ok,VLM reading used (OvisOCR2): totals 14/15; consistency 28.5; agrees 100% with 1 other reading(s)
-raw/cii/1982/table_content/table-43-1982.pdf,cii,1982,table_content,1,1,1,0.563,1,1,ok,VLM reading used (OvisOCR2@2048): totals 15/15 against 4/5; consistency 29.5; agrees 100% with 1 other reading(s)
+raw/cii/1982/table_content/table-43-1982.pdf,cii,1982,table_content,1,1,1,0.563,1,1,ok,VLM reading used (OvisOCR2@2048): totals 15/15; consistency 29.5; agrees 100% with 1 other reading(s)
 raw/cii/1982/table_content/table-44-1982.pdf,cii,1982,table_content,2,2,2,0.594,2,1,ok,VLM reading used (OvisOCR2@2048): totals 23/26; consistency 21.5; agrees 100% with 1 other reading(s)
 raw/cii/1982/table_content/table-45-1982.pdf,cii,1982,table_content,4,4,4,0.354,0,1,ok,VLM reading used (OvisOCR2@2048): totals 38/50; consistency 3; agrees 50% with 2 other reading(s)
 raw/cii/1982/table_content/table-47-1982.pdf,cii,1982,table_content,1,1,1,0.553,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 1 other reading(s)
@@ -2036,17 +2036,17 @@ raw/cii/1982/table_content/table-50-1982.pdf,cii,1982,table_content,3,3,3,0.588,
 raw/cii/1982/table_content/table-51-1982.pdf,cii,1982,table_content,3,3,3,0.613,2,8,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 6/7; consistency 5.5; agrees 99% with 2 other reading(s)
 raw/cii/1982/table_content/table-52-1982.pdf,cii,1982,table_content,3,3,3,0.563,2,1,ok,VLM reading used (OvisOCR2): totals 1/4; consistency -4.5; agrees 65% with 2 other reading(s)
 raw/cii/1982/table_content/table-53-and-54-1982.pdf,cii,1982,table_content,1,1,1,0.645,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency -5; agrees 100% with 1 other reading(s)
-raw/cii/1982/table_content/table-55-1982.pdf,cii,1982,table_content,1,1,1,0.522,1,1,ok,VLM reading used (OvisOCR2@2048): totals 8/9 against 0/2; consistency 6; agrees 86% with 1 other reading(s)
+raw/cii/1982/table_content/table-55-1982.pdf,cii,1982,table_content,1,1,1,0.522,1,1,ok,VLM reading used (OvisOCR2@2048): totals 8/9; consistency 6; agrees 86% with 1 other reading(s)
 raw/cii/1982/table_content/table-56-1982.pdf,cii,1982,table_content,2,2,2,0.561,1,1,ok,
 raw/cii/1982/table_content/table-57-1982.pdf,cii,1982,table_content,1,1,1,0.657,1,1,ok,VLM reading used (OvisOCR2): no State or all-India total to check; consistency 1; agrees 96% with 2 other reading(s)
 raw/cii/1982/table_content/table-58-1982.pdf,cii,1982,table_content,1,1,1,0.589,1,1,ok,VLM reading used (OvisOCR2): totals 11/12; consistency 11; agrees 100% with 1 other reading(s)
 raw/cii/1982/table_content/table-59-1982.pdf,cii,1982,table_content,1,1,1,0.569,1,1,ok,VLM reading used (OvisOCR2): totals 12/12; consistency 14; agrees 85% with 1 other reading(s)
 raw/cii/1982/table_content/table-6-1982.pdf,cii,1982,table_content,6,6,6,0.441,0,1,ok,VLM reading used (OvisOCR2@2048): totals 5/6; consistency -8; agrees 87% with 2 other reading(s)
-raw/cii/1982/table_content/table-60-1982.pdf,cii,1982,table_content,2,2,2,0.258,0,0,no_table,
+raw/cii/1982/table_content/table-60-1982.pdf,cii,1982,table_content,2,2,2,0.258,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 3/5 against 0/0; consistency -1; agrees 58% with 2 other reading(s)
 raw/cii/1982/table_content/table-7-1982.pdf,cii,1982,table_content,13,10,10,0.32,3,3,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 98% with 2 other reading(s)
 raw/cii/1982/table_content/table-7a-1982.pdf,cii,1982,table_content,4,4,4,0.351,0,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 97% with 2 other reading(s)
 raw/cii/1982/table_content/table-9-1982.pdf,cii,1982,table_content,1,1,1,0.451,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency 3; agrees 77% with 1 other reading(s)
-raw/cii/1983/table_chapter/chapter-1-1983.pdf,cii,1983,table_chapter,27,27,27,0.663,8,7,ok,
+raw/cii/1983/table_chapter/chapter-1-1983.pdf,cii,1983,table_chapter,27,27,27,0.663,8,3,ok,VLM reading used (OvisOCR2): totals 19/31 against 0/0; consistency -9.5; agrees 78% with 2 other reading(s)
 raw/cii/1983/table_chapter/chapter-10-1983.pdf,cii,1983,table_chapter,1,1,1,0.623,1,1,ok,VLM reading used (OvisOCR2@2048): totals 11/12; consistency 11; agrees 98% with 2 other reading(s)
 raw/cii/1983/table_chapter/chapter-11-1983.pdf,cii,1983,table_chapter,2,2,2,0.723,0,0,no_table,
 raw/cii/1983/table_chapter/chapter-12-1983.pdf,cii,1983,table_chapter,1,1,1,0.921,0,0,no_table,
@@ -2074,7 +2074,7 @@ raw/cii/1983/table_content/table-35-1983.pdf,cii,1983,table_content,1,1,1,0.403,
 raw/cii/1983/table_content/table-36-1983.pdf,cii,1983,table_content,1,1,1,0.682,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 91% with 2 other reading(s)
 raw/cii/1983/table_content/table-37-1983.pdf,cii,1983,table_content,1,1,1,0.413,0,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): no State or all-India total to check; consistency 0; agrees 71% with 2 other reading(s)
 raw/cii/1983/table_content/table-39-1983.pdf,cii,1983,table_content,2,2,2,0.53,1,1,ok,VLM reading used (OvisOCR2): totals 23/25; consistency 24; agrees 97% with 2 other reading(s)
-raw/cii/1983/table_content/table-4-1983.pdf,cii,1983,table_content,2,2,2,0.411,0,0,no_table,
+raw/cii/1983/table_content/table-4-1983.pdf,cii,1983,table_content,2,2,2,0.411,0,1,ok,VLM reading used (OvisOCR2@2048): totals 4/6 against 0/0; consistency 0; agrees 82% with 2 other reading(s)
 raw/cii/1983/table_content/table-40-1983.pdf,cii,1983,table_content,1,1,1,0.535,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 1 other reading(s)
 raw/cii/1983/table_content/table-41-1983.pdf,cii,1983,table_content,1,1,1,0.534,1,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 7/9; consistency 4.5; agrees 99% with 2 other reading(s)
 raw/cii/1983/table_content/table-42-1983.pdf,cii,1983,table_content,1,1,1,0.564,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 99% with 1 other reading(s)
@@ -2670,7 +2670,7 @@ raw/cii/1991/table_content/table-64-1991-64.pdf,cii,1991,table_content,1,1,1,0.3
 raw/cii/1991/table_content/table-65-1991-65.pdf,cii,1991,table_content,1,1,1,0.417,0,1,ok,VLM reading used (OvisOCR2): totals 17/20; consistency 16; agrees 88% with 2 other reading(s)
 raw/cii/1991/table_content/table-66-1991-66.pdf,cii,1991,table_content,1,1,1,0.324,0,1,ok,VLM reading used (OvisOCR2@2048): totals 21/30; consistency 3; agrees 90% with 2 other reading(s)
 raw/cii/1991/table_content/table-67-1991-67.pdf,cii,1991,table_content,1,1,1,0.362,0,1,ok,VLM reading used (OvisOCR2): totals 28/30; consistency 24; agrees 99% with 2 other reading(s)
-raw/cii/1991/table_content/table-68-1991-68.pdf,cii,1991,table_content,1,1,1,0.3,1,1,ok,
+raw/cii/1991/table_content/table-68-1991-68.pdf,cii,1991,table_content,1,1,1,0.3,1,1,ok,VLM reading used (OvisOCR2@2048): totals 9/18 against 0/0; consistency -9; agrees 89% with 2 other reading(s)
 raw/cii/1991/table_content/table-69-1991-69.pdf,cii,1991,table_content,2,2,2,0.461,1,1,ok,VLM reading used (OvisOCR2): totals 47/48; consistency 45; agrees 96% with 2 other reading(s)
 raw/cii/1991/table_content/table-7-1991-7.pdf,cii,1991,table_content,9,9,9,0.437,8,3,ok,VLM reading used (OvisOCR2): totals 56/58; consistency 48; agrees 99% with 2 other reading(s)
 raw/cii/1991/table_content/table-70-1991-70.pdf,cii,1991,table_content,2,2,2,0.423,2,2,ok,VLM reading used (OvisOCR2): totals 50/63; consistency 24; agrees 74% with 2 other reading(s)
@@ -2802,7 +2802,7 @@ raw/cii/1993/table_content/table-17-1993-crime.pdf,cii,1993,table_content,1,1,1,
 raw/cii/1993/table_content/table-18-1993-crime.pdf,cii,1993,table_content,1,1,1,0.947,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 2 other reading(s)
 raw/cii/1993/table_content/table-19-1993-crime.pdf,cii,1993,table_content,1,1,1,0.945,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 12; agrees 100% with 2 other reading(s)
 raw/cii/1993/table_content/table-2-1993-crime.pdf,cii,1993,table_content,2,2,2,0.885,2,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 58% with 2 other reading(s)
-raw/cii/1993/table_content/table-20-1993-crime.pdf,cii,1993,table_content,1,1,1,0.929,1,1,ok,
+raw/cii/1993/table_content/table-20-1993-crime.pdf,cii,1993,table_content,1,1,1,0.929,1,1,ok,VLM reading used (OvisOCR2@2048): totals 6/12 against 0/0; consistency 10; agrees 96% with 2 other reading(s)
 raw/cii/1993/table_content/table-21-1993-crime.pdf,cii,1993,table_content,1,1,1,0.911,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 2 other reading(s)
 raw/cii/1993/table_content/table-22-1993-crime.pdf,cii,1993,table_content,1,1,1,0.95,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 11.5; agrees 100% with 2 other reading(s)
 raw/cii/1993/table_content/table-23-1993-crime.pdf,cii,1993,table_content,1,1,1,0.856,1,1,ok,VLM reading used (OvisOCR2): totals 1/5; consistency -8.5; agrees 92% with 2 other reading(s)
@@ -2818,11 +2818,11 @@ raw/cii/1993/table_content/table-31-1993-crime.pdf,cii,1993,table_content,18,18,
 raw/cii/1993/table_content/table-32-1993-crime.pdf,cii,1993,table_content,2,2,2,0.858,2,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 6; agrees 98% with 2 other reading(s)
 raw/cii/1993/table_content/table-33-1993-crime.pdf,cii,1993,table_content,1,1,1,0.894,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 2 other reading(s)
 raw/cii/1993/table_content/table-34-1993-crime.pdf,cii,1993,table_content,1,1,1,0.9,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 2; agrees 100% with 2 other reading(s)
-raw/cii/1993/table_content/table-35-1993-crime.pdf,cii,1993,table_content,1,1,1,0.864,1,1,ok,
+raw/cii/1993/table_content/table-35-1993-crime.pdf,cii,1993,table_content,1,1,1,0.864,1,1,ok,VLM reading used (OvisOCR2@2048): totals 6/12 against 0/0; consistency -6; agrees 96% with 2 other reading(s)
 raw/cii/1993/table_content/table-36-1993-crime.pdf,cii,1993,table_content,1,1,1,0.918,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 2.5; agrees 100% with 2 other reading(s)
 raw/cii/1993/table_content/table-37-1993-crime.pdf,cii,1993,table_content,1,1,1,0.917,1,1,ok,
 raw/cii/1993/table_content/table-38-1993-crime.pdf,cii,1993,table_content,1,1,1,0.925,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 2; agrees 100% with 2 other reading(s)
-raw/cii/1993/table_content/table-39-1993-crime.pdf,cii,1993,table_content,1,1,1,0.857,1,1,ok,
+raw/cii/1993/table_content/table-39-1993-crime.pdf,cii,1993,table_content,1,1,1,0.857,1,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 4/8 against 0/0; consistency -3.5; agrees 94% with 2 other reading(s)
 raw/cii/1993/table_content/table-4-1993-crime.pdf,cii,1993,table_content,2,2,2,0.833,2,1,ok,
 raw/cii/1993/table_content/table-40-1993-crime.pdf,cii,1993,table_content,1,1,1,0.891,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 2.5; agrees 100% with 2 other reading(s)
 raw/cii/1993/table_content/table-41-1993-crime.pdf,cii,1993,table_content,1,1,1,0.905,1,1,ok,
@@ -2834,8 +2834,8 @@ raw/cii/1993/table_content/table-46-1993-crime.pdf,cii,1993,table_content,4,4,4,
 raw/cii/1993/table_content/table-47-1993-crime.pdf,cii,1993,table_content,1,1,1,0.93,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 2 other reading(s)
 raw/cii/1993/table_content/table-48-1993-crime.pdf,cii,1993,table_content,1,1,1,0.899,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 2 other reading(s)
 raw/cii/1993/table_content/table-49-1993-crime.pdf,cii,1993,table_content,1,1,1,0.837,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 8; agrees 98% with 2 other reading(s)
-raw/cii/1993/table_content/table-5-1993-crime.pdf,cii,1993,table_content,1,1,1,0.9,1,1,ok,
-raw/cii/1993/table_content/table-50-1993-crime.pdf,cii,1993,table_content,4,4,4,0.643,4,1,ok,
+raw/cii/1993/table_content/table-5-1993-crime.pdf,cii,1993,table_content,1,1,1,0.9,1,1,ok,VLM reading used (OvisOCR2@2048): totals 2/3 against 0/0; consistency 0; agrees 97% with 2 other reading(s)
+raw/cii/1993/table_content/table-50-1993-crime.pdf,cii,1993,table_content,4,4,4,0.643,4,1,ok,VLM reading used (OvisOCR2): totals 9/16 against 0/0; consistency -1; agrees 98% with 2 other reading(s)
 raw/cii/1993/table_content/table-51-1993-crime.pdf,cii,1993,table_content,4,4,4,0.559,4,2,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 19/24; consistency 9; agrees 98% with 2 other reading(s)
 raw/cii/1993/table_content/table-52-1993-crime.pdf,cii,1993,table_content,2,2,2,0.79,2,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 11/16; consistency 1; agrees 97% with 2 other reading(s)
 raw/cii/1993/table_content/table-53-1993-crime.pdf,cii,1993,table_content,2,2,2,0.723,2,1,ok,VLM reading used (OvisOCR2@2048): totals 14/16; consistency 14; agrees 99% with 2 other reading(s)
@@ -2843,11 +2843,11 @@ raw/cii/1993/table_content/table-54-1993-crime.pdf,cii,1993,table_content,2,2,2,
 raw/cii/1993/table_content/table-55-1993-crime.pdf,cii,1993,table_content,4,4,4,0.786,3,1,ok,VLM reading used (OvisOCR2@2048): totals 17/24; consistency -31.5; agrees 98% with 2 other reading(s)
 raw/cii/1993/table_content/table-56-1993-crime.pdf,cii,1993,table_content,1,1,1,0.887,1,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 1/1; consistency 0; agrees 95% with 2 other reading(s)
 raw/cii/1993/table_content/table-57-1993-crime.pdf,cii,1993,table_content,2,2,2,0.877,2,1,ok,
-raw/cii/1993/table_content/table-58-1993-crime.pdf,cii,1993,table_content,2,2,2,0.832,2,1,ok,
+raw/cii/1993/table_content/table-58-1993-crime.pdf,cii,1993,table_content,2,2,2,0.832,2,1,ok,VLM reading used (OvisOCR2): totals 5/10 against 0/0; consistency -6; agrees 94% with 2 other reading(s)
 raw/cii/1993/table_content/table-59-1993-crime.pdf,cii,1993,table_content,2,2,2,0.873,2,1,ok,VLM reading used (OvisOCR2): totals 9/13; consistency 1; agrees 73% with 2 other reading(s)
 raw/cii/1993/table_content/table-6-1993-crime.pdf,cii,1993,table_content,10,10,10,0.877,9,1,ok,
 raw/cii/1993/table_content/table-60-1993-crime.pdf,cii,1993,table_content,2,2,2,0.841,2,1,ok,VLM reading used (OvisOCR2@2048): totals 11/15; consistency 3; agrees 98% with 2 other reading(s)
-raw/cii/1993/table_content/table-61-1993-crime.pdf,cii,1993,table_content,4,4,4,0.653,4,1,ok,
+raw/cii/1993/table_content/table-61-1993-crime.pdf,cii,1993,table_content,4,4,4,0.653,4,1,ok,VLM reading used (OvisOCR2@2048): totals 17/30 against 0/0; consistency -9; agrees 99% with 2 other reading(s)
 raw/cii/1993/table_content/table-62-1993-crime.pdf,cii,1993,table_content,2,2,2,0.872,2,1,ok,
 raw/cii/1993/table_content/table-63-1993-crime.pdf,cii,1993,table_content,1,1,1,0.925,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 2 other reading(s)
 raw/cii/1993/table_content/table-64-1993-crime.pdf,cii,1993,table_content,2,2,2,0.889,2,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 95% with 2 other reading(s)
@@ -2856,13 +2856,13 @@ raw/cii/1993/table_content/table-66-1993-crime.pdf,cii,1993,table_content,1,1,1,
 raw/cii/1993/table_content/table-67-1993-crime.pdf,cii,1993,table_content,1,1,1,0.774,1,1,ok,VLM reading used (OvisOCR2@2048): totals 6/6; consistency 6; agrees 99% with 2 other reading(s)
 raw/cii/1993/table_content/table-68-1993-crime.pdf,cii,1993,table_content,1,1,1,0.912,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 88% with 2 other reading(s)
 raw/cii/1993/table_content/table-69-1993-crime.pdf,cii,1993,table_content,4,4,4,0.785,3,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 4/4; consistency 6; agrees 99% with 2 other reading(s)
-raw/cii/1993/table_content/table-7-1993-crime.pdf,cii,1993,table_content,18,18,18,0.841,18,1,ok,
+raw/cii/1993/table_content/table-7-1993-crime.pdf,cii,1993,table_content,18,18,18,0.841,18,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 32/61 against 0/0; consistency -52.5; agrees 98% with 2 other reading(s)
 raw/cii/1993/table_content/table-70-1993-crime.pdf,cii,1993,table_content,4,4,4,0.819,3,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 6/7; consistency 6; agrees 98% with 2 other reading(s)
 raw/cii/1993/table_content/table-71-1993-crime.pdf,cii,1993,table_content,4,4,4,0.785,2,1,ok,VLM reading used (OvisOCR2): totals 4/4; consistency 4.5
 raw/cii/1993/table_content/table-72-1993-crime.pdf,cii,1993,table_content,4,4,4,0.834,2,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 4/4; consistency 0; agrees 97% with 2 other reading(s)
 raw/cii/1993/table_content/table-73-1993-crime.pdf,cii,1993,table_content,4,4,4,0.681,3,1,ok,VLM reading used (OvisOCR2@2048): totals 14/15; consistency -1.5; agrees 98% with 2 other reading(s)
 raw/cii/1993/table_content/table-74-1993-crime.pdf,cii,1993,table_content,2,2,2,0.839,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 1; agrees 95% with 2 other reading(s)
-raw/cii/1993/table_content/table-75-1993-crime.pdf,cii,1993,table_content,2,2,2,0.662,2,1,ok,
+raw/cii/1993/table_content/table-75-1993-crime.pdf,cii,1993,table_content,2,2,2,0.662,2,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 9/15 against 0/0; consistency -3; agrees 98% with 2 other reading(s)
 raw/cii/1993/table_content/table-76-1993-crime.pdf,cii,1993,table_content,1,1,1,0.875,1,1,ok,VLM reading used (OvisOCR2): no State or all-India total to check; consistency 1; agrees 98% with 2 other reading(s)
 raw/cii/1993/table_content/table-77-1993-crime.pdf,cii,1993,table_content,2,2,2,0.827,2,1,ok,VLM reading used (OvisOCR2@2048): totals 4/20; consistency -30.5; agrees 96% with 2 other reading(s)
 raw/cii/1993/table_content/table-78-1993-crime.pdf,cii,1993,table_content,2,2,2,0.749,2,1,ok,VLM reading used (PaddleOCR-VL-1.6@2048): totals 7/20; consistency -19; agrees 95% with 2 other reading(s)
@@ -2966,7 +2966,7 @@ raw/cii/1994/table_content/table66-1994_2.pdf,cii,1994,table_content,3,3,3,0.495
 raw/cii/1994/table_content/table67-1994_2.pdf,cii,1994,table_content,1,1,1,0.66,1,1,ok,VLM reading used (OvisOCR2): totals 3/3; consistency 3
 raw/cii/1994/table_content/table68-1994_2.pdf,cii,1994,table_content,2,2,2,0.483,1,1,ok,VLM reading used (OvisOCR2): totals 27/27; consistency 27
 raw/cii/1994/table_content/table69-1994_2.pdf,cii,1994,table_content,2,2,2,0.593,2,1,ok,VLM reading used (OvisOCR2@2048): totals 22/27; consistency 12; agrees 100% with 2 other reading(s)
-raw/cii/1994/table_content/table7-1994_2.pdf,cii,1994,table_content,9,9,9,0.278,1,1,ok,
+raw/cii/1994/table_content/table7-1994_2.pdf,cii,1994,table_content,9,9,9,0.278,1,1,ok,VLM reading used (OvisOCR2@2048): totals 58/102 against 0/0; consistency -30; agrees 90% with 2 other reading(s)
 raw/cii/1994/table_content/table70-1994_2.pdf,cii,1994,table_content,3,3,3,0.706,3,1,ok,VLM reading used (OvisOCR2): totals 24/24; consistency 24
 raw/cii/1994/table_content/table71-1994_2.pdf,cii,1994,table_content,2,2,2,0.493,0,1,ok,VLM reading used (OvisOCR2): totals 30/30; consistency 30
 raw/cii/1994/table_content/table72-1994_2.pdf,cii,1994,table_content,1,1,1,0.366,0,1,ok,VLM reading used (OvisOCR2@2048): totals 15/15; consistency 15; agrees 95% with 2 other reading(s)
@@ -3078,7 +3078,7 @@ raw/cii/1995/table_content/table-56-1995-crime-survey.pdf,cii,1995,table_content
 raw/cii/1995/table_content/table-57-1995-crime-survey.pdf,cii,1995,table_content,2,2,2,0.524,1,1,ok,VLM reading used (OvisOCR2): totals 21/21; consistency 21
 raw/cii/1995/table_content/table-58-1995-crime-survey.pdf,cii,1995,table_content,3,3,3,0.679,3,1,ok,VLM reading used (OvisOCR2): totals 24/24; consistency 24
 raw/cii/1995/table_content/table-59-1995-crime-survey.pdf,cii,1995,table_content,3,3,3,0.738,1,1,ok,VLM reading used (OvisOCR2@2048): totals 23/27; consistency 15; agrees 100% with 2 other reading(s)
-raw/cii/1995/table_content/table-6-1995-crime-survey.pdf,cii,1995,table_content,6,6,6,0.46,4,1,ok,
+raw/cii/1995/table_content/table-6-1995-crime-survey.pdf,cii,1995,table_content,6,6,6,0.46,4,1,ok,VLM reading used (OvisOCR2@2048): totals 41/69 against 0/0; consistency -15; agrees 96% with 2 other reading(s)
 raw/cii/1995/table_content/table-61-1995-crime-survey.pdf,cii,1995,table_content,1,1,1,0.302,1,1,ok,VLM reading used (OvisOCR2): totals 15/15; consistency 15
 raw/cii/1995/table_content/table-62-1995-crime-survey.pdf,cii,1995,table_content,2,2,2,0.633,2,1,ok,VLM reading used (OvisOCR2@2048): totals 29/30; consistency 27; agrees 100% with 2 other reading(s)
 raw/cii/1995/table_content/table-62A-1995-crime-survey.pdf,cii,1995,table_content,2,2,2,0.836,0,1,ok,VLM reading used (OvisOCR2@2048): totals 28/30; consistency 24; agrees 100% with 2 other reading(s)
@@ -3193,15 +3193,15 @@ raw/cii/1996/table_content/table-76--value-of-property-stolen-&-recovered-and-pe
 raw/cii/1996/table_content/table-8--distric-wise-incidence-of-cognizable-crimes-(ipc)-during-1996-1996.pdf,cii,1996,table_content,24,24,24,0.593,22,1,ok,
 raw/cii/1996/table_content/table-83--police-personnel-killed-injured-on-duty-during-1996-1996.pdf,cii,1996,table_content,2,2,2,0.278,0,1,ok,VLM reading used (OvisOCR2): totals 15/15; consistency 14
 raw/cii/1996/table_content/table-84--police-personnel-killed-injured-on-duty-during-1996-(rank-wise)-1996.pdf,cii,1996,table_content,2,2,2,0.817,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 2.5; agrees 99% with 2 other reading(s)
-raw/cii/1996/table_content/table-85--perosns-killed-or-injured-under-police-firing-during1996-1996.pdf,cii,1996,table_content,1,1,1,0.283,0,0,no_table,
+raw/cii/1996/table_content/table-85--perosns-killed-or-injured-under-police-firing-during1996-1996.pdf,cii,1996,table_content,1,1,1,0.283,0,1,ok,VLM reading used (OvisOCR2@2048): totals 6/10 against 0/0; consistency -1; agrees 92% with 2 other reading(s)
 raw/cii/1996/table_content/table-86--persons-killed-or-injured-under-police-firing-during-1996-(event-wise)-1996.pdf,cii,1996,table_content,1,1,1,0.825,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 2.5; agrees 96% with 2 other reading(s)
-raw/cii/1996/table_content/table-88-sanctioned.pdf,cii,1996,table_content,1,1,1,0.655,0,0,no_table,
-raw/cii/1996/table_content/table-89-sanctioned.pdf,cii,1996,table_content,1,1,1,0.496,0,0,no_table,
+raw/cii/1996/table_content/table-88-sanctioned.pdf,cii,1996,table_content,1,1,1,0.655,0,1,ok,VLM reading used (OvisOCR2): totals 13/20 against 0/0; consistency -8; agrees 90% with 2 other reading(s)
+raw/cii/1996/table_content/table-89-sanctioned.pdf,cii,1996,table_content,1,1,1,0.496,0,1,ok,VLM reading used (OvisOCR2@2048): totals 17/30 against 0/0; consistency -9; agrees 80% with 2 other reading(s)
 raw/cii/1996/table_content/table-9--city-wise-incidence-of-cognizable-crimes-(ipc)-during-1996-1996.pdf,cii,1996,table_content,4,4,4,0.702,4,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 31; agrees 98% with 2 other reading(s)
 raw/cii/1996/table_content/table-90-1996_0.pdf,cii,1996,table_content,1,1,1,0.588,1,1,ok,VLM reading used (OvisOCR2): totals 30/30; consistency 30
 raw/cii/1996/table_content/table-92-1996-statemnt-of-cognizable.pdf,cii,1996,table_content,2,2,2,0.699,0,1,ok,VLM reading used (OvisOCR2@2048): totals 61/75; consistency 33; agrees 97% with 2 other reading(s)
 raw/cii/1996/table_content/table-94--complaints-cases-registered-against-police-rersonnel-during-1995-1996.pdf,cii,1996,table_content,3,3,3,0.458,2,1,ok,VLM reading used (OvisOCR2@2048): totals 34/45; consistency 12; agrees 96% with 2 other reading(s)
-raw/cii/1996/table_content/table-95--complaints--cases-registered-against-police-personnel-during-1996-1996.pdf,cii,1996,table_content,3,3,3,0.299,0,0,no_table,
+raw/cii/1996/table_content/table-95--complaints--cases-registered-against-police-personnel-during-1996-1996.pdf,cii,1996,table_content,3,3,3,0.299,0,1,ok,VLM reading used (OvisOCR2): totals 16/32 against 0/0; consistency -13.5; agrees 95% with 2 other reading(s)
 raw/cii/1996/year_wise/1653984391_PREFACE_7.pdf,cii,1996,year_wise,1,1,1,0.949,0,0,no_table,
 raw/cii/1996/year_wise/1653984458_CHRONICLE ORDER OF RECEIPT OF DATA_0.pdf,cii,1996,year_wise,1,1,1,0.885,1,1,ok,VLM reading used (OvisOCR2@2048): no State or all-India total to check; consistency 0; agrees 100% with 2 other reading(s)
 raw/cii/1996/year_wise/1653984496_SNAPSHOTS1996.pdf,cii,1996,year_wise,2,2,2,0.762,0,0,no_table,

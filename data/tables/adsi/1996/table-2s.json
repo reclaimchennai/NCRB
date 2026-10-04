@@ -1,0 +1,76 @@
+{
+ "table_id": "adsi/1996/table-2s",
+ "publication": "adsi",
+ "year": 1996,
+ "listing": "archived",
+ "topic": "Accidental Deaths & Suicides in India 1996 (archived copy of NCRB's old site)",
+ "section": "Accidental Deaths & Suicides in India 1996 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "table-2s",
+ "listing_title": "table-2s",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20181222101644id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1996/table-2s.pdf",
+ "source_file": "raw/adsi/1996/archived/table-2s.pdf",
+ "source_sha256": "e928401129b6128fe098ad5e1b25d4dc954dd0b82c27b8d01d9e332f6347f881",
+ "table_no": "2(S)",
+ "pdf_title": "Incidence And Rate of Suicides During 1996 (State, JT & City-wise)",
+ "row_label": "Sl. No. / State/UT/City",
+ "pages": [
+  1
+ ],
+ "n_rows": 52,
+ "n_cols": 5,
+ "n_cells": 221,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Number of Suicides",
+   "header": [
+    "Number of Suicides"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage Share in Total Suicides.",
+   "header": [
+    "Percentage Share in Total Suicides."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Estimated Mid- Population {in Lakh)",
+   "header": [
+    "Estimated Mid- Population {in Lakh)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rate of Suicides aicor.5)",
+   "header": [
+    "Rate of Suicides aicor.5)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  }
+ ],
+ "notes": [
+  "* Rank on the basis of Rate of Suicides (Col.6) in States, Cities and UTs."
+ ],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (UTs)': printed 1706, sum 66773",
+   "col 3 'TOTAL (UTs)': printed 7967, sum 5488"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

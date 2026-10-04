@@ -84,6 +84,9 @@ def resolve(name: str, section: str, scanned: bool, year: int | None = None) -> 
 
     raw = re.sub(r"^[\W\d]+[.,]?\s*", "", str(name or "")).strip()
     raw = re.sub(r"\s*\[line \d+\]\s*$", "", raw, flags=re.I)
+    if re.search(r"\b(minus|excluding|excl\.?|other than)\b", raw, re.I):
+        return None                 # 'Madras (minus Madras City)': part of a State, not the State
+
     # dot leaders of scanned tables: 'Madras . . . . 663' or 'Bangalore .'
     raw = re.sub(r"(\s*\.){1,}(\s.*)?$", "", raw) if re.search(r"\s\.(\s|$)", raw) else raw
     if not raw or len(raw) < 2:

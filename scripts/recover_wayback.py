@@ -1,4 +1,4 @@
-"""Recover Crime in India files NCRB no longer serves, from the Internet Archive's copies of its old website.
+"""Recover NCRB files (Crime in India, ADSI) its site no longer serves, from the Internet Archive's copies of its old website.
 
 NCRB's current site lists 107 files it does not serve (404 or an HTML error page): most of the 1996, 2000
 and 2012 editions. Its old site (ncrb.nic.in, and ncrb.gov.in/StatPublications) published those editions in
@@ -37,7 +37,13 @@ SOURCES = [
     ("cii", 2012, ["ncrb.gov.in/StatPublications/CII/CII2012/*", "ncrb.nic.in/StatPublications/CII/CII2012/*"]),
     ("cii", 1996, ["ncrb.nic.in/StatPublications/CII/CII1996/*", "ncrb.gov.in/StatPublications/CII/CII1996/*",
                    "ncrb.nic.in/ciiprevious/Data/CII1996/*"]),
+] + [
+    # ADSI: the State-wise suicide tables (causes, means, profession, education, incidence and rate) for 1995-2000,
+    # which today's site does not list; nothing survives for 1987 or 1992-94 beyond what the site already has
+    ("adsi", y, [f"ncrb.gov.in/StatPublications/ADSI/ADSI{y}/*", f"ncrb.nic.in/StatPublications/ADSI/ADSI{y}/*"])
+    for y in (1987, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000)
 ]
+REPORT = {"cii": "Crime in India", "adsi": "Accidental Deaths & Suicides in India"}
 KEEP = re.compile(r"\.(pdf|docx?|xlsx?|rtf)$", re.I)
 SKIP = re.compile(r"feedback|disclaimer|preface|officers|limitations|cover|snapshot|contents|maps", re.I)
 
@@ -62,6 +68,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--fetch", action="store_true")
     ap.add_argument("--matches", help="JSON list of {pub, year, ts, orig}: fetch exactly these archived files")
+    ap.add_argument("--pub", help="only this publication (cii, adsi)")
     args = ap.parse_args()
     files_csv = ROOT / "catalog" / "files.csv"
     have = {r["sha256"] for r in csv.DictReader(files_csv.open(encoding="utf-8"))}
@@ -70,7 +77,7 @@ def main() -> None:
     if args.matches:
         for m in json.loads(Path(args.matches).read_text()):
             todo.append((m["pub"], int(m["year"]), {"timestamp": m["ts"], "original": m["orig"], "mimetype": ""}, name_of(m["orig"])))
-    for pub, year, patterns in ([] if args.matches else SOURCES):
+    for pub, year, patterns in ([] if args.matches else [x for x in SOURCES if not args.pub or x[0] == args.pub]):
         seen = set()
         for pat in patterns:
             for r in cdx(pat):
@@ -92,13 +99,15 @@ def main() -> None:
             continue
         dest = ROOT / "raw" / pub / str(year) / "archived" / re.sub(r"[^\w.\-]+", "_", nm)
         dest.parent.mkdir(parents=True, exist_ok=True)
-        data = None
-        for attempt in range(4):
+        data = dest.read_bytes() if dest.exists() and dest.stat().st_size > 1000 else None
+        for attempt in range(0 if data else 4):
             try:
                 data = urllib.request.urlopen(src, timeout=300).read()
                 break
             except Exception as e:
                 print("  retry", nm, e)
+                if "404" in str(e):
+                    break           # not archived at this timestamp: no point asking again
                 time.sleep(15 * (attempt + 1))
         if not data or data[:5].lower().startswith((b"<!doc", b"<html")):
             print("  not a file:", nm)
@@ -110,7 +119,7 @@ def main() -> None:
         dest.write_bytes(data)
         have.add(sha)
         title = re.sub(r"\.[^.]+$", "", nm).replace("_", " ")
-        cat_rows.append({"publication": pub, "listing": "archived", "year": year, "section": f"Crime in India {year} (archived copy of NCRB's old site)",
+        cat_rows.append({"publication": pub, "listing": "archived", "year": year, "section": f"{REPORT[pub]} {year} (archived copy of NCRB's old site)",
                          "serial": "", "title": title, "url": src, "size_text": f"[ {len(data) / 1024:.1f} KB ]",
                          "listing_url": r["original"]})
         file_rows.append({"url": src, "publication": pub, "year": year, "listing": "archived", "path": str(dest.relative_to(ROOT)),

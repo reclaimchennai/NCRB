@@ -6,73 +6,138 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "PERCENTAGE GROWTH OF THEFIS & POPULATION OVER-1973 5”",
+ "title": "12 by Rajasthan (5.6) as against the all-India volume of (2.7). Among U.T.s the highest volume of crime was recorded by Chandigarh (12.5) followed by Delhi (11.0). All other U.T.s. recorded less than 8.9 the average volume for all the U.T.s. ## Counterfeiting",
  "listing_title": "Survey of Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-1983.pdf",
  "source_file": "raw/cii/1983/table_chapter/chapter-1-1983.pdf",
  "source_sha256": "cc89c55fbd7adce0d610f6f4feb795e087d897bafd010cdd12adad8caecfbec2",
- "table_no": "",
- "pdf_title": "PERCENTAGE GROWTH OF THEFIS & POPULATION OVER-1973 5”",
- "row_label": "PERCENT 45 30., 25. 20. 10. i ai 5. Q",
+ "table_no": "5",
+ "pdf_title": "12 by Rajasthan (5.6) as against the all-India volume of (2.7). Among U.T.s the highest volume of crime was recorded by Chandigarh (12.5) followed by Delhi (11.0). All other U.T.s. recorded less than 8.9 the average volume for all the U.T.s. ## Counterfeiting",
+ "row_label": "Sl.No. / States/UTs/Cities",
  "pages": [
-  15,
-  21
+  9,
+  9,
+  9,
+  13,
+  17,
+  21,
+  23
  ],
- "n_rows": 38,
- "n_cols": 5,
- "n_cells": 138,
+ "n_rows": 186,
+ "n_cols": 10,
+ "n_cells": 1240,
  "columns": [
   {
-   "col_no": "2",
-   "name": "a UP 25.1. al’ h - No",
+   "col_no": "3",
+   "name": "Crime Heads | Murder | I",
    "header": [
-    "a UP 25.1. al’ h - No"
+    "Crime Heads",
+    "Murder",
+    "I"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Crime Heads | Murder | V",
+   "header": [
+    "Crime Heads",
+    "Murder",
+    "V"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Crime Heads | C.H. not amounting to murder | I",
+   "header": [
+    "Crime Heads",
+    "C.H. not amounting to murder",
+    "I"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Crime Heads | C.H. not amounting to murder | V",
+   "header": [
+    "Crime Heads",
+    "C.H. not amounting to murder",
+    "V"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Crime Heads | Rape | I",
+   "header": [
+    "Crime Heads",
+    "Rape",
+    "I"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Crime Heads | Rape | V",
+   "header": [
+    "Crime Heads",
+    "Rape",
+    "V"
    ]
   },
   {
    "col_no": "10001",
-   "name": "Crime Heads | - - I 613 413 Assam",
+   "name": "Crime Heads | Others | I",
    "header": [
     "Crime Heads",
-    "- - I 613 413 Assam"
+    "Others",
+    "I"
    ]
   },
   {
    "col_no": "10002",
-   "name": "Crime Heads | Criminal Breach of V 1-1 6 2-0 om",
+   "name": "Crime Heads | Others | V",
    "header": [
     "Crime Heads",
-    "Criminal Breach of V 1-1 6 2-0 om"
+    "Others",
+    "V"
    ]
   },
   {
    "col_no": "10003",
-   "name": "Crime Heads | Cheating oS I 1,012 1.8 492 2-3 «",
+   "name": "Crime Heads | Total Cognizable Crime | I",
    "header": [
     "Crime Heads",
-    "Cheating oS I 1,012 1.8 492 2-3 «"
+    "Total Cognizable Crime",
+    "I"
    ]
   },
   {
    "col_no": "10004",
-   "name": "Crime Heads | aa Counterfeiting a. Vv I Vv 84 0-1 ¢ as",
+   "name": "Crime Heads | Total Cognizable Crime | V",
    "header": [
     "Crime Heads",
-    "aa Counterfeiting a. Vv I Vv 84 0-1 ¢ as"
+    "Total Cognizable Crime",
+    "V"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 31,
+  "cells_passed": 19,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 12999, sum 39324",
+   "col 3 'TOTAL (CITIES)': printed 2768, sum 3268",
+   "col 5 'TOTAL (STATES)': printed 12336, sum 16534",
+   "col 5 'TOTAL (STATES)': printed 18811, sum 18809",
+   "col 7 'TOTAL (STATES)': printed 20985, sum 27492",
+   "col 7 'TOTAL (Cities)': printed 2249, sum 2219",
+   "col 7 'TOTAL (Cities)': printed 3861, sum 3361",
+   "col 7 'TOTAL (CITIES)': printed 283, sum 293"
+  ],
+  "other_totals_checked": 9,
+  "other_totals_passed": 3
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 7,
  "warnings": []
 }

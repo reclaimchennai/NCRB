@@ -8,72 +8,74 @@
  "serial": "75",
  "title": "Persons Killed or Injured under Police Firing During 1993 (State, UT & City-Wise)",
  "listing_title": "Persons Killed or Injured under Police Firing During 1993 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-75-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-75-1993-crime.pdf",
  "source_sha256": "fd5891851817763023ce283a6aaccfd6054613aacb8560f83431aee9ec49af2d",
- "table_no": "75",
- "pdf_title": "PERSONS KILLED OR INJURED UNDER POLICE FIRING DURING 1993",
- "row_label": "(STATE,UT & CITY-WISE) STАТЕNТ",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 54,
+ "n_rows": 58,
  "n_cols": 5,
- "n_cells": 209,
+ "n_cells": 290,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE,UT & CITY-WISE) | NO OF OCCABIONE OF POLICE HIRING",
+   "name": "NO. OF OCCASIONS OF POLICE FIRING",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "NO OF OCCABIONE OF POLICE HIRING"
+    "NO. OF OCCASIONS OF POLICE FIRING"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE,UT & CITY-WISE) | CVILIANG KRLED",
+   "name": "CIVILIAN | KILLED",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "CVILIANG KRLED"
+    "CIVILIAN",
+    "KILLED"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE,UT & CITY-WISE) | BJURED",
+   "name": "CIVILIAN | ENJURED",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "BJURED"
+    "CIVILIAN",
+    "ENJURED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE,UT & CITY-WISE) | POLICEMEN KELED",
+   "name": "POLICEMEN | KILLED",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "POLICEMEN KELED"
+    "POLICEMEN",
+    "KILLED"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE,UT & CITY-WISE) | KUUREO",
+   "name": "POLICEMEN | INJURED",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "KUUREO"
+    "POLICEMEN",
+    "INJURED"
    ]
   }
  ],
- "notes": [
-  "TOTAL JUTE",
-  "TOTAL (ALLINDI",
-  "55 VISHAKHAPATNAM"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 15,
+  "cells_passed": 9,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 2995, sum 2895",
+   "col 3 'TOTAL (ALL INDIAL)': printed 2902, sum 3002",
+   "col 5 'TOTAL (STATES)': printed 1569, sum 1599",
+   "col 5 'TOTAL (ALL INDIAL)': printed 1803, sum 1573",
+   "col 7 'TOTAL (UT$)': printed 6, sum 9",
+   "col 7 'TOTAL (ALL INDIAL)': printed 1450, sum 1447"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

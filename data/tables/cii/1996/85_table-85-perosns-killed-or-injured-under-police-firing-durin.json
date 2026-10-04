@@ -1,0 +1,82 @@
+{
+ "table_id": "cii/1996/85_table-85-perosns-killed-or-injured-under-police-firing-durin",
+ "publication": "cii",
+ "year": 1996,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "85",
+ "title": "Persons Killed or Injured Under Police Firing During 1996 (State, UT & City-Wise)",
+ "listing_title": "Persons Killed or Injured Under Police Firing During 1996 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-85--perosns-killed-or-injured-under-police-firing-during1996-1996.pdf",
+ "source_file": "raw/cii/1996/table_content/table-85--perosns-killed-or-injured-under-police-firing-during1996-1996.pdf",
+ "source_sha256": "e9e2614e95094654393afecd4f72dfb2f6be2af686bdcadf3931f1de80a265e9",
+ "table_no": "85",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-85",
+ "row_label": "SL.NO. / STATE/UT/CITY",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 5,
+ "n_cells": 284,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "NO. OF OCCASIONS OF POLICE FIRING",
+   "header": [
+    "NO. OF OCCASIONS OF POLICE FIRING"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CIVILIANS | KILLED",
+   "header": [
+    "CIVILIANS",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "CIVILIANS | INJURED",
+   "header": [
+    "CIVILIANS",
+    "INJURED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "POLICEMEN | KILLED",
+   "header": [
+    "POLICEMEN",
+    "KILLED"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "POLICEMEN | INJURED",
+   "header": [
+    "POLICEMEN",
+    "INJURED"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 ''TOTAL (ALL-INDIA)': printed 786, sum 765",
+   "col 4 ''TOTAL (ALL-INDIA)': printed 362, sum 352",
+   "col 5 ''TOTAL (ALL-INDIA)': printed 288, sum 286",
+   "col 7 ''TOTAL (ALL-INDIA)': printed 62, sum 580"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

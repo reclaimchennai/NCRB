@@ -1,0 +1,120 @@
+{
+ "table_id": "cii/1980/8_table-22-1980-0_t4",
+ "publication": "cii",
+ "year": 1980,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "8",
+ "title": "PERSONS ARRESTED",
+ "listing_title": "Persons Arrested under I.P.C. Crimes by Sex During 1980",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1980_0.pdf",
+ "source_file": "raw/cii/1980/table_content/table-22-1980_0.pdf",
+ "source_sha256": "18bee7daab203003d057cbc9f965730a07ad84e44965da935a6237308decafec",
+ "table_no": "",
+ "pdf_title": "PERSONS ARRESTED",
+ "row_label": "PERSONS",
+ "pages": [
+  3
+ ],
+ "n_rows": 34,
+ "n_cols": 10,
+ "n_cells": 271,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "REPO",
+   "header": [
+    "REPO"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "KIDNAPPING & ADBUction | Male",
+   "header": [
+    "KIDNAPPING & ADBUction",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Female (4)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Male (5)",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Female (6)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "DECOLOTY | Male",
+   "header": [
+    "DECOLOTY",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Female (8)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Female (9)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Male (10)",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "ROBBY | Female",
+   "header": [
+    "ROBBY",
+    "Female"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 6620, sum 33",
+   "col 4 'TOTAL (STATES)': printed 33, sum 15822",
+   "col 5 'TOTAL (STATES)': printed 15822, sum 496",
+   "col 5 'TOTAL (U.T.)': printed 410, sum 24",
+   "col 6 'TOTAL (STATES)': printed 496, sum 54672",
+   "col 6 'TOTAL (U.T.)': printed 24, sum 334",
+   "col 7 'TOTAL (STATES)': printed 56672, sum 214",
+   "col 8 'TOTAL (STATES)': printed 214, sum 27374"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

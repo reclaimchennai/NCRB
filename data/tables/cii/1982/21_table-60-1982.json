@@ -1,0 +1,121 @@
+{
+ "table_id": "cii/1982/21_table-60-1982",
+ "publication": "cii",
+ "year": 1982,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "21",
+ "title": "Actual Police Strength During 1982",
+ "listing_title": "Actual Police Strength During 1982",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1982.pdf",
+ "source_file": "raw/cii/1982/table_content/table-60-1982.pdf",
+ "source_sha256": "55b3e7225b968df2cc64431ab40bd7eb2a08a0388f67261288e504e62775b589",
+ "table_no": "",
+ "pdf_title": "ACTUAL POLICE STRENGTH DURING 1982",
+ "row_label": "Sl. No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 23,
+ "n_cols": 11,
+ "n_cells": 252,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "States/U.T.",
+   "header": [
+    "States/U.T."
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Area in Sq. Kms.",
+   "header": [
+    "Area in Sq. Kms."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Estimated mid-year population in 1000",
+   "header": [
+    "Estimated mid-year population in 1000"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total Cognizable crime under IPC",
+   "header": [
+    "Total Cognizable crime under IPC"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Actual strength of police | Civil",
+   "header": [
+    "Actual strength of police",
+    "Civil"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Armed",
+   "header": [
+    "Armed"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "No. of police men per 100 sq. km. area",
+   "header": [
+    "No. of police men per 100 sq. km. area"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "No. of police men per 10,000 of population",
+   "header": [
+    "No. of police men per 10,000 of population"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "No. of police men per civil police men",
+   "header": [
+    "No. of police men per civil police men"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Percentage of civil police to total police",
+   "header": [
+    "Percentage of civil police to total police"
+   ]
+  }
+ ],
+ "notes": [
+  "Source-*Census of India 1981 (Part II BJ) General Paper. Union Primary Cerisms Abstract pp. 4-22."
+ ],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 3,
+  "failures": [
+   "col 6 'TOTAL (STATES)': printed 1.31562e+06, sum 1.31522e+06",
+   "col 7 'TOTAL (STATES)': printed 697305, sum 697245"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

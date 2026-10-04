@@ -1,0 +1,125 @@
+{
+ "table_id": "cii/1981/22_table-24-1981",
+ "publication": "cii",
+ "year": 1981,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "22",
+ "title": "Persons Arrested under Local and Special Laws During 1981",
+ "listing_title": "Persons Arrested under Local and Special Laws During 1981",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1981.pdf",
+ "source_file": "raw/cii/1981/table_content/table-24-1981.pdf",
+ "source_sha256": "1a7a7e4122e7235df3e468df4b63b2038e4d10accab26a84dd0442fee2a0788a",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. No.",
+ "pages": [
+  2,
+  2,
+  3,
+  3
+ ],
+ "n_rows": 52,
+ "n_cols": 12,
+ "n_cells": 250,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Explosive & Exp. Substances Act",
+   "header": [
+    "Explosive & Exp. Substances Act"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Suppression of Immoral Traffic Act",
+   "header": [
+    "Suppression of Immoral Traffic Act"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Motor Vehicles Act",
+   "header": [
+    "Motor Vehicles Act"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Prevention of Corruption Act",
+   "header": [
+    "Prevention of Corruption Act"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Customs Act",
+   "header": [
+    "Customs Act"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Indian Railways Act",
+   "header": [
+    "Indian Railways Act"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Other offences",
+   "header": [
+    "Other offences"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "col_10004",
+   "header": []
+  },
+  {
+   "col_no": "10005",
+   "name": "col_10005",
+   "header": []
+  },
+  {
+   "col_no": "10006",
+   "name": "col_10006",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 14,
+  "cells_passed": 9,
+  "failures": [
+   "col 5 'TOTAL (States)': printed 678582, sum 693982",
+   "col 10001 'TOTAL (States)': printed 44876, sum 1.27822e+06",
+   "col 10001 'TOTAL (U.T.)': printed 197, sum 649194",
+   "col 10002 'TOTAL (States)': printed 1.18313e+06, sum 3.24096e+06",
+   "col 10002 'TOTAL (U.T.)': printed 11816, sum 1.10531e+06"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 4,
+ "warnings": []
+}

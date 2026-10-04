@@ -6,60 +6,77 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1995",
  "serial": "7",
- "title": "MORE ACCIDENT PRONE",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1995 N.C.R.B.(M.H.A.) INCIDENCE OF ACCIDENTAL DEATHS BY NATURAL & UN-NATURAL CAUSES (1991 TO 1995)",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1995.pdf",
  "source_file": "raw/adsi/1995/year_wise/accidental-deaths-1995.pdf",
  "source_sha256": "78aaa090d10388d9b6c730464ce5d3824302022a02838ae6e0dd926a6f69019d",
  "table_no": "",
- "pdf_title": "MORE ACCIDENT PRONE",
- "row_label": "1993 (22.5) i 2 Maharashtra \\ 5 Gujarat H 6 Karnataka",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1995 N.C.R.B.(M.H.A.) INCIDENCE OF ACCIDENTAL DEATHS BY NATURAL & UN-NATURAL CAUSES (1991 TO 1995)",
+ "row_label": "Sl. No.",
  "pages": [
-  8
+  5,
+  5
  ],
- "n_rows": 24,
- "n_cols": 5,
- "n_cells": 110,
+ "n_rows": 6,
+ "n_cols": 7,
+ "n_cells": 41,
  "columns": [
   {
    "col_no": "2",
-   "name": "1993 | 1 Goa (66.5) (57.3) 3 Madhya Pradesh (35.4) 4 Tamil Nadu (27.9) (26.2) (23.6)",
+   "name": "Year",
    "header": [
-    "1993",
-    "1 Goa (66.5) (57.3) 3 Madhya Pradesh (35.4) 4 Tamil Nadu (27.9) (26.2) (23.6)"
+    "Year"
    ]
   },
   {
    "col_no": "3",
-   "name": "1994 | 1 Goa 2 Maharashtra 3 Madhya Pradesh 4 Tamil Nadu 5 Gujarat 6 Karnataka",
+   "name": "Natural Causes | Incidence",
    "header": [
-    "1994",
-    "1 Goa 2 Maharashtra 3 Madhya Pradesh 4 Tamil Nadu 5 Gujarat 6 Karnataka"
+    "Natural Causes",
+    "Incidence"
    ]
   },
   {
    "col_no": "4",
-   "name": "1994 | ALL-ANDIA (RATE) - (21.8) STATES (76.4) (39.7) (36.1) (30.4) (27.4) (26.3)",
+   "name": "Natural Causes | % change over previous year",
    "header": [
-    "1994",
-    "ALL-ANDIA (RATE) - (21.8) STATES (76.4) (39.7) (36.1) (30.4) (27.4) (26.3)"
+    "Natural Causes",
+    "% change over previous year"
    ]
   },
   {
    "col_no": "5",
-   "name": "1994 | 1 Goa 2 Maharashtra 3 Madhya Pradesh 4 Sikkim 5 Gujarat 6 Tamil Nadu 7 Karnataka",
+   "name": "Un-Natural Causes | Incidence",
    "header": [
-    "1994",
-    "1 Goa 2 Maharashtra 3 Madhya Pradesh 4 Sikkim 5 Gujarat 6 Tamil Nadu 7 Karnataka"
+    "Un-Natural Causes",
+    "Incidence"
    ]
   },
   {
    "col_no": "6",
-   "name": "1995 (24.3) (71.02) (63.96) (35.61) (32.55) (30.52) (29,89) (28.35)",
+   "name": "Un-Natural Causes | % change over previous year",
    "header": [
-    "1995 (24.3) (71.02) (63.96) (35.61) (32.55) (30.52) (29,89) (28.35)"
+    "Un-Natural Causes",
+    "% change over previous year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total Accidental Deaths | Incidence",
+   "header": [
+    "Total Accidental Deaths",
+    "Incidence"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total Accidental Deaths | % change over previous year",
+   "header": [
+    "Total Accidental Deaths",
+    "% change over previous year"
    ]
   }
  ],
@@ -71,7 +88,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

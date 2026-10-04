@@ -8,45 +8,108 @@
  "serial": "14",
  "title": "Actual Police Strength in Relation to Area, Population & IPC Crimes During 1991",
  "listing_title": "Actual Police Strength in Relation to Area, Population & IPC Crimes During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-68-1991-68.pdf",
  "source_file": "raw/cii/1991/table_content/table-68-1991-68.pdf",
  "source_sha256": "d5addbf7c174eda3770c7a2f5d6070c98104f072e49568e127d2c94e315fc576",
- "table_no": "",
- "pdf_title": "ei]",
- "row_label": "(ACTUAL POLICE STREWCTH C18 903. th) / (ACTUAL POLICE STREWCTH TOTAL 1boH tin O00) ¢2) / (ACTUAL POLICE STREWCTH DO MAGA, V1 POLICE S0NCTE ED ce / POPULATION 8. OF ADE TOTAL 1G POLICE TO CASA POLICE th}",
+ "table_no": "68",
+ "pdf_title": "200 TABLE-68 ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CASES",
+ "row_label": "SL. STATE/UTNO.",
  "pages": [
   1
  ],
- "n_rows": 27,
- "n_cols": 2,
- "n_cells": 44,
+ "n_rows": 35,
+ "n_cols": 10,
+ "n_cells": 350,
  "columns": [
   {
-   "col_no": "5",
-   "name": "TRC 6, oF GF PER 1000 OF - (hi",
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "AREA(CIN 50R, MID-TEAR KMS.)",
    "header": [
-    "TRC 6, oF GF PER 1000 OF - (hi"
+    "AREA(CIN 50R, MID-TEAR KMS.)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ESTATED POPULA-TION(In. 000)",
+   "header": [
+    "ESTATED POPULA-TION(In. 000)"
    ]
   },
   {
    "col_no": "6",
-   "name": "2 oF IPC CASES PER cy",
+   "name": "TOTAL CODE-NIZABLE CRINES(IPC)",
    "header": [
-    "2 oF IPC CASES PER cy"
+    "TOTAL CODE-NIZABLE CRINES(IPC)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "ACTUAL POLICE STRENGTH CIVIL",
+   "header": [
+    "ACTUAL POLICE STRENGTH CIVIL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ARRED",
+   "header": [
+    "ARRED"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PERCENT- AGE OF CIVIL POLICE TO TOTAL POLICE",
+   "header": [
+    "PERCENT- AGE OF CIVIL POLICE TO TOTAL POLICE"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "NO. OF POLICE MIN PER 100 SR. OF POP- TO TOTAL KMS.AREA VALATION",
+   "header": [
+    "NO. OF POLICE MIN PER 100 SR. OF POP- TO TOTAL KMS.AREA VALATION"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "NO. OF POLICEMEN PER 1,000 PER CIVIL POLICEMIN",
+   "header": [
+    "NO. OF POLICEMEN PER 1,000 PER CIVIL POLICEMIN"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 18,
+  "cells_passed": 9,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 3.27629e+06, sum 3.27612e+06",
+   "col 4 'TOTAL (STATES)': printed 838126, sum 835931",
+   "col 5 'TOTAL (STATES)': printed 1.63555e+06, sum 1.63564e+06",
+   "col 5 'TOTAL (UTs)': printed 42821, sum 43241",
+   "col 6 'TOTAL (STATES)': printed 851119, sum 864118",
+   "col 6 'TOTAL (ALL-INDIA)': printed 903849, sum 893849",
+   "col 7 'TOTAL (STATES)': printed 235867, sum 235617",
+   "col 8 'TOTAL (STATES)': printed 1.09697e+06, sum 1.08899e+06"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

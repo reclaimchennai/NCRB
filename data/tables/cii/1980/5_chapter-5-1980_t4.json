@@ -6,70 +6,57 @@
  "topic": "",
  "section": "",
  "serial": "5",
- "title": "JUVENILE APPREHENDED",
+ "title": "106 The distribution of juveniles apprehended by sex and age groups under IPC Crimes and also under local and special laws in different States, Union Territories and Metropolitan cities may be seen in Table 40 to 43:",
  "listing_title": "Juvenile Delinquency",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-5-1980.pdf",
  "source_file": "raw/cii/1980/table_chapter/chapter-5-1980.pdf",
  "source_sha256": "c9fe8456cb845033f558491c598d95bd5d5c390933112a7ed64ef8ea5f4d841b",
  "table_no": "",
- "pdf_title": "JUVENILE APPREHENDED",
- "row_label": "Tl] - 12-16 YEARS - 16-18 YEARS / 7-12 vears",
+ "pdf_title": "106 The distribution of juveniles apprehended by sex and age groups under IPC Crimes and also under local and special laws in different States, Union Territories and Metropolitan cities may be seen in Table 40 to 43:",
+ "row_label": "Sl. No. / Name of the States/U.Ts./Cities",
  "pages": [
-  6,
-  8,
-  9
+  8
  ],
- "n_rows": 55,
- "n_cols": 5,
- "n_cells": 93,
+ "n_rows": 43,
+ "n_cols": 3,
+ "n_cells": 128,
  "columns": [
   {
    "col_no": "3",
-   "name": "BY AGE GROUP 1975-1980",
+   "name": "Boys",
    "header": [
-    "BY AGE GROUP 1975-1980"
+    "Boys"
    ]
   },
   {
    "col_no": "4",
-   "name": "Wy",
+   "name": "Girls",
    "header": [
-    "Wy"
+    "Girls"
    ]
   },
   {
    "col_no": "5",
-   "name": "ene",
+   "name": "Total",
    "header": [
-    "ene"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Union Territnriee ang Metronoliten “by i Table 40 to 43, States,",
-   "header": [
-    "Union Territnriee ang Metronoliten “by i Table 40 to 43, States,"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "may be",
-   "header": [
-    "may be"
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "cells_checked": 9,
+  "cells_passed": 7,
+  "failures": [
+   "col 3 'Total (Cities)': printed 6196, sum 9196",
+   "col 5 'Total (States)': printed 82400, sum 82480"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 2
  },
- "inferred_pages": 2,
- "ocr_pages": 3,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

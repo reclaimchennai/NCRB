@@ -1,0 +1,67 @@
+{
+ "table_id": "adsi/1999/table-15",
+ "publication": "adsi",
+ "year": 1999,
+ "listing": "archived",
+ "topic": "Accidental Deaths & Suicides in India 1999 (archived copy of NCRB's old site)",
+ "section": "Accidental Deaths & Suicides in India 1999 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "table-15",
+ "listing_title": "table-15",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20181222141102id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1999/table-15.pdf",
+ "source_file": "raw/adsi/1999/archived/table-15.pdf",
+ "source_sha256": "8a651bdb11a72b6d3a94e69bb5d2f9b79238d66b56c2c2965965ff083338144e",
+ "table_no": "15",
+ "pdf_title": "inciaence And Rate of Suicides During 1999 (State, UT & City-wise)",
+ "row_label": "",
+ "pages": [
+  1
+ ],
+ "n_rows": 19,
+ "n_cols": 5,
+ "n_cells": 93,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  }
+ ],
+ "notes": [
+  "* Rank on the basis of Rate of Suicides (Col.6) in States, Cities and UTs."
+ ],
+ "checks": {
+  "cells_checked": 1,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 '- TOTAL (Cities)': printed 10163, sum 1041"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

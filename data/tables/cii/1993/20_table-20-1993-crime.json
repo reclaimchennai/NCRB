@@ -8,97 +8,99 @@
  "serial": "20",
  "title": "Disposal of IPC Crime Cases by Courts During 1993 (State & UT-Wise)",
  "listing_title": "Disposal of IPC Crime Cases by Courts During 1993 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-20-1993-crime.pdf",
  "source_sha256": "599ef3a646cd3840098db9f245e7fa6de35714ffd2c31aa8cbd4583c7b267082",
  "table_no": "20",
- "pdf_title": "DISPOSAL OF IPC CRIME CASES BY COURTS DURING 1993",
- "row_label": "(STATE & UT-WISE) SL / (STATE & UT-WISE) STAТВIЙТ",
+ "pdf_title": "144 TABLE-20 DISPOSAL OF IPC CRIME CASES BY COURTS DURING 1993",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
  "n_rows": 35,
  "n_cols": 8,
- "n_cells": 267,
+ "n_cells": 280,
  "columns": [
   {
    "col_no": "3",
-   "name": "(STATE & UT-WISE) | TOTAL NO. OF CASER FOR TRAI INCLUDING PENDING CASES",
+   "name": "TOTALNO. OFCASESFORTRIALINCLUDINGPENONICCASES",
    "header": [
-    "(STATE & UT-WISE)",
-    "TOTAL NO. OF CASER FOR TRAI INCLUDING PENDING CASES"
+    "TOTALNO. OFCASESFORTRIALINCLUDINGPENONICCASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) | COMP OUN DED WITH DRAWN",
+   "name": "NO. OF CASES | COMP.DIN.DEDORWITHDRAWN",
    "header": [
-    "(STATE & UT-WISE)",
-    "COMP OUN DED WITH DRAWN"
+    "NO. OF CASES",
+    "COMP.DIN.DEDORWITHDRAWN"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) | HO. OF CAEES CONVICTED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
    "header": [
-    "(STATE & UT-WISE)",
-    "HO. OF CAEES CONVICTED"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
+    "CONVICTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | ACQUITTED CR OIS CHARGEO",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUIT.TED OROIS.CHARGED",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES",
     "IN WHICH TRIALS WERE COMPLETED",
-    "ACQUITTED CR OIS CHARGEO"
+    "ACQUIT.TED OROIS.CHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "(STATE & UT-WISE) | IN WHICH TRIALS WERE COMPLETED | TOTAL (5)+ 10N",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL[15]+[16]",
    "header": [
-    "(STATE & UT-WISE)",
+    "NO. OF CASES",
     "IN WHICH TRIALS WERE COMPLETED",
-    "TOTAL (5)+ 10N"
+    "TOTAL[15]+[16]"
    ]
   },
   {
    "col_no": "8",
-   "name": "(STATE & UT-WISE) | PENDING TRIAL",
+   "name": "PENONICTRIAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "PENDING TRIAL"
+    "PENONICTRIAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "(STATE & UT-WISE) | MENDE NCY PERCEN YAGE",
+   "name": "PENONICNYPERCENTAGE",
    "header": [
-    "(STATE & UT-WISE)",
-    "MENDE NCY PERCEN YAGE"
+    "PENONICNYPERCENTAGE"
    ]
   },
   {
    "col_no": "10",
-   "name": "(STATE & UT-WISE) | PERCENTAGE OF PENDE NCY TO ALL INDIA TOTAL",
+   "name": "PERCENTAGE OFPENONICNYTO ALL-INDIA TOTAL",
    "header": [
-    "(STATE & UT-WISE)",
-    "PERCENTAGE OF PENDE NCY TO ALL INDIA TOTAL"
+    "PERCENTAGE OFPENONICNYTO ALL-INDIA TOTAL"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 11,
-  "other_totals_passed": 1
+  "cells_checked": 12,
+  "cells_passed": 6,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 138542, sum 136542",
+   "col 5 'TOTAL (STATES)': printed 335506, sum 335508",
+   "col 6 'TOTAL (STATES)': printed 396257, sum 398257",
+   "col 7 'TOTAL (STATES)': printed 733785, sum 733765",
+   "col 8 'TOTAL (STATES)': printed 3.50264e+06, sum 3.50284e+06",
+   "col 8 'TOTAL (UTS)': printed 110625, sum 110825"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

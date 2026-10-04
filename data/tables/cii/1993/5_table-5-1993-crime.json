@@ -8,55 +8,64 @@
  "serial": "5",
  "title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States and UTs During 1993",
  "listing_title": "Incidence & Rate of Total Cognizable Crimes (IPC) in States and UTs During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-5-1993-crime.pdf",
  "source_sha256": "851b801dd648273859a5c41f9bf83c2a48eb62560eb63ea75abec408aebd442e",
  "table_no": "5",
- "pdf_title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES AND UTs DURING 1993",
- "row_label": "",
+ "pdf_title": "47 TABLE - 5 INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES AND UTs DURING 1993",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 32,
+ "n_rows": 35,
  "n_cols": 5,
- "n_cells": 158,
+ "n_cells": 172,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "INCIDENCE OF TOTAL COG. CRIMES",
+   "header": [
+    "INCIDENCE OF TOTAL COG. CRIMES"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "RATE OF TOTAL COG. CRIMES",
+   "header": [
+    "RATE OF TOTAL COG. CRIMES"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "RANK OF' CRIMINALITY",
+   "header": [
+    "RANK OF' CRIMINALITY"
+   ]
   }
  ],
- "notes": [
-  "1 * Rank on the basis of Rate of total cognizable crimes {Col.6) in the States & UTs.",
-  "2 Percentage Jess than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL (ALL-INDIA)': printed 1.62894e+06, sum 1.62994e+06"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

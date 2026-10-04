@@ -150,8 +150,9 @@ def best_vlm(src: Path, cur_passed: int, cur_total: int, cur_is_vlm: bool = Fals
          others agree with is the likeliest right;
       4. the preferred model.
     Against a Tesseract reading, a model reading with totals to check is used only when it scores higher
-    on (1), so no file whose totals could be checked gets worse; when neither has a total, the best model
-    reading is used. When the current reading is already a model's, the best model reading is used.
+    on (1), so no file whose totals could be checked gets worse; when the Tesseract reading has no total to
+    check, a model reading that reproduces at least half of its own is used; when neither has a total, the
+    best model reading is used. When the current reading is already a model's, the best model reading is used.
     Returns (tables, model, note) or None.
     """
     try:
@@ -177,7 +178,10 @@ def best_vlm(src: Path, cur_passed: int, cur_total: int, cur_is_vlm: bool = Fals
     if cur_is_vlm:
         eligible = cands
     else:
-        eligible = [c for c in cands if (c["vtot"] and c["vscore"] > cur_score) or (not c["vtot"] and not cur_total)]
+        # a Tesseract reading with no total to check (headings read as col_3, col_4 ...) cannot win by scoring 0
+        # against a model reading that reproduces at least half of its printed totals (CII 1993/1995 crime tables)
+        eligible = [c for c in cands if (c["vtot"] and c["vscore"] > cur_score) or (not c["vtot"] and not cur_total)
+                    or (not cur_total and c["vtot"] and c["vp"] >= 0.5 * c["vtot"])]
     if not eligible:
         return None
     b = max(eligible, key=lambda c: (c["vtot"] > 0, c["vscore"], c["cons"], round(c["agree"], 3), -c["rank"]))

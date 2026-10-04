@@ -1,0 +1,63 @@
+{
+ "table_id": "adsi/1998/table-16",
+ "publication": "adsi",
+ "year": 1998,
+ "listing": "archived",
+ "topic": "Accidental Deaths & Suicides in India 1998 (archived copy of NCRB's old site)",
+ "section": "Accidental Deaths & Suicides in India 1998 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "table-16",
+ "listing_title": "table-16",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20181220222920id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1998/table-16.pdf",
+ "source_file": "raw/adsi/1998/archived/table-16.pdf",
+ "source_sha256": "b0717c156e249befd40a0e569adb081b3a811a73e3914fdccf220173b49b7379",
+ "table_no": "16",
+ "pdf_title": "Incidence of Suicides during 1997 and 1998 (State, UT & City-wise)",
+ "row_label": "",
+ "pages": [
+  1
+ ],
+ "n_rows": 63,
+ "n_cols": 3,
+ "n_cells": 178,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Incidence | 1997",
+   "header": [
+    "Incidence",
+    "1997"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Incidence | 1998",
+   "header": [
+    "Incidence",
+    "1998"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Percentages variation in 1998 over 1997",
+   "header": [
+    "Percentages variation in 1998 over 1997"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 3,
+  "failures": [
+   "col 3 'TOTAL (Cities)': printed 8808, sum 10174"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

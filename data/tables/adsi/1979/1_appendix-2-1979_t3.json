@@ -1,0 +1,142 @@
+{
+ "table_id": "adsi/1979/1_appendix-2-1979_t3",
+ "publication": "adsi",
+ "year": 1979,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "1",
+ "title": "41 Cities : 4—11BPR&D/83",
+ "listing_title": "State wise distribution of Accidental Deaths due to Other Causes during 1979",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-2_1979.pdf",
+ "source_file": "raw/adsi/1979/table_content/appendix-2_1979.pdf",
+ "source_sha256": "2b355299b2ff6b69f8d96615360217a4beef5b763c44548e39b10f02fe1a85b2",
+ "table_no": "",
+ "pdf_title": "41 Cities : 4—11BPR&D/83",
+ "row_label": "Serial No. / Name of States U. Ts./Cities",
+ "pages": [
+  4
+ ],
+ "n_rows": 11,
+ "n_cols": 15,
+ "n_cells": 165,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "By Drowning",
+   "header": [
+    "By Drowning"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "By Poisoning",
+   "header": [
+    "By Poisoning"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "By Animal Biting/Killing",
+   "header": [
+    "By Animal Biting/Killing"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "By Boat Capsize",
+   "header": [
+    "By Boat Capsize"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "In Mines & Quarry Disaster | M",
+   "header": [
+    "In Mines & Quarry Disaster",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "In Mines & Quarry Disaster | F",
+   "header": [
+    "In Mines & Quarry Disaster",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "By Other Causes | M",
+   "header": [
+    "By Other Causes",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "By Other Causes | F",
+   "header": [
+    "By Other Causes",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Grand Total Males & Females | M",
+   "header": [
+    "Grand Total Males & Females",
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Grand Total Males & Females | F",
+   "header": [
+    "Grand Total Males & Females",
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
+  },
+  {
+   "col_no": "14",
+   "name": "col_14",
+   "header": []
+  },
+  {
+   "col_no": "15",
+   "name": "col_15",
+   "header": []
+  },
+  {
+   "col_no": "16",
+   "name": "col_16",
+   "header": []
+  },
+  {
+   "col_no": "17",
+   "name": "col_17",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 12,
+  "cells_passed": 10,
+  "failures": [
+   "col 16 'TOTAL (U. Ts.):': printed 754, sum 824",
+   "col 17 'TOTAL (U. Ts.):': printed 2924, sum 2724"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

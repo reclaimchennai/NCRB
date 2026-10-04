@@ -6,99 +6,262 @@
  "topic": "",
  "section": "",
  "serial": "5",
- "title": "Juvenile Delinquency",
+ "title": "114 Scheduled Tribes, the respective percentage in each group being 19.4 and 12.9. There was no correlation between caste and juvenile delinquency. ##### 5.9.6. Education",
  "listing_title": "Juvenile Delinquency",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-5-1980.pdf",
  "source_file": "raw/cii/1980/table_chapter/chapter-5-1980.pdf",
  "source_sha256": "c9fe8456cb845033f558491c598d95bd5d5c390933112a7ed64ef8ea5f4d841b",
  "table_no": "45",
- "pdf_title": "",
- "row_label": "ef Best: Sl, Staies/2!:",
+ "pdf_title": "114 Scheduled Tribes, the respective percentage in each group being 19.4 and 12.9. There was no correlation between caste and juvenile delinquency. ##### 5.9.6. Education",
+ "row_label": "Sl. States/Uts./Cities No.",
  "pages": [
-  11
+  11,
+  12,
+  13,
+  13,
+  13,
+  13
  ],
- "n_rows": 40,
- "n_cols": 8,
- "n_cells": 285,
+ "n_rows": 45,
+ "n_cols": 27,
+ "n_cells": 1083,
  "columns": [
   {
    "col_no": "2",
-   "name": "ef Best: | Hindu",
+   "name": "Sl. States/Uts./Cities No.",
    "header": [
-    "ef Best:",
-    "Hindu"
+    "Sl. States/Uts./Cities No."
    ]
   },
   {
    "col_no": "3",
-   "name": "sete | Muslim",
+   "name": "By Religion | Hindu",
    "header": [
-    "sete",
-    "Muslim"
+    "By Religion",
+    "Hindu"
    ]
   },
   {
    "col_no": "4",
-   "name": "- | sete | By Religion Sikh (4)",
+   "name": "By Religion | Muslim",
    "header": [
-    "-",
-    "sete",
-    "By Religion Sikh"
+    "By Religion",
+    "Muslim"
    ]
   },
   {
    "col_no": "5",
-   "name": "- | sete | By Religion Sikh (5)",
+   "name": "By Religion | Sikh",
    "header": [
-    "-",
-    "sete",
-    "By Religion Sikh"
+    "By Religion",
+    "Sikh"
    ]
   },
   {
    "col_no": "6",
-   "name": "- | “Other",
+   "name": "By Religion | Christian",
    "header": [
-    "-",
-    "“Other"
+    "By Religion",
+    "Christian"
    ]
   },
   {
    "col_no": "7",
-   "name": "- | Total Caste",
+   "name": "By Religion | Other",
    "header": [
-    "-",
-    "Total Caste"
+    "By Religion",
+    "Other"
    ]
   },
   {
    "col_no": "8",
-   "name": "& Tribes",
+   "name": "By Community | Total (8)",
    "header": [
-    "& Tribes"
+    "By Community",
+    "Total"
    ]
   },
   {
    "col_no": "9",
-   "name": "Tags Saving 1080, Bye Other Total",
+   "name": "By Community | Schedu-led Caste",
    "header": [
-    "Tags Saving 1080, Bye Other Total"
+    "By Community",
+    "Schedu-led Caste"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "By Community | Schedu-led Tribes",
+   "header": [
+    "By Community",
+    "Schedu-led Tribes"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "By Community | Total (11)",
+   "header": [
+    "By Community",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "By Education | Illiterate",
+   "header": [
+    "By Education",
+    "Illiterate"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "By Education | Below primary",
+   "header": [
+    "By Education",
+    "Below primary"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "By Education | Above Primary but below Matric/ Hr. Sec.",
+   "header": [
+    "By Education",
+    "Above Primary but below Matric/ Hr. Sec."
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "By Education | Matric/ Hr. sec. and above",
+   "header": [
+    "By Education",
+    "Matric/ Hr. sec. and above"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "By Education | Total",
+   "header": [
+    "By Education",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "By Family Background | Living with parents",
+   "header": [
+    "By Family Background",
+    "Living with parents"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "By Family Background | Living with guardian",
+   "header": [
+    "By Family Background",
+    "Living with guardian"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "By Family Background | Homeless",
+   "header": [
+    "By Family Background",
+    "Homeless"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "By Family Background | Total",
+   "header": [
+    "By Family Background",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10010",
+   "name": "Economic set Up | Lower (income) below Rs. 150/-p.m.",
+   "header": [
+    "Economic set Up",
+    "Lower (income) below Rs. 150/-p.m."
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "Economic set Up | Lower Middle (income) Rs.150/- but below Rs.500/- p.m.",
+   "header": [
+    "Economic set Up",
+    "Lower Middle (income) Rs.150/- but below Rs.500/- p.m."
+   ]
+  },
+  {
+   "col_no": "10012",
+   "name": "Economic set Up | Upper Middle (income) Rs.550/- but below Rs.1000/- p.m.",
+   "header": [
+    "Economic set Up",
+    "Upper Middle (income) Rs.550/- but below Rs.1000/- p.m."
+   ]
+  },
+  {
+   "col_no": "10013",
+   "name": "Economic set Up | Upper (income) above Rs. Rs.1000/- p.m.",
+   "header": [
+    "Economic set Up",
+    "Upper (income) above Rs. Rs.1000/- p.m."
+   ]
+  },
+  {
+   "col_no": "10014",
+   "name": "Economic set Up | Total",
+   "header": [
+    "Economic set Up",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10015",
+   "name": "Recession | New Delinquent",
+   "header": [
+    "Recession",
+    "New Delinquent"
+   ]
+  },
+  {
+   "col_no": "10016",
+   "name": "Recession | Old Delinquent",
+   "header": [
+    "Recession",
+    "Old Delinquent"
+   ]
+  },
+  {
+   "col_no": "10017",
+   "name": "Recession | Total",
+   "header": [
+    "Recession",
+    "Total"
    ]
   }
  ],
- "notes": [
-  "- Delhi U, T., Peli sity and - - were avi 7"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 74,
+  "cells_passed": 48,
+  "failures": [
+   "col 2 'Total (Cities)': printed 17132, sum 17130",
+   "col 7 'Total (States)': printed 179191, sum 179091",
+   "col 8 'Total(U.Ts.)': printed 219, sum 119",
+   "col 10 'Total (States)': printed 121145, sum 121143",
+   "col 11 'Total (States)': printed 179191, sum 175288",
+   "col 10002 'Total(U.Ts.)': printed 1257, sum 710",
+   "col 10003 'Total (States)': printed 23831, sum 23801",
+   "col 10003 'Total(U.Ts.)': printed 558, sum 438"
+  ],
+  "other_totals_checked": 26,
+  "other_totals_passed": 23
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 6,
  "warnings": []
 }

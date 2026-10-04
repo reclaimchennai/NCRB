@@ -6,54 +6,47 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "8",
- "title": "T7",
+ "title": "TOTAL (STATES) U.T.S",
  "listing_title": "Persons Arrested under I.P.C. Crimes by Sex During 1980",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-22-1980_0.pdf",
  "source_file": "raw/cii/1980/table_content/table-22-1980_0.pdf",
  "source_sha256": "18bee7daab203003d057cbc9f965730a07ad84e44965da935a6237308decafec",
  "table_no": "",
- "pdf_title": "T7",
- "row_label": "acs Si. No. STATES / PLC. Crimes by Sex during 1980 Criminal! Breach of Trust Male",
+ "pdf_title": "TOTAL (STATES) U.T.S",
+ "row_label": "",
  "pages": [
-  4
+  2
  ],
- "n_rows": 45,
- "n_cols": 5,
- "n_cells": 185,
+ "n_rows": 9,
+ "n_cols": 6,
+ "n_cells": 54,
  "columns": [
   {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
    "col_no": "3",
-   "name": "PLC. Crimes by Sex during 1980 | Criminal! Breach of Trust | Female",
-   "header": [
-    "PLC. Crimes by Sex during 1980",
-    "Criminal! Breach of Trust",
-    "Female"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "PLC. Crimes by Sex during 1980 | -",
-   "header": [
-    "PLC. Crimes by Sex during 1980",
-    "-"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "PLC. Crimes by Sex during 1980 | ©",
-   "header": [
-    "PLC. Crimes by Sex during 1980",
-    "©"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "Female",
-   "header": [
-    "Female"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
@@ -66,10 +59,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

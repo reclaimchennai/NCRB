@@ -1,0 +1,162 @@
+{
+ "table_id": "adsi/1975/2_appendix-1-1975",
+ "publication": "adsi",
+ "year": 1975,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "2",
+ "title": "State wise distribution of Accidental Deaths due to Natural Causes during 1975",
+ "listing_title": "State wise distribution of Accidental Deaths due to Natural Causes during 1975",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-1_1975.pdf",
+ "source_file": "raw/adsi/1975/table_content/appendix-1_1975.pdf",
+ "source_sha256": "1bcccf649d249f8482b3892d6a001f051fceef01f8a82eeba0baccec5a808c5f",
+ "table_no": "",
+ "pdf_title": "APPENDIX I Statewise Distribution of Accidental Deaths Due to Natural Causes During 1975",
+ "row_label": "Sl. Names of States/ No. U.T.s/Cities",
+ "pages": [
+  1
+ ],
+ "n_rows": 23,
+ "n_cols": 16,
+ "n_cells": 346,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "By Lighting",
+   "header": [
+    "By Lighting"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "By Heat Strokes",
+   "header": [
+    "By Heat Strokes"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "By Floods",
+   "header": [
+    "By Floods"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "M (5)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "F (6)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "By Land Slides | M",
+   "header": [
+    "By Land Slides",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By Cold & Exposure | F",
+   "header": [
+    "By Cold & Exposure",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "By Cyclones | M",
+   "header": [
+    "By Cyclones",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "F (10)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "M (11)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Total Total (Male & F Female) | F",
+   "header": [
+    "Total Total (Male & F Female)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "M (13)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "F (14)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "M (15)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "F (16)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "M (17)",
+   "header": [
+    "M"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 8,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 375, sum 377",
+   "col 11 'TOTAL (STATES)': printed 109, sum 115",
+   "col 12 'TOTAL (STATES)': printed 201, sum 197",
+   "col 13 'TOTAL (STATES)': printed 92, sum 99",
+   "col 14 'TOTAL (STATES)': printed 2933, sum 2845",
+   "col 15 'TOTAL (STATES)': printed 1117, sum 1177",
+   "col 16 'TOTAL (STATES)': printed 4050, sum 3962"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

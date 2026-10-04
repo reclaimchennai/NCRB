@@ -1,0 +1,151 @@
+{
+ "table_id": "cii/1980/10_table-24-1980-0",
+ "publication": "cii",
+ "year": 1980,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "10",
+ "title": "Persons Arrested under Local and Special Laws",
+ "listing_title": "Persons Arrested under Local and Special Laws",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1980_0.pdf",
+ "source_file": "raw/cii/1980/table_content/table-24-1980_0.pdf",
+ "source_sha256": "746d1b4fe4f8481fe54376bb70c2deb776f4696d68e8f8de8985911290ab6c1a",
+ "table_no": "24",
+ "pdf_title": "80 TABLE 24 Persons arrested under Local and special Laws",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 46,
+ "n_cols": 13,
+ "n_cells": 559,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Crime Heads | Arms Act",
+   "header": [
+    "Crime Heads",
+    "Arms Act"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Crime Heads | Opium Act",
+   "header": [
+    "Crime Heads",
+    "Opium Act"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Crime Heads | Gambling Act",
+   "header": [
+    "Crime Heads",
+    "Gambling Act"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Crime Heads | Excise Act",
+   "header": [
+    "Crime Heads",
+    "Excise Act"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Crime Heads | Prohibition Act",
+   "header": [
+    "Crime Heads",
+    "Prohibition Act"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Crime Heads | Expl. & Expl. Sub. Act.",
+   "header": [
+    "Crime Heads",
+    "Expl. & Expl. Sub. Act."
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Crime Heads | Suppression of Imperial Traffic Act",
+   "header": [
+    "Crime Heads",
+    "Suppression of Imperial Traffic Act"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Crime Heads | Motor Vehicles Act.",
+   "header": [
+    "Crime Heads",
+    "Motor Vehicles Act."
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Crime Heads | Prevention of corruption Act",
+   "header": [
+    "Crime Heads",
+    "Prevention of corruption Act"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Crime Heads | Indian Railway Act",
+   "header": [
+    "Crime Heads",
+    "Indian Railway Act"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Crime Heads | Other officers",
+   "header": [
+    "Crime Heads",
+    "Other officers"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Crime Heads | Guard Total",
+   "header": [
+    "Crime Heads",
+    "Guard Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 29,
+  "cells_passed": 18,
+  "failures": [
+   "col 3 'Total (States)': printed 64597, sum 61597",
+   "col 3 'Total (U. Ts.)': printed 5101, sum 5081",
+   "col 5 'Total (U. Ts.)': printed 8721, sum 8717",
+   "col 6 'Total (States)': printed 110323, sum 110321",
+   "col 10001 'Total (Cities)': printed 189, sum 240",
+   "col 10002 'Total (Cities)': printed 3362, sum 3500",
+   "col 10003 'Total (Cities)': printed 247448, sum 249482",
+   "col 8 'Total (States)': printed 34481, sum 34381"
+  ],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

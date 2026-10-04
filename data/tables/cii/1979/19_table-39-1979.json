@@ -8,132 +8,138 @@
  "serial": "19",
  "title": "Juvenile Apprehended under Important Heads of Local & Special Laws During 1979",
  "listing_title": "Juvenile Apprehended under Important Heads of Local & Special Laws During 1979",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-39-1979.pdf",
  "source_file": "raw/cii/1979/table_content/table-39-1979.pdf",
  "source_sha256": "9546de72d869b3b36fb4edf95784e696a8430224e4b2bd81983c9afcf283763d",
  "table_no": "39",
- "pdf_title": "",
- "row_label": "JUVENILE APPKEHENDED UNDER IMPORTANT Name of the States) Sl. No. STATES",
+ "pdf_title": "89 TABLE 39 JUVENILE APPREHENDED UNDER IMPORTANT HEADS OF LOCAL & SPECIAL LAWS DURING 1979",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
- "n_rows": 42,
- "n_cols": 12,
- "n_cells": 477,
+ "n_rows": 43,
+ "n_cols": 14,
+ "n_cells": 573,
  "columns": [
   {
-   "col_no": "2",
-   "name": "JUVENILE APPKEHENDED UNDER IMPORTANT | Arms Opi- | Name of the States) | Act",
-   "header": [
-    "JUVENILE APPKEHENDED UNDER IMPORTANT",
-    "Arms Opi-",
-    "Name of the States)",
-    "Act"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "JUVENILE APPKEHENDED UNDER IMPORTANT | Arms Opi- | um Act",
+   "name": "Name of the States/U.Ts./Cities",
    "header": [
-    "JUVENILE APPKEHENDED UNDER IMPORTANT",
-    "Arms Opi-",
-    "um Act"
+    "Name of the States/U.Ts./Cities"
    ]
   },
   {
    "col_no": "4",
-   "name": "JUVENILE APPKEHENDED UNDER IMPORTANT | Gam- Act",
+   "name": "Arms Act",
    "header": [
-    "JUVENILE APPKEHENDED UNDER IMPORTANT",
-    "Gam- Act"
+    "Arms Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "JUVENILE APPKEHENDED UNDER IMPORTANT | Excise Act",
+   "name": "Opium Act",
    "header": [
-    "JUVENILE APPKEHENDED UNDER IMPORTANT",
-    "Excise Act"
+    "Opium Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "JUVENILE APPKEHENDED UNDER IMPORTANT | Prohibition Act",
+   "name": "Gambling Act",
    "header": [
-    "JUVENILE APPKEHENDED UNDER IMPORTANT",
-    "Prohibition Act"
+    "Gambling Act"
    ]
   },
   {
    "col_no": "7",
-   "name": "HEADS OF LOCAL | sive& Explosive Substances Act",
+   "name": "Ex-cise Act",
    "header": [
-    "HEADS OF LOCAL",
-    "sive& Explosive Substances Act"
+    "Ex-cise Act"
    ]
   },
   {
    "col_no": "8",
-   "name": "HEADS OF LOCAL | S.I.T. Mo- | Act",
+   "name": "Prohibition Act",
    "header": [
-    "HEADS OF LOCAL",
-    "S.I.T. Mo-",
-    "Act"
+    "Prohibition Act"
    ]
   },
   {
    "col_no": "9",
-   "name": "HEADS OF LOCAL | S.I.T. Mo- | tor cles Act",
+   "name": "Explosive & Explosive Substances Act",
    "header": [
-    "HEADS OF LOCAL",
-    "S.I.T. Mo-",
-    "tor cles Act"
+    "Explosive & Explosive Substances Act"
    ]
   },
   {
    "col_no": "10",
-   "name": "LAWS DURING 1979 | Prevention Vehi- of Corruption Act",
+   "name": "S.I.T. Act",
    "header": [
-    "LAWS DURING 1979",
-    "Prevention Vehi- of Corruption Act"
+    "S.I.T. Act"
    ]
   },
   {
    "col_no": "11",
-   "name": "LAWS DURING 1979 | Customs Act",
+   "name": "Motor Vehicles Act",
    "header": [
-    "LAWS DURING 1979",
-    "Customs Act"
+    "Motor Vehicles Act"
    ]
   },
   {
    "col_no": "12",
-   "name": "LAWS DURING 1979 | Otherofan Railfences ways Act",
+   "name": "Prevention of Corruption Act",
    "header": [
-    "LAWS DURING 1979",
-    "Otherofan Railfences ways Act"
+    "Prevention of Corruption Act"
    ]
   },
   {
    "col_no": "13",
-   "name": "LAWS DURING 1979 | Grand Total",
+   "name": "Customs Act",
    "header": [
-    "LAWS DURING 1979",
+    "Customs Act"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Indian Railways Act",
+   "header": [
+    "Indian Railways Act"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Other offences",
+   "header": [
+    "Other offences"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Grand Total",
+   "header": [
     "Grand Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 25,
+  "cells_passed": 15,
+  "failures": [
+   "col 4 'TOTAL (States)': printed 167, sum 397",
+   "col 5 'TOTAL (States)': printed 20682, sum 272",
+   "col 6 'TOTAL (States)': printed 1894, sum 20635",
+   "col 7 'TOTAL (States)': printed 27723, sum 1855",
+   "col 8 'TOTAL (States)': printed 40, sum 27703",
+   "col 9 'TOTAL (States)': printed 1590, sum 71",
+   "col 10 'TOTAL (States)': printed 1689, sum 1559",
+   "col 13 'TOTAL (States)': printed 2989, sum 33"
+  ],
+  "other_totals_checked": 11,
+  "other_totals_passed": 11
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

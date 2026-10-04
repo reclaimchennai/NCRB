@@ -8,65 +8,79 @@
  "serial": "35",
  "title": "Disposal of Persons Arrested under IPC Crimes by Police During 1993 (State & UT-Wise)",
  "listing_title": "Disposal of Persons Arrested under IPC Crimes by Police During 1993 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-35-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-35-1993-crime.pdf",
  "source_sha256": "ac0136d9f1f5030fa2b29892a7922fe5b420385a994731f03850c29d1a9accb4",
  "table_no": "35",
- "pdf_title": "DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY POLICE DURING 1993",
- "row_label": "",
+ "pdf_title": "202 TABLE-35 DISPOSAL OF PERSONS ARRESTED UNDER IPC CRIMES BY POLICE DURING 1993",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 31,
+ "n_rows": 35,
  "n_cols": 6,
- "n_cells": 186,
+ "n_cells": 210,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR",
+   "header": [
+    "TOTAL NO. OF PERSONS UNDER ARREST* INCLUDING THOSE FROM PRE-VIOUS YEAR"
+   ]
   },
   {
    "col_no": "4",
-   "name": "(STATE & UT-WISE) (4)",
+   "name": "NUMBER OF | PERSONS RELEASED BEFORE TRIAL",
    "header": [
-    "(STATE & UT-WISE)"
+    "NUMBER OF",
+    "PERSONS RELEASED BEFORE TRIAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE) (5)",
+   "name": "NUMBER OF | PERSONS CHARGE SHEETED",
    "header": [
-    "(STATE & UT-WISE)"
+    "NUMBER OF",
+    "PERSONS CHARGE SHEETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "NUMBER OF | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+   "header": [
+    "NUMBER OF",
+    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "PENDENCY PERCENTAGE",
+   "header": [
+    "PENDENCY PERCENTAGE"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "PERCENTAGE OF PENDENCY TO ALL INDIA TOTAL",
+   "header": [
+    "PERCENTAGE OF PENDENCY TO ALL INDIA TOTAL"
+   ]
   }
  ],
- "notes": [
-  "SV Ww bl ial”",
-  "NOTE: 1.* IN CUSTODY OR ON BAIL.",
-  "2. PERCENTAGE LESS THAN 0.05 S ALSO SHOWN AS 0.0,"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 12,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 'TOTAL (ALL-INDIA)': printed 3.03252e+06, sum 3.08252e+06",
+   "col 4 'TOTAL (STATES)': printed 181900, sum 191900",
+   "col 4 'TOTAL (UTs)': printed 1178, sum 1176",
+   "col 5 'TOTAL (ALL-INDIA)': printed 2.3609e+06, sum 2.3697e+06",
+   "col 6 'TOTAL (STATES)': printed 812581, sum 512561",
+   "col 6 'TOTAL (ALL-INDIA)': printed 819747, sum 819767"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

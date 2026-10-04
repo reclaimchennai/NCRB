@@ -63,14 +63,14 @@ IPC_HEADS = [
     ("counterfeiting", "Counterfeiting", r"counterfeit", r""),
     ("arson", "Arson", r"\barson", r""),
     ("hurt", "Hurt", r"\bhurt\b", r"acid|rash|negligen|driving|endanger|deter|weapon|attempt|(simple|grievous)\s+hurt\s*\(total|"
-                               r"(simple|grievous) hurt (simple|grievous) hurt|^(?!.*(hurt\s*\(total|simple\s*\+\s*grievous)).*(grievous|simple)"),
+                               r"(simple|grievous) hurt (simple|grievous) hurt|^(?!.*(hurt\s*\(total|simple\s*\+\s*grievous|hurt\s*/\s*grievous)).*(grievous|simple)"),
     ("dowry_deaths", "Dowry deaths", r"dowry death", r""),
     ("molestation", "Assault on women with intent to outrage modesty", r"modesty|molest", r""),
     ("cruelty", "Cruelty by husband or relatives", r"cruelty by husband", r""),
 ]
 # a table that counts something other than cases registered
 NOT_CASES_TABLE = re.compile(
-    r"motive|arrest|juvenil|disposal|person|victim(?!s?\s*\(\s*v\s*\))|value|property|fire.?arm|pending|convict|charge|by sex|"
+    r"motive|arrest|juvenil|disposal|person|victim(?!s?\s*\(\s*v\s*\))(?!s? of rape)|value|property|fire.?arm|pending|convict|charge|by sex|"
     # crimes against a group (SCs, STs, children, senior citizens, foreigners) are a subset of all cases under a head
     r"scheduled|atrocit|\bs\.?\s?[ct]s?\b|child|senior|elderly|foreigner|tourist|"
     # cyber crimes: IPC heads committed through communication devices, a small subset
@@ -101,6 +101,7 @@ WEIGHT = {"pdf_text": 3.0, "excel": 3.0, "pdf_vlm": 1.5, "pdf_mixed": 1.0, "pdf_
 
 
 def head_of(text: str, heads) -> str | None:
+    text = re.sub(r"(?<=[A-Za-z])-\s*(?=[a-z]|[A-Z]{2})", "", str(text))      # words broken by a hyphen: 'BURG-LARY'
     hits = [k for k, _, inc, exc, *_ in heads if re.search(inc, text, re.I) and not (exc and re.search(exc, text, re.I))]
     return hits[0] if len(hits) == 1 else None
 
@@ -131,6 +132,8 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
     c = pd.concat(out).merge(t, on="table_id")
     c["column"] = c["column"].fillna("")
     c = c[(c.value >= 0) & (c.value == c.value.round())]      # counts of cases: whole and not negative (decimals are rates)
+    # a spanning heading run into a count column: 'Rate of | No. of deaths due to Road Accidents in 2005'
+    c["column"] = c["column"].str.replace(r"^\s*rate of\s*\|\s*(?=no\.?\s*of\b)", "", case=False, regex=True)
     c = c[~c["column"].str.contains(not_col)]
     # which head: from the column, else from the title (one table per head, 1950s-60s)
     heads_col = {x: head_of(x, heads) for x in c["column"].unique()}
@@ -155,6 +158,13 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
     tneed = {h[0]: re.compile(h[5], re.I) for h in heads if len(h) > 5 and h[5]}
     if tneed:
         c["head"] = [None if (k in tneed and not tneed[k].search(str(ti))) else k for k, ti in zip(c["head"], c.title)]
+    # 1970s 'Victims of rape' tables: their number of cases reported is the only count of rape cases printed then
+    vr = c["head"].isna() & c.title.fillna("").str.contains(r"victims? of rape", case=False) \
+        & c["column"].str.contains(r"cases|reported|incidence", case=False) & ~c["column"].str.contains(r"victim|person", case=False)
+    c.loc[vr, "head"] = "rape"
+    # cattle and ordinary thefts (to 1967) are kept as parts until they are added up below
+    tp = c["head"].isna() & c["column"].str.contains(r"theft", case=False) & c["column"].str.contains(r"cattle|ordinary", case=False)
+    c.loc[tp, "head"] = "_theftpart"
     bare = c["head"].isna() & c["column"].str.match(BARE_TOTAL) & c.title.fillna("").str.contains(IPC_TABLE) \
         & ~c.title.fillna("").str.contains(r"sll|special|local|women|children|scheduled|cyber|juvenil", case=False)
     c.loc[bare, "head"] = "total"
@@ -171,6 +181,8 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
         ts = {int(y) for y in YEAR.findall(str(ti))}
         if len(ts) == 1 and ed - 6 <= min(ts) < ed:
             return ts.pop()
+        if len(ts) == 1 and min(ts) < ed - 6:
+            return None             # a sheet of an older year in a later workbook (2015: 'during 2001' ... 'during 2014')
         return ed
     c["fy"] = [fig_year(col, ed, ti) for col, ed, ti in zip(c["column"], c.year, c.title)]
     # comparative tables whose year row was not read ("MURDER (6)", "MURDER (7)" for 1968 and 1969): the same
@@ -199,6 +211,18 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
     if reyear:
         c["fy"] = [reyear.get((t, cn), y) for t, cn, y in zip(c.table_id, c.col_no, c.fy)]
     c = c[c.fy.notna()]
+    # before 1968 theft was printed as cattle thefts and ordinary thefts: their sum is the theft head
+    th = c[c["head"] == "_theftpart"]
+    c = c[c["head"] != "_theftpart"]
+    if len(th):
+        th = th.assign(_k=th["column"].str.contains("cattle", case=False).map({True: "cattle", False: "ordinary"}))
+        both = th.groupby(["table_id", "row", "fy"]).filter(lambda g: set(g._k) == {"cattle", "ordinary"} and len(g) == 2)
+        if len(both):
+            agg = both.groupby(["table_id", "row", "fy"], as_index=False).agg(
+                value=("value", "sum"), **{k: (k, "first") for k in c.columns if k not in ("table_id", "row", "fy", "value", "column", "head")})
+            agg["column"] = "Cattle + ordinary thefts"
+            agg["head"] = "theft"
+            c = pd.concat([c, agg[c.columns]], ignore_index=True)
     # places; in tables without section headings, rows after the first city-only name are cities
     first_city = {}
     for tid, g in c.groupby("table_id"):
@@ -343,9 +367,11 @@ def pick(c: pd.DataFrame) -> pd.DataFrame:
                 if o["firm"]:
                     continue
                 near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 5 and segment(p, x) == segment(p, y)]
+                if len(near) < 2:           # a sparse era: neighbours up to ten years away
+                    near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 10 and segment(p, x) == segment(p, y)]
                 wide = len(near) < 2        # alone in its territory (Madras 1953): any neighbours, a wider band
                 if wide:
-                    near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 5]
+                    near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 10]
                 m = median(near) if len(near) >= 2 else None
                 # counts in the hundreds and up rarely move more than ~30% in a year; small ones can double
                 lo, hi = (0.4, 2.5) if wide else (0.7, 1.43) if m and m >= 200 and len(near) >= 3 else (0.5, 2.0)
@@ -403,7 +429,7 @@ ADSI_HEADS = [
 ADSI_NOT_TABLE = re.compile(r"cause.?wise|by causes|causes? of|means|profession|occupation|education|age.?group|sex.?wise|month|time of|"
                             r"mode of|vehicle|place of|social status|marital|economic|district|^\W*(table\W*[\w.-]*\W*)?(percentage|share|rank)|"
                             r"farm|student|rail|crossing|weather|road classification|junction|traffic control", re.I)
-ADSI_NEED_TABLE = re.compile(r"suicid|accident", re.I)
+ADSI_NEED_TABLE = re.compile(r"suicid|accident|un.?natural|road|traffic", re.I)   # 2001-2013: 'Persons injured & killed by un-natural causes'
 # Prison Statistics: capacity and the people held, by State/UT
 PSI_HEADS = [   # (key, label, matches, unless, column must match, table title must match)
     ("capacity", "Capacity of prisons", r"capacity", r"rate|occupancy|%", None,
