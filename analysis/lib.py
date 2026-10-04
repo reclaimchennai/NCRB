@@ -23,8 +23,8 @@ OUT = ROOT / "analysis" / "output"
 
 # Chennai was printed as MADRAS until 1996; Tamil Nadu has OCR variants in the scans
 PLACES = {
-    "chennai": r"^\s*(?:chennai|madras)\b(?!.*(?:rural|suburban))",
-    "tamil_nadu": r"^\s*tamil\s*-?\s*n[a-z]{1,2}du\b",
+    "chennai": r"^[\s\d.,)]*(?:chennai|madras)\b(?!.*(?:rural|suburban))",
+    "tamil_nadu": r"^[\s\d.,)]*tamil\s*-?\s*n[a-z]{1,2}du\b",
 }
 LISTING_RANK = {"table_content": 0, "additional_table": 1, "table_chapter": 2, "year_wise": 3}
 METHOD_RANK = {"pdf_text": 0, "excel": 0, "pdf_vlm": 1, "pdf_mixed": 2, "pdf_ocr": 3}

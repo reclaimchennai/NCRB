@@ -27,7 +27,7 @@ TOPICS = {
     ),
     # Suicides by means adopted, Tamil Nadu
     "suicide_means_tn": dict(
-        pub="adsi", title=r"means", exclude=r"all.?india|percentage share of suicide committed|city wise|age wise details", place="tamil_nadu",
+        pub="adsi", title=r"means", exclude=r"all.?india|percentage share of suicide committed|city wise|age wise details|percentage distribution|prominent means|percentage share", place="tamil_nadu",
     ),
     "suicide_means_age_tn": dict(  # 2021 onwards: means x sex x age, state-wise
         pub="adsi", title=r"age wise details of suicide victims according to means", place="tamil_nadu",
@@ -41,11 +41,11 @@ TOPICS = {
     ),
     # Suicides by sex and age group: Tamil Nadu and the cities
     "suicide_sex_age_tn": dict(
-        pub="adsi", title=r"suicid.*(sex|gender).*age|suicid.*age.*(sex|gender)|(sex|gender).*age.*suicid|age.*(sex|gender).*suicid",
+        pub="adsi", title=r"suicid.*(sex|gender).*age|suicid.*age.*(sex|gender)|(sex|gender).*age.*suicid|age.*(sex|gender).*suicid|suicid.*age.?groups?|age.?groups?.*suicid",
         exclude=r"all.?india|profession|means|cause|education|marital|social|economic|farmer|cultivator|mass|family|accident", place="tamil_nadu",
     ),
     "suicide_sex_age_chennai": dict(
-        pub="adsi", title=r"suicid.*(sex|gender).*age|suicid.*age.*(sex|gender)|(sex|gender).*age.*suicid|age.*(sex|gender).*suicid",
+        pub="adsi", title=r"suicid.*(sex|gender).*age|suicid.*age.*(sex|gender)|(sex|gender).*age.*suicid|age.*(sex|gender).*suicid|suicid.*age.?groups?|age.?groups?.*suicid",
         exclude=r"all.?india|profession|means|cause|education|marital|social|economic|farmer|cultivator|mass|family|accident", place="chennai",
     ),
     # The same tables for the cities, where NCRB printed them separately (2014-2015 'City wise')
@@ -71,7 +71,7 @@ TOPICS = {
     # Incidence and rate of suicides (the State/UT & city table), every State, UT and city
     "suicide_rate": dict(
         pub="adsi", title=r"(incidence|volume).*(suicid)|suicid.*(rate|volume)",
-        exclude=r"all.?india|decade|during \d{4} to \d{4}|growth of population|clock|countries|prone|proportion|causes|means|sex|age|figure",
+        exclude=r"all.?india|decade|during \d{4} to \d{4}|growth of population|clock|countries|prone|proportion|causes|means|sex|age|figure|accidental|inopportune",
         require=r"rate|volume|per (one )?lakh", place="tamil_nadu",
     ),
 }

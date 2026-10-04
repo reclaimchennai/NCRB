@@ -14,7 +14,7 @@
  *   clocks      two 12-hour dials, day (06-18) and night (18-06), one wedge per 3 hours
  */
 
-import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=a035a01934';
+import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=77a1ee7583';
 
 /* ------------------------------------------------------------------ utils */
 
@@ -229,6 +229,90 @@ export function lineChart(el, { xs, series, pos = null, fmt = fmtN, yFmt = fmtSh
       tip.innerHTML = `<div class="t">${yr}</div><dl>${rows.slice(0, 12).map(r =>
         `<dt><span class="sw" style="background:${r.s.color}"></span>${esc(r.s.label)}</dt><dd>${fmt(r.v)}${unit}</dd>`).join('')}</dl>`;
     }
+  });
+  hit.addEventListener('pointerleave', () => cross.setAttribute('visibility', 'hidden'));
+}
+
+/* ======================================================================
+   stackChart: shares of a whole over the years (100% stacked areas)
+   ====================================================================== */
+
+/**
+ * xs: years. series: [{key, label, color, values: {year: share %}}], bottom first; each year's shares add to 100.
+ * A year with no figures breaks the bands (no area is drawn across a gap).
+ */
+export function stackChart(el, { xs, series, fmt = v => `${(Math.round(v * 10) / 10).toFixed(1)}%`, height, unit = '% of the year' }) {
+  const { w, narrow } = size(el);
+  const has = yr => series.some(s => s.values[yr] != null);
+  if (!xs.some(has)) return emptyChart(el);
+  const h = height || (narrow ? 300 : 360);
+  const labelW = Math.min(w * (narrow ? .34 : .24), Math.max(60, ...series.map(s2 => measure(el, s2.label, 'end-label'))) + 4);
+  const tickW = measure(el, '100%', 'tick');
+  const m = { top: 30, right: labelW + 10, bottom: 28, left: Math.ceil(tickW + 14) };
+  frame(el, w, h);
+  el.append(svg('text', { x: 2, y: 11, class: 'tick axis-unit', 'text-anchor': 'start' }, unit));
+  const x = scaleLinear([xs[0], xs[xs.length - 1]], [m.left, w - m.right]);
+  const y = scaleLinear([0, 100], [h - m.bottom, m.top]);
+  for (const t of [0, 25, 50, 75, 100]) {
+    el.append(svg('line', { x1: m.left, x2: w - m.right, y1: y(t), y2: y(t), class: 'grid-line' }));
+    el.append(svg('text', { x: m.left - 7, y: y(t) + 3.5, class: 'tick', 'text-anchor': 'end' }, `${t}%`));
+  }
+  const span = xs[xs.length - 1] - xs[0];
+  const step = [1, 2, 5, 10].find(st => (span / st) * 34 < w - m.left - m.right) || 10;
+  let lastX = -Infinity;
+  for (const yr of xs) {
+    if (yr % step && yr !== xs[0] && yr !== xs[xs.length - 1]) continue;
+    if (x(yr) - lastX < 30) continue;
+    lastX = x(yr);
+    el.append(svg('text', { x: x(yr), y: h - m.bottom + 16, class: 'tick', 'text-anchor': 'middle' }, String(yr)));
+  }
+  // runs of consecutive years with figures; each band is drawn run by run
+  const runs = [];
+  let cur = [];
+  for (const yr of xs) { if (has(yr)) cur.push(yr); else if (cur.length) { runs.push(cur); cur = []; } }
+  if (cur.length) runs.push(cur);
+  const base = {};
+  for (const yr of xs) base[yr] = 0;
+  const tops = series.map(s => {
+    const lo = {}, hi = {};
+    for (const yr of xs) { lo[yr] = base[yr]; hi[yr] = base[yr] + (s.values[yr] || 0); base[yr] = hi[yr]; }
+    return { lo, hi };
+  });
+  series.forEach((s, i) => {
+    for (const run of runs) {
+      const { lo, hi } = tops[i];
+      // a lone year is drawn as a narrow column so it still shows
+      const xsr = run.length > 1 ? run : [run[0] - 0.3, run[0] + 0.3];
+      const at = (o, yr) => o[Math.round(yr)] ?? o[run[0]];
+      const d = xsr.map((yr, k) => `${k ? 'L' : 'M'}${x(yr).toFixed(1)} ${y(at(hi, yr)).toFixed(1)}`).join('')
+        + xsr.slice().reverse().map(yr => `L${x(yr).toFixed(1)} ${y(at(lo, yr)).toFixed(1)}`).join('') + 'Z';
+      el.append(svg('path', { d, fill: s.color, stroke: 'var(--surface)', 'stroke-width': 1.5, 'stroke-linejoin': 'round' }));
+    }
+  });
+  el.append(svg('line', { x1: m.left, x2: w - m.right, y1: h - m.bottom, y2: h - m.bottom, class: 'axis-line' }));
+  // labels at the right, each beside its band in the last year with figures
+  const lastYr = runs.at(-1).at(-1);
+  const mids = series.map((s, i) => ({ s, y: y((tops[i].lo[lastYr] + tops[i].hi[lastYr]) / 2), v: s.values[lastYr] || 0 }));
+  const pos = decollide(mids.map(mm => mm.y), 13, m.top, h - m.bottom);
+  mids.forEach((mm, i) => {
+    const t = svg('text', { x: w - m.right + 8, y: pos[i] + 4, class: 'end-label', fill: 'var(--ink-2)' });
+    el.append(t);
+    fitText(t, mm.s.label, labelW);
+  });
+  // hover: the year's shares, largest first
+  const cross = svg('line', { y1: m.top, y2: h - m.bottom, class: 'crosshair', visibility: 'hidden' });
+  el.append(cross);
+  const hit = svg('rect', { x: m.left, y: m.top, width: w - m.left - m.right, height: h - m.top - m.bottom, class: 'hit' });
+  el.append(hit);
+  hover(hit, () => '');
+  hit.addEventListener('pointermove', ev => {
+    const r = el.getBoundingClientRect();
+    const yr0 = Math.round(x.invert(((ev.clientX - r.left) / r.width) * w));
+    const yr = xs.filter(has).reduce((a, b) => (Math.abs(b - yr0) < Math.abs(a - yr0) ? b : a));
+    cross.setAttribute('x1', x(yr)); cross.setAttribute('x2', x(yr)); cross.setAttribute('visibility', 'visible');
+    const rows = series.map(s => ({ s, v: s.values[yr] })).filter(q => q.v != null).sort((a, b) => b.v - a.v);
+    const tip = document.getElementById('tip');
+    if (tip) tip.innerHTML = `<div class="t">${yr}</div><dl>${rows.map(q => `<dt><span class="sw" style="background:${q.s.color}"></span>${esc(q.s.label)}</dt><dd>${fmt(q.v)}</dd>`).join('')}</dl>`;
   });
   hit.addEventListener('pointerleave', () => cross.setAttribute('visibility', 'hidden'));
 }
@@ -463,6 +547,8 @@ export function clocks(el, { values, ghost = null, ghostLabel = '', max, mode = 
     const cy = stacked ? 40 + R + di * (R * 2 + 92) : 44 + R;
     el.append(svg('circle', { cx, cy, r: R + 14, class: 'dial' }));
     paintSky(el, D.key, cx, cy, R + 8);
+    // the full-scale ring: a wedge reaching it is the largest three-hour figure of any year shown
+    el.append(svg('circle', { cx, cy, r: R, fill: 'none', stroke: 'var(--ink-muted)', 'stroke-dasharray': '3 4', 'stroke-width': 1, opacity: .6, 'pointer-events': 'none' }));
     for (let hr = 0; hr < 12; hr++) {
       const [x1, y1] = polar(cx, cy, R + 14, hr), [x2, y2] = polar(cx, cy, R + 7, hr);
       el.append(svg('line', { x1, y1, x2, y2, class: 'dial-tick' }));
@@ -495,6 +581,9 @@ export function clocks(el, { values, ghost = null, ghostLabel = '', max, mode = 
     el.append(svg('text', { x: cx, y: cy + 13, class: 'dial-sub', 'text-anchor': 'middle' }, fmtPct((100 * half) / total, 0)));
     el.append(svg('text', { x: cx, y: cy + R + 44, class: 'dial-sub', 'text-anchor': 'middle' }, `${D.sub} · ${fmt(half)}${unit}`));
   });
+  // each chart has its own scale: say what the dashed ring stands for, so two charts are not compared by eye
+  el.append(svg('text', { x: w / 2, y: h - 4, class: 'dial-sub', 'text-anchor': 'middle' },
+    `Dashed ring = ${mode === 'share' ? fmtPct(max, 0) : fmt(max)}${unit} in three hours, the largest of any year on this chart`));
 }
 
 export const SLOT_LABELS = SLOT_NAME;

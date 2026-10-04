@@ -454,10 +454,42 @@ def suicide_datasets() -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def breakdown_totals(years) -> pd.DataFrame:
+    """The grand total of each suicide breakdown table (by means, causes, age, profession...) is the place's number of
+    suicides that year: counted as one more printing of it. 1968's incidence table has its headings shifted one column
+    (1967's 5,369 under '1968'); its means, causes and age tables all total 5,617."""
+    t = q("SELECT table_id, year, title, method, listing, checks_total, checks_passed, source_url FROM tables "
+          "WHERE publication = 'adsi' AND n_cells > 0 AND year BETWEEN ? AND ?", list(years))
+    t = t[t.title.fillna("").str.contains(r"suicid", case=False) & t.title.fillna("").str.contains(r"means|cause|age|profession|education|marital|social", case=False)]
+    if t.empty:
+        return pd.DataFrame()
+    ids = t.table_id.tolist()
+    out = []
+    for k in range(0, len(ids), 400):
+        part = ids[k:k + 400]
+        out.append(q(f'SELECT table_id, "row", section, name, col_no, "column", value FROM cells WHERE table_id IN ({",".join("?" * len(part))}) '
+                     'AND value IS NOT NULL', part))
+    c = pd.concat(out).merge(t, on="table_id")
+    # the grand-total column only (not a sex's total, not a percentage)
+    c = c[c["column"].fillna("").str.match(r"^\W*(grand\s+)?total\W*$|^\W*over\s*all\s*age|^\W*total\s*\(?m\s*\+\s*f\)?\W*$", case=False)]
+    c = c[(c.value > 0) & (c.value == c.value.round())]
+    rows = []
+    for r in c.itertuples(index=False):
+        pl = resolve(str(r.name or ""), str(r.section or ""), r.method in SCANNED, int(r.year))
+        # a breakdown table's TOTAL row is the States and UTs added up, not NCRB's all-India figure (1968: 39,753
+        # against 40,688), so only States, UTs and cities are taken from them
+        if not pl or pl[1] == "total":
+            continue
+        rows.append({"pname": pl[0], "ptype": pl[1], "head": "suicides", "fy": int(r.year), "value": float(r.value), "w": 0.8,
+                     "own": True, "crank": 0, "method": r.method, "table_id": r.table_id, "title": r.title, "year": int(r.year),
+                     "source_url": r.source_url})
+    return pd.DataFrame(rows)
+
+
 def run_pub(pub, heads, title, cats_city, not_table, need_table, years):
     c = candidates(pub, heads, years=years, not_table=not_table, need_table=need_table, not_col=NOT_COUNT_COL)
     if pub == "adsi":
-        c = pd.concat([c, suicide_datasets()], ignore_index=True)
+        c = pd.concat([c, suicide_datasets(), breakdown_totals(years)], ignore_index=True)
     c = c[c.value > 0]          # a State's suicides, deaths or prisoners are never nil; a 0 is another column's
     d = pick(c) if len(c) else pd.DataFrame()
     if d.empty:

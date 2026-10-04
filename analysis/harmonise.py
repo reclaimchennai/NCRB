@@ -21,9 +21,9 @@ MEANS = [
     (r"fire.?arm", "Firearms"),
     (r"fire|immolat", "Fire / self-immolation"),
     (r"sleeping|overdose|drugs?\b", "Sleeping pills / drug overdose"),
-    (r"running vehicle|moving vehicle|under.*train|train|vehicle", "Under or off vehicles & trains"),
+    (r"running vehicle|moving vehicle|under.*train|train|vehicle|rail", "Under or off vehicles & trains"),
     (r"jump", "Jumping from height"),
-    (r"electrocut", "Electrocution"),
+    (r"electrocut|electric|touching", "Electrocution"),
     (r"self.?inflict", "Self-inflicted injury"),
     (r"alcohol", "Over-drinking alcohol"),
     (r"machine", "Machine"),
@@ -75,10 +75,13 @@ AGE = [
     (r"18.*30", "18-29"),
     (r"30\s*-\s*44|30.*45", "30-44"),
     (r"45\s*-\s*59|45.*60", "45-59"),
+    # 1980s-90s editions cut the ages 30-50 and 50 and above
+    (r"30\s*-\s*(49|50)", "30-49"),
+    (r"^50|50\D*above", "50+"),
     (r"60|above\s*59", "60+"),
     (r"total", "all ages"),
 ]
-AGE_ORDER = ["0-14", "0-17", "14-17", "15-29", "18-29", "30-44", "45-59", "60+", "all ages"]
+AGE_ORDER = ["0-14", "0-17", "14-17", "15-29", "18-29", "30-44", "30-49", "45-59", "50+", "60+", "all ages"]
 YOUNG = {"0-14", "0-17", "14-17", "15-29", "18-29"}  # together: 'under 30' in every edition
 
 

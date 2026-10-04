@@ -6,12 +6,12 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=a035a01934';
-import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=a035a01934';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=a035a01934';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=a035a01934';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=a035a01934';
-import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=a035a01934';
+import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=77a1ee7583';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=77a1ee7583';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=77a1ee7583';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=77a1ee7583';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=77a1ee7583';
+import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=77a1ee7583';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];
@@ -175,12 +175,24 @@ async function means() {
   const h = shares('Hanging');
   section('Suicides in Tamil Nadu by means', `<p>Hanging was ${fmtPct(h[first], 0)} of suicides in ${first} and ${fmtPct(h[last], 0)} in ${last}. NCRB's names for the means change between editions; they are mapped to one list here.</p>`);
   const xs = []; for (let y = ys[0]; y <= last; y++) xs.push(y);
+  // the seven largest means each get a band; the rest are one grey 'All other' band
+  const rest = Object.fromEntries(ys.map(y => [y, Math.max(0, 100 - top.reduce((a, c) => a + (shares(c)[y] || 0), 0))]));
+  let view = 'stack';
   const c1 = plainCard(root(), {
     id: 'tn-means-lines', kicker: 'Tamil Nadu · suicides by means', name: 'tn-means-share', meta: () => creditLine(P.meta, ys, P.sources),
-    render: () => lineChart(c1.svg, { xs, series: top.map((c, i) => ({ key: c, label: c, color: SERIES(i), values: shares(c) })), fmt: fmt1, unit: '%', yFmt: v => `${v}%` }),
+    render: () => {
+      const bands = top.map((c, i) => ({ key: c, label: c, color: SERIES(i), values: shares(c) }));
+      if (view === 'stack') stackChart(c1.svg, { xs, series: bands.concat([{ key: 'rest', label: 'All other', color: 'var(--other)', values: rest }]), unit: "% of the year's suicides" });
+      else lineChart(c1.svg, { xs, series: bands, fmt: fmt1, unit: '%', yFmt: v => `${v}%` });
+      c1.setLegend(top.map((c, i) => ({ label: c, color: SERIES(i), line: view !== 'stack' })).concat(view === 'stack' ? [{ label: 'All other', color: 'var(--other)' }] : []));
+    },
   });
-  c1.set({ title: 'Means adopted, share of all suicides in Tamil Nadu', sub: '% of each year\'s suicides, both sexes' });
-  c1.setLegend(top.map((c, i) => ({ label: c, color: SERIES(i), line: true })));
+  c1.set({ title: 'Means adopted, share of all suicides in Tamil Nadu', sub: `${ys[0]}–${last} · % of each year's suicides, both sexes` });
+  const segV = segmented({ label: 'Chart', value: view, options: [{ value: 'stack', label: 'Stacked' }, { value: 'lines', label: 'Lines' }], onChange: v => { view = v; redrawAll(); } });
+  c1.toolbar.append(segV.el);
+  const missing = []; for (let y = ys[0]; y <= last; y++) if (!ys.includes(y)) missing.push(y);
+  c1.set({ note: (missing.length ? `No means-wise figures for Tamil Nadu in ${span(missing)}: for 1992–2000 the appendix with the State-wise means table is not among the files NCRB's site and the Internet Archive give. ` : '')
+    + (ys.includes(2009) ? 'In 2009 Tamil Nadu reported every poisoning as insecticides (NCRB printed 4,483 by insecticides and 0 by other poison), so the two poison bands swap that year; together they are in line with the years around it.' : '') });
   const { c } = yearCard(root(), {
     id: 'tn-means-year', kicker: 'Tamil Nadu · suicides by means', years: ys, name: 'tn-means-year', meta: y => creditLine(P.meta, [y], P.sources),
     render: pos => {
@@ -302,20 +314,31 @@ async function rates() {
   const states = meta.places.filter(p => p.type === 'state' || p.type === 'ut');
   const rank = states.map(p => ({ p, v: p.head[ri]?.[last] })).filter(x => x.v != null).sort((a, b) => b.v - a.v);
   const k = rank.findIndex(x => x.p.name === 'Tamil Nadu') + 1;
-  section('Suicide rate', `<p>Rates are suicides per lakh people, as NCRB printed them, for ${span(ys)}. In ${last} Tamil Nadu's rate was <b>${fmt1(tn.head[ri][last])}</b> against ${fmt1(india.head[ri][last])} for India, ${k}${['th', 'st', 'nd', 'rd'][k % 10 > 3 || [11, 12, 13].includes(k % 100) ? 0 : k % 10]} of ${rank.length} States and UTs. Chennai's was ${fmt1(ch.head[ri][last])}.</p>`);
+  // years whose rate was worked out here (NCRB's count over NCRB's population) rather than printed by NCRB
+  const comp = {};
+  for (const p of all) {
+    const f = await place('suicide_rate', p.key);
+    comp[p.name] = Object.entries(f.sources || {}).filter(([, s]) => s.includes('computed')).map(([y]) => Number(y));
+  }
+  const split = (p, computed) => Object.fromEntries(Object.entries(p.head[ri] || {}).filter(([y]) => comp[p.name].includes(Number(y)) === computed));
+  const anyComp = Object.values(comp).some(l => l.length);
+  section('Suicide rate', `<p>Rates are suicides per lakh people, for ${span(ys)}: as NCRB printed them, and${anyComp ? ' (dashed)' : ''} worked out from NCRB's own count of suicides and the population it printed for the year where it printed no rate. In ${last} Tamil Nadu's rate was <b>${fmt1(tn.head[ri][last])}</b> against ${fmt1(india.head[ri][last])} for India, ${k}${['th', 'st', 'nd', 'rd'][k % 10 > 3 || [11, 12, 13].includes(k % 100) ? 0 : k % 10]} of ${rank.length} States and UTs. Chennai's was ${fmt1(ch.head[ri][last])}.</p>`);
   const xs = []; for (let y = ys[0]; y <= last; y++) xs.push(y);
   const c = plainCard(root(), {
     id: 'rates-lines', kicker: 'Suicide rate', name: 'suicide-rate-chennai-tn-india', meta: () => creditLine(meta, ys),
     render: () => lineChart(c.svg, { xs, series: [
-      { key: 'c', label: 'Chennai', color: 'var(--critical)', values: ch.head[ri] || {} },
-      { key: 't', label: 'Tamil Nadu', color: 'var(--series-2)', values: tn.head[ri] || {} },
-      { key: 'i', label: 'All India', color: 'var(--series-1)', values: india.head[ri] || {} },
-      ...(cities ? [{ key: 'b', label: 'All big cities', color: 'var(--series-3)', values: cities.head[ri] || {} }] : []),
+      { key: 'c', label: 'Chennai', color: 'var(--critical)', values: split(ch, false) },
+      { key: 't', label: 'Tamil Nadu', color: 'var(--series-2)', values: split(tn, false) },
+      { key: 'i', label: 'All India', color: 'var(--series-1)', values: split(india, false) },
+      ...(cities ? [{ key: 'b', label: 'All big cities', color: 'var(--series-3)', values: split(cities, false) }] : []),
+      // worked-out years, dashed, with no label of their own
+      ...[[ch, 'var(--critical)'], [tn, 'var(--series-2)'], [india, 'var(--series-1)']].filter(([p]) => comp[p.name].length)
+        .map(([p, col]) => ({ key: `${p.name}-c`, label: '', color: col, dash: '4 4', values: split(p, true) })),
     ], fmt: fmt1, yFmt: v => String(v) }),
   });
   c.set({ title: 'Suicide rate: Chennai, Tamil Nadu and India', sub: 'suicides per lakh people' });
   c.setLegend([{ label: 'Chennai', color: 'var(--critical)', line: true }, { label: 'Tamil Nadu', color: 'var(--series-2)', line: true }, { label: 'All India', color: 'var(--series-1)', line: true }, { label: 'All big cities', color: 'var(--series-3)', line: true }]);
-  c.set({ note: 'City rates use a fixed census population, so a change in a city\'s rate is a change in its number of suicides.' });
+  c.set({ note: `City rates use a fixed census population, so a change in a city's rate is a change in its number of suicides.${anyComp ? ` Dashed: worked out here from NCRB's count and population (${['Chennai', 'Tamil Nadu', 'All India'].filter(n => comp[n]?.length).map(n => `${n} ${span(comp[n].sort((a, b) => a - b))}`).join('; ')}). Chennai's 1989 rate of 38.1 is what NCRB printed (1,568 suicides that year against 885 in 1988 and 729 in 1990).` : ''}` });
 
   const rys = [...new Set(states.flatMap(p => Object.keys(p.head[ri] || {}).map(Number)))].filter(y => states.filter(p => p.head[ri]?.[y] != null).length >= 15).sort((a, b) => a - b);
   let gmax = 0; for (const p of states) for (const y of rys) gmax = Math.max(gmax, p.head[ri]?.[y] || 0);

@@ -476,6 +476,11 @@ def suicide_rates() -> tuple[pd.DataFrame, pd.DataFrame]:
             r = read(by_head)
             if not agrees(r) and by_pos and agrees(read(by_pos)):
                 r = read(by_pos)
+            if not agrees(r) and r.get("population"):
+                # a population printed in thousands with no word saying so (1973-74: Tamil Nadu 43035)
+                r2 = dict(r, population=r["population"] / 100)
+                if agrees(r2):
+                    r = r2
             rec = {"table_id": tid, "year": int(g.year.iloc[0]), "name": g.name.iloc[0], "section": g.section.iloc[0],
                    "suicides": r.get("suicides"), "share_pct": r.get("share_pct"), "population_lakh": r.get("population"), "rate": r.get("rate"),
                    "rate_check": "ok" if agrees(r) else "no population" if r.get("population") is None else "mismatch"}
