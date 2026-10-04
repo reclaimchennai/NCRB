@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import importlib
 import json
+import re
 import os
 import signal
 import subprocess
@@ -212,10 +213,22 @@ class Job:
         m, e = best.rsplit("@", 1)
         return m, int(e)
 
+    def retryable(self, model: str, edge: int) -> int:
+        """Pages of a run that failed only because their file could not be fetched (the runner reads them again)."""
+        d = self.out / slug(model, edge)
+        pat = re.compile(r"download failed|FileNotFoundError|URLError|HTTP Error|timed out|\.part")
+        return sum(1 for e in d.glob("*/*.err") if pat.search(e.read_text(errors="ignore"))) if d.is_dir() else 0
+
     def main(self):
+        runs = self.p.get("runs", "winner")
+        # a finished job is opened again for the runs that still have pages whose file could not be fetched
+        if isinstance(runs, list):
+            reopen = [f"{r['model']}@{r['edge']}" for r in runs if self.retryable(r["model"], int(r["edge"]))]
+            if reopen:
+                self.save(phase="full", runs_done=[k for k in self.s.get("runs_done", []) if k not in reopen], reopened=reopen,
+                          started=time.time())     # the time limit counts from this run, not the first one
         if self.s.get("phase") == "finished":
             return
-        runs = self.p.get("runs", "winner")
         if runs == "winner":
             m, e = self.bakeoff() if self.p.get("bakeoff") else (None, None)
             if not m:
