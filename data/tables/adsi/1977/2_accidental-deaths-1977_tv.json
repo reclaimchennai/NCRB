@@ -1,0 +1,75 @@
+{
+ "table_id": "adsi/1977/2_accidental-deaths-1977_tv",
+ "publication": "adsi",
+ "year": 1977,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1977",
+ "serial": "2",
+ "title": "14 TABLE V Region-wise Distribution of Accidental Deaths by Sex 1977.",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1977.pdf",
+ "source_file": "raw/adsi/1977/year_wise/accidental-deaths-1977.pdf",
+ "source_sha256": "6fcef4984854e555361d6d097e0db34b65ef243970f531bd0eb695b86de960b2",
+ "table_no": "V",
+ "pdf_title": "14 TABLE V Region-wise Distribution of Accidental Deaths by Sex 1977.",
+ "row_label": "Sl. No. / Names of States /U.Ts./Cities.",
+ "pages": [
+  13
+ ],
+ "n_rows": 34,
+ "n_cols": 5,
+ "n_cells": 170,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Males involved",
+   "header": [
+    "Males involved"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% of males to total",
+   "header": [
+    "% of males to total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Females involved",
+   "header": [
+    "Females involved"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% of Females to total",
+   "header": [
+    "% of Females to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 5,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 73660, sum 73600"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

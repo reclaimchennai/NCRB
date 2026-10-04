@@ -13,94 +13,102 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1981.pdf",
  "source_file": "raw/cii/1981/table_content/table-4-1981.pdf",
  "source_sha256": "e4e22a090d884c9820896891deed509c129517b3ef19635268f0604db83c0a35",
- "table_no": "4",
- "pdf_title": "7 TABLE 4 INCIDENCE OF TOTAL COGNIZABLE CRIME IN STATES, U.Ts. AND CITIES DURING 1971 TO 1981 ALONG WITH PERCENTAGE VARIATION OVER THE QUINQUENNIAL AVERAGE OF 1976—1980 AND OVER 1980",
- "row_label": "Sl. States/U.Ts./CitiesN°,",
+ "table_no": "",
+ "pdf_title": "INCIDENCE OF TOTAL COGNIZABLE CRIME IN STATES, U.T.s. AND CITIES DURING 1971 TO 1981 ALONG WITH PERCENTAGE VARIATION OVER THE QUINQUENNIAL AVERAGE OF 1976-1980 AND OVER 1980",
+ "row_label": "Sl. States/U.T.s./Cities N.O.",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 23,
+ "n_rows": 47,
  "n_cols": 10,
- "n_cells": 230,
+ "n_cells": 422,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
-   "col_no": "3",
    "name": "1976",
    "header": [
     "1976"
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "3",
    "name": "1977",
    "header": [
     "1977"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "1978",
    "header": [
     "1978"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "5",
    "name": "1979",
    "header": [
     "1979"
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "6",
    "name": "1980",
    "header": [
     "1980"
    ]
   },
   {
-   "col_no": "8",
-   "name": "Quinquennial Average of 1976 to 80 (Q.A.)",
+   "col_no": "7",
+   "name": "1981 | Quinquennial Average of 1976 to 80 (Q.A.)",
    "header": [
+    "1981",
     "Quinquennial Average of 1976 to 80 (Q.A.)"
    ]
   },
   {
-   "col_no": "9",
-   "name": "1981",
+   "col_no": "8",
+   "name": "%age variation in 1981 (+/increase) | Over Q.A.",
    "header": [
-    "1981"
+    "%age variation in 1981 (+/increase)",
+    "Over Q.A."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "*Volume of crime in 1981 per one lakh of population | Over 1980",
+   "header": [
+    "*Volume of crime in 1981 per one lakh of population",
+    "Over 1980"
    ]
   },
   {
    "col_no": "10",
-   "name": "%age variation in 1981 *Volume (+increase) (-decrease)",
-   "header": [
-    "%age variation in 1981 *Volume (+increase) (-decrease)"
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "of crime in 1981 per one lakh of population",
-   "header": [
-    "of crime in 1981 per one lakh of population"
-   ]
+   "name": "col_11",
+   "header": []
   }
  ],
- "notes": [],
+ "notes": [
+  "*NOTE:-Volume of crime per lakh of population is based on census figures of population as on 1-3-1981."
+ ],
  "checks": {
-  "cells_checked": 0,
+  "cells_checked": 3,
   "cells_passed": 0,
-  "failures": [],
+  "failures": [
+   "col 4 'Total (U.Ts)': printed 30675, sum 2.61177e+06",
+   "col 5 'Total (U.Ts)': printed 45440, sum 2.60694e+06",
+   "col 6 'Total (U.Ts)': printed 54697, sum 2.69314e+06"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

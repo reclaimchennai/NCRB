@@ -15,18 +15,44 @@
  "source_sha256": "a0f44dd9c44cb4d375cfb5513dd81fcd014c08038be0633948db103179543a59",
  "table_no": "",
  "pdf_title": "54 TABLE Different particulars of Juventiles arrested under total cognizable",
- "row_label": "Sl.No.",
+ "row_label": "Sl.No. / States/U.Ts. /Cities",
  "pages": [
   3,
-  3
+  3,
+  3,
+  3,
+  3,
+  3,
+  4
  ],
- "n_rows": 2,
- "n_cols": 9,
- "n_cells": 9,
+ "n_rows": 64,
+ "n_cols": 14,
+ "n_cells": 308,
  "columns": [
   {
-   "col_no": "2",
-   "name": "States/U.Ts. /Cities",
+   "col_no": "8",
+   "name": "States/U.Ts. /Cities (8)",
+   "header": [
+    "States/U.Ts. /Cities"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "States/U.Ts. /Cities (9)",
+   "header": [
+    "States/U.Ts. /Cities"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "States/U.Ts. /Cities (10)",
+   "header": [
+    "States/U.Ts. /Cities"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "States/U.Ts. /Cities (11)",
    "header": [
     "States/U.Ts. /Cities"
    ]
@@ -65,106 +91,47 @@
   },
   {
    "col_no": "7",
-   "name": ". | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | .",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "2",
+   "name": "Economic set up | Lower Middle (Income above Rs. 150 but below Rs. 500 P.M.)",
    "header": [
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    "."
+    "Economic set up",
+    "Lower Middle (Income above Rs. 150 but below Rs. 500 P.M.)"
    ]
   },
   {
-   "col_no": "8",
-   "name": "3,045 | 1,102 | 1,538 | 15,230 | 1,142 | 585 | 235 | 201 | 9,795 | 19,903 | 150 | 2,555 | 48 | 500 | 698 | 1,924 | 7,118 | .. | 1,151 | Not Available.",
+   "col_no": "3",
+   "name": "Economic set up | Middle (Income above Rs. 500 but below Rs. 1000 P.M.)",
    "header": [
-    "3,045",
-    "1,102",
-    "1,538",
-    "15,230",
-    "1,142",
-    "585",
-    "235",
-    "201",
-    "9,795",
-    "19,903",
-    "150",
-    "2,555",
-    "48",
-    "500",
-    "698",
-    "1,924",
-    "7,118",
-    "..",
-    "1,151",
-    "Not Available."
+    "Economic set up",
+    "Middle (Income above Rs. 500 but below Rs. 1000 P.M.)"
    ]
   },
   {
-   "col_no": "9",
-   "name": "348 | 447 | 583 | 4,451 | 230 | 19 | 99 | 43 | 1,204 | 4,128 | 42 | 690 | 23 | 101 | 120 | 254 | 2,428 | .. | 260 | Not Available.",
+   "col_no": "4",
+   "name": "Economic set up | Upper Middle (Income above Rs. 1000 P.M.)",
    "header": [
-    "348",
-    "447",
-    "583",
-    "4,451",
-    "230",
-    "19",
-    "99",
-    "43",
-    "1,204",
-    "4,128",
-    "42",
-    "690",
-    "23",
-    "101",
-    "120",
-    "254",
-    "2,428",
-    "..",
-    "260",
-    "Not Available."
+    "Economic set up",
+    "Upper Middle (Income above Rs. 1000 P.M.)"
    ]
   },
   {
-   "col_no": "10",
-   "name": "450 | 58 | 170 | 3,927 | 171 | 10 | 33 | 32 | 344 | 4,620 | .. | 1,277 | .. | 89 | 4 | 184 | 2444 | .. | 307 | Not Available.",
+   "col_no": "5",
+   "name": "Economic set up | Total",
    "header": [
-    "450",
-    "58",
-    "170",
-    "3,927",
-    "171",
-    "10",
-    "33",
-    "32",
-    "344",
-    "4,620",
-    "..",
-    "1,277",
-    "..",
-    "89",
-    "4",
-    "184",
-    "2444",
-    "..",
-    "307",
-    "Not Available."
+    "Economic set up",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Recidivism | New Delinquent",
+   "header": [
+    "Recidivism",
+    "New Delinquent"
    ]
   }
  ],
@@ -173,10 +140,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 7,
  "warnings": []
 }

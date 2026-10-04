@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "ABLE CRIME—PERSONS Appendix II 13",
+ "title": "MURDER Part 'A' States Part 'B' States",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,41 +14,49 @@
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "ABLE CRIME—PERSONS Appendix II 13",
- "row_label": "Persons in whose cases the trials were completed",
+ "pdf_title": "MURDER Part 'A' States Part 'B' States",
+ "row_label": "Serial No.",
  "pages": [
-  5
+  6,
+  8
  ],
- "n_rows": 33,
- "n_cols": 4,
- "n_cells": 132,
+ "n_rows": 1,
+ "n_cols": 5,
+ "n_cells": 5,
  "columns": [
   {
    "col_no": "2",
-   "name": "Persons convicted",
+   "name": "State",
    "header": [
-    "Persons convicted"
+    "State"
    ]
   },
   {
    "col_no": "3",
-   "name": "Persons acquitted or discharged",
+   "name": "Cases pending from last year",
    "header": [
-    "Persons acquitted or discharged"
+    "Cases pending from last year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons in custody or bail pending trial or investigation at the close of the year",
+   "name": "Cases reported during the year",
    "header": [
-    "Persons in custody or bail pending trial or investigation at the close of the year"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "Percentage of conviction.",
+   "name": "Cases not investigated, declared false or mistake of fact or law, or non-cognizable and pending investigation or trial",
    "header": [
-    "Percentage of conviction."
+    "Cases not investigated, declared false or mistake of fact or law, or non-cognizable and pending investigation or trial"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases not detected.",
+   "header": [
+    "Cases not detected."
    ]
   }
  ],
@@ -61,6 +69,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -1,0 +1,75 @@
+{
+ "table_id": "adsi/1984/2_accidental-deaths-1984_tv",
+ "publication": "adsi",
+ "year": 1984,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1984",
+ "serial": "2",
+ "title": "13 States recorded less than 80·0 per cent of male involvement of total accidental deaths. The Union Territories viz., Lakshadweep and Arunachal Pradesh also recorded the highest percentage of male victims (100·0%) and (91·7%) respectively.",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1984.pdf",
+ "source_file": "raw/adsi/1984/year_wise/accidental-deaths-1984.pdf",
+ "source_sha256": "86567bccf4de10a9848a0f9475d7a32e28eb821f2c03e372591db7ecd18e5cb1",
+ "table_no": "V",
+ "pdf_title": "13 States recorded less than 80·0 per cent of male involvement of total accidental deaths. The Union Territories viz., Lakshadweep and Arunachal Pradesh also recorded the highest percentage of male victims (100·0%) and (91·7%) respectively.",
+ "row_label": "Sl. No.",
+ "pages": [
+  14
+ ],
+ "n_rows": 23,
+ "n_cols": 5,
+ "n_cells": 115,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Males involved",
+   "header": [
+    "Males involved"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% of Males to total",
+   "header": [
+    "% of Males to total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Females involved",
+   "header": [
+    "Females involved"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% of Females to total",
+   "header": [
+    "% of Females to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 7 'TOTAL (STATES)': printed 129770, sum 129786"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -1,0 +1,104 @@
+{
+ "table_id": "adsi/1977/2_accidental-deaths-1977_tvi",
+ "publication": "adsi",
+ "year": 1977,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1977",
+ "serial": "2",
+ "title": "16 TABLE VI Distribution of Accidental Deaths by Age Group and by States, U.T.s. and Metropolitan Cities during 1977.",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1977.pdf",
+ "source_file": "raw/adsi/1977/year_wise/accidental-deaths-1977.pdf",
+ "source_sha256": "6fcef4984854e555361d6d097e0db34b65ef243970f531bd0eb695b86de960b2",
+ "table_no": "VI",
+ "pdf_title": "16 TABLE VI Distribution of Accidental Deaths by Age Group and by States, U.T.s. and Metropolitan Cities during 1977.",
+ "row_label": "Sl.No. / Names of States, U.T.s. cities",
+ "pages": [
+  15
+ ],
+ "n_rows": 23,
+ "n_cols": 9,
+ "n_cells": 206,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Persons below 18 years",
+   "header": [
+    "Persons below 18 years"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% to total (4)",
+   "header": [
+    "% to total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Persons between 18 to 30 years",
+   "header": [
+    "Persons between 18 to 30 years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% to total (6)",
+   "header": [
+    "% to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Persons between 30 to 50 years",
+   "header": [
+    "Persons between 30 to 50 years"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "% to total (8)",
+   "header": [
+    "% to total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Persons above 50 years",
+   "header": [
+    "Persons above 50 years"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "% to total (10)",
+   "header": [
+    "% to total"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Overall age group",
+   "header": [
+    "Overall age group"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 3,
+  "failures": [
+   "col 7 'TOTAL (States)': printed 32750, sum 32760",
+   "col 11 'TOTAL (States)': printed 119927, sum 113787"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

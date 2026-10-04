@@ -7,18 +7,19 @@
  * subtotals are flagged, shown last and kept off the colour scales.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=c96e3ffe6c';
-import { lineChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=c96e3ffe6c';
-import { segmented, select, toggle, Timeline, at, card, bindCapture } from '../kit/cards.js?v=c96e3ffe6c';
-import { footerHtml, creditLine } from '../kit/footer.js?v=c96e3ffe6c';
-import { explain, explainAll } from '../kit/legal.js?v=c96e3ffe6c';
-import { notesFor } from '../kit/notes.js?v=c96e3ffe6c';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=c96e3ffe6c';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=a035a01934';
+import { lineChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=a035a01934';
+import { segmented, select, toggle, Timeline, at, card, bindCapture } from '../kit/cards.js?v=a035a01934';
+import { footerHtml, creditLine } from '../kit/footer.js?v=a035a01934';
+import { explain, explainAll } from '../kit/legal.js?v=a035a01934';
+import { notesFor } from '../kit/notes.js?v=a035a01934';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=a035a01934';
 
 const DATA = '../data/explore';
 const TYPE_LABEL = { total: 'India', state: 'States', ut: 'Union Territories', city: 'Cities', row: 'Rows' };
 const GEO_LABEL = { state: 'States & UTs', city: 'Cities', india: 'All India', '': 'All India' };
-const S = { index: null, fam: null, pub: 'cii', topic: null, id: null, cat: 0, brk: 0, row: 0, rankType: 'state', compare: true };
+const S = { index: null, fam: null, pub: 'cii', topic: null, id: null, cat: 0, brk: 0, row: 0, rankType: 'state', compare: true, perLakh: false };
+let POP = {};   // 'Tamil Nadu|state' -> {year: population in lakhs}, as NCRB printed it (analysis/population.py)
 const tl = new Timeline({ speed: 1.2 });
 const ui = {}, C = {};
 
@@ -31,8 +32,18 @@ function series(r, c = S.cat, b = S.brk) {
   const a = S.fam.d[`${r}.${c}.${b}`];
   if (!a) return {};
   const o = {};
-  for (let i = 0; i < a.length; i += 2) o[a[i]] = a[i + 1];
+  // per lakh people: the count divided by NCRB's population for that place and year (years without one are left out)
+  const pop = S.perLakh && canPerLakh(c) ? POP[`${S.fam.rows[r]?.name}|${S.fam.rows[r]?.type}`] : null;
+  for (let i = 0; i < a.length; i += 2) {
+    if (!pop) o[a[i]] = a[i + 1];
+    else if (pop[a[i]]) o[a[i]] = Math.round((a[i + 1] / pop[a[i]]) * 100) / 100;
+  }
+  if (S.perLakh && canPerLakh(c) && !pop) return {};
   return o;
+}
+/** A count of a place (not a rate, share or population) can be shown per lakh people. */
+function canPerLakh(c = S.cat) {
+  return places() && !isRateCat(c) && !/population|lakh|crore|rupees|₹|\brs\b|expenditure|budget|capacity|strength|rank/i.test(`${catName(c)} ${S.fam.title}`);
 }
 const places = () => S.fam.mode === 'places';
 const rowName = r => S.fam.rows[r]?.name ?? '';
@@ -47,6 +58,11 @@ function measure(c = S.cat, b = S.brk) {
 /** The y axis unit, in words, from the category and the table title. */
 function unitOf(c = S.cat) {
   const n = catName(c), t = S.fam.title;
+  if (S.perLakh && canPerLakh(c)) return `${unitOfCount(c)} per lakh people`;
+  return unitOfCount(c);
+}
+function unitOfCount(c = S.cat) {
+  const n = catName(c), t = S.fam.title;
   if (/per lakh|crime rate|^rate\b|\brate\b/i.test(n)) return /population|per lakh|crime rate/i.test(n + t) ? 'per lakh population' : 'rate';
   if (/%|percent|share/i.test(n)) return '% (as printed by NCRB)';
   if (/\blakhs?\b/i.test(n)) return 'lakh';
@@ -55,7 +71,8 @@ function unitOf(c = S.cat) {
     /arrest|apprehend|offender|accused|persons|victims|juvenile|recidiv/i.test(n + t) ? 'persons' : /crashes|accidents/i.test(n + t) ? 'crashes' : /cases|crime|incidence/i.test(n + t) ? 'cases' : 'number';
   return what;
 }
-const isRate = () => /rate|percent|%|share|ratio|average|per lakh/i.test(catName(S.cat));
+const isRateCat = (c = S.cat) => /rate|percent|%|share|ratio|average|per lakh/i.test(catName(c)) || brkName(S.brk) === 'Rate';
+const isRate = () => isRateCat() || (S.perLakh && canPerLakh());
 const fmtV = v => (v == null ? '–' : isRate() || !Number.isInteger(v) ? fmt1(v) : fmtN(v));
 const rowsOfType = types => S.fam.rows.map((r, i) => ({ ...r, i })).filter(r => types.includes(r.type));
 const brksFor = c => S.fam.brks.map((b, i) => ({ b, i })).filter(({ i }) => S.fam.rows.some((_, r) => S.fam.d[`${r}.${c}.${i}`]));
@@ -100,10 +117,12 @@ function buildControls() {
   ui.cat = select({ label: 'Category', small: 'SHOW', options: [], onChange: v => { S.cat = Number(v); syncBrk(); afterChange(); } });
   ui.brk = segmented({ label: 'Breakdown', options: [], onChange: v => { S.brk = Number(v); afterChange(); } });
   ui.row = select({ label: 'Place or row', lead: 'map-pin', small: 'FOR', options: [], onChange: v => { S.row = Number(v); refresh(); } });
+  ui.per = segmented({ label: 'Count or rate', options: [{ value: 'n', label: 'Number' }, { value: 'l', label: 'Per lakh people' }],
+                       onChange: v => { S.perLakh = v === 'l'; afterChange(); } });
   const tlWrap = el('div', { class: 'tlbar', style: 'flex:1 1 100%' });
   tl.root.style.padding = '0';
   tlWrap.append(tl.root);
-  bar.append(ui.pub.el, ui.topic.el, ui.table.el, ui.cat.el, ui.brk.el, ui.row.el, tlWrap);
+  bar.append(ui.pub.el, ui.topic.el, ui.table.el, ui.cat.el, ui.brk.el, ui.per.el, ui.row.el, tlWrap);
   ui.table.el.style.maxWidth = 'min(640px, 100%)';
   ui.cat.el.style.maxWidth = 'min(520px, 100%)';
 }
@@ -164,7 +183,7 @@ function syncBrk(want) {
   const avail = brksFor(S.cat);
   if (want != null && avail.some(a => a.i === want)) S.brk = want;
   else if (!avail.some(a => a.i === S.brk)) S.brk = (avail.find(a => a.b === 'Total') || avail[0] || { i: 0 }).i;
-  ui.brk.options(avail.map(({ b, i }) => ({ value: i, label: b === 'Total' ? 'All' : b || 'Value' })), S.brk);
+  ui.brk.options(avail.map(({ b, i }) => ({ value: i, label: b === 'Total' ? (avail.some(x => x.b === 'Victims' || x.b === 'Rate') ? 'Cases' : 'All') : b === 'Rate' ? 'Rate per lakh' : b || 'Value' })), S.brk);
   ui.brk.el.hidden = avail.length < 2;
 }
 function afterChange() { tl.setYears(shownYears(), true); refresh(); }
@@ -199,6 +218,8 @@ function buildCards() {
 
 function refresh() {
   if (!S.fam) return;
+  ui.per.el.hidden = !canPerLakh();
+  ui.per.set(S.perLakh ? 'l' : 'n');
   writeHash();
   drawTiles();
   drawLaw();
@@ -214,7 +235,7 @@ function drawTiles() {
   const last = ys.at(-1), prev = ys.at(-2);
   const v = s[last], p = s[prev];
   const t = [
-    { k: measure(), i: 'hash', v: fmtV(v), d: `${rowName(S.row)}, ${last ?? 'no figure'}` },
+    { k: measure() + (S.perLakh && canPerLakh() ? ' per lakh people' : ''), i: 'hash', v: fmtV(v), d: `${rowName(S.row)}, ${last ?? 'no figure'}` },
     { k: 'Change', i: 'trend-up', v: v != null && p ? `${v >= p ? '+' : ''}${(((v - p) / p) * 100).toFixed(1)}%` : '–', d: prev ? `against ${prev}` : '' },
     { k: 'Years with figures', i: 'calendar', v: String(ys.length), d: ys.length ? `${ys[0]}–${last}` : '' },
     { k: 'Table', i: 'table', v: `${S.fam.cats.length}`, d: `categories · ${S.fam.rows.length} ${places() ? 'places' : 'rows'} · ${geoLabel()}` },
@@ -254,18 +275,25 @@ function drawTrend() {
   else {
     const xs = []; for (let y = ys[0]; y <= ys.at(-1); y++) xs.push(y);
     // annotations on the place shown: known causes of unusual years, and jumps that need checking
-    trendNotes = notesFor(series(S.row), { place: rowName(S.row), what: `${catName(S.cat)} ${S.fam.title} ${S.fam.topic}`, fmt: fmtV });
+    const scannedYear = y => (S.fam.sources?.[y] || []).some(x => !['pdf_text', 'excel'].includes(x.method));
+    trendNotes = notesFor(series(S.row), { place: rowName(S.row), what: `${catName(S.cat)} ${S.fam.topic}`, fmt: fmtV, scanned: scannedYear });
     trendArgs = { xs, series: list, fmt: fmtV, yFmt: v => (isRate() ? fmt1(v) : fmtShort(v)), unit: unitOf(),
                   marks: trendNotes.map(n => ({ key: 'sel', x: n.year, n: n.n, kind: n.kind })) };
     markTrend(tl.pos);
   }
   c.setLegend(list.map(s => ({ label: s.label, color: s.color, line: true })));
-  c.set({ title: `${measure()}: ${rowName(S.row)}`, sub: `${S.fam.title} · ${geoLabel()}${S.compare && list.length > 1 ? ' · with the largest in their latest year' : ''}` });
+  const perNote = S.perLakh && canPerLakh() ? ' · per lakh people, on the population NCRB printed for each year' : '';
+  c.set({ title: `${measure()}${S.perLakh && canPerLakh() ? ' per lakh people' : ''}: ${rowName(S.row)}`, sub: `${S.fam.title} · ${geoLabel()}${perNote}${S.compare && list.length > 1 ? ' · with the largest in their latest year' : ''}` });
   const own = Object.keys(series(S.row)).map(Number);
   const gaps = trendArgs ? trendArgs.xs.filter(y => !own.includes(y)) : [];
   const noteRows = trendArgs ? trendNotes.map(n => `<li class="${n.kind}"><span class="nmark">${n.n}</span><b>${n.year}</b> ${esc(n.text)}</li>`).join('') : '';
   const gapText = gaps.length ? `<p>No figure for ${esc(rowName(S.row))} in ${gaps.length} of ${trendArgs.xs.length} years (${span(gaps)}): not printed in that edition, the category was not in the table then, or a scanned page did not add up to its totals.</p>` : '';
-  c.set({ note: (noteRows ? `<ul class="chart-notes">${noteRows}</ul>` : '') + gapText });
+  // what NCRB's road-crash breakdowns mean (2014-2020 tables count by the vehicle at fault and the one hit)
+  const bn = brkName(S.brk);
+  const brkHelp = /^(Offenders|Victims|Offenders \+ victims)$/.test(bn)
+    ? '<p><b>Offenders</b> are deaths in crashes where this vehicle was the one held responsible; <b>Victims</b> are deaths in crashes where this vehicle (or a pedestrian) was the one hit; <b>Offenders + victims</b> is NCRB\'s total of the two. NCRB printed these in 2014–2020; from 2021 it counts the people injured and killed travelling in each vehicle instead, so the two are not one series.</p>'
+    : /^(Died|Injured)$/.test(bn) && S.fam.brks.includes('Offenders') ? '<p>From 2021 NCRB counts the people injured and killed travelling in each vehicle; 2014–2020 counted by the vehicle at fault and the one hit (see the Offenders and Victims breakdowns), so the years before 2021 are not on this line.</p>' : '';
+  c.set({ note: (noteRows ? `<ul class="chart-notes">${noteRows}</ul>` : '') + gapText + brkHelp });
 }
 function markTrend(pos) {
   if (!trendArgs) return;
@@ -395,18 +423,20 @@ function bindSearch() {
 
 function writeHash() {
   if (!S.fam) return;
-  history.replaceState(null, '', `#${new URLSearchParams({ r: S.pub, t: S.id, c: String(S.cat), b: String(S.brk), p: String(S.row), y: String(tl.year ?? '') })}`);
+  history.replaceState(null, '', `#${new URLSearchParams({ r: S.pub, t: S.id, c: String(S.cat), b: String(S.brk), p: String(S.row), y: String(tl.year ?? ''), ...(S.perLakh ? { k: 'l' } : {}) })}`);
 }
 
 async function boot() {
   initTheme(refresh);
   $('#foot').innerHTML = footerHtml({ extra: '<li>Explore joins a table across editions by its title and its columns by their headings, including across NCRB\'s redesigns (most Crime in India tables were renamed in 2014, many Prison Statistics tables in 2016). Where NCRB split or merged categories, figures before and after are not comparable, and a category may start or stop part-way. District-wise tables are on the Tables page.</li>' });
   S.index = await getJSON(`${DATA}/index.json`);
+  try { POP = (await getJSON(`${DATA}/population.json`)).places || {}; } catch { POP = {}; }
   buildControls();
   buildCards();
   bindSearch();
   const h = new URLSearchParams(location.hash.slice(1));
   if (h.get('r') && S.index.reports[h.get('r')]) S.pub = h.get('r');
+  S.perLakh = h.get('k') === 'l';
   ui.pub.set(S.pub);
   const f = h.get('t') && S.index.families.find(x => x.id === h.get('t') && x.pub === S.pub);
   if (f) S.want = { c: h.get('c') != null ? Number(h.get('c')) : null, b: h.get('b') != null ? Number(h.get('b')) : null, p: h.get('p') != null ? Number(h.get('p')) : null, y: Number(h.get('y')) || null };

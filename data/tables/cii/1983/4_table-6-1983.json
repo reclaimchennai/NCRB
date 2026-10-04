@@ -25,9 +25,9 @@
   6,
   7
  ],
- "n_rows": 283,
+ "n_rows": 282,
  "n_cols": 9,
- "n_cells": 1821,
+ "n_cells": 1766,
  "columns": [
   {
    "col_no": "3",
@@ -102,16 +102,16 @@
  "notes": [],
  "checks": {
   "cells_checked": 60,
-  "cells_passed": 52,
+  "cells_passed": 51,
   "failures": [
    "col 4 'TOTAL (STATES)': printed 136429, sum 136369",
    "col 4 'TOTAL (U.Ts.)': printed 2674, sum 2664",
    "col 4 'TOTAL (Cities)': printed 11535, sum 11335",
    "col 4 'TOTAL (U.Ts.)': printed 956, sum 961",
-   "col 10001 'TOTAL (STATES)': printed 1.31562e+06, sum 1.31562e+06",
-   "col 10001 'TOTAL (U.Ts.)': printed 38282, sum 35064",
+   "col 10001 'TOTAL (STATES)': printed 1.31562e+06, sum 1.31564e+06",
+   "col 10001 'TOTAL (U.Ts.)': printed 38282, sum 35049",
    "col 10001 'TOTAL (Cities)': printed 164690, sum 164820",
-   "col 10002 'TOTAL (U.Ts.)': printed 37951, sum 35015"
+   "col 10002 'TOTAL (STATES)': printed 1.31192e+06, sum 1.31193e+06"
   ],
   "other_totals_checked": 20,
   "other_totals_passed": 5

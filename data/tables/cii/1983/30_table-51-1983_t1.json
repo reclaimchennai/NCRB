@@ -1,0 +1,133 @@
+{
+ "table_id": "cii/1983/30_table-51-1983_t1",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "30",
+ "title": "12 Manipur 13 Meghalaya",
+ "listing_title": "Statement Showing Number of Cases Reported and Value of Property Stolen under Robbery by Place of Occurrence During 1983",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-51-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-51-1983.pdf",
+ "source_sha256": "9b46371294d88602e46e71e27df73d94eaaf79992809acd690d50efbdf6ada84",
+ "table_no": "",
+ "pdf_title": "12 Manipur 13 Meghalaya",
+ "row_label": "St. No.",
+ "pages": [
+  1,
+  1,
+  2,
+  2,
+  2
+ ],
+ "n_rows": 46,
+ "n_cols": 12,
+ "n_cells": 254,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Residential premises | No. of cases reported",
+   "header": [
+    "Residential premises",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Value of property stolen",
+   "header": [
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "No. of cases reported",
+   "header": [
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Highways | Value of property stolen",
+   "header": [
+    "Highways",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Highways | No. of cases reported",
+   "header": [
+    "Highways",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "River & Sea | Value of property stolen",
+   "header": [
+    "River & Sea",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "GRAND TOTAL",
+   "header": [
+    "GRAND TOTAL"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "7,618",
+   "header": [
+    "7,618"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "216-57",
+   "header": [
+    "216-57"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "2,881",
+   "header": [
+    "2,881"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "100-12",
+   "header": [
+    "100-12"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 7,
+  "cells_passed": 5,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 2851, sum 2842",
+   "col 10004 'TOTAL (CITIES)': printed 444, sum 434"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 5,
+ "warnings": []
+}

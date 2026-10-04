@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1996",
  "serial": "6",
- "title": "P - Provisional Table-2.11 Total and Surface Road Length in India During 1991 to 1995",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1996 N.C.R.B.(M.H.A.) Table-2.10",
  "listing_title": "Accidental Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,34 +14,32 @@
  "source_file": "raw/adsi/1996/year_wise/accidental-deaths-1996.pdf",
  "source_sha256": "011a8f35424b29dedf53abe0ddf7d3e43487281e464a3f3a874d66c225ab63b8",
  "table_no": "2.10",
- "pdf_title": "P - Provisional Table-2.11 Total and Surface Road Length in India During 1991 to 1995",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1996 N.C.R.B.(M.H.A.) Table-2.10",
  "row_label": "Year",
  "pages": [
   12,
-  12,
-  13,
-  14
+  12
  ],
- "n_rows": 81,
+ "n_rows": 11,
  "n_cols": 9,
- "n_cells": 313,
+ "n_cells": 67,
  "columns": [
   {
-   "col_no": "5",
+   "col_no": "2",
    "name": "Road Accidents (in '000')",
    "header": [
     "Road Accidents (in '000')"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "3",
    "name": "%Variation Over Previous Year",
    "header": [
     "%Variation Over Previous Year"
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "4",
    "name": "Casualties in Road Accidents (In '000') | Persons killed",
    "header": [
     "Casualties in Road Accidents (In '000')",
@@ -49,54 +47,52 @@
    ]
   },
   {
-   "col_no": "8",
-   "name": "Persons injured",
+   "col_no": "5",
+   "name": "Casualties in Road Accidents (In '000') | %Variation over previous year",
    "header": [
+    "Casualties in Road Accidents (In '000')",
+    "%Variation over previous year"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Casualties in Road Accidents (In '000') | Persons injured",
+   "header": [
+    "Casualties in Road Accidents (In '000')",
     "Persons injured"
    ]
   },
   {
-   "col_no": "9",
-   "name": "Vehicle Population on (in Lakhs)",
+   "col_no": "7",
+   "name": "Casualties in Road Accidents (In '000') | %Variation over Previous Year",
    "header": [
-    "Vehicle Population on (in Lakhs)"
+    "Casualties in Road Accidents (In '000')",
+    "%Variation over Previous Year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Vehicle Population (in Lakhs)",
+   "header": [
+    "Vehicle Population (in Lakhs)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "% Variation",
+   "header": [
+    "% Variation"
    ]
   },
   {
    "col_no": "10",
-   "name": "Rate of Deaths per '000' vehicles (Col.4/ col.8) *10)",
+   "name": "Rate of Deaths per '000' vehicles (Col.4/col.8) *10)",
    "header": [
-    "Rate of Deaths per '000' vehicles (Col.4/ col.8) *10)"
-   ]
-  },
-  {
-   "col_no": "2",
-   "name": "Year (as on 31st March)",
-   "header": [
-    "Year (as on 31st March)"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "Total Road Length ('000' Kms)",
-   "header": [
-    "Total Road Length ('000' Kms)"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "Surface Road Length ('000' Kms)",
-   "header": [
-    "Surface Road Length ('000' Kms)"
+    "Rate of Deaths per '000' vehicles (Col.4/col.8) *10)"
    ]
   }
  ],
- "notes": [
-  "Source: 'Motor Transport Statistics of India' report of Transport Research Wing, Ministry of Surface Transport, Govt. of India, New Delhi.",
-  "SOURCE : Motor Transport Statistics of India report, Transport Research Wing of Ministry of Surface Transport, Govt. of India, New Delhi",
-  "2.3.5.3 The Table-2.13 presents the rate of Road Accidental Deaths per thousand registered motor vehicles in each state & UT during the year 1996. It is observed that although Maharashtra & Gujarat States had the highest and the second highest number of registered vehicles in the country, the rate of Accidental Death was highest in Arunachal Pradesh at 6.81 compared to 2.08 at national level. Mizoram stood 3rd with a rate of 4.5 after Himachal Pradesh with 5.96 accidental deaths per thousand vehicles.",
-  "2.3.5.4 In all 57,466 males and 12,334 females were fatally injured while travelling by various modes of transport on roads. Of these 18,388 persons (26.3%) were occupants of 'Truck or Lorry', 11592 (16.6%) were killed while travelling in buses while 7749 (11.1%) were pedestrians and 7,329 (10.5%) were riding on 'Two-wheelers'."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -105,6 +101,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 4,
+ "ocr_pages": 2,
  "warnings": []
 }

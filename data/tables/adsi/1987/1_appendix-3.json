@@ -14,8 +14,8 @@
  "source_file": "raw/adsi/1987/table_content/appendix-3.pdf",
  "source_sha256": "fbbbd7ce0c425c514d026e971859d7267ed4ce3e941a34508144f51515045c6b",
  "table_no": "",
- "pdf_title": "APPENDIX-III Distribution of Suicides By Causes Durie: 41",
- "row_label": "State / States/UTs/Cities",
+ "pdf_title": "Example on",
+ "row_label": "Sl. No.",
  "pages": [
   1,
   2,
@@ -24,97 +24,67 @@
  ],
  "n_rows": 48,
  "n_cols": 18,
- "n_cells": 861,
+ "n_cells": 759,
  "columns": [
   {
    "col_no": "3",
-   "name": "Fallure | Examine | M",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "I (5)",
    "header": [
-    "Fallure",
-    "Examine",
+    "I"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "M (6)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "F (7)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "I (10)",
+   "header": [
+    "I"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "M (11)",
+   "header": [
     "M"
    ]
   },
   {
    "col_no": "4",
-   "name": "Fallure | On | I",
-   "header": [
-    "Fallure",
-    "On",
-    "I"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "Quarantine | Parcours | M",
-   "header": [
-    "Quarantine",
-    "Parcours",
-    "M"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Quarantine | Law | F",
-   "header": [
-    "Quarantine",
-    "Law",
-    "F"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Societal | Examine | II",
-   "header": [
-    "Societal",
-    "Examine",
-    "II"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "Societal | On | F",
-   "header": [
-    "Societal",
-    "On",
-    "F"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "Purity | Parcours | II",
-   "header": [
-    "Purity",
-    "Parcours",
-    "II"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Purity | Law | F",
-   "header": [
-    "Purity",
-    "Law",
-    "F"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Love Affairs | Examine | M",
-   "header": [
-    "Love Affairs",
-    "Examine",
-    "M"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "12",
-   "name": "Love Affairs | On | F",
-   "header": [
-    "Love Affairs",
-    "On",
-    "F"
-   ]
+   "name": "col_12",
+   "header": []
   },
   {
    "col_no": "13",
@@ -162,14 +132,14 @@
   },
   {
    "col_no": "19",
-   "name": "M",
+   "name": "M (19)",
    "header": [
     "M"
    ]
   },
   {
    "col_no": "20",
-   "name": "F",
+   "name": "F (20)",
    "header": [
     "F"
    ]
@@ -177,15 +147,12 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 68,
-  "cells_passed": 62,
+  "cells_checked": 60,
+  "cells_passed": 57,
   "failures": [
-   "col 4 'Total (States)': printed 430, sum 423",
-   "col 7 'Total (States)': printed 1457, sum 1349",
-   "col 8 'Total (States)': printed 1850, sum 1842",
-   "col 8 'Total (All India)': printed 1923, sum 1914",
-   "col 9 'Total (States)': printed 825, sum 580",
-   "col 9 'Total (All India)': printed 903, sum 843"
+   "col 7 'Total (States)': printed 1457, sum 1447",
+   "col 10 'Total (All India)': printed 395, sum 1228",
+   "col 11 'Total (All India)': printed 1242, sum 1340"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

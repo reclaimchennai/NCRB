@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-23-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-23-1993-crime.pdf",
  "source_sha256": "98c6e6c6dcc276ff186f84c1bf23d18c89f9fdbe2c54246ae18a0b287b220e71",
- "table_no": "",
- "pdf_title": "",
- "row_label": "ST. NO. / STATE/T",
+ "table_no": "23",
+ "pdf_title": "147 TABLE-23 DISPOSAL OF L&SL CRIME CASES BY COURTS DURING 1993",
+ "row_label": "TL NO. / STATE/IT",
  "pages": [
   1
  ],
@@ -25,70 +25,77 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "TOTAL NO. OF CASES",
+   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "TOTAL NO. OF CASES"
+    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL OHUNDRED OR WITH DRAWN",
+   "name": "NO. OF CASES | COMPLETED OR WITH DRAIN",
    "header": [
-    "TOTAL OHUNDRED OR WITH DRAWN"
+    "NO. OF CASES",
+    "COMPLETED OR WITH DRAIN"
    ]
   },
   {
    "col_no": "5",
-   "name": "NO. CT CASES | COMP. OVERDUE OR WITH DRAWN",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED (5)",
    "header": [
-    "NO. CT CASES",
-    "COMP. OVERDUE OR WITH DRAWN"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "IN VINCH TRIALS WERE COMPLETED | CONVICTED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED (6)",
    "header": [
-    "IN VINCH TRIALS WERE COMPLETED",
-    "CONVICTED"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED"
    ]
   },
   {
    "col_no": "7",
-   "name": "ACOLUTED OR CHANGED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED (7)",
    "header": [
-    "ACOLUTED OR CHANGED"
+    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED"
    ]
   },
   {
    "col_no": "8",
-   "name": "TOTAL (191 + (19)",
+   "name": "FUNDING FUNDING TAGE",
    "header": [
-    "TOTAL (191 + (19)"
+    "FUNDING FUNDING TAGE"
    ]
   },
   {
    "col_no": "9",
-   "name": "PENDLE TRIAL",
+   "name": "FUNDING TAGE OF PONDENTY TO ALL INDU TOTAL",
    "header": [
-    "PENDLE TRIAL"
+    "FUNDING TAGE OF PONDENTY TO ALL INDU TOTAL"
    ]
   },
   {
    "col_no": "10",
-   "name": "PERSONAL PERCENTAGE",
+   "name": "FUNDING TRIAL",
    "header": [
-    "PERSONAL PERCENTAGE"
+    "FUNDING TRIAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 12,
-  "other_totals_passed": 2
+  "cells_checked": 5,
+  "cells_passed": 1,
+  "failures": [
+   "col 4 'TOTAL (STATE)': printed 108658, sum 105656",
+   "col 5 'TOTAL (STATE)': printed 1.88531e+06, sum 2.86591e+06",
+   "col 6 'TOTAL (STATE)': printed 359408, sum 355608",
+   "col 7 'TOTAL (STATE)': printed 3.22181e+06, sum 3.22151e+06"
+  ],
+  "other_totals_checked": 6,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1954",
  "serial": "3",
- "title": "DACQITY 26",
+ "title": "—PERSONS Appendix VIII. 27",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,27 +14,48 @@
  "source_file": "raw/cii/1954/year_wise/1686381753APPENDICES.pdf",
  "source_sha256": "3535c3fb7d9a13806b92abf252ebff9de93c31d36c237f38ff6c4a640aa329c5",
  "table_no": "",
- "pdf_title": "DACQITY 26",
- "row_label": "Serial No. / State",
+ "pdf_title": "—PERSONS Appendix VIII. 27",
+ "row_label": "Persons released by the Police or Magistrate before trial",
  "pages": [
-  16
+  17
  ],
- "n_rows": 32,
- "n_cols": 2,
- "n_cells": 64,
+ "n_rows": 31,
+ "n_cols": 5,
+ "n_cells": 137,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Persons in custody pending trial or investigation or on bail at the beginning of the year",
+   "col_no": "2",
+   "name": "Number of persons in whose cases the trials were completed",
    "header": [
-    "Persons in custody pending trial or investigation or on bail at the beginning of the year"
+    "Number of persons in whose cases the trials were completed"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Number of persons convicted",
+   "header": [
+    "Number of persons convicted"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons arrested during the year",
+   "name": "Number of persons acquitted or discharged",
    "header": [
-    "Persons arrested during the year"
+    "Number of persons acquitted or discharged"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of persons in custody or bail pending trial or investigation at the close of the year.",
+   "header": [
+    "Number of persons in custody or bail pending trial or investigation at the close of the year."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage of conviction",
+   "header": [
+    "Percentage of conviction"
    ]
   }
  ],
@@ -43,8 +64,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 8,
-  "other_totals_passed": 8
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -15,14 +15,14 @@
  "source_sha256": "c7704953e8b636c2014d5cfdeec7a6dc6ca6882bdae77ac50dc1545d889c56aa",
  "table_no": "60",
  "pdf_title": "145 TABLE 60 Actual Police strength during 1983",
- "row_label": "Sl. No. / Sl. No. / Sl. No. / States/U.Ts.",
+ "row_label": "Sl. No. / Sl. No.",
  "pages": [
   1,
   2
  ],
  "n_rows": 35,
  "n_cols": 10,
- "n_cells": 340,
+ "n_cells": 339,
  "columns": [
   {
    "col_no": "5",
@@ -103,7 +103,7 @@
   "cells_checked": 8,
   "cells_passed": 7,
   "failures": [
-   "col 5 'TOTAL (STATES) . .': printed 3.16776e+06, sum 3.16776e+06"
+   "col 5 'TOTAL (STATES)': printed 3.16776e+06, sum 3.16776e+06"
   ],
   "other_totals_checked": 4,
   "other_totals_passed": 3

@@ -14,22 +14,16 @@
  "source_file": "raw/cii/1966/table_content/table-12-1966.pdf",
  "source_sha256": "2e1890bb064add859467687ba92549cacf02213ac98a255971294fd9e60b2a5d",
  "table_no": "",
- "pdf_title": "42\\nTABLE No. XH\\nPOLICE STRENGTH IN STATES-1966",
- "row_label": "Sl. No.",
+ "pdf_title": "42 TABLE No. XII POLICE STRENGTH IN STATES-1966",
+ "row_label": "Sl. No. / Estimated population in thousands 1966",
  "pages": [
+  1,
   1
  ],
- "n_rows": 17,
- "n_cols": 5,
- "n_cells": 85,
+ "n_rows": 16,
+ "n_cols": 4,
+ "n_cells": 64,
  "columns": [
-  {
-   "col_no": "3",
-   "name": "Estimated population in thousands 1966",
-   "header": [
-    "Estimated population in thousands 1966"
-   ]
-  },
   {
    "col_no": "4",
    "name": "Total cognizable crime",
@@ -46,9 +40,9 @@
   },
   {
    "col_no": "6",
-   "name": "Volume of brimer per 100,000 of population.",
+   "name": "Volume of crime per 100,000 of population.",
    "header": [
-    "Volume of brimer per 100,000 of population."
+    "Volume of crime per 100,000 of population."
    ]
   },
   {
@@ -59,9 +53,7 @@
    ]
   }
  ],
- "notes": [
-  "Note (*) figures for the year 1964"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -70,6 +62,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

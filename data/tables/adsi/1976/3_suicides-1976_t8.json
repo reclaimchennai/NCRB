@@ -15,7 +15,7 @@
  "source_sha256": "90b349756c2225803d3735b080bea0771e933d6e87471ef8d07dc6510cc15b58",
  "table_no": "",
  "pdf_title": "Sex: During 1976, 58.1 percent of the total suicides were committed by males. A similar pattern was noticed in the 'Male' and 'Female' ratio during the year 1975. The 'male' and 'female' ratio in suicides for States was also the same as for the country as a whole. The percentage of male involvement in 13 States and 7 Union Territories was higher than the all-India average. For other States, there were variations in male & female ratio in comparison to the all-India average. The details are presented in Table 7. TABLE 7 Suicides Classified According to Sex and by States Union Territories and Metropolitan Cities during 1976",
- "row_label": "S1. No. / Names of States/U.Ts./Cities / Names of States/U.Ts./Cities",
+ "row_label": "S1. No. / Names of States/U.Ts./Cities",
  "pages": [
   12,
   13,
@@ -23,7 +23,7 @@
  ],
  "n_rows": 43,
  "n_cols": 6,
- "n_cells": 250,
+ "n_cells": 249,
  "columns": [
   {
    "col_no": "3",
@@ -69,9 +69,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 8,
+  "cells_checked": 9,
   "cells_passed": 8,
-  "failures": [],
+  "failures": [
+   "col 5 'TOTAL (U.Ts.)': printed 258, sum 181"
+  ],
   "other_totals_checked": 3,
   "other_totals_passed": 3
  },

@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "64 DACOITY Union Territories",
+ "title": "65 APPENDIX VII CASES",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,55 +14,76 @@
  "source_file": "raw/cii/1964/table_chapter/appendix-1964.pdf",
  "source_sha256": "f45dcb582666293544ac26c2e40abd44ebfb046a8ef02df8eee0814973fa15b6",
  "table_no": "",
- "pdf_title": "64 DACOITY Union Territories",
- "row_label": "Sl. No. / States/U.Ts./Cities",
+ "pdf_title": "65 APPENDIX VII CASES",
+ "row_label": "Total true cases",
  "pages": [
-  26
+  27
  ],
- "n_rows": 17,
- "n_cols": 6,
- "n_cells": 102,
+ "n_rows": 25,
+ "n_cols": 9,
+ "n_cells": 189,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Cases pending investigation from previous year",
+   "col_no": "2",
+   "name": "Cases not detected",
    "header": [
-    "Cases pending investigation from previous year"
+    "Cases not detected"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cases in which charge sheet was laid",
+   "header": [
+    "Cases in which charge sheet was laid"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases pending disposal in courts",
+   "name": "Cases compounded or withdrawn",
    "header": [
-    "Cases pending disposal in courts"
+    "Cases compounded or withdrawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases reported during the year",
+   "name": "Cases in which trial was completed",
    "header": [
-    "Cases reported during the year"
+    "Cases in which trial was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases not investigated (+) Declared false (+) mistake of fact or law (+) non cognizable",
+   "name": "Cases convicted",
    "header": [
-    "Cases not investigated (+) Declared false (+) mistake of fact or law (+) non cognizable"
+    "Cases convicted"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases pending investigation at the end of the year",
+   "name": "Cases acquitted or discharged",
    "header": [
-    "Cases pending investigation at the end of the year"
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "8",
-   "name": "Cases pending trial at the end of the year",
+   "name": "Percentage of cases convicted to true cases investigated",
    "header": [
-    "Cases pending trial at the end of the year"
+    "Percentage of cases convicted to true cases investigated"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Percentage of cases convicted to cases in which trial was completed",
+   "header": [
+    "Percentage of cases convicted to cases in which trial was completed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Volume of crime per 1,00,000 of population",
+   "header": [
+    "Volume of crime per 1,00,000 of population"
    ]
   }
  ],
@@ -71,8 +92,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 6,
-  "other_totals_passed": 6
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

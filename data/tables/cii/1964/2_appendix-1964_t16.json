@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "Cities",
+ "title": "64 DACOITY Union Territories",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,55 +14,55 @@
  "source_file": "raw/cii/1964/table_chapter/appendix-1964.pdf",
  "source_sha256": "f45dcb582666293544ac26c2e40abd44ebfb046a8ef02df8eee0814973fa15b6",
  "table_no": "",
- "pdf_title": "Cities",
- "row_label": ". / . / .",
+ "pdf_title": "64 DACOITY Union Territories",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
-  24
+  26
  ],
- "n_rows": 1,
- "n_cols": 3,
- "n_cells": 3,
+ "n_rows": 17,
+ "n_cols": 6,
+ "n_cells": 101,
  "columns": [
   {
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year",
+   "header": [
+    "Cases pending investigation from previous year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending disposal in courts",
+   "header": [
+    "Cases pending disposal in courts"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases reported during the year",
+   "header": [
+    "Cases reported during the year"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases not investigated (+) Declared false (+) mistake of fact or law (+) non cognizable",
+   "header": [
+    "Cases not investigated (+) Declared false (+) mistake of fact or law (+) non cognizable"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases pending investigation at the end of the year",
+   "header": [
+    "Cases pending investigation at the end of the year"
+   ]
+  },
+  {
    "col_no": "8",
-   "name": "2 | 1 | 48 | 19 | .. | 1 | 12 | 4",
+   "name": "Cases pending trial at the end of the year",
    "header": [
-    "2",
-    "1",
-    "48",
-    "19",
-    "..",
-    "1",
-    "12",
-    "4"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "50 | 1 | 58 | 22 | 210 | 4 | 119 | 3",
-   "header": [
-    "50",
-    "1",
-    "58",
-    "22",
-    "210",
-    "4",
-    "119",
-    "3"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "54 | 9 | 169 | 82 | 151 | 10 | 132 | 34",
-   "header": [
-    "54",
-    "9",
-    "169",
-    "82",
-    "151",
-    "10",
-    "132",
-    "34"
+    "Cases pending trial at the end of the year"
    ]
   }
  ],
@@ -71,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

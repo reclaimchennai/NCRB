@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "4",
- "title": "Table INCIDENCE OF CRIME UNDER DIFFERENT",
+ "title": "22 TABLE INCIDENCE OF CRIME UNDER DIFFERENT",
  "listing_title": "Incidence of Crime under Different Heads During 1967 and 1968 showing Percentage Variation",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,29 +14,19 @@
  "source_file": "raw/cii/1968/table_content/table-IV-1968.pdf",
  "source_sha256": "69756bca40e5322283109495907eca4cc73542479286bdedadca8aa02f0241f7",
  "table_no": "",
- "pdf_title": "Table INCIDENCE OF CRIME UNDER DIFFERENT",
- "row_label": "Sl. No.",
+ "pdf_title": "22 TABLE INCIDENCE OF CRIME UNDER DIFFERENT",
+ "row_label": "Sl. No. / States/U.T.s/Cities",
  "pages": [
-  1,
-  2,
-  3
+  1
  ],
- "n_rows": 80,
- "n_cols": 11,
- "n_cells": 580,
+ "n_rows": 39,
+ "n_cols": 4,
+ "n_cells": 156,
  "columns": [
   {
-   "col_no": "2",
-   "name": "States/U.T.s/Cities (2)",
-   "header": [
-    "States/U.T.s/Cities"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "INCIDENCE OF CRIME UNDER DIFFERENT | Murder | 1967",
+   "name": "Murder | 1967",
    "header": [
-    "INCIDENCE OF CRIME UNDER DIFFERENT",
     "Murder",
     "1967"
    ]
@@ -51,56 +41,19 @@
   },
   {
    "col_no": "5",
-   "name": "Kidnapping | Percentage variation",
+   "name": "Murder | Percentage variation",
    "header": [
-    "Kidnapping",
+    "Murder",
     "Percentage variation"
    ]
   },
   {
    "col_no": "6",
-   "name": "1967",
+   "name": "Kidnapping | 1967",
    "header": [
+    "Kidnapping",
     "1967"
    ]
-  },
-  {
-   "col_no": "7",
-   "name": "1968",
-   "header": [
-    "1968"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Percentage variation",
-   "header": [
-    "Percentage variation"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "States/U.T.s/Cities (10001)",
-   "header": [
-    "States/U.T.s/Cities"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "House-Breaking",
-   "header": [
-    "House-Breaking"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "col_10003",
-   "header": []
-  },
-  {
-   "col_no": "10004",
-   "name": "col_10004",
-   "header": []
   }
  ],
  "notes": [],
@@ -108,10 +61,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 16,
-  "other_totals_passed": 15
+  "other_totals_checked": 12,
+  "other_totals_passed": 12
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 1,
  "warnings": []
 }

@@ -21,61 +21,96 @@
   2,
   3
  ],
- "n_rows": 96,
- "n_cols": 8,
- "n_cells": 606,
+ "n_rows": 51,
+ "n_cols": 13,
+ "n_cells": 422,
  "columns": [
   {
-   "col_no": "3",
+   "col_no": "7",
    "name": "Opium Act",
    "header": [
     "Opium Act"
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "8",
    "name": "Excise Act",
    "header": [
     "Excise Act"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "9",
    "name": "Prohibition Act",
    "header": [
     "Prohibition Act"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "10",
    "name": "Customs Act",
    "header": [
     "Customs Act"
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "11",
    "name": "Gambling Act",
    "header": [
     "Gambling Act"
    ]
   },
   {
+   "col_no": "3",
+   "name": "S.I.T. in women and girls Act",
+   "header": [
+    "S.I.T. in women and girls Act"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Prevention of Corruption Act",
+   "header": [
+    "Prevention of Corruption Act"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Motor Vehicles Act",
+   "header": [
+    "Motor Vehicles Act"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Indian Railways Act",
+   "header": [
+    "Indian Railways Act"
+   ]
+  },
+  {
    "col_no": "10001",
+   "name": "Arms Act",
+   "header": [
+    "Arms Act"
+   ]
+  },
+  {
+   "col_no": "10002",
    "name": "Explosive and Explosive Substances Act",
    "header": [
     "Explosive and Explosive Substances Act"
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "10003",
    "name": "Other offences",
    "header": [
     "Other offences"
    ]
   },
   {
-   "col_no": "10003",
+   "col_no": "10004",
    "name": "Grand Total",
    "header": [
     "Grand Total"
@@ -85,19 +120,19 @@
  "notes": [],
  "checks": {
   "cells_checked": 32,
-  "cells_passed": 21,
+  "cells_passed": 20,
   "failures": [
    "col 3 'TOTAL (STATES)': printed 15994, sum 10994",
-   "col 5 'TOTAL (CITIES)': printed 53451, sum 53461",
-   "col 7 'TOTAL (STATES)': printed 347250, sum 347260",
-   "col 10001 'TOTAL (U.Ts.)': printed 46, sum 36",
-   "col 10001 'TOTAL (Cities)': printed 367, sum 360",
-   "col 10002 'TOTAL (STATES)': printed 1.18084e+06, sum 1.17435e+06",
-   "col 10002 'TOTAL (U.Ts.)': printed 10783, sum 2390",
-   "col 10002 'TOTAL (Cities)': printed 613551, sum 605109"
+   "col 3 'TOTAL (U.Ts.)': printed 290, sum 204",
+   "col 3 'TOTAL (Cities)': printed 2954, sum 2823",
+   "col 5 'TOTAL (U.Ts.)': printed 4859, sum 157",
+   "col 10001 'TOTAL (U.Ts.)': printed 3288, sum 3285",
+   "col 10001 'TOTAL (Cities)': printed 7678, sum 6785",
+   "col 10002 'TOTAL (U.Ts.)': printed 46, sum 42",
+   "col 10002 'TOTAL (Cities)': printed 367, sum 354"
   ],
-  "other_totals_checked": 11,
-  "other_totals_passed": 7
+  "other_totals_checked": 10,
+  "other_totals_passed": 10
  },
  "inferred_pages": 0,
  "ocr_pages": 3,

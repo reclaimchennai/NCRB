@@ -13,20 +13,19 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-15-1971.pdf",
  "source_file": "raw/cii/1971/table_content/table-15-1971.pdf",
  "source_sha256": "8f9dd5248992a874aa8cda2e9d4a4484019f78323ad1d73996e9fdc995228f10",
- "table_no": "15",
- "pdf_title": "37 TABLE 15 Number of persons Arrested by Sex during the year 1971",
+ "table_no": "",
+ "pdf_title": "",
  "row_label": "Sl. No. / States/U.T.s/Cities",
  "pages": [
   1,
   2,
   3,
   3,
-  3,
   3
  ],
- "n_rows": 46,
- "n_cols": 26,
- "n_cells": 909,
+ "n_rows": 51,
+ "n_cols": 37,
+ "n_cells": 697,
  "columns": [
   {
    "col_no": "3",
@@ -78,17 +77,17 @@
   },
   {
    "col_no": "9",
-   "name": "Rapc | Male",
+   "name": "Rape | Male",
    "header": [
-    "Rapc",
+    "Rape",
     "Male"
    ]
   },
   {
    "col_no": "10",
-   "name": "Rapc | Female",
+   "name": "Rape | Female",
    "header": [
-    "Rapc",
+    "Rape",
     "Female"
    ]
   },
@@ -110,17 +109,17 @@
   },
   {
    "col_no": "10003",
-   "name": "Dacoity | Male",
+   "name": "Dacority | Male",
    "header": [
-    "Dacoity",
+    "Dacority",
     "Male"
    ]
   },
   {
    "col_no": "10004",
-   "name": "Dacoity | Female",
+   "name": "Dacority | Female",
    "header": [
-    "Dacoity",
+    "Dacority",
     "Female"
    ]
   },
@@ -138,6 +137,13 @@
    "header": [
     "Robbery",
     "Female"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
    ]
   },
   {
@@ -222,19 +228,68 @@
   },
   {
    "col_no": "13",
-   "name": "Counterfeiting | Male",
+   "name": "Counter-feiting | Male",
    "header": [
-    "Counterfeiting",
+    "Counter-feiting",
     "Male"
    ]
   },
   {
-   "col_no": "14",
-   "name": "Counterfeiting | Female",
+   "col_no": "10015",
+   "name": "not available",
    "header": [
-    "Counterfeiting",
-    "Female"
+    "not available"
    ]
+  },
+  {
+   "col_no": "10016",
+   "name": "col_10016",
+   "header": []
+  },
+  {
+   "col_no": "10017",
+   "name": "col_10017",
+   "header": []
+  },
+  {
+   "col_no": "10018",
+   "name": "col_10018",
+   "header": []
+  },
+  {
+   "col_no": "10019",
+   "name": "col_10019",
+   "header": []
+  },
+  {
+   "col_no": "10020",
+   "name": "col_10020",
+   "header": []
+  },
+  {
+   "col_no": "10021",
+   "name": "col_10021",
+   "header": []
+  },
+  {
+   "col_no": "10022",
+   "name": "col_10022",
+   "header": []
+  },
+  {
+   "col_no": "10023",
+   "name": "col_10023",
+   "header": []
+  },
+  {
+   "col_no": "10024",
+   "name": "col_10024",
+   "header": []
+  },
+  {
+   "col_no": "10025",
+   "name": "col_10025",
+   "header": []
   }
  ],
  "notes": [],
@@ -242,10 +297,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 39,
-  "other_totals_passed": 21
+  "other_totals_checked": 29,
+  "other_totals_passed": 14
  },
  "inferred_pages": 0,
- "ocr_pages": 6,
+ "ocr_pages": 5,
  "warnings": []
 }

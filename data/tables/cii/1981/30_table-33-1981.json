@@ -18,11 +18,12 @@
  "row_label": "Sl.No. / State/U.Ts./Cities",
  "pages": [
   1,
+  1,
   2
  ],
  "n_rows": 52,
  "n_cols": 13,
- "n_cells": 601,
+ "n_cells": 441,
  "columns": [
   {
    "col_no": "3",
@@ -131,8 +132,8 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 35,
-  "cells_passed": 25,
+  "cells_checked": 36,
+  "cells_passed": 26,
   "failures": [
    "col 9 'Total (States)': printed 6475, sum 6675",
    "col 10001 'Total (Cities)': printed 2419, sum 2639",
@@ -147,6 +148,6 @@
   "other_totals_passed": 7
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

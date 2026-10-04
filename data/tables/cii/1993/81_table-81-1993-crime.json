@@ -15,106 +15,93 @@
  "source_sha256": "98f939c1e64f87ac6108b9822b79ee5e772bb7e10954fe3c574c9d4ae75dae73",
  "table_no": "81",
  "pdf_title": "337 TABLE-81 ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CRIMES",
- "row_label": "No. NO / STATE/UT",
+ "row_label": "ACTUAL POLICE STRENGTH",
  "pages": [
+  1,
   1
  ],
- "n_rows": 35,
+ "n_rows": 36,
  "n_cols": 11,
- "n_cells": 385,
+ "n_cells": 389,
  "columns": [
   {
-   "col_no": "3",
-   "name": "AREA in Sq. km2",
-   "header": [
-    "AREA in Sq. km2"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "ESTIMATED MID-TEAN POPULATION",
-   "header": [
-    "ESTIMATED MID-TEAN POPULATION"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "TOTAL CASES FOR INVESTIGATION",
-   "header": [
-    "TOTAL CASES FOR INVESTIGATION"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "ACTUAL POLICE STRENGTH | CIVIL",
-   "header": [
-    "ACTUAL POLICE STRENGTH",
-    "CIVIL"
-   ]
-  },
-  {
    "col_no": "7",
-   "name": "ACTUAL POLICE STRENGTH | ARRED",
+   "name": "ACTUAL POLICE STRENGTH (7)",
    "header": [
-    "ACTUAL POLICE STRENGTH",
-    "ARRED"
+    "ACTUAL POLICE STRENGTH"
    ]
   },
   {
    "col_no": "8",
-   "name": "ACTUAL POLICE STRENGTH | TOTAL",
+   "name": "ACTUAL POLICE STRENGTH (8)",
    "header": [
-    "ACTUAL POLICE STRENGTH",
-    "TOTAL"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "HICENT AGE OF CIVIL POLICE TO TOTAL POLICE",
-   "header": [
-    "HICENT AGE OF CIVIL POLICE TO TOTAL POLICE"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "NO. OF POLICE MEN PER 100 km2 OF AREA",
-   "header": [
-    "NO. OF POLICE MEN PER 100 km2 OF AREA"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "NO. OF POLICE MEN PER 1,000 OF HIGH LOCATION",
-   "header": [
-    "NO. OF POLICE MEN PER 1,000 OF HIGH LOCATION"
+    "ACTUAL POLICE STRENGTH"
    ]
   },
   {
    "col_no": "12",
-   "name": "IPC CASES PER CIVIL POLICEMAN | ALL NAMED",
+   "name": "IPC CASES PER CIVIL POLICAM (12)",
    "header": [
-    "IPC CASES PER CIVIL POLICEMAN",
-    "ALL NAMED"
+    "IPC CASES PER CIVIL POLICAM"
    ]
   },
   {
    "col_no": "13",
-   "name": "IPC CASES PER CIVIL POLICEMAN | 100 ONLY",
+   "name": "IPC CASES PER CIVIL POLICAM (13)",
    "header": [
-    "IPC CASES PER CIVIL POLICEMAN",
-    "100 ONLY"
+    "IPC CASES PER CIVIL POLICAM"
    ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "col_10",
+   "header": []
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 5,
+  "cells_checked": 5,
+  "cells_passed": 1,
+  "failures": [
+   "col 7 'TOTAL STATE': printed 347305, sum 249381",
+   "col 3 'TOTAL STATE': printed 3.27434e+06, sum 3.27629e+06",
+   "col 5 'TOTAL STATE': printed 128082, sum 1.58686e+06",
+   "col 6 'TOTAL STATE': printed 853401, sum 933501"
+  ],
+  "other_totals_checked": 6,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

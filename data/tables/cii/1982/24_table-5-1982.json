@@ -15,16 +15,18 @@
  "source_sha256": "af2d7fa637b549d3de7b67c3818e01ee9705e980cbd9c883bdf5d0151fb1e59d",
  "table_no": "5",
  "pdf_title": "11 TABLE 5 INCIDENCE OF COGNIZABLE CRIME AND VOLUME PER ONE LAKH OF POPULATION UNDER IMPORTANT HEADS OF INDIAN PENAL CODE DURING THE YEAR 1982",
- "row_label": "Sl.No. / States/U.Ts./Cities / States/U.Ts./Cities / States/U.Ts./Cities",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
  "pages": [
   1,
   2,
   3,
-  4
+  4,
+  4,
+  5
  ],
- "n_rows": 94,
- "n_cols": 14,
- "n_cells": 1128,
+ "n_rows": 93,
+ "n_cols": 17,
+ "n_cells": 1257,
  "columns": [
   {
    "col_no": "5",
@@ -150,19 +152,49 @@
     "Criminal Breach of Trust",
     "V"
    ]
+  },
+  {
+   "col_no": "10007",
+   "name": "States/U.Ts./Cities (10007)",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "States/U.Ts./Cities (11)",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Crime Heads | Others | I",
+   "header": [
+    "Crime Heads",
+    "Others",
+    "I"
+   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 36,
-  "cells_passed": 35,
+  "cells_checked": 42,
+  "cells_passed": 33,
   "failures": [
-   "col 10002 'Total (U.Ts.) .': printed 17005, sum 16999"
+   "col 9 'Total (States)': printed 597856, sum 597866",
+   "col 9 'Total (U.Ts.)': printed 14730, sum 14720",
+   "col 4 'TOTAL (U.Ts.)': printed 725, sum 724",
+   "col 4 'Total (States)': printed 140031, sum 140032",
+   "col 4 'Total (U.Ts.)': printed 2695, sum 2694",
+   "col 10002 'Total (States)': printed 358235, sum 358232",
+   "col 10002 'Total (U.Ts.)': printed 17005, sum 17002",
+   "col 11 'Total (States)': printed 1.31562e+06, sum 1.31564e+06"
   ],
-  "other_totals_checked": 12,
-  "other_totals_passed": 7
+  "other_totals_checked": 14,
+  "other_totals_passed": 8
  },
  "inferred_pages": 0,
- "ocr_pages": 4,
+ "ocr_pages": 6,
  "warnings": []
 }

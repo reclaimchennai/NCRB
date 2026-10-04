@@ -15,14 +15,16 @@
  "source_sha256": "7391eaf9b222308b5bdcd6d6cf6d92a8b60a9cc51899405d387ebb0ee5c766d3",
  "table_no": "34",
  "pdf_title": "87 TABLE-34 JUVENILE DELINQUENCY UNDER IMPORTANT HEADS OF LOCAL & SPECIAL LAWS DURING THE YEAR 1981",
- "row_label": "Sl. no. / States/UTs/Cities",
+ "row_label": "Sl. no.",
  "pages": [
+  1,
+  1,
   1,
   2
  ],
- "n_rows": 51,
+ "n_rows": 46,
  "n_cols": 12,
- "n_cells": 564,
+ "n_cells": 262,
  "columns": [
   {
    "col_no": "3",
@@ -127,17 +129,17 @@
   "cells_passed": 17,
   "failures": [
    "col 10001 'TOTAL (CITIES)': printed 322, sum 522",
-   "col 10004 'TOTAL (STATES)': printed 47403, sum 47303",
-   "col 10004 'TOTAL (UTs).': printed 523, sum 122",
-   "col 10004 'TOTAL (CITIES)': printed 10824, sum 10821",
-   "col 10005 'TOTAL (STATES)': printed 95295, sum 95193",
-   "col 10005 'TOTAL (UTs).': printed 2449, sum 1846",
-   "col 10005 'TOTAL (CITIES)': printed 2205, sum 21965"
+   "col 10004 'TOTAL (STATES)': printed 47403, sum 47282",
+   "col 10004 'TOTAL (UTs).': printed 523, sum 103",
+   "col 10004 'TOTAL (CITIES)': printed 10824, sum 9439",
+   "col 10005 'TOTAL (STATES)': printed 95295, sum 95172",
+   "col 10005 'TOTAL (UTs).': printed 2449, sum 1827",
+   "col 10005 'TOTAL (CITIES)': printed 2205, sum 20583"
   ],
   "other_totals_checked": 8,
   "other_totals_passed": 8
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "CHEATING Part 'A' States Part 'B' States",
+ "title": "COUNTERFEIT COINS & NOTES Part 'A' States Part 'B' States",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,17 +14,16 @@
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "CHEATING Part 'A' States Part 'B' States",
+ "pdf_title": "COUNTERFEIT COINS & NOTES Part 'A' States Part 'B' States",
  "row_label": "Serial No.",
  "pages": [
-  40,
-  40,
-  40,
-  40
+  42,
+  42,
+  42
  ],
  "n_rows": 5,
  "n_cols": 7,
- "n_cells": 16,
+ "n_cells": 19,
  "columns": [
   {
    "col_no": "2",
@@ -35,71 +34,44 @@
   },
   {
    "col_no": "3",
-   "name": "Persons in custody pending trial or investigation or on bail at the beginning of the year",
+   "name": "Cases pending from last year.",
    "header": [
-    "Persons in custody pending trial or investigation or on bail at the beginning of the year"
+    "Cases pending from last year."
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons arrested during the year",
+   "name": "Cases reported during the year",
    "header": [
-    "Persons arrested during the year"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "Persons released by the Police or Magistrate before trial",
+   "name": "Cases not investigated, declared false or mistake of fact/law or non-cognizable and pending investigation or trial",
    "header": [
-    "Persons released by the Police or Magistrate before trial"
+    "Cases not investigated, declared false or mistake of fact/law or non-cognizable and pending investigation or trial"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases not detected",
+   "header": [
+    "Cases not detected"
    ]
   },
   {
    "col_no": "7",
-   "name": ". | . | . | . | . | . | . | . | . | .",
+   "name": "I (7)",
    "header": [
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    ".",
-    "."
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "116 | 129 | 553 | 1,824 | 882 | 177 | 214 | 309 | 996 | 756",
+   "name": "I (8)",
    "header": [
-    "116",
-    "129",
-    "553",
-    "1,824",
-    "882",
-    "177",
-    "214",
-    "309",
-    "996",
-    "756"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "237 | 185 | 601 | 1,357 | 789 | 509 | 437 | 421 | 912 | 1,222",
-   "header": [
-    "237",
-    "185",
-    "601",
-    "1,357",
-    "789",
-    "509",
-    "437",
-    "421",
-    "912",
-    "1,222"
+    "I"
    ]
   }
  ],
@@ -109,9 +81,9 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 3,
-  "other_totals_passed": 3
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 4,
+ "ocr_pages": 3,
  "warnings": []
 }

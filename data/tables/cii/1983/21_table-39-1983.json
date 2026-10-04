@@ -21,8 +21,8 @@
   2
  ],
  "n_rows": 47,
- "n_cols": 13,
- "n_cells": 604,
+ "n_cols": 12,
+ "n_cells": 259,
  "columns": [
   {
    "col_no": "6",
@@ -43,13 +43,6 @@
    "name": "Prohibition Act",
    "header": [
     "Prohibition Act"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Customs Act",
-   "header": [
-    "Customs Act"
    ]
   },
   {
@@ -121,7 +114,7 @@
   "cells_checked": 25,
   "cells_passed": 23,
   "failures": [
-   "col 7 'TOTAL (U.Ts.) . .': printed 269, sum 2660",
+   "col 7 'TOTAL (U.Ts.)': printed 269, sum 2660",
    "col 10003 'TOTAL (Cities)': printed 2265, sum 22657"
   ],
   "other_totals_checked": 9,

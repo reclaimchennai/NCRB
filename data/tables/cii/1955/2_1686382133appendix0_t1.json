@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "ABLE CRIME—CASES Appendix I II",
+ "title": "TOTAL COGNIZ Part 'A' States Part 'B' States",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,48 +14,49 @@
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "ABLE CRIME—CASES Appendix I II",
- "row_label": "Cases in which trial was completed",
+ "pdf_title": "TOTAL COGNIZ Part 'A' States Part 'B' States",
+ "row_label": "Serial No.",
  "pages": [
-  3
+  2,
+  4
  ],
- "n_rows": 33,
+ "n_rows": 1,
  "n_cols": 5,
- "n_cells": 165,
+ "n_cells": 5,
  "columns": [
   {
    "col_no": "2",
-   "name": "Cases convicted",
+   "name": "State",
    "header": [
-    "Cases convicted"
+    "State"
    ]
   },
   {
    "col_no": "3",
-   "name": "Cases acquitted or discharged",
+   "name": "Cases pending from last year",
    "header": [
-    "Cases acquitted or discharged"
+    "Cases pending from last year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Percentage of cases convicted to true cases investigated",
+   "name": "Cases reported during the year",
    "header": [
-    "Percentage of cases convicted to true cases investigated"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "Percentage of cases convicted to cases tried",
+   "name": "Cases not investigated, declared false or mistake of fact or law or non-cognizable and pending investigation or trial",
    "header": [
-    "Percentage of cases convicted to cases tried"
+    "Cases not investigated, declared false or mistake of fact or law or non-cognizable and pending investigation or trial"
    ]
   },
   {
    "col_no": "6",
-   "name": "Volume of crime",
+   "name": "Cases not detected",
    "header": [
-    "Volume of crime"
+    "Cases not detected"
    ]
   }
  ],
@@ -68,6 +69,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

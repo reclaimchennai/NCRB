@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1957",
  "serial": "3",
- "title": "PERSONS Appendix XX 59",
+ "title": "RIOT Union Territories. Cities",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,48 +14,55 @@
  "source_file": "raw/cii/1957/year_wise/1689765744appendicesall5.pdf",
  "source_sha256": "7c30ec9ac66806a2b7259e78309a050d91fc3c257aa574557a69d9bb075363a6",
  "table_no": "",
- "pdf_title": "PERSONS Appendix XX 59",
- "row_label": "Persons convicted",
+ "pdf_title": "RIOT Union Territories. Cities",
+ "row_label": "Serial No.",
  "pages": [
-  40
+  33
  ],
  "n_rows": 16,
- "n_cols": 5,
- "n_cells": 80,
+ "n_cols": 6,
+ "n_cells": 81,
  "columns": [
   {
    "col_no": "2",
-   "name": "Persons acquitted or discharged",
+   "name": "State",
    "header": [
-    "Persons acquitted or discharged"
+    "State"
    ]
   },
   {
    "col_no": "3",
-   "name": "Persons against whom cases were compounded or withdrawn",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "Persons against whom cases were compounded or withdrawn"
+    "Cases pending investigation from previous year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year.",
+   "name": "Cases pending disposal in court the year",
    "header": [
-    "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year."
+    "Cases pending disposal in court the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "Persons in custody pending trial or on bail during the stage of trial at the end of the year.",
+   "name": "Cases reported during the year",
    "header": [
-    "Persons in custody pending trial or on bail during the stage of trial at the end of the year."
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "6",
-   "name": "Percentage of conviction",
+   "name": "Cases not investigated, declared false or mistake of fact or law, or non-cognizable and pending investigation or trial",
    "header": [
-    "Percentage of conviction"
+    "Cases not investigated, declared false or mistake of fact or law, or non-cognizable and pending investigation or trial"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases not detected",
+   "header": [
+    "Cases not detected"
    ]
   }
  ],
@@ -64,7 +71,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 5,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

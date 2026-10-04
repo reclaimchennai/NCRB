@@ -8,44 +8,130 @@
  "serial": "3",
  "title": "State wise distribution of Suicides by Means Adopted during 1977",
  "listing_title": "State wise distribution of Suicides by Means Adopted during 1977",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680159834appendix-41977.pdf",
  "source_file": "raw/adsi/1977/table_content/1680159834appendix-41977.pdf",
  "source_sha256": "e06c9d82dad50816f6cf2184182cab02f70f72245537041db506145869adb323",
  "table_no": "",
- "pdf_title": "",
- "row_label": "Magno mh a © A>} 2 Hoon Lal > m= eee bo - 5 + fl > aad tone ° 3 Sa? a4 Ps 5s .* 2 o + - Se 3 S a 3 5. - NAO A a / - .5SB + an - =\" ++ em own aA na Re 66 “ So: - On O x) - \"i F ,, se 3 Sq a =) tee fy i let Ba - ng mo °",
+ "pdf_title": "APPENDIX IV Statewise Distribution of Suicides by Means Adopted During 1977",
+ "row_label": "SL. No. / Names of States/ U.Ts./Cities.",
  "pages": [
   1
  ],
- "n_rows": 8,
- "n_cols": 1,
- "n_cells": 8,
+ "n_rows": 23,
+ "n_cols": 12,
+ "n_cells": 179,
  "columns": [
   {
    "col_no": "3",
-   "name": "co a ae - Ora 902 4896 - D oo SOE 6963 MOMS 6 REE sie ee * 2% sas ar ©",
+   "name": "By Railways | M",
    "header": [
-    "co a ae - Ora 902 4896 - D oo SOE 6963 MOMS 6 REE sie ee * 2% sas ar ©"
+    "By Railways",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "By Railways | F",
+   "header": [
+    "By Railways",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "By Machine | M",
+   "header": [
+    "By Machine",
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "By Machine | F",
+   "header": [
+    "By Machine",
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "By Fire-arms | M",
+   "header": [
+    "By Fire-arms",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By Fire-arms | F",
+   "header": [
+    "By Fire-arms",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "By Weapons | M",
+   "header": [
+    "By Weapons",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "By Weapons | F",
+   "header": [
+    "By Weapons",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "By Poison | M",
+   "header": [
+    "By Poison",
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "By Poison | F",
+   "header": [
+    "By Poison",
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "By Fire | M",
+   "header": [
+    "By Fire",
+    "M"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "F",
+   "header": [
+    "F"
    ]
   }
  ],
- "notes": [
-  "in iB 3s 3 2a a: ys WT Bt tp tt Sap ws a bur et nets bag! ge!",
-  "Fy pena a Peet tbh",
-  "SS pos",
-  "ie aH ™ - MOO DO - 12 13 HINO mm MO MO Hw",
-  "ag"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 12,
+  "cells_passed": 9,
+  "failures": [
+   "col 11 'TOTAL (STATES)': printed 6363, sum 6343",
+   "col 12 'TOTAL (STATES)': printed 4896, sum 4836",
+   "col 14 'TOTAL (STATES)': printed 1621, sum 1619"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

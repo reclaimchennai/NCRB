@@ -15,20 +15,29 @@
  "source_sha256": "ebc61121f3a806e18910e93e32dab87931ce0c54b6d508921320c039ccee3a67",
  "table_no": "50",
  "pdf_title": "120 TABLE 50 STATEMENT INDICATING NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN UNDER DACOITY BY PLACE OF OCCURRENCE DURING 1982",
- "row_label": "Sl. No. / Sl. No. / States/U.Ts./Cities / States/U.Ts./Cities",
+ "row_label": "Sl. No. / Sl. No.",
  "pages": [
+  1,
+  1,
   1,
   2,
   2,
   2,
   2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  3,
+  3,
   3,
   3,
   3
  ],
- "n_rows": 49,
- "n_cols": 16,
- "n_cells": 562,
+ "n_rows": 44,
+ "n_cols": 35,
+ "n_cells": 399,
  "columns": [
   {
    "col_no": "5",
@@ -80,22 +89,6 @@
   },
   {
    "col_no": "10001",
-   "name": "Rivers & Sea | No. of cases reported",
-   "header": [
-    "Rivers & Sea",
-    "No. of cases reported"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Rivers & Sea | Value of Property Stolen",
-   "header": [
-    "Rivers & Sea",
-    "Value of Property Stolen"
-   ]
-  },
-  {
-   "col_no": "10003",
    "name": "Banks | No. of cases reported",
    "header": [
     "Banks",
@@ -103,7 +96,7 @@
    ]
   },
   {
-   "col_no": "10004",
+   "col_no": "10002",
    "name": "Banks | Value of Property stolen",
    "header": [
     "Banks",
@@ -111,7 +104,7 @@
    ]
   },
   {
-   "col_no": "10005",
+   "col_no": "10003",
    "name": "Commercial Establishment | No. of cases reported",
    "header": [
     "Commercial Establishment",
@@ -127,130 +120,155 @@
    ]
   },
   {
+   "col_no": "10004",
+   "name": "col_10004",
+   "header": []
+  },
+  {
+   "col_no": "10005",
+   "name": "col_10005",
+   "header": []
+  },
+  {
    "col_no": "10006",
-   "name": "45 | 5 | 166 | 188 | 30 | .. | 7 | 96 | 24 | 75 | 356 | 12 | 9 | 4 | 34 | .. | 68 | .. | 29 | 10 | 1,439 | 144",
-   "header": [
-    "45",
-    "5",
-    "166",
-    "188",
-    "30",
-    "..",
-    "7",
-    "96",
-    "24",
-    "75",
-    "356",
-    "12",
-    "9",
-    "4",
-    "34",
-    "..",
-    "68",
-    "..",
-    "29",
-    "10",
-    "1,439",
-    "144"
-   ]
+   "name": "col_10006",
+   "header": []
   },
   {
    "col_no": "10007",
-   "name": "7.81 | 2.24 | 7.00 | 55.34 | 2.60 | .. | 2.08 | 7.35 | 2.32 | 15.12 | 67.14 | 0.46 | 0.02 | 0.12 | 3.50 | .. | 15.01 | .. | 0.76 | 0.41 | 35.58 | 6.98",
-   "header": [
-    "7.81",
-    "2.24",
-    "7.00",
-    "55.34",
-    "2.60",
-    "..",
-    "2.08",
-    "7.35",
-    "2.32",
-    "15.12",
-    "67.14",
-    "0.46",
-    "0.02",
-    "0.12",
-    "3.50",
-    "..",
-    "15.01",
-    "..",
-    "0.76",
-    "0.41",
-    "35.58",
-    "6.98"
-   ]
+   "name": "col_10007",
+   "header": []
   },
   {
    "col_no": "10008",
-   "name": "336 | 470 | 3,379 | 275 | 37 | 1 | 10 | 171 | 39 | 433 | 713 | 29 | 26 | 12 | 315 | 1 | 146 | 3 | 59 | 198 | 4,437 | 1,413",
-   "header": [
-    "336",
-    "470",
-    "3,379",
-    "275",
-    "37",
-    "1",
-    "10",
-    "171",
-    "39",
-    "433",
-    "713",
-    "29",
-    "26",
-    "12",
-    "315",
-    "1",
-    "146",
-    "3",
-    "59",
-    "198",
-    "4,437",
-    "1,413"
-   ]
+   "name": "col_10008",
+   "header": []
   },
   {
    "col_no": "10009",
-   "name": "56.22 | 17.09 | 159.82 | 62.54 | 3.86 | 0.75 | 2.86 | 13.36 | 6.07 | 40.24 | 116.55 | 2.54 | 0.63 | 0.36 | 62.67 | 4.00 | 31.81 | 0.05 | 3.02 | 5.42 | 225.59 | 199.35",
+   "name": "col_10009",
+   "header": []
+  },
+  {
+   "col_no": "10010",
+   "name": "col_10010",
+   "header": []
+  },
+  {
+   "col_no": "10011",
+   "name": "col_10011",
+   "header": []
+  },
+  {
+   "col_no": "10012",
+   "name": "col_10012",
+   "header": []
+  },
+  {
+   "col_no": "10013",
+   "name": "col_10013",
+   "header": []
+  },
+  {
+   "col_no": "10014",
+   "name": "col_10014",
+   "header": []
+  },
+  {
+   "col_no": "10015",
+   "name": "col_10015",
+   "header": []
+  },
+  {
+   "col_no": "10016",
+   "name": "col_10016",
+   "header": []
+  },
+  {
+   "col_no": "10017",
+   "name": "col_10017",
+   "header": []
+  },
+  {
+   "col_no": "10018",
+   "name": "col_10018",
+   "header": []
+  },
+  {
+   "col_no": "10019",
+   "name": "col_10019",
+   "header": []
+  },
+  {
+   "col_no": "10020",
+   "name": "col_10020",
+   "header": []
+  },
+  {
+   "col_no": "10021",
+   "name": "col_10021",
+   "header": []
+  },
+  {
+   "col_no": "10022",
+   "name": "col_10022",
+   "header": []
+  },
+  {
+   "col_no": "10023",
+   "name": "col_10023",
+   "header": []
+  },
+  {
+   "col_no": "10024",
+   "name": "col_10024",
+   "header": []
+  },
+  {
+   "col_no": "10025",
+   "name": "Other_Places | No. of cases reported",
    "header": [
-    "56.22",
-    "17.09",
-    "159.82",
-    "62.54",
-    "3.86",
-    "0.75",
-    "2.86",
-    "13.36",
-    "6.07",
-    "40.24",
-    "116.55",
-    "2.54",
-    "0.63",
-    "0.36",
-    "62.67",
-    "4.00",
-    "31.81",
-    "0.05",
-    "3.02",
-    "5.42",
-    "225.59",
-    "199.35"
+    "Other_Places",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "10026",
+   "name": "Other_Places | Value of property stolen",
+   "header": [
+    "Other_Places",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "10027",
+   "name": "Total | No. of cases reported",
+   "header": [
+    "Total",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "10028",
+   "name": "Total | Value of property stolen",
+   "header": [
+    "Total",
+    "Value of property stolen"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 11,
-  "cells_passed": 9,
+  "cells_checked": 12,
+  "cells_passed": 10,
   "failures": [
-   "col 10003 'TOTAL (U.Ts.) .': printed 2, sum 34",
-   "col 10005 'TOTAL (U.Ts.) .': printed 4, sum 90"
+   "col 10025 'TOTAL (STATES)': printed 2741, sum 2696",
+   "col 10027 'TOTAL (STATES)': printed 12503, sum 12166"
   ],
-  "other_totals_checked": 4,
+  "other_totals_checked": 6,
   "other_totals_passed": 4
  },
  "inferred_pages": 0,
- "ocr_pages": 8,
+ "ocr_pages": 17,
  "warnings": []
 }

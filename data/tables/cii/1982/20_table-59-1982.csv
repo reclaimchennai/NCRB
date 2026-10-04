@@ -1,48 +1,44 @@
-section,sl_no,St. No.,States/U.Ts./Cities,No. of D.Gs./I.Gs. D.Is.G.& Ss.P.,No. of A.Ss.P./ Dy. S.P.,No. of Inspectors & Sub-Inspectors,No. of Officers below the rank of S.Is.,Total
-STATES:,1,Andhra Pradesh,2,7,561,"11,717","12,287",
-STATES:,2,Assam,...,...,344,"10,407","10,751",
-STATES:,3,Bihar,...,...,55,806,"12,249","13,127"
-STATES:,4,Gujarat,...,...,33,368,"11,773","12,183"
-STATES:,5,Haryana,...,...,17,161,"4,271","4,456"
-STATES:,6,Himachal Pradesh,...,...,15,135,"2,636","2,792"
-STATES:,7,Jammu & Kashmir,...,...,48,187,"5,712","5,960"
-STATES:,8,Karnataka,...,...,4,118,"3,739","3,870"
-STATES:,9,Kerala,...,...,8,97,"2,304","2,420"
-STATES:,10,Madhya Pradesh,...,...,55,98,"21,336","22,290"
-STATES:,11,Maharashtra,...,...,11,40,"10,997","11,977"
-STATES:,12,Manipur,...,...,7,34,"4,343","4,534"
-STATES:,13,Meghalaya,...,...,2,5,"1,615","1,664"
-STATES:,14,Nagaland,...,...,7,50,"5,766","6,016"
-STATES:,15,Orissa,...,...,14,67,"6,017","6,331"
-STATES:,16,Punjab,...,...,9,32,"5,610","5,846"
-STATES:,17,Rajasthan,...,...,6,47,"6,645","6,932"
-STATES:,18,Sikkim,...,...,1,2,443,456
-STATES:,19,Tamil Nadu,...,...,9,27,"5,729","5,979"
-STATES:,20,Tripura,...,...,3,12,62,"1,605"
-STATES:,21,Uttar Pradesh,...,...,40,111,965,"27,501"
-STATES:,22,West Bengal,...,...,19,35,611,"24,852"
-STATES:,,TOTAL (STATES),,229,755,"7,436","1,85,409","1,93,829"
-UNION TERRITORIES:,23,A. & N. Islands,...,1,3,186,190,
-UNION TERRITORIES:,24,Arunachal Pradesh,...,...,2,16,"1,143","1,161"
-UNION TERRITORIES:,25,Chandigarh,...,...,1,24,942,967
-UNION TERRITORIES:,26,D. & N. Haveli,...,...,...,1,68,69
-UNION TERRITORIES:,27,Delhi,...,...,9,32,378,"9,197"
-UNION TERRITORIES:,28,"Goa, Daman & Diu",...,...,1,19,543,564
-UNION TERRITORIES:,29,Lakshadweep,...,...,NIL,,,
-UNION TERRITORIES:,30,Mizoram,...,...,2,7,41,864
-UNION TERRITORIES:,31,Pondicherry,...,...,2,25,635,662
-UNION TERRITORIES:,,TOTAL (U.Ts.),,14,44,507,"13,578","14,143"
-UNION TERRITORIES:,,GRAND/TOTAL,,243,799,"7,943","1,98,987","2,07,972"
-CITIES:,1,Ahmedabad,...,...,9,"1,988","1,997",
-CITIES:,2,Bangalore,...,...,10,74,"2,676","2,761"
-CITIES:,3,Bombay,...,...,nil,-,-,
-CITIES:,4,Calcutta,...,...,5,8,"7,417","7,593"
-CITIES:,5,Delhi,...,...,9,32,378,"9,197"
-CITIES:,6,Hyderabad,...,...,2,1,42,"1,759"
-CITIES:,7,Kanpur,...,...,...,15,"1,251","1,266"
-CITIES:,8,Madras,...,...,...,...,...,...
-CITIES:,9,Jaipur,...,...,...,57,"1,317","1,374"
-CITIES:,10,Lucknow,...,...,not available,,,
-CITIES:,11,Pune,...,...,...,...,...,...
-CITIES:,12,Nagpur,...,...,...,...,"1,082","1,082"
-CITIES:,,TOTAL (CITIES),,17,51,738,"26,687","27,493"
+section,sl_no,States/U.Ts./Cities,No. of D.Gs./I.Gs. D.Is.G.& Ss.P.,No. of A.Ss.P./ Dy. S.P.,No. of Inspectors & Sub-Inspectors,No. of Officers below the rank of S.Is.,Total
+STATES:,1,Andhra Pradesh,2,7,561,"11,717","12,287"
+STATES:,2,Assam,,,344,"10,407","10,751"
+STATES:,3,Bihar,17,55,806,"12,249","13,127"
+STATES:,4,Gujarat,9,33,368,"11,773","12,183"
+STATES:,5,Haryana,7,17,161,"4,271","4,456"
+STATES:,6,Himachal Pradesh,6,15,135,"2,636","2,792"
+STATES:,7,Jammu & Kashmir,13,48,187,"5,712","5,960"
+STATES:,8,Karnataka,4,9,118,"3,739","3,870"
+STATES:,9,Kerala,8,11,97,"2,304","2,420"
+STATES:,10,Madhya Pradesh,35,98,821,"21,336","22,290"
+STATES:,11,Maharashtra,11,40,929,"10,997","11,977"
+STATES:,12,Manipur,7,34,150,"4,343","4,534"
+STATES:,13,Meghalaya,2,5,42,"1,615","1,664"
+STATES:,14,Nagaland,7,50,193,"5,766","6,016"
+STATES:,15,Orissa,14,67,233,"6,017","6,331"
+STATES:,16,Punjab,9,32,195,"5,610","5,846"
+STATES:,17,Rajasthan,6,47,234,"6,645","6,932"
+STATES:,18,Sikkim,1,2,10,443,456
+STATES:,19,Tamil Nadu,9,27,214,"5,729","5,979"
+STATES:,20,Tripura,3,12,62,"1,528","1,605"
+STATES:,21,Uttar Pradesh,40,111,965,"26,385","27,501"
+STATES:,22,West Bengal,19,35,611,"24,187","24,852"
+STATES:,,TOTAL (STATES),229,755,"7,436","1,85,409","1,93,829"
+UNION TERRITORIES:,23,A. & N. Islands,,1,3,186,190
+UNION TERRITORIES:,24,Arunachal Pradesh,,2,16,"1,143","1,161"
+UNION TERRITORIES:,25,Chandigarh,,1,24,942,967
+UNION TERRITORIES:,26,D. & N. Haveli,,,1,68,69
+UNION TERRITORIES:,27,Delhi,9,32,378,"9,197","9,616"
+UNION TERRITORIES:,28,"Goa, Daman & Diu",1,1,19,543,564
+UNION TERRITORIES:,29,Lakshadweep,,NIL,,,
+UNION TERRITORIES:,30,Mizoram,2,7,41,864,914
+UNION TERRITORIES:,31,Pondicherry,2,,25,635,662
+UNION TERRITORIES:,,TOTAL (U.Ts.),14,44,507,"13,578","14,143"
+UNION TERRITORIES:,,GRAND TOTAL,243,799,"7,943","1,98,987","2,07,972"
+CITIES:,1,Ahmedabad,,,9,"1,988","1,997"
+CITIES:,2,Bangalore,1,10,74,"2,676","2,761"
+,4,Calcutta,5,8,163,"7,417","7,593"
+,5,Delhi,9,32,378,"9,197","9,616"
+,6,Hyderabad,2,1,42,"1,759","1,804"
+,7,Kanpur,,,15,"1,251","1,266"
+,9,Jaipur,,,57,"1,317","1,374"
+,12,Nagpur,,,,"1,082","1,082"
+,,TOTAL (CITIES),17,51,738,"26,687","27,493"

@@ -15,28 +15,21 @@
  "source_sha256": "e969c0da7a23f68d95cb1a676a27cfb97a01018d436bbe81f74c0c8c0b5b25d8",
  "table_no": "19",
  "pdf_title": "CHAPTER 3 PERSONS ARRESTED ## 3·1 Persons arrested under IPC crimes (State-wise)",
- "row_label": "Sl. No.",
+ "row_label": "Sl. No. / Sl. No.",
  "pages": [
   1,
   2,
   2
  ],
- "n_rows": 35,
+ "n_rows": 46,
  "n_cols": 8,
- "n_cells": 111,
+ "n_cells": 141,
  "columns": [
   {
-   "col_no": "2",
+   "col_no": "4",
    "name": "States/U, Ts./Cities",
    "header": [
     "States/U, Ts./Cities"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "Year (4)",
-   "header": [
-    "Year"
    ]
   },
   {
@@ -48,7 +41,14 @@
   },
   {
    "col_no": "6",
-   "name": "% age variation in 1978 over 1977 (6)",
+   "name": "Year (6)",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "% age variation in 1978 over 1977 (7)",
    "header": [
     "% age variation in 1978 over 1977"
    ]
@@ -57,6 +57,13 @@
    "col_no": "3",
    "name": "col_3",
    "header": []
+  },
+  {
+   "col_no": "2",
+   "name": "Crime Heads",
+   "header": [
+    "Crime Heads"
+   ]
   },
   {
    "col_no": "10001",
@@ -70,13 +77,6 @@
    "name": "% age variation in 1978 over 1977 (10002)",
    "header": [
     "% age variation in 1978 over 1977"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "% age to total persons arrested during 1978",
-   "header": [
-    "% age to total persons arrested during 1978"
    ]
   }
  ],

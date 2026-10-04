@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "29",
- "title": "STATES",
+ "title": "123 TABLES—50 Statement indicating number of cases reported and value of property stolen under dacoity by place of occurrence during-1983",
  "listing_title": "Statement Indicating Number of Cases and Value of Property Stolen under Dacoity by Place of Occurrence During 1983",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,85 +14,79 @@
  "source_file": "raw/cii/1983/table_content/table-50-1983.pdf",
  "source_sha256": "272a7b4f94cfb348f7ba4339597b2c33c2837a21b5efee3be7c703fca983482e",
  "table_no": "",
- "pdf_title": "STATES",
- "row_label": "1 2 3 4 / Andhra Pradesh Assam Bihar Gujarat / . / . / . / . / .",
+ "pdf_title": "123 TABLES—50 Statement indicating number of cases reported and value of property stolen under dacoity by place of occurrence during-1983",
+ "row_label": "Sl.No. / Sl.No.",
  "pages": [
+  1,
+  1,
   1
  ],
- "n_rows": 3,
+ "n_rows": 45,
  "n_cols": 6,
- "n_cells": 18,
+ "n_cells": 123,
  "columns": [
   {
    "col_no": "8",
-   "name": "241 | 418 | 3,184 | 32",
+   "name": "Residential premises | No. of cases reported",
    "header": [
-    "241",
-    "418",
-    "3,184",
-    "32"
+    "Residential premises",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "9",
-   "name": "25·41 | 23·10 | 92·34 | 2·19",
+   "name": "Residential premises | Value of property stolen",
    "header": [
-    "25·41",
-    "23·10",
-    "92·34",
-    "2·19"
+    "Residential premises",
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "10",
-   "name": "68 | 5 | 227 | 29",
+   "name": "Highways | No. of cases reported",
    "header": [
-    "68",
-    "5",
-    "227",
-    "29"
+    "Highways",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "11",
-   "name": "7.36 | 4.38 | 10·52 | 1·43",
+   "name": "Highways | Value of property stolen",
    "header": [
-    "7.36",
-    "4.38",
-    "10·52",
-    "1·43"
+    "Highways",
+    "Value of property stolen"
    ]
   },
   {
    "col_no": "12",
-   "name": ".. | .. | .. | .. (12)",
+   "name": "River and Sea | No. of cases reported",
    "header": [
-    "..",
-    "..",
-    "..",
-    ".."
+    "River and Sea",
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "13",
-   "name": ".. | .. | .. | .. (13)",
+   "name": "River and Sea | Value of property stolen",
    "header": [
-    "..",
-    "..",
-    "..",
-    ".."
+    "River and Sea",
+    "Value of property stolen"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
+  "cells_checked": 3,
   "cells_passed": 0,
-  "failures": [],
+  "failures": [
+   "col 8 'TOTAL (U.Ts.)': printed 20, sum 8778",
+   "col 8 'TOTAL (CITIES)': printed 122, sum 127",
+   "col 10 'TOTAL (CITIES)': printed 13, sum 632"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

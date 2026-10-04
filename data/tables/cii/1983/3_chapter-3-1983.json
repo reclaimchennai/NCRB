@@ -14,8 +14,8 @@
  "source_file": "raw/cii/1983/table_chapter/chapter-3-1983.pdf",
  "source_sha256": "12b3566c11f230b7dffa058eef06acf020f4639e103f01f83d06852a19301a73",
  "table_no": "19",
- "pdf_title": "PERSONS ARRESTED for Committing Cognizable Crimes under IPC and their percentage variation",
- "row_label": "Sl. / States/U.Ts./Cities",
+ "pdf_title": "CHAPTER 3 PERSONS ARRESTED Persons Arrested for IPC offences (State-Wise)",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
@@ -24,35 +24,33 @@
  "n_cells": 104,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Year (3)",
+   "col_no": "11",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Year (12)",
    "header": [
     "Year"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Year (4)",
+   "col_no": "13",
+   "name": "Year (13)",
    "header": [
     "Year"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "%age variation in 1983 over 1982 (+)/decrease (-)",
-   "header": [
-    "%age variation in 1983 over 1982 (+)/decrease (-)"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 4,
-  "cells_passed": 1,
+  "cells_passed": 3,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 1.97371e+06, sum 1.97569e+06",
-   "col 4 'TOTAL (STATES)': printed 2.03449e+06, sum 2.03657e+06",
-   "col 4 'TOTAL (U.Ts.)': printed 42859, sum 42959"
+   "col 12 'TOTAL (STATES)': printed 2.03449e+06, sum 2.03641e+06"
   ],
   "other_totals_checked": 2,
   "other_totals_passed": 1

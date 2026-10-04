@@ -23,13 +23,15 @@
   2,
   2,
   2,
+  2,
+  3,
   3,
   3,
   3
  ],
- "n_rows": 41,
- "n_cols": 25,
- "n_cells": 1022,
+ "n_rows": 40,
+ "n_cols": 37,
+ "n_cells": 925,
  "columns": [
   {
    "col_no": "2",
@@ -229,19 +231,93 @@
     "Recidivism",
     "Total"
    ]
+  },
+  {
+   "col_no": "10016",
+   "name": "col_10016",
+   "header": []
+  },
+  {
+   "col_no": "10017",
+   "name": "Not Available (10017)",
+   "header": [
+    "Not Available"
+   ]
+  },
+  {
+   "col_no": "10018",
+   "name": "Not Available (10018)",
+   "header": [
+    "Not Available"
+   ]
+  },
+  {
+   "col_no": "10019",
+   "name": "Not Available (10019)",
+   "header": [
+    "Not Available"
+   ]
+  },
+  {
+   "col_no": "10020",
+   "name": "Not Available (10020)",
+   "header": [
+    "Not Available"
+   ]
+  },
+  {
+   "col_no": "10021",
+   "name": "col_10021",
+   "header": []
+  },
+  {
+   "col_no": "10022",
+   "name": "col_10022",
+   "header": []
+  },
+  {
+   "col_no": "10023",
+   "name": "col_10023",
+   "header": []
+  },
+  {
+   "col_no": "10024",
+   "name": "col_10024",
+   "header": []
+  },
+  {
+   "col_no": "10025",
+   "name": "col_10025",
+   "header": []
+  },
+  {
+   "col_no": "10026",
+   "name": "col_10026",
+   "header": []
+  },
+  {
+   "col_no": "10027",
+   "name": "col_10027",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 71,
-  "cells_passed": 70,
+  "cells_checked": 69,
+  "cells_passed": 62,
   "failures": [
-   "col 10005 'TOTAL (States)': printed 163110, sum 163010"
+   "col 9 'TOTAL (U.TS.)': printed 395, sum 501",
+   "col 10005 'TOTAL (States)': printed 163110, sum 163010",
+   "col 10021 'TOTAL (U.TS.)': printed 2575, sum 1689",
+   "col 10022 'TOTAL (U.TS.)': printed 801, sum 366",
+   "col 10025 'TOTAL (U.TS.)': printed 2819, sum 1629",
+   "col 10026 'TOTAL (U.TS.)': printed 745, sum 481",
+   "col 10027 'TOTAL (U.TS.)': printed 3564, sum 2110"
   ],
-  "other_totals_checked": 24,
-  "other_totals_passed": 24
+  "other_totals_checked": 17,
+  "other_totals_passed": 17
  },
  "inferred_pages": 0,
- "ocr_pages": 9,
+ "ocr_pages": 11,
  "warnings": []
 }

@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "19",
- "title": "7-12 12-16",
+ "title": "54 TABLE— JUVENILES APPREHENDED IN THE STATES/U.Ts./CITIES",
  "listing_title": "Juveniles Apprehended in the States / U.T.s / Cities by Age Groups in Years and Sex -1970",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,19 +14,30 @@
  "source_file": "raw/cii/1970/table_content/table-19-1970.pdf",
  "source_sha256": "03da5a078e5cfa346b7130f9be55fffec49501e0a40b587faef9360d6b622bed",
  "table_no": "",
- "pdf_title": "7-12 12-16",
- "row_label": "",
+ "pdf_title": "54 TABLE— JUVENILES APPREHENDED IN THE STATES/U.Ts./CITIES",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
  "n_rows": 39,
- "n_cols": 1,
- "n_cells": 39,
+ "n_cols": 2,
+ "n_cells": 78,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Boys | 7-12",
+   "header": [
+    "Boys",
+    "7-12"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Boys | Over12-16",
+   "header": [
+    "Boys",
+    "Over12-16"
+   ]
   }
  ],
  "notes": [],
@@ -34,8 +45,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 3
+  "other_totals_checked": 8,
+  "other_totals_passed": 8
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

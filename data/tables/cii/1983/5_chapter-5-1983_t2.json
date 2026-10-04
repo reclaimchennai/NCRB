@@ -1,0 +1,103 @@
+{
+ "table_id": "cii/1983/5_chapter-5-1983_t2",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_chapter",
+ "topic": "",
+ "section": "",
+ "serial": "5",
+ "title": "Under IPC Crimes 5.3.1 A total of 55,473 juvenile crimes were recorded in the country during 1983 under IPC cognizable crimes as against 59,345 in the year 1982. The incidence in different States and Union Territories varied widely and it has no relationship Table 32 Juvenile crime under Local and Special laws 1983",
+ "listing_title": "Juvenile Delinquency",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-5-1983.pdf",
+ "source_file": "raw/cii/1983/table_chapter/chapter-5-1983.pdf",
+ "source_sha256": "4eef122b2d05e3e9c27b0c3ada54c88123111a8e5926f53dcba42dc565512673",
+ "table_no": "",
+ "pdf_title": "Under IPC Crimes 5.3.1 A total of 55,473 juvenile crimes were recorded in the country during 1983 under IPC cognizable crimes as against 59,345 in the year 1982. The incidence in different States and Union Territories varied widely and it has no relationship Table 32 Juvenile crime under Local and Special laws 1983",
+ "row_label": "S.I.",
+ "pages": [
+  4,
+  8,
+  9
+ ],
+ "n_rows": 107,
+ "n_cols": 8,
+ "n_cells": 494,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Heads of offences",
+   "header": [
+    "Heads of offences"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Number of offences during",
+   "header": [
+    "Number of offences during"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "%age of offences to total offences in 1983",
+   "header": [
+    "%age of offences to total offences in 1983"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Culpable Homicide not amounting to murder",
+   "header": [
+    "Culpable Homicide not amounting to murder"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Rape",
+   "header": [
+    "Rape"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Kidnapping and abduction",
+   "header": [
+    "Kidnapping and abduction"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Dacoity",
+   "header": [
+    "Dacoity"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Robbery",
+   "header": [
+    "Robbery"
+   ]
+  }
+ ],
+ "notes": [
+  "Negligible : less than 0.05"
+ ],
+ "checks": {
+  "cells_checked": 30,
+  "cells_passed": 26,
+  "failures": [
+   "col 7 'TOTAL (CITIES)': printed 157, sum 159",
+   "col 9 'TOTAL (STATES)': printed 1343, sum 1342",
+   "col 9 'TOTAL (U.T.)': printed 58, sum 61",
+   "col 9 'TOTAL (CITIES)': printed 204, sum 201"
+  ],
+  "other_totals_checked": 12,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

@@ -1,0 +1,86 @@
+{
+ "table_id": "cii/1983/30_table-51-1983_t5",
+ "publication": "cii",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "30",
+ "title": "7 Jaipur 8 Kanpur 9 Lucknow",
+ "listing_title": "Statement Showing Number of Cases Reported and Value of Property Stolen under Robbery by Place of Occurrence During 1983",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-51-1983.pdf",
+ "source_file": "raw/cii/1983/table_content/table-51-1983.pdf",
+ "source_sha256": "9b46371294d88602e46e71e27df73d94eaaf79992809acd690d50efbdf6ada84",
+ "table_no": "",
+ "pdf_title": "7 Jaipur 8 Kanpur 9 Lucknow",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
+ "pages": [
+  2,
+  3
+ ],
+ "n_rows": 47,
+ "n_cols": 6,
+ "n_cells": 180,
+ "columns": [
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "8",
+   "name": "col_8",
+   "header": []
+  },
+  {
+   "col_no": "3",
+   "name": "Other places | No. of cases reported",
+   "header": [
+    "Other places",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Other places | Value of property stolen",
+   "header": [
+    "Other places",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total | No. of cases reported",
+   "header": [
+    "Total",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total | Value of property stolen",
+   "header": [
+    "Total",
+    "Value of property stolen"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 9711, sum 10015",
+   "col 3 'TOTAL (CITIES)': printed 1226, sum 922",
+   "col 5 'TOTAL (STATES)': printed 20957, sum 21391",
+   "col 5 'TOTAL (CITIES)': printed 2203, sum 2269"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

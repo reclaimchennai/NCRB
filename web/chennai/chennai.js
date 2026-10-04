@@ -6,12 +6,12 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=c96e3ffe6c';
-import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=c96e3ffe6c';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=c96e3ffe6c';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=c96e3ffe6c';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=c96e3ffe6c';
-import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=c96e3ffe6c';
+import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=a035a01934';
+import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=a035a01934';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=a035a01934';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=a035a01934';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=a035a01934';
+import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=a035a01934';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];

@@ -1,0 +1,84 @@
+{
+ "table_id": "adsi/1972/4_1680154594appendix-51972_t3",
+ "publication": "adsi",
+ "year": 1972,
+ "listing": "table_content",
+ "topic": "Suicides in India",
+ "section": "SUICIDES IN INDIA",
+ "serial": "4",
+ "title": "44 APPENDIX-V--Control.",
+ "listing_title": "Statement of Number of Suicides in States/UTs./Cities - 1972 (By Causes)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680154594appendix-51972.pdf",
+ "source_file": "raw/adsi/1972/table_content/1680154594appendix-51972.pdf",
+ "source_sha256": "0b9457582843d40a2fe5967e1e4a67f3b46bbb01200bf02d7a72ab7940ac620b",
+ "table_no": "",
+ "pdf_title": "44 APPENDIX-V--Control.",
+ "row_label": "Sl.No. 1",
+ "pages": [
+  7
+ ],
+ "n_rows": 23,
+ "n_cols": 5,
+ "n_cells": 112,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Name of States/ U. Ts./Cities | 2",
+   "header": [
+    "Name of States/ U. Ts./Cities",
+    "2"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Other Causes | M.",
+   "header": [
+    "Other Causes",
+    "M."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Other Causes | F.",
+   "header": [
+    "Other Causes",
+    "F."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Total | M.",
+   "header": [
+    "Total",
+    "M."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Grand Total(Male & Female) | F.",
+   "header": [
+    "Grand Total(Male & Female)",
+    "F."
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 13166, sum 13193",
+   "col 4 'TOTAL (States)': printed 6789, sum 6817",
+   "col 5 'TOTAL (States)': printed 26576, sum 26605",
+   "col 6 'TOTAL (States)': printed 16500, sum 16530",
+   "col 7 'TOTAL (States)': printed 43076, sum 43107"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

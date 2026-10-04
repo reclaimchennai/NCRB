@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1967",
  "serial": "2",
- "title": "10 Table 8 presents statistics of suicidal deaths by different means adopted for self-destruction. A majority of persons adopted drowning, hanging and poisoning as principal means of destroying their lives. These three means were responsible for about 25·3%, 18·8% and 16·9% of total suicidal deaths respectively. TABLE 8",
+ "title": "presents statistics of suicidal deaths by different means adopted for self-destruction. A majority of persons adopted drowning, hanging and poisoning as principal means of destroying their lives. These three means were responsible for about 25.3%, 18.8% and 16.9% of total suicidal deaths respectively. Table 8\\nIncidence of suicides in India during 1967 by different means adopted",
  "listing_title": "Suicidal Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,60 +14,50 @@
  "source_file": "raw/adsi/1967/year_wise/suicides-1967.pdf",
  "source_sha256": "dfc9c36dd126f4448b64ef19e7c0c8950ad6de3ba90b1603078acab20d60a3bf",
  "table_no": "8",
- "pdf_title": "10 Table 8 presents statistics of suicidal deaths by different means adopted for self-destruction. A majority of persons adopted drowning, hanging and poisoning as principal means of destroying their lives. These three means were responsible for about 25·3%, 18·8% and 16·9% of total suicidal deaths respectively. TABLE 8",
- "row_label": ". / . / No. of suicidal deaths .",
+ "pdf_title": "presents statistics of suicidal deaths by different means adopted for self-destruction. A majority of persons adopted drowning, hanging and poisoning as principal means of destroying their lives. These three means were responsible for about 25.3%, 18.8% and 16.9% of total suicidal deaths respectively. Table 8\\nIncidence of suicides in India during 1967 by different means adopted",
+ "row_label": "Means adopted",
  "pages": [
-  3
+  3,
+  4
  ],
- "n_rows": 1,
- "n_cols": 2,
- "n_cells": 2,
+ "n_rows": 47,
+ "n_cols": 3,
+ "n_cells": 129,
  "columns": [
   {
-   "col_no": "9",
-   "name": "Percentage to total suicidal deaths | 2,958 | 218 | 399 | 184 | 6,561 | 1,258 | 2,232 | 9,803 | 9,7279 | 1,307 | 6,630",
+   "col_no": "2",
+   "name": "No. of suicidal deaths",
    "header": [
-    "Percentage to total suicidal deaths",
-    "2,958",
-    "218",
-    "399",
-    "184",
-    "6,561",
-    "1,258",
-    "2,232",
-    "9,803",
-    "9,7279",
-    "1,307",
-    "6,630"
+    "No. of suicidal deaths"
    ]
   },
   {
-   "col_no": "10",
-   "name": "7.61 | 0.56 | 1.02 | 0.47 | 16.90 | 3.24 | 5.75 | 25.25 | 18.75 | 3.37 | 17.08",
+   "col_no": "3",
+   "name": "Percentage to total suicidal deaths",
    "header": [
-    "7.61",
-    "0.56",
-    "1.02",
-    "0.47",
-    "16.90",
-    "3.24",
-    "5.75",
-    "25.25",
-    "18.75",
-    "3.37",
-    "17.08"
+    "Percentage to total suicidal deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage change from 1966 to 1967",
+   "header": [
+    "Percentage change from 1966 to 1967"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "Incidence of suicidal deaths in States, Union Territories and cities.",
+  "The regional distribution of incidence of suicides shows marked variation from State to State. Table 9 presents actual incidence of such deaths in different States, Union Territories and cities during 1966 and 1967. This Table also indicates percentage variation from 1966 to 1967. A maximum increase of 118.26% has been recorded by Punjab, while Madhya Pradesh indicated significant decline of 27.3%. Among the Union Territories Pondicherry and Tripura reported decline of 9.6% and 37.7% respectively but Delhi indicated a marked increase of 84.3%. Bangalore city recorded a sharp decline of 60.5% while Delhi city showed a significant increase of 65.1%."
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

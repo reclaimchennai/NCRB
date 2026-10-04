@@ -15,7 +15,7 @@
  "source_sha256": "50f732815a0d2c921414c632b08413cbe74c368f5521aa8d2c30fd7dfb630f44",
  "table_no": "45",
  "pdf_title": "112 TABLE 45",
- "row_label": "Sl. No. / States/UTs/Cities",
+ "row_label": "Sl. No.",
  "pages": [
   2,
   2,
@@ -26,9 +26,9 @@
   4,
   4
  ],
- "n_rows": 65,
+ "n_rows": 63,
  "n_cols": 15,
- "n_cells": 835,
+ "n_cells": 749,
  "columns": [
   {
    "col_no": "3",
@@ -151,16 +151,16 @@
  "notes": [],
  "checks": {
   "cells_checked": 50,
-  "cells_passed": 41,
+  "cells_passed": 38,
   "failures": [
-   "col 3 'TOTAL (CITIES) .': printed 25490, sum 22675",
-   "col 4 'TOTAL (CITIES) .': printed 6091, sum 4926",
-   "col 5 'TOTAL (CITIES) .': printed 556, sum 443",
-   "col 6 'TOTAL (CITIES) .': printed 2084, sum 1995",
-   "col 6 'TOTAL (STATES) .': printed 114999, sum 14999",
-   "col 7 'TOTAL (STATES) .': printed 1.16279e+06, sum 162789",
-   "col 8 'TOTAL (STATES) .': printed 196114, sum 96114",
-   "col 10 'TOTAL (CITIES) .': printed 7768, sum 6649"
+   "col 3 'TOTAL (CITIES)': printed 25490, sum 22675",
+   "col 4 'TOTAL (CITIES)': printed 6091, sum 4931",
+   "col 4 'TOTAL (CITIES)': printed 27125, sum 27120",
+   "col 5 'TOTAL (CITIES)': printed 556, sum 443",
+   "col 6 'TOTAL (CITIES)': printed 2084, sum 1995",
+   "col 6 'TOTAL (STATES)': printed 114999, sum 14999",
+   "col 7 'TOTAL (STATES)': printed 1.16279e+06, sum 162789",
+   "col 7 'TOTAL (CITIES)': printed 37711, sum 37706"
   ],
   "other_totals_checked": 11,
   "other_totals_passed": 0

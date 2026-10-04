@@ -1,0 +1,67 @@
+{
+ "table_id": "adsi/1975/3_suicides-1975_t11",
+ "publication": "adsi",
+ "year": 1975,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1975",
+ "serial": "3",
+ "title": "33",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1975.pdf",
+ "source_file": "raw/adsi/1975/year_wise/suicides-1975.pdf",
+ "source_sha256": "2edf54e153b79551e9fde4168e375cf5fb69438935d3c8227cd1f21070e875c9",
+ "table_no": "",
+ "pdf_title": "33",
+ "row_label": "",
+ "pages": [
+  15
+ ],
+ "n_rows": 26,
+ "n_cols": 5,
+ "n_cells": 130,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 9,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 25684, sum 10318",
+   "col 5 'TOTAL (STATES)': printed 16552, sum 6774",
+   "col 7 'TOTAL (STATES)': printed 42236, sum 17092"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

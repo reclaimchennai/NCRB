@@ -15,14 +15,14 @@
  "source_sha256": "77031f64b437746563a33fe72886e20f3df0b0228d4f9e07ab297502d1eafad1",
  "table_no": "",
  "pdf_title": "40 APPENDIX IV STATEWISE DISTRIBUTION OF SUICIDES BY MEANS ADOPTED DURING 1974.",
- "row_label": "Sl. No. / Names of States/ U.Ts./Cities",
+ "row_label": "Sl. No.",
  "pages": [
   1,
   3
  ],
  "n_rows": 23,
- "n_cols": 23,
- "n_cells": 517,
+ "n_cols": 24,
+ "n_cells": 423,
  "columns": [
   {
    "col_no": "3",
@@ -121,6 +121,11 @@
    ]
   },
   {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
    "col_no": "10001",
    "name": "col_10001",
    "header": []
@@ -199,10 +204,15 @@
  "notes": [],
  "checks": {
   "cells_checked": 23,
-  "cells_passed": 21,
+  "cells_passed": 16,
   "failures": [
-   "col 10001 'Total (States)': printed 3798, sum 3718",
-   "col 10007 'Total (States)': printed 6368, sum 6366"
+   "col 10001 'Total (States)': printed 3798, sum 3717",
+   "col 10003 'Total (States)': printed 5846, sum 5839",
+   "col 10007 'Total (States)': printed 6368, sum 6366",
+   "col 10008 'Total (States)': printed 3073, sum 3072",
+   "col 10009 'Total (States)': printed 27458, sum 27448",
+   "col 10010 'Total (States)': printed 17980, sum 17979",
+   "col 10011 'Total (States)': printed 45438, sum 45427"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -15,14 +15,15 @@
  "source_sha256": "24c39932efdfe35c5ecfaec4b3133e2b9774d985d4ba64464c9ac9819057d678",
  "table_no": "",
  "pdf_title": "States",
- "row_label": "1. Andra Pradesh 2. Assam 3. Bihar 4. Gujarat 5. Haryana 6. Himachal Pradesh / . / 801(19.9) 834(45.2) 141(17.9) 239(12.6) 218(25.3) 19(21.1)",
+ "row_label": "1. Andra Pradesh 2. Assam 3. Bihar 4. Gujarat 5. Haryana 6. Himachal Pradesh / 801(19.9) 834(45.2) 141(17.9) 239(12.6) 218(25.3) 19(21.1)",
  "pages": [
   4,
-  4
+  4,
+  6
  ],
- "n_rows": 2,
- "n_cols": 5,
- "n_cells": 10,
+ "n_rows": 3,
+ "n_cols": 7,
+ "n_cells": 17,
  "columns": [
   {
    "col_no": "4",
@@ -83,6 +84,20 @@
     "860(100.0)",
     "90(100.0)"
    ]
+  },
+  {
+   "col_no": "2",
+   "name": "States/UTs/Cities",
+   "header": [
+    "States/UTs/Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "By hanging",
+   "header": [
+    "By hanging"
+   ]
   }
  ],
  "notes": [],
@@ -94,6 +109,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

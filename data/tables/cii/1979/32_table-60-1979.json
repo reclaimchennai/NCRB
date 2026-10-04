@@ -15,7 +15,7 @@
  "source_sha256": "e8c4b4063787b2fd3886882e13eea00983877aa7a5734ddd4e8eb9f34ccbf0e6",
  "table_no": "60",
  "pdf_title": "125 TABLE 60 ACTUAL POLICE STRENGTH DURING 1979",
- "row_label": "Sl. No. / Sl. No. / Name of the States/U.Ts./Cities",
+ "row_label": "Sl. No. / Sl. No.",
  "pages": [
   1
  ],
@@ -100,13 +100,12 @@
  "notes": [],
  "checks": {
   "cells_checked": 10,
-  "cells_passed": 8,
+  "cells_passed": 9,
   "failures": [
-   "col 4 'TOTAL (U.Ts.)': printed 119373, sum 194010",
-   "col 9 'TOTAL (States) .': printed 791204, sum 791304"
+   "col 4 'TOTAL (U.Ts.)': printed 119373, sum 194010"
   ],
   "other_totals_checked": 5,
-  "other_totals_passed": 4
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

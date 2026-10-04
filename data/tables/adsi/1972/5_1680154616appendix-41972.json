@@ -14,14 +14,14 @@
  "source_file": "raw/adsi/1972/table_content/1680154616appendix-41972.pdf",
  "source_sha256": "41cf647afd944cfb73a9124af946c1a208bfb119ff63745f3712ff4e3561a446",
  "table_no": "",
- "pdf_title": "36 APPENDIX-IV STATEMENT OF NUMBER OF SUICIDES IN STATES/U.Ts./CITIES DURING 1972",
- "row_label": "Sl. No. / Name of States/ U.Ts./ Cities",
+ "pdf_title": "APPENDIX-IV STATEMENT OF NUMBER OF SUICIDES IN STATES/UTS/CITIES DURING 1972 (BY AGE -GROUPS)",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
  "n_rows": 22,
  "n_cols": 9,
- "n_cells": 188,
+ "n_cells": 189,
  "columns": [
   {
    "col_no": "3",
@@ -81,19 +81,17 @@
   },
   {
    "col_no": "11",
-   "name": "Overall age-groups",
+   "name": "Overall age groups",
    "header": [
-    "Overall age-groups"
+    "Overall age groups"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 5,
-  "cells_passed": 4,
-  "failures": [
-   "col 7 'TOTAL (STATES)': printed 13611, sum 13591"
-  ],
+  "cells_passed": 5,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

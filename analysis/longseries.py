@@ -120,7 +120,8 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
     t = t.assign(policy=t.title.map(pol).fillna("keep"))
     t = t[t.policy != "drop"]
     if need_table is not None:
-        t = t[t.title.fillna("").str.contains(need_table)]
+        # a scanned continuation page's title can be just its page number ('22'): its file says what it is
+        t = t[t.title.fillna("").str.contains(need_table) | t.table_id.str.contains(need_table)]
     out = []
     for chunk in range(0, len(t), 400):
         ids = t.table_id.iloc[chunk:chunk + 400].tolist()
@@ -143,7 +144,8 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
             return None
         if k in colneed:
             return k if colneed[k].search(col) and not re.search(r"male|female|injur|cases", col, re.I) else None
-        return k if (CASES_COL.search(col) or YEAR.search(col) or not col.strip() or re.fullmatch(r"\W*cogni[sz]able\s+crimes\W*", col, re.I)) else None
+        return k if (CASES_COL.search(col) or YEAR.search(col) or not col.strip() or re.fullmatch(r"\s*col_\d+\s*", col)
+                     or re.fullmatch(r"\W*cogni[sz]able\s+crimes\W*", col, re.I)) else None
     c["head"] = [heads_col[col] or from_title(col, ti) for col, ti in zip(c["column"], c.title)]
     # headings Jev is sure name another head, or hold rates or victims (analysis.classify)
     from .classify import column_veto
@@ -356,7 +358,7 @@ def pick(c: pd.DataFrame) -> pd.DataFrame:
         for y, o in sorted(kept.items()):
             src = o["src"]
             status = "text" if o["text"] else "agreed" if o["firm"] else "consistent"
-            rows.append({"place": p, "ptype": pt, "head": h, "year": y, "value": o["value"], "status": status, "n": o["n"],
+            rows.append({"place": p, "ptype": pt, "head": h, "year": y, "value": o["value"], "status": status, "n": o["n"], "method": src.method,
                          "table_id": src.table_id, "title": src.title, "column": getattr(src, "column", ""), "edition": int(src.year), "url": src.source_url})
     return pd.DataFrame(rows)
 
@@ -377,10 +379,11 @@ def family(pub: str, ptypes: tuple[str, ...], geo: str, heads, d: pd.DataFrame, 
         v = r.value
         data[f"{pi[(r.place, r.ptype)]}.{hi[r.head]}.0"] += [r.year, int(v) if float(v).is_integer() else round(v, 2)]
     srcs = defaultdict(list)
-    for r in d.drop_duplicates(["edition", "title"]).itertuples(index=False):
-        lst = srcs[str(r.edition)]
+    # sources by the year a figure is for (the chart asks whether that year was read from a scan)
+    for r in d.drop_duplicates(["year", "title"]).itertuples(index=False):
+        lst = srcs[str(r.year)]
         if len(lst) < 8 and not any(x["title"] == r.title for x in lst):
-            lst.append({"title": re.sub(r"\s+", " ", str(r.title)).strip()[:160], "url": r.url, "method": ""})
+            lst.append({"title": re.sub(r"\s+", " ", str(r.title)).strip()[:160], "url": r.url, "method": r.method})
     years = sorted(int(y) for y in d.year.unique())
     return {"id": slug(f"long-{geo}-{title}"), "pub": pub, "topic": TOPIC, "title": title, "geo": geo, "mode": "places",
             "also": [], "years": years,
@@ -442,7 +445,8 @@ def suicide_datasets() -> pd.DataFrame:
             except ValueError:
                 continue
             p = resolve(str(nm), "Cities" if str(cat).lower().startswith("cit") else "", False, int(y))
-            if p and v > 0:
+            # its 1998-99 city rows are scrambled (Chennai 222 with a population of 125.9 lakh): left out
+            if p and v > 0 and not (p[1] == "city" and int(y) < 2000):
                 rows.append({"pname": p[0], "ptype": p[1], "head": "suicides", "fy": int(y), "value": v, "w": 2.5, "own": True,
                              "crank": 0, "method": "excel", "table_id": "odc/suicide-rate-state-city-1998-2020", "year": int(y),
                              "title": "Incidence and rate of suicides (ADSI), as copied in OpenDataChennai",
@@ -458,10 +462,16 @@ def run_pub(pub, heads, title, cats_city, not_table, need_table, years):
     d = pick(c) if len(c) else pd.DataFrame()
     if d.empty:
         return [], d
-    fams = [f for f in (
-        family(pub, ("state", "ut", "total"), "state", heads, d, f"{title}, by State"),
-        family(pub, ("city",), "city", heads, d, f"{title}, by city") if cats_city else None,
-    ) if f]
+    # one family per head: suicides, accidental deaths and road deaths are different counts with their own sources
+    fams = []
+    for k, lab, *_ in heads:
+        dk = d[d["head"] == k]
+        if dk.empty:
+            continue
+        fams += [f for f in (
+            family(pub, ("state", "ut", "total"), "state", heads, dk, f"{lab}, by State"),
+            family(pub, ("city",), "city", heads, dk, f"{lab}, by city") if cats_city else None,
+        ) if f]
     return fams, d
 
 

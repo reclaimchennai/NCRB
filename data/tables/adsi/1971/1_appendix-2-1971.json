@@ -21,9 +21,9 @@
   3,
   5
  ],
- "n_rows": 23,
- "n_cols": 35,
- "n_cells": 749,
+ "n_rows": 43,
+ "n_cols": 25,
+ "n_cells": 628,
  "columns": [
   {
    "col_no": "3",
@@ -124,6 +124,14 @@
   },
   {
    "col_no": "10001",
+   "name": "In Factories | Male",
+   "header": [
+    "In Factories",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10002",
    "name": "In Railways | Female",
    "header": [
     "In Railways",
@@ -131,7 +139,7 @@
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "10003",
    "name": "In Air Clash | Male",
    "header": [
     "In Air Clash",
@@ -139,7 +147,7 @@
    ]
   },
   {
-   "col_no": "10003",
+   "col_no": "10004",
    "name": "By Fire | Female",
    "header": [
     "By Fire",
@@ -147,7 +155,7 @@
    ]
   },
   {
-   "col_no": "10004",
+   "col_no": "10005",
    "name": "By Drowning | Male",
    "header": [
     "By Drowning",
@@ -155,7 +163,7 @@
    ]
   },
   {
-   "col_no": "10005",
+   "col_no": "10006",
    "name": "By Poisoning | Female",
    "header": [
     "By Poisoning",
@@ -163,23 +171,18 @@
    ]
   },
   {
-   "col_no": "10006",
+   "col_no": "10007",
    "name": "Male",
    "header": [
     "Male"
    ]
   },
   {
-   "col_no": "10007",
+   "col_no": "10008",
    "name": "Female",
    "header": [
     "Female"
    ]
-  },
-  {
-   "col_no": "10008",
-   "name": "col_10008",
-   "header": []
   },
   {
    "col_no": "10009",
@@ -197,80 +200,13 @@
    "header": []
   },
   {
+   "col_no": "10012",
+   "name": "col_10012",
+   "header": []
+  },
+  {
    "col_no": "15",
    "name": "col_15",
-   "header": []
-  },
-  {
-   "col_no": "10012",
-   "name": "In mines and quarry disaster | Male",
-   "header": [
-    "In mines and quarry disaster",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "10013",
-   "name": "By other causes | Female",
-   "header": [
-    "By other causes",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "10014",
-   "name": "Total | Male (10014)",
-   "header": [
-    "Total",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "10015",
-   "name": "Grand | Female",
-   "header": [
-    "Grand",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "10016",
-   "name": "Total | Male (10016)",
-   "header": [
-    "Total",
-    "Male"
-   ]
-  },
-  {
-   "col_no": "10017",
-   "name": "Female & Male",
-   "header": [
-    "Female & Male"
-   ]
-  },
-  {
-   "col_no": "10018",
-   "name": "col_10018",
-   "header": []
-  },
-  {
-   "col_no": "10019",
-   "name": "col_10019",
-   "header": []
-  },
-  {
-   "col_no": "10020",
-   "name": "col_10020",
-   "header": []
-  },
-  {
-   "col_no": "10021",
-   "name": "col_10021",
-   "header": []
-  },
-  {
-   "col_no": "10022",
-   "name": "col_10022",
    "header": []
   }
  ],
@@ -280,7 +216,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 33,
-  "other_totals_passed": 23
+  "other_totals_passed": 9
  },
  "inferred_pages": 0,
  "ocr_pages": 3,

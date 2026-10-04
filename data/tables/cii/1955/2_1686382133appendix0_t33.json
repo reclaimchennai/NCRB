@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "—PERSONS Appendix XVIII 45",
+ "title": "—CASES Appendix XIX 47",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,41 +14,48 @@
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "—PERSONS Appendix XVIII 45",
- "row_label": "Persons in whose cases the trials were completed",
+ "pdf_title": "—CASES Appendix XIX 47",
+ "row_label": "Cases in which trial was completed",
  "pages": [
-  37
+  39
  ],
  "n_rows": 33,
- "n_cols": 4,
- "n_cells": 132,
+ "n_cols": 5,
+ "n_cells": 160,
  "columns": [
   {
    "col_no": "2",
-   "name": "Persons convicted",
+   "name": "Cases convicted",
    "header": [
-    "Persons convicted"
+    "Cases convicted"
    ]
   },
   {
    "col_no": "3",
-   "name": "Persons acquitted or discharged",
+   "name": "Cases acquitted or discharged",
    "header": [
-    "Persons acquitted or discharged"
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons in custody or bail pending trial or investigation at the close of the year",
+   "name": "Percentage of cases convicted to true cases investigated",
    "header": [
-    "Persons in custody or bail pending trial or investigation at the close of the year"
+    "Percentage of cases convicted to true cases investigated"
    ]
   },
   {
    "col_no": "5",
-   "name": "Percentage of conviction",
+   "name": "Percentage of cases convicted to cases tried",
    "header": [
-    "Percentage of conviction"
+    "Percentage of cases convicted to cases tried"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Volume of crime",
+   "header": [
+    "Volume of crime"
    ]
   }
  ],

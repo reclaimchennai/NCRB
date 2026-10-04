@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1955",
  "serial": "2",
- "title": "ROBBERY 28",
+ "title": "HOUSE 30",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,34 +14,41 @@
  "source_file": "raw/cii/1955/year_wise/1686382133APPENDIX0.pdf",
  "source_sha256": "11317c7c862f7701528e30c595a0563e0c836092c0371dad5c4524b9f08cbf7c",
  "table_no": "",
- "pdf_title": "ROBBERY 28",
- "row_label": "Serial No.",
+ "pdf_title": "HOUSE 30",
+ "row_label": "Serial No. / State",
  "pages": [
-  20
+  22
  ],
- "n_rows": 32,
- "n_cols": 3,
- "n_cells": 96,
+ "n_rows": 33,
+ "n_cols": 4,
+ "n_cells": 132,
  "columns": [
   {
    "col_no": "3",
-   "name": "State",
+   "name": "Cases pending from last year",
    "header": [
-    "State"
+    "Cases pending from last year"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons in custody pending trial or investigation or on bail at the beginning of the year",
+   "name": "Cases reported during the year",
    "header": [
-    "Persons in custody pending trial or investigation or on bail at the beginning of the year"
+    "Cases reported during the year"
    ]
   },
   {
    "col_no": "5",
-   "name": "Persons arrested during the year",
+   "name": "Cases not investigated, declared false or mistake of fact or law or non-cognizable and pending investigations or trial",
    "header": [
-    "Persons arrested during the year"
+    "Cases not investigated, declared false or mistake of fact or law or non-cognizable and pending investigations or trial"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases not detected",
+   "header": [
+    "Cases not detected"
    ]
   }
  ],
@@ -50,8 +57,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_checked": 16,
+  "other_totals_passed": 11
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

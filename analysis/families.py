@@ -43,7 +43,7 @@ from functools import lru_cache
 import pandas as pd
 
 from .lib import ROOT, SCANNED, col_order, q
-from .taxonomy import prose, running_text, clean_title, geo_of, topic_of
+from .taxonomy import prose, running_text, clean_title, geo_of, topic_of, junk_title
 
 OUT = ROOT / "web" / "data" / "explore"
 LISTING_RANK = {"table_content": 0, "additional_table": 1, "table_chapter": 2, "year_wise": 3}
@@ -82,7 +82,15 @@ def jacc(a, b) -> float:
 
 SEX = {"male": "Male", "males": "Male", "men": "Male", "m": "Male", "female": "Female", "females": "Female", "women": "Female",
        "f": "Female", "transgender": "Transgender", "tg": "Transgender", "third gender": "Transgender", "total": "Total", "t": "Total",
-       "persons": "Total", "boys": "Boys", "girls": "Girls"}
+       "persons": "Total", "boys": "Boys", "girls": "Girls", "tr": "Transgender", "trans": "Transgender", "transgend": "Transgender",
+       "tr.": "Transgender", "t.g.": "Transgender"}
+# a category's measures, printed as its last heading level: 'Truck/Lorry | Offenders', '... | Victims', '... | Died'
+MEASURE = {"offenders": "Offenders", "offender": "Offenders", "victims": "Victims", "victim": "Victims", "injured": "Injured",
+           "persons injured": "Injured", "no. of persons injured": "Injured", "died": "Died", "persons died": "Died",
+           "no. of persons died": "Died", "killed": "Killed", "persons killed": "Killed", "deaths": "Died",
+           # Crime in India 2014 on: each head as I (incidence, cases), V (victims), R (rate per lakh)
+           "i": "Total", "v": "Victims", "r": "Rate"}
+BRK_ORDER = ["Total", "Male", "Female", "Transgender", "Boys", "Girls", "Offenders", "Victims", "Offenders + victims", "Died", "Killed", "Injured", "Rate", ""]
 TOTAL_RX = re.compile(r"(^|[^a-z])(grand\s+)?(sub[\s-]*)?(?<!to )(?<!of )(?<!in )total([^a-z]|$)|\(total\)", re.I)
 SKIP_COL = re.compile(r"^(sl|s|si)\.? ?no|^rank|^serial|^state|^ut$|^city$|^name of", re.I)
 
@@ -95,6 +103,8 @@ def clean_head(s: str) -> str:
     s = ZW.sub("", str(s or ""))
     # words broken across a narrow column ('Apprehen ded', 'Communicatio n') and headings printed twice ('Apprehend Apprehend')
     s = re.sub(r"\b([A-Za-z]{4,}) (lity|ity|mpt|ng|ing|tion|tions|sion|sions|ment|ments|ted|ded|ed|n|ly|al|ies|ive|ives|ance|ence|ble|ous|ary|ory|ure|ism|ist|ful|cy|nal|ical|es)\b", r"\1\2", s)
+    s = re.sub(r"\btransgend\s*er\b", "Transgender", s, flags=re.I)
+    s = re.sub(r"\b([A-Za-z]{4,}e) d\b", r"\1d", s)                   # 'Dismisse d'
     s = re.sub(r"\b(\w+) \1\b", r"\1", s, flags=re.I)
     s = re.sub(r"\(\s*col[^)]*\)|\bcol\.?\s*\d+[^|]*|\(\s*\d+\s*\)|\[\s*\d+\s*\]|\{[^}]*\}", " ", s)
     s = re.sub(r"\(\s*(19|20)\d\d\s*\)|\+\+?|\*+", " ", s)      # '(2016)', footnote marks
@@ -153,6 +163,9 @@ def split_col(label: str) -> tuple[str, str]:
     for i in range(len(parts) - 1, 0, -1):
         if re.match(r"^(ed|ded|ted|n|ing|tion|ment)\b", parts[i]):
             parts[i - 1:i + 1] = [parts[i - 1] + parts[i]]
+    if len(parts) > 1 and re.fullmatch(r"(19|20)\d\d", parts[0]):
+        # all-India tables print the year first: '2020 | Cases', '2020 | Crime Rate'
+        return f"@{parts[0]}@{' · '.join(parts[1:])}", ""
     if parts and re.fullmatch(r"(19|20)\d\d", parts[-1]):
         # a figure for an earlier (or the same) year printed alongside: kept, under its own category, dated to that year
         return f"@{parts[-1]}@{' · '.join(parts[:-1]) or 'Cases registered'}", ""
@@ -161,6 +174,8 @@ def split_col(label: str) -> tuple[str, str]:
     last, first = parts[-1].lower(), parts[0].lower()
     if len(parts) > 1 and last in SEX:
         return " · ".join(parts[:-1]), SEX[last]
+    if len(parts) > 1 and last in MEASURE:
+        return " · ".join(parts[:-1]), MEASURE[last]
     if len(parts) > 1 and first in SEX:
         return " · ".join(parts[1:]), SEX[first]
     if len(parts) == 1 and last in SEX and last != "total":
@@ -190,17 +205,53 @@ def slug(s: str, n: int = 90) -> str:
 
 # ---------------------------------------------------------------- grouping
 
+# 2004-2012 Crime in India printed one 'Statement of ... under <crime head>' table per head (about 74 of each kind):
+# each kind is one family, the crime head the first level of its categories
+STATEMENT = re.compile(r"^statement of (persons arrested by sex and age.?group|cases reported and their disposal by police and court|"
+                       r"persons arr\w+ and their disposal by police and court)\s*under\s*(.+)$", re.I)
+STATEMENT_TOPIC = {"persons arrested by sex and age-group": "Persons arrested", "cases reported and their disposal by police and court":
+                   "Court disposal & convictions", "persons arrested and their disposal by police and court": "Persons arrested"}
+
+
 def build(pub: str) -> list[dict]:
     t = q("SELECT table_id, publication, year, listing, topic AS chapter, title, method, n_rows, n_cols, n_cells, checks_total, checks_passed, source_url "
           "FROM tables WHERE publication = ? AND n_cells > 0", [pub])
     # district-wise tables run to 700+ rows a year; they stay on the Tables page
-    t = t[~t.title.fillna("").str.contains(r"district", case=False)].copy()
+    t = t[~t.title.fillna("").str.contains(r"district", case=False) & ~t.table_id.str.contains(r"district", case=False)
+          & ~t.title.fillna("").str.match(r"^\s*state\s*:", case=False)].copy()
     t["ctitle"] = t.title.map(clean_title)
     t["chapter"] = t.chapter.fillna("")
     t["topic"] = [topic_of(pub, c, x) for c, x in zip(t.chapter, t.title)]
     t["geo"] = [geo_of(c, x) for c, x in zip(t.chapter, t.title)]
     t["tok"] = t.ctitle.map(tokens)
     t = t[t.tok.map(len) > 0]
+    sm = [STATEMENT.match(x or "") for x in t.ctitle]
+    t["stmt"] = [re.sub(r"\barr\w+", "arrested", re.sub(r"age.?group", "age-group", m.group(1).lower())) if m else "" for m in sm]
+    t["prefix"] = [re.sub(r"\s+", " ", m.group(2)).strip(" .,-") if m else "" for m in sm]
+    st = t.stmt != ""
+    t.loc[st, "topic"] = t.loc[st, "stmt"].map(STATEMENT_TOPIC)
+    t.loc[st, "tok"] = t.loc[st, "stmt"].map(lambda k: frozenset(tokens(k)) | {"statement"})
+    # where the title does not say whether a table is of States, cities or all India, its rows do
+    blank = t.table_id[t.geo == ""].tolist()
+    if blank:
+        geo_rows = defaultdict(list)
+        for k in range(0, len(blank), 400):
+            ids = blank[k:k + 400]
+            r = q(f'SELECT DISTINCT table_id, "row", name, section FROM cells WHERE table_id IN ({",".join("?" * len(ids))})', ids)
+            for tid, nm, sec in zip(r.table_id, r.name, r.section):
+                geo_rows[tid].append((nm, sec))
+        yr = dict(zip(t.table_id, t.year))
+        meth = dict(zip(t.table_id, t.method))
+        def infer(tid):
+            res = [place_of(str(n), str(sc or ""), meth[tid] in SCANNED, int(yr[tid])) for n, sc in geo_rows.get(tid, [])]
+            if not res:
+                return ""
+            kinds = Counter(x[1] for x in res if x)
+            placed = sum(kinds.values()) / len(res)
+            if placed < 0.4:
+                return "india"
+            return "city" if kinds["city"] > kinds["state"] + kinds["ut"] else "state"
+        t.loc[t.geo == "", "geo"] = t.loc[t.geo == "", "table_id"].map(infer)
     # the categories each table prints, for joining families across redesigns
     heads = q('SELECT c.table_id, c."column" FROM cells c JOIN tables x USING (table_id) WHERE x.publication = ? GROUP BY 1, 2', [pub])
     cats_of = defaultdict(set)
@@ -234,13 +285,14 @@ def build(pub: str) -> list[dict]:
     for gr in groups:
         home = None
         for m in merged:
-            if m["topic"] != gr["topic"] or (m["geo"] != gr["geo"] and "" not in (m["geo"], gr["geo"])):
+            if m["topic"] != gr["topic"] or m["geo"] != gr["geo"]:
                 continue
             if len(m["years"] & gr["years"]) > 1:
                 continue
             ct, tt = jacc(m["cats"], gr["cats"]), jacc(m["tok"], gr["tok"])
             same_geo = m["geo"] == gr["geo"]
-            if (ct >= 0.45 and tt >= 0.2) or (same_geo and ((ct >= 0.3 and tt >= 0.45) or (ct >= 0.15 and tt >= 0.6) or tt >= 0.75)):
+            if (ct >= 0.45 and tt >= 0.2) or (same_geo and ((ct >= 0.3 and tt >= 0.45) or (ct >= 0.15 and tt >= 0.6)
+                                                           or (tt >= 0.75 and (ct >= 0.1 or not m["cats"] or not gr["cats"])))):
                 home = m
                 break
         if home:
@@ -256,7 +308,7 @@ def build(pub: str) -> list[dict]:
     for sm in [m for m in merged if len(m["years"]) <= 3 and m["cats"]]:
         best, bs = None, 0
         for m in big:
-            if m["topic"] != sm["topic"] or (m["geo"] != sm["geo"] and "" not in (m["geo"], sm["geo"])) or (m["years"] & sm["years"]):
+            if m["topic"] != sm["topic"] or m["geo"] != sm["geo"] or (m["years"] & sm["years"]):
                 continue
             cont, tt = len(sm["cats"] & m["cats"]) / len(sm["cats"]), jacc(m["tok"], sm["tok"])
             if cont >= 0.6 and (tt >= 0.3 or (cont >= 0.8 and tt >= 0.15)) and cont + tt > bs:
@@ -268,11 +320,11 @@ def build(pub: str) -> list[dict]:
     # the 2014 redesign renamed most tables: an old series (to 2013/14) and a new one (from 2013/14) of one topic and
     # geography are joined when they are each other's closest match, on looser terms than above
     def score(a, b):
-        if a["topic"] != b["topic"] or (a["geo"] != b["geo"] and "" not in (a["geo"], b["geo"])) or len(a["years"] & b["years"]) > 1:
+        if a["topic"] != b["topic"] or a["geo"] != b["geo"] or len(a["years"] & b["years"]) > 1:
             return 0
         ct, tt = jacc(a["cats"], b["cats"]), jacc(a["tok"], b["tok"])
         cont = len(a["cats"] & b["cats"]) / max(1, min(len(a["cats"]), len(b["cats"])))
-        return ct + tt + cont / 2 if ((tt >= 0.35 and ct >= 0.1) or ct >= 0.3 or tt >= 0.5 or (cont >= 0.5 and tt >= 0.3)) else 0
+        return ct + tt + cont / 2 if ((tt >= 0.35 and ct >= 0.1) or ct >= 0.3 or (tt >= 0.5 and ct >= 0.05) or (cont >= 0.5 and tt >= 0.3)) else 0
     old = [m for m in merged if 2010 <= max(m["years"]) <= 2016 and min(m["years"]) < 2010 and len(m["years"]) >= 3]
     new = [m for m in merged if min(m["years"]) >= 2013 and len(m["years"]) >= 3]
     pairs = sorted(((score(a, b), ia, ib) for ia, a in enumerate(old) for ib, b in enumerate(new)), reverse=True)
@@ -307,7 +359,7 @@ def build(pub: str) -> list[dict]:
             out.append(fam)
         if i % 200 == 0:
             print(f"  {pub}: {i}/{len(merged)} families read, {len(out)} kept", flush=True)
-    return out
+    return same_figures(out)
 
 
 # ---------------------------------------------------------------- one family
@@ -407,6 +459,52 @@ def unify(c: pd.DataFrame) -> pd.Series:
     return c.ck.map(find)
 
 
+@lru_cache(maxsize=4)
+def _jev_titles(pub: str) -> dict:
+    try:
+        from .classify import load
+        return load("titles", pub)
+    except Exception:
+        return {}
+
+
+def unreadable(pub: str, raw: str) -> bool:
+    """Jev (analysis/classify.py) is sure this printed title cannot be read as a title."""
+    lab = _jev_titles(pub).get(str(raw), {}).get("scope")
+    return bool(lab and lab["label"] == "unreadable" and lab["conf"] >= 0.6)
+
+
+def same_figures(fams: list[dict]) -> list[dict]:
+    """Two families of one topic and geography printing the same figures (a table and its reprint under another title):
+    the one with fewer figures goes, its title kept among the other's former titles."""
+    def values(f):
+        out = set()
+        for k, a in f["d"].items():
+            r = f["rows"][int(k.split(".")[0])]["name"]
+            for i in range(0, len(a), 2):
+                if a[i + 1]:
+                    out.add((r, a[i], a[i + 1]))
+        return out
+    vals = [values(f) for f in fams]
+    gone = set()
+    by = defaultdict(list)
+    for i, f in enumerate(fams):
+        by[(f["topic"], f["geo"])].append(i)
+    for idx in by.values():
+        idx.sort(key=lambda i: -len(vals[i]))
+        for a_pos, a in enumerate(idx):
+            if a in gone:
+                continue
+            for b in idx[a_pos + 1:]:
+                if b in gone or len(vals[b]) < 50:
+                    continue
+                if len(vals[a] & vals[b]) >= 0.9 * len(vals[b]):
+                    gone.add(b)
+                    fams[a]["also"] = (fams[a]["also"] + [fams[b]["title"]])[:8]
+    print(f"  {len(gone)} families dropped as reprints of another")
+    return [f for i, f in enumerate(fams) if i not in gone]
+
+
 def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None:
     ids = ch.table_id.tolist()
     marks = ",".join("?" for _ in ids)
@@ -414,6 +512,9 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
     if c.empty:
         return None
     c = c.merge(ch[["table_id", "year", "method"]], on="table_id")
+    pref = dict(zip(ch.table_id, ch.get("prefix", pd.Series([""] * len(ch), index=ch.index))))
+    if any(pref.values()):          # one 'Statement of ... under <head>' table per head: the head leads each heading
+        c["column"] = [f"{pref.get(tid) or ''} | {col}" if pref.get(tid) else col for tid, col in zip(c.table_id, c["column"])]
     sp = c["column"].map(split_col)
     c["cat"] = sp.map(lambda x: x[0])
     c["brk"] = sp.map(lambda x: x[1])
@@ -428,7 +529,23 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
         c["_late"] = 0
     c["_o"] = c.col_no.map(col_order)
     c = shift_fix(c)
+    # 2014-2020 road tables print each vehicle as Offenders / Victims / Total: deaths caused by that vehicle plus deaths
+    # of people in it. From 2021 'Died' counts only the people who died in that vehicle, so the two are kept apart
+    with_off = set(c.table_id[c.brk == "Offenders"])
+    if with_off:
+        c.loc[c.table_id.isin(with_off) & (c.brk == "Total"), "brk"] = "Offenders + victims"
     c["ck"] = c.cat.map(key_of)
+    # two different headings of one table under one key ('Truck · Died', 'Bus · Died' -> 'died'): add parent headings
+    for depth in (2, 3, 4):
+        cols = c.drop_duplicates(["table_id", "col_no"])
+        clash = cols.groupby(["table_id", "ck", "brk"]).cat.nunique()
+        bad = {ck for (_, ck, _), n in clash.items() if n > 1}
+        if not bad:
+            break
+        m = c.ck.isin(bad)
+        c.loc[m, "ck"] = ["/".join(_norm(x) for x in cat.split(" · ")[-depth:]) for cat in c.loc[m, "cat"]]
+    # placeholder or garbled headings: 'col_3', a bare year, headings with runs of figures ('Cases · 2010 64 346')
+    c = c[~c.cat.str.contains(r"^\s*col_?\d+\s*$|^\s*(?:19|20)\d\d\s*$|\d+\s+\d+\s+\d+", regex=True)]
     c = c[(c.ck != "") & ~c.ck.str.match(SKIP_COL)]
     if c.empty:
         return None
@@ -438,7 +555,8 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
     basis = clean if clean.year.nunique() >= 2 else c
     per_year = basis.groupby("year").ck.apply(set)
     cnt = Counter(k for s in per_year for k in s)
-    keep = [k for k, n in cnt.items() if n >= 2]
+    need = max(2, -(-len(per_year) // 4))
+    keep = [k for k, n in cnt.items() if n >= need]
     if not keep:
         return None
     # scanned years whose headings did not survive: by position, when the column count matches a clean year's
@@ -488,8 +606,9 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
     cat_label = latest.groupby("ck").cat.last().to_dict()
     cat_order = c[c.year == c.year.max()].groupby("ck")._o.min().to_dict()
     first_seen = c.groupby("ck")._o.min().to_dict()
-    cats = sorted(c.ck.unique(), key=lambda k: (bool(TOTAL_RX.search(cat_label[k])), cat_order.get(k, 1e6 + first_seen.get(k, 0))))[:90]
-    brks = [b for b in ["Total", "Male", "Female", "Transgender", "Boys", "Girls", ""] if b in set(c.brk)]
+    folded = any(pref.values())
+    cats = sorted(c.ck.unique(), key=lambda k: (bool(TOTAL_RX.search(cat_label[k])), cat_order.get(k, 1e6 + first_seen.get(k, 0))))[:900 if folded else 90]
+    brks = [b for b in BRK_ORDER if b in set(c.brk)]
     if mode == "categories":
         lab = latest.groupby("rname").name.last().to_dict()
         roworder = c[c.year == c.year.max()].groupby("rname")["row"].min().to_dict()
@@ -510,9 +629,17 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
             continue
         v = float(v)
         data[f"{i}.{j}.{bindex[b]}"] += [int(y), int(v) if v.is_integer() else round(v, 2)]
-    # the newest title that reads as a title (chapter PDFs sometimes carry the running text along)
-    cand = ch.assign(_p=ch.ctitle.map(prose)).sort_values(["_p", "_l", "year"], ascending=[True, True, False]).iloc[0]
+    # the title: from a text-layer edition where there is one (NCRB's own wording, not an OCR reading), the newest
+    # that reads as a title (chapter PDFs sometimes carry the running text along); a family none of whose titles
+    # reads as one is left out
+    ok = ch.assign(_p=ch.ctitle.map(prose), _j=[junk_title(c, r) or unreadable(pub, r) for c, r in zip(ch.ctitle, ch.title)])
+    ok = ok[~ok._j]
+    if ok.empty:
+        return None
+    cand = ok.sort_values(["_p", "_m", "_l", "year"], ascending=[True, True, True, False]).iloc[0]
     title = cand.ctitle or clean_title(cand.title)
+    if "stmt" in ch and (ch.stmt != "").all() and ch.stmt.nunique() == 1:
+        title = f"Statement of {ch.stmt.iloc[0]}, by crime head"
     if running_text(title):
         return None
     if len(title) > 140:
@@ -523,11 +650,14 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
         if not any(x["url"] == r.source_url for x in lst):
             lst.append({"title": re.sub(r"\s+", " ", str(r.title)).strip()[:160], "url": r.source_url, "method": r.method})
     olds = sorted({str(x) for x in ch.ctitle.unique() if x and x != title})[:6]
+    # the years most of the table is printed for (a stray year with one or two categories does not stretch the range)
+    per = c.groupby("year").ck.nunique()
+    core = [int(y) for y, n in per.items() if n >= 0.3 * per.max()]
     return {
         "id": slug(f"{topic}-{geo}-{title}"), "pub": pub, "topic": topic, "title": title, "geo": geo, "mode": mode,
         "also": olds, "years": years,
         "cats": [{"name": display_cat(cat_label[k]), **({"total": 1} if TOTAL_RX.search(cat_label[k]) else {})} for k in cats],
-        "brks": brks, "rows": rowlist, "d": data, "sources": srcs,
+        "brks": brks, "rows": rowlist, "d": data, "sources": srcs, "core": [min(core), max(core)] if core else [years[0], years[-1]],
     }
 
 
@@ -550,7 +680,7 @@ def main(pubs: list[str]) -> None:
                 f["id"] = f"{f['id']}-{seen[f['id']]}"
             (d / f"{f['id']}.json").write_text(json.dumps(f, separators=(",", ":")), encoding="utf-8")
             index["families"].append({k: f[k] for k in ("id", "pub", "topic", "title", "geo", "mode")} | {
-                "y0": f["years"][0], "y1": f["years"][-1], "n": len(f["years"]), "rows": len(f["rows"]), "cats": len(f["cats"]),
+                "y0": f["core"][0], "y1": f["core"][1], "n": len(f["years"]), "rows": len(f["rows"]), "cats": len(f["cats"]),
                 "also": f["also"][:3]})
         print(f"{pub}: {len(fams)} families ({time.time() - t0:.0f}s)")
     index["families"].sort(key=lambda f: (list(PUB_NAME).index(f["pub"]), f["topic"], {"state": 0, "city": 1, "india": 2}.get(f["geo"], 3), -f["n"], f["title"]))

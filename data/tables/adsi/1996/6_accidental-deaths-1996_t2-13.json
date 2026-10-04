@@ -1,0 +1,63 @@
+{
+ "table_id": "adsi/1996/6_accidental-deaths-1996_t2-13",
+ "publication": "adsi",
+ "year": 1996,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1996",
+ "serial": "6",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1996 N.C.R.B.(M.H.A.) Table-2.13",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1996.pdf",
+ "source_file": "raw/adsi/1996/year_wise/accidental-deaths-1996.pdf",
+ "source_sha256": "011a8f35424b29dedf53abe0ddf7d3e43487281e464a3f3a874d66c225ab63b8",
+ "table_no": "2.13",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1996 N.C.R.B.(M.H.A.) Table-2.13",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  14
+ ],
+ "n_rows": 58,
+ "n_cols": 3,
+ "n_cells": 174,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Total Registered Motor Vehicles as on 31.03.96 (in '000')",
+   "header": [
+    "Total Registered Motor Vehicles as on 31.03.96 (in '000')"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "No. of deaths due to Road Accidents in 1996",
+   "header": [
+    "No. of deaths due to Road Accidents in 1996"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Rate of Accidental Deaths (Col. 4/Col.3)",
+   "header": [
+    "Rate of Accidental Deaths (Col. 4/Col.3)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 3,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 30389, sum 30382",
+   "col 3 'TOTAL (UTS)': printed 3168, sum 3169",
+   "col 3 'TOTAL (ALL-INDIA)': printed 33558, sum 33557"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

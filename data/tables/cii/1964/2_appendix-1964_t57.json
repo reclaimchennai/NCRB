@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "138 PROPERTY STOLEN AND",
+ "title": "125 PERSONS APPENDIX XXII",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,41 +14,62 @@
  "source_file": "raw/cii/1964/table_chapter/appendix-1964.pdf",
  "source_sha256": "f45dcb582666293544ac26c2e40abd44ebfb046a8ef02df8eee0814973fa15b6",
  "table_no": "",
- "pdf_title": "138 PROPERTY STOLEN AND",
- "row_label": "Sl. No. / States/U.Ts./Cities",
+ "pdf_title": "125 PERSONS APPENDIX XXII",
+ "row_label": "Persons released by the Police or Magistrate before trial",
  "pages": [
-  100
+  87
  ],
- "n_rows": 27,
- "n_cols": 4,
- "n_cells": 104,
+ "n_rows": 26,
+ "n_cols": 7,
+ "n_cells": 169,
  "columns": [
   {
-   "col_no": "3",
-   "name": "No. of cases reported during the year",
+   "col_no": "2",
+   "name": "Persons in whose cases charge-sheet was laid",
    "header": [
-    "No. of cases reported during the year"
+    "Persons in whose cases charge-sheet was laid"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Persons convicted",
+   "header": [
+    "Persons convicted"
    ]
   },
   {
    "col_no": "4",
-   "name": "Value of property stolen (Rupees)",
+   "name": "Persons acquitted or discharged",
    "header": [
-    "Value of property stolen (Rupees)"
+    "Persons acquitted or discharged"
    ]
   },
   {
    "col_no": "5",
-   "name": "Value of property recovered (Rupees)",
+   "name": "Persons against whom cases were compounded or withdrawn",
    "header": [
-    "Value of property recovered (Rupees)"
+    "Persons against whom cases were compounded or withdrawn"
    ]
   },
   {
    "col_no": "6",
-   "name": "No. of cases in which property recovered",
+   "name": "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year",
    "header": [
-    "No. of cases in which property recovered"
+    "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Persons in custody pending trial or on bail during the stage of trial at the end of year",
+   "header": [
+    "Persons in custody pending trial or on bail during the stage of trial at the end of year"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Percentage of Conviction",
+   "header": [
+    "Percentage of Conviction"
    ]
   }
  ],
@@ -57,8 +78,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 6,
-  "other_totals_passed": 6
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

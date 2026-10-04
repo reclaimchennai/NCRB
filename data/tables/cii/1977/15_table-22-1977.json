@@ -15,16 +15,16 @@
  "source_sha256": "6856a556f9cbc2ac24a9b3cd6ba121779e732b5dd083a83e3bac8cb2aa2095cc",
  "table_no": "22",
  "pdf_title": "68 TABLE 22 PERSONS ARRESTED UNDER L.P.C. CRIMES BY SEX",
- "row_label": "Sl. No. / States/U. Ts./Cities / States/U. Ts./Cities",
+ "row_label": "Sl. No. / States/U. Ts./Cities",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 89,
- "n_cols": 18,
- "n_cells": 1134,
+ "n_rows": 88,
+ "n_cols": 19,
+ "n_cells": 1136,
  "columns": [
   {
    "col_no": "3",
@@ -76,6 +76,13 @@
   },
   {
    "col_no": "10001",
+   "name": "States/ U. Ts./Cities",
+   "header": [
+    "States/ U. Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "10002",
    "name": "Rape | Male",
    "header": [
     "Rape",
@@ -83,7 +90,7 @@
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "10003",
    "name": "Rape | Female",
    "header": [
     "Rape",
@@ -91,7 +98,7 @@
    ]
   },
   {
-   "col_no": "10003",
+   "col_no": "10004",
    "name": "Kidnapping & Abduction | Male",
    "header": [
     "Kidnapping & Abduction",
@@ -99,7 +106,7 @@
    ]
   },
   {
-   "col_no": "10004",
+   "col_no": "10005",
    "name": "Kidnapping & Abduction | Female",
    "header": [
     "Kidnapping & Abduction",
@@ -107,7 +114,7 @@
    ]
   },
   {
-   "col_no": "10005",
+   "col_no": "10006",
    "name": "Discoity | Male",
    "header": [
     "Discoity",
@@ -123,7 +130,7 @@
    ]
   },
   {
-   "col_no": "10006",
+   "col_no": "10007",
    "name": "Riots | Male",
    "header": [
     "Riots",
@@ -131,7 +138,7 @@
    ]
   },
   {
-   "col_no": "10007",
+   "col_no": "10008",
    "name": "Riots | Female",
    "header": [
     "Riots",
@@ -139,7 +146,7 @@
    ]
   },
   {
-   "col_no": "10008",
+   "col_no": "10009",
    "name": "Criminal Brench of Trust | Male",
    "header": [
     "Criminal Brench of Trust",
@@ -147,7 +154,7 @@
    ]
   },
   {
-   "col_no": "10009",
+   "col_no": "10010",
    "name": "Cheating | Male",
    "header": [
     "Cheating",
@@ -155,7 +162,7 @@
    ]
   },
   {
-   "col_no": "10010",
+   "col_no": "10011",
    "name": "Counterfeiting | Male",
    "header": [
     "Counterfeiting",
@@ -177,7 +184,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 88,
-  "other_totals_passed": 65
+  "other_totals_passed": 60
  },
  "inferred_pages": 0,
  "ocr_pages": 4,

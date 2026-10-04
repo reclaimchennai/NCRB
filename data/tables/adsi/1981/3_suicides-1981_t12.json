@@ -1,0 +1,78 @@
+{
+ "table_id": "adsi/1981/3_suicides-1981_t12",
+ "publication": "adsi",
+ "year": 1981,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1981",
+ "serial": "3",
+ "title": "37",
+ "listing_title": "Suicidal Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1981.pdf",
+ "source_file": "raw/adsi/1981/year_wise/suicides-1981.pdf",
+ "source_sha256": "c098fcbf0ce8c32dc43db7ee3c5b25ce783d635c09885bfb2cde9c6469f19645",
+ "table_no": "",
+ "pdf_title": "37",
+ "row_label": "Sl. No.",
+ "pages": [
+  17,
+  17
+ ],
+ "n_rows": 6,
+ "n_cols": 5,
+ "n_cells": 30,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% of Male to total",
+   "header": [
+    "% of Male to total"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Female",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% of Female to total",
+   "header": [
+    "% of Female to total"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (Cities)': printed 1538, sum 649",
+   "col 5 'TOTAL (Cities)': printed 1140, sum 448",
+   "col 7 'TOTAL (Cities)': printed 2678, sum 1097"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

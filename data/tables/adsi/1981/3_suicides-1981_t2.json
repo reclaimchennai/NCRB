@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1981",
  "serial": "3",
- "title": "Volume of Suicides in States/Union Territories and Metropolitan Cities The volume of Suicides per lakh of population for India as a whole was 5.88 and for the States, U.Ts. and the Metropolitan cities it was 5.85, 8.33 and 8.12 respectively. Thus for the States as a whole it was slightly less than the all-India average but for the U. Ts. and the Metropolitan cities it was more than the all-India average 5.88. Among the States, the highest volume of Suicides was recorded by Tripura (21.30) followed by Kerala (16.12), West Bengal (12.01) Karnataka (10.64) and Tamil Nadu (10.01). The States of Assam (9.75), Orissa (7.16) and Sikkim (6.67) also recorded the higher volume of Suicides than the all-India average of (5.88). The lowest volume of Suicides was recorded by Jammu & Kashmir (0.32). Among the U.Ts. the highest volume of Suicides was recorded by Pondicherry (37.25) followed by A & N Islands (20.74) and D & N Haveli (15.38) while it was the lowest (2.5) in Lakshadweep. Among the Metropolitan cities, Bangalore topped the list with a volume of (27.79), Suicides per one lakh of population followed by Madras (21.31) while it was the lowest in Calcutta (0.76). The details are presented in Table-II. TAI LE II Incidence of Suicides, Volume of Suicides per Lakh of Population During 1981",
+ "title": "24",
  "listing_title": "Suicidal Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,15 +14,14 @@
  "source_file": "raw/adsi/1981/year_wise/suicides-1981.pdf",
  "source_sha256": "c098fcbf0ce8c32dc43db7ee3c5b25ce783d635c09885bfb2cde9c6469f19645",
  "table_no": "",
- "pdf_title": "Volume of Suicides in States/Union Territories and Metropolitan Cities The volume of Suicides per lakh of population for India as a whole was 5.88 and for the States, U.Ts. and the Metropolitan cities it was 5.85, 8.33 and 8.12 respectively. Thus for the States as a whole it was slightly less than the all-India average but for the U. Ts. and the Metropolitan cities it was more than the all-India average 5.88. Among the States, the highest volume of Suicides was recorded by Tripura (21.30) followed by Kerala (16.12), West Bengal (12.01) Karnataka (10.64) and Tamil Nadu (10.01). The States of Assam (9.75), Orissa (7.16) and Sikkim (6.67) also recorded the higher volume of Suicides than the all-India average of (5.88). The lowest volume of Suicides was recorded by Jammu & Kashmir (0.32). Among the U.Ts. the highest volume of Suicides was recorded by Pondicherry (37.25) followed by A & N Islands (20.74) and D & N Haveli (15.38) while it was the lowest (2.5) in Lakshadweep. Among the Metropolitan cities, Bangalore topped the list with a volume of (27.79), Suicides per one lakh of population followed by Madras (21.31) while it was the lowest in Calcutta (0.76). The details are presented in Table-II. TAI LE II Incidence of Suicides, Volume of Suicides per Lakh of Population During 1981",
- "row_label": "Sl. No. / Name of States/U.Ts./ Cities",
+ "pdf_title": "24",
+ "row_label": "Sl. No. / Name of States/U.Ts./Cities",
  "pages": [
-  3,
   4
  ],
- "n_rows": 47,
+ "n_rows": 36,
  "n_cols": 4,
- "n_cells": 188,
+ "n_cells": 144,
  "columns": [
   {
    "col_no": "3",
@@ -55,13 +54,15 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 2,
+  "cells_passed": 1,
+  "failures": [
+   "col 4 'TOTAL (States)': printed 39430, sum 17963"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

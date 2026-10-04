@@ -18,11 +18,18 @@
  "row_label": "Sl. States/UTs./Cities No.",
  "pages": [
   2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
   3
  ],
- "n_rows": 47,
+ "n_rows": 33,
  "n_cols": 10,
- "n_cells": 366,
+ "n_cells": 166,
  "columns": [
   {
    "col_no": "2",
@@ -108,12 +115,15 @@
  "notes": [],
  "checks": {
   "cells_checked": 6,
-  "cells_passed": 6,
-  "failures": [],
+  "cells_passed": 4,
+  "failures": [
+   "col 10001 'TOTAL (States)': printed 2743, sum 2489",
+   "col 10003 'TOTAL (States)': printed 14525, sum 13914"
+  ],
   "other_totals_checked": 3,
   "other_totals_passed": 3
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 9,
  "warnings": []
 }

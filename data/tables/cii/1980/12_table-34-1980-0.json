@@ -14,101 +14,108 @@
  "source_file": "raw/cii/1980/table_content/table-34-1980_0.pdf",
  "source_sha256": "685e2bc99b8f0b7fb536d954892934095f7462f3e64a0e73c986fd63bbda9184",
  "table_no": "34",
- "pdf_title": "94 TABLE 34 Juvensile Delinquency under Important Leads of Local and Special Laws during the year 1980",
- "row_label": "Sl. State/UK/CitiesNo.",
+ "pdf_title": "Juvenile Delinquency under Important Heads of Local and Special Laws during the year 1980 Cases reported under local & Special Laws",
+ "row_label": "St. States/Utah/Cities",
  "pages": [
   1
  ],
- "n_rows": 24,
- "n_cols": 13,
- "n_cells": 310,
+ "n_rows": 23,
+ "n_cols": 14,
+ "n_cells": 320,
  "columns": [
   {
    "col_no": "2",
-   "name": "ArmsAct",
+   "name": "St. States/Utah/Cities",
    "header": [
-    "ArmsAct"
+    "St. States/Utah/Cities"
    ]
   },
   {
    "col_no": "3",
-   "name": "OptimAct",
+   "name": "Arms Act",
    "header": [
-    "OptimAct"
+    "Arms Act"
    ]
   },
   {
    "col_no": "4",
-   "name": "GamingAct",
+   "name": "Option Act",
    "header": [
-    "GamingAct"
+    "Option Act"
    ]
   },
   {
    "col_no": "5",
-   "name": "ExpiseAct",
+   "name": "Gambling Act",
    "header": [
-    "ExpiseAct"
+    "Gambling Act"
    ]
   },
   {
    "col_no": "6",
-   "name": "Probition Act",
+   "name": "Exมิเรีย Act",
    "header": [
-    "Probition Act"
+    "Exมิเรีย Act"
    ]
   },
   {
    "col_no": "7",
+   "name": "Probation Act",
+   "header": [
+    "Probation Act"
+   ]
+  },
+  {
+   "col_no": "8",
    "name": "Explosive Act",
    "header": [
     "Explosive Act"
    ]
   },
   {
-   "col_no": "8",
-   "name": "S.I.T.Act",
-   "header": [
-    "S.I.T.Act"
-   ]
-  },
-  {
    "col_no": "9",
-   "name": "M.V.Act",
+   "name": "S.I.T. Act",
    "header": [
-    "M.V.Act"
+    "S.I.T. Act"
    ]
   },
   {
    "col_no": "10",
-   "name": "Prevention of Corrupt-tion Act",
+   "name": "M.V. Act",
    "header": [
-    "Prevention of Corrupt-tion Act"
+    "M.V. Act"
    ]
   },
   {
    "col_no": "11",
-   "name": "CustomsAct",
+   "name": "Prevention of Corruption Act",
    "header": [
-    "CustomsAct"
+    "Prevention of Corruption Act"
    ]
   },
   {
    "col_no": "12",
-   "name": "Indian Railways Act",
+   "name": "Customs Act",
    "header": [
-    "Indian Railways Act"
+    "Customs Act"
    ]
   },
   {
    "col_no": "13",
-   "name": "Other Offences",
+   "name": "Indian Railway Act",
    "header": [
-    "Other Offences"
+    "Indian Railway Act"
    ]
   },
   {
    "col_no": "14",
+   "name": "Other offences",
+   "header": [
+    "Other offences"
+   ]
+  },
+  {
+   "col_no": "15",
    "name": "Total",
    "header": [
     "Total"
@@ -117,9 +124,18 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
+  "cells_checked": 10,
   "cells_passed": 0,
-  "failures": [],
+  "failures": [
+   "col 3 'Total (States)': printed 163, sum 464",
+   "col 4 'Total (States)': printed 17603, sum 163",
+   "col 5 'Total (States)': printed 1765, sum 17603",
+   "col 6 'Total (States)': printed 29388, sum 1785",
+   "col 7 'Total (States)': printed 28, sum 29388",
+   "col 8 'Total (States)': printed 1012, sum 28",
+   "col 9 'Total (States)': printed 1813, sum 1012",
+   "col 10 'Total (States)': printed 5, sum 2413"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

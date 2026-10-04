@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1963",
  "serial": "1",
- "title": "26 1963 STATEMENT",
+ "title": "STATEMENT 1963 Juveniles apprehended under age groups",
  "listing_title": "Chapters",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,41 +14,61 @@
  "source_file": "raw/cii/1963/year_wise/1689774215SURVEYOFCRIME.pdf",
  "source_sha256": "7ff525b36d9ca98f06fa7d9c86b82d6511281525be4271d83b195b59cabf89ed",
  "table_no": "",
- "pdf_title": "26 1963 STATEMENT",
- "row_label": "States/Union Territories/Cities / States/Union Territories/Cities",
+ "pdf_title": "STATEMENT 1963 Juveniles apprehended under age groups",
+ "row_label": "Head of Crime",
  "pages": [
-  26
+  25
  ],
- "n_rows": 34,
- "n_cols": 4,
- "n_cells": 136,
+ "n_rows": 13,
+ "n_cols": 6,
+ "n_cells": 71,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Juveniles sent to Courts",
+   "col_no": "2",
+   "name": "7-12 | Boys",
    "header": [
-    "Juveniles sent to Courts"
+    "7-12",
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "7-12 | Girls",
+   "header": [
+    "7-12",
+    "Girls"
    ]
   },
   {
    "col_no": "4",
-   "name": "Juveniles sent to institutions",
+   "name": "12-16 | Boys",
    "header": [
-    "Juveniles sent to institutions"
+    "12-16",
+    "Boys"
    ]
   },
   {
    "col_no": "5",
-   "name": "Juveniles otherwise dealt with*",
+   "name": "12-16 | Girls",
    "header": [
-    "Juveniles otherwise dealt with*"
+    "12-16",
+    "Girls"
    ]
   },
   {
    "col_no": "6",
-   "name": "Juveniles whose cases were pending disposal in Courts",
+   "name": "16-21 | Boys",
    "header": [
-    "Juveniles whose cases were pending disposal in Courts"
+    "16-21",
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "16-21 | Girls",
+   "header": [
+    "16-21",
+    "Girls"
    ]
   }
  ],
@@ -57,8 +77,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 15,
-  "other_totals_passed": 15
+  "other_totals_checked": 6,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

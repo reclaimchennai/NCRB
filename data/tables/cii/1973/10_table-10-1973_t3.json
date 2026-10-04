@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "10",
- "title": "U. Tz",
+ "title": "62 TABLE Cases Reported Under",
  "listing_title": "Cases Reported under Special and Local Laws",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,55 +14,88 @@
  "source_file": "raw/cii/1973/table_content/table-10-1973.pdf",
  "source_sha256": "550e3a30e9fcbce0b0a1c94f12b0059825b432d553874e3bdcdba766b1983535",
  "table_no": "",
- "pdf_title": "U. Tz",
- "row_label": "22. A. & N. Islands / . / . / .",
+ "pdf_title": "62 TABLE Cases Reported Under",
+ "row_label": "Sl. No.",
  "pages": [
+  3,
+  3,
+  3,
+  3,
+  3,
   3
  ],
- "n_rows": 5,
- "n_cols": 6,
- "n_cells": 30,
+ "n_rows": 20,
+ "n_cols": 9,
+ "n_cells": 120,
  "columns": [
   {
-   "col_no": "5",
-   "name": "- (5)",
+   "col_no": "2",
+   "name": "Sl. No. (2)",
    "header": [
-    "-"
+    "Sl. No."
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Sl. No. (3)",
+   "header": [
+    "Sl. No."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "States/U.ts./Cities",
+   "header": [
+    "States/U.ts./Cities"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Prohibitor Act | I",
+   "header": [
+    "Prohibitor Act",
+    "I"
    ]
   },
   {
    "col_no": "6",
-   "name": "- (6)",
+   "name": "Prohibitor Act | V",
    "header": [
-    "-"
+    "Prohibitor Act",
+    "V"
    ]
   },
   {
    "col_no": "7",
-   "name": "3",
+   "name": "S.I.T. in Women & Girls Act | I",
    "header": [
-    "3"
+    "S.I.T. in Women & Girls Act",
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "2·50",
+   "name": "S.I.T. in Women & Girls Act | V",
    "header": [
-    "2·50"
+    "S.I.T. in Women & Girls Act",
+    "V"
    ]
   },
   {
    "col_no": "9",
-   "name": "13",
+   "name": "Motor Vehicles Act | I",
    "header": [
-    "13"
+    "Motor Vehicles Act",
+    "I"
    ]
   },
   {
    "col_no": "10",
-   "name": "10·83",
+   "name": "3·10 | 2·78 | 0·04",
    "header": [
-    "10·83"
+    "3·10",
+    "2·78",
+    "0·04"
    ]
   }
  ],
@@ -75,6 +108,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 6,
  "warnings": []
 }

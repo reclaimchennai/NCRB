@@ -8,53 +8,67 @@
  "serial": "7",
  "title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local and Special Laws During the Year - 1982",
  "listing_title": "Juveniles Apprehended (by Age Group) for Committing Crimes under Local and Special Laws During the Year - 1982",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-43-1982.pdf",
  "source_file": "raw/cii/1982/table_content/table-43-1982.pdf",
  "source_sha256": "e05dd745d5a67ddaea977cf118363c27b1ca6051998d5bf541808fd3fa16d5ec",
  "table_no": "43",
- "pdf_title": "JUVENILES APPREHENDED (BY AGE GROUP) FOR COMMITTING CRIMES UNDER LOCAL AND SPECTAT. LAWS DURING",
- "row_label": "",
+ "pdf_title": "106 TABLE 43 JUVENILES APPREHENDED (BY AGE GROUP) FOR COMMITTING CRIMES UNDER LOCAL AND SPECIAL LAWS DURING THE YEAR — 1982",
+ "row_label": "Si.No.",
  "pages": [
+  1,
   1
  ],
- "n_rows": 43,
- "n_cols": 4,
- "n_cells": 163,
+ "n_rows": 42,
+ "n_cols": 5,
+ "n_cells": 181,
  "columns": [
   {
-   "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "col_no": "8",
+   "name": "7 to 12 years",
+   "header": [
+    "7 to 12 years"
+   ]
   },
   {
-   "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "col_no": "9",
+   "name": "12 to 16 years",
+   "header": [
+    "12 to 16 years"
+   ]
   },
   {
-   "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "col_no": "10",
+   "name": "16 to 18 years",
+   "header": [
+    "16 to 18 years"
+   ]
   },
   {
-   "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "col_no": "11",
+   "name": "18 to 21 years",
+   "header": [
+    "18 to 21 years"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 4,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 7066, sum 8282"
-  ],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

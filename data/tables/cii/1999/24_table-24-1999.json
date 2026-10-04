@@ -21,7 +21,7 @@
  ],
  "n_rows": 35,
  "n_cols": 10,
- "n_cells": 350,
+ "n_cells": 349,
  "columns": [
   {
    "col_no": "3",
@@ -101,10 +101,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 20,
+  "cells_checked": 21,
   "cells_passed": 19,
   "failures": [
-   "col 3 'TOTAL STATES': printed 7.14713e+06, sum 7.14613e+06"
+   "col 3 'TOTAL STATES': printed 7.14713e+06, sum 7.14613e+06",
+   "col 6 'TOTAL (UTs)': printed 8131, sum 8130"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -1,0 +1,145 @@
+{
+ "table_id": "cii/1993/82_table-82-1993-crime_t92",
+ "publication": "cii",
+ "year": 1993,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "82",
+ "title": "343 TABLE-92",
+ "listing_title": "Statement of Cognizable Crimes Registered & their Disposal by Anti Corruption and Vigilance Departments of States & UTs under Pr",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-82-1993-crime.pdf",
+ "source_file": "raw/cii/1993/table_content/table-82-1993-crime.pdf",
+ "source_sha256": "77a511bc705be4bb95bf8e0e3a292fd401f2197fb8c9374c091e8f0db7815878",
+ "table_no": "92",
+ "pdf_title": "343 TABLE-92",
+ "row_label": "AL. NO.",
+ "pages": [
+  2
+ ],
+ "n_rows": 35,
+ "n_cols": 14,
+ "n_cells": 490,
+ "columns": [
+  {
+   "col_no": "16",
+   "name": "STATE (GID)",
+   "header": [
+    "STATE (GID)"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CASES PRESENTING AVESTI-AT THE END OF 12/18 (17)",
+   "header": [
+    "CASES PRESENTING AVESTI-AT THE END OF 12/18"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "CASES PRESENTING AVESTI-AT THE END OF 12/18 (18)",
+   "header": [
+    "CASES PRESENTING AVESTI-AT THE END OF 12/18"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "VALUE OF PRESENTING AVESTI-AT THE END OF 12/18",
+   "header": [
+    "VALUE OF PRESENTING AVESTI-AT THE END OF 12/18"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "PRICE OF CASES CHANGE PRESENTED TO TOTAL CASES CHANGE DATED",
+   "header": [
+    "PRICE OF CASES CHANGE PRESENTED TO TOTAL CASES CHANGE DATED"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "CASES PRESENTED TOTAL PRESENTED VALUE YEAR (21)",
+   "header": [
+    "CASES PRESENTED TOTAL PRESENTED VALUE YEAR"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "CASES PRESENTED TOTAL PRESENTED VALUE YEAR (22)",
+   "header": [
+    "CASES PRESENTED TOTAL PRESENTED VALUE YEAR"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "TOTAL CASES FOR TOTAL (23)",
+   "header": [
+    "TOTAL CASES FOR TOTAL"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "CASES WITH CHANGE PRESENTED ON 12/18",
+   "header": [
+    "CASES WITH CHANGE PRESENTED ON 12/18"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "TOTAL CASES FOR TOTAL (25)",
+   "header": [
+    "TOTAL CASES FOR TOTAL"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "OTHER CASES",
+   "header": [
+    "OTHER CASES"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "CASES AVESTI-AT THE END OF 12/18",
+   "header": [
+    "CASES AVESTI-AT THE END OF 12/18"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "PRESENTED CASES AVESTI-AT THE END OF 12/18",
+   "header": [
+    "PRESENTED CASES AVESTI-AT THE END OF 12/18"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "TOTAL CASES AVESTI-AT THE END OF 12/18",
+   "header": [
+    "TOTAL CASES AVESTI-AT THE END OF 12/18"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 11,
+  "cells_passed": 2,
+  "failures": [
+   "col 16 'TOTAL STATES': printed 3163, sum 3169",
+   "col 17 'TOTAL STATES': printed 607, sum 697",
+   "col 20 'TOTAL STATES': printed 6601, sum 5601",
+   "col 22 'TOTAL STATES': printed 6421, sum 6921",
+   "col 23 'TOTAL STATES': printed 90, sum 30",
+   "col 24 'TOTAL STATES': printed 602, sum 606",
+   "col 26 'TOTAL STATES': printed 442, sum 443",
+   "col 27 'TOTAL STATES': printed 8016, sum 6018"
+  ],
+  "other_totals_checked": 12,
+  "other_totals_passed": 5
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

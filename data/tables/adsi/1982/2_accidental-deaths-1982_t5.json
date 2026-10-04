@@ -23,9 +23,9 @@
   14,
   15
  ],
- "n_rows": 70,
- "n_cols": 6,
- "n_cells": 202,
+ "n_rows": 58,
+ "n_cols": 7,
+ "n_cells": 217,
  "columns": [
   {
    "col_no": "4",
@@ -60,10 +60,16 @@
   },
   {
    "col_no": "2",
-   "name": "Males | involved",
+   "name": "States/UTs/Cities",
    "header": [
-    "Males",
-    "involved"
+    "States/UTs/Cities"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Females involved",
+   "header": [
+    "Females involved"
    ]
   }
  ],
@@ -78,9 +84,11 @@
  ],
  "checks": {
   "cells_checked": 1,
-  "cells_passed": 1,
-  "failures": [],
-  "other_totals_checked": 0,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 79723, sum 79725"
+  ],
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

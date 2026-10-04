@@ -13,7 +13,7 @@
  * chart playing through the years never blinks.
  */
 
-import { getJSON } from './util.js?v=c96e3ffe6c';
+import { getJSON } from './util.js?v=a035a01934';
 
 const BASE = '../geo/';
 let eras = null, erasP = null, last = null, outline = null, outlineP = null;

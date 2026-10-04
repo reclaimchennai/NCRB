@@ -15,19 +15,19 @@
  "source_sha256": "121951f641265fcec16ebae61ccab1f8d79866d7d10ee774f65b5c77243099e4",
  "table_no": "22",
  "pdf_title": "71 TABLE 22 PERSONS ARRESTED UNDER I.P.C. CRIMES BY SEX DURING 1982",
- "row_label": "Sl. No. / Sl. No. / Sl. No. / States/U.Ts./Cities",
+ "row_label": "Sl. No. / Sl. No. / Sl. No.",
  "pages": [
   1,
   2,
+  2,
   3,
   4,
-  4,
-  4,
+  5,
   5
  ],
  "n_rows": 51,
- "n_cols": 26,
- "n_cells": 1046,
+ "n_cols": 28,
+ "n_cells": 948,
  "columns": [
   {
    "col_no": "5",
@@ -158,96 +158,53 @@
    ]
   },
   {
-   "col_no": "12",
-   "name": "333 | 80 | 204 | 663 | 22 | 21 | 25 | 229 | 23 | 222 | 1;541 | .. | 21 | .. | 70 | 30 | 756 | .. | 500 | 98 | 184 | 397",
+   "col_no": "11",
+   "name": "States/U.Ts./Cities (11)",
    "header": [
-    "333",
-    "80",
-    "204",
-    "663",
-    "22",
-    "21",
-    "25",
-    "229",
-    "23",
-    "222",
-    "1;541",
-    "..",
-    "21",
-    "..",
-    "70",
-    "30",
-    "756",
-    "..",
-    "500",
-    "98",
-    "184",
-    "397"
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Thefts | Male",
+   "header": [
+    "Thefts",
+    "Male"
    ]
   },
   {
    "col_no": "13",
-   "name": "32,873 | 21,482 | 79,575 | 14,821 | 1,466 | 837 | 4,561 | 35,832 | 29,168 | 40,115 | 54,553 | 678 | 237 | 129 | 21,309 | 236 | 42,570 | 21 | 55,289 | 1,550 | 56,863 | 58,834",
+   "name": "Thefts | Female",
    "header": [
-    "32,873",
-    "21,482",
-    "79,575",
-    "14,821",
-    "1,466",
-    "837",
-    "4,561",
-    "35,832",
-    "29,168",
-    "40,115",
-    "54,553",
-    "678",
-    "237",
-    "129",
-    "21,309",
-    "236",
-    "42,570",
-    "21",
-    "55,289",
-    "1,550",
-    "56,863",
-    "58,834"
+    "Thefts",
+    "Female"
    ]
   },
   {
    "col_no": "14",
-   "name": "1,545 | 539 | 490 | 441 | 40 | 126 | 204 | 1,225 | 1,025 | 301 | 1,943 | 45 | 24 | .. | 118 | .. | 2,096 | .. | 3,041 | 100 | 132 | 610",
+   "name": "Riots | Male",
    "header": [
-    "1,545",
-    "539",
-    "490",
-    "441",
-    "40",
-    "126",
-    "204",
-    "1,225",
-    "1,025",
-    "301",
-    "1,943",
-    "45",
-    "24",
-    "..",
-    "118",
-    "..",
-    "2,096",
-    "..",
-    "3,041",
-    "100",
-    "132",
-    "610"
+    "Riots",
+    "Male"
    ]
   },
   {
    "col_no": "15",
-   "name": "col_15",
-   "header": []
+   "name": "Riots | Female",
+   "header": [
+    "Riots",
+    "Female"
+   ]
   },
   {
    "col_no": "10010",
+   "name": "States/U.Ts./Cities (10010)",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "10011",
    "name": "Criminal Breach of Trust | Male",
    "header": [
     "Criminal Breach of Trust",
@@ -255,7 +212,7 @@
    ]
   },
   {
-   "col_no": "10011",
+   "col_no": "10012",
    "name": "Criminal Breach of Trust | Female",
    "header": [
     "Criminal Breach of Trust",
@@ -263,7 +220,7 @@
    ]
   },
   {
-   "col_no": "10012",
+   "col_no": "10013",
    "name": "Cheating | Male",
    "header": [
     "Cheating",
@@ -271,7 +228,7 @@
    ]
   },
   {
-   "col_no": "10013",
+   "col_no": "10014",
    "name": "Cheating | Female",
    "header": [
     "Cheating",
@@ -279,7 +236,7 @@
    ]
   },
   {
-   "col_no": "10014",
+   "col_no": "10015",
    "name": "Counterfeiting | Male",
    "header": [
     "Counterfeiting",
@@ -287,7 +244,7 @@
    ]
   },
   {
-   "col_no": "11",
+   "col_no": "10016",
    "name": "Counterfeiting | Female",
    "header": [
     "Counterfeiting",
@@ -297,17 +254,20 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 47,
+  "cells_checked": 56,
   "cells_passed": 42,
   "failures": [
-   "col 10010 'TOTAL (STATES) 16,119': printed 92, sum 18582",
-   "col 10011 'TOTAL (STATES) 16,119': printed 14475, sum 134",
-   "col 10012 'TOTAL (STATES) 16,119': printed 176, sum 17370",
-   "col 10013 'TOTAL (STATES) 16,119': printed 725, sum 225",
-   "col 10014 'TOTAL (STATES) 16,119': printed 2, sum 947"
+   "col 10011 'TOTAL (STATES)': printed 92, sum 16119",
+   "col 10011 'TOTAL (U.Ts.)': printed 11, sum 464",
+   "col 10011 'TOTAL (CITIES)': printed 31, sum 1999",
+   "col 10012 'TOTAL (STATES)': printed 14475, sum 92",
+   "col 10012 'TOTAL (U.Ts.)': printed 484, sum 11",
+   "col 10012 'TOTAL (CITIES)': printed 2411, sum 31",
+   "col 10013 'TOTAL (STATES)': printed 176, sum 14475",
+   "col 10013 'TOTAL (U.Ts.)': printed 3, sum 484"
   ],
-  "other_totals_checked": 23,
-  "other_totals_passed": 23
+  "other_totals_checked": 20,
+  "other_totals_passed": 20
  },
  "inferred_pages": 0,
  "ocr_pages": 7,

@@ -1,0 +1,69 @@
+{
+ "table_id": "cii/1981/3_chapter-3-1981_t19",
+ "publication": "cii",
+ "year": 1981,
+ "listing": "table_chapter",
+ "topic": "",
+ "section": "",
+ "serial": "3",
+ "title": "CHAPTER 3 PERSONS ARRESTED #### 3.1 Persons arrested under IPC Crimes (Statewise)",
+ "listing_title": "Persons Arrested",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-3-1981.pdf",
+ "source_file": "raw/cii/1981/table_chapter/chapter-3-1981.pdf",
+ "source_sha256": "e92e6d54a1883672415cbeaee871547dd8059fa43878a3540b1a6228e671cca9",
+ "table_no": "19",
+ "pdf_title": "CHAPTER 3 PERSONS ARRESTED #### 3.1 Persons arrested under IPC Crimes (Statewise)",
+ "row_label": "Sl. Name of the States/U.Ts./Cities No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 25,
+ "n_cols": 4,
+ "n_cells": 75,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Sl. Name of the States/U.Ts./Cities No.",
+   "header": [
+    "Sl. Name of the States/U.Ts./Cities No."
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Year (3)",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Year (4)",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "%age variations in 1981 over 1980",
+   "header": [
+    "%age variations in 1981 over 1980"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 2,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 1.91258e+06, sum 2.41251e+06",
+   "col 4 'TOTAL (States)': printed 1.98059e+06, sum 1.97948e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

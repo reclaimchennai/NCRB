@@ -15,15 +15,24 @@
  "source_sha256": "df1d346ec74c5361002c14bb7d5263bba2b31b95622d02253b0eb78a503b5cb5",
  "table_no": "",
  "pdf_title": "Incidence of crime under I. P. C. during 1979 and 1980 showing percentage variation in 1980 over 1979",
- "row_label": "Sl. No. / States/UT.s/ Cities / I.P.C. / During 1979 Murder 1979",
+ "row_label": "Sl. No.",
  "pages": [
   1,
   3
  ],
- "n_rows": 25,
- "n_cols": 21,
- "n_cells": 480,
+ "n_rows": 24,
+ "n_cols": 24,
+ "n_cells": 483,
  "columns": [
+  {
+   "col_no": "4",
+   "name": "During 1979 | Murder | 1979",
+   "header": [
+    "During 1979",
+    "Murder",
+    "1979"
+   ]
+  },
   {
    "col_no": "5",
    "name": "And 1980 | 1980",
@@ -95,14 +104,29 @@
    ]
   },
   {
+   "col_no": "3",
+   "name": "Robbery | 1979",
+   "header": [
+    "Robbery",
+    "1979"
+   ]
+  },
+  {
    "col_no": "10001",
-   "name": "%age variation (10001)",
+   "name": "1980 (10001)",
+   "header": [
+    "1980"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "%age variation (10002)",
    "header": [
     "%age variation"
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "10003",
    "name": "Burglary | 1979",
    "header": [
     "Burglary",
@@ -110,21 +134,21 @@
    ]
   },
   {
-   "col_no": "10003",
-   "name": "1980 (10003)",
+   "col_no": "10004",
+   "name": "1980 (10004)",
    "header": [
     "1980"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "%age variation (10004)",
+   "col_no": "10005",
+   "name": "%age variation (10005)",
    "header": [
     "%age variation"
    ]
   },
   {
-   "col_no": "10005",
+   "col_no": "10006",
    "name": "Thefts | 1979",
    "header": [
     "Thefts",
@@ -132,21 +156,21 @@
    ]
   },
   {
-   "col_no": "10006",
-   "name": "1980 (10006)",
+   "col_no": "10007",
+   "name": "1980 (10007)",
    "header": [
     "1980"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "%age variation (10007)",
+   "col_no": "10008",
+   "name": "%age variation (10008)",
    "header": [
     "%age variation"
    ]
   },
   {
-   "col_no": "10008",
+   "col_no": "10009",
    "name": "Riot | 1979",
    "header": [
     "Riot",
@@ -154,8 +178,8 @@
    ]
   },
   {
-   "col_no": "10009",
-   "name": "1980 (10009)",
+   "col_no": "10010",
+   "name": "1980 (10010)",
    "header": [
     "1980"
    ]

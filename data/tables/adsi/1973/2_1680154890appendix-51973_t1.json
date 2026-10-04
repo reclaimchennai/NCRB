@@ -17,11 +17,14 @@
  "pdf_title": "43 U.Ts. 22. A. & N.",
  "row_label": "23. Arunachal",
  "pages": [
+  2,
+  2,
+  2,
   2
  ],
- "n_rows": 1,
+ "n_rows": 4,
  "n_cols": 18,
- "n_cells": 18,
+ "n_cells": 72,
  "columns": [
   {
    "col_no": "2",
@@ -152,13 +155,16 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
+  "cells_checked": 2,
   "cells_passed": 0,
-  "failures": [],
+  "failures": [
+   "col 12 'TOTAL (U.Ts.)': printed 9, sum 2",
+   "col 16 'TOTAL (U.Ts.)': printed 107, sum 26"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 4,
  "warnings": []
 }

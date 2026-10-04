@@ -13,13 +13,12 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-27-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-27-1988-2.pdf",
  "source_sha256": "3ad2ea93f3271398de6ea88fc7e02c0d94ce7e86a71374f3cabe57281bca2bee",
- "table_no": "",
- "pdf_title": "TOTAL (ALL - INDIA) CITIES",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "table_no": "27",
+ "pdf_title": "103 TABLE-27 PERSONS ARRESTED UNDER DIFFERENT LSL CRIMES BY SEX IN STATES UTS & CITIES DURING 1988",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2,
-  3,
   3,
   4,
   5,
@@ -28,9 +27,9 @@
   8,
   9
  ],
- "n_rows": 65,
- "n_cols": 57,
- "n_cells": 2307,
+ "n_rows": 48,
+ "n_cols": 51,
+ "n_cells": 2397,
  "columns": [
   {
    "col_no": "3",
@@ -177,92 +176,55 @@
    ]
   },
   {
-   "col_no": "10001",
-   "name": "col_10001",
-   "header": []
-  },
-  {
-   "col_no": "10002",
-   "name": "col_10002",
-   "header": []
-  },
-  {
-   "col_no": "10003",
-   "name": "col_10003",
-   "header": []
-  },
-  {
-   "col_no": "10004",
-   "name": "col_10004",
-   "header": []
-  },
-  {
-   "col_no": "10005",
-   "name": "col_10005",
-   "header": []
-  },
-  {
-   "col_no": "10006",
-   "name": "col_10006",
-   "header": []
-  },
-  {
    "col_no": "21",
-   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | MALE",
+   "name": "IMMORAL TRAFFIC(PREVENTION) ACT | MALE",
    "header": [
-    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "IMMORAL TRAFFIC(PREVENTION) ACT",
     "MALE"
    ]
   },
   {
    "col_no": "22",
-   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | FEMALE",
+   "name": "IMMORAL TRAFFIC(PREVENTION) ACT | FEMALE",
    "header": [
-    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "IMMORAL TRAFFIC(PREVENTION) ACT",
     "FEMALE"
    ]
   },
   {
    "col_no": "23",
-   "name": "IMMORAL TRAFFIC (PREVENTION) ACT | TOTAL",
+   "name": "IMMORAL TRAFFIC(PREVENTION) ACT | TOTAL",
    "header": [
-    "IMMORAL TRAFFIC (PREVENTION) ACT",
+    "IMMORAL TRAFFIC(PREVENTION) ACT",
     "TOTAL"
    ]
   },
   {
    "col_no": "24",
-   "name": "INDIAN RAILWAYS ACT | MALE",
+   "name": "INDIAN RAILWAYSACT | MALE",
    "header": [
-    "INDIAN RAILWAYS ACT",
+    "INDIAN RAILWAYSACT",
     "MALE"
    ]
   },
   {
    "col_no": "25",
-   "name": "INDIAN RAILWAYS ACT | FEMALE",
+   "name": "INDIAN RAILWAYSACT | FEMALE",
    "header": [
-    "INDIAN RAILWAYS ACT",
+    "INDIAN RAILWAYSACT",
     "FEMALE"
    ]
   },
   {
    "col_no": "26",
-   "name": "INDIAN RAILWAYS ACT | TOTAL",
+   "name": "INDIAN RAILWAYSACT | TOTAL",
    "header": [
-    "INDIAN RAILWAYS ACT",
+    "INDIAN RAILWAYSACT",
     "TOTAL"
    ]
   },
   {
    "col_no": "27",
-   "name": "STATE/UT/CITY (27)",
-   "header": [
-    "STATE/UT/CITY"
-   ]
-  },
-  {
-   "col_no": "28",
    "name": "FOREIGNER'S REGISTRATION ACT | MALE",
    "header": [
     "FOREIGNER'S REGISTRATION ACT",
@@ -270,7 +232,7 @@
    ]
   },
   {
-   "col_no": "29",
+   "col_no": "28",
    "name": "FOREIGNER'S REGISTRATION ACT | FEMALE",
    "header": [
     "FOREIGNER'S REGISTRATION ACT",
@@ -278,7 +240,7 @@
    ]
   },
   {
-   "col_no": "30",
+   "col_no": "29",
    "name": "FOREIGNER'S REGISTRATION ACT | TOTAL",
    "header": [
     "FOREIGNER'S REGISTRATION ACT",
@@ -286,7 +248,7 @@
    ]
   },
   {
-   "col_no": "31",
+   "col_no": "30",
    "name": "PROTECTION OF CIVIL RIGHTS ACT | MALE",
    "header": [
     "PROTECTION OF CIVIL RIGHTS ACT",
@@ -294,11 +256,19 @@
    ]
   },
   {
-   "col_no": "32",
+   "col_no": "31",
    "name": "PROTECTION OF CIVIL RIGHTS ACT | FEMALE",
    "header": [
     "PROTECTION OF CIVIL RIGHTS ACT",
     "FEMALE"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | TOTAL",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "TOTAL"
    ]
   },
   {
@@ -351,20 +321,6 @@
   },
   {
    "col_no": "39",
-   "name": "SL. NO. (39)",
-   "header": [
-    "SL. NO."
-   ]
-  },
-  {
-   "col_no": "40",
-   "name": "STATE/UT/CITY (40)",
-   "header": [
-    "STATE/UT/CITY"
-   ]
-  },
-  {
-   "col_no": "41",
    "name": "TERRORIST & DISRUPTIVE ACTIVITIES | MALE",
    "header": [
     "TERRORIST & DISRUPTIVE ACTIVITIES",
@@ -372,7 +328,7 @@
    ]
   },
   {
-   "col_no": "42",
+   "col_no": "40",
    "name": "TERRORIST & DISRUPTIVE ACTIVITIES | FEMALE",
    "header": [
     "TERRORIST & DISRUPTIVE ACTIVITIES",
@@ -380,7 +336,7 @@
    ]
   },
   {
-   "col_no": "43",
+   "col_no": "41",
    "name": "TERRORIST & DISRUPTIVE ACTIVITIES | TOTAL",
    "header": [
     "TERRORIST & DISRUPTIVE ACTIVITIES",
@@ -388,7 +344,7 @@
    ]
   },
   {
-   "col_no": "44",
+   "col_no": "42",
    "name": "ANTIQUITY & ART TREASURE ACT | MALE",
    "header": [
     "ANTIQUITY & ART TREASURE ACT",
@@ -396,21 +352,23 @@
    ]
   },
   {
+   "col_no": "43",
+   "name": "ANTIQUITY & ART TREASURE ACT | FEMALE",
+   "header": [
+    "ANTIQUITY & ART TREASURE ACT",
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "44",
+   "name": "ANTIQUITY & ART TREASURE ACT | TOTAL",
+   "header": [
+    "ANTIQUITY & ART TREASURE ACT",
+    "TOTAL"
+   ]
+  },
+  {
    "col_no": "45",
-   "name": "SL. NO. (45)",
-   "header": [
-    "SL. NO."
-   ]
-  },
-  {
-   "col_no": "46",
-   "name": "STATE/UT/CITY (46)",
-   "header": [
-    "STATE/UT/CITY"
-   ]
-  },
-  {
-   "col_no": "47",
    "name": "DOWRY PROHIBITION ACT | MALE",
    "header": [
     "DOWRY PROHIBITION ACT",
@@ -418,7 +376,7 @@
    ]
   },
   {
-   "col_no": "48",
+   "col_no": "46",
    "name": "DOWRY PROHIBITION ACT | FEMALE",
    "header": [
     "DOWRY PROHIBITION ACT",
@@ -426,7 +384,7 @@
    ]
   },
   {
-   "col_no": "49",
+   "col_no": "47",
    "name": "DOWRY PROHIBITION ACT | TOTAL",
    "header": [
     "DOWRY PROHIBITION ACT",
@@ -434,7 +392,7 @@
    ]
   },
   {
-   "col_no": "50",
+   "col_no": "48",
    "name": "OTHER LSL CRIMES NOT INCLUDING ABOVE | MALE",
    "header": [
     "OTHER LSL CRIMES NOT INCLUDING ABOVE",
@@ -442,36 +400,55 @@
    ]
   },
   {
-   "col_no": "10007",
-   "name": "TOTAL COGNIZABLE CRIMES UNDER LSL",
+   "col_no": "49",
+   "name": "OTHER LSL CRIMES NOT INCLUDING ABOVE | FEMALE",
    "header": [
-    "TOTAL COGNIZABLE CRIMES UNDER LSL"
+    "OTHER LSL CRIMES NOT INCLUDING ABOVE",
+    "FEMALE"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "MALE",
+   "col_no": "50",
+   "name": "OTHER LSL CRIMES NOT INCLUDING ABOVE | TOTAL",
    "header": [
+    "OTHER LSL CRIMES NOT INCLUDING ABOVE",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "51",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER LSL | MALE",
+   "header": [
+    "TOTAL COGNIZABLE CRIMES UNDER LSL",
     "MALE"
    ]
   },
   {
-   "col_no": "10009",
-   "name": "FEMALE",
+   "col_no": "52",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER LSL | FEMALE",
    "header": [
+    "TOTAL COGNIZABLE CRIMES UNDER LSL",
     "FEMALE"
+   ]
+  },
+  {
+   "col_no": "53",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER LSL | TOTAL",
+   "header": [
+    "TOTAL COGNIZABLE CRIMES UNDER LSL",
+    "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 111,
-  "cells_passed": 111,
+  "cells_checked": 144,
+  "cells_passed": 144,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 10,
+ "ocr_pages": 9,
  "warnings": []
 }

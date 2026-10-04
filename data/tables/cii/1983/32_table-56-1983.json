@@ -13,17 +13,24 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-56-1983.pdf",
  "source_file": "raw/cii/1983/table_content/table-56-1983.pdf",
  "source_sha256": "2b8c7e21f9bed45ad5650279146918bd9c3e7d4dbb74460539a1f960798e93f9",
- "table_no": "56",
- "pdf_title": "138 TABLE 56 Number of Police Personnel killed or injured on Duty during 1983",
- "row_label": "Sl.No. / States/U.Ts./Cities",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SI. No.",
  "pages": [
   1,
   2
  ],
- "n_rows": 86,
- "n_cols": 6,
- "n_cells": 453,
+ "n_rows": 94,
+ "n_cols": 7,
+ "n_cells": 319,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "States/U.T.s./Cities",
+   "header": [
+    "States/U.T.s./Cities"
+   ]
+  },
   {
    "col_no": "3",
    "name": "Killed | In dacoity operation or other raids",
@@ -34,51 +41,48 @@
   },
   {
    "col_no": "4",
-   "name": "Killed | By riotous mobs",
+   "name": "By riotous mobs",
    "header": [
-    "Killed",
     "By riotous mobs"
    ]
   },
   {
    "col_no": "5",
-   "name": "Killed | By other criminals",
+   "name": "By other criminals",
    "header": [
-    "Killed",
     "By other criminals"
    ]
   },
   {
    "col_no": "6",
-   "name": "Killed | On border duties",
+   "name": "On border duties",
    "header": [
-    "Killed",
     "On border duties"
    ]
   },
   {
    "col_no": "7",
-   "name": "Killed | In accidents",
+   "name": "In accidents",
    "header": [
-    "Killed",
     "In accidents"
    ]
   },
   {
    "col_no": "8",
-   "name": "Killed | Total",
+   "name": "Total",
    "header": [
-    "Killed",
     "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 22,
-  "cells_passed": 21,
+  "cells_checked": 23,
+  "cells_passed": 20,
   "failures": [
-   "col 4 'TOTAL (CITIES)': printed 697, sum 717"
+   "col 4 'TOTAL (STATES)': printed 71, sum 74",
+   "col 4 'TOTAL (CITIES)': printed 697, sum 717",
+   "col 8 'TOTAL (STATES)': printed 3399, sum 3349"
   ],
   "other_totals_checked": 8,
   "other_totals_passed": 5

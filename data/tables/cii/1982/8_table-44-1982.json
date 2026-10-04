@@ -14,15 +14,51 @@
  "source_file": "raw/cii/1982/table_content/table-44-1982.pdf",
  "source_sha256": "9234d83ebc79f5f2b2f2e602842d64b6448088746a1d72bd276d5fd4a7741a6f",
  "table_no": "44",
- "pdf_title": "109 TABLE 44",
- "row_label": "Sl. No. / States/U.Ts./Cities",
+ "pdf_title": "108 TABLE 44 DISPOSAL OF JUVENILES SENT TO COURT DURING — 1982",
+ "row_label": "Sl. No.",
  "pages": [
+  1,
   2
  ],
- "n_rows": 47,
- "n_cols": 4,
- "n_cells": 188,
+ "n_rows": 46,
+ "n_cols": 9,
+ "n_cells": 301,
  "columns": [
+  {
+   "col_no": "8",
+   "name": "Juveniles sent to court",
+   "header": [
+    "Juveniles sent to court"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Restored to Guardian",
+   "header": [
+    "Restored to Guardian"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "On Probation",
+   "header": [
+    "On Probation"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Sent to reformatories & Borstals",
+   "header": [
+    "Sent to reformatories & Borstals"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Sent to school Institutions",
+   "header": [
+    "Sent to school Institutions"
+   ]
+  },
   {
    "col_no": "3",
    "name": "Sent to adult Institutions",
@@ -54,13 +90,17 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 11,
-  "cells_passed": 11,
-  "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "cells_checked": 26,
+  "cells_passed": 23,
+  "failures": [
+   "col 3 'TOTAL (CITIES)': printed 245, sum 242",
+   "col 5 'TOTAL (CITIES)': printed 3887, sum 3085",
+   "col 6 'TOTAL (CITIES)': printed 17246, sum 17197"
+  ],
+  "other_totals_checked": 9,
+  "other_totals_passed": 9
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

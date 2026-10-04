@@ -64,6 +64,8 @@ def read_page(doc: fitz.Document, page_no: int, sha: str, model_id: str, run_mod
 
 def _clean(cell: str) -> str:
     c = cell.replace("—", "-").replace("–", "-").replace("−", "-").strip()
+    if re.fullmatch(r"[.·…:\s]+", c):      # dot leaders written as cells of their own ('Madras | . | . | . | 898')
+        return ""
     c = re.sub(r"^-{2,}$", "-", c)
     return re.sub(r"(?<=\d) (?=\d{3}\b)", ",", c) if re.fullmatch(r"[\d ,.]+", c) else c
 

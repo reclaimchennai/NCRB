@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "5",
- "title": "12 TABLE",
+ "title": "CRIME HEADS",
  "listing_title": "Incidence of Cognizable Crime and Volume of Crime per one Lakh of Population under Important Heads of Indian Penal Code During the Year 1972",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,73 +14,68 @@
  "source_file": "raw/cii/1972/table_content/table-5-1972..pdf",
  "source_sha256": "bee1f52cc03a54b6622bfefb82f8de61da05dee9a03f06ef8550e1b4a653bf84",
  "table_no": "",
- "pdf_title": "12 TABLE",
- "row_label": "Sl. No.",
+ "pdf_title": "CRIME HEADS",
+ "row_label": "Kidnapping and Abduction Cases reported",
  "pages": [
-  3
+  2
  ],
- "n_rows": 1,
+ "n_rows": 41,
  "n_cols": 7,
- "n_cells": 7,
+ "n_cells": 274,
  "columns": [
   {
    "col_no": "2",
-   "name": "States/U.Ts./Cities",
+   "name": "Kidnapping and Abduction | Volume per one lakh of population",
    "header": [
-    "States/U.Ts./Cities"
+    "Kidnapping and Abduction",
+    "Volume per one lakh of population"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Dacosity | Cases reported",
+   "header": [
+    "Dacosity",
+    "Cases reported"
    ]
   },
   {
    "col_no": "4",
-   "name": "CRIME HEADS | Thefts | Cases reported",
+   "name": "Dacosity | Volume per one lakh of population",
    "header": [
-    "CRIME HEADS",
-    "Thefts",
-    "Cases reported"
+    "Dacosity",
+    "Volume per one lakh of population"
    ]
   },
   {
    "col_no": "5",
-   "name": "CRIME HEADS | Thefts | Volume per one lakh of population",
+   "name": "Robbery | Cases reported",
    "header": [
-    "CRIME HEADS",
-    "Thefts",
-    "Volume per one lakh of population"
+    "Robbery",
+    "Cases reported"
    ]
   },
   {
    "col_no": "6",
-   "name": "CRIME HEADS | Riots | Cases reported",
+   "name": "Robbery | Volume per one lakh of population",
    "header": [
-    "CRIME HEADS",
-    "Riots",
-    "Cases reported"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "CRIME HEADS | Riots | Volume per one lakh of population",
-   "header": [
-    "CRIME HEADS",
-    "Riots",
+    "Robbery",
     "Volume per one lakh of population"
    ]
   },
   {
-   "col_no": "8",
-   "name": "CRIME HEADS | Criminal Breach of Trust | Cases reported",
+   "col_no": "7",
+   "name": "Burglary | Cases reported",
    "header": [
-    "CRIME HEADS",
-    "Criminal Breach of Trust",
+    "Burglary",
     "Cases reported"
    ]
   },
   {
-   "col_no": "9",
-   "name": "CRIME HEADS | Criminal Breach of Trust | Volume per one lakh of population",
+   "col_no": "8",
+   "name": "Burglary | Volume per one lakh of population",
    "header": [
-    "CRIME HEADS",
-    "Criminal Breach of Trust",
+    "Burglary",
     "Volume per one lakh of population"
    ]
   }

@@ -14,52 +14,48 @@
  "source_file": "raw/cii/1982/table_content/table-59-1982.pdf",
  "source_sha256": "7ff9f9a2518d3f31f2afdbb51b8c1a03b3ba1b84d52c167b0008e8f3b7982e8b",
  "table_no": "",
- "pdf_title": "",
- "row_label": "St. No.",
+ "pdf_title": "142 TABLE.59 STRENGTH OF ARMED POLICE AS ON 31-12-1982",
+ "row_label": "Sl. No. / States/U.Ts./Cities / States/U.Ts./Cities",
  "pages": [
+  1,
+  1,
+  1,
   1
  ],
- "n_rows": 47,
- "n_cols": 6,
- "n_cells": 267,
+ "n_rows": 43,
+ "n_cols": 5,
+ "n_cells": 194,
  "columns": [
   {
-   "col_no": "2",
-   "name": "States/U.Ts./Cities",
-   "header": [
-    "States/U.Ts./Cities"
-   ]
-  },
-  {
-   "col_no": "3",
+   "col_no": "7",
    "name": "No. of D.Gs./I.Gs. D.Is.G.& Ss.P.",
    "header": [
     "No. of D.Gs./I.Gs. D.Is.G.& Ss.P."
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "8",
    "name": "No. of A.Ss.P./ Dy. S.P.",
    "header": [
     "No. of A.Ss.P./ Dy. S.P."
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "9",
    "name": "No. of Inspectors & Sub-Inspectors",
    "header": [
     "No. of Inspectors & Sub-Inspectors"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "10",
    "name": "No. of Officers below the rank of S.Is.",
    "header": [
     "No. of Officers below the rank of S.Is."
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "11",
    "name": "Total",
    "header": [
     "Total"
@@ -68,22 +64,13 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 0,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 755, sum 1268",
-   "col 4 'TOTAL (U.Ts.)': printed 44, sum 20",
-   "col 5 'TOTAL (STATES)': printed 7436, sum 24556",
-   "col 5 'TOTAL (U.Ts.)': printed 507, sum 310",
-   "col 5 'TOTAL (CITIES)': printed 738, sum 10118",
-   "col 7 'TOTAL (STATES)': printed 193829, sum 170791",
-   "col 7 'TOTAL (U.Ts.)': printed 14143, sum 13484",
-   "col 7 'TOTAL (CITIES)': printed 27493, sum 233004"
-  ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 12,
+  "cells_passed": 12,
+  "failures": [],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 4,
  "warnings": []
 }

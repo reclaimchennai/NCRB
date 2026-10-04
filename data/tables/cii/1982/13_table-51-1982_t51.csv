@@ -1,48 +1,24 @@
-section,sl_no,Sl. No.,States/U.Ts./Cities,Residential Premises | No. of cases reported,Residential Premises | Value of property stolen,Highways | No. of cases reported,Highways | Value of property stolen,Railways | No. of cases reported,Railways | Value of property stolen,Banks | No. of cases reported,Banks | Value of property stolen,Commercial Estt. | No. of cases reported,Commercial Estt. | Value of property stolen
-STATES:,1,Andhra Pradesh,..,223,16.72,110,3.29,10,0.74,2,2.33,18,0.66
-STATES:,2,Assam,..,247,1.61,96,0.33,5,0.16,1,5.40,16,0.17
-STATES:,3,Bihar,..,"1,311",23.84,327,2.05,79,1.27,5,0.61,33,1.01
-STATES:,4,Gujarat 1 neg.,..,172,5.56,37,1.84,11,0.03,1,0.14,5,0.10
-STATES:,5,Haryana,..,5,0.22,5,0.17,3,0.02,3,10.16,2,0.05
-STATES:,6,Himachal Pradesh,..,5,0.47,..,..,..,..,,,,
-STATES:,7,Jammu & Kashmir,..,9,0.13,..,..,..,..,,,,
-STATES:,8,Karnataka,..,130,4.56,19,1.12,..,..,,,,
-STATES:,9,Kerala,..,47,8.40,8,0.93,..,..,,,,
-STATES:,10,Madhya Pradesh,..,710,14.98,627,7.48,89,0.82,,,,
-STATES:,11,Maharashtra,..,504,28.30,138,24.53,155,2.10,,,,
-STATES:,12,Manipur,..,25,2.65,8,0.58,..,..,,,,
-STATES:,13,Meghalaya,..,6,0.13,1,neg.,..,..,,,,
-STATES:,14,Nagaland,..,2,0.02,34,0.52,..,..,,,,
-STATES:,15,Orissa,..,349,5.49,255,4.62,12,0.73,,,,
-STATES:,16,Punjab,..,..,..,4,0.43,1,neg.,,,,
-STATES:,17,Rajasthan,..,154,2.44,21,14.88,8,0.40,,,,
-STATES:,18,Sikkim,..,3,0.14,..,..,..,..,,,,
-STATES:,19,Tamil Nadu,..,92,26.57,32,1.07,9,0.61,,,,
-STATES:,20,Tripura,..,46,0.36,38,0.57,..,..,,,,
-STATES:,21,Uttar Pradesh,..,"2,644",345.21,460,21.48,115,3.20,,,,
-STATES:,22,West Bengal,..,829,15.80,359,20.58,19,0.20,,,,
-STATES:,,TOTAL,,"7,513",503.60,"2,579",106.47,516,10.28,,,,
-UNION TERRITORIES:,23,A. & N. Islands,..,..,..,..,..,..,..,,,,
-UNION TERRITORIES:,24,Arunachal Pradesh,..,8,0.31,..,..,..,..,,,,
-UNION TERRITORIES:,25,Chandigarh,..,..,..,..,..,..,..,,,,
-UNION TERRITORIES:,26,D. & N. Haveli,..,1,neg.,..,..,..,..,,,,
-UNION TERRITORIES:,27,Delhi,..,39,18.73,28,0.28,1,0.01,,,,
-UNION TERRITORIES:,28,"Goa, Daman & Diu",..,13,0.44,2,0.07,1,0.04,,,,
-UNION TERRITORIES:,9,Lakshadweep,..,..,..,..,..,..,..,,,,
-UNION TERRITORIES:,30,Mizoram,..,11,0.46,..,..,..,..,,,,
-UNION TERRITORIES:,31,Pondicherry,..,5,0.36,..,..,..,..,,,,
-UNION TERRITORIES:,,TOTAL (U.Ts.),,77,20.30,30,0.35,2,0.05,,,,
-UNION TERRITORIES:,,GRAND TOTAL,,"7,590",523.90,"2,609",106.82,518,10.33,,,,
-CITIES:,1,Ahmedabad,..,6,0.13,1,0.15,1,neg.,,,,
-CITIES:,2,Bangalore,..,33,0.85,9,0.26,..,..,,,,
-CITIES:,3,Bombay,..,69,19.64,45,13.72,..,..,,,,
-CITIES:,4,Calcutta,..,72,4.25,236,11.21,..,..,,,,
-CITIES:,,Delhi,..,35,18.67,28,0.28,1,0.01,,,,
-CITIES:,6,Hyderabad,..,13,1.71,25,0.54,..,..,,,,
-CITIES:,,Jaipur,..,26,0.58,2,0.01,..,..,,,,
-CITIES:,8,Kanpur,..,20,1.58,..,..,..,..,,,,
-CITIES:,9,Lucknow,..,73,1.74,..,..,..,..,,,,
-CITIES:,10,Madras,..,21,0.85,..,..,..,..,,,,
-CITIES:,11,Nagpur,..,2,0.10,1,0.17,..,..,,,,
-CITIES:,12,Pune,..,17,0.35,8,0.14,..,..,,,,
-CITIES:,,TOTAL (CITIES),,387,50.45,355,26.48,2,0.01,,,,
+section,sl_no,Sl. No.,Residential Premises | No. of cases reported,Residential Premises | Value of property stolen,Highways | No. of cases reported,Highways | Value of property stolen,Railways | No. of cases reported,Railways | Value of property stolen
+STATES:,1,Andhra Pradesh,223,16.72,110,3.29,10,0.74
+STATES:,2,Assam,247,1.61,96,0.33,5,0.16
+STATES:,3,Bihar,"1,311",23.84,327,2.05,79,1.27
+STATES:,4,Gujarat,172,5.56,37,1.84,11,0.03
+STATES:,5,Haryana,5,0.22,5,0.17,3,0.02
+STATES:,6,Himachal Pradesh,5,0.47,,,,
+STATES:,7,Jammu & Kashmir,9,0.13,,,,
+STATES:,8,Karnataka,130,4.56,19,1.12,,
+STATES:,9,Kerala,47,8.40,8,0.93,,
+STATES:,10,Madhya Pradesh,710,14.98,627,7.48,89,0.82
+STATES:,11,Maharashtra,504,28.30,138,24.53,155,2.10
+STATES:,12,Manipur,25,2.65,8,0.58,,
+STATES:,13,Meghalaya,6,0.13,1,neg.,,
+STATES:,14,Nagaland,2,0.02,34,0.52,,
+STATES:,15,Orissa,349,5.49,255,4.62,12,0.73
+STATES:,16,Punjab,,,4,0.43,1,neg.
+STATES:,17,Rajasthan,154,2.44,21,14.88,8,0.40
+STATES:,18,Sikkim,3,0.14,,,,
+STATES:,19,Tamil Nadu,92,26.57,32,1.07,9,0.61
+STATES:,20,Tripura,46,0.36,38,0.57,,
+STATES:,21,Uttar Pradesh,"2,644",345.21,460,21.48,115,3.20
+STATES:,22,West Bengal,829,15.80,359,20.58,19,0.20
+STATES:,,TOTAL,"7,513",503.60,"2,579",106.47,516,10.28

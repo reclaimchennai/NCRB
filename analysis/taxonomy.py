@@ -15,13 +15,16 @@ import re
 RULES = {
     "cii": [
         (r"cyber", "Cyber crime"),
+        (r"police firing|casualt|lathi|police personnel killed|killed on duty|injured on duty", "Police firing & casualties"),
+        (r"police strength|strength of (armed|civil)? ?police|armed police|civil police|police organi[sz]ation|organi[sz]ational set.?up|"
+         r"policemen|police personnel|expenditure|infrastructure|police vehicles|police station|training", "Police strength & infrastructure"),
         (r"missing", "Missing persons & children"),
         (r"juvenile", "Juveniles in conflict with law"),
         (r"senior citizen", "Crime against senior citizens"),
         (r"scheduled tribe|\bsts?\b(?!ate)", "Crime against Scheduled Tribes"),
         (r"scheduled caste|\bscs?\b|dalit|untouchab|protection of civil rights|pcr act", "Crime against Scheduled Castes"),
         (r"against children|child|pocso|infanticide|foeticide|minor girls", "Crime against children"),
-        (r"against women|women|dowry|rape|modesty|cruelty by husband|sati|immoral traffic", "Crime against women"),
+        (r"against women|crimes? .{0,30}women|women .{0,20}(crime|victim)|dowry|rape|modesty|cruelty by husband|sati|immoral traffic|indecent representation", "Crime against women"),
         (r"trafficking", "Human trafficking"),
         (r"kidnap|abduct", "Kidnapping & abduction"),
         (r"foreigner", "Crime by and against foreigners"),
@@ -54,6 +57,8 @@ RULES = {
         (r"time of occurrence|months? of occurrence|quarter", "Traffic crashes: when"),
         (r"traffic|road|vehicle|mode of transport|motor", "Road crashes"),
         (r"fire", "Fire"),
+        # 2014 on, the State table of all accidental deaths is titled '... Forces of Nature and Other Causes'
+        (r"forces of nature.{0,40}(and|&) other causes|natural.{0,20}(and|&) un.?natural", "Accidental deaths overall"),
         (r"un.?natural", "Accidental deaths: unnatural causes"),
         (r"forces of nature|natural cause|lightning|flood|heat|cold", "Accidental deaths: forces of nature"),
         (r"drown|electrocut|poison|fall|other causes|un.?natural", "Other accidental deaths"),
@@ -67,9 +72,10 @@ RULES = {
         (r"convict|sentence|capital punishment|death sentence", "Convicts & sentences"),
         (r"release|parole|transfer|movement|furlough|escort", "Releases, transfers & parole"),
         (r"capacity|occupancy|overcrowd|population|jails? \(|type of jail|central jail|district jail|sub jail|open jail|special jail|borstal", "Prisons & overcrowding"),
-        (r"demograph|age|caste|religion|education|domicile|sex|gender|women|children", "Who is in prison"),
+        (r"staff|strength|official|officer|training|vacanc|sanctioned", "Prison staff"),
+        (r"budget|expenditure|financial year", "Budget & infrastructure"),
+        (r"demograph|\bage\b|age.?group|caste|religion|education|domicile|\bsex\b|gender|women (prisoners|inmates)|female (prisoners|inmates)|children", "Who is in prison"),
         (r"offence|ipc|sll|crime head", "Prisoners by offence"),
-        (r"staff|strength|official|officer|training|vacanc", "Prison staff"),
         (r"budget|expenditure|infrastructure|vehicle|electronic|quarter|construction", "Budget & infrastructure"),
         (r"vocational|welfare|rehabilitat|education|wages|product|legal aid|literacy", "Work, education & welfare"),
         (r"inspection|visit|grievance", "Inspections & visits"),
@@ -82,6 +88,7 @@ _COMPILED = {p: [(re.compile(rx, re.I), name) for rx, name in rules] for p, rule
 
 def topic_of(pub: str, chapter: str | None, title: str | None) -> str:
     """The title decides first (it is specific); the chapter only where the title says nothing classifiable."""
+    title = HEADER.sub(" ", str(title or ""))       # 'ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1994 ...' is a page header
     for text in (title or "", f"{chapter or ''} {title or ''}"):
         for rx, name in _COMPILED.get(pub, []):
             if rx.search(text):
@@ -115,7 +122,7 @@ GEO_WORDS = re.compile(
     r"\d+\s+metropolitan\s+cities|crime\s*head\s*[-–]?\s*wise|states?\s*,\s*uts?\s*(&|and)\s*city[\s-]*wise|states?\s*/\s*uts?)\s*[\)\]]?", re.I)
 
 
-PROSE = re.compile(r"\b(has|have|was|were|accounting|followed|showing|compared|respectively|however|whereas|a total of|more than the|presented in|shown in|the following)\b", re.I)
+PROSE = re.compile(r"\b(has|have|was|were|accounting|followed|showing|compared|respectively|however|whereas|although|a total of|more than the|presented in|shown in|the following|it is|interesting|is not available|may be noted)\b", re.I)
 MARK = re.compile(r"\s*\b(?:FIGURE|Figure|LIST|List|CHART|Chart|Table)\s*[—–-]*\s*\d+[A-Z]?(?:\.\d+)*(?:\s*\([A-Z]\))?\s*[:.\-–]?\s*")
 
 
@@ -133,9 +140,45 @@ def running_text(t: str) -> bool:
     return len(re.findall(r"[A-Za-z]", t)) < 6 or len(PROSE.findall(t)) >= 1 or bool(re.search(r"\d,\d{2,3}|\d\.\d+\s*%|\(\d[\d,]{3,}", t))
 
 
+# running page headers and OCR/markdown markup that scanned pages carry into a table's title
+HEADER = re.compile(r"N\.?\s?C\.?\s?R\.?\s?B\.?\s*,?\s*(\(\s*M\.?\s?H\.?\s?A\.?\s*\))?|"
+                    r"\b(crime in india|accidental deaths\s*(&|and)\s*suicides in india|prison statistics india|snapshots?)\b\s*[-–—:]?\s*((19|20)\d\d)?",
+                    re.I)
+MARKUP = re.compile(r"\$[^$]{0,40}\$|\^\{[^}]*\}|\\[a-z]+|[{}#*|]+")
+ACRONYM = {"IPC", "SLL", "BNS", "BNSS", "IT", "NDPS", "POCSO", "SC", "ST", "SCS", "STS", "UT", "UTS", "CAPF", "RPF", "GRP", "NCRB",
+           "CBI", "CID", "NIA", "HIV", "AIDS", "NRI", "FIR", "FIRS", "CRPC", "MHA", "PCR", "SHO", "II", "III", "IV", "NE"}
+
+
+def tidy_case(t: str) -> str:
+    """Sentence case for a title printed in capitals (whole or in part), keeping acronyms and proper names."""
+    letters = [ch for ch in t if ch.isalpha()]
+    if not letters:
+        return t
+    caps = sum(ch.isupper() for ch in letters) / len(letters)
+    words = re.findall(r"[A-Za-z][A-Za-z'.]*", t)
+    caps_words = [w for w in words if len(w) > 2 and w.isupper() and w.strip(".").upper() not in ACRONYM]
+    if caps < 0.6 and len(caps_words) < 3:
+        return t
+    def fix(m):
+        w = m.group(0)
+        if w.strip(".").upper() in ACRONYM or re.fullmatch(r"([A-Z]\.){2,}", w):
+            return w.upper()
+        if w.isupper() or caps >= 0.6:
+            return w.lower() if w.capitalize() not in PROPER else w.capitalize()
+        return w
+    t = re.sub(r"[A-Za-z][A-Za-z'.]*", fix, t)
+    return t[:1].upper() + t[1:]
+
+
+PROPER = {"India", "Indian", "Penal", "Code", "Act", "Acts", "Sanhita", "Nyaya", "Bharatiya", "Hindu", "Muslim", "Christian", "Sikh",
+          "Scheduled", "Castes", "Caste", "Tribes", "Tribe", "Delhi", "Government", "Railway", "Railways", "Union", "Central"}
+
+
 def clean_title(title: str) -> str:
-    """NCRB's title without numbering, years, continuation marks, Roman-numeral part labels or geography."""
+    """NCRB's title without numbering, years, continuation marks, Roman-numeral part labels, page headers or geography."""
     t = re.sub(r"[\u200b-\u200f\u2060\ufeff]", "", str(title or ""))
+    t = MARKUP.sub(" ", t)
+    t = HEADER.sub(" ", t)
     t = re.sub(r"\s+", " ", t).strip()
     # text around 'FIGURE 1.2' / 'LIST-2.4' / 'Table - 2 (M)' markers: the first stretch that reads like a title
     segs = [x.strip(" .,;:-–") for x in MARK.split(t)]
@@ -144,9 +187,16 @@ def clean_title(title: str) -> str:
         t = next((x for x in segs if not prose(x)), segs[-1])
     t = re.sub(r"^[\]\)\s.]*\(?[A-Z]\)\s+", "", t)                 # '] P) ', '(J) ', 'M) ' part labels
     t = re.sub(r"\((?:contd|concld|concluded|continued)[^)]*\)", "", t, flags=re.I)
-    t = re.sub(r"^\W*(?:(?:table|list|figure|statement|appendix)\W*)?[0-9]+[A-Z]?(?:[.\-][0-9]+[A-Z]?)*\s*[-–—_:.]*\s*", "", t, flags=re.I)
-    t = re.sub(r"^\s*(?:[IVX]{1,4}|[a-h])[.)]\s+", "", t)            # 'II. Economic Status', 'a) ...'
-    t = re.sub(r"^\s*table[_\s]*[ivx\d]+\b\s*[,.:-]*\s*", "", t, flags=re.I)  # 'Table_VII ...'
+    # leading numbers and labels, repeated: '12 TABLE - 3 ...', '16 TABLE 7 ...', 'TABLE—V ...', '(C) ...', '1B.4 ...'
+    for _ in range(4):
+        before = t
+        t = re.sub(r"^\W*(?:(?:table|list|figure|statement|appendix|annexure|chart)\W*)?[0-9]+[A-Z]?(?:[.\-][0-9]+[A-Z]?)*\s*[-–—_:.]*\s*", "", t, flags=re.I)
+        t = re.sub(r"^\s*(?:table|appendix|annexure|chart|list)\s*[-–—_:.]*\s*[ivxlc]{1,5}\b\s*[-–—_:.()]*\s*", "", t, flags=re.I)
+        t = re.sub(r"^\s*\(?(?:[IVX]{1,4}|[a-hA-H])[.)]\s+|^\s*\([A-Za-z]\)\s*", "", t)    # 'II. Economic Status', '(J) ...', 'a) ...'
+        t = re.sub(r"^\s*table[_\s]*[ivx\d]+\b\s*[,.:-]*\s*", "", t, flags=re.I)
+        t = re.sub(r"^\s*TABLE\s+(?=[A-Za-z])", "", t)                 # 'TABLE Crimewise Persons arrested'
+        if t == before:
+            break
     t = re.sub(r"\s*[-–,]?\s*\b(during|in|for)?\s*(the\s+year\s+)?(19|20)\d\d(\s*(to|-|–|&|and)\s*(19|20)\d\d)?\b", "", t, flags=re.I)
     t = re.sub(r"\bduring\b\s*$", "", t, flags=re.I)
     # '(Crime Head-wise & States/UT-wise)', '(State/UT & City-wise)': brackets that only name the geography
@@ -159,8 +209,30 @@ def clean_title(title: str) -> str:
     t = re.sub(r"^[&,/\s]+", "", t)
     t = re.sub(r"^[\W_]*wise\b\s*[&,]?\s*", "", t, flags=re.I)              # '‐wise & Purpose‐wise ...' left by a stripped 'State/UT'
     t = re.sub(r"[\u2010\u2011]", "-", t)
-    if t.isupper():
-        t = t.capitalize()
-        t = re.sub(r"\b(ipc|sll|it|ndps|pocso|sc|st|scs|sts|ut|uts|capf|rpf|grp)\b", lambda m: m.group(0).upper(), t, flags=re.I)
-        t = re.sub(r"\bi\.? ?t\.?(?= act)", "IT", t, flags=re.I)
+    t = re.sub(r"[\s.,;:]+\d{1,3}$", "", t)                          # a page number left at the end: '... Deaths. 12'
+    t = re.sub(r"[-–\s]*\b\d{2}\s*to\s*[-–]?\s*\d{2}$", "", t)          # '... on Duty-91 to-95'
+    t = re.sub(r"\s+", " ", t).strip(" -–—,:.;")
+    # a column heading run on after a title in capitals: '... (CAUSES ATTRIBUTABLE TO NATURE) Accidental Rate'
+    m = re.match(r"^(.*[A-Z]{3,}[^a-z]*?)\s+((?:[A-Z][a-z]+\s*){1,3})$", t)
+    if m and {w.lower()[:6] for w in m.group(2).split()} <= {w.lower()[:6] for w in re.findall(r"[A-Za-z]+", m.group(1))}:
+        t = m.group(1).strip()
+    t = re.sub(r"156_3", "156(3)", t)
+    for _ in range(2):      # words left hanging where a year was removed: '... at the end of', '... Variation over'
+        t = re.sub(r"\s+(at the end of|as on|over|during|in|of|for|upto|up to|ending|&|and|-)$", "", t, flags=re.I).strip(" -–—,:.;")
+    t = tidy_case(t)
+    # NCRB's Title Case keeps 'Of', 'By', 'And' capitalised; a reader expects them small
+    t = re.sub(r"(?<=\S )(Of|By|And|In|The|To|For|Under|On|At|With|From|As|Or|Its|Their|Due)\b", lambda m: m.group(0).lower(), t)
+    t = re.sub(r"\bi\.? ?t\.?(?= act)", "IT", t, flags=re.I)
     return t[:1].upper() + t[1:] if t else t
+
+
+def junk_title(t: str, raw: str = "") -> bool:
+    """A title that is not one: too few letters, markup, or mostly numbers (an OCR'd column heading)."""
+    t = str(t or "")
+    if re.search(r"\$|\^\{", str(raw)) and len(t.split()) < 4:
+        return True
+    if re.match(r"^(contents|figures at a glance|snapshots?|publication over the years|chapter\b|index\b|preface|foreword)", t, re.I):
+        return True
+    letters = len(re.findall(r"[A-Za-z]", t))
+    digits = len(re.findall(r"\d", t))
+    return letters < 8 or len(t.split()) < 2 or digits > letters / 3 or bool(re.search(r"[$^{}\\]", t))

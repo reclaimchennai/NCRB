@@ -22,15 +22,11 @@
   3,
   4,
   4,
-  4,
-  4,
-  4,
-  4,
   4
  ],
- "n_rows": 115,
- "n_cols": 14,
- "n_cells": 1046,
+ "n_rows": 79,
+ "n_cols": 20,
+ "n_cells": 836,
  "columns": [
   {
    "col_no": "3",
@@ -143,22 +139,71 @@
     "S.I.T. in women and girls Act",
     "V"
    ]
+  },
+  {
+   "col_no": "10007",
+   "name": "Indian Railways Act | I",
+   "header": [
+    "Indian Railways Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "Indian Railways Act | V",
+   "header": [
+    "Indian Railways Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "Other offences | I",
+   "header": [
+    "Other offences",
+    "I"
+   ]
+  },
+  {
+   "col_no": "10010",
+   "name": "Other offences | V",
+   "header": [
+    "Other offences",
+    "V"
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "Grand Total | I",
+   "header": [
+    "Grand Total",
+    "I"
+   ]
+  },
+  {
+   "col_no": "10012",
+   "name": "Grand Total | V",
+   "header": [
+    "Grand Total",
+    "V"
+   ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 17,
-  "cells_passed": 13,
+  "cells_passed": 12,
   "failures": [
-   "col 7 'TOTAL (STATES)': printed 197135, sum 181135",
-   "col 9 'TOTAL (U. Ts)': printed 3635, sum 3686",
-   "col 10001 'TOTAL (U. Ts) .': printed 4856, sum 345973",
-   "col 10001 'TOTAL (Cities) .': printed 394767, sum 395837"
+   "col 7 'TOTAL (STATES)': printed 187135, sum 181135",
+   "col 10001 'TOTAL (STATES)': printed 388224, sum 412296",
+   "col 10001 'TOTAL (CITIES)': printed 73411, sum 493247",
+   "col 10001 'TOTAL (STATES)': printed 993211, sum 969139",
+   "col 10001 'TOTAL (CITIES)': printed 394767, sum 317718"
   ],
   "other_totals_checked": 5,
-  "other_totals_passed": 2
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
- "ocr_pages": 10,
+ "ocr_pages": 6,
  "warnings": []
 }

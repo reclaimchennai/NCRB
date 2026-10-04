@@ -13,61 +13,63 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-38-1982.pdf",
  "source_file": "raw/cii/1982/table_content/table-38-1982.pdf",
  "source_sha256": "6e24b79c290f7e7f4644e51c7fe3fca5645da8ccd1940070fe9d259837b904e8",
- "table_no": "",
- "pdf_title": "",
- "row_label": "Sl. No. / States/ U.Ts./Cities",
+ "table_no": "38",
+ "pdf_title": "98 TABLE 38 JUVENILE APPREHENDED UNDER IMPORTANT IPC HEADS DURING THE YEAR — 1982",
+ "row_label": "Sl. No.",
  "pages": [
   1,
+  1,
+  2,
   2
  ],
- "n_rows": 47,
+ "n_rows": 46,
  "n_cols": 13,
- "n_cells": 611,
+ "n_cells": 421,
  "columns": [
   {
-   "col_no": "3",
+   "col_no": "8",
    "name": "Murder",
    "header": [
     "Murder"
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "9",
    "name": "Culpable Homicide not amounting to murder",
    "header": [
     "Culpable Homicide not amounting to murder"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "10",
    "name": "Rape",
    "header": [
     "Rape"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "11",
    "name": "Kidnapping & Abduction",
    "header": [
     "Kidnapping & Abduction"
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "12",
    "name": "Dacoity",
    "header": [
     "Dacoity"
    ]
   },
   {
-   "col_no": "8",
+   "col_no": "13",
    "name": "Robbery",
    "header": [
     "Robbery"
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "14",
    "name": "Burglary",
    "header": [
     "Burglary"
@@ -119,14 +121,16 @@
  "notes": [],
  "checks": {
   "cells_checked": 35,
-  "cells_passed": 34,
+  "cells_passed": 32,
   "failures": [
-   "col 5 'TOTAL (STATES)': printed 499, sum 502"
+   "col 10 'TOTAL (STATES)': printed 499, sum 502",
+   "col 10001 'TOTAL (CITIES)': printed 2625, sum 2620",
+   "col 10006 'TOTAL (CITIES)': printed 9086, sum 9081"
   ],
   "other_totals_checked": 12,
   "other_totals_passed": 12
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

@@ -18,14 +18,11 @@
  "row_label": "Sl.No. / Names of States/U.Ts./Cities",
  "pages": [
   1,
-  3,
-  3,
-  3,
   3
  ],
  "n_rows": 24,
- "n_cols": 29,
- "n_cells": 570,
+ "n_cols": 31,
+ "n_cells": 522,
  "columns": [
   {
    "col_no": "3",
@@ -137,6 +134,22 @@
   },
   {
    "col_no": "10001",
+   "name": "Unemployment | M",
+   "header": [
+    "Unemployment",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Bankruptcy or sudden change in Economic position | F",
+   "header": [
+    "Bankruptcy or sudden change in Economic position",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10003",
    "name": "Death of dear persons | M",
    "header": [
     "Death of dear persons",
@@ -144,7 +157,7 @@
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "10004",
    "name": "Fall in social reputation | F",
    "header": [
     "Fall in social reputation",
@@ -152,7 +165,7 @@
    ]
   },
   {
-   "col_no": "10003",
+   "col_no": "10005",
    "name": "Other causes | M",
    "header": [
     "Other causes",
@@ -160,7 +173,7 @@
    ]
   },
   {
-   "col_no": "10004",
+   "col_no": "10006",
    "name": "Total | F",
    "header": [
     "Total",
@@ -168,7 +181,7 @@
    ]
   },
   {
-   "col_no": "10005",
+   "col_no": "10007",
    "name": "Grand Total | M",
    "header": [
     "Grand Total",
@@ -176,21 +189,11 @@
    ]
   },
   {
-   "col_no": "10006",
+   "col_no": "10008",
    "name": "F (M&F)",
    "header": [
     "F (M&F)"
    ]
-  },
-  {
-   "col_no": "10007",
-   "name": "col_10007",
-   "header": []
-  },
-  {
-   "col_no": "10008",
-   "name": "col_10008",
-   "header": []
   },
   {
    "col_no": "10009",
@@ -216,24 +219,36 @@
    "col_no": "10013",
    "name": "col_10013",
    "header": []
+  },
+  {
+   "col_no": "10014",
+   "name": "col_10014",
+   "header": []
+  },
+  {
+   "col_no": "10015",
+   "name": "col_10015",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 22,
+  "cells_checked": 29,
   "cells_passed": 16,
   "failures": [
-   "col 10003 'TOTAL (STATES) . .': printed 300, sum 257",
-   "col 10009 'TOTAL (STATES) . .': printed 14823, sum 11216",
-   "col 10010 'TOTAL (STATES) . .': printed 8441, sum 7605",
-   "col 10011 'TOTAL (STATES) . .': printed 27458, sum 20014",
-   "col 10012 'TOTAL (STATES) . .': printed 17980, sum 14278",
-   "col 10013 'TOTAL (STATES) . .': printed 45438, sum 29283"
+   "col 10003 'TOTAL (STATES)': printed 378, sum 352",
+   "col 10004 'TOTAL (STATES)': printed 111, sum 106",
+   "col 10005 'TOTAL (STATES)': printed 300, sum 257",
+   "col 10006 'TOTAL (STATES)': printed 115, sum 89",
+   "col 10007 'TOTAL (STATES)': printed 81, sum 70",
+   "col 10008 'TOTAL (STATES)': printed 49, sum 52",
+   "col 10009 'TOTAL (STATES)': printed 237, sum 195",
+   "col 10010 'TOTAL (STATES)': printed 123, sum 1001"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 5,
+ "ocr_pages": 2,
  "warnings": []
 }

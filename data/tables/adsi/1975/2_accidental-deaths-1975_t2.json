@@ -15,13 +15,14 @@
  "source_sha256": "8737369340d00d00fd7c93db38a29f71d55779039aebd4c2f4ed0c06e6734b24",
  "table_no": "",
  "pdf_title": "Ahmedabad (9.5 per cent). The detailed statistics are presented in Table III. TABLE III Comparative statement of incidence of Accidental Deaths in States, Union Territories and Cities during 1975",
- "row_label": "Sl. No. / Names of States/U.T.s/ Cities / Number of Accidental Deaths",
+ "row_label": "Sl. No.",
  "pages": [
-  7
+  7,
+  8
  ],
- "n_rows": 23,
- "n_cols": 2,
- "n_cells": 46,
+ "n_rows": 43,
+ "n_cols": 3,
+ "n_cells": 106,
  "columns": [
   {
    "col_no": "4",
@@ -34,17 +35,25 @@
    "col_no": "5",
    "name": "col_5",
    "header": []
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   }
  ],
- "notes": [],
+ "notes": [
+  "Volume of Accidental Deaths per Lakh of Population in the States, Union Territories & Metropolitan Cities",
+  "The volume of accidental deaths per lakh of population in States for 1975 was 18.64 while in 1974 it was 18.67 excluding Sikkim for which data was not available. For the Union Territories, it was 37.30 in 1975 compared with 34.87 in 1974. The all-India average of the accidental deaths (i.e. States & Union Territories together) per lakh of population was 18.89 in 1975 compared with 18.88 of 1974. The volume of accidental deaths for Metropolitan Cities taken together was 40.42 per lakh of population in 1975 compared with 42.12 for 1974. It shows that the volume of accidental deaths in the Metropolitan Cities was much higher in 1975 when compared with the volume for the States & the Union Territories."
+ ],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 1,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

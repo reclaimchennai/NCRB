@@ -15,15 +15,21 @@
  "source_sha256": "f93650bebfeffeb60e695839347377dc576fa8443a587deb1d6cd1086a23500e",
  "table_no": "7(A)",
  "pdf_title": "34 TABLE-7 (A) STATEMENT SHOWING DISTRICTWISE AND CITYWISE INCIDENCE OF COGNIZABLE CRIMES REPORTED DURING THE YEAR (NO. OF CASES",
- "row_label": "Sl. No. / Name of City",
+ "row_label": "Sl. No.",
  "pages": [
-  7,
   7
  ],
  "n_rows": 24,
- "n_cols": 13,
- "n_cells": 312,
+ "n_cols": 14,
+ "n_cells": 313,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "Name of City",
+   "header": [
+    "Name of City"
+   ]
+  },
   {
    "col_no": "3",
    "name": "Murder",
@@ -125,6 +131,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "92 THEFTS—CATTLE— Union Territories",
+ "title": "88 THEFTS—CATTLE—",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,79 +14,56 @@
  "source_file": "raw/cii/1964/table_chapter/appendix-1964.pdf",
  "source_sha256": "f45dcb582666293544ac26c2e40abd44ebfb046a8ef02df8eee0814973fa15b6",
  "table_no": "",
- "pdf_title": "92 THEFTS—CATTLE— Union Territories",
- "row_label": ". / . / .",
+ "pdf_title": "88 THEFTS—CATTLE—",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
-  54
+  50,
+  50
  ],
- "n_rows": 1,
- "n_cols": 3,
- "n_cells": 3,
+ "n_rows": 26,
+ "n_cols": 6,
+ "n_cells": 144,
  "columns": [
   {
-   "col_no": "7",
-   "name": "23 | 20 | 39 | 34 | 1 | 5 | 123 | 43 | 75 | 58 | 5 | 4 | 104 | 83 | 213 | 34",
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year",
    "header": [
-    "23",
-    "20",
-    "39",
-    "34",
-    "1",
-    "5",
-    "123",
-    "43",
-    "75",
-    "58",
-    "5",
-    "4",
-    "104",
-    "83",
-    "213",
-    "34"
+    "Cases pending investigation from previous year"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Cases pending disposal in courts",
+   "header": [
+    "Cases pending disposal in courts"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases reported during the year",
+   "header": [
+    "Cases reported during the year"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases not investigated (+) Declared false+ mistake of fact or law(+ ) non-cognizable",
+   "header": [
+    "Cases not investigated (+) Declared false+ mistake of fact or law(+ ) non-cognizable"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Cases pending investigation at the end of the year",
+   "header": [
+    "Cases pending investigation at the end of the year"
    ]
   },
   {
    "col_no": "8",
-   "name": "238 | 327 | 816 | 570 | 331 | 43 | 2,481 | 202 | 579 | 464 | 5 | 700 | 290 | 2,270 | 3,037 | 681",
+   "name": "Cases pending trial at the end of the year",
    "header": [
-    "238",
-    "327",
-    "816",
-    "570",
-    "331",
-    "43",
-    "2,481",
-    "202",
-    "579",
-    "464",
-    "5",
-    "700",
-    "290",
-    "2,270",
-    "3,037",
-    "681"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "1,248 | 491 | 800 | 1,013 | 298 | 222 | 2,762 | 1,579 | 1,359 | 1,072 | ... | 983 | 487 | 1,781 | 3,618 | 964",
-   "header": [
-    "1,248",
-    "491",
-    "800",
-    "1,013",
-    "298",
-    "222",
-    "2,762",
-    "1,579",
-    "1,359",
-    "1,072",
-    "...",
-    "983",
-    "487",
-    "1,781",
-    "3,618",
-    "964"
+    "Cases pending trial at the end of the year"
    ]
   }
  ],
@@ -95,10 +72,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 15,
+  "other_totals_passed": 15
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

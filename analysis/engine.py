@@ -83,6 +83,8 @@ def resolve(name: str, section: str, scanned: bool, year: int | None = None) -> 
 
     raw = re.sub(r"^[\W\d]+[.,]?\s*", "", str(name or "")).strip()
     raw = re.sub(r"\s*\[line \d+\]\s*$", "", raw, flags=re.I)
+    # dot leaders of scanned tables: 'Madras . . . . 663' or 'Bangalore .'
+    raw = re.sub(r"(\s*\.){1,}(\s.*)?$", "", raw) if re.search(r"\s\.(\s|$)", raw) else raw
     if not raw or len(raw) < 2:
         return None
     std, kind = standardise(raw, None if re.search(r"cit", str(section or ""), re.I) else year)

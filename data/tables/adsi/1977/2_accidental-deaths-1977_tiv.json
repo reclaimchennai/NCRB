@@ -1,0 +1,76 @@
+{
+ "table_id": "adsi/1977/2_accidental-deaths-1977_tiv",
+ "publication": "adsi",
+ "year": 1977,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1977",
+ "serial": "2",
+ "title": "12 TABLE IV Comparative statement of incidence of Accidental Deaths in States, Union Territories and Cities during 1977.",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1977.pdf",
+ "source_file": "raw/adsi/1977/year_wise/accidental-deaths-1977.pdf",
+ "source_sha256": "6fcef4984854e555361d6d097e0db34b65ef243970f531bd0eb695b86de960b2",
+ "table_no": "IV",
+ "pdf_title": "12 TABLE IV Comparative statement of incidence of Accidental Deaths in States, Union Territories and Cities during 1977.",
+ "row_label": "Sl. No.",
+ "pages": [
+  11
+ ],
+ "n_rows": 36,
+ "n_cols": 5,
+ "n_cells": 106,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Sl. No.",
+   "header": [
+    "Sl. No."
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Names of States/U.Ts. and Cities",
+   "header": [
+    "Names of States/U.Ts. and Cities"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of Accidental Deaths (4)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Number of Accidental Deaths (5)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage variation from 1976 to 1977",
+   "header": [
+    "Percentage variation from 1976 to 1977"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 2,
+  "failures": [
+   "col 4 'TOTAL: (STATES)': printed 108528, sum 110509",
+   "col 5 'TOTAL: (STATES)': printed 113927, sum 113932"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

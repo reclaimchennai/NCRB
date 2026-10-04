@@ -17,24 +17,25 @@
  "pdf_title": "10 ## Union Territories The incidence of accidental deaths came down to 9·2 per cent in 1983 over 1982 in the Union Territories as a whole. The Union Territories, which registered a decline in the total number of accidental deaths in 1983 over 1982 were Lakshadweep (33·3%), A & N Islands (10·0%), Chandigarh (6·4%) and Delhi (5·8%). Rest of the U.Ts. registered an increase in total number of accidental deaths over 1982.",
  "row_label": "Sl. No.",
  "pages": [
-  11
+  11,
+  12
  ],
- "n_rows": 2,
- "n_cols": 4,
- "n_cells": 6,
+ "n_rows": 49,
+ "n_cols": 5,
+ "n_cells": 147,
  "columns": [
   {
    "col_no": "2",
-   "name": "States/UTs/Cities",
+   "name": "Sl. No.",
    "header": [
-    "States/UTs/Cities"
+    "Sl. No."
    ]
   },
   {
    "col_no": "3",
-   "name": "Number of Accidental Deaths (3)",
+   "name": "States/UTs/Cities",
    "header": [
-    "Number of Accidental Deaths"
+    "States/UTs/Cities"
    ]
   },
   {
@@ -46,6 +47,13 @@
   },
   {
    "col_no": "5",
+   "name": "Number of Accidental Deaths (5)",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "6",
    "name": "%age variation from 1982 to 1983",
    "header": [
     "%age variation from 1982 to 1983"
@@ -54,13 +62,16 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 6,
+  "cells_passed": 4,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 121570, sum 41844",
+   "col 4 'TOTAL (STATES)': printed 123745, sum 124067"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

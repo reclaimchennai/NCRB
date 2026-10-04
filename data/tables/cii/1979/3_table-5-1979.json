@@ -25,6 +25,8 @@
   1,
   1,
   1,
+  2,
+  2,
   3,
   4,
   4,
@@ -32,9 +34,9 @@
   5,
   5
  ],
- "n_rows": 94,
- "n_cols": 10,
- "n_cells": 728,
+ "n_rows": 96,
+ "n_cols": 12,
+ "n_cells": 740,
  "columns": [
   {
    "col_no": "3",
@@ -91,6 +93,28 @@
    ]
   },
   {
+   "col_no": "9",
+   "name": "380 | 532 | 1574 | 796 | 70",
+   "header": [
+    "380",
+    "532",
+    "1574",
+    "796",
+    "70"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "0·8 | 2·8 | 2·4 | 2·5 | 0·6",
+   "header": [
+    "0·8",
+    "2·8",
+    "2·4",
+    "2·5",
+    "0·6"
+   ]
+  },
+  {
    "col_no": "10001",
    "name": "Crime Heads | Others | I",
    "header": [
@@ -133,8 +157,8 @@
   "cells_passed": 14,
   "failures": [
    "col 3 'TOTAL (States)': printed 164168, sum 170467",
-   "col 5 'TOTAL (States)': printed 400454, sum 400527",
-   "col 7 'TOTAL (States)': printed 98002, sum 98920",
+   "col 5 'TOTAL (States)': printed 400454, sum 400943",
+   "col 7 'TOTAL (States)': printed 98002, sum 98923",
    "col 10001 'TOTAL (U.TS.)': printed 15433, sum 519634",
    "col 10003 'TOTAL (U.TS.)': printed 55419, sum 1.33502e+06"
   ],
@@ -142,6 +166,6 @@
   "other_totals_passed": 7
  },
  "inferred_pages": 0,
- "ocr_pages": 14,
+ "ocr_pages": 16,
  "warnings": []
 }

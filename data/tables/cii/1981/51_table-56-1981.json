@@ -18,11 +18,15 @@
  "row_label": "Sl.No.",
  "pages": [
   1,
+  1,
+  1,
+  2,
+  2,
   2
  ],
- "n_rows": 47,
+ "n_rows": 40,
  "n_cols": 12,
- "n_cells": 564,
+ "n_cells": 280,
  "columns": [
   {
    "col_no": "3",
@@ -124,12 +128,19 @@
  "notes": [],
  "checks": {
   "cells_checked": 17,
-  "cells_passed": 17,
-  "failures": [],
+  "cells_passed": 11,
+  "failures": [
+   "col 10002 'TOTAL (States)': printed 3076, sum 3075",
+   "col 10002 'TOTAL (U.Ts.)': printed 145, sum 129",
+   "col 10003 'TOTAL (States)': printed 752, sum 743",
+   "col 10005 'TOTAL (States)': printed 120, sum 116",
+   "col 9 'TOTAL (States)': printed 4250, sum 4236",
+   "col 9 'TOTAL (U.Ts.)': printed 218, sum 202"
+  ],
   "other_totals_checked": 7,
   "other_totals_passed": 7
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 6,
  "warnings": []
 }

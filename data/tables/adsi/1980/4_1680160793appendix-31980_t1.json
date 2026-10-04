@@ -6,7 +6,7 @@
  "topic": "Suicides in India",
  "section": "SUICIDES IN INDIA",
  "serial": "4",
- "title": "APPENDIX III",
+ "title": "45 APPENDIX III State-wise Distribution of Suicides by Causes during 1980",
  "listing_title": "State wise distribution of Suicides by Causes during 1980",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,45 +14,73 @@
  "source_file": "raw/adsi/1980/table_content/1680160793appendix-31980.pdf",
  "source_sha256": "dae38aebb33948508c970105dd83232878ddb6cc445c0525ac832e136aaa13e4",
  "table_no": "",
- "pdf_title": "APPENDIX III",
- "row_label": "APPENDIX Sl. No. / State-wise Names of the States/U.Ts/ Cities",
+ "pdf_title": "45 APPENDIX III State-wise Distribution of Suicides by Causes during 1980",
+ "row_label": "Sl. No. / Names of the States/U.Ts/ Cities",
  "pages": [
-  1,
-  4
+  1
  ],
- "n_rows": 17,
+ "n_rows": 16,
  "n_cols": 16,
- "n_cells": 250,
+ "n_cells": 256,
  "columns": [
   {
    "col_no": "3",
-   "name": "Distribution of | Failure in Examination | M",
+   "name": "Failure in Examination | M",
    "header": [
-    "Distribution of",
     "Failure in Examination",
     "M"
    ]
   },
   {
    "col_no": "4",
-   "name": "Suicides | Quarrel with Parents-in-law | F",
+   "name": "Failure in Examination | F",
    "header": [
-    "Suicides",
-    "Quarrel with Parents-in-law",
+    "Failure in Examination",
     "F"
    ]
   },
   {
    "col_no": "5",
-   "name": "By Causes during 1980 | Quarrel with spouse | M",
+   "name": "Quarrel with Parents-in-law | M",
    "header": [
-    "By Causes during 1980",
-    "Quarrel with spouse",
+    "Quarrel with Parents-in-law",
     "M"
    ]
   },
   {
    "col_no": "6",
+   "name": "Quarrel with Parents-in-law | F",
+   "header": [
+    "Quarrel with Parents-in-law",
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Quarrel with spouse | M",
+   "header": [
+    "Quarrel with spouse",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Quarrel with spouse | F",
+   "header": [
+    "Quarrel with spouse",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Poverty | M",
+   "header": [
+    "Poverty",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
    "name": "Poverty | F",
    "header": [
     "Poverty",
@@ -60,7 +88,7 @@
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "11",
    "name": "Love Affairs | M",
    "header": [
     "Love Affairs",
@@ -68,29 +96,15 @@
    ]
   },
   {
-   "col_no": "8",
-   "name": "F (8)",
+   "col_no": "12",
+   "name": "Love Affairs | F",
    "header": [
+    "Love Affairs",
     "F"
    ]
   },
   {
-   "col_no": "9",
-   "name": "M (9)",
-   "header": [
-    "M"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Insanity | F",
-   "header": [
-    "Insanity",
-    "F"
-   ]
-  },
-  {
-   "col_no": "11",
+   "col_no": "13",
    "name": "Insanity | M",
    "header": [
     "Insanity",
@@ -98,15 +112,15 @@
    ]
   },
   {
-   "col_no": "12",
-   "name": "Dispute over Property | F",
+   "col_no": "14",
+   "name": "Insanity | F",
    "header": [
-    "Dispute over Property",
+    "Insanity",
     "F"
    ]
   },
   {
-   "col_no": "13",
+   "col_no": "15",
    "name": "Dispute over Property | M",
    "header": [
     "Dispute over Property",
@@ -114,37 +128,27 @@
    ]
   },
   {
-   "col_no": "14",
-   "name": "Dreadful Diseases | F",
-   "header": [
-    "Dreadful Diseases",
-    "F"
-   ]
-  },
-  {
-   "col_no": "15",
-   "name": "M (15)",
-   "header": [
-    "M"
-   ]
-  },
-  {
    "col_no": "16",
-   "name": "F (16)",
+   "name": "Dispute over Property | F",
    "header": [
+    "Dispute over Property",
     "F"
    ]
   },
   {
    "col_no": "17",
-   "name": "col_17",
-   "header": []
+   "name": "Dreadful Diseases | M",
+   "header": [
+    "Dreadful Diseases",
+    "M"
+   ]
   },
   {
-   "col_no": "2",
-   "name": "Names of States/ U.Ts/Cities",
+   "col_no": "18",
+   "name": "Dreadful Diseases | F",
    "header": [
-    "Names of States/ U.Ts/Cities"
+    "Dreadful Diseases",
+    "F"
    ]
   }
  ],
@@ -157,6 +161,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

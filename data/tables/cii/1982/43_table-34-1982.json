@@ -14,21 +14,67 @@
  "source_file": "raw/cii/1982/table_content/table-34-1982.pdf",
  "source_sha256": "c650b785b879bf61978686528a097a53f4fca09310f32e900dfd55fc7e46049f",
  "table_no": "34",
- "pdf_title": "93 TABLE 34",
- "row_label": "Sl. No. / States/U.Ts./Cities / States/U.Ts./Cities",
+ "pdf_title": "92 TABLE 34 JUVENILE DELINQUENCY UNDER IMPORTANT HEADS OF LOCAL AND SPECIAL LAWS DURING THE YEAR—1982",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
  "pages": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  2,
   2
  ],
- "n_rows": 47,
- "n_cols": 7,
- "n_cells": 329,
+ "n_rows": 42,
+ "n_cols": 12,
+ "n_cells": 257,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Cases reported under Local and Special Laws | Prevention of corruption Act",
+   "col_no": "9",
+   "name": "States/U.Ts./Cities (9)",
    "header": [
-    "Cases reported under Local and Special Laws",
-    "Prevention of corruption Act"
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "States/U.Ts./Cities (10)",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "States/U.Ts./Cities (11)",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Cases reported under local and special laws | Excise Act",
+   "header": [
+    "Cases reported under local and special laws",
+    "Excise Act"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Cases reported under local and special laws | Prohibition Act",
+   "header": [
+    "Cases reported under local and special laws",
+    "Prohibition Act"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Cases reported under local and special laws | Customs Act",
+   "header": [
+    "Cases reported under local and special laws",
+    "Customs Act"
    ]
   },
   {
@@ -64,7 +110,7 @@
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "10001",
    "name": "Cases reported under Local and Special Laws | Other Offences",
    "header": [
     "Cases reported under Local and Special Laws",
@@ -72,7 +118,7 @@
    ]
   },
   {
-   "col_no": "10",
+   "col_no": "10002",
    "name": "Cases reported under Local and Special Laws | Grand Total",
    "header": [
     "Cases reported under Local and Special Laws",
@@ -82,13 +128,19 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 16,
-  "failures": [],
-  "other_totals_checked": 6,
-  "other_totals_passed": 6
+  "cells_checked": 29,
+  "cells_passed": 24,
+  "failures": [
+   "col 14 'TOTAL (STATES)': printed 1918, sum 1889",
+   "col 10001 'TOTAL (STATES)': printed 34315, sum 34291",
+   "col 10001 'TOTAL (U.Ts.)': printed 591, sum 586",
+   "col 10002 'TOTAL (STATES)': printed 82536, sum 82512",
+   "col 10002 'TOTAL (U.Ts.)': printed 2241, sum 2236"
+  ],
+  "other_totals_checked": 10,
+  "other_totals_passed": 10
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 10,
  "warnings": []
 }

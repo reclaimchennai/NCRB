@@ -15,22 +15,14 @@
  "source_sha256": "2ea6cc42f5c0f80a54b386799bea5e31e4d7de8791a5cb14407582df7229446c",
  "table_no": "III",
  "pdf_title": "9 ## Metropolitan Cities : During 1976, the incidence of accidental deaths registered an increase of 7.1 percent in the Metropolitan Cities as a whole in 1976-over 1975. The Metropolitan Cities which recorded an increase in the incidence of accidental deaths were Ahmedabad (16.5 percent), Bombay (12.9 percent), Kanpur (11.3 percent), Delhi (3.7 percent) and Hyderabad (1.4 percent). The remaining three Metropolitan Cities recorded a decline and these were Madras (15.4 percent), Bangalore (7.6 percent) and Calcutta (0.2 percent). The detailed statistics are presented in Table III.",
- "row_label": "Sl No.",
+ "row_label": "Sl No. / Sl No. / Name of States/U. Ts./Cities",
  "pages": [
-  8,
   8
  ],
- "n_rows": 3,
- "n_cols": 5,
- "n_cells": 9,
+ "n_rows": 25,
+ "n_cols": 4,
+ "n_cells": 74,
  "columns": [
-  {
-   "col_no": "2",
-   "name": "Sl No.",
-   "header": [
-    "Sl No."
-   ]
-  },
   {
    "col_no": "6",
    "name": "Name of States/U. Ts./Cities",
@@ -54,44 +46,24 @@
   },
   {
    "col_no": "9",
-   "name": "+18.5 | +1.7 | +3.3 | -4.1 | -3.3 | +14.6 | +42.1 | -6.9 | -17.3 | -4.9 | +4.1 | +51.2 | +12.0 | +26.5 | +5.0 | +12.4 | +22.7 | -26.7 | -20.3 | +4.2 | -4.0 | -17.6",
+   "name": "Percentage variation from 1975 to 1976",
    "header": [
-    "+18.5",
-    "+1.7",
-    "+3.3",
-    "-4.1",
-    "-3.3",
-    "+14.6",
-    "+42.1",
-    "-6.9",
-    "-17.3",
-    "-4.9",
-    "+4.1",
-    "+51.2",
-    "+12.0",
-    "+26.5",
-    "+5.0",
-    "+12.4",
-    "+22.7",
-    "-26.7",
-    "-20.3",
-    "+4.2",
-    "-4.0",
-    "-17.6"
+    "Percentage variation from 1975 to 1976"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
+  "cells_checked": 2,
   "cells_passed": 0,
   "failures": [
-   "col 7 'TOTAL (STATES) .': printed 110072, sum 1980"
+   "col 6 'TOTAL (STATES)': printed 110072, sum 1978",
+   "col 7 'TOTAL (STATES)': printed 108528, sum 112052"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

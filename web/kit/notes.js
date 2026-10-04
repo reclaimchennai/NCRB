@@ -12,7 +12,7 @@
 
 const IPC = /ipc|cognizable|murder|rape|kidnap|abduct|dacoit|robber|burglar|theft|riot|cheat|breach|counterfeit|arson|hurt|dowry|modesty|cruelty|crime/i;
 const WOMEN = /rape|modesty|molest|women|sexual|cruelty|dowry|354/i;
-const TRAFFIC = /traffic|road|crash|accident|vehicle|transport/i;
+const TRAFFIC = /traffic|\broad|crash|vehicle|transport/i;
 
 // {years, places (array, or null for every place), what (regex on category + table title), text, always}
 export const EVENTS = [
@@ -52,16 +52,18 @@ export function outliers(values) {
     const m = median(near);
     if (!(m > 0)) continue;
     const r = v / m;
-    if ((r > 1.6 || r < 0.6) && Math.abs(v - m) > Math.max(20, 0.05 * m)) out.push({ year: y, v, m, dir: r > 1 ? 'high' : 'low' });
+    // small counts swing a lot from year to year: under 100 a year, only a halving or doubling (and 25 or more) counts
+    const far = m >= 100 ? (r > 1.6 || r < 0.6) && Math.abs(v - m) > 0.1 * m : (r > 2 || r < 0.5) && Math.abs(v - m) >= 25;
+    if (far) out.push({ year: y, v, m, dir: r > 1 ? 'high' : 'low' });
   }
   return out;
 }
 
 /**
  * Notes for one series: [{n, year, text, kind}] in year order, numbered.
- * ctx: {place, what (category name + table title), fmt}
+ * ctx: {place, what (category name + topic, not the table title), fmt, scanned (year -> read from a scanned page)}
  */
-export function notesFor(values, { place = '', what = '', fmt = v => String(v) } = {}) {
+export function notesFor(values, { place = '', what = '', fmt = v => String(v), scanned = () => false } = {}) {
   const fits = (e, y) => e.years.includes(y) && (!e.places || e.places.includes(place)) && e.what.test(what);
   const ys = Object.keys(values).map(Number);
   const notes = new Map();
@@ -70,7 +72,9 @@ export function notesFor(values, { place = '', what = '', fmt = v => String(v) }
     notes.set(o.year, {
       year: o.year, kind: e ? 'event' : 'check',
       text: e ? e.text
-        : `Unusually ${o.dir} against the years around it (about ${fmt(Math.round(o.m))}). Check the source table: a change in what NCRB counted that year, a boundary change, or, before 2000, a misread figure are the usual causes.`,
+        : scanned(o.year)
+          ? `Unusually ${o.dir} against the years around it (about ${fmt(Math.round(o.m))}), and read from a scanned page: check it against the source table. A misreading, a change in what NCRB counted, or a boundary change are the usual causes.`
+          : `Unusually ${o.dir} against the years around it (about ${fmt(Math.round(o.m))}). This is the figure NCRB printed; its table gives no reason. A change in what was counted or a boundary change is the usual cause.`,
     });
   }
   for (const e of EVENTS) {

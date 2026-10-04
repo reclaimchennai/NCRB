@@ -1,52 +1,47 @@
-section,sl_no,States/UTs/Cities,Cases reported under local & special laws | Arms Act,Cases reported under local & special laws | Oplum Act,Cases reported under local & special laws | Gumbling Act,Cases reported under local & special laws | Exclusion Act,Cases reported under local & special laws | Prohibition Act,Cases reported under local & special laws | Explosive Act,Cases reported under local & special laws | Suppression of Illegal Traffic Act,Cases reported under local & special laws | Prevention of Corrup-tion Act,Cases reported under local & special laws | Customs Act,Cases reported under local & special laws | Indian Railways Act,Cases reported under local & special laws | Other Offences,Cases reported under local & special laws | Total
-STATES,1,Andhra Pradesh,...,...,27,81,...,...,61,...,...,...,"1,021","1,190"
-STATES,2,Assam,...,...,94,33,17,24,1,...,...,4,110,283
-STATES,3,Bihar,15,...,21,5,...,1,...,...,...,28,22,92
-STATES,4,Gujarat,25,...,"4,738",...,"10,419",1,2,...,...,61,"4,690","19,936"
-STATES,5,Haryana,105,43,413,588,...,...,...,...,...,38,70,"1,257"
-STATES,6,Himachal Pradesh,2,3,3,77,...,...,...,...,...,...,26,11
-STATES,7,Jammu & Kashmir,...,...,33,...,...,...,...,...,...,...,166,199
-STATES,8,Karnataka,4,...,285,40,2,...,188,567,...,...,151,"1,337"
-STATES,9,Kerala,...,...,5,...,...,...,...,...,...,...,39,44
-STATES,10,Madhya Pradesh,289,22,"1,606",513,...,22,...,"1,357",...,199,"1,230","5,238"
-STATES,11,Maharashtra,97,...,"7,750",...,"8,175",...,2,11,2,"3,664","29,884","49,585"
-STATES,12,Manipur,2,...,13,20,...,...,2,...,...,...,4,41
-STATES,13,Meghalaya,...,...,...,...,...,...,...,...,...,...,20,20
-STATES,14,Nagaland,...,...,...,...,...,...,...,...,...,...,...,...
-STATES,15,Orissa,1,...,2,...,...,...,...,...,...,18,13,34
-STATES,16,Punjab,175,69,239,399,...,...,...,...,...,41,111,"1,034"
-STATES,17,Rajasthan,33,15,103,11,55,2,...,...,...,18,49,286
-STATES,18,Sikkim,...,...,...,...,...,...,...,...,...,...,1,1
-STATES,19,Tamil Nadu,1,1,"1,232",...,"2,017",...,"1,247",...,...,176,"9,061","13,733"
-STATES,20,Tripura,2,...,5,...,...,4,...,...,...,...,18,29
-STATES,21,Uttar Pradesh,22,...,14,13,...,...,...,...,...,41,372,462
-STATES,22,West Bengal,2,...,74,1,27,...,...,...,...,32,245,381
-STATES,,TOTAL (STATES),775,153,"16,657","1,781","20,712",54,"1,503","1,935",2,"4,320","47,403","95,295"
-UTs,23,A & N Islands,...,...,6,102,...,...,...,...,...,...,14,122
-UTs,24,Arunachal Pradesh,...,...,...,...,...,...,...,...,...,...,10,10
-UTs,25,Chandigarh,30,7,22,16,...,...,...,...,...,...,47,122
-UTs,26,D & N Haryana,...,...,...,...,...,...,...,,,,,
-UTs,27,Delhi,551,23,578,362,...,...,.9,...,...,18,42,"1,583"
-UTs,28,Goa Daman & Dhu,...,...,90,1,...,...,...,,,,,
-UTs,29,Lakshadweep,...,...,...,...,...,...,...,...,...,...,...,...
-UTs,30,Mizoram,...,...,...,...,...,...,...,...,...,...,9,9
-UTs,31,Pondleberry,1,...,44,6,...,...,10,,,,,
-UTs,,TOTAL (UTs).,582,30,740,487,...,...,19,45,...,23,523,"2,449"
-UTs,,GRAND TOTAL,"1,357",183,"17,397","2,268","20,712",54,1522,"1,980",2,"4,343","47,926","97,744"
-CITIES,1,Ahmedabad,1,...,"2,558",...,"1,708",...,2,...,...,...,"2,611","6,880"
-CITIES,2,Bangalore,...,...,6,37,...,...,56,518,...,...,18,635
-CITIES,3,Bombay,...,...,...,...,...,...,...,...,...,...,"1,382","1,382"
-CITIES,4,Calcutta,...,...,...,...,18,...,...,...,...,...,135,153
-CITIES,5,Delhi,551,23,578,362,...,...,9,...,...,18,42,"1,583"
-CITIES,6,Hyderabad,...,...,27,80,...,...,43,...,...,...,"1,017","1,167"
-CITIES,7,Kanpur,...,...,...,...,...,...,...,...,...,...,...,...
-CITIES,8,Madras,...,1,885,...,473,...,23,...,...,...,"1,970","3,332"
-CITIES,9,Pune,1,...,251,...,975,...,1,4,...,...,"1,993","3,225"
-CITIES,10,Jalpur,2,1,9,...,5,...,...,,,,,
-CITIES,11,Lucknow,...,...,...,NIL,...,...,...,...,...,...,...,...
-CITIES,12,Nagpur,52,...,"1,185",...,718,...,...,...,...,...,"1,653","3,608"
-CITIES,,TOTAL (CITIES),607,25,"5,499",479,"3,897",...,134,322,...,18,"10,824","22,05"
-UTs.,26,D & N Haveli,,,,,,,,...,...,...,...,...
-UTs.,28,Gon Daman & Dlu,,,,,,,,...,...,5,18,114
-UTs.,31,Pondicherry,,,,,,,,45,...,...,383,489
-CITIES,10,Jaipur,,,,,,,,...,...,...,3,20
+section,sl_no,Sl. no.,Cases reported under local & special laws | Arms Act,Cases reported under local & special laws | Oplum Act,Cases reported under local & special laws | Gumbling Act,Cases reported under local & special laws | Exclusion Act,Cases reported under local & special laws | Prohibition Act,Cases reported under local & special laws | Explosive Act,Cases reported under local & special laws | Suppression of Illegal Traffic Act,Cases reported under local & special laws | Prevention of Corrup-tion Act,Cases reported under local & special laws | Customs Act,Cases reported under local & special laws | Indian Railways Act,Cases reported under local & special laws | Other Offences,Cases reported under local & special laws | Total
+STATES,1,Andhra Pradesh,,,27,81,,,61,,,,"1,021","1,190"
+STATES,2,Assam,,,94,33,17,24,1,,,4,110,283
+STATES,3,Bihar,15,,21,5,,1,,,,28,22,92
+STATES,4,Gujarat,25,,"4,738",,"10,419",1,2,,,61,"4,690","19,936"
+STATES,5,Haryana,105,43,413,588,,,,,,38,70,"1,257"
+STATES,6,Himachal Pradesh,2,3,3,77,,,,,,,26,11
+STATES,7,Jammu & Kashmir,,,33,,,,,,,,166,199
+STATES,8,Karnataka,4,,285,40,2,,188,567,,,151,"1,337"
+STATES,9,Kerala,,,5,,,,,,,,39,44
+STATES,10,Madhya Pradesh,289,22,"1,606",513,,22,,"1,357",,199,"1,230","5,238"
+STATES,11,Maharashtra,97,,"7,750",,"8,175",,2,11,2,"3,664","29,884","49,585"
+STATES,12,Manipur,2,,13,20,,,2,,,,4,41
+,15,Orissa,1,,2,,,,,,,18,13,34
+,16,Punjab,175,69,239,399,,,,,,41,111,"1,034"
+,17,Rajasthan,33,15,103,11,55,2,,,,18,49,286
+18. Sikkim,19,Tamil Nadu,1,1,"1,232",,"2,017",,"1,247",,,176,"9,061","13,733"
+18. Sikkim,20,Tripura,2,,5,,,4,,,,,18,29
+18. Sikkim,21,Uttar Pradesh,22,,14,13,,,,,,41,372,462
+18. Sikkim,22,West Bengal,2,,74,1,27,,,,,32,245,381
+18. Sikkim,,TOTAL (STATES),775,153,"16,657","1,781","20,712",54,"1,503","1,935",2,"4,320","47,403","95,295"
+UTs,23,A & N Islands,,,6,102,,,,,,,14,122
+24. Arunachal Pradesh,25,Chandigarh,30,7,22,16,,,,,,,47,122
+26. D & N Haryana,27,Delhi,551,23,578,362,,,.9,,,18,42,"1,583"
+26. D & N Haryana,28,Goa Daman & Dhu,,,90,1,,,,,,,,
+,31,Pondleberry,1,,44,6,,,10,,,,,
+,,TOTAL (UTs).,582,30,740,487,,,19,45,,23,523,"2,449"
+,,GRAND TOTAL,"1,357",183,"17,397","2,268","20,712",54,1522,"1,980",2,"4,343","47,926","97,744"
+CITIES,1,Ahmedabad,1,,"2,558",,"1,708",,2,,,,"2,611","6,880"
+CITIES,2,Bangalore,,,6,37,,,56,518,,,18,635
+3. Bombay,4,Calcutta,,,,,18,,,,,,135,153
+3. Bombay,5,Delhi,551,23,578,362,,,9,,,18,42,"1,583"
+3. Bombay,6,Hyderabad,,,27,80,,,43,,,,"1,017","1,167"
+7. Kanpur,8,Madras,,1,885,,473,,23,,,,"1,970","3,332"
+7. Kanpur,9,Pune,1,,251,,975,,1,4,,,"1,993","3,225"
+7. Kanpur,10,Jalpur,2,1,9,,5,,,,,,,
+7. Kanpur,11,Lucknow,,,,NIL,,,,,,,,
+7. Kanpur,12,Nagpur,52,,"1,185",,718,,,,,,"1,653","3,608"
+7. Kanpur,,TOTAL (CITIES),607,25,"5,499",479,"3,897",,134,322,,18,"10,824","22,05"
+STATES,13,Meghalaya,,,,,,,,,,,20,20
+14. Nagaland,18,Sikkim,,,,,,,,,,,1,1
+UTs.,24,Arunachal Pradesh,,,,,,,,,,,10,10
+26. D & N Haveli,28,Gon Daman & Dlu,,,,,,,,,,5,18,114
+29. Lakshadweep,30,Mizoram,,,,,,,,,,,9,9
+29. Lakshadweep,31,Pondicherry,,,,,,,,45,,,383,489
+CITIES,3,Bombay,,,,,,,,,,,"1,382","1,382"
+7. Kanpur,10,Jaipur,,,,,,,,,,,3,20
