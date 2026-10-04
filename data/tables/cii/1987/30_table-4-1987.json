@@ -75,23 +75,19 @@
   },
   {
    "col_no": "12",
-   "name": "VOLUME | OFCRIMEIN 1987PER LAKHOFPOPULATION",
+   "name": "VOLUME | PER LAKHOFPOPULATION",
    "header": [
     "VOLUME",
-    "OFCRIMEIN 1987PER LAKHOFPOPULATION"
+    "PER LAKHOFPOPULATION"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 18,
-  "cells_passed": 13,
+  "cells_passed": 17,
   "failures": [
-   "col 5 'TOTAL (STATES)': printed 1.32146e+06, sum 1.32148e+06",
-   "col 5 'TOTAL (U.Ts)': printed 32439, sum 32459",
-   "col 9 'TOTAL (STATES)': printed 1.3708e+06, sum 1.371e+06",
-   "col 9 'TOTAL (CITIES)': printed 162201, sum 162301",
-   "col 11 'TOTAL (U.Ts)': printed 31362, sum 31302"
+   "col 8 'TOTAL (STATES)': printed 1.34859e+06, sum 1.34869e+06"
   ],
   "other_totals_checked": 6,
   "other_totals_passed": 6

@@ -8,109 +8,113 @@
  "serial": "81",
  "title": "Actual Police Strength in Relation to Area, Population & IPC Crimes During 1993",
  "listing_title": "Actual Police Strength in Relation to Area, Population & IPC Crimes During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-81-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-81-1993-crime.pdf",
  "source_sha256": "98f939c1e64f87ac6108b9822b79ee5e772bb7e10954fe3c574c9d4ae75dae73",
  "table_no": "81",
- "pdf_title": "ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CRIMES",
- "row_label": "STATE i:",
+ "pdf_title": "337 TABLE-81 ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CRIMES",
+ "row_label": "No. NO / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 30,
+ "n_rows": 35,
  "n_cols": 11,
- "n_cells": 325,
+ "n_cells": 385,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(33)",
-   "header": [
-    "(33)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "(4)",
+   "name": "AREA in Sq. km2",
    "header": [
-    "(4)"
+    "AREA in Sq. km2"
    ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "ESTIMATED MID-TEAN POPULATION",
+   "header": [
+    "ESTIMATED MID-TEAN POPULATION"
+   ]
   },
   {
    "col_no": "5",
-   "name": "(ti",
+   "name": "TOTAL CASES FOR INVESTIGATION",
    "header": [
-    "(ti"
+    "TOTAL CASES FOR INVESTIGATION"
    ]
   },
   {
    "col_no": "6",
-   "name": "(0)",
+   "name": "ACTUAL POLICE STRENGTH | CIVIL",
    "header": [
-    "(0)"
+    "ACTUAL POLICE STRENGTH",
+    "CIVIL"
    ]
   },
   {
    "col_no": "7",
-   "name": "(th",
+   "name": "ACTUAL POLICE STRENGTH | ARRED",
    "header": [
-    "(th"
+    "ACTUAL POLICE STRENGTH",
+    "ARRED"
    ]
   },
   {
    "col_no": "8",
-   "name": "abe (9)",
+   "name": "ACTUAL POLICE STRENGTH | TOTAL",
    "header": [
-    "abe (9)"
+    "ACTUAL POLICE STRENGTH",
+    "TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "(IBN BOB (10)",
+   "name": "HICENT AGE OF CIVIL POLICE TO TOTAL POLICE",
    "header": [
-    "(IBN BOB (10)"
+    "HICENT AGE OF CIVIL POLICE TO TOTAL POLICE"
    ]
   },
   {
    "col_no": "10",
-   "name": "on",
+   "name": "NO. OF POLICE MEN PER 100 km2 OF AREA",
    "header": [
-    "on"
+    "NO. OF POLICE MEN PER 100 km2 OF AREA"
    ]
   },
   {
    "col_no": "11",
-   "name": "(72)",
+   "name": "NO. OF POLICE MEN PER 1,000 OF HIGH LOCATION",
    "header": [
-    "(72)"
+    "NO. OF POLICE MEN PER 1,000 OF HIGH LOCATION"
    ]
   },
   {
    "col_no": "12",
-   "name": "(13)",
+   "name": "IPC CASES PER CIVIL POLICEMAN | ALL NAMED",
    "header": [
-    "(13)"
+    "IPC CASES PER CIVIL POLICEMAN",
+    "ALL NAMED"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "IPC CASES PER CIVIL POLICEMAN | 100 ONLY",
+   "header": [
+    "IPC CASES PER CIVIL POLICEMAN",
+    "100 ONLY"
    ]
   }
  ],
- "notes": [
-  "3H R fs 4h 310 310 TOKO eine nth ui 9.1!",
-  "- re ry"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 5,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

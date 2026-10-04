@@ -40,10 +40,10 @@
   },
   {
    "col_no": "5",
-   "name": "NEW OFFENDERS | PERCENT-TAGE TO TOTAL",
+   "name": "NEW OFFENDERS | PERCENTAGE TO TOTAL",
    "header": [
     "NEW OFFENDERS",
-    "PERCENT-TAGE TO TOTAL"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
@@ -57,11 +57,11 @@
   },
   {
    "col_no": "7",
-   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | PERCENT-TAGE TOTAL",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | PERCENTAGE TOTAL",
    "header": [
     "OLD OFFENDERS CONVICTED IN THE PAST",
     "ONCE",
-    "PERCENT-TAGE TOTAL"
+    "PERCENTAGE TOTAL"
    ]
   },
   {
@@ -75,11 +75,11 @@
   },
   {
    "col_no": "9",
-   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE | PERCENT-TAGE TOTAL",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE | PERCENTAGE TOTAL",
    "header": [
     "OLD OFFENDERS CONVICTED IN THE PAST",
     "TWICE",
-    "PERCENT-TAGE TOTAL"
+    "PERCENTAGE TOTAL"
    ]
   },
   {
@@ -93,34 +93,33 @@
   },
   {
    "col_no": "11",
-   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | PERCENT-TAGE TOTAL",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE | PERCENTAGE TOTAL",
    "header": [
     "OLD OFFENDERS CONVICTED IN THE PAST",
     "THRICE OR MORE",
-    "PERCENT-TAGE TOTAL"
+    "PERCENTAGE TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "PERCENT-TAGE OF RECIDIVISTS (7)+(9)+(11)",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | PERCEN-TAGE OF RECIDIVISTS {(7)+(9)+(11)}",
    "header": [
-    "PERCENT-TAGE OF RECIDIVISTS (7)+(9)+(11)"
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "PERCEN-TAGE OF RECIDIVISTS {(7)+(9)+(11)}"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 20,
-  "cells_passed": 15,
+  "cells_checked": 15,
+  "cells_passed": 12,
   "failures": [
-   "col 3 'TOTAL (ALL-INDIA)': printed 259876, sum 2.60088e+06",
-   "col 4 'TOTAL (CITIES)': printed 219569, sum 218569",
+   "col 3 'TOTAL (ALL-INDIA)': printed 2.58088e+06, sum 2.60088e+06",
    "col 6 'TOTAL (CITIES)': printed 18407, sum 18907",
-   "col 8 'TOTAL (CITIES)': printed 3681, sum 3684",
-   "col 10 'TOTAL (UTS)': printed 712, sum 682"
+   "col 10 'TOTAL (CITIES)': printed 1802, sum 1797"
   ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 5,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

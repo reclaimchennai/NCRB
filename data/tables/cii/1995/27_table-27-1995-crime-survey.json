@@ -1,0 +1,68 @@
+{
+ "table_id": "cii/1995/27_table-27-1995-crime-survey",
+ "publication": "cii",
+ "year": 1995,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "27",
+ "title": "Persons Arrested under IPC Crimes During 1995 and Percentage Variation in 1995 over 1994 (State, UT & City-Wise)",
+ "listing_title": "Persons Arrested under IPC Crimes During 1995 and Percentage Variation in 1995 over 1994 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-27-1995-crime-survey.pdf",
+ "source_file": "raw/cii/1995/table_content/table-27-1995-crime-survey.pdf",
+ "source_sha256": "3a9b96cd82ba6896d79c7e65b95fc7a0a28cc250a4634befe3ad318b1b92c4c6",
+ "table_no": "27",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-27",
+ "row_label": "SL. NO. / STATE/UT/CITY",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 4,
+ "n_cells": 232,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "1994",
+   "header": [
+    "1994"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "1995",
+   "header": [
+    "1995"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "PERCENTAGE VARIATION IN 1995 OVER 1994",
+   "header": [
+    "PERCENTAGE VARIATION IN 1995 OVER 1994"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING 1995",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING 1995"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 5,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 2.538e+06, sum 2.53801e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

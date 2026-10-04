@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "13",
- "title": "40 TABLE ALL INDIA STATEMENT OF OFFENCES COM-",
+ "title": "ALL INDIA STATEMENT OF OFFENCES COM",
  "listing_title": "All India Statement of Offences Committed under Special and Local Laws During 1969",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,51 +14,55 @@
  "source_file": "raw/cii/1969/table_content/table-13-1969.pdf",
  "source_sha256": "a58b64e96584df8a5e21cbbc0b1830cdc0a4fb963418bd5d768701cd257f4957",
  "table_no": "",
- "pdf_title": "40 TABLE ALL INDIA STATEMENT OF OFFENCES COM-",
- "row_label": "Sl. No",
+ "pdf_title": "ALL INDIA STATEMENT OF OFFENCES COM",
+ "row_label": "SI. No",
  "pages": [
   1
  ],
  "n_rows": 9,
  "n_cols": 6,
- "n_cells": 47,
+ "n_cells": 53,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
-   "col_no": "3",
-   "name": "col_3",
-   "header": []
-  },
-  {
-   "col_no": "4",
    "name": "Heads of Crime/Offences",
    "header": [
     "Heads of Crime/Offences"
    ]
   },
   {
-   "col_no": "5",
-   "name": "Cases pending investigation from previous year",
+   "col_no": "3",
+   "name": "Cases pending investigation from previous year (3)",
    "header": [
     "Cases pending investigation from previous year"
    ]
   },
   {
-   "col_no": "6",
-   "name": "Cases pending disposal in Courts",
+   "col_no": "4",
+   "name": "Cases pending investigation from previous year (4)",
    "header": [
-    "Cases pending disposal in Courts"
+    "Cases pending investigation from previous year"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cases reported during the year Courts",
+   "header": [
+    "Cases reported during the year Courts"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Cases not investigated (+) declared false end of (+) the year mistake of fact or law or non-cognizable (6)",
+   "header": [
+    "Cases not investigated (+) declared false end of (+) the year mistake of fact or law or non-cognizable"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases reported during the year",
+   "name": "Cases not investigated (+) declared false end of (+) the year mistake of fact or law or non-cognizable (7)",
    "header": [
-    "Cases reported during the year"
+    "Cases not investigated (+) declared false end of (+) the year mistake of fact or law or non-cognizable"
    ]
   }
  ],
@@ -67,8 +71,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 3
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

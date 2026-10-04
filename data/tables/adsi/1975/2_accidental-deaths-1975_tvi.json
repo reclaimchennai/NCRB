@@ -1,0 +1,103 @@
+{
+ "table_id": "adsi/1975/2_accidental-deaths-1975_tvi",
+ "publication": "adsi",
+ "year": 1975,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1975",
+ "serial": "2",
+ "title": "Accidental Deaths in India",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1975.pdf",
+ "source_file": "raw/adsi/1975/year_wise/accidental-deaths-1975.pdf",
+ "source_sha256": "8737369340d00d00fd7c93db38a29f71d55779039aebd4c2f4ed0c06e6734b24",
+ "table_no": "VI",
+ "pdf_title": "",
+ "row_label": "SI. No.",
+ "pages": [
+  15,
+  16,
+  17
+ ],
+ "n_rows": 26,
+ "n_cols": 9,
+ "n_cells": 233,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "Persons below 18 yrs.",
+   "header": [
+    "Persons below 18 yrs."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "% to total years (5)",
+   "header": [
+    "% to total years"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Persons between 18 to 30 years",
+   "header": [
+    "Persons between 18 to 30 years"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "% to total years (7)",
+   "header": [
+    "% to total years"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Persons between 30 to 50 years",
+   "header": [
+    "Persons between 30 to 50 years"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "% to total years (9)",
+   "header": [
+    "% to total years"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Persons above 50 yrs.",
+   "header": [
+    "Persons above 50 yrs."
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "% to total",
+   "header": [
+    "% to total"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 3,
+  "cells_passed": 2,
+  "failures": [
+   "col 3 'TOTAL (States)': printed 24834, sum 5962"
+  ],
+  "other_totals_checked": 1,
+  "other_totals_passed": 1
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

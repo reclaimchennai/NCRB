@@ -20,7 +20,7 @@
   1,
   2
  ],
- "n_rows": 62,
+ "n_rows": 59,
  "n_cols": 18,
  "n_cells": 1044,
  "columns": [
@@ -146,18 +146,18 @@
   },
   {
    "col_no": "18",
-   "name": "RECIDIVISM | NEW DELIN- QUENTS",
+   "name": "RECIDIVISM | NEW DELIN-QUENTS",
    "header": [
     "RECIDIVISM",
-    "NEW DELIN- QUENTS"
+    "NEW DELIN-QUENTS"
    ]
   },
   {
    "col_no": "19",
-   "name": "RECIDIVISM | OLD DELIN- QUENTS",
+   "name": "RECIDIVISM | OLD DELIN-QUENTS",
    "header": [
     "RECIDIVISM",
-    "OLD DELIN- QUENTS"
+    "OLD DELIN-QUENTS"
    ]
   },
   {
@@ -172,16 +172,11 @@
  "notes": [],
  "checks": {
   "cells_checked": 51,
-  "cells_passed": 35,
+  "cells_passed": 48,
   "failures": [
-   "col 7 'TOTAL (STATES)': printed 16928, sum 16929",
-   "col 11 'TOTAL (STATES)': printed 16928, sum 16929",
-   "col 12 'TOTAL (STATES)': printed 9053, sum 6041",
-   "col 12 'TOTAL (UTs)': printed 247, sum 244",
-   "col 13 'TOTAL (STATES)': printed 4924, sum 3684",
-   "col 13 'TOTAL (UTs)': printed 10, sum 9",
-   "col 14 'TOTAL (STATES)': printed 1993, sum 1797",
-   "col 14 'TOTAL (UTs)': printed 3, sum 2"
+   "col 7 'TOTAL (UTs)': printed 276, sum 275",
+   "col 7 'TOTAL (ALL-INDIA)': printed 17203, sum 17204",
+   "col 13 'TOTAL (STATES)': printed 4924, sum 4925"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

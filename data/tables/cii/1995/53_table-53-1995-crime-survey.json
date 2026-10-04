@@ -15,7 +15,7 @@
  "source_sha256": "df92ebd30acca95ca506882effd28fe2823e1532eb3856674bd5cf1cfb67bbb7",
  "table_no": "53",
  "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-53",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
@@ -81,20 +81,17 @@
   },
   {
    "col_no": "10",
-   "name": "TOTAL (BOYS + GIRLS)",
+   "name": "TOTAL(BOYS + GIRLS)",
    "header": [
-    "TOTAL (BOYS + GIRLS)"
+    "TOTAL(BOYS + GIRLS)"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 24,
-  "cells_passed": 22,
-  "failures": [
-   "col 7 'TOTAL (STATES)': printed 1265, sum 1255",
-   "col 7 'TOTAL (ALL-INDIA)': printed 1262, sum 1272"
-  ],
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

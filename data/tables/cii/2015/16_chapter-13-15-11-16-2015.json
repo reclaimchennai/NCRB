@@ -8,55 +8,73 @@
  "serial": "16",
  "title": "custodial crimes",
  "listing_title": "custodial crimes",
- "method": "pdf_text",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-13-15.11.16_2015.pdf",
  "source_file": "raw/cii/2015/table_chapter/chapter-13-15.11.16_2015.pdf",
  "source_sha256": "862eff91a422ae62f0d05765c2f37a16bc1c30cba3aefbabb90b3554394249f3",
- "table_no": "13(B)",
- "pdf_title": "Details on the Custodial Deaths in Police Custody during 2013-2015",
- "row_label": "Sl.",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Crime in India-2015",
  "pages": [
-  2
+  4
  ],
- "n_rows": 14,
- "n_cols": 3,
- "n_cells": 42,
+ "n_rows": 2,
+ "n_cols": 7,
+ "n_cells": 14,
  "columns": [
   {
    "col_no": "2",
-   "name": "Years | Death during / due to",
+   "name": "Escapees from Police Custody during 2011 - 2015 | No. of Cases Registered (U/S 224, 225 B)",
    "header": [
-    "Years",
-    "Death during / due to"
+    "Escapees from Police Custody during 2011 - 2015",
+    "No. of Cases Registered (U/S 224, 225 B)"
    ]
   },
   {
    "col_no": "3",
-   "name": "Years (3)",
+   "name": "No. of Cases Registered (U/S 224, 225 B)",
    "header": [
-    "Years"
+    "No. of Cases Registered (U/S 224, 225 B)"
    ]
   },
   {
    "col_no": "4",
-   "name": "Years (4)",
+   "name": "No. of Persons Escaped in Above Cases",
    "header": [
-    "Years"
+    "No. of Persons Escaped in Above Cases"
    ]
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "8",
+   "name": "col_8",
+   "header": []
   }
  ],
- "notes": [
-  "‘*’ - Collected since 2014; ‘#’ - also include natural deaths; ‘$’ – include only accidents"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 0,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

@@ -100,20 +100,20 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 58,
-  "cells_passed": 37,
+  "cells_checked": 76,
+  "cells_passed": 50,
   "failures": [
+   "col 3 'TOTAL (STATES)': printed 3777, sum 3786",
+   "col 3 'TOTAL(STATES)': printed 11190, sum 11205",
+   "col 3 'TOTAL (STATES)': printed 127108, sum 127129",
+   "col 3 'TOTAL (STATES)': printed 99088, sum 99205",
+   "col 3 'TOTAL(STATES)': printed 20092, sum 20125",
    "col 4 'TOTAL (STATES)': printed 3974, sum 3984",
-   "col 4 'TOTAL (STATES)': printed 10370, sum 10386",
-   "col 4 'TOTAL(STATES)': printed 125809, sum 125831",
-   "col 4 'TOTAL (STATES)': printed 93355, sum 93383",
-   "col 4 'TOTAL(STATES)': printed 21383, sum 21417",
-   "col 6 'TOTAL (STATES)': printed 7125, sum 7137",
-   "col 6 'TOTAL (STATES)': printed 22120, sum 22138",
-   "col 6 'TOTAL(STATES)': printed 313698, sum 313722"
+   "col 4 'TOTAL(STATES)': printed 10370, sum 10386",
+   "col 4 'TOTAL (STATES)': printed 125809, sum 125831"
   ],
-  "other_totals_checked": 20,
-  "other_totals_passed": 4
+  "other_totals_checked": 26,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 7,

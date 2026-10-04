@@ -8,98 +8,160 @@
  "serial": "19",
  "title": "Cyber Crimes",
  "listing_title": "Cyber Crimes",
- "method": "pdf_text",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-18_2014.pdf",
  "source_file": "raw/cii/2014/table_chapter/chapter-18_2014.pdf",
  "source_sha256": "3dc4a284a942b022b4f69fbf92187cfcaee311b4ea3a96cd0d6f52c621ad969e",
  "table_no": "",
- "pdf_title": "Chapter-18 Cyber Crimes Cyber crimes are a new class of crimes on cyber-arena are also registered under the rapidly increasing due to extensive use of appropriate sections of the IPC with the legal Internet and I.T. enabled services. Considering recognition of electronic records and the the increasing trends of the crimes the Bureau amendments made in several sections of the has collected comprehensive data on cyber IPC vide the IT Act, 2000. crimes in 2014 using revised proformae of ‘Crime in India’. The statistics on cyber crimes are collected under the following heads",
- "row_label": "SL. / Crime heads",
+ "pdf_title": "",
+ "row_label": "Crime in India-2014",
  "pages": [
-  1
+  4,
+  5
  ],
- "n_rows": 17,
- "n_cols": 8,
- "n_cells": 136,
+ "n_rows": 6,
+ "n_cols": 18,
+ "n_cells": 73,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Cases Registered (3)",
+   "col_no": "2",
+   "name": "Cases Registered under IT Act | The figures of SLL offences involving computer as medium or target have been included with IPC crimes involving computer as medium or target.",
    "header": [
-    "Cases Registered"
+    "Cases Registered under IT Act",
+    "The figures of SLL offences involving computer as medium or target have been included with IPC crimes involving computer as medium or target."
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "2011",
+   "header": [
+    "2011"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases Registered (4)",
+   "name": "2012",
    "header": [
-    "Cases Registered"
+    "2012"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases Registered (5)",
+   "name": "2013",
+   "header": [
+    "2013"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "2014",
+   "header": [
+    "2014"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Offences under Cyber Crimes | Cases Registered",
+   "header": [
+    "Offences under Cyber Crimes",
+    "Cases Registered"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Cases Registered",
    "header": [
     "Cases Registered"
    ]
   },
   {
-   "col_no": "6",
-   "name": "% Variation in 2014 over (6)",
+   "col_no": "10003",
+   "name": "Persons Arrested (10003)",
    "header": [
-    "% Variation in 2014 over"
+    "Persons Arrested"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Persons Arrested (10004)",
+   "header": [
+    "Persons Arrested"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "IT - Computer related offences",
+   "header": [
+    "IT - Computer related offences"
    ]
   },
   {
    "col_no": "7",
-   "name": "Persons Arrested (7)",
+   "name": "IT - Others",
    "header": [
-    "Persons Arrested"
+    "IT - Others"
    ]
   },
   {
    "col_no": "8",
-   "name": "Persons Arrested (8)",
+   "name": "IT - Publication/transmission of obscene/sexually explicit content",
    "header": [
-    "Persons Arrested"
+    "IT - Publication/transmission of obscene/sexually explicit content"
    ]
   },
   {
    "col_no": "9",
-   "name": "Persons Arrested (9)",
+   "name": "IT - Tampering computer source documents",
    "header": [
-    "Persons Arrested"
+    "IT - Tampering computer source documents"
    ]
   },
   {
    "col_no": "10",
-   "name": "% Variation in 2014 over (10)",
+   "name": "IT - Breach of confidentiality/privacy",
    "header": [
-    "% Variation in 2014 over"
+    "IT - Breach of confidentiality/privacy"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "IP - Cheating",
+   "header": [
+    "IP - Cheating"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "IP - Others",
+   "header": [
+    "IP - Others"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "IP - Forgery",
+   "header": [
+    "IP - Forgery"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "IP - Data theft",
+   "header": [
+    "IP - Data theft"
    ]
   }
  ],
- "notes": [
-  "Note: ‘-’ implies sezo value in previous year.",
-  "‘’@ implies data collected in 2014 for the first time",
-  "The Information Technology (IT) Act, i) Offences registered under the",
-  "2000, specifies the acts which are punishable. Information Technology Act 2000.",
-  "Since the primary objective of this Act is to",
-  "create an enabling environment for ii) Offences under the IPC related to",
-  "commercial use of I.T., certain omissions and cyber crimes",
-  "commissions of criminals while using",
-  "computers have been included in the amended iii) Offences under the Special and Local",
-  "Act in 2008. Several offences having bearing Laws (SLL) related to cyber crimes"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 6,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 0,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -25,9 +25,9 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
+   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR",
    "header": [
-    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
+    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PREVIOUS YEAR"
    ]
   },
   {
@@ -79,10 +79,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 15,
-  "cells_passed": 14,
-  "failures": [
-   "col 7 'TOTAL STATES': printed 2.36371e+06, sum 2.36371e+06"
-  ],
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

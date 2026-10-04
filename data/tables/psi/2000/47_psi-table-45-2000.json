@@ -21,16 +21,16 @@
   2,
   3
  ],
- "n_rows": 38,
+ "n_rows": 36,
  "n_cols": 28,
  "n_cells": 980,
  "columns": [
   {
    "col_no": "3",
-   "name": "DG/IG/DIG/SUPDT. | SANCT- IONED",
+   "name": "DG/IG/DIG/SUPDT. | SANCT-IONED",
    "header": [
     "DG/IG/DIG/SUPDT.",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -43,26 +43,26 @@
   },
   {
    "col_no": "5",
-   "name": "DYSP/JAILOR/ D.JAILOR/A JAILOR/ A. SUPDT. | SANCT- IONED",
+   "name": "DYSP/JAILOR/D.JAILOR/A.JAILOR/A. SUPDT. | SANCT-IONED",
    "header": [
-    "DYSP/JAILOR/ D.JAILOR/A JAILOR/ A. SUPDT.",
-    "SANCT- IONED"
+    "DYSP/JAILOR/D.JAILOR/A.JAILOR/A. SUPDT.",
+    "SANCT-IONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "DYSP/JAILOR/ D.JAILOR/A JAILOR/ A. SUPDT. | ACTUAL",
+   "name": "DYSP/JAILOR/D.JAILOR/A.JAILOR/A. SUPDT. | ACTUAL",
    "header": [
-    "DYSP/JAILOR/ D.JAILOR/A JAILOR/ A. SUPDT.",
+    "DYSP/JAILOR/D.JAILOR/A.JAILOR/A. SUPDT.",
     "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "OTHER OFFICERS | SANCT- IONED",
+   "name": "OTHER OFFICERS | SANCT-IONED",
    "header": [
     "OTHER OFFICERS",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -75,10 +75,10 @@
   },
   {
    "col_no": "9",
-   "name": "HEAD WARDERS/HEAD MATRON | SANCT- IONED",
+   "name": "HEAD WARDERS/HEAD MATRON | SANCT-IONED",
    "header": [
     "HEAD WARDERS/HEAD MATRON",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -253,13 +253,9 @@
  "notes": [],
  "checks": {
   "cells_checked": 84,
-  "cells_passed": 78,
+  "cells_passed": 82,
   "failures": [
-   "col 11 'TOTAL (STATES)': printed 919, sum 903",
-   "col 12 'TOTAL (STATES)': printed 1097, sum 1083",
-   "col 29 'TOTAL (STATES)': printed 1263, sum 1000",
    "col 29 'TOTAL (UTS)': printed 23, sum 22",
-   "col 30 'TOTAL (STATES)': printed 1630, sum 1378",
    "col 30 'TOTAL (UTS)': printed 112, sum 111"
   ],
   "other_totals_checked": 0,

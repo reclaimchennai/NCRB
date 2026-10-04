@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "112 APPENDIX RIOTS",
+ "title": "111 —XX —PERSONS",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,39 +14,63 @@
  "source_file": "raw/cii/1970/table_chapter/appendex-1970.pdf",
  "source_sha256": "3ed7da4cec7a8a52c94ec44a60188cb502ba306987e4cb8da95c49a8762233a3",
  "table_no": "",
- "pdf_title": "112 APPENDIX RIOTS",
- "row_label": "",
+ "pdf_title": "111 —XX —PERSONS",
+ "row_label": "No. of persons in whose cases trials were completed",
  "pages": [
-  41
+  40
  ],
- "n_rows": 39,
- "n_cols": 5,
- "n_cells": 195,
+ "n_rows": 40,
+ "n_cols": 7,
+ "n_cells": 280,
  "columns": [
   {
+   "col_no": "2",
+   "name": "Persons convicted",
+   "header": [
+    "Persons convicted"
+   ]
+  },
+  {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Persons acquitted or discharged",
+   "header": [
+    "Persons acquitted or discharged"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Persons against whom cases were compounded or withdrawn",
+   "header": [
+    "Persons against whom cases were compounded or withdrawn"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "No. of persons in custody pending investigation or bail during the stage of investigation at the end of the year",
+   "header": [
+    "No. of persons in custody pending investigation or bail during the stage of investigation at the end of the year"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "No. of persons in custody pending trial or on bail during the stage trial of at the end of the year",
+   "header": [
+    "No. of persons in custody pending trial or on bail during the stage trial of at the end of the year"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "% of conviction to total persons in whose trials charge-sheets were laid",
+   "header": [
+    "% of conviction to total persons in whose trials charge-sheets were laid"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "% of conviction to total persons in whose cases trials were completed",
+   "header": [
+    "% of conviction to total persons in whose cases trials were completed"
+   ]
   }
  ],
  "notes": [],
@@ -54,8 +78,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 20,
-  "other_totals_passed": 20
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

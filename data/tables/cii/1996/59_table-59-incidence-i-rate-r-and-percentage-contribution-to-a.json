@@ -15,7 +15,7 @@
  "source_sha256": "1de1c8ba8a29840ebba3e88e436733609ca1aa902e242859e85f0390b2bc2e5e",
  "table_no": "59",
  "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-59",
- "row_label": "SL. NO. / STATE/UT",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2,
@@ -308,14 +308,13 @@
  "notes": [],
  "checks": {
   "cells_checked": 21,
-  "cells_passed": 15,
+  "cells_passed": 16,
   "failures": [
-   "col 7 'TOTAL (STATES)': printed 13914, sum 13824",
-   "col 10 'TOTAL (STATES)': printed 5378, sum 5376",
+   "col 10 'TOTAL (STATES)': printed 5378, sum 5379",
    "col 13 'TOTAL (STATES)': printed 35104, sum 35106",
-   "col 16 'TOTAL (STATES)': printed 28202, sum 17652",
-   "col 19 'TOTAL (STATES)': printed 5472, sum 4850",
-   "col 22 'TOTAL (STATES)': printed 182, sum 157"
+   "col 16 'TOTAL (STATES)': printed 28202, sum 20160",
+   "col 19 'TOTAL (STATES)': printed 5472, sum 4448",
+   "col 22 'TOTAL (STATES)': printed 182, sum 171"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

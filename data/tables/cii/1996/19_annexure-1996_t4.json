@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "19",
- "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 ANNEXURE-IV",
+ "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 ANNEXURE-VI",
  "listing_title": "Annexures",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,20 +14,27 @@
  "source_file": "raw/cii/1996/table_chapter/annexure-1996.pdf",
  "source_sha256": "533b1eccba11a5e8e943223ede8b7fba208d3b70ccbe9c1c597da309062e8b9d",
  "table_no": "",
- "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 ANNEXURE-IV",
- "row_label": "TRIAL STAGE / TRIAL STAGE / TRIAL STAGE",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 ANNEXURE-VI",
+ "row_label": "No. of Warrants",
  "pages": [
-  4
+  6
  ],
- "n_rows": 7,
- "n_cols": 1,
- "n_cells": 7,
+ "n_rows": 1,
+ "n_cols": 2,
+ "n_cells": 2,
  "columns": [
   {
-   "col_no": "4",
-   "name": "STATEMENT-II",
+   "col_no": "2",
+   "name": "Value of assets seized (Rs. in lakhs)",
    "header": [
-    "STATEMENT-II"
+    "Value of assets seized (Rs. in lakhs)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Unaccounted income disclosed in the statements recorded U/s 132(4) in the course of searches (Rs. in Lakhs)",
+   "header": [
+    "Unaccounted income disclosed in the statements recorded U/s 132(4) in the course of searches (Rs. in Lakhs)"
    ]
   }
  ],
@@ -36,8 +43,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

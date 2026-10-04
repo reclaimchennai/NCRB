@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/16table-16-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/16table-16-1990-.pdf",
  "source_sha256": "bd22bd2ad7c325e4144e46ed63a3d2bf0e2189c3e50bbfc4a25b1454571598b4",
- "table_no": "16",
- "pdf_title": "87 TABLE-16 PERCENTAGE OF IPC CRIME CASES DISPOSED OF BY COURTS DURING 1990",
- "row_label": "SL.NO. / CRIME HEAD",
+ "table_no": "",
+ "pdf_title": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
+ "row_label": "",
  "pages": [
   1
  ],
@@ -25,41 +25,37 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | COMPOUNDEDORWITH-DRAWN",
+   "name": "COMPOUNDED OR WITH-DRAWN",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
-    "COMPOUNDEDORWITH-DRAWN"
+    "COMPOUNDED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "4",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | IN WHICH TRIALS WERE COMPLETEDCONVICTED",
+   "name": "IN WHICH TRIALS WERE COMPLETED | CONVICTED ACQUITTED OR DIS-CHARGED",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
-    "IN WHICH TRIALS WERE COMPLETEDCONVICTED"
+    "IN WHICH TRIALS WERE COMPLETED",
+    "CONVICTED ACQUITTED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | ACQUIT-TED ORDIS-CHARGED",
+   "name": "TOTAL (4)+(5) (5)",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
-    "ACQUIT-TED ORDIS-CHARGED"
+    "TOTAL (4)+(5)"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | TOTAL[(4)+(5)]",
+   "name": "TOTAL (4)+(5) (6)",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
-    "TOTAL[(4)+(5)]"
+    "TOTAL (4)+(5)"
    ]
   },
   {
    "col_no": "7",
-   "name": "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL | PENDING TRIAL",
+   "name": "PENDING TRIAL",
    "header": [
-    "PERCENTAGE OF CASES TO TOTAL CASES FOR TRIAL",
     "PENDING TRIAL"
    ]
   }

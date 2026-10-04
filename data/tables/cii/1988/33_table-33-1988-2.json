@@ -25,9 +25,10 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
+   "name": "TOTAL NO. OF | PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR",
    "header": [
-    "TOTAL NO. OF PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
+    "TOTAL NO. OF",
+    "PERSONS UNDER TRIAL INCLUDING THOSE FROM PRE-VIOUS YEAR"
    ]
   },
   {
@@ -48,17 +49,18 @@
   },
   {
    "col_no": "6",
-   "name": "NO. OF PERSONS CONVICTED",
+   "name": "NO. OF PERSONS WHOSE | TRIAL REMAINED PENDING",
    "header": [
-    "NO. OF PERSONS CONVICTED"
+    "NO. OF PERSONS WHOSE",
+    "TRIAL REMAINED PENDING"
    ]
   },
   {
    "col_no": "7",
-   "name": "PERCENTAGE OF PERSONS | TRIAL REMAINED PENDING",
+   "name": "NO. OF PERSONS | CONVICTED",
    "header": [
-    "PERCENTAGE OF PERSONS",
-    "TRIAL REMAINED PENDING"
+    "NO. OF PERSONS",
+    "CONVICTED"
    ]
   },
   {
@@ -71,8 +73,9 @@
   },
   {
    "col_no": "9",
-   "name": "CONVICTED TO TRIALS COMPLETED COL. (7)x100/ (5)",
+   "name": "PERCENTAGE OF PERSONS | CONVICTED TO TRIALS COMPLETED COL. (7)x100/ (5)",
    "header": [
+    "PERCENTAGE OF PERSONS",
     "CONVICTED TO TRIALS COMPLETED COL. (7)x100/ (5)"
    ]
   }
@@ -82,8 +85,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -8,71 +8,54 @@
  "serial": "10",
  "title": "Property Stolen and Recovered by Category of Thefts",
  "listing_title": "Property Stolen and Recovered by Category of Thefts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-10-1967.pdf",
  "source_file": "raw/cii/1967/table_content/table-10-1967.pdf",
  "source_sha256": "f6417e1a0dbfc5aa1348e3a515e6117aa024f53c6f1526485f582e6b668022e1",
  "table_no": "X",
- "pdf_title": "PROPERTY STOLEN AND RECOVERED BY CATEGORY OF",
- "row_label": "Category of thefts 1 ‘ Dacoity Robbery. House breaking Thefts. F Criminal Breach \"Trust. Hl Other property offences",
+ "pdf_title": "51 TABLE X PROPERTY STOLEN AND RECOVERED BY CATEGORY OF THEFTS",
+ "row_label": "Category of thefts",
  "pages": [
   1
  ],
- "n_rows": 1,
- "n_cols": 7,
- "n_cells": 7,
+ "n_rows": 7,
+ "n_cols": 5,
+ "n_cells": 35,
  "columns": [
   {
    "col_no": "2",
-   "name": "No, of cases in which property was stolen 1 5,124 8,154 141,421 296,043 of ‘ 15,710",
+   "name": "No. of cases in which property was stolen",
    "header": [
-    "No, of cases in which property was stolen 1 5,124 8,154 141,421 296,043 of ‘ 15,710"
+    "No. of cases in which property was stolen"
    ]
   },
   {
    "col_no": "3",
-   "name": "Value of property stolen (inlacs) | 2. 1,145 2,361 37,571- 101,679 16,866 »",
+   "name": "No. of cases in which property was recovered",
    "header": [
-    "Value of property stolen (inlacs)",
-    "2. 1,145 2,361 37,571- 101,679 16,866 »"
+    "No. of cases in which property was recovered"
    ]
   },
   {
    "col_no": "4",
-   "name": "Value of property stolen (inlacs) | No. of cases in which, Property was recovered 3 4,382. 5,955",
+   "name": "Value of property stolen (in lacs)",
    "header": [
-    "Value of property stolen (inlacs)",
-    "No. of cases in which, Property was recovered 3 4,382. 5,955"
+    "Value of property stolen (in lacs)"
    ]
   },
   {
    "col_no": "5",
-   "name": "Value of property stolen (inlacs) | 135-71 50-16 877-12 1,133 -07 209 -30 151-72",
+   "name": "Value of property recovered (in lacs)",
    "header": [
-    "Value of property stolen (inlacs)",
-    "135-71 50-16 877-12 1,133 -07 209 -30 151-72"
+    "Value of property recovered (in lacs)"
    ]
   },
   {
    "col_no": "6",
-   "name": "- Value of. property recovered - (in lacs) 10-02 12-63 111-47 361 -54. 41-17 36 -34 (6)",
+   "name": "Percentage of the property recovered to property stolen",
    "header": [
-    "- Value of. property recovered - (in lacs) 10-02 12-63 111-47 361 -54. 41-17 36 -34"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "- Value of. property recovered - (in lacs) 10-02 12-63 111-47 361 -54. 41-17 36 -34 (7)",
-   "header": [
-    "- Value of. property recovered - (in lacs) 10-02 12-63 111-47 361 -54. 41-17 36 -34"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Percentage of the property recovered , to property * stolen 6, 74 25-2 127 31:9. 19-7 24-0",
-   "header": [
-    "Percentage of the property recovered , to property * stolen 6, 74 25-2 127 31:9. 19-7 24-0"
+    "Percentage of the property recovered to property stolen"
    ]
   }
  ],
@@ -81,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

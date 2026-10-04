@@ -6,7 +6,7 @@
  "topic": "Suicides in India",
  "section": "SUICIDES IN INDIA",
  "serial": "4",
- "title": "45 Cities :",
+ "title": "45 Serial Names of States/U.Ts./Cities Unemployment Bankruptcy or Death of Fall in Other Total Grand No. sudden change in dear Social Causes Total Male economic position person reputation Cities :",
  "listing_title": "State wise distribution of Suicides by Causes during 1979",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,79 +14,84 @@
  "source_file": "raw/adsi/1979/table_content/1680160394appendix-31979.pdf",
  "source_sha256": "e320aa2a7b500a5ca54c2ed393c549788a39a0fdb7dad8c8184acf30a320c550",
  "table_no": "",
- "pdf_title": "45 Cities :",
- "row_label": "Serial No. / Names of States/U.Ts./Cities / Unemployment M",
+ "pdf_title": "45 Serial Names of States/U.Ts./Cities Unemployment Bankruptcy or Death of Fall in Other Total Grand No. sudden change in dear Social Causes Total Male economic position person reputation Cities :",
+ "row_label": "U.Ts.: / U.Ts.:",
  "pages": [
   4
  ],
  "n_rows": 11,
- "n_cols": 13,
- "n_cells": 136,
+ "n_cols": 14,
+ "n_cells": 141,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Bankruptcy or sudden change in economic position | F",
+   "col_no": "3",
+   "name": "M (3)",
    "header": [
-    "Bankruptcy or sudden change in economic position",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "F (4)",
+   "header": [
     "F"
    ]
   },
   {
    "col_no": "5",
-   "name": "Death of dear person | M",
+   "name": "M (5)",
    "header": [
-    "Death of dear person",
     "M"
    ]
   },
   {
    "col_no": "6",
-   "name": "Fall in Social reputation | F",
+   "name": "F (6)",
    "header": [
-    "Fall in Social reputation",
     "F"
    ]
   },
   {
    "col_no": "7",
-   "name": "Other Causes | M",
+   "name": "M (7)",
    "header": [
-    "Other Causes",
     "M"
    ]
   },
   {
    "col_no": "8",
-   "name": "Total | F",
+   "name": "F (8)",
    "header": [
-    "Total",
     "F"
    ]
   },
   {
    "col_no": "9",
-   "name": "Grand Total Male & Female | M",
+   "name": "M (9)",
    "header": [
-    "Grand Total Male & Female",
     "M"
    ]
   },
   {
    "col_no": "10",
-   "name": "F",
+   "name": "F (10)",
    "header": [
     "F"
    ]
   },
   {
    "col_no": "11",
-   "name": "col_11",
-   "header": []
+   "name": "M (11)",
+   "header": [
+    "M"
+   ]
   },
   {
    "col_no": "12",
-   "name": "col_12",
-   "header": []
+   "name": "F (12)",
+   "header": [
+    "F"
+   ]
   },
   {
    "col_no": "13",
@@ -111,19 +116,17 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 10,
-  "cells_passed": 1,
+  "cells_checked": 6,
+  "cells_passed": 0,
   "failures": [
-   "col 6 'TOTAL (U.Ts.) .': printed 3, sum 2",
-   "col 8 'TOTAL (U.Ts.) .': printed 4, sum 5",
-   "col 9 'TOTAL (U.Ts.) .': printed 1, sum 15",
-   "col 10 'TOTAL (U.Ts.) .': printed 7, sum 8",
-   "col 11 'TOTAL (U.Ts.) .': printed 2, sum 29",
-   "col 12 'TOTAL (U.Ts.) .': printed 209, sum 225",
-   "col 13 'TOTAL (U.Ts.) .': printed 75, sum 131",
-   "col 14 'TOTAL (U.Ts.) .': printed 434, sum 400"
+   "col 8 'TOTAL (U.Ts.)': printed 1, sum 5",
+   "col 10 'TOTAL (U.Ts.)': printed 2, sum 14",
+   "col 11 'TOTAL (U.Ts.)': printed 209, sum 72",
+   "col 12 'TOTAL (U.Ts.)': printed 75, sum 204",
+   "col 13 'TOTAL (U.Ts.)': printed 434, sum 240",
+   "col 15 'TOTAL (U.Ts.)': printed 672, sum 392"
   ],
-  "other_totals_checked": 0,
+  "other_totals_checked": 2,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

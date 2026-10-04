@@ -30,7 +30,7 @@
   11,
   12
  ],
- "n_rows": 71,
+ "n_rows": 68,
  "n_cols": 82,
  "n_cells": 4838,
  "columns": [
@@ -132,81 +132,81 @@
   },
   {
    "col_no": "15",
-   "name": "KIDNAPPING & ABDUCTION | TOTAL | MALE",
+   "name": "KUDNAPPING & ABDUCTION | TOTAL | MALE",
    "header": [
-    "KIDNAPPING & ABDUCTION",
+    "KUDNAPPING & ABDUCTION",
     "TOTAL",
     "MALE"
    ]
   },
   {
    "col_no": "16",
-   "name": "KIDNAPPING & ABDUCTION | TOTAL | FEMALE",
+   "name": "KUDNAPPING & ABDUCTION | TOTAL | FEMALE",
    "header": [
-    "KIDNAPPING & ABDUCTION",
+    "KUDNAPPING & ABDUCTION",
     "TOTAL",
     "FEMALE"
    ]
   },
   {
    "col_no": "17",
-   "name": "KIDNAPPING & ABDUCTION | TOTAL | TOTAL",
+   "name": "KUDNAPPING & ABDUCTION | TOTAL | TOTAL",
    "header": [
-    "KIDNAPPING & ABDUCTION",
+    "KUDNAPPING & ABDUCTION",
     "TOTAL",
     "TOTAL"
    ]
   },
   {
    "col_no": "18",
-   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | MALE",
+   "name": "KUDNAPPING & ABDUCTION | OF WOMEN & GIRLS | MALE",
    "header": [
-    "KIDNAPPING & ABDUCTION",
+    "KUDNAPPING & ABDUCTION",
     "OF WOMEN & GIRLS",
     "MALE"
    ]
   },
   {
    "col_no": "19",
-   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | FEMALE",
+   "name": "KUDNAPPING & ABDUCTION | OF WOMEN & GIRLS | FEMALE",
    "header": [
-    "KIDNAPPING & ABDUCTION",
+    "KUDNAPPING & ABDUCTION",
     "OF WOMEN & GIRLS",
     "FEMALE"
    ]
   },
   {
    "col_no": "20",
-   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | TOTAL",
+   "name": "KUDNAPPING & ABDUCTION | OF WOMEN & GIRLS | TOTAL",
    "header": [
-    "KIDNAPPING & ABDUCTION",
+    "KUDNAPPING & ABDUCTION",
     "OF WOMEN & GIRLS",
     "TOTAL"
    ]
   },
   {
    "col_no": "21",
-   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | MALE",
+   "name": "KUDNAPPING & ABDUCTION | OF OTHERS | MALE",
    "header": [
-    "KIDNAPPING & ABDUCTION",
+    "KUDNAPPING & ABDUCTION",
     "OF OTHERS",
     "MALE"
    ]
   },
   {
    "col_no": "22",
-   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | FEMALE",
+   "name": "KUDNAPPING & ABDUCTION | OF OTHERS | FEMALE",
    "header": [
-    "KIDNAPPING & ABDUCTION",
+    "KUDNAPPING & ABDUCTION",
     "OF OTHERS",
     "FEMALE"
    ]
   },
   {
    "col_no": "23",
-   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | TOTAL",
+   "name": "KUDNAPPING & ABDUCTION | OF OTHERS | TOTAL",
    "header": [
-    "KIDNAPPING & ABDUCTION",
+    "KUDNAPPING & ABDUCTION",
     "OF OTHERS",
     "TOTAL"
    ]
@@ -710,17 +710,17 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 302,
-  "cells_passed": 251,
+  "cells_checked": 307,
+  "cells_passed": 265,
   "failures": [
+   "col 9 'TOTAL (CITIES)': printed 376, sum 374",
+   "col 11 'TOTAL (CITIES)': printed 388, sum 386",
+   "col 12 'TOTAL (CITIES)': printed 1240, sum 1195",
+   "col 13 'TOTAL (CITIES)': printed 58, sum 56",
+   "col 14 'TOTAL (CITIES)': printed 1298, sum 1251",
    "col 15 'TOTAL STATES': printed 28174, sum 28173",
-   "col 20 'TOTAL STATES': printed 18566, sum 18563",
-   "col 20 'TOTAL (CITIES)': printed 1475, sum 1474",
-   "col 24 'TOTAL (CITIES)': printed 1670, sum 1957",
-   "col 25 'TOTAL (CITIES)': printed 9, sum 14",
-   "col 26 'TOTAL (CITIES)': printed 1679, sum 1971",
-   "col 35 'TOTAL STATES': printed 67882, sum 67877",
-   "col 36 'TOTAL (CITIES)': printed 31807, sum 27804"
+   "col 15 'TOTAL (UTs)': printed 614, sum 608",
+   "col 17 'TOTAL (UTs)': printed 662, sum 656"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

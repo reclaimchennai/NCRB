@@ -13,19 +13,19 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_22-1975.pdf",
  "source_file": "raw/cii/1975/table_content/table_22-1975.pdf",
  "source_sha256": "f269bf5eb8028db15aa57537510ba47bb64a63d06f6103d124c384aae398f1f0",
- "table_no": "22",
- "pdf_title": "65 TABLE 22 Persons arrested under I.P.C. Crimes by Sex",
- "row_label": "Sl. No. / States/U.Ts./Cities",
+ "table_no": "",
+ "pdf_title": "PERSONS ARRESTED UNDER I.P.C. CRIMES BY SEX",
+ "row_label": "SL NO. / States/U.Ts./Cities",
  "pages": [
   1,
   2
  ],
- "n_rows": 47,
- "n_cols": 27,
+ "n_rows": 50,
+ "n_cols": 26,
  "n_cells": 1130,
  "columns": [
   {
-   "col_no": "3",
+   "col_no": "2",
    "name": "Total Cognizable Crime | Male",
    "header": [
     "Total Cognizable Crime",
@@ -33,7 +33,7 @@
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "3",
    "name": "Total Cognizable Crime | Female",
    "header": [
     "Total Cognizable Crime",
@@ -41,7 +41,7 @@
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "Murder | Male",
    "header": [
     "Murder",
@@ -49,7 +49,7 @@
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "5",
    "name": "Murder | Female",
    "header": [
     "Murder",
@@ -57,18 +57,26 @@
    ]
   },
   {
-   "col_no": "7",
-   "name": "Culpable Homicide not amounting to murder | male",
+   "col_no": "6",
+   "name": "Culpable Homicidal Not amounting to murder | male (6)",
    "header": [
-    "Culpable Homicide not amounting to murder",
+    "Culpable Homicidal Not amounting to murder",
+    "male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Culpable Homicidal Not amounting to murder | male (7)",
+   "header": [
+    "Culpable Homicidal Not amounting to murder",
     "male"
    ]
   },
   {
    "col_no": "8",
-   "name": "Culpable Homicide not amounting to murder | Female",
+   "name": "Rape | Female",
    "header": [
-    "Culpable Homicide not amounting to murder",
+    "Rape",
     "Female"
    ]
   },
@@ -82,9 +90,9 @@
   },
   {
    "col_no": "10",
-   "name": "Rape | Female",
+   "name": "Kidnapping & Abduction | Female",
    "header": [
-    "Rape",
+    "Kidnapping & Abduction",
     "Female"
    ]
   },
@@ -98,25 +106,25 @@
   },
   {
    "col_no": "12",
-   "name": "Kidnapping & Abduction | Female",
+   "name": "Decity | Female",
    "header": [
-    "Kidnapping & Abduction",
+    "Decity",
     "Female"
    ]
   },
   {
    "col_no": "13",
-   "name": "Decoity | Male",
+   "name": "Decity | Male",
    "header": [
-    "Decoity",
+    "Decity",
     "Male"
    ]
   },
   {
    "col_no": "14",
-   "name": "Decoity | Female",
+   "name": "Robbery | Female",
    "header": [
-    "Decoity",
+    "Robbery",
     "Female"
    ]
   },
@@ -129,34 +137,17 @@
    ]
   },
   {
-   "col_no": "16",
-   "name": "Robbery | Female",
-   "header": [
-    "Robbery",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "2",
+   "col_no": "10001",
    "name": "Status/U.Ts./Cities",
    "header": [
     "Status/U.Ts./Cities"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Burglary | Male",
-   "header": [
-    "Burglary",
-    "Male"
-   ]
-  },
-  {
    "col_no": "10002",
-   "name": "Burglary | Female",
+   "name": "Burglary",
    "header": [
-    "Burglary",
-    "Female"
+    "Burglary"
    ]
   },
   {
@@ -177,7 +168,7 @@
   },
   {
    "col_no": "10005",
-   "name": "Riots | Male",
+   "name": "Riots | Male (10005)",
    "header": [
     "Riots",
     "Male"
@@ -185,22 +176,14 @@
   },
   {
    "col_no": "10006",
-   "name": "Riots | Female",
+   "name": "Riots | Male (10006)",
    "header": [
     "Riots",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "Criminal Breach of Trust | Male",
-   "header": [
-    "Criminal Breach of Trust",
     "Male"
    ]
   },
   {
-   "col_no": "10008",
+   "col_no": "10007",
    "name": "Criminal Breach of Trust | Female",
    "header": [
     "Criminal Breach of Trust",
@@ -208,15 +191,15 @@
    ]
   },
   {
-   "col_no": "10009",
-   "name": "Cheating | Male",
+   "col_no": "10008",
+   "name": "Criminal Breach of Trust | Male",
    "header": [
-    "Cheating",
+    "Criminal Breach of Trust",
     "Male"
    ]
   },
   {
-   "col_no": "10010",
+   "col_no": "10009",
    "name": "Cheating | Female",
    "header": [
     "Cheating",
@@ -224,18 +207,26 @@
    ]
   },
   {
-   "col_no": "10011",
-   "name": "Counterfeiting | Male",
+   "col_no": "10010",
+   "name": "Cheating | Male",
    "header": [
-    "Counterfeiting",
+    "Cheating",
     "Male"
    ]
   },
   {
-   "col_no": "10012",
-   "name": "Counterfeiting | Female",
+   "col_no": "10011",
+   "name": "Counter-feiting | Female (10011)",
    "header": [
-    "Counterfeiting",
+    "Counter-feiting",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10012",
+   "name": "Counter-feiting | Female (10012)",
+   "header": [
+    "Counter-feiting",
     "Female"
    ]
   }
@@ -246,7 +237,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 92,
-  "other_totals_passed": 64
+  "other_totals_passed": 74
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

@@ -8,57 +8,121 @@
  "serial": "3",
  "title": "Graph of Type of Prison Inmates",
  "listing_title": "Graph of Type of Prison Inmates",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-figure-3_2002.pdf",
  "source_file": "raw/psi/2002/table_content/psi-figure-3_2002.pdf",
  "source_sha256": "80bdb277c77e26f433f7ace762b533736d41a27b57dedb05e785a14faec1c946",
  "table_no": "",
  "pdf_title": "",
- "row_label": "",
+ "row_label": "State/UT",
  "pages": [
-  1
+  2
  ],
- "n_rows": 10,
- "n_cols": 4,
- "n_cells": 16,
+ "n_rows": 34,
+ "n_cols": 14,
+ "n_cells": 476,
  "columns": [
   {
    "col_no": "2",
-   "name": "Disiribuiion of Various Type of | Inmates at the end of 2002 (2)",
+   "name": "UOWisePercentage",
    "header": [
-    "Disiribuiion of Various Type of",
-    "Inmates at the end of 2002"
+    "UOWisePercentage"
    ]
   },
   {
    "col_no": "3",
-   "name": "Disiribuiion of Various Type of | Inmates at the end of 2002 (3)",
+   "name": "UTronInmate",
    "header": [
-    "Disiribuiion of Various Type of",
-    "Inmates at the end of 2002"
+    "UTronInmate"
    ]
   },
   {
    "col_no": "4",
-   "name": "Disiribuiion of Various Type of | Others",
+   "name": "State/UT",
    "header": [
-    "Disiribuiion of Various Type of",
-    "Others"
+    "State/UT"
    ]
   },
   {
    "col_no": "5",
-   "name": "Figure 3.1",
+   "name": "Convict (5)",
    "header": [
-    "Figure 3.1"
+    "Convict"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Others (6)",
+   "header": [
+    "Others"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Unde (7)",
+   "header": [
+    "Unde"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Unde (8)",
+   "header": [
+    "Unde"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Others (9)",
+   "header": [
+    "Others"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Unde (10)",
+   "header": [
+    "Unde"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Convict (11)",
+   "header": [
+    "Convict"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Others (12)",
+   "header": [
+    "Others"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Unde (13)",
+   "header": [
+    "Unde"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Unde (14)",
+   "header": [
+    "Unde"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Others (15)",
+   "header": [
+    "Others"
    ]
   }
  ],
- "notes": [
-  "Convicts Undertrials Detenues Others",
-  "Type of Prison lninates - Male BS"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -66,7 +130,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

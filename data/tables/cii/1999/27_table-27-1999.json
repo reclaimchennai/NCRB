@@ -15,13 +15,13 @@
  "source_sha256": "4ff2f77aefddf3201f9d072a24548e659294159939d1627b4f31b4e61bd4f271",
  "table_no": "27",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 27",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 62,
+ "n_rows": 65,
  "n_cols": 37,
  "n_cells": 2183,
  "columns": [
@@ -324,16 +324,12 @@
  "notes": [],
  "checks": {
   "cells_checked": 48,
-  "cells_passed": 40,
+  "cells_passed": 44,
   "failures": [
-   "col 15 'TOTAL STATES': printed 31640, sum 30050",
-   "col 15 'TOTAL (CITIES)': printed 2059, sum 2034",
-   "col 18 'TOTAL STATES': printed 8673, sum 8160",
-   "col 18 'TOTAL (CITIES)': printed 1845, sum 1745",
-   "col 27 'TOTAL STATES': printed 9223, sum 9183",
-   "col 30 'TOTAL STATES': printed 212, sum 211",
-   "col 33 'TOTAL STATES': printed 3050, sum 3037",
-   "col 36 'TOTAL STATES': printed 132997, sum 126303"
+   "col 15 'TOTAL STATES': printed 31640, sum 30935",
+   "col 15 'TOTAL (CITIES)': printed 2059, sum 1866",
+   "col 18 'TOTAL STATES': printed 8673, sum 8330",
+   "col 18 'TOTAL (CITIES)': printed 1845, sum 1721"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

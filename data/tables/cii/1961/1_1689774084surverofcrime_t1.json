@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1961",
  "serial": "1",
- "title": "## SURVEY OF CRIME During the year under review 6,25,651 cognizable cases were reported against 6,06,367 reported in 1960 thereby registering an increase of 3.2% over the figure of the previous year. These figures include crimes committed by juveniles. Total cognizable crime reported from the year 1957 onwards was as follows : (1)",
+ "title": "(increase) , This however, does not indicate an increase in criminality which is measured by the norm of one case per one hundred thousand of the population. Actually the increase in population has outstripped any apparent increase in crime and hence the volume of crime registered a steady decrease till 1960 and has registered a slight increase only in 1961. Estimated population of India in the years 1957, 1958, 1959, 1960, the population according to 1961 census and the volume of crime per 100,000 of population is given below",
  "listing_title": "Chapter",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,29 +14,37 @@
  "source_file": "raw/cii/1961/year_wise/1689774084SurverOfCrime.pdf",
  "source_sha256": "f9e87b72c9599d6eee920b83e3550f13cea3ea506e0a78928544b95fdd932f94",
  "table_no": "",
- "pdf_title": "## SURVEY OF CRIME During the year under review 6,25,651 cognizable cases were reported against 6,06,367 reported in 1960 thereby registering an increase of 3.2% over the figure of the previous year. These figures include crimes committed by juveniles. Total cognizable crime reported from the year 1957 onwards was as follows : (1)",
+ "pdf_title": "(increase) , This however, does not indicate an increase in criminality which is measured by the norm of one case per one hundred thousand of the population. Actually the increase in population has outstripped any apparent increase in crime and hence the volume of crime registered a steady decrease till 1960 and has registered a slight increase only in 1961. Estimated population of India in the years 1957, 1958, 1959, 1960, the population according to 1961 census and the volume of crime per 100,000 of population is given below",
  "row_label": "Year",
  "pages": [
-  1
+  1,
+  4,
+  5
  ],
- "n_rows": 5,
- "n_cols": 7,
- "n_cells": 35,
+ "n_rows": 82,
+ "n_cols": 5,
+ "n_cells": 332,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "Total Cognizable crime",
+   "header": [
+    "Total Cognizable crime"
+   ]
   },
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Population in millions",
+   "header": [
+    "Population in millions"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Rate of crime for 100,000 of population",
+   "header": [
+    "Rate of crime for 100,000 of population"
+   ]
   },
   {
    "col_no": "5",
@@ -45,27 +53,15 @@
   },
   {
    "col_no": "6",
-   "name": "Total Cognizable crime",
-   "header": [
-    "Total Cognizable crime"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Population in millions",
-   "header": [
-    "Population in millions"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Rate of crime for 100,000 of population",
-   "header": [
-    "Rate of crime for 100,000 of population"
-   ]
+   "name": "col_6",
+   "header": []
   }
  ],
- "notes": [],
+ "notes": [
+  "Even the overall increase of 19,284 cases is entirely accounted for by the increase of 36,625 cases reported in Uttar Pradesh where an intensive drive was conducted to ensure that all crime, of which information was brought to the police station, was immediately registered. The result of this drive has been interesting and the drive continues. This may be a good lesson to be followed by all other States in India.",
+  "CRIME UNDER DIFFERENT HEADS",
+  "The table below shows the number of cases reported under different heads in various States, Union Territories and important Cities of India in the years 1958-1959-1960, the triennial average and the corresponding figures for MB180MofHA-2(a)"
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -74,6 +70,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

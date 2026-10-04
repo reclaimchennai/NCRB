@@ -30,7 +30,7 @@
   11,
   12
  ],
- "n_rows": 61,
+ "n_rows": 60,
  "n_cols": 73,
  "n_cells": 4234,
  "columns": [
@@ -629,12 +629,13 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 198,
-  "cells_passed": 192,
+  "cells_checked": 201,
+  "cells_passed": 194,
   "failures": [
    "col 6 'TOTAL (UTs)': printed 1156, sum 1166",
    "col 6 'TOTAL (ALL - INDIA)': printed 71338, sum 71328",
    "col 12 'TOTAL (UTs)': printed 544, sum 530",
+   "col 14 'TOTAL (UTs)': printed 570, sum 556",
    "col 24 'TOTAL (STATES)': printed 24745, sum 23567",
    "col 25 'TOTAL (STATES)': printed 197, sum 176",
    "col 26 'TOTAL (STATES)': printed 24942, sum 23743"

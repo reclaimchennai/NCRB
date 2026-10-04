@@ -8,38 +8,49 @@
  "serial": "45",
  "title": "Persons Arrested per case under IPC and LSL Crimes",
  "listing_title": "Persons Arrested per case under IPC and LSL Crimes",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-29-1991-29.pdf",
  "source_file": "raw/cii/1991/table_content/table-29-1991-29.pdf",
  "source_sha256": "25f6bed6c49463762648c9d863b2997bf920873ea3155bd3b5a25af8ad7419b9",
- "table_no": "29",
- "pdf_title": "PERSONS ARRESTED PER CASS UNDER TPC AND LSL CRIMES",
- "row_label": "Six NO. / CRIME / HEAD",
+ "table_no": "",
+ "pdf_title": "NO",
+ "row_label": "",
  "pages": [
   1
  ],
  "n_rows": 35,
- "n_cols": 2,
- "n_cells": 60,
+ "n_cols": 5,
+ "n_cells": 175,
  "columns": [
   {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
    "col_no": "4",
-   "name": "1989 1987",
-   "header": [
-    "1989 1987"
-   ]
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "4988 4990 199% (S) i?)",
-   "header": [
-    "4988 4990 199% (S) i?)"
-   ]
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
   }
  ],
  "notes": [
-  "Note: * incicates that the Crime Head was introduced in 1988."
+  "Note: * indicates that the Crime Head was introduced in 1988."
  ],
  "checks": {
   "cells_checked": 0,

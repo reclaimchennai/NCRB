@@ -15,7 +15,7 @@
  "source_sha256": "e5f1fe92cac7d56a1a9ddc02d4c3a12f545a6f511b355afd6612b6e3267ad49c",
  "table_no": "35",
  "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-35",
- "row_label": "SL. NO. / STATE/UT",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
@@ -25,58 +25,55 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "TOTAL NO. OF PERSONS UNDER ARREST INCLUDING THOSE FROM PREVIOUS YEAR",
+   "name": "TOTAL NO.OFPERSONSUNDERARREST*INCLUDINGTHOSEFROM PREVIOUS YEAR",
    "header": [
-    "TOTAL NO. OF PERSONS UNDER ARREST INCLUDING THOSE FROM PREVIOUS YEAR"
+    "TOTAL NO.OFPERSONSUNDERARREST*INCLUDINGTHOSEFROM PREVIOUS YEAR"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER OF | PERSONS RELEASED BEFORE TRIAL",
+   "name": "NUMBER OF | PERSONS RELEASEDBEFORETRIAL",
    "header": [
     "NUMBER OF",
-    "PERSONS RELEASED BEFORE TRIAL"
+    "PERSONS RELEASEDBEFORETRIAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER OF | PERSONS CHARGE SHEETED",
+   "name": "NUMBER OF | PERSONS CHARGESHEETED",
    "header": [
     "NUMBER OF",
-    "PERSONS CHARGE SHEETED"
+    "PERSONS CHARGESHEETED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER OF | PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR",
+   "name": "NUMBER OF | PERSONS UNDERINVESTIGATIONAT THEEND OFTHE YEAR",
    "header": [
     "NUMBER OF",
-    "PERSONS UNDER INVESTIGATION AT THE END OF THE YEAR"
+    "PERSONS UNDERINVESTIGATIONAT THEEND OFTHE YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "PENDENCY PERCENTAGE",
+   "name": "PENDENCYPERCENTAGE",
    "header": [
-    "PENDENCY PERCENTAGE"
+    "PENDENCYPERCENTAGE"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL",
+   "name": "PERCENTAGE OFPENDENCYTO ALL-INDIA TOTAL",
    "header": [
-    "PERCENTAGE OF PENDENCY TO ALL-INDIA TOTAL"
+    "PERCENTAGE OFPENDENCYTO ALL-INDIA TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 12,
-  "cells_passed": 10,
-  "failures": [
-   "col 3 'TOTAL (ALL-INDIA)': printed 3.03253e+06, sum 2.85343e+06",
-   "col 5 'TOTAL (ALL-INDIA)': printed 2.32329e+06, sum 2.1762e+06"
-  ],
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

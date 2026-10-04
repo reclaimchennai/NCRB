@@ -15,7 +15,7 @@
  "source_sha256": "ad5d621620279bb862b1afdee1d38b4c430e725a9eafb85817bf7699c52ceaea",
  "table_no": "6",
  "pdf_title": "28 TABLE 6 Incidence of Crime under IPC during 1982 and 1983 showing percentage variation in 1983 over 1982",
- "row_label": "Sl. No. / States/U.Ts./Cities",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
  "pages": [
   1,
   2,
@@ -27,7 +27,7 @@
  ],
  "n_rows": 283,
  "n_cols": 9,
- "n_cells": 1820,
+ "n_cells": 1821,
  "columns": [
   {
    "col_no": "3",
@@ -101,20 +101,20 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 55,
-  "cells_passed": 39,
+  "cells_checked": 60,
+  "cells_passed": 52,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 22988, sum 22989",
-   "col 3 'TOTAL (STATES)': printed 140031, sum 139531",
-   "col 3 'TOTAL (STATES)': printed 105890, sum 105860",
-   "col 3 'TOTAL (STATES)': printed 16707, sum 16807",
-   "col 4 'TOTAL (STATES)': printed 24739, sum 24839",
-   "col 4 'TOTAL (STATES)': printed 136429, sum 135829",
-   "col 4 'TOTAL (U.Ts.)': printed 2874, sum 2764",
-   "col 4 'TOTAL (Cities)': printed 11335, sum 11326"
+   "col 4 'TOTAL (STATES)': printed 136429, sum 136369",
+   "col 4 'TOTAL (U.Ts.)': printed 2674, sum 2664",
+   "col 4 'TOTAL (Cities)': printed 11535, sum 11335",
+   "col 4 'TOTAL (U.Ts.)': printed 956, sum 961",
+   "col 10001 'TOTAL (STATES)': printed 1.31562e+06, sum 1.31562e+06",
+   "col 10001 'TOTAL (U.Ts.)': printed 38282, sum 35064",
+   "col 10001 'TOTAL (Cities)': printed 164690, sum 164820",
+   "col 10002 'TOTAL (U.Ts.)': printed 37951, sum 35015"
   ],
-  "other_totals_checked": 23,
-  "other_totals_passed": 4
+  "other_totals_checked": 20,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 7,

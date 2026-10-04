@@ -8,48 +8,161 @@
  "serial": "2",
  "title": "Crime under Different Heads",
  "listing_title": "Crime under Different Heads",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/post/1680077870TABLE-2-1964.pdf",
  "source_file": "raw/cii/1964/table_content/1680077870TABLE-2-1964.pdf",
  "source_sha256": "c2bd2655d75cca2fbbeaa65f83deefea699e740835c8a248c95ae757740523cc",
  "table_no": "",
- "pdf_title": "CRIME UNDER",
- "row_label": "Sl. No. / Head",
+ "pdf_title": "",
+ "row_label": "DIFFERENT HEADS",
  "pages": [
-  1
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2
  ],
- "n_rows": 26,
- "n_cols": 4,
- "n_cells": 102,
+ "n_rows": 15,
+ "n_cols": 25,
+ "n_cells": 37,
  "columns": [
   {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
    "col_no": "3",
-   "name": "1959",
-   "header": [
-    "1959"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "1960",
-   "header": [
-    "1960"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "1961",
+   "name": "TABLE No. II (5)",
    "header": [
-    "1961"
+    "TABLE No. II"
    ]
   },
   {
    "col_no": "6",
-   "name": "1962",
+   "name": "TABLE No. II (6)",
    "header": [
-    "1962"
+    "TABLE No. II"
    ]
+  },
+  {
+   "col_no": "144",
+   "name": "col_144",
+   "header": []
+  },
+  {
+   "col_no": "159",
+   "name": "col_159",
+   "header": []
+  },
+  {
+   "col_no": "25",
+   "name": "col_25",
+   "header": []
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
+  },
+  {
+   "col_no": "17",
+   "name": "col_17",
+   "header": []
+  },
+  {
+   "col_no": "10",
+   "name": "col_10",
+   "header": []
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  },
+  {
+   "col_no": "16",
+   "name": "col_16",
+   "header": []
+  },
+  {
+   "col_no": "18",
+   "name": "col_18",
+   "header": []
+  },
+  {
+   "col_no": "28",
+   "name": "col_28",
+   "header": []
+  },
+  {
+   "col_no": "32",
+   "name": "col_32",
+   "header": []
+  },
+  {
+   "col_no": "48",
+   "name": "col_48",
+   "header": []
+  },
+  {
+   "col_no": "49",
+   "name": "col_49",
+   "header": []
+  },
+  {
+   "col_no": "52",
+   "name": "col_52",
+   "header": []
+  },
+  {
+   "col_no": "63",
+   "name": "col_63",
+   "header": []
+  },
+  {
+   "col_no": "69",
+   "name": "col_69",
+   "header": []
+  },
+  {
+   "col_no": "39",
+   "name": "col_39",
+   "header": []
+  },
+  {
+   "col_no": "45",
+   "name": "col_45",
+   "header": []
+  },
+  {
+   "col_no": "21",
+   "name": "col_21",
+   "header": []
+  },
+  {
+   "col_no": "1",
+   "name": "col_1",
+   "header": []
   }
  ],
  "notes": [],
@@ -61,6 +174,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 13,
  "warnings": []
 }

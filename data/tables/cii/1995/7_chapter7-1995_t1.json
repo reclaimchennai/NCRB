@@ -6,91 +6,105 @@
  "topic": "",
  "section": "",
  "serial": "7",
- "title": "Sex Ratio (Females per 1,000 Males) During 1951 - 1991 And Percentage Change in 1991 Over 1951",
+ "title": "All India Rate 11.6",
  "listing_title": "Crime Against Women",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter7-1995.pdf",
  "source_file": "raw/cii/1995/table_chapter/chapter7-1995.pdf",
  "source_sha256": "12fe8ad21723f05d4b0c8dade176b3a75428b3ce5a2d5d53d6b8bca199892726",
  "table_no": "",
- "pdf_title": "Sex Ratio (Females per 1,000 Males) During 1951 - 1991 And Percentage Change in 1991 Over 1951",
- "row_label": "(State & UT-Wise) Sl. No. / (State & UT-Wise) State/UT",
+ "pdf_title": "All India Rate 11.6",
+ "row_label": "Sl. No. / State/UT",
  "pages": [
-  3
+  3,
+  4,
+  4,
+  5,
+  7
  ],
- "n_rows": 33,
- "n_cols": 6,
- "n_cells": 198,
+ "n_rows": 72,
+ "n_cols": 9,
+ "n_cells": 381,
  "columns": [
   {
    "col_no": "3",
-   "name": "(State & UT-Wise) | 1951",
+   "name": "1951",
    "header": [
-    "(State & UT-Wise)",
     "1951"
    ]
   },
   {
    "col_no": "4",
-   "name": "(State & UT-Wise) | 1961",
+   "name": "1961",
    "header": [
-    "(State & UT-Wise)",
     "1961"
    ]
   },
   {
    "col_no": "5",
-   "name": "(State & UT-Wise) | 1971",
+   "name": "1971",
    "header": [
-    "(State & UT-Wise)",
     "1971"
    ]
   },
   {
    "col_no": "6",
-   "name": "(State & UT-Wise) | 1981",
+   "name": "1981",
    "header": [
-    "(State & UT-Wise)",
     "1981"
    ]
   },
   {
    "col_no": "7",
-   "name": "(State & UT-Wise) | 1991",
+   "name": "1991",
    "header": [
-    "(State & UT-Wise)",
     "1991"
    ]
   },
   {
    "col_no": "8",
-   "name": "(State & UT-Wise) | Percent -age change in 1991 over",
+   "name": "Percent -age change in 1991 over 1951",
    "header": [
-    "(State & UT-Wise)",
-    "Percent -age change in 1991 over"
+    "Percent -age change in 1991 over 1951"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Percentage Variation in 1995 over (9)",
+   "header": [
+    "Percentage Variation in 1995 over"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Percentage Variation in 1995 over (10)",
+   "header": [
+    "Percentage Variation in 1995 over"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Year",
+   "header": [
+    "Year"
    ]
   }
  ],
  "notes": [
-  "Note: N.A. stands for not available.",
-  "Incidence of Crimes - National (1991.95) during the years 1991 to 1995 alongwith the",
-  "percentage variation in 1995 over 1991 and 1994 is",
-  "7.3.1. The crime-head-wise incidence, reported presented below."
+  "NB: Lakshadweep reported 'NIL' cases."
  ],
  "checks": {
-  "cells_checked": 4,
+  "cells_checked": 2,
   "cells_passed": 0,
   "failures": [
    "col 4 'All-India': printed 941, sum 29789",
-   "col 5 'All-India': printed 930, sum 29474",
-   "col 6 'All-India': printed 934, sum 29591",
    "col 7 'All-India': printed 927, sum 29545"
   ],
-  "other_totals_checked": 0,
+  "other_totals_checked": 2,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 5,
  "warnings": []
 }

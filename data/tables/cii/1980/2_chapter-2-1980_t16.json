@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "69 TABLE 16 Percentage of cases not investigated, cases investigated, pending investigation to total cases for investigation, percentage of cases charge sheeted to cases investigated under local & special laws during 1980",
+ "title": "Percentage of cases not investigated, cases investigated, pending investigation to total cases for investigation, percentage of cases charge sheeted or cases investigated under local & special laws during 1980",
  "listing_title": "Disposal of Crimes",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,28 +14,27 @@
  "source_file": "raw/cii/1980/table_chapter/chapter-2-1980.pdf",
  "source_sha256": "c5ed545dc87cf351f64bb870118d98f8804621f63381f18075dd545227d9bb41",
  "table_no": "16",
- "pdf_title": "69 TABLE 16 Percentage of cases not investigated, cases investigated, pending investigation to total cases for investigation, percentage of cases charge sheeted to cases investigated under local & special laws during 1980",
- "row_label": "Sl. No. / Heads of Crime",
+ "pdf_title": "Percentage of cases not investigated, cases investigated, pending investigation to total cases for investigation, percentage of cases charge sheeted or cases investigated under local & special laws during 1980",
+ "row_label": "No. / Heads of Crime",
  "pages": [
-  8,
   8
  ],
  "n_rows": 13,
- "n_cols": 9,
- "n_cells": 116,
+ "n_cols": 4,
+ "n_cells": 52,
  "columns": [
   {
    "col_no": "3",
-   "name": "%age of cases not investigated or mis-take of fact or law or non-recognizable to total cases for investigation",
+   "name": "%age of cases not investigated or mis-take of fact or law or non-cognitive to total cases for in-vestigation",
    "header": [
-    "%age of cases not investigated or mis-take of fact or law or non-recognizable to total cases for investigation"
+    "%age of cases not investigated or mis-take of fact or law or non-cognitive to total cases for in-vestigation"
    ]
   },
   {
    "col_no": "4",
-   "name": "%age of cases in which in investigation was completed to total cases for investigation",
+   "name": "%age of cases in which in investigation was completed to total cases for in-vestigation",
    "header": [
-    "%age of cases in which in investigation was completed to total cases for investigation"
+    "%age of cases in which in investigation was completed to total cases for in-vestigation"
    ]
   },
   {
@@ -51,41 +50,6 @@
    "header": [
     "%age of cases charge sheeted to total cases in which investigation was completed"
    ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Total cases for trial during the year",
-   "header": [
-    "Total cases for trial during the year"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Cases compounded or withdrawn",
-   "header": [
-    "Cases compounded or withdrawn"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Cases in which trials were completed",
-   "header": [
-    "Cases in which trials were completed"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Cases convicted",
-   "header": [
-    "Cases convicted"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Cases pending trial at the end of year",
-   "header": [
-    "Cases pending trial at the end of year"
-   ]
   }
  ],
  "notes": [],
@@ -93,10 +57,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 5,
-  "other_totals_passed": 4
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

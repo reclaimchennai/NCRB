@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "28",
- "title": "123 TABLE-28 (CONCLO)",
+ "title": "123 TABLE-28",
  "listing_title": "Persons Arrested under IPC and LSL Crimes by Age Groups and Sex During 1990",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,7 +14,7 @@
  "source_file": "raw/cii/1990/table_content/28table-28-1990-.pdf",
  "source_sha256": "9b0bd63fd77f00abab5485026f20cf303cc8e1b85ddd8fe6cac9b860b82c4798",
  "table_no": "28",
- "pdf_title": "123 TABLE-28 (CONCLO)",
+ "pdf_title": "123 TABLE-28",
  "row_label": "50 YEARS & ABOVE MALE",
  "pages": [
   2
@@ -78,20 +78,18 @@
   },
   {
    "col_no": "18",
-   "name": "ALL AGE GROUPS | TOTAL | F",
+   "name": "GRAND TOTAL | M+F | F",
    "header": [
-    "ALL AGE GROUPS",
-    "TOTAL",
+    "GRAND TOTAL",
+    "M+F",
     "F"
    ]
   },
   {
    "col_no": "19",
-   "name": "GRAND TOTAL | M+F | [17+18]",
+   "name": "(17+18)",
    "header": [
-    "GRAND TOTAL",
-    "M+F",
-    "[17+18]"
+    "(17+18)"
    ]
   }
  ],

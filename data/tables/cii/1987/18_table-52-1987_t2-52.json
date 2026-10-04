@@ -1,0 +1,72 @@
+{
+ "table_id": "cii/1987/18_table-52-1987_t2-52",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "18",
+ "title": "The Motive Of Murder And Culpable Homicide Not Amounting To Murder In Different States, UTs And Cities During 1987",
+ "listing_title": "The Motives of Murder and Culpable Homicide not Amounting to Murder in Different States, UTs and Cities During 1987",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_52-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_52-1987.pdf",
+ "source_sha256": "8fe92d7f1f06f5511e2289ad33f680663f9a2f34739cebce28c40905435b95c2",
+ "table_no": "2-52",
+ "pdf_title": "The Motive Of Murder And Culpable Homicide Not Amounting To Murder In Different States, UTs And Cities During 1987",
+ "row_label": "S1 NO",
+ "pages": [
+  1
+ ],
+ "n_rows": 48,
+ "n_cols": 4,
+ "n_cells": 192,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "GAIN | MURDER",
+   "header": [
+    "GAIN",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "GAIN | C.H. NOT AMOUNTING TO MURDER",
+   "header": [
+    "GAIN",
+    "C.H. NOT AMOUNTING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "DESPUTE OVER PROPERTY | MURDER",
+   "header": [
+    "DESPUTE OVER PROPERTY",
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "C.H. NOT AMOUNTING TO MURDER",
+   "header": [
+    "C.H. NOT AMOUNTING TO MURDER"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 8,
+  "failures": [
+   "col 3 'Total (Cities)': printed 100, sum 103",
+   "col 5 'Total (Cities)': printed 113, sum 115"
+  ],
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

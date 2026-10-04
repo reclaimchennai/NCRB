@@ -14,7 +14,7 @@
  "source_file": "raw/cii/1990/table_content/53table-53-1990-.pdf",
  "source_sha256": "79581c54a083fdcf5faebe46f65765c64d9138f2820a215f7663101afa04eab8",
  "table_no": "54",
- "pdf_title": "176 TABLE-54 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN",
+ "pdf_title": "176 TABLE-54 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN (STATE, UT & CITY-WISE) ROBBERY",
  "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
@@ -98,17 +98,17 @@
   },
   {
    "col_no": "14",
-   "name": "COMMERCIAL ESTABLISHMENTS | NUMBER",
+   "name": "COMMERCIAL ASTABLISHMENTS | NUMBER",
    "header": [
-    "COMMERCIAL ESTABLISHMENTS",
+    "COMMERCIAL ASTABLISHMENTS",
     "NUMBER"
    ]
   },
   {
    "col_no": "15",
-   "name": "COMMERCIAL ESTABLISHMENTS | VALUE",
+   "name": "COMMERCIAL ASTABLISHMENTS | VALUE",
    "header": [
-    "COMMERCIAL ESTABLISHMENTS",
+    "COMMERCIAL ASTABLISHMENTS",
     "VALUE"
    ]
   },
@@ -148,11 +148,10 @@
  "notes": [],
  "checks": {
   "cells_checked": 12,
-  "cells_passed": 9,
+  "cells_passed": 10,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 9769, sum 9740",
-   "col 5 'TOTAL (STATES)': printed 4098, sum 3995",
-   "col 9 'TOTAL (STATES)': printed 399, sum 390"
+   "col 3 'TOTAL (STATES)': printed 9769, sum 9729",
+   "col 5 'TOTAL (STATES)': printed 4098, sum 4093"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

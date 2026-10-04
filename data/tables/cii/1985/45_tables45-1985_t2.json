@@ -1,0 +1,88 @@
+{
+ "table_id": "cii/1985/45_tables45-1985_t2",
+ "publication": "cii",
+ "year": 1985,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "45",
+ "title": "QUENTS",
+ "listing_title": "Particulars of Juveniles Arrested under IPC and Local and Special Laws During 1985",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables45-1985.pdf",
+ "source_file": "raw/cii/1985/table_content/tables45-1985.pdf",
+ "source_sha256": "df646145ab5ad9ceedd7d0a1377fb46c931105aa2e0bad3f4b8fd96c2d71f83c",
+ "table_no": "",
+ "pdf_title": "QUENTS",
+ "row_label": "",
+ "pages": [
+  2
+ ],
+ "n_rows": 47,
+ "n_cols": 9,
+ "n_cells": 423,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
+  {
+   "col_no": "12",
+   "name": "col_12",
+   "header": []
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
+  },
+  {
+   "col_no": "14",
+   "name": "col_14",
+   "header": []
+  },
+  {
+   "col_no": "15",
+   "name": "col_15",
+   "header": []
+  },
+  {
+   "col_no": "16",
+   "name": "col_16",
+   "header": []
+  },
+  {
+   "col_no": "17",
+   "name": "col_17",
+   "header": []
+  },
+  {
+   "col_no": "18",
+   "name": "col_18",
+   "header": []
+  },
+  {
+   "col_no": "19",
+   "name": "col_19",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 13,
+  "cells_passed": 9,
+  "failures": [
+   "col 2 'TOTAL (STATES)': printed 135459, sum 137441",
+   "col 13 'TOTAL (STATES)': printed 161959, sum 161963",
+   "col 14 'TOTAL (STATES)': printed 97849, sum 98849",
+   "col 15 'TOTAL (STATES)': printed 28520, sum 28720"
+  ],
+  "other_totals_checked": 9,
+  "other_totals_passed": 7
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

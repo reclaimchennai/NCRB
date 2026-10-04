@@ -8,115 +8,380 @@
  "serial": "1",
  "title": "State wise distribution of Accidental Deaths due to Other Causes during 1987",
  "listing_title": "State wise distribution of Accidental Deaths due to Other Causes during 1987",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/files/appendix-2.pdf",
  "source_file": "raw/adsi/1987/table_content/appendix-2.pdf",
  "source_sha256": "e69a602c999a35e8f6b340aa6f74d6dc14b18e5f0d7cbdc645aa0d5e4cfd18b1",
  "table_no": "",
- "pdf_title": "SE",
- "row_label": "- 7 / zis",
+ "pdf_title": "APPENDIX—II Distribution of Accidental Deaths Due To Other Causes During 1987 33",
+ "row_label": "Sl. No. / States/UTs./Cities",
  "pages": [
   1,
-  3
+  3,
+  4,
+  5,
+  7,
+  8
  ],
- "n_rows": 37,
- "n_cols": 10,
- "n_cells": 96,
+ "n_rows": 49,
+ "n_cols": 47,
+ "n_cells": 1728,
  "columns": [
   {
-   "col_no": "4",
-   "name": "i - -",
+   "col_no": "3",
+   "name": "By firearms | M",
    "header": [
-    "i - -"
+    "By firearms",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "By explosion | F",
+   "header": [
+    "By explosion",
+    "F"
    ]
   },
   {
    "col_no": "5",
-   "name": "me 7",
+   "name": "By house collapse | M",
    "header": [
-    "me 7"
+    "By house collapse",
+    "M"
    ]
   },
   {
    "col_no": "6",
-   "name": "- -",
+   "name": "On roads | F",
    "header": [
-    "- -"
+    "On roads",
+    "F"
    ]
   },
   {
    "col_no": "7",
-   "name": "2SeEzs",
+   "name": "Motor vehicles accidents | M",
    "header": [
-    "2SeEzs"
+    "Motor vehicles accidents",
+    "M"
    ]
   },
   {
    "col_no": "8",
-   "name": "nse ig | -",
+   "name": "Other road accidents | F",
    "header": [
-    "nse ig",
-    "-"
+    "Other road accidents",
+    "F"
    ]
   },
   {
    "col_no": "9",
-   "name": "nse ig",
+   "name": "M (9)",
    "header": [
-    "nse ig"
+    "M"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "a co! -",
+   "col_no": "10",
+   "name": "F (10)",
    "header": [
-    "a co! -"
+    "F"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "- +) nx",
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  },
+  {
+   "col_no": "12",
+   "name": "col_12",
+   "header": []
+  },
+  {
+   "col_no": "13",
+   "name": "col_13",
+   "header": []
+  },
+  {
+   "col_no": "14",
+   "name": "col_14",
+   "header": []
+  },
+  {
+   "col_no": "15",
+   "name": "In factories | M",
    "header": [
-    "- +) nx"
+    "In factories",
+    "M"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "- - -",
+   "col_no": "16",
+   "name": "In factories | F",
    "header": [
-    "- - -"
+    "In factories",
+    "F"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "a Ra 699 - S -<c 258 659",
+   "col_no": "17",
+   "name": "In railways | M",
    "header": [
-    "a Ra 699 - S -<c 258 659"
+    "In railways",
+    "M"
    ]
+  },
+  {
+   "col_no": "18",
+   "name": "In railways | F",
+   "header": [
+    "In railways",
+    "F"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "In air crashes | M",
+   "header": [
+    "In air crashes",
+    "M"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "In air crashes | F",
+   "header": [
+    "In air crashes",
+    "F"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "By fire | M",
+   "header": [
+    "By fire",
+    "M"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "By fire | F",
+   "header": [
+    "By fire",
+    "F"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "By drowning | M",
+   "header": [
+    "By drowning",
+    "M"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "By drowning | F",
+   "header": [
+    "By drowning",
+    "F"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "By poisoning | M",
+   "header": [
+    "By poisoning",
+    "M"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "By poisoning | F",
+   "header": [
+    "By poisoning",
+    "F"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "By Snake bites | M",
+   "header": [
+    "By Snake bites",
+    "M"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "By animal killing | F",
+   "header": [
+    "By animal killing",
+    "F"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "Boat capsize | M",
+   "header": [
+    "Boat capsize",
+    "M"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "Mines & quarry disaster | F",
+   "header": [
+    "Mines & quarry disaster",
+    "F"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "Accidental electro-ocution by appliances | M",
+   "header": [
+    "Accidental electro-ocution by appliances",
+    "M"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "Accidental fall from height (Building, Tree etc.) | F",
+   "header": [
+    "Accidental fall from height (Building, Tree etc.)",
+    "F"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "M (33)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "F (34)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "col_35",
+   "header": []
+  },
+  {
+   "col_no": "36",
+   "name": "col_36",
+   "header": []
+  },
+  {
+   "col_no": "37",
+   "name": "col_37",
+   "header": []
+  },
+  {
+   "col_no": "38",
+   "name": "col_38",
+   "header": []
+  },
+  {
+   "col_no": "39",
+   "name": "Consuming Spurious liquor | M",
+   "header": [
+    "Consuming Spurious liquor",
+    "M"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "Suffocation due to somke/oxygen deprivation | F",
+   "header": [
+    "Suffocation due to somke/oxygen deprivation",
+    "F"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "Abortion | M",
+   "header": [
+    "Abortion",
+    "M"
+   ]
+  },
+  {
+   "col_no": "42",
+   "name": "Other causes | F",
+   "header": [
+    "Other causes",
+    "F"
+   ]
+  },
+  {
+   "col_no": "43",
+   "name": "Total | M",
+   "header": [
+    "Total",
+    "M"
+   ]
+  },
+  {
+   "col_no": "44",
+   "name": "Grand Total | F",
+   "header": [
+    "Grand Total",
+    "F"
+   ]
+  },
+  {
+   "col_no": "45",
+   "name": "M - F",
+   "header": [
+    "M - F"
+   ]
+  },
+  {
+   "col_no": "46",
+   "name": "col_46",
+   "header": []
+  },
+  {
+   "col_no": "47",
+   "name": "col_47",
+   "header": []
+  },
+  {
+   "col_no": "48",
+   "name": "col_48",
+   "header": []
+  },
+  {
+   "col_no": "49",
+   "name": "col_49",
+   "header": []
   }
  ],
- "notes": [
-  "le - cS S$ «£2 x 3. es 9 BHP & 4",
-  "iS 5 a .5 RE - 2 SS 2es 2 > F 2: 2ee 8 Ecg q, G",
-  "A i © SES FPE 1 ¥",
-  "- 15 ee UW Hk SE wv &",
-  "—7",
-  "- - - - a < a - —0l nw Ld ed -",
-  "- “a \"3.60 Was Su Mt MM 5 2 43 ‘6 - & j 1}",
-  "at GS2seeE i Boss }",
-  "a - 28s D5 BB Ft gta",
-  "a $ iS la, is Hl a OS ee j \\",
-  "2 (1) 21. 23. 24. 25."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 97,
+  "cells_passed": 85,
+  "failures": [
+   "col 30 'Total (States)': printed 256, sum 274",
+   "col 31 'Total (States)': printed 372, sum 267",
+   "col 32 'Total (States)': printed 142, sum 139",
+   "col 37 'Total (States)': printed 2632, sum 2633",
+   "col 38 'Total (States)': printed 551, sum 555",
+   "col 45 'Total (States)': printed 24008, sum 24005",
+   "col 46 'Total (States)': printed 8965, sum 8960",
+   "col 47 'Total (States)': printed 97608, sum 97559"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 6,
  "warnings": []
 }

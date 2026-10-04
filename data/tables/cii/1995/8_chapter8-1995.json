@@ -1,0 +1,144 @@
+{
+ "table_id": "cii/1995/8_chapter8-1995",
+ "publication": "cii",
+ "year": 1995,
+ "listing": "table_chapter",
+ "topic": "",
+ "section": "",
+ "serial": "8",
+ "title": "Crime Against Children",
+ "listing_title": "Crime Against Children",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter8-1995.pdf",
+ "source_file": "raw/cii/1995/table_chapter/chapter8-1995.pdf",
+ "source_sha256": "f75918d388410ce96263364ec37fece9b3feec71e92c9e370b9017575830d8d3",
+ "table_no": "",
+ "pdf_title": "Projected Child Population (0 - 14 years) by sex in India and major states 1981 - 2001",
+ "row_label": "Sl. No. / States/UTs",
+ "pages": [
+  3,
+  3,
+  4,
+  5,
+  7,
+  9
+ ],
+ "n_rows": 66,
+ "n_cols": 12,
+ "n_cells": 526,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "0-4 years | M",
+   "header": [
+    "0-4 years",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "0-4 years | F",
+   "header": [
+    "0-4 years",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "5 - 9 years | M",
+   "header": [
+    "5 - 9 years",
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "5 - 9 years | F",
+   "header": [
+    "5 - 9 years",
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "10 - 14 years | M",
+   "header": [
+    "10 - 14 years",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "10 - 14 years | F",
+   "header": [
+    "10 - 14 years",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Total | M",
+   "header": [
+    "Total",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Total | F",
+   "header": [
+    "Total",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Sex Ratio",
+   "header": [
+    "Sex Ratio"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Year",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Below 16 years | M",
+   "header": [
+    "Below 16 years",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Below 16 years | F",
+   "header": [
+    "Below 16 years",
+    "F"
+   ]
+  }
+ ],
+ "notes": [
+  "Source: Census of India, 1981"
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 0,
+  "failures": [
+   "col 5 'All-India 42227767': printed 4.54183e+07, sum 4.82674e+07",
+   "col 6 'All-India 42227767': printed 4.52653e+07, sum 4.54183e+07",
+   "col 8 'All-India 140321': printed 157998, sum 4.07844e+07",
+   "col 10 'All-India 140321': printed 157606, sum 1.2749e+08"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 6,
+ "warnings": []
+}

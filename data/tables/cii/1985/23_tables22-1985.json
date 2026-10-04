@@ -24,7 +24,7 @@
   5,
   6
  ],
- "n_rows": 94,
+ "n_rows": 49,
  "n_cols": 39,
  "n_cells": 1833,
  "columns": [
@@ -343,20 +343,20 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 84,
-  "cells_passed": 63,
+  "cells_checked": 109,
+  "cells_passed": 92,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 60219, sum 60419",
-   "col 5 'TOTAL (STATES)': printed 62931, sum 63031",
-   "col 9 'TOTAL (U.Ts.)': printed 209, sum 207",
-   "col 11 'TOTAL (U.Ts.)': printed 210, sum 208",
-   "col 24 'TOTAL (U.Ts.)': printed 3982, sum 3369",
-   "col 25 'TOTAL (U.Ts.)': printed 81, sum 59",
-   "col 26 'TOTAL (U.Ts.)': printed 4063, sum 3428",
-   "col 27 'TOTAL (U.Ts.)': printed 4660, sum 3292"
+   "col 9 'TOTAL (U.Ts.)': printed 209, sum 200",
+   "col 11 'TOTAL (U.Ts.)': printed 210, sum 201",
+   "col 12 'TOTAL (U.Ts.)': printed 460, sum 445",
+   "col 14 'TOTAL (U.Ts.)': printed 488, sum 473",
+   "col 15 'TOTAL (U.Ts.)': printed 187, sum 167",
+   "col 24 'TOTAL (U.Ts.)': printed 3982, sum 3927",
+   "col 25 'TOTAL (U.Ts.)': printed 81, sum 79",
+   "col 26 'TOTAL (U.Ts.)': printed 4063, sum 4006"
   ],
   "other_totals_checked": 37,
-  "other_totals_passed": 37
+  "other_totals_passed": 36
  },
  "inferred_pages": 0,
  "ocr_pages": 6,

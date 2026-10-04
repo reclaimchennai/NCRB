@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-53-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-53-1984.pdf",
  "source_sha256": "77e7aec0052894d3329740e74cf45ce3ce6f33e280760e6c04a775154a639339",
- "table_no": "53",
- "pdf_title": "124 TABLE 53 Statement Of Recidivism Under Important Heads Of IPC Crimes During 1984",
+ "table_no": "",
+ "pdf_title": "",
  "row_label": "SL NO / CRIME HEADS",
  "pages": [
   1
@@ -25,44 +25,45 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER OF NEW OFFENDERS ARRESTED",
+   "name": "NUMBER OF OFFENDERS",
    "header": [
-    "NUMBER OF NEW OFFENDERS ARRESTED"
+    "NUMBER OF OFFENDERS"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER OF OFFENDERS WHO HAVE TOTAL BEEN ARRESTED IN THE PAST | ONCE",
+   "name": "NUMBER OF NEW ARRESTED",
    "header": [
-    "NUMBER OF OFFENDERS WHO HAVE TOTAL BEEN ARRESTED IN THE PAST",
-    "ONCE"
+    "NUMBER OF NEW ARRESTED"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER OF OFFENDERS WHO HAVE TOTAL BEEN ARRESTED IN THE PAST | TWICE",
+   "name": "NUMBER OF BEEN ARRESTED IN TWICE | ONCE",
    "header": [
-    "NUMBER OF OFFENDERS WHO HAVE TOTAL BEEN ARRESTED IN THE PAST",
-    "TWICE"
+    "NUMBER OF BEEN ARRESTED IN TWICE",
+    "ONCE"
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER OF OFFENDERS WHO HAVE TOTAL BEEN ARRESTED IN THE PAST | THREE TIMES OR MORE",
+   "name": "OFFENDERS THREETIMES OR MORE | THREE TIMES OR MORE",
    "header": [
-    "NUMBER OF OFFENDERS WHO HAVE TOTAL BEEN ARRESTED IN THE PAST",
+    "OFFENDERS THREETIMES OR MORE",
     "THREE TIMES OR MORE"
    ]
   },
   {
    "col_no": "7",
-   "name": "NUMBER OF OFFENDERS WHO HAVE TOTAL BEEN ARRESTED IN THE PAST",
+   "name": "WHO HAVE TOTAL",
    "header": [
-    "NUMBER OF OFFENDERS WHO HAVE TOTAL BEEN ARRESTED IN THE PAST"
+    "WHO HAVE TOTAL"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "Note: Due to non availability of information on Recidivism from Delhi UT, all the arrested persons are taken as new offenders."
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

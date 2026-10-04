@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-6-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-6-1988-2.pdf",
  "source_sha256": "cd9b6fe6fb86ddb0de8e902a79750d120c775e3cd8875999121a3db4385f3342",
- "table_no": "",
- "pdf_title": "",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "table_no": "6",
+ "pdf_title": "20 TABLE - 6 INCIDENCE (I) & VOLUME (V) OF COGNIZABLE CRIMES (IPC) UNDER DIFFERENT CRIME HEADS IN STATES, UTs & CITIES DURING 1988.",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2,
@@ -23,7 +23,7 @@
   4,
   5
  ],
- "n_rows": 50,
+ "n_rows": 49,
  "n_cols": 36,
  "n_cells": 1692,
  "columns": [
@@ -129,19 +129,19 @@
   },
   {
    "col_no": "15",
-   "name": "KIDNAPPING AND ABDUCTION | OF OTHERS | I",
+   "name": "KIDNAPPING AND ABDUCTION | OF | I",
    "header": [
     "KIDNAPPING AND ABDUCTION",
-    "OF OTHERS",
+    "OF",
     "I"
    ]
   },
   {
    "col_no": "16",
-   "name": "KIDNAPPING AND ABDUCTION | OF OTHERS | V",
+   "name": "KIDNAPPING AND ABDUCTION | OTHERS | V",
    "header": [
     "KIDNAPPING AND ABDUCTION",
-    "OF OTHERS",
+    "OTHERS",
     "V"
    ]
   },
@@ -163,52 +163,38 @@
   },
   {
    "col_no": "19",
-   "name": "SL. NO.",
+   "name": "PREPARATION & ASSEMBLY FOR DACOITY | I",
    "header": [
-    "SL. NO."
+    "PREPARATION & ASSEMBLY FOR DACOITY",
+    "I"
    ]
   },
   {
    "col_no": "20",
-   "name": "STATE/UT/CITY",
+   "name": "PREPARATION & ASSEMBLY FOR DACOITY | V",
    "header": [
-    "STATE/UT/CITY"
+    "PREPARATION & ASSEMBLY FOR DACOITY",
+    "V"
    ]
   },
   {
    "col_no": "21",
-   "name": "PREPARATION & ASSEMBLY | I",
+   "name": "ROBHERY | I",
    "header": [
-    "PREPARATION & ASSEMBLY",
+    "ROBHERY",
     "I"
    ]
   },
   {
    "col_no": "22",
-   "name": "PREPARATION & ASSEMBLY | V",
+   "name": "ROBHERY | V",
    "header": [
-    "PREPARATION & ASSEMBLY",
+    "ROBHERY",
     "V"
    ]
   },
   {
    "col_no": "23",
-   "name": "ROBBERY | I",
-   "header": [
-    "ROBBERY",
-    "I"
-   ]
-  },
-  {
-   "col_no": "24",
-   "name": "ROBBERY | V",
-   "header": [
-    "ROBBERY",
-    "V"
-   ]
-  },
-  {
-   "col_no": "25",
    "name": "BURGLARY | I",
    "header": [
     "BURGLARY",
@@ -216,10 +202,26 @@
    ]
   },
   {
-   "col_no": "26",
+   "col_no": "24",
    "name": "BURGLARY | V",
    "header": [
     "BURGLARY",
+    "V"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "THEFT | I",
+   "header": [
+    "THEFT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "THEFT | V",
+   "header": [
+    "THEFT",
     "V"
    ]
   },
@@ -325,8 +327,8 @@
   "cells_checked": 51,
   "cells_passed": 49,
   "failures": [
-   "col 27 'TOTAL (UTS)': printed 346, sum 341",
-   "col 29 'TOTAL (UTS)': printed 777, sum 776"
+   "col 27 'TOTAL (UTs)': printed 346, sum 341",
+   "col 29 'TOTAL (UTs)': printed 777, sum 776"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

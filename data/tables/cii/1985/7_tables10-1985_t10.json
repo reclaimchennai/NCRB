@@ -1,0 +1,183 @@
+{
+ "table_id": "cii/1985/7_tables10-1985_t10",
+ "publication": "cii",
+ "year": 1985,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "7",
+ "title": "Incidence of Total Cognizable Crime and Volume of Crime per Lakh of Population under Important Heads of IPC During 1985",
+ "listing_title": "Incidence of Total Cognizable Crime and Volume of Crime per Lakh of Population under Important Heads of IPC During 1985",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables10-1985.pdf",
+ "source_file": "raw/cii/1985/table_content/tables10-1985.pdf",
+ "source_sha256": "4a35fdee759b72030c36403e2daf81eabb9c5c15b0f3a551c6fe96ce143c7b62",
+ "table_no": "10",
+ "pdf_title": "",
+ "row_label": "Sl. States/U.Ts/Cities No.",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "n_rows": 48,
+ "n_cols": 20,
+ "n_cells": 940,
+ "columns": [
+  {
+   "col_no": "9",
+   "name": "Excise Act | I",
+   "header": [
+    "Excise Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Excise Act | V",
+   "header": [
+    "Excise Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Prohibition Act | I",
+   "header": [
+    "Prohibition Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Prohibition Act | V",
+   "header": [
+    "Prohibition Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Explosives and Exp. Substances Act | I",
+   "header": [
+    "Explosives and Exp. Substances Act",
+    "I"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Explosives and Exp. Substances Act | V",
+   "header": [
+    "Explosives and Exp. Substances Act",
+    "V"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "S.I.T. ACT | I",
+   "header": [
+    "S.I.T. ACT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "S.I.T. ACT | V",
+   "header": [
+    "S.I.T. ACT",
+    "V"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "col_17",
+   "header": []
+  },
+  {
+   "col_no": "18",
+   "name": "col_18",
+   "header": []
+  },
+  {
+   "col_no": "19",
+   "name": "col_19",
+   "header": []
+  },
+  {
+   "col_no": "20",
+   "name": "col_20",
+   "header": []
+  },
+  {
+   "col_no": "21",
+   "name": "col_21",
+   "header": []
+  },
+  {
+   "col_no": "22",
+   "name": "col_22",
+   "header": []
+  },
+  {
+   "col_no": "23",
+   "name": "col_23",
+   "header": []
+  },
+  {
+   "col_no": "24",
+   "name": "col_24",
+   "header": []
+  },
+  {
+   "col_no": "25",
+   "name": "Other Local & Special Laws | I",
+   "header": [
+    "Other Local & Special Laws",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "Total of Local Special Laws | V",
+   "header": [
+    "Total of Local Special Laws",
+    "V"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "I",
+   "header": [
+    "I"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "V",
+   "header": [
+    "V"
+   ]
+  }
+ ],
+ "notes": [
+  "NOTE : I = Incidence of Crime V = Volume of Crime per Lakh of Population"
+ ],
+ "checks": {
+  "cells_checked": 23,
+  "cells_passed": 17,
+  "failures": [
+   "col 17 'TOTAL (STATES)': printed 1.18763e+06, sum 1.18783e+06",
+   "col 25 'TOTAL (STATES)': printed 1.12076e+06, sum 1.11988e+06",
+   "col 25 'TOTAL (U.Ts.)': printed 13241, sum 12941",
+   "col 25 'TOTAL (CITIES)': printed 513354, sum 508428",
+   "col 27 'TOTAL (STATES)': printed 3.06844e+06, sum 3.06843e+06",
+   "col 27 'TOTAL (CITIES)': printed 1.11441e+06, sum 1.09937e+06"
+  ],
+  "other_totals_checked": 8,
+  "other_totals_passed": 8
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

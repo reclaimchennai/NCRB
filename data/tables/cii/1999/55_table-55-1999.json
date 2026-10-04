@@ -20,7 +20,7 @@
   1,
   2
  ],
- "n_rows": 61,
+ "n_rows": 60,
  "n_cols": 27,
  "n_cells": 1593,
  "columns": [
@@ -84,10 +84,10 @@
    ]
   },
   {
-   "col_no": "11",
-   "name": "PREPARATION AND ASSEMBLY FOR DACOITY",
+   "col_no": "110",
+   "name": "PREPARA-TION AND ASSEMBLY FOR DACOITY",
    "header": [
-    "PREPARATION AND ASSEMBLY FOR DACOITY"
+    "PREPARA-TION AND ASSEMBLY FOR DACOITY"
    ]
   },
   {
@@ -179,9 +179,9 @@
   },
   {
    "col_no": "24",
-   "name": "MOLES TATION",
+   "name": "MOLES STATION",
    "header": [
-    "MOLES TATION"
+    "MOLES STATION"
    ]
   },
   {
@@ -222,17 +222,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 104,
-  "cells_passed": 73,
+  "cells_checked": 108,
+  "cells_passed": 106,
   "failures": [
-   "col 14 'TOTAL STATES': printed 2535, sum 2254",
-   "col 14 'TOTAL STATES': printed 779, sum 1060",
-   "col 15 'TOTAL STATES': printed 173, sum 132",
-   "col 15 'TOTAL STATES': printed 88, sum 129",
-   "col 16 'TOTAL STATES': printed 2354, sum 2114",
-   "col 16 'TOTAL STATES': printed 691, sum 931",
-   "col 17 'TOTAL STATES': printed 916, sum 825",
-   "col 17 'TOTAL STATES': printed 72, sum 163"
+   "col 22 'TOTAL STATES': printed 1928, sum 1904",
+   "col 22 'TOTAL (ALL-INDIA)': printed 1928, sum 1952"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

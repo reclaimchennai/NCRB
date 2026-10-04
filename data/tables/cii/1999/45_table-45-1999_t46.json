@@ -15,20 +15,20 @@
  "source_sha256": "618a5842f7dc79a20f9b72036395c113dec5b578d227f6d1fb5f90c3316b43a8",
  "table_no": "46",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 46",
- "row_label": "SL. NO. / STATE/UT",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   3,
   4
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 23,
  "n_cells": 805,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERSONS IN CUST./BAIL DURING INVESTIGATION AT BEGINNING OF THE YEAR",
+   "name": "PERSONS IN CUST./BAIL DURING INVE-STIGATION AT BEG-INNING OF THE YEAR",
    "header": [
-    "PERSONS IN CUST./BAIL DURING INVESTIGATION AT BEGINNING OF THE YEAR"
+    "PERSONS IN CUST./BAIL DURING INVE-STIGATION AT BEG-INNING OF THE YEAR"
    ]
   },
   {
@@ -47,9 +47,9 @@
   },
   {
    "col_no": "6",
-   "name": "PERSONS INCUST DY/ BAIL DURING INVESTIGATION AT THE END OF YEAR",
+   "name": "PERSONS INCUST DY/ BAIL DURING INVESTI-GATION AT THE END OF YEAR",
    "header": [
-    "PERSONS INCUST DY/ BAIL DURING INVESTIGATION AT THE END OF YEAR"
+    "PERSONS INCUST DY/ BAIL DURING INVESTI-GATION AT THE END OF YEAR"
    ]
   },
   {
@@ -61,9 +61,9 @@
   },
   {
    "col_no": "8",
-   "name": "PERSONS UNDER TRIAL AT THE BEGINNING OF YEAR",
+   "name": "PERSONS UNDER TRIAL AT THE BEGIN-NING OF YEAR",
    "header": [
-    "PERSONS UNDER TRIAL AT THE BEGINNING OF YEAR"
+    "PERSONS UNDER TRIAL AT THE BEGIN-NING OF YEAR"
    ]
   },
   {
@@ -75,9 +75,9 @@
   },
   {
    "col_no": "10",
-   "name": "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DISPOSED OF",
+   "name": "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DISPO-SED OF",
    "header": [
-    "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DISPOSED OF"
+    "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DISPO-SED OF"
    ]
   },
   {
@@ -89,9 +89,9 @@
   },
   {
    "col_no": "12",
-   "name": "PERSONS IN WHOSE CASES TRIAL COM-PLETED",
+   "name": "PERSONS IN WHOSE CASES TRIAL COM-LETED",
    "header": [
-    "PERSONS IN WHOSE CASES TRIAL COM-PLETED"
+    "PERSONS IN WHOSE CASES TRIAL COM-LETED"
    ]
   },
   {
@@ -103,16 +103,16 @@
   },
   {
    "col_no": "14",
-   "name": "PERSONS ACQUI-TED",
+   "name": "PERSONS ACQUI-TTED",
    "header": [
-    "PERSONS ACQUI-TED"
+    "PERSONS ACQUI-TTED"
    ]
   },
   {
    "col_no": "15",
-   "name": "PERCENTAGE OF PERSONS CONVIC-TED TO TRIAL COMPLETED",
+   "name": "PERCENTAGE OF PERSONS CONVIC-TED TO TRIAL COMPLE-TED",
    "header": [
-    "PERCENTAGE OF PERSONS CONVIC-TED TO TRIAL COMPLETED"
+    "PERCENTAGE OF PERSONS CONVIC-TED TO TRIAL COMPLE-TED"
    ]
   },
   {
@@ -195,14 +195,9 @@
  "notes": [],
  "checks": {
   "cells_checked": 60,
-  "cells_passed": 54,
+  "cells_passed": 59,
   "failures": [
-   "col 8 'TOTAL (UTs)': printed 349, sum 340",
-   "col 9 'TOTAL (UTs)': printed 501, sum 492",
-   "col 11 'TOTAL (UTs)': printed 462, sum 453",
-   "col 22 'TOTAL STATES': printed 712, sum 676",
-   "col 23 'TOTAL STATES': printed 377, sum 370",
-   "col 24 'TOTAL STATES': printed 3015, sum 2787"
+   "col 8 'TOTAL (UTs)': printed 349, sum 340"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

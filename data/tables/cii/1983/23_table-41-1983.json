@@ -8,47 +8,62 @@
  "serial": "23",
  "title": "Juveniles Apprehended (by Sex) for committing Crimes under Local & Special Laws",
  "listing_title": "Juveniles Apprehended (by Sex) for committing Crimes under Local & Special Laws",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1983.pdf",
  "source_file": "raw/cii/1983/table_content/table-41-1983.pdf",
  "source_sha256": "f8b815e2f8c4fc0142a4d1a216ebb78c5c1ef5501b0214a5d90bb90b63de24ee",
  "table_no": "",
- "pdf_title": "Juveniles Apprehended (By Sex) for Committing crimes under Local & Special Laws",
- "row_label": "States/U.Ts. [Cities NI. No. STATES Andhra Pradeshs 1 2 / States/U.Ts. [Cities » % “Assam @ 8 4 « / Boys 1,566 444 som",
+ "pdf_title": "",
+ "row_label": "No.",
  "pages": [
   1
  ],
- "n_rows": 40,
- "n_cols": 2,
- "n_cells": 69,
+ "n_rows": 47,
+ "n_cols": 4,
+ "n_cells": 184,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Girls 345 - 4 «",
+   "col_no": "2",
+   "name": "States/U.T.s/Cities",
    "header": [
-    "Girls 345 - 4 «"
+    "States/U.T.s/Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Boys",
+   "header": [
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Girls",
+   "header": [
+    "Girls"
    ]
   },
   {
    "col_no": "5",
-   "name": "Total 1,911 « 448 6",
+   "name": "Total",
    "header": [
-    "Total 1,911 « 448 6"
+    "Total"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 2,
+  "cells_checked": 9,
+  "cells_passed": 7,
   "failures": [
-   "col 4 'TOTAL (STATES)': printed 6703, sum 6354"
+   "col 3 'TOTAL (U.T.s.)': printed 2940, sum 2907",
+   "col 5 'TOTAL (STATES)': printed 86143, sum 86138"
   ],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

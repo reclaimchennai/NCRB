@@ -28,9 +28,9 @@
   9,
   10
  ],
- "n_rows": 64,
+ "n_rows": 60,
  "n_cols": 36,
- "n_cells": 2053,
+ "n_cells": 2088,
  "columns": [
   {
    "col_no": "3",
@@ -50,7 +50,15 @@
   },
   {
    "col_no": "5",
-   "name": "ATTEMPT TO COMMIT MURDER | R (5)",
+   "name": "ATTEMPT TO COMMIT MURDER | I",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER",
+    "I"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ATTEMPT TO COMMIT MURDER | R",
    "header": [
     "ATTEMPT TO COMMIT MURDER",
     "R"
@@ -85,14 +93,6 @@
    "name": "RAPE | R",
    "header": [
     "RAPE",
-    "R"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "ATTEMPT TO COMMIT MURDER | R (6)",
-   "header": [
-    "ATTEMPT TO COMMIT MURDER",
     "R"
    ]
   },
@@ -143,25 +143,26 @@
   },
   {
    "col_no": "16",
-   "name": "DACOTY | OTHERS | R",
+   "name": "KIDNAPPING AND ABDUCTION | OTHERS | R",
    "header": [
-    "DACOTY",
+    "KIDNAPPING AND ABDUCTION",
     "OTHERS",
     "R"
    ]
   },
   {
    "col_no": "17",
-   "name": "DACOTY | I",
+   "name": "DACOITY | I",
    "header": [
-    "DACOTY",
+    "DACOITY",
     "I"
    ]
   },
   {
    "col_no": "18",
-   "name": "R",
+   "name": "DACOITY | R",
    "header": [
+    "DACOITY",
     "R"
    ]
   },
@@ -263,17 +264,17 @@
   },
   {
    "col_no": "31",
-   "name": "CHEATING | I",
+   "name": "CREATING | I",
    "header": [
-    "CHEATING",
+    "CREATING",
     "I"
    ]
   },
   {
    "col_no": "32",
-   "name": "CHEATING | R",
+   "name": "CREATING | R",
    "header": [
-    "CHEATING",
+    "CREATING",
     "R"
    ]
   },
@@ -328,17 +329,16 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 48,
-  "cells_passed": 33,
+  "cells_checked": 51,
+  "cells_passed": 44,
   "failures": [
-   "col 11 'TOTAL (STATES)': printed 19530, sum 19250",
-   "col 13 'TOTAL (STATES)': printed 13276, sum 13164",
-   "col 15 'TOTAL (STATES)': printed 6254, sum 6086",
-   "col 17 'TOTAL (STATES)': printed 11266, sum 11162",
-   "col 21 'TOTAL (STATES)': printed 26129, sum 25970",
-   "col 23 'TOTAL (STATES)': printed 125259, sum 124040",
-   "col 25 'TOTAL (STATES)': printed 334276, sum 332680",
-   "col 27 'TOTAL (STATES)': printed 104264, sum 97665"
+   "col 11 'TOTAL (STATES)': printed 19530, sum 19507",
+   "col 13 'TOTAL (STATES)': printed 13276, sum 13267",
+   "col 15 'TOTAL (STATES)': printed 6254, sum 6240",
+   "col 17 'TOTAL (STATES)': printed 11266, sum 11200",
+   "col 25 'TOTAL (STATES)': printed 334276, sum 334226",
+   "col 27 'TOTAL (UTs)': printed 485, sum 483",
+   "col 29 'TOTAL (UTs)': printed 721, sum 720"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

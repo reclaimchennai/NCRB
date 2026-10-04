@@ -8,30 +8,30 @@
  "serial": "51",
  "title": "Incidence & Rate of Cognizable Crimes (IPC) under Different Crime Heads in States, UTs & Cities During 1994",
  "listing_title": "Incidence & Rate of Cognizable Crimes (IPC) under Different Crime Heads in States, UTs & Cities During 1994",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table6-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table6-1994_2.pdf",
  "source_sha256": "0b159608123ad1ccffc41ad9d240a8fae30b0c13728a18c6efd58e96f983c04f",
  "table_no": "6",
- "pdf_title": "INCIDENCE (I) & RATE (R) OF COGNIZABLE CRIMES (IPC) UNDER DIFFERENT CRIME HEADS IN STATES, UTs & CITIES DURING 1994",
- "row_label": "SL. NO. / STATE/UTI/CITY",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE - 6",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 131,
- "n_cols": 29,
- "n_cells": 407,
+ "n_rows": 63,
+ "n_cols": 32,
+ "n_cells": 1856,
  "columns": [
   {
    "col_no": "3",
-   "name": "MURDER | { H",
+   "name": "MURDER | I",
    "header": [
     "MURDER",
-    "{ H"
+    "I"
    ]
   },
   {
@@ -44,9 +44,10 @@
   },
   {
    "col_no": "5",
-   "name": "ATTEMPT TO COMMIT MURDER",
+   "name": "ATTEMPT TO COMMIT MURDER | I",
    "header": [
-    "ATTEMPT TO COMMIT MURDER"
+    "ATTEMPT TO COMMIT MURDER",
+    "I"
    ]
   },
   {
@@ -59,28 +60,26 @@
   },
   {
    "col_no": "7",
-   "name": "RAPE | C.H. NOT AMOUNTING TO MURDER | l J",
+   "name": "C.H. NOT AMOUNTING TO MURDER | I",
    "header": [
-    "RAPE",
     "C.H. NOT AMOUNTING TO MURDER",
-    "l J"
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "RAPE | C.H. NOT AMOUNTING TO MURDER | R",
+   "name": "C.H. NOT AMOUNTING TO MURDER | R",
    "header": [
-    "RAPE",
     "C.H. NOT AMOUNTING TO MURDER",
     "R"
    ]
   },
   {
    "col_no": "9",
-   "name": "RAPE | 1",
+   "name": "RAPE | I",
    "header": [
     "RAPE",
-    "1"
+    "I"
    ]
   },
   {
@@ -92,102 +91,145 @@
    ]
   },
   {
-   "col_no": "12",
-   "name": "KIDNAPPING ik ABDUCTION OF WOMEN & GIRLS | R (12)",
+   "col_no": "11",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL | I",
    "header": [
-    "KIDNAPPING ik ABDUCTION OF WOMEN & GIRLS",
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL",
+    "I"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL | R",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL",
     "R"
    ]
   },
   {
    "col_no": "13",
-   "name": "KIDNAPPING ik ABDUCTION OF WOMEN & GIRLS | 1",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | I",
    "header": [
-    "KIDNAPPING ik ABDUCTION OF WOMEN & GIRLS",
-    "1"
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS",
+    "I"
    ]
   },
   {
    "col_no": "14",
-   "name": "KIDNAPPING ik ABDUCTION OF WOMEN & GIRLS | R (14)",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS | R",
    "header": [
-    "KIDNAPPING ik ABDUCTION OF WOMEN & GIRLS",
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS",
     "R"
    ]
   },
   {
    "col_no": "15",
-   "name": "OF O) HERS",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | I",
    "header": [
-    "OF O) HERS"
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS",
+    "I"
    ]
   },
   {
    "col_no": "16",
-   "name": "R (16)",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS | R",
    "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS",
     "R"
    ]
   },
   {
    "col_no": "17",
-   "name": "DACOITY 1]",
+   "name": "DACOITY | I",
    "header": [
-    "DACOITY 1]"
+    "DACOITY",
+    "I"
    ]
   },
   {
    "col_no": "18",
-   "name": "col_18",
-   "header": []
+   "name": "DACOITY | R",
+   "header": [
+    "DACOITY",
+    "R"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "PREPARATION & ASSEMBLY FOR DACOITY | I",
+   "header": [
+    "PREPARATION & ASSEMBLY FOR DACOITY",
+    "I"
+   ]
   },
   {
    "col_no": "20",
-   "name": "ASSEMRIV FOR DACOITY R",
+   "name": "PREPARATION & ASSEMBLY FOR DACOITY | R",
    "header": [
-    "ASSEMRIV FOR DACOITY R"
+    "PREPARATION & ASSEMBLY FOR DACOITY",
+    "R"
    ]
   },
   {
    "col_no": "21",
-   "name": "ROBBERY",
+   "name": "ROBBERY | I",
    "header": [
-    "ROBBERY"
+    "ROBBERY",
+    "I"
    ]
   },
   {
    "col_no": "22",
-   "name": "R (22)",
+   "name": "ROBBERY | R",
    "header": [
+    "ROBBERY",
     "R"
    ]
   },
   {
    "col_no": "23",
-   "name": "BURGLARY",
+   "name": "BURGLARY | I",
    "header": [
-    "BURGLARY"
+    "BURGLARY",
+    "I"
    ]
   },
   {
    "col_no": "24",
-   "name": "R (24)",
+   "name": "BURGLARY | R",
    "header": [
+    "BURGLARY",
     "R"
    ]
   },
   {
    "col_no": "25",
-   "name": "THEFT",
+   "name": "THEFT | I",
    "header": [
-    "THEFT"
+    "THEFT",
+    "I"
    ]
   },
   {
    "col_no": "26",
-   "name": "R (26)",
+   "name": "THEFT | R",
    "header": [
+    "THEFT",
     "R"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "RIOTS | I",
+   "header": [
+    "RIOTS",
+    "I"
    ]
   },
   {
@@ -200,9 +242,10 @@
   },
   {
    "col_no": "29",
-   "name": "CRIMINAL BREACH OF TRUST",
+   "name": "CRIMINAL BREACH OF TRUST | I",
    "header": [
-    "CRIMINAL BREACH OF TRUST"
+    "CRIMINAL BREACH OF TRUST",
+    "I"
    ]
   },
   {
@@ -215,60 +258,51 @@
   },
   {
    "col_no": "31",
-   "name": "CHEATING",
+   "name": "CHEATING | I",
    "header": [
-    "CHEATING"
+    "CHEATING",
+    "I"
    ]
   },
   {
    "col_no": "32",
-   "name": "COUNTERFEITING | R (32)",
+   "name": "CHEATING | R",
    "header": [
-    "COUNTERFEITING",
+    "CHEATING",
     "R"
    ]
   },
   {
    "col_no": "33",
-   "name": "COUNTERFEITING | ']",
+   "name": "COUNTERFEITING | I",
    "header": [
     "COUNTERFEITING",
-    "']"
+    "I"
    ]
   },
   {
    "col_no": "34",
-   "name": "COUNTERFEITING | R (34)",
+   "name": "COUNTERFEITING | R",
    "header": [
     "COUNTERFEITING",
     "R"
    ]
   }
  ],
- "notes": [
-  "36 BE I",
-  "Be ig",
-  "BEE RE Be ier",
-  "BAB",
-  "40 ER",
-  "ee",
-  "gee",
-  "44 gen gs",
-  "a",
-  "148 i nen",
-  "ir",
-  "re i",
-  "51 PUNE** een oP",
-  "BEE a ge",
-  "eee",
-  "6S AIBA NANA",
-  "7 (01) UT A Te a",
-  "VISHAKHÄPATNÄM '0*:"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 45,
+  "cells_passed": 36,
+  "failures": [
+   "col 11 'TOTAL (STATES)': printed 19854, sum 14435",
+   "col 13 'TOTAL (STATES)': printed 13302, sum 10116",
+   "col 15 'TOTAL (STATES)': printed 6552, sum 4319",
+   "col 17 'TOTAL (STATES)': printed 9249, sum 7332",
+   "col 21 'TOTAL (ALL INDIA)': printed 23833, sum 23933",
+   "col 27 'TOTAL (STATES)': printed 94002, sum 94012",
+   "col 27 'TOTAL (UTs)': printed 342, sum 334",
+   "col 29 'TOTAL (STATES)': printed 15899, sum 15900"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

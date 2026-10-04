@@ -15,7 +15,7 @@
  "source_sha256": "967c810481deb91e519a93442f3fd6ad229ebac20b9b532d68c74177d369721f",
  "table_no": "",
  "pdf_title": "33 APPENDIX--I Statewise Distribution of Accidental Deaths due to Natural Causes during 1977",
- "row_label": "Sl.No. / Names of States/UTs/Cities",
+ "row_label": "Sl. No. / Names of States/ U.Ts./Cities",
  "pages": [
   1
  ],
@@ -49,9 +49,9 @@
   },
   {
    "col_no": "6",
-   "name": "By land-slides | F",
+   "name": "By Land-slides | F",
    "header": [
-    "By land-slides",
+    "By Land-slides",
     "F"
    ]
   },
@@ -81,9 +81,9 @@
   },
   {
    "col_no": "10",
-   "name": "Grand Total(Males & Females) | F",
+   "name": "Grand Total (Males & Females) | F",
    "header": [
-    "Grand Total(Males & Females)",
+    "Grand Total (Males & Females)",
     "F"
    ]
   },
@@ -125,9 +125,12 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 15,
+  "cells_passed": 13,
+  "failures": [
+   "col 13 'TOTAL (States)': printed 4150, sum 1150",
+   "col 15 'TOTAL (States)': printed 6953, sum 6946"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -1,0 +1,101 @@
+{
+ "table_id": "cii/1993/51_table-51-1993-crime_t1",
+ "publication": "cii",
+ "year": 1993,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "51",
+ "title": "Juveniles Apprehended under Different L&SL Crimes During 1993 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Apprehended under Different L&SL Crimes During 1993 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-51-1993-crime.pdf",
+ "source_file": "raw/cii/1993/table_content/table-51-1993-crime.pdf",
+ "source_sha256": "c32cca9187c1ff9b596446041d85a9936b3ec4de7014f64a6ae6feeffd74ad3b",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SI, NO. / STATEL/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 58,
+ "n_cols": 8,
+ "n_cells": 464,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "ARMS ACT",
+   "header": [
+    "ARMS ACT"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "NARCOTIC DRUGS & PSY SUBSTANCES ACT",
+   "header": [
+    "NARCOTIC DRUGS & PSY SUBSTANCES ACT"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "GAMBLING ACT",
+   "header": [
+    "GAMBLING ACT"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "EXCISE ACT",
+   "header": [
+    "EXCISE ACT"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "PROHIBITION ACT",
+   "header": [
+    "PROHIBITION ACT"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "EXPLOSIVE EXPLOSIVE SUBS ACT",
+   "header": [
+    "EXPLOSIVE EXPLOSIVE SUBS ACT"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "IMMORAL TRAFFIC (PRICKENTION) ACT",
+   "header": [
+    "IMMORAL TRAFFIC (PRICKENTION) ACT"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "#DIASIA RAIL WAYS ACT",
+   "header": [
+    "#DIASIA RAIL WAYS ACT"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 19,
+  "failures": [
+   "col 4 'TOTAL (ALL-INDIA)': printed 10, sum 15",
+   "col 6 'TOTAL (ALL-INDIA)': printed 162, sum 152",
+   "col 7 'TOTAL (ALL-INDIA)': printed 1422, sum 1423",
+   "col 9 'TOTAL (UTS)': printed 2, sum 3",
+   "col 9 'TOTAL (ALL-INDIA)': printed 178, sum 177"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

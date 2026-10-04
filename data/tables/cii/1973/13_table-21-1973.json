@@ -14,8 +14,8 @@
  "source_file": "raw/cii/1973/table_content/table-21-1973.pdf",
  "source_sha256": "78f82d19866ee4b5c4959608588909b124d0cf0ceb0318771e8dfbe4cc6f80fa",
  "table_no": "21",
- "pdf_title": "75 TABLE 21 Persons Arrested under I. P. C. Crime heads (By sex).",
- "row_label": "Sl. No. / Crime Heads",
+ "pdf_title": "Persons Arrested under I. P. C. Crime heads (By sex)",
+ "row_label": "Sl. No.",
  "pages": [
   1
  ],
@@ -52,12 +52,15 @@
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "\\(^{{*}}\\)Figure excluding Kefala State.",
+  "11-BPR&D/75"
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

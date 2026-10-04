@@ -15,7 +15,7 @@
  "source_sha256": "8d2beabfe4b9ee490af56b63ee4540a59fca94b91b8ae9364c2000c357643408",
  "table_no": "",
  "pdf_title": "APPENDIX-III Statewise Distribution of Suicides By Causes During-1986 40",
- "row_label": "Sl.No. / States / U.Ts. / Cities",
+ "row_label": "Sl. No. / States / U.Ts. / Cities",
  "pages": [
   1,
   2,
@@ -23,9 +23,9 @@
   5,
   7
  ],
- "n_rows": 50,
- "n_cols": 36,
- "n_cells": 1120,
+ "n_rows": 49,
+ "n_cols": 35,
+ "n_cells": 1119,
  "columns": [
   {
    "col_no": "3",
@@ -61,17 +61,17 @@
   },
   {
    "col_no": "7",
-   "name": "Quarrel With Spouse | Male",
+   "name": "With Spouse | Male",
    "header": [
-    "Quarrel With Spouse",
+    "With Spouse",
     "Male"
    ]
   },
   {
    "col_no": "8",
-   "name": "Quarrel With Spouse | Female",
+   "name": "With Spouse | Female",
    "header": [
-    "Quarrel With Spouse",
+    "With Spouse",
     "Female"
    ]
   },
@@ -105,13 +105,6 @@
    "header": [
     "Love Affairs",
     "Female"
-   ]
-  },
-  {
-   "col_no": "2",
-   "name": "State/Union Territories/No. Cities",
-   "header": [
-    "State/Union Territories/No. Cities"
    ]
   },
   {
@@ -192,9 +185,9 @@
   },
   {
    "col_no": "10011",
-   "name": "Bankruptcy Or Sudden Change In Economic Position | Male",
+   "name": "Bankruptcy Or Sudden Change, In Economic Position | Male",
    "header": [
-    "Bankruptcy Or Sudden Change In Economic Position",
+    "Bankruptcy Or Sudden Change, In Economic Position",
     "Male"
    ]
   },
@@ -310,17 +303,17 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 51,
-  "cells_passed": 37,
+  "cells_checked": 53,
+  "cells_passed": 42,
   "failures": [
-   "col 10001 'TOTAL (STATES)': printed 1186, sum 696",
-   "col 10002 'TOTAL (STATES)': printed 698, sum 814",
-   "col 10003 'TOTAL (STATES)': printed 814, sum 343",
-   "col 10004 'TOTAL (STATES)': printed 343, sum 4368",
-   "col 10005 'TOTAL (STATES)': printed 4375, sum 2744",
-   "col 10006 'TOTAL (STATES)': printed 2748, sum 634",
-   "col 10007 'TOTAL (STATES)': printed 634, sum 134",
-   "col 10009 'TOTAL (STATES)': printed 527, sum 526"
+   "col 10001 'TOTAL (STATES)': printed 1186, sum 1182",
+   "col 10002 'TOTAL (STATES)': printed 698, sum 696",
+   "col 10005 'TOTAL (STATES)': printed 4375, sum 4368",
+   "col 10006 'TOTAL (STATES)': printed 2748, sum 2744",
+   "col 10009 'TOTAL (STATES)': printed 527, sum 526",
+   "col 10019 'TOTAL (STATES)': printed 4550, sum 4541",
+   "col 10020 'TOTAL (STATES)': printed 2938, sum 2934",
+   "col 10021 'TOTAL (STATES)': printed 12545, sum 12540"
   ],
   "other_totals_checked": 10,
   "other_totals_passed": 10

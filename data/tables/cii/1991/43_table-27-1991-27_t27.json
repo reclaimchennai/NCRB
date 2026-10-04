@@ -1,0 +1,159 @@
+{
+ "table_id": "cii/1991/43_table-27-1991-27_t27",
+ "publication": "cii",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "43",
+ "title": "Persons Arrested under Different LSL Crimes by Sex in States, UTs & Cities During 1991",
+ "listing_title": "Persons Arrested under Different LSL Crimes by Sex in States, UTs & Cities During 1991",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-27-1991-27.pdf",
+ "source_file": "raw/cii/1991/table_content/table-27-1991-27.pdf",
+ "source_sha256": "643564b70fec20e94d24744ba3edc1eec8818f9f6fbdbe7163b0286b8da4adeb",
+ "table_no": "27",
+ "pdf_title": "",
+ "row_label": "S. S. STATE/UT/CITY NO.",
+ "pages": [
+  6,
+  8,
+  9
+ ],
+ "n_rows": 68,
+ "n_cols": 14,
+ "n_cells": 658,
+ "columns": [
+  {
+   "col_no": "33",
+   "name": "INDIAN PASSPORT | ACT | MALE",
+   "header": [
+    "INDIAN PASSPORT",
+    "ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "FEMALE (34)",
+   "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "TOTAL: (35)",
+   "header": [
+    "TOTAL:"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "ESSENTIAL COMMODITIES | ACT | MALE",
+   "header": [
+    "ESSENTIAL COMMODITIES",
+    "ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "FEMALE (37)",
+   "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "TOTAL: (38)",
+   "header": [
+    "TOTAL:"
+   ]
+  },
+  {
+   "col_no": "45",
+   "name": "DOWRY PROHIBITION | ACT | MALE",
+   "header": [
+    "DOWRY PROHIBITION",
+    "ACT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "46",
+   "name": "FENALE",
+   "header": [
+    "FENALE"
+   ]
+  },
+  {
+   "col_no": "47",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "48",
+   "name": "OTHER | MALE",
+   "header": [
+    "OTHER",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "49",
+   "name": "LSL | FENALE",
+   "header": [
+    "LSL",
+    "FENALE"
+   ]
+  },
+  {
+   "col_no": "50",
+   "name": "CRIMES | TOTAL",
+   "header": [
+    "CRIMES",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "51",
+   "name": "TOTAL COGNIZABLE | UNDER LSL | MALE",
+   "header": [
+    "TOTAL COGNIZABLE",
+    "UNDER LSL",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "52",
+   "name": "CRIMES | FEMAL",
+   "header": [
+    "CRIMES",
+    "FEMAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 42,
+  "cells_passed": 30,
+  "failures": [
+   "col 33 'TOTAL (STATES)': printed 1461, sum 1210",
+   "col 37 'TOTAL (STATES)': printed 35, sum 38",
+   "col 45 'TOTAL (STATES)': printed 3732, sum 2286",
+   "col 46 'TOTAL (STATES)': printed 842, sum 509",
+   "col 47 'TOTAL (STATES)': printed 4574, sum 2795",
+   "col 48 'TOTAL (STATES)': printed 2.59662e+06, sum 2.58746e+06",
+   "col 49 'TOTAL (STATES)': printed 59289, sum 58740",
+   "col 50 'TOTAL (STATES)': printed 2.65591e+06, sum 2.6462e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

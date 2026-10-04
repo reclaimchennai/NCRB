@@ -21,7 +21,7 @@
   2,
   3
  ],
- "n_rows": 50,
+ "n_rows": 49,
  "n_cols": 21,
  "n_cells": 987,
  "columns": [
@@ -197,17 +197,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 63,
-  "cells_passed": 54,
-  "failures": [
-   "col 12 'Total (States)': printed 530, sum 527",
-   "col 14 'Total (States)': printed 706, sum 703",
-   "col 15 'Total (States)': printed 242, sum 240",
-   "col 16 'Total (States)': printed 70, sum 68",
-   "col 17 'Total (States)': printed 312, sum 308",
-   "col 21 'Total (States)': printed 3147, sum 3141",
-   "col 21 'Total (All - India)': printed 3164, sum 3184",
-   "col 22 'Total (States)': printed 1347, sum 1345"
-  ],
+  "cells_passed": 63,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

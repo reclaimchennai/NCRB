@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-25-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-25-1989-1.pdf",
  "source_sha256": "97ca7367a6b754579e47c89a7a6295e0e8e53c2edb26ffb8ed0a78f8a8cfc9e6",
- "table_no": "25",
- "pdf_title": "109 TABLE-25 PERSONS ARRESTED UNDER DIFFERENT LSL CRIMES DURING 1989 AND PERCENTAGE VARIATION IN 1989 OVER 1988 (CRIME-HEAD WISE)",
+ "table_no": "",
+ "pdf_title": "",
  "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
@@ -39,26 +39,28 @@
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE VARIATION IN 1989 OVER 1988",
+   "name": "PERCENTAGE VARIATION IN 1989 OVER 1988 (5)",
    "header": [
     "PERCENTAGE VARIATION IN 1989 OVER 1988"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERCENTAGE SHARE OF CRIME DURING 1989",
+   "name": "PERCENTAGE VARIATION IN 1989 OVER 1988 (6)",
    "header": [
-    "PERCENTAGE SHARE OF CRIME DURING 1989"
+    "PERCENTAGE VARIATION IN 1989 OVER 1988"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "Note: Percentage share less than 0.05 is shown as 0.0"
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -18,7 +18,6 @@
  "row_label": "SL.NO. / STATE/ UT/DISTRICT",
  "pages": [
   1,
-  2,
   3,
   4,
   5,
@@ -42,9 +41,9 @@
   23,
   24
  ],
- "n_rows": 655,
- "n_cols": 107,
- "n_cells": 9270,
+ "n_rows": 607,
+ "n_cols": 115,
+ "n_cells": 8999,
  "columns": [
   {
    "col_no": "3",
@@ -107,66 +106,48 @@
   },
   {
    "col_no": "13",
-   "name": "ROBBERY",
-   "header": [
-    "ROBBERY"
-   ]
+   "name": "col_13",
+   "header": []
   },
   {
    "col_no": "14",
-   "name": "BURGLARY",
-   "header": [
-    "BURGLARY"
-   ]
+   "name": "col_14",
+   "header": []
   },
   {
    "col_no": "15",
-   "name": "THEFT",
-   "header": [
-    "THEFT"
-   ]
+   "name": "col_15",
+   "header": []
   },
   {
    "col_no": "16",
-   "name": "RIOTS",
-   "header": [
-    "RIOTS"
-   ]
+   "name": "col_16",
+   "header": []
   },
   {
    "col_no": "17",
-   "name": "CRIMINAL BREACH OF TRUST",
-   "header": [
-    "CRIMINAL BREACH OF TRUST"
-   ]
+   "name": "col_17",
+   "header": []
   },
   {
    "col_no": "18",
-   "name": "CHEATING",
-   "header": [
-    "CHEATING"
-   ]
+   "name": "col_18",
+   "header": []
   },
   {
    "col_no": "19",
-   "name": "COUNTER-FEITING",
-   "header": [
-    "COUNTER-FEITING"
-   ]
+   "name": "col_19",
+   "header": []
   },
   {
    "col_no": "20",
-   "name": "OTHER IPC CRIMES",
-   "header": [
-    "OTHER IPC CRIMES"
-   ]
+   "name": "col_20",
+   "header": []
   },
   {
    "col_no": "2",
-   "name": "TOTAL COG. CRIMES UNDER IPC",
-   "header": [
-    "TOTAL COG. CRIMES UNDER IPC"
-   ]
+   "name": "col_2",
+   "header": []
   },
   {
    "col_no": "10001",
@@ -617,6 +598,46 @@
    "col_no": "10090",
    "name": "col_10090",
    "header": []
+  },
+  {
+   "col_no": "10091",
+   "name": "col_10091",
+   "header": []
+  },
+  {
+   "col_no": "10092",
+   "name": "col_10092",
+   "header": []
+  },
+  {
+   "col_no": "10093",
+   "name": "col_10093",
+   "header": []
+  },
+  {
+   "col_no": "10094",
+   "name": "col_10094",
+   "header": []
+  },
+  {
+   "col_no": "10095",
+   "name": "col_10095",
+   "header": []
+  },
+  {
+   "col_no": "10096",
+   "name": "col_10096",
+   "header": []
+  },
+  {
+   "col_no": "10097",
+   "name": "col_10097",
+   "header": []
+  },
+  {
+   "col_no": "10098",
+   "name": "col_10098",
+   "header": []
   }
  ],
  "notes": [],
@@ -624,10 +645,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 168,
-  "other_totals_passed": 145
+  "other_totals_checked": 184,
+  "other_totals_passed": 172
  },
  "inferred_pages": 0,
- "ocr_pages": 24,
+ "ocr_pages": 23,
  "warnings": []
 }

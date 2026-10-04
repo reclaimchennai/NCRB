@@ -15,7 +15,7 @@
  "source_sha256": "02b8e5b279f025a678beadfed386b2e5aa30879b99c5526cc1ee2424ae435a12",
  "table_no": "20",
  "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-20",
- "row_label": "SL. NO. / STATE/UT",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
@@ -40,54 +40,58 @@
   },
   {
    "col_no": "5",
-   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONV/CTED",
    "header": [
     "NO. OF CASES",
-    "IN WHICH TRIALS WERE COMPLETED"
+    "IN WHICH TRIALS WERE COMPLETED",
+    "CONV/CTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES | ACQUIT- TED OR DIS- CHARGED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUIT- TED OR DIS- CHARGED",
    "header": [
     "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
     "ACQUIT- TED OR DIS- CHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. OF CASES | TOTAL ((5)-(6))",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL ((5) - (6))",
    "header": [
     "NO. OF CASES",
-    "TOTAL ((5)-(6))"
+    "IN WHICH TRIALS WERE COMPLETED",
+    "TOTAL ((5) - (6))"
    ]
   },
   {
    "col_no": "8",
+   "name": "NO. OF CASES | PENDING TRIAL",
+   "header": [
+    "NO. OF CASES",
+    "PENDING TRIAL"
+   ]
+  },
+  {
+   "col_no": "9",
    "name": "PENDENCY PERCEN TAGE",
    "header": [
     "PENDENCY PERCEN TAGE"
    ]
   },
   {
-   "col_no": "9",
-   "name": "PERCEN TAGE OF PENDENCY TO ALL-INDIA TOTAL",
-   "header": [
-    "PERCEN TAGE OF PENDENCY TO ALL-INDIA TOTAL"
-   ]
-  },
-  {
    "col_no": "10",
-   "name": "CONVIC TION RATE ((5)/(7)) X 100",
+   "name": "PERCEN TAGE OF PENDENCY TO ALL INDIA TOTAL",
    "header": [
-    "CONVIC TION RATE ((5)/(7)) X 100"
+    "PERCEN TAGE OF PENDENCY TO ALL INDIA TOTAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "PENDING TRIAL",
+   "name": "CONVIC TION RATE ((5)/(7)) X 100",
    "header": [
-    "PENDING TRIAL"
+    "CONVIC TION RATE ((5)/(7)) X 100"
    ]
   }
  ],
@@ -96,7 +100,7 @@
   "cells_checked": 18,
   "cells_passed": 16,
   "failures": [
-   "col 5 'TOTAL (STATES)': printed 309379, sum 308876",
+   "col 5 'TOTAL (STATES)': printed 309379, sum 308879",
    "col 8 'TOTAL (STATES)': printed 4.1198e+06, sum 4.08981e+06"
   ],
   "other_totals_checked": 0,

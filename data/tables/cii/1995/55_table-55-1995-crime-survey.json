@@ -82,10 +82,10 @@
   },
   {
    "col_no": "10",
-   "name": "BY FAMILY BACKGROUND | HOME LESS",
+   "name": "BY FAMILY BACKGROUND | HOME-LESS",
    "header": [
     "BY FAMILY BACKGROUND",
-    "HOME LESS"
+    "HOME-LESS"
    ]
   },
   {
@@ -164,11 +164,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 24,
-  "cells_passed": 22,
-  "failures": [
-   "col 5 'TOTAL (UTS)': printed 386, sum 396",
-   "col 5 'TOTAL (ALL-INDIA)': printed 3647, sum 3637"
-  ],
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

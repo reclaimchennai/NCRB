@@ -6,50 +6,74 @@
  "topic": "",
  "section": "",
  "serial": "6",
- "title": "RATE OF CRIME AGAINST CHILDREN DURING 2008 (All India 2.0)",
+ "title": "Crime Head Wise Incidence of Crime against Children During 2004-2008",
  "listing_title": "Crime Against Children",
- "method": "pdf_text",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-6_2008.pdf",
  "source_file": "raw/cii/2008/table_chapter/chapter-6_2008.pdf",
  "source_sha256": "7d22e908812ab85d12e5fc91baeb3326bbf61fd4c0ced82324051edc4c84911b",
  "table_no": "",
- "pdf_title": "RATE OF CRIME AGAINST CHILDREN DURING 2008 (All India 2.0)",
+ "pdf_title": "Crime Head Wise Incidence of Crime against Children During 2004-2008",
  "row_label": "",
  "pages": [
-  4
+  9
  ],
- "n_rows": 31,
- "n_cols": 4,
- "n_cells": 41,
+ "n_rows": 7,
+ "n_cols": 7,
+ "n_cells": 49,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "Murder",
+   "header": [
+    "Murder"
+   ]
   },
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Infanticide",
+   "header": [
+    "Infanticide"
+   ]
   },
   {
    "col_no": "4",
-   "name": "Jammu & Kashmir",
+   "name": "Rape",
    "header": [
-    "Jammu & Kashmir"
+    "Rape"
    ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Kidnapping & Abduction",
+   "header": [
+    "Kidnapping & Abduction"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Abatement of Suicide",
+   "header": [
+    "Abatement of Suicide"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Exposure & Abandonment",
+   "header": [
+    "Exposure & Abandonment"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Procuration of Minor Girls",
+   "header": [
+    "Procuration of Minor Girls"
+   ]
   }
  ],
- "notes": [
-  "Note:",
-  "Rate of Crime against Children means no. of crimes against children per one lakh population."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -57,7 +81,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 0,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1961",
  "serial": "1",
- "title": "5 ZABLE CRIME",
+ "title": "FOR 1961 SHOWING STATE-WISE BREAK UP",
  "listing_title": "Chapter",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,64 +14,68 @@
  "source_file": "raw/cii/1961/year_wise/1689774084SurverOfCrime.pdf",
  "source_sha256": "f9e87b72c9599d6eee920b83e3550f13cea3ea506e0a78928544b95fdd932f94",
  "table_no": "",
- "pdf_title": "5 ZABLE CRIME",
- "row_label": "Average of 1958-1960",
+ "pdf_title": "FOR 1961 SHOWING STATE-WISE BREAK UP",
+ "row_label": "Robbery",
  "pages": [
-  5,
-  5,
-  5,
-  5,
-  5,
-  5,
-  5
+  17
  ],
- "n_rows": 21,
- "n_cols": 6,
- "n_cells": 113,
+ "n_rows": 35,
+ "n_cols": 7,
+ "n_cells": 245,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "House-breaking",
+   "header": [
+    "House-breaking"
+   ]
   },
   {
    "col_no": "3",
-   "name": "1961",
+   "name": "Thefts",
    "header": [
-    "1961"
+    "Thefts"
    ]
   },
   {
    "col_no": "4",
-   "name": "Increase or decrease over triennial average (4)",
+   "name": "Riots",
    "header": [
-    "Increase or decrease over triennial average"
+    "Riots"
    ]
   },
   {
    "col_no": "5",
-   "name": "Increase or decrease over triennial average (5)",
+   "name": "Criminal breach of Trust",
    "header": [
-    "Increase or decrease over triennial average"
+    "Criminal breach of Trust"
    ]
   },
   {
    "col_no": "6",
-   "name": "Percentage increase or decrease",
+   "name": "Cheating",
    "header": [
-    "Percentage increase or decrease"
+    "Cheating"
    ]
   },
   {
    "col_no": "7",
-   "name": "110·7 | 96·1",
+   "name": "Counter-feiting",
    "header": [
-    "110·7",
-    "96·1"
+    "Counter-feiting"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Miscellaneous",
+   "header": [
+    "Miscellaneous"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "M/B180MofHA-3(a)"
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -80,6 +84,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 7,
+ "ocr_pages": 1,
  "warnings": []
 }

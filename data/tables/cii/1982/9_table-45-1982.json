@@ -1,0 +1,171 @@
+{
+ "table_id": "cii/1982/9_table-45-1982",
+ "publication": "cii",
+ "year": 1982,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "9",
+ "title": "Particulars of Juvenile Arrested under IPC Crimes and Offences under Local and Special Laws During 1982",
+ "listing_title": "Particulars of Juvenile Arrested under IPC Crimes and Offences under Local and Special Laws During 1982",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-45-1982.pdf",
+ "source_file": "raw/cii/1982/table_content/table-45-1982.pdf",
+ "source_sha256": "50f732815a0d2c921414c632b08413cbe74c368f5521aa8d2c30fd7dfb630f44",
+ "table_no": "45",
+ "pdf_title": "112 TABLE 45",
+ "row_label": "Sl. No. / States/UTs/Cities",
+ "pages": [
+  2,
+  2,
+  2,
+  2,
+  3,
+  4,
+  4,
+  4
+ ],
+ "n_rows": 65,
+ "n_cols": 15,
+ "n_cells": 835,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "BY RELIGION | Hindu",
+   "header": [
+    "BY RELIGION",
+    "Hindu"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BY RELIGION | Muslim",
+   "header": [
+    "BY RELIGION",
+    "Muslim"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BY RELIGION | Sikh",
+   "header": [
+    "BY RELIGION",
+    "Sikh"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "BY RELIGION | Christian",
+   "header": [
+    "BY RELIGION",
+    "Christian"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "BY COMMUNITY | Other",
+   "header": [
+    "BY COMMUNITY",
+    "Other"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "BY COMMUNITY | Total",
+   "header": [
+    "BY COMMUNITY",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "BY COMMUNITY | Scheduled Caste",
+   "header": [
+    "BY COMMUNITY",
+    "Scheduled Caste"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "BY COMMUNITY | Schule Trib",
+   "header": [
+    "BY COMMUNITY",
+    "Schule Trib"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "BY EDUCATION | Other",
+   "header": [
+    "BY EDUCATION",
+    "Other"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "BY EDUCATION | Total",
+   "header": [
+    "BY EDUCATION",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BY EDUCATION | Illiterate",
+   "header": [
+    "BY EDUCATION",
+    "Illiterate"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "BY EDUCATION | Below Primary",
+   "header": [
+    "BY EDUCATION",
+    "Below Primary"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Above Prima-ry but below Matric/ above] Hr.Sec.",
+   "header": [
+    "Above Prima-ry but below Matric/ above] Hr.Sec."
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Matric Hr.Sec.",
+   "header": [
+    "Matric Hr.Sec."
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 50,
+  "cells_passed": 41,
+  "failures": [
+   "col 3 'TOTAL (CITIES) .': printed 25490, sum 22675",
+   "col 4 'TOTAL (CITIES) .': printed 6091, sum 4926",
+   "col 5 'TOTAL (CITIES) .': printed 556, sum 443",
+   "col 6 'TOTAL (CITIES) .': printed 2084, sum 1995",
+   "col 6 'TOTAL (STATES) .': printed 114999, sum 14999",
+   "col 7 'TOTAL (STATES) .': printed 1.16279e+06, sum 162789",
+   "col 8 'TOTAL (STATES) .': printed 196114, sum 96114",
+   "col 10 'TOTAL (CITIES) .': printed 7768, sum 6649"
+  ],
+  "other_totals_checked": 11,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 8,
+ "warnings": []
+}

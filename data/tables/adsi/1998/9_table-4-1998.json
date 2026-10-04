@@ -13,14 +13,14 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-4_1998.pdf",
  "source_file": "raw/adsi/1998/table_content/table-4_1998.pdf",
  "source_sha256": "e7528840b33e247d99a5eb6627220aa5562355ac62ec6189b6a7a6c83c843e06",
- "table_no": "4",
- "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) TABLE-4",
+ "table_no": "",
+ "pdf_title": "",
  "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2
  ],
- "n_rows": 118,
+ "n_rows": 114,
  "n_cols": 24,
  "n_cells": 1416,
  "columns": [
@@ -34,25 +34,22 @@
   },
   {
    "col_no": "4",
-   "name": "Upto 14 Years | Female",
+   "name": "Female (4)",
    "header": [
-    "Upto 14 Years",
     "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "Upto 14 Years | Total",
+   "name": "Total (5)",
    "header": [
-    "Upto 14 Years",
     "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "Upto 14 Years | % to Total (Col.5/Col. 25)*100",
+   "name": "% to Total (Col.5/Col. 25)*100",
    "header": [
-    "Upto 14 Years",
     "% to Total (Col.5/Col. 25)*100"
    ]
   },
@@ -66,26 +63,23 @@
   },
   {
    "col_no": "8",
-   "name": "15-29 Years | Female",
+   "name": "Female (8)",
    "header": [
-    "15-29 Years",
     "Female"
    ]
   },
   {
    "col_no": "9",
-   "name": "15-29 Years | Total",
+   "name": "Total (9)",
    "header": [
-    "15-29 Years",
     "Total"
    ]
   },
   {
    "col_no": "10",
-   "name": "15-29 Years | % to Total (Col.9/Col. 25) *100",
+   "name": "% to Total (Col.9/Col. 25)*100",
    "header": [
-    "15-29 Years",
-    "% to Total (Col.9/Col. 25) *100"
+    "% to Total (Col.9/Col. 25)*100"
    ]
   },
   {
@@ -98,26 +92,23 @@
   },
   {
    "col_no": "12",
-   "name": "30-44 Years | Female",
+   "name": "Female (12)",
    "header": [
-    "30-44 Years",
     "Female"
    ]
   },
   {
    "col_no": "13",
-   "name": "30-44 Years | Total",
+   "name": "Total (13)",
    "header": [
-    "30-44 Years",
     "Total"
    ]
   },
   {
    "col_no": "14",
-   "name": "30-44 Years | % to Total (Col.13/ Col. 25) *100",
+   "name": "% to Total (Col.13/ Col.25)*100",
    "header": [
-    "30-44 Years",
-    "% to Total (Col.13/ Col. 25) *100"
+    "% to Total (Col.13/ Col.25)*100"
    ]
   },
   {
@@ -130,26 +121,23 @@
   },
   {
    "col_no": "16",
-   "name": "45-59 Years | Female",
+   "name": "Female (16)",
    "header": [
-    "45-59 Years",
     "Female"
    ]
   },
   {
    "col_no": "17",
-   "name": "45-59 Years | Total",
+   "name": "Total (17)",
    "header": [
-    "45-59 Years",
     "Total"
    ]
   },
   {
    "col_no": "18",
-   "name": "45-59 Years | % to Total (Col. 17/ Col. 25) *100",
+   "name": "% to Total (Col.17/ Col.25) *100",
    "header": [
-    "45-59 Years",
-    "% to Total (Col. 17/ Col. 25) *100"
+    "% to Total (Col.17/ Col.25) *100"
    ]
   },
   {
@@ -162,26 +150,23 @@
   },
   {
    "col_no": "20",
-   "name": "60 Years & above | Female",
+   "name": "Female (20)",
    "header": [
-    "60 Years & above",
     "Female"
    ]
   },
   {
    "col_no": "21",
-   "name": "60 Years & above | Total",
+   "name": "Total (21)",
    "header": [
-    "60 Years & above",
     "Total"
    ]
   },
   {
    "col_no": "22",
-   "name": "60 Years & above | % to Total (Col. 21/ Col. 25) *100",
+   "name": "% to Total (Col.21/ Col.25) *100",
    "header": [
-    "60 Years & above",
-    "% to Total (Col. 21/ Col. 25) *100"
+    "% to Total (Col.21/ Col.25) *100"
    ]
   },
   {
@@ -194,42 +179,39 @@
   },
   {
    "col_no": "24",
-   "name": "Total | Female",
+   "name": "Female (24)",
    "header": [
-    "Total",
     "Female"
    ]
   },
   {
    "col_no": "25",
-   "name": "Total | Total",
+   "name": "Total (25)",
    "header": [
-    "Total",
     "Total"
    ]
   },
   {
    "col_no": "26",
-   "name": "Total | Male % (Col. 23/ Col. 25) *100",
+   "name": "Male % (Col.23/ Col.25) *100",
    "header": [
-    "Total",
-    "Male % (Col. 23/ Col. 25) *100"
+    "Male % (Col.23/ Col.25) *100"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 45,
-  "cells_passed": 34,
+  "cells_passed": 37,
   "failures": [
-   "col 3 'otal (All-India)': printed 14576, sum 29152",
-   "col 4 'otal (All-India)': printed 7911, sum 15832",
-   "col 5 'otal (All-India)': printed 22487, sum 44974",
-   "col 7 'otal (All-India)': printed 50451, sum 100902",
-   "col 8 'otal (All-India)': printed 26271, sum 52542",
-   "col 9 'otal (All-India)': printed 76722, sum 153444",
-   "col 11 'otal (All-India)': printed 62757, sum 125514",
-   "col 12 'otal (All-India)': printed 22046, sum 44092"
+   "col 4 'total (Cities)': printed 656, sum 655",
+   "col 5 'total (All-India)': printed 22467, sum 22487",
+   "col 7 'total (Cities)': printed 6455, sum 6447",
+   "col 11 'total (Cities)': printed 8410, sum 8400",
+   "col 19 'total (All-India)': printed 17782, sum 17762",
+   "col 20 'total (All-India)': printed 5714, sum 5704",
+   "col 23 'total (All-India)': printed 185520, sum 185530",
+   "col 24 'total (All-India)': printed 72889, sum 8719"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

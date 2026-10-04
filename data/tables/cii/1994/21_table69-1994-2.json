@@ -20,7 +20,7 @@
   1,
   2
  ],
- "n_rows": 41,
+ "n_rows": 37,
  "n_cols": 28,
  "n_cells": 980,
  "columns": [
@@ -105,25 +105,25 @@
   },
   {
    "col_no": "13",
-   "name": "..RSON | I",
+   "name": "RSON | I",
    "header": [
-    "..RSON",
+    "RSON",
     "I"
    ]
   },
   {
    "col_no": "14",
-   "name": "..RSON | R",
+   "name": "RSON | R",
    "header": [
-    "..RSON",
+    "RSON",
     "R"
    ]
   },
   {
    "col_no": "15",
-   "name": "..RSON | P",
+   "name": "RSON | P",
    "header": [
-    "..RSON",
+    "RSON",
     "P"
    ]
   },
@@ -251,16 +251,13 @@
  "notes": [],
  "checks": {
   "cells_checked": 27,
-  "cells_passed": 19,
+  "cells_passed": 22,
   "failures": [
    "col 16 'TOTAL (STATES)': printed 43, sum 35",
-   "col 16 'TOTAL (UTs)': printed 1, sum 0",
    "col 19 'TOTAL (STATES)': printed 328, sum 126",
    "col 22 'TOTAL (STATES)': printed 150, sum 114",
-   "col 25 'TOTAL (STATES)': printed 2959, sum 1710",
-   "col 25 'TOTAL (UTs)': printed 10, sum 0",
-   "col 28 'TOTAL (STATES)': printed 3641, sum 2104",
-   "col 28 'TOTAL (UTs)': printed 11, sum 0"
+   "col 25 'TOTAL (STATES)': printed 2959, sum 1712",
+   "col 28 'TOTAL (STATES)': printed 3641, sum 2106"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

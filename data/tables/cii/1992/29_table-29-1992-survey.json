@@ -8,52 +8,45 @@
  "serial": "29",
  "title": "Persons Arrested per Case under IPC and LSL Crimes 1988-1992",
  "listing_title": "Persons Arrested per Case under IPC and LSL Crimes 1988-1992",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-29-1992-survey.pdf",
  "source_file": "raw/cii/1992/table_content/table-29-1992-survey.pdf",
  "source_sha256": "afaf42ab69d23c2dcd71c5ba4c89c927e46319a26d39c371fe0c06bf167bae1f",
- "table_no": "29",
- "pdf_title": "PERSONS APPESTEN PER CASE UNDER IPC AND LSL CRIMES",
- "row_label": "1988-1992 SL. NO. / 1988-1992 CRIME / 1988-1992 HEAD RUS",
+ "table_no": "",
+ "pdf_title": "NO",
+ "row_label": "",
  "pages": [
   1
  ],
  "n_rows": 35,
- "n_cols": 4,
- "n_cells": 134,
+ "n_cols": 5,
+ "n_cells": 175,
  "columns": [
   {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
+  },
+  {
    "col_no": "4",
-   "name": "1988-1992 | 1988",
-   "header": [
-    "1988-1992",
-    "1988"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "1988-1992 | 1989",
-   "header": [
-    "1988-1992",
-    "1989"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "1988-1992 | 1990",
-   "header": [
-    "1988-1992",
-    "1990"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "1988-1992 | 1991 1992 SR",
-   "header": [
-    "1988-1992",
-    "1991 1992 SR"
-   ]
+   "name": "col_7",
+   "header": []
   }
  ],
  "notes": [],

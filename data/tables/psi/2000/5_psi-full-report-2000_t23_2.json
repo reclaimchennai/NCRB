@@ -20,7 +20,7 @@
   113,
   114
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 21,
  "n_cells": 735,
  "columns": [
@@ -54,9 +54,9 @@
   },
   {
    "col_no": "7",
-   "name": "PROH-BITION ACT",
+   "name": "PROHIBITION ACT",
    "header": [
-    "PROH-BITION ACT"
+    "PROHIBITION ACT"
    ]
   },
   {
@@ -175,16 +175,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 63,
-  "cells_passed": 56,
-  "failures": [
-   "col 14 'TOTAL (STATES)': printed 266, sum 259",
-   "col 16 'TOTAL (STATES)': printed 2949, sum 2882",
-   "col 18 'TOTAL (STATES)': printed 77, sum 61",
-   "col 19 'TOTAL (STATES)': printed 200, sum 197",
-   "col 21 'TOTAL (STATES)': printed 178, sum 175",
-   "col 22 'TOTAL (STATES)': printed 6709, sum 6440",
-   "col 23 'TOTAL (STATES)': printed 35908, sum 34394"
-  ],
+  "cells_passed": 63,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

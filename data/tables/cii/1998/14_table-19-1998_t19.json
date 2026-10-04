@@ -32,30 +32,34 @@
   },
   {
    "col_no": "4",
-   "name": "INVESTIGATION WAS COMPLETED (4)",
+   "name": "INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC.",
    "header": [
-    "INVESTIGATION WAS COMPLETED"
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC."
    ]
   },
   {
    "col_no": "5",
-   "name": "INVESTIGATION WAS COMPLETED (5)",
+   "name": "INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
-    "INVESTIGATION WAS COMPLETED"
+    "INVESTIGATION WAS COMPLETED",
+    "FINAL REPORT TRUE SUBMITTED"
    ]
   },
   {
    "col_no": "6",
-   "name": "INVESTIGATION WAS COMPLETED (6)",
+   "name": "INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERÉ SUBMITTED",
    "header": [
-    "INVESTIGATION WAS COMPLETED"
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE SHEETS WERÉ SUBMITTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "INVESTIGATION WAS COMPLETED (7)",
+   "name": "INVESTIGATION WAS COMPLETED | TOTAL {(4) + (5) + (6)}",
    "header": [
-    "INVESTIGATION WAS COMPLETED"
+    "INVESTIGATION WAS COMPLETED",
+    "TOTAL {(4) + (5) + (6)}"
    ]
   },
   {
@@ -67,9 +71,9 @@
   },
   {
    "col_no": "9",
-   "name": "CHARGE-SHEETING RATE [(6)/(5) + (6)] X 100",
+   "name": "CHARGE-SHEETING RATE {(6)/(15) + (6)} X 100",
    "header": [
-    "CHARGE-SHEETING RATE [(6)/(5) + (6)] X 100"
+    "CHARGE-SHEETING RATE {(6)/(15) + (6)} X 100"
    ]
   }
  ],

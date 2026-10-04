@@ -15,20 +15,20 @@
  "source_sha256": "4bc660023fe5cd0a42e81cf72bab65c054b95ec538c49356ee7841b12040dcf7",
  "table_no": "93",
  "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-93",
- "row_label": "SL NO. / STATE/UT/CITY",
+ "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
- "n_rows": 40,
+ "n_rows": 35,
  "n_cols": 23,
  "n_cells": 790,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERSONS IN CUST. BAIL DURING INVE- STIGATIO AT BEG- NNING OF THE YEAR",
+   "name": "PERSONS IN CUST./BAIL DURING INVESTIGATION AT BEGINNING OF THE YEAR",
    "header": [
-    "PERSONS IN CUST. BAIL DURING INVE- STIGATIO AT BEG- NNING OF THE YEAR"
+    "PERSONS IN CUST./BAIL DURING INVESTIGATION AT BEGINNING OF THE YEAR"
    ]
   },
   {
@@ -40,16 +40,16 @@
   },
   {
    "col_no": "5",
-   "name": "PERSONS RELEASED BY POLI- CE/COURT BEFORE TRIAL",
+   "name": "PERSONS RELEASED BY POLICE/COURT BEFORE TRIAL",
    "header": [
-    "PERSONS RELEASED BY POLI- CE/COURT BEFORE TRIAL"
+    "PERSONS RELEASED BY POLICE/COURT BEFORE TRIAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERSONS IN CUST. ODY/BAIL DURING INVESTI- GATION AT THE END OF YEAR",
+   "name": "PERSONS IN CUST.ODY/BAIL DURING INVESTIGATION AT THE END OF YEAR",
    "header": [
-    "PERSONS IN CUST. ODY/BAIL DURING INVESTI- GATION AT THE END OF YEAR"
+    "PERSONS IN CUST.ODY/BAIL DURING INVESTIGATION AT THE END OF YEAR"
    ]
   },
   {
@@ -61,9 +61,9 @@
   },
   {
    "col_no": "8",
-   "name": "PERSONS UNDER TRIAL AT THE BEG- NNING OF THE YEAR",
+   "name": "PERSONS UNDER TRIAL AT THE BEGINNING OF THE YEAR",
    "header": [
-    "PERSONS UNDER TRIAL AT THE BEG- NNING OF THE YEAR"
+    "PERSONS UNDER TRIAL AT THE BEGINNING OF THE YEAR"
    ]
   },
   {
@@ -75,30 +75,30 @@
   },
   {
    "col_no": "10",
-   "name": "NO. OF PERSONS WHOSE CASES WITH DRAWN OR OTHER WISE DISPO- SED OF",
+   "name": "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DISPOSED OF",
    "header": [
-    "NO. OF PERSONS WHOSE CASES WITH DRAWN OR OTHER WISE DISPO- SED OF"
+    "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DISPOSED OF"
    ]
   },
   {
    "col_no": "11",
-   "name": "PERSONS IN CUS TODY BAIL DURING TRIAL AT THE END OF THE YEAR",
+   "name": "PERSONS IN CUS-TODY/ BAIL DURING TRIAL AT THE END OF THE YEAR",
    "header": [
-    "PERSONS IN CUS TODY BAIL DURING TRIAL AT THE END OF THE YEAR"
+    "PERSONS IN CUS-TODY/ BAIL DURING TRIAL AT THE END OF THE YEAR"
    ]
   },
   {
    "col_no": "12",
-   "name": "PERSONS IN WHOSE CASES TRIAL COMPL ETED",
+   "name": "PERSONS IN WHOSE CASES TRIAL COMPLETED",
    "header": [
-    "PERSONS IN WHOSE CASES TRIAL COMPL ETED"
+    "PERSONS IN WHOSE CASES TRIAL COMPLETED"
    ]
   },
   {
    "col_no": "13",
-   "name": "PERSONS CONVIC TED",
+   "name": "PERSONS CCNVIC.TED",
    "header": [
-    "PERSONS CONVIC TED"
+    "PERSONS CCNVIC.TED"
    ]
   },
   {
@@ -110,9 +110,9 @@
   },
   {
    "col_no": "15",
-   "name": "PERCENTAGE OF PERSONS CONVIC TED TO TRIAL COMPLE TED",
+   "name": "PERCENTAGE OF PERSONS CONVIC.TED TO TRIAL COMPLETED",
    "header": [
-    "PERCENTAGE OF PERSONS CONVIC TED TO TRIAL COMPLE TED"
+    "PERCENTAGE OF PERSONS CONVIC.TED TO TRIAL COMPLETED"
    ]
   },
   {
@@ -179,9 +179,9 @@
   },
   {
    "col_no": "24",
-   "name": "NON GAZETTED OR EQUAL STATUS OFFICERS IN GOVT. OR PUBLIC UNDER TAKING INVOLVED",
+   "name": "NON GAZETTED OR EQUAL STATUS OFFICERS IN GOVT. OR PUBLIC UNDER-TAKING INVOLVED",
    "header": [
-    "NON GAZETTED OR EQUAL STATUS OFFICERS IN GOVT. OR PUBLIC UNDER TAKING INVOLVED"
+    "NON GAZETTED OR EQUAL STATUS OFFICERS IN GOVT. OR PUBLIC UNDER-TAKING INVOLVED"
    ]
   },
   {
@@ -194,17 +194,10 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 66,
-  "cells_passed": 55,
+  "cells_checked": 65,
+  "cells_passed": 64,
   "failures": [
-   "col 16 'TOTAL (STATES)': printed 292, sum 283",
-   "col 16 'TOTAL (UTs)': printed 3, sum 1",
-   "col 18 'TOTAL (STATES)': printed 27, sum 6",
-   "col 19 'TOTAL (STATES)': printed 14, sum 4",
-   "col 20 'TOTAL (STATES)': printed 53, sum 42",
-   "col 21 'TOTAL (STATES)': printed 76, sum 61",
-   "col 23 'TOTAL (STATES)': printed 741, sum 726",
-   "col 24 'TOTAL (STATES)': printed 1228, sum 1185"
+   "col 13 'TOTAL (STATES)': printed 311, sum 309"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

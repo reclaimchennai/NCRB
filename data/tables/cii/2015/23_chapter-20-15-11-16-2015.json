@@ -8,29 +8,96 @@
  "serial": "23",
  "title": "crime Against Senior citizen",
  "listing_title": "crime Against Senior citizen",
- "method": "pdf_text",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-20-15.11.16_2015.pdf",
  "source_file": "raw/cii/2015/table_chapter/chapter-20-15.11.16_2015.pdf",
  "source_sha256": "6e7ed4ee3f11c04120dad6544f09a5ad39c02a34248af3c129ccd18bfc56a336",
  "table_no": "",
- "pdf_title": "CASES REGISTERED UNDER CRIME AGAINST SENIOR CITIZENS DURING 2015 (All India 20,532) Number of Registered Cases",
- "row_label": "NIL",
+ "pdf_title": "Offence-wise Cases Registered under Crimes Against Senior Citizens During 2015",
+ "row_label": "Other IPC Crimes",
  "pages": [
-  2
+  4
  ],
- "n_rows": 5,
- "n_cols": 1,
- "n_cells": 5,
+ "n_rows": 1,
+ "n_cols": 10,
+ "n_cells": 10,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "col_no": "4",
+   "name": "Robbery",
+   "header": [
+    "Robbery"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Murder",
+   "header": [
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Grievous Hurt",
+   "header": [
+    "Grievous Hurt"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Attempt to Commit Murder",
+   "header": [
+    "Attempt to Commit Murder"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Attempt to Culpable Homicide",
+   "header": [
+    "Attempt to Culpable Homicide"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Culpable Homicide not Amounting to Murder",
+   "header": [
+    "Culpable Homicide not Amounting to Murder"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Rape",
+   "header": [
+    "Rape"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Dacoity",
+   "header": [
+    "Dacoity"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Extortion",
+   "header": [
+    "Extortion"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Making Preparation and Assembly for Committing Dacoity",
+   "header": [
+    "Making Preparation and Assembly for Committing Dacoity"
+   ]
   }
  ],
  "notes": [
-  "Map powered by DevInfo, UNICEF"
+  "Persons Arrested for Committing Crimes against Senior Citizens during 2015",
+  "Crime Head",
+  "Crime in India-2015"
  ],
  "checks": {
   "cells_checked": 0,
@@ -39,7 +106,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 0,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

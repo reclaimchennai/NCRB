@@ -8,85 +8,261 @@
  "serial": "42",
  "title": "Juvenile Delinquency for Important Heads of Crime under I.P.C. During the Year - 1982",
  "listing_title": "Juvenile Delinquency for Important Heads of Crime under I.P.C. During the Year - 1982",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-33-1982.pdf",
  "source_file": "raw/cii/1982/table_content/table-33-1982.pdf",
  "source_sha256": "716ef882a87fbe9eab828a6082c5a7c7c9798fef1118c7ee908b408f26939062",
  "table_no": "33",
- "pdf_title": "",
- "row_label": "States/U.Ts,/Cities STATES",
+ "pdf_title": "90 TABLE 33 JUVENILE DELINQUENCY FOR IMPORTANT HEADS OF CRIME UNDER I.P.C. DURING THE YEAR—1982",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
  "pages": [
+  1,
+  1,
+  2,
+  2,
   2
  ],
- "n_rows": 42,
- "n_cols": 6,
- "n_cells": 217,
+ "n_rows": 46,
+ "n_cols": 13,
+ "n_cells": 341,
  "columns": [
   {
-   "col_no": "2",
-   "name": "IPC Cognivzable Offences reported | Thefts",
-   "header": [
-    "IPC Cognivzable Offences reported",
-    "Thefts"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "IPC Cognivzable Offences reported | Ridts",
+   "name": "IPC Cognizable Offences reported | Murder",
    "header": [
-    "IPC Cognivzable Offences reported",
-    "Ridts"
+    "IPC Cognizable Offences reported",
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "IPC Cognivzable Offences reported | Criminal Breach of trust",
+   "name": "IPC Cognizable Offences reported | Culpable Homicide not amounting to murder",
    "header": [
-    "IPC Cognivzable Offences reported",
-    "Criminal Breach of trust"
+    "IPC Cognizable Offences reported",
+    "Culpable Homicide not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "IPC Cognivzable Offences reported | Cheating",
+   "name": "IPC Cognizable Offences reported | Rape",
    "header": [
-    "IPC Cognivzable Offences reported",
-    "Cheating"
+    "IPC Cognizable Offences reported",
+    "Rape"
    ]
   },
   {
    "col_no": "6",
-   "name": "IPC Cognivzable Offences reported | Counterfeiting",
+   "name": "IPC Cognizable Offences reported | Kidnapping & Abduction",
    "header": [
-    "IPC Cognivzable Offences reported",
-    "Counterfeiting"
+    "IPC Cognizable Offences reported",
+    "Kidnapping & Abduction"
    ]
   },
   {
    "col_no": "7",
-   "name": "IPC Cognivzable Offences reported | - Total-cog. crime under IPC",
+   "name": "IPC Cognizable Offences reported | Dacoity",
    "header": [
-    "IPC Cognivzable Offences reported",
-    "- Total-cog. crime under IPC"
+    "IPC Cognizable Offences reported",
+    "Dacoity"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "IPC Cognizable Offences reported | Robbery",
+   "header": [
+    "IPC Cognizable Offences reported",
+    "Robbery"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "IPC Cognizable Offences reported | Burglary",
+   "header": [
+    "IPC Cognizable Offences reported",
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "388 | 1,079 | 448 | 1,551. | 212 | 43 | 75 | 460 | 59 | 1,749 | 4,405 | 64 | 40 | 34 | 261 | 45 | 417 | 19 | 1,541 | 5 | 33 | 489",
+   "header": [
+    "388",
+    "1,079",
+    "448",
+    "1,551.",
+    "212",
+    "43",
+    "75",
+    "460",
+    "59",
+    "1,749",
+    "4,405",
+    "64",
+    "40",
+    "34",
+    "261",
+    "45",
+    "417",
+    "19",
+    "1,541",
+    "5",
+    "33",
+    "489"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "51 | 1,241 | 471 | 745 | 43 | 60 | 472 | 386 | 63 | 901 | 4,489 | 48 | 12 | .. | .. | .. | 809 | 1 | 141 | 2 | 1 | 830",
+   "header": [
+    "51",
+    "1,241",
+    "471",
+    "745",
+    "43",
+    "60",
+    "472",
+    "386",
+    "63",
+    "901",
+    "4,489",
+    "48",
+    "12",
+    "..",
+    "..",
+    "..",
+    "809",
+    "1",
+    "141",
+    "2",
+    "1",
+    "830"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "1 | 32 | .. | 62 | 5 | 1 | 4 | 5 | .. | 36 | 53 | .. | .. | .. | 1 | .. | 5 | .. | 7 | .. | 1 | 4",
+   "header": [
+    "1",
+    "32",
+    "..",
+    "62",
+    "5",
+    "1",
+    "4",
+    "5",
+    "..",
+    "36",
+    "53",
+    "..",
+    "..",
+    "..",
+    "1",
+    "..",
+    "5",
+    "..",
+    "7",
+    "..",
+    "1",
+    "4"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": ".. | 27 | 1 | 62 | 5 | 2 | 10 | 14 | 1 | 43 | 99 | 5 | .. | .. | 1 | .. | 42 | .. | .. | .. | 1 | 12",
+   "header": [
+    "..",
+    "27",
+    "1",
+    "62",
+    "5",
+    "2",
+    "10",
+    "14",
+    "1",
+    "43",
+    "99",
+    "5",
+    "..",
+    "..",
+    "1",
+    "..",
+    "42",
+    "..",
+    "..",
+    "..",
+    "1",
+    "12"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": ".. | .. | .. | .. | .. | .. | .. | .. | .. | .. | .. | .. | .. | .. | .. | .. | .. | .. | .. | .. | 1 | ..",
+   "header": [
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "..",
+    "1",
+    ".."
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "937 | 4,353 | 1,496 | 7,696 | 479 | 450 | 700 | 1,965 | 242 | 9,853 | 19,278 | 326 | 70 | 87 | 417 | 551 | 2,925 | 30 | 2,585 | 10 | 62 | 3,318",
+   "header": [
+    "937",
+    "4,353",
+    "1,496",
+    "7,696",
+    "479",
+    "450",
+    "700",
+    "1,965",
+    "242",
+    "9,853",
+    "19,278",
+    "326",
+    "70",
+    "87",
+    "417",
+    "551",
+    "2,925",
+    "30",
+    "2,585",
+    "10",
+    "62",
+    "3,318"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 5,
-  "cells_passed": 0,
+  "cells_checked": 14,
+  "cells_passed": 13,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 10766, sum 10764",
-   "col 4 'TOTAL (STATES)': printed 217, sum 752",
-   "col 4 'TOTAL(CITIES).': printed 39, sum 265",
-   "col 5 'TOTAL (STATES)': printed 325, sum 331",
-   "col 7 'TOTAL(CITIES).': printed 6173, sum 63733"
+   "col 7 'TOTAL (STATES) . . . . .': printed 636, sum 637"
   ],
-  "other_totals_checked": 2,
-  "other_totals_passed": 2
+  "other_totals_checked": 19,
+  "other_totals_passed": 19
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 5,
  "warnings": []
 }

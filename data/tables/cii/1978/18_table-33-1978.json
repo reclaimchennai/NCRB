@@ -13,27 +13,20 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-33-1978.pdf",
  "source_file": "raw/cii/1978/table_content/table-33-1978.pdf",
  "source_sha256": "6034a35bb9a1f1743a8fbe707ed24a61cba6907f979ffd038ff1a2a164361ddd",
- "table_no": "33",
- "pdf_title": "59 TABLE 33 JUVENILE DELINQUENCY FOR IMPORTANT HEADS OF CRIME UNDER IPC DURING THE YEAR 1978",
- "row_label": "Sl. States/U.T.s./Cities No.",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. States/U.T.s./Cities\\nNo.",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 45,
- "n_cols": 16,
- "n_cells": 577,
+ "n_rows": 90,
+ "n_cols": 10,
+ "n_cells": 611,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Sl. States/U.T.s./Cities No.",
-   "header": [
-    "Sl. States/U.T.s./Cities No."
-   ]
-  },
-  {
-   "col_no": "4",
+   "col_no": "2",
    "name": "IPC Cognizable Offences reported | Murder",
    "header": [
     "IPC Cognizable Offences reported",
@@ -41,83 +34,42 @@
    ]
   },
   {
-   "col_no": "5",
-   "name": "IPC Cognizable Offences reported | Culpable Homicide not amounting to Murder",
+   "col_no": "3",
+   "name": "Culpable Homicide not amounting to Murder",
    "header": [
-    "IPC Cognizable Offences reported",
     "Culpable Homicide not amounting to Murder"
    ]
   },
   {
-   "col_no": "6",
-   "name": "IPC Cognizable Offences reported | Rape",
+   "col_no": "4",
+   "name": "Rape",
    "header": [
-    "IPC Cognizable Offences reported",
     "Rape"
    ]
   },
   {
-   "col_no": "2",
-   "name": "Sl. States/U.Ts./Cities No. (2)",
+   "col_no": "5",
+   "name": "Kidnapping & Abduction",
    "header": [
-    "Sl. States/U.Ts./Cities No."
+    "Kidnapping & Abduction"
    ]
   },
   {
    "col_no": "10001",
-   "name": "Sl. States/U.Ts./Cities No. (10001)",
+   "name": "States/U.T.s./Cities",
    "header": [
-    "Sl. States/U.Ts./Cities No."
+    "States/U.T.s./Cities"
    ]
   },
   {
    "col_no": "10002",
-   "name": "IPC Cognizable offences reported | Dacoity",
+   "name": "Riot",
    "header": [
-    "IPC Cognizable offences reported",
-    "Dacoity"
+    "Riot"
    ]
   },
   {
    "col_no": "10003",
-   "name": "IPC Cognizable offences reported | Robbery",
-   "header": [
-    "IPC Cognizable offences reported",
-    "Robbery"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "IPC Cognizable offences reported | Burglary",
-   "header": [
-    "IPC Cognizable offences reported",
-    "Burglary"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "IPC Cognizable offences reported | Thefts",
-   "header": [
-    "IPC Cognizable offences reported",
-    "Thefts"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "States/U.Ts./Cities",
-   "header": [
-    "States/U.Ts./Cities"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "Riots",
-   "header": [
-    "Riots"
-   ]
-  },
-  {
-   "col_no": "10007",
    "name": "IPC Cognizable offences reported | Criminal Breach of Trust",
    "header": [
     "IPC Cognizable offences reported",
@@ -125,26 +77,23 @@
    ]
   },
   {
-   "col_no": "10008",
-   "name": "IPC Cognizable offences reported | Cheating",
+   "col_no": "10004",
+   "name": "Cheating",
    "header": [
-    "IPC Cognizable offences reported",
     "Cheating"
    ]
   },
   {
-   "col_no": "10009",
-   "name": "IPC Cognizable offences reported | Counterfeiting",
+   "col_no": "6",
+   "name": "Counter-feiting",
    "header": [
-    "IPC Cognizable offences reported",
-    "Counterfeiting"
+    "Counter-feiting"
    ]
   },
   {
-   "col_no": "8",
-   "name": "IPC Cognizable offences reported | Total cognizable crime",
+   "col_no": "7",
+   "name": "Total cognizable crime",
    "header": [
-    "IPC Cognizable offences reported",
     "Total cognizable crime"
    ]
   }
@@ -154,8 +103,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 19,
+  "other_totals_passed": 15
  },
  "inferred_pages": 0,
  "ocr_pages": 3,

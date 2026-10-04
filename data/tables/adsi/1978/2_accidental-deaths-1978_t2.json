@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1978",
  "serial": "2",
- "title": "5 TABLE—II Incidence of Accidental Deaths, Population, Volume of Accidental Deaths per lakh of population and percentage Distribution of Accidental Deaths to all India Total during 1978",
+ "title": "Region-wise Distribution of Accidental Deaths by Sex 1978",
  "listing_title": "Accidental Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,41 +14,48 @@
  "source_file": "raw/adsi/1978/year_wise/accidental-deaths-1978.pdf",
  "source_sha256": "7084977ea2ad4bff5d18089829a4f97a914cdc11146ea21237c454229b6ac396",
  "table_no": "",
- "pdf_title": "5 TABLE—II Incidence of Accidental Deaths, Population, Volume of Accidental Deaths per lakh of population and percentage Distribution of Accidental Deaths to all India Total during 1978",
- "row_label": "Sl. No. / Name of the States/U.T.S./Cities",
+ "pdf_title": "Region-wise Distribution of Accidental Deaths by Sex 1978",
+ "row_label": "Sl. Name of States/ No. U. Ts./Cities",
  "pages": [
-  6
+  13
  ],
- "n_rows": 34,
- "n_cols": 4,
- "n_cells": 136,
+ "n_rows": 35,
+ "n_cols": 5,
+ "n_cells": 175,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Number of Accidental Deaths",
+   "col_no": "2",
+   "name": "Males Involved",
    "header": [
-    "Number of Accidental Deaths"
+    "Males Involved"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "% of males to Total",
+   "header": [
+    "% of males to Total"
    ]
   },
   {
    "col_no": "4",
-   "name": "Percentage incidence to all India total",
+   "name": "Females involved",
    "header": [
-    "Percentage incidence to all India total"
+    "Females involved"
    ]
   },
   {
    "col_no": "5",
-   "name": "Population in (000)",
+   "name": "% of females to Total",
    "header": [
-    "Population in (000)"
+    "% of females to Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "Volume of Accidental Deaths per lakh of population",
+   "name": "Total",
    "header": [
-    "Volume of Accidental Deaths per lakh of population"
+    "Total"
    ]
   }
  ],
@@ -57,8 +64,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 9,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

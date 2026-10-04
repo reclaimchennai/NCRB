@@ -8,77 +8,110 @@
  "serial": "4",
  "title": "Recidivism Amongst Persons Arrested under IPC Crimes During 1991 (State, UT & City-Wise)",
  "listing_title": "Recidivism Amongst Persons Arrested under IPC Crimes During 1991 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1991-58.pdf",
  "source_file": "raw/cii/1991/table_content/table-58-1991-58.pdf",
  "source_sha256": "433f768c63e8de4eb3efc0cc362775522923d8754dbf1ecc0aa04bf4c7e58d42",
  "table_no": "",
  "pdf_title": "",
- "row_label": "OL. - TOTAL ao. gl) PRADESH 3 3 Acca BIHAR 5 6 7 / Md OF MO, PERSONS ARRESTED (2) T5RSO5 PRADESH rahi} ee] 26B4i2 ari M2 a1",
+ "row_label": "SL. STATE/UT/CITY NO.",
  "pages": [
   1
  ],
- "n_rows": 35,
- "n_cols": 6,
- "n_cells": 184,
+ "n_rows": 47,
+ "n_cols": 10,
+ "n_cells": 470,
  "columns": [
   {
    "col_no": "3",
-   "name": "preeree Te TOTAL MO. 1S) 76.9 « 119472 20s ¥F.1 1 86258132 M2 rd 98.5 Mor 68.0 S18RS",
+   "name": "TOTAL NO. OF PERSONS ARRESTED",
    "header": [
-    "preeree Te TOTAL MO. 1S) 76.9 « 119472 20s ¥F.1 1 86258132 M2 rd 98.5 Mor 68.0 S18RS"
+    "TOTAL NO. OF PERSONS ARRESTED"
    ]
   },
   {
    "col_no": "4",
-   "name": "UNDER IPC CRIMES | & CLD BD PERCENTADE TO TOTAL (8) 632500 2650 12 Bé20 1608 3 4g 1a 11",
+   "name": "NEW OFFENDERS | NO.",
    "header": [
-    "UNDER IPC CRIMES",
-    "& CLD BD PERCENTADE TO TOTAL (8) 632500 2650 12 Bé20 1608 3 4g 1a 11"
+    "NEW OFFENDERS",
+    "NO."
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER IPC CRIMES | COMWICTED IM TRE PAST PERCENTAGE To TOTAL 1.4 21.1 oF o.8 6.0 0.8 a5 3.2 1.8 4 2.6",
+   "name": "PERCENTAGE TO TOTAL (5)",
    "header": [
-    "UNDER IPC CRIMES",
-    "COMWICTED IM TRE PAST PERCENTAGE To TOTAL 1.4 21.1 oF o.8 6.0 0.8 a5 3.2 1.8 4 2.6"
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "1001 WO, 1.2 1.2",
+   "name": "ONCE | NO.",
    "header": [
-    "1001 WO, 1.2 1.2"
+    "ONCE",
+    "NO."
    ]
   },
   {
    "col_no": "7",
-   "name": "THRICE OR WORE To Toma, ti) O45 1 o 0.0 o.0 o o.1 2a o.2 i] 615 tor",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | PERCENTAGE TO TOTAL",
    "header": [
-    "THRICE OR WORE To Toma, ti) O45 1 o 0.0 o.0 o o.1 2a o.2 i] 615 tor"
+    "OLD OFFENDERS CONVICTED IN THE PAST",
+    "ONCE",
+    "PERCENTAGE TO TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "0 §6OF 100) tz) oF o8 LP 15 12.0 O.2",
+   "name": "TICE | NO.",
    "header": [
-    "0 §6OF 100) tz) oF o8 LP 15 12.0 O.2"
+    "TICE",
+    "NO."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "TICE | PERCENTAGE TO TOTAL",
+   "header": [
+    "TICE",
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "THRICE OR MORE NO.",
+   "header": [
+    "THRICE OR MORE NO."
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PERCENTAGE TO TOTAL (11)",
+   "header": [
+    "PERCENTAGE TO TOTAL"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "PERCENTAGE OF RECIDI- VISTS(C)(7)+(9)+(11)",
+   "header": [
+    "PERCENTAGE OF RECIDI- VISTS(C)(7)+(9)+(11)"
    ]
   }
  ],
- "notes": [
-  "Note Less then 005 fe ston chrom gg 0.0"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 10,
+  "cells_passed": 8,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 2.2012e+06, sum 2.20122e+06",
+   "col 10 'TOTAL (STATES)': printed 30745, sum 30945"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

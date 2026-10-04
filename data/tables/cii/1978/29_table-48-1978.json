@@ -13,17 +13,23 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-48-1978.pdf",
  "source_file": "raw/cii/1978/table_content/table-48-1978.pdf",
  "source_sha256": "850fdc0d44b0f559e5af34e25aa8bee8c63836e958632cdcb0b4d399c0d1ad82",
- "table_no": "48",
- "pdf_title": "3 J TABLE 48 PROPERTY STOLEN AND RECOVERED BY CATEGORY OF OFFENCES",
- "row_label": "Sl. No. / Category of offences",
+ "table_no": "49",
+ "pdf_title": "NATURE OF PROPERTY STOLEN AND RECOVERED",
+ "row_label": "SL. Nature of Property stolen & Recovered",
  "pages": [
-  1,
   1
  ],
- "n_rows": 15,
+ "n_rows": 2,
  "n_cols": 5,
- "n_cells": 67,
+ "n_cells": 9,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "SL. Nature of Property stolen & Recovered",
+   "header": [
+    "SL. Nature of Property stolen & Recovered"
+   ]
+  },
   {
    "col_no": "3",
    "name": "No. of cases in which property was stolen",
@@ -33,30 +39,23 @@
   },
   {
    "col_no": "4",
-   "name": "No. of cases in which property was recovered",
+   "name": "Value of property stolen in Rs. lakhs",
    "header": [
-    "No. of cases in which property was recovered"
+    "Value of property stolen in Rs. lakhs"
    ]
   },
   {
    "col_no": "5",
-   "name": "Value of property stolen in lakhs",
+   "name": "Value of property recovered in Rs. lakhs",
    "header": [
-    "Value of property stolen in lakhs"
+    "Value of property recovered in Rs. lakhs"
    ]
   },
   {
    "col_no": "6",
-   "name": "Value of property recovered in lakhs",
+   "name": "%age of property recovered to value of property stolen",
    "header": [
-    "Value of property recovered in lakhs"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Percentage of property recovered to property stolen",
-   "header": [
-    "Percentage of property recovered to property stolen"
+    "%age of property recovered to value of property stolen"
    ]
   }
  ],
@@ -65,10 +64,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

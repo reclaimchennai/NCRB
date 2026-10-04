@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-12_2000.pdf",
  "source_file": "raw/adsi/2000/table_content/table-12_2000.pdf",
  "source_sha256": "64514ca049f39b76f169f9e98659de7851129566be2a68ff8590ccc255d6cc39",
- "table_no": "",
- "pdf_title": "",
+ "table_no": "12",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 2000 N.C.R.B., (M.H.A.) TABLE - 12",
  "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
@@ -116,15 +116,17 @@
   },
   {
    "col_no": "14",
-   "name": "Dec. (14)",
+   "name": "Road Accidents | Dec.",
    "header": [
+    "Road Accidents",
     "Dec."
    ]
   },
   {
    "col_no": "15",
-   "name": "Total (15)",
+   "name": "Road Accidents | Total",
    "header": [
+    "Road Accidents",
     "Total"
    ]
   },
@@ -218,15 +220,17 @@
   },
   {
    "col_no": "27",
-   "name": "Dec. (27)",
+   "name": "Rail-Road Accidents | Dec.",
    "header": [
+    "Rail-Road Accidents",
     "Dec."
    ]
   },
   {
    "col_no": "28",
-   "name": "Total (28)",
+   "name": "Rail-Road Accidents | Total",
    "header": [
+    "Rail-Road Accidents",
     "Total"
    ]
   },
@@ -328,8 +332,9 @@
   },
   {
    "col_no": "41",
-   "name": "Total (41)",
+   "name": "Other Railway Accidents | Total",
    "header": [
+    "Other Railway Accidents",
     "Total"
    ]
   },
@@ -407,29 +412,33 @@
   },
   {
    "col_no": "51",
-   "name": "Oct.",
+   "name": "Total | Oct.",
    "header": [
+    "Total",
     "Oct."
    ]
   },
   {
    "col_no": "52",
-   "name": "Nov.",
+   "name": "Total | Nov.",
    "header": [
+    "Total",
     "Nov."
    ]
   },
   {
    "col_no": "53",
-   "name": "Dec. (53)",
+   "name": "Total | Dec.",
    "header": [
+    "Total",
     "Dec."
    ]
   },
   {
    "col_no": "54",
-   "name": "Total (54)",
+   "name": "Total | Total",
    "header": [
+    "Total",
     "Total"
    ]
   }
@@ -437,13 +446,9 @@
  "notes": [],
  "checks": {
   "cells_checked": 208,
-  "cells_passed": 203,
+  "cells_passed": 207,
   "failures": [
-   "col 40 'Total (UTs)': printed 63, sum 53",
-   "col 40 'Total (All-India)': printed 1547, sum 1557",
-   "col 52 'Total (Cities)': printed 4143, sum 4144",
-   "col 53 'Total (Cities)': printed 4373, sum 4652",
-   "col 54 'Total (Cities)': printed 52893, sum 53093"
+   "col 12 'Total (UTs)': printed 1050, sum 1040"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

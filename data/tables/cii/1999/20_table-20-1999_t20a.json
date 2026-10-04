@@ -20,7 +20,7 @@
   3,
   4
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 15,
  "n_cells": 525,
  "columns": [
@@ -163,17 +163,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 45,
-  "cells_passed": 36,
-  "failures": [
-   "col 15 'TOTAL STATES': printed 113, sum 104",
-   "col 16 'TOTAL STATES': printed 8669, sum 8372",
-   "col 17 'TOTAL STATES': printed 8782, sum 8476",
-   "col 18 'TOTAL STATES': printed 95, sum 87",
-   "col 19 'TOTAL STATES': printed 6149, sum 5888",
-   "col 20 'TOTAL STATES': printed 6244, sum 5975",
-   "col 21 'TOTAL STATES': printed 18, sum 17",
-   "col 22 'TOTAL STATES': printed 2520, sum 2484"
-  ],
+  "cells_passed": 45,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

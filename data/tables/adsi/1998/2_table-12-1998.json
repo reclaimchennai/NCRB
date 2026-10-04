@@ -15,7 +15,7 @@
  "source_sha256": "5a83b8117065bdcf7b1b03ee4ee298accb16d87337416eb8d87f3b2b6d28ab83",
  "table_no": "12",
  "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) TABLE - 12",
- "row_label": "Sl. No. / State/UT/City",
+ "row_label": "Sl. No. / State/UT/City / Road Accidents Aug.",
  "pages": [
   1,
   2,
@@ -23,8 +23,8 @@
   4
  ],
  "n_rows": 59,
- "n_cols": 52,
- "n_cells": 3067,
+ "n_cols": 51,
+ "n_cells": 3009,
  "columns": [
   {
    "col_no": "3",
@@ -83,14 +83,6 @@
    ]
   },
   {
-   "col_no": "10",
-   "name": "Road Accidents | Aug.",
-   "header": [
-    "Road Accidents",
-    "Aug."
-   ]
-  },
-  {
    "col_no": "11",
    "name": "Road Accidents | Sep.",
    "header": [
@@ -124,8 +116,9 @@
   },
   {
    "col_no": "15",
-   "name": "Total (15)",
+   "name": "Road Accidents | Total",
    "header": [
+    "Road Accidents",
     "Total"
    ]
   },
@@ -331,8 +324,9 @@
   },
   {
    "col_no": "41",
-   "name": "Total (41)",
+   "name": "Other Railway Accidents | Total",
    "header": [
+    "Other Railway Accidents",
     "Total"
    ]
   },
@@ -443,15 +437,9 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 208,
-  "cells_passed": 203,
-  "failures": [
-   "col 11 'Total (Cities)': printed 4024, sum 4023",
-   "col 12 'Total (Cities)': printed 4204, sum 4206",
-   "col 13 'Total (Cities)': printed 3880, sum 3878",
-   "col 14 'Total (Cities)': printed 4005, sum 4014",
-   "col 15 'Total (Cities)': printed 49202, sum 49193"
-  ],
+  "cells_checked": 204,
+  "cells_passed": 204,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

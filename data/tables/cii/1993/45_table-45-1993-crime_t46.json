@@ -8,77 +8,80 @@
  "serial": "45",
  "title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1993 (State, UT & City-Wise)",
  "listing_title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1993 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-45-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-45-1993-crime.pdf",
  "source_sha256": "b4d375a12e3659b36c5c4279b64baef4e06a326c97caef94b305704860bb4659",
  "table_no": "46",
  "pdf_title": "",
- "row_label": "(\") CITIES",
+ "row_label": "BL NO. / CITY",
  "pages": [
   2
  ],
- "n_rows": 18,
+ "n_rows": 23,
  "n_cols": 8,
- "n_cells": 108,
+ "n_cells": 184,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(a)",
-   "header": [
-    "(a)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "(si)",
+   "name": "MURDER",
    "header": [
-    "(si)"
+    "MURDER"
    ]
   },
   {
    "col_no": "4",
-   "name": "(4\\)",
+   "name": "ATTEMPT TO COMMIT SAUTER",
    "header": [
-    "(4\\)"
+    "ATTEMPT TO COMMIT SAUTER"
    ]
   },
   {
    "col_no": "5",
-   "name": "(6)",
+   "name": "D.H NOT AMCURT. ING TO MURDER",
    "header": [
-    "(6)"
+    "D.H NOT AMCURT. ING TO MURDER"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "RARB",
+   "header": [
+    "RARB"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL"
+   ]
   },
   {
    "col_no": "8",
-   "name": "(13)",
+   "name": "OF WOMEN & GIRLS",
    "header": [
-    "(13)"
+    "OF WOMEN & GIRLS"
    ]
   },
   {
    "col_no": "9",
-   "name": "(1)",
+   "name": "OF OTHERS",
    "header": [
-    "(1)"
+    "OF OTHERS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "CADDITY",
+   "header": [
+    "CADDITY"
    ]
   }
  ],
- "notes": [
-  "55 VISHAKHAPATNAM ie) ie} 0 ie) 0 0 ie}"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -86,7 +89,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

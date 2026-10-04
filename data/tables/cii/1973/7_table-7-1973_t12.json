@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "during the year",
+ "title": "40 TABLE Statement showing Districtwise Incidence of",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,62 +14,53 @@
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "during the year",
- "row_label": "Robbery",
+ "pdf_title": "40 TABLE Statement showing Districtwise Incidence of",
+ "row_label": "Sl. No. / Name of District",
  "pages": [
-  12
+  11
  ],
  "n_rows": 43,
- "n_cols": 7,
- "n_cells": 300,
+ "n_cols": 5,
+ "n_cells": 215,
  "columns": [
   {
-   "col_no": "2",
-   "name": "Burglary",
-   "header": [
-    "Burglary"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "Thefts",
+   "name": "Number of cases reported | Murder",
    "header": [
-    "Thefts"
+    "Number of cases reported",
+    "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "Riots",
+   "name": "Number of cases reported | Capable Homicide not amounting to murder",
    "header": [
-    "Riots"
+    "Number of cases reported",
+    "Capable Homicide not amounting to murder"
    ]
   },
   {
    "col_no": "5",
-   "name": "Criminal breach of trust",
+   "name": "Number of cases reported | Rape",
    "header": [
-    "Criminal breach of trust"
+    "Number of cases reported",
+    "Rape"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cheating",
+   "name": "Number of cases reported | Kidnapping and Abduction",
    "header": [
-    "Cheating"
+    "Number of cases reported",
+    "Kidnapping and Abduction"
    ]
   },
   {
    "col_no": "7",
-   "name": "Counterfeiting",
+   "name": "Number of cases reported | Decolty",
    "header": [
-    "Counterfeiting"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Total Cognizable Crime under IPC",
-   "header": [
-    "Total Cognizable Crime under IPC"
+    "Number of cases reported",
+    "Decolty"
    ]
   }
  ],

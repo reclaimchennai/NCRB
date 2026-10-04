@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "71 ### XI. POLICE STRENGTH Table 36 shows the actual strength, both civil and armed, in the different States and Union Territories. The composition of civil and armed police in different States and Union Territories varied widely. The civil police constituted only 36.6% of the total police strength in Nagaland against as high as 93.1% in Himachal Pradesh and 90.1% in Maharashtra and 89.8% and 89.3% in Kerala and Tamil Nadu respectively, and 75.6% in the entire country.",
+ "title": "shows the actual strength, both civil and armed, in the different States and Union Territories. The composition of civil and armed police in different States and Union Territories varied widely. The civil police constituted only 36.6% of the total police strength in Nagaland against as high as 93.1% in Himachal Pradesh and 90.1% in Maharashtra and 89.8% and 89.3% in Kerala and Tamil Nadu respectively, and 75.6% in the entire country. The number of policemen per square kilometer was the highest in West Bengal (75.9) among the States and the lowest in Jammu & Kashmir (4.0). Among the Union Territories, Chandigarh and Delhi are heavily policed areas, the number of policemen per square kilometer being 1342.1 and 1141.7 respectively. TABLE 36 Actual Police Strength during 1971",
  "listing_title": "Survey of Crime; Disposal of Crime; Persons Arrested; Juvenile Delinquency; Property Stolen and Recovered; Premises of Dacoity and Robbery; Motive of Murder and Culpable Homicide not Amounting to Murder; Recidivism; Victims of Rape; Police Personnel Kille",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,15 +14,21 @@
  "source_file": "raw/cii/1971/table_chapter/survey-of-crime-full-chapter-1971.pdf",
  "source_sha256": "a61b3cbac2069368106142fc6e39a4c10f9f3675004ee8b093b5ac0baf1307a6",
  "table_no": "36",
- "pdf_title": "71 ### XI. POLICE STRENGTH Table 36 shows the actual strength, both civil and armed, in the different States and Union Territories. The composition of civil and armed police in different States and Union Territories varied widely. The civil police constituted only 36.6% of the total police strength in Nagaland against as high as 93.1% in Himachal Pradesh and 90.1% in Maharashtra and 89.8% and 89.3% in Kerala and Tamil Nadu respectively, and 75.6% in the entire country.",
- "row_label": "Sl. No. / States/U.Ts.",
+ "pdf_title": "shows the actual strength, both civil and armed, in the different States and Union Territories. The composition of civil and armed police in different States and Union Territories varied widely. The civil police constituted only 36.6% of the total police strength in Nagaland against as high as 93.1% in Himachal Pradesh and 90.1% in Maharashtra and 89.8% and 89.3% in Kerala and Tamil Nadu respectively, and 75.6% in the entire country. The number of policemen per square kilometer was the highest in West Bengal (75.9) among the States and the lowest in Jammu & Kashmir (4.0). Among the Union Territories, Chandigarh and Delhi are heavily policed areas, the number of policemen per square kilometer being 1342.1 and 1141.7 respectively. TABLE 36 Actual Police Strength during 1971",
+ "row_label": "SI. States/U.Ts.",
  "pages": [
-  50
+  50,
+  51
  ],
- "n_rows": 30,
+ "n_rows": 50,
  "n_cols": 10,
- "n_cells": 300,
+ "n_cells": 457,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
+  },
   {
    "col_no": "3",
    "name": "Area in Square Kilometers",
@@ -54,47 +60,39 @@
   },
   {
    "col_no": "7",
-   "name": "Actual strength of Police Force | Armed",
+   "name": "Actual strength of Police Force | Armed Total",
    "header": [
     "Actual strength of Police Force",
-    "Armed"
+    "Armed Total"
    ]
   },
   {
    "col_no": "8",
-   "name": "Actual strength of Police Force | Total",
+   "name": "Number of Police-Police cases per year per civil police-to total police-of population",
    "header": [
-    "Actual strength of Police Force",
-    "Total"
+    "Number of Police-Police cases per year per civil police-to total police-of population"
    ]
   },
   {
    "col_no": "9",
-   "name": "Number of Police-men per 100 square kilometer of Area",
+   "name": "Number of Police-Police cases per year per civil police-to total police-of population | 100 square km-of-a-year",
    "header": [
-    "Number of Police-men per 100 square kilometer of Area"
+    "Number of Police-Police cases per year per civil police-to total police-of population",
+    "100 square km-of-a-year"
    ]
   },
   {
    "col_no": "10",
-   "name": "Number of Police-men per 10,000 population",
+   "name": "Percentage of civil police-to total police-of population | 10,000 population-man",
    "header": [
-    "Number of Police-men per 10,000 population"
+    "Percentage of civil police-to total police-of population",
+    "10,000 population-man"
    ]
   },
   {
    "col_no": "11",
-   "name": "Number of police-man",
-   "header": [
-    "Number of police-man"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "Percentage of civil police to total police",
-   "header": [
-    "Percentage of civil police to total police"
-   ]
+   "name": "col_11",
+   "header": []
   }
  ],
  "notes": [],
@@ -102,10 +100,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 15,
-  "other_totals_passed": 14
+  "other_totals_checked": 11,
+  "other_totals_passed": 10
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

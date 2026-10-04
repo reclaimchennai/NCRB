@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/47table-47-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/47table-47-1990-.pdf",
  "source_sha256": "d54b3796e26909e2e14f95c66c0ccb2ebd10241b1bf39c45a26ef980d4637d49",
- "table_no": "47",
- "pdf_title": "162 TABLE-47 CLASSIFICATION OF JUVENILES ARRESTED (UNDER IPC & LSL) BY ATTRIBUTES DURING 1990 (STATE, UT & CITY-WISE)",
+ "table_no": "",
+ "pdf_title": "ANDHRA PRADESH",
  "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
@@ -34,140 +34,109 @@
   },
   {
    "col_no": "4",
-   "name": "BY EDUCATION | PRIMARY",
+   "name": "PRIMARY ABOVE PRIMARY BUT BELOW MATRIC/ H. SEC.",
    "header": [
-    "BY EDUCATION",
-    "PRIMARY"
+    "PRIMARY ABOVE PRIMARY BUT BELOW MATRIC/ H. SEC."
    ]
   },
   {
    "col_no": "5",
-   "name": "BY EDUCATION | ABOVE PRIMARY BUT BELOW MATRIC/H. SEC.",
+   "name": "MATRIC/ H. SEC. & ABOVE",
    "header": [
-    "BY EDUCATION",
-    "ABOVE PRIMARY BUT BELOW MATRIC/H. SEC."
+    "MATRIC/ H. SEC. & ABOVE"
    ]
   },
   {
    "col_no": "6",
-   "name": "BY EDUCATION | MATRIC/H. SEC. & ABOVE",
+   "name": "TOTAL (6)",
    "header": [
-    "BY EDUCATION",
-    "MATRIC/H. SEC. & ABOVE"
+    "TOTAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "BY EDUCATION | TOTAL",
+   "name": "LIVING WITH PARENTS",
    "header": [
-    "BY EDUCATION",
-    "TOTAL"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "BY FAMILY BACKGROUND | LIVING WITH PARENTS",
-   "header": [
-    "BY FAMILY BACKGROUND",
     "LIVING WITH PARENTS"
    ]
   },
   {
-   "col_no": "9",
-   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARD-IANS",
+   "col_no": "8",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARD-TANS",
    "header": [
     "BY FAMILY BACKGROUND",
-    "LIVING WITH GUARD-IANS"
+    "LIVING WITH GUARD-TANS"
    ]
   },
   {
-   "col_no": "10",
-   "name": "BY FAMILY BACKGROUND | HOME-LESS",
+   "col_no": "9",
+   "name": "HOME-LESS",
    "header": [
-    "BY FAMILY BACKGROUND",
     "HOME-LESS"
    ]
   },
   {
-   "col_no": "11",
-   "name": "BY FAMILY BACKGROUND | TOTAL",
+   "col_no": "10",
+   "name": "TOTAL (10)",
    "header": [
-    "BY FAMILY BACKGROUND",
     "TOTAL"
    ]
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
   },
   {
    "col_no": "14",
-   "name": "BY ECONOMIC-SETUP | LOW/MID INCOME (FROM RS 501 TO 1000 PM)",
-   "header": [
-    "BY ECONOMIC-SETUP",
-    "LOW/MID INCOME (FROM RS 501 TO 1000 PM)"
-   ]
+   "name": "col_14",
+   "header": []
   },
   {
    "col_no": "15",
-   "name": "BY ECONOMIC-SETUP | MIDDLE INCOME (RS. 1001 TO 2000 PM)",
-   "header": [
-    "BY ECONOMIC-SETUP",
-    "MIDDLE INCOME (RS. 1001 TO 2000 PM)"
-   ]
+   "name": "col_15",
+   "header": []
   },
   {
    "col_no": "16",
-   "name": "BY ECONOMIC-SETUP | UPP/MID INCOME (FROM RS 2001 TO 3000 PM)",
-   "header": [
-    "BY ECONOMIC-SETUP",
-    "UPP/MID INCOME (FROM RS 2001 TO 3000 PM)"
-   ]
+   "name": "col_16",
+   "header": []
   },
   {
    "col_no": "17",
-   "name": "BY ECONOMIC-SETUP | UPPER INCOME (ABOVE RS. 3000 PM)",
-   "header": [
-    "BY ECONOMIC-SETUP",
-    "UPPER INCOME (ABOVE RS. 3000 PM)"
-   ]
+   "name": "col_17",
+   "header": []
   },
   {
    "col_no": "18",
-   "name": "BY ECONOMIC-SETUP | TOTAL",
-   "header": [
-    "BY ECONOMIC-SETUP",
-    "TOTAL"
-   ]
+   "name": "col_18",
+   "header": []
   },
   {
    "col_no": "19",
-   "name": "RECIDIVISM | NEW DELIN- QUENTS",
-   "header": [
-    "RECIDIVISM",
-    "NEW DELIN- QUENTS"
-   ]
+   "name": "col_19",
+   "header": []
   },
   {
    "col_no": "20",
-   "name": "RECIDIVISM | OLD DELIN- QUENTS",
-   "header": [
-    "RECIDIVISM",
-    "OLD DELIN- QUENTS"
-   ]
+   "name": "col_20",
+   "header": []
   },
   {
    "col_no": "2",
-   "name": "RECIDIVISM | TOTAL",
-   "header": [
-    "RECIDIVISM",
-    "TOTAL"
-   ]
+   "name": "col_2",
+   "header": []
   }
  ],
- "notes": [],
+ "notes": [
+  "* As classification was not available, all the juveniles arrested are put in the most likely class."
+ ],
  "checks": {
   "cells_checked": 24,
   "cells_passed": 22,
   "failures": [
-   "col 9 'TOTAL (STATES)': printed 7202, sum 7292",
-   "col 9 'TOTAL (ALL-INDIA)': printed 7334, sum 7244"
+   "col 9 'TOTAL (STATES)': printed 7262, sum 7292",
+   "col 9 'TOTAL (ALL-INDIA)': printed 7334, sum 7304"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

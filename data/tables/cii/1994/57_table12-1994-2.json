@@ -14,7 +14,7 @@
  "source_file": "raw/cii/1994/table_content/table12-1994_2.pdf",
  "source_sha256": "597c91018b0e52759901a2d364c8c7d896bb53f16b0e386873b256be4e27085f",
  "table_no": "12",
- "pdf_title": "N.C.R.B., (M.I. CRIME IN INDIA - 1994 TABLE-12",
+ "pdf_title": "N.C.R.B., (M.1. CRIME IN INDIA - 1994 TABLE-12",
  "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
@@ -22,9 +22,9 @@
   3,
   4
  ],
- "n_rows": 69,
+ "n_rows": 60,
  "n_cols": 34,
- "n_cells": 1972,
+ "n_cells": 1969,
  "columns": [
   {
    "col_no": "3",
@@ -156,43 +156,67 @@
   },
   {
    "col_no": "19",
-   "name": "col_19",
-   "header": []
+   "name": "REGISTRATION OF FOREIGNERS ACT | I",
+   "header": [
+    "REGISTRATION OF FOREIGNERS ACT",
+    "I"
+   ]
   },
   {
    "col_no": "20",
-   "name": "col_20",
-   "header": []
+   "name": "REGISTRATION OF FOREIGNERS ACT | R",
+   "header": [
+    "REGISTRATION OF FOREIGNERS ACT",
+    "R"
+   ]
   },
   {
    "col_no": "21",
-   "name": "col_21",
-   "header": []
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | I",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "I"
+   ]
   },
   {
    "col_no": "22",
-   "name": "col_22",
-   "header": []
+   "name": "PROTECTION OF CIVIL RIGHTS ACT | R",
+   "header": [
+    "PROTECTION OF CIVIL RIGHTS ACT",
+    "R"
+   ]
   },
   {
    "col_no": "23",
-   "name": "col_23",
-   "header": []
+   "name": "INDIAN PASSPORT ACT | I",
+   "header": [
+    "INDIAN PASSPORT ACT",
+    "I"
+   ]
   },
   {
    "col_no": "24",
-   "name": "col_24",
-   "header": []
+   "name": "INDIAN PASSPORT ACT | R",
+   "header": [
+    "INDIAN PASSPORT ACT",
+    "R"
+   ]
   },
   {
    "col_no": "25",
-   "name": "col_25",
-   "header": []
+   "name": "ESSENTIAL COMMODITIES ACT | I",
+   "header": [
+    "ESSENTIAL COMMODITIES ACT",
+    "I"
+   ]
   },
   {
    "col_no": "26",
-   "name": "col_26",
-   "header": []
+   "name": "ESSENTIAL COMMODITIES ACT | R",
+   "header": [
+    "ESSENTIAL COMMODITIES ACT",
+    "R"
+   ]
   },
   {
    "col_no": "27",
@@ -277,17 +301,15 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 51,
-  "cells_passed": 35,
+  "cells_checked": 48,
+  "cells_passed": 42,
   "failures": [
-   "col 11 'TOTAL (STATES)': printed 638538, sum 569",
-   "col 13 'TOTAL (STATES)': printed 4623, sum 4191",
-   "col 15 'TOTAL (STATES)': printed 9976, sum 3111",
-   "col 17 'TOTAL (STATES)': printed 29520, sum 24136",
-   "col 19 'TOTAL (STATES)': printed 1404, sum 1365",
-   "col 21 'TOTAL (STATES)': printed 4544, sum 3780",
-   "col 23 'TOTAL (STATES)': printed 756, sum 749",
-   "col 25 'TOTAL (STATES)': printed 4028, sum 3842"
+   "col 11 'TOTAL (STATES)': printed 638538, sum 490355",
+   "col 13 'TOTAL (STATES)': printed 4623, sum 4571",
+   "col 15 'TOTAL (STATES)': printed 9976, sum 9972",
+   "col 17 'TOTAL (STATES)': printed 29520, sum 28438",
+   "col 25 'TOTAL (STATES)': printed 4026, sum 4011",
+   "col 35 'TOTAL (STATES)': printed 3.85591e+06, sum 3.85691e+06"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

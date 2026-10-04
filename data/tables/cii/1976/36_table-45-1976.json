@@ -15,17 +15,24 @@
  "source_sha256": "d567768e2905ec76bde11eef346cd78adc2282b31e0e63c2c8ea029fed2e2225",
  "table_no": "45",
  "pdf_title": "82 TABLE 45 Particulars of Juveniles arrested under I.P.C. crimes and offences under Local and Special Laws during 1976",
- "row_label": "Sl. No. / States/U.Ts./Cities",
+ "row_label": "Sl.No. / Sl.No.",
  "pages": [
   1,
   2
  ],
  "n_rows": 86,
  "n_cols": 16,
- "n_cells": 1089,
+ "n_cells": 1046,
  "columns": [
   {
    "col_no": "3",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "4",
    "name": "By Religion | Hindu",
    "header": [
     "By Religion",
@@ -33,7 +40,7 @@
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "5",
    "name": "By Religion | Muslim",
    "header": [
     "By Religion",
@@ -41,7 +48,7 @@
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "6",
    "name": "By Religion | Sikh",
    "header": [
     "By Religion",
@@ -49,7 +56,7 @@
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "7",
    "name": "By Religion | Christian",
    "header": [
     "By Religion",
@@ -57,7 +64,7 @@
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "8",
    "name": "By Religion | Total",
    "header": [
     "By Religion",
@@ -65,7 +72,7 @@
    ]
   },
   {
-   "col_no": "8",
+   "col_no": "9",
    "name": "By Community | Sche-duled Caste",
    "header": [
     "By Community",
@@ -73,7 +80,7 @@
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "10",
    "name": "By Community | Sche-duled Tribes",
    "header": [
     "By Community",
@@ -81,7 +88,7 @@
    ]
   },
   {
-   "col_no": "10",
+   "col_no": "11",
    "name": "By Community | Other",
    "header": [
     "By Community",
@@ -89,7 +96,7 @@
    ]
   },
   {
-   "col_no": "11",
+   "col_no": "12",
    "name": "By Community | Total",
    "header": [
     "By Community",
@@ -97,7 +104,7 @@
    ]
   },
   {
-   "col_no": "12",
+   "col_no": "13",
    "name": "By Education | Illiterate",
    "header": [
     "By Education",
@@ -105,7 +112,7 @@
    ]
   },
   {
-   "col_no": "13",
+   "col_no": "14",
    "name": "By Education | Below Primary",
    "header": [
     "By Education",
@@ -113,23 +120,23 @@
    ]
   },
   {
-   "col_no": "14",
-   "name": "By Education | Above Primary",
-   "header": [
-    "By Education",
-    "Above Primary"
-   ]
-  },
-  {
    "col_no": "15",
-   "name": "By Education | Mat-ric Hr. See. and above",
+   "name": "By Education | Above Primary but below Mat-ric/Hr. Sec.",
    "header": [
     "By Education",
-    "Mat-ric Hr. See. and above"
+    "Above Primary but below Mat-ric/Hr. Sec."
    ]
   },
   {
    "col_no": "16",
+   "name": "By Education | Mat-ric Hr. Sec. and Above",
+   "header": [
+    "By Education",
+    "Mat-ric Hr. Sec. and Above"
+   ]
+  },
+  {
+   "col_no": "17",
    "name": "By Education | Total",
    "header": [
     "By Education",
@@ -137,18 +144,10 @@
    ]
   },
   {
-   "col_no": "17",
-   "name": "By Education",
-   "header": [
-    "By Education"
-   ]
-  },
-  {
    "col_no": "2",
-   "name": "By Family background | Living with guardian",
+   "name": "By Family background",
    "header": [
-    "By Family background",
-    "Living with guardian"
+    "By Family background"
    ]
   }
  ],
@@ -157,8 +156,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 46,
-  "other_totals_passed": 42
+  "other_totals_checked": 52,
+  "other_totals_passed": 47
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

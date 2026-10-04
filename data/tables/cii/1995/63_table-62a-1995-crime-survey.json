@@ -15,28 +15,28 @@
  "source_sha256": "1623d6b5f96289606c341e0f9370764f3e6d05ff2a028932fad45fbe46b975f8",
  "table_no": "62A",
  "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-62A",
- "row_label": "SL. NO. / STATE/UT",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 37,
+ "n_rows": 36,
  "n_cols": 22,
  "n_cells": 770,
  "columns": [
   {
    "col_no": "3",
-   "name": "RAPE (BELOW 16 YEARS) | I",
+   "name": "RAPE(BELOW 16 YEARS) | I",
    "header": [
-    "RAPE (BELOW 16 YEARS)",
+    "RAPE(BELOW 16 YEARS)",
     "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "RAPE (BELOW 16 YEARS) | P",
+   "name": "RAPE(BELOW 16 YEARS) | P",
    "header": [
-    "RAPE (BELOW 16 YEARS)",
+    "RAPE(BELOW 16 YEARS)",
     "P"
    ]
   },
@@ -90,10 +90,9 @@
   },
   {
    "col_no": "11",
-   "name": "EXPOSURE & ABANDONMENT | I",
+   "name": "EXPOSURE & ABANDONMENT",
    "header": [
-    "EXPOSURE & ABANDONMENT",
-    "I"
+    "EXPOSURE & ABANDONMENT"
    ]
   },
   {
@@ -122,13 +121,6 @@
   },
   {
    "col_no": "15",
-   "name": "PROCURATION OF MINOR GIRLS",
-   "header": [
-    "PROCURATION OF MINOR GIRLS"
-   ]
-  },
-  {
-   "col_no": "16",
    "name": "PROCURATION OF MINOR GIRLS | I",
    "header": [
     "PROCURATION OF MINOR GIRLS",
@@ -136,15 +128,15 @@
    ]
   },
   {
-   "col_no": "17",
-   "name": "SELLING OF GIRLS FOR PROSTITUTION | P",
+   "col_no": "16",
+   "name": "PROCURATION OF MINOR GIRLS | P",
    "header": [
-    "SELLING OF GIRLS FOR PROSTITUTION",
+    "PROCURATION OF MINOR GIRLS",
     "P"
    ]
   },
   {
-   "col_no": "18",
+   "col_no": "17",
    "name": "SELLING OF GIRLS FOR PROSTITUTION | I",
    "header": [
     "SELLING OF GIRLS FOR PROSTITUTION",
@@ -152,15 +144,15 @@
    ]
   },
   {
-   "col_no": "19",
-   "name": "BUYING OF GIRLS FOR PROSTITUTION | P",
+   "col_no": "18",
+   "name": "SELLING OF GIRLS FOR PROSTITUTION | P",
    "header": [
-    "BUYING OF GIRLS FOR PROSTITUTION",
+    "SELLING OF GIRLS FOR PROSTITUTION",
     "P"
    ]
   },
   {
-   "col_no": "20",
+   "col_no": "19",
    "name": "BUYING OF GIRLS FOR PROSTITUTION | I",
    "header": [
     "BUYING OF GIRLS FOR PROSTITUTION",
@@ -168,15 +160,15 @@
    ]
   },
   {
-   "col_no": "21",
-   "name": "CHILD MARRIAGE RESTRAINT ACT | P",
+   "col_no": "20",
+   "name": "BUYING OF GIRLS FOR PROSTITUTION | P",
    "header": [
-    "CHILD MARRIAGE RESTRAINT ACT",
+    "BUYING OF GIRLS FOR PROSTITUTION",
     "P"
    ]
   },
   {
-   "col_no": "22",
+   "col_no": "21",
    "name": "CHILD MARRIAGE RESTRAINT ACT | I",
    "header": [
     "CHILD MARRIAGE RESTRAINT ACT",
@@ -184,30 +176,36 @@
    ]
   },
   {
-   "col_no": "23",
-   "name": "TOTAL | P",
+   "col_no": "22",
+   "name": "CHILD MARRIAGE RESTRAINT ACT | P",
    "header": [
-    "TOTAL",
+    "CHILD MARRIAGE RESTRAINT ACT",
     "P"
    ]
   },
   {
-   "col_no": "24",
+   "col_no": "23",
    "name": "TOTAL | I",
    "header": [
     "TOTAL",
     "I"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL | P",
+   "header": [
+    "TOTAL",
+    "P"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 30,
-  "cells_passed": 26,
+  "cells_passed": 28,
   "failures": [
    "col 17 'TOTAL (UTs)': printed 16, sum 15",
-   "col 21 'TOTAL (STATES)': printed 53, sum 51",
-   "col 23 'TOTAL (STATES)': printed 5433, sum 5391",
    "col 23 'TOTAL (UTs)': printed 380, sum 372"
   ],
   "other_totals_checked": 0,

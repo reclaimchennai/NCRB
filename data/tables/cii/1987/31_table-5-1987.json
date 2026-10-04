@@ -15,7 +15,7 @@
  "source_sha256": "ce3efbae3cf8a7bd52f29ce48dc5320428314eb0fe61f197f34ecbff0ab6563c",
  "table_no": "5",
  "pdf_title": "6 TABLE-5 Incidence Of Crime Under Different Crime Heads Of IPC In States, UTs And Cities During 1987",
- "row_label": "SL. NO. / STATES/UTS/CITIES",
+ "row_label": "SL.NO. / STATES/UTs/CITIES",
  "pages": [
   1,
   2,
@@ -257,16 +257,14 @@
  "notes": [],
  "checks": {
   "cells_checked": 42,
-  "cells_passed": 34,
+  "cells_passed": 36,
   "failures": [
-   "col 3 'Total(States)': printed 28144, sum 28194",
-   "col 7 'Total(UTs)': printed 124, sum 20",
-   "col 9 'Total(UTs)': printed 848, sum 49",
-   "col 11 'Total(UTs)': printed 37, sum 3",
-   "col 13 'Total(UTs)': printed 221, sum 22",
-   "col 17 'Total(Cities)': printed 58959, sum 58950",
-   "col 27 'Total(States)': printed 735699, sum 734524",
-   "col 29 'Total(States)': printed 1.37563e+06, sum 1.37319e+06"
+   "col 7 'Total (UTs)': printed 124, sum 20",
+   "col 9 'Total (UTs)': printed 848, sum 49",
+   "col 11 'Total (UTs)': printed 37, sum 3",
+   "col 13 'Total (UTs)': printed 221, sum 22",
+   "col 27 'Total (States)': printed 735699, sum 734524",
+   "col 29 'Total (States)': printed 1.37563e+06, sum 1.37319e+06"
   ],
   "other_totals_checked": 14,
   "other_totals_passed": 14

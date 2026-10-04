@@ -6,23 +6,22 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1981",
  "serial": "3",
- "title": "During 1980 and 1981",
+ "title": "Distribution of Suicides by States, Union Territories and Metropolitan Cities During 1980 and 1981",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1981.pdf",
  "source_file": "raw/adsi/1981/year_wise/suicides-1981.pdf",
  "source_sha256": "c098fcbf0ce8c32dc43db7ee3c5b25ce783d635c09885bfb2cde9c6469f19645",
  "table_no": "V",
- "pdf_title": "During 1980 and 1981",
- "row_label": "Name of States/U.Ts./Cities Sl. No. / Name of States/U.Ts./Cities",
+ "pdf_title": "Distribution of Suicides by States, Union Territories and Metropolitan Cities During 1980 and 1981",
+ "row_label": "Sl. No. / Name of States/U.Ts./Cities",
  "pages": [
-  10,
-  13
+  10
  ],
- "n_rows": 43,
- "n_cols": 5,
- "n_cells": 111,
+ "n_rows": 34,
+ "n_cols": 3,
+ "n_cells": 102,
  "columns": [
   {
    "col_no": "3",
@@ -33,47 +32,30 @@
   },
   {
    "col_no": "4",
-   "name": "Number of Suicides during 1980 to",
+   "name": "Number of Suicides during 1980",
    "header": [
-    "Number of Suicides during 1980 to"
+    "Number of Suicides during 1980"
    ]
   },
   {
    "col_no": "5",
-   "name": "change 1980 from 1981",
+   "name": "Percentage change from 1980 to 1981",
    "header": [
-    "change 1980 from 1981"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "4 | ANSE - D",
-   "header": [
-    "4",
-    "ANSE - D"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "4 | g aa",
-   "header": [
-    "4",
-    "g aa"
+    "Percentage change from 1980 to 1981"
    ]
   }
  ],
- "notes": [
-  "g",
-  "Ss"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 4,
+  "cells_passed": 3,
+  "failures": [
+   "col 4 'TOTAL (States)': printed 49971, sum 40971"
+  ],
   "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_passed": 1
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 1,
  "warnings": []
 }

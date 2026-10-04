@@ -17,12 +17,85 @@
  "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-12",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
+  95,
   96
  ],
  "n_rows": 35,
- "n_cols": 9,
- "n_cells": 315,
+ "n_cols": 18,
+ "n_cells": 630,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "BELOW 16 YEARS | M",
+   "header": [
+    "BELOW 16 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BELOW 16 YEARS | F",
+   "header": [
+    "BELOW 16 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "BELOW 16 YEARS | T",
+   "header": [
+    "BELOW 16 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "16-18 YEARS | M",
+   "header": [
+    "16-18 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "16-18 YEARS | F",
+   "header": [
+    "16-18 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "16-18 YEARS | T",
+   "header": [
+    "16-18 YEARS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "18-30 YEARS | M",
+   "header": [
+    "18-30 YEARS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "18-30 YEARS | F",
+   "header": [
+    "18-30 YEARS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "18-30 YEARS | T",
+   "header": [
+    "18-30 YEARS",
+    "T"
+   ]
+  },
   {
    "col_no": "12",
    "name": "30 - 50 YEARS | M",
@@ -98,13 +171,15 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 27,
-  "cells_passed": 27,
-  "failures": [],
+  "cells_checked": 54,
+  "cells_passed": 53,
+  "failures": [
+   "col 12 'TOTAL (ALL INDIA)': printed 30089, sum 30069"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

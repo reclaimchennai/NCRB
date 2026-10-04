@@ -8,101 +8,102 @@
  "serial": "52",
  "title": "Juveniles Apprehended under IPC Crimes by Age-Groups & Sex During 1993 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended under IPC Crimes by Age-Groups & Sex During 1993 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-52-1993-crime.pdf",
  "source_sha256": "3b3653ff828cc33b2bdcecda1ae42c14450ab7034d57b0294f6fa8bc8922b7a2",
- "table_no": "52",
+ "table_no": "",
  "pdf_title": "",
- "row_label": "‘ {2}",
+ "row_label": "BL NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 53,
- "n_cols": 9,
- "n_cells": 335,
+ "n_rows": 58,
+ "n_cols": 8,
+ "n_cells": 464,
  "columns": [
   {
-   "col_no": "2",
-   "name": "JUVENILES A070: | (3h)",
-   "header": [
-    "JUVENILES A070:",
-    "(3h)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "JUVENILES A070: | (4h)",
+   "name": "7 - 12 YEARS | BOYS",
    "header": [
-    "JUVENILES A070:",
-    "(4h)"
+    "7 - 12 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "JUVENILES A070: | AGE-GROUPS & SEX DURING 1993 (STATE, UT & CITY-WISE)",
+   "name": "7 - 12 YEARS | DILS",
    "header": [
-    "JUVENILES A070:",
-    "AGE-GROUPS & SEX DURING 1993 (STATE, UT & CITY-WISE)"
+    "7 - 12 YEARS",
+    "DILS"
    ]
   },
   {
    "col_no": "5",
-   "name": "UNDER IPC CRIMES BY",
+   "name": "12-18 YEARS | BOYS",
    "header": [
-    "UNDER IPC CRIMES BY"
+    "12-18 YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "12-18 YEARS | DILS",
+   "header": [
+    "12-18 YEARS",
+    "DILS"
+   ]
   },
   {
    "col_no": "7",
-   "name": "(uh",
+   "name": "18-19 YEARS | DILS ONLY (7)",
    "header": [
-    "(uh"
+    "18-19 YEARS",
+    "DILS ONLY"
    ]
   },
   {
    "col_no": "8",
-   "name": "(dill",
+   "name": "18-19 YEARS | DILS ONLY (8)",
    "header": [
-    "(dill"
+    "18-19 YEARS",
+    "DILS ONLY"
    ]
   },
   {
    "col_no": "9",
-   "name": "ub.",
+   "name": "OVERALL AGE GROUND | BOYS",
    "header": [
-    "ub."
+    "OVERALL AGE GROUND",
+    "BOYS"
    ]
   },
   {
    "col_no": "10",
-   "name": "ul)",
+   "name": "OVERALL AGE GROUND | DILS",
    "header": [
-    "ul)"
+    "OVERALL AGE GROUND",
+    "DILS"
    ]
   }
  ],
- "notes": [
-  "31 LAKSHADWEEP 9 fe) ie) ie) ie) ie)",
-  "mt Ny’ 1 a) ‘ i “4",
-  "Note: 1. 7-12 years means 7 years and above but below 12 years of age etc.",
-  "2. NR stands for Data not received."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 16,
+  "cells_passed": 11,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 8222, sum 9222",
+   "col 6 'TOTAL (STATES)': printed 678, sum 579",
+   "col 7 'TOTAL (STATES)': printed 1253, sum 1238",
+   "col 9 'TOTAL (STATES)': printed 1970, sum 1972",
+   "col 10 'TOTAL (STATES)': printed 12340, sum 12411"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 2,
  "warnings": []
 }

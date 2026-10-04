@@ -1,48 +1,100 @@
-section,sl_no,Name of District,Murder,Culpable Homicide not amounting to murder,Rape,Kidnapping and Abduction,Decoity
-,26,Shahjahanpur,116,40,19,71,67
-,27,Rampur,53,11,12,47,38
-,28,Agra,104,25,13,178,153
-,29,Mathura,57,7,10,52,149
-,30,Etah,155,15,10,102,106
-,31,Aligarh,82,13,9,85,75
-,32,Mainpuri,83,17,5,81,150
-,33,Gorakhpur,70,20,21,58,142
-,34,Basti,75,20,15,79,95
-,35,Deoria,70,16,7,31,154
-,36,Raizabad,68,27,38,58,85
-,37,Bahraich,52,17,16,97,69
-,38,Bara Banki,68,14,5,39,118
-,39,Gonda,67,37,20,94,136
-,40,Pratapparh,27,27,3,19,85
-,41,Sultanpur,43,16,3,35,38
-,42,Jhansi,56,17,17,26,100
-,43,Banda,103,26,13,26,59
-,44,Hamirpur,108,34,9,12,50
-,45,Jalaun,55,5,7,17,57
-,46,Naini Tal,31,8,18,66,42
-,47,Almora,-,-,-,2,2
-,48,Tehri Garhwal,2,-,-,-,-
-,49,Pauri Garhwal,1,1,1,4,1
-,50,Chamoli,3,2,-,1,-
-,51,Uttar Kashi,2,-,-,-,-
-,52,Pihoragarh,1,2,-,2,1
-,53,G.R.P.,25,6,11,28,24
-,54,Azamgarh,101,18,9,21,174
-WEST BENGAL,1,Bankura,25,18,6,18,37
-WEST BENGAL,2,Birbhum,39,10,25,8,60
-WEST BENGAL,3,Burdwan,104,37,20,66,197
-WEST BENGAL,4,Hooghly,43,25,14,47,65
-WEST BENGAL,5,Midnapore,102,35,14,58,100
-WEST BENGAL,6,Purulia,38,13,8,15,44
-WEST BENGAL,7,24-Parganas,144,50,68,180,200
-WEST BENGAL,8,Murshidabad,62,36,32,56,61
-WEST BENGAL,9,Nadia,30,13,22,40,92
-WEST BENGAL,10,Hawrah,49,11,18,42,39
-WEST BENGAL,11,West Dinajpur,39,18,11,25,141
-WEST BENGAL,12,Malda,34,21,13,24,37
-WEST BENGAL,13,Jalpaiguri,66,54,17,15,75
-WEST BENGAL,14,Darjeeling,22,8,6,12,11
-WEST BENGAL,,15* Cooch Behar,29,6,13,14,87
-ANDAMAN AND NICOBAR ISLANDS,1,Andaman and Nicobar Islands,4,-,-,6,-
-CHANDIGARH,1,Chandigarh,2,4,5,12,-
-DADRA & NAGAR HAVELI,1,Dadra & Nagar Haveli,1,-,1,-,-
+section,sl_no,Name of District,Number of | Murder,Number of | CulpableHomicidenot amou-nting tomurder,Number of | Rape,Number of | KidnappingandAbduction,Burglary,Thefts,Total Cognizable Crime Under IPC
+,6,Sambalpur . .,43,-,4,11,,,
+,7,Dhenkanal . .,26,1,1,3,,,
+,8,Sundargarh . .,23,1,1,4,,,
+,9,Bolangir . .,27,4,2,8,,,
+,10,Keonjhar . .,28,1,2,5,,,
+,11,Phulbani . .,11,6,1,5,,,
+,12,Majorbhanj . .,37,5,4,7,,,
+,13,Kalahandi . .,23,5,-,9,,,
+,14,Rourkela . .,10,3,5,3,,,
+,15,G.R.P. . .,2,-,-,3,,,
+PUNJAB,1,Hoshlarpur . .,33,8,3,5,,,
+PUNJAB,2,Jullundur . .,68,18,12,41,,,
+PUNJAB,3,Ludhiana . .,54,18,7,31,,,
+PUNJAB,4,Kapurthala . .,10,2,4,8,,,
+PUNJAB,5,Amritsar . .,43,37,20,62,,,
+PUNJAB,6,Peropur . .,70,20,4,18,,,
+PUNJAB,7,Gurdaspur . .,41,18,9,28,,,
+PUNJAB,8,Patlala . .,55,11,10,41,,,
+PUNJAB,9,Sangpur . .,73,8,10,21,,,
+PUNJAB,10,Bhatinda . .,81,119,8,20,,,
+PUNJAB,11,Faridkot . .,76,19,15,15,,,
+PUNJAB,12,Ropar . .,10,5,5,11,,,
+RAJASTHAN,1,Ajmer . .,34,-,5,51,,,
+RAJASTHAN,2,Alwar . .,43,1,6,37,,,
+RAJASTHAN,3,Bharatpur . .,53,3,9,87,,,
+RAJASTHAN,4,Jaipur . .,51,1,4,96,,,
+RAJASTHAN,5,Jhunjhangu . .,20,1,3,14,,,
+RAJASTHAN,6,Sawai Madhapur . .,23,2,-,47,,,
+RAJASTHAN,7,Sikar . .,21,3,7,22,,,
+RAJASTHAN,8,Tonk . .,8,-,5,35,,,
+RAJASTHAN,9,Bikaner . .,13,-,3,21,,,
+RAJASTHAN,10,Chutu . .,19,-,1,10,,,
+RAJASTHAN,11,Gaugatagar . .,95,2,32,49,,,
+RAJASTHAN,12,Barmer . .,19,-,5,13,,,
+RAJASTHAN,13,Jaishmest . .,5,-,1,2,,,
+RAJASTHAN,14,Jaipur . .,17,2,4,11,,,
+RAJASTHAN,15,Jodhpur . .,20,-,9,27,,,
+RAJASTHAN,16,Nagpur . .,27,2,6,33,,,
+RAJASTHAN,17,Pali . .,19,-,1,33,,,
+RAJASTHAN,18,Strohl . .,6,-,1,4,,,
+RAJASTHAN,19,Banswara . .,15,-,4,26,,,
+RAJASTHAN,20,Bhilwara . .,23,1,7,96,,,
+RAJASTHAN,21,Bundl . .,17,2,2,38,,,
+RAJASTHAN,22,Chittorgarh . .,31,11,7,157,,,
+RAJASTHAN,23,Dungapur . .,12,-,-,24,,,
+RAJASTHAN,24,Jhalawar . .,23,-,5,24,,,
+RAJASTHAN,25,Kota . .,45,5,7,58,,,
+RAJASTHAN,26,Udaipur . .,36,8,8,156,,,
+RAJASTHAN,27,G.R.P. . .,4,-,2,6,,,
+,,8,11,12,13,14,9,10,15
+,,28,140,71,67,-,668,952,"2,885"
+,,11,76,40,9,-,308,666,"1,620"
+,,19,32,11,19,-,316,469,"1,339"
+,,20,93,21,40,-,295,523,"1,418"
+,,6,42,25,6,-,406,435,"1,333"
+,,8,37,14,8,-,198,278,809
+,,34,70,29,29,-,360,633,"1,706"
+,,12,49,28,187,1,239,469,"1,455"
+,,46,31,17,10,-,199,566,"1,358"
+,,15,58,15,5,-,54,583,829
+,,2,19,19,16,-,89,114,622
+,,7,5,55,48,-,191,403,"1,584"
+,,4,15,37,49,-,141,383,"1,392"
+,,2,-,19,15,-,67,103,"4,0"
+,,15,5,63,48,2,273,389,"2,178"
+,,2,-,23,27,1,111,126,83
+,,3,-,26,18,1,123,169,962
+,,11,6,54,33,-,191,402,"1,435"
+,,7,5,19,10,-,114,169,855
+,,2,1,38,11,-,115,171,915
+,,-,10,22,14,1,103,146,960
+,,-,2,10,9,-,43,60,341
+,,49,212,33,51,2,344,613,"2,166"
+,,45,320,37,39,-,337,584,"2,171"
+,,81,607,21,35,1,432,864,"3,040"
+,,109,811,76,122,-,951,"1,778","5,618"
+,,25,162,12,13,-,237,227,999
+,,63,299,16,26,-,283,308,"1,637"
+,,41,203,19,37,1,279,339,"1,405"
+,,21,148,21,14,-,235,266,"1,115"
+,,43,129,27,27,-,123,217,"1,032"
+,,22,117,17,13,-,149,208,948
+,,69,110,46,25,2,336,360,"2,583"
+,,63,112,25,23,-,107,194,915
+,,11,10,8,6,-,36,57,216
+,,10,84,8,7,-,72,120,589
+,,82,195,29,39,-,338,590,"1,937"
+,,47,254,29,26,-,218,350,"1,703"
+,,25,129,24,14,-,199,268,"1,182"
+,,5,33,13,8,-,85,66,388
+,,14,121,13,19,-,171,118,726
+,,48,255,31,35,-,387,386,"1,847"
+,,52,100,16,9,-,184,152,934
+,,40,376,34,69,-,387,398,"2,409"
+,,3,46,10,8,-,72,63,394
+,,28,111,9,19,-,331,213,"1,279"
+,,69,288,48,46,2,541,640,"2,840"
+,,69,565,60,46,-,654,721,"3,356"
+,,12,10,9,9,-,13,628,700

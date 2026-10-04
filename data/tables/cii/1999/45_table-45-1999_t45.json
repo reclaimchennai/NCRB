@@ -96,16 +96,16 @@
   },
   {
    "col_no": "13",
-   "name": "CASES REPORT-TEI FOR REGULAR DEPARTMENTAL ACTION",
+   "name": "CASES REPORTED FOR REGULAR DEPARTMENTAL ACTION",
    "header": [
-    "CASES REPORT-TEI FOR REGULAR DEPARTMENTAL ACTION"
+    "CASES REPORTED FOR REGULAR DEPARTMENTAL ACTION"
    ]
   },
   {
    "col_no": "14",
-   "name": "CASES REPORTED FOR SUITABLE ACTION",
+   "name": "CASES REPORTED FOR SUSTA-BLE ACTION",
    "header": [
-    "CASES REPORTED FOR SUITABLE ACTION"
+    "CASES REPORTED FOR SUSTA-BLE ACTION"
    ]
   },
   {
@@ -124,16 +124,16 @@
   },
   {
    "col_no": "17",
-   "name": "CASES RESOLTED IN RECOVERY OR SEIZURE",
+   "name": "CASES RESULTED IN RECOVERY OR SEIZURE",
    "header": [
-    "CASES RESOLTED IN RECOVERY OR SEIZURE"
+    "CASES RESULTED IN RECOVERY OR SEIZURE"
    ]
   },
   {
    "col_no": "18",
-   "name": "VALUE OF PROPERTY RECOVERED/ SEIZED (IN RS.000)",
+   "name": "VALUE OF PROPERTY RECOVERED/SEIZED (IN RS.'000)",
    "header": [
-    "VALUE OF PROPERTY RECOVERED/ SEIZED (IN RS.000)"
+    "VALUE OF PROPERTY RECOVERED/SEIZED (IN RS.'000)"
    ]
   },
   {
@@ -208,22 +208,18 @@
   },
   {
    "col_no": "29",
-   "name": "TOTAL AMOUNT OF FINE IMPOSED DURING THE YEAR (IN RS.000)",
+   "name": "TOTAL AMOUNT OF FINE IMPOSED DURING THE YEAR (IN RS.'000)",
    "header": [
-    "TOTAL AMOUNT OF FINE IMPOSED DURING THE YEAR (IN RS.000)"
+    "TOTAL AMOUNT OF FINE IMPOSED DURING THE YEAR (IN RS.'000)"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 69,
-  "cells_passed": 64,
+  "cells_passed": 68,
   "failures": [
-   "col 21 'TOTAL (STATES)': printed 2083, sum 2073",
-   "col 21 'TOTAL (UTs)': printed 168, sum 108",
-   "col 21 'TOTAL (ALL-INDIA)': printed 2191, sum 2251",
-   "col 26 'TOTAL (STATES)': printed 1056, sum 1046",
-   "col 27 'TOTAL (STATES)': printed 9706, sum 9697"
+   "col 27 'TOTAL (STATES)': printed 9706, sum 9616"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

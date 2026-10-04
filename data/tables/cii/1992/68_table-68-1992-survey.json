@@ -14,7 +14,7 @@
  "source_file": "raw/cii/1992/table_content/table-68-1992-survey.pdf",
  "source_sha256": "bc49a3a1ad1ddd9ae77fc35b23b88349948fa14647bcb998c350c64cc5d30bd7",
  "table_no": "68",
- "pdf_title": "303 TABLE-68 SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICIS",
+ "pdf_title": "303 TABLE-68 SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICB",
  "row_label": "SL. STATE/UT NO.",
  "pages": [
   1,
@@ -108,13 +108,12 @@
  "notes": [],
  "checks": {
   "cells_checked": 30,
-  "cells_passed": 25,
+  "cells_passed": 26,
   "failures": [
-   "col 7 'TOTAL (STATES)': printed 112849, sum 115889",
-   "col 9 'TOTAL (STATES)': printed 814401, sum 818333",
-   "col 10 'TOTAL (STATES)': printed 765892, sum 776360",
-   "col 11 'TOTAL (STATES)': printed 935429, sum 935558",
-   "col 12 'TOTAL (STATES)': printed 877194, sum 879552"
+   "col 9 'TOTAL (STATES)': printed 814401, sum 814463",
+   "col 10 'TOTAL (STATES)': printed 765892, sum 776304",
+   "col 11 'TOTAL (STATES)': printed 935429, sum 935553",
+   "col 12 'TOTAL (STATES)': printed 877194, sum 879560"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

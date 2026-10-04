@@ -15,7 +15,7 @@
  "source_sha256": "c731da4d97994f666739eb88b23ad93ae6f7ee119e49441acd508ef5aa815bc9",
  "table_no": "50",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-50",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
@@ -78,9 +78,9 @@
   },
   {
    "col_no": "10",
-   "name": "DACOTY",
+   "name": "DACOITY",
    "header": [
-    "DACOTY"
+    "DACOITY"
    ]
   },
   {
@@ -150,14 +150,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 24,
-  "cells_passed": 19,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 364, sum 365",
-   "col 6 'TOTAL (STATES)': printed 176, sum 175",
-   "col 6 'TOTAL (ALL-INDIA)': printed 181, sum 182",
-   "col 8 'TOTAL (UTS)': printed 6, sum 5",
-   "col 8 'TOTAL (ALL-INDIA)': printed 59, sum 60"
-  ],
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

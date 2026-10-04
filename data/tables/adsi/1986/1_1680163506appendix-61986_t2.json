@@ -17,11 +17,13 @@
  "pdf_title": "UNION TERRITORIES",
  "row_label": "25. 26. / A & N Islands Chandigarh",
  "pages": [
-  2
+  2,
+  2,
+  3
  ],
- "n_rows": 1,
- "n_cols": 7,
- "n_cells": 7,
+ "n_rows": 3,
+ "n_cols": 8,
+ "n_cells": 21,
  "columns": [
   {
    "col_no": "3",
@@ -78,6 +80,13 @@
     "1(1.4)",
     "2(6.9)"
    ]
+  },
+  {
+   "col_no": "2",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
   }
  ],
  "notes": [],
@@ -89,6 +98,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

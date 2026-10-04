@@ -32,10 +32,10 @@
   },
   {
    "col_no": "4",
-   "name": "NO. OF CASES | COMPOUN-DED OR WITH-DRAWN",
+   "name": "NO. OF CASES | COMPOUNDED OR WITH-DRAWN",
    "header": [
     "NO. OF CASES",
-    "COMPOUN-DED OR WITH-DRAWN"
+    "COMPOUNDED OR WITH-DRAWN"
    ]
   },
   {
@@ -89,21 +89,17 @@
   },
   {
    "col_no": "11",
-   "name": "CONVICTION RATE [(5)/(17)] X 100",
+   "name": "CONVICTION RATE [(5)/(7)] X 100",
    "header": [
-    "CONVICTION RATE [(5)/(17)] X 100"
+    "CONVICTION RATE [(5)/(7)] X 100"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 18,
-  "cells_passed": 13,
+  "cells_passed": 17,
   "failures": [
-   "col 3 'TOTAL (UTs)': printed 199795, sum 199796",
-   "col 3 'TOTAL (ALL-INDIA)': printed 5.68048e+06, sum 5.66048e+06",
-   "col 5 'TOTAL (STATES)': printed 321064, sum 321054",
-   "col 5 'TOTAL (ALL-INDIA)': printed 335036, sum 335046",
    "col 7 'TOTAL (STATES)': printed 159911, sum 859911"
   ],
   "other_totals_checked": 0,

@@ -15,15 +15,14 @@
  "source_sha256": "a683b10f80119572d12950fa9372e012e1e4d02cb51f4a1a54540262e6902055",
  "table_no": "5",
  "pdf_title": "Table 5 presents the percentage distribution of accidental deaths by sex in the different States, Union Territories and Cities. On an average about two thirds of the persons (62.7%), who were involved in accidents, were males. A similar pattern emerged in almost all the States, excepting Jammu & Kashmir, Assam and Punjab, where the percentage of males involved was 71·4%, 73·8% and 85·5% respectively. Among the Union Territories also, the over-all percentage (75·5%) of males involved is higher than the all-India average. Among the comparable cities, Bombay, Calcutta and Delhi indicated more than 70% of male involvement.",
- "row_label": "22. / Goa, Daman & Diu",
+ "row_label": "Sl. No.",
  "pages": [
-  9,
   9,
   10
  ],
- "n_rows": 40,
- "n_cols": 12,
- "n_cells": 347,
+ "n_rows": 39,
+ "n_cols": 9,
+ "n_cells": 300,
  "columns": [
   {
    "col_no": "3",
@@ -46,59 +45,38 @@
    "header": []
   },
   {
-   "col_no": "7",
-   "name": "0·17",
-   "header": [
-    "0·17"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "675",
-   "header": [
-    "675"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "32·6",
-   "header": [
-    "32·6"
-   ]
-  },
-  {
    "col_no": "10001",
+   "name": "States/U. Ts/Cities",
+   "header": [
+    "States/U. Ts/Cities"
+   ]
+  },
+  {
+   "col_no": "10002",
    "name": "Males involved",
    "header": [
     "Males involved"
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "10003",
    "name": "% of males to total",
    "header": [
     "% of males to total"
    ]
   },
   {
-   "col_no": "10003",
+   "col_no": "10004",
    "name": "Females involved",
    "header": [
     "Females involved"
    ]
   },
   {
-   "col_no": "10004",
+   "col_no": "7",
    "name": "% of Females to total",
    "header": [
     "% of Females to total"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "Total",
-   "header": [
-    "Total"
    ]
   }
  ],
@@ -108,9 +86,9 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 16,
-  "other_totals_passed": 2
+  "other_totals_passed": 12
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 2,
  "warnings": []
 }

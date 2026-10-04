@@ -13,16 +13,23 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-54-1999.pdf",
  "source_file": "raw/cii/1999/table_content/table-54-1999.pdf",
  "source_sha256": "81af31612ddf5f732ed95c34205c7180b525a13699158e538461d22258a29e01",
- "table_no": "54",
- "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 54",
- "row_label": "SL. NO. / CRIME HEAD",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
  "n_rows": 51,
- "n_cols": 8,
- "n_cells": 408,
+ "n_cols": 7,
+ "n_cells": 357,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "CRIME HEAD",
+   "header": [
+    "CRIME HEAD"
+   ]
+  },
   {
    "col_no": "3",
    "name": "7 - 12 YEARS | BOYS",
@@ -33,22 +40,6 @@
   },
   {
    "col_no": "4",
-   "name": "7 - 12 YEARS | GIRLS",
-   "header": [
-    "7 - 12 YEARS",
-    "GIRLS"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "12 - 16 YEARS | BOYS",
-   "header": [
-    "12 - 16 YEARS",
-    "BOYS"
-   ]
-  },
-  {
-   "col_no": "6",
    "name": "12 - 16 YEARS | GIRLS",
    "header": [
     "12 - 16 YEARS",
@@ -56,23 +47,15 @@
    ]
   },
   {
-   "col_no": "7",
-   "name": "16 - 18 YEARS | GIRLS ONLY",
+   "col_no": "5",
+   "name": "16 - 18 YEARS | BOYS",
    "header": [
     "16 - 18 YEARS",
-    "GIRLS ONLY"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "OVERALL AGE GROUP | BOYS",
-   "header": [
-    "OVERALL AGE GROUP",
     "BOYS"
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "6",
    "name": "OVERALL AGE GROUP | GIRLS",
    "header": [
     "OVERALL AGE GROUP",
@@ -80,10 +63,19 @@
    ]
   },
   {
-   "col_no": "10",
-   "name": "TOTAL (BOYS + GIRLS)",
+   "col_no": "7",
+   "name": "OVERALL AGE GROUP | BOYS",
    "header": [
-    "TOTAL (BOYS + GIRLS)"
+    "OVERALL AGE GROUP",
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "TOTAL (BOYS + GIRLS) | GIRLS",
+   "header": [
+    "TOTAL (BOYS + GIRLS)",
+    "GIRLS"
    ]
   }
  ],
@@ -92,8 +84,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 24,
-  "other_totals_passed": 16
+  "other_totals_checked": 21,
+  "other_totals_passed": 19
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

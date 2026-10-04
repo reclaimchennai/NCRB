@@ -14,7 +14,7 @@
  "source_file": "raw/adsi/1988/table_content/1680163886appendix-31988.pdf",
  "source_sha256": "5f3710ea13da9da1515161d20d50431b4e5fd7c6e6ff79e8aded68846fa35684",
  "table_no": "",
- "pdf_title": "42 Statewise Distribution Of Sudden By Causes During 1988 APPENDIX-III",
+ "pdf_title": "42 Statewise Distribution Of Suicides By Causes During 1988 APPENDIX-III",
  "row_label": "Sl. No. / State/UTs/Cities",
  "pages": [
   1,
@@ -26,9 +26,9 @@
   7,
   8
  ],
- "n_rows": 50,
+ "n_rows": 51,
  "n_cols": 35,
- "n_cells": 1676,
+ "n_cells": 1679,
  "columns": [
   {
    "col_no": "3",
@@ -313,17 +313,17 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 126,
-  "cells_passed": 98,
+  "cells_checked": 129,
+  "cells_passed": 116,
   "failures": [
    "col 13 'TOTAL (STATES):': printed 1381, sum 1288",
    "col 14 'TOTAL (STATES):': printed 785, sum 716",
-   "col 14 'TOTAL (UTs)': printed 18, sum 14",
-   "col 14 'TOTAL (ALL INDIA)': printed 1399, sum 803",
    "col 15 'TOTAL (STATES):': printed 884, sum 813",
-   "col 15 'TOTAL (UTs)': printed 14, sum 27",
-   "col 15 'TOTAL (ALL INDIA)': printed 799, sum 898",
-   "col 15 'TOTAL (CITIES)': printed 53, sum 15"
+   "col 16 'TOTAL (STATES):': printed 304, sum 278",
+   "col 16 'TOTAL (CITIES)': printed 4, sum 6",
+   "col 17 'TOTAL (STATES):': printed 5551, sum 4990",
+   "col 18 'TOTAL (STATES):': printed 3493, sum 3038",
+   "col 19 'TOTAL (STATES):': printed 872, sum 809"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -1,0 +1,105 @@
+{
+ "table_id": "cii/1993/53_table-53-1993-crime",
+ "publication": "cii",
+ "year": 1993,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "53",
+ "title": "Juveniles Apprehended under L&SL Crimes by Age-Groups & Sex During 1993 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Apprehended under L&SL Crimes by Age-Groups & Sex During 1993 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-53-1993-crime.pdf",
+ "source_file": "raw/cii/1993/table_content/table-53-1993-crime.pdf",
+ "source_sha256": "df4063320ab30bf79dcbf8090e551fb35347ce82c0838944618edb6a07bf2359",
+ "table_no": "53",
+ "pdf_title": "241 TABLE-53 JUVENILES APPREHENDED UNDER L&SL CRIMES BY",
+ "row_label": "SL NO. / STATE/UN",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 58,
+ "n_cols": 8,
+ "n_cells": 464,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "7-12 YEARS | MOYD",
+   "header": [
+    "7-12 YEARS",
+    "MOYD"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "7-12 YEARS | BILLS",
+   "header": [
+    "7-12 YEARS",
+    "BILLS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "13-16 YEARS | MOYD",
+   "header": [
+    "13-16 YEARS",
+    "MOYD"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "13-16 YEARS | BILLS",
+   "header": [
+    "13-16 YEARS",
+    "BILLS"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "14-18 YEARS | BILLS ONLY",
+   "header": [
+    "14-18 YEARS",
+    "BILLS ONLY"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "OUTLANDS GROUPS | MOYD (8)",
+   "header": [
+    "OUTLANDS GROUPS",
+    "MOYD"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OUTLANDS GROUPS | MOYD (9)",
+   "header": [
+    "OUTLANDS GROUPS",
+    "MOYD"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "TOTAL BILLS + OBLI",
+   "header": [
+    "TOTAL BILLS + OBLI"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 16,
+  "cells_passed": 14,
+  "failures": [
+   "col 10 'TOTAL STATES': printed 7395, sum 7385",
+   "col 10 'TOTAL (ALL-INDIA)': printed 7414, sum 7424"
+  ],
+  "other_totals_checked": 8,
+  "other_totals_passed": 8
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

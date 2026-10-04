@@ -6,62 +6,56 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1982",
  "serial": "3",
- "title": "Suicides classified =====-\"== to Sex and by States, Union amd [-i-7--j--:== Cities during 1982",
+ "title": "Suicides classified according to Sex and by States, Union Territories and Metropolitan Cities during 1982",
  "listing_title": "Suicidal Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/suicides-1982.pdf",
  "source_file": "raw/adsi/1982/year_wise/suicides-1982.pdf",
  "source_sha256": "bc18a40d8ada8600ad16a530954abf42c02f54c1e6c3716175834c34e491e9d8",
  "table_no": "VII",
- "pdf_title": "Suicides classified =====-\"== to Sex and by States, Union amd [-i-7--j--:== Cities during 1982",
- "row_label": "Sl. States/UTs/Cities No.",
+ "pdf_title": "Suicides classified according to Sex and by States, Union Territories and Metropolitan Cities during 1982",
+ "row_label": "Sl. No. / States/UTs/Cities",
  "pages": [
   16,
+  17,
   17
  ],
- "n_rows": 48,
- "n_cols": 6,
- "n_cells": 239,
+ "n_rows": 47,
+ "n_cols": 5,
+ "n_cells": 107,
  "columns": [
   {
-   "col_no": "2",
+   "col_no": "3",
    "name": "Male",
    "header": [
     "Male"
    ]
   },
   {
-   "col_no": "3",
+   "col_no": "4",
    "name": "% of Male to total",
    "header": [
     "% of Male to total"
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "5",
    "name": "Female",
    "header": [
     "Female"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "6",
    "name": "% of Female to total",
    "header": [
     "% of Female to total"
    ]
   },
   {
-   "col_no": "6",
-   "name": "Total (6)",
-   "header": [
-    "Total"
-   ]
-  },
-  {
    "col_no": "7",
-   "name": "Total (7)",
+   "name": "Total",
    "header": [
     "Total"
    ]
@@ -72,10 +66,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

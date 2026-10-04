@@ -27,42 +27,42 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "DG/IG/DIG/SUPDT. | SANCT- IONED",
+   "name": "DG/JG/DIG/SUPDT. | SANCT-IONED",
    "header": [
-    "DG/IG/DIG/SUPDT.",
-    "SANCT- IONED"
+    "DG/JG/DIG/SUPDT.",
+    "SANCT-IONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "DG/IG/DIG/SUPDT. | ACTUAL",
+   "name": "DG/JG/DIG/SUPDT. | ACTUAL",
    "header": [
-    "DG/IG/DIG/SUPDT.",
+    "DG/JG/DIG/SUPDT.",
     "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "DYSP/JAILOR/ D JAILOR/A JAILOR/ A. SUPDT. | SANCT- IONED",
+   "name": "DYSP/JAILOR/D.JAILOR/A.JAILOR/A.SUPDT. | SANCT-IONED",
    "header": [
-    "DYSP/JAILOR/ D JAILOR/A JAILOR/ A. SUPDT.",
-    "SANCT- IONED"
+    "DYSP/JAILOR/D.JAILOR/A.JAILOR/A.SUPDT.",
+    "SANCT-IONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "DYSP/JAILOR/ D JAILOR/A JAILOR/ A. SUPDT. | ACTUAL",
+   "name": "DYSP/JAILOR/D.JAILOR/A.JAILOR/A.SUPDT. | ACTUAL",
    "header": [
-    "DYSP/JAILOR/ D JAILOR/A JAILOR/ A. SUPDT.",
+    "DYSP/JAILOR/D.JAILOR/A.JAILOR/A.SUPDT.",
     "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "OTHER OFFICERS | SANCT- IONED",
+   "name": "OTHER OFFICERS | SANCT-IONED",
    "header": [
     "OTHER OFFICERS",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -75,10 +75,10 @@
   },
   {
    "col_no": "9",
-   "name": "HEAD WARDERS/HEAD MATRON | SANCT- IONED",
+   "name": "HEAD WARDERS/HEAD MATRON | SANCT-IONED",
    "header": [
     "HEAD WARDERS/HEAD MATRON",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -253,14 +253,13 @@
  "notes": [],
  "checks": {
   "cells_checked": 84,
-  "cells_passed": 78,
+  "cells_passed": 79,
   "failures": [
-   "col 11 'TOTAL (UTS)': printed 97, sum 92",
-   "col 12 'TOTAL (UTS)': printed 26, sum 21",
-   "col 25 'TOTAL (UTS)': printed 61, sum 60",
-   "col 26 'TOTAL (UTS)': printed 26, sum 25",
-   "col 29 'TOTAL (UTS)': printed 194, sum 188",
-   "col 30 'TOTAL (UTS)': printed 131, sum 125"
+   "col 25 'TOTAL (UTS)': printed 61, sum 4",
+   "col 26 'TOTAL (UTS)': printed 26, sum 4",
+   "col 28 'TOTAL (UTS)': printed 42, sum 0",
+   "col 29 'TOTAL (UTS)': printed 194, sum 25",
+   "col 30 'TOTAL (UTS)': printed 131, sum 25"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

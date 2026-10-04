@@ -15,20 +15,20 @@
  "source_sha256": "ee6a19fdd7a0db0ad950eb33b3dbbb5a6e76b8faad920e60f5e28bb97d3e709f",
  "table_no": "46",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-46",
- "row_label": "SL. NO. / STATE/UT",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 38,
+ "n_rows": 36,
  "n_cols": 23,
- "n_cells": 790,
+ "n_cells": 805,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERSONS IN CUST./BAIL DURING INVESTIGATION AT BEGINNING OF THE YEAR",
+   "name": "PERSONS IN CUST./BAIL DURING INVE-STIGATION AT BEGINNING OF THE YEAR",
    "header": [
-    "PERSONS IN CUST./BAIL DURING INVESTIGATION AT BEGINNING OF THE YEAR"
+    "PERSONS IN CUST./BAIL DURING INVE-STIGATION AT BEGINNING OF THE YEAR"
    ]
   },
   {
@@ -47,16 +47,16 @@
   },
   {
    "col_no": "6",
-   "name": "PERSONS IN CUST.-DY/BAIL DURING INVESTIGATION AT THE END OF YEAR",
+   "name": "ERSONS IN CUST-DY/BAIL DURING INVESTIGATION AT THE END OF YEAR",
    "header": [
-    "PERSONS IN CUST.-DY/BAIL DURING INVESTIGATION AT THE END OF YEAR"
+    "ERSONS IN CUST-DY/BAIL DURING INVESTIGATION AT THE END OF YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "PERSONS IN WHOSE CASES CHARGE SHEETS WERE LAID",
+   "name": "PERSONS IN WHOSE CASES CHARGE-SHEETS WERE LAID",
    "header": [
-    "PERSONS IN WHOSE CASES CHARGE SHEETS WERE LAID"
+    "PERSONS IN WHOSE CASES CHARGE-SHEETS WERE LAID"
    ]
   },
   {
@@ -82,9 +82,9 @@
   },
   {
    "col_no": "11",
-   "name": "PERSONS IN CUST.-TODY/ BAIL DURING TRIAL AT THE O-END OF YEAR",
+   "name": "PERSONS IN CUST-TODY/ BAIL DURING TRIAL AT THE END OF YEAR",
    "header": [
-    "PERSONS IN CUST.-TODY/ BAIL DURING TRIAL AT THE O-END OF YEAR"
+    "PERSONS IN CUST-TODY/ BAIL DURING TRIAL AT THE END OF YEAR"
    ]
   },
   {
@@ -103,9 +103,9 @@
   },
   {
    "col_no": "14",
-   "name": "PERSONS ACQUI-TTED",
+   "name": "PERSONS ACQUITTED",
    "header": [
-    "PERSONS ACQUI-TTED"
+    "PERSONS ACQUITTED"
    ]
   },
   {
@@ -124,9 +124,9 @@
   },
   {
    "col_no": "17",
-   "name": "PERSONS REPORTED FOR SUSTABLE ACTION",
+   "name": "PERSONS REPORTED FOR SLITABLE ACTION",
    "header": [
-    "PERSONS REPORTED FOR SUSTABLE ACTION"
+    "PERSONS REPORTED FOR SLITABLE ACTION"
    ]
   },
   {
@@ -163,17 +163,17 @@
   },
   {
    "col_no": "22",
-   "name": "GAZETTED OR EQUAL STATUS OFFICERS IN PUBLIC UNDER TAKINGS INVOLVED | GROUP \"A\" OFFICERS",
+   "name": "GAZETTED OR EQUAL STATUS OFFICERS IN PUBLIC UNDER-TAKINGS INVOLVED | GROUP \"A\" OFFICERS",
    "header": [
-    "GAZETTED OR EQUAL STATUS OFFICERS IN PUBLIC UNDER TAKINGS INVOLVED",
+    "GAZETTED OR EQUAL STATUS OFFICERS IN PUBLIC UNDER-TAKINGS INVOLVED",
     "GROUP \"A\" OFFICERS"
    ]
   },
   {
    "col_no": "23",
-   "name": "GAZETTED OR EQUAL STATUS OFFICERS IN PUBLIC UNDER TAKINGS INVOLVED | GROUP \"B\" OFFICERS",
+   "name": "GAZETTED OR EQUAL STATUS OFFICERS IN PUBLIC UNDER-TAKINGS INVOLVED | GROUP \"B\" OFFICERS",
    "header": [
-    "GAZETTED OR EQUAL STATUS OFFICERS IN PUBLIC UNDER TAKINGS INVOLVED",
+    "GAZETTED OR EQUAL STATUS OFFICERS IN PUBLIC UNDER-TAKINGS INVOLVED",
     "GROUP \"B\" OFFICERS"
    ]
   },
@@ -195,19 +195,19 @@
  "notes": [],
  "checks": {
   "cells_checked": 44,
-  "cells_passed": 31,
+  "cells_passed": 33,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 3551, sum 3531",
-   "col 6 'TOTAL (STATES)': printed 3848, sum 3645",
-   "col 8 'TOTAL (STATES)': printed 12552, sum 12542",
-   "col 9 'TOTAL (STATES)': printed 13843, sum 13849",
+   "col 4 'TOTAL (STATES)': printed 3532, sum 3512",
+   "col 6 'TOTAL (STATES)': printed 3648, sum 3646",
+   "col 9 'TOTAL (STATES)': printed 13849, sum 13847",
    "col 11 'TOTAL (UTs)': printed 242, sum 240",
    "col 13 'TOTAL (STATES)': printed 345, sum 346",
    "col 16 'TOTAL (STATES)': printed 206, sum 146",
-   "col 21 'TOTAL (STATES)': printed 64, sum 61"
+   "col 22 'TOTAL (STATES)': printed 182, sum 179",
+   "col 23 'TOTAL (STATES)': printed 261, sum 263"
   ],
   "other_totals_checked": 22,
-  "other_totals_passed": 18
+  "other_totals_passed": 21
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

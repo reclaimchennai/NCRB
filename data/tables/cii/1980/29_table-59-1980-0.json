@@ -15,7 +15,7 @@
  "source_sha256": "b4bd1f14a198b730d491d5ec430dace6fbb9f48139a1d132d505751268cf4bc0",
  "table_no": "59",
  "pdf_title": "141 TABLE 59 Armed Police 1980",
- "row_label": "Sl. No. / States/U.Ts. Cities",
+ "row_label": "Sl. No. / States/U.T.s. Cities",
  "pages": [
   1
  ],
@@ -25,9 +25,9 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "LG.,D.I.G. & S.P.",
+   "name": "LG.,D.LG. & S.P.",
    "header": [
-    "LG.,D.I.G. & S.P."
+    "LG.,D.LG. & S.P."
    ]
   },
   {
@@ -62,13 +62,12 @@
  "notes": [],
  "checks": {
   "cells_checked": 15,
-  "cells_passed": 13,
+  "cells_passed": 14,
   "failures": [
-   "col 5 'Total(States)': printed 6712, sum 6707",
-   "col 7 'Total(States)': printed 193029, sum 193020"
+   "col 6 'Total(States)': printed 185278, sum 183278"
   ],
   "other_totals_checked": 5,
-  "other_totals_passed": 4
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

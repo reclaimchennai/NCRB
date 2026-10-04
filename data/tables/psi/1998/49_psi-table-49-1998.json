@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-49_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-49_1998.pdf",
  "source_sha256": "e94b45a5d36d0786ec589b2295d47ba4ab0793c87c908268123ce519707b8cbc",
- "table_no": "49",
- "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-49",
- "row_label": "SL. NO. / STATE/UT",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "",
  "pages": [
   1
  ],
@@ -25,80 +25,56 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "INMATE POPULATION",
-   "header": [
-    "INMATE POPULATION"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "EXPENSES (RS. IN LAKHS) | FOOD",
-   "header": [
-    "EXPENSES (RS. IN LAKHS)",
-    "FOOD"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "EXPENSES (RS. IN LAKHS) | CLOTHING",
-   "header": [
-    "EXPENSES (RS. IN LAKHS)",
-    "CLOTHING"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "EXPENSES (RS. IN LAKHS) | MEDICAL",
-   "header": [
-    "EXPENSES (RS. IN LAKHS)",
-    "MEDICAL"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "EXPENSES (RS. IN LAKHS) | VOCATIONAL/EDUCATIONAL",
-   "header": [
-    "EXPENSES (RS. IN LAKHS)",
-    "VOCATIONAL/EDUCATIONAL"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "EXPENSES (RS. IN LAKHS) | WELFARE ACTIVITIES",
-   "header": [
-    "EXPENSES (RS. IN LAKHS)",
-    "WELFARE ACTIVITIES"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "EXPENSES (RS. IN LAKHS) | OTHERS",
-   "header": [
-    "EXPENSES (RS. IN LAKHS)",
-    "OTHERS"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "EXPENSES (RS. IN LAKHS) | TOTAL",
-   "header": [
-    "EXPENSES (RS. IN LAKHS)",
-    "TOTAL"
-   ]
+   "name": "col_10",
+   "header": []
   },
   {
    "col_no": "11",
-   "name": "EXPENSES (RS. IN LAKHS) | EXPENDI-TURE PER INMATE",
-   "header": [
-    "EXPENSES (RS. IN LAKHS)",
-    "EXPENDI-TURE PER INMATE"
-   ]
+   "name": "col_11",
+   "header": []
   }
  ],
- "notes": [],
+ "notes": [
+  "NA-DATA NOT AVAILABLE."
+ ],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

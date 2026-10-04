@@ -6,7 +6,7 @@
  "topic": "",
  "section": "PSI Year Wise 1998",
  "serial": "5",
- "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-23",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1998 TABLE-23",
  "listing_title": "Download Full Report",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,7 +14,7 @@
  "source_file": "raw/psi/1998/year_wise/psi-full-report-1998.pdf",
  "source_sha256": "909c0f522cac2610acdea467fb50f8e5108a91494356db6c3b7e02e40b904181",
  "table_no": "23",
- "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-23",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1998 TABLE-23",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   99,
@@ -174,9 +174,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 62,
-  "cells_passed": 62,
-  "failures": [],
+  "cells_checked": 61,
+  "cells_passed": 60,
+  "failures": [
+   "col 22 'TOTAL (ALL INDIA)': printed 5600, sum 5500"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -8,43 +8,88 @@
  "serial": "1",
  "title": "Survey of Crime",
  "listing_title": "Survey of Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-1988.pdf",
  "source_file": "raw/cii/1988/table_chapter/chapter-1-1988.pdf",
  "source_sha256": "ef3489f55de5ae55292a445a8d833829ae4ac71f0146a3108c0e1bf1be5311ba",
  "table_no": "",
- "pdf_title": "INCIDENCE OF TOTAL COGN!Z4RI F CRIMES UNDER IPC",
- "row_label": "-",
+ "pdf_title": "VOLUME OF TOTAL COGNIZABLE CRIMES UNDER L&SL 1978-1988",
+ "row_label": "Years",
  "pages": [
-  8
+  8,
+  14,
+  15
  ],
- "n_rows": 6,
- "n_cols": 2,
- "n_cells": 12,
+ "n_rows": 179,
+ "n_cols": 11,
+ "n_cells": 1629,
  "columns": [
   {
    "col_no": "2",
-   "name": "145 14.4 - 14.3 - 13.9",
-   "header": [
-    "145 14.4 - 14.3 - 13.9"
-   ]
+   "name": "col_2",
+   "header": []
   },
   {
    "col_no": "3",
-   "name": "197; 978-1988 i / 14.2 - / 14.1 - 7",
+   "name": "INCIDENCE OF CRIME",
    "header": [
-    "197; 978-1988 i / 14.2 - / 14.1 - 7"
+    "INCIDENCE OF CRIME"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "LINEAR (LINE JOINING TWO END YEARS)",
+   "header": [
+    "LINEAR (LINE JOINING TWO END YEARS)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "8",
+   "name": "col_8",
+   "header": []
+  },
+  {
+   "col_no": "9",
+   "name": "COMPOUNDED GROWTH RATE CURVE",
+   "header": [
+    "COMPOUNDED GROWTH RATE CURVE"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "col_10",
+   "header": []
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  },
+  {
+   "col_no": "10001",
+   "name": "CRIMES",
+   "header": [
+    "CRIMES"
    ]
   }
  ],
- "notes": [
-  "YEARS",
-  "QO INCIDENCE OF CRIME",
-  "° LINEAR (LINE JOINING TWO END YEARS)",
-  "+ COMPOUNDED GROWTH RATE CURVE",
-  "3—610 NCRB/90."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -52,7 +97,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 3,
  "warnings": []
 }

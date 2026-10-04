@@ -1,0 +1,172 @@
+{
+ "table_id": "cii/1980/23_table-50-1980-0_t50",
+ "publication": "cii",
+ "year": 1980,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "23",
+ "title": "Statement Indicating number of cases reported and value of property stolen under Dacoity by place of occurrence during 1980 (Value in Rs.lokhs)",
+ "listing_title": "Statement indicating Number of Cases Reported and Value of Property Stolen under Dacoity by Place of Occurrence During 1980",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-50-1980_0.pdf",
+ "source_file": "raw/cii/1980/table_content/table-50-1980_0.pdf",
+ "source_sha256": "a8c4928045ab726a6a9a8988a66406cf06c81b145ce7409b633adce1004474a9",
+ "table_no": "50",
+ "pdf_title": "Statement Indicating number of cases reported and value of property stolen under Dacoity by place of occurrence during 1980 (Value in Rs.lokhs)",
+ "row_label": "Sl. No.",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 47,
+ "n_cols": 17,
+ "n_cells": 553,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "States/UTs./Cities",
+   "header": [
+    "States/UTs./Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Residential premises | No. of cases reported",
+   "header": [
+    "Residential premises",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Residential premises | Value of property stolen",
+   "header": [
+    "Residential premises",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Highways | No. of cases reported",
+   "header": [
+    "Highways",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Highways | Value of property stolen",
+   "header": [
+    "Highways",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Railways | No. of cases reported",
+   "header": [
+    "Railways",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Railways | Value of property stolen",
+   "header": [
+    "Railways",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "River & Sea | No. of cases reported",
+   "header": [
+    "River & Sea",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Value of property stolen",
+   "header": [
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  },
+  {
+   "col_no": "10001",
+   "name": "Banks | No. of cases reported",
+   "header": [
+    "Banks",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Commercial Ests. | Value of Property Stolen",
+   "header": [
+    "Commercial Ests.",
+    "Value of Property Stolen"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Other Places | No. of Cases reported",
+   "header": [
+    "Other Places",
+    "No. of Cases reported"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Value of Property Stolen",
+   "header": [
+    "Value of Property Stolen"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "No. of Cases reported",
+   "header": [
+    "No. of Cases reported"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Total | Value of Property Stolen",
+   "header": [
+    "Total",
+    "Value of Property Stolen"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "Total | No. of cases reported",
+   "header": [
+    "Total",
+    "No. of cases reported"
+   ]
+  }
+ ],
+ "notes": [
+  "*Excluding Konpur from where does it is awaited."
+ ],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 7,
+  "failures": [
+   "col 10001 'Total (States)': printed 15, sum 12"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

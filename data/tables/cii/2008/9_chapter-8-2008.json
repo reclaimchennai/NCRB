@@ -8,41 +8,139 @@
  "serial": "9",
  "title": "Property Stolen and Recovered",
  "listing_title": "Property Stolen and Recovered",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-8_2008.pdf",
  "source_file": "raw/cii/2008/table_chapter/chapter-8_2008.pdf",
  "source_sha256": "d2675bc1d3d9cd974ed6d0ebf83dc70ab53d56bc55ed07ad2517e8fd2b218a37",
  "table_no": "",
- "pdf_title": "",
- "row_label": "",
+ "pdf_title": "State-wise Percentage Recovery in Property Offences during 2008",
+ "row_label": "NAGALAND",
  "pages": [
-  3,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
   4
  ],
- "n_rows": 16,
- "n_cols": 2,
- "n_cells": 19,
+ "n_rows": 3,
+ "n_cols": 11,
+ "n_cells": 29,
  "columns": [
   {
    "col_no": "2",
-   "name": "State wise Value of Property Stolen FIGURE 8.1 (2)",
+   "name": "States/UTs",
    "header": [
-    "State wise Value of Property Stolen FIGURE 8.1"
+    "States/UTs"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "State wise Value of Property Stolen FIGURE 8.1 (10001)",
+   "col_no": "3",
+   "name": "% Recovery | NAGALAND",
    "header": [
-    "State wise Value of Property Stolen FIGURE 8.1"
+    "% Recovery",
+    "NAGALAND"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "MANIPUR",
+   "header": [
+    "MANIPUR"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "SIKKIM",
+   "header": [
+    "SIKKIM"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "DELHI",
+   "header": [
+    "DELHI"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KERALA",
+   "header": [
+    "KERALA"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "TRIPURA",
+   "header": [
+    "TRIPURA"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "MAHARASHTRA",
+   "header": [
+    "MAHARASHTRA"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DAMAN & DIU",
+   "header": [
+    "DAMAN & DIU"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "JHARKHAND",
+   "header": [
+    "JHARKHAND"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "MEGHALAYA",
+   "header": [
+    "MEGHALAYA"
    ]
   }
  ],
- "notes": [
-  "ce aa States/UTs",
-  "States/UTs <"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -50,7 +148,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 39,
  "warnings": []
 }

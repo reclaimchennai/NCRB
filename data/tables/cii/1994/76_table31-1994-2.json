@@ -15,7 +15,7 @@
  "source_sha256": "d2222a1f34ad68ce7505c92cb13bb33888af4994dfd3d39415ec0cb2ca1f1701",
  "table_no": "31",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-31",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2,
@@ -27,7 +27,7 @@
   8,
   9
  ],
- "n_rows": 59,
+ "n_rows": 58,
  "n_cols": 51,
  "n_cells": 2958,
  "columns": [
@@ -443,16 +443,11 @@
  "notes": [],
  "checks": {
   "cells_checked": 144,
-  "cells_passed": 135,
+  "cells_passed": 141,
   "failures": [
-   "col 5 'TOTAL (ALL - INDIA)': printed 62699, sum 62839",
-   "col 6 'TOTAL (ALL - INDIA)': printed 22007, sum 22207",
-   "col 7 'TOTAL (ALL - INDIA)': printed 1168, sum 1158",
-   "col 8 'TOTAL (STATES)': printed 22801, sum 22001",
-   "col 8 'TOTAL (ALL - INDIA)': printed 22365, sum 23565",
-   "col 31 'TOTAL (STATES)': printed 271, sum 261",
-   "col 32 'TOTAL (STATES)': printed 9595, sum 9605",
-   "col 48 'TOTAL (ALL - INDIA)': printed 3.23034e+06, sum 3.23634e+06"
+   "col 6 'TOTAL (STATES)': printed 21510, sum 21467",
+   "col 8 'TOTAL (STATES)': printed 22801, sum 22101",
+   "col 8 'TOTAL (ALL - INDIA)': printed 23365, sum 23565"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

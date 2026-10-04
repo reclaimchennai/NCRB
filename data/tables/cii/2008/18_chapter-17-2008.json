@@ -8,84 +8,30 @@
  "serial": "18",
  "title": "Police Strength, Expenditure and Infrastructure",
  "listing_title": "Police Strength, Expenditure and Infrastructure",
- "method": "pdf_mixed",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-17_2008.pdf",
  "source_file": "raw/cii/2008/table_chapter/chapter-17_2008.pdf",
  "source_sha256": "b92392fa7ab47ca44f7a4778a50ccd65965e04239c386d2b6b52e208db6182b2",
  "table_no": "",
- "pdf_title": "DENSITY OF POLICE PERSONNEL DURING 2008 (All India 46.5)",
- "row_label": "Population, Ratio of Police Personnel / Population, Ratio of Police Personnel / Population, Ratio of Police Personnel",
+ "pdf_title": "",
+ "row_label": "Number",
  "pages": [
-  4,
-  5
+  6
  ],
- "n_rows": 30,
- "n_cols": 10,
- "n_cells": 52,
+ "n_rows": 35,
+ "n_cols": 1,
+ "n_cells": 35,
  "columns": [
   {
-   "col_no": "3",
-   "name": "col_3",
-   "header": []
-  },
-  {
-   "col_no": "4",
-   "name": "Jammu & Kashmir",
+   "col_no": "2",
+   "name": "(All India Average 46.5)",
    "header": [
-    "Jammu & Kashmir"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "col_5",
-   "header": []
-  },
-  {
-   "col_no": "10001",
-   "name": "col_10001",
-   "header": []
-  },
-  {
-   "col_no": "10002",
-   "name": "col_10002",
-   "header": []
-  },
-  {
-   "col_no": "10003",
-   "name": "col_10003",
-   "header": []
-  },
-  {
-   "col_no": "10004",
-   "name": "col_10004",
-   "header": []
-  },
-  {
-   "col_no": "10005",
-   "name": "col_10005",
-   "header": []
-  },
-  {
-   "col_no": "10006",
-   "name": "FIGURE 17.1 (10006)",
-   "header": [
-    "FIGURE 17.1"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "FIGURE 17.1 (10007)",
-   "header": [
-    "FIGURE 17.1"
+    "(All India Average 46.5)"
    ]
   }
  ],
- "notes": [
-  "Note:",
-  "Density of police personnel means number of policemen per 100 sqr. km of area.",
-  "Population (in 10 million) Bi Ratio Year Ratio No. of Policemen per lakh of population"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -93,7 +39,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

@@ -75,9 +75,9 @@
   },
   {
    "col_no": "10",
-   "name": "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DIS-POSED OF THE YEAR",
+   "name": "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DIS-POSED OF",
    "header": [
-    "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DIS-POSED OF THE YEAR"
+    "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DIS-POSED OF"
    ]
   },
   {
@@ -96,37 +96,37 @@
   },
   {
    "col_no": "13",
-   "name": "PERSONS CONVIC- TED",
+   "name": "PERSONS CONVIC-TED",
    "header": [
-    "PERSONS CONVIC- TED"
+    "PERSONS CONVIC-TED"
    ]
   },
   {
    "col_no": "14",
-   "name": "PERSONS ACQUI- TTED",
+   "name": "PERSONS ACQUI-TTED",
    "header": [
-    "PERSONS ACQUI- TTED"
+    "PERSONS ACQUI-TTED"
    ]
   },
   {
    "col_no": "15",
-   "name": "PERCENT- TAGE OF PERSONS CONVIC- TED TO TOTAL PERSONS WHOSE TRIAL COMPLTD",
+   "name": "PERCEN-TAGE OF PERSONS CONVIC-TED TO TOTAL PERSONS WHOSE TRIAL COMPLTD",
    "header": [
-    "PERCENT- TAGE OF PERSONS CONVIC- TED TO TOTAL PERSONS WHOSE TRIAL COMPLTD"
+    "PERCEN-TAGE OF PERSONS CONVIC-TED TO TOTAL PERSONS WHOSE TRIAL COMPLTD"
    ]
   },
   {
    "col_no": "16",
-   "name": "PERSONS REPORTED FOR REGULAR DEPTT. ACTION",
+   "name": "PERSONS REPORT-TED FOR REGULAR DEPTT. ACTION",
    "header": [
-    "PERSONS REPORTED FOR REGULAR DEPTT. ACTION"
+    "PERSONS REPORT-TED FOR REGULAR DEPTT. ACTION"
    ]
   },
   {
    "col_no": "17",
-   "name": "PERSONS REPORTED FOR SUITABLE ACTION",
+   "name": "PERSONS REPORT-TED FOR SUITABLE ACTION",
    "header": [
-    "PERSONS REPORTED FOR SUITABLE ACTION"
+    "PERSONS REPORT-TED FOR SUITABLE ACTION"
    ]
   },
   {
@@ -195,17 +195,10 @@
  "notes": [],
  "checks": {
   "cells_checked": 44,
-  "cells_passed": 38,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 1278, sum 1276",
-   "col 5 'TOTAL (STATES)': printed 1133, sum 1139",
-   "col 6 'TOTAL (STATES)': printed 1162, sum 1182",
-   "col 7 'TOTAL (STATES)': printed 1154, sum 1156",
-   "col 23 'TOTAL (STATES)': printed 380, sum 379",
-   "col 24 'TOTAL (STATES)': printed 1354, sum 1352"
-  ],
-  "other_totals_checked": 22,
-  "other_totals_passed": 21
+  "cells_passed": 44,
+  "failures": [],
+  "other_totals_checked": 12,
+  "other_totals_passed": 12
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

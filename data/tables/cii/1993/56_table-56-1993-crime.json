@@ -8,58 +8,63 @@
  "serial": "56",
  "title": "Incidence & Rate of Total Cognizable Crimes Committed Against Women in States and UTs During 1993",
  "listing_title": "Incidence & Rate of Total Cognizable Crimes Committed Against Women in States and UTs During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-56-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-56-1993-crime.pdf",
  "source_sha256": "ddb7285a4a2e1666b1085f010446e6c0d71970c225469c452343d15434a49d58",
- "table_no": "56",
- "pdf_title": "INCIDENCE & RATE OF TOTAL COGNIZABLE CRIMES COMMITTED AGAINST WOMEN IN STATES AND UTs DURING 1993",
- "row_label": "",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "BL NO.",
  "pages": [
   1
  ],
- "n_rows": 31,
+ "n_rows": 35,
  "n_cols": 5,
- "n_cells": 152,
+ "n_cells": 172,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "INCIDENCE",
+   "header": [
+    "INCIDENCE"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "ESTIMATED MID-YEAR POPULATION III LAKHS",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION III LAKHS"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "RATE INCIDENCE PER LAKH OF POPULATION",
+   "header": [
+    "RATE INCIDENCE PER LAKH OF POPULATION"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "RANK GIVEN CRIMMALITY",
+   "header": [
+    "RANK GIVEN CRIMMALITY"
+   ]
   }
  ],
- "notes": [
-  "Source: cre",
-  "Note: 1 * Rank on the basis of rate of total cognizable crimes in the States & UTs. (Col. 6)",
-  "2 Fercentage less than 0.05 is also shown as 0.0",
-  "3. Figures are provisional."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 1,
+  "cells_passed": 1,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

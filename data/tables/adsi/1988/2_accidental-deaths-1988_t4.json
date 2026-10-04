@@ -22,7 +22,7 @@
  ],
  "n_rows": 36,
  "n_cols": 2,
- "n_cells": 72,
+ "n_cells": 71,
  "columns": [
   {
    "col_no": "4",
@@ -33,16 +33,14 @@
   },
   {
    "col_no": "5",
-   "name": "% Variation From",
-   "header": [
-    "% Variation From"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 2,
+  "cells_checked": 6,
+  "cells_passed": 5,
   "failures": [
    "col 4 'TOTAL (STATES)': printed 147960, sum 149948"
   ],

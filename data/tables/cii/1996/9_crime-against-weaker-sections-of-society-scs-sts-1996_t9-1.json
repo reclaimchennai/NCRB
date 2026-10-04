@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "9",
- "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 (1) Under the Indian Penal Code (IPC)",
+ "title": "Number of crimes against Scheduled Castes during 1994 to 1996",
  "listing_title": "Crime Against Weaker Sections of Society (SCs/STs)",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,24 +14,23 @@
  "source_file": "raw/cii/1996/table_chapter/crime-against-weaker-sections-of-society-(scs_sts)1996.pdf",
  "source_sha256": "500a06c2a6a4564d98e822cad3d2704a9ef5c0bf569497c0be0cb8ee385c48f7",
  "table_no": "9.1",
- "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1996 (1) Under the Indian Penal Code (IPC)",
- "row_label": "Sl. No.",
+ "pdf_title": "Number of crimes against Scheduled Castes during 1994 to 1996",
+ "row_label": "Year",
  "pages": [
-  2
+  2,
+  3,
+  3,
+  4,
+  7,
+  11,
+  11
  ],
- "n_rows": 3,
- "n_cols": 9,
- "n_cells": 27,
+ "n_rows": 21,
+ "n_cols": 20,
+ "n_cells": 139,
  "columns": [
   {
    "col_no": "2",
-   "name": "Year",
-   "header": [
-    "Year"
-   ]
-  },
-  {
-   "col_no": "3",
    "name": "Crimes Against Scheduled Castes | Violent (IPC)",
    "header": [
     "Crimes Against Scheduled Castes",
@@ -39,63 +38,146 @@
    ]
   },
   {
-   "col_no": "4",
-   "name": "Crimes Against Scheduled Castes | Others (IPC)",
+   "col_no": "3",
+   "name": "Others (IPC) (3)",
    "header": [
-    "Crimes Against Scheduled Castes",
     "Others (IPC)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "SLL (4)",
+   "header": [
+    "SLL"
    ]
   },
   {
    "col_no": "5",
-   "name": "Crimes Against Scheduled Castes | SLL",
-   "header": [
-    "Crimes Against Scheduled Castes",
-    "SLL"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Crimes Against Scheduled Castes | Total",
-   "header": [
-    "Crimes Against Scheduled Castes",
-    "Total"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "% Variation | Violent (IPC)",
-   "header": [
-    "% Variation",
-    "Violent (IPC)"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "% Variation | Others (IPC)",
-   "header": [
-    "% Variation",
-    "Others (IPC)"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "% Variation | SLL",
-   "header": [
-    "% Variation",
-    "SLL"
-   ]
-  },
-  {
-   "col_no": "10",
    "name": "% Variation | Total",
    "header": [
     "% Variation",
     "Total"
    ]
+  },
+  {
+   "col_no": "6",
+   "name": "Violent (IPC)",
+   "header": [
+    "Violent (IPC)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Others (IPC) (7)",
+   "header": [
+    "Others (IPC)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "SLL (8)",
+   "header": [
+    "SLL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Total (9)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Total IPC crimes",
+   "header": [
+    "Total IPC crimes"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "IPC crime against Scheduled Castes",
+   "header": [
+    "IPC crime against Scheduled Castes"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Percentage variation over previous year",
+   "header": [
+    "Percentage variation over previous year"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Percentage to total IPC crime",
+   "header": [
+    "Percentage to total IPC crime"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Crime against Scheduled Tribes | Violent",
+   "header": [
+    "Crime against Scheduled Tribes",
+    "Violent"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Others\\(^{{*}}\\) (10006)",
+   "header": [
+    "Others\\(^{{*}}\\)"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "SL (10007)",
+   "header": [
+    "SL"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "Percentage change over the previous year | Total",
+   "header": [
+    "Percentage change over the previous year",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10009",
+   "name": "Violent",
+   "header": [
+    "Violent"
+   ]
+  },
+  {
+   "col_no": "10010",
+   "name": "Others\\(^{{*}}\\) (10010)",
+   "header": [
+    "Others\\(^{{*}}\\)"
+   ]
+  },
+  {
+   "col_no": "10011",
+   "name": "SL (10011)",
+   "header": [
+    "SL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Total (10)",
+   "header": [
+    "Total"
+   ]
   }
  ],
- "notes": [],
+ "notes": [
+  "Note:- 1. Violent crime includes Murder, Rape, K&A, Dacoity, Robbery & Arson",
+  "2. ‘Others’ include Hurt cases"
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -104,6 +186,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 7,
  "warnings": []
 }

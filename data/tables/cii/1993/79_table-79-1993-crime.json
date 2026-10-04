@@ -1,0 +1,121 @@
+{
+ "table_id": "cii/1993/79_table-79-1993-crime",
+ "publication": "cii",
+ "year": 1993,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "79",
+ "title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1993 (Women only)",
+ "listing_title": "Sanctioned and Actual Strength of Civil Police including District Armed Police as on 31.12.1993 (Women only)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-79-1993-crime.pdf",
+ "source_file": "raw/cii/1993/table_content/table-79-1993-crime.pdf",
+ "source_sha256": "58270da5006a5e298719fd549b42f61d9f4721b848cde50d9637293535cc91d2",
+ "table_no": "79",
+ "pdf_title": "333 TABLE-79 SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
+ "row_label": "SL NO. / STATE/UT",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 58,
+ "n_cols": 10,
+ "n_cells": 580,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "DISTRICT/SP | SANC TIONED",
+   "header": [
+    "DISTRICT/SP",
+    "SANC TIONED"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "DISTRICT/SP | ACTUAL",
+   "header": [
+    "DISTRICT/SP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ASP & OGP | SANC TIONED",
+   "header": [
+    "ASP & OGP",
+    "SANC TIONED"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "ASP & OGP | ACTUAL",
+   "header": [
+    "ASP & OGP",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "INSPECTOR, SI & A.E.I. | SANC TIONED",
+   "header": [
+    "INSPECTOR, SI & A.E.I.",
+    "SANC TIONED"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "INSPECTOR, SI & A.E.I. | ACTUAL",
+   "header": [
+    "INSPECTOR, SI & A.E.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "OFFICERS BELOW A.E.I. | SANC TIONED",
+   "header": [
+    "OFFICERS BELOW A.E.I.",
+    "SANC TIONED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OFFICERS BELOW A.E.I. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.E.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "GROSS TOTAL | SANC TIONED",
+   "header": [
+    "GROSS TOTAL",
+    "SANC TIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "GROSS TOTAL | ACTUAL",
+   "header": [
+    "GROSS TOTAL",
+    "ACTUAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 10,
+  "cells_passed": 9,
+  "failures": [
+   "col 8 'TOTAL STATE': printed 1148, sum 1149"
+  ],
+  "other_totals_checked": 10,
+  "other_totals_passed": 7
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

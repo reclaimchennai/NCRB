@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "50",
- "title": "98 TABLE Statement indicating number of cases reported and value of",
+ "title": "31 property stolen under Robbery by place of occurrence (Rs. lakhs)",
  "listing_title": "Statement Indicating Number of Cases Reported and Value of Property Stolen under Robbery by Place of Occurrence",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,17 +14,20 @@
  "source_file": "raw/cii/1974/table_content/table-51-1974_0.pdf",
  "source_sha256": "4080ea50a061b53d5d059e757270affc69c2d8c0ca003500fd2608c80b9b407e",
  "table_no": "",
- "pdf_title": "98 TABLE Statement indicating number of cases reported and value of",
- "row_label": "Sl. No.",
+ "pdf_title": "31 property stolen under Robbery by place of occurrence (Rs. lakhs)",
+ "row_label": "States/U. Ts./Cities",
  "pages": [
   1,
-  1,
-  1,
-  1
+  2,
+  2,
+  2,
+  2,
+  2,
+  2
  ],
- "n_rows": 22,
- "n_cols": 10,
- "n_cells": 176,
+ "n_rows": 55,
+ "n_cols": 14,
+ "n_cells": 390,
  "columns": [
   {
    "col_no": "3",
@@ -36,17 +39,15 @@
   },
   {
    "col_no": "4",
-   "name": "Residential premises | Value of property stolen",
+   "name": "Value of property stolen",
    "header": [
-    "Residential premises",
     "Value of property stolen"
    ]
   },
   {
    "col_no": "5",
-   "name": "Highways | No. of cases reported",
+   "name": "No. of cases reported",
    "header": [
-    "Highways",
     "No. of cases reported"
    ]
   },
@@ -60,9 +61,9 @@
   },
   {
    "col_no": "7",
-   "name": "Railways | No. of cases reported",
+   "name": "Highways | No. of cases reported",
    "header": [
-    "Railways",
+    "Highways",
     "No. of cases reported"
    ]
   },
@@ -76,9 +77,9 @@
   },
   {
    "col_no": "9",
-   "name": "River and sea | No. of cases reported",
+   "name": "Railways | No. of cases reported",
    "header": [
-    "River and sea",
+    "Railways",
     "No. of cases reported"
    ]
   },
@@ -91,17 +92,56 @@
    ]
   },
   {
-   "col_no": "11",
-   "name": "5",
+   "col_no": "2",
+   "name": "Commercial Ests... | Value of property stolen",
    "header": [
-    "5"
+    "Commercial Ests...",
+    "Value of property stolen"
    ]
   },
   {
-   "col_no": "12",
-   "name": "0·05",
+   "col_no": "10001",
+   "name": "3,394 | 227 | 8,641",
    "header": [
-    "0·05"
+    "3,394",
+    "227",
+    "8,641"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "41-83 | 1-95 | 146-37",
+   "header": [
+    "41-83",
+    "1-95",
+    "146-37"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "8,281 | 1,204 | 19,917",
+   "header": [
+    "8,281",
+    "1,204",
+    "19,917"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "90-58 | 14-69 | 254-40",
+   "header": [
+    "90-58",
+    "14-69",
+    "254-40"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Uttar Pradesh | West Bengal | TOTAL",
+   "header": [
+    "Uttar Pradesh",
+    "West Bengal",
+    "TOTAL"
    ]
   }
  ],
@@ -110,10 +150,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 11,
+  "other_totals_passed": 11
  },
  "inferred_pages": 0,
- "ocr_pages": 4,
+ "ocr_pages": 7,
  "warnings": []
 }

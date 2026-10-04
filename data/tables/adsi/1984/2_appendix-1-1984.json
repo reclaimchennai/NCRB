@@ -33,9 +33,9 @@
   },
   {
    "col_no": "4",
-   "name": "By Heat Strokes | F (4)",
+   "name": "By Lightning | F",
    "header": [
-    "By Heat Strokes",
+    "By Lightning",
     "F"
    ]
   },
@@ -49,7 +49,7 @@
   },
   {
    "col_no": "6",
-   "name": "By Heat Strokes | F (6)",
+   "name": "By Heat Strokes | F",
    "header": [
     "By Heat Strokes",
     "F"
@@ -57,7 +57,7 @@
   },
   {
    "col_no": "7",
-   "name": "By Floods | M (7)",
+   "name": "By Floods | M",
    "header": [
     "By Floods",
     "M"
@@ -73,9 +73,9 @@
   },
   {
    "col_no": "9",
-   "name": "By Floods | M (9)",
+   "name": "By Land-slide | M",
    "header": [
-    "By Floods",
+    "By Land-slide",
     "M"
    ]
   },
@@ -89,22 +89,6 @@
   },
   {
    "col_no": "11",
-   "name": "By Land-slide | M",
-   "header": [
-    "By Land-slide",
-    "M"
-   ]
-  },
-  {
-   "col_no": "12",
-   "name": "By cold & Exposure | F (12)",
-   "header": [
-    "By cold & Exposure",
-    "F"
-   ]
-  },
-  {
-   "col_no": "13",
    "name": "By cold & Exposure | M",
    "header": [
     "By cold & Exposure",
@@ -112,23 +96,23 @@
    ]
   },
   {
-   "col_no": "14",
-   "name": "By cold & Exposure | F (14)",
+   "col_no": "12",
+   "name": "By cold & Exposure | F",
    "header": [
     "By cold & Exposure",
     "F"
    ]
   },
   {
-   "col_no": "15",
-   "name": "By Cyclones | M (15)",
+   "col_no": "13",
+   "name": "By Cyclones | M",
    "header": [
     "By Cyclones",
     "M"
    ]
   },
   {
-   "col_no": "16",
+   "col_no": "14",
    "name": "By Cyclones | F",
    "header": [
     "By Cyclones",
@@ -136,11 +120,27 @@
    ]
   },
   {
-   "col_no": "17",
-   "name": "By Cyclones | M (17)",
+   "col_no": "15",
+   "name": "Total | M",
    "header": [
-    "By Cyclones",
+    "Total",
     "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Total | F",
+   "header": [
+    "Total",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Grand total | (M+F)",
+   "header": [
+    "Grand total",
+    "(M+F)"
    ]
   }
  ],
@@ -149,8 +149,8 @@
   "cells_checked": 15,
   "cells_passed": 13,
   "failures": [
-   "col 7 'Total (States)': printed 528, sum 534",
-   "col 10 'Total (States)': printed 161, sum 160"
+   "col 10 'Total (States) .': printed 161, sum 160",
+   "col 14 'Total (States) .': printed 279, sum 281"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

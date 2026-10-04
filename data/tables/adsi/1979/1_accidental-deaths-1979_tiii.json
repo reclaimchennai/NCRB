@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1979",
  "serial": "1",
- "title": "7 (10·2%) and 'By Fire' (9·4%) while 27·2 percent were due to Miscellaneous causes. The statistics relating to accidental deaths under these categories are given in Table-III. TABLE-III",
+ "title": "7 (10·2%) and ‘By Fire’ (9·4%) while 27·2 percent were due to Miscellaneous causes. The statistics relating to accidental deaths under these categories are given in Table-III. TABLE-III",
  "listing_title": "Accidental Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,48 +14,34 @@
  "source_file": "raw/adsi/1979/year_wise/accidental-deaths-1979.pdf",
  "source_sha256": "3bce2fbe0ed1228fee36851ed7f4361dd92f248f3cd79f995450e7657ae192c1",
  "table_no": "III",
- "pdf_title": "7 (10·2%) and 'By Fire' (9·4%) while 27·2 percent were due to Miscellaneous causes. The statistics relating to accidental deaths under these categories are given in Table-III. TABLE-III",
- "row_label": "Percentage to total accidental deaths",
+ "pdf_title": "7 (10·2%) and ‘By Fire’ (9·4%) while 27·2 percent were due to Miscellaneous causes. The statistics relating to accidental deaths under these categories are given in Table-III. TABLE-III",
+ "row_label": "Serial No. / Causes of Accidental Deaths",
  "pages": [
-  8,
-  8,
-  8,
-  8,
   8
  ],
- "n_rows": 7,
+ "n_rows": 26,
  "n_cols": 3,
- "n_cells": 19,
+ "n_cells": 77,
  "columns": [
   {
-   "col_no": "5",
-   "name": "Percentage to total accidental deaths",
+   "col_no": "3",
+   "name": "Number of Accidental Deaths",
+   "header": [
+    "Number of Accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage to total accidental deaths (4)",
    "header": [
     "Percentage to total accidental deaths"
    ]
   },
   {
-   "col_no": "3",
-   "name": "1496 | 594 | 567 | 753 | 318 | 248",
+   "col_no": "5",
+   "name": "Percentage to total accidental deaths (5)",
    "header": [
-    "1496",
-    "594",
-    "567",
-    "753",
-    "318",
-    "248"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "1·4 | 0·5 | 0·5 | 0·7 | 0·3 | 0·2",
-   "header": [
-    "1·4",
-    "0·5",
-    "0·5",
-    "0·7",
-    "0·3",
-    "0·2"
+    "Percentage to total accidental deaths"
    ]
   }
  ],
@@ -64,10 +50,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
- "ocr_pages": 5,
+ "ocr_pages": 1,
  "warnings": []
 }

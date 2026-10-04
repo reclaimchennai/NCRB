@@ -14,8 +14,8 @@
  "source_file": "raw/cii/1993/table_content/table-73-1993-crime.pdf",
  "source_sha256": "bc069b681f881e23f05b0b8da5e403c85c2d1632dbcc2ebd478a04f2721b05c1",
  "table_no": "73",
- "pdf_title": "313 TABLE-73 POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1993 (STATE, UT & CITY-WISE)",
- "row_label": "Sl. NO. / STATE/UT",
+ "pdf_title": "313 TABLE-73 POLICE PERSONNEL KILLED OR INJURED ON DUTY DURING 1993 (STATE,UT & CITY-WISE)",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1,
   2,
@@ -36,26 +36,26 @@
   },
   {
    "col_no": "4",
-   "name": "KILLED | BY ROTOUR MDES",
+   "name": "KILLED | BY ROTOUS MOBS",
    "header": [
     "KILLED",
-    "BY ROTOUR MDES"
+    "BY ROTOUS MOBS"
    ]
   },
   {
    "col_no": "5",
-   "name": "KILLED | BY OTHER DRIME NALS",
+   "name": "KILLED | BY OTHER CHINA NALS",
    "header": [
     "KILLED",
-    "BY OTHER DRIME NALS"
+    "BY OTHER CHINA NALS"
    ]
   },
   {
    "col_no": "6",
-   "name": "KILLED | ON BORDER OUTBES",
+   "name": "KILLED | ON BORDER OUTIES",
    "header": [
     "KILLED",
-    "ON BORDER OUTBES"
+    "ON BORDER OUTIES"
    ]
   },
   {
@@ -76,41 +76,41 @@
   },
   {
    "col_no": "11",
-   "name": "INHIBED | BY HIGTUG MOB",
+   "name": "IN/RED | BY HIGTUG MOBO",
    "header": [
-    "INHIBED",
-    "BY HIGTUG MOB"
+    "IN/RED",
+    "BY HIGTUG MOBO"
    ]
   },
   {
    "col_no": "12",
-   "name": "INHIBED | BY OTHER CHINA RALS",
+   "name": "IN/RED | BY OTHER CRIME NALS",
    "header": [
-    "INHIBED",
-    "BY OTHER CHINA RALS"
+    "IN/RED",
+    "BY OTHER CRIME NALS"
    ]
   },
   {
    "col_no": "13",
-   "name": "INHIBED | ON BORDER DUTIES",
+   "name": "IN/RED | ON BORDER OUTIES",
    "header": [
-    "INHIBED",
-    "ON BORDER DUTIES"
+    "IN/RED",
+    "ON BORDER OUTIES"
    ]
   },
   {
    "col_no": "14",
-   "name": "INHIBED | IN ACCIDENTS",
+   "name": "IN/RED | IN ACCIDENTS",
    "header": [
-    "INHIBED",
+    "IN/RED",
     "IN ACCIDENTS"
    ]
   },
   {
    "col_no": "2",
-   "name": "INHIBED | TOTAL",
+   "name": "IN/RED | TOTAL",
    "header": [
-    "INHIBED",
+    "IN/RED",
     "TOTAL"
    ]
   }
@@ -118,11 +118,9 @@
  "notes": [],
  "checks": {
   "cells_checked": 15,
-  "cells_passed": 12,
+  "cells_passed": 14,
   "failures": [
-   "col 7 'TOTAL (ALL INDIA)': printed 284, sum 296",
-   "col 8 'TOTAL (STATES)': printed 603, sum 605",
-   "col 8 'TOTAL (ALL INDIA)': printed 603, sum 615"
+   "col 7 'TOTAL (ALL INDIA)': printed 284, sum 296"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

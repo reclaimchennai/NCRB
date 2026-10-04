@@ -8,60 +8,56 @@
  "serial": "23",
  "title": "Persons Arrested under IPC Crimes During 1988 and Percentage Variation in 1988 over 1987 (State, UT & City-wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1988 and Percentage Variation in 1988 over 1987 (State, UT & City-wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-23-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-23-1988-2.pdf",
  "source_sha256": "1ee06189c352afbb4673088b856ce98f96264eed521759adfaa6b0a0d9fea2ce",
  "table_no": "23",
- "pdf_title": "PERSONS AKKESTED UNDER IPC CRIMES DURING 1988 AND PERCENTAGE VARIATION IN 1988 OVER 1987",
- "row_label": "STATE/UT/CITY SL. NO. ql)",
+ "pdf_title": "90 TABLE-23 PERSONS ARRESTED UNDER IPC CRIMES DURING 1988 AND PERCENTAGE VARIATION IN 1988 OVER 1987 (STATE, UT & CITY-WISE)",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
  ],
  "n_rows": 47,
  "n_cols": 4,
- "n_cells": 187,
+ "n_cells": 188,
  "columns": [
   {
    "col_no": "3",
-   "name": "& 1987",
+   "name": "1987",
    "header": [
-    "& 1987"
+    "1987"
    ]
   },
   {
    "col_no": "4",
-   "name": "CITY-WISE) 1988",
+   "name": "1988",
    "header": [
-    "CITY-WISE) 1988"
+    "1988"
    ]
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE VARIATION IN 1988 OVER",
+   "name": "PERCENTAGE VARIATION IN 1988 OVER 1987",
    "header": [
-    "PERCENTAGE VARIATION IN 1988 OVER"
+    "PERCENTAGE VARIATION IN 1988 OVER 1987"
    ]
   },
   {
    "col_no": "6",
-   "name": "CONTRIBUTION TO ALL-INDIA 1987 DURING 1988",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING 1988",
    "header": [
-    "CONTRIBUTION TO ALL-INDIA 1987 DURING 1988"
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING 1988"
    ]
   }
  ],
- "notes": [
-  "Note: Percentage contribution less than 0.05 is shown as .0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 6,
-  "cells_passed": 5,
-  "failures": [
-   "col 3 'TOTAL (UTS)': printed 34718, sum 34497"
-  ],
+  "cells_passed": 6,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

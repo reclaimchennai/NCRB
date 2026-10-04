@@ -6,68 +6,54 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1993",
  "serial": "3",
- "title": "inciaence And Rate Of Accidental Deaths During 1993",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1993 N.C.R.B.-4 PERCENTAGE GROWTH IN INCIDENCE, POPULATION AND RATE DURING 1989 TO 1993",
  "listing_title": "Accidents & Suicides Clock",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1993.pdf",
  "source_file": "raw/adsi/1993/year_wise/accidental-deaths-1993.pdf",
  "source_sha256": "79958267bb3ddbd8d4a110054b8e148483e5c03e02710eb82811b2b96879a31b",
- "table_no": "2",
- "pdf_title": "inciaence And Rate Of Accidental Deaths During 1993",
- "row_label": "(State & UT-wise) SI. (Noo / (State & UT-wise) State/UT es",
+ "table_no": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1993 N.C.R.B.-4 PERCENTAGE GROWTH IN INCIDENCE, POPULATION AND RATE DURING 1989 TO 1993",
+ "row_label": "YEAR",
  "pages": [
-  7,
-  8
+  4
  ],
- "n_rows": 58,
- "n_cols": 4,
- "n_cells": 229,
+ "n_rows": 5,
+ "n_cols": 3,
+ "n_cells": 15,
  "columns": [
   {
-   "col_no": "3",
-   "name": "(State & UT-wise) | Number of «== Deaths ee",
+   "col_no": "2",
+   "name": "INCIDENCE",
    "header": [
-    "(State & UT-wise)",
-    "Number of «== Deaths ee"
+    "INCIDENCE"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "POPULATION",
+   "header": [
+    "POPULATION"
    ]
   },
   {
    "col_no": "4",
-   "name": "(State & UT-wise) | Percentage Deaths si",
+   "name": "RATE",
    "header": [
-    "(State & UT-wise)",
-    "Percentage Deaths si"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "(State & UT-wise) | Estimated",
-   "header": [
-    "(State & UT-wise)",
-    "Estimated"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "(State & UT-wise) | Rate (Accidental «= Mid-Year - Deaths Per Lakh of 2",
-   "header": [
-    "(State & UT-wise)",
-    "Rate (Accidental «= Mid-Year - Deaths Per Lakh of 2"
+    "RATE"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 1,
+  "cells_checked": 0,
   "cells_passed": 0,
-  "failures": [
-   "col 3 'TOTAL (UTs)': printed 6252, sum 192357"
-  ],
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

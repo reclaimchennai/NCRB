@@ -22,7 +22,7 @@
   3,
   4
  ],
- "n_rows": 91,
+ "n_rows": 47,
  "n_cols": 26,
  "n_cells": 1222,
  "columns": [
@@ -237,13 +237,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 23,
-  "cells_passed": 19,
+  "cells_checked": 32,
+  "cells_passed": 30,
   "failures": [
-   "col 9 'TOTAL (STATES)': printed 164011, sum 99969",
-   "col 11 'TOTAL (STATES)': printed 365452, sum 365451",
-   "col 13 'TOTAL (STATES)': printed 2876, sum 2847",
-   "col 15 'TOTAL (STATES)': printed 14078, sum 12287"
+   "col 9 'TOTAL (STATES)': printed 164011, sum 104031",
+   "col 25 'TOTAL (CITIES)': printed 458716, sum 518716"
   ],
   "other_totals_checked": 12,
   "other_totals_passed": 11

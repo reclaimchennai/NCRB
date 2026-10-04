@@ -15,19 +15,19 @@
  "source_sha256": "25aa1ed960d19b6cd0a4963da8e7114dc993c183eb9d50eeecb722d1f9a18b69",
  "table_no": "50",
  "pdf_title": "100 TABLE 50 The Number Of Cases Reported And Value Of Property Stolen Under Dacoity By Place Of Occurance During 1986",
- "row_label": "Sl. States/U.Ts/Cities No.",
+ "row_label": "Sl. No. / States/U.Ts/Cities",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 126,
- "n_cols": 8,
- "n_cells": 692,
+ "n_rows": 165,
+ "n_cols": 4,
+ "n_cells": 660,
  "columns": [
   {
-   "col_no": "2",
+   "col_no": "3",
    "name": "Residential Premises | No. of cases reported",
    "header": [
     "Residential Premises",
@@ -35,7 +35,7 @@
    ]
   },
   {
-   "col_no": "3",
+   "col_no": "4",
    "name": "Residential Premises | Value of property stolen",
    "header": [
     "Residential Premises",
@@ -43,7 +43,7 @@
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "5",
    "name": "Highways | No. of cases reported",
    "header": [
     "Highways",
@@ -51,62 +51,30 @@
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "6",
    "name": "Highways | Value of property stolen",
    "header": [
     "Highways",
-    "Value of property stolen"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Rivers & Seas | No. of cases reported",
-   "header": [
-    "Rivers & Seas",
-    "No. of cases reported"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Rivers & Seas | Value of property stolen",
-   "header": [
-    "Rivers & Seas",
-    "Value of property stolen"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Railways | No. of cases reported",
-   "header": [
-    "Railways",
-    "No. of cases reported"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Railways | Value of property stolen",
-   "header": [
-    "Railways",
     "Value of property stolen"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 17,
-  "cells_passed": 9,
+  "cells_checked": 18,
+  "cells_passed": 10,
   "failures": [
-   "col 2 'TOTAL (STATES)': printed 7162, sum 7165",
-   "col 4 'TOTAL (STATES)': printed 771, sum 776",
-   "col 10001 'TOTAL (STATES)': printed 29, sum 47",
-   "col 10001 'TOTAL (STATES)': printed 2102, sum 2117",
-   "col 10003 'TOTAL (STATES)': printed 202, sum 224",
-   "col 10003 'TOTAL (STATES)': printed 10385, sum 10402",
-   "col 10003 'TOTAL (U.Ts.)': printed 40, sum 39",
-   "col 10003 'TOTAL (CITIES)': printed 228, sum 227"
+   "col 3 'TOTAL (STATES)': printed 1, sum 8",
+   "col 3 'TOTAL (STATES)': printed 29, sum 40",
+   "col 3 'TOTAL (STATES)': printed 2102, sum 2117",
+   "col 5 'TOTAL (STATES)': printed 118, sum 127",
+   "col 5 'TOTAL (STATES)': printed 202, sum 215",
+   "col 5 'TOTAL (STATES)': printed 10385, sum 10402",
+   "col 5 'TOTAL (U.Ts.)': printed 40, sum 39",
+   "col 5 'TOTAL (CITIES)': printed 228, sum 227"
   ],
-  "other_totals_checked": 6,
-  "other_totals_passed": 4
+  "other_totals_checked": 7,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 4,

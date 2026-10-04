@@ -15,7 +15,7 @@
  "source_sha256": "dd557b80b50e0dda94e8c74e58014db2848440cd2e7858140a6b2fd41a636965",
  "table_no": "55",
  "pdf_title": "245 TABLE-55 CLASSIFICATION OF JUVENILES ARRESTED (UNDER IPC AND L&SL CRIMES) BY ATTRIBUTES DURING 1993 (STATE, UT & CITY-WISE)",
- "row_label": "SL. NO / STATE/UT",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1,
   2,
@@ -28,10 +28,10 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "BY EDUCATION | ILL-TERATE",
+   "name": "BY EDUCATION | KLL TERATE",
    "header": [
     "BY EDUCATION",
-    "ILL-TERATE"
+    "KLL TERATE"
    ]
   },
   {
@@ -44,18 +44,18 @@
   },
   {
    "col_no": "5",
-   "name": "BY EDUCATION | ABOVE PRIMARY BUT BELOW MATRIC/H. SEC",
+   "name": "BY EDUCATION | ABOVE PRIMARY BUT BELOW MATRIC/H. SEC.",
    "header": [
     "BY EDUCATION",
-    "ABOVE PRIMARY BUT BELOW MATRIC/H. SEC"
+    "ABOVE PRIMARY BUT BELOW MATRIC/H. SEC."
    ]
   },
   {
    "col_no": "6",
-   "name": "BY EDUCATION | MATRIC/H. SEC & ABOVE",
+   "name": "BY EDUCATION | MATRIC/H. SEC. & ABOVE",
    "header": [
     "BY EDUCATION",
-    "MATRIC/H. SEC & ABOVE"
+    "MATRIC/H. SEC. & ABOVE"
    ]
   },
   {
@@ -68,18 +68,18 @@
   },
   {
    "col_no": "8",
-   "name": "BY FAMILY BACKGROUND | LIVING WITH PATIENTS",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH PARENTS",
    "header": [
     "BY FAMILY BACKGROUND",
-    "LIVING WITH PATIENTS"
+    "LIVING WITH PARENTS"
    ]
   },
   {
    "col_no": "9",
-   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARD AND",
+   "name": "BY FAMILY BACKGROUND | LIVING WITH GUARDLAND",
    "header": [
     "BY FAMILY BACKGROUND",
-    "LIVING WITH GUARD AND"
+    "LIVING WITH GUARDLAND"
    ]
   },
   {
@@ -100,34 +100,34 @@
   },
   {
    "col_no": "14",
-   "name": "BY ECONOMIC SETUP | LOW/MID INCOME (PMK K$ 500 TO 1000 PM)",
+   "name": "BY ECONOMIC SETUP | LOW/MID INCOME FROM R&D 501 TO 1000 PM",
    "header": [
     "BY ECONOMIC SETUP",
-    "LOW/MID INCOME (PMK K$ 500 TO 1000 PM)"
+    "LOW/MID INCOME FROM R&D 501 TO 1000 PM"
    ]
   },
   {
    "col_no": "15",
-   "name": "BY ECONOMIC SETUP | MIDDLE INCOME (PM 1000 TO 2000 PM)",
+   "name": "BY ECONOMIC SETUP | MIDDLE INCOME (R$ 100) TO 2000 PM",
    "header": [
     "BY ECONOMIC SETUP",
-    "MIDDLE INCOME (PM 1000 TO 2000 PM)"
+    "MIDDLE INCOME (R$ 100) TO 2000 PM"
    ]
   },
   {
    "col_no": "16",
-   "name": "BY ECONOMIC SETUP | UPP/MID INCOME (PM 1000 TO 2000 PM)",
+   "name": "BY ECONOMIC SETUP | UPP/MID INCOME (FROM R$ 2001 TO 2000 PM)",
    "header": [
     "BY ECONOMIC SETUP",
-    "UPP/MID INCOME (PM 1000 TO 2000 PM)"
+    "UPP/MID INCOME (FROM R$ 2001 TO 2000 PM)"
    ]
   },
   {
    "col_no": "17",
-   "name": "BY ECONOMIC SETUP | UPPER INCOME (PM 1000 TO 2000 PM)",
+   "name": "BY ECONOMIC SETUP | UPPER INCOME (A) ABOVE R$ 3000 PM",
    "header": [
     "BY ECONOMIC SETUP",
-    "UPPER INCOME (PM 1000 TO 2000 PM)"
+    "UPPER INCOME (A) ABOVE R$ 3000 PM"
    ]
   },
   {
@@ -140,25 +140,25 @@
   },
   {
    "col_no": "19",
-   "name": "RECEIVED | NEW DELIVERED",
+   "name": "REDIVISION | NEW DELIN QUARTS",
    "header": [
-    "RECEIVED",
-    "NEW DELIVERED"
+    "REDIVISION",
+    "NEW DELIN QUARTS"
    ]
   },
   {
    "col_no": "20",
-   "name": "RECEIVED | OLD DELIVERED",
+   "name": "REDIVISION | OLD DELIN QUARTS",
    "header": [
-    "RECEIVED",
-    "OLD DELIVERED"
+    "REDIVISION",
+    "OLD DELIN QUARTS"
    ]
   },
   {
    "col_no": "2",
-   "name": "RECEIVED | TOTAL",
+   "name": "REDIVISION | TOTAL",
    "header": [
-    "RECEIVED",
+    "REDIVISION",
     "TOTAL"
    ]
   }
@@ -168,13 +168,13 @@
   "cells_checked": 24,
   "cells_passed": 17,
   "failures": [
-   "col 8 'TOTAL (STATES)': printed 12867, sum 12667",
-   "col 8 'TOTAL (ALL INDIA)': printed 12961, sum 13161",
-   "col 9 'TOTAL (STATES)': printed 3788, sum 3798",
-   "col 9 'TOTAL (ALL INDIA)': printed 3804, sum 3794",
-   "col 11 'TOTAL (STATES)': printed 19768, sum 19765",
-   "col 11 'TOTAL (UTS)': printed 102, sum 302",
-   "col 11 'TOTAL (ALL INDIA)': printed 20067, sum 19870"
+   "col 7 'TOTAL (ALL INDIA)': printed 20087, sum 20067",
+   "col 8 'TOTAL (STATES)': printed 12967, sum 12667",
+   "col 8 'TOTAL (ALL INDIA)': printed 12961, sum 13261",
+   "col 9 'TOTAL (STATES)': printed 1788, sum 3798",
+   "col 9 'TOTAL (ALL INDIA)': printed 3804, sum 1794",
+   "col 11 'TOTAL (STATES)': printed 19766, sum 19765",
+   "col 11 'TOTAL (ALL INDIA)': printed 20067, sum 20068"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

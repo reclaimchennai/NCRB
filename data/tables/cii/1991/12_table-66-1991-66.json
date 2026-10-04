@@ -14,7 +14,7 @@
  "source_file": "raw/cii/1991/table_content/table-66-1991-66.pdf",
  "source_sha256": "b87966fa03f1f54466d0d5fa1c7795a695aa24060779634441587d8117757cd0",
  "table_no": "66",
- "pdf_title": "198 TABLE-66 SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE",
+ "pdf_title": "196 TABLE-66 SANCTIONS AND ACTUAL STRENGTH OF ARMED POLICE",
  "row_label": "SL. STATE/UT/CITY NO.",
  "pages": [
   1
@@ -25,58 +25,58 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "DE/10/DIS/SP | SANC- TIioned",
+   "name": "DE/10/01/SP | SANC- TIONED",
    "header": [
-    "DE/10/DIS/SP",
-    "SANC- TIioned"
+    "DE/10/01/SP",
+    "SANC- TIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "DE/10/DIS/SP | ACTUAL",
+   "name": "DE/10/01/SP | ACTUAL",
    "header": [
-    "DE/10/DIS/SP",
+    "DE/10/01/SP",
     "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "ASP & DEP | SANC- TIioned",
+   "name": "APF & DSP | SANC- TIONED",
    "header": [
-    "ASP & DEP",
-    "SANC- TIioned"
+    "APF & DSP",
+    "SANC- TIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "ASP & DEP | ACTUAL",
+   "name": "APF & DSP | ACTUAL",
    "header": [
-    "ASP & DEP",
+    "APF & DSP",
     "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "INSPECTOR, SI & A.S.I. | SANC- TIioned",
+   "name": "INSPECTOR, 31 & A.S.I. | SANC- TIONED",
    "header": [
-    "INSPECTOR, SI & A.S.I.",
-    "SANC- TIioned"
+    "INSPECTOR, 31 & A.S.I.",
+    "SANC- TIONED"
    ]
   },
   {
    "col_no": "8",
-   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
+   "name": "INSPECTOR, 31 & A.S.I. | ACTUAL",
    "header": [
-    "INSPECTOR, SI & A.S.I.",
+    "INSPECTOR, 31 & A.S.I.",
     "ACTUAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "OFFICERS BELOW A.S.I. | SANC- TIioned",
+   "name": "OFFICERS BELOW A.S.I. | SANC- TIONED",
    "header": [
     "OFFICERS BELOW A.S.I.",
-    "SANC- TIioned"
+    "SANC- TIONED"
    ]
   },
   {
@@ -89,10 +89,10 @@
   },
   {
    "col_no": "11",
-   "name": "GRAND TOTAL | SANC- TIioned",
+   "name": "GRAND TOTAL | SANC- TIONED",
    "header": [
     "GRAND TOTAL",
-    "SANC- TIioned"
+    "SANC- TIONED"
    ]
   },
   {
@@ -106,18 +106,20 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 20,
-  "cells_passed": 14,
+  "cells_checked": 30,
+  "cells_passed": 21,
   "failures": [
-   "col 7 'TOTAL (STATES)': printed 12609, sum 12629",
-   "col 9 'TOTAL (STATES)': printed 257673, sum 237683",
-   "col 9 'TOTAL (ALL-INDIA)': printed 250467, sum 270467",
-   "col 11 'TOTAL (STATES)': printed 251995, sum 249997",
-   "col 12 'TOTAL (STATES)': printed 235667, sum 235927",
-   "col 12 'TOTAL (ALL-INDIA)': printed 248737, sum 248537"
+   "col 7 'TOTAL (STATES)': printed 12609, sum 12625",
+   "col 8 'TOTAL (STATES)': printed 11741, sum 11651",
+   "col 9 'TOTAL (STATES)': printed 257673, sum 237433",
+   "col 9 'TOTAL (UTS)': printed 12794, sum 12792",
+   "col 9 'TOTAL (CALL - INDIA)': printed 250467, sum 270467",
+   "col 10 'TOTAL (STATES)': printed 222790, sum 222781",
+   "col 10 'TOTAL (CALL - INDIA)': printed 254978, sum 234988",
+   "col 11 'TOTAL (STATES)': printed 251995, sum 246795"
   ],
-  "other_totals_checked": 10,
-  "other_totals_passed": 10
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

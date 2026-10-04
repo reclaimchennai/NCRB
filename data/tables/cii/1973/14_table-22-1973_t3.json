@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "14",
- "title": "78 TABLE Persons Arrested",
+ "title": "22- under IPC Crime. by Sex",
  "listing_title": "Persons Arrested under IPC Crime by Sex.",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,52 +14,52 @@
  "source_file": "raw/cii/1973/table_content/table-22-1973.pdf",
  "source_sha256": "532eb0928e02e99da3a5a0063b0b76009d2b63bf3249e9f43451571780d90bd4",
  "table_no": "",
- "pdf_title": "78 TABLE Persons Arrested",
- "row_label": "Sl. No.",
+ "pdf_title": "22- under IPC Crime. by Sex",
+ "row_label": "Riots Male",
  "pages": [
-  3,
   4
  ],
- "n_rows": 82,
+ "n_rows": 41,
  "n_cols": 7,
- "n_cells": 450,
+ "n_cells": 287,
  "columns": [
   {
    "col_no": "2",
-   "name": "States/U. Ts. /Cities",
+   "name": "Riots | Female",
    "header": [
-    "States/U. Ts. /Cities"
+    "Riots",
+    "Female"
    ]
   },
   {
    "col_no": "3",
-   "name": "Burglary | Male",
+   "name": "Criminal Breach of Trust | Male",
    "header": [
-    "Burglary",
+    "Criminal Breach of Trust",
     "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "Burglary | Female",
+   "name": "Criminal Breach of Trust | Female",
    "header": [
-    "Burglary",
+    "Criminal Breach of Trust",
     "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "Thefts | Male",
+   "name": "Cheating | Male",
    "header": [
-    "Thefts",
+    "Cheating",
     "Male"
    ]
   },
   {
    "col_no": "6",
-   "name": "Thefts | Female",
+   "name": "Cheating | Female",
    "header": [
-    "Thefts",
+    "Cheating",
     "Female"
    ]
   },
@@ -73,9 +73,8 @@
   },
   {
    "col_no": "8",
-   "name": "Counterfeiting | Female",
+   "name": "Female",
    "header": [
-    "Counterfeiting",
     "Female"
    ]
   }
@@ -85,10 +84,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 8,
-  "other_totals_passed": 4
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

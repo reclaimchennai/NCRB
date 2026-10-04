@@ -98,22 +98,20 @@
   },
   {
    "col_no": "13",
-   "name": "ALL AGE GROUPS | JUVENILES | M | (Col.3)",
+   "name": "ALL AGE GROUPS | JUVENILES | M{Col.(3)}",
    "header": [
     "ALL AGE GROUPS",
     "JUVENILES",
-    "M",
-    "(Col.3)"
+    "M{Col.(3)}"
    ]
   },
   {
    "col_no": "14",
-   "name": "ALL AGE GROUPS | JUVENILES | F | (Col.4+6)",
+   "name": "ALL AGE GROUPS | JUVENILES | F{Col. 4+6}",
    "header": [
     "ALL AGE GROUPS",
     "JUVENILES",
-    "F",
-    "(Col.4+6)"
+    "F{Col. 4+6}"
    ]
   },
   {
@@ -145,20 +143,18 @@
   },
   {
    "col_no": "18",
-   "name": "ALL AGE GROUPS | F | F",
+   "name": "GRAND TOTAL | M+F | F",
    "header": [
-    "ALL AGE GROUPS",
-    "F",
+    "GRAND TOTAL",
+    "M+F",
     "F"
    ]
   },
   {
    "col_no": "19",
-   "name": "GRAND TOTAL | M+F | [17+18]",
+   "name": "{17+18}",
    "header": [
-    "GRAND TOTAL",
-    "M+F",
-    "[17+18]"
+    "{17+18}"
    ]
   }
  ],

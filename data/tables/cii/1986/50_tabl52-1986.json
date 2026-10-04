@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tabl52-1986.pdf",
  "source_file": "raw/cii/1986/table_content/tabl52-1986.pdf",
  "source_sha256": "027d7479411d3ccab1ad3afe4888a95524cd557c6f6ee15b361505dd2d0c0c66",
- "table_no": "52",
- "pdf_title": "109 TABLE 52 Motive of Murder and Culpable Homicide not amouting to Murder in different States, U.Ts. and Cities during 1986",
+ "table_no": "",
+ "pdf_title": "",
  "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1,
@@ -24,34 +24,38 @@
  ],
  "n_rows": 142,
  "n_cols": 8,
- "n_cells": 755,
+ "n_cells": 756,
  "columns": [
   {
    "col_no": "3",
-   "name": "Murder",
+   "name": "Gain | Murder",
    "header": [
+    "Gain",
     "Murder"
    ]
   },
   {
    "col_no": "4",
-   "name": "Gain",
+   "name": "Gain | Culpable homicide not amounting to murder",
    "header": [
-    "Gain"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "Culpable homicide not amounting to murder",
-   "header": [
+    "Gain",
     "Culpable homicide not amounting to murder"
    ]
   },
   {
-   "col_no": "6",
-   "name": "Dispute Over Property Murder",
+   "col_no": "5",
+   "name": "Dispute Over Property | Murder",
    "header": [
-    "Dispute Over Property Murder"
+    "Dispute Over Property",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Dispute Over Property | Culpable homicide not amounting to murder",
+   "header": [
+    "Dispute Over Property",
+    "Culpable homicide not amounting to murder"
    ]
   },
   {
@@ -90,16 +94,16 @@
  "notes": [],
  "checks": {
   "cells_checked": 41,
-  "cells_passed": 31,
+  "cells_passed": 32,
   "failures": [
-   "col 3 'TOTAL(STATES)': printed 5800, sum 5805",
+   "col 3 'TOTAL (STATES)': printed 5800, sum 5805",
    "col 3 'TOTAL (STATES)': printed 1837, sum 1848",
-   "col 4 'TOTAL(STATES)': printed 897, sum 905",
+   "col 4 'TOTAL (STATES)': printed 897, sum 905",
    "col 4 'TOTAL (STATES)': printed 345, sum 357",
-   "col 5 'TOTAL(STATES)': printed 1880, sum 1889",
-   "col 5 'TOTAL(U.Ts.)': printed 18, sum 17",
+   "col 5 'TOTAL (STATES)': printed 1880, sum 1889",
+   "col 5 'TOTAL (U.T.s.)': printed 18, sum 17",
    "col 5 'TOTAL (STATES)': printed 347, sum 360",
-   "col 5 'TOTAL (CITIES)': printed 2, sum 3"
+   "col 6 'TOTAL (STATES)': printed 109, sum 119"
   ],
   "other_totals_checked": 16,
   "other_totals_passed": 8

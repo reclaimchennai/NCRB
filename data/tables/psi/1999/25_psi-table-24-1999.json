@@ -14,7 +14,7 @@
  "source_file": "raw/psi/1999/table_content/psi-table-24_1999.pdf",
  "source_sha256": "ed6db0147c8f750eb19571e2c644fc413a13fed195c3ba6a18fec5d396f52435",
  "table_no": "24",
- "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-24",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 TABLE-24",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
@@ -83,10 +83,10 @@
   },
   {
    "col_no": "10",
-   "name": "RELIGION | BINDU",
+   "name": "RELIGION | HINDU",
    "header": [
     "RELIGION",
-    "BINDU"
+    "HINDU"
    ]
   },
   {
@@ -107,10 +107,10 @@
   },
   {
    "col_no": "13",
-   "name": "RELIGION | CHRISTIAN",
+   "name": "RELIGION | CHRIS-TIAN",
    "header": [
     "RELIGION",
-    "CHRISTIAN"
+    "CHRIS-TIAN"
    ]
   },
   {
@@ -205,16 +205,16 @@
  "notes": [],
  "checks": {
   "cells_checked": 63,
-  "cells_passed": 43,
+  "cells_passed": 50,
   "failures": [
    "col 10 'TOTAL (STATES)': printed 48529, sum 48274",
-   "col 10 'TOTAL (UTS)': printed 184, sum 97",
    "col 11 'TOTAL (STATES)': printed 11290, sum 11283",
-   "col 11 'TOTAL (UTS)': printed 24, sum 21",
    "col 12 'TOTAL (STATES)': printed 2716, sum 2712",
-   "col 13 'TOTAL (UTS)': printed 23, sum 10",
    "col 14 'TOTAL (STATES)': printed 3234, sum 3193",
-   "col 15 'TOTAL (STATES)': printed 68242, sum 67935"
+   "col 15 'TOTAL (STATES)': printed 68242, sum 67935",
+   "col 16 'TOTAL (STATES)': printed 15059, sum 15008",
+   "col 17 'TOTAL (STATES)': printed 9572, sum 9545",
+   "col 18 'TOTAL (STATES)': printed 21940, sum 21863"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

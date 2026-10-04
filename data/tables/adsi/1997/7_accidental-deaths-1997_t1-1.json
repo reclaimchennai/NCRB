@@ -6,48 +6,41 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1997",
  "serial": "7",
- "title": "Accidental Deaths in India",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) Table-1.1 Percentage change in population, incidence and rate of Accidental Deaths during 1991 to 1997",
  "listing_title": "Accidental Deaths in India",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1997.pdf",
  "source_file": "raw/adsi/1997/year_wise/accidental-deaths-1997.pdf",
  "source_sha256": "25aeab2aae5e1894b6cfd1bbae5fcc2af528f41b9a6e818d7c3925bfe37b0248",
  "table_no": "1.1",
- "pdf_title": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) Table-1.1 Percentage change in population, incidence and rate of Accidental Deaths during 1991 to 1997",
  "row_label": "Year",
  "pages": [
   3
  ],
- "n_rows": 11,
- "n_cols": 4,
- "n_cells": 36,
+ "n_rows": 7,
+ "n_cols": 3,
+ "n_cells": 21,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "Population",
+   "header": [
+    "Population"
+   ]
   },
   {
    "col_no": "3",
-   "name": "Percentage Change in Ponulation",
+   "name": "Incidence",
    "header": [
-    "Percentage Change in Ponulation"
+    "Incidence"
    ]
   },
   {
    "col_no": "4",
-   "name": "incidence and rate | of Acciten:a: Deaths during 1991 to 1997 Tncidence",
+   "name": "Rate",
    "header": [
-    "incidence and rate",
-    "of Acciten:a: Deaths during 1991 to 1997 Tncidence"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "incidence and rate | Rate",
-   "header": [
-    "incidence and rate",
     "Rate"
    ]
   }
@@ -60,7 +53,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

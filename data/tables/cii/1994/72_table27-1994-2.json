@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table27-1994_2.pdf",
  "source_file": "raw/cii/1994/table_content/table27-1994_2.pdf",
  "source_sha256": "9b1c3cf3092240fbc3ae61b0e97d3d10ee0bdc7055fcc549dd4147df717c8400",
- "table_no": "27",
- "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-27",
+ "table_no": "",
+ "pdf_title": "",
  "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1
@@ -39,9 +39,10 @@
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE VARIATION IN 1994 OVER 1993",
+   "name": "PERCENTAGE VARIATION IN 1994 OVER 1993 | OVER 1993",
    "header": [
-    "PERCENTAGE VARIATION IN 1994 OVER 1993"
+    "PERCENTAGE VARIATION IN 1994 OVER 1993",
+    "OVER 1993"
    ]
   },
   {
@@ -52,13 +53,13 @@
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "Note: 1. Percentage variation and contribution less than 0.05 is also shown as 0.0. 2. NR stands for data not received"
+ ],
  "checks": {
   "cells_checked": 6,
-  "cells_passed": 5,
-  "failures": [
-   "col 3 'TOTAL (UTs)': printed 38970, sum 38940"
-  ],
+  "cells_passed": 6,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

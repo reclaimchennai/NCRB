@@ -15,7 +15,7 @@
  "source_sha256": "7ed97382812a7bc69d2aa10dee273064e79ebe8b28ea75b7d722ccc4f246d8ec",
  "table_no": "72",
  "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-72",
- "row_label": "SL NO. / STATE/UT/CITY",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
@@ -25,9 +25,9 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "TOTAL NO. OF PERSONS ARRESTED",
+   "name": "TOTALNO. OFPERSONSARRESTED",
    "header": [
-    "TOTAL NO. OF PERSONS ARRESTED"
+    "TOTALNO. OFPERSONSARRESTED"
    ]
   },
   {
@@ -40,75 +40,80 @@
   },
   {
    "col_no": "5",
-   "name": "NEW OFFENDERS | PERCENTAGE TO TOTAL",
+   "name": "NEW OFFENDERS | PERCENTAGETO TOTAL",
    "header": [
     "NEW OFFENDERS",
-    "PERCENTAGE TO TOTAL"
+    "PERCENTAGETO TOTAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE (6)",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | NO.",
    "header": [
     "OLD OFFENDERS CONVICTED IN THE PAST",
-    "ONCE"
+    "ONCE",
+    "NO."
    ]
   },
   {
    "col_no": "7",
-   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE (7)",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | ONCE | PERCENTAGETO TOTAL",
    "header": [
     "OLD OFFENDERS CONVICTED IN THE PAST",
-    "ONCE"
+    "ONCE",
+    "PERCENTAGETO TOTAL"
    ]
   },
   {
    "col_no": "8",
-   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE (8)",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE | NO.",
    "header": [
     "OLD OFFENDERS CONVICTED IN THE PAST",
-    "TWICE"
+    "TWICE",
+    "NO."
    ]
   },
   {
    "col_no": "9",
-   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE (9)",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | TWICE | PERCENTAGETO TOTAL",
    "header": [
     "OLD OFFENDERS CONVICTED IN THE PAST",
-    "TWICE"
+    "TWICE",
+    "PERCENTAGETO TOTAL"
    ]
   },
   {
    "col_no": "10",
-   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE (10)",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE ORMORE | NO.",
    "header": [
     "OLD OFFENDERS CONVICTED IN THE PAST",
-    "THRICE OR MORE"
+    "THRICE ORMORE",
+    "NO."
    ]
   },
   {
    "col_no": "11",
-   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE OR MORE (11)",
+   "name": "OLD OFFENDERS CONVICTED IN THE PAST | THRICE ORMORE | PERCENTAGETO TOTAL",
    "header": [
     "OLD OFFENDERS CONVICTED IN THE PAST",
-    "THRICE OR MORE"
+    "THRICE ORMORE",
+    "PERCENTAGETO TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "PERCENTAGE OF RECIDIVISTS(7) + (9) + (11)",
+   "name": "PERCENTAGEOF RECIDIVISTS((7)+(9)+(11))",
    "header": [
-    "PERCENTAGE OF RECIDIVISTS(7) + (9) + (11)"
+    "PERCENTAGEOF RECIDIVISTS((7)+(9)+(11))"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 15,
-  "cells_passed": 13,
+  "cells_passed": 14,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 2.538e+06, sum 2.498e+06",
-   "col 8 'TOTAL (STATES)': printed 32337, sum 32343"
+   "col 3 'TOTAL (STATES)': printed 2.538e+06, sum 2.53806e+06"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

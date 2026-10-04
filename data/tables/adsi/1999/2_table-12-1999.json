@@ -15,14 +15,14 @@
  "source_sha256": "d8b694b2ba0a3f8b44937765ca31859aebbcb38519840579e4a7362caa668b16",
  "table_no": "12",
  "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1999 N.C.R.B., (M.H.A.) TABLE - 12",
- "row_label": "Sl. No. / State/UT/City",
+ "row_label": "Sl.No. / State/UT/City",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 67,
+ "n_rows": 65,
  "n_cols": 52,
  "n_cells": 3068,
  "columns": [
@@ -445,17 +445,17 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 208,
-  "cells_passed": 145,
+  "cells_checked": 207,
+  "cells_passed": 163,
   "failures": [
-   "col 4 'Total (States)': printed 23758, sum 23752",
-   "col 6 'Total (States)': printed 25224, sum 25234",
-   "col 6 'Total (Cities)': printed 3934, sum 3936",
-   "col 7 'Total (Cities)': printed 4058, sum 4057",
-   "col 9 'Total (States)': printed 23973, sum 24033",
-   "col 13 'Total (States)': printed 23643, sum 23551",
-   "col 14 'Total (States)': printed 26107, sum 26098",
-   "col 14 'Total (UTs)': printed 951, sum 950"
+   "col 4 'Total (States)': printed 23758, sum 23756",
+   "col 9 'Total (States)': printed 23973, sum 23972",
+   "col 9 'Total (UTs)': printed 959, sum 961",
+   "col 13 'Total (States)': printed 23643, sum 23553",
+   "col 14 'Total (States)': printed 26107, sum 26108",
+   "col 16 'Total (States)': printed 232, sum 215",
+   "col 17 'Total (States)': printed 203, sum 176",
+   "col 18 'Total (States)': printed 293, sum 272"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

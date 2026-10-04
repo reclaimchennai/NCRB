@@ -26,7 +26,7 @@
  ],
  "n_rows": 92,
  "n_cols": 27,
- "n_cells": 1268,
+ "n_cells": 1266,
  "columns": [
   {
    "col_no": "3",
@@ -86,10 +86,10 @@
   },
   {
    "col_no": "10",
-   "name": "BY ECONOMIC SET-UP | UPPER INCOME (ABOVE Rs. 1000/-",
+   "name": "BY ECONOMIC SET-UP | UPPER INCOME (ABOVE)",
    "header": [
     "BY ECONOMIC SET-UP",
-    "UPPER INCOME (ABOVE Rs. 1000/-"
+    "UPPER INCOME (ABOVE)"
    ]
   },
   {
@@ -102,25 +102,22 @@
   },
   {
    "col_no": "12",
-   "name": "RECIDIVISM | NEW DELINQUENTS",
+   "name": "NEW DELINQUENTS",
    "header": [
-    "RECIDIVISM",
     "NEW DELINQUENTS"
    ]
   },
   {
    "col_no": "13",
-   "name": "RECIDIVISM | OLD DELINQUENTS",
+   "name": "OLD DELINQUENTS",
    "header": [
-    "RECIDIVISM",
     "OLD DELINQUENTS"
    ]
   },
   {
    "col_no": "14",
-   "name": "RECIDIVISM | TOTAL",
+   "name": "TOTAL",
    "header": [
-    "RECIDIVISM",
     "TOTAL"
    ]
   },
@@ -247,13 +244,13 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 47,
-  "cells_passed": 46,
+  "cells_checked": 52,
+  "cells_passed": 51,
   "failures": [
    "col 14 'Total(UTs)': printed 6439, sum 6435"
   ],
-  "other_totals_checked": 25,
-  "other_totals_passed": 24
+  "other_totals_checked": 26,
+  "other_totals_passed": 26
  },
  "inferred_pages": 0,
  "ocr_pages": 6,

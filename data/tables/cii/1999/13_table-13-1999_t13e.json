@@ -34,8 +34,10 @@
  "notes": [],
  "checks": {
   "cells_checked": 4,
-  "cells_passed": 4,
-  "failures": [],
+  "cells_passed": 3,
+  "failures": [
+   "col 3 'TOTAL STATES': printed 23193, sum 22593"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -8,76 +8,87 @@
  "serial": "23",
  "title": "Disposal of L&SL Crime Cases by Courts During 1993 (State & UT-Wise)",
  "listing_title": "Disposal of L&SL Crime Cases by Courts During 1993 (State & UT-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-23-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-23-1993-crime.pdf",
  "source_sha256": "98c6e6c6dcc276ff186f84c1bf23d18c89f9fdbe2c54246ae18a0b287b220e71",
- "table_no": "23",
- "pdf_title": "DISPOSAL OF L&SL CRIME CASES BY COURTS DURING 1993",
- "row_label": "a)",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "ST. NO. / STATE/T",
  "pages": [
   1
  ],
- "n_rows": 30,
+ "n_rows": 35,
  "n_cols": 8,
- "n_cells": 231,
+ "n_cells": 280,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "TOTAL NO. OF CASES",
+   "header": [
+    "TOTAL NO. OF CASES"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "TOTAL OHUNDRED OR WITH DRAWN",
+   "header": [
+    "TOTAL OHUNDRED OR WITH DRAWN"
+   ]
   },
   {
    "col_no": "5",
-   "name": "(STATE & UT-WISE)",
+   "name": "NO. CT CASES | COMP. OVERDUE OR WITH DRAWN",
    "header": [
-    "(STATE & UT-WISE)"
+    "NO. CT CASES",
+    "COMP. OVERDUE OR WITH DRAWN"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "IN VINCH TRIALS WERE COMPLETED | CONVICTED",
+   "header": [
+    "IN VINCH TRIALS WERE COMPLETED",
+    "CONVICTED"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "ACOLUTED OR CHANGED",
+   "header": [
+    "ACOLUTED OR CHANGED"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "TOTAL (191 + (19)",
+   "header": [
+    "TOTAL (191 + (19)"
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "PENDLE TRIAL",
+   "header": [
+    "PENDLE TRIAL"
+   ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "PERSONAL PERCENTAGE",
+   "header": [
+    "PERSONAL PERCENTAGE"
+   ]
   }
  ],
- "notes": [
-  "a1 LAKSHADWEEP 10 ° Q § 2 26).C) 0",
-  "Wop 8) “M214 a my",
-  "Note: Ferceniaye iess than 0.05 is also shown as 0.0.",
-  "177 NORBP os"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 12,
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

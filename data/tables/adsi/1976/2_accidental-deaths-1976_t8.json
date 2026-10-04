@@ -1,0 +1,80 @@
+{
+ "table_id": "adsi/1976/2_accidental-deaths-1976_t8",
+ "publication": "adsi",
+ "year": 1976,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1976",
+ "serial": "2",
+ "title": "12 ## Accidental Deaths sex-wise The percentage of male victims from amongst the total accidental deaths reported during 1976, for the country as a whole, was much more than for female victims. The percentage of male victims was 65.5 percent and for the female victims, it was 34.5 percent. The ratio of male and female victims was 65.3 percent and 34.7 percent,",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1976.pdf",
+ "source_file": "raw/adsi/1976/year_wise/accidental-deaths-1976.pdf",
+ "source_sha256": "2ea6cc42f5c0f80a54b386799bea5e31e4d7de8791a5cb14407582df7229446c",
+ "table_no": "",
+ "pdf_title": "12 ## Accidental Deaths sex-wise The percentage of male victims from amongst the total accidental deaths reported during 1976, for the country as a whole, was much more than for female victims. The percentage of male victims was 65.5 percent and for the female victims, it was 34.5 percent. The ratio of male and female victims was 65.3 percent and 34.7 percent,",
+ "row_label": "25 / Chandigarh / . / . / .",
+ "pages": [
+  11,
+  11
+ ],
+ "n_rows": 29,
+ "n_cols": 6,
+ "n_cells": 104,
+ "columns": [
+  {
+   "col_no": "4",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "5",
+   "name": "col_5",
+   "header": []
+  },
+  {
+   "col_no": "6",
+   "name": "col_6",
+   "header": []
+  },
+  {
+   "col_no": "7",
+   "name": "0.",
+   "header": [
+    "0."
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "285",
+   "header": [
+    "285"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "21.40",
+   "header": [
+    "21.40"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'TOTAL (STATES) .': printed 108528, sum 33362",
+   "col 6 'TOTAL (STATES) .': printed 601476, sum 262265",
+   "col 6 'TOTAL (U.Ts.) .': printed 3083, sum 3567",
+   "col 8 'TOTAL (U.Ts.) .': printed 8031, sum 7098"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

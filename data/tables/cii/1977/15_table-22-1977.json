@@ -15,16 +15,16 @@
  "source_sha256": "6856a556f9cbc2ac24a9b3cd6ba121779e732b5dd083a83e3bac8cb2aa2095cc",
  "table_no": "22",
  "pdf_title": "68 TABLE 22 PERSONS ARRESTED UNDER L.P.C. CRIMES BY SEX",
- "row_label": "Sl. No.",
+ "row_label": "Sl. No. / States/U. Ts./Cities / States/U. Ts./Cities",
  "pages": [
   1,
   2,
   3,
   4
  ],
- "n_rows": 111,
- "n_cols": 14,
- "n_cells": 858,
+ "n_rows": 89,
+ "n_cols": 18,
+ "n_cells": 1134,
  "columns": [
   {
    "col_no": "3",
@@ -76,6 +76,54 @@
   },
   {
    "col_no": "10001",
+   "name": "Rape | Male",
+   "header": [
+    "Rape",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Rape | Female",
+   "header": [
+    "Rape",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Kidnapping & Abduction | Male",
+   "header": [
+    "Kidnapping & Abduction",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Kidnapping & Abduction | Female",
+   "header": [
+    "Kidnapping & Abduction",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Discoity | Male",
+   "header": [
+    "Discoity",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Discoity | Female",
+   "header": [
+    "Discoity",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10006",
    "name": "Riots | Male",
    "header": [
     "Riots",
@@ -83,7 +131,7 @@
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "10007",
    "name": "Riots | Female",
    "header": [
     "Riots",
@@ -91,23 +139,15 @@
    ]
   },
   {
-   "col_no": "10003",
-   "name": "Criminal Breach of Trust | Male",
+   "col_no": "10008",
+   "name": "Criminal Brench of Trust | Male",
    "header": [
-    "Criminal Breach of Trust",
+    "Criminal Brench of Trust",
     "Male"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "Criminal Breach of Trust | Female",
-   "header": [
-    "Criminal Breach of Trust",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "10005",
+   "col_no": "10009",
    "name": "Cheating | Male",
    "header": [
     "Cheating",
@@ -115,15 +155,7 @@
    ]
   },
   {
-   "col_no": "10006",
-   "name": "Cheating | Female",
-   "header": [
-    "Cheating",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "9",
+   "col_no": "10010",
    "name": "Counterfeiting | Male",
    "header": [
     "Counterfeiting",
@@ -144,8 +176,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 58,
-  "other_totals_passed": 31
+  "other_totals_checked": 88,
+  "other_totals_passed": 65
  },
  "inferred_pages": 0,
  "ocr_pages": 4,

@@ -6,7 +6,7 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-23",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 TABLE-23",
  "listing_title": "Download Full Report",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,13 +14,13 @@
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "23",
- "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-23",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 TABLE-23",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   112,
   113
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 21,
  "n_cells": 735,
  "columns": [
@@ -61,9 +61,9 @@
   },
   {
    "col_no": "8",
-   "name": "EXP. & EXP. SUB ACT",
+   "name": "EXP. & EXP. SUB. ACT",
    "header": [
-    "EXP. & EXP. SUB ACT"
+    "EXP. & EXP. SUB. ACT"
    ]
   },
   {
@@ -103,23 +103,23 @@
   },
   {
    "col_no": "14",
-   "name": "ESSEN-TIAL COMMO-DITIES ACT",
+   "name": "ESSENTIAL COMMUNITY DITIES ACT",
    "header": [
-    "ESSEN-TIAL COMMO-DITIES ACT"
+    "ESSENTIAL COMMUNITY DITIES ACT"
    ]
   },
   {
    "col_no": "15",
-   "name": "ANTI-QUITY & ART TREAS-URE ACT",
+   "name": "ANTI-QUITY & ART TREASURE ACT",
    "header": [
-    "ANTI-QUITY & ART TREAS-URE ACT"
+    "ANTI-QUITY & ART TREASURE ACT"
    ]
   },
   {
    "col_no": "16",
-   "name": "DOWRY PROHIBI-TON ACT",
+   "name": "DOWRY PROHIBITION ACT",
    "header": [
-    "DOWRY PROHIBI-TON ACT"
+    "DOWRY PROHIBITION ACT"
    ]
   },
   {
@@ -131,9 +131,9 @@
   },
   {
    "col_no": "18",
-   "name": "OFFI-CIAL SEC-RETS ACTS",
+   "name": "OFFICIAL SECRETS ACTS",
    "header": [
-    "OFFI-CIAL SEC-RETS ACTS"
+    "OFFICIAL SECRETS ACTS"
    ]
   },
   {
@@ -152,9 +152,9 @@
   },
   {
    "col_no": "21",
-   "name": "NATI-ONAL SECU-RITY ACT",
+   "name": "NATIONAL SECURITY ACT",
    "header": [
-    "NATI-ONAL SECU-RITY ACT"
+    "NATIONAL SECURITY ACT"
    ]
   },
   {
@@ -166,19 +166,17 @@
   },
   {
    "col_no": "23",
-   "name": "TOTAL UNDER-TRIALS (SLL)",
+   "name": "TOTAL UNDERTRIALS (SLL)",
    "header": [
-    "TOTAL UNDER-TRIALS (SLL)"
+    "TOTAL UNDERTRIALS (SLL)"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 63,
-  "cells_passed": 62,
-  "failures": [
-   "col 23 'TOTAL (UTS)': printed 2218, sum 2206"
-  ],
+  "cells_passed": 63,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

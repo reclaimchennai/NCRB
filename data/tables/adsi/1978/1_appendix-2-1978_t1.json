@@ -6,7 +6,7 @@
  "topic": "Accidental Deaths in India",
  "section": "ACCIDENTAL DEATHS IN INDIA",
  "serial": "1",
- "title": "35 Appendix—II State-wise distribution of Accidental Deaths due to other Causes during 1978",
+ "title": "35 APPENDIX—II State-wise distribution of Accidental Deaths due to other Causes during 1978",
  "listing_title": "State wise distribution of Accidental Deaths due to Other Causes during 1978",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,8 +14,8 @@
  "source_file": "raw/adsi/1978/table_content/appendix-2_1978.pdf",
  "source_sha256": "1509e90842f49c7958fbc2154d84eee5e1c4f541cd3b1a19e5006df46e8cf0f0",
  "table_no": "",
- "pdf_title": "35 Appendix—II State-wise distribution of Accidental Deaths due to other Causes during 1978",
- "row_label": "Sl. No. States/ U. Ts./Cities",
+ "pdf_title": "35 APPENDIX—II State-wise distribution of Accidental Deaths due to other Causes during 1978",
+ "row_label": "Sl. No. States/U. Ts./Cities",
  "pages": [
   1
  ],
@@ -25,14 +25,21 @@
  "columns": [
   {
    "col_no": "2",
-   "name": "By Fire- Arms | M (2)",
+   "name": "Sl. No. States/U. Ts./Cities",
+   "header": [
+    "Sl. No. States/U. Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "By Fire- Arms | M",
    "header": [
     "By Fire- Arms",
     "M"
    ]
   },
   {
-   "col_no": "3",
+   "col_no": "4",
    "name": "By Fire- Arms | F",
    "header": [
     "By Fire- Arms",
@@ -40,23 +47,7 @@
    ]
   },
   {
-   "col_no": "4",
-   "name": "By Fire- Arms | M (4)",
-   "header": [
-    "By Fire- Arms",
-    "M"
-   ]
-  },
-  {
    "col_no": "5",
-   "name": "By Ex- plosion | F (5)",
-   "header": [
-    "By Ex- plosion",
-    "F"
-   ]
-  },
-  {
-   "col_no": "6",
    "name": "By Ex- plosion | M",
    "header": [
     "By Ex- plosion",
@@ -64,23 +55,23 @@
    ]
   },
   {
-   "col_no": "7",
-   "name": "By Ex- plosion | F (7)",
+   "col_no": "6",
+   "name": "By Ex- plosion | F",
    "header": [
     "By Ex- plosion",
     "F"
    ]
   },
   {
-   "col_no": "8",
-   "name": "By House Collapse | M (8)",
+   "col_no": "7",
+   "name": "By House Collapse | M",
    "header": [
     "By House Collapse",
     "M"
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "8",
    "name": "By House Collapse | F",
    "header": [
     "By House Collapse",
@@ -88,23 +79,23 @@
    ]
   },
   {
-   "col_no": "10",
-   "name": "By House Collapse | M (10)",
+   "col_no": "9",
+   "name": "On Roads | M",
    "header": [
-    "By House Collapse",
+    "On Roads",
     "M"
    ]
   },
   {
-   "col_no": "11",
-   "name": "(a) Motor Vehicles accident | F (11)",
+   "col_no": "10",
+   "name": "On Roads | F",
    "header": [
-    "(a) Motor Vehicles accident",
+    "On Roads",
     "F"
    ]
   },
   {
-   "col_no": "12",
+   "col_no": "11",
    "name": "(a) Motor Vehicles accident | M",
    "header": [
     "(a) Motor Vehicles accident",
@@ -112,23 +103,23 @@
    ]
   },
   {
-   "col_no": "13",
-   "name": "(a) Motor Vehicles accident | F (13)",
+   "col_no": "12",
+   "name": "(a) Motor Vehicles accident | F",
    "header": [
     "(a) Motor Vehicles accident",
     "F"
    ]
   },
   {
-   "col_no": "14",
-   "name": "(b) Other Road Accidents | M (14)",
+   "col_no": "13",
+   "name": "(b) Other Road Accidents | M",
    "header": [
     "(b) Other Road Accidents",
     "M"
    ]
   },
   {
-   "col_no": "15",
+   "col_no": "14",
    "name": "(b) Other Road Accidents | F",
    "header": [
     "(b) Other Road Accidents",
@@ -136,23 +127,7 @@
    ]
   },
   {
-   "col_no": "16",
-   "name": "(b) Other Road Accidents | M (16)",
-   "header": [
-    "(b) Other Road Accidents",
-    "M"
-   ]
-  },
-  {
-   "col_no": "17",
-   "name": "In Fac- tories | F (17)",
-   "header": [
-    "In Fac- tories",
-    "F"
-   ]
-  },
-  {
-   "col_no": "18",
+   "col_no": "15",
    "name": "In Fac- tories | M",
    "header": [
     "In Fac- tories",
@@ -160,15 +135,15 @@
    ]
   },
   {
-   "col_no": "19",
-   "name": "In Fac- tories | F (19)",
+   "col_no": "16",
+   "name": "In Fac- tories | F",
    "header": [
     "In Fac- tories",
     "F"
    ]
   },
   {
-   "col_no": "20",
+   "col_no": "17",
    "name": "In Railways | M",
    "header": [
     "In Railways",
@@ -176,11 +151,35 @@
    ]
   },
   {
-   "col_no": "21",
+   "col_no": "18",
    "name": "In Railways | F",
    "header": [
     "In Railways",
     "F"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "In Air Crashes | M",
+   "header": [
+    "In Air Crashes",
+    "M"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "In Air Crashes | F",
+   "header": [
+    "In Air Crashes",
+    "F"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "By Fire | M",
+   "header": [
+    "By Fire",
+    "M"
    ]
   }
  ],

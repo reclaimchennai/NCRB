@@ -14,8 +14,8 @@
  "source_file": "raw/cii/1974/table_chapter/chapter-11-1974.pdf",
  "source_sha256": "42b43d3be6358123bece97901de9834bd2ec814eb97c7cc3c1d8d7d8f310304f",
  "table_no": "56",
- "pdf_title": "107 registering an increase of 14·1 per cent. The maximum number police personnel injured were due to 'riotous mob' which accounted for 73·4 per cent of the total followed by 'injuries caused by criminals' (15·5 per cent) and 'accidents' (4.4 per cent). The pattern of the office held by the 'police personal injured' was almost similar to the pattern recorded under 'Police Personnel killed'. The maximum number injured were constables (74·8 per cent) followed by 'Head Constables (10·7 per cent), Assistant Sub-Inspector (2·2 per cent) and Sub-Inspector (7·9 per cent). During 1974 the percentage of gazetted rank injured was 1·9 in comparison to 4·8 per cent in 1973.",
- "row_label": "Sl. No. / States/U.Ts./Cities",
+ "pdf_title": "107 registering an increase of 14·1 per cent. The maximum number police personnel injured were due to 'riotous mob' which accounted for 73·4 per cent of the total followed by 'injuries caused by criminals' (15·5 per cent) and 'accidents' (4.4 per cent). The pattern of the office held by the 'police personal injured' was almost similar to the pattern recorded under 'Police Personnel killed'. The maxi-",
+ "row_label": "Sl. No.",
  "pages": [
   2
  ],
@@ -25,46 +25,38 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "Number of killed personnel | In Dacology operations or other raids",
+   "name": "Number of killed personnel | In Dacety operations or other raids (3)",
    "header": [
     "Number of killed personnel",
-    "In Dacology operations or other raids"
+    "In Dacety operations or other raids"
    ]
   },
   {
    "col_no": "4",
-   "name": "Number of killed personnel | By Rictous Mobs",
+   "name": "Number of killed personnel | By Riotous other Mobs",
    "header": [
     "Number of killed personnel",
-    "By Rictous Mobs"
+    "By Riotous other Mobs"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number of killed personnel | By other criminals, duties",
+   "name": "Number of killed personnel | By criminals",
    "header": [
     "Number of killed personnel",
-    "By other criminals, duties"
+    "By criminals"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number of killed personnel | On Border Accidents",
+   "name": "Number of killed personnel | On Border Accidents duties",
    "header": [
     "Number of killed personnel",
-    "On Border Accidents"
+    "On Border Accidents duties"
    ]
   },
   {
    "col_no": "7",
-   "name": "Number of killed personnel | In Accidents",
-   "header": [
-    "Number of killed personnel",
-    "In Accidents"
-   ]
-  },
-  {
-   "col_no": "8",
    "name": "Number of killed personnel | Total",
    "header": [
     "Number of killed personnel",
@@ -72,31 +64,31 @@
    ]
   },
   {
+   "col_no": "8",
+   "name": "Number of killed personnel | In Dacety operations or other raids (8)",
+   "header": [
+    "Number of killed personnel",
+    "In Dacety operations or other raids"
+   ]
+  },
+  {
    "col_no": "9",
-   "name": "Number of injured personnel | In Dacology operations or other raids",
+   "name": "Number of injured personnel | By Riotous other Mobs",
    "header": [
     "Number of injured personnel",
-    "In Dacology operations or other raids"
+    "By Riotous other Mobs"
    ]
   },
   {
    "col_no": "10",
-   "name": "Number of injured personnel | By Rictous Mobs",
+   "name": "Number of injured personnel | By criminals",
    "header": [
     "Number of injured personnel",
-    "By Rictous Mobs"
+    "By criminals"
    ]
   },
   {
    "col_no": "11",
-   "name": "Number of injured personnel | By other criminals",
-   "header": [
-    "Number of injured personnel",
-    "By other criminals"
-   ]
-  },
-  {
-   "col_no": "12",
    "name": "Number of injured personnel | Or Border Accidents",
    "header": [
     "Number of injured personnel",
@@ -104,7 +96,7 @@
    ]
   },
   {
-   "col_no": "13",
+   "col_no": "12",
    "name": "Number of injured personnel | In Accidents",
    "header": [
     "Number of injured personnel",
@@ -112,11 +104,18 @@
    ]
   },
   {
-   "col_no": "14",
+   "col_no": "13",
    "name": "Number of injured personnel | Total",
    "header": [
     "Number of injured personnel",
     "Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Number of injured personnel",
+   "header": [
+    "Number of injured personnel"
    ]
   }
  ],
@@ -125,8 +124,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 33,
-  "other_totals_passed": 33
+  "other_totals_checked": 32,
+  "other_totals_passed": 32
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

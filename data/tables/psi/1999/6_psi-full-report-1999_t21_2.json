@@ -20,7 +20,7 @@
   108,
   109
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 21,
  "n_cells": 735,
  "columns": [
@@ -54,16 +54,16 @@
   },
   {
    "col_no": "7",
-   "name": "PROHIBITON ACT",
+   "name": "PROHI-BITON ACT",
    "header": [
-    "PROHIBITON ACT"
+    "PROHI-BITON ACT"
    ]
   },
   {
    "col_no": "8",
-   "name": "EXP. & EXP. SUB ACT",
+   "name": "EXP. & EXP. SUB. ACT",
    "header": [
-    "EXP. & EXP. SUB ACT"
+    "EXP. & EXP. SUB. ACT"
    ]
   },
   {
@@ -103,9 +103,9 @@
   },
   {
    "col_no": "14",
-   "name": "ESSENTIAL COMMO DITIES ACT",
+   "name": "ESSENTIAL COMMODITIES ACT",
    "header": [
-    "ESSENTIAL COMMO DITIES ACT"
+    "ESSENTIAL COMMODITIES ACT"
    ]
   },
   {
@@ -175,13 +175,12 @@
  "notes": [],
  "checks": {
   "cells_checked": 63,
-  "cells_passed": 58,
+  "cells_passed": 59,
   "failures": [
    "col 3 'TOTAL (STATES)': printed 1187, sum 1178",
    "col 4 'TOTAL (STATES)': printed 2422, sum 2431",
    "col 6 'TOTAL (STATES)': printed 939, sum 938",
-   "col 7 'TOTAL (STATES)': printed 884, sum 885",
-   "col 23 'TOTAL (STATES)': printed 11473, sum 11463"
+   "col 7 'TOTAL (STATES)': printed 884, sum 885"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

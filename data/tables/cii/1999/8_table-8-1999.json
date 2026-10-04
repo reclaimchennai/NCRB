@@ -15,7 +15,7 @@
  "source_sha256": "aa3e6c1db2d1f572c5fdda76f0c4c5b6b6d8f000548fe37fe4e1780e35e75976",
  "table_no": "8",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE-8",
- "row_label": "SL. NO. / STATE/DISTRICT",
+ "row_label": "SL.NO. / STATE/DISTRICT",
  "pages": [
   1,
   2,
@@ -42,9 +42,9 @@
   23,
   24
  ],
- "n_rows": 817,
+ "n_rows": 770,
  "n_cols": 27,
- "n_cells": 18900,
+ "n_cells": 18796,
  "columns": [
   {
    "col_no": "3",
@@ -107,9 +107,9 @@
   },
   {
    "col_no": "11",
-   "name": "PREPARA-TION AND ASSEMBLY FOR DACOITY",
+   "name": "PREPARATION AND ASSEMBLY FOR DACOITY",
    "header": [
-    "PREPARA-TION AND ASSEMBLY FOR DACOITY"
+    "PREPARATION AND ASSEMBLY FOR DACOITY"
    ]
   },
   {
@@ -244,13 +244,14 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 14,
-  "cells_passed": 13,
+  "cells_checked": 24,
+  "cells_passed": 22,
   "failures": [
-   "col 12 'TOTAL (ALL-INDIA)': printed 21332, sum 21312"
+   "col 12 'TOTAL (ALL-INDIA)': printed 21332, sum 21312",
+   "col 21 'TOTAL (ALL-INDIA)': printed 11218, sum 11308"
   ],
-  "other_totals_checked": 664,
-  "other_totals_passed": 539
+  "other_totals_checked": 636,
+  "other_totals_passed": 568
  },
  "inferred_pages": 0,
  "ocr_pages": 24,

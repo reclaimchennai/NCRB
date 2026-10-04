@@ -15,7 +15,7 @@
  "source_sha256": "0915e4102d71234d61d712b993e9a7573cfbc95bb7b81e046d257e22773bb7ea",
  "table_no": "66",
  "pdf_title": "202 TABLE-66 SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE",
- "row_label": "SL. STATE/UT/CITY NO.",
+ "row_label": "SL. STATE/UT/CITY NO. / SL. STATE/UT/CITY NO.",
  "pages": [
   1
  ],
@@ -107,13 +107,9 @@
  "notes": [],
  "checks": {
   "cells_checked": 30,
-  "cells_passed": 25,
+  "cells_passed": 29,
   "failures": [
-   "col 5 'TOTAL (STATES)': printed 1294, sum 1288",
-   "col 11 'TOTAL (STATES)': printed 234078, sum 233978",
-   "col 11 'TOTAL (UTs)': printed 13082, sum 13062",
-   "col 11 'TOTAL (ALL-INDIA)': printed 247140, sum 247160",
-   "col 12 'TOTAL (STATES)': printed 220370, sum 220470"
+   "col 5 'TOTAL (STATES)': printed 1294, sum 1288"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

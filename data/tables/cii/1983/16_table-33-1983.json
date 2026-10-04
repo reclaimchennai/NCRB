@@ -17,11 +17,12 @@
  "pdf_title": "91 TABLE 33 Juvenile Delinquency for Important Heads of crime under I.P.C. during the year 1983",
  "row_label": "Sl. No. / Sl. No.",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 47,
- "n_cols": 7,
- "n_cells": 286,
+ "n_rows": 53,
+ "n_cols": 13,
+ "n_cells": 614,
  "columns": [
   {
    "col_no": "3",
@@ -77,17 +78,66 @@
     "IPC Cognizable offences reported",
     "Robbery"
    ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Burglary",
+   "header": [
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Thefts",
+   "header": [
+    "Thefts"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Criminal breach of trust",
+   "header": [
+    "Criminal breach of trust"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Cheating",
+   "header": [
+    "Cheating"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Counter-feiting",
+   "header": [
+    "Counter-feiting"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
+  "cells_checked": 6,
   "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "failures": [
+   "col 9 'TOTAL (STATES)': printed 8663, sum 11215",
+   "col 10001 'TOTAL (STATES)': printed 5590, sum 6208",
+   "col 10 'TOTAL (STATES)': printed 202, sum 249",
+   "col 11 'TOTAL (STATES)': printed 264, sum 312",
+   "col 12 'TOTAL (STATES)': printed 17, sum 18",
+   "col 13 'TOTAL (STATES)': printed 53112, sum 61856"
+  ],
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

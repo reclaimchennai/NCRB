@@ -17,11 +17,13 @@
  "pdf_title": "58",
  "row_label": "Sl. No. / States/UTs/Cities",
  "pages": [
-  3
+  3,
+  4,
+  5
  ],
- "n_rows": 13,
- "n_cols": 12,
- "n_cells": 156,
+ "n_rows": 20,
+ "n_cols": 13,
+ "n_cells": 234,
  "columns": [
   {
    "col_no": "3",
@@ -118,17 +120,31 @@
     "By Fire",
     "F"
    ]
+  },
+  {
+   "col_no": "2",
+   "name": "col_2",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
+  "cells_checked": 10,
   "cells_passed": 0,
-  "failures": [],
+  "failures": [
+   "col 3 'TOTAL (States) .': printed 3361, sum 682",
+   "col 4 'TOTAL (States) .': printed 3273, sum 477",
+   "col 5 'TOTAL (States) .': printed 7432, sum 2071",
+   "col 7 'TOTAL (States) .': printed 358, sum 107",
+   "col 8 'TOTAL (States) .': printed 225, sum 87",
+   "col 9 'TOTAL (States) .': printed 4400, sum 1960",
+   "col 10 'TOTAL (States) .': printed 2529, sum 1305",
+   "col 11 'TOTAL (States) .': printed 26682, sum 8827"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

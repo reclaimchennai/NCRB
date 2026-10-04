@@ -40,7 +40,7 @@
   21,
   22
  ],
- "n_rows": 61,
+ "n_rows": 59,
  "n_cols": 69,
  "n_cells": 4002,
  "columns": [
@@ -599,17 +599,17 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 206,
-  "cells_passed": 187,
+  "cells_checked": 207,
+  "cells_passed": 199,
   "failures": [
-   "col 17 'Total (States)': printed 40042, sum 40052",
-   "col 30 'Total (UTs)': printed 186, sum 185",
-   "col 30 'Total (All-India)': printed 6672, sum 6673",
+   "col 19 'Total (States)': printed 1620, sum 1640",
    "col 31 'Total (States)': printed 14911, sum 14912",
-   "col 33 'Total (States)': printed 13695, sum 13265",
-   "col 35 'Total (States)': printed 21775, sum 21108",
-   "col 36 'Total (States)': printed 7451, sum 7223",
-   "col 37 'Total (States)': printed 5215, sum 5063"
+   "col 51 'Total (UTs)': printed 111, sum 99",
+   "col 52 'Total (UTs)': printed 22, sum 19",
+   "col 53 'Total (UTs)': printed 133, sum 118",
+   "col 54 'Total (UTs)': printed 154, sum 131",
+   "col 55 'Total (UTs)': printed 28, sum 26",
+   "col 56 'Total (UTs)': printed 182, sum 157"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

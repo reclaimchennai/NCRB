@@ -15,21 +15,21 @@
  "source_sha256": "bdad9979979d88ed27df840506e98188cfec7374e129a6e83a4743e7d73a9359",
  "table_no": "32",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1998 TABLE-32",
- "row_label": "SL. NO. / STATE/UT",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 38,
+ "n_rows": 35,
  "n_cols": 34,
  "n_cells": 1190,
  "columns": [
   {
    "col_no": "3",
-   "name": "ESTIMATED MID- YEAR POPULATION",
+   "name": "ESTIMATED MID-YEAR POPULATION",
    "header": [
-    "ESTIMATED MID- YEAR POPULATION"
+    "ESTIMATED MID-YEAR POPULATION"
    ]
   },
   {
@@ -201,7 +201,7 @@
    ]
   },
   {
-   "col_no": "2",
+   "col_no": "25",
    "name": "PROT.OF CIVIL R.ACT | I",
    "header": [
     "PROT.OF CIVIL R.ACT",
@@ -209,7 +209,7 @@
    ]
   },
   {
-   "col_no": "25",
+   "col_no": "26",
    "name": "PROT.OF CIVIL R.ACT | R",
    "header": [
     "PROT.OF CIVIL R.ACT",
@@ -217,7 +217,7 @@
    ]
   },
   {
-   "col_no": "26",
+   "col_no": "27",
    "name": "PROT.OF CIVIL R.ACT | P",
    "header": [
     "PROT.OF CIVIL R.ACT",
@@ -225,7 +225,7 @@
    ]
   },
   {
-   "col_no": "27",
+   "col_no": "28",
    "name": "SC & ST (Prev. of Atroc.) ACT | I",
    "header": [
     "SC & ST (Prev. of Atroc.) ACT",
@@ -233,7 +233,7 @@
    ]
   },
   {
-   "col_no": "28",
+   "col_no": "29",
    "name": "SC & ST (Prev. of Atroc.) ACT | R",
    "header": [
     "SC & ST (Prev. of Atroc.) ACT",
@@ -300,12 +300,9 @@
  "notes": [],
  "checks": {
   "cells_checked": 33,
-  "cells_passed": 29,
+  "cells_passed": 32,
   "failures": [
-   "col 13 'TOTAL (STATES)': printed 253, sum 235",
-   "col 16 'TOTAL (STATES)': printed 49, sum 45",
-   "col 19 'TOTAL (STATES)': printed 150, sum 118",
-   "col 22 'TOTAL (STATES)': printed 346, sum 335"
+   "col 7 'TOTAL (STATES)': printed 3809, sum 3759"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

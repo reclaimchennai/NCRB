@@ -6,33 +6,39 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "CRIME UNDER DIFFERENT HEADS",
+ "title": "CRIME UNDER DIFFERENT HEADS 1959-1964",
  "listing_title": "Survey of Crime, etc.",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/survey-of-crime-1964.pdf",
  "source_file": "raw/cii/1964/table_chapter/survey-of-crime-1964.pdf",
  "source_sha256": "4d6875466ac51ccded67b3104306e96033d142cbab2b393c2d0805e9d7a5a20e",
  "table_no": "",
- "pdf_title": "CRIME UNDER DIFFERENT HEADS",
- "row_label": "",
+ "pdf_title": "CRIME UNDER DIFFERENT HEADS 1959-1964",
+ "row_label": "CASES",
  "pages": [
+  5,
   9,
+  13,
   16
  ],
- "n_rows": 23,
- "n_cols": 7,
- "n_cells": 42,
+ "n_rows": 43,
+ "n_cols": 5,
+ "n_cells": 10,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
   },
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "QUINQUENNIAL AVERAGE",
+   "header": [
+    "QUINQUENNIAL AVERAGE"
+   ]
   },
   {
    "col_no": "4",
@@ -48,18 +54,6 @@
    "col_no": "6",
    "name": "col_6",
    "header": []
-  },
-  {
-   "col_no": "7",
-   "name": "col_7",
-   "header": []
-  },
-  {
-   "col_no": "10001",
-   "name": "1959—1964",
-   "header": [
-    "1959—1964"
-   ]
   }
  ],
  "notes": [],
@@ -70,7 +64,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 2,
+ "inferred_pages": 0,
+ "ocr_pages": 4,
  "warnings": []
 }

@@ -15,7 +15,7 @@
  "source_sha256": "aaa16d42bf58173014fa9e1b88313e6bb181404d6008f8816fd31682bf842a71",
  "table_no": "18",
  "pdf_title": "INVESTIGATION IN WHICH",
- "row_label": "SL. NO. / CRIME HEADS CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC.",
+ "row_label": "SL. NO. / CRIME HEADS",
  "pages": [
   1
  ],
@@ -32,6 +32,14 @@
   },
   {
    "col_no": "4",
+   "name": "INVESTIGATION WAS COMPLETED | CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC.",
+   "header": [
+    "INVESTIGATION WAS COMPLETED",
+    "CHARGE FOUND FALSE/MISTAKE OF FACT OR OF LAW ETC."
+   ]
+  },
+  {
+   "col_no": "5",
    "name": "INVESTIGATION WAS COMPLETED | FINAL REPORT TRUE SUBMITTED",
    "header": [
     "INVESTIGATION WAS COMPLETED",
@@ -39,7 +47,7 @@
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "6",
    "name": "INVESTIGATION WAS COMPLETED | CHARGE SHEETS WERE LAID",
    "header": [
     "INVESTIGATION WAS COMPLETED",
@@ -47,18 +55,11 @@
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "7",
    "name": "INVESTIGATION WAS COMPLETED | TOTAL [(4) + (5) + (6)]",
    "header": [
     "INVESTIGATION WAS COMPLETED",
     "TOTAL [(4) + (5) + (6)]"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "INVESTIGATION WAS COMPLETED",
-   "header": [
-    "INVESTIGATION WAS COMPLETED"
    ]
   },
   {
@@ -70,9 +71,9 @@
   },
   {
    "col_no": "9",
-   "name": "CHARGE-SHEETING RATE [(6)/(5) + (6)] X 100",
+   "name": "CHARGE-SHEETING RATE [(6)/(15) + (6)] X 100",
    "header": [
-    "CHARGE-SHEETING RATE [(6)/(5) + (6)] X 100"
+    "CHARGE-SHEETING RATE [(6)/(15) + (6)] X 100"
    ]
   }
  ],

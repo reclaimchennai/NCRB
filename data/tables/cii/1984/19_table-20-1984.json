@@ -13,44 +13,51 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-20-1984.pdf",
  "source_file": "raw/cii/1984/table_content/table-20-1984.pdf",
  "source_sha256": "5e7f657974947d9a59cfec8a350328c7d2338135fda6016a40c2fade8fc2b8bc",
- "table_no": "20",
- "pdf_title": "64 TABLE-20 Persons Arrested Under The IPC Crime Heads",
- "row_label": "Persons Arrested",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "S1. No.",
  "pages": [
-  1,
   1
  ],
- "n_rows": 15,
+ "n_rows": 14,
  "n_cols": 3,
- "n_cells": 43,
+ "n_cells": 42,
  "columns": [
   {
    "col_no": "4",
-   "name": "Persons Arrested",
+   "name": "Persons Arrested | Persons",
    "header": [
-    "Persons Arrested"
+    "Persons Arrested",
+    "Persons"
    ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Persons Arrested | Arrested",
+   "header": [
+    "Persons Arrested",
+    "Arrested"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "Percentage to Total Persons Arrested During 1984",
+   "header": [
+    "Percentage to Total Persons Arrested During 1984"
+   ]
   }
  ],
- "notes": [],
+ "notes": [
+  "Crime Under IPC"
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

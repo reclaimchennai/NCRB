@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_42-1987.pdf",
  "source_file": "raw/cii/1987/table_content/table_42-1987.pdf",
  "source_sha256": "cec8661e492114ce329150f275bf34c5d0f0d574880942b9e132771dd12d1c17",
- "table_no": "42",
- "pdf_title": "122 TABLE - 42 Juveniles Apprehended (By Age Group) For Committing Crime Under Indian Penal Code During 1987.",
- "row_label": "Sl NO / STATES/U. Ts. /CITIES",
+ "table_no": "",
+ "pdf_title": "Javeniles Apprehended (By Age Group) For Committing Crime Under Indian Penal Code During 1987",
+ "row_label": "S1 NO",
  "pages": [
   1
  ],
@@ -62,10 +62,9 @@
  "notes": [],
  "checks": {
   "cells_checked": 14,
-  "cells_passed": 12,
+  "cells_passed": 13,
   "failures": [
-   "col 3 'Total(States)': printed 1416, sum 1417",
-   "col 7 'Total(States)': printed 76621, sum 76626"
+   "col 3 'Total (States)': printed 1416, sum 1417"
   ],
   "other_totals_checked": 5,
   "other_totals_passed": 5

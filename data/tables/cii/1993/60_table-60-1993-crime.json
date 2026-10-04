@@ -8,65 +8,72 @@
  "serial": "60",
  "title": "Victims of Rape under Different Age Groups During 1993 (State, UT & City-Wise)",
  "listing_title": "Victims of Rape under Different Age Groups During 1993 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-60-1993-crime.pdf",
  "source_sha256": "52c680c8be0f5865482dd0cf174a688326bec8630ff2112a5dfce191215285fd",
  "table_no": "60",
- "pdf_title": "VICTIMS OF RAPE UNDER DIFFERENT AGE GROUPS DURING 1993",
- "row_label": "rer ee",
+ "pdf_title": "267 TABLE-60 VICTIMS OF RAPE UNDER DIFFERENT AGE GROUPS DURING 1993",
+ "row_label": "SL NO / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 54,
+ "n_rows": 58,
  "n_cols": 5,
- "n_cells": 259,
+ "n_cells": 290,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "NO. OF CASES REPORTED",
+   "header": [
+    "NO. OF CASES REPORTED"
+   ]
   },
   {
    "col_no": "4",
-   "name": "Ue ee",
+   "name": "NUMBER OF VICTIMS | BELOW 10 YEARS",
    "header": [
-    "Ue ee"
+    "NUMBER OF VICTIMS",
+    "BELOW 10 YEARS"
    ]
   },
   {
    "col_no": "5",
-   "name": "gee",
+   "name": "NUMBER OF VICTIMS | 10-18 YEARS",
    "header": [
-    "gee"
+    "NUMBER OF VICTIMS",
+    "10-18 YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "cee ee",
+   "name": "NUMBER OF VICTIMS | 16-30 YEARS",
    "header": [
-    "cee ee"
+    "NUMBER OF VICTIMS",
+    "16-30 YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "wee -",
+   "name": "NUMBER OF VICTIMS | 30 YEARS AND ABOVE",
    "header": [
-    "wee -"
+    "NUMBER OF VICTIMS",
+    "30 YEARS AND ABOVE"
    ]
   }
  ],
- "notes": [
-  "yur ‘",
-  "36A—177 NCRB/9S5.",
-  "Note:* Victims were more than the cases reported."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 15,
+  "cells_passed": 11,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 11004, sum 11894",
+   "col 3 'TOTAL (ALL-INDIA)': printed 12218, sum 11328",
+   "col 4 'TOTAL (UTS)': printed 67, sum 57",
+   "col 4 'TOTAL (ALL-INDIA)': printed 634, sum 644"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

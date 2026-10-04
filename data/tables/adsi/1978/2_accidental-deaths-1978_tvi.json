@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1978",
  "serial": "2",
- "title": "14 TABLE-VI Distribution of Accidental Deaths by Age Group and by States, U.Ts. and Metropolitan Cities during 1978.",
+ "title": "U. Ts",
  "listing_title": "Accidental Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,60 +14,69 @@
  "source_file": "raw/adsi/1978/year_wise/accidental-deaths-1978.pdf",
  "source_sha256": "7084977ea2ad4bff5d18089829a4f97a914cdc11146ea21237c454229b6ac396",
  "table_no": "VI",
- "pdf_title": "14 TABLE-VI Distribution of Accidental Deaths by Age Group and by States, U.Ts. and Metropolitan Cities during 1978.",
- "row_label": "Sl. N. / Names of States/ U.Ts./Cities",
+ "pdf_title": "U. Ts",
+ "row_label": "Distribution of Accidental Deaths by Age Sl. Nanes of States/ N. U.T.s. /Cities",
  "pages": [
-  15
+  15,
+  16
  ],
- "n_rows": 23,
- "n_cols": 9,
- "n_cells": 207,
+ "n_rows": 25,
+ "n_cols": 18,
+ "n_cells": 234,
  "columns": [
   {
-   "col_no": "3",
+   "col_no": "2",
    "name": "Persons Below 18 years",
    "header": [
     "Persons Below 18 years"
    ]
   },
   {
-   "col_no": "4",
-   "name": "% to Total (4)",
+   "col_no": "3",
+   "name": "% to Total (3)",
    "header": [
     "% to Total"
    ]
   },
   {
-   "col_no": "5",
-   "name": "Persons Between 18 to 30 years",
+   "col_no": "4",
+   "name": "Group and by States, U.T.s and Metropolitan Cities during 1978. | Persons Between 18 to 30 years",
    "header": [
+    "Group and by States, U.T.s and Metropolitan Cities during 1978.",
     "Persons Between 18 to 30 years"
    ]
   },
   {
-   "col_no": "6",
-   "name": "% to Total (6)",
+   "col_no": "5",
+   "name": "% to Total (5)",
    "header": [
     "% to Total"
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "6",
    "name": "Persons Between 30 to 50 years",
    "header": [
     "Persons Between 30 to 50 years"
    ]
   },
   {
-   "col_no": "8",
-   "name": "% to Total (8)",
+   "col_no": "7",
+   "name": "% to Total (7)",
    "header": [
     "% to Total"
    ]
   },
   {
+   "col_no": "8",
+   "name": "Persons above 50 years (8)",
+   "header": [
+    "Persons above 50 years"
+   ]
+  },
+  {
    "col_no": "9",
-   "name": "Persons above 50 years",
+   "name": "Persons above 50 years (9)",
    "header": [
     "Persons above 50 years"
    ]
@@ -80,10 +89,138 @@
    ]
   },
   {
-   "col_no": "11",
-   "name": "Overall age group",
+   "col_no": "10001",
+   "name": "13 | 4 | 18 | 7 | 386 | 74 | 2 | - | 43",
    "header": [
-    "Overall age group"
+    "13",
+    "4",
+    "18",
+    "7",
+    "386",
+    "74",
+    "2",
+    "-",
+    "43"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "26-0 | 8-0 | 20-2 | 25-0 | 17-2 | 17-3 | 25-0 | 0-0 | 31-4",
+   "header": [
+    "26-0",
+    "8-0",
+    "20-2",
+    "25-0",
+    "17-2",
+    "17-3",
+    "25-0",
+    "0-0",
+    "31-4"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "19 | 19 | 27 | 5 | 801 | 129 | - | 25 | 48",
+   "header": [
+    "19",
+    "19",
+    "27",
+    "5",
+    "801",
+    "129",
+    "-",
+    "25",
+    "48"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "38-0 | 38-0 | 30-3 | 17-9 | 35-7 | 30-2 | 0-0 | 59-5 | 35-0",
+   "header": [
+    "38-0",
+    "38-0",
+    "30-3",
+    "17-9",
+    "35-7",
+    "30-2",
+    "0-0",
+    "59-5",
+    "35-0"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "17 | 27 | 27 | 10 | 672 | 142 | 4 | 17 | 27",
+   "header": [
+    "17",
+    "27",
+    "27",
+    "10",
+    "672",
+    "142",
+    "4",
+    "17",
+    "27"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "34-0 | 54-0 | 30-3 | 35-7 | 29-9 | 33-3 | 50-0 | 40-5 | 19-7",
+   "header": [
+    "34-0",
+    "54-0",
+    "30-3",
+    "35-7",
+    "29-9",
+    "33-3",
+    "50-0",
+    "40-5",
+    "19-7"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "1 | - | 17 | 6 | 386 | 82 | 2 | - | 19",
+   "header": [
+    "1",
+    "-",
+    "17",
+    "6",
+    "386",
+    "82",
+    "2",
+    "-",
+    "19"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "2-0 | 0-0 | 19-2 | 21-4 | 17-2 | 19-2 | 25-0 | 0-0 | 13-9",
+   "header": [
+    "2-0",
+    "0-0",
+    "19-2",
+    "21-4",
+    "17-2",
+    "19-2",
+    "25-0",
+    "0-0",
+    "13-9"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "50 | 50 | 89 | 28 | 2245 | 427 | 8 | 42 | 137",
+   "header": [
+    "50",
+    "50",
+    "89",
+    "28",
+    "2245",
+    "427",
+    "8",
+    "42",
+    "137"
    ]
   }
  ],
@@ -92,10 +229,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 3
+  "other_totals_checked": 3,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

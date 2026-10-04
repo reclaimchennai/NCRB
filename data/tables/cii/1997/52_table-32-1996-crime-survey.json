@@ -21,15 +21,15 @@
   2,
   3
  ],
- "n_rows": 41,
+ "n_rows": 38,
  "n_cols": 34,
  "n_cells": 1190,
  "columns": [
   {
    "col_no": "3",
-   "name": "ESTIMATED MID-YEAR POPULATION",
+   "name": "ESTIMATED MID- YEAR POPULATION",
    "header": [
-    "ESTIMATED MID-YEAR POPULATION"
+    "ESTIMATED MID- YEAR POPULATION"
    ]
   },
   {
@@ -300,16 +300,14 @@
  "notes": [],
  "checks": {
   "cells_checked": 33,
-  "cells_passed": 25,
+  "cells_passed": 27,
   "failures": [
-   "col 13 'TOTAL (STATES)': printed 243, sum 217",
+   "col 13 'TOTAL (STATES)': printed 243, sum 210",
    "col 16 'TOTAL (STATES)': printed 58, sum 55",
-   "col 19 'TOTAL (STATES)': printed 162, sum 151",
-   "col 22 'TOTAL (STATES)': printed 389, sum 353",
-   "col 25 'TOTAL (UTs)': printed 26, sum 3",
+   "col 19 'TOTAL (STATES)': printed 162, sum 152",
+   "col 22 'TOTAL (STATES)': printed 389, sum 357",
    "col 31 'TOTAL (STATES)': printed 12395, sum 12389",
-   "col 34 'TOTAL (STATES)': printed 27901, sum 27893",
-   "col 34 'TOTAL (UTs)': printed 43, sum 20"
+   "col 34 'TOTAL (STATES)': printed 27901, sum 27893"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

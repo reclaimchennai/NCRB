@@ -13,69 +13,64 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1972.pdf",
  "source_file": "raw/cii/1972/table_content/table-59-1972.pdf",
  "source_sha256": "184b6e739396e7306018fea6b9e1170e8b1ad7d5f9e61db71ae96b02f39ce550",
- "table_no": "59",
- "pdf_title": "130 TABLE 59 Strength of armed Police as on 31-12-72",
- "row_label": "Sl. No. / Sl. No. / Sl. No. / States/U.Ts./Cities / States/U.Ts./Cities",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "States/U.T.s/Cities",
  "pages": [
-  1,
-  1,
   1
  ],
- "n_rows": 38,
- "n_cols": 6,
- "n_cells": 184,
+ "n_rows": 40,
+ "n_cols": 5,
+ "n_cells": 194,
  "columns": [
   {
+   "col_no": "3",
+   "name": "Number of | IC, DIG & S.P.",
+   "header": [
+    "Number of",
+    "IC, DIG & S.P."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ASsP/ Dy. S.P.",
+   "header": [
+    "ASsP/ Dy. S.P."
+   ]
+  },
+  {
    "col_no": "5",
-   "name": "Number of | IG, DIG & S.P.",
+   "name": "Inspectors & SIs",
    "header": [
-    "Number of",
-    "IG, DIG & S.P."
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "Number of | ASsP/ Dy, S.P.",
-   "header": [
-    "Number of",
-    "ASsP/ Dy, S.P."
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Number of | Inspectors & SIs",
-   "header": [
-    "Number of",
     "Inspectors & SIs"
    ]
   },
   {
-   "col_no": "8",
-   "name": "N.A.",
+   "col_no": "6",
+   "name": "Officers below the rank of SIs",
    "header": [
-    "N.A."
+    "Officers below the rank of SIs"
    ]
   },
   {
-   "col_no": "9",
-   "name": "col_9",
-   "header": []
-  },
-  {
-   "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "col_no": "7",
+   "name": "Total of Col. 3+4+5 +6",
+   "header": [
+    "Total of Col. 3+4+5 +6"
+   ]
   }
  ],
- "notes": [],
+ "notes": [
+  "*Excluding figures of Assam and Pondicherry."
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 11,
-  "other_totals_passed": 3
+  "other_totals_passed": 8
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 1,
  "warnings": []
 }

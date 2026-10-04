@@ -1,0 +1,111 @@
+{
+ "table_id": "cii/1992/24_table-24-1992-survey_t4",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "24",
+ "title": "NO",
+ "listing_title": "Persons Arrested under Different IPC Crimes by Sex in States, UTs & Cities During 1992",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-24-1992-survey.pdf",
+ "source_sha256": "5c03c48e5e6a42539e0b254ad29db11b1b2bb0ff9a2212ed1982891a512d0240",
+ "table_no": "",
+ "pdf_title": "NO",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  15,
+  16,
+  17,
+  18
+ ],
+ "n_rows": 92,
+ "n_cols": 9,
+ "n_cells": 522,
+ "columns": [
+  {
+   "col_no": "48",
+   "name": "MALE (48)",
+   "header": [
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "49",
+   "name": "FEMALE (49)",
+   "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "50",
+   "name": "TOTAL (50)",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "51",
+   "name": "MALE (51)",
+   "header": [
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "52",
+   "name": "FEMALE (52)",
+   "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "53",
+   "name": "TOTAL (53)",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "54",
+   "name": "TOTAL COGNIZABLE CRIMES | UNDER IPC | MALE",
+   "header": [
+    "TOTAL COGNIZABLE CRIMES",
+    "UNDER IPC",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "55",
+   "name": "FEMALE (55)",
+   "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "56",
+   "name": "TOTAL (56)",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [
+  "21-526 NCRB/94.",
+  "Note: NR stands for data not received."
+ ],
+ "checks": {
+  "cells_checked": 21,
+  "cells_passed": 20,
+  "failures": [
+   "col 55 'TOTAL (ALL - INDIA)': printed 89859, sum 87859"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 4,
+ "warnings": []
+}

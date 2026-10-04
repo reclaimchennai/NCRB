@@ -14,8 +14,8 @@
  "source_file": "raw/cii/1975/table_content/table-56-1975.pdf",
  "source_sha256": "7940960c101a773d0883ae4c3aef7f8dc67acd2b2155bf9bd0f85278efbeb0cc",
  "table_no": "",
- "pdf_title": "119 TABLE NO. 56 Number of Police Personnel killed or injured on duty",
- "row_label": "Sl. No. / States/U.Ts./Cities",
+ "pdf_title": "119 TABLE NO. 56 Number of Police Personnel killed or injured on day",
+ "row_label": "Sl. No. / Sl. No.",
  "pages": [
   1
  ],
@@ -25,6 +25,13 @@
  "columns": [
   {
    "col_no": "3",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "4",
    "name": "Number of killed personnel | In Dacosity operations or other raids",
    "header": [
     "Number of killed personnel",
@@ -32,7 +39,7 @@
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "5",
    "name": "Number of killed personnel | By Ri- otous Mobs.",
    "header": [
     "Number of killed personnel",
@@ -40,15 +47,15 @@
    ]
   },
   {
-   "col_no": "5",
-   "name": "Number of killed personnel | By Oth- er Cri- minals",
+   "col_no": "6",
+   "name": "Number of killed personnel | By Oth- er Ceti- minals",
    "header": [
     "Number of killed personnel",
-    "By Oth- er Cri- minals"
+    "By Oth- er Ceti- minals"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "7",
    "name": "Number of killed personnel | On Bo- rder du- ties.",
    "header": [
     "Number of killed personnel",
@@ -56,19 +63,11 @@
    ]
   },
   {
-   "col_no": "7",
-   "name": "Number of killed personnel | In Acci- denis.",
+   "col_no": "8",
+   "name": "Number of killed personnel | In Acci- Total deats.",
    "header": [
     "Number of killed personnel",
-    "In Acci- denis."
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Number of injured personnel | Total",
-   "header": [
-    "Number of injured personnel",
-    "Total"
+    "In Acci- Total deats."
    ]
   },
   {
@@ -89,10 +88,10 @@
   },
   {
    "col_no": "11",
-   "name": "Number of injured personnel | By Oth- er cri- minals",
+   "name": "Number of injured personnel | By Oth- er Ceti- minals",
    "header": [
     "Number of injured personnel",
-    "By Oth- er cri- minals"
+    "By Oth- er Ceti- minals"
    ]
   },
   {
@@ -105,16 +104,17 @@
   },
   {
    "col_no": "13",
-   "name": "In Acci- denis.",
+   "name": "Number of injured personnel | In Acci- Total deats.",
    "header": [
-    "In Acci- denis."
+    "Number of injured personnel",
+    "In Acci- Total deats."
    ]
   },
   {
    "col_no": "14",
-   "name": "Total",
+   "name": "Number of injured personnel",
    "header": [
-    "Total"
+    "Number of injured personnel"
    ]
   }
  ],
@@ -123,7 +123,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 24,
+  "other_totals_checked": 23,
   "other_totals_passed": 15
  },
  "inferred_pages": 0,

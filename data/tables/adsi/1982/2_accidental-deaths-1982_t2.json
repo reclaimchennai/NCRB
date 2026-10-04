@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1982",
  "serial": "2",
- "title": "3 NOTE —*Population figures are actual census figures as on 1-3-1981 as the estimated mid-year population figures for the years 1981 and 1982 are not available. Volume of Accidental deaths per lakh of Population in the States, Union Territories and Metropolitan Cities",
+ "title": "out of 22 recorded more volume of accidental deaths per lakn of population than the all-India average of (18 ·42) and these were Maharashtra, Madhya Pradesh, Sikkim, Karnataka and Tamil Nadu. Among the Union Territories, the maximum volume of accidental deaths per lakh of population was recorded in Delhi (57 ·39) followed by A&N Islands (47 ·87) and Goa, Daman & Diu (33 ·55) while the minimum volume was recorded by Lakshasweep (7 ·50). Out of 9 U.Ts., 4 registered less volume of accidental deaths per lakh of population than the all India average and these were Lakshadweep, Arunachal Pradesh, Mizoram and D&N Haveli. Among the metropolitan cities the highest volume of accidental deaths per lakh of population was registered in Pune (116 ·13) followed by Bombay (63 ·34) Delhi (57 ·21), Jaipur (54.40) and Nagpur (52 ·26). The remaining Metropolitan cities registered the volume of accidental deaths less than (50 ·00), the lowest being registered in Kanpur (3 ·85) The Kanpur city registered volume less than the All-India average of (18 ·42) also. The details are presented in Table II. TABLE II Incidence of Accidental Deaths, Population, Volume of Accidental Deaths per Lakh of Population and Percentage Distribution of Accidental Deaths To All India Total During 1982",
  "listing_title": "Accidental Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,45 +14,55 @@
  "source_file": "raw/adsi/1982/year_wise/accidental-deaths-1982.pdf",
  "source_sha256": "06f2d35c927f9298e6cb1be97a48b679dfb9d55c17c7908c8d3862678d05b7c6",
  "table_no": "",
- "pdf_title": "3 NOTE —*Population figures are actual census figures as on 1-3-1981 as the estimated mid-year population figures for the years 1981 and 1982 are not available. Volume of Accidental deaths per lakh of Population in the States, Union Territories and Metropolitan Cities",
- "row_label": "Sl. No.",
+ "pdf_title": "out of 22 recorded more volume of accidental deaths per lakn of population than the all-India average of (18 ·42) and these were Maharashtra, Madhya Pradesh, Sikkim, Karnataka and Tamil Nadu. Among the Union Territories, the maximum volume of accidental deaths per lakh of population was recorded in Delhi (57 ·39) followed by A&N Islands (47 ·87) and Goa, Daman & Diu (33 ·55) while the minimum volume was recorded by Lakshasweep (7 ·50). Out of 9 U.Ts., 4 registered less volume of accidental deaths per lakh of population than the all India average and these were Lakshadweep, Arunachal Pradesh, Mizoram and D&N Haveli. Among the metropolitan cities the highest volume of accidental deaths per lakh of population was registered in Pune (116 ·13) followed by Bombay (63 ·34) Delhi (57 ·21), Jaipur (54.40) and Nagpur (52 ·26). The remaining Metropolitan cities registered the volume of accidental deaths less than (50 ·00), the lowest being registered in Kanpur (3 ·85) The Kanpur city registered volume less than the All-India average of (18 ·42) also. The details are presented in Table II. TABLE II Incidence of Accidental Deaths, Population, Volume of Accidental Deaths per Lakh of Population and Percentage Distribution of Accidental Deaths To All India Total During 1982",
+ "row_label": "Sl.",
  "pages": [
-  4
+  5,
+  6
  ],
- "n_rows": 5,
- "n_cols": 4,
- "n_cells": 20,
+ "n_rows": 39,
+ "n_cols": 5,
+ "n_cells": 157,
  "columns": [
   {
    "col_no": "2",
-   "name": "Year",
+   "name": "States/UTs/Cities",
    "header": [
-    "Year"
+    "States/UTs/Cities"
    ]
   },
   {
    "col_no": "3",
-   "name": "Estimated Mid-year population in Lakhs",
+   "name": "No. of Accidental Deaths",
    "header": [
-    "Estimated Mid-year population in Lakhs"
+    "No. of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "Total number of Accidental Deaths",
+   "name": "Percentage Incidence to Total",
    "header": [
-    "Total number of Accidental Deaths"
+    "Percentage Incidence to Total"
    ]
   },
   {
    "col_no": "5",
-   "name": "Volume of Accidental Deaths per Lakh of Population",
+   "name": "Population (In 000)",
    "header": [
-    "Volume of Accidental Deaths per Lakh of Population"
+    "Population (In 000)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Volume of Accidental Deaths, Per lakh of Population",
+   "header": [
+    "Volume of Accidental Deaths, Per lakh of Population"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "NOTE- Population figures are actual census figures as on 1-3-1981 and the volume per lakh of population is based on the actual census figures estimated mid-year population figures for 1982 are not available."
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -61,6 +71,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -15,7 +15,7 @@
  "source_sha256": "fbe0405110c9f5536b3ffb8a4e52cbee7f0a40c6c5a02cdbc749b73251e5df02",
  "table_no": "64",
  "pdf_title": "201 TABLE-64 SANCTIONED AND ACTUAL STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "row_label": "SL. STATE/UT/CITY NO.",
  "pages": [
   1
  ],
@@ -107,13 +107,10 @@
  "notes": [],
  "checks": {
   "cells_checked": 30,
-  "cells_passed": 25,
+  "cells_passed": 28,
   "failures": [
    "col 7 'TOTAL (STATES)': printed 104906, sum 104926",
-   "col 9 'TOTAL (STATES)': printed 767241, sum 767261",
-   "col 9 'TOTAL (UTs)': printed 36920, sum 36910",
-   "col 12 'TOTAL (STATES)': printed 839892, sum 838992",
-   "col 12 'TOTAL (UTs)': printed 41137, sum 40499"
+   "col 9 'TOTAL (UTs)': printed 36920, sum 36910"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

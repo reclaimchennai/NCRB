@@ -15,7 +15,7 @@
  "source_sha256": "8d16710037993f5a5e4531167fe31656b85163f289100b6ad75a8bb507c81902",
  "table_no": "39",
  "pdf_title": "102 TABLE - 39 Juveniles Apprehended Under Important Heads Of Local And Special Laws During 1984.",
- "row_label": "SL. NO. / STATES/UTS/CITIES",
+ "row_label": "SL. NO. / STATES/UTs/CITIES",
  "pages": [
   1,
   2
@@ -54,9 +54,9 @@
   },
   {
    "col_no": "7",
-   "name": "PROHIBITION ACT",
+   "name": "PROHIBIT-ION ACT",
    "header": [
-    "PROHIBITION ACT"
+    "PROHIBIT-ION ACT"
    ]
   },
   {
@@ -68,9 +68,9 @@
   },
   {
    "col_no": "9",
-   "name": "S. I. T. ACT",
+   "name": "S.I.T.ACT",
    "header": [
-    "S. I. T. ACT"
+    "S.I.T.ACT"
    ]
   },
   {
@@ -119,10 +119,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 29,
-  "cells_passed": 28,
-  "failures": [
-   "col 14 'Total(States)': printed 33351, sum 33342"
-  ],
+  "cells_passed": 29,
+  "failures": [],
   "other_totals_checked": 11,
   "other_totals_passed": 11
  },

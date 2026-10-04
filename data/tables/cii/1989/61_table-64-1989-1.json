@@ -25,17 +25,17 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "DG/IO/DIG/SP | SANC-TIONED",
+   "name": "DG/IG/DIG/SP | SANC-TIONED",
    "header": [
-    "DG/IO/DIG/SP",
+    "DG/IG/DIG/SP",
     "SANC-TIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "DG/IO/DIG/SP | ACTUAL",
+   "name": "DG/IG/DIG/SP | ACTUAL",
    "header": [
-    "DG/IO/DIG/SP",
+    "DG/IG/DIG/SP",
     "ACTUAL"
    ]
   },
@@ -107,9 +107,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 30,
-  "cells_passed": 28,
+  "cells_passed": 29,
   "failures": [
-   "col 5 'TOTAL (STATES)': printed 4669, sum 4667",
    "col 11 'TOTAL (STATES)': printed 891295, sum 886295"
   ],
   "other_totals_checked": 0,

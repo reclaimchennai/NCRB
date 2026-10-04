@@ -14,7 +14,7 @@
  "source_file": "raw/cii/1995/table_content/table-68-1995-crime-survey.pdf",
  "source_sha256": "9d247d12d4aa87f4fd643777999a61776b38c7d9212fde34c3283759a6b15007",
  "table_no": "68",
- "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1995 TABLE-68",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-68",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
@@ -33,13 +33,6 @@
   },
   {
    "col_no": "4",
-   "name": "MURDER",
-   "header": [
-    "MURDER"
-   ]
-  },
-  {
-   "col_no": "5",
    "name": "MURDER | I",
    "header": [
     "MURDER",
@@ -47,7 +40,7 @@
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "5",
    "name": "MURDER | R",
    "header": [
     "MURDER",
@@ -55,15 +48,15 @@
    ]
   },
   {
-   "col_no": "7",
-   "name": "DACOITY | P",
+   "col_no": "6",
+   "name": "MURDER | P",
    "header": [
-    "DACOITY",
+    "MURDER",
     "P"
    ]
   },
   {
-   "col_no": "8",
+   "col_no": "7",
    "name": "DACOITY | I",
    "header": [
     "DACOITY",
@@ -71,7 +64,7 @@
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "8",
    "name": "DACOITY | R",
    "header": [
     "DACOITY",
@@ -79,15 +72,15 @@
    ]
   },
   {
-   "col_no": "10",
-   "name": "ROBBERY | P",
+   "col_no": "9",
+   "name": "DACOITY | P",
    "header": [
-    "ROBBERY",
+    "DACOITY",
     "P"
    ]
   },
   {
-   "col_no": "11",
+   "col_no": "10",
    "name": "ROBBERY | I",
    "header": [
     "ROBBERY",
@@ -95,7 +88,7 @@
    ]
   },
   {
-   "col_no": "12",
+   "col_no": "11",
    "name": "ROBBERY | R",
    "header": [
     "ROBBERY",
@@ -103,15 +96,15 @@
    ]
   },
   {
-   "col_no": "13",
-   "name": "ARSON | P",
+   "col_no": "12",
+   "name": "ROBBERY | P",
    "header": [
-    "ARSON",
+    "ROBBERY",
     "P"
    ]
   },
   {
-   "col_no": "14",
+   "col_no": "13",
    "name": "ARSON | I",
    "header": [
     "ARSON",
@@ -119,11 +112,19 @@
    ]
   },
   {
-   "col_no": "15",
+   "col_no": "14",
    "name": "ARSON | R",
    "header": [
     "ARSON",
     "R"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "ARSON | P",
+   "header": [
+    "ARSON",
+    "P"
    ]
   },
   {
@@ -250,10 +251,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 27,
-  "cells_passed": 26,
-  "failures": [
-   "col 19 'TOTAL (STATES)': printed 328, sum 326"
-  ],
+  "cells_passed": 27,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

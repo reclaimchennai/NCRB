@@ -1,0 +1,133 @@
+{
+ "table_id": "cii/1992/24_table-24-1992-survey_t2",
+ "publication": "cii",
+ "year": 1992,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "24",
+ "title": "NO",
+ "listing_title": "Persons Arrested under Different IPC Crimes by Sex in States, UTs & Cities During 1992",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-24-1992-survey.pdf",
+ "source_file": "raw/cii/1992/table_content/table-24-1992-survey.pdf",
+ "source_sha256": "5c03c48e5e6a42539e0b254ad29db11b1b2bb0ff9a2212ed1982891a512d0240",
+ "table_no": "",
+ "pdf_title": "NO",
+ "row_label": "SL. / STATE/UT NO.",
+ "pages": [
+  10,
+  11,
+  12
+ ],
+ "n_rows": 62,
+ "n_cols": 12,
+ "n_cells": 486,
+ "columns": [
+  {
+   "col_no": "30",
+   "name": "MALE (30)",
+   "header": [
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "FEMALE (31)",
+   "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "TOTAL (32)",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "MALE (33)",
+   "header": [
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "FEMALE (34)",
+   "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "35",
+   "name": "TOTAL (35)",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "THEPT | MALE",
+   "header": [
+    "THEPT",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "FEMALE (37)",
+   "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "TOTAL (38)",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "RIOTS | MALE",
+   "header": [
+    "RIOTS",
+    "MALE"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "FEMALE (40)",
+   "header": [
+    "FEMALE"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "TOTAL (41)",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 18,
+  "cells_passed": 12,
+  "failures": [
+   "col 36 'TOTAL (STATES)': printed 214275, sum 245512",
+   "col 37 'TOTAL (STATES)': printed 5364, sum 5999",
+   "col 38 'TOTAL (STATES)': printed 219639, sum 251511",
+   "col 39 'TOTAL (STATES)': printed 513224, sum 538341",
+   "col 40 'TOTAL (STATES)': printed 18386, sum 19317",
+   "col 41 'TOTAL (STATES)': printed 531610, sum 557658"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

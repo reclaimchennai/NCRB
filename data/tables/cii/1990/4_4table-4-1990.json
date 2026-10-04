@@ -15,10 +15,10 @@
  "source_sha256": "ccf305258d8de8e3871df24eadea35f344e31f9fa4b39f50d4090523ba2ea0dd",
  "table_no": "4",
  "pdf_title": "22 TABLE - 4 INCIDENCE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES, UTS AND CITIES DURING 1985-1990 ALONGWITH PERCENTAGE CHANGES DURING 1990",
- "row_label": "SL.NO. / STATE/UT/CITY",
+ "row_label": "PERCENTAGE CHANGEIN 1990(+ ) INCREASE(-) DECREASEOVER",
  "pages": [
   1,
-  2,
+  1,
   2
  ],
  "n_rows": 48,
@@ -26,77 +26,58 @@
  "n_cells": 424,
  "columns": [
   {
-   "col_no": "3",
-   "name": "1985",
+   "col_no": "11",
+   "name": "PERCENTAGE CHANGEIN 1990(+ ) INCREASE(-) DECREASEOVER",
    "header": [
-    "1985"
+    "PERCENTAGE CHANGEIN 1990(+ ) INCREASE(-) DECREASEOVER"
    ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "1986",
-   "header": [
-    "1986"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "1987",
-   "header": [
-    "1987"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "1988",
-   "header": [
-    "1988"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "1989",
-   "header": [
-    "1989"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "QUINQUEN-NIAL AVG.1985-1989(Q. A.)",
-   "header": [
-    "QUINQUEN-NIAL AVG.1985-1989(Q. A.)"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "1990",
-   "header": [
-    "1990"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "PERCENTAGE CHANGEIN 1990(+ ) INCREASE(- ) DECREASEOVER",
-   "header": [
-    "PERCENTAGE CHANGEIN 1990(+ ) INCREASE(- ) DECREASEOVER"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Q. A.",
-   "header": [
-    "Q. A."
-   ]
+   "name": "col_10",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 21,
-  "cells_passed": 19,
-  "failures": [
-   "col 5 'TOTAL (UTs)': printed 31362, sum 31352",
-   "col 7 'TOTAL (STATES)': printed 1.49264e+06, sum 1.49265e+06"
-  ],
+  "cells_passed": 21,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

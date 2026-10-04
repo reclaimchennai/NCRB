@@ -1,0 +1,129 @@
+{
+ "table_id": "cii/1995/45_table-45-1995-crime-survey",
+ "publication": "cii",
+ "year": 1995,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "45",
+ "title": "Juveniles Delinquency (IPC) under Different Crime Heads During 1995 (State, UT & City-Wise)",
+ "listing_title": "Juveniles Delinquency (IPC) under Different Crime Heads During 1995 (State, UT & City-Wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-45-1995-crime-survey.pdf",
+ "source_file": "raw/cii/1995/table_content/table-45-1995-crime-survey.pdf",
+ "source_sha256": "a3229c0472e31012e73626f6f143732f19384f606020ef48082626291c3c6eb7",
+ "table_no": "45",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-45",
+ "row_label": "SL. NO. / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 58,
+ "n_cols": 12,
+ "n_cells": 696,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "MURDER",
+   "header": [
+    "MURDER"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ATTEMPT TO COMMIT MURDER",
+   "header": [
+    "ATTEMPT TO COMMIT MURDER"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "C.H.NOT AMOUNTING TO MURDER",
+   "header": [
+    "C.H.NOT AMOUNTING TO MURDER"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RAPE",
+   "header": [
+    "RAPE"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "KIDNAPPING & ABDUCTION | TOTAL",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "KIDNAPPING & ABDUCTION | OF WOMEN & GIRLS",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF WOMEN & GIRLS"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "KIDNAPPING & ABDUCTION | OF OTHERS",
+   "header": [
+    "KIDNAPPING & ABDUCTION",
+    "OF OTHERS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "DACOITY",
+   "header": [
+    "DACOITY"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "PREPARATION & ASSEMBLY FOR DACOITY",
+   "header": [
+    "PREPARATION & ASSEMBLY FOR DACOITY"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "BURGLARY",
+   "header": [
+    "BURGLARY"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "THEFT",
+   "header": [
+    "THEFT"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 33,
+  "cells_passed": 30,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 206, sum 205",
+   "col 4 'TOTAL (ALL-INDIA)': printed 208, sum 209",
+   "col 14 'TOTAL (STATES)': printed 2702, sum 2703"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

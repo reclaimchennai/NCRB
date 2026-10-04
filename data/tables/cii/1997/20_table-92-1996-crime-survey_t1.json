@@ -1,0 +1,107 @@
+{
+ "table_id": "cii/1997/20_table-92-1996-crime-survey_t1",
+ "publication": "cii",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "20",
+ "title": "Actual Police Strength in Relation to Area, Population, Cognizable Crimes and Per Capita Expenditure on Policemen During 1997",
+ "listing_title": "Actual Police Strength in Relation to Area, Population, Cognizable Crimes and Per Capita Expenditure on Policemen During 1997",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-92-1996-crime-survey.pdf",
+ "source_file": "raw/cii/1997/table_content/table-92-1996-crime-survey.pdf",
+ "source_sha256": "2fee91edbe28a94ab9909b924d0c9114fb126dd294b23447dc74140be5c24c3e",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL NO / STATE/UT",
+ "pages": [
+  1
+ ],
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "AREA (in Sq. kms.)",
+   "header": [
+    "AREA (in Sq. kms.)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "ESTIMATED MID-YEAR POPULATION (in 000)",
+   "header": [
+    "ESTIMATED MID-YEAR POPULATION (in 000)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL CASES FOR INVESTIGATION (INCLUDING PENDING CASES FROM PREVIOUS YEAR) | IPC",
+   "header": [
+    "TOTAL CASES FOR INVESTIGATION (INCLUDING PENDING CASES FROM PREVIOUS YEAR)",
+    "IPC"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "SLL",
+   "header": [
+    "SLL"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "TOTAL (7)",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "ACTUAL POLICE STRENGTH | CIVIL",
+   "header": [
+    "ACTUAL POLICE STRENGTH",
+    "CIVIL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "ARMED",
+   "header": [
+    "ARMED"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "TOTAL (10)",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "col_11",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 21,
+  "cells_passed": 16,
+  "failures": [
+   "col 3 'TOTAL (UTS)': printed 10973, sum 5973",
+   "col 5 'TOTAL (STATES)': printed 2.06959e+06, sum 2.06929e+06",
+   "col 5 'TOTAL (UTS)': printed 126254, sum 126174",
+   "col 6 'TOTAL (UTS)': printed 30808, sum 30815",
+   "col 10 'TOTAL (STATES)': printed 1.22061e+06, sum 1.22011e+06"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

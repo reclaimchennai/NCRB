@@ -6,63 +6,126 @@
  "topic": "",
  "section": "",
  "serial": "7",
- "title": "INCIDENCE OF CRIMES COMMITTED AGAINST WOMEN DURING 1992 TO 1995",
+ "title": "VICTIMS OF RAPE BY AGE-GROUPS DURING 1991-1995 AND PERCENTAGE CHANGES DURING 1995 OVER 1994",
  "listing_title": "Crime Against Women",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter7-1995.pdf",
  "source_file": "raw/cii/1995/table_chapter/chapter7-1995.pdf",
  "source_sha256": "12fe8ad21723f05d4b0c8dade176b3a75428b3ce5a2d5d53d6b8bca199892726",
  "table_no": "",
- "pdf_title": "INCIDENCE OF CRIMES COMMITTED AGAINST WOMEN DURING 1992 TO 1995",
- "row_label": "INCIDENCE (in Thousand) 100 - 80 - 60 - 20 - RAPE - Crime Head SI. No. / INCIDENCE (in Thousand) if ee powry KAA DEATHS MM§iso2",
+ "pdf_title": "VICTIMS OF RAPE BY AGE-GROUPS DURING 1991-1995 AND PERCENTAGE CHANGES DURING 1995 OVER 1994",
+ "row_label": "SI. No.",
  "pages": [
-  4
+  8,
+  12,
+  12
  ],
- "n_rows": 11,
- "n_cols": 5,
- "n_cells": 55,
+ "n_rows": 8,
+ "n_cols": 15,
+ "n_cells": 91,
  "columns": [
   {
-   "col_no": "3",
-   "name": "INCIDENCE (in Thousand) | foe’ TORTUFE AW1993 1991",
+   "col_no": "2",
+   "name": "Year (2)",
    "header": [
-    "INCIDENCE (in Thousand)",
-    "foe’ TORTUFE AW1993 1991"
+    "Year"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Below 10 years",
+   "header": [
+    "Below 10 years"
    ]
   },
   {
    "col_no": "4",
-   "name": "INCIDENCE (in Thousand) | YN is Jiee4 1992",
+   "name": "10-16 years",
    "header": [
-    "INCIDENCE (in Thousand)",
-    "YN is Jiee4 1992"
+    "10-16 years"
    ]
   },
   {
    "col_no": "5",
-   "name": "INCIDENCE (in Thousand) | 5 7 AUT SEXUAL 1905 YEAR 1993",
+   "name": "16-30 years",
    "header": [
-    "INCIDENCE (in Thousand)",
-    "5 7 AUT SEXUAL 1905 YEAR 1993"
+    "16-30 years"
    ]
   },
   {
    "col_no": "6",
-   "name": "INCIDENCE (in Thousand) | - | 1994",
+   "name": "30 years & above",
    "header": [
-    "INCIDENCE (in Thousand)",
-    "-",
-    "1994"
+    "30 years & above"
    ]
   },
   {
    "col_no": "7",
-   "name": "INCIDENCE (in Thousand) | - | “ \\ \\ y 4 / N N aa Percentage Variation in 199£ over 1995 1991 1994",
+   "name": "Total of all age-groups",
    "header": [
-    "INCIDENCE (in Thousand)",
-    "-",
-    "“ \\ \\ y 4 / N N aa Percentage Variation in 199£ over 1995 1991 1994"
+    "Total of all age-groups"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "col_10001",
+   "header": []
+  },
+  {
+   "col_no": "10002",
+   "name": "col_10002",
+   "header": []
+  },
+  {
+   "col_no": "10003",
+   "name": "col_10003",
+   "header": []
+  },
+  {
+   "col_no": "10004",
+   "name": "CRIME IN INDIA - 1995 | 7.18.2 Bihar and Uttar Pradesh increases of 48 per cent and 21.7% respectively over 1994 while Karnataka reported decrease of 26.2 per cent. | Immoral Traffic (Prevention) Act | 7.19.1 The incidence of Immoral Traffic reported during the years 1991-1995 is presented below. | SI. No.",
+   "header": [
+    "CRIME IN INDIA - 1995",
+    "7.18.2 Bihar and Uttar Pradesh increases of 48 per cent and 21.7% respectively over 1994 while Karnataka reported decrease of 26.2 per cent.",
+    "Immoral Traffic (Prevention) Act",
+    "7.19.1 The incidence of Immoral Traffic reported during the years 1991-1995 is presented below.",
+    "SI. No."
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Year (10005)",
+   "header": [
+    "Year"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Cases registered (10006)",
+   "header": [
+    "Cases registered"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "% change over previous year (8)",
+   "header": [
+    "% change over previous year"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "Cases registered (10007)",
+   "header": [
+    "Cases registered"
+   ]
+  },
+  {
+   "col_no": "10008",
+   "name": "% change over previous year (10008)",
+   "header": [
+    "% change over previous year"
    ]
   }
  ],
@@ -71,10 +134,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

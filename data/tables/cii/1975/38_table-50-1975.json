@@ -14,50 +14,44 @@
  "source_file": "raw/cii/1975/table_content/table-50-1975.pdf",
  "source_sha256": "daff31a92ce755db567ad1bba771a739a72ff97d195cc6f64a50a56f32588feb",
  "table_no": "50",
- "pdf_title": "105 TABLE 50 Statement indicating number of cases reported and value of property stolen under dacology by place of occurrence",
- "row_label": "Sl. No. / State/U.Ts./Cities",
+ "pdf_title": "(Cond.) Statement indicating number of cases reported and value of property stolen under capacity by place of occurrence",
+ "row_label": "indicating State/U.Ts./Cities",
  "pages": [
   1,
   2
  ],
- "n_rows": 81,
- "n_cols": 8,
- "n_cells": 648,
+ "n_rows": 45,
+ "n_cols": 16,
+ "n_cells": 572,
  "columns": [
   {
    "col_no": "3",
-   "name": "Residential premises | No. of cases reported",
+   "name": "reported | Residential premises | No. of cases reported",
    "header": [
+    "reported",
     "Residential premises",
     "No. of cases reported"
    ]
   },
   {
    "col_no": "4",
-   "name": "Residential premises | Value of property stolen",
+   "name": "-nd | Value of property stolen",
    "header": [
-    "Residential premises",
+    "-nd",
     "Value of property stolen"
    ]
   },
   {
    "col_no": "5",
-   "name": "Highways | No. of cases reported",
+   "name": "value of property stolen under dacolty by place of occurrence | Highways | No. of cases reported",
    "header": [
+    "value of property stolen under dacolty by place of occurrence",
     "Highways",
     "No. of cases reported"
    ]
   },
   {
    "col_no": "6",
-   "name": "Highways | Value of property stolen",
-   "header": [
-    "Highways",
-    "Value of property stolen"
-   ]
-  },
-  {
-   "col_no": "7",
    "name": "Railways | No. of cases reported",
    "header": [
     "Railways",
@@ -65,7 +59,7 @@
    ]
   },
   {
-   "col_no": "8",
+   "col_no": "7",
    "name": "Railways | Value of property stolen",
    "header": [
     "Railways",
@@ -73,7 +67,7 @@
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "8",
    "name": "River and sea | No. of cases reported",
    "header": [
     "River and sea",
@@ -81,11 +75,81 @@
    ]
   },
   {
-   "col_no": "10",
+   "col_no": "9",
    "name": "River and sea | Value of property stolen",
    "header": [
     "River and sea",
     "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Banks | No. of cases reported",
+   "header": [
+    "Banks",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "Banks | Value of property stolen",
+   "header": [
+    "Banks",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Commercial Ests. | No. of cases reported",
+   "header": [
+    "Commercial Ests.",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Commercial Ests. | Value of property stolen",
+   "header": [
+    "Commercial Ests.",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "Other Places | No. of cases reported",
+   "header": [
+    "Other Places",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Other Places | Value of property stolen",
+   "header": [
+    "Other Places",
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Total | No. of cases reported",
+   "header": [
+    "Total",
+    "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "Value of property stolen",
+   "header": [
+    "Value of property stolen"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Total",
+   "header": [
+    "Total"
    ]
   }
  ],
@@ -94,8 +158,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 23,
-  "other_totals_passed": 16
+  "other_totals_checked": 9,
+  "other_totals_passed": 8
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

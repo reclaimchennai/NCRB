@@ -54,16 +54,16 @@
   },
   {
    "col_no": "7",
-   "name": "CASES NOT INVESTIGATED OR INVE-STIGATION DROPPED",
+   "name": "CASES NOT INVESTIGATED OR INVESTIGATION DROPPED",
    "header": [
-    "CASES NOT INVESTIGATED OR INVE-STIGATION DROPPED"
+    "CASES NOT INVESTIGATED OR INVESTIGATION DROPPED"
    ]
   },
   {
    "col_no": "8",
-   "name": "CASES TRANS-FERRED TO LOCAL POLICE",
+   "name": "CASES TRANSFERRED TO LOCAL POLICE",
    "header": [
-    "CASES TRANS-FERRED TO LOCAL POLICE"
+    "CASES TRANSFERRED TO LOCAL POLICE"
    ]
   },
   {
@@ -82,9 +82,9 @@
   },
   {
    "col_no": "11",
-   "name": "CASES PENDING FOR DEPT.SAN-CTION FOR PROSECUT-ION",
+   "name": "CASES PENDING FOR DEPT.SAN-CTION FOR PROSECUTION",
    "header": [
-    "CASES PENDING FOR DEPT.SAN-CTION FOR PROSECUT-ION"
+    "CASES PENDING FOR DEPT.SAN-CTION FOR PROSECUTION"
    ]
   },
   {
@@ -138,9 +138,9 @@
   },
   {
    "col_no": "19",
-   "name": "PERCENT AGE OF CASES CHARGESHEETED TO TOTAL CASES INVESTIGATED",
+   "name": "PERCENT AGE OF CASES CHARGE-SHEETED TO TOTAL CASES INVESTIGATED",
    "header": [
-    "PERCENT AGE OF CASES CHARGESHEETED TO TOTAL CASES INVESTIGATED"
+    "PERCENT AGE OF CASES CHARGE-SHEETED TO TOTAL CASES INVESTIGATED"
    ]
   },
   {
@@ -166,9 +166,9 @@
   },
   {
    "col_no": "23",
-   "name": "CASES WITH-DRAWN/DISCHARGED OR OTHER-WISE DISPOSED OF",
+   "name": "CASES WITH-DRAWN/DISCHARGED OR OTHER-WISE DISPOS-SED OF",
    "header": [
-    "CASES WITH-DRAWN/DISCHARGED OR OTHER-WISE DISPOSED OF"
+    "CASES WITH-DRAWN/DISCHARGED OR OTHER-WISE DISPOS-SED OF"
    ]
   },
   {
@@ -187,9 +187,9 @@
   },
   {
    "col_no": "26",
-   "name": "CASES ACQUIT-TED OR DISCHARGED",
+   "name": "CASES ACQUIT-TED OR DISCHAR-GED",
    "header": [
-    "CASES ACQUIT-TED OR DISCHARGED"
+    "CASES ACQUIT-TED OR DISCHAR-GED"
    ]
   },
   {
@@ -208,22 +208,21 @@
   },
   {
    "col_no": "29",
-   "name": "TOTAL AMOUNT OF FINE IMPOSED DURING THE YEAR (IN RS.'000)",
+   "name": "TOTAL AMOUNT OF FINE IMPOSED DURING THE YEAR (IN Rs.'000)",
    "header": [
-    "TOTAL AMOUNT OF FINE IMPOSED DURING THE YEAR (IN RS.'000)"
+    "TOTAL AMOUNT OF FINE IMPOSED DURING THE YEAR (IN Rs.'000)"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 75,
-  "cells_passed": 70,
+  "cells_passed": 71,
   "failures": [
    "col 10 'TOTAL (STATES)': printed 1403, sum 1355",
    "col 20 'TOTAL (UTs)': printed 244, sum 224",
    "col 20 'TOTAL (ALL-INDIA)': printed 6257, sum 6277",
-   "col 23 'TOTAL (ALL-INDIA)': printed 323, sum 332",
-   "col 24 'TOTAL (STATES)': printed 700, sum 701"
+   "col 23 'TOTAL (ALL-INDIA)': printed 323, sum 332"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

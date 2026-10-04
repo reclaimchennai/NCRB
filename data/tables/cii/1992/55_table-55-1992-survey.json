@@ -14,8 +14,8 @@
  "source_file": "raw/cii/1992/table_content/table-55-1992-survey.pdf",
  "source_sha256": "6866e306a2bc21c2d5ae87bdd46841abddb150ae14aa586aae20ccf4e144aea9",
  "table_no": "55",
- "pdf_title": "260 TABLE-55 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY DURING 1982-92",
- "row_label": "SL. NO.",
+ "pdf_title": "260 TABLE-55 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY",
+ "row_label": "SL.NO.",
  "pages": [
   1
  ],
@@ -32,15 +32,17 @@
   },
   {
    "col_no": "3",
-   "name": "TOTAL VALUE OF PROPERTYSTOLEN",
+   "name": "TOTAL VALUE OF PROPERTY | STOLEN",
    "header": [
-    "TOTAL VALUE OF PROPERTYSTOLEN"
+    "TOTAL VALUE OF PROPERTY",
+    "STOLEN"
    ]
   },
   {
    "col_no": "4",
-   "name": "RECOVERED",
+   "name": "TOTAL VALUE OF PROPERTY | RECOVERED",
    "header": [
+    "TOTAL VALUE OF PROPERTY",
     "RECOVERED"
    ]
   },

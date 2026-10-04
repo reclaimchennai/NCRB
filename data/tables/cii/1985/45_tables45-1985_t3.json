@@ -1,0 +1,87 @@
+{
+ "table_id": "cii/1985/45_tables45-1985_t3",
+ "publication": "cii",
+ "year": 1985,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "45",
+ "title": "CASTE TRIBE",
+ "listing_title": "Particulars of Juveniles Arrested under IPC and Local and Special Laws During 1985",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables45-1985.pdf",
+ "source_file": "raw/cii/1985/table_content/tables45-1985.pdf",
+ "source_sha256": "df646145ab5ad9ceedd7d0a1377fb46c931105aa2e0bad3f4b8fd96c2d71f83c",
+ "table_no": "",
+ "pdf_title": "CASTE TRIBE",
+ "row_label": "",
+ "pages": [
+  3
+ ],
+ "n_rows": 47,
+ "n_cols": 9,
+ "n_cells": 423,
+ "columns": [
+  {
+   "col_no": "21",
+   "name": "col_21",
+   "header": []
+  },
+  {
+   "col_no": "22",
+   "name": "col_22",
+   "header": []
+  },
+  {
+   "col_no": "23",
+   "name": "col_23",
+   "header": []
+  },
+  {
+   "col_no": "24",
+   "name": "col_24",
+   "header": []
+  },
+  {
+   "col_no": "25",
+   "name": "col_25",
+   "header": []
+  },
+  {
+   "col_no": "26",
+   "name": "col_26",
+   "header": []
+  },
+  {
+   "col_no": "27",
+   "name": "col_27",
+   "header": []
+  },
+  {
+   "col_no": "28",
+   "name": "col_28",
+   "header": []
+  },
+  {
+   "col_no": "29",
+   "name": "col_29",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 13,
+  "cells_passed": 10,
+  "failures": [
+   "col 23 'TOTAL (STATES)': printed 104530, sum 104532",
+   "col 25 'TOTAL (STATES)': printed 62235, sum 62237",
+   "col 27 'TOTAL (STATES)': printed 26621, sum 26641"
+  ],
+  "other_totals_checked": 9,
+  "other_totals_passed": 8
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -13,120 +13,68 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1982.pdf",
  "source_file": "raw/cii/1982/table_content/table-52-1982.pdf",
  "source_sha256": "760c60803c74610ff3cfdf3548ea32031df8a3ab4d9824be437748057b6b1752",
- "table_no": "52",
- "pdf_title": "128 TABLE 52 STATEMENT INDICATING MOTIVE OF MURDER AND CULPABLE HOMICIDE NOT AMOUNTING TO MURDER IN DIFFERENT STATES/U.Ts./CITIES DURING 1982",
- "row_label": "Sl. No. / Sl. No.",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. No.",
  "pages": [
-  1,
-  2
+  3,
+  3
  ],
- "n_rows": 51,
- "n_cols": 12,
- "n_cells": 568,
+ "n_rows": 46,
+ "n_cols": 5,
+ "n_cells": 181,
  "columns": [
   {
-   "col_no": "3",
+   "col_no": "2",
    "name": "States/U.Ts./Cities",
    "header": [
     "States/U.Ts./Cities"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Gain | Murder",
+   "col_no": "3",
+   "name": "Other causes | Murder",
    "header": [
-    "Gain",
+    "Other causes",
     "Murder"
    ]
   },
   {
-   "col_no": "5",
-   "name": "Gain | Culpable Homicide not amounting to murder",
+   "col_no": "4",
+   "name": "Other causes | Culpable Homicide not amounting to murder",
    "header": [
-    "Gain",
+    "Other causes",
     "Culpable Homicide not amounting to murder"
    ]
   },
   {
+   "col_no": "5",
+   "name": "Total | Murder",
+   "header": [
+    "Total",
+    "Murder"
+   ]
+  },
+  {
    "col_no": "6",
-   "name": "Dispute over property | Murder",
+   "name": "Total | Culpable Homicide not amounting to murder",
    "header": [
-    "Dispute over property",
-    "Murder"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Dispute over property | Culpable Homicide not amounting to Murder",
-   "header": [
-    "Dispute over property",
-    "Culpable Homicide not amounting to Murder"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Personal Vendetta | Murder",
-   "header": [
-    "Personal Vendetta",
-    "Murder"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "Personal Vendetta | Culpable Homicide not amounting to Murder",
-   "header": [
-    "Personal Vendetta",
-    "Culpable Homicide not amounting to Murder"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Sexual Causes | Murder",
-   "header": [
-    "Sexual Causes",
-    "Murder"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Sexual Causes | Culpable Homicide not amounting to Murder",
-   "header": [
-    "Sexual Causes",
-    "Culpable Homicide not amounting to Murder"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Sudden Provocation | Murder",
-   "header": [
-    "Sudden Provocation",
-    "Murder"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "Lunacy | Murder",
-   "header": [
-    "Lunacy",
-    "Murder"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "Lunacy | Culpable Homicide not amounting to Murder",
-   "header": [
-    "Lunacy",
-    "Culpable Homicide not amounting to Murder"
+    "Total",
+    "Culpable Homicide not amounting to murder"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
+  "cells_checked": 3,
   "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 10,
-  "other_totals_passed": 5
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 1234, sum 22988",
+   "col 4 'TOTAL (U.Ts.)': printed 87, sum 351",
+   "col 4 'TOTAL (CITIES)': printed 120, sum 1110"
+  ],
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

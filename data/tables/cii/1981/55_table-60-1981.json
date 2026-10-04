@@ -8,111 +8,104 @@
  "serial": "55",
  "title": "Actual Police Strength During 1981",
  "listing_title": "Actual Police Strength During 1981",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-60-1981.pdf",
  "source_file": "raw/cii/1981/table_content/table-60-1981.pdf",
  "source_sha256": "61d509cf51fec5243812d88611ded3f8978c2c0cf7d3823b10572a6b2dd826e1",
- "table_no": "",
- "pdf_title": "TABLE—60 ACTUAL POLICE STRENUIH DUKING 1981",
- "row_label": "Actual Streneth of Police Sl. No. STATES",
+ "table_no": "60",
+ "pdf_title": "ACTUAL POLICE STRENGTH DURING 1981",
+ "row_label": "Sl. States/U.Ts./ No. Cities",
  "pages": [
   1
  ],
  "n_rows": 34,
  "n_cols": 10,
- "n_cells": 338,
+ "n_cells": 340,
  "columns": [
   {
    "col_no": "2",
-   "name": "Actual Streneth of Police | States/U.Ts./ Cities",
+   "name": "Area in Sq. Kms.",
    "header": [
-    "Actual Streneth of Police",
-    "States/U.Ts./ Cities"
+    "Area in Sq. Kms."
    ]
   },
   {
    "col_no": "3",
-   "name": "Actual Streneth of Police | Areain Sq. Kms. mid-year population in ‘000",
+   "name": "Estimated mid-year population in '000",
    "header": [
-    "Actual Streneth of Police",
-    "Areain Sq. Kms. mid-year population in ‘000"
+    "Estimated mid-year population in '000"
    ]
   },
   {
    "col_no": "4",
-   "name": "Actual Streneth of Police | Total ted Cognizable crime - under irc",
+   "name": "Total Cognizable crime under IPC",
    "header": [
-    "Actual Streneth of Police",
-    "Total ted Cognizable crime - under irc"
+    "Total Cognizable crime under IPC"
    ]
   },
   {
    "col_no": "5",
-   "name": "Actual Streneth of Police | Civil",
+   "name": "Actual Strength of Police | Civil",
    "header": [
-    "Actual Streneth of Police",
+    "Actual Strength of Police",
     "Civil"
    ]
   },
   {
    "col_no": "6",
-   "name": "Actual Streneth of Police | Armed",
+   "name": "Armed",
    "header": [
-    "Actual Streneth of Police",
     "Armed"
    ]
   },
   {
    "col_no": "7",
-   "name": "Actual Streneth of Police | Total",
+   "name": "Total",
    "header": [
-    "Actual Streneth of Police",
     "Total"
    ]
   },
   {
    "col_no": "8",
-   "name": "Actual Streneth of Police | No.of police 100Sq.",
+   "name": "No. of police men per 100 Sq. Km. Area of population",
    "header": [
-    "Actual Streneth of Police",
-    "No.of police 100Sq."
+    "No. of police men per 100 Sq. Km. Area of population"
    ]
   },
   {
    "col_no": "9",
-   "name": "Actual Streneth of Police | No.of police 10,000 Km. Area of population",
+   "name": "No. of police men per 10,000",
    "header": [
-    "Actual Streneth of Police",
-    "No.of police 10,000 Km. Area of population"
+    "No. of police men per 10,000"
    ]
   },
   {
    "col_no": "10",
-   "name": "Actual Streneth of Police | No.of IPC casesper civil s6'csman",
+   "name": "No. of IPC cases per civil policeman",
    "header": [
-    "Actual Streneth of Police",
-    "No.of IPC casesper civil s6'csman"
+    "No. of IPC cases per civil policeman"
    ]
   },
   {
    "col_no": "11",
-   "name": "Actual Streneth of Police | Percentage of civil police to total police",
+   "name": "Percentage of civil police to total police",
    "header": [
-    "Actual Streneth of Police",
     "Percentage of civil police to total police"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "cells_checked": 5,
+  "cells_passed": 4,
+  "failures": [
+   "col 5 'TOTAL (U.Ts.)': printed 27931, sum 27531"
+  ],
+  "other_totals_checked": 10,
+  "other_totals_passed": 4
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

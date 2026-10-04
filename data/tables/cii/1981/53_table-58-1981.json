@@ -14,27 +14,27 @@
  "source_file": "raw/cii/1981/table_content/table-58-1981.pdf",
  "source_sha256": "05c6c5b69e2e5df28ddf9359d42df96f06c401095fdb3b2b117eaa7261448d7a",
  "table_no": "",
- "pdf_title": "",
- "row_label": "Sl. No.",
+ "pdf_title": "133 TABLE—58 STATEMENT SHOWING STRENGTH OF CIVIL POLICE INCLUDING DISTRICT ARMED POLICE AS ON 31-12-1981",
+ "row_label": "Sl. No. / States/U. Ts./Cities",
  "pages": [
   1
  ],
- "n_rows": 46,
+ "n_rows": 47,
  "n_cols": 5,
- "n_cells": 230,
+ "n_cells": 231,
  "columns": [
   {
    "col_no": "3",
-   "name": "No. of IG, D.I.S. G & Ss.P",
+   "name": "No. of IG, D.Is. G & Ss.P",
    "header": [
-    "No. of IG, D.I.S. G & Ss.P"
+    "No. of IG, D.Is. G & Ss.P"
    ]
   },
   {
    "col_no": "4",
-   "name": "No. of A. Ss.P./Dy. S.P.",
+   "name": "No. of A. Ss.P. /Dy. S.P.",
    "header": [
-    "No. of A. Ss.P./Dy. S.P."
+    "No. of A. Ss.P. /Dy. S.P."
    ]
   },
   {
@@ -61,10 +61,9 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 12,
+  "cells_checked": 11,
   "cells_passed": 10,
   "failures": [
-   "col 5 'TOTAL (States)': printed 55959, sum 56459",
    "col 7 'TOTAL (States)': printed 664601, sum 664606"
   ],
   "other_totals_checked": 4,

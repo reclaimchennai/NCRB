@@ -1,0 +1,191 @@
+{
+ "table_id": "adsi/1997/6_table-8-1997_t1",
+ "publication": "adsi",
+ "year": 1997,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "6",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) TABLE-8 Incidence of Road Accidental Deaths in type of Vehicles During 1997 (State, UT & City-wise)",
+ "listing_title": "Incidence of Road Accidental Deaths in type of Vehicles during 1997 (State, UT & City-wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-8_1997.pdf",
+ "source_file": "raw/adsi/1997/table_content/table-8_1997.pdf",
+ "source_sha256": "032ba4f23a3cb04a06e724cf3ebb310bdec13e50b97c44ca27d8cfe28e79a96b",
+ "table_no": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) TABLE-8 Incidence of Road Accidental Deaths in type of Vehicles During 1997 (State, UT & City-wise)",
+ "row_label": "St. No.",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 116,
+ "n_cols": 20,
+ "n_cells": 1180,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Truck/Lorry | Govt.",
+   "header": [
+    "Truck/Lorry",
+    "Govt."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Pvt. (4)",
+   "header": [
+    "Pvt."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total (5)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "%share (6)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Bus | Govt.",
+   "header": [
+    "Bus",
+    "Govt."
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Pvt. (8)",
+   "header": [
+    "Pvt."
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Total (9)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "%share (10)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Tampo/Van | Govt.",
+   "header": [
+    "Tampo/Van",
+    "Govt."
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Pvt. (12)",
+   "header": [
+    "Pvt."
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Total (13)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "%share (14)",
+   "header": [
+    "%share"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Jeep | Govt.",
+   "header": [
+    "Jeep",
+    "Govt."
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Pvt. (16)",
+   "header": [
+    "Pvt."
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Total (17)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "% share (18)",
+   "header": [
+    "% share"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Car | Govt.",
+   "header": [
+    "Car",
+    "Govt."
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Pvt. (20)",
+   "header": [
+    "Pvt."
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Total (21)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "% share (22)",
+   "header": [
+    "% share"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 39,
+  "cells_passed": 33,
+  "failures": [
+   "col 15 'Total (Cities)': printed 105, sum 643",
+   "col 16 'Total (Cities)': printed 293, sum 6145",
+   "col 17 'Total (Cities)': printed 398, sum 6788",
+   "col 19 'Total (Cities)': printed 17, sum 237",
+   "col 20 'Total (Cities)': printed 516, sum 4666",
+   "col 21 'Total (Cities)': printed 533, sum 4903"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "12",
- "title": "56 TABLE POLICE PERSONNEL KILLED OR",
+ "title": "Killed",
  "listing_title": "Police Personnel Killed or Injured on During - 1967",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,29 +14,34 @@
  "source_file": "raw/cii/1967/table_content/table12-1967.pdf",
  "source_sha256": "6531fc8a0bfa2841060b1a9bbae89b165c3c141f3310dc971738ce1c7af9159c",
  "table_no": "",
- "pdf_title": "56 TABLE POLICE PERSONNEL KILLED OR",
- "row_label": "Sl.No.",
+ "pdf_title": "Killed",
+ "row_label": "",
  "pages": [
   1
  ],
- "n_rows": 3,
- "n_cols": 2,
- "n_cells": 3,
+ "n_rows": 18,
+ "n_cols": 3,
+ "n_cells": 19,
  "columns": [
   {
-   "col_no": "5",
-   "name": "Killed | By Riotous Mobs",
+   "col_no": "4",
+   "name": "By Riotous Mobs",
    "header": [
-    "Killed",
     "By Riotous Mobs"
    ]
   },
   {
-   "col_no": "6",
-   "name": "Killed | By other criminals",
+   "col_no": "5",
+   "name": "By other criminals",
    "header": [
-    "Killed",
     "By other criminals"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "On border duties",
+   "header": [
+    "On border duties"
    ]
   }
  ],
@@ -45,7 +50,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

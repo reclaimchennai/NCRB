@@ -20,15 +20,15 @@
   1,
   2
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 23,
  "n_cells": 805,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERSONS IN CUST./BAIL DURING INVESTIGATION AT BEGINNING OF THE YEAR",
+   "name": "PERSONS IN CUST./BAIL DURING INVE-STIGA-TION AT BEGI-NNING OF THE YEAR",
    "header": [
-    "PERSONS IN CUST./BAIL DURING INVESTIGATION AT BEGINNING OF THE YEAR"
+    "PERSONS IN CUST./BAIL DURING INVE-STIGA-TION AT BEGI-NNING OF THE YEAR"
    ]
   },
   {
@@ -40,30 +40,30 @@
   },
   {
    "col_no": "5",
-   "name": "PERSONS RELEASED BY POLICE/COURT BEFORE TRIAL",
+   "name": "PERSONS RELEASED BY POLI-CE/COURT BEFORE TRIAL",
    "header": [
-    "PERSONS RELEASED BY POLICE/COURT BEFORE TRIAL"
+    "PERSONS RELEASED BY POLI-CE/COURT BEFORE TRIAL"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERSONS IN CUST. ODY/BAIL DURING INVESTIGATION AT THE END OF YEAR",
+   "name": "PERSONS IN CUST-ODY/BAIL DURING INVESTI-GATION AT THE END OF YEAR",
    "header": [
-    "PERSONS IN CUST. ODY/BAIL DURING INVESTIGATION AT THE END OF YEAR"
+    "PERSONS IN CUST-ODY/BAIL DURING INVESTI-GATION AT THE END OF YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "PERSONS IN WHOSE CASES CHARGE SHEETS WERE LAID",
+   "name": "PERSONS IN WHOSE CASES CHARGE-SHEETS WERE LAID",
    "header": [
-    "PERSONS IN WHOSE CASES CHARGE SHEETS WERE LAID"
+    "PERSONS IN WHOSE CASES CHARGE-SHEETS WERE LAID"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERSONS UNDER TRIAL AT THE BEGINNING OF YEAR",
+   "name": "PERSONS UNDER TRIAL AT THE BEGI-NNING OF YEAR",
    "header": [
-    "PERSONS UNDER TRIAL AT THE BEGINNING OF YEAR"
+    "PERSONS UNDER TRIAL AT THE BEGI-NNING OF YEAR"
    ]
   },
   {
@@ -75,44 +75,44 @@
   },
   {
    "col_no": "10",
-   "name": "NO. OF PERSONS WHOSE CASES WITH DRAWN OR OTHER WISE DISPOSED OF",
+   "name": "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DISPO-SED OF",
    "header": [
-    "NO. OF PERSONS WHOSE CASES WITH DRAWN OR OTHER WISE DISPOSED OF"
+    "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHER-WISE DISPO-SED OF"
    ]
   },
   {
    "col_no": "11",
-   "name": "PERSONS IN CUST. TODY/ BAIL DURING TRIAL AT THE END OF YEAR",
+   "name": "PERSONS IN CUS-TODY/ BAIL DURING TRIAL AT THE O-END OF YEAR",
    "header": [
-    "PERSONS IN CUST. TODY/ BAIL DURING TRIAL AT THE END OF YEAR"
+    "PERSONS IN CUS-TODY/ BAIL DURING TRIAL AT THE O-END OF YEAR"
    ]
   },
   {
    "col_no": "12",
-   "name": "PERSONS IN WHO- SE CASES TRIAL COMPLETED",
+   "name": "PERSONS IN WHO-SE CASES TRIAL COMPL-ETED",
    "header": [
-    "PERSONS IN WHO- SE CASES TRIAL COMPLETED"
+    "PERSONS IN WHO-SE CASES TRIAL COMPL-ETED"
    ]
   },
   {
    "col_no": "13",
-   "name": "PERSONS CONVIC- TED",
+   "name": "PERSONS CONVIC-TED",
    "header": [
-    "PERSONS CONVIC- TED"
+    "PERSONS CONVIC-TED"
    ]
   },
   {
    "col_no": "14",
-   "name": "PERSONS ACQUI- TTED",
+   "name": "PERSONS ACQUI-TTED",
    "header": [
-    "PERSONS ACQUI- TTED"
+    "PERSONS ACQUI-TTED"
    ]
   },
   {
    "col_no": "15",
-   "name": "PERCENTAGE OF PERSONS CONVIC- TED TO TRIAL COMPLETED",
+   "name": "PERCENTAGE OF PERSONS CONVIC-TED TO TRIAL COMPLE-TED",
    "header": [
-    "PERCENTAGE OF PERSONS CONVIC- TED TO TRIAL COMPLETED"
+    "PERCENTAGE OF PERSONS CONVIC-TED TO TRIAL COMPLE-TED"
    ]
   },
   {
@@ -195,16 +195,11 @@
  "notes": [],
  "checks": {
   "cells_checked": 66,
-  "cells_passed": 54,
+  "cells_passed": 63,
   "failures": [
    "col 5 'TOTAL (STATES)': printed 1438, sum 1439",
    "col 11 'TOTAL (STATES)': printed 8643, sum 8645",
-   "col 11 'TOTAL (ALL-INDIA)': printed 8904, sum 8902",
-   "col 16 'TOTAL (STATES)': printed 334, sum 320",
-   "col 18 'TOTAL (STATES)': printed 7, sum 4",
-   "col 19 'TOTAL (STATES)': printed 3, sum 2",
-   "col 20 'TOTAL (STATES)': printed 27, sum 19",
-   "col 21 'TOTAL (STATES)': printed 110, sum 93"
+   "col 11 'TOTAL (ALL-INDIA)': printed 8904, sum 8902"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

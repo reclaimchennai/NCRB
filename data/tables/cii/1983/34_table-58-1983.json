@@ -15,14 +15,21 @@
  "source_sha256": "b37ff57d8e044272ec2f01506777c06f653c61f502496bcda892b56ed5377dd1",
  "table_no": "58",
  "pdf_title": "142 TABLE 58 Statement showing Strength of Civil Police including District Armed Police as on 31-12-1983",
- "row_label": "Sl No. / States/U.Ts./Cities",
+ "row_label": "SI No.",
  "pages": [
   1
  ],
  "n_rows": 47,
- "n_cols": 5,
- "n_cells": 231,
+ "n_cols": 6,
+ "n_cells": 274,
  "columns": [
+  {
+   "col_no": "2",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
   {
    "col_no": "3",
    "name": "No of D.G./I.G./D.I.G./S.P.",
@@ -62,13 +69,10 @@
  "notes": [],
  "checks": {
   "cells_checked": 14,
-  "cells_passed": 12,
-  "failures": [
-   "col 5 'TOTAL (CITIES)': printed 9243, sum 9234",
-   "col 7 'TOTAL (STATES)': printed 881458, sum 681458"
-  ],
+  "cells_passed": 14,
+  "failures": [],
   "other_totals_checked": 5,
-  "other_totals_passed": 4
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

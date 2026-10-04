@@ -6,36 +6,39 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1995",
  "serial": "5",
- "title": "MORTALITY INDICATORS-1995",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1995 N.C.R.B.(M.H.A.) MORTALITY INDICATORS-1995",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/excerpts_6_1995.pdf",
  "source_file": "raw/adsi/1995/year_wise/excerpts_6_1995.pdf",
  "source_sha256": "bb0a2b67110f2bf785b0f0f776c17e170daa50dc396d4361d7150d098087b4a3",
  "table_no": "",
- "pdf_title": "MORTALITY INDICATORS-1995",
- "row_label": "Sl. Country No. / Crude death rate 1994",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1995 N.C.R.B.(M.H.A.) MORTALITY INDICATORS-1995",
+ "row_label": "Sl. No. / Country",
  "pages": [
   2
  ],
  "n_rows": 12,
- "n_cols": 1,
- "n_cells": 12,
+ "n_cols": 2,
+ "n_cells": 24,
  "columns": [
   {
    "col_no": "3",
-   "name": "Crude death rate | 1995",
+   "name": "Crude death rate (3)",
    "header": [
-    "Crude death rate",
-    "1995"
+    "Crude death rate"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Crude death rate (4)",
+   "header": [
+    "Crude death rate"
    ]
   }
  ],
- "notes": [
-  "DEATH RATE",
-  "Note: Crude Death Rate is number of deaths per thousand of population"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -43,7 +46,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

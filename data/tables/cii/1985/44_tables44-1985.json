@@ -14,96 +14,60 @@
  "source_file": "raw/cii/1985/table_content/tables44-1985.pdf",
  "source_sha256": "b7951f731ddf4a604b5bea55da15fb4091088d052c909d7969639bf4fd2d7bb0",
  "table_no": "44",
- "pdf_title": "102 TABLE - 44 Disposal Of Juveniles Sent To Courts During 1985",
- "row_label": "Sl. States/U.Ts/Cities No.",
+ "pdf_title": "Disposal Of Juveniles Sent To Courts During 1985",
+ "row_label": "Sl. States/U.Ts/Cities",
  "pages": [
-  1,
-  2
+  1
  ],
  "n_rows": 47,
- "n_cols": 9,
- "n_cells": 419,
+ "n_cols": 5,
+ "n_cells": 235,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
-  },
-  {
-   "col_no": "4",
    "name": "JUVENILE SENT TO COURTS",
    "header": [
     "JUVENILE SENT TO COURTS"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "RESTORED TO GUARDIANS",
    "header": [
     "RESTORED TO GUARDIANS"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "5",
    "name": "ON PRO-BATION",
    "header": [
     "ON PRO-BATION"
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "6",
    "name": "SENT TO REFORMA-TORIES OR BORSTALS",
    "header": [
     "SENT TO REFORMA-TORIES OR BORSTALS"
    ]
   },
   {
-   "col_no": "8",
-   "name": "SENT TO ADULT INSTITUT-ION",
+   "col_no": "7",
+   "name": "SENT TO SCHOOLS OR INSTITUT-IONS",
    "header": [
-    "SENT TO ADULT INSTITUT-ION"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "IMPRISONED",
-   "header": [
-    "IMPRISONED"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "ACQUITTED OR OTHER WISE DISPOSED OF",
-   "header": [
-    "ACQUITTED OR OTHER WISE DISPOSED OF"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "PENDING DISPOSAL",
-   "header": [
-    "PENDING DISPOSAL"
+    "SENT TO SCHOOLS OR INSTITUT-IONS"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 21,
-  "cells_passed": 11,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 135456, sum 14884",
-   "col 4 'TOTAL (U.Ts.)': printed 6273, sum 61",
-   "col 4 'TOTAL (CITIES)': printed 36902, sum 5321",
-   "col 5 'TOTAL (STATES)': printed 14884, sum 2391",
-   "col 5 'TOTAL (U.Ts.)': printed 61, sum 70",
-   "col 5 'TOTAL (CITIES)': printed 5321, sum 975",
-   "col 6 'TOTAL (STATES)': printed 2391, sum 923",
-   "col 6 'TOTAL (CITIES)': printed 975, sum 51"
-  ],
-  "other_totals_checked": 8,
-  "other_totals_passed": 8
+  "cells_checked": 13,
+  "cells_passed": 13,
+  "failures": [],
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

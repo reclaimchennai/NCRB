@@ -6,33 +6,515 @@
  "topic": "",
  "section": "PSI Year Wise 2014",
  "serial": "6",
- "title": "ro",
+ "title": "Tamil Nadu 11553",
  "listing_title": "Graphs",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-graphs-2014.pdf",
  "source_file": "raw/psi/2014/year_wise/psi-graphs-2014.pdf",
  "source_sha256": "e8d497e236040aec08380602df701855f592cf57d00fcf7e46a72383a871aab8",
  "table_no": "",
- "pdf_title": "ro",
- "row_label": "any n Number / any n of Total in",
+ "pdf_title": "Tamil Nadu 11553",
+ "row_label": "Prison Statistics India 2014 / Number of Total Jails in States and UTs during 2014 Number of Jails in States and UTs during 2014",
  "pages": [
-  1
+  1,
+  7,
+  9,
+  12,
+  14,
+  21,
+  21,
+  23,
+  23,
+  27
  ],
- "n_rows": 8,
- "n_cols": 1,
- "n_cells": 8,
+ "n_rows": 454,
+ "n_cols": 75,
+ "n_cells": 2683,
  "columns": [
   {
    "col_no": "3",
-   "name": "Chart Jails",
+   "name": "Chart 1 | Chart 1",
    "header": [
-    "Chart Jails"
+    "Chart 1",
+    "Chart 1"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "State/UT wise Inmate Population in Jails at the end of the year 2014 | Female | UTTAR PRADESH",
+   "header": [
+    "State/UT wise Inmate Population in Jails at the end of the year 2014",
+    "Female",
+    "UTTAR PRADESH"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "BIHAR",
+   "header": [
+    "BIHAR"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "MAHARASHTRA",
+   "header": [
+    "MAHARASHTRA"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "PUNJAB",
+   "header": [
+    "PUNJAB"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "RAJASTHAN",
+   "header": [
+    "RAJASTHAN"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "WEST BENGAL",
+   "header": [
+    "WEST BENGAL"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "HARYANA",
+   "header": [
+    "HARYANA"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "JHARKHAND",
+   "header": [
+    "JHARKHAND"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "CHHATTISGARH",
+   "header": [
+    "CHHATTISGARH"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "TAMIL NADU",
+   "header": [
+    "TAMIL NADU"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "ODISHA",
+   "header": [
+    "ODISHA"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "KARNATAKA",
+   "header": [
+    "KARNATAKA"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "DELHI",
+   "header": [
+    "DELHI"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "GUJARAT",
+   "header": [
+    "GUJARAT"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "ASSAM",
+   "header": [
+    "ASSAM"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "ANOHRA",
+   "header": [
+    "ANOHRA"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "KERALA",
+   "header": [
+    "KERALA"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "TELANGANA",
+   "header": [
+    "TELANGANA"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Male | UTTARAKHAND",
+   "header": [
+    "Male",
+    "UTTARAKHAND"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Male | JAMMU & KASHMIR",
+   "header": [
+    "Male",
+    "JAMMU & KASHMIR"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "TRIPURA",
+   "header": [
+    "TRIPURA"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "MEGHALAYA",
+   "header": [
+    "MEGHALAYA"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "A & N ISLANDS",
+   "header": [
+    "A & N ISLANDS"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "MANIPUR",
+   "header": [
+    "MANIPUR"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "CHANDIGARH",
+   "header": [
+    "CHANDIGARH"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "GOA",
+   "header": [
+    "GOA"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "NAGALAND",
+   "header": [
+    "NAGALAND"
+   ]
+  },
+  {
+   "col_no": "30",
+   "name": "PUDUCHERRY",
+   "header": [
+    "PUDUCHERRY"
+   ]
+  },
+  {
+   "col_no": "31",
+   "name": "SIKKIM",
+   "header": [
+    "SIKKIM"
+   ]
+  },
+  {
+   "col_no": "32",
+   "name": "D & N HAVELI",
+   "header": [
+    "D & N HAVELI"
+   ]
+  },
+  {
+   "col_no": "33",
+   "name": "ARUNACHAL PRADESH",
+   "header": [
+    "ARUNACHAL PRADESH"
+   ]
+  },
+  {
+   "col_no": "34",
+   "name": "col_34",
+   "header": []
+  },
+  {
+   "col_no": "35",
+   "name": "col_35",
+   "header": []
+  },
+  {
+   "col_no": "36",
+   "name": "col_36",
+   "header": []
+  },
+  {
+   "col_no": "37",
+   "name": "col_37",
+   "header": []
+  },
+  {
+   "col_no": "38",
+   "name": "col_38",
+   "header": []
+  },
+  {
+   "col_no": "39",
+   "name": "col_39",
+   "header": []
+  },
+  {
+   "col_no": "40",
+   "name": "col_40",
+   "header": []
+  },
+  {
+   "col_no": "41",
+   "name": "col_41",
+   "header": []
+  },
+  {
+   "col_no": "42",
+   "name": "col_42",
+   "header": []
+  },
+  {
+   "col_no": "43",
+   "name": "col_43",
+   "header": []
+  },
+  {
+   "col_no": "44",
+   "name": "col_44",
+   "header": []
+  },
+  {
+   "col_no": "45",
+   "name": "col_45",
+   "header": []
+  },
+  {
+   "col_no": "46",
+   "name": "col_46",
+   "header": []
+  },
+  {
+   "col_no": "10001",
+   "name": "Gender",
+   "header": [
+    "Gender"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Wise Life Imprisonment Convicts in States/UTs at the end of 2014 | Male",
+   "header": [
+    "Wise Life Imprisonment Convicts in States/UTs at the end of 2014",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Female",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "10004",
+   "name": "States/UTs",
+   "header": [
+    "States/UTs"
+   ]
+  },
+  {
+   "col_no": "10005",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "10006",
+   "name": "Prison Number of Inmates Trained in Various Vocations in States/UTs at the end of 2014",
+   "header": [
+    "Prison Number of Inmates Trained in Various Vocations in States/UTs at the end of 2014"
+   ]
+  },
+  {
+   "col_no": "10007",
+   "name": "col_10007",
+   "header": []
+  },
+  {
+   "col_no": "10008",
+   "name": "col_10008",
+   "header": []
+  },
+  {
+   "col_no": "10009",
+   "name": "col_10009",
+   "header": []
+  },
+  {
+   "col_no": "10010",
+   "name": "col_10010",
+   "header": []
+  },
+  {
+   "col_no": "10011",
+   "name": "col_10011",
+   "header": []
+  },
+  {
+   "col_no": "10012",
+   "name": "col_10012",
+   "header": []
+  },
+  {
+   "col_no": "10013",
+   "name": "col_10013",
+   "header": []
+  },
+  {
+   "col_no": "10014",
+   "name": "col_10014",
+   "header": []
+  },
+  {
+   "col_no": "10015",
+   "name": "col_10015",
+   "header": []
+  },
+  {
+   "col_no": "10016",
+   "name": "col_10016",
+   "header": []
+  },
+  {
+   "col_no": "10017",
+   "name": "col_10017",
+   "header": []
+  },
+  {
+   "col_no": "10018",
+   "name": "col_10018",
+   "header": []
+  },
+  {
+   "col_no": "10019",
+   "name": "col_10019",
+   "header": []
+  },
+  {
+   "col_no": "10020",
+   "name": "col_10020",
+   "header": []
+  },
+  {
+   "col_no": "10021",
+   "name": "col_10021",
+   "header": []
+  },
+  {
+   "col_no": "10022",
+   "name": "MAHARASHTRA | MADHYA PRADESH",
+   "header": [
+    "MAHARASHTRA",
+    "MADHYA PRADESH"
+   ]
+  },
+  {
+   "col_no": "10023",
+   "name": "RAJSTHAN | MAHARASHTRA",
+   "header": [
+    "RAJSTHAN",
+    "MAHARASHTRA"
+   ]
+  },
+  {
+   "col_no": "10024",
+   "name": "Jail Cadre Staff",
+   "header": [
+    "Jail Cadre Staff"
+   ]
+  },
+  {
+   "col_no": "10025",
+   "name": "Ministerial Staff",
+   "header": [
+    "Ministerial Staff"
+   ]
+  },
+  {
+   "col_no": "10026",
+   "name": "Officers",
+   "header": [
+    "Officers"
+   ]
+  },
+  {
+   "col_no": "10027",
+   "name": "Others",
+   "header": [
+    "Others"
+   ]
+  },
+  {
+   "col_no": "10028",
+   "name": "Chart 1 | Medical Staff",
+   "header": [
+    "Chart 1",
+    "Medical Staff"
+   ]
+  },
+  {
+   "col_no": "10029",
+   "name": "Sanctioned | Correctional Staff",
+   "header": [
+    "Sanctioned",
+    "Correctional Staff"
+   ]
+  },
+  {
+   "col_no": "10030",
+   "name": "Actual",
+   "header": [
+    "Actual"
    ]
   }
  ],
  "notes": [
-  "a Number of Jails"
+  "States/UTs",
+  "Tamil Nadu"
  ],
  "checks": {
   "cells_checked": 0,
@@ -41,7 +523,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 10,
  "warnings": []
 }

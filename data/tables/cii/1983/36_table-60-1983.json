@@ -15,7 +15,7 @@
  "source_sha256": "c7704953e8b636c2014d5cfdeec7a6dc6ca6882bdae77ac50dc1545d889c56aa",
  "table_no": "60",
  "pdf_title": "145 TABLE 60 Actual Police strength during 1983",
- "row_label": "Sl. No. / States/U.Ts.",
+ "row_label": "Sl. No. / Sl. No. / Sl. No. / States/U.Ts.",
  "pages": [
   1,
   2
@@ -25,28 +25,28 @@
  "n_cells": 340,
  "columns": [
   {
-   "col_no": "3",
+   "col_no": "5",
    "name": "Area in square kms.",
    "header": [
     "Area in square kms."
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "6",
    "name": "Estimated mid-year population in 000",
    "header": [
     "Estimated mid-year population in 000"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "7",
    "name": "Total cognizable crime under IPC",
    "header": [
     "Total cognizable crime under IPC"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "8",
    "name": "Actual Police Strength | Civil",
    "header": [
     "Actual Police Strength",
@@ -54,7 +54,7 @@
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "9",
    "name": "Actual Police Strength | Armed",
    "header": [
     "Actual Police Strength",
@@ -62,7 +62,7 @@
    ]
   },
   {
-   "col_no": "8",
+   "col_no": "10",
    "name": "Actual Police Strength | Total",
    "header": [
     "Actual Police Strength",
@@ -70,28 +70,28 @@
    ]
   },
   {
-   "col_no": "10001",
+   "col_no": "3",
    "name": "No. of Police-men per 100 square kms. area",
    "header": [
     "No. of Police-men per 100 square kms. area"
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "4",
    "name": "No. of Police-men per 1,000 of population",
    "header": [
     "No. of Police-men per 1,000 of population"
    ]
   },
   {
-   "col_no": "10003",
+   "col_no": "10001",
    "name": "No. of IPC cases per civil police men",
    "header": [
     "No. of IPC cases per civil police men"
    ]
   },
   {
-   "col_no": "10004",
+   "col_no": "10002",
    "name": "Percentage of civil Police of Total Police",
    "header": [
     "Percentage of civil Police of Total Police"
@@ -100,15 +100,13 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 10,
+  "cells_checked": 8,
   "cells_passed": 7,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 3.16776e+06, sum 3.16716e+06",
-   "col 5 'TOTAL (STATES)': printed 1.31192e+06, sum 1.31126e+06",
-   "col 8 'TOTAL (U.Ts.)': printed 41982, sum 41973"
+   "col 5 'TOTAL (STATES) . .': printed 3.16776e+06, sum 3.16776e+06"
   ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 5
+  "other_totals_checked": 4,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-69-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-69-1993-crime.pdf",
  "source_sha256": "4bd6e121ac098b026f3a92ceb7af018d435c426aa6624a6ee67061b5ae61e996",
- "table_no": "69",
- "pdf_title": "293 TABLE-69 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1993 (STATE, UT & CITY-WISE)",
+ "table_no": "",
+ "pdf_title": "",
  "row_label": "SL NO. / STATE/UT",
  "pages": [
   1,
@@ -44,17 +44,17 @@
   },
   {
    "col_no": "5",
-   "name": "HIGHWAYS | NUMBER",
+   "name": "HGHWAYS | NUMBER",
    "header": [
-    "HIGHWAYS",
+    "HGHWAYS",
     "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "HIGHWAYS | VALUE",
+   "name": "HGHWAYS | VALUE",
    "header": [
-    "HIGHWAYS",
+    "HGHWAYS",
     "VALUE"
    ]
   },
@@ -76,17 +76,17 @@
   },
   {
    "col_no": "9",
-   "name": "RAILWAYS | NUMBER",
+   "name": "RAILWAY | NUMBER",
    "header": [
-    "RAILWAYS",
+    "RAILWAY",
     "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "RAILWAYS | VALUE",
+   "name": "RAILWAY | VALUE",
    "header": [
-    "RAILWAYS",
+    "RAILWAY",
     "VALUE"
    ]
   },
@@ -100,17 +100,17 @@
   },
   {
    "col_no": "14",
-   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
+   "name": "COMMERCIAL EASTABLISHMENT | NUMBER",
    "header": [
-    "COMMERCIAL EASTABLISHMENTS",
+    "COMMERCIAL EASTABLISHMENT",
     "NUMBER"
    ]
   },
   {
    "col_no": "15",
-   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
+   "name": "COMMERCIAL EASTABLISHMENT | VALUE",
    "header": [
-    "COMMERCIAL EASTABLISHMENTS",
+    "COMMERCIAL EASTABLISHMENT",
     "VALUE"
    ]
   },
@@ -149,12 +149,9 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 8,
-  "cells_passed": 6,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 500, sum 5595",
-   "col 3 'TOTAL (ALL-INDIA)': printed 6916, sum 521"
-  ],
+  "cells_checked": 4,
+  "cells_passed": 4,
+  "failures": [],
   "other_totals_checked": 4,
   "other_totals_passed": 4
  },

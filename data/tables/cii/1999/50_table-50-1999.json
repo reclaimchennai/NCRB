@@ -20,7 +20,7 @@
   1,
   2
  ],
- "n_rows": 60,
+ "n_rows": 59,
  "n_cols": 27,
  "n_cells": 1593,
  "columns": [
@@ -85,9 +85,9 @@
   },
   {
    "col_no": "11",
-   "name": "PREPA-RATION AND ASSEM-BLY FOR DACOITY",
+   "name": "PREPARATION AND ASSEM-BLY FOR DACOITY",
    "header": [
-    "PREPA-RATION AND ASSEM-BLY FOR DACOITY"
+    "PREPARATION AND ASSEM-BLY FOR DACOITY"
    ]
   },
   {
@@ -122,116 +122,110 @@
   },
   {
    "col_no": "16",
+   "name": "THEFT | OTHER THEFT",
+   "header": [
+    "THEFT",
+    "OTHER THEFT"
+   ]
+  },
+  {
+   "col_no": "17",
    "name": "RIOTS",
    "header": [
     "RIOTS"
    ]
   },
   {
-   "col_no": "17",
+   "col_no": "18",
    "name": "CRIMINAL BREACH OF TRUST",
    "header": [
     "CRIMINAL BREACH OF TRUST"
    ]
   },
   {
-   "col_no": "18",
+   "col_no": "19",
    "name": "CHEATING",
    "header": [
     "CHEATING"
    ]
   },
   {
-   "col_no": "19",
+   "col_no": "20",
    "name": "COUNTER-FEITING",
    "header": [
     "COUNTER-FEITING"
    ]
   },
   {
-   "col_no": "20",
+   "col_no": "21",
    "name": "ARSON",
    "header": [
     "ARSON"
    ]
   },
   {
-   "col_no": "21",
+   "col_no": "22",
    "name": "HURT",
    "header": [
     "HURT"
    ]
   },
   {
-   "col_no": "22",
+   "col_no": "23",
    "name": "DOWRY DEATHS",
    "header": [
     "DOWRY DEATHS"
    ]
   },
   {
-   "col_no": "23",
+   "col_no": "24",
    "name": "MOLES-TATION",
    "header": [
     "MOLES-TATION"
    ]
   },
   {
-   "col_no": "24",
-   "name": "SEXUAL HARASS-MINT",
-   "header": [
-    "SEXUAL HARASS-MINT"
-   ]
-  },
-  {
    "col_no": "25",
-   "name": "CRUELTY BY HUSBAND AND RELATIVES",
+   "name": "SEXUAL HARASS-MZNT",
    "header": [
-    "CRUELTY BY HUSBAND AND RELATIVES"
+    "SEXUAL HARASS-MZNT"
    ]
   },
   {
    "col_no": "26",
-   "name": "IMPORTATION OF GIRLS",
+   "name": "CRUELTY BY HUSBAND AND RELATI-VES",
    "header": [
-    "IMPORTATION OF GIRLS"
+    "CRUELTY BY HUSBAND AND RELATI-VES"
    ]
   },
   {
    "col_no": "27",
+   "name": "IMPORT-TATION OF GIRLS",
+   "header": [
+    "IMPORT-TATION OF GIRLS"
+   ]
+  },
+  {
+   "col_no": "28",
    "name": "OTHER IPC CRIMES",
    "header": [
     "OTHER IPC CRIMES"
    ]
   },
   {
-   "col_no": "28",
+   "col_no": "29",
    "name": "TOTAL COG. CRIMES UNDER IPC",
    "header": [
     "TOTAL COG. CRIMES UNDER IPC"
-   ]
-  },
-  {
-   "col_no": "29",
-   "name": "OTHER THEFT",
-   "header": [
-    "OTHER THEFT"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 100,
-  "cells_passed": 83,
+  "cells_checked": 104,
+  "cells_passed": 103,
   "failures": [
-   "col 14 'TOTAL STATES': printed 2044, sum 1811",
-   "col 15 'TOTAL STATES': printed 129, sum 91",
-   "col 16 'TOTAL STATES': printed 1911, sum 1716",
-   "col 17 'TOTAL STATES': printed 508, sum 437",
-   "col 18 'TOTAL STATES': printed 12, sum 5",
-   "col 19 'TOTAL STATES': printed 26, sum 20",
-   "col 20 'TOTAL STATES': printed 7, sum 6",
-   "col 21 'TOTAL STATES': printed 40, sum 33"
+   "col 26 'TOTAL (CITIES)': printed 20, sum 11"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

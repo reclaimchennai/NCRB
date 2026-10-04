@@ -1,0 +1,52 @@
+{
+ "table_id": "cii/1987/18_table-52-1987_t2",
+ "publication": "cii",
+ "year": 1987,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "18",
+ "title": "MURDER C.H. NOT AMOUNTING TO MURDER",
+ "listing_title": "The Motives of Murder and Culpable Homicide not Amounting to Murder in Different States, UTs and Cities During 1987",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table_52-1987.pdf",
+ "source_file": "raw/cii/1987/table_content/table_52-1987.pdf",
+ "source_sha256": "8fe92d7f1f06f5511e2289ad33f680663f9a2f34739cebce28c40905435b95c2",
+ "table_no": "",
+ "pdf_title": "MURDER C.H. NOT AMOUNTING TO MURDER",
+ "row_label": "",
+ "pages": [
+  2
+ ],
+ "n_rows": 48,
+ "n_cols": 2,
+ "n_cells": 96,
+ "columns": [
+  {
+   "col_no": "7",
+   "name": "col_7",
+   "header": []
+  },
+  {
+   "col_no": "8",
+   "name": "col_8",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 6,
+  "cells_passed": 3,
+  "failures": [
+   "col 8 'Total (States)': printed 580, sum 1967",
+   "col 8 'Total (UTs)': printed 58, sum 75",
+   "col 8 'Total (Cities)': printed 78, sum 114"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

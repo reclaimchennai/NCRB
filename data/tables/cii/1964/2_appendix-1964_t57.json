@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "134",
+ "title": "138 PROPERTY STOLEN AND",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,24 +14,42 @@
  "source_file": "raw/cii/1964/table_chapter/appendix-1964.pdf",
  "source_sha256": "f45dcb582666293544ac26c2e40abd44ebfb046a8ef02df8eee0814973fa15b6",
  "table_no": "",
- "pdf_title": "134",
- "row_label": "",
+ "pdf_title": "138 PROPERTY STOLEN AND",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
-  96
+  100
  ],
- "n_rows": 9,
- "n_cols": 2,
- "n_cells": 18,
+ "n_rows": 27,
+ "n_cols": 4,
+ "n_cells": 104,
  "columns": [
   {
+   "col_no": "3",
+   "name": "No. of cases reported during the year",
+   "header": [
+    "No. of cases reported during the year"
+   ]
+  },
+  {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Value of property stolen (Rupees)",
+   "header": [
+    "Value of property stolen (Rupees)"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Value of property recovered (Rupees)",
+   "header": [
+    "Value of property recovered (Rupees)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "No. of cases in which property recovered",
+   "header": [
+    "No. of cases in which property recovered"
+   ]
   }
  ],
  "notes": [],
@@ -39,8 +57,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
-  "other_totals_passed": 0
+  "other_totals_checked": 6,
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

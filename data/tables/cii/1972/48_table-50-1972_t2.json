@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "48",
- "title": "117 50 stolen under dacoity by place of occurrence.",
+ "title": "117 50 stolen under dacoly by place of occurrence.",
  "listing_title": "Statement indicating Number of Cases Reported and Value of Property Stolen under Dacoity by Place of Occurrence",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,14 +14,14 @@
  "source_file": "raw/cii/1972/table_content/table-50-1972.pdf",
  "source_sha256": "7624de4b90e61847f0010f0eb662a789682670a502802fbc6045b057de674d58",
  "table_no": "",
- "pdf_title": "117 50 stolen under dacoity by place of occurrence.",
+ "pdf_title": "117 50 stolen under dacoly by place of occurrence.",
  "row_label": "Banks No. of cases reported",
  "pages": [
   2
  ],
- "n_rows": 36,
+ "n_rows": 38,
  "n_cols": 3,
- "n_cells": 108,
+ "n_cells": 114,
  "columns": [
   {
    "col_no": "2",
@@ -33,15 +33,18 @@
   },
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
-  },
-  {
-   "col_no": "4",
    "name": "Commercial Establishments | No. of cases reported",
    "header": [
     "Commercial Establishments",
     "No. of cases reported"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Commercial Establishments | Value of property stolen",
+   "header": [
+    "Commercial Establishments",
+    "Value of property stolen"
    ]
   }
  ],

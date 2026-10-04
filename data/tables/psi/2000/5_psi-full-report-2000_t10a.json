@@ -34,7 +34,7 @@
   92,
   93
  ],
- "n_rows": 36,
+ "n_rows": 37,
  "n_cols": 128,
  "n_cells": 4480,
  "columns": [
@@ -160,9 +160,9 @@
   },
   {
    "col_no": "18",
-   "name": "TOTAL (11 + 14 + 17) (18)",
+   "name": "TOTAL (11+14+17) (18)",
    "header": [
-    "TOTAL (11 + 14 + 17)"
+    "TOTAL (11+14+17)"
    ]
   },
   {
@@ -922,9 +922,9 @@
   },
   {
    "col_no": "10096",
-   "name": "TOTAL (11 + 14 + 17) (10096)",
+   "name": "TOTAL (11+14+17) (10096)",
    "header": [
-    "TOTAL (11 + 14 + 17)"
+    "TOTAL (11+14+17)"
    ]
   },
   {
@@ -1049,25 +1049,19 @@
   },
   {
    "col_no": "10112",
-   "name": "TOTAL (11 + 14 + 17) (10112)",
+   "name": "TOTAL (11+14+17) (10112)",
    "header": [
-    "TOTAL (11 + 14 + 17)"
+    "TOTAL (11+14+17)"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 384,
-  "cells_passed": 371,
+  "cells_passed": 382,
   "failures": [
-   "col 9 'TOTAL (STATES)': printed 46706, sum 46716",
-   "col 11 'TOTAL (STATES)': printed 48179, sum 48180",
-   "col 18 'TOTAL (STATES)': printed 100785, sum 101785",
-   "col 18 'TOTAL (UTs)': printed 10362, sum 10164",
-   "col 10004 'TOTAL (UTs)': printed 112, sum 108",
-   "col 10006 'TOTAL (UTs)': printed 115, sum 111",
-   "col 10007 'TOTAL (UTs)': printed 540, sum 512",
-   "col 10008 'TOTAL (UTs)': printed 2, sum 1"
+   "col 14 'TOTAL (STATES)': printed 2088, sum 2089",
+   "col 10032 'TOTAL (UTs)': printed 179, sum 178"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

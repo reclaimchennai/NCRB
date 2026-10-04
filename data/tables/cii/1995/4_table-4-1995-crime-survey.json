@@ -8,107 +8,82 @@
  "serial": "4",
  "title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs and Cities During 1990-1995 alongwith Percentage Changes During 1995",
  "listing_title": "Incidence of Total Cognizable Crimes (IPC) in States, UTs and Cities During 1990-1995 alongwith Percentage Changes During 1995",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-4-1995-crime-survey.pdf",
  "source_file": "raw/cii/1995/table_content/table-4-1995-crime-survey.pdf",
  "source_sha256": "9bd67c0fba77d3fecc5778487cfa497abb6c42f023b66187e21831a4eb97ea2b",
  "table_no": "4",
- "pdf_title": "INCIDENCE OF TOTAL COGNIZABLE CRIMES (IPC) IN STATES, UTs AND CITIES",
- "row_label": "DURING1990-199!; ALON SWITH SL. NO. \\ / DURING1990-199!; ALON SWITH STATE/UT/CITY",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE - 4",
+ "row_label": "PERCENTAGE CHANGE IN1995[(+)INCREASE/(-)DECREASE] OVER",
  "pages": [
+  1,
   1
  ],
- "n_rows": 48,
+ "n_rows": 59,
  "n_cols": 9,
- "n_cells": 260,
+ "n_cells": 501,
  "columns": [
   {
-   "col_no": "3",
-   "name": "DURING1990-199!; ALON SWITH | 1990",
+   "col_no": "11",
+   "name": "PERCENTAGE CHANGE IN1995[(+)INCREASE/(-)DECREASE] OVER",
    "header": [
-    "DURING1990-199!; ALON SWITH",
-    "1990"
+    "PERCENTAGE CHANGE IN1995[(+)INCREASE/(-)DECREASE] OVER"
    ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "DURING1990-199!; ALON SWITH | 1991",
-   "header": [
-    "DURING1990-199!; ALON SWITH",
-    "1991"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "DURING1990-199!; ALON SWITH | 1992",
-   "header": [
-    "DURING1990-199!; ALON SWITH",
-    "1992"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "DURING1990-199!; ALON SWITH | 1993",
-   "header": [
-    "DURING1990-199!; ALON SWITH",
-    "1993"
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "CHANGES | 1994",
-   "header": [
-    "CHANGES",
-    "1994"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "CHANGES | NIAL AVG. 1990-1994 (Q.A.)",
-   "header": [
-    "CHANGES",
-    "NIAL AVG. 1990-1994 (Q.A.)"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "1995 | 1995",
-   "header": [
-    "1995",
-    "1995"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "1995 | PERCENTAGE CHANGE IN 1995[( + }INCREASE/(-) DECREASE] | Q.A.",
-   "header": [
-    "1995",
-    "PERCENTAGE CHANGE IN 1995[( + }INCREASE/(-) DECREASE]",
-    "Q.A."
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "1995 | PERCENTAGE CHANGE IN 1995[( + }INCREASE/(-) DECREASE] | 1994",
-   "header": [
-    "1995",
-    "PERCENTAGE CHANGE IN 1995[( + }INCREASE/(-) DECREASE]",
-    "1994"
-   ]
+   "name": "col_10",
+   "header": []
   }
  ],
- "notes": [
-  "Note: * - Data started from 1992 only. -"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 21,
+  "cells_passed": 19,
+  "failures": [
+   "col 8 'TOTAL (STATES)': printed 1.60509e+06, sum 1.60509e+06",
+   "col 9 'TOTAL (STATES)': printed 1.64236e+06, sum 1.64232e+06"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

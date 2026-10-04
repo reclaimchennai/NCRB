@@ -15,7 +15,7 @@
  "source_sha256": "eb4da42a0a7ea9362578c95456c20f5344f7b18c307360d4a44e5d8be81fd9f5",
  "table_no": "55",
  "pdf_title": "176 TABLE-55 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE (STATE, UT & CITY-WISE)",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2
@@ -148,11 +148,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 12,
-  "cells_passed": 10,
-  "failures": [
-   "col 3 'TOTAL (UTs)': printed 1856, sum 1656",
-   "col 3 'TOTAL (ALL-INDIA)': printed 99885, sum 100085"
-  ],
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

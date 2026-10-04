@@ -27,10 +27,10 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "DG/IG/DIG/SUPDT. | SANCT- IONED",
+   "name": "DG/IG/DIG/SUPDT. | SANCT-IONED",
    "header": [
     "DG/IG/DIG/SUPDT.",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -43,26 +43,26 @@
   },
   {
    "col_no": "5",
-   "name": "DYSP/JAILOR/ D.JAILOR/A.JAILOR/ A. SUPDT. | SANCT- IONED",
+   "name": "DYSP/JAILOR/D.JAILOR/A.JAILOR/A. SUPDT. | SANCT-IONED",
    "header": [
-    "DYSP/JAILOR/ D.JAILOR/A.JAILOR/ A. SUPDT.",
-    "SANCT- IONED"
+    "DYSP/JAILOR/D.JAILOR/A.JAILOR/A. SUPDT.",
+    "SANCT-IONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "DYSP/JAILOR/ D.JAILOR/A.JAILOR/ A. SUPDT. | ACTUAL",
+   "name": "DYSP/JAILOR/D.JAILOR/A.JAILOR/A. SUPDT. | ACTUAL",
    "header": [
-    "DYSP/JAILOR/ D.JAILOR/A.JAILOR/ A. SUPDT.",
+    "DYSP/JAILOR/D.JAILOR/A.JAILOR/A. SUPDT.",
     "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "OTHER OFFICERS | SANCT- IONED",
+   "name": "OTHER OFFICERS | SANCT-IONED",
    "header": [
     "OTHER OFFICERS",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -75,10 +75,10 @@
   },
   {
    "col_no": "9",
-   "name": "HEAD WARDERS/HEAD MATRON | SANCT- IONED",
+   "name": "HEAD WARDERS/HEAD MATRON | SANCT-IONED",
    "header": [
     "HEAD WARDERS/HEAD MATRON",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -171,10 +171,10 @@
   },
   {
    "col_no": "21",
-   "name": "PHARMACISTS | SANCT- IONED",
+   "name": "PHARMACISTS | SANCT-IONED",
    "header": [
     "PHARMACISTS",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -187,10 +187,10 @@
   },
   {
    "col_no": "23",
-   "name": "LAB TECH. / LAB ASSISTANT | SANCT- IONED",
+   "name": "LAB TECH. / LAB ASSISTANT | SANCT-IONED",
    "header": [
     "LAB TECH. / LAB ASSISTANT",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -203,10 +203,10 @@
   },
   {
    "col_no": "25",
-   "name": "OTHER MEDICAL STAFF | SANCT- IONED",
+   "name": "OTHER MEDICAL STAFF | SANCT-IONED",
    "header": [
     "OTHER MEDICAL STAFF",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -219,10 +219,10 @@
   },
   {
    "col_no": "27",
-   "name": "OTHERS | SANCT- IONED",
+   "name": "OTHERS | SANCT-IONED",
    "header": [
     "OTHERS",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -235,10 +235,10 @@
   },
   {
    "col_no": "29",
-   "name": "TOTAL | SANCT- IONED",
+   "name": "TOTAL | SANCT-IONED",
    "header": [
     "TOTAL",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -253,13 +253,16 @@
  "notes": [],
  "checks": {
   "cells_checked": 84,
-  "cells_passed": 79,
+  "cells_passed": 72,
   "failures": [
-   "col 23 'TOTAL (STATES)': printed 166, sum 165",
-   "col 27 'TOTAL (STATES)': printed 4101, sum 3359",
-   "col 28 'TOTAL (STATES)': printed 3470, sum 2902",
-   "col 29 'TOTAL (STATES)': printed 45824, sum 42008",
-   "col 30 'TOTAL (STATES)': printed 40364, sum 37071"
+   "col 11 'TOTAL (STATES)': printed 29623, sum 28948",
+   "col 12 'TOTAL (STATES)': printed 26632, sum 26145",
+   "col 13 'TOTAL (STATES)': printed 1556, sum 1395",
+   "col 14 'TOTAL (STATES)': printed 1395, sum 1234",
+   "col 19 'TOTAL (STATES)': printed 366, sum 356",
+   "col 20 'TOTAL (STATES)': printed 311, sum 301",
+   "col 21 'TOTAL (STATES)': printed 609, sum 598",
+   "col 22 'TOTAL (STATES)': printed 470, sum 460"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

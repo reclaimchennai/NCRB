@@ -15,41 +15,26 @@
  "source_sha256": "013e8bc42920c426bf04d5e904a477084a08b3958ded581eb760385afebd25a6",
  "table_no": "",
  "pdf_title": "16 APPEN *Figures are not",
- "row_label": "State",
+ "row_label": "Cattle",
  "pages": [
-  8,
   8
  ],
- "n_rows": 33,
+ "n_rows": 32,
  "n_cols": 6,
- "n_cells": 187,
+ "n_cells": 184,
  "columns": [
-  {
-   "col_no": "3",
-   "name": "Number pending from previous year",
-   "header": [
-    "Number pending from previous year"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "Number reported in the year",
-   "header": [
-    "Number reported in the year"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Convicted",
-   "header": [
-    "Convicted"
-   ]
-  },
   {
    "col_no": "4",
    "name": "Ordinary (4)",
    "header": [
     "Ordinary"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Cattle (5)",
+   "header": [
+    "Cattle"
    ]
   },
   {
@@ -60,11 +45,23 @@
    ]
   },
   {
+   "col_no": "7",
+   "name": "Cattle (7)",
+   "header": [
+    "Cattle"
+   ]
+  },
+  {
    "col_no": "8",
    "name": "Ordinary (8)",
    "header": [
     "Ordinary"
    ]
+  },
+  {
+   "col_no": "9",
+   "name": "col_9",
+   "header": []
   }
  ],
  "notes": [],
@@ -73,9 +70,9 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 24,
-  "other_totals_passed": 15
+  "other_totals_passed": 18
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

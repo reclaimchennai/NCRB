@@ -1,0 +1,107 @@
+{
+ "table_id": "adsi/1991/3_1680614463appendix-41991_t2",
+ "publication": "adsi",
+ "year": 1991,
+ "listing": "table_content",
+ "topic": "Suicides in India",
+ "section": "SUICIDES IN INDIA",
+ "serial": "3",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 58",
+ "listing_title": "Distribution of Suicides by Means Adopted and Sex during 1991 (State, UT & City-wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1680614463appendix-41991.pdf",
+ "source_file": "raw/adsi/1991/table_content/1680614463appendix-41991.pdf",
+ "source_sha256": "77e78241aaea481e90df4e3cdc3271640f1ec5dc5d967e6fdc68a7be2ed79bf0",
+ "table_no": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1991 N.C.R.B. - 58",
+ "row_label": "SI. No. / State/UT/City",
+ "pages": [
+  3
+ ],
+ "n_rows": 47,
+ "n_cols": 9,
+ "n_cells": 423,
+ "columns": [
+  {
+   "col_no": "21",
+   "name": "By Drowning | Male",
+   "header": [
+    "By Drowning",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Female (22)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Total (23)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "By Hanging | Male",
+   "header": [
+    "By Hanging",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "Female (25)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "Total (26)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "By Jumping | Male",
+   "header": [
+    "By Jumping",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "Female (28)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "Total (29)",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 27,
+  "cells_passed": 25,
+  "failures": [
+   "col 28 'Total (States)': printed 273, sum 281",
+   "col 29 'Total (States)': printed 639, sum 448"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

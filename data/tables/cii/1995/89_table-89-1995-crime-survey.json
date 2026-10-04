@@ -25,33 +25,33 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "DG/G/DIG/SP | SANC-TIONED",
+   "name": "DG/IG/DIG/SP | SANC-TIONED",
    "header": [
-    "DG/G/DIG/SP",
+    "DG/IG/DIG/SP",
     "SANC-TIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "DG/G/DIG/SP | ACTUAL",
+   "name": "DG/IG/DIG/SP | ACTUAL",
    "header": [
-    "DG/G/DIG/SP",
+    "DG/IG/DIG/SP",
     "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "ASP & USF | SANC-TIONED",
+   "name": "ASP & DSF | SANC-TIONED",
    "header": [
-    "ASP & USF",
+    "ASP & DSF",
     "SANC-TIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "ASP & USF | ACTUAL",
+   "name": "ASP & DSF | ACTUAL",
    "header": [
-    "ASP & USF",
+    "ASP & DSF",
     "ACTUAL"
    ]
   },
@@ -107,15 +107,11 @@
  "notes": [],
  "checks": {
   "cells_checked": 30,
-  "cells_passed": 23,
+  "cells_passed": 27,
   "failures": [
    "col 7 'TOTAL (STATES)': printed 1664, sum 1658",
-   "col 7 'TOTAL (UTS)': printed 426, sum 420",
-   "col 7 'TOTAL (ALL INDIA)': printed 2084, sum 2090",
-   "col 10 'TOTAL (STATES)': printed 12486, sum 12426",
-   "col 11 'TOTAL (STATES)': printed 16810, sum 16820",
-   "col 11 'TOTAL (UTS)': printed 1563, sum 1623",
-   "col 12 'TOTAL (UTS)': printed 1491, sum 1511"
+   "col 9 'TOTAL (STATES)': printed 15091, sum 15097",
+   "col 10 'TOTAL (STATES)': printed 12486, sum 11786"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

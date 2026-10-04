@@ -1,0 +1,63 @@
+{
+ "table_id": "adsi/1972/1_accidental-deaths-1972_tiii",
+ "publication": "adsi",
+ "year": 1972,
+ "listing": "year_wise",
+ "topic": "",
+ "section": "Accidental Deaths and Suicides in India 1972",
+ "serial": "1",
+ "title": "Comparative statement of Incidence of Accidental Deaths in States/U.Ts./Cities During The Year 1971 and 1972",
+ "listing_title": "Accidental Deaths in India",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/accidental-deaths-1972.pdf",
+ "source_file": "raw/adsi/1972/year_wise/accidental-deaths-1972.pdf",
+ "source_sha256": "9d8e98751134c09634d6f60810fae31cc09467608d3d27f7494acc49fb656d69",
+ "table_no": "III",
+ "pdf_title": "Comparative statement of Incidence of Accidental Deaths in States/U.Ts./Cities During The Year 1971 and 1972",
+ "row_label": "Sl. Names of States/U.Ts./Cities No.",
+ "pages": [
+  5
+ ],
+ "n_rows": 42,
+ "n_cols": 3,
+ "n_cells": 124,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Number of accidental Deaths (2)",
+   "header": [
+    "Number of accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Number of accidental Deaths (3)",
+   "header": [
+    "Number of accidental Deaths"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Percentage variation from 1971 to 1972",
+   "header": [
+    "Percentage variation from 1971 to 1972"
+   ]
+  }
+ ],
+ "notes": [
+  "*Data from Arunachal Pradesh has not been available. N.A.S.=Not available separately."
+ ],
+ "checks": {
+  "cells_checked": 4,
+  "cells_passed": 3,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 103861, sum 105833"
+  ],
+  "other_totals_checked": 2,
+  "other_totals_passed": 2
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

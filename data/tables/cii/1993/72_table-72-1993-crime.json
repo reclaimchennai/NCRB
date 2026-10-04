@@ -8,80 +8,154 @@
  "serial": "72",
  "title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1993 (State, UT & City-Wise) Theft",
  "listing_title": "Number of Cases Reported and Value of Property Stolen by Place of Occurrence During 1993 (State, UT & City-Wise) Theft",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-72-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-72-1993-crime.pdf",
  "source_sha256": "f412a1abbf32cea837b53fdf57f4c7c9b24e4d10bb319f3edd7a641e71d04ad5",
- "table_no": "72",
- "pdf_title": "NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1993 (STATE, UT & CITY-WiSE)",
- "row_label": "ay",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1,
-  2
+  2,
+  3,
+  4
  ],
- "n_rows": 57,
- "n_cols": 8,
- "n_cells": 379,
+ "n_rows": 116,
+ "n_cols": 15,
+ "n_cells": 870,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "RESIDENTIAL PREMISES | NUMBER",
+   "header": [
+    "RESIDENTIAL PREMISES",
+    "NUMBER"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "RESIDENTIAL PREMISES | VALUE",
+   "header": [
+    "RESIDENTIAL PREMISES",
+    "VALUE"
+   ]
   },
   {
    "col_no": "5",
-   "name": "THEFT",
+   "name": "HIGHWAY | NUMBER",
    "header": [
-    "THEFT"
+    "HIGHWAY",
+    "NUMBER"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "HIGHWAY | VALUE",
+   "header": [
+    "HIGHWAY",
+    "VALUE"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "RIVER & SEA | NUMBER",
+   "header": [
+    "RIVER & SEA",
+    "NUMBER"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "RIVER & SEA | VALUE",
+   "header": [
+    "RIVER & SEA",
+    "VALUE"
+   ]
   },
   {
    "col_no": "9",
-   "name": "M0)",
+   "name": "RAILWAYS | NUMBER",
    "header": [
-    "M0)"
+    "RAILWAYS",
+    "NUMBER"
    ]
   },
   {
    "col_no": "10",
-   "name": "ian)",
+   "name": "RAILWAYS | VALUE",
    "header": [
-    "ian)"
+    "RAILWAYS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "EANFS | VALUE",
+   "header": [
+    "EANFS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "COMMERCIAL EASTABLISHMENTS | NUMBER",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "COMMERCIAL EASTABLISHMENTS | VALUE",
+   "header": [
+    "COMMERCIAL EASTABLISHMENTS",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHER PLACES | NUMBER",
+   "header": [
+    "OTHER PLACES",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHER PLACES | VALUE",
+   "header": [
+    "OTHER PLACES",
+    "VALUE"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | NUMBER",
+   "header": [
+    "TOTAL",
+    "NUMBER"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "TOTAL | VALUE",
+   "header": [
+    "TOTAL",
+    "VALUE"
    ]
   }
  ],
- "notes": [
-  "Bg"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 4,
+  "cells_passed": 4,
   "failures": [],
-  "other_totals_checked": 0,
+  "other_totals_checked": 4,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 4,
  "warnings": []
 }

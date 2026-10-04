@@ -1,0 +1,104 @@
+{
+ "table_id": "cii/1980/25_table-52-1980-0",
+ "publication": "cii",
+ "year": 1980,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "25",
+ "title": "Statement Indicating Motive of Murder and Culpable Homicide not Amounting to Murder in Different States / U.T.s / Cities During",
+ "listing_title": "Statement Indicating Motive of Murder and Culpable Homicide not Amounting to Murder in Different States / U.T.s / Cities During",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-52-1980_0.pdf",
+ "source_file": "raw/cii/1980/table_content/table-52-1980_0.pdf",
+ "source_sha256": "231d87961e41690f7c95f7f07af6e06b5b5ea8f678a0cbad038ff4004d910c32",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. No. / States/U.S./Cities",
+ "pages": [
+  2
+ ],
+ "n_rows": 43,
+ "n_cols": 8,
+ "n_cells": 343,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Sudden Provocation | Murder.",
+   "header": [
+    "Sudden Provocation",
+    "Murder."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Sudden Provocation | Culpable Homicide not amount-ting to Murder",
+   "header": [
+    "Sudden Provocation",
+    "Culpable Homicide not amount-ting to Murder"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Luxacy | Murder.",
+   "header": [
+    "Luxacy",
+    "Murder."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Luxacy | Culpable Homicide not amount-ting to Murder",
+   "header": [
+    "Luxacy",
+    "Culpable Homicide not amount-ting to Murder"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Other Causes | Murder.",
+   "header": [
+    "Other Causes",
+    "Murder."
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Other Causes | Culpable Homicide not amount-ting to Murder",
+   "header": [
+    "Other Causes",
+    "Culpable Homicide not amount-ting to Murder"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Total | Murder.",
+   "header": [
+    "Total",
+    "Murder."
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Total | Culpable Homicide not amount-ting to Murder",
+   "header": [
+    "Total",
+    "Culpable Homicide not amount-ting to Murder"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 22,
+  "cells_passed": 21,
+  "failures": [
+   "col 10 'Total (States)': printed 2739, sum 2752"
+  ],
+  "other_totals_checked": 7,
+  "other_totals_passed": 7
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

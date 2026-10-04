@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "76 ROBBERY",
+ "title": "77 APPENDIX IX CASES",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,56 +14,76 @@
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "76 ROBBERY",
- "row_label": "Sl. No. / States/U. Ts./Cities",
+ "pdf_title": "77 APPENDIX IX CASES",
+ "row_label": "Total true cases",
  "pages": [
-  18,
-  18
+  19
  ],
- "n_rows": 38,
- "n_cols": 6,
- "n_cells": 204,
+ "n_rows": 39,
+ "n_cols": 9,
+ "n_cells": 351,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Cases pending investigation from previous year",
+   "col_no": "2",
+   "name": "Cases not detected",
    "header": [
-    "Cases pending investigation from previous year"
+    "Cases not detected"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Cases in which charge-sheet was laid",
+   "header": [
+    "Cases in which charge-sheet was laid"
    ]
   },
   {
    "col_no": "4",
-   "name": "Cases pending disposal in courts",
+   "name": "Cases com-pounded or with-drawn",
    "header": [
-    "Cases pending disposal in courts"
+    "Cases com-pounded or with-drawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "Cases reported during the year",
+   "name": "Cases in which trial was completed",
    "header": [
-    "Cases reported during the year"
+    "Cases in which trial was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "Cases not investigated (+) Declared false (+) Mistake of fact or law (+) Non-cognizable",
+   "name": "Cases convicted",
    "header": [
-    "Cases not investigated (+) Declared false (+) Mistake of fact or law (+) Non-cognizable"
+    "Cases convicted"
    ]
   },
   {
    "col_no": "7",
-   "name": "Cases pending investigation at the end of the year",
+   "name": "Cases acquitted or discharged",
    "header": [
-    "Cases pending investigation at the end of the year"
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "8",
-   "name": "Cases pending trial at the end of the year",
+   "name": "Percentage of cases convicted to true cases investigated",
    "header": [
-    "Cases pending trial at the end of the year"
+    "Percentage of cases convicted to true cases investigated"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Percentage of cases convicted to cases in which trial was completed",
+   "header": [
+    "Percentage of cases convicted to cases in which trial was completed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Volume of crime per 1,00,000 of population",
+   "header": [
+    "Volume of crime per 1,00,000 of population"
    ]
   }
  ],
@@ -72,10 +92,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 24,
-  "other_totals_passed": 24
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

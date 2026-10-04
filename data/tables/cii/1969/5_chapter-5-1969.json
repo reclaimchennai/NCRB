@@ -15,7 +15,7 @@
  "source_sha256": "2de234b969ff1d9a163057f932151ead4f0eb8c1e08845a2d18cb6a9b5eab989",
  "table_no": "",
  "pdf_title": "78 CASUALTIES UNDER POLICE FIRING",
- "row_label": "Sl. States/Union No. Territories",
+ "row_label": "Sl. States/Union No. Territories / Sl. States/Union No. Territories",
  "pages": [
   2
  ],
@@ -23,13 +23,6 @@
  "n_cols": 8,
  "n_cells": 202,
  "columns": [
-  {
-   "col_no": "2",
-   "name": "Sl. States/Union No. Territories",
-   "header": [
-    "Sl. States/Union No. Territories"
-   ]
-  },
   {
    "col_no": "3",
    "name": "Number of occasions on which firing was resorted to during | Riot Control Operations",
@@ -56,10 +49,10 @@
   },
   {
    "col_no": "6",
-   "name": "Number of occasions on which firing was resorted to during | Total (3+4+5)",
+   "name": "Number of occasions on which firing was resorted to during | Total",
    "header": [
     "Number of occasions on which firing was resorted to during",
-    "Total (3+4+5)"
+    "Total"
    ]
   },
   {
@@ -84,6 +77,14 @@
    "header": [
     "Policemen",
     "Killed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Policemen | Injured",
+   "header": [
+    "Policemen",
+    "Injured"
    ]
   }
  ],

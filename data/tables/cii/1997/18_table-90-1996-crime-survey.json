@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-90-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-90-1996-crime-survey.pdf",
  "source_sha256": "6c924f6f6957f77274ed624a0261a32ea2fbdec7d6d83fdb546c1f9320a1bf11",
- "table_no": "",
- "pdf_title": "",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "table_no": "90",
+ "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE 90",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
@@ -25,10 +25,10 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "DG/IG/DIG/SP | SANCTIONED",
+   "name": "DG/IG/DIG/SP | SANC-TIONED",
    "header": [
     "DG/IG/DIG/SP",
-    "SANCTIONED"
+    "SANC-TIONED"
    ]
   },
   {
@@ -41,10 +41,10 @@
   },
   {
    "col_no": "5",
-   "name": "ASP & DSP | SANCTIONED",
+   "name": "ASP & DSP | SANC-TIONED",
    "header": [
     "ASP & DSP",
-    "SANCTIONED"
+    "SANC-TIONED"
    ]
   },
   {
@@ -57,10 +57,10 @@
   },
   {
    "col_no": "7",
-   "name": "INSPECTOR. SI & A.S.I. | SANCTIONED",
+   "name": "INSPECTOR. SI & A.S.I. | SANC-TIONED",
    "header": [
     "INSPECTOR. SI & A.S.I.",
-    "SANCTIONED"
+    "SANC-TIONED"
    ]
   },
   {
@@ -73,10 +73,10 @@
   },
   {
    "col_no": "9",
-   "name": "OFFICERS BELOW A.S.I. | SANCTIONED",
+   "name": "OFFICERS BELOW A.S.I. | SANC-TIONED",
    "header": [
     "OFFICERS BELOW A.S.I.",
-    "SANCTIONED"
+    "SANC-TIONED"
    ]
   },
   {
@@ -89,10 +89,10 @@
   },
   {
    "col_no": "11",
-   "name": "GRAND TOTAL | SANCTIONED",
+   "name": "GRAND TOTAL | SANC-TIONED",
    "header": [
     "GRAND TOTAL",
-    "SANCTIONED"
+    "SANC-TIONED"
    ]
   },
   {
@@ -110,10 +110,10 @@
   "cells_passed": 25,
   "failures": [
    "col 7 'TOTAL (STATES)': printed 1720, sum 1719",
-   "col 8 'TOTAL (STATES)': printed 1443, sum 1445",
-   "col 9 'TOTAL (STATES)': printed 15556, sum 15495",
+   "col 9 'TOTAL (STATES)': printed 15556, sum 15576",
    "col 10 'TOTAL (STATES)': printed 15872, sum 15472",
-   "col 12 'TOTAL (STATES)': printed 17412, sum 17442"
+   "col 10 'TOTAL (UTs)': printed 1255, sum 1244",
+   "col 12 'TOTAL (STATES)': printed 17412, sum 14468"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

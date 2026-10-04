@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1980_0.pdf",
  "source_file": "raw/cii/1980/table_content/table-58-1980_0.pdf",
  "source_sha256": "cef7411470ca2627200198bc368a8321c97b9cfd2f3a63cd74f11f60ac891862",
- "table_no": "58",
- "pdf_title": "140 TABLE 58 Civil police including district armed police during the year 1980",
+ "table_no": "",
+ "pdf_title": "Civil police including district armed police during the year 1980",
  "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1
@@ -25,23 +25,23 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "I. G. D.I.G.S. P.",
+   "name": "L.G. D.L.G. S.P.",
    "header": [
-    "I. G. D.I.G.S. P."
+    "L.G. D.L.G. S.P."
    ]
   },
   {
    "col_no": "4",
-   "name": "A. S. P.Dy. S. P.",
+   "name": "A.S.P. Dy. S.P.",
    "header": [
-    "A. S. P.Dy. S. P."
+    "A.S.P. Dy. S.P."
    ]
   },
   {
    "col_no": "5",
-   "name": "Inspector, S.I.",
+   "name": "Inspector. S.I.",
    "header": [
-    "Inspector, S.I."
+    "Inspector. S.I."
    ]
   },
   {
@@ -59,15 +59,15 @@
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "*Note. Figures of Kangpur City are for the year 1979."
+ ],
  "checks": {
   "cells_checked": 15,
-  "cells_passed": 11,
+  "cells_passed": 13,
   "failures": [
-   "col 6 'Total (States)': printed 583531, sum 581531",
-   "col 6 'Total(U.Ts.)': printed 24569, sum 24369",
-   "col 6 'Total(Cities)': printed 78120, sum 76120",
-   "col 7 'Total (States)': printed 640177, sum 640160"
+   "col 6 'Total. (States) .': printed 583531, sum 581531",
+   "col 7 'Total. (States) .': printed 640177, sum 640180"
   ],
   "other_totals_checked": 5,
   "other_totals_passed": 5

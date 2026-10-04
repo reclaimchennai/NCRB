@@ -14,90 +14,50 @@
  "source_file": "raw/cii/1983/table_chapter/chapter-3-1983.pdf",
  "source_sha256": "12b3566c11f230b7dffa058eef06acf020f4639e103f01f83d06852a19301a73",
  "table_no": "19",
- "pdf_title": "CHAPTER 3 PERSONS ARRESTED Persons Arrested for IPC offences (State-Wise)",
- "row_label": "Year",
+ "pdf_title": "PERSONS ARRESTED for Committing Cognizable Crimes under IPC and their percentage variation",
+ "row_label": "Sl. / States/U.Ts./Cities",
  "pages": [
-  1,
-  1,
   1
  ],
- "n_rows": 4,
+ "n_rows": 35,
  "n_cols": 3,
- "n_cells": 10,
+ "n_cells": 104,
  "columns": [
   {
-   "col_no": "13",
-   "name": "Year",
+   "col_no": "3",
+   "name": "Year (3)",
    "header": [
     "Year"
    ]
   },
   {
-   "col_no": "11",
-   "name": "1,22,581 | 63,634 | 1,98,931 | 1,15,738 | 25,402 | 6,319 | 16,536 | 1,11,086 | 77,680 | 2,21,469 | 2,27,831 | 4,259 | 2,496 | 990 | 88,137 | 22,252 | 1,19,386 | 173 | 1,70,642 | 7,395 | 2,36,969 | 1,33,804",
+   "col_no": "4",
+   "name": "Year (4)",
    "header": [
-    "1,22,581",
-    "63,634",
-    "1,98,931",
-    "1,15,738",
-    "25,402",
-    "6,319",
-    "16,536",
-    "1,11,086",
-    "77,680",
-    "2,21,469",
-    "2,27,831",
-    "4,259",
-    "2,496",
-    "990",
-    "88,137",
-    "22,252",
-    "1,19,386",
-    "173",
-    "1,70,642",
-    "7,395",
-    "2,36,969",
-    "1,33,804"
+    "Year"
    ]
   },
   {
-   "col_no": "12",
-   "name": "1,22,802 | 59,650 | 2,26,924 | 1,14,244 | 26,990 | 6,720 | 24,584 | 1,17,441 | 77,889 | 2,37,676 | 2,18,104 | 2,964 | 1,789 | 1,999 | 77,036 | 24,890 | 1,19,770 | 283 | 1,70,401 | 8,349 | 2,56,775 | 1,37,151",
+   "col_no": "5",
+   "name": "%age variation in 1983 over 1982 (+)/decrease (-)",
    "header": [
-    "1,22,802",
-    "59,650",
-    "2,26,924",
-    "1,14,244",
-    "26,990",
-    "6,720",
-    "24,584",
-    "1,17,441",
-    "77,889",
-    "2,37,676",
-    "2,18,104",
-    "2,964",
-    "1,789",
-    "1,999",
-    "77,036",
-    "24,890",
-    "1,19,770",
-    "283",
-    "1,70,401",
-    "8,349",
-    "2,56,775",
-    "1,37,151"
+    "%age variation in 1983 over 1982 (+)/decrease (-)"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 4,
+  "cells_passed": 1,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 1.97371e+06, sum 1.97569e+06",
+   "col 4 'TOTAL (STATES)': printed 2.03449e+06, sum 2.03657e+06",
+   "col 4 'TOTAL (U.Ts.)': printed 42859, sum 42959"
+  ],
   "other_totals_checked": 2,
   "other_totals_passed": 1
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 1,
  "warnings": []
 }

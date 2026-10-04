@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-22_1998.pdf",
  "source_file": "raw/psi/1998/table_content/psi-table-22_1998.pdf",
  "source_sha256": "7c9378874364a4b3679b3d227793c0a27a69b44155fe2b53901aa0bf137eb0aa",
- "table_no": "22",
- "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1998 TABLE-22",
+ "table_no": "",
+ "pdf_title": "",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
@@ -54,9 +54,9 @@
   },
   {
    "col_no": "7",
-   "name": "KIDNAPP -ING & ABDUCTI ON",
+   "name": "KIDNAPP -ING & ABDUCTION",
    "header": [
-    "KIDNAPP -ING & ABDUCTI ON"
+    "KIDNAPP -ING & ABDUCTION"
    ]
   },
   {
@@ -68,9 +68,9 @@
   },
   {
    "col_no": "9",
-   "name": "PREP. AND ASSEMBLY FOR DACOITY",
+   "name": "PREP. AND ASSEM- BLY FOR DACOITY",
    "header": [
-    "PREP. AND ASSEMBLY FOR DACOITY"
+    "PREP. AND ASSEM- BLY FOR DACOITY"
    ]
   },
   {
@@ -140,11 +140,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 48,
-  "cells_passed": 46,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 8605, sum 8805",
-   "col 4 'TOTAL (ALL INDIA)': printed 9281, sum 9081"
-  ],
+  "cells_passed": 48,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

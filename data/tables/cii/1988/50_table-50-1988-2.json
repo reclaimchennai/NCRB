@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-50-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-50-1988-2.pdf",
  "source_sha256": "b2442ec16dc06d05cff7d0a56f793597b340932db664f841f4e117e57b835df2",
- "table_no": "50",
- "pdf_title": "157 TABLE-50 VALUE OF PROPERTY STOLFN & RECOVERED AND PERCENTAGE RECOVERY",
- "row_label": "SL NO / CRIME HEAD",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL NO / CRIME HEAD STOLEN",
  "pages": [
   1
  ],
@@ -25,15 +25,15 @@
  "columns": [
   {
    "col_no": "2",
-   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | STOLEN",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | RECOVERED (2)",
    "header": [
     "NUMBER OF CASES IN WHICH PROPERTY WAS",
-    "STOLEN"
+    "RECOVERED"
    ]
   },
   {
    "col_no": "3",
-   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | RECOVERED",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | RECOVERED (3)",
    "header": [
     "NUMBER OF CASES IN WHICH PROPERTY WAS",
     "RECOVERED"
@@ -41,22 +41,23 @@
   },
   {
    "col_no": "4",
-   "name": "PERCENTAGE OF CASES OF RECOVERY",
+   "name": "PERCENTAGE OF CASES OF RECOVERY | STOLEN",
    "header": [
-    "PERCENTAGE OF CASES OF RECOVERY"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "VALUE OF PROPERTY (Rs. in lakh) | STOLEN",
-   "header": [
-    "VALUE OF PROPERTY (Rs. in lakh)",
+    "PERCENTAGE OF CASES OF RECOVERY",
     "STOLEN"
    ]
   },
   {
+   "col_no": "5",
+   "name": "VALUE OF PROPERTY (Rs. in lakh) | RECOVERED (5)",
+   "header": [
+    "VALUE OF PROPERTY (Rs. in lakh)",
+    "RECOVERED"
+   ]
+  },
+  {
    "col_no": "6",
-   "name": "VALUE OF PROPERTY (Rs. in lakh) | RECOVERED",
+   "name": "VALUE OF PROPERTY (Rs. in lakh) | RECOVERED (6)",
    "header": [
     "VALUE OF PROPERTY (Rs. in lakh)",
     "RECOVERED"
@@ -76,7 +77,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 2,
-  "other_totals_passed": 1
+  "other_totals_passed": 2
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -6,61 +6,53 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1995",
  "serial": "5",
- "title": "POPULATION INDICATORS-1995",
+ "title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1995 N.C.R.B.(M.H.A.) POPULATION INDICATORS-1995 (WORLD'S LARGEST COUNTRIES)",
  "listing_title": "Excerpts",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/excerpts_6_1995.pdf",
  "source_file": "raw/adsi/1995/year_wise/excerpts_6_1995.pdf",
  "source_sha256": "bb0a2b67110f2bf785b0f0f776c17e170daa50dc396d4361d7150d098087b4a3",
  "table_no": "",
- "pdf_title": "POPULATION INDICATORS-1995",
- "row_label": "(WORLD’S LARGEST COUNTRIES) SI. Country No.",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1995 N.C.R.B.(M.H.A.) POPULATION INDICATORS-1995 (WORLD'S LARGEST COUNTRIES)",
+ "row_label": "Sl. No. / Country",
  "pages": [
   1
  ],
- "n_rows": 18,
+ "n_rows": 13,
  "n_cols": 4,
- "n_cells": 56,
+ "n_cells": 50,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(WORLD’S LARGEST COUNTRIES) | Total Population | 1995",
-   "header": [
-    "(WORLD’S LARGEST COUNTRIES)",
-    "Total Population",
-    "1995"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "(WORLD’S LARGEST COUNTRIES) | Total Population | (Millions) 1994",
+   "name": "Total Population (Millions) (3)",
    "header": [
-    "(WORLD’S LARGEST COUNTRIES)",
-    "Total Population",
-    "(Millions) 1994"
+    "Total Population (Millions)"
    ]
   },
   {
    "col_no": "4",
-   "name": "(WORLD’S LARGEST COUNTRIES) | Percent increase over 1994",
+   "name": "Total Population (Millions) (4)",
    "header": [
-    "(WORLD’S LARGEST COUNTRIES)",
-    "Percent increase over 1994"
+    "Total Population (Millions)"
    ]
   },
   {
    "col_no": "5",
+   "name": "Percent increase over 1994",
+   "header": [
+    "Percent increase over 1994"
+   ]
+  },
+  {
+   "col_no": "6",
    "name": "Percentage of World Population",
    "header": [
     "Percentage of World Population"
    ]
   }
  ],
- "notes": [
-  "OTHER COUNTRIES",
-  "R.F.= RUSSIAN FEDERATION"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -68,7 +60,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

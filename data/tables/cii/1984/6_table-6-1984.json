@@ -26,7 +26,7 @@
   7,
   7
  ],
- "n_rows": 91,
+ "n_rows": 48,
  "n_cols": 33,
  "n_cells": 1506,
  "columns": [
@@ -290,13 +290,14 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 72,
-  "cells_passed": 68,
+  "cells_checked": 78,
+  "cells_passed": 73,
   "failures": [
    "col 6 'Total(Cities)': printed 1301, sum 1296",
    "col 7 'Total(States)': printed 12999, sum 13049",
    "col 7 'Total(Cities)': printed 1639, sum 1756",
-   "col 18 'Total(Cities)': printed 2249, sum 2349"
+   "col 18 'Total(Cities)': printed 2249, sum 2349",
+   "col 40 'Total(Cities)': printed 148421, sum 148414"
   ],
   "other_totals_checked": 26,
   "other_totals_passed": 26

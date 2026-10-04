@@ -15,23 +15,23 @@
  "source_sha256": "d036144942eb5069337c7534901c173d10ea5827231683ce27321cdcc42f0d46",
  "table_no": "",
  "pdf_title": "50 TABLE POLICE PERSONNEL KILLED OR",
- "row_label": "Sl.No. / Sl.No.",
+ "row_label": "Sl.No.",
  "pages": [
   1
  ],
  "n_rows": 39,
- "n_cols": 4,
- "n_cells": 156,
+ "n_cols": 5,
+ "n_cells": 195,
  "columns": [
   {
-   "col_no": "3",
+   "col_no": "2",
    "name": "States/U.T.s/Cities",
    "header": [
     "States/U.T.s/Cities"
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "3",
    "name": "Killed | In dacoity operations or other raids",
    "header": [
     "Killed",
@@ -39,7 +39,7 @@
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "Killed | By Riotous Mobs",
    "header": [
     "Killed",
@@ -47,11 +47,19 @@
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "5",
    "name": "Killed | By other criminals",
    "header": [
     "Killed",
     "By other criminals"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Killed | On border duties",
+   "header": [
+    "Killed",
+    "On border duties"
    ]
   }
  ],
@@ -60,7 +68,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

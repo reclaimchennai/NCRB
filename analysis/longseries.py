@@ -46,10 +46,10 @@ TOPIC = "Long series since 1953"
 # canonical crime heads: (key, label, matches, unless)
 IPC_HEADS = [
     ("total", "Total cognizable crimes (IPC)", r"total\s*(cog|i\.?\s?p\.?\s?c|crimes? \(?ipc)|total cognizable", r"sll|special|local|women|children|cyber|scheduled|juvenil|economic|violent|property"),
-    ("murder", "Murder", r"\bmurd", r"attempt|culpable|c\.?\s?h\.?\b|not amount|motive|victim|fire.?arm|abetment|dowry"),
+    ("murder", "Murder", r"\bmurd", r"attempt|culpable|c\.?\s?h\.?\b|not amount|motive|victim|fire.?arm|abetment|dowry|kidnap|abduct|rape|life convict|by group"),
     ("attempt_murder", "Attempt to commit murder", r"attempt.{0,20}murd", r""),
     ("chna", "Culpable homicide not amounting to murder", r"culpable|c\.?\s?h\.?\s*not", r""),
-    ("rape", "Rape", r"\brape", r"attempt|custod|gang|victim|incest|minor"),
+    ("rape", "Rape", r"\brape", r"attempt|victim|incest|minor|^(?!.*(total rape|custodial\s*\+)).*(custod|gang)"),
     ("kidnapping", "Kidnapping & abduction", r"kidnap|abduct", r"women|girls|ransom|marriage|children|minor|murder"),
     ("dacoity", "Dacoity", r"dacoit", r"prep|assembl|murder"),
     ("robbery", "Robbery", r"robber", r"dacoit|prep"),
@@ -60,14 +60,21 @@ IPC_HEADS = [
     ("cheating", "Cheating", r"cheat", r""),
     ("counterfeiting", "Counterfeiting", r"counterfeit", r""),
     ("arson", "Arson", r"\barson", r""),
-    ("hurt", "Hurt", r"\bhurt\b", r"grievous|acid|simple"),
+    ("hurt", "Hurt", r"\bhurt\b", r"acid|rash|negligen|driving|endanger|deter|weapon|attempt|(simple|grievous)\s+hurt\s*\(total|"
+                               r"(simple|grievous) hurt (simple|grievous) hurt|^(?!.*(hurt\s*\(total|simple\s*\+\s*grievous)).*(grievous|simple)"),
     ("dowry_deaths", "Dowry deaths", r"dowry death", r""),
     ("molestation", "Assault on women with intent to outrage modesty", r"modesty|molest", r""),
     ("cruelty", "Cruelty by husband or relatives", r"cruelty by husband", r""),
 ]
 # a table that counts something other than cases registered
 NOT_CASES_TABLE = re.compile(
-    r"motive|arrest|juvenil|disposal|person|victim|value|property|fire.?arm|pending|convict|charge|by sex|"
+    r"motive|arrest|juvenil|disposal|person|victim(?!s?\s*\(\s*v\s*\))|value|property|fire.?arm|pending|convict|charge|by sex|"
+    # crimes against a group (SCs, STs, children, senior citizens, foreigners) are a subset of all cases under a head
+    r"scheduled|atrocit|\bs\.?\s?[ct]s?\b|child|senior|elderly|foreigner|tourist|"
+    # cyber crimes: IPC heads committed through communication devices, a small subset
+    r"cyber|communication device|\bit act|"
+    # cases of one agency or kind of offender: railway police (GRP), insurgents, extremists
+    r"insurgen|extremist|naxal|terroris|left.?wing|\bgrp\b|railway|"
     r"age.?group|recidiv|police (station|personnel|strength)|court|accused|apprehend|custod|casualt|district|"
     r"trial|prosecut|withdrawn|compound|investigat|stolen|recover|offender|dead|death of|injured|"
     # tables of shares only; a 'comparative incidence ... and percentage variation' table keeps its count columns
@@ -78,7 +85,9 @@ IPC_TABLE = re.compile(r"cognizable crimes\s*\(ipc\)|\bipc crimes\b|crime under 
 BARE_TOTAL = re.compile(r"^\s*total\s*(\|\s*(i|incidence|cases?|c\.?\s?r\.?)\s*)?$", re.I)
 NOT_CASES_COL = re.compile(
     r"rate|%|percent|variation|share|rank|person|victim|female|male|arrest|population|lakh|average|ratio|"
-    r"convict|charge|pending|disposal|withdrawn|compound|trial|acquit|investig|\b(r|v|p)\b\s*$|^\s*\(?(r|v)\)?\s*$",
+    # 2024: each head in two halves, IPC (to 30 June) and BNS (from 1 July), then their total
+    r"\|\s*(ipc|bns)\s*$|"
+    r"convict|charge|pending|disposal|withdrawn|compound|trial|acquit|investig|communication device|cyber|\bit act|\b(r|v|p)\b\s*$|^\s*\(?(r|v)\)?\s*$",
     re.I)
 CASES_COL = re.compile(r"\bi\b|incidence|cases|c\.?\s?r\.?\b|reported|registered|number|during the year", re.I)
 YEAR = re.compile(r"(?<!\d)(19[5-9]\d|20[0-2]\d)(?!\d)")
@@ -127,7 +136,7 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
             return None
         if k in colneed:
             return k if colneed[k].search(col) and not re.search(r"male|female|injur|cases", col, re.I) else None
-        return k if (CASES_COL.search(col) or YEAR.search(col) or not col.strip()) else None
+        return k if (CASES_COL.search(col) or YEAR.search(col) or not col.strip() or re.fullmatch(r"\W*cogni[sz]able\s+crimes\W*", col, re.I)) else None
     c["head"] = [heads_col[col] or from_title(col, ti) for col, ti in zip(c["column"], c.title)]
     # heads that may only come from certain tables (prisons: the State-wise distribution tables, not annexures)
     tneed = {h[0]: re.compile(h[5], re.I) for h in heads if len(h) > 5 and h[5]}
@@ -138,13 +147,19 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
     c.loc[bare, "head"] = "total"
     c = c[c["head"].notna()]
     # the year a figure belongs to: a single year named in its column, else the edition's year
-    def fig_year(col, ed):
+    def fig_year(col, ed, ti):
         ys = set(YEAR.findall(col))
         if len(ys) == 1:
             y = int(ys.pop())
             return y if ed - 6 <= y <= ed else None
-        return ed if not ys else None
-    c["fy"] = [fig_year(col, ed) for col, ed in zip(c["column"], c.year)]
+        if ys:
+            return None
+        # a table filed under a later edition whose title names its own year ('... during 2012' in the 2015 files)
+        ts = {int(y) for y in YEAR.findall(str(ti))}
+        if len(ts) == 1 and ed - 6 <= min(ts) < ed:
+            return ts.pop()
+        return ed
+    c["fy"] = [fig_year(col, ed, ti) for col, ed, ti in zip(c["column"], c.year, c.title)]
     # comparative tables whose year row was not read ("MURDER (6)", "MURDER (7)" for 1968 and 1969): the same
     # head in two or three columns, with no year of its own, is consecutive years ending with the edition's year
     c["_o"] = c.col_no.map(col_order)
@@ -196,7 +211,7 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
     # where one table row gives several figures for the same head and year (garbled headings), the first column
     # is usually the cases registered; the rest are persons, rates or later stages
     c["crank"] = c.groupby(["table_id", "row", "head", "fy"])._o.rank(method="dense") - 1
-    return c[["pname", "ptype", "head", "fy", "value", "w", "own", "crank", "method", "table_id", "title", "year", "source_url"]]
+    return c[["pname", "ptype", "head", "fy", "value", "w", "own", "crank", "method", "table_id", "title", "column", "year", "source_url"]]
 
 
 def options(g: pd.DataFrame) -> list[dict]:
@@ -220,11 +235,24 @@ def options(g: pd.DataFrame) -> list[dict]:
     return out
 
 
+# the first full year after a State lost or gained a large area: figures on either side are not compared (Madras
+# lost Andhra in Oct 1953 and Malabar in Nov 1956, so 1953 is far above 1954 and 1956 above 1957)
+BREAKS = {
+    "Tamil Nadu": (1954, 1957), "Kerala": (1957,), "Karnataka": (1954, 1957), "Andhra Pradesh": (1957, 2015),
+    "Madhya Pradesh": (1957, 2001), "Rajasthan": (1957,), "Punjab": (1957, 1967), "Himachal Pradesh": (1967,),
+    "Bihar": (2001,), "Uttar Pradesh": (2001,), "Assam": (1964, 1972), "Jammu & Kashmir": (2020,),
+}
+
+
+def segment(place: str, year: int) -> int:
+    return sum(year >= b for b in BREAKS.get(place, ()))
+
+
 SKIP = 1.0      # cost of leaving a year empty
 JUMP = 2.0      # cost per unit of |log change| between consecutive kept years (scaled by sqrt of the gap)
 
 
-def path(years: list[int], opts: dict[int, list[dict]]) -> dict[int, dict]:
+def path(years: list[int], opts: dict[int, list[dict]], place: str = "") -> dict[int, dict]:
     """The readings that make the most consistent series: firm figures are fixed, and for the other years the
     reading is chosen (or the year left empty) to minimise jumps against the neighbours, favouring readings
     with more support and from a table's first column."""
@@ -236,9 +264,23 @@ def path(years: list[int], opts: dict[int, list[dict]]) -> dict[int, dict]:
             return -6.0 - 2.0 * min(o["n"], 3)
         return 1.2 - math.log1p(o["support"]) + 0.6 * o["crank"]
 
-    def jump(a, b, gap):
-        return JUMP * abs(math.log((a + 1) / (b + 1))) / math.sqrt(gap)
+    def jump(a, b, gap, y):
+        cut = 0.25 if segment(place, y - gap) != segment(place, y) else 1.0      # the State itself changed
+        return cut * JUMP * abs(math.log((a + 1) / (b + 1))) / math.sqrt(gap)
 
+    # a year with several printed figures, one of them exactly the year before's: that one is last year's table
+    # filed under this year (NCRB's '... City-wise - 2019' file holds the 2018 figures)
+    for i, y in enumerate(years[1:], 1):
+        before = [o for o in opts[years[i - 1]] if o["firm"]] if years[i - 1] == y - 1 else []
+        if not before:
+            continue
+        last = max(before, key=lambda o: o["support"])["value"]        # the year before's best-supported figure
+        firm = [o for o in opts[y] if o["firm"]]
+        rep = [o for o in firm if o["value"] >= 50 and o["value"] == last]
+        rivals = [o for o in firm if o not in rep and 0.5 * last <= o["value"] <= 2 * last
+                  and o["support"] >= max((r["support"] for r in rep), default=0)]
+        if rep and rivals:
+            opts[y] = [o for o in opts[y] if o not in rep]
     # dp over (year index, option index); a state may skip up to 4 years back
     best: dict[tuple[int, int], tuple[float, tuple[int, int] | None]] = {}
     for i, y in enumerate(years):
@@ -252,7 +294,7 @@ def path(years: list[int], opts: dict[int, list[dict]]) -> dict[int, dict]:
                     prev = best.get((j, m))
                     if prev is None:
                         continue
-                    c = prev[0] + SKIP * (i - j - 1) + jump(opts[years[j]][m]["value"], o["value"], y - years[j]) + emit(o)
+                    c = prev[0] + SKIP * (i - j - 1) + jump(opts[years[j]][m]["value"], o["value"], y - years[j], y) + emit(o)
                     if c < choice[0]:
                         choice = (c, (j, m))
             best[(i, k)] = choice
@@ -273,7 +315,7 @@ def pick(c: pd.DataFrame) -> pd.DataFrame:
     for (p, pt, h), g in c.groupby(["pname", "ptype", "head"]):
         opts = {int(y): options(gy) for y, gy in g.groupby("fy")}
         years = sorted(opts)
-        chosen = path(years, opts)
+        chosen = path(years, opts, p)
         # a scanned reading must be within a factor of 2 of the median of at least two kept neighbours (within 5
         # years); repeated until nothing more drops, so a reading never vouches for another that is itself dropped
         kept = dict(chosen)
@@ -282,10 +324,13 @@ def pick(c: pd.DataFrame) -> pd.DataFrame:
             for y, o in kept.items():
                 if o["firm"]:
                     continue
-                near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 5]
+                near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 5 and segment(p, x) == segment(p, y)]
+                wide = len(near) < 2        # alone in its territory (Madras 1953): any neighbours, a wider band
+                if wide:
+                    near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 5]
                 m = median(near) if len(near) >= 2 else None
                 # counts in the hundreds and up rarely move more than ~30% in a year; small ones can double
-                lo, hi = (0.7, 1.43) if m and m >= 200 and len(near) >= 3 else (0.5, 2.0)
+                lo, hi = (0.4, 2.5) if wide else (0.7, 1.43) if m and m >= 200 and len(near) >= 3 else (0.5, 2.0)
                 if m is None or not (m > 0 and lo <= o["value"] / m <= hi or (m == 0 and o["value"] <= 5)):
                     drop.append(y)
             if not drop:
@@ -296,7 +341,7 @@ def pick(c: pd.DataFrame) -> pd.DataFrame:
             src = o["src"]
             status = "text" if o["text"] else "agreed" if o["firm"] else "consistent"
             rows.append({"place": p, "ptype": pt, "head": h, "year": y, "value": o["value"], "status": status, "n": o["n"],
-                         "table_id": src.table_id, "title": src.title, "edition": int(src.year), "url": src.source_url})
+                         "table_id": src.table_id, "title": src.title, "column": getattr(src, "column", ""), "edition": int(src.year), "url": src.source_url})
     return pd.DataFrame(rows)
 
 
@@ -432,7 +477,7 @@ def main() -> None:
         index["families"].insert(0, {k: f[k] for k in ("id", "pub", "topic", "title", "geo", "mode")} | {
             "y0": f["years"][0], "y1": f["years"][-1], "n": len(f["years"]), "rows": len(f["rows"]), "cats": len(f["cats"]), "also": []})
     idx_path.write_text(json.dumps(index, separators=(",", ":")), encoding="utf-8")
-    prov = d[["place", "ptype", "head", "year", "value", "status", "n", "table_id", "edition"]]
+    prov = d[["place", "ptype", "head", "year", "value", "status", "n", "table_id", "column", "edition"]]
     prov.to_csv(OUT / "cii" / "long-series-provenance.csv", index=False)
     # coverage for Tamil Nadu and Chennai
     for place in ("Tamil Nadu", "Chennai"):

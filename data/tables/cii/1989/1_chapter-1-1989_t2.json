@@ -6,36 +6,32 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "INCIDENCE OF TOTAL COGNIZABLE CRIMES UNDER IPC DURING 1979 TO 1989",
+ "title": "PERCENTAGE DISTRIBUTION OF VARIOUS L&SL CRIMES DURING 1989",
  "listing_title": "Survey of Crime",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-1-1989.pdf",
  "source_file": "raw/cii/1989/table_chapter/chapter-1-1989.pdf",
  "source_sha256": "d6151eca67be1e965e58e6b43d481d85669ec73f244851d93fdc6f938d2bbf9f",
  "table_no": "",
- "pdf_title": "INCIDENCE OF TOTAL COGNIZABLE CRIMES UNDER IPC DURING 1979 TO 1989",
- "row_label": "",
+ "pdf_title": "PERCENTAGE DISTRIBUTION OF VARIOUS L&SL CRIMES DURING 1989",
+ "row_label": "EXCISE ACT",
  "pages": [
-  10
+  16
  ],
- "n_rows": 15,
+ "n_rows": 2,
  "n_cols": 1,
- "n_cells": 15,
+ "n_cells": 2,
  "columns": [
   {
    "col_no": "2",
-   "name": "INCIDENCE(IN LAKH)",
+   "name": "GAMBLING ACT",
    "header": [
-    "INCIDENCE(IN LAKH)"
+    "GAMBLING ACT"
    ]
   }
  ],
- "notes": [
-  "YEAR",
-  "- VOLUME OF CRIME —+- LINEAR(TWO END",
-  "COMPOUND GROWTH RATE"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -43,7 +39,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

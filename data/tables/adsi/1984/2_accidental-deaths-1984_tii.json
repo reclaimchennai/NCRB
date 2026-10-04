@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1984",
  "serial": "2",
- "title": "6 TABLE-II Incidence of Accidental Deaths, Population, Volume of Accidental Deaths per Lakh of Population and Percentage Distribution of Accidental Deaths To All-India Total during the Year 1984",
+ "title": "Incidence of Accidental Deaths, Population, Volume of Accidental Deaths per Lakh of Population and Percentage Distribution of Accidental Deaths To All-India Total during the Year 1984",
  "listing_title": "Accidental Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,45 +14,55 @@
  "source_file": "raw/adsi/1984/year_wise/accidental-deaths-1984.pdf",
  "source_sha256": "86567bccf4de10a9848a0f9475d7a32e28eb821f2c03e372591db7ecd18e5cb1",
  "table_no": "II",
- "pdf_title": "6 TABLE-II Incidence of Accidental Deaths, Population, Volume of Accidental Deaths per Lakh of Population and Percentage Distribution of Accidental Deaths To All-India Total during the Year 1984",
- "row_label": "Sl. No. / States/U. Ts./Cities",
+ "pdf_title": "Incidence of Accidental Deaths, Population, Volume of Accidental Deaths per Lakh of Population and Percentage Distribution of Accidental Deaths To All-India Total during the Year 1984",
+ "row_label": "Sl. No. States/U. Ts./ Cities / No. of Accidental Death",
  "pages": [
-  7
+  7,
+  9
  ],
- "n_rows": 34,
- "n_cols": 4,
- "n_cells": 136,
+ "n_rows": 66,
+ "n_cols": 5,
+ "n_cells": 231,
  "columns": [
   {
    "col_no": "3",
-   "name": "No. of Accidental Death",
-   "header": [
-    "No. of Accidental Death"
-   ]
-  },
-  {
-   "col_no": "4",
    "name": "Incidence to total",
    "header": [
     "Incidence to total"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "Population in (000)",
    "header": [
     "Population in (000)"
    ]
   },
   {
-   "col_no": "6",
-   "name": "Volume of Accidental Deaths per lakh of population",
+   "col_no": "5",
+   "name": "Volume of Accidental Death per lakh of population",
    "header": [
-    "Volume of Accidental Deaths per lakh of population"
+    "Volume of Accidental Death per lakh of population"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Volume of Accidental Death",
+   "header": [
+    "Volume of Accidental Death"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Number of Accidental Deaths",
+   "header": [
+    "Number of Accidental Deaths"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "NOTE: N.A. Stands for not available."
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -61,6 +71,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

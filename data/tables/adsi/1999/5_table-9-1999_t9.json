@@ -1,0 +1,119 @@
+{
+ "table_id": "adsi/1999/5_table-9-1999_t9",
+ "publication": "adsi",
+ "year": 1999,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "5",
+ "title": "Incidence of Rail-Road Accidents During Various Quarters of 1999 (State, UT & City-wise)",
+ "listing_title": "Incidence of Road Accidents during various Quarters of 1999 (State, UT & City-wise)",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/table-9_1999.pdf",
+ "source_file": "raw/adsi/1999/table_content/table-9_1999.pdf",
+ "source_sha256": "065e3049b18515c7f65da13e999d679856ac2a270bcb0128d13c58f8b6af247b",
+ "table_no": "9",
+ "pdf_title": "Incidence of Rail-Road Accidents During Various Quarters of 1999 (State, UT & City-wise)",
+ "row_label": "Sl. No. / State/UT",
+ "pages": [
+  2,
+  3,
+  4
+ ],
+ "n_rows": 150,
+ "n_cols": 10,
+ "n_cells": 1500,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Ist Qtr.",
+   "header": [
+    "Ist Qtr."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "% share (4)",
+   "header": [
+    "% share"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Iind Qtr.",
+   "header": [
+    "Iind Qtr."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% share (6)",
+   "header": [
+    "% share"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Illnd Qtr.",
+   "header": [
+    "Illnd Qtr."
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "% share (8)",
+   "header": [
+    "% share"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "IVth Qtr.",
+   "header": [
+    "IVth Qtr."
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "% share (10)",
+   "header": [
+    "% share"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "% share (12)",
+   "header": [
+    "% share"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 60,
+  "cells_passed": 48,
+  "failures": [
+   "col 3 'Total (All-India)': printed 4151, sum 4162",
+   "col 3 'Total (All-India)': printed 82204, sum 82412",
+   "col 5 'Total (States)': printed 4314, sum 4313",
+   "col 5 'Total (All-India)': printed 4549, sum 4553",
+   "col 5 'Total (All-India)': printed 85513, sum 85774",
+   "col 7 'Total (All-India)': printed 4527, sum 4536",
+   "col 7 'Total (All-India)': printed 78744, sum 78976",
+   "col 9 'Total (All-India)': printed 4926, sum 4928"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

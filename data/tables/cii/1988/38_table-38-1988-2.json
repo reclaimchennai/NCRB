@@ -14,7 +14,7 @@
  "source_file": "raw/cii/1988/table_content/table-38-1988-2.pdf",
  "source_sha256": "b3c8be91335d3f537da79d89fe7b22815bba78671269172238a25009163c6653",
  "table_no": "38",
- "pdf_title": "134 TABLE-38 JUVENILE DELINQUENCY CASES (LSL) UNDER DIFFERENT (STATE, UT & CITY-WISE)",
+ "pdf_title": "134 TABLE-38 JUVENILE DELINQUENCY CASES (LSL) UNDER DIFFERENT",
  "row_label": "SL. NO. / STATE/UT/CITY",
  "pages": [
   1,
@@ -139,11 +139,9 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 15,
-  "failures": [
-   "col 6 'TOTAL (STATES)': printed 944, sum 934"
-  ],
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

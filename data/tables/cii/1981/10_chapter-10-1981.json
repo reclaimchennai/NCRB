@@ -15,7 +15,7 @@
  "source_sha256": "146a68ee331feec5187cd31210a39ca08e211927f3f32123622851b275c41c3c",
  "table_no": "",
  "pdf_title": "## CHAPTER 10 ## VICTIMS OF RAPE The data on ‘Victims of Rape’ was collected under three age groups viz., below 16 years, between 16 to 30 years and above 30 years. The percentage of victims of ‘Rape’ was the highest (64.5) in the age group 16 to 30, while victims below 16 years accounted for 20.7 per cent and victims above 30 years of age accounted for 15.1 per cent.",
- "row_label": "Sl. No. / States/UTs./Cities",
+ "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1
  ],
@@ -25,39 +25,38 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "No. of cases Below 16 years Between 16 to 30 Above 30 year reported (3)",
+   "name": "No. of cases reported",
    "header": [
-    "No. of cases Below 16 years Between 16 to 30 Above 30 year reported"
+    "No. of cases reported"
    ]
   },
   {
    "col_no": "4",
-   "name": "No. of cases Below 16 years Between 16 to 30 Above 30 year reported (4)",
+   "name": "Below 16 years",
    "header": [
-    "No. of cases Below 16 years Between 16 to 30 Above 30 year reported"
+    "Below 16 years"
    ]
   },
   {
    "col_no": "5",
-   "name": "No. of cases Below 16 years Between 16 to 30 Above 30 year reported (5)",
+   "name": "Between 16 to 30",
    "header": [
-    "No. of cases Below 16 years Between 16 to 30 Above 30 year reported"
+    "Between 16 to 30"
    ]
   },
   {
    "col_no": "6",
-   "name": "No. of cases Below 16 years Between 16 to 30 Above 30 year reported (6)",
+   "name": "Above 30 year",
    "header": [
-    "No. of cases Below 16 years Between 16 to 30 Above 30 year reported"
+    "Above 30 year"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 8,
-  "cells_passed": 6,
+  "cells_passed": 7,
   "failures": [
-   "col 4 'TOTAL (States)': printed 1080, sum 1580",
    "col 6 'TOTAL (States)': printed 807, sum 753"
   ],
   "other_totals_checked": 4,

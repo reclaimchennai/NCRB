@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-6-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-6-1989-1.pdf",
  "source_sha256": "b40091994dc66808a339a2fc5672743111da45d27872bbc941543a7a02916aab",
- "table_no": "",
- "pdf_title": "",
- "row_label": "SL. NO. / SL. NO.",
+ "table_no": "6",
+ "pdf_title": "24 TABLE - 6 INCIDENCE (I) & VOLUME (V) OF COGNIZABLE CRIMES (IPC) UNDER DIFFERENT CRIME HEADS IN STATES, UTs & CITIES DURING 1989.",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2,
@@ -23,26 +23,12 @@
   4,
   5
  ],
- "n_rows": 49,
+ "n_rows": 48,
  "n_cols": 36,
  "n_cells": 1692,
  "columns": [
   {
    "col_no": "3",
-   "name": "SL. NO. (3)",
-   "header": [
-    "SL. NO."
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "STATE/UT/CITY (4)",
-   "header": [
-    "STATE/UT/CITY"
-   ]
-  },
-  {
-   "col_no": "5",
    "name": "MURDER | I",
    "header": [
     "MURDER",
@@ -50,7 +36,7 @@
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "4",
    "name": "MURDER | V",
    "header": [
     "MURDER",
@@ -58,7 +44,7 @@
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "5",
    "name": "ATTEMPT TO COMMIT MURDER | I",
    "header": [
     "ATTEMPT TO COMMIT MURDER",
@@ -66,7 +52,7 @@
    ]
   },
   {
-   "col_no": "8",
+   "col_no": "6",
    "name": "ATTEMPT TO COMMIT MURDER | V",
    "header": [
     "ATTEMPT TO COMMIT MURDER",
@@ -74,7 +60,7 @@
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "7",
    "name": "C.H. NOT AMOUNTING TO MURDER | I",
    "header": [
     "C.H. NOT AMOUNTING TO MURDER",
@@ -82,10 +68,26 @@
    ]
   },
   {
-   "col_no": "10",
+   "col_no": "8",
    "name": "C.H. NOT AMOUNTING TO MURDER | V",
    "header": [
     "C.H. NOT AMOUNTING TO MURDER",
+    "V"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "RAPE | I",
+   "header": [
+    "RAPE",
+    "I"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "RAPE | V",
+   "header": [
+    "RAPE",
     "V"
    ]
   },
@@ -136,9 +138,9 @@
   },
   {
    "col_no": "16",
-   "name": "DACOITY | OF OTHERS | V",
+   "name": "KIDNAPPING AND ABDUCTION | OF OTHERS | V",
    "header": [
-    "DACOITY",
+    "KIDNAPPING AND ABDUCTION",
     "OF OTHERS",
     "V"
    ]
@@ -153,43 +155,30 @@
   },
   {
    "col_no": "18",
-   "name": "V",
+   "name": "DACOITY | V",
    "header": [
+    "DACOITY",
     "V"
    ]
   },
   {
    "col_no": "19",
-   "name": "SL. NO. (19)",
+   "name": "PREPARATION & ASSEMBLY FOR DACOITY | I",
    "header": [
-    "SL. NO."
-   ]
-  },
-  {
-   "col_no": "20",
-   "name": "STATE/UT/CITY (20)",
-   "header": [
-    "STATE/UT/CITY"
-   ]
-  },
-  {
-   "col_no": "21",
-   "name": "PREPARATION & ASSEMBLY | I",
-   "header": [
-    "PREPARATION & ASSEMBLY",
+    "PREPARATION & ASSEMBLY FOR DACOITY",
     "I"
    ]
   },
   {
-   "col_no": "22",
-   "name": "PREPARATION & ASSEMBLY | V",
+   "col_no": "20",
+   "name": "PREPARATION & ASSEMBLY FOR DACOITY | V",
    "header": [
-    "PREPARATION & ASSEMBLY",
+    "PREPARATION & ASSEMBLY FOR DACOITY",
     "V"
    ]
   },
   {
-   "col_no": "23",
+   "col_no": "21",
    "name": "ROBBERY | I",
    "header": [
     "ROBBERY",
@@ -197,7 +186,7 @@
    ]
   },
   {
-   "col_no": "24",
+   "col_no": "22",
    "name": "ROBBERY | V",
    "header": [
     "ROBBERY",
@@ -205,7 +194,7 @@
    ]
   },
   {
-   "col_no": "25",
+   "col_no": "23",
    "name": "BURGLARY | I",
    "header": [
     "BURGLARY",
@@ -213,10 +202,26 @@
    ]
   },
   {
-   "col_no": "26",
+   "col_no": "24",
    "name": "BURGLARY | V",
    "header": [
     "BURGLARY",
+    "V"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "THEFT | I",
+   "header": [
+    "THEFT",
+    "I"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "THEFT | V",
+   "header": [
+    "THEFT",
     "V"
    ]
   },
@@ -286,20 +291,6 @@
   },
   {
    "col_no": "35",
-   "name": "SL. NO. (35)",
-   "header": [
-    "SL. NO."
-   ]
-  },
-  {
-   "col_no": "36",
-   "name": "STATE/UT/CITY (36)",
-   "header": [
-    "STATE/UT/CITY"
-   ]
-  },
-  {
-   "col_no": "37",
    "name": "OTHER IPC CRIMES | I",
    "header": [
     "OTHER IPC CRIMES",
@@ -307,10 +298,26 @@
    ]
   },
   {
-   "col_no": "38",
+   "col_no": "36",
    "name": "OTHER IPC CRIMES | V",
    "header": [
     "OTHER IPC CRIMES",
+    "V"
+   ]
+  },
+  {
+   "col_no": "37",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER IPC | I",
+   "header": [
+    "TOTAL COGNIZABLE CRIMES UNDER IPC",
+    "I"
+   ]
+  },
+  {
+   "col_no": "38",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER IPC | V",
+   "header": [
+    "TOTAL COGNIZABLE CRIMES UNDER IPC",
     "V"
    ]
   }
@@ -318,15 +325,11 @@
  "notes": [],
  "checks": {
   "cells_checked": 51,
-  "cells_passed": 44,
+  "cells_passed": 48,
   "failures": [
-   "col 11 'TOTAL (STATES)': printed 16383, sum 14509",
-   "col 13 'TOTAL (STATES)': printed 13307, sum 11893",
-   "col 15 'TOTAL (STATES)': printed 3076, sum 2616",
-   "col 17 'TOTAL (STATES)': printed 9878, sum 6690",
-   "col 27 'TOTAL (STATES)': printed 98518, sum 98718",
-   "col 27 'TOTAL (UTS)': printed 425, sum 398",
-   "col 29 'TOTAL (UTS)': printed 694, sum 692"
+   "col 27 'TOTAL (UTs)': printed 425, sum 398",
+   "col 29 'TOTAL (UTs)': printed 694, sum 692",
+   "col 33 'TOTAL (STATES)': printed 2036, sum 2041"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

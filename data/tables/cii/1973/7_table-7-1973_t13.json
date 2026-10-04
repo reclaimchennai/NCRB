@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "42 TABLE Statement showing Districtwise Incidence of",
+ "title": "during the year",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,68 +14,62 @@
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "42 TABLE Statement showing Districtwise Incidence of",
- "row_label": "Sl. No. / Name of District",
+ "pdf_title": "during the year",
+ "row_label": "Robbery",
  "pages": [
-  13,
-  14
+  12
  ],
- "n_rows": 85,
+ "n_rows": 43,
  "n_cols": 7,
- "n_cells": 511,
+ "n_cells": 300,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Number of cases reported | Murder",
+   "col_no": "2",
+   "name": "Burglary",
    "header": [
-    "Number of cases reported",
-    "Murder"
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Tbefts",
+   "header": [
+    "Tbefts"
    ]
   },
   {
    "col_no": "4",
-   "name": "Number of cases reported | Culpable Homicide not amounting to murder",
+   "name": "Riots",
    "header": [
-    "Number of cases reported",
-    "Culpable Homicide not amounting to murder"
+    "Riots"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number of cases reported | Rape",
+   "name": "Criminal breach of trust",
    "header": [
-    "Number of cases reported",
-    "Rape"
+    "Criminal breach of trust"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number of cases reported | Kidnapping and Abduction",
+   "name": "Chesting",
    "header": [
-    "Number of cases reported",
-    "Kidnapping and Abduction"
+    "Chesting"
    ]
   },
   {
    "col_no": "7",
-   "name": "Number of cases reported | Deceity",
+   "name": "Counterfeiting",
    "header": [
-    "Number of cases reported",
-    "Deceity"
-   ]
-  },
-  {
-   "col_no": "2",
-   "name": "Barglary",
-   "header": [
-    "Barglary"
+    "Counterfeiting"
    ]
   },
   {
    "col_no": "8",
-   "name": "Total Cognizable Crime under IPC",
+   "name": "Total Cognizable Crimes under IPC",
    "header": [
-    "Total Cognizable Crime under IPC"
+    "Total Cognizable Crimes under IPC"
    ]
   }
  ],
@@ -88,6 +82,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

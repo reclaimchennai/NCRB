@@ -15,41 +15,37 @@
  "source_sha256": "84236f9e1d742f3e8161ee9456afe149a74251035cc4ef1adb41a2809dd21297",
  "table_no": "21",
  "pdf_title": "132 TABLE-21 PERSONS ARRESTED UNDER IPC CRIMES DURING 1992",
- "row_label": "SL. NO. / CRIME HEAD",
+ "row_label": "PERCENTAGE VARIATION IN",
  "pages": [
+  1,
   1
  ],
- "n_rows": 18,
+ "n_rows": 21,
  "n_cols": 4,
- "n_cells": 72,
+ "n_cells": 74,
  "columns": [
   {
-   "col_no": "3",
-   "name": "1991",
+   "col_no": "6",
+   "name": "PERCENTAGE SHARE OF | CRIME",
    "header": [
-    "1991"
+    "PERCENTAGE SHARE OF",
+    "CRIME"
    ]
+  },
+  {
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "1992",
-   "header": [
-    "1992"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "PERCENTAGE VARIATION IN 1992 OVER 1991",
-   "header": [
-    "PERCENTAGE VARIATION IN 1992 OVER 1991"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "PERCENTAGE SHARE OF CRIME DURING 1992",
-   "header": [
-    "PERCENTAGE SHARE OF CRIME DURING 1992"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
  "notes": [],
@@ -57,10 +53,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

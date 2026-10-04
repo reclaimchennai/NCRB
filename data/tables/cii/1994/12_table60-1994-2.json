@@ -14,8 +14,8 @@
  "source_file": "raw/cii/1994/table_content/table60-1994_2.pdf",
  "source_sha256": "8ec9029e0c7cf6ab3af5727e19fb0f79f10d0ff49d877a96363d6806c02b61e3",
  "table_no": "60",
- "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA-1994 TABLE-60",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA-1994 TABLE-60",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
@@ -66,13 +66,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 15,
-  "cells_passed": 11,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 12882, sum 12802",
-   "col 4 'TOTAL (STATES)': printed 676, sum 677",
-   "col 5 'TOTAL (STATES)': printed 3084, sum 3094",
-   "col 5 'TOTAL (ALL-INDIA)': printed 3244, sum 3234"
-  ],
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -15,8 +15,9 @@
  "source_sha256": "e320aa2a7b500a5ca54c2ed393c549788a39a0fdb7dad8c8184acf30a320c550",
  "table_no": "",
  "pdf_title": "42 APPENDIX III State-wise Distribution of Suicides by Causes during 1979",
- "row_label": "Serial No. / Names of States/UTs./Cities M",
+ "row_label": "Serial No. / Names of States/U.Ts./Cities",
  "pages": [
+  1,
   1
  ],
  "n_rows": 23,
@@ -25,6 +26,14 @@
  "columns": [
   {
    "col_no": "3",
+   "name": "Failure in Examination | M",
+   "header": [
+    "Failure in Examination",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
    "name": "Failure in Examination | F",
    "header": [
     "Failure in Examination",
@@ -32,7 +41,7 @@
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "5",
    "name": "Quarrel with Parents-in-law | M",
    "header": [
     "Quarrel with Parents-in-law",
@@ -40,15 +49,31 @@
    ]
   },
   {
-   "col_no": "5",
-   "name": "With Spouse | F",
+   "col_no": "6",
+   "name": "Quarrel with Parents-in-law | F",
    "header": [
-    "With Spouse",
+    "Quarrel with Parents-in-law",
     "F"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "7",
+   "name": "Quarrel with Spouse | M",
+   "header": [
+    "Quarrel with Spouse",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Quarrel with Spouse | F",
+   "header": [
+    "Quarrel with Spouse",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
    "name": "Poverty | M",
    "header": [
     "Poverty",
@@ -56,7 +81,23 @@
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "10",
+   "name": "Poverty | F",
+   "header": [
+    "Poverty",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Love Affairs | M",
+   "header": [
+    "Love Affairs",
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
    "name": "Love Affairs | F",
    "header": [
     "Love Affairs",
@@ -64,7 +105,7 @@
    ]
   },
   {
-   "col_no": "8",
+   "col_no": "13",
    "name": "Insanity | M",
    "header": [
     "Insanity",
@@ -72,7 +113,23 @@
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "14",
+   "name": "Insanity | F",
+   "header": [
+    "Insanity",
+    "F"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Dispute Over property | M",
+   "header": [
+    "Dispute Over property",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
    "name": "Dispute Over property | F",
    "header": [
     "Dispute Over property",
@@ -80,7 +137,7 @@
    ]
   },
   {
-   "col_no": "10",
+   "col_no": "17",
    "name": "Dreadful Diseases | M",
    "header": [
     "Dreadful Diseases",
@@ -88,57 +145,23 @@
    ]
   },
   {
-   "col_no": "11",
-   "name": "F",
+   "col_no": "18",
+   "name": "Dreadful Diseases | F",
    "header": [
+    "Dreadful Diseases",
     "F"
    ]
-  },
-  {
-   "col_no": "12",
-   "name": "col_12",
-   "header": []
-  },
-  {
-   "col_no": "13",
-   "name": "col_13",
-   "header": []
-  },
-  {
-   "col_no": "14",
-   "name": "col_14",
-   "header": []
-  },
-  {
-   "col_no": "15",
-   "name": "col_15",
-   "header": []
-  },
-  {
-   "col_no": "16",
-   "name": "col_16",
-   "header": []
-  },
-  {
-   "col_no": "17",
-   "name": "col_17",
-   "header": []
-  },
-  {
-   "col_no": "18",
-   "name": "col_18",
-   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 16,
-  "cells_passed": 16,
+  "cells_checked": 15,
+  "cells_passed": 15,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

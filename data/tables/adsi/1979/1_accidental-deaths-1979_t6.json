@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1979",
  "serial": "1",
- "title": "13 ## Accidental Deaths by Age-Group : The Accidental Deaths reported during 1979 have been further analysed according to age group of the victims. On the all-India level, the maximum number of accidental deaths occurred in the age group of 18-30 years which accounted for 36·4 percent of the total accidental deaths, followed by age group 30—50 years which accounted for 29·1 percent while 21·5 percent of the total accidental deaths occurred the age group below 18 years, 13·0 percent deaths were recorded in the age group above 50 years.",
+ "title": "11 ## Accidental Deaths by Sex : The percentage of male victims to the total number of victims of accidental deaths reported in the country during 1979 was 66·5 percent and of female victims was 33·5 percent. The ratio of male and female victims for the States as a whole was 66·3% and 33·7% respectively while for the U.Ts. as a whole it was 74·4% and 25·6% respectively. The percentage for the Metropolitan Cities taken together was the same as for the country as a whole i.e. 66·5% and 33·5% respectively.",
  "listing_title": "Accidental Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,48 +14,34 @@
  "source_file": "raw/adsi/1979/year_wise/accidental-deaths-1979.pdf",
  "source_sha256": "3bce2fbe0ed1228fee36851ed7f4361dd92f248f3cd79f995450e7657ae192c1",
  "table_no": "",
- "pdf_title": "13 ## Accidental Deaths by Age-Group : The Accidental Deaths reported during 1979 have been further analysed according to age group of the victims. On the all-India level, the maximum number of accidental deaths occurred in the age group of 18-30 years which accounted for 36·4 percent of the total accidental deaths, followed by age group 30—50 years which accounted for 29·1 percent while 21·5 percent of the total accidental deaths occurred the age group below 18 years, 13·0 percent deaths were recorded in the age group above 50 years.",
- "row_label": "Serial No. / Names of States/U.Ts./Cities",
+ "pdf_title": "11 ## Accidental Deaths by Sex : The percentage of male victims to the total number of victims of accidental deaths reported in the country during 1979 was 66·5 percent and of female victims was 33·5 percent. The ratio of male and female victims for the States as a whole was 66·3% and 33·7% respectively while for the U.Ts. as a whole it was 74·4% and 25·6% respectively. The percentage for the Metropolitan Cities taken together was the same as for the country as a whole i.e. 66·5% and 33·5% respectively.",
+ "row_label": "Serial No. / Name of States/U.Ts./Cities",
  "pages": [
-  14
+  12
  ],
- "n_rows": 9,
- "n_cols": 5,
- "n_cells": 45,
+ "n_rows": 10,
+ "n_cols": 3,
+ "n_cells": 29,
  "columns": [
   {
    "col_no": "3",
-   "name": "Males Involved",
+   "name": "Number of Accidental Deaths (3)",
    "header": [
-    "Males Involved"
+    "Number of Accidental Deaths"
    ]
   },
   {
    "col_no": "4",
-   "name": "% of males to total",
+   "name": "Number of Accidental Deaths (4)",
    "header": [
-    "% of males to total"
+    "Number of Accidental Deaths"
    ]
   },
   {
    "col_no": "5",
-   "name": "Females Involved",
+   "name": "%age variation from 1978 to 1979",
    "header": [
-    "Females Involved"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "% of females to total",
-   "header": [
-    "% of females to total"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "Total",
-   "header": [
-    "Total"
+    "%age variation from 1978 to 1979"
    ]
   }
  ],
@@ -64,8 +50,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 3,
-  "other_totals_passed": 3
+  "other_totals_checked": 2,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-07a_1999.pdf",
  "source_file": "raw/psi/1999/table_content/psi-table-07a_1999.pdf",
  "source_sha256": "68824388b6de539037a45d453ebe08c64fbfa3d6c016001421c77a092367d743",
- "table_no": "7A",
- "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-7A",
+ "table_no": "",
+ "pdf_title": "",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
@@ -26,9 +26,9 @@
   7,
   8
  ],
- "n_rows": 191,
+ "n_rows": 192,
  "n_cols": 7,
- "n_cells": 1337,
+ "n_cells": 1344,
  "columns": [
   {
    "col_no": "3",
@@ -47,17 +47,15 @@
   },
   {
    "col_no": "5",
-   "name": "TOTAL CAPACITY OF INMATES | FEMALE",
+   "name": "FEMALE (5)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
     "FEMALE"
    ]
   },
   {
    "col_no": "6",
-   "name": "TOTAL CAPACITY OF INMATES | TOTAL",
+   "name": "TOTAL (6)",
    "header": [
-    "TOTAL CAPACITY OF INMATES",
     "TOTAL"
    ]
   },
@@ -71,30 +69,31 @@
   },
   {
    "col_no": "8",
-   "name": "INMATES POPULATION | FEMALE",
+   "name": "FEMALE (8)",
    "header": [
-    "INMATES POPULATION",
     "FEMALE"
    ]
   },
   {
    "col_no": "9",
-   "name": "INMATES POPULATION | TOTAL",
+   "name": "TOTAL (9)",
    "header": [
-    "INMATES POPULATION",
     "TOTAL"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 72,
-  "cells_passed": 68,
+  "cells_checked": 108,
+  "cells_passed": 101,
   "failures": [
-   "col 4 'TOTAL (STATES)': printed 30972, sum 30992",
-   "col 4 'TOTAL (STATES)': printed 382, sum 389",
-   "col 4 'TOTAL (ALL INDIA)': printed 1379, sum 1372",
-   "col 5 'TOTAL (STATES)': printed 3586, sum 3587"
+   "col 3 'TOTAL (STATES)': printed 285, sum 265",
+   "col 3 'TOTAL (ALL INDIA)': printed 267, sum 287",
+   "col 4 'TOTAL (STATES)': printed 385, sum 389",
+   "col 4 'TOTAL (ALL INDIA)': printed 1379, sum 1375",
+   "col 5 'TOTAL (STATES)': printed 3586, sum 3587",
+   "col 5 'TOTAL (STATES)': printed 86, sum 56",
+   "col 9 'TOTAL (STATES)': printed 113254, sum 113256"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

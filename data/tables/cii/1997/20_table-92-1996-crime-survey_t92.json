@@ -6,99 +6,100 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "20",
- "title": "(@2522:2=5",
+ "title": "!)",
  "listing_title": "Actual Police Strength in Relation to Area, Population, Cognizable Crimes and Per Capita Expenditure on Policemen During 1997",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-92-1996-crime-survey.pdf",
  "source_file": "raw/cii/1997/table_content/table-92-1996-crime-survey.pdf",
  "source_sha256": "2fee91edbe28a94ab9909b924d0c9114fb126dd294b23447dc74140be5c24c3e",
  "table_no": "92",
- "pdf_title": "(@2522:2=5",
- "row_label": "ACTUAL POLICE STREN'3TH (OF RANKS) D.G. TO CONSTAAS.I. TAIL RATIO (12) 6565 563 6040 15192 1:4 269 «1:9 3482",
+ "pdf_title": "!)",
+ "row_label": "ACTUAL POLICE STRENGTH (OF RANKS) D.G. TO A.S.I.",
  "pages": [
   2
  ],
- "n_rows": 29,
- "n_cols": 10,
- "n_cells": 280,
+ "n_rows": 35,
+ "n_cols": 11,
+ "n_cells": 385,
  "columns": [
   {
+   "col_no": "15",
+   "name": "HEAD CONSTA. BLES TO CONST- ABLES",
+   "header": [
+    "HEAD CONSTA. BLES TO CONST- ABLES"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "ACTUAL POLICE STRENGTH OF I.Os. (INSP + SI + ASI OF CIV.POL.)",
+   "header": [
+    "ACTUAL POLICE STRENGTH OF I.Os. (INSP + SI + ASI OF CIV.POL.)"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "NO. OF POLICE-MEN PER 100 SQR, KMS.OF AREA",
+   "header": [
+    "NO. OF POLICE-MEN PER 100 SQR, KMS.OF AREA"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "NO. OF POLICEMEN PER | 1,000 OF POP-ULATION",
+   "header": [
+    "NO. OF POLICEMEN PER",
+    "1,000 OF POP-ULATION"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "NO. OF IPC CASES PER CIVIL PCI-CE MAN | 1,00,000 OF POP-ULATION",
+   "header": [
+    "NO. OF IPC CASES PER CIVIL PCI-CE MAN",
+    "1,00,000 OF POP-ULATION"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "WORK LOAD OF I.Os.",
+   "header": [
+    "WORK LOAD OF I.Os."
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "IPC",
+   "header": [
+    "IPC"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "SLL",
+   "header": [
+    "SLL"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "TOTAL",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "TOTAL POLICE EXPEN- # DITURE (RS.IN CRORES)",
+   "header": [
+    "TOTAL POLICE EXPEN- # DITURE (RS.IN CRORES)"
+   ]
+  },
+  {
    "col_no": "2",
-   "name": "NO. OF POLICEMEN PER | HEAC ASIOF BLES CIV.POL.) TO CONSTABLES (13) 5439 67195 3725 42622 68217 2392 60714",
+   "name": "UNIT COST PER POLICE- MEN (PER ANNUM)",
    "header": [
-    "NO. OF POLICEMEN PER",
-    "HEAC ASIOF BLES CIV.POL.) TO CONSTABLES (13) 5439 67195 3725 42622 68217 2392 60714"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "NO. OF POLICEMEN PER | NO. OF POLICEMEN PER TEETH 100 SQR. KMS.OF AREA (14) 1:10 1:7 1:7 7.9/",
-   "header": [
-    "NO. OF POLICEMEN PER",
-    "NO. OF POLICEMEN PER TEETH 100 SQR. KMS.OF AREA (14) 1:10 1:7 1:7 7.9/"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "NO. OF POLICEMEN PER | ACTUAL POLICE STRENGTH OF I.0s. 1.000 OFPOPULATION (15) 1.0. 2.9 467 4849 13122 216 2667.",
-   "header": [
-    "NO. OF POLICEMEN PER",
-    "ACTUAL POLICE STRENGTH OF I.0s. 1.000 OFPOPULATION (15) 1.0. 2.9 467 4849 13122 216 2667."
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "NO. OF POLICEMEN PER | 1.00.000 OFPOPULATION (16) 26.8 101 394 5.1 2.8 48.0 «71.9 32.7",
-   "header": [
-    "NO. OF POLICEMEN PER",
-    "1.00.000 OFPOPULATION (16) 26.8 101 394 5.1 2.8 48.0 «71.9 32.7"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "NO. OF POLICEMEN PER | NO. OF IPC CASES PER CIVIL MAN (17) 1.9 0.9 1.8 1.4",
-   "header": [
-    "NO. OF POLICEMEN PER",
-    "NO. OF IPC CASES PER CIVIL MAN (17) 1.9 0.9 1.8 1.4"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "WORKLOAD OFI.Os | IPC (18) 193 88 182 138",
-   "header": [
-    "WORKLOAD OFI.Os",
-    "IPC (18) 193 88 182 138"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "WORKLOAD OFI.Os | SLL (19) 28.2144.3 2.4 10 2.6 2.7. 1.8 2.6",
-   "header": [
-    "WORKLOAD OFI.Os",
-    "SLL (19) 28.2144.3 2.4 10 2.6 2.7. 1.8 2.6"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "WORKLOAD OFI.Os | TOTAL (20) 6.1 15.1 13.2 17.6 51.0",
-   "header": [
-    "WORKLOAD OFI.Os",
-    "TOTAL (20) 6.1 15.1 13.2 17.6 51.0"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "TOTAL POLICE EXPENDITURE (RS.IN (21) (23) 621.26 0.1 47.04 1.5 419.06 0.9 562.62 23.82 5.7? 67.0 $09.54",
-   "header": [
-    "TOTAL POLICE EXPENDITURE (RS.IN (21) (23) 621.26 0.1 47.04 1.5 419.06 0.9 562.62 23.82 5.7? 67.0 $09.54"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "- STATE/UT COST PER ## - POLICEMEN \" (PER CRORES) ANNUM) (22) (24; (2) 84227/ANDHRA PRADESH 172.4 6.2 109701 ARUNACHAL PRADESH 16.6 86116 ASSAM 14.1 67453 BIHAR 23.3 89515 GOA 118.0 79373 GUJARAT",
-   "header": [
-    "- STATE/UT COST PER ## - POLICEMEN \" (PER CRORES) ANNUM) (22) (24; (2) 84227/ANDHRA PRADESH 172.4 6.2 109701 ARUNACHAL PRADESH 16.6 86116 ASSAM 14.1 67453 BIHAR 23.3 89515 GOA 118.0 79373 GUJARAT"
+    "UNIT COST PER POLICE- MEN (PER ANNUM)"
    ]
   }
  ],
@@ -110,7 +111,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

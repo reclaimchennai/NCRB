@@ -25,37 +25,37 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "1-10 CRORE (3)",
+   "name": "1-10CRORE (3)",
    "header": [
-    "1-10 CRORE"
+    "1-10CRORE"
    ]
   },
   {
    "col_no": "4",
-   "name": "10-25 CRORE (4)",
+   "name": "10-25CRORE (4)",
    "header": [
-    "10-25 CRORE"
+    "10-25CRORE"
    ]
   },
   {
    "col_no": "5",
-   "name": "25-50 CRORE (5)",
+   "name": "25-50CRORE (5)",
    "header": [
-    "25-50 CRORE"
+    "25-50CRORE"
    ]
   },
   {
    "col_no": "6",
-   "name": "50-100 CRORE (6)",
+   "name": "50-100CRORE (6)",
    "header": [
-    "50-100 CRORE"
+    "50-100CRORE"
    ]
   },
   {
    "col_no": "7",
-   "name": "ABOVE 100 CRORE (7)",
+   "name": "ABOVE 100CRORE (7)",
    "header": [
-    "ABOVE 100 CRORE"
+    "ABOVE 100CRORE"
    ]
   },
   {
@@ -67,37 +67,37 @@
   },
   {
    "col_no": "9",
-   "name": "1-10 CRORE (9)",
+   "name": "1-10CRORE (9)",
    "header": [
-    "1-10 CRORE"
+    "1-10CRORE"
    ]
   },
   {
    "col_no": "10",
-   "name": "10-25 CRORE (10)",
+   "name": "10-25CRORE (10)",
    "header": [
-    "10-25 CRORE"
+    "10-25CRORE"
    ]
   },
   {
    "col_no": "11",
-   "name": "25-50 CRORE (11)",
+   "name": "25-50CRORE (11)",
    "header": [
-    "25-50 CRORE"
+    "25-50CRORE"
    ]
   },
   {
    "col_no": "12",
-   "name": "50-100 CRORE (12)",
+   "name": "50-100CRORE (12)",
    "header": [
-    "50-100 CRORE"
+    "50-100CRORE"
    ]
   },
   {
    "col_no": "13",
-   "name": "ABOVE 100 CRORE (13)",
+   "name": "ABOVE 100CRORE (13)",
    "header": [
-    "ABOVE 100 CRORE"
+    "ABOVE 100CRORE"
    ]
   },
   {
@@ -109,19 +109,20 @@
   },
   {
    "col_no": "15",
-   "name": "GRAND TOTAL (COL 8 +COL.14)",
+   "name": "GRAND TOTAL(COL 8+COL.14)",
    "header": [
-    "GRAND TOTAL (COL 8 +COL.14)"
+    "GRAND TOTAL(COL 8+COL.14)"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 52,
-  "cells_passed": 50,
+  "cells_passed": 49,
   "failures": [
-   "col 3 'TOTAL STATES': printed 906, sum 206",
-   "col 14 'TOTAL (ALL-INDIA)': printed 16, sum 1639"
+   "col 10 'TOTAL (UTS)': printed 6, sum 0",
+   "col 10 'TOTAL (ALL-INDIA)': printed 48, sum 54",
+   "col 14 'TOTAL (ALL-INDIA)': printed 1614, sum 1639"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-78-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-78-1993-crime.pdf",
  "source_sha256": "509f1bf602f18c1e82270a2baa1fa39ad6b463e13b0e11aac1a19d0c098bf6f4",
- "table_no": "78",
- "pdf_title": "331 TABLE-78 SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE",
- "row_label": "SL. NO. / STATE/UT",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1,
   2
@@ -26,92 +26,102 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "NATIONAL | SANC TONED",
+   "name": "DISPOSITION | SAAC TRINED",
    "header": [
-    "NATIONAL",
-    "SANC TONED"
+    "DISPOSITION",
+    "SAAC TRINED"
    ]
   },
   {
    "col_no": "4",
-   "name": "NATIONAL | ACTUAL",
+   "name": "ACTUAL",
    "header": [
-    "NATIONAL",
     "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "S & D | SANC TONED",
+   "name": "CABR. TONED",
    "header": [
-    "S & D",
-    "SANC TONED"
+    "CABR. TONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "S & D | ACTUAL",
+   "name": "AS D/DP | ACTUAL",
    "header": [
-    "S & D",
+    "AS D/DP",
     "ACTUAL"
    ]
   },
   {
    "col_no": "7",
-   "name": "PRODUCTION A | SANC TONED",
+   "name": "AS D/DP | SAAC TONED",
    "header": [
-    "PRODUCTION A",
-    "SANC TONED"
+    "AS D/DP",
+    "SAAC TONED"
    ]
   },
   {
    "col_no": "8",
-   "name": "PRODUCTION A | ACTUAL",
+   "name": "PROTECTION & A.E.L | ACTUAL",
    "header": [
-    "PRODUCTION A",
+    "PROTECTION & A.E.L",
     "ACTUAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "OFFICE BLOW A | SANC TONED",
+   "name": "PROTECTION & A.E.L | SAAC TRINED",
    "header": [
-    "OFFICE BLOW A",
-    "SANC TONED"
+    "PROTECTION & A.E.L",
+    "SAAC TRINED"
    ]
   },
   {
    "col_no": "10",
-   "name": "OFFICE BLOW A | ACTUAL",
+   "name": "OFFICES & R.O.W & S.E.L | ACTUAL",
    "header": [
-    "OFFICE BLOW A",
+    "OFFICES & R.O.W & S.E.L",
     "ACTUAL"
    ]
   },
   {
    "col_no": "11",
-   "name": "DATE 1994 | SANC TONED",
+   "name": "OFFICES & R.O.W & S.E.L | SAAC TONED",
    "header": [
-    "DATE 1994",
-    "SANC TONED"
+    "OFFICES & R.O.W & S.E.L",
+    "SAAC TONED"
    ]
   },
   {
    "col_no": "12",
-   "name": "DATE 1994 | ACTUAL",
+   "name": "DAMN. TOTAL | ACTUAL",
    "header": [
-    "DATE 1994",
+    "DAMN. TOTAL",
     "ACTUAL"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "Note: 1. Since \"Actual\" Police strength was not available for Madhya Pradesh,\nit is taken equal to \"Sanctioned\" Police strength.",
+  "2. The \"Actual\" Police strength is more than the \"Sanctioned\" Police strength\nfor some ranks of Armed Police in Sikkim and Bangalore city."
+ ],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 20,
-  "other_totals_passed": 5
+  "cells_checked": 20,
+  "cells_passed": 7,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 1401, sum 1406",
+   "col 5 'TOTAL (UT)': printed 30, sum 38",
+   "col 6 'TOTAL (UT)': printed 30, sum 35",
+   "col 7 'TOTAL (STATES)': printed 13913, sum 13912",
+   "col 8 'TOTAL (STATES)': printed 19271, sum 12241",
+   "col 8 'TOTAL (UT)': printed 534, sum 594",
+   "col 9 'TOTAL (STATES)': printed 250188, sum 250086",
+   "col 10 'TOTAL (STATES)': printed 255490, sum 235450"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

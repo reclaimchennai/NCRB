@@ -13,39 +13,39 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1981.pdf",
  "source_file": "raw/cii/1981/table_content/table-41-1981.pdf",
  "source_sha256": "c2683b58fe94c58cd74bf88470cf7e7dc5b61f4c07d2932a8d4cda6655626e5a",
- "table_no": "41",
- "pdf_title": "97 TABLE 41 JUVENILE APPREHENDED (BY SEX) COMMITTING CRIME UNDER LOCAL & SPECIAL LAWS",
+ "table_no": "",
+ "pdf_title": "",
  "row_label": "Sl. No.",
  "pages": [
   1
  ],
  "n_rows": 47,
  "n_cols": 4,
- "n_cells": 145,
+ "n_cells": 141,
  "columns": [
   {
-   "col_no": "3",
+   "col_no": "2",
    "name": "States/U.Ts./Cities",
    "header": [
     "States/U.Ts./Cities"
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "3",
    "name": "Boys",
    "header": [
     "Boys"
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "4",
    "name": "Girls",
    "header": [
     "Girls"
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "5",
    "name": "Total",
    "header": [
     "Total"
@@ -54,10 +54,17 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
+  "cells_checked": 6,
   "cells_passed": 0,
-  "failures": [],
-  "other_totals_checked": 0,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 100304, sum 5243",
+   "col 3 'TOTAL (U.T.)': printed 7524, sum 175",
+   "col 3 'TOTAL (CITIES)': printed 22960, sum 1745",
+   "col 4 'TOTAL (STATES)': printed 5243, sum 105545",
+   "col 4 'TOTAL (U.T.)': printed 173, sum 3099",
+   "col 4 'TOTAL (CITIES)': printed 1745, sum 24705"
+  ],
+  "other_totals_checked": 3,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

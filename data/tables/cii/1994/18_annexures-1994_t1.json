@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "18",
- "title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 ANNEXURE-I",
+ "title": "ANNEXURE-I",
  "listing_title": "Annexures",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,22 +14,36 @@
  "source_file": "raw/cii/1994/table_chapter/annexures-1994.pdf",
  "source_sha256": "5780c96d1cd56bae82d1919c21ad609583b6d2786add560d6e4fff4bc1019d2a",
  "table_no": "",
- "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 ANNEXURE-I",
- "row_label": "5. / No. of cases not investigated/or in which investigation was dropped due to any reason during the year. / :",
+ "pdf_title": "ANNEXURE-I",
+ "row_label": "NAME OF ORGANISATION: / CENTRAL BUREAU OF INVESTIGATION, POLICY & ORGANISATION DIVISION, NORTH BLOCK, NEW DELHI.",
  "pages": [
   1,
   1,
-  1
+  1,
+  1,
+  6
  ],
- "n_rows": 19,
- "n_cols": 1,
- "n_cells": 19,
+ "n_rows": 24,
+ "n_cols": 3,
+ "n_cells": 25,
  "columns": [
   {
    "col_no": "4",
-   "name": "N/A",
+   "name": "col_4",
+   "header": []
+  },
+  {
+   "col_no": "2",
+   "name": "Value of assets seized (Rs. in lakhs)",
    "header": [
-    "N/A"
+    "Value of assets seized (Rs. in lakhs)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Unaccounted income disclosed in the statements recorded U/s 132(4) in the course of searches (Rs. in Lakhs)",
+   "header": [
+    "Unaccounted income disclosed in the statements recorded U/s 132(4) in the course of searches (Rs. in Lakhs)"
    ]
   }
  ],
@@ -42,6 +56,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 5,
  "warnings": []
 }

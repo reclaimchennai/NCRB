@@ -21,7 +21,7 @@
   2,
   3
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 22,
  "n_cells": 770,
  "columns": [
@@ -107,10 +107,10 @@
   },
   {
    "col_no": "10004",
-   "name": "RELIGION | CHRISTIAN",
+   "name": "RELIGION | CHRIS-TIAN",
    "header": [
     "RELIGION",
-    "CHRISTIAN"
+    "CHRIS-TIAN"
    ]
   },
   {
@@ -205,16 +205,10 @@
  "notes": [],
  "checks": {
   "cells_checked": 63,
-  "cells_passed": 51,
+  "cells_passed": 61,
   "failures": [
-   "col 10001 'TOTAL (STATES)': printed 29457, sum 129115",
-   "col 10002 'TOTAL (STATES)': printed 45319, sum 45143",
-   "col 10004 'TOTAL (STATES)': printed 7268, sum 7188",
-   "col 10005 'TOTAL (STATES)': printed 7421, sum 7347",
-   "col 10006 'TOTAL (STATES)': printed 194918, sum 194246",
-   "col 10007 'TOTAL (STATES)': printed 43869, sum 43759",
-   "col 10 'TOTAL (STATES)': printed 25648, sum 25487",
-   "col 11 'TOTAL (STATES)': printed 67828, sum 67685"
+   "col 10001 'TOTAL (STATES)': printed 29457, sum 129457",
+   "col 12 'TOTAL (ALL INDIA)': printed 57892, sum 57880"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

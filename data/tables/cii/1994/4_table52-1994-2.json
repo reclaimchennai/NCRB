@@ -65,16 +65,18 @@
   },
   {
    "col_no": "8",
-   "name": "OVERALL AGE GROUPS (8)",
+   "name": "OVERALL AGE GROUPS | BOYS",
    "header": [
-    "OVERALL AGE GROUPS"
+    "OVERALL AGE GROUPS",
+    "BOYS"
    ]
   },
   {
    "col_no": "9",
-   "name": "OVERALL AGE GROUPS (9)",
+   "name": "OVERALL AGE GROUPS | GIRLS",
    "header": [
-    "OVERALL AGE GROUPS"
+    "OVERALL AGE GROUPS",
+    "GIRLS"
    ]
   },
   {
@@ -88,10 +90,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 24,
-  "cells_passed": 23,
-  "failures": [
-   "col 10 'TOTAL (STATES)': printed 10574, sum 10584"
-  ],
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

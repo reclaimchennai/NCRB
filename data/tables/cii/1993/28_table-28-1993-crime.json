@@ -8,14 +8,14 @@
  "serial": "28",
  "title": "Persons Arrested under Different IPC Crimes by Sex in States, UTs & Cities During 1993",
  "listing_title": "Persons Arrested under Different IPC Crimes by Sex in States, UTs & Cities During 1993",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-28-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-28-1993-crime.pdf",
  "source_sha256": "251f89ec8bdd203c695538c808aeededb89d09476723b5b7c5bed64568d97416",
  "table_no": "28",
- "pdf_title": "PERSONS ARRESTED UNDER DIFFERENT IPC CRIMES BY SEX IN STATES, UTs & CITIES DURING 1993",
- "row_label": "S4 NЮ. / STATEJUT",
+ "pdf_title": "157 TABLE-28 PERSONS ARRESTED UNDER DIFFERENT IPC CRIMES BY SEX IN STATES, UTs & CITIES DURING 1993",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1,
   2,
@@ -36,9 +36,9 @@
   17,
   18
  ],
- "n_rows": 101,
- "n_cols": 61,
- "n_cells": 2960,
+ "n_rows": 66,
+ "n_cols": 55,
+ "n_cells": 3190,
  "columns": [
   {
    "col_no": "3",
@@ -58,8 +58,9 @@
   },
   {
    "col_no": "5",
-   "name": "TOTAL",
+   "name": "ATTEMPT TO COMMIT MURDER | TOTAL (5)",
    "header": [
+    "ATTEMPT TO COMMIT MURDER",
     "TOTAL"
    ]
   },
@@ -73,233 +74,203 @@
   },
   {
    "col_no": "7",
-   "name": "ATTEMPT TO COMMIT MURDER",
+   "name": "ATTEMPT TO COMMIT MURDER | FEMALE",
    "header": [
-    "ATTEMPT TO COMMIT MURDER"
+    "ATTEMPT TO COMMIT MURDER",
+    "FEMALE"
    ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
-  },
-  {
-   "col_no": "10001",
-   "name": "C.H NOT AMOUNTING TO MURDER | MALE (2)",
+   "name": "ATTEMPT TO COMMIT MURDER | TOTAL (8)",
    "header": [
-    "C.H NOT AMOUNTING TO MURDER",
-    "MALE (2)"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "C.H NOT AMOUNTING TO MURDER | FEMALE (9)",
-   "header": [
-    "C.H NOT AMOUNTING TO MURDER",
-    "FEMALE (9)"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "RAPE | STOTAL (10)",
-   "header": [
-    "RAPE",
-    "STOTAL (10)"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "RAPE | MALE ay)",
-   "header": [
-    "RAPE",
-    "MALE ay)"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "RAPE | FEMALE (12)",
-   "header": [
-    "RAPE",
-    "FEMALE (12)"
-   ]
-  },
-  {
-   "col_no": "10006",
-   "name": "RAPE | TOTAL (13) (14)",
-   "header": [
-    "RAPE",
-    "TOTAL (13) (14)"
+    "ATTEMPT TO COMMIT MURDER",
+    "TOTAL"
    ]
   },
   {
    "col_no": "9",
-   "name": "C.H. NOT AMOUNTING TO MURDER | MALE",
+   "name": "CH NOT AMOUNTING TO MURDER | MALE",
    "header": [
-    "C.H. NOT AMOUNTING TO MURDER",
+    "CH NOT AMOUNTING TO MURDER",
     "MALE"
    ]
   },
   {
    "col_no": "10",
-   "name": "C.H. NOT AMOUNTING TO MURDER | FEMALE",
+   "name": "CH NOT AMOUNTING TO MURDER | FEMALE",
    "header": [
-    "C.H. NOT AMOUNTING TO MURDER",
+    "CH NOT AMOUNTING TO MURDER",
     "FEMALE"
    ]
   },
   {
    "col_no": "11",
-   "name": "HAPE | TOTAL (11)",
+   "name": "CH NOT AMOUNTING TO MURDER | TOTAL",
    "header": [
-    "HAPE",
+    "CH NOT AMOUNTING TO MURDER",
     "TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "HAPE | MALE",
+   "name": "RAPE | MALE",
    "header": [
-    "HAPE",
+    "RAPE",
     "MALE"
    ]
   },
   {
    "col_no": "13",
-   "name": "HAPE | FEMALE",
+   "name": "RAPE | FEMALE",
    "header": [
-    "HAPE",
+    "RAPE",
     "FEMALE"
    ]
   },
   {
    "col_no": "14",
-   "name": "HAPE | TOTAL (14)",
+   "name": "RAPE | TOTAL",
    "header": [
-    "HAPE",
+    "RAPE",
     "TOTAL"
    ]
   },
   {
    "col_no": "15",
-   "name": "TOTAL | MALE",
+   "name": "KONAPPING & ABUCTION | TOTAL | MALE",
    "header": [
+    "KONAPPING & ABUCTION",
     "TOTAL",
     "MALE"
    ]
   },
   {
    "col_no": "16",
-   "name": "TOTAL | FEMALE",
+   "name": "KONAPPING & ABUCTION | TOTAL | FEMALE",
    "header": [
+    "KONAPPING & ABUCTION",
     "TOTAL",
     "FEMALE"
    ]
   },
   {
    "col_no": "17",
-   "name": "KIONAPPING & ABOUCTION | TOTAL (17)",
+   "name": "KONAPPING & ABUCTION | TOTAL | TOTAL",
    "header": [
-    "KIONAPPING & ABOUCTION",
+    "KONAPPING & ABUCTION",
+    "TOTAL",
     "TOTAL"
    ]
   },
   {
    "col_no": "18",
-   "name": "KIONAPPING & ABOUCTION | OF WOMEN & GIALE | MALE",
+   "name": "KONAPPING & ABUCTION | OF WOMEN & GIRLS | MALE",
    "header": [
-    "KIONAPPING & ABOUCTION",
-    "OF WOMEN & GIALE",
+    "KONAPPING & ABUCTION",
+    "OF WOMEN & GIRLS",
     "MALE"
    ]
   },
   {
    "col_no": "19",
-   "name": "KIONAPPING & ABOUCTION | OF WOMEN & GIALE | FEMALE",
+   "name": "KONAPPING & ABUCTION | OF WOMEN & GIRLS | FEMALE",
    "header": [
-    "KIONAPPING & ABOUCTION",
-    "OF WOMEN & GIALE",
+    "KONAPPING & ABUCTION",
+    "OF WOMEN & GIRLS",
     "FEMALE"
    ]
   },
   {
    "col_no": "20",
-   "name": "KIONAPPING & ABOUCTION | TOTAL (20)",
+   "name": "KONAPPING & ABUCTION | OF WOMEN & GIRLS | TOTAL",
    "header": [
-    "KIONAPPING & ABOUCTION",
+    "KONAPPING & ABUCTION",
+    "OF WOMEN & GIRLS",
     "TOTAL"
    ]
   },
   {
    "col_no": "21",
-   "name": "col_21",
-   "header": []
+   "name": "KONAPPING & ABUCTION | OF OTHERS | MALE",
+   "header": [
+    "KONAPPING & ABUCTION",
+    "OF OTHERS",
+    "MALE"
+   ]
   },
   {
    "col_no": "22",
-   "name": "OF OTHERS EMALE",
+   "name": "KONAPPING & ABUCTION | OF OTHERS | FEMALE",
    "header": [
-    "OF OTHERS EMALE"
+    "KONAPPING & ABUCTION",
+    "OF OTHERS",
+    "FEMALE"
    ]
   },
   {
    "col_no": "23",
-   "name": "col_23",
-   "header": []
+   "name": "KONAPPING & ABUCTION | OF OTHERS | TOTAL",
+   "header": [
+    "KONAPPING & ABUCTION",
+    "OF OTHERS",
+    "TOTAL"
+   ]
   },
   {
    "col_no": "24",
-   "name": "DACOITY | MALE",
+   "name": "DACITY | MALE",
    "header": [
-    "DACOITY",
+    "DACITY",
     "MALE"
    ]
   },
   {
    "col_no": "25",
-   "name": "DACOITY | FEMALE",
+   "name": "DACITY | FEMALE",
    "header": [
-    "DACOITY",
+    "DACITY",
     "FEMALE"
    ]
   },
   {
    "col_no": "26",
-   "name": "DACOITY | TOTA",
+   "name": "DACITY | TOTAL",
    "header": [
-    "DACOITY",
-    "TOTA"
+    "DACITY",
+    "TOTAL"
    ]
   },
   {
    "col_no": "27",
-   "name": "PREPARATION & ABSEMALY FOR PACOITY | MALE",
+   "name": "PREPARATION & ASSEMBLY FOR DACITY | MALE",
    "header": [
-    "PREPARATION & ABSEMALY FOR PACOITY",
+    "PREPARATION & ASSEMBLY FOR DACITY",
     "MALE"
    ]
   },
   {
    "col_no": "28",
-   "name": "PREPARATION & ABSEMALY FOR PACOITY | FEMALE",
+   "name": "PREPARATION & ASSEMBLY FOR DACITY | FEMALE",
    "header": [
-    "PREPARATION & ABSEMALY FOR PACOITY",
+    "PREPARATION & ASSEMBLY FOR DACITY",
     "FEMALE"
    ]
   },
   {
    "col_no": "29",
-   "name": "PREPARATION & ABSEMALY FOR PACOITY | TOTAL",
+   "name": "PREPARATION & ASSEMBLY FOR DACITY | TOTAL",
    "header": [
-    "PREPARATION & ABSEMALY FOR PACOITY",
+    "PREPARATION & ASSEMBLY FOR DACITY",
     "TOTAL"
    ]
   },
   {
    "col_no": "30",
-   "name": "ROBBERY | JALE",
+   "name": "ROBBERY | MALE",
    "header": [
     "ROBBERY",
-    "JALE"
+    "MALE"
    ]
   },
   {
@@ -320,25 +291,25 @@
   },
   {
    "col_no": "33",
-   "name": "BURGLARY | MALE",
+   "name": "BURGULARY | MALE",
    "header": [
-    "BURGLARY",
+    "BURGULARY",
     "MALE"
    ]
   },
   {
    "col_no": "34",
-   "name": "BURGLARY | FEMALE",
+   "name": "BURGULARY | FEMALE",
    "header": [
-    "BURGLARY",
+    "BURGULARY",
     "FEMALE"
    ]
   },
   {
    "col_no": "35",
-   "name": "BURGLARY | TOTAL",
+   "name": "BURGULARY | TOTAL",
    "header": [
-    "BURGLARY",
+    "BURGULARY",
     "TOTAL"
    ]
   },
@@ -368,44 +339,49 @@
   },
   {
    "col_no": "39",
-   "name": "RHOTS | MALE",
+   "name": "BOTS | MALE",
    "header": [
-    "RHOTS",
+    "BOTS",
     "MALE"
    ]
   },
   {
    "col_no": "40",
-   "name": "RHOTS | FEMALE",
+   "name": "BOTS | FEMALE",
    "header": [
-    "RHOTS",
+    "BOTS",
     "FEMALE"
    ]
   },
   {
    "col_no": "41",
-   "name": "TOT",
+   "name": "BOTS | TOTAL",
    "header": [
-    "TOT"
+    "BOTS",
+    "TOTAL"
    ]
   },
   {
    "col_no": "42",
-   "name": "col_42",
-   "header": []
+   "name": "CRIMINAL BREACH OF TRUST | MALE",
+   "header": [
+    "CRIMINAL BREACH OF TRUST",
+    "MALE"
+   ]
   },
   {
    "col_no": "43",
-   "name": "CRIMINAL BREACH OF TRUST FEMALE",
+   "name": "CRIMINAL BREACH OF TRUST | FEMALE",
    "header": [
-    "CRIMINAL BREACH OF TRUST FEMALE"
+    "CRIMINAL BREACH OF TRUST",
+    "FEMALE"
    ]
   },
   {
    "col_no": "44",
-   "name": "CHEATING | TOTAL (44)",
+   "name": "CRIMINAL BREACH OF TRUST | TOTAL",
    "header": [
-    "CHEATING",
+    "CRIMINAL BREACH OF TRUST",
     "TOTAL"
    ]
   },
@@ -427,7 +403,7 @@
   },
   {
    "col_no": "47",
-   "name": "CHEATING | TOTAL (47)",
+   "name": "CHEATING | TOTAL",
    "header": [
     "CHEATING",
     "TOTAL"
@@ -467,70 +443,70 @@
   },
   {
    "col_no": "52",
-   "name": "OTHER IPC CRIMES | PEMALE",
+   "name": "OTHER IPC CRIMES | FEMALE",
    "header": [
     "OTHER IPC CRIMES",
-    "PEMALE"
+    "FEMALE"
    ]
   },
   {
    "col_no": "53",
-   "name": "col_53",
-   "header": []
+   "name": "OTHER IPC CRIMES | TOTAL",
+   "header": [
+    "OTHER IPC CRIMES",
+    "TOTAL"
+   ]
   },
   {
    "col_no": "54",
-   "name": "TOTAL COGNIZABLE CHIMES UNDER PC | MALE",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER IPC | MALE",
    "header": [
-    "TOTAL COGNIZABLE CHIMES UNDER PC",
+    "TOTAL COGNIZABLE CRIMES UNDER IPC",
     "MALE"
    ]
   },
   {
    "col_no": "55",
-   "name": "TOTAL COGNIZABLE CHIMES UNDER PC | FEMALE",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER IPC | FEMALE",
    "header": [
-    "TOTAL COGNIZABLE CHIMES UNDER PC",
+    "TOTAL COGNIZABLE CRIMES UNDER IPC",
     "FEMALE"
    ]
   },
   {
    "col_no": "56",
-   "name": "TOTAL COGNIZABLE CHIMES UNDER PC | TOTAL",
+   "name": "TOTAL COGNIZABLE CRIMES UNDER IPC | TOTAL",
    "header": [
-    "TOTAL COGNIZABLE CHIMES UNDER PC",
+    "TOTAL COGNIZABLE CRIMES UNDER IPC",
     "TOTAL"
    ]
   },
   {
    "col_no": "57",
-   "name": "PERCENTABE OF FEMALES TO TOTAL",
+   "name": "PERCENTAGE OF FEMALES TO TOTAL",
    "header": [
-    "PERCENTABE OF FEMALES TO TOTAL"
+    "PERCENTAGE OF FEMALES TO TOTAL"
    ]
   }
  ],
- "notes": [
-  ",",
-  "23A--177 NCRB/95.",
-  "24A—177 NCRB/95.",
-  "Note: NR stands for data not received."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 6,
-  "cells_passed": 0,
+  "cells_checked": 138,
+  "cells_passed": 96,
   "failures": [
-   "col 10001 'TOTAL (STATES)': printed 8088, sum 8446",
-   "col 10006 'TOTAL (STATES)': printed 1612, sum 16446",
-   "col 36 'TOTAL LALL - INDIA': printed 209708, sum 240005",
-   "col 48 'TOTAL (ALL - INDIA)': printed 1276, sum 2695",
-   "col 51 'TOTAL (ALL - INDIA)': printed 1.30085e+06, sum 2.70767e+06",
-   "col 52 'TOTAL (ALL - INDIA)': printed 61848, sum 68635"
+   "col 3 'TOTAL (STATES)': printed 84482, sum 84462",
+   "col 3 'TOTAL (ALL - INDIA)': printed 85256, sum 85376",
+   "col 5 'TOTAL (STATES)': printed 87816, sum 87746",
+   "col 5 'TOTAL (ALL - INDIA)': printed 88766, sum 88756",
+   "col 6 'TOTAL (STATES)': printed 73383, sum 73363",
+   "col 6 'TOTAL (ALL - INDIA)': printed 74080, sum 74100",
+   "col 7 'TOTAL (ALL - INDIA)': printed 1623, sum 1523",
+   "col 9 'TOTAL (STATES)': printed 8083, sum 8088"
   ],
-  "other_totals_checked": 7,
+  "other_totals_checked": 6,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 18,
  "warnings": []
 }

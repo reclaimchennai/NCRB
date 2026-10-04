@@ -8,95 +8,99 @@
  "serial": "60",
  "title": "Juveniles Apprehended under Different IPC Crimes by Age Group & Sex During 1991 (State, UT & City-Wise)",
  "listing_title": "Juveniles Apprehended under Different IPC Crimes by Age Group & Sex During 1991 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-44-1991-44.pdf",
  "source_file": "raw/cii/1991/table_content/table-44-1991-44.pdf",
  "source_sha256": "b37f053e3021527877f09ffe69c6a3f05ef6422fa6421fddfa23249823c5a257",
  "table_no": "",
- "pdf_title": "TASLE=44 JUVENILES APPREWEMDED UNDER IPC CRIMES BY AGE GROUP & SEX DURING",
- "row_label": "STATE/UTSCITY SL. nO. cv) SLATES: PRADESH",
+ "pdf_title": "JUVENILES APPREHENDED UNDER IPC CRIMES BY AGE GROUP & SEX DURING 1991 (STATE, UT & CITY-WISE)",
+ "row_label": "SL. NO.",
  "pages": [
   1
  ],
- "n_rows": 43,
+ "n_rows": 47,
  "n_cols": 8,
- "n_cells": 299,
+ "n_cells": 376,
  "columns": [
   {
-   "col_no": "2",
-   "name": "7Fo= BOTS (2) 71",
-   "header": [
-    "7Fo= BOTS (2) 71"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "UT | 12 GIRLS (4) 1",
+   "name": "STATE/UT/CITY | BOYS",
    "header": [
-    "UT",
-    "12 GIRLS (4) 1"
+    "STATE/UT/CITY",
+    "BOYS"
    ]
   },
   {
    "col_no": "4",
-   "name": "UT | TEARS Bors ts) 58",
+   "name": "7 - 12 | GIRLS",
    "header": [
-    "UT",
-    "TEARS Bors ts) 58"
+    "7 - 12",
+    "GIRLS"
    ]
   },
   {
    "col_no": "5",
-   "name": "B 12-16 TEARS GIRLS (6) 14",
+   "name": "YEARS | BOYS",
    "header": [
-    "B 12-16 TEARS GIRLS (6) 14"
+    "YEARS",
+    "BOYS"
    ]
   },
   {
    "col_no": "6",
-   "name": "4-18 YEARS GIALS Vie",
+   "name": "12-16 | GIRLS",
    "header": [
-    "4-18 YEARS GIALS Vie"
+    "12-16",
+    "GIRLS"
    ]
   },
   {
    "col_no": "7",
-   "name": "AGE | GROUP cay 42F",
+   "name": "YEARS | GIRLS",
    "header": [
-    "AGE",
-    "GROUP cay 42F"
+    "YEARS",
+    "GIRLS"
    ]
   },
   {
    "col_no": "8",
-   "name": "AGE | GIRLS 133",
+   "name": "16-18 | ONLY",
    "header": [
-    "AGE",
-    "GIRLS 133"
+    "16-18",
+    "ONLY"
    ]
   },
   {
    "col_no": "9",
-   "name": "TOTAL GIRLS) 10) 5é2",
+   "name": "YEARS | GROUP | BOYS",
    "header": [
-    "TOTAL GIRLS) 10) 5é2"
+    "YEARS",
+    "GROUP",
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "OVERALL | (BOYS) | GIRLS",
+   "header": [
+    "OVERALL",
+    "(BOYS)",
+    "GIRLS"
    ]
   }
  ],
  "notes": [
-  "Mote: 7-12 years meant 7 years and above but below 12 years of age ete."
+  "Note: 7-12 years means 7 years and above but below 12 years of age etc."
  ],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
-  "failures": [
-   "col 2 'TOTAL (STATES)': printed 1921, sum 868"
-  ],
-  "other_totals_checked": 1,
-  "other_totals_passed": 1
+  "cells_checked": 24,
+  "cells_passed": 24,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

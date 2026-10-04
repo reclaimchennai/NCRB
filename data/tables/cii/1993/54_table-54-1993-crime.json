@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-54-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-54-1993-crime.pdf",
  "source_sha256": "521b09e322c998da12110ed358e107b46c969869363d286b738b5a8f7b795e92",
- "table_no": "54",
- "pdf_title": "243 TABLE-54 DISPOSAL OF JUVENILES ARRESTED (UNDER IPC AND L&SL CRIMES) AND SENT TO COURTS DURING 1993 (STATE, UT & CITY-WISE)",
- "row_label": "SL NO. / STATE/UT",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SIL NO. / CITY",
  "pages": [
   1,
   2
@@ -26,74 +26,53 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "ARRESTED & SENT TO COURTS",
-   "header": [
-    "ARRESTED & SENT TO COURTS"
-   ]
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "4",
-   "name": "SENT TO HOME AFTER ADVICE OR ADM-ONION",
-   "header": [
-    "SENT TO HOME AFTER ADVICE OR ADM-ONION"
-   ]
+   "name": "col_4",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "RELEASED ON PROBATION AND PLACED UNDER CARE OF | PARENTS/ GUARDIANS",
-   "header": [
-    "RELEASED ON PROBATION AND PLACED UNDER CARE OF",
-    "PARENTS/ GUARDIANS"
-   ]
+   "name": "col_5",
+   "header": []
   },
   {
    "col_no": "6",
-   "name": "RELEASED ON PROBATION AND PLACED UNDER CARE OF | FIT INSTT.",
-   "header": [
-    "RELEASED ON PROBATION AND PLACED UNDER CARE OF",
-    "FIT INSTT."
-   ]
+   "name": "col_6",
+   "header": []
   },
   {
    "col_no": "7",
-   "name": "SENT TO SPECIAL HOMES",
-   "header": [
-    "SENT TO SPECIAL HOMES"
-   ]
+   "name": "col_7",
+   "header": []
   },
   {
    "col_no": "8",
-   "name": "DEALT WITH FINE",
-   "header": [
-    "DEALT WITH FINE"
-   ]
+   "name": "col_8",
+   "header": []
   },
   {
    "col_no": "9",
-   "name": "ACOUNTED OF OTHER WISE DISPOSED OF",
-   "header": [
-    "ACOUNTED OF OTHER WISE DISPOSED OF"
-   ]
+   "name": "col_9",
+   "header": []
   },
   {
    "col_no": "10",
-   "name": "RENDRED DISPO- SAL",
-   "header": [
-    "RENDRED DISPO- SAL"
-   ]
+   "name": "col_10",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 24,
-  "cells_passed": 18,
+  "cells_checked": 16,
+  "cells_passed": 13,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 19785, sum 19765",
-   "col 3 'TOTAL JALL INDIA': printed 20067, sum 20087",
-   "col 4 'TOTAL JALL INDIA': printed 4751, sum 4731",
-   "col 9 'TOTAL (STATES)': printed 2958, sum 2056",
-   "col 9 'TOTAL JALL INDIA': printed 2078, sum 2981",
-   "col 10 'TOTAL JALL INDIA': printed 7624, sum 7824"
+   "col 3 'TOTAL (STATES)': printed 19785, sum 19767",
+   "col 5 'TOTAL (STATES)': printed 1806, sum 1808",
+   "col 9 'TOTAL (STATES)': printed 2050, sum 2056"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

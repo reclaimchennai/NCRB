@@ -8,49 +8,37 @@
  "serial": "2",
  "title": "Crimes in Mega Cities",
  "listing_title": "Crimes in Mega Cities",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-2_2014.pdf",
  "source_file": "raw/cii/2014/table_chapter/chapter-2_2014.pdf",
  "source_sha256": "6224ae3951521e860372d60913264a8518e79b44dc7962f463d14b8c7fb2e0bf",
  "table_no": "",
- "pdf_title": "2.2",
- "row_label": "=} - £",
+ "pdf_title": "Percentage Distribution of IPC Crimes in Mega Cities versus States/UTs during 2014 Figure 2.2 ■ Mega Cities ■ Rest of Country",
+ "row_label": "Population (in lakh)*",
  "pages": [
   4
  ],
- "n_rows": 33,
- "n_cols": 4,
- "n_cells": 70,
+ "n_rows": 3,
+ "n_cols": 2,
+ "n_cells": 6,
  "columns": [
   {
-   "col_no": "3",
-   "name": "col_3",
-   "header": []
-  },
-  {
-   "col_no": "4",
-   "name": "col_4",
-   "header": []
-  },
-  {
-   "col_no": "5",
-   "name": "o 4 Oo - oO o",
+   "col_no": "2",
+   "name": "All India",
    "header": [
-    "o 4 Oo - oO o"
+    "All India"
    ]
   },
   {
-   "col_no": "6",
-   "name": "Rez ar 2 225C Ho of we S5e2 Sa 5S 20 2a ou secs Peso wa Sore i= pas",
+   "col_no": "3",
+   "name": "Cities",
    "header": [
-    "Rez ar 2 225C Ho of we S5e2 Sa 5S 20 2a ou secs Peso wa Sore i= pas"
+    "Cities"
    ]
   }
  ],
- "notes": [
-  "o8s"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -58,7 +46,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

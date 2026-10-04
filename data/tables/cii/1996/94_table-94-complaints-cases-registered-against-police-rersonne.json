@@ -15,13 +15,13 @@
  "source_sha256": "b31f2bce3b8ace3aedac342740fed310ce08c0615fc4153eadb79ed46e29dd5a",
  "table_no": "94",
  "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-94",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1,
   2,
   3
  ],
- "n_rows": 77,
+ "n_rows": 68,
  "n_cols": 19,
  "n_cells": 1102,
  "columns": [
@@ -70,10 +70,10 @@
   },
   {
    "col_no": "8",
-   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF CASES REGISTERED DURING THE YEAR",
+   "name": "COMPLAINTS RECEIVED/CASES REGISTERED | NO. OF CASES REGIS-TERED DURING THE YEAR",
    "header": [
     "COMPLAINTS RECEIVED/CASES REGISTERED",
-    "NO. OF CASES REGISTERED DURING THE YEAR"
+    "NO. OF CASES REGIS-TERED DURING THE YEAR"
    ]
   },
   {
@@ -159,41 +159,41 @@
   },
   {
    "col_no": "19",
-   "name": "DISMI- SSED/ REMOVED FROM SERVICE",
+   "name": "DISMISSED/ REMOVED FROM SERVICE",
    "header": [
-    "DISMI- SSED/ REMOVED FROM SERVICE"
+    "DISMISSED/ REMOVED FROM SERVICE"
    ]
   },
   {
    "col_no": "20",
-   "name": "MAJOR PUNISH- MENT AWARDED",
+   "name": "MAJOR PUNISHMENT AWARDED",
    "header": [
-    "MAJOR PUNISH- MENT AWARDED"
+    "MAJOR PUNISHMENT AWARDED"
    ]
   },
   {
    "col_no": "21",
-   "name": "MINOR PUNISH- MENT AWARDED",
+   "name": "MINOR PUNISHMENT AWARDED",
    "header": [
-    "MINOR PUNISH- MENT AWARDED"
+    "MINOR PUNISHMENT AWARDED"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 45,
-  "cells_passed": 33,
+  "cells_passed": 34,
   "failures": [
-   "col 7 'TOTAL (ALL-INDIA)': printed 24882, sum 24682",
-   "col 11 'TOTAL (STATES)': printed 2054, sum 1544",
-   "col 12 'TOTAL (STATES)': printed 478, sum 281",
-   "col 13 'TOTAL (STATES)': printed 328, sum 192",
-   "col 14 'TOTAL (STATES)': printed 30, sum 22",
-   "col 15 'TOTAL (STATES)': printed 160, sum 101",
-   "col 16 'TOTAL (STATES)': printed 9535, sum 5173",
-   "col 17 'TOTAL (STATES)': printed 1909, sum 982"
+   "col 11 'TOTAL (STATES)': printed 2054, sum 2006",
+   "col 12 'TOTAL (STATES)': printed 478, sum 477",
+   "col 13 'TOTAL (STATES)': printed 328, sum 326",
+   "col 14 'TOTAL (STATES)': printed 30, sum 29",
+   "col 15 'TOTAL (STATES)': printed 160, sum 159",
+   "col 16 'TOTAL (UTs)': printed 252, sum 8977",
+   "col 17 'TOTAL (UTs)': printed 84, sum 1794",
+   "col 18 'TOTAL (UTs)': printed 1, sum 2221"
   ],
-  "other_totals_checked": 6,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

@@ -13,8 +13,8 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables50-1985.pdf",
  "source_file": "raw/cii/1985/table_content/tables50-1985.pdf",
  "source_sha256": "1cc4832467eda0416d65b3874abc916204c40e5bb6caad4ee91b1d4c7787f9d7",
- "table_no": "",
- "pdf_title": "",
+ "table_no": "51",
+ "pdf_title": "112 TABLE - 51 Number Of Cases Reported And Value of Property Stolen Under Robbery And By Place Of Occurrence During 1985",
  "row_label": "Sl. States/U.Ts/Cities No. / Sl. States/U.Ts/Cities No.",
  "pages": [
   1,
@@ -25,7 +25,7 @@
  "n_cells": 752,
  "columns": [
   {
-   "col_no": "2",
+   "col_no": "3",
    "name": "RESIDENTIAL PREMISES | NO OF CASES REPORTED",
    "header": [
     "RESIDENTIAL PREMISES",
@@ -33,7 +33,7 @@
    ]
   },
   {
-   "col_no": "3",
+   "col_no": "4",
    "name": "RESIDENTIAL PREMISES | VALUE OF PROPERTY STOLEN",
    "header": [
     "RESIDENTIAL PREMISES",
@@ -41,7 +41,7 @@
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "5",
    "name": "HIGH WAYS | NO OF CASES REPORTED",
    "header": [
     "HIGH WAYS",
@@ -49,7 +49,7 @@
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "6",
    "name": "HIGH WAYS | VALUE PROPERTY STOLEN",
    "header": [
     "HIGH WAYS",
@@ -57,7 +57,7 @@
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "7",
    "name": "RIVER & SEAS | NO OF CASES REPORTED",
    "header": [
     "RIVER & SEAS",
@@ -65,7 +65,7 @@
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "8",
    "name": "RIVER & SEAS | VALUE OF PROPERTY STOLEN",
    "header": [
     "RIVER & SEAS",
@@ -73,7 +73,7 @@
    ]
   },
   {
-   "col_no": "8",
+   "col_no": "9",
    "name": "RAILWAYS | NO OF CASES REPORTED",
    "header": [
     "RAILWAYS",
@@ -81,7 +81,7 @@
    ]
   },
   {
-   "col_no": "9",
+   "col_no": "10",
    "name": "RAILWAYS | VALUE OF PROPERTY STOLEN",
    "header": [
     "RAILWAYS",
@@ -90,13 +90,6 @@
   },
   {
    "col_no": "11",
-   "name": "Sl. States/U.Ts/Cities No.",
-   "header": [
-    "Sl. States/U.Ts/Cities No."
-   ]
-  },
-  {
-   "col_no": "12",
    "name": "BANKS | NO OF CASES REPORTED",
    "header": [
     "BANKS",
@@ -104,7 +97,7 @@
    ]
   },
   {
-   "col_no": "13",
+   "col_no": "12",
    "name": "BANKS | VALUE OF PROPERTY STOLEN",
    "header": [
     "BANKS",
@@ -112,7 +105,7 @@
    ]
   },
   {
-   "col_no": "14",
+   "col_no": "13",
    "name": "COMMERCIAL ESTT | NO OF CASES REPORTED",
    "header": [
     "COMMERCIAL ESTT",
@@ -120,7 +113,7 @@
    ]
   },
   {
-   "col_no": "15",
+   "col_no": "14",
    "name": "COMMERCIAL ESTT | VALUE OF PROPERTY STOLEN",
    "header": [
     "COMMERCIAL ESTT",
@@ -128,7 +121,7 @@
    ]
   },
   {
-   "col_no": "16",
+   "col_no": "15",
    "name": "OTHER PLACES | NO OF CASES REPORTED",
    "header": [
     "OTHER PLACES",
@@ -136,7 +129,7 @@
    ]
   },
   {
-   "col_no": "17",
+   "col_no": "16",
    "name": "OTHER PLACES | VALUE OF PROPERTY STOLEN",
    "header": [
     "OTHER PLACES",
@@ -144,11 +137,19 @@
    ]
   },
   {
-   "col_no": "18",
+   "col_no": "17",
    "name": "TOTAL | NO OF CASES REPORTED",
    "header": [
     "TOTAL",
     "NO OF CASES REPORTED"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "TOTAL | VALUE OF PROPERTY STOLEN",
+   "header": [
+    "TOTAL",
+    "VALUE OF PROPERTY STOLEN"
    ]
   }
  ],
@@ -157,7 +158,7 @@
   "cells_checked": 20,
   "cells_passed": 19,
   "failures": [
-   "col 8 'TOTAL (STATES)': printed 347, sum 350"
+   "col 13 'TOTAL (STATES)': printed 557, sum 558"
   ],
   "other_totals_checked": 7,
   "other_totals_passed": 7

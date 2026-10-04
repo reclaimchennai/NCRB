@@ -6,35 +6,72 @@
  "topic": "",
  "section": "",
  "serial": "1",
- "title": "CRIME,CRIME RATE & POPULATION",
+ "title": "SURVEY OF INDIA During the year under review, 7,59,013 cognizable offences under the Indian Penal Code were reported as against 6,58,830 in the year 1963 thereby registering an increase of 15.20% over the figures of the previous year. These figures also include the crime committed by the juveniles. Table showing total cognizable crime reported, estimated population and rate of crime from 1959 to 1964. TABLE No. I",
  "listing_title": "Survey of Crime, etc.",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/survey-of-crime-1964.pdf",
  "source_file": "raw/cii/1964/table_chapter/survey-of-crime-1964.pdf",
  "source_sha256": "4d6875466ac51ccded67b3104306e96033d142cbab2b393c2d0805e9d7a5a20e",
  "table_no": "",
- "pdf_title": "CRIME,CRIME RATE & POPULATION",
- "row_label": "",
+ "pdf_title": "SURVEY OF INDIA During the year under review, 7,59,013 cognizable offences under the Indian Penal Code were reported as against 6,58,830 in the year 1963 thereby registering an increase of 15.20% over the figures of the previous year. These figures also include the crime committed by the juveniles. Table showing total cognizable crime reported, estimated population and rate of crime from 1959 to 1964. TABLE No. I",
+ "row_label": "Year",
  "pages": [
-  1
+  2
  ],
  "n_rows": 6,
- "n_cols": 2,
- "n_cells": 7,
+ "n_cols": 6,
+ "n_cells": 36,
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "Total cognizable crime",
+   "header": [
+    "Total cognizable crime"
+   ]
   },
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Estimated population in millions",
+   "header": [
+    "Estimated population in millions"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Rate of crime per 1,000,000 of population",
+   "header": [
+    "Rate of crime per 1,000,000 of population"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1959",
+   "header": [
+    "1959"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "6,20,326",
+   "header": [
+    "6,20,326"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "422-27",
+   "header": [
+    "422-27"
+   ]
   }
  ],
- "notes": [],
+ "notes": [
+  "The volume of crime which had shown an upward trend in the years 1961/1962 and dropped slightly during the year 1963 has again shown rise in the year under review.",
+  "The increase in crime is attributed generally to adverse economic conditions, rising cost of living, increase in the population, corresponding growth and shift in it, rapid industrialisation, insufficient attention to the prevention of crime due to pre-occupation of the police with law and order problems, factionalism in villages, and better reporting and registration of cases. The increase is also partly due to the fact that a number of Union Territories have now been brought under the purview of this report.",
+  "CRIME UNDER DIFFERENT HEADS",
+  "Table No. II shows the total number of cases reported under different heads in various States and Union Territories in the years 1959-1963, the quinquennial average and the corresponding figures for the year under review (1964). The volume of crime (under different heads) per one hundred thousand of population, based on\n*Excluding figures for the Union Territories of Goa, Daman and Diu, Dadra and Nagar Haveli and Pondicherry.\n@Excluding figures for the Union Territories of Dadra and Nagar Haveli only."
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -42,7 +79,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

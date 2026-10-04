@@ -14,7 +14,7 @@
  "source_file": "raw/cii/1989/table_content/table-68-1989-1.pdf",
  "source_sha256": "c1c19eb7ed991a78d73b815e17a3b72f2af4f1ba115eb3ab5273c8f01bf6c546",
  "table_no": "68",
- "pdf_title": "204 TABLE-68 ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CRIMES DURING 1989",
+ "pdf_title": "204 TABLE-68 ACTUAL POLICE STRENGTH IN RELATION TO AREA, POPULATION & IPC CRIMES",
  "row_label": "SL NO / STATE/UT",
  "pages": [
   1
@@ -46,23 +46,23 @@
   },
   {
    "col_no": "6",
-   "name": "ACTUAL POLICE CIVIL",
+   "name": "ACTUAL CIVIL",
    "header": [
-    "ACTUAL POLICE CIVIL"
+    "ACTUAL CIVIL"
    ]
   },
   {
    "col_no": "7",
-   "name": "STRENGTH ARMED",
+   "name": "POLICE ARMED",
    "header": [
-    "STRENGTH ARMED"
+    "POLICE ARMED"
    ]
   },
   {
    "col_no": "8",
-   "name": "TOTAL",
+   "name": "STRENGTH TOTAL",
    "header": [
-    "TOTAL"
+    "STRENGTH TOTAL"
    ]
   },
   {
@@ -74,16 +74,16 @@
   },
   {
    "col_no": "10",
-   "name": "NO. OF POLICE-MEN PER 100 SQR. KMS. AREA",
+   "name": "NO. OF POLICE- MEN PER 100 SQR. KMS. AREA",
    "header": [
-    "NO. OF POLICE-MEN PER 100 SQR. KMS. AREA"
+    "NO. OF POLICE- MEN PER 100 SQR. KMS. AREA"
    ]
   },
   {
    "col_no": "11",
-   "name": "NO. OF POLICEMEN PER 1,000 ULATION",
+   "name": "NO. OF POLICEMEN PER 1,000 OF POP- ULATION",
    "header": [
-    "NO. OF POLICEMEN PER 1,000 ULATION"
+    "NO. OF POLICEMEN PER 1,000 OF POP- ULATION"
    ]
   },
   {
@@ -96,13 +96,11 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 10,
-  "cells_passed": 9,
-  "failures": [
-   "col 8 'TOTAL (STATES)': printed 1.07548e+06, sum 1.07748e+06"
-  ],
-  "other_totals_checked": 5,
-  "other_totals_passed": 5
+  "cells_checked": 15,
+  "cells_passed": 15,
+  "failures": [],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

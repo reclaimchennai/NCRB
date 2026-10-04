@@ -15,7 +15,7 @@
  "source_sha256": "49d494c0b0a8dc4d0d431c082d5e0821d81255e86e21e2bd1769067b5c0b83d3",
  "table_no": "20",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 20",
- "row_label": "SL. NO. / CRIME HEAD",
+ "row_label": "SL.NO. / CRIME HEAD",
  "pages": [
   1,
   2
@@ -48,25 +48,28 @@
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED CONVICTED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
    "header": [
     "NO. OF CASES",
-    "IN WHICH TRIALS WERE COMPLETED CONVICTED"
+    "IN WHICH TRIALS WERE COMPLETED",
+    "CONVICTED"
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. OF CASES | ACQUITTED OR DISCHARGED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUITTED OR DISCHARGED",
    "header": [
     "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
     "ACQUITTED OR DISCHARGED"
    ]
   },
   {
    "col_no": "8",
-   "name": "NO. OF CASES | TOTAL {(6) + (7)}",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL {(6) + (7)}",
    "header": [
     "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
     "TOTAL {(6) + (7)}"
    ]
   },
@@ -82,12 +85,13 @@
  "notes": [],
  "checks": {
   "cells_checked": 18,
-  "cells_passed": 12,
+  "cells_passed": 11,
   "failures": [
    "col 3 'TOTAL (ALL-INDIA)': printed 538, sum 5.89128e+06",
    "col 4 'TOTAL (ALL-INDIA)': printed 22895, sum 23226",
    "col 5 'TOTAL (ALL-INDIA)': printed 23433, sum 208232",
    "col 6 'TOTAL (ALL-INDIA)': printed 335, sum 369340",
+   "col 7 'TOTAL STATES': printed 19754, sum 19704",
    "col 7 'TOTAL (ALL-INDIA)': printed 20272, sum 581996",
    "col 8 'TOTAL (ALL-INDIA)': printed 20607, sum 951336"
   ],

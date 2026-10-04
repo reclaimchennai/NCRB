@@ -15,7 +15,7 @@
  "source_sha256": "9c643ec28dcf3ce79aef6e5da75ce6e4c98ec8337f30c2e9ac696edfc2db6f1a",
  "table_no": "59",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1994 TABLE-59",
- "row_label": "SL. NO. / STATE/UT",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2,
@@ -23,7 +23,7 @@
  ],
  "n_rows": 70,
  "n_cols": 33,
- "n_cells": 1154,
+ "n_cells": 1155,
  "columns": [
   {
    "col_no": "3",
@@ -154,25 +154,25 @@
   },
   {
    "col_no": "19",
-   "name": "SEXUAL HARASSMENT/ EVE-TEASING | I",
+   "name": "SEXUAL HARASSMENT/EVE-TEASING | I",
    "header": [
-    "SEXUAL HARASSMENT/ EVE-TEASING",
+    "SEXUAL HARASSMENT/EVE-TEASING",
     "I"
    ]
   },
   {
    "col_no": "20",
-   "name": "SEXUAL HARASSMENT/ EVE-TEASING | R",
+   "name": "SEXUAL HARASSMENT/EVE-TEASING | R",
    "header": [
-    "SEXUAL HARASSMENT/ EVE-TEASING",
+    "SEXUAL HARASSMENT/EVE-TEASING",
     "R"
    ]
   },
   {
    "col_no": "21",
-   "name": "SEXUAL HARASSMENT/ EVE-TEASING | P",
+   "name": "SEXUAL HARASSMENT/EVE-TEASING | P",
    "header": [
-    "SEXUAL HARASSMENT/ EVE-TEASING",
+    "SEXUAL HARASSMENT/EVE-TEASING",
     "P"
    ]
   },
@@ -292,11 +292,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 24,
-  "cells_passed": 22,
-  "failures": [
-   "col 4 'TOTAL (STATES)': printed 12070, sum 12069",
-   "col 13 'TOTAL (STATES)': printed 25783, sum 25803"
-  ],
+  "cells_passed": 24,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

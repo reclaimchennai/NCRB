@@ -50,10 +50,10 @@
   },
   {
    "col_no": "5",
-   "name": "Upto 14 Years | % to Total (Col.5/ Col.26) x 100",
+   "name": "Upto 14 Years | % to Total (Col.5/ Col.25) x 100",
    "header": [
     "Upto 14 Years",
-    "% to Total (Col.5/ Col.26) x 100"
+    "% to Total (Col.5/ Col.25) x 100"
    ]
   },
   {
@@ -82,10 +82,10 @@
   },
   {
    "col_no": "10",
-   "name": "15-29 Years | % to Total (Col.9/ Col. 26) x 100",
+   "name": "15-29 Years | % to Total (Col.9/ Col. 25) x 100",
    "header": [
     "15-29 Years",
-    "% to Total (Col.9/ Col. 26) x 100"
+    "% to Total (Col.9/ Col. 25) x 100"
    ]
   },
   {
@@ -114,10 +114,10 @@
   },
   {
    "col_no": "14",
-   "name": "30-44 Years | % to Total (Col.13/ Col. 26) x 100",
+   "name": "30-44 Years | % to Total (Col.13/ Col. 25) x 100",
    "header": [
     "30-44 Years",
-    "% to Total (Col.13/ Col. 26) x 100"
+    "% to Total (Col.13/ Col. 25) x 100"
    ]
   },
   {
@@ -146,10 +146,10 @@
   },
   {
    "col_no": "18",
-   "name": "45-59 Years | % to Total (Col.17/ Col.25) x 100",
+   "name": "45-59 Years | % to Total (Col.17/ Col.25) × 100",
    "header": [
     "45-59 Years",
-    "% to Total (Col.17/ Col.25) x 100"
+    "% to Total (Col.17/ Col.25) × 100"
    ]
   },
   {
@@ -178,10 +178,10 @@
   },
   {
    "col_no": "22",
-   "name": "60 Years & above | % to Total (Col.21/ Col. 25) x 100",
+   "name": "60 Years & above | % to Total (Col.21/ Col. 25) × 100",
    "header": [
     "60 Years & above",
-    "% to Total (Col.21/ Col. 25) x 100"
+    "% to Total (Col.21/ Col. 25) × 100"
    ]
   },
   {
@@ -210,26 +210,22 @@
   },
   {
    "col_no": "26",
-   "name": "Total | Male % (Col.23/ Col.25) x 100",
+   "name": "Total | Male % (Col.23/ Col.25) × 100",
    "header": [
     "Total",
-    "Male % (Col.23/ Col.25) x 100"
+    "Male % (Col.23/ Col.25) × 100"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 63,
-  "cells_passed": 49,
+  "cells_passed": 59,
   "failures": [
-   "col 2 'Total (States)': printed 13263, sum 13253",
-   "col 2 'Total (All-India)': printed 13608, sum 13618",
-   "col 3 'Total (States)': printed 7105, sum 7125",
-   "col 3 'Total (All-India)': printed 7286, sum 7266",
-   "col 4 'Total (States)': printed 20358, sum 20360",
-   "col 11 'Total (States)': printed 61958, sum 61978",
-   "col 12 'Total (All-India)': printed 21260, sum 21250",
-   "col 13 'Total (States)': printed 82748, sum 82968"
+   "col 16 'Total (All-India)': printed 11086, sum 11066",
+   "col 23 'Total (States)': printed 179647, sum 179847",
+   "col 24 'Total (UTs)': printed 1630, sum 1830",
+   "col 25 'Total(Cities)': printed 30165, sum 30163"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

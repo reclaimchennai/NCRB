@@ -18,11 +18,12 @@
  "row_label": "Sl. No. / States/U.Ts./Cities",
  "pages": [
   1,
+  1,
   2
  ],
- "n_rows": 25,
- "n_cols": 9,
- "n_cells": 212,
+ "n_rows": 45,
+ "n_cols": 13,
+ "n_cells": 316,
  "columns": [
   {
    "col_no": "3",
@@ -54,34 +55,90 @@
   },
   {
    "col_no": "10001",
+   "name": "8213 | 1372 | 2226 | 568 | 3796 | 1171 | 40 | 11344",
+   "header": [
+    "8213",
+    "1372",
+    "2226",
+    "568",
+    "3796",
+    "1171",
+    "40",
+    "11344"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "- | 342 | 815 | 186 | 15 | 19 | - | 1761",
+   "header": [
+    "-",
+    "342",
+    "815",
+    "186",
+    "15",
+    "19",
+    "-",
+    "1761"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "77 | 20 | 17 | 11 | 5 | 16 | - | 90",
+   "header": [
+    "77",
+    "20",
+    "17",
+    "11",
+    "5",
+    "16",
+    "-",
+    "90"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "- | 26 | 4 | 9 | 13 | 17 | - | 50",
+   "header": [
+    "-",
+    "26",
+    "4",
+    "9",
+    "13",
+    "17",
+    "-",
+    "50"
+   ]
+  },
+  {
+   "col_no": "10002",
    "name": "Sent to School Institutions",
    "header": [
     "Sent to School Institutions"
    ]
   },
   {
-   "col_no": "10002",
+   "col_no": "10003",
    "name": "Sent to Adult Institutions",
    "header": [
     "Sent to Adult Institutions"
    ]
   },
   {
-   "col_no": "10003",
+   "col_no": "10004",
    "name": "Imprisoned",
    "header": [
     "Imprisoned"
    ]
   },
   {
-   "col_no": "10004",
+   "col_no": "10005",
    "name": "Acquitted or otherwise disposed of",
    "header": [
     "Acquitted or otherwise disposed of"
    ]
   },
   {
-   "col_no": "7",
+   "col_no": "10006",
    "name": "Pending disposal",
    "header": [
     "Pending disposal"
@@ -93,10 +150,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 9,
-  "other_totals_passed": 7
+  "other_totals_checked": 24,
+  "other_totals_passed": 17
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 3,
  "warnings": []
 }

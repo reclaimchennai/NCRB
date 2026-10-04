@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Accidental Deaths and Suicides in India 1970",
  "serial": "2",
- "title": "## ALL INDIA SURVEY During the year 1970, 48,428 suicides were reported in India as against 43,633 during 1969 indicating a very sharp increase of 11.0%. Table VI presents the comparative incidence of suicides during the last 7 years viz. 1964 to 1970. It will be observed that the incidence of suicides is increasing from the year 1965 onwards and the highest increase in any two consecutive years has been noticed during 1969—1970. The volume of suicides per one lakh of population has also increased from 6.3 during 1965 to 8.8 during 1970. The increase in suicides during the period from 1965—1970 was 57.9%, while the increase in population during the same period was 13.0%, indicating thereby that the rate of growth of suicides has been approximately 4 times the rate of growth of population. On an average, 59.6% of the total suicides are committed by males, while persons in the age group of 18 to 30 years are more prone to commit suicide. This age group accounted for 43.5% of the total suicides in the country during 1970.",
+ "title": "ALL INDIA SURVEY During the year 1970, 48,428 suicides were reported in India as against 43,633 during 1969 indicating a very sharp increase of 11.0%. Table VI presents the comparative incidence of suicides during the last 7 years viz. 1964 to 1970. It will be observed that the incidence of suicides is increasing from the year 1965 onwards and the highest increase in any two consecutive years has been noticed during 1969-1970. The volume of suicides per one lakh of population has also increased from 6.3 during 1965 to 8.8 during 1970. The increase in suicides during the period from 1965-1970 was 57.9%, while the increase in population during the same period was 13.0%, indicating thereby that the rate of growth of suicides has been approximately 4 times the rate of growth of population. On an average, 59.6% of the total suicides are committed by males, while persons in the age group of 18 to 30 years are more prone to commit suicide. This age group accounted for 43.5% of the total suicides in the country during 1970. TABLE-VI Comparative Statement of Incidence of Suicides During the Last Seven Years (i.e. 1964 to 1970)",
  "listing_title": "Suicidal Deaths in India",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,14 +14,15 @@
  "source_file": "raw/adsi/1970/year_wise/suicides-1970.pdf",
  "source_sha256": "5662f251e459a1c00099498eed79943b3eec26de68668f9e5966dd685bda40e6",
  "table_no": "",
- "pdf_title": "## ALL INDIA SURVEY During the year 1970, 48,428 suicides were reported in India as against 43,633 during 1969 indicating a very sharp increase of 11.0%. Table VI presents the comparative incidence of suicides during the last 7 years viz. 1964 to 1970. It will be observed that the incidence of suicides is increasing from the year 1965 onwards and the highest increase in any two consecutive years has been noticed during 1969—1970. The volume of suicides per one lakh of population has also increased from 6.3 during 1965 to 8.8 during 1970. The increase in suicides during the period from 1965—1970 was 57.9%, while the increase in population during the same period was 13.0%, indicating thereby that the rate of growth of suicides has been approximately 4 times the rate of growth of population. On an average, 59.6% of the total suicides are committed by males, while persons in the age group of 18 to 30 years are more prone to commit suicide. This age group accounted for 43.5% of the total suicides in the country during 1970.",
+ "pdf_title": "ALL INDIA SURVEY During the year 1970, 48,428 suicides were reported in India as against 43,633 during 1969 indicating a very sharp increase of 11.0%. Table VI presents the comparative incidence of suicides during the last 7 years viz. 1964 to 1970. It will be observed that the incidence of suicides is increasing from the year 1965 onwards and the highest increase in any two consecutive years has been noticed during 1969-1970. The volume of suicides per one lakh of population has also increased from 6.3 during 1965 to 8.8 during 1970. The increase in suicides during the period from 1965-1970 was 57.9%, while the increase in population during the same period was 13.0%, indicating thereby that the rate of growth of suicides has been approximately 4 times the rate of growth of population. On an average, 59.6% of the total suicides are committed by males, while persons in the age group of 18 to 30 years are more prone to commit suicide. This age group accounted for 43.5% of the total suicides in the country during 1970. TABLE-VI Comparative Statement of Incidence of Suicides During the Last Seven Years (i.e. 1964 to 1970)",
  "row_label": "Sl. No.",
  "pages": [
-  2
+  2,
+  3
  ],
- "n_rows": 7,
- "n_cols": 4,
- "n_cells": 28,
+ "n_rows": 9,
+ "n_cols": 7,
+ "n_cells": 35,
  "columns": [
   {
    "col_no": "2",
@@ -50,9 +51,34 @@
    "header": [
     "Volume of Suicides for 100,000 of population"
    ]
+  },
+  {
+   "col_no": "6",
+   "name": "1968",
+   "header": [
+    "1968"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "1969",
+   "header": [
+    "1969"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "1970",
+   "header": [
+    "1970"
+   ]
   }
  ],
- "notes": [],
+ "notes": [
+  "\\(^{{*}}\\)Figures after appropriate adjustment for those States for which data was not available during that year.",
+  "Causes of Suicides",
+  "Among the causes of suicides, despair over dreadful diseases was the major cause which accounted for 14.1% of the total suicidal deaths in India in 1970, while quarrels with parents-in-law and spouses were responsible for 14.9% of the total suicides. Quite a large number of suicides, viz. 53.5% of the total suicidal deaths in the country took 15"
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -61,6 +87,6 @@
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

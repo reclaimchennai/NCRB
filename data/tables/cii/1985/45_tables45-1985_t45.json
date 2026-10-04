@@ -1,0 +1,106 @@
+{
+ "table_id": "cii/1985/45_tables45-1985_t45",
+ "publication": "cii",
+ "year": 1985,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "45",
+ "title": "Particulars Of Juveniles Arrested Under IPC And Local And Special Laws During 1985",
+ "listing_title": "Particulars of Juveniles Arrested under IPC and Local and Special Laws During 1985",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/tables45-1985.pdf",
+ "source_file": "raw/cii/1985/table_content/tables45-1985.pdf",
+ "source_sha256": "df646145ab5ad9ceedd7d0a1377fb46c931105aa2e0bad3f4b8fd96c2d71f83c",
+ "table_no": "45",
+ "pdf_title": "Particulars Of Juveniles Arrested Under IPC And Local And Special Laws During 1985",
+ "row_label": "States/U.Ts/Cities No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 9,
+ "n_cells": 423,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "BY FAMILY BACK GROUND | LIVING WITH PARENTS",
+   "header": [
+    "BY FAMILY BACK GROUND",
+    "LIVING WITH PARENTS"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "LIVING WITH GUARDIANS",
+   "header": [
+    "LIVING WITH GUARDIANS"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "HOMELESS",
+   "header": [
+    "HOMELESS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "TOTAL (5)",
+   "header": [
+    "TOTAL"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "BY ECONOMIC SET-UP | LOWER INCOME",
+   "header": [
+    "BY ECONOMIC SET-UP",
+    "LOWER INCOME"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "LOWER MIDDLE (BELOW Rs 150)",
+   "header": [
+    "LOWER MIDDLE (BELOW Rs 150)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "UPPER MIDDLE INCOME (ABOVE RS.150 BUT BELOW RS.500 P.M.)",
+   "header": [
+    "UPPER MIDDLE INCOME (ABOVE RS.150 BUT BELOW RS.500 P.M.)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "UPPER INCOME (ABOVE RS.500/P.M.)",
+   "header": [
+    "UPPER INCOME (ABOVE RS.500/P.M.)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "TOTAL (10)",
+   "header": [
+    "TOTAL"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 13,
+  "cells_passed": 11,
+  "failures": [
+   "col 3 'TOTAL (STATES)': printed 36107, sum 30107",
+   "col 8 'TOTAL (STATES)': printed 15891, sum 16491"
+  ],
+  "other_totals_checked": 9,
+  "other_totals_passed": 8
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

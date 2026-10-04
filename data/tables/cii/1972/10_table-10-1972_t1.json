@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "10",
- "title": "56 TABLE Statement showing the Cases Reported during the year 1972 under Special and Local Laws declared to be Cognizable",
+ "title": "TABLE Statement showing the Cases Reported during the year 1972 under Special and Local Laws declared to be Cognizable",
  "listing_title": "Statement showing the Cases Reported During the Year 1972 under Special and Local Laws Declared to be Cognizable",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,95 +14,99 @@
  "source_file": "raw/cii/1972/table_content/table-10-1972.pdf",
  "source_sha256": "fc184b14256edd94b61f92d0df66198e03150878021fd57aaa96c003982d1ec7",
  "table_no": "",
- "pdf_title": "56 TABLE Statement showing the Cases Reported during the year 1972 under Special and Local Laws declared to be Cognizable",
- "row_label": "1. Andhra Pradesh 2. Assam",
+ "pdf_title": "TABLE Statement showing the Cases Reported during the year 1972 under Special and Local Laws declared to be Cognizable",
+ "row_label": "Sl. No.",
  "pages": [
   1,
-  1,
-  1,
-  1,
-  1,
-  1,
-  1
+  2
  ],
- "n_rows": 8,
- "n_cols": 8,
- "n_cells": 64,
+ "n_rows": 80,
+ "n_cols": 9,
+ "n_cells": 674,
  "columns": [
   {
-   "col_no": "3",
-   "name": "152 | 80",
+   "col_no": "2",
+   "name": "States/U.Ts./Cities",
    "header": [
-    "152",
-    "80"
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Arms Act | I",
+   "header": [
+    "Arms Act",
+    "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "2·34 | 0·52",
+   "name": "Arms Act | V",
    "header": [
-    "2·34",
-    "0·52"
+    "Arms Act",
+    "V"
    ]
   },
   {
    "col_no": "5",
-   "name": "3 | 18",
+   "name": "Opium Act | I",
    "header": [
-    "3",
-    "18"
+    "Opium Act",
+    "I"
    ]
   },
   {
    "col_no": "6",
-   "name": "0·01 | 0·12",
+   "name": "Opium Act | V",
    "header": [
-    "0·01",
-    "0·12"
+    "Opium Act",
+    "V"
    ]
   },
   {
    "col_no": "7",
-   "name": "33,899 | 329",
+   "name": "Gambling Act | I",
    "header": [
-    "33,899",
-    "329"
+    "Gambling Act",
+    "I"
    ]
   },
   {
    "col_no": "8",
-   "name": "76·06 | 2·17",
+   "name": "Gambling Act | V",
    "header": [
-    "76·06",
-    "2·17"
+    "Gambling Act",
+    "V"
    ]
   },
   {
    "col_no": "9",
-   "name": "10,213 | 380",
+   "name": "Excise Act | V",
    "header": [
-    "10,213",
-    "380"
+    "Excise Act",
+    "V"
    ]
   },
   {
    "col_no": "10",
-   "name": "22·91 | 2·50",
+   "name": "Motor Vehicles Act | V",
    "header": [
-    "22·91",
-    "2·50"
+    "Motor Vehicles Act",
+    "V"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "I-Incidence V-Volume NA-Not Available"
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 15,
+  "other_totals_passed": 11
  },
  "inferred_pages": 0,
- "ocr_pages": 7,
+ "ocr_pages": 2,
  "warnings": []
 }

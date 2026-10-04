@@ -8,70 +8,65 @@
  "serial": "61",
  "title": "Incidence & Rate of Crimes Committed Against Children in States and UTs During 1996",
  "listing_title": "Incidence & Rate of Crimes Committed Against Children in States and UTs During 1996",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-61--incidence-&-rate-of-crimes-committed-againt-children-in-states-and-uts-during-1996-1996.pdf",
  "source_file": "raw/cii/1996/table_content/table-61--incidence-&-rate-of-crimes-committed-againt-children-in-states-and-uts-during-1996-1996.pdf",
  "source_sha256": "d7f1a11d9179cbbc951c280d3b3f2abbacfd24cfd534624c0ca9ba2f10022227",
  "table_no": "61",
- "pdf_title": "INCIDENCE & RATE OF CRIMES COMMITTED 4G4INST CHILDREN IN STATES AND Us DURING i986",
- "row_label": "SL. STATE/UT NO. STAIES RSP - 1 - - / INCIDENCE OF TOTAL OG CRINES - - ‘6 - / PERCENTAGE CONTRIBUTION 13 TOTAL <r ry / PERCENTAGE CONTRIBUTION ida / ON - 7 - 1",
+ "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1996 TABLE-61",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1
  ],
- "n_rows": 10,
+ "n_rows": 35,
  "n_cols": 6,
- "n_cells": 27,
+ "n_cells": 204,
  "columns": [
   {
-   "col_no": "6",
-   "name": "ret | a neil sai",
+   "col_no": "3",
+   "name": "INCIDENCE OF TOTAL COG CRIMES",
    "header": [
-    "ret",
-    "a neil sai"
+    "INCIDENCE OF TOTAL COG CRIMES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL INDIA TOTAL",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL INDIA TOTAL"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ESTIMATED MID-YEAR POPUL IN ON LARIC",
+   "header": [
+    "ESTIMATED MID-YEAR POPUL IN ON LARIC"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "RATE OF TOTAL COG CRIMES",
+   "header": [
+    "RATE OF TOTAL COG CRIMES"
    ]
   },
   {
    "col_no": "7",
-   "name": "ret | i a3 ¥ - oe",
+   "name": "RANK OF CRIMINALITY (ON RATE)",
    "header": [
-    "ret",
-    "i a3 ¥ - oe"
+    "RANK OF CRIMINALITY (ON RATE)"
    ]
   },
   {
    "col_no": "8",
-   "name": "OF TOTAL bros CRIMES i ste ne - ‘ -",
+   "name": "RANK* CN PERCENTAGE CONTRIBUTION",
    "header": [
-    "OF TOTAL bros CRIMES i ste ne - ‘ -"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "RANK -",
-   "header": [
-    "RANK -"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "OFF CN CRIMINALITY \\ON PATE) - - Ae -",
-   "header": [
-    "OFF CN CRIMINALITY \\ON PATE) - - Ae -"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "RANK PERCENTAGE oa sani",
-   "header": [
-    "RANK PERCENTAGE oa sani"
+    "RANK* CN PERCENTAGE CONTRIBUTION"
    ]
   }
  ],
- "notes": [
-  "Note: 1 * Rank on the basis of Rate of total cognizable crimes (Col.6) in the States & UTs.",
-  "2 Percentage less than 0.05 is also shown as 0.0"
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -79,7 +74,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

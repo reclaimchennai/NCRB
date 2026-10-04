@@ -13,16 +13,16 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/psi/psi-table-23_2000.pdf",
  "source_file": "raw/psi/2000/table_content/psi-table-23_2000.pdf",
  "source_sha256": "9d9477ff0b5e07438e47c14d996e52563e69712597fba08f579adf0fb0751571",
- "table_no": "23",
- "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 2000 TABLE-23",
- "row_label": "SL. NO. / STATE/UT",
+ "table_no": "",
+ "pdf_title": "N.C.R.B., (M.H.A.) TABLE-23 NUMBER OF UNDERTRIALS BY TYPE OF SPECIAL & LOCAL LAWS OFFENCES AT THE END OF 2000",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 36,
- "n_cols": 21,
- "n_cells": 735,
+ "n_rows": 35,
+ "n_cols": 23,
+ "n_cells": 805,
  "columns": [
   {
    "col_no": "3",
@@ -40,9 +40,9 @@
   },
   {
    "col_no": "5",
-   "name": "GAMB-LING ACT",
+   "name": "GAMBLING ACT",
    "header": [
-    "GAMB-LING ACT"
+    "GAMBLING ACT"
    ]
   },
   {
@@ -54,9 +54,9 @@
   },
   {
    "col_no": "7",
-   "name": "PROH-BITION ACT",
+   "name": "PROHIBITION ACT",
    "header": [
-    "PROH-BITION ACT"
+    "PROHIBITION ACT"
    ]
   },
   {
@@ -75,16 +75,16 @@
   },
   {
    "col_no": "10",
-   "name": "INDIAN RAIL-WAYS ACT",
+   "name": "INDIAN RAILWAYS ACT",
    "header": [
-    "INDIAN RAIL-WAYS ACT"
+    "INDIAN RAILWAYS ACT"
    ]
   },
   {
    "col_no": "11",
-   "name": "REG. OF FOR. ACT",
+   "name": "REG. OF FOR ACT",
    "header": [
-    "REG. OF FOR. ACT"
+    "REG. OF FOR ACT"
    ]
   },
   {
@@ -96,30 +96,44 @@
   },
   {
    "col_no": "13",
-   "name": "INDIAN PASS-PORT ACT",
+   "name": "INDIAN PASS PORT ACT",
    "header": [
-    "INDIAN PASS-PORT ACT"
+    "INDIAN PASS PORT ACT"
    ]
   },
   {
    "col_no": "14",
-   "name": "ESSEN-TIAL COMMO-DITIES ACT",
+   "name": "(1)",
    "header": [
-    "ESSEN-TIAL COMMO-DITIES ACT"
+    "(1)"
    ]
   },
   {
    "col_no": "15",
-   "name": "ANTI-QUITY & ART TREAS-URE ACT",
+   "name": "(2)",
    "header": [
-    "ANTI-QUITY & ART TREAS-URE ACT"
+    "(2)"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "ESSENTIAL COMMODITIES ACT",
+   "header": [
+    "ESSENTIAL COMMODITIES ACT"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "ANTI-QUITY & ART TREASURE ACT",
+   "header": [
+    "ANTI-QUITY & ART TREASURE ACT"
    ]
   },
   {
    "col_no": "16",
-   "name": "DOWRY PROHIBI-TON ACT",
+   "name": "DOWRY PROHIBIT-TON ACT",
    "header": [
-    "DOWRY PROHIBI-TON ACT"
+    "DOWRY PROHIBIT-TON ACT"
    ]
   },
   {
@@ -131,9 +145,9 @@
   },
   {
    "col_no": "18",
-   "name": "OFFI-CIAL SEC-RETS ACTS",
+   "name": "OFF-CIAL SEC-RETS ACTS",
    "header": [
-    "OFFI-CIAL SEC-RETS ACTS"
+    "OFF-CIAL SEC-RETS ACTS"
    ]
   },
   {
@@ -152,9 +166,9 @@
   },
   {
    "col_no": "21",
-   "name": "NATI-ONAL SECU-RITY ACT",
+   "name": "NATI-ONAL SECURITY ACT",
    "header": [
-    "NATI-ONAL SECU-RITY ACT"
+    "NATI-ONAL SECURITY ACT"
    ]
   },
   {
@@ -174,16 +188,10 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 63,
-  "cells_passed": 56,
+  "cells_checked": 69,
+  "cells_passed": 68,
   "failures": [
-   "col 14 'TOTAL (STATES)': printed 266, sum 259",
-   "col 16 'TOTAL (STATES)': printed 2949, sum 2882",
-   "col 18 'TOTAL (STATES)': printed 77, sum 61",
-   "col 19 'TOTAL (STATES)': printed 200, sum 197",
-   "col 21 'TOTAL (STATES)': printed 178, sum 175",
-   "col 22 'TOTAL (STATES)': printed 6709, sum 6440",
-   "col 23 'TOTAL (STATES)': printed 35908, sum 34394"
+   "col 21 'TOTAL (STATES)': printed 178, sum 235"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -25,9 +25,9 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "1st Qtr.",
+   "name": "Ist Qtr.",
    "header": [
-    "1st Qtr."
+    "Ist Qtr."
    ]
   },
   {
@@ -39,9 +39,9 @@
   },
   {
    "col_no": "5",
-   "name": "llrd Qtr",
+   "name": "llnd Qtr",
    "header": [
-    "llrd Qtr"
+    "llnd Qtr"
    ]
   },
   {
@@ -97,10 +97,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 20,
-  "cells_passed": 19,
-  "failures": [
-   "col 7 'Total (States)': printed 70490, sum 69590"
-  ],
+  "cells_passed": 20,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

@@ -26,8 +26,10 @@
  "columns": [
   {
    "col_no": "2",
-   "name": "col_2",
-   "header": []
+   "name": "Population (2)",
+   "header": [
+    "Population"
+   ]
   },
   {
    "col_no": "3",
@@ -66,23 +68,16 @@
   },
   {
    "col_no": "8",
-   "name": "Population (8)",
-   "header": [
-    "Population"
-   ]
-  },
-  {
-   "col_no": "9",
    "name": "Total cognizable Crime",
    "header": [
     "Total cognizable Crime"
    ]
   },
   {
-   "col_no": "10",
-   "name": "Rate of crime per 100,000 of population",
+   "col_no": "9",
+   "name": "Rate of crime per 160,000 of population",
    "header": [
-    "Rate of crime per 100,000 of population"
+    "Rate of crime per 160,000 of population"
    ]
   },
   {
@@ -97,6 +92,11 @@
   },
   {
    "col_no": "10003",
+   "name": "col_10003",
+   "header": []
+  },
+  {
+   "col_no": "10",
    "name": "Number of persons arrested",
    "header": [
     "Number of persons arrested"

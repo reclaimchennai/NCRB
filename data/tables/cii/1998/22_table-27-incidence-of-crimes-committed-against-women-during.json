@@ -22,14 +22,14 @@
   3
  ],
  "n_rows": 71,
- "n_cols": 34,
- "n_cells": 1225,
+ "n_cols": 35,
+ "n_cells": 1260,
  "columns": [
   {
    "col_no": "2",
-   "name": "EST.MID YEAR POPUL- ATION",
+   "name": "EST.MID YEAR POPULATION",
    "header": [
-    "EST.MID YEAR POPUL- ATION"
+    "EST.MID YEAR POPULATION"
    ]
   },
   {
@@ -129,7 +129,7 @@
    ]
   },
   {
-   "col_no": "16",
+   "col_no": "15",
    "name": "MOLESTATION | I",
    "header": [
     "MOLESTATION",
@@ -137,7 +137,7 @@
    ]
   },
   {
-   "col_no": "17",
+   "col_no": "16",
    "name": "MOLESTATION | R",
    "header": [
     "MOLESTATION",
@@ -145,7 +145,7 @@
    ]
   },
   {
-   "col_no": "18",
+   "col_no": "17",
    "name": "MOLESTATION | P",
    "header": [
     "MOLESTATION",
@@ -153,7 +153,7 @@
    ]
   },
   {
-   "col_no": "19",
+   "col_no": "18",
    "name": "EVE-TEASING | I",
    "header": [
     "EVE-TEASING",
@@ -161,7 +161,7 @@
    ]
   },
   {
-   "col_no": "20",
+   "col_no": "19",
    "name": "EVE-TEASING | R",
    "header": [
     "EVE-TEASING",
@@ -169,7 +169,7 @@
    ]
   },
   {
-   "col_no": "21",
+   "col_no": "20",
    "name": "EVE-TEASING | P",
    "header": [
     "EVE-TEASING",
@@ -177,7 +177,7 @@
    ]
   },
   {
-   "col_no": "22",
+   "col_no": "21",
    "name": "IMPORTING OF GIRLS | I",
    "header": [
     "IMPORTING OF GIRLS",
@@ -185,7 +185,7 @@
    ]
   },
   {
-   "col_no": "23",
+   "col_no": "22",
    "name": "IMPORTING OF GIRLS | R",
    "header": [
     "IMPORTING OF GIRLS",
@@ -193,7 +193,7 @@
    ]
   },
   {
-   "col_no": "24",
+   "col_no": "23",
    "name": "IMPORTING OF GIRLS | P",
    "header": [
     "IMPORTING OF GIRLS",
@@ -201,7 +201,7 @@
    ]
   },
   {
-   "col_no": "25",
+   "col_no": "24",
    "name": "SATI-PRE. ACT | I",
    "header": [
     "SATI-PRE. ACT",
@@ -209,11 +209,19 @@
    ]
   },
   {
-   "col_no": "26",
+   "col_no": "25",
    "name": "SATI-PRE. ACT | R",
    "header": [
     "SATI-PRE. ACT",
     "R"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "SATI-PRE. ACT | P",
+   "header": [
+    "SATI-PRE. ACT",
+    "P"
    ]
   },
   {
@@ -232,23 +240,23 @@
   },
   {
    "col_no": "31",
-   "name": "IND.REP. OF WOMEN (PI) ACT (31)",
+   "name": "IND.REP. OF WOMEN (P) ACT (31)",
    "header": [
-    "IND.REP. OF WOMEN (PI) ACT"
+    "IND.REP. OF WOMEN (P) ACT"
    ]
   },
   {
    "col_no": "32",
-   "name": "IND.REP. OF WOMEN (PI) ACT (32)",
+   "name": "IND.REP. OF WOMEN (P) ACT (32)",
    "header": [
-    "IND.REP. OF WOMEN (PI) ACT"
+    "IND.REP. OF WOMEN (P) ACT"
    ]
   },
   {
    "col_no": "33",
-   "name": "IND.REP. OF WOMEN (PI) ACT (33)",
+   "name": "IND.REP. OF WOMEN (P) ACT (33)",
    "header": [
-    "IND.REP. OF WOMEN (PI) ACT"
+    "IND.REP. OF WOMEN (P) ACT"
    ]
   },
   {
@@ -292,9 +300,9 @@
   "cells_checked": 24,
   "cells_passed": 21,
   "failures": [
-   "col 16 'TOTAL (STATES)': printed 30347, sum 27380",
-   "col 19 'TOTAL (STATES)': printed 7929, sum 6879",
-   "col 22 'TOTAL (STATES)': printed 146, sum 138"
+   "col 15 'TOTAL (STATES)': printed 30347, sum 27380",
+   "col 18 'TOTAL (STATES)': printed 7929, sum 6879",
+   "col 21 'TOTAL (STATES)': printed 146, sum 138"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

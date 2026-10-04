@@ -23,7 +23,7 @@
  ],
  "n_rows": 47,
  "n_cols": 21,
- "n_cells": 987,
+ "n_cells": 984,
  "columns": [
   {
    "col_no": "3",
@@ -197,14 +197,13 @@
  "notes": [],
  "checks": {
   "cells_checked": 45,
-  "cells_passed": 39,
+  "cells_passed": 40,
   "failures": [
    "col 11 'Total (UTs)': printed 1943, sum 1940",
    "col 11 'Total (All - India)': printed 45862, sum 45882",
-   "col 13 'Total (States)': printed 58920, sum 58900",
+   "col 13 'Total (States)': printed 56920, sum 58900",
    "col 13 'Total (UTs)': printed 2250, sum 490",
-   "col 15 'Total (UTs)': printed 902, sum 802",
-   "col 15 'Total (All - India)': printed 20906, sum 21006"
+   "col 13 'Total (All - India)': printed 61170, sum 59170"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

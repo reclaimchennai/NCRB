@@ -1,0 +1,162 @@
+{
+ "table_id": "adsi/1985/2_appendix-1-1985",
+ "publication": "adsi",
+ "year": 1985,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "2",
+ "title": "State wise distribution of Accidental Deaths due to Natural Causes during 1985",
+ "listing_title": "State wise distribution of Accidental Deaths due to Natural Causes during 1985",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-1_1985.pdf",
+ "source_file": "raw/adsi/1985/table_content/appendix-1_1985.pdf",
+ "source_sha256": "2b1a009579e922c98b5b0ba72c04e63bd52bc9b5ea02e285737b8aa7dd60e226",
+ "table_no": "",
+ "pdf_title": "43 APPENDIX—1 Statewise Distribution Of Accidental Deaths Due To Natural Causes During 1985",
+ "row_label": "Sl. No. / Sl. No.",
+ "pages": [
+  1,
+  1,
+  2
+ ],
+ "n_rows": 29,
+ "n_cols": 15,
+ "n_cells": 435,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "By lightning | M",
+   "header": [
+    "By lightning",
+    "M"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "By lightning | F",
+   "header": [
+    "By lightning",
+    "F"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "By heat strokes | M",
+   "header": [
+    "By heat strokes",
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "By heat strokes | F",
+   "header": [
+    "By heat strokes",
+    "F"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By floods | M",
+   "header": [
+    "By floods",
+    "M"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "By floods | F",
+   "header": [
+    "By floods",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "By land slides | M",
+   "header": [
+    "By land slides",
+    "M"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "By land slides | F",
+   "header": [
+    "By land slides",
+    "F"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "By cold & exposure | M",
+   "header": [
+    "By cold & exposure",
+    "M"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "By cold & exposure | F",
+   "header": [
+    "By cold & exposure",
+    "F"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "By cyclone | M",
+   "header": [
+    "By cyclone",
+    "M"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "By cyclone | F",
+   "header": [
+    "By cyclone",
+    "F"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Total | M",
+   "header": [
+    "Total",
+    "M"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Grand total | F (M+F)",
+   "header": [
+    "Grand total",
+    "F (M+F)"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 13,
+  "failures": [
+   "col 5 'TOTAL (STATES)': printed 326, sum 331",
+   "col 6 'TOTAL (STATES)': printed 202, sum 196"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

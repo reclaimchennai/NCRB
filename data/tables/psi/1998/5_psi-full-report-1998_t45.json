@@ -21,7 +21,7 @@
   135,
   136
  ],
- "n_rows": 36,
+ "n_rows": 35,
  "n_cols": 28,
  "n_cells": 980,
  "columns": [
@@ -123,10 +123,10 @@
   },
   {
    "col_no": "15",
-   "name": "PROBATION OFFICER | SANCT- IONED",
+   "name": "PROBATION OFFICER | SANCT-IONED",
    "header": [
     "PROBATION OFFICER",
-    "SANCT- IONED"
+    "SANCT-IONED"
    ]
   },
   {
@@ -253,17 +253,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 83,
-  "cells_passed": 75,
-  "failures": [
-   "col 11 'TOTAL (UTS)': printed 92, sum 89",
-   "col 12 'TOTAL (UTS)': printed 32, sum 29",
-   "col 13 'TOTAL (UTS)': printed 2, sum 0",
-   "col 14 'TOTAL (UTS)': printed 2, sum 0",
-   "col 17 'TOTAL (UTS)': printed 1, sum 0",
-   "col 18 'TOTAL (UTS)': printed 1, sum 0",
-   "col 29 'TOTAL (UTS)': printed 116, sum 110",
-   "col 30 'TOTAL (UTS)': printed 113, sum 107"
-  ],
+  "cells_passed": 83,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

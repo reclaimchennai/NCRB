@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-70-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-70-1993-crime.pdf",
  "source_sha256": "107037183a0d66bf98fcb18133ad5a19f45d9ebba94fe73e6153de4b329106d4",
- "table_no": "70",
- "pdf_title": "297 TABLE-70 NUMBER OF CASES REPORTED AND VALUE OF PROPERTY STOLEN BY PLACE OF OCCURRENCE DURING 1993 (STATE, UT & CITY-WISE)",
- "row_label": "SL NO / STATE/UT",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL NO. / STATE/U.F.",
  "pages": [
   1,
   2,
@@ -28,17 +28,17 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "RESIDENTIAL PROMISES | NUMBER",
+   "name": "RESIDENTIAL PREMISES | NUMBER",
    "header": [
-    "RESIDENTIAL PROMISES",
+    "RESIDENTIAL PREMISES",
     "NUMBER"
    ]
   },
   {
    "col_no": "4",
-   "name": "RESIDENTIAL PROMISES | VALUE",
+   "name": "RESIDENTIAL PREMISES | VALUE",
    "header": [
-    "RESIDENTIAL PROMISES",
+    "RESIDENTIAL PREMISES",
     "VALUE"
    ]
   },
@@ -92,9 +92,9 @@
   },
   {
    "col_no": "13",
-   "name": "BANKS | VALUE",
+   "name": "BANK'S | VALUE",
    "header": [
-    "BANKS",
+    "BANK'S",
     "VALUE"
    ]
   },
@@ -149,14 +149,13 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 8,
+  "cells_checked": 7,
   "cells_passed": 6,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 6872, sum 6822",
-   "col 5 'TOTAL (STATES)': printed 8407, sum 6407"
+   "col 5 'TOTAL (ALL-INDIA)': printed 8490, sum 6490"
   ],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 4,
+  "other_totals_passed": 4
  },
  "inferred_pages": 0,
  "ocr_pages": 4,

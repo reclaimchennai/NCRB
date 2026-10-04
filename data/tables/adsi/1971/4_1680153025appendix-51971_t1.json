@@ -6,7 +6,7 @@
  "topic": "Suicides in India",
  "section": "SUICIDES IN INDIA",
  "serial": "4",
- "title": "40 APPENDIX V STATEMENT OF NUMBER OF SUICIDES IN STATES(U.TS./CITIES DURING 1971",
+ "title": "APPENDIX V Cond",
  "listing_title": "Statement of Number of Suicides in States/UTs./Cities - 1971 (By Causes)",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,17 +14,31 @@
  "source_file": "raw/adsi/1971/table_content/1680153025appendix-51971.pdf",
  "source_sha256": "1c16303fcffa563ec229ff3634ed14f84d681a7b7f85701626739b52528b17b8",
  "table_no": "",
- "pdf_title": "40 APPENDIX V STATEMENT OF NUMBER OF SUICIDES IN STATES(U.TS./CITIES DURING 1971",
- "row_label": "M / F",
+ "pdf_title": "APPENDIX V Cond",
+ "row_label": "Sl. No.",
  "pages": [
   1,
   3,
   3
  ],
- "n_rows": 22,
- "n_cols": 24,
- "n_cells": 434,
+ "n_rows": 23,
+ "n_cols": 22,
+ "n_cells": 400,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "M (3)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "F (4)",
+   "header": [
+    "F"
+   ]
+  },
   {
    "col_no": "5",
    "name": "M (5)",
@@ -82,106 +96,84 @@
    ]
   },
   {
+   "col_no": "2",
+   "name": "Names of States/U.Ts./Cities",
+   "header": [
+    "Names of States/U.Ts./Cities"
+   ]
+  },
+  {
    "col_no": "13",
    "name": "col_13",
    "header": []
   },
   {
-   "col_no": "14",
-   "name": "col_14",
+   "col_no": "10001",
+   "name": "col_10001",
    "header": []
   },
   {
-   "col_no": "2",
-   "name": "Names of States/UTs./Cities",
-   "header": [
-    "Names of States/UTs./Cities"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "Insanity",
-   "header": [
-    "Insanity"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "Dispute over property",
-   "header": [
-    "Dispute over property"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "M (10001)",
+   "col_no": "10002",
+   "name": "M (10002)",
    "header": [
     "M"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "F (10002)",
-   "header": [
-    "F"
    ]
   },
   {
    "col_no": "10003",
-   "name": "M (10003)",
+   "name": "F (10003)",
    "header": [
-    "M"
+    "F"
    ]
   },
   {
    "col_no": "10004",
-   "name": "F (10004)",
+   "name": "M (10004)",
    "header": [
-    "F"
+    "M"
    ]
   },
   {
    "col_no": "10005",
-   "name": "M (10005)",
+   "name": "F (10005)",
    "header": [
-    "M"
+    "F"
    ]
   },
   {
    "col_no": "10006",
-   "name": "F (10006)",
-   "header": [
-    "F"
-   ]
-  },
-  {
-   "col_no": "10007",
-   "name": "M (10007)",
+   "name": "M (10006)",
    "header": [
     "M"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "F (10008)",
+   "col_no": "10007",
+   "name": "F (10007)",
    "header": [
     "F"
    ]
   },
   {
+   "col_no": "10008",
+   "name": "M (10008)",
+   "header": [
+    "M"
+   ]
+  },
+  {
    "col_no": "10009",
-   "name": "col_10009",
-   "header": []
+   "name": "F (10009)",
+   "header": [
+    "F"
+   ]
   },
   {
    "col_no": "10010",
-   "name": "col_10010",
-   "header": []
-  },
-  {
-   "col_no": "15",
-   "name": "col_15",
-   "header": []
+   "name": "M (10010)",
+   "header": [
+    "M"
+   ]
   }
  ],
  "notes": [],
@@ -189,8 +181,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 17,
-  "other_totals_passed": 10
+  "other_totals_checked": 20,
+  "other_totals_passed": 15
  },
  "inferred_pages": 0,
  "ocr_pages": 3,

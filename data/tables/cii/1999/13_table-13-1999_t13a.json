@@ -21,7 +21,7 @@
   4,
   5
  ],
- "n_rows": 62,
+ "n_rows": 60,
  "n_cols": 28,
  "n_cells": 1652,
  "columns": [
@@ -75,17 +75,17 @@
   },
   {
    "col_no": "9",
-   "name": "LOVE AFFAIRS/ SEXUAL CAUSES | MURDER",
+   "name": "LOVE AFFAIRS/SEXUAL CAUSES | MURDER",
    "header": [
-    "LOVE AFFAIRS/ SEXUAL CAUSES",
+    "LOVE AFFAIRS/SEXUAL CAUSES",
     "MURDER"
    ]
   },
   {
    "col_no": "10",
-   "name": "LOVE AFFAIRS/ SEXUAL CAUSES | C.H.",
+   "name": "LOVE AFFAIRS/SEXUAL CAUSES | C.H.",
    "header": [
-    "LOVE AFFAIRS/ SEXUAL CAUSES",
+    "LOVE AFFAIRS/SEXUAL CAUSES",
     "C.H."
    ]
   },
@@ -253,16 +253,14 @@
  "notes": [],
  "checks": {
   "cells_checked": 112,
-  "cells_passed": 102,
+  "cells_passed": 106,
   "failures": [
    "col 9 'TOTAL STATES': printed 2528, sum 2526",
    "col 11 'TOTAL STATES': printed 1060, sum 1058",
    "col 13 'TOTAL STATES': printed 88, sum 71",
    "col 14 'TOTAL STATES': printed 9, sum 8",
    "col 15 'TOTAL STATES': printed 78, sum 75",
-   "col 25 'TOTAL STATES': printed 105, sum 100",
-   "col 27 'TOTAL STATES': printed 21457, sum 20956",
-   "col 28 'TOTAL STATES': printed 3065, sum 2896"
+   "col 28 'TOTAL STATES': printed 3065, sum 3265"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

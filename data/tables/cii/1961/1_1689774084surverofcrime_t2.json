@@ -6,7 +6,7 @@
  "topic": "",
  "section": "Crime in India 1961",
  "serial": "1",
- "title": "4 TOTAL COGNI",
+ "title": "The all-India percentage of persons convicted to those tried was 49.3 (49.0 of 1960). CASUALTIES AMONG THE POLICE 39 Police Officers and men were killed and 1557 injured during the year in the performance of their duty. The highest number killed was in Madhya Pradesh and Uttar Pradesh (9 each) followed by Gujarat and West Bengal (3 each). Among the injured, Maharashtra accounted for (383), West Bengal (372), Assam (128), Gujarat (111), and Rajasthan (107). JUVENILE DELINQUENCY STATISTICS The four tables given below show the number of juveniles apprehended according to their age groups under some of the more important heads of crime, how they were dealt with, the total cognizable crime for the States, Union Territories and important cities and the crime under different heads. Juveniles Apprehended under Age Groups",
  "listing_title": "Chapter",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,51 +14,102 @@
  "source_file": "raw/cii/1961/year_wise/1689774084SurverOfCrime.pdf",
  "source_sha256": "f9e87b72c9599d6eee920b83e3550f13cea3ea506e0a78928544b95fdd932f94",
  "table_no": "",
- "pdf_title": "4 TOTAL COGNI",
- "row_label": "Serial No. / States, Union Territories etc.",
+ "pdf_title": "The all-India percentage of persons convicted to those tried was 49.3 (49.0 of 1960). CASUALTIES AMONG THE POLICE 39 Police Officers and men were killed and 1557 injured during the year in the performance of their duty. The highest number killed was in Madhya Pradesh and Uttar Pradesh (9 each) followed by Gujarat and West Bengal (3 each). Among the injured, Maharashtra accounted for (383), West Bengal (372), Assam (128), Gujarat (111), and Rajasthan (107). JUVENILE DELINQUENCY STATISTICS The four tables given below show the number of juveniles apprehended according to their age groups under some of the more important heads of crime, how they were dealt with, the total cognizable crime for the States, Union Territories and important cities and the crime under different heads. Juveniles Apprehended under Age Groups",
+ "row_label": "Head of crime",
  "pages": [
-  4
+  13,
+  14,
+  16
  ],
- "n_rows": 38,
- "n_cols": 4,
- "n_cells": 152,
+ "n_rows": 48,
+ "n_cols": 9,
+ "n_cells": 378,
  "columns": [
   {
+   "col_no": "2",
+   "name": "7-12 | Boys",
+   "header": [
+    "7-12",
+    "Boys"
+   ]
+  },
+  {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "7-12 | Girls",
+   "header": [
+    "7-12",
+    "Girls"
+   ]
   },
   {
    "col_no": "4",
-   "name": "1958",
+   "name": "12-16 | Boys",
    "header": [
-    "1958"
+    "12-16",
+    "Boys"
    ]
   },
   {
    "col_no": "5",
-   "name": "1959",
+   "name": "12-16 | Girls",
    "header": [
-    "1959"
+    "12-16",
+    "Girls"
    ]
   },
   {
    "col_no": "6",
-   "name": "1960",
+   "name": "16-21 | Boys",
    "header": [
-    "1960"
+    "16-21",
+    "Boys"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "16-21 | Girls",
+   "header": [
+    "16-21",
+    "Girls"
+   ]
+  },
+  {
+   "col_no": "10001",
+   "name": "DELINQUENCY | Murder",
+   "header": [
+    "DELINQUENCY",
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "10002",
+   "name": "Kidnapping & Abduction",
+   "header": [
+    "Kidnapping & Abduction"
+   ]
+  },
+  {
+   "col_no": "10003",
+   "name": "Dacority",
+   "header": [
+    "Dacority"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "53776 Juveniles were apprehended this year as against 49276 in 1960, showing an increase of 9.1 per cent.",
+  "*These include mainly-(i) Children apprehended for begging; (ii) Children found intoxicated by liquor or dangerous drugs; (iii) Children indulging in betting or borrowing; (iv) Children apprehended from brothels; (v) Children indulging in smoking etc; (vi) Children having no homes, settled place or visible means of subsistence or having no parents or guardians who could exercise regular and proper guardianship.",
+  "†These include offences under the Indian Penal Code, Indian Arms Act, Explosives Act, Explosive Substances Act, Habitual Offenders Act, Indian Railways Act, (Petty cases) etc",
+  "\\(^{{*}}\\)This classification includes Juveniles admonished, fined, bound down for good behaviour state."
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 0,
-  "other_totals_passed": 0
+  "other_totals_checked": 29,
+  "other_totals_passed": 19
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 3,
  "warnings": []
 }

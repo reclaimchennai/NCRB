@@ -25,18 +25,17 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "TOTAL | NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
+   "name": "TOTALNO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "TOTAL",
-    "NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+    "TOTALNO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
    "col_no": "4",
-   "name": "TOTAL | COMP- OUNDED OR WITH- DRAWN",
+   "name": "NO. OF CASES | COMP-OUNDED OR WITH-DRAWN",
    "header": [
-    "TOTAL",
-    "COMP- OUNDED OR WITH- DRAWN"
+    "NO. OF CASES",
+    "COMP-OUNDED OR WITH-DRAWN"
    ]
   },
   {
@@ -49,26 +48,25 @@
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES | ACQUIT- TED OR DIS- CHARGED",
+   "name": "NO. OF CASES | COMPLETED ACQUIT-TED OR DIS-CHARGED",
    "header": [
     "NO. OF CASES",
-    "ACQUIT- TED OR DIS- CHARGED"
+    "COMPLETED ACQUIT-TED OR DIS-CHARGED"
    ]
   },
   {
    "col_no": "7",
-   "name": "NO. OF CASES | COMPLETED TOTAL {(5)+ (6)}",
+   "name": "NO. OF CASES | PENDING TRIAL TOTAL {(5)+ (6)}",
    "header": [
     "NO. OF CASES",
-    "COMPLETED TOTAL {(5)+ (6)}"
+    "PENDING TRIAL TOTAL {(5)+ (6)}"
    ]
   },
   {
    "col_no": "8",
-   "name": "NO. OF CASES | PENDING TRIAL",
+   "name": "NO. OF CASES",
    "header": [
-    "NO. OF CASES",
-    "PENDING TRIAL"
+    "NO. OF CASES"
    ]
   }
  ],
@@ -78,7 +76,7 @@
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 6,
-  "other_totals_passed": 5
+  "other_totals_passed": 6
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

@@ -15,7 +15,7 @@
  "source_sha256": "68292e5fd6f9ee87db4c4da1e63656946d9ae411ba84f019ca59704fffbb9a82",
  "table_no": "66",
  "pdf_title": "191 TABLE-66 SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE AS ON 31.12.1988",
- "row_label": "SL. NO. / STATE/UT/CITY",
+ "row_label": "SL. STATE/UT/CITY NO.",
  "pages": [
   1
  ],
@@ -25,33 +25,33 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "DG/1G/DIG/SP | SANC-TIONED",
+   "name": "DG/IG/DIG/SP | SANC-TIONED",
    "header": [
-    "DG/1G/DIG/SP",
+    "DG/IG/DIG/SP",
     "SANC-TIONED"
    ]
   },
   {
    "col_no": "4",
-   "name": "DG/1G/DIG/SP | ACTUAL",
+   "name": "DG/IG/DIG/SP | ACTUAL",
    "header": [
-    "DG/1G/DIG/SP",
+    "DG/IG/DIG/SP",
     "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "A&P & DSP | SANC-TIONED",
+   "name": "ASP & DSP | SANC-TIONED",
    "header": [
-    "A&P & DSP",
+    "ASP & DSP",
     "SANC-TIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "A&P & DSP | ACTUAL",
+   "name": "ASP & DSP | ACTUAL",
    "header": [
-    "A&P & DSP",
+    "ASP & DSP",
     "ACTUAL"
    ]
   },
@@ -107,10 +107,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 30,
-  "cells_passed": 29,
-  "failures": [
-   "col 7 'TOTAL (STATES)': printed 11321, sum 11303"
-  ],
+  "cells_passed": 30,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

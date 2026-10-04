@@ -8,38 +8,59 @@
  "serial": "2",
  "title": "Crime under Different Heads",
  "listing_title": "Crime under Different Heads",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-2-1966.pdf",
  "source_file": "raw/cii/1966/table_content/table-2-1966.pdf",
  "source_sha256": "cb8c3cdda8c646fdfbe059d296bdd3c2f75714206dfff5f5c52e3a12b8e0dc40",
  "table_no": "",
- "pdf_title": "TABLE",
- "row_label": "",
+ "pdf_title": "No. II DIFFERENT HEADS",
+ "row_label": "Sl. No.",
  "pages": [
-  1
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  2
  ],
  "n_rows": 27,
- "n_cols": 3,
- "n_cells": 80,
+ "n_cols": 4,
+ "n_cells": 94,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
    "col_no": "3",
-   "name": "CRIME UNDER (3)",
+   "name": "1961",
    "header": [
-    "CRIME UNDER"
+    "1961"
    ]
   },
   {
    "col_no": "4",
-   "name": "CRIME UNDER (4)",
+   "name": "1962",
    "header": [
-    "CRIME UNDER"
+    "1962"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "1963",
+   "header": [
+    "1963"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Percentage change over Q.A.",
+   "header": [
+    "Percentage change over Q.A."
    ]
   }
  ],
@@ -51,7 +72,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 13,
  "warnings": []
 }

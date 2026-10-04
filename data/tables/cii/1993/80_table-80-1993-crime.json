@@ -8,82 +8,121 @@
  "serial": "80",
  "title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1993 (Women only)",
  "listing_title": "Sanctioned and Actual Strength of Armed Police as on 31.12.1993 (Women only)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-80-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-80-1993-crime.pdf",
  "source_sha256": "9cf0b285dedb0bbfa953f8fe323facf31ee2c49821f532630393df77cf73f9a2",
- "table_no": "",
- "pdf_title": "TASLESO SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE",
- "row_label": "",
+ "table_no": "80",
+ "pdf_title": "335 TABLE-80 SANCTIONED AND ACTUAL STRENGTH OF ARMED POLICE",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 33,
- "n_cols": 9,
- "n_cells": 211,
+ "n_rows": 58,
+ "n_cols": 10,
+ "n_cells": 580,
  "columns": [
   {
-   "col_no": "2",
-   "name": "col_2",
-   "header": []
-  },
-  {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "DOGUE/SP | SANC TIONED",
+   "header": [
+    "DOGUE/SP",
+    "SANC TIONED"
+   ]
   },
   {
    "col_no": "4",
-   "name": "AS ON 31.12.1993 (WOMEN ONLY) (4)",
+   "name": "DOGUE/SP | ACTUAL",
    "header": [
-    "AS ON 31.12.1993 (WOMEN ONLY)"
+    "DOGUE/SP",
+    "ACTUAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "AS ON 31.12.1993 (WOMEN ONLY) (5)",
+   "name": "ASP & DEP | SANC TIONED",
    "header": [
-    "AS ON 31.12.1993 (WOMEN ONLY)"
+    "ASP & DEP",
+    "SANC TIONED"
    ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "ASP & DEP | ACTUAL",
+   "header": [
+    "ASP & DEP",
+    "ACTUAL"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "INSPECTOR, SI & A.S.I. | SANC TIONED",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "SANC TIONED"
+   ]
   },
   {
    "col_no": "8",
-   "name": "col_8",
-   "header": []
+   "name": "INSPECTOR, SI & A.S.I. | ACTUAL",
+   "header": [
+    "INSPECTOR, SI & A.S.I.",
+    "ACTUAL"
+   ]
   },
   {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "OFFICERS BELOW A.S.I. | SANC TIONED",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "SANC TIONED"
+   ]
   },
   {
    "col_no": "10",
-   "name": "col_10",
-   "header": []
+   "name": "OFFICERS BELOW A.S.I. | ACTUAL",
+   "header": [
+    "OFFICERS BELOW A.S.I.",
+    "ACTUAL"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "TOTAL | SANC TIONED",
+   "header": [
+    "TOTAL",
+    "SANC TIONED"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "TOTAL | ACTUAL",
+   "header": [
+    "TOTAL",
+    "ACTUAL"
+   ]
   }
  ],
- "notes": [
-  "!"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
-  "failures": [],
+  "cells_checked": 30,
+  "cells_passed": 22,
+  "failures": [
+   "col 7 'TOTAL (ALL INDIA)': printed 10, sum 30",
+   "col 9 'TOTAL (STATE)': printed 837, sum 637",
+   "col 9 'TOTAL (ALL INDIA)': printed 563, sum 853",
+   "col 10 'TOTAL (STATE)': printed 801, sum 601",
+   "col 11 'TOTAL (STATE)': printed 688, sum 669",
+   "col 11 'TOTAL (ALL INDIA)': printed 888, sum 705",
+   "col 12 'TOTAL (STATE)': printed 670, sum 620",
+   "col 12 'TOTAL (ALL INDIA)': printed 688, sum 705"
+  ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
- "ocr_pages": 1,
+ "inferred_pages": 0,
+ "ocr_pages": 2,
  "warnings": []
 }

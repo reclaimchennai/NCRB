@@ -8,47 +8,63 @@
  "serial": "6",
  "title": "Property Stolen and Recovered",
  "listing_title": "Property Stolen and Recovered",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/chapter-6-1974.pdf",
  "source_file": "raw/cii/1974/table_chapter/chapter-6-1974.pdf",
  "source_sha256": "251e90e76e0c72cf85bfc7deebaf4d640a60b3e803fc497e7b23ff5731baae0a",
- "table_no": "",
- "pdf_title": "o4",
- "row_label": "6.3 Peeper The distribution of per cent). Category of offences SL Ne, / Category of Offences / stolen and which as / in heaviest different loss categories of property of wis offences under revealed the crime that bead the “Thefts? (37.6) per cent) followed by Dacoity (32.8) These two crime heads together account Property stolen aid No, ofcesesin iy",
+ "table_no": "48",
+ "pdf_title": "94 #### 6.3 Category of Offences The distribution of property stolen and recovered in different categories of offences revealed that the heaviest loss of property was under the crime head 'Thefts' (37·6 per cent) followed by Ducoity (32·8 per cent). These two crime heads together accounted for the loss of property amounting to Rs. 37,12,83,000 in as many as 3,93,379 cases. The percentage of property recovered in case of Robbery was 20·8 per cent, followed by Burglary 17·9 per cent and Criminal Breach of Trust 14·2 per cent. The relevant statistics are presented in Table 48.",
+ "row_label": "1. Wire 2. Cattle 3. Cycle 4. Motor Vehicles & Accessories 5. Fire-Arms",
  "pages": [
   2
  ],
- "n_rows": 17,
+ "n_rows": 1,
  "n_cols": 4,
- "n_cells": 50,
+ "n_cells": 4,
  "columns": [
   {
-   "col_no": "5",
-   "name": "ed for the and Criminal 20-8 relewant oy No. ofcnces which",
+   "col_no": "3",
+   "name": "15,020 | 25,531 | 56,861 | 10,512 | 941",
    "header": [
-    "ed for the and Criminal 20-8 relewant oy No. ofcnces which"
+    "15,020",
+    "25,531",
+    "56,861",
+    "10,512",
+    "941"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "105-10 | 169-50 | 23-19 | 1365-07 | 14-09",
+   "header": [
+    "105-10",
+    "169-50",
+    "23-19",
+    "1365-07",
+    "14-09"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "21-66 | 86-39 | 31-73 | 700-50 | 5-49",
+   "header": [
+    "21-66",
+    "86-39",
+    "31-73",
+    "700-50",
+    "5-49"
    ]
   },
   {
    "col_no": "6",
-   "name": "loss centage of property Breach of Trust gre of Value ofpro- Min inks oka",
+   "name": "20-6 | 51-1 | 25-8 | 51-3 | 39-0",
    "header": [
-    "loss centage of property Breach of Trust gre of Value ofpro- Min inks oka"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "of in 3 14-2 per cent. in Table 48. Value ofpro- ”",
-   "header": [
-    "of in 3 14-2 per cent. in Table 48. Value ofpro- ”"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "Ra, to 37,12,83,000 in as many as 3,935,379 cases, The porcast of B obbery was 90-8 per cent, t. Foil followed by B Burglary 4 Pet oon The cf evened bo property",
-   "header": [
-    "Ra, to 37,12,83,000 in as many as 3,935,379 cases, The porcast of B obbery was 90-8 per cent, t. Foil followed by B Burglary 4 Pet oon The cf evened bo property"
+    "20-6",
+    "51-1",
+    "25-8",
+    "51-3",
+    "39-0"
    ]
   }
  ],
@@ -57,10 +73,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

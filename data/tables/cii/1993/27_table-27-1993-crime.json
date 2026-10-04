@@ -8,52 +8,55 @@
  "serial": "27",
  "title": "Persons Arrested under IPC Crimes During 1993 and Percentage Variation in 1993 over 1992 (State, UT & City-Wise)",
  "listing_title": "Persons Arrested under IPC Crimes During 1993 and Percentage Variation in 1993 over 1992 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-27-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-27-1993-crime.pdf",
  "source_sha256": "b979aa70a65a812251b5bc4245410889eb979bf16655691e44fcce0df17757ea",
- "table_no": "27",
- "pdf_title": "PERSONS ARRESTED UNDER IPC CRIMES DURING 1993 AND PERCENTAGE VARIATION IN 1993 OVER 1992 (STATE, UT & CITY-WISE)",
- "row_label": "",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SE. MO.",
  "pages": [
   1,
   2
  ],
- "n_rows": 55,
+ "n_rows": 58,
  "n_cols": 4,
- "n_cells": 218,
+ "n_cells": 232,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "1982",
+   "header": [
+    "1982"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "1983",
+   "header": [
+    "1983"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "PERCENTAGE VARIATION IN 1993 OVER 1992",
+   "header": [
+    "PERCENTAGE VARIATION IN 1993 OVER 1992"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING 1993",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA DURING 1993"
+   ]
   }
  ],
- "notes": [
-  "22A—177 NCRB/9S.",
-  ".7",
-  "Note: 1. NR stands for data not received.",
-  "2. Percentage variation and contribution less than 0.05 is also shown as 0.0."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 6,
+  "cells_passed": 6,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

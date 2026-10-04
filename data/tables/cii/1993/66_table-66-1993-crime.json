@@ -13,60 +13,51 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-66-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-66-1993-crime.pdf",
  "source_sha256": "f83c369876d327ceef862b681d023578db26397ad7ee155fb76d44a4e511cd61",
- "table_no": "66",
- "pdf_title": "286 TABLE-66 VALUE OF PROPERTY STOLEN & RECOVERED AND PERCENTAGE RECOVERY DURING 1993",
- "row_label": "No. / NATURE OF PROPERTY",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "EL NO. / NATURE OF PROPERTY",
  "pages": [
   1
  ],
  "n_rows": 11,
- "n_cols": 6,
- "n_cells": 66,
+ "n_cols": 5,
+ "n_cells": 55,
  "columns": [
   {
    "col_no": "3",
-   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | STOLEN",
+   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS",
    "header": [
-    "NUMBER OF CASES IN WHICH PROPERTY WAS",
-    "STOLEN"
+    "NUMBER OF CASES IN WHICH PROPERTY WAS"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER OF CASES IN WHICH PROPERTY WAS | RECOVERED",
-   "header": [
-    "NUMBER OF CASES IN WHICH PROPERTY WAS",
-    "RECOVERED"
-   ]
-  },
-  {
-   "col_no": "5",
    "name": "PERCENTAGE OF CASES OF RECOVERY",
    "header": [
     "PERCENTAGE OF CASES OF RECOVERY"
    ]
   },
   {
-   "col_no": "6",
-   "name": "VALUE OF PROPERTY (in $ million) | STOLEN",
+   "col_no": "5",
+   "name": "VALUE OF PROPERTY (fts. in (knot)) | STOLEN",
    "header": [
-    "VALUE OF PROPERTY (in $ million)",
+    "VALUE OF PROPERTY (fts. in (knot))",
     "STOLEN"
    ]
   },
   {
-   "col_no": "7",
-   "name": "VALUE OF PROPERTY (in $ million) | RECOVERED",
+   "col_no": "6",
+   "name": "VALUE OF PROPERTY (fts. in (knot)) | RECOVERED",
    "header": [
-    "VALUE OF PROPERTY (in $ million)",
+    "VALUE OF PROPERTY (fts. in (knot))",
     "RECOVERED"
    ]
   },
   {
-   "col_no": "8",
-   "name": "PERCENTAGE RECOVERY",
+   "col_no": "7",
+   "name": "PERCENTAGE RECOVERED",
    "header": [
-    "PERCENTAGE RECOVERY"
+    "PERCENTAGE RECOVERED"
    ]
   }
  ],
@@ -75,7 +66,7 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 2,
+  "other_totals_checked": 1,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

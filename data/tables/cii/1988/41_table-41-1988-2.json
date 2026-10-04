@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-41-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-41-1988-2.pdf",
  "source_sha256": "dfc7ad32e987c101d6e4b2457ff39d4c41a5544053c73271bc4a5f8384546628",
- "table_no": "41",
- "pdf_title": "141 TABLE-41 JUVENILES APPREHENDED UNDER IPC & LSL CRIMES BY AGE GROUP & SEX DURING 1988",
- "row_label": "SL.NO. / CRIME HEAD",
+ "table_no": "",
+ "pdf_title": "JUVENILES APPREHENDED UNDER IPC & LSL CRIMES",
+ "row_label": "SL. NO. / CRIME HEAD",
  "pages": [
   1
  ],
@@ -57,17 +57,17 @@
   },
   {
    "col_no": "7",
-   "name": "16-18YEARS | ONLY GIRLS",
+   "name": "16-18 YEARS | ONLY GIRLS",
    "header": [
-    "16-18YEARS",
+    "16-18 YEARS",
     "ONLY GIRLS"
    ]
   },
   {
    "col_no": "8",
-   "name": "16-18YEARS | BOYS",
+   "name": "OVERALL AGE GROUPS | BOYS",
    "header": [
-    "16-18YEARS",
+    "OVERALL AGE GROUPS",
     "BOYS"
    ]
   },
@@ -81,19 +81,21 @@
   },
   {
    "col_no": "10",
-   "name": "OVERALL AGE GROUPS",
+   "name": "TOTAL (BOYS + GIRLS)",
    "header": [
-    "OVERALL AGE GROUPS"
+    "TOTAL (BOYS + GIRLS)"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "NOTE: 7 - 12 YEARS MEANS 7 YEARS & ABOVE HUT BELOW 12 YEARS OF AGE ETC."
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
   "other_totals_checked": 24,
-  "other_totals_passed": 23
+  "other_totals_passed": 24
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

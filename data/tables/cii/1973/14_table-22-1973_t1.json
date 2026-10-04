@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "14",
- "title": "76 TABLE Persons Arrested under",
+ "title": "IPC Crime by Sex",
  "listing_title": "Persons Arrested under IPC Crime by Sex.",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,33 +14,18 @@
  "source_file": "raw/cii/1973/table_content/table-22-1973.pdf",
  "source_sha256": "532eb0928e02e99da3a5a0063b0b76009d2b63bf3249e9f43451571780d90bd4",
  "table_no": "",
- "pdf_title": "76 TABLE Persons Arrested under",
- "row_label": "Sl. No. / States/U.Ts/Cities",
+ "pdf_title": "IPC Crime by Sex",
+ "row_label": "States/U.Ts/Cities",
  "pages": [
-  1
+  1,
+  2
  ],
- "n_rows": 22,
- "n_cols": 6,
- "n_cells": 132,
+ "n_rows": 80,
+ "n_cols": 7,
+ "n_cells": 480,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Total Cognizable crime | Male",
-   "header": [
-    "Total Cognizable crime",
-    "Male"
-   ]
-  },
-  {
    "col_no": "4",
-   "name": "Total Cognizable crime | Female",
-   "header": [
-    "Total Cognizable crime",
-    "Female"
-   ]
-  },
-  {
-   "col_no": "5",
    "name": "Murder | Male",
    "header": [
     "Murder",
@@ -48,7 +33,7 @@
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "5",
    "name": "Murder | Female",
    "header": [
     "Murder",
@@ -56,29 +41,57 @@
    ]
   },
   {
-   "col_no": "7",
-   "name": "Calpable not amounting to Murder",
+   "col_no": "6",
+   "name": "Caliphate | Male",
    "header": [
-    "Calpable not amounting to Murder"
+    "Caliphate",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Homicide not amounting to | Female",
+   "header": [
+    "Homicide not amounting to",
+    "Female"
    ]
   },
   {
    "col_no": "8",
-   "name": "Homicide",
+   "name": "TABLE | Female",
    "header": [
-    "Homicide"
+    "TABLE",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "Kidnapping & Abduction | Female",
+   "header": [
+    "Kidnapping & Abduction",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Kidnapping & Abduction | Male",
+   "header": [
+    "Kidnapping & Abduction",
+    "Male"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "\\(^{{*}}\\)Figure excluding Kerala State."
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "other_totals_checked": 5,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

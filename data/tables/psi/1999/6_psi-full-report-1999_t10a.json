@@ -6,7 +6,7 @@
  "topic": "",
  "section": "PSI Year Wise 1999",
  "serial": "6",
- "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 TABLE-10A",
+ "title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-10A",
  "listing_title": "Download Full Report",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,7 +14,7 @@
  "source_file": "raw/psi/1999/year_wise/psi-full-report-1999.pdf",
  "source_sha256": "73439e2d97806453d168b3d5f7f1f5bd8555f6f1587a223c3d9deba8b14efe5b",
  "table_no": "10A",
- "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS – 1999 TABLE-10A",
+ "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-10A",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
   77,
@@ -34,7 +34,7 @@
   91,
   92
  ],
- "n_rows": 37,
+ "n_rows": 36,
  "n_cols": 128,
  "n_cells": 4480,
  "columns": [
@@ -668,9 +668,9 @@
   },
   {
    "col_no": "10064",
-   "name": "TOTAL (11 + 14 + 17) (10064)",
+   "name": "TOTAL (11+14+17) (10064)",
    "header": [
-    "TOTAL (11 + 14 + 17)"
+    "TOTAL (11+14+17)"
    ]
   },
   {
@@ -787,10 +787,10 @@
   },
   {
    "col_no": "10079",
-   "name": "OTHERS | . T",
+   "name": "OTHERS | T (10079)",
    "header": [
     "OTHERS",
-    ". T"
+    "T"
    ]
   },
   {
@@ -1049,18 +1049,19 @@
   },
   {
    "col_no": "10112",
-   "name": "TOTAL (11 + 14 + 17) (10112)",
+   "name": "TOTAL (11+14+17) (10112)",
    "header": [
-    "TOTAL (11 + 14 + 17)"
+    "TOTAL (11+14+17)"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 384,
-  "cells_passed": 383,
+  "cells_passed": 382,
   "failures": [
-   "col 11 'TOTAL (STATES)': printed 51596, sum 51796"
+   "col 11 'TOTAL (STATES)': printed 51596, sum 51796",
+   "col 10064 'TOTAL (STATES)': printed 1324, sum 763"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -1,0 +1,163 @@
+{
+ "table_id": "adsi/1982/2_appendix-1-1982_t1",
+ "publication": "adsi",
+ "year": 1982,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "2",
+ "title": "State-wise Distribution of Accidental Deaths due to Natural Causes during 1982",
+ "listing_title": "State wise distribution of Accidental Deaths due to Natural Causes during 1982",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-1_1982.pdf",
+ "source_file": "raw/adsi/1982/table_content/appendix-1_1982.pdf",
+ "source_sha256": "8b3e58b506feb3fde1debc571abd21ca553edba0a1b6a7c57c57c95b029bc1f2",
+ "table_no": "",
+ "pdf_title": "State-wise Distribution of Accidental Deaths due to Natural Causes during 1982",
+ "row_label": "Sl. No. / State/UTs/Cities",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 24,
+ "n_cols": 16,
+ "n_cells": 354,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "By Lightning",
+   "header": [
+    "By Lightning"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "By Heat Strokes",
+   "header": [
+    "By Heat Strokes"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "By Floods | M",
+   "header": [
+    "By Floods",
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "F (6)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "M (7)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By Land slides | F",
+   "header": [
+    "By Land slides",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "By Cold & Exposure | M",
+   "header": [
+    "By Cold & Exposure",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "F (10)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "M (11)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "By Cyclones | F",
+   "header": [
+    "By Cyclones",
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "M (13)",
+   "header": [
+    "M"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "F (14)",
+   "header": [
+    "F"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Total | M",
+   "header": [
+    "Total",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Grand Total | F",
+   "header": [
+    "Grand Total",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "(Males & Female)",
+   "header": [
+    "(Males & Female)"
+   ]
+  },
+  {
+   "col_no": "2",
+   "name": "States/UTs/Cities | M",
+   "header": [
+    "States/UTs/Cities",
+    "M"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 15,
+  "cells_passed": 11,
+  "failures": [
+   "col 7 'TOTAL (States)': printed 442, sum 342",
+   "col 10 'TOTAL (States)': printed 158, sum 170",
+   "col 15 'TOTAL (States)': printed 3039, sum 3033",
+   "col 16 'TOTAL (States)': printed 1315, sum 1326"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

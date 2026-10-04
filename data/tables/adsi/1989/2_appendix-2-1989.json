@@ -29,7 +29,7 @@
   10,
   11
  ],
- "n_rows": 52,
+ "n_rows": 50,
  "n_cols": 69,
  "n_cells": 3243,
  "columns": [
@@ -589,16 +589,14 @@
  "notes": [],
  "checks": {
   "cells_checked": 207,
-  "cells_passed": 146,
+  "cells_passed": 201,
   "failures": [
-   "col 9 'Total (States)': printed 662, sum 561",
-   "col 10 'Total (States)': printed 399, sum 323",
-   "col 11 'Total (States)': printed 1061, sum 884",
-   "col 12 'Total (States)': printed 33290, sum 30923",
-   "col 13 'Total (States)': printed 6835, sum 6292",
-   "col 14 'Total (States)': printed 40125, sum 37215",
-   "col 15 'Total (States)': printed 27224, sum 24741",
-   "col 16 'Total (States)': printed 5787, sum 5202"
+   "col 39 'Total (States)': printed 2516, sum 2257",
+   "col 40 'Total (States)': printed 1524, sum 1315",
+   "col 41 'Total (States)': printed 4040, sum 3572",
+   "col 42 'Total (States)': printed 734, sum 671",
+   "col 43 'Total (States)': printed 370, sum 335",
+   "col 44 'Total (States)': printed 1104, sum 1006"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

@@ -13,22 +13,22 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-70-1989-1.pdf",
  "source_file": "raw/cii/1989/table_content/table-70-1989-1.pdf",
  "source_sha256": "959981ef47ef7011fd60b5c2547b89ddac8ab4a9e04a78d2f5c755e106a572f0",
- "table_no": "",
- "pdf_title": "",
- "row_label": "SL. STATE/UT NO.",
+ "table_no": "70",
+ "pdf_title": "208 TABLE-70 STATEMENT OF PERSONS ARRESTED IN COGNIZABLE CRIME CASES UNDER THE PREVENTION OF CORRUPTION ACT & RELATED SECTIONS OF I.P.C. IN STATES & U.Ts DURING 1989",
+ "row_label": "SL. NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 28,
- "n_cols": 23,
+ "n_rows": 54,
+ "n_cols": 22,
  "n_cells": 621,
  "columns": [
   {
    "col_no": "3",
-   "name": "PERSONS IN CUST./BAIL DURING INVESTIGATION AT BEGI-NNING OF THE YEAR",
+   "name": "PERSONS IN CUST. / BAIL DUR-ING INVE-STIGATION AT BEGI-NNING OF THE YEAR",
    "header": [
-    "PERSONS IN CUST./BAIL DURING INVESTIGATION AT BEGI-NNING OF THE YEAR"
+    "PERSONS IN CUST. / BAIL DUR-ING INVE-STIGATION AT BEGI-NNING OF THE YEAR"
    ]
   },
   {
@@ -40,30 +40,30 @@
   },
   {
    "col_no": "5",
-   "name": "PERSONS RELEASED BY POLICE/COURT BEFORE TRIAL DURING YEAR",
+   "name": "PERSONS RELFASED BY POLI-CE/COURT BEFORE TRIAL DURING YEAR",
    "header": [
-    "PERSONS RELEASED BY POLICE/COURT BEFORE TRIAL DURING YEAR"
+    "PERSONS RELFASED BY POLI-CE/COURT BEFORE TRIAL DURING YEAR"
    ]
   },
   {
    "col_no": "6",
-   "name": "PERSONS IN CUST./BAIL DURING INVESTIGATION AT END OF YEAR",
+   "name": "PERSONS IN CUST-ODY/BAIL CASES DURING INVESTI- GATION AT END OF YEAR",
    "header": [
-    "PERSONS IN CUST./BAIL DURING INVESTIGATION AT END OF YEAR"
+    "PERSONS IN CUST-ODY/BAIL CASES DURING INVESTI- GATION AT END OF YEAR"
    ]
   },
   {
    "col_no": "7",
-   "name": "PERSONS IN WHOSE CASES/C/SHEETS WERE LAID DURING YEAR",
+   "name": "PERSONS IN WHOSE CASES C/SHEETS WERE LAID DURING YEAR",
    "header": [
-    "PERSONS IN WHOSE CASES/C/SHEETS WERE LAID DURING YEAR"
+    "PERSONS IN WHOSE CASES C/SHEETS WERE LAID DURING YEAR"
    ]
   },
   {
    "col_no": "8",
-   "name": "PERSONS UNDER TRIAL AT BEG-INNING OF YEAR",
+   "name": "PERSONS UNDER TRIAL AT BEG- INNING OF YEAR",
    "header": [
-    "PERSONS UNDER TRIAL AT BEG-INNING OF YEAR"
+    "PERSONS UNDER TRIAL AT BEG- INNING OF YEAR"
    ]
   },
   {
@@ -75,44 +75,44 @@
   },
   {
    "col_no": "10",
-   "name": "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHERWISE DISPOSED OF",
+   "name": "NO. OF PERSONS WHOSE CASES WITH- DRAWN OR OTHER- WISE DIS- POSED OF",
    "header": [
-    "NO. OF PERSONS WHOSE CASES WITH-DRAWN OR OTHERWISE DISPOSED OF"
+    "NO. OF PERSONS WHOSE CASES WITH- DRAWN OR OTHER- WISE DIS- POSED OF"
    ]
   },
   {
    "col_no": "11",
-   "name": "PERSONS IN CUST./BAIL DURING TRIAL AT END OF YEAR",
+   "name": "PERSONS IN CUS- TODY/ BAIL DURING TRIAL AT END OF YEAR",
    "header": [
-    "PERSONS IN CUST./BAIL DURING TRIAL AT END OF YEAR"
+    "PERSONS IN CUS- TODY/ BAIL DURING TRIAL AT END OF YEAR"
    ]
   },
   {
    "col_no": "12",
-   "name": "PERSONS IN WHOSE CASES TRIAL COMPLETED DURING YEAR",
+   "name": "PERSONS IN WHO- SE CASES TRIAL COMPL- ETED DURING YEAR",
    "header": [
-    "PERSONS IN WHOSE CASES TRIAL COMPLETED DURING YEAR"
+    "PERSONS IN WHO- SE CASES TRIAL COMPL- ETED DURING YEAR"
    ]
   },
   {
    "col_no": "13",
-   "name": "PERSONS CONVICIED DURING YEAR",
+   "name": "PERSONS CONVIC- TED DURING YEAR",
    "header": [
-    "PERSONS CONVICIED DURING YEAR"
+    "PERSONS CONVIC- TED DURING YEAR"
    ]
   },
   {
    "col_no": "14",
-   "name": "PERSONS ACQUIRED DURING YEAR",
+   "name": "PERSONS ACQUI- TTED DURING YEAR",
    "header": [
-    "PERSONS ACQUIRED DURING YEAR"
+    "PERSONS ACQUI- TTED DURING YEAR"
    ]
   },
   {
    "col_no": "15",
-   "name": "PERCENTAGE OF PERSONS CONVICIED TO TOTAL PERSONS WHOSE TRIAL COMP.",
+   "name": "PERCENTAGE OF PERSONS CONVIC- TED TO TOTAL PERSONS WHOSE TRIAL COMP.",
    "header": [
-    "PERCENTAGE OF PERSONS CONVICIED TO TOTAL PERSONS WHOSE TRIAL COMP."
+    "PERCENTAGE OF PERSONS CONVIC- TED TO TOTAL PERSONS WHOSE TRIAL COMP."
    ]
   },
   {
@@ -156,11 +156,6 @@
    "header": []
   },
   {
-   "col_no": "24",
-   "name": "col_24",
-   "header": []
-  },
-  {
    "col_no": "25",
    "name": "col_25",
    "header": []
@@ -168,14 +163,10 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 66,
-  "cells_passed": 61,
+  "cells_checked": 64,
+  "cells_passed": 63,
   "failures": [
-   "col 16 'TOTAL (STATES)': printed 277, sum 239",
-   "col 22 'TOTAL (STATES)': printed 161, sum 134",
-   "col 23 'TOTAL (STATES)': printed 432, sum 435",
-   "col 24 'TOTAL (STATES)': printed 1361, sum 1292",
-   "col 25 'TOTAL (STATES)': printed 210, sum 190"
+   "col 14 'TOTAL (UTs)': printed 40, sum 1401"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

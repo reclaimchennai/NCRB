@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/44table-44-1990-.pdf",
  "source_file": "raw/cii/1990/table_content/44table-44-1990-.pdf",
  "source_sha256": "cc24ac41c379769e8f42a5bca25db8bb05c189e3a3f3ee69909eb9e583421966",
- "table_no": "",
- "pdf_title": "",
- "row_label": "SL. STATE/UT/CITY NO. / 7 - 12 YEARS BOYS",
+ "table_no": "44",
+ "pdf_title": "158 TABLE-44 JUVENILES APPREHENDED UNDER IPC CRIMES BY",
+ "row_label": "SL.NO. / STATE/UT/CITY",
  "pages": [
   1
  ],
@@ -25,6 +25,14 @@
  "columns": [
   {
    "col_no": "3",
+   "name": "7 - 12 YEARS | BOYS",
+   "header": [
+    "7 - 12 YEARS",
+    "BOYS"
+   ]
+  },
+  {
+   "col_no": "4",
    "name": "7 - 12 YEARS | GIRLS",
    "header": [
     "7 - 12 YEARS",
@@ -32,7 +40,7 @@
    ]
   },
   {
-   "col_no": "4",
+   "col_no": "5",
    "name": "12-16 YEARS | BOYS",
    "header": [
     "12-16 YEARS",
@@ -40,7 +48,7 @@
    ]
   },
   {
-   "col_no": "5",
+   "col_no": "6",
    "name": "12-16 YEARS | GIRLS",
    "header": [
     "12-16 YEARS",
@@ -48,7 +56,7 @@
    ]
   },
   {
-   "col_no": "6",
+   "col_no": "7",
    "name": "16-18 YEARS | GIRLS ONLY",
    "header": [
     "16-18 YEARS",
@@ -56,33 +64,26 @@
    ]
   },
   {
-   "col_no": "7",
-   "name": "16-18 YEARS | BOYS",
-   "header": [
-    "16-18 YEARS",
-    "BOYS"
-   ]
-  },
-  {
    "col_no": "8",
-   "name": "OVERALL AGE GROUP | GIRLS",
+   "name": "16-18 YEARS",
    "header": [
-    "OVERALL AGE GROUP",
-    "GIRLS"
+    "16-18 YEARS"
    ]
   },
   {
    "col_no": "9",
-   "name": "OVERALL AGE GROUP",
+   "name": "OVERALL AGE GROUP | BOYS",
    "header": [
-    "OVERALL AGE GROUP"
+    "OVERALL AGE GROUP",
+    "BOYS"
    ]
   },
   {
    "col_no": "10",
-   "name": "TOTAL (BOYS + GIRLS)",
+   "name": "OVERALL AGE GROUP | GIRLS",
    "header": [
-    "TOTAL (BOYS + GIRLS)"
+    "OVERALL AGE GROUP",
+    "GIRLS"
    ]
   }
  ],
@@ -91,7 +92,7 @@
   "cells_checked": 24,
   "cells_passed": 23,
   "failures": [
-   "col 8 'TOTAL (STATES)': printed 14155, sum 13665"
+   "col 8 'TOTAL (STATES)': printed 14155, sum 13485"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

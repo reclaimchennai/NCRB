@@ -15,7 +15,7 @@
  "source_sha256": "4e126af1422db072662462e4fc3561309741b50dba7b4b33732e2dc478f076ac",
  "table_no": "21",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1999 TABLE 21",
- "row_label": "SL. NO. / STATE/UT",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1
  ],
@@ -25,9 +25,9 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES",
+   "name": "TOTAL NO.OF CASES FOR TRIAL INCLUDING PENDING CASES",
    "header": [
-    "TOTAL NO. OF CASES FOR TRIAL INCLUDING PENDING CASES"
+    "TOTAL NO.OF CASES FOR TRIAL INCLUDING PENDING CASES"
    ]
   },
   {
@@ -39,73 +39,74 @@
   },
   {
    "col_no": "5",
-   "name": "NO. OF CASES | COMPOU- NDED OR WITH- DRAWN",
+   "name": "NO. OF CASES | COMPOU-NDED OR WITH-DRAWN",
    "header": [
     "NO. OF CASES",
-    "COMPOU- NDED OR WITH- DRAWN"
+    "COMPOU-NDED OR WITH-DRAWN"
    ]
   },
   {
    "col_no": "6",
-   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | CONVICTED",
    "header": [
     "NO. OF CASES",
-    "IN WHICH TRIALS WERE COMPLETED"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "NO. OF CASES | CONVICTED",
-   "header": [
-    "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
     "CONVICTED"
    ]
   },
   {
-   "col_no": "8",
-   "name": "NO. OF CASES | ACQUITTED OR DISCHA- RGED",
+   "col_no": "7",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | ACQUITTED OR DISCHA-RGED",
    "header": [
     "NO. OF CASES",
-    "ACQUITTED OR DISCHA- RGED"
+    "IN WHICH TRIALS WERE COMPLETED",
+    "ACQUITTED OR DISCHA-RGED"
    ]
   },
   {
-   "col_no": "9",
-   "name": "NO. OF CASES | TOTAL {(6)+(7)}",
+   "col_no": "8",
+   "name": "NO. OF CASES | IN WHICH TRIALS WERE COMPLETED | TOTAL {(6)+(7)}",
    "header": [
     "NO. OF CASES",
+    "IN WHICH TRIALS WERE COMPLETED",
     "TOTAL {(6)+(7)}"
    ]
   },
   {
-   "col_no": "10",
-   "name": "PENDENCY PERCENT- AGE",
+   "col_no": "9",
+   "name": "NO. OF CASES | PENDING TRIAL",
    "header": [
-    "PENDENCY PERCENT- AGE"
+    "NO. OF CASES",
+    "PENDING TRIAL"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "PENDENCY PERCENT-AGE",
+   "header": [
+    "PENDENCY PERCENT-AGE"
    ]
   },
   {
    "col_no": "11",
-   "name": "PERCENT- AGE OF PENDENCY TO ALL- INDIA TOTAL",
+   "name": "PERCENT-AGE OF PENDENCY TO ALL-INDIA TOTAL",
    "header": [
-    "PERCENT- AGE OF PENDENCY TO ALL- INDIA TOTAL"
+    "PERCENT-AGE OF PENDENCY TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "12",
-   "name": "CONVICT- ION RATE {(6)/(8) *100}",
+   "name": "CONVICT-ION RATE {(6)/(8) *100}",
    "header": [
-    "CONVICT- ION RATE {(6)/(8) *100}"
+    "CONVICT-ION RATE {(6)/(8) *100}"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 21,
-  "cells_passed": 20,
-  "failures": [
-   "col 4 'TOTAL STATES': printed 330, sum 341"
-  ],
+  "cells_passed": 21,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

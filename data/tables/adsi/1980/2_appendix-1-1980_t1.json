@@ -25,17 +25,17 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "By Lighting | M",
+   "name": "By Lightning | M",
    "header": [
-    "By Lighting",
+    "By Lightning",
     "M"
    ]
   },
   {
    "col_no": "4",
-   "name": "By Lighting | F",
+   "name": "By Lightning | F",
    "header": [
-    "By Lighting",
+    "By Lightning",
     "F"
    ]
   },
@@ -146,10 +146,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 15,
-  "cells_passed": 14,
-  "failures": [
-   "col 10 'TOTAL-(STATES)': printed 166, sum 162"
-  ],
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

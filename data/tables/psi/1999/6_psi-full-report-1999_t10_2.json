@@ -17,12 +17,133 @@
  "pdf_title": "N.C.R.B., (M.H.A.) PRISON STATISTICS - 1999 TABLE-10",
  "row_label": "SL. NO. / STATE/UT",
  "pages": [
+  75,
   76
  ],
  "n_rows": 35,
- "n_cols": 1,
- "n_cells": 35,
+ "n_cols": 16,
+ "n_cells": 560,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "MENTALLY ILL | M",
+   "header": [
+    "MENTALLY ILL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "MENTALLY ILL | F",
+   "header": [
+    "MENTALLY ILL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "MENTALLY ILL | T",
+   "header": [
+    "MENTALLY ILL",
+    "T"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "CONVICTS | M",
+   "header": [
+    "CONVICTS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "CONVICTS | F",
+   "header": [
+    "CONVICTS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "CONVICTS | T",
+   "header": [
+    "CONVICTS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "UNDERTRIAL | M",
+   "header": [
+    "UNDERTRIAL",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "UNDERTRIAL | F",
+   "header": [
+    "UNDERTRIAL",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "UNDERTRIAL | T",
+   "header": [
+    "UNDERTRIAL",
+    "T"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "DETENUS | M",
+   "header": [
+    "DETENUS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "DETENUS | F",
+   "header": [
+    "DETENUS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "DETENUS | T",
+   "header": [
+    "DETENUS",
+    "T"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "OTHERS | M",
+   "header": [
+    "OTHERS",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "OTHERS | F",
+   "header": [
+    "OTHERS",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "OTHERS | T",
+   "header": [
+    "OTHERS",
+    "T"
+   ]
+  },
   {
    "col_no": "18",
    "name": "TOTAL (Col.5+8+11+14+17)",
@@ -33,13 +154,13 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 3,
-  "cells_passed": 3,
+  "cells_checked": 48,
+  "cells_passed": 48,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -6,7 +6,7 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "7",
- "title": "36 TABLE Statement showing Districtwise Incidence",
+ "title": "35 7A—panel. Cognizable Crimes reported during the Year 1973",
  "listing_title": "Statement showing District-Wise Incidence of Cognizable Crimes Reported During the Year 1973",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,53 +14,62 @@
  "source_file": "raw/cii/1973/table_content/table-7-1973.pdf",
  "source_sha256": "b9df701eb8a2616c406c0a3c874e44a9fd8da699a4ddc543c5da7f5c686beba3",
  "table_no": "",
- "pdf_title": "36 TABLE Statement showing Districtwise Incidence",
- "row_label": "Sl. No. / Name of District",
+ "pdf_title": "35 7A—panel. Cognizable Crimes reported during the Year 1973",
+ "row_label": "Robbery",
  "pages": [
-  7
+  6
  ],
- "n_rows": 33,
- "n_cols": 5,
- "n_cells": 165,
+ "n_rows": 26,
+ "n_cols": 7,
+ "n_cells": 182,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Number of cases | Murder",
+   "col_no": "2",
+   "name": "Burglary",
    "header": [
-    "Number of cases",
-    "Murder"
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Thefts",
+   "header": [
+    "Thefts"
    ]
   },
   {
    "col_no": "4",
-   "name": "Number of cases | Culpable Homicide not amounting to murder",
+   "name": "Riots",
    "header": [
-    "Number of cases",
-    "Culpable Homicide not amounting to murder"
+    "Riots"
    ]
   },
   {
    "col_no": "5",
-   "name": "Number of cases | Rape",
+   "name": "Criminal breach of trust",
    "header": [
-    "Number of cases",
-    "Rape"
+    "Criminal breach of trust"
    ]
   },
   {
    "col_no": "6",
-   "name": "Number of cases | Kidnapping and Abduction",
+   "name": "Cheating",
    "header": [
-    "Number of cases",
-    "Kidnapping and Abduction"
+    "Cheating"
    ]
   },
   {
    "col_no": "7",
-   "name": "Number of cases | Deceity",
+   "name": "Counter-felting",
    "header": [
-    "Number of cases",
-    "Deceity"
+    "Counter-felting"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Total Cognizable Crime under IPC",
+   "header": [
+    "Total Cognizable Crime under IPC"
    ]
   }
  ],

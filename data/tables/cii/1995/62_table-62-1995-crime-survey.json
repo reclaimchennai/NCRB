@@ -15,28 +15,28 @@
  "source_sha256": "6fc132c22858e5a56d4ed9b85a205b274979d97dd544c781b724fd714fcc1702",
  "table_no": "62",
  "pdf_title": "N.C.R.B.,(M.H.A.) CRIME IN INDIA - 1995 TABLE-62",
- "row_label": "SL. NO. / STATE/UT",
+ "row_label": "SL.NO. / STATE/UT",
  "pages": [
   1,
   2
  ],
- "n_rows": 37,
+ "n_rows": 36,
  "n_cols": 22,
  "n_cells": 770,
  "columns": [
   {
    "col_no": "3",
-   "name": "RAPE (BELOW 16 YEARS) | I",
+   "name": "RAPE(BELOW 16 YEARS) | I",
    "header": [
-    "RAPE (BELOW 16 YEARS)",
+    "RAPE(BELOW 16 YEARS)",
     "I"
    ]
   },
   {
    "col_no": "4",
-   "name": "RAPE (BELOW 16 YEARS) | P",
+   "name": "RAPE(BELOW 16 YEARS) | P",
    "header": [
-    "RAPE (BELOW 16 YEARS)",
+    "RAPE(BELOW 16 YEARS)",
     "P"
    ]
   },
@@ -138,17 +138,17 @@
   },
   {
    "col_no": "17",
-   "name": "SELLING OF GIRLS FOR PROSTITUTION | I",
+   "name": "SELLING CF GIRLS FOR PROSTITUTION | I",
    "header": [
-    "SELLING OF GIRLS FOR PROSTITUTION",
+    "SELLING CF GIRLS FOR PROSTITUTION",
     "I"
    ]
   },
   {
    "col_no": "18",
-   "name": "SELLING OF GIRLS FOR PROSTITUTION | P",
+   "name": "SELLING CF GIRLS FOR PROSTITUTION | P",
    "header": [
-    "SELLING OF GIRLS FOR PROSTITUTION",
+    "SELLING CF GIRLS FOR PROSTITUTION",
     "P"
    ]
   },
@@ -204,9 +204,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 30,
-  "cells_passed": 28,
+  "cells_passed": 29,
   "failures": [
-   "col 23 'TOTAL-(STATES)': printed 5531, sum 5528",
    "col 23 'TOTAL (UTs)': printed 218, sum 212"
   ],
   "other_totals_checked": 0,

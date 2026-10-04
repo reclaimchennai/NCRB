@@ -13,9 +13,9 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1988-2.pdf",
  "source_file": "raw/cii/1988/table_content/table-59-1988-2.pdf",
  "source_sha256": "57edc71461cb0a9f45138ed4529bb1cd660329b10cfae663ab722bf56599e159",
- "table_no": "59",
- "pdf_title": "179 TABLE-59 VICTIMS OF RAPE UNDER DIFFERENT AGE GROUPS DURING 1988 (STATE, UT & CITY-WISE)",
- "row_label": "SL STATE/UT/CITYNO / SL STATE/UT/CITYNO",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL STATE/UT/CITY",
  "pages": [
   1
  ],
@@ -25,51 +25,51 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "NO. OF CASES REPORTED",
+   "name": "NO. OF CASES | REPORTED 10 YEARS",
    "header": [
-    "NO. OF CASES REPORTED"
+    "NO. OF CASES",
+    "REPORTED 10 YEARS"
    ]
   },
   {
    "col_no": "4",
-   "name": "NUMBER OF VICTIMS | BELOW 10 YEARS",
+   "name": "NUMBER OF VICTIMS | BELOW | YEARS",
    "header": [
     "NUMBER OF VICTIMS",
-    "BELOW 10 YEARS"
+    "BELOW",
+    "YEARS"
    ]
   },
   {
    "col_no": "5",
-   "name": "NUMBER OF VICTIMS | 10-16 YEARS",
+   "name": "10-16 | YEARS",
    "header": [
-    "NUMBER OF VICTIMS",
-    "10-16 YEARS"
+    "10-16",
+    "YEARS"
    ]
   },
   {
    "col_no": "6",
-   "name": "NUMBER OF VICTIMS | 16-30 YEARS",
+   "name": "16-30 | YEARS",
    "header": [
-    "NUMBER OF VICTIMS",
-    "16-30 YEARS"
+    "16-30",
+    "YEARS"
    ]
   },
   {
    "col_no": "7",
-   "name": "NUMBER OF VICTIMS | 30 YEARS AND ABOVE",
+   "name": "30 YEARS AND ABOVE | AND ABOVE",
    "header": [
-    "NUMBER OF VICTIMS",
-    "30 YEARS AND ABOVE"
+    "30 YEARS AND ABOVE",
+    "AND ABOVE"
    ]
   }
  ],
  "notes": [],
  "checks": {
   "cells_checked": 15,
-  "cells_passed": 14,
-  "failures": [
-   "col 6 'TOTAL (STATES)': printed 5722, sum 6122"
-  ],
+  "cells_passed": 15,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

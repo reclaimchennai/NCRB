@@ -1,0 +1,89 @@
+{
+ "table_id": "cii/1982/20_table-59-1982",
+ "publication": "cii",
+ "year": 1982,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "20",
+ "title": "Strength of Armed Police as on 31.12.1982",
+ "listing_title": "Strength of Armed Police as on 31.12.1982",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-59-1982.pdf",
+ "source_file": "raw/cii/1982/table_content/table-59-1982.pdf",
+ "source_sha256": "7ff9f9a2518d3f31f2afdbb51b8c1a03b3ba1b84d52c167b0008e8f3b7982e8b",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "St. No.",
+ "pages": [
+  1
+ ],
+ "n_rows": 47,
+ "n_cols": 6,
+ "n_cells": 267,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "States/U.Ts./Cities",
+   "header": [
+    "States/U.Ts./Cities"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "No. of D.Gs./I.Gs. D.Is.G.& Ss.P.",
+   "header": [
+    "No. of D.Gs./I.Gs. D.Is.G.& Ss.P."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "No. of A.Ss.P./ Dy. S.P.",
+   "header": [
+    "No. of A.Ss.P./ Dy. S.P."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "No. of Inspectors & Sub-Inspectors",
+   "header": [
+    "No. of Inspectors & Sub-Inspectors"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "No. of Officers below the rank of S.Is.",
+   "header": [
+    "No. of Officers below the rank of S.Is."
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 8,
+  "cells_passed": 0,
+  "failures": [
+   "col 4 'TOTAL (STATES)': printed 755, sum 1268",
+   "col 4 'TOTAL (U.Ts.)': printed 44, sum 20",
+   "col 5 'TOTAL (STATES)': printed 7436, sum 24556",
+   "col 5 'TOTAL (U.Ts.)': printed 507, sum 310",
+   "col 5 'TOTAL (CITIES)': printed 738, sum 10118",
+   "col 7 'TOTAL (STATES)': printed 193829, sum 170791",
+   "col 7 'TOTAL (U.Ts.)': printed 14143, sum 13484",
+   "col 7 'TOTAL (CITIES)': printed 27493, sum 233004"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

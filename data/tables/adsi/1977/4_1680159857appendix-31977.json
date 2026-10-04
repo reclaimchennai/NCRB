@@ -42,57 +42,56 @@
   },
   {
    "col_no": "5",
-   "name": "Quarrel with spouse | M",
+   "name": "Quarrel with Poverty spouse | M",
    "header": [
-    "Quarrel with spouse",
+    "Quarrel with Poverty spouse",
     "M"
    ]
   },
   {
    "col_no": "6",
-   "name": "Poverty | F",
+   "name": "Love | F",
    "header": [
-    "Poverty",
+    "Love",
     "F"
    ]
   },
   {
    "col_no": "7",
-   "name": "Love | M",
+   "name": "Affairs | M",
    "header": [
-    "Love",
+    "Affairs",
     "M"
    ]
   },
   {
    "col_no": "8",
-   "name": "Affairs | F",
+   "name": "Insanity | F",
    "header": [
-    "Affairs",
+    "Insanity",
     "F"
    ]
   },
   {
    "col_no": "9",
-   "name": "Insanity | M",
+   "name": "Dispute over property | M",
    "header": [
-    "Insanity",
+    "Dispute over property",
     "M"
    ]
   },
   {
    "col_no": "10",
-   "name": "Dispute over property | F",
+   "name": "Dreadful diseases | F",
    "header": [
-    "Dispute over property",
+    "Dreadful diseases",
     "F"
    ]
   },
   {
    "col_no": "11",
-   "name": "Dreadful diseases | M",
+   "name": "M (11)",
    "header": [
-    "Dreadful diseases",
     "M"
    ]
   },
@@ -151,33 +150,32 @@
   },
   {
    "col_no": "10003",
-   "name": "Fall in Social Reputation | F",
+   "name": "Fallin Social Other reputation | F",
    "header": [
-    "Fall in Social Reputation",
+    "Fallin Social Other reputation",
     "F"
    ]
   },
   {
    "col_no": "10004",
-   "name": "Other Causes | M",
+   "name": "Total | M",
    "header": [
-    "Other Causes",
+    "Total",
     "M"
    ]
   },
   {
    "col_no": "10005",
-   "name": "Total | F",
+   "name": "Grand Total (Male & Female) | F",
    "header": [
-    "Total",
+    "Grand Total (Male & Female)",
     "F"
    ]
   },
   {
    "col_no": "10006",
-   "name": "Grand Total (Male & Female) | M",
+   "name": "M (10006)",
    "header": [
-    "Grand Total (Male & Female)",
     "M"
    ]
   },
@@ -224,11 +222,9 @@
  "notes": [],
  "checks": {
   "cells_checked": 16,
-  "cells_passed": 13,
+  "cells_passed": 15,
   "failures": [
-   "col 5 'TOTAL (States)': printed 1823, sum 1760",
-   "col 7 'TOTAL (States)': printed 1032, sum 1041",
-   "col 11 'TOTAL (States)': printed 1115, sum 1055"
+   "col 5 'TOTAL (States)': printed 1823, sum 1813"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

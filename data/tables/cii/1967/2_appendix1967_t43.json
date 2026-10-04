@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "103 APPENDIX XXII PERSONS",
+ "title": "105 APPENDIX XXIII CASES",
  "listing_title": "Appendices",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,62 +14,76 @@
  "source_file": "raw/cii/1967/table_chapter/appendix1967.pdf",
  "source_sha256": "9b16ebf1791397d121cf1ed6ec229bdc5ed3122b6fef05bb76b96a4352a51cd7",
  "table_no": "",
- "pdf_title": "103 APPENDIX XXII PERSONS",
- "row_label": "Persons released by the police or magistrate before trial",
+ "pdf_title": "105 APPENDIX XXIII CASES",
+ "row_label": "Total true cases",
  "pages": [
-  45
+  47
  ],
- "n_rows": 37,
- "n_cols": 7,
- "n_cells": 248,
+ "n_rows": 36,
+ "n_cols": 9,
+ "n_cells": 324,
  "columns": [
   {
    "col_no": "2",
-   "name": "Persons in whose cases charge-sheet was laid",
+   "name": "Cases not detected",
    "header": [
-    "Persons in whose cases charge-sheet was laid"
+    "Cases not detected"
    ]
   },
   {
    "col_no": "3",
-   "name": "Persons convicted",
+   "name": "Cases in which charge-sheet was laid",
    "header": [
-    "Persons convicted"
+    "Cases in which charge-sheet was laid"
    ]
   },
   {
    "col_no": "4",
-   "name": "Persons acquitted or discharged",
+   "name": "Cases Com-pounded or with-drawn",
    "header": [
-    "Persons acquitted or discharged"
+    "Cases Com-pounded or with-drawn"
    ]
   },
   {
    "col_no": "5",
-   "name": "Persons against whom cases were compounded or withdrawn",
+   "name": "Cases in which trial was completed",
    "header": [
-    "Persons against whom cases were compounded or withdrawn"
+    "Cases in which trial was completed"
    ]
   },
   {
    "col_no": "6",
-   "name": "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year",
+   "name": "Cases convicted",
    "header": [
-    "Persons in custody pending investigation or on bail during the stage of investigation at the end of the year"
+    "Cases convicted"
    ]
   },
   {
    "col_no": "7",
-   "name": "Persons in custody pending trial or on bail during the stage of trial at the end of the year",
+   "name": "Cases acquitted or discharged",
    "header": [
-    "Persons in custody pending trial or on bail during the stage of trial at the end of the year"
+    "Cases acquitted or discharged"
    ]
   },
   {
    "col_no": "8",
-   "name": "Percentage of conviction",
+   "name": "percentage of cases convicted to true cases investigated",
    "header": [
-    "Percentage of conviction"
+    "percentage of cases convicted to true cases investigated"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Percentage of cases convicted to cases in which trial was Completed",
+   "header": [
+    "Percentage of cases convicted to cases in which trial was Completed"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Volume of crime per 1,00,000 of population",
+   "header": [
+    "Volume of crime per 1,00,000 of population"
    ]
   }
  ],

@@ -13,30 +13,28 @@
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-58-1973.pdf",
  "source_file": "raw/cii/1973/table_content/table-58-1973.pdf",
  "source_sha256": "51e19bd293c18be358756cf3f6ca8f25ad3d1c9aa770275d559e088509b04bb9",
- "table_no": "58",
- "pdf_title": "135 TABLE 58 Strength of Civil Including District, Armed Police As on 31-12-1973",
- "row_label": "Sl. No. / States/Union Territories/ Cities / States/Union Territories/ Cities / States/Union Territories/ Cities / States/Union Territories/ Cities",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SL No.",
  "pages": [
-  1,
-  1,
   1
  ],
- "n_rows": 24,
- "n_cols": 10,
- "n_cells": 125,
+ "n_rows": 40,
+ "n_cols": 5,
+ "n_cells": 200,
  "columns": [
   {
    "col_no": "3",
-   "name": "Number of IG, DIsG and S. P.",
+   "name": "Number of IG, DisG and S. P.",
    "header": [
-    "Number of IG, DIsG and S. P."
+    "Number of IG, DisG and S. P."
    ]
   },
   {
    "col_no": "4",
-   "name": "Number of A. Ss. P/ Dy. S. P.",
+   "name": "Number of P/ Dy. S. P.",
    "header": [
-    "Number of A. Ss. P/ Dy. S. P."
+    "Number of P/ Dy. S. P."
    ]
   },
   {
@@ -55,86 +53,23 @@
   },
   {
    "col_no": "7",
-   "name": "Total of Column 3+4+5+6",
+   "name": "Total of column 3+4+5+6",
    "header": [
-    "Total of Column 3+4+5+6"
-   ]
-  },
-  {
-   "col_no": "10001",
-   "name": "1 | - | - | 21 | 2 | - | 7",
-   "header": [
-    "1",
-    "-",
-    "-",
-    "21",
-    "2",
-    "-",
-    "7"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "4 | 3 | 1 | 64 | 6 | 1 | -",
-   "header": [
-    "4",
-    "3",
-    "1",
-    "64",
-    "6",
-    "1",
-    "-"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "30 | 49 | 5 | 1,540 | 59 | 11 | 63",
-   "header": [
-    "30",
-    "49",
-    "5",
-    "1,540",
-    "59",
-    "11",
-    "63"
-   ]
-  },
-  {
-   "col_no": "10",
-   "name": "295 | 821 | 46 | 12,585 | 1,353 | 203 | 589",
-   "header": [
-    "295",
-    "821",
-    "46",
-    "12,585",
-    "1,353",
-    "203",
-    "589"
-   ]
-  },
-  {
-   "col_no": "11",
-   "name": "330 | 873 | 52 | 14,210 | 1,420 | 215 | 659",
-   "header": [
-    "330",
-    "873",
-    "52",
-    "14,210",
-    "1,420",
-    "215",
-    "659"
+    "Total of column 3+4+5+6"
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "*Figures are based on 1972."
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 4,
-  "other_totals_passed": 4
+  "other_totals_checked": 16,
+  "other_totals_passed": 13
  },
  "inferred_pages": 0,
- "ocr_pages": 3,
+ "ocr_pages": 1,
  "warnings": []
 }

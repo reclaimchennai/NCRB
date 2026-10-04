@@ -15,7 +15,7 @@
  "source_sha256": "4423027485bb3a44473f8bdd8d8200be90d9c8dd643a7e333e78919837a0f43c",
  "table_no": "76",
  "pdf_title": "N.C.R.B., (M.H.A.) CRIME IN INDIA - 1997 TABLE-76",
- "row_label": "Sl. NO. / STATE/UT",
+ "row_label": "SI. NO. / STATE/UT",
  "pages": [
   1
  ],
@@ -32,10 +32,10 @@
   },
   {
    "col_no": "4",
-   "name": "NUMBER CF | PERSONS RELEASED BEFORE 1RIAL",
+   "name": "NUMBER CF | PERSONS RELEASED BEFORE TRIAL",
    "header": [
     "NUMBER CF",
-    "PERSONS RELEASED BEFORE 1RIAL"
+    "PERSONS RELEASED BEFORE TRIAL"
    ]
   },
   {
@@ -72,10 +72,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 12,
-  "cells_passed": 11,
-  "failures": [
-   "col 3 'TOTAL (STATES)': printed 5.086e+06, sum 5.08594e+06"
-  ],
+  "cells_passed": 12,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

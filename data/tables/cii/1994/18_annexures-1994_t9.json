@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "18",
- "title": "Action taken under PIT NDPS ACT, 1988",
+ "title": "Prosecution",
  "listing_title": "Annexures",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,24 +14,59 @@
  "source_file": "raw/cii/1994/table_chapter/annexures-1994.pdf",
  "source_sha256": "5780c96d1cd56bae82d1919c21ad609583b6d2786add560d6e4fff4bc1019d2a",
  "table_no": "",
- "pdf_title": "Action taken under PIT NDPS ACT, 1988",
- "row_label": "Detention Orders Issued",
+ "pdf_title": "Prosecution",
+ "row_label": "Year",
  "pages": [
-  10
+  11
  ],
  "n_rows": 1,
- "n_cols": 1,
- "n_cells": 1,
+ "n_cols": 5,
+ "n_cells": 5,
  "columns": [
   {
    "col_no": "2",
-   "name": "Persons actually detained",
+   "name": "O.B.",
    "header": [
-    "Persons actually detained"
+    "O.B."
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "REC.",
+   "header": [
+    "REC."
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "CONV.",
+   "header": [
+    "CONV."
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "ACQ.",
+   "header": [
+    "ACQ."
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "C.B.",
+   "header": [
+    "C.B."
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "O.B. - OPENING BALANCE",
+  "C.B. - CLOSING BALANCE",
+  "CONV. - CONVICTED",
+  "ACQ. - ACQUITTED",
+  "DISP. - DISPOSAL",
+  "REC. - RECEIPT"
+ ],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,

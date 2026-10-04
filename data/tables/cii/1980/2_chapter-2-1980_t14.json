@@ -6,7 +6,7 @@
  "topic": "",
  "section": "",
  "serial": "2",
- "title": "67 TABLE 14 Percentage of disposal of cases under I. P. C. by the Courts during 1980",
+ "title": "Percentage of disposal of cases under L. P. C. by the Courts during 1980",
  "listing_title": "Disposal of Crimes",
  "method": "pdf_vlm",
  "sheet": "",
@@ -14,21 +14,20 @@
  "source_file": "raw/cii/1980/table_chapter/chapter-2-1980.pdf",
  "source_sha256": "c5ed545dc87cf351f64bb870118d98f8804621f63381f18075dd545227d9bb41",
  "table_no": "14",
- "pdf_title": "67 TABLE 14 Percentage of disposal of cases under I. P. C. by the Courts during 1980",
- "row_label": "Sl. No. / Heads of Crime",
+ "pdf_title": "Percentage of disposal of cases under L. P. C. by the Courts during 1980",
+ "row_label": "SI. No. / Heads of Crime",
  "pages": [
-  6,
   6
  ],
- "n_rows": 27,
- "n_cols": 5,
- "n_cells": 121,
+ "n_rows": 14,
+ "n_cols": 4,
+ "n_cells": 56,
  "columns": [
   {
    "col_no": "3",
-   "name": "%age of cases compounded or withdrawn to total cases for trial",
+   "name": "%age of cases compared or with-drawn to total cases for trial",
    "header": [
-    "%age of cases compounded or withdrawn to total cases for trial"
+    "%age of cases compared or with-drawn to total cases for trial"
    ]
   },
   {
@@ -40,9 +39,9 @@
   },
   {
    "col_no": "5",
-   "name": "%age of cases pending trial at the end of the year to total cases for trial",
+   "name": "%age of cases per-day in the end of the year to total cases for trial",
    "header": [
-    "%age of cases pending trial at the end of the year to total cases for trial"
+    "%age of cases per-day in the end of the year to total cases for trial"
    ]
   },
   {
@@ -51,13 +50,6 @@
    "header": [
     "%age of cases ended in conviction to total cases for which trials were completed"
    ]
-  },
-  {
-   "col_no": "7",
-   "name": "No. of cases in which charge sheets were laid",
-   "header": [
-    "No. of cases in which charge sheets were laid"
-   ]
   }
  ],
  "notes": [],
@@ -65,10 +57,10 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 2,
+ "ocr_pages": 1,
  "warnings": []
 }

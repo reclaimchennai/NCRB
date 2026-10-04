@@ -15,7 +15,7 @@
  "source_sha256": "72e02acbe6c93315e8805df9af82a04daa8bdb0c7fd5fd7fa2e5896419412b70",
  "table_no": "67",
  "pdf_title": "287 TABLE-67 NUMBER OF CASES AND VALUE OF CULTURAL PROPERTY (INCLUDING ANTIQUES)",
- "row_label": "SL NO / STATE/UT",
+ "row_label": "SL NO. / STATE/UT",
  "pages": [
   1
  ],
@@ -41,17 +41,17 @@
   },
   {
    "col_no": "5",
-   "name": "VALUE OF PROPERTY (Rs. In lakh) | STOLEN",
+   "name": "VALUE OF PROPERTY (Rs. in lakh) | STOLEN",
    "header": [
-    "VALUE OF PROPERTY (Rs. In lakh)",
+    "VALUE OF PROPERTY (Rs. in lakh)",
     "STOLEN"
    ]
   },
   {
    "col_no": "6",
-   "name": "VALUE OF PROPERTY (Rs. In lakh) | RECOVERED",
+   "name": "VALUE OF PROPERTY (Rs. in lakh) | RECOVERED",
    "header": [
-    "VALUE OF PROPERTY (Rs. In lakh)",
+    "VALUE OF PROPERTY (Rs. in lakh)",
     "RECOVERED"
    ]
   }
@@ -59,10 +59,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 6,
-  "cells_passed": 5,
-  "failures": [
-   "col 3 'TOTAL (ALL-INDIA)': printed 1206, sum 1208"
-  ],
+  "cells_passed": 6,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

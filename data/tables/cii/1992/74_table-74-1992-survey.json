@@ -14,13 +14,13 @@
  "source_file": "raw/cii/1992/table_content/table-74-1992-survey.pdf",
  "source_sha256": "a94d050d7e55c7ff5fcce658dc38aa724deb950c4b6efcabee55b201b5041657",
  "table_no": "74",
- "pdf_title": "316 TABLE 74 STATEMENT OF PERSONS ARRESTED IN COGNIZABLE CRIME CASES UNDER THE PREVENTION OF CORRUPTION ACT AND RELATED SECTIONS OF IPC IN STATES & UTS DURING 1992",
- "row_label": "SL. STATE/UTNO. / PERSONS REPORT-TED FOR REGULAR DEPTT. ACTION",
+ "pdf_title": "316 TABLE 74 STATEMENT OF PERSONS ARRESTED IN COGNIZABLE CRIME CASES UNDER THE PREVENTION OF CORRUPTION ACT AND RELATED SECTIONS OF IPC IN STATES & UTs DURING 1992",
+ "row_label": "",
  "pages": [
   1,
   2
  ],
- "n_rows": 67,
+ "n_rows": 35,
  "n_cols": 23,
  "n_cells": 805,
  "columns": [
@@ -91,54 +91,38 @@
   },
   {
    "col_no": "16",
-   "name": "PERSONS REPORT-TED FOR SUITA- BLE ACTION",
-   "header": [
-    "PERSONS REPORT-TED FOR SUITA- BLE ACTION"
-   ]
+   "name": "col_16",
+   "header": []
   },
   {
    "col_no": "17",
-   "name": "PERSONS REPORT-TED FOR MISSED FROM SERVICE",
-   "header": [
-    "PERSONS REPORT-TED FOR MISSED FROM SERVICE"
-   ]
+   "name": "col_17",
+   "header": []
   },
   {
    "col_no": "18",
-   "name": "PERSONS PUNISHED REMOVED FROM SERVICE",
-   "header": [
-    "PERSONS PUNISHED REMOVED FROM SERVICE"
-   ]
+   "name": "col_18",
+   "header": []
   },
   {
    "col_no": "19",
-   "name": "DEPARTMENTALLY AWARDED OTHER MAJOR PUNISH- MENT",
-   "header": [
-    "DEPARTMENTALLY AWARDED OTHER MAJOR PUNISH- MENT"
-   ]
+   "name": "col_19",
+   "header": []
   },
   {
    "col_no": "20",
-   "name": "GAZETTED OR EQUAL AWARDED MINOR PUNISH- MENT",
-   "header": [
-    "GAZETTED OR EQUAL AWARDED MINOR PUNISH- MENT"
-   ]
+   "name": "col_20",
+   "header": []
   },
   {
    "col_no": "21",
-   "name": "NON- GAZE- TTED OFFICERS IN GOVT. OR PUBLIC UNDER- TAKING INVOLVED | GROUP- GROUP- A B OFFI- OFFI- CERS CERS",
-   "header": [
-    "NON- GAZE- TTED OFFICERS IN GOVT. OR PUBLIC UNDER- TAKING INVOLVED",
-    "GROUP- GROUP- A B OFFI- OFFI- CERS CERS"
-   ]
+   "name": "col_21",
+   "header": []
   },
   {
    "col_no": "22",
-   "name": "PRIVATE PERSONS INVOLVED OR PUBLIC | UNDER- TAKING INVOLVED",
-   "header": [
-    "PRIVATE PERSONS INVOLVED OR PUBLIC",
-    "UNDER- TAKING INVOLVED"
-   ]
+   "name": "col_22",
+   "header": []
   },
   {
    "col_no": "23",
@@ -158,11 +142,10 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 46,
-  "cells_passed": 44,
+  "cells_checked": 66,
+  "cells_passed": 65,
   "failures": [
-   "col 3 'TOTAL (STATES)': printed 2143, sum 2243",
-   "col 5 'TOTAL (STATES)': printed 377, sum 383"
+   "col 3 'TOTAL (STATES)': printed 2143, sum 2243"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0

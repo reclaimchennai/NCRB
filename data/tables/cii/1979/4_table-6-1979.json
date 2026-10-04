@@ -187,9 +187,8 @@
   },
   {
    "col_no": "14",
-   "name": "Riots | Percentage variation",
+   "name": "Percentage variation",
    "header": [
-    "Riots",
     "Percentage variation"
    ]
   },
@@ -291,20 +290,20 @@
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 54,
-  "cells_passed": 38,
+  "cells_checked": 57,
+  "cells_passed": 41,
   "failures": [
-   "col 10 'TOTAL (States) .': printed 13948, sum 13928",
-   "col 10004 'TOTAL (States) .': printed 179063, sum 174063",
-   "col 10004 'TOTAL (U.Ts.) .': printed 4928, sum 4920",
-   "col 10007 'TOTAL (States) .': printed 407198, sum 407278",
-   "col 10007 'TOTAL (U.Ts.) .': printed 29989, sum 29963",
-   "col 10008 'TOTAL (U.Ts.) .': printed 30029, sum 30028",
-   "col 12 'TOTAL (States) .': printed 95863, sum 97863",
-   "col 12 'TOTAL (U.Ts.) .': printed 625, sum 621"
+   "col 10 'TOTAL (States)': printed 13948, sum 13928",
+   "col 10004 'TOTAL (States)': printed 179063, sum 174063",
+   "col 10004 'TOTAL (U.Ts.)': printed 4928, sum 4920",
+   "col 10005 'TOTAL (U.Ts.)': printed 4406, sum 4405",
+   "col 10007 'TOTAL (States)': printed 407198, sum 407278",
+   "col 10007 'TOTAL (U.Ts.)': printed 29989, sum 29963",
+   "col 10008 'TOTAL (U.Ts.)': printed 30029, sum 30028",
+   "col 12 'TOTAL (U.Ts.)': printed 625, sum 621"
   ],
-  "other_totals_checked": 18,
-  "other_totals_passed": 17
+  "other_totals_checked": 19,
+  "other_totals_passed": 18
  },
  "inferred_pages": 0,
  "ocr_pages": 3,

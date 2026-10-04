@@ -15,7 +15,7 @@
  "source_sha256": "ef023832411882661083b90d3ed0896b863bb9ead5a37926c1a021b2ccb48f3c",
  "table_no": "5",
  "pdf_title": "24 TABLE - 5 Distribution Of Accidental Deaths By Sex And Age-Groups",
- "row_label": "Sl. No. / State/UT/City",
+ "row_label": "Sl.No. / State/UT/City",
  "pages": [
   15,
   16,
@@ -197,10 +197,8 @@
  "notes": [],
  "checks": {
   "cells_checked": 45,
-  "cells_passed": 44,
-  "failures": [
-   "col 7 'Total (States)': printed 37476, sum 37776"
-  ],
+  "cells_passed": 45,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },

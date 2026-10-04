@@ -8,55 +8,69 @@
  "serial": "21",
  "title": "Incidence & Volume of Total Cognizable Crimes (IPC) in States and UTs During 1991",
  "listing_title": "Incidence & Volume of Total Cognizable Crimes (IPC) in States and UTs During 1991",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-5-1991-5.pdf",
  "source_file": "raw/cii/1991/table_content/table-5-1991-5.pdf",
  "source_sha256": "dbc239733829c646fed41431d12af748e303174f295f5f476d7bcf221538e1e2",
  "table_no": "",
- "pdf_title": "TABLE + 5",
- "row_label": "INCIDENCE A VOLUME OF STATE/U.T. SL. wo. te 1 / INCIDENCE A VOLUME OF OF TOTAL oc. CRIMES o «ANDHRA PRADESH / INCIDENCE A VOLUME OF IW STATES AMD PERCENT AGE (CONTR IBLIT 1M TO TOTAL i) 6.1",
+ "pdf_title": "",
+ "row_label": "SL. NO. / STATE/U.T.",
  "pages": [
   1
  ],
- "n_rows": 33,
- "n_cols": 3,
- "n_cells": 82,
+ "n_rows": 35,
+ "n_cols": 5,
+ "n_cells": 172,
  "columns": [
   {
-   "col_no": "4",
-   "name": "TOTAL COGHIZABLE 1991 ESTIMATED YEAR POPULAT OM CIM LAKHS 5) ear?",
+   "col_no": "3",
+   "name": "INCIDENCE OF TOTAL COG. CRIMES",
    "header": [
-    "TOTAL COGHIZABLE 1991 ESTIMATED YEAR POPULAT OM CIM LAKHS 5) ear?"
+    "INCIDENCE OF TOTAL COG. CRIMES"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL",
+   "header": [
+    "PERCENTAGE CONTRIBUTION TO ALL-INDIA TOTAL"
    ]
   },
   {
    "col_no": "5",
-   "name": "IPC) VOLUME OF TONAL 0G. CRIMES (6) 2.3",
+   "name": "ESTIMATED MID-YEAR POPULATION (IN LAKHS)",
    "header": [
-    "IPC) VOLUME OF TONAL 0G. CRIMES (6) 2.3"
+    "ESTIMATED MID-YEAR POPULATION (IN LAKHS)"
    ]
   },
   {
    "col_no": "6",
-   "name": "RANK a",
+   "name": "VOLUME OF TOTAL COG. CRIMES",
    "header": [
-    "RANK a"
+    "VOLUME OF TOTAL COG. CRIMES"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "RANK OF CRIMINALITY",
+   "header": [
+    "RANK OF CRIMINALITY"
    ]
   }
  ],
  "notes": [
-  "Mote: 1 * Rank on the of volume of ratal cognizable erimes (Col. 6) in the States &",
-  "2 less than 0,05 [a also show as 0.0"
+  "Note: 1 * Rank on the basis of volume of total coznizable crimes (Col. 6) in the States & UTs",
+  "2 Percentage less than 0.05 is also shown as 0.0"
  ],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 3,
+  "cells_passed": 3,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

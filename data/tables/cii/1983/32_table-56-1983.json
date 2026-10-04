@@ -15,14 +15,14 @@
  "source_sha256": "2b8c7e21f9bed45ad5650279146918bd9c3e7d4dbb74460539a1f960798e93f9",
  "table_no": "56",
  "pdf_title": "138 TABLE 56 Number of Police Personnel killed or injured on Duty during 1983",
- "row_label": "SI.No. / States/U.Ts./Cities",
+ "row_label": "Sl.No. / States/U.Ts./Cities",
  "pages": [
   1,
   2
  ],
- "n_rows": 52,
- "n_cols": 11,
- "n_cells": 517,
+ "n_rows": 86,
+ "n_cols": 6,
+ "n_cells": 453,
  "columns": [
   {
    "col_no": "3",
@@ -71,60 +71,17 @@
     "Killed",
     "Total"
    ]
-  },
-  {
-   "col_no": "10001",
-   "name": "Injured | In dacoity operation or other raids",
-   "header": [
-    "Injured",
-    "In dacoity operation or other raids"
-   ]
-  },
-  {
-   "col_no": "10002",
-   "name": "Injured | By riotous mobs",
-   "header": [
-    "Injured",
-    "By riotous mobs"
-   ]
-  },
-  {
-   "col_no": "10003",
-   "name": "Injured | By other criminals",
-   "header": [
-    "Injured",
-    "By other criminals"
-   ]
-  },
-  {
-   "col_no": "10004",
-   "name": "Injured | On border duties",
-   "header": [
-    "Injured",
-    "On border duties"
-   ]
-  },
-  {
-   "col_no": "10005",
-   "name": "Injured | In accidents",
-   "header": [
-    "Injured",
-    "In accidents"
-   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 13,
-  "cells_passed": 9,
+  "cells_checked": 22,
+  "cells_passed": 21,
   "failures": [
-   "col 10002 'TOTAL (STATES) 437': printed 665, sum 2921",
-   "col 10003 'TOTAL (STATES) 437': printed 59, sum 828",
-   "col 10004 'TOTAL (STATES) 437': printed 330, sum 78",
-   "col 10005 'TOTAL (STATES) 437': printed 3399, sum 649"
+   "col 4 'TOTAL (CITIES)': printed 697, sum 717"
   ],
-  "other_totals_checked": 7,
-  "other_totals_passed": 7
+  "other_totals_checked": 8,
+  "other_totals_passed": 5
  },
  "inferred_pages": 0,
  "ocr_pages": 2,

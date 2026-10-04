@@ -6,90 +6,88 @@
  "topic": "Crime Survey",
  "section": "Crime Survey",
  "serial": "45",
- "title": "JUVENILE DELINQUENCY (IPC) UNDER DIFFERENT CRIME HEADS DURING 1993",
+ "title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1993 (State, UT & City-Wise)",
  "listing_title": "Juvenile Delinquency (IPC) under Different Crime Heads During 1993 (State, UT & City-Wise)",
- "method": "pdf_ocr",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-45-1993-crime.pdf",
  "source_file": "raw/cii/1993/table_content/table-45-1993-crime.pdf",
  "source_sha256": "b4d375a12e3659b36c5c4279b64baef4e06a326c97caef94b305704860bb4659",
  "table_no": "45",
- "pdf_title": "JUVENILE DELINQUENCY (IPC) UNDER DIFFERENT CRIME HEADS DURING 1993",
- "row_label": "(STATE,UT & CITY-WISE) (4) STATI'S:",
+ "pdf_title": "",
+ "row_label": "PREPARATION AND ASSEMBLY FOR DANCETTY",
  "pages": [
-  1
+  3
  ],
- "n_rows": 26,
- "n_cols": 8,
- "n_cells": 178,
+ "n_rows": 35,
+ "n_cols": 9,
+ "n_cells": 315,
  "columns": [
   {
+   "col_no": "13",
+   "name": "ROBBERY",
+   "header": [
+    "ROBBERY"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "EUROLARY",
+   "header": [
+    "EUROLARY"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "THERT",
+   "header": [
+    "THERT"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "ROTS",
+   "header": [
+    "ROTS"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CRIMINAL BREACH OF THURT",
+   "header": [
+    "CRIMINAL BREACH OF THURT"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "CHEATING",
+   "header": [
+    "CHEATING"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "COUNTER-FEITING",
+   "header": [
+    "COUNTER-FEITING"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "OTHER IPC CRIMES",
+   "header": [
+    "OTHER IPC CRIMES"
+   ]
+  },
+  {
    "col_no": "2",
-   "name": "(STATE,UT & CITY-WISE) | (2)",
+   "name": "TOTAL COG. CRIMES UNDER IPC",
    "header": [
-    "(STATE,UT & CITY-WISE)",
-    "(2)"
-   ]
-  },
-  {
-   "col_no": "3",
-   "name": "(STATE,UT & CITY-WISE) | (3)",
-   "header": [
-    "(STATE,UT & CITY-WISE)",
-    "(3)"
-   ]
-  },
-  {
-   "col_no": "4",
-   "name": "(STATE,UT & CITY-WISE) | (4)",
-   "header": [
-    "(STATE,UT & CITY-WISE)",
-    "(4)"
-   ]
-  },
-  {
-   "col_no": "5",
-   "name": "(STATE,UT & CITY-WISE) | (5)",
-   "header": [
-    "(STATE,UT & CITY-WISE)",
-    "(5)"
-   ]
-  },
-  {
-   "col_no": "6",
-   "name": "(STATE,UT & CITY-WISE) | (6)",
-   "header": [
-    "(STATE,UT & CITY-WISE)",
-    "(6)"
-   ]
-  },
-  {
-   "col_no": "7",
-   "name": "(STATE,UT & CITY-WISE) | (7)",
-   "header": [
-    "(STATE,UT & CITY-WISE)",
-    "(7)"
-   ]
-  },
-  {
-   "col_no": "8",
-   "name": "(STATE,UT & CITY-WISE) | (8)",
-   "header": [
-    "(STATE,UT & CITY-WISE)",
-    "(8)"
-   ]
-  },
-  {
-   "col_no": "9",
-   "name": "(9) (10)",
-   "header": [
-    "(9) (10)"
+    "TOTAL COG. CRIMES UNDER IPC"
    ]
   }
  ],
- "notes": [
-  "30A—177 NERBAS."
- ],
+ "notes": [],
  "checks": {
   "cells_checked": 0,
   "cells_passed": 0,
@@ -97,7 +95,7 @@
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

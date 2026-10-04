@@ -1,46 +1,91 @@
-section,sl_no,Sl. States/U.T.s./Cities No.,Sl. States/U.T.s./Cities No.,IPC Cognizable Offences reported | Murder,IPC Cognizable Offences reported | Culpable Homicide not amounting to Murder,IPC Cognizable Offences reported | Rape,Sl. States/U.Ts./Cities No. (2),Sl. States/U.Ts./Cities No. (10001),IPC Cognizable offences reported | Dacoity,IPC Cognizable offences reported | Robbery,IPC Cognizable offences reported | Burglary,IPC Cognizable offences reported | Thefts,States/U.Ts./Cities,Riots,IPC Cognizable offences reported | Criminal Breach of Trust,IPC Cognizable offences reported | Cheating,IPC Cognizable offences reported | Counterfeiting,IPC Cognizable offences reported | Total cognizable crime
-STATES,1,Andhra Pradesh,3,-,2,-,,1,4,214,594,,156,-,-,-,1266,
-STATES,2,Assam,37,8,32,30,,17,11,285,542,,115,1,1,-,1379,
-STATES,3,Bihar,23,-,9,29,,56,29,382,618,,596,-,-,-,2008,
-STATES,4,Gujarat,139,-,14,93,,25,63,525,381,,410,82,59,-,3740,
-STATES,5,Haryana,18,14,-,13,,3,6,164,297,,15,1,2,-,1003,
-STATES,6,Himachal Pradesh,5,2,6,16,,-,3,85,98,,97,1,4,-,669,
-STATES,7,Jammu & Kashmir,10,-,9,11,,-,-,42,66,,173,1,-,-,380,
-STATES,8,Karnataka,25,-,3,2,,4,10,225,787,,234,8,10,2,1501,
-STATES,9,Kerala,4,-,-,-,,-,1,43,61,,146,1,-,-,836,
-STATES,10,Madhya Pradesh,147,5,89,60,,39,176,1125,1777,,630,20,34,-,8858,
-STATES,11,Maharashtra,146,3,37,82,,62,217,1387,3705,,794,84,110,-,10325,
-STATES,12,Manipur,3,-,-,2,,1,-,15,18,,12,-,2,-,59,
-STATES,13,Meghalaya,-,-,-,-,,-,-,28,30,,-,-,-,-,67,
-STATES,14,Nagaland,4,-,-,27,,2,10,136,119,,85,2,4,-,389,
-STATES,15,Orissa,-,-,-,-,,5,3,95,293,,-,3,4,-,467,
-STATES,16,Punjab,17,7,6,9,,-,2,29,44,,-,6,3,-,234,
-STATES,17,Rajasthan,45,-,17,35,,4,33,206,349,,734,4,15,-,2193,
-STATES,18,Sikkim,-,-,6,1,,-,2,9,24,,1,-,1,-,44,
-STATES,19,Tamil Nadu,20,-,-,-,,-,3,629,1621,,97,4,-,-,2668,
-STATES,20,Tripua,5,-,3,8,,,,,,,,,,,,
-STATES,21,Uttar Pradesh,18,4,5,11,,4,18,74,163,,22,2,-,1,396,
-STATES,22,West Bengal,9,12,24,40,,46,71,206,1830,,552,12,21,-,3014,
-STATES,,,TOTAL,678,55,262,,TOTAL,278,669,5912,13459,TOTAL,4924,234,270,3,41635
-U.Ts.,23,A. & N. Islands,1,-,-,1,,-,1,4,14,,5,-,1,-,55,
-U.Ts.,24,Arunachal Pradesh,-,-,-,-,,-,-,7,8,,-,-,-,-,15,
-U.Ts.,25,Chandigarh,1,-,-,2,,-,1,7,62,,2,3,1,-,145,
-U.Ts.,26,D. & N. Haveli,1,-,-,-,,-,1,-,1,,5,-,-,-,13,
-U.Ts.,27,Delhi,30,34,11,122,,6,46,194,355,,30,5,13,-,1474,
-U.Ts.,28,"Goa, Daman & Diu",2,-,-,1,,3,7,67,88,,70,1,3,-,317,
-U.Ts.,29,Lakshadweep,-,-,-,-,,-,-,1,1,,-,-,-,-,2,
-U.Ts.,30,Mizoram,4,-,13,2,,1,16,16,100,,-,-,4,-,312,
-U.Ts.,31,Pondicherry,1,-,1,-,,-,-,10,60,,13,1,-,-,316,
-U.Ts.,,,TOTAL,40,34,25,,TOTAL,10,72,306,689,TOTAL,125,10,22,-,2649
-U.Ts.,,,GRAND TOTAL,718,89,287,,GRAND TOTAL,288,741,6218,14148,GRAND TOTAL,5049,244,292,3,44284
-CITIES,1,Ahmedabad,36,2,11,137,,2,32,475,2655,,193,146,209,1,17390,
-CITIES,2,Bangalore,-,-,2,9,,-,6,47,259,,18,4,2,1,354,
-CITIES,3,Bombay,-,-,2,11,,-,3,53,327,,1,6,3,-,525,
-CITIES,4,Calcutta,3,-,3,1,,2,-,1,171,,5,-,1,-,205,
-CITIES,5,Delhi,30,34,11,122,,6,46,194,355,,30,5,13,-,1474,
-CITIES,6,Hyderabad,-,-,-,-,,-,-,27,114,,-,-,-,-,141,
-CITIES,7,Kanpur,-,-,-,1,,-,-,4,25,,-,-,-,-,40,
-CITIES,8,Madras,1,-,-,-,,-,2,76,583,,61,1,-,-,780,
-CITIES,,,TOTAL,70,36,29,,TOTAL,10,89,877,4419,TOTAL,308,162,228,2,20909
-,,1,,,,,2,7,8,9,10,,11,12,13,14,15,
-STATES,20,Tripura,,,,,,9,7,8,42,,55,2,-,-,139,
+section,sl_no,Sl. States/U.T.s./Cities\nNo.,IPC Cognizable Offences reported | Murder,Culpable Homicide not amounting to Murder,Rape,Kidnapping & Abduction,States/U.T.s./Cities,Riot,IPC Cognizable offences reported | Criminal Breach of Trust,Cheating,Counter-feiting,Total cognizable crime
+,,1 2,3,4,5,6,,,,,,
+STATES,1,Andhra Pradesh,3,-,2,-,,,,,,
+STATES,2,Assam,37,8,32,30,,,,,,
+STATES,3,Bihar,23,-,9,29,,,,,,
+STATES,4,Gujarat,139,-,14,93,,,,,,
+STATES,5,Haryana,18,14,-,13,,,,,,
+STATES,6,Himachal Pradesh,5,2,6,16,,,,,,
+STATES,7,Jammu & Kashmir,10,-,9,11,,,,,,
+STATES,8,Karnataka,25,-,3,2,,,,,,
+STATES,9,Kerala,4,-,-,-,,,,,,
+STATES,10,Madhya Pradesh,147,5,89,60,,,,,,
+STATES,11,Maharashtra,146,3,37,82,,,,,,
+STATES,12,Manipur,3,-,-,2,,,,,,
+STATES,13,Meghalaya,-,-,-,-,,,,,,
+STATES,14,Nagaland,4,-,-,27,,,,,,
+STATES,15,Orissa,-,-,-,-,,,,,,
+STATES,16,Punjab,17,7,6,9,,,,,,
+STATES,17,Rajasthan,45,-,17,35,,,,,,
+STATES,18,Sikkim,-,-,6,1,,,,,,
+STATES,19,Tamil Nadu,20,-,-,-,,,,,,
+STATES,20,Tripua,5,-,3,8,,,,,,
+STATES,21,Uttar Pradesh,18,4,5,11,,,,,,
+STATES,22,West Bengal,9,12,24,40,,,,,,
+STATES,,TOTAL,678,55,262,469,,4924,234,270,3,41635
+U.T.s.,23,A. & N. Islands,1,-,-,1,,,,,,
+U.T.s.,24,Arunachal Pradesh,-,-,-,-,,,,,,
+U.T.s.,25,Chandigarh,1,-,-,2,,,,,,
+U.T.s.,26,D. & N. Haveli,1,-,-,-,,,,,,
+U.T.s.,27,Delhi,30,34,11,122,,,,,,
+U.T.s.,28,"Goa, Daman & Diu",2,-,-,1,,,,,,
+U.T.s.,29,Lakshadweep,-,-,-,-,,,,,,
+U.T.s.,30,Mizoram,4,-,13,2,,,,,,
+U.T.s.,31,Pondicherry,1,-,1,-,,,,,,
+U.T.s.,,TOTAL,40,34,25,128,,125,10,22,-,2649
+U.T.s.,,GRAND TOTAL,718,89,287,597,,5049,244,292,3,44284
+CITIES,1,Ahmedabad,36,2,11,137,,,,,,
+CITIES,2,Bangalore,-,-,2,9,,,,,,
+CITIES,3,Bombay,-,-,2,11,,,,,,
+CITIES,4,Calcutta,3,-,3,1,,,,,,
+CITIES,5,Delhi,30,34,11,122,,,,,,
+CITIES,6,Hyderabad,-,-,-,-,,,,,,
+CITIES,7,Kanpur,-,-,-,1,,,,,,
+CITIES,8,Madras,1,-,-,-,,,,,,
+CITIES,,TOTAL,70,36,29,281,,308,162,228,2,20909
+,,1 2,7,8,9,10,,,,,,
+STATES,1,Andhra Pradesh,1,4,214,594,,156,-,-,-,1266
+STATES,2,Assam,17,11,285,542,-,115,1,1,-,1379
+STATES,3,Bihar,56,29,382,618,-,596,-,-,-,2008
+STATES,4,Gujarat,25,63,525,381,-,410,82,59,-,3740
+STATES,5,Haryana,3,6,164,297,-,15,1,2,-,1003
+STATES,6,Himachal Pradesh,-,3,85,98,-,97,1,4,-,669
+STATES,7,Jammu & Kashmir,-,-,42,66,,,,,,
+STATES,8,Karnataka,4,10,225,787,-,234,8,10,2,1501
+STATES,9,Kerala,-,1,43,61,-,146,1,-,-,836
+STATES,10,Madhya Pradesh,39,176,1125,1777,-,630,20,34,-,8858
+STATES,11,Maharashtra,62,217,1387,3705,-,794,84,110,-,10325
+STATES,12,Manipur,1,-,15,18,-,12,-,2,-,59
+STATES,13,Meghalaya,-,-,28,30,-,-,-,-,-,67
+STATES,14,Nagaland,2,10,136,119,-,85,2,4,-,389
+STATES,15,Orissa,5,3,95,293,-,-,3,4,-,467
+STATES,16,Punjab,-,2,29,44,-,-,6,3,-,234
+STATES,17,Rajasthan,4,33,206,349,-,734,4,15,-,2193
+STATES,18,Sikkim,-,2,9,24,-,1,-,1,-,44
+STATES,19,Tamil Nadu,-,3,629,1621,-,97,4,-,-,2668
+STATES,20,Tripura,9,7,8,42,-,55,2,-,-,139
+STATES,21,Uttar Pradesh,4,18,74,163,-,22,2,-,1,396
+STATES,22,West Bengal,46,71,206,1830,-,552,12,21,-,3014
+STATES,,,TOTAL,278,669,5912,,,,,,
+U.T.s.,23,A. & N. Islands,-,1,4,14,-,5,-,1,-,55
+U.T.s.,24,Arunachal Pradesh,-,-,7,8,-,-,-,-,-,15
+U.T.s.,25,Chandigarh,-,1,7,62,-,3,3,1,-,145
+U.T.s.,26,D. & N. Haveli,-,1,-,1,-,5,-,-,-,13
+U.T.s.,27,Delhi,6,46,194,355,-,30,5,13,-,1474
+U.T.s.,28,"Goa, Daman & Diu",3,7,67,88,-,70,1,3,-,317
+U.T.s.,29,Lakshadweep,-,-,1,1,-,-,-,-,-,2
+U.T.s.,30,Mizoram,1,16,16,100,-,-,-,4,-,312
+U.T.s.,31,Pondicherry,-,-,10,60,-,13,1,-,-,316
+U.T.s.,,,TOTAL,10,72,306,,,,,,
+U.T.s.,,,GRAND TOTAL,288,741,6218,,,,,,
+CITIES,1,Ahmedabad,2,32,475,2655,-,193,146,209,1,17390
+CITIES,2,Bangalore,-,6,47,259,-,18,4,2,1,354
+CITIES,3,Bombay,-,3,53,327,-,1,6,3,-,525
+CITIES,4,Calcutta,2,-,1,171,-,5,-,1,-,205
+CITIES,5,Delhi,6,46,194,355,-,30,5,13,-,1474
+CITIES,6,Hyderabad,-,-,27,114,-,-,-,-,-,141
+CITIES,7,Kanpur,-,-,4,25,-,-,-,-,-,40
+CITIES,8,Madras,-,2,76,543,-,61,1,-,-,780
+CITIES,,,TOTAL,10,89,4419,,,,,,
+,,1,,,,,2,11,12,13,14,15
+STATES,7,Jaramu & Kashmir,,,,,-,173,1,-,-,380
