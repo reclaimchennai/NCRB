@@ -1216,6 +1216,30 @@ def rates() -> pd.DataFrame:
         bad = {k for k, v in rr.items() if k[1] in ref and not (ref[k[1]] / 3 <= v <= ref[k[1]] * 3)}
         a = a[[(y, p) not in bad for y, p in zip(a.year, a.place)]]
         d = pd.concat([d, a], ignore_index=True)
+    # All India from NCRB's decade tables ('Incidence and Rate of Suicides during 1994 to 2004 (All-India)', one row
+    # per year): text-layer rows whose printed rate is their suicides over their population, for years still missing
+    t = q("SELECT table_id, year FROM tables WHERE publication = 'adsi' AND method IN ('pdf_text', 'excel') AND "
+          "regexp_matches(title, '(?i)rate of suicides (during|over)')")
+    if not t.empty:
+        ids = t.table_id.tolist()
+        c = q(f'SELECT table_id, "row", "column", value FROM cells WHERE table_id IN ({",".join("?" * len(ids))}) AND value IS NOT NULL', ids)
+        c = c.merge(t, on="table_id")
+        have = set(zip(d.year[d.cat == "Rate"], d.place[d.cat == "Rate"]))
+        add, seen = [], set()
+        for (tid, row), g in c.groupby(["table_id", "row"]):
+            col = lambda rx: next((v for k, v in zip(g["column"], g.value) if re.search(rx, str(k), re.I)), None)
+            y, n, pop, rate = col(r"^\W*year\W*$"), col(r"suicides|incidence"), col(r"population"), col(r"\brate\b")
+            if None in (y, n, pop, rate) or not (1950 <= y <= int(g.year.iloc[0])) or pop <= 0:
+                continue
+            y = int(y)
+            if (y, "All India") in have or y in seen or abs(n / pop - rate) > 0.06 + 0.01 * rate:
+                continue
+            seen.add(y)
+            add += [(y, "All India", "total", "", "Rate", "Total", "all ages", rate, "ok", "ncrb"),
+                    (y, "All India", "total", "", "Suicides", "Total", "all ages", n, "ok", "ncrb"),
+                    (y, "All India", "total", "", "Population (lakh)", "Total", "all ages", pop, "ok", "ncrb")]
+        if add:
+            d = pd.concat([d, frame(add)], ignore_index=True)
     # data.gov.in counts fill the suicide totals for 2001-2003 (no population or rate is published with them)
     o = ogd()
     if not o.empty:

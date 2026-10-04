@@ -6,12 +6,12 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=77a1ee7583';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=77a1ee7583';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=77a1ee7583';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=77a1ee7583';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=77a1ee7583';
-import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=77a1ee7583';
+import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=f7e25e660f';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=f7e25e660f';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f7e25e660f';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=f7e25e660f';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=f7e25e660f';
+import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=f7e25e660f';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];
@@ -203,8 +203,9 @@ async function means(key = 'state-tamil-nadu', who = 'Tamil Nadu', idp = 'tn', c
   const segV = segmented({ label: 'Chart', value: view, options: [{ value: 'stack', label: 'Stacked' }, { value: 'lines', label: 'Lines' }], onChange: v => { view = v; redrawAll(); } });
   c1.toolbar.append(segV.el);
   const missing = []; for (let y = ys[0]; y <= last; y++) if (!ys.includes(y)) missing.push(y);
-  c1.set({ note: (missing.length ? `No means-wise figures for ${who} in ${span(missing)}${who === 'Chennai' ? ': NCRB printed city tables by means only in some editions' : ''}. For 1992–1994 and 1998 the tables are not online (not on NCRB's site or the Internet Archive). Years marked as read from the page image were transcribed from the scans and checked against every printed total. ` : '')
-    + (ys.includes(2009) && who === 'Tamil Nadu' ? 'Poisoning is shown as one band: in 2009 Tamil Nadu reported every poisoning as insecticides (NCRB printed 4,483 by insecticides and 0 by other poison; checked on the printed page), so only the two together compare across years. The Lines view shows them apart.' : '') });
+  c1.set({ note: (missing.length ? `No means-wise figures for ${who} in ${span(missing)}${who === 'Chennai' ? ': NCRB printed city tables by means only in some editions' : ''}. For 1987, 1992–1994, 1996, 1998 and 1999 the copies of ADSI on NCRB's site and the Internet Archive give means only for All India; the State and city appendices are missing (1987's causes appendix survives only in part). Years marked as read from the page image were transcribed from the scans and checked against every printed total. ` : '')
+    + (ys.includes(2009) && who === 'Tamil Nadu' ? 'Poisoning is shown as one band: in 2009 Tamil Nadu reported every poisoning as insecticides (NCRB printed 4,483 by insecticides and 0 by other poison; checked on the printed page), so only the two together compare across years. The Lines view shows them apart.' : '')
+    + (ys.includes(1995) && who === 'Chennai' ? ' In 1995 NCRB printed Chennai\'s 269 hangings in the firearms column (Tamil Nadu as a whole had 1 suicide by firearm that year, and Chennai 0 by hanging); they are shown here as hanging.' : '') });
   const { c } = yearCard(root(), {
     id: `${idp}-means-year`, kicker: `${who} · suicides by means`, years: ys, name: `${idp}-means-year`, meta: y => creditLine(P.meta, [y], P.sources),
     render: pos => {
@@ -334,7 +335,12 @@ async function rates() {
     const f = await place('suicide_rate', p.key);
     comp[p.name] = Object.entries(f.sources || {}).filter(([, s]) => s.includes('computed')).map(([y]) => Number(y));
   }
-  const split = (p, computed) => Object.fromEntries(Object.entries(p.head[ri] || {}).filter(([y]) => comp[p.name].includes(Number(y)) === computed));
+  // printed years solid; worked-out years dashed, the dash reaching to the printed year either side so the line has no break
+  const isComp = (p, y) => comp[p.name].includes(y);
+  const split = (p, computed) => Object.fromEntries(Object.entries(p.head[ri] || {}).filter(([y]) => {
+    const n = Number(y);
+    return computed ? isComp(p, n) || isComp(p, n - 1) || isComp(p, n + 1) : !isComp(p, n);
+  }));
   const anyComp = Object.values(comp).some(l => l.length);
   section('Suicide rate', `<p>Rates are suicides per lakh people, for ${span(ys)}: as NCRB printed them, and${anyComp ? ' (dashed)' : ''} worked out from NCRB's own count of suicides and the population it printed for the year where it printed no rate. In ${last} Tamil Nadu's rate was <b>${fmt1(tn.head[ri][last])}</b> against ${fmt1(india.head[ri][last])} for India, ${k}${['th', 'st', 'nd', 'rd'][k % 10 > 3 || [11, 12, 13].includes(k % 100) ? 0 : k % 10]} of ${rank.length} States and UTs. Chennai's was ${fmt1(ch.head[ri][last])}.</p>`);
   const xs = []; for (let y = ys[0]; y <= last; y++) xs.push(y);
@@ -352,7 +358,7 @@ async function rates() {
   });
   c.set({ title: 'Suicide rate: Chennai, Tamil Nadu and India', sub: 'suicides per lakh people' });
   c.setLegend([{ label: 'Chennai', color: 'var(--critical)', line: true }, { label: 'Tamil Nadu', color: 'var(--series-2)', line: true }, { label: 'All India', color: 'var(--series-1)', line: true }, { label: 'All big cities', color: 'var(--series-3)', line: true }]);
-  c.set({ note: `City rates use a fixed census population, so a change in a city's rate is a change in its number of suicides.${anyComp ? ` Dashed: worked out here from NCRB's count and population (${['Chennai', 'Tamil Nadu', 'All India'].filter(n => comp[n]?.length).map(n => `${n} ${span(comp[n].sort((a, b) => a - b))}`).join('; ')}). Chennai's 1989 rate of 38.1 is what NCRB printed (1,568 suicides that year against 885 in 1988 and 729 in 1990).` : ''}` });
+  c.set({ note: `NCRB's population for Chennai changes in steps: a yearly estimate of the city up to 1990, the urban agglomeration from 1991 (54 lakh), and census figures held for a decade (64 lakh from 2001, 87 lakh from 2011); in 1971 it used the census count of the urban area (31.7 lakh against 20.9 in 1970). Where the population steps up the rate drops even if suicides do not.${anyComp ? ` Dashed: worked out here from NCRB's count and population (${['Chennai', 'Tamil Nadu', 'All India'].filter(n => comp[n]?.length).map(n => `${n} ${span(comp[n].sort((a, b) => a - b))}`).join('; ')}). Chennai's 1989 rate of 38.1 is what NCRB printed (1,568 suicides that year against 885 in 1988 and 729 in 1990).` : ''}` });
 
   const rys = [...new Set(states.flatMap(p => Object.keys(p.head[ri] || {}).map(Number)))].filter(y => states.filter(p => p.head[ri]?.[y] != null).length >= 15).sort((a, b) => a - b);
   let gmax = 0; for (const p of states) for (const y of rys) gmax = Math.max(gmax, p.head[ri]?.[y] || 0);

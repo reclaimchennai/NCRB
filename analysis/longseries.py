@@ -316,11 +316,13 @@ def options(g: pd.DataFrame) -> list[dict]:
         # independent printings: the same table reprinted in a year-wise volume is one source, not two
         indep = {(int(x.year), re.sub(r"[^a-z]+", "", str(x.title).lower())[:50]) for x in rs}
         out.append({"value": v, "support": sum(x.w for x in rs), "n": len(indep),
-                    "text": any(x.method in ("pdf_text", "excel") for x in rs), "crank": min(x.crank for x in rs), "src": src})
+                    "text": any(x.method in ("pdf_text", "excel") for x in rs), "crank": min(x.crank for x in rs), "src": src,
+                    "hand": any(x.method == "handread" for x in rs)})
     out.sort(key=lambda o: -o["support"])
     for o in out:
         rival = max((x["support"] for x in out if x is not o), default=0)
-        o["firm"] = o["text"] or (o["n"] >= 2 and o["support"] > rival)
+        # a figure read from the page image whose table adds up to its printed totals is as good as a text layer's
+        o["firm"] = o["text"] or o["hand"] or (o["n"] >= 2 and o["support"] > rival)
     return out
 
 
@@ -412,13 +414,16 @@ def pick(c: pd.DataFrame) -> pd.DataFrame:
         while True:
             drop = []
             for y, o in kept.items():
-                if o["firm"]:
+                # a hand-read figure adds up on its page, but the page itself can carry NCRB's slip (Madras road
+                # deaths printed 5 in 1991 against ~450 either side): one printed only in one table is held to the
+                # wide band below; one that several of the year's tables print (Madras suicides 1978: 148) stands
+                if o["firm"] and not (o["hand"] and not o["text"] and o["n"] < 2):
                     continue
                 near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 5 and segment(p, x) == segment(p, y)]
                 if len(near) < 2:           # a sparse era: neighbours up to ten years away
                     near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 10 and segment(p, x) == segment(p, y)]
-                wide = len(near) < 2        # alone in its territory (Madras 1953): any neighbours, a wider band
-                if wide:
+                wide = len(near) < 2 or o["firm"]   # alone in its territory (Madras 1953), or hand-read: a wider band
+                if len(near) < 2:
                     near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 10]
                 m = median(near) if len(near) >= 2 else None
                 # counts in the hundreds and up rarely move more than ~30% in a year; small ones can double
@@ -431,7 +436,7 @@ def pick(c: pd.DataFrame) -> pd.DataFrame:
                 kept.pop(y)
         for y, o in sorted(kept.items()):
             src = o["src"]
-            status = "text" if o["text"] else "agreed" if o["firm"] else "consistent"
+            status = "text" if o["text"] else "hand-read" if o["hand"] else "agreed" if o["firm"] else "consistent"
             rows.append({"place": p, "ptype": pt, "head": h, "year": y, "value": o["value"], "status": status, "n": o["n"], "method": src.method,
                          "table_id": src.table_id, "title": src.title, "column": getattr(src, "column", ""), "edition": int(src.year), "url": src.source_url})
     return pd.DataFrame(rows)
@@ -581,6 +586,29 @@ def breakdown_totals(years) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def handread_crime(heads) -> pd.DataFrame:
+    """Crime in India tables read from the page images (data/handread, kind 'crime'): every place's count under each
+    printed head that matches one of ``heads``, as one more firm printing (the table adds up to its printed totals)."""
+    from .engine import handread_tables
+
+    rows = []
+    for m in handread_tables("crime"):
+        keys = [head_of(c, heads) for c in m.CATS]
+        for sec, rws in m.ROWS.items():
+            for name, v in rws.items():
+                if name.upper().startswith(("TOTAL", "GRAND")):
+                    continue
+                pl = resolve(name, "Cities" if sec == "Cities" else sec, True, m.YEAR)
+                if not pl or pl[1] == "total":
+                    continue
+                for k, val in zip(keys, v):
+                    if k and val is not None and val > 0:
+                        rows.append({"pname": pl[0], "ptype": pl[1], "head": k, "fy": m.YEAR, "value": float(val), "w": 2.0,
+                                     "own": True, "crank": 0, "method": "handread", "table_id": f"handread/{Path(m.SOURCE).stem}",
+                                     "title": f"{m.TITLE} (read from the page image)", "year": m.YEAR, "source_url": ""})
+    return pd.DataFrame(rows)
+
+
 def run_pub(pub, heads, title, cats_city, not_table, need_table, years):
     c = candidates(pub, heads, years=years, not_table=not_table, need_table=need_table, not_col=NOT_COUNT_COL)
     if pub == "adsi":
@@ -604,6 +632,9 @@ def run_pub(pub, heads, title, cats_city, not_table, need_table, years):
 
 def main() -> None:
     c = candidates("cii", IPC_HEADS)
+    h = handread_crime(IPC_HEADS)
+    if not h.empty:
+        c = pd.concat([c, h[c.columns]], ignore_index=True)
     d = pick(c)
     fams = [f for f in (
         family("cii", ("state", "ut", "total"), "state", IPC_HEADS, d, "Cases registered under main IPC crime heads, by State"),
