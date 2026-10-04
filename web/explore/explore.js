@@ -7,18 +7,18 @@
  * subtotals are flagged, shown last and kept off the colour scales.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=f7e25e660f';
-import { lineChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=f7e25e660f';
-import { segmented, select, toggle, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f7e25e660f';
-import { footerHtml, creditLine } from '../kit/footer.js?v=f7e25e660f';
-import { explain, explainAll } from '../kit/legal.js?v=f7e25e660f';
-import { notesFor } from '../kit/notes.js?v=f7e25e660f';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=f7e25e660f';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=3ddf0e6905';
+import { lineChart, stackChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=3ddf0e6905';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=3ddf0e6905';
+import { footerHtml, creditLine } from '../kit/footer.js?v=3ddf0e6905';
+import { explain, explainAll } from '../kit/legal.js?v=3ddf0e6905';
+import { notesFor } from '../kit/notes.js?v=3ddf0e6905';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=3ddf0e6905';
 
 const DATA = '../data/explore';
 const TYPE_LABEL = { total: 'India', state: 'States', ut: 'Union Territories', city: 'Cities', row: 'Rows' };
 const GEO_LABEL = { state: 'States & UTs', city: 'Cities', india: 'All India', '': 'All India' };
-const S = { index: null, fam: null, pub: 'cii', topic: null, id: null, cat: 0, brk: 0, row: 0, rankType: 'state', compare: true, perLakh: false };
+const S = { index: null, fam: null, pub: 'cii', topic: null, id: null, cat: 0, brk: 0, row: 0, rows: [], rankType: 'state', perLakh: false, view: 'lines' };
 let POP = {};   // 'Tamil Nadu|state' -> {year: population in lakhs}, as NCRB printed it (analysis/population.py)
 const tl = new Timeline({ speed: 1.2 });
 const ui = {}, C = {};
@@ -116,13 +116,15 @@ function buildControls() {
   ui.table = select({ label: 'Table', lead: 'table', small: 'TABLE', options: [], onChange: v => loadFamily(v) });
   ui.cat = select({ label: 'Category', small: 'SHOW', options: [], onChange: v => { S.cat = Number(v); syncBrk(); afterChange(); } });
   ui.brk = segmented({ label: 'Breakdown', options: [], onChange: v => { S.brk = Number(v); afterChange(); } });
-  ui.row = select({ label: 'Place or row', lead: 'map-pin', small: 'FOR', options: [], onChange: v => { S.row = Number(v); refresh(); } });
+  ui.row = entityPicker({ label: 'Places or rows to compare', max: 10, addLabel: 'Add a place', onChange: v => { S.rows = v.map(Number); S.row = S.rows[0]; refresh(); } });
   ui.per = segmented({ label: 'Count or rate', options: [{ value: 'n', label: 'Number' }, { value: 'l', label: 'Per lakh people' }],
                        onChange: v => { S.perLakh = v === 'l'; afterChange(); } });
   const tlWrap = el('div', { class: 'tlbar', style: 'flex:1 1 100%' });
   tl.root.style.padding = '0';
   tlWrap.append(tl.root);
-  bar.append(ui.pub.el, ui.topic.el, ui.table.el, ui.cat.el, ui.brk.el, ui.per.el, ui.row.el, tlWrap);
+  const pl = el('div', { class: 'picker-row', style: 'flex:1 1 100%' });
+  pl.append(ui.row.el);
+  bar.append(ui.pub.el, ui.topic.el, ui.table.el, ui.cat.el, ui.brk.el, ui.per.el, pl, tlWrap);
   ui.table.el.style.maxWidth = 'min(640px, 100%)';
   ui.cat.el.style.maxWidth = 'min(520px, 100%)';
 }
@@ -146,7 +148,7 @@ async function loadFamily(id) {
   const filled = c => { let n = 0; S.fam.rows.forEach((_, r) => S.fam.brks.forEach((__, b) => { const a = S.fam.d[`${r}.${c}.${b}`]; if (a) n += a.length / 2; })); return n; };
   let best = 0, bestN = -1;
   S.fam.cats.forEach((c, i) => {
-    const n = filled(i) * (c.total ? 0.6 : 1) * (/percent|%|share|rate|rank|ratio|variation|change/i.test(c.name) ? 0.3 : 1);
+    const n = filled(i) * (c.total ? 0.6 : 1) * (/percent|%|share|rate|rank|ratio|variation|change|population|lakh/i.test(c.name) ? 0.3 : 1);
     if (n > bestN) { best = i; bestN = n; }
   });
   S.cat = S.want?.c != null && S.fam.cats[S.want.c] ? S.want.c : best;
@@ -154,10 +156,15 @@ async function loadFamily(id) {
   syncBrk(S.want?.b);
   const groups = {};
   S.fam.rows.forEach((r, i) => (groups[r.type] ||= []).push({ value: i, label: r.name }));
-  ui.row.options(['total', 'state', 'ut', 'city', 'row'].filter(t => groups[t]).map(t => ({ group: TYPE_LABEL[t], options: groups[t] })));
-  const want = S.want?.p != null ? S.want.p : S.fam.rows.findIndex(r => r.name === 'Tamil Nadu');
-  S.row = want >= 0 && S.fam.rows[want] ? want : Math.max(0, S.fam.rows.findIndex(r => r.type === 'total'));
-  ui.row.set(S.row);
+  // keep the places chosen before, by name, where this table has them
+  const prevNames = (S.rows || []).map(i => S.prevRows?.[i]?.name).filter(Boolean);
+  let rows = S.want?.ps ? S.want.ps.filter(i => S.fam.rows[i]) : prevNames.map(n => S.fam.rows.findIndex(r => r.name === n)).filter(i => i >= 0);
+  if (!rows.length) {
+    const want = S.want?.p != null ? S.want.p : S.fam.rows.findIndex(r => r.name === 'Tamil Nadu');
+    rows = [want >= 0 && S.fam.rows[want] ? want : Math.max(0, S.fam.rows.findIndex(r => r.type === 'total'))];
+  }
+  S.rows = rows; S.row = rows[0]; S.prevRows = S.fam.rows;
+  ui.row.options(['total', 'state', 'ut', 'city', 'row'].filter(t => groups[t]).map(t => ({ group: TYPE_LABEL[t], options: groups[t] })), S.rows);
   ui.row.el.hidden = S.fam.rows.length < 2;
   S.rankType = S.fam.rows.some(r => r.type === 'state') ? 'state' : S.fam.rows.some(r => r.type === 'city') ? 'city' : 'row';
   const wy = S.want?.y;
@@ -196,8 +203,16 @@ function buildCards() {
   root.append(C.law);
   C.trend = card(root, { id: 'x-trend', kicker: 'Over the years' });
   bindCapture(C.trend, { meta: metaFor(C.trend, false), name: 'ncrb-explore-trend' });
-  C.cmp = toggle({ label: 'Show the largest too', value: S.compare, onChange: v => { S.compare = v; drawTrend(); } });
-  C.trend.toolbar.append(C.cmp.el);
+  C.view = segmented({ label: 'Chart', value: S.view, options: [{ value: 'lines', label: 'Lines', icon: 'line' }, { value: 'stack', label: 'Stacked', icon: 'layers' }], onChange: v => { S.view = v; drawTrend(); } });
+  C.big = el('button', { type: 'button', class: 'ctl' }, `${icon('plus')}<span>Add the 5 largest</span>`);
+  C.big.addEventListener('click', () => {
+    const type = S.fam.rows[S.row]?.type;
+    const pool = rowsOfType(type === 'total' || type === 'ut' ? ['state', 'ut'] : [type]).filter(r => !r.total && !S.rows.includes(r.i));
+    const lastOf = r => { const s2 = series(r.i); const ys = Object.keys(s2).map(Number); return ys.length ? s2[Math.max(...ys)] : -1; };
+    const add = pool.map(r => ({ r, v: lastOf(r) })).filter(x => x.v >= 0).sort((a, b) => b.v - a.v).slice(0, 5).map(x => x.r.i);
+    S.rows = [...S.rows, ...add].slice(0, 10); ui.row.set(S.rows); refresh();
+  });
+  C.trend.toolbar.append(C.view.el, C.big);
 
   const g = el('div', { class: 'grid2' });
   root.append(g);
@@ -259,16 +274,46 @@ function drawLaw() {
 
 /* 1. over the years */
 let trendArgs = null, trendNotes = [];
+/** The focus row's categories add up to its printed total (in most years): they can be shown stacked. */
+function stackParts() {
+  const tot = S.fam.cats.findIndex(c => c.total && !/rate|%|percent|share/i.test(c.name));
+  if (tot < 0 || isRateCat()) return null;
+  const parts = S.fam.cats.map((c, i) => ({ c, i })).filter(({ c, i }) => !c.total && i !== tot && !/rate|%|percent|share|average|ratio/i.test(c.name) && Object.keys(series(S.row, i)).length);
+  if (parts.length < 2) return null;
+  const T = series(S.row, tot);
+  const ys = Object.keys(T).map(Number);
+  let ok = 0;
+  for (const y of ys) { const s2 = parts.reduce((a, p) => a + (series(S.row, p.i)[y] || 0), 0); if (T[y] && Math.abs(s2 - T[y]) <= 0.02 * T[y]) ok++; }
+  return ys.length && ok >= 0.8 * ys.length ? parts : null;
+}
 function drawTrend() {
   const c = C.trend;
-  const list = [{ key: 'sel', label: rowName(S.row), color: 'var(--critical)', values: series(S.row) }];
-  if (S.compare && S.fam.rows.length > 1) {
-    const type = S.fam.rows[S.row]?.type;
-    const pool = rowsOfType(type === 'total' || type === 'ut' ? ['state', 'ut'] : [type]).filter(r => r.i !== S.row && !r.total);
-    const lastOf = r => { const s = series(r.i); const ys = Object.keys(s).map(Number); return ys.length ? s[Math.max(...ys)] : -1; };
-    pool.map(r => ({ r, v: lastOf(r) })).filter(x => x.v >= 0).sort((a, b) => b.v - a.v).slice(0, places() ? 5 : 7)
-      .forEach((b, k) => list.push({ key: b.r.i, label: b.r.name, color: SERIES(k), values: series(b.r.i) }));
+  const multi = S.rows.length > 1;
+  const parts = !multi ? stackParts() : null;
+  C.view.el.hidden = !parts;
+  if (!parts && S.view === 'stack') S.view = 'lines';
+  C.view.set(S.view);
+  C.big.hidden = !places() || S.fam.rows.length < 3;
+  if (parts && S.view === 'stack') {
+    // shares of the place's printed total, the largest category at the bottom
+    const totOf = y => parts.reduce((a, p) => a + (series(S.row, p.i)[y] || 0), 0);
+    const ord = parts.map(p => ({ ...p, sum: Object.values(series(S.row, p.i)).reduce((a, b) => a + b, 0) })).sort((a, b) => b.sum - a.sum);
+    const top = ord.slice(0, 7), rest = ord.slice(7);
+    const yearsAll = [...new Set(ord.flatMap(p => Object.keys(series(S.row, p.i)).map(Number)))].sort((a, b) => a - b);
+    const share = !S.perLakh;
+    const conv = vals => Object.fromEntries(Object.entries(vals).map(([y, v]) => [y, share ? (totOf(y) ? (100 * v) / totOf(y) : 0) : v]));
+    const list = top.map((p, k) => ({ key: p.i, label: p.c.name.split(' · ').at(-1), color: SERIES(k), values: conv(series(S.row, p.i)) }));
+    if (rest.length) { const o = {}; for (const y of yearsAll) { let v = 0, any = false; for (const p of rest) { const x = series(S.row, p.i)[y]; if (x != null) { v += x; any = true; } } if (any) o[y] = v; } list.push({ key: 'other', label: 'All other', color: 'var(--other)', values: conv(o) }); }
+    const xs = []; for (let y = yearsAll[0]; y <= yearsAll.at(-1); y++) xs.push(y);
+    trendArgs = { stack: true, xs, series: list, share };
+    c.setLegend(list.map(s2 => ({ label: s2.label, color: s2.color })));
+    c.set({ title: `${S.fam.title}: ${rowName(S.row)}`, sub: `${share ? 'share of each year\'s total, %' : unitOf()} · every category${brkName(S.brk) && brkName(S.brk) !== 'Total' ? `, ${brkName(S.brk).toLowerCase()}` : ''}` });
+    const gaps = xs.filter(y => !yearsAll.includes(y));
+    c.set({ note: gaps.length ? `<p>No figures for ${esc(rowName(S.row))} in ${span(gaps)}: not printed in that edition, or a scanned page did not add up to its totals.</p>` : '' });
+    markTrend(tl.pos);
+    return;
   }
+  const list = S.rows.map(r => ({ key: r === S.row ? 'sel' : r, label: rowName(r), color: multi ? ui.row.colour(r) : 'var(--critical)', values: series(r) }));
   // the x axis spans only the years that something drawn has a figure for
   const ys = [...new Set(list.flatMap(s => Object.keys(s.values).map(Number)))].sort((a, b) => a - b);
   if (!ys.length) { emptyChart(c.svg, `No figures for ${rowName(S.row)} under ${measure()}.`); trendArgs = null; }
@@ -283,7 +328,7 @@ function drawTrend() {
   }
   c.setLegend(list.map(s => ({ label: s.label, color: s.color, line: true })));
   const perNote = S.perLakh && canPerLakh() ? ' · per lakh people, on the population NCRB printed for each year' : '';
-  c.set({ title: `${measure()}${S.perLakh && canPerLakh() ? ' per lakh people' : ''}: ${rowName(S.row)}`, sub: `${S.fam.title} · ${geoLabel()}${perNote}${S.compare && list.length > 1 ? ' · with the largest in their latest year' : ''}` });
+  c.set({ title: `${measure()}${S.perLakh && canPerLakh() ? ' per lakh people' : ''}: ${list.map(s2 => s2.label).join(', ')}`, sub: `${S.fam.title} · ${geoLabel()}${perNote}` });
   const own = Object.keys(series(S.row)).map(Number);
   const gaps = trendArgs ? trendArgs.xs.filter(y => !own.includes(y)) : [];
   const noteRows = trendArgs ? trendNotes.map(n => `<li class="${n.kind}"><span class="nmark">${n.n}</span><b>${n.year}</b> ${esc(n.text)}</li>`).join('') : '';
@@ -297,6 +342,10 @@ function drawTrend() {
 }
 function markTrend(pos) {
   if (!trendArgs) return;
+  if (trendArgs.stack) {
+    stackChart(C.trend.svg, { xs: trendArgs.xs, series: trendArgs.series, mode: trendArgs.share ? 'share' : 'count', unit: trendArgs.share ? '% of the year' : unitOf(), fmt: trendArgs.share ? v => `${(Math.round(v * 10) / 10).toFixed(1)}%` : fmtV });
+    return;
+  }
   const xs = trendArgs.xs, ys = tl.years;
   if (!ys.length) return lineChart(C.trend.svg, trendArgs);
   const i0 = Math.floor(pos), f = pos - i0;
@@ -333,7 +382,8 @@ function drawRank(pos) {
     const a = val(r, ys[i0]), b = val(r, ys[i1]);
     const v = a != null && b != null ? lerp(a, b, f) : f < .5 ? a : b;
     const k = o0.has(r.i) && o1.has(r.i) ? lerp(o0.get(r.i), o1.get(r.i), f) : (o0.get(r.i) ?? o1.get(r.i));
-    return { key: r.i, label: r.name, value: v, rank: k, hl: r.i === S.row, color: r.i === S.row ? 'var(--critical)' : 'var(--series-1)' };
+    const chosen = S.rows.includes(r.i);
+    return { key: r.i, label: r.name, value: v, rank: k, hl: chosen, color: chosen ? (S.rows.length > 1 ? ui.row.colour(r.i) : 'var(--critical)') : 'var(--other)' };
   }).filter(r => r.value != null && r.rank != null && (r.rank < limit || r.hl));
   rows.forEach(r => { if (r.hl && r.rank >= limit) r.rank = limit; });
   let gmax = 0; for (const r of pool) for (const yy of ys) gmax = Math.max(gmax, val(r, yy) || 0);
@@ -423,7 +473,7 @@ function bindSearch() {
 
 function writeHash() {
   if (!S.fam) return;
-  history.replaceState(null, '', `#${new URLSearchParams({ r: S.pub, t: S.id, c: String(S.cat), b: String(S.brk), p: String(S.row), y: String(tl.year ?? ''), ...(S.perLakh ? { k: 'l' } : {}) })}`);
+  history.replaceState(null, '', `#${new URLSearchParams({ r: S.pub, t: S.id, c: String(S.cat), b: String(S.brk), p: S.rows.join(','), y: String(tl.year ?? ''), ...(S.perLakh ? { k: 'l' } : {}), ...(S.view !== 'lines' ? { v: S.view } : {}) })}`);
 }
 
 async function boot() {
@@ -439,7 +489,8 @@ async function boot() {
   S.perLakh = h.get('k') === 'l';
   ui.pub.set(S.pub);
   const f = h.get('t') && S.index.families.find(x => x.id === h.get('t') && x.pub === S.pub);
-  if (f) S.want = { c: h.get('c') != null ? Number(h.get('c')) : null, b: h.get('b') != null ? Number(h.get('b')) : null, p: h.get('p') != null ? Number(h.get('p')) : null, y: Number(h.get('y')) || null };
+  if (h.get('v') === 'stack') S.view = 'stack';
+  if (f) { const ps = (h.get('p') || '').split(',').filter(x => x !== '').map(Number); S.want = { c: h.get('c') != null ? Number(h.get('c')) : null, b: h.get('b') != null ? Number(h.get('b')) : null, p: ps[0] ?? null, ps: ps.length ? ps : null, y: Number(h.get('y')) || null }; }
   S.topic = f ? f.topic : topics().find(t => /women|suicide|overcrowd/i.test(t)) || topics()[0];
   pickTopic(f?.id);
 }

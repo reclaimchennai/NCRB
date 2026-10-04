@@ -36,7 +36,7 @@ from .series import (
 from .topics import TOPICS, tables_for
 
 SEXES = ["Male", "Female", "Transgender"]
-OK = {"ok", "ok (vs grand total)", "derived (sum of sexes)", "derived"}
+OK = {"ok", "ok (vs grand total)", "derived (sum of sexes)", "derived", "ok (row matched to the month table by its totals)"}
 OGD_FILE = ROOT / "data" / "ogd" / "suicides-in-india-2001-2012.csv.gz"  # data.gov.in, via github.com/elseasama/Indian-cities-births-and-deaths
 # Reclaim Chennai's own compilations from the ADSI reports, github.com/elseasama/OpenDataChennai
 ODC_RATES = ROOT / "data" / "ogd" / "opendatachennai-suicide-rate-state-city-1998-2020.csv"
@@ -1150,6 +1150,30 @@ def traffic_time() -> pd.DataFrame:
     bad = set(both[(both.t - both.m).abs() > 0.02 * both.m].index)
     hit = [(k in bad) for k in zip(t.year, t.place, t.ptype)]
     t.loc[hit, "check"] = "disagrees with month table"
+    # a year whose city rows were printed against the wrong names (2000: the names in 'Calcutta' order, the figures in
+    # 'Kolkata' order, so Calcutta's row holds Chennai's figures, Chennai's Coimbatore's ...): a disagreeing row whose
+    # totals are exactly another place's month totals, that place's own row disagreeing or missing, is that place's
+    bad = t[t.check == "disagrees with month table"]
+    if not bad.empty:
+        tg = bad.groupby(["year", "place", "ptype", "group"]).value.sum()
+        mg = m[m.check == "ok"].groupby(["year", "place", "ptype", "group"]).value.sum()
+        tk = collections.defaultdict(dict)
+        mk = collections.defaultdict(dict)
+        for (y, p, pt, g), v in tg.items():
+            tk[(y, p, pt)][g] = v
+        for (y, p, pt, g), v in mg.items():
+            mk[(y, p, pt)][g] = v
+        good = set(zip(t.year[t.check == "ok"], t.place[t.check == "ok"], t.ptype[t.check == "ok"]))
+        move = {}
+        for a, ga in tk.items():
+            hits = [b for b, gb in mk.items() if b[0] == a[0] and b[2] == a[2] and b != a and b not in good
+                    and set(ga) & set(gb) and all(abs(ga[g] - gb[g]) <= max(1, 0.002 * gb[g]) for g in set(ga) & set(gb))]
+            if len(hits) == 1:
+                move[a] = hits[0]
+        if len(set(move.values())) == len(move):          # one place for each row, never two rows for one place
+            for a, b in move.items():
+                sel = (t.year == a[0]) & (t.place == a[1]) & (t.ptype == a[2]) & (t.check == "disagrees with month table")
+                t.loc[sel, ["place", "check"]] = [b[1], "ok (row matched to the month table by its totals)"]
     return t
 
 
@@ -1248,7 +1272,7 @@ def rates() -> pd.DataFrame:
         add = [(y, p, t, "", "Suicides", "Total", "all ages", v, "ok", "ogd") for y, p, t, v in zip(tot.Year, tot.place, tot.ptype, tot.Total) if (y, p) not in have]
         d = pd.concat([d, frame(add)], ignore_index=True)
     # rates NCRB printed in tables read from the page images (data/handread, kind suicide_incidence)
-    have = set(zip(d.year[d.cat == "Rate"], d.place[d.cat == "Rate"]))
+    have = set(zip(d.year[d.cat == "Rate"], d.place[d.cat == "Rate"], d.ptype[d.cat == "Rate"]))
     add = []
     for m in handread_tables("suicide_incidence"):
         for sec, rows in m.ROWS.items():
@@ -1257,7 +1281,7 @@ def rates() -> pd.DataFrame:
                     key = ("All India", "total") if name.upper().startswith("GRAND") else None
                 else:
                     key = resolve(name, "Cities" if sec == "Cities" else sec, True, m.YEAR)
-                if not key or (m.YEAR, key[0]) in have:
+                if not key or (m.YEAR, key[0], key[1]) in have:
                     continue
                 for cat, val in zip(("Suicides", "Population (lakh)", "Rate"), v):
                     if val is not None:
@@ -1274,11 +1298,24 @@ def rates() -> pd.DataFrame:
         ls = pd.read_csv(prov)
         ls = ls[ls["head"] == "suicides"]
         pop = json.loads(popf.read_text())["places"]
-        have = set(zip(d.year[d.cat == "Rate"], d.place[d.cat == "Rate"]))
+        have = set(zip(d.year[d.cat == "Rate"], d.place[d.cat == "Rate"], d.ptype[d.cat == "Rate"]))
+
+        def pop_at(place, ptype, y):
+            # the population NCRB printed for the year; else a straight line between the printed years either side
+            # (at most ten years apart), never beyond the first or last printed year
+            pp = pop.get(f"{place}|{ptype}", {})
+            if str(y) in pp:
+                return pp[str(y)]
+            lo = max((int(k) for k in pp if int(k) < y), default=None)
+            hi = min((int(k) for k in pp if int(k) > y), default=None)
+            if lo is None or hi is None or hi - lo > 10:
+                return None
+            return pp[str(lo)] + (pp[str(hi)] - pp[str(lo)]) * (y - lo) / (hi - lo)
+
         add = []
         for r in ls.itertuples():
-            pp = pop.get(f"{r.place}|{r.ptype}", {}).get(str(int(r.year)))
-            if (int(r.year), r.place) in have or not pp:
+            pp = pop_at(r.place, r.ptype, int(r.year))
+            if (int(r.year), r.place, r.ptype) in have or not pp:
                 continue
             add.append((int(r.year), r.place, r.ptype, "", "Rate", "Total", "all ages", round(r.value / pp, 2), "computed", "computed"))
         d = pd.concat([d, frame(add)], ignore_index=True)

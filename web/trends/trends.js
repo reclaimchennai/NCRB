@@ -7,12 +7,12 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=f7e25e660f';
-import { lineChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=f7e25e660f';
-import { segmented, select, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f7e25e660f';
-import { notesFor } from '../kit/notes.js?v=f7e25e660f';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=f7e25e660f';
-import { footerHtml, creditLine } from '../kit/footer.js?v=f7e25e660f';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=3ddf0e6905';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=3ddf0e6905';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=3ddf0e6905';
+import { notesFor } from '../kit/notes.js?v=3ddf0e6905';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=3ddf0e6905';
+import { footerHtml, creditLine } from '../kit/footer.js?v=3ddf0e6905';
 
 const DATA = '../data/trends';
 const GROUPS = [
@@ -27,9 +27,11 @@ const SLOT_TXT = { '00-03': '00–03', '03-06': '03–06', '06-09': '06–09', '
 
 const S = {
   catalog: null, meta: null, place: null, index: new Map(),
-  ds: 'traffic_time', key: null, sex: 0, age: 0, group: 0, mode: 'count',
+  ds: 'traffic_time', key: null, keys: [], sex: 0, age: 0, group: 0, mode: 'count', view: 'lines', show: 'all',
   rankType: 'state', rankCat: 'all', ghost: false,
 };
+const LOADED = new Map();   // place key -> {file, index}, for the places being compared
+let POP = {};               // 'Tamil Nadu|state' -> {year: population in lakhs}, as NCRB printed it
 const tl = new Timeline({ speed: 1.2 });
 const C = {};          // cards
 const ui = {};         // controls
@@ -50,8 +52,8 @@ function indexRows(rows) {
   }
   return m;
 }
-/** {year: v} for a category under the current sex, age and group. */
-const series = (ci, { sex = S.sex, age = S.age, group = S.group } = {}) => S.index.get(`${group}|${ci}|${sex}|${age}`) || {};
+/** {year: v} for a category under the current sex, age and group (of the focus place, or of the index given). */
+const series = (ci, { sex = S.sex, age = S.age, group = S.group, index = S.index } = {}) => index.get(`${group}|${ci}|${sex}|${age}`) || {};
 const allAgesIdx = () => Math.max(0, S.meta.ages.indexOf('all ages'));
 
 /** The categories to draw: everything except a dataset's own 'all ages' total row. */
@@ -67,6 +69,15 @@ function yearTotal(y, opts) {
   for (const c of cats()) { const v = series(c.ci, opts)[y]; if (v != null) { s += v; any = true; } }
   return any ? s : null;
 }
+/** Years with any figure in a place's index. */
+function yearsOf(index) {
+  const ys = new Set();
+  for (const c of S.meta.cats.map((_, ci) => ci)) for (const y of Object.keys(series(c, { index }))) ys.add(Number(y));
+  return [...ys].sort((a, b) => a - b);
+}
+/** NCRB's population for a place (lakh), by year. */
+const popOf = key => { const p = metaPlace(key); return p ? POP[`${p.name}|${p.type}`] || null : null; };
+const perLakhOK = () => kind() !== 'rate';
 /** Categories in a fixed order (largest first over the whole history), so a colour follows its category. */
 function ordered() {
   const tot = c => Object.values(series(c.ci)).reduce((a, b) => a + b, 0);
@@ -116,16 +127,18 @@ function buildControls() {
     options: GROUPS.map(g => ({ group: g.group, options: g.ids.filter(id => byId[id]).map(id => ({ value: id, label: `${byId[id].title.replace(/^Persons killed in traffic crashes/, 'Deaths')} (${byId[id].years.join('–')})` })) })),
     value: S.ds, onChange: v => loadDataset(v),
   });
-  ui.place = select({ label: 'Place', lead: 'map-pin', options: [], onChange: v => loadPlace(v) });
+  ui.places = entityPicker({ label: 'Places to compare', max: 10, addLabel: 'Add a place', onChange: v => setPlaces(v) });
   ui.sex = segmented({ label: 'Sex', options: [], onChange: v => { S.sex = Number(v); refresh(); } });
   ui.age = select({ label: 'Age group', small: 'AGE', options: [], onChange: v => { S.age = Number(v); refresh(); } });
   ui.group = segmented({ label: 'Kind of crash', options: [], onChange: v => { S.group = Number(v); refresh(); } });
   ui.mode = segmented({
     label: 'Number or share', value: S.mode,
-    options: [{ value: 'count', label: 'Number', icon: 'hash' }, { value: 'share', label: 'Share', icon: 'percent' }],
+    options: [{ value: 'count', label: 'Number', icon: 'hash' }, { value: 'share', label: 'Share', icon: 'percent' }, { value: 'lakh', label: 'Per lakh people', icon: 'users' }],
     onChange: v => { S.mode = v; refresh(); },
   });
-  bar.append(ui.ds.el, ui.place.el, ui.sex.el, ui.age.el, ui.group.el, ui.mode.el);
+  const pl = el('div', { class: 'picker-row', style: 'flex:1 1 100%' });
+  pl.append(ui.places.el);
+  bar.append(ui.ds.el, ui.sex.el, ui.age.el, ui.group.el, ui.mode.el, pl);
   const tlWrap = el('div', { class: 'tlbar', style: 'flex:1 1 100%' });
   tl.root.style.padding = '0';
   tlWrap.append(tl.root);
@@ -136,9 +149,9 @@ function syncControls() {
   const m = S.meta;
   const groups = {};
   for (const p of m.places) (groups[p.type] ||= []).push(p);
-  ui.place.options(['total', 'state', 'ut', 'city'].filter(t => groups[t]).map(t => ({
-    group: TYPE_LABEL[t], options: groups[t].map(p => ({ value: p.key, label: `${p.name}` })),
-  })), S.key);
+  ui.places.options(['total', 'state', 'ut', 'city'].filter(t => groups[t]).map(t => ({
+    group: TYPE_LABEL[t], options: groups[t].map(p => ({ value: p.key, label: `${p.name}`, sub: p.years?.length ? `${p.years[0]}–${p.years.at(-1)}` : '' })),
+  })), S.keys);
   ui.sex.options(m.sexes.map((s, i) => ({ value: i, label: SEX_LABEL[s] })), S.sex);
   ui.sex.el.hidden = m.sexes.length < 2;
   ui.age.options(m.ages.map((a, i) => ({ value: i, label: AGE_LABEL(a) })), S.age);
@@ -146,6 +159,8 @@ function syncControls() {
   ui.group.options(m.groups.map((g, i) => ({ value: i, label: g === 'Total traffic' ? 'All traffic' : g })), S.group);
   ui.group.el.hidden = m.groups.length < 2;
   ui.mode.el.hidden = kind() === 'rate';
+  if (S.mode === 'lakh' && !perLakhOK()) S.mode = 'count';
+  ui.mode.set(S.mode);
 }
 
 /* ------------------------------------------------------------ loading */
@@ -153,22 +168,39 @@ function syncControls() {
 async function loadDataset(id) {
   S.ds = id;
   S.meta = await getJSON(`${DATA}/${id}/index.json`);
-  S.sex = 0; S.group = 0; S.age = allAgesIdx(); S.rankCat = 'all';
-  const want = S.key && S.meta.places.some(p => p.key === S.key) ? S.key
-    : (S.meta.places.find(p => p.key === 'state-tamil-nadu') || S.meta.places.find(p => p.type === 'state') || S.meta.places[0]).key;
-  await loadPlace(want, false);
+  LOADED.clear();
+  S.sex = 0; S.group = 0; S.age = allAgesIdx(); S.rankCat = 'all'; S.show = 'all';
+  let keys = S.keys.filter(k => S.meta.places.some(p => p.key === k));
+  if (!keys.length) keys = [(S.meta.places.find(p => p.key === 'state-tamil-nadu') || S.meta.places.find(p => p.type === 'state') || S.meta.places[0]).key];
+  await setPlaces(keys, false);
 }
 
-async function loadPlace(key, keepYear = true) {
-  S.key = key;
-  S.place = await getJSON(`${DATA}/${S.ds}/${key}.json`);
-  S.index = indexRows(S.place.rows);
-  const mp = metaPlace(key);
+async function loadOne(key) {
+  if (!LOADED.has(key)) {
+    const file = await getJSON(`${DATA}/${S.ds}/${key}.json`);
+    LOADED.set(key, { file, index: indexRows(file.rows) });
+  }
+  return LOADED.get(key);
+}
+
+/** The places compared; the first is the focus, which the single-place charts follow. */
+async function setPlaces(keys, keepYear = true) {
+  keys = keys.filter(k => S.meta.places.some(p => p.key === k));
+  if (!keys.length) return;
+  await Promise.all(keys.map(loadOne));
+  S.keys = keys;
+  S.key = keys[0];
+  const f = LOADED.get(S.key);
+  S.place = f.file;
+  S.index = f.index;
+  const mp = metaPlace(S.key);
   if (mp && mp.type !== 'total') S.rankType = mp.type === 'city' ? 'city' : 'state';
   syncControls();
   tl.setYears(placeYears(), keepYear);
   refresh();
 }
+/** Make a place the focus (from search), keeping the others. */
+const loadPlace = key => setPlaces([key, ...S.keys.filter(k => k !== key)]);
 
 /* ---------------------------------------------------------------- cards */
 
@@ -176,6 +208,10 @@ function buildCards() {
   const root = $('#cards');
   C.trend = card(root, { id: 'c-trend', kicker: 'Over the years', snap: true, rec: true });
   bindCapture(C.trend, { meta: () => captureMeta(C.trend, kind() === 'month' && (tl.playing || tl.recording))(), record: { timeline: tl, render: p => markTrend(p) }, name: 'ncrb-trend' });
+  // one place: its categories as lines or stacked; several places: one line each for the measure chosen here
+  C.view = segmented({ label: 'Chart', value: S.view, options: [{ value: 'lines', label: 'Lines', icon: 'line' }, { value: 'stack', label: 'Stacked', icon: 'layers' }], onChange: v => { S.view = v; drawTrend(); } });
+  C.show = select({ label: 'Measure', small: 'SHOW', options: [], onChange: v => { S.show = v; drawTrend(); } });
+  C.trend.toolbar.append(C.view.el, C.show.el);
 
   C.year = card(root, { id: 'c-year', kicker: 'One year', rec: true });
   bindCapture(C.year, { meta: captureMeta(C.year, true), record: { timeline: tl, render: p => drawYear(p) }, name: 'ncrb-year' });
@@ -239,7 +275,20 @@ function drawTilesLight() { if (tl.year !== tilesYear) { tilesYear = tl.year; dr
 /* 1. over the years */
 let trendArgs = null, trendNotes = [];
 function drawTrend() {
-  const c = C.trend, k = kind(), ys = placeYears();
+  const c = C.trend, k = kind();
+  const multi = S.keys.length > 1;
+  // controls: Lines/Stacked for one place's categories; the measure when places are compared
+  const stackable = !multi && ['cats', 'time', 'sexage'].includes(k);
+  C.view.el.hidden = !stackable;
+  if (!stackable && S.view === 'stack') S.view = 'lines';
+  C.view.set(S.view);
+  const showOpts = k === 'rate' ? S.meta.cats.map((cat, ci) => ({ value: String(ci), label: cat === 'Rate' ? 'Suicide rate' : cat === 'Suicides' ? 'Number of suicides' : cat })).filter(o => !/population/i.test(o.label))
+    : [{ value: 'all', label: `All ${unit()}` }, ...ordered().map(cat => ({ value: String(cat.ci), label: label(cat) }))];
+  if (!showOpts.some(o => o.value === S.show)) S.show = showOpts[0]?.value ?? 'all';
+  C.show.options(showOpts, S.show);
+  C.show.el.hidden = !multi;
+  if (multi) return drawCompare(c, k, showOpts);
+  const ys = placeYears();
   if (!ys.length) { emptyChart(c.svg); return; }
   const xs = []; for (let y = ys[0]; y <= ys.at(-1); y++) xs.push(y);
   let list = [];
@@ -249,20 +298,22 @@ function drawTrend() {
     list.push({ key: 'p', label: placeName(), color: 'var(--critical)', values: series(0) });
     if (india && S.key !== india.key) list.push({ key: 'in', label: 'All India', color: 'var(--series-1)', values: india.head[0] || {} });
     if (cities && metaPlace(S.key)?.type === 'city') list.push({ key: 'ci', label: 'All big cities', color: 'var(--series-3)', values: cities.head[0] || {} });
-    c.set({ title: `Suicide rate: ${placeName()}`, sub: 'suicides per lakh people, as NCRB printed them' });
+    c.set({ title: `Suicide rate: ${placeName()}`, sub: 'suicides per lakh people, as NCRB printed them (add places above to compare)' });
   } else if (k === 'month') {
     // one line per year across the months; the year on the timeline in red
     trendArgs = { season: true, ys };
     c.setLegend([{ label: 'the year on the timeline', color: 'var(--critical)', line: true }, { label: 'every other year', color: 'var(--axis)', line: true }]);
     markTrend(tl.pos);
     const gaps = xs.filter(y => !ys.includes(y));
-    c.set({ note: gaps.length ? `No figures for ${compact(gaps)}: ${gapReason(gaps)}` : 'Drag the timeline to pick out a year; play or record to watch the years arrive one by one.' });
+    c.set({ note: gaps.length ? `No figures for ${compact(gaps)}: ${gapReason(gaps)}` : 'Drag the timeline to pick out a year; play or record to watch the years arrive one by one. Add places above to compare their totals.' });
     return;
   } else {
     const ord = ordered();
-    const share = S.mode === 'share';
+    const share = S.mode === 'share', lakh = S.mode === 'lakh';
+    const pop = lakh ? popOf(S.key) : null;
     const totals = {}; for (const y of ys) totals[y] = yearTotal(y);
-    const conv = vals => (share ? Object.fromEntries(Object.entries(vals).filter(([y]) => totals[y]).map(([y, v]) => [y, (100 * v) / totals[y]])) : vals);
+    const conv = vals => (share ? Object.fromEntries(Object.entries(vals).filter(([y]) => totals[y]).map(([y, v]) => [y, (100 * v) / totals[y]]))
+      : lakh ? Object.fromEntries(Object.entries(vals).filter(([y]) => pop?.[y]).map(([y, v]) => [y, v / pop[y]])) : vals);
     const top = ord.slice(0, k === 'time' || k === 'sexage' ? 8 : 7);
     list = top.map((cat, i) => ({ key: cat.ci, label: label(cat), color: colorOf(i), values: conv(series(cat.ci)) }));
     const rest = ord.slice(top.length);
@@ -270,18 +321,69 @@ function drawTrend() {
       const o = {}; for (const y of ys) { let s = 0, any = false; for (const r of rest) { const v = series(r.ci)[y]; if (v != null) { s += v; any = true; } } if (any) o[y] = s; }
       list.push({ key: 'other', label: 'All other', color: 'var(--other)', values: conv(o) });
     }
-    c.set({ title: `${S.meta.title} in ${placeName()}`, sub: `${share ? 'share of each year\'s total, %' : unit()}${selectionText() ? ` · ${selectionText()}` : ''}` });
+    const subUnit = share ? 'share of each year\'s total, %' : lakh ? `${unit()} per lakh people` : unit();
+    c.set({ title: `${S.meta.title} in ${placeName()}`, sub: `${subUnit}${selectionText() ? ` · ${selectionText()}` : ''}` });
+    if (S.view === 'stack') {
+      // bottom band = the largest category; a year with nothing printed breaks the bands
+      c.setLegend(list.map(s2 => ({ label: s2.label, color: s2.color })));
+      trendArgs = { stack: true, xs, series: list, share, lakh };
+      markTrend(tl.pos);
+      const gaps = xs.filter(y => !ys.includes(y));
+      c.set({ note: (lakh && !pop ? '<p>NCRB printed no population for this place, so it cannot be shown per lakh people.</p>' : '') + (gaps.length ? `<p>No figures for ${compact(gaps)}: ${gapReason(gaps)}</p>` : '') });
+      return;
+    }
   }
   c.setLegend(list.map(s => ({ label: s.label, color: s.color, line: true })));
   // annotations from the place's yearly total: known causes (the 2020 lockdown ...) and jumps to check
   const tot = {}; for (const y of ys) { const v = yearTotal(y); if (v) tot[y] = v; }
   trendNotes = notesFor(tot, { place: placeName(), what: `${S.meta.title} ${S.meta.id || ''}`, fmt: fmtN });
-  trendArgs = { xs, series: list, unit: k === 'rate' ? '' : S.mode === 'share' && k !== 'month' ? '%' : '', fmt: k === 'rate' || (S.mode === 'share' && k !== 'month') ? fmt1 : fmtN,
+  const pct = S.mode === 'share' && k !== 'month', lk = S.mode === 'lakh' && k !== 'rate';
+  trendArgs = { xs, series: list, unit: k === 'rate' ? '' : pct ? '%' : '', fmt: k === 'rate' || pct || lk ? fmt1 : fmtN, yFmt: lk ? fmt1 : undefined,
                 marks: trendNotes.map(n => ({ x: n.year, n: n.n, kind: n.kind, top: true })) };
   markTrend(tl.pos);
   const gaps = xs.filter(y => !ys.includes(y));
   const noteRows = trendNotes.map(n => `<li class="${n.kind}"><span class="nmark">${n.n}</span><b>${n.year}</b> ${esc(n.text)}</li>`).join('');
   c.set({ note: (noteRows ? `<ul class="chart-notes">${noteRows}</ul>` : '') + (gaps.length ? `<p>No figures for ${compact(gaps)}: ${gapReason(gaps)}</p>` : '') });
+}
+/** Several places: one line each for the measure chosen (a category, or the total), as a number, a share or per lakh people. */
+function drawCompare(c, k, showOpts) {
+  const share = S.mode === 'share' && k !== 'rate' && S.show !== 'all';
+  const lakh = S.mode === 'lakh' && k !== 'rate';
+  const list = [];
+  const noPop = [];
+  for (const key of S.keys) {
+    const P = LOADED.get(key), mp = metaPlace(key);
+    if (!P || !mp) continue;
+    const index = P.index, vals = {};
+    const pop = lakh ? popOf(key) : null;
+    if (lakh && !pop) noPop.push(mp.name);
+    for (const y of yearsOf(index)) {
+      let v;
+      if (k === 'rate') v = series(Number(S.show), { index })[y];
+      else if (S.show === 'all') v = yearTotal(y, { index });
+      else v = series(Number(S.show), { index })[y];
+      if (v == null) continue;
+      if (share) { const t = yearTotal(y, { index }); if (!t) continue; v = (100 * v) / t; }
+      if (lakh) { if (!pop?.[y]) continue; v = v / pop[y]; }
+      vals[y] = v;
+    }
+    list.push({ key, label: mp.name, color: ui.places.colour(key), values: vals });
+  }
+  const ys = [...new Set(list.flatMap(s2 => Object.keys(s2.values).map(Number)))].sort((a, b) => a - b);
+  if (!ys.length) { emptyChart(c.svg, 'None of these places has this figure.'); trendArgs = null; return; }
+  const xs = []; for (let y = ys[0]; y <= ys.at(-1); y++) xs.push(y);
+  const what = showOpts.find(o => o.value === S.show)?.label || '';
+  const rateLike = k === 'rate' && /rate/i.test(what);
+  c.set({ title: `${what}${lakh ? ' per lakh people' : ''}: ${list.map(s2 => s2.label).join(', ')}`,
+          sub: `${share ? `share of each place's ${unit()}, %` : rateLike ? 'suicides per lakh people, as NCRB printed them' : lakh ? `${unit()} per lakh people, on the population NCRB printed for each year` : unit()}${selectionText() ? ` · ${selectionText()}` : ''}` });
+  c.setLegend(list.map(s2 => ({ label: s2.label, color: s2.color, line: true })));
+  trendNotes = [];
+  trendArgs = { xs, series: list, unit: share ? '%' : '', fmt: rateLike || share || lakh ? fmt1 : fmtN, yFmt: rateLike || lakh ? fmt1 : undefined, marks: [] };
+  markTrend(tl.pos);
+  const gapBits = list.map(s2 => { const own = Object.keys(s2.values).map(Number); const lo = own[0], hi = own.at(-1); const g = xs.filter(y => y > lo && y < hi && !own.includes(y)); return g.length ? `${s2.label} ${compact(g)}` : ''; }).filter(Boolean);
+  c.set({ note: (noPop.length ? `<p>No population printed for ${esc(noPop.join(', '))}, so ${noPop.length > 1 ? 'they are' : 'it is'} left out per lakh people.</p>` : '')
+    + (gapBits.length ? `<p>Years with no figure: ${esc(gapBits.join('; '))}. ${gapReason([])}</p>` : '')
+    + '<p>The first place is the one the charts below follow; click another place\'s name to make it the first.</p>' });
 }
 function markTrend(pos) {
   if (!trendArgs) return;
@@ -295,9 +397,16 @@ function markTrend(pos) {
     C.trend.set({ title: `${S.meta.title} in ${placeName()}: each year, month by month`, sub: `${share ? "share of each year's total, %" : unit()}${selectionText() ? ` · ${selectionText()}` : ''} · ${y} in red` });
     return;
   }
+  if (trendArgs.stack) {
+    const { xs, series: sr, share, lakh } = trendArgs;
+    stackChart(C.trend.svg, { xs, series: sr, mode: share ? 'share' : 'count', unit: share ? '% of the year' : lakh ? `${unit()} per lakh people` : unit(),
+                              fmt: share ? v => `${(Math.round(v * 10) / 10).toFixed(1)}%` : lakh ? fmt1 : fmtN, yFmt: lakh ? fmt1 : undefined });
+    return;
+  }
   const ys = placeYears(), xs = trendArgs.xs;
   const yr = lerp(ys[Math.floor(pos)] ?? xs[0], ys[Math.min(ys.length - 1, Math.floor(pos) + 1)] ?? xs[0], pos - Math.floor(pos));
-  lineChart(C.trend.svg, { ...trendArgs, pos: xs.indexOf(Math.floor(yr)) + (yr - Math.floor(yr)) });
+  const k0 = xs.indexOf(Math.floor(yr));
+  lineChart(C.trend.svg, { ...trendArgs, ...(trendArgs.yFmt ? {} : { yFmt: undefined }), pos: k0 >= 0 ? k0 + (yr - Math.floor(yr)) : null });
 }
 function compact(ys) {
   const out = []; let s = ys[0], p = ys[0];
@@ -409,7 +518,8 @@ function drawRank(pos) {
     const ra = oa.get(v.p.key), rb = ob.get(v.p.key);
     const value = v.a != null && v.b != null ? lerp(v.a, v.b, f) : f < .5 ? v.a : v.b;
     const rank = ra != null && rb != null ? lerp(ra, rb, f) : ra ?? rb;
-    return { key: v.p.key, label: v.p.name, value, rank, hl: v.p.key === S.key, color: v.p.key === S.key ? 'var(--critical)' : 'var(--series-1)' };
+    const chosen = S.keys.includes(v.p.key);
+    return { key: v.p.key, label: v.p.name, value, rank, hl: chosen, color: chosen ? (S.keys.length > 1 ? ui.places.colour(v.p.key) : 'var(--critical)') : 'var(--other)' };
   }).filter(r => r.value != null && r.rank != null && (r.rank < limit || r.hl));
   rows.forEach(r => { if (r.hl && r.rank >= limit) r.rank = limit; });
   const max = Math.max(...vals.flatMap(v => [v.a || 0, v.b || 0]), 1);
@@ -419,7 +529,7 @@ function drawRank(pos) {
   drawMap(pos);
   barRows(c.svg, { rows, max: Math.max(max, gmax), fmt: k === 'rate' && S.rankCat === '0' ? fmt1 : share ? fmt1 : fmtN, unit: share ? '%' : '', bigYear: y });
   const what = catOpts.find(o => o.value === S.rankCat)?.label || '';
-  c.set({ title: `${what}: ${S.rankType === 'city' ? 'the big cities' : 'States and UTs'}, ${y}`, sub: `${share ? `share of each place's ${unit()}` : k === 'rate' && S.rankCat === '0' ? 'per lakh people' : unit()}${k === 'cats' || k === 'sexage' ? ' · both sexes, all ages' : ''}${m.groups.length > 1 ? ` · ${m.groups[0].toLowerCase()} crashes` : ''} · ${placeName()} highlighted` });
+  c.set({ title: `${what}: ${S.rankType === 'city' ? 'the big cities' : 'States and UTs'}, ${y}`, sub: `${share ? `share of each place's ${unit()}` : k === 'rate' && S.rankCat === '0' ? 'per lakh people' : unit()}${k === 'cats' || k === 'sexage' ? ' · both sexes, all ages' : ''}${m.groups.length > 1 ? ` · ${m.groups[0].toLowerCase()} crashes` : ''} · ${S.keys.length > 1 ? 'the places chosen above in their colours' : `${placeName()} highlighted`}` });
   c.set({ note: rows.length < 3 ? 'Few or no places have this figure for the year.' : '' });
 }
 
@@ -531,7 +641,9 @@ function bindSearch() {
 }
 
 function writeHash() {
-  const p = new URLSearchParams({ d: S.ds, p: S.key, y: String(tl.year ?? '') });
+  const p = new URLSearchParams({ d: S.ds, p: S.keys.join(','), y: String(tl.year ?? '') });
+  if (S.view !== 'lines') p.set('v', S.view);
+  if (S.keys.length > 1 && S.show !== 'all') p.set('w', S.show);
   if (S.sex) p.set('s', S.meta.sexes[S.sex]);
   if (S.meta.ages[S.age] && S.meta.ages[S.age] !== 'all ages') p.set('a', S.meta.ages[S.age]);
   if (S.group) p.set('g', String(S.group));
@@ -540,7 +652,7 @@ function writeHash() {
 }
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
-  return { d: p.get('d'), p: p.get('p'), y: Number(p.get('y')) || null, s: p.get('s'), a: p.get('a'), g: Number(p.get('g')) || 0, m: p.get('m') };
+  return { d: p.get('d'), p: p.get('p'), y: Number(p.get('y')) || null, s: p.get('s'), a: p.get('a'), g: Number(p.get('g')) || 0, m: p.get('m'), v: p.get('v'), w: p.get('w') };
 }
 tl.on((pos, settled) => { if (settled) writeHash(); });
 
@@ -552,8 +664,11 @@ async function boot() {
   S.catalog = await getJSON(`${DATA}/catalog.json`);
   const h = readHash();
   if (h.d && S.catalog.datasets.some(d => d.id === h.d)) S.ds = h.d;
-  if (h.p) S.key = h.p;
-  if (h.m === 'share') S.mode = 'share';
+  if (h.p) { S.keys = h.p.split(',').filter(Boolean); S.key = S.keys[0]; }
+  if (h.m === 'share' || h.m === 'lakh') S.mode = h.m;
+  if (h.v === 'stack') S.view = 'stack';
+  if (h.w) S.show = h.w;
+  try { POP = (await getJSON('../data/explore/population.json')).places || {}; } catch { POP = {}; }
   buildControls();
   buildCards();
   bindSearch();
@@ -563,6 +678,7 @@ async function boot() {
   if (h.s && S.meta.sexes.includes(h.s)) { S.sex = S.meta.sexes.indexOf(h.s); changed = true; }
   if (h.a && S.meta.ages.includes(h.a)) { S.age = S.meta.ages.indexOf(h.a); changed = true; }
   if (h.g && S.meta.groups[h.g]) { S.group = h.g; changed = true; }
+  if (h.w) { S.show = h.w; changed = true; }
   if (changed) { syncControls(); tl.setYears(placeYears()); }
   if (h.y) tl.gotoYear(h.y, false);
   refresh();

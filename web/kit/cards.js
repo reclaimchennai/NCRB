@@ -2,8 +2,8 @@
  * buttons, labelled dropdowns, switches, the year timeline (play, scrub,
  * smooth transitions), and a chart card with snapshot and record buttons. */
 
-import { el, $, icon, ease } from './util.js?v=f7e25e660f';
-import { createCapture } from './capture.js?v=f7e25e660f';
+import { el, $, icon, ease } from './util.js?v=3ddf0e6905';
+import { createCapture } from './capture.js?v=3ddf0e6905';
 
 /* --------------------------------------------------------------- controls */
 
@@ -254,4 +254,84 @@ export function bindCapture(c, { meta, record = null, name }) {
     }
   });
   return cap;
+}
+
+/* ---------------------------------------------------------- place picker */
+
+/**
+ * Places to compare, as on Our World in Data: the chosen ones as chips (colour dot, name, remove), and an Add button
+ * opening a searchable, grouped checklist. The first chip is the focus (the place the single-place charts follow); a
+ * click on another chip's name moves it first. A place keeps its colour while it stays chosen.
+ * groups: [{group, options: [{value, label, sub}]}]. onChange(values) on every change.
+ */
+export function entityPicker({ label = 'Places', max = 10, onChange, addLabel = 'Add a place' }) {
+  const root = el('div', { class: 'picker', role: 'group', 'aria-label': label });
+  const chips = el('div', { class: 'picker-chips' });
+  const add = el('button', { type: 'button', class: 'ctl picker-add', 'aria-expanded': 'false', 'aria-haspopup': 'true' }, `${icon('plus')}<span>${addLabel}</span>`);
+  const panel = el('div', { class: 'picker-panel', hidden: true });
+  panel.innerHTML = `<div class="picker-search">${icon('search', 'ic-lead')}<input type="search" placeholder="Search States, UTs and cities" aria-label="Search places"></div>
+    <div class="picker-list" role="listbox" aria-multiselectable="true"></div>
+    <div class="picker-foot"><span class="picker-count"></span><button type="button" class="picker-done ctl">Done</button></div>`;
+  root.append(chips, add, panel);
+  const inp = $('input', panel), list = $('.picker-list', panel);
+  let groups = [], sel = [];
+  const colours = new Map();
+  const labelOf = v => { for (const g of groups) for (const o of g.options) if (String(o.value) === String(v)) return o.label; return String(v); };
+  const colourOf = v => {
+    if (!colours.has(v)) {
+      const used = new Set(sel.filter(s => colours.has(s)).map(s => colours.get(s)));
+      let k = 0; while (used.has(k) && k < 7) k++;
+      colours.set(v, k);
+    }
+    return `var(--series-${(colours.get(v) % 8) + 1})`;
+  };
+  const emit = () => onChange?.(sel.slice());
+  const paintChips = () => {
+    for (const k of [...colours.keys()]) if (!sel.includes(k)) colours.delete(k);
+    chips.innerHTML = '';
+    sel.forEach((v, i) => {
+      const c = el('span', { class: `picker-chip${i === 0 && sel.length > 1 ? ' focus' : ''}` });
+      c.innerHTML = `<span class="dot" style="background:${colourOf(v)}"></span><button type="button" class="nm" title="${i ? 'Make this the place the other charts follow' : 'The other charts follow this place'}">${labelOf(v)}</button>${sel.length > 1 ? `<button type="button" class="x" aria-label="Remove ${labelOf(v)}">${icon('close')}</button>` : ''}`;
+      $('.nm', c).addEventListener('click', () => { if (!i) return; sel = [v, ...sel.filter(s => s !== v)]; paintChips(); emit(); });
+      $('.x', c)?.addEventListener('click', () => { sel = sel.filter(s => s !== v); paintChips(); paintList(); emit(); });
+      chips.append(c);
+    });
+    add.hidden = !groups.length;
+  };
+  const paintList = () => {
+    const q = inp.value.trim().toLowerCase();
+    list.innerHTML = groups.map(g => {
+      const opts = g.options.filter(o => !q || o.label.toLowerCase().includes(q));
+      if (!opts.length) return '';
+      return `<div class="grp">${g.group}</div>` + opts.map(o => {
+        const on = sel.includes(o.value) || sel.map(String).includes(String(o.value));
+        const full = !on && sel.length >= max;
+        return `<button type="button" role="option" aria-selected="${on}" data-v="${o.value}" ${full ? 'disabled' : ''}><span class="box">${on ? icon('check', 'tick') : ''}</span><span>${o.label}</span>${o.sub ? `<span class="yr">${o.sub}</span>` : ''}</button>`;
+      }).join('');
+    }).join('') || '<div class="empty">No place by that name.</div>';
+    $('.picker-count', panel).textContent = `${sel.length} of up to ${max} chosen`;
+  };
+  list.addEventListener('click', e => {
+    const b = e.target.closest('button[data-v]');
+    if (!b) return;
+    const opt = groups.flatMap(g => g.options).find(o => String(o.value) === b.dataset.v);
+    const v = opt ? opt.value : b.dataset.v;
+    if (sel.map(String).includes(String(v))) { if (sel.length > 1) sel = sel.filter(s => String(s) !== String(v)); }
+    else if (sel.length < max) sel = [...sel, v];
+    paintChips(); paintList(); emit();
+  });
+  const open = () => { panel.hidden = false; add.setAttribute('aria-expanded', 'true'); inp.value = ''; paintList(); inp.focus(); };
+  const close = () => { panel.hidden = true; add.setAttribute('aria-expanded', 'false'); };
+  add.addEventListener('click', () => (panel.hidden ? open() : close()));
+  $('.picker-done', panel).addEventListener('click', close);
+  inp.addEventListener('input', paintList);
+  document.addEventListener('pointerdown', e => { if (!panel.hidden && !root.contains(e.target)) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !panel.hidden) close(); });
+  return {
+    el: root,
+    get values() { return sel.slice(); },
+    colour: colourOf,
+    options(g, values) { groups = g; if (values) sel = values.slice(0, max); paintChips(); if (!panel.hidden) paintList(); },
+    set(values) { sel = values.slice(0, max); paintChips(); if (!panel.hidden) paintList(); },
+  };
 }

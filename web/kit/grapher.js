@@ -14,7 +14,7 @@
  *   clocks      two 12-hour dials, day (06-18) and night (18-06), one wedge per 3 hours
  */
 
-import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=f7e25e660f';
+import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=3ddf0e6905';
 
 /* ------------------------------------------------------------------ utils */
 
@@ -241,21 +241,25 @@ export function lineChart(el, { xs, series, pos = null, fmt = fmtN, yFmt = fmtSh
  * xs: years. series: [{key, label, color, values: {year: share %}}], bottom first; each year's shares add to 100.
  * A year with no figures breaks the bands (no area is drawn across a gap).
  */
-export function stackChart(el, { xs, series, fmt = v => `${(Math.round(v * 10) / 10).toFixed(1)}%`, height, unit = '% of the year' }) {
+export function stackChart(el, { xs, series, fmt = v => `${(Math.round(v * 10) / 10).toFixed(1)}%`, height, unit = '% of the year', mode = 'share', yFmt = fmtShort }) {
   const { w, narrow } = size(el);
   const has = yr => series.some(s => s.values[yr] != null);
   if (!xs.some(has)) return emptyChart(el);
   const h = height || (narrow ? 300 : 360);
   const labelW = Math.min(w * (narrow ? .34 : .24), Math.max(60, ...series.map(s2 => measure(el, s2.label, 'end-label'))) + 4);
-  const tickW = measure(el, '100%', 'tick');
+  // shares stack to 100%; counts (mode 'count') to each year's total, on a scale to the largest
+  const hiV = mode === 'share' ? 100 : Math.max(1, ...xs.map(yr => series.reduce((a, s) => a + (s.values[yr] || 0), 0))) * 1.04;
+  const tks = mode === 'share' ? [0, 25, 50, 75, 100] : ticks(0, hiV, 5);
+  const tlab = t => (mode === 'share' ? `${t}%` : yFmt(t));
+  const tickW = Math.max(...tks.map(t => measure(el, tlab(t), 'tick')), 20);
   const m = { top: 30, right: labelW + 10, bottom: 28, left: Math.ceil(tickW + 14) };
   frame(el, w, h);
   el.append(svg('text', { x: 2, y: 11, class: 'tick axis-unit', 'text-anchor': 'start' }, unit));
   const x = scaleLinear([xs[0], xs[xs.length - 1]], [m.left, w - m.right]);
-  const y = scaleLinear([0, 100], [h - m.bottom, m.top]);
-  for (const t of [0, 25, 50, 75, 100]) {
+  const y = scaleLinear([0, hiV], [h - m.bottom, m.top]);
+  for (const t of tks) {
     el.append(svg('line', { x1: m.left, x2: w - m.right, y1: y(t), y2: y(t), class: 'grid-line' }));
-    el.append(svg('text', { x: m.left - 7, y: y(t) + 3.5, class: 'tick', 'text-anchor': 'end' }, `${t}%`));
+    el.append(svg('text', { x: m.left - 7, y: y(t) + 3.5, class: 'tick', 'text-anchor': 'end' }, tlab(t)));
   }
   const span = xs[xs.length - 1] - xs[0];
   const step = [1, 2, 5, 10].find(st => (span / st) * 34 < w - m.left - m.right) || 10;

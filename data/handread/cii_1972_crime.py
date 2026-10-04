@@ -13,11 +13,12 @@ CATS = ["Murder", "C.H. not amounting to murder", "Rape", "Kidnapping and abduct
         "Thefts", "Riots", "Criminal breach of trust", "Cheating", "Counterfeiting", "Total cognizable crimes (IPC)"]
 CHECK = "columns"
 CORRECTIONS = {
-    ("Madhya Pradesh", "Kidnapping and abduction"): (147, 741, "printed 147 (1.72 per lakh); 741 gives 1.72 on the State's population (murder 1,686 = 3.92 per lakh), and the States column then adds up to the printed 8,855"),
+    ("Andhra Pradesh", "Rape"): (59, 58, "printed 59; the CII 1972 errata (raw/cii/1972/year_wise/1689764732ERRATA.pdf, Table 5 col. 7 Sl. 1) gives 58, and the States column then adds up to the printed 2,562"),
+    ("Madhya Pradesh", "Kidnapping and abduction"): (147, 741, "printed 147 (1.72 per lakh); the CII 1972 errata (Table 5 col. 9 Sl. 10) and Table 6 give 741, which is 1.72 per lakh, and the States column then adds up to the printed 8,855"),
 }
 ROWS = {
  "States": {
-  "Andhra Pradesh": [1031, 15, 59, 147, 165, 225, 5746, 13671, 3054, 678, 401, 13, 49914],
+  "Andhra Pradesh": [1031, 15, 58, 147, 165, 225, 5746, 13671, 3054, 678, 401, 13, 49914],
   "Assam": [488, 45, 117, 451, 229, 254, 5038, 7947, 4390, 431, 276, 9, 30320],
   "Bihar": [1401, 236, 240, 580, 2142, 1447, 19082, 25539, 10053, 1321, 526, 52, 82744],
   "Gujarat": [705, 6, 57, 242, 77, 442, 4056, 11464, 624, 905, 515, 44, 36157],

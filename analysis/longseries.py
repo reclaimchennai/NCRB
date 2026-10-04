@@ -594,16 +594,23 @@ def handread_crime(heads) -> pd.DataFrame:
     rows = []
     for m in handread_tables("crime"):
         keys = [head_of(c, heads) for c in m.CATS]
+        # the 1950s-60s tables print theft in two columns, cattle and ordinary: theft is their sum
+        tparts = [i for i, c in enumerate(m.CATS) if re.search(r"theft", c, re.I) and re.search(r"cattle|ordinary", c, re.I)]
         for sec, rws in m.ROWS.items():
             for name, v in rws.items():
+                if len(tparts) == 2 and "theft" not in keys and all(v[i] is not None for i in tparts):
+                    v = list(v) + [v[tparts[0]] + v[tparts[1]]]
+                    kk, cc = keys + ["theft"], list(m.CATS) + ["Theft (cattle + ordinary)"]
+                else:
+                    kk, cc = keys, m.CATS
                 if name.upper().startswith(("TOTAL", "GRAND")):
                     continue
                 pl = resolve(name, "Cities" if sec == "Cities" else sec, True, m.YEAR)
                 if not pl or pl[1] == "total":
                     continue
-                for k, val in zip(keys, v):
+                for k, cat, val in zip(kk, cc, v):
                     if k and val is not None and val > 0:
-                        rows.append({"pname": pl[0], "ptype": pl[1], "head": k, "fy": m.YEAR, "value": float(val), "w": 2.0,
+                        rows.append({"pname": pl[0], "ptype": pl[1], "head": k, "fy": m.YEAR, "value": float(val), "w": 2.0, "column": cat,
                                      "own": True, "crank": 0, "method": "handread", "table_id": f"handread/{Path(m.SOURCE).stem}",
                                      "title": f"{m.TITLE} (read from the page image)", "year": m.YEAR, "source_url": ""})
     return pd.DataFrame(rows)

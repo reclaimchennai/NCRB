@@ -11,7 +11,7 @@ CATS = ["Murder", "Kidnapping & abduction", "Dacoity", "Robbery", "House-breakin
         "Criminal breach of trust", "Cheating", "Counterfeiting", "Total cognizable crimes (IPC)"]
 CHECK = "columns"
 CORRECTIONS = {
-    ("Kanpur", "Kidnapping & abduction"): (117, 177, "printed 117 (+14.9% on 154 in 1970); 177/154 = +14.9%, and the Cities column then adds up to the printed 977"),
+    ("TOTAL (CITIES)", "Kidnapping & abduction"): (977, 917, "NCRB's CII 1972 errata corrects the 1971 Cities total to 917; Kanpur stays as printed (117), as CII 1972 Table 6 also prints it (the printed +14.9% on 154 would give 177)"),
 }
 # Andhra Pradesh Murder 1971: the figure is partly blotted on the scan and reads 1,020; it agrees with the printed
 # -6.6% and the Murder column then adds up to the printed State total 16,018.
@@ -59,8 +59,8 @@ ROWS = {
   "Calcutta": [285, 118, 40, 112, 761, 4225, 1143, 354, 225, 5, 10911],
   "Delhi": [94, 407, 9, 293, 2346, 16051, 203, 553, 544, 28, 26933],
   "Hyderabad": [16, 26, 3, 28, 743, 2041, 54, 95, 140, 0, 3794],
-  "Kanpur": [54, 177, 28, 200, 1771, 4479, 235, 782, 294, 5, 9659],
+  "Kanpur": [54, 117, 28, 200, 1771, 4479, 235, 782, 294, 5, 9659],
   "Madras": [20, 18, 0, 17, 125, 3700, 210, 400, 235, 38, 7205],
-  "TOTAL (CITIES)": [653, 977, 115, 884, 9610, 48706, 2245, 3455, 2571, 165, 95589],
+  "TOTAL (CITIES)": [653, 917, 115, 884, 9610, 48706, 2245, 3455, 2571, 165, 95589],
  },
 }

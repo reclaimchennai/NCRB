@@ -6,12 +6,12 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=f7e25e660f';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=f7e25e660f';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f7e25e660f';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=f7e25e660f';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=f7e25e660f';
-import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=f7e25e660f';
+import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=3ddf0e6905';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=3ddf0e6905';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=3ddf0e6905';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=3ddf0e6905';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=3ddf0e6905';
+import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=3ddf0e6905';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];
@@ -149,20 +149,66 @@ async function trafficMonth() {
 }
 
 async function roadDeaths() {
-  const P = await place('road_deaths_time', 'state-tamil-nadu');
-  const ys = yearsWith(P, { group: 'Road' });
-  section('Road deaths in Tamil Nadu by time of day', `<p>Deaths by time of day are printed only State-wise, and only from ${ys[0]}; for Chennai NCRB gives the number of crashes by hour and, separately, a yearly count of persons killed.</p>`);
-  const tot = Object.fromEntries(ys.map(y => [y, P.total(y, { group: 'Road' })]));
-  let mx = 0; for (const y of ys) for (const s of SLOTS) mx = Math.max(mx, P.get(s, { group: 'Road' })[y] || 0);
-  const { c } = yearCard(root(), {
-    id: 'tn-deaths', kicker: 'Tamil Nadu · persons killed in road crashes', years: ys, name: 'tn-road-deaths-clock', meta: y => creditLine(P.meta, [y], P.sources),
+  // crashes by time of day are counted State-wise every year since 1995; persons killed by time of day only since 2021
+  const [PC, PD] = await Promise.all([place('traffic_time', 'state-tamil-nadu'), place('road_deaths_time', 'state-tamil-nadu')]);
+  const sets = {
+    crashes: { P: PC, ys: yearsWith(PC, { group: 'Road' }), word: 'road crashes', unitWord: 'crashes' },
+    deaths: { P: PD, ys: yearsWith(PD, { group: 'Road' }), word: 'persons killed in road crashes', unitWord: 'deaths' },
+  };
+  for (const k of Object.keys(sets)) {
+    const S0 = sets[k];
+    S0.tot = Object.fromEntries(S0.ys.map(y => [y, S0.P.total(y, { group: 'Road' })]));
+    S0.mx = 0; for (const y of S0.ys) for (const sl of SLOTS) S0.mx = Math.max(S0.mx, S0.P.get(sl, { group: 'Road' })[y] || 0);
+  }
+  section('Road crashes and deaths in Tamil Nadu by time of day', `<p>NCRB has counted Tamil Nadu's road crashes in eight three-hour slots every year since ${sets.crashes.ys[0]}, and the persons killed by time of day since ${sets.deaths.ys[0]}. Switch between the two below.</p>`);
+  let m = 'crashes';
+  const { c, tl } = yearCard(root(), {
+    id: 'tn-deaths', kicker: 'Tamil Nadu · road crashes by time of day', years: sets.crashes.ys, name: 'tn-road-clock', meta: y => creditLine(sets[m].P.meta, [y], sets[m].P.sources),
     render: pos => {
-      const y = ys[Math.round(pos)];
-      clocks(c.svg, { values: Object.fromEntries(SLOTS.map(s => [s, at(P.get(s, { group: 'Road' }), ys, pos) ?? 0])), max: mx, year: y });
-      c.set({ title: `Persons killed in road crashes in Tamil Nadu by time of day, ${y}`, sub: `${fmtN(tot[y])} deaths · wedge area shows deaths` });
+      const S0 = sets[m];
+      const y = S0.ys[Math.round(pos)];
+      clocks(c.svg, { values: Object.fromEntries(SLOTS.map(sl => [sl, at(S0.P.get(sl, { group: 'Road' }), S0.ys, pos) ?? 0])), max: S0.mx, year: y });
+      c.set({ kicker: `Tamil Nadu · ${S0.word} by time of day`, title: `${S0.word[0].toUpperCase()}${S0.word.slice(1)} in Tamil Nadu by time of day, ${y}`, sub: `${fmtN(S0.tot[y])} ${S0.unitWord} · wedge area shows ${S0.unitWord}` });
     },
   });
+  const seg = segmented({ label: 'Crashes or deaths', value: m, options: [
+    { value: 'crashes', label: `Road crashes (${sets.crashes.ys[0]}–${sets.crashes.ys.at(-1)})` },
+    { value: 'deaths', label: `Persons killed (${sets.deaths.ys[0]}–${sets.deaths.ys.at(-1)})` }], onChange: v => { m = v; tl.setYears(sets[m].ys, true); tl.emit(); } });
+  c.toolbar.append(seg.el);
   c.setLegend([{ label: 'Day, 6 am – 6 pm', color: 'var(--day)' }, { label: 'Night, 6 pm – 6 am', color: 'var(--night)' }]);
+  const gaps = []; for (let y = sets.crashes.ys[0]; y <= sets.crashes.ys.at(-1); y++) if (!sets.crashes.ys.includes(y)) gaps.push(y);
+  c.set({ note: gaps.length ? `No crash figures by time of day for ${span(gaps)}.` : '' });
+}
+
+/** Deaths in road crashes since 1967 (the long series): Chennai and Tamil Nadu, as numbers or per lakh people. */
+async function roadLong() {
+  const [FS, FC, popf] = await Promise.all([getJSON('../data/explore/adsi/long-state-deaths-in-road-crashes-by-state.json'),
+    getJSON('../data/explore/adsi/long-city-deaths-in-road-crashes-by-city.json'), getJSON('../data/explore/population.json').catch(() => ({ places: {} }))]);
+  const serOf = (F, name) => { const r = F.rows.findIndex(x => x.name === name); const a = F.d[`${r}.0.0`] || []; const o = {}; for (let i = 0; i < a.length; i += 2) o[a[i]] = a[i + 1]; return o; };
+  const L = [
+    { key: 'ch', label: 'Chennai', color: 'var(--critical)', v: serOf(FC, 'Chennai'), pop: popf.places['Chennai|city'] || {} },
+    { key: 'tn', label: 'Tamil Nadu', color: 'var(--series-2)', v: serOf(FS, 'Tamil Nadu'), pop: popf.places['Tamil Nadu|state'] || {} },
+    { key: 'in', label: 'All India', color: 'var(--series-1)', v: serOf(FS, 'All India'), pop: popf.places['All India|total'] || {} },
+  ];
+  const ys = [...new Set(L.flatMap(l => Object.keys(l.v).map(Number)))].sort((a, b) => a - b);
+  const xs = []; for (let y = ys[0]; y <= ys.at(-1); y++) xs.push(y);
+  const ch = L[0].v, y0 = Object.keys(ch).map(Number)[0], y1 = Math.max(...Object.keys(ch).map(Number));
+  section('Deaths in road crashes since 1967', `<p>NCRB's own State and city counts of persons killed in road crashes, from the scanned editions of 1967 onwards (read from the page images and checked against every printed total) to ${y1}. Chennai: <b>${fmtN(ch[y0])}</b> in ${y0}, <b>${fmtN(ch[y1])}</b> in ${y1}. Per lakh people uses the population NCRB printed for each place and year.</p>`);
+  let mode = 'lakh';
+  const c = plainCard(root(), {
+    id: 'road-long', kicker: 'Deaths in road crashes', name: 'road-deaths-since-1967', meta: () => creditLine({ tables: FS.sources, year_sources: {} }, ys),
+    render: () => {
+      const series = L.filter(l => mode === 'lakh' || l.key !== 'in').map(l => ({ key: l.key, label: l.label, color: l.color,
+        values: mode === 'lakh' ? Object.fromEntries(Object.entries(l.v).filter(([y]) => l.pop[y]).map(([y, v]) => [y, v / l.pop[y]])) : l.v }));
+      lineChart(c.svg, { xs, series, fmt: mode === 'lakh' ? fmt1 : fmtN, yFmt: mode === 'lakh' ? fmt1 : undefined });
+      c.setLegend(series.map(s2 => ({ label: s2.label, color: s2.color, line: true })));
+      c.set({ title: `Deaths in road crashes${mode === 'lakh' ? ' per lakh people' : ''}: Chennai, Tamil Nadu${mode === 'lakh' ? ' and India' : ''}, ${xs[0]}–${xs.at(-1)}`, sub: mode === 'lakh' ? 'persons killed per lakh people, on the population NCRB printed' : 'persons killed (India left out: its scale would flatten the others)' });
+    },
+  });
+  const seg = segmented({ label: 'Number or rate', value: mode, options: [{ value: 'lakh', label: 'Per lakh people' }, { value: 'count', label: 'Number' }], onChange: v => { mode = v; redrawAll(); } });
+  c.toolbar.append(seg.el);
+  const gap = L.slice(0, 2).map(l => { const own = Object.keys(l.v).map(Number); const g = xs.filter(y => y > own[0] && y < own.at(-1) && !own.includes(y)); return g.length ? `${l.label} ${span(g)}` : ''; }).filter(Boolean);
+  c.set({ note: `${gap.length ? `No figure for ${gap.join('; ')}: the page was missing from the scan (Tamil Nadu 1970) or NCRB's printed figure is impossible against the years around it (Chennai 1970: 4, 1980: 42, 1982: 8, 1991: 5, 1993: 5 deaths, each adding up on its page), so it is left out. ` : ''}Up to 1995 the figure is deaths 'on roads' from the table of accidental deaths by cause; from 1996 the persons killed in road accidents from the traffic tables.` });
 }
 
 /** Suicides by means for one place; colours follow the category (the same mean has the same colour on every chart). */
@@ -178,8 +224,17 @@ async function means(key = 'state-tamil-nadu', who = 'Tamil Nadu', idp = 'tn', c
   const rankCats = () => catsFor().map(c => ({ c, t: ys.reduce((a, y) => a + (val(c, y) || 0), 0) })).sort((a, b) => b.t - a.t).map(x => x.c);
   let order = rankCats();
   let top = order.slice(0, 7);
+  // a means keeps one colour on both charts (Tamil Nadu's order); a means without one takes the next colour not in use,
+  // so grey is only ever 'All other'
   const palette = colourOrder || order;
-  const colour = c => (palette.indexOf(c) >= 0 && palette.indexOf(c) < 8 ? SERIES(palette.indexOf(c)) : 'var(--other)');
+  const fixed = c => { const i = palette.indexOf(c === 'Poison: insecticides' ? 'Poison (all)' : c); return i >= 0 && i < 8 ? i : null; };
+  let colour = () => 'var(--other)';
+  const paint = shown => {
+    const out = {}, used = new Set();
+    for (const c of shown) { const i = fixed(c); if (i != null && !used.has(i)) { out[c] = i; used.add(i); } }
+    for (const c of shown) if (out[c] == null) { let k = 0; while (used.has(k) && k < 7) k++; out[c] = k; used.add(k); }
+    colour = c => (out[c] != null ? SERIES(out[c]) : out[c === 'Poison: insecticides' || c === 'Poison: other' ? 'Poison (all)' : ''] != null ? SERIES(out['Poison (all)']) : 'var(--other)');
+  };
   const shares = c => Object.fromEntries(ys.map(y => [y, P.total(y) ? (100 * (val(c, y) || 0)) / P.total(y) : null]).filter(([, v]) => v != null));
   const first = ys.find(y => y >= 2001) ?? ys[0], last = ys.at(-1);
   const h = shares('Hanging');
@@ -193,10 +248,11 @@ async function means(key = 'state-tamil-nadu', who = 'Tamil Nadu', idp = 'tn', c
     render: () => {
       combine = view === 'stack';
       order = rankCats(); top = order.slice(0, 7);
-      const bands = top.map((c, i) => ({ key: c, label: c, color: c === 'Poison (all)' ? colour('Poison: other') : colour(c), values: shares(c) }));
+      paint(top);
+      const bands = top.map(c => ({ key: c, label: c, color: colour(c), values: shares(c) }));
       if (view === 'stack') stackChart(c1.svg, { xs, series: bands.concat([{ key: 'rest', label: 'All other', color: 'var(--other)', values: restOf() }]), unit: "% of the year's suicides" });
       else lineChart(c1.svg, { xs, series: bands, fmt: fmt1, unit: '%', yFmt: v => `${v}%` });
-      c1.setLegend(top.map((c, i) => ({ label: c, color: c === 'Poison (all)' ? colour('Poison: other') : colour(c), line: view !== 'stack' })).concat(view === 'stack' ? [{ label: 'All other', color: 'var(--other)' }] : []));
+      c1.setLegend(top.map(c => ({ label: c, color: colour(c), line: view !== 'stack' })).concat(view === 'stack' ? [{ label: 'All other', color: 'var(--other)' }] : []));
     },
   });
   c1.set({ title: `Means adopted, share of all suicides in ${who}`, sub: `${ys[0]}–${last} · % of each year's suicides, both sexes` });
@@ -214,7 +270,7 @@ async function means(key = 'state-tamil-nadu', who = 'Tamil Nadu', idp = 'tn', c
       const ser = cc => Object.fromEntries(ys.map(yy => [yy, val(cc, yy)]).filter(([, v]) => v != null));
       const rank = yy => new Map(order.map(cc => [cc, val(cc, yy) ?? -1]).sort((a, b) => b[1] - a[1]).map(([cc], k) => [cc, k]));
       const r0 = rank(ys[i0]), r1 = rank(ys[i1]);
-      const rows = order.map((cc, k) => ({ key: cc, label: cc, value: at(ser(cc), ys, pos), color: cc === 'Poison (all)' ? colour('Poison: other') : colour(cc), rank: lerp(r0.get(cc), r1.get(cc), f) })).filter(r => r.value != null);
+      const rows = order.map((cc, k) => ({ key: cc, label: cc, value: at(ser(cc), ys, pos), color: colour(cc), rank: lerp(r0.get(cc), r1.get(cc), f) })).filter(r => r.value != null);
       const max = Math.max(...ys.flatMap(yy => order.map(cc => val(cc, yy) || 0)));
       barRows(c.svg, { rows, max, total: at(Object.fromEntries(ys.map(yy => [yy, P.total(yy)])), ys, pos), bigYear: y });
       c.set({ title: `Suicides in ${who} by means, ${y}`, sub: 'number and share of the year, both sexes' });
@@ -426,7 +482,7 @@ async function boot() {
   await tiles();
   // Chennai's means chart uses Tamil Nadu's colours, so a mean has one colour on the page
   const meansBoth = async () => { const order = await means(); await means('city-chennai', 'Chennai', 'chn', order); };
-  for (const f of [trafficTime, trafficMonth, roadDeaths, meansBoth, profession, ageSex, rates, rateMap]) {
+  for (const f of [trafficTime, trafficMonth, roadDeaths, roadLong, meansBoth, profession, ageSex, rates, rateMap]) {
     try { await f(); } catch (e) { console.error(e); root().append(el('div', { class: 'card' }, `<div class="empty">Could not draw this section: ${esc(e.message)}</div>`)); }
   }
   redrawAll();

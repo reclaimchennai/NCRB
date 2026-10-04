@@ -3,9 +3,9 @@
 # charts). Read from the page images; the volume-per-lakh (V) columns are skipped. A dash is 0. Every row adds up to its
 # printed Total cognizable crime and every column to the printed section totals (scripts/check_handread.py).
 KIND, YEAR, PUB = "crime", 1980, "cii"
-SOURCE = 'raw/cii/1980/table_chapter/chapter-1-1980.pdf'
-PAGES = '9, 13, 17, 21, 23'
-TITLE = 'Table 5: Incidence of cognizable crime and volume per one lakh of population under important heads of Indian Penal Code during the year 1980 (States, Union Territories and Metropolitan Cities)'
+SOURCE = "raw/cii/1980/table_chapter/chapter-1-1980.pdf"
+PAGES = "9, 13, 17, 21, 23"
+TITLE = "Table 5: Incidence of cognizable crime and volume per one lakh of population under important heads of Indian Penal Code during the year 1980 (States, Union Territories and Metropolitan Cities)"
 CATS = ["Murder", "C.H. not amounting to murder", "Rape", "Kidnapping & abduction", "Dacoity", "Robbery", "Burglary", "Thefts", "Riots", "Criminal breach of trust", "Cheating", "Counterfeiting", "Others", "Total cognizable crimes (IPC)"]
 # corrections: (place, category): (printed, corrected, why)
 CORRECTIONS = {
