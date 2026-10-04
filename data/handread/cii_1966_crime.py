@@ -14,7 +14,7 @@ CATS = ["Murder", "Kidnapping & abduction", "Dacoity", "Robbery", "House-breakin
 CHECK = "columns"
 # corrections: (place, category): (printed, corrected, why)
 CORRECTIONS = {
-    ("TOTAL (STATES)", "Murder"): (14433, 12433, 'printed 14,433; the States add up to 12,433, 12,433 + U.Ts. 198 = the printed GRAND TOTAL 12,631, and the printed 1967 variation +6.0% = 13,185 / 12,433'),
+    ("TOTAL (STATES)", "Murder"): (14433, 12433, 'printed 14,433; the States add up to 12,433, 12,433 + U.Ts. 198 = the printed GRAND TOTAL 12,631, and the printed 1967 variation +6.0% = 13,185 / 12,433; Appendix III of the 1966 edition (appendix-1966.pdf p. 10) prints 12,433 and 12,631'),
     ("TOTAL (CITIES)", "Robbery"): (4444, 444, 'printed 4,444; the cities add up to 444 and the printed 1967 variation +26.6% = 562 / 444'),
 }
 ROWS = {

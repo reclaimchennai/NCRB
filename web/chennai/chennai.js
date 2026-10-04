@@ -6,12 +6,12 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=3ddf0e6905';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=3ddf0e6905';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=3ddf0e6905';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=3ddf0e6905';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=3ddf0e6905';
-import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=3ddf0e6905';
+import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=001984a2ba';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=001984a2ba';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=001984a2ba';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=001984a2ba';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=001984a2ba';
+import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=001984a2ba';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];
@@ -207,8 +207,17 @@ async function roadLong() {
   });
   const seg = segmented({ label: 'Number or rate', value: mode, options: [{ value: 'lakh', label: 'Per lakh people' }, { value: 'count', label: 'Number' }], onChange: v => { mode = v; redrawAll(); } });
   c.toolbar.append(seg.el);
-  const gap = L.slice(0, 2).map(l => { const own = Object.keys(l.v).map(Number); const g = xs.filter(y => y > own[0] && y < own.at(-1) && !own.includes(y)); return g.length ? `${l.label} ${span(g)}` : ''; }).filter(Boolean);
-  c.set({ note: `${gap.length ? `No figure for ${gap.join('; ')}: the page was missing from the scan (Tamil Nadu 1970) or NCRB's printed figure is impossible against the years around it (Chennai 1970: 4, 1980: 42, 1982: 8, 1991: 5, 1993: 5 deaths, each adding up on its page), so it is left out. ` : ''}Up to 1995 the figure is deaths 'on roads' from the table of accidental deaths by cause; from 1996 the persons killed in road accidents from the traffic tables.` });
+  // NCRB's own figures that add up on their page but cannot be right against the years around them
+  const BAD = { Chennai: { 1970: 4, 1980: 42, 1982: 8, 1991: 5, 1993: 5 } };
+  const bits = [];
+  for (const l of L.slice(0, 2)) {
+    const own = Object.keys(l.v).map(Number);
+    const g = xs.filter(y => y > own[0] && y < own.at(-1) && !own.includes(y));
+    const bad = g.filter(y => BAD[l.label]?.[y] != null), other = g.filter(y => BAD[l.label]?.[y] == null);
+    if (bad.length) bits.push(`${l.label} ${bad.map(y => `${y} (printed ${BAD[l.label][y]})`).join(', ')}: NCRB's printed figure adds up on its page but is impossible against the years around it, so it is left out`);
+    if (other.length) bits.push(`${l.label} ${span(other)}: ${l.label === 'Tamil Nadu' && other.includes(1970) ? 'the page with the States is missing from the 1970 scan' : 'no figure that adds up has been read yet'}`);
+  }
+  c.set({ note: `${bits.length ? `${bits.join('. ')}. ` : ''}Up to 1995 the figure is deaths 'on roads' from the table of accidental deaths by cause; from 1996 the persons killed in road accidents from the traffic tables.` });
 }
 
 /** Suicides by means for one place; colours follow the category (the same mean has the same colour on every chart). */

@@ -1,7 +1,8 @@
 # ADSI 1981, Appendix VI: suicides by means adopted with percentage to total, States / UTs / cities
 # (raw/adsi/1981/table_content/1680161137appendix-61881.pdf, pages 1-4, printed sideways: pages 1-2 Railways to Fire,
 # pages 3-4 Drowning to Total). Only the counts are recorded; the printed percentages were used to confirm readings.
-# '—' (0.0) is 0; N.A. (not available) is None. Lucknow is printed "Not Available" across the row.
+# '—' (0.0) is 0; N.A. (not available) is None. Lucknow is printed "Not Available" across the row,
+# and Tamil Nadu's suicides by weapons are printed N.A. (the row adds up to its printed 4,836 without them).
 # Checked by scripts/check_handread.py.
 KIND, YEAR, PUB = "means", 1981, "adsi"
 SOURCE = "raw/adsi/1981/table_content/1680161137appendix-61881.pdf"

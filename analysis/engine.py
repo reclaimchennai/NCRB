@@ -1140,9 +1140,32 @@ def frame(recs) -> pd.DataFrame:
     return pd.DataFrame(recs, columns=COLS)
 
 
+def handread_traffic(kind: str, labels: list[str], have: set) -> pd.DataFrame:
+    """Traffic tables by time or month read from the page images (data/handread, kind traffic_time / traffic_month):
+    CATS are the slots (or months) and Total, GROUP the kind of crash; only place-years and groups not already read."""
+    recs = []
+    for m in handread_tables(kind):
+        g = getattr(m, "GROUP", "Road")
+        for sec, rows in m.ROWS.items():
+            for name, v in rows.items():
+                if name.upper().startswith(("TOTAL", "GRAND")):
+                    continue
+                key = resolve(name, "Cities" if sec == "Cities" else sec, True, m.YEAR)
+                if not key or (m.YEAR, key[0], key[1], g) in have:
+                    continue
+                for c, val in zip(m.CATS, v):
+                    if c in labels and val is not None:
+                        recs.append((m.YEAR, key[0], key[1], g, c, "Total", "all ages", float(val), "ok (hand-read, adds up)", "handread"))
+    return frame(recs)
+
+
 def traffic_time() -> pd.DataFrame:
     """The time and month tables count the same accidents, so a scanned year whose two totals disagree is dropped."""
     t = read_traffic("traffic_time_chennai", 8, time_slot, SLOTS)
+    ok_ = t[t.check.isin(OK)]
+    h = handread_traffic("traffic_time", SLOTS, set(zip(ok_.year, ok_.place, ok_.ptype, ok_.group)))
+    if not h.empty:
+        t = pd.concat([t[~t.set_index(["year", "place", "ptype", "group"]).index.isin(list(zip(h.year, h.place, h.ptype, h.group)))], h], ignore_index=True)
     m = traffic_month()
     mt = m[(m.group == "Road") & (m.check == "ok")].groupby(["year", "place", "ptype"]).value.sum()
     tt = t[(t.group == "Road") & (t.check == "ok") & (t.source != "text")].groupby(["year", "place", "ptype"]).value.sum()
@@ -1179,7 +1202,12 @@ def traffic_time() -> pd.DataFrame:
 
 @lru_cache(maxsize=1)
 def traffic_month() -> pd.DataFrame:
-    return read_traffic("traffic_month_chennai", 12, month_slot, MONTHS)
+    m = read_traffic("traffic_month_chennai", 12, month_slot, MONTHS)
+    ok_ = m[m.check.isin(OK)]
+    h = handread_traffic("traffic_month", MONTHS, set(zip(ok_.year, ok_.place, ok_.ptype, ok_.group)))
+    if not h.empty:
+        m = pd.concat([m[~m.set_index(["year", "place", "ptype", "group"]).index.isin(list(zip(h.year, h.place, h.ptype, h.group)))], h], ignore_index=True)
+    return m
 
 
 SLOT_RX = [(lab, rf"^{lab[:2]}\s*:?\s*00\s*hrs?\.?\s*to\s*{lab[3:]}") for lab in SLOTS] + [("Total", r"total")]

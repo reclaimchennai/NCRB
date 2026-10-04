@@ -16,6 +16,7 @@ pass. On the charts these figures carry the source "read from the page image".
 | `means`, `causes` | the categories in printed order, the last one `Total` | every row adds to its Total; every column adds to the printed section totals; States + UTs = Grand Total |
 | `traffic` | `["Road accidents (cases)", "Persons injured", "Persons killed"]`, with `CHECK = "columns"` | each column adds to the printed section totals; States + UTs = Grand Total |
 | `crime` (`PUB = "cii"`, file `cii_<year>_crime[_cities].py`) | the IPC heads as printed, last the printed total of cognizable (IPC) crime; `CHECK = "columns"` when the printed heads do not add up to the total | rows add to the Total (or, with `"columns"`, each head adds to the section totals); States + UTs = Grand Total |
+| `traffic_time`, `traffic_month` | the eight slots `["00-03", "03-06", "06-09", "09-12", "12-15", "15-18", "18-21", "21-24"]` (or `["Jan", ..., "Dec"]`) then `Total`; `GROUP = "Road"` (or `"Railway crossing"`, `"Railway"`, `"Total traffic"`) | every row adds to its Total; every column adds to the section totals; States + UTs = Grand Total |
 | `suicide_incidence`, `accidental_incidence` | `[count, population in lakh, rate per lakh]`, with `CHECK = "incidence"` | counts add to the section totals; every printed rate = count / population |
 
 Sections are `"States"`, `"U.Ts."`, `"Cities"` and `"Grand"` (`{"GRAND TOTAL": [...]}`); totals rows keep their printed

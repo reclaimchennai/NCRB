@@ -7,12 +7,12 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=3ddf0e6905';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=3ddf0e6905';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=3ddf0e6905';
-import { notesFor } from '../kit/notes.js?v=3ddf0e6905';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=3ddf0e6905';
-import { footerHtml, creditLine } from '../kit/footer.js?v=3ddf0e6905';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=001984a2ba';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=001984a2ba';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=001984a2ba';
+import { notesFor } from '../kit/notes.js?v=001984a2ba';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=001984a2ba';
+import { footerHtml, creditLine } from '../kit/footer.js?v=001984a2ba';
 
 const DATA = '../data/trends';
 const GROUPS = [
