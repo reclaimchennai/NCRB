@@ -46,9 +46,9 @@ TOPIC = "Long series since 1953"
 # canonical crime heads: (key, label, matches, unless)
 IPC_HEADS = [
     ("total", "Total cognizable crimes (IPC)", r"total\s*(cog|i\.?\s?p\.?\s?c|crimes? \(?ipc)|total cognizable", r"sll|special|local|women|children|cyber|scheduled|juvenil|economic|violent|property"),
-    ("murder", "Murder", r"\bmurd", r"attempt|culpable|c\.?\s?h\.?\b|not amount|motive|victim|fire.?arm|abetment|dowry|kidnap|abduct|rape|life convict|by group"),
+    ("murder", "Murder", r"\bmurd", r"attempt|culpable|c\.?\s?h\.?\b|not amount|motive|victim|fire.?arm|abetment|dowry|kidnap|abduct|rape|life convict|by group|dacoit"),
     ("attempt_murder", "Attempt to commit murder", r"attempt.{0,20}murd", r""),
-    ("chna", "Culpable homicide not amounting to murder", r"culpable|c\.?\s?h\.?\s*not", r""),
+    ("chna", "Culpable homicide not amounting to murder", r"culpable|c\.?\s?h\.?\s*not", r"attempt"),
     ("rape", "Rape", r"\brape", r"attempt|victim|incest|minor|^(?!.*(total rape|custodial\s*\+)).*(custod|gang)"),
     ("kidnapping", "Kidnapping & abduction", r"kidnap|abduct", r"women|girls|ransom|marriage|children|minor|murder"),
     ("dacoity", "Dacoity", r"dacoit", r"prep|assembl|murder"),
@@ -57,7 +57,9 @@ IPC_HEADS = [
     ("theft", "Theft", r"theft", r"cattle|cycle|auto|motor|vehicle|railway|electric|other|ordinary"),
     ("riots", "Riots", r"\briot", r""),
     ("cbt", "Criminal breach of trust", r"breach of trust", r""),
-    ("cheating", "Cheating", r"cheat", r""),
+    # from 2017 NCRB prints 'Forgery, Cheating & Fraud' with Cheating (Sec. 420) as one of its parts: the part is the
+    # head that matches the earlier years, not the combined total or the frauds
+    ("cheating", "Cheating", r"cheat", r"(forgery|fraud)(?!.*\|\s*(b\)\s*)?cheating\b)|impersonation|personation"),
     ("counterfeiting", "Counterfeiting", r"counterfeit", r""),
     ("arson", "Arson", r"\barson", r""),
     ("hurt", "Hurt", r"\bhurt\b", r"acid|rash|negligen|driving|endanger|deter|weapon|attempt|(simple|grievous)\s+hurt\s*\(total|"
@@ -87,7 +89,8 @@ NOT_CASES_COL = re.compile(
     r"rate|%|percent|variation|share|rank|person|victim|female|male|arrest|population|lakh|average|ratio|"
     # 2024: each head in two halves, IPC (to 30 June) and BNS (from 1 July), then their total
     r"\|\s*(ipc|bns)\s*$|"
-    r"convict|charge|pending|disposal|withdrawn|compound|trial|acquit|investig|communication device|cyber|\bit act|\b(r|v|p)\b\s*$|^\s*\(?(r|v)\)?\s*$",
+    r"convict|charge|pending|disposal|withdrawn|compound|trial|acquit|investig|communication device|cyber|\bit act|"
+    r"\b(r|v|p)\b\s*(\(\s*\d+\s*\)|\d+[a-z]?)?\s*$|^\s*\(?(r|v)\)?\s*$",
     re.I)
 CASES_COL = re.compile(r"\bi\b|incidence|cases|c\.?\s?r\.?\b|reported|registered|number|during the year", re.I)
 YEAR = re.compile(r"(?<!\d)(19[5-9]\d|20[0-2]\d)(?!\d)")
@@ -111,7 +114,11 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
     """Every printed figure that is a count under one head for one place, with its year and source."""
     t = q("SELECT table_id, year, title, method, listing, checks_total, checks_passed, source_url FROM tables "
           "WHERE publication = ? AND n_cells > 0 AND year BETWEEN ? AND ?", [pub, *years])
-    t = t[~t.title.fillna("").str.contains(not_table)]
+    # which tables: the rules, with Jev's labels where it is sure (analysis.classify)
+    from .classify import table_policy
+    pol = table_policy(pub, t.title, not_table)
+    t = t.assign(policy=t.title.map(pol).fillna("keep"))
+    t = t[t.policy != "drop"]
     if need_table is not None:
         t = t[t.title.fillna("").str.contains(need_table)]
     out = []
@@ -138,6 +145,10 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
             return k if colneed[k].search(col) and not re.search(r"male|female|injur|cases", col, re.I) else None
         return k if (CASES_COL.search(col) or YEAR.search(col) or not col.strip() or re.fullmatch(r"\W*cogni[sz]able\s+crimes\W*", col, re.I)) else None
     c["head"] = [heads_col[col] or from_title(col, ti) for col, ti in zip(c["column"], c.title)]
+    # headings Jev is sure name another head, or hold rates or victims (analysis.classify)
+    from .classify import column_veto
+    veto = column_veto(pub, c["column"].unique(), heads_col)
+    c.loc[c["column"].isin(veto), "head"] = None
     # heads that may only come from certain tables (prisons: the State-wise distribution tables, not annexures)
     tneed = {h[0]: re.compile(h[5], re.I) for h in heads if len(h) > 5 and h[5]}
     if tneed:
@@ -195,9 +206,14 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
     for tid, row, sec, name, meth, ed in zip(c.table_id, c["row"], c.section, c.name, c.method, c.year):
         fc = first_city.get(tid)
         sec2 = sec if (sec and re.search(r"cit|state|u\.?\s?t", str(sec), re.I)) else ("Cities" if fc is not None and row >= fc else (sec or ""))
-        places.append(resolve(str(name or ""), str(sec2 or ""), meth in SCANNED, int(ed)))
+        nm = re.sub(r"\s+police\b.*$", "", str(name or ""), flags=re.I)        # 'Madras City Police'
+        places.append(resolve(nm, str(sec2 or ""), meth in SCANNED, int(ed)))
     c["place"] = places
     c = c[c.place.notna()]
+    # a district-and-city table: only the rows named as a city (district names repeat city and State names)
+    c = c[(c.policy != "cities") | ((c.place.map(lambda p: p[1]) == "city") & c.name.fillna("").str.contains(r"\bcity\b", case=False))]
+    # a table of crimes against women: only the heads that are crimes against women
+    c = c[(c.policy != "women") | c["head"].isin(["rape", "dowry_deaths", "molestation", "cruelty"])]
     c["pname"] = c.place.map(lambda p: p[0])
     c["ptype"] = c.place.map(lambda p: p[1])
     # a city must be one NCRB lists in its city tables (text-layer headings otherwise slip in as 'cities')
