@@ -6,16 +6,16 @@
  "topic": "Accidental Deaths & Suicides in India 1999 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 1999 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-23",
- "listing_title": "table-23",
- "method": "pdf_ocr",
+ "title": "Distribution of Suicides by Profession (State, UT & City-wise) - 1999",
+ "listing_title": "Distribution of Suicides by Profession (State, UT & City-wise) - 1999",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181222141115id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1999/table-23.pdf",
  "source_file": "raw/adsi/1999/archived/table-23.pdf",
  "source_sha256": "8372952e3b568f1d4cd677166f9782a00babf7bd70b9b5446f20f80601d1fd4d",
  "table_no": "23",
- "pdf_title": "Profile of Suicide Victims By Fictession During 1999 (State, UT & City-wise)",
- "row_label": "Si. No. / Male",
+ "pdf_title": "",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2,
@@ -25,10 +25,18 @@
   6,
   7
  ],
- "n_rows": 132,
- "n_cols": 51,
- "n_cells": 2541,
+ "n_rows": 65,
+ "n_cols": 52,
+ "n_cells": 3067,
  "columns": [
+  {
+   "col_no": "3",
+   "name": "House Wife | Male",
+   "header": [
+    "House Wife",
+    "Male"
+   ]
+  },
   {
    "col_no": "4",
    "name": "Female (4)",
@@ -38,106 +46,103 @@
   },
   {
    "col_no": "5",
-   "name": "- Total",
+   "name": "Total (5)",
    "header": [
-    "- Total"
+    "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "%share ~=—(Col.5/53)* 100",
+   "name": "% share (Col. 5/53)* 100",
    "header": [
-    "%share ~=—(Col.5/53)* 100"
+    "% share (Col. 5/53)* 100"
    ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "Service (Government) | Male",
+   "header": [
+    "Service (Government)",
+    "Male"
+   ]
   },
   {
    "col_no": "8",
-   "name": "- Female (8)",
+   "name": "Female (8)",
    "header": [
-    "- Female"
+    "Female"
    ]
   },
   {
    "col_no": "9",
-   "name": "Total",
+   "name": "Total (9)",
    "header": [
     "Total"
    ]
   },
   {
    "col_no": "10",
-   "name": "%share —_(Col.9/53)* 100",
+   "name": "% share (Col. 9/53)* 100",
    "header": [
-    "%share —_(Col.9/53)* 100"
+    "% share (Col. 9/53)* 100"
    ]
   },
   {
    "col_no": "11",
-   "name": "Serene | Male",
+   "name": "Service (Private) | Male",
    "header": [
-    "Serene",
+    "Service (Private)",
     "Male"
    ]
   },
   {
    "col_no": "12",
-   "name": "Serene | Female",
+   "name": "Female (12)",
    "header": [
-    "Serene",
     "Female"
    ]
   },
   {
    "col_no": "13",
-   "name": "Serene | Total",
+   "name": "Total (13)",
    "header": [
-    "Serene",
     "Total"
    ]
   },
   {
    "col_no": "14",
-   "name": "Serene | %share (Col.13/53}* 100",
+   "name": "% share (Col. 13/53)* 100",
    "header": [
-    "Serene",
-    "%share (Col.13/53}* 100"
+    "% share (Col. 13/53)* 100"
    ]
   },
   {
    "col_no": "15",
-   "name": "rise Sac A | Male",
+   "name": "Public Sector Undertaking | Male",
    "header": [
-    "rise Sac A",
+    "Public Sector Undertaking",
     "Male"
    ]
   },
   {
    "col_no": "16",
-   "name": "rise Sac A | - Female",
+   "name": "Female (16)",
    "header": [
-    "rise Sac A",
-    "- Female"
+    "Female"
    ]
   },
   {
    "col_no": "17",
-   "name": "rise Sac A | Total",
+   "name": "Total (17)",
    "header": [
-    "rise Sac A",
     "Total"
    ]
   },
   {
    "col_no": "18",
-   "name": "rise Sac A | %share - (Col.17/53)* 100",
+   "name": "% share (Col. 17/53)* 100",
    "header": [
-    "rise Sac A",
-    "%share - (Col.17/53)* 100"
+    "% share (Col. 17/53)* 100"
    ]
   },
   {
@@ -150,116 +155,117 @@
   },
   {
    "col_no": "20",
-   "name": "Student | Female",
+   "name": "Female (20)",
    "header": [
-    "Student",
     "Female"
    ]
   },
   {
    "col_no": "21",
-   "name": "Student | ‘Total",
+   "name": "Total (21)",
    "header": [
-    "Student",
-    "‘Total"
+    "Total"
    ]
   },
   {
    "col_no": "22",
-   "name": "Student | %share - (Col.21/53)* 100",
+   "name": "% share (Col.21/53)* 100",
    "header": [
-    "Student",
-    "%share - (Col.21/53)* 100"
+    "% share (Col.21/53)* 100"
    ]
   },
   {
    "col_no": "23",
-   "name": "Male (23)",
+   "name": "Unemployed | Male",
    "header": [
+    "Unemployed",
     "Male"
    ]
   },
   {
    "col_no": "24",
-   "name": "i2 | Female",
+   "name": "Female (24)",
    "header": [
-    "i2",
     "Female"
    ]
   },
   {
    "col_no": "25",
-   "name": "i2 | - Total",
+   "name": "Total (25)",
    "header": [
-    "i2",
-    "- Total"
+    "Total"
    ]
   },
   {
    "col_no": "26",
-   "name": "i2 | %share ~——(Col.25/53)* 100",
+   "name": "% share (Col.25/53)* 100",
    "header": [
-    "i2",
-    "%share ~——(Col.25/53)* 100"
+    "% share (Col.25/53)* 100"
    ]
   },
   {
    "col_no": "27",
-   "name": "col_27",
-   "header": []
+   "name": "Self-Employed (Business activity) | Male",
+   "header": [
+    "Self-Employed (Business activity)",
+    "Male"
+   ]
   },
   {
    "col_no": "28",
-   "name": "col_28",
-   "header": []
+   "name": "Female (28)",
+   "header": [
+    "Female"
+   ]
   },
   {
    "col_no": "29",
-   "name": "Towa",
+   "name": "Total (29)",
    "header": [
-    "Towa"
+    "Total"
    ]
   },
   {
    "col_no": "30",
-   "name": "100 (30)",
+   "name": "% share (Col.29/53)* 100",
    "header": [
-    "100"
+    "% share (Col.29/53)* 100"
    ]
   },
   {
    "col_no": "31",
-   "name": "Son reper (31)",
+   "name": "Self-Employed (Professional Activity) | Male",
    "header": [
-    "Son reper"
+    "Self-Employed (Professional Activity)",
+    "Male"
    ]
   },
   {
    "col_no": "32",
-   "name": "Son reper (32)",
+   "name": "Female (32)",
    "header": [
-    "Son reper"
+    "Female"
    ]
   },
   {
    "col_no": "33",
-   "name": "Son reper | Toms",
+   "name": "Total (33)",
    "header": [
-    "Son reper",
-    "Toms"
+    "Total"
    ]
   },
   {
    "col_no": "34",
-   "name": "100 (34)",
+   "name": "% share (Col.33/53)* 100",
    "header": [
-    "100"
+    "% share (Col.33/53)* 100"
    ]
   },
   {
    "col_no": "35",
-   "name": "Male (35)",
+   "name": "Self-Employed (Farming/Agriculture) | Male",
    "header": [
+    "Self-Employed (Farming/Agriculture)",
     "Male"
    ]
   },
@@ -272,148 +278,150 @@
   },
   {
    "col_no": "37",
-   "name": "A",
+   "name": "Total (37)",
    "header": [
-    "A"
+    "Total"
    ]
   },
   {
    "col_no": "38",
-   "name": "Yshare ~=—(Col.37/53)* 100",
+   "name": "% share (Col.37/53)* 100",
    "header": [
-    "Yshare ~=—(Col.37/53)* 100"
+    "% share (Col.37/53)* 100"
    ]
   },
   {
    "col_no": "39",
-   "name": "col_39",
-   "header": []
+   "name": "Self-Employed (Others) | Male",
+   "header": [
+    "Self-Employed (Others)",
+    "Male"
+   ]
   },
   {
    "col_no": "40",
-   "name": "- Female (40)",
+   "name": "Female (40)",
    "header": [
-    "- Female"
+    "Female"
    ]
   },
   {
    "col_no": "41",
-   "name": "- (41)",
+   "name": "Total (41)",
    "header": [
-    "-"
+    "Total"
    ]
   },
   {
    "col_no": "42",
-   "name": "- - (Col.4.1/5:3)* Total 100",
+   "name": "% share (Col.41/53)* 100",
    "header": [
-    "- - (Col.4.1/5:3)* Total 100"
+    "% share (Col.41/53)* 100"
    ]
   },
   {
    "col_no": "43",
-   "name": "new fu rerun | Male (43)",
+   "name": "Retired Person | Male",
    "header": [
-    "new fu rerun",
+    "Retired Person",
     "Male"
    ]
   },
   {
    "col_no": "44",
-   "name": "new fu rerun | Female",
+   "name": "Female (44)",
    "header": [
-    "new fu rerun",
     "Female"
    ]
   },
   {
    "col_no": "45",
-   "name": "new fu rerun | =Total",
+   "name": "Total (45)",
    "header": [
-    "new fu rerun",
-    "=Total"
+    "Total"
    ]
   },
   {
    "col_no": "46",
-   "name": "new fu rerun | %share ~=—-(Col.45/53)* 100",
+   "name": "% share (Col.45/53)* 100",
    "header": [
-    "new fu rerun",
-    "%share ~=—-(Col.45/53)* 100"
+    "% share (Col.45/53)* 100"
    ]
   },
   {
    "col_no": "47",
-   "name": "new fu rerun | Male (47)",
+   "name": "Others | Male",
    "header": [
-    "new fu rerun",
+    "Others",
     "Male"
    ]
   },
   {
    "col_no": "48",
-   "name": "new fu rerun | —Female",
+   "name": "Female (48)",
    "header": [
-    "new fu rerun",
-    "—Female"
+    "Female"
    ]
   },
   {
    "col_no": "49",
-   "name": "C thers",
+   "name": "Total (49)",
    "header": [
-    "C thers"
+    "Total"
    ]
   },
   {
    "col_no": "50",
-   "name": "%share (Col.49/53)* 100",
+   "name": "% share (Col.49/53)* 100",
    "header": [
-    "%share (Col.49/53)* 100"
+    "% share (Col.49/53)* 100"
    ]
   },
   {
    "col_no": "51",
-   "name": "- (51)",
+   "name": "Total | Male",
    "header": [
-    "-"
+    "Total",
+    "Male"
    ]
   },
   {
    "col_no": "52",
-   "name": "col_52",
-   "header": []
+   "name": "Female (52)",
+   "header": [
+    "Female"
+   ]
   },
   {
    "col_no": "53",
-   "name": "col_53",
-   "header": []
+   "name": "Total (53)",
+   "header": [
+    "Total"
+   ]
   },
   {
    "col_no": "54",
-   "name": "- (Col.53/53)*100",
+   "name": "% share (Col.53/53)*100",
    "header": [
-    "- (Col.53/53)*100"
+    "% share (Col.53/53)*100"
    ]
   }
  ],
- "notes": [
-  "867 NCRB/2001—-14"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 38,
-  "cells_passed": 0,
+  "cells_checked": 156,
+  "cells_passed": 104,
   "failures": [
-   "col 4 'TOTAL UTs': printed 527, sum 42852",
-   "col 4 '! TOTAL (Cities)': printed 2612, sum 25911",
-   "col 5 '! TOTAL (Cities)': printed 2612, sum 25941",
-   "col 7 'TOTAL UTs': printed 63, sum 3747",
-   "col 11 'TOTAL UTs': printed 345, sum 4479",
-   "col 11 '! TOTAL (Cities)': printed 1497, sum 1088",
-   "col 11 'TOTAL All-India': printed 7161, sum 1842",
-   "col 12 '! TOTAL (Cities)': printed 346, sum 295"
+   "col 7 'Total (Cities)': printed 224, sum 207",
+   "col 11 'Total States': printed 6816, sum 6808",
+   "col 11 'Total (Cities)': printed 1497, sum 1212",
+   "col 12 'Total States': printed 1864, sum 1860",
+   "col 12 'Total (Cities)': printed 346, sum 204",
+   "col 13 'Total States': printed 8680, sum 8668",
+   "col 13 'Total (Cities)': printed 1843, sum 1416",
+   "col 15 'Total (Cities)': printed 168, sum 143"
   ],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,

@@ -6,16 +6,16 @@
  "topic": "Accidental Deaths & Suicides in India 1997 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 1997 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-20",
- "listing_title": "table-20",
- "method": "pdf_ocr",
+ "title": "Educational Status of Suicide Victims (All India) - 1997",
+ "listing_title": "Educational Status of Suicide Victims (All India) - 1997",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181220221125id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1997/table-20.pdf",
  "source_file": "raw/adsi/1997/archived/table-20.pdf",
  "source_sha256": "1e993cbed95f3d29623313eafb0c1e95b3f9d7409f84621def35cfbb01a3c618",
  "table_no": "20",
- "pdf_title": "Educational Status of Suicide Victims during 1997",
- "row_label": "(All-india) a. No. / (All-india) Educational Level",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) TABLE-20",
+ "row_label": "SI. No. / Educational Level",
  "pages": [
   1
  ],
@@ -25,34 +25,32 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(All-india) | Male (M)",
+   "name": "Number of Suicidal Deaths | Male (M)",
    "header": [
-    "(All-india)",
+    "Number of Suicidal Deaths",
     "Male (M)"
    ]
   },
   {
    "col_no": "4",
-   "name": "(All-india) | Number of Suicidal Deaths Female (F)",
+   "name": "Number of Suicidal Deaths | Female (F)",
    "header": [
-    "(All-india)",
-    "Number of Suicidal Deaths Female (F)"
+    "Number of Suicidal Deaths",
+    "Female (F)"
    ]
   },
   {
    "col_no": "5",
-   "name": "(All-india) | La (Col.",
+   "name": "Total (M+F)(Col. 3+4)",
    "header": [
-    "(All-india)",
-    "La (Col."
+    "Total (M+F)(Col. 3+4)"
    ]
   },
   {
    "col_no": "6",
-   "name": "(All-india) | Total %Male to (Col.3/col.5) * 3 +4)",
+   "name": "%Male to Total (Col.3/col.5) * 100",
    "header": [
-    "(All-india)",
-    "Total %Male to (Col.3/col.5) * 3 +4)"
+    "%Male to Total (Col.3/col.5) * 100"
    ]
   }
  ],

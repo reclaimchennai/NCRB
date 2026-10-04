@@ -6,55 +6,59 @@
  "topic": "Accidental Deaths & Suicides in India 1997 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 1997 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-17",
- "listing_title": "table-17",
- "method": "pdf_ocr",
+ "title": "Incidence of Suicides by Causes (All India) - 1997",
+ "listing_title": "Incidence of Suicides by Causes (All India) - 1997",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181220221059id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1997/table-17.pdf",
  "source_file": "raw/adsi/1997/archived/table-17.pdf",
  "source_sha256": "d370570637a1705ca0b6e982c6c5a3b837899903958ee542cc7ae12ca9be7eb1",
  "table_no": "17",
- "pdf_title": "Incidence Of Suicides By Causes During 1997",
- "row_label": "(All-india) SI. No. / (All-india) Cause of Suicides 7 / (All-india) Male",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA – 1997 N.C.R.B., (M.H.A.) TABLE-17",
+ "row_label": "Sl. No. / Cause of Suicides",
  "pages": [
   1
  ],
- "n_rows": 19,
- "n_cols": 4,
- "n_cells": 56,
+ "n_rows": 28,
+ "n_cols": 5,
+ "n_cells": 140,
  "columns": [
   {
-   "col_no": "4",
-   "name": "(All-india) | Numiber of Suicides | Female",
+   "col_no": "3",
+   "name": "Number of Suicides | Male",
    "header": [
-    "(All-india)",
-    "Numiber of Suicides",
+    "Number of Suicides",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Number of Suicides | Female",
+   "header": [
+    "Number of Suicides",
     "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "(All-india) | Numiber of Suicides | Total",
+   "name": "Number of Suicides | Total",
    "header": [
-    "(All-india)",
-    "Numiber of Suicides",
+    "Number of Suicides",
     "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "(All-india) | % of Male Suicides to Total",
+   "name": "% of Male Suicides to Total",
    "header": [
-    "(All-india)",
     "% of Male Suicides to Total"
    ]
   },
   {
    "col_no": "7",
-   "name": "(All-india) | %share of Hace",
+   "name": "%share of each Cause",
    "header": [
-    "(All-india)",
-    "%share of Hace"
+    "%share of each Cause"
    ]
   }
  ],
@@ -63,8 +67,8 @@
   "cells_checked": 0,
   "cells_passed": 0,
   "failures": [],
-  "other_totals_checked": 1,
-  "other_totals_passed": 0
+  "other_totals_checked": 3,
+  "other_totals_passed": 3
  },
  "inferred_pages": 0,
  "ocr_pages": 1,

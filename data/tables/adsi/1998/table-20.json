@@ -6,16 +6,16 @@
  "topic": "Accidental Deaths & Suicides in India 1998 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 1998 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-20",
- "listing_title": "table-20",
- "method": "pdf_ocr",
+ "title": "Educational Status of Suicide Victims (All India) - 1998",
+ "listing_title": "Educational Status of Suicide Victims (All India) - 1998",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181220222938id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1998/table-20.pdf",
  "source_file": "raw/adsi/1998/archived/table-20.pdf",
  "source_sha256": "7db9913286931924f97424064e7114e6c766a9ef1a42ad2ecc0be76671701f05",
  "table_no": "20",
- "pdf_title": "Educationai Status of Suicide Victims during 1998",
- "row_label": "(All-India) SI. No. / (All-India) Level",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) TABLE-20",
+ "row_label": "SI. No. / Educational Level",
  "pages": [
   1
  ],
@@ -25,33 +25,31 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(All-India) | Male (M)",
+   "name": "Number of Suicidal Deaths | Male (M)",
    "header": [
-    "(All-India)",
+    "Number of Suicidal Deaths",
     "Male (M)"
    ]
   },
   {
    "col_no": "4",
-   "name": "(All-India) | Number of Suicidal Deaths (F)",
+   "name": "Number of Suicidal Deaths | Female (F)",
    "header": [
-    "(All-India)",
-    "Number of Suicidal Deaths (F)"
+    "Number of Suicidal Deaths",
+    "Female (F)"
    ]
   },
   {
    "col_no": "5",
-   "name": "(All-India) | Total (M + F) (Col. 3+4)",
+   "name": "Total (M+F) (Col. 3+4)",
    "header": [
-    "(All-India)",
-    "Total (M + F) (Col. 3+4)"
+    "Total (M+F) (Col. 3+4)"
    ]
   },
   {
    "col_no": "6",
-   "name": "(All-India) | %Male to Total (Col.3/col.5) * 100",
+   "name": "%Male to Total (Col.3/col.5) * 100",
    "header": [
-    "(All-India)",
     "%Male to Total (Col.3/col.5) * 100"
    ]
   }

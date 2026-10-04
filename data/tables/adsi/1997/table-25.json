@@ -6,16 +6,16 @@
  "topic": "Accidental Deaths & Suicides in India 1997 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 1997 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-25",
- "listing_title": "table-25",
- "method": "pdf_ocr",
+ "title": "Distribution of Suicides by Means Adopted (State, UT & City-wise) - 1997",
+ "listing_title": "Distribution of Suicides by Means Adopted (State, UT & City-wise) - 1997",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181220221221id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1997/table-25.pdf",
  "source_file": "raw/adsi/1997/archived/table-25.pdf",
  "source_sha256": "8530f8f8612e656e828eac2d6a14bc90d9e935d83a4959f672de71b8237462f3",
- "table_no": "25",
- "pdf_title": "Distribution of Suicides By Means adopted (State, UT & City-wise)",
- "row_label": "Sl. No.",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2,
@@ -27,109 +27,124 @@
   8,
   9
  ],
- "n_rows": 154,
- "n_cols": 64,
- "n_cells": 2100,
+ "n_rows": 120,
+ "n_cols": 68,
+ "n_cells": 4005,
  "columns": [
   {
    "col_no": "3",
-   "name": "Male",
+   "name": "By Over Alcoholism | Male",
    "header": [
+    "By Over Alcoholism",
     "Male"
    ]
   },
   {
    "col_no": "4",
-   "name": "By Over Female 1",
+   "name": "Female (4)",
    "header": [
-    "By Over Female 1"
+    "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "Total",
+   "name": "Total (5)",
    "header": [
     "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "By | %share",
+   "name": "%share (6)",
    "header": [
-    "By",
     "%share"
    ]
   },
   {
    "col_no": "7",
-   "name": "By | Male (7)",
+   "name": "By Drowning | Male",
    "header": [
-    "By",
+    "By Drowning",
     "Male"
    ]
   },
   {
+   "col_no": "8",
+   "name": "Female (8)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Total (9)",
+   "header": [
+    "Total"
+   ]
+  },
+  {
    "col_no": "10",
-   "name": "By | Total %share {",
+   "name": "%share (10)",
    "header": [
-    "By",
-    "Total %share {"
+    "%share"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "By Fire/Self I mmolation | (2) ANDHRA PRADESH - ARUNACHAL PRADESH ASSAM -",
+   "col_no": "11",
+   "name": "By Fire/Self Immolation | Male",
    "header": [
-    "By Fire/Self I mmolation",
-    "(2) ANDHRA PRADESH - ARUNACHAL PRADESH ASSAM -"
+    "By Fire/Self Immolation",
+    "Male"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "By Fire/Self I mmolation | Male (1) 339 o 5 27.",
+   "col_no": "12",
+   "name": "Female (12)",
    "header": [
-    "By Fire/Self I mmolation",
-    "Male (1) 339 o 5 27."
+    "Female"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "By Fire/Self I mmolation | Female (12) —s757— 5 so",
+   "col_no": "13",
+   "name": "Total (13)",
    "header": [
-    "By Fire/Self I mmolation",
-    "Female (12) —s757— 5 so"
+    "Total"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "By Fire/Self I mmolation | Totat (13) «096 107",
+   "col_no": "14",
+   "name": "%share (14)",
    "header": [
-    "By Fire/Self I mmolation",
-    "Totat (13) «096 107"
+    "%share"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "By Fire-Arms | %share (14) 12.88 7.14 3.55",
+   "col_no": "15",
+   "name": "By Fire-Arms | Male",
    "header": [
     "By Fire-Arms",
-    "%share (14) 12.88 7.14 3.55"
+    "Male"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "By Fire-Arms | Male Total [a7 a5) 2 9 oO 50 54",
+   "col_no": "16",
+   "name": "Female (16)",
    "header": [
-    "By Fire-Arms",
-    "Male Total [a7 a5) 2 9 oO 50 54"
+    "Female"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "By Fire-Arms | Female %share 6 (18) 7 WwW o .00 4 1.79",
+   "col_no": "17",
+   "name": "Total (17)",
    "header": [
-    "By Fire-Arms",
-    "Female %share 6 (18) 7 WwW o .00 4 1.79"
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "%share (18)",
+   "header": [
+    "%share"
    ]
   },
   {
@@ -142,331 +157,313 @@
   },
   {
    "col_no": "20",
-   "name": "By Hanging | Female",
+   "name": "Female (20)",
    "header": [
-    "By Hanging",
     "Female"
    ]
   },
   {
    "col_no": "21",
-   "name": "By Hanging | Total",
+   "name": "Total (21)",
    "header": [
-    "By Hanging",
     "Total"
    ]
   },
   {
    "col_no": "22",
-   "name": "By Hanging | Yshare",
+   "name": "%share (22)",
    "header": [
-    "By Hanging",
-    "Yshare"
+    "%share"
    ]
   },
   {
    "col_no": "23",
-   "name": "Poison (By Consuming ?:2==2:== | Male",
+   "name": "Poison (By Consuming Insecticides) | Male",
    "header": [
-    "Poison (By Consuming ?:2==2:==",
+    "Poison (By Consuming Insecticides)",
     "Male"
    ]
   },
   {
    "col_no": "24",
-   "name": "Poison (By Consuming ?:2==2:== | Female",
+   "name": "Female (24)",
    "header": [
-    "Poison (By Consuming ?:2==2:==",
     "Female"
    ]
   },
   {
    "col_no": "25",
-   "name": "Poison (By Consuming ?:2==2:== | Total",
+   "name": "Total (25)",
    "header": [
-    "Poison (By Consuming ?:2==2:==",
     "Total"
    ]
   },
   {
    "col_no": "26",
-   "name": "Poison (By Consuming ?:2==2:== | %share",
+   "name": "%share (26)",
    "header": [
-    "Poison (By Consuming ?:2==2:==",
     "%share"
    ]
   },
   {
    "col_no": "27",
-   "name": "By Consuming )ther Poison | Male",
+   "name": "By Consuming Other Poison | Male",
    "header": [
-    "By Consuming )ther Poison",
+    "By Consuming Other Poison",
     "Male"
    ]
   },
   {
    "col_no": "28",
-   "name": "By Consuming )ther Poison | Female",
+   "name": "Female (28)",
    "header": [
-    "By Consuming )ther Poison",
     "Female"
    ]
   },
   {
    "col_no": "29",
-   "name": "By Consuming )ther Poison | Total",
+   "name": "Total (29)",
    "header": [
-    "By Consuming )ther Poison",
     "Total"
    ]
   },
   {
    "col_no": "30",
-   "name": "By Consuming )ther Poison | %share",
+   "name": "%share (30)",
    "header": [
-    "By Consuming )ther Poison",
     "%share"
    ]
   },
   {
    "col_no": "31",
-   "name": "By Self infliction of Injury | Male",
+   "name": "By Self Infliction of Injury | Male",
    "header": [
-    "By Self infliction of Injury",
+    "By Self Infliction of Injury",
     "Male"
    ]
   },
   {
    "col_no": "32",
-   "name": "By Self infliction of Injury | Female",
+   "name": "Female (32)",
    "header": [
-    "By Self infliction of Injury",
     "Female"
    ]
   },
   {
    "col_no": "33",
-   "name": "By Self infliction of Injury | Total",
+   "name": "Total (33)",
    "header": [
-    "By Self infliction of Injury",
     "Total"
    ]
   },
   {
    "col_no": "34",
-   "name": "By Self infliction of Injury | %share",
+   "name": "%share (34)",
    "header": [
-    "By Self infliction of Injury",
     "%share"
    ]
   },
   {
-   "col_no": "36",
-   "name": "Ey Jumping from (Building) | Female",
+   "col_no": "35",
+   "name": "By Jumping from (Building) | Male",
    "header": [
-    "Ey Jumping from (Building)",
+    "By Jumping from (Building)",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "36",
+   "name": "Female (36)",
+   "header": [
     "Female"
    ]
   },
   {
    "col_no": "37",
-   "name": "Ey Jumping from (Building) | - ‘Total -",
+   "name": "Total (37)",
    "header": [
-    "Ey Jumping from (Building)",
-    "- ‘Total -"
+    "Total"
    ]
   },
   {
    "col_no": "38",
-   "name": "Ey Jumping from (Building) | ‘%share",
+   "name": "%share (38)",
    "header": [
-    "Ey Jumping from (Building)",
-    "‘%share"
+    "%share"
    ]
   },
   {
    "col_no": "39",
-   "name": "By | Male (39)",
+   "name": "By Jumping from (Other Sites) | Male",
    "header": [
-    "By",
+    "By Jumping from (Other Sites)",
     "Male"
    ]
   },
   {
    "col_no": "40",
-   "name": "By | Female",
+   "name": "Female (40)",
    "header": [
-    "By",
     "Female"
    ]
   },
   {
    "col_no": "41",
-   "name": "tro: 1 (Other Sites) Tota!",
+   "name": "Total (41)",
    "header": [
-    "tro: 1 (Other Sites) Tota!"
+    "Total"
    ]
   },
   {
    "col_no": "42",
-   "name": "%share",
+   "name": "%share (42)",
    "header": [
     "%share"
    ]
   },
   {
    "col_no": "43",
-   "name": "By Male",
+   "name": "By Jumping off Moving Vehicles/Trains | Male",
    "header": [
-    "By Male"
+    "By Jumping off Moving Vehicles/Trains",
+    "Male"
    ]
   },
   {
    "col_no": "44",
-   "name": "off Moving Vehicles/Trains | Female",
+   "name": "Female (44)",
    "header": [
-    "off Moving Vehicles/Trains",
     "Female"
    ]
   },
   {
    "col_no": "45",
-   "name": "off Moving Vehicles/Trains | Total",
+   "name": "Total (45)",
    "header": [
-    "off Moving Vehicles/Trains",
     "Total"
    ]
   },
   {
    "col_no": "46",
-   "name": "off Moving Vehicles/Trains | %share",
+   "name": "% share (46)",
    "header": [
-    "off Moving Vehicles/Trains",
-    "%share"
+    "% share"
    ]
   },
   {
    "col_no": "47",
-   "name": "By Ma:hine | Male",
+   "name": "By Machine | Male",
    "header": [
-    "By Ma:hine",
+    "By Machine",
     "Male"
    ]
   },
   {
    "col_no": "48",
-   "name": "By Ma:hine | Female",
+   "name": "Female (48)",
    "header": [
-    "By Ma:hine",
     "Female"
    ]
   },
   {
    "col_no": "49",
-   "name": "By Ma:hine | Total",
+   "name": "Total (49)",
    "header": [
-    "By Ma:hine",
     "Total"
    ]
   },
   {
    "col_no": "50",
-   "name": "By Ma:hine | %share",
+   "name": "% share (50)",
    "header": [
-    "By Ma:hine",
-    "%share"
+    "% share"
    ]
   },
   {
    "col_no": "51",
-   "name": "Bir Overdose o'' Sleeping Pills | Male",
+   "name": "By Overdose of Sleeping Pills | Male",
    "header": [
-    "Bir Overdose o'' Sleeping Pills",
+    "By Overdose of Sleeping Pills",
     "Male"
    ]
   },
   {
    "col_no": "52",
-   "name": "Bir Overdose o'' Sleeping Pills | Female",
+   "name": "Female (52)",
    "header": [
-    "Bir Overdose o'' Sleeping Pills",
     "Female"
    ]
   },
   {
    "col_no": "53",
-   "name": "Bir Overdose o'' Sleeping Pills | Total",
+   "name": "Total (53)",
    "header": [
-    "Bir Overdose o'' Sleeping Pills",
     "Total"
    ]
   },
   {
    "col_no": "54",
-   "name": "Bir Overdose o'' Sleeping Pills | %share",
+   "name": "% share (54)",
    "header": [
-    "Bir Overdose o'' Sleeping Pills",
-    "%share"
+    "% share"
    ]
   },
   {
    "col_no": "55",
-   "name": "col_55",
-   "header": []
+   "name": "By Touching Electric Wires | Male",
+   "header": [
+    "By Touching Electric Wires",
+    "Male"
+   ]
   },
   {
    "col_no": "56",
-   "name": "By Touching flectric Wire:; | Female",
+   "name": "Female (56)",
    "header": [
-    "By Touching flectric Wire:;",
     "Female"
    ]
   },
   {
    "col_no": "57",
-   "name": "By Touching flectric Wire:; | -",
+   "name": "Total (57)",
    "header": [
-    "By Touching flectric Wire:;",
-    "-"
+    "Total"
    ]
   },
   {
    "col_no": "58",
-   "name": "+ - %share ‘Total",
+   "name": "% share (58)",
    "header": [
-    "+ - %share ‘Total"
+    "% share"
    ]
   },
   {
    "col_no": "59",
-   "name": "By Coming under Rur ning Vehicle:/Trains | Male",
+   "name": "By Coming under Running Vehicles/Trains | Male",
    "header": [
-    "By Coming under Rur ning Vehicle:/Trains",
+    "By Coming under Running Vehicles/Trains",
     "Male"
    ]
   },
   {
    "col_no": "60",
-   "name": "By Coming under Rur ning Vehicle:/Trains | Female",
+   "name": "Female (60)",
    "header": [
-    "By Coming under Rur ning Vehicle:/Trains",
     "Female"
    ]
   },
   {
    "col_no": "61",
-   "name": "By Coming under Rur ning Vehicle:/Trains | Total",
+   "name": "Total (61)",
    "header": [
-    "By Coming under Rur ning Vehicle:/Trains",
     "Total"
    ]
   },
   {
    "col_no": "62",
-   "name": "By Coming under Rur ning Vehicle:/Trains | %share",
+   "name": "% share (62)",
    "header": [
-    "By Coming under Rur ning Vehicle:/Trains",
-    "%share"
+    "% share"
    ]
   },
   {
@@ -479,26 +476,23 @@
   },
   {
    "col_no": "64",
-   "name": "By Other Means | Female",
+   "name": "Female (64)",
    "header": [
-    "By Other Means",
     "Female"
    ]
   },
   {
    "col_no": "65",
-   "name": "By Other Means | Total «65)",
+   "name": "Total (65)",
    "header": [
-    "By Other Means",
-    "Total «65)"
+    "Total"
    ]
   },
   {
    "col_no": "66",
-   "name": "By Other Means | %share",
+   "name": "% share (66)",
    "header": [
-    "By Other Means",
-    "%share"
+    "% share"
    ]
   },
   {
@@ -511,47 +505,44 @@
   },
   {
    "col_no": "68",
-   "name": "Total | Female",
+   "name": "Female (68)",
    "header": [
-    "Total",
     "Female"
    ]
   },
   {
    "col_no": "69",
-   "name": "Total | Total",
+   "name": "Total (69)",
    "header": [
-    "Total",
     "Total"
    ]
   },
   {
    "col_no": "70",
-   "name": "Total | %share",
+   "name": "%share (70)",
    "header": [
-    "Total",
     "%share"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 31,
-  "cells_passed": 0,
+  "cells_checked": 156,
+  "cells_passed": 122,
   "failures": [
-   "col 3 '“TOTAL (Cities)': printed 148, sum 455",
-   "col 10001 'All-India': printed 2940, sum 1425",
-   "col 10001 '“TOTAL (Cities)': printed 630, sum 322",
-   "col 10002 '“TOTAL (Cities)': printed 1255, sum 405",
-   "col 19 '“TOTAL (Cities)': printed 1737, sum 46522",
-   "col 19 'TOTAL States -': printed 16164, sum 7433",
-   "col 19 '- TOTAL All-India': printed 16720, sum 17901",
-   "col 27 '“TOTAL (Cities)': printed 699, sum 87908"
+   "col 11 'Total States': printed 2823, sum 2784",
+   "col 12 'Total States': printed 7072, sum 7035",
+   "col 13 'Total States': printed 9895, sum 9819",
+   "col 15 'Total States': printed 444, sum 437",
+   "col 16 'Total States': printed 190, sum 188",
+   "col 17 'Total States': printed 634, sum 625",
+   "col 17 'Total (Cities)': printed 46, sum 51",
+   "col 19 'Total States': printed 16164, sum 15409"
   ],
-  "other_totals_checked": 1,
+  "other_totals_checked": 3,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 9,
  "warnings": []
 }

@@ -6,58 +6,53 @@
  "topic": "Accidental Deaths & Suicides in India 1998 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 1998 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-16",
- "listing_title": "table-16",
- "method": "pdf_ocr",
+ "title": "Incidence of Suicides and Percentage Variation over the Previous Year (State, UT & City-wise) - 1998",
+ "listing_title": "Incidence of Suicides and Percentage Variation over the Previous Year (State, UT & City-wise) - 1998",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181220222920id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1998/table-16.pdf",
  "source_file": "raw/adsi/1998/archived/table-16.pdf",
  "source_sha256": "b0717c156e249befd40a0e569adb081b3a811a73e3914fdccf220173b49b7379",
  "table_no": "16",
- "pdf_title": "Incidence of Suicides during 1997 and 1998 (State, UT & City-wise)",
- "row_label": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) TABLE-16",
+ "row_label": "Incidence",
  "pages": [
+  1,
   1
  ],
- "n_rows": 63,
+ "n_rows": 60,
  "n_cols": 3,
  "n_cells": 178,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Incidence | 1997",
+   "col_no": "4",
+   "name": "Incidence",
    "header": [
-    "Incidence",
-    "1997"
+    "Incidence"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Incidence | 1998",
-   "header": [
-    "Incidence",
-    "1998"
-   ]
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "Percentages variation in 1998 over 1997",
-   "header": [
-    "Percentages variation in 1998 over 1997"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 4,
-  "cells_passed": 3,
+  "cells_checked": 8,
+  "cells_passed": 7,
   "failures": [
-   "col 3 'TOTAL (Cities)': printed 8808, sum 10174"
+   "col 4 'Total (States)': printed 102924, sum 104922"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

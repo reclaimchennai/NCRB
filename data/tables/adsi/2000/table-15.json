@@ -6,72 +6,70 @@
  "topic": "Accidental Deaths & Suicides in India 2000 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 2000 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-15",
- "listing_title": "table-15",
- "method": "pdf_ocr",
+ "title": "Incidence and Rate of Suicides (State, UT & City-wise) - 2000",
+ "listing_title": "Incidence and Rate of Suicides (State, UT & City-wise) - 2000",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181222141117id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI2000/table-15.pdf",
  "source_file": "raw/adsi/2000/archived/table-15.pdf",
  "source_sha256": "8941c33a180b6ab0e7cefbe7d58f24dd64cc9caf54b453fa8570b0b862b6ea2b",
- "table_no": "15",
- "pdf_title": "Incidence And Rate of Suicides During 2000 (State, UT & City-wise)",
- "row_label": "(1) States:",
+ "table_no": "",
+ "pdf_title": "",
+ "row_label": "SI. No.",
  "pages": [
   1
  ],
  "n_rows": 59,
  "n_cols": 5,
- "n_cells": 290,
+ "n_cells": 291,
  "columns": [
   {
-   "col_no": "2",
-   "name": "(2)",
-   "header": [
-    "(2)"
-   ]
-  },
-  {
    "col_no": "3",
-   "name": "(3)",
+   "name": "Number of Suicides",
    "header": [
-    "(3)"
+    "Number of Suicides"
    ]
   },
   {
    "col_no": "4",
-   "name": "(41)",
+   "name": "Percentage Share in \\(T=24\\) Suicides",
    "header": [
-    "(41)"
+    "Percentage Share in \\(T=24\\) Suicides"
    ]
   },
   {
    "col_no": "5",
-   "name": "(5)",
+   "name": "Estimated Mid-Year Population (in Lakh)",
    "header": [
-    "(5)"
+    "Estimated Mid-Year Population (in Lakh)"
    ]
   },
   {
    "col_no": "6",
-   "name": "(6) (7)",
+   "name": "Rate of Suicides (Col.3/Col.5)",
    "header": [
-    "(6) (7)"
+    "Rate of Suicides (Col.3/Col.5)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Rank\\(^{{*}}\\)",
+   "header": [
+    "Rank\\(^{{*}}\\)"
    ]
   }
  ],
  "notes": [
-  "* Rank on the basis of Rate of Siiicides (Coi.6) in State:,, Cities and UTs."
+  "\\(^{{*}}\\) Rank on the basis of Rate of Suicides (Col.6) in States, Cities and UTS."
  ],
  "checks": {
-  "cells_checked": 2,
-  "cells_passed": 1,
-  "failures": [
-   "col 2 'TOTAL (Cities)': printed 9794, sum 122119"
-  ],
+  "cells_checked": 3,
+  "cells_passed": 3,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 1,
+ "inferred_pages": 0,
  "ocr_pages": 1,
  "warnings": []
 }

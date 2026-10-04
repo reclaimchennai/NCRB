@@ -6,46 +6,52 @@
  "topic": "Accidental Deaths & Suicides in India 1998 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 1998 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-19",
- "listing_title": "table-19",
- "method": "pdf_ocr",
+ "title": "Social Status of Suicide Victims (All India) - 1998",
+ "listing_title": "Social Status of Suicide Victims (All India) - 1998",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181220222928id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1998/table-19.pdf",
  "source_file": "raw/adsi/1998/archived/table-19.pdf",
  "source_sha256": "08d4ce6fb9250aacbc60a22a9b21ac65931059ec73a3392d2efb8c04d298ce69",
  "table_no": "19",
- "pdf_title": "Profile of Suicide Victims by Social Status during 1998 Number of Suicidal Deaths",
- "row_label": "No. / Sse",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1998 N.C.R.B., (M.H.A.) TABLE-19",
+ "row_label": "Sl. No. / Social Status",
  "pages": [
   1
  ],
- "n_rows": 13,
+ "n_rows": 12,
  "n_cols": 4,
- "n_cells": 49,
+ "n_cells": 48,
  "columns": [
   {
    "col_no": "3",
-   "name": "Male (M)",
+   "name": "Number of Suicidal Deaths | Male (M)",
    "header": [
+    "Number of Suicidal Deaths",
     "Male (M)"
    ]
   },
   {
    "col_no": "4",
-   "name": "Female (F) ia)",
+   "name": "Number of Suicidal Deaths | Female (F)",
    "header": [
-    "Female (F) ia)"
+    "Number of Suicidal Deaths",
+    "Female (F)"
    ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Total (M+F)(col.3+4)",
+   "header": [
+    "Total (M+F)(col.3+4)"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "% Male to Total (Col./Col.5)*100",
+   "header": [
+    "% Male to Total (Col./Col.5)*100"
+   ]
   }
  ],
  "notes": [],

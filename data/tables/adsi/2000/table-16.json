@@ -6,58 +6,53 @@
  "topic": "Accidental Deaths & Suicides in India 2000 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 2000 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-16",
- "listing_title": "table-16",
- "method": "pdf_ocr",
+ "title": "Incidence of Suicides and Percentage Variation over the Previous Year (State, UT & City-wise) - 2000",
+ "listing_title": "Incidence of Suicides and Percentage Variation over the Previous Year (State, UT & City-wise) - 2000",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181220230541id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI2000/table-16.pdf",
  "source_file": "raw/adsi/2000/archived/table-16.pdf",
  "source_sha256": "5d8dda52856230982fdffc1c78fb608de8de797efdd7f3b225c8291ab1527dc5",
  "table_no": "16",
- "pdf_title": "Incidence of Suicides during 1998 and 1999 (State, UT & City-wise)",
- "row_label": "Sl. No. / 2 State/UT/City -",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 2000 N.C.R.B., (M.H.A.) TABLE-16",
+ "row_label": "Incidence",
  "pages": [
+  1,
   1
  ],
- "n_rows": 59,
+ "n_rows": 60,
  "n_cols": 3,
- "n_cells": 177,
+ "n_cells": 178,
  "columns": [
   {
-   "col_no": "3",
-   "name": "Incidence | 1999.",
+   "col_no": "4",
+   "name": "Incidence",
    "header": [
-    "Incidence",
-    "1999."
+    "Incidence"
    ]
   },
   {
-   "col_no": "4",
-   "name": "Incidence | 2000",
-   "header": [
-    "Incidence",
-    "2000"
-   ]
+   "col_no": "3",
+   "name": "col_3",
+   "header": []
   },
   {
    "col_no": "5",
-   "name": "Percentage variation in 2000 over 1999",
-   "header": [
-    "Percentage variation in 2000 over 1999"
-   ]
+   "name": "col_5",
+   "header": []
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 7,
-  "cells_passed": 6,
+  "cells_checked": 8,
+  "cells_passed": 7,
   "failures": [
-   "col 3 'TOTAL (States)': printed 108678, sum 108668"
+   "col 4 'Total (States)': printed 106727, sum 108727"
   ],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
  "inferred_pages": 0,
- "ocr_pages": 1,
+ "ocr_pages": 2,
  "warnings": []
 }

@@ -6,16 +6,16 @@
  "topic": "Accidental Deaths & Suicides in India 2000 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 2000 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-20",
- "listing_title": "table-20",
- "method": "pdf_ocr",
+ "title": "Educational Status of Suicide Victims (All India) - 2000",
+ "listing_title": "Educational Status of Suicide Victims (All India) - 2000",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181220230605id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI2000/table-20.pdf",
  "source_file": "raw/adsi/2000/archived/table-20.pdf",
  "source_sha256": "de71cc9c9faf0ccee2e780f9f11d9faa8949bf22cd2b24faf1243907605a850e",
  "table_no": "20",
- "pdf_title": "Educational Status of Suicide Victims during 2000",
- "row_label": "(All-India) SI. No. / (All-India) Fae",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 2000 N.C.R.B., (M.H.A.) TABLE-20",
+ "row_label": "Sl. No. / Educational Level",
  "pages": [
   1
  ],
@@ -25,34 +25,32 @@
  "columns": [
   {
    "col_no": "3",
-   "name": "(All-India) | Male (M)",
+   "name": "Number of Suicidal Deaths | Male (M)",
    "header": [
-    "(All-India)",
+    "Number of Suicidal Deaths",
     "Male (M)"
    ]
   },
   {
    "col_no": "4",
-   "name": "(All-India) | Number of Suicidal Deaths Female (F)",
+   "name": "Number of Suicidal Deaths | Female (F)",
    "header": [
-    "(All-India)",
-    "Number of Suicidal Deaths Female (F)"
+    "Number of Suicidal Deaths",
+    "Female (F)"
    ]
   },
   {
    "col_no": "5",
-   "name": "(All-India) | Total (M+ F) (Cot.",
+   "name": "Total (M+F)(Col. 3+4)",
    "header": [
-    "(All-India)",
-    "Total (M+ F) (Cot."
+    "Total (M+F)(Col. 3+4)"
    ]
   },
   {
    "col_no": "6",
-   "name": "(All-India) | %Male to Total (Col.3/col.50 3+4) x 100",
+   "name": "%Male to Total (Col.3/col.50 × 100",
    "header": [
-    "(All-India)",
-    "%Male to Total (Col.3/col.50 3+4) x 100"
+    "%Male to Total (Col.3/col.50 × 100"
    ]
   }
  ],

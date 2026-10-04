@@ -14,55 +14,56 @@
  "source_file": "raw/adsi/1986/table_content/appendix-2_1986.pdf",
  "source_sha256": "f5b8efa12958a562d9f16b5b067bf9f55ab6b9cbce6edf09da361fc69111d57c",
  "table_no": "",
- "pdf_title": "",
- "row_label": "States/U.Ts./Cities",
+ "pdf_title": "32 Statewise Distribution of Accidental Deaths Due To Other Causes During 1986 APPENDIX-II",
+ "row_label": "Sl. No. / States/UTs/Cities",
  "pages": [
   1,
   2,
   3,
   5,
-  6,
   7
  ],
- "n_rows": 50,
- "n_cols": 55,
- "n_cells": 1446,
+ "n_rows": 73,
+ "n_cols": 36,
+ "n_cells": 1462,
  "columns": [
   {
    "col_no": "3",
-   "name": "State",
+   "name": "By fire-arms | M",
    "header": [
-    "State"
+    "By fire-arms",
+    "M"
    ]
   },
   {
    "col_no": "4",
-   "name": "State | By fire-arms",
+   "name": "By explosion | F (4)",
    "header": [
-    "State",
-    "By fire-arms"
+    "By explosion",
+    "F"
    ]
   },
   {
    "col_no": "5",
-   "name": "Distribution of Accidental Deaths Due To Other Causes During 1986 | By explosion | M",
+   "name": "By explosion | M",
    "header": [
-    "Distribution of Accidental Deaths Due To Other Causes During 1986",
     "By explosion",
     "M"
    ]
   },
   {
    "col_no": "6",
-   "name": "F (6)",
+   "name": "By explosion | F (6)",
    "header": [
+    "By explosion",
     "F"
    ]
   },
   {
    "col_no": "7",
-   "name": "M (7)",
+   "name": "By house collapse | M",
    "header": [
+    "By house collapse",
     "M"
    ]
   },
@@ -76,14 +77,6 @@
   },
   {
    "col_no": "9",
-   "name": "By house collapse | M",
-   "header": [
-    "By house collapse",
-    "M"
-   ]
-  },
-  {
-   "col_no": "10",
    "name": "On roads | M",
    "header": [
     "On roads",
@@ -91,7 +84,7 @@
    ]
   },
   {
-   "col_no": "11",
+   "col_no": "10",
    "name": "On roads | F",
    "header": [
     "On roads",
@@ -99,7 +92,7 @@
    ]
   },
   {
-   "col_no": "12",
+   "col_no": "11",
    "name": "Motor vehicle accidents | M",
    "header": [
     "Motor vehicle accidents",
@@ -107,7 +100,7 @@
    ]
   },
   {
-   "col_no": "13",
+   "col_no": "12",
    "name": "Motor vehicle accidents | F",
    "header": [
     "Motor vehicle accidents",
@@ -115,12 +108,19 @@
    ]
   },
   {
-   "col_no": "14",
-   "name": "APPENDIX-II | Other road accidents | M",
+   "col_no": "13",
+   "name": "Other road accidents | M",
    "header": [
-    "APPENDIX-II",
     "Other road accidents",
     "M"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Other road accidents | F",
+   "header": [
+    "Other road accidents",
+    "F"
    ]
   },
   {
@@ -130,7 +130,7 @@
   },
   {
    "col_no": "10001",
-   "name": "In factories | M",
+   "name": "In factories | M (10001)",
    "header": [
     "In factories",
     "M"
@@ -138,21 +138,23 @@
   },
   {
    "col_no": "10002",
-   "name": "F (10002)",
+   "name": "In factories | F",
    "header": [
+    "In factories",
     "F"
    ]
   },
   {
    "col_no": "10003",
-   "name": "M (10003)",
+   "name": "In factories | M (10003)",
    "header": [
+    "In factories",
     "M"
    ]
   },
   {
    "col_no": "10004",
-   "name": "In railways | F",
+   "name": "In railways | F (10004)",
    "header": [
     "In railways",
     "F"
@@ -160,21 +162,23 @@
   },
   {
    "col_no": "10005",
-   "name": "M (10005)",
+   "name": "In railways | M",
    "header": [
+    "In railways",
     "M"
    ]
   },
   {
    "col_no": "10006",
-   "name": "F (10006)",
+   "name": "In railways | F (10006)",
    "header": [
+    "In railways",
     "F"
    ]
   },
   {
    "col_no": "10007",
-   "name": "In air crashes | M",
+   "name": "In air crashes | M (10007)",
    "header": [
     "In air crashes",
     "M"
@@ -182,21 +186,23 @@
   },
   {
    "col_no": "10008",
-   "name": "F (10008)",
+   "name": "In air crashes | F",
    "header": [
+    "In air crashes",
     "F"
    ]
   },
   {
    "col_no": "10009",
-   "name": "M (10009)",
+   "name": "In air crashes | M (10009)",
    "header": [
+    "In air crashes",
     "M"
    ]
   },
   {
    "col_no": "10010",
-   "name": "By fire | F",
+   "name": "By fire | F (10010)",
    "header": [
     "By fire",
     "F"
@@ -204,73 +210,72 @@
   },
   {
    "col_no": "10011",
-   "name": "By drowning | M",
+   "name": "By fire | M",
    "header": [
-    "By drowning",
+    "By fire",
     "M"
    ]
   },
   {
    "col_no": "10012",
-   "name": "By poisoning | F",
+   "name": "By fire | F (10012)",
    "header": [
-    "By poisoning",
+    "By fire",
     "F"
    ]
   },
   {
    "col_no": "10013",
-   "name": "By Snake bites | F",
+   "name": "Consuming Spurious liquor | M",
    "header": [
-    "By Snake bites",
-    "F"
-   ]
-  },
-  {
-   "col_no": "10014",
-   "name": "By animal killing | M",
-   "header": [
-    "By animal killing",
+    "Consuming Spurious liquor",
     "M"
    ]
   },
   {
-   "col_no": "10015",
-   "name": "Boat capsize | M",
+   "col_no": "10014",
+   "name": "Suffocation due to somnol/oxygen deprivation | F",
    "header": [
-    "Boat capsize",
+    "Suffocation due to somnol/oxygen deprivation",
+    "F"
+   ]
+  },
+  {
+   "col_no": "10015",
+   "name": "Abortion | M",
+   "header": [
+    "Abortion",
     "M"
    ]
   },
   {
    "col_no": "10016",
-   "name": "Mines & quarry disaster | M",
+   "name": "Other causes | F",
    "header": [
-    "Mines & quarry disaster",
-    "M"
+    "Other causes",
+    "F"
    ]
   },
   {
    "col_no": "10017",
-   "name": "ACCidental electrocution by appliances | M",
+   "name": "Grand Total | M",
    "header": [
-    "ACCidental electrocution by appliances",
+    "Grand Total",
     "M"
    ]
   },
   {
    "col_no": "10018",
-   "name": "ACCidental fall from height (Building Tree etc.) | M",
+   "name": "F",
    "header": [
-    "ACCidental fall from height (Building Tree etc.)",
-    "M"
+    "F"
    ]
   },
   {
    "col_no": "10019",
-   "name": "M (10019)",
+   "name": "M+F",
    "header": [
-    "M"
+    "M+F"
    ]
   },
   {
@@ -292,151 +297,26 @@
    "col_no": "10023",
    "name": "col_10023",
    "header": []
-  },
-  {
-   "col_no": "10024",
-   "name": "col_10024",
-   "header": []
-  },
-  {
-   "col_no": "10025",
-   "name": "col_10025",
-   "header": []
-  },
-  {
-   "col_no": "10026",
-   "name": "col_10026",
-   "header": []
-  },
-  {
-   "col_no": "10027",
-   "name": "col_10027",
-   "header": []
-  },
-  {
-   "col_no": "10028",
-   "name": "col_10028",
-   "header": []
-  },
-  {
-   "col_no": "10029",
-   "name": "col_10029",
-   "header": []
-  },
-  {
-   "col_no": "10030",
-   "name": "col_10030",
-   "header": []
-  },
-  {
-   "col_no": "10031",
-   "name": "col_10031",
-   "header": []
-  },
-  {
-   "col_no": "10032",
-   "name": "Consuming Spurious liquor | M",
-   "header": [
-    "Consuming Spurious liquor",
-    "M"
-   ]
-  },
-  {
-   "col_no": "10033",
-   "name": "Suffocation due to somke/oxygen deprivation | F",
-   "header": [
-    "Suffocation due to somke/oxygen deprivation",
-    "F"
-   ]
-  },
-  {
-   "col_no": "10034",
-   "name": "Abortion | M",
-   "header": [
-    "Abortion",
-    "M"
-   ]
-  },
-  {
-   "col_no": "10035",
-   "name": "APPENDIX-II (Continued...) | Abortion | F",
-   "header": [
-    "APPENDIX-II (Continued...)",
-    "Abortion",
-    "F"
-   ]
-  },
-  {
-   "col_no": "10036",
-   "name": "M (10036)",
-   "header": [
-    "M"
-   ]
-  },
-  {
-   "col_no": "10037",
-   "name": "F (10037)",
-   "header": [
-    "F"
-   ]
-  },
-  {
-   "col_no": "10038",
-   "name": "Other causes | M",
-   "header": [
-    "Other causes",
-    "M"
-   ]
-  },
-  {
-   "col_no": "10039",
-   "name": "F (10039)",
-   "header": [
-    "F"
-   ]
-  },
-  {
-   "col_no": "10040",
-   "name": "M (10040)",
-   "header": [
-    "M"
-   ]
-  },
-  {
-   "col_no": "10041",
-   "name": "Grand Total | F",
-   "header": [
-    "Grand Total",
-    "F"
-   ]
-  },
-  {
-   "col_no": "10042",
-   "name": "Grand Total | M+F",
-   "header": [
-    "Grand Total",
-    "M+F"
-   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 71,
-  "cells_passed": 38,
+  "cells_checked": 29,
+  "cells_passed": 11,
   "failures": [
-   "col 3 'TOTAL (U.Ts.)': printed 1, sum 11",
-   "col 3 'TOTAL (CITIES)': printed 4, sum 48",
-   "col 4 'TOTAL (CITIES)': printed 21, sum 4",
-   "col 5 'TOTAL (CITIES)': printed 4, sum 21",
-   "col 6 'TOTAL (CITIES)': printed 108, sum 4",
-   "col 7 'TOTAL (CITIES)': printed 54, sum 108",
-   "col 8 'TOTAL (CITIES)': printed 3967, sum 54",
-   "col 9 'TOTAL (CITIES)': printed 747, sum 3969"
+   "col 7 'TOTAL (U.Ts)': printed 39, sum 11",
+   "col 8 'TOTAL (U.Ts)': printed 11, sum 1342",
+   "col 9 'TOTAL (U.Ts)': printed 1357, sum 249",
+   "col 10 'TOTAL (U.Ts)': printed 237, sum 1262",
+   "col 11 'TOTAL (U.Ts)': printed 1274, sum 238",
+   "col 12 'TOTAL (U.Ts)': printed 226, sum 86",
+   "col 13 'TOTAL (U.Ts)': printed 83, sum 11",
+   "col 10001 'TOTAL (STATES)': printed 1999, sum 620"
   ],
-  "other_totals_checked": 10,
-  "other_totals_passed": 0
+  "other_totals_checked": 11,
+  "other_totals_passed": 11
  },
  "inferred_pages": 0,
- "ocr_pages": 6,
+ "ocr_pages": 5,
  "warnings": []
 }

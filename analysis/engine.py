@@ -438,17 +438,7 @@ def _pos_reading(texts: dict[int, str], year: int, kind: str) -> dict:
                         rows.append((None, vals))
                         data = True
                     continue
-                k0, kc = resolve(label, "", True, year), resolve(label, "Cities", True, year)
-                if k0 == kc and k0:
-                    key = k0
-                    if k0[1] in ("state", "ut", "city"):
-                        section = k0[1]
-                elif kc and kc[1] == "city" and section == "city":
-                    key = kc
-                else:
-                    key = k0
-                if key == ("All India", "total") and not re.search(r"grand|india", label, re.I):
-                    key = None                   # a States, UTs or (misread) Cities total
+                key, section = _pos_key(label, section, year)
                 data = True
                 if key and key[1] != "total":
                     named += 1

@@ -6,16 +6,16 @@
  "topic": "Accidental Deaths & Suicides in India 1997 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 1997 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-22",
- "listing_title": "table-22",
- "method": "pdf_ocr",
+ "title": "Distribution of Suicides by Causes (State, UT & City-wise) - 1997",
+ "listing_title": "Distribution of Suicides by Causes (State, UT & City-wise) - 1997",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181220221156id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1997/table-22.pdf",
  "source_file": "raw/adsi/1997/archived/table-22.pdf",
  "source_sha256": "9af0a6237f2fa28c32065c47d3bbb46a1a9478165ac78babae7f4cde970fa723",
  "table_no": "22",
- "pdf_title": "Distribution of Suicides By Causes (State, UT & City-wise)",
- "row_label": "lo. / State/UT/City / Bankruptcy or Sudden Change in Male",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1997 N.C.R.B., (M.H.A.) TABLE - 22",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1,
   2,
@@ -26,36 +26,46 @@
   7,
   8,
   9,
+  10,
   11,
   12,
   13,
   14
  ],
- "n_rows": 285,
- "n_cols": 69,
- "n_cells": 2676,
+ "n_rows": 65,
+ "n_cols": 108,
+ "n_cells": 6362,
  "columns": [
   {
-   "col_no": "4",
-   "name": "Bankruptcy or Sudden Change in | Female",
+   "col_no": "3",
+   "name": "Bankruptcy or Sudden Change in Economic Status | Male",
    "header": [
-    "Bankruptcy or Sudden Change in",
+    "Bankruptcy or Sudden Change in Economic Status",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Bankruptcy or Sudden Change in Economic Status | Female",
+   "header": [
+    "Bankruptcy or Sudden Change in Economic Status",
     "Female"
    ]
   },
   {
    "col_no": "5",
-   "name": "Bankruptcy or Sudden Change in | Total",
+   "name": "Bankruptcy or Sudden Change in Economic Status | Total",
    "header": [
-    "Bankruptcy or Sudden Change in",
+    "Bankruptcy or Sudden Change in Economic Status",
     "Total"
    ]
   },
   {
    "col_no": "6",
-   "name": "Status (Col.5/109)* 100",
+   "name": "Bankruptcy or Sudden Change in Economic Status | %share (Col.5/109)* 100",
    "header": [
-    "Status (Col.5/109)* 100"
+    "Bankruptcy or Sudden Change in Economic Status",
+    "%share (Col.5/109)* 100"
    ]
   },
   {
@@ -84,400 +94,730 @@
   },
   {
    "col_no": "10",
-   "name": "Suspected/illicit Relation | %share {Col.9/109)* 100",
+   "name": "Suspected/illicit Relation | %share (Col.9/109)* 100",
    "header": [
     "Suspected/illicit Relation",
-    "%share {Col.9/109)* 100"
+    "%share (Col.9/109)* 100"
    ]
   },
   {
-   "col_no": "10001",
-   "name": "Settlement of Marriage | %share (Col.13/109)}* 100 (13) (14)",
+   "col_no": "11",
+   "name": "Cancellation/Non-Settlement of Marriage | Male",
    "header": [
-    "Settlement of Marriage",
-    "%share (Col.13/109)}* 100 (13) (14)"
+    "Cancellation/Non-Settlement of Marriage",
+    "Male"
    ]
   },
   {
-   "col_no": "10002",
-   "name": "Not having Childrin(Barrenness/Impotency) | - Male (15)",
+   "col_no": "12",
+   "name": "Cancellation/Non-Settlement of Marriage | Female",
    "header": [
-    "Not having Childrin(Barrenness/Impotency)",
-    "- Male (15)"
+    "Cancellation/Non-Settlement of Marriage",
+    "Female"
    ]
   },
   {
-   "col_no": "10003",
-   "name": "Not having Childrin(Barrenness/Impotency) | - Femaie (16)",
+   "col_no": "13",
+   "name": "Cancellation/Non-Settlement of Marriage | Total",
    "header": [
-    "Not having Childrin(Barrenness/Impotency)",
-    "- Femaie (16)"
+    "Cancellation/Non-Settlement of Marriage",
+    "Total"
    ]
   },
   {
-   "col_no": "10004",
-   "name": "Not having Childrin(Barrenness/Impotency) | (Col.17/109) * - Total. 100 a7) (18)",
+   "col_no": "14",
+   "name": "Cancellation/Non-Settlement of Marriage | %share (Col.13/109) * 100",
    "header": [
-    "Not having Childrin(Barrenness/Impotency)",
-    "(Col.17/109) * - Total. 100 a7) (18)"
+    "Cancellation/Non-Settlement of Marriage",
+    "%share (Col.13/109) * 100"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Not having Children(Barrenness/Impotency) | Male",
+   "header": [
+    "Not having Children(Barrenness/Impotency)",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Not having Children(Barrenness/Impotency) | Female",
+   "header": [
+    "Not having Children(Barrenness/Impotency)",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Not having Children(Barrenness/Impotency) | Total",
+   "header": [
+    "Not having Children(Barrenness/Impotency)",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Not having Children(Barrenness/Impotency) | %share (Col.17/109) * 100",
+   "header": [
+    "Not having Children(Barrenness/Impotency)",
+    "%share (Col.17/109) * 100"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Illness (Aids/STD) | Male",
+   "header": [
+    "Illness (Aids/STD)",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Illness (Aids/STD) | Female",
+   "header": [
+    "Illness (Aids/STD)",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Illness (Aids/STD) | Total",
+   "header": [
+    "Illness (Aids/STD)",
+    "Total"
    ]
   },
   {
    "col_no": "22",
-   "name": "(Aids/STD) | (Col.21/109) *100",
+   "name": "Illness (Aids/STD) | %share (Col.21/109) *100",
    "header": [
-    "(Aids/STD)",
-    "(Col.21/109) *100"
+    "Illness (Aids/STD)",
+    "%share (Col.21/109) *100"
    ]
   },
   {
    "col_no": "23",
-   "name": "(Aids/STD) | Male.",
+   "name": "Illness (Cancer) | Male",
    "header": [
-    "(Aids/STD)",
-    "Male."
+    "Illness (Cancer)",
+    "Male"
    ]
   },
   {
    "col_no": "24",
-   "name": "~—s",
+   "name": "Illness (Cancer) | Female",
    "header": [
-    "~—s"
+    "Illness (Cancer)",
+    "Female"
    ]
   },
   {
    "col_no": "25",
-   "name": "(Cancer",
+   "name": "Illness (Cancer) | Total",
    "header": [
-    "(Cancer"
+    "Illness (Cancer)",
+    "Total"
    ]
   },
   {
    "col_no": "26",
-   "name": "%share Total_~=—s(Col.25/109)* 100",
+   "name": "Illness (Cancer) | %share (Col.25/109)* 100",
    "header": [
-    "%share Total_~=—s(Col.25/109)* 100"
+    "Illness (Cancer)",
+    "%share (Col.25/109)* 100"
+   ]
+  },
+  {
+   "col_no": "27",
+   "name": "Illness (Paralysis) | Male",
+   "header": [
+    "Illness (Paralysis)",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "28",
+   "name": "Illness (Paralysis) | Female",
+   "header": [
+    "Illness (Paralysis)",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "29",
+   "name": "Illness (Paralysis) | Total",
+   "header": [
+    "Illness (Paralysis)",
+    "Total"
    ]
   },
   {
    "col_no": "30",
-   "name": "Hines:; (Paralysis | %share - (Col 29/109) *100",
+   "name": "Illness (Paralysis) | %share (Col 29/109) *100",
    "header": [
-    "Hines:; (Paralysis",
-    "%share - (Col 29/109) *100"
+    "Illness (Paralysis)",
+    "%share (Col 29/109) *100"
    ]
   },
   {
    "col_no": "31",
-   "name": "col_31",
-   "header": []
+   "name": "Illness (Insanity) | Male",
+   "header": [
+    "Illness (Insanity)",
+    "Male"
+   ]
   },
   {
    "col_no": "32",
-   "name": "Female.",
+   "name": "Illness (Insanity) | Female",
    "header": [
-    "Female."
+    "Illness (Insanity)",
+    "Female"
    ]
   },
   {
    "col_no": "33",
-   "name": "(Insanity)",
+   "name": "Illness (Insanity) | Total",
    "header": [
-    "(Insanity)"
+    "Illness (Insanity)",
+    "Total"
    ]
   },
   {
    "col_no": "34",
-   "name": "%share - Total_~—-(Col.33/109) 100",
+   "name": "Illness (Insanity) | %share (Col.33/109) 100",
    "header": [
-    "%share - Total_~—-(Col.33/109) 100"
+    "Illness (Insanity)",
+    "%share (Col.33/109) 100"
    ]
   },
   {
    "col_no": "35",
-   "name": "(Cither | Male",
+   "name": "Illness (Other Prolonged) | Male",
    "header": [
-    "(Cither",
+    "Illness (Other Prolonged)",
     "Male"
    ]
   },
   {
    "col_no": "36",
-   "name": "(Cither | Female",
+   "name": "Illness (Other Prolonged) | Female",
    "header": [
-    "(Cither",
+    "Illness (Other Prolonged)",
     "Female"
    ]
   },
   {
    "col_no": "37",
-   "name": "(Cither | -",
+   "name": "Illness (Other Prolonged) | Total",
    "header": [
-    "(Cither",
-    "-"
+    "Illness (Other Prolonged)",
+    "Total"
    ]
   },
   {
    "col_no": "38",
-   "name": "(Cither | %share (Col.37/109)* 100",
+   "name": "Illness (Other Prolonged) | %share (Col.37/109) * 100",
    "header": [
-    "(Cither",
-    "%share (Col.37/109)* 100"
+    "Illness (Other Prolonged)",
+    "%share (Col.37/109) * 100"
    ]
   },
   {
    "col_no": "39",
-   "name": "- Male",
+   "name": "Death of Dear Person | Male",
    "header": [
-    "- Male"
+    "Death of Dear Person",
+    "Male"
    ]
   },
   {
    "col_no": "40",
-   "name": "Death - Female",
+   "name": "Death of Dear Person | Female",
    "header": [
-    "Death - Female"
+    "Death of Dear Person",
+    "Female"
    ]
   },
   {
    "col_no": "41",
-   "name": "Dear Total",
+   "name": "Death of Dear Person | Total",
    "header": [
-    "Dear Total"
+    "Death of Dear Person",
+    "Total"
    ]
   },
   {
    "col_no": "42",
-   "name": "Yshare - (Col.41/109)* 100",
+   "name": "Death of Dear Person | %share (Col.41/109) * 100",
    "header": [
-    "Yshare - (Col.41/109)* 100"
+    "Death of Dear Person",
+    "%share (Col.41/109) * 100"
+   ]
+  },
+  {
+   "col_no": "43",
+   "name": "Dowry Dispute | Male",
+   "header": [
+    "Dowry Dispute",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "44",
+   "name": "Dowry Dispute | Female",
+   "header": [
+    "Dowry Dispute",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "45",
+   "name": "Dowry Dispute | Total",
+   "header": [
+    "Dowry Dispute",
+    "Total"
    ]
   },
   {
    "col_no": "46",
-   "name": "Dowrry Dispute: | %share ~=—(Col.45/109)* 100",
+   "name": "Dowry Dispute | %share (Col.45/109)* 100",
    "header": [
-    "Dowrry Dispute:",
-    "%share ~=—(Col.45/109)* 100"
+    "Dowry Dispute",
+    "%share (Col.45/109)* 100"
    ]
   },
   {
    "col_no": "47",
-   "name": "Dowrry Dispute: | -",
+   "name": "Divorcea | Male",
    "header": [
-    "Dowrry Dispute:",
-    "-"
+    "Divorcea",
+    "Male"
    ]
   },
   {
    "col_no": "48",
-   "name": "Dowrry Dispute: | - Female",
+   "name": "Divorcea | Female",
    "header": [
-    "Dowrry Dispute:",
-    "- Female"
+    "Divorcea",
+    "Female"
    ]
   },
   {
    "col_no": "49",
-   "name": "Divorcea",
+   "name": "Divorcea | Total",
    "header": [
-    "Divorcea"
+    "Divorcea",
+    "Total"
    ]
   },
   {
    "col_no": "50",
-   "name": "%share ~—Total_~—s(Co.49/109)* 100",
+   "name": "Divorcea | %share (Col.49/109)* 100",
    "header": [
-    "%share ~—Total_~—s(Co.49/109)* 100"
+    "Divorcea",
+    "%share (Col.49/109)* 100"
+   ]
+  },
+  {
+   "col_no": "51",
+   "name": "Drug Abuse/Addiction | Male",
+   "header": [
+    "Drug Abuse/Addiction",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "52",
+   "name": "Drug Abuse/Addiction | Female",
+   "header": [
+    "Drug Abuse/Addiction",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "53",
+   "name": "Drug Abuse/Addiction | Total",
+   "header": [
+    "Drug Abuse/Addiction",
+    "Total"
    ]
   },
   {
    "col_no": "54",
-   "name": "Drug AS -==/9-22=: | %share ~—(Col.53/109)* 100",
+   "name": "Drug Abuse/Addiction | %share (Col.53/109)* 100",
    "header": [
-    "Drug AS -==/9-22=:",
-    "%share ~—(Col.53/109)* 100"
+    "Drug Abuse/Addiction",
+    "%share (Col.53/109)* 100"
    ]
   },
   {
    "col_no": "55",
-   "name": "Male (55)",
+   "name": "Failure in Examination | Male",
    "header": [
+    "Failure in Examination",
     "Male"
    ]
   },
   {
    "col_no": "56",
-   "name": "Failure in - Female",
+   "name": "Failure in Examination | Female",
    "header": [
-    "Failure in - Female"
+    "Failure in Examination",
+    "Female"
    ]
   },
   {
    "col_no": "57",
-   "name": "ai",
+   "name": "Failure in Examination | Total",
    "header": [
-    "ai"
+    "Failure in Examination",
+    "Total"
    ]
   },
   {
    "col_no": "58",
-   "name": "Y%share (Col.57/109)* 100",
+   "name": "Failure in Examination | %share (Col.57/109)* 100",
    "header": [
-    "Y%share (Col.57/109)* 100"
+    "Failure in Examination",
+    "%share (Col.57/109)* 100"
+   ]
+  },
+  {
+   "col_no": "59",
+   "name": "Fall in Social Reputation | Male",
+   "header": [
+    "Fall in Social Reputation",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "60",
+   "name": "Fall in Social Reputation | Female",
+   "header": [
+    "Fall in Social Reputation",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "61",
+   "name": "Fall in Social Reputation | Total",
+   "header": [
+    "Fall in Social Reputation",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "62",
+   "name": "Fall in Social Reputation | %share (Col.61/109)* 100",
+   "header": [
+    "Fall in Social Reputation",
+    "%share (Col.61/109)* 100"
    ]
   },
   {
    "col_no": "63",
-   "name": "Family | - Male",
+   "name": "Family Problems | Male",
    "header": [
-    "Family",
-    "- Male"
+    "Family Problems",
+    "Male"
    ]
   },
   {
    "col_no": "64",
-   "name": "Family | - Female",
+   "name": "Family Problems | Female",
    "header": [
-    "Family",
-    "- Female"
+    "Family Problems",
+    "Female"
    ]
   },
   {
    "col_no": "65",
-   "name": "Family | ~—‘Total_~—(Col.65/109)*",
+   "name": "Family Problems | Total",
    "header": [
-    "Family",
-    "~—‘Total_~—(Col.65/109)*"
+    "Family Problems",
+    "Total"
    ]
   },
   {
    "col_no": "66",
-   "name": "Family | Y%share 100",
+   "name": "Family Problems | %share (Col.65/109)* 100",
    "header": [
-    "Family",
-    "Y%share 100"
+    "Family Problems",
+    "%share (Col.65/109)* 100"
+   ]
+  },
+  {
+   "col_no": "67",
+   "name": "Ideological Causes/Hero Worshiping | Male",
+   "header": [
+    "Ideological Causes/Hero Worshiping",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "68",
+   "name": "Ideological Causes/Hero Worshiping | Female",
+   "header": [
+    "Ideological Causes/Hero Worshiping",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "69",
+   "name": "Ideological Causes/Hero Worshiping | Total",
+   "header": [
+    "Ideological Causes/Hero Worshiping",
+    "Total"
    ]
   },
   {
    "col_no": "70",
-   "name": "Yshare | (Coi.69/109)* 100",
+   "name": "Ideological Causes/Hero Worshiping | %share (Col.69/109)* 100",
    "header": [
-    "Yshare",
-    "(Coi.69/109)* 100"
+    "Ideological Causes/Hero Worshiping",
+    "%share (Col.69/109)* 100"
    ]
   },
   {
    "col_no": "71",
-   "name": "Yshare | + Male",
+   "name": "Illegitimate Pregnancy | Male",
    "header": [
-    "Yshare",
-    "+ Male"
+    "Illegitimate Pregnancy",
+    "Male"
    ]
   },
   {
    "col_no": "72",
-   "name": "Yshare | - Female - Torai_——(Col.73/109)*",
+   "name": "Illegitimate Pregnancy | Female",
    "header": [
-    "Yshare",
-    "- Female - Torai_——(Col.73/109)*"
+    "Illegitimate Pregnancy",
+    "Female"
    ]
   },
   {
    "col_no": "73",
-   "name": "Fregnancy",
+   "name": "Illegitimate Pregnancy | Total",
    "header": [
-    "Fregnancy"
+    "Illegitimate Pregnancy",
+    "Total"
    ]
   },
   {
    "col_no": "74",
-   "name": "Yshare 100",
+   "name": "Illegitimate Pregnancy | %share (Col.73/109)* 100",
    "header": [
-    "Yshare 100"
+    "Illegitimate Pregnancy",
+    "%share (Col.73/109)* 100"
+   ]
+  },
+  {
+   "col_no": "75",
+   "name": "Love Affairs | Male",
+   "header": [
+    "Love Affairs",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "76",
+   "name": "Love Affairs | Female",
+   "header": [
+    "Love Affairs",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "77",
+   "name": "Love Affairs | Total",
+   "header": [
+    "Love Affairs",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "78",
+   "name": "Love Affairs | %share (Col.77/109)* 100",
+   "header": [
+    "Love Affairs",
+    "%share (Col.77/109)* 100"
+   ]
+  },
+  {
+   "col_no": "79",
+   "name": "Physical Abuse (Rape, Incest Etc.) | Male",
+   "header": [
+    "Physical Abuse (Rape, Incest Etc.)",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "80",
+   "name": "Physical Abuse (Rape, Incest Etc.) | Female",
+   "header": [
+    "Physical Abuse (Rape, Incest Etc.)",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "81",
+   "name": "Physical Abuse (Rape, Incest Etc.) | Total",
+   "header": [
+    "Physical Abuse (Rape, Incest Etc.)",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "82",
+   "name": "Physical Abuse (Rape, Incest Etc.) | %share (Col.81/109)* 100",
+   "header": [
+    "Physical Abuse (Rape, Incest Etc.)",
+    "%share (Col.81/109)* 100"
+   ]
+  },
+  {
+   "col_no": "83",
+   "name": "Poverty | Male",
+   "header": [
+    "Poverty",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "84",
+   "name": "Poverty | Female",
+   "header": [
+    "Poverty",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "85",
+   "name": "Poverty | Total",
+   "header": [
+    "Poverty",
+    "Total"
    ]
   },
   {
    "col_no": "86",
-   "name": "%share (Col.85/109)* 100",
+   "name": "Poverty | %share (Col.85/109)* 100",
    "header": [
+    "Poverty",
     "%share (Col.85/109)* 100"
    ]
   },
   {
    "col_no": "87",
-   "name": "Professiorial/Career Froblem | Male",
+   "name": "Professional/Career Problem | Male",
    "header": [
-    "Professiorial/Career Froblem",
+    "Professional/Career Problem",
     "Male"
    ]
   },
   {
    "col_no": "88",
-   "name": "Professiorial/Career Froblem | Female",
+   "name": "Professional/Career Problem | Female",
    "header": [
-    "Professiorial/Career Froblem",
+    "Professional/Career Problem",
     "Female"
    ]
   },
   {
    "col_no": "89",
-   "name": "Professiorial/Career Froblem | Total._~—«(Col.89/109)*",
+   "name": "Professional/Career Problem | Total",
    "header": [
-    "Professiorial/Career Froblem",
-    "Total._~—«(Col.89/109)*"
+    "Professional/Career Problem",
+    "Total"
    ]
   },
   {
    "col_no": "90",
-   "name": "Professiorial/Career Froblem | %share 100",
+   "name": "Professional/Career Problem | %share (Col.89/109)* 100",
    "header": [
-    "Professiorial/Career Froblem",
-    "%share 100"
+    "Professional/Career Problem",
+    "%share (Col.89/109)* 100"
+   ]
+  },
+  {
+   "col_no": "91",
+   "name": "Property Dispute | Male",
+   "header": [
+    "Property Dispute",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "92",
+   "name": "Property Dispute | Female",
+   "header": [
+    "Property Dispute",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "93",
+   "name": "Property Dispute | Total",
+   "header": [
+    "Property Dispute",
+    "Total"
    ]
   },
   {
    "col_no": "94",
-   "name": "IN INDIA - 1997 | sash oshare",
+   "name": "Property Dispute | %share (Col.93/109)* 100",
    "header": [
-    "IN INDIA - 1997",
-    "sash oshare"
+    "Property Dispute",
+    "%share (Col.93/109)* 100"
    ]
   },
   {
    "col_no": "95",
-   "name": "Male (95)",
+   "name": "Unemployment | Male",
    "header": [
+    "Unemployment",
     "Male"
    ]
   },
   {
    "col_no": "96",
-   "name": "Uniimpisyment",
+   "name": "Unemployment | Female",
    "header": [
-    "Uniimpisyment"
+    "Unemployment",
+    "Female"
    ]
   },
   {
    "col_no": "97",
-   "name": "Uniimpisyment | - Total",
+   "name": "Unemployment | Total",
    "header": [
-    "Uniimpisyment",
-    "- Total"
+    "Unemployment",
+    "Total"
    ]
   },
   {
    "col_no": "98",
-   "name": "- 100 a!",
+   "name": "Unemployment | %share (Col.97/109)* 100",
    "header": [
-    "- 100 a!"
+    "Unemployment",
+    "%share (Col.97/109)* 100"
+   ]
+  },
+  {
+   "col_no": "99",
+   "name": "Causes Not known | Male",
+   "header": [
+    "Causes Not known",
+    "Male"
    ]
   },
   {
    "col_no": "100",
-   "name": "Causes Not known",
+   "name": "Causes Not known | Female",
    "header": [
-    "Causes Not known"
+    "Causes Not known",
+    "Female"
    ]
   },
   {
@@ -490,9 +830,10 @@
   },
   {
    "col_no": "102",
-   "name": "%share {Col.101/109)°",
+   "name": "Causes Not known | %share (Col.101/109)* 100",
    "header": [
-    "%share {Col.101/109)°"
+    "Causes Not known",
+    "%share (Col.101/109)* 100"
    ]
   },
   {
@@ -521,66 +862,63 @@
   },
   {
    "col_no": "106",
-   "name": "Other Causes | %share (Col.108/1081°",
+   "name": "Other Causes | %share (Col.105/109)* 100",
    "header": [
     "Other Causes",
-    "%share (Col.108/1081°"
+    "%share (Col.105/109)* 100"
    ]
   },
   {
-   "col_no": "10005",
-   "name": "- | State/UT/Cit City (2) j",
+   "col_no": "107",
+   "name": "Total | Male",
    "header": [
-    "-",
-    "State/UT/Cit City (2) j"
+    "Total",
+    "Male"
    ]
   },
   {
-   "col_no": "10006",
-   "name": "- | Male i107) 4837",
+   "col_no": "108",
+   "name": "Total | Female",
    "header": [
-    "-",
-    "Male i107) 4837"
+    "Total",
+    "Female"
    ]
   },
   {
-   "col_no": "10007",
-   "name": "- | Female ‘ (108) i a 3610",
+   "col_no": "109",
+   "name": "Total | Total",
    "header": [
-    "-",
-    "Female ‘ (108) i a 3610"
+    "Total",
+    "Total"
    ]
   },
   {
-   "col_no": "10008",
-   "name": "- | %shi oshare Total «eol.409/108) *100 (108) (110) 100.00 8507",
+   "col_no": "110",
+   "name": "Total | %share (Col. 109/109) *100",
    "header": [
-    "-",
-    "%shi oshare Total «eol.409/108) *100 (108) (110) 100.00 8507"
+    "Total",
+    "%share (Col. 109/109) *100"
    ]
   }
  ],
- "notes": [
-  "ve. POA 123",
-  "Total (Cities) 344 187) 531. 6.03. 49. 8. 57. 0.65"
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 9,
-  "cells_passed": 0,
+  "cells_checked": 318,
+  "cells_passed": 302,
   "failures": [
-   "col 4 '- TOTAL All-India,': printed 210, sum 10120",
-   "col 4 'TOTAL (Cities)': printed 24, sum 13",
-   "col 25 'TOTAL (Cities) [line 2]': printed 1731, sum 591",
-   "col 31 'TOTAL (Cities)': printed 220, sum 72",
-   "col 35 '- TOTAL All-India,': printed 8108, sum 9711",
-   "col 100 '- TOTAL All-India,': printed 6794, sum 1394",
-   "col 100 'TOTAL (Cities)': printed 785, sum 83",
-   "col 10005 '- TOTAL All-India,': printed 56281, sum 65020"
+   "col 43 'Total States': printed 90, sum 86",
+   "col 45 'Total States': printed 2457, sum 2452",
+   "col 75 'Total States': printed 1631, sum 1533",
+   "col 76 'Total States': printed 1847, sum 1731",
+   "col 77 'Total States': printed 3478, sum 3299",
+   "col 79 'Total States': printed 137, sum 106",
+   "col 80 'Total States': printed 201, sum 177",
+   "col 81 'Total States': printed 338, sum 282"
   ],
-  "other_totals_checked": 1,
+  "other_totals_checked": 0,
   "other_totals_passed": 0
  },
- "inferred_pages": 2,
- "ocr_pages": 13,
+ "inferred_pages": 0,
+ "ocr_pages": 14,
  "warnings": []
 }

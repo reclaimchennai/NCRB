@@ -6,58 +6,64 @@
  "topic": "Accidental Deaths & Suicides in India 1999 (archived copy of NCRB's old site)",
  "section": "Accidental Deaths & Suicides in India 1999 (archived copy of NCRB's old site)",
  "serial": "",
- "title": "table-15",
- "listing_title": "table-15",
- "method": "pdf_ocr",
+ "title": "Incidence and Rate of Suicides (State, UT & City-wise) - 1999",
+ "listing_title": "Incidence and Rate of Suicides (State, UT & City-wise) - 1999",
+ "method": "pdf_vlm",
  "sheet": "",
  "source_url": "https://web.archive.org/web/20181222141102id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI1999/table-15.pdf",
  "source_file": "raw/adsi/1999/archived/table-15.pdf",
  "source_sha256": "8a651bdb11a72b6d3a94e69bb5d2f9b79238d66b56c2c2965965ff083338144e",
  "table_no": "15",
- "pdf_title": "inciaence And Rate of Suicides During 1999 (State, UT & City-wise)",
- "row_label": "",
+ "pdf_title": "ACCIDENTAL DEATHS & SUICIDES IN INDIA - 1999 N.C.R.B., (M.H.A.) TABLE-15",
+ "row_label": "Sl. No. / State/UT/City",
  "pages": [
   1
  ],
- "n_rows": 19,
+ "n_rows": 59,
  "n_cols": 5,
- "n_cells": 93,
+ "n_cells": 291,
  "columns": [
   {
    "col_no": "3",
-   "name": "col_3",
-   "header": []
+   "name": "Number of Suicides",
+   "header": [
+    "Number of Suicides"
+   ]
   },
   {
    "col_no": "4",
-   "name": "col_4",
-   "header": []
+   "name": "Percentage Share in Total Suicides",
+   "header": [
+    "Percentage Share in Total Suicides"
+   ]
   },
   {
    "col_no": "5",
-   "name": "col_5",
-   "header": []
+   "name": "Estimated Mid-Year Population (in Lakh)",
+   "header": [
+    "Estimated Mid-Year Population (in Lakh)"
+   ]
   },
   {
    "col_no": "6",
-   "name": "col_6",
-   "header": []
+   "name": "Rate of Suicides (Col.3/Col.5)",
+   "header": [
+    "Rate of Suicides (Col.3/Col.5)"
+   ]
   },
   {
    "col_no": "7",
-   "name": "col_7",
-   "header": []
+   "name": "Rank*",
+   "header": [
+    "Rank*"
+   ]
   }
  ],
- "notes": [
-  "* Rank on the basis of Rate of Suicides (Col.6) in States, Cities and UTs."
- ],
+ "notes": [],
  "checks": {
-  "cells_checked": 1,
-  "cells_passed": 0,
-  "failures": [
-   "col 3 '- TOTAL (Cities)': printed 10163, sum 1041"
-  ],
+  "cells_checked": 4,
+  "cells_passed": 4,
+  "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0
  },
