@@ -1,0 +1,216 @@
+{
+ "table_id": "adsi/2000/table-24",
+ "publication": "adsi",
+ "year": 2000,
+ "listing": "archived",
+ "topic": "Accidental Deaths & Suicides in India 2000 (archived copy of NCRB's old site)",
+ "section": "Accidental Deaths & Suicides in India 2000 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "table-24",
+ "listing_title": "table-24",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20181220231239id_/http://ncrb.gov.in:80/StatPublications/ADSI/ADSI2000/table-24.pdf",
+ "source_file": "raw/adsi/2000/archived/table-24.pdf",
+ "source_sha256": "b7c03e313c01977df4275893833af29cca0af0fb044df48374aa4e312083c0c6",
+ "table_no": "24",
+ "pdf_title": "Distribution of Suicide Victims by Social Status during 2000 (State , UT & City-wise)",
+ "row_label": "Never Married State/UT/City",
+ "pages": [
+  1,
+  2,
+  3
+ ],
+ "n_rows": 91,
+ "n_cols": 22,
+ "n_cells": 1103,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "Never Married | Maie",
+   "header": [
+    "Never Married",
+    "Maie"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Never Married | Female (4)",
+   "header": [
+    "Never Married",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Never Married | Total",
+   "header": [
+    "Never Married",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Never Married | % Share Col.(5/25) x 100",
+   "header": [
+    "Never Married",
+    "% Share Col.(5/25) x 100"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Never Married | Male",
+   "header": [
+    "Never Married",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Never Married | Female (8)",
+   "header": [
+    "Never Married",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Married Total",
+   "header": [
+    "Married Total"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "i % Share Col.(9/25) x 100",
+   "header": [
+    "i % Share Col.(9/25) x 100"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Widowed/Widower | —s a2)",
+   "header": [
+    "Widowed/Widower",
+    "—s a2)"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Widowed/Widower | % Share Female Col.{13/25) x",
+   "header": [
+    "Widowed/Widower",
+    "% Share Female Col.{13/25) x"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Widowed/Widower | i Total",
+   "header": [
+    "Widowed/Widower",
+    "i Total"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Widowed/Widower | Male",
+   "header": [
+    "Widowed/Widower",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "D vorcee Female",
+   "header": [
+    "D vorcee Female"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "% Share Total x - Col.(17/25) 100",
+   "header": [
+    "% Share Total x - Col.(17/25) 100"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "Sepirated | Mave",
+   "header": [
+    "Sepirated",
+    "Mave"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "Sepirated | Female (20)",
+   "header": [
+    "Sepirated",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "Sepirated | Tota!",
+   "header": [
+    "Sepirated",
+    "Tota!"
+   ]
+  },
+  {
+   "col_no": "22",
+   "name": "Sepirated | % Share Col.(21/25) x 100",
+   "header": [
+    "Sepirated",
+    "% Share Col.(21/25) x 100"
+   ]
+  },
+  {
+   "col_no": "23",
+   "name": "Sepirated | Male",
+   "header": [
+    "Sepirated",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "24",
+   "name": "Sepirated | Female (24)",
+   "header": [
+    "Sepirated",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "25",
+   "name": "Total Total",
+   "header": [
+    "Total Total"
+   ]
+  },
+  {
+   "col_no": "26",
+   "name": "% Share Col.(25/25) x 100",
+   "header": [
+    "% Share Col.(25/25) x 100"
+   ]
+  }
+ ],
+ "notes": [
+  "134 NCRB/O3—-16A"
+ ],
+ "checks": {
+  "cells_checked": 24,
+  "cells_passed": 21,
+  "failures": [
+   "col 9 'TOTAL (Cities)': printed 6510, sum 6810",
+   "col 15 'TOTAL UTs': printed 0, sum 6",
+   "col 16 'TOTAL (Cities)': printed 29, sum 36"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 3,
+ "warnings": []
+}

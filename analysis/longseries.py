@@ -30,6 +30,7 @@ figure. Run after analysis.families:
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from collections import defaultdict
@@ -162,6 +163,14 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
     vr = c["head"].isna() & c.title.fillna("").str.contains(r"victims? of rape", case=False) \
         & c["column"].str.contains(r"cases|reported|incidence", case=False) & ~c["column"].str.contains(r"victim|person", case=False)
     c.loc[vr, "head"] = "rape"
+    # 1950s-60s per-head appendices print 'THEFTS - CATTLE' and 'THEFTS - ORDINARY' (1968: just 'THEFT') as two tables
+    ttl = c.title.fillna("")
+    casec = c["column"].str.contains(r"reported|incidence|cases", case=False) & ~c["column"].str.contains(r"pending|disposal|investigat", case=False)
+    early = c.year < 1972
+    c.loc[c["head"].isna() & early & casec & ttl.str.contains(r"thefts?\W{0,4}cattle|cattle\W{0,4}thefts?", case=False), "head"] = "_cattle"
+    c.loc[c["head"].isna() & early & casec & ttl.str.contains(r"thefts?\W{0,4}ordinary|ordinary\W{0,4}thefts?", case=False), "head"] = "_ordinary"
+    with_cattle = set(c.year[c["head"] == "_cattle"])
+    c.loc[(c["head"] == "theft") & c.year.isin(with_cattle) & ttl.str.match(r"^\W*\d*\W*thefts?\W*$", case=False), "head"] = "_ordinary"
     # cattle and ordinary thefts (to 1967) are kept as parts until they are added up below
     tp = c["head"].isna() & c["column"].str.contains(r"theft", case=False) & c["column"].str.contains(r"cattle|ordinary", case=False)
     c.loc[tp, "head"] = "_theftpart"
@@ -210,6 +219,7 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
                 reyear[(tid, cn)] = ed - (len(cols) - 1 - i)
     if reyear:
         c["fy"] = [reyear.get((t, cn), y) for t, cn, y in zip(c.table_id, c.col_no, c.fy)]
+    c["_ry"] = [(t, cn) in reyear for t, cn in zip(c.table_id, c.col_no)]
     c = c[c.fy.notna()]
     # before 1968 theft was printed as cattle thefts and ordinary thefts: their sum is the theft head
     th = c[c["head"] == "_theftpart"]
@@ -249,10 +259,46 @@ def candidates(pub: str, heads, years=(1953, 2024), not_table=NOT_CASES_TABLE, n
     c["w"] = c.method.map(WEIGHT).fillna(1.0)
     ok = c.checks_total.fillna(0) > 0
     c.loc[ok, "w"] *= 0.5 + c.loc[ok, "checks_passed"] / c.loc[ok, "checks_total"]
+    # two unlabelled year columns are taken as earlier year first; some editions print the current year first
+    # (1958: 54,612 for 1958, then 52,300 for 1957). The order that matches the previous edition's own figures wins.
+    ref = defaultdict(set)
+    for p_, h_, y_, v_, own_ in zip(c.pname, c["head"], c.fy, c.value, c.fy == c.year):
+        if own_:
+            ref[(p_, h_, int(y_))].add(float(v_))
+    for tid, g in c[c._ry].groupby("table_id"):
+        cols = sorted(g.drop_duplicates("col_no")[["col_no", "fy"]].itertuples(index=False), key=lambda x: x[1])
+        if len(cols) != 2:
+            continue
+        (ca, ya), (cb, yb) = cols
+        def hits(col, yr):
+            gg = g[g.col_no == col]
+            return sum(1 for p, h, v in zip(gg.pname, gg["head"], gg.value)
+                       if any(abs(x - v) <= max(1, 0.002 * v) for x in ref.get((p, h, int(yr)), ())))
+        keep, swap = hits(ca, ya), hits(cb, ya)
+        if os.environ.get("LS_DEBUG") and str(tid).startswith(os.environ["LS_DEBUG"]):
+            print("swap check", tid, ca, ya, cb, yb, "keep", keep, "swap", swap, file=sys.stderr)
+        if swap >= 3 and swap > keep:
+            m = c.table_id == tid
+            c.loc[m & (c.col_no == ca), "fy"] = yb
+            c.loc[m & (c.col_no == cb), "fy"] = ya
     c["own"] = (c.fy == c.year)
     # where one table row gives several figures for the same head and year (garbled headings), the first column
     # is usually the cases registered; the rest are persons, rates or later stages
     c["crank"] = c.groupby(["table_id", "row", "head", "fy"])._o.rank(method="dense") - 1
+    # the two theft tables of one edition, added up for each place and year where both print it
+    parts = c[c["head"].isin(["_cattle", "_ordinary"])]
+    c = c[~c["head"].isin(["_cattle", "_ordinary"])]
+    add = []
+    for _, g in parts.groupby(["pname", "ptype", "fy", "year"]):
+        ca = g[g["head"] == "_cattle"].sort_values(["crank", "w"], ascending=[True, False])
+        orr = g[g["head"] == "_ordinary"].sort_values(["crank", "w"], ascending=[True, False])
+        if len(ca) and len(orr):
+            r = orr.iloc[0].copy()
+            r["value"] = float(ca.iloc[0].value) + float(orr.iloc[0].value)
+            r["head"], r["column"], r["crank"] = "theft", "Cattle + ordinary thefts (two tables)", 0
+            add.append(r)
+    if add:
+        c = pd.concat([c, pd.DataFrame(add)], ignore_index=True)
     return c[["pname", "ptype", "head", "fy", "value", "w", "own", "crank", "method", "table_id", "title", "column", "year", "source_url"]]
 
 
@@ -313,7 +359,8 @@ def path(years: list[int], opts: dict[int, list[dict]], place: str = "") -> dict
     # a year with several printed figures, one of them exactly the year before's: that one is last year's table
     # filed under this year (NCRB's '... City-wise - 2019' file holds the 2018 figures)
     for i, y in enumerate(years[1:], 1):
-        before = [o for o in opts[years[i - 1]] if o["firm"]] if years[i - 1] == y - 1 else []
+        prev = opts[years[i - 1]] if years[i - 1] == y - 1 else []
+        before = [o for o in prev if o["firm"]]
         if not before:
             continue
         last = max(before, key=lambda o: o["support"])["value"]        # the year before's best-supported figure
