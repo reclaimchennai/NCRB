@@ -14,7 +14,7 @@ the model with vLLM does them in hours.
 
 Open the notebook, pick an A100 (or L4) runtime and run its two cells. Cell 1
 mounts Drive and starts [run_all.py](run_all.py) in the background; cell 2
-([monitor.py](monitor.py)) shows progress, downloads the result zip at the end
+([monitor.py](monitor.py)) shows progress, says where the result folder is at the end
 and releases the GPU so no compute units are used after that.
 
 | Step | What |
@@ -22,7 +22,7 @@ and releases the GPU so no compute units are used after that.
 | Pages | the scanned pages only, one PDF per source file, with `manifest.json` (source SHA-256 and page numbers): release [`ocr-pages`](https://github.com/reclaimchennai/NCRB/releases/tag/ocr-pages), 4.1 GB, built by `scripts/build_ocr_bundle.py` |
 | Bake-off | every candidate reads 280 pages (149 small files, up to 8 per report and decade); the best two read them again at 2048 px instead of 1600; the reading that reproduces most of NCRB's printed row and column totals wins |
 | Full run | the winner reads all 12,945 pages; a crash or 25 minutes without a page restarts it (6 times at most); everything stops at 14 hours |
-| Result | `<root>/<model>.zip` on Drive and in Downloads; `python -m ncrb.vlm_import` copies it into `data/ocr_cache/<model>/` |
+| Result | the folder `<root>/ocr_cache/<model>/` (or `<root>/<plan name>/`) on Drive. Download it from drive.google.com (right-click, Download; Drive zips it), then `python -m ncrb.vlm_import <zip>` copies it into `data/ocr_cache/<model>/` |
 
 Everything is written to Drive (`MyDrive/ncrb_ocr/`) as it goes, so a reset
 VM resumes where it stopped: run the cells again.
@@ -70,3 +70,10 @@ the bake-off:
 
 If the bake-off winner leaves many files below the Tesseract reading, the
 two-stage TeleOCR pipeline with a patched `Qwen2Attention` is the next thing to try.
+
+## ocrkit: the reusable version
+
+The scripts here are NCRB's own. [ocrkit/](../ocrkit/README.md) is the same machinery made general for any
+scanned-document project: a manifest from local PDFs or public URLs (Colab downloads them itself), a
+detached, supervised job with a bake-off and a pluggable scorer, page rendering ahead of the GPU, results
+written page by page to Drive with no zip step, and `ocrkit fetch` for whatever Drive's folder download gives.

@@ -17,7 +17,8 @@ from pathlib import Path
 
 from .vlm_tables import CACHE
 
-PAGE = re.compile(r"^(?P<model>[A-Za-z0-9.\-]+)/(?P<sha>[0-9a-f]{16})/(?P<page>\d{4})\.txt$")
+# <model>/<sha16>/<page>.txt, under any folders (a Drive folder download wraps it in round2/ ...)
+PAGE = re.compile(r"(?:^|/)(?P<model>[A-Za-z0-9.\-]+)/(?P<sha>[0-9a-f]{16})/(?P<page>\d{4})\.txt$")
 
 
 def main() -> None:
@@ -31,9 +32,10 @@ def main() -> None:
 
     def put(rel: str, data: bytes):
         nonlocal added, kept
-        m = PAGE.match(rel)
+        m = PAGE.search(rel)
         if not m:
             return
+        rel = f"{m['model']}/{m['sha']}/{m['page']}.txt"
         dst = CACHE / rel
         if dst.exists() and not args.overwrite:
             kept += 1

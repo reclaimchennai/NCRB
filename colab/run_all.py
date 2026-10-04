@@ -1,4 +1,4 @@
-"""The whole cloud OCR job, unattended: pages, bake-off, winner, full run, result zip.
+"""The whole cloud OCR job, unattended: pages, bake-off, winner, full run.
 
 Started in the background on the Colab VM (colab/NCRB_OCR.ipynb, or by an agent
 through the Colab MCP server) so that no notebook cell has to stay attached:
@@ -11,12 +11,13 @@ picks up where the last one stopped (pages already read are skipped):
     <root>/status.json            phase, progress, winner, errors (the monitor cell reads this)
     <root>/bench/<edge>/<model>/  bake-off readings
     <root>/ocr_cache/<model>/     the full run (the layout data/ocr_cache uses)
-    <root>/<model>.zip            the result to import on the laptop
 
 Guards against wasting compute units: each bake-off model has a time limit and
 is skipped if it fails; the full run is restarted when it crashes or stops
 making progress (at most --restarts times) and stopped at --hours. The monitor
-cell releases the GPU (runtime.unassign) as soon as status says finished.
+cell releases the GPU (runtime.unassign) as soon as status says finished. No zip is
+made on the GPU machine: download the result folder from drive.google.com (Drive
+zips it on its side) and import it with `python -m ncrb.vlm_import <zip>`.
 """
 
 from __future__ import annotations
@@ -207,7 +208,7 @@ class Job:
 
     # ------------------------------------------------------------- a second round on chosen files
     def plan(self, path):
-        """Re-read the files a plan names with each (model, page size) it lists; zips everything at the end.
+        """Re-read the files a plan names with each (model, page size) it lists.
 
         plan.json: {"name": "round2", "files": [sha16, ...], "runs": [{"model": ..., "edge": 2048}, ...]}
         Each run is stored as <model>-<edge> (e.g. OvisOCR2-2048) so it never overwrites an earlier reading.
@@ -231,9 +232,7 @@ class Job:
                 self.save(last_error=f"{key} did not finish; moving on")
             if self.over_time():
                 break
-        zip_base = self.root / name
-        shutil.make_archive(str(zip_base), "zip", root_dir=out)
-        self.save(phase="finished", zip=f"{zip_base}.zip", hours=round((time.time() - self.t0) / 3600, 2),
+        self.save(phase="finished", folder=str(out), hours=round((time.time() - self.t0) / 3600, 2),
                   pages_done=None, pages_total=None)
 
     # ------------------------------------------------------------- the job
@@ -284,11 +283,9 @@ class Job:
             shutil.copytree(src, dst, ignore=shutil.ignore_patterns("_progress.json"))
         ok = self.run(model, self.root / "ocr_cache", edge, False, self.a.hours * 3600)
         prog = json.loads((dst / "_progress.json").read_text()) if (dst / "_progress.json").exists() else {}
-        # the result, zipped on Drive (with the bake-off scores)
+        # the result stays a folder on Drive (with the bake-off scores); download it from drive.google.com
         (dst / "bakeoff.json").write_text(json.dumps({"bench_1600": board, "bench_2048": big, "winner": self.status["winner"]}, indent=1))
-        zip_base = self.root / model_slug(model)
-        shutil.make_archive(str(zip_base), "zip", root_dir=self.root / "ocr_cache", base_dir=model_slug(model))
-        self.save(phase="finished" if ok else "stopped", zip=f"{zip_base}.zip", pages_done=prog.get("done"), pages_total=prog.get("total"),
+        self.save(phase="finished" if ok else "stopped", folder=str(dst), pages_done=prog.get("done"), pages_total=prog.get("total"),
                   hours=round((time.time() - self.t0) / 3600, 2))
 
 

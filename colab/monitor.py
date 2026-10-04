@@ -210,16 +210,11 @@ class Monitor:
     def finish(self, s):
         if self.bar:
             self.bar.close()
-        keys = ("phase", "pages_done", "pages_total", "hours", "zip", "error")
+        keys = ("phase", "pages_done", "pages_total", "hours", "folder", "error")
         print(json.dumps({k: s.get(k) for k in keys}, indent=1))
-        z = s.get("zip")
-        if s.get("phase") == "finished" and z and Path(z).exists():  # (a plan's zip too)      # a partial zip from a stopped run is not the result
-            try:
-                from google.colab import files
-                files.download(z)          # lands in the laptop's Downloads folder (it is also on Drive)
-                time.sleep(60)
-            except Exception as e:
-                print("download from the browser failed; the zip is on Drive:", z, e)
+        if s.get("folder"):
+            print("to bring the readings home: on drive.google.com right-click", s["folder"].replace("/content/drive/MyDrive/", "My Drive/"),
+                  "and choose Download, then on the laptop: uv run python -m ncrb.vlm_import ~/Downloads/<the zip>")
         if self.release:
             from google.colab import runtime
             print("releasing the GPU so no more compute units are used")
