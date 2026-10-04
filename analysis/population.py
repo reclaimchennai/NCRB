@@ -56,6 +56,19 @@ def main() -> None:
         if not (0.05 <= v <= 20000):             # Lakshadweep ~0.7 lakh .. India ~14,500 lakh
             continue
         cand[(p[0], p[1], y)].append((round(v, 2), r.method not in SCANNED))
+    # populations printed in incidence tables read from the page images (data/handread)
+    from .engine import handread_tables
+
+    for m in handread_tables():
+        if getattr(m, "CHECK", "") != "incidence":
+            continue
+        for sec, rows in m.ROWS.items():
+            for name, v in rows.items():
+                if name.upper().startswith(("TOTAL", "GRAND")) or len(v) < 2 or v[1] is None:
+                    continue
+                pl = resolve(name, "Cities" if sec == "Cities" else sec, True, m.YEAR)
+                if pl and (pl[1] != "city" or pl[0] in cities):
+                    cand[(pl[0], pl[1], m.YEAR)].append((round(float(v[1]), 2), True))
     # one figure per place and year
     chosen = defaultdict(dict)
     for (pl, ty, y), vs in cand.items():

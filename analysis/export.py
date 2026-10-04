@@ -34,11 +34,11 @@ def slug(s: str) -> str:
 
 def clean(d: pd.DataFrame) -> pd.DataFrame:
     """Records that passed their checks; numbers as plain ints where they are counts."""
-    d = d[d["check"].isin(OK) | d["check"].isin(["no total", "ok (adds up to the grand total)", "computed", POS_CHECK])].copy()
+    d = d[d["check"].isin(OK) | d["check"].isin(["no total", "ok (adds up to the grand total)", "computed", POS_CHECK, "ok (hand-read, adds up)"])].copy()
     d = d[d["value"].notna()]
     # where the figure comes from, for the credit line: NCRB's own tables however they were read, the two others, or
     # worked out here (a rate from NCRB's count and population, where NCRB printed none)
-    d["source"] = d["source"].where(d["source"].isin(["ogd", "odc", "computed"]), "ncrb")
+    d["source"] = d["source"].where(d["source"].isin(["ogd", "odc", "computed", "handread"]), "ncrb")
     d["year"] = d["year"].astype(int)
     for c in ("group", "cat", "sex", "age"):
         d[c] = d[c].fillna("").astype(str)

@@ -1223,6 +1223,23 @@ def rates() -> pd.DataFrame:
         have = set(zip(d.year, d.place))
         add = [(y, p, t, "", "Suicides", "Total", "all ages", v, "ok", "ogd") for y, p, t, v in zip(tot.Year, tot.place, tot.ptype, tot.Total) if (y, p) not in have]
         d = pd.concat([d, frame(add)], ignore_index=True)
+    # rates NCRB printed in tables read from the page images (data/handread, kind suicide_incidence)
+    have = set(zip(d.year[d.cat == "Rate"], d.place[d.cat == "Rate"]))
+    add = []
+    for m in handread_tables("suicide_incidence"):
+        for sec, rows in m.ROWS.items():
+            for name, v in rows.items():
+                if name.upper().startswith(("TOTAL", "GRAND")):
+                    key = ("All India", "total") if name.upper().startswith("GRAND") else None
+                else:
+                    key = resolve(name, "Cities" if sec == "Cities" else sec, True, m.YEAR)
+                if not key or (m.YEAR, key[0]) in have:
+                    continue
+                for cat, val in zip(("Suicides", "Population (lakh)", "Rate"), v):
+                    if val is not None:
+                        add.append((m.YEAR, key[0], key[1], "", cat, "Total", "all ages", float(val), "ok (hand-read, adds up)", "handread"))
+    if add:
+        d = pd.concat([d, frame(add)], ignore_index=True)
     # years with no printed rate: the long series' count of suicides over the population NCRB printed for that place
     # and year (analysis/population.py), marked 'computed' so the charts can tell them from NCRB's own rates
     import json
@@ -1250,6 +1267,67 @@ def place_totals() -> dict:
     return {(y, p): v for y, p, v in zip(s.year, s.place, s.value)}
 
 
+# --------------------------------------------------------------------------- tables read from the page images
+
+HANDREAD = ROOT / "data" / "handread"
+
+
+def handread_tables(kind: str | None = None) -> list:
+    """The hand-read tables (data/handread/*.py) that pass their row and column checks (scripts/check_handread.py)."""
+    import importlib.util
+    import subprocess
+    import sys
+
+    out = []
+    for f in sorted(HANDREAD.glob("*.py")):
+        spec = importlib.util.spec_from_file_location(f.stem, f)
+        m = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(m)
+        if kind and getattr(m, "KIND", None) != kind:
+            continue
+        ok = subprocess.run([sys.executable, str(ROOT / "scripts" / "check_handread.py"), str(f)], capture_output=True).returncode == 0
+        if ok:
+            out.append(m)
+    return out
+
+
+def handread(kind: str, table: list) -> pd.DataFrame:
+    """Records from the hand-read tables of one kind: every place row, categories harmonised, both sexes."""
+    recs = []
+    for m in handread_tables(kind):
+        n = len(m.CATS) - 1
+        for sec, rows in m.ROWS.items():
+            for name, v in rows.items():
+                if name.upper().startswith(("TOTAL", "GRAND")):
+                    key = ("All India", "total") if name.upper().startswith("GRAND") else None
+                else:
+                    key = resolve(name, "Cities" if sec == "Cities" else sec, True, m.YEAR)
+                if not key:
+                    continue
+                for c, val in zip(m.CATS[:n], v[:n]):
+                    cat = standard(c, table)
+                    if cat and val is not None:          # N.A. (not available) is left out, not taken as 0
+                        recs.append((m.YEAR, key[0], key[1], "", cat, "Total", "all ages", float(val), "ok (hand-read, adds up)", "handread"))
+    d = frame(recs)
+    if d.empty:
+        return d
+    return d.groupby(["year", "place", "ptype", "group", "cat", "sex", "age", "check", "source"], as_index=False).value.sum()[COLS]
+
+
+def handread_credit(kind: str, topics: list[str], years) -> None:
+    """The hand-read tables' PDFs on the credit line of ``topics`` for the years they fill."""
+    for m in handread_tables(kind):
+        if m.YEAR not in set(years):
+            continue
+        url = q("SELECT source_url FROM tables WHERE source_file = ? LIMIT 1", [m.SOURCE.removeprefix("raw/")]).source_url
+        url = url.iloc[0] if len(url) else None
+        row = pd.DataFrame([{"year": m.YEAR, "title": f"{m.TITLE if hasattr(m, 'TITLE') else 'Suicides by ' + kind} (read from the page image, pages {m.PAGES})",
+                             "source_url": url, "method": "handread"}])
+        for t in topics:
+            pv = PROV.get(t)
+            PROV[t] = row if pv is None else pd.concat([pv, row], ignore_index=True)
+
+
 def suicide_dataset(topics: list[str], age_topics: list[str], table: list, ogd_code: str | None, by_position: str | None = None,
                     wide: str | None = None) -> pd.DataFrame:
     d = tidy_categories(read_categories(topics, table), place_totals())
@@ -1269,6 +1347,14 @@ def suicide_dataset(topics: list[str], age_topics: list[str], table: list, ogd_c
         for y in sorted(set(w.year)):
             wide_credit(int(y), wide, topics[:1])
         d = pd.concat([d, w], ignore_index=True)
+    if by_position or wide:
+        # tables read from the page images where no OCR reading adds up (data/handread), for place-years still missing
+        h = handread(by_position or wide, table)
+        if not h.empty:
+            have = set(zip(d.year, d.place, d.ptype))
+            h = h[[k not in have for k in zip(h.year, h.place, h.ptype)]]
+            handread_credit(by_position or wide, topics[:1], set(h.year))
+            d = pd.concat([d, h], ignore_index=True)
     if age_topics:
         a = tidy_categories(read_categories(age_topics, table), place_totals())
         a = a[a.age != "all ages"]

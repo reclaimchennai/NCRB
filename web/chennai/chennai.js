@@ -165,47 +165,61 @@ async function roadDeaths() {
   c.setLegend([{ label: 'Day, 6 am – 6 pm', color: 'var(--day)' }, { label: 'Night, 6 pm – 6 am', color: 'var(--night)' }]);
 }
 
-async function means() {
-  const P = await place('suicide_means', 'state-tamil-nadu');
+/** Suicides by means for one place; colours follow the category (the same mean has the same colour on every chart). */
+async function means(key = 'state-tamil-nadu', who = 'Tamil Nadu', idp = 'tn', colourOrder = null) {
+  const P = await place('suicide_means', key);
   const ys = yearsWith(P);
-  const order = P.cats.map(c => ({ c, t: ys.reduce((a, y) => a + (P.get(c)[y] || 0), 0) })).sort((a, b) => b.t - a.t).map(x => x.c);
-  const top = order.slice(0, 7);
-  const shares = c => Object.fromEntries(ys.map(y => [y, P.total(y) ? (100 * (P.get(c)[y] || 0)) / P.total(y) : null]).filter(([, v]) => v != null));
+  // the two poison categories as one: States did not split them the same way every year (Tamil Nadu 2009: 4,483
+  // by insecticides, 0 by other poison), so their sum is the comparable series; the lines view keeps the split
+  const POISON = ['Poison: insecticides', 'Poison: other'];
+  let combine = true;
+  const val = (c, y) => (c === 'Poison (all)' ? POISON.reduce((a, p) => a + (P.get(p)[y] || 0), 0) || null : P.get(c)[y]);
+  const catsFor = () => (combine ? ['Poison (all)', ...P.cats.filter(c => !POISON.includes(c))] : P.cats);
+  const rankCats = () => catsFor().map(c => ({ c, t: ys.reduce((a, y) => a + (val(c, y) || 0), 0) })).sort((a, b) => b.t - a.t).map(x => x.c);
+  let order = rankCats();
+  let top = order.slice(0, 7);
+  const palette = colourOrder || order;
+  const colour = c => (palette.indexOf(c) >= 0 && palette.indexOf(c) < 8 ? SERIES(palette.indexOf(c)) : 'var(--other)');
+  const shares = c => Object.fromEntries(ys.map(y => [y, P.total(y) ? (100 * (val(c, y) || 0)) / P.total(y) : null]).filter(([, v]) => v != null));
   const first = ys.find(y => y >= 2001) ?? ys[0], last = ys.at(-1);
   const h = shares('Hanging');
-  section('Suicides in Tamil Nadu by means', `<p>Hanging was ${fmtPct(h[first], 0)} of suicides in ${first} and ${fmtPct(h[last], 0)} in ${last}. NCRB's names for the means change between editions; they are mapped to one list here.</p>`);
+  section(`Suicides in ${who} by means`, `<p>Hanging was ${fmtPct(h[first], 0)} of suicides in ${first} and ${fmtPct(h[last], 0)} in ${last}. NCRB's names for the means change between editions; they are mapped to one list here.</p>`);
   const xs = []; for (let y = ys[0]; y <= last; y++) xs.push(y);
   // the seven largest means each get a band; the rest are one grey 'All other' band
-  const rest = Object.fromEntries(ys.map(y => [y, Math.max(0, 100 - top.reduce((a, c) => a + (shares(c)[y] || 0), 0))]));
+  const restOf = () => Object.fromEntries(ys.map(y => [y, Math.max(0, 100 - top.reduce((a, c) => a + (shares(c)[y] || 0), 0))]));
   let view = 'stack';
   const c1 = plainCard(root(), {
-    id: 'tn-means-lines', kicker: 'Tamil Nadu · suicides by means', name: 'tn-means-share', meta: () => creditLine(P.meta, ys, P.sources),
+    id: `${idp}-means-lines`, kicker: `${who} · suicides by means`, name: `${idp}-means-share`, meta: () => creditLine(P.meta, ys, P.sources),
     render: () => {
-      const bands = top.map((c, i) => ({ key: c, label: c, color: SERIES(i), values: shares(c) }));
-      if (view === 'stack') stackChart(c1.svg, { xs, series: bands.concat([{ key: 'rest', label: 'All other', color: 'var(--other)', values: rest }]), unit: "% of the year's suicides" });
+      combine = view === 'stack';
+      order = rankCats(); top = order.slice(0, 7);
+      const bands = top.map((c, i) => ({ key: c, label: c, color: c === 'Poison (all)' ? colour('Poison: other') : colour(c), values: shares(c) }));
+      if (view === 'stack') stackChart(c1.svg, { xs, series: bands.concat([{ key: 'rest', label: 'All other', color: 'var(--other)', values: restOf() }]), unit: "% of the year's suicides" });
       else lineChart(c1.svg, { xs, series: bands, fmt: fmt1, unit: '%', yFmt: v => `${v}%` });
-      c1.setLegend(top.map((c, i) => ({ label: c, color: SERIES(i), line: view !== 'stack' })).concat(view === 'stack' ? [{ label: 'All other', color: 'var(--other)' }] : []));
+      c1.setLegend(top.map((c, i) => ({ label: c, color: c === 'Poison (all)' ? colour('Poison: other') : colour(c), line: view !== 'stack' })).concat(view === 'stack' ? [{ label: 'All other', color: 'var(--other)' }] : []));
     },
   });
-  c1.set({ title: 'Means adopted, share of all suicides in Tamil Nadu', sub: `${ys[0]}–${last} · % of each year's suicides, both sexes` });
+  c1.set({ title: `Means adopted, share of all suicides in ${who}`, sub: `${ys[0]}–${last} · % of each year's suicides, both sexes` });
   const segV = segmented({ label: 'Chart', value: view, options: [{ value: 'stack', label: 'Stacked' }, { value: 'lines', label: 'Lines' }], onChange: v => { view = v; redrawAll(); } });
   c1.toolbar.append(segV.el);
   const missing = []; for (let y = ys[0]; y <= last; y++) if (!ys.includes(y)) missing.push(y);
-  c1.set({ note: (missing.length ? `No means-wise figures for Tamil Nadu in ${span(missing)}: for 1992–2000 the appendix with the State-wise means table is not among the files NCRB's site and the Internet Archive give. ` : '')
-    + (ys.includes(2009) ? 'In 2009 Tamil Nadu reported every poisoning as insecticides (NCRB printed 4,483 by insecticides and 0 by other poison), so the two poison bands swap that year; together they are in line with the years around it.' : '') });
+  c1.set({ note: (missing.length ? `No means-wise figures for ${who} in ${span(missing)}${who === 'Chennai' ? ': NCRB printed city tables by means only in some editions' : ''}. For 1992–1994 and 1998 the tables are not online (not on NCRB's site or the Internet Archive). Years marked as read from the page image were transcribed from the scans and checked against every printed total. ` : '')
+    + (ys.includes(2009) && who === 'Tamil Nadu' ? 'Poisoning is shown as one band: in 2009 Tamil Nadu reported every poisoning as insecticides (NCRB printed 4,483 by insecticides and 0 by other poison; checked on the printed page), so only the two together compare across years. The Lines view shows them apart.' : '') });
   const { c } = yearCard(root(), {
-    id: 'tn-means-year', kicker: 'Tamil Nadu · suicides by means', years: ys, name: 'tn-means-year', meta: y => creditLine(P.meta, [y], P.sources),
+    id: `${idp}-means-year`, kicker: `${who} · suicides by means`, years: ys, name: `${idp}-means-year`, meta: y => creditLine(P.meta, [y], P.sources),
     render: pos => {
       const y = ys[Math.round(pos)];
       const i0 = Math.floor(pos), i1 = Math.min(ys.length - 1, i0 + 1), f = pos - i0;
-      const rank = yy => new Map(order.map(cc => [cc, P.get(cc)[yy] ?? -1]).sort((a, b) => b[1] - a[1]).map(([cc], k) => [cc, k]));
+      const ser = cc => Object.fromEntries(ys.map(yy => [yy, val(cc, yy)]).filter(([, v]) => v != null));
+      const rank = yy => new Map(order.map(cc => [cc, val(cc, yy) ?? -1]).sort((a, b) => b[1] - a[1]).map(([cc], k) => [cc, k]));
       const r0 = rank(ys[i0]), r1 = rank(ys[i1]);
-      const rows = order.map((cc, k) => ({ key: cc, label: cc, value: at(P.get(cc), ys, pos), color: k < 8 ? SERIES(k) : 'var(--other)', rank: lerp(r0.get(cc), r1.get(cc), f) })).filter(r => r.value != null);
-      const max = Math.max(...ys.flatMap(yy => order.map(cc => P.get(cc)[yy] || 0)));
+      const rows = order.map((cc, k) => ({ key: cc, label: cc, value: at(ser(cc), ys, pos), color: cc === 'Poison (all)' ? colour('Poison: other') : colour(cc), rank: lerp(r0.get(cc), r1.get(cc), f) })).filter(r => r.value != null);
+      const max = Math.max(...ys.flatMap(yy => order.map(cc => val(cc, yy) || 0)));
       barRows(c.svg, { rows, max, total: at(Object.fromEntries(ys.map(yy => [yy, P.total(yy)])), ys, pos), bigYear: y });
-      c.set({ title: `Suicides in Tamil Nadu by means, ${y}`, sub: 'number and share of the year, both sexes' });
+      c.set({ title: `Suicides in ${who} by means, ${y}`, sub: 'number and share of the year, both sexes' });
     },
   });
+  return order;
 }
 
 async function profession() {
@@ -404,7 +418,9 @@ async function boot() {
   initTheme(redrawAll);
   $('#foot').innerHTML = footerHtml();
   await tiles();
-  for (const f of [trafficTime, trafficMonth, roadDeaths, means, profession, ageSex, rates, rateMap]) {
+  // Chennai's means chart uses Tamil Nadu's colours, so a mean has one colour on the page
+  const meansBoth = async () => { const order = await means(); await means('city-chennai', 'Chennai', 'chn', order); };
+  for (const f of [trafficTime, trafficMonth, roadDeaths, meansBoth, profession, ageSex, rates, rateMap]) {
     try { await f(); } catch (e) { console.error(e); root().append(el('div', { class: 'card' }, `<div class="empty">Could not draw this section: ${esc(e.message)}</div>`)); }
   }
   redrawAll();

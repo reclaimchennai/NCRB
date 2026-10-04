@@ -95,9 +95,9 @@ def age_band(label: str) -> str:
 
 CAUSES = [
     (r"^\W*(grand\s+)?total\W*$|^\W*grand\b|\(total\)", None),
-    (r"other family|family problem", "Family problems"),
+    (r"other family|family problem|quarrel", "Family problems"),   # 1967-94 'quarrel with spouse / parents-in-law'
     (r"insanity|mental", "Illness: mental"),
-    (r"illness|cancer|paralysis|aids|std|prolonged", "Illness: physical"),
+    (r"illness|cancer|paralysis|aids|std|prolonged|dreadful|disease", "Illness: physical"),
     (r"dowry|divorc|marriage|marital", "Marriage related"),
     (r"love affair", "Love affairs"),
     (r"bankrupt|indebted|economic status|^status$", "Bankruptcy or debt"),
@@ -107,12 +107,12 @@ CAUSES = [
     (r"professional|career", "Professional or career problem"),
     (r"property", "Property dispute"),
     (r"drug|alcohol|addiction", "Drug abuse or alcohol"),
-    (r"death of dear", "Death of a dear person"),
+    (r"deaths? of dear", "Death of a dear person"),
     (r"social reputation", "Fall in social reputation"),
     (r"children|barren|impoten|infertil", "Infertility"),
     (r"physical abuse|rape|illicit|illegitimate|ideolog|hero", "Other specified causes"),
     (r"not known|unknown", "Causes not known"),
-    (r"other", "Other causes"),
+    (r"other|frustrat", "Other causes"),
 ]
 
 EDUCATION = [

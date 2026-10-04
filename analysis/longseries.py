@@ -37,6 +37,7 @@ from collections import defaultdict
 from statistics import median
 
 import pandas as pd
+from pathlib import Path
 
 from .engine import resolve
 from .families import OUT, col_order, slug
@@ -556,6 +557,27 @@ def breakdown_totals(years) -> pd.DataFrame:
         rows.append({"pname": pl[0], "ptype": pl[1], "head": "suicides", "fy": int(r.year), "value": float(r.value), "w": 0.8,
                      "own": True, "crank": 0, "method": r.method, "table_id": r.table_id, "title": r.title, "year": int(r.year),
                      "source_url": r.source_url})
+    # tables read from the page images (data/handread): each place's Total is its number of suicides that year
+    from .engine import handread_tables
+
+    for m in handread_tables():
+        if getattr(m, "PUB", "") != "adsi":
+            continue
+        # which figure is the place's count: a breakdown table's Total (last column), an incidence table's count (first)
+        kind = getattr(m, "KIND", "")
+        head, col = {"means": ("suicides", -1), "causes": ("suicides", -1), "suicide_incidence": ("suicides", 0),
+                     "accidental_incidence": ("accidental", 0), "traffic": ("road", 2)}.get(kind, (None, None))
+        if head is None:
+            continue
+        for sec, rws in m.ROWS.items():
+            for name, v in rws.items():
+                if name.upper().startswith(("TOTAL", "GRAND")) or v[col] is None:
+                    continue
+                pl = resolve(name, "Cities" if sec == "Cities" else sec, True, m.YEAR)
+                if pl and pl[1] != "total":
+                    rows.append({"pname": pl[0], "ptype": pl[1], "head": head, "fy": m.YEAR, "value": float(v[col]), "w": 2.0,
+                                 "own": True, "crank": 0, "method": "handread", "table_id": f"handread/{Path(m.SOURCE).stem}",
+                                 "title": f"{m.TITLE} (read from the page image)", "year": m.YEAR, "source_url": ""})
     return pd.DataFrame(rows)
 
 
