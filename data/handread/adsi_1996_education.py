@@ -7,18 +7,20 @@
 # UTs to Total UTs; Total States + Total UTs = Total All-India (entered as GRAND TOTAL, 88,241). Rows: States 1-25,
 # Total States, UTs 26-32, Total UTs, Total All-India, Cities 33-55; the cities have no printed totals row. Every row's
 # Total equals that place's Total in Appendix V (causes) of 1996. All of this held as printed except one cell, Total
-# All-India Matric/Secondary on page 5 (see CORRECTIONS). Pages 3 and 6 are printed heavier and blurrier than the
-# rest but every figure there checks. Lakshadweep is printed with 0 in every column.
+# All-India Matric/Secondary on page 5 (see CORRECTIONS). Page 6 is printed heavier than the rest but every figure
+# there checks. Lakshadweep is printed with 0 in every column. The headings are printed abbreviated
+# ("Matric/ Secondary", "Hr.Sec./inter/Pre-Uni.", "Post Graduate & above"); CATS uses the same eight levels in the
+# same order under the 1998 Table 25 spellings, so they harmonise with the other years.
 # Checked by scripts/check_handread.py.
 KIND, YEAR, PUB = "education", 1996, "adsi"
 SOURCE = "raw/adsi/1996/archived/appendix-7_1996.pdf"
 PAGES = "1-6"
 TITLE = "Appendix VII: Educational Status of Suicide Victims during 1996 (State, UT & City-wise)"
 NA = None
-CATS = ["No Education", "Primary", "Middle", "Matric/Secondary", "Hr.Sec./Inter/Pre-Uni.", "Diploma", "Graduate",
-        "Post Graduate & above", "Total"]
+CATS = ["No Education", "Primary", "Middle", "Matriculate/Secondary", "Hr. Secondary/Intermediate/Pre-University",
+        "Diploma", "Graduate", "Post Graduate and Above", "Total"]
 CORRECTIONS = {
-    ("GRAND TOTAL", "Matric/Secondary"): (12894, 12694, "printed 12,894 (14.39%) on page 5; 12694/88241 = 14.39% (12894 would be 14.61%), Male 8,151 + Female 4,543 = 12,694, Total States 12,194 + Total UTs 500 = 12,694, and the Total All-India row then adds up to 88,241"),
+    ("GRAND TOTAL", "Matriculate/Secondary"): (12894, 12694, "printed 12,894 (14.39%) on page 5; 12694/88241 = 14.39% (12894 would be 14.61%), Male 8,151 + Female 4,543 = 12,694, Total States 12,194 + Total UTs 500 = 12,694, and the Total All-India row then adds up to 88,241"),
 }
 ROWS = {
  "States": {
