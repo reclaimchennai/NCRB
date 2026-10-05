@@ -39,7 +39,9 @@ SOURCES = [
                    "ncrb.nic.in/ciiprevious/Data/CII1996/*"]),
 ] + [
     # ADSI: the State-wise suicide tables (causes, means, profession, education, incidence and rate) for 1995-2000,
-    # which today's site does not list; nothing survives for 1987 or 1992-94 beyond what the site already has
+    # which today's site does not list. The 1992-1999 appendices (means and causes by State, 1996-99 with cities) were
+    # kept by NCRB's 2019-22 site in ncrb.gov.in/sites/default/files/adsi_reports_previous_year/ (captured 2022-01-18;
+    # file names carry the year, e.g. appendix-4_1992.pdf), fetched with --matches; nothing survives of 1987's means
     ("adsi", y, [f"ncrb.gov.in/StatPublications/ADSI/ADSI{y}/*", f"ncrb.nic.in/StatPublications/ADSI/ADSI{y}/*"])
     for y in (1987, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000)
 ]

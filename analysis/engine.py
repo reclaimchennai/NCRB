@@ -1142,7 +1142,9 @@ def frame(recs) -> pd.DataFrame:
 
 def handread_traffic(kind: str, labels: list[str], have: set) -> pd.DataFrame:
     """Traffic tables by time or month read from the page images (data/handread, kind traffic_time / traffic_month):
-    CATS are the slots (or months) and Total, GROUP the kind of crash; only place-years and groups not already read."""
+    CATS are the slots (or months) and Total, GROUP the kind of crash. A hand-read table adds up on its page and is
+    checked against the other table of the same edition, so it replaces the OCR reading of the same place, year and group
+    (1995: the OCR 'Road' figures of the month table were its all-traffic column)."""
     recs = []
     for m in handread_tables(kind):
         g = getattr(m, "GROUP", "Road")
@@ -1151,7 +1153,7 @@ def handread_traffic(kind: str, labels: list[str], have: set) -> pd.DataFrame:
                 if name.upper().startswith(("TOTAL", "GRAND")):
                     continue
                 key = resolve(name, "Cities" if sec == "Cities" else sec, True, m.YEAR)
-                if not key or (m.YEAR, key[0], key[1], g) in have:
+                if not key:
                     continue
                 for c, val in zip(m.CATS, v):
                     if c in labels and val is not None:
