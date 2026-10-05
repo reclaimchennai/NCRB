@@ -524,8 +524,10 @@ def suicide_datasets() -> pd.DataFrame:
             except ValueError:
                 continue
             p = resolve(str(nm), "Cities" if str(cat).lower().startswith("cit") else "", False, int(y))
-            # its 1998-99 city rows are scrambled (Chennai 222 with a population of 125.9 lakh): left out
-            if p and v > 0 and not (p[1] == "city" and int(y) < 2000):
+            # its 1998-99 city rows are scrambled (Chennai 222 with a population of 125.9 lakh), and its 2020 rows are
+            # shifted around the merger of Dadra & Nagar Haveli with Daman & Diu (Daman & Diu 3,142, which is Delhi's):
+            # used only for 1998-2003, the years NCRB's own text tables do not cover
+            if p and v > 0 and not (p[1] == "city" and int(y) < 2000) and int(y) <= 2003:
                 rows.append({"pname": p[0], "ptype": p[1], "head": "suicides", "fy": int(y), "value": v, "w": 2.5, "own": True,
                              "crank": 0, "method": "excel", "table_id": "odc/suicide-rate-state-city-1998-2020", "year": int(y),
                              "title": "Incidence and rate of suicides (ADSI), as copied in OpenDataChennai",

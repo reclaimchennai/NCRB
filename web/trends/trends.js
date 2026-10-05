@@ -7,12 +7,12 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=001984a2ba';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=001984a2ba';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=001984a2ba';
-import { notesFor } from '../kit/notes.js?v=001984a2ba';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=001984a2ba';
-import { footerHtml, creditLine } from '../kit/footer.js?v=001984a2ba';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=c9a18e77a7';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=c9a18e77a7';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=c9a18e77a7';
+import { notesFor } from '../kit/notes.js?v=c9a18e77a7';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=c9a18e77a7';
+import { footerHtml, creditLine } from '../kit/footer.js?v=c9a18e77a7';
 
 const DATA = '../data/trends';
 const GROUPS = [
@@ -194,7 +194,7 @@ async function setPlaces(keys, keepYear = true) {
   S.place = f.file;
   S.index = f.index;
   const mp = metaPlace(S.key);
-  if (mp && mp.type !== 'total') S.rankType = mp.type === 'city' ? 'city' : 'state';
+  if (mp && mp.type !== 'total') S.rankType = mp.type === 'city' ? 'city' : mp.type === 'ut' ? 'ut' : 'state';
   syncControls();
   tl.setYears(placeYears(), keepYear);
   refresh();
@@ -223,7 +223,7 @@ function buildCards() {
   root.append(g);
   C.rank = card(g, { id: 'c-rank', kicker: 'Compare places', rec: true });
   bindCapture(C.rank, { meta: captureMeta(C.rank, true, 'all'), record: { timeline: tl, render: p => drawRank(p) }, name: 'ncrb-compare' });
-  C.rankType = segmented({ label: 'Places', value: S.rankType, options: [{ value: 'state', label: 'States & UTs', icon: 'map-pin' }, { value: 'city', label: 'Cities', icon: 'building' }], onChange: v => { S.rankType = v; drawRank(tl.pos); } });
+  C.rankType = segmented({ label: 'Places', value: S.rankType, options: [{ value: 'state', label: 'States', icon: 'map-pin' }, { value: 'ut', label: 'Union Territories', icon: 'map-pin' }, { value: 'city', label: 'Cities', icon: 'building' }], onChange: v => { S.rankType = v; drawRank(tl.pos); } });
   C.rankCat = select({ label: 'Category', small: 'SHOW', options: [], onChange: v => { S.rankCat = v; drawRank(tl.pos); } });
   C.rank.toolbar.append(C.rankType.el, C.rankCat.el);
 
@@ -503,7 +503,8 @@ function drawRank(pos) {
     : [{ value: 'all', label: `All ${unit()}` }, ...ordered().map(cat => ({ value: String(cat.ci), label: label(cat) }))];
   if (!catOpts.some(o => o.value === S.rankCat)) S.rankCat = catOpts[0].value;
   C.rankCat.options(catOpts, S.rankCat);
-  const types = S.rankType === 'city' ? ['city'] : ['state', 'ut'];
+  // States, Union Territories and cities are ranked apart: a UT's few lakh people make its rates swing far
+  const types = [S.rankType];
   const places = m.places.filter(p => types.includes(p.type));
   const share = S.mode === 'share' && k !== 'rate' && S.rankCat !== 'all';
   const valueAt = headValue;
@@ -529,7 +530,7 @@ function drawRank(pos) {
   drawMap(pos);
   barRows(c.svg, { rows, max: Math.max(max, gmax), fmt: k === 'rate' && S.rankCat === '0' ? fmt1 : share ? fmt1 : fmtN, unit: share ? '%' : '', bigYear: y });
   const what = catOpts.find(o => o.value === S.rankCat)?.label || '';
-  c.set({ title: `${what}: ${S.rankType === 'city' ? 'the big cities' : 'States and UTs'}, ${y}`, sub: `${share ? `share of each place's ${unit()}` : k === 'rate' && S.rankCat === '0' ? 'per lakh people' : unit()}${k === 'cats' || k === 'sexage' ? ' · both sexes, all ages' : ''}${m.groups.length > 1 ? ` · ${m.groups[0].toLowerCase()} crashes` : ''} · ${S.keys.length > 1 ? 'the places chosen above in their colours' : `${placeName()} highlighted`}` });
+  c.set({ title: `${what}: ${S.rankType === 'city' ? 'the big cities' : S.rankType === 'ut' ? 'Union Territories' : 'States'}, ${y}`, sub: `${share ? `share of each place's ${unit()}` : k === 'rate' && S.rankCat === '0' ? 'per lakh people' : unit()}${k === 'cats' || k === 'sexage' ? ' · both sexes, all ages' : ''}${m.groups.length > 1 ? ` · ${m.groups[0].toLowerCase()} crashes` : ''} · ${S.keys.length > 1 ? 'the places chosen above in their colours' : `${placeName()} highlighted`}` });
   c.set({ note: rows.length < 3 ? 'Few or no places have this figure for the year.' : '' });
 }
 
@@ -548,12 +549,13 @@ function drawMap(pos) {
     const v = at(Object.fromEntries(ys.map(yy => [yy, headValue(p, yy)]).filter(([, v2]) => v2 != null)), ys, pos);
     if (v != null) values[p.name] = v;
   }
-  let gmax = 0;
-  for (const p of places) for (const yy of ys) gmax = Math.max(gmax, headValue(p, yy) || 0);
+  // colour bins from the States over every year (UTs, a few lakh people each, would stretch them)
+  const domain = [];
+  for (const p of places) if (p.type === 'state') for (const yy of ys) { const v = headValue(p, yy); if (v != null) domain.push(v); }
   const share = S.mode === 'share' && k !== 'rate' && S.rankCat !== 'all';
   const isRate = k === 'rate' && S.rankCat === '0';
   const mp = metaPlace(S.key);
-  choropleth(c.svg, { geo, outline, values, max: gmax, year: y, fmt: isRate || share ? fmt1 : fmtN, unit: share ? '%' : '', hl: mp && mp.type !== 'city' ? mp.name : null, label: C.rankCat.select.selectedOptions[0]?.textContent || '' });
+  choropleth(c.svg, { geo, outline, values, domain, year: y, fmt: isRate || share ? fmt1 : fmtN, unit: share ? '%' : '', hl: mp && mp.type !== 'city' ? mp.name : null, label: C.rankCat.select.selectedOptions[0]?.textContent || '' });
   const what = C.rankCat.select.selectedOptions[0]?.textContent || '';
   c.set({ title: `${what} by State and UT, ${y}`, sub: `${share ? `share of each State's ${unit()}` : isRate ? 'suicides per lakh people' : unit()} · colour scale fixed across ${ys[0]}–${ys.at(-1)}`, note: boundaryNote(y) });
 }
@@ -566,7 +568,7 @@ function drawAge(pos) {
   if (k === 'sexage') {
     // the age profile of every place of the same kind, the chart that animates best
     c.el.hidden = false;
-    const types = S.rankType === 'city' ? ['city'] : ['state', 'ut'];
+    const types = [S.rankType];
     const tot = m.cats.indexOf('all ages');
     const parts = cats().map((cat, i) => ({ key: cat.ci, label: AGE_LABEL(cat.label), color: colorOf(i) }));
     const y = ys[Math.round(pos)];
@@ -577,7 +579,7 @@ function drawAge(pos) {
     const rows = big.map(p => ({ key: p.key, label: p.name, hl: p.key === S.key, values: cats().map(cat => at(p.head[cat.ci], ys, pos) ?? 0) }))
       .filter(r => r.values.some(v => v > 0));
     stackRows(c.svg, { rows, parts, mode: 'share', bigYear: y });
-    c.set({ kicker: 'Age profile', title: `Age profile of suicides: ${S.rankType === 'city' ? 'the big cities' : 'the largest States'}, ${y}`, sub: 'share of each place\'s suicides by age group · both sexes · use Compare places to switch States and cities' });
+    c.set({ kicker: 'Age profile', title: `Age profile of suicides: ${S.rankType === 'city' ? 'the big cities' : S.rankType === 'ut' ? 'Union Territories' : 'the largest States'}, ${y}`, sub: 'share of each place\'s suicides by age group · both sexes · use Compare places to switch States and cities' });
     c.setLegend(parts.filter((p, i) => rows.some(r => r.values[i] > 0)));
     c.set({ note: 'The age groups were re-cut in 2014 (15–29 became 14–17 and 18–29), so the bars change shape at 2014 for that reason as well.' });
     return;

@@ -66,6 +66,38 @@ export function cssVar(name) { return getComputedStyle(document.documentElement)
 export const SERIES = i => `var(--series-${(i % 8) + 1})`;
 export const HEAT_STEPS = 7;
 /** Step 1..7 of the red ramp for v in [0, max]; 0 for no value. Square-root, so small counts still show. */
+/**
+ * Colour bins from the spread of the values themselves (every place and year a chart can show), not from the
+ * largest one, the top bin open-ended. Evenly spread values (rates) get equal round steps up to their 98th
+ * percentile; skewed ones (counts) get bins of about a seventh of the values each, edges rounded to two significant
+ * figures. One stray value (a UT of a few lakh people) then cannot wash out the rest.
+ * Returns {breaks, step(v) -> 1..7, label(k) -> text for bin k (0-based)}.
+ */
+export function bins(vals, n = HEAT_STEPS, fmt = v => String(v)) {
+  const a = vals.filter(v => v != null && Number.isFinite(v)).sort((x, y) => x - y);
+  const r2 = v => { if (!(v > 0)) return 0; const e = 10 ** (Math.floor(Math.log10(v)) - 1); return Math.round(v / e) * e; };
+  const breaks = [];
+  const q = f => a[Math.min(a.length - 1, Math.floor(f * a.length))];
+  if (a.length && q(0.5) > 0 && q(0.98) / q(0.5) <= 6) {
+    // evenly spread values (rates): equal round steps up to the 98th percentile, the rest in the open top bin
+    const raw = q(0.98) / (n - 1), e = 10 ** Math.floor(Math.log10(raw));
+    const step = [1, 2, 2.5, 5, 10].map(m => m * e).find(st => st * (n - 1) >= q(0.98) * 0.9) || 10 * e;
+    for (let k = 1; k < n; k++) if (k * step < a.at(-1)) breaks.push(+(k * step).toPrecision(6));
+  } else if (a.length) {
+    // skewed values (counts, where a few large States dwarf the rest): bins of equal numbers of values
+    for (let k = 1; k < n; k++) {
+      const b = r2(q(k / n));
+      if (b > 0 && (!breaks.length || b > breaks.at(-1)) && b < a.at(-1)) breaks.push(b);
+    }
+  }
+  const nb = breaks.length + 1;
+  const toStep = i => (nb === 1 ? n : 1 + Math.round((i * (n - 1)) / (nb - 1)));
+  return {
+    breaks,
+    step: v => { if (v == null || !Number.isFinite(v)) return 0; let i = 0; while (i < breaks.length && v >= breaks[i]) i++; return toStep(i); },
+    bins: Array.from({ length: nb }, (_, i) => ({ step: toStep(i), label: nb === 1 ? 'all' : i === 0 ? `under ${fmt(breaks[0])}` : i === nb - 1 ? `${fmt(breaks[i - 1])} and over` : `${fmt(breaks[i - 1])}–${fmt(breaks[i])}` })),
+  };
+}
 export function heatStep(v, max) {
   if (v == null || !(max > 0)) return 0;
   return Math.max(1, Math.min(HEAT_STEPS, Math.ceil(Math.sqrt(Math.max(0, v) / max) * HEAT_STEPS)));

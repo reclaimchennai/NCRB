@@ -6,12 +6,12 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=001984a2ba';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=001984a2ba';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=001984a2ba';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=001984a2ba';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=001984a2ba';
-import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=001984a2ba';
+import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=c9a18e77a7';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=c9a18e77a7';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=c9a18e77a7';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=c9a18e77a7';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=c9a18e77a7';
+import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=c9a18e77a7';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];
@@ -392,7 +392,7 @@ async function rates() {
   const ys = [...new Set(all.flatMap(p => Object.keys(p.head[ri] || {}).map(Number)))].sort((a, b) => a - b);
   const last = ys.at(-1);
   const states = meta.places.filter(p => p.type === 'state' || p.type === 'ut');
-  const rank = states.map(p => ({ p, v: p.head[ri]?.[last] })).filter(x => x.v != null).sort((a, b) => b.v - a.v);
+  const rank = states.filter(p => p.type === 'state').map(p => ({ p, v: p.head[ri]?.[last] })).filter(x => x.v != null).sort((a, b) => b.v - a.v);
   const k = rank.findIndex(x => x.p.name === 'Tamil Nadu') + 1;
   // years whose rate was worked out here (NCRB's count over NCRB's population) rather than printed by NCRB
   const comp = {};
@@ -407,7 +407,7 @@ async function rates() {
     return computed ? isComp(p, n) || isComp(p, n - 1) || isComp(p, n + 1) : !isComp(p, n);
   }));
   const anyComp = Object.values(comp).some(l => l.length);
-  section('Suicide rate', `<p>Rates are suicides per lakh people, for ${span(ys)}: as NCRB printed them, and${anyComp ? ' (dashed)' : ''} worked out from NCRB's own count of suicides and the population it printed for the year where it printed no rate. In ${last} Tamil Nadu's rate was <b>${fmt1(tn.head[ri][last])}</b> against ${fmt1(india.head[ri][last])} for India, ${k}${['th', 'st', 'nd', 'rd'][k % 10 > 3 || [11, 12, 13].includes(k % 100) ? 0 : k % 10]} of ${rank.length} States and UTs. Chennai's was ${fmt1(ch.head[ri][last])}.</p>`);
+  section('Suicide rate', `<p>Rates are suicides per lakh people, for ${span(ys)}: as NCRB printed them, and${anyComp ? ' (dashed)' : ''} worked out from NCRB's own count of suicides and the population it printed for the year where it printed no rate. In ${last} Tamil Nadu's rate was <b>${fmt1(tn.head[ri][last])}</b> against ${fmt1(india.head[ri][last])} for India, ${k}${['th', 'st', 'nd', 'rd'][k % 10 > 3 || [11, 12, 13].includes(k % 100) ? 0 : k % 10]} of ${rank.length} States (Union Territories are ranked apart: their few lakh people make their rates swing far). Chennai's was ${fmt1(ch.head[ri][last])}.</p>`);
   const xs = []; for (let y = ys[0]; y <= last; y++) xs.push(y);
   const c = plainCard(root(), {
     id: 'rates-lines', kicker: 'Suicide rate', name: 'suicide-rate-chennai-tn-india', meta: () => creditLine(meta, ys),
@@ -426,24 +426,28 @@ async function rates() {
   c.set({ note: `NCRB's population for Chennai changes in steps: a yearly estimate of the city up to 1990, the urban agglomeration from 1991 (54 lakh), and census figures held for a decade (64 lakh from 2001, 87 lakh from 2011); in 1971 it used the census count of the urban area (31.7 lakh against 20.9 in 1970). Where the population steps up the rate drops even if suicides do not.${anyComp ? ` Dashed: worked out here from NCRB's count and population (${['Chennai', 'Tamil Nadu', 'All India'].filter(n => comp[n]?.length).map(n => `${n} ${span(comp[n].sort((a, b) => a - b))}`).join('; ')}). Chennai's 1989 rate of 38.1 is what NCRB printed (1,568 suicides that year against 885 in 1988 and 729 in 1990).` : ''}` });
 
   const rys = [...new Set(states.flatMap(p => Object.keys(p.head[ri] || {}).map(Number)))].filter(y => states.filter(p => p.head[ri]?.[y] != null).length >= 15).sort((a, b) => a - b);
-  let gmax = 0; for (const p of states) for (const y of rys) gmax = Math.max(gmax, p.head[ri]?.[y] || 0);
-  const { c: c2 } = yearCard(root(), {
-    id: 'rates-rank', kicker: 'Suicide rate · States and UTs', years: rys, name: 'suicide-rate-states', start: 'first', meta: y => creditLine(meta, [y]),
+  let rankType = 'state';
+  const gmaxOf = t => { let g = 0; for (const p of states) if (p.type === t) for (const y of rys) g = Math.max(g, p.head[ri]?.[y] || 0); return g; };
+  const { c: c2, tl: tl2 } = yearCard(root(), {
+    id: 'rates-rank', kicker: 'Suicide rate · States', years: rys, name: 'suicide-rate-states', start: 'first', meta: y => creditLine(meta, [y]),
     render: pos => {
       const y = rys[Math.round(pos)];
       const i0 = Math.floor(pos), i1 = Math.min(rys.length - 1, i0 + 1), f = pos - i0;
-      const ord = yy => new Map(states.map(p => [p.key, p.head[ri]?.[yy]]).filter(([, v]) => v != null).sort((a, b) => b[1] - a[1]).map(([kk], n) => [kk, n]));
+      const pool = states.filter(p => p.type === rankType);
+      const ord = yy => new Map(pool.map(p => [p.key, p.head[ri]?.[yy]]).filter(([, v]) => v != null).sort((a, b) => b[1] - a[1]).map(([kk], n) => [kk, n]));
       const o0 = ord(rys[i0]), o1 = ord(rys[i1]);
-      const rows = states.map(p => {
+      const rows = pool.map(p => {
         const a = p.head[ri]?.[rys[i0]], b = p.head[ri]?.[rys[i1]];
         const v = a != null && b != null ? lerp(a, b, f) : f < .5 ? a : b;
         const r = o0.has(p.key) && o1.has(p.key) ? lerp(o0.get(p.key), o1.get(p.key), f) : (o0.get(p.key) ?? o1.get(p.key));
         return { key: p.key, label: p.name, value: v, rank: r, hl: p.name === 'Tamil Nadu', color: p.name === 'Tamil Nadu' ? 'var(--critical)' : 'var(--series-1)' };
       }).filter(r => r.value != null && r.rank != null);
-      barRows(c2.svg, { rows, max: gmax, fmt: fmt1, bigYear: y });
-      c2.set({ title: `Suicide rate by State and UT, ${y}`, sub: 'suicides per lakh people · Tamil Nadu highlighted' });
+      barRows(c2.svg, { rows, max: gmaxOf(rankType), fmt: fmt1, bigYear: y });
+      c2.set({ kicker: `Suicide rate · ${rankType === 'ut' ? 'Union Territories' : 'States'}`, title: `Suicide rate by ${rankType === 'ut' ? 'Union Territory' : 'State'}, ${y}`, sub: `suicides per lakh people${rankType === 'state' ? ' · Tamil Nadu highlighted' : " · a UT's few lakh people make its rate swing far from year to year"}` });
     },
   });
+  const segR = segmented({ label: 'States or UTs', value: rankType, options: [{ value: 'state', label: 'States' }, { value: 'ut', label: 'Union Territories' }], onChange: v => { rankType = v; tl2.emit(); } });
+  c2.toolbar.append(segR.el);
 }
 
 async function rateMap() {
@@ -451,7 +455,8 @@ async function rateMap() {
   const ri = meta.cats.indexOf('Rate');
   const states = meta.places.filter(p => p.type === 'state' || p.type === 'ut');
   const ys = [...new Set(states.flatMap(p => Object.keys(p.head[ri] || {}).map(Number)))].filter(y => states.filter(p => p.head[ri]?.[y] != null).length >= 15).sort((a, b) => a - b);
-  let gmax = 0; for (const p of states) for (const y of ys) gmax = Math.max(gmax, p.head[ri]?.[y] || 0);
+  // colour bins from the States over every year (UTs, a few lakh people each, would stretch them)
+  const domain = []; for (const p of states) if (p.type === 'state') for (const y of ys) { const v = p.head[ri]?.[y]; if (v != null) domain.push(v); }
   const { c } = yearCard(root(), {
     id: 'rates-map', kicker: 'Suicide rate · India', years: ys, name: 'suicide-rate-map', start: 'first', meta: y => creditLine(meta, [y]),
     render: pos => {
@@ -460,7 +465,7 @@ async function rateMap() {
       for (const p of states) { const v = at(p.head[ri], ys, pos); if (v != null) values[p.name] = v; }
       const again = () => redraws.forEach(f => f()), geo = mapFor(y, again), outline = outlineMap(again);
       if (!geo || !outline) return;
-      choropleth(c.svg, { geo, outline, values, max: gmax, year: y, fmt: fmt1, hl: 'Tamil Nadu', label: 'Suicides per lakh people' });
+      choropleth(c.svg, { geo, outline, values, domain, year: y, fmt: fmt1, hl: 'Tamil Nadu', label: 'Suicides per lakh people' });
       c.set({ title: `Suicide rate by State and UT, ${y}`, sub: `suicides per lakh people · colour scale fixed across ${ys[0]}–${ys.at(-1)} · Tamil Nadu outlined`, note: boundaryNote(y) });
     },
   });

@@ -7,13 +7,13 @@
  * subtotals are flagged, shown last and kept off the colour scales.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=001984a2ba';
-import { lineChart, stackChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=001984a2ba';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=001984a2ba';
-import { footerHtml, creditLine } from '../kit/footer.js?v=001984a2ba';
-import { explain, explainAll } from '../kit/legal.js?v=001984a2ba';
-import { notesFor } from '../kit/notes.js?v=001984a2ba';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=001984a2ba';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=c9a18e77a7';
+import { lineChart, stackChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=c9a18e77a7';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=c9a18e77a7';
+import { footerHtml, creditLine } from '../kit/footer.js?v=c9a18e77a7';
+import { explain, explainAll } from '../kit/legal.js?v=c9a18e77a7';
+import { notesFor } from '../kit/notes.js?v=c9a18e77a7';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=c9a18e77a7';
 
 const DATA = '../data/explore';
 const TYPE_LABEL = { total: 'India', state: 'States', ut: 'Union Territories', city: 'Cities', row: 'Rows' };
@@ -79,7 +79,8 @@ const brksFor = c => S.fam.brks.map((b, i) => ({ b, i })).filter(({ i }) => S.fa
 const geoLabel = () => GEO_LABEL[S.fam.geo] ?? '';
 
 function rankPool() {
-  return rowsOfType(S.rankType === 'state' ? ['state', 'ut'] : [S.rankType]).filter(r => !r.total);
+  // States, Union Territories and cities are ranked apart: a UT's few lakh people make its rates swing far
+  return rowsOfType([S.rankType]).filter(r => !r.total);
 }
 /** Years in which the shown figure exists for any row of the current comparison, or for the chosen row. */
 function shownYears() {
@@ -166,7 +167,8 @@ async function loadFamily(id) {
   S.rows = rows; S.row = rows[0]; S.prevRows = S.fam.rows;
   ui.row.options(['total', 'state', 'ut', 'city', 'row'].filter(t => groups[t]).map(t => ({ group: TYPE_LABEL[t], options: groups[t] })), S.rows);
   ui.row.el.hidden = S.fam.rows.length < 2;
-  S.rankType = S.fam.rows.some(r => r.type === 'state') ? 'state' : S.fam.rows.some(r => r.type === 'city') ? 'city' : 'row';
+  const ft = S.fam.rows[S.row]?.type;
+  S.rankType = ['state', 'ut', 'city'].includes(ft) ? ft : S.fam.rows.some(r => r.type === 'state') ? 'state' : S.fam.rows.some(r => r.type === 'city') ? 'city' : 'row';
   const wy = S.want?.y;
   S.want = null;
   tl.setYears(shownYears(), true);
@@ -207,7 +209,7 @@ function buildCards() {
   C.big = el('button', { type: 'button', class: 'ctl' }, `${icon('plus')}<span>Add the 5 largest</span>`);
   C.big.addEventListener('click', () => {
     const type = S.fam.rows[S.row]?.type;
-    const pool = rowsOfType(type === 'total' || type === 'ut' ? ['state', 'ut'] : [type]).filter(r => !r.total && !S.rows.includes(r.i));
+    const pool = rowsOfType(type === 'total' ? ['state'] : [type]).filter(r => !r.total && !S.rows.includes(r.i));
     const lastOf = r => { const s2 = series(r.i); const ys = Object.keys(s2).map(Number); return ys.length ? s2[Math.max(...ys)] : -1; };
     const add = pool.map(r => ({ r, v: lastOf(r) })).filter(x => x.v >= 0).sort((a, b) => b.v - a.v).slice(0, 5).map(x => x.r.i);
     S.rows = [...S.rows, ...add].slice(0, 10); ui.row.set(S.rows); refresh();
@@ -364,7 +366,8 @@ function drawRank(pos) {
   const c = C.rank, ys = tl.years;
   const types = [...new Set(S.fam.rows.map(r => r.type))];
   const opts = [];
-  if (types.includes('state') || types.includes('ut')) opts.push({ value: 'state', label: 'States & UTs', icon: 'map-pin' });
+  if (types.includes('state')) opts.push({ value: 'state', label: 'States', icon: 'map-pin' });
+  if (types.includes('ut')) opts.push({ value: 'ut', label: 'Union Territories', icon: 'map-pin' });
   if (types.includes('city')) opts.push({ value: 'city', label: 'Cities', icon: 'building' });
   if (types.includes('row')) opts.push({ value: 'row', label: 'Rows', icon: 'table' });
   if (!opts.some(o => o.value === S.rankType)) S.rankType = opts[0]?.value;
@@ -389,7 +392,7 @@ function drawRank(pos) {
   let gmax = 0; for (const r of pool) for (const yy of ys) gmax = Math.max(gmax, val(r, yy) || 0);
   if (!rows.length) emptyChart(c.svg, `Nothing printed for ${y}.`);
   else barRows(c.svg, { rows, max: gmax, fmt: fmtV, bigYear: y });
-  const who = S.rankType === 'row' ? 'every row' : S.rankType === 'city' ? 'the cities' : 'States and UTs';
+  const who = S.rankType === 'row' ? 'every row' : S.rankType === 'city' ? 'the cities' : S.rankType === 'ut' ? 'Union Territories' : 'States';
   c.set({ title: `${measure()}, ${y}`, sub: `${who}${pool.length > limit ? `, largest ${limit}` : ''} · ${S.fam.title}` });
 }
 
@@ -405,15 +408,15 @@ function drawMap(pos) {
   const geo = mapFor(y, () => drawMap(tl.pos)), outline = outlineMap(() => drawMap(tl.pos));
   if (!geo || !outline) return;
   const values = {};
-  let gmax = 0;
+  const domain = [];        // colour bins from the States over every year (UTs would stretch them)
   for (const r of st) {
     const s = series(r.i);
     const v = at(s, ys, pos);
     if (v != null) values[r.name] = v;
-    for (const yy of ys) gmax = Math.max(gmax, s[yy] || 0);
+    if (r.type === 'state') for (const yy of ys) if (s[yy] != null) domain.push(s[yy]);
   }
   const hl = ['state', 'ut'].includes(S.fam.rows[S.row]?.type) ? rowName(S.row) : null;
-  choropleth(c.svg, { geo, outline, values, max: gmax, year: y, fmt: fmtV, hl, label: measure() });
+  choropleth(c.svg, { geo, outline, values, domain, year: y, fmt: fmtV, hl, label: measure() });
   c.set({ title: `${measure()} by State and UT, ${y}`, sub: `${S.fam.title} · colour scale fixed across ${ys[0]}–${ys.at(-1)}`, note: boundaryNote(y) });
 }
 

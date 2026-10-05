@@ -69,6 +69,9 @@ def main() -> None:
                 pl = resolve(name, "Cities" if sec == "Cities" else sec, True, m.YEAR)
                 if pl and (pl[1] != "city" or pl[0] in cities):
                     cand[(pl[0], pl[1], m.YEAR)].append((round(float(v[1]), 2), True))
+    # Dadra & Nagar Haveli and Daman & Diu were merged on 26 January 2020: a figure for either after 2019 is the merged UT's
+    for k in [k for k in cand if k[0] in ("Dadra & Nagar Haveli", "Daman & Diu") and k[2] >= 2020]:
+        del cand[k]
     # one figure per place and year
     chosen = defaultdict(dict)
     for (pl, ty, y), vs in cand.items():

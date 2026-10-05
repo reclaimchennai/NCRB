@@ -14,7 +14,7 @@
  *   clocks      two 12-hour dials, day (06-18) and night (18-06), one wedge per 3 hours
  */
 
-import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, inkOn, lerp } from './util.js?v=001984a2ba';
+import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, bins, inkOn, lerp } from './util.js?v=c9a18e77a7';
 
 /* ------------------------------------------------------------------ utils */
 
@@ -432,6 +432,10 @@ export function heatmap(el, { rows, cols, get, max, rowMax = null, totalRows = n
     if (onCol) { t.style.cursor = 'pointer'; t.addEventListener('click', () => onCol(j)); }
     el.append(t);
   });
+  // colour bins from the cells' own spread (rows with their own range, such as rates, binned on their own)
+  const cellsOf = i => cols.map((_, j) => get(i, j)?.v).filter(v => v != null);
+  const allBins = bins(rows.flatMap((_, i) => (totalRows?.has(i) ? [] : cellsOf(i))));
+  const rowBins = rowMax ? rows.map((_, i) => bins(cellsOf(i))) : null;
   rows.forEach((r, i) => {
     const y0 = m.top + i * cellH;
     rowLabel(el, m.left - 8, y0 + cellH / 2, r, m.left - 12);
@@ -440,7 +444,7 @@ export function heatmap(el, { rows, cols, get, max, rowMax = null, totalRows = n
       const x0 = m.left + j * cellW;
       // totals are shown but kept off the colour scale, which they would otherwise flatten
       const isTot = totalRows?.has(i);
-      const step = isTot ? 0 : heatStep(cell?.v, rowMax ? rowMax[i] : max);
+      const step = isTot ? 0 : (rowMax && rowMax[i] !== max ? rowBins[i] : allBins).step(cell?.v);
       const fill = isTot ? (cell?.v != null ? 'var(--surface-3)' : 'var(--heat-0)') : `var(--heat-${step})`;
       const rect = svg('rect', { x: x0 + 1, y: y0 + 1, width: cellW - 2, height: cellH - 2, rx: 3, fill });
       el.append(rect);
@@ -718,7 +722,9 @@ function projector(geo, outline, w, h, pad = 8) {
  * top of the colour scale, held across years; hl: a state to outline;
  * year: for Andhra Pradesh before 2014, which also coloured Telangana.
  */
-export function choropleth(el, { geo, outline = null, values, max, fmt = fmtN, unit = '', hl = null, year = null, label = 'Value' }) {
+export function choropleth(el, { geo, outline = null, values, max, domain = null, fmt = fmtN, unit = '', hl = null, year = null, label = 'Value' }) {
+  // the colour bins come from every value the map can show over the years (domain), or this year's values
+  const B = bins(domain && domain.length ? domain : Object.values(values), 7, v => fmtShort(v));
   const { w, narrow } = size(el);
   const h = Math.round(Math.min(narrow ? w * 1.12 : w * 0.95, 720));
   frame(el, w, h);
@@ -734,7 +740,7 @@ export function choropleth(el, { geo, outline = null, values, max, fmt = fmtN, u
   };
   for (const st of P.states) {
     const v = val(st);
-    const fill = v == null ? 'var(--heat-0)' : `var(--heat-${heatStep(v, max)})`;
+    const fill = v == null ? 'var(--heat-0)' : `var(--heat-${B.step(v)})`;
     const p = svg('path', { d: st.d, fill, stroke: 'var(--surface)', 'stroke-width': .7, 'stroke-linejoin': 'round' });
     el.append(p);
     const then = st.era && st.label !== st.name && !/&|and/.test(st.label + st.name) ? ` (now ${st.name})` : '';
@@ -745,18 +751,18 @@ export function choropleth(el, { geo, outline = null, values, max, fmt = fmtN, u
     const st = P.states.find(s => s.name === hl);
     if (st) el.append(svg('path', { d: st.d, fill: 'none', stroke: 'var(--ink)', 'stroke-width': 1.8, 'pointer-events': 'none' }));
   }
-  // legend: the ramp's seven steps with the values they start at
-  const lx = narrow ? 12 : w - legendW + 18, ly = narrow ? h - 34 : h - 210;
-  for (let k = 1; k <= 7; k++) {
-    const lo = max * ((k - 1) / 7) ** 2;
+  // legend: each bin's colour and range
+  const nb = B.bins.length;
+  const lx = narrow ? 12 : w - legendW + 18, ly = narrow ? h - 34 : h - 30 - nb * 24;
+  B.bins.forEach((b, k) => {
     if (narrow) {
-      const bw = (w - 24) / 7;
-      el.append(svg('rect', { x: lx + (k - 1) * bw, y: ly, width: bw - 2, height: 10, rx: 2, fill: `var(--heat-${k})` }));
-      if (k % 2 === 1) el.append(svg('text', { x: lx + (k - 1) * bw, y: ly + 24, class: 'tick' }, fmtShort(lo)));
+      const bw = (w - 24) / nb;
+      el.append(svg('rect', { x: lx + k * bw, y: ly, width: bw - 2, height: 10, rx: 2, fill: `var(--heat-${b.step})` }));
+      if (k % 2 === 0 || k === nb - 1) el.append(svg('text', { x: lx + k * bw, y: ly + 24, class: 'tick' }, k === 0 ? `<${fmtShort(B.breaks[0] ?? 0)}` : `${fmtShort(B.breaks[k - 1])}+`));
     } else {
-      el.append(svg('rect', { x: lx, y: ly + (k - 1) * 24, width: 18, height: 18, rx: 3, fill: `var(--heat-${k})` }));
-      el.append(svg('text', { x: lx + 26, y: ly + (k - 1) * 24 + 13, class: 'tick' }, `${fmtShort(lo)}${k === 7 ? ` – ${fmtShort(max)}` : '+'}`));
+      el.append(svg('rect', { x: lx, y: ly + k * 24, width: 18, height: 18, rx: 3, fill: `var(--heat-${b.step})` }));
+      el.append(svg('text', { x: lx + 26, y: ly + k * 24 + 13, class: 'tick' }, b.label));
     }
-  }
+  });
   if (!narrow) el.append(svg('text', { x: lx, y: ly - 10, class: 'tick' }, 'not printed: grey'));
 }
