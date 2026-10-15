@@ -7,16 +7,16 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=c9a18e77a7';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=c9a18e77a7';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=c9a18e77a7';
-import { notesFor } from '../kit/notes.js?v=c9a18e77a7';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=c9a18e77a7';
-import { footerHtml, creditLine } from '../kit/footer.js?v=c9a18e77a7';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=6374d3cbce';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=6374d3cbce';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=6374d3cbce';
+import { notesFor } from '../kit/notes.js?v=6374d3cbce';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=6374d3cbce';
+import { footerHtml, creditLine } from '../kit/footer.js?v=6374d3cbce';
 
 const DATA = '../data/trends';
 const GROUPS = [
-  { group: 'Traffic crashes', ids: ['traffic_time', 'traffic_month'] },
+  { group: 'Traffic crashes', ids: ['traffic_time', 'traffic_month', 'road_causes'] },
   { group: 'Persons killed in traffic crashes', ids: ['road_deaths_time', 'road_deaths_month'] },
   { group: 'Suicides', ids: ['suicide_means', 'suicide_profession', 'suicide_causes', 'suicide_education', 'suicide_sex_age', 'suicide_rate'] },
 ];
@@ -39,7 +39,8 @@ const ui = {};         // controls
 /* --------------------------------------------------------------- the data */
 
 const kind = () => (/_time$/.test(S.ds) ? 'time' : /_month$/.test(S.ds) ? 'month' : S.ds === 'suicide_rate' ? 'rate' : S.ds === 'suicide_sex_age' ? 'sexage' : 'cats');
-const unit = () => S.meta?.unit || '';
+// road crashes by cause count crashes, persons injured or persons killed, whichever measure is chosen
+const unit = () => (S.ds === 'road_causes' && S.meta?.groups?.[S.group] ? S.meta.groups[S.group].toLowerCase() : S.meta?.unit || '');
 const metaPlace = key => S.meta.places.find(p => p.key === key);
 
 function indexRows(rows) {
@@ -78,6 +79,8 @@ function yearsOf(index) {
 /** NCRB's population for a place (lakh), by year. */
 const popOf = key => { const p = metaPlace(key); return p ? POP[`${p.name}|${p.type}`] || null : null; };
 const perLakhOK = () => kind() !== 'rate';
+// the ranking and the map use each place's headline series, which for crashes by cause is the number of crashes
+const headUnit = () => (S.ds === 'road_causes' ? 'crashes' : unit());
 /** Categories in a fixed order (largest first over the whole history), so a colour follows its category. */
 function ordered() {
   const tot = c => Object.values(series(c.ci)).reduce((a, b) => a + b, 0);
@@ -99,7 +102,7 @@ function placeYears() {
 const placeName = () => (S.place ? S.place.place : '');
 function selectionText({ year = false } = {}) {
   const bits = [];
-  if (S.meta.groups.length > 1 && S.meta.groups[S.group]) bits.push(S.meta.groups[S.group] === 'Total traffic' ? 'all traffic' : `${S.meta.groups[S.group].toLowerCase()} crashes`);
+  if (S.meta.groups.length > 1 && S.meta.groups[S.group] && S.ds !== 'road_causes') bits.push(S.meta.groups[S.group] === 'Total traffic' ? 'all traffic' : `${S.meta.groups[S.group].toLowerCase()} crashes`);
   if (S.meta.sexes.length > 1) bits.push(SEX_LABEL[S.meta.sexes[S.sex]].toLowerCase());
   if (S.meta.ages.length > 1 && S.meta.ages[S.age] !== 'all ages') bits.push(`aged ${S.meta.ages[S.age]}`);
   if (year) bits.push(String(tl.year));
@@ -500,7 +503,7 @@ function drawRank(pos) {
   const y0 = ys[i0], y1 = ys[i1];
   // category list for the selector
   const catOpts = k === 'rate' ? [{ value: '0', label: 'Suicide rate' }, { value: '1', label: 'Number of suicides' }]
-    : [{ value: 'all', label: `All ${unit()}` }, ...ordered().map(cat => ({ value: String(cat.ci), label: label(cat) }))];
+    : [{ value: 'all', label: `All ${headUnit()}` }, ...ordered().map(cat => ({ value: String(cat.ci), label: label(cat) }))];
   if (!catOpts.some(o => o.value === S.rankCat)) S.rankCat = catOpts[0].value;
   C.rankCat.options(catOpts, S.rankCat);
   // States, Union Territories and cities are ranked apart: a UT's few lakh people make its rates swing far
@@ -530,7 +533,7 @@ function drawRank(pos) {
   drawMap(pos);
   barRows(c.svg, { rows, max: Math.max(max, gmax), fmt: k === 'rate' && S.rankCat === '0' ? fmt1 : share ? fmt1 : fmtN, unit: share ? '%' : '', bigYear: y });
   const what = catOpts.find(o => o.value === S.rankCat)?.label || '';
-  c.set({ title: `${what}: ${S.rankType === 'city' ? 'the big cities' : S.rankType === 'ut' ? 'Union Territories' : 'States'}, ${y}`, sub: `${share ? `share of each place's ${unit()}` : k === 'rate' && S.rankCat === '0' ? 'per lakh people' : unit()}${k === 'cats' || k === 'sexage' ? ' · both sexes, all ages' : ''}${m.groups.length > 1 ? ` · ${m.groups[0].toLowerCase()} crashes` : ''} · ${S.keys.length > 1 ? 'the places chosen above in their colours' : `${placeName()} highlighted`}` });
+  c.set({ title: `${what}: ${S.rankType === 'city' ? 'the big cities' : S.rankType === 'ut' ? 'Union Territories' : 'States'}, ${y}`, sub: `${share ? `share of each place's ${headUnit()}` : k === 'rate' && S.rankCat === '0' ? 'per lakh people' : headUnit()}${(k === 'cats' || k === 'sexage') && S.ds !== 'road_causes' ? ' · both sexes, all ages' : ''}${m.groups.length > 1 && S.ds !== 'road_causes' ? ` · ${m.groups[0].toLowerCase()} crashes` : ''} · ${S.keys.length > 1 ? 'the places chosen above in their colours' : `${placeName()} highlighted`}` });
   c.set({ note: rows.length < 3 ? 'Few or no places have this figure for the year.' : '' });
 }
 
@@ -557,7 +560,7 @@ function drawMap(pos) {
   const mp = metaPlace(S.key);
   choropleth(c.svg, { geo, outline, values, domain, year: y, fmt: isRate || share ? fmt1 : fmtN, unit: share ? '%' : '', hl: mp && mp.type !== 'city' ? mp.name : null, label: C.rankCat.select.selectedOptions[0]?.textContent || '' });
   const what = C.rankCat.select.selectedOptions[0]?.textContent || '';
-  c.set({ title: `${what} by State and UT, ${y}`, sub: `${share ? `share of each State's ${unit()}` : isRate ? 'suicides per lakh people' : unit()} · colour scale fixed across ${ys[0]}–${ys.at(-1)}`, note: boundaryNote(y) });
+  c.set({ title: `${what} by State and UT, ${y}`, sub: `${share ? `share of each State's ${headUnit()}` : isRate ? 'suicides per lakh people' : headUnit()} · colour scale fixed across ${ys[0]}–${ys.at(-1)}`, note: boundaryNote(y) });
 }
 
 /* 4. by age group */

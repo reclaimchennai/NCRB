@@ -53,6 +53,8 @@ RULES = {
         (r"farmer|agricultur|cultivator", "Farm suicides"),
         (r"armed police|capf", "Deaths in the armed police forces"),
         (r"suicid", "Suicides"),
+        # 'Cause-wise distribution of road accidents and unmanned railway crossing accidents' is a road table
+        (r"cause.{0,30}road accidents?|road accidents?.{0,12}cause", "Road crashes"),
         (r"railway crossing|railway accident|railway", "Railway crashes"),
         (r"time of occurrence|months? of occurrence|quarter", "Traffic crashes: when"),
         (r"traffic|road|vehicle|mode of transport|motor", "Road crashes"),

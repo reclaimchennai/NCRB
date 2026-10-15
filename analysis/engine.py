@@ -1216,6 +1216,64 @@ SLOT_RX = [(lab, rf"^{lab[:2]}\s*:?\s*00\s*hrs?\.?\s*to\s*{lab[3:]}") for lab in
 MONTH_RX = [(m, rf"^{m}") for m in MONTHS] + [("Total", r"total")]
 
 
+# road crashes by cause (ADSI Table 1A.9, 2014-): NCRB's causes, kept as printed but for shorter names
+ROAD_CAUSES = [
+    (r"over.?speed", "Over-speeding"),
+    (r"dangerous|careless|over.?taking", "Dangerous or careless driving, overtaking"),
+    (r"influence|drunk|alcohol|drug", "Driving under the influence of drink or drugs"),
+    (r"fatigue", "Driver fatigue"),
+    (r"mechanical|defect", "Defect in the vehicle"),
+    (r"animal", "Animal crossing"),
+    (r"weather.*total", "Weather"),
+    (r"infrastructure", "Lack of road infrastructure"),
+    (r"parking|shoulder", "Vehicles parked on the road shoulder"),
+    (r"not known", "Cause not known"),
+    (r"other causes", "Other causes"),
+]
+ROAD_MEASURE = {"cases": "Crashes", "injured": "Persons injured", "died": "Persons killed"}
+
+
+def road_causes() -> pd.DataFrame:
+    """Road crashes, persons injured and persons killed by cause, every State, UT and city (2014-). Each place-year's
+    causes must add up to its printed total of road accidents (2014's total also counts unmanned railway crossings)."""
+    picked, by_year = all_readings("road_causes")
+    recs = []
+    for year, places in sorted(by_year.items()):
+        for (place, ptype), readings in places.items():
+            rows = []
+            for c in readings[0].itertuples():
+                parts = [x.strip() for x in str(c.column).split("|")]
+                if len(parts) < 2 or c.value is None or c.value != c.value:
+                    continue
+                meas = ROAD_MEASURE.get(parts[-1].lower())
+                if not meas:
+                    continue
+                lab = parts[0]
+                if re.search(r"total road accidents|^total$", lab, re.I):
+                    cat = "Total"
+                elif re.search(r"unmanned", lab, re.I):
+                    cat = "Unmanned"
+                elif re.search(r"weather.*(poor visib|others)", lab, re.I) or re.search(r"grand total", lab, re.I):
+                    continue
+                else:
+                    cat = next((nm for rx, nm in ROAD_CAUSES if re.search(rx, lab, re.I)), None)
+                if cat:
+                    rows.append((meas, cat, float(c.value)))
+            d = pd.DataFrame(rows, columns=["group", "cat", "value"]).drop_duplicates(["group", "cat"])
+            for g, x in d.groupby("group"):
+                tot = x[x.cat == "Total"].value
+                unm = x[x.cat == "Unmanned"].value
+                causes = x[~x.cat.isin(["Total", "Unmanned"])]
+                if not len(tot):
+                    ok = "no total"
+                else:
+                    t = tot.iloc[0] - (unm.iloc[0] if year == 2014 and len(unm) else 0)
+                    ok = "ok" if abs(causes.value.sum() - t) <= 1 else "mismatch"
+                for r in causes.itertuples():
+                    recs.append((year, place, ptype, g, r.cat, "Total", "all ages", r.value, ok, "text"))
+    return frame(recs)
+
+
 def road_deaths_time() -> pd.DataFrame:
     return read_persons("traffic_time_deaths_tn", SLOT_RX)
 
@@ -1548,6 +1606,8 @@ DATASETS = {
                              groups=["Road", "Railway crossing", "Railway", "Total traffic"]),
     "road_deaths_month": dict(build=road_deaths_month, topics=["traffic_month_deaths_tn"], title="Persons killed in traffic crashes by month", unit="deaths", cats=MONTHS,
                               groups=["Road", "Railway crossing", "Railway", "Total traffic"]),
+    "road_causes": dict(build=road_causes, topics=["road_causes"], title="Road crashes by cause", unit="crashes",
+                        cats=[nm for _, nm in ROAD_CAUSES], groups=["Crashes", "Persons injured", "Persons killed"]),
     "suicide_means": dict(build=suicide_means, topics=["suicide_means_tn", "suicide_means_city", "suicide_means_age_tn"], title="Suicides by means adopted", unit="suicides"),
     "suicide_profession": dict(build=suicide_profession, topics=["suicide_profession_tn", "suicide_profession_city", "suicide_profession_age_tn"], title="Suicides by profession", unit="suicides"),
     "suicide_causes": dict(build=suicide_causes, topics=["suicide_causes_tn", "suicide_causes_city"], title="Suicides by cause", unit="suicides"),

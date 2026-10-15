@@ -6,12 +6,12 @@
  * video button that records it through the years.
  */
 
-import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=c9a18e77a7';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=c9a18e77a7';
-import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=c9a18e77a7';
-import { place, loadIndex, yearsWith } from '../kit/data.js?v=c9a18e77a7';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=c9a18e77a7';
-import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=c9a18e77a7';
+import { $, el, icon, esc, initTheme, debounce, getJSON, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=6374d3cbce';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=6374d3cbce';
+import { segmented, Timeline, at, card, bindCapture } from '../kit/cards.js?v=6374d3cbce';
+import { place, loadIndex, yearsWith } from '../kit/data.js?v=6374d3cbce';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=6374d3cbce';
+import { footerHtml, SOURCE_LINE, creditLine } from '../kit/footer.js?v=6374d3cbce';
 
 const SLOTS = ['00-03', '03-06', '06-09', '09-12', '12-15', '15-18', '18-21', '21-24'];
 const DAY = ['06-09', '09-12', '12-15', '15-18'];
@@ -146,6 +146,48 @@ async function trafficMonth() {
   });
   c.set({ title: 'Road crashes in Chennai by month', sub: 'number of road crashes, and % of the year' });
   c.setLegend([{ label: 'fewer', color: 'var(--heat-1)' }, { label: 'more', color: 'var(--heat-7)' }]);
+}
+
+/** Road crashes by cause (2014-): Chennai or Tamil Nadu, crashes or persons killed, as shares (stacked) or numbers. */
+async function roadCauses() {
+  const [PC, PT] = await Promise.all([place('road_causes', 'city-chennai'), place('road_causes', 'state-tamil-nadu')]);
+  const P = { ch: PC, tn: PT };
+  const who = { ch: 'Chennai', tn: 'Tamil Nadu' };
+  let pk = 'ch', meas = 'Crashes', view = 'share';
+  const ys = yearsWith(PC, { group: 'Crashes' });
+  const cats = PC.cats;
+  // one colour per cause on every view: the seven largest in Tamil Nadu over the years, the rest 'All other'
+  const tot = c => yearsWith(PT, { group: 'Crashes' }).reduce((a, y) => a + (PT.get(c, { group: 'Crashes' })[y] || 0), 0);
+  const order = cats.slice().sort((a, b) => tot(b) - tot(a));
+  const top = order.slice(0, 7), rest = order.slice(7);
+  const col = c => SERIES(top.indexOf(c));
+  const last = ys.at(-1);
+  const share = (Q, c, y, g) => { const t = Q.total(y, { group: g }); return t ? (100 * (Q.get(c, { group: g })[y] || 0)) / t : null; };
+  const big = c => share(PC, c, last, 'Crashes');
+  const lead = top.slice().sort((a, b) => (big(b) || 0) - (big(a) || 0))[0];
+  section('Road crashes by cause', `<p>Since ${ys[0]} NCRB has printed, for every State and big city, the cause the police recorded for each road crash: over-speeding, dangerous or careless driving and overtaking, driving under the influence of drink or drugs, driver fatigue, a defect in the vehicle, weather, poor road infrastructure and so on. In ${last} the largest share of Chennai's crashes was put down to <b>${lead.toLowerCase()}</b> (${fmtPct(big(lead), 0)}). The split moves a great deal between years, partly because of how crashes were recorded: in some years most went under 'other causes'.</p>`);
+  const xs = []; for (let y = ys[0]; y <= last; y++) xs.push(y);
+  const c = plainCard(root(), {
+    id: 'road-causes', kicker: 'Road crashes by cause', name: 'road-crashes-by-cause', meta: () => creditLine(P[pk].meta, ys, P[pk].sources),
+    render: () => {
+      const Q = P[pk];
+      const yy = yearsWith(Q, { group: meas });
+      const val = (cc, y) => (view === 'share' ? share(Q, cc, y, meas) : Q.get(cc, { group: meas })[y] ?? null);
+      const restOf = y => rest.reduce((a, cc) => a + (val(cc, y) || 0), 0);
+      const series = top.map(cc => ({ key: cc, label: cc, color: col(cc), values: Object.fromEntries(yy.map(y => [y, val(cc, y)]).filter(([, v]) => v != null)) }))
+        .concat([{ key: 'rest', label: 'All other', color: 'var(--other)', values: Object.fromEntries(yy.map(y => [y, restOf(y)])) }]);
+      const word = meas === 'Crashes' ? 'crashes' : meas.toLowerCase();
+      if (view === 'lines') lineChart(c.svg, { xs, series, fmt: fmtN });
+      else stackChart(c.svg, { xs, series, mode: view === 'share' ? 'share' : 'count', unit: view === 'share' ? `% of the year's ${word}` : word, fmt: view === 'share' ? v => `${(Math.round(v * 10) / 10).toFixed(1)}%` : fmtN });
+      c.setLegend(series.map(s2 => ({ label: s2.label, color: s2.color, line: view === 'lines' })));
+      c.set({ title: `Road ${word === 'crashes' ? 'crashes' : `crashes: ${word}`} in ${who[pk]} by cause, ${ys[0]}–${last}`, sub: view === 'share' ? `share of each year's ${word}, by the cause the police recorded` : `number of ${word}, by the cause the police recorded` });
+    },
+  });
+  const segP = segmented({ label: 'Place', value: pk, options: [{ value: 'ch', label: 'Chennai' }, { value: 'tn', label: 'Tamil Nadu' }], onChange: v => { pk = v; redrawAll(); } });
+  const segM = segmented({ label: 'Measure', value: meas, options: [{ value: 'Crashes', label: 'Crashes' }, { value: 'Persons killed', label: 'Persons killed' }, { value: 'Persons injured', label: 'Persons injured' }], onChange: v => { meas = v; redrawAll(); } });
+  const segV = segmented({ label: 'Chart', value: view, options: [{ value: 'share', label: 'Share' }, { value: 'count', label: 'Number' }, { value: 'lines', label: 'Lines' }], onChange: v => { view = v; redrawAll(); } });
+  c.toolbar.append(segP.el, segM.el, segV.el);
+  c.set({ note: "NCRB's Table 1A.9 (Accidental Deaths & Suicides in India), every year since 2014; each place's causes add up to its printed total of road accidents. 'Weather' is NCRB's total for weather conditions (poor visibility and other). To compare other cities, open Road crashes by cause on the Trends page and add places." });
 }
 
 async function roadDeaths() {
@@ -496,7 +538,7 @@ async function boot() {
   await tiles();
   // Chennai's means chart uses Tamil Nadu's colours, so a mean has one colour on the page
   const meansBoth = async () => { const order = await means(); await means('city-chennai', 'Chennai', 'chn', order); };
-  for (const f of [trafficTime, trafficMonth, roadDeaths, roadLong, meansBoth, profession, ageSex, rates, rateMap]) {
+  for (const f of [trafficTime, trafficMonth, roadCauses, roadDeaths, roadLong, meansBoth, profession, ageSex, rates, rateMap]) {
     try { await f(); } catch (e) { console.error(e); root().append(el('div', { class: 'card' }, `<div class="empty">Could not draw this section: ${esc(e.message)}</div>`)); }
   }
   redrawAll();

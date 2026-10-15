@@ -25,6 +25,10 @@ TOPICS = {
     "traffic_month_deaths_tn": dict(
         pub="adsi", title=r"month of occurrence.*persons injured|persons injured.*month", place="tamil_nadu",
     ),
+    # Road crashes by cause (over-speeding, drunken driving ...), State/UT & City-wise, 2014 onwards (ADSI Table 1A.9)
+    "road_causes": dict(
+        pub="adsi", title=r"cause.{0,8}wise distribution of road accidents|road accidents by causes", exclude=r"all.?india\)|during 20\d\d$", place="tamil_nadu",
+    ),
     # Suicides by means adopted, Tamil Nadu
     "suicide_means_tn": dict(
         pub="adsi", title=r"means", exclude=r"all.?india|percentage share of suicide committed|city wise|age wise details|percentage distribution|prominent means|percentage share", place="tamil_nadu",
