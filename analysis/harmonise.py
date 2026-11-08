@@ -98,7 +98,9 @@ CAUSES = [
     (r"other family|family problem|quarrel", "Family problems"),   # 1967-94 'quarrel with spouse / parents-in-law'
     (r"insanity|mental", "Illness: mental"),
     (r"illness|cancer|paralysis|aids|std|prolonged|dreadful|disease", "Illness: physical"),
-    (r"dowry|divorc|marriage|marital", "Marriage related"),
+    # dowry disputes are their own cause up to 2013 and 'Marriage related issues: dowry related' from 2014
+    (r"dowry", "Dowry related"),
+    (r"divorc|marriage|marital", "Marriage related"),
     (r"love affair", "Love affairs"),
     (r"bankrupt|indebted|economic status|^status$", "Bankruptcy or debt"),
     (r"unemploy", "Unemployment"),
