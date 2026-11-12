@@ -9,7 +9,7 @@ from pathlib import Path
 
 WEB = Path(__file__).resolve().parents[1] / "web"
 sprite = (WEB / "kit" / "sprite.svg").read_text(encoding="utf-8").strip()
-for page in [WEB / "trends" / "index.html", WEB / "chennai" / "index.html", WEB / "explore" / "index.html", WEB / "dowry" / "index.html"]:
+for page in [WEB / "trends" / "index.html", WEB / "chennai" / "index.html", WEB / "explore" / "index.html", WEB / "dowry" / "index.html", WEB / "browse" / "index.html"]:
     if not page.exists():
         continue
     html = page.read_text(encoding="utf-8")

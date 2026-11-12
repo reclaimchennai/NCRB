@@ -68,8 +68,8 @@ def _kind(row: list[str]) -> str:
     distinct = {re.sub(r"\s+", " ", CONTD_RE.sub(" ", v)).strip(" -–.").lower() for v in texts}
     if len(distinct) <= 1 and not nums:
         return "single"  # title, section heading or note
-    if texts and len(nums) >= 3 and all(re.fullmatch(r"(19|20)\d\d(-\d\d)?", v) for v in nums):
-        return "header"  # a heading row of years: 'Sl | Crime | 2001 | 2002 | ...'
+    if texts and len(nums) >= (2 if len(texts) >= 2 else 3) and all(re.fullmatch(r"(19|20)\d\d(-\d\d)?", v) for v in nums):
+        return "header"  # a heading row of years: 'Sl | Crime | 2001 | 2002 | ...' ('SL | Crime Head | 2014 | 2015')
     if len(nums) >= 2 and len(nums) >= 0.5 * len(cells):
         return "data"  # label cells may repeat when a wide table is laid out in blocks side by side
     if len(nums) >= 1 and len(nums) >= 0.5 * len(cells) - 1 and len(texts) <= 3:
@@ -140,6 +140,11 @@ def tables_from_grid(grid: list[list[str]], merged: list[tuple[int, int, int, in
             elif k == "single":
                 # a section heading inside the body, unless it starts the next table or the notes
                 text = next(v for v in grid[i] if v)
+                # a note between the heading and the first row ('Due to non-receipt of data from West Bengal ...')
+                if i == b0 and next((kinds[m] for m in range(i + 1, n) if kinds[m] not in ("empty", "single")), "end") == "data" \
+                        and not TABLE_RE.match(text):
+                    i += 1
+                    continue
                 nxt = next((kinds[m] for m in range(i + 1, n) if kinds[m] != "empty"), "end")
                 if TABLE_RE.match(text) or NOTE_START_RE.match(text) or nxt in ("header", "anchor", "end", "single") and len(text) > 40:
                     break
@@ -148,6 +153,8 @@ def tables_from_grid(grid: list[list[str]], merged: list[tuple[int, int, int, in
                 i += 1
             elif k == "empty" and next((kinds[m] for m in range(i + 1, min(n, i + 4)) if kinds[m] != "empty"), "") == "data":
                 i += 1  # blank rows inside the table
+            elif k == "empty" and [kinds[m] for m in range(i + 1, min(n, i + 6)) if kinds[m] != "empty"][:2] == ["single", "data"]:
+                i += 1  # a blank row before a section heading (a State's name over its districts)
             else:
                 break
         body_rows = [r for r in range(b0, i) if kinds[r] != "empty"]

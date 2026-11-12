@@ -213,17 +213,29 @@ STATEMENT_TOPIC = {"persons arrested by sex and age-group": "Persons arrested", 
                    "Court disposal & convictions", "persons arrested and their disposal by police and court": "Persons arrested"}
 
 
+# what became of every extracted table (analysis/output/table_ledger.csv): in a family, a reprint, district-wise ...
+LEDGER: dict[str, tuple] = {}
+
+
 def build(pub: str) -> list[dict]:
     t = q("SELECT table_id, publication, year, listing, topic AS chapter, title, method, n_rows, n_cols, n_cells, checks_total, checks_passed, source_url "
           "FROM tables WHERE publication = ? AND n_cells > 0", [pub])
+    for r in t.itertuples():
+        LEDGER[r.table_id] = (pub, int(r.year), r.listing, r.method, re.sub(r"\s+", " ", str(r.title))[:140], "not grouped", "")
+    def mark(ids, status, detail=""):
+        for i in ids:
+            LEDGER[i] = LEDGER[i][:5] + (status, detail)
     # district-wise tables run to 700+ rows a year; they stay on the Tables page
-    t = t[~t.title.fillna("").str.contains(r"district", case=False) & ~t.table_id.str.contains(r"district", case=False)
-          & ~t.title.fillna("").str.match(r"^\s*state\s*:", case=False)].copy()
+    dist = ~(~t.title.fillna("").str.contains(r"district", case=False) & ~t.table_id.str.contains(r"district", case=False)
+             & ~t.title.fillna("").str.match(r"^\s*state\s*:", case=False))
+    mark(t.table_id[dist], "district-wise (Tables page)")
+    t = t[~dist].copy()
     t["ctitle"] = t.title.map(clean_title)
     t["chapter"] = t.chapter.fillna("")
     t["topic"] = [topic_of(pub, c, x) for c, x in zip(t.chapter, t.title)]
     t["geo"] = [geo_of(c, x) for c, x in zip(t.chapter, t.title)]
     t["tok"] = t.ctitle.map(tokens)
+    mark(t.table_id[t.tok.map(len) == 0], "no readable title")
     t = t[t.tok.map(len) > 0]
     sm = [STATEMENT.match(x or "") for x in t.ctitle]
     t["stmt"] = [re.sub(r"\barr\w+", "arrested", re.sub(r"age.?group", "age-group", m.group(1).lower())) if m else "" for m in sm]
@@ -271,6 +283,7 @@ def build(pub: str) -> list[dict]:
         return any((g == g2 or "" in (g, g2)) and ((mine and jacc(mine, c2) >= 0.6) or (not mine and jacc(tok, t2) >= 0.8))
                    for c2, g2, t2 in by_year.get(y, []))
     keep = [True if i else not reprint(tid, y, g, tok) for i, tid, y, g, tok in zip(ind, t.table_id, t.year, t.geo, t.tok)]
+    mark(t.table_id[[not k for k in keep]], "reprint of a table of the same year")
     t = t[keep].copy()
     t["_l"] = t.listing.map(LISTING_RANK).fillna(9)
     t["_m"] = t.method.map(METHOD_RANK).fillna(9)
@@ -343,7 +356,10 @@ def build(pub: str) -> list[dict]:
     out = []
     for i, m in enumerate(merged):
         g = m["rows"]
-        if g.year.nunique() < 3:
+        # a table printed in only one or two editions is kept too (as a short family) when it has a text layer
+        short = g.year.nunique() < 3
+        if short and g.method.isin(SCANNED).any():
+            mark(g.table_id, "scanned, printed in fewer than three editions")
             continue
         chosen = []
         for y, gy in g.groupby("year"):
@@ -352,11 +368,17 @@ def build(pub: str) -> list[dict]:
             ok = same[~((same.checks_total >= 5) & (same.checks_passed < 0.7 * same.checks_total) & same.method.isin(SCANNED))]
             if len(ok):
                 chosen.append(ok)
-        if len(chosen) < 3:
+        if len(chosen) < (1 if short else 3):
+            mark(g.table_id, "scanned years failed their totals")
             continue
-        fam = read_family(pub, m["topic"], m["geo"], pd.concat(chosen))
+        ch = pd.concat(chosen)
+        fam = read_family(pub, m["topic"], m["geo"], ch, min_years=1 if short else 3)
         if fam:
+            fam["_tables"] = list(ch.table_id)
+            fam["_others"] = [i for i in g.table_id if i not in set(ch.table_id)]
             out.append(fam)
+        else:
+            mark(g.table_id, "could not be joined (title or headings unreadable)")
         if i % 200 == 0:
             print(f"  {pub}: {i}/{len(merged)} families read, {len(out)} kept", flush=True)
     return same_figures(out)
@@ -505,7 +527,7 @@ def same_figures(fams: list[dict]) -> list[dict]:
     return [f for i, f in enumerate(fams) if i not in gone]
 
 
-def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None:
+def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame, min_years: int = 3) -> dict | None:
     ids = ch.table_id.tolist()
     marks = ",".join("?" for _ in ids)
     c = q(f'SELECT table_id, "row", section, name, col_no, "column", value FROM cells WHERE table_id IN ({marks}) AND value IS NOT NULL', ids)
@@ -555,7 +577,7 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
     basis = clean if clean.year.nunique() >= 2 else c
     per_year = basis.groupby("year").ck.apply(set)
     cnt = Counter(k for s in per_year for k in s)
-    need = max(2, -(-len(per_year) // 4))
+    need = max(min(2, min_years), -(-len(per_year) // 4))
     keep = [k for k, n in cnt.items() if n >= need]
     if not keep:
         return None
@@ -592,14 +614,14 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
         c["rname"] = c.name.map(row_key)
         c = c[c.rname.str.len() > 1]
         present = c.groupby("rname").year.nunique()
-        c = c[c.rname.isin(present[present >= max(2, 0.3 * len(years_all))].index)]
+        c = c[c.rname.isin(present[present >= max(min(2, min_years), 0.3 * len(years_all))].index)]
         c["rtype"] = "row"
     if c.empty:
         return None
     c = c.merge(ch[["table_id", "year"]].rename(columns={"year": "_ed"}), on="table_id", how="left")
     c = c.sort_values(["_late", "_ed", "table_id", "row", "_o"], ascending=[True, False, True, True, True]).drop_duplicates(["rname", "rtype", "ck", "brk", "year"])
     years = sorted(int(y) for y in c.year.unique())
-    if len(years) < 3:
+    if len(years) < min_years:
         return None
     # category labels and order: the latest wording, NCRB's latest column order; totals last
     latest = c.sort_values("year")
@@ -648,7 +670,7 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
     for r in ch.itertuples():
         lst = srcs.setdefault(str(int(r.year)), [])
         if not any(x["url"] == r.source_url for x in lst):
-            lst.append({"title": re.sub(r"\s+", " ", str(r.title)).strip()[:160], "url": r.source_url, "method": r.method})
+            lst.append({"title": re.sub(r"\s+", " ", str(r.title)).strip()[:160], "url": r.source_url, "method": r.method, "id": r.table_id})
     olds = sorted({str(x) for x in ch.ctitle.unique() if x and x != title})[:6]
     # the years most of the table is printed for (a stray year with one or two categories does not stretch the range)
     per = c.groupby("year").ck.nunique()
@@ -659,6 +681,21 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame) -> dict | None
         "cats": [{"name": display_cat(cat_label[k]), **({"total": 1} if TOTAL_RX.search(cat_label[k]) else {})} for k in cats],
         "brks": brks, "rows": rowlist, "d": data, "sources": srcs, "core": [min(core), max(core)] if core else [years[0], years[-1]],
     }
+
+
+def prune(index: dict) -> None:
+    """Short families (one or two editions) with a title that does not read as one, and the second of two families
+    with one title under a topic and geography (the one with fewer years), are left out; their files are removed."""
+    bad = re.compile(r"^[^A-Za-z]*$|^\W|[a-z]{25,}|\d\d[a-z]{3,}|^\(|as per data|^note\b|^source\b", re.I)
+    keep, seen = [], {}
+    for f in sorted(index["families"], key=lambda f: -f["n"]):
+        k = (f["pub"], f["topic"], f["geo"], f["title"].lower())
+        if (f["n"] < 3 and (bad.search(f["title"]) or len(f["title"]) < 12)) or k in seen:
+            (OUT / f["pub"] / f"{f['id']}.json").unlink(missing_ok=True)
+            continue
+        seen[k] = 1
+        keep.append(f)
+    index["families"] = keep
 
 
 def main(pubs: list[str]) -> None:
@@ -678,15 +715,37 @@ def main(pubs: list[str]) -> None:
             seen[f["id"]] += 1
             if seen[f["id"]] > 1:
                 f["id"] = f"{f['id']}-{seen[f['id']]}"
+            for i in f.pop("_tables", []):
+                LEDGER[i] = LEDGER[i][:5] + ("in a family", f["id"])
+            for i in f.pop("_others", []):
+                LEDGER[i] = LEDGER[i][:5] + ("another printing of a year in a family", f["id"])
             (d / f"{f['id']}.json").write_text(json.dumps(f, separators=(",", ":")), encoding="utf-8")
+            scanned = sorted(int(y) for y, l in f["sources"].items() if any(x["method"] not in ("pdf_text", "excel", "word") for x in l))
             index["families"].append({k: f[k] for k in ("id", "pub", "topic", "title", "geo", "mode")} | {
                 "y0": f["core"][0], "y1": f["core"][1], "n": len(f["years"]), "rows": len(f["rows"]), "cats": len(f["cats"]),
-                "also": f["also"][:3]})
+                "also": f["also"][:3], "ys": f["years"], "sc": scanned})
         print(f"{pub}: {len(fams)} families ({time.time() - t0:.0f}s)")
     index["families"].sort(key=lambda f: (list(PUB_NAME).index(f["pub"]), f["topic"], {"state": 0, "city": 1, "india": 2}.get(f["geo"], 3), -f["n"], f["title"]))
+    prune(index)
     index["reports"] = PUB_NAME
     index["built"] = time.strftime("%Y-%m-%d")
     idx_path.write_text(json.dumps(index, separators=(",", ":")), encoding="utf-8")
+    # the ledger: every extracted table of these publications and what became of it
+    import csv
+    from .lib import ROOT
+    led = ROOT / "analysis" / "output" / "table_ledger.csv"
+    old = {}
+    if led.exists():
+        old = {r["table_id"]: r for r in csv.DictReader(led.open(encoding="utf-8")) if r["publication"] not in pubs}
+    with led.open("w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["table_id", "publication", "year", "listing", "method", "title", "status", "family"])
+        for r in old.values():
+            w.writerow([r[k] for k in ("table_id", "publication", "year", "listing", "method", "title", "status", "family")])
+        for tid, v in sorted(LEDGER.items()):
+            w.writerow([tid, *v])
+    cnt = Counter(v[5] for v in LEDGER.values())
+    print("ledger:", dict(cnt.most_common()))
 
 
 if __name__ == "__main__":

@@ -7,14 +7,15 @@
  * subtotals are flagged, shown last and kept off the colour scales.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=f431e2a775';
-import { lineChart, stackChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=f431e2a775';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f431e2a775';
-import { footerHtml, creditLine } from '../kit/footer.js?v=f431e2a775';
-import { explain, explainAll } from '../kit/legal.js?v=f431e2a775';
-import { notesFor } from '../kit/notes.js?v=f431e2a775';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=f431e2a775';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=1215b798a1';
+import { lineChart, stackChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=1215b798a1';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=1215b798a1';
+import { footerHtml, creditLine } from '../kit/footer.js?v=1215b798a1';
+import { explain, explainAll } from '../kit/legal.js?v=1215b798a1';
+import { notesFor } from '../kit/notes.js?v=1215b798a1';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=1215b798a1';
 
+import { mountSearch } from '../kit/search.js?v=1215b798a1';
 const DATA = '../data/explore';
 const TYPE_LABEL = { total: 'India', state: 'States', ut: 'Union Territories', city: 'Cities', row: 'Rows' };
 const GEO_LABEL = { state: 'States & UTs', city: 'Cities', india: 'All India', '': 'All India' };
@@ -215,6 +216,9 @@ function buildCards() {
     S.rows = [...S.rows, ...add].slice(0, 10); ui.row.set(S.rows); refresh();
   });
   C.trend.toolbar.append(C.view.el, C.big);
+  // completeness: one cell a year for each place shown (printed, read from a scan, no figure)
+  C.cov = el('div', { class: 'covcard' });
+  C.trend.note.before(C.cov);
 
   const g = el('div', { class: 'grid2' });
   root.append(g);
@@ -290,6 +294,7 @@ function stackParts() {
 }
 function drawTrend() {
   const c = C.trend;
+  drawCoverage();
   const multi = S.rows.length > 1;
   const parts = !multi ? stackParts() : null;
   C.view.el.hidden = !parts;
@@ -341,6 +346,22 @@ function drawTrend() {
     ? '<p><b>Offenders</b> are deaths in crashes where this vehicle was the one held responsible; <b>Victims</b> are deaths in crashes where this vehicle (or a pedestrian) was the one hit; <b>Offenders + victims</b> is NCRB\'s total of the two. NCRB printed these in 2014–2020; from 2021 it counts the people injured and killed travelling in each vehicle instead, so the two are not one series.</p>'
     : /^(Died|Injured)$/.test(bn) && S.fam.brks.includes('Offenders') ? '<p>From 2021 NCRB counts the people injured and killed travelling in each vehicle; 2014–2020 counted by the vehicle at fault and the one hit (see the Offenders and Victims breakdowns), so the years before 2021 are not on this line.</p>' : '';
   c.set({ note: (noteRows ? `<ul class="chart-notes">${noteRows}</ul>` : '') + gapText + brkHelp });
+}
+/** Coverage of what the trend shows: a strip per place over the table's years, and the share of years with a figure. */
+function drawCoverage() {
+  if (!C.cov) return;
+  const fy = S.fam.years, y0 = fy[0], y1 = fy.at(-1);
+  const scanned = y => (S.fam.sources?.[y] || []).some(x => !['pdf_text', 'excel', 'word'].includes(x.method));
+  const printed = new Set(fy.filter(y => S.fam.sources?.[y]));
+  const rows = S.rows.slice(0, 6).map(r => {
+    const v = series(r), has = Object.keys(v).map(Number);
+    let cells = '';
+    for (let y = y0; y <= y1; y++) cells += `<rect class="${v[y] != null ? (scanned(y) ? 's' : 't') : 'n'}" x="${(y - y0) * 7}" y="0" width="6" height="13" rx="1"><title>${y}: ${v[y] != null ? `${fmtV(v[y])}${scanned(y) ? ' (read from a scanned edition)' : ''}` : printed.has(y) ? 'the table was printed, but not this figure' : 'the table was not printed (or not read) this year'}</title></rect>`;
+    const n = has.length, full = y1 - y0 + 1, share = n / full;
+    return `<div style="display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center"><span class="ring${share < .5 ? ' low' : ''}"><svg viewBox="0 0 36 36"><circle class="bg" cx="18" cy="18" r="15"/><circle class="fg" cx="18" cy="18" r="15" pathLength="100" stroke-dasharray="${(share * 100).toFixed(1)} 100"/></svg><span><b style="color:var(--ink)">${esc(rowName(r))}</b> · ${n} of ${full} years (${Math.round(share * 100)}%)</span></span>
+      <svg class="cov" width="${full * 7}" height="13" viewBox="0 0 ${full * 7} 13" role="img" aria-label="${n} of ${full} years have a figure">${cells}</svg></div>`;
+  }).join('');
+  C.cov.innerHTML = rows ? `${rows}<div class="cov-key"><span>${y0}–${y1}, one cell a year:</span><span><i class="t"></i>printed figure</span><span><i class="s"></i>read from a scan</span><span><i class="n"></i>no figure</span></div>` : '';
 }
 function markTrend(pos) {
   if (!trendArgs) return;
@@ -486,7 +507,7 @@ async function boot() {
   try { POP = (await getJSON(`${DATA}/population.json`)).places || {}; } catch { POP = {}; }
   buildControls();
   buildCards();
-  bindSearch();
+  mountSearch({ base: '../' });
   const h = new URLSearchParams(location.hash.slice(1));
   if (h.get('r') && S.index.reports[h.get('r')]) S.pub = h.get('r');
   S.perLakh = h.get('k') === 'l';

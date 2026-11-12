@@ -5,11 +5,12 @@
  * The places picked at the top drive the line charts; the ranking and the map show every State, UT or city.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, lerp } from '../kit/util.js?v=f431e2a775';
-import { lineChart, barRows, choropleth, emptyChart } from '../kit/grapher.js?v=f431e2a775';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f431e2a775';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=f431e2a775';
-import { footerHtml } from '../kit/footer.js?v=f431e2a775';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, lerp } from '../kit/util.js?v=1215b798a1';
+import { lineChart, barRows, choropleth, emptyChart } from '../kit/grapher.js?v=1215b798a1';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=1215b798a1';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=1215b798a1';
+import { footerHtml } from '../kit/footer.js?v=1215b798a1';
+import { mountSearch } from '../kit/search.js?v=1215b798a1';
 
 const TYPE_LABEL = { total: 'India', state: 'States', ut: 'Union Territories', city: 'Cities' };
 const SOURCE = 'Data: National Crime Records Bureau, Crime in India and Accidental Deaths & Suicides in India, every edition 1988–2024; female population 1990–2011 from the Census of India (1991, 2001, 2011), a straight line between censuses.';
@@ -276,6 +277,7 @@ function writeHash() {
 }
 
 async function boot() {
+  mountSearch({ base: '../' });
   initTheme(refresh);
   $('#foot').innerHTML = footerHtml({ extra: '<li>Dowry deaths are cases registered under Section 304B IPC (Section 80 of the Bharatiya Nyaya Sanhita from 1 July 2024; NCRB\'s 2024 figures add the two). Cases are counted by the year they were registered, victims from 2014. The rate per lakh women uses the female population NCRB printed; for years it did not, the Census of India\'s female population (1991, 2001, 2011, a straight line between censuses), drawn dashed.</li>' });
   const D = await getJSON('../data/dowry/dowry.json');

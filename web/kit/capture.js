@@ -10,8 +10,8 @@
  * the source of the figures, and @reclaimchennai as its author.
  */
 
-import { fixWebmDuration } from './webm.js?v=f431e2a775';
-import { cssVar } from './util.js?v=f431e2a775';
+import { fixWebmDuration } from './webm.js?v=1215b798a1';
+import { cssVar } from './util.js?v=1215b798a1';
 
 const OUT_FPS = 30;
 const CODECS = ['avc1.640028', 'avc1.4d0028', 'avc1.42003c', 'avc1.42E01E'];

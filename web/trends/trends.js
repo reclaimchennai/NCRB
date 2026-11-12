@@ -7,13 +7,14 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=f431e2a775';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=f431e2a775';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=f431e2a775';
-import { notesFor } from '../kit/notes.js?v=f431e2a775';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=f431e2a775';
-import { footerHtml, creditLine } from '../kit/footer.js?v=f431e2a775';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=1215b798a1';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=1215b798a1';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=1215b798a1';
+import { notesFor } from '../kit/notes.js?v=1215b798a1';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=1215b798a1';
+import { footerHtml, creditLine } from '../kit/footer.js?v=1215b798a1';
 
+import { mountSearch } from '../kit/search.js?v=1215b798a1';
 const DATA = '../data/trends';
 const GROUPS = [
   { group: 'Traffic crashes', ids: ['traffic_time', 'traffic_month', 'road_causes'] },
@@ -676,7 +677,7 @@ async function boot() {
   try { POP = (await getJSON('../data/explore/population.json')).places || {}; } catch { POP = {}; }
   buildControls();
   buildCards();
-  bindSearch();
+  mountSearch({ base: '../' });
   await loadDataset(S.ds);
   ui.ds.set(S.ds);
   let changed = false;
