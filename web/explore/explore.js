@@ -7,15 +7,15 @@
  * subtotals are flagged, shown last and kept off the colour scales.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=1215b798a1';
-import { lineChart, stackChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=1215b798a1';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=1215b798a1';
-import { footerHtml, creditLine } from '../kit/footer.js?v=1215b798a1';
-import { explain, explainAll } from '../kit/legal.js?v=1215b798a1';
-import { notesFor } from '../kit/notes.js?v=1215b798a1';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=1215b798a1';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=621fd152db';
+import { lineChart, stackChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=621fd152db';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=621fd152db';
+import { footerHtml, creditLine } from '../kit/footer.js?v=621fd152db';
+import { explain, explainAll } from '../kit/legal.js?v=621fd152db';
+import { notesFor } from '../kit/notes.js?v=621fd152db';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=621fd152db';
 
-import { mountSearch } from '../kit/search.js?v=1215b798a1';
+import { mountSearch } from '../kit/search.js?v=621fd152db';
 const DATA = '../data/explore';
 const TYPE_LABEL = { total: 'India', state: 'States', ut: 'Union Territories', city: 'Cities', row: 'Rows' };
 const GEO_LABEL = { state: 'States & UTs', city: 'Cities', india: 'All India', '': 'All India' };

@@ -6,7 +6,7 @@
  *   mountSearch({ base: '../' })   binds the header's #search-open button (and the '/' key)
  */
 
-import { el, icon, esc, getJSON } from './util.js?v=1215b798a1';
+import { el, icon, esc, getJSON } from './util.js?v=621fd152db';
 
 const GEO = { state: 'States & UTs', city: 'Cities', india: 'All India' };
 const PUB = { cii: 'Crime in India', adsi: 'Accidents & suicides', psi: 'Prisons' };
@@ -99,7 +99,7 @@ export function mountSearch({ base = '../' } = {}) {
   };
   const row = (x, k) => {
     const t = x.t, kind = t.k === 'x' ? 'table' : t.k === 't' ? 'chart' : 'users';
-    const name = x.i != null ? t.cats[x.i].split(' · ').at(-1) : t.title;
+    const name = x.i != null ? t.cats[x.i].split(' · ').slice(-2).join(' · ') : t.title;
     const sub = x.i != null ? `${t.title} · ${GEO[t.geo] || ''}` : `${t.topic} · ${GEO[t.geo] || ''}${t.cats.length ? ` · ${t.cats.length} indicators` : ''}`;
     return `<a class="omni-row" href="${hrefOf(base, t, x.i ?? null)}" data-k="${k}" role="option">${icon(x.i != null ? 'line' : kind)}<span><b>${esc(name)}</b><small>${esc(sub)}</small></span><span class="yr">${span(t.ys)}<small>${PUB[t.pub] || ''}</small></span></a>`;
   };

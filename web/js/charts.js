@@ -1,6 +1,6 @@
 /* Hand-drawn SVG charts: ranked bars, lines over years, a State/UT map, quality dots. */
 
-import { svg, el, clear, fmt, fmtCompact, niceTicks, showTip, moveTip, hideTip, tipRow, seriesColor, seq, css } from './util.js?v=9f23c9d7d8';
+import { svg, el, clear, fmt, fmtCompact, niceTicks, showTip, moveTip, hideTip, tipRow, seriesColor, seq, css } from './util.js?v=9ee902c98d';
 
 const width = node => Math.max(300, node.clientWidth || 640);
 
@@ -134,7 +134,7 @@ const GEO_ALIAS = {
 let geoCache;
 async function geo() {
   if (!geoCache) {
-    const base = new URL('geo/', document.baseURI);
+    const base = new URL('../geo/', document.baseURI);
     geoCache = Promise.all([fetch(new URL('india-states.geojson', base)).then(r => r.json()), fetch(new URL('india-outline.geojson', base)).then(r => r.json())]);
   }
   return geoCache;

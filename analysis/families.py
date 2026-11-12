@@ -209,8 +209,13 @@ def slug(s: str, n: int = 90) -> str:
 # each kind is one family, the crime head the first level of its categories
 STATEMENT = re.compile(r"^statement of (persons arrested by sex and age.?group|cases reported and their disposal by police and court|"
                        r"persons arr\w+ and their disposal by police and court)\s*under\s*(.+)$", re.I)
+# 2008-2015 workbooks: 'CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS
+# CHARGESHEETED(PCS) & PERSONS CONVICTED(PCV) UNDER <crime head> DURING 2006-2008', one sheet per head, three years each
+CRCS = re.compile(r"^cases registered\s*\(cr\).{0,160}?persons convicted\s*(?:\(pcv\))?\s*under\s+(.+)$", re.I)
+CRCS_KEY = "cases registered, chargesheeted and convicted, persons arrested, chargesheeted and convicted"
 STATEMENT_TOPIC = {"persons arrested by sex and age-group": "Persons arrested", "cases reported and their disposal by police and court":
-                   "Court disposal & convictions", "persons arrested and their disposal by police and court": "Persons arrested"}
+                   "Court disposal & convictions", "persons arrested and their disposal by police and court": "Persons arrested",
+                   CRCS_KEY: "Court disposal & convictions"}
 
 
 # what became of every extracted table (analysis/output/table_ledger.csv): in a family, a reprint, district-wise ...
@@ -240,6 +245,13 @@ def build(pub: str) -> list[dict]:
     sm = [STATEMENT.match(x or "") for x in t.ctitle]
     t["stmt"] = [re.sub(r"\barr\w+", "arrested", re.sub(r"age.?group", "age-group", m.group(1).lower())) if m else "" for m in sm]
     t["prefix"] = [re.sub(r"\s+", " ", m.group(2)).strip(" .,-") if m else "" for m in sm]
+    cm = [CRCS.match(re.sub(r"\s+", " ", str(x or ""))) for x in t.title]
+    def head(m):
+        h = re.sub(r"\s*(during|in)\s*(19|20)\d\d.*$", "", m.group(1), flags=re.I)
+        h = re.sub(r"\s*\((section|sec\.?)[^)]*\)?", "", h, flags=re.I).strip(" .,-&")
+        return h
+    t["stmt"] = [CRCS_KEY if m else sv for m, sv in zip(cm, t.stmt)]
+    t["prefix"] = [head(m) if m else pv for m, pv in zip(cm, t.prefix)]
     st = t.stmt != ""
     t.loc[st, "topic"] = t.loc[st, "stmt"].map(STATEMENT_TOPIC)
     t.loc[st, "tok"] = t.loc[st, "stmt"].map(lambda k: frozenset(tokens(k)) | {"statement"})
@@ -394,6 +406,90 @@ KEEP_CASE = {"Act", "Acts", "Code", "Penal", "Procedure", "India", "Indian", "Sa
              "Sec", "Section", "Sections", "Hindu", "Muslim", "Christian", "Sikh", "Scheduled", "Caste", "Castes", "Tribe", "Tribes"}
 
 
+ACRONYM = {"IPC", "SLL", "LSL", "BNS", "SC", "ST", "SCS", "STS", "UT", "UTS", "IT", "NDPS", "CBI", "GRP", "RPF", "CAPF", "POCSO", "POTA", "TADA",
+           "NSA", "PCR", "POA", "ITPA", "COFEPOSA", "MCOCA", "UAPA", "FIR", "CR", "CS", "CV", "PAR", "PCS", "PCV", "I", "V", "R", "II", "III", "IV", "A", "B", "C", "HIV",
+           "AIDS", "STD", "PSU", "ITI", "MBA", "OBC", "NRI", "PS", "FR", "TB", "BSF", "CRPF", "CISF", "ITBP", "SSB", "NSG", "AR", "NCRB", "NHRC"}
+
+
+@lru_cache(maxsize=1)
+def _words() -> frozenset:
+    from pathlib import Path
+    f = Path("/usr/share/dict/words")
+    base = {w.strip().lower() for w in f.read_text().split()} if f.exists() else set()
+    extra = "undertrial undertrials chargesheet chargesheeted chargesheets detenue detenues abetment convicts inmates lakh lakhs crore dacoity " \
+            "cognizable prisoners persons including those previous year cases pending trial investigation arrested juveniles apprehended".split()
+    return frozenset({w for w in base if len(w) > 2 or w in ("a", "an", "as", "at", "by", "in", "is", "of", "on", "or", "to", "no")} | set(extra))
+
+
+def _isword(w: str) -> bool:
+    """In the word list, or a plural / past / -ing form of a word in it (the list has base forms only)."""
+    W = _words()
+    w = w.lower()
+    return (w in W or (w.endswith("s") and w[:-1] in W) or (w.endswith("es") and w[:-2] in W) or (w.endswith("ies") and w[:-3] + "y" in W)
+            or (w.endswith("ed") and (w[:-2] in W or w[:-1] in W)) or (w.endswith("ing") and (w[:-3] in W or w[:-3] + "e" in W)))
+
+
+@lru_cache(maxsize=50_000)
+def _unglue(tok: str) -> str:
+    """'PERSONSUNDERTRIALINCLUDINGTHOSEFROM' -> 'PERSONS UNDERTRIAL INCLUDING THOSE FROM': the fewest dictionary words."""
+    W, t = _words(), tok.lower()
+    if len(t) < 14 or not t.isalpha() or _isword(t) or not W:
+        return tok
+    best = [None] * (len(t) + 1)
+    best[0] = []
+    for i in range(len(t)):
+        if best[i] is None:
+            continue
+        for j in range(i + 2, min(len(t), i + 18) + 1):
+            if (t[i:j] in W or (j - i > 3 and _isword(t[i:j]))) and (best[j] is None or len(best[i]) + 1 < len(best[j])):
+                best[j] = best[i] + [(i, j)]
+    seg = best[len(t)]
+    if not seg or len(seg) < 2 or sum(j - i < 3 for i, j in seg) > len(seg) / 2:
+        return tok
+    return " ".join(tok[i:j] for i, j in seg)
+
+
+def tidy_label(p: str) -> str:
+    """A heading as a reader should see it: words broken by a hyphen or run together are mended, all-capitals are
+    put in sentence case (acronyms kept)."""
+    W = _words()
+    # 'PRE-VIOUS', 'WITH- DRAWN', 'COMPOUN-DED': joined when the whole is a word
+    def join(m):
+        a, b = m.group(1), m.group(2)
+        if a.lower() in ("non", "sub", "re", "anti", "self", "co", "inter", "semi", "ex", "vice", "under", "over", "post", "pre", "extra", "multi") and _isword(b):
+            return m.group(0)
+        whole = (_isword(a + b) and not (len(a) > 3 and len(b) > 4 and _isword(a) and _isword(b) and (a + b).lower() not in W)) or not (_isword(a) and _isword(b))
+        return a + (b.lower() if b[:1].isupper() and b[1:].islower() else b) if whole else m.group(0)
+    p = re.sub(r"\b([A-Za-z]{2,})-\s?([A-Za-z]{2,})\b", join, p)
+    p = " ".join(_unglue(w) if w.isalpha() else w for w in p.split())
+    letters = [ch for ch in p if ch.isalpha()]
+    if len(letters) >= 6 and sum(ch.isupper() for ch in letters) / len(letters) > 0.85:
+        ws = p.split()
+        out = []
+        for k, w in enumerate(ws):
+            core = re.sub(r"[^A-Za-z]", "", w)
+            if core.upper() in ACRONYM or re.search(r"\d", w):
+                out.append(w)
+            else:
+                out.append(w.capitalize() if k == 0 or w.strip("(),.").capitalize() in KEEP_CASE else w.lower())
+        p = " ".join(out)
+    else:
+        # capitals mixed with ordinary text ('PART III: B. TRIAL OF PERSONS (including ...)', 'ROBBERY AGAINST SCs')
+        ws = p.split()
+        big = [k for k, w in enumerate(ws) if len(re.sub(r"[^A-Za-z]", "", w)) >= 4 and re.sub(r"[^A-Za-z]", "", w).isupper()
+               and re.sub(r"[^A-Za-z]", "", w) not in ACRONYM]
+        if len(big) >= 2:
+            for k, w in enumerate(ws):
+                if w in ("OF", "IN", "AND", "THE", "BY", "TO", "FOR", "OR", "AT", "ON", "AS", "FROM", "WITH"):
+                    ws[k] = w.lower()
+            for k in big:
+                ws[k] = ws[k].capitalize() if k == 0 or ws[k - 1].endswith((":", ".")) else ws[k].lower()
+            p = " ".join(ws)
+    p = re.sub(r"\bNo\.\s?Of\b|\bno\.\s?of\b|\bNO\.\s?OF\b", "No. of", p)
+    p = re.sub(r"\b(SC|ST|UT)S\b", r"\1s", p)
+    return re.sub(r"\s+", " ", p).strip()
+
+
 def display_cat(label: str) -> str:
     """A category as a reader should see it: 'Old offenders convicted in the past · Thrice or more' rather than
     '... · Thrice Or More · No', '... (% of total)' rather than '... · Percentage To Total'."""
@@ -408,7 +504,7 @@ def display_cat(label: str) -> str:
         w = p.split()
         if len(w) > 2 and sum(x[:1].isupper() for x in w) / len(w) > 0.6:     # 'Convicted In The Past' -> 'Convicted in the past'
             p = " ".join([w[0]] + [x if (x.isupper() and len(x) > 1) or re.search(r"\d", x) or x.strip("(),.") in KEEP_CASE else x.lower() for x in w[1:]])
-        out.append(p)
+        out.append(tidy_label(p))
     return (" · ".join(out) + pct) if out else str(label)
 
 
@@ -536,7 +632,19 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame, min_years: int
     c = c.merge(ch[["table_id", "year", "method"]], on="table_id")
     pref = dict(zip(ch.table_id, ch.get("prefix", pd.Series([""] * len(ch), index=ch.index))))
     if any(pref.values()):          # one 'Statement of ... under <head>' table per head: the head leads each heading
-        c["column"] = [f"{pref.get(tid) or ''} | {col}" if pref.get(tid) else col for tid, col in zip(c.table_id, c["column"])]
+        ABBR = {"CR": "Cases registered", "CS": "Cases chargesheeted", "CV": "Cases convicted", "CN": "Cases convicted",
+                "PAR": "Persons arrested", "PCS": "Persons chargesheeted", "PCV": "Persons convicted"}
+        def lead(tid, col):
+            pf = pref.get(tid)
+            if not pf:
+                return col
+            parts = [x.strip() for x in str(col).split("|")]
+            parts = [ABBR.get(x.upper(), x) for x in parts]
+            # a year heading stays first ('2010 | Theft | Cases registered'), so the figure is dated to that year
+            if parts and re.fullmatch(r"(19|20)\d\d", parts[0]):
+                return " | ".join([parts[0], pf, *parts[1:]])
+            return " | ".join([pf, *parts])
+        c["column"] = [lead(tid, col) for tid, col in zip(c.table_id, c["column"])]
     sp = c["column"].map(split_col)
     c["cat"] = sp.map(lambda x: x[0])
     c["brk"] = sp.map(lambda x: x[1])
@@ -661,7 +769,8 @@ def read_family(pub: str, topic: str, geo: str, ch: pd.DataFrame, min_years: int
     cand = ok.sort_values(["_p", "_m", "_l", "year"], ascending=[True, True, True, False]).iloc[0]
     title = cand.ctitle or clean_title(cand.title)
     if "stmt" in ch and (ch.stmt != "").all() and ch.stmt.nunique() == 1:
-        title = f"Statement of {ch.stmt.iloc[0]}, by crime head"
+        title = ("Cases registered, chargesheeted and convicted; persons arrested, chargesheeted and convicted, by crime head"
+                 if ch.stmt.iloc[0] == CRCS_KEY else f"Statement of {ch.stmt.iloc[0]}, by crime head")
     if running_text(title):
         return None
     if len(title) > 140:

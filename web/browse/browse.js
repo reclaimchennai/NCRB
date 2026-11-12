@@ -2,10 +2,10 @@
  * themes, and under each theme its tables with a coverage strip (one cell a year: printed, read from a scan, or
  * no figure). At the foot, what is held of each edition. Data: web/data/catalog.json (analysis/catalog.py). */
 
-import { $, el, icon, esc, initTheme, debounce, fmtN } from '../kit/util.js?v=1215b798a1';
-import { segmented } from '../kit/cards.js?v=1215b798a1';
-import { footerHtml } from '../kit/footer.js?v=1215b798a1';
-import { mountSearch, loadCatalog, suggest, hrefOf } from '../kit/search.js?v=1215b798a1';
+import { $, el, icon, esc, initTheme, debounce, fmtN } from '../kit/util.js?v=621fd152db';
+import { segmented } from '../kit/cards.js?v=621fd152db';
+import { footerHtml } from '../kit/footer.js?v=621fd152db';
+import { mountSearch, loadCatalog, suggest, hrefOf } from '../kit/search.js?v=621fd152db';
 
 const BASE = '../';
 const PUB = { cii: 'Crime in India', adsi: 'Accidental Deaths & Suicides in India', psi: 'Prison Statistics India' };
@@ -112,7 +112,7 @@ function heroSearch() {
     const q = inp.value.trim();
     if (!q) { drop.hidden = true; return; }
     const { ind, tab } = suggest(q, { limit: 10 });
-    const row = (t, i) => `<a class="omni-row" href="${hrefOf(BASE, t, i)}">${icon(i != null ? 'line' : 'table')}<span><b>${esc(i != null ? t.cats[i].split(' · ').at(-1) : t.title)}</b><small>${esc(i != null ? `${t.title} · ${GEO[t.geo]}` : `${t.topic} · ${GEO[t.geo]}`)}</small></span><span class="yr">${t.ys[0]}–${t.ys.at(-1)}<small>${esc(PUB_SHORT[t.pub])}</small></span></a>`;
+    const row = (t, i) => `<a class="omni-row" href="${hrefOf(BASE, t, i)}">${icon(i != null ? 'line' : 'table')}<span><b>${esc(i != null ? t.cats[i].split(' · ').slice(-2).join(' · ') : t.title)}</b><small>${esc(i != null ? `${t.title} · ${GEO[t.geo]}` : `${t.topic} · ${GEO[t.geo]}`)}</small></span><span class="yr">${t.ys[0]}–${t.ys.at(-1)}<small>${esc(PUB_SHORT[t.pub])}</small></span></a>`;
     drop.innerHTML = (ind.length ? '<div class="grp">Indicators</div>' + ind.map(x => row(x.t, x.i)).join('') : '')
       + (tab.length ? '<div class="grp">Tables and dashboards</div>' + tab.slice(0, 5).map(x => row(x.t, null)).join('') : '')
       || `<div class="empty">Nothing matches “${esc(q)}”.</div>`;

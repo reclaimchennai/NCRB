@@ -68,6 +68,8 @@ def _kind(row: list[str]) -> str:
     distinct = {re.sub(r"\s+", " ", CONTD_RE.sub(" ", v)).strip(" -–.").lower() for v in texts}
     if len(distinct) <= 1 and not nums:
         return "single"  # title, section heading or note
+    if not texts and nums and all(re.fullmatch(r"(19|20)\d\d(-\d\d)?", v) for v in nums) and len(set(nums)) == len(nums):
+        return "header"  # a row of years alone, spanning the columns below: '2006 | | | 2007 | | | 2008'
     if texts and len(nums) >= (2 if len(texts) >= 2 else 3) and all(re.fullmatch(r"(19|20)\d\d(-\d\d)?", v) for v in nums):
         return "header"  # a heading row of years: 'Sl | Crime | 2001 | 2002 | ...' ('SL | Crime Head | 2014 | 2015')
     if len(nums) >= 2 and len(nums) >= 0.5 * len(cells):

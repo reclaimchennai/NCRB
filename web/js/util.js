@@ -32,7 +32,8 @@ export function clear(node) {
 
 /* ---------------------------------------------------------------- fetching */
 
-const BASE = new URL('.', document.baseURI).pathname.replace(/\/$/, '');
+const BASE = new URL('.', document.baseURI).pathname.replace(/\/$/, '').replace(/\/tables$/, '');   // the page lives in /tables/, the API and maps at the root
+export const SITE_BASE = BASE;
 const cache = new Map();
 
 /** GET a JSON endpoint under /api, memoised for the session. */

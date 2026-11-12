@@ -7,14 +7,14 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=1215b798a1';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=1215b798a1';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=1215b798a1';
-import { notesFor } from '../kit/notes.js?v=1215b798a1';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=1215b798a1';
-import { footerHtml, creditLine } from '../kit/footer.js?v=1215b798a1';
+import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=621fd152db';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=621fd152db';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=621fd152db';
+import { notesFor } from '../kit/notes.js?v=621fd152db';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=621fd152db';
+import { footerHtml, creditLine } from '../kit/footer.js?v=621fd152db';
 
-import { mountSearch } from '../kit/search.js?v=1215b798a1';
+import { mountSearch } from '../kit/search.js?v=621fd152db';
 const DATA = '../data/trends';
 const GROUPS = [
   { group: 'Traffic crashes', ids: ['traffic_time', 'traffic_month', 'road_causes'] },

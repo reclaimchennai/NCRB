@@ -137,7 +137,7 @@ VLM_PREFERRED = ["ATH-MaaS/OvisOCR2@2048", "ATH-MaaS/OvisOCR2", "PaddlePaddle/Pa
                  "PaddlePaddle/PaddleOCR-VL-1.6", "zai-org/GLM-OCR"]
 
 
-def best_vlm(src: Path, cur_passed: int, cur_total: int, cur_is_vlm: bool = False):
+def best_vlm(src: Path, cur_passed: int, cur_total: int, cur_is_vlm: bool = False, cur_empty: bool = False):
     """The best cached VLM reading of a scanned file, if it should replace the current reading.
 
     Every model reading that covers all the file's scanned pages (laptop or cloud GPU, see colab/) is
@@ -175,7 +175,8 @@ def best_vlm(src: Path, cur_passed: int, cur_total: int, cur_is_vlm: bool = Fals
         others = [agreement(c["nums"], o["nums"]) for o in cands if o is not c]
         c["agree"] = sum(others) / len(others) if others else 0.0
     cur_score = cur_passed - 2 * (cur_total - cur_passed)
-    if cur_is_vlm:
+    if cur_is_vlm or cur_empty:
+        # no reading at all so far: any model reading is kept (its failed totals are shown against the table)
         eligible = cands
     else:
         # a Tesseract reading with no total to check (headings read as col_3, col_4 ...) cannot win by scoring 0
@@ -195,7 +196,7 @@ def best_vlm(src: Path, cur_passed: int, cur_total: int, cur_is_vlm: bool = Fals
 
 def choose_vlm(src: Path, ocr_tables: list):
     tp, ttot, _ = _score(ocr_tables)
-    r = best_vlm(src, tp, ttot)
+    r = best_vlm(src, tp, ttot, cur_empty=not ocr_tables)
     return (r[0], r[2]) if r else None
 
 
@@ -481,7 +482,7 @@ def main() -> None:
 
     table_rows = _load(INDEX, "source_file")
     file_rows = _load(FILE_INDEX, "source_file")
-    todo = [j for j in jobs(args) if args.force or j["path"] not in file_rows or file_rows[j["path"]][0]["status"] == "error"]
+    todo = [j for j in jobs(args) if args.force or j["path"] not in file_rows or file_rows[j["path"]][0]["status"] in ("error", "no_table")]   # no_table: model readings may have arrived since
     print(f"{len(todo)} files to extract", flush=True)
     with ProcessPoolExecutor(max_workers=args.workers) as ex:
         futures = {ex.submit(process_file, j): j for j in todo}
