@@ -1,0 +1,137 @@
+{
+ "table_id": "cii/1980/11_table-33-1980-0",
+ "publication": "cii",
+ "year": 1980,
+ "listing": "table_content",
+ "topic": "Crime Survey",
+ "section": "Crime Survey",
+ "serial": "11",
+ "title": "Juvenile Delinquency for Important Heads of Crime under IPC During the Year 1980",
+ "listing_title": "Juvenile Delinquency for Important Heads of Crime under IPC During the Year 1980",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/crime-in-india/table-33-1980_0.pdf",
+ "source_file": "raw/cii/1980/table_content/table-33-1980_0.pdf",
+ "source_sha256": "50c37856cdac324193d0cdde7972b383f5f237b345f02296148f39531acc9c59",
+ "table_no": "33",
+ "pdf_title": "92 TABLE 33 Davonville Dollagency for Important Heads of Crime under IPC during the year 1980",
+ "row_label": "SLNo.",
+ "pages": [
+  1
+ ],
+ "n_rows": 23,
+ "n_cols": 13,
+ "n_cells": 299,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "State(U.T.)",
+   "header": [
+    "State(U.T.)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Murder",
+   "header": [
+    "Murder"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Culpable Homewide Notifiable Filing to Murder",
+   "header": [
+    "Culpable Homewide Notifiable Filing to Murder"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Kidnap-Pets & Abduction",
+   "header": [
+    "Kidnap-Pets & Abduction"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Deputy",
+   "header": [
+    "Deputy"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Robbery",
+   "header": [
+    "Robbery"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Burglary",
+   "header": [
+    "Burglary"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "Theft",
+   "header": [
+    "Theft"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "Route",
+   "header": [
+    "Route"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "Crimeal Breach of Trust",
+   "header": [
+    "Crimeal Breach of Trust"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Craving",
+   "header": [
+    "Craving"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "Counties",
+   "header": [
+    "Counties"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Total Coverage",
+   "header": [
+    "Total Coverage"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 13,
+  "cells_passed": 6,
+  "failures": [
+   "col 3 'Total (States)': printed 981, sum 929",
+   "col 4 'Total (States)': printed 49, sum 45",
+   "col 8 'Total (States)': printed 878, sum 880",
+   "col 9 'Total (States)': printed 6188, sum 6238",
+   "col 10 'Total (States)': printed 16397, sum 15697",
+   "col 12 'Total (States)': printed 265, sum 285",
+   "col 15 'Total (States)': printed 52476, sum 58406"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}

@@ -6,7 +6,7 @@
  "topic": "Special and Local Laws (SLL)",
  "section": "Special and Local Laws (SLL)",
  "serial": "4",
- "title": "Cases registered, cases chargesheeted, cases convicted, persons arrested, persons chargesheeted and persons convicted during 200",
+ "title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED UNDER ESSENTIAL COMMODITIES ACT, 1955 DURING 2007-2009",
  "listing_title": "Cases registered, cases chargesheeted, cases convicted, persons arrested, persons chargesheeted and persons convicted during 200",
  "method": "excel",
  "sheet": "6H",
@@ -14,32 +14,162 @@
  "source_file": "raw/cii/2009/additional_table/CR-CS-CV-PAR-PCS-PCV-under-SLL-crimes-during-2007-2009.xls",
  "source_sha256": "afb635bb3e7986367b495609200cc65cc4045ad478d60ef7317a94b32a30886e",
  "table_no": "",
- "pdf_title": "",
- "row_label": "Note: Information on disposal by police and courts includes the information on pending cases from previous years also",
+ "pdf_title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED UNDER ESSENTIAL COMMODITIES ACT, 1955 DURING 2007-2009",
+ "row_label": "SL / STATE",
  "pages": [],
- "n_rows": 1,
- "n_cols": 2,
- "n_cells": 2,
+ "n_rows": 38,
+ "n_cols": 18,
+ "n_cells": 684,
  "columns": [
   {
-   "col_no": "9",
-   "name": "Note: Information on disposal by police and courts includes the information on pending cases from previous years also (9)",
+   "col_no": "3",
+   "name": "2007 | CR",
    "header": [
-    "Note: Information on disposal by police and courts includes the information on pending cases from previous years also"
+    "2007",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2007 | CS",
+   "header": [
+    "2007",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2007 | CV",
+   "header": [
+    "2007",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "2007 | PAR",
+   "header": [
+    "2007",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "2007 | PCS",
+   "header": [
+    "2007",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "2007 | PCV",
+   "header": [
+    "2007",
+    "PCV"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "2008 | CR",
+   "header": [
+    "2008",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "2008 | CS",
+   "header": [
+    "2008",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "2008 | CV",
+   "header": [
+    "2008",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "2008 | PAR",
+   "header": [
+    "2008",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "2008 | PCS",
+   "header": [
+    "2008",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "2008 | PCV",
+   "header": [
+    "2008",
+    "PCV"
    ]
   },
   {
    "col_no": "15",
-   "name": "Note: Information on disposal by police and courts includes the information on pending cases from previous years also (15)",
+   "name": "2009 | CR",
    "header": [
-    "Note: Information on disposal by police and courts includes the information on pending cases from previous years also"
+    "2009",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "2009 | CS",
+   "header": [
+    "2009",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "2009 | CV",
+   "header": [
+    "2009",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "2009 | PAR",
+   "header": [
+    "2009",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "2009 | PCS",
+   "header": [
+    "2009",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "2009 | PCV",
+   "header": [
+    "2009",
+    "PCV"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 54,
+  "cells_passed": 54,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

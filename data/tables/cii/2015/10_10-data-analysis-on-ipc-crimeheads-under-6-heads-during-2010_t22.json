@@ -6,7 +6,7 @@
  "topic": "IPC & SLL",
  "section": "IPC & SLL",
  "serial": "10",
- "title": "Data Analysis on IPC Crimeheads under 6 Heads during 2010-2015(StateUT)",
+ "title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED UNDER CAUSING DEATH BY NEGLIGENCE DURING 2010-2012",
  "listing_title": "Data Analysis on IPC Crimeheads under 6 Heads during 2010-2015(StateUT)",
  "method": "excel",
  "sheet": "2010-2012",
@@ -14,32 +14,162 @@
  "source_file": "raw/cii/2015/additional_table/10-Data-Analysis-on-IPC-Crimeheads-under-6-Heads-during-2010-2015(StateUT).xls",
  "source_sha256": "89ceef70836feb7c55f06a7a0bdbbe56c52b7c15d68fe17b87e4802d7fe06cdb",
  "table_no": "",
- "pdf_title": "",
- "row_label": "Note: Information on disposal by police and courts includes the information on pending cases from previous years also",
+ "pdf_title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED UNDER CAUSING DEATH BY NEGLIGENCE DURING 2010-2012",
+ "row_label": "SL / STATE",
  "pages": [],
- "n_rows": 1,
- "n_cols": 2,
- "n_cells": 2,
+ "n_rows": 38,
+ "n_cols": 18,
+ "n_cells": 684,
  "columns": [
   {
-   "col_no": "9",
-   "name": "Note: Information on disposal by police and courts includes the information on pending cases from previous years also (9)",
+   "col_no": "3",
+   "name": "2010 | CR",
    "header": [
-    "Note: Information on disposal by police and courts includes the information on pending cases from previous years also"
+    "2010",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2010 | CS",
+   "header": [
+    "2010",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2010 | CV",
+   "header": [
+    "2010",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "2010 | PAR",
+   "header": [
+    "2010",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "2010 | PCS",
+   "header": [
+    "2010",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "2010 | PCV",
+   "header": [
+    "2010",
+    "PCV"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "2011 | CR",
+   "header": [
+    "2011",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "2011 | CS",
+   "header": [
+    "2011",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "2011 | CV",
+   "header": [
+    "2011",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "2011 | PAR",
+   "header": [
+    "2011",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "2011 | PCS",
+   "header": [
+    "2011",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "2011 | PCV",
+   "header": [
+    "2011",
+    "PCV"
    ]
   },
   {
    "col_no": "15",
-   "name": "Note: Information on disposal by police and courts includes the information on pending cases from previous years also (15)",
+   "name": "2012 | CR",
    "header": [
-    "Note: Information on disposal by police and courts includes the information on pending cases from previous years also"
+    "2012",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "2012 | CS",
+   "header": [
+    "2012",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "2012 | CV",
+   "header": [
+    "2012",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "2012 | PAR",
+   "header": [
+    "2012",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "2012 | PCS",
+   "header": [
+    "2012",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "2012 | PCV",
+   "header": [
+    "2012",
+    "PCV"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 54,
+  "cells_passed": 54,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

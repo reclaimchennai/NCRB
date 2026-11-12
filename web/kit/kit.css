@@ -204,7 +204,7 @@ svg { display: block; }
 .controlbar .grow { flex: 1 1 auto; }
 /* on a phone the full bar would cover a third of the screen: it scrolls away, the timeline goes with it */
 @media (max-width: 719px) {
-  .controlbar { position: static; }
+  .controlbar { position: relative; top: auto; }      /* relative, not static: its menus (place picker) must open over the cards below */
   /* ...and the timeline docks at the bottom of the screen, under the thumb */
   .tlbar {
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 35;

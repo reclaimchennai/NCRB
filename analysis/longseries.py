@@ -618,10 +618,66 @@ def handread_crime(heads) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def allindia_series(heads) -> pd.DataFrame:
+    """All India, every year from 1953: the table 'Incidence of cognizable crimes (IPC) under different crime heads
+    during 1953 to 2015' that Crime in India reprinted each year (the 2014 and 2015 editions carry it as text). Its rows
+    are years, not places, so the State tables' reader does not see it; it is NCRB's own figure for the years whose
+    All India total row is missing or unread in the edition of the year (1962 among them)."""
+    t = q("SELECT table_id, year, title, source_url FROM tables WHERE publication = 'cii' AND method = 'pdf_text' AND year >= 2014 "
+          "AND regexp_matches(lower(title), 'different crime heads during 1953')")
+    rows = []
+    for r in t.itertuples():
+        c = q('SELECT "row", "column", value FROM cells WHERE table_id = ?', [r.table_id])
+        yr = c[c["column"].str.strip().str.lower() == "year"].drop_duplicates("row").set_index("row").value
+        seen = set()
+        for row, g in c.groupby("row"):
+            y = yr.get(row)
+            if y is None or y != y or not 1953 <= int(y) <= r.year or (int(y), r.table_id) in seen:
+                continue
+            seen.add((int(y), r.table_id))
+            for col, v in zip(g["column"], g.value):
+                k = head_of(re.sub(r"[*#]+", "", str(col)), heads)
+                if k and v == v and v > 0:
+                    rows.append({"pname": "All India", "ptype": "total", "head": k, "fy": int(y), "value": float(v), "w": 3.0, "column": col,
+                                 "own": True, "crank": 0, "method": "pdf_text", "table_id": r.table_id,
+                                 "title": r.title, "year": int(r.year), "source_url": r.source_url})
+    d = pd.DataFrame(rows)
+    # the stray last line of a page repeats 1953 beside another year's figures: a year is taken once per table
+    return d.drop_duplicates(["table_id", "fy", "head"]) if len(d) else d
+
+
+def allindia_adsi() -> pd.DataFrame:
+    """All India accidental deaths and suicides, every year from 1967: the table 'Number of Accidental Deaths & Suicides
+    in India during 1967 to ...' that ADSI reprinted each year (text from 2014). NCRB's own figure for the years whose
+    edition's All India row is missing or unread (accidental deaths 1973, 1982, 1987, 1996; suicides 1977, 2001-03)."""
+    t = q("SELECT table_id, year, title, source_url FROM tables WHERE publication = 'adsi' AND method = 'pdf_text' AND year >= 2014 "
+          "AND regexp_matches(lower(title), 'accidental deaths.{0,6}suicides in india during 1967')")
+    want = {"accidental": re.compile(r"^\s*accidental deaths\s*\|\s*total", re.I), "suicides": re.compile(r"^\s*suicides\s*\|\s*total", re.I)}
+    rows = []
+    for r in t.itertuples():
+        c = q('SELECT "row", "column", value FROM cells WHERE table_id = ?', [r.table_id])
+        yr = c[c["column"].str.strip().str.lower() == "year"].drop_duplicates("row").set_index("row").value
+        for row, g in c.groupby("row"):
+            y = yr.get(row)
+            if y is None or y != y or not 1967 <= int(y) <= r.year:
+                continue
+            for col, v in zip(g["column"], g.value):
+                k = next((h for h, rx in want.items() if rx.search(str(col))), None)
+                if k and v == v and v > 0:
+                    rows.append({"pname": "All India", "ptype": "total", "head": k, "fy": int(y), "value": float(v), "w": 3.0, "column": col,
+                                 "own": True, "crank": 0, "method": "pdf_text", "table_id": r.table_id,
+                                 "title": r.title, "year": int(r.year), "source_url": r.source_url})
+    d = pd.DataFrame(rows)
+    return d.drop_duplicates(["table_id", "fy", "head"]) if len(d) else d
+
+
 def run_pub(pub, heads, title, cats_city, not_table, need_table, years):
     c = candidates(pub, heads, years=years, not_table=not_table, need_table=need_table, not_col=NOT_COUNT_COL)
     if pub == "adsi":
         c = pd.concat([c, suicide_datasets(), breakdown_totals(years)], ignore_index=True)
+        ai = allindia_adsi()
+        if not ai.empty:
+            c = pd.concat([c, ai.reindex(columns=c.columns)], ignore_index=True)
     c = c[c.value > 0]          # a State's suicides, deaths or prisoners are never nil; a 0 is another column's
     d = pick(c) if len(c) else pd.DataFrame()
     if d.empty:
@@ -644,6 +700,9 @@ def main() -> None:
     h = handread_crime(IPC_HEADS)
     if not h.empty:
         c = pd.concat([c, h[c.columns]], ignore_index=True)
+    ai = allindia_series(IPC_HEADS)
+    if not ai.empty:
+        c = pd.concat([c, ai[c.columns]], ignore_index=True)
     d = pick(c)
     fams = [f for f in (
         family("cii", ("state", "ut", "total"), "state", IPC_HEADS, d, "Cases registered under main IPC crime heads, by State"),

@@ -10,8 +10,8 @@
  * the source of the figures, and @reclaimchennai as its author.
  */
 
-import { fixWebmDuration } from './webm.js?v=621fd152db';
-import { cssVar } from './util.js?v=621fd152db';
+import { fixWebmDuration } from './webm.js?v=7797e2be75';
+import { cssVar, desk } from './util.js?v=7797e2be75';
 
 const OUT_FPS = 30;
 const CODECS = ['avc1.640028', 'avc1.4d0028', 'avc1.42003c', 'avc1.42E01E'];
@@ -21,6 +21,7 @@ const CHART_SCALE = 1.5;     // chart drawn 1.5x its on-screen size: 11px labels
 const MAX_SNAP_PX = 4096;    // snapshot: the longest side in real pixels
 const MAX_VIDEO_W = 1920;    // video: H.264 at 1080p width or less plays everywhere
 const PAD = 48;
+const DESK_W = 960;          // a chart on a narrower screen is redrawn this wide for the saved file, as a desktop shows it
 const SITE = 'ncrb.reclaimchennai.city';
 const AUTHOR = '@reclaimchennai';
 
@@ -56,6 +57,8 @@ function rasterise(svgEl, px = 1) {
   // inlineStyles strips class attributes, so the marks to drop are found on the live tree by position
   const live = [svgEl, ...svgEl.querySelectorAll('*')], copy = [clone, ...clone.querySelectorAll('*')];
   live.forEach((n, i) => { if (n.classList?.contains('big-year') || n.classList?.contains('hit') || n.classList?.contains('crosshair')) copy[i].setAttribute('data-drop', '1'); });
+  // row names that slide with a scrolled table (heatmap) go back to their own column in the picture
+  live.forEach((n, i) => { if (n.classList?.contains('sticky')) copy[i].removeAttribute('transform'); });
   clone.querySelectorAll('[data-drop]').forEach(n => n.remove());
   clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
   // rasterised at the size it will be drawn, so the vector stays sharp instead of being scaled up
@@ -81,7 +84,16 @@ function wrap(ctx, text, maxW) {
 
 const FONT = 'system-ui, -apple-system, "Segoe UI", Roboto, sans-serif';
 
-export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
+export function createCapture({ getSvgs, meta, name = 'ncrb-chart', all = null }) {
+  /** Run `fn` with this card's charts drawn as on a desktop, then put the screen back as it was. */
+  async function asDesktop(fn) {
+    const svgs = all || getSvgs();
+    const narrow = svgs.some(s => (s.parentElement?.clientWidth || DESK_W) < DESK_W - 60);
+    if (!narrow || !desk.redraw) return fn();
+    desk.w = DESK_W; desk.svgs = svgs;
+    try { desk.redraw(); return await fn(); }
+    finally { desk.w = 0; desk.svgs = null; try { desk.redraw(); } catch { /* the page redraws on its next change */ } }
+  }
   const out = document.createElement('canvas');
   let locked = null;          // {W, H}, fixed for a whole recording
   let lastSize = null;
@@ -210,8 +222,7 @@ export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
   }
 
   async function snapshot() {
-    const c = await drawFrame();
-    const blob = await new Promise(r => c.toBlob(r, 'image/png'));
+    const blob = await asDesktop(async () => { const c = await drawFrame(); return new Promise(r => c.toBlob(r, 'image/png')); });
     if (!blob) throw new Error('could not encode the picture');
     return deliver(blob, `${name}-${stamp()}.png`);
   }
@@ -288,8 +299,11 @@ export function createCapture({ getSvgs, meta, name = 'ncrb-chart' }) {
   async function record(opts) {
     recording = { stop: false };
     try {
-      let blob = await recordMp4(opts);
-      if (!blob) { locked = null; blob = await recordMediaRecorder(opts); }
+      const blob = await asDesktop(async () => {
+        let b = await recordMp4(opts);
+        if (!b) { locked = null; b = await recordMediaRecorder(opts); }
+        return b;
+      });
       if (!blob?.size) throw new Error('the recorder produced no frames');
       return deliver(blob, `${name}-${stamp()}.${blob.type.includes('mp4') ? 'mp4' : 'webm'}`);
     } finally { recording = null; locked = null; }

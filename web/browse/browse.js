@@ -2,10 +2,10 @@
  * themes, and under each theme its tables with a coverage strip (one cell a year: printed, read from a scan, or
  * no figure). At the foot, what is held of each edition. Data: web/data/catalog.json (analysis/catalog.py). */
 
-import { $, el, icon, esc, initTheme, debounce, fmtN } from '../kit/util.js?v=621fd152db';
-import { segmented } from '../kit/cards.js?v=621fd152db';
-import { footerHtml } from '../kit/footer.js?v=621fd152db';
-import { mountSearch, loadCatalog, suggest, hrefOf } from '../kit/search.js?v=621fd152db';
+import { $, el, icon, esc, initTheme, debounce, fmtN } from '../kit/util.js?v=7797e2be75';
+import { segmented } from '../kit/cards.js?v=7797e2be75';
+import { footerHtml } from '../kit/footer.js?v=7797e2be75';
+import { mountSearch, loadCatalog, suggest, hrefOf } from '../kit/search.js?v=7797e2be75';
 
 const BASE = '../';
 const PUB = { cii: 'Crime in India', adsi: 'Accidental Deaths & Suicides in India', psi: 'Prison Statistics India' };

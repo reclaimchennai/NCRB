@@ -6,7 +6,7 @@
  *   mountSearch({ base: '../' })   binds the header's #search-open button (and the '/' key)
  */
 
-import { el, icon, esc, getJSON } from './util.js?v=621fd152db';
+import { el, icon, esc, getJSON } from './util.js?v=7797e2be75';
 
 const GEO = { state: 'States & UTs', city: 'Cities', india: 'All India' };
 const PUB = { cii: 'Crime in India', adsi: 'Accidents & suicides', psi: 'Prisons' };

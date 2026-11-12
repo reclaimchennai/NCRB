@@ -26,6 +26,12 @@ from urllib.parse import unquote, urlsplit
 
 import requests
 
+try:  # NCRB's server sends an incomplete certificate chain; the system trust store completes it (uv run --with truststore)
+    import truststore
+    truststore.inject_into_ssl()
+except ImportError:
+    pass
+
 from .crawl import CATALOG, ROOT, UA
 
 RAW = ROOT / "raw"

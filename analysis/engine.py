@@ -1098,6 +1098,13 @@ def ogd() -> pd.DataFrame:
     d.loc[d.State.str.contains(r"Total \(States\)"), ["place", "ptype"]] = ["Total (States)", "total"]
     d.loc[d.State.str.contains(r"Total \(Uts\)", case=False), ["place", "ptype"]] = ["Total (UTs)", "total"]
     d["age"] = d.Age_group.replace({"0-100+": "all ages"})   # 0-14, 15-29, 30-44, 45-59, 60+ as in NCRB's 2001-2013 tables
+    # the file carries an All India line only for education and social status: for causes, means and profession
+    # All India is the sum of its 35 States and UTs (the same file, the same year)
+    lacking = [t for t, g in d.groupby("Type_code") if not (g.place == "All India").any()]
+    parts = d[d.Type_code.isin(lacking) & d.ptype.isin(["state", "ut"])]
+    if len(parts):
+        ai = parts.groupby(["Year", "Type_code", "Type", "Gender", "Age_group", "age"], as_index=False).Total.sum()
+        d = pd.concat([d, ai.assign(State="Total (All India)", place="All India", ptype="total")], ignore_index=True)
     return d
 
 
@@ -1569,6 +1576,42 @@ def suicide_sex_age() -> pd.DataFrame:
         g = pd.concat([g, alla], ignore_index=True).assign(group="", age="all ages", check="ok", source="ogd")
         have = set(zip(d.year, d.place, d.ptype))
         d = pd.concat([d, g[[(y, p, t) not in have for y, p, t in zip(g.year, g.place, g.ptype)]][COLS]], ignore_index=True)
+    # All India, 2014 onwards: the total row of 'Age and Gender-wise Distribution of Suicides (Cause-wise)', the one
+    # table by age and sex that ADSI printed in the years (2014-2020) it printed none for the States
+    tt = q("SELECT table_id, year FROM tables WHERE publication = 'adsi' AND year >= 2014 AND method IN ('pdf_text', 'excel') "
+           "AND regexp_matches(lower(title), 'age and gender.{0,6}wise distribution of suicides.*cause') ORDER BY year, table_id")
+    have = set(zip(d.year, d.place, d.ptype))
+    add, seen = [], set()
+    sexname = {"m": "Male", "male": "Male", "f": "Female", "female": "Female", "tr": "Transgender", "transgender": "Transgender", "t": "Total", "total": "Total"}
+    for r in tt.itertuples():
+        if (r.year, "All India", "total") in have or r.year in seen:
+            continue
+        c = q('SELECT "row", col_no, "column", value FROM cells WHERE table_id = ? AND regexp_matches(lower(name), \'^\\W*(grand )?total\\W*$\')', [r.table_id])
+        c = c.assign(col_no=pd.to_numeric(c.col_no, errors="coerce")).sort_values(["row", "col_no"])
+        rows, used = [], []
+        order = ["0-14", "14-17", "18-29", "30-44", "45-59", "60+"]
+        for _, g in c.groupby("row"):
+            # a continuation page read under the first page's headings (2014): its age groups are the next ones in order
+            bands = list(dict.fromkeys(age_band(str(col).split("|")[0].strip()) for col in g["column"]))
+            again = [b for b in bands if b in used and b != "all ages"]
+            remap = dict(zip(again, [b for b in order if b not in used])) if again else {}
+            for col, v in zip(g["column"], g.value):
+                parts = [x.strip() for x in str(col).split("|")]
+                sx = sexname.get(parts[-1].lower()) if len(parts) == 2 else None
+                b = age_band(parts[0])
+                if sx and v == v:
+                    rows.append((int(r.year), "All India", "total", "", remap.get(b, b), sx, "all ages", float(v), "ok", "ncrb"))
+            used += [remap.get(b, b) for b in bands]
+        # the age groups must add up to the printed total, sex by sex
+        tot = {x[5]: x[7] for x in rows if x[4] == "all ages"}
+        for sx, tv in tot.items():
+            if sx != "Total" and abs(sum(x[7] for x in rows if x[5] == sx and x[4] != "all ages") - tv) > 0.5:
+                rows = []
+        if len({x[4] for x in rows}) >= 5:
+            add += rows
+            seen.add(r.year)
+    if add:
+        d = pd.concat([d, frame(add)], ignore_index=True)
     # 2019, the big cities: the city table by sex and age that OpenDataChennai copied from ADSI 2019
     if ODC_CITY_AGE.exists():
         raw = pd.read_csv(ODC_CITY_AGE, header=[0, 1])

@@ -6,7 +6,7 @@
  "topic": "Crime against Scheduled Tribes",
  "section": "Crime against Scheduled Tribes",
  "serial": "3",
- "title": "Cases registered, cases chargesheeted, cases convicted, persons arrested, persons chargesheeted and persons convicted during 200",
+ "title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED UNDER DACOITY AGAINST STs DURING 2008-2010",
  "listing_title": "Cases registered, cases chargesheeted, cases convicted, persons arrested, persons chargesheeted and persons convicted during 200",
  "method": "excel",
  "sheet": "Query14",
@@ -14,25 +14,156 @@
  "source_file": "raw/cii/2010/additional_table/1679900596CRCSCVPARPCSPCVunderCasesAgainstScheduledTribesduring2008-2010.xls",
  "source_sha256": "25f5011014c56f18f180b3dff6224498c6634ed3e0278c1250e9b74a4caa4207",
  "table_no": "",
- "pdf_title": "",
- "row_label": "Note: Information on disposal by police and courts includes the information on pending cases from previous years also",
+ "pdf_title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED UNDER DACOITY AGAINST STs DURING 2008-2010",
+ "row_label": "SL / STATE",
  "pages": [],
- "n_rows": 1,
- "n_cols": 1,
- "n_cells": 1,
+ "n_rows": 38,
+ "n_cols": 18,
+ "n_cells": 684,
  "columns": [
   {
-   "col_no": "9",
-   "name": "Note: Information on disposal by police and courts includes the information on pending cases from previous years also",
+   "col_no": "3",
+   "name": "2008 | CR",
    "header": [
-    "Note: Information on disposal by police and courts includes the information on pending cases from previous years also"
+    "2008",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2008 | CS",
+   "header": [
+    "2008",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2008 | CV",
+   "header": [
+    "2008",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "2008 | PAR",
+   "header": [
+    "2008",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "2008 | PCS",
+   "header": [
+    "2008",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "2008 | PCV",
+   "header": [
+    "2008",
+    "PCV"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "2009 | CR",
+   "header": [
+    "2009",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "2009 | CS",
+   "header": [
+    "2009",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "2009 | CV",
+   "header": [
+    "2009",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "2009 | PAR",
+   "header": [
+    "2009",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "2009 | PCS",
+   "header": [
+    "2009",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "2009 | PCV",
+   "header": [
+    "2009",
+    "PCV"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "CR",
+   "header": [
+    "CR"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "CS",
+   "header": [
+    "CS"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "CV",
+   "header": [
+    "CV"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "PAR",
+   "header": [
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "PCS",
+   "header": [
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "PCV",
+   "header": [
+    "PCV"
    ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 54,
+  "cells_passed": 54,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

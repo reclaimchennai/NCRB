@@ -6,7 +6,7 @@
  "topic": "Crime against Scheduled Castes",
  "section": "Crime against Scheduled Castes",
  "serial": "3",
- "title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED UNDER ROBBERY AGAINST SCs DURING 2008-2010",
+ "title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED UNDER OTHER CRIMES AGAINST SCs DURING 2008-2010",
  "listing_title": "Cases registered, cases chargesheeted, cases convicted, persons arrested, persons chargesheeted and persons convicted during 200",
  "method": "excel",
  "sheet": "Query14",
@@ -14,28 +14,162 @@
  "source_file": "raw/cii/2010/additional_table/1679900450CRCSCVPARPCSPCVunderCasesAgainstScheduledCastesduring2008-2010.xls",
  "source_sha256": "1c7f4103db2d58411245e0befa470bcf4c916dab8d33d40c8e34d8648289b308",
  "table_no": "",
- "pdf_title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED UNDER ROBBERY AGAINST SCs DURING 2008-2010",
- "row_label": "",
+ "pdf_title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED UNDER OTHER CRIMES AGAINST SCs DURING 2008-2010",
+ "row_label": "SL / STATE",
  "pages": [],
- "n_rows": 1,
- "n_cols": 2,
- "n_cells": 2,
+ "n_rows": 38,
+ "n_cols": 18,
+ "n_cells": 684,
  "columns": [
   {
+   "col_no": "3",
+   "name": "2008 | CR",
+   "header": [
+    "2008",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "2008 | CS",
+   "header": [
+    "2008",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "2008 | CV",
+   "header": [
+    "2008",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "2008 | PAR",
+   "header": [
+    "2008",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "2008 | PCS",
+   "header": [
+    "2008",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "2008 | PCV",
+   "header": [
+    "2008",
+    "PCV"
+   ]
+  },
+  {
    "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "name": "2009 | CR",
+   "header": [
+    "2009",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "2009 | CS",
+   "header": [
+    "2009",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "2009 | CV",
+   "header": [
+    "2009",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "2009 | PAR",
+   "header": [
+    "2009",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "2009 | PCS",
+   "header": [
+    "2009",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "2009 | PCV",
+   "header": [
+    "2009",
+    "PCV"
+   ]
   },
   {
    "col_no": "15",
-   "name": "col_15",
-   "header": []
+   "name": "2010 | CR",
+   "header": [
+    "2010",
+    "CR"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "2010 | CS",
+   "header": [
+    "2010",
+    "CS"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "2010 | CV",
+   "header": [
+    "2010",
+    "CV"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "2010 | PAR",
+   "header": [
+    "2010",
+    "PAR"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "2010 | PCS",
+   "header": [
+    "2010",
+    "PCS"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "2010 | PCV",
+   "header": [
+    "2010",
+    "PCV"
+   ]
   }
  ],
  "notes": [],
  "checks": {
-  "cells_checked": 0,
-  "cells_passed": 0,
+  "cells_checked": 54,
+  "cells_passed": 54,
   "failures": [],
   "other_totals_checked": 0,
   "other_totals_passed": 0

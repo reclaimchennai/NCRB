@@ -1,6 +1,6 @@
 /* Hand-drawn SVG charts: ranked bars, lines over years, a State/UT map, quality dots. */
 
-import { svg, el, clear, fmt, fmtCompact, niceTicks, showTip, moveTip, hideTip, tipRow, seriesColor, seq, css } from './util.js?v=9ee902c98d';
+import { svg, el, clear, fmt, fmtCompact, niceTicks, showTip, moveTip, hideTip, tipRow, seriesColor, seq, css } from './util.js?v=3f19d4a653';
 
 const width = node => Math.max(300, node.clientWidth || 640);
 
@@ -211,9 +211,10 @@ export function quality(node, rows) {
   const rowH = 34, H = m.t + groups.length * rowH + m.b;
   const X = y => m.l + ((y - xmin) / (xmax - xmin)) * (W - m.l - m.r);
   const s = svg('svg', { viewBox: `0 0 ${W} ${H}`, width: W, height: H, class: 'chart', role: 'img' });
+  const every = X(xmin + 10) - X(xmin) < 34 ? 20 : 10;      // decade labels, every other one on a phone
   for (let y = Math.ceil(xmin / 10) * 10; y <= xmax; y += 10) {
     s.append(svg('line', { x1: X(y), x2: X(y), y1: m.t, y2: H - m.b, class: 'grid' }));
-    s.append(svg('text', { x: X(y), y: H - 8, class: 'tick', 'text-anchor': 'middle' }, String(y)));
+    if (y % every === 0) s.append(svg('text', { x: X(y), y: H - 8, class: 'tick', 'text-anchor': 'middle' }, String(y)));
   }
   const names = { cii: 'Crime', adsi: 'ADSI', psi: 'Prisons' };
   groups.forEach((g, i) => {

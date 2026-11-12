@@ -58,6 +58,9 @@ export function ticks(min, max, count = 5) {
   for (let v = Math.ceil(min / step) * step; v <= max + step * 1e-9; v += step) out.push(Math.round(v / step) * step);
   return out;
 }
+/* A saved picture or video is always the desktop drawing of a chart, whatever the screen: while `desk.w` is set, the
+ * charts in `desk.svgs` are drawn at that width (kit/grapher.js size()), and `desk.redraw` is the page's redraw. */
+export const desk = { w: 0, svgs: null, redraw: null };
 export const lerp = (a, b, t) => a + (b - a) * t;
 export const ease = t => (t < .5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2);
 

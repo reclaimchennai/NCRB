@@ -172,7 +172,7 @@ trends/road_deaths_time,Jammu & Kashmir,ut,2021,2024,0,
 trends/road_deaths_time,Ladakh,ut,2021,2024,0,
 trends/road_deaths_time,Lakshadweep,ut,2021,2024,0,
 trends/road_deaths_time,Puducherry,ut,2021,2024,0,
-trends/suicide_causes,All India,total,1967,2024,4,"1987, 2001-2003"
+trends/suicide_causes,All India,total,1967,2024,1,1987
 trends/suicide_causes,Total (Cities),total,1972,2024,22,"1973-1975, 1977-1979, 1984-1985, 1987, 1989-1996, 1998-1999, 2001-2003"
 trends/suicide_causes,Total (States),total,1972,2024,17,"1977-1981, 1985, 1987, 1992-1996, 1998-1999, 2001-2003"
 trends/suicide_causes,Total (UTs),total,1972,2024,22,"1973-1980, 1982, 1984-1985, 1987, 1992-1996, 1998-1999, 2001-2003"
@@ -363,7 +363,7 @@ trends/suicide_education,Varanasi,city,1995,2015,3,2001-2003
 trends/suicide_education,Vasai Virar,city,2011,2015,0,
 trends/suicide_education,Vijayawada,city,2004,2015,0,
 trends/suicide_education,Visakhapatnam,city,1995,2015,3,2001-2003
-trends/suicide_means,All India,total,1967,2024,4,"1987, 2001-2003"
+trends/suicide_means,All India,total,1967,2024,1,1987
 trends/suicide_means,Total (Cities),total,1973,2013,25,"1974-1979, 1981, 1983-1985, 1987-1996, 1998-1999, 2001-2003"
 trends/suicide_means,Total (States),total,1972,2024,17,"1976-1980, 1987, 1991-1996, 1998-1999, 2001-2003"
 trends/suicide_means,Total (UTs),total,1972,2024,22,"1973-1980, 1983, 1985, 1987, 1991-1996, 1998-1999, 2001-2003"
@@ -459,7 +459,7 @@ trends/suicide_means,Varanasi,city,1993,2015,3,2001-2003
 trends/suicide_means,Vasai Virar,city,2011,2015,0,
 trends/suicide_means,Vijayawada,city,2004,2015,0,
 trends/suicide_means,Visakhapatnam,city,1992,2015,3,2001-2003
-trends/suicide_profession,All India,total,1997,2024,3,2001-2003
+trends/suicide_profession,All India,total,1997,2024,0,
 trends/suicide_profession,Total (Cities),total,1999,2013,3,2001-2003
 trends/suicide_profession,Total (States),total,1996,2024,4,"1998, 2001-2003"
 trends/suicide_profession,Total (UTs),total,1996,2024,4,"1998, 2001-2003"
@@ -651,7 +651,7 @@ trends/suicide_rate,Varanasi,city,1992,2024,0,
 trends/suicide_rate,Vasai Virar,city,2011,2024,0,
 trends/suicide_rate,Vijayawada,city,2001,2024,0,
 trends/suicide_rate,Visakhapatnam,city,1992,2024,0,
-trends/suicide_sex_age,All India,total,2004,2024,7,2014-2020
+trends/suicide_sex_age,All India,total,2001,2024,0,
 trends/suicide_sex_age,Total (Cities),total,2004,2013,0,
 trends/suicide_sex_age,Total (States),total,2004,2024,5,2016-2020
 trends/suicide_sex_age,Total (UTs),total,2004,2024,5,2016-2020
@@ -942,9 +942,9 @@ long/adsi/suicides,Agra,city,2001,2024,0,
 long/adsi/accidental,Ahmedabad,city,1967,2023,0,
 long/adsi/road,Ahmedabad,city,1967,2024,1,1999
 long/adsi/suicides,Ahmedabad,city,1967,2024,0,
-long/adsi/accidental,All India,total,1967,2024,4,"1973, 1982, 1987, 1996"
+long/adsi/accidental,All India,total,1967,2024,0,
 long/adsi/road,All India,total,1996,2024,0,
-long/adsi/suicides,All India,total,1967,2024,4,"1977, 2001-2003"
+long/adsi/suicides,All India,total,1967,2024,0,
 long/adsi/accidental,Amritsar,city,2001,2023,0,
 long/adsi/road,Amritsar,city,2001,2024,0,
 long/adsi/suicides,Amritsar,city,2001,2024,0,
@@ -1273,23 +1273,23 @@ long/cii/theft,Ajmer State,state,1953,1955,0,
 long/cii/total,Ajmer State,state,1953,1955,0,
 long/cii/arson,All India,total,1995,2024,0,
 long/cii/attempt_murder,All India,total,1988,2024,0,
-long/cii/burglary,All India,total,1956,2024,16,"1957-1963, 1971-1973, 1976-1977, 1980-1982, 1985"
-long/cii/cbt,All India,total,1969,2024,7,"1973-1974, 1977, 1979-1981, 1985"
-long/cii/cheating,All India,total,1955,2024,13,"1957-1958, 1960, 1962-1963, 1965, 1972-1973, 1977, 1980-1982, 1985"
-long/cii/chna,All India,total,1980,2024,2,"1981, 1985"
-long/cii/counterfeiting,All India,total,1955,2024,23,"1959-1960, 1962-1965, 1967-1969, 1971-1973, 1977-1985, 1993, 2000"
+long/cii/burglary,All India,total,1953,2024,0,
+long/cii/cbt,All India,total,1954,2024,0,
+long/cii/cheating,All India,total,1954,2024,0,
+long/cii/chna,All India,total,1971,2024,0,
+long/cii/counterfeiting,All India,total,1954,2024,0,
 long/cii/cruelty,All India,total,1993,2024,0,
-long/cii/dacoity,All India,total,1953,2024,13,"1957-1958, 1960, 1962, 1965, 1970-1973, 1976-1977, 1980, 1985"
+long/cii/dacoity,All India,total,1953,2024,0,
 long/cii/dowry_deaths,All India,total,1990,2024,0,
 long/cii/hurt,All India,total,1995,2024,3,2014-2016
-long/cii/kidnapping,All India,total,1953,2024,8,"1957-1958, 1960, 1962-1963, 1965, 1980-1981"
+long/cii/kidnapping,All India,total,1953,2024,0,
 long/cii/molestation,All India,total,1990,2024,0,
-long/cii/murder,All India,total,1953,2024,11,"1954-1958, 1960, 1962-1963, 1965, 1969, 1981"
-long/cii/rape,All India,total,1974,2024,3,"1975, 1981, 1985"
-long/cii/riots,All India,total,1953,2024,13,"1955-1956, 1958-1960, 1962-1963, 1973-1974, 1977, 1980, 1982, 1985"
-long/cii/robbery,All India,total,1953,2024,15,"1957-1958, 1960, 1962-1963, 1969-1973, 1976-1977, 1980-1981, 1985"
-long/cii/theft,All India,total,1956,2024,16,"1957-1958, 1960, 1962-1963, 1965, 1967, 1969, 1974-1977, 1980-1982, 1985"
-long/cii/total,All India,total,1953,2024,4,"1955-1956, 1962, 1965"
+long/cii/murder,All India,total,1953,2024,0,
+long/cii/rape,All India,total,1971,2024,0,
+long/cii/riots,All India,total,1953,2024,0,
+long/cii/robbery,All India,total,1953,2024,0,
+long/cii/theft,All India,total,1953,2024,0,
+long/cii/total,All India,total,1953,2024,0,
 long/cii/arson,Amritsar,city,1997,2024,4,"1998-2000, 2018"
 long/cii/attempt_murder,Amritsar,city,1988,2024,9,"1991, 1993-1999, 2018"
 long/cii/burglary,Amritsar,city,1995,2024,3,"1996, 1998, 2018"

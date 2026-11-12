@@ -22,6 +22,7 @@ export const EVENTS = [
   { years: [2024], what: IPC, always: true, text: 'From 1 July 2024 crimes are booked under the Bharatiya Nyaya Sanhita (BNS) instead of the IPC; 2024 figures combine both, and some heads were renumbered or regrouped, so they may not match earlier years.' },
   { years: [2013], what: WOMEN, text: 'The Criminal Law (Amendment) Act, 2013 widened the definition of rape and added new offences against women (Sections 354A–D), after December 2012; more cases were registered from 2013.' },
   { years: [2014], what: IPC, text: 'NCRB redesigned Crime in India in 2014, adding, splitting and redefining several crime heads, so some 2014 figures are not directly comparable with 2013.' },
+  { years: [2013, 2017], what: /\bhurt\b/i, always: true, text: 'No figure for 2014–2016: in those three editions Crime in India printed only "Grievous hurt", a narrower head than the "Hurt" (simple and grievous) counted in other years, so the gap is left open rather than joined to a different count.' },
   { years: [2014], places: ['Andhra Pradesh', 'Telangana'], what: /./, always: true, text: 'Telangana was formed on 2 June 2014; Andhra Pradesh\'s figures before 2014 include it.' },
   { years: [2000, 2001], places: ['Bihar', 'Jharkhand'], what: /./, always: true, text: 'Jharkhand was carved out of Bihar on 15 November 2000.' },
   { years: [2000, 2001], places: ['Madhya Pradesh', 'Chhattisgarh'], what: /./, always: true, text: 'Chhattisgarh was carved out of Madhya Pradesh on 1 November 2000.' },

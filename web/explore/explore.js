@@ -7,15 +7,15 @@
  * subtotals are flagged, shown last and kept off the colour scales.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=621fd152db';
-import { lineChart, stackChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=621fd152db';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=621fd152db';
-import { footerHtml, creditLine } from '../kit/footer.js?v=621fd152db';
-import { explain, explainAll } from '../kit/legal.js?v=621fd152db';
-import { notesFor } from '../kit/notes.js?v=621fd152db';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=621fd152db';
+import { desk, $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtShort, SERIES, lerp } from '../kit/util.js?v=7797e2be75';
+import { lineChart, stackChart, barRows, heatmap, choropleth, emptyChart } from '../kit/grapher.js?v=7797e2be75';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=7797e2be75';
+import { footerHtml, creditLine } from '../kit/footer.js?v=7797e2be75';
+import { explain, explainAll } from '../kit/legal.js?v=7797e2be75';
+import { notesFor } from '../kit/notes.js?v=7797e2be75';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=7797e2be75';
 
-import { mountSearch } from '../kit/search.js?v=621fd152db';
+import { mountSearch } from '../kit/search.js?v=7797e2be75';
 const DATA = '../data/explore';
 const TYPE_LABEL = { total: 'India', state: 'States', ut: 'Union Territories', city: 'Cities', row: 'Rows' };
 const GEO_LABEL = { state: 'States & UTs', city: 'Cities', india: 'All India', '': 'All India' };
@@ -233,6 +233,7 @@ function buildCards() {
   bindCapture(C.heat, { meta: metaFor(C.heat, false), name: 'ncrb-explore-table' });
   tl.on(pos => { drawRank(pos); drawMap(pos); markTrend(pos); });
   tl.on((pos, settled) => { if (settled) { drawHeat(); writeHash(); } });
+  desk.redraw = refresh;
   let lastW = innerWidth;
   addEventListener('resize', debounce(() => { if (innerWidth !== lastW) { lastW = innerWidth; refresh(); } }, 120));
 }

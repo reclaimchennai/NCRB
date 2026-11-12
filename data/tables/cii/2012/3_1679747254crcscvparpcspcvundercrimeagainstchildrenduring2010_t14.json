@@ -6,30 +6,34 @@
  "topic": "Crime against Children",
  "section": "Crime against Children",
  "serial": "3",
- "title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED(PCV) UNDER PROCURATION OF MINOR GIRLS DURING 2010-2012",
+ "title": "Cases registered, cases chargesheeted, cases convicted, persons arrested, persons chargesheeted and persons convicted during 201",
  "listing_title": "Cases registered, cases chargesheeted, cases convicted, persons arrested, persons chargesheeted and persons convicted during 201",
  "method": "excel",
- "sheet": "Query8_Crosstab",
+ "sheet": "Sheet1",
  "source_url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1679747254CRCSCVPARPCSPCVunderCrimeAgainstChildrenduring2010-2012.xls",
  "source_file": "raw/cii/2012/additional_table/1679747254CRCSCVPARPCSPCVunderCrimeAgainstChildrenduring2010-2012.xls",
  "source_sha256": "1f0078fe7dea05fa9237e64918b37a14e11d5210221aa93e95ea0a4b57a5950c",
  "table_no": "",
- "pdf_title": "CASES REGISTERED(CR), CASES CHARGESHEETED(CS), CASES CONVICTED(CV), PERSONS ARRESTED(PAR), PERSONS CHARGESHEETED(PCS) & PERSONS CONVICTED(PCV) UNDER PROCURATION OF MINOR GIRLS DURING 2010-2012",
- "row_label": "",
+ "pdf_title": "",
+ "row_label": "ST_UT_CT / STATE / CRIME",
  "pages": [],
- "n_rows": 1,
+ "n_rows": 420,
  "n_cols": 2,
- "n_cells": 2,
+ "n_cells": 840,
  "columns": [
   {
-   "col_no": "9",
-   "name": "col_9",
-   "header": []
+   "col_no": "4",
+   "name": "Year",
+   "header": [
+    "Year"
+   ]
   },
   {
-   "col_no": "15",
-   "name": "col_15",
-   "header": []
+   "col_no": "5",
+   "name": "CRIMECODE",
+   "header": [
+    "CRIMECODE"
+   ]
   }
  ],
  "notes": [],

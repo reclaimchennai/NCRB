@@ -2,8 +2,8 @@
  * buttons, labelled dropdowns, switches, the year timeline (play, scrub,
  * smooth transitions), and a chart card with snapshot and record buttons. */
 
-import { el, $, icon, ease } from './util.js?v=621fd152db';
-import { createCapture } from './capture.js?v=621fd152db';
+import { el, $, icon, ease } from './util.js?v=7797e2be75';
+import { createCapture } from './capture.js?v=7797e2be75';
 
 /* --------------------------------------------------------------- controls */
 
@@ -214,7 +214,7 @@ export function card(parent, { id, kicker = '', title = '', sub = '', svgs = 1, 
  * record: {timeline, render(pos)} -- render draws the card at a fractional year, synchronously.
  */
 export function bindCapture(c, { meta, record = null, name }) {
-  const cap = createCapture({ getSvgs: () => c.svgs.filter(s => s.childNodes.length), meta: () => ({ legend: c.legendItems, ...meta() }), name });
+  const cap = createCapture({ all: c.svgs, getSvgs: () => c.svgs.filter(s => s.childNodes.length), meta: () => ({ legend: c.legendItems, ...meta() }), name });
   $('.snap', c.el)?.addEventListener('click', async () => {
     c.flash();
     try { c.toast((await cap.snapshot()) === 'shared' ? 'Picture shared.' : 'Picture saved to your downloads.'); }

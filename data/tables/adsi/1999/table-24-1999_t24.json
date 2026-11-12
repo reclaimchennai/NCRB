@@ -1,0 +1,158 @@
+{
+ "table_id": "adsi/1999/table-24-1999_t24",
+ "publication": "adsi",
+ "year": 1999,
+ "listing": "archived",
+ "topic": "Accidental Deaths & Suicides in India 1999 (archived copy of NCRB's old site)",
+ "section": "Accidental Deaths & Suicides in India 1999 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "Of Suicide Victiins Sy Social Status during 1999 (State , UT & City-wise)",
+ "listing_title": "table-24 1999",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20220118181200id_/https://ncrb.gov.in/sites/default/files/adsi_reports_previous_year/table-24_1999.pdf",
+ "source_file": "raw/adsi/1999/archived/table-24_1999.pdf",
+ "source_sha256": "1601f08cde5800a3457d827d79d6ee6e236363f321fb507dbb99c9009a0bdfd2",
+ "table_no": "24",
+ "pdf_title": "Of Suicide Victiins Sy Social Status during 1999 (State , UT & City-wise)",
+ "row_label": "a",
+ "pages": [
+  1,
+  2
+ ],
+ "n_rows": 82,
+ "n_cols": 15,
+ "n_cells": 816,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "State/UT/City Male",
+   "header": [
+    "State/UT/City Male"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Female (4)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Total",
+   "header": [
+    "Total"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "% Share Col.(5/25)* 100",
+   "header": [
+    "% Share Col.(5/25)* 100"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Male",
+   "header": [
+    "Male"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Mairied | Female",
+   "header": [
+    "Mairied",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "Mairied | Total",
+   "header": [
+    "Mairied",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "‘ % Share Col.(9/25)* 100",
+   "header": [
+    "‘ % Share Col.(9/25)* 100"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "State/UT/Chty Male a)",
+   "header": [
+    "State/UT/Chty Male a)"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "Female (13)",
+   "header": [
+    "Female"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "% Share Total Col.(13/25) 100",
+   "header": [
+    "% Share Total Col.(13/25) 100"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "Divorcee | Male",
+   "header": [
+    "Divorcee",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "Divorcee | Female",
+   "header": [
+    "Divorcee",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "Divorcee | Total a7)",
+   "header": [
+    "Divorcee",
+    "Total a7)"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "Divorcee | % Share Col.(17/25)* 100",
+   "header": [
+    "Divorcee",
+    "% Share Col.(17/25)* 100"
+   ]
+  }
+ ],
+ "notes": [
+  "867 NCRB/200I—15A"
+ ],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 0,
+  "failures": [
+   "col 3 'TOTAL (Cities)': printed 1400, sum 1957",
+   "col 4 'TOTAL States': printed 9803, sum 9473",
+   "col 7 'TOTAL States': printed 43508, sum 42183",
+   "col 15 'TOTAL States': printed 890, sum 402",
+   "col 16 'TOTAL States': printed 9, sum 700"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 2,
+ "warnings": []
+}

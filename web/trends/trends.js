@@ -7,14 +7,14 @@
  * control bar drives the year-by-year cards and plays them through.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=621fd152db';
-import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=621fd152db';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=621fd152db';
-import { notesFor } from '../kit/notes.js?v=621fd152db';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=621fd152db';
-import { footerHtml, creditLine } from '../kit/footer.js?v=621fd152db';
+import { desk, $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, fmtPct, SERIES, lerp } from '../kit/util.js?v=7797e2be75';
+import { lineChart, stackChart, barRows, stackRows, heatmap, clocks, seasonChart, choropleth, emptyChart } from '../kit/grapher.js?v=7797e2be75';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=7797e2be75';
+import { notesFor } from '../kit/notes.js?v=7797e2be75';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=7797e2be75';
+import { footerHtml, creditLine } from '../kit/footer.js?v=7797e2be75';
 
-import { mountSearch } from '../kit/search.js?v=621fd152db';
+import { mountSearch } from '../kit/search.js?v=7797e2be75';
 const DATA = '../data/trends';
 const GROUPS = [
   { group: 'Traffic crashes', ids: ['traffic_time', 'traffic_month', 'road_causes'] },
@@ -241,6 +241,7 @@ function buildCards() {
   C.heat = card(root, { id: 'c-heat', kicker: 'Every year, every category' });
   bindCapture(C.heat, { meta: captureMeta(C.heat, false), name: 'ncrb-table' });
 
+  desk.redraw = () => refresh(true);
   let lastW = innerWidth;
   addEventListener('resize', debounce(() => { if (innerWidth !== lastW) { lastW = innerWidth; refresh(true); } }, 120));
 }

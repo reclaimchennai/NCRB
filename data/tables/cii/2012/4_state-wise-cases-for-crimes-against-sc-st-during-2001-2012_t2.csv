@@ -1,12 +1,386 @@
-section,sl_no,name,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10,col_11,col_12,col_13,col_14,col_17,col_18,col_19,col_20,col_21,col_22,col_23,col_24,col_25,col_26,col_27,col_28,col_31,col_32,col_33,col_34,col_35,col_36,col_37,col_38,col_39,col_40,col_41,col_42,col_45,col_46,col_47,col_48,col_49,col_50,col_51,col_52,col_53,col_54,col_55,col_56,col_59,col_60,col_61,col_62,col_63,col_64,col_65,col_66,col_67,col_68,col_69,col_70,col_73,col_74,col_75,col_76,col_77,col_78,col_79,col_80,col_81,col_82,col_83,col_84,col_87,col_88,col_89,col_90,col_91,col_92,col_93,col_94,col_95,col_96,col_97,col_98,col_101,col_102,col_103,col_104,col_105,col_106,col_107,col_108,col_109,col_110,col_111,col_112,col_115,col_116,col_117,col_118,col_119,col_120,col_121,col_122,col_123,col_124,col_125,col_126,col_129,col_130,col_131,col_132,col_133,col_134,col_135,col_136,col_137,col_138,col_139,col_140,col_143,col_144,col_145,col_146,col_147,col_148,col_149,col_150,col_151,col_152,col_153,col_154,col_157,col_158,col_159,col_160,col_161,col_162,col_163,col_164,col_165,col_166,col_167,col_168,col_171,col_172,col_173,col_174,col_175,col_176,col_177,col_178,col_179,col_180,col_181,col_182,col_185,col_186,col_187,col_188,col_189,col_190,col_191,col_192,col_193,col_194,col_195,col_196,col_199,col_200,col_201,col_202,col_203,col_204,col_205,col_206,col_207,col_208,col_209,col_210,col_213,col_214,col_215,col_216,col_217,col_218,col_219,col_220,col_221,col_222,col_223,col_224,col_227,col_228,col_229,col_230,col_231,col_232,col_233,col_234,col_235,col_236,col_237,col_238,col_241,col_242,col_243,col_244,col_245,col_246,col_247,col_248,col_249,col_250,col_251,col_252,col_255,col_256
-,1,Murder,4,2,9,10,12,8,11,7,4,7,9,16,4,2,0,2,1,0,0,0,0,0,2,0,0,6,2,1,23,26,4,7,3,1,0,0,1,5,3,0,0,1,1,1,1,1,1,1,18,12,13,32,20,27,13,17,21,6,22,19,0,0,0,0,0,0,0,0,0,0,0,0,7,16,5,6,4,6,13,5,8,8,9,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,11,32,10,13,13,20,4,6,10,4,5,1,8,5,3,5,4,1,3,2,5,3,9,4,1,0,2,2,0,2,1,0,1,0,1,28,49,34,43,48,45,47,45,41,47,49,62,6,10,8,6,10,11,8,11,8,9,16,11,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,46,38
-,2,Rape,21,24,32,34,34,60,44,37,37,41,46,42,5,2,9,3,3,2,2,0,0,0,3,0,0,2,2,1,19,24,3,7,1,0,0,0,4,5,3,1,2,3,9,1,1,1,1,0,87,67,103,100,104,97,81,100,94,98,90,118,0,0,0,0,0,0,0,0,0,0,0,0,23,18,20,21,19,23,12,26,19,19,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,13,14,13,20,21,22,18,13,18,27,5,2,5,2,1,6,7,3,6,5,4,2,4,23,21,10,19,24,23,16,23,28,18,109,39,238,312,263,270,294,284,288,234,263,308,306,288,60,48,34,38,41,56,43,46,50,46,57,56,0,0,0,0,0,20,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,2,9,0,0,0,0,0,0,0,0,0,0,6,8
-,3,Kidnapping & Abduction,5,6,3,9,2,4,10,2,1,1,5,0,7,10,7,7,1,4,4,2,0,2,6,1,0,2,2,1,21,24,10,13,0,0,0,0,1,0,0,0,3,0,0,0,0,0,0,0,5,4,6,14,9,3,7,0,0,0,6,10,0,0,0,0,0,0,0,0,0,0,0,0,6,4,9,6,6,8,7,13,9,13,16,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,2,7,4,13,7,5,5,3,30,5,0,1,0,0,0,1,0,0,1,0,0,1,0,0,1,1,0,1,0,1,1,0,0,1,14,16,16,15,14,14,17,20,27,30,39,45,4,6,2,4,4,3,8,7,1,8,11,7,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,5,2
-,4,Dacoity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,4,5,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,18,7,29,17,1,0,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,1,5,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,2,0,0,0,0,3,1,0,1,3,1,1,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,2,13
-,5,Robbery,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,2,0,2,0,0,0,1,0,0,2,0,2,14,14,5,6,3,0,0,0,0,0,0,0,2,0,1,1,0,0,0,0,7,0,1,1,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,33,28,16,34,20,0,2,1,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,1,1,0,2,2,0,1,2,0,5,0,0,0,2,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,3,6,2,3,3,1,2,0,1,0,1,1,0,1,1,1,2,0,1,1,1,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,24,13
-,6,Arson,1,2,2,1,1,2,4,2,0,2,0,2,1,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,5,9,0,7,0,0,0,0,0,0,0,0,0,2,1,1,2,1,1,0,1,10,1,0,0,1,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,3,0,1,2,2,1,1,2,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,64,0,1,0,3,4,0,1,1,1,0,0,1,1,0,0,0,0,1,0,0,0,0,2,0,0,1,1,0,0,3,0,1,1,0,0,7,11,10,11,15,10,8,11,6,13,5,8,3,5,4,7,0,8,2,8,6,7,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7,0,0,0,0,0,0,0,0,0,0,0,0
-,7,Hurt,106,88,134,81,70,118,87,123,130,102,112,132,18,15,22,15,25,11,14,38,14,17,7,6,0,11,7,5,63,71,8,26,0,0,0,0,5,3,8,10,11,12,14,17,5,15,19,0,63,47,57,47,81,57,109,14,16,18,67,66,0,0,0,0,0,0,0,0,0,0,0,0,47,81,51,35,32,25,31,43,26,41,42,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,9,18,9,30,117,66,50,50,75,63,77,21,22,12,10,7,13,13,16,12,14,17,21,20,26,18,21,19,26,29,36,28,25,42,27,195,290,235,245,199,183,207,169,216,329,263,247,14,22,12,11,7,18,10,18,6,11,18,17,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,12,0,0,0,0,0,0,0,0,0,0,17,20
-,8,Other Crimes Against STs,220,230,219,280,199,291,291,316,330,425,397,346,37,57,26,48,21,10,10,23,6,35,15,3,0,16,6,2,67,71,16,59,2,1,1,0,18,6,13,4,5,6,6,24,27,20,4,0,296,264,363,275,190,237,257,291,242,264,148,129,0,0,0,0,0,0,0,1,0,0,0,1,83,74,64,50,64,46,46,64,51,37,38,63,0,5,0,0,0,0,0,0,0,0,0,0,2,2,6,8,5,8,0,0,0,0,0,0,0,5,1,1,0,0,0,0,0,0,0,0,118,43,35,43,101,37,84,48,43,45,80,57,34,67,35,38,58,71,76,203,104,103,97,172,22,19,25,27,28,23,34,43,38,30,58,46,805,1509,967,867,789,743,726,591,581,652,618,567,110,126,106,121,107,113,112,127,114,154,149,155,0,0,2,0,0,5,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,210,277
-,9,Protection of Civil Rights Act,26,39,21,4,0,12,3,5,2,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,8,4,6,5,0,0,0,0,0,0,0,0,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160,34,0,0,0,0,0,0,13,0,5,1,0,1,0,0,0,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-,10,SC/ST (POA) Act,129,134,150,147,196,298,303,258,326,225,233,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,10,6,19,25,59,32,33,54,31,33,71,118,6,101,221,201,93,161,143,1,2,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,90,97,69,59,73,53,44,66,77,34,23,65,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,2,2,7,2,0,1,2,4,3,0,0,0,0,0,0,0,0,0,0,0,0,20,40,5,40,152,91,63,104,62,75,104,133,204,134,108,118,85,117,110,172,147,168,162,164,14,35,10,11,8,2,4,2,6,13,22,10,243,310,252,212,252,218,206,0,0,4,1,0,41,53,50,40,52,58,54,47,37,55,61,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-,,Total Crimes against STs,512,525,571,566,515,793,753,750,830,807,805,666,72,87,66,75,54,27,32,63,21,54,34,10,0,39,20,12,216,244,49,130,9,3,2,0,47,29,52,45,82,56,65,99,67,71,97,119,486,508,774,676,497,583,615,424,376,386,336,344,0,0,0,0,1,0,0,1,0,0,1,1,309,340,241,241,237,164,156,223,195,155,153,221,0,5,0,0,0,0,0,0,0,0,0,0,4,3,12,11,10,17,2,0,1,2,4,3,0,6,1,1,0,0,0,0,0,0,0,0,282,124,108,123,483,332,268,231,182,234,309,287,276,240,167,173,161,214,205,400,272,294,285,374,83,102,65,82,82,75,88,106,102,88,231,124,1535,2504,1779,1667,1615,1498,1501,1071,1135,1384,1284,1218,238,271,217,231,224,267,239,268,224,292,321,308,0,0,4,0,0,26,1,1,0,0,1,2,0,2,0,0,0,0,0,0,0,0,0,0,10,40,0,0,0,0,0,0,0,0,0,0,310,371
+section,sl_no,STATE,CRIMECODE,CRIME (4),CRIME (33)
+,1,Andhra Pradesh,11,Murder,Murder
+,1,Andhra Pradesh,21,Rape,Rape
+,1,Andhra Pradesh,31,Kidnapping & Abduction,Kidnapping & Abduction
+,1,Andhra Pradesh,41,Dacoity,Dacoity
+,1,Andhra Pradesh,51,Robbery,Robbery
+,1,Andhra Pradesh,61,Arson,Arson
+,1,Andhra Pradesh,71,Hurt,Hurt
+,1,Andhra Pradesh,80,Other Crimes Against SCs,Other Crimes Against STs
+,1,Andhra Pradesh,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,1,Andhra Pradesh,84,SC/ST (POA) Act,SC/ST (POA) Act
+,1,Andhra Pradesh,400,Total Crimes against SCs,Total Crimes against STs
+,2,Arunachal Pradesh,11,Murder,Murder
+,2,Arunachal Pradesh,21,Rape,Rape
+,2,Arunachal Pradesh,31,Kidnapping & Abduction,Kidnapping & Abduction
+,2,Arunachal Pradesh,41,Dacoity,Dacoity
+,2,Arunachal Pradesh,51,Robbery,Robbery
+,2,Arunachal Pradesh,61,Arson,Arson
+,2,Arunachal Pradesh,71,Hurt,Hurt
+,2,Arunachal Pradesh,80,Other Crimes Against SCs,Other Crimes Against STs
+,2,Arunachal Pradesh,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,2,Arunachal Pradesh,84,SC/ST (POA) Act,SC/ST (POA) Act
+,2,Arunachal Pradesh,400,Total Crimes against SCs,Total Crimes against STs
+,3,Assam,11,Murder,Murder
+,3,Assam,21,Rape,Rape
+,3,Assam,31,Kidnapping & Abduction,Kidnapping & Abduction
+,3,Assam,41,Dacoity,Dacoity
+,3,Assam,51,Robbery,Robbery
+,3,Assam,61,Arson,Arson
+,3,Assam,71,Hurt,Hurt
+,3,Assam,80,Other Crimes Against SCs,Other Crimes Against STs
+,3,Assam,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,3,Assam,84,SC/ST (POA) Act,SC/ST (POA) Act
+,3,Assam,400,Total Crimes against SCs,Total Crimes against STs
+,4,Bihar,11,Murder,Murder
+,4,Bihar,21,Rape,Rape
+,4,Bihar,31,Kidnapping & Abduction,Kidnapping & Abduction
+,4,Bihar,41,Dacoity,Dacoity
+,4,Bihar,51,Robbery,Robbery
+,4,Bihar,61,Arson,Arson
+,4,Bihar,71,Hurt,Hurt
+,4,Bihar,80,Other Crimes Against SCs,Other Crimes Against STs
+,4,Bihar,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,4,Bihar,84,SC/ST (POA) Act,SC/ST (POA) Act
+,4,Bihar,400,Total Crimes against SCs,Total Crimes against STs
+,5,Chhattisgarh,11,Murder,Murder
+,5,Chhattisgarh,21,Rape,Rape
+,5,Chhattisgarh,31,Kidnapping & Abduction,Kidnapping & Abduction
+,5,Chhattisgarh,41,Dacoity,Dacoity
+,5,Chhattisgarh,51,Robbery,Robbery
+,5,Chhattisgarh,61,Arson,Arson
+,5,Chhattisgarh,71,Hurt,Hurt
+,5,Chhattisgarh,80,Other Crimes Against SCs,Other Crimes Against STs
+,5,Chhattisgarh,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,5,Chhattisgarh,84,SC/ST (POA) Act,SC/ST (POA) Act
+,5,Chhattisgarh,400,Total Crimes against SCs,Total Crimes against STs
+,6,Goa,11,Murder,Murder
+,6,Goa,21,Rape,Rape
+,6,Goa,31,Kidnapping & Abduction,Kidnapping & Abduction
+,6,Goa,41,Dacoity,Dacoity
+,6,Goa,51,Robbery,Robbery
+,6,Goa,61,Arson,Arson
+,6,Goa,71,Hurt,Hurt
+,6,Goa,80,Other Crimes Against SCs,Other Crimes Against STs
+,6,Goa,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,6,Goa,84,SC/ST (POA) Act,SC/ST (POA) Act
+,6,Goa,400,Total Crimes against SCs,Total Crimes against STs
+,7,Gujarat,11,Murder,Murder
+,7,Gujarat,21,Rape,Rape
+,7,Gujarat,31,Kidnapping & Abduction,Kidnapping & Abduction
+,7,Gujarat,41,Dacoity,Dacoity
+,7,Gujarat,51,Robbery,Robbery
+,7,Gujarat,61,Arson,Arson
+,7,Gujarat,71,Hurt,Hurt
+,7,Gujarat,80,Other Crimes Against SCs,Other Crimes Against STs
+,7,Gujarat,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,7,Gujarat,84,SC/ST (POA) Act,SC/ST (POA) Act
+,7,Gujarat,400,Total Crimes against SCs,Total Crimes against STs
+,8,Haryana,11,Murder,Murder
+,8,Haryana,21,Rape,Rape
+,8,Haryana,31,Kidnapping & Abduction,Kidnapping & Abduction
+,8,Haryana,41,Dacoity,Dacoity
+,8,Haryana,51,Robbery,Robbery
+,8,Haryana,61,Arson,Arson
+,8,Haryana,71,Hurt,Hurt
+,8,Haryana,80,Other Crimes Against SCs,Other Crimes Against STs
+,8,Haryana,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,8,Haryana,84,SC/ST (POA) Act,SC/ST (POA) Act
+,8,Haryana,400,Total Crimes against SCs,Total Crimes against STs
+,9,Himachal Pradesh,11,Murder,Murder
+,9,Himachal Pradesh,21,Rape,Rape
+,9,Himachal Pradesh,31,Kidnapping & Abduction,Kidnapping & Abduction
+,9,Himachal Pradesh,41,Dacoity,Dacoity
+,9,Himachal Pradesh,51,Robbery,Robbery
+,9,Himachal Pradesh,61,Arson,Arson
+,9,Himachal Pradesh,71,Hurt,Hurt
+,9,Himachal Pradesh,80,Other Crimes Against SCs,Other Crimes Against STs
+,9,Himachal Pradesh,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,9,Himachal Pradesh,84,SC/ST (POA) Act,SC/ST (POA) Act
+,9,Himachal Pradesh,400,Total Crimes against SCs,Total Crimes against STs
+,10,Jammu & Kashmir,11,Murder,Murder
+,10,Jammu & Kashmir,21,Rape,Rape
+,10,Jammu & Kashmir,31,Kidnapping & Abduction,Kidnapping & Abduction
+,10,Jammu & Kashmir,41,Dacoity,Dacoity
+,10,Jammu & Kashmir,51,Robbery,Robbery
+,10,Jammu & Kashmir,61,Arson,Arson
+,10,Jammu & Kashmir,71,Hurt,Hurt
+,10,Jammu & Kashmir,80,Other Crimes Against SCs,Other Crimes Against STs
+,10,Jammu & Kashmir,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,10,Jammu & Kashmir,84,SC/ST (POA) Act,SC/ST (POA) Act
+,10,Jammu & Kashmir,400,Total Crimes against SCs,Total Crimes against STs
+,11,Jharkhand,11,Murder,Murder
+,11,Jharkhand,21,Rape,Rape
+,11,Jharkhand,31,Kidnapping & Abduction,Kidnapping & Abduction
+,11,Jharkhand,41,Dacoity,Dacoity
+,11,Jharkhand,51,Robbery,Robbery
+,11,Jharkhand,61,Arson,Arson
+,11,Jharkhand,71,Hurt,Hurt
+,11,Jharkhand,80,Other Crimes Against SCs,Other Crimes Against STs
+,11,Jharkhand,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,11,Jharkhand,84,SC/ST (POA) Act,SC/ST (POA) Act
+,11,Jharkhand,400,Total Crimes against SCs,Total Crimes against STs
+,12,Karnataka,11,Murder,Murder
+,12,Karnataka,21,Rape,Rape
+,12,Karnataka,31,Kidnapping & Abduction,Kidnapping & Abduction
+,12,Karnataka,41,Dacoity,Dacoity
+,12,Karnataka,51,Robbery,Robbery
+,12,Karnataka,61,Arson,Arson
+,12,Karnataka,71,Hurt,Hurt
+,12,Karnataka,80,Other Crimes Against SCs,Other Crimes Against STs
+,12,Karnataka,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,12,Karnataka,84,SC/ST (POA) Act,SC/ST (POA) Act
+,12,Karnataka,400,Total Crimes against SCs,Total Crimes against STs
+,13,Kerala,11,Murder,Murder
+,13,Kerala,21,Rape,Rape
+,13,Kerala,31,Kidnapping & Abduction,Kidnapping & Abduction
+,13,Kerala,41,Dacoity,Dacoity
+,13,Kerala,51,Robbery,Robbery
+,13,Kerala,61,Arson,Arson
+,13,Kerala,71,Hurt,Hurt
+,13,Kerala,80,Other Crimes Against SCs,Other Crimes Against STs
+,13,Kerala,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,13,Kerala,84,SC/ST (POA) Act,SC/ST (POA) Act
+,13,Kerala,400,Total Crimes against SCs,Total Crimes against STs
+,14,Madhya Pradesh,11,Murder,Murder
+,14,Madhya Pradesh,21,Rape,Rape
+,14,Madhya Pradesh,31,Kidnapping & Abduction,Kidnapping & Abduction
+,14,Madhya Pradesh,41,Dacoity,Dacoity
+,14,Madhya Pradesh,51,Robbery,Robbery
+,14,Madhya Pradesh,61,Arson,Arson
+,14,Madhya Pradesh,71,Hurt,Hurt
+,14,Madhya Pradesh,80,Other Crimes Against SCs,Other Crimes Against STs
+,14,Madhya Pradesh,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,14,Madhya Pradesh,84,SC/ST (POA) Act,SC/ST (POA) Act
+,14,Madhya Pradesh,400,Total Crimes against SCs,Total Crimes against STs
+,15,Maharashtra,11,Murder,Murder
+,15,Maharashtra,21,Rape,Rape
+,15,Maharashtra,31,Kidnapping & Abduction,Kidnapping & Abduction
+,15,Maharashtra,41,Dacoity,Dacoity
+,15,Maharashtra,51,Robbery,Robbery
+,15,Maharashtra,61,Arson,Arson
+,15,Maharashtra,71,Hurt,Hurt
+,15,Maharashtra,80,Other Crimes Against SCs,Other Crimes Against STs
+,15,Maharashtra,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,15,Maharashtra,84,SC/ST (POA) Act,SC/ST (POA) Act
+,15,Maharashtra,400,Total Crimes against SCs,Total Crimes against STs
+,16,Manipur,11,Murder,Murder
+,16,Manipur,21,Rape,Rape
+,16,Manipur,31,Kidnapping & Abduction,Kidnapping & Abduction
+,16,Manipur,41,Dacoity,Dacoity
+,16,Manipur,51,Robbery,Robbery
+,16,Manipur,61,Arson,Arson
+,16,Manipur,71,Hurt,Hurt
+,16,Manipur,80,Other Crimes Against SCs,Other Crimes Against STs
+,16,Manipur,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,16,Manipur,84,SC/ST (POA) Act,SC/ST (POA) Act
+,16,Manipur,400,Total Crimes against SCs,Total Crimes against STs
+,17,Meghalaya,11,Murder,Murder
+,17,Meghalaya,21,Rape,Rape
+,17,Meghalaya,31,Kidnapping & Abduction,Kidnapping & Abduction
+,17,Meghalaya,41,Dacoity,Dacoity
+,17,Meghalaya,51,Robbery,Robbery
+,17,Meghalaya,61,Arson,Arson
+,17,Meghalaya,71,Hurt,Hurt
+,17,Meghalaya,80,Other Crimes Against SCs,Other Crimes Against STs
+,17,Meghalaya,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,17,Meghalaya,84,SC/ST (POA) Act,SC/ST (POA) Act
+,17,Meghalaya,400,Total Crimes against SCs,Total Crimes against STs
+,18,Mizoram,11,Murder,Murder
+,18,Mizoram,21,Rape,Rape
+,18,Mizoram,31,Kidnapping & Abduction,Kidnapping & Abduction
+,18,Mizoram,41,Dacoity,Dacoity
+,18,Mizoram,51,Robbery,Robbery
+,18,Mizoram,61,Arson,Arson
+,18,Mizoram,71,Hurt,Hurt
+,18,Mizoram,80,Other Crimes Against SCs,Other Crimes Against STs
+,18,Mizoram,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,18,Mizoram,84,SC/ST (POA) Act,SC/ST (POA) Act
+,18,Mizoram,400,Total Crimes against SCs,Total Crimes against STs
+,19,Nagaland,11,Murder,Murder
+,19,Nagaland,21,Rape,Rape
+,19,Nagaland,31,Kidnapping & Abduction,Kidnapping & Abduction
+,19,Nagaland,41,Dacoity,Dacoity
+,19,Nagaland,51,Robbery,Robbery
+,19,Nagaland,61,Arson,Arson
+,19,Nagaland,71,Hurt,Hurt
+,19,Nagaland,80,Other Crimes Against SCs,Other Crimes Against STs
+,19,Nagaland,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,19,Nagaland,84,SC/ST (POA) Act,SC/ST (POA) Act
+,19,Nagaland,400,Total Crimes against SCs,Total Crimes against STs
+,20,Odisha,11,Murder,Murder
+,20,Odisha,21,Rape,Rape
+,20,Odisha,31,Kidnapping & Abduction,Kidnapping & Abduction
+,20,Odisha,41,Dacoity,Dacoity
+,20,Odisha,51,Robbery,Robbery
+,20,Odisha,61,Arson,Arson
+,20,Odisha,71,Hurt,Hurt
+,20,Odisha,80,Other Crimes Against SCs,Other Crimes Against STs
+,20,Odisha,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,20,Odisha,84,SC/ST (POA) Act,SC/ST (POA) Act
+,20,Odisha,400,Total Crimes against SCs,Total Crimes against STs
+,21,Punjab,11,Murder,Murder
+,21,Punjab,21,Rape,Rape
+,21,Punjab,31,Kidnapping & Abduction,Kidnapping & Abduction
+,21,Punjab,41,Dacoity,Dacoity
+,21,Punjab,51,Robbery,Robbery
+,21,Punjab,61,Arson,Arson
+,21,Punjab,71,Hurt,Hurt
+,21,Punjab,80,Other Crimes Against SCs,Other Crimes Against STs
+,21,Punjab,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,21,Punjab,84,SC/ST (POA) Act,SC/ST (POA) Act
+,21,Punjab,400,Total Crimes against SCs,Total Crimes against STs
+,22,Rajasthan,11,Murder,Murder
+,22,Rajasthan,21,Rape,Rape
+,22,Rajasthan,31,Kidnapping & Abduction,Kidnapping & Abduction
+,22,Rajasthan,41,Dacoity,Dacoity
+,22,Rajasthan,51,Robbery,Robbery
+,22,Rajasthan,61,Arson,Arson
+,22,Rajasthan,71,Hurt,Hurt
+,22,Rajasthan,80,Other Crimes Against SCs,Other Crimes Against STs
+,22,Rajasthan,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,22,Rajasthan,84,SC/ST (POA) Act,SC/ST (POA) Act
+,22,Rajasthan,400,Total Crimes against SCs,Total Crimes against STs
+,23,Sikkim,11,Murder,Murder
+,23,Sikkim,21,Rape,Rape
+,23,Sikkim,31,Kidnapping & Abduction,Kidnapping & Abduction
+,23,Sikkim,41,Dacoity,Dacoity
+,23,Sikkim,51,Robbery,Robbery
+,23,Sikkim,61,Arson,Arson
+,23,Sikkim,71,Hurt,Hurt
+,23,Sikkim,80,Other Crimes Against SCs,Other Crimes Against STs
+,23,Sikkim,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,23,Sikkim,84,SC/ST (POA) Act,SC/ST (POA) Act
+,23,Sikkim,400,Total Crimes against SCs,Total Crimes against STs
+,24,Tamil Nadu,11,Murder,Murder
+,24,Tamil Nadu,21,Rape,Rape
+,24,Tamil Nadu,31,Kidnapping & Abduction,Kidnapping & Abduction
+,24,Tamil Nadu,41,Dacoity,Dacoity
+,24,Tamil Nadu,51,Robbery,Robbery
+,24,Tamil Nadu,61,Arson,Arson
+,24,Tamil Nadu,71,Hurt,Hurt
+,24,Tamil Nadu,80,Other Crimes Against SCs,Other Crimes Against STs
+,24,Tamil Nadu,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,24,Tamil Nadu,84,SC/ST (POA) Act,SC/ST (POA) Act
+,24,Tamil Nadu,400,Total Crimes against SCs,Total Crimes against STs
+,25,Tripura,11,Murder,Murder
+,25,Tripura,21,Rape,Rape
+,25,Tripura,31,Kidnapping & Abduction,Kidnapping & Abduction
+,25,Tripura,41,Dacoity,Dacoity
+,25,Tripura,51,Robbery,Robbery
+,25,Tripura,61,Arson,Arson
+,25,Tripura,71,Hurt,Hurt
+,25,Tripura,80,Other Crimes Against SCs,Other Crimes Against STs
+,25,Tripura,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,25,Tripura,84,SC/ST (POA) Act,SC/ST (POA) Act
+,25,Tripura,400,Total Crimes against SCs,Total Crimes against STs
+,26,Uttar Pradesh,11,Murder,Murder
+,26,Uttar Pradesh,21,Rape,Rape
+,26,Uttar Pradesh,31,Kidnapping & Abduction,Kidnapping & Abduction
+,26,Uttar Pradesh,41,Dacoity,Dacoity
+,26,Uttar Pradesh,51,Robbery,Robbery
+,26,Uttar Pradesh,61,Arson,Arson
+,26,Uttar Pradesh,71,Hurt,Hurt
+,26,Uttar Pradesh,80,Other Crimes Against SCs,Other Crimes Against STs
+,26,Uttar Pradesh,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,26,Uttar Pradesh,84,SC/ST (POA) Act,SC/ST (POA) Act
+,26,Uttar Pradesh,400,Total Crimes against SCs,Total Crimes against STs
+,27,Uttarakhand,11,Murder,Murder
+,27,Uttarakhand,21,Rape,Rape
+,27,Uttarakhand,31,Kidnapping & Abduction,Kidnapping & Abduction
+,27,Uttarakhand,41,Dacoity,Dacoity
+,27,Uttarakhand,51,Robbery,Robbery
+,27,Uttarakhand,61,Arson,Arson
+,27,Uttarakhand,71,Hurt,Hurt
+,27,Uttarakhand,80,Other Crimes Against SCs,Other Crimes Against STs
+,27,Uttarakhand,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,27,Uttarakhand,84,SC/ST (POA) Act,SC/ST (POA) Act
+,27,Uttarakhand,400,Total Crimes against SCs,Total Crimes against STs
+,28,West Bengal,11,Murder,Murder
+,28,West Bengal,21,Rape,Rape
+,28,West Bengal,31,Kidnapping & Abduction,Kidnapping & Abduction
+,28,West Bengal,41,Dacoity,Dacoity
+,28,West Bengal,51,Robbery,Robbery
+,28,West Bengal,61,Arson,Arson
+,28,West Bengal,71,Hurt,Hurt
+,28,West Bengal,80,Other Crimes Against SCs,Other Crimes Against STs
+,28,West Bengal,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,28,West Bengal,84,SC/ST (POA) Act,SC/ST (POA) Act
+,28,West Bengal,400,Total Crimes against SCs,Total Crimes against STs
+,29,A&N Islands,11,Murder,Murder
+,29,A&N Islands,21,Rape,Rape
+,29,A&N Islands,31,Kidnapping & Abduction,Kidnapping & Abduction
+,29,A&N Islands,41,Dacoity,Dacoity
+,29,A&N Islands,51,Robbery,Robbery
+,29,A&N Islands,61,Arson,Arson
+,29,A&N Islands,71,Hurt,Hurt
+,29,A&N Islands,80,Other Crimes Against SCs,Other Crimes Against STs
+,29,A&N Islands,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,29,A&N Islands,84,SC/ST (POA) Act,SC/ST (POA) Act
+,29,A&N Islands,400,Total Crimes against SCs,Total Crimes against STs
+,30,Chandigarh,11,Murder,Murder
+,30,Chandigarh,21,Rape,Rape
+,30,Chandigarh,31,Kidnapping & Abduction,Kidnapping & Abduction
+,30,Chandigarh,41,Dacoity,Dacoity
+,30,Chandigarh,51,Robbery,Robbery
+,30,Chandigarh,61,Arson,Arson
+,30,Chandigarh,71,Hurt,Hurt
+,30,Chandigarh,80,Other Crimes Against SCs,Other Crimes Against STs
+,30,Chandigarh,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,30,Chandigarh,84,SC/ST (POA) Act,SC/ST (POA) Act
+,30,Chandigarh,400,Total Crimes against SCs,Total Crimes against STs
+,31,D&N Haveli,11,Murder,Murder
+,31,D&N Haveli,21,Rape,Rape
+,31,D&N Haveli,31,Kidnapping & Abduction,Kidnapping & Abduction
+,31,D&N Haveli,41,Dacoity,Dacoity
+,31,D&N Haveli,51,Robbery,Robbery
+,31,D&N Haveli,61,Arson,Arson
+,31,D&N Haveli,71,Hurt,Hurt
+,31,D&N Haveli,80,Other Crimes Against SCs,Other Crimes Against STs
+,31,D&N Haveli,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,31,D&N Haveli,84,SC/ST (POA) Act,SC/ST (POA) Act
+,31,D&N Haveli,400,Total Crimes against SCs,Total Crimes against STs
+,32,Daman & Diu,11,Murder,Murder
+,32,Daman & Diu,21,Rape,Rape
+,32,Daman & Diu,31,Kidnapping & Abduction,Kidnapping & Abduction
+,32,Daman & Diu,41,Dacoity,Dacoity
+,32,Daman & Diu,51,Robbery,Robbery
+,32,Daman & Diu,61,Arson,Arson
+,32,Daman & Diu,71,Hurt,Hurt
+,32,Daman & Diu,80,Other Crimes Against SCs,Other Crimes Against STs
+,32,Daman & Diu,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,32,Daman & Diu,84,SC/ST (POA) Act,SC/ST (POA) Act
+,32,Daman & Diu,400,Total Crimes against SCs,Total Crimes against STs
+,33,Delhi UT,11,Murder,Murder
+,33,Delhi UT,21,Rape,Rape
+,33,Delhi UT,31,Kidnapping & Abduction,Kidnapping & Abduction
+,33,Delhi UT,41,Dacoity,Dacoity
+,33,Delhi UT,51,Robbery,Robbery
+,33,Delhi UT,61,Arson,Arson
+,33,Delhi UT,71,Hurt,Hurt
+,33,Delhi UT,80,Other Crimes Against SCs,Other Crimes Against STs
+,33,Delhi UT,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,33,Delhi UT,84,SC/ST (POA) Act,SC/ST (POA) Act
+,33,Delhi UT,400,Total Crimes against SCs,Total Crimes against STs
+,34,Lakshadweep,11,Murder,Murder
+,34,Lakshadweep,21,Rape,Rape
+,34,Lakshadweep,31,Kidnapping & Abduction,Kidnapping & Abduction
+,34,Lakshadweep,41,Dacoity,Dacoity
+,34,Lakshadweep,51,Robbery,Robbery
+,34,Lakshadweep,61,Arson,Arson
+,34,Lakshadweep,71,Hurt,Hurt
+,34,Lakshadweep,80,Other Crimes Against SCs,Other Crimes Against STs
+,34,Lakshadweep,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,34,Lakshadweep,84,SC/ST (POA) Act,SC/ST (POA) Act
+,34,Lakshadweep,400,Total Crimes against SCs,Total Crimes against STs
+,35,Puducherry,11,Murder,Murder
+,35,Puducherry,21,Rape,Rape
+,35,Puducherry,31,Kidnapping & Abduction,Kidnapping & Abduction
+,35,Puducherry,41,Dacoity,Dacoity
+,35,Puducherry,51,Robbery,Robbery
+,35,Puducherry,61,Arson,Arson
+,35,Puducherry,71,Hurt,Hurt
+,35,Puducherry,80,Other Crimes Against SCs,Other Crimes Against STs
+,35,Puducherry,83,Protection of Civil Rights Act,Protection of Civil Rights Act
+,35,Puducherry,84,SC/ST (POA) Act,SC/ST (POA) Act
+,35,Puducherry,400,Total Crimes against SCs,Total Crimes against STs

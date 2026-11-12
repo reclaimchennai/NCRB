@@ -1,7 +1,7 @@
 /* NCRB data explorer: find a table, read it as printed, chart it, follow it across years. */
 
-import { $, el, clear, api, apiUrl, fmt, fmtCompact, pct, PUB_NAME, PUB_SHORT, methodInfo, seriesColor, debounce, hideTip } from './util.js?v=9ee902c98d';
-import { bars, lines, choropleth, quality } from './charts.js?v=9ee902c98d';
+import { $, el, clear, api, apiUrl, fmt, fmtCompact, pct, PUB_NAME, PUB_SHORT, methodInfo, seriesColor, debounce, hideTip } from './util.js?v=3f19d4a653';
+import { bars, lines, choropleth, quality } from './charts.js?v=3f19d4a653';
 
 const state = {
   pub: '', year: '', topic: '', q: '', listing: 'individual', offset: 0,

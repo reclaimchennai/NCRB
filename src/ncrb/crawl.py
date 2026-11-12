@@ -20,6 +20,12 @@ from pathlib import Path
 from urllib.parse import urlencode, urljoin
 
 import requests
+
+try:  # NCRB's server sends an incomplete certificate chain; the system trust store completes it (uv run --with truststore)
+    import truststore
+    truststore.inject_into_ssl()
+except ImportError:
+    pass
 from bs4 import BeautifulSoup
 
 BASE = "https://www.ncrb.gov.in"

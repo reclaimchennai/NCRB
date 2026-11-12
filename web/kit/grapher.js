@@ -14,12 +14,12 @@
  *   clocks      two 12-hour dials, day (06-18) and night (18-06), one wedge per 3 hours
  */
 
-import { svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, bins, inkOn, lerp } from './util.js?v=621fd152db';
+import { desk, svg, clear, scaleLinear, ticks, fmtN, fmtPct, fmtShort, hover, esc, heatStep, bins, inkOn, lerp } from './util.js?v=7797e2be75';
 
 /* ------------------------------------------------------------------ utils */
 
 function size(el, minH = 200) {
-  const w = Math.max(300, el.parentElement?.clientWidth || 700);
+  const w = desk.w && desk.svgs?.includes(el) ? desk.w : Math.max(300, el.parentElement?.clientWidth || 700);
   return { w, narrow: w < 620, tight: w < 430, minH };
 }
 function frame(el, w, h) {
@@ -131,11 +131,14 @@ function hbar(x, y, w, h, roundRight = true) {
  * pos: fractional index into xs for the year marker (or null).
  */
 export function lineChart(el, { xs, series, pos = null, fmt = fmtN, yFmt = fmtShort, height, hl = null, unit = '', zeroBase = true, marks = [] }) {
-  const { w, narrow } = size(el);
+  const { w, narrow, tight } = size(el);
   const all = series.flatMap(s => xs.map(x => s.values[x]).filter(v => v != null && Number.isFinite(v)));
   if (!all.length) return emptyChart(el);
   const h = height || (narrow ? 280 : 340);
-  const labelW = Math.min(w * (narrow ? .34 : .26), Math.max(60, ...series.map(s2 => measure(el, s2.label, 'end-label'))) + 4);
+  // on a phone, more than three end labels would take a third of the width and still be cut short: the card's
+  // legend names the lines there, and the plot gets the room
+  const direct = !(tight && series.length > 3);
+  const labelW = !direct ? 4 : Math.min(w * (narrow ? .34 : .26), Math.max(60, ...series.map(s2 => measure(el, s2.label, 'end-label'))) + 4);
   const lo = zeroBase ? 0 : Math.min(...all), hi = Math.max(...all) * 1.06 || 1;
   // the left margin fits the widest tick label, so large numbers are never cut off
   const tickW = Math.max(...ticks(lo, hi, 5).map(t => measure(el, yFmt(t), 'tick')), 20);
@@ -196,7 +199,7 @@ export function lineChart(el, { xs, series, pos = null, fmt = fmtN, yFmt = fmtSh
   }
   // end labels, pushed apart
   const ys = decollide(ends.map(e => e.y), 13, m.top, h - m.bottom);
-  ends.forEach((e, i) => {
+  if (direct) ends.forEach((e, i) => {
     const t = svg('text', { x: w - m.right + 8, y: ys[i] + 4, class: 'end-label', fill: e.s.color, opacity: e.dim ? .35 : 1 });
     el.append(t);
     fitText(t, e.s.label, labelW);
@@ -380,9 +383,13 @@ export function stackRows(el, { rows, parts, mode = 'share', fmt = fmtN, rowH: r
   const totals = rows.map(r => r.values.reduce((a, b) => a + (b || 0), 0));
   const mx = mode === 'share' ? 100 : Math.max(...totals, 1);
   const x = scaleLinear([0, mx], [m.left, w - m.right]);
+  let lastTick = -Infinity;
   for (const t of ticks(0, mx, narrow ? 4 : 5)) {
     el.append(svg('line', { x1: x(t), x2: x(t), y1: m.top, y2: h - m.bottom, class: 'grid-line' }));
-    el.append(svg('text', { x: x(t), y: h - m.bottom + 15, class: 'tick', 'text-anchor': 'middle' }, mode === 'share' ? `${t}%` : fmtShort(t)));
+    const lab = mode === 'share' ? `${t}%` : fmtShort(t), half = measure(el, lab, 'tick') / 2;
+    if (x(t) - half < lastTick + 6) continue;          // a label that would touch the one before is left out
+    lastTick = x(t) + half;
+    el.append(svg('text', { x: x(t), y: h - m.bottom + 15, class: 'tick', 'text-anchor': 'middle' }, lab));
   }
   rows.forEach((r, i) => {
     const y0 = m.top + (r.rank ?? i) * rowH;
@@ -436,9 +443,13 @@ export function heatmap(el, { rows, cols, get, max, rowMax = null, totalRows = n
   const cellsOf = i => cols.map((_, j) => get(i, j)?.v).filter(v => v != null);
   const allBins = bins(rows.flatMap((_, i) => (totalRows?.has(i) ? [] : cellsOf(i))));
   const rowBins = rowMax ? rows.map((_, i) => bins(cellsOf(i))) : null;
+  // the row names stay in view while a wide table is scrolled sideways (a phone shows five or six years at a time)
+  const sticky = svg('g', { class: 'sticky' });
+  el.append(sticky);
+  if (width > w) sticky.append(svg('rect', { x: 0, y: m.top - 1, width: m.left - 3, height: rows.length * cellH + 4, fill: 'var(--surface)' }));
   rows.forEach((r, i) => {
     const y0 = m.top + i * cellH;
-    rowLabel(el, m.left - 8, y0 + cellH / 2, r, m.left - 12);
+    rowLabel(sticky, m.left - 8, y0 + cellH / 2, r, m.left - 12);
     cols.forEach((c, j) => {
       const cell = get(i, j);
       const x0 = m.left + j * cellW;
@@ -462,6 +473,14 @@ export function heatmap(el, { rows, cols, get, max, rowMax = null, totalRows = n
   }
   if (hlCol != null) {
     el.append(svg('rect', { x: m.left + hlCol * cellW + .5, y: m.top - 2, width: cellW - 1, height: rows.length * cellH + 3, rx: 4, fill: 'none', stroke: 'var(--ink)', 'stroke-width': 1.6 }));
+  }
+  el.append(sticky);          // on top of the cells it slides over
+  const wrap = el.parentElement;
+  if (wrap) {
+    const place = () => { const g = el.querySelector('g.sticky'); if (g) g.setAttribute('transform', `translate(${desk.w && desk.svgs?.includes(el) ? 0 : wrap.scrollLeft} 0)`); };
+    if (!wrap._sticky) { wrap._sticky = true; wrap.addEventListener('scroll', () => wrap._place?.(), { passive: true }); }
+    wrap._place = place;
+    place();
   }
 }
 
@@ -542,7 +561,7 @@ export function clocks(el, { values, ghost = null, ghostLabel = '', max, mode = 
   const stacked = w < 560;
   // numerals sit at R + 27, so each dial needs R + 40 either side of its centre
   const R = stacked ? Math.min(w / 2 - 44, 170) : Math.min(w / 4 - 44, 190);
-  const h = stacked ? (R * 2 + 92) * 2 : R * 2 + 100;
+  const h = stacked ? (R * 2 + 92) * 2 + 32 : R * 2 + 100;
   frame(el, w, h);
   const total = Object.values(values).reduce((a, b) => a + (b || 0), 0) || 1;
   const val = s => (mode === 'share' ? (100 * (values[s] || 0)) / total : values[s] || 0);
@@ -590,8 +609,9 @@ export function clocks(el, { values, ghost = null, ghostLabel = '', max, mode = 
     el.append(svg('text', { x: cx, y: cy + R + 44, class: 'dial-sub', 'text-anchor': 'middle' }, `${D.sub} · ${fmt(half)}${unit}`));
   });
   // each chart has its own scale: say what the dashed ring stands for, so two charts are not compared by eye
-  el.append(svg('text', { x: w / 2, y: h - 4, class: 'dial-sub', 'text-anchor': 'middle' },
-    `Dashed ring = ${mode === 'share' ? fmtPct(max, 0) : fmt(max)}${unit} in three hours, the largest of any year on this chart`));
+  const ring = [`Dashed ring = ${mode === 'share' ? fmtPct(max, 0) : fmt(max)}${unit} in three hours,`, 'the largest of any year on this chart'];
+  if (stacked) ring.forEach((t, i) => el.append(svg('text', { x: w / 2, y: h - 19 + i * 15, class: 'dial-sub', 'text-anchor': 'middle' }, t)));
+  else el.append(svg('text', { x: w / 2, y: h - 4, class: 'dial-sub', 'text-anchor': 'middle' }, ring.join(' ')));
 }
 
 export const SLOT_LABELS = SLOT_NAME;
@@ -625,7 +645,9 @@ export function seasonChart(el, { cats, years, get, pos = 0, reveal = false, fmt
     el.append(svg('text', { x: m.left - 7, y: y(t) + 3.5, class: 'tick', 'text-anchor': 'end' }, fmtShort(t)));
   }
   el.append(svg('line', { x1: m.left, x2: w - m.right, y1: h - m.bottom, y2: h - m.bottom, class: 'axis-line' }));
-  cats.forEach((c, i) => el.append(svg('text', { x: x(i), y: h - m.bottom + 17, class: 'tick', 'text-anchor': 'middle' }, xLabel(c))));
+  const catW = Math.max(...cats.map(c => measure(el, xLabel(c), 'tick'))) + 6;
+  const every = Math.max(1, Math.ceil(catW / ((w - m.left - m.right) / Math.max(1, cats.length - 1))));
+  cats.forEach((c, i) => { if (i % every === 0) el.append(svg('text', { x: x(i), y: h - m.bottom + 17, class: 'tick', 'text-anchor': 'middle' }, xLabel(c))); });
   const k = Math.max(0, Math.min(years.length - 1, Math.floor(pos)));
   const f = pos - k;
   const cur = reveal ? k : Math.round(pos);

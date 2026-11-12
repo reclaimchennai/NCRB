@@ -5,12 +5,12 @@
  * The places picked at the top drive the line charts; the ranking and the map show every State, UT or city.
  */
 
-import { $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, lerp } from '../kit/util.js?v=621fd152db';
-import { lineChart, barRows, choropleth, emptyChart } from '../kit/grapher.js?v=621fd152db';
-import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=621fd152db';
-import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=621fd152db';
-import { footerHtml } from '../kit/footer.js?v=621fd152db';
-import { mountSearch } from '../kit/search.js?v=621fd152db';
+import { desk, $, el, icon, esc, getJSON, initTheme, debounce, fmtN, fmt1, lerp } from '../kit/util.js?v=7797e2be75';
+import { lineChart, barRows, choropleth, emptyChart } from '../kit/grapher.js?v=7797e2be75';
+import { segmented, select, entityPicker, Timeline, at, card, bindCapture } from '../kit/cards.js?v=7797e2be75';
+import { mapFor, outlineMap, boundaryNote } from '../kit/geo.js?v=7797e2be75';
+import { footerHtml } from '../kit/footer.js?v=7797e2be75';
+import { mountSearch } from '../kit/search.js?v=7797e2be75';
 
 const TYPE_LABEL = { total: 'India', state: 'States', ut: 'Union Territories', city: 'Cities' };
 const SOURCE = 'Data: National Crime Records Bureau, Crime in India and Accidental Deaths & Suicides in India, every edition 1988–2024; female population 1990–2011 from the Census of India (1991, 2001, 2011), a straight line between censuses.';
@@ -139,6 +139,7 @@ function buildCards() {
   C.sui = card(root, { id: 'dw-sui', kicker: 'Suicides over dowry disputes' });
   bindCapture(C.sui, { meta: () => meta(C.sui), name: 'dowry-suicides' });
 
+  desk.redraw = refresh;
   let lastW = innerWidth;
   addEventListener('resize', debounce(() => { if (innerWidth !== lastW) { lastW = innerWidth; refresh(); } }, 120));
 }

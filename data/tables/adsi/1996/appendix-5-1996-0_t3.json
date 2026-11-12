@@ -1,0 +1,140 @@
+{
+ "table_id": "adsi/1996/appendix-5-1996-0_t3",
+ "publication": "adsi",
+ "year": 1996,
+ "listing": "archived",
+ "topic": "Accidental Deaths & Suicides in India 1996 (archived copy of NCRB's old site)",
+ "section": "Accidental Deaths & Suicides in India 1996 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "APPENDIX-V",
+ "listing_title": "appendix-5 1996 0",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20220118181219id_/https://ncrb.gov.in/sites/default/files/adsi_reports_previous_year/appendix-5_1996_0.pdf",
+ "source_file": "raw/adsi/1996/archived/appendix-5_1996_0.pdf",
+ "source_sha256": "d6ac647853e08d7d7c4622ebb75eb7db3fb44a058ff8e85237693fb34b173eac",
+ "table_no": "",
+ "pdf_title": "APPENDIX-V",
+ "row_label": "Si. No. (1) States:",
+ "pages": [
+  13,
+  14
+ ],
+ "n_rows": 65,
+ "n_cols": 12,
+ "n_cells": 671,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "Known | State/UT/City (2)",
+   "header": [
+    "Known",
+    "State/UT/City (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "Known | Male (99)",
+   "header": [
+    "Known",
+    "Male (99)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Known | Female (100)",
+   "header": [
+    "Known",
+    "Female (100)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "Known | %share - (Col.101/109) ‘Total *100 (102) (101)",
+   "header": [
+    "Known",
+    "%share - (Col.101/109) ‘Total *100 (102) (101)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Known | (103)",
+   "header": [
+    "Known",
+    "(103)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Other | - Female (104)",
+   "header": [
+    "Other",
+    "- Female (104)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "Other | - (108)",
+   "header": [
+    "Other",
+    "- (108)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "%share 105/109) Total. *100 (106)",
+   "header": [
+    "%share 105/109) Total. *100 (106)"
+   ]
+  },
+  {
+   "col_no": "107",
+   "name": "Total | Male",
+   "header": [
+    "Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "108",
+   "name": "Total | Female",
+   "header": [
+    "Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "109",
+   "name": "Total | Total",
+   "header": [
+    "Total",
+    "Total"
+   ]
+  },
+  {
+   "col_no": "110",
+   "name": "Total | (Col.109/109) *100",
+   "header": [
+    "Total",
+    "(Col.109/109) *100"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 19,
+  "cells_passed": 14,
+  "failures": [
+   "col 2 'TOTAL States': printed 10980, sum 10880",
+   "col 107 'TOTAL States': printed 50191, sum 49114",
+   "col 107 'TOTAL UTs': printed 1015, sum 902",
+   "col 108 'TOTAL States': printed 36344, sum 35712",
+   "col 109 'TOTAL States': printed 86535, sum 84826"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

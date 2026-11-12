@@ -1,0 +1,139 @@
+{
+ "table_id": "adsi/1994/appendix-5-1994_t2",
+ "publication": "adsi",
+ "year": 1994,
+ "listing": "archived",
+ "topic": "Accidental Deaths & Suicides in India 1994 (archived copy of NCRB's old site)",
+ "section": "Accidental Deaths & Suicides in India 1994 (archived copy of NCRB's old site)",
+ "serial": "",
+ "title": "APPENDIX-V",
+ "listing_title": "appendix-5 1994",
+ "method": "pdf_ocr",
+ "sheet": "",
+ "source_url": "https://web.archive.org/web/20220118181110id_/https://ncrb.gov.in/sites/default/files/adsi_reports_previous_year/appendix-5_1994.pdf",
+ "source_file": "raw/adsi/1994/archived/appendix-5_1994.pdf",
+ "source_sha256": "5646cd453999df8b96cd1a1e643d8d6c1f2159f652ddbf20f15500f19e5b905c",
+ "table_no": "",
+ "pdf_title": "APPENDIX-V",
+ "row_label": "State/UT Sl. No. (4) States:",
+ "pages": [
+  4,
+  5
+ ],
+ "n_rows": 42,
+ "n_cols": 12,
+ "n_cells": 363,
+ "columns": [
+  {
+   "col_no": "2",
+   "name": "By Taking | Male (2)",
+   "header": [
+    "By Taking",
+    "Male (2)"
+   ]
+  },
+  {
+   "col_no": "3",
+   "name": "By Taking | Female (30)",
+   "header": [
+    "By Taking",
+    "Female (30)"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "Pills Total (31)",
+   "header": [
+    "Pills Total (31)"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "By Male (32)",
+   "header": [
+    "By Male (32)"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "Electri:; Wire | Female (33)",
+   "header": [
+    "Electri:; Wire",
+    "Female (33)"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "Electri:; Wire | Total (34)",
+   "header": [
+    "Electri:; Wire",
+    "Total (34)"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By Other Causes | Male (35)",
+   "header": [
+    "By Other Causes",
+    "Male (35)"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "By Other Causes | Female (36)",
+   "header": [
+    "By Other Causes",
+    "Female (36)"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "By Other Causes | Total (37) (38)",
+   "header": [
+    "By Other Causes",
+    "Total (37) (38)"
+   ]
+  },
+  {
+   "col_no": "39",
+   "name": "Grand Total | Male",
+   "header": [
+    "Grand Total",
+    "Male"
+   ]
+  },
+  {
+   "col_no": "40",
+   "name": "Grand Total | Female",
+   "header": [
+    "Grand Total",
+    "Female"
+   ]
+  },
+  {
+   "col_no": "41",
+   "name": "Grand Total | Total",
+   "header": [
+    "Grand Total",
+    "Total"
+   ]
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 5,
+  "cells_passed": 0,
+  "failures": [
+   "col 2 'TOTAL (UTs!}': printed 5, sum 713",
+   "col 39 'TOTAL (UTs!}': printed 1068, sum 45492",
+   "col 39 'TOTAL (States)': printed 51684, sum 6676",
+   "col 40 'TOTAL (States)': printed 35833, sum 4148",
+   "col 41 'TOTAL (States)': printed 87517, sum 10824"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 1,
+ "ocr_pages": 2,
+ "warnings": []
+}

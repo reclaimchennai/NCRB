@@ -1,0 +1,201 @@
+{
+ "table_id": "adsi/1983/1_appendix-2-1983_t4",
+ "publication": "adsi",
+ "year": 1983,
+ "listing": "table_content",
+ "topic": "Accidental Deaths in India",
+ "section": "ACCIDENTAL DEATHS IN INDIA",
+ "serial": "1",
+ "title": "43",
+ "listing_title": "State wise distribution of Accidental Deaths due to Other Causes during 1983",
+ "method": "pdf_vlm",
+ "sheet": "",
+ "source_url": "https://www.ncrb.gov.in/uploads/2022/July/11/custom/adsi/appendix-2_1983.pdf",
+ "source_file": "raw/adsi/1983/table_content/appendix-2_1983.pdf",
+ "source_sha256": "1b0a70b8adcd560411e0af729b4f58c2dffdc526dda38af018260412c8620ba5",
+ "table_no": "",
+ "pdf_title": "43",
+ "row_label": "Sl. No. / States/UTs/Cities",
+ "pages": [
+  4
+ ],
+ "n_rows": 13,
+ "n_cols": 20,
+ "n_cells": 260,
+ "columns": [
+  {
+   "col_no": "3",
+   "name": "By Fire Arms | M",
+   "header": [
+    "By Fire Arms",
+    "M"
+   ]
+  },
+  {
+   "col_no": "4",
+   "name": "By Fire Arms | F",
+   "header": [
+    "By Fire Arms",
+    "F"
+   ]
+  },
+  {
+   "col_no": "5",
+   "name": "By Explosion | M",
+   "header": [
+    "By Explosion",
+    "M"
+   ]
+  },
+  {
+   "col_no": "6",
+   "name": "By Explosion | F",
+   "header": [
+    "By Explosion",
+    "F"
+   ]
+  },
+  {
+   "col_no": "7",
+   "name": "By House Collapse | M",
+   "header": [
+    "By House Collapse",
+    "M"
+   ]
+  },
+  {
+   "col_no": "8",
+   "name": "By House Collapse | F",
+   "header": [
+    "By House Collapse",
+    "F"
+   ]
+  },
+  {
+   "col_no": "9",
+   "name": "(a) Motor Vehicle Accidents | M",
+   "header": [
+    "(a) Motor Vehicle Accidents",
+    "M"
+   ]
+  },
+  {
+   "col_no": "10",
+   "name": "(a) Motor Vehicle Accidents | F",
+   "header": [
+    "(a) Motor Vehicle Accidents",
+    "F"
+   ]
+  },
+  {
+   "col_no": "11",
+   "name": "(b) Other Road Accidents | M",
+   "header": [
+    "(b) Other Road Accidents",
+    "M"
+   ]
+  },
+  {
+   "col_no": "12",
+   "name": "(b) Other Road Accidents | F",
+   "header": [
+    "(b) Other Road Accidents",
+    "F"
+   ]
+  },
+  {
+   "col_no": "13",
+   "name": "In Factories | M",
+   "header": [
+    "In Factories",
+    "M"
+   ]
+  },
+  {
+   "col_no": "14",
+   "name": "In Factories | F",
+   "header": [
+    "In Factories",
+    "F"
+   ]
+  },
+  {
+   "col_no": "15",
+   "name": "In Railways | M",
+   "header": [
+    "In Railways",
+    "M"
+   ]
+  },
+  {
+   "col_no": "16",
+   "name": "In Railways | F",
+   "header": [
+    "In Railways",
+    "F"
+   ]
+  },
+  {
+   "col_no": "17",
+   "name": "In Air-Crashes | M",
+   "header": [
+    "In Air-Crashes",
+    "M"
+   ]
+  },
+  {
+   "col_no": "18",
+   "name": "In Air-Crashes | F",
+   "header": [
+    "In Air-Crashes",
+    "F"
+   ]
+  },
+  {
+   "col_no": "19",
+   "name": "By Fire | M",
+   "header": [
+    "By Fire",
+    "M"
+   ]
+  },
+  {
+   "col_no": "20",
+   "name": "By Fire | F",
+   "header": [
+    "By Fire",
+    "F"
+   ]
+  },
+  {
+   "col_no": "21",
+   "name": "col_21",
+   "header": []
+  },
+  {
+   "col_no": "22",
+   "name": "col_22",
+   "header": []
+  }
+ ],
+ "notes": [],
+ "checks": {
+  "cells_checked": 18,
+  "cells_passed": 1,
+  "failures": [
+   "col 3 'TOTAL (Cities)': printed 26, sum 21",
+   "col 5 'TOTAL (Cities)': printed 27, sum 21",
+   "col 6 'TOTAL (Cities)': printed 5, sum 11",
+   "col 7 'TOTAL (Cities)': printed 195, sum 187",
+   "col 8 'TOTAL (Cities)': printed 94, sum 97",
+   "col 9 'TOTAL (Cities)': printed 3809, sum 3648",
+   "col 10 'TOTAL (Cities)': printed 696, sum 824",
+   "col 11 'TOTAL (Cities)': printed 3415, sum 3305"
+  ],
+  "other_totals_checked": 0,
+  "other_totals_passed": 0
+ },
+ "inferred_pages": 0,
+ "ocr_pages": 1,
+ "warnings": []
+}
