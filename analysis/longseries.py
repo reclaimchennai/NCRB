@@ -65,7 +65,7 @@ IPC_HEADS = [
     ("counterfeiting", "Counterfeiting", r"counterfeit", r""),
     ("arson", "Arson", r"\barson", r""),
     ("hurt", "Hurt", r"\bhurt\b", r"acid|rash|negligen|driving|endanger|deter|weapon|attempt|(simple|grievous)\s+hurt\s*\(total|"
-                               r"(simple|grievous) hurt (simple|grievous) hurt|^(?!.*(hurt\s*\(total|simple\s*\+\s*grievous|hurt\s*/\s*grievous)).*(grievous|simple)"),
+                               r"(simple|grievous) hurt (simple|grievous) hurt|^(?!.*(hurt\s*\(total|simple\s*\+\s*grievous|hurt\s*/\s*grievous|hurt or grievous)).*(grievous|simple)"),
     ("dowry_deaths", "Dowry deaths", r"dowry death", r""),
     ("molestation", "Assault on women with intent to outrage modesty", r"modesty|molest", r""),
     ("cruelty", "Cruelty by husband or relatives", r"cruelty by husband", r""),
@@ -99,7 +99,7 @@ YEAR = re.compile(r"(?<!\d)(19[5-9]\d|20[0-2]\d)(?!\d)")
 # cities that were never a State's name: a row after one of these, in a table with no section headings, is a city
 CITY_ONLY = re.compile(r"^[\W\d]*(calcutta|kolkata|ahmedabad|kanpur|bangalore|bengaluru|poona|pune|nagpur|lucknow|jaipur|indore|"
                        r"coimbatore|madurai|surat|varanasi|patna|agra|allahabad|jabalpur|amritsar|ludhiana|vadodara|baroda)\b", re.I)
-WEIGHT = {"pdf_text": 3.0, "excel": 3.0, "pdf_vlm": 1.5, "pdf_mixed": 1.0, "pdf_ocr": 1.0}
+WEIGHT = {"pdf_text": 3.0, "excel": 3.0, "word": 3.0, "pdf_vlm": 1.5, "pdf_mixed": 1.0, "pdf_ocr": 1.0}
 
 
 def head_of(text: str, heads) -> str | None:
@@ -316,7 +316,7 @@ def options(g: pd.DataFrame) -> list[dict]:
         # independent printings: the same table reprinted in a year-wise volume is one source, not two
         indep = {(int(x.year), re.sub(r"[^a-z]+", "", str(x.title).lower())[:50]) for x in rs}
         out.append({"value": v, "support": sum(x.w for x in rs), "n": len(indep),
-                    "text": any(x.method in ("pdf_text", "excel") for x in rs), "crank": min(x.crank for x in rs), "src": src,
+                    "text": any(x.method in ("pdf_text", "excel", "word") for x in rs), "crank": min(x.crank for x in rs), "src": src,
                     "hand": any(x.method == "handread" for x in rs)})
     out.sort(key=lambda o: -o["support"])
     for o in out:
@@ -417,7 +417,9 @@ def pick(c: pd.DataFrame) -> pd.DataFrame:
                 # a hand-read figure adds up on its page, but the page itself can carry NCRB's slip (Madras road
                 # deaths printed 5 in 1991 against ~450 either side): one printed only in one table is held to the
                 # wide band below; one that several of the year's tables print (Madras suicides 1978: 148) stands
-                if o["firm"] and not (o["hand"] and not o["text"] and o["n"] < 2):
+                # (only road deaths: a crime table read from the page is checked cell by cell against its printed row and
+                # column totals, so Madras city's 246 counterfeiting cases of 1967 against 64 and 84 either side stand)
+                if o["firm"] and not (o["hand"] and not o["text"] and o["n"] < 2 and h == "road"):
                     continue
                 near = [kept[x]["value"] for x in kept if x != y and abs(x - y) <= 5 and segment(p, x) == segment(p, y)]
                 if len(near) < 2:           # a sparse era: neighbours up to ten years away
@@ -428,7 +430,11 @@ def pick(c: pd.DataFrame) -> pd.DataFrame:
                 m = median(near) if len(near) >= 2 else None
                 # counts in the hundreds and up rarely move more than ~30% in a year; small ones can double
                 lo, hi = (0.4, 2.5) if wide else (0.7, 1.43) if m and m >= 200 and len(near) >= 3 else (0.5, 2.0)
-                if m is None or not (m > 0 and lo <= o["value"] / m <= hi or (m == 0 and o["value"] <= 5)):
+                # a hand-read count in the tens is not judged by ratio: 0, 8 and 3 dacoities in consecutive years are all real
+                small = o["hand"] and m is not None and abs(o["value"] - m) <= 30
+                if m is None and o["hand"] and o["value"] <= 30:
+                    small = True
+                if not small and (m is None or not (m > 0 and lo <= o["value"] / m <= hi or (m == 0 and o["value"] <= 5))):
                     drop.append(y)
             if not drop:
                 break
@@ -611,7 +617,7 @@ def handread_crime(heads) -> pd.DataFrame:
                 if not pl or pl[1] == "total":
                     continue
                 for k, cat, val in zip(kk, cc, v):
-                    if k and val is not None and val > 0:
+                    if k and val is not None and val >= 0:   # a printed nil is a figure (no dacoity in Madras city in 1961), not a gap
                         rows.append({"pname": pl[0], "ptype": pl[1], "head": k, "fy": m.YEAR, "value": float(val), "w": 2.0, "column": cat,
                                      "own": True, "crank": 0, "method": "handread", "table_id": f"handread/{Path(m.SOURCE).stem}",
                                      "title": f"{m.TITLE} (read from the page image)", "year": m.YEAR, "source_url": ""})
